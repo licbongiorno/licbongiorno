@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 12
 estado: borrador
 ---
-¿Por qué las mismas historias se repiten en culturas que nunca tuvieron contacto entre sí? El viaje del héroe, la madre que protege o devora, el sabio que aconseja, el embaucador que desordena todo. Carl Gustav Jung propuso una respuesta: los **arquetipos**.
+No, no son personajes de mitos lejanos. Son el que se anima a irse de casa, la que cuida a todos menos a sí misma, el que siempre tiene la palabra sabia y nunca pide ayuda, el que patea el tablero cuando todo parece en orden. Los conocés porque, de alguna manera, también te habitan.
+
+¿Por qué las mismas historias se repiten en culturas que nunca tuvieron contacto entre sí? Carl Gustav Jung propuso una respuesta: los **arquetipos**, patrones universales de experiencia que organizan las imágenes con las que vivimos lo más humano.
 
 ## Qué es un arquetipo
 
@@ -35,7 +37,7 @@ Para Jung, un arquetipo es un patrón universal de experiencia que forma parte d
 
 ## Para qué sirve reconocerlos
 
-Identificar qué arquetipo está activo en un momento de la vida ayuda a comprender reacciones intensas, elecciones repetidas o crisis que parecen no tener explicación. En terapia junguiana, ese reconocimiento es parte del camino de la [individuación](/glosario-junguiano/#individuacion).
+Identificar qué arquetipo está activo en un momento de la vida ayuda a comprender reacciones intensas, elecciones repetidas o crisis que parecen no tener explicación. Es como descubrir que la obra que venías actuando tiene un guion antiguo, y que podés, por fin, elegir qué papel querés seguir interpretando. En terapia junguiana, ese reconocimiento es parte del camino de la [individuación](/glosario-junguiano/#individuacion).
 
 ## Para seguir leyendo
 

@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 3
 estado: borrador
 ---
-Todos tenemos aspectos de nosotros mismos que preferimos no ver. Rasgos que nos avergüenzan, deseos que no encajan con la imagen que queremos dar, emociones que aprendimos a esconder. Carl Gustav Jung, el psiquiatra suizo fundador de la psicología analítica, llamó **sombra** a ese conjunto de aspectos rechazados.
+No, no es tu peor parte. Es la parte que dejaste afuera. Ese enojo que aprendiste a tragar, esa ambición que te dio vergüenza, esa ternura que nunca supiste dónde poner. Todo eso no se fue: se mudó al sótano. Y tiene la costumbre de aparecer justo en las personas que más nos irritan.
+
+Carl Gustav Jung, el psiquiatra suizo fundador de la psicología analítica, llamó **sombra** al conjunto de aspectos de nosotros mismos que no reconocemos como propios.
 
 ## Qué es la sombra
 
@@ -40,7 +42,7 @@ Ese reconocimiento tiene efectos concretos: disminuye la necesidad de proyectar 
 
 En el espacio terapéutico, la sombra suele aparecer de a poco: en lo que cuesta decir, en los sueños, en lo que se repite. El trabajo no consiste en juzgarla, sino en acercarse con curiosidad y respeto.
 
-Integrar la sombra no nos hace peores personas. Nos hace más completos, más compasivos con nosotros mismos y, en consecuencia, con los demás.
+Integrar la sombra no nos hace peores personas. Nos hace más completos, más compasivos con nosotros mismos y, en consecuencia, con los demás. Bajar al sótano da miedo, pero ahí abajo, entre lo que escondimos, suele estar también lo que nos falta para estar enteros.
 
 ## Para seguir leyendo
 

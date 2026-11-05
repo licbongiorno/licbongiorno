@@ -11,6 +11,8 @@ fecha_visible: Noviembre de 2026
 orden: 11
 estado: borrador
 ---
+No, no es un poco de cada cosa. No es una ensalada de técnicas ni un menú para elegir según el día. Es, en todo caso, como un buen artesano: tiene un oficio que domina y, además, sabe cuándo conviene usar otra herramienta.
+
 La psicoterapia integrativa es una forma de trabajar que reconoce que ningún enfoque, por sí solo, tiene todas las respuestas, y que combina de manera coherente aportes de distintas corrientes según las necesidades de cada persona.
 
 ## Un poco de historia
@@ -31,4 +33,4 @@ En mi caso, el eje es la [psicología analítica de Jung](/terapia-junguiana/), 
 
 > El método se adapta a la persona; no la persona al método.
 
-Podés leer más sobre cada corriente y el lugar que ocupa en [Mi enfoque](/enfoque/).
+Al final, las teorías son mapas, y ningún mapa es el territorio. El territorio sos vos: único, con tus propios caminos y atajos. Podés leer más sobre cada corriente y el lugar que ocupa en [Mi enfoque](/enfoque/).

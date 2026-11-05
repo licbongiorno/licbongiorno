@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 7
 estado: borrador
 ---
-Tenés el trabajo que buscabas, una familia, una rutina que funciona. Y sin embargo, algo no cierra. Aparece una inquietud difícil de explicar, a veces un vacío, a veces un deseo urgente de cambiarlo todo. Es lo que suele llamarse crisis de la mitad de la vida.
+Tenés el trabajo que buscabas, una familia, una rutina que funciona. Subiste la escalera que te dijeron que había que subir. Y un día, arriba de todo, mirás alrededor y te preguntás si era esta la pared donde querías apoyarla.
+
+No es ingratitud ni capricho. Es una inquietud difícil de explicar, a veces un vacío, a veces un deseo urgente de cambiarlo todo. Es lo que suele llamarse crisis de la mitad de la vida.
 
 ## Lo que observó Jung
 
@@ -35,7 +37,7 @@ La palabra *crisis* viene del griego y significa «decisión», «separación».
 
 ## Cómo puede ayudar la terapia
 
-Un espacio terapéutico permite detenerse y escuchar lo que la crisis está diciendo. Desde la mirada junguiana, se trabaja con la historia, con los deseos postergados y con las imágenes que aparecen en sueños y fantasías, como parte del [proceso de individuación](/glosario-junguiano/#individuacion).
+Un espacio terapéutico permite detenerse y escuchar lo que la crisis está diciendo. Desde la mirada junguiana, se trabaja con la historia, con los deseos postergados y con las imágenes que aparecen en sueños y fantasías, como parte del [proceso de individuación](/glosario-junguiano/#individuacion). La primera mitad de la vida nos enseña a construir la casa; la segunda nos invita a habitarla de verdad.
 
 ## Para seguir leyendo
 

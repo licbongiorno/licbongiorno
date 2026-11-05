@@ -11,9 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 1
 estado: borrador
 ---
-Muchas personas llegan a terapia después de mucho tiempo de dudar. «No sé si lo mío es para tanto», «otros están peor», «debería poder resolverlo solo». Esas frases son muy comunes, y muchas veces postergan una ayuda que podría haber llegado antes.
+«No sé si lo mío es para tanto.» «Hay gente que está peor.» «Debería poder resolverlo solo.» Si alguna de estas frases te suena, no estás solo: son las que más escucho en las primeras entrevistas, casi siempre dichas después de meses, o años, de postergar.
 
-La verdad es que **no hace falta estar en una situación extrema para consultar**. La terapia no es solo para crisis: también es un espacio para comprenderse mejor y para cuidar la propia salud mental.
+La verdad es que **no hace falta estar en una situación extrema para consultar**. La terapia no es una guardia de emergencias: también es un lugar para comprenderte, para ordenar lo que sentís y para cuidarte antes de que el cuerpo o la vida te obliguen.
 
 ## Algunas señales que vale la pena escuchar
 
@@ -39,7 +39,7 @@ El sufrimiento no se mide en comparación. Si algo te inquieta lo suficiente com
 
 La primera entrevista es una conversación para conocerse. No necesitás traer nada preparado ni tener claro qué te pasa. Contás lo que te trae, el profesional te explica cómo trabaja y, juntos, evalúan si ese espacio es adecuado para vos.
 
-No es un compromiso: es un primer paso para pensar con otro algo que, solo, se vuelve más difícil de ver.
+No es un compromiso: es un primer paso para pensar con otro algo que, solo, se vuelve más difícil de ver. A veces alcanza con eso: con animarse a sentarse y decir, por primera vez en voz alta, lo que venías cargando en silencio.
 
 ## Cuándo no esperar
 

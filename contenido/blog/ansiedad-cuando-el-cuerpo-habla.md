@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 2
 estado: borrador
 ---
-La ansiedad es una de las experiencias más frecuentes en la consulta psicológica. Y también una de las más desconcertantes: aparece sin aviso, se instala en el cuerpo y muchas veces no sabemos bien de dónde viene.
+No, no es que estés exagerando. Es que el cuerpo llegó primero. Antes de que puedas ponerle nombre a lo que te pasa, ya está ahí: el pecho apretado, la cabeza que no para, el insomnio de las tres de la mañana, esa alarma que suena aunque no haya incendio.
+
+La ansiedad es una de las experiencias más frecuentes en la consulta, y también una de las más desconcertantes: aparece sin aviso, se instala en el cuerpo y muchas veces no sabemos de dónde viene.
 
 ## Qué es la ansiedad
 
@@ -48,7 +50,7 @@ Por eso, además de aliviar el síntoma, en terapia nos preguntamos qué está d
 
 Si la ansiedad interfiere en tu vida cotidiana, en tu descanso, en tus vínculos o en tu trabajo, o si tuviste ataques de pánico, es un buen momento para consultar. También es importante descartar causas médicas con un profesional de la salud.
 
-La ansiedad tiene tratamiento, y entenderla puede ser el comienzo de una relación distinta con vos mismo.
+La ansiedad tiene tratamiento. Y cuando dejamos de pelearnos con ella y empezamos a escucharla, deja de ser solo una alarma y se vuelve una brújula: señala, casi siempre, hacia algo de tu vida que está pidiendo lugar.
 
 ## Para seguir leyendo
 

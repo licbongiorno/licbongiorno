@@ -11,6 +11,8 @@ fecha_visible: Noviembre de 2026
 orden: 10
 estado: borrador
 ---
+No, no es amor de más. Es miedo con forma de amor. Es revisar el celular cada cinco minutos, achicarte para que el otro no se vaya, tolerar lo que duele porque perderlo parece todavía peor.
+
 Todos necesitamos de los otros: somos seres de vínculo. Pero a veces esa necesidad se vuelve tan intensa que el bienestar propio queda en manos de otra persona. Hablamos entonces de dependencia emocional.
 
 ## Algunas señales
@@ -29,7 +31,7 @@ Suele tener raíces en la historia de cada uno: vínculos tempranos en los que e
 
 ## Cómo se trabaja en terapia
 
-El objetivo no es volverse autosuficiente ni desconfiar del amor. Se trata de comprender el patrón, reconocer qué se busca en el otro y empezar a construir una base propia de valor y seguridad. Desde ahí, los vínculos pueden elegirse en lugar de padecerse. Más información en [Dificultades vinculares](/dificultades-vinculares/).
+El objetivo no es volverse autosuficiente ni desconfiar del amor. Se trata de comprender el patrón, reconocer qué se busca en el otro y empezar a construir una base propia de valor y seguridad. Desde ahí, los vínculos pueden elegirse en lugar de padecerse: dejar de ser la hiedra que se aferra para volverse un árbol que puede, también, dar sombra. Más información en [Dificultades vinculares](/dificultades-vinculares/).
 
 ## Para seguir leyendo
 

@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 6
 estado: borrador
 ---
-Todos soñamos, aunque no siempre lo recordemos. Para Carl Gustav Jung, los sueños son una expresión natural y espontánea del inconsciente: una forma en que la psique se comunica con la conciencia a través de imágenes.
+No, no es «solo un sueño». Es una carta que te escribiste a vos mismo en un idioma que todavía no aprendiste a leer: con imágenes en lugar de palabras, con casas que no conocés, con personas que ya no están, con escaleras que suben a ninguna parte.
+
+Para Carl Gustav Jung, los sueños son una expresión natural y espontánea del inconsciente: la forma en que la psique se comunica con la conciencia a través de imágenes.
 
 ## Jung y Freud: dos miradas
 
@@ -33,7 +35,7 @@ Algunas imágenes del sueño remiten a nuestra historia: personas, lugares, situ
 
 ## Los sueños en terapia
 
-En una terapia junguiana, los sueños son una vía privilegiada para conocer lo que todavía no es consciente. No se trata de que el terapeuta «diga qué significa», sino de explorarlos juntos, con tus asociaciones y con el método de la [amplificación](/glosario-junguiano/#amplificacion). Si no recordás sueños, no hay problema: también se trabaja con la vida cotidiana.
+En una terapia junguiana, los sueños son una vía privilegiada para conocer lo que todavía no es consciente. No se trata de que el terapeuta «diga qué significa», sino de explorarlos juntos, con tus asociaciones y con el método de la [amplificación](/glosario-junguiano/#amplificacion). Si no recordás sueños, no hay problema: también se trabaja con la vida cotidiana. Pero si esta noche aparece uno, anotalo. Puede que tenga algo para decirte.
 
 ## Para seguir leyendo
 

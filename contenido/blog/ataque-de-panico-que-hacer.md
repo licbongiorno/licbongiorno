@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 9
 estado: borrador
 ---
-Un ataque de pánico es una de las experiencias más angustiantes que puede vivir una persona. Llega de golpe y el cuerpo se dispara: el corazón late muy rápido, cuesta respirar y aparece un miedo intenso a morir, desmayarse o volverse loco. Conocer lo que pasa ayuda a atravesarlo con menos miedo.
+Si alguna vez lo viviste, lo sabés: no es «un poco de nervios». Es el corazón galopando, el aire que no alcanza, la certeza absurda y total de que te vas a morir ahí mismo, en la fila del súper o en la cama a oscuras.
+
+Un ataque de pánico es una de las experiencias más angustiantes que puede vivir una persona. Conocer lo que pasa no lo hace agradable, pero sí ayuda a atravesarlo con menos miedo.
 
 ## Qué está pasando
 
@@ -27,7 +29,7 @@ Durante un ataque de pánico, el cuerpo activa la respuesta de alarma como si hu
 
 ## Y después
 
-Muchas personas, después de un ataque, empiezan a evitar los lugares o situaciones donde ocurrió, y la vida se va achicando. Por eso conviene **consultar después del primero**, sin esperar a que se repita. En terapia se trabaja tanto el manejo de las crisis como lo que las alimenta: tensiones acumuladas, conflictos o cambios que todavía no encontraron palabras. Más información en [Ansiedad y ataques de pánico](/ansiedad-y-ataques-de-panico/).
+Muchas personas, después de un ataque, empiezan a evitar los lugares o situaciones donde ocurrió, y la vida se va achicando: primero el colectivo, después el centro, después salir. Por eso conviene **consultar después del primero**, sin esperar a que se repita. En terapia se trabaja tanto el manejo de las crisis como lo que las alimenta: tensiones acumuladas, conflictos o cambios que todavía no encontraron palabras. El pánico grita porque algo, hace tiempo, viene hablando bajito. Más información en [Ansiedad y ataques de pánico](/ansiedad-y-ataques-de-panico/).
 
 :::aviso
 Si los síntomas son nuevos para vos, incluyen dolor de pecho persistente o tenés dudas sobre tu salud, consultá a una guardia médica o llamá al 107 o al 911.

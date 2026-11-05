@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 5
 estado: borrador
 ---
-Cada vez más personas viven lejos del país donde crecieron. Estudian, trabajan o formaron una familia en otro lugar del mundo. Y muchas de ellas, en algún momento, sienten la necesidad de hacer terapia en su propio idioma.
+Hay emociones que solo encuentran palabras en el idioma en que fueron vividas. Podés hablar perfecto otra lengua, trabajar en ella, soñar en ella. Pero cuando duele de verdad, el dolor vuelve a casa y habla en castellano.
+
+Cada vez más personas viven lejos del país donde crecieron. Y muchas de ellas, en algún momento, sienten la necesidad de hacer terapia en su propio idioma.
 
 ## Por qué hacer terapia en la lengua materna
 
@@ -41,4 +43,4 @@ La terapia online se realiza por videollamada, en un día y horario fijos. Para 
 
 No es idéntica, pero comparte lo esencial. Muchas personas sostienen procesos profundos y transformadores por videollamada. Hay situaciones en las que la presencialidad es más recomendable; un buen profesional te lo va a decir con claridad.
 
-Si vivís fuera de Argentina y querés hacer terapia en español, el primer paso es una conversación para conocer tu situación y ver juntos si este espacio es adecuado para vos.
+Si vivís fuera de Argentina y querés hacer terapia en español, el primer paso es una conversación para conocer tu situación y ver juntos si este espacio es adecuado para vos. Los kilómetros no impiden el encuentro: lo que lo sostiene es la confianza, la regularidad y una escucha que te espera del otro lado de la pantalla.

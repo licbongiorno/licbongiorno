@@ -11,6 +11,8 @@ fecha_visible: Noviembre de 2026
 orden: 8
 estado: borrador
 ---
+Te fuiste con una valija y volviste a armar una vida. Pero hay cosas que no entraron en ninguna valija: el mate de los domingos, el humor que no hay que explicar, la voz de tu vieja a diez cuadras y no a diez horas de avión.
+
 Irse a vivir a otro país suele ser una decisión pensada, a veces muy deseada. Y aun así, en algún momento aparece una tristeza que desconcierta: «Si yo elegí venir, ¿por qué me siento así?». Eso tiene nombre: **duelo migratorio**.
 
 ## Qué se pierde al migrar
@@ -39,7 +41,7 @@ A diferencia de otros duelos, lo perdido sigue existiendo: se puede volver de vi
 
 ## Terapia en tu idioma, desde donde estés
 
-Hacer terapia en español, con alguien que comparte tus códigos culturales, puede facilitar mucho este proceso. La [terapia online](/terapia-online/) permite sostener ese espacio desde cualquier país, con el mismo cuidado que en un consultorio.
+Hacer terapia en español, con alguien que comparte tus códigos culturales, puede facilitar mucho este proceso. La [terapia online](/terapia-online/) permite sostener ese espacio desde cualquier país, con el mismo cuidado que en un consultorio. Porque migrar no es arrancar raíces: es aprender a que crezcan en dos tierras a la vez.
 
 ## Para seguir leyendo
 

@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 13
 estado: borrador
 ---
-Ver sufrir a alguien que queremos genera impotencia. Con la depresión, además, muchas veces no sabemos qué decir, y las frases bienintencionadas pueden caer mal. Algunas orientaciones pueden ayudar.
+No hay frase mágica. Lo sabés porque ya probaste varias: «arriba ese ánimo», «salí un poco», «mirá todo lo que tenés». Y la persona que querés sigue ahí, del otro lado de un vidrio que no sabés cómo atravesar.
+
+Ver sufrir a alguien que queremos genera impotencia. Con la depresión, además, las frases bienintencionadas muchas veces caen mal. Algunas orientaciones pueden ayudar.
 
 ## Lo que ayuda
 
@@ -35,7 +37,7 @@ La depresión puede tratarse, y la ayuda profesional hace una gran diferencia. P
 
 ## Cuidarte también vos
 
-Acompañar desgasta. Buscá apoyo en otras personas, mantené tus espacios propios y, si lo necesitás, consultá vos también. Cuidarte no es egoísmo: es lo que te permite seguir estando.
+Acompañar desgasta. Buscá apoyo en otras personas, mantené tus espacios propios y, si lo necesitás, consultá vos también. Cuidarte no es egoísmo: es lo que te permite seguir estando. Nadie puede ser faro si se le apaga la propia luz.
 
 :::aviso
 Si la persona habla de quitarse la vida, se despide o da señales de riesgo, no lo minimices ni lo dejes solo: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).

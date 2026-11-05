@@ -11,7 +11,9 @@ fecha_visible: Noviembre de 2026
 orden: 4
 estado: borrador
 ---
-«Siempre me pasa lo mismo.» Es una de las frases que más se escuchan en la consulta. Distintas parejas que terminan de la misma manera, amistades en las que uno termina dando más de lo que recibe, jefes que despiertan el mismo malestar. Cambian las personas, pero la historia se parece demasiado.
+«Siempre me pasa lo mismo.» Cambia la cara, cambia el nombre, cambia la ciudad. Pero la escena es idéntica: el que no está disponible, la que da hasta quedarse vacía, el jefe que despierta exactamente el mismo nudo en la panza. Como si la vida nos pusiera una y otra vez la misma película, con otro elenco.
+
+Es una de las frases que más se escuchan en la consulta, y tiene una explicación: los patrones vinculares que repetimos sin darnos cuenta.
 
 ## La repetición
 
@@ -41,7 +43,7 @@ En psicoterapia, el primer paso es reconocer el patrón: ver qué se repite, en 
 
 No se trata de buscar culpables en el pasado, sino de entender la propia historia para dejar de actuarla sin darse cuenta. Muchas veces, la misma relación terapéutica se vuelve un lugar donde esos patrones aparecen y pueden pensarse de una manera nueva.
 
-Romper un patrón lleva tiempo. Pero cada vez que lo reconocés, se abre la posibilidad de un final distinto.
+Romper un patrón lleva tiempo. Pero cada vez que lo reconocés, se abre la posibilidad de un final distinto. No se trata de cambiar de película: se trata de dejar de ser espectador de tu propia historia y animarte, por fin, a reescribir el guion.
 
 ## Para seguir leyendo
 
