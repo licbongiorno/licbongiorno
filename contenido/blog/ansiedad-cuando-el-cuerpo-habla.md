@@ -9,7 +9,7 @@ lectura: 7
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 2
-estado: borrador
+estado: publicado
 ---
 No, no es que estés exagerando. Es que el cuerpo llegó primero. Antes de que puedas ponerle nombre a lo que te pasa, ya está ahí: el pecho apretado, la cabeza que no para, el insomnio de las tres de la mañana, esa alarma que suena aunque no haya incendio.
 

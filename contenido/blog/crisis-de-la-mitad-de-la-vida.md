@@ -9,7 +9,7 @@ lectura: 6
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 7
-estado: borrador
+estado: publicado
 ---
 Tenés el trabajo que buscabas, una familia, una rutina que funciona. Subiste la escalera que te dijeron que había que subir. Y un día, arriba de todo, mirás alrededor y te preguntás si era esta la pared donde querías apoyarla.
 

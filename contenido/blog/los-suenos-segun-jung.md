@@ -9,7 +9,7 @@ lectura: 6
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 6
-estado: borrador
+estado: publicado
 ---
 No, no es «solo un sueño». Es una carta que te escribiste a vos mismo en un idioma que todavía no aprendiste a leer: con imágenes en lugar de palabras, con casas que no conocés, con personas que ya no están, con escaleras que suben a ninguna parte.
 

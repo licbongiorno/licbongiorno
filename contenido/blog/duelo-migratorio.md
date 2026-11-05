@@ -9,7 +9,7 @@ lectura: 5
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 8
-estado: borrador
+estado: publicado
 ---
 Te fuiste con una valija y volviste a armar una vida. Pero hay cosas que no entraron en ninguna valija: el mate de los domingos, el humor que no hay que explicar, la voz de tu vieja a diez cuadras y no a diez horas de avión.
 

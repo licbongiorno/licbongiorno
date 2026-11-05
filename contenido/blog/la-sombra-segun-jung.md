@@ -9,7 +9,7 @@ lectura: 7
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 3
-estado: borrador
+estado: publicado
 ---
 No, no es tu peor parte. Es la parte que dejaste afuera. Ese enojo que aprendiste a tragar, esa ambición que te dio vergüenza, esa ternura que nunca supiste dónde poner. Todo eso no se fue: se mudó al sótano. Y tiene la costumbre de aparecer justo en las personas que más nos irritan.
 

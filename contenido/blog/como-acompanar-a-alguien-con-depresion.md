@@ -9,7 +9,7 @@ lectura: 5
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 13
-estado: borrador
+estado: publicado
 ---
 No hay frase mágica. Lo sabés porque ya probaste varias: «arriba ese ánimo», «salí un poco», «mirá todo lo que tenés». Y la persona que querés sigue ahí, del otro lado de un vidrio que no sabés cómo atravesar.
 

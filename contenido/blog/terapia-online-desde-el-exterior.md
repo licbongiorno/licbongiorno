@@ -9,7 +9,7 @@ lectura: 6
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 5
-estado: borrador
+estado: publicado
 ---
 Hay emociones que solo encuentran palabras en el idioma en que fueron vividas. Podés hablar perfecto otra lengua, trabajar en ella, soñar en ella. Pero cuando duele de verdad, el dolor vuelve a casa y habla en castellano.
 

@@ -9,7 +9,7 @@ lectura: 5
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 11
-estado: borrador
+estado: publicado
 ---
 No, no es un poco de cada cosa. No es una ensalada de técnicas ni un menú para elegir según el día. Es, en todo caso, como un buen artesano: tiene un oficio que domina y, además, sabe cuándo conviene usar otra herramienta.
 

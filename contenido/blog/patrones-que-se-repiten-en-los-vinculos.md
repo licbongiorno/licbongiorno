@@ -9,7 +9,7 @@ lectura: 6
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 4
-estado: borrador
+estado: publicado
 ---
 «Siempre me pasa lo mismo.» Cambia la cara, cambia el nombre, cambia la ciudad. Pero la escena es idéntica: el que no está disponible, la que da hasta quedarse vacía, el jefe que despierta exactamente el mismo nudo en la panza. Como si la vida nos pusiera una y otra vez la misma película, con otro elenco.
 

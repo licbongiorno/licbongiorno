@@ -9,7 +9,7 @@ lectura: 5
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 10
-estado: borrador
+estado: publicado
 ---
 No, no es amor de más. Es miedo con forma de amor. Es revisar el celular cada cinco minutos, achicarte para que el otro no se vaya, tolerar lo que duele porque perderlo parece todavía peor.
 

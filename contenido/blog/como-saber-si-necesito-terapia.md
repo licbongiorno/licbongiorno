@@ -9,7 +9,7 @@ lectura: 6
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 1
-estado: borrador
+estado: publicado
 ---
 «No sé si lo mío es para tanto.» «Hay gente que está peor.» «Debería poder resolverlo solo.» Si alguna de estas frases te suena, no estás solo: son las que más escucho en las primeras entrevistas, casi siempre dichas después de meses, o años, de postergar.
 

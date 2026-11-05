@@ -39,7 +39,7 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 - [ ] **Google Analytics 4** (opcional): crear la propiedad y pegar el ID `G-…` en `"ga4_id"`. Se activa un aviso de consentimiento automáticamente.
 - [ ] **Formulario con envío por correo** (opcional): crear un formulario en Formspree y pegar la URL en `"formulario_endpoint"`. Sin eso, el formulario abre WhatsApp con el mensaje armado (funciona igual y no guarda datos).
 - [ ] **Google Business Profile** a tu nombre, con la URL del sitio.
-- [ ] **Revisar y publicar los 5 artículos** (cambiar `estado: borrador` por `estado: publicado` en cada `.md`).
+- [x] **Artículos publicados** (13).
 
 ## D. Fuera del sitio (prioridad alta)
 
@@ -53,6 +53,6 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 - [ ] **Copy en tu voz** (inicio, sobre mí, invitaciones a consultar) y el fragmento de «No es un sillón» en Sobre mí.
 - [ ] **5 páginas por motivo** (ansiedad y pánico, duelo, crisis vitales, autoestima, vínculos): ya están publicadas porque son descriptivas; revisalas igual.
 - [ ] **Glosario junguiano** (17 términos) y **Tu primera consulta**: publicados; revisá definiciones y pasos.
-- [ ] **13 artículos en borrador** (5 anteriores + 8 nuevos). Para leerlos: `python3 build.py --borradores` y abrir `public/recursos/`.
+- [x] **13 artículos publicados** el 5 de noviembre de 2026 (aperturas y cierres en la voz del autor).
 - [ ] **Textos para Google, directorios y redes**: `docs/06-TEXTOS-PARA-PERFILES.md`.
 - [ ] **Página de opiniones**: 30 fragmentos textuales. Pasame el enlace exacto de tu ficha de Google para el botón.

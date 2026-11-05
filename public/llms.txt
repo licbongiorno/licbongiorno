@@ -40,7 +40,19 @@ ansiedad, depresión, estrés y agotamiento, ataques de pánico, autoestima, dif
 - [Contacto](https://licbongiorno5.vercel.app/contacto/)
 
 ## Artículos
-- (Artículos en preparación.)
+- [¿Cómo saber si necesito hacer terapia? Señales para escucharte](https://licbongiorno5.vercel.app/recursos/como-saber-si-necesito-terapia/): No hace falta tocar fondo para consultar. Algunas señales que vale la pena escuchar y qué pasa en una primera entrevista.
+- [Ansiedad: cuando el cuerpo habla de lo que todavía no podemos decir](https://licbongiorno5.vercel.app/recursos/ansiedad-cuando-el-cuerpo-habla/): La ansiedad no es solo un síntoma a eliminar: también es una señal. Qué es, cómo se siente y qué puede decirnos sobre lo que nos pasa.
+- [La sombra según Jung: lo que no queremos ver de nosotros mismos](https://licbongiorno5.vercel.app/recursos/la-sombra-segun-jung/): Aquello que rechazamos de nosotros no desaparece: se proyecta en los demás. Una introducción al concepto junguiano de sombra.
+- [Patrones que se repiten en los vínculos: por qué volvemos a lo que nos lastima](https://licbongiorno5.vercel.app/recursos/patrones-que-se-repiten-en-los-vinculos/): Distintas personas, la misma historia. Qué hay detrás de los patrones que se repiten en nuestras relaciones y cómo empezar a cambiarlos.
+- [Terapia online desde el exterior: cómo funciona y qué tener en cuenta](https://licbongiorno5.vercel.app/recursos/terapia-online-desde-el-exterior/): Vivir en otro país y querer hacer terapia en tu idioma. Una guía práctica sobre cómo funciona la terapia online y qué conviene saber antes de empezar.
+- [Los sueños según Jung: cartas que el inconsciente nos escribe](https://licbongiorno5.vercel.app/recursos/los-suenos-segun-jung/): Para Jung, los sueños no esconden un mensaje: lo muestran en su propio lenguaje. Qué nos dicen y cómo empezar a escucharlos.
+- [La crisis de la mitad de la vida: cuando lo logrado ya no alcanza](https://licbongiorno5.vercel.app/recursos/crisis-de-la-mitad-de-la-vida/): Alrededor de los cuarenta o cincuenta años, muchas personas sienten que algo esencial falta. Jung no lo vio como un fracaso, sino como un llamado.
+- [El duelo migratorio: lo que se deja al irse](https://licbongiorno5.vercel.app/recursos/duelo-migratorio/): Migrar implica ganar mucho, pero también perder. El duelo migratorio es real aunque la decisión haya sido propia y acertada.
+- [Ataque de pánico: qué hacer en el momento y después](https://licbongiorno5.vercel.app/recursos/ataque-de-panico-que-hacer/): Un ataque de pánico asusta mucho, pero se puede atravesar. Qué está pasando en el cuerpo, qué hacer en el momento y cuándo pedir ayuda.
+- [Dependencia emocional: cuando querer se vuelve necesitar](https://licbongiorno5.vercel.app/recursos/dependencia-emocional/): Necesitar al otro para sentirse valioso, tolerar lo que duele por miedo a perderlo. Señales de dependencia emocional y cómo empezar a cambiar.
+- [¿Qué es la psicoterapia integrativa?](https://licbongiorno5.vercel.app/recursos/que-es-la-psicoterapia-integrativa/): Integrar no es mezclar técnicas al azar. Qué significa la psicoterapia integrativa y cómo se combina con un eje clínico claro.
+- [Arquetipos en la vida cotidiana: las historias que nos habitan](https://licbongiorno5.vercel.app/recursos/arquetipos-en-la-vida-cotidiana/): El héroe, la madre, el sabio, el niño. Los arquetipos no son personajes de mitos lejanos: aparecen en nuestra vida todos los días.
+- [Cómo acompañar a alguien con depresión](https://licbongiorno5.vercel.app/recursos/como-acompanar-a-alguien-con-depresion/): Qué decir, qué evitar y cómo ayudar a que alguien cercano pida ayuda profesional, sin descuidarte vos en el camino.
 
 ## Texto completo
 - https://licbongiorno5.vercel.app/llms-full.txt (todas las páginas en texto plano)

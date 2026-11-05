@@ -9,7 +9,7 @@ lectura: 5
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 12
-estado: borrador
+estado: publicado
 ---
 No, no son personajes de mitos lejanos. Son el que se anima a irse de casa, la que cuida a todos menos a sí misma, el que siempre tiene la palabra sabia y nunca pide ayuda, el que patea el tablero cuando todo parece en orden. Los conocés porque, de alguna manera, también te habitan.
 

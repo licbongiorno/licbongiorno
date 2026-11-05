@@ -556,9 +556,9 @@ def umbral():
 </div>'''
 
 
-def articulos_lista(publicados_solo=False):
+def articulos_lista(publicados_solo=False, limite=None):
     out = []
-    for a in ARTICULOS:
+    for a in (ARTICULOS[:limite] if limite else ARTICULOS):
         if publicados_solo and not a["publicado"]:
             continue
         enlace = a["publicado"] or BORRADORES
@@ -876,6 +876,7 @@ def reemplazos(cuerpo, ruta):
         "deco_enso": lambda: DECO_ENSO,
         "simbolo": lambda: SIMBOLO,
         "articulos": lambda: articulos_lista(),
+        "articulos_3": lambda: articulos_lista(limite=3),
         "opiniones": bloque_opiniones,
         "glosario": bloque_glosario,
         "datos_clave": bloque_datos_clave,

@@ -9,7 +9,7 @@ lectura: 5
 fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 9
-estado: borrador
+estado: publicado
 ---
 Si alguna vez lo viviste, lo sabés: no es «un poco de nervios». Es el corazón galopando, el aire que no alcanza, la certeza absurda y total de que te vas a morir ahí mismo, en la fila del súper o en la cama a oscuras.
 
