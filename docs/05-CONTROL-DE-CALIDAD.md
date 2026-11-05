@@ -48,3 +48,25 @@
 | `prefers-reduced-motion`: todo en estado final, sin animación | OK |
 | axe-core (12 páginas × escritorio y móvil) | 0 violaciones |
 | Consola y desborde horizontal | Sin errores · sin desborde |
+
+## Actualización — capa de movimiento ampliada (5 de noviembre de 2026)
+
+| Animación / microinteracción | Prueba |
+|---|---|
+| Cortina y leve acercamiento en la foto del arco y en los retratos | OK |
+| Profundidad del hero que responde al puntero (solo escritorio) | OK |
+| Manifiesto: las palabras se encienden al desplazarse (contraste AA en ambos estados) | OK |
+| Subrayado de pincel bajo las palabras en itálica de los títulos | OK |
+| Cabecera que se oculta al bajar y vuelve al subir | OK |
+| Diagrama de enfoque: las órbitas se dibujan y las etiquetas aparecen en secuencia | OK |
+| Luz que sigue al cursor en tarjetas | OK |
+| Botones principales con atracción magnética sutil | OK |
+| Grillas que aparecen en cascada | OK |
+| Preguntas frecuentes: la respuesta entra suavemente | OK |
+| Asistente: paso actual que late, check con rebote, mensaje que se renueva | OK |
+| Saludo de WhatsApp (escritorio, una vez por visita, se cierra) | OK |
+| Transición entre páginas: cabecera fija y el título de la tarjeta se transforma en el título del artículo | Mejora progresiva (Chrome/Edge) |
+| Animaciones continuas en pausa fuera de pantalla o con la pestaña oculta | OK |
+| `prefers-reduced-motion`: todo visible y quieto | OK |
+| axe-core, 45 páginas × escritorio y móvil | 0 violaciones |
+| Lighthouse (inicio, local sin compresión) | 94 · 100 · 100 · 100 · CLS 0,005 |

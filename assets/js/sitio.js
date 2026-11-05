@@ -62,6 +62,14 @@
   var hero = document.querySelector(".hero");
   if (hero) requestAnimationFrame(function () { requestAnimationFrame(function () { hero.classList.add("listo"); }); });
 
+  /* ---------- Escalonado automático en grillas y listas ---------- */
+  document.querySelectorAll(".motivos, .rasgos, .articulos, .opiniones, .pasos, .otras-corrientes, .modalidades, .canales, .glosario, .relacionados ul").forEach(function (grupo) {
+    Array.prototype.forEach.call(grupo.children, function (hijo, i) {
+      if (!hijo.classList.contains("revelar") && !grupo.closest(".revelar:not(.visible)")) hijo.classList.add("revelar");
+      if (!hijo.style.getPropertyValue("--retraso")) hijo.style.setProperty("--retraso", ((i % 6) * 0.07).toFixed(2) + "s");
+    });
+  });
+
   /* ---------- Revelado al desplazarse ---------- */
   var revelables = document.querySelectorAll(".revelar");
   if ("IntersectionObserver" in window && !reducido) {
@@ -155,6 +163,7 @@
       if (cfg.formEndpoint) {
         var boton = form.querySelector("[type=submit]");
         boton.disabled = true;
+        boton.classList.add("cargando");
         mostrar("Enviando…");
         fetch(cfg.formEndpoint, {
           method: "POST",
@@ -167,7 +176,7 @@
           evento("formulario_enviado", { modalidad: datos.modalidad });
         }).catch(function () {
           mostrar("No se pudo enviar. Podés escribirme directamente por WhatsApp.", "error");
-        }).finally(function () { boton.disabled = false; });
+        }).finally(function () { boton.disabled = false; boton.classList.remove("cargando"); });
         return;
       }
 
@@ -308,7 +317,10 @@
       else if (modalidad === "Online") t += " Prefiero atención online.";
       if (horario && horario !== "Cualquiera") t += " Me queda mejor a la " + horario.toLowerCase() + ".";
       t += " ¿Tenés disponibilidad?";
-      texto.textContent = t;
+      if (texto.textContent !== t) {
+        texto.classList.add("cambiando");
+        setTimeout(function () { texto.textContent = t; texto.classList.remove("cambiando"); }, 160);
+      }
       enviar.href = "https://wa.me/" + cfg.whatsapp + "?text=" + encodeURIComponent(t);
       var completos = 0;
       pasos.forEach(function (p) {
@@ -317,6 +329,10 @@
         if (lleno) completos++;
       });
       asis.setAttribute("data-completos", completos);
+      var actual = null;
+      pasos.forEach(function (p) { p.classList.remove("actual"); if (!actual && !p.classList.contains("completo")) actual = p; });
+      if (actual && completos > 0) actual.classList.add("actual");
+      enviar.classList.toggle("listo", completos === pasos.length);
     };
     asis.addEventListener("change", armar);
     asis.addEventListener("submit", function (e) { e.preventDefault(); });
@@ -335,6 +351,121 @@
     };
     window.addEventListener("scroll", function () { if (!pendienteB) { pendienteB = true; requestAnimationFrame(verBarra); } }, { passive: true });
     verBarra();
+  }
+
+  var punteroFino = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+
+  /* ---------- Cabecera inteligente: se oculta al bajar y vuelve al subir ---------- */
+  if (cabecera && !reducido) {
+    var ultimoY = window.scrollY, pendienteC = false;
+    var cabeceraScroll = function () {
+      pendienteC = false;
+      var y = window.scrollY, delta = y - ultimoY;
+      var ocultar = y > 240 && delta > 6 && !doc.classList.contains("menu-abierto") && !cabecera.contains(document.activeElement);
+      if (ocultar) cabecera.classList.add("oculta");
+      else if (delta < -6 || y < 240) cabecera.classList.remove("oculta");
+      if (Math.abs(delta) > 6) ultimoY = y;
+    };
+    window.addEventListener("scroll", function () { if (!pendienteC) { pendienteC = true; requestAnimationFrame(cabeceraScroll); } }, { passive: true });
+    cabecera.addEventListener("focusin", function () { cabecera.classList.remove("oculta"); });
+  }
+
+  /* ---------- Manifiesto: las palabras se encienden al desplazarse ---------- */
+  var frase = document.querySelector(".manifiesto__frase");
+  if (frase && !reducido && "IntersectionObserver" in window) {
+    var palabras = [];
+    var envolver = function (nodo) {
+      Array.prototype.slice.call(nodo.childNodes).forEach(function (n) {
+        if (n.nodeType === 3) {
+          var frag = document.createDocumentFragment();
+          n.textContent.split(/(\s+)/).forEach(function (t) {
+            if (!t) return;
+            if (/^\s+$/.test(t)) { frag.appendChild(document.createTextNode(t)); return; }
+            var s = document.createElement("span"); s.className = "palabra"; s.textContent = t; frag.appendChild(s); palabras.push(s);
+          });
+          n.parentNode.replaceChild(frag, n);
+        } else if (n.nodeType === 1) envolver(n);
+      });
+    };
+    envolver(frase);
+    frase.classList.add("frase-viva");
+    var pendienteF = false, activaF = false;
+    var encender = function () {
+      pendienteF = false;
+      var r = frase.getBoundingClientRect(), h = window.innerHeight;
+      var p = Math.min(Math.max((h * 0.88 - r.top) / (h * 0.88 - h * 0.3), 0), 1);
+      var n = Math.round(p * palabras.length);
+      palabras.forEach(function (w, i) { w.classList.toggle("encendida", i < n); });
+    };
+    new IntersectionObserver(function (es) { activaF = es[0].isIntersecting; if (activaF) encender(); }).observe(frase);
+    window.addEventListener("scroll", function () { if (activaF && !pendienteF) { pendienteF = true; requestAnimationFrame(encender); } }, { passive: true });
+  }
+
+  /* ---------- Luz que sigue al cursor en tarjetas ---------- */
+  if (punteroFino && !reducido) {
+    document.querySelectorAll(".motivo, .articulo-tarjeta, .modalidad, .opinion, .rasgo, .canal").forEach(function (t) {
+      t.classList.add("con-foco");
+      t.addEventListener("pointermove", function (e) {
+        var r = t.getBoundingClientRect();
+        t.style.setProperty("--mx", (e.clientX - r.left) + "px");
+        t.style.setProperty("--my", (e.clientY - r.top) + "px");
+      });
+    });
+  }
+
+  /* ---------- Botones principales con atracción magnética sutil ---------- */
+  if (punteroFino && !reducido) {
+    document.querySelectorAll(".hero .boton, .cta .boton, .cabecera__cta, .asistente__enviar").forEach(function (bt) {
+      bt.addEventListener("pointermove", function (e) {
+        var r = bt.getBoundingClientRect();
+        var dx = (e.clientX - r.left - r.width / 2) / (r.width / 2), dy = (e.clientY - r.top - r.height / 2) / (r.height / 2);
+        bt.style.setProperty("--magx", (dx * 5).toFixed(1) + "px");
+        bt.style.setProperty("--magy", (dy * 4).toFixed(1) + "px");
+      });
+      bt.addEventListener("pointerleave", function () { bt.style.setProperty("--magx", "0px"); bt.style.setProperty("--magy", "0px"); });
+    });
+  }
+
+  /* ---------- Hero: profundidad que responde al puntero ---------- */
+  if (hero && punteroFino && !reducido) {
+    var pendienteH = false, ex = 0, ey = 0;
+    hero.addEventListener("pointermove", function (e) {
+      ex = (e.clientX / window.innerWidth - 0.5) * 2; ey = (e.clientY / window.innerHeight - 0.5) * 2;
+      if (!pendienteH) { pendienteH = true; requestAnimationFrame(function () {
+        pendienteH = false; hero.style.setProperty("--px", ex.toFixed(3)); hero.style.setProperty("--py", ey.toFixed(3));
+      }); }
+    });
+    hero.addEventListener("pointerleave", function () { hero.style.setProperty("--px", 0); hero.style.setProperty("--py", 0); });
+  }
+
+  /* ---------- Pausar animaciones continuas fuera de pantalla o con la pestaña oculta ---------- */
+  if ("IntersectionObserver" in window) {
+    var ioPausa = new IntersectionObserver(function (es) {
+      es.forEach(function (en) { en.target.classList.toggle("en-pausa", !en.isIntersecting); });
+    });
+    document.querySelectorAll(".umbral, .orbitas, .hero__fondo, .modalidad__deco").forEach(function (el) { ioPausa.observe(el); });
+  }
+  document.addEventListener("visibilitychange", function () { doc.classList.toggle("pestana-oculta", document.hidden); });
+
+  /* ---------- Saludo de WhatsApp (escritorio, una vez por visita) ---------- */
+  var flot = document.querySelector(".wa-flotante");
+  if (flot && window.matchMedia("(min-width: 641px)").matches && location.pathname.indexOf("/contacto") !== 0) {
+    var visto = false;
+    try { visto = sessionStorage.getItem("nb-saludo") === "1"; } catch (err) { /* sin almacenamiento */ }
+    if (!visto) {
+      setTimeout(function () {
+        if (doc.classList.contains("menu-abierto")) return;
+        var bur = document.createElement("div");
+        bur.className = "wa-burbuja";
+        bur.innerHTML = '<a href="' + flot.getAttribute("href") + '" target="_blank" rel="noopener" data-ubicacion="burbuja">¿Querés coordinar una primera entrevista? Escribime y lo vemos.</a><button type="button" aria-label="Cerrar mensaje">×</button>';
+        flot.parentNode.insertBefore(bur, flot);
+        requestAnimationFrame(function () { bur.classList.add("visible"); });
+        var cerrar = function () { bur.classList.remove("visible"); setTimeout(function () { bur.remove(); }, 400); };
+        bur.querySelector("button").addEventListener("click", cerrar);
+        setTimeout(cerrar, 14000);
+        try { sessionStorage.setItem("nb-saludo", "1"); } catch (err) { /* sin almacenamiento */ }
+      }, 9000);
+    }
   }
 
   /* ---------- Medición de clics de contacto (si hay GA4 con consentimiento) ---------- */
