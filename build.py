@@ -937,6 +937,10 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         ],
     }
     (SALIDA / "vercel.json").write_text(json.dumps(vercel, ensure_ascii=False, indent=2), encoding="utf-8")
+    # Copia en la raíz del proyecto: si en Vercel el "Root Directory" quedó en la raíz del repositorio,
+    # esta configuración le indica que publique la carpeta public/ sin compilar nada.
+    raiz_vercel = {"framework": None, "buildCommand": "", "installCommand": "", "outputDirectory": "public", **vercel}
+    (RAIZ / "vercel.json").write_text(json.dumps(raiz_vercel, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (SALIDA / "_headers").write_text(
         "/*\n" + "".join(f"  {k}: {v}\n" for k, v in seguridad.items()) +
         "\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n", encoding="utf-8")
