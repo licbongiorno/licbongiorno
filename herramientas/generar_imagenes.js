@@ -13,6 +13,14 @@ function arteSVG() {
     .replace('class="onda"', 'opacity=".7"').replace('class="onda onda--2"', 'opacity=".4" transform="translate(200 404) scale(.7) translate(-200 -404)"')
     .replace('class="onda onda--3"', 'opacity="0"').replace('<g class="flota">', '<g>');
 }
+function arteOFoto() {
+  const cfg = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../sitio.json'), 'utf8'));
+  if (cfg.foto) {
+    const b64 = fs.readFileSync(path.resolve(__dirname, '..', cfg.foto)).toString('base64');
+    return `<img src="data:image/webp;base64,${b64}" style="width:100%;height:100%;object-fit:cover;object-position:50% 20%">`;
+  }
+  return arteSVG();
+}
 (async () => {
   const b = await chromium.launch();
   const p = await b.newPage();
@@ -35,7 +43,7 @@ function arteSVG() {
   .l{position:absolute;left:80px;bottom:70px;display:flex;gap:14px;align-items:center}
   </style><div class="t"><div class="k">Psicólogo clínico · M.P. 8209</div><h1>Lo que te habita<br>también merece<br><em>ser escuchado.</em></h1>
   <div class="n">Lic. Nicolás Raúl Bongiorno</div><div class="r">Alta Gracia, Córdoba · Terapia online en español</div></div>
-  <div class="arte">${arteSVG()}</div>`;
+  <div class="arte">${arteOFoto()}</div>`;
   await p.setContent(html); await p.waitForTimeout(500);
   await p.screenshot({ path: base + '/img/og-inicio.jpg', type: 'jpeg', quality: 86 });
   await b.close();

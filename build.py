@@ -467,10 +467,14 @@ def bloque_cta(titulo="¿Querés empezar a <em>conversarlo</em>?", texto=None, u
 </div>'''
 
 
-def retrato(clase="retrato"):
+def retrato(clase="retrato", cual="foto"):
+    if cual == "foto_lectura" and C.get("foto_lectura"):
+        return (f'<div class="{clase}"><img src="/{C["foto_lectura"]}" alt="{esc(NOMBRE_COMPLETO)} leyendo un libro, sentado en un sillón" '
+                f'width="358" height="447" loading="lazy" decoding="async"></div>')
     if C.get("foto"):
-        return (f'<div class="{clase}"><img src="/{C["foto"]}" alt="{esc(NOMBRE_COMPLETO)}, psicólogo clínico, en su consultorio" '
-                f'width="960" height="1200" loading="lazy" decoding="async"></div>')
+        srcset = f' srcset="/{C["foto_chica"]} 480w, /{C["foto"]} 682w" sizes="(max-width: 860px) 340px, 480px"' if C.get("foto_chica") else ""
+        return (f'<div class="{clase}"><img src="/{C["foto"]}"{srcset} alt="Retrato del {esc(NOMBRE_COMPLETO)}, psicólogo clínico" '
+                f'width="682" height="852" loading="lazy" decoding="async"></div>')
     return (f'<div class="{clase} retrato--monograma" role="img" aria-label="Símbolo de marca: un círculo abierto que contiene una semilla">'
             '<svg viewBox="0 0 200 200" aria-hidden="true"><path d="M172 70A80 80 0 1 0 178 118" fill="none" stroke="#4A5A3C" stroke-width="7" stroke-linecap="round"/>'
             '<path d="M160 52A82 82 0 0 0 40 50" fill="none" stroke="#A3B18A" stroke-width="2.5" stroke-linecap="round"/>'
@@ -479,7 +483,8 @@ def retrato(clase="retrato"):
 
 
 def umbral():
-    interior = (f'<img src="/{C["foto"]}" alt="{esc(NOMBRE_COMPLETO)}, psicólogo clínico" width="960" height="1200" fetchpriority="high">'
+    srcset = f' srcset="/{C["foto_chica"]} 480w, /{C["foto"]} 682w" sizes="(max-width: 520px) 270px, (max-width: 900px) 340px, 480px"' if C.get("foto_chica") else ""
+    interior = (f'<img src="/{C["foto"]}"{srcset} alt="Retrato del {esc(NOMBRE_COMPLETO)}, psicólogo clínico" width="682" height="852" fetchpriority="high">'
                 if C.get("foto") else ARTE_HERO)
     return f'''<div class="umbral entra" style="--retraso:.35s">
   <div class="umbral__aro" aria-hidden="true" data-parallax="-0.04"></div>
@@ -785,6 +790,7 @@ def reemplazos(cuerpo, ruta):
         "cta_modalidades": lambda: bloque_cta("Elegí la modalidad que <em>mejor se adapte</em> a tu vida", ubicacion="modalidades", suave=True),
         "umbral": umbral,
         "retrato": retrato,
+        "retrato_lectura": lambda: retrato(cual="foto_lectura"),
         "orbitas": orbitas_svg,
         "arte_hero": lambda: ARTE_HERO,
         "deco_enso": lambda: DECO_ENSO,

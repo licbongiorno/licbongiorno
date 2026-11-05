@@ -42,7 +42,9 @@
 
   "centro_sinapsis": "https://sinapsiscentro.com.ar/equipo-profesional.html",
 
-  "foto": "",
+  "foto": "assets/img/nicolas-bongiorno.webp",
+  "foto_chica": "assets/img/nicolas-bongiorno-480.webp",
+  "foto_lectura": "assets/img/nicolas-bongiorno-leyendo.webp",
   "_foto_nota": "Ruta a la fotografía profesional dentro de assets/img/ (por ejemplo \"assets/img/nicolas-bongiorno.webp\", 4:5, mínimo 1200 px de alto). Mientras esté vacía se muestra la composición gráfica de marca.",
 
   "ga4_id": "",
