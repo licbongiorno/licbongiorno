@@ -1,20 +1,216 @@
 {
   "_comentario": "Solo opiniones reales, copiadas textualmente de la fuente, sin nombres de pacientes ni datos de terceros. No se usa marcado Review/AggregateRating (Google no lo admite para reseñas propias). Relevadas por el Lic. Bongiorno desde su ficha de Google el 2026-11-05.",
   "fecha_relevamiento": "noviembre de 2026",
-  "destacado": {"cantidad": "+100", "texto": "opiniones de pacientes en Google"},
+  "destacado": {
+    "cantidad": "+100",
+    "texto": "opiniones de pacientes en Google"
+  },
   "plataformas": [
-    {"nombre": "Google", "cantidad": "Más de 100 opiniones", "url": "https://www.google.com/maps/search/?api=1&query=Psic%C3%B3logo%20Bongiorno%20Alta%20Gracia"},
-    {"nombre": "Doctoralia", "cantidad": "80 opiniones", "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital"}
+    {
+      "nombre": "Google",
+      "cantidad": "Más de 100 opiniones",
+      "url": "https://www.google.com/maps/search/?api=1&query=Psic%C3%B3logo%20Bongiorno%20Alta%20Gracia"
+    },
+    {
+      "nombre": "Doctoralia",
+      "cantidad": "80 opiniones",
+      "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital"
+    }
   ],
   "citas": [
-    {"texto": "Excelente profesional. Tiene una calidez y una sensibilidad tan grande que entiende las cosas con mucha profundidad. Muy recomendable.", "fuente": "Google", "fecha": "hace 2 años"},
-    {"texto": "Me sentí cómoda, escuchada y con mucha confianza.", "fuente": "Google", "fecha": "hace 1 mes"},
-    {"texto": "A Nico lo conocí en un momento muy necesario, me ayudo a superar una situación personal, me mude al extranjero y sigo en contacto y la terapia con él ya que siento que es una persona muy capaz y habil en su trabajo.", "fuente": "Google", "fecha": "hace 1 año"},
-    {"texto": "Nico me acompañó mientras transité un proceso de duelo muy duro en mi vida.", "fuente": "Google", "fecha": "hace 3 años"},
-    {"texto": "He pasado por otros profesionales y con él tuve mi mejor experiencia. Ético, atento, excelente profesional.", "fuente": "Google", "fecha": "hace 3 años"},
-    {"texto": "En mi caso se adaptó a las veces que pude hacer sesiones online y las veces que pude ir de manera presencial. Recomendable y 100% confiable.", "fuente": "Google", "fecha": "hace 3 años"},
-    {"texto": "Durante el tiempo que hice terapia Nicolas me guío por un camino de autoconocimiento y autovaloración […]", "fuente": "Google", "fecha": "hace 5 años"},
-    {"texto": "Siempre tiene las palabras justas que invitan a la reflexión.", "fuente": "Google", "fecha": "hace 3 años"}
+    {
+      "texto": "Excelente profesional. Tiene una calidez y una sensibilidad tan grande que entiende las cosas con mucha profundidad. Muy recomendable.",
+      "fuente": "Google",
+      "fecha": "hace 2 años"
+    },
+    {
+      "texto": "Me sentí cómoda, escuchada y con mucha confianza.",
+      "fuente": "Google",
+      "fecha": "hace 1 mes"
+    },
+    {
+      "texto": "A Nico lo conocí en un momento muy necesario, me ayudo a superar una situación personal, me mude al extranjero y sigo en contacto y la terapia con él ya que siento que es una persona muy capaz y habil en su trabajo.",
+      "fuente": "Google",
+      "fecha": "hace 1 año"
+    },
+    {
+      "texto": "Nico me acompañó mientras transité un proceso de duelo muy duro en mi vida.",
+      "fuente": "Google",
+      "fecha": "hace 3 años"
+    },
+    {
+      "texto": "He pasado por otros profesionales y con él tuve mi mejor experiencia. Ético, atento, excelente profesional.",
+      "fuente": "Google",
+      "fecha": "hace 3 años"
+    },
+    {
+      "texto": "En mi caso se adaptó a las veces que pude hacer sesiones online y las veces que pude ir de manera presencial. Recomendable y 100% confiable.",
+      "fuente": "Google",
+      "fecha": "hace 3 años"
+    },
+    {
+      "texto": "Durante el tiempo que hice terapia Nicolas me guío por un camino de autoconocimiento y autovaloración […]",
+      "fuente": "Google",
+      "fecha": "hace 5 años"
+    },
+    {
+      "texto": "Siempre tiene las palabras justas que invitan a la reflexión.",
+      "fuente": "Google",
+      "fecha": "hace 3 años"
+    }
   ],
-  "nota": "Fragmentos textuales de opiniones públicas de pacientes, reproducidos sin nombres. Las cantidades corresponden a cada plataforma al momento del relevamiento y pueden variar. Las experiencias son personales y no constituyen una promesa de resultados."
+  "nota": "Fragmentos textuales de opiniones públicas de pacientes, reproducidos sin nombres. Las cantidades corresponden a cada plataforma al momento del relevamiento y pueden variar. Las experiencias son personales y no constituyen una promesa de resultados.",
+  "todas": [
+    {
+      "tema": "Escucha y calidez humana",
+      "texto": "Excelente profesional. Tiene una calidez y una sensibilidad tan grande que entiende las cosas con mucha profundidad. Muy recomendable.",
+      "fecha": "hace 2 años"
+    },
+    {
+      "tema": "Escucha y calidez humana",
+      "texto": "Nicolas es muy profesional con una gran calidad humana, escucha y sabe acompañarte en el proceso!",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Escucha y calidez humana",
+      "texto": "Un profesional increíble pero sobre todo muy humano, siempre respetando los tiempos de uno y acompañando en todo, la verdad muy agradecida de haber transitado este proceso a su lado. Gracias",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Escucha y calidez humana",
+      "texto": "Excelente profesional que respeta con criterio y seriedad el proceso de cada persona, además de un trato muy cordial y cálido que te hace sentir cómodo en cada sesión, lo recomiendo mucho!",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Escucha y calidez humana",
+      "texto": "Me sentí cómoda, escuchada y con mucha confianza.",
+      "fecha": "hace 1 mes"
+    },
+    {
+      "tema": "Las palabras justas",
+      "texto": "Siempre tiene las palabras justas que invitan a la reflexión.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Las palabras justas",
+      "texto": "Mi experiencia con Nico fue excelente, termina la sesión con esa frase que te deja recalculando, me gusta su manera de compartir la terapia",
+      "fecha": "hace 1 año"
+    },
+    {
+      "tema": "Las palabras justas",
+      "texto": "Gran profesional, desde que empecé a ir noté cambios de inmediato. Brinda buenas herramientas y palabras que te dan un punto de vista completamente distinto.",
+      "fecha": "hace 1 semana"
+    },
+    {
+      "tema": "Las palabras justas",
+      "texto": "Excelente profesional. Es claro, conciso, abierto a ofrecer otras alternativas al tratamiento tradicional. Sobre todo, se avanza en cada sesión. Es un ambiente cómodo.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Si ya hiciste terapia antes",
+      "texto": "He pasado por otros profesionales y con él tuve mi mejor experiencia. Ético, atento, excelente profesional.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Si ya hiciste terapia antes",
+      "texto": "Ya había hecho terapia antes pero ninguna de mis anteriores experiencias se compara a lo cómoda y a gusto que me hace sentir Nicolas, un profesional excelente y antes que todo, es humano",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Si ya hiciste terapia antes",
+      "texto": "Empecé terapia con Nicolás hace poco más de un mes. Desde la primera sesión me sentí muy cómodo hablando con él. Sus preguntas y devoluciones me han sido de mucha ayuda. […]",
+      "fecha": "hace 2 años"
+    },
+    {
+      "tema": "Si ya hiciste terapia antes",
+      "texto": "Elegí a Nico por las reseñas de Google y todas son verdad. ✨",
+      "fecha": "hace 2 años"
+    },
+    {
+      "tema": "Ansiedad y momentos difíciles",
+      "texto": "Muy buen profesional, me está ayudando con mi ansiedad, te sabe escuchar.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Ansiedad y momentos difíciles",
+      "texto": "Me colaboró enormemente en un momento que para mí fue difícil. Muy agradecida con su atención y profesionalismo ✨",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Ansiedad y momentos difíciles",
+      "texto": "Nicolás es un gran profesional que desde la primera sesión me generó muchísima confianza, con su calma y su gran capacidad de contención. En el poco tiempo que llevo con su terapia me ha ayudado a entender y fortalecer algunas flaquezas emocionales que tenía.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Ansiedad y momentos difíciles",
+      "texto": "Para quienes necesiten la asistencia de un profesional en psicología lo recomiendo ya que a mí me supo contener y orientar!.",
+      "fecha": "hace 4 meses"
+    },
+    {
+      "tema": "Duelo y pérdidas",
+      "texto": "Nico me acompañó mientras transité un proceso de duelo muy duro en mi vida.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Duelo y pérdidas",
+      "texto": "Siempre está disponible cuando lo necesito. Me ayudó muchísimo a progresar en mi caso y me acompaño muchísimo en un duelo que atravesé hace poco. Sabe usar las palabras justas en estas situaciones.",
+      "fecha": "hace 1 año"
+    },
+    {
+      "tema": "Duelo y pérdidas",
+      "texto": "Nico te ayuda de una forma increíble dónde realmente uno se siente acompañado a la hora de atravesar un duelo.",
+      "fecha": "hace 2 años"
+    },
+    {
+      "tema": "Duelo y pérdidas",
+      "texto": "Hace muchos años soy su paciente, en situaciones de enfermedad muy grave, me acompaño y fue muy empatico conmigo. Muchas gracias!!",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Autoconocimiento",
+      "texto": "Durante el tiempo que hice terapia Nicolas me guío por un camino de autoconocimiento y autovaloración, me ayudo a resolver un sinfín de cuestiones que me tenían trabada […]",
+      "fecha": "hace 5 años"
+    },
+    {
+      "tema": "Autoconocimiento",
+      "texto": "Las sesiones han sido de gran aprendizaje para mí, y me han ayudado muchísimo a conocerme mejor.",
+      "fecha": "hace 5 años"
+    },
+    {
+      "tema": "Autoconocimiento",
+      "texto": "Hace 6 meses que me atiendo con él y puedo decir que ha contribuido fervientemente a acercarme a la mejor versión de mi. Totalmente recomendable.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Autoconocimiento",
+      "texto": "Le estoy muy agradecida por acompañarme, contenerme y ayudarme a transitar este camino de autoconocimiento hacia una mayor plenitud! Lo recomiendo!",
+      "fecha": "hace 7 años"
+    },
+    {
+      "tema": "Autoconocimiento",
+      "texto": "Nicolás es un excelente profesional, holístico, siempre con una lectura para recomendar, o algún dato específico. Sus sesiones son una experiencia muy cercana y amena. Hay escucha y diálogo, mucho compartir.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Online y a la distancia",
+      "texto": "A Nico lo conocí en un momento muy necesario, me ayudo a superar una situación personal, me mude al extranjero y sigo en contacto y la terapia con él ya que siento que es una persona muy capaz y habil en su trabajo. Lo recomiendo 100%",
+      "fecha": "hace 1 año"
+    },
+    {
+      "tema": "Online y a la distancia",
+      "texto": "Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Online y a la distancia",
+      "texto": "Excelente espacio y profesional. En mi caso se adaptó a las veces que pude hacer sesiones online y las veces que pude ir de manera presencial. Recomendable y 100% confiable.",
+      "fecha": "hace 3 años"
+    },
+    {
+      "tema": "Online y a la distancia",
+      "texto": "Mi experiencia personal con Nicolás es muy buena, me alegra haberme animado a la terapia con él. Sus palabras son siempre acertadas y me sirven como herramientas para todos los días. También atiende por medios virtuales. Lo recomiendo.",
+      "fecha": "hace 5 años"
+    }
+  ],
+  "_comentario_todas": "Página /opiniones/: fragmentos textuales (se recortó el inicio o el final de algunas con […] o desde una oración completa). Sin nombres, sin terceros, sin reseñas que usen «Dr.» y sin servicios no confirmados (pareja)."
 }

@@ -11,7 +11,7 @@
 - Población: adolescentes, adultos y adultos mayores.
 - Contacto: WhatsApp +54 9 351 657-5261 (https://wa.me/5493516575261). Formulario: https://licbongiorno5.vercel.app/contacto/
 - Redes: Instagram https://www.instagram.com/psicologobongiorno/ · Facebook https://www.facebook.com/licenciadoBongiorno · LinkedIn https://www.linkedin.com/in/lic-nicolas-bongiorno-5215826b/
-- Opiniones de pacientes: https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital
+- Opiniones de pacientes: más de 100 reseñas en Google y 80 en Doctoralia (https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital). Selección: https://licbongiorno5.vercel.app/opiniones/
 - También integra el equipo de Centro Sinapsis (Berazategui), con atención online: https://sinapsiscentro.com.ar/equipo-profesional.html
 
 ## Enfoque
@@ -25,6 +25,14 @@ ansiedad, depresión, estrés y agotamiento, ataques de pánico, autoestima, dif
 - [Sobre mí](https://licbongiorno5.vercel.app/sobre-mi/)
 - [Terapia junguiana](https://licbongiorno5.vercel.app/terapia-junguiana/)
 - [Enfoque terapéutico](https://licbongiorno5.vercel.app/enfoque/)
+- [Glosario junguiano](https://licbongiorno5.vercel.app/glosario-junguiano/)
+- [Ansiedad y ataques de pánico](https://licbongiorno5.vercel.app/ansiedad-y-ataques-de-panico/)
+- [Duelo y pérdidas](https://licbongiorno5.vercel.app/duelo-y-perdidas/)
+- [Crisis vitales y de la mitad de la vida](https://licbongiorno5.vercel.app/crisis-vitales/)
+- [Autoestima](https://licbongiorno5.vercel.app/autoestima/)
+- [Dificultades vinculares](https://licbongiorno5.vercel.app/dificultades-vinculares/)
+- [Tu primera consulta](https://licbongiorno5.vercel.app/primera-consulta/)
+- [Opiniones de pacientes](https://licbongiorno5.vercel.app/opiniones/)
 - [Motivos de consulta](https://licbongiorno5.vercel.app/motivos-de-consulta/)
 - [Psicólogo en Alta Gracia](https://licbongiorno5.vercel.app/psicologo-alta-gracia/)
 - [Terapia online en español](https://licbongiorno5.vercel.app/terapia-online/)
@@ -33,6 +41,10 @@ ansiedad, depresión, estrés y agotamiento, ataques de pánico, autoestima, dif
 
 ## Artículos
 - (Artículos en preparación.)
+
+## Texto completo
+- https://licbongiorno5.vercel.app/llms-full.txt (todas las páginas en texto plano)
+- https://licbongiorno5.vercel.app/recursos/feed.xml (RSS de artículos)
 
 ## Límites
 No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia al Suicida 135 (CABA y GBA) / 0800-345-1435 (todo el país).

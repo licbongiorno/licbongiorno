@@ -4,8 +4,8 @@
    ========================================================================== */
 
 /* ---------- Tipografías (autoalojadas, variables) ---------- */
-@font-face { font-family: "Playfair Display"; src: url("../fonts/playfair-display-normal.woff2") format("woff2"); font-weight: 400 600; font-style: normal; font-display: swap; }
-@font-face { font-family: "Playfair Display"; src: url("../fonts/playfair-display-italic.woff2") format("woff2"); font-weight: 400 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../fonts/playfair-display-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../fonts/playfair-display-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
 @font-face { font-family: "Lora"; src: url("../fonts/lora-normal.woff2") format("woff2"); font-weight: 400 600; font-style: normal; font-display: swap; }
 @font-face { font-family: "Lora"; src: url("../fonts/lora-italic.woff2") format("woff2"); font-weight: 400 600; font-style: italic; font-display: swap; }
 @font-face { font-family: "Montserrat"; src: url("../fonts/montserrat-normal.woff2") format("woff2"); font-weight: 400 600; font-style: normal; font-display: swap; }
@@ -740,3 +740,62 @@ fieldset.campo { border: 0; padding: 0; margin: 0 0 1.25rem; min-width: 0; }
 
 .logo-visto .marca__simbolo .trazo { animation: none !important; stroke-dasharray: none; stroke-dashoffset: 0; }
 .logo-visto .marca__simbolo .semilla { animation: none !important; transform: none; }
+
+/* ---------- Fase de mejoras: bloques nuevos ---------- */
+/* Retrato pequeño en el hero, solo en celular */
+.hero__avatar { display: none; }
+@media (max-width: 900px) {
+  .hero__avatar { display: block; width: 52px; height: 52px; border-radius: 50%; object-fit: cover; object-position: 50% 22%; box-shadow: 0 0 0 3px var(--papel), 0 0 0 4px rgba(74,90,60,.35); margin-right: .25rem; }
+  .hero__identidad { align-items: center; }
+}
+
+/* Enlace «Leer más» en las tarjetas de motivos */
+.motivo__enlace { display: inline-flex; align-items: center; gap: .4rem; margin-top: 1rem; font-family: var(--f-sans); font-size: .8rem; font-weight: 600; color: var(--salvia-profunda); text-decoration: none; }
+.motivo__enlace svg { width: 1em; height: 1em; transition: transform .35s var(--ease-out); }
+.motivo__enlace:hover { color: var(--tinta); }
+.motivo__enlace:hover svg { transform: translateX(4px); }
+.motivo__enlace::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+
+/* Opiniones */
+.opiniones-tema { padding-top: 3rem; scroll-margin-top: 90px; }
+.opiniones-tema h2 { font-size: clamp(1.6rem, 1.3rem + 1vw, 2.2rem); margin-bottom: 1.5rem; }
+.opiniones { columns: 3 300px; column-gap: 1.25rem; }
+.opinion { break-inside: avoid; margin: 0 0 1.25rem; padding: 1.5rem 1.6rem; border-radius: var(--r-m); background: var(--papel); border: 1px solid var(--linea); }
+.opinion blockquote { margin: 0; font-family: var(--f-display); font-style: italic; font-size: 1.12rem; line-height: 1.5; color: var(--tinta); }
+.opinion p { margin: 0; }
+.opinion figcaption { margin-top: .9rem; font-family: var(--f-sans); font-size: .74rem; color: var(--piedra-oscura); }
+.aviso-legal-opiniones { margin-top: 2.5rem; font-family: var(--f-sans); font-size: .8rem; color: var(--piedra-oscura); max-width: 46rem; }
+
+/* Glosario */
+.glosario { margin: 2.5rem 0 0; }
+.termino { padding: 1.75rem 0; border-top: 1px solid var(--linea); scroll-margin-top: 90px; }
+.termino dt { font-family: var(--f-display); font-size: clamp(1.45rem, 1.25rem + .7vw, 1.85rem); line-height: 1.2; color: var(--tinta); margin-bottom: .6rem; }
+.termino dt span { font-family: var(--f-sans); font-size: .78rem; letter-spacing: .08em; color: var(--piedra-oscura); }
+.termino dd { margin: 0; color: var(--texto-2); }
+.termino dd p:last-child { margin-bottom: 0; }
+.termino:target dt { color: var(--salvia-profunda); }
+
+/* Datos clave (Sobre mí) */
+.datos-clave { margin: 3rem 0; padding: 1.75rem; border-radius: var(--r-m); background: var(--papel); border: 1px solid var(--linea); }
+.datos-clave h2 { font-family: var(--f-sans); font-size: .75rem !important; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--salvia-profunda); margin: 0 0 1rem !important; }
+.datos-clave dl { margin: 0; display: grid; gap: 0; }
+.datos-clave dl > div { display: grid; grid-template-columns: 10rem 1fr; gap: 1rem; padding: .65rem 0; border-top: 1px solid var(--linea); font-size: var(--t-sm); }
+.datos-clave dt { font-family: var(--f-sans); font-weight: 600; font-size: .8rem; color: var(--tinta); }
+.datos-clave dd { margin: 0; color: var(--texto-2); }
+@media (max-width: 520px) { .datos-clave dl > div { grid-template-columns: 1fr; gap: .2rem; } }
+
+/* Artículos relacionados */
+.relacionados { margin-top: 3.5rem; }
+.relacionados h2 { font-size: 1.6rem !important; margin-top: 0 !important; }
+.relacionados ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .6rem; }
+.relacionados a { display: block; padding: 1rem 1.25rem; border-radius: var(--r-m); border: 1px solid var(--linea); background: var(--papel); text-decoration: none; color: var(--tinta); font-family: var(--f-display); font-size: 1.15rem; line-height: 1.3; transition: border-color .3s, transform .45s var(--ease-out); }
+.relacionados a span { display: block; font-family: var(--f-sans); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--salvia-profunda); margin-bottom: .3rem; }
+.relacionados a:hover { border-color: rgba(74,90,60,.45); transform: translateX(4px); }
+
+/* Texto propio del Lic. Bongiorno (Sobre mí) */
+.texto-propio { margin: 2.5rem 0 3rem; padding: 2rem 2rem 1.75rem; border-radius: var(--r-m); background: var(--bosque); color: #EDEBE3; }
+.texto-propio blockquote { margin: 0; padding: 0; border: 0; font-family: var(--f-display); font-style: italic; font-size: 1.2rem; line-height: 1.5; color: #F6F1EB; }
+.texto-propio blockquote p { margin: 0 0 1rem; }
+.texto-propio blockquote p:last-child { color: var(--terracota); margin: 0; }
+.texto-propio figcaption { margin-top: 1.25rem; font-family: var(--f-sans); font-size: .78rem; color: #CFCBC0; }
+@media (max-width: 900px) { .hero__identidad span[aria-hidden] { display: none; } .hero__identidad { gap: .35rem .9rem; } }

@@ -8,7 +8,7 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 |---|---|---|---|
 | 1 | Matrícula otorgada por el **Colegio de Psicólogos de la Provincia de Córdoba** | Sobre mí, pie, datos estructurados | Asumido (es quien matricula en Córdoba). Confirmar. |
 | 2 | Código postal de Alta Gracia **5186** | Datos estructurados | Confirmar. |
-| 3 | Trayectoria: «primero en la ciudad de Córdoba y hoy en Alta Gracia» | Sobre mí | Deducido de direcciones antiguas (Colón 184 y Colón 567). Confirmar. |
+| 3 | Trayectoria: «primero en la ciudad de Córdoba y hoy en Alta Gracia» | Sobre mí | ✅ Confirmado por tu texto «No es un sillón». |
 | 4 | Integrás el equipo de **Centro Sinapsis** (online) | Sobre mí, `llms.txt`, `Person.memberOf` | Tomado de su web. Confirmar que querés mostrarlo. |
 | 5 | Reseñas: «+100 en Google» y 8 citas sin nombres; «80 en Doctoralia» | Inicio (sección reseñas) | Pasame el **enlace exacto de tu ficha de Google** (Compartir → Copiar vínculo) y la **puntuación y cantidad exactas**. Hoy el botón lleva a una búsqueda de Maps. |
 | 5b | Reseñas que mencionan **terapia de pareja** y **niños** | — | ¿Atendés parejas y/o niños? Si es así, se agregan a la web. |
@@ -47,3 +47,12 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 - [ ] Agregar la URL del sitio en Instagram, Facebook, LinkedIn y Doctoralia.
 - [ ] Cerrar o unificar el perfil antiguo de LinkedIn (`nicolas-bongiorno-8a0b6948`).
 - [ ] Consultar al Colegio sobre atención online a residentes en el exterior (ver `03-ESTRATEGIA-CONTENIDOS-SEO-GEO.md` §6).
+
+## E. Para revisar después de la tanda de mejoras (5 de noviembre de 2026)
+
+- [ ] **Copy en tu voz** (inicio, sobre mí, invitaciones a consultar) y el fragmento de «No es un sillón» en Sobre mí.
+- [ ] **5 páginas por motivo** (ansiedad y pánico, duelo, crisis vitales, autoestima, vínculos): ya están publicadas porque son descriptivas; revisalas igual.
+- [ ] **Glosario junguiano** (17 términos) y **Tu primera consulta**: publicados; revisá definiciones y pasos.
+- [ ] **13 artículos en borrador** (5 anteriores + 8 nuevos). Para leerlos: `python3 build.py --borradores` y abrir `public/recursos/`.
+- [ ] **Textos para Google, directorios y redes**: `docs/06-TEXTOS-PARA-PERFILES.md`.
+- [ ] **Página de opiniones**: 30 fragmentos textuales. Pasame el enlace exacto de tu ficha de Google para el botón.

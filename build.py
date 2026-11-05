@@ -173,6 +173,7 @@ def cargar_json(nombre):
 MOTIVOS = cargar_json("motivos.json")
 FAQ = cargar_json("faq.json")
 RESENAS = cargar_json("resenas.json")
+GLOSARIO = cargar_json("glosario.json")
 
 
 # --------------------------------------------------------------------------- Markdown mínimo
@@ -242,6 +243,7 @@ NAV = [
     ("Enfoque", None, [
         ("Terapia junguiana", "/terapia-junguiana/", "Psicología analítica de C. G. Jung"),
         ("Mi enfoque integrativo", "/enfoque/", "Jung, psicoanálisis y otras corrientes"),
+        ("Glosario junguiano", "/glosario-junguiano/", "Sombra, arquetipos, individuación…"),
     ]),
     ("Motivos de consulta", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
@@ -249,7 +251,11 @@ NAV = [
         ("Terapia online", "/terapia-online/", "Argentina y el exterior, en español"),
     ]),
     ("Recursos", "/recursos/", None),
-    ("Preguntas", "/preguntas-frecuentes/", None),
+    ("Empezar", None, [
+        ("Tu primera consulta", "/primera-consulta/", "Paso a paso, sin sorpresas"),
+        ("Preguntas frecuentes", "/preguntas-frecuentes/", "Dudas habituales antes de empezar"),
+        ("Opiniones de pacientes", "/opiniones/", "Más de 100 reseñas en Google"),
+    ]),
 ]
 
 
@@ -326,7 +332,10 @@ def pie():
           <li><a href="/enfoque/">Enfoque terapéutico</a></li>
           <li><a href="/motivos-de-consulta/">Motivos de consulta</a></li>
           <li><a href="/recursos/">Recursos</a></li>
+          <li><a href="/glosario-junguiano/">Glosario junguiano</a></li>
+          <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
+          <li><a href="/opiniones/">Opiniones de pacientes</a></li>
         </ul>
       </div>
       <div>
@@ -390,6 +399,7 @@ def bloque_motivos(limite=None):
   <span class="motivo__num">{i + 1:02d}</span>
   <h3>{esc(m["titulo"])}</h3>
   <p>{esc(m["texto"])}</p>
+  {f'<a class="motivo__enlace" href="{m["pagina"]}">Leer más<span class="visualmente-oculto"> sobre {esc(m["titulo"].lower())}</span> {ICON["flecha"]}</a>' if m.get("pagina") else ""}
 </article>''')
     return f'<div class="motivos">{"".join(out)}</div>'
 
@@ -451,9 +461,56 @@ def bloque_resenas():
 <p class="resenas__nota">{esc(r["nota"])}</p>'''
 
 
+def bloque_opiniones():
+    temas = {}
+    for c in RESENAS.get("todas", []):
+        temas.setdefault(c["tema"], []).append(c)
+    out = []
+    for tema, citas in temas.items():
+        figs = "".join(f'''<figure class="opinion revelar"><blockquote><p>{esc(c["texto"])}</p></blockquote>
+  <figcaption>Paciente · Google · {esc(c["fecha"])}</figcaption></figure>''' for c in citas)
+        out.append(f'<section class="opiniones-tema" id="{slug(tema)}"><h2>{esc(tema)}</h2><div class="opiniones">{figs}</div></section>')
+    indice = "".join(f'<li><a href="#{slug(t)}">{esc(t)}</a></li>' for t in temas)
+    return f'<ul class="indice-enfoques" aria-label="Temas">{indice}</ul>' + "".join(out)
+
+
+def bloque_glosario():
+    out = []
+    for t in GLOSARIO:
+        out.append(f'''<div class="termino revelar" id="{slug(t["termino"])}">
+  <dt>{esc(t["termino"])}{f' <span>{esc(t["original"])}</span>' if t.get("original") else ""}</dt>
+  <dd>{"".join(f"<p>{inline_md(p)}</p>" for p in t["definicion"])}</dd>
+</div>''')
+    indice = "".join(f'<li><a href="#{slug(t["termino"])}">{esc(t["termino"])}</a></li>' for t in GLOSARIO)
+    return f'<ul class="indice-enfoques" aria-label="Términos">{indice}</ul><dl class="glosario">{"".join(out)}</dl>'
+
+
+def glosario_schema():
+    return {"@type": "DefinedTermSet", "@id": f"{URL}/glosario-junguiano/#glosario", "name": "Glosario de psicología analítica junguiana",
+            "inLanguage": C["idioma"], "author": {"@id": f"{URL}/#nicolas-bongiorno"},
+            "hasDefinedTerm": [{"@type": "DefinedTerm", "name": t["termino"], "url": f'{URL}/glosario-junguiano/#{slug(t["termino"])}',
+                                "description": re.sub(r"\[(.+?)\]\(.+?\)", r"\1", " ".join(t["definicion"])).replace("*", "")} for t in GLOSARIO]}
+
+
+def bloque_datos_clave():
+    filas = [
+        ("Nombre", NOMBRE_COMPLETO),
+        ("Profesión", f'{C["profesion"]}, {C["matricula"]} ({C["matricula_entidad"]})'),
+        ("Formación de grado", f'Licenciatura en Psicología, {C["facultad"]}, {C["universidad"]}'),
+        ("Trayectoria", f'{C["anios_experiencia"].capitalize()} de práctica clínica'),
+        ("Enfoque", "Psicología analítica de C. G. Jung como eje, base psicoanalítica y perspectiva integrativa"),
+        ("Atiende a", "Adolescentes, adultos y adultos mayores"),
+        ("Modalidades", f'Presencial en {D["calle"]}, {D["localidad"]}, {D["provincia"]} · Online por videollamada, en español'),
+        ("Opiniones", "Más de 100 reseñas en Google y 80 en Doctoralia"),
+        ("Contacto", f'WhatsApp {C["whatsapp_visible"]}'),
+    ]
+    dl = "".join(f"<div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>" for k, v in filas)
+    return f'<aside class="datos-clave" aria-labelledby="titulo-datos-clave"><h2 id="titulo-datos-clave">Datos clave</h2><dl>{dl}</dl></aside>'
+
+
 def bloque_cta(titulo="¿Querés empezar a <em>conversarlo</em>?", texto=None, ubicacion="cta", suave=False):
-    texto = texto or ("Escribime para coordinar una primera entrevista, presencial en Alta Gracia u online. "
-                      "Te respondo personalmente y sin compromiso.")
+    texto = texto or ("Escribime y coordinamos una primera entrevista, en Alta Gracia u online. "
+                      "No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.")
     return f'''<div class="cta{" cta--suave" if suave else ""} revelar">
   <div class="cta__deco">{DECO_ENSO}</div>
   <p class="antetitulo">Primer paso</p>
@@ -545,7 +602,8 @@ def persona_schema():
         "address": {"@id": f"{URL}/#direccion"},
     }
     if C.get("foto"):
-        p["image"] = f'{URL}/{C["foto"]}'
+        p["image"] = [{"@type": "ImageObject", "url": f'{URL}/{C[k]}', "caption": NOMBRE_COMPLETO}
+                      for k in ("foto", "foto_lectura", "foto_sobre_mi", "foto_biblioteca") if C.get(k)]
     if C.get("email"):
         p["email"] = C["email"]
     return p
@@ -626,6 +684,8 @@ def pagina(meta, cuerpo, ruta):
     if meta.get("migas"):
         grafo.append(migas_schema(meta["migas"]))
     grafo += meta.get("schema_extra", [])
+    if meta.get("glosario_schema"):
+        grafo.append(glosario_schema())
     if meta.get("faq_schema"):
         grafo.append(faq_schema(meta["faq_schema"] if isinstance(meta["faq_schema"], list) else None))
     pag_tipo = meta.get("tipo_pagina", "WebPage")
@@ -681,6 +741,7 @@ def pagina(meta, cuerpo, ruta):
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Recursos · Nicolás Bongiorno" href="/recursos/feed.xml">
 <link rel="preload" href="/assets/fonts/playfair-display-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/lora-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/estilos.css?v={VERSION}">
@@ -740,6 +801,15 @@ def leer_articulos():
 ARTICULOS = leer_articulos()
 
 
+def relacionados(a):
+    otros = [x for x in ARTICULOS if x is not a and (x["publicado"] or BORRADORES)]
+    otros.sort(key=lambda x: (x["categoria"] != a["categoria"], int(x.get("orden", 99))))
+    if not otros:
+        return ""
+    items = "".join(f'<li><a href="{x["ruta"]}"><span>{esc(x["categoria"])}</span>{esc(x["titulo"])}</a></li>' for x in otros[:3])
+    return f'<nav class="relacionados" aria-label="Artículos relacionados"><h2>Seguí leyendo</h2><ul>{items}</ul></nav>'
+
+
 def render_articulo(a):
     migas = [("Recursos", "/recursos/"), (a["titulo"], a["ruta"])]
     aviso = "" if a["publicado"] else (
@@ -761,6 +831,7 @@ def render_articulo(a):
   {aviso}
   {markdown(a["md"])}
   <div class="destacado destacado--aviso"><p>Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).</p></div>
+  {relacionados(a)}
   <div class="autor-caja">{SIMBOLO.replace('class="marca__simbolo"', '')}<p><strong>{esc(NOMBRE_COMPLETO)}</strong><br>Psicólogo clínico, {esc(C["matricula"])}. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. <a href="/sobre-mi/">Conocé más sobre mí</a>.</p></div>
   <div style="margin-top:3rem">{bloque_cta("Si este texto te resonó, <em>podemos conversarlo</em>", ubicacion="articulo")}</div>
 </div>
@@ -789,6 +860,7 @@ def reemplazos(cuerpo, ruta):
         "faq_inicio": lambda: bloque_faq(["necesito-terapia", "primera-sesion", "terapia-online", "otro-pais", "como-solicitar"]),
         "faq_online": lambda: bloque_faq(["terapia-online", "otro-pais", "online-vs-presencial"]),
         "faq_jung": lambda: bloque_faq(["que-es-terapia-junguiana", "suenos", "psicoanalisis-diferencia", "terapia-online"]),
+        "faq_primera": lambda: bloque_faq(["nunca-hice-terapia", "primera-sesion", "como-solicitar", "confidencialidad"]),
         "faq_alta_gracia": lambda: bloque_faq(["primera-sesion", "duracion", "adolescentes", "como-solicitar"]),
         "resenas": bloque_resenas,
         "cta": lambda: bloque_cta(),
@@ -804,6 +876,10 @@ def reemplazos(cuerpo, ruta):
         "deco_enso": lambda: DECO_ENSO,
         "simbolo": lambda: SIMBOLO,
         "articulos": lambda: articulos_lista(),
+        "opiniones": bloque_opiniones,
+        "glosario": bloque_glosario,
+        "datos_clave": bloque_datos_clave,
+        "avatar": lambda: (f'<img class="hero__avatar" src="/{C["foto_chica"]}" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
     }
     cuerpo = re.sub(r"\{\{>\s*(\w+)\s*\}\}", lambda m: parciales[m.group(1)](), cuerpo)
@@ -903,7 +979,7 @@ def construir():
 - Población: adolescentes, adultos y adultos mayores.
 - Contacto: WhatsApp {C["whatsapp_visible"]} ({WA_BASE}). Formulario: {URL}/contacto/
 - Redes: Instagram {R["instagram"]} · Facebook {R["facebook"]} · LinkedIn {R["linkedin"]}
-- Opiniones de pacientes: {R["doctoralia"]}
+- Opiniones de pacientes: más de 100 reseñas en Google y 80 en Doctoralia ({R["doctoralia"]}). Selección: {URL}/opiniones/
 - También integra el equipo de Centro Sinapsis (Berazategui), con atención online: {C["centro_sinapsis"]}
 
 ## Enfoque
@@ -917,6 +993,14 @@ El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orie
 - [Sobre mí]({URL}/sobre-mi/)
 - [Terapia junguiana]({URL}/terapia-junguiana/)
 - [Enfoque terapéutico]({URL}/enfoque/)
+- [Glosario junguiano]({URL}/glosario-junguiano/)
+- [Ansiedad y ataques de pánico]({URL}/ansiedad-y-ataques-de-panico/)
+- [Duelo y pérdidas]({URL}/duelo-y-perdidas/)
+- [Crisis vitales y de la mitad de la vida]({URL}/crisis-vitales/)
+- [Autoestima]({URL}/autoestima/)
+- [Dificultades vinculares]({URL}/dificultades-vinculares/)
+- [Tu primera consulta]({URL}/primera-consulta/)
+- [Opiniones de pacientes]({URL}/opiniones/)
 - [Motivos de consulta]({URL}/motivos-de-consulta/)
 - [Psicólogo en Alta Gracia]({URL}/psicologo-alta-gracia/)
 - [Terapia online en español]({URL}/terapia-online/)
@@ -926,10 +1010,48 @@ El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orie
 ## Artículos
 {lineas_art}
 
+## Texto completo
+- {URL}/llms-full.txt (todas las páginas en texto plano)
+- {URL}/recursos/feed.xml (RSS de artículos)
+
 ## Límites
 No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia al Suicida 135 (CABA y GBA) / 0800-345-1435 (todo el país).
 Última actualización: {HOY}.
 """, encoding="utf-8")
+
+    # RSS de artículos publicados
+    from email.utils import format_datetime
+    from datetime import datetime, timezone
+    def fecha_rss(f):
+        y, m, d = (int(x) for x in f.split("-"))
+        return format_datetime(datetime(y, m, d, 12, tzinfo=timezone.utc))
+    items = "".join(
+        f"<item><title>{esc(a['titulo'])}</title><link>{URL}{a['ruta']}</link><guid>{URL}{a['ruta']}</guid>"
+        f"<pubDate>{fecha_rss(a.get('fecha', HOY))}</pubDate><category>{esc(a['categoria'])}</category>"
+        f"<description>{esc(a['descripcion'])}</description></item>" for a in publicados)
+    (SALIDA / "recursos").mkdir(exist_ok=True)
+    (SALIDA / "recursos" / "feed.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>'
+        f'<title>Recursos · Lic. Nicolás Bongiorno</title><link>{URL}/recursos/</link>'
+        f'<atom:link href="{URL}/recursos/feed.xml" rel="self" type="application/rss+xml"/>'
+        '<description>Divulgación sobre psicología analítica, emociones, vínculos y autoconocimiento.</description>'
+        f'<language>es-ar</language><lastBuildDate>{fecha_rss(HOY)}</lastBuildDate>{items}</channel></rss>\n', encoding="utf-8")
+
+    # llms-full.txt: el texto completo de cada página indexable, para motores de respuesta
+    bloques = []
+    for ruta, _, _ in mapa:
+        f = SALIDA / ("index.html" if ruta == "/" else ruta.strip("/") + "/index.html")
+        h = f.read_text(encoding="utf-8")
+        titulo = re.search(r"<title>(.*?)</title>", h).group(1)
+        cuerpo = re.search(r'<main id="contenido">(.*?)</main>', h, re.S).group(1)
+        cuerpo = re.sub(r"<(svg|script|style|nav|button)\b.*?</\1>", " ", cuerpo, flags=re.S)
+        cuerpo = re.sub(r"</(p|h[1-6]|li|dt|dd|blockquote|figcaption|summary)>", "\n", cuerpo)
+        cuerpo = html.unescape(re.sub(r"<[^>]+>", " ", cuerpo))
+        cuerpo = "\n".join(re.sub(r"[ \t]+", " ", l).strip() for l in cuerpo.splitlines())
+        cuerpo = re.sub(r"\n{2,}", "\n", cuerpo).strip()
+        bloques.append(f"# {html.unescape(titulo)}\nURL: {URL}{ruta}\n\n{cuerpo}\n")
+    (SALIDA / "llms-full.txt").write_text(
+        f"# {NOMBRE_COMPLETO} — texto completo del sitio\n> Generado el {HOY}. Resumen breve: {URL}/llms.txt\n\n" + "\n---\n\n".join(bloques), encoding="utf-8")
 
     # Manifest
     (SALIDA / "manifest.webmanifest").write_text(json.dumps({

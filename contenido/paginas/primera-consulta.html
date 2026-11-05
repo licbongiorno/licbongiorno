@@ -1,0 +1,65 @@
+<!--{
+  "ruta": "/primera-consulta/",
+  "titulo": "Tu primera consulta con el psicólogo: paso a paso | N. Bongiorno",
+  "descripcion": "Cómo pedir turno, qué pasa en la primera entrevista y cómo prepararte si es online. Sin sorpresas, especialmente si nunca hiciste terapia.",
+  "prioridad": 0.8,
+  "migas": [["Tu primera consulta", "/primera-consulta/"]],
+  "faq_schema": ["nunca-hice-terapia", "primera-sesion", "como-solicitar", "confidencialidad"],
+  "antetitulo": "Empezar",
+  "h1": "Tu primera consulta, <em>paso a paso</em>",
+  "bajada": "Dar el primer paso suele ser lo más difícil. Acá te cuento exactamente qué va a pasar, para que puedas llegar con un poco más de tranquilidad."
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <h2 class="visualmente-oculto">Los pasos</h2>
+    <ol class="pasos revelar" style="margin-bottom:var(--sec)">
+      <li class="paso"><h3>Me escribís</h3><p>Por WhatsApp o por el formulario. Alcanza con tu nombre y si preferís presencial u online. No hace falta explicar lo que te pasa.</p></li>
+      <li class="paso"><h3>Coordinamos</h3><p>Te respondo personalmente para acordar día y horario. Si escribís desde otro país, tenemos en cuenta la diferencia horaria.</p></li>
+      <li class="paso"><h3>Primera entrevista</h3><p>Nos conocemos. Me contás lo que quieras, como te salga, y yo te cuento cómo trabajo.</p></li>
+      <li class="paso"><h3>Decidimos juntos</h3><p>Si los dos sentimos que es el espacio adecuado, acordamos frecuencia y honorarios. Si no, te oriento hacia otra alternativa.</p></li>
+    </ol>
+  </div>
+  <div class="contenedor dividido" style="align-items:start">
+    <div class="prosa revelar">
+      <h2>Qué pasa en la primera entrevista</h2>
+      <p>Es, ante todo, una conversación. No hay tests, no hay que «rendir» nada y no necesitás tener ordenado lo que te pasa. Muchas personas empiezan diciendo «no sé por dónde arrancar», y eso está perfecto.</p>
+      <p>Te voy a preguntar qué te trae, desde cuándo, cómo es tu vida hoy y qué esperás de la terapia. Vos también podés preguntarme todo lo que quieras: cómo trabajo, cuánto suele durar un proceso, qué pasa si en algún momento querés dejar.</p>
+      <p>Hay algo que me importa especialmente: que puedas evaluar si te sentís cómodo. El vínculo con el terapeuta es una de las bases del proceso, y está bien tomarse un tiempo para sentirlo.</p>
+
+      <h2>Algunas cosas que conviene saber</h2>
+      <ul>
+        <li><strong>No necesitás derivación</strong> de ningún médico para consultar.</li>
+        <li><strong>Lo que hables es confidencial</strong>, protegido por el secreto profesional.</li>
+        <li><strong>Podés traer anotaciones</strong> si te ayuda: preguntas, cosas que no querés olvidar, un sueño que te llamó la atención.</li>
+        <li><strong>Si tomás medicación</strong> o estás en tratamiento con otro profesional, contámelo: lo tenemos en cuenta.</li>
+        <li><strong>Los honorarios</strong> se conversan al coordinar el turno, antes de la primera entrevista.</li>
+      </ul>
+
+      <h2>Si la consulta es online</h2>
+      <ul>
+        <li>Buscá un lugar donde nadie te escuche y no te interrumpan.</li>
+        <li>Usá auriculares y, si podés, una computadora o el celular apoyado (no en la mano).</li>
+        <li>Probá la conexión unos minutos antes.</li>
+        <li>Tené a mano agua y algo para anotar.</li>
+      </ul>
+    </div>
+    <div class="revelar" style="--retraso:.1s">
+      <figure class="cita-paciente" style="margin-top:0">
+        <blockquote><p>«Empecé terapia con Nicolás hace poco más de un mes. Desde la primera sesión me sentí muy cómodo hablando con él.»</p></blockquote>
+        <figcaption>Paciente · Reseña en Google</figcaption>
+      </figure>
+      <figure class="cita-paciente">
+        <blockquote><p>«Mi experiencia personal con Nicolás es muy buena, me alegra haberme animado a la terapia con él.»</p></blockquote>
+        <figcaption>Paciente · Reseña en Google</figcaption>
+      </figure>
+      <div class="prosa">
+        <h2>Preguntas habituales</h2>
+        {{> faq_primera}}
+      </div>
+      <div class="acciones" style="margin-top:2rem">
+        <a class="boton boton--whatsapp" href="{{wa_url}}" target="_blank" rel="noopener" data-ubicacion="primera-consulta">{{icono_whatsapp}} Pedir mi primera consulta</a>
+        <a class="enlace-flecha" href="/opiniones/">Leer opiniones {{icono_flecha}}</a>
+      </div>
+    </div>
+  </div>
+</section>
