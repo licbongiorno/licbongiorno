@@ -1,0 +1,60 @@
+<!--{
+  "ruta": "/terapia-online/",
+  "titulo": "Terapia online en español | Psicólogo argentino, N. Bongiorno",
+  "descripcion": "Psicoterapia online por videollamada con un psicólogo argentino (M.P. 8209), para otras provincias y para hispanohablantes en el exterior.",
+  "prioridad": 0.9,
+  "migas": [["Terapia online", "/terapia-online/"]],
+  "faq_schema": ["terapia-online", "otro-pais", "online-vs-presencial"],
+  "antetitulo": "Atención online",
+  "h1": "Terapia online <em>en español</em>, estés donde estés",
+  "bajada": "Psicoterapia por videollamada para personas que viven en otras localidades, provincias o países y quieren hacer un proceso terapéutico en su propio idioma.",
+  "portada_extra": "<div class=\"acciones\" style=\"margin-top:2rem\"><a class=\"boton boton--whatsapp\" href=\"{{wa_online}}\" target=\"_blank\" rel=\"noopener\" data-ubicacion=\"online\">{{icono_whatsapp}} Consultar por terapia online</a><a class=\"boton boton--secundario\" href=\"#exterior\">Si vivís en el exterior</a></div>"
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <h2 class="visualmente-oculto">Cómo empezar la terapia online</h2>
+    <ol class="pasos revelar" style="margin-bottom:var(--sec)">
+      <li class="paso"><h3>Escribime</h3><p>Por WhatsApp o por el formulario, contándome desde dónde me escribís.</p></li>
+      <li class="paso"><h3>Coordinamos</h3><p>Acordamos día y horario teniendo en cuenta tu zona horaria.</p></li>
+      <li class="paso"><h3>Primera entrevista</h3><p>Nos encontramos por videollamada para conocernos y pensar juntos cómo seguir.</p></li>
+      <li class="paso"><h3>El proceso</h3><p>Sesiones con un encuadre estable, con la misma confidencialidad que en el consultorio.</p></li>
+    </ol>
+  </div>
+  <div class="contenedor dividido" style="align-items:start">
+    <div class="prosa revelar">
+      <h2>Cómo funciona</h2>
+      <p>Las sesiones se realizan por videollamada, en el día y horario que acordamos. Solo necesitás:</p>
+      <ul>
+        <li>una conexión a internet estable;</li>
+        <li>un celular o computadora con cámara y micrófono (idealmente, con auriculares);</li>
+        <li>un lugar donde puedas hablar con tranquilidad y privacidad durante la sesión.</li>
+      </ul>
+      <p>La terapia online mantiene lo esencial de un proceso terapéutico: un encuadre claro, confidencialidad y un vínculo de trabajo. Para muchas personas, además, hace posible sostener una terapia que de otra manera no podrían hacer por distancia, horarios o movilidad.</p>
+      <p>No es exactamente igual que la presencialidad, y no es adecuada para todas las situaciones. Si en algún momento considero que tu situación requiere atención presencial o un abordaje distinto, te lo voy a decir con claridad.</p>
+    </div>
+    <div class="prosa revelar" id="exterior" style="--retraso:.1s">
+      <h2>Si vivís fuera de Argentina</h2>
+      <p>Acompaño a personas hispanohablantes que viven en otros países —por ejemplo, en España, Estados Unidos, Canadá u otros países de Latinoamérica y Europa— y que quieren hacer terapia en español, con alguien que comparta sus códigos culturales.</p>
+      <p>Migrar implica duelos, adaptaciones y preguntas sobre la propia identidad que a veces es más fácil poner en palabras en la lengua materna.</p>
+      <div class="destacado">
+        <p><strong>Antes de comenzar, conviene saber:</strong></p>
+        <ul>
+          <li>Ejerzo como psicólogo matriculado en Argentina ({{matricula}}, Córdoba). Cada país tiene sus propias normas sobre la atención psicológica a distancia; en la primera conversación revisamos tu situación.</li>
+          <li>La terapia online no reemplaza la atención de urgencia. Ante una emergencia, siempre hay que recurrir a los servicios locales del país donde estés.</li>
+          <li>Coordinamos la diferencia horaria y la forma de pago al comienzo.</li>
+        </ul>
+      </div>
+      <a class="boton boton--whatsapp" href="{{wa_exterior}}" target="_blank" rel="noopener" data-ubicacion="exterior">{{icono_whatsapp}} Escribir desde el exterior</a>
+    </div>
+  </div>
+  <div class="contenedor" style="margin-top:var(--sec)">
+    <div class="dividido" style="align-items:start">
+      <div class="encabezado-seccion revelar">
+        <p class="antetitulo">Preguntas frecuentes</p>
+        <h2>Sobre la <em>terapia online</em></h2>
+      </div>
+      <div class="revelar">{{> faq_online}}</div>
+    </div>
+    <div style="margin-top:var(--sec)">{{> cta_modalidades}}</div>
+  </div>
+</section>

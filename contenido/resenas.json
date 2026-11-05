@@ -1,0 +1,22 @@
+{
+  "_comentario": "Solo opiniones reales y verificables. Sin nombres de pacientes. No se usa marcado Review/AggregateRating (Google no lo admite para reseñas propias ni tomadas de otros sitios). Para sumar una cita, copiala textual de la fuente con su fecha.",
+  "plataforma": "Doctoralia",
+  "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital",
+  "cantidad": "80",
+  "fecha_relevamiento": "noviembre de 2026",
+  "citas": [
+    {
+      "texto": "Gran psicólogo, y súper recomendado para todos.",
+      "fuente": "Doctoralia",
+      "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital",
+      "fecha": "enero de 2025"
+    },
+    {
+      "texto": "[…] contar con Nicolás como mi psicólogo desde 2018 […] Lo recomendaría a cualquiera buscando un profesional de la salud mental.",
+      "fuente": "Doctoralia",
+      "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital",
+      "fecha": "noviembre de 2023"
+    }
+  ],
+  "nota": "Fragmentos de opiniones públicas de pacientes, reproducidos sin datos personales. La cantidad corresponde a la plataforma al momento del relevamiento y puede variar. Las experiencias son personales y no constituyen una promesa de resultados."
+}

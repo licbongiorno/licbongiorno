@@ -1,0 +1,96 @@
+[
+  {
+    "id": "necesito-terapia",
+    "pregunta": "¿Cómo sé si necesito comenzar terapia?",
+    "respuesta": [
+      "No hace falta estar en una situación extrema para consultar. Puede ser un buen momento si algo te viene haciendo sufrir hace tiempo, si se repiten situaciones que no lográs cambiar, si te cuesta dormir, concentrarte o disfrutar, o si simplemente sentís que querés comprenderte mejor.",
+      "Una primera entrevista sirve justamente para pensarlo juntos, sin compromiso de continuar."
+    ]
+  },
+  {
+    "id": "primera-sesion",
+    "pregunta": "¿Cómo es la primera sesión?",
+    "respuesta": [
+      "Es una conversación para conocernos. Me contás qué te trae, qué esperás y lo que quieras compartir de tu historia, sin necesidad de tenerlo ordenado. Yo te explico cómo trabajo y respondo tus dudas.",
+      "Al final evaluamos juntos si este espacio es adecuado para vos y, si decidimos avanzar, acordamos frecuencia, honorarios y modalidad."
+    ]
+  },
+  {
+    "id": "duracion",
+    "pregunta": "¿Cuánto dura una sesión y con qué frecuencia?",
+    "respuesta": [
+      "Las sesiones tienen una duración estable que se acuerda desde el comienzo. La frecuencia más habitual es semanal, aunque puede variar según el momento y las necesidades de cada proceso.",
+      "La duración total de una terapia no se define de antemano: depende de lo que se trabaje y se revisa en conjunto a lo largo del tratamiento."
+    ]
+  },
+  {
+    "id": "psicoanalisis-diferencia",
+    "pregunta": "¿Qué diferencia hay entre el psicoanálisis y otras terapias?",
+    "respuesta": [
+      "El psicoanálisis y la psicoterapia psicodinámica se interesan por lo que se repite y no siempre es consciente: deseos, conflictos, marcas de la propia historia. Buscan comprender el sentido de los síntomas, no solo eliminarlos.",
+      "Otras terapias, como la cognitivo-conductual, trabajan de forma más estructurada sobre pensamientos y conductas actuales. Desde una perspectiva integrativa, el eje de mi trabajo es psicoanalítico, y dialogo con otros enfoques cuando aportan algo valioso para la persona. Podés leer más en [Mi enfoque](/enfoque/)."
+    ]
+  },
+  {
+    "id": "terapia-online",
+    "pregunta": "¿Cómo funciona la terapia online?",
+    "respuesta": [
+      "Las sesiones se hacen por videollamada, en el horario acordado. Solo necesitás una conexión estable, un dispositivo con cámara y un lugar donde puedas hablar con tranquilidad y privacidad.",
+      "El encuadre es tan cuidado como en el consultorio. Para muchas personas funciona muy bien; si en algún momento la modalidad no resulta adecuada para tu situación, lo conversamos."
+    ]
+  },
+  {
+    "id": "otro-pais",
+    "pregunta": "¿Puedo hacer terapia si vivo en otro país?",
+    "respuesta": [
+      "Sí. Atiendo online a personas hispanohablantes que viven fuera de Argentina, coordinando la diferencia horaria.",
+      "Cada país tiene sus propias normas sobre la atención psicológica a distancia, por eso en la primera conversación revisamos tu situación particular. La terapia online no reemplaza la atención de urgencia: ante una emergencia, siempre hay que recurrir a los servicios locales."
+    ]
+  },
+  {
+    "id": "online-vs-presencial",
+    "pregunta": "¿La terapia online es igual que la presencial?",
+    "respuesta": [
+      "No son idénticas, pero comparten lo esencial: un encuadre estable, confidencialidad y un vínculo de trabajo. Muchas personas sostienen procesos profundos por videollamada.",
+      "Hay situaciones en las que la presencialidad es más recomendable. Si es tu caso, lo vemos juntos y buscamos la mejor alternativa."
+    ]
+  },
+  {
+    "id": "adolescentes",
+    "pregunta": "¿Atendés adolescentes?",
+    "respuesta": [
+      "Sí. Trabajo con adolescentes, adultos y adultos mayores.",
+      "Con adolescentes, el primer contacto suele hacerlo una persona adulta responsable. En las primeras entrevistas definimos cómo será la participación de la familia, siempre cuidando el espacio propio del adolescente."
+    ]
+  },
+  {
+    "id": "nunca-hice-terapia",
+    "pregunta": "¿Qué pasa si nunca hice terapia?",
+    "respuesta": [
+      "Es muy común. No necesitás saber cómo funciona ni traer nada preparado. Al comienzo es normal sentir dudas, vergüenza o no saber por dónde empezar; también eso se puede decir en sesión.",
+      "Vamos a ir construyendo el espacio a tu ritmo, con la confianza como base."
+    ]
+  },
+  {
+    "id": "como-solicitar",
+    "pregunta": "¿Cómo puedo solicitar una consulta?",
+    "respuesta": [
+      "Podés escribirme por WhatsApp o completar el [formulario de contacto](/contacto/). Contame brevemente si preferís la modalidad presencial en Alta Gracia u online, y te respondo para coordinar un horario.",
+      "Por favor, no envíes información clínica detallada por mensaje: eso lo conversamos en la consulta."
+    ]
+  },
+  {
+    "id": "confidencialidad",
+    "pregunta": "¿Lo que hablo en sesión es confidencial?",
+    "respuesta": [
+      "Sí. Todo lo que se conversa está protegido por el secreto profesional, que establecen la ley y el código de ética profesional. Las únicas excepciones son las previstas por la ley, por ejemplo, ante un riesgo cierto e inminente para tu vida o la de terceros."
+    ]
+  },
+  {
+    "id": "emergencia",
+    "pregunta": "¿Puedo escribirte en una emergencia?",
+    "respuesta": [
+      "Este no es un servicio de urgencias y puede que no lea tu mensaje de inmediato. Si estás en riesgo o pensás en hacerte daño, llamá al **911** o al Centro de Asistencia al Suicida: **135** (desde CABA y GBA) o **0800-345-1435** (desde todo el país). Si vivís fuera de Argentina, comunicate con los servicios de emergencia locales."
+    ]
+  }
+]

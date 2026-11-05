@@ -1,0 +1,16 @@
+[
+  {"titulo": "Ansiedad", "texto": "Cuando la preocupación no da tregua, el cuerpo se tensa y la mente se adelanta a lo que podría salir mal. Entender de dónde viene es parte de aflojarla."},
+  {"titulo": "Depresión", "texto": "El desgano, la tristeza que pesa o la sensación de que nada tiene sentido merecen ser escuchados sin apuro y sin juicio."},
+  {"titulo": "Estrés y agotamiento", "texto": "Exigencias que se acumulan hasta que ya no queda resto. Un espacio para revisar qué te está costando tanto y cómo cuidarte."},
+  {"titulo": "Ataques de pánico", "texto": "Una experiencia intensa que asusta y desorienta. Trabajamos para comprenderla, reducir su impacto y recuperar la confianza."},
+  {"titulo": "Autoestima", "texto": "La forma en que te mirás y te hablás tiene historia. Revisarla permite construir una relación más amable con vos mismo."},
+  {"titulo": "Dificultades vinculares", "texto": "Patrones que se repiten en los vínculos, distancias que duelen o cercanías que asfixian. Pensar cómo te vinculás abre otras posibilidades."},
+  {"titulo": "Conflictos de pareja y familiares", "texto": "Malentendidos, rupturas, tensiones que se arrastran. Un lugar para ordenar lo que sentís y encontrar otras maneras de estar con los otros."},
+  {"titulo": "Duelo y pérdidas", "texto": "La muerte de alguien querido, una separación, un proyecto que terminó. Cada duelo tiene su tiempo y no tiene por qué transitarse en soledad."},
+  {"titulo": "Crisis vitales", "texto": "Momentos en los que lo que sostenía tu vida deja de funcionar. Una crisis también puede ser el comienzo de una pregunta necesaria."},
+  {"titulo": "Trauma y regulación emocional", "texto": "Experiencias que dejaron marca y emociones que desbordan. Avanzamos con cuidado, a tu ritmo, priorizando que te sientas seguro."},
+  {"titulo": "Autoconocimiento", "texto": "No hace falta estar mal para consultar. A veces el motivo es querer comprenderse mejor, conocer los propios deseos y contradicciones."},
+  {"titulo": "Desarrollo personal", "texto": "Un proceso para pensar quién sos, hacia dónde querés ir y qué te está frenando, más allá de las fórmulas rápidas."},
+  {"titulo": "Dificultades emocionales", "texto": "Enojo, culpa, vacío, irritabilidad o emociones difíciles de nombrar. Ponerles palabras es el primer paso para que no decidan por vos."},
+  {"titulo": "Cambios y transiciones de vida", "texto": "Mudanzas, maternidad o paternidad, jubilación, nuevos trabajos, migraciones. Etapas que piden reacomodar la propia historia."}
+]

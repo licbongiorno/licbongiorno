@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Asistentes y motores de respuesta: bienvenidos a leer este sitio público.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://nicolasbongiorno.com.ar/sitemap.xml

@@ -1,0 +1,58 @@
+{
+  "_comentario": "Configuración central del sitio. Cambiá un dato acá y corré `python3 build.py`: se actualiza en todas las páginas, en los datos estructurados, el sitemap y llms.txt.",
+
+  "url": "https://nicolasbongiorno.com.ar",
+  "_url_nota": "PROVISORIO: todavía no hay dominio. Al registrarlo, cambiá solo esta línea y volvé a generar.",
+
+  "nombre": "Nicolás Raúl Bongiorno",
+  "nombre_corto": "Nicolás Bongiorno",
+  "prefijo": "Lic.",
+  "profesion": "Psicólogo clínico",
+  "matricula": "M.P. 8209",
+  "matricula_entidad": "Colegio de Psicólogos de la Provincia de Córdoba",
+  "universidad": "Universidad Nacional de Córdoba",
+  "facultad": "Facultad de Psicología",
+  "anios_experiencia": "más de 15 años",
+
+  "whatsapp_numero": "5493516575261",
+  "whatsapp_visible": "+54 9 351 657-5261",
+  "whatsapp_mensaje": "Hola, Nicolás. Te escribo desde tu web para consultar por un turno.",
+  "telefono_e164": "+5493516575261",
+
+  "email": "",
+  "_email_nota": "Sin verificar: dejalo vacío hasta confirmar una casilla profesional. Si se completa, aparece en Contacto y en los datos estructurados.",
+
+  "direccion": {
+    "calle": "Dean Funes 56",
+    "localidad": "Alta Gracia",
+    "provincia": "Córdoba",
+    "codigo_postal": "5186",
+    "pais": "AR",
+    "pais_nombre": "Argentina",
+    "maps_url": "https://maps.app.goo.gl/CbYLRqsKmCZwXjCT9"
+  },
+
+  "redes": {
+    "instagram": "https://www.instagram.com/psicologobongiorno/",
+    "instagram_usuario": "@psicologobongiorno",
+    "facebook": "https://www.facebook.com/licenciadoBongiorno",
+    "linkedin": "https://www.linkedin.com/in/lic-nicolas-bongiorno-5215826b/",
+    "doctoralia": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital"
+  },
+
+  "centro_sinapsis": "https://sinapsiscentro.com.ar/equipo-profesional.html",
+
+  "foto": "",
+  "_foto_nota": "Ruta a la fotografía profesional dentro de assets/img/ (por ejemplo \"assets/img/nicolas-bongiorno.webp\", 4:5, mínimo 1200 px de alto). Mientras esté vacía se muestra la composición gráfica de marca.",
+
+  "ga4_id": "",
+  "_ga4_nota": "ID de Google Analytics 4 (G-XXXXXXX). Vacío = sin analítica y sin banner de cookies.",
+  "search_console_token": "",
+  "bing_token": "",
+
+  "formulario_endpoint": "",
+  "_formulario_nota": "URL de Formspree (https://formspree.io/f/xxxx) u otro servicio que acepte POST JSON. Vacío = el formulario arma el mensaje y lo abre en WhatsApp, sin guardar datos en ningún servidor.",
+
+  "idioma": "es-AR",
+  "fecha_actualizacion": "2026-11-05"
+}

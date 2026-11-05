@@ -1,0 +1,74 @@
+<!--{
+  "ruta": "/contacto/",
+  "titulo": "Contacto y turnos | Nicolás Bongiorno, psicólogo",
+  "descripcion": "Solicitá una consulta con el Lic. Nicolás Raúl Bongiorno por WhatsApp o formulario. Consultorio en Dean Funes 56, Alta Gracia, Córdoba, y terapia online.",
+  "prioridad": 0.9,
+  "tipo_pagina": "ContactPage",
+  "migas": [["Contacto", "/contacto/"]],
+  "antetitulo": "Contacto",
+  "h1": "Solicitar <em>una consulta</em>",
+  "bajada": "Escribime por el medio que te resulte más cómodo. Te respondo personalmente para coordinar una primera entrevista, presencial en Alta Gracia u online."
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor contacto-grilla">
+    <div class="revelar">
+      <h2 style="font-size:clamp(1.7rem,1.4rem + 1vw,2.2rem)">Canales de contacto</h2>
+      <ul class="canales">
+        <li><a class="canal" href="{{wa_url}}" target="_blank" rel="noopener" data-ubicacion="contacto"><span class="canal__icono">{{icono_whatsapp}}</span><span><strong>WhatsApp</strong><span>{{wa_visible}} · la vía más rápida</span></span>{{icono_flecha}}</a></li>
+        <li><a class="canal" href="{{instagram}}" target="_blank" rel="noopener me"><span class="canal__icono">{{icono_instagram}}</span><span><strong>Instagram</strong><span>{{instagram_usuario}}</span></span>{{icono_externo}}</a></li>
+        <li><a class="canal" href="{{facebook}}" target="_blank" rel="noopener me"><span class="canal__icono">{{icono_facebook}}</span><span><strong>Facebook</strong><span>licenciadoBongiorno</span></span>{{icono_externo}}</a></li>
+        <li><a class="canal" href="{{linkedin}}" target="_blank" rel="noopener me"><span class="canal__icono">{{icono_linkedin}}</span><span><strong>LinkedIn</strong><span>Perfil profesional</span></span>{{icono_externo}}</a></li>
+        <li><a class="canal" href="{{maps_url}}" target="_blank" rel="noopener"><span class="canal__icono">{{icono_mapa}}</span><span><strong>Consultorio</strong><span>{{calle}}, {{localidad}}, {{provincia}}</span></span>{{icono_externo}}</a></li>
+      </ul>
+      <h2 style="font-size:1.4rem">Modalidades</h2>
+      <p><a href="/psicologo-alta-gracia/">Presencial en Alta Gracia</a> · <a href="/terapia-online/">Online por videollamada</a>, para Argentina y el exterior. Adolescentes, adultos y adultos mayores.</p>
+      <div class="emergencia" role="note">
+        <strong>Este no es un canal de urgencias.</strong>
+        Si estás en riesgo o pensás en hacerte daño, llamá al 911 o al Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país). Desde el exterior, comunicate con los servicios de emergencia locales.
+      </div>
+    </div>
+
+    <div class="revelar" style="--retraso:.1s">
+      <form class="formulario" id="form-contacto" novalidate>
+        <h2>Escribime</h2>
+        <p style="font-family:var(--f-sans);font-size:.88rem;color:var(--texto-2)">Solo te pido lo necesario para poder responderte. Los campos con * son obligatorios.</p>
+        <div class="campo">
+          <label for="f-nombre">Nombre *</label>
+          <input id="f-nombre" name="nombre" type="text" autocomplete="given-name" required maxlength="80" data-error="Contame cómo te llamás." aria-describedby="f-nombre-error">
+          <span class="campo__error" id="f-nombre-error" aria-live="polite"></span>
+        </div>
+        <div class="campo">
+          <label for="f-contacto">WhatsApp o correo para responderte *</label>
+          <input id="f-contacto" name="contacto" type="text" autocomplete="email" required maxlength="120" inputmode="email" data-error="Necesito un medio para responderte." aria-describedby="f-contacto-ayuda f-contacto-error">
+          <span class="ayuda" id="f-contacto-ayuda">Si es un teléfono, incluí el código de país y de área.</span>
+          <span class="campo__error" id="f-contacto-error" aria-live="polite"></span>
+        </div>
+        <fieldset class="campo">
+          <legend>Modalidad que preferís</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="modalidad" value="presencial en Alta Gracia"><span>Presencial en Alta Gracia</span></label>
+            <label class="opcion"><input type="radio" name="modalidad" value="online"><span>Online</span></label>
+            <label class="opcion"><input type="radio" name="modalidad" value="" checked><span>Todavía no sé</span></label>
+          </div>
+        </fieldset>
+        <div class="campo">
+          <label for="f-lugar">Ciudad y país</label>
+          <input id="f-lugar" name="lugar" type="text" autocomplete="address-level2" maxlength="80" aria-describedby="f-lugar-ayuda">
+          <span class="ayuda" id="f-lugar-ayuda">Útil para coordinar horarios si me escribís desde otra zona.</span>
+        </div>
+        <div class="campo">
+          <label for="f-mensaje">Mensaje breve</label>
+          <textarea id="f-mensaje" name="mensaje" maxlength="600" rows="4" aria-describedby="f-mensaje-ayuda"></textarea>
+          <span class="ayuda" id="f-mensaje-ayuda">Por ejemplo: días u horarios que te quedan cómodos. No hace falta que cuentes detalles personales o clínicos: eso lo conversamos en la consulta.</span>
+        </div>
+        <div class="trampa" aria-hidden="true"><label for="f-web">No completar</label><input id="f-web" name="web" type="text" tabindex="-1" autocomplete="off"></div>
+        <label class="check" for="f-acepto"><input id="f-acepto" name="acepto" type="checkbox" required data-error="Necesito tu conformidad para usar estos datos." aria-describedby="f-acepto-error"><span>Leí la <a href="/privacidad/">política de privacidad</a> y acepto que mis datos se usen solo para responder esta consulta. *<span class="campo__error" id="f-acepto-error" aria-live="polite" style="display:block"></span></span></label>
+        <button class="boton" type="submit" style="width:100%">Enviar consulta {{icono_flecha}}</button>
+        <p class="formulario__estado" role="status" aria-live="polite"></p>
+        <div class="aviso-privacidad">
+          <strong>Importante:</strong> este formulario no es para emergencias ni para enviar información clínica sensible (diagnósticos, medicación, situaciones de riesgo). Tus datos se usan solo para responderte y no se comparten con terceros.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

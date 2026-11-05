@@ -1,0 +1,24 @@
+<!--{
+  "ruta": "/recursos/",
+  "titulo": "Recursos: artículos de psicología | Nicolás Bongiorno",
+  "descripcion": "Divulgación psicológica sobre ansiedad, emociones, vínculos, autoconocimiento, psicología analítica de Jung y salud mental, por un psicólogo clínico.",
+  "prioridad": 0.7,
+  "frecuencia": "weekly",
+  "migas": [["Recursos", "/recursos/"]],
+  "tipo_pagina": "CollectionPage",
+  "antetitulo": "Recursos",
+  "h1": "Psicología para <em>pensar la vida cotidiana</em>",
+  "bajada": "Un espacio de divulgación con textos claros y rigurosos sobre emociones, vínculos, autoconocimiento y psicología contemporánea. Cada artículo se publica una vez revisado."
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <ul class="categorias revelar" aria-label="Categorías">
+      <li>Psicología y vida cotidiana</li><li>Jung y psicología analítica</li><li>Ansiedad y emociones</li><li>Vínculos y relaciones</li>
+      <li>Autoconocimiento</li><li>Salud mental</li><li>Psicología contemporánea</li><li>Desarrollo personal</li>
+    </ul>
+    <h2 class="visualmente-oculto">Artículos</h2>
+    {{> articulos}}
+    <p class="revelar" style="margin-top:2.5rem;font-family:var(--f-sans);font-size:.85rem;color:var(--piedra-oscura);max-width:46rem">Los artículos tienen fines de divulgación y no reemplazan una consulta profesional. Si querés que escriba sobre algún tema en particular, podés sugerirlo por <a href="{{instagram}}" target="_blank" rel="noopener">Instagram</a>.</p>
+    <div style="margin-top:var(--sec)">{{> cta}}</div>
+  </div>
+</section>
