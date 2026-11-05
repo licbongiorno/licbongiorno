@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 3
 estado: publicado
+respuesta: Para Carl Gustav Jung, la sombra es el conjunto de aspectos de la personalidad que no reconocemos como propios: rasgos rechazados, pero también capacidades no desarrolladas. Suele aparecer proyectada en otras personas. Integrarla nos vuelve más completos.
+revision: 2026-11-05
+menciona: jung, psicologia-analitica
 ---
 No, no es tu peor parte. Es la parte que dejaste afuera. Ese enojo que aprendiste a tragar, esa ambición que te dio vergüenza, esa ternura que nunca supiste dónde poner. Todo eso no se fue: se mudó al sótano. Y tiene la costumbre de aparecer justo en las personas que más nos irritan.
 
@@ -43,6 +46,21 @@ Ese reconocimiento tiene efectos concretos: disminuye la necesidad de proyectar 
 En el espacio terapéutico, la sombra suele aparecer de a poco: en lo que cuesta decir, en los sueños, en lo que se repite. El trabajo no consiste en juzgarla, sino en acercarse con curiosidad y respeto.
 
 Integrar la sombra no nos hace peores personas. Nos hace más completos, más compasivos con nosotros mismos y, en consecuencia, con los demás. Bajar al sótano da miedo, pero ahí abajo, entre lo que escondimos, suele estar también lo que nos falta para estar enteros.
+
+
+## Preguntas frecuentes
+
+### ¿La sombra es lo malo de una persona?
+
+No. La sombra es lo que no reconocemos de nosotros mismos. Puede incluir rasgos considerados negativos, pero también cualidades valiosas que quedaron relegadas.
+
+### ¿Cómo saber cuál es mi sombra?
+
+Una pista frecuente son las reacciones desproporcionadas: lo que nos irrita o nos fascina demasiado de otras personas suele hablar de algo propio. Los sueños también la muestran.
+
+### ¿Qué significa integrar la sombra?
+
+Reconocer esos aspectos como propios, sin actuarlos ciegamente ni negarlos. Para Jung es un paso central del proceso de individuación.
 
 ## Para seguir leyendo
 

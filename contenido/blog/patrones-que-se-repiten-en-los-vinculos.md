@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 4
 estado: publicado
+respuesta: Repetimos patrones en los vínculos porque nuestras primeras relaciones funcionan como un molde inconsciente: lo conocido, aunque duela, resulta familiar. Reconocer el patrón, entender de dónde viene y qué función cumple es lo que permite empezar a elegir de otra manera.
+revision: 2026-11-05
+menciona: freud, bowlby
 ---
 «Siempre me pasa lo mismo.» Cambia la cara, cambia el nombre, cambia la ciudad. Pero la escena es idéntica: el que no está disponible, la que da hasta quedarse vacía, el jefe que despierta exactamente el mismo nudo en la panza. Como si la vida nos pusiera una y otra vez la misma película, con otro elenco.
 
@@ -44,6 +47,21 @@ En psicoterapia, el primer paso es reconocer el patrón: ver qué se repite, en 
 No se trata de buscar culpables en el pasado, sino de entender la propia historia para dejar de actuarla sin darse cuenta. Muchas veces, la misma relación terapéutica se vuelve un lugar donde esos patrones aparecen y pueden pensarse de una manera nueva.
 
 Romper un patrón lleva tiempo. Pero cada vez que lo reconocés, se abre la posibilidad de un final distinto. No se trata de cambiar de película: se trata de dejar de ser espectador de tu propia historia y animarte, por fin, a reescribir el guion.
+
+
+## Preguntas frecuentes
+
+### ¿Por qué elijo siempre el mismo tipo de pareja?
+
+Muchas veces porque esa persona reproduce algo conocido de nuestra historia. No es una elección consciente, sino un patrón que puede revisarse en terapia.
+
+### ¿Qué es la compulsión a la repetición?
+
+Es el término que usó Freud para describir la tendencia a repetir, sin darnos cuenta, experiencias de nuestra historia, incluso las dolorosas.
+
+### ¿Se puede romper un patrón vincular?
+
+Sí, aunque lleva tiempo. El primer paso es reconocerlo; después, comprender su origen y ensayar respuestas nuevas en los vínculos actuales.
 
 ## Para seguir leyendo
 

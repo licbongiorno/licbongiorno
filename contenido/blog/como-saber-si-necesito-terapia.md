@@ -10,6 +10,8 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 1
 estado: publicado
+respuesta: No hace falta estar en una situación extrema. Conviene consultar si algo te hace sufrir hace tiempo, si se repiten situaciones que no lográs cambiar, si te cuesta dormir o disfrutar, o si querés conocerte mejor. La primera entrevista sirve para pensarlo juntos, sin compromiso.
+revision: 2026-11-05
 ---
 «No sé si lo mío es para tanto.» «Hay gente que está peor.» «Debería poder resolverlo solo.» Si alguna de estas frases te suena, no estás solo: son las que más escucho en las primeras entrevistas, casi siempre dichas después de meses, o años, de postergar.
 
@@ -44,3 +46,18 @@ No es un compromiso: es un primer paso para pensar con otro algo que, solo, se v
 ## Cuándo no esperar
 
 Si estás atravesando una crisis, sentís que no podés más o aparecen pensamientos de hacerte daño, no esperes a un turno: comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país). Pedir ayuda urgente también es cuidarte.
+
+
+## Preguntas frecuentes
+
+### ¿Hace falta un diagnóstico o una derivación para ir al psicólogo?
+
+No. Podés consultar directamente. En la primera entrevista se conversa sobre lo que te trae y se evalúa si la terapia es el camino adecuado.
+
+### ¿Ir al psicólogo significa que estoy mal?
+
+No. Mucha gente consulta para comprenderse mejor, atravesar un cambio o prevenir que un malestar crezca. Consultar es una forma de cuidarse.
+
+### ¿Qué pasa si después de la primera entrevista no quiero seguir?
+
+No pasa nada. La primera entrevista no implica un compromiso: es un espacio para conocerse y decidir juntos si continuar.

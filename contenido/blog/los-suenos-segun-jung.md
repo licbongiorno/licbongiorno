@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 6
 estado: publicado
+respuesta: Para Carl Gustav Jung, los sueños son expresiones naturales del inconsciente que muestran —no esconden— lo que nos pasa, en un lenguaje de imágenes. Suelen compensar actitudes conscientes unilaterales. Se exploran con las asociaciones de quien sueña, sin diccionarios de símbolos.
+revision: 2026-11-05
+menciona: jung, freud, psicologia-analitica
 ---
 No, no es «solo un sueño». Es una carta que te escribiste a vos mismo en un idioma que todavía no aprendiste a leer: con imágenes en lugar de palabras, con casas que no conocés, con personas que ya no están, con escaleras que suben a ninguna parte.
 
@@ -36,6 +39,25 @@ Algunas imágenes del sueño remiten a nuestra historia: personas, lugares, situ
 ## Los sueños en terapia
 
 En una terapia junguiana, los sueños son una vía privilegiada para conocer lo que todavía no es consciente. No se trata de que el terapeuta «diga qué significa», sino de explorarlos juntos, con tus asociaciones y con el método de la [amplificación](/glosario-junguiano/#amplificacion). Si no recordás sueños, no hay problema: también se trabaja con la vida cotidiana. Pero si esta noche aparece uno, anotalo. Puede que tenga algo para decirte.
+
+
+:::
+**Descargá el [Diario de sueños](/assets/descargas/diario-de-suenos.pdf)**: un cuaderno para imprimir, con una guía para registrar tus sueños, sus emociones y lo que te evocan. Gratis y sin dejar datos.
+:::fin
+
+## Preguntas frecuentes
+
+### ¿Qué diferencia hay entre Freud y Jung sobre los sueños?
+
+Para Freud, el sueño disfraza un deseo reprimido. Para Jung, el sueño muestra en su propio lenguaje simbólico lo que la psique necesita, y muchas veces compensa la actitud consciente.
+
+### ¿Sirven los diccionarios de sueños?
+
+No demasiado. El mismo símbolo puede significar cosas distintas para cada persona; lo importante son tus propias asociaciones y emociones.
+
+### ¿Qué hago si no recuerdo mis sueños?
+
+Anotar lo primero que recuerdes al despertar, aunque sea un fragmento, ayuda. Y si no aparecen, la terapia también trabaja con la vida cotidiana.
 
 ## Para seguir leyendo
 

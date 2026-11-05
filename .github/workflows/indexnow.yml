@@ -1,0 +1,21 @@
+# Después de cada publicación en main, espera a que Vercel termine y avisa a Bing (IndexNow).
+name: Avisar a buscadores (IndexNow)
+
+on:
+  push:
+    branches: [main]
+    paths: ["public/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Esperar el despliegue de Vercel
+        run: sleep 150
+      - name: Enviar URL a IndexNow
+        run: python3 herramientas/indexnow.py

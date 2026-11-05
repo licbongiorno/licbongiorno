@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 9
 estado: publicado
+respuesta: Durante un ataque de pánico ayuda nombrarlo, respirar lento con exhalaciones largas, volver al presente con los sentidos y no pelear con las sensaciones, que suelen alcanzar su pico en pocos minutos. Conviene consultar a un médico la primera vez y a un psicólogo después del primer episodio.
+revision: 2026-11-05
+menciona: ansiedad
 ---
 Si alguna vez lo viviste, lo sabés: no es «un poco de nervios». Es el corazón galopando, el aire que no alcanza, la certeza absurda y total de que te vas a morir ahí mismo, en la fila del súper o en la cama a oscuras.
 
@@ -30,6 +33,21 @@ Durante un ataque de pánico, el cuerpo activa la respuesta de alarma como si hu
 ## Y después
 
 Muchas personas, después de un ataque, empiezan a evitar los lugares o situaciones donde ocurrió, y la vida se va achicando: primero el colectivo, después el centro, después salir. Por eso conviene **consultar después del primero**, sin esperar a que se repita. En terapia se trabaja tanto el manejo de las crisis como lo que las alimenta: tensiones acumuladas, conflictos o cambios que todavía no encontraron palabras. El pánico grita porque algo, hace tiempo, viene hablando bajito. Más información en [Ansiedad y ataques de pánico](/ansiedad-y-ataques-de-panico/).
+
+
+## Preguntas frecuentes
+
+### ¿Cuánto dura un ataque de pánico?
+
+Los síntomas suelen alcanzar su pico en pocos minutos y luego ceden, aunque el malestar posterior puede durar más.
+
+### ¿Un ataque de pánico puede ser peligroso?
+
+Es muy angustiante, pero en sí mismo no suele ser peligroso. Igual es importante descartar causas médicas, sobre todo la primera vez o si hay dolor de pecho.
+
+### ¿Se pueden evitar los ataques de pánico?
+
+Con tratamiento suelen disminuir en frecuencia e intensidad. La terapia trabaja tanto el manejo de las crisis como lo que las alimenta.
 
 :::aviso
 Si los síntomas son nuevos para vos, incluyen dolor de pecho persistente o tenés dudas sobre tu salud, consultá a una guardia médica o llamá al 107 o al 911.

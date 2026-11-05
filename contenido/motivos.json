@@ -6,11 +6,13 @@
   },
   {
     "titulo": "Depresión",
-    "texto": "El desgano, la tristeza que pesa o la sensación de que nada tiene sentido merecen ser escuchados sin apuro y sin juicio."
+    "texto": "El desgano, la tristeza que pesa o la sensación de que nada tiene sentido merecen ser escuchados sin apuro y sin juicio.",
+    "pagina": "/depresion/"
   },
   {
     "titulo": "Estrés y agotamiento",
-    "texto": "Exigencias que se acumulan hasta que ya no queda resto. Un espacio para revisar qué te está costando tanto y cómo cuidarte."
+    "texto": "Exigencias que se acumulan hasta que ya no queda resto. Un espacio para revisar qué te está costando tanto y cómo cuidarte.",
+    "pagina": "/estres-y-agotamiento/"
   },
   {
     "titulo": "Ataques de pánico",
@@ -43,7 +45,8 @@
   },
   {
     "titulo": "Trauma y regulación emocional",
-    "texto": "Experiencias que dejaron marca y emociones que desbordan. Avanzamos con cuidado, a tu ritmo, priorizando que te sientas seguro."
+    "texto": "Experiencias que dejaron marca y emociones que desbordan. Avanzamos con cuidado, a tu ritmo, priorizando que te sientas seguro.",
+    "pagina": "/trauma/"
   },
   {
     "titulo": "Autoconocimiento",

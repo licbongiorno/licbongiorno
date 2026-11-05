@@ -49,6 +49,11 @@
   "foto_biblioteca": "assets/img/nicolas-bongiorno-biblioteca.webp",
   "_foto_nota": "Ruta a la fotografía profesional dentro de assets/img/ (por ejemplo \"assets/img/nicolas-bongiorno.webp\", 4:5, mínimo 1200 px de alto). Mientras esté vacía se muestra la composición gráfica de marca.",
 
+  "vercel_analytics": false,
+  "_vercel_analytics_nota": "Poné true después de activar Web Analytics en Vercel (proyecto → Analytics → Enable). Mide visitas sin cookies.",
+  "indexnow_key": "e29730b88950817ab5071b2154fa41ac",
+  "_indexnow_nota": "Clave pública para avisar a Bing y otros buscadores de cada cambio (IndexNow). No es secreta.",
+
   "ga4_id": "",
   "_ga4_nota": "ID de Google Analytics 4 (G-XXXXXXX). Vacío = sin analítica y sin banner de cookies.",
   "search_console_token": "",

@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 13
 estado: publicado
+respuesta: Para acompañar a alguien con depresión ayuda estar presente, escuchar sin juzgar, validar lo que siente y proponer pasos pequeños, como acompañarlo a una consulta. Conviene evitar frases como «poné de tu parte». Ante señales de riesgo, hay que pedir ayuda urgente.
+revision: 2026-11-05
+menciona: depresion
 ---
 No hay frase mágica. Lo sabés porque ya probaste varias: «arriba ese ánimo», «salí un poco», «mirá todo lo que tenés». Y la persona que querés sigue ahí, del otro lado de un vidrio que no sabés cómo atravesar.
 
@@ -38,6 +41,21 @@ La depresión puede tratarse, y la ayuda profesional hace una gran diferencia. P
 ## Cuidarte también vos
 
 Acompañar desgasta. Buscá apoyo en otras personas, mantené tus espacios propios y, si lo necesitás, consultá vos también. Cuidarte no es egoísmo: es lo que te permite seguir estando. Nadie puede ser faro si se le apaga la propia luz.
+
+
+## Preguntas frecuentes
+
+### ¿Qué no decirle a alguien con depresión?
+
+Frases como «poné de tu parte», «hay gente que está peor» o «tenés todo para ser feliz». Aunque sean bienintencionadas, suelen aumentar la culpa.
+
+### ¿Cómo convencer a alguien de ir al psicólogo?
+
+Sin presionar: ofreciendo ayuda concreta, como buscar juntos un profesional o acompañarlo a la primera consulta.
+
+### ¿Qué hago si habla de quitarse la vida?
+
+Tomarlo en serio, no dejarlo solo y pedir ayuda inmediata: 911 o el Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435.
 
 :::aviso
 Si la persona habla de quitarse la vida, se despide o da señales de riesgo, no lo minimices ni lo dejes solo: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).

@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 2
 estado: publicado
+respuesta: La ansiedad es una respuesta natural ante lo que percibimos como amenaza, que se vuelve un problema cuando es constante o desproporcionada. Se manifiesta en el cuerpo, el pensamiento y la conducta. En terapia se trabaja tanto el alivio de los síntomas como el sentido de lo que la ansiedad está señalando.
+revision: 2026-11-05
+menciona: ansiedad
 ---
 No, no es que estés exagerando. Es que el cuerpo llegó primero. Antes de que puedas ponerle nombre a lo que te pasa, ya está ahí: el pecho apretado, la cabeza que no para, el insomnio de las tres de la mañana, esa alarma que suena aunque no haya incendio.
 
@@ -51,6 +54,21 @@ Por eso, además de aliviar el síntoma, en terapia nos preguntamos qué está d
 Si la ansiedad interfiere en tu vida cotidiana, en tu descanso, en tus vínculos o en tu trabajo, o si tuviste ataques de pánico, es un buen momento para consultar. También es importante descartar causas médicas con un profesional de la salud.
 
 La ansiedad tiene tratamiento. Y cuando dejamos de pelearnos con ella y empezamos a escucharla, deja de ser solo una alarma y se vuelve una brújula: señala, casi siempre, hacia algo de tu vida que está pidiendo lugar.
+
+
+## Preguntas frecuentes
+
+### ¿La ansiedad se cura?
+
+La ansiedad no desaparece del todo, porque es una respuesta natural. Lo que sí se puede lograr, con tratamiento, es que deje de ser constante y de limitar tu vida.
+
+### ¿Cuáles son los síntomas físicos de la ansiedad?
+
+Los más frecuentes son tensión muscular, palpitaciones, presión en el pecho, sensación de falta de aire, malestar digestivo e insomnio. Conviene descartar causas médicas con un profesional de la salud.
+
+### ¿Cómo se trata la ansiedad en psicoterapia?
+
+Combinando recursos concretos para regular la activación del cuerpo con un trabajo de comprensión: qué situaciones, conflictos o cambios están alimentando la ansiedad.
 
 ## Para seguir leyendo
 

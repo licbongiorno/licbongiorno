@@ -147,7 +147,9 @@
         contacto: (d.get("contacto") || "").toString().trim(),
         modalidad: (d.get("modalidad") || "").toString(),
         lugar: (d.get("lugar") || "").toString().trim(),
-        mensaje: (d.get("mensaje") || "").toString().trim().slice(0, 600)
+        mensaje: (d.get("mensaje") || "").toString().trim().slice(0, 600),
+        horario: (d.get("horario") || "").toString(),
+        origen: (d.get("origen") || "").toString()
       };
 
       if (cfg.formEndpoint) {
@@ -173,7 +175,9 @@
       var texto = "Hola, Nicolás. Soy " + datos.nombre + ". Te escribo desde tu web." +
         (datos.modalidad ? " Me interesa la atención " + datos.modalidad + "." : "") +
         (datos.lugar ? " Escribo desde " + datos.lugar + "." : "") +
+        (datos.horario ? " Me queda mejor a la " + datos.horario.toLowerCase() + "." : "") +
         (datos.mensaje ? " " + datos.mensaje : "") +
+        (datos.origen ? " (Te conocí por: " + datos.origen + ".)" : "") +
         " Mi contacto: " + datos.contacto;
       var url = "https://wa.me/" + cfg.whatsapp + "?text=" + encodeURIComponent(texto);
       evento("formulario_whatsapp", { modalidad: datos.modalidad });
@@ -286,6 +290,51 @@
     lista.addEventListener("mouseleave", function () { ir(actual()); });
     window.addEventListener("resize", function () { ir(actual()); });
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { ir(actual()); }); else ir(actual());
+  }
+
+  /* ---------- Asistente «Empezar en 3 pasos» ---------- */
+  var asis = document.getElementById("asistente");
+  if (asis) {
+    var texto = asis.querySelector(".asistente__texto");
+    var enviar = asis.querySelector(".asistente__enviar");
+    var pasos = asis.querySelectorAll(".asistente__paso");
+    var armar = function () {
+      var v = function (n) { var el = asis.querySelector('input[name="' + n + '"]:checked'); return el ? el.value : ""; };
+      var motivo = v("motivo"), modalidad = v("modalidad"), horario = v("horario");
+      var t = "Hola, Nicolás. Te escribo desde tu web.";
+      if (motivo && motivo !== "Todavía no lo sé") t += " Quería consultarte por: " + motivo.toLowerCase() + ".";
+      else if (motivo) t += " Quería hacer una consulta, aunque todavía no sé bien por dónde empezar.";
+      if (modalidad === "Presencial en Alta Gracia") t += " Prefiero atención presencial en Alta Gracia.";
+      else if (modalidad === "Online") t += " Prefiero atención online.";
+      if (horario && horario !== "Cualquiera") t += " Me queda mejor a la " + horario.toLowerCase() + ".";
+      t += " ¿Tenés disponibilidad?";
+      texto.textContent = t;
+      enviar.href = "https://wa.me/" + cfg.whatsapp + "?text=" + encodeURIComponent(t);
+      var completos = 0;
+      pasos.forEach(function (p) {
+        var lleno = !!p.querySelector("input:checked");
+        p.classList.toggle("completo", lleno);
+        if (lleno) completos++;
+      });
+      asis.setAttribute("data-completos", completos);
+    };
+    asis.addEventListener("change", armar);
+    asis.addEventListener("submit", function (e) { e.preventDefault(); });
+    enviar.addEventListener("click", function () { evento("asistente_enviado", {}); });
+    armar();
+  }
+
+  /* ---------- Barra de contacto en celular: aparece al bajar ---------- */
+  var barraM = document.querySelector(".barra-movil");
+  if (barraM) {
+    var pendienteB = false;
+    var verBarra = function () {
+      pendienteB = false;
+      var fin = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 160;
+      barraM.classList.toggle("visible", window.scrollY > window.innerHeight * 0.6 && !fin);
+    };
+    window.addEventListener("scroll", function () { if (!pendienteB) { pendienteB = true; requestAnimationFrame(verBarra); } }, { passive: true });
+    verBarra();
   }
 
   /* ---------- Medición de clics de contacto (si hay GA4 con consentimiento) ---------- */

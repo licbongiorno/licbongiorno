@@ -249,6 +249,8 @@ NAV = [
     ("Modalidades", None, [
         ("Presencial en Alta Gracia", "/psicologo-alta-gracia/", f'Consultorio en {D["calle"]}'),
         ("Terapia online", "/terapia-online/", "Argentina y el exterior, en español"),
+        ("Valle de Paravachasca", "/psicologo-valle-de-paravachasca/", "Anisacate, La Bolsa, Los Aromos…"),
+        ("Terapia online por país", "/terapia-online-por-pais/", "Horarios y qué tener en cuenta"),
     ]),
     ("Recursos", "/recursos/", None),
     ("Empezar", None, [
@@ -343,6 +345,10 @@ def pie():
         <ul>
           <li><a href="/psicologo-alta-gracia/">Psicólogo en Alta Gracia</a></li>
           <li><a href="/terapia-online/">Terapia online en español</a></li>
+          <li><a href="/terapia-online-por-pais/">Terapia online por país</a></li>
+          <li><a href="/psicologo-valle-de-paravachasca/">Valle de Paravachasca</a></li>
+          <li><a href="/psicologo-para-adolescentes/">Adolescentes</a></li>
+          <li><a href="/terapia-para-adultos-mayores/">Adultos mayores</a></li>
           <li><a href="/contacto/">Solicitar una consulta</a></li>
         </ul>
       </div>
@@ -508,6 +514,159 @@ def bloque_datos_clave():
     return f'<aside class="datos-clave" aria-labelledby="titulo-datos-clave"><h2 id="titulo-datos-clave">Datos clave</h2><dl>{dl}</dl></aside>'
 
 
+WIKI = {
+    "jung": ("Carl Gustav Jung", "https://es.wikipedia.org/wiki/Carl_Gustav_Jung"),
+    "freud": ("Sigmund Freud", "https://es.wikipedia.org/wiki/Sigmund_Freud"),
+    "bowlby": ("John Bowlby", "https://es.wikipedia.org/wiki/John_Bowlby"),
+    "psicologia-analitica": ("Psicología analítica", "https://es.wikipedia.org/wiki/Psicolog%C3%ADa_anal%C3%ADtica"),
+    "ansiedad": ("Ansiedad", "https://es.wikipedia.org/wiki/Ansiedad"),
+    "duelo": ("Duelo", "https://es.wikipedia.org/wiki/Duelo_(sentimiento)"),
+    "depresion": ("Depresión", "https://es.wikipedia.org/wiki/Depresi%C3%B3n"),
+}
+
+CATEGORIAS = {
+    "Jung y psicología analítica": "Sueños, sombra, arquetipos e individuación: la psicología analítica de Carl Gustav Jung, explicada para la vida cotidiana.",
+    "Ansiedad y emociones": "Ansiedad, ataques de pánico y emociones difíciles: qué nos dicen, por qué aparecen y cómo atravesarlas con ayuda.",
+    "Vínculos y relaciones": "Patrones que se repiten, dependencia emocional y la forma en que nos vinculamos con la pareja, la familia y los otros.",
+    "Salud mental": "Cuándo consultar a un psicólogo, cómo acompañar a alguien que sufre y cómo cuidar la propia salud mental.",
+    "Psicología contemporánea": "Psicoterapia integrativa, terapia online, duelo migratorio y otros temas de la psicología de hoy, en lenguaje claro.",
+    "Desarrollo personal": "Crisis vitales, la crisis de la mitad de la vida, búsqueda de sentido y autoconocimiento desde una mirada junguiana.",
+}
+
+
+def ruta_categoria(cat):
+    return f"/recursos/{slug(cat)}/"
+
+
+def respuesta_breve(texto):
+    if not texto:
+        return ""
+    return (f'<div class="respuesta-breve" role="note"><p class="respuesta-breve__titulo">En pocas palabras</p>'
+            f'<p>{inline_md(texto)}</p></div>')
+
+
+def faq_html(items, titulo=None):
+    out = []
+    for i, f in enumerate(items):
+        resp = "".join(f"<p>{inline_md(p)}</p>" for p in f["respuesta"])
+        out.append(f'''<details id="pregunta-{i + 1}">
+  <summary><span>{esc(f["pregunta"])}</span><span class="faq__signo" aria-hidden="true"></span></summary>
+  <div class="faq__respuesta">{resp}</div>
+</details>''')
+    cab = f'<h2 id="preguntas-frecuentes">{esc(titulo)}</h2>' if titulo else ""
+    return f'{cab}<div class="faq">{"".join(out)}</div>'
+
+
+def faq_schema_items(items):
+    return {"@type": "FAQPage", "mainEntity": [{
+        "@type": "Question", "name": f["pregunta"],
+        "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"\[(.+?)\]\(.+?\)", r"\1", " ".join(f["respuesta"])).replace("**", "").replace("*", "")}
+    } for f in items]}
+
+
+def extraer_faq(md):
+    """Separa la sección «## Preguntas frecuentes» (### pregunta + párrafos) del resto del Markdown."""
+    m = re.search(r"^## Preguntas frecuentes\s*$", md, re.M)
+    if not m:
+        return md, []
+    antes, seccion = md[:m.start()], md[m.end():]
+    sig = re.search(r"^## ", seccion, re.M)
+    despues = seccion[sig.start():] if sig else ""
+    seccion = seccion[:sig.start()] if sig else seccion
+    items = []
+    for bloque in re.split(r"^### ", seccion, flags=re.M)[1:]:
+        lineas = bloque.strip().split("\n", 1)
+        pars = [p.strip().replace("\n", " ") for p in (lineas[1] if len(lineas) > 1 else "").split("\n\n") if p.strip()]
+        items.append({"pregunta": lineas[0].strip(), "respuesta": pars})
+    return antes + despues, items
+
+
+TERMINOS_GLOSARIO = [
+    ("psicologia-analitica", r"psicología analítica"),
+    ("inconsciente-colectivo", r"inconsciente colectivo"),
+    ("arquetipo", r"arquetipos?"),
+    ("sombra", r"(?<!dar )sombra"),
+    ("individuacion", r"individuación"),
+    ("proyeccion", r"proyecci(?:ón|ones)"),
+    ("sincronicidad", r"sincronicidad"),
+    ("anima-y-animus", r"ánima"),
+    ("si-mismo", r"sí-mismo"),
+    ("imaginacion-activa", r"imaginación activa"),
+    ("amplificacion", r"amplificación"),
+    ("mandala", r"mandalas?"),
+    ("tipos-psicologicos", r"tipos psicológicos"),
+    ("complejo", r"complejos"),
+]
+
+
+def enlazar_glosario(htm):
+    """Enlaza la primera aparición de cada término del glosario dentro de párrafos, sin tocar enlaces existentes."""
+    usados = {t for t, _ in TERMINOS_GLOSARIO if f"/glosario-junguiano/#{t}" in htm}
+
+    def en_parrafo(mp):
+        p = mp.group(0)
+        for ancla, patron in TERMINOS_GLOSARIO:
+            if ancla in usados:
+                continue
+            partes = re.split(r"(<a\b.*?</a>)", p, flags=re.S)
+            hecho = False
+            for i, parte in enumerate(partes):
+                if parte.startswith("<a") or hecho:
+                    continue
+                rx = re.compile(r"(?<![\w-])(" + patron + r")(?![\w-])", re.I)
+                # no reemplazar dentro de etiquetas
+                trozos = re.split(r"(<[^>]+>)", parte)
+                for j, tr in enumerate(trozos):
+                    if tr.startswith("<"):
+                        continue
+                    mm = rx.search(tr)
+                    if mm:
+                        trozos[j] = tr[:mm.start()] + f'<a class="enlace-glosario" href="/glosario-junguiano/#{ancla}">{mm.group(1)}</a>' + tr[mm.end():]
+                        hecho = True
+                        break
+                partes[i] = "".join(trozos)
+            if hecho:
+                usados.add(ancla)
+                p = "".join(partes)
+        return p
+
+    return re.sub(r"<(p|li)>.*?</\1>", en_parrafo, htm, flags=re.S)
+
+
+def prueba_social(clave):
+    cortas = [c for c in RESENAS.get("todas", []) if len(c["texto"]) <= 120]
+    if not cortas:
+        return ""
+    c = cortas[int(hashlib.md5(clave.encode()).hexdigest(), 16) % len(cortas)]
+    return (f'<p class="cta__prueba"><span class="cta__comilla">«{esc(c["texto"])}»</span>'
+            f'<span class="cta__fuente">Paciente en Google · <a href="/opiniones/">+100 opiniones</a></span></p>')
+
+
+def bloque_asistente():
+    motivos = ["Ansiedad o ataques de pánico", "Tristeza o desgano", "Un duelo o una pérdida", "Mis vínculos o mi pareja",
+               "Una crisis o un cambio de etapa", "Conocerme más", "Todavía no lo sé"]
+    def opciones(nombre, lista):
+        return "".join(f'<label class="opcion"><input type="radio" name="{nombre}" value="{esc(v)}"><span>{esc(v)}</span></label>' for v in lista)
+    return f'''<section class="asistente revelar" id="empezar" aria-labelledby="titulo-asistente">
+  <p class="antetitulo">Empezar en 3 pasos</p>
+  <h2 id="titulo-asistente">No hace falta saber <em>qué escribir</em></h2>
+  <p class="asistente__intro">Elegí tres opciones y te armo el mensaje para que lo envíes por WhatsApp. No es un test ni un diagnóstico, y no se guarda ningún dato.</p>
+  <form class="asistente__form" id="asistente" novalidate>
+    <fieldset class="asistente__paso" data-paso="1"><legend><span>1</span> ¿Qué te trae?</legend><div class="opciones">{opciones("motivo", motivos)}</div></fieldset>
+    <fieldset class="asistente__paso" data-paso="2"><legend><span>2</span> ¿Cómo preferís?</legend><div class="opciones">{opciones("modalidad", ["Presencial en Alta Gracia", "Online", "Me da igual"])}</div></fieldset>
+    <fieldset class="asistente__paso" data-paso="3"><legend><span>3</span> ¿Qué horario te queda mejor?</legend><div class="opciones">{opciones("horario", ["Mañana", "Tarde", "Noche", "Cualquiera"])}</div></fieldset>
+    <div class="asistente__vista" aria-live="polite"><p class="asistente__vista-titulo">Tu mensaje</p><p class="asistente__texto">Hola, Nicolás. Te escribo desde tu web para consultar por un turno.</p></div>
+    <a class="boton boton--whatsapp asistente__enviar" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="asistente">{ICON["whatsapp"]} Enviar por WhatsApp</a>
+  </form>
+</section>'''
+
+
+def barra_movil():
+    return (f'<aside class="barra-movil" aria-label="Contacto rápido">'
+            f'<a class="barra-movil__turno" href="/contacto/#empezar">Pedir turno</a>'
+            f'<a class="barra-movil__wa" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="barra-movil">{ICON["whatsapp"]} WhatsApp</a></aside>')
+
+
 def bloque_cta(titulo="¿Querés empezar a <em>conversarlo</em>?", texto=None, ubicacion="cta", suave=False):
     texto = texto or ("Escribime y coordinamos una primera entrevista, en Alta Gracia u online. "
                       "No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.")
@@ -517,6 +676,7 @@ def bloque_cta(titulo="¿Querés empezar a <em>conversarlo</em>?", texto=None, u
   <h2>{titulo}</h2>
   <p>{texto}</p>
   <p class="cta__nota">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
+  {prueba_social(titulo)}
   <div class="acciones" style="margin-top:1.5rem">
     <a class="boton boton--claro" href="/contacto/">Solicitar una consulta {ICON["flecha"]}</a>
     <a class="boton boton--secundario boton--whatsapp" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="{ubicacion}">{ICON["whatsapp"]} WhatsApp</a>
@@ -556,16 +716,17 @@ def umbral():
 </div>'''
 
 
-def articulos_lista(publicados_solo=False, limite=None):
+def articulos_lista(publicados_solo=False, limite=None, categoria=None):
     out = []
-    for a in (ARTICULOS[:limite] if limite else ARTICULOS):
+    lista = [a for a in ARTICULOS if not categoria or a["categoria"] == categoria]
+    for a in (lista[:limite] if limite else lista):
         if publicados_solo and not a["publicado"]:
             continue
         enlace = a["publicado"] or BORRADORES
         titulo = f'<a href="{a["ruta"]}">{esc(a["titulo"])}</a>' if enlace else esc(a["titulo"])
         estado = "" if a["publicado"] else '<span class="articulo-tarjeta__estado">En preparación</span>'
         out.append(f'''<article class="articulo-tarjeta revelar">
-  <span class="articulo-tarjeta__cat">{esc(a["categoria"])}</span>
+  <a class="articulo-tarjeta__cat" href="{ruta_categoria(a["categoria"])}">{esc(a["categoria"])}</a>
   <h3>{titulo}</h3>
   <p>{esc(a["resumen"])}</p>
   {estado}
@@ -684,6 +845,8 @@ def pagina(meta, cuerpo, ruta):
     if meta.get("migas"):
         grafo.append(migas_schema(meta["migas"]))
     grafo += meta.get("schema_extra", [])
+    if meta.get("faq_items"):
+        grafo.append(faq_schema_items(meta["faq_items"]))
     if meta.get("glosario_schema"):
         grafo.append(glosario_schema())
     if meta.get("faq_schema"):
@@ -691,6 +854,9 @@ def pagina(meta, cuerpo, ruta):
     pag_tipo = meta.get("tipo_pagina", "WebPage")
     pagina_schema = {"@type": pag_tipo, "@id": f"{canon}#pagina", "url": canon, "name": titulo, "description": desc,
                      "inLanguage": C["idioma"], "isPartOf": {"@id": f"{URL}/#sitio"}, "dateModified": meta.get("modificado", HOY)}
+    if meta.get("revisado"):
+        pagina_schema["reviewedBy"] = {"@id": f"{URL}/#nicolas-bongiorno"}
+        pagina_schema["lastReviewed"] = meta["revisado"]
     if pag_tipo == "ProfilePage":
         pagina_schema["mainEntity"] = {"@id": f"{URL}/#nicolas-bongiorno"}
     else:
@@ -751,6 +917,7 @@ def pagina(meta, cuerpo, ruta):
 </script>
 <script type="application/json" id="config-sitio">{config_js}</script>
 <script src="/assets/js/sitio.js?v={VERSION}" defer></script>
+{'<script src="/_vercel/insights/script.js" defer></script>' if C.get("vercel_analytics") else ""}
 </head>
 <body>
 {cabecera(ruta)}
@@ -759,6 +926,7 @@ def pagina(meta, cuerpo, ruta):
 </main>
 {pie()}
 {wa_flotante()}
+{barra_movil()}
 {consentimiento()}
 </body>
 </html>
@@ -773,6 +941,7 @@ def portada(meta, extra=""):
     <p class="antetitulo">{esc(meta.get("antetitulo", ""))}</p>
     <h1>{meta["h1"]}</h1>
     {f'<p class="bajada">{meta["bajada"]}</p>' if meta.get("bajada") else ""}
+    {respuesta_breve(meta.get("respuesta"))}
     {extra}
   </div>
 </section>'''
@@ -811,7 +980,15 @@ def relacionados(a):
 
 
 def render_articulo(a):
-    migas = [("Recursos", "/recursos/"), (a["titulo"], a["ruta"])]
+    migas = [("Recursos", "/recursos/"), (a["categoria"], ruta_categoria(a["categoria"])), (a["titulo"], a["ruta"])]
+    md_sin_faq, faq_items = extraer_faq(a["md"])
+    html_md = markdown(md_sin_faq)
+    corte = html_md.find('<h2 id="para-seguir-leyendo">')
+    cuerpo_md = enlazar_glosario(html_md) if corte < 0 else enlazar_glosario(html_md[:corte]) + html_md[corte:]
+    og = f'og/{a["archivo"][:-3]}.jpg'
+    og = og if (RAIZ / "assets/img" / og).exists() else "og-inicio.jpg"
+    menciones = [{"@type": "Thing", "name": WIKI[k][0], "sameAs": WIKI[k][1]}
+                 for k in [x.strip() for x in a.get("menciona", "").split(",")] if k in WIKI]
     aviso = "" if a["publicado"] else (
         '<p class="articulo__aviso" role="note"><strong>Borrador en revisión.</strong> Este texto todavía no fue revisado ni publicado por el Lic. Bongiorno. '
         'No está indexado en buscadores.</p>')
@@ -821,15 +998,17 @@ def render_articulo(a):
   <div class="portada__deco">{DECO_ENSO}</div>
   <div class="contenedor--texto">
     {migas_html(migas)}
-    <p class="antetitulo">{esc(a["categoria"])}</p>
+    <p class="antetitulo"><a href="{ruta_categoria(a["categoria"])}">{esc(a["categoria"])}</a></p>
     <h1>{esc(a["titulo"])}</h1>
     <p class="bajada">{esc(a["resumen"])}</p>
-    <p class="articulo__meta"><span>Por {esc(NOMBRE_COMPLETO)}</span><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><time datetime="{a.get("fecha", HOY)}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></p>
+    <p class="articulo__meta"><span>Escrito y revisado por <a href="/sobre-mi/">{esc(NOMBRE_COMPLETO)}</a>, psicólogo clínico ({esc(C["matricula"])})</span><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><span>Última revisión: <time datetime="{a.get("revision", a.get("fecha", HOY))}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></span></p>
   </div>
 </section>
 <div class="contenedor--texto prosa" style="padding-bottom:var(--sec)">
   {aviso}
-  {markdown(a["md"])}
+  {respuesta_breve(a.get("respuesta"))}
+  {cuerpo_md}
+  {faq_html(faq_items, "Preguntas frecuentes") if faq_items else ""}
   <div class="destacado destacado--aviso"><p>Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).</p></div>
   {relacionados(a)}
   <div class="autor-caja">{SIMBOLO.replace('class="marca__simbolo"', '')}<p><strong>{esc(NOMBRE_COMPLETO)}</strong><br>Psicólogo clínico, {esc(C["matricula"])}. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. <a href="/sobre-mi/">Conocé más sobre mí</a>.</p></div>
@@ -838,15 +1017,18 @@ def render_articulo(a):
 </article>'''
     meta = {
         "titulo": a.get("titulo_seo", a["titulo"]) , "descripcion": a["descripcion"], "migas": migas,
-        "noindex": not a["publicado"], "con_consultorio": False, "og": "og-inicio.jpg",
+        "noindex": not a["publicado"], "con_consultorio": False, "og": og, "faq_items": faq_items,
         "articulo": {"fecha": a.get("fecha", HOY)},
         "schema_extra": [{
             "@type": "Article", "@id": f'{URL}{a["ruta"]}#articulo', "headline": a["titulo"], "description": a["descripcion"],
             "inLanguage": C["idioma"], "datePublished": a.get("fecha", HOY), "dateModified": a.get("fecha", HOY),
             "author": {"@id": f"{URL}/#nicolas-bongiorno"}, "publisher": {"@id": f"{URL}/#nicolas-bongiorno"},
             "mainEntityOfPage": f'{URL}{a["ruta"]}', "articleSection": a["categoria"],
-            "image": f"{URL}/assets/img/og-inicio.jpg", "keywords": a.get("palabras_clave", ""),
+            "image": f"{URL}/assets/img/{og}", "keywords": a.get("palabras_clave", ""),
+            **({"mentions": menciones, "about": menciones[0]} if menciones else {}),
+            "isPartOf": {"@id": f'{URL}{ruta_categoria(a["categoria"])}#pagina'},
         }],
+        "revisado": a.get("revision", a.get("fecha", HOY)),
     }
     return meta, cuerpo
 
@@ -878,6 +1060,10 @@ def reemplazos(cuerpo, ruta):
         "articulos": lambda: articulos_lista(),
         "articulos_3": lambda: articulos_lista(limite=3),
         "opiniones": bloque_opiniones,
+        "categorias": lambda: '<ul class="categorias categorias--enlaces" aria-label="Categorías">' + "".join(
+            f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in CATEGORIAS
+            if any(x["categoria"] == c and (x["publicado"] or BORRADORES) for x in ARTICULOS)) + "</ul>",
+        "asistente": bloque_asistente,
         "glosario": bloque_glosario,
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/{C["foto_chica"]}" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
@@ -933,6 +1119,8 @@ def construir():
         if meta.get("portada", True) and "h1" in meta:
             cuerpo = portada(meta, meta.get("portada_extra", "")) + cuerpo
         html_final = pagina(meta, reemplazos(cuerpo, ruta), ruta)
+        if meta.get("wa_tema"):
+            html_final = html_final.replace(wa(), wa(f'Hola, Nicolás. Te escribo desde tu web por {meta["wa_tema"]}. Quería consultarte por un turno.'))
         if ruta == "/404.html":
             (SALIDA / "404.html").write_text(html_final, encoding="utf-8")
             continue
@@ -944,9 +1132,32 @@ def construir():
         if not a["publicado"] and not BORRADORES:
             continue
         meta, cuerpo = render_articulo(a)
-        escribir(a["ruta"], pagina(meta, reemplazos(cuerpo, a["ruta"]), a["ruta"]))
+        html_a = pagina(meta, reemplazos(cuerpo, a["ruta"]), a["ruta"])
+        html_a = html_a.replace(wa(), wa(f'Hola, Nicolás. Leí tu artículo «{a["titulo"]}» y quería consultarte por un turno.'))
+        escribir(a["ruta"], html_a)
         if a["publicado"]:
             mapa.append((a["ruta"], 0.6, "yearly"))
+
+    # Páginas por categoría de artículos
+    visibles = [a for a in ARTICULOS if a["publicado"] or BORRADORES]
+    cats_con = [c for c in CATEGORIAS if any(a["categoria"] == c for a in visibles)]
+    for cat in cats_con:
+        ruta = ruta_categoria(cat)
+        meta = {"titulo": f"{cat} | Recursos de Nicolás Bongiorno"[:65], "descripcion": CATEGORIAS[cat],
+                "migas": [("Recursos", "/recursos/"), (cat, ruta)], "tipo_pagina": "CollectionPage", "con_consultorio": False,
+                "antetitulo": "Recursos", "h1": esc(cat), "bajada": esc(CATEGORIAS[cat])}
+        otras = "".join(f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in cats_con if c != cat)
+        cuerpo = portada(meta) + f'''<section class="seccion" style="padding-top:0"><div class="contenedor">
+<h2 class="visualmente-oculto">Artículos</h2>
+{articulos_lista(categoria=cat)}
+<p style="margin-top:3rem;font-family:var(--f-sans);font-size:.9rem">Otras categorías:</p><ul class="indice-enfoques">{otras}<li><a href="/recursos/">Todos los artículos</a></li></ul>
+<div style="margin-top:var(--sec)">{bloque_cta()}</div></div></section>'''
+        escribir(ruta, pagina(meta, reemplazos(cuerpo, ruta), ruta))
+        mapa.append((ruta, 0.5, "monthly"))
+
+    # IndexNow (Bing y otros): archivo de verificación de la clave
+    if C.get("indexnow_key"):
+        (SALIDA / f'{C["indexnow_key"]}.txt').write_text(C["indexnow_key"], encoding="utf-8")
 
     # sitemap.xml
     urls = "\n".join(
@@ -1000,6 +1211,13 @@ El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orie
 - [Crisis vitales y de la mitad de la vida]({URL}/crisis-vitales/)
 - [Autoestima]({URL}/autoestima/)
 - [Dificultades vinculares]({URL}/dificultades-vinculares/)
+- [Depresión]({URL}/depresion/)
+- [Estrés y agotamiento]({URL}/estres-y-agotamiento/)
+- [Trauma y regulación emocional]({URL}/trauma/)
+- [Psicólogo para adolescentes]({URL}/psicologo-para-adolescentes/)
+- [Terapia para adultos mayores]({URL}/terapia-para-adultos-mayores/)
+- [Valle de Paravachasca]({URL}/psicologo-valle-de-paravachasca/)
+- [Terapia online por país]({URL}/terapia-online-por-pais/)
 - [Tu primera consulta]({URL}/primera-consulta/)
 - [Opiniones de pacientes]({URL}/opiniones/)
 - [Motivos de consulta]({URL}/motivos-de-consulta/)

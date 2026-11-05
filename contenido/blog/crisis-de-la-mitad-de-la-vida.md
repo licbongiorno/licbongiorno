@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 7
 estado: publicado
+respuesta: La crisis de la mitad de la vida es un período, a menudo entre los cuarenta y los cincuenta años, en el que lo logrado deja de alcanzar y aparece la pregunta por el sentido. Jung la entendía como un llamado a mirar hacia adentro e integrar lo relegado: el proceso de individuación.
+revision: 2026-11-05
+menciona: jung, psicologia-analitica
 ---
 Tenés el trabajo que buscabas, una familia, una rutina que funciona. Subiste la escalera que te dijeron que había que subir. Y un día, arriba de todo, mirás alrededor y te preguntás si era esta la pared donde querías apoyarla.
 
@@ -38,6 +41,21 @@ La palabra *crisis* viene del griego y significa «decisión», «separación».
 ## Cómo puede ayudar la terapia
 
 Un espacio terapéutico permite detenerse y escuchar lo que la crisis está diciendo. Desde la mirada junguiana, se trabaja con la historia, con los deseos postergados y con las imágenes que aparecen en sueños y fantasías, como parte del [proceso de individuación](/glosario-junguiano/#individuacion). La primera mitad de la vida nos enseña a construir la casa; la segunda nos invita a habitarla de verdad.
+
+
+## Preguntas frecuentes
+
+### ¿A qué edad aparece la crisis de la mitad de la vida?
+
+Suele aparecer entre los cuarenta y los cincuenta años, aunque no hay una edad fija: depende de cada historia.
+
+### ¿Es normal sentir vacío aunque todo esté bien?
+
+Sí, es frecuente. Puede indicar que algo esencial pide atención, más allá de los logros visibles.
+
+### ¿Conviene cambiar todo durante una crisis?
+
+Conviene no apurarse. Antes de cambiar lo de afuera, ayuda comprender lo que la crisis está señalando por dentro.
 
 ## Para seguir leyendo
 

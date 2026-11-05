@@ -10,6 +10,7 @@
   "bajada": "Escribime por el medio que te resulte más cómodo. Te respondo personalmente para coordinar una primera entrevista, presencial en Alta Gracia u online."
 }-->
 <section class="seccion" style="padding-top:0">
+  <div class="contenedor" style="margin-bottom:var(--sec)">{{> asistente}}</div>
   <div class="contenedor contacto-grilla">
     <div class="revelar">
       <h2 style="font-size:clamp(1.7rem,1.4rem + 1vw,2.2rem)">Canales de contacto</h2>
@@ -51,6 +52,16 @@
             <label class="opcion"><input type="radio" name="modalidad" value="" checked><span>Todavía no sé</span></label>
           </div>
         </fieldset>
+        <div class="campo campo--fila">
+          <div class="campo" style="margin:0">
+            <label for="f-horario">Franja horaria</label>
+            <select id="f-horario" name="horario"><option value="">Indistinto</option><option>Mañana</option><option>Tarde</option><option>Noche</option></select>
+          </div>
+          <div class="campo" style="margin:0">
+            <label for="f-origen">¿Cómo me conociste?</label>
+            <select id="f-origen" name="origen"><option value="">Prefiero no decir</option><option>Google</option><option>Instagram</option><option>Recomendación de alguien</option><option>Doctoralia</option><option>Otro</option></select>
+          </div>
+        </div>
         <div class="campo">
           <label for="f-lugar">Ciudad y país</label>
           <input id="f-lugar" name="lugar" type="text" autocomplete="address-level2" maxlength="80" aria-describedby="f-lugar-ayuda">

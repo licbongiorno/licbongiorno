@@ -10,6 +10,8 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 11
 estado: publicado
+respuesta: La psicoterapia integrativa combina de manera coherente aportes de distintas corrientes psicológicas según las necesidades de cada persona. No es mezclar técnicas al azar: requiere un eje teórico claro, conocimiento de otros enfoques y criterio clínico.
+revision: 2026-11-05
 ---
 No, no es un poco de cada cosa. No es una ensalada de técnicas ni un menú para elegir según el día. Es, en todo caso, como un buen artesano: tiene un oficio que domina y, además, sabe cuándo conviene usar otra herramienta.
 
@@ -34,3 +36,18 @@ En mi caso, el eje es la [psicología analítica de Jung](/terapia-junguiana/), 
 > El método se adapta a la persona; no la persona al método.
 
 Al final, las teorías son mapas, y ningún mapa es el territorio. El territorio sos vos: único, con tus propios caminos y atajos. Podés leer más sobre cada corriente y el lugar que ocupa en [Mi enfoque](/enfoque/).
+
+
+## Preguntas frecuentes
+
+### ¿La terapia integrativa es menos profunda?
+
+No necesariamente. Con un eje teórico claro —por ejemplo, la psicología analítica— permite profundizar y, a la vez, usar recursos concretos cuando hacen falta.
+
+### ¿Qué corrientes suele integrar?
+
+Depende de cada profesional. Es frecuente combinar enfoques psicodinámicos, humanistas, sistémicos y cognitivo-conductuales.
+
+### ¿Cómo sé si un enfoque integrativo es serio?
+
+Preguntá cuál es su eje teórico y su formación. Integrar con criterio no es lo mismo que usar un poco de cada cosa.

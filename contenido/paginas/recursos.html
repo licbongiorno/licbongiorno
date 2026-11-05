@@ -12,11 +12,9 @@
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
-    <ul class="categorias revelar" aria-label="Categorías">
-      <li>Psicología y vida cotidiana</li><li>Jung y psicología analítica</li><li>Ansiedad y emociones</li><li>Vínculos y relaciones</li>
-      <li>Autoconocimiento</li><li>Salud mental</li><li>Psicología contemporánea</li><li>Desarrollo personal</li>
-    </ul>
+    {{> categorias}}
     <h2 class="visualmente-oculto">Artículos</h2>
+    <div class="descarga revelar" style="margin-bottom:2rem"><p><strong>Diario de sueños</strong>Un cuaderno para imprimir, con una guía para registrar tus sueños, sus emociones y lo que te evocan. Gratis y sin dejar datos.</p><a class="boton boton--secundario boton--chico" href="/assets/descargas/diario-de-suenos.pdf" download>Descargar PDF</a></div>
     {{> articulos}}
     <p class="revelar" style="margin-top:2.5rem;font-family:var(--f-sans);font-size:.85rem;color:var(--piedra-oscura);max-width:46rem">Los artículos tienen fines de divulgación y no reemplazan una consulta profesional. Si querés que escriba sobre algún tema en particular, podés sugerirlo por <a href="{{instagram}}" target="_blank" rel="noopener">Instagram</a>.</p>
     <div style="margin-top:var(--sec)">{{> cta}}</div>

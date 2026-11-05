@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 12
 estado: publicado
+respuesta: Para Carl Gustav Jung, los arquetipos son patrones universales de experiencia que forman parte del inconsciente colectivo, como el héroe, la madre, el sabio o la sombra. Aparecen en sueños, mitos, relatos y vínculos. Reconocerlos ayuda a comprender reacciones intensas y elecciones repetidas.
+revision: 2026-11-05
+menciona: jung, psicologia-analitica
 ---
 No, no son personajes de mitos lejanos. Son el que se anima a irse de casa, la que cuida a todos menos a sí misma, el que siempre tiene la palabra sabia y nunca pide ayuda, el que patea el tablero cuando todo parece en orden. Los conocés porque, de alguna manera, también te habitan.
 
@@ -38,6 +41,21 @@ Para Jung, un arquetipo es un patrón universal de experiencia que forma parte d
 ## Para qué sirve reconocerlos
 
 Identificar qué arquetipo está activo en un momento de la vida ayuda a comprender reacciones intensas, elecciones repetidas o crisis que parecen no tener explicación. Es como descubrir que la obra que venías actuando tiene un guion antiguo, y que podés, por fin, elegir qué papel querés seguir interpretando. En terapia junguiana, ese reconocimiento es parte del camino de la [individuación](/glosario-junguiano/#individuacion).
+
+
+## Preguntas frecuentes
+
+### ¿Cuáles son los arquetipos de Jung?
+
+Jung describió muchos: la sombra, la persona, el ánima y el ánimus, el sí-mismo, la madre, el padre, el héroe, el sabio, el niño, entre otros. No es una lista cerrada.
+
+### ¿Los arquetipos son lo mismo que los estereotipos?
+
+No. Un estereotipo es una idea social rígida; un arquetipo es una disposición universal que toma formas distintas en cada cultura y en cada persona.
+
+### ¿Para qué sirve conocer los arquetipos?
+
+Para comprender qué historias profundas están en juego en un momento de la vida, en un vínculo o en un sueño, y poder elegir con más libertad.
 
 ## Para seguir leyendo
 

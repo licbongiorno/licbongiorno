@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 10
 estado: publicado
+respuesta: La dependencia emocional es una forma de vincularse en la que el bienestar propio queda en manos de otra persona: miedo intenso al abandono, tolerar lo que duele para no perder el vínculo, dejar de lado los propios deseos. Suele tener raíces en la historia vincular y se puede trabajar en terapia.
+revision: 2026-11-05
+menciona: bowlby
 ---
 No, no es amor de más. Es miedo con forma de amor. Es revisar el celular cada cinco minutos, achicarte para que el otro no se vaya, tolerar lo que duele porque perderlo parece todavía peor.
 
@@ -32,6 +35,21 @@ Suele tener raíces en la historia de cada uno: vínculos tempranos en los que e
 ## Cómo se trabaja en terapia
 
 El objetivo no es volverse autosuficiente ni desconfiar del amor. Se trata de comprender el patrón, reconocer qué se busca en el otro y empezar a construir una base propia de valor y seguridad. Desde ahí, los vínculos pueden elegirse en lugar de padecerse: dejar de ser la hiedra que se aferra para volverse un árbol que puede, también, dar sombra. Más información en [Dificultades vinculares](/dificultades-vinculares/).
+
+
+## Preguntas frecuentes
+
+### ¿Cómo sé si tengo dependencia emocional?
+
+Algunas señales son el miedo intenso a ser dejado, tolerar maltratos para sostener la relación, dejar de lado tus deseos y sentir que sin esa persona no valés.
+
+### ¿La dependencia emocional es lo mismo que amar mucho?
+
+No. El amor puede convivir con la libertad y el cuidado de uno mismo; la dependencia se sostiene en el miedo a perder al otro.
+
+### ¿Se puede salir de la dependencia emocional?
+
+Sí. En terapia se trabaja para comprender el patrón y construir una base propia de valor y seguridad desde la cual vincularse.
 
 ## Para seguir leyendo
 

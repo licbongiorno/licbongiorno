@@ -56,3 +56,19 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 - [x] **13 artículos publicados** el 5 de noviembre de 2026 (aperturas y cierres en la voz del autor).
 - [ ] **Textos para Google, directorios y redes**: `docs/06-TEXTOS-PARA-PERFILES.md`.
 - [ ] **Página de opiniones**: 30 fragmentos textuales. Pasame el enlace exacto de tu ficha de Google para el botón.
+
+## F. Tanda de SEO, GEO y conversión (5 de noviembre de 2026)
+
+**Para revisar:**
+- [ ] 7 páginas nuevas: adolescentes, adultos mayores, depresión, estrés y agotamiento, trauma, Valle de Paravachasca, terapia online por país.
+- [ ] «En pocas palabras» (respuesta breve) y preguntas frecuentes de los 13 artículos y de las páginas principales.
+- [ ] Diario de sueños (PDF en `assets/descargas/`).
+
+**Para activar (un clic cada uno):**
+- [ ] **Vercel Web Analytics:** en Vercel → tu proyecto → *Analytics* → *Enable*. Después avisame (o poné `"vercel_analytics": true` en `sitio.json`) y lo conecto. Mide visitas sin cookies.
+- [ ] **Bing Webmaster Tools** (https://www.bing.com/webmasters): agregar el sitio (se puede importar desde Search Console). El aviso automático de IndexNow ya está configurado en GitHub Actions.
+
+**Herramientas nuevas:**
+- `node herramientas/generar_og_articulos.js`: imagen para compartir de cada artículo (correr al sumar artículos).
+- `node herramientas/generar_diario.js`: regenera el Diario de sueños (por ejemplo, al cambiar de dominio).
+- `python3 herramientas/indexnow.py`: avisa a Bing de todas las URL (lo hace GitHub Actions solo).

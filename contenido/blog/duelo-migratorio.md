@@ -10,6 +10,9 @@ fecha: 2026-11-05
 fecha_visible: Noviembre de 2026
 orden: 8
 estado: publicado
+respuesta: El duelo migratorio es el proceso emocional que implica dejar el propio país: familia, idioma, cultura, paisaje y pertenencia. Puede aparecer aunque la migración haya sido elegida. Es un duelo parcial y recurrente, que se reactiva con cada viaje o fecha especial.
+revision: 2026-11-05
+menciona: duelo
 ---
 Te fuiste con una valija y volviste a armar una vida. Pero hay cosas que no entraron en ninguna valija: el mate de los domingos, el humor que no hay que explicar, la voz de tu vieja a diez cuadras y no a diez horas de avión.
 
@@ -42,6 +45,21 @@ A diferencia de otros duelos, lo perdido sigue existiendo: se puede volver de vi
 ## Terapia en tu idioma, desde donde estés
 
 Hacer terapia en español, con alguien que comparte tus códigos culturales, puede facilitar mucho este proceso. La [terapia online](/terapia-online/) permite sostener ese espacio desde cualquier país, con el mismo cuidado que en un consultorio. Porque migrar no es arrancar raíces: es aprender a que crezcan en dos tierras a la vez.
+
+
+## Preguntas frecuentes
+
+### ¿Es normal sentirse triste después de emigrar aunque haya sido mi decisión?
+
+Sí. El duelo migratorio aparece aunque la decisión haya sido propia y acertada: se pierde mucho al mismo tiempo, aunque también se gane.
+
+### ¿Qué es el síndrome de Ulises?
+
+Es el nombre que el psiquiatra Joseba Achotegui dio al cuadro de estrés crónico y múltiple que pueden vivir algunas personas migrantes en situaciones muy adversas.
+
+### ¿Ayuda hacer terapia en el propio idioma?
+
+Para muchas personas sí: hay emociones que se expresan con más facilidad en la lengua en que fueron vividas.
 
 ## Para seguir leyendo
 
