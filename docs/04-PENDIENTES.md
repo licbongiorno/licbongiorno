@@ -10,10 +10,12 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 | 2 | Código postal de Alta Gracia **5186** | Datos estructurados | Confirmar. |
 | 3 | Trayectoria: «primero en la ciudad de Córdoba y hoy en Alta Gracia» | Sobre mí | Deducido de direcciones antiguas (Colón 184 y Colón 567). Confirmar. |
 | 4 | Integrás el equipo de **Centro Sinapsis** (online) | Sobre mí, `llms.txt`, `Person.memberOf` | Tomado de su web. Confirmar que querés mostrarlo. |
-| 5 | Las dos citas de Doctoralia y la cifra de **80 opiniones** | Inicio (sección reseñas) | Leídas por buscador. Abrí Doctoralia, verificá el texto exacto y la cifra, y confirmá que te parece bien citarlas (sin nombres). |
+| 5 | Reseñas: «+100 en Google» y 8 citas sin nombres; «80 en Doctoralia» | Inicio (sección reseñas) | Pasame el **enlace exacto de tu ficha de Google** (Compartir → Copiar vínculo) y la **puntuación y cantidad exactas**. Hoy el botón lleva a una búsqueda de Maps. |
+| 5b | Reseñas que mencionan **terapia de pareja** y **niños** | — | ¿Atendés parejas y/o niños? Si es así, se agregan a la web. |
 | 6 | Instagram **@psicologobongiorno** (el indexado es **@lic.bongiorno**) | Contacto, pie, datos estructurados | ¿Cuál es el principal? ¿Existen los dos? |
 | 7 | Textos en primera persona de **Sobre mí** y la cita destacada | Sobre mí | Redactados a partir del brief: revisá que suenen como vos. |
 | 8 | Lugar de cada corriente en tu práctica («Eje», «Marco de referencia», «Recursos puntuales», «Marco en diálogo», «Lecturas») | Enfoque | Revisá que refleje tu formación real. |
+| 9b | **Jung como eje** de la práctica (cambio pedido el 2026-11-05). Contame tu formación junguiana (cursos, grupos de estudio, supervisión, instituciones) para mencionarla con precisión. Por prudencia, el sitio aclara que no usás el título «analista junguiano» (lo otorgan instituciones reconocidas por la IAAP). | Terapia junguiana, Enfoque | Confirmar. |
 | 9 | Que la frecuencia habitual sea **semanal** | FAQ «¿Cuánto dura una sesión?» | Confirmar. |
 
 ## B. Datos que faltan (mejoran conversión y SEO)

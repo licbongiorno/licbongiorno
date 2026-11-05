@@ -1,8 +1,6 @@
 # Sitio web — Lic. Nicolás Raúl Bongiorno, psicólogo clínico
 
 Sitio profesional estático, rápido y accesible. Concepto de marca: **«Lo que te habita»**.
-Es un proyecto **independiente** del sitio de Centro Sinapsis que vive en la raíz de este repositorio: no comparte
-archivos, estilos ni configuración con él.
 
 | Documento | Contenido |
 |---|---|
@@ -21,7 +19,7 @@ archivos, estilos ni configuración con él.
 - Sin cookies ni rastreo salvo que actives Google Analytics (y entonces, solo con consentimiento).
 
 ```
-sitio-bongiorno/
+./
 ├── sitio.json               ← configuración central
 ├── build.py                 ← generador
 ├── validar.py               ← control de calidad automático
@@ -70,20 +68,18 @@ los datos estructurados.
 
 ## Publicar
 
-La carpeta a publicar es **`sitio-bongiorno/public/`**. Ya incluye `vercel.json` (Vercel) y `_headers`
+La carpeta a publicar es **`public/`**. Ya incluye `vercel.json` (Vercel) y `_headers`
 (Netlify / Cloudflare Pages) con cabeceras de seguridad (CSP estricta, HSTS, etc.) y caché.
 
-**Opción recomendada: Vercel** (la misma plataforma que usa Centro Sinapsis).
+**Opción recomendada: Vercel.**
 1. En Vercel → *Add New Project* → importar este repositorio.
-2. *Root Directory*: `sitio-bongiorno/public`. *Framework Preset*: **Other**. Sin comando de build.
+2. *Root Directory*: `public`. *Framework Preset*: **Other**. Sin comando de build.
 3. *Deploy*. Luego, en *Settings → Domains*, agregar el dominio y configurar los DNS que indica Vercel en NIC.ar.
-4. Cada cambio que se suba a la rama principal se publica solo.
+4. Cada cambio que se suba a la rama `main` se publica solo.
 
-**Alternativas:** Netlify o Cloudflare Pages (carpeta de publicación `sitio-bongiorno/public`), o cualquier
+**Alternativas:** Netlify o Cloudflare Pages (carpeta de publicación `public`), o cualquier
 hosting por FTP subiendo el contenido de `public/` (en ese caso, configurar a mano la página 404 y las cabeceras).
 
-> El sitio de Centro Sinapsis publica la raíz de este repositorio. Para que esta carpeta no se indexe también bajo
-> `sinapsiscentro.com.ar/sitio-bongiorno/…`, el `vercel.json` de la raíz le agrega `X-Robots-Tag: noindex`.
 
 ### Después de publicar
 
@@ -97,7 +93,7 @@ hosting por FTP subiendo el contenido de `public/` (en ese caso, configurar a ma
 
 `python3 validar.py` revisa títulos, descripciones, canonical, un único H1, Open Graph, JSON-LD (sin reseñas
 autoasignadas), enlaces internos, `alt` de imágenes, coherencia entre FAQ visible y datos estructurados, y el
-sitemap. El flujo de GitHub Actions `.github/workflows/sitio-bongiorno.yml` lo ejecuta en cada cambio de esta carpeta
+sitemap. El flujo de GitHub Actions `.github/workflows/calidad.yml` lo ejecuta en cada cambio
 y además comprueba que `public/` esté actualizado.
 
 ## Regenerar íconos e imagen para redes

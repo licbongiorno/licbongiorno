@@ -125,21 +125,22 @@ ARTE_HERO = '''<svg class="umbral__arte" viewBox="0 0 400 500" preserveAspectRat
 
 
 def orbitas_svg():
-    """Diagrama de la perspectiva integrativa: eje psicoanalítico al centro, marcos en diálogo y recursos alrededor."""
+    """Diagrama de la perspectiva integrativa: psicología analítica al centro, base y marcos en diálogo, y recursos alrededor."""
     cx = cy = 300
-    anillo1 = [("Psicología analítica", -90), ("Terapia sistémica", 0), ("Gestalt", 90), ("Cognitivo-conductual", 180)]
+    anillo1 = [("Psicoanálisis", -90), ("Terapia sistémica", 0), ("Gestalt", 90), ("Cognitivo-conductual", 180)]
     anillo2 = [("Humanista", -45), ("Logoterapia", 15), ("ACT · DBT", 75), ("Transpersonal", 135), ("Psicología positiva", 200), ("Contextuales", 255)]
     partes = ['<svg viewBox="0 0 600 600" role="img" aria-labelledby="orb-t orb-d">',
               '<title id="orb-t">Perspectiva integrativa</title>',
-              '<desc id="orb-d">En el centro, el psicoanálisis y la psicoterapia psicodinámica como eje clínico. '
-              'Alrededor, marcos con los que dialogo: psicología analítica, terapia sistémica, Gestalt y cognitivo-conductual. '
+              '<desc id="orb-d">En el centro, la psicología analítica de C. G. Jung como eje clínico. '
+              'Alrededor, la base psicoanalítica y los marcos con los que dialogo: terapia sistémica, Gestalt y cognitivo-conductual. '
               'En el anillo exterior, recursos y lecturas: humanista, logoterapia, ACT y DBT, transpersonal, psicología positiva y terapias contextuales.</desc>',
               f'<circle class="orbita orbita--punteada" cx="{cx}" cy="{cy}" r="262"/>',
               f'<circle class="orbita" cx="{cx}" cy="{cy}" r="172"/>',
               f'<circle cx="{cx}" cy="{cy}" r="96" fill="#DDE3D2"/>',
               f'<circle cx="{cx}" cy="{cy}" r="96" fill="none" stroke="#4A5A3C" stroke-width="1.2"/>',
-              f'<text class="centro-titulo" x="{cx}" y="{cy - 4}" text-anchor="middle">Psicoanálisis</text>',
-              f'<text class="centro-sub" x="{cx}" y="{cy + 22}" text-anchor="middle">EJE PSICODINÁMICO</text>',
+              f'<text class="centro-titulo" x="{cx}" y="{cy - 12}" text-anchor="middle">Psicología</text>',
+              f'<text class="centro-titulo" x="{cx}" y="{cy + 18}" text-anchor="middle">analítica</text>',
+              f'<text class="centro-sub" x="{cx}" y="{cy + 44}" text-anchor="middle">C. G. JUNG · EJE</text>',
               f'<g class="giro"><circle cx="{cx + 172}" cy="{cy}" r="4" fill="#F4A261"/><circle cx="{cx - 172}" cy="{cy}" r="3" fill="#A3B18A"/></g>',
               f'<g class="giro giro--inverso"><circle cx="{cx}" cy="{cy - 262}" r="3.5" fill="#A3B18A"/><circle cx="{cx}" cy="{cy + 262}" r="2.5" fill="#F4A261"/></g>']
     for texto, ang in anillo1:
@@ -237,7 +238,10 @@ def slug(t):
 # --------------------------------------------------------------------------- piezas comunes
 NAV = [
     ("Sobre mí", "/sobre-mi/", None),
-    ("Enfoque", "/enfoque/", None),
+    ("Enfoque", None, [
+        ("Terapia junguiana", "/terapia-junguiana/", "Psicología analítica de C. G. Jung"),
+        ("Mi enfoque integrativo", "/enfoque/", "Jung, psicoanálisis y otras corrientes"),
+    ]),
     ("Motivos de consulta", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
         ("Presencial en Alta Gracia", "/psicologo-alta-gracia/", f'Consultorio en {D["calle"]}'),
@@ -317,6 +321,7 @@ def pie():
         <h2>El espacio</h2>
         <ul>
           <li><a href="/sobre-mi/">Sobre mí</a></li>
+          <li><a href="/terapia-junguiana/">Terapia junguiana</a></li>
           <li><a href="/enfoque/">Enfoque terapéutico</a></li>
           <li><a href="/motivos-de-consulta/">Motivos de consulta</a></li>
           <li><a href="/recursos/">Recursos</a></li>
@@ -418,19 +423,23 @@ def bloque_resenas():
         citas.append(f'''<figure class="resena">
   <span class="resena__comillas">{ICON["comillas"]}</span>
   <blockquote><p>{esc(c["texto"])}</p></blockquote>
-  <figcaption>Paciente · <a href="{c["url"]}" target="_blank" rel="noopener">{esc(c["fuente"])}</a> · {esc(c["fecha"])}</figcaption>
+  <figcaption>Paciente · Reseña en {esc(c["fuente"])} · {esc(c["fecha"])}</figcaption>
 </figure>''')
+    botones = "".join(
+        f'<a class="boton {"boton--claro" if i == 0 else "boton--secundario"}" href="{p["url"]}" target="_blank" rel="noopener">'
+        f'{esc(p["cantidad"])} en {esc(p["nombre"])} {ICON["externo"]}</a>' for i, p in enumerate(r["plataformas"]))
+    d = r["destacado"]
     return f'''<div class="resenas__cabecera">
   <div class="encabezado-seccion" style="margin:0">
     <p class="antetitulo">Experiencias</p>
     <h2>Lo que cuentan <em>quienes ya transitaron</em> este espacio</h2>
   </div>
-  <div class="resenas__dato"><strong>{esc(r["cantidad"])}</strong><span>opiniones publicadas por pacientes en {esc(r["plataforma"])} <small>(relevado en {esc(r["fecha_relevamiento"])})</small></span></div>
+  <div class="resenas__dato"><strong>{esc(d["cantidad"])}</strong><span>{esc(d["texto"])} <small>(relevado en {esc(r["fecha_relevamiento"])})</small></span></div>
 </div>
 <div class="carrusel">
   <div class="carrusel__pista" tabindex="0" role="region" aria-label="Fragmentos de opiniones de pacientes">{"".join(citas)}</div>
-  <div class="acciones" style="margin-top:2rem;justify-content:space-between">
-    <a class="boton boton--claro" href="{r["url"]}" target="_blank" rel="noopener">Leer todas las opiniones en {esc(r["plataforma"])} {ICON["externo"]}</a>
+  <div class="acciones resenas__acciones" style="margin-top:2rem;justify-content:space-between">
+    <div class="acciones">{botones}</div>
     <div class="carrusel__controles">
       <button class="carrusel__boton" type="button" data-carrusel="prev" aria-label="Opinión anterior">{ICON["flecha-izq"]}</button>
       <button class="carrusel__boton" type="button" data-carrusel="next" aria-label="Opinión siguiente">{ICON["flecha"]}</button>
@@ -502,8 +511,8 @@ def persona_schema():
         "honorificPrefix": C["prefijo"],
         "alternateName": ["Nicolás Bongiorno", "Lic. Nicolás Bongiorno", "Psicólogo Bongiorno"],
         "jobTitle": C["profesion"],
-        "description": ("Psicólogo clínico (M.P. 8209, Córdoba) con más de 15 años de práctica. Orientación psicoanalítica y "
-                        "psicodinámica con perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores en Alta Gracia "
+        "description": ("Psicólogo clínico (M.P. 8209, Córdoba) con más de 15 años de práctica. Orientación junguiana (psicología analítica) "
+                        "con base psicoanalítica y perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores en Alta Gracia "
                         "(Córdoba, Argentina) y online en español."),
         "url": f"{URL}/sobre-mi/",
         "alumniOf": {"@type": "CollegeOrUniversity", "name": C["universidad"], "department": C["facultad"], "sameAs": "https://www.unc.edu.ar/"},
@@ -512,7 +521,7 @@ def persona_schema():
             "name": f'Matrícula profesional de psicólogo {C["matricula"]}', "identifier": C["matricula"],
             "recognizedBy": {"@type": "Organization", "name": C["matricula_entidad"]}
         },
-        "knowsAbout": ["Psicoanálisis", "Psicoterapia psicodinámica", "Psicología analítica de Carl Gustav Jung",
+        "knowsAbout": ["Psicología analítica de Carl Gustav Jung", "Psicoterapia junguiana", "Psicoanálisis", "Psicoterapia psicodinámica",
                        "Psicoterapia integrativa", "Ansiedad", "Depresión", "Ataques de pánico", "Duelo",
                        "Dificultades vinculares", "Autoconocimiento"],
         "knowsLanguage": "es",
@@ -737,7 +746,7 @@ def render_articulo(a):
   {aviso}
   {markdown(a["md"])}
   <div class="destacado destacado--aviso"><p>Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).</p></div>
-  <div class="autor-caja">{SIMBOLO.replace('class="marca__simbolo"', '')}<p><strong>{esc(NOMBRE_COMPLETO)}</strong><br>Psicólogo clínico, {esc(C["matricula"])}. Más de 15 años de práctica, con orientación psicoanalítica y perspectiva integrativa. <a href="/sobre-mi/">Conocé más sobre mí</a>.</p></div>
+  <div class="autor-caja">{SIMBOLO.replace('class="marca__simbolo"', '')}<p><strong>{esc(NOMBRE_COMPLETO)}</strong><br>Psicólogo clínico, {esc(C["matricula"])}. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. <a href="/sobre-mi/">Conocé más sobre mí</a>.</p></div>
   <div style="margin-top:3rem">{bloque_cta("Si este texto te resonó, <em>podemos conversarlo</em>", ubicacion="articulo")}</div>
 </div>
 </article>'''
@@ -764,6 +773,7 @@ def reemplazos(cuerpo, ruta):
         "faq": lambda: bloque_faq(),
         "faq_inicio": lambda: bloque_faq(["necesito-terapia", "primera-sesion", "terapia-online", "otro-pais", "como-solicitar"]),
         "faq_online": lambda: bloque_faq(["terapia-online", "otro-pais", "online-vs-presencial"]),
+        "faq_jung": lambda: bloque_faq(["que-es-terapia-junguiana", "suenos", "psicoanalisis-diferencia", "terapia-online"]),
         "faq_alta_gracia": lambda: bloque_faq(["primera-sesion", "duracion", "adolescentes", "como-solicitar"]),
         "resenas": bloque_resenas,
         "cta": lambda: bloque_cta(),
@@ -864,7 +874,7 @@ def construir():
     motivos_txt = ", ".join(m["titulo"].lower() for m in MOTIVOS)
     (SALIDA / "llms.txt").write_text(f"""# {NOMBRE_COMPLETO} — Psicólogo clínico ({C["matricula"]})
 
-> Psicólogo clínico egresado de la {C["facultad"]} de la {C["universidad"]}, con {C["anios_experiencia"]} de práctica clínica. Orientación psicoanalítica y psicodinámica, con perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores, de forma presencial en {D["localidad"]} ({D["provincia"]}, Argentina) y online por videollamada, en español.
+> Psicólogo clínico egresado de la {C["facultad"]} de la {C["universidad"]}, con {C["anios_experiencia"]} de práctica clínica. Orientación junguiana (psicología analítica de C. G. Jung) con base psicoanalítica y perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores, de forma presencial en {D["localidad"]} ({D["provincia"]}, Argentina) y online por videollamada, en español.
 
 ## Datos verificables
 - Nombre: {C["nombre"]} (también: Nicolás Bongiorno, Lic. Nicolás Bongiorno).
@@ -879,7 +889,7 @@ def construir():
 - También integra el equipo de Centro Sinapsis (Berazategui), con atención online: {C["centro_sinapsis"]}
 
 ## Enfoque
-El eje de su trabajo es el psicoanálisis y la psicoterapia psicodinámica. Desde una perspectiva integrativa, dialoga con la psicología analítica de C. G. Jung, la terapia sistémica, la Gestalt y la terapia cognitivo-conductual, y toma recursos de otros marcos cuando son pertinentes. Estas corrientes son marcos teóricos de referencia: no se presentan como especializaciones ni certificaciones.
+El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orientación junguiana: sueños, símbolos, sombra, proceso de individuación), sobre una base psicoanalítica y psicodinámica. Desde una perspectiva integrativa, dialoga con la terapia sistémica, la Gestalt y la terapia cognitivo-conductual, y toma recursos de otros marcos cuando son pertinentes. Estas corrientes son marcos teóricos de referencia: no se presentan como especializaciones ni certificaciones.
 
 ## Motivos de consulta que aborda
 {motivos_txt}.
@@ -887,6 +897,7 @@ El eje de su trabajo es el psicoanálisis y la psicoterapia psicodinámica. Desd
 ## Páginas principales
 - [Inicio]({URL}/)
 - [Sobre mí]({URL}/sobre-mi/)
+- [Terapia junguiana]({URL}/terapia-junguiana/)
 - [Enfoque terapéutico]({URL}/enfoque/)
 - [Motivos de consulta]({URL}/motivos-de-consulta/)
 - [Psicólogo en Alta Gracia]({URL}/psicologo-alta-gracia/)

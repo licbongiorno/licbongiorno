@@ -60,14 +60,18 @@
 |---|---|---|---|
 | Doctoralia (perfil principal) | 80 opiniones (según buscador, nov. 2026) | No pude verificar la puntuación | Opiniones visibles: positivas |
 | Doctoralia (Centro Teseo) | ~27 | No verificada | — |
-| Google Maps | **No se encontró ficha** a tu nombre en Alta Gracia | — | Pendiente crear/verificar |
+| **Google (ficha «Psicólogo Bongiorno»)** | **Más de 100** (copiadas por vos el 2026-11-05) | No informada | Casi todas positivas; 1 negativa (hace 2 años). **Es la fuente principal de la web.** |
 
 Fragmentos textuales que pude leer (sin nombre del autor):
 
 - *"Gran psicólogo, y súper recomendado para todos."* — Doctoralia, enero de 2025.
 - *"…contar con Nicolás como mi psicólogo desde 2018… Lo recomendaría a cualquiera buscando un profesional de la salud mental."* — Doctoralia, noviembre de 2023.
 
-**Decisión en la web:** se muestra la cantidad de opiniones como dato con fecha, los dos fragmentos con su fuente
+**Actualización 2026-11-05:** compartiste las reseñas de tu ficha de Google. La web ahora muestra «+100 opiniones en Google», 8 fragmentos textuales sin nombres y botones a Google y Doctoralia. Se retiró la segunda cita atribuida a Doctoralia: su texto coincide con una reseña de Google, y probablemente el buscador la atribuyó mal.
+
+**Recomendación:** editar la respuesta pública a la reseña negativa por una neutra que no confirme ni niegue si la persona fue paciente (secreto profesional).
+
+**Decisión original en la web:** se muestra la cantidad de opiniones como dato con fecha, los dos fragmentos con su fuente
 y un botón a las reseñas originales. **No** se usa marcado `Review`/`AggregateRating` (Google no lo permite para
 reseñas propias ni para reseñas tomadas de otro sitio) ni se muestran estrellas, porque no pude verificarlas.
 

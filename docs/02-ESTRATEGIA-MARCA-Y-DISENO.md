@@ -14,7 +14,7 @@ conectar con nuestra historia y encontrar nuevas maneras de habitar la propia vi
 | Cotidiano | Lo que sentís y todavía no tiene nombre. Accesible para cualquier persona, sin jerga. |
 
 **Propuesta de valor.**
-> Psicoterapia con profundidad clínica y calidez humana: un eje psicoanalítico sólido, abierto a otras miradas,
+> Psicoterapia con profundidad clínica y calidez humana: un eje junguiano (psicología analítica) sobre base psicoanalítica, abierto a otras miradas,
 > para comprender lo que te pasa en lugar de solo taparlo. En Alta Gracia y online, en español.
 
 **Diferenciales frente a la competencia local (directorios llenos de fichas iguales):**
@@ -76,7 +76,8 @@ profesional, ocupa el mismo arco con solo completar `"foto"` en `sitio.json`.
 ```
 /                         Inicio (hero, concepto, sobre mí, enfoque, motivos, proceso, modalidades, reseñas, FAQ, recursos, contacto)
 /sobre-mi/                Presentación en primera persona (ProfilePage)
-/enfoque/                 Eje psicoanalítico + 6 corrientes + otras perspectivas
+/terapia-junguiana/       Psicología analítica de Jung (eje de la práctica)
+/enfoque/                 Jung como eje, base psicoanalítica + otras corrientes
 /motivos-de-consulta/     14 motivos
 /psicologo-alta-gracia/   Landing local (presencial)
 /terapia-online/          Landing nacional/internacional (online, exterior)

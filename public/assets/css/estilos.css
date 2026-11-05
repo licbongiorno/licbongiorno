@@ -664,3 +664,5 @@ fieldset.campo { border: 0; padding: 0; margin: 0 0 1.25rem; min-width: 0; }
 }
 .menu-movil a:not(.boton) small { display: block; margin-top: .2rem; font-size: .72rem; letter-spacing: .06em; }
 .menu-movil a:not(.boton) { flex-direction: column; align-items: flex-start; justify-content: center; line-height: 1.15; }
+.seccion--bosque .boton--secundario { --b-fg: #F6F1EB; --b-borde: rgba(246,241,235,.4); }
+.seccion--bosque .boton--secundario:hover { --b-fg: var(--bosque); background: #F6F1EB; border-color: #F6F1EB; }

@@ -1,0 +1,27 @@
+# Control de calidad del sitio del Lic. Nicolás Bongiorno.
+name: Sitio Nicolás Bongiorno
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generar el sitio
+        run: python3 build.py
+      - name: public/ está actualizado (se generó y se subió después de editar)
+        run: git diff --exit-code -- public || (echo "Corré python3 build.py y subí public/" && exit 1)
+      - name: SEO, enlaces, datos estructurados y FAQ
+        run: python3 validar.py

@@ -8,7 +8,8 @@
 | Local | psicólogo Alta Gracia · psicólogo clínico Alta Gracia · psicoterapia Alta Gracia · psicoanálisis Alta Gracia | `/psicologo-alta-gracia/` |
 | Regional | psicólogo Córdoba · psicólogo clínico Córdoba | `/` · `/psicologo-alta-gracia/` |
 | Online | terapia psicológica online · psicólogo online Argentina · psicólogo en español online · psicoterapia online en español | `/terapia-online/` |
-| Enfoque | psicología integrativa · psicoanálisis · terapia junguiana · psicoterapia psicodinámica | `/enfoque/` |
+| Jung | terapia junguiana · psicólogo junguiano · psicología analítica · terapia junguiana online · análisis de sueños | `/terapia-junguiana/` |
+| Enfoque | psicología integrativa · psicoanálisis · psicoterapia psicodinámica | `/enfoque/` |
 | Informativas | cómo saber si necesito terapia · ansiedad · sombra Jung · patrones en las relaciones · terapia online desde el exterior | `/recursos/…` |
 
 ## 2. Implementado en el código

@@ -24,11 +24,27 @@
     ]
   },
   {
-    "id": "psicoanalisis-diferencia",
-    "pregunta": "¿Qué diferencia hay entre el psicoanálisis y otras terapias?",
+    "id": "que-es-terapia-junguiana",
+    "pregunta": "¿Qué es la terapia junguiana?",
     "respuesta": [
-      "El psicoanálisis y la psicoterapia psicodinámica se interesan por lo que se repite y no siempre es consciente: deseos, conflictos, marcas de la propia historia. Buscan comprender el sentido de los síntomas, no solo eliminarlos.",
-      "Otras terapias, como la cognitivo-conductual, trabajan de forma más estructurada sobre pensamientos y conductas actuales. Desde una perspectiva integrativa, el eje de mi trabajo es psicoanalítico, y dialogo con otros enfoques cuando aportan algo valioso para la persona. Podés leer más en [Mi enfoque](/enfoque/)."
+      "Es una psicoterapia basada en la psicología analítica de Carl Gustav Jung. Además de trabajar con la historia personal, presta especial atención a los sueños, los símbolos y las imágenes, y entiende los síntomas y las crisis como señales de algo que busca transformarse.",
+      "Su horizonte es el proceso de individuación: llegar a ser más plenamente quien uno es, integrando aspectos de sí mismo que quedaron relegados."
+    ]
+  },
+  {
+    "id": "suenos",
+    "pregunta": "¿Tengo que recordar mis sueños para hacer terapia junguiana?",
+    "respuesta": [
+      "No. Los sueños son una vía valiosa, pero no la única: también se trabaja con lo que te pasa en tu vida cotidiana, tus vínculos, tus recuerdos y las imágenes que aparecen en la conversación.",
+      "Si te interesa, podés anotar los sueños que recuerdes y traerlos a la sesión. Muchas personas empiezan a recordarlos más cuando les prestan atención."
+    ]
+  },
+  {
+    "id": "psicoanalisis-diferencia",
+    "pregunta": "¿Qué diferencia hay entre la terapia junguiana, el psicoanálisis y otras terapias?",
+    "respuesta": [
+      "El psicoanálisis y la psicología analítica de Jung se interesan por lo que no siempre es consciente: deseos, conflictos, marcas de la propia historia. Buscan comprender el sentido de los síntomas, no solo eliminarlos. La mirada junguiana suma una atención especial a los sueños, los símbolos y la búsqueda de sentido.",
+      "Otras terapias, como la cognitivo-conductual, trabajan de forma más estructurada sobre pensamientos y conductas actuales. Desde una perspectiva integrativa, el eje de mi trabajo es junguiano, con base psicoanalítica, y dialogo con otros enfoques cuando aportan algo valioso para la persona. Podés leer más en [Mi enfoque](/enfoque/)."
     ]
   },
   {

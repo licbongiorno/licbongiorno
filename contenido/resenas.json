@@ -1,22 +1,20 @@
 {
-  "_comentario": "Solo opiniones reales y verificables. Sin nombres de pacientes. No se usa marcado Review/AggregateRating (Google no lo admite para reseñas propias ni tomadas de otros sitios). Para sumar una cita, copiala textual de la fuente con su fecha.",
-  "plataforma": "Doctoralia",
-  "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital",
-  "cantidad": "80",
+  "_comentario": "Solo opiniones reales, copiadas textualmente de la fuente, sin nombres de pacientes ni datos de terceros. No se usa marcado Review/AggregateRating (Google no lo admite para reseñas propias). Relevadas por el Lic. Bongiorno desde su ficha de Google el 2026-11-05.",
   "fecha_relevamiento": "noviembre de 2026",
-  "citas": [
-    {
-      "texto": "Gran psicólogo, y súper recomendado para todos.",
-      "fuente": "Doctoralia",
-      "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital",
-      "fecha": "enero de 2025"
-    },
-    {
-      "texto": "[…] contar con Nicolás como mi psicólogo desde 2018 […] Lo recomendaría a cualquiera buscando un profesional de la salud mental.",
-      "fuente": "Doctoralia",
-      "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital",
-      "fecha": "noviembre de 2023"
-    }
+  "destacado": {"cantidad": "+100", "texto": "opiniones de pacientes en Google"},
+  "plataformas": [
+    {"nombre": "Google", "cantidad": "Más de 100 opiniones", "url": "https://www.google.com/maps/search/?api=1&query=Psic%C3%B3logo%20Bongiorno%20Alta%20Gracia"},
+    {"nombre": "Doctoralia", "cantidad": "80 opiniones", "url": "https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital"}
   ],
-  "nota": "Fragmentos de opiniones públicas de pacientes, reproducidos sin datos personales. La cantidad corresponde a la plataforma al momento del relevamiento y puede variar. Las experiencias son personales y no constituyen una promesa de resultados."
+  "citas": [
+    {"texto": "Excelente profesional. Tiene una calidez y una sensibilidad tan grande que entiende las cosas con mucha profundidad. Muy recomendable.", "fuente": "Google", "fecha": "hace 2 años"},
+    {"texto": "Me sentí cómoda, escuchada y con mucha confianza.", "fuente": "Google", "fecha": "hace 1 mes"},
+    {"texto": "A Nico lo conocí en un momento muy necesario, me ayudo a superar una situación personal, me mude al extranjero y sigo en contacto y la terapia con él ya que siento que es una persona muy capaz y habil en su trabajo.", "fuente": "Google", "fecha": "hace 1 año"},
+    {"texto": "Nico me acompañó mientras transité un proceso de duelo muy duro en mi vida.", "fuente": "Google", "fecha": "hace 3 años"},
+    {"texto": "He pasado por otros profesionales y con él tuve mi mejor experiencia. Ético, atento, excelente profesional.", "fuente": "Google", "fecha": "hace 3 años"},
+    {"texto": "En mi caso se adaptó a las veces que pude hacer sesiones online y las veces que pude ir de manera presencial. Recomendable y 100% confiable.", "fuente": "Google", "fecha": "hace 3 años"},
+    {"texto": "Durante el tiempo que hice terapia Nicolas me guío por un camino de autoconocimiento y autovaloración […]", "fuente": "Google", "fecha": "hace 5 años"},
+    {"texto": "Siempre tiene las palabras justas que invitan a la reflexión.", "fuente": "Google", "fecha": "hace 3 años"}
+  ],
+  "nota": "Fragmentos textuales de opiniones públicas de pacientes, reproducidos sin nombres. Las cantidades corresponden a cada plataforma al momento del relevamiento y pueden variar. Las experiencias son personales y no constituyen una promesa de resultados."
 }
