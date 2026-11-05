@@ -32,7 +32,7 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 
 ## C. Configuración técnica pendiente
 
-- [ ] **Dominio.** Hoy el sitio usa `https://nicolasbongiorno.com.ar` como provisorio. Registrá el dominio en [NIC Argentina](https://nic.ar), cambiá `"url"` en `sitio.json` y regenerá.
+- [ ] **Dominio.** Hoy el sitio usa `https://licbongiorno5.vercel.app`. Registrá el dominio en [NIC Argentina](https://nic.ar), cambiá `"url"` en `sitio.json` y regenerá.
 - [ ] **Publicación** (ver README → «Publicar»).
 - [ ] **Google Search Console**: verificar el dominio, cargar `sitemap.xml`. Si usás la verificación por meta etiqueta, pegá el código en `"search_console_token"`.
 - [ ] **Bing Webmaster Tools** (`"bing_token"`); permite importar desde Search Console.

@@ -17,4 +17,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://nicolasbongiorno.com.ar/sitemap.xml
+Sitemap: https://licbongiorno5.vercel.app/sitemap.xml

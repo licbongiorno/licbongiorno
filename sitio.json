@@ -1,8 +1,8 @@
 {
   "_comentario": "Configuración central del sitio. Cambiá un dato acá y corré `python3 build.py`: se actualiza en todas las páginas, en los datos estructurados, el sitemap y llms.txt.",
 
-  "url": "https://nicolasbongiorno.com.ar",
-  "_url_nota": "PROVISORIO: todavía no hay dominio. Al registrarlo, cambiá solo esta línea y volvé a generar.",
+  "url": "https://licbongiorno5.vercel.app",
+  "_url_nota": "Dirección actual de Vercel. Cuando registres el dominio propio, cambiá solo esta línea, volvé a generar y agregá el dominio en Vercel (Settings → Domains).",
 
   "nombre": "Nicolás Raúl Bongiorno",
   "nombre_corto": "Nicolás Bongiorno",
