@@ -468,9 +468,15 @@ def bloque_cta(titulo="¿Querés empezar a <em>conversarlo</em>?", texto=None, u
 
 
 def retrato(clase="retrato", cual="foto"):
-    if cual == "foto_lectura" and C.get("foto_lectura"):
-        return (f'<div class="{clase}"><img src="/{C["foto_lectura"]}" alt="{esc(NOMBRE_COMPLETO)} leyendo un libro, sentado en un sillón" '
-                f'width="358" height="447" loading="lazy" decoding="async"></div>')
+    extras = {
+        "foto_lectura": (f"{NOMBRE_COMPLETO} leyendo en un sillón, junto a una ventana", 682, 852),
+        "foto_sobre_mi": (f"{NOMBRE_COMPLETO}, psicólogo clínico, sentado en un sillón con gesto pensativo", 552, 691),
+        "foto_biblioteca": (f"{NOMBRE_COMPLETO} sentado en un sillón frente a una biblioteca", 768, 960),
+    }
+    if cual in extras and C.get(cual):
+        alt, w, h = extras[cual]
+        return (f'<div class="{clase}"><img src="/{C[cual]}" alt="{esc(alt)}" '
+                f'width="{w}" height="{h}" loading="lazy" decoding="async"></div>')
     if C.get("foto"):
         srcset = f' srcset="/{C["foto_chica"]} 480w, /{C["foto"]} 682w" sizes="(max-width: 860px) 340px, 480px"' if C.get("foto_chica") else ""
         return (f'<div class="{clase}"><img src="/{C["foto"]}"{srcset} alt="Retrato del {esc(NOMBRE_COMPLETO)}, psicólogo clínico" '
@@ -791,6 +797,8 @@ def reemplazos(cuerpo, ruta):
         "umbral": umbral,
         "retrato": retrato,
         "retrato_lectura": lambda: retrato(cual="foto_lectura"),
+        "retrato_sobre_mi": lambda: retrato(cual="foto_sobre_mi"),
+        "retrato_biblioteca": lambda: retrato(cual="foto_biblioteca"),
         "orbitas": orbitas_svg,
         "arte_hero": lambda: ARTE_HERO,
         "deco_enso": lambda: DECO_ENSO,

@@ -21,7 +21,7 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 
 ## B. Datos que faltan (mejoran conversión y SEO)
 
-- [ ] **Fotografía profesional** (4:5, luz natural, fondo cálido; idealmente también una del consultorio). Guardala en `assets/img/` y completá `"foto"` en `sitio.json`.
+- [x] **Fotografías**: retrato, lectura, sillón y biblioteca (tono cálido monocromo). Falta: fotos del consultorio actual de Dean Funes 56.
 - [ ] **Duración de la sesión** en minutos (para completar la FAQ).
 - [ ] **Días y horarios** de atención (para Google Business Profile y `openingHoursSpecification`).
 - [ ] **Correo profesional** (`"email"` en `sitio.json`).
