@@ -16,6 +16,7 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 | 7 | Textos en primera persona de **Sobre mí** y la cita destacada | Sobre mí | Redactados a partir del brief: revisá que suenen como vos. |
 | 8 | Lugar de cada corriente en tu práctica («Eje», «Marco de referencia», «Recursos puntuales», «Marco en diálogo», «Lecturas») | Enfoque | Revisá que refleje tu formación real. |
 | 9b | **Jung como eje** de la práctica (cambio pedido el 2026-11-05). Contame tu formación junguiana (cursos, grupos de estudio, supervisión, instituciones) para mencionarla con precisión. Por prudencia, el sitio aclara que no usás el título «analista junguiano» (lo otorgan instituciones reconocidas por la IAAP). | Terapia junguiana, Enfoque | Confirmar. |
+| 9c | Copy basado en reseñas: sección «Cómo es el espacio» (las palabras justas, la sesión que sigue trabajando, el encuadre humano) y párrafo de Sobre mí sobre compartir lecturas, películas o textos | Inicio, Sobre mí | Surge de tus reseñas de Google. Confirmá que te representa. |
 | 9 | Que la frecuencia habitual sea **semanal** | FAQ «¿Cuánto dura una sesión?» | Confirmar. |
 
 ## B. Datos que faltan (mejoran conversión y SEO)

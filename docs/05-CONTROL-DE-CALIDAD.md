@@ -34,3 +34,17 @@
 - Rendimiento real con compresión y CDN (será mejor que en local).
 - Envío por correo del formulario (requiere configurar Formspree u otro servicio).
 - Prueba en dispositivos físicos iOS/Android (recomendado antes de difundir).
+
+## Actualización — microanimaciones y copy (5 de noviembre de 2026)
+
+| Prueba | Resultado |
+|---|---|
+| Trazo del logo al cargar (solo en la primera página de cada visita) | OK |
+| Indicador deslizante del menú (puntero y teclado) | OK |
+| Contadores (+15, +100) al aparecer | OK |
+| Carrusel: puntos de posición y arrastre con mouse | OK |
+| Barra de progreso de lectura en artículos | OK |
+| Formulario: confirmación con check animado, campo activo resaltado, campo inválido con sacudida breve | OK |
+| `prefers-reduced-motion`: todo en estado final, sin animación | OK |
+| axe-core (12 páginas × escritorio y móvil) | 0 violaciones |
+| Consola y desborde horizontal | Sin errores · sin desborde |

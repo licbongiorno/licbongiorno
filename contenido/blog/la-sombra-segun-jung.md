@@ -41,3 +41,10 @@ Ese reconocimiento tiene efectos concretos: disminuye la necesidad de proyectar 
 En el espacio terapéutico, la sombra suele aparecer de a poco: en lo que cuesta decir, en los sueños, en lo que se repite. El trabajo no consiste en juzgarla, sino en acercarse con curiosidad y respeto.
 
 Integrar la sombra no nos hace peores personas. Nos hace más completos, más compasivos con nosotros mismos y, en consecuencia, con los demás.
+
+## Para seguir leyendo
+
+- Jung, C. G. (1928). *Las relaciones entre el yo y el inconsciente*. Una introducción del propio Jung a la persona, la sombra y el proceso de individuación.
+- Jung, C. G. (1951). *Aion. Contribuciones a los simbolismos del sí-mismo*. Su segundo capítulo está dedicado a la sombra.
+- Jung, C. G. y otros (1964). *El hombre y sus símbolos*. La obra más accesible para quien se acerca por primera vez a Jung.
+- Zweig, C. y Abrams, J. (comps.) (1991). *Encuentro con la sombra*. Antología de autores junguianos sobre la sombra en la vida cotidiana.

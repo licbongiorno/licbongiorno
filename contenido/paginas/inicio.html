@@ -24,6 +24,7 @@
         <a class="boton" href="/contacto/">Solicitar una consulta {{icono_flecha}}</a>
         <a class="boton boton--secundario" href="/enfoque/">Conocé mi enfoque</a>
       </div>
+      <p class="hero__nota entra" style="--retraso:.7s">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
       <ul class="hero__modalidades entra" style="--retraso:.75s" aria-label="Modalidades de atención">
         <li>{{icono_mapa}} Presencial en Alta Gracia, Córdoba</li>
         <li>{{icono_pantalla}} Online, desde cualquier lugar</li>
@@ -35,7 +36,7 @@
 
 <section class="seccion seccion--papel manifiesto" aria-labelledby="titulo-concepto">
   <div class="contenedor">
-    <div class="manifiesto__simbolo revelar">{{> simbolo}}</div>
+    <div class="manifiesto__simbolo revelar dibujar">{{> simbolo}}</div>
     <h2 id="titulo-concepto" class="visualmente-oculto">La terapia como espacio</h2>
     <p class="manifiesto__frase revelar">Lo que nos habita —emociones, recuerdos, deseos, miedos— no siempre encuentra palabras. <em>Darle lugar</em> es el comienzo de cualquier cambio verdadero.</p>
     <div class="manifiesto__texto revelar">
@@ -56,7 +57,7 @@
       <p>Soy psicólogo clínico, egresado de la {{facultad}} de la {{universidad}}. Hace más de 15 años acompaño a adolescentes, adultos y adultos mayores en sus procesos terapéuticos.</p>
       <p>Trabajo principalmente desde la psicología analítica de Carl Gustav Jung, sobre una base psicoanalítica, con una perspectiva integrativa: cada persona es singular, y el tratamiento tiene que adaptarse a ella, no al revés.</p>
       <ul class="datos" aria-label="Datos profesionales">
-        <li><strong>+15</strong><span>años de práctica clínica</span></li>
+        <li><strong data-contar="15" data-prefijo="+">+15</strong><span>años de práctica clínica</span></li>
         <li><strong>{{matricula}}</strong><span>Colegio de Psicólogos de Córdoba</span></li>
         <li><strong>UNC</strong><span>Facultad de Psicología</span></li>
       </ul>
@@ -96,6 +97,33 @@
       <a class="boton boton--secundario" href="/motivos-de-consulta/">Ver los 14 motivos {{icono_flecha}}</a>
     </div>
     <div style="margin-top:var(--sec)">{{> cta_motivos}}</div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="titulo-espacio">
+  <div class="contenedor">
+    <div class="encabezado-seccion revelar">
+      <p class="antetitulo">Cómo es el espacio</p>
+      <h2 id="titulo-espacio">Lo que mis pacientes <em>dicen encontrar</em></h2>
+      <p class="bajada">Más que describirme yo, prefiero contarte lo que se repite en las opiniones de quienes hicieron terapia conmigo.</p>
+    </div>
+    <div class="rasgos">
+      <article class="rasgo revelar">
+        <h3>Las palabras justas</h3>
+        <p>Es una de las frases que más se repite. Intento no llenar la sesión de explicaciones, sino encontrar la pregunta o la palabra que te ayude a ver algo de otra manera.</p>
+        <blockquote>«Siempre tiene las palabras justas que invitan a la reflexión.»</blockquote>
+      </article>
+      <article class="rasgo revelar" style="--retraso:.08s">
+        <h3>Una sesión que sigue trabajando</h3>
+        <p>Muchas veces la sesión termina con algo abierto: una idea, una imagen, una lectura para seguir pensando durante la semana. El proceso no se agota en la hora de consulta.</p>
+        <blockquote>«Termina la sesión con esa frase que te deja recalculando.»</blockquote>
+      </article>
+      <article class="rasgo revelar" style="--retraso:.16s">
+        <h3>Un encuadre humano</h3>
+        <p>Un marco estable, pero no rígido: presencial u online según lo que necesites, y la posibilidad de sostener el espacio aunque te mudes o cambie tu rutina.</p>
+        <blockquote>«Se adaptó a las veces que pude hacer sesiones online y las veces que pude ir de manera presencial.»</blockquote>
+      </article>
+    </div>
   </div>
 </section>
 

@@ -29,8 +29,8 @@
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="preload" href="/assets/fonts/playfair-display-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/lora-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/estilos.css?v=54880337">
-<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="/assets/css/estilos.css?v=2ad33c26">
+<script>var d=document.documentElement;d.classList.add("js");try{if(sessionStorage.getItem("nb-logo"))d.classList.add("logo-visto");else sessionStorage.setItem("nb-logo","1")}catch(e){}</script>
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -246,14 +246,14 @@
 }
 </script>
 <script type="application/json" id="config-sitio">{"whatsapp": "5493516575261", "ga4": "", "formEndpoint": ""}</script>
-<script src="/assets/js/sitio.js?v=54880337" defer></script>
+<script src="/assets/js/sitio.js?v=2ad33c26" defer></script>
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
 <header class="cabecera">
   <div class="contenedor cabecera__fila">
     <a class="marca" href="/">
-      <svg class="marca__simbolo" viewBox="0 0 48 48" aria-hidden="true"><path d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/><path d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><circle cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg>
+      <svg class="marca__simbolo" viewBox="0 0 48 48" aria-hidden="true"><path class="trazo" pathLength="1" d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><circle class="semilla" cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg>
       <span class="marca__texto"><span class="marca__nombre">Nicolás Bongiorno</span><span class="marca__rol">Psicólogo clínico · M.P. 8209</span></span>
     </a>
     <nav class="nav" aria-label="Principal">
@@ -272,7 +272,7 @@
 </div>
 <main id="contenido">
 <section class="hero" aria-labelledby="titulo-hero">
-  <div class="hero__fondo" aria-hidden="true"><div data-parallax="0.08"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></div></div>
+  <div class="hero__fondo" aria-hidden="true"><div data-parallax="0.08"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path class="trazo" pathLength="1" d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle class="semilla" cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></div></div>
   <div class="contenedor hero__grilla">
     <div class="hero__texto-col">
       <p class="hero__identidad entra" style="--retraso:.05s"><strong>Lic. Nicolás Raúl Bongiorno</strong><span aria-hidden="true"></span>Psicólogo clínico<span aria-hidden="true"></span>M.P. 8209</p>
@@ -287,6 +287,7 @@
         <a class="boton" href="/contacto/">Solicitar una consulta <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         <a class="boton boton--secundario" href="/enfoque/">Conocé mi enfoque</a>
       </div>
+      <p class="hero__nota entra" style="--retraso:.7s">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
       <ul class="hero__modalidades entra" style="--retraso:.75s" aria-label="Modalidades de atención">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg> Presencial en Alta Gracia, Córdoba</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8.5 20h7M12 16.5V20"/></svg> Online, desde cualquier lugar</li>
@@ -328,14 +329,14 @@
   <path d="M184 266c0-11 9-18 21-18 11 0 19 6 19 15 0 6-8 8-19 8-12 0-21-1-21-5z" fill="#E9965A"/>
   <path d="M192 256c3-3 8-4 13-4" stroke="#F9D9BD" stroke-width="2" stroke-linecap="round" fill="none" opacity=".8"/>
 </svg></div>
-  <div class="umbral__sello"><strong>+15</strong><span>años de práctica clínica</span></div>
+  <div class="umbral__sello"><strong data-contar="15" data-prefijo="+">+15</strong><span>años de práctica clínica</span></div>
 </div></div>
   </div>
 </section>
 
 <section class="seccion seccion--papel manifiesto" aria-labelledby="titulo-concepto">
   <div class="contenedor">
-    <div class="manifiesto__simbolo revelar"><svg class="marca__simbolo" viewBox="0 0 48 48" aria-hidden="true"><path d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/><path d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><circle cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg></div>
+    <div class="manifiesto__simbolo revelar dibujar"><svg class="marca__simbolo" viewBox="0 0 48 48" aria-hidden="true"><path class="trazo" pathLength="1" d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><circle class="semilla" cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg></div>
     <h2 id="titulo-concepto" class="visualmente-oculto">La terapia como espacio</h2>
     <p class="manifiesto__frase revelar">Lo que nos habita —emociones, recuerdos, deseos, miedos— no siempre encuentra palabras. <em>Darle lugar</em> es el comienzo de cualquier cambio verdadero.</p>
     <div class="manifiesto__texto revelar">
@@ -356,7 +357,7 @@
       <p>Soy psicólogo clínico, egresado de la Facultad de Psicología de la Universidad Nacional de Córdoba. Hace más de 15 años acompaño a adolescentes, adultos y adultos mayores en sus procesos terapéuticos.</p>
       <p>Trabajo principalmente desde la psicología analítica de Carl Gustav Jung, sobre una base psicoanalítica, con una perspectiva integrativa: cada persona es singular, y el tratamiento tiene que adaptarse a ella, no al revés.</p>
       <ul class="datos" aria-label="Datos profesionales">
-        <li><strong>+15</strong><span>años de práctica clínica</span></li>
+        <li><strong data-contar="15" data-prefijo="+">+15</strong><span>años de práctica clínica</span></li>
         <li><strong>M.P. 8209</strong><span>Colegio de Psicólogos de Córdoba</span></li>
         <li><strong>UNC</strong><span>Facultad de Psicología</span></li>
       </ul>
@@ -458,15 +459,43 @@
       <a class="boton boton--secundario" href="/motivos-de-consulta/">Ver los 14 motivos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
     <div style="margin-top:var(--sec)"><div class="cta cta--suave revelar">
-  <div class="cta__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></div>
+  <div class="cta__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path class="trazo" pathLength="1" d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle class="semilla" cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></div>
   <p class="antetitulo">Primer paso</p>
   <h2>Si te reconocés en alguno de estos temas, <em>no tenés que esperar</em> a que empeore</h2>
   <p>Escribime para coordinar una primera entrevista, presencial en Alta Gracia u online. Te respondo personalmente y sin compromiso.</p>
-  <div class="acciones" style="margin-top:2rem">
+  <p class="cta__nota">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
+  <div class="acciones" style="margin-top:1.5rem">
     <a class="boton boton--claro" href="/contacto/">Solicitar una consulta <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     <a class="boton boton--secundario boton--whatsapp" href="https://wa.me/5493516575261?text=Hola%2C%20Nicol%C3%A1s.%20Te%20escribo%20desde%20tu%20web%20para%20consultar%20por%20un%20turno." target="_blank" rel="noopener" data-ubicacion="motivos"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> WhatsApp</a>
   </div>
 </div></div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="titulo-espacio">
+  <div class="contenedor">
+    <div class="encabezado-seccion revelar">
+      <p class="antetitulo">Cómo es el espacio</p>
+      <h2 id="titulo-espacio">Lo que mis pacientes <em>dicen encontrar</em></h2>
+      <p class="bajada">Más que describirme yo, prefiero contarte lo que se repite en las opiniones de quienes hicieron terapia conmigo.</p>
+    </div>
+    <div class="rasgos">
+      <article class="rasgo revelar">
+        <h3>Las palabras justas</h3>
+        <p>Es una de las frases que más se repite. Intento no llenar la sesión de explicaciones, sino encontrar la pregunta o la palabra que te ayude a ver algo de otra manera.</p>
+        <blockquote>«Siempre tiene las palabras justas que invitan a la reflexión.»</blockquote>
+      </article>
+      <article class="rasgo revelar" style="--retraso:.08s">
+        <h3>Una sesión que sigue trabajando</h3>
+        <p>Muchas veces la sesión termina con algo abierto: una idea, una imagen, una lectura para seguir pensando durante la semana. El proceso no se agota en la hora de consulta.</p>
+        <blockquote>«Termina la sesión con esa frase que te deja recalculando.»</blockquote>
+      </article>
+      <article class="rasgo revelar" style="--retraso:.16s">
+        <h3>Un encuadre humano</h3>
+        <p>Un marco estable, pero no rígido: presencial u online según lo que necesites, y la posibilidad de sostener el espacio aunque te mudes o cambie tu rutina.</p>
+        <blockquote>«Se adaptó a las veces que pude hacer sesiones online y las veces que pude ir de manera presencial.»</blockquote>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -494,7 +523,7 @@
     </div>
     <div class="modalidades">
       <article class="modalidad revelar">
-        <span class="modalidad__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></span>
+        <span class="modalidad__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path class="trazo" pathLength="1" d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle class="semilla" cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></span>
         <span class="modalidad__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
         <h3>Presencial en Alta Gracia</h3>
         <address class="direccion"><strong>Dean Funes 56</strong>Alta Gracia, Córdoba</address>
@@ -509,7 +538,7 @@
         </div>
       </article>
       <article class="modalidad modalidad--online revelar" style="--retraso:.1s">
-        <span class="modalidad__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></span>
+        <span class="modalidad__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path class="trazo" pathLength="1" d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle class="semilla" cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></span>
         <span class="modalidad__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8.5 20h7M12 16.5V20"/></svg></span>
         <h3>Terapia online</h3>
         <p class="direccion"><strong>Por videollamada</strong>Desde otras localidades, provincias o países</p>
@@ -524,11 +553,12 @@
       </article>
     </div>
     <div style="margin-top:var(--sec)"><div class="cta cta--suave revelar">
-  <div class="cta__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></div>
+  <div class="cta__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path class="trazo" pathLength="1" d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle class="semilla" cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></div>
   <p class="antetitulo">Primer paso</p>
   <h2>Elegí la modalidad que <em>mejor se adapte</em> a tu vida</h2>
   <p>Escribime para coordinar una primera entrevista, presencial en Alta Gracia u online. Te respondo personalmente y sin compromiso.</p>
-  <div class="acciones" style="margin-top:2rem">
+  <p class="cta__nota">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
+  <div class="acciones" style="margin-top:1.5rem">
     <a class="boton boton--claro" href="/contacto/">Solicitar una consulta <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     <a class="boton boton--secundario boton--whatsapp" href="https://wa.me/5493516575261?text=Hola%2C%20Nicol%C3%A1s.%20Te%20escribo%20desde%20tu%20web%20para%20consultar%20por%20un%20turno." target="_blank" rel="noopener" data-ubicacion="modalidades"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> WhatsApp</a>
   </div>
@@ -542,9 +572,9 @@
     <div class="resenas__cabecera">
   <div class="encabezado-seccion" style="margin:0">
     <p class="antetitulo">Experiencias</p>
-    <h2>Lo que cuentan <em>quienes ya transitaron</em> este espacio</h2>
+    <h2>«Las palabras justas», <em>en palabras de mis pacientes</em></h2>
   </div>
-  <div class="resenas__dato"><strong>+100</strong><span>opiniones de pacientes en Google <small>(relevado en noviembre de 2026)</small></span></div>
+  <div class="resenas__dato"><strong data-contar="100" data-prefijo="+">+100</strong><span>opiniones de pacientes en Google <small>(relevado en noviembre de 2026)</small></span></div>
 </div>
 <div class="carrusel">
   <div class="carrusel__pista" tabindex="0" role="region" aria-label="Fragmentos de opiniones de pacientes"><figure class="resena">
@@ -583,6 +613,7 @@
   <div class="acciones resenas__acciones" style="margin-top:2rem;justify-content:space-between">
     <div class="acciones"><a class="boton boton--claro" href="https://www.google.com/maps/search/?api=1&query=Psic%C3%B3logo%20Bongiorno%20Alta%20Gracia" target="_blank" rel="noopener">Más de 100 opiniones en Google <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><a class="boton boton--secundario" href="https://www.doctoraliar.com/nicolas-bongiorno/psicoanalista-psicologo/cordoba-capital" target="_blank" rel="noopener">80 opiniones en Doctoralia <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
     <div class="carrusel__controles">
+      <div class="carrusel__puntos" aria-hidden="true"></div>
       <button class="carrusel__boton" type="button" data-carrusel="prev" aria-label="Opinión anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
       <button class="carrusel__boton" type="button" data-carrusel="next" aria-label="Opinión siguiente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
     </div>
@@ -659,7 +690,7 @@
 <section class="seccion" aria-labelledby="titulo-contacto-final">
   <div class="contenedor">
     <div class="cta revelar">
-      <div class="cta__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></div>
+      <div class="cta__deco"><svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true"><path class="trazo" pathLength="1" d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle class="semilla" cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg></div>
       <p class="antetitulo">Contacto</p>
       <h2 id="titulo-contacto-final">El primer paso puede ser <em>una conversación</em></h2>
       <p>Escribime para coordinar una primera entrevista, presencial en Alta Gracia u online. Te respondo personalmente.</p>
@@ -676,7 +707,7 @@
   <div class="contenedor">
     <div class="pie__grilla">
       <div>
-        <a class="marca" href="/"><svg class="marca__simbolo" viewBox="0 0 48 48" aria-hidden="true"><path d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/><path d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><circle cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg><span class="marca__texto"><span class="marca__nombre">Nicolás Bongiorno</span><span class="marca__rol">Psicólogo clínico · M.P. 8209</span></span></a>
+        <a class="marca" href="/"><svg class="marca__simbolo" viewBox="0 0 48 48" aria-hidden="true"><path class="trazo" pathLength="1" d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/><path class="trazo trazo--2" pathLength="1" d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><circle class="semilla" cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg><span class="marca__texto"><span class="marca__nombre">Nicolás Bongiorno</span><span class="marca__rol">Psicólogo clínico · M.P. 8209</span></span></a>
         <p class="pie__lema">Lo que te habita también merece ser escuchado.</p>
         <p>Lic. Nicolás Raúl Bongiorno. Psicólogo clínico egresado de la Facultad de Psicología de la Universidad Nacional de Córdoba. Atención presencial en Alta Gracia y online.</p>
         <div class="redes">

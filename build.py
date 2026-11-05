@@ -40,7 +40,8 @@ WA_BASE = f'https://wa.me/{C["whatsapp_numero"]}'
 HOY = C.get("fecha_actualizacion") or date.today().isoformat()
 
 # Script en línea mínimo: marca que hay JS antes del primer pintado (evita parpadeos).
-JS_INLINE = 'document.documentElement.classList.add("js")'
+JS_INLINE = ('var d=document.documentElement;d.classList.add("js");'
+             'try{if(sessionStorage.getItem("nb-logo"))d.classList.add("logo-visto");else sessionStorage.setItem("nb-logo","1")}catch(e){}')
 JS_INLINE_HASH = base64.b64encode(hashlib.sha256(JS_INLINE.encode()).digest()).decode()
 
 
@@ -72,9 +73,9 @@ ICON = {
 
 # Símbolo de marca: un círculo abierto (ensō: proceso, no clausura) que aloja una semilla (lo que te habita).
 SIMBOLO = ('<svg class="marca__simbolo" viewBox="0 0 48 48" aria-hidden="true">'
-           '<path d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/>'
-           '<path d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/>'
-           '<circle cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg>')
+           '<path class="trazo" pathLength="1" d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/>'
+           '<path class="trazo trazo--2" pathLength="1" d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/>'
+           '<circle class="semilla" cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg>')
 
 FORMAS = [  # formas orgánicas para las tarjetas (piedra, onda, hoja, círculo abierto)
     '<svg class="motivo__forma" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M8 25c0-8 6.5-13 13.5-13S33 16.5 33 23.5 27 32 19.5 32 8 31 8 25z"/></svg>',
@@ -84,9 +85,9 @@ FORMAS = [  # formas orgánicas para las tarjetas (piedra, onda, hoja, círculo 
 ]
 
 DECO_ENSO = ('<svg viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true">'
-             '<path d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/>'
-             '<path d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/>'
-             '<circle cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg>')
+             '<path class="trazo" pathLength="1" d="M172 70A80 80 0 1 0 178 118" stroke-width="10" stroke-linecap="round"/>'
+             '<path class="trazo trazo--2" pathLength="1" d="M160 52A82 82 0 0 0 40 50" stroke-width="3" stroke-linecap="round" opacity=".6"/>'
+             '<circle class="semilla" cx="112" cy="110" r="16" fill="currentColor" stroke="none" opacity=".7"/></svg>')
 
 ARTE_HERO = '''<svg class="umbral__arte" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
   <defs>
@@ -432,15 +433,16 @@ def bloque_resenas():
     return f'''<div class="resenas__cabecera">
   <div class="encabezado-seccion" style="margin:0">
     <p class="antetitulo">Experiencias</p>
-    <h2>Lo que cuentan <em>quienes ya transitaron</em> este espacio</h2>
+    <h2>«Las palabras justas», <em>en palabras de mis pacientes</em></h2>
   </div>
-  <div class="resenas__dato"><strong>{esc(d["cantidad"])}</strong><span>{esc(d["texto"])} <small>(relevado en {esc(r["fecha_relevamiento"])})</small></span></div>
+  <div class="resenas__dato"><strong data-contar="{esc(d["cantidad"]).lstrip("+")}" data-prefijo="+">{esc(d["cantidad"])}</strong><span>{esc(d["texto"])} <small>(relevado en {esc(r["fecha_relevamiento"])})</small></span></div>
 </div>
 <div class="carrusel">
   <div class="carrusel__pista" tabindex="0" role="region" aria-label="Fragmentos de opiniones de pacientes">{"".join(citas)}</div>
   <div class="acciones resenas__acciones" style="margin-top:2rem;justify-content:space-between">
     <div class="acciones">{botones}</div>
     <div class="carrusel__controles">
+      <div class="carrusel__puntos" aria-hidden="true"></div>
       <button class="carrusel__boton" type="button" data-carrusel="prev" aria-label="Opinión anterior">{ICON["flecha-izq"]}</button>
       <button class="carrusel__boton" type="button" data-carrusel="next" aria-label="Opinión siguiente">{ICON["flecha"]}</button>
     </div>
@@ -457,7 +459,8 @@ def bloque_cta(titulo="¿Querés empezar a <em>conversarlo</em>?", texto=None, u
   <p class="antetitulo">Primer paso</p>
   <h2>{titulo}</h2>
   <p>{texto}</p>
-  <div class="acciones" style="margin-top:2rem">
+  <p class="cta__nota">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
+  <div class="acciones" style="margin-top:1.5rem">
     <a class="boton boton--claro" href="/contacto/">Solicitar una consulta {ICON["flecha"]}</a>
     <a class="boton boton--secundario boton--whatsapp" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="{ubicacion}">{ICON["whatsapp"]} WhatsApp</a>
   </div>
@@ -481,7 +484,7 @@ def umbral():
     return f'''<div class="umbral entra" style="--retraso:.35s">
   <div class="umbral__aro" aria-hidden="true" data-parallax="-0.04"></div>
   <div class="umbral__marco">{interior}</div>
-  <div class="umbral__sello"><strong>+15</strong><span>años de práctica clínica</span></div>
+  <div class="umbral__sello"><strong data-contar="15" data-prefijo="+">+15</strong><span>años de práctica clínica</span></div>
 </div>'''
 
 
@@ -731,7 +734,8 @@ def render_articulo(a):
     aviso = "" if a["publicado"] else (
         '<p class="articulo__aviso" role="note"><strong>Borrador en revisión.</strong> Este texto todavía no fue revisado ni publicado por el Lic. Bongiorno. '
         'No está indexado en buscadores.</p>')
-    cuerpo = f'''<article>
+    cuerpo = f'''<div class="progreso-lectura" aria-hidden="true"><span></span></div>
+<article>
 <section class="portada">
   <div class="portada__deco">{DECO_ENSO}</div>
   <div class="contenedor--texto">

@@ -42,3 +42,9 @@ En psicoterapia, el primer paso es reconocer el patrón: ver qué se repite, en 
 No se trata de buscar culpables en el pasado, sino de entender la propia historia para dejar de actuarla sin darse cuenta. Muchas veces, la misma relación terapéutica se vuelve un lugar donde esos patrones aparecen y pueden pensarse de una manera nueva.
 
 Romper un patrón lleva tiempo. Pero cada vez que lo reconocés, se abre la posibilidad de un final distinto.
+
+## Para seguir leyendo
+
+- Freud, S. (1914). *Recordar, repetir y reelaborar*. El texto donde Freud describe cómo repetimos en actos lo que no podemos recordar.
+- Freud, S. (1920). *Más allá del principio de placer*. Donde desarrolla la idea de compulsión a la repetición.
+- Bowlby, J. (1969). *El apego* (primer volumen de *El apego y la pérdida*). Sobre cómo los primeros vínculos moldean las relaciones posteriores.

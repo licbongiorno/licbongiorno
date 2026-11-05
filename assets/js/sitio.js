@@ -116,7 +116,13 @@
   if (form) {
     var estadoEl = form.querySelector(".formulario__estado");
     var inicio = Date.now();
-    var mostrar = function (msg, tipo) { estadoEl.textContent = msg; estadoEl.className = "formulario__estado " + (tipo || ""); };
+    var CHECK = '<svg class="check-ok" viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle pathLength="1" cx="13" cy="13" r="11.5"/><path pathLength="1" d="m8 13.5 3.4 3.3L18.5 9.5"/></svg>';
+    var mostrar = function (msg, tipo) {
+      estadoEl.className = "formulario__estado " + (tipo || "");
+      estadoEl.textContent = "";
+      if (tipo === "ok") estadoEl.insertAdjacentHTML("afterbegin", CHECK);
+      var sp = document.createElement("span"); sp.textContent = msg; estadoEl.appendChild(sp);
+    };
     var validar = function () {
       var ok = true;
       form.querySelectorAll("[required]").forEach(function (campo) {
@@ -174,6 +180,112 @@
       mostrar("Se abrió WhatsApp con tu mensaje listo para enviar. Si no se abrió, tocá el botón verde de WhatsApp.", "ok");
       window.open(url, "_blank", "noopener");
     });
+  }
+
+  /* ---------- Números que cuentan al aparecer ---------- */
+  var contadores = document.querySelectorAll("[data-contar]");
+  if (contadores.length && "IntersectionObserver" in window && !reducido) {
+    var ioN = new IntersectionObserver(function (ents) {
+      ents.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        ioN.unobserve(en.target);
+        var el = en.target, fin = parseInt(el.getAttribute("data-contar"), 10), pre = el.getAttribute("data-prefijo") || "";
+        if (!fin) return;
+        var t0 = null, dur = 1400;
+        var paso = function (t) {
+          if (!t0) t0 = t;
+          var k = Math.min((t - t0) / dur, 1), e = 1 - Math.pow(1 - k, 3);
+          el.textContent = pre + Math.round(fin * e);
+          if (k < 1) requestAnimationFrame(paso);
+        };
+        el.textContent = pre + "0";
+        requestAnimationFrame(paso);
+      });
+    }, { threshold: 0.6 });
+    contadores.forEach(function (el) { ioN.observe(el); });
+  }
+
+  /* ---------- Barra de progreso de lectura ---------- */
+  var barra = document.querySelector(".progreso-lectura span");
+  var articulo = document.querySelector("article");
+  if (barra && articulo) {
+    var pendienteP = false;
+    var actualizar = function () {
+      pendienteP = false;
+      var r = articulo.getBoundingClientRect();
+      var total = r.height - window.innerHeight;
+      var k = total > 0 ? Math.min(Math.max(-r.top / total, 0), 1) : 1;
+      barra.style.transform = "scaleX(" + k.toFixed(4) + ")";
+    };
+    window.addEventListener("scroll", function () { if (!pendienteP) { pendienteP = true; requestAnimationFrame(actualizar); } }, { passive: true });
+    actualizar();
+  }
+
+  /* ---------- Carrusel: puntos de posición y arrastre con mouse ---------- */
+  document.querySelectorAll(".carrusel").forEach(function (car) {
+    var pista = car.querySelector(".carrusel__pista");
+    var puntos = car.querySelector(".carrusel__puntos");
+    if (!pista) return;
+    var items = pista.children;
+    if (puntos) {
+      for (var i = 0; i < items.length; i++) puntos.appendChild(document.createElement("i"));
+      var marcar = function () {
+        var w = items[0] ? items[0].getBoundingClientRect().width + 20 : 1;
+        var idx = Math.round(pista.scrollLeft / w);
+        if (pista.scrollLeft + pista.clientWidth >= pista.scrollWidth - 4) idx = items.length - 1;
+        Array.prototype.forEach.call(puntos.children, function (p, n) { p.classList.toggle("activo", n === idx); });
+      };
+      pista.addEventListener("scroll", function () { requestAnimationFrame(marcar); }, { passive: true });
+      marcar();
+    }
+    var x0 = 0, s0 = 0, activo = false, movio = false;
+    pista.addEventListener("pointerdown", function (e) {
+      if (e.pointerType !== "mouse" || e.button !== 0) return;
+      activo = true; movio = false; x0 = e.clientX; s0 = pista.scrollLeft;
+    });
+    window.addEventListener("pointermove", function (e) {
+      if (!activo) return;
+      var dx = e.clientX - x0;
+      if (Math.abs(dx) > 4) { movio = true; pista.classList.add("arrastrando"); }
+      pista.scrollLeft = s0 - dx;
+    });
+    window.addEventListener("pointerup", function () {
+      if (!activo) return;
+      activo = false;
+      pista.classList.remove("arrastrando");
+      if (movio) {
+        var w = items[0] ? items[0].getBoundingClientRect().width + 20 : 300;
+        pista.scrollTo({ left: Math.round(pista.scrollLeft / w) * w, behavior: reducido ? "auto" : "smooth" });
+      }
+    });
+    pista.addEventListener("click", function (e) { if (movio) { e.preventDefault(); movio = false; } }, true);
+  });
+
+  /* ---------- Indicador deslizante en el menú de escritorio ---------- */
+  var lista = document.querySelector(".nav__lista");
+  if (lista && !reducido && window.matchMedia("(hover: hover)").matches) {
+    var ind = document.createElement("span");
+    ind.className = "nav__indicador";
+    var navEl = lista.parentElement;
+    navEl.appendChild(ind);
+    navEl.classList.add("nav--con-indicador");
+    var ir = function (el) {
+      if (!el) { ind.style.opacity = "0"; return; }
+      var lr = navEl.getBoundingClientRect(), r = el.getBoundingClientRect();
+      ind.style.width = (r.width - 24) + "px";
+      ind.style.transform = "translateX(" + (r.left - lr.left + 12) + "px)";
+      ind.style.opacity = "1";
+    };
+    var actual = function () {
+      return lista.querySelector('.nav__enlace[aria-current="page"]') || lista.querySelector(".nav__desplegar[data-actual]");
+    };
+    lista.querySelectorAll(".nav__enlace, .nav__desplegar").forEach(function (el) {
+      el.addEventListener("mouseenter", function () { ir(el); });
+      el.addEventListener("focus", function () { ir(el); });
+    });
+    lista.addEventListener("mouseleave", function () { ir(actual()); });
+    window.addEventListener("resize", function () { ir(actual()); });
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { ir(actual()); }); else ir(actual());
   }
 
   /* ---------- Medición de clics de contacto (si hay GA4 con consentimiento) ---------- */

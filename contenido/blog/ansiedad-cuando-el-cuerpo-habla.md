@@ -49,3 +49,8 @@ Por eso, además de aliviar el síntoma, en terapia nos preguntamos qué está d
 Si la ansiedad interfiere en tu vida cotidiana, en tu descanso, en tus vínculos o en tu trabajo, o si tuviste ataques de pánico, es un buen momento para consultar. También es importante descartar causas médicas con un profesional de la salud.
 
 La ansiedad tiene tratamiento, y entenderla puede ser el comienzo de una relación distinta con vos mismo.
+
+## Para seguir leyendo
+
+- Freud, S. (1926). *Inhibición, síntoma y angustia*. La angustia como señal ante un peligro, también interno.
+- Jung, C. G. (1964). *El hombre y sus símbolos*. Para pensar cómo el inconsciente se expresa a través del cuerpo y las imágenes.
