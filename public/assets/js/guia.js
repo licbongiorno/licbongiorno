@@ -10,12 +10,13 @@
   var pintar = function () {
     var elegidos = Array.prototype.map.call(caja.querySelectorAll("input:checked"), function (i) { return i.value; });
     if (!elegidos.length) { out.innerHTML = ""; return; }
-    var arts = [], labs = [], motivos = [], vistos = {};
+    var arts = [], labs = [], tests = [], motivos = [], vistos = {};
     var sumar = function (dest, x) { if (!vistos[x[1]]) { vistos[x[1]] = 1; dest.push(x); } };
     elegidos.forEach(function (k) {
       var d = datos[k]; if (!d) return;
       d.a.forEach(function (x) { sumar(arts, x); });
       d.l.forEach(function (x) { sumar(labs, x); });
+      (d.t || []).forEach(function (x) { sumar(tests, x); });
       if (d.m && !vistos[d.m]) { vistos[d.m] = 1; motivos.push([d.mn, d.m]); }
     });
     var nombres = elegidos.map(function (k) { return datos[k].n.toLowerCase(); });
@@ -23,7 +24,7 @@
     var html = '<h2 class="guia-resultado__titulo">Tu recorrido para <em>' + esc(titulo) + "</em></h2>";
     html += '<div class="guia-pasos">';
     html += '<section class="guia-paso"><p class="guia-paso__num">1 · Leer</p>' + lista(arts.slice(0, 6)) + "</section>";
-    html += '<section class="guia-paso"><p class="guia-paso__num">2 · Practicar</p>' + lista(labs.slice(0, 5)) + "</section>";
+    html += '<section class="guia-paso"><p class="guia-paso__num">2 · Practicar</p>' + lista(labs.slice(0, 5)) + (tests.length ? '<p>Y para explorarte:</p>' + lista(tests.slice(0, 4)) : "") + "</section>";
     html += '<section class="guia-paso"><p class="guia-paso__num">3 · Entender más</p><p>Cómo lo trabajo en terapia:</p>' + lista(motivos.slice(0, 3)) + "</section>";
     html += "</div>";
     html += '<p class="guia-cierre">Si lo que marcaste te pesa desde hace un tiempo, también podés <a href="/contacto/">escribirme</a> para conversarlo en una primera entrevista.</p>';

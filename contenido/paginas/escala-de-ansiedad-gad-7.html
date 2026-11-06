@@ -1,0 +1,60 @@
+<!--{
+  "titulo": "Escala de ansiedad GAD-7: cuestionario breve online",
+  "descripcion": "La escala GAD-7 para la ansiedad: siete preguntas sobre las últimas dos semanas, con un puntaje orientativo. No es un diagnóstico y no se envía nada.",
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Ansiedad (GAD-7)",
+      "/escala-de-ansiedad-gad-7/"
+    ]
+  ],
+  "antetitulo": "Escala breve validada",
+  "h1": "Escala de ansiedad <em>GAD-7</em>",
+  "bajada": "Siete preguntas sobre las últimas dos semanas. Es una de las escalas más usadas en el mundo para detectar ansiedad y seguir su evolución.",
+  "respuesta": "La GAD-7 es una escala breve de siete preguntas para detectar síntomas de ansiedad en las últimas dos semanas. Cada respuesta vale de 0 a 3 y el total va de 0 a 21: de 0 a 4, ansiedad mínima; de 5 a 9, leve; de 10 a 14, moderada; de 15 a 21, grave. Fue desarrollada por Spitzer y colaboradores en 2006. Es orientativa y no reemplaza una evaluación profesional.",
+  "wa_tema": "la escala de ansiedad GAD-7",
+  "articulos": [
+    "ansiedad-cuando-el-cuerpo-habla",
+    "ataque-de-panico-que-hacer",
+    "tecnicas-psicometricas"
+  ],
+  "ruta": "/escala-de-ansiedad-gad-7/",
+  "scripts": [
+    "test-motor.js"
+  ],
+  "prioridad": 0.6
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+<p>No, no es un test para decirte si «tenés ansiedad». Es una escala breve, usada en consultorios y en investigación de todo el mundo, que ayuda a ponerle un número a algo que muchas veces se vive como una nube difusa. Ese número no es un diagnóstico, pero puede ser un buen punto de partida para conversar.</p>
+        <p>Respondé pensando en <strong>las últimas dos semanas</strong>. Si querés entender mejor qué es la ansiedad, leé <a href="/recursos/ansiedad-cuando-el-cuerpo-habla/">ansiedad: cuando el cuerpo habla</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Dos minutos.</strong> Siete preguntas.</li><li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo.</li><li><strong>Validada.</strong> Spitzer y colaboradores, 2006.</li></ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p>Esta escala detecta síntomas, no diagnostica un trastorno. Si estás atravesando una crisis, no esperes al resultado: mirá los <a href="/ayuda-urgente/">teléfonos de ayuda urgente</a>.</p></aside>
+
+    <div class="test" data-test-motor>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este cuestionario necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"id": "gad7", "nombre": "Escala de ansiedad GAD-7", "modo": "suma", "min": 0, "max": 21, "porPagina": 7, "consigna": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado los siguientes problemas?", "opciones": [{"t": "Ningún día", "v": 0}, {"t": "Varios días", "v": 1}, {"t": "Más de la mitad de los días", "v": 2}, {"t": "Casi todos los días", "v": 3}], "items": [{"t": "Sentirse nervioso/a, intranquilo/a o con los nervios de punta."}, {"t": "No poder dejar de preocuparse o no poder controlar la preocupación."}, {"t": "Preocuparse demasiado por diferentes cosas."}, {"t": "Dificultad para relajarse."}, {"t": "Estar tan inquieto/a que es difícil permanecer sentado/a tranquilamente."}, {"t": "Molestarse o ponerse irritable fácilmente."}, {"t": "Sentir miedo, como si algo terrible fuera a pasar."}], "bandas": [{"hasta": 4, "nombre": "Ansiedad mínima", "texto": "Tu puntaje está en el rango de ansiedad mínima. Es esperable sentir algo de ansiedad: es parte de la vida. Si igual hay algo que te inquieta, también vale la pena conversarlo."}, {"hasta": 9, "nombre": "Ansiedad leve", "texto": "Tu puntaje está en el rango de ansiedad leve. Puede ser un buen momento para prestarle atención: qué la dispara, cómo la vivís en el cuerpo, qué te ayuda. El <a href=\"/laboratorio-de-ansiedad/\">laboratorio de ansiedad<\/a> tiene ejercicios para empezar."}, {"hasta": 14, "nombre": "Ansiedad moderada", "texto": "Tu puntaje está en el rango de ansiedad moderada. A partir de 10 puntos se suele recomendar una evaluación profesional, porque la ansiedad ya puede estar afectando tu día a día. Consultar a tiempo hace una gran diferencia."}, {"hasta": 21, "nombre": "Ansiedad grave", "texto": "Tu puntaje está en el rango de ansiedad grave. Es importante que lo converses con un profesional de la salud mental pronto. La ansiedad tiene tratamiento, y no tenés que atravesarla solo."}], "enlaces": [["Cómo trabajo la ansiedad y los ataques de pánico", "/ansiedad-y-ataques-de-panico/"], ["Laboratorio de ansiedad", "/laboratorio-de-ansiedad/"], ["Laboratorio de respiraciones", "/laboratorio-de-respiraciones/"], ["Qué hacer en un ataque de pánico", "/recursos/ataque-de-panico-que-hacer/"]], "nota": "Es una escala de detección: orienta, pero <strong>no es un diagnóstico<\/strong>. Solo un profesional puede evaluar lo que te pasa, teniendo en cuenta tu historia y tu contexto. Tus respuestas no salen de este dispositivo. Desarrollado por los Dres. Robert L. Spitzer, Janet B. W. Williams, Kurt Kroenke y colaboradores, con una subvención educativa de Pfizer Inc. No se requiere permiso para reproducir, traducir, presentar o distribuir."}</script>
+{{> cta}}

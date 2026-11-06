@@ -29,7 +29,7 @@ Las **técnicas psicométricas** son tests psicológicos **estandarizados**: se 
 - **Inteligencia y funciones cognitivas:** las escalas de Wechsler (WAIS para adultos, WISC para niños), las matrices progresivas de Raven. Ver [qué es la inteligencia](/recursos/que-es-la-inteligencia/).
 - **Personalidad:** el MMPI (Inventario Multifásico de Personalidad de Minnesota), el 16PF de Raymond Cattell y los inventarios de los cinco grandes rasgos. Ver [qué es la personalidad](/recursos/que-es-la-personalidad/).
 - **Síntomas:** escalas breves de ansiedad o depresión, como el PHQ-9 o el GAD-7, usadas para detectar y seguir la evolución.
-- **Atención y visomotricidad:** pruebas de atención sostenida o el test de Bender, usados en algunas evaluaciones de aptitud.
+- **Atención y visomotricidad:** pruebas de atención sostenida o el [test de Bender](/recursos/test-de-bender/), usados en algunas evaluaciones de aptitud.
 
 ## Psicométricas y proyectivas
 
@@ -40,7 +40,7 @@ Las **técnicas psicométricas** son tests psicológicos **estandarizados**: se 
 | Fortaleza | Precisión y comparación | Riqueza y profundidad |
 | Límite | Puede perder la singularidad | Respaldo científico variable |
 
-En la práctica, un buen **psicodiagnóstico** suele combinar ambas, junto con la entrevista.
+En la práctica, un buen [psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/) suele combinar ambas, junto con la entrevista.
 
 > Un test bien usado no te encasilla. Te ayuda a ver con más claridad algo que ya estaba.
 

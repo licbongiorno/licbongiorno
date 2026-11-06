@@ -1,0 +1,60 @@
+<!--{
+  "titulo": "Cuestionario PHQ-9 de ánimo y depresión: versión online",
+  "descripcion": "El cuestionario PHQ-9 sobre el estado de ánimo: nueve preguntas sobre las últimas dos semanas, con un puntaje orientativo. No es un diagnóstico.",
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Ánimo (PHQ-9)",
+      "/escala-de-animo-phq-9/"
+    ]
+  ],
+  "antetitulo": "Escala breve validada",
+  "h1": "Cuestionario de ánimo <em>PHQ-9</em>",
+  "bajada": "Nueve preguntas sobre las últimas dos semanas. Es uno de los cuestionarios más usados para detectar síntomas depresivos y seguir su evolución.",
+  "respuesta": "El PHQ-9 es un cuestionario de nueve preguntas para detectar síntomas depresivos en las últimas dos semanas. Cada respuesta vale de 0 a 3 y el total va de 0 a 27: de 0 a 4, mínimos; de 5 a 9, leves; de 10 a 14, moderados; de 15 a 19, moderadamente graves; de 20 a 27, graves. Fue desarrollado por Kroenke, Spitzer y Williams en 2001. Es orientativo y no reemplaza una evaluación profesional.",
+  "wa_tema": "el cuestionario de ánimo PHQ-9",
+  "articulos": [
+    "como-acompanar-a-alguien-con-depresion",
+    "como-saber-si-necesito-terapia",
+    "tecnicas-psicometricas"
+  ],
+  "ruta": "/escala-de-animo-phq-9/",
+  "scripts": [
+    "test-motor.js"
+  ],
+  "prioridad": 0.6
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+<p>No, no es un test para ponerle nombre a tu tristeza. Es un cuestionario breve que se usa en todo el mundo para detectar síntomas depresivos y ver cómo evolucionan. A veces ayuda a darse cuenta de que algo que venía pasando de a poco ya ocupa demasiado lugar.</p>
+        <p>Respondé pensando en <strong>las últimas dos semanas</strong>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Tres minutos.</strong> Nueve preguntas.</li><li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo.</li><li><strong>Validado.</strong> Kroenke, Spitzer y Williams, 2001.</li></ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p>Este cuestionario detecta síntomas, no diagnostica una depresión. Si estás pensando en hacerte daño, no esperes al resultado: llamá al 911 o al 0800-345-1435, o mirá los <a href="/ayuda-urgente/">teléfonos de ayuda urgente</a>.</p></aside>
+
+    <div class="test" data-test-motor>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este cuestionario necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"id": "phq9", "nombre": "Cuestionario de ánimo PHQ-9", "modo": "suma", "min": 0, "max": 27, "porPagina": 9, "consigna": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado los siguientes problemas?", "opciones": [{"t": "Ningún día", "v": 0}, {"t": "Varios días", "v": 1}, {"t": "Más de la mitad de los días", "v": 2}, {"t": "Casi todos los días", "v": 3}], "items": [{"t": "Poco interés o placer en hacer cosas."}, {"t": "Sentirse decaído/a, deprimido/a o sin esperanzas."}, {"t": "Dificultad para quedarse dormido/a o permanecer dormido/a, o dormir demasiado."}, {"t": "Sentirse cansado/a o con poca energía."}, {"t": "Tener poco apetito o comer en exceso."}, {"t": "Sentirse mal con uno/a mismo/a, o sentir que es un fracaso o que le falló a sí mismo/a o a su familia."}, {"t": "Dificultad para concentrarse en cosas como leer o mirar televisión."}, {"t": "Moverse o hablar tan lento que otras personas podrían notarlo, o lo contrario: estar tan inquieto/a o agitado/a que se mueve mucho más de lo habitual."}, {"t": "Pensamientos de que estaría mejor muerto/a o de hacerse daño de alguna manera."}], "alerta": {"item": 8, "min": 1, "html": "<p><strong>Si estás pensando en hacerte daño, no estás solo.<\/strong> Hablalo hoy con alguien. En Argentina podés llamar al <a href=\"tel:911\">911<\/a> o al Centro de Asistencia al Suicida: <a href=\"tel:135\">135<\/a> (CABA y GBA) o <a href=\"tel:08003451435\">0800-345-1435<\/a> (todo el país), gratis. Desde otro país, llamá a los servicios de emergencia locales.<\/p><p><a href=\"/ayuda-urgente/\">Ver todos los teléfonos de ayuda<\/a><\/p>"}, "bandas": [{"hasta": 4, "nombre": "Síntomas mínimos", "texto": "Tu puntaje está en el rango de síntomas mínimos. Igual, si hay algo que te pesa, merece ser escuchado: no hace falta estar mal para consultar."}, {"hasta": 9, "nombre": "Síntomas leves", "texto": "Tu puntaje está en el rango de síntomas leves. Puede ser un buen momento para prestar atención a cómo estás, a tu descanso y a tus vínculos, y para ver si esto se sostiene en el tiempo."}, {"hasta": 14, "nombre": "Síntomas moderados", "texto": "Tu puntaje está en el rango de síntomas moderados. A partir de 10 puntos se suele recomendar una evaluación profesional. Consultar a tiempo hace una gran diferencia."}, {"hasta": 19, "nombre": "Síntomas moderadamente graves", "texto": "Tu puntaje está en el rango de síntomas moderadamente graves. Es importante que lo converses con un profesional de la salud mental pronto. La depresión tiene tratamiento."}, {"hasta": 27, "nombre": "Síntomas graves", "texto": "Tu puntaje está en el rango de síntomas graves. Te recomiendo buscar ayuda profesional cuanto antes. No tenés que atravesar esto solo: hay tratamiento, y pedir ayuda es un primer paso enorme."}], "enlaces": [["Cómo trabajo la depresión", "/depresion/"], ["Cómo saber si necesito terapia", "/recursos/como-saber-si-necesito-terapia/"], ["Laboratorio de autocompasión", "/laboratorio-de-autocompasion/"], ["Teléfonos de ayuda urgente", "/ayuda-urgente/"]], "nota": "Es una escala de detección: orienta, pero <strong>no es un diagnóstico<\/strong>. Solo un profesional puede evaluar lo que te pasa, teniendo en cuenta tu historia y tu contexto. Tus respuestas no salen de este dispositivo. Desarrollado por los Dres. Robert L. Spitzer, Janet B. W. Williams, Kurt Kroenke y colaboradores, con una subvención educativa de Pfizer Inc. No se requiere permiso para reproducir, traducir, presentar o distribuir."}</script>
+{{> cta}}

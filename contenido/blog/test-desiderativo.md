@@ -43,7 +43,7 @@ La forma de responder (la rapidez, las dudas, las explicaciones) importa tanto c
 
 ## Para qué se usa
 
-- En el **psicodiagnóstico** de adolescentes y adultos.
+- En el [psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/) de adolescentes y adultos.
 - En evaluaciones laborales.
 - En la clínica, como disparador de conversación sobre deseos y miedos.
 

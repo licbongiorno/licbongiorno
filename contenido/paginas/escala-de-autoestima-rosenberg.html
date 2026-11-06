@@ -1,0 +1,60 @@
+<!--{
+  "titulo": "Escala de autoestima de Rosenberg: test online",
+  "descripcion": "La escala de autoestima de Rosenberg: diez afirmaciones sobre cómo te valorás, con tu puntaje de 10 a 40. Orientativa, sin registro y sin enviar nada.",
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Autoestima (Rosenberg)",
+      "/escala-de-autoestima-rosenberg/"
+    ]
+  ],
+  "antetitulo": "Escala breve validada",
+  "h1": "Escala de autoestima de <em>Rosenberg</em>",
+  "bajada": "Diez afirmaciones sobre cómo te valorás. Es la escala de autoestima más usada en el mundo desde 1965.",
+  "respuesta": "La escala de autoestima de Rosenberg es un cuestionario de diez afirmaciones creado por el sociólogo Morris Rosenberg en 1965 para medir la autoestima global, es decir, la valoración general que una persona tiene de sí misma. Cinco afirmaciones están redactadas en positivo y cinco en negativo. El puntaje va de 10 a 40, y un puntaje más alto indica mayor autoestima. Es orientativa y no reemplaza una evaluación profesional.",
+  "wa_tema": "la escala de autoestima de Rosenberg",
+  "articulos": [
+    "la-culpa",
+    "psicologia-humanista-carl-rogers",
+    "tecnicas-psicometricas"
+  ],
+  "ruta": "/escala-de-autoestima-rosenberg/",
+  "scripts": [
+    "test-motor.js"
+  ],
+  "prioridad": 0.6
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+<p>No, no es un test para saber si «te querés lo suficiente». Es una escala breve, creada por el sociólogo Morris Rosenberg en 1965, que mide algo bastante concreto: la valoración general que tenés de vos. No mide si sos buena persona ni si tenés razones para valorarte: mide cómo te ves.</p>
+        <p>Respondé pensando en cómo te sentís <strong>en general</strong>, no en un día puntual.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Dos minutos.</strong> Diez afirmaciones.</li><li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo.</li><li><strong>Validada.</strong> Rosenberg, 1965, con versiones en español.</li></ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p>Esta escala da una idea general de tu autoestima. No es un diagnóstico ni dice nada definitivo sobre vos.</p></aside>
+
+    <div class="test" data-test-motor>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este cuestionario necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"id": "rosenberg", "nombre": "Escala de autoestima de Rosenberg", "modo": "suma", "min": 10, "max": 40, "porPagina": 10, "consigna": "Indicá cuánto estás de acuerdo con cada afirmación.", "opciones": [{"t": "Muy en desacuerdo", "v": 1}, {"t": "En desacuerdo", "v": 2}, {"t": "De acuerdo", "v": 3}, {"t": "Muy de acuerdo", "v": 4}], "items": [{"t": "Siento que soy una persona digna de aprecio, al menos en igual medida que los demás."}, {"t": "Estoy convencido/a de que tengo cualidades buenas."}, {"t": "Soy capaz de hacer las cosas tan bien como la mayoría de la gente."}, {"t": "Tengo una actitud positiva hacia mí mismo/a."}, {"t": "En general, estoy satisfecho/a conmigo mismo/a."}, {"t": "Siento que no tengo mucho de lo que estar orgulloso/a.", "inv": true}, {"t": "En general, me inclino a pensar que soy un fracaso.", "inv": true}, {"t": "Me gustaría poder sentir más respeto por mí mismo/a.", "inv": true}, {"t": "Hay veces que realmente pienso que soy un/a inútil.", "inv": true}, {"t": "A veces creo que no soy buena persona.", "inv": true}], "lectura": "Un puntaje más alto indica una autoestima global más alta. La escala no tiene puntos de corte universales: los valores de referencia cambian según la edad, el país y la muestra. Más que el número exacto, mirá qué afirmaciones te costaron: en las negativas que marcaste de acuerdo suele estar lo más interesante para trabajar. Si te reconocés muy exigente con vos, el <a href=\"/laboratorio-de-autocompasion/\">laboratorio de autocompasión<\/a> puede ayudarte a empezar.", "enlaces": [["Cómo trabajo la autoestima", "/autoestima/"], ["Laboratorio de autocompasión", "/laboratorio-de-autocompasion/"], ["Laboratorio humanista: yo real y yo ideal", "/laboratorio-humanista/"]], "nota": "Es una escala de detección: orienta, pero <strong>no es un diagnóstico<\/strong>. Solo un profesional puede evaluar lo que te pasa, teniendo en cuenta tu historia y tu contexto. Tus respuestas no salen de este dispositivo. Rosenberg, M. (1965). <em>Society and the Adolescent Self-Image<\/em>. La escala es de dominio público."}</script>
+{{> cta}}

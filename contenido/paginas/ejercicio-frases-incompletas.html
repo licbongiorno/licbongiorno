@@ -1,0 +1,84 @@
+<!--{
+  "ruta": "/ejercicio-frases-incompletas/",
+  "titulo": "Frases incompletas para pensarte: un ejercicio",
+  "descripcion": "Un ejercicio para pensarte inspirado en el test de frases incompletas: 24 comienzos de frases originales sobre vos, tu familia, tus vínculos y tu futuro.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Tests", "/tests/"], ["Frases incompletas", "/ejercicio-frases-incompletas/"]],
+  "antetitulo": "Ejercicio para pensarte",
+  "h1": "Frases <em>incompletas</em>",
+  "bajada": "Veinticuatro comienzos de frases para completar con lo primero que aparezca. Sin puntaje ni interpretación automática: lo que escribas es para pensarte.",
+  "respuesta": "Este ejercicio propone 24 comienzos de frases originales, agrupados en cuatro áreas (vos, tu familia, tus vínculos y el tiempo), para completar con lo primero que surja y después releer. Está inspirado en el test de frases incompletas de Sacks y de Rotter, pero no es una evaluación: no tiene puntaje ni interpretación automática, y lo escrito queda solo en tu dispositivo.",
+  "scripts": ["lab-base.js"],
+  "wa_tema": "el ejercicio de frases incompletas",
+  "articulos": ["test-frases-incompletas", "tecnicas-proyectivas", "patrones-que-se-repiten-en-los-vinculos"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es un ejercicio de redacción. Son comienzos de frases, y la idea es completarlos con lo primero que aparezca, sin corregir ni pensar demasiado. Algunas van a salir solas. Otras se van a resistir. Las dos cosas valen: muchas veces lo más interesante está en la frase que no querías terminar.</p>
+        <p>Si querés saber de dónde viene, leé <a href="/recursos/test-frases-incompletas/">qué es el test de frases incompletas</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Unos 10 minutos.</strong> Veinticuatro frases en cuatro áreas.</li>
+        <li><strong>Nada se envía.</strong> Lo que escribas queda en esta página hasta que la cierres, y lo podés guardar en tu dispositivo.</li>
+        <li><strong>Podés saltear.</strong> Si una frase no sale, dejala en blanco y seguí.</li>
+      </ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Las frases son originales e inspiradas en la técnica de frases incompletas, pero esto no es una evaluación ni la reemplaza: no tiene puntaje ni interpretación automática. Si vas a hacer una evaluación psicológica o un apto, mejor no lo practiques antes: no hay respuestas correctas, y llegar sin ensayar es lo que sirve.</p></aside>
+
+    <form class="lab-tarjeta lab-armador revelar" data-lab-form="frases-incompletas" data-lab-form-titulo="Frases incompletas" novalidate>
+      <fieldset class="lab-paso frases-grupo"><legend class="lab-paso__titulo">Sobre mí</legend>
+        <div class="frases-item"><label for="fi-1">Lo que más me gusta de mí es…</label><input class="lab-campo" id="fi-1" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-2">Lo que más me cuesta de mí es…</label><input class="lab-campo" id="fi-2" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-3">Cuando estoy solo/a…</label><input class="lab-campo" id="fi-3" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-4">Me siento orgulloso/a de…</label><input class="lab-campo" id="fi-4" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-5">Me da vergüenza…</label><input class="lab-campo" id="fi-5" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-6">En el fondo, yo…</label><input class="lab-campo" id="fi-6" type="text" autocomplete="off"></div>
+      </fieldset>
+      <fieldset class="lab-paso frases-grupo"><legend class="lab-paso__titulo">Mi familia</legend>
+        <div class="frases-item"><label for="fi-7">En mi casa, cuando era chico/a…</label><input class="lab-campo" id="fi-7" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-8">Mi madre…</label><input class="lab-campo" id="fi-8" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-9">Mi padre…</label><input class="lab-campo" id="fi-9" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-10">Lo que aprendí de mi familia es…</label><input class="lab-campo" id="fi-10" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-11">Algo que nunca se habló en mi familia…</label><input class="lab-campo" id="fi-11" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-12">Si pudiera decirle algo a mi familia…</label><input class="lab-campo" id="fi-12" type="text" autocomplete="off"></div>
+      </fieldset>
+      <fieldset class="lab-paso frases-grupo"><legend class="lab-paso__titulo">Mis vínculos</legend>
+        <div class="frases-item"><label for="fi-13">Las personas que quiero…</label><input class="lab-campo" id="fi-13" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-14">Cuando alguien me necesita…</label><input class="lab-campo" id="fi-14" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-15">Me cuesta confiar cuando…</label><input class="lab-campo" id="fi-15" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-16">Lo que más espero de un vínculo es…</label><input class="lab-campo" id="fi-16" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-17">Cuando me enojo con alguien…</label><input class="lab-campo" id="fi-17" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-18">Me siento acompañado/a cuando…</label><input class="lab-campo" id="fi-18" type="text" autocomplete="off"></div>
+      </fieldset>
+      <fieldset class="lab-paso frases-grupo"><legend class="lab-paso__titulo">El tiempo</legend>
+        <div class="frases-item"><label for="fi-19">Lo que más extraño es…</label><input class="lab-campo" id="fi-19" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-20">Mi mayor miedo es…</label><input class="lab-campo" id="fi-20" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-21">Algo que me gustaría dejar atrás…</label><input class="lab-campo" id="fi-21" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-22">Dentro de un año quisiera…</label><input class="lab-campo" id="fi-22" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-23">Si pudiera cambiar una cosa…</label><input class="lab-campo" id="fi-23" type="text" autocomplete="off"></div>
+        <div class="frases-item"><label for="fi-24">Lo que todavía no me animé a hacer es…</label><input class="lab-campo" id="fi-24" type="text" autocomplete="off"></div>
+      </fieldset>
+      <div class="lab-paso"><label class="lab-paso__titulo" for="fi-relectura">Al releer: ¿qué frase te sorprendió? ¿Cuál te costó más? ¿Qué se repite?</label><textarea class="lab-texto" id="fi-relectura" rows="4"></textarea></div>
+      <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+      <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Borrar todo</button></div>
+    </form>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Para traer a sesión.</strong> Algunas frases tocan temas sensibles, como la familia o los miedos. Si algo te movilizó, no hace falta resolverlo solo: puede ser un buen punto de partida para conversar en terapia. Podés <a href="/contacto/">escribirme</a>, y si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir</h2>
+      <ul>
+        <li><a href="/recursos/test-frases-incompletas/">El test de frases incompletas: qué es y qué explora</a></li>
+        <li><a href="/ejercicio-desiderativo/">Si no fueras una persona, ¿qué serías?</a></li>
+        <li><a href="/ejercicio-persona-bajo-la-lluvia/">La persona bajo la lluvia, para dibujar</a></li>
+        <li><a href="/laboratorio-narrativo/">Laboratorio narrativo: tu historia</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -1,0 +1,79 @@
+<!--{
+  "ruta": "/ejercicio-desiderativo/",
+  "titulo": "Ejercicio desiderativo: si no fueras una persona, ¿qué serías?",
+  "descripcion": "Un ejercicio para pensarte inspirado en el cuestionario desiderativo: tres cosas que te gustaría ser y tres que no, con su porqué, y preguntas para reflexionar.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Tests", "/tests/"], ["Ejercicio desiderativo", "/ejercicio-desiderativo/"]],
+  "antetitulo": "Ejercicio para pensarte",
+  "h1": "Si no fueras una persona, <em>¿qué serías?</em>",
+  "bajada": "Un ejercicio inspirado en el cuestionario desiderativo, para escribir con calma. No tiene puntaje ni interpretación automática: las respuestas son tuyas y las preguntas, para pensar.",
+  "respuesta": "El ejercicio desiderativo propone imaginar qué te gustaría ser si no pudieras ser una persona, y qué no, en los reinos animal, vegetal y de los objetos, explicando por qué. Después ofrece preguntas para reflexionar sobre lo que se busca, lo que se teme y lo que se repite. Está inspirado en el cuestionario desiderativo, pero no es una evaluación: no tiene puntaje ni interpretación automática, y lo escrito queda solo en tu dispositivo.",
+  "scripts": ["lab-base.js"],
+  "wa_tema": "el ejercicio desiderativo",
+  "articulos": ["test-desiderativo", "tecnicas-proyectivas", "los-simbolos-segun-jung"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es un test que te diga quién sos según el animal que elijas. Es una pregunta que parece un juego y que, sin embargo, suele abrir mucho: si no pudieras ser una persona, ¿qué te gustaría ser? Lo interesante no es tanto qué elegís, sino <strong>por qué</strong>. En ese porqué hablás de vos: de lo que admirás, de lo que necesitás, de lo que te asusta.</p>
+        <p>Si querés saber de dónde viene esta pregunta, leé <a href="/recursos/test-desiderativo/">qué es el test desiderativo</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Unos 15 minutos.</strong> Sin apuro.</li>
+        <li><strong>Nada se envía.</strong> Lo que escribas queda en esta página hasta que la cierres, y lo podés guardar en tu dispositivo.</li>
+        <li><strong>Sin respuestas correctas.</strong> Escribí lo primero que aparezca.</li>
+      </ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Este ejercicio está inspirado en el cuestionario desiderativo, pero no es una evaluación ni la reemplaza: no tiene puntaje ni interpretación automática. Si vas a hacer una evaluación psicológica o un apto, mejor no lo practiques antes: no hay respuestas correctas, y llegar sin ensayar es lo que sirve.</p></aside>
+
+    <form class="lab-tarjeta lab-armador revelar" data-lab-form="ejercicio-desiderativo" data-lab-form-titulo="Ejercicio desiderativo" novalidate>
+      <h2 class="lab-tarjeta__titulo">1. Lo que te gustaría ser</h2>
+      <p class="lab-paso__ayuda">Imaginá que no podés ser una persona. ¿Qué te gustaría ser? Elegí una cosa de cada reino y escribí por qué.</p>
+      <div class="lab-tabla2">
+        <div><label for="dp-animal">Un animal que me gustaría ser</label><input class="lab-campo" id="dp-animal" type="text" autocomplete="off"></div>
+        <div><label for="dp-animal-por">¿Por qué?</label><textarea class="lab-texto" id="dp-animal-por" rows="2"></textarea></div>
+        <div><label for="dp-vegetal">Una planta que me gustaría ser</label><input class="lab-campo" id="dp-vegetal" type="text" autocomplete="off"></div>
+        <div><label for="dp-vegetal-por">¿Por qué?</label><textarea class="lab-texto" id="dp-vegetal-por" rows="2"></textarea></div>
+        <div><label for="dp-objeto">Un objeto que me gustaría ser</label><input class="lab-campo" id="dp-objeto" type="text" autocomplete="off"></div>
+        <div><label for="dp-objeto-por">¿Por qué?</label><textarea class="lab-texto" id="dp-objeto-por" rows="2"></textarea></div>
+      </div>
+
+      <h2 class="lab-tarjeta__titulo" style="margin-top:2rem">2. Lo que no te gustaría ser</h2>
+      <p class="lab-paso__ayuda">Ahora al revés: ¿qué no te gustaría ser de ninguna manera? También uno de cada reino, con su porqué.</p>
+      <div class="lab-tabla2">
+        <div><label for="dn-animal">Un animal que no me gustaría ser</label><input class="lab-campo" id="dn-animal" type="text" autocomplete="off"></div>
+        <div><label for="dn-animal-por">¿Por qué no?</label><textarea class="lab-texto" id="dn-animal-por" rows="2"></textarea></div>
+        <div><label for="dn-vegetal">Una planta que no me gustaría ser</label><input class="lab-campo" id="dn-vegetal" type="text" autocomplete="off"></div>
+        <div><label for="dn-vegetal-por">¿Por qué no?</label><textarea class="lab-texto" id="dn-vegetal-por" rows="2"></textarea></div>
+        <div><label for="dn-objeto">Un objeto que no me gustaría ser</label><input class="lab-campo" id="dn-objeto" type="text" autocomplete="off"></div>
+        <div><label for="dn-objeto-por">¿Por qué no?</label><textarea class="lab-texto" id="dn-objeto-por" rows="2"></textarea></div>
+      </div>
+
+      <h2 class="lab-tarjeta__titulo" style="margin-top:2rem">3. Para pensar</h2>
+      <p class="lab-paso__ayuda">Releé lo que escribiste, sobre todo los porqués. No busques una interpretación: buscá lo que te llama la atención.</p>
+      <div class="lab-paso"><label class="lab-paso__titulo" for="dr-busco">¿Qué cualidades aparecen en lo que elegiste? ¿Qué dicen de lo que buscás o necesitás?</label><textarea class="lab-texto" id="dr-busco" rows="3"></textarea></div>
+      <div class="lab-paso"><label class="lab-paso__titulo" for="dr-temo">¿Qué se repite en lo que rechazaste? ¿Qué te da miedo, qué querés evitar?</label><textarea class="lab-texto" id="dr-temo" rows="3"></textarea></div>
+      <div class="lab-paso"><label class="lab-paso__titulo" for="dr-cuesta">¿Qué te costó más responder? ¿Hubo algo que te incomodó imaginar?</label><textarea class="lab-texto" id="dr-cuesta" rows="3"></textarea></div>
+      <div class="lab-paso"><label class="lab-paso__titulo" for="dr-vida">¿Hay algo de todo esto que ya tengas en tu vida? ¿Algo que te gustaría tener más?</label><textarea class="lab-texto" id="dr-vida" rows="3"></textarea></div>
+      <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+      <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Borrar todo</button></div>
+    </form>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Para traer a sesión.</strong> Lo que escribiste puede ser un muy buen punto de partida para conversar en terapia: no para que alguien te diga qué significa, sino para pensarlo juntos. Si algo te movilizó más de lo esperado, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir</h2>
+      <ul>
+        <li><a href="/recursos/test-desiderativo/">El test desiderativo: qué es y qué explora</a></li>
+        <li><a href="/ejercicio-frases-incompletas/">Frases incompletas para pensarte</a></li>
+        <li><a href="/ejercicio-persona-bajo-la-lluvia/">La persona bajo la lluvia, para dibujar</a></li>
+        <li><a href="/laboratorio-de-valores/">Laboratorio de valores</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

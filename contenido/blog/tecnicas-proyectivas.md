@@ -22,14 +22,14 @@ La idea de fondo viene del psicoanálisis: cuando la situación es ambigua, cada
 
 ## Algunos ejemplos
 
-- **Técnicas gráficas:** el [HTP (casa, árbol, persona)](/recursos/test-htp-casa-arbol-persona/), el dibujo de la figura humana de Karen Machover, la [persona bajo la lluvia](/recursos/test-dibujo-libre/), el dibujo de la familia y el [dibujo libre](/recursos/test-dibujo-libre/).
-- **Técnicas verbales:** el [cuestionario desiderativo](/recursos/test-desiderativo/) («¿qué te gustaría ser si no fueras una persona?»), las frases incompletas.
-- **Técnicas temáticas:** el TAT de Henry Murray, donde se inventan historias a partir de láminas.
-- **El Rorschach:** las famosas manchas de tinta de Hermann Rorschach (1921), hoy con sistemas de puntuación estandarizados como el de John Exner.
+- **Técnicas gráficas:** el [HTP (casa, árbol, persona)](/recursos/test-htp-casa-arbol-persona/), el dibujo de la [figura humana de Karen Machover](/recursos/test-figura-humana-machover/), la [persona bajo la lluvia](/recursos/test-persona-bajo-la-lluvia/), el dibujo de la familia y el [dibujo libre](/recursos/test-dibujo-libre/).
+- **Técnicas verbales:** el [cuestionario desiderativo](/recursos/test-desiderativo/) («¿qué te gustaría ser si no fueras una persona?»), las [frases incompletas](/recursos/test-frases-incompletas/).
+- **Técnicas temáticas:** el [TAT de Henry Murray](/recursos/test-tat/), donde se inventan historias a partir de láminas.
+- **[El Rorschach](/recursos/test-de-rorschach/):** las famosas manchas de tinta de Hermann Rorschach (1921), hoy con sistemas de puntuación estandarizados como el de John Exner.
 
 ## Para qué se usan
 
-Forman parte del **psicodiagnóstico**: un proceso de evaluación que combina entrevistas y distintas pruebas para comprender a una persona. Se usan en:
+Forman parte del [psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/): un proceso de evaluación que combina entrevistas y distintas pruebas para comprender a una persona. Se usan en:
 
 - la clínica, para conocer mejor el mundo interno de un paciente;
 - la evaluación de niños, que muchas veces se expresan mejor dibujando que hablando;

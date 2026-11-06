@@ -35,8 +35,8 @@ El **dibujo libre** es una [técnica proyectiva](/recursos/tecnicas-proyectivas/
 
 Además del dibujo libre, en la evaluación psicológica se usan otras consignas gráficas:
 
-- la **figura humana**, de Karen Machover;
-- la **persona bajo la lluvia**, que explora cómo se representa uno frente a una situación de presión;
+- la [figura humana](/recursos/test-figura-humana-machover/), de Karen Machover;
+- la [persona bajo la lluvia](/recursos/test-persona-bajo-la-lluvia/), que explora cómo se representa uno frente a una situación de presión;
 - el **dibujo de la familia**, útil para pensar los vínculos (ver [el genograma](/recursos/el-genograma/));
 - el [HTP](/recursos/test-htp-casa-arbol-persona/).
 

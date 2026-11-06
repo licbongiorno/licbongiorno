@@ -273,7 +273,7 @@ NAV = [
         ("Para descargar", "/recursos/#para-descargar", "Diario de sueños en PDF"),
         ("Laboratorios", "/laboratorios/", "Prácticas interactivas para emociones, vínculos y más"),
         ("¿Por dónde empiezo?", "/por-donde-empezar/", "Un recorrido según lo que te pasa"),
-        ("Tests", "/tests/", "Eneagrama y tipos psicológicos de Jung"),
+        ("Tests", "/tests/", "Autoconocimiento, escalas breves y ejercicios"),
         ("Buscar", "/buscar/", "Artículos, laboratorios y preguntas"),
     ]),
     ("Empezar", None, [
@@ -383,6 +383,19 @@ NOMBRES_MOTIVO = {"/ansiedad-y-ataques-de-panico/": "Ansiedad y ataques de páni
                   "/terapia-junguiana/": "Terapia junguiana"}
 
 
+GUIA_TESTS = {
+    "ansiedad": [("Escala de ansiedad GAD-7", "/escala-de-ansiedad-gad-7/")],
+    "panico": [("Escala de ansiedad GAD-7", "/escala-de-ansiedad-gad-7/")],
+    "tristeza": [("Cuestionario de ánimo PHQ-9", "/escala-de-animo-phq-9/")],
+    "vinculos": [("Test de estilos de apego", "/test-de-estilos-de-apego/")],
+    "estres": [("Test de afrontamiento del estrés", "/test-de-afrontamiento-del-estres/")],
+    "autoestima": [("Escala de autoestima de Rosenberg", "/escala-de-autoestima-rosenberg/")],
+    "conocerme": [("Test de eneagrama", "/test-de-eneagrama/"), ("Test de mecanismos de defensa", "/test-de-mecanismos-de-defensa/"), ("Si no fueras una persona, ¿qué serías?", "/ejercicio-desiderativo/")],
+    "emociones": [("Test de mecanismos de defensa", "/test-de-mecanismos-de-defensa/")],
+    "crisis": [("Una persona bajo la lluvia", "/ejercicio-persona-bajo-la-lluvia/")],
+}
+
+
 def bloque_guia():
     arts = {a["archivo"][:-3]: a for a in ARTICULOS if a["publicado"]}
     labs = {l["ruta"]: l["titulo"] for l in LABORATORIOS}
@@ -390,7 +403,8 @@ def bloque_guia():
     for clave, nombre, motivo, slugs_a, rutas_l in GUIA:
         datos[clave] = {"n": nombre, "m": motivo, "mn": NOMBRES_MOTIVO.get(motivo, motivo),
                         "a": [[arts[x]["titulo"], arts[x]["ruta"]] for x in slugs_a if x in arts],
-                        "l": [[labs[r], r] for r in rutas_l if r in labs]}
+                        "l": [[labs[r], r] for r in rutas_l if r in labs],
+                        "t": [list(x) for x in GUIA_TESTS.get(clave, [])]}
     chips = "".join(f'<label class="opcion"><input type="checkbox" name="guia" value="{c}"><span>{esc(n)}</span></label>' for c, n, *_ in GUIA)
     jd = json.dumps(datos, ensure_ascii=False).replace("</", "<\\/")
     return (f'<fieldset class="lab-tarjeta guia" data-guia><legend class="lab-paso__titulo">¿Qué te está pasando? <span class="lab-paso__ayuda">Podés elegir varias.</span></legend>'
@@ -1460,7 +1474,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
     bloques_mapa = "".join(

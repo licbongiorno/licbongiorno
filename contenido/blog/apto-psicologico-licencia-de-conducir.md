@@ -36,9 +36,9 @@ No se evalúa la inteligencia ni la personalidad en profundidad, sino algunas ca
 Varía según el profesional y el lugar, pero en general incluye:
 
 - **una entrevista breve**: datos personales, experiencia al volante, hábitos, salud;
-- **algunas pruebas**: por ejemplo, [técnicas gráficas](/recursos/tecnicas-proyectivas/) como el [dibujo de la casa, el árbol y la persona](/recursos/test-htp-casa-arbol-persona/), pruebas visomotoras o de atención, o cuestionarios breves.
+- **algunas pruebas**: por ejemplo, [técnicas gráficas](/recursos/tecnicas-proyectivas/) como el [dibujo de la casa, el árbol y la persona](/recursos/test-htp-casa-arbol-persona/), pruebas visomotoras como el [Bender](/recursos/test-de-bender/) o de atención, o cuestionarios breves.
 
-Suele durar entre veinte y cuarenta minutos. No hace falta estudiar ni preparar nada.
+Es una evaluación breve, que suele resolverse en un solo encuentro. No hace falta estudiar ni preparar nada.
 
 > No hay dibujos «lindos» ni «feos», ni respuestas que te hagan aprobar. Lo mejor que podés hacer es ser vos.
 
@@ -66,7 +66,7 @@ Evalúa capacidades relacionadas con la conducción, como la atención, la perce
 
 ### ¿Cuánto dura el examen psicológico para la licencia?
 
-Suele durar entre veinte y cuarenta minutos, e incluye una entrevista breve y algunas pruebas, como dibujos o ejercicios de atención.
+Es breve y suele resolverse en un solo encuentro: incluye una entrevista corta y algunas pruebas, como dibujos o ejercicios de atención.
 
 ### ¿Se puede desaprobar el apto psicológico?
 

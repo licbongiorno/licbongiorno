@@ -1576,3 +1576,28 @@ main#contenido:focus { outline: none; }
   .test-dim { grid-template-columns: 1fr; gap: .2rem; }
   .test-dim__polo:last-of-type { text-align: left; }
 }
+/* Motor de tests y escalas */
+.test-medidor { height: 12px; margin: 0 0 1.5rem; border-radius: 999px; background: var(--arena); overflow: hidden; }
+.test-medidor span { display: block; height: 100%; border-radius: inherit; background: var(--terracota-profunda); }
+.test-alerta { margin: 0 0 1.5rem; }
+.test-alerta p { margin: 0 0 .5rem; } .test-alerta p:last-child { margin: 0; }
+.test-grupo { margin: 1rem 0 .4rem; font-family: var(--f-sans); font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--piedra-oscura); }
+.test-grupo:first-child { margin-top: 0; }
+.test-plano { margin: 1.2rem 0 0; max-width: 260px; }
+.test-plano svg { width: 100%; height: auto; display: block; }
+.test-plano__fondo { fill: var(--beige); stroke: var(--linea); }
+.test-plano__eje { stroke: var(--piedra-oscura); stroke-dasharray: 3 3; }
+.test-plano__txt { fill: var(--tinta-suave); font-family: var(--f-sans); font-size: 11px; text-anchor: middle; }
+.test-plano__punto { fill: var(--terracota-profunda); stroke: var(--papel); stroke-width: 3; }
+.test-plano figcaption { margin-top: .4rem; font-family: var(--f-sans); font-size: .75rem; color: var(--piedra-oscura); }
+/* Ejercicios para pensarte */
+.lienzo__herramientas { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin-bottom: .8rem; }
+.lienzo__grosor { display: inline-flex; align-items: center; gap: .4rem; font-family: var(--f-sans); font-size: .8rem; color: var(--tinta-suave); }
+.lienzo__grosor select { min-height: 44px; padding: 0 .5rem; border-radius: var(--r-s); border: 1px solid var(--linea); background: var(--papel); color: var(--tinta); font: inherit; }
+.lienzo__hoja { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; border-radius: var(--r-s); border: 1px solid var(--linea); background: #fff; touch-action: none; cursor: crosshair; }
+.frases-grupo { border: 0; padding: 0; margin: 0 0 1.5rem; }
+.frases-grupo legend { margin-bottom: .6rem; }
+.frases-item { display: grid; gap: .3rem; margin-bottom: .8rem; }
+.frases-item label { font-family: var(--f-serif); color: var(--tinta); }
+@media (min-width: 760px) { .frases-item { grid-template-columns: 17rem 1fr; align-items: center; gap: 1rem; } }
+.test-escala label { overflow-wrap: anywhere; hyphens: auto; }

@@ -1,0 +1,80 @@
+<!--{
+  "ruta": "/ejercicio-persona-bajo-la-lluvia/",
+  "titulo": "La persona bajo la lluvia: un ejercicio para dibujar",
+  "descripcion": "Un ejercicio inspirado en la persona bajo la lluvia: dibujá en pantalla o describí con palabras, y respondé preguntas sobre la presión y tus recursos.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Tests", "/tests/"], ["Persona bajo la lluvia", "/ejercicio-persona-bajo-la-lluvia/"]],
+  "antetitulo": "Ejercicio para pensarte",
+  "h1": "Una persona <em>bajo la lluvia</em>",
+  "bajada": "Dibujá en la pantalla, con el dedo o el mouse, una persona bajo la lluvia. Después, unas preguntas para pensar cómo te cubrís cuando las cosas se complican.",
+  "respuesta": "Este ejercicio propone dibujar en pantalla una persona bajo la lluvia, o describirla con palabras, y después responder preguntas sobre la lluvia, la protección y los recursos con los que cuenta esa persona. Está inspirado en la técnica gráfica de la persona bajo la lluvia, pero no es una evaluación: no tiene puntaje ni interpretación automática, y el dibujo queda solo en tu dispositivo.",
+  "scripts": ["lab-base.js", "ejercicio-lluvia.js"],
+  "wa_tema": "el ejercicio de la persona bajo la lluvia",
+  "articulos": ["test-persona-bajo-la-lluvia", "test-dibujo-libre", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no importa si dibujás bien. Nadie va a mirar tu dibujo para decirte qué significa. La consigna es simple: <strong>dibujá una persona bajo la lluvia</strong>. Puede ser grande o chiquita, con paraguas o sin, con mucha lluvia o con poca. Después vienen unas preguntas para mirar el dibujo con curiosidad.</p>
+        <p>Si querés saber de dónde viene esta consigna, leé <a href="/recursos/test-persona-bajo-la-lluvia/">qué es el test de la persona bajo la lluvia</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Unos 10 minutos.</strong> Primero dibujar, después pensar.</li>
+        <li><strong>Nada se envía.</strong> El dibujo y lo que escribas quedan en esta página, y los podés guardar en tu dispositivo.</li>
+        <li><strong>Sin dibujar también se puede.</strong> Si preferís, describí la escena con palabras.</li>
+      </ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Este ejercicio está inspirado en la técnica de la persona bajo la lluvia, pero no es una evaluación ni la reemplaza: no tiene puntaje ni interpretación automática. Si vas a hacer una evaluación psicológica o un apto, mejor no lo practiques antes: no hay dibujos correctos, y llegar sin ensayar es lo que sirve.</p></aside>
+
+    <section class="lab-estacion revelar" aria-labelledby="t-dibujo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-dibujo">Dibujá</h2>
+      <p class="lab-estacion__bajada">Dibujá una persona bajo la lluvia. Tomate el tiempo que necesites.</p>
+      <div class="lab-tarjeta lienzo" data-lienzo>
+        <div class="lienzo__herramientas" role="toolbar" aria-label="Herramientas de dibujo">
+          <button type="button" class="lab-filtro" aria-pressed="true" data-lienzo-modo="lapiz">Lápiz</button>
+          <button type="button" class="lab-filtro" aria-pressed="false" data-lienzo-modo="goma">Goma</button>
+          <label class="lienzo__grosor">Grosor <select data-lienzo-grosor><option value="2">Fino</option><option value="4" selected>Medio</option><option value="9">Grueso</option></select></label>
+          <button type="button" class="boton boton--secundario boton--chico" data-lienzo-deshacer>Deshacer</button>
+          <button type="button" class="boton boton--secundario boton--chico" data-lienzo-borrar>Borrar todo</button>
+        </div>
+        <canvas class="lienzo__hoja" width="900" height="675" data-lienzo-hoja role="img" aria-label="Hoja para dibujar una persona bajo la lluvia. Si no podés o no querés dibujar, más abajo podés describir la escena con palabras."></canvas>
+        <p class="lab-paso__ayuda" role="status" data-lienzo-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lienzo-bajar>Guardar el dibujo en mi dispositivo</button></div>
+        <noscript><p>Para dibujar hace falta JavaScript. Podés describir la escena con palabras más abajo.</p></noscript>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" aria-labelledby="t-pensar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-pensar">Mirá tu dibujo</h2>
+      <p class="lab-estacion__bajada">No busques qué «significa». Mirá el dibujo como si lo hubiera hecho otra persona, con curiosidad, y respondé lo que te salga.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="persona-bajo-la-lluvia" data-lab-form-titulo="Una persona bajo la lluvia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ll-describir">Si no dibujaste, o querés agregar algo: describí la escena</label><p class="lab-paso__ayuda">¿Quién es la persona? ¿Dónde está? ¿Cómo es la lluvia?</p><textarea class="lab-texto" id="ll-describir" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ll-quien">¿Quién es esta persona y qué está haciendo?</label><textarea class="lab-texto" id="ll-quien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ll-lluvia">¿Cómo es la lluvia? Si esa lluvia fuera algo de tu vida hoy, ¿qué sería?</label><textarea class="lab-texto" id="ll-lluvia" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ll-protege">¿Qué la protege? ¿Y a vos, qué te protege cuando las cosas se complican?</label><textarea class="lab-texto" id="ll-protege" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ll-falta">¿Le falta algo para estar mejor? ¿Qué te falta a vos?</label><textarea class="lab-texto" id="ll-falta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ll-siente">¿Cómo se siente? ¿Qué va a pasar después?</label><textarea class="lab-texto" id="ll-siente" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar lo que escribí</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Para traer a sesión.</strong> Un dibujo no dice nada solo: cobra sentido en tu historia. Si querés pensarlo con alguien, podés traerlo a terapia o <a href="/contacto/">escribirme</a>. Y si la lluvia de estos días te está desbordando, mirá el <a href="/laboratorio-de-estres/">laboratorio de estrés</a> o, si necesitás ayuda ahora, <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir</h2>
+      <ul>
+        <li><a href="/recursos/test-persona-bajo-la-lluvia/">La persona bajo la lluvia: qué es y qué explora</a></li>
+        <li><a href="/test-de-afrontamiento-del-estres/">Test de afrontamiento del estrés</a></li>
+        <li><a href="/laboratorio-de-creatividad/">Laboratorio de creatividad: el juego del garabato</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

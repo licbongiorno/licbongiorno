@@ -42,7 +42,7 @@ Tradicionalmente, la casa se asocia con la vida familiar y el hogar, el árbol c
 
 ## Para qué se usa
 
-- En el **psicodiagnóstico** de niños, adolescentes y adultos.
+- En el [psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/) de niños, adolescentes y adultos.
 - En evaluaciones laborales y en aptos, como el [apto psicológico para la licencia de conducir](/recursos/apto-psicologico-licencia-de-conducir/).
 - En la clínica, como una forma de abrir conversación sobre temas difíciles de poner en palabras.
 
