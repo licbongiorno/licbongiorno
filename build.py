@@ -364,7 +364,7 @@ def pie():
     </div>
     <div class="pie__legal">
       <p>© {anio} {esc(NOMBRE_COMPLETO)} · {esc(C["matricula"])} ({esc(C["matricula_entidad"])}). La información de este sitio es orientativa y no reemplaza una consulta profesional. Ante una emergencia, llamá al 911.</p>
-      <p><a href="/privacidad/">Privacidad</a></p>
+      <p><a href="/mapa-del-sitio/">Mapa del sitio</a> · <a href="/privacidad/">Privacidad</a></p>
     </div>
   </div>
 </footer>'''
@@ -660,6 +660,55 @@ def bloque_asistente():
     <a class="boton boton--whatsapp asistente__enviar" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="asistente">{ICON["whatsapp"]} Enviar por WhatsApp</a>
   </form>
 </section>'''
+
+
+def bloque_compartir(titulo, ruta):
+    from urllib.parse import quote
+    url = f"{URL}{ruta}"
+    wa_txt = quote(f"{titulo} — {url}")
+    return f'''<div class="compartir" aria-label="Compartir este artículo">
+  <p class="compartir__titulo">¿Te sirvió? Compartilo con alguien a quien pueda ayudarle</p>
+  <div class="compartir__acciones">
+    <a class="compartir__boton" href="https://wa.me/?text={wa_txt}" target="_blank" rel="noopener" data-ubicacion="compartir">{ICON["whatsapp"]}<span>WhatsApp</span></a>
+    <button class="compartir__boton" type="button" data-copiar="{url}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><span>Copiar enlace</span></button>
+    <button class="compartir__boton compartir__nativo" type="button" data-compartir="{url}" data-titulo="{esc(titulo)}" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Más opciones</span></button>
+  </div>
+  <p class="compartir__estado" role="status" aria-live="polite"></p>
+</div>'''
+
+
+def indice_articulo(html_md):
+    hs = [(i, t) for i, t in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', html_md) if i not in ("para-seguir-leyendo", "preguntas-frecuentes")]
+    if len(hs) < 4:
+        return ""
+    items = "".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in hs)
+    return f'<details class="indice-articulo" open><summary class="indice-articulo__titulo">En este artículo</summary><ol>{items}</ol></details>'
+
+
+def leer_mas(slugs):
+    arts = [a for s_ in slugs for a in ARTICULOS if a["archivo"][:-3] == s_ and (a["publicado"] or BORRADORES)]
+    if not arts:
+        return ""
+    items = "".join(f'''<article class="articulo-tarjeta">
+  <a class="articulo-tarjeta__cat" href="{ruta_categoria(a["categoria"])}">{esc(a["categoria"])}</a>
+  <h3><a href="{a["ruta"]}">{esc(a["titulo"])}</a></h3>
+  <p>{esc(a["resumen"])}</p>
+</article>''' for a in arts)
+    return f'''<section class="seccion seccion--papel leer-mas" aria-labelledby="titulo-leer-mas"><div class="contenedor">
+  <div class="encabezado-seccion revelar"><p class="antetitulo">Recursos</p><h2 id="titulo-leer-mas">Para seguir <em>pensándolo</em></h2></div>
+  <div class="articulos">{items}</div>
+</div></section>'''
+
+
+def minificar_css(css):
+    partes = re.split(r"(\"(?:\\.|[^\"\\])*\"|'(?:\\.|[^'\\])*')", css)
+    for i in range(0, len(partes), 2):
+        p = re.sub(r"/\*.*?\*/", "", partes[i], flags=re.S)
+        p = re.sub(r"\s+", " ", p)
+        p = re.sub(r"\s*([{};,>])\s*", r"\1", p)
+        p = p.replace(";}", "}")
+        partes[i] = p
+    return "".join(partes).strip()
 
 
 def barra_movil():
@@ -1010,9 +1059,11 @@ def render_articulo(a):
 <div class="contenedor--texto prosa" style="padding-bottom:var(--sec)">
   {aviso}
   {respuesta_breve(a.get("respuesta"))}
+  {indice_articulo(cuerpo_md)}
   {cuerpo_md}
   {faq_html(faq_items, "Preguntas frecuentes") if faq_items else ""}
   <div class="destacado destacado--aviso"><p>Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).</p></div>
+  {bloque_compartir(a["titulo"], a["ruta"])}
   {relacionados(a)}
   <div class="autor-caja">{SIMBOLO.replace('class="marca__simbolo"', '')}<p><strong>{esc(NOMBRE_COMPLETO)}</strong><br>Psicólogo clínico, {esc(C["matricula"])}. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. <a href="/sobre-mi/">Conocé más sobre mí</a>.</p></div>
   <div style="margin-top:3rem">{bloque_cta("Si este texto te resonó, <em>podemos conversarlo</em>", ubicacion="articulo")}</div>
@@ -1110,15 +1161,28 @@ def construir():
         shutil.rmtree(SALIDA)
     SALIDA.mkdir()
     shutil.copytree(RAIZ / "assets", SALIDA / "assets")
+    css_pub = SALIDA / "assets/css/estilos.css"
+    css_pub.write_text(minificar_css(css_pub.read_text(encoding="utf-8")), encoding="utf-8")
     for extra in ("favicon.svg", "favicon.ico", "apple-touch-icon.png"):
         origen = RAIZ / "assets/img" / extra
         if origen.exists():
             shutil.copy(origen, SALIDA / extra)
 
     mapa = []  # (ruta, prioridad, frecuencia)
+    nombres = {}  # ruta -> nombre legible (mapa del sitio para personas)
+    fechas = {}   # ruta -> última modificación
+    imagenes = {}  # ruta -> imagen principal
     for f in sorted((CONTENIDO / "paginas").glob("*.html")):
         meta, cuerpo = leer_pagina(f)
         ruta = meta["ruta"]
+        og_pag = f'og/pagina-{ruta.strip("/").replace("/", "-")}.jpg'
+        if "og" not in meta and (RAIZ / "assets/img" / og_pag).exists():
+            meta["og"] = og_pag
+        if meta.get("articulos"):
+            cuerpo += leer_mas(meta["articulos"])
+        nombres[ruta] = re.sub(r"<[^>]+>", "", meta.get("h1", meta["titulo"]))
+        fechas[ruta] = meta.get("modificado", HOY)
+        imagenes[ruta] = meta.get("og", "og-inicio.jpg")
         if meta.get("portada", True) and "h1" in meta:
             cuerpo = portada(meta, meta.get("portada_extra", "")) + cuerpo
         html_final = pagina(meta, reemplazos(cuerpo, ruta), ruta)
@@ -1140,6 +1204,9 @@ def construir():
         escribir(a["ruta"], html_a)
         if a["publicado"]:
             mapa.append((a["ruta"], 0.6, "yearly"))
+            nombres[a["ruta"]] = a["titulo"]
+            fechas[a["ruta"]] = a.get("revision", a.get("fecha", HOY))
+            imagenes[a["ruta"]] = meta["og"]
 
     # Páginas por categoría de artículos
     visibles = [a for a in ARTICULOS if a["publicado"] or BORRADORES]
@@ -1157,17 +1224,44 @@ def construir():
 <div style="margin-top:var(--sec)">{bloque_cta()}</div></div></section>'''
         escribir(ruta, pagina(meta, reemplazos(cuerpo, ruta), ruta))
         mapa.append((ruta, 0.5, "monthly"))
+        nombres[ruta] = cat
 
     # IndexNow (Bing y otros): archivo de verificación de la clave
     if C.get("indexnow_key"):
         (SALIDA / f'{C["indexnow_key"]}.txt').write_text(C["indexnow_key"], encoding="utf-8")
 
-    # sitemap.xml
+    # Mapa del sitio para personas
+    grupos = [
+        ("El espacio", ["/", "/sobre-mi/", "/terapia-junguiana/", "/enfoque/", "/glosario-junguiano/", "/opiniones/"]),
+        ("Empezar", ["/primera-consulta/", "/preguntas-frecuentes/", "/contacto/"]),
+        ("Modalidades", ["/psicologo-alta-gracia/", "/psicologo-valle-de-paravachasca/", "/terapia-online/", "/terapia-online-por-pais/"]),
+        ("Para quién", ["/psicologo-para-adolescentes/", "/terapia-para-adultos-mayores/"]),
+        ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
+            "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
+            "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
+        ("Recursos", ["/recursos/"] + [ruta_categoria(c) for c in cats_con]),
+        ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
+    ]
+    bloques_mapa = "".join(
+        f'<section class="mapa-grupo"><h2>{esc(t)}</h2><ul>' + "".join(
+            f'<li><a href="{r}">{esc(nombres.get(r, "Inicio" if r == "/" else r))}</a></li>' for r in rs if r in nombres or r == "/") + "</ul></section>"
+        for t, rs in grupos)
+    nombres["/"] = "Inicio"
+    meta_mapa = {"titulo": "Mapa del sitio | Lic. Nicolás Bongiorno, psicólogo", "descripcion": "Todas las páginas del sitio del Lic. Nicolás Raúl Bongiorno: enfoque, motivos de consulta, modalidades, recursos y artículos.",
+                 "migas": [("Mapa del sitio", "/mapa-del-sitio/")], "con_consultorio": False, "antetitulo": "Navegación", "h1": "Mapa del <em>sitio</em>",
+                 "bajada": "Todas las páginas, ordenadas por tema."}
+    cuerpo_mapa = portada(meta_mapa) + f'<section class="seccion" style="padding-top:0"><div class="contenedor mapa-sitio">{bloques_mapa}</div></section>'
+    escribir("/mapa-del-sitio/", pagina(meta_mapa, reemplazos(cuerpo_mapa, "/mapa-del-sitio/"), "/mapa-del-sitio/"))
+    mapa.append(("/mapa-del-sitio/", 0.3, "monthly"))
+
+    # sitemap.xml (con fecha de modificación por página e imagen principal)
     urls = "\n".join(
-        f"  <url><loc>{URL}{r}</loc><lastmod>{HOY}</lastmod><changefreq>{fr}</changefreq><priority>{p}</priority></url>"
+        f"  <url><loc>{URL}{r}</loc><lastmod>{fechas.get(r, HOY)}</lastmod><changefreq>{fr}</changefreq><priority>{p}</priority>"
+        f"<image:image><image:loc>{URL}/assets/img/{imagenes.get(r, 'og-inicio.jpg')}</image:loc></image:image></url>"
         for r, p, fr in mapa)
     (SALIDA / "sitemap.xml").write_text(
-        f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}\n</urlset>\n', encoding="utf-8")
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        f'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n{{urls}}\n</urlset>\n'.replace("{urls}", urls), encoding="utf-8")
 
     # robots.txt (se permite explícitamente a buscadores y asistentes de IA)
     (SALIDA / "robots.txt").write_text(
@@ -1290,6 +1384,7 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         "Permissions-Policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "X-Frame-Options": "DENY",
+        "Cross-Origin-Opener-Policy": "same-origin",
     }
     vercel = {
         "cleanUrls": True, "trailingSlash": True,

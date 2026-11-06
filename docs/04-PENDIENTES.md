@@ -72,3 +72,9 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 - `node herramientas/generar_og_articulos.js`: imagen para compartir de cada artículo (correr al sumar artículos).
 - `node herramientas/generar_diario.js`: regenera el Diario de sueños (por ejemplo, al cambiar de dominio).
 - `python3 herramientas/indexnow.py`: avisa a Bing de todas las URL (lo hace GitHub Actions solo).
+
+## G. Mejoras de experiencia (6 de noviembre de 2026)
+
+Hechas: compartir artículos (WhatsApp, copiar enlace, menú nativo), índice en artículos largos, artículos relacionados en las páginas de motivos y población, buscador en Recursos (también por enlace: `/recursos/?q=duelo`), imagen propia para compartir cada página, mapa del sitio para personas, sitemap con fechas e imágenes, 404 con accesos útiles, CSS minificado, versión para imprimir.
+
+Herramienta nueva: `node herramientas/generar_og_paginas.js` (regenera las imágenes para compartir de las páginas).

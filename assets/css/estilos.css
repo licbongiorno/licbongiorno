@@ -973,3 +973,50 @@ a.articulo-tarjeta__cat:hover { text-decoration: underline; }
   .wa-burbuja { transition: none; }
 }
 @media (hover: none) { .boton { --magx: 0px; --magy: 0px; } }
+
+/* ==========================================================================
+   Compartir, índice, buscador, mapa del sitio, 404 e impresión
+   ========================================================================== */
+.compartir { margin: 3rem 0 0; padding: 1.5rem; border-radius: var(--r-m); border: 1px solid var(--linea); background: var(--papel); }
+.compartir__titulo { margin: 0 0 1rem !important; font-family: var(--f-display); font-size: 1.15rem; }
+.compartir__acciones { display: flex; flex-wrap: wrap; gap: .5rem; }
+.compartir__boton { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; padding: .55rem 1rem; border-radius: 999px; border: 1px solid rgba(38,36,31,.22); background: var(--beige); font-family: var(--f-sans); font-size: .85rem; font-weight: 500; color: var(--tinta); text-decoration: none; cursor: pointer; transition: background-color .25s, border-color .25s, transform .3s var(--ease-out); }
+.compartir__boton svg { width: 18px; height: 18px; }
+.compartir__boton:hover { background: #fff; border-color: var(--salvia-profunda); color: var(--tinta); transform: translateY(-1px); }
+.compartir__boton.copiado { background: var(--salvia-profunda); border-color: var(--salvia-profunda); color: #F7F4EE; }
+.compartir__estado { margin: .6rem 0 0 !important; font-family: var(--f-sans); font-size: .8rem; color: var(--salvia-profunda); min-height: 1.2em; }
+
+.indice-articulo { margin: 0 0 2.5rem; padding: 1.1rem 1.4rem; border-radius: var(--r-m); border: 1px solid var(--linea); background: var(--papel); }
+.indice-articulo summary { cursor: pointer; font-family: var(--f-sans); font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--salvia-profunda); }
+.indice-articulo ol { margin: .9rem 0 0 !important; padding-left: 1.2rem; font-size: var(--t-sm); }
+.indice-articulo li { margin: .3rem 0; }
+.indice-articulo a { color: var(--tinta-suave); text-decoration: none; transition: color .2s; }
+.indice-articulo a:hover, .indice-articulo a.activo { color: var(--salvia-profunda); }
+.indice-articulo a.activo { font-weight: 600; }
+
+.buscador { position: relative; max-width: 34rem; margin: 0 0 1.5rem; }
+.buscador svg { position: absolute; left: 1rem; top: 27px; width: 20px; height: 20px; transform: translateY(-50%); color: var(--piedra-oscura); pointer-events: none; }
+.buscador input { width: 100%; min-height: 54px; padding: .8rem 1rem .8rem 2.9rem; border-radius: 999px; border: 1px solid rgba(38,36,31,.22); background: var(--papel); font-family: var(--f-sans); font-size: 1rem; color: var(--tinta); transition: border-color .2s, box-shadow .25s, background-color .2s; }
+.buscador input:focus { outline: none; border-color: var(--salvia-profunda); background: #fff; box-shadow: 0 0 0 3px rgba(163,177,138,.35); }
+.buscador__estado { display: block; margin-top: .5rem; padding-left: 1rem; font-family: var(--f-sans); font-size: .82rem; color: var(--piedra-oscura); min-height: 1.2em; }
+.articulo-tarjeta[hidden] { display: none; }
+
+.mapa-sitio { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 2rem 2.5rem; }
+.mapa-grupo h2 { font-size: 1.35rem; margin-bottom: .8rem; }
+.mapa-grupo ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .45rem; font-size: var(--t-sm); }
+.mapa-grupo a { color: var(--tinta-suave); }
+.mapa-grupo a:hover { color: var(--salvia-profunda); }
+.lista-404 { list-style: none; padding: 0; display: grid; gap: .6rem; }
+.lista-404 a { font-family: var(--f-display); font-size: 1.25rem; text-decoration: none; color: var(--tinta); }
+.lista-404 a:hover { color: var(--salvia-profunda); }
+
+@media print {
+  .barra-movil, .wa-burbuja, .compartir, .relacionados, .cta, .asistente, .indice-articulo, .progreso-lectura, .portada__deco, .migas, .leer-mas, .autor-caja + div { display: none !important; }
+  .pie { background: #fff; color: #26241F; padding: 1rem 0; }
+  .pie .pie__grilla, .pie .redes { display: none; }
+  .prosa a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .8em; color: #6B6862; word-break: break-all; }
+  .js .revelar, .frase-viva .palabra { opacity: 1 !important; transform: none !important; color: inherit !important; }
+  .respuesta-breve, .destacado { border: 1px solid #ccc; background: #fff; }
+  h1, h2, h3 { break-after: avoid; }
+  p, li, blockquote { orphans: 3; widows: 3; }
+}

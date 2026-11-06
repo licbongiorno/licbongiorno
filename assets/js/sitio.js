@@ -468,6 +468,58 @@
     }
   }
 
+  /* ---------- Compartir: copiar enlace y menú nativo ---------- */
+  document.querySelectorAll(".compartir").forEach(function (bloque) {
+    var est = bloque.querySelector(".compartir__estado");
+    var copiar = bloque.querySelector("[data-copiar]");
+    var nativo = bloque.querySelector("[data-compartir]");
+    if (copiar) copiar.addEventListener("click", function () {
+      var url = copiar.getAttribute("data-copiar");
+      var listo = function () { copiar.classList.add("copiado"); est.textContent = "Enlace copiado"; setTimeout(function () { copiar.classList.remove("copiado"); est.textContent = ""; }, 2400); evento("compartir", { metodo: "copiar" }); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(listo, function () { window.prompt("Copiá el enlace:", url); });
+      else window.prompt("Copiá el enlace:", url);
+    });
+    if (nativo && navigator.share) {
+      nativo.hidden = false;
+      nativo.addEventListener("click", function () {
+        navigator.share({ title: nativo.getAttribute("data-titulo"), url: nativo.getAttribute("data-compartir") }).then(function () { evento("compartir", { metodo: "nativo" }); }, function () {});
+      });
+    }
+  });
+
+  /* ---------- Buscador de artículos (Recursos) ---------- */
+  var buscador = document.getElementById("buscar-articulos");
+  if (buscador) {
+    var tarjetas = document.querySelectorAll(".articulos .articulo-tarjeta");
+    var estadoB = document.getElementById("buscar-estado");
+    var normal = function (t) { return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); };
+    var textos = Array.prototype.map.call(tarjetas, function (t) { return normal(t.textContent); });
+    var filtrar = function () {
+      var q = normal(buscador.value.trim()), n = 0;
+      tarjetas.forEach(function (t, i) {
+        var ve = !q || q.split(/\s+/).every(function (p) { return textos[i].indexOf(p) > -1; });
+        t.hidden = !ve; if (ve) n++;
+      });
+      estadoB.textContent = q ? (n ? n + (n === 1 ? " artículo" : " artículos") : "Sin resultados. Probá con otra palabra.") : "";
+    };
+    buscador.addEventListener("input", filtrar);
+    var qInicial = new URLSearchParams(location.search).get("q");
+    if (qInicial) { buscador.value = qInicial; filtrar(); }
+  }
+
+  /* ---------- Índice del artículo: resalta la sección en lectura ---------- */
+  var indice = document.querySelector(".indice-articulo");
+  if (indice && "IntersectionObserver" in window) {
+    var enlacesI = indice.querySelectorAll("a");
+    var ioI = new IntersectionObserver(function (es) {
+      es.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        enlacesI.forEach(function (a) { a.classList.toggle("activo", a.getAttribute("href") === "#" + en.target.id); });
+      });
+    }, { rootMargin: "-20% 0px -70% 0px" });
+    enlacesI.forEach(function (a) { var h = document.getElementById(a.getAttribute("href").slice(1)); if (h) ioI.observe(h); });
+  }
+
   /* ---------- Medición de clics de contacto (si hay GA4 con consentimiento) ---------- */
   function evento(nombre, params) { if (typeof window.gtag === "function") window.gtag("event", nombre, params || {}); }
   document.addEventListener("click", function (e) {

@@ -12,6 +12,12 @@
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
+    <div class="buscador revelar" role="search">
+      <label for="buscar-articulos" class="visualmente-oculto">Buscar artículos</label>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+      <input id="buscar-articulos" type="search" placeholder="Buscar: ansiedad, sueños, duelo, Jung…" autocomplete="off" aria-describedby="buscar-estado">
+      <span class="buscador__estado" id="buscar-estado" aria-live="polite"></span>
+    </div>
     {{> categorias}}
     <h2 class="visualmente-oculto">Artículos</h2>
     <div class="descarga revelar" style="margin-bottom:2rem"><p><strong>Diario de sueños</strong>Un cuaderno para imprimir, con una guía para registrar tus sueños, sus emociones y lo que te evocan. Gratis y sin dejar datos.</p><a class="boton boton--secundario boton--chico" href="/assets/descargas/diario-de-suenos.pdf" download>Descargar PDF</a></div>

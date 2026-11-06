@@ -61,7 +61,7 @@ class Analizador(HTMLParser):
             self.imgs.append(a)
         elif tag == "script" and a.get("type") == "application/ld+json":
             self._en_ld, self._buf = True, ""
-        elif tag == "summary":
+        elif tag == "summary" and "indice-articulo__titulo" not in (a.get("class") or ""):
             self._en_summary, self._buf_s = True, ""
 
     def handle_endtag(self, tag):
@@ -70,7 +70,7 @@ class Analizador(HTMLParser):
         elif tag == "script" and self._en_ld:
             self._en_ld = False
             self.jsonld.append(self._buf)
-        elif tag == "summary":
+        elif tag == "summary" and self._en_summary:
             self._en_summary = False
             self.summaries.append(self._buf_s.strip())
 
