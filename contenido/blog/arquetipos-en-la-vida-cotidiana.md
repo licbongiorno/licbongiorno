@@ -42,6 +42,7 @@ Para Jung, un arquetipo es un patrón universal de experiencia que forma parte d
 
 Identificar qué arquetipo está activo en un momento de la vida ayuda a comprender reacciones intensas, elecciones repetidas o crisis que parecen no tener explicación. Es como descubrir que la obra que venías actuando tiene un guion antiguo, y que podés, por fin, elegir qué papel querés seguir interpretando. En terapia junguiana, ese reconocimiento es parte del camino de la [individuación](/glosario-junguiano/#individuacion).
 
+Para explorar qué figuras se repiten en tu vida, te espera el [laboratorio de sombra y arquetipos](/laboratorio-de-sombra-y-arquetipos/).
 
 ## Preguntas frecuentes
 

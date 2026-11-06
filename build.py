@@ -301,6 +301,22 @@ LABORATORIOS = [
      "descripcion": "Elegí y ordená tus valores, armá tu brújula y tu rueda de la vida."},
     {"titulo": "Laboratorio de aprender a aprender", "ruta": "/laboratorio-de-aprender-a-aprender/", "tipo": "Aprendizaje",
      "descripcion": "Mitos y evidencia, evocación activa, repasos espaciados para tu calendario y una autoevaluación."},
+    {"titulo": "Laboratorio de ansiedad y preocupación", "ruta": "/laboratorio-de-ansiedad/", "tipo": "Ansiedad",
+     "descripcion": "Preocupación útil o rumiación, descatastrofizar, registro de pensamientos y escalera de exposición."},
+    {"titulo": "Laboratorio de autoestima y autocompasión", "ruta": "/laboratorio-de-autocompasion/", "tipo": "Autoestima",
+     "descripcion": "Reescribir la voz crítica, una pausa de autocompasión, una carta para vos y un registro de logros."},
+    {"titulo": "Laboratorio de vínculos y límites", "ruta": "/laboratorio-de-vinculos/", "tipo": "Vínculos",
+     "descripcion": "Tu mapa de vínculos, señales de alarma, cómo decir que no y tu forma de vincularte."},
+    {"titulo": "Laboratorio de duelo", "ruta": "/laboratorio-de-duelo/", "tipo": "Pérdidas",
+     "descripcion": "El ir y venir del duelo, una carta a quien ya no está, lo que te dejó, rituales y fechas difíciles."},
+    {"titulo": "Laboratorio de sombra y arquetipos", "ruta": "/laboratorio-de-sombra-y-arquetipos/", "tipo": "Jung",
+     "descripcion": "Lo que te molesta en otros, la sombra dorada, tus arquetipos y la máscara que mostrás."},
+    {"titulo": "Laboratorio de estrés y agotamiento", "ruta": "/laboratorio-de-estres/", "tipo": "Estrés",
+     "descripcion": "Un semáforo de señales, tu mapa de cargas, micro pausas y un límite en el trabajo."},
+    {"titulo": "Laboratorio de descanso y sueño", "ruta": "/laboratorio-de-descanso/", "tipo": "Sueño",
+     "descripcion": "Mitos del dormir, hábitos que ayudan, un diario de sueño y pasos para la mente que no para."},
+    {"titulo": "Laboratorio de hábitos y pequeños cambios", "ruta": "/laboratorio-de-habitos/", "tipo": "Cambio",
+     "descripcion": "Cuánto tarda un hábito, planes «cuando… voy a…», empezar pequeño, tu racha de 30 días y tres cosas buenas."},
 ]
 
 

@@ -203,7 +203,7 @@
   LAB.textoFormulario = function (form) {
     var lineas = [form.getAttribute("data-lab-form-titulo") || document.title, ""];
     form.querySelectorAll("input, textarea, select").forEach(function (c) {
-      if (c.type === "button" || c.type === "submit" || c.type === "reset") return;
+      if (c.type === "button" || c.type === "submit" || c.type === "reset" || c.hasAttribute("data-lle-entrada")) return;
       if ((c.type === "checkbox" || c.type === "radio") && !c.checked) return;
       var v = (c.type === "checkbox" || c.type === "radio") ? (c.closest("label") ? c.closest("label").textContent.trim() : c.value) : c.value.trim();
       if (!v) return;
@@ -211,6 +211,12 @@
       var nombre = lab ? lab.textContent.trim() : (c.closest("fieldset") && c.closest("fieldset").querySelector("legend") ? c.closest("fieldset").querySelector("legend").textContent.trim() : "");
       lineas.push((nombre && !(c.type === "checkbox" || c.type === "radio") ? nombre + "\n" : "") + (c.type === "checkbox" ? "✓ " : "") + v);
       if (!(c.type === "checkbox")) lineas.push("");
+    });
+    form.querySelectorAll("[data-lab-lista-editable]").forEach(function (l) {
+      var items = l.querySelectorAll("[data-lle-texto]");
+      if (!items.length) return;
+      lineas.push("", l.getAttribute("data-lab-lista-titulo") || "Lista");
+      items.forEach(function (it, k) { lineas.push((k + 1) + ". " + it.textContent); });
     });
     return lineas.join("\n").replace(/\n{3,}/g, "\n\n").trim() + "\n";
   };
@@ -228,6 +234,63 @@
       if (vacio()) { if (aviso) aviso.textContent = "Todavía no hay nada escrito para copiar."; return; }
       LAB.copiar(LAB.textoFormulario(form), copiar);
     });
+  });
+
+  /* Listas editables: <div data-lab-lista-editable data-lab-lista-titulo="…"> con un input [data-lle-entrada] (con su label),
+     un botón [data-lle-agregar] y un <ol data-lle-lista>. Cada ítem se puede subir, bajar o quitar. */
+  document.querySelectorAll("[data-lab-lista-editable]").forEach(function (caja) {
+    var entrada = caja.querySelector("[data-lle-entrada]"), lista = caja.querySelector("[data-lle-lista]");
+    var estado = document.createElement("p");
+    estado.className = "visualmente-oculto"; estado.setAttribute("role", "status");
+    caja.appendChild(estado);
+    var pintar = function (foco) {
+      var items = lista.querySelectorAll("li");
+      items.forEach(function (li, k) {
+        li.querySelector('[data-lle="-1"]').disabled = k === 0;
+        li.querySelector('[data-lle="1"]').disabled = k === items.length - 1;
+      });
+      caja.classList.toggle("tiene-items", items.length > 0);
+      if (foco) { var b = foco.querySelector('[data-lle]:not(:disabled)'); if (b) b.focus(); }
+    };
+    var crear = function (texto) {
+      var li = document.createElement("li");
+      li.className = "lab-orden__item";
+      li.innerHTML = '<span class="lab-orden__nombre" data-lle-texto></span><span class="lab-orden__botones">' +
+        '<button type="button" class="lab-orden__btn" data-lle="-1"><span aria-hidden="true">↑</span><span class="visualmente-oculto">Subir</span></button>' +
+        '<button type="button" class="lab-orden__btn" data-lle="1"><span aria-hidden="true">↓</span><span class="visualmente-oculto">Bajar</span></button>' +
+        '<button type="button" class="lab-orden__btn" data-lle="x"><span aria-hidden="true">×</span><span class="visualmente-oculto">Quitar</span></button></span>';
+      li.querySelector("[data-lle-texto]").textContent = texto;
+      li.querySelectorAll(".visualmente-oculto").forEach(function (v) { v.textContent += " «" + texto + "»"; });
+      return li;
+    };
+    var agregar = function () {
+      var t = entrada.value.trim();
+      if (!t) { entrada.focus(); return; }
+      lista.appendChild(crear(t)); entrada.value = ""; entrada.focus();
+      estado.textContent = "Agregado: " + t + ".";
+      pintar();
+    };
+    caja.querySelector("[data-lle-agregar]").addEventListener("click", agregar);
+    entrada.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); agregar(); } });
+    lista.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-lle]");
+      if (!b) return;
+      var li = b.closest("li"), accion = b.getAttribute("data-lle"), t = li.querySelector("[data-lle-texto]").textContent;
+      if (accion === "x") {
+        var vecino = li.nextElementSibling || li.previousElementSibling;
+        li.remove(); estado.textContent = "Quitado: " + t + ".";
+        pintar(); if (vecino) { var bb = vecino.querySelector('[data-lle="x"]'); if (bb) bb.focus(); } else entrada.focus();
+        return;
+      }
+      if (accion === "-1" && li.previousElementSibling) lista.insertBefore(li, li.previousElementSibling);
+      if (accion === "1" && li.nextElementSibling) lista.insertBefore(li.nextElementSibling, li);
+      var pos = Array.prototype.indexOf.call(lista.children, li) + 1;
+      estado.textContent = t + " quedó en el puesto " + pos + ".";
+      pintar(); var mismo = li.querySelector('[data-lle="' + accion + '"]'); if (mismo && !mismo.disabled) mismo.focus(); else pintar(li);
+    });
+    var form = caja.closest("form");
+    if (form) form.addEventListener("reset", function () { lista.innerHTML = ""; pintar(); });
+    pintar();
   });
 
   /* Campana suave con Web Audio (solo suena después de un toque de la persona). */

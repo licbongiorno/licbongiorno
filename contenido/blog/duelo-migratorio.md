@@ -46,6 +46,7 @@ A diferencia de otros duelos, lo perdido sigue existiendo: se puede volver de vi
 
 Hacer terapia en español, con alguien que comparte tus códigos culturales, puede facilitar mucho este proceso. La [terapia online](/terapia-online/) permite sostener ese espacio desde cualquier país, con el mismo cuidado que en un consultorio. Porque migrar no es arrancar raíces: es aprender a que crezcan en dos tierras a la vez.
 
+Para acompañar una pérdida con ejercicios suaves, te espera el [laboratorio de duelo](/laboratorio-de-duelo/).
 
 ## Preguntas frecuentes
 

@@ -45,6 +45,8 @@ En terapia se trata de distinguir la responsabilidad real de la culpa heredada; 
 
 Perdonarse no es justificarse. Es, a veces, el acto más honesto que podemos hacer con nosotros mismos.
 
+Para practicar una forma más amable de hablarte, te espera el [laboratorio de autoestima y autocompasión](/laboratorio-de-autocompasion/).
+
 ## Preguntas frecuentes
 
 ### ¿Es normal sentir culpa por todo?

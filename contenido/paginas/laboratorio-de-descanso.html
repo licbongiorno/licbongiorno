@@ -1,0 +1,121 @@
+<!--{
+  "ruta": "/laboratorio-de-descanso/",
+  "titulo": "Laboratorio de descanso y sueño: dormir mejor",
+  "descripcion": "Mitos y verdades sobre el dormir, hábitos que ayudan, un diario de sueño que calcula tus horas y pasos guiados para cuando la mente no para de noche.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Descanso y sueño", "/laboratorio-de-descanso/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>descanso y sueño</em>",
+  "bajada": "Para las noches en que el cuerpo está cansado y la cabeza no se apaga. Lo que dice la evidencia sobre el sueño y ejercicios para darle una mano.",
+  "respuesta": "El laboratorio de descanso y sueño reúne un quiz de mitos sobre el dormir, una lista de hábitos de higiene del sueño, un diario de sueño que calcula el tiempo en la cama y el tiempo dormido, y pasos guiados para cuando la mente no para a la noche. Se basa en principios de la terapia cognitivo-conductual para el insomnio. No reemplaza una consulta médica.",
+  "scripts": ["lab-base.js", "laboratorio-descanso.js"],
+  "wa_tema": "el laboratorio de descanso",
+  "articulos": ["ansiedad-cuando-el-cuerpo-habla", "la-memoria", "como-saber-si-necesito-terapia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que «no sabés dormir». Es la cabeza que, apenas apagás la luz, decide repasar todo lo pendiente, la conversación de ayer y lo que podría salir mal mañana. Es mirar la hora a las tres y hacer cuentas de cuánto te queda. Y cuanto más querés dormirte, más te despertás.</p>
+        <p>El sueño no se fuerza: se prepara. La terapia cognitivo-conductual para el insomnio, que es el tratamiento con más evidencia, trabaja justamente sobre los hábitos y los pensamientos que rodean la noche. Este laboratorio toma algunos de sus principios. Si la <a href="/ansiedad-y-ataques-de-panico/">ansiedad</a> es la que no te deja dormir, también te puede servir el <a href="/laboratorio-de-ansiedad/">laboratorio de ansiedad</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin presión.</strong> Dormir mal una noche no es un desastre.</li>
+        <li><strong>Sin registro.</strong> Tus datos quedan en tu dispositivo.</li>
+        <li><strong>Con constancia.</strong> Los cambios en el sueño tardan unas semanas en notarse.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mitos">Mitos del dormir</a>
+      <a href="#habitos">Hábitos que ayudan</a>
+      <a href="#diario">Diario de sueño</a>
+      <a href="#mente">La mente que no para</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mitos">Mitos del dormir</h2>
+      <p class="lab-estacion__bajada">Muchas cosas que hacemos para dormir mejor, en realidad, empeoran el sueño. ¿Verdad o mito?</p>
+      <div class="lab-tarjeta" data-lab-quiz="dormir">
+        <p class="lab-tarjeta__titulo">¿Qué es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Verdad</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Mito</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="habitos" aria-labelledby="t-habitos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-habitos">Hábitos que ayudan</h2>
+      <p class="lab-estacion__bajada">Marcá los que cumpliste hoy. No hace falta hacerlos todos: elegí dos o tres para empezar.</p>
+      <div class="lab-tarjeta" data-lab-plan="descanso-habitos" data-lab-plan-unidad="">
+        <ul class="lab-plan">
+          <li><label><input type="checkbox" value="hora"> <span><strong>Me levanté a la misma hora</strong> que los otros días, incluso si dormí mal.</span></label></li>
+          <li><label><input type="checkbox" value="luz"> <span><strong>Tomé luz natural</strong> a la mañana, aunque sea diez minutos.</span></label></li>
+          <li><label><input type="checkbox" value="cafe"> <span><strong>Nada de café, mate ni bebidas cola</strong> después de las 16.</span></label></li>
+          <li><label><input type="checkbox" value="mover"> <span><strong>Me moví</strong> durante el día (no justo antes de dormir).</span></label></li>
+          <li><label><input type="checkbox" value="pantallas"> <span><strong>Dejé las pantallas</strong> un rato antes de acostarme.</span></label></li>
+          <li><label><input type="checkbox" value="cama"> <span><strong>Usé la cama solo para dormir</strong> (y para la intimidad), no para trabajar ni mirar series.</span></label></li>
+          <li><label><input type="checkbox" value="levantarme"> <span><strong>Si no me dormía en un rato, me levanté</strong> y volví cuando tuve sueño.</span></label></li>
+          <li><label><input type="checkbox" value="alcohol"> <span><strong>Evité el alcohol</strong> a la noche: ayuda a dormirse, pero fragmenta el sueño.</span></label></li>
+        </ul>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 8</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar un día nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="diario" aria-labelledby="t-diario">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-diario">Diario de sueño</h2>
+      <p class="lab-estacion__bajada">Completalo a la mañana, sin mirar el reloj durante la noche: una estimación alcanza. Llevarlo una o dos semanas muestra patrones, y es muy útil si consultás a un profesional.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="diario-de-sueno" data-lab-form-titulo="Diario de sueño" data-sueno novalidate>
+        <div class="lab-tabla2">
+          <div><label for="ds-acoste">Me acosté a las</label><input class="lab-campo" id="ds-acoste" type="time"></div>
+          <div><label for="ds-levante">Me levanté a las</label><input class="lab-campo" id="ds-levante" type="time"></div>
+          <div><label for="ds-tarde">Tardé en dormirme (minutos, aproximado)</label><input class="lab-campo" id="ds-tarde" type="number" min="0" inputmode="numeric"></div>
+          <div><label for="ds-despierto">Tiempo despierto durante la noche (minutos)</label><input class="lab-campo" id="ds-despierto" type="number" min="0" inputmode="numeric"></div>
+        </div>
+        <div class="lab-resultado" style="margin-top:1rem"><p class="lab-tarjeta__titulo">Tu noche</p><p data-ds-resultado aria-live="polite">Completá los horarios para ver el cálculo.</p></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-calidad">¿Cómo dormí? ¿Cómo me levanté?</label><input class="lab-campo" id="ds-calidad" type="text" placeholder="Por ejemplo: cortado, me levanté cansado" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-notas">Antes de dormir (café, pantallas, preocupaciones, siesta…)</label><textarea class="lab-texto" id="ds-notas" rows="2"></textarea></div>
+        <input type="hidden" id="ds-calculo" data-ds-oculto>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Nueva noche</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mente" aria-labelledby="t-mente">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mente">La mente que no para</h2>
+      <p class="lab-estacion__bajada">Para hacer un rato antes de acostarte, o si te desvelás. Con la luz baja y el celular lejos de la cama (podés leer estos pasos antes).</p>
+      <div class="lab-tarjeta" data-lab-pasos>
+        <ol class="lab-pasos">
+          <li><strong>Descargá la cabeza.</strong> En un papel, escribí todo lo que te da vueltas: pendientes, preocupaciones, ideas. Al lado de cada una, un primer paso para mañana. Cerrá el cuaderno.</li>
+          <li><strong>Bajá el ritmo.</strong> Respirá inhalando en cuatro tiempos y exhalando en seis, durante unos minutos.</li>
+          <li><strong>Soltá el cuerpo.</strong> Recorré el cuerpo de los pies a la cabeza, aflojando cada parte: piernas, panza, hombros, mandíbula, frente.</li>
+          <li><strong>Una imagen tranquila.</strong> Imaginá con detalle un lugar donde te sentiste en paz: los colores, los sonidos, la temperatura.</li>
+          <li><strong>Si no te dormís,</strong> no pelees: levantate, andá a otra habitación con luz tenue y hacé algo aburrido hasta que vuelva el sueño.</li>
+        </ol>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Consultá con tu médico si el insomnio dura más de tres meses, si roncás fuerte o alguien nota que dejás de respirar mientras dormís, si tenés mucho sueño durante el día o si el problema empezó con un medicamento. El insomnio también puede ser parte de la ansiedad o de la depresión: si es así, conviene tratarlo en conjunto. Podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Morin, C. M. y Espie, C. A. (2003). <em>Insomnia: A Clinical Guide to Assessment and Treatment</em>. Springer.</li>
+        <li>Walker, M. (2017). <em>Por qué dormimos</em>.</li>
+        <li>Riemann, D. y otros (2017). «European guideline for the diagnosis and treatment of insomnia». <em>Journal of Sleep Research</em>, 26(6).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

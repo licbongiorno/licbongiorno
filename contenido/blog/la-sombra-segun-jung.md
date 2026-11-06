@@ -47,6 +47,7 @@ En el espacio terapéutico, la sombra suele aparecer de a poco: en lo que cuesta
 
 Integrar la sombra no nos hace peores personas. Nos hace más completos, más compasivos con nosotros mismos y, en consecuencia, con los demás. Bajar al sótano da miedo, pero ahí abajo, entre lo que escondimos, suele estar también lo que nos falta para estar enteros.
 
+Para empezar a explorar tu sombra con ejercicios, probá el [laboratorio de sombra y arquetipos](/laboratorio-de-sombra-y-arquetipos/).
 
 ## Preguntas frecuentes
 

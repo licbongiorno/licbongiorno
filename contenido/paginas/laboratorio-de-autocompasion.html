@@ -1,0 +1,148 @@
+<!--{
+  "ruta": "/laboratorio-de-autocompasion/",
+  "titulo": "Laboratorio de autoestima y autocompasión",
+  "descripcion": "Ejercicios para tratarte con más amabilidad: los tres componentes de la autocompasión, reescribir la voz crítica, una carta para vos y un registro de logros.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Autoestima y autocompasión", "/laboratorio-de-autocompasion/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>autoestima y autocompasión</em>",
+  "bajada": "Hablarte como le hablarías a alguien que querés. Ejercicios para aflojar la voz crítica y construir una relación más amable con vos.",
+  "respuesta": "El laboratorio de autoestima y autocompasión propone ejercicios basados en el trabajo de la psicóloga Kristin Neff: los tres componentes de la autocompasión (amabilidad con uno mismo, humanidad compartida y atención plena), reescribir la voz crítica, escribir una carta compasiva, registrar logros y cualidades, y una pausa de autocompasión guiada.",
+  "scripts": ["lab-base.js"],
+  "wa_tema": "el laboratorio de autocompasión",
+  "articulos": ["la-culpa", "mecanismos-de-defensa", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es tenerse lástima ni conformarse con poco. Es eso que hacés sin pensar cuando un amigo te cuenta que se equivocó: lo escuchás, le decís que le pasa a cualquiera, lo ayudás a ver qué puede hacer. Ahora pensá cómo te hablás a vos cuando te equivocás. La diferencia suele ser enorme.</p>
+        <p>La psicóloga Kristin Neff estudió la <strong>autocompasión</strong>: tratarse con la misma amabilidad que a alguien querido. Sus investigaciones muestran que no vuelve a las personas más vagas ni complacientes; al contrario, se asocia con más motivación para mejorar y menos miedo al fracaso. La <a href="/autoestima/">autoestima</a> que depende de ser siempre el mejor es frágil; la que se apoya en tratarse bien, mucho más estable.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Puede sentirse raro.</strong> Si nunca te hablaste así, al principio cuesta. Es normal.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin exigencia.</strong> Ni siquiera la autocompasión se hace «perfecta».</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#componentes">Los tres componentes</a>
+      <a href="#voz-critica">La voz crítica</a>
+      <a href="#pausa">Pausa de autocompasión</a>
+      <a href="#carta">Una carta para vos</a>
+      <a href="#logros">Registro de logros</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="componentes" aria-labelledby="t-componentes">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-componentes">Los tres componentes</h2>
+      <p class="lab-estacion__bajada">Para Neff, la autocompasión tiene tres partes, y cada una tiene su opuesto. Elegí una para verla en un ejemplo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un componente">
+          <label class="opcion"><input type="radio" name="ac-comp" value="amabilidad" checked><span>Amabilidad con uno mismo</span></label>
+          <label class="opcion"><input type="radio" name="ac-comp" value="humanidad"><span>Humanidad compartida</span></label>
+          <label class="opcion"><input type="radio" name="ac-comp" value="atencion"><span>Atención plena</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="amabilidad"><p><strong>En lugar de juzgarte con dureza:</strong> tratarte con calidez y comprensión cuando sufrís o fallás.</p><p><em>«Soy un desastre, otra vez lo arruiné»</em> → <em>«Me equivoqué y me duele. Estoy haciendo lo que puedo; mañana lo intento de otra forma.»</em></p></div>
+        <div class="lab-panel" data-lab-panel="humanidad" hidden><p><strong>En lugar de sentirte el único:</strong> recordar que equivocarse y sufrir es parte de la experiencia humana.</p><p><em>«A nadie más le pasa esto, algo está mal conmigo»</em> → <em>«Muchas personas pasan por algo parecido. No estoy solo en esto.»</em></p></div>
+        <div class="lab-panel" data-lab-panel="atencion" hidden><p><strong>En lugar de exagerar o negar lo que sentís:</strong> reconocer el dolor tal como es, sin dramatizarlo ni taparlo.</p><p><em>«Mi vida es una catástrofe» o «no me pasa nada»</em> → <em>«Ahora estoy triste y preocupado. Es un momento difícil.»</em></p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="voz-critica" aria-labelledby="t-critica">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-critica">Reescribir la voz crítica</h2>
+      <p class="lab-estacion__bajada">Escribí, tal cual, lo que te dice tu crítica interna en una situación reciente. Después reescribilo como se lo dirías a un amigo querido que pasa por lo mismo. No es mentirte: es hablarte con verdad y con cariño.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-voz-critica" data-lab-form-titulo="Reescribir la voz crítica" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vc-situacion">La situación</label><input class="lab-campo" id="vc-situacion" type="text" autocomplete="off"></div>
+        <div class="lab-tabla2">
+          <div><label for="vc-critica">Lo que me dice mi crítica interna</label><textarea class="lab-texto" id="vc-critica" rows="5"></textarea></div>
+          <div><label for="vc-amigo">Lo que le diría a un amigo</label><textarea class="lab-texto" id="vc-amigo" rows="5"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vc-tono">¿De quién es esa voz crítica? ¿A quién se parece?</label><textarea class="lab-texto" id="vc-tono" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="pausa" aria-labelledby="t-pausa">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-pausa">Pausa de autocompasión</h2>
+      <p class="lab-estacion__bajada">Un ejercicio breve de Kristin Neff para usar en el momento en que algo duele. Pensá en una situación que te esté pesando y recorré los pasos despacio.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Reconocer.</strong> Decite, en voz baja o mentalmente: «Este es un momento de sufrimiento». O con tus palabras: «esto duele», «esto es difícil».</li>
+          <li><strong>No estás solo.</strong> «El sufrimiento es parte de la vida. Otras personas también se sienten así».</li>
+          <li><strong>Un gesto de cuidado.</strong> Apoyá una mano en el pecho o donde te resulte cómodo, y sentí su calor.</li>
+          <li><strong>Una frase amable.</strong> «Que pueda ser amable conmigo en este momento». Si otra frase te sale más natural, usá esa.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-carta">Una carta para vos</h2>
+      <p class="lab-estacion__bajada">Pensá en algo de vos que no te gusta o que te avergüenza. Ahora imaginá a un amigo que te quiere sin condiciones, que conoce tus fortalezas y tus límites. Escribite una carta desde sus ojos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="carta-para-mi" data-lab-form-titulo="Una carta para mí" novalidate>
+        <ol class="lab-guion">
+          <li>¿Qué te diría sobre eso que te pesa?</li>
+          <li>¿Cómo te recordaría que todos tenemos fallas?</li>
+          <li>¿Qué historia, qué circunstancias tendría en cuenta para comprenderte?</li>
+          <li>¿Qué te sugeriría, con cariño, para cuidarte o para cambiar?</li>
+        </ol>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ca-texto">La carta</label><textarea class="lab-texto" id="ca-texto" rows="10" placeholder="Querido/a…"></textarea></div>
+        <p class="lab-paso__ayuda">Guardala y releela unos días después: muchas veces impacta más la segunda vez.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi carta</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="logros" aria-labelledby="t-logros">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-logros">Registro de logros y cualidades</h2>
+      <p class="lab-estacion__bajada">La mente tiene una memoria envidiable para los errores y muy mala para los aciertos. Este registro equilibra un poco la balanza. Valen cosas chicas: levantarte un día difícil, pedir ayuda, terminar algo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mis-logros" data-lab-form-titulo="Registro de logros y cualidades" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lo-1">Algo que hice hoy y me costó</label><input class="lab-campo" id="lo-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lo-2">Algo que hice bien, aunque sea pequeño</label><input class="lab-campo" id="lo-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lo-3">Una cualidad mía que apareció hoy</label><input class="lab-campo" id="lo-3" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Nuevo día</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="autocompasion">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Escuchar.</strong> Notá cuántas veces te criticás en el día. Solo contalas.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Reescribir</strong> una frase de tu voz crítica.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Pausa.</strong> Hacé la pausa de autocompasión en un momento difícil.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Tres logros.</strong> Completá el registro antes de dormir.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un cuidado.</strong> Hacé algo amable por vos sin «merecerlo».</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. La carta.</strong> Escribite la carta desde los ojos de alguien que te quiere.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Releer.</strong> Volvé a leer la carta y los logros de la semana.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> A veces, cuando empezamos a tratarnos con amabilidad, aparece una tristeza o un dolor viejo que estaba tapado. No es que el ejercicio salga mal: es que algo se está aflojando. Si te pasa con intensidad, conviene trabajarlo acompañado: podés <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Neff, K. (2011). <em>Sé amable contigo mismo: el arte de la compasión hacia uno mismo</em>.</li>
+        <li>Neff, K. (2003). «Self-compassion: An alternative conceptualization of a healthy attitude toward oneself». <em>Self and Identity</em>, 2(2).</li>
+        <li>Breines, J. G. y Chen, S. (2012). «Self-compassion increases self-improvement motivation». <em>Personality and Social Psychology Bulletin</em>, 38(9).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

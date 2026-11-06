@@ -1,0 +1,151 @@
+<!--{
+  "ruta": "/laboratorio-de-estres/",
+  "titulo": "Laboratorio de estrés y agotamiento: ejercicios",
+  "descripcion": "Revisá tus señales de estrés con un semáforo, ordená tus cargas según lo que depende de vos, encontrá micro pausas y prepará un límite en el trabajo.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Estrés y agotamiento", "/laboratorio-de-estres/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>estrés y agotamiento</em>",
+  "bajada": "Para cuando la lista de pendientes crece más rápido que vos. Ejercicios para escuchar las señales del cuerpo, ordenar lo que cargás y recuperar un poco de aire.",
+  "respuesta": "El laboratorio de estrés y agotamiento propone un semáforo de señales físicas, emocionales y conductuales (orientativo, no diagnóstico), un mapa de cargas que separa lo que depende de uno de lo que no, ideas de micro pausas y un armador para poner un límite en el trabajo. Se apoya en la investigación sobre burnout de Christina Maslach.",
+  "scripts": ["lab-base.js", "laboratorio-estres.js"],
+  "wa_tema": "el laboratorio de estrés",
+  "articulos": ["la-motivacion", "la-resiliencia", "ansiedad-cuando-el-cuerpo-habla"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que «no das más» porque seas débil. Es el cuerpo que te avisa con contracturas, insomnio y un cansancio que no se va ni el domingo. Es el mal humor con los que más querés, el café número cuatro, la sensación de estar siempre llegando tarde a tu propia vida. El estrés sostenido no es una falla de carácter: es una señal.</p>
+        <p>La psicóloga Christina Maslach estudió el <strong>agotamiento laboral</strong> o burnout: no es solo cansancio, sino también distancia y cinismo frente a lo que hacemos, y la sensación de que ya nada rinde. Más sobre esto en <a href="/estres-y-agotamiento/">estrés y agotamiento</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Orientativo.</strong> El semáforo ayuda a mirar; no es un diagnóstico.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+        <li><strong>Pequeño y posible.</strong> No hace falta cambiar todo: alcanza con empezar por algo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#semaforo">Semáforo del estrés</a>
+      <a href="#cargas">Mapa de cargas</a>
+      <a href="#pausas">Micro pausas</a>
+      <a href="#limite">Un límite en el trabajo</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="semaforo" aria-labelledby="t-semaforo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-semaforo">Semáforo del estrés</h2>
+      <p class="lab-estacion__bajada">Marcá las señales que notaste con frecuencia en las últimas dos semanas.</p>
+      <div class="lab-tarjeta" data-semaforo>
+        <div class="lab-necesidades">
+          <fieldset class="lab-semaforo__grupo"><legend>En el cuerpo</legend>
+            <label><input type="checkbox"> Cansancio que no se va con el descanso</label>
+            <label><input type="checkbox"> Dolores de cabeza, cuello o espalda</label>
+            <label><input type="checkbox"> Problemas para dormir</label>
+            <label><input type="checkbox"> Cambios en el apetito o la digestión</label>
+            <label><input type="checkbox"> Me enfermo más seguido</label>
+          </fieldset>
+          <fieldset class="lab-semaforo__grupo"><legend>En las emociones</legend>
+            <label><input type="checkbox"> Irritabilidad o mal humor</label>
+            <label><input type="checkbox"> Sensación de estar desbordado</label>
+            <label><input type="checkbox"> Desgano o falta de disfrute</label>
+            <label><input type="checkbox"> Distancia o cinismo frente al trabajo</label>
+            <label><input type="checkbox"> Sensación de que nada de lo que hago alcanza</label>
+          </fieldset>
+          <fieldset class="lab-semaforo__grupo"><legend>En la conducta</legend>
+            <label><input type="checkbox"> Me cuesta concentrarme o me olvido de cosas</label>
+            <label><input type="checkbox"> Dejé de hacer lo que me gustaba</label>
+            <label><input type="checkbox"> Más café, alcohol, comida o pantallas para aguantar</label>
+            <label><input type="checkbox"> Me aíslo de la gente</label>
+            <label><input type="checkbox"> Trabajo fuera de horario casi todos los días</label>
+          </fieldset>
+        </div>
+        <div class="lab-semaforo__resultado" data-semaforo-resultado aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cargas" aria-labelledby="t-cargas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-cargas">Mapa de cargas</h2>
+      <p class="lab-estacion__bajada">Escribí todo lo que te ocupa la cabeza y separalo en dos columnas: lo que depende de vos (aunque sea en parte) y lo que no. Ordenalo por importancia. Gastar energía en lo que no depende de nosotros es una de las fuentes más grandes de agotamiento.</p>
+      <form class="lab-tarjeta" data-lab-form="mapa-de-cargas" data-lab-form-titulo="Mapa de cargas" novalidate>
+        <div class="lab-tabla2">
+          <div data-lab-lista-editable data-lab-lista-titulo="Depende de mí">
+            <label class="lab-paso__titulo" for="ca-mio" style="display:block">Depende de mí</label>
+            <div class="lab-lle__fila"><input class="lab-campo" id="ca-mio" type="text" placeholder="Por ejemplo: ordenar el mail" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+            <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+          </div>
+          <div data-lab-lista-editable data-lab-lista-titulo="No depende de mí">
+            <label class="lab-paso__titulo" for="ca-no" style="display:block">No depende de mí</label>
+            <div class="lab-lle__fila"><input class="lab-campo" id="ca-no" type="text" placeholder="Por ejemplo: la decisión de mi jefe" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+            <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+          </div>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="ca-primero">De lo que depende de mí, ¿qué es lo primero que voy a hacer, y cuándo?</label><input class="lab-campo" id="ca-primero" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ca-soltar">De lo que no depende de mí, ¿qué puedo soltar o delegar?</label><input class="lab-campo" id="ca-soltar" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi mapa</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="pausas" aria-labelledby="t-pausas">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-pausas">Micro pausas</h2>
+      <p class="lab-estacion__bajada">No hace falta irse de vacaciones para recuperar un poco de energía. Pausas de dos minutos, repartidas en el día, ayudan más de lo que parece.</p>
+      <div class="lab-tarjeta" data-lab-azar="pausas">
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pausa</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="limite" aria-labelledby="t-limite">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-limite">Un límite en el trabajo</h2>
+      <p class="lab-estacion__bajada">Muchas veces el agotamiento viene de no poder decir «hasta acá». Prepará lo que querés plantear: escribirlo antes ayuda a decirlo con calma.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="limite-laboral" data-lab-form-titulo="Un límite en el trabajo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-situacion"><span>1</span>La situación, en hechos</label><textarea class="lab-texto" id="lt-situacion" rows="2" placeholder="En el último mes respondí mensajes de trabajo casi todas las noches"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-efecto"><span>2</span>Cómo me afecta</label><textarea class="lab-texto" id="lt-efecto" rows="2" placeholder="Estoy durmiendo mal y rindo menos durante el día"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-pedido"><span>3</span>Lo que propongo</label><textarea class="lab-texto" id="lt-pedido" rows="2" placeholder="A partir de las 19 no voy a responder mensajes, salvo urgencias que acordemos"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-gana"><span>4</span>Qué gana el equipo</label><textarea class="lab-texto" id="lt-gana" rows="2"></textarea></div>
+        <p class="lab-nota">Para practicar cómo decirlo, te pueden servir el armador de pedidos del <a href="/laboratorio-de-habilidades-dbt/#pedir">laboratorio de habilidades</a> y el de <a href="/laboratorio-de-comunicacion-no-violenta/#armador">comunicación no violenta</a>.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="estres">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Semáforo.</strong> Marcá tus señales con honestidad.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Tres pausas.</strong> Hacé tres micro pausas de dos minutos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Mapa de cargas.</strong> Separá lo que depende de vos de lo que no.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Cortar a horario.</strong> Un día sin trabajar fuera de tu horario.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Delegar.</strong> Pedí ayuda o delegá una tarea.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Moverte.</strong> Veinte minutos de caminata o de algo que te guste.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Algo que te llene.</strong> Una hora para algo que disfrutes, sin culpa.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si el agotamiento lleva meses, si te cuesta levantarte, si aparecen síntomas físicos persistentes o sentís que ya no podés más, consultá con tu médico y con un profesional de la salud mental. El agotamiento puede confundirse con depresión o con problemas de salud que conviene descartar. Podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Maslach, C. y Leiter, M. P. (2016). «Understanding the burnout experience: recent research and its implications for psychiatry». <em>World Psychiatry</em>, 15(2).</li>
+        <li>Sapolsky, R. M. (2004). <em>¿Por qué las cebras no tienen úlcera?</em></li>
+        <li>Organización Mundial de la Salud (2019). «Burn-out an "occupational phenomenon"». Clasificación Internacional de Enfermedades (CIE-11).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -1393,3 +1393,34 @@ main#contenido:focus { outline: none; }
 .lab-auto__pregunta legend { margin-bottom: .5rem; color: var(--tinta); }
 .lab-auto__intro { list-style: none; margin-left: -1.1rem; font-weight: 600; }
 [data-auto-lista] { margin: .4rem 0 0; padding-left: 1.1rem; display: grid; gap: .5rem; }
+
+/* ---------- Laboratorios: tercera tanda ---------- */
+.lab-lle__fila { display: flex; gap: .5rem; margin-top: .4rem; }
+.lab-lle__fila .lab-campo { flex: 1; min-width: 0; }
+.lab-lle__lista:not(:empty) { margin-top: .8rem; }
+.lab-semaforo__grupo { border: 1px solid var(--linea); border-radius: var(--r-s); padding: .9rem 1rem; margin: 0; display: grid; gap: .5rem; background: var(--beige); }
+.lab-semaforo__grupo legend { padding: 0 .3rem; font-family: var(--f-sans); font-size: .8rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--piedra-oscura); }
+.lab-semaforo__grupo label { display: flex; gap: .6rem; align-items: flex-start; min-height: 32px; font-size: var(--t-sm); cursor: pointer; }
+.lab-semaforo__grupo input { flex: none; width: 20px; height: 20px; margin-top: .15rem; accent-color: var(--salvia-profunda); }
+.lab-semaforo__resultado { display: flex; gap: 1rem; align-items: flex-start; margin-top: 1.2rem; padding: 1rem 1.2rem; border-radius: var(--r-s); background: var(--salvia-bruma); }
+.lab-semaforo__resultado p { margin: 0; font-size: var(--t-sm); }
+.lab-semaforo__resultado strong { font-family: var(--f-display); font-weight: 400; font-size: 1.2rem; }
+.lab-semaforo__luz { flex: none; width: 28px; height: 28px; border-radius: 50%; margin-top: .1rem; background: #6B8E4E; box-shadow: 0 0 0 4px color-mix(in srgb, #6B8E4E 25%, transparent); }
+[data-color="amarillo"] .lab-semaforo__luz { background: #D9A23A; box-shadow: 0 0 0 4px color-mix(in srgb, #D9A23A 25%, transparent); }
+[data-color="rojo"] .lab-semaforo__luz { background: #B5532A; box-shadow: 0 0 0 4px color-mix(in srgb, #B5532A 25%, transparent); }
+.vin-anillo { fill: none; stroke: var(--linea); stroke-dasharray: 4 5; }
+.vin-anillo--1 { fill: color-mix(in srgb, var(--salvia) 14%, transparent); }
+.vin-yo { font-family: var(--f-display); font-size: 18px; fill: var(--tinta); }
+.vin-nombre { font-family: var(--f-sans); font-size: 11px; fill: var(--tinta-suave); }
+.vin-p--nutre circle { fill: #6B8E4E; }
+.vin-p--neutro rect { fill: var(--piedra-oscura); }
+.vin-p--desgasta polygon { fill: #B5532A; }
+.lab-vin__leyenda { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem 1rem; margin-top: .4rem; font-family: var(--f-sans); font-size: .8rem; color: var(--tinta-suave); }
+.lab-vin__leyenda .t-nutre { color: var(--salvia-profunda); } .lab-vin__leyenda .t-desgasta { color: var(--terracota-profunda); }
+.lab-racha { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: .4rem; margin: 1rem 0 .4rem; }
+.lab-racha__dia { position: relative; }
+.lab-racha__dia input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+.lab-racha__dia span:not(.visualmente-oculto) { display: grid; place-items: center; height: 44px; border-radius: var(--r-s); border: 1px solid var(--linea); background: var(--beige); font-family: var(--f-sans); font-size: .85rem; color: var(--tinta-suave); transition: background-color .2s, color .2s; }
+.lab-racha__dia input:checked + span { background: var(--salvia-profunda); border-color: var(--salvia-profunda); color: var(--beige); font-weight: 600; }
+.lab-racha__dia input:focus-visible + span { outline: 2px solid var(--foco); outline-offset: 2px; }
+.lab-racha__dia.es-hueco-doble span:not(.visualmente-oculto) { border-color: var(--terracota-profunda); border-style: dashed; }

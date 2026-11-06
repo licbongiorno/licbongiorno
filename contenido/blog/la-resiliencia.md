@@ -49,6 +49,8 @@ Las investigaciones de Emmy Werner, que siguió durante décadas a chicos que cr
 
 La psicoterapia puede ser uno de esos espacios que sostienen: un lugar para poner en palabras lo que pasó, darle sentido y reconstruir de a poco. Si estás atravesando una pérdida, una crisis o algo de tu historia que todavía pesa, podés leer sobre [duelo y pérdidas](/duelo-y-perdidas/), [trauma](/trauma/) o [crisis vitales](/crisis-vitales/), o escribirme.
 
+Para sostener pequeños cambios en el tiempo, te puede servir el [laboratorio de hábitos](/laboratorio-de-habitos/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la resiliencia en psicología?

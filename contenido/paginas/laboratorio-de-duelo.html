@@ -1,0 +1,125 @@
+<!--{
+  "ruta": "/laboratorio-de-duelo/",
+  "titulo": "Laboratorio de duelo: acompañar una pérdida",
+  "descripcion": "Ejercicios para atravesar un duelo: el ir y venir entre el dolor y la vida, una carta a quien ya no está, lo que te dejó, rituales y las fechas difíciles.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Duelo", "/laboratorio-de-duelo/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>duelo</em>",
+  "bajada": "No para «superar» una pérdida, sino para acompañarla. Ejercicios suaves para darle lugar al dolor, al recuerdo y también a la vida que sigue.",
+  "respuesta": "El laboratorio de duelo propone ejercicios para acompañar una pérdida: comprender el duelo como un ir y venir entre el dolor y la reconstrucción (modelo de doble proceso de Stroebe y Schut), escribir una carta a quien ya no está, registrar lo que esa persona dejó, pensar rituales propios y planificar las fechas difíciles. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-duelo.js"],
+  "wa_tema": "el laboratorio de duelo",
+  "articulos": ["duelo-migratorio", "la-soledad", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no hay que «superarlo». Es la taza que sigue en el mismo lugar, el número que todavía no te animás a borrar del teléfono, la canción que te desarma en el supermercado. Es reírte un día y sentir culpa por haberte reído. El duelo no es una escalera que se sube de a un escalón: va y viene como la marea.</p>
+        <p>Este laboratorio no tiene apuro. Podés hacer una estación hoy y otra dentro de un mes, o ninguna. Vale para la muerte de alguien querido y también para otras pérdidas: una separación, un país que dejaste, una etapa que terminó. Más sobre esto en <a href="/duelo-y-perdidas/">duelo y pérdidas</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>A tu tiempo.</strong> No hay un plazo correcto para el duelo.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Podés frenar.</strong> Si algo duele demasiado, cerrá y volvé otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#ir-y-venir">El ir y venir</a>
+      <a href="#carta">Una carta</a>
+      <a href="#me-dejo">Lo que me dejó</a>
+      <a href="#rituales">Rituales</a>
+      <a href="#fechas">Fechas difíciles</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="ir-y-venir" aria-labelledby="t-ir">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-ir">El duelo va y viene</h2>
+      <p class="lab-estacion__bajada">Las investigadoras Margaret Stroebe y Henk Schut propusieron el <strong>modelo de doble proceso</strong>: en un duelo oscilamos entre momentos orientados a la pérdida (llorar, recordar, extrañar) y momentos orientados a la reconstrucción (ocuparse de lo nuevo, distraerse, hacer planes). Ir y venir entre los dos no es negación ni falta de amor: es como se procesa una pérdida.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un lado">
+          <label class="opcion"><input type="radio" name="du-lado" value="perdida" checked><span>Hacia la pérdida</span></label>
+          <label class="opcion"><input type="radio" name="du-lado" value="reconstruccion"><span>Hacia la reconstrucción</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="perdida"><p>Mirar fotos, llorar, visitar un lugar que compartían, hablar de la persona, escribirle, sentir bronca o culpa, extrañar.</p><p><strong>Pregunta:</strong> ¿te estás permitiendo estos momentos, o los evitás todo el tiempo?</p></div>
+        <div class="lab-panel" data-lab-panel="reconstruccion" hidden><p>Aprender tareas que hacía la otra persona, retomar el trabajo, ver una película, reírte con amigos, hacer planes, armar una rutina nueva.</p><p><strong>Pregunta:</strong> ¿te permitís descansar del dolor, o sentís que distraerte es traicionar?</p></div>
+        <p class="lab-nota">Lo que preocupa no es oscilar, sino quedarse fijo en uno de los dos lados durante mucho tiempo.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-carta">Una carta a quien ya no está</h2>
+      <p class="lab-estacion__bajada">Muchas veces quedan cosas sin decir: un gracias, un perdón, un te quiero, una bronca. Escribirlas no cambia lo que pasó, pero puede aliviar. Algunas preguntas para empezar:</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="carta-de-duelo" data-lab-form-titulo="Una carta" novalidate>
+        <ol class="lab-guion">
+          <li>¿Qué extraño de vos?</li>
+          <li>¿Qué te agradezco?</li>
+          <li>¿Qué me quedó sin decirte?</li>
+          <li>¿Qué me gustaría que supieras de mi vida ahora?</li>
+          <li>¿Cómo quiero llevarte conmigo de acá en adelante?</li>
+        </ol>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="du-para">Para</label><input class="lab-campo" id="du-para" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="du-carta">La carta</label><textarea class="lab-texto" id="du-carta" rows="10"></textarea></div>
+        <p class="lab-paso__ayuda">Algunas personas la leen en voz alta en un lugar significativo, la guardan o la queman. No hay una forma correcta.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi carta</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="me-dejo" aria-labelledby="t-dejo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-dejo">Lo que me dejó</h2>
+      <p class="lab-estacion__bajada">El vínculo no termina con la pérdida: se transforma. El psicólogo J. William Worden habla de encontrar una forma de seguir conectados mientras la vida continúa. ¿Qué de esa persona, o de esa etapa, querés conservar?</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-me-dejo" data-lab-form-titulo="Lo que me dejó" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dj-recuerdo">Un recuerdo que quiero guardar</label><textarea class="lab-texto" id="dj-recuerdo" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dj-aprendi">Algo que aprendí de esa persona</label><textarea class="lab-texto" id="dj-aprendi" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dj-gesto">Un gesto, una frase o una costumbre suya que sigue en mí</label><textarea class="lab-texto" id="dj-gesto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dj-honrar">Una forma de honrar su memoria</label><textarea class="lab-texto" id="dj-honrar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="rituales" aria-labelledby="t-rituales">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-rituales">Rituales posibles</h2>
+      <p class="lab-estacion__bajada">Los rituales le dan forma a lo que no tiene palabras. No hace falta que sean religiosos ni grandes. Algunas ideas, por si alguna te resuena:</p>
+      <div class="lab-tarjeta" data-lab-azar="rituales">
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="fechas" aria-labelledby="t-fechas">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-fechas">Fechas difíciles</h2>
+      <p class="lab-estacion__bajada">Cumpleaños, aniversarios, fiestas: suelen doler más de lo esperado, y muchas veces la anticipación es peor que el día. Planificarlas un poco ayuda.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fechas-dificiles" data-lab-form-titulo="Fechas difíciles" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fe-fecha">La fecha</label><input class="lab-campo" id="fe-fecha" type="text" placeholder="Por ejemplo: su cumpleaños, el 12 de marzo" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fe-como">¿Cómo me gustaría pasar ese día?</label><textarea class="lab-texto" id="fe-como" rows="2" placeholder="Acompañado, a solas, haciendo algo especial, como un día más…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fe-quien">¿Con quién puedo contar ese día?</label><input class="lab-campo" id="fe-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fe-gesto">Un gesto para recordarla o recordarlo</label><input class="lab-campo" id="fe-gesto" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fe-cuidado">Algo para cuidarme si se pone difícil</label><input class="lab-campo" id="fe-cuidado" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi plan</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El dolor de un duelo puede ser muy intenso y aun así ser normal. Conviene consultar si después de muchos meses el dolor no cede y te impide sostener la vida cotidiana, si sentís que no podés vivir sin esa persona o si aparecen ideas de muerte. En ese caso, pedí ayuda ya: <a href="tel:135">135</a> o <a href="tel:08003451435">0800-345-1435</a> (Centro de Asistencia al Suicida) o <a href="tel:911">911</a>. Para acompañarte en tu duelo, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Stroebe, M. y Schut, H. (1999). «The dual process model of coping with bereavement: rationale and description». <em>Death Studies</em>, 23(3).</li>
+        <li>Worden, J. W. (2009). <em>El tratamiento del duelo: asesoramiento psicológico y terapia</em>.</li>
+        <li>Klass, D., Silverman, P. R. y Nickman, S. L. (Eds.) (1996). <em>Continuing Bonds: New Understandings of Grief</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

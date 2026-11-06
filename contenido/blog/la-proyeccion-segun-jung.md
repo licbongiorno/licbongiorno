@@ -47,6 +47,8 @@ Jung y Marie-Louise von Franz hablaban de **retirar** o **recoger** las proyecci
 
 Es una parte central del [proceso de individuación](/recursos/el-proceso-de-individuacion/). Y es una de las cosas que más se trabajan en terapia, sobre todo cuando hay [patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/). Si sentís que te pasa, podés escribirme.
 
+Para llevar un diario de tus proyecciones, probá el [laboratorio de sombra y arquetipos](/laboratorio-de-sombra-y-arquetipos/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la proyección según Jung?

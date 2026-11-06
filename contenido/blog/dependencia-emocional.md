@@ -36,6 +36,7 @@ Suele tener raíces en la historia de cada uno: vínculos tempranos en los que e
 
 El objetivo no es volverse autosuficiente ni desconfiar del amor. Se trata de comprender el patrón, reconocer qué se busca en el otro y empezar a construir una base propia de valor y seguridad. Desde ahí, los vínculos pueden elegirse en lugar de padecerse: dejar de ser la hiedra que se aferra para volverse un árbol que puede, también, dar sombra. Más información en [Dificultades vinculares](/dificultades-vinculares/).
 
+Para mirar tus vínculos y practicar cómo poner límites, probá el [laboratorio de vínculos y límites](/laboratorio-de-vinculos/).
 
 ## Preguntas frecuentes
 

@@ -1,0 +1,169 @@
+<!--{
+  "ruta": "/laboratorio-de-ansiedad/",
+  "titulo": "Laboratorio de ansiedad y preocupación: ejercicios",
+  "descripcion": "Ejercicios para la ansiedad: distinguir preocupación útil de rumiación, descatastrofizar, registrar pensamientos y armar una escalera para enfrentar miedos.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Ansiedad y preocupación", "/laboratorio-de-ansiedad/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>ansiedad y preocupación</em>",
+  "bajada": "Para cuando la cabeza se adelanta al futuro y lo llena de desastres: ejercicios para darle forma a la preocupación, mirarla de cerca y no dejar que decida por vos.",
+  "respuesta": "El laboratorio de ansiedad y preocupación propone ejercicios basados en la terapia cognitiva: distinguir la preocupación útil de la rumiación, descatastrofizar (lo peor, lo mejor y lo más probable), registrar pensamientos automáticos, reconocer errores de pensamiento, reservar un tiempo para preocuparse y armar una escalera de exposición gradual. No reemplaza un tratamiento.",
+  "scripts": ["lab-base.js", "laboratorio-ansiedad.js"],
+  "wa_tema": "el laboratorio de ansiedad",
+  "articulos": ["ansiedad-cuando-el-cuerpo-habla", "ataque-de-panico-que-hacer", "la-memoria"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que «pensás demasiado». Es esa película que la cabeza proyecta a las tres de la mañana: el mensaje que no llegó, el estudio médico, la reunión del lunes. Cada escena peor que la anterior. Y el cuerpo, que no distingue entre lo que pasa y lo que imaginamos, reacciona como si ya estuviera pasando.</p>
+        <p>La <a href="/ansiedad-y-ataques-de-panico/">ansiedad</a> no es el enemigo: es una alarma que se volvió demasiado sensible. Estos ejercicios, muchos de ellos de la terapia cognitiva de Aaron Beck, ayudan a mirar la preocupación desde un poco más afuera. No la eliminan de un día para el otro, pero le sacan el volante.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>En papel, se achica.</strong> Escribir la preocupación ya le baja el volumen.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con paciencia.</strong> Se entrena como un músculo, no se resuelve en un día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#util">¿Útil o rumiación?</a>
+      <a href="#descatastrofizar">Descatastrofizar</a>
+      <a href="#registro">Registro de pensamientos</a>
+      <a href="#errores">Errores de pensamiento</a>
+      <a href="#tiempo">Tiempo para preocuparse</a>
+      <a href="#escalera">Escalera de exposición</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="util" aria-labelledby="t-util">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-util">¿Preocupación útil o rumiación?</h2>
+      <p class="lab-estacion__bajada">Una preocupación útil termina en una acción posible: llamar, averiguar, preparar algo. La rumiación da vueltas sobre lo mismo sin llegar a ningún lado, o sobre cosas que no dependen de nosotros. ¿Qué es cada una?</p>
+      <div class="lab-tarjeta" data-lab-quiz="util">
+        <p class="lab-tarjeta__titulo">¿Qué tipo de preocupación es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Útil</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Rumiación</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="descatastrofizar" aria-labelledby="t-descat">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-descat">Descatastrofizar</h2>
+      <p class="lab-estacion__bajada">La ansiedad suele mostrar solo el peor escenario. Escribirlo junto con el mejor y el más probable devuelve proporción. Y preguntarte qué harías si pasara lo peor te recuerda que también tenés recursos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="descatastrofizar" data-lab-form-titulo="Descatastrofizar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-preocupa">Lo que me preocupa</label><input class="lab-campo" id="dc-preocupa" type="text" autocomplete="off"></div>
+        <div class="lab-tabla2">
+          <div><label for="dc-peor">Lo peor que podría pasar</label><textarea class="lab-texto" id="dc-peor" rows="3"></textarea></div>
+          <div><label for="dc-mejor">Lo mejor que podría pasar</label><textarea class="lab-texto" id="dc-mejor" rows="3"></textarea></div>
+          <div><label for="dc-probable">Lo más probable</label><textarea class="lab-texto" id="dc-probable" rows="3"></textarea></div>
+          <div><label for="dc-haria">Si pasara lo peor, ¿qué haría? ¿Quién me ayudaría?</label><textarea class="lab-texto" id="dc-haria" rows="3"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-porcentaje">¿Qué tan probable es lo peor, del 0 al 100 %?</label><input class="lab-campo" id="dc-porcentaje" type="number" min="0" max="100" inputmode="numeric" style="max-width:8rem"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-registro">Registro de pensamientos</h2>
+      <p class="lab-estacion__bajada">Muchas veces no es la situación lo que nos angustia, sino lo que pensamos de ella, tan rápido que ni lo notamos. La terapia cognitiva los llama <strong>pensamientos automáticos</strong>. Escribirlos permite revisarlos como lo haría un buen detective: con evidencia.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="registro-de-pensamientos" data-lab-form-titulo="Registro de pensamientos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rp-situacion"><span>1</span>Situación</label><p class="lab-paso__ayuda">¿Qué pasó, dónde y con quién?</p><textarea class="lab-texto" id="rp-situacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rp-pensamiento"><span>2</span>Pensamiento automático</label><p class="lab-paso__ayuda">¿Qué se te cruzó por la cabeza?</p><textarea class="lab-texto" id="rp-pensamiento" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rp-emocion"><span>3</span>Emoción e intensidad (0 a 10)</label><input class="lab-campo" id="rp-emocion" type="text" placeholder="Por ejemplo: miedo, 8" autocomplete="off"></div>
+        <div class="lab-tabla2">
+          <div><label for="rp-favor">Evidencia a favor del pensamiento</label><textarea class="lab-texto" id="rp-favor" rows="3"></textarea></div>
+          <div><label for="rp-contra">Evidencia en contra</label><textarea class="lab-texto" id="rp-contra" rows="3"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rp-alternativo"><span>4</span>Un pensamiento más equilibrado</label><p class="lab-paso__ayuda">No se trata de pensar «positivo», sino de pensar más completo.</p><textarea class="lab-texto" id="rp-alternativo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rp-despues"><span>5</span>¿Cómo está ahora la emoción (0 a 10)?</label><input class="lab-campo" id="rp-despues" type="text" autocomplete="off" style="max-width:12rem"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Nuevo registro</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="errores" aria-labelledby="t-errores">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-errores">Errores de pensamiento</h2>
+      <p class="lab-estacion__bajada">Cuando estamos ansiosos, la mente toma atajos que agrandan el peligro. Reconocerlos es el primer paso para no creerles del todo. ¿Qué atajo aparece en cada frase?</p>
+      <div class="lab-tarjeta" data-lab-quiz="errores">
+        <p class="lab-tarjeta__titulo">¿Qué error de pensamiento es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta" data-lab-quiz-opciones></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="tiempo" aria-labelledby="t-tiempo">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-tiempo">Tiempo para preocuparse</h2>
+      <p class="lab-estacion__bajada">Parece raro, pero funciona: en lugar de preocuparte todo el día, reservá quince minutos fijos para hacerlo. Cuando una preocupación aparece fuera de ese horario, la anotás y la «posponés» hasta tu turno. Fue estudiado por Thomas Borkovec y colaboradores.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="300">
+        <ol class="lab-pasos">
+          <li><strong>Elegí el momento.</strong> Siempre a la misma hora, lejos de la hora de dormir. Sentate con papel y lápiz.</li>
+          <li><strong>Escribí todas las preocupaciones.</strong> Las que anotaste durante el día y las que aparezcan ahora. Sin filtrar.</li>
+          <li><strong>Separá.</strong> ¿Cuáles tienen una acción posible? Anotá el primer paso concreto. Las demás, marcalas como «no depende de mí».</li>
+          <li><strong>Cerrá.</strong> Cuando termina el tiempo, cerrá el cuaderno. Si una preocupación vuelve más tarde, decite: «ya tiene su turno mañana».</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="escalera" aria-labelledby="t-escalera">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-escalera">Escalera de exposición</h2>
+      <p class="lab-estacion__bajada">Evitar lo que nos da miedo alivia en el momento, pero agranda el miedo a largo plazo. La exposición gradual es una de las herramientas con más evidencia: enfrentar lo temido de a poco, empezando por lo más fácil. Escribí situaciones relacionadas con tu miedo y ordenalas de menor a mayor ansiedad.</p>
+      <form class="lab-tarjeta" data-lab-form="mi-escalera" data-lab-form-titulo="Mi escalera de exposición" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-miedo">Mi miedo</label><input class="lab-campo" id="es-miedo" type="text" placeholder="Por ejemplo: viajar en colectivo" autocomplete="off"></div>
+        <div data-lab-lista-editable data-lab-lista-titulo="Escalones, de menor a mayor ansiedad">
+          <label class="lab-paso__titulo" for="es-paso" style="display:block;margin-top:1rem">Agregá un escalón</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="es-paso" type="text" placeholder="Por ejemplo: esperar el colectivo en la parada, sin subir" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <p class="lab-nota">Empezá por el primer escalón y quedate en la situación hasta que la ansiedad baje un poco, sin escaparte. Repetilo varias veces antes de subir. Si el miedo es muy intenso, es mejor hacerlo acompañado por un profesional.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi escalera</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="ansiedad">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Anotar.</strong> Cada vez que te preocupes, escribilo en una línea.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Útil o rumiación.</strong> Revisá la lista: ¿cuáles tienen una acción posible?</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Tu turno.</strong> Probá los quince minutos para preocuparte.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Descatastrofizar</strong> la preocupación más grande de la semana.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Registro de pensamientos</strong> de una situación que te angustió.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un escalón.</strong> Hacé el primer paso de tu escalera.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Respirar.</strong> Cinco minutos de respiración lenta en el <a href="/laboratorio-de-presencia/#respirar">laboratorio de presencia</a>.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la ansiedad no te deja dormir, trabajar o salir, si tenés ataques de pánico frecuentes o evitás cada vez más cosas, no es algo para resolver solo: la ansiedad tiene muy buen pronóstico con tratamiento. Podés leer <a href="/recursos/ataque-de-panico-que-hacer/">qué hacer en un ataque de pánico</a> o <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Beck, J. S. (2011). <em>Cognitive Behavior Therapy: Basics and Beyond</em> (2.ª ed.). Guilford Press.</li>
+        <li>Borkovec, T. D., Wilkinson, L., Folensbee, R. y Lerman, C. (1983). «Stimulus control applications to the treatment of worry». <em>Behaviour Research and Therapy</em>, 21(3).</li>
+        <li>Craske, M. G. y Barlow, D. H. (2006). <em>Mastery of Your Anxiety and Worry</em> (2.ª ed.). Oxford University Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

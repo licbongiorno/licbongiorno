@@ -48,6 +48,7 @@ No se trata de buscar culpables en el pasado, sino de entender la propia histori
 
 Romper un patrón lleva tiempo. Pero cada vez que lo reconocés, se abre la posibilidad de un final distinto. No se trata de cambiar de película: se trata de dejar de ser espectador de tu propia historia y animarte, por fin, a reescribir el guion.
 
+Para armar tu mapa de vínculos y reflexionar sobre tu forma de vincularte, te espera el [laboratorio de vínculos y límites](/laboratorio-de-vinculos/).
 
 ## Preguntas frecuentes
 

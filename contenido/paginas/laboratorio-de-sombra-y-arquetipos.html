@@ -1,0 +1,141 @@
+<!--{
+  "ruta": "/laboratorio-de-sombra-y-arquetipos/",
+  "titulo": "Laboratorio de sombra y arquetipos: ejercicios junguianos",
+  "descripcion": "Ejercicios inspirados en Jung: lo que te molesta en otros, la sombra dorada, tus arquetipos con su don y su sombra, y lo que mostrás frente a lo que escondés.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Sombra y arquetipos", "/laboratorio-de-sombra-y-arquetipos/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>sombra y arquetipos</em>",
+  "bajada": "Lo que rechazamos, lo que admiramos en otros y las historias antiguas que se repiten en nuestra vida. Ejercicios para conocer la parte de vos que todavía no conocés.",
+  "respuesta": "El laboratorio de sombra y arquetipos propone ejercicios inspirados en la psicología analítica de Carl Gustav Jung: un diario de proyecciones para reconocer la propia sombra en lo que nos molesta de otros, la sombra dorada en lo que admiramos, una exploración de ocho figuras arquetípicas con su don y su sombra, y un contraste entre la persona (lo que mostramos) y lo que escondemos.",
+  "scripts": ["lab-base.js"],
+  "wa_tema": "el laboratorio de sombra y arquetipos",
+  "articulos": ["la-sombra-segun-jung", "arquetipos-en-la-vida-cotidiana", "la-proyeccion-segun-jung"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es buscar lo «malo» que hay en vos. Es ese compañero que te saca de quicio con su soberbia, y la pregunta incómoda de por qué te molesta tanto. Es la amiga que admirás por animarse a todo, y la sospecha de que ese coraje también podría ser tuyo. Lo que más nos mueve en los otros suele hablar de nosotros.</p>
+        <p>Jung llamó <a href="/recursos/la-sombra-segun-jung/">sombra</a> a lo que no aceptamos de nosotros mismos, y <a href="/recursos/arquetipos-en-la-vida-cotidiana/">arquetipos</a> a las grandes figuras que se repiten en mitos, cuentos y vidas. Estos ejercicios son una puerta de entrada, no un diagnóstico: en la terapia junguiana, este trabajo se hace con tiempo y con sueños.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> Lo que incomoda suele ser lo más fértil.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin juicio.</strong> La sombra no es mala: es lo que todavía no integraste.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#me-molesta">Lo que me molesta en otros</a>
+      <a href="#sombra-dorada">La sombra dorada</a>
+      <a href="#arquetipos">Mis arquetipos</a>
+      <a href="#persona">Persona y sombra</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="me-molesta" aria-labelledby="t-molesta">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-molesta">Lo que me molesta en otros</h2>
+      <p class="lab-estacion__bajada">Pensá en alguien que te irrita más de lo que la situación justifica. Ese exceso es la pista de una <a href="/recursos/la-proyeccion-segun-jung/">proyección</a>. No significa que el otro no tenga nada que ver: significa que algo tuyo también está en juego.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="diario-de-proyecciones" data-lab-form-titulo="Lo que me molesta en otros" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-quien"><span>1</span>¿Quién me molesta y qué hace?</label><textarea class="lab-texto" id="so-quien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-rasgo"><span>2</span>¿Qué rasgo veo en esa persona?</label><p class="lab-paso__ayuda">En una o dos palabras: soberbia, egoísmo, pereza, exhibicionismo…</p><input class="lab-campo" id="so-rasgo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-intensidad"><span>3</span>¿Qué siento cuando lo hace, y con qué intensidad?</label><input class="lab-campo" id="so-intensidad" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-mio"><span>4</span>¿Hay algo de ese rasgo en mí, aunque sea en una forma más chica o escondida?</label><textarea class="lab-texto" id="so-mio" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-don"><span>5</span>¿Qué tendría de valioso ese rasgo, en una dosis justa?</label><p class="lab-paso__ayuda">La soberbia, bien integrada, puede ser confianza. La pereza, descanso. El egoísmo, autocuidado.</p><textarea class="lab-texto" id="so-don" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Otra persona</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sombra-dorada" aria-labelledby="t-dorada">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-dorada">La sombra dorada</h2>
+      <p class="lab-estacion__bajada">La sombra no guarda solo lo que rechazamos: también capacidades propias que no nos animamos a vivir. Los autores junguianos la llaman a veces «sombra dorada». Aparece en la admiración desmedida.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sombra-dorada" data-lab-form-titulo="La sombra dorada" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sd-quien">Alguien que admiro mucho, y qué admiro de esa persona</label><textarea class="lab-texto" id="sd-quien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sd-cualidad">La cualidad, en una palabra</label><input class="lab-campo" id="sd-cualidad" type="text" placeholder="Valentía, libertad, creatividad, calma…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sd-mia">¿Cuándo apareció esa cualidad en mí, aunque fuera un poco?</label><textarea class="lab-texto" id="sd-mia" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sd-paso">Un paso pequeño para darle más lugar</label><input class="lab-campo" id="sd-paso" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="arquetipos" aria-labelledby="t-arquetipos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-arquetipos">Mis arquetipos</h2>
+      <p class="lab-estacion__bajada">Estas ocho figuras se inspiran en Jung y en autoras posteriores como Carol Pearson. No son una tipología científica ni un test: son espejos para pensar qué historias se repiten en tu vida. Cada una tiene un don y una sombra. ¿Cuál se parece más a tu momento actual?</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una figura">
+          <label class="opcion"><input type="radio" name="arq" value="cuidador" checked><span>El cuidador</span></label>
+          <label class="opcion"><input type="radio" name="arq" value="heroe"><span>El héroe</span></label>
+          <label class="opcion"><input type="radio" name="arq" value="sabio"><span>El sabio</span></label>
+          <label class="opcion"><input type="radio" name="arq" value="explorador"><span>El explorador</span></label>
+          <label class="opcion"><input type="radio" name="arq" value="rebelde"><span>El rebelde</span></label>
+          <label class="opcion"><input type="radio" name="arq" value="amante"><span>El amante</span></label>
+          <label class="opcion"><input type="radio" name="arq" value="creador"><span>El creador</span></label>
+          <label class="opcion"><input type="radio" name="arq" value="huerfano"><span>El huérfano</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="cuidador"><p><strong>Su don:</strong> la generosidad, la capacidad de sostener a otros.</p><p><strong>Su sombra:</strong> darse hasta vaciarse, cuidar para ser necesitado, el reproche silencioso.</p><p><strong>Pregunta:</strong> ¿quién te cuida a vos?</p></div>
+        <div class="lab-panel" data-lab-panel="heroe" hidden><p><strong>Su don:</strong> el coraje, la determinación para enfrentar desafíos.</p><p><strong>Su sombra:</strong> no poder pedir ayuda, vivir en batalla, despreciar la fragilidad.</p><p><strong>Pregunta:</strong> ¿contra qué estás peleando, y qué pasaría si bajaras la espada un rato?</p></div>
+        <div class="lab-panel" data-lab-panel="sabio" hidden><p><strong>Su don:</strong> la búsqueda de comprensión y de verdad.</p><p><strong>Su sombra:</strong> pensar en lugar de sentir, la distancia, creer que todo se resuelve entendiendo.</p><p><strong>Pregunta:</strong> ¿qué estás tratando de entender que quizás necesitás sentir?</p></div>
+        <div class="lab-panel" data-lab-panel="explorador" hidden><p><strong>Su don:</strong> la curiosidad, la libertad, la búsqueda de lo propio.</p><p><strong>Su sombra:</strong> no poder quedarse, huir del compromiso, la insatisfacción constante.</p><p><strong>Pregunta:</strong> ¿estás buscando algo, o escapando de algo?</p></div>
+        <div class="lab-panel" data-lab-panel="rebelde" hidden><p><strong>Su don:</strong> la capacidad de romper lo que ya no sirve y defender lo propio.</p><p><strong>Su sombra:</strong> oponerse por oponerse, la destrucción sin construcción.</p><p><strong>Pregunta:</strong> ¿qué querés cambiar, y qué querés construir en su lugar?</p></div>
+        <div class="lab-panel" data-lab-panel="amante" hidden><p><strong>Su don:</strong> la pasión, la intimidad, el disfrute de la vida y de la belleza.</p><p><strong>Su sombra:</strong> perderse en el otro, la dependencia, buscar afuera lo que falta adentro.</p><p><strong>Pregunta:</strong> ¿qué te apasiona además de las personas que querés?</p></div>
+        <div class="lab-panel" data-lab-panel="creador" hidden><p><strong>Su don:</strong> la imaginación, la capacidad de dar forma a algo nuevo.</p><p><strong>Su sombra:</strong> el perfeccionismo, no terminar nada, la obra por encima de la vida.</p><p><strong>Pregunta:</strong> ¿qué querés crear y todavía no empezaste? Te puede servir el <a href="/laboratorio-de-creatividad/">laboratorio de creatividad</a>.</p></div>
+        <div class="lab-panel" data-lab-panel="huerfano" hidden><p><strong>Su don:</strong> el realismo, la empatía con quien sufre, saber que la vida no siempre es justa.</p><p><strong>Su sombra:</strong> sentirse víctima, la desconfianza, esperar siempre lo peor.</p><p><strong>Pregunta:</strong> ¿dónde podrías encontrar pertenencia y apoyo hoy?</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="persona" aria-labelledby="t-persona">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-persona">Persona y sombra</h2>
+      <p class="lab-estacion__bajada">La <a href="/recursos/la-persona-mascara-social/">persona</a> es la máscara que mostramos al mundo; la sombra, lo que queda del otro lado. Cuanto más rígida la máscara, más grande la sombra. Escribí en dos columnas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="persona-y-sombra" data-lab-form-titulo="Persona y sombra" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="ps-muestro">Lo que muestro (cómo quiero que me vean)</label><textarea class="lab-texto" id="ps-muestro" rows="6" placeholder="Fuerte, alegre, responsable…"></textarea></div>
+          <div><label for="ps-escondo">Lo que escondo (lo que no dejo ver)</label><textarea class="lab-texto" id="ps-escondo" rows="6" placeholder="Miedo, cansancio, enojo, deseo…"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ps-costo">¿Qué me cuesta sostener esa máscara?</label><textarea class="lab-texto" id="ps-costo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ps-quien">¿Con quién podría mostrar un poco de lo que escondo?</label><input class="lab-campo" id="ps-quien" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="sombra">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Registrar.</strong> Anotá cada vez que algo de otro te irrite de más.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Preguntar.</strong> Elegí una de esas irritaciones y completá el diario de proyecciones.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Admirar.</strong> Completá la sombra dorada con alguien que admirás.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un paso dorado.</strong> Hacé el paso pequeño que escribiste.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Arquetipos.</strong> Elegí la figura de tu momento y respondé su pregunta.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Sin máscara.</strong> Mostrale a alguien de confianza algo que solés esconder.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un sueño.</strong> Anotá un sueño y fijate si aparece alguna de estas figuras. Podés usar el <a href="/laboratorio-de-suenos/">laboratorio de sueños</a>.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El trabajo con la sombra puede remover culpas, vergüenzas o recuerdos dolorosos. Es esperable y forma parte del proceso, pero no tiene que hacerse solo. En la <a href="/terapia-junguiana/">terapia junguiana</a> lo acompañamos con tiempo y cuidado. Si algo te desborda, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Jung, C. G. (1951). <em>Aion. Contribuciones a los simbolismos del sí-mismo</em> (Obra completa, vol. 9/2). Capítulo «La sombra».</li>
+        <li>Zweig, C. y Abrams, J. (Eds.) (1991). <em>Encuentro con la sombra: el poder del lado oscuro de la naturaleza humana</em>.</li>
+        <li>Pearson, C. S. (1986). <em>The Hero Within: Six Archetypes We Live By</em>. Harper &amp; Row.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

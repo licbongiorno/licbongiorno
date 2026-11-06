@@ -1,0 +1,117 @@
+<!--{
+  "ruta": "/laboratorio-de-habitos/",
+  "titulo": "Laboratorio de hábitos y pequeños cambios",
+  "descripcion": "Cuánto tarda de verdad un hábito, cómo armar un plan «cuando… voy a…», versiones mínimas para empezar, un registro de racha de 30 días y tres cosas buenas.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Hábitos", "/laboratorio-de-habitos/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>hábitos y pequeños cambios</em>",
+  "bajada": "Cambiar no depende solo de la fuerza de voluntad. Lo que dice la investigación sobre los hábitos, y herramientas para empezar chiquito y sostenerlo.",
+  "respuesta": "El laboratorio de hábitos y pequeños cambios explica cuánto tarda en formarse un hábito según la investigación (la mediana fue de 66 días en el estudio de Lally y colaboradores, no 21), propone armar intenciones de implementación del tipo «cuando… voy a…», versiones mínimas para empezar, un registro de racha de 30 días guardado en el navegador y el ejercicio de las tres cosas buenas.",
+  "scripts": ["lab-base.js", "laboratorio-habitos.js"],
+  "wa_tema": "el laboratorio de hábitos",
+  "articulos": ["la-motivacion", "metahabilidades", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que «no tenés voluntad». Es el gimnasio pagado y sin pisar, la meditación que duró tres días, el «el lunes empiezo» que ya va por su décimo lunes. Casi todos los cambios fallan por lo mismo: los pensamos demasiado grandes y los dejamos librados al ánimo del momento.</p>
+        <p>La investigación sobre hábitos muestra que lo que sostiene un cambio no es la motivación del primer día, sino la repetición en un contexto estable. Empezar ridículamente pequeño, atarlo a algo que ya hacés y no exigirte perfección. Si querés pensar qué te mueve de verdad, leé sobre <a href="/recursos/la-motivacion/">la motivación</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Un hábito por vez.</strong> Querer cambiar todo junto es la receta para no cambiar nada.</li>
+        <li><strong>Sin registro.</strong> Tu racha se guarda solo en este navegador.</li>
+        <li><strong>Sin perfección.</strong> Fallar un día no borra lo construido.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#cuanto">¿Cuánto tarda un hábito?</a>
+      <a href="#cuando">Cuando… voy a…</a>
+      <a href="#minimo">Empezar pequeño</a>
+      <a href="#racha">Mi racha</a>
+      <a href="#gratitud">Tres cosas buenas</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="cuanto" aria-labelledby="t-cuanto">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-cuanto">¿Cuánto tarda un hábito?</h2>
+      <p class="lab-estacion__bajada">Seguro escuchaste que un hábito se forma en 21 días. ¿Qué hay de cierto en eso y en otras ideas populares?</p>
+      <div class="lab-tarjeta" data-lab-quiz="habitos">
+        <p class="lab-tarjeta__titulo">¿Verdad o mito?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Verdad</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Mito</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cuando" aria-labelledby="t-cuando">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-cuando">Cuando… voy a…</h2>
+      <p class="lab-estacion__bajada">El psicólogo Peter Gollwitzer mostró que decidir de antemano <strong>cuándo, dónde y cómo</strong> vas a hacer algo aumenta mucho la probabilidad de hacerlo. Las llamó intenciones de implementación. Atarlo a algo que ya hacés todos los días ayuda todavía más.</p>
+      <form class="lab-tarjeta lab-armador" data-hab-intencion novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hi-cuando"><span>1</span>Cuando…</label><p class="lab-paso__ayuda">Algo que ya hacés todos los días, o un momento concreto.</p><input class="lab-campo" id="hi-cuando" type="text" placeholder="termine de desayunar" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hi-voy"><span>2</span>voy a…</label><p class="lab-paso__ayuda">El hábito, en su versión más pequeña.</p><input class="lab-campo" id="hi-voy" type="text" placeholder="leer dos páginas" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hi-donde"><span>3</span>en…</label><input class="lab-campo" id="hi-donde" type="text" placeholder="el sillón del living" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hi-si"><span>4</span>Si algo me lo impide, entonces…</label><p class="lab-paso__ayuda">Un plan B para el obstáculo más probable.</p><input class="lab-campo" id="hi-si" type="text" placeholder="leo una página antes de dormir" autocomplete="off"></div>
+        <div class="lab-resultado"><p class="lab-tarjeta__titulo">Tu plan</p><p class="lab-resultado__texto" data-hi-salida aria-live="polite">Completá los pasos y acá aparece tu plan.</p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-copiar="[data-hi-salida]">Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Empezar de nuevo</button></div></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="minimo" aria-labelledby="t-minimo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-minimo">Empezar ridículamente pequeño</h2>
+      <p class="lab-estacion__bajada">Una versión tan chica que no puedas decirle que no. Lo importante al principio no es cuánto hacés, sino que lo hagas: primero se construye el hábito y después se agranda.</p>
+      <div class="lab-tarjeta" data-lab-azar="minimos">
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="racha" aria-labelledby="t-racha">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-racha">Mi racha de 30 días</h2>
+      <p class="lab-estacion__bajada">Escribí tu hábito y marcá cada día que lo hagas. Una regla útil: <strong>nunca dos días seguidos sin hacerlo</strong>. Fallar uno es humano; lo importante es volver al día siguiente. Se guarda solo en este navegador.</p>
+      <div class="lab-tarjeta" data-racha>
+        <label class="lab-paso__titulo" for="ra-habito">Mi hábito</label>
+        <input class="lab-campo" id="ra-habito" type="text" placeholder="Por ejemplo: caminar 10 minutos" autocomplete="off" data-racha-habito>
+        <div class="lab-racha" role="group" aria-label="Días del 1 al 30" data-racha-grilla></div>
+        <p class="lab-plan__progreso" role="status" data-racha-estado></p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-racha-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="gratitud" aria-labelledby="t-gratitud">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-gratitud">Tres cosas buenas</h2>
+      <p class="lab-estacion__bajada">Un hábito pequeño con mucha investigación detrás: cada noche, anotar tres cosas que salieron bien y por qué pasaron. En un estudio de Martin Seligman y colaboradores, hacerlo durante una semana se asoció con más bienestar en los meses siguientes.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tres-cosas-buenas" data-lab-form-titulo="Tres cosas buenas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-1">1. Algo que salió bien, y por qué</label><input class="lab-campo" id="tc-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-2">2. Algo que salió bien, y por qué</label><input class="lab-campo" id="tc-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-3">3. Algo que salió bien, y por qué</label><input class="lab-campo" id="tc-3" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Nueva noche</button></div>
+      </form>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si sentís que no podés empezar nada, que nada te interesa desde hace semanas o que cada intento termina en culpa, quizás el problema no sea de hábitos: puede haber cansancio, desánimo o algo más de fondo. Vale la pena conversarlo: podés <a href="/contacto/">escribirme</a>. Para pensar qué te importa de verdad, está el <a href="/laboratorio-de-valores/">laboratorio de valores</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W. y Wardle, J. (2010). «How are habits formed: Modelling habit formation in the real world». <em>European Journal of Social Psychology</em>, 40(6).</li>
+        <li>Gollwitzer, P. M. (1999). «Implementation intentions: Strong effects of simple plans». <em>American Psychologist</em>, 54(7).</li>
+        <li>Seligman, M. E. P., Steen, T. A., Park, N. y Peterson, C. (2005). «Positive psychology progress: Empirical validation of interventions». <em>American Psychologist</em>, 60(5).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

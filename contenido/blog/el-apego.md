@@ -51,6 +51,8 @@ Sí. El estilo de apego no es un destino. Los investigadores hablan de **segurid
 
 Si te reconocés en alguno de estos patrones, podés leer sobre [dificultades vinculares](/dificultades-vinculares/) o escribirme. Si sos madre o padre, también te puede servir [maternidad y paternidad](/recursos/maternidad-y-paternidad/).
 
+Para reflexionar sobre tu forma de vincularte (sin tests ni etiquetas), podés usar el [laboratorio de vínculos y límites](/laboratorio-de-vinculos/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el apego en psicología?

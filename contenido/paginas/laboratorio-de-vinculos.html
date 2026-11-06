@@ -1,0 +1,149 @@
+<!--{
+  "ruta": "/laboratorio-de-vinculos/",
+  "titulo": "Laboratorio de vínculos y límites: ejercicios",
+  "descripcion": "Armá tu mapa de vínculos, distinguí un vínculo sano de una señal de alarma, practicá cómo decir que no y reflexioná sobre tu forma de vincularte.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Vínculos y límites", "/laboratorio-de-vinculos/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>vínculos y límites</em>",
+  "bajada": "Quiénes están cerca, cómo te hacen sentir y cómo cuidar lo que te importa sin dejar de cuidarte. Ejercicios para mirar tus vínculos con más claridad.",
+  "respuesta": "El laboratorio de vínculos y límites propone armar un mapa de vínculos con círculos de cercanía, distinguir señales de un vínculo sano de señales de alarma, practicar cómo poner un límite o decir que no, y reflexionar sobre la propia forma de vincularse a partir de la teoría del apego. No es un test diagnóstico.",
+  "scripts": ["lab-base.js", "laboratorio-vinculos.js"],
+  "wa_tema": "el laboratorio de vínculos",
+  "articulos": ["el-apego", "dependencia-emocional", "patrones-que-se-repiten-en-los-vinculos"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que «elegís mal» o que «das demasiado». Es esa amiga con la que salís renovado y ese familiar después del cual necesitás dormir una siesta. Es el «sí» que dijiste cuando querías decir «no», y el que te quedó atragantado toda la semana. Los vínculos nos sostienen y también nos desgastan. Mirarlos con claridad es el primer paso para cuidarlos.</p>
+        <p>Desde la <a href="/recursos/el-apego/">teoría del apego</a> sabemos que la forma en que nos vinculamos tiene historia. Y desde la clínica, que poner límites no aleja a los que nos quieren: ordena el vínculo. Estos ejercicios no buscan etiquetarte, sino ayudarte a ver.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin culpa.</strong> Notar que un vínculo te desgasta no te hace mala persona.</li>
+        <li><strong>Sin registro.</strong> Los nombres que escribas no salen de tu dispositivo.</li>
+        <li><strong>Sin diagnóstico.</strong> Son preguntas para pensar, no un test.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mapa">Mapa de vínculos</a>
+      <a href="#senales">¿Sano o alarma?</a>
+      <a href="#decir-no">Decir que no</a>
+      <a href="#estilo">Mi forma de vincularme</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mapa">Mapa de vínculos</h2>
+      <p class="lab-estacion__bajada">Vos estás en el centro. Ubicá a las personas importantes de tu vida según qué tan cerca las sentís, y marcá cómo te hace sentir cada vínculo hoy. Podés usar iniciales o apodos.</p>
+      <div class="lab-tarjeta lab-rueda" data-vinculos>
+        <form class="lab-armador" data-vin-form novalidate>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="vin-nombre">Persona</label><input class="lab-campo" id="vin-nombre" type="text" placeholder="Nombre, inicial o apodo" autocomplete="off" maxlength="24"></div>
+          <fieldset class="lab-paso" style="border:0;padding:0;margin:0"><legend class="lab-paso__titulo">¿Qué tan cerca?</legend>
+            <div class="opciones"><label class="opcion"><input type="radio" name="vin-anillo" value="1" checked><span>Muy cerca</span></label><label class="opcion"><input type="radio" name="vin-anillo" value="2"><span>Cerca</span></label><label class="opcion"><input type="radio" name="vin-anillo" value="3"><span>Más lejos</span></label></div></fieldset>
+          <fieldset class="lab-paso" style="border:0;padding:0;margin:0"><legend class="lab-paso__titulo">¿Cómo me hace sentir hoy?</legend>
+            <div class="opciones"><label class="opcion"><input type="radio" name="vin-tono" value="nutre" checked><span>Me nutre</span></label><label class="opcion"><input type="radio" name="vin-tono" value="neutro"><span>Neutro</span></label><label class="opcion"><input type="radio" name="vin-tono" value="desgasta"><span>Me desgasta</span></label></div></fieldset>
+          <div class="lab-acciones"><button class="boton boton--chico" type="submit">Agregar al mapa</button></div>
+          <p class="visualmente-oculto" role="status" data-vin-estado></p>
+        </form>
+        <figure class="lab-rueda__grafico">
+          <svg viewBox="0 0 360 360" role="img" aria-labelledby="vin-titulo" data-vin-svg><title id="vin-titulo">Mapa de vínculos</title></svg>
+          <figcaption class="lab-vin__leyenda"><span class="t-nutre">● Me nutre</span> <span class="t-neutro">■ Neutro</span> <span class="t-desgasta">▲ Me desgasta</span></figcaption>
+        </figure>
+        <div style="grid-column:1/-1">
+          <p class="lab-tarjeta__titulo">Las personas de tu mapa</p>
+          <ul class="lab-orden" data-vin-lista></ul>
+          <p class="lab-nota" data-vin-vacio>Todavía no agregaste a nadie.</p>
+          <div data-vin-reflexion hidden><p class="lab-quiz__resultado bien" data-vin-resumen></p></div>
+          <p class="lab-paso__ayuda" role="status" data-vin-bajar-estado></p>
+          <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-vin-bajar>Guardar mi mapa (texto)</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-senales">¿Vínculo sano o señal de alarma?</h2>
+      <p class="lab-estacion__bajada">Algunas conductas se naturalizan tanto que cuesta verlas. ¿Qué te parece cada una? Vale para la pareja, la familia y la amistad.</p>
+      <div class="lab-tarjeta" data-lab-quiz="senales">
+        <p class="lab-tarjeta__titulo">¿Qué es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Vínculo sano</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Señal de alarma</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+      <p class="lab-nota"><strong>Si reconocés varias señales de alarma en tu vínculo</strong> (control, aislamiento, humillaciones, miedo), no es exageración tuya. En Argentina, la línea <a href="tel:144">144</a> atiende las 24 horas, es gratuita y confidencial. En una emergencia, llamá al <a href="tel:911">911</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="decir-no" aria-labelledby="t-no">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-no">Decir que no</h2>
+      <p class="lab-estacion__bajada">Un límite claro tiene tres partes: lo que no vas a hacer, una razón breve (sin justificarte de más) y, si querés, lo que sí podés ofrecer. Completá y el laboratorio arma la frase.</p>
+      <form class="lab-tarjeta lab-armador" data-vin-limite novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="li-no"><span>1</span>Lo que no voy a hacer</label><input class="lab-campo" id="li-no" type="text" placeholder="no puedo cuidar a los chicos este sábado" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="li-por"><span>2</span>Una razón breve (opcional)</label><input class="lab-campo" id="li-por" type="text" placeholder="necesito ese día para descansar" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="li-si"><span>3</span>Lo que sí puedo ofrecer (opcional)</label><input class="lab-campo" id="li-si" type="text" placeholder="el domingo a la tarde sí puedo" autocomplete="off"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tu límite</p>
+          <p class="lab-resultado__texto" data-li-salida aria-live="polite">Completá los pasos y acá aparece tu frase.</p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-copiar="[data-li-salida]">Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Empezar de nuevo</button></div>
+        </div>
+        <p class="lab-nota">Un límite no necesita la aprobación del otro para ser válido. Puede que al otro no le guste, y eso no significa que lo hayas hecho mal. Si te cuesta mucho, quizás haya algo de <a href="/recursos/dependencia-emocional/">dependencia emocional</a> o de miedo al rechazo para trabajar.</p>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="estilo" aria-labelledby="t-estilo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-estilo">Mi forma de vincularme</h2>
+      <p class="lab-estacion__bajada">No es un test ni da un resultado: son preguntas para pensar, inspiradas en la teoría del apego de John Bowlby. Respondé con lo primero que aparezca.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-forma-de-vincularme" data-lab-form-titulo="Mi forma de vincularme" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-1">Cuando alguien importante tarda en responderme, yo…</label><textarea class="lab-texto" id="ap-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-2">Cuando alguien se acerca mucho, yo…</label><textarea class="lab-texto" id="ap-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-3">Cuando necesito ayuda, me resulta fácil o difícil pedirla porque…</label><textarea class="lab-texto" id="ap-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-4">De chico o chica, cuando estaba triste o asustado, alguien…</label><textarea class="lab-texto" id="ap-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-5">Algo que se repite en mis vínculos es…</label><textarea class="lab-texto" id="ap-5" rows="2"></textarea></div>
+        <p class="lab-nota">Si querés entender más sobre esto, leé <a href="/recursos/el-apego/">el apego</a> y <a href="/recursos/patrones-que-se-repiten-en-los-vinculos/">patrones que se repiten en los vínculos</a>.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="vinculos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. El mapa.</strong> Armá tu mapa de vínculos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Agradecer.</strong> Decile a alguien que te nutre lo importante que es para vos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Un no pequeño.</strong> Decí que no a algo chico que no querés hacer.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Pedir.</strong> Pedí ayuda con algo concreto.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Escuchar.</strong> Preguntale a alguien cercano cómo está, y escuchá sin apurarte a responder.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Reflexionar.</strong> Respondé las preguntas sobre tu forma de vincularte.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un encuentro.</strong> Organizá un rato con alguien que te hace bien.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si en un vínculo hay maltrato, control o tenés miedo, la prioridad es tu seguridad, no mejorar la comunicación: llamá al <a href="tel:144">144</a> o al <a href="tel:911">911</a>. Y si los conflictos se repiten siempre igual, puede ayudar un espacio terapéutico: podés leer sobre <a href="/dificultades-vinculares/">dificultades vinculares</a> o <a href="/contacto/">escribirme</a>. Para practicar cómo decir lo que te pasa, está el <a href="/laboratorio-de-comunicacion-no-violenta/">laboratorio de comunicación no violenta</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Bowlby, J. (1988). <em>Una base segura: aplicaciones clínicas de una teoría del apego</em>.</li>
+        <li>Gottman, J. M. y Silver, N. (1999). <em>Siete reglas de oro para vivir en pareja</em>.</li>
+        <li>Levine, A. y Heller, R. (2010). <em>Maneras de amar</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
