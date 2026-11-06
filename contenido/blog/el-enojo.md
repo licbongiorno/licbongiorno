@@ -46,6 +46,8 @@ En terapia se aprende a reconocer el enojo antes de que estalle o se esconda, a 
 
 Si el enojo se vuelve violencia hacia otros o hacia vos, pedí ayuda: ese es un momento para no estar solo.
 
+Para practicar cómo frenar antes de actuar, te puede servir el [laboratorio de habilidades para emociones intensas](/laboratorio-de-habilidades-dbt/).
+
 ## Preguntas frecuentes
 
 ### ¿Está mal enojarse?

@@ -76,6 +76,8 @@ A veces no es que falte una habilidad, sino que algo la bloquea: la autoexigenci
 
 Y si querés empezar a entrenar ahora, te espera el [laboratorio de creatividad](/laboratorio-de-creatividad/): consignas, juegos y desafíos para volver a jugar con las ideas.
 
+Además del de creatividad, hay un [laboratorio de aprender a aprender](/laboratorio-de-aprender-a-aprender/) para entrenar la metacognición.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es una metahabilidad?

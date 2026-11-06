@@ -42,6 +42,7 @@ La palabra *crisis* viene del griego y significa «decisión», «separación».
 
 Un espacio terapéutico permite detenerse y escuchar lo que la crisis está diciendo. Desde la mirada junguiana, se trabaja con la historia, con los deseos postergados y con las imágenes que aparecen en sueños y fantasías, como parte del [proceso de individuación](/glosario-junguiano/#individuacion). La primera mitad de la vida nos enseña a construir la casa; la segunda nos invita a habitarla de verdad.
 
+Si querés revisar qué te importa hoy, podés usar el [laboratorio de valores y sentido](/laboratorio-de-valores/).
 
 ## Preguntas frecuentes
 

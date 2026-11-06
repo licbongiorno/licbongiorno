@@ -1,0 +1,150 @@
+<!--{
+  "ruta": "/laboratorio-de-aprender-a-aprender/",
+  "titulo": "Laboratorio de aprender a aprender: técnicas de estudio",
+  "descripcion": "Técnicas de estudio con respaldo científico: mitos y evidencia, práctica de evocación, repasos espaciados con calendario y una autoevaluación metacognitiva.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Aprender a aprender", "/laboratorio-de-aprender-a-aprender/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>aprender a aprender</em>",
+  "bajada": "Estudiar más horas no siempre es estudiar mejor. Lo que dice la investigación sobre cómo aprendemos, y ejercicios para ponerlo en práctica.",
+  "respuesta": "El laboratorio de aprender a aprender reúne técnicas de estudio con respaldo científico, como la práctica de evocación y la práctica espaciada. Propone un quiz de mitos y evidencia, un ejercicio de evocación activa con reloj, un planificador de repasos espaciados descargable en el calendario y una autoevaluación metacognitiva. Es gratuito y no guarda datos.",
+  "scripts": ["lab-base.js", "laboratorio-aprender.js"],
+  "wa_tema": "el laboratorio de aprender a aprender",
+  "articulos": ["metahabilidades", "la-memoria", "que-es-la-inteligencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que «no te da la cabeza». Es que a casi nadie le enseñaron a estudiar. Nos dijeron que había que leer, subrayar y releer, y lo hicimos durante años con la sensación de que todo entraba… hasta el examen. La investigación muestra algo bastante distinto: lo que se siente fácil no siempre es lo que más se aprende.</p>
+        <p>Aprender a aprender es una <a href="/recursos/metahabilidades/">metahabilidad</a>: mejora la forma en que aprendemos cualquier otra cosa. Se apoya en la <strong>metacognición</strong>, darse cuenta de cómo uno piensa y aprende, y en algunas técnicas sencillas que tienen mucho respaldo científico.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Para cualquier edad.</strong> Sirve para la facultad, un idioma o un oficio.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+        <li><strong>Con algo real.</strong> Usá un tema que estés estudiando de verdad.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mitos">Mitos y evidencia</a>
+      <a href="#tecnicas">Técnicas que funcionan</a>
+      <a href="#evocar">Evocación activa</a>
+      <a href="#espaciar">Repasos espaciados</a>
+      <a href="#autoevaluacion">Autoevaluación</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mitos">¿Mito o evidencia?</h2>
+      <p class="lab-estacion__bajada">Sobre el aprendizaje circulan muchas ideas que suenan bien y no tienen respaldo. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="mitos">
+        <p class="lab-tarjeta__titulo">¿Qué es esta idea?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Tiene evidencia</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Es un mito</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="tecnicas" aria-labelledby="t-tecnicas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-tecnicas">Técnicas que funcionan</h2>
+      <p class="lab-estacion__bajada">En 2013, un equipo encabezado por John Dunlosky revisó cientos de estudios sobre técnicas de estudio. Estas son las que mejor salieron paradas; releer y subrayar, en cambio, quedaron entre las de menor utilidad.</p>
+      <div class="lab-necesidades">
+        <div class="lab-tarjeta"><h3>Evocar</h3><p>Cerrar el libro y tratar de recordar, hacerse preguntas o resolver ejercicios. Recordar fortalece la memoria mucho más que volver a leer.</p></div>
+        <div class="lab-tarjeta"><h3>Espaciar</h3><p>Repasar en varias sesiones separadas por días, en vez de todo junto la noche anterior. Olvidar un poco entre repaso y repaso ayuda.</p></div>
+        <div class="lab-tarjeta"><h3>Intercalar</h3><p>Mezclar temas o tipos de ejercicios en una misma sesión, en vez de hacer veinte iguales seguidos.</p></div>
+        <div class="lab-tarjeta"><h3>Explicar</h3><p>Preguntarse «¿por qué esto es así?» y explicarlo con las propias palabras, como si se lo contaras a alguien.</p></div>
+        <div class="lab-tarjeta"><h3>Ejemplos concretos</h3><p>Buscar ejemplos de la vida real para cada idea abstracta.</p></div>
+        <div class="lab-tarjeta"><h3>Palabras e imágenes</h3><p>Combinar texto con esquemas, dibujos o mapas: dos caminos para el mismo recuerdo.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="evocar" aria-labelledby="t-evocar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-evocar">Evocación activa</h2>
+      <p class="lab-estacion__bajada">Pegá o escribí un texto que estés estudiando (un resumen, una definición, una lista). Leelo una vez con atención, ocultalo y escribí todo lo que recuerdes en tres minutos. Después comparás.</p>
+      <div class="lab-tarjeta lab-armador" data-evocar>
+        <div class="lab-paso" data-evo-fuente-caja><label class="lab-paso__titulo" for="evo-fuente"><span>1</span>Lo que estás estudiando</label><textarea class="lab-texto" id="evo-fuente" rows="6" placeholder="Pegá acá el texto o escribí los puntos clave"></textarea></div>
+        <div class="lab-acciones" data-evo-acciones1><button class="boton boton--chico" type="button" data-evo-ocultar>Ya lo leí: ocultar y recordar</button></div>
+        <div class="lab-paso" data-evo-recuerdo hidden><label class="lab-paso__titulo" for="evo-recuerdo"><span>2</span>Lo que recordás</label><textarea class="lab-texto" id="evo-recuerdo" rows="6" placeholder="Escribí todo lo que te acuerdes, sin mirar"></textarea>
+          <div class="lab-barra"><span class="lab-reloj" data-evo-reloj aria-hidden="true">3:00</span><span class="lab-contador" data-evo-cuenta>0 palabras</span></div>
+          <p class="visualmente-oculto" role="status" data-evo-estado></p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-evo-comparar>Comparar con el original</button></div>
+        </div>
+        <div class="lab-resultado" data-evo-resultado hidden>
+          <p class="lab-tarjeta__titulo">Comparación</p>
+          <p data-evo-resumen></p>
+          <p class="lab-paso__ayuda">Marcá en el original lo que te olvidaste: esos son los puntos para tu próximo repaso. Equivocarse acá es parte del aprendizaje, no un fracaso.</p>
+          <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-evo-reiniciar>Hacerlo de nuevo</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="espaciar" aria-labelledby="t-espaciar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-espaciar">Planificador de repasos espaciados</h2>
+      <p class="lab-estacion__bajada">Escribí qué estudiaste y cuándo. El laboratorio te propone cinco repasos cada vez más separados (al día siguiente y a los 3, 7, 14 y 30 días) y te los deja descargar para tu calendario.</p>
+      <form class="lab-tarjeta lab-armador" data-espaciar novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-tema">Tema</label><input class="lab-campo" id="esp-tema" type="text" placeholder="Por ejemplo: Anatomía, unidad 3" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-fecha">Lo estudié por primera vez el</label><input class="lab-campo" id="esp-fecha" type="date" style="max-width:14rem"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-examen">Fecha del examen (opcional)</label><input class="lab-campo" id="esp-examen" type="date" style="max-width:14rem"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tus repasos</p>
+          <ol class="lab-repasos" data-esp-lista aria-live="polite"></ol>
+          <p class="lab-paso__ayuda" role="status" data-esp-estado></p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-esp-ics>Agregar a mi calendario (.ics)</button></div>
+        </div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="autoevaluacion" aria-labelledby="t-auto">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-auto">Autoevaluación: ¿cómo estudio?</h2>
+      <p class="lab-estacion__bajada">Seis preguntas para mirar tu forma de estudiar desde afuera. Es el corazón de la metacognición.</p>
+      <form class="lab-tarjeta lab-armador" data-auto novalidate>
+        <div data-auto-preguntas></div>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-auto-ver>Ver mi devolución</button></div>
+        <div class="lab-resultado" data-auto-resultado hidden tabindex="-1"><p class="lab-tarjeta__titulo">Tu devolución</p><ul data-auto-lista></ul></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Para probar otra forma de estudiar. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="aprender">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Cerrar el libro.</strong> Después de leer un tema, escribí todo lo que recordás.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Planificar.</strong> Armá tus repasos espaciados para un tema.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Preguntas propias.</strong> Escribí cinco preguntas de examen sobre lo que estudiás y respondelas sin mirar.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Enseñar.</strong> Explicale un tema a alguien, o a una silla vacía.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Intercalar.</strong> Mezclá dos temas o tipos de ejercicios en la misma sesión.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Sin pantallas.</strong> Una sesión de 25 minutos con el celular en otra habitación.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar atrás.</strong> ¿Qué técnica te sirvió más esta semana?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> A veces la dificultad para estudiar no es de técnica: puede haber ansiedad ante los exámenes, cansancio, desánimo o una dificultad de aprendizaje que nunca se evaluó. Si sentís que te esforzás mucho y no rinde, vale la pena consultarlo. Podés leer sobre <a href="/recursos/la-motivacion/">la motivación</a> o <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. y Willingham, D. T. (2013). «Improving students’ learning with effective learning techniques». <em>Psychological Science in the Public Interest</em>, 14(1).</li>
+        <li>Brown, P. C., Roediger, H. L. y McDaniel, M. A. (2014). <em>Make It Stick: The Science of Successful Learning</em>. Harvard University Press.</li>
+        <li>Pashler, H., McDaniel, M., Rohrer, D. y Bjork, R. (2008). «Learning styles: Concepts and evidence». <em>Psychological Science in the Public Interest</em>, 9(3).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

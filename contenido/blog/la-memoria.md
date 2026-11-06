@@ -53,6 +53,8 @@ Las experiencias cargadas de emoción se recuerdan con más fuerza: por eso reco
 
 Los olvidos cotidianos son normales. Conviene consultar con un médico si los olvidos son frecuentes y van en aumento, si afectan la vida diaria, si alguien cercano los nota o si aparecen desorientación o cambios de conducta. Y si sentís que los olvidos vienen con mucha angustia o cansancio, puede ayudar un espacio terapéutico. Podés escribirme.
 
+Para poner en práctica técnicas de estudio con respaldo científico, te espera el [laboratorio de aprender a aprender](/laboratorio-de-aprender-a-aprender/).
+
 ## Preguntas frecuentes
 
 ### ¿Cuáles son los tipos de memoria?

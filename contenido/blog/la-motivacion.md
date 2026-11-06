@@ -55,6 +55,8 @@ A veces el desgano no es falta de motivación, sino una señal de algo más:
 
 Exigirse más en esos casos suele empeorar las cosas. Si sentís que hace tiempo no tenés ganas de nada, vale la pena consultar. Podés escribirme.
 
+Si querés pensar qué te mueve de verdad, probá el [laboratorio de valores y sentido](/laboratorio-de-valores/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la motivación?

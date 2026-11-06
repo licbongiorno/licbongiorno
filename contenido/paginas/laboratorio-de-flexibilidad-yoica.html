@@ -1,0 +1,148 @@
+<!--{
+  "ruta": "/laboratorio-de-flexibilidad-yoica/",
+  "titulo": "Laboratorio de flexibilidad yoica: ejercicios",
+  "descripcion": "Ejercicios para un yo más flexible: mirar un conflicto desde tres lugares, buscar otras explicaciones, dialogar con tus voces internas y reconocer tus defensas.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Flexibilidad yoica", "/laboratorio-de-flexibilidad-yoica/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>flexibilidad yoica</em>",
+  "bajada": "Ni rígido ni desbordado: ejercicios para un yo que pueda adaptarse a lo que la vida trae sin perderse en el camino.",
+  "respuesta": "La flexibilidad yoica es la capacidad del yo de adaptarse a situaciones nuevas, tolerar emociones intensas y cambiar de punto de vista sin quebrarse ni volverse rígido. El psicólogo Jack Block la estudió como ego-resiliencia. Este laboratorio propone ejercicios para entrenarla: las tres sillas, otras explicaciones posibles, el diálogo con las voces internas y el reconocimiento de las propias defensas.",
+  "scripts": ["lab-base.js", "laboratorio-flexibilidad.js"],
+  "wa_tema": "el laboratorio de flexibilidad yoica",
+  "articulos": ["mecanismos-de-defensa", "el-yo-y-el-si-mismo", "metahabilidades"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es ser «de goma» ni adaptarse a todo. Es como un árbol que se dobla con el viento y vuelve a su lugar, en vez de quebrarse o de quedar tirado en el piso. Es poder decir «quizás me equivoqué», cambiar de plan sin sentir que se cae el mundo, escuchar una crítica sin derrumbarte y también sin atrincherarte.</p>
+        <p>El psicólogo Jack Block estudió durante décadas lo que llamó <strong>ego-resiliencia</strong>: la capacidad del yo de ajustarse a lo que cada situación pide. Un yo demasiado rígido se defiende de todo y se rompe ante lo nuevo; uno demasiado blando queda a merced de cada emoción. Desde Jung, la flexibilidad también es dejar que <a href="/recursos/el-yo-y-el-si-mismo/">el yo dialogue con el sí-mismo</a>: escuchar lo que viene de más adentro sin perder el timón.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Curiosidad, no juicio.</strong> No se trata de corregirte: se trata de ampliar.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con un conflicto real.</strong> Los ejercicios funcionan mejor con algo tuyo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#tres-sillas">Las tres sillas</a>
+      <a href="#explicaciones">Otras explicaciones</a>
+      <a href="#voces">Las voces internas</a>
+      <a href="#defensas">¿Qué hago para no sentir?</a>
+      <a href="#cambios">Pequeños cambios</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="tres-sillas" aria-labelledby="t-sillas">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-sillas">Las tres sillas</h2>
+      <p class="lab-estacion__bajada">Pensá en un conflicto con alguien. Sentate, de verdad o con la imaginación, en tres sillas distintas y escribí desde cada una. Cambiar de lugar físico ayuda a cambiar de punto de vista.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="las-tres-sillas" data-lab-form-titulo="Las tres sillas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ts-conflicto">El conflicto</label><input class="lab-campo" id="ts-conflicto" type="text" placeholder="Por ejemplo: la discusión con mi hermana por el cuidado de mamá" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ts-yo"><span>1</span>Desde mi silla</label><p class="lab-paso__ayuda">¿Qué siento, qué pienso, qué necesito?</p><textarea class="lab-texto" id="ts-yo" rows="4"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ts-otro"><span>2</span>Desde la silla del otro</label><p class="lab-paso__ayuda">Escribí en primera persona, como si fueras esa persona. ¿Qué siente, qué teme, qué necesita?</p><textarea class="lab-texto" id="ts-otro" rows="4"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ts-obs"><span>3</span>Desde la silla de alguien que observa</label><p class="lab-paso__ayuda">Alguien sabio y que quiere a los dos. ¿Qué ve que ustedes no ven? ¿Qué les diría?</p><textarea class="lab-texto" id="ts-obs" rows="4"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="explicaciones" aria-labelledby="t-explicaciones">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-explicaciones">Otras explicaciones posibles</h2>
+      <p class="lab-estacion__bajada">Ante algo que nos afecta, la cabeza elige una explicación, muchas veces la peor, y la da por cierta. Un yo flexible puede sostener varias a la vez. Escribí al menos tres antes de mirar los ejemplos.</p>
+      <div class="lab-tarjeta" data-flex-explicaciones>
+        <p class="lab-tarjeta__titulo">La situación</p>
+        <p class="lab-quiz__frase" data-flex-situacion aria-live="polite"></p>
+        <label class="visualmente-oculto" for="flex-exp">Tus explicaciones posibles</label>
+        <textarea class="lab-texto" id="flex-exp" rows="4" placeholder="1.&#10;2.&#10;3."></textarea>
+        <p class="lab-quiz__resultado bien" data-flex-ejemplos hidden></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-flex-ver>Ver otras posibles</button><button class="boton boton--secundario boton--chico" type="button" data-flex-otra>Otra situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="voces" aria-labelledby="t-voces">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-voces">Las voces internas</h2>
+      <p class="lab-estacion__bajada">Adentro nuestro no habla una sola voz. Hay una que exige, otra que tiene miedo, otra que cuida, otra que se rebela. Jung las pensaba como <a href="/recursos/los-complejos-segun-jung/">complejos</a> que actúan con cierta autonomía. El problema no es que existan, sino que una sola tome el control. Elegí la que más suena en tu vida hoy y conversá con ella.</p>
+      <form class="lab-tarjeta" data-lab-selector data-lab-form="dialogo-con-mis-voces" data-lab-form-titulo="Diálogo con una voz interna" novalidate>
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend class="lab-tarjeta__titulo">¿Qué voz querés escuchar?</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="flex-voz" value="exigente" checked><span>La exigente</span></label>
+            <label class="opcion"><input type="radio" name="flex-voz" value="asustada"><span>La asustada</span></label>
+            <label class="opcion"><input type="radio" name="flex-voz" value="cuida"><span>La que cuida</span></label>
+            <label class="opcion"><input type="radio" name="flex-voz" value="rebelde"><span>La rebelde</span></label>
+            <label class="opcion"><input type="radio" name="flex-voz" value="nino"><span>La niña o el niño</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-panel" data-lab-panel="exigente"><p>Suele decir «no alcanza», «tendrías que», «otra vez lo mismo». Muchas veces aprendió a exigir para protegerte de un fracaso o de una crítica.</p><p><strong>Preguntale:</strong> ¿de qué me querés proteger? ¿Desde cuándo estás? ¿Qué pasaría si te relajaras un poco?</p></div>
+        <div class="lab-panel" data-lab-panel="asustada" hidden><p>Suele decir «¿y si sale mal?», «mejor no», «es peligroso». Aprendió a anticipar el peligro y a veces lo ve donde no está.</p><p><strong>Preguntale:</strong> ¿qué es lo que más temés? ¿Qué necesitarías para sentirte un poco más a salvo?</p></div>
+        <div class="lab-panel" data-lab-panel="cuida" hidden><p>Suele decir «tranquilo», «ya va a pasar», «hiciste lo que pudiste». Es la voz que muchas veces menos escuchamos.</p><p><strong>Preguntale:</strong> ¿qué me dirías hoy? ¿Qué cuidado necesito y no me estoy dando?</p></div>
+        <div class="lab-panel" data-lab-panel="rebelde" hidden><p>Suele decir «no quiero», «basta», «que se arreglen». Puede ser un problema, pero también defiende límites y deseos propios que quedaron postergados.</p><p><strong>Preguntale:</strong> ¿contra qué te estás rebelando? ¿Qué querés defender de mí?</p></div>
+        <div class="lab-panel" data-lab-panel="nino" hidden><p>Es la parte más vulnerable y también la más espontánea: la que juega, se asombra y necesita que la quieran.</p><p><strong>Preguntale:</strong> ¿qué necesitás de mí? ¿Qué te gustaría hacer que hace tiempo no hacemos?</p></div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="flex-dialogo">El diálogo</label><p class="lab-paso__ayuda">Escribí la pregunta, dejá que la voz conteste sin censurarla y respondé desde tu yo adulto. Es una forma sencilla de <a href="/recursos/imaginacion-activa/">imaginación activa</a>.</p><textarea class="lab-texto" id="flex-dialogo" rows="7" placeholder="Yo: …&#10;La voz: …&#10;Yo: …"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="defensas" aria-labelledby="t-defensas">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-defensas">¿Qué hago para no sentir?</h2>
+      <p class="lab-estacion__bajada">Todos tenemos formas de protegernos de lo que duele: los <a href="/recursos/mecanismos-de-defensa/">mecanismos de defensa</a>. Un yo rígido usa siempre las mismas; uno flexible puede reconocerlas y elegir. ¿Qué defensa aparece en cada escena?</p>
+      <div class="lab-tarjeta" data-lab-quiz="defensas">
+        <p class="lab-tarjeta__titulo">¿Qué defensa es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta" data-lab-quiz-opciones></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente escena</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cambios" aria-labelledby="t-cambios">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-cambios">Pequeños cambios</h2>
+      <p class="lab-estacion__bajada">La flexibilidad también se entrena en lo cotidiano. Un desafío chico para hoy:</p>
+      <div class="lab-tarjeta" data-lab-azar="cambios">
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otro desafío</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="flexibilidad">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Las tres sillas.</strong> Hacé el ejercicio con un conflicto chico.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Tres explicaciones.</strong> Ante algo que te moleste, buscá tres explicaciones antes de reaccionar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Cambiar la rutina.</strong> Hacé algo de tu día de una forma distinta.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Una voz interna.</strong> Escribí un diálogo breve con la voz que más te exige.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. «Quizás tengas razón».</strong> Encontrá algo de verdad en una crítica que te hicieron.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Reconocer una defensa.</strong> Notá en qué momento usaste una defensa y qué estaba protegiendo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Algo nuevo.</strong> Probá una comida, un camino o una actividad que nunca hiciste.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios pueden mover recuerdos o emociones intensas. Podés frenar cuando quieras. Si sentís que algo se desordena o te angustia mucho, es una buena señal para trabajarlo acompañado: podés <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Block, J. H. y Block, J. (1980). «The role of ego-control and ego-resiliency in the organization of behavior». En W. A. Collins (Ed.), <em>Minnesota Symposia on Child Psychology</em>, vol. 13.</li>
+        <li>Freud, A. (1936). <em>El yo y los mecanismos de defensa</em>.</li>
+        <li>Jung, C. G. (1951). <em>Aion. Contribuciones a los simbolismos del sí-mismo</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

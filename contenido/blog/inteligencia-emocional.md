@@ -48,7 +48,7 @@ Salovey y Mayer describieron cuatro habilidades relacionadas:
 
 ## La mirada de la psicoterapia
 
-En terapia, el trabajo con las emociones va un poco más allá de las habilidades: busca entender por qué ciertas emociones nos desbordan, cuáles aprendimos a esconder y qué historia hay detrás. Desde la psicología de Jung, las emociones intensas suelen señalar un complejo activado y pueden ser una puerta de cambio ([las emociones según Jung](/recursos/las-emociones-segun-jung/)). Si sentís que lo que sentís te maneja, podés escribirme.
+En terapia, el trabajo con las emociones va un poco más allá de las habilidades: busca entender por qué ciertas emociones nos desbordan, cuáles aprendimos a esconder y qué historia hay detrás. Desde la psicología de Jung, las emociones intensas suelen señalar un complejo activado y pueden ser una puerta de cambio ([las emociones según Jung](/recursos/las-emociones-segun-jung/)). Si sentís que lo que sentís te maneja, podés escribirme. También podés practicar en el [laboratorio de emociones](/laboratorio-de-emociones/) y en el de [habilidades para emociones intensas](/laboratorio-de-habilidades-dbt/).
 
 ## Preguntas frecuentes
 

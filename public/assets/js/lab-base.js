@@ -79,12 +79,12 @@
   document.querySelectorAll("[data-lab-plan]").forEach(function (plan) {
     var clave = "lab-plan-" + (plan.getAttribute("data-lab-plan") || "creatividad");
     var casillas = plan.querySelectorAll('input[type="checkbox"]'), prog = plan.querySelector("[data-lab-plan-progreso]");
-    var total = casillas.length;
+    var total = casillas.length, unidad = plan.hasAttribute("data-lab-plan-unidad") ? plan.getAttribute("data-lab-plan-unidad") : " días";
     var leer = function () { try { return JSON.parse(localStorage.getItem(clave) || "[]"); } catch (e) { return []; } };
     var escribir = function (v) { try { localStorage.setItem(clave, JSON.stringify(v)); } catch (e) { /* sin almacenamiento */ } };
     var actualizar = function () {
       var hechos = Array.prototype.filter.call(casillas, function (c) { return c.checked; }).map(function (c) { return c.value; });
-      if (prog) prog.textContent = hechos.length === total ? "¡" + total + " de " + total + "! Completaste el plan." : hechos.length + " de " + total + " días";
+      if (prog) prog.textContent = hechos.length === total ? "¡" + total + " de " + total + "! Completaste el plan." : hechos.length + " de " + total + unidad;
       plan.classList.toggle("completo", hechos.length === total);
       escribir(hechos);
     };
@@ -95,43 +95,170 @@
     actualizar();
   });
 
-  /* Quizzes de dos opciones: <div data-lab-quiz="nombreDelBanco"> con [data-lab-quiz-frase], botones [data-lab-quiz-opcion="a|b"],
-     [data-lab-quiz-resultado] y [data-lab-quiz-siguiente]. El banco se registra con LAB.quiz(nombre, items),
-     donde cada item es { t: "frase", r: "a"|"b", e: "explicación" }. */
-  var BANCOS = {};
+  /* Quizzes: <div data-lab-quiz="nombre"> con [data-lab-quiz-frase], [data-lab-quiz-opciones] (botones [data-lab-quiz-opcion]),
+     [data-lab-quiz-resultado], [data-lab-quiz-marcador] y [data-lab-quiz-siguiente]. Se registra con LAB.quiz(nombre, items).
+     Cada item: { t: "frase", r: "a"|"b" (o el índice de la opción correcta), e: "explicación", ops: ["opción 1", ...] (opcional) }.
+     Si el item trae ops, los botones se arman desde los datos. */
   LAB.quiz = function (nombre, items) {
-    BANCOS[nombre] = items;
     document.querySelectorAll('[data-lab-quiz="' + nombre + '"]').forEach(function (caja) {
-      var orden = LAB.mezclar(items), i = 0, aciertos = 0, respondidas = 0;
+      var orden = LAB.mezclar(items), i = 0, aciertos = 0, respondidas = 0, respondida = false;
       var frase = caja.querySelector("[data-lab-quiz-frase]"), res = caja.querySelector("[data-lab-quiz-resultado]");
-      var opciones = caja.querySelectorAll("[data-lab-quiz-opcion]"), sig = caja.querySelector("[data-lab-quiz-siguiente]");
-      var marcador = caja.querySelector("[data-lab-quiz-marcador]");
+      var grupo = caja.querySelector("[data-lab-quiz-opciones]") || caja.querySelector(".lab-quiz__opciones");
+      var sig = caja.querySelector("[data-lab-quiz-siguiente]"), marcador = caja.querySelector("[data-lab-quiz-marcador]");
+      var actual = function () { return orden[i % orden.length]; };
       var mostrar = function () {
-        var it = orden[i % orden.length];
-        LAB.poner(frase, "«" + it.t + "»");
+        var it = actual();
+        respondida = false;
+        LAB.poner(frase, it.sinComillas ? it.t : "«" + it.t + "»");
+        if (it.ops) {
+          grupo.innerHTML = it.ops.map(function (o, k) {
+            return '<button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="' + k + '" aria-pressed="false"></button>';
+          }).join("");
+          grupo.querySelectorAll("[data-lab-quiz-opcion]").forEach(function (bt, k) { bt.textContent = it.ops[k]; });
+        }
         res.textContent = ""; res.className = "lab-quiz__resultado";
-        opciones.forEach(function (o) { o.disabled = false; o.setAttribute("aria-pressed", "false"); o.classList.remove("es-correcta", "es-incorrecta"); });
+        grupo.querySelectorAll("[data-lab-quiz-opcion]").forEach(function (o) { o.disabled = false; o.setAttribute("aria-pressed", "false"); o.classList.remove("es-correcta", "es-incorrecta"); });
         sig.hidden = true;
       };
-      opciones.forEach(function (o) {
-        o.addEventListener("click", function () {
-          var it = orden[i % orden.length], elegida = o.getAttribute("data-lab-quiz-opcion"), bien = elegida === it.r;
-          respondidas++; if (bien) aciertos++;
-          opciones.forEach(function (x) {
-            x.disabled = true;
-            x.setAttribute("aria-pressed", x === o ? "true" : "false");
-            if (x.getAttribute("data-lab-quiz-opcion") === it.r) x.classList.add("es-correcta");
-            else if (x === o) x.classList.add("es-incorrecta");
-          });
-          res.className = "lab-quiz__resultado " + (bien ? "bien" : "revisar");
-          res.textContent = (bien ? "Bien. " : "Mirala de nuevo. ") + it.e;
-          if (marcador) marcador.textContent = aciertos + " de " + respondidas;
-          sig.hidden = false; sig.focus();
+      grupo.addEventListener("click", function (ev) {
+        var o = ev.target.closest("[data-lab-quiz-opcion]");
+        if (!o || respondida) return;
+        respondida = true;
+        var it = actual(), bien = o.getAttribute("data-lab-quiz-opcion") === String(it.r);
+        respondidas++; if (bien) aciertos++;
+        grupo.querySelectorAll("[data-lab-quiz-opcion]").forEach(function (x) {
+          x.disabled = true;
+          x.setAttribute("aria-pressed", x === o ? "true" : "false");
+          if (x.getAttribute("data-lab-quiz-opcion") === String(it.r)) x.classList.add("es-correcta");
+          else if (x === o) x.classList.add("es-incorrecta");
         });
+        res.className = "lab-quiz__resultado " + (bien ? "bien" : "revisar");
+        res.textContent = (bien ? "Bien. " : "Mirala de nuevo. ") + it.e;
+        if (marcador) marcador.textContent = aciertos + " de " + respondidas;
+        sig.hidden = false; sig.focus();
       });
       sig.addEventListener("click", function () { i++; mostrar(); });
       mostrar();
     });
+  };
+
+  /* Tarjetas al azar: <div data-lab-azar="nombre"> con [data-lab-azar-texto] y [data-lab-azar-otra]. LAB.azarLista(nombre, items). */
+  LAB.azarLista = function (nombre, items) {
+    document.querySelectorAll('[data-lab-azar="' + nombre + '"]').forEach(function (caja) {
+      var t = caja.querySelector("[data-lab-azar-texto]");
+      t.textContent = LAB.azar(items);
+      caja.querySelector("[data-lab-azar-otra]").addEventListener("click", function () { LAB.poner(t, LAB.azar(items, t.textContent)); });
+    });
+  };
+
+  /* Pasos guiados: <div data-lab-pasos [data-lab-pasos-segundos="60"]> con un <ol> de pasos. Sin JS se ven todos. */
+  document.querySelectorAll("[data-lab-pasos]").forEach(function (caja) {
+    var pasos = caja.querySelectorAll("ol > li"), n = pasos.length, i = 0, seg = parseInt(caja.getAttribute("data-lab-pasos-segundos") || "0", 10);
+    if (!n) return;
+    var barra = document.createElement("div");
+    barra.className = "lab-pasos__barra";
+    barra.innerHTML = '<p class="lab-pasos__estado" role="status"></p>' + (seg ? '<span class="lab-reloj" aria-hidden="true"></span>' : "") +
+      '<div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-ant>Anterior</button>' +
+      '<button class="boton boton--chico" type="button" data-sig>Siguiente</button></div>';
+    caja.appendChild(barra);
+    caja.classList.add("lab-pasos--activo");
+    var estado = barra.querySelector(".lab-pasos__estado"), ant = barra.querySelector("[data-ant]"), sig = barra.querySelector("[data-sig]");
+    var reloj = seg ? LAB.temporizador(seg, barra.querySelector(".lab-reloj"), function () { estado.textContent = "Paso " + (i + 1) + " de " + n + ". Tiempo cumplido: cuando quieras, seguí."; LAB.campana(); }) : null;
+    var conReloj = false;
+    var mostrar = function () {
+      pasos.forEach(function (p, k) { p.hidden = k !== i; });
+      estado.textContent = "Paso " + (i + 1) + " de " + n;
+      ant.disabled = i === 0;
+      sig.textContent = i === n - 1 ? "Empezar de nuevo" : "Siguiente";
+      if (reloj && conReloj) { reloj.frenar(); reloj.empezar(); }
+    };
+    ant.addEventListener("click", function () { if (i > 0) { i--; mostrar(); } });
+    sig.addEventListener("click", function () { i = i === n - 1 ? 0 : i + 1; mostrar(); });
+    pasos.forEach(function (p, k) { p.hidden = k !== 0; });
+    estado.textContent = "Paso 1 de " + n;
+    ant.disabled = true;
+    if (reloj) barra.querySelector(".lab-reloj").textContent = LAB.mmss(seg);
+    // El reloj arranca recién cuando la persona avanza o toca «Empezar».
+    if (reloj) {
+      var empezar = document.createElement("button");
+      empezar.className = "boton boton--chico"; empezar.type = "button"; empezar.textContent = "Empezar con el reloj";
+      barra.querySelector(".lab-acciones").prepend(empezar);
+      empezar.addEventListener("click", function () { conReloj = true; reloj.frenar(); reloj.empezar(); empezar.remove(); sig.focus(); });
+    }
+  });
+
+  /* Selector con paneles: radios name=X dentro de [data-lab-selector] y paneles [data-lab-panel="valor"]. */
+  document.querySelectorAll("[data-lab-selector]").forEach(function (caja) {
+    var paneles = caja.querySelectorAll("[data-lab-panel]");
+    var ver = function () {
+      var m = caja.querySelector('input[type="radio"]:checked');
+      paneles.forEach(function (p) { p.hidden = !m || p.getAttribute("data-lab-panel") !== m.value; });
+    };
+    caja.addEventListener("change", ver);
+    ver();
+  });
+
+  /* Formularios descargables: <form data-lab-form="nombre-de-archivo" data-lab-form-titulo="Título">.
+     Cada campo con su <label>. Botones [data-lab-form-bajar] y [data-lab-form-copiar]. */
+  LAB.textoFormulario = function (form) {
+    var lineas = [form.getAttribute("data-lab-form-titulo") || document.title, ""];
+    form.querySelectorAll("input, textarea, select").forEach(function (c) {
+      if (c.type === "button" || c.type === "submit" || c.type === "reset") return;
+      if ((c.type === "checkbox" || c.type === "radio") && !c.checked) return;
+      var v = (c.type === "checkbox" || c.type === "radio") ? (c.closest("label") ? c.closest("label").textContent.trim() : c.value) : c.value.trim();
+      if (!v) return;
+      var lab = c.id ? form.querySelector('label[for="' + c.id + '"]') : null;
+      var nombre = lab ? lab.textContent.trim() : (c.closest("fieldset") && c.closest("fieldset").querySelector("legend") ? c.closest("fieldset").querySelector("legend").textContent.trim() : "");
+      lineas.push((nombre && !(c.type === "checkbox" || c.type === "radio") ? nombre + "\n" : "") + (c.type === "checkbox" ? "✓ " : "") + v);
+      if (!(c.type === "checkbox")) lineas.push("");
+    });
+    return lineas.join("\n").replace(/\n{3,}/g, "\n\n").trim() + "\n";
+  };
+  document.querySelectorAll("[data-lab-form]").forEach(function (form) {
+    form.addEventListener("submit", function (e) { e.preventDefault(); });
+    var aviso = form.querySelector("[data-lab-form-estado]");
+    var vacio = function () { return LAB.textoFormulario(form).split("\n").filter(function (l) { return l.trim(); }).length <= 1; };
+    var bajar = form.querySelector("[data-lab-form-bajar]"), copiar = form.querySelector("[data-lab-form-copiar]");
+    if (bajar) bajar.addEventListener("click", function () {
+      if (vacio()) { if (aviso) aviso.textContent = "Todavía no hay nada escrito para guardar."; return; }
+      LAB.guardarTexto(form.getAttribute("data-lab-form") + ".txt", LAB.textoFormulario(form));
+      if (aviso) aviso.textContent = "Listo: se descargó en tu dispositivo.";
+    });
+    if (copiar) copiar.addEventListener("click", function () {
+      if (vacio()) { if (aviso) aviso.textContent = "Todavía no hay nada escrito para copiar."; return; }
+      LAB.copiar(LAB.textoFormulario(form), copiar);
+    });
+  });
+
+  /* Campana suave con Web Audio (solo suena después de un toque de la persona). */
+  var audio = null;
+  LAB.campana = function () {
+    try {
+      audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+      var t = audio.currentTime;
+      [528, 792].forEach(function (f, k) {
+        var o = audio.createOscillator(), g = audio.createGain();
+        o.type = "sine"; o.frequency.value = f;
+        g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(k ? 0.05 : 0.12, t + 0.02);
+        g.gain.exponentialRampToValueAtTime(0.0001, t + 3.5);
+        o.connect(g); g.connect(audio.destination); o.start(t); o.stop(t + 3.6);
+      });
+    } catch (e) { /* sin audio */ }
+  };
+
+  /* Calendario: eventos [{ fecha: Date, titulo, descripcion }] → archivo .ics de día completo. */
+  LAB.descargarICS = function (nombre, eventos) {
+    var f = function (d) { return d.getFullYear() + ("0" + (d.getMonth() + 1)).slice(-2) + ("0" + d.getDate()).slice(-2); };
+    var esc = function (t) { return String(t).replace(/([,;\\])/g, "\\$1").replace(/\n/g, "\\n"); };
+    var ahora = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+/, "");
+    var l = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Nicolas Bongiorno//Laboratorios//ES", "CALSCALE:GREGORIAN"];
+    eventos.forEach(function (ev, k) {
+      var fin = new Date(ev.fecha); fin.setDate(fin.getDate() + 1);
+      l.push("BEGIN:VEVENT", "UID:" + ahora + "-" + k + "@laboratorios", "DTSTAMP:" + ahora, "DTSTART;VALUE=DATE:" + f(ev.fecha),
+        "DTEND;VALUE=DATE:" + f(fin), "SUMMARY:" + esc(ev.titulo), "DESCRIPTION:" + esc(ev.descripcion || ""), "END:VEVENT");
+    });
+    l.push("END:VCALENDAR");
+    LAB.guardarArchivo(nombre, new Blob([l.join("\r\n")], { type: "text/calendar;charset=utf-8" }));
   };
 
   window.LAB = LAB;

@@ -55,6 +55,7 @@ Si la ansiedad interfiere en tu vida cotidiana, en tu descanso, en tus vínculos
 
 La ansiedad tiene tratamiento. Y cuando dejamos de pelearnos con ella y empezamos a escucharla, deja de ser solo una alarma y se vuelve una brújula: señala, casi siempre, hacia algo de tu vida que está pidiendo lugar.
 
+Para practicar respiración guiada y anclaje, te espera el [laboratorio de presencia](/laboratorio-de-presencia/).
 
 ## Preguntas frecuentes
 

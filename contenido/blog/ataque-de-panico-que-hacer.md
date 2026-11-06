@@ -34,6 +34,7 @@ Durante un ataque de pánico, el cuerpo activa la respuesta de alarma como si hu
 
 Muchas personas, después de un ataque, empiezan a evitar los lugares o situaciones donde ocurrió, y la vida se va achicando: primero el colectivo, después el centro, después salir. Por eso conviene **consultar después del primero**, sin esperar a que se repita. En terapia se trabaja tanto el manejo de las crisis como lo que las alimenta: tensiones acumuladas, conflictos o cambios que todavía no encontraron palabras. El pánico grita porque algo, hace tiempo, viene hablando bajito. Más información en [Ansiedad y ataques de pánico](/ansiedad-y-ataques-de-panico/).
 
+Para practicar la respiración lenta y el anclaje en momentos de calma, podés usar el [laboratorio de presencia](/laboratorio-de-presencia/).
 
 ## Preguntas frecuentes
 

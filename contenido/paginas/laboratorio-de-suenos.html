@@ -1,0 +1,127 @@
+<!--{
+  "ruta": "/laboratorio-de-suenos/",
+  "titulo": "Laboratorio de sueños: registrar y explorar tus sueños",
+  "descripcion": "Registrá un sueño paso a paso, exploralo con preguntas inspiradas en Jung, dialogá con una figura del sueño y descargá todo en tu dispositivo.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Sueños", "/laboratorio-de-suenos/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>sueños</em>",
+  "bajada": "Un espacio para escribir un sueño antes de que se borre, mirarlo con preguntas y escuchar lo que trae. Sin diccionarios de significados: el sentido lo encontrás vos.",
+  "respuesta": "El laboratorio de sueños propone un registro guiado para escribir un sueño, preguntas de amplificación inspiradas en la psicología analítica de Jung, un ejercicio de diálogo con una figura del sueño y la opción de descargar todo en el propio dispositivo. No interpreta los sueños con significados fijos: ayuda a explorarlos.",
+  "scripts": ["lab-base.js", "laboratorio-suenos.js"],
+  "wa_tema": "el laboratorio de sueños",
+  "articulos": ["los-suenos-segun-jung", "suenos-recurrentes", "imaginacion-activa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es una adivinanza. Es esa escena que te quedó dando vueltas en el desayuno, la persona que no ves hace años y apareció anoche, la casa con una habitación que no conocías. Si no lo escribís, en un rato se borra. Y si lo escribís, muchas veces descubrís que el sueño sabía algo de tu vida que vos todavía no.</p>
+        <p>Para Jung, <a href="/recursos/los-suenos-segun-jung/">los sueños son cartas que el inconsciente nos escribe</a>: no esconden un significado fijo, sino que muestran, con imágenes, algo que la conciencia no está viendo. Este laboratorio no interpreta por vos: te acompaña a mirarlo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Escribí rápido.</strong> Los detalles se van en minutos.</li>
+        <li><strong>Sin registro.</strong> Nada sale de tu dispositivo hasta que lo descargues.</li>
+        <li><strong>Sin diccionario.</strong> Lo que importa es lo que la imagen te evoca a vos.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#registro">Registrar el sueño</a>
+      <a href="#amplificar">Amplificar</a>
+      <a href="#dialogo">Dialogar con una figura</a>
+      <a href="#guardar">Guardar</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <form data-lab-form="mi-sueno" data-lab-form-titulo="Mi sueño" novalidate>
+      <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+        <p class="lab-estacion__num">01</p>
+        <h2 id="t-registro">Registrar el sueño</h2>
+        <p class="lab-estacion__bajada">Escribilo en presente, como si estuviera pasando ahora, y sin corregir. No importa si es confuso o parece absurdo: así son los sueños.</p>
+        <div class="lab-tarjeta lab-armador">
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-titulo">Un título para el sueño</label><input class="lab-campo" id="su-titulo" type="text" placeholder="Por ejemplo: la casa de la abuela con una puerta nueva" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-relato">El sueño</label><textarea class="lab-texto" id="su-relato" rows="8" placeholder="Estoy en…"></textarea><p class="lab-paso__ayuda" data-su-palabras>0 palabras</p></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-emociones">¿Qué sentías en el sueño? ¿Y al despertar?</label><input class="lab-campo" id="su-emociones" type="text" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-personajes">Personas, animales o figuras que aparecen</label><input class="lab-campo" id="su-personajes" type="text" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-lugares">Lugares</label><input class="lab-campo" id="su-lugares" type="text" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-vida">¿Qué estaba pasando en tu vida en estos días?</label><textarea class="lab-texto" id="su-vida" rows="3"></textarea></div>
+        </div>
+      </section>
+
+      <section class="lab-estacion revelar" id="amplificar" aria-labelledby="t-amplificar">
+        <p class="lab-estacion__num">02</p>
+        <h2 id="t-amplificar">Amplificar una imagen</h2>
+        <p class="lab-estacion__bajada">Jung no buscaba qué «significa» una imagen, sino ampliarla: rodearla de asociaciones personales y de historias, mitos y cuentos donde aparece algo parecido. Es lo que llamó <a href="/glosario-junguiano/#amplificacion">amplificación</a>. Elegí la imagen que más te llama la atención.</p>
+        <div class="lab-tarjeta lab-armador">
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-imagen">La imagen</label><input class="lab-campo" id="su-imagen" type="text" placeholder="Por ejemplo: la puerta nueva" autocomplete="off" data-su-imagen></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-a1" data-su-pregunta="¿Cómo es exactamente {x}? Describila con detalle.">¿Cómo es exactamente? Describila con detalle.</label><textarea class="lab-texto" id="su-a1" rows="2"></textarea></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-a2" data-su-pregunta="¿Qué recuerdos, personas o emociones te trae {x}?">¿Qué recuerdos, personas o emociones te trae?</label><textarea class="lab-texto" id="su-a2" rows="2"></textarea></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-a3" data-su-pregunta="¿En qué cuento, mito, película o historia aparece algo como {x}?">¿En qué cuento, mito, película o historia aparece algo así?</label><textarea class="lab-texto" id="su-a3" rows="2"></textarea></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-a4" data-su-pregunta="Si {x} fuera una parte tuya, ¿qué parte sería?">Si fuera una parte tuya, ¿qué parte sería?</label><textarea class="lab-texto" id="su-a4" rows="2"></textarea></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-a5" data-su-pregunta="¿Qué tiene que ver {x} con lo que estás viviendo?">¿Qué tiene que ver con lo que estás viviendo?</label><textarea class="lab-texto" id="su-a5" rows="2"></textarea></div>
+        </div>
+      </section>
+
+      <section class="lab-estacion revelar" id="dialogo" aria-labelledby="t-dialogo">
+        <p class="lab-estacion__num">03</p>
+        <h2 id="t-dialogo">Dialogar con una figura del sueño</h2>
+        <p class="lab-estacion__bajada">Una forma simple de <a href="/recursos/imaginacion-activa/">imaginación activa</a>: volver al sueño con los ojos cerrados, acercarte a una figura (una persona, un animal, un objeto) y preguntarle. Después escribí lo que apareció, sin censurarlo.</p>
+        <div class="lab-tarjeta lab-armador">
+          <ol class="lab-guion">
+            <li>Respirá tranquilo y volvé con la imaginación a la escena del sueño.</li>
+            <li>Elegí una figura y acercate. Mirala con detalle.</li>
+            <li>Preguntale: <em>¿quién sos?</em>, <em>¿qué hacés en mi sueño?</em>, <em>¿qué querés mostrarme?</em></li>
+            <li>Esperá su respuesta sin forzarla. Puede ser una palabra, un gesto, una imagen.</li>
+            <li>Respondé desde vos, con lo que sentís. Cuando quieras, despedite y abrí los ojos.</li>
+          </ol>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-figura">La figura</label><input class="lab-campo" id="su-figura" type="text" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="su-dialogo">El diálogo</label><textarea class="lab-texto" id="su-dialogo" rows="6" placeholder="Yo: …&#10;La figura: …"></textarea></div>
+        </div>
+      </section>
+
+      <section class="lab-estacion revelar" id="guardar" aria-labelledby="t-guardar">
+        <p class="lab-estacion__num">04</p>
+        <h2 id="t-guardar">Guardar el sueño</h2>
+        <p class="lab-estacion__bajada">Todo lo que escribiste en las tres estaciones se descarga en un archivo de texto en tu dispositivo. Si preferís el papel, está el <a href="/assets/descargas/diario-de-suenos.pdf" download>Diario de sueños para imprimir</a>.</p>
+        <div class="lab-tarjeta">
+          <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi sueño</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Empezar un sueño nuevo</button></div>
+        </div>
+      </section>
+    </form>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días para recordar más sueños</h2>
+      <p class="lab-estacion__bajada">Recordar sueños es, en parte, un hábito: cuanta más atención les damos, más vuelven. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="suenos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. La intención.</strong> Antes de dormir, decite: «mañana quiero recordar un sueño».</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Quieto al despertar.</strong> Antes de moverte o mirar el celular, quedate un minuto buscando imágenes.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Cuaderno en la mesa de luz.</strong> Anotá aunque sea una palabra o una sensación.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Registro completo.</strong> Escribí un sueño entero con este laboratorio.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Una imagen.</strong> Amplificá una imagen de un sueño.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Dibujarlo.</strong> Hacé un dibujo simple de una escena del sueño.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Releer.</strong> Mirá los sueños de la semana juntos: ¿algo se repite?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si tenés pesadillas frecuentes, sueños que repiten una experiencia traumática o te despertás con mucha angustia, conviene trabajarlo con un profesional. Podés leer sobre <a href="/recursos/suenos-recurrentes/">los sueños recurrentes</a> y <a href="/trauma/">el trauma</a>, o <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Jung, C. G. (1945/1948). «De la esencia de los sueños». En <em>La dinámica de lo inconsciente</em> (Obra completa, vol. 8).</li>
+        <li>Jung, C. G. y otros (1964). <em>El hombre y sus símbolos</em>.</li>
+        <li>Johnson, R. A. (1986). <em>Inner Work: Using Dreams and Active Imagination for Personal Growth</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

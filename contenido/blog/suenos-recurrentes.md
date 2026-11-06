@@ -48,6 +48,8 @@ Podés usar el [Diario de sueños](/assets/descargas/diario-de-suenos.pdf) para 
 
 Si un sueño recurrente te angustia, interrumpe tu descanso o se acompaña de otros síntomas —como pesadillas muy intensas después de una experiencia difícil—, vale la pena hablarlo con un profesional. En terapia junguiana, los sueños que se repiten suelen ser una puerta privilegiada. Muchas veces, cuando el mensaje empieza a escucharse, el sueño deja de golpear la puerta.
 
+Para registrar un sueño y explorarlo con preguntas, podés usar el [laboratorio de sueños](/laboratorio-de-suenos/).
+
 ## Preguntas frecuentes
 
 ### ¿Por qué tengo siempre el mismo sueño?

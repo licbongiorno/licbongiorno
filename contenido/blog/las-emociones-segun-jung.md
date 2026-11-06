@@ -48,6 +48,8 @@ Jung no proponía descargar todo ni reprimirlo todo, sino algo intermedio: darle
 
 Si querés profundizar en algunas emociones en particular, podés leer sobre [el enojo](/recursos/el-enojo/), [la culpa](/recursos/la-culpa/) o [la ansiedad](/recursos/ansiedad-cuando-el-cuerpo-habla/). Y si sentís que tus emociones te desbordan con frecuencia, la terapia es un buen lugar para empezar a entenderlas. Podés [escribirme](/contacto/).
 
+Si querés practicar, en el [laboratorio de emociones](/laboratorio-de-emociones/) hay un mapa para ponerle nombre a lo que sentís y un diario emocional.
+
 ## Preguntas frecuentes
 
 ### ¿Qué son las emociones según Jung?

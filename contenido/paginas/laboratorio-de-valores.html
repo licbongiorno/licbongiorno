@@ -1,0 +1,117 @@
+<!--{
+  "ruta": "/laboratorio-de-valores/",
+  "titulo": "Laboratorio de valores y sentido: qué te importa",
+  "descripcion": "Elegí y ordená tus valores, medí cuánto los estás viviendo, definí una acción para esta semana y armá tu rueda de la vida. Gratis y sin dejar datos.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Valores y sentido", "/laboratorio-de-valores/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>valores y sentido</em>",
+  "bajada": "No se trata de metas para tachar, sino de direcciones para caminar. Ejercicios para descubrir qué te importa de verdad y cuánto lugar le estás dando.",
+  "respuesta": "El laboratorio de valores y sentido propone elegir y ordenar los valores personales, medir cuánto se están viviendo hoy, definir una acción concreta para cada uno y armar una rueda de la vida con ocho áreas. Se inspira en Viktor Frankl y en el trabajo con valores de la terapia de aceptación y compromiso. Nada sale del dispositivo.",
+  "scripts": ["lab-base.js", "laboratorio-valores.js"],
+  "wa_tema": "el laboratorio de valores",
+  "articulos": ["crisis-de-la-mitad-de-la-vida", "el-proceso-de-individuacion", "la-motivacion"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es una lista de buenos propósitos. Es esa incomodidad de llegar a fin de año y sentir que estuviste ocupado todo el tiempo en cosas que no te importan tanto. Es darte cuenta de que decís que la familia es lo primero y la ves los domingos un rato. A veces el malestar no viene de lo que nos pasa, sino de lo lejos que estamos de lo que valoramos.</p>
+        <p>El psiquiatra Viktor Frankl, que sobrevivió a los campos de concentración, sostuvo que lo que más nos sostiene es el <strong>sentido</strong>. Y las terapias de aceptación y compromiso trabajan los valores como una brújula: no un lugar al que se llega, sino una dirección que se elige cada día. Para Jung, acercarse a eso propio es parte del <a href="/recursos/el-proceso-de-individuacion/">proceso de individuación</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Honestidad antes que perfección.</strong> Elegí lo que te importa, no lo que «debería» importarte.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+        <li><strong>En orden.</strong> Las estaciones se van alimentando entre sí.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#elegir">Elegir valores</a>
+      <a href="#ordenar">Ordenarlos</a>
+      <a href="#brujula">Brújula</a>
+      <a href="#rueda">Rueda de la vida</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <div data-valores>
+      <section class="lab-estacion revelar" id="elegir" aria-labelledby="t-elegir">
+        <p class="lab-estacion__num">01</p>
+        <h2 id="t-elegir">Elegí tus valores</h2>
+        <p class="lab-estacion__bajada">Recorré la lista y marcá hasta diez que sientas tuyos. No hay valores mejores que otros.</p>
+        <div class="lab-tarjeta">
+          <fieldset style="border:0;padding:0;margin:0"><legend class="lab-tarjeta__titulo">Valores</legend><div class="lab-chips opciones" data-val-chips></div></fieldset>
+          <p class="lab-plan__progreso" role="status" data-val-cuenta>0 de 10 elegidos</p>
+        </div>
+      </section>
+
+      <section class="lab-estacion revelar" id="ordenar" aria-labelledby="t-ordenar">
+        <p class="lab-estacion__num">02</p>
+        <h2 id="t-ordenar">Ordenalos</h2>
+        <p class="lab-estacion__bajada">Ahora ordená los que elegiste, del más importante al menos importante, con las flechas. Los cinco primeros son tu núcleo: los vamos a usar en la brújula.</p>
+        <div class="lab-tarjeta">
+          <ol class="lab-orden" data-val-orden></ol>
+          <p class="lab-nota" data-val-vacio>Todavía no elegiste valores en el paso anterior.</p>
+          <p class="visualmente-oculto" role="status" data-val-orden-estado></p>
+        </div>
+      </section>
+
+      <section class="lab-estacion revelar" id="brujula" aria-labelledby="t-brujula">
+        <p class="lab-estacion__num">03</p>
+        <h2 id="t-brujula">La brújula</h2>
+        <p class="lab-estacion__bajada">Para cada uno de tus cinco valores principales: ¿cuánto lo estás viviendo hoy, del 0 al 10? ¿Qué acción pequeña y concreta podrías hacer esta semana para acercarte un paso?</p>
+        <form class="lab-tarjeta" data-val-brujula novalidate>
+          <div data-val-brujula-filas><p class="lab-nota">Elegí y ordená tus valores para completar la brújula.</p></div>
+          <p class="lab-paso__ayuda" role="status" data-val-brujula-estado></p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-val-bajar>Guardar mi brújula</button><button class="boton boton--secundario boton--chico" type="button" data-val-copiar>Copiar</button></div>
+        </form>
+      </section>
+    </div>
+
+    <section class="lab-estacion revelar" id="rueda" aria-labelledby="t-rueda">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-rueda">Rueda de la vida</h2>
+      <p class="lab-estacion__bajada">¿Qué tan satisfecho o satisfecha estás hoy con cada área de tu vida, del 0 al 10? La rueda muestra de un vistazo dónde hay equilibrio y dónde algo pide atención.</p>
+      <div class="lab-tarjeta lab-rueda" data-rueda>
+        <div class="lab-rueda__controles" data-rueda-controles></div>
+        <figure class="lab-rueda__grafico">
+          <svg viewBox="-60 -10 440 340" role="img" aria-labelledby="rueda-desc" data-rueda-svg><title id="rueda-desc">Rueda de la vida con tus puntajes</title></svg>
+          <figcaption class="lab-nota" data-rueda-resumen aria-live="polite"></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Pequeños pasos hacia lo que te importa. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="valores">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Elegir.</strong> Elegí y ordená tus valores en este laboratorio.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una acción.</strong> Hacé la acción pequeña de tu valor número uno.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Agenda.</strong> Mirá tu semana: ¿cuánto tiempo le das a lo que valorás?</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Decir que no.</strong> Rechazá algo que te aleja de tus valores.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Otra acción.</strong> Hacé la acción de tu segundo valor.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. La rueda.</strong> Completá la rueda de la vida y elegí un área para cuidar.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Sentido.</strong> Escribí: ¿qué momento de esta semana tuvo más sentido y por qué?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> A veces este ejercicio deja ver una distancia grande entre lo que valorás y la vida que llevás, y eso puede doler. No es un fracaso: es información. Si sentís que estás en una <a href="/crisis-vitales/">crisis vital</a> o que perdiste el sentido, es un buen momento para conversarlo: podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Frankl, V. E. (1946). <em>El hombre en busca de sentido</em>.</li>
+        <li>Hayes, S. C., Strosahl, K. D. y Wilson, K. G. (2012). <em>Acceptance and Commitment Therapy</em> (2.ª ed.). Guilford Press.</li>
+        <li>Wilson, K. G. y Murrell, A. R. (2004). «Values work in acceptance and commitment therapy». En S. C. Hayes y otros (Eds.), <em>Mindfulness and Acceptance</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

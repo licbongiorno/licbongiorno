@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-de-emociones/",
+  "titulo": "Laboratorio de emociones: reconocer y entender lo que sentís",
+  "descripcion": "Ejercicios para ponerle nombre a lo que sentís: un mapa de emociones, un termómetro de intensidad, para qué sirve cada emoción y un diario emocional.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Emociones", "/laboratorio-de-emociones/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>emociones</em>",
+  "bajada": "Ponerle nombre a lo que sentís ya cambia algo. Un mapa para reconocer las emociones, entender qué te dicen y registrar cómo aparecen en tu vida.",
+  "respuesta": "El laboratorio de emociones propone ejercicios para reconocer, nombrar y comprender lo que sentimos: un mapa que va de las emociones básicas a las más finas, un termómetro de intensidad con sugerencias según el nivel, la función de cada emoción y un diario emocional descargable. Nada de lo que escribas sale de tu dispositivo.",
+  "scripts": ["lab-base.js", "laboratorio-emociones.js"],
+  "wa_tema": "el laboratorio de emociones",
+  "articulos": ["las-emociones-segun-jung", "inteligencia-emocional", "la-culpa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que «estés mal» y punto. «Mal» puede ser cansancio, desilusión, celos, vergüenza o una mezcla de todo eso. Y no es lo mismo. Cuando alguien me dice «no sé lo que me pasa», casi siempre empezamos por ahí: por encontrar la palabra justa. Ponerle nombre a una emoción ya la vuelve un poco más manejable.</p>
+        <p>Las emociones no son buenas ni malas: son información. Cada una nos dice algo sobre lo que nos pasa y sobre lo que necesitamos. Para Jung, además, son <a href="/recursos/las-emociones-segun-jung/">energía y una puerta para darse cuenta</a>. Este laboratorio es para conocerlas un poco mejor.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Todas valen.</strong> No hay emociones prohibidas, sí formas de expresarlas que lastiman.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con curiosidad.</strong> Mirá lo que sentís como mirarías el clima.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mapa">Mapa de emociones</a>
+      <a href="#termometro">Termómetro</a>
+      <a href="#diario">Diario emocional</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mapa">Mapa de emociones</h2>
+      <p class="lab-estacion__bajada">El psicólogo Paul Ekman describió un grupo de emociones básicas que se reconocen en culturas muy distintas. De cada una se desprenden muchas emociones más finas. Elegí una para ver sus matices, para qué sirve y qué suele pedir.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una emoción básica">
+          <label class="opcion"><input type="radio" name="emo-base" value="alegria" checked><span>Alegría</span></label>
+          <label class="opcion"><input type="radio" name="emo-base" value="tristeza"><span>Tristeza</span></label>
+          <label class="opcion"><input type="radio" name="emo-base" value="enojo"><span>Enojo</span></label>
+          <label class="opcion"><input type="radio" name="emo-base" value="miedo"><span>Miedo</span></label>
+          <label class="opcion"><input type="radio" name="emo-base" value="asco"><span>Asco</span></label>
+          <label class="opcion"><input type="radio" name="emo-base" value="sorpresa"><span>Sorpresa</span></label>
+          <label class="opcion"><input type="radio" name="emo-base" value="sociales"><span>Emociones sociales</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="alegria">
+          <p><strong>Para qué sirve:</strong> señala que algo nos hace bien y nos acerca a eso. Fortalece los vínculos.</p>
+          <p><strong>Qué suele pedir:</strong> compartir, celebrar, repetir lo que la generó.</p>
+          <ul class="lab-matices"><li><strong>Alivio:</strong> pasó algo que temíamos.</li><li><strong>Gratitud:</strong> alguien hizo algo por nosotros.</li><li><strong>Entusiasmo:</strong> algo valioso está por venir.</li><li><strong>Orgullo:</strong> logramos algo que nos importa.</li><li><strong>Ternura:</strong> algo frágil nos conmueve.</li><li><strong>Calma:</strong> por ahora, no falta nada.</li></ul>
+        </div>
+        <div class="lab-panel" data-lab-panel="tristeza" hidden>
+          <p><strong>Para qué sirve:</strong> nos ayuda a procesar una pérdida, a frenar y a pedir cuidado.</p>
+          <p><strong>Qué suele pedir:</strong> tiempo, compañía, permiso para llorar.</p>
+          <ul class="lab-matices"><li><strong>Desilusión:</strong> algo no fue como esperábamos.</li><li><strong>Nostalgia:</strong> extrañamos algo que ya pasó.</li><li><strong>Soledad:</strong> falta conexión con otros.</li><li><strong>Desánimo:</strong> no vemos salida o sentido.</li><li><strong>Pena:</strong> nos duele lo que le pasa a alguien.</li><li><strong>Duelo:</strong> perdimos a alguien o algo importante.</li></ul>
+          <p class="lab-nota">Si la tristeza dura semanas, nada interesa y cuesta sostener lo cotidiano, puede ser <a href="/depresion/">depresión</a>: vale la pena consultar.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="enojo" hidden>
+          <p><strong>Para qué sirve:</strong> avisa que algo es injusto, que se cruzó un límite o que algo nos impide lo que necesitamos. Da energía para defenderse.</p>
+          <p><strong>Qué suele pedir:</strong> poner un límite, reparar una injusticia, ser escuchado.</p>
+          <ul class="lab-matices"><li><strong>Irritación:</strong> algo pequeño molesta.</li><li><strong>Frustración:</strong> algo nos impide lo que queremos.</li><li><strong>Indignación:</strong> vemos una injusticia.</li><li><strong>Resentimiento:</strong> un enojo viejo que no se dijo.</li><li><strong>Celos:</strong> tememos perder a alguien.</li><li><strong>Impaciencia:</strong> algo tarda más de lo que podemos esperar.</li></ul>
+          <p class="lab-nota">Más en <a href="/recursos/el-enojo/">el enojo: una emoción que también protege</a>.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="miedo" hidden>
+          <p><strong>Para qué sirve:</strong> nos protege de un peligro, real o anticipado.</p>
+          <p><strong>Qué suele pedir:</strong> seguridad, información, compañía.</p>
+          <ul class="lab-matices"><li><strong>Preocupación:</strong> pensamos en lo que puede salir mal.</li><li><strong>Ansiedad:</strong> miedo sin un peligro claro, muy en el cuerpo.</li><li><strong>Inseguridad:</strong> dudamos de poder con algo.</li><li><strong>Nerviosismo:</strong> algo importante está por pasar.</li><li><strong>Pánico:</strong> una ola de miedo intenso.</li><li><strong>Desconfianza:</strong> tememos que nos dañen.</li></ul>
+          <p class="lab-nota">Más en <a href="/recursos/ansiedad-cuando-el-cuerpo-habla/">ansiedad: cuando el cuerpo habla</a>.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="asco" hidden>
+          <p><strong>Para qué sirve:</strong> nos aleja de lo que puede enfermarnos o contaminarnos, y también de lo que nos parece moralmente inaceptable.</p>
+          <p><strong>Qué suele pedir:</strong> distancia, rechazar, limpiar.</p>
+          <ul class="lab-matices"><li><strong>Rechazo:</strong> no queremos cerca algo o a alguien.</li><li><strong>Desprecio:</strong> nos sentimos por encima de otro.</li><li><strong>Aversión:</strong> algo nos resulta intolerable.</li><li><strong>Repulsión moral:</strong> algo choca con nuestros valores.</li></ul>
+        </div>
+        <div class="lab-panel" data-lab-panel="sorpresa" hidden>
+          <p><strong>Para qué sirve:</strong> frena todo para que prestemos atención a algo inesperado.</p>
+          <p><strong>Qué suele pedir:</strong> entender qué pasó antes de reaccionar.</p>
+          <ul class="lab-matices"><li><strong>Asombro:</strong> algo nos maravilla.</li><li><strong>Desconcierto:</strong> no entendemos lo que pasa.</li><li><strong>Sobresalto:</strong> algo nos asusta de golpe.</li><li><strong>Curiosidad:</strong> queremos saber más.</li></ul>
+        </div>
+        <div class="lab-panel" data-lab-panel="sociales" hidden>
+          <p><strong>Para qué sirven:</strong> regulan cómo nos vinculamos con otros y con nuestras propias normas.</p>
+          <ul class="lab-matices"><li><strong>Vergüenza:</strong> sentimos que somos inadecuados ante la mirada de otros. Pide esconderse.</li><li><strong>Culpa:</strong> sentimos que hicimos algo mal. Pide reparar. Más en <a href="/recursos/la-culpa/">la culpa</a>.</li><li><strong>Envidia:</strong> deseamos algo que otro tiene. Señala un deseo propio.</li><li><strong>Orgullo:</strong> valoramos algo nuestro.</li><li><strong>Compasión:</strong> nos conmueve el sufrimiento de otro y queremos aliviarlo.</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="termometro" aria-labelledby="t-termometro">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-termometro">Termómetro emocional</h2>
+      <p class="lab-estacion__bajada">La misma emoción puede ser una brisa o una tormenta. Medir la intensidad ayuda a elegir qué hacer: no es lo mismo una molestia de 3 que un enojo de 9. ¿Qué tan intensa es tu emoción ahora?</p>
+      <div class="lab-tarjeta" data-emo-termometro>
+        <label class="lab-paso__titulo" for="emo-nivel">Intensidad: <output data-emo-valor for="emo-nivel">5</output> de 10</label>
+        <input class="lab-rango" id="emo-nivel" type="range" min="0" max="10" step="1" value="5" aria-describedby="emo-texto">
+        <div class="lab-rango__escala" aria-hidden="true"><span>0</span><span>5</span><span>10</span></div>
+        <div class="lab-termometro__texto" id="emo-texto" aria-live="polite" data-emo-texto></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="diario" aria-labelledby="t-diario">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-diario">Diario emocional</h2>
+      <p class="lab-estacion__bajada">Registrar las emociones durante unos días muestra patrones: qué las dispara, cómo aparecen en el cuerpo, qué hacemos con ellas. Completá lo que puedas y descargalo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="diario-emocional" data-lab-form-titulo="Diario emocional" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-situacion">¿Qué pasó?</label><textarea class="lab-texto" id="de-situacion" rows="2" placeholder="La situación, como la contaría una cámara"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-emocion">¿Qué sentí?</label><input class="lab-campo" id="de-emocion" type="text" placeholder="Usá el mapa para encontrar la palabra justa" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-intensidad">¿Con qué intensidad? (0 a 10)</label><input class="lab-campo" id="de-intensidad" type="number" min="0" max="10" inputmode="numeric" style="max-width:8rem"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-cuerpo">¿Dónde lo sentí en el cuerpo?</label><input class="lab-campo" id="de-cuerpo" type="text" placeholder="Nudo en el estómago, calor en la cara…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-pensamiento">¿Qué pensé?</label><textarea class="lab-texto" id="de-pensamiento" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-hice">¿Qué hice?</label><textarea class="lab-texto" id="de-hice" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-necesitaba">¿Qué necesitaba?</label><textarea class="lab-texto" id="de-necesitaba" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Nueva entrada</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="emociones">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Tres palabras.</strong> Tres veces en el día, nombrá lo que sentís con una palabra precisa del mapa.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. El cuerpo avisa.</strong> Notá dónde sentís cada emoción en el cuerpo.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Termómetro.</strong> Medí la intensidad de una emoción fuerte antes de reaccionar.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Diario.</strong> Completá una entrada del diario emocional.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. ¿Qué pide?</strong> Ante una emoción, preguntate qué necesita y dáselo si podés.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Contarlo.</strong> Contale a alguien de confianza cómo te sentiste hoy.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Patrones.</strong> Releé lo que registraste: ¿qué se repite?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si las emociones te desbordan con frecuencia, si hace semanas que nada te interesa o si aparecen pensamientos de hacerte daño, no es algo para resolver solo. Mirá <a href="/ayuda-urgente/">ayuda urgente</a> o <a href="/contacto/">escribime</a>. También te puede servir el <a href="/laboratorio-de-habilidades-dbt/">laboratorio de habilidades</a> para los momentos de mucha intensidad.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Ekman, P. (2003). <em>El rostro de las emociones</em>.</li>
+        <li>Jung, C. G. (1921). <em>Tipos psicológicos</em>. Ver las definiciones de «afecto» y «sentimiento».</li>
+        <li>Lieberman, M. D. y otros (2007). «Putting feelings into words». <em>Psychological Science</em>, 18(5).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

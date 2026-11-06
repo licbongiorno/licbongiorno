@@ -45,6 +45,8 @@ En una terapia junguiana, los sueños son una vía privilegiada para conocer lo 
 **Descargá el [Diario de sueños](/assets/descargas/diario-de-suenos.pdf)**: un cuaderno para imprimir, con una guía para registrar tus sueños, sus emociones y lo que te evocan. Gratis y sin dejar datos.
 :::fin
 
+Para registrar y explorar tus propios sueños, te espera el [laboratorio de sueños](/laboratorio-de-suenos/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué diferencia hay entre Freud y Jung sobre los sueños?

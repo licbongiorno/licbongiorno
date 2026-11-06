@@ -53,7 +53,7 @@ Se vuelven un problema cuando:
 
 ## Cómo se trabajan en terapia
 
-En psicoterapia no se trata de «derribar» las defensas, sino de entender qué protegen y, de a poco, encontrar formas menos costosas de atravesar lo que duele. Se respeta el ritmo de cada persona: a veces una defensa está ahí porque todavía es necesaria. Si querés conocer cómo trabajo, podés leer sobre mi [enfoque](/enfoque/) o escribirme.
+En psicoterapia no se trata de «derribar» las defensas, sino de entender qué protegen y, de a poco, encontrar formas menos costosas de atravesar lo que duele. Se respeta el ritmo de cada persona: a veces una defensa está ahí porque todavía es necesaria. Si querés conocer cómo trabajo, podés leer sobre mi [enfoque](/enfoque/) o escribirme. Para reconocer tus propias defensas, probá el [laboratorio de flexibilidad yoica](/laboratorio-de-flexibilidad-yoica/).
 
 ## Preguntas frecuentes
 

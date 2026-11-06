@@ -287,6 +287,20 @@ LABORATORIOS = [
      "descripcion": "Combinar ideas, usos imposibles, escritura, el juego del garabato, imágenes simbólicas y un plan de 7 días."},
     {"titulo": "Laboratorio de comunicación no violenta", "ruta": "/laboratorio-de-comunicacion-no-violenta/", "tipo": "Vínculos",
      "descripcion": "Distinguir hechos de juicios, nombrar lo que sentís y necesitás, y armar un pedido claro en cuatro pasos."},
+    {"titulo": "Laboratorio de habilidades inspiradas en DBT", "ruta": "/laboratorio-de-habilidades-dbt/", "tipo": "Emociones intensas",
+     "descripcion": "Atención plena, STOP, kit de crisis, acción opuesta y pedir con claridad: herramientas para cuando la emoción sube."},
+    {"titulo": "Laboratorio de flexibilidad yoica", "ruta": "/laboratorio-de-flexibilidad-yoica/", "tipo": "Autoconocimiento",
+     "descripcion": "Las tres sillas, otras explicaciones posibles, el diálogo con tus voces internas y tus defensas."},
+    {"titulo": "Laboratorio de emociones", "ruta": "/laboratorio-de-emociones/", "tipo": "Emociones",
+     "descripcion": "Un mapa para ponerle nombre a lo que sentís, un termómetro de intensidad y un diario emocional."},
+    {"titulo": "Laboratorio de presencia", "ruta": "/laboratorio-de-presencia/", "tipo": "Atención plena",
+     "descripcion": "Respiración guiada, anclaje 5-4-3-2-1, escaneo corporal y un temporizador con campana."},
+    {"titulo": "Laboratorio de sueños", "ruta": "/laboratorio-de-suenos/", "tipo": "Jung",
+     "descripcion": "Registrá un sueño, amplificá sus imágenes y dialogá con una de sus figuras, desde la mirada de Jung."},
+    {"titulo": "Laboratorio de valores y sentido", "ruta": "/laboratorio-de-valores/", "tipo": "Sentido",
+     "descripcion": "Elegí y ordená tus valores, armá tu brújula y tu rueda de la vida."},
+    {"titulo": "Laboratorio de aprender a aprender", "ruta": "/laboratorio-de-aprender-a-aprender/", "tipo": "Aprendizaje",
+     "descripcion": "Mitos y evidencia, evocación activa, repasos espaciados para tu calendario y una autoevaluación."},
 ]
 
 

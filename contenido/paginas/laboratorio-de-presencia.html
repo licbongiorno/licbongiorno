@@ -1,0 +1,144 @@
+<!--{
+  "ruta": "/laboratorio-de-presencia/",
+  "titulo": "Laboratorio de presencia: respiración y atención plena",
+  "descripcion": "Respiración guiada, anclaje 5-4-3-2-1, escaneo corporal y un temporizador con campana para practicar atención plena y bajar la ansiedad.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Presencia", "/laboratorio-de-presencia/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>presencia</em>",
+  "bajada": "Volver al cuerpo y al presente cuando la cabeza no para: respirar, anclarse en los sentidos y prestar atención, un minuto a la vez.",
+  "respuesta": "El laboratorio de presencia ofrece prácticas guiadas de atención plena: respiración con un círculo que marca el ritmo, el anclaje 5-4-3-2-1 para momentos de ansiedad, un escaneo corporal paso a paso y un temporizador con campana suave para meditar. Es gratuito y no guarda datos.",
+  "scripts": ["lab-base.js", "laboratorio-presencia.js"],
+  "wa_tema": "el laboratorio de presencia",
+  "articulos": ["ansiedad-cuando-el-cuerpo-habla", "ataque-de-panico-que-hacer", "la-memoria"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es dejar la mente en blanco. Es darte cuenta de que estabas en la reunión de mañana, en la discusión de ayer o en la lista de pendientes, y volver: a la respiración, a los pies en el piso, al ruido de la calle. Y volver otra vez. Y otra. Ese ir y volver, con paciencia, es la práctica.</p>
+        <p>La atención plena, que el médico Jon Kabat-Zinn llevó de las tradiciones contemplativas a la clínica, consiste en prestar atención al momento presente, a propósito y sin juzgar. No reemplaza un tratamiento, pero puede ayudar a bajar la <a href="/recursos/ansiedad-cuando-el-cuerpo-habla/">ansiedad</a> y a tomar un poco de distancia de los pensamientos que no paran.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Un minuto alcanza.</strong> Mejor poco y seguido que mucho de vez en cuando.</li>
+        <li><strong>Sin forzar.</strong> Si algo te incomoda, volvé a respirar normal.</li>
+        <li><strong>Con sonido opcional.</strong> La campana suena solo si la activás.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#respirar">Respiración guiada</a>
+      <a href="#anclaje">Anclaje 5-4-3-2-1</a>
+      <a href="#escaneo">Escaneo corporal</a>
+      <a href="#temporizador">Temporizador</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="respirar" aria-labelledby="t-respirar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-respirar">Respiración guiada</h2>
+      <p class="lab-estacion__bajada">Seguí el círculo: cuando crece, inhalá por la nariz; cuando se achica, exhalá despacio. Exhalar más largo de lo que inhalás le indica al cuerpo que puede bajar la guardia.</p>
+      <div class="lab-tarjeta lab-respiracion" data-respiracion>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un ritmo">
+          <label class="opcion"><input type="radio" name="resp-ritmo" value="4,0,4,0"><span>Pareja (4 · 4)</span></label>
+          <label class="opcion"><input type="radio" name="resp-ritmo" value="4,0,6,0" checked><span>Calmante (4 · 6)</span></label>
+          <label class="opcion"><input type="radio" name="resp-ritmo" value="4,4,4,4"><span>Cuadrada (4 · 4 · 4 · 4)</span></label>
+          <label class="opcion"><input type="radio" name="resp-ritmo" value="4,7,8,0"><span>Para dormir (4 · 7 · 8)</span></label>
+        </div>
+        <div class="lab-respiracion__escena" aria-hidden="true"><div class="lab-respiracion__circulo" data-resp-circulo></div><span class="lab-respiracion__cuenta" data-resp-cuenta></span></div>
+        <p class="lab-respiracion__fase" role="status" data-resp-fase>Elegí un ritmo y tocá «Empezar».</p>
+        <div class="lab-acciones" style="justify-content:center">
+          <button class="boton boton--chico" type="button" data-resp-empezar>Empezar</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-resp-frenar disabled>Frenar</button>
+        </div>
+        <p class="lab-nota">Si te mareás o te falta el aire, volvé a respirar a tu ritmo natural. El ritmo 4 · 7 · 8 es más exigente: probalo cuando ya estés familiarizado con los otros.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="anclaje" aria-labelledby="t-anclaje">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-anclaje">Anclaje 5-4-3-2-1</h2>
+      <p class="lab-estacion__bajada">Cuando la ansiedad sube o la cabeza se va lejos, los sentidos te traen de vuelta al lugar donde estás. Podés hacerlo en cualquier lado, incluso con los ojos abiertos en un colectivo.</p>
+      <div class="lab-tarjeta" data-lab-pasos>
+        <ol class="lab-pasos">
+          <li><strong>5 cosas que ves.</strong> Nombralas en voz baja o mentalmente: un color, una forma, una luz, una sombra, un objeto.</li>
+          <li><strong>4 cosas que podés tocar.</strong> La tela de tu ropa, la silla, el piso bajo los pies, la temperatura de tus manos.</li>
+          <li><strong>3 cosas que escuchás.</strong> Sonidos cercanos y lejanos: un motor, un pájaro, tu propia respiración.</li>
+          <li><strong>2 cosas que olés.</strong> Si no sentís ningún olor, recordá dos que te gusten.</li>
+          <li><strong>1 cosa que saboreás.</strong> O una cosa buena de vos que puedas decirte ahora.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="escaneo" aria-labelledby="t-escaneo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-escaneo">Escaneo corporal</h2>
+      <p class="lab-estacion__bajada">Recorrer el cuerpo con la atención, sin cambiar nada, solo notando. Cada paso dura unos 45 segundos; si activás el reloj, una campana suave te avisa cuándo pasar al siguiente.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="45">
+        <ol class="lab-pasos">
+          <li><strong>Llegar.</strong> Sentate o acostate cómodo. Cerrá los ojos si querés. Notá el peso de tu cuerpo apoyado.</li>
+          <li><strong>Los pies.</strong> Llevá la atención a los pies: temperatura, contacto, cosquilleo. O nada en particular, que también vale.</li>
+          <li><strong>Las piernas.</strong> Pantorrillas, rodillas, muslos. Si hay tensión, solo notala.</li>
+          <li><strong>La pelvis y la panza.</strong> Notá cómo la panza sube y baja con la respiración.</li>
+          <li><strong>El pecho y la espalda.</strong> El movimiento del pecho, el apoyo de la espalda.</li>
+          <li><strong>Los hombros, los brazos y las manos.</strong> Muchas veces cargamos tensión en los hombros. ¿Pueden bajar un poco?</li>
+          <li><strong>El cuello y la cara.</strong> La mandíbula, la frente, los ojos. Dejá que se aflojen.</li>
+          <li><strong>Todo el cuerpo.</strong> Sentí el cuerpo entero respirando. Cuando quieras, mové suavemente las manos y abrí los ojos.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="temporizador" aria-labelledby="t-temporizador">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-temporizador">Temporizador con campana</h2>
+      <p class="lab-estacion__bajada">Para practicar en silencio: elegí cuánto tiempo, sentate cómodo y dejá que la campana marque el comienzo y el final. Mientras tanto, cada vez que te distraigas, volvé a la respiración.</p>
+      <div class="lab-tarjeta lab-centro" data-pres-temporizador>
+        <div class="opciones" role="radiogroup" aria-label="Duración" style="justify-content:center">
+          <label class="opcion"><input type="radio" name="pres-min" value="1"><span>1 minuto</span></label>
+          <label class="opcion"><input type="radio" name="pres-min" value="3" checked><span>3 minutos</span></label>
+          <label class="opcion"><input type="radio" name="pres-min" value="5"><span>5 minutos</span></label>
+          <label class="opcion"><input type="radio" name="pres-min" value="10"><span>10 minutos</span></label>
+        </div>
+        <p class="lab-reloj lab-reloj--grande" data-pres-reloj aria-hidden="true">3:00</p>
+        <p class="visualmente-oculto" role="status" data-pres-estado></p>
+        <div class="lab-acciones" style="justify-content:center">
+          <button class="boton boton--chico" type="button" data-pres-empezar>Empezar</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-pres-frenar disabled>Frenar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica corta por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="presencia">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Un minuto de respiración</strong> con el ritmo calmante.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Comer con atención.</strong> Los primeros tres bocados de una comida, sin pantallas.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Anclaje 5-4-3-2-1</strong> en un momento de apuro.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Escaneo corporal</strong> antes de dormir.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Caminar presente.</strong> Cinco minutos sintiendo cada paso.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Tres minutos en silencio</strong> con el temporizador.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Una tarea cotidiana</strong> (lavar los platos, ducharte) con toda la atención.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> En algunas personas, sobre todo con historias de trauma, prestar atención al cuerpo o quedarse en silencio puede traer malestar en lugar de calma. Si te pasa, abrí los ojos, mirá a tu alrededor y volvé a algo concreto. No es un error tuyo: es una señal para hacerlo acompañado. Podés <a href="/contacto/">escribirme</a>. Si estás en una crisis de pánico, te puede servir <a href="/recursos/ataque-de-panico-que-hacer/">qué hacer en un ataque de pánico</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Kabat-Zinn, J. (1990). <em>Vivir con plenitud las crisis</em>.</li>
+        <li>Treleaven, D. A. (2018). <em>Trauma-Sensitive Mindfulness</em>. W. W. Norton.</li>
+        <li>Zaccaro, A. y otros (2018). «How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing». <em>Frontiers in Human Neuroscience</em>, 12.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

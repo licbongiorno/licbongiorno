@@ -1329,3 +1329,67 @@ main#contenido:focus { outline: none; }
 .lab-pasos-cnv li::before { content: counter(paso); display: block; font-family: var(--f-display); font-size: 2rem; line-height: 1; color: var(--terracota-profunda); margin-bottom: .4rem; }
 .lab-pasos-cnv strong { display: block; font-family: var(--f-display); font-weight: 400; font-size: 1.2rem; color: var(--tinta); margin-bottom: .2rem; }
 .lab-tarjeta [hidden], .lab-quiz__pie [hidden] { display: none !important; }
+
+/* ---------- Laboratorios: componentes de la segunda tanda ---------- */
+.lab-aviso { margin: 0 0 2.5rem; padding: 1.25rem 1.5rem; border-radius: var(--r-m); background: var(--terracota-suave); border-left: 4px solid var(--terracota-profunda); color: var(--tinta); font-size: var(--t-sm); }
+.lab-aviso p { margin: 0; }
+.lab-panel { margin-top: 1.2rem; padding: 1.1rem 1.25rem; border-radius: var(--r-s); background: var(--beige); }
+.lab-panel p { margin: 0 0 .6rem; }
+.lab-panel p:last-child { margin-bottom: 0; }
+.lab-matices { margin: .6rem 0 0; padding-left: 1.1rem; display: grid; gap: .3rem; font-size: var(--t-sm); color: var(--texto-2); }
+.lab-pasos { margin: 0; padding-left: 1.3rem; display: grid; gap: .8rem; }
+.lab-pasos--activo .lab-pasos { list-style: none; padding: 0; }
+.lab-pasos--activo .lab-pasos li { font-family: var(--f-display); font-size: clamp(1.2rem, 1rem + .8vw, 1.5rem); line-height: 1.4; color: var(--tinta); min-height: 5.5em; }
+.lab-pasos--activo .lab-pasos li strong { display: block; font-family: var(--f-sans); font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; color: var(--terracota-profunda); margin-bottom: .3rem; }
+.lab-pasos__barra { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .8rem; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--linea); }
+.lab-pasos__estado { margin: 0; font-family: var(--f-sans); font-size: .85rem; color: var(--piedra-oscura); }
+.lab-pasos__barra .lab-acciones { margin-top: 0; }
+.lab-tabla2 { display: grid; gap: .8rem; margin-top: 1rem; }
+@media (min-width: 700px) { .lab-tabla2 { grid-template-columns: 1fr 1fr; } }
+.lab-tabla2 label { display: block; margin-bottom: .35rem; font-family: var(--f-sans); font-size: .85rem; font-weight: 600; color: var(--tinta-suave); }
+.lab-centro { text-align: center; }
+.lab-reloj--grande { font-family: var(--f-display); font-size: clamp(3rem, 2rem + 4vw, 4.5rem); font-weight: 400; margin: 1.2rem 0 .4rem; }
+.lab-guion { margin: 0 0 1rem; padding-left: 1.2rem; display: grid; gap: .4rem; color: var(--texto-2); }
+/* Rango (termómetro, brújula, rueda) */
+.lab-rango { width: 100%; height: 44px; accent-color: var(--salvia-profunda); cursor: pointer; }
+.lab-rango:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.lab-rango__escala { display: flex; justify-content: space-between; font-family: var(--f-sans); font-size: .75rem; color: var(--piedra-oscura); }
+.lab-termometro__texto { margin-top: 1rem; padding: 1rem 1.2rem; border-radius: var(--r-s); background: var(--beige); border-left: 4px solid color-mix(in srgb, var(--terracota-profunda) calc(var(--nivel, .5) * 100%), var(--salvia-profunda)); font-size: var(--t-sm); }
+.lab-termometro__texto strong { font-family: var(--f-display); font-weight: 400; font-size: 1.2rem; }
+/* Respiración */
+.lab-respiracion { text-align: center; }
+.lab-respiracion .opciones { justify-content: center; }
+.lab-respiracion__escena { position: relative; display: grid; place-items: center; width: min(260px, 70vw); aspect-ratio: 1; margin: 1.5rem auto 1rem; }
+.lab-respiracion__escena::before { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 1px dashed var(--linea); }
+.lab-respiracion__circulo { position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 40% 35%, var(--salvia-suave), var(--salvia)); transform: scale(.45); transition-property: transform; transition-timing-function: ease-in-out; }
+.lab-respiracion__cuenta { position: relative; font-family: var(--f-display); font-size: 2.2rem; color: var(--bosque); }
+.lab-respiracion__fase { margin: 0; font-family: var(--f-display); font-size: 1.4rem; color: var(--tinta); min-height: 1.6em; }
+@media (prefers-reduced-motion: reduce) { .lab-respiracion__circulo { transition: none !important; } }
+/* Valores */
+.lab-orden { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; counter-reset: v; }
+.lab-orden__item { counter-increment: v; display: flex; align-items: center; justify-content: space-between; gap: .8rem; padding: .55rem .6rem .55rem 1rem; border-radius: var(--r-s); background: var(--beige); border: 1px solid var(--linea); }
+.lab-orden__item.es-nucleo { border-color: var(--salvia-profunda); background: var(--salvia-bruma); }
+.lab-orden__nombre::before { content: counter(v) ". "; color: var(--piedra-oscura); font-family: var(--f-sans); font-size: .85rem; }
+.lab-orden__botones { display: flex; gap: .3rem; }
+.lab-orden__btn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--linea); background: var(--papel); color: var(--tinta); font-size: 1.1rem; cursor: pointer; }
+.lab-orden__btn:disabled { opacity: .35; cursor: default; }
+.lab-orden__btn:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.lab-brujula__fila { display: grid; gap: .35rem; padding: 1rem 0; border-bottom: 1px solid var(--linea); }
+.lab-brujula__fila:first-child { padding-top: 0; }
+.lab-rueda { display: grid; gap: 1.5rem; align-items: center; }
+@media (min-width: 900px) { .lab-rueda { grid-template-columns: 1fr 1fr; } }
+.lab-rueda__fila label { display: flex; justify-content: space-between; font-family: var(--f-sans); font-size: .85rem; color: var(--tinta-suave); }
+.lab-rueda__grafico { margin: 0; }
+.lab-rueda__grafico svg { display: block; width: 100%; max-width: 420px; margin: 0 auto; }
+.rueda-anillo { fill: none; stroke: var(--linea); }
+.rueda-eje { stroke: var(--linea); }
+.rueda-area { fill: color-mix(in srgb, var(--terracota) 35%, transparent); stroke: var(--terracota-profunda); stroke-width: 2; stroke-linejoin: round; }
+.rueda-texto { fill: var(--tinta-suave); font-family: var(--f-sans); font-size: 12px; }
+/* Aprender */
+.lab-repasos { margin: .4rem 0 0; padding-left: 1.2rem; display: grid; gap: .3rem; }
+.lab-repasos li::first-letter { text-transform: uppercase; }
+.lab-repasos .es-examen { list-style: none; margin-left: -1.2rem; margin-top: .4rem; font-weight: 600; color: var(--terracota-profunda); }
+.lab-auto__pregunta { border: 0; padding: 0; margin: 0 0 1.2rem; }
+.lab-auto__pregunta legend { margin-bottom: .5rem; color: var(--tinta); }
+.lab-auto__intro { list-style: none; margin-left: -1.1rem; font-weight: 600; }
+[data-auto-lista] { margin: .4rem 0 0; padding-left: 1.1rem; display: grid; gap: .5rem; }

@@ -45,6 +45,8 @@ Esta distinción ayuda a entender muchas experiencias: la sensación de vacío a
 
 En la [terapia junguiana](/terapia-junguiana/) se trabaja en las dos direcciones: fortalecer el yo cuando hace falta y ayudarlo a escuchar lo que viene del sí-mismo. Si estás en un momento de búsqueda de sentido, podés leer sobre la [crisis de la mitad de la vida](/recursos/crisis-de-la-mitad-de-la-vida/) o escribirme.
 
+Para ejercitar un yo más flexible, probá el [laboratorio de flexibilidad yoica](/laboratorio-de-flexibilidad-yoica/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué diferencia hay entre el yo y el sí-mismo?
