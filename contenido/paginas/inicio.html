@@ -19,7 +19,8 @@
   <div class="hero__fondo" aria-hidden="true"><div data-parallax="0.08">{{> deco_enso}}</div></div>
   <div class="contenedor hero__grilla">
     <div class="hero__texto-col">
-      <p class="hero__identidad entra" style="--retraso:.05s">{{> avatar}}<strong>Lic. Nicolás Raúl Bongiorno</strong><span aria-hidden="true"></span>Psicólogo clínico<span aria-hidden="true"></span>{{matricula}}</p>
+      {{> disponibilidad}}
+      <p class="hero__identidad entra" style="--retraso:.05s">{{> avatar}}<strong>Lic. Nicolás Raúl Bongiorno</strong><span aria-hidden="true"></span><span>Psicólogo clínico</span><span aria-hidden="true"></span><span>{{matricula}}</span></p>
       <h1 id="titulo-hero">
         <span class="h1-kicker entra" style="--retraso:.1s">Psicoterapia en Alta Gracia y online</span>
         <span class="linea"><span style="--retraso:.15s">Lo que te habita</span></span>
@@ -39,6 +40,16 @@
     </div>
     <div class="hero__visual">{{> umbral}}</div>
   </div>
+</section>
+
+<section class="franja-confianza" aria-label="Datos profesionales">
+  <ul class="contenedor">
+    <li><strong>+100</strong><span>opiniones en Google</span></li>
+    <li><strong>80</strong><span>opiniones en Doctoralia</span></li>
+    <li><strong>+15</strong><span>años de práctica clínica</span></li>
+    <li><strong>UNC</strong><span>Facultad de Psicología</span></li>
+    <li><strong>{{matricula}}</strong><span>Matrícula profesional, Córdoba</span></li>
+  </ul>
 </section>
 
 <section class="seccion seccion--papel manifiesto" aria-labelledby="titulo-concepto">
@@ -146,6 +157,37 @@
       <li class="paso revelar" style="--retraso:.16s"><h3>Encuadre</h3><p>Acordamos modalidad, frecuencia y honorarios. Un marco estable es lo que permite que el trabajo se profundice.</p></li>
       <li class="paso revelar" style="--retraso:.24s"><h3>El proceso</h3><p>Sesión a sesión, vamos comprendiendo lo que te pasa y abriendo nuevas posibilidades. Lo revisamos juntos en el camino.</p></li>
     </ol>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="titulo-para-vos">
+  <div class="contenedor">
+    <div class="encabezado-seccion revelar">
+      <p class="antetitulo">Antes de escribirme</p>
+      <h2 id="titulo-para-vos">¿Es este espacio <em>para vos?</em></h2>
+      <p class="bajada">Prefiero ser claro desde el comienzo: elegir terapeuta también es elegir una forma de trabajar.</p>
+    </div>
+    <div class="para-vos">
+      <div class="para-vos__col revelar">
+        <h3>Puede ser para vos si…</h3>
+        <ul>
+          <li>querés comprender lo que te pasa, no solo aliviarlo;</li>
+          <li>algo se repite en tu vida y querés entender por qué;</li>
+          <li>atravesás una crisis, un duelo o un cambio de etapa;</li>
+          <li>te interesan los sueños, los símbolos o la búsqueda de sentido;</li>
+          <li>buscás un espacio estable, con tiempo, para pensar.</li>
+        </ul>
+      </div>
+      <div class="para-vos__col para-vos__col--otro revelar" style="--retraso:.1s">
+        <h3>Quizás necesites otra cosa si…</h3>
+        <ul>
+          <li>estás en una situación de urgencia o de riesgo: <a href="/ayuda-urgente/">mirá estos teléfonos</a>;</li>
+          <li>necesitás principalmente un tratamiento con medicación: ahí corresponde un psiquiatra (puedo orientarte y trabajar en conjunto);</li>
+          <li>solo podés atenderte a través de la cartilla de tu obra social: trabajo de forma particular, con <a href="/preguntas-frecuentes/#obra-social">factura para reintegro</a>;</li>
+          <li>buscás una solución rápida, sin espacio para explorar lo que pasa.</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 

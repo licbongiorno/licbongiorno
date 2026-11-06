@@ -42,6 +42,9 @@
 
   "centro_sinapsis": "https://sinapsiscentro.com.ar/equipo-profesional.html",
 
+  "recibiendo_consultas": true,
+  "_recibiendo_nota": "true muestra en el inicio «Recibiendo nuevas consultas». Poné false si en algún momento no tenés lugar.",
+
   "foto": "assets/img/nicolas-bongiorno.webp",
   "foto_chica": "assets/img/nicolas-bongiorno-480.webp",
   "foto_lectura": "assets/img/nicolas-bongiorno-leyendo.webp",

@@ -1020,3 +1020,55 @@ a.articulo-tarjeta__cat:hover { text-decoration: underline; }
   h1, h2, h3 { break-after: avoid; }
   p, li, blockquote { orphans: 3; widows: 3; }
 }
+
+/* ---------- Botón de modo claro/oscuro ---------- */
+.tema-boton { width: 40px; height: 40px; display: inline-grid; place-items: center; border-radius: 50%; border: 0; background: none; color: var(--tinta-suave); cursor: pointer; transition: background-color .25s, color .25s, transform .5s var(--ease-out); margin-left: .25rem; }
+.tema-boton:hover { background: rgba(163,177,138,.18); color: var(--tinta); transform: rotate(-15deg); }
+.tema-boton svg { width: 20px; height: 20px; }
+.tema-boton .sol { display: none; }
+.cabecera__movil { display: none; align-items: center; gap: .25rem; }
+@media (max-width: 1080px) { .cabecera__movil { display: inline-flex; } .nav .tema-boton { display: none; } }
+html.cambiando-tema, html.cambiando-tema * { transition: background-color .5s var(--ease), color .5s var(--ease), border-color .5s var(--ease) !important; }
+.nav__enlace, .nav__desplegar { white-space: nowrap; }
+@media (max-width: 1280px) { .nav__enlace, .nav__desplegar { padding-inline: .6rem; font-size: .84rem; } .cabecera__fila { gap: 1rem; } }
+
+/* ---------- Disponibilidad, franja de confianza, «para vos» y ayuda urgente ---------- */
+.disponibilidad { display: inline-flex; align-items: center; gap: .6rem; margin: 0 0 1.25rem; padding: .4rem .9rem; border-radius: 999px; background: rgba(163,177,138,.18); font-family: var(--f-sans); font-size: .78rem; font-weight: 500; color: var(--salvia-profunda); }
+.disponibilidad__punto { width: 8px; height: 8px; border-radius: 50%; background: #3E9B5E; box-shadow: 0 0 0 0 rgba(62,155,94,.5); animation: disponible 2.6s var(--ease) infinite; }
+@keyframes disponible { 0% { box-shadow: 0 0 0 0 rgba(62,155,94,.5); } 70%, 100% { box-shadow: 0 0 0 8px rgba(62,155,94,0); } }
+.franja-confianza { border-block: 1px solid var(--linea); background: var(--papel); }
+.franja-confianza ul { list-style: none; margin-block: 0; padding: 1.4rem 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
+.franja-confianza li { display: flex; flex-direction: column; align-items: center; text-align: center; gap: .2rem; }
+.franja-confianza strong { font-family: var(--f-display); font-weight: 400; font-size: clamp(1.4rem, 1.2rem + .8vw, 1.9rem); line-height: 1.1; color: var(--salvia-profunda); }
+.franja-confianza span { font-family: var(--f-sans); font-size: .74rem; letter-spacing: .03em; color: var(--piedra-oscura); }
+@media (max-width: 760px) { .franja-confianza ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } .franja-confianza li:last-child { grid-column: 1 / -1; } }
+.para-vos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1rem, .5rem + 2vw, 2rem); }
+@media (max-width: 760px) { .para-vos { grid-template-columns: minmax(0, 1fr); } }
+.para-vos__col { padding: clamp(1.5rem, 1rem + 2vw, 2.5rem); border-radius: var(--r-l); background: var(--salvia-bruma); border: 1px solid rgba(74,90,60,.15); }
+.para-vos__col--otro { background: var(--papel); border-color: var(--linea); }
+.para-vos h3 { font-size: 1.5rem; }
+.para-vos ul { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: .75rem; }
+.para-vos li { position: relative; padding-left: 1.6rem; font-size: var(--t-sm); color: var(--texto-2); }
+.para-vos li::before { content: ""; position: absolute; left: 0; top: .55em; width: .7rem; height: .7rem; border-radius: 50%; border: 1.5px solid var(--salvia-profunda); }
+.para-vos__col--otro li::before { border-color: var(--terracota-profunda); border-radius: 2px; transform: rotate(45deg) scale(.8); }
+.urgencias { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 1rem; }
+.urgencia { padding: 1.5rem 1.6rem; border-radius: var(--r-m); background: var(--papel); border: 1px solid var(--linea); }
+.urgencia--principal { background: #FBEFE3; border-color: rgba(154,78,28,.25); }
+.urgencia span { display: block; font-family: var(--f-sans); font-size: .74rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--piedra-oscura); }
+.urgencia > a { display: inline-block; margin: .4rem 0; font-family: var(--f-display); font-size: clamp(2rem, 1.6rem + 1.4vw, 2.8rem); line-height: 1.1; color: var(--tinta); text-decoration: none; }
+.urgencia > a:hover { color: var(--terracota-profunda); }
+.urgencia p { margin: 0; font-size: var(--t-sm); color: var(--texto-2); }
+@media (prefers-reduced-motion: reduce) { .disponibilidad__punto { animation: none; } }
+@media (max-width: 480px) {
+  .menu-boton__texto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .menu-boton { padding: .5rem .6rem; }
+  .tema-boton { width: 38px; height: 38px; margin-left: 0; }
+}
+@media (max-width: 360px) {
+  .marca__rol { display: none; }
+  .marca__nombre { font-size: 1rem; }
+  .marca__simbolo { width: 30px; height: 30px; }
+  .tema-boton { width: 34px; height: 34px; }
+}
+.urgencias { grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+.urgencia > a { white-space: nowrap; font-size: clamp(1.6rem, 1.25rem + 1vw, 2.1rem); }

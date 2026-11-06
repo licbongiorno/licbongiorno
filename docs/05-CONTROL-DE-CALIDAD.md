@@ -70,3 +70,13 @@
 | `prefers-reduced-motion`: todo visible y quieto | OK |
 | axe-core, 45 páginas × escritorio y móvil | 0 violaciones |
 | Lighthouse (inicio, local sin compresión) | 94 · 100 · 100 · 100 · CLS 0,005 |
+
+## Actualización — modo oscuro y mejoras por comparación (6 de noviembre de 2026)
+
+| Prueba | Resultado |
+|---|---|
+| Modo oscuro automático (preferencia del sistema) y botón manual que recuerda la elección | OK |
+| axe-core en modo claro, 47 páginas × escritorio y móvil | 0 violaciones |
+| axe-core en modo oscuro, 47 páginas × escritorio y móvil | 0 violaciones (tras corregir 2 contrastes) |
+| Desborde horizontal: 47 páginas × 320 y 390 px × claro y oscuro (188 casos) | 0 |
+| Aviso de disponibilidad, franja de confianza, «¿Es este espacio para vos?», página de ayuda urgente | OK |

@@ -520,6 +520,29 @@
     enlacesI.forEach(function (a) { var h = document.getElementById(a.getAttribute("href").slice(1)); if (h) ioI.observe(h); });
   }
 
+  /* ---------- Modo claro / oscuro ---------- */
+  var oscuroSistema = window.matchMedia("(prefers-color-scheme: dark)");
+  var temaActual = function () { return doc.getAttribute("data-tema") || (oscuroSistema.matches ? "oscuro" : "claro"); };
+  var marcarBotones = function () {
+    var t = temaActual();
+    document.querySelectorAll(".tema-boton").forEach(function (b) {
+      b.setAttribute("aria-label", t === "oscuro" ? "Cambiar a modo claro" : "Cambiar a modo oscuro");
+      b.setAttribute("aria-pressed", t === "oscuro" ? "true" : "false");
+    });
+  };
+  document.querySelectorAll(".tema-boton").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var nuevo = temaActual() === "oscuro" ? "claro" : "oscuro";
+      if (!reducido) { doc.classList.add("cambiando-tema"); setTimeout(function () { doc.classList.remove("cambiando-tema"); }, 600); }
+      doc.setAttribute("data-tema", nuevo);
+      try { localStorage.setItem("nb-tema", nuevo); } catch (err) { /* sin almacenamiento */ }
+      marcarBotones();
+      evento("cambio_tema", { tema: nuevo });
+    });
+  });
+  if (oscuroSistema.addEventListener) oscuroSistema.addEventListener("change", marcarBotones);
+  marcarBotones();
+
   /* ---------- Medición de clics de contacto (si hay GA4 con consentimiento) ---------- */
   function evento(nombre, params) { if (typeof window.gtag === "function") window.gtag("event", nombre, params || {}); }
   document.addEventListener("click", function (e) {

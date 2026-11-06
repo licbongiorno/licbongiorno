@@ -1,0 +1,76 @@
+/* Plantilla del modo oscuro. build.py la expande dos veces: con la preferencia del sistema
+   (prefers-color-scheme: dark, salvo que se haya elegido «claro») y con la elección manual (data-tema="oscuro").
+   TEMA se reemplaza por el selector correspondiente. */
+TEMA {
+  color-scheme: dark;
+  --beige: #1B1A17;
+  --papel: #23221E;
+  --arena: #2C2A25;
+  --arena-2: #36332D;
+  --piedra-oscura: #A9A398;
+  --salvia-suave: #34402C;
+  --salvia-bruma: #20271B;
+  --salvia-profunda: #B3C29A;
+  --bosque: #1E2619;
+  --terracota-suave: #5A3A22;
+  --terracota-profunda: #F0A46B;
+  --tinta: #ECE6DC;
+  --tinta-suave: #C9C2B6;
+  --linea: rgba(236, 230, 220, .14);
+  --accion: #A3B18A;
+  --accion-hover: #C2CFAA;
+  --foco: #F4A261;
+  --sombra: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px -16px rgba(0,0,0,.6);
+  --sombra-alta: 0 2px 4px rgba(0,0,0,.3), 0 24px 48px -20px rgba(0,0,0,.75);
+  --grano: none;
+}
+TEMA .cabecera { background: rgba(27, 26, 23, .86); }
+TEMA .cabecera.con-scroll { background: rgba(27, 26, 23, .96); }
+TEMA .boton { --b-fg: #1B1A17; }
+TEMA .boton--secundario { --b-fg: var(--tinta); --b-borde: rgba(236,230,220,.35); }
+TEMA .boton--secundario:hover { --b-fg: var(--tinta); background: var(--arena); border-color: var(--tinta); }
+TEMA .boton--claro { --b-bg: #ECE6DC; --b-fg: #1B1A17; --b-borde: #ECE6DC; }
+TEMA .boton--claro:hover { --b-fg: #1B1A17; background: #fff; border-color: #fff; }
+TEMA .cta .boton--secundario { --b-fg: #ECE6DC; --b-borde: rgba(236,230,220,.4); }
+TEMA .cta .boton--secundario:hover { --b-fg: #1B1A17; background: #ECE6DC; border-color: #ECE6DC; }
+TEMA .cta--suave .boton--claro { --b-bg: var(--accion); --b-fg: #1B1A17; --b-borde: var(--accion); }
+TEMA .cta--suave .boton--secundario { --b-fg: var(--tinta); }
+TEMA .pie { background: #121110; }
+TEMA .seccion--bosque, TEMA .cta:not(.cta--suave), TEMA .texto-propio { background-color: #1E2619; }
+TEMA .motivo:hover, TEMA .articulo-tarjeta:hover, TEMA .nav__sub a:hover { background: var(--arena); }
+TEMA .campo input:focus, TEMA .campo select:focus, TEMA .campo textarea:focus, TEMA .buscador input:focus { background: var(--papel); }
+TEMA .campo input, TEMA .campo select, TEMA .campo textarea { border-color: rgba(236,230,220,.24); }
+TEMA .opcion span { border-color: rgba(236,230,220,.24); }
+TEMA .opcion input:checked + span, TEMA .barra-movil__turno, TEMA .compartir__boton.copiado, TEMA .asistente__paso.completo legend span { color: #1B1A17; }
+TEMA .barra-movil { background: rgba(35, 34, 30, .96); }
+TEMA .compartir__boton { border-color: rgba(236,230,220,.24); }
+TEMA .compartir__boton:hover { background: var(--arena); }
+TEMA .destacado--aviso, TEMA .prosa .destacado--aviso, TEMA .articulo__aviso, TEMA .aviso-privacidad { background: #2E2219; border-color: rgba(240,164,107,.25); color: #F2D3B8; }
+TEMA .aviso-privacidad strong { color: #F7E2CF; }
+TEMA .articulo-tarjeta__estado { background: #5A3A22; color: #F7E2CF; }
+TEMA .campo [aria-invalid="true"] { border-color: #FF8A6B; }
+TEMA .campo__error, TEMA .formulario__estado.error { color: #FF9C80; }
+TEMA .marca__simbolo .trazo { stroke: #B3C29A; }
+TEMA .marca__simbolo .trazo--2 { stroke: #6E7E57; }
+TEMA .orbitas circle[fill="#DDE3D2"] { fill: #2A3323; }
+TEMA .orbitas circle[fill="#FBF8F3"] { fill: #23221E; }
+TEMA .orbitas [stroke="#4A5A3C"] { stroke: #B3C29A; }
+TEMA .orbitas .orbita { stroke: rgba(179,194,154,.35); }
+TEMA .orbitas .centro-titulo { fill: #ECE6DC; }
+TEMA .orbitas .etiqueta--externa { fill: #A9A398; }
+TEMA .frase-viva .palabra { color: #857F74; }
+TEMA .frase-viva .palabra.encendida { color: var(--tinta); }
+TEMA .frase-viva em .palabra.encendida { color: var(--salvia-profunda); }
+TEMA .umbral__sello, TEMA .retrato__nota { background: var(--papel); }
+TEMA .hero__modalidades li { background: rgba(35,34,30,.6); }
+TEMA .umbral__marco img, TEMA .retrato img { filter: brightness(.92); }
+TEMA .con-foco { background-image: radial-gradient(420px circle at var(--mx, -999px) var(--my, -999px), rgba(163,177,138,.1), transparent 62%); }
+TEMA .enlace-glosario { text-decoration-color: rgba(179,194,154,.7); }
+TEMA ::selection { background: #5A3A22; color: #ECE6DC; }
+TEMA .wa-burbuja button:hover { background: var(--arena); }
+TEMA .tema-boton .sol { display: block; }
+TEMA .tema-boton .luna { display: none; }
+TEMA .urgencia--principal { background: #2E2219; border-color: rgba(240,164,107,.25); }
+TEMA .disponibilidad { background: rgba(163,177,138,.12); }
+TEMA .enfoque-bloque__lugar { background: #34402C; color: #ECE6DC; }
+TEMA .enfoque-bloque__lugar--recurso { background: var(--arena-2); color: #ECE6DC; }

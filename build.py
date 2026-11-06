@@ -41,6 +41,7 @@ HOY = C.get("fecha_actualizacion") or date.today().isoformat()
 
 # Script en línea mínimo: marca que hay JS antes del primer pintado (evita parpadeos).
 JS_INLINE = ('var d=document.documentElement;d.classList.add("js");'
+             'try{var t=localStorage.getItem("nb-tema");if(t==="oscuro"||t==="claro")d.setAttribute("data-tema",t)}catch(e){}'
              'try{if(sessionStorage.getItem("nb-logo"))d.classList.add("logo-visto");else sessionStorage.setItem("nb-logo","1")}catch(e){}')
 JS_INLINE_HASH = base64.b64encode(hashlib.sha256(JS_INLINE.encode()).digest()).decode()
 
@@ -246,7 +247,7 @@ NAV = [
         ("Mi enfoque integrativo", "/enfoque/", "Jung, psicoanálisis y otras corrientes"),
         ("Glosario junguiano", "/glosario-junguiano/", "Sombra, arquetipos, individuación…"),
     ]),
-    ("Motivos de consulta", "/motivos-de-consulta/", None),
+    ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
         ("Presencial en Alta Gracia", "/psicologo-alta-gracia/", f'Consultorio en {D["calle"]}'),
         ("Terapia online", "/terapia-online/", "Argentina y el exterior, en español"),
@@ -293,9 +294,10 @@ def cabecera(ruta):
     </a>
     <nav class="nav" aria-label="Principal">
       <ul class="nav__lista">{"".join(items)}</ul>
+      <button class="tema-boton" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro / oscuro"><svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg><svg class="sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button>
       <a class="boton boton--chico cabecera__cta" href="/contacto/">Solicitar una consulta</a>
     </nav>
-    <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-movil"><span class="menu-boton__texto">Menú</span><span class="menu-boton__lineas" aria-hidden="true"></span></button>
+    <div class="cabecera__movil"><button class="tema-boton tema-boton--movil" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro / oscuro"><svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg><svg class="sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button><button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-movil"><span class="menu-boton__texto">Menú</span><span class="menu-boton__lineas" aria-hidden="true"></span></button></div>
   </div>
 </header>
 <div class="menu-movil" id="menu-movil">
@@ -364,7 +366,7 @@ def pie():
     </div>
     <div class="pie__legal">
       <p>© {anio} {esc(NOMBRE_COMPLETO)} · {esc(C["matricula"])} ({esc(C["matricula_entidad"])}). La información de este sitio es orientativa y no reemplaza una consulta profesional. Ante una emergencia, llamá al 911.</p>
-      <p><a href="/mapa-del-sitio/">Mapa del sitio</a> · <a href="/privacidad/">Privacidad</a></p>
+      <p><a href="/ayuda-urgente/">Ayuda urgente</a> · <a href="/mapa-del-sitio/">Mapa del sitio</a> · <a href="/privacidad/">Privacidad</a></p>
     </div>
   </div>
 </footer>'''
@@ -952,7 +954,8 @@ def pagina(meta, cuerpo, ruta):
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{canon}">
 <meta name="author" content="{esc(NOMBRE_COMPLETO)}">
-<meta name="theme-color" content="#F6F1EB">
+<meta name="theme-color" content="#F6F1EB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1A17" media="(prefers-color-scheme: dark)">
 <meta name="format-detection" content="telephone=no">
 <meta name="geo.region" content="AR-X">
 <meta name="geo.placename" content="Alta Gracia, Córdoba">
@@ -1131,6 +1134,7 @@ def reemplazos(cuerpo, ruta):
             f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in CATEGORIAS
             if any(x["categoria"] == c and (x["publicado"] or BORRADORES) for x in ARTICULOS)) + "</ul>",
         "asistente": bloque_asistente,
+        "disponibilidad": lambda: ('<p class="disponibilidad entra"><span class="disponibilidad__punto" aria-hidden="true"></span>Recibiendo nuevas consultas · presencial y online</p>' if C.get("recibiendo_consultas") else ""),
         "glosario": bloque_glosario,
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/{C["foto_chica"]}" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
@@ -1159,7 +1163,7 @@ def leer_pagina(f):
     return meta, txt[m.end():]
 
 
-VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/js/sitio.js").read_bytes()).hexdigest()[:8]
+VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + (RAIZ / "assets/js/sitio.js").read_bytes()).hexdigest()[:8]
 
 
 def escribir(ruta, contenido):
@@ -1175,7 +1179,12 @@ def construir():
     SALIDA.mkdir()
     shutil.copytree(RAIZ / "assets", SALIDA / "assets")
     css_pub = SALIDA / "assets/css/estilos.css"
-    css_pub.write_text(minificar_css(css_pub.read_text(encoding="utf-8")), encoding="utf-8")
+    plantilla = (RAIZ / "assets/css/oscuro.plantilla.css").read_text(encoding="utf-8")
+    plantilla = re.sub(r"/\*.*?\*/", "", plantilla, flags=re.S)
+    oscuro = ("@media (prefers-color-scheme: dark) {" + plantilla.replace("TEMA", ':root:not([data-tema="claro"])') + "}\n"
+              + plantilla.replace("TEMA", ':root[data-tema="oscuro"]'))
+    css_pub.write_text(minificar_css(css_pub.read_text(encoding="utf-8") + "\n" + oscuro), encoding="utf-8")
+    (SALIDA / "assets/css/oscuro.plantilla.css").unlink()
     for extra in ("favicon.svg", "favicon.ico", "apple-touch-icon.png"):
         origen = RAIZ / "assets/img" / extra
         if origen.exists():
@@ -1246,7 +1255,7 @@ def construir():
     # Mapa del sitio para personas
     grupos = [
         ("El espacio", ["/", "/sobre-mi/", "/terapia-junguiana/", "/enfoque/", "/glosario-junguiano/", "/opiniones/"]),
-        ("Empezar", ["/primera-consulta/", "/preguntas-frecuentes/", "/contacto/"]),
+        ("Empezar", ["/primera-consulta/", "/preguntas-frecuentes/", "/contacto/", "/ayuda-urgente/"]),
         ("Modalidades", ["/psicologo-alta-gracia/", "/psicologo-valle-de-paravachasca/", "/terapia-online/", "/terapia-online-por-pais/"]),
         ("Para quién", ["/psicologo-para-adolescentes/", "/terapia-para-adultos-mayores/"]),
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
