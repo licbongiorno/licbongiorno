@@ -9,6 +9,9 @@ Sitio profesional estático, rápido y accesible. Concepto de marca: **«Lo que 
 | [`docs/03-ESTRATEGIA-CONTENIDOS-SEO-GEO.md`](docs/03-ESTRATEGIA-CONTENIDOS-SEO-GEO.md) | SEO, SEO local, GEO, plan de contenidos, cuestiones regulatorias |
 | [`docs/04-PENDIENTES.md`](docs/04-PENDIENTES.md) | **Datos a validar y configuraciones pendientes** |
 | [`docs/05-CONTROL-DE-CALIDAD.md`](docs/05-CONTROL-DE-CALIDAD.md) | Etapa 4: resultados de las pruebas |
+| [`docs/06-TEXTOS-PARA-PERFILES.md`](docs/06-TEXTOS-PARA-PERFILES.md) | Textos para Google, directorios y redes |
+| [`docs/07-VOZ-Y-ESTILO.md`](docs/07-VOZ-Y-ESTILO.md) | Guía de la voz del autor para textos nuevos |
+| [`redes/instagram/`](redes/instagram/) | Carruseles listos para publicar (imágenes y texto) |
 
 ## Tecnología
 
@@ -95,6 +98,28 @@ hosting por FTP subiendo el contenido de `public/` (en ese caso, configurar a ma
 autoasignadas), enlaces internos, `alt` de imágenes, coherencia entre FAQ visible y datos estructurados, y el
 sitemap. El flujo de GitHub Actions `.github/workflows/calidad.yml` lo ejecuta en cada cambio
 y además comprueba que `public/` esté actualizado.
+
+## Herramientas
+
+| Comando | Para qué |
+|---|---|
+| `python3 build.py` | Genera la web en `public/` (`--borradores` incluye artículos sin publicar, con noindex) |
+| `python3 validar.py` | Control de calidad: SEO, enlaces, datos estructurados, FAQ y sitemap |
+| `node herramientas/generar_imagenes.js` | Favicon, íconos e imagen para compartir del inicio |
+| `node herramientas/generar_og_articulos.js` | Imagen para compartir de cada artículo |
+| `node herramientas/generar_og_paginas.js` | Imagen para compartir de cada página principal |
+| `node herramientas/generar_diario.js` | PDF del Diario de sueños |
+| `node herramientas/generar_carruseles.js` | Carruseles de Instagram de cada artículo (`redes/instagram/`) |
+| `python3 herramientas/indexnow.py` | Avisa a Bing de todas las URL (GitHub Actions lo hace solo) |
+
+Flujos de GitHub Actions: `calidad.yml` (en cada cambio), `indexnow.yml` (después de publicar) y `enlaces.yml`
+(revisión mensual de enlaces externos; si alguno se rompe, GitHub avisa por correo).
+
+Al **agregar un artículo**: crear el `.md`, correr `generar_og_articulos.js` y `generar_carruseles.js`, después
+`build.py` y `validar.py`, y subir los cambios.
+
+Al **cambiar de dominio**: cambiar `"url"` en `sitio.json`, regenerar el Diario y los carruseles (llevan la dirección
+impresa), correr `build.py` y subir.
 
 ## Regenerar íconos e imagen para redes
 

@@ -7,7 +7,7 @@ categoria: Jung y psicología analítica
 palabras_clave: arquetipos Jung, inconsciente colectivo, arquetipos ejemplos, psicología analítica
 lectura: 5
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 12
 estado: publicado
 respuesta: Para Carl Gustav Jung, los arquetipos son patrones universales de experiencia que forman parte del inconsciente colectivo, como el héroe, la madre, el sabio o la sombra. Aparecen en sueños, mitos, relatos y vínculos. Reconocerlos ayuda a comprender reacciones intensas y elecciones repetidas.

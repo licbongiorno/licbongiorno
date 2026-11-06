@@ -7,7 +7,7 @@ categoria: Ansiedad y emociones
 palabras_clave: ataque de pánico qué hacer, síntomas ataque de pánico, crisis de angustia, ansiedad
 lectura: 5
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 9
 estado: publicado
 respuesta: Durante un ataque de pánico ayuda nombrarlo, respirar lento con exhalaciones largas, volver al presente con los sentidos y no pelear con las sensaciones, que suelen alcanzar su pico en pocos minutos. Conviene consultar a un médico la primera vez y a un psicólogo después del primer episodio.

@@ -7,7 +7,7 @@ categoria: Psicología contemporánea
 palabras_clave: terapia online en español, psicólogo argentino online, psicólogo para expatriados, terapia desde el exterior
 lectura: 6
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 5
 estado: publicado
 respuesta: La terapia online permite hacer un proceso terapéutico en español desde cualquier país, por videollamada. Requiere un lugar privado, buena conexión y un encuadre estable. Conviene revisar la normativa del país donde vivís y tener a mano los servicios de emergencia locales.

@@ -7,7 +7,7 @@ categoria: Jung y psicología analítica
 palabras_clave: sueños Jung, interpretación de sueños, psicología analítica, sueños recurrentes
 lectura: 6
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 6
 estado: publicado
 respuesta: Para Carl Gustav Jung, los sueños son expresiones naturales del inconsciente que muestran —no esconden— lo que nos pasa, en un lenguaje de imágenes. Suelen compensar actitudes conscientes unilaterales. Se exploran con las asociaciones de quien sueña, sin diccionarios de símbolos.

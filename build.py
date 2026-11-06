@@ -846,10 +846,22 @@ def consultorio_schema():
         "contactPoint": {"@type": "ContactPoint", "contactType": "Turnos y consultas", "telephone": C["telefono_e164"],
                          "availableLanguage": "es", "url": wa()},
         "sameAs": [R["instagram"], R["facebook"], R["doctoralia"]],
-        "makesOffer": [
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Psicoterapia individual presencial en Alta Gracia", "url": f"{URL}/psicologo-alta-gracia/"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Psicoterapia online en español", "url": f"{URL}/terapia-online/"}},
-        ],
+        "makesOffer": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": n, "url": f"{URL}{r}", "provider": {"@id": f"{URL}/#nicolas-bongiorno"}}} for n, r in [
+            ("Psicoterapia individual presencial en Alta Gracia", "/psicologo-alta-gracia/"),
+            ("Psicoterapia online en español", "/terapia-online/"),
+            ("Terapia junguiana (psicología analítica)", "/terapia-junguiana/"),
+            ("Psicoterapia para adolescentes", "/psicologo-para-adolescentes/"),
+            ("Psicoterapia para adultos mayores", "/terapia-para-adultos-mayores/"),
+            ("Tratamiento psicológico de la ansiedad y los ataques de pánico", "/ansiedad-y-ataques-de-panico/"),
+            ("Tratamiento psicológico de la depresión", "/depresion/"),
+            ("Acompañamiento en duelos y pérdidas", "/duelo-y-perdidas/"),
+            ("Psicoterapia para crisis vitales", "/crisis-vitales/"),
+            ("Psicoterapia para el estrés y el agotamiento", "/estres-y-agotamiento/"),
+            ("Psicoterapia del trauma y regulación emocional", "/trauma/"),
+            ("Psicoterapia para la autoestima", "/autoestima/"),
+            ("Psicoterapia para dificultades vinculares", "/dificultades-vinculares/"),
+        ]],
+        "paymentAccepted": "Atención particular, con factura para reintegro de obra social o prepaga",
     }
     if C.get("email"):
         c["email"] = C["email"]

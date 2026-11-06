@@ -1,0 +1,28 @@
+# Una vez por mes revisa que los enlaces externos (Instagram, Doctoralia, Maps, Wikipedia…) sigan funcionando.
+# Si alguno se rompe, el flujo falla y GitHub te avisa por correo.
+name: Revisar enlaces externos
+
+on:
+  schedule:
+    - cron: "17 13 3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  enlaces:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Revisar enlaces de public/
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress --max-retries 2 --timeout 20
+            --accept 200,204,206,301,302,303,307,308,403,429,999
+            --exclude-path public/llms-full.txt
+            --exclude "wa\.me" --exclude "licbongiorno5\.vercel\.app"
+            "public/**/*.html"
+          fail: true

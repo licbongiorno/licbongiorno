@@ -7,7 +7,7 @@ categoria: Ansiedad y emociones
 palabras_clave: ansiedad, síntomas de ansiedad, ansiedad tratamiento psicológico, ansiedad psicoanálisis
 lectura: 7
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 2
 estado: publicado
 respuesta: La ansiedad es una respuesta natural ante lo que percibimos como amenaza, que se vuelve un problema cuando es constante o desproporcionada. Se manifiesta en el cuerpo, el pensamiento y la conducta. En terapia se trabaja tanto el alivio de los síntomas como el sentido de lo que la ansiedad está señalando.

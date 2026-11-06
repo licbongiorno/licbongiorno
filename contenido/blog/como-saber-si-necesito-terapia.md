@@ -7,7 +7,7 @@ categoria: Salud mental
 palabras_clave: cuándo ir al psicólogo, necesito terapia, empezar terapia, primera consulta psicólogo
 lectura: 6
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 1
 estado: publicado
 respuesta: No hace falta estar en una situación extrema. Conviene consultar si algo te hace sufrir hace tiempo, si se repiten situaciones que no lográs cambiar, si te cuesta dormir o disfrutar, o si querés conocerte mejor. La primera entrevista sirve para pensarlo juntos, sin compromiso.

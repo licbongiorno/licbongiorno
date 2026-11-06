@@ -7,7 +7,7 @@ categoria: Psicología contemporánea
 palabras_clave: psicoterapia integrativa, psicología integrativa, enfoques de psicoterapia
 lectura: 5
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 11
 estado: publicado
 respuesta: La psicoterapia integrativa combina de manera coherente aportes de distintas corrientes psicológicas según las necesidades de cada persona. No es mezclar técnicas al azar: requiere un eje teórico claro, conocimiento de otros enfoques y criterio clínico.

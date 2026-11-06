@@ -7,7 +7,7 @@ categoria: Vínculos y relaciones
 palabras_clave: dependencia emocional, apego ansioso, relaciones tóxicas, miedo al abandono
 lectura: 5
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 10
 estado: publicado
 respuesta: La dependencia emocional es una forma de vincularse en la que el bienestar propio queda en manos de otra persona: miedo intenso al abandono, tolerar lo que duele para no perder el vínculo, dejar de lado los propios deseos. Suele tener raíces en la historia vincular y se puede trabajar en terapia.

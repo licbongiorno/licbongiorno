@@ -7,7 +7,7 @@ categoria: Vínculos y relaciones
 palabras_clave: patrones en las relaciones, repetición, vínculos, pareja, compulsión a la repetición
 lectura: 6
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 4
 estado: publicado
 respuesta: Repetimos patrones en los vínculos porque nuestras primeras relaciones funcionan como un molde inconsciente: lo conocido, aunque duela, resulta familiar. Reconocer el patrón, entender de dónde viene y qué función cumple es lo que permite empezar a elegir de otra manera.

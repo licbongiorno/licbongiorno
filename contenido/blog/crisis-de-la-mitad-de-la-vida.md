@@ -7,7 +7,7 @@ categoria: Desarrollo personal
 palabras_clave: crisis de la mitad de la vida, crisis de los 40, Jung individuación, sentido de la vida
 lectura: 6
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 7
 estado: publicado
 respuesta: La crisis de la mitad de la vida es un período, a menudo entre los cuarenta y los cincuenta años, en el que lo logrado deja de alcanzar y aparece la pregunta por el sentido. Jung la entendía como un llamado a mirar hacia adentro e integrar lo relegado: el proceso de individuación.

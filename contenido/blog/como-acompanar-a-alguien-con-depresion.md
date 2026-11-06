@@ -7,7 +7,7 @@ categoria: Salud mental
 palabras_clave: cómo ayudar a alguien con depresión, depresión, acompañar, salud mental
 lectura: 5
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 13
 estado: publicado
 respuesta: Para acompañar a alguien con depresión ayuda estar presente, escuchar sin juzgar, validar lo que siente y proponer pasos pequeños, como acompañarlo a una consulta. Conviene evitar frases como «poné de tu parte». Ante señales de riesgo, hay que pedir ayuda urgente.

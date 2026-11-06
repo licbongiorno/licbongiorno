@@ -7,7 +7,7 @@ categoria: Psicología contemporánea
 palabras_clave: duelo migratorio, psicólogo para emigrados, argentinos en el exterior, terapia online en español
 lectura: 5
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 8
 estado: publicado
 respuesta: El duelo migratorio es el proceso emocional que implica dejar el propio país: familia, idioma, cultura, paisaje y pertenencia. Puede aparecer aunque la migración haya sido elegida. Es un duelo parcial y recurrente, que se reactiva con cada viaje o fecha especial.

@@ -7,7 +7,7 @@ categoria: Jung y psicología analítica
 palabras_clave: sombra Jung, Carl Jung, psicología analítica, arquetipos, autoconocimiento
 lectura: 7
 fecha: 2026-11-05
-fecha_visible: Noviembre de 2026
+fecha_visible: noviembre de 2026
 orden: 3
 estado: publicado
 respuesta: Para Carl Gustav Jung, la sombra es el conjunto de aspectos de la personalidad que no reconocemos como propios: rasgos rechazados, pero también capacidades no desarrolladas. Suele aparecer proyectada en otras personas. Integrarla nos vuelve más completos.
