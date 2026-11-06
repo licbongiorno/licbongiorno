@@ -1424,3 +1424,22 @@ main#contenido:focus { outline: none; }
 .lab-racha__dia input:checked + span { background: var(--salvia-profunda); border-color: var(--salvia-profunda); color: var(--beige); font-weight: 600; }
 .lab-racha__dia input:focus-visible + span { outline: 2px solid var(--foco); outline-offset: 2px; }
 .lab-racha__dia.es-hueco-doble span:not(.visualmente-oculto) { border-color: var(--terracota-profunda); border-style: dashed; }
+
+/* ---------- Laboratorio de respiraciones ---------- */
+.lab-respiraciones .lab-panel { text-align: left; }
+.lab-respiraciones fieldset .opciones { justify-content: center; }
+.lab-respiraciones legend { width: 100%; text-align: center; }
+.lab-respiracion__lado { min-height: 1.4em; margin: 0 0 .3rem; font-family: var(--f-sans); font-size: .85rem; font-weight: 600; color: var(--terracota-profunda); }
+.lab-respiracion[data-lado="izq"] .lab-respiracion__escena { --lado: -1; }
+.lab-respiracion[data-lado="der"] .lab-respiracion__escena { --lado: 1; }
+.lab-respiracion[data-lado] .lab-respiracion__escena::after { content: ""; position: absolute; top: 50%; left: 50%; width: 14px; height: 14px; margin: -7px; border-radius: 50%; background: var(--terracota-profunda); transform: translateX(calc(var(--lado) * (min(260px, 70vw) / 2 + 18px))); }
+.lab-confirmar { display: flex; gap: .6rem; align-items: flex-start; margin-top: .6rem; font-weight: 600; cursor: pointer; }
+.lab-confirmar input { flex: none; width: 22px; height: 22px; margin-top: .1rem; accent-color: var(--salvia-profunda); }
+
+/* ---------- Laboratorio de meditación ---------- */
+.mandala-borde { fill: none; stroke: var(--linea); }
+.mandala-anillo { fill: none; stroke: color-mix(in srgb, var(--salvia-profunda) 45%, transparent); }
+.mandala-f0 > * { fill: color-mix(in srgb, var(--terracota) 55%, transparent); stroke: var(--terracota-profunda); stroke-width: 1; }
+.mandala-f1 > * { fill: color-mix(in srgb, var(--salvia) 55%, transparent); stroke: var(--salvia-profunda); stroke-width: 1; }
+.mandala-f2 > * { fill: color-mix(in srgb, var(--arena-2) 80%, transparent); stroke: var(--piedra-oscura); stroke-width: 1; }
+.mandala-centro { fill: var(--terracota-profunda); }

@@ -293,6 +293,82 @@
     pintar();
   });
 
+  /* Respiración guiada: <div data-lab-respiracion [data-ciclos="20"]> con [data-resp-circulo], [data-resp-cuenta],
+     [data-resp-fase], [data-resp-empezar], [data-resp-frenar], opcional [data-resp-lado] y [data-resp-confirmar] (casilla).
+     El patrón sale del radio marcado dentro del componente (atributo data-patron o value "4,0,6,0") o de data-patron del componente.
+     data-patron es JSON: [{ "f": "Inhalá", "s": 4, "e": 1, "l": "izq"|"der" }, …]. */
+  var NOMBRES_RESP = ["Inhalá", "Sostené", "Exhalá", "Pausa"], ESCALA_RESP = [1, 1, 0.45, 0.45];
+  LAB.patronRespiracion = function (valor) {
+    if (!valor) return [];
+    if (/^[\d.,\s]+$/.test(valor)) {
+      return valor.split(",").map(Number).map(function (seg, k) { return { f: NOMBRES_RESP[k], s: seg, e: ESCALA_RESP[k] }; })
+        .filter(function (x) { return x.s > 0; });
+    }
+    try { return JSON.parse(valor); } catch (e) { return []; }
+  };
+  document.querySelectorAll("[data-lab-respiracion]").forEach(function (r) {
+    var quieto = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var circ = r.querySelector("[data-resp-circulo]"), cuenta = r.querySelector("[data-resp-cuenta]"), fase = r.querySelector("[data-resp-fase]");
+    var bEmp = r.querySelector("[data-resp-empezar]"), bFre = r.querySelector("[data-resp-frenar]"), lado = r.querySelector("[data-resp-lado]");
+    var confirmar = r.querySelector("[data-resp-confirmar]");
+    var tFase = null, tTic = null, ciclos = 0, activo = false;
+    var patron = function () {
+      var m = r.querySelector("input[type=radio]:checked");
+      return LAB.patronRespiracion(m ? (m.getAttribute("data-patron") || m.value) : r.getAttribute("data-patron"));
+    };
+    var maxCiclos = function () {
+      var m = r.querySelector("input[type=radio]:checked");
+      return parseInt((m && m.getAttribute("data-ciclos")) || r.getAttribute("data-ciclos") || "0", 10);
+    };
+    var limpiar = function () { clearTimeout(tFase); clearInterval(tTic); tFase = tTic = null; };
+    var frenar = function (msg) {
+      limpiar(); activo = false;
+      r.classList.remove("en-marcha"); r.removeAttribute("data-lado");
+      circ.style.transitionDuration = quieto ? "0s" : "1.2s"; circ.style.transform = "scale(.45)";
+      cuenta.textContent = ""; if (lado) lado.textContent = "";
+      fase.textContent = msg || "Listo. ¿Cómo te sentís ahora?";
+      bEmp.disabled = !puede(); bFre.disabled = true;
+    };
+    var paso = function (k) {
+      var p = patron();
+      if (!p.length) return frenar("Elegí una técnica.");
+      if (k >= p.length) {
+        k = 0; ciclos++;
+        var max = maxCiclos();
+        if (max && ciclos >= max) { LAB.campana(); return frenar("Terminaste " + max + (max === 1 ? " ciclo" : " ciclos") + ". Volvé a respirar a tu ritmo natural."); }
+      }
+      var x = p[k], seg = x.s, fin = Date.now() + seg * 1000;
+      fase.textContent = x.f + " (" + (seg % 1 ? String(seg).replace(".", ",") : seg) + ")";
+      circ.style.transitionDuration = quieto ? "0s" : seg + "s";
+      circ.style.transform = "scale(" + (x.e != null ? x.e : 1) + ")";
+      if (x.l) { r.setAttribute("data-lado", x.l); if (lado) lado.textContent = x.l === "izq" ? "Tapá la fosa derecha · aire por la izquierda" : "Tapá la fosa izquierda · aire por la derecha"; }
+      else { r.removeAttribute("data-lado"); if (lado) lado.textContent = ""; }
+      var tic = function () { cuenta.textContent = Math.max(1, Math.ceil((fin - Date.now()) / 1000)); };
+      tic(); clearInterval(tTic); tTic = setInterval(tic, 250);
+      clearTimeout(tFase); tFase = setTimeout(function () { paso(k + 1); }, seg * 1000);
+    };
+    /* La confirmación se exige solo si la técnica elegida tiene data-confirmar (o el componente, si no hay radios). */
+    var pideConfirmar = function () {
+      var m = r.querySelector("input[type=radio]:checked");
+      return m ? m.hasAttribute("data-confirmar") : r.hasAttribute("data-confirmar");
+    };
+    var puede = function () { return !pideConfirmar() || (confirmar && confirmar.checked); };
+    var sync = function () { if (!activo) bEmp.disabled = !puede(); };
+    if (confirmar) confirmar.addEventListener("change", sync);
+    r.addEventListener("change", sync);
+    sync();
+    bEmp.addEventListener("click", function () {
+      if (!puede()) { fase.textContent = "Antes de empezar, leé y confirmá las precauciones."; return; }
+      ciclos = 0; activo = true; r.classList.add("en-marcha"); bEmp.disabled = true; bFre.disabled = false; paso(0);
+    });
+    bFre.addEventListener("click", function () { frenar(); });
+    r.addEventListener("change", function (e) {
+      if (e.target === confirmar) return;
+      if (activo) frenar("Cambiaste la técnica. Tocá «Empezar» para seguir.");
+    });
+    circ.style.transform = "scale(.45)";
+  });
+
   /* Campana suave con Web Audio (solo suena después de un toque de la persona). */
   var audio = null;
   LAB.campana = function () {

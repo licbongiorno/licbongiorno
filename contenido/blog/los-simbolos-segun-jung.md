@@ -51,6 +51,8 @@ No hace falta soñar para encontrarse con símbolos. Aparecen en las canciones q
 
 En la [terapia junguiana](/terapia-junguiana/) se trabaja con los símbolos que trae cada persona: sueños, imágenes, recuerdos, dibujos. No para interpretarlos desde afuera, sino para descubrir juntos qué están diciendo de su vida. Si tenés un sueño o una imagen que te persigue, podés leer sobre [los sueños según Jung](/recursos/los-suenos-segun-jung/) o escribirme.
 
+Podés contemplar un mandala con preguntas inspiradas en Jung en el [laboratorio de meditación](/laboratorio-de-meditacion/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es un símbolo según Jung?

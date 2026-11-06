@@ -317,6 +317,10 @@ LABORATORIOS = [
      "descripcion": "Mitos del dormir, hábitos que ayudan, un diario de sueño y pasos para la mente que no para."},
     {"titulo": "Laboratorio de hábitos y pequeños cambios", "ruta": "/laboratorio-de-habitos/", "tipo": "Cambio",
      "descripcion": "Cuánto tarda un hábito, planes «cuando… voy a…», empezar pequeño, tu racha de 30 días y tres cosas buenas."},
+    {"titulo": "Laboratorio de respiraciones", "ruta": "/laboratorio-de-respiraciones/", "tipo": "Respiración",
+     "descripcion": "Diez técnicas guiadas, de la cuadrada a la alterna por fosas nasales, con su sentido psicológico y sus precauciones."},
+    {"titulo": "Laboratorio de meditación", "ruta": "/laboratorio-de-meditacion/", "tipo": "Meditación",
+     "descripcion": "Nueve prácticas de Oriente y Occidente: zazen, vipassana, metta, relajación progresiva, un mandala y más."},
 ]
 
 
@@ -606,6 +610,12 @@ WIKI = {
     "empatia": ("Empatía", "https://es.wikipedia.org/wiki/Empat%C3%ADa"),
     "metacognicion": ("Metacognición", "https://es.wikipedia.org/wiki/Metacognici%C3%B3n"),
     "creatividad": ("Creatividad", "https://es.wikipedia.org/wiki/Creatividad"),
+    "meditacion": ("Meditación", "https://es.wikipedia.org/wiki/Meditaci%C3%B3n"),
+    "mindfulness": ("Mindfulness", "https://es.wikipedia.org/wiki/Mindfulness"),
+    "zen": ("Zen", "https://es.wikipedia.org/wiki/Zen"),
+    "vipassana": ("Vipassana", "https://es.wikipedia.org/wiki/Vipassana"),
+    "meditacion-trascendental": ("Meditación trascendental", "https://es.wikipedia.org/wiki/Meditaci%C3%B3n_trascendental"),
+    "pranayama": ("Pranayama", "https://es.wikipedia.org/wiki/Pranayama"),
 }
 
 CATEGORIAS = {
@@ -615,6 +625,7 @@ CATEGORIAS = {
     "Salud mental": "Cuándo consultar a un psicólogo, cómo acompañar a alguien que sufre y cómo cuidar la propia salud mental.",
     "Psicología contemporánea": "Psicoterapia integrativa, terapia online, duelo migratorio y otros temas de la psicología de hoy, en lenguaje claro.",
     "Psicología básica": "Personalidad, inteligencia, emociones, apego, memoria y motivación: los conceptos básicos de la psicología, explicados en lenguaje claro.",
+    "Meditación y respiración": "Tipos de meditación de Oriente y Occidente, técnicas de respiración y lo que dice la psicología sobre ellas: beneficios, límites y cuidados.",
     "Desarrollo personal": "Crisis vitales, la crisis de la mitad de la vida, búsqueda de sentido y autoconocimiento desde una mirada junguiana.",
 }
 

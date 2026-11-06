@@ -36,6 +36,8 @@ Muchas personas, después de un ataque, empiezan a evitar los lugares o situacio
 
 Para practicar la respiración lenta y el anclaje en momentos de calma, podés usar el [laboratorio de presencia](/laboratorio-de-presencia/).
 
+Sobre por qué exhalar largo ayuda más que «respirar hondo», leé [respiración y emociones](/recursos/respiracion-y-emociones/).
+
 ## Preguntas frecuentes
 
 ### ¿Cuánto dura un ataque de pánico?

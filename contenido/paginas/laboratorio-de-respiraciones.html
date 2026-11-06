@@ -1,0 +1,177 @@
+<!--{
+  "ruta": "/laboratorio-de-respiraciones/",
+  "titulo": "Laboratorio de respiraciones: diez técnicas guiadas",
+  "descripcion": "Diez técnicas de respiración guiadas, de la cuadrada a la alterna por fosas nasales, con lo que pasa en el cuerpo y la mente, cuándo usarlas y sus precauciones.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Respiraciones", "/laboratorio-de-respiraciones/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>respiraciones</em>",
+  "bajada": "La respiración es la única función del cuerpo que ocurre sola y que también podemos dirigir. Por eso es una puerta entre el cuerpo y la mente. Diez técnicas guiadas, con su sentido psicológico.",
+  "respuesta": "El laboratorio de respiraciones guía diez técnicas: diafragmática, cuadrada, triangular, coherente, 4-7-8, suspiro fisiológico, alterna por fosas nasales, del abejorro, oceánica (ujjayi) y de fuego (kapalabhati). Cada una explica qué pasa en el cuerpo y en la mente, cuándo usarla y sus precauciones. Las exhalaciones largas tienden a calmar; las respiraciones rápidas, a activar.",
+  "scripts": ["lab-base.js", "laboratorio-respiraciones.js"],
+  "wa_tema": "el laboratorio de respiraciones",
+  "articulos": ["respiracion-y-emociones", "que-es-la-meditacion", "ansiedad-cuando-el-cuerpo-habla"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es «respirá hondo y ya está». Respiramos unas veinte mil veces por día sin darnos cuenta, y cada emoción tiene su forma de respirar: el miedo corta el aire, la tristeza suspira, el enojo resopla, la calma se alarga. Lo interesante es que el camino también funciona al revés: cambiando la respiración, cambia algo de lo que sentimos.</p>
+        <p>Muchas de estas técnicas vienen del yoga, de las tradiciones meditativas o de la clínica, y hoy se estudian en psicología y fisiología. La regla general es simple: <strong>las exhalaciones largas tienden a calmar</strong> y <strong>las respiraciones rápidas tienden a activar</strong>. Más sobre esto en <a href="/recursos/respiracion-y-emociones/">respiración y emociones</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin forzar.</strong> Si te mareás o te falta el aire, volvé a tu respiración natural.</li>
+        <li><strong>Por la nariz.</strong> Salvo que la técnica diga otra cosa, inhalá por la nariz.</li>
+        <li><strong>Sentado y cómodo.</strong> Espalda derecha, hombros sueltos.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#practicar">Las diez técnicas</a>
+      <a href="#antes-despues">Antes y después</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="practicar" aria-labelledby="t-practicar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-practicar">Las diez técnicas</h2>
+      <p class="lab-estacion__bajada">Elegí una técnica, leé cómo se hace y tocá «Empezar». Seguí el círculo: cuando crece, inhalá; cuando se achica, exhalá. Probá cada una al menos tres minutos antes de decidir si te sirve.</p>
+      <div class="lab-tarjeta lab-respiracion lab-respiraciones" data-lab-respiracion data-lab-selector>
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend class="lab-tarjeta__titulo">Calmantes</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="resp-tec" value="diafragmatica" checked data-patron='[{"f":"Inhalá llevando el aire a la panza","s":4,"e":1},{"f":"Exhalá despacio, la panza baja","s":6,"e":0.45}]'><span>Diafragmática</span></label>
+            <label class="opcion"><input type="radio" name="resp-tec" value="cuadrada" data-patron="4,4,4,4"><span>Cuadrada</span></label>
+            <label class="opcion"><input type="radio" name="resp-tec" value="triangular" data-patron='[{"f":"Inhalá","s":4,"e":1},{"f":"Sostené","s":4,"e":1},{"f":"Exhalá","s":4,"e":0.45}]'><span>Triangular</span></label>
+            <label class="opcion"><input type="radio" name="resp-tec" value="coherente" data-patron='[{"f":"Inhalá","s":5.5,"e":1},{"f":"Exhalá","s":5.5,"e":0.45}]'><span>Coherente</span></label>
+            <label class="opcion"><input type="radio" name="resp-tec" value="478" data-patron="4,7,8,0"><span>4-7-8</span></label>
+            <label class="opcion"><input type="radio" name="resp-tec" value="suspiro" data-ciclos="5" data-patron='[{"f":"Inhalá por la nariz","s":3,"e":0.85},{"f":"Una segunda inhalación corta, sin soltar","s":1,"e":1},{"f":"Exhalá largo por la boca","s":6,"e":0.45}]'><span>Suspiro fisiológico</span></label>
+          </div>
+        </fieldset>
+        <fieldset style="border:0;padding:0;margin:.8rem 0 0">
+          <legend class="lab-tarjeta__titulo">Del yoga</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="resp-tec" value="alterna" data-patron='[{"f":"Inhalá por la izquierda","s":4,"e":1,"l":"izq"},{"f":"Exhalá por la derecha","s":6,"e":0.45,"l":"der"},{"f":"Inhalá por la derecha","s":4,"e":1,"l":"der"},{"f":"Exhalá por la izquierda","s":6,"e":0.45,"l":"izq"}]'><span>Alterna por fosas nasales</span></label>
+            <label class="opcion"><input type="radio" name="resp-tec" value="abejorro" data-patron='[{"f":"Inhalá por la nariz","s":4,"e":1},{"f":"Exhalá zumbando «mmm»","s":8,"e":0.45}]'><span>Del abejorro</span></label>
+            <label class="opcion"><input type="radio" name="resp-tec" value="oceanica" data-patron='[{"f":"Inhalá con la garganta apenas cerrada","s":5,"e":1},{"f":"Exhalá con sonido de mar","s":7,"e":0.45}]'><span>Oceánica (ujjayi)</span></label>
+            <label class="opcion"><input type="radio" name="resp-tec" value="fuego" data-confirmar data-ciclos="20" data-patron='[{"f":"Exhalá con fuerza por la nariz","s":1,"e":0.6},{"f":"Soltá: el aire entra solo","s":1,"e":0.85}]'><span>De fuego (kapalabhati)</span></label>
+          </div>
+        </fieldset>
+
+        <div class="lab-respiracion__escena" aria-hidden="true"><div class="lab-respiracion__circulo" data-resp-circulo></div><span class="lab-respiracion__cuenta" data-resp-cuenta></span></div>
+        <p class="lab-respiracion__lado" data-resp-lado aria-hidden="true"></p>
+        <p class="lab-respiracion__fase" role="status" data-resp-fase>Elegí una técnica y tocá «Empezar».</p>
+
+        <div class="lab-panel" data-lab-panel="fuego" hidden>
+          <p><strong>Antes de empezar.</strong> Esta respiración es activadora y puede producir mareo u hormigueo. <strong>No la hagas</strong> si estás embarazada, tenés presión alta, problemas cardíacos, epilepsia, hernias, una cirugía reciente, si estás atravesando crisis de pánico o si nunca la practicaste con alguien que la enseñe. Hacela sentado, nunca manejando ni en el agua.</p>
+          <label class="lab-confirmar"><input type="checkbox" data-resp-confirmar> Leí las precauciones y ninguna se aplica a mí.</label>
+        </div>
+        <div class="lab-acciones" style="justify-content:center">
+          <button class="boton boton--chico" type="button" data-resp-empezar>Empezar</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-resp-frenar disabled>Frenar</button>
+        </div>
+
+        <div class="lab-panel" data-lab-panel="diafragmatica">
+          <p><strong>Cómo se hace.</strong> Una mano en el pecho y otra en la panza. Al inhalar, que suba la mano de la panza y casi no se mueva la del pecho. Exhalá un poco más largo de lo que inhalaste.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> Cuando estamos ansiosos solemos respirar corto y con el pecho. Bajar la respiración al diafragma y alargar la exhalación activa la rama del sistema nervioso que frena la alarma. Es la base de casi todas las demás técnicas.</p>
+          <p><strong>Cuándo usarla.</strong> Todos los días, unos minutos, para aprender a respirar así sin pensarlo.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="cuadrada" hidden>
+          <p><strong>Cómo se hace.</strong> Cuatro tiempos iguales: inhalar, sostener, exhalar y sostener con los pulmones vacíos. Imaginá que recorrés los lados de un cuadrado.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> Además de bajar el ritmo, contar le da a la atención un lugar donde apoyarse: la cabeza tiene menos espacio para la rumiación. Por eso se usa en contextos de mucha presión.</p>
+          <p><strong>Cuándo usarla.</strong> Antes de una situación estresante (un examen, una reunión difícil) o para ordenar la cabeza.</p>
+          <p><strong>Precauciones.</strong> Si las pausas te generan ahogo o ansiedad, acortalas o pasá a la diafragmática.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="triangular" hidden>
+          <p><strong>Cómo se hace.</strong> Tres tiempos: inhalar, sostener y exhalar, sin pausa al final. Es una versión más simple de la cuadrada.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> Igual que la cuadrada, combina ritmo lento y atención. Al no tener pausa con los pulmones vacíos, suele ser más cómoda para quien recién empieza.</p>
+          <p><strong>Cuándo usarla.</strong> Para iniciarse en las respiraciones con ritmo o en momentos de tensión moderada.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="coherente" hidden>
+          <p><strong>Cómo se hace.</strong> Inhalar y exhalar en tiempos iguales, alrededor de cinco segundos y medio cada uno: unas cinco o seis respiraciones por minuto, sin pausas.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> A ese ritmo, en muchas personas aumenta la <strong>variabilidad de la frecuencia cardíaca</strong>, un indicador de flexibilidad del sistema nervioso asociado con mejor regulación emocional. Es una de las técnicas más estudiadas, a partir del trabajo de Paul Lehrer con biofeedback.</p>
+          <p><strong>Cuándo usarla.</strong> Como práctica diaria de diez a veinte minutos, para entrenar la capacidad de calmarse.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="478" hidden>
+          <p><strong>Cómo se hace.</strong> Inhalar en cuatro tiempos, sostener siete y exhalar en ocho, por la boca y despacio.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> La exhalación es el doble de larga que la inhalación: un mensaje claro de calma para el cuerpo. La retención exige más, así que no conviene forzarla.</p>
+          <p><strong>Cuándo usarla.</strong> Antes de dormir, cuatro ciclos.</p>
+          <p><strong>Precauciones.</strong> Si sostener siete tiempos te angustia, probá 4-4-6 hasta que te resulte cómoda.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="suspiro" hidden>
+          <p><strong>Cómo se hace.</strong> Una inhalación por la nariz, una segunda inhalación corta encima de la primera, sin soltar el aire, y una exhalación larga por la boca. Cinco veces.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> Es lo que el cuerpo hace solo cuando suspira o después de llorar. En un estudio de Balban y colaboradores (2023), unos minutos diarios de suspiros mejoraron el estado de ánimo y bajaron la frecuencia respiratoria más que una meditación de atención plena de la misma duración.</p>
+          <p><strong>Cuándo usarla.</strong> Cuando necesitás bajar rápido la tensión: dos o tres suspiros pueden alcanzar.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="alterna" hidden>
+          <p><strong>Cómo se hace.</strong> Con el pulgar derecho tapás la fosa derecha e inhalás por la izquierda. Con el anular tapás la izquierda, soltás la derecha y exhalás por la derecha. Inhalás por la derecha, cambiás y exhalás por la izquierda. Eso es un ciclo. El círculo te indica de qué lado respirar.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> En el yoga se la llama <em>nadi shodhana</em>. Obliga a una respiración lenta y a una atención muy concentrada en los detalles, lo que suele aquietar los pensamientos. Hay estudios que sugieren efectos calmantes, aunque la evidencia todavía es preliminar.</p>
+          <p><strong>Cuándo usarla.</strong> Antes de meditar o para salir de un estado de agitación mental.</p>
+          <p><strong>Precauciones.</strong> Con la nariz tapada por un resfrío o alergia, mejor usar otra técnica.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="abejorro" hidden>
+          <p><strong>Cómo se hace.</strong> Inhalá por la nariz y, al exhalar con la boca cerrada, hacé un zumbido suave, como un «mmm» largo. Podés tapar los oídos con los pulgares para sentir la vibración.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> En el yoga se llama <em>bhramari</em>. Alarga la exhalación de forma natural, y la vibración y el sonido le dan a la mente algo en que concentrarse. Muchas personas la sienten especialmente calmante.</p>
+          <p><strong>Cuándo usarla.</strong> Cuando hay mucho ruido mental o antes de dormir.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="oceanica" hidden>
+          <p><strong>Cómo se hace.</strong> Respirá por la nariz cerrando apenas la parte de atrás de la garganta, como si empañaras un vidrio con la boca cerrada. El aire hace un sonido suave, parecido al del mar.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> En el yoga se llama <em>ujjayi</em>, y a veces se la conoce como «respiración del océano» o «de agua» por su sonido. Ese leve freno en la garganta alarga y suaviza la respiración, y el sonido funciona como ancla de la atención.</p>
+          <p><strong>Cuándo usarla.</strong> Durante el yoga, al caminar o para acompañar una meditación.</p>
+        </div>
+        <div class="lab-panel" data-lab-panel="fuego" hidden>
+          <p><strong>Cómo se hace.</strong> Exhalaciones cortas y activas por la nariz, contrayendo la panza hacia adentro; la inhalación es pasiva y sucede sola. Acá va a un ritmo moderado (una cada dos segundos) y en una ronda de veinte. Después, respirá normal al menos un minuto.</p>
+          <p><strong>Qué pasa en el cuerpo y en la mente.</strong> En el yoga se llama <em>kapalabhati</em>. A diferencia de las anteriores, <strong>activa</strong>: aumenta la energía y el estado de alerta. Puede ser útil para salir del letargo, pero no para calmar la ansiedad: en una persona ansiosa puede aumentar las sensaciones de alarma.</p>
+          <p><strong>Cuándo usarla.</strong> A la mañana o ante el desgano, si no tenés ninguna contraindicación.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="antes-despues" aria-labelledby="t-antes">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-antes">Antes y después</h2>
+      <p class="lab-estacion__bajada">Para saber qué técnica te sirve a vos, nada mejor que medirlo. Marcá tu nivel de tensión antes de practicar y después.</p>
+      <div class="lab-tarjeta" data-resp-antes-despues>
+        <label class="lab-paso__titulo" for="ad-antes">Tensión antes: <output for="ad-antes" data-ad-antes-v>5</output> de 10</label>
+        <input class="lab-rango" id="ad-antes" type="range" min="0" max="10" value="5">
+        <label class="lab-paso__titulo" for="ad-despues">Tensión después: <output for="ad-despues" data-ad-despues-v>5</output> de 10</label>
+        <input class="lab-rango" id="ad-despues" type="range" min="0" max="10" value="5">
+        <p class="lab-quiz__resultado bien" data-ad-resultado aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una técnica por día, al menos cinco minutos. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="respiraciones">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Diafragmática.</strong> Una mano en la panza, cinco minutos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Cuadrada</strong> antes de una situación que te tensiona.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Coherente</strong> durante diez minutos.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Suspiros.</strong> Cinco suspiros fisiológicos cuando notes tensión.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Alterna</strong> por fosas nasales, antes de dormir.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Del abejorro</strong> en un momento de mucho ruido mental.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Tu favorita.</strong> Elegí la que más te sirvió y anotá por qué.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Mareo, hormigueo en las manos o una sensación de ahogo son señales de que estás respirando de más: frená y volvé a tu ritmo natural. Si tenés asma, una enfermedad respiratoria o cardíaca, o estás embarazada, consultá con tu médico antes de practicar retenciones o respiraciones rápidas. En un ataque de pánico, lo que más ayuda son las <strong>exhalaciones largas</strong>, no las retenciones: mirá <a href="/recursos/ataque-de-panico-que-hacer/">qué hacer en un ataque de pánico</a>. Si necesitás ayuda ahora, <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Zaccaro, A. y otros (2018). «How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing». <em>Frontiers in Human Neuroscience</em>, 12.</li>
+        <li>Balban, M. Y. y otros (2023). «Brief structured respiration practices enhance mood and reduce physiological arousal». <em>Cell Reports Medicine</em>, 4(1).</li>
+        <li>Lehrer, P. M. y Gevirtz, R. (2014). «Heart rate variability biofeedback: how and why does it work?». <em>Frontiers in Psychology</em>, 5.</li>
+        <li>Brown, R. P. y Gerbarg, P. L. (2005). «Sudarshan Kriya yogic breathing in the treatment of stress, anxiety, and depression». <em>Journal of Alternative and Complementary Medicine</em>, 11(1).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

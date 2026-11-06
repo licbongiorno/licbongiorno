@@ -45,6 +45,8 @@ La imaginación activa es una herramienta potente, y por eso no conviene usarla 
 
 En la [terapia junguiana](/terapia-junguiana/) puede aparecer de muchas formas: continuar un [sueño](/recursos/los-suenos-segun-jung/) con los ojos cerrados, escribirle una carta a una emoción, dibujar una imagen que insiste. Se relaciona también con el trabajo con [las emociones](/recursos/las-emociones-segun-jung/) y con [los símbolos](/recursos/los-simbolos-segun-jung/). Si te interesa trabajar de este modo, podés escribirme.
 
+Sobre la relación de Jung con la meditación oriental y el mandala, leé [Jung y la meditación](/recursos/jung-y-la-meditacion/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la función trascendente según Jung?

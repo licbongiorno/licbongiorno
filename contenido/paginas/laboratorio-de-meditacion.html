@@ -1,0 +1,255 @@
+<!--{
+  "ruta": "/laboratorio-de-meditacion/",
+  "titulo": "Laboratorio de meditación: prácticas guiadas",
+  "descripcion": "Prácticas de meditación guiadas de Oriente y Occidente: respiración, zazen, caminar, anotar, metta, relajación progresiva, una palabra que calma y un mandala.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Meditación", "/laboratorio-de-meditacion/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>meditación</em>",
+  "bajada": "Nueve prácticas cortas de distintas tradiciones, guiadas paso a paso, con un temporizador con campana y un registro para notar qué te pasa. Siempre con un pie en la psicología.",
+  "respuesta": "El laboratorio de meditación ofrece nueve prácticas guiadas de distintas tradiciones: atención a la respiración, solo sentarse (zazen), meditación caminando, anotar (vipassana), bondad amorosa (metta), pensamientos como hojas en un río, una palabra que calma (respuesta de relajación de Benson), relajación muscular progresiva (Jacobson) y contemplación de un mandala inspirada en Jung, más un temporizador con campana y un registro de práctica.",
+  "scripts": ["lab-base.js", "laboratorio-meditacion.js"],
+  "wa_tema": "el laboratorio de meditación",
+  "articulos": ["que-es-la-meditacion", "mindfulness-atencion-plena", "cuando-meditar-no-es-recomendable"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no hace falta un almohadón especial, incienso ni una hora libre. Hace falta un lugar donde sentarte un rato y la disposición a darte cuenta, una y otra vez, de que te fuiste a otro lado. Y volver. Cada vez que volvés, entrenás algo. No hay meditaciones «buenas» o «malas»: hay ratos de práctica.</p>
+        <p>Estas prácticas vienen de tradiciones distintas, de Oriente y de Occidente, y de la propia psicología. Al lado de cada una te cuento de dónde viene y qué puede aportar. Si querés el mapa completo, leé <a href="/recursos/que-es-la-meditacion/">qué es la meditación</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Corto y seguido.</strong> Cinco minutos todos los días valen más que una hora una vez.</li>
+        <li><strong>Podés frenar.</strong> Abrir los ojos y moverte siempre está permitido.</li>
+        <li><strong>Sin registro.</strong> Tus notas quedan en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#sesion">Temporizador</a>
+      <a href="#respiracion">Respiración</a>
+      <a href="#zazen">Solo sentarse</a>
+      <a href="#caminar">Caminar</a>
+      <a href="#anotar">Anotar</a>
+      <a href="#metta">Bondad amorosa</a>
+      <a href="#hojas">Hojas en el río</a>
+      <a href="#palabra">Una palabra</a>
+      <a href="#relajacion">Relajación progresiva</a>
+      <a href="#mandala">Mandala</a>
+      <a href="#registro">Registro</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="sesion" aria-labelledby="t-sesion">
+      <p class="lab-estacion__num">00</p>
+      <h2 id="t-sesion">Temporizador de sesión</h2>
+      <p class="lab-estacion__bajada">Para cualquiera de las prácticas, o para sentarte en silencio. Una campana marca el comienzo y otra el final; si querés, también una a mitad de camino.</p>
+      <div class="lab-tarjeta lab-centro" data-med-sesion>
+        <div class="opciones" role="radiogroup" aria-label="Duración" style="justify-content:center">
+          <label class="opcion"><input type="radio" name="med-min" value="3"><span>3 minutos</span></label>
+          <label class="opcion"><input type="radio" name="med-min" value="5" checked><span>5 minutos</span></label>
+          <label class="opcion"><input type="radio" name="med-min" value="10"><span>10 minutos</span></label>
+          <label class="opcion"><input type="radio" name="med-min" value="20"><span>20 minutos</span></label>
+        </div>
+        <label class="lab-confirmar" style="justify-content:center"><input type="checkbox" data-med-mitad> Campana a mitad de la sesión</label>
+        <p class="lab-reloj lab-reloj--grande" data-med-reloj aria-hidden="true">5:00</p>
+        <p class="visualmente-oculto" role="status" data-med-estado></p>
+        <div class="lab-acciones" style="justify-content:center"><button class="boton boton--chico" type="button" data-med-empezar>Empezar</button><button class="boton boton--secundario boton--chico" type="button" data-med-frenar disabled>Frenar</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="respiracion" aria-labelledby="t-respiracion">
+      <p class="lab-estacion__num">01 · Atención focalizada</p>
+      <h2 id="t-respiracion">Atención a la respiración</h2>
+      <p class="lab-estacion__bajada">La práctica base de muchas tradiciones, llamada a veces <em>samatha</em> (calma). Entrena la concentración: sostener la atención en un punto y volver cada vez que se va.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Postura.</strong> Sentate con la espalda derecha y los hombros sueltos. Ojos cerrados o la mirada apoyada en el piso.</li>
+          <li><strong>Encontrá la respiración.</strong> Donde la sientas más clara: la nariz, el pecho o la panza. No la cambies: solo observala.</li>
+          <li><strong>Contá.</strong> Contá cada exhalación del uno al diez. Al llegar a diez, volvé a uno. Si te perdés, volvé a uno sin enojarte.</li>
+          <li><strong>Soltá el conteo.</strong> Ahora seguí solo con la sensación del aire entrando y saliendo.</li>
+          <li><strong>Cerrar.</strong> Notá cómo estás ahora, sin juzgarlo. Abrí los ojos despacio.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="zazen" aria-labelledby="t-zazen">
+      <p class="lab-estacion__num">02 · Zen</p>
+      <h2 id="t-zazen">Solo sentarse</h2>
+      <p class="lab-estacion__bajada">El <em>shikantaza</em> del zen: sin objeto, sin conteo, sin meta. Sentarse con la espalda derecha y dejar que pensamientos, sonidos y sensaciones aparezcan y se vayan, como nubes en el cielo. Usá el temporizador de arriba con 5 o 10 minutos. Más en <a href="/recursos/meditacion-zen-zazen/">meditación zen y zazen</a>.</p>
+      <div class="lab-tarjeta">
+        <ol class="lab-guion">
+          <li>Sentate frente a una pared lisa, a un metro. Mirada baja, ojos entreabiertos.</li>
+          <li>Manos sobre el regazo: la izquierda sobre la derecha, los pulgares apenas tocándose.</li>
+          <li>Respirá por la nariz con naturalidad.</li>
+          <li>No persigas los pensamientos ni los rechaces. Si te enganchás con uno, volvé a la postura.</li>
+        </ol>
+        <p class="lab-nota">Desde la psicología, es una práctica de monitoreo abierto: entrena la capacidad de observar sin reaccionar.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="caminar" aria-labelledby="t-caminar">
+      <p class="lab-estacion__num">03 · Zen y vipassana</p>
+      <h2 id="t-caminar">Meditación caminando</h2>
+      <p class="lab-estacion__bajada">El <em>kinhin</em> del zen y la caminata atenta de la vipassana. Ideal si te cuesta quedarte quieto o si la quietud te angustia.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Un espacio.</strong> Elegí un recorrido corto, de diez o quince pasos, en tu casa o al aire libre.</li>
+          <li><strong>Muy despacio.</strong> Caminá a la mitad de tu velocidad. Notá cómo se levanta el pie, cómo avanza y cómo se apoya.</li>
+          <li><strong>Con la respiración.</strong> Podés coordinar: un paso al inhalar, otro al exhalar.</li>
+          <li><strong>Al girar.</strong> Al final del recorrido, frená, notá el giro y volvé.</li>
+          <li><strong>Cerrar.</strong> Quedate quieto unos segundos, sintiendo los pies en el piso.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="anotar" aria-labelledby="t-anotar">
+      <p class="lab-estacion__num">04 · Vipassana</p>
+      <h2 id="t-anotar">Anotar</h2>
+      <p class="lab-estacion__bajada">Una técnica de la <a href="/recursos/meditacion-vipassana/">vipassana</a>: cada vez que algo capta tu atención, ponele una etiqueta mental breve y suave, y volvé a la respiración. Poner en palabras lo que sentimos, según la investigación, baja su intensidad.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="90">
+        <ol class="lab-pasos">
+          <li><strong>Anclá.</strong> Empezá atendiendo a la respiración en la panza: «subiendo», «bajando».</li>
+          <li><strong>Etiquetá lo que aparece.</strong> Si aparece un pensamiento: «pensando». Un sonido: «oyendo». Un picor: «picor». Una emoción: «tristeza», «impaciencia».</li>
+          <li><strong>Suave y breve.</strong> La etiqueta es como una nota al margen, en voz baja. Después, volvé a la respiración.</li>
+          <li><strong>Notá los cambios.</strong> Fijate cómo cada cosa aparece, cambia y se va.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="metta" aria-labelledby="t-metta">
+      <p class="lab-estacion__num">05 · Bondad amorosa</p>
+      <h2 id="t-metta">Bondad amorosa (metta)</h2>
+      <p class="lab-estacion__bajada">Repetí las frases en silencio, despacio, dirigiéndolas a cada persona. No hace falta sentir algo especial: alcanza con la intención. Más en <a href="/recursos/meditacion-metta-compasion/">meditación metta</a>.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Para vos.</strong> «Que pueda estar en paz. Que pueda estar a salvo. Que pueda vivir con tranquilidad.»</li>
+          <li><strong>Para alguien querido.</strong> Imaginalo frente a vos: «Que estés en paz. Que estés a salvo. Que vivas con tranquilidad.»</li>
+          <li><strong>Para alguien neutro.</strong> Alguien que ves seguido pero no conocés: el vecino, el cajero. Las mismas frases.</li>
+          <li><strong>Para alguien difícil.</strong> Empezá por alguien que solo te moleste un poco. Si cuesta, volvé a vos. Las mismas frases.</li>
+          <li><strong>Para todos.</strong> «Que todos los seres estén en paz. Que todos estén a salvo.»</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="hojas" aria-labelledby="t-hojas">
+      <p class="lab-estacion__num">06 · Psicología</p>
+      <h2 id="t-hojas">Pensamientos como hojas en un río</h2>
+      <p class="lab-estacion__bajada">Un ejercicio de la terapia de aceptación y compromiso para practicar la <strong>defusión</strong>: ver los pensamientos como pensamientos, no como verdades ni como órdenes.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>El río.</strong> Imaginá que estás sentado a la orilla de un arroyo tranquilo. Sobre el agua flotan hojas que pasan.</li>
+          <li><strong>Cada pensamiento, una hoja.</strong> Cuando aparezca un pensamiento, ponelo sobre una hoja y dejalo pasar con la corriente. Sea lo que sea: un plan, una preocupación, un juicio.</li>
+          <li><strong>Si te subiste a la hoja.</strong> Si notás que te fuiste con un pensamiento, no pasa nada: volvé a la orilla y seguí mirando.</li>
+          <li><strong>Cerrar.</strong> Despedite del río. ¿Qué pensamientos volvían una y otra vez?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="palabra" aria-labelledby="t-palabra">
+      <p class="lab-estacion__num">07 · Psicología</p>
+      <h2 id="t-palabra">Una palabra que calma</h2>
+      <p class="lab-estacion__bajada">El cardiólogo Herbert Benson describió la <strong>respuesta de relajación</strong>: repetir una palabra al exhalar, con una actitud pasiva hacia los pensamientos. No es la meditación trascendental (que se enseña con un mantra asignado), sino una versión libre. Elegí una palabra que te transmita calma: «paz», «uno», «suelto», «calma» o la que quieras.</p>
+      <div class="lab-tarjeta">
+        <label class="lab-paso__titulo" for="med-palabra">Tu palabra</label>
+        <input class="lab-campo" id="med-palabra" type="text" value="calma" maxlength="20" autocomplete="off" data-med-palabra style="max-width:16rem">
+        <div data-lab-pasos data-lab-pasos-segundos="120" style="margin-top:1rem">
+          <ol class="lab-pasos">
+            <li><strong>Cómodo.</strong> Sentate cómodo y cerrá los ojos. Aflojá los músculos, de los pies a la cara.</li>
+            <li><strong>La palabra.</strong> Respirá por la nariz y, cada vez que exhales, decí en silencio «<span data-med-palabra-eco>calma</span>».</li>
+            <li><strong>Sin pelear.</strong> Si aparecen pensamientos, no los combatas: decite «bueno» y volvé a «<span data-med-palabra-eco>calma</span>».</li>
+            <li><strong>Volver despacio.</strong> Quedate unos instantes en silencio con los ojos cerrados antes de abrirlos.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="relajacion" aria-labelledby="t-relajacion">
+      <p class="lab-estacion__num">08 · Psicología</p>
+      <h2 id="t-relajacion">Relajación muscular progresiva</h2>
+      <p class="lab-estacion__bajada">La técnica de Edmund Jacobson: tensar un grupo de músculos unos cinco segundos y soltarlo, notando la diferencia. Muy útil si cargás tensión en el cuerpo. No tenses hasta que duela; si tenés una lesión, salteá esa zona.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Manos.</strong> Cerrá los puños con fuerza… y soltá. Notá la diferencia.</li>
+          <li><strong>Brazos.</strong> Doblá los codos tensando los brazos… y soltá.</li>
+          <li><strong>Hombros.</strong> Subilos hacia las orejas… y dejalos caer.</li>
+          <li><strong>Cara.</strong> Apretá los ojos y la mandíbula… y aflojá.</li>
+          <li><strong>Panza.</strong> Tensá el abdomen… y soltá.</li>
+          <li><strong>Piernas.</strong> Estirá las piernas y apretá los muslos… y soltá.</li>
+          <li><strong>Pies.</strong> Llevá los dedos de los pies hacia vos… y soltá.</li>
+          <li><strong>Todo el cuerpo.</strong> Recorrelo con la atención y notá cómo está ahora, más pesado o más liviano.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mandala" aria-labelledby="t-mandala">
+      <p class="lab-estacion__num">09 · Jung</p>
+      <h2 id="t-mandala">Contemplar un mandala</h2>
+      <p class="lab-estacion__bajada">Para Jung, el mandala es un símbolo de la totalidad y del centro, que aparece cuando la psique busca orden. Mirá este mandala durante unos minutos, sin analizarlo, dejando que la mirada vaya al centro. Después, respondé las preguntas. Más en <a href="/recursos/jung-y-la-meditacion/">Jung y la meditación</a>.</p>
+      <div class="lab-tarjeta lab-rueda">
+        <figure class="lab-rueda__grafico">
+          <svg viewBox="0 0 320 320" role="img" aria-labelledby="mandala-t" data-med-mandala><title id="mandala-t">Mandala generado al azar, con formas concéntricas alrededor de un centro</title></svg>
+          <div class="lab-acciones" style="justify-content:center"><button class="boton boton--secundario boton--chico" type="button" data-med-mandala-otro>Otro mandala</button></div>
+        </figure>
+        <form class="lab-armador" data-lab-form="mi-mandala" data-lab-form-titulo="Contemplar un mandala" novalidate>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ma-1">¿Qué sentí al mirarlo?</label><textarea class="lab-texto" id="ma-1" rows="2"></textarea></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ma-2">¿Qué imagen, recuerdo o palabra apareció?</label><textarea class="lab-texto" id="ma-2" rows="2"></textarea></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ma-3">Si mi vida hoy fuera un mandala, ¿qué habría en el centro?</label><textarea class="lab-texto" id="ma-3" rows="2"></textarea></div>
+          <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">10</p>
+      <h2 id="t-registro">Registro de práctica</h2>
+      <p class="lab-estacion__bajada">Anotar después de meditar ayuda a notar los cambios y a elegir las prácticas que te sirven.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="registro-de-meditacion" data-lab-form-titulo="Registro de práctica" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="rm-practica">Práctica</label><input class="lab-campo" id="rm-practica" type="text" placeholder="Por ejemplo: metta" autocomplete="off"></div>
+          <div><label for="rm-min">Minutos</label><input class="lab-campo" id="rm-min" type="number" min="1" inputmode="numeric"></div>
+          <div><label for="rm-antes">¿Cómo estaba antes?</label><input class="lab-campo" id="rm-antes" type="text" autocomplete="off"></div>
+          <div><label for="rm-despues">¿Cómo estoy ahora?</label><input class="lab-campo" id="rm-despues" type="text" autocomplete="off"></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rm-note">¿Qué noté?</label><textarea class="lab-texto" id="rm-note" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Nuevo registro</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">11</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica distinta por día, de cinco a diez minutos. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="meditacion">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Respiración,</strong> contando del uno al diez.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Caminar</strong> despacio durante cinco minutos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Relajación progresiva</strong> antes de dormir.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Anotar</strong> lo que aparece durante cinco minutos.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Metta</strong> para vos y alguien querido.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Solo sentarse</strong> cinco minutos con el temporizador.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. El mandala</strong> y una nota en el registro.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Meditar es seguro para la mayoría de las personas, pero no para todas ni en cualquier momento. Si al meditar aparecen recuerdos traumáticos, mucha angustia, sensación de irrealidad o el malestar no cede, frená, abrí los ojos y volvé a algo concreto (los pies en el piso, los sonidos). Si tenés antecedentes de psicosis, trastorno bipolar o trauma, conviene practicar acompañado. Más en <a href="/recursos/cuando-meditar-no-es-recomendable/">cuándo meditar no es recomendable</a>. Para pensarlo en terapia, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Kabat-Zinn, J. (1990). <em>Vivir con plenitud las crisis</em>.</li>
+        <li>Benson, H. (1975). <em>La relajación</em>.</li>
+        <li>Hayes, S. C., Strosahl, K. D. y Wilson, K. G. (2012). <em>Acceptance and Commitment Therapy</em> (2.ª ed.). Guilford Press.</li>
+        <li>Jung, C. G. (1950). «Sobre el simbolismo del mandala». En <em>Los arquetipos y lo inconsciente colectivo</em> (Obra completa, vol. 9/1).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
