@@ -334,6 +334,22 @@ LABORATORIOS = [
      "descripcion": "Tu genograma dibujado en pantalla, preguntas circulares, secuencias que se repiten, mandatos y límites."},
     {"titulo": "Laboratorio de diálogo socrático", "ruta": "/laboratorio-de-dialogo-socratico/", "tipo": "Pensamiento",
      "descripcion": "Reconocer preguntas que abren, los seis tipos de preguntas, un diálogo guiado con tu creencia y cómo preguntar a otros."},
+    {"titulo": "Laboratorio de imaginación activa", "ruta": "/laboratorio-de-imaginacion-activa/", "tipo": "Jung",
+     "descripcion": "Los pasos de la imaginación activa, un diálogo con una figura interior y un mandala para dibujar con simetría."},
+    {"titulo": "Laboratorio de mito personal", "ruta": "/laboratorio-mito-personal/", "tipo": "Jung",
+     "descripcion": "Tu viaje del héroe, tu línea de vida en capítulos y la figura de mito o cuento que te acompaña."},
+    {"titulo": "Laboratorio de sentido", "ruta": "/laboratorio-de-sentido/", "tipo": "Logoterapia",
+     "descripcion": "Las tres vías del sentido de Frankl, preguntas de sentido, la pregunta invertida y una carta desde tu yo futuro."},
+    {"titulo": "Laboratorio de escritura expresiva", "ruta": "/laboratorio-de-escritura-expresiva/", "tipo": "Escritura",
+     "descripcion": "Cuatro días escribiendo sobre algo difícil, con reloj y contador de palabras, relectura y lo que encontraste."},
+    {"titulo": "Laboratorio de ánimo", "ruta": "/laboratorio-de-animo/", "tipo": "Desánimo",
+     "descripcion": "El círculo del desánimo, un registro de placer y logro, actividades pequeñas y una agenda amable."},
+    {"titulo": "Laboratorio de regulación", "ruta": "/laboratorio-de-regulacion/", "tipo": "Cuerpo y trauma",
+     "descripcion": "Tu ventana de tolerancia, anclar en el presente, un mapa del cuerpo, pendulación y un kit de recursos."},
+    {"titulo": "Laboratorio de crisis vitales", "ruta": "/laboratorio-de-crisis-vitales/", "tipo": "Transiciones",
+     "descripcion": "Las tres fases de una transición, lo que termina y lo que empieza, un ritual de pasaje y el duelo migratorio."},
+    {"titulo": "Laboratorio de aceptación y compromiso", "ruta": "/laboratorio-act/", "tipo": "ACT",
+     "descripcion": "Tomar distancia de un pensamiento, hojas en el río, soltar la cuerda, la matriz ACT y acciones comprometidas."},
 ]
 
 TEMAS_LAB = {
@@ -348,6 +364,10 @@ TEMAS_LAB = {
     "/laboratorio-de-respiraciones/": "Cuerpo y respiración", "/laboratorio-de-meditacion/": "Cuerpo y respiración",
     "/laboratorio-gestalt/": "Enfoques", "/laboratorio-humanista/": "Enfoques", "/laboratorio-narrativo/": "Enfoques",
     "/laboratorio-sistemico/": "Vínculos", "/laboratorio-de-dialogo-socratico/": "Aprendizaje y cambio",
+    "/laboratorio-de-imaginacion-activa/": "Jung y autoconocimiento", "/laboratorio-mito-personal/": "Jung y autoconocimiento",
+    "/laboratorio-de-sentido/": "Jung y autoconocimiento", "/laboratorio-de-escritura-expresiva/": "Emociones",
+    "/laboratorio-de-animo/": "Emociones", "/laboratorio-de-regulacion/": "Cuerpo y respiración",
+    "/laboratorio-de-crisis-vitales/": "Aprendizaje y cambio", "/laboratorio-act/": "Enfoques",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio"]
 
@@ -364,16 +384,16 @@ def bloque_laboratorios():
 GUIA = [
     ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-respiraciones/"]),
     ("panico", "Ataques de pánico", "/ansiedad-y-ataques-de-panico/", ["ataque-de-panico-que-hacer", "respiracion-y-emociones"], ["/laboratorio-de-presencia/"]),
-    ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
+    ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
     ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego"], ["/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
     ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma"], ["/laboratorio-sistemico/"]),
     ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia"], ["/laboratorio-de-duelo/"]),
     ("estres", "Estrés o agotamiento", "/estres-y-agotamiento/", ["la-motivacion", "respiracion-y-emociones"], ["/laboratorio-de-estres/", "/laboratorio-de-meditacion/"]),
     ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["la-culpa", "psicologia-humanista-carl-rogers"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/"]),
     ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["respiracion-y-emociones", "ansiedad-cuando-el-cuerpo-habla"], ["/laboratorio-de-descanso/"]),
-    ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "el-proceso-de-individuacion"], ["/laboratorio-de-valores/"]),
-    ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-suenos/"]),
-    ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "el-enojo"], ["/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
+    ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "logoterapia-y-sentido"], ["/laboratorio-de-crisis-vitales/", "/laboratorio-de-sentido/", "/laboratorio-de-valores/"]),
+    ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-imaginacion-activa/", "/laboratorio-mito-personal/"]),
+    ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "la-ventana-de-tolerancia"], ["/laboratorio-de-regulacion/", "/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
     ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["metahabilidades", "la-motivacion"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/"]),
     ("meditar", "Empezar a meditar o respirar mejor", "/terapia-junguiana/", ["que-es-la-meditacion", "cuando-meditar-no-es-recomendable"], ["/laboratorio-de-meditacion/", "/laboratorio-de-respiraciones/"]),
 ]
@@ -682,6 +702,10 @@ def bloque_datos_clave():
 
 
 WIKI = {
+    "viktor-frankl": ("Viktor Frankl", "https://es.wikipedia.org/wiki/Viktor_Frankl"),
+    "peter-levine": ("Peter A. Levine", "https://en.wikipedia.org/wiki/Peter_A._Levine"),
+    "daniel-siegel": ("Daniel J. Siegel", "https://en.wikipedia.org/wiki/Daniel_J._Siegel"),
+    "steven-hayes": ("Steven C. Hayes", "https://en.wikipedia.org/wiki/Steven_C._Hayes"),
     "socrates": ("Sócrates", "https://es.wikipedia.org/wiki/S%C3%B3crates"),
     "metodo-socratico": ("Método socrático", "https://es.wikipedia.org/wiki/M%C3%A9todo_socr%C3%A1tico"),
     "mayeutica": ("Mayéutica", "https://es.wikipedia.org/wiki/May%C3%A9utica"),

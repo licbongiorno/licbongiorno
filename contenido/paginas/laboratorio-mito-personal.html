@@ -1,0 +1,143 @@
+<!--{
+  "ruta": "/laboratorio-mito-personal/",
+  "titulo": "Laboratorio de mito personal: tu viaje del héroe",
+  "descripcion": "Ejercicios para pensar tu historia como un relato: el viaje del héroe de Campbell, tu línea de vida en capítulos y la figura de mito que te acompaña.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Mito personal", "/laboratorio-mito-personal/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>mito personal</em>",
+  "bajada": "Tu vida también tiene la forma de un relato: llamados, umbrales, pruebas y regresos. Mirarla así no la vuelve ficción: ayuda a encontrarle un sentido.",
+  "respuesta": "El laboratorio de mito personal propone ejercicios para pensar la propia historia como un relato: recorrer las etapas del viaje del héroe descripto por Joseph Campbell (la partida, la iniciación y el regreso) aplicadas a una experiencia propia, armar una línea de vida dividida en capítulos con sus títulos, y elegir una figura de mito o cuento que acompañe el momento actual. Está inspirado en la mirada junguiana sobre los mitos y no reemplaza una terapia.",
+  "scripts": ["lab-base.js"],
+  "wa_tema": "el laboratorio de mito personal",
+  "articulos": ["mitos-y-cuentos-jung", "arquetipos-en-la-vida-cotidiana", "el-proceso-de-individuacion"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están <em>inspirados</em> en la mirada junguiana sobre los mitos y en el trabajo de Joseph Campbell. Son para pensar tu historia, no reemplazan una terapia.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no se trata de convertirte en el protagonista de una película. Jung se preguntó una vez, en una época de crisis, «¿cuál es el mito que vivo?», y descubrió que no lo sabía. Los mitos y los cuentos de todas las culturas repiten ciertas formas —partir, perderse, ser puesto a prueba, volver cambiado— porque hablan de experiencias humanas profundas. Reconocerlas en tu propia historia puede darle otro sentido a lo que te pasó y a lo que estás atravesando.</p>
+        <p>Más sobre este tema en <a href="/recursos/mitos-y-cuentos-jung/">los mitos y los cuentos según Jung</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con tus palabras.</strong> No hay respuestas correctas.</li>
+        <li><strong>Sin apuro.</strong> Podés volver otro día.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#viaje">Tu viaje del héroe</a>
+      <a href="#linea">Tu línea de vida</a>
+      <a href="#figura">La figura que te acompaña</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="viaje" aria-labelledby="t-viaje">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-viaje">Tu viaje del héroe</h2>
+      <p class="lab-estacion__bajada">Joseph Campbell estudió mitos de todo el mundo y encontró una estructura que se repite, el <strong>monomito</strong>, en tres grandes movimientos: la partida, la iniciación y el regreso. Elegí una experiencia importante de tu vida (una mudanza, una pérdida, un cambio de trabajo, una enfermedad, un amor) y recorrela con estas preguntas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-viaje-del-heroe" data-lab-form-titulo="Mi viaje del héroe" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vh-experiencia">La experiencia que elegí</label><input class="lab-campo" id="vh-experiencia" type="text" autocomplete="off"></div>
+        <h3 class="lab-tarjeta__titulo">La partida</h3>
+        <div class="lab-tabla2">
+          <div><label for="vh-mundo">El mundo de antes: ¿cómo era tu vida?</label><textarea class="lab-texto" id="vh-mundo" rows="2"></textarea></div>
+          <div><label for="vh-llamada">La llamada: ¿qué pasó que lo cambió todo?</label><textarea class="lab-texto" id="vh-llamada" rows="2"></textarea></div>
+          <div><label for="vh-rechazo">El rechazo: ¿te resististe? ¿Qué temías?</label><textarea class="lab-texto" id="vh-rechazo" rows="2"></textarea></div>
+          <div><label for="vh-umbral">El umbral: ¿cuándo supiste que no había vuelta atrás?</label><textarea class="lab-texto" id="vh-umbral" rows="2"></textarea></div>
+        </div>
+        <h3 class="lab-tarjeta__titulo">La iniciación</h3>
+        <div class="lab-tabla2">
+          <div><label for="vh-aliados">Aliados y guías: ¿quién te ayudó?</label><textarea class="lab-texto" id="vh-aliados" rows="2"></textarea></div>
+          <div><label for="vh-pruebas">Las pruebas: ¿qué tuviste que atravesar?</label><textarea class="lab-texto" id="vh-pruebas" rows="2"></textarea></div>
+          <div><label for="vh-abismo">El momento más oscuro: ¿cuándo sentiste que no ibas a poder?</label><textarea class="lab-texto" id="vh-abismo" rows="2"></textarea></div>
+          <div><label for="vh-tesoro">El tesoro: ¿qué encontraste o aprendiste?</label><textarea class="lab-texto" id="vh-tesoro" rows="2"></textarea></div>
+        </div>
+        <h3 class="lab-tarjeta__titulo">El regreso</h3>
+        <div class="lab-tabla2">
+          <div><label for="vh-regreso">¿Cómo volviste a la vida cotidiana? ¿Qué cambió?</label><textarea class="lab-texto" id="vh-regreso" rows="2"></textarea></div>
+          <div><label for="vh-elixir">El elixir: ¿qué podés ofrecer hoy a otros gracias a esto?</label><textarea class="lab-texto" id="vh-elixir" rows="2"></textarea></div>
+        </div>
+        <p class="lab-nota">Si estás en medio del viaje, sin saber todavía cómo termina, está bien: dejá en blanco lo que no llegó. A veces lo más honesto es reconocer que estamos en el bosque.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="linea" aria-labelledby="t-linea">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-linea">Tu línea de vida en capítulos</h2>
+      <p class="lab-estacion__bajada">Si tu vida fuera un libro, ¿cómo se llamarían sus capítulos? Escribí cada etapa con un título y, si querés, los años («La casa de los abuelos, 0 a 7»). Podés reordenarlos. Después mirá la línea completa: ¿hay algo que se repite? ¿Qué capítulo estás escribiendo ahora?</p>
+      <form class="lab-tarjeta" data-lab-form="mi-linea-de-vida" data-lab-form-titulo="Mi línea de vida" novalidate>
+        <div data-lab-lista-editable data-lab-lista-titulo="Capítulos">
+          <label class="lab-paso__titulo" for="lv-capitulo" style="display:block">Un capítulo</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="lv-capitulo" type="text" placeholder="Por ejemplo: El año de la mudanza (2015)" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista linea-vida" data-lle-lista></ol>
+        </div>
+        <div class="lab-tabla2" style="margin-top:1rem">
+          <div><label for="lv-repite">¿Qué se repite entre capítulos?</label><textarea class="lab-texto" id="lv-repite" rows="2"></textarea></div>
+          <div><label for="lv-proximo">¿Cómo te gustaría que se llamara el próximo?</label><textarea class="lab-texto" id="lv-proximo" rows="2"></textarea></div>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="figura" aria-labelledby="t-figura">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-figura">La figura que te acompaña</h2>
+      <p class="lab-estacion__bajada">Algunas figuras de mitos y cuentos expresan momentos típicos de la vida. Elegí la que más se parezca a lo que estás viviendo y respondé su pregunta.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Figuras de mitos y cuentos">
+          <label class="opcion"><input type="radio" name="figura" value="ulises" checked><span>Ulises, que vuelve a casa</span></label>
+          <label class="opcion"><input type="radio" name="figura" value="persefone"><span>Perséfone, que desciende</span></label>
+          <label class="opcion"><input type="radio" name="figura" value="psique"><span>Psique y sus tareas</span></label>
+          <label class="opcion"><input type="radio" name="figura" value="parsifal"><span>Parsifal, que busca</span></label>
+          <label class="opcion"><input type="radio" name="figura" value="patito"><span>El patito feo</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="ulises"><p>En la <em>Odisea</em>, Ulises tarda diez años en volver a Ítaca, y cuando llega ya no es el mismo. Es la figura de los regresos: a uno mismo, a un lugar, a algo que se perdió en el camino.</p><p><strong>Pregunta:</strong> ¿a qué «casa» estás intentando volver, y qué te demora?</p></div>
+        <div class="lab-panel" data-lab-panel="persefone"><p>Perséfone es llevada al inframundo y desde entonces vive parte del año abajo y parte arriba. Es la figura de los descensos involuntarios: un duelo, una depresión, una crisis que no elegiste, de la que también se vuelve.</p><p><strong>Pregunta:</strong> ¿qué estás aprendiendo «abajo» que no hubieras aprendido arriba?</p></div>
+        <div class="lab-panel" data-lab-panel="psique"><p>En el relato de Apuleyo, Psique debe cumplir tareas imposibles para recuperar a Eros: separar semillas, conseguir lana dorada, bajar al Hades. Cada tarea pide una capacidad nueva. Es la figura del crecimiento a través de las pruebas.</p><p><strong>Pregunta:</strong> ¿qué tarea imposible te toca ahora, y qué capacidad te pide desarrollar?</p></div>
+        <div class="lab-panel" data-lab-panel="parsifal"><p>Parsifal llega al castillo del Grial, pero no hace la pregunta que hubiera sanado al rey herido, y tiene que pasar años buscando para volver. Es la figura de la búsqueda de sentido y de las preguntas que no nos animamos a hacer.</p><p><strong>Pregunta:</strong> ¿qué pregunta estás postergando?</p></div>
+        <div class="lab-panel" data-lab-panel="patito"><p>El cuento de Andersen habla de no encajar, de buscar el propio lugar y de descubrir, con el tiempo, que uno no estaba fallado: estaba en el lugar equivocado.</p><p><strong>Pregunta:</strong> ¿dónde te sentís «patito feo», y dónde estarían los tuyos?</p></div>
+      </div>
+      <p class="lab-nota">Más figuras y su lectura junguiana en <a href="/recursos/arquetipos-en-la-vida-cotidiana/">los arquetipos en la vida cotidiana</a> y en el <a href="/laboratorio-de-sombra-y-arquetipos/">laboratorio de sombra y arquetipos</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Un ejercicio por día para mirar tu historia como un relato.</p>
+      <div class="lab-tarjeta" data-lab-plan="mito">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Los capítulos.</strong> Escribí tu línea de vida con sus títulos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una llamada.</strong> Recordá un momento en que la vida te «llamó» a cambiar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. El viaje.</strong> Completá el viaje del héroe con esa experiencia.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Aliados.</strong> Escribí o agradecé a alguien que te ayudó en el camino.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Tu figura.</strong> Elegí la figura de mito que te acompaña y respondé su pregunta.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un cuento.</strong> Releé un cuento o un mito que te haya marcado de chico.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. El próximo capítulo.</strong> Escribí un párrafo de cómo te gustaría que siga.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Recorrer la propia historia puede traer recuerdos dolorosos. No hace falta ir a los capítulos más difíciles si hoy no es el momento. Y si algo te pesa, es un buen tema para trabajar en terapia: podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Campbell, J. (1949). <em>El héroe de las mil caras</em>.</li>
+        <li>Jung, C. G. (1962). <em>Recuerdos, sueños, pensamientos</em>.</li>
+        <li>Von Franz, M.-L. (1970). <em>La interpretación de los cuentos de hadas</em>.</li>
+        <li>Bolen, J. S. (1984). <em>Las diosas de cada mujer</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

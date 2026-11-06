@@ -1,0 +1,140 @@
+<!--{
+  "ruta": "/laboratorio-de-crisis-vitales/",
+  "titulo": "Laboratorio de crisis vitales y transiciones",
+  "descripcion": "Ejercicios para un cambio de etapa: las tres fases de las transiciones de Bridges, lo que termina y empieza, un ritual de pasaje y el duelo migratorio.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Crisis vitales", "/laboratorio-de-crisis-vitales/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>crisis vitales</em>",
+  "bajada": "Una separación, una mudanza, un hijo que se va, la mitad de la vida, una jubilación. Ejercicios para atravesar el pasaje entre lo que termina y lo que todavía no empieza.",
+  "respuesta": "El laboratorio de crisis vitales propone ejercicios para atravesar cambios de etapa: reconocer en qué fase de una transición estás según William Bridges (un final, la zona neutral y un nuevo comienzo), nombrar lo que termina y lo que empieza, armar un ritual de pasaje propio inspirado en Arnold van Gennep (separación, margen y agregación) y una estación sobre el duelo migratorio para quienes viven lejos de su país. No reemplaza una terapia.",
+  "scripts": ["lab-base.js"],
+  "wa_tema": "el laboratorio de crisis vitales",
+  "articulos": ["crisis-de-la-mitad-de-la-vida", "duelo-migratorio", "el-proceso-de-individuacion"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios son para acompañar un cambio de etapa. No reemplazan una terapia, y no apuran nada: cada transición tiene su tiempo.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es «dar vuelta la página» ni «reinventarse» en un fin de semana. Una crisis vital es ese momento en que algo de la vida anterior ya no sirve y lo nuevo todavía no tiene forma. Duele, desorienta, y muchas veces se vive como un fracaso. Pero también es, como decía Jung, una oportunidad de que aparezca algo más propio. El escritor William Bridges distinguía entre el <strong>cambio</strong>, que es externo y puede ser rápido, y la <strong>transición</strong>, que es interna y lleva tiempo.</p>
+        <p>Más en <a href="/recursos/crisis-de-la-mitad-de-la-vida/">la crisis de la mitad de la vida</a> y en <a href="/crisis-vitales/">cómo trabajo las crisis vitales</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>A tu ritmo.</strong> No hace falta hacerlo todo hoy.</li>
+        <li><strong>Sin forzar el final.</strong> Está bien no saber todavía cómo sigue.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#fases">Las tres fases</a>
+      <a href="#termina">Lo que termina y lo que empieza</a>
+      <a href="#ritual">Tu ritual de pasaje</a>
+      <a href="#lejos">Si vivís lejos</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="fases" aria-labelledby="t-fases">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-fases">Las tres fases de una transición</h2>
+      <p class="lab-estacion__bajada">Para Bridges, toda transición empieza, paradójicamente, por un <strong>final</strong>, pasa por una <strong>zona neutral</strong> de desconcierto y recién después llega a un <strong>nuevo comienzo</strong>. ¿En cuál te parece que estás?</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Fases de una transición">
+          <label class="opcion"><input type="radio" name="fase" value="final" checked><span>Un final</span></label>
+          <label class="opcion"><input type="radio" name="fase" value="neutral"><span>La zona neutral</span></label>
+          <label class="opcion"><input type="radio" name="fase" value="comienzo"><span>Un nuevo comienzo</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="final"><p><strong>Un final.</strong> Algo se termina: un rol, un vínculo, una etapa, una imagen de vos. Aparecen la tristeza, el enojo, la nostalgia, a veces el alivio. Es un duelo, aunque el cambio haya sido elegido.</p><p><strong>Preguntas:</strong> ¿qué estás perdiendo exactamente? ¿Qué te gustaría llevarte de lo que termina?</p></div>
+        <div class="lab-panel" data-lab-panel="neutral"><p><strong>La zona neutral.</strong> Lo viejo ya no está y lo nuevo todavía no llegó. Es un tiempo de confusión, de vacío y de ansiedad, pero también de creatividad: es cuando se reorganiza lo de adentro. Bridges insistía en no apurarla.</p><p><strong>Preguntas:</strong> ¿qué te pide este tiempo de espera? ¿Qué está naciendo aunque todavía no se vea?</p></div>
+        <div class="lab-panel" data-lab-panel="comienzo"><p><strong>Un nuevo comienzo.</strong> Aparece una dirección, una identidad, un proyecto. Suele llegar de a poco, más como una sensación que como una decisión, y convive con dudas.</p><p><strong>Preguntas:</strong> ¿qué parte de vos está empezando a vivir? ¿Qué primer paso concreto podés dar?</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="termina" aria-labelledby="t-termina">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-termina">Lo que termina y lo que empieza</h2>
+      <p class="lab-estacion__bajada">Poner en palabras las dos caras del cambio ayuda a no quedarse solo con una. Escribí en dos columnas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-termina-y-lo-que-empieza" data-lab-form-titulo="Lo que termina y lo que empieza" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-cambio">El cambio que estoy viviendo</label><input class="lab-campo" id="tc-cambio" type="text" autocomplete="off"></div>
+        <div class="lab-tabla2">
+          <div><label for="tc-termina">Lo que termina</label><textarea class="lab-texto" id="tc-termina" rows="4"></textarea></div>
+          <div><label for="tc-empieza">Lo que empieza (o podría empezar)</label><textarea class="lab-texto" id="tc-empieza" rows="4"></textarea></div>
+          <div><label for="tc-llevo">Lo que me llevo</label><textarea class="lab-texto" id="tc-llevo" rows="3"></textarea></div>
+          <div><label for="tc-dejo">Lo que dejo</label><textarea class="lab-texto" id="tc-dejo" rows="3"></textarea></div>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="ritual" aria-labelledby="t-ritual">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-ritual">Tu ritual de pasaje</h2>
+      <p class="lab-estacion__bajada">El antropólogo Arnold van Gennep observó que en muchas culturas los cambios de etapa se acompañan con rituales de tres momentos: <strong>separación</strong> (dejar lo anterior), <strong>margen</strong> (un tiempo intermedio) y <strong>agregación</strong> (ingresar a lo nuevo). Hoy tenemos pocos rituales para los pasajes. Podés inventar el tuyo: simple, concreto y con sentido para vos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-ritual-de-pasaje" data-lab-form-titulo="Mi ritual de pasaje" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rp-separacion"><span>1</span>Separación: ¿cómo vas a despedir lo que termina?</label><p class="lab-paso__ayuda">Una carta, guardar o regalar un objeto, visitar un lugar por última vez, una conversación.</p><textarea class="lab-texto" id="rp-separacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rp-margen"><span>2</span>Margen: ¿cómo vas a cuidar el tiempo intermedio?</label><p class="lab-paso__ayuda">Un tiempo para vos, una caminata, un retiro, un diario, no tomar decisiones grandes por un tiempo.</p><textarea class="lab-texto" id="rp-margen" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rp-agregacion"><span>3</span>Agregación: ¿cómo vas a darle la bienvenida a lo nuevo?</label><p class="lab-paso__ayuda">Un encuentro con personas queridas, un objeto que lo simbolice, un primer gesto.</p><textarea class="lab-texto" id="rp-agregacion" rows="2"></textarea></div>
+        <div class="lab-tabla2">
+          <div><label for="rp-cuando">¿Cuándo?</label><input class="lab-campo" id="rp-cuando" type="text" autocomplete="off"></div>
+          <div><label for="rp-quien">¿Con quién, si querés compañía?</label><input class="lab-campo" id="rp-quien" type="text" autocomplete="off"></div>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="lejos" aria-labelledby="t-lejos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-lejos">Si vivís lejos de tu país</h2>
+      <p class="lab-estacion__bajada">Migrar es una de las transiciones más grandes: se cambia de lugar, de idioma a veces, de vínculos, de rutinas, de la imagen de uno mismo. El duelo migratorio es múltiple y suele volver en fechas o momentos inesperados. Más en <a href="/recursos/duelo-migratorio/">el duelo migratorio</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-deje-y-lo-que-encontre" data-lab-form-titulo="Lo que dejé, lo que traje y lo que encontré" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="ml-deje">Lo que dejé (personas, lugares, sabores, costumbres)</label><textarea class="lab-texto" id="ml-deje" rows="4"></textarea></div>
+          <div><label for="ml-traje">Lo que traje conmigo y me sostiene</label><textarea class="lab-texto" id="ml-traje" rows="4"></textarea></div>
+          <div><label for="ml-encontre">Lo que encontré acá</label><textarea class="lab-texto" id="ml-encontre" rows="4"></textarea></div>
+          <div><label for="ml-extrano">Lo que más extraño hoy y cómo podría cuidarlo</label><textarea class="lab-texto" id="ml-extrano" rows="4"></textarea></div>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+      <p class="lab-nota">Atiendo <a href="/terapia-online/">online en español</a> a personas que viven en otros países.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día para acompañar el pasaje.</p>
+      <div class="lab-tarjeta" data-lab-plan="crisis">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Escribí en una frase qué cambio estás viviendo.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. La fase.</strong> Identificá en qué fase estás y respondé sus preguntas.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Las dos columnas.</strong> Completá lo que termina y lo que empieza.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Despedir.</strong> Hacé un gesto pequeño de despedida de lo que termina.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Esperar.</strong> Regalate un rato sin tener que decidir nada.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. El ritual.</strong> Diseñá tu ritual de pasaje.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un primer paso.</strong> Hacé algo concreto que tenga que ver con lo que empieza.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Algunas transiciones vienen acompañadas de angustia intensa, insomnio, consumo de alcohol u otras sustancias, o la sensación de no poder más. Si es tu caso, es un buen momento para pedir ayuda: podés <a href="/contacto/">escribirme</a> o, si necesitás ayuda ahora, mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Bridges, W. (1980). <em>Transitions: Making Sense of Life's Changes</em>.</li>
+        <li>Van Gennep, A. (1909). <em>Los ritos de paso</em>.</li>
+        <li>Jung, C. G. (1930). «Las etapas de la vida». En <em>Obra completa</em>, vol. 8.</li>
+        <li>Grinberg, L. y Grinberg, R. (1984). <em>Psicoanálisis de la migración y del exilio</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

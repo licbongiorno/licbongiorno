@@ -1,0 +1,156 @@
+<!--{
+  "ruta": "/laboratorio-de-animo/",
+  "titulo": "Laboratorio de ánimo: activación conductual paso a paso",
+  "descripcion": "Ejercicios de activación conductual para el desánimo: el círculo de la inactividad, un registro de placer y logro, actividades pequeñas y una agenda amable.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Ánimo", "/laboratorio-de-animo/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>ánimo</em>",
+  "bajada": "Cuando el ánimo está bajo, esperar a tener ganas suele alargar la espera. Ejercicios basados en la activación conductual para empezar por pasos pequeños.",
+  "respuesta": "El laboratorio de ánimo propone ejercicios basados en la activación conductual, un tratamiento con buen respaldo para la depresión: entender el círculo de la inactividad, registrar actividades con su nivel de placer y de logro, elegir actividades pequeñas, armar una agenda amable para la semana y revisar la trampa de esperar a tener ganas. No reemplaza un tratamiento.",
+  "scripts": ["lab-base.js", "laboratorio-animo.js"],
+  "wa_tema": "el laboratorio de ánimo",
+  "articulos": ["activacion-conductual", "como-acompanar-a-alguien-con-depresion", "la-motivacion"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están basados en la <em>activación conductual</em>. Pueden ayudar con el desánimo, pero no reemplazan un tratamiento. Si la tristeza dura más de dos semanas, si dejaste de disfrutar de casi todo o si pensás en hacerte daño, consultá: llamá al 911 o al 0800-345-1435, o mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es «ponerle onda» ni obligarte a estar bien. Cuando el ánimo baja, es natural hacer menos: dejamos de ver gente, de salir, de hacer lo que nos gustaba. El problema es que, al hacer menos, también recibimos menos cosas buenas, y el ánimo baja más. La <strong>activación conductual</strong> propone empezar a cortar ese círculo desde la acción: pequeños pasos, aunque no haya ganas, para que el ánimo tenga algo de dónde agarrarse.</p>
+        <p>Más en <a href="/recursos/activacion-conductual/">la activación conductual: hacer para sentir</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Pasos chicos.</strong> Más chicos de lo que creés que hace falta.</li>
+        <li><strong>Sin juzgarte.</strong> Un día que no salió también es información.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#circulo">El círculo del desánimo</a>
+      <a href="#registro">Placer y logro</a>
+      <a href="#ideas">Actividades pequeñas</a>
+      <a href="#agenda">Una agenda amable</a>
+      <a href="#ganas">«Cuando tenga ganas»</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="circulo" aria-labelledby="t-circulo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-circulo">El círculo del desánimo</h2>
+      <p class="lab-estacion__bajada">Mirá este círculo y preguntate en qué punto estás hoy. No es tu culpa estar adentro: es un mecanismo muy humano. Pero conocerlo ayuda a ver por dónde se puede salir.</p>
+      <div class="lab-tarjeta">
+        <ol class="circulo-animo" aria-label="El círculo del desánimo">
+          <li><strong>Me siento mal</strong><span>sin energía, sin ganas</span></li>
+          <li><strong>Hago menos</strong><span>me quedo en casa, postergo, me aíslo</span></li>
+          <li><strong>Recibo menos</strong><span>menos encuentros, menos logros, menos disfrute</span></li>
+          <li><strong>Me siento peor</strong><span>y el círculo vuelve a empezar</span></li>
+        </ol>
+        <p class="lab-nota">La salida no está en esperar a sentirse mejor para hacer, sino en hacer algo pequeño para empezar a sentirse un poco mejor.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-registro">Registro de placer y logro</h2>
+      <p class="lab-estacion__bajada">Durante unos días, anotá lo que hacés y puntuá cada actividad del 0 al 10 en dos cosas: cuánto <strong>placer</strong> te dio y cuánto <strong>logro</strong> (sensación de haber hecho algo). Muchas veces descubrimos que lo que más nos ayuda no es lo que imaginábamos.</p>
+      <div class="lab-tarjeta" data-registro-animo>
+        <div class="registro-animo__fila">
+          <div><label for="ra-actividad">Actividad</label><input class="lab-campo" id="ra-actividad" type="text" placeholder="Por ejemplo: caminar 15 minutos" autocomplete="off"></div>
+          <div><label for="ra-placer">Placer (0 a 10)</label><input class="lab-campo" id="ra-placer" type="number" min="0" max="10" inputmode="numeric"></div>
+          <div><label for="ra-logro">Logro (0 a 10)</label><input class="lab-campo" id="ra-logro" type="number" min="0" max="10" inputmode="numeric"></div>
+          <button class="boton boton--chico" type="button" data-ra-agregar>Agregar</button>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-ra-estado></p>
+        <div class="tabla-desplazable" tabindex="0" role="region" aria-label="Actividades registradas">
+          <table class="registro-animo__tabla">
+            <caption class="visualmente-oculto">Actividades registradas con su placer y logro</caption>
+            <thead><tr><th scope="col">Actividad</th><th scope="col">Placer</th><th scope="col">Logro</th><th scope="col"><span class="visualmente-oculto">Quitar</span></th></tr></thead>
+            <tbody data-ra-filas><tr class="registro-animo__vacio"><td colspan="4">Todavía no registraste actividades.</td></tr></tbody>
+          </table>
+        </div>
+        <p class="registro-animo__resumen" data-ra-resumen aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-ra-bajar>Guardar el registro</button><button class="boton boton--secundario boton--chico" type="button" data-ra-borrar>Borrar todo</button></div>
+        <p class="lab-nota">El registro queda guardado solo en este dispositivo para que puedas retomarlo otro día.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="ideas" aria-labelledby="t-ideas">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-ideas">Actividades pequeñas</h2>
+      <p class="lab-estacion__bajada">Cuando no hay energía, todo parece demasiado. Estas ideas son deliberadamente chicas. Si una no te sirve, pedí otra. La idea es hacer <em>una</em> hoy, no todas.</p>
+      <div class="lab-tarjeta" data-lab-azar="actividades">
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="agenda" aria-labelledby="t-agenda">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-agenda">Una agenda amable</h2>
+      <p class="lab-estacion__bajada">Planificar ayuda porque saca la decisión del momento en que no hay ganas. Para cada día, elegí una cosa chica que te dé placer y una que te dé logro. Que sean concretas: «el martes a las 18 llamo a Laura», no «ser más sociable».</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-agenda-amable" data-lab-form-titulo="Mi agenda amable" novalidate>
+        <div class="agenda-amable">
+          <div><label for="ag-lun">Lunes</label><input class="lab-campo" id="ag-lun" type="text" autocomplete="off"></div>
+          <div><label for="ag-mar">Martes</label><input class="lab-campo" id="ag-mar" type="text" autocomplete="off"></div>
+          <div><label for="ag-mie">Miércoles</label><input class="lab-campo" id="ag-mie" type="text" autocomplete="off"></div>
+          <div><label for="ag-jue">Jueves</label><input class="lab-campo" id="ag-jue" type="text" autocomplete="off"></div>
+          <div><label for="ag-vie">Viernes</label><input class="lab-campo" id="ag-vie" type="text" autocomplete="off"></div>
+          <div><label for="ag-sab">Sábado</label><input class="lab-campo" id="ag-sab" type="text" autocomplete="off"></div>
+          <div><label for="ag-dom">Domingo</label><input class="lab-campo" id="ag-dom" type="text" autocomplete="off"></div>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="ag-obstaculo">¿Qué podría impedírtelo, y qué harías en ese caso?</label><textarea class="lab-texto" id="ag-obstaculo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="ganas" aria-labelledby="t-ganas">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-ganas">La trampa de «cuando tenga ganas»</h2>
+      <p class="lab-estacion__bajada">Con el ánimo bajo, las ganas casi nunca llegan antes. Suelen aparecer <em>durante</em> o <em>después</em> de hacer. Respondé cada frase y mirá la explicación.</p>
+      <div class="lab-tarjeta" data-lab-quiz="ganas">
+        <p class="lab-tarjeta__titulo">¿Ayuda o mantiene el círculo?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta" data-lab-quiz-opciones></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una semana para empezar a moverse, de a poco.</p>
+      <div class="lab-tarjeta" data-lab-plan="animo">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Observar.</strong> Registrá lo que hacés hoy, con placer y logro.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una cosa chica.</strong> Elegí una actividad pequeña y hacela.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Moverte.</strong> Diez minutos de caminata, aunque sea alrededor de la manzana.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Alguien.</strong> Mandale un mensaje o llamá a una persona.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. La agenda.</strong> Armá tu agenda amable para la semana que viene.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Algo que te gustaba.</strong> Retomá, aunque sea un rato, algo que antes disfrutabas.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar el registro.</strong> ¿Qué actividades te ayudaron más?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La activación conductual funciona mejor acompañada, sobre todo cuando la depresión es moderada o grave. Si estos ejercicios te cuestan demasiado, no es falta de voluntad: es parte de lo que le pasa al ánimo. Podés leer <a href="/depresion/">cómo trabajo la depresión</a>, responder el <a href="/escala-de-animo-phq-9/">cuestionario de ánimo PHQ-9</a> o <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Martell, C. R., Addis, M. E. y Jacobson, N. S. (2001). <em>Depression in Context: Strategies for Guided Action</em>. W. W. Norton.</li>
+        <li>Jacobson, N. S. y otros (1996). «A component analysis of cognitive-behavioral treatment for depression». <em>Journal of Consulting and Clinical Psychology</em>, 64(2).</li>
+        <li>Dimidjian, S. y otros (2006). «Randomized trial of behavioral activation, cognitive therapy, and antidepressant medication in the acute treatment of adults with major depression». <em>Journal of Consulting and Clinical Psychology</em>, 74(4).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

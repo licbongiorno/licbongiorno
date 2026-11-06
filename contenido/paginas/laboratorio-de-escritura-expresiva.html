@@ -1,0 +1,128 @@
+<!--{
+  "ruta": "/laboratorio-de-escritura-expresiva/",
+  "titulo": "Laboratorio de escritura expresiva (método Pennebaker)",
+  "descripcion": "Escritura expresiva según James Pennebaker: cuatro días escribiendo sobre algo difícil, con reloj y contador de palabras, relectura y beneficios encontrados.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Escritura expresiva", "/laboratorio-de-escritura-expresiva/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>escritura expresiva</em>",
+  "bajada": "Escribir sobre lo que nos dolió, con pensamientos y emociones, durante unos pocos días. Un ejercicio sencillo, estudiado desde hace casi cuarenta años.",
+  "respuesta": "El laboratorio de escritura expresiva sigue el método del psicólogo James Pennebaker: escribir durante 15 a 20 minutos, cuatro días seguidos, sobre una experiencia difícil, explorando los pensamientos y las emociones más profundos. Incluye un reloj, un contador de palabras, una consigna para cada día, una relectura final y una versión centrada en los beneficios encontrados. El texto no se guarda en ningún lado salvo que lo descargues. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-escritura.js"],
+  "wa_tema": "el laboratorio de escritura expresiva",
+  "articulos": ["escritura-expresiva", "las-emociones-segun-jung", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Este ejercicio está basado en la investigación de James Pennebaker sobre escritura expresiva. No reemplaza una terapia. Es esperable sentirse un poco peor justo después de escribir; si te desborda, pará. No lo recomiendo sobre un trauma muy reciente ni si estás en crisis.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es un diario ni escribir bonito. Es poner en palabras, sin censura, algo que te dolió o te sigue pesando: qué pasó, qué sentiste, qué pensaste, cómo se conecta con tu vida. En los años ochenta, el psicólogo James Pennebaker encontró que estudiantes que escribieron así durante cuatro días consultaron menos al médico en los meses siguientes que quienes escribieron sobre temas triviales. Desde entonces, cientos de estudios exploraron el efecto, con resultados positivos aunque modestos.</p>
+        <p>Más en <a href="/recursos/escritura-expresiva/">la escritura expresiva: poner en palabras lo que pesa</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>15 a 20 minutos, cuatro días.</strong> Seguidos o casi.</li>
+        <li><strong>Sin parar.</strong> No corrijas, no releas mientras escribís.</li>
+        <li><strong>Privado de verdad.</strong> El texto no se guarda: se borra al cerrar la página, salvo que lo descargues.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#escribir">Escribir</a>
+      <a href="#releer">Releer</a>
+      <a href="#beneficios">Lo que encontré</a>
+      <a href="#siete-dias">Plan</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="escribir" aria-labelledby="t-escribir">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-escribir">Escribir</h2>
+      <p class="lab-estacion__bajada">Elegí el día, leé la consigna y empezá el reloj. Escribí sin parar: si no sabés qué poner, repetí la última frase hasta que aparezca algo. Al terminar el tiempo sonará una campana suave; podés seguir si querés.</p>
+      <div class="lab-tarjeta" data-escritura>
+        <div class="opciones" role="radiogroup" aria-label="Día de escritura">
+          <label class="opcion"><input type="radio" name="dia" value="1" checked><span>Día 1</span></label>
+          <label class="opcion"><input type="radio" name="dia" value="2"><span>Día 2</span></label>
+          <label class="opcion"><input type="radio" name="dia" value="3"><span>Día 3</span></label>
+          <label class="opcion"><input type="radio" name="dia" value="4"><span>Día 4</span></label>
+        </div>
+        <p class="lab-consigna" data-escritura-consigna aria-live="polite"></p>
+        <div class="escritura__barra">
+          <label class="lienzo__grosor">Minutos <select data-escritura-minutos><option value="15">15</option><option value="20" selected>20</option></select></label>
+          <span class="lab-reloj" data-escritura-reloj aria-label="Tiempo restante">20:00</span>
+          <span class="escritura__palabras" data-escritura-palabras aria-live="off">0 palabras</span>
+        </div>
+        <label class="visualmente-oculto" for="ee-texto">Tu texto</label>
+        <textarea class="lab-texto escritura__texto" id="ee-texto" rows="14" data-escritura-texto spellcheck="false"></textarea>
+        <p class="lab-paso__ayuda" role="status" data-escritura-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-escritura-empezar>Empezar el reloj</button><button class="boton boton--secundario boton--chico" type="button" data-escritura-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-escritura-borrar>Borrar el texto</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="releer" aria-labelledby="t-releer">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-releer">Releer, el cuarto día o después</h2>
+      <p class="lab-estacion__bajada">Si guardaste tus textos, releelos con distancia, como si los hubiera escrito alguien a quien querés. Pennebaker observó que a quienes más les servía la escritura eran quienes, a lo largo de los días, pasaban de contar a <strong>entender</strong>: usaban más palabras como «porque», «me doy cuenta», «entiendo».</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="relectura" data-lab-form-titulo="Relectura de mi escritura" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="rl-cambio">¿Qué cambió entre el primer día y el último?</label><textarea class="lab-texto" id="rl-cambio" rows="3"></textarea></div>
+          <div><label for="rl-entiendo">¿Qué entendés hoy que antes no veías?</label><textarea class="lab-texto" id="rl-entiendo" rows="3"></textarea></div>
+          <div><label for="rl-cuerpo">¿Cómo te sentís ahora al pensar en lo que pasó?</label><textarea class="lab-texto" id="rl-cuerpo" rows="3"></textarea></div>
+          <div><label for="rl-titulo">Si esta historia tuviera un título, ¿cuál sería?</label><textarea class="lab-texto" id="rl-titulo" rows="3"></textarea></div>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="beneficios" aria-labelledby="t-beneficios">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-beneficios">Lo que encontré</h2>
+      <p class="lab-estacion__bajada">Una variante estudiada después propone escribir sobre los beneficios encontrados en una experiencia difícil. No significa que haya estado bien que pase, ni negar el dolor: solo mirar también lo que apareció. Hacelo solo si ya pasó un tiempo y te sentís con ganas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-encontre" data-lab-form-titulo="Lo que encontré en una experiencia difícil" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="be-experiencia">La experiencia</label><input class="lab-campo" id="be-experiencia" type="text" autocomplete="off"></div>
+        <div class="lab-tabla2">
+          <div><label for="be-aprendi">Algo que aprendí de mí</label><textarea class="lab-texto" id="be-aprendi" rows="3"></textarea></div>
+          <div><label for="be-vinculos">Algo que cambió en mis vínculos</label><textarea class="lab-texto" id="be-vinculos" rows="3"></textarea></div>
+          <div><label for="be-valoro">Algo que ahora valoro más</label><textarea class="lab-texto" id="be-valoro" rows="3"></textarea></div>
+          <div><label for="be-duele">Lo que todavía duele (también vale escribirlo)</label><textarea class="lab-texto" id="be-duele" rows="3"></textarea></div>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">El plan</h2>
+      <p class="lab-estacion__bajada">El protocolo clásico son cuatro días. Los demás son para cerrar con cuidado. Marcá los días a medida que los hacés.</p>
+      <div class="lab-tarjeta" data-lab-plan="escritura">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Lo que pasó.</strong> Escribí 15 a 20 minutos con la consigna del día 1.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Lo que sentí.</strong> Escribí con la consigna del día 2.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Cómo se conecta.</strong> Escribí con la consigna del día 3.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Hoy.</strong> Escribí con la consigna del día 4.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Descansar.</strong> No escribas: caminá, hablá con alguien, hacé algo que te guste.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Releer.</strong> Si guardaste los textos, releelos y completá la relectura.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Decidir.</strong> ¿Los guardás, los compartís con alguien o los rompés? Las tres opciones están bien.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Escribir sobre lo que dolió puede remover mucho. Si después de escribir te sentís desbordado varios días seguidos, si aparecen recuerdos que no podés frenar o si pensás en hacerte daño, pará el ejercicio y buscá acompañamiento. Podés <a href="/contacto/">escribirme</a> o, si necesitás ayuda ahora, mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Pennebaker, J. W. y Beall, S. K. (1986). «Confronting a traumatic event: Toward an understanding of inhibition and disease». <em>Journal of Abnormal Psychology</em>, 95(3).</li>
+        <li>Pennebaker, J. W. (1997). «Writing about emotional experiences as a therapeutic process». <em>Psychological Science</em>, 8(3).</li>
+        <li>Pennebaker, J. W. y Smyth, J. M. (2016). <em>Opening Up by Writing It Down</em> (3.ª ed.). Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

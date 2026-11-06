@@ -1,0 +1,123 @@
+<!--{
+  "ruta": "/laboratorio-de-sentido/",
+  "titulo": "Laboratorio de sentido: ejercicios inspirados en Frankl",
+  "descripcion": "Ejercicios inspirados en la logoterapia de Viktor Frankl: las tres vías del sentido, preguntas de sentido, la pregunta invertida y una carta desde tu yo futuro.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Sentido", "/laboratorio-de-sentido/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>sentido</em>",
+  "bajada": "No siempre podemos elegir lo que nos pasa, pero sí qué hacemos con eso. Ejercicios inspirados en la logoterapia de Viktor Frankl para buscar lo que le da sentido a tu vida.",
+  "respuesta": "El laboratorio de sentido propone ejercicios inspirados en la logoterapia de Viktor Frankl: reconocer las tres vías del sentido (lo que creás o das, lo que vivís y recibís, y la actitud frente a lo que no se puede cambiar), responder preguntas de sentido, practicar la pregunta invertida (qué espera la vida de mí) y escribir una carta desde tu yo de dentro de diez años. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-sentido.js"],
+  "wa_tema": "el laboratorio de sentido",
+  "articulos": ["logoterapia-y-sentido", "el-proceso-de-individuacion", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están <em>inspirados</em> en la logoterapia de Viktor Frankl. Son para pensar, no reemplazan una terapia. Si estás atravesando un dolor muy reciente, quizás no sea el momento de buscarle un sentido: primero está el tiempo de sentirlo.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es encontrar «la» respuesta a la pregunta por el sentido de la vida, ni decirte que todo pasa por algo. Viktor Frankl, psiquiatra vienés que sobrevivió a los campos de concentración, observó que quienes conservaban algo por qué vivir —una persona, una tarea, una actitud— resistían de otro modo. Para él, el sentido no se inventa ni se recibe hecho: se descubre en cada situación concreta.</p>
+        <p>Más en <a href="/recursos/logoterapia-y-sentido/">la logoterapia y la búsqueda de sentido</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>En concreto.</strong> El sentido aparece en lo cotidiano, no en lo abstracto.</li>
+        <li><strong>Sin exigencia.</strong> Si hoy no aparece, también está bien.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#vias">Las tres vías</a>
+      <a href="#preguntas">Preguntas de sentido</a>
+      <a href="#invertida">La pregunta invertida</a>
+      <a href="#carta">Carta desde tu yo futuro</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="vias" aria-labelledby="t-vias">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-vias">Las tres vías del sentido</h2>
+      <p class="lab-estacion__bajada">Frankl describió tres caminos por los que el sentido aparece: lo que <strong>damos</strong> al mundo (valores de creación), lo que <strong>recibimos</strong> de él (valores de experiencia) y la <strong>actitud</strong> que tomamos frente a lo que no podemos cambiar (valores de actitud). Pensá en tu vida de hoy.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="las-tres-vias-del-sentido" data-lab-form-titulo="Las tres vías del sentido" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vs-crear"><span>1</span>Lo que doy: ¿qué hacés, creás o aportás que tenga valor para alguien?</label><p class="lab-paso__ayuda">Un trabajo, un cuidado, algo que hacés con las manos, una ayuda que das.</p><textarea class="lab-texto" id="vs-crear" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vs-vivir"><span>2</span>Lo que recibo: ¿qué experiencias, personas o momentos te hacen sentir vivo?</label><p class="lab-paso__ayuda">Un vínculo, la naturaleza, la música, un libro, un amor.</p><textarea class="lab-texto" id="vs-vivir" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vs-actitud"><span>3</span>Mi actitud: frente a algo que no puedo cambiar, ¿cómo elijo pararme?</label><p class="lab-paso__ayuda">Una enfermedad, una pérdida, una limitación. No se trata de que «esté bien», sino de qué hacés vos con eso.</p><textarea class="lab-texto" id="vs-actitud" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vs-cual">¿Cuál de las tres vías está más presente hoy en tu vida? ¿Cuál está más descuidada?</label><textarea class="lab-texto" id="vs-cual" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="preguntas" aria-labelledby="t-preguntas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-preguntas">Preguntas de sentido</h2>
+      <p class="lab-estacion__bajada">Una pregunta por vez. Elegí una y quedate un rato con ella antes de pasar a la siguiente. Podés escribir la respuesta o simplemente pensarla en una caminata.</p>
+      <div class="lab-tarjeta" data-lab-azar="sentido">
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="invertida" aria-labelledby="t-invertida">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-invertida">La pregunta invertida</h2>
+      <p class="lab-estacion__bajada">Frankl proponía dar vuelta la pregunta: no qué espero yo de la vida, sino <strong>qué espera la vida de mí</strong>. Cambia el lugar desde donde mirás: de esperar que algo llegue a preguntarte a qué estás siendo llamado en esta situación concreta.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="la-pregunta-invertida" data-lab-form-titulo="La pregunta invertida" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pi-situacion">Una situación que estás viviendo</label><input class="lab-campo" id="pi-situacion" type="text" autocomplete="off"></div>
+        <div class="lab-tabla2">
+          <div><label for="pi-espero">¿Qué espero yo de esta situación?</label><textarea class="lab-texto" id="pi-espero" rows="3"></textarea></div>
+          <div><label for="pi-espera">¿Qué espera esta situación de mí?</label><textarea class="lab-texto" id="pi-espera" rows="3"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pi-paso">Un paso pequeño para responderle</label><input class="lab-campo" id="pi-paso" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-carta">Una carta desde tu yo futuro</h2>
+      <p class="lab-estacion__bajada">Imaginá que pasaron diez años y que viviste con sentido, no sin problemas, sino fiel a lo que te importa. Desde ahí, escribite una carta a vos de hoy: qué te diría, qué te agradecería, qué te pediría que no dejes de hacer.</p>
+      <form class="lab-tarjeta" data-lab-form="carta-desde-mi-yo-futuro" data-lab-form-titulo="Carta desde mi yo futuro" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-carta">Querido yo de hoy:</label><textarea class="lab-texto" id="cf-carta" rows="10"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">El sentido se encuentra más en lo que hacemos que en lo que pensamos. Una práctica por día.</p>
+      <div class="lab-tarjeta" data-lab-plan="sentido">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Las tres vías.</strong> Completá lo que das, lo que recibís y tu actitud.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Dar.</strong> Hacé algo que tenga valor para otra persona, por pequeño que sea.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Recibir.</strong> Dedicá un rato a algo que te haga sentir vivo, sin hacer otra cosa.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La pregunta invertida.</strong> Aplicala a una situación difícil.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Una pregunta.</strong> Elegí una pregunta de sentido y llevala en una caminata.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. La carta.</strong> Escribí la carta desde tu yo futuro.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un compromiso.</strong> Elegí una cosa que vas a sostener la semana que viene.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La sensación de que nada tiene sentido puede ser parte de una depresión. Si se sostiene en el tiempo, si dejaste de disfrutar de casi todo o si pensás en hacerte daño, no es un problema de reflexión: es algo para consultar. Podés leer sobre <a href="/depresion/">la depresión</a>, <a href="/contacto/">escribirme</a> o, si necesitás ayuda ahora, mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Frankl, V. E. (1946). <em>El hombre en busca de sentido</em>.</li>
+        <li>Frankl, V. E. (1969). <em>La voluntad de sentido</em>.</li>
+        <li>Lukas, E. <em>También tu sufrimiento tiene sentido</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

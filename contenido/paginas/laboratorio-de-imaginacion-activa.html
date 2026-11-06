@@ -1,0 +1,150 @@
+<!--{
+  "ruta": "/laboratorio-de-imaginacion-activa/",
+  "titulo": "Laboratorio de imaginación activa y mandala (Jung)",
+  "descripcion": "Ejercicios inspirados en Jung: los pasos de la imaginación activa, un diálogo escrito con una figura interior y un mandala para dibujar en pantalla.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Imaginación activa", "/laboratorio-de-imaginacion-activa/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>imaginación activa</em>",
+  "bajada": "Dejar que las imágenes de adentro hablen: un recorrido guiado, un diálogo con una figura interior y un mandala para dibujar, inspirados en la psicología analítica de Jung.",
+  "respuesta": "El laboratorio de imaginación activa propone ejercicios inspirados en Carl Gustav Jung: los pasos de la imaginación activa (aquietarse, dejar que aparezca una imagen, dialogar con ella, tomar posición y darle forma), un diálogo escrito con una figura interior y un mandala para dibujar en pantalla, con simetría opcional. No reemplaza una terapia y no se recomienda en momentos de crisis.",
+  "scripts": ["lab-base.js", "lienzo.js"],
+  "wa_tema": "el laboratorio de imaginación activa",
+  "articulos": ["imaginacion-activa", "los-simbolos-segun-jung", "el-proceso-de-individuacion"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están <em>inspirados</em> en la psicología analítica de Jung, el eje de mi trabajo. Son para explorar, no reemplazan una terapia. No los hagas si estás en crisis, si te sentís muy angustiado o si tenés experiencias de desconexión de la realidad: en esos casos, la imaginación activa se trabaja acompañado.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es fantasear ni una visualización dirigida donde alguien te dice qué imaginar. En la imaginación activa dejás que aparezca una imagen propia —un sueño, una figura, un paisaje— y te relacionás con ella como si tuviera vida: la mirás, le hablás, la escuchás. Jung la desarrolló a partir de su propia experiencia y la consideraba uno de los caminos más directos hacia el inconsciente.</p>
+        <p>Si querés entender de dónde viene y para qué sirve, leé <a href="/recursos/imaginacion-activa/">la imaginación activa según Jung</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin forzar.</strong> Si no aparece nada, también está bien.</li>
+        <li><strong>Con un pie afuera.</strong> Podés abrir los ojos y volver cuando quieras.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#pasos">Los pasos</a>
+      <a href="#figura">Diálogo con una figura</a>
+      <a href="#mandala">Tu mandala</a>
+      <a href="#mirar">Mirar la imagen</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="pasos" aria-labelledby="t-pasos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-pasos">Los pasos de la imaginación activa</h2>
+      <p class="lab-estacion__bajada">Siguiendo a Jung y a autores como Robert Johnson, la imaginación activa puede pensarse en pasos. Recorrelos de a uno, con calma. El reloj es solo una guía.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos">
+          <li><strong>Aquietarte.</strong> Sentate cómodo, respirá más lento y dejá pasar los pensamientos del día sin seguirlos. No hace falta «poner la mente en blanco».</li>
+          <li><strong>Invitar una imagen.</strong> Puede venir de un sueño reciente, de una emoción («si este enojo tuviera forma, ¿cuál tendría?») o simplemente aparecer. Dejala estar, sin cambiarla.</li>
+          <li><strong>Observar y dialogar.</strong> Mirá la imagen con atención: ¿qué hace?, ¿cómo es? Si es una figura, preguntale quién es o qué quiere. Esperá la respuesta sin inventarla.</li>
+          <li><strong>Tomar posición.</strong> Respondé desde vos, con tus valores y tus emociones. La imaginación activa no es obedecer a la imagen: es un encuentro entre dos.</li>
+          <li><strong>Darle forma.</strong> Escribí, dibujá o modelá lo que pasó. Jung insistía en fijar la experiencia en algo concreto para poder volver a ella.</li>
+          <li><strong>Volver.</strong> Abrí los ojos, mirá a tu alrededor, apoyá los pies. Preguntate qué tiene que ver esto con tu vida de hoy.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="figura" aria-labelledby="t-figura">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-figura">Un diálogo con una figura interior</h2>
+      <p class="lab-estacion__bajada">Jung dialogaba por escrito con figuras de su imaginación, como el anciano Filemón. Elegí una figura (un personaje de un sueño, una parte tuya, un animal) y escribí la conversación: lo que le decís y lo que responde. Escribí lo que llegue, sin corregirlo.</p>
+      <div class="lab-tarjeta" data-silla data-silla-a="Yo" data-silla-b="La figura" data-silla-archivo="dialogo-con-una-figura-interior">
+        <div class="lab-tabla2">
+          <div><label for="fi-a">Voz 1</label><input class="lab-campo" id="fi-a" type="text" value="Yo" autocomplete="off" data-silla-nombre="a"></div>
+          <div><label for="fi-b">Voz 2 (la figura)</label><input class="lab-campo" id="fi-b" type="text" value="La figura" autocomplete="off" data-silla-nombre="b"></div>
+        </div>
+        <ol class="lab-dialogo" data-silla-dialogo aria-live="polite"></ol>
+        <label class="lab-paso__titulo" for="fi-texto" data-silla-turno>Habla: Yo</label>
+        <textarea class="lab-texto" id="fi-texto" rows="3" data-silla-texto placeholder="Por ejemplo: ¿Quién sos? ¿Qué venís a decirme?"></textarea>
+        <p class="visualmente-oculto" role="status" data-silla-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-silla-cambiar>Escribirlo y dar la palabra</button><button class="boton boton--secundario boton--chico" type="button" data-silla-bajar>Guardar el diálogo</button><button class="boton boton--secundario boton--chico" type="button" data-silla-reiniciar>Empezar de nuevo</button></div>
+        <p class="lab-nota">Si la figura te asusta o el diálogo se vuelve muy intenso, pará y volvé al presente. No hace falta terminarlo hoy.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mandala" aria-labelledby="t-mandala">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-mandala">Tu mandala</h2>
+      <p class="lab-estacion__bajada">Jung dibujó mandalas casi a diario durante una época difícil de su vida y vio en ellos una expresión espontánea del <strong>sí-mismo</strong>: la tendencia a la totalidad y al orden. No hay que saber dibujar. Empezá desde el centro y dejá que la forma aparezca. Con la simetría activada, cada trazo se repite alrededor del centro.</p>
+      <div class="lab-tarjeta lienzo" data-lienzo data-lienzo-archivo="mi-mandala.png">
+        <div class="lienzo__herramientas" role="toolbar" aria-label="Herramientas de dibujo">
+          <button type="button" class="lab-filtro" aria-pressed="true" data-lienzo-modo="lapiz">Lápiz</button>
+          <button type="button" class="lab-filtro" aria-pressed="false" data-lienzo-modo="goma">Goma</button>
+          <label class="lienzo__grosor">Simetría <select data-lienzo-simetria><option value="1">Sin simetría</option><option value="4">4 ejes</option><option value="6">6 ejes</option><option value="8" selected>8 ejes</option></select></label>
+          <label class="lienzo__grosor">Color <select data-lienzo-color><option value="#26241F">Tinta</option><option value="#4A5A3C">Salvia</option><option value="#9A4E1C">Terracota</option><option value="#2E4A6B">Azul</option><option value="#7A2E4A">Granate</option><option value="#C9A227">Dorado</option></select></label>
+          <label class="lienzo__grosor">Grosor <select data-lienzo-grosor><option value="2">Fino</option><option value="4" selected>Medio</option><option value="9">Grueso</option></select></label>
+          <button type="button" class="boton boton--secundario boton--chico" data-lienzo-deshacer>Deshacer</button>
+          <button type="button" class="boton boton--secundario boton--chico" data-lienzo-borrar>Borrar todo</button>
+        </div>
+        <div class="lienzo__marco lienzo__marco--mandala">
+          <canvas class="lienzo__hoja lienzo__hoja--cuadrada" width="800" height="800" data-lienzo-hoja role="img" aria-label="Hoja circular para dibujar un mandala. Si preferís, en la estación siguiente podés describir tu imagen con palabras."></canvas>
+          <svg class="lienzo__guia" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46"/><circle cx="50" cy="50" r="2"/></svg>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lienzo-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lienzo-bajar>Guardar el mandala en mi dispositivo</button></div>
+        <noscript><p>Para dibujar hace falta JavaScript. Podés hacerlo en papel: un círculo grande y empezar desde el centro.</p></noscript>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mirar" aria-labelledby="t-mirar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mirar">Mirar la imagen</h2>
+      <p class="lab-estacion__bajada">No busques qué «significa» como en un diccionario de símbolos. Mirá tu dibujo o tu imagen como mirarías un sueño: con curiosidad y desde lo que te provoca.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mirar-la-imagen" data-lab-form-titulo="Mirar la imagen" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mi-describir">Describila, como si se la contaras a alguien que no la ve</label><textarea class="lab-texto" id="mi-describir" rows="3"></textarea></div>
+        <div class="lab-tabla2">
+          <div><label for="mi-centro">¿Qué hay en el centro?</label><textarea class="lab-texto" id="mi-centro" rows="2"></textarea></div>
+          <div><label for="mi-borde">¿Y en los bordes?</label><textarea class="lab-texto" id="mi-borde" rows="2"></textarea></div>
+          <div><label for="mi-siento">¿Qué sentís al mirarla?</label><textarea class="lab-texto" id="mi-siento" rows="2"></textarea></div>
+          <div><label for="mi-falta">¿Hay algo que falta o que sobra?</label><textarea class="lab-texto" id="mi-falta" rows="2"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mi-vida">Si esta imagen hablara de tu momento actual, ¿qué diría?</label><textarea class="lab-texto" id="mi-vida" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mi-titulo">Un título para tu imagen</label><input class="lab-campo" id="mi-titulo" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">La imaginación activa se cultiva con regularidad, en dosis pequeñas. Marcá los días a medida que los hacés.</p>
+      <div class="lab-tarjeta" data-lab-plan="imaginacion">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Aquietarte.</strong> Cinco minutos sin hacer nada, observando lo que aparece.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una imagen.</strong> Elegí una imagen de un sueño o de una emoción y describila por escrito.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. El mandala.</strong> Dibujá un mandala sin planearlo.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Mirar.</strong> Respondé las preguntas de «Mirar la imagen».</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Dialogar.</strong> Escribí un diálogo breve con una figura interior.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Otro mandala.</strong> Dibujá otro y compará los dos.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Lo que cambió.</strong> Escribí qué te llevás de esta semana.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La imaginación activa puede traer imágenes intensas. Jung mismo advertía que no es un juego y que conviene hacerla con un yo firme y, muchas veces, acompañado. Si algo te desborda, pará, volvé al presente y, si lo necesitás, <a href="/contacto/">escribime</a>. En la <a href="/terapia-junguiana/">terapia junguiana</a> la trabajamos con tiempo y cuidado.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Jung, C. G. (1916/1958). «La función trascendente». En <em>Obra completa</em>, vol. 8.</li>
+        <li>Jung, C. G. (1962). <em>Recuerdos, sueños, pensamientos</em>.</li>
+        <li>Jung, C. G. (1972). <em>Mandala Symbolism</em>. Princeton University Press.</li>
+        <li>Johnson, R. A. (1986). <em>Inner Work: Using Dreams and Active Imagination for Personal Growth</em>. Harper &amp; Row.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

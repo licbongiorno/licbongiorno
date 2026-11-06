@@ -400,5 +400,47 @@
     LAB.guardarArchivo(nombre, new Blob([l.join("\r\n")], { type: "text/calendar;charset=utf-8" }));
   };
 
+  /* Diálogo escrito de dos voces ([data-silla]): silla vacía, polaridades, figuras interiores. */
+  document.querySelectorAll("[data-silla]").forEach(function (caja) {
+    var dialogo = caja.querySelector("[data-silla-dialogo]"), texto = caja.querySelector("[data-silla-texto]");
+    var turno = caja.querySelector("[data-silla-turno]"), estado = caja.querySelector("[data-silla-estado]");
+    var nombres = { a: caja.querySelector('[data-silla-nombre="a"]'), b: caja.querySelector('[data-silla-nombre="b"]') };
+    var defecto = { a: caja.getAttribute("data-silla-a"), b: caja.getAttribute("data-silla-b") };
+    var actual = "a", lineas = [];
+    var nombre = function (k) { return nombres[k].value.trim() || defecto[k]; };
+    var pintarTurno = function () { turno.textContent = "Habla: " + nombre(actual); caja.setAttribute("data-silla-actual", actual); };
+    var pintar = function () {
+      dialogo.innerHTML = "";
+      lineas.forEach(function (l) {
+        var li = document.createElement("li");
+        li.className = "lab-dialogo__linea lab-dialogo__linea--" + l.k;
+        li.innerHTML = "<strong></strong> <span></span>";
+        li.querySelector("strong").textContent = nombre(l.k) + ":";
+        li.querySelector("span").textContent = l.t;
+        dialogo.appendChild(li);
+      });
+    };
+    caja.querySelector("[data-silla-cambiar]").addEventListener("click", function () {
+      var t = texto.value.trim();
+      if (!t) { texto.focus(); return; }
+      lineas.push({ k: actual, t: t });
+      actual = actual === "a" ? "b" : "a";
+      texto.value = ""; pintar(); pintarTurno();
+      estado.textContent = "Cambiaste de silla. Ahora habla: " + nombre(actual) + ".";
+      texto.focus();
+    });
+    [nombres.a, nombres.b].forEach(function (n) { n.addEventListener("input", function () { pintar(); pintarTurno(); }); });
+    caja.querySelector("[data-silla-bajar]").addEventListener("click", function () {
+      if (!lineas.length) { estado.textContent = "Todavía no hay diálogo para guardar."; texto.focus(); return; }
+      LAB.guardarTexto(caja.getAttribute("data-silla-archivo") + ".txt", "Diálogo entre " + nombre("a") + " y " + nombre("b") + "\n\n" +
+        lineas.map(function (l) { return nombre(l.k) + ": " + l.t; }).join("\n\n") + "\n");
+      estado.textContent = "Listo: se descargó en tu dispositivo.";
+    });
+    caja.querySelector("[data-silla-reiniciar]").addEventListener("click", function () {
+      lineas = []; actual = "a"; texto.value = ""; pintar(); pintarTurno(); estado.textContent = "Diálogo borrado.";
+    });
+    pintarTurno();
+  });
+
   window.LAB = LAB;
 })();

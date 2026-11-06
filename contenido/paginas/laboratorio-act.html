@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-act/",
+  "titulo": "Laboratorio ACT: aceptación, defusión y acción comprometida",
+  "descripcion": "Ejercicios inspirados en la terapia de aceptación y compromiso: defusión cognitiva, hojas en el río, la matriz ACT, la cuerda y acciones comprometidas.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["ACT", "/laboratorio-act/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>aceptación y compromiso</em>",
+  "bajada": "No pelear contra lo que pensás y sentís, sino hacerle lugar, y dar pasos hacia lo que te importa. Ejercicios inspirados en la terapia de aceptación y compromiso (ACT).",
+  "respuesta": "El laboratorio ACT propone ejercicios inspirados en la terapia de aceptación y compromiso de Steven Hayes: la defusión cognitiva (tomar distancia de los pensamientos con la fórmula «estoy teniendo el pensamiento de que…»), las hojas en el río, la metáfora de soltar la cuerda, la matriz ACT de Kevin Polk para ver hacia dónde te llevan tus acciones, y acciones comprometidas con tus valores. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-act.js"],
+  "wa_tema": "el laboratorio de aceptación y compromiso",
+  "articulos": ["terapia-de-aceptacion-y-compromiso", "que-es-la-meditacion", "la-motivacion"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están <em>inspirados</em> en la terapia de aceptación y compromiso, de la familia de las terapias cognitivo-conductuales, de las que tomo algunos recursos en mi <a href="/enfoque/">enfoque integrativo</a>. No reemplazan una terapia.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es resignarse ni «aceptar» que todo está bien. Es darte cuenta de cuánta energía se va en pelear contra lo que sentís —tratar de no tener miedo, de no pensar en algo, de que no duela— y probar otra cosa: hacerle lugar a lo que aparece y, con eso a cuestas, moverte hacia lo que de verdad te importa. La ACT, desarrollada por el psicólogo Steven Hayes, llama a esto <strong>flexibilidad psicológica</strong>.</p>
+        <p>Más en <a href="/recursos/terapia-de-aceptacion-y-compromiso/">la terapia de aceptación y compromiso</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con curiosidad.</strong> Observá lo que pasa, sin juzgarlo.</li>
+        <li><strong>Sin pelear.</strong> No hace falta que los pensamientos se vayan.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#defusion">Tomar distancia de un pensamiento</a>
+      <a href="#hojas">Hojas en el río</a>
+      <a href="#cuerda">Soltar la cuerda</a>
+      <a href="#matriz">La matriz</a>
+      <a href="#acciones">Acciones comprometidas</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="defusion" aria-labelledby="t-defusion">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-defusion">Tomar distancia de un pensamiento</h2>
+      <p class="lab-estacion__bajada">Cuando estamos <strong>fusionados</strong> con un pensamiento, lo vivimos como una verdad: «soy un fracaso». La <strong>defusión</strong> no discute si es cierto: cambia la relación con él. Escribí un pensamiento que te pese y mirá cómo cambia con cada paso.</p>
+      <div class="lab-tarjeta" data-defusion>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="df-pensamiento">El pensamiento</label><input class="lab-campo" id="df-pensamiento" type="text" placeholder="Por ejemplo: no voy a poder" autocomplete="off" data-defusion-entrada></div>
+        <ol class="defusion__pasos" data-defusion-salida aria-live="polite"></ol>
+        <p class="lab-nota">Otra técnica clásica: repetí en voz alta una palabra del pensamiento («fracaso, fracaso, fracaso…») durante treinta segundos. Muchas veces, la palabra pierde fuerza y queda solo como un sonido.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="hojas" aria-labelledby="t-hojas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-hojas">Hojas en el río</h2>
+      <p class="lab-estacion__bajada">Un ejercicio clásico de la ACT para practicar la defusión con los ojos cerrados o la mirada baja.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>El río.</strong> Imaginá que estás sentado a la orilla de un río tranquilo. Sobre el agua bajan hojas, despacio.</li>
+          <li><strong>Cada pensamiento, una hoja.</strong> Cuando aparezca un pensamiento, una imagen o una sensación, ponela sobre una hoja y dejala ir con la corriente.</li>
+          <li><strong>Sin apurar.</strong> No empujes las hojas ni las retengas. Si el río se detiene o te enganchás con un pensamiento, notalo y volvé a la orilla.</li>
+          <li><strong>También los buenos.</strong> Los pensamientos agradables también van a las hojas. No se trata de deshacerse de los malos, sino de mirarlos pasar.</li>
+          <li><strong>Volver.</strong> Abrí los ojos. ¿Qué notaste? ¿Cuál fue el pensamiento que más te costó soltar?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cuerda" aria-labelledby="t-cuerda">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-cuerda">Soltar la cuerda</h2>
+      <p class="lab-estacion__bajada">Una metáfora muy usada en la ACT: imaginá que estás tirando de una cuerda contra un monstruo (tu ansiedad, tu tristeza, tu miedo). Entre los dos hay un pozo. Cuanto más tirás, más tira él. Toda tu energía está en esa pelea.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-consigna">¿Y si en lugar de ganar la pelea, soltaras la cuerda? El monstruo sigue ahí, quizás te grite, pero tus manos quedan libres para hacer otra cosa.</p>
+        <form class="lab-armador" data-lab-form="soltar-la-cuerda" data-lab-form-titulo="Soltar la cuerda" novalidate>
+          <div class="lab-tabla2">
+            <div><label for="sc-monstruo">Mi monstruo</label><textarea class="lab-texto" id="sc-monstruo" rows="2"></textarea></div>
+            <div><label for="sc-tirar">¿Cómo tiro de la cuerda? (lo que hago para no sentirlo)</label><textarea class="lab-texto" id="sc-tirar" rows="2"></textarea></div>
+            <div><label for="sc-cuesta">¿Qué me cuesta esa pelea?</label><textarea class="lab-texto" id="sc-cuesta" rows="2"></textarea></div>
+            <div><label for="sc-manos">Si soltara la cuerda, ¿qué haría con las manos libres?</label><textarea class="lab-texto" id="sc-manos" rows="2"></textarea></div>
+          </div>
+          <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="matriz" aria-labelledby="t-matriz">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-matriz">La matriz ACT</h2>
+      <p class="lab-estacion__bajada">Kevin Polk y sus colegas propusieron una forma sencilla de ordenar lo que nos pasa: dos ejes. Uno separa lo que vivimos <strong>adentro</strong> (pensamientos, emociones) de lo que hacemos <strong>afuera</strong> (acciones visibles). El otro separa lo que nos <strong>aleja</strong> de lo que nos importa de lo que nos <strong>acerca</strong>. Completá los cuatro cuadrantes empezando por abajo a la derecha.</p>
+      <form class="lab-tarjeta" data-lab-form="mi-matriz-act" data-lab-form-titulo="Mi matriz ACT" novalidate>
+        <div class="matriz-act">
+          <div class="matriz-act__celda matriz-act__celda--4"><label for="ma-aleja-afuera"><strong>Lo que hago para escapar</strong> (afuera, me aleja)</label><textarea class="lab-texto" id="ma-aleja-afuera" rows="3"></textarea></div>
+          <div class="matriz-act__celda matriz-act__celda--3"><label for="ma-acerca-afuera"><strong>Lo que hago o podría hacer</strong> (afuera, me acerca)</label><textarea class="lab-texto" id="ma-acerca-afuera" rows="3"></textarea></div>
+          <div class="matriz-act__celda matriz-act__celda--2"><label for="ma-aleja-adentro"><strong>Lo que aparece y me frena</strong> (adentro: pensamientos, emociones)</label><textarea class="lab-texto" id="ma-aleja-adentro" rows="3"></textarea></div>
+          <div class="matriz-act__celda matriz-act__celda--1"><label for="ma-acerca-adentro"><strong>Lo que me importa</strong> (adentro: personas, valores)</label><textarea class="lab-texto" id="ma-acerca-adentro" rows="3"></textarea></div>
+        </div>
+        <p class="lab-nota">Mirá la matriz completa: ¿qué pasa cuando lo de abajo a la izquierda decide lo de arriba a la izquierda? ¿Qué pequeña acción de arriba a la derecha podrías hacer aunque lo de abajo a la izquierda siga apareciendo?</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="acciones" aria-labelledby="t-acciones">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-acciones">Acciones comprometidas</h2>
+      <p class="lab-estacion__bajada">Los valores son direcciones, no metas: no se «cumplen», se viven. Elegí un valor y escribí acciones pequeñas que vayan en esa dirección. Si no tenés claro cuáles son tus valores, empezá por el <a href="/laboratorio-de-valores/">laboratorio de valores</a>.</p>
+      <form class="lab-tarjeta" data-lab-form="mis-acciones-comprometidas" data-lab-form-titulo="Mis acciones comprometidas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ac-valor">Un valor que quiero vivir más</label><input class="lab-campo" id="ac-valor" type="text" placeholder="Por ejemplo: cuidar mis vínculos" autocomplete="off"></div>
+        <div data-lab-lista-editable data-lab-lista-titulo="Acciones en esa dirección">
+          <label class="lab-paso__titulo" for="ac-accion" style="display:block">Una acción concreta y pequeña</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="ac-accion" type="text" placeholder="Por ejemplo: llamar a mi papá el domingo" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="ac-obstaculo">¿Qué pensamientos o emociones van a aparecer? ¿Podés llevarlos con vos?</label><textarea class="lab-texto" id="ac-obstaculo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">La flexibilidad se entrena como un músculo. Una práctica por día.</p>
+      <div class="lab-tarjeta" data-lab-plan="act">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar.</strong> Cada vez que aparezca un pensamiento duro, decite «estoy teniendo el pensamiento de que…».</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Las hojas.</strong> Cinco minutos de hojas en el río.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. La cuerda.</strong> Identificá una pelea interna y completá «soltar la cuerda».</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La matriz.</strong> Completá los cuatro cuadrantes.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un valor.</strong> Elegí un valor y escribí tres acciones pequeñas.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Hacer.</strong> Hacé una de esas acciones, aunque aparezca el miedo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar.</strong> ¿Qué cambió cuando dejaste de pelear con lo que sentías?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Aceptar no significa tolerar situaciones de maltrato ni resignarse a un sufrimiento que tiene solución. Si algo de lo que vivís te está dañando, la prioridad es cuidarte y pedir ayuda. Podés <a href="/contacto/">escribirme</a> o, si necesitás ayuda ahora, mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Hayes, S. C., Strosahl, K. D. y Wilson, K. G. (2012). <em>Acceptance and Commitment Therapy: The Process and Practice of Mindful Change</em> (2.ª ed.). Guilford Press.</li>
+        <li>Harris, R. (2009). <em>ACT Made Simple</em>. New Harbinger.</li>
+        <li>Polk, K. L., Schoendorff, B., Webster, M. y Olaz, F. O. (2016). <em>The Essential Guide to the ACT Matrix</em>. New Harbinger.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

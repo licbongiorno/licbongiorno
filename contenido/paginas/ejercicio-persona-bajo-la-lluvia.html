@@ -8,7 +8,7 @@
   "h1": "Una persona <em>bajo la lluvia</em>",
   "bajada": "Dibujá en la pantalla, con el dedo o el mouse, una persona bajo la lluvia. Después, unas preguntas para pensar cómo te cubrís cuando las cosas se complican.",
   "respuesta": "Este ejercicio propone dibujar en pantalla una persona bajo la lluvia, o describirla con palabras, y después responder preguntas sobre la lluvia, la protección y los recursos con los que cuenta esa persona. Está inspirado en la técnica gráfica de la persona bajo la lluvia, pero no es una evaluación: no tiene puntaje ni interpretación automática, y el dibujo queda solo en tu dispositivo.",
-  "scripts": ["lab-base.js", "ejercicio-lluvia.js"],
+  "scripts": ["lab-base.js", "lienzo.js"],
   "wa_tema": "el ejercicio de la persona bajo la lluvia",
   "articulos": ["test-persona-bajo-la-lluvia", "test-dibujo-libre", "la-resiliencia"]
 }-->
@@ -32,7 +32,7 @@
       <p class="lab-estacion__num">01</p>
       <h2 id="t-dibujo">Dibujá</h2>
       <p class="lab-estacion__bajada">Dibujá una persona bajo la lluvia. Tomate el tiempo que necesites.</p>
-      <div class="lab-tarjeta lienzo" data-lienzo>
+      <div class="lab-tarjeta lienzo" data-lienzo data-lienzo-archivo="persona-bajo-la-lluvia.png">
         <div class="lienzo__herramientas" role="toolbar" aria-label="Herramientas de dibujo">
           <button type="button" class="lab-filtro" aria-pressed="true" data-lienzo-modo="lapiz">Lápiz</button>
           <button type="button" class="lab-filtro" aria-pressed="false" data-lienzo-modo="goma">Goma</button>
