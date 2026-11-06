@@ -3,12 +3,12 @@
   "titulo": "Laboratorio de creatividad: consignas, juegos y desafíos",
   "descripcion": "Consignas, juegos y desafíos para entrenar la creatividad, una metahabilidad que potencia a todas las demás. Gratis, sin registrarte y sin dejar datos.",
   "prioridad": 0.7,
-  "migas": [["Recursos", "/recursos/"], ["Laboratorio de creatividad", "/laboratorio-de-creatividad/"]],
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Laboratorio de creatividad", "/laboratorio-de-creatividad/"]],
   "antetitulo": "Laboratorio",
   "h1": "Laboratorio de <em>creatividad</em>",
   "bajada": "Consignas, juegos y desafíos para volver a jugar con las ideas. No hay respuestas correctas ni puntajes: solo un rato para mirar distinto.",
   "respuesta": "El laboratorio de creatividad es un espacio gratuito con consignas, juegos y desafíos para entrenar la creatividad, una metahabilidad que potencia a todas las demás. Incluye combinaciones al azar, usos imposibles, escritura, el juego del garabato de Winnicott, imágenes simbólicas y un plan de siete días. Nada de lo que escribas o dibujes sale de tu dispositivo.",
-  "scripts": ["laboratorio.js"],
+  "scripts": ["lab-base.js", "laboratorio.js"],
   "wa_tema": "el laboratorio de creatividad",
   "articulos": ["metahabilidades", "imaginacion-activa", "los-simbolos-segun-jung"]
 }-->
@@ -183,7 +183,7 @@
       <p class="lab-estacion__num">08</p>
       <h2 id="t-siete">Plan de 7 días</h2>
       <p class="lab-estacion__bajada">Un desafío por día, de cinco a diez minutos. Marcá los que vayas haciendo; queda guardado solo en este navegador.</p>
-      <div class="lab-tarjeta" data-lab-plan>
+      <div class="lab-tarjeta" data-lab-plan="creatividad">
         <ol class="lab-plan">
           <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Cambiar la ruta.</strong> Hacé un trayecto de siempre por otro camino y anotá tres cosas nuevas que viste.</span></label></li>
           <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Diez ideas malas.</strong> Pensá diez soluciones absurdas para un problema real. Después mirá si alguna esconde algo útil.</span></label></li>

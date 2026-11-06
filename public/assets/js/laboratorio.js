@@ -1,6 +1,6 @@
 /* Laboratorio de creatividad — /laboratorio-de-creatividad/
    Todo ocurre en el navegador: no se envía nada a ningún servidor.
-   Lo único que se guarda (en localStorage, si está disponible) es el avance del plan de 7 días. */
+   Requiere lab-base.js (utilidades, botones de copiar y plan de 7 días). */
 (function () {
   "use strict";
   var raiz = document.querySelector("[data-lab-dia]");
@@ -109,61 +109,16 @@
     "Un camino que se bifurca", "Una máscara", "Un espejo", "Un pájaro", "Una semilla", "Un fuego", "Una cueva", "Un barco",
     "Un jardín", "Una torre", "Un círculo", "Una serpiente", "La luna", "Un pozo", "Un niño", "Un anciano", "Una isla"];
 
-  /* ---------- Utilidades ---------- */
-  var azar = function (lista, evitar) {
-    if (lista.length < 2) return lista[0];
-    var x;
-    do { x = lista[Math.floor(Math.random() * lista.length)]; } while (x === evitar);
-    return x;
-  };
-  var unos = function (lista, n) {
-    var copia = lista.slice(), out = [];
-    while (out.length < n && copia.length) out.push(copia.splice(Math.floor(Math.random() * copia.length), 1)[0]);
-    return out;
-  };
-  var poner = function (el, texto) {
-    if (!el) return;
-    el.classList.add("lab-cambia");
-    setTimeout(function () { el.textContent = texto; el.classList.remove("lab-cambia"); }, 140);
-  };
-  var mmss = function (s) { return Math.floor(s / 60) + ":" + ("0" + (s % 60)).slice(-2); };
-  var guardarArchivo = function (nombre, blob) {
-    var a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = nombre;
-    document.body.appendChild(a);
-    a.click();
-    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
-  };
-  var temporizador = function (segundos, reloj, alTerminar) {
-    var resto = segundos, id = null;
-    return {
-      activo: function () { return id !== null; },
-      empezar: function () {
-        if (id) return;
-        resto = segundos; reloj.textContent = mmss(resto); reloj.classList.add("en-marcha");
-        id = setInterval(function () {
-          resto--; reloj.textContent = mmss(Math.max(resto, 0));
-          if (resto <= 0) { clearInterval(id); id = null; reloj.classList.remove("en-marcha"); alTerminar(); }
-        }, 1000);
-      },
-      frenar: function () { if (id) { clearInterval(id); id = null; } reloj.classList.remove("en-marcha"); reloj.textContent = mmss(segundos); }
-    };
-  };
+  /* ---------- Utilidades (de lab-base.js) ---------- */
+  var LAB = window.LAB;
+  if (!LAB) return;
+  var azar = LAB.azar, unos = LAB.unos, poner = LAB.poner, guardarArchivo = LAB.guardarArchivo, temporizador = LAB.temporizador;
 
   /* ---------- Desafío del día ---------- */
   var diaTexto = raiz.querySelector("[data-lab-dia-texto]");
   var hoy = Math.floor((Date.now() - new Date().getTimezoneOffset() * 60000) / 86400000);
   diaTexto.textContent = DESAFIOS[hoy % DESAFIOS.length];
   raiz.querySelector("[data-lab-dia-otra]").addEventListener("click", function () { poner(diaTexto, azar(DESAFIOS, diaTexto.textContent)); });
-
-  document.querySelectorAll("[data-lab-copiar]").forEach(function (b) {
-    b.addEventListener("click", function () {
-      var t = document.querySelector(b.getAttribute("data-lab-copiar")).textContent;
-      var listo = function () { var o = b.textContent; b.textContent = "Copiado"; setTimeout(function () { b.textContent = o; }, 1600); };
-      if (navigator.clipboard) navigator.clipboard.writeText(t).then(listo, function () {});
-    });
-  });
 
   /* ---------- Combinar ---------- */
   var comb = document.querySelector("[data-lab-combinar]");
@@ -337,24 +292,5 @@
     nuevoGarabato(); pintar(ctx);
   }
 
-  /* ---------- Plan de 7 días ---------- */
-  var plan = document.querySelector("[data-lab-plan]");
-  if (plan) {
-    var CLAVE = "lab-creatividad-plan";
-    var casillas = plan.querySelectorAll('input[type="checkbox"]'), prog = plan.querySelector("[data-lab-plan-progreso]");
-    var leer = function () { try { return JSON.parse(localStorage.getItem(CLAVE) || "[]"); } catch (e) { return []; } };
-    var escribir = function (v) { try { localStorage.setItem(CLAVE, JSON.stringify(v)); } catch (e) { /* sin almacenamiento */ } };
-    var actualizar = function () {
-      var hechos = Array.prototype.filter.call(casillas, function (c) { return c.checked; }).map(function (c) { return c.value; });
-      prog.textContent = hechos.length === 7 ? "¡7 de 7! Completaste el plan." : hechos.length + " de 7 días";
-      plan.classList.toggle("completo", hechos.length === 7);
-      escribir(hechos);
-    };
-    var guardados = leer();
-    casillas.forEach(function (c) { c.checked = guardados.indexOf(c.value) >= 0; c.addEventListener("change", actualizar); });
-    plan.querySelector("[data-lab-plan-reiniciar]").addEventListener("click", function () {
-      casillas.forEach(function (c) { c.checked = false; }); actualizar();
-    });
-    actualizar();
-  }
+  /* El plan de 7 días lo maneja lab-base.js. */
 })();

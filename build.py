@@ -271,7 +271,7 @@ NAV = [
     ("Recursos", None, [
         ("Artículos", "/recursos/", "Psicología para la vida cotidiana"),
         ("Para descargar", "/recursos/#para-descargar", "Diario de sueños en PDF"),
-        ("Laboratorio de creatividad", "/laboratorio-de-creatividad/", "Consignas, juegos y desafíos"),
+        ("Laboratorios", "/laboratorios/", "Prácticas interactivas: creatividad, comunicación…"),
     ]),
     ("Empezar", None, [
         ("Tu primera consulta", "/primera-consulta/", "Paso a paso, sin sorpresas"),
@@ -279,6 +279,23 @@ NAV = [
         ("Opiniones de pacientes", "/opiniones/", "Más de 100 reseñas en Google"),
     ]),
 ]
+
+
+# Laboratorios de práctica (interactivos). El orden es el de publicación.
+LABORATORIOS = [
+    {"titulo": "Laboratorio de creatividad", "ruta": "/laboratorio-de-creatividad/", "tipo": "Creatividad",
+     "descripcion": "Combinar ideas, usos imposibles, escritura, el juego del garabato, imágenes simbólicas y un plan de 7 días."},
+    {"titulo": "Laboratorio de comunicación no violenta", "ruta": "/laboratorio-de-comunicacion-no-violenta/", "tipo": "Vínculos",
+     "descripcion": "Distinguir hechos de juicios, nombrar lo que sentís y necesitás, y armar un pedido claro en cuatro pasos."},
+]
+
+
+def bloque_laboratorios():
+    items = "".join(
+        f'<a class="lab-catalogo__item" href="{l["ruta"]}"><span class="recursos-indice__tipo">{esc(l["tipo"])}</span>'
+        f'<strong>{esc(l["titulo"])}</strong><span>{esc(l["descripcion"])}</span><span class="lab-catalogo__ir">Entrar al laboratorio →</span></a>'
+        for l in LABORATORIOS)
+    return f'<div class="lab-catalogo revelar">{items}</div>'
 
 
 def cabecera(ruta):
@@ -1179,6 +1196,7 @@ def reemplazos(cuerpo, ruta):
             f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in CATEGORIAS
             if any(x["categoria"] == c and (x["publicado"] or BORRADORES) for x in ARTICULOS)) + "</ul>",
         "asistente": bloque_asistente,
+        "laboratorios": bloque_laboratorios,
         "zona_horaria": lambda: ('<aside class="zona-horaria" data-zona hidden aria-label="Tu zona horaria">'
             f'<span class="zona-horaria__icono">{ICON["globo"]}</span><p>Parece que estás en <strong data-zona-lugar></strong>. '
             'Allá son las <strong data-zona-local></strong> y en Argentina, las <strong data-zona-ar></strong> '
@@ -1217,8 +1235,7 @@ def leer_pagina(f):
     return meta, txt[m.end():]
 
 
-VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + (RAIZ / "assets/js/sitio.js").read_bytes()
-                      + (RAIZ / "assets/js/laboratorio.js").read_bytes()).hexdigest()[:8]
+VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js")))).hexdigest()[:8]
 
 
 def escribir(ruta, contenido):
@@ -1316,7 +1333,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/laboratorio-de-creatividad/"] + [ruta_categoria(c) for c in cats_con]),
+        ("Recursos", ["/recursos/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
     bloques_mapa = "".join(

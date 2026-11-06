@@ -1,0 +1,207 @@
+<!--{
+  "ruta": "/laboratorio-de-comunicacion-no-violenta/",
+  "titulo": "Laboratorio de comunicación no violenta: ejercicios",
+  "descripcion": "Ejercicios interactivos de comunicación no violenta: distinguir hechos de juicios, nombrar sentimientos y necesidades y armar un pedido claro en cuatro pasos.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Comunicación no violenta", "/laboratorio-de-comunicacion-no-violenta/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>comunicación no violenta</em>",
+  "bajada": "Ejercicios para decir lo que te pasa sin atacar y sin callarte, y para escuchar lo que hay detrás de las palabras del otro.",
+  "respuesta": "El laboratorio de comunicación no violenta es un espacio gratuito con ejercicios interactivos basados en el modelo de Marshall Rosenberg: distinguir observaciones de juicios y sentimientos de interpretaciones, reconocer necesidades, armar un mensaje en cuatro pasos, diferenciar pedidos de exigencias y practicar la escucha empática. Nada de lo que escribas sale de tu dispositivo.",
+  "scripts": ["lab-base.js", "laboratorio-cnv.js"],
+  "wa_tema": "el laboratorio de comunicación no violenta",
+  "articulos": ["comunicacion-no-violenta", "la-empatia", "patrones-que-se-repiten-en-los-vinculos"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no se trata de hablar como un manual ni de ser amable todo el tiempo. Se trata de esa discusión que termina siempre igual, del mensaje que escribiste con bronca y borraste, del «está todo bien» que no era cierto. Entre gritar y tragarse todo hay otra forma de hablar. Y como cualquier idioma nuevo, se aprende practicando.</p>
+        <p>Este laboratorio sigue el modelo de <a href="/recursos/comunicacion-no-violenta/">comunicación no violenta</a> del psicólogo Marshall Rosenberg. La idea de fondo es simple: detrás de cada queja, reproche o ataque hay una necesidad que no está siendo atendida. Si aprendemos a decirla, y a escuchar la del otro, es más probable que nos entendamos.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin respuestas perfectas.</strong> No hay que hablar «bien»: hay que hablar más claro.</li>
+        <li><strong>Sin registro.</strong> Nada de lo que escribas sale de tu dispositivo.</li>
+        <li><strong>De a poco.</strong> Una estación por día alcanza.</li>
+      </ul>
+    </div>
+
+    <h2 class="visualmente-oculto">Los cuatro pasos</h2>
+    <ol class="lab-pasos-cnv revelar">
+      <li><strong>Observación</strong>Lo que pasó, como lo registraría una cámara, sin juzgar.</li>
+      <li><strong>Sentimiento</strong>Lo que sentís, sin culpar al otro de lo que sentís.</li>
+      <li><strong>Necesidad</strong>Lo que necesitás y está detrás de ese sentimiento.</li>
+      <li><strong>Pedido</strong>Algo concreto, posible y que el otro pueda rechazar.</li>
+    </ol>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#observar">Observación o juicio</a>
+      <a href="#sentir">Sentimiento o interpretación</a>
+      <a href="#necesidades">Necesidades</a>
+      <a href="#armador">Armá tu mensaje</a>
+      <a href="#pedir">Pedido o exigencia</a>
+      <a href="#escuchar">Escucha empática</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="observar" aria-labelledby="t-observar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-observar">¿Observación o juicio?</h2>
+      <p class="lab-estacion__bajada">Una observación describe un hecho concreto. Un juicio le pone una etiqueta a la persona o generaliza con palabras como «siempre», «nunca» o «todo». Cuando escuchamos un juicio, nos defendemos. Cuando escuchamos un hecho, podemos conversar.</p>
+      <div class="lab-tarjeta" data-lab-quiz="observacion">
+        <p class="lab-tarjeta__titulo">¿Qué es esta frase?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Llegaste a las diez y habíamos quedado a las ocho.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Observación</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Juicio</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="sentir" aria-labelledby="t-sentir">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-sentir">¿Sentimiento o interpretación?</h2>
+      <p class="lab-estacion__bajada">«Me siento ignorado» parece un sentimiento, pero en realidad habla de lo que creemos que el otro nos hace. Debajo suele haber tristeza, soledad o enojo. Nombrar el sentimiento, y no la acusación, hace más fácil que el otro escuche.</p>
+      <div class="lab-tarjeta" data-lab-quiz="sentimiento">
+        <p class="lab-tarjeta__titulo">¿Qué es esta frase?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Me siento triste.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Sentimiento</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Interpretación</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="necesidades" aria-labelledby="t-necesidades">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-necesidades">Necesidades</h2>
+      <p class="lab-estacion__bajada">Para Rosenberg, las necesidades son universales: todos necesitamos descanso, cuidado, respeto o cercanía. Lo que cambia son las estrategias para cubrirlas. Discutimos por las estrategias; nos entendemos cuando hablamos de las necesidades. Algunas, agrupadas:</p>
+      <div class="lab-necesidades">
+        <div class="lab-tarjeta"><h3>Cuidado del cuerpo</h3><p>Descanso, alimento, movimiento, salud, seguridad, contacto físico.</p></div>
+        <div class="lab-tarjeta"><h3>Vínculo</h3><p>Cercanía, compañía, afecto, pertenencia, ser escuchado, comprensión, confianza.</p></div>
+        <div class="lab-tarjeta"><h3>Respeto y autonomía</h3><p>Ser tenido en cuenta, elegir, espacio propio, libertad, consideración, reconocimiento.</p></div>
+        <div class="lab-tarjeta"><h3>Paz y orden</h3><p>Tranquilidad, previsibilidad, claridad, armonía, colaboración, equidad.</p></div>
+        <div class="lab-tarjeta"><h3>Sentido</h3><p>Aportar, aprender, crecer, crear, celebrar, que lo que hago importe.</p></div>
+        <div class="lab-tarjeta"><h3>Juego y disfrute</h3><p>Diversión, humor, belleza, inspiración, espontaneidad.</p></div>
+      </div>
+      <div class="lab-tarjeta" style="margin-top:1rem" data-lab-necesidad>
+        <p class="lab-tarjeta__titulo">Para practicar</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-necesidad-texto aria-live="polite">Te enojaste porque tu pareja llegó tarde. ¿Qué necesidad tuya puede haber detrás?</p>
+        <p class="lab-quiz__resultado" data-lab-necesidad-pista hidden></p>
+        <div class="lab-acciones">
+          <button class="boton boton--chico" type="button" data-lab-necesidad-ver>Ver algunas posibles</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-lab-necesidad-otra>Otra situación</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="armador" aria-labelledby="t-armador">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-armador">Armá tu mensaje en cuatro pasos</h2>
+      <p class="lab-estacion__bajada">Pensá en una situación real que te esté molestando. Completá los pasos y el laboratorio arma la frase. No tiene que sonar perfecta: es un borrador para decirlo con tus palabras.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-armador novalidate>
+        <div class="lab-paso">
+          <label class="lab-paso__titulo" for="cnv-obs"><span>1</span>¿Qué pasó?</label>
+          <p class="lab-paso__ayuda" id="cnv-obs-ayuda">Como lo registraría una cámara. Por ejemplo: «llegaste a las diez y habíamos quedado a las ocho».</p>
+          <input class="lab-campo" id="cnv-obs" type="text" aria-describedby="cnv-obs-ayuda cnv-obs-aviso" data-lab-obs autocomplete="off">
+          <p class="lab-paso__ayuda" id="cnv-obs-aviso" aria-live="polite" data-lab-obs-aviso></p>
+        </div>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo"><span>2</span>¿Qué sentiste?</legend>
+          <p class="lab-paso__ayuda">Podés elegir más de uno.</p>
+          <p class="lab-grupo">Cuando algo nos falta</p>
+          <div class="lab-chips opciones" data-lab-sentimientos="falta"></div>
+          <p class="lab-grupo">Cuando algo nos llena</p>
+          <div class="lab-chips opciones" data-lab-sentimientos="llena"></div>
+        </fieldset>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo"><span>3</span>¿Qué necesitás?</legend>
+          <p class="lab-paso__ayuda">Lo que está detrás de ese sentimiento.</p>
+          <div class="lab-chips opciones" data-lab-necesidades></div>
+        </fieldset>
+        <div class="lab-paso">
+          <label class="lab-paso__titulo" for="cnv-pedido"><span>4</span>¿Qué le pedís?</label>
+          <p class="lab-paso__ayuda" id="cnv-pedido-ayuda">Algo concreto, posible y en positivo (lo que sí querés). Por ejemplo: «¿me avisarías si vas a llegar tarde?».</p>
+          <input class="lab-campo" id="cnv-pedido" type="text" aria-describedby="cnv-pedido-ayuda cnv-pedido-aviso" data-lab-pedido autocomplete="off">
+          <p class="lab-paso__ayuda" id="cnv-pedido-aviso" aria-live="polite" data-lab-pedido-aviso></p>
+        </div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tu mensaje</p>
+          <p class="lab-resultado__texto" data-lab-mensaje aria-live="polite">Completá los pasos y acá aparece tu mensaje.</p>
+          <div class="lab-acciones">
+            <button class="boton boton--chico" type="button" data-lab-copiar="[data-lab-mensaje]">Copiar</button>
+            <button class="boton boton--secundario boton--chico" type="reset">Empezar de nuevo</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="pedir" aria-labelledby="t-pedir">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-pedir">¿Pedido claro o exigencia?</h2>
+      <p class="lab-estacion__bajada">Un pedido es concreto, posible y deja lugar al «no». Una exigencia impone, amenaza o culpa. También hay pedidos tan vagos («quiero que me respetes») que el otro no sabe qué hacer con ellos. La prueba final no está en las palabras sino en cómo reaccionamos cuando el otro dice que no.</p>
+      <div class="lab-tarjeta" data-lab-quiz="pedido">
+        <p class="lab-tarjeta__titulo">¿Qué es esta frase?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«¿Podrías avisarme si vas a llegar tarde?»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Pedido claro</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Exigencia o pedido vago</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="escuchar" aria-labelledby="t-escuchar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-escuchar">Escucha empática</h2>
+      <p class="lab-estacion__bajada">La otra mitad de la comunicación no violenta es escuchar así: detrás de una frase dura, buscar qué siente el otro y qué necesita. Rosenberg proponía adivinarlo en voz alta, como una pregunta. No hace falta acertar: la pregunta ya muestra interés.</p>
+      <div class="lab-tarjeta" data-lab-escucha>
+        <p class="lab-tarjeta__titulo">Alguien te dice</p>
+        <p class="lab-quiz__frase" data-lab-escucha-frase aria-live="polite">«¡Siempre hago todo yo en esta casa!»</p>
+        <p class="lab-consigna">Antes de defenderte: ¿qué podría estar sintiendo y qué podría necesitar? Pensalo y después mirá una posible respuesta.</p>
+        <p class="lab-quiz__resultado bien" data-lab-escucha-respuesta hidden></p>
+        <div class="lab-acciones">
+          <button class="boton boton--chico" type="button" data-lab-escucha-ver>Ver una posible respuesta</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-lab-escucha-otra>Otra frase</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, en tu vida real. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="cnv">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Observar sin juzgar.</strong> Anotá tres juicios que pensaste hoy y transformalos en observaciones.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Ponerle nombre.</strong> Tres veces en el día, nombrá lo que sentís con una palabra precisa.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Detrás del enojo.</strong> Cuando algo te moleste, preguntate qué necesidad tuya no está siendo atendida.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un pedido concreto.</strong> Hacé un pedido pequeño, claro, posible y en positivo.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Escuchar sin arreglar.</strong> Escuchá a alguien cinco minutos sin dar consejos ni opinar.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Adivinar la necesidad.</strong> Ante una queja de otro, preguntá qué siente y qué necesita antes de responder.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Agradecer en cuatro pasos.</strong> Agradecé algo concreto: qué hizo la otra persona, qué sentiste y qué necesidad tuya cuidó.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La comunicación no violenta sirve para conflictos cotidianos, pero no frente a la violencia. Si hay maltrato, control o amenazas, el problema no es de comunicación y la prioridad es tu seguridad. En Argentina, la línea 144 atiende las 24 horas y es gratuita; en una emergencia, llamá al 911. Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>. Y si los conflictos se repiten siempre igual, puede ayudar un espacio terapéutico: podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Rosenberg, M. B. (2003). <em>Comunicación no violenta: un lenguaje de vida</em>.</li>
+        <li>Rosenberg, M. B. (2005). <em>Resolver los conflictos con la comunicación no violenta</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

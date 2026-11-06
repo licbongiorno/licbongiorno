@@ -55,6 +55,8 @@ Si estás atravesando una situación de violencia, pedí ayuda: en Argentina, la
 
 En mi trabajo con [dificultades vinculares](/dificultades-vinculares/) uso algunas ideas de la comunicación no violenta como herramienta práctica: ayudar a distinguir hechos de interpretaciones, ponerle nombre a lo que se siente y descubrir qué necesidad hay debajo de un enojo. Pero el trabajo terapéutico va más allá: busca entender por qué ciertas situaciones nos tocan tanto y de dónde vienen. Si te pasa que siempre terminás en la misma discusión, podés escribirme.
 
+Si querés practicar los cuatro pasos con ejercicios, te espera el [laboratorio de comunicación no violenta](/laboratorio-de-comunicacion-no-violenta/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la comunicación no violenta?
