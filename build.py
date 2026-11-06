@@ -273,6 +273,7 @@ NAV = [
         ("Para descargar", "/recursos/#para-descargar", "Diario de sueños en PDF"),
         ("Laboratorios", "/laboratorios/", "Prácticas interactivas para emociones, vínculos y más"),
         ("¿Por dónde empiezo?", "/por-donde-empezar/", "Un recorrido según lo que te pasa"),
+        ("Tests", "/tests/", "Eneagrama y tipos psicológicos de Jung"),
         ("Buscar", "/buscar/", "Artículos, laboratorios y preguntas"),
     ]),
     ("Empezar", None, [
@@ -369,7 +370,7 @@ GUIA = [
     ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["la-culpa", "psicologia-humanista-carl-rogers"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/"]),
     ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["respiracion-y-emociones", "ansiedad-cuando-el-cuerpo-habla"], ["/laboratorio-de-descanso/"]),
     ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "el-proceso-de-individuacion"], ["/laboratorio-de-valores/"]),
-    ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "los-suenos-segun-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-suenos/"]),
+    ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-suenos/"]),
     ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "el-enojo"], ["/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
     ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["metahabilidades", "la-motivacion"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/"]),
     ("meditar", "Empezar a meditar o respirar mejor", "/terapia-junguiana/", ["que-es-la-meditacion", "cuando-meditar-no-es-recomendable"], ["/laboratorio-de-meditacion/", "/laboratorio-de-respiraciones/"]),
@@ -695,6 +696,7 @@ WIKI = {
     "narrativa": ("Terapia narrativa", "https://es.wikipedia.org/wiki/Terapia_narrativa"),
     "sistemica": ("Terapia familiar", "https://es.wikipedia.org/wiki/Terapia_familiar"),
     "genograma": ("Genograma", "https://es.wikipedia.org/wiki/Genograma"),
+    "eneagrama": ("Eneagrama de la personalidad", "https://es.wikipedia.org/wiki/Eneagrama_de_la_personalidad"),
 }
 
 CATEGORIAS = {
@@ -705,6 +707,7 @@ CATEGORIAS = {
     "Psicología contemporánea": "Psicoterapia integrativa, terapia online, duelo migratorio y otros temas de la psicología de hoy, en lenguaje claro.",
     "Psicología básica": "Personalidad, inteligencia, emociones, apego, memoria y motivación: los conceptos básicos de la psicología, explicados en lenguaje claro.",
     "Meditación y respiración": "Tipos de meditación de Oriente y Occidente, técnicas de respiración y lo que dice la psicología sobre ellas: beneficios, límites y cuidados.",
+    "Eneagrama": "El eneagrama de la personalidad y sus nueve eneatipos: motivaciones, miedos, alas y caminos de crecimiento, desde una mirada psicológica y crítica.",
     "Desarrollo personal": "Crisis vitales, la crisis de la mitad de la vida, búsqueda de sentido y autoconocimiento desde una mirada junguiana.",
 }
 
@@ -1455,7 +1458,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
     bloques_mapa = "".join(

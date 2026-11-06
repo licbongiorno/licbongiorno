@@ -53,6 +53,8 @@ Muchas pruebas de personalidad populares —la más conocida es el MBTI, desarro
 
 En el trabajo terapéutico, la tipología ayuda a entender malentendidos con la pareja o la familia («no es que no te quiera, es que procesa distinto»), a reconocer el propio modo de funcionar sin culpa y a darle lugar, de a poco, a la parte menos desarrollada. Si te interesa este enfoque, podés leer más sobre la [terapia junguiana](/terapia-junguiana/).
 
+Si querés explorar tu tipo, podés hacer el [test de tipos psicológicos](/test-de-tipos-psicologicos/). Y para profundizar en cada uno, leé los ocho tipos: [pensamiento extravertido](/recursos/tipo-pensamiento-extravertido/), [pensamiento introvertido](/recursos/tipo-pensamiento-introvertido/), [sentimiento extravertido](/recursos/tipo-sentimiento-extravertido/), [sentimiento introvertido](/recursos/tipo-sentimiento-introvertido/), [sensación extravertida](/recursos/tipo-sensacion-extravertida/), [sensación introvertida](/recursos/tipo-sensacion-introvertida/), [intuición extravertida](/recursos/tipo-intuicion-extravertida/) e [intuición introvertida](/recursos/tipo-intuicion-introvertida/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué son los tipos psicológicos de Jung?

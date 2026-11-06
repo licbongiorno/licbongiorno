@@ -1,0 +1,44 @@
+<!--{
+  "ruta": "/test-de-tipos-psicologicos/",
+  "titulo": "Test de tipos psicológicos de Jung: descubrí tu tipo",
+  "descripcion": "Test de 40 preguntas inspirado en Jung: tu función principal, auxiliar e inferior, tu actitud y un código de cuatro letras de referencia, con artículos.",
+  "prioridad": 0.7,
+  "migas": [["Recursos", "/recursos/"], ["Tests", "/tests/"], ["Tipos psicológicos", "/test-de-tipos-psicologicos/"]],
+  "antetitulo": "Test de autoconocimiento",
+  "h1": "Test de <em>tipos psicológicos</em>",
+  "bajada": "Cuarenta pares de afirmaciones para descubrir cómo percibís y decidís, según la tipología de Carl Gustav Jung. Al final, tu tipo, tus funciones y un artículo para cada resultado.",
+  "respuesta": "El test de tipos psicológicos tiene 40 preguntas originales inspiradas en la tipología de Jung. Da como resultado la función principal (uno de los ocho tipos de Jung, como intuición introvertida), la función auxiliar, la función inferior, la actitud y un código de cuatro letras de referencia. No es el MBTI oficial ni un diagnóstico. Las respuestas no salen del dispositivo.",
+  "scripts": ["test-tipos.js"],
+  "wa_tema": "el test de tipos psicológicos",
+  "articulos": ["tipos-psicologicos-jung", "el-yo-y-el-si-mismo", "que-es-la-personalidad"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+        <p>No, no es un test para encasillarte. Jung describió los tipos psicológicos para entender por qué personas igual de valiosas miran el mismo hecho y ven cosas distintas. Cada pregunta te muestra dos afirmaciones: marcá hacia cuál te inclinás, pensando en cómo sos de manera natural, no en cómo te exigen ser.</p>
+        <p>Si querés entender el modelo antes de empezar, leé <a href="/recursos/tipos-psicologicos-jung/">los tipos psicológicos de Jung</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Unos 8 minutos.</strong> 40 preguntas en 5 páginas.</li>
+        <li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo, para que puedas retomar.</li>
+        <li><strong>Sin respuestas correctas.</strong> Ningún tipo es mejor que otro.</li>
+      </ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Este test usa preguntas originales inspiradas en la tipología de Jung. <strong>No es el MBTI®</strong>, que es un instrumento registrado de The Myers-Briggs Company: el código de cuatro letras aparece solo como referencia. Es una herramienta de autoconocimiento, no un diagnóstico.</p></aside>
+
+    <div class="test" data-test-tipos>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>El test necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+{{> cta}}

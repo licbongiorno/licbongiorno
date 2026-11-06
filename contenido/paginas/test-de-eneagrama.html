@@ -1,0 +1,44 @@
+<!--{
+  "ruta": "/test-de-eneagrama/",
+  "titulo": "Test de eneagrama gratis: descubrí tu eneatipo",
+  "descripcion": "Test de eneagrama de 105 afirmaciones: tu eneatipo, ala, centro, flechas de crecimiento y estrés y subtipo instintivo, con artículos para cada resultado.",
+  "prioridad": 0.7,
+  "migas": [["Recursos", "/recursos/"], ["Tests", "/tests/"], ["Eneagrama", "/test-de-eneagrama/"]],
+  "antetitulo": "Test de autoconocimiento",
+  "h1": "Test de <em>eneagrama</em>",
+  "bajada": "Ciento cinco afirmaciones para descubrir desde dónde solés mirar la vida. Al final, tu eneatipo, tu ala, tu centro, tus direcciones de crecimiento y estrés y tu subtipo, con un artículo para cada resultado.",
+  "respuesta": "El test de eneagrama tiene 90 afirmaciones sobre los nueve eneatipos y 15 sobre los instintos. Da como resultado el eneatipo principal, el ala, el centro, las direcciones de crecimiento y estrés y el subtipo instintivo, con enlaces a un artículo sobre cada eneatipo. Es una herramienta de autoconocimiento con respaldo científico limitado, no un diagnóstico. Las respuestas no salen del dispositivo.",
+  "scripts": ["test-eneagrama.js"],
+  "wa_tema": "el test de eneagrama",
+  "articulos": ["que-es-el-eneagrama", "la-sombra-segun-jung", "tipos-psicologicos-jung"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+        <p>No, no es un test para ponerte una etiqueta. Es una invitación a mirarte desde otro ángulo: qué buscás sin darte cuenta, qué te da miedo, qué hacés una y otra vez aunque no te sirva. Respondé pensando en cómo sos en general, no en cómo te gustaría ser ni en cómo estás esta semana.</p>
+        <p>Si querés entender el modelo antes de empezar, leé <a href="/recursos/que-es-el-eneagrama/">qué es el eneagrama</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Unos 15 minutos.</strong> 105 afirmaciones en 11 páginas.</li>
+        <li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo, para que puedas retomar.</li>
+        <li><strong>Con honestidad.</strong> No hay respuestas buenas ni malas.</li>
+      </ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Este test es una herramienta de autoconocimiento con preguntas originales, inspirada en el modelo del eneagrama. El eneagrama tiene respaldo científico limitado: tomá el resultado como una pregunta, no como una verdad sobre vos. No es un diagnóstico ni reemplaza una evaluación psicológica.</p></aside>
+
+    <div class="test" data-test-eneagrama>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>El test necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+{{> cta}}

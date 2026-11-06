@@ -3521,6 +3521,8 @@ Psicología para pensar la vida cotidiana
 Artículos para leer, materiales para descargar y un laboratorio para practicar. Textos claros y rigurosos sobre emociones, vínculos, autoconocimiento y psicología contemporánea.
 ¿No sabés por dónde empezar? Elegí qué te está pasando y te sugiero un recorrido de artículos y laboratorios. También podés buscar en todo el sitio .
 Armar mi recorrido
+Tests de autoconocimiento Descubrí tu eneatipo en el test de eneagrama y tu tipo según Jung en el test de tipos psicológicos, con un artículo para cada resultado.
+Ver los tests
 Artículos
 Buscar artículos
 Jung y psicología analítica
@@ -3530,6 +3532,7 @@ Salud mental
 Psicología contemporánea
 Psicología básica
 Meditación y respiración
+Eneagrama
 Desarrollo personal
 Salud mental
 ¿Cómo saber si necesito hacer terapia? Señales para escucharte
@@ -3705,6 +3708,60 @@ No vivimos aislados. Qué propone la terapia sistémica para entender lo que nos
 Psicología contemporánea
 El genograma: el árbol familiar que muestra los vínculos
 Un árbol genealógico que, además de nombres, muestra vínculos, pérdidas y patrones que se repiten. Qué es el genograma y cómo armar uno.
+Eneagrama
+El eneagrama: nueve formas de habitar el mundo
+Nueve maneras de ver la vida, cada una con su motivación, su miedo y su punto ciego. Qué es el eneagrama, cómo usarlo y cuáles son sus límites.
+Eneagrama
+Eneatipo 1, el perfeccionista: la voz que exige que todo esté bien
+Ve enseguida lo que está mal y siente que tiene que corregirlo. Cómo es el eneatipo 1, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 2, el ayudador: dar para ser querido
+Sabe lo que necesitan todos menos él mismo. Cómo es el eneatipo 2, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 3, el triunfador: valer por lo que se logra
+Siempre tiene una meta en marcha y sabe cómo mostrarse. Cómo es el eneatipo 3, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 4, el individualista: la búsqueda de lo propio y lo profundo
+Siente con intensidad y busca lo auténtico, pero a veces siente que algo le falta. Cómo es el eneatipo 4 y cómo crece.
+Eneagrama
+Eneatipo 5, el observador: entender para sentirse seguro
+Observa, piensa y entiende antes de participar. Cómo es el eneatipo 5, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 6, el leal: la búsqueda de seguridad en un mundo incierto
+Leal, responsable y siempre atento a lo que puede salir mal. Cómo es el eneatipo 6, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 7, el entusiasta: el entusiasmo que esquiva el dolor
+Siempre tiene un plan, una idea, una salida. Cómo es el eneatipo 7, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 8, el protector: la fuerza que protege y no se deja proteger
+Fuerte, directo y protector, pero le cuesta mostrar su lado blando. Cómo es el eneatipo 8, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 9, el pacificador: la paz que a veces se olvida de uno mismo
+Ve el punto de vista de todos, menos a veces el propio. Cómo es el eneatipo 9, qué lo mueve y cómo crece.
+Jung y psicología analítica
+El tipo pensamiento extravertido: ordenar el mundo con lógica
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo pensamiento extravertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo pensamiento introvertido: la lógica que mira hacia adentro
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo pensamiento introvertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo sentimiento extravertido: la calidez que une a los demás
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sentimiento extravertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo sentimiento introvertido: aguas tranquilas que son profundas
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sentimiento introvertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo sensación extravertida: vivir el presente con todos los sentidos
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sensación extravertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo sensación introvertida: la memoria que da forma al presente
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sensación introvertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo intuición extravertida: ver posibilidades en todas partes
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo intuición extravertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo intuición introvertida: la visión que viene de adentro
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo intuición introvertida, qué lo caracteriza, qué le cuesta y cómo crece.
 Para descargar
 Diario de sueños Un cuaderno para imprimir, con una guía para registrar tus sueños, sus emociones y lo que te evocan. Gratis y sin dejar datos.
 Descargar PDF
@@ -4029,6 +4086,103 @@ Para Jung, los sueños no esconden un mensaje: lo muestran en su propio lenguaje
 Salud mental
 ¿Cómo saber si necesito hacer terapia? Señales para escucharte
 No hace falta tocar fondo para consultar. Algunas señales que vale la pena escuchar y qué pasa en una primera entrevista.
+
+---
+
+# Test de eneagrama gratis: descubrí tu eneatipo
+URL: https://licbongiorno5.vercel.app/test-de-eneagrama/
+
+Test de autoconocimiento
+Test de eneagrama
+Ciento cinco afirmaciones para descubrir desde dónde solés mirar la vida. Al final, tu eneatipo, tu ala, tu centro, tus direcciones de crecimiento y estrés y tu subtipo, con un artículo para cada resultado.
+En pocas palabras
+El test de eneagrama tiene 90 afirmaciones sobre los nueve eneatipos y 15 sobre los instintos. Da como resultado el eneatipo principal, el ala, el centro, las direcciones de crecimiento y estrés y el subtipo instintivo, con enlaces a un artículo sobre cada eneatipo. Es una herramienta de autoconocimiento con respaldo científico limitado, no un diagnóstico. Las respuestas no salen del dispositivo.
+No, no es un test para ponerte una etiqueta. Es una invitación a mirarte desde otro ángulo: qué buscás sin darte cuenta, qué te da miedo, qué hacés una y otra vez aunque no te sirva. Respondé pensando en cómo sos en general, no en cómo te gustaría ser ni en cómo estás esta semana.
+Si querés entender el modelo antes de empezar, leé qué es el eneagrama .
+Unos 15 minutos. 105 afirmaciones en 11 páginas.
+Sin registro. Tus respuestas quedan solo en este dispositivo, para que puedas retomar.
+Con honestidad. No hay respuestas buenas ni malas.
+Antes de empezar. Este test es una herramienta de autoconocimiento con preguntas originales, inspirada en el modelo del eneagrama. El eneagrama tiene respaldo científico limitado: tomá el resultado como una pregunta, no como una verdad sobre vos. No es un diagnóstico ni reemplaza una evaluación psicológica.
+El test necesita JavaScript para funcionar.
+Primer paso
+¿Querés empezar a conversarlo ?
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Nicolas es muy profesional con una gran calidad humana, escucha y sabe acompañarte en el proceso!» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+Recursos
+Para seguir pensándolo
+Eneagrama
+El eneagrama: nueve formas de habitar el mundo
+Nueve maneras de ver la vida, cada una con su motivación, su miedo y su punto ciego. Qué es el eneagrama, cómo usarlo y cuáles son sus límites.
+Jung y psicología analítica
+La sombra según Jung: lo que no queremos ver de nosotros mismos
+Aquello que rechazamos de nosotros no desaparece: se proyecta en los demás. Una introducción al concepto junguiano de sombra.
+Jung y psicología analítica
+Los tipos psicológicos de Jung: introversión, extraversión y las cuatro funciones
+Introvertido o extravertido, racional o intuitivo. Lo que Jung propuso sobre los tipos psicológicos y por qué no sirve para encasillar a nadie.
+
+---
+
+# Test de tipos psicológicos de Jung: descubrí tu tipo
+URL: https://licbongiorno5.vercel.app/test-de-tipos-psicologicos/
+
+Test de autoconocimiento
+Test de tipos psicológicos
+Cuarenta pares de afirmaciones para descubrir cómo percibís y decidís, según la tipología de Carl Gustav Jung. Al final, tu tipo, tus funciones y un artículo para cada resultado.
+En pocas palabras
+El test de tipos psicológicos tiene 40 preguntas originales inspiradas en la tipología de Jung. Da como resultado la función principal (uno de los ocho tipos de Jung, como intuición introvertida), la función auxiliar, la función inferior, la actitud y un código de cuatro letras de referencia. No es el MBTI oficial ni un diagnóstico. Las respuestas no salen del dispositivo.
+No, no es un test para encasillarte. Jung describió los tipos psicológicos para entender por qué personas igual de valiosas miran el mismo hecho y ven cosas distintas. Cada pregunta te muestra dos afirmaciones: marcá hacia cuál te inclinás, pensando en cómo sos de manera natural, no en cómo te exigen ser.
+Si querés entender el modelo antes de empezar, leé los tipos psicológicos de Jung .
+Unos 8 minutos. 40 preguntas en 5 páginas.
+Sin registro. Tus respuestas quedan solo en este dispositivo, para que puedas retomar.
+Sin respuestas correctas. Ningún tipo es mejor que otro.
+Antes de empezar. Este test usa preguntas originales inspiradas en la tipología de Jung. No es el MBTI® , que es un instrumento registrado de The Myers-Briggs Company: el código de cuatro letras aparece solo como referencia. Es una herramienta de autoconocimiento, no un diagnóstico.
+El test necesita JavaScript para funcionar.
+Primer paso
+¿Querés empezar a conversarlo ?
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Nicolas es muy profesional con una gran calidad humana, escucha y sabe acompañarte en el proceso!» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+Recursos
+Para seguir pensándolo
+Jung y psicología analítica
+Los tipos psicológicos de Jung: introversión, extraversión y las cuatro funciones
+Introvertido o extravertido, racional o intuitivo. Lo que Jung propuso sobre los tipos psicológicos y por qué no sirve para encasillar a nadie.
+Jung y psicología analítica
+El yo y el sí-mismo: quién maneja y quién sabe hacia dónde
+El yo maneja el día a día. El sí-mismo es la totalidad que lo contiene. Cómo se relacionan y por qué importa.
+Psicología básica
+Qué es la personalidad: temperamento, carácter y lo que podemos cambiar
+«Soy así». ¿Lo somos? Qué es la personalidad, de qué está hecha y cuánto de ella puede cambiar con el tiempo.
+
+---
+
+# Tests de autoconocimiento: eneagrama y tipos de Jung
+URL: https://licbongiorno5.vercel.app/tests/
+
+Recursos
+Tests de autoconocimiento
+No para ponerte una etiqueta, sino para mirarte desde otro ángulo. Cada resultado te lleva a un artículo para seguir pensando.
+No, ningún test te va a decir quién sos. Pero a veces una buena pregunta, o un nombre para algo que hacés sin darte cuenta, abre una puerta. Estos tests usan preguntas originales y tienen un sentido de autoconocimiento: el resultado es el comienzo de una conversación con vos, no una conclusión.
+Un cuidado importante: no son instrumentos diagnósticos . El eneagrama y las tipologías tienen un respaldo científico limitado. Si algo de lo que descubrís te inquieta o te moviliza, es un buen tema para trabajar en terapia.
+105 afirmaciones · 15 minutos Test de eneagrama Tu eneatipo, tu ala, tu centro, tus flechas de crecimiento y estrés y tu subtipo instintivo, con un artículo para cada uno de los nueve eneatipos. Hacer el test →
+40 preguntas · 8 minutos Test de tipos psicológicos Tu tipo según Jung, tus funciones principal, auxiliar e inferior y un código de cuatro letras de referencia, con un artículo para cada uno de los ocho tipos. Hacer el test →
+Para leer antes o después
+El eneagrama: nueve formas de habitar el mundo
+Los tipos psicológicos de Jung
+Qué es la personalidad
+Los laboratorios para practicar
+Primer paso
+¿Querés empezar a conversarlo ?
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Nicolas es muy profesional con una gran calidad humana, escucha y sabe acompañarte en el proceso!» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
 
 ---
 
@@ -5217,6 +5371,7 @@ Los tipos no son un test
 Muchas pruebas de personalidad populares —la más conocida es el MBTI, desarrollado por Isabel Briggs Myers y Katharine Cook Briggs— se inspiraron en la obra de Jung, pero no son lo mismo. Jung no creó ningún cuestionario y advirtió contra el uso de los tipos para clasificar personas. Para él eran una brújula para orientarse, no un casillero.
 Para qué sirve en terapia
 En el trabajo terapéutico, la tipología ayuda a entender malentendidos con la pareja o la familia («no es que no te quiera, es que procesa distinto»), a reconocer el propio modo de funcionar sin culpa y a darle lugar, de a poco, a la parte menos desarrollada. Si te interesa este enfoque, podés leer más sobre la terapia junguiana .
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Y para profundizar en cada uno, leé los ocho tipos: pensamiento extravertido , pensamiento introvertido , sentimiento extravertido , sentimiento introvertido , sensación extravertida , sensación introvertida , intuición extravertida e intuición introvertida .
 Para seguir leyendo
 Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
 von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology («La función inferior» y «La función sentimiento»).
@@ -5896,7 +6051,7 @@ URL: https://licbongiorno5.vercel.app/recursos/que-es-la-personalidad/
 Psicología básica
 Qué es la personalidad: temperamento, carácter y lo que podemos cambiar
 «Soy así». ¿Lo somos? Qué es la personalidad, de qué está hecha y cuánto de ella puede cambiar con el tiempo.
-Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 4 minutos Última revisión: noviembre de 2026
 En pocas palabras
 La personalidad es el modo relativamente estable en que una persona piensa, siente, se vincula y actúa. Combina el temperamento, que es en buena parte heredado, y el carácter, que se forma con la historia y los vínculos. Es bastante estable, pero no fija: la investigación muestra que cambia a lo largo de la vida y también con la psicoterapia.
 En este artículo
@@ -5926,6 +6081,7 @@ Lo que no cambia es que seguís siendo vos. El cambio no es convertirse en otro,
 No elegimos con qué temperamento nacemos. Sí podemos elegir, de a poco, qué hacemos con él.
 Cuándo la personalidad trae sufrimiento
 A veces ciertos rasgos se vuelven tan rígidos que traen problemas una y otra vez: en los vínculos, en el trabajo, en la relación con uno mismo. No se trata de ponerse una etiqueta, sino de entender qué patrones se repiten y por qué. Si te pasa, podés leer sobre patrones que se repiten en los vínculos o escribirme.
+Si querés explorar tu forma de ser desde otros modelos, podés hacer el test de eneagrama o el test de tipos psicológicos , tomándolos como herramientas de autoconocimiento y no como diagnósticos.
 Para seguir leyendo
 Allport, G. W. (1961). La personalidad: su configuración y desarrollo .
 McCrae, R. R. y Costa, P. T. (2003). Personality in Adulthood: A Five-Factor Theory Perspective .
@@ -7515,6 +7671,1197 @@ WhatsApp
 
 ---
 
+# Qué es el eneagrama de la personalidad: los 9 eneatipos
+URL: https://licbongiorno5.vercel.app/recursos/que-es-el-eneagrama/
+
+Eneagrama
+El eneagrama: nueve formas de habitar el mundo
+Nueve maneras de ver la vida, cada una con su motivación, su miedo y su punto ciego. Qué es el eneagrama, cómo usarlo y cuáles son sus límites.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 4 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneagrama de la personalidad es un modelo que describe nueve tipos de carácter o eneatipos, cada uno organizado alrededor de una motivación central, un miedo básico y una pasión dominante. Fue desarrollado en el siglo XX por Óscar Ichazo y el psiquiatra chileno Claudio Naranjo, entre otros. Es una herramienta popular de autoconocimiento, aunque su respaldo científico todavía es limitado.
+En este artículo
+Qué es
+Los nueve eneatipos
+Alas, centros, flechas y subtipos
+De dónde viene
+Qué dice la psicología
+Cómo usarlo bien
+No, no es un horóscopo ni una caja para meterte. Es más parecido a un espejo con nueve caras: en una te reconocés de golpe, con una mezcla de alivio y vergüenza, como cuando alguien describe con precisión eso que hacés sin darte cuenta. El eneagrama no dice quién sos. Dice desde dónde solés mirar, qué buscás sin saberlo y en qué tropezás una y otra vez.
+Qué es
+El eneagrama de la personalidad describe nueve tipos de carácter, llamados eneatipos , representados en un círculo con nueve puntas. Cada eneatipo se organiza alrededor de:
+un deseo básico : lo que más buscamos;
+un miedo básico : lo que más tratamos de evitar;
+una pasión : una tendencia emocional que, sin darnos cuenta, tiñe todo.
+La idea de fondo es que cada uno desarrolló, temprano en la vida, una estrategia para sentirse a salvo y querido. Esa estrategia nos sirvió, pero con el tiempo se vuelve automática y limita.
+Los nueve eneatipos
+El perfeccionista : busca ser correcto y hacer las cosas bien.
+El ayudador : busca ser amado a través de dar.
+El triunfador : busca valer a través de los logros.
+El individualista : busca una identidad auténtica y profunda.
+El observador : busca entender y ser competente.
+El leal : busca seguridad y apoyo.
+El entusiasta : busca satisfacción y evitar el dolor.
+El protector : busca fuerza y control sobre su vida.
+El pacificador : busca paz y armonía.
+Alas, centros, flechas y subtipos
+Alas: cada eneatipo suele estar influido por uno de sus vecinos. Un 4 puede tener «ala 3» o «ala 5».
+Centros: los tipos se agrupan en tres. El instintivo (8, 9 y 1), relacionado con el enojo; el emocional (2, 3 y 4), con la imagen y la vergüenza; y el mental (5, 6 y 7), con el miedo.
+Flechas: en momentos de crecimiento o de estrés, cada eneatipo toma rasgos de otros dos.
+Subtipos instintivos: según qué instinto predomina (conservación, social o uno a uno), cada eneatipo se expresa de forma distinta. Naranjo describió así 27 subtipos.
+De dónde viene
+El símbolo del eneagrama fue difundido en Occidente a principios del siglo XX por el místico G. I. Gurdjieff . En los años sesenta y setenta, el boliviano Óscar Ichazo lo vinculó con tipos de carácter, y el psiquiatra chileno Claudio Naranjo lo desarrolló desde la psicología y lo llevó a Estados Unidos. Después lo difundieron autores como Helen Palmer, Don Riso y Russ Hudson.
+El eneagrama no te dice quién sos. Te muestra la jaula en la que te acostumbraste a vivir, y por dónde está la puerta.
+Qué dice la psicología
+Hay que decirlo con honestidad: el eneagrama tiene respaldo científico limitado . Una revisión sistemática de Joshua Hook y colaboradores (2021) encontró apoyo mixto para su confiabilidad y validez, y señaló que hace falta más investigación. No es un instrumento diagnóstico ni reemplaza una evaluación psicológica.
+Aun así, muchas personas lo encuentran útil como mapa de autoconocimiento : un lenguaje para pensar sus patrones, sus miedos y su forma de vincularse. Desde la mirada de Jung, cada eneatipo podría pensarse como una forma particular de persona y de sombra .
+Cómo usarlo bien
+Como una pregunta, no como una etiqueta.
+Leyendo más de un eneatipo: a veces el que más nos molesta es el nuestro.
+Prestando atención a la motivación, no solo a la conducta.
+Sin usarlo para encasillar a otros.
+Si querés explorarlo, podés hacer el test de eneagrama y leer el artículo de tu resultado. Y si algo de lo que descubrís te moviliza, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Hook, J. N. y otros (2021). «The Enneagram: a systematic review of the literature and directions for future research». Journal of Clinical Psychology , 77(4).
+Preguntas frecuentes
+¿Qué es el eneagrama?
+Es un modelo que describe nueve tipos de carácter o eneatipos, cada uno organizado alrededor de un deseo básico, un miedo básico y una pasión dominante.
+¿El eneagrama tiene base científica?
+Su respaldo científico es limitado: una revisión de 2021 encontró apoyo mixto para su confiabilidad y validez. Puede ser útil para el autoconocimiento, pero no es un instrumento diagnóstico.
+¿Qué son las alas del eneagrama?
+Son la influencia de uno de los dos eneatipos vecinos sobre el propio. Por ejemplo, un 9 puede tener ala 8 o ala 1, lo que matiza su forma de ser.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 1, el perfeccionista: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-1-perfeccionista/
+
+Eneagrama
+Eneatipo 1, el perfeccionista: la voz que exige que todo esté bien
+Ve enseguida lo que está mal y siente que tiene que corregirlo. Cómo es el eneatipo 1, qué lo mueve y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 1 del eneagrama, el perfeccionista, se organiza alrededor del deseo de ser bueno, íntegro, correcto y del miedo a ser malo, corrupto o defectuoso. Su pasión dominante es la ira. Pertenece al centro instintivo. En crecimiento toma rasgos del eneatipo 7 y en estrés, del 4.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «obsesivo». Es ese cuadro torcido que no te deja concentrarte, la frase con un error que releés diez veces, la sensación de que si no lo hacés vos, nadie lo va a hacer bien. Es una voz adentro que corrige todo, empezando por vos. Y que casi nunca descansa.
+Cómo es
+El eneatipo 1 tiene un sentido muy agudo de lo correcto y lo incorrecto. Es responsable, ético, ordenado y confiable: cuando dice que va a hacer algo, lo hace, y bien. Detrás hay una aspiración genuina a mejorar el mundo y a ser una buena persona.
+Lo que lo mueve
+Deseo básico: ser bueno, íntegro, correcto.
+Miedo básico: ser malo, corrupto o defectuoso.
+Pasión: la ira , casi siempre contenida y convertida en irritación, crítica o resentimiento.
+Centro: instintivo. Ver qué es el eneagrama .
+Sus fortalezas
+integridad y coherencia;
+sentido de justicia;
+capacidad de trabajo y de mejora;
+confiabilidad.
+Su sombra
+El enojo que no se permite expresar se vuelve rigidez, juicio y una autoexigencia que no deja disfrutar. Al 1 le cuesta aceptar lo imperfecto, en el mundo y en sí mismo. Desde Jung, su sombra suele guardar el deseo, la espontaneidad y el placer que fueron vistos como «incorrectos».
+La serenidad no llega cuando todo está perfecto. Llega cuando dejamos de pelearnos con lo que no lo está.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 9, el pacificador o del eneatipo 2, el ayudador .
+En crecimiento toma rasgos sanos del eneatipo 7, el entusiasta .
+En estrés puede mostrar rasgos menos sanos del eneatipo 4, el individualista .
+Según el eneagrama, su camino de crecimiento lleva hacia la serenidad .
+En los vínculos
+Es leal y comprometido, pero puede volverse crítico y controlador. Su gran aprendizaje en los vínculos es aceptar que los otros no tienen que hacer las cosas «como corresponde» para estar bien.
+En terapia
+En terapia, el trabajo suele girar alrededor de la crítica interna, de dónde viene esa exigencia y cómo reconocer el enojo sin que estalle ni se trague. También, poder relajarse sin culpa.
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 1 del eneagrama?
+Es el perfeccionista: tiene un sentido muy agudo de lo correcto y lo incorrecto. Busca ser bueno, íntegro, correcto y teme ser malo, corrupto o defectuoso.
+¿Cuál es la pasión del eneatipo 1?
+Según el eneagrama, es la ira, casi siempre contenida y convertida en irritación, crítica o resentimiento.
+¿Hacia dónde crece el eneatipo 1?
+En crecimiento toma rasgos sanos del eneatipo 7, y en estrés, rasgos menos sanos del eneatipo 4. Su camino lleva hacia la serenidad.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 2, el ayudador: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-2-ayudador/
+
+Eneagrama
+Eneatipo 2, el ayudador: dar para ser querido
+Sabe lo que necesitan todos menos él mismo. Cómo es el eneatipo 2, qué lo mueve y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 2 del eneagrama, el ayudador, se organiza alrededor del deseo de ser amado y necesitado y del miedo a no ser querido, no ser importante para nadie. Su pasión dominante es el orgullo. Pertenece al centro emocional. En crecimiento toma rasgos del eneatipo 4 y en estrés, del 8.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «demasiado bueno». Es darte cuenta de que alguien necesita algo antes de que lo diga, y hacerlo. Es decir «no hace falta» cuando te ofrecen ayuda. Es ese dolor sordo cuando, después de dar tanto, nadie pregunta cómo estás vos.
+Cómo es
+El eneatipo 2 es cálido, generoso, atento y empático. Tiene una enorme capacidad para conectar con las personas y hacerlas sentir valiosas. Muchas veces es el que sostiene a la familia, el grupo o el equipo.
+Lo que lo mueve
+Deseo básico: ser amado y necesitado.
+Miedo básico: no ser querido, no ser importante para nadie.
+Pasión: el orgullo : la creencia, poco consciente, de que no necesita nada y de que los otros lo necesitan a él.
+Centro: emocional. Ver qué es el eneagrama .
+Sus fortalezas
+generosidad;
+calidez y empatía;
+capacidad para cuidar;
+sensibilidad hacia los demás.
+Su sombra
+Detrás de tanto dar puede haber una necesidad de ser querido que no se reconoce. Cuando no llega el agradecimiento, aparecen el reproche, la manipulación sutil o la sensación de víctima. Le cuesta mucho registrar y pedir lo que necesita.
+Dar es hermoso. Pero también es amor dejar que otros te den a vos.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 1, el perfeccionista o del eneatipo 3, el triunfador .
+En crecimiento toma rasgos sanos del eneatipo 4, el individualista .
+En estrés puede mostrar rasgos menos sanos del eneatipo 8, el protector .
+Según el eneagrama, su camino de crecimiento lleva hacia la humildad : reconocer las propias necesidades.
+En los vínculos
+Se vuelca en los vínculos y puede generar dependencia, en ambas direcciones. Su aprendizaje es amar sin que el amor sea un intercambio, y dejarse cuidar. Ver dependencia emocional .
+En terapia
+En terapia, el trabajo suele ser volver la mirada hacia uno mismo: qué siento, qué necesito, qué me pasa cuando no doy. Y poder poner límites sin sentir que se pierde el amor.
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 2 del eneagrama?
+Es el ayudador: es cálido, generoso, atento y empático. Busca ser amado y necesitado y teme no ser querido, no ser importante para nadie.
+¿Cuál es la pasión del eneatipo 2?
+Según el eneagrama, es el orgullo: la creencia, poco consciente, de que no necesita nada y de que los otros lo necesitan a él.
+¿Hacia dónde crece el eneatipo 2?
+En crecimiento toma rasgos sanos del eneatipo 4, y en estrés, rasgos menos sanos del eneatipo 8. Su camino lleva hacia la humildad: reconocer las propias necesidades.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 3, el triunfador: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-3-triunfador/
+
+Eneagrama
+Eneatipo 3, el triunfador: valer por lo que se logra
+Siempre tiene una meta en marcha y sabe cómo mostrarse. Cómo es el eneatipo 3, qué lo mueve y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 3 del eneagrama, el triunfador, se organiza alrededor del deseo de sentirse valioso y admirado y del miedo a no valer nada, fracasar. Su pasión dominante es la vanidad. Pertenece al centro emocional. En crecimiento toma rasgos del eneatipo 6 y en estrés, del 9.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «superficial». Es esa agenda llena, el objetivo siguiente apenas cumplido el anterior, la habilidad para leer qué se espera de vos en cada lugar y darlo. Y, a veces, en un domingo sin planes, una pregunta incómoda: ¿quién soy cuando no estoy logrando nada?
+Cómo es
+El eneatipo 3 es enérgico, eficiente, adaptable y orientado a metas. Sabe motivar, organizar y hacer que las cosas pasen. Suele destacarse en lo que se propone y es un gran ejemplo para otros.
+Lo que lo mueve
+Deseo básico: sentirse valioso y admirado.
+Miedo básico: no valer nada, fracasar.
+Pasión: la vanidad : vivir para la imagen y los logros, desconectado de lo que se siente.
+Centro: emocional. Ver qué es el eneagrama .
+Sus fortalezas
+determinación;
+eficiencia;
+capacidad de adaptación;
+energía para motivar a otros.
+Su sombra
+Puede confundir quién es con lo que hace. Deja de lado emociones que «no sirven» para rendir, y le cuesta mostrarse vulnerable. Cuando la imagen se vuelve más importante que la verdad, aparece el vacío. Ver la persona .
+Lo que hacés puede ser admirable. Pero vos valés incluso cuando no hacés nada.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 2, el ayudador o del eneatipo 4, el individualista .
+En crecimiento toma rasgos sanos del eneatipo 6, el leal .
+En estrés puede mostrar rasgos menos sanos del eneatipo 9, el pacificador .
+Según el eneagrama, su camino de crecimiento lleva hacia la autenticidad .
+En los vínculos
+Puede ser una pareja admirable y presente, pero corre el riesgo de vivir los vínculos como otro logro, o de no tener tiempo para ellos. Su aprendizaje es dejarse ver sin brillar.
+En terapia
+En terapia, el trabajo suele ser bajar el ritmo, contactar con lo que siente y descubrir un valor propio que no dependa del rendimiento. Muchas veces llega a consulta en una crisis de la mitad de la vida .
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 3 del eneagrama?
+Es el triunfador: es enérgico, eficiente, adaptable y orientado a metas. Busca sentirse valioso y admirado y teme no valer nada, fracasar.
+¿Cuál es la pasión del eneatipo 3?
+Según el eneagrama, es la vanidad: vivir para la imagen y los logros, desconectado de lo que se siente.
+¿Hacia dónde crece el eneatipo 3?
+En crecimiento toma rasgos sanos del eneatipo 6, y en estrés, rasgos menos sanos del eneatipo 9. Su camino lleva hacia la autenticidad.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 4, el individualista: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-4-individualista/
+
+Eneagrama
+Eneatipo 4, el individualista: la búsqueda de lo propio y lo profundo
+Siente con intensidad y busca lo auténtico, pero a veces siente que algo le falta. Cómo es el eneatipo 4 y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 4 del eneagrama, el individualista, se organiza alrededor del deseo de encontrar su identidad y su significado propio y del miedo a no tener identidad, ser insignificante. Su pasión dominante es la envidia. Pertenece al centro emocional. En crecimiento toma rasgos del eneatipo 1 y en estrés, del 2.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «dramático». Es esa canción que te desarma, la sensación de no encajar del todo en ningún lado, la nostalgia de algo que ni siquiera viviste. Es mirar la vida de otros y sentir que ellos tienen algo que a vos te falta. Y, al mismo tiempo, no querer ser como nadie.
+Cómo es
+El eneatipo 4 es sensible, creativo, introspectivo y auténtico. Tiene una relación profunda con sus emociones y una gran capacidad para acompañar el dolor de otros sin huir. Valora la belleza, el significado y lo original.
+Lo que lo mueve
+Deseo básico: encontrar su identidad y su significado propio.
+Miedo básico: no tener identidad, ser insignificante.
+Pasión: la envidia : la sensación de que a uno le falta algo esencial que otros tienen.
+Centro: emocional. Ver qué es el eneagrama .
+Sus fortalezas
+sensibilidad y profundidad;
+creatividad;
+autenticidad;
+capacidad de acompañar el dolor.
+Su sombra
+Puede quedar atrapado en la melancolía, en compararse y en sentirse incomprendido. A veces se identifica tanto con su herida que le cuesta soltarla. Lo común le parece poco, y eso lo aleja de lo simple de la vida.
+Lo que te falta no te define. Lo que tenés, tampoco. Sos más grande que las dos cosas.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 3, el triunfador o del eneatipo 5, el observador .
+En crecimiento toma rasgos sanos del eneatipo 1, el perfeccionista .
+En estrés puede mostrar rasgos menos sanos del eneatipo 2, el ayudador .
+Según el eneagrama, su camino de crecimiento lleva hacia la ecuanimidad .
+En los vínculos
+Busca vínculos intensos y verdaderos, y puede oscilar entre idealizar y desilusionarse. Su aprendizaje es valorar lo que está presente en lugar de anhelar lo que falta.
+En terapia
+En terapia, el trabajo suele girar alrededor de la identidad, la tristeza y la envidia, y de cómo encontrar un valor propio que no dependa de ser especial. Su sensibilidad es un recurso enorme en un proceso terapéutico.
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 4 del eneagrama?
+Es el individualista: es sensible, creativo, introspectivo y auténtico. Busca encontrar su identidad y su significado propio y teme no tener identidad, ser insignificante.
+¿Cuál es la pasión del eneatipo 4?
+Según el eneagrama, es la envidia: la sensación de que a uno le falta algo esencial que otros tienen.
+¿Hacia dónde crece el eneatipo 4?
+En crecimiento toma rasgos sanos del eneatipo 1, y en estrés, rasgos menos sanos del eneatipo 2. Su camino lleva hacia la ecuanimidad.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 5, el observador: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-5-observador/
+
+Eneagrama
+Eneatipo 5, el observador: entender para sentirse seguro
+Observa, piensa y entiende antes de participar. Cómo es el eneatipo 5, qué lo mueve y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 5 del eneagrama, el observador, se organiza alrededor del deseo de ser capaz y competente, entender el mundo y del miedo a ser inútil, incapaz o invadido. Su pasión dominante es la avaricia. Pertenece al centro mental. En crecimiento toma rasgos del eneatipo 8 y en estrés, del 7.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «frío». Es esa necesidad de irte a tu cuarto después de una reunión, aunque la hayas pasado bien. Es saber todo sobre un tema que a nadie le interesa. Es sentir que el mundo pide demasiado, y que si das todo lo que tenés, te vas a quedar sin nada.
+Cómo es
+El eneatipo 5 es curioso, analítico, independiente y observador. Tiene una mente aguda y la capacidad de profundizar como pocos. Es sereno en las crisis y capaz de ver lo que otros no ven.
+Lo que lo mueve
+Deseo básico: ser capaz y competente, entender el mundo.
+Miedo básico: ser inútil, incapaz o invadido.
+Pasión: la avaricia : no de dinero, sino de tiempo, energía, espacio e información.
+Centro: mental. Ver qué es el eneagrama .
+Sus fortalezas
+curiosidad y profundidad;
+pensamiento independiente;
+calma en las crisis;
+capacidad de observación.
+Su sombra
+Puede aislarse y vivir más en la cabeza que en el cuerpo y en los vínculos. Le cuesta expresar lo que siente en el momento y puede guardarse demasiado. Entender se vuelve una forma de no vivir.
+No hace falta saberlo todo para empezar a vivirlo.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 4, el individualista o del eneatipo 6, el leal .
+En crecimiento toma rasgos sanos del eneatipo 8, el protector .
+En estrés puede mostrar rasgos menos sanos del eneatipo 7, el entusiasta .
+Según el eneagrama, su camino de crecimiento lleva hacia el desapego : dar y soltar sin miedo a quedarse vacío.
+En los vínculos
+Es leal y respetuoso del espacio ajeno, pero puede parecer distante. Su aprendizaje es dar y recibir sin sentir que lo vacían, y animarse a participar antes de entender del todo.
+En terapia
+En terapia, el trabajo suele ser pasar de entender a sentir, y de observar a participar. El vínculo terapéutico puede ser un lugar seguro para animarse a mostrarse.
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 5 del eneagrama?
+Es el observador: es curioso, analítico, independiente y observador. Busca ser capaz y competente, entender el mundo y teme ser inútil, incapaz o invadido.
+¿Cuál es la pasión del eneatipo 5?
+Según el eneagrama, es la avaricia: no de dinero, sino de tiempo, energía, espacio e información.
+¿Hacia dónde crece el eneatipo 5?
+En crecimiento toma rasgos sanos del eneatipo 8, y en estrés, rasgos menos sanos del eneatipo 7. Su camino lleva hacia el desapego: dar y soltar sin miedo a quedarse vacío.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 6, el leal: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-6-leal/
+
+Eneagrama
+Eneatipo 6, el leal: la búsqueda de seguridad en un mundo incierto
+Leal, responsable y siempre atento a lo que puede salir mal. Cómo es el eneatipo 6, qué lo mueve y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 6 del eneagrama, el leal, se organiza alrededor del deseo de tener seguridad y apoyo y del miedo a quedarse sin apoyo ni guía. Su pasión dominante es el miedo. Pertenece al centro mental. En crecimiento toma rasgos del eneatipo 9 y en estrés, del 3.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «miedoso». Es ese plan B, C y D por si acaso, la pregunta a tres personas antes de decidir, el mensaje releído buscando el doble sentido. Es una lealtad enorme con los tuyos, y una duda que no te deja en paz ni con tus propias decisiones.
+Cómo es
+El eneatipo 6 es comprometido, responsable, leal y trabajador. Sabe anticipar problemas y cuidar a su grupo. Es el amigo que está siempre, el compañero confiable, el que se prepara para todo.
+Lo que lo mueve
+Deseo básico: tener seguridad y apoyo.
+Miedo básico: quedarse sin apoyo ni guía.
+Pasión: el miedo , que a veces se vive como ansiedad y duda, y otras se enfrenta de golpe, desafiándolo.
+Centro: mental. Ver qué es el eneagrama .
+Sus fortalezas
+lealtad;
+responsabilidad;
+capacidad de anticipar riesgos;
+compromiso con el grupo.
+Su sombra
+Puede vivir en la duda, la sospecha y la ansiedad . Oscila entre buscar autoridad y desconfiar de ella. Algunos 6 enfrentan el miedo yendo de frente contra él: el eneagrama los llama «contrafóbicos».
+El coraje no es no tener miedo. Es dar el paso con el miedo al lado.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 5, el observador o del eneatipo 7, el entusiasta .
+En crecimiento toma rasgos sanos del eneatipo 9, el pacificador .
+En estrés puede mostrar rasgos menos sanos del eneatipo 3, el triunfador .
+Según el eneagrama, su camino de crecimiento lleva hacia el coraje .
+En los vínculos
+Es un compañero fiel, pero la desconfianza puede tensar los vínculos. Su aprendizaje es confiar en sí mismo tanto como confía en los suyos.
+En terapia
+En terapia, el trabajo suele girar alrededor de la ansiedad, la duda y la confianza en el propio criterio. Un vínculo terapéutico estable puede ser un lugar donde ensayar seguridad.
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 6 del eneagrama?
+Es el leal: es comprometido, responsable, leal y trabajador. Busca tener seguridad y apoyo y teme quedarse sin apoyo ni guía.
+¿Cuál es la pasión del eneatipo 6?
+Según el eneagrama, es el miedo, que a veces se vive como ansiedad y duda, y otras se enfrenta de golpe, desafiándolo.
+¿Hacia dónde crece el eneatipo 6?
+En crecimiento toma rasgos sanos del eneatipo 9, y en estrés, rasgos menos sanos del eneatipo 3. Su camino lleva hacia el coraje.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 7, el entusiasta: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-7-entusiasta/
+
+Eneagrama
+Eneatipo 7, el entusiasta: el entusiasmo que esquiva el dolor
+Siempre tiene un plan, una idea, una salida. Cómo es el eneatipo 7, qué lo mueve y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 7 del eneagrama, el entusiasta, se organiza alrededor del deseo de estar satisfecho y libre y del miedo a sufrir, quedar atrapado en el dolor o la privación. Su pasión dominante es la gula. Pertenece al centro mental. En crecimiento toma rasgos del eneatipo 5 y en estrés, del 1.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «inmaduro». Es esa cabeza que ya está en el próximo viaje antes de terminar este, los diez proyectos abiertos, el chiste justo cuando la conversación se pone seria. Es una alegría verdadera y contagiosa. Y, a veces, una forma muy elegante de no quedarse con lo que duele.
+Cómo es
+El eneatipo 7 es entusiasta, optimista, creativo, versátil y divertido. Tiene una mente rápida, llena de ideas y posibilidades. Contagia energía y sabe disfrutar de la vida como pocos.
+Lo que lo mueve
+Deseo básico: estar satisfecho y libre.
+Miedo básico: sufrir, quedar atrapado en el dolor o la privación.
+Pasión: la gula : no de comida, sino de experiencias, planes y estímulos.
+Centro: mental. Ver qué es el eneagrama .
+Sus fortalezas
+entusiasmo y alegría;
+creatividad;
+versatilidad;
+capacidad de ver posibilidades.
+Su sombra
+Puede dispersarse, no terminar lo que empieza y huir de las emociones difíciles. La búsqueda de lo siguiente a veces impide disfrutar de lo que hay. El dolor que se esquiva no desaparece: espera.
+La felicidad no está en la próxima experiencia. Está en poder quedarse en esta.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 6, el leal o del eneatipo 8, el protector .
+En crecimiento toma rasgos sanos del eneatipo 5, el observador .
+En estrés puede mostrar rasgos menos sanos del eneatipo 1, el perfeccionista .
+Según el eneagrama, su camino de crecimiento lleva hacia la sobriedad : la plenitud de lo simple.
+En los vínculos
+Es una compañía estimulante, pero le cuesta comprometerse y quedarse cuando el vínculo se pone difícil. Su aprendizaje es la profundidad.
+En terapia
+En terapia, el trabajo suele ser quedarse con lo que duele sin escaparse, y descubrir que la alegría más profunda viene de habitar el presente, no de multiplicar opciones. Ver los mecanismos de defensa .
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 7 del eneagrama?
+Es el entusiasta: es entusiasta, optimista, creativo, versátil y divertido. Busca estar satisfecho y libre y teme sufrir, quedar atrapado en el dolor o la privación.
+¿Cuál es la pasión del eneatipo 7?
+Según el eneagrama, es la gula: no de comida, sino de experiencias, planes y estímulos.
+¿Hacia dónde crece el eneatipo 7?
+En crecimiento toma rasgos sanos del eneatipo 5, y en estrés, rasgos menos sanos del eneatipo 1. Su camino lleva hacia la sobriedad: la plenitud de lo simple.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 8, el protector: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-8-protector/
+
+Eneagrama
+Eneatipo 8, el protector: la fuerza que protege y no se deja proteger
+Fuerte, directo y protector, pero le cuesta mostrar su lado blando. Cómo es el eneatipo 8, qué lo mueve y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 8 del eneagrama, el protector, se organiza alrededor del deseo de protegerse y tener control sobre su vida y del miedo a ser dañado, controlado o traicionado. Su pasión dominante es la lujuria. Pertenece al centro instintivo. En crecimiento toma rasgos del eneatipo 2 y en estrés, del 5.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «agresivo». Es esa franqueza que a algunos incomoda, las ganas de ponerte al frente cuando hay una injusticia, la incapacidad de quedarte callado frente al que abusa. Es una fuerza enorme. Y, muy adentro, un niño que aprendió temprano que no podía mostrarse débil.
+Cómo es
+El eneatipo 8 es fuerte, directo, decidido, protector y lleno de energía. Tiene un gran sentido de la justicia y defiende a los que considera más débiles. Es un líder natural que no le teme al conflicto.
+Lo que lo mueve
+Deseo básico: protegerse y tener control sobre su vida.
+Miedo básico: ser dañado, controlado o traicionado.
+Pasión: la lujuria , entendida como exceso: de intensidad, de fuerza, de vida.
+Centro: instintivo. Ver qué es el eneagrama .
+Sus fortalezas
+fuerza y decisión;
+sentido de justicia;
+capacidad de liderazgo;
+protección de los suyos.
+Su sombra
+Puede volverse dominante, intimidante o impulsivo. Le cuesta mucho reconocer su vulnerabilidad y su necesidad de los otros. Detrás de la coraza suele haber una ternura bien guardada. Ver el enojo .
+La fuerza más grande es la que se anima a mostrarse frágil.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 7, el entusiasta o del eneatipo 9, el pacificador .
+En crecimiento toma rasgos sanos del eneatipo 2, el ayudador .
+En estrés puede mostrar rasgos menos sanos del eneatipo 5, el observador .
+Según el eneagrama, su camino de crecimiento lleva hacia la inocencia : volver a confiar sin coraza.
+En los vínculos
+Es leal y protector, pero puede querer controlar o poner a prueba. Su aprendizaje es dejar que alguien vea su lado blando sin sentir que pierde poder.
+En terapia
+En terapia, el trabajo suele girar alrededor de la vulnerabilidad, la confianza y el manejo de la intensidad. Necesita un terapeuta que no se asuste de su fuerza.
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 8 del eneagrama?
+Es el protector: es fuerte, directo, decidido, protector y lleno de energía. Busca protegerse y tener control sobre su vida y teme ser dañado, controlado o traicionado.
+¿Cuál es la pasión del eneatipo 8?
+Según el eneagrama, es la lujuria, entendida como exceso: de intensidad, de fuerza, de vida.
+¿Hacia dónde crece el eneatipo 8?
+En crecimiento toma rasgos sanos del eneatipo 2, y en estrés, rasgos menos sanos del eneatipo 5. Su camino lleva hacia la inocencia: volver a confiar sin coraza.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneatipo 9, el pacificador: rasgos, miedos y crecimiento
+URL: https://licbongiorno5.vercel.app/recursos/eneatipo-9-pacificador/
+
+Eneagrama
+Eneatipo 9, el pacificador: la paz que a veces se olvida de uno mismo
+Ve el punto de vista de todos, menos a veces el propio. Cómo es el eneatipo 9, qué lo mueve y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+El eneatipo 9 del eneagrama, el pacificador, se organiza alrededor del deseo de tener paz interior y exterior y del miedo a el conflicto, la separación, la pérdida de conexión. Su pasión dominante es la pereza. Pertenece al centro instintivo. En crecimiento toma rasgos del eneatipo 3 y en estrés, del 6.
+En este artículo
+Cómo es
+Lo que lo mueve
+Sus fortalezas
+Su sombra
+Alas, crecimiento y estrés
+En los vínculos
+En terapia
+No, no es que seas «vago». Es esa facilidad para ver que todos tienen un poco de razón, el «me da igual, elegí vos», la tarea importante que se posterga mientras ordenás un cajón. Es una calma que tranquiliza a todos. Y, a veces, la sensación de estar dormido en tu propia vida.
+Cómo es
+El eneatipo 9 es tranquilo, receptivo, paciente, conciliador y fácil de llevar. Tiene un don para mediar, unir y hacer sentir cómodos a los demás. Su presencia transmite paz.
+Lo que lo mueve
+Deseo básico: tener paz interior y exterior.
+Miedo básico: el conflicto, la separación, la pérdida de conexión.
+Pasión: la pereza , entendida como pereza hacia uno mismo: olvidarse de los propios deseos y prioridades.
+Centro: instintivo. Ver qué es el eneagrama .
+Sus fortalezas
+calma y paciencia;
+capacidad de mediar;
+aceptación;
+empatía con distintos puntos de vista.
+Su sombra
+Puede adormecer sus propios deseos y su enojo para no generar conflicto, y terminar cediendo en todo. La postergación y la distracción lo alejan de lo importante. El enojo tragado puede aparecer como terquedad pasiva.
+La paz verdadera no es callarte para que nadie se enoje. Es estar presente, también con lo tuyo.
+Alas, crecimiento y estrés
+Alas: puede tener más influencia del eneatipo 8, el protector o del eneatipo 1, el perfeccionista .
+En crecimiento toma rasgos sanos del eneatipo 3, el triunfador .
+En estrés puede mostrar rasgos menos sanos del eneatipo 6, el leal .
+Según el eneagrama, su camino de crecimiento lleva hacia la acción : hacerse presente en la propia vida.
+En los vínculos
+Es una compañía amable y estable, pero puede fundirse con el otro y perder su voz. Su aprendizaje es decir lo que quiere, aunque incomode.
+En terapia
+En terapia, el trabajo suele ser despertar los propios deseos, reconocer el enojo y animarse a ocupar un lugar. Ver la motivación .
+Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el test de eneagrama . Y si algo de esto te movió, podés escribirme.
+Para seguir leyendo
+Naranjo, C. (1994). Carácter y neurosis: una visión integradora .
+Riso, D. R. y Hudson, R. (1999). La sabiduría del eneagrama .
+Palmer, H. (1988). El eneagrama: comprenderse a sí mismo y a los demás .
+Preguntas frecuentes
+¿Cómo es el eneatipo 9 del eneagrama?
+Es el pacificador: es tranquilo, receptivo, paciente, conciliador y fácil de llevar. Busca tener paz interior y exterior y teme el conflicto, la separación, la pérdida de conexión.
+¿Cuál es la pasión del eneatipo 9?
+Según el eneagrama, es la pereza, entendida como pereza hacia uno mismo: olvidarse de los propios deseos y prioridades.
+¿Hacia dónde crece el eneatipo 9?
+En crecimiento toma rasgos sanos del eneatipo 3, y en estrés, rasgos menos sanos del eneatipo 6. Su camino lleva hacia la acción: hacerse presente en la propia vida.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Pensamiento extravertido según Jung: rasgos y función inferior
+URL: https://licbongiorno5.vercel.app/recursos/tipo-pensamiento-extravertido/
+
+Jung y psicología analítica
+El tipo pensamiento extravertido: ordenar el mundo con lógica
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo pensamiento extravertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+En la tipología de Carl Gustav Jung, el tipo pensamiento extravertido es aquel cuya función principal es pensamiento con una actitud extravertida. Su función inferior, la menos desarrollada, es sentimiento introvertido. En la notación popular de cuatro letras, se asocia con ESTJ y ENTJ, aunque esa notación no es de Jung.
+En este artículo
+Qué es
+Cómo se ve en la vida cotidiana
+Su función auxiliar
+Su función inferior
+Los códigos de cuatro letras
+En los vínculos
+En terapia
+No, no es que seas «frío» o «mandón». Es esa necesidad de que las cosas tengan un orden, de que lo que se dice se cumpla, de que una reunión termine con decisiones. Es la persona a la que todos miran cuando hay que organizar algo. Y, a veces, alguien que no sabe muy bien qué hacer con lo que siente.
+Qué es
+Para Jung, el tipo de pensamiento extravertido orienta su vida según criterios objetivos: hechos, datos, reglas y principios que valen para todos. Busca ordenar el mundo de forma lógica y eficaz, y suele exigir lo mismo a los demás. Es uno de los ocho tipos que Jung describió en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones. Más en los tipos psicológicos de Jung .
+Cómo se ve en la vida cotidiana
+organiza, planifica y decide con rapidez;
+valora la eficiencia, los resultados y la coherencia;
+le cuesta tolerar lo ilógico o lo improvisado;
+es un líder natural en contextos de trabajo.
+Su función auxiliar
+Ninguna persona funciona con una sola función. Además de la principal, suele desarrollarse una función auxiliar , que en este tipo es la intuición o la sensación introvertidas. Ella le da su matiz particular.
+Su función inferior
+Su función inferior es el sentimiento introvertido : los valores propios y las emociones profundas quedan postergados. Jung observó que, en este tipo, los sentimientos pueden aparecer de forma torpe o desbordada, y que lo personal suele sacrificarse en nombre de lo que «corresponde».
+Para Jung, la función inferior es la puerta hacia el inconsciente y hacia la sombra : por ahí nos desbordamos, y por ahí también llega lo nuevo. Integrarla es parte del proceso de individuación .
+El tipo no dice quién sos. Dice desde dónde mirás, y qué parte tuya está esperando turno.
+Los códigos de cuatro letras
+En la notación popular de cuatro letras, que proviene del modelo de Isabel Briggs Myers y no de Jung, este tipo se asocia con ESTJ y ENTJ . Es una equivalencia aproximada, útil como referencia.
+En los vínculos
+Es confiable y comprometido, pero puede imponer su lógica y descuidar lo que el otro siente. Su aprendizaje es escuchar antes de resolver.
+En terapia
+En terapia, el trabajo suele ser conectar con los propios valores y emociones, más allá de las reglas, y darle lugar a lo que no se puede organizar.
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
+Para seguir leyendo
+Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
+Sharp, D. (1987). Personality Types: Jung's Model of Typology . Inner City Books.
+von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology . Spring Publications.
+Preguntas frecuentes
+¿Qué es el tipo pensamiento extravertido según Jung?
+Es el tipo cuya función principal es pensamiento, con una actitud extravertida. Es uno de los ocho tipos psicológicos que Jung describió en 1921.
+¿Cuál es la función inferior del tipo pensamiento extravertido?
+Es sentimiento introvertido: la función menos desarrollada, por donde suele desbordarse y por donde también puede crecer.
+¿A qué tipo de cuatro letras corresponde el pensamiento extravertido?
+Se asocia con ESTJ y ENTJ en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Pensamiento introvertido según Jung: rasgos y función inferior
+URL: https://licbongiorno5.vercel.app/recursos/tipo-pensamiento-introvertido/
+
+Jung y psicología analítica
+El tipo pensamiento introvertido: la lógica que mira hacia adentro
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo pensamiento introvertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+En la tipología de Carl Gustav Jung, el tipo pensamiento introvertido es aquel cuya función principal es pensamiento con una actitud introvertida. Su función inferior, la menos desarrollada, es sentimiento extravertido. En la notación popular de cuatro letras, se asocia con ISTP y INTP, aunque esa notación no es de Jung.
+En este artículo
+Qué es
+Cómo se ve en la vida cotidiana
+Su función auxiliar
+Su función inferior
+Los códigos de cuatro letras
+En los vínculos
+En terapia
+No, no es que seas «distraído». Es esa idea que no te deja dormir hasta que encaja, la pregunta que nadie se hace y vos no podés soltar, la sensación de que una explicación es incoherente aunque todos la acepten. Es una mente que necesita entender a su manera. Y que no siempre sabe cómo mostrar eso al mundo.
+Qué es
+Para Jung, el tipo de pensamiento introvertido no busca ordenar el mundo exterior, sino comprender en profundidad, según criterios propios. Le importa la coherencia interna de las ideas más que su aplicación práctica o la aprobación ajena. Es uno de los ocho tipos que Jung describió en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones. Más en los tipos psicológicos de Jung .
+Cómo se ve en la vida cotidiana
+analiza las cosas hasta sus fundamentos;
+desconfía de las respuestas fáciles;
+prefiere trabajar con autonomía;
+puede parecer distante o poco expresivo.
+Su función auxiliar
+Ninguna persona funciona con una sola función. Además de la principal, suele desarrollarse una función auxiliar , que en este tipo es la sensación o la intuición extravertidas. Ella le da su matiz particular.
+Su función inferior
+Su función inferior es el sentimiento extravertido : el mundo de las relaciones, las normas sociales y la expresión de afecto le resulta difícil. Puede ser muy sensible a la opinión de los demás sin mostrarlo, o reaccionar de forma torpe en lo emocional.
+Para Jung, la función inferior es la puerta hacia el inconsciente y hacia la sombra : por ahí nos desbordamos, y por ahí también llega lo nuevo. Integrarla es parte del proceso de individuación .
+El tipo no dice quién sos. Dice desde dónde mirás, y qué parte tuya está esperando turno.
+Los códigos de cuatro letras
+En la notación popular de cuatro letras, que proviene del modelo de Isabel Briggs Myers y no de Jung, este tipo se asocia con ISTP y INTP . Es una equivalencia aproximada, útil como referencia.
+En los vínculos
+Es leal y honesto, pero puede olvidarse de expresar lo que siente o de registrar lo que el otro necesita. Su aprendizaje es mostrar el afecto, no solo pensarlo.
+En terapia
+En terapia, el trabajo suele ser pasar de entender a sentir y vincularse, y descubrir que no todo se resuelve con una buena teoría.
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
+Para seguir leyendo
+Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
+Sharp, D. (1987). Personality Types: Jung's Model of Typology . Inner City Books.
+von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology . Spring Publications.
+Preguntas frecuentes
+¿Qué es el tipo pensamiento introvertido según Jung?
+Es el tipo cuya función principal es pensamiento, con una actitud introvertida. Es uno de los ocho tipos psicológicos que Jung describió en 1921.
+¿Cuál es la función inferior del tipo pensamiento introvertido?
+Es sentimiento extravertido: la función menos desarrollada, por donde suele desbordarse y por donde también puede crecer.
+¿A qué tipo de cuatro letras corresponde el pensamiento introvertido?
+Se asocia con ISTP y INTP en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Sentimiento extravertido según Jung: rasgos y función inferior
+URL: https://licbongiorno5.vercel.app/recursos/tipo-sentimiento-extravertido/
+
+Jung y psicología analítica
+El tipo sentimiento extravertido: la calidez que une a los demás
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sentimiento extravertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+En la tipología de Carl Gustav Jung, el tipo sentimiento extravertido es aquel cuya función principal es sentimiento con una actitud extravertida. Su función inferior, la menos desarrollada, es pensamiento introvertido. En la notación popular de cuatro letras, se asocia con ESFJ y ENFJ, aunque esa notación no es de Jung.
+En este artículo
+Qué es
+Cómo se ve en la vida cotidiana
+Su función auxiliar
+Su función inferior
+Los códigos de cuatro letras
+En los vínculos
+En terapia
+No, no es que seas «complaciente». Es esa capacidad de darte cuenta de que alguien está incómodo en una reunión y hacerlo sentir parte. Es acordarte de los cumpleaños de todos, saber qué decir en un velorio, sostener el clima de un grupo. Y, a veces, perderte un poco en lo que los demás esperan de vos.
+Qué es
+Para Jung, el tipo de sentimiento extravertido orienta sus valoraciones según lo que es apropiado, valioso y armonioso en su entorno. Busca la armonía en los vínculos y en los grupos, y tiene un gran sentido de lo que cada situación pide. Es uno de los ocho tipos que Jung describió en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones. Más en los tipos psicológicos de Jung .
+Cómo se ve en la vida cotidiana
+crea vínculos con facilidad;
+cuida el clima de los grupos;
+expresa el afecto y el reconocimiento;
+se adapta a lo que se valora en su entorno.
+Su función auxiliar
+Ninguna persona funciona con una sola función. Además de la principal, suele desarrollarse una función auxiliar , que en este tipo es la sensación o la intuición introvertidas. Ella le da su matiz particular.
+Su función inferior
+Su función inferior es el pensamiento introvertido : la reflexión propia y crítica puede quedar relegada. Jung señaló que en este tipo los pensamientos propios pueden aparecer de forma negativa, rígida o desvalorizante, como críticas que no se dicen.
+Para Jung, la función inferior es la puerta hacia el inconsciente y hacia la sombra : por ahí nos desbordamos, y por ahí también llega lo nuevo. Integrarla es parte del proceso de individuación .
+El tipo no dice quién sos. Dice desde dónde mirás, y qué parte tuya está esperando turno.
+Los códigos de cuatro letras
+En la notación popular de cuatro letras, que proviene del modelo de Isabel Briggs Myers y no de Jung, este tipo se asocia con ESFJ y ENFJ . Es una equivalencia aproximada, útil como referencia.
+En los vínculos
+Es cálido, presente y generoso, pero puede perder su propia voz para no incomodar. Su aprendizaje es preguntarse qué piensa realmente, aunque no coincida con los demás.
+En terapia
+En terapia, el trabajo suele ser distinguir lo propio de lo que el entorno espera, y desarrollar un pensamiento independiente sin perder la calidez.
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
+Para seguir leyendo
+Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
+Sharp, D. (1987). Personality Types: Jung's Model of Typology . Inner City Books.
+von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology . Spring Publications.
+Preguntas frecuentes
+¿Qué es el tipo sentimiento extravertido según Jung?
+Es el tipo cuya función principal es sentimiento, con una actitud extravertida. Es uno de los ocho tipos psicológicos que Jung describió en 1921.
+¿Cuál es la función inferior del tipo sentimiento extravertido?
+Es pensamiento introvertido: la función menos desarrollada, por donde suele desbordarse y por donde también puede crecer.
+¿A qué tipo de cuatro letras corresponde el sentimiento extravertido?
+Se asocia con ESFJ y ENFJ en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Sentimiento introvertido según Jung: rasgos y función inferior
+URL: https://licbongiorno5.vercel.app/recursos/tipo-sentimiento-introvertido/
+
+Jung y psicología analítica
+El tipo sentimiento introvertido: aguas tranquilas que son profundas
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sentimiento introvertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+En la tipología de Carl Gustav Jung, el tipo sentimiento introvertido es aquel cuya función principal es sentimiento con una actitud introvertida. Su función inferior, la menos desarrollada, es pensamiento extravertido. En la notación popular de cuatro letras, se asocia con ISFP y INFP, aunque esa notación no es de Jung.
+En este artículo
+Qué es
+Cómo se ve en la vida cotidiana
+Su función auxiliar
+Su función inferior
+Los códigos de cuatro letras
+En los vínculos
+En terapia
+No, no es que seas «tímido» o «frío». Es ese mundo interior enorme que casi nadie ve, una brújula de valores que no negocia, una emoción profunda frente a una injusticia que no siempre se nota afuera. Jung describió a este tipo con un refrán: «las aguas tranquilas son profundas».
+Qué es
+Para Jung, el tipo de sentimiento introvertido valora desde adentro, según un sentido íntimo de lo que importa. Sus sentimientos son intensos y profundos, pero muchas veces no se expresan hacia afuera, por lo que puede parecer reservado o inaccesible. Es uno de los ocho tipos que Jung describió en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones. Más en los tipos psicológicos de Jung .
+Cómo se ve en la vida cotidiana
+tiene valores muy firmes, aunque no los proclame;
+es leal y auténtico;
+se conmueve profundamente;
+necesita coherencia entre lo que siente y lo que hace.
+Su función auxiliar
+Ninguna persona funciona con una sola función. Además de la principal, suele desarrollarse una función auxiliar , que en este tipo es la sensación o la intuición extravertidas. Ella le da su matiz particular.
+Su función inferior
+Su función inferior es el pensamiento extravertido : la organización práctica, las reglas y la lógica impersonal le resultan ajenas. Bajo presión, puede volverse rígidamente crítico o controlador.
+Para Jung, la función inferior es la puerta hacia el inconsciente y hacia la sombra : por ahí nos desbordamos, y por ahí también llega lo nuevo. Integrarla es parte del proceso de individuación .
+El tipo no dice quién sos. Dice desde dónde mirás, y qué parte tuya está esperando turno.
+Los códigos de cuatro letras
+En la notación popular de cuatro letras, que proviene del modelo de Isabel Briggs Myers y no de Jung, este tipo se asocia con ISFP y INFP . Es una equivalencia aproximada, útil como referencia.
+En los vínculos
+Ama con profundidad y fidelidad, pero no siempre lo muestra. Su aprendizaje es poner en palabras y en actos lo que siente.
+En terapia
+En terapia, su mundo interior es un gran recurso. El trabajo suele ser animarse a expresarlo y a llevarlo a la acción en el mundo concreto.
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
+Para seguir leyendo
+Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
+Sharp, D. (1987). Personality Types: Jung's Model of Typology . Inner City Books.
+von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology . Spring Publications.
+Preguntas frecuentes
+¿Qué es el tipo sentimiento introvertido según Jung?
+Es el tipo cuya función principal es sentimiento, con una actitud introvertida. Es uno de los ocho tipos psicológicos que Jung describió en 1921.
+¿Cuál es la función inferior del tipo sentimiento introvertido?
+Es pensamiento extravertido: la función menos desarrollada, por donde suele desbordarse y por donde también puede crecer.
+¿A qué tipo de cuatro letras corresponde el sentimiento introvertido?
+Se asocia con ISFP y INFP en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Sensación extravertida según Jung: rasgos y función inferior
+URL: https://licbongiorno5.vercel.app/recursos/tipo-sensacion-extravertida/
+
+Jung y psicología analítica
+El tipo sensación extravertida: vivir el presente con todos los sentidos
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sensación extravertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+En la tipología de Carl Gustav Jung, el tipo sensación extravertida es aquel cuya función principal es sensación con una actitud extravertida. Su función inferior, la menos desarrollada, es intuición introvertida. En la notación popular de cuatro letras, se asocia con ESTP y ESFP, aunque esa notación no es de Jung.
+En este artículo
+Qué es
+Cómo se ve en la vida cotidiana
+Su función auxiliar
+Su función inferior
+Los códigos de cuatro letras
+En los vínculos
+En terapia
+No, no es que seas «superficial». Es esa capacidad de disfrutar una comida, un paisaje o una canción como si fuera la primera vez. Es reaccionar rápido cuando pasa algo, tener los pies en la tierra, no perder el tiempo con especulaciones. Y, a veces, una dificultad para quedarse con lo que no se ve.
+Qué es
+Para Jung, el tipo de sensación extravertida se orienta por los hechos concretos y las sensaciones del mundo exterior. Es realista, práctico y está muy presente en el aquí y ahora. Sabe disfrutar y reaccionar a lo que pasa. Es uno de los ocho tipos que Jung describió en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones. Más en los tipos psicológicos de Jung .
+Cómo se ve en la vida cotidiana
+disfruta de lo concreto y lo sensorial;
+es práctico y resolutivo;
+reacciona rápido en la acción;
+es realista y observador de los detalles.
+Su función auxiliar
+Ninguna persona funciona con una sola función. Además de la principal, suele desarrollarse una función auxiliar , que en este tipo es el pensamiento o el sentimiento introvertidos. Ella le da su matiz particular.
+Su función inferior
+Su función inferior es la intuición introvertida : el mundo de los presentimientos, los símbolos y el sentido le resulta lejano. Jung observó que, en este tipo, la intuición reprimida puede aparecer como presentimientos oscuros o temores sin fundamento.
+Para Jung, la función inferior es la puerta hacia el inconsciente y hacia la sombra : por ahí nos desbordamos, y por ahí también llega lo nuevo. Integrarla es parte del proceso de individuación .
+El tipo no dice quién sos. Dice desde dónde mirás, y qué parte tuya está esperando turno.
+Los códigos de cuatro letras
+En la notación popular de cuatro letras, que proviene del modelo de Isabel Briggs Myers y no de Jung, este tipo se asocia con ESTP y ESFP . Es una equivalencia aproximada, útil como referencia.
+En los vínculos
+Es una compañía vital y presente, pero puede evitar las conversaciones profundas o los temas abstractos. Su aprendizaje es darle lugar al sentido, no solo a la experiencia.
+En terapia
+En terapia, el trabajo suele ser abrirse al mundo interior, a los sueños y a las preguntas de sentido, sin perder su arraigo en lo concreto.
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
+Para seguir leyendo
+Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
+Sharp, D. (1987). Personality Types: Jung's Model of Typology . Inner City Books.
+von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology . Spring Publications.
+Preguntas frecuentes
+¿Qué es el tipo sensación extravertida según Jung?
+Es el tipo cuya función principal es sensación, con una actitud extravertida. Es uno de los ocho tipos psicológicos que Jung describió en 1921.
+¿Cuál es la función inferior del tipo sensación extravertida?
+Es intuición introvertida: la función menos desarrollada, por donde suele desbordarse y por donde también puede crecer.
+¿A qué tipo de cuatro letras corresponde el sensación extravertida?
+Se asocia con ESTP y ESFP en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Sensación introvertida según Jung: rasgos y función inferior
+URL: https://licbongiorno5.vercel.app/recursos/tipo-sensacion-introvertida/
+
+Jung y psicología analítica
+El tipo sensación introvertida: la memoria que da forma al presente
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sensación introvertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+En la tipología de Carl Gustav Jung, el tipo sensación introvertida es aquel cuya función principal es sensación con una actitud introvertida. Su función inferior, la menos desarrollada, es intuición extravertida. En la notación popular de cuatro letras, se asocia con ISTJ y ISFJ, aunque esa notación no es de Jung.
+En este artículo
+Qué es
+Cómo se ve en la vida cotidiana
+Su función auxiliar
+Su función inferior
+Los códigos de cuatro letras
+En los vínculos
+En terapia
+No, no es que seas «aburrido» o «estructurado». Es esa memoria precisa de cómo se hicieron siempre las cosas, el valor de lo que funciona, la sensación de seguridad que dan las rutinas. Es alguien en quien se puede confiar. Y, a veces, alguien a quien lo nuevo le genera más inquietud de lo que muestra.
+Qué es
+Para Jung, el tipo de sensación introvertida percibe el mundo a través de una impresión subjetiva y profunda de lo sensorial. Lo que vive deja una huella interna muy precisa, que se vuelve memoria, costumbre y referencia. Es uno de los ocho tipos que Jung describió en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones. Más en los tipos psicológicos de Jung .
+Cómo se ve en la vida cotidiana
+es confiable, constante y detallista;
+valora la experiencia y la tradición;
+recuerda con precisión;
+prefiere lo conocido a lo improvisado.
+Su función auxiliar
+Ninguna persona funciona con una sola función. Además de la principal, suele desarrollarse una función auxiliar , que en este tipo es el pensamiento o el sentimiento extravertidos. Ella le da su matiz particular.
+Su función inferior
+Su función inferior es la intuición extravertida : las posibilidades nuevas y el cambio pueden vivirse con inquietud. Bajo presión, la imaginación puede llenarse de escenarios catastróficos.
+Para Jung, la función inferior es la puerta hacia el inconsciente y hacia la sombra : por ahí nos desbordamos, y por ahí también llega lo nuevo. Integrarla es parte del proceso de individuación .
+El tipo no dice quién sos. Dice desde dónde mirás, y qué parte tuya está esperando turno.
+Los códigos de cuatro letras
+En la notación popular de cuatro letras, que proviene del modelo de Isabel Briggs Myers y no de Jung, este tipo se asocia con ISTJ y ISFJ . Es una equivalencia aproximada, útil como referencia.
+En los vínculos
+Es leal, cuidadoso y estable, pero puede resistirse a los cambios que el vínculo necesita. Su aprendizaje es abrirse a lo nuevo sin perder su base.
+En terapia
+En terapia, el trabajo suele ser tolerar la incertidumbre, abrirse a nuevas posibilidades y revisar las costumbres que ya no le sirven.
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
+Para seguir leyendo
+Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
+Sharp, D. (1987). Personality Types: Jung's Model of Typology . Inner City Books.
+von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology . Spring Publications.
+Preguntas frecuentes
+¿Qué es el tipo sensación introvertida según Jung?
+Es el tipo cuya función principal es sensación, con una actitud introvertida. Es uno de los ocho tipos psicológicos que Jung describió en 1921.
+¿Cuál es la función inferior del tipo sensación introvertida?
+Es intuición extravertida: la función menos desarrollada, por donde suele desbordarse y por donde también puede crecer.
+¿A qué tipo de cuatro letras corresponde el sensación introvertida?
+Se asocia con ISTJ y ISFJ en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Intuición extravertida según Jung: rasgos y función inferior
+URL: https://licbongiorno5.vercel.app/recursos/tipo-intuicion-extravertida/
+
+Jung y psicología analítica
+El tipo intuición extravertida: ver posibilidades en todas partes
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo intuición extravertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+En la tipología de Carl Gustav Jung, el tipo intuición extravertida es aquel cuya función principal es intuición con una actitud extravertida. Su función inferior, la menos desarrollada, es sensación introvertida. En la notación popular de cuatro letras, se asocia con ENTP y ENFP, aunque esa notación no es de Jung.
+En este artículo
+Qué es
+Cómo se ve en la vida cotidiana
+Su función auxiliar
+Su función inferior
+Los códigos de cuatro letras
+En los vínculos
+En terapia
+No, no es que seas «disperso». Es esa cabeza que ve diez posibilidades donde otros ven una, el entusiasmo por cada proyecto nuevo, la capacidad de conectar ideas que nadie había juntado. Es alguien que abre caminos. Y que a veces se aburre antes de recorrerlos.
+Qué es
+Para Jung, el tipo de intuición extravertida se orienta hacia las posibilidades del mundo exterior: lo que todavía no es, pero podría ser. Tiene olfato para lo nuevo, para las oportunidades y para lo que viene. Es uno de los ocho tipos que Jung describió en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones. Más en los tipos psicológicos de Jung .
+Cómo se ve en la vida cotidiana
+genera ideas y proyectos constantemente;
+se entusiasma con lo nuevo;
+conecta personas e ideas;
+se aburre con la rutina.
+Su función auxiliar
+Ninguna persona funciona con una sola función. Además de la principal, suele desarrollarse una función auxiliar , que en este tipo es el pensamiento o el sentimiento introvertidos. Ella le da su matiz particular.
+Su función inferior
+Su función inferior es la sensación introvertida : el cuerpo, los detalles y lo cotidiano pueden quedar descuidados. Jung observó que, en este tipo, lo corporal reprimido puede aparecer en forma de síntomas físicos o de agotamiento.
+Para Jung, la función inferior es la puerta hacia el inconsciente y hacia la sombra : por ahí nos desbordamos, y por ahí también llega lo nuevo. Integrarla es parte del proceso de individuación .
+El tipo no dice quién sos. Dice desde dónde mirás, y qué parte tuya está esperando turno.
+Los códigos de cuatro letras
+En la notación popular de cuatro letras, que proviene del modelo de Isabel Briggs Myers y no de Jung, este tipo se asocia con ENTP y ENFP . Es una equivalencia aproximada, útil como referencia.
+En los vínculos
+Es inspirador y estimulante, pero puede descuidar la constancia y los detalles del día a día. Su aprendizaje es sostener lo que empieza.
+En terapia
+En terapia, el trabajo suele ser bajar al cuerpo, cuidar lo cotidiano y aprender a terminar lo que se empieza, sin perder su capacidad de soñar.
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
+Para seguir leyendo
+Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
+Sharp, D. (1987). Personality Types: Jung's Model of Typology . Inner City Books.
+von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology . Spring Publications.
+Preguntas frecuentes
+¿Qué es el tipo intuición extravertida según Jung?
+Es el tipo cuya función principal es intuición, con una actitud extravertida. Es uno de los ocho tipos psicológicos que Jung describió en 1921.
+¿Cuál es la función inferior del tipo intuición extravertida?
+Es sensación introvertida: la función menos desarrollada, por donde suele desbordarse y por donde también puede crecer.
+¿A qué tipo de cuatro letras corresponde el intuición extravertida?
+Se asocia con ENTP y ENFP en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Intuición introvertida según Jung: rasgos y función inferior
+URL: https://licbongiorno5.vercel.app/recursos/tipo-intuicion-introvertida/
+
+Jung y psicología analítica
+El tipo intuición introvertida: la visión que viene de adentro
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo intuición introvertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Escrito y revisado por Lic. Nicolás Raúl Bongiorno , psicólogo clínico (M.P. 8209) Lectura de 3 minutos Última revisión: noviembre de 2026
+En pocas palabras
+En la tipología de Carl Gustav Jung, el tipo intuición introvertida es aquel cuya función principal es intuición con una actitud introvertida. Su función inferior, la menos desarrollada, es sensación extravertida. En la notación popular de cuatro letras, se asocia con INTJ y INFJ, aunque esa notación no es de Jung.
+En este artículo
+Qué es
+Cómo se ve en la vida cotidiana
+Su función auxiliar
+Su función inferior
+Los códigos de cuatro letras
+En los vínculos
+En terapia
+No, no es que seas «raro» o «místico». Es esa certeza que aparece sin saber de dónde, la imagen de un sueño que se queda días, la sensación de ver hacia dónde van las cosas antes que los demás. Es un mundo interior lleno de imágenes y sentidos. Y, a veces, una dificultad para bajar todo eso a tierra.
+Qué es
+Para Jung, el tipo de intuición introvertida percibe las imágenes y posibilidades del mundo interior, del inconsciente. Jung lo asociaba con el visionario, el artista y el místico: alguien que capta lo que todavía no tiene forma. Es uno de los ocho tipos que Jung describió en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones. Más en los tipos psicológicos de Jung .
+Cómo se ve en la vida cotidiana
+tiene intuiciones profundas sobre las personas y los procesos;
+vive en un mundo de imágenes y significados;
+piensa a largo plazo;
+puede parecer distante o enigmático.
+Su función auxiliar
+Ninguna persona funciona con una sola función. Además de la principal, suele desarrollarse una función auxiliar , que en este tipo es el pensamiento o el sentimiento extravertidos. Ella le da su matiz particular.
+Su función inferior
+Su función inferior es la sensación extravertida : lo concreto, el cuerpo y el presente pueden quedar descuidados. Bajo presión, puede caer en excesos sensoriales o en una relación torpe con lo práctico.
+Para Jung, la función inferior es la puerta hacia el inconsciente y hacia la sombra : por ahí nos desbordamos, y por ahí también llega lo nuevo. Integrarla es parte del proceso de individuación .
+El tipo no dice quién sos. Dice desde dónde mirás, y qué parte tuya está esperando turno.
+Los códigos de cuatro letras
+En la notación popular de cuatro letras, que proviene del modelo de Isabel Briggs Myers y no de Jung, este tipo se asocia con INTJ y INFJ . Es una equivalencia aproximada, útil como referencia.
+En los vínculos
+Comprende al otro en profundidad, pero puede costarle compartir su mundo interior. Su aprendizaje es traducir sus visiones en presencia concreta.
+En terapia
+En terapia junguiana, su relación con los sueños y los símbolos es un gran recurso. El trabajo suele ser darle cuerpo y forma a lo que intuye.
+Si querés explorar tu tipo, podés hacer el test de tipos psicológicos . Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
+Para seguir leyendo
+Jung, C. G. (1921). Tipos psicológicos (Obra completa, vol. 6).
+Sharp, D. (1987). Personality Types: Jung's Model of Typology . Inner City Books.
+von Franz, M.-L. y Hillman, J. (1971). Lectures on Jung's Typology . Spring Publications.
+Preguntas frecuentes
+¿Qué es el tipo intuición introvertida según Jung?
+Es el tipo cuya función principal es intuición, con una actitud introvertida. Es uno de los ocho tipos psicológicos que Jung describió en 1921.
+¿Cuál es la función inferior del tipo intuición introvertida?
+Es sensación extravertida: la función menos desarrollada, por donde suele desbordarse y por donde también puede crecer.
+¿A qué tipo de cuatro letras corresponde el intuición introvertida?
+Se asocia con INTJ y INFJ en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).
+¿Te sirvió? Compartilo con alguien a quien pueda ayudarle
+WhatsApp
+Lic. Nicolás Raúl Bongiorno Psicólogo clínico, M.P. 8209. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. Conocé más sobre mí .
+Primer paso
+Si este texto te resonó, podemos conversarlo
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Elegir a Nicolás como psicólogo a pesar de la distancia geográfica fue una inmejorable decisión. […]» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
 # Jung y psicología analítica | Recursos de Nicolás Bongiorno
 URL: https://licbongiorno5.vercel.app/recursos/jung-y-psicologia-analitica/
 
@@ -7573,6 +8920,30 @@ Pensás en alguien y te escribe. Jung llamó sincronicidad a esas coincidencias 
 Jung y psicología analítica
 La imaginación activa y la función trascendente: conversar con lo inconsciente
 Jung propuso algo distinto a interpretar: dialogar con las imágenes interiores. Qué es la imaginación activa y para qué sirve.
+Jung y psicología analítica
+El tipo pensamiento extravertido: ordenar el mundo con lógica
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo pensamiento extravertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo pensamiento introvertido: la lógica que mira hacia adentro
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo pensamiento introvertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo sentimiento extravertido: la calidez que une a los demás
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sentimiento extravertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo sentimiento introvertido: aguas tranquilas que son profundas
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sentimiento introvertido, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo sensación extravertida: vivir el presente con todos los sentidos
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sensación extravertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo sensación introvertida: la memoria que da forma al presente
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo sensación introvertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo intuición extravertida: ver posibilidades en todas partes
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo intuición extravertida, qué lo caracteriza, qué le cuesta y cómo crece.
+Jung y psicología analítica
+El tipo intuición introvertida: la visión que viene de adentro
+Uno de los ocho tipos psicológicos de Jung. Cómo es el tipo intuición introvertida, qué lo caracteriza, qué le cuesta y cómo crece.
 Otras categorías:
 Ansiedad y emociones
 Vínculos y relaciones
@@ -7580,6 +8951,7 @@ Salud mental
 Psicología contemporánea
 Psicología básica
 Meditación y respiración
+Eneagrama
 Desarrollo personal
 Todos los artículos
 Primer paso
@@ -7618,6 +8990,7 @@ Salud mental
 Psicología contemporánea
 Psicología básica
 Meditación y respiración
+Eneagrama
 Desarrollo personal
 Todos los artículos
 Primer paso
@@ -7656,6 +9029,7 @@ Salud mental
 Psicología contemporánea
 Psicología básica
 Meditación y respiración
+Eneagrama
 Desarrollo personal
 Todos los artículos
 Primer paso
@@ -7691,6 +9065,7 @@ Vínculos y relaciones
 Psicología contemporánea
 Psicología básica
 Meditación y respiración
+Eneagrama
 Desarrollo personal
 Todos los artículos
 Primer paso
@@ -7741,6 +9116,7 @@ Vínculos y relaciones
 Salud mental
 Psicología básica
 Meditación y respiración
+Eneagrama
 Desarrollo personal
 Todos los artículos
 Primer paso
@@ -7797,6 +9173,7 @@ Vínculos y relaciones
 Salud mental
 Psicología contemporánea
 Meditación y respiración
+Eneagrama
 Desarrollo personal
 Todos los artículos
 Primer paso
@@ -7853,6 +9230,64 @@ Vínculos y relaciones
 Salud mental
 Psicología contemporánea
 Psicología básica
+Eneagrama
+Desarrollo personal
+Todos los artículos
+Primer paso
+¿Querés empezar a conversarlo ?
+Escribime y coordinamos una primera entrevista, en Alta Gracia u online. No hace falta traer nada resuelto: alcanza con las ganas de empezar a mirar.
+La primera entrevista es para conocernos, sin compromiso de continuar.
+«Nicolas es muy profesional con una gran calidad humana, escucha y sabe acompañarte en el proceso!» Paciente en Google · +100 opiniones
+Solicitar una consulta
+WhatsApp
+
+---
+
+# Eneagrama | Recursos de Nicolás Bongiorno
+URL: https://licbongiorno5.vercel.app/recursos/eneagrama/
+
+Recursos
+Eneagrama
+El eneagrama de la personalidad y sus nueve eneatipos: motivaciones, miedos, alas y caminos de crecimiento, desde una mirada psicológica y crítica.
+Artículos
+Eneagrama
+El eneagrama: nueve formas de habitar el mundo
+Nueve maneras de ver la vida, cada una con su motivación, su miedo y su punto ciego. Qué es el eneagrama, cómo usarlo y cuáles son sus límites.
+Eneagrama
+Eneatipo 1, el perfeccionista: la voz que exige que todo esté bien
+Ve enseguida lo que está mal y siente que tiene que corregirlo. Cómo es el eneatipo 1, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 2, el ayudador: dar para ser querido
+Sabe lo que necesitan todos menos él mismo. Cómo es el eneatipo 2, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 3, el triunfador: valer por lo que se logra
+Siempre tiene una meta en marcha y sabe cómo mostrarse. Cómo es el eneatipo 3, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 4, el individualista: la búsqueda de lo propio y lo profundo
+Siente con intensidad y busca lo auténtico, pero a veces siente que algo le falta. Cómo es el eneatipo 4 y cómo crece.
+Eneagrama
+Eneatipo 5, el observador: entender para sentirse seguro
+Observa, piensa y entiende antes de participar. Cómo es el eneatipo 5, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 6, el leal: la búsqueda de seguridad en un mundo incierto
+Leal, responsable y siempre atento a lo que puede salir mal. Cómo es el eneatipo 6, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 7, el entusiasta: el entusiasmo que esquiva el dolor
+Siempre tiene un plan, una idea, una salida. Cómo es el eneatipo 7, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 8, el protector: la fuerza que protege y no se deja proteger
+Fuerte, directo y protector, pero le cuesta mostrar su lado blando. Cómo es el eneatipo 8, qué lo mueve y cómo crece.
+Eneagrama
+Eneatipo 9, el pacificador: la paz que a veces se olvida de uno mismo
+Ve el punto de vista de todos, menos a veces el propio. Cómo es el eneatipo 9, qué lo mueve y cómo crece.
+Otras categorías:
+Jung y psicología analítica
+Ansiedad y emociones
+Vínculos y relaciones
+Salud mental
+Psicología contemporánea
+Psicología básica
+Meditación y respiración
 Desarrollo personal
 Todos los artículos
 Primer paso
@@ -7886,6 +9321,7 @@ Salud mental
 Psicología contemporánea
 Psicología básica
 Meditación y respiración
+Eneagrama
 Todos los artículos
 Primer paso
 ¿Querés empezar a conversarlo ?
@@ -7936,6 +9372,9 @@ Lo que dejó marca
 Recursos
 Psicología para pensar la vida cotidiana
 ¿Por dónde empiezo?
+Tests de autoconocimiento
+Test de eneagrama
+Test de tipos psicológicos
 Laboratorios para practicar
 Laboratorio de creatividad
 Laboratorio de comunicación no violenta
@@ -7967,6 +9406,7 @@ Salud mental
 Psicología contemporánea
 Psicología básica
 Meditación y respiración
+Eneagrama
 Desarrollo personal
 Artículos
 ¿Cómo saber si necesito hacer terapia? Señales para escucharte
@@ -8027,3 +9467,21 @@ La psicología humanista y Carl Rogers: confiar en la capacidad de crecer
 Terapia narrativa: la persona no es el problema
 Terapia sistémica: la familia como sistema
 El genograma: el árbol familiar que muestra los vínculos
+El eneagrama: nueve formas de habitar el mundo
+Eneatipo 1, el perfeccionista: la voz que exige que todo esté bien
+Eneatipo 2, el ayudador: dar para ser querido
+Eneatipo 3, el triunfador: valer por lo que se logra
+Eneatipo 4, el individualista: la búsqueda de lo propio y lo profundo
+Eneatipo 5, el observador: entender para sentirse seguro
+Eneatipo 6, el leal: la búsqueda de seguridad en un mundo incierto
+Eneatipo 7, el entusiasta: el entusiasmo que esquiva el dolor
+Eneatipo 8, el protector: la fuerza que protege y no se deja proteger
+Eneatipo 9, el pacificador: la paz que a veces se olvida de uno mismo
+El tipo pensamiento extravertido: ordenar el mundo con lógica
+El tipo pensamiento introvertido: la lógica que mira hacia adentro
+El tipo sentimiento extravertido: la calidez que une a los demás
+El tipo sentimiento introvertido: aguas tranquilas que son profundas
+El tipo sensación extravertida: vivir el presente con todos los sentidos
+El tipo sensación introvertida: la memoria que da forma al presente
+El tipo intuición extravertida: ver posibilidades en todas partes
+El tipo intuición introvertida: la visión que viene de adentro

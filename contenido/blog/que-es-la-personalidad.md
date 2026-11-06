@@ -52,6 +52,8 @@ Lo que no cambia es que seguís siendo vos. El cambio no es convertirse en otro,
 
 A veces ciertos rasgos se vuelven tan rígidos que traen problemas una y otra vez: en los vínculos, en el trabajo, en la relación con uno mismo. No se trata de ponerse una etiqueta, sino de entender qué patrones se repiten y por qué. Si te pasa, podés leer sobre [patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/) o escribirme.
 
+Si querés explorar tu forma de ser desde otros modelos, podés hacer el [test de eneagrama](/test-de-eneagrama/) o el [test de tipos psicológicos](/test-de-tipos-psicologicos/), tomándolos como herramientas de autoconocimiento y no como diagnósticos.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la personalidad?
