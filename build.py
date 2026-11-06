@@ -455,7 +455,7 @@ def cabecera(ruta):
       <ul class="nav__lista">{"".join(items)}</ul>
       <a class="tema-boton buscar-boton" href="/buscar/" aria-label="Buscar en el sitio" title="Buscar (atajo: /)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></a>
       <button class="tema-boton" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro / oscuro"><svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg><svg class="sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button>
-      <a class="boton boton--chico cabecera__cta" href="/contacto/">Solicitar una consulta</a>
+      <a class="boton boton--chico cabecera__cta" href="/contacto/">Pedir una entrevista</a>
     </nav>
     <div class="cabecera__movil"><a class="tema-boton tema-boton--movil buscar-boton" href="/buscar/" aria-label="Buscar en el sitio" title="Buscar (atajo: /)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></a><button class="tema-boton tema-boton--movil" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro / oscuro"><svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg><svg class="sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button><button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-movil"><span class="menu-boton__texto">Menú</span><span class="menu-boton__lineas" aria-hidden="true"></span></button></div>
   </div>
@@ -463,7 +463,7 @@ def cabecera(ruta):
 <div class="menu-movil" id="menu-movil">
   <nav aria-label="Principal (móvil)"><ul>{"".join(movil)}</ul></nav>
   <div class="menu-movil__pie">
-    <a class="boton" href="/contacto/">Solicitar una consulta</a>
+    <a class="boton" href="/contacto/">Pedir una primera entrevista</a>
     <a class="boton boton--secundario boton--whatsapp" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="menu">{ICON["whatsapp"]} Escribir por WhatsApp</a>
   </div>
 </div>'''
@@ -512,7 +512,7 @@ def pie():
           <li><a href="/psicologo-valle-de-paravachasca/">Valle de Paravachasca</a></li>
           <li><a href="/psicologo-para-adolescentes/">Adolescentes</a></li>
           <li><a href="/terapia-para-adultos-mayores/">Adultos mayores</a></li>
-          <li><a href="/contacto/">Solicitar una consulta</a></li>
+          <li><a href="/contacto/">Pedir una primera entrevista</a></li>
         </ul>
       </div>
       <div>
@@ -611,8 +611,7 @@ def bloque_resenas():
     d = r["destacado"]
     return f'''<div class="resenas__cabecera">
   <div class="encabezado-seccion" style="margin:0">
-    <p class="antetitulo">Experiencias</p>
-    <h2>«Las palabras justas», <em>en palabras de mis pacientes</em></h2>
+    <h3 class="resenas__titulo">Más opiniones, <em>tal como fueron escritas</em></h3>
   </div>
   <div class="resenas__dato"><strong data-contar="{esc(d["cantidad"]).lstrip("+")}" data-prefijo="+">{esc(d["cantidad"])}</strong><span>{esc(d["texto"])} <small>(relevado en {esc(r["fecha_relevamiento"])})</small></span></div>
 </div>
@@ -835,7 +834,7 @@ def prueba_social(clave):
             f'<span class="cta__fuente">Paciente en Google · <a href="/opiniones/">+100 opiniones</a></span></p>')
 
 
-def bloque_asistente():
+def bloque_asistente(nivel=2):
     # (texto visible, frase para el mensaje). Se pueden elegir varios: casi nadie consulta por un solo tema.
     motivos = [("Ansiedad o ataques de pánico", "ansiedad o ataques de pánico"), ("Estrés o agotamiento", "estrés o agotamiento"),
                ("Tristeza o desgano", "tristeza o desgano"), ("Un duelo o una pérdida", "un duelo o una pérdida"),
@@ -848,7 +847,7 @@ def bloque_asistente():
         return "".join(f'<label class="opcion"><input type="radio" name="{nombre}" value="{esc(v)}"><span>{esc(v)}</span></label>' for v in lista)
     return f'''<section class="asistente revelar" id="empezar" aria-labelledby="titulo-asistente">
   <p class="antetitulo">Empezar en 3 pasos</p>
-  <h2 id="titulo-asistente">No hace falta saber <em>qué escribir</em></h2>
+  <h{nivel} id="titulo-asistente">No hace falta saber <em>qué escribir</em></h{nivel}>
   <p class="asistente__intro">Respondé tres preguntas y te armo el mensaje para que lo envíes por WhatsApp. No es un test ni un diagnóstico, y no se guarda ningún dato.</p>
   <form class="asistente__form" id="asistente" novalidate>
     <fieldset class="asistente__paso" data-paso="1"><legend><span>1</span> ¿Qué te trae?</legend><p class="asistente__subpaso asistente__subpaso--ayuda">Podés marcar varias: casi nunca es una sola cosa.</p><div class="opciones">{opciones_motivo}</div></fieldset>
@@ -926,8 +925,8 @@ def bloque_cta(titulo="¿Querés empezar a <em>conversarlo</em>?", texto=None, u
   <p class="cta__nota">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
   {prueba_social(titulo)}
   <div class="acciones" style="margin-top:1.5rem">
-    <a class="boton boton--claro" href="/contacto/">Solicitar una consulta {ICON["flecha"]}</a>
-    <a class="boton boton--secundario boton--whatsapp" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="{ubicacion}">{ICON["whatsapp"]} WhatsApp</a>
+    <a class="boton boton--claro" href="/contacto/">Pedir una primera entrevista {ICON["flecha"]}</a>
+    <a class="boton boton--secundario boton--whatsapp" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="{ubicacion}">{ICON["whatsapp"]} Escribirme por WhatsApp</a>
   </div>
 </div>'''
 
@@ -960,7 +959,6 @@ def umbral():
     return f'''<div class="umbral entra" style="--retraso:.35s">
   <div class="umbral__aro" aria-hidden="true" data-parallax="-0.04"></div>
   <div class="umbral__marco">{interior}</div>
-  <div class="umbral__sello"><strong data-contar="15" data-prefijo="+">+15</strong><span>años de práctica clínica</span></div>
 </div>'''
 
 
@@ -1335,6 +1333,7 @@ def reemplazos(cuerpo, ruta):
             f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in CATEGORIAS
             if any(x["categoria"] == c and (x["publicado"] or BORRADORES) for x in ARTICULOS)) + "</ul>",
         "asistente": bloque_asistente,
+        "asistente_h3": lambda: bloque_asistente(3),
         "laboratorios": bloque_laboratorios,
         "filtros_laboratorios": bloque_filtros_laboratorios,
         "guia": bloque_guia,

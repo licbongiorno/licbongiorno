@@ -21,16 +21,16 @@
     <div class="hero__texto-col">
       {{> disponibilidad}}
       <p class="hero__identidad entra" style="--retraso:.05s">{{> avatar}}<strong>Lic. Nicolás Raúl Bongiorno</strong><span aria-hidden="true"></span><span>Psicólogo clínico</span><span aria-hidden="true"></span><span>{{matricula}}</span></p>
+      <p class="h1-kicker entra" style="--retraso:.1s">Psicoterapia en Alta Gracia y online</p>
       <h1 id="titulo-hero">
-        <span class="h1-kicker entra" style="--retraso:.1s">Psicoterapia en Alta Gracia y online</span>
         <span class="linea"><span style="--retraso:.15s">Lo que te habita</span></span>
         <span class="linea"><span style="--retraso:.27s">también merece</span></span>
         <span class="linea"><span style="--retraso:.39s"><em>ser escuchado.</em></span></span>
       </h1>
-      <p class="hero__texto">Adentro tuyo hay un universo: personajes, cualidades y kryptonita, soles y lunas. La terapia es un espacio para mirarlo más allá de los velos de tu historia, y encontrar nuevas maneras de habitar tu vida. Trabajo desde la psicología analítica de Jung y el psicoanálisis, con más de 15 años de práctica clínica.</p>
+      <p class="hero__texto">Adentro tuyo hay un universo: personajes, cualidades y kryptonita, soles y lunas. La terapia es un espacio para mirarlo más allá de los velos de tu historia y encontrar nuevas maneras de habitar tu vida. Trabajo desde la psicología analítica de Jung, sobre una base psicoanalítica, con adolescentes y adultos.</p>
       <div class="acciones entra" style="--retraso:.65s">
-        <a class="boton" href="/contacto/">Solicitar una consulta {{icono_flecha}}</a>
-        <a class="boton boton--secundario" href="/enfoque/">Conocé mi enfoque</a>
+        <a class="boton" href="/contacto/">Pedir una primera entrevista {{icono_flecha}}</a>
+        <a class="boton boton--secundario boton--whatsapp" href="{{wa_url}}" target="_blank" rel="noopener" data-ubicacion="inicio-hero">{{icono_whatsapp}} Escribirme por WhatsApp</a>
       </div>
       <p class="hero__nota entra" style="--retraso:.7s">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
       <ul class="hero__modalidades entra" style="--retraso:.75s" aria-label="Modalidades de atención">
@@ -55,9 +55,10 @@
 <section class="seccion seccion--papel manifiesto" aria-labelledby="titulo-concepto">
   <div class="contenedor">
     <div class="manifiesto__simbolo revelar dibujar">{{> simbolo}}</div>
-    <h2 id="titulo-concepto" class="visualmente-oculto">La terapia como espacio</h2>
+    <h2 id="titulo-concepto" class="antetitulo manifiesto__titulo revelar">Lo que te habita</h2>
     <p class="manifiesto__frase revelar">Lo que nos habita no siempre encuentra palabras. A veces llega como lágrima, como enojo, como un sueño que vuelve. <em>Darle lugar</em> es el comienzo de cualquier cambio verdadero.</p>
     <div class="manifiesto__texto revelar">
+      <p>Lo que sentís y todavía no sabés nombrar. Lo que callás para no molestar. Lo que se repite aunque te prometas que esta vez no. Lo que deseás y te da miedo desear. Todo eso también sos vos, y tiene algo para decir.</p>
       <p>No tengo recetas para darte. Lo que sí puedo ofrecerte es una escucha atenta para aquello que insiste —un síntoma, una angustia, una pregunta que no se va— y un lugar donde reflexionar, cuestionarte, enojarte y también hacer las paces. Para que cada vez te vayas, aunque sea, un poquito mejor.</p>
     </div>
     <ul class="conceptos revelar" aria-label="Conceptos que guían el trabajo">
@@ -72,13 +73,8 @@
     <div class="revelar" style="--retraso:.1s">
       <p class="antetitulo">Sobre mí</p>
       <h2 id="titulo-sobre">Una escucha <em>clínica</em>, profunda y humana</h2>
-      <p>Soy psicólogo clínico, egresado de la {{facultad}} de la {{universidad}}. Hace más de 15 años que escucho historias: duelos y nacimientos, crisis y comienzos, lágrimas difíciles y alegrías auténticas. Cada una me enseñó algo. Yo también soy gracias a quienes hicieron ese camino conmigo.</p>
+      <p>Soy psicólogo clínico, egresado de la {{facultad}} de la {{universidad}}. Hace más de quince años que escucho historias: duelos y nacimientos, crisis y comienzos, lágrimas difíciles y alegrías auténticas. Cada una me enseñó algo. Yo también soy gracias a quienes hicieron ese camino conmigo.</p>
       <p>Trabajo principalmente desde la psicología analítica de Carl Gustav Jung, sobre una base psicoanalítica, con una perspectiva integrativa: cada persona es singular, y el tratamiento tiene que adaptarse a ella, no al revés.</p>
-      <ul class="datos" aria-label="Datos profesionales">
-        <li><strong data-contar="15" data-prefijo="+">+15</strong><span>años de práctica clínica</span></li>
-        <li><strong>{{matricula}}</strong><span>Colegio de Psicólogos de Córdoba</span></li>
-        <li><strong>UNC</strong><span>Facultad de Psicología</span></li>
-      </ul>
       <a class="enlace-flecha" href="/sobre-mi/">Conocé mi recorrido {{icono_flecha}}</a>
     </div>
   </div>
@@ -114,11 +110,34 @@
       <p>Ansiedad, duelo, crisis vitales, trauma, vínculos y más: conocé todos los motivos de consulta.</p>
       <a class="boton boton--secundario" href="/motivos-de-consulta/">Ver los 14 motivos {{icono_flecha}}</a>
     </div>
-    <div style="margin-top:var(--sec)">{{> cta_motivos}}</div>
+    <div class="para-vos-bloque">
+      <h3 class="revelar">¿Es este espacio <em>para vos?</em></h3>
+      <p class="bajada revelar">Prefiero ser claro desde el comienzo: elegir terapeuta también es elegir una forma de trabajar.</p>
+      <div class="para-vos">
+      <div class="para-vos__col revelar">
+        <h4>Puede ser para vos si…</h4>
+        <ul>
+          <li>querés comprender lo que te pasa, no solo aliviarlo;</li>
+          <li>algo se repite en tu vida y querés entender por qué;</li>
+          <li>atravesás una crisis, un duelo o un cambio de etapa;</li>
+          <li>te interesan los sueños, los símbolos o la búsqueda de sentido;</li>
+          <li>buscás un espacio estable, con tiempo, para pensar.</li>
+        </ul>
+      </div>
+      <div class="para-vos__col para-vos__col--otro revelar" style="--retraso:.1s">
+        <h4>Quizás necesites otra cosa si…</h4>
+        <ul>
+          <li>estás en una situación de urgencia o de riesgo: <a href="/ayuda-urgente/">mirá estos teléfonos</a>;</li>
+          <li>necesitás principalmente un tratamiento con medicación: ahí corresponde un psiquiatra (puedo orientarte y trabajar en conjunto);</li>
+          <li>solo podés atenderte a través de la cartilla de tu obra social: trabajo de forma particular, con <a href="/preguntas-frecuentes/#obra-social">factura para reintegro</a>;</li>
+          <li>buscás una solución rápida, sin espacio para explorar lo que pasa.</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="seccion" aria-labelledby="titulo-espacio">
+<section class="seccion seccion--bosque espacio" aria-labelledby="titulo-espacio">
   <div class="contenedor">
     <div class="encabezado-seccion revelar">
       <p class="antetitulo">Cómo es el espacio</p>
@@ -145,6 +164,7 @@
         <blockquote>«Se adaptó a las veces que pude hacer sesiones online y las veces que pude ir de manera presencial.»</blockquote>
       </article>
     </div>
+    <div class="espacio__resenas">{{> resenas}}</div>
   </div>
 </section>
 
@@ -153,6 +173,7 @@
     <div class="encabezado-seccion revelar">
       <p class="antetitulo">Cómo empezamos</p>
       <h2 id="titulo-proceso">Un proceso <em>sin apuro</em>, con un encuadre claro</h2>
+      <p class="bajada">Del primer mensaje a las sesiones: qué pasa en cada paso y cómo podemos trabajar, en Alta Gracia u online.</p>
     </div>
     <ol class="pasos">
       <li class="paso revelar"><h3>Primer contacto</h3><p>Me escribís por WhatsApp o por el formulario. Te respondo personalmente para coordinar una entrevista.</p></li>
@@ -160,56 +181,14 @@
       <li class="paso revelar" style="--retraso:.16s"><h3>Encuadre</h3><p>Acordamos modalidad, frecuencia y honorarios. Un marco estable es lo que permite que el trabajo se profundice.</p></li>
       <li class="paso revelar" style="--retraso:.24s"><h3>El proceso</h3><p>Sesión a sesión, vamos comprendiendo lo que te pasa y abriendo nuevas posibilidades. Lo revisamos juntos en el camino.</p></li>
     </ol>
-  </div>
-</section>
-
-<section class="seccion" aria-labelledby="titulo-para-vos">
-  <div class="contenedor">
-    <div class="encabezado-seccion revelar">
-      <p class="antetitulo">Antes de escribirme</p>
-      <h2 id="titulo-para-vos">¿Es este espacio <em>para vos?</em></h2>
-      <p class="bajada">Prefiero ser claro desde el comienzo: elegir terapeuta también es elegir una forma de trabajar.</p>
-    </div>
-    <div class="para-vos">
-      <div class="para-vos__col revelar">
-        <h3>Puede ser para vos si…</h3>
-        <ul>
-          <li>querés comprender lo que te pasa, no solo aliviarlo;</li>
-          <li>algo se repite en tu vida y querés entender por qué;</li>
-          <li>atravesás una crisis, un duelo o un cambio de etapa;</li>
-          <li>te interesan los sueños, los símbolos o la búsqueda de sentido;</li>
-          <li>buscás un espacio estable, con tiempo, para pensar.</li>
-        </ul>
-      </div>
-      <div class="para-vos__col para-vos__col--otro revelar" style="--retraso:.1s">
-        <h3>Quizás necesites otra cosa si…</h3>
-        <ul>
-          <li>estás en una situación de urgencia o de riesgo: <a href="/ayuda-urgente/">mirá estos teléfonos</a>;</li>
-          <li>necesitás principalmente un tratamiento con medicación: ahí corresponde un psiquiatra (puedo orientarte y trabajar en conjunto);</li>
-          <li>solo podés atenderte a través de la cartilla de tu obra social: trabajo de forma particular, con <a href="/preguntas-frecuentes/#obra-social">factura para reintegro</a>;</li>
-          <li>buscás una solución rápida, sin espacio para explorar lo que pasa.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="seccion seccion--salvia">
-  <div class="contenedor">{{> asistente}}</div>
-</section>
-
-<section class="seccion" aria-labelledby="titulo-modalidades" id="modalidades">
-  <div class="contenedor">
-    <div class="encabezado-seccion revelar">
-      <p class="antetitulo">Modalidades de atención</p>
-      <h2 id="titulo-modalidades">En el consultorio <em>o a la distancia</em></h2>
-      <p class="bajada">Elegí la modalidad que mejor se adapte a tu vida. El cuidado del encuadre y la confidencialidad son los mismos.</p>
-    </div>
+    <div class="modalidades-bloque" id="modalidades">
+      <h3 class="revelar">En el consultorio <em>o a la distancia</em></h3>
+      <p class="bajada revelar">El cuidado del encuadre y la confidencialidad son los mismos en las dos modalidades.</p>
     <div class="modalidades">
       <article class="modalidad revelar">
         <span class="modalidad__deco">{{> deco_enso}}</span>
         <span class="modalidad__icono">{{icono_mapa}}</span>
-        <h3>Presencial en Alta Gracia</h3>
+        <h4>Presencial en Alta Gracia</h4>
         <address class="direccion"><strong>{{calle}}</strong>{{localidad}}, {{provincia}}</address>
         <ul>
           <li>Un espacio tranquilo y reservado, pensado para la escucha.</li>
@@ -224,7 +203,7 @@
       <article class="modalidad modalidad--online revelar" style="--retraso:.1s">
         <span class="modalidad__deco">{{> deco_enso}}</span>
         <span class="modalidad__icono">{{icono_pantalla}}</span>
-        <h3>Terapia online</h3>
+        <h4>Terapia online</h4>
         <p class="direccion"><strong>Por videollamada</strong>Desde otras localidades, provincias o países</p>
         <ul>
           <li>Procesos terapéuticos en español, también desde el exterior.</li>
@@ -236,16 +215,14 @@
         </div>
       </article>
     </div>
-    <div style="margin-top:var(--sec)">{{> cta_modalidades}}</div>
+    </div>
   </div>
 </section>
 
-<section class="seccion seccion--bosque" aria-labelledby="titulo-resenas">
-  <div class="contenedor">
-    <span id="titulo-resenas" class="visualmente-oculto">Experiencias de pacientes</span>
-    {{> resenas}}
-  </div>
-</section>
+
+
+
+
 
 <section class="seccion" aria-labelledby="titulo-faq">
   <div class="contenedor dividido" style="align-items:start">
@@ -279,9 +256,11 @@
       <h2 id="titulo-contacto-final">El primer paso puede ser <em>una conversación</em></h2>
       <p>Escribime para coordinar una primera entrevista, presencial en Alta Gracia u online. Te respondo personalmente.</p>
       <div class="acciones" style="margin-top:2rem">
-        <a class="boton boton--claro" href="/contacto/">Solicitar una consulta {{icono_flecha}}</a>
+        <a class="boton boton--claro" href="/contacto/">Pedir una primera entrevista {{icono_flecha}}</a>
         <a class="boton boton--secundario boton--whatsapp" href="{{wa_url}}" target="_blank" rel="noopener" data-ubicacion="inicio-final">{{icono_whatsapp}} {{wa_visible}}</a>
       </div>
+      <p class="cta__nota">La primera entrevista es para conocernos, sin compromiso de continuar.</p>
     </div>
+    <div class="contacto-asistente">{{> asistente_h3}}</div>
   </div>
 </section>
