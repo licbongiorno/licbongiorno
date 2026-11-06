@@ -675,7 +675,7 @@ def bloque_asistente():
   <form class="asistente__form" id="asistente" novalidate>
     <fieldset class="asistente__paso" data-paso="1"><legend><span>1</span> ¿Qué te trae?</legend><div class="opciones">{opciones("motivo", motivos)}</div></fieldset>
     <fieldset class="asistente__paso" data-paso="2"><legend><span>2</span> ¿Cómo preferís?</legend><div class="opciones">{opciones("modalidad", ["Presencial en Alta Gracia", "Online", "Me da igual"])}</div></fieldset>
-    <fieldset class="asistente__paso" data-paso="3"><legend><span>3</span> ¿Qué horario te queda mejor?</legend><p class="asistente__nota" data-asistente-nota hidden></p><div class="opciones">{opciones("horario", ["Mañana", "Tarde", "Noche", "Cualquiera"])}</div></fieldset>
+    <fieldset class="asistente__paso" data-paso="3"><legend><span>3</span> ¿Qué horario te queda mejor?</legend><p class="asistente__nota" data-asistente-nota hidden></p><div class="opciones">{opciones("horario", ["Mañana", "Tarde", "Noche", "Cualquiera"])}</div><p class="asistente__subpaso" id="asistente-dias">¿Qué días? <span>(podés elegir varios)</span></p><div class="opciones" role="group" aria-labelledby="asistente-dias">{"".join(f'<label class="opcion"><input type="checkbox" name="dias" value="{d}"><span>{d}</span></label>' for d in ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"])}</div></fieldset>
     <div class="asistente__vista" aria-live="polite"><p class="asistente__vista-titulo">Tu mensaje</p><p class="asistente__texto">Hola, Nicolás. Te escribo desde tu web para consultar por un turno.</p></div>
     <a class="boton boton--whatsapp asistente__enviar" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="asistente">{ICON["whatsapp"]} Enviar por WhatsApp</a>
   </form>

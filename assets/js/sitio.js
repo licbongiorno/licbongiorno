@@ -363,12 +363,14 @@
     var armar = function () {
       var v = function (n) { var el = asis.querySelector('input[name="' + n + '"]:checked'); return el ? el.value : ""; };
       var motivo = v("motivo"), modalidad = v("modalidad"), horario = v("horario");
+      var dias = Array.prototype.map.call(asis.querySelectorAll('input[name="dias"]:checked'), function (el) { return el.value.toLowerCase(); });
       var t = "Hola, Nicolás. Te escribo desde tu web.";
       if (motivo && motivo !== "Todavía no lo sé") t += " Quería consultarte por: " + motivo.toLowerCase() + ".";
       else if (motivo) t += " Quería hacer una consulta, aunque todavía no sé bien por dónde empezar.";
       if (modalidad === "Presencial en Alta Gracia") t += " Prefiero atención presencial en Alta Gracia.";
       else if (modalidad === "Online") t += " Prefiero atención online.";
       if (horario && horario !== "Cualquiera") t += " Me queda mejor a la " + horario.toLowerCase() + (ZONA && ZONA.extranjero ? " (hora de " + ZONA.ciudad + ")" : "") + ".";
+      if (dias.length) t += " Los días que mejor me quedan: " + (dias.length > 1 ? dias.slice(0, -1).join(", ") + " y " + dias[dias.length - 1] : dias[0]) + ".";
       if (ZONA && ZONA.extranjero) t += " Escribo desde " + ZONA.lugar() + "; allá es " + ZONA.difTexto() + ".";
       t += " ¿Tenés disponibilidad?";
       if (texto.textContent !== t) {
@@ -378,7 +380,7 @@
       enviar.href = "https://wa.me/" + cfg.whatsapp + "?text=" + encodeURIComponent(t);
       var completos = 0;
       pasos.forEach(function (p) {
-        var lleno = !!p.querySelector("input:checked");
+        var lleno = !!p.querySelector("input:checked");  // franja o días cuentan como paso completo
         p.classList.toggle("completo", lleno);
         if (lleno) completos++;
       });

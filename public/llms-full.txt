@@ -141,7 +141,8 @@ Elegí tres opciones y te armo el mensaje para que lo envíes por WhatsApp. No e
 1 ¿Qué te trae? Ansiedad o ataques de pánico Tristeza o desgano Un duelo o una pérdida Mis vínculos o mi pareja Una crisis o un cambio de etapa Conocerme más Todavía no lo sé
 2 ¿Cómo preferís? Presencial en Alta Gracia Online Me da igual
 3 ¿Qué horario te queda mejor?
-Mañana Tarde Noche Cualquiera
+Mañana Tarde Noche Cualquiera ¿Qué días? (podés elegir varios)
+Lunes Martes Miércoles Jueves Viernes Sábado
 Tu mensaje
 Hola, Nicolás. Te escribo desde tu web para consultar por un turno.
 Enviar por WhatsApp
@@ -713,7 +714,8 @@ Elegí tres opciones y te armo el mensaje para que lo envíes por WhatsApp. No e
 1 ¿Qué te trae? Ansiedad o ataques de pánico Tristeza o desgano Un duelo o una pérdida Mis vínculos o mi pareja Una crisis o un cambio de etapa Conocerme más Todavía no lo sé
 2 ¿Cómo preferís? Presencial en Alta Gracia Online Me da igual
 3 ¿Qué horario te queda mejor?
-Mañana Tarde Noche Cualquiera
+Mañana Tarde Noche Cualquiera ¿Qué días? (podés elegir varios)
+Lunes Martes Miércoles Jueves Viernes Sábado
 Tu mensaje
 Hola, Nicolás. Te escribo desde tu web para consultar por un turno.
 Enviar por WhatsApp
@@ -1306,6 +1308,30 @@ El héroe, la madre, el sabio, el niño. Los arquetipos no son personajes de mit
 Salud mental
 Cómo acompañar a alguien con depresión
 Qué decir, qué evitar y cómo ayudar a que alguien cercano pida ayuda profesional, sin descuidarte vos en el camino.
+Jung y psicología analítica
+Sueños recurrentes: el mensaje que insiste
+Hay sueños que vuelven una y otra vez, como una carta que nadie abrió. Por qué se repiten y qué pueden estar pidiendo.
+En preparación
+Ansiedad y emociones
+La culpa: cuando la voz que juzga no se calla
+Hay una culpa que ayuda a reparar y otra que no se calla nunca. Cómo distinguirlas y qué hacer con esa voz interna que juzga.
+En preparación
+Ansiedad y emociones
+El enojo: una emoción que también protege
+El enojo tiene mala fama, pero suele señalar un límite que fue cruzado. Qué pasa cuando lo tragamos y cuando nos desborda.
+En preparación
+Salud mental
+La soledad: entre el vacío y el encuentro con uno mismo
+No es lo mismo estar solo que sentirse solo. Cuándo la soledad nutre, cuándo duele y qué hacer cuando el aislamiento pesa.
+En preparación
+Vínculos y relaciones
+Maternidad y paternidad: nadie nace sabiendo ser madre o padre
+Con un hijo nace también una madre o un padre, y eso también es un parto. La transformación emocional que nadie te explica.
+En preparación
+Jung y psicología analítica
+La persona: la máscara que usamos y la que no nos dejamos quitar
+Todos usamos una máscara para movernos en el mundo. El problema empieza cuando ya no sabemos qué hay debajo.
+En preparación
 Los artículos tienen fines de divulgación y no reemplazan una consulta profesional. Si querés que escriba sobre algún tema en particular, podés sugerirlo por Instagram .
 Primer paso
 ¿Querés empezar a conversarlo ?
@@ -2377,6 +2403,14 @@ Para Jung, los sueños no esconden un mensaje: lo muestran en su propio lenguaje
 Jung y psicología analítica
 Arquetipos en la vida cotidiana: las historias que nos habitan
 El héroe, la madre, el sabio, el niño. Los arquetipos no son personajes de mitos lejanos: aparecen en nuestra vida todos los días.
+Jung y psicología analítica
+Sueños recurrentes: el mensaje que insiste
+Hay sueños que vuelven una y otra vez, como una carta que nadie abrió. Por qué se repiten y qué pueden estar pidiendo.
+En preparación
+Jung y psicología analítica
+La persona: la máscara que usamos y la que no nos dejamos quitar
+Todos usamos una máscara para movernos en el mundo. El problema empieza cuando ya no sabemos qué hay debajo.
+En preparación
 Otras categorías:
 Ansiedad y emociones
 Vínculos y relaciones
@@ -2407,6 +2441,14 @@ La ansiedad no es solo un síntoma a eliminar: también es una señal. Qué es, 
 Ansiedad y emociones
 Ataque de pánico: qué hacer en el momento y después
 Un ataque de pánico asusta mucho, pero se puede atravesar. Qué está pasando en el cuerpo, qué hacer en el momento y cuándo pedir ayuda.
+Ansiedad y emociones
+La culpa: cuando la voz que juzga no se calla
+Hay una culpa que ayuda a reparar y otra que no se calla nunca. Cómo distinguirlas y qué hacer con esa voz interna que juzga.
+En preparación
+Ansiedad y emociones
+El enojo: una emoción que también protege
+El enojo tiene mala fama, pero suele señalar un límite que fue cruzado. Qué pasa cuando lo tragamos y cuando nos desborda.
+En preparación
 Otras categorías:
 Jung y psicología analítica
 Vínculos y relaciones
@@ -2437,6 +2479,10 @@ Distintas personas, la misma historia. Qué hay detrás de los patrones que se r
 Vínculos y relaciones
 Dependencia emocional: cuando querer se vuelve necesitar
 Necesitar al otro para sentirse valioso, tolerar lo que duele por miedo a perderlo. Señales de dependencia emocional y cómo empezar a cambiar.
+Vínculos y relaciones
+Maternidad y paternidad: nadie nace sabiendo ser madre o padre
+Con un hijo nace también una madre o un padre, y eso también es un parto. La transformación emocional que nadie te explica.
+En preparación
 Otras categorías:
 Jung y psicología analítica
 Ansiedad y emociones
@@ -2467,6 +2513,10 @@ No hace falta tocar fondo para consultar. Algunas señales que vale la pena escu
 Salud mental
 Cómo acompañar a alguien con depresión
 Qué decir, qué evitar y cómo ayudar a que alguien cercano pida ayuda profesional, sin descuidarte vos en el camino.
+Salud mental
+La soledad: entre el vacío y el encuentro con uno mismo
+No es lo mismo estar solo que sentirse solo. Cuándo la soledad nutre, cuándo duele y qué hacer cuando el aislamiento pesa.
+En preparación
 Otras categorías:
 Jung y psicología analítica
 Ansiedad y emociones
