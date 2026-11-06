@@ -543,6 +543,16 @@ WIKI = {
     "ansiedad": ("Ansiedad", "https://es.wikipedia.org/wiki/Ansiedad"),
     "duelo": ("Duelo", "https://es.wikipedia.org/wiki/Duelo_(sentimiento)"),
     "depresion": ("Depresión", "https://es.wikipedia.org/wiki/Depresi%C3%B3n"),
+    "personalidad": ("Personalidad", "https://es.wikipedia.org/wiki/Personalidad"),
+    "inteligencia": ("Inteligencia", "https://es.wikipedia.org/wiki/Inteligencia"),
+    "inteligencia-emocional": ("Inteligencia emocional", "https://es.wikipedia.org/wiki/Inteligencia_emocional"),
+    "inteligencias-multiples": ("Teoría de las inteligencias múltiples", "https://es.wikipedia.org/wiki/Teor%C3%ADa_de_las_inteligencias_m%C3%BAltiples"),
+    "apego": ("Teoría del apego", "https://es.wikipedia.org/wiki/Teor%C3%ADa_del_apego"),
+    "mecanismos-de-defensa": ("Mecanismo de defensa", "https://es.wikipedia.org/wiki/Mecanismo_de_defensa"),
+    "memoria": ("Memoria", "https://es.wikipedia.org/wiki/Memoria_(proceso)"),
+    "motivacion": ("Motivación", "https://es.wikipedia.org/wiki/Motivaci%C3%B3n"),
+    "resiliencia": ("Resiliencia", "https://es.wikipedia.org/wiki/Resiliencia_(psicolog%C3%ADa)"),
+    "empatia": ("Empatía", "https://es.wikipedia.org/wiki/Empat%C3%ADa"),
 }
 
 CATEGORIAS = {
@@ -551,6 +561,7 @@ CATEGORIAS = {
     "Vínculos y relaciones": "Patrones que se repiten, dependencia emocional y la forma en que nos vinculamos con la pareja, la familia y los otros.",
     "Salud mental": "Cuándo consultar a un psicólogo, cómo acompañar a alguien que sufre y cómo cuidar la propia salud mental.",
     "Psicología contemporánea": "Psicoterapia integrativa, terapia online, duelo migratorio y otros temas de la psicología de hoy, en lenguaje claro.",
+    "Psicología básica": "Personalidad, inteligencia, emociones, apego, memoria y motivación: los conceptos básicos de la psicología, explicados en lenguaje claro.",
     "Desarrollo personal": "Crisis vitales, la crisis de la mitad de la vida, búsqueda de sentido y autoconocimiento desde una mirada junguiana.",
 }
 
