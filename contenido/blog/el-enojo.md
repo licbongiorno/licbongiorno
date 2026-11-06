@@ -8,7 +8,7 @@ palabras_clave: enojo, ira, manejar el enojo, poner límites, emociones
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026
 orden: 16
-estado: borrador
+estado: publicado
 respuesta: El enojo es una emoción natural que suele aparecer cuando sentimos que un límite fue cruzado o que algo es injusto. No es malo en sí mismo: el problema aparece cuando se reprime durante mucho tiempo o cuando desborda y daña. En terapia se trabaja para escucharlo y expresarlo de manera cuidada.
 menciona: jung, psicologia-analitica
 revision: 2026-11-06

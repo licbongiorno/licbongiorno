@@ -8,7 +8,7 @@ palabras_clave: soledad, sentirse solo, aislamiento, capacidad de estar solo, Wi
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026
 orden: 17
-estado: borrador
+estado: publicado
 respuesta: No es lo mismo estar solo que sentirse solo. La soledad elegida puede ser un espacio de descanso y encuentro con uno mismo; la soledad no deseada, sostenida en el tiempo, duele y afecta la salud. La terapia ayuda a entender qué hay detrás del aislamiento y a recuperar vínculos.
 menciona: depresion
 revision: 2026-11-06

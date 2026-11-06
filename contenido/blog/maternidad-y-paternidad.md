@@ -8,7 +8,7 @@ palabras_clave: maternidad, paternidad, crianza, puerperio, madre suficientement
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026
 orden: 18
-estado: borrador
+estado: publicado
 respuesta: Convertirse en madre o padre es una transformación profunda de la identidad, que suele traer amor, pero también cansancio, dudas, ambivalencia y recuerdos de la propia historia. Son vivencias frecuentes y no significan hacerlo mal. Si aparece una tristeza o ansiedad que no cede, conviene consultar.
 menciona: depresion
 revision: 2026-11-06

@@ -8,7 +8,7 @@ palabras_clave: persona Jung, máscara social, arquetipos Jung, identidad, psico
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026
 orden: 19
-estado: borrador
+estado: publicado
 respuesta: Para Carl Gustav Jung, la «persona» es la máscara social: la forma en que nos presentamos ante los demás según el rol que ocupamos. Es necesaria para vivir en sociedad, pero se vuelve un problema cuando nos identificamos por completo con ella y perdemos contacto con lo que sentimos y deseamos de verdad.
 menciona: jung, psicologia-analitica
 revision: 2026-11-06

@@ -8,7 +8,7 @@ palabras_clave: culpa, sentimiento de culpa, autoexigencia, superyó, perdonarse
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026
 orden: 15
-estado: borrador
+estado: publicado
 respuesta: La culpa es la emoción que aparece cuando sentimos que dañamos a alguien o fallamos a nuestros propios valores. En su justa medida, ayuda a reparar. Se vuelve un problema cuando es desproporcionada, constante o aparece sin un daño real; en terapia se trabaja para comprender de dónde viene esa voz que juzga.
 menciona: freud
 revision: 2026-11-06

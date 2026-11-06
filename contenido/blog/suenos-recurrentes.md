@@ -8,7 +8,7 @@ palabras_clave: sueños recurrentes, sueño que se repite, significado de los su
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026
 orden: 14
-estado: borrador
+estado: publicado
 respuesta: Un sueño recurrente es un sueño que se repite, igual o con pequeñas variaciones, a lo largo del tiempo. Para la psicología analítica de Jung, suele señalar un conflicto o una situación psíquica que todavía no fue reconocida. Muchas veces deja de repetirse cuando aquello que expresa empieza a comprenderse.
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
