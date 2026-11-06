@@ -271,7 +271,9 @@ NAV = [
     ("Recursos", None, [
         ("Artículos", "/recursos/", "Psicología para la vida cotidiana"),
         ("Para descargar", "/recursos/#para-descargar", "Diario de sueños en PDF"),
-        ("Laboratorios", "/laboratorios/", "Prácticas interactivas: creatividad, comunicación…"),
+        ("Laboratorios", "/laboratorios/", "Prácticas interactivas para emociones, vínculos y más"),
+        ("¿Por dónde empiezo?", "/por-donde-empezar/", "Un recorrido según lo que te pasa"),
+        ("Buscar", "/buscar/", "Artículos, laboratorios y preguntas"),
     ]),
     ("Empezar", None, [
         ("Tu primera consulta", "/primera-consulta/", "Paso a paso, sin sorpresas"),
@@ -321,15 +323,86 @@ LABORATORIOS = [
      "descripcion": "Diez técnicas guiadas, de la cuadrada a la alterna por fosas nasales, con su sentido psicológico y sus precauciones."},
     {"titulo": "Laboratorio de meditación", "ruta": "/laboratorio-de-meditacion/", "tipo": "Meditación",
      "descripcion": "Nueve prácticas de Oriente y Occidente: zazen, vipassana, metta, relajación progresiva, un mandala y más."},
+    {"titulo": "Laboratorio Gestalt", "ruta": "/laboratorio-gestalt/", "tipo": "Gestalt",
+     "descripcion": "Darse cuenta, hablar en primera persona, la silla vacía, asuntos inconclusos y el ciclo de la experiencia."},
+    {"titulo": "Laboratorio humanista", "ruta": "/laboratorio-humanista/", "tipo": "Humanista",
+     "descripcion": "Yo real y yo ideal, escucha empática, aceptación incondicional y experiencias cumbre, desde Rogers y Maslow."},
+    {"titulo": "Laboratorio narrativo", "ruta": "/laboratorio-narrativo/", "tipo": "Narrativa",
+     "descripcion": "Externalizar el problema, buscar excepciones, dos historias, el club de la vida y el árbol de la vida."},
+    {"titulo": "Laboratorio sistémico", "ruta": "/laboratorio-sistemico/", "tipo": "Sistémica",
+     "descripcion": "Tu genograma dibujado en pantalla, preguntas circulares, secuencias que se repiten, mandatos y límites."},
 ]
+
+TEMAS_LAB = {
+    "/laboratorio-de-creatividad/": "Aprendizaje y cambio", "/laboratorio-de-comunicacion-no-violenta/": "Vínculos",
+    "/laboratorio-de-habilidades-dbt/": "Emociones", "/laboratorio-de-flexibilidad-yoica/": "Jung y autoconocimiento",
+    "/laboratorio-de-emociones/": "Emociones", "/laboratorio-de-presencia/": "Cuerpo y respiración",
+    "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
+    "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones",
+    "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones",
+    "/laboratorio-de-sombra-y-arquetipos/": "Jung y autoconocimiento", "/laboratorio-de-estres/": "Cuerpo y respiración",
+    "/laboratorio-de-descanso/": "Cuerpo y respiración", "/laboratorio-de-habitos/": "Aprendizaje y cambio",
+    "/laboratorio-de-respiraciones/": "Cuerpo y respiración", "/laboratorio-de-meditacion/": "Cuerpo y respiración",
+    "/laboratorio-gestalt/": "Enfoques", "/laboratorio-humanista/": "Enfoques", "/laboratorio-narrativo/": "Enfoques",
+    "/laboratorio-sistemico/": "Vínculos",
+}
+ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio"]
 
 
 def bloque_laboratorios():
     items = "".join(
-        f'<a class="lab-catalogo__item" href="{l["ruta"]}"><span class="recursos-indice__tipo">{esc(l["tipo"])}</span>'
+        f'<a class="lab-catalogo__item" href="{l["ruta"]}" data-tema="{esc(TEMAS_LAB.get(l["ruta"], ""))}"><span class="recursos-indice__tipo">{esc(l["tipo"])}</span>'
         f'<strong>{esc(l["titulo"])}</strong><span>{esc(l["descripcion"])}</span><span class="lab-catalogo__ir">Entrar al laboratorio →</span></a>'
         for l in LABORATORIOS)
-    return f'<div class="lab-catalogo revelar">{items}</div>'
+    return f'<div class="lab-catalogo revelar" data-lab-catalogo>{items}</div>'
+
+
+# Guía «¿Por dónde empiezo?»: tema → página de motivo, artículos y laboratorios sugeridos.
+GUIA = [
+    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-respiraciones/"]),
+    ("panico", "Ataques de pánico", "/ansiedad-y-ataques-de-panico/", ["ataque-de-panico-que-hacer", "respiracion-y-emociones"], ["/laboratorio-de-presencia/"]),
+    ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
+    ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego"], ["/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
+    ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma"], ["/laboratorio-sistemico/"]),
+    ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia"], ["/laboratorio-de-duelo/"]),
+    ("estres", "Estrés o agotamiento", "/estres-y-agotamiento/", ["la-motivacion", "respiracion-y-emociones"], ["/laboratorio-de-estres/", "/laboratorio-de-meditacion/"]),
+    ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["la-culpa", "psicologia-humanista-carl-rogers"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/"]),
+    ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["respiracion-y-emociones", "ansiedad-cuando-el-cuerpo-habla"], ["/laboratorio-de-descanso/"]),
+    ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "el-proceso-de-individuacion"], ["/laboratorio-de-valores/"]),
+    ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "los-suenos-segun-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-suenos/"]),
+    ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "el-enojo"], ["/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
+    ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["metahabilidades", "la-motivacion"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/"]),
+    ("meditar", "Empezar a meditar o respirar mejor", "/terapia-junguiana/", ["que-es-la-meditacion", "cuando-meditar-no-es-recomendable"], ["/laboratorio-de-meditacion/", "/laboratorio-de-respiraciones/"]),
+]
+
+
+NOMBRES_MOTIVO = {"/ansiedad-y-ataques-de-panico/": "Ansiedad y ataques de pánico", "/depresion/": "Depresión",
+                  "/dificultades-vinculares/": "Dificultades vinculares", "/duelo-y-perdidas/": "Duelo y pérdidas",
+                  "/estres-y-agotamiento/": "Estrés y agotamiento", "/autoestima/": "Autoestima", "/crisis-vitales/": "Crisis vitales",
+                  "/terapia-junguiana/": "Terapia junguiana"}
+
+
+def bloque_guia():
+    arts = {a["archivo"][:-3]: a for a in ARTICULOS if a["publicado"]}
+    labs = {l["ruta"]: l["titulo"] for l in LABORATORIOS}
+    datos = {}
+    for clave, nombre, motivo, slugs_a, rutas_l in GUIA:
+        datos[clave] = {"n": nombre, "m": motivo, "mn": NOMBRES_MOTIVO.get(motivo, motivo),
+                        "a": [[arts[x]["titulo"], arts[x]["ruta"]] for x in slugs_a if x in arts],
+                        "l": [[labs[r], r] for r in rutas_l if r in labs]}
+    chips = "".join(f'<label class="opcion"><input type="checkbox" name="guia" value="{c}"><span>{esc(n)}</span></label>' for c, n, *_ in GUIA)
+    jd = json.dumps(datos, ensure_ascii=False).replace("</", "<\\/")
+    return (f'<fieldset class="lab-tarjeta guia" data-guia><legend class="lab-paso__titulo">¿Qué te está pasando? <span class="lab-paso__ayuda">Podés elegir varias.</span></legend>'
+            f'<div class="opciones">{chips}</div></fieldset>'
+            f'<div class="guia-resultado" data-guia-resultado aria-live="polite"></div>'
+            f'<script type="application/json" id="guia-datos">{jd}</script>')
+
+
+def bloque_filtros_laboratorios():
+    botones = '<button type="button" class="lab-filtro" aria-pressed="true" data-filtro="">Todos</button>' + "".join(
+        f'<button type="button" class="lab-filtro" aria-pressed="false" data-filtro="{esc(t)}">{esc(t)}</button>' for t in ORDEN_TEMAS)
+    return (f'<div class="lab-filtros" role="group" aria-label="Filtrar laboratorios por tema" data-lab-filtros hidden>{botones}</div>'
+            f'<p class="lab-filtros__estado" role="status" data-lab-filtros-estado></p>')
 
 
 def cabecera(ruta):
@@ -365,10 +438,11 @@ def cabecera(ruta):
     </a>
     <nav class="nav" aria-label="Principal">
       <ul class="nav__lista">{"".join(items)}</ul>
+      <a class="tema-boton buscar-boton" href="/buscar/" aria-label="Buscar en el sitio" title="Buscar (atajo: /)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></a>
       <button class="tema-boton" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro / oscuro"><svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg><svg class="sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button>
       <a class="boton boton--chico cabecera__cta" href="/contacto/">Solicitar una consulta</a>
     </nav>
-    <div class="cabecera__movil"><button class="tema-boton tema-boton--movil" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro / oscuro"><svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg><svg class="sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button><button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-movil"><span class="menu-boton__texto">Menú</span><span class="menu-boton__lineas" aria-hidden="true"></span></button></div>
+    <div class="cabecera__movil"><a class="tema-boton tema-boton--movil buscar-boton" href="/buscar/" aria-label="Buscar en el sitio" title="Buscar (atajo: /)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></a><button class="tema-boton tema-boton--movil" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Modo claro / oscuro"><svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg><svg class="sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button><button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-movil"><span class="menu-boton__texto">Menú</span><span class="menu-boton__lineas" aria-hidden="true"></span></button></div>
   </div>
 </header>
 <div class="menu-movil" id="menu-movil">
@@ -616,6 +690,11 @@ WIKI = {
     "vipassana": ("Vipassana", "https://es.wikipedia.org/wiki/Vipassana"),
     "meditacion-trascendental": ("Meditación trascendental", "https://es.wikipedia.org/wiki/Meditaci%C3%B3n_trascendental"),
     "pranayama": ("Pranayama", "https://es.wikipedia.org/wiki/Pranayama"),
+    "gestalt": ("Terapia Gestalt", "https://es.wikipedia.org/wiki/Terapia_Gestalt"),
+    "humanista": ("Psicología humanista", "https://es.wikipedia.org/wiki/Psicolog%C3%ADa_humanista"),
+    "narrativa": ("Terapia narrativa", "https://es.wikipedia.org/wiki/Terapia_narrativa"),
+    "sistemica": ("Terapia familiar", "https://es.wikipedia.org/wiki/Terapia_familiar"),
+    "genograma": ("Genograma", "https://es.wikipedia.org/wiki/Genograma"),
 }
 
 CATEGORIAS = {
@@ -1238,6 +1317,8 @@ def reemplazos(cuerpo, ruta):
             if any(x["categoria"] == c and (x["publicado"] or BORRADORES) for x in ARTICULOS)) + "</ul>",
         "asistente": bloque_asistente,
         "laboratorios": bloque_laboratorios,
+        "filtros_laboratorios": bloque_filtros_laboratorios,
+        "guia": bloque_guia,
         "zona_horaria": lambda: ('<aside class="zona-horaria" data-zona hidden aria-label="Tu zona horaria">'
             f'<span class="zona-horaria__icono">{ICON["globo"]}</span><p>Parece que estás en <strong data-zona-lugar></strong>. '
             'Allá son las <strong data-zona-local></strong> y en Argentina, las <strong data-zona-ar></strong> '
@@ -1374,7 +1455,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
     bloques_mapa = "".join(
@@ -1429,7 +1510,7 @@ def construir():
 - También integra el equipo de Centro Sinapsis (Berazategui), con atención online: {C["centro_sinapsis"]}
 
 ## Enfoque
-El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orientación junguiana: sueños, símbolos, sombra, proceso de individuación), sobre una base psicoanalítica y psicodinámica. Desde una perspectiva integrativa, dialoga con la terapia sistémica, la Gestalt y la terapia cognitivo-conductual, y toma recursos de otros marcos cuando son pertinentes. Estas corrientes son marcos teóricos de referencia: no se presentan como especializaciones ni certificaciones.
+El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orientación junguiana: sueños, símbolos, sombra, proceso de individuación), sobre una base psicoanalítica y psicodinámica. Desde una perspectiva integrativa, dialoga con la terapia sistémica, la Gestalt, la terapia narrativa y la terapia cognitivo-conductual, y toma recursos de otros marcos cuando son pertinentes. Estas corrientes son marcos teóricos de referencia: no se presentan como especializaciones ni certificaciones.
 
 ## Motivos de consulta que aborda
 {motivos_txt}.
@@ -1505,6 +1586,36 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         bloques.append(f"# {html.unescape(titulo)}\nURL: {URL}{ruta}\n\n{cuerpo}\n")
     (SALIDA / "llms-full.txt").write_text(
         f"# {NOMBRE_COMPLETO} — texto completo del sitio\n> Generado el {HOY}. Resumen breve: {URL}/llms.txt\n\n" + "\n---\n\n".join(bloques), encoding="utf-8")
+
+    # buscar.json: índice para el buscador del sitio (/buscar/)
+    rutas_lab = {l["ruta"] for l in LABORATORIOS}
+    arts = {a["ruta"]: a for a in ARTICULOS if a["publicado"]}
+    rutas_cat = {ruta_categoria(c) for c in CATEGORIAS}
+    indice = []
+    for ruta, _, _ in mapa:
+        if ruta in rutas_cat or ruta in ("/mapa-del-sitio/", "/privacidad/", "/buscar/"):
+            continue
+        f = SALIDA / ("index.html" if ruta == "/" else ruta.strip("/") + "/index.html")
+        h = f.read_text(encoding="utf-8")
+        desc = re.search(r'<meta name="description" content="([^"]*)"', h)
+        cuerpo = re.search(r'<main id="contenido">(.*?)</main>', h, re.S).group(1)
+        cuerpo = re.sub(r"<(svg|script|style|nav|button|form|aside)\b.*?</\1>", " ", cuerpo, flags=re.S)
+        texto = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", cuerpo))).strip()
+        if ruta in arts:
+            a = arts[ruta]
+            indice.append({"t": a["titulo"], "k": "Artículo", "u": ruta, "d": a.get("resumen", ""),
+                           "c": a.get("palabras_clave", "") + ", " + a["categoria"], "x": texto[:1000]})
+        else:
+            indice.append({"t": html.unescape(nombres.get(ruta, ruta)), "k": "Laboratorio" if ruta in rutas_lab else "Página", "u": ruta,
+                           "d": html.unescape(desc.group(1)) if desc else "", "c": "", "x": texto[:900 if ruta in rutas_lab else 500]})
+    for t in GLOSARIO:
+        indice.append({"t": t["termino"], "k": "Glosario", "u": f"/glosario-junguiano/#{slug(t['termino'])}",
+                       "d": re.sub(r"\[(.+?)\]\(.+?\)", r"\1", " ".join(t["definicion"])).replace("*", "")[:300], "c": "", "x": ""})
+    for q in FAQ:
+        r = q["respuesta"] if isinstance(q["respuesta"], str) else " ".join(q["respuesta"])
+        indice.append({"t": q["pregunta"], "k": "Pregunta", "u": f"/preguntas-frecuentes/#{q['id']}",
+                       "d": re.sub(r"<[^>]+>", "", html.unescape(r))[:300], "c": "", "x": ""})
+    (SALIDA / "buscar.json").write_text(json.dumps(indice, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # Manifest
     (SALIDA / "manifest.webmanifest").write_text(json.dumps({

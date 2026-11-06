@@ -1,0 +1,173 @@
+<!--{
+  "ruta": "/laboratorio-gestalt/",
+  "titulo": "Laboratorio Gestalt: darse cuenta y la silla vacía",
+  "descripcion": "Ejercicios inspirados en la terapia Gestalt: darse cuenta, hablar en primera persona, la silla vacía, asuntos inconclusos y el ciclo de la experiencia.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Gestalt", "/laboratorio-gestalt/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>Gestalt</em>",
+  "bajada": "El aquí y ahora, el darse cuenta y lo que quedó sin cerrar. Ejercicios inspirados en la terapia Gestalt para registrar lo que te pasa en este momento y darle una voz.",
+  "respuesta": "El laboratorio Gestalt propone ejercicios inspirados en la terapia de Fritz y Laura Perls: las tres zonas del darse cuenta, hablar en primera persona, un diálogo de silla vacía con otra persona o con una parte propia, el registro de asuntos inconclusos, el ciclo de la experiencia y el diálogo entre polaridades. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-gestalt.js"],
+  "wa_tema": "el laboratorio Gestalt",
+  "articulos": ["terapia-gestalt", "psicologia-humanista-carl-rogers", "imaginacion-activa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están <em>inspirados</em> en la terapia Gestalt, una de las corrientes de las que tomo recursos en mi <a href="/enfoque/">enfoque integrativo</a>. No reemplazan una terapia: en sesión, técnicas como la silla vacía se acompañan con cuidado, porque pueden movilizar mucho.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es analizar por qué te pasa lo que te pasa. Es notar <em>qué</em> te pasa, ahora: la mandíbula apretada mientras leés esto, la respiración corta, ese «estoy bien» que dijiste hace un rato sin estarlo. La Gestalt confía en algo simple y profundo: cuando nos damos cuenta de verdad de lo que sentimos y hacemos, algo empieza a moverse solo.</p>
+        <p>La terapia Gestalt fue creada por Fritz Perls, Laura Perls y Paul Goodman en los años cincuenta. Pertenece a la corriente humanista y pone el foco en el <strong>aquí y ahora</strong>, en el <strong>darse cuenta</strong> y en la responsabilidad sobre la propia experiencia. Más en <a href="/recursos/terapia-gestalt/">qué es la terapia Gestalt</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>En presente.</strong> Lo que importa es lo que te pasa ahora.</li>
+        <li><strong>En primera persona.</strong> «Yo siento», no «uno siente».</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#darse-cuenta">Darse cuenta</a>
+      <a href="#primera-persona">Primera persona</a>
+      <a href="#silla-vacia">La silla vacía</a>
+      <a href="#inconclusos">Asuntos inconclusos</a>
+      <a href="#ciclo">El ciclo de la experiencia</a>
+      <a href="#polaridades">Polaridades</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="darse-cuenta" aria-labelledby="t-cuenta">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-cuenta">Las tres zonas del darse cuenta</h2>
+      <p class="lab-estacion__bajada">Perls distinguía tres zonas de conciencia: lo que percibo afuera, lo que siento adentro y lo que pienso o imagino (la «zona intermedia»). Muchas veces vivimos casi solo en la tercera. Recorrelas una por una, completando en voz baja la frase «ahora me doy cuenta de…».</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Afuera.</strong> «Ahora me doy cuenta de…» lo que ves, oís, olés: el color de la pared, el ruido de un auto, la luz.</li>
+          <li><strong>Adentro.</strong> «Ahora me doy cuenta de…» lo que sentís en el cuerpo y en las emociones: tensión en los hombros, calor, ansiedad, calma.</li>
+          <li><strong>La fantasía.</strong> «Ahora me doy cuenta de que estoy pensando en…» planes, recuerdos, juicios, lo que imaginás que piensan otros.</li>
+          <li><strong>Ir y venir.</strong> Pasá de una zona a otra libremente. ¿En cuál te quedás más? ¿Cuál te cuesta más?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="primera-persona" aria-labelledby="t-primera">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-primera">Hablar en primera persona</h2>
+      <p class="lab-estacion__bajada">En Gestalt se presta mucha atención a cómo hablamos. Decir «uno se cansa» en lugar de «me canso», o «me hiciste enojar» en lugar de «me enojé cuando…», nos aleja de lo que sentimos y de nuestra responsabilidad. ¿Cuál es la versión en primera persona?</p>
+      <div class="lab-tarjeta" data-lab-quiz="primera">
+        <p class="lab-tarjeta__titulo">¿Cómo lo dirías en primera persona?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta" data-lab-quiz-opciones></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="silla-vacia" aria-labelledby="t-silla">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-silla">La silla vacía</h2>
+      <p class="lab-estacion__bajada">Una de las técnicas más conocidas de la Gestalt: imaginar a una persona (o a una parte tuya) sentada en una silla frente a vos y hablarle directamente. Después, cambiarte de silla y responder desde su lugar. Acá lo hacés por escrito: escribí, tocá «Cambiar de silla» y respondé desde el otro lado.</p>
+      <div class="lab-tarjeta" data-silla data-silla-a="Yo" data-silla-b="La otra persona" data-silla-archivo="la-silla-vacia">
+        <div class="lab-tabla2">
+          <div><label for="sv-a">Silla 1</label><input class="lab-campo" id="sv-a" type="text" value="Yo" autocomplete="off" data-silla-nombre="a"></div>
+          <div><label for="sv-b">Silla 2</label><input class="lab-campo" id="sv-b" type="text" value="La otra persona" autocomplete="off" data-silla-nombre="b"></div>
+        </div>
+        <ol class="lab-dialogo" data-silla-dialogo aria-live="polite"></ol>
+        <label class="lab-paso__titulo" for="sv-texto" data-silla-turno>Habla: Yo</label>
+        <textarea class="lab-texto" id="sv-texto" rows="3" data-silla-texto placeholder="Decíselo directamente, en presente: «Te digo que…»"></textarea>
+        <p class="visualmente-oculto" role="status" data-silla-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-silla-cambiar>Decirlo y cambiar de silla</button><button class="boton boton--secundario boton--chico" type="button" data-silla-bajar>Guardar el diálogo</button><button class="boton boton--secundario boton--chico" type="button" data-silla-reiniciar>Empezar de nuevo</button></div>
+        <p class="lab-nota">Si el diálogo trae emociones muy intensas, frená. Con personas que te dañaron, este trabajo conviene hacerlo acompañado.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="inconclusos" aria-labelledby="t-inconclusos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-inconclusos">Asuntos inconclusos</h2>
+      <p class="lab-estacion__bajada">Para la Gestalt, lo que quedó sin cerrar (algo que no dijimos, un duelo, un enojo tragado) sigue reclamando atención y se repite en el presente. Nombrarlo es el primer paso para completarlo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="asuntos-inconclusos" data-lab-form-titulo="Asuntos inconclusos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ai-que">Algo que quedó sin cerrar</label><textarea class="lab-texto" id="ai-que" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ai-dije">Lo que no dije o no hice</label><textarea class="lab-texto" id="ai-dije" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ai-hoy">Cómo aparece hoy en mi vida</label><textarea class="lab-texto" id="ai-hoy" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ai-cerrar">Qué podría ayudarme a cerrarlo (una conversación, una carta, un ritual, aceptar)</label><textarea class="lab-texto" id="ai-cerrar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="ciclo" aria-labelledby="t-ciclo">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-ciclo">El ciclo de la experiencia</h2>
+      <p class="lab-estacion__bajada">Joseph Zinker describió cómo una necesidad recorre un ciclo: aparece como sensación, se vuelve conciencia, moviliza energía, lleva a la acción, se satisface en el contacto y se cierra en la retirada. Muchas veces nos trabamos siempre en la misma fase. ¿En cuál te reconocés?</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Fases del ciclo">
+          <label class="opcion"><input type="radio" name="ciclo" value="sensacion" checked><span>1. Sensación</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="conciencia"><span>2. Darse cuenta</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="energia"><span>3. Energía</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="accion"><span>4. Acción</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="contacto"><span>5. Contacto</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="retirada"><span>6. Retirada</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="sensacion"><p>Algo se mueve en el cuerpo: cansancio, hambre, inquietud, un nudo.</p><p><strong>Si te trabás acá:</strong> te cuesta registrar lo que sentís, vivís «desconectado» del cuerpo. <strong>Pregunta:</strong> ¿qué siento en el cuerpo ahora mismo?</p></div>
+        <div class="lab-panel" data-lab-panel="conciencia" hidden><p>La sensación se vuelve figura: «estoy triste», «necesito descansar».</p><p><strong>Si te trabás acá:</strong> sentís algo pero no sabés qué es ni qué necesitás. <strong>Pregunta:</strong> si esta sensación hablara, ¿qué diría que necesito?</p></div>
+        <div class="lab-panel" data-lab-panel="energia" hidden><p>Aparecen las ganas de hacer algo con eso.</p><p><strong>Si te trabás acá:</strong> sabés lo que necesitás, pero no te movilizás; quedás en la queja o la fantasía. <strong>Pregunta:</strong> ¿qué me frena?</p></div>
+        <div class="lab-panel" data-lab-panel="accion" hidden><p>Hacés algo para satisfacer la necesidad: pedir, decir, moverte.</p><p><strong>Si te trabás acá:</strong> las ganas no se traducen en hechos, o actuás de forma impulsiva y desordenada. <strong>Pregunta:</strong> ¿cuál es el primer paso concreto?</p></div>
+        <div class="lab-panel" data-lab-panel="contacto" hidden><p>Te encontrás con lo que necesitabas: el abrazo, la conversación, el descanso.</p><p><strong>Si te trabás acá:</strong> lo conseguís pero no lo disfrutás, o te distraés justo cuando llega. <strong>Pregunta:</strong> ¿me permito recibir?</p></div>
+        <div class="lab-panel" data-lab-panel="retirada" hidden><p>La necesidad se satisface y el ciclo se cierra, para dar lugar a otro.</p><p><strong>Si te trabás acá:</strong> no podés soltar, cerrar ni descansar; vas de una cosa a otra sin pausa. <strong>Pregunta:</strong> ¿qué necesito para dar esto por terminado?</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="polaridades" aria-labelledby="t-polaridades">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-polaridades">Polaridades: el que exige y el que se resiste</h2>
+      <p class="lab-estacion__bajada">Perls describió una pelea interna muy común: el «perro de arriba», que exige y manda («tenés que…»), y el «perro de abajo», que se resiste con excusas («mañana», «no puedo»). Ninguno gana del todo. Dejalos dialogar: escuchar a los dos es el camino para integrarlos.</p>
+      <div class="lab-tarjeta" data-silla data-silla-a="El que exige" data-silla-b="El que se resiste" data-silla-archivo="dialogo-de-polaridades">
+        <div class="lab-tabla2">
+          <div><label for="po-a">Una voz</label><input class="lab-campo" id="po-a" type="text" value="El que exige" autocomplete="off" data-silla-nombre="a"></div>
+          <div><label for="po-b">La otra voz</label><input class="lab-campo" id="po-b" type="text" value="El que se resiste" autocomplete="off" data-silla-nombre="b"></div>
+        </div>
+        <ol class="lab-dialogo" data-silla-dialogo aria-live="polite"></ol>
+        <label class="lab-paso__titulo" for="po-texto" data-silla-turno>Habla: El que exige</label>
+        <textarea class="lab-texto" id="po-texto" rows="3" data-silla-texto></textarea>
+        <p class="visualmente-oculto" role="status" data-silla-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-silla-cambiar>Decirlo y darle la palabra a la otra voz</button><button class="boton boton--secundario boton--chico" type="button" data-silla-bajar>Guardar el diálogo</button><button class="boton boton--secundario boton--chico" type="button" data-silla-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="gestalt">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Ahora me doy cuenta.</strong> Tres veces en el día, completá la frase con lo que sentís.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Primera persona.</strong> Cambiá cada «uno» o «la gente» por «yo».</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. El cuerpo habla.</strong> Notá un gesto que repetís y exageralo: ¿qué expresa?</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Asunto inconcluso.</strong> Escribí algo que quedó sin cerrar.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. La silla vacía</strong> con alguien con quien quedó algo pendiente (empezá por algo leve).</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Polaridades.</strong> Dejá dialogar a tu voz exigente con la que se resiste.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Cerrar.</strong> Elegí algo pequeño y llevalo hasta el final del ciclo: sentirlo, hacerlo, disfrutarlo y soltarlo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La silla vacía y el trabajo con asuntos inconclusos pueden despertar emociones muy fuertes, sobre todo con personas que te dañaron o que perdiste. Si algo te desborda, frená, respirá y volvé al presente: mirá a tu alrededor y nombrá lo que ves. Este trabajo se hace mejor acompañado: podés <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Perls, F., Hefferline, R. y Goodman, P. (1951). <em>Terapia Gestalt: excitación y crecimiento de la personalidad humana</em>.</li>
+        <li>Perls, F. (1969). <em>Sueños y existencia</em>.</li>
+        <li>Zinker, J. (1977). <em>El proceso creativo en la terapia gestáltica</em>.</li>
+        <li>Polster, E. y Polster, M. (1973). <em>Terapia gestáltica</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

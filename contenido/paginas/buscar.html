@@ -1,0 +1,38 @@
+<!--{
+  "ruta": "/buscar/",
+  "titulo": "Buscar en el sitio | Nicolás Bongiorno, psicólogo",
+  "descripcion": "Buscá artículos, laboratorios, preguntas frecuentes y términos del glosario en el sitio del Lic. Nicolás Bongiorno, psicólogo clínico.",
+  "noindex": true,
+  "con_consultorio": false,
+  "migas": [["Buscar", "/buscar/"]],
+  "antetitulo": "Buscar",
+  "h1": "¿Qué estás <em>buscando</em>?",
+  "bajada": "Artículos, laboratorios, preguntas frecuentes y términos del glosario, todo en un lugar.",
+  "scripts": ["buscador.js"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <form class="buscador buscador--grande revelar" role="search" action="/buscar/" method="get" data-buscador>
+      <label for="buscar-sitio" class="visualmente-oculto">Buscar en el sitio</label>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+      <input id="buscar-sitio" name="q" type="search" placeholder="Ansiedad, sueños, Jung, respiración…" autocomplete="off" aria-describedby="buscar-sitio-estado">
+      <span class="buscador__estado" id="buscar-sitio-estado" role="status" aria-live="polite"></span>
+    </form>
+    <div class="busqueda-sugerencias" data-buscador-sugerencias>
+      <p>Algunas ideas:</p>
+      <ul>
+        <li><a href="/buscar/?q=ansiedad">ansiedad</a></li>
+        <li><a href="/buscar/?q=sue%C3%B1os">sueños</a></li>
+        <li><a href="/buscar/?q=Jung">Jung</a></li>
+        <li><a href="/buscar/?q=respiraci%C3%B3n">respiración</a></li>
+        <li><a href="/buscar/?q=duelo">duelo</a></li>
+        <li><a href="/buscar/?q=v%C3%ADnculos">vínculos</a></li>
+        <li><a href="/buscar/?q=meditaci%C3%B3n">meditación</a></li>
+        <li><a href="/buscar/?q=terapia%20online">terapia online</a></li>
+      </ul>
+      <p>¿No sabés por dónde empezar? Probá la <a href="/por-donde-empezar/">guía para empezar</a> o mirá todos los <a href="/recursos/">recursos</a>.</p>
+    </div>
+    <div class="busqueda-resultados" data-buscador-resultados></div>
+    <noscript><p>El buscador necesita JavaScript. Podés recorrer el <a href="/mapa-del-sitio/">mapa del sitio</a> o los <a href="/recursos/">recursos</a>.</p></noscript>
+  </div>
+</section>

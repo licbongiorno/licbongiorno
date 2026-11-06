@@ -1,0 +1,157 @@
+<!--{
+  "ruta": "/laboratorio-narrativo/",
+  "titulo": "Laboratorio narrativo: externalizar y reescribir tu historia",
+  "descripcion": "Ejercicios inspirados en la terapia narrativa de White y Epston: externalizar el problema, buscar excepciones, dos historias y el árbol de la vida.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Narrativo", "/laboratorio-narrativo/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>narrativo</em>",
+  "bajada": "La persona no es el problema: el problema es el problema. Ejercicios inspirados en la terapia narrativa para separarte de la historia que te achica y escribir otra más fiel a quien sos.",
+  "respuesta": "El laboratorio narrativo propone ejercicios inspirados en la terapia narrativa de Michael White y David Epston: externalizar el problema poniéndole nombre, registrar las excepciones o acontecimientos extraordinarios, contrastar la historia dominante con una alternativa, el club de la vida y el árbol de la vida, que se dibuja con lo que escribís. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-narrativo.js"],
+  "wa_tema": "el laboratorio narrativo",
+  "articulos": ["terapia-narrativa", "terapia-sistemica", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están <em>inspirados</em> en la terapia narrativa, una de las corrientes de las que tomo recursos en mi <a href="/enfoque/">enfoque integrativo</a>. No reemplazan una terapia.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que «seas ansioso», «seas un fracaso» o «seas así». Es una historia que te contaron, o que te contaste tantas veces, que terminó pareciendo tu identidad. Y como toda historia, deja cosas afuera: las veces que pudiste, que te animaste, que no fue así. La terapia narrativa propone buscar esas partes que faltan.</p>
+        <p>Michael White y David Epston, en Australia y Nueva Zelanda, desarrollaron en los años ochenta la terapia narrativa. Una de sus ideas centrales: <strong>la persona no es el problema; el problema es el problema</strong>. Separarlo de uno mismo, ponerle nombre y mirar cómo opera abre espacio para elegir otra relación con él. Más en <a href="/recursos/terapia-narrativa/">qué es la terapia narrativa</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Vos sos el autor.</strong> Nadie conoce tu historia mejor que vos.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con curiosidad.</strong> Preguntá como un periodista, no como un juez.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#externalizar">Externalizar el problema</a>
+      <a href="#excepciones">Excepciones</a>
+      <a href="#historias">Dos historias</a>
+      <a href="#club">El club de la vida</a>
+      <a href="#arbol">El árbol de la vida</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="externalizar" aria-labelledby="t-externalizar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-externalizar">Externalizar el problema</h2>
+      <p class="lab-estacion__bajada">En lugar de «soy ansioso», «la Ansiedad aparece y me dice cosas». Ponerle un nombre propio al problema, como si fuera un personaje, permite verlo desde afuera y preguntarse cómo opera, qué quiere y cuándo pierde fuerza.</p>
+      <form class="lab-tarjeta lab-armador" data-narr-externalizar data-lab-form="externalizar-el-problema" data-lab-form-titulo="Externalizar el problema" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ex-nombre"><span>1</span>Si el problema tuviera un nombre, ¿cuál sería?</label><input class="lab-campo" id="ex-nombre" type="text" placeholder="La Exigencia, el Miedo, la Nube Gris…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ex-dice"><span>2</span>¿Qué te dice? ¿Qué te hace creer de vos?</label><textarea class="lab-texto" id="ex-dice" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ex-afecta"><span>3</span>¿Cómo afecta tu vida, tus vínculos, tus planes?</label><textarea class="lab-texto" id="ex-afecta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ex-gana"><span>4</span>¿Cuándo tiene más fuerza?</label><textarea class="lab-texto" id="ex-gana" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ex-pierde"><span>5</span>¿Cuándo pierde fuerza? ¿Qué hacés vos en esos momentos?</label><textarea class="lab-texto" id="ex-pierde" rows="2"></textarea></div>
+        <div class="lab-resultado"><p class="lab-tarjeta__titulo">Tu relato</p><p class="lab-resultado__texto" data-ex-salida aria-live="polite">Completá los pasos y acá aparece tu relato.</p></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-copiar="[data-ex-salida]">Copiar el relato</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="excepciones" aria-labelledby="t-excepciones">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-excepciones">Excepciones: cuando el problema no ganó</h2>
+      <p class="lab-estacion__bajada">White las llamaba <strong>acontecimientos extraordinarios</strong>: momentos, aunque sean chiquitos, en que el problema no se salió con la suya. La historia dominante suele olvidarlos. Anotalos: son la semilla de otra historia.</p>
+      <form class="lab-tarjeta" data-lab-form="mis-excepciones" data-lab-form-titulo="Excepciones" novalidate>
+        <div data-lab-lista-editable data-lab-lista-titulo="Momentos en que el problema no ganó">
+          <label class="lab-paso__titulo" for="ex-momento" style="display:block">Un momento en que el problema no ganó</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="ex-momento" type="text" placeholder="Por ejemplo: el martes hablé en la reunión aunque tenía miedo" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="ex-como">¿Cómo lo lograste? ¿Qué dice eso de vos?</label><textarea class="lab-texto" id="ex-como" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="historias" aria-labelledby="t-historias">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-historias">Dos historias</h2>
+      <p class="lab-estacion__bajada">La <strong>historia dominante</strong> es la que suele contarse sobre vos, centrada en el problema. La <strong>historia alternativa</strong> se arma con las excepciones, los valores y lo que la dominante deja afuera. Escribí las dos.</p>
+      <form class="lab-tarjeta" data-lab-form="dos-historias" data-lab-form-titulo="Dos historias" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="hi-dom">La historia dominante</label><textarea class="lab-texto" id="hi-dom" rows="7" placeholder="Siempre fui el que…"></textarea></div>
+          <div><label for="hi-alt">La historia alternativa</label><textarea class="lab-texto" id="hi-alt" rows="7" placeholder="También soy alguien que…"></textarea></div>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="hi-quien">¿Quién te conoce desde la historia alternativa? ¿Quién no se sorprendería al leerla?</label><input class="lab-campo" id="hi-quien" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="club" aria-labelledby="t-club">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-club">El club de la vida</h2>
+      <p class="lab-estacion__bajada">White imaginaba la vida como un club con sus miembros: personas, vivas o no, que influyen en cómo nos vemos. A algunos conviene darles membresía de honor; a otros, quizás, quitarles la voz que tienen. Es lo que llamó <strong>re-membranza</strong>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="el-club-de-la-vida" data-lab-form-titulo="El club de la vida" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cl-honor">Miembros de honor: quiénes me vieron y me valoraron</label><textarea class="lab-texto" id="cl-honor" rows="3" placeholder="Una abuela, un docente, un amigo, un autor…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cl-aporte">Qué aportaron a mi vida, y qué aporté yo a la suya</label><textarea class="lab-texto" id="cl-aporte" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cl-menos">Voces a las que les bajaría el volumen</label><textarea class="lab-texto" id="cl-menos" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="arbol" aria-labelledby="t-arbol">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-arbol">El árbol de la vida</h2>
+      <p class="lab-estacion__bajada">Una metodología narrativa creada por Ncazelo Ncube y David Denborough para hablar de la propia vida desde los recursos, no desde el problema. Completá cada parte con palabras breves, separadas por comas, y mirá cómo crece tu árbol.</p>
+      <div class="lab-tarjeta lab-rueda">
+        <form class="lab-armador" data-narr-arbol data-lab-form="mi-arbol-de-la-vida" data-lab-form-titulo="Mi árbol de la vida" novalidate>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ar-raices">Raíces: de dónde vengo (lugares, familia, cultura)</label><input class="lab-campo" id="ar-raices" type="text" data-arbol="raices" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ar-suelo">Suelo: lo que hago en mi vida cotidiana</label><input class="lab-campo" id="ar-suelo" type="text" data-arbol="suelo" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ar-tronco">Tronco: mis habilidades y valores</label><input class="lab-campo" id="ar-tronco" type="text" data-arbol="tronco" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ar-ramas">Ramas: mis sueños y deseos</label><input class="lab-campo" id="ar-ramas" type="text" data-arbol="ramas" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ar-hojas">Hojas: personas importantes</label><input class="lab-campo" id="ar-hojas" type="text" data-arbol="hojas" autocomplete="off"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="ar-frutos">Frutos: lo que recibí de otros</label><input class="lab-campo" id="ar-frutos" type="text" data-arbol="frutos" autocomplete="off"></div>
+          <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi árbol (texto)</button></div>
+        </form>
+        <figure class="lab-rueda__grafico">
+          <svg viewBox="0 0 360 400" role="img" aria-labelledby="arbol-t" data-arbol-svg><title id="arbol-t">Tu árbol de la vida, con lo que escribiste en cada parte</title></svg>
+          <figcaption class="lab-nota">El dibujo repite lo que escribiste en el formulario.</figcaption>
+        </figure>
+      </div>
+      <p class="lab-nota">En la versión completa del árbol de la vida, también se habla de las «tormentas» que atraviesa el árbol, siempre desde un lugar seguro, después de haber reconocido sus fortalezas. Ese trabajo conviene hacerlo acompañado.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="narrativa">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Un nombre.</strong> Ponele nombre a un problema que te acompaña.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Cómo opera.</strong> Observá cuándo aparece y qué te dice.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Una excepción.</strong> Anotá un momento en que no ganó.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Otra historia.</strong> Escribí un párrafo de tu historia alternativa.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un testigo.</strong> Contale a alguien de confianza una de tus excepciones.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. El club.</strong> Agradecele a un miembro de honor de tu vida.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. El árbol.</strong> Completá tu árbol de la vida.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Externalizar no significa minimizar: si el problema es una violencia que alguien ejerce sobre vos, la prioridad es tu seguridad (<a href="tel:144">144</a>, <a href="tel:911">911</a>). Y si revisar tu historia trae recuerdos dolorosos, frená y buscá acompañamiento: podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>White, M. y Epston, D. (1990). <em>Medios narrativos para fines terapéuticos</em>.</li>
+        <li>White, M. (2007). <em>Mapas de la práctica narrativa</em>.</li>
+        <li>Ncube, N. (2006). «The Tree of Life Project». <em>International Journal of Narrative Therapy and Community Work</em>, 1.</li>
+        <li>Denborough, D. (2014). <em>Retelling the Stories of Our Lives</em>. W. W. Norton.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -31,7 +31,7 @@ Una terapia integrativa seria no consiste en usar un poco de cada cosa sin crite
 
 ## Cómo lo aplico
 
-En mi caso, el eje es la [psicología analítica de Jung](/terapia-junguiana/), sobre una base psicoanalítica. Desde ahí dialogo con la terapia sistémica, la Gestalt y la cognitivo-conductual: si una persona llega con ataques de pánico, por ejemplo, puede necesitar primero herramientas concretas de regulación, y después un espacio para comprender qué los alimenta.
+En mi caso, el eje es la [psicología analítica de Jung](/terapia-junguiana/), sobre una base psicoanalítica. Desde ahí dialogo con la terapia sistémica, la Gestalt, la terapia narrativa y la cognitivo-conductual: si una persona llega con ataques de pánico, por ejemplo, puede necesitar primero herramientas concretas de regulación, y después un espacio para comprender qué los alimenta.
 
 > El método se adapta a la persona; no la persona al método.
 

@@ -1,0 +1,157 @@
+<!--{
+  "ruta": "/laboratorio-humanista/",
+  "titulo": "Laboratorio humanista: Rogers, Maslow y el crecimiento",
+  "descripcion": "Ejercicios inspirados en Carl Rogers y Abraham Maslow: yo real y yo ideal, escucha empática, aceptación incondicional y experiencias cumbre.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Humanista", "/laboratorio-humanista/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>humanista</em>",
+  "bajada": "La confianza en la capacidad de cada persona para crecer. Ejercicios inspirados en Carl Rogers y Abraham Maslow para acercar quién sos y quién creés que deberías ser.",
+  "respuesta": "El laboratorio humanista propone ejercicios inspirados en la psicología humanista de Carl Rogers y Abraham Maslow: comparar el yo real con el yo ideal (congruencia), practicar la escucha empática, escribir desde la aceptación incondicional, registrar experiencias cumbre y pensar qué te ayuda a crecer. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-humanista.js"],
+  "wa_tema": "el laboratorio humanista",
+  "articulos": ["psicologia-humanista-carl-rogers", "terapia-gestalt", "la-empatia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están <em>inspirados</em> en la psicología humanista, una de las corrientes de las que tomo recursos en mi <a href="/enfoque/">enfoque integrativo</a>. No reemplazan una terapia.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es «pensar positivo» ni repetirte que sos maravilloso. Es algo más simple y más difícil: mirarte con la misma aceptación con que mirarías a alguien que querés, sin condiciones. Carl Rogers observó que las personas cambian, paradójicamente, cuando se sienten aceptadas tal como son.</p>
+        <p>La psicología humanista nació a mediados del siglo XX como una «tercera fuerza», frente al psicoanálisis y al conductismo. Confía en la tendencia de cada persona a crecer y desarrollarse si encuentra las condiciones adecuadas: empatía, aceptación y autenticidad. Más en <a href="/recursos/psicologia-humanista-carl-rogers/">la psicología humanista y Carl Rogers</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin juicio.</strong> Lo que aparezca está bien que aparezca.</li>
+        <li><strong>Con honestidad.</strong> Nadie más lo va a leer.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#yo-real">Yo real y yo ideal</a>
+      <a href="#escucha">Escucha empática</a>
+      <a href="#aceptacion">Aceptación incondicional</a>
+      <a href="#cumbre">Experiencias cumbre</a>
+      <a href="#crecer">Lo que me hace crecer</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="yo-real" aria-labelledby="t-yo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-yo">Yo real y yo ideal</h2>
+      <p class="lab-estacion__bajada">Para Rogers, buena parte del malestar viene de la distancia entre cómo somos (el yo real) y cómo creemos que deberíamos ser (el yo ideal), muchas veces armado con expectativas ajenas. Cuando esa distancia se acorta, hay más <strong>congruencia</strong>. Escribí cómo sos y cómo «deberías» ser.</p>
+      <form class="lab-tarjeta" data-lab-form="yo-real-y-yo-ideal" data-lab-form-titulo="Yo real y yo ideal" data-yo-real novalidate>
+        <div class="lab-tabla2">
+          <div data-lab-lista-editable data-lab-lista-titulo="Cómo soy">
+            <label class="lab-paso__titulo" for="yr-real" style="display:block">Cómo soy</label>
+            <div class="lab-lle__fila"><input class="lab-campo" id="yr-real" type="text" placeholder="Por ejemplo: me cuesta decir que no" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+            <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+          </div>
+          <div data-lab-lista-editable data-lab-lista-titulo="Cómo creo que debería ser">
+            <label class="lab-paso__titulo" for="yr-ideal" style="display:block">Cómo creo que debería ser</label>
+            <div class="lab-lle__fila"><input class="lab-campo" id="yr-ideal" type="text" placeholder="Por ejemplo: siempre seguro de mí" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+            <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+          </div>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem">
+          <label class="lab-paso__titulo" for="yr-distancia">¿Qué tan lejos sentís hoy esas dos imágenes? <output for="yr-distancia" data-yr-valor>5</output> de 10</label>
+          <input class="lab-rango" id="yr-distancia" type="range" min="0" max="10" value="5">
+          <p class="lab-paso__ayuda" data-yr-texto aria-live="polite"></p>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yr-quien">¿De quién son esos «debería»? ¿A quién se parecen?</label><textarea class="lab-texto" id="yr-quien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yr-soltar">¿Qué «debería» podrías soltar, o volver más humano?</label><textarea class="lab-texto" id="yr-soltar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="escucha" aria-labelledby="t-escucha">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-escucha">Escucha empática</h2>
+      <p class="lab-estacion__bajada">Rogers describió la <strong>comprensión empática</strong>: entender el mundo del otro desde adentro y devolvérselo, sin juzgar, aconsejar ni minimizar. Parece fácil, pero casi siempre nos sale lo contrario. ¿Cuál de las tres respuestas es la más empática?</p>
+      <div class="lab-tarjeta" data-lab-quiz="empatica">
+        <p class="lab-tarjeta__titulo">Alguien te dice</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta" data-lab-quiz-opciones></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="aceptacion" aria-labelledby="t-aceptacion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-aceptacion">Aceptación incondicional</h2>
+      <p class="lab-estacion__bajada">La <strong>consideración positiva incondicional</strong> es, para Rogers, aceptar a la persona sin condiciones: no por lo que logra, sino por lo que es. Muchos aprendimos lo contrario: que nos querían «si». Probá escribirte desde ese lugar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="aceptacion-incondicional" data-lab-form-titulo="Aceptación incondicional" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ac-si">Aprendí que me iban a querer si…</label><textarea class="lab-texto" id="ac-si" rows="2" placeholder="me portaba bien, sacaba buenas notas, no molestaba…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ac-sin">Hoy me digo, sin condiciones:</label><textarea class="lab-texto" id="ac-sin" rows="4" placeholder="Me acepto aunque… Valgo también cuando…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ac-quien">¿Quién me hizo sentir aceptado o aceptada así? ¿Qué me decía o hacía?</label><textarea class="lab-texto" id="ac-quien" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="cumbre" aria-labelledby="t-cumbre">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-cumbre">Experiencias cumbre</h2>
+      <p class="lab-estacion__bajada">Abraham Maslow llamó <strong>experiencias cumbre</strong> a esos momentos de plenitud, asombro o conexión profunda en que sentimos que la vida tiene sentido. Recordarlas ayuda a saber qué nos nutre.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="experiencias-cumbre" data-lab-form-titulo="Experiencias cumbre" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ec-momento">Un momento en que me sentí pleno o plena</label><textarea class="lab-texto" id="ec-momento" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ec-donde">Dónde estaba, con quién, qué estaba haciendo</label><textarea class="lab-texto" id="ec-donde" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ec-dice">¿Qué dice ese momento de lo que necesito o valoro?</label><textarea class="lab-texto" id="ec-dice" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="crecer" aria-labelledby="t-crecer">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-crecer">Lo que me hace crecer</h2>
+      <p class="lab-estacion__bajada">Rogers comparaba la tendencia al crecimiento con las papas que, guardadas en un sótano oscuro, igual echan brotes buscando la luz. ¿Qué condiciones te ayudan a crecer, y cuáles te achican?</p>
+      <form class="lab-tarjeta" data-lab-form="lo-que-me-hace-crecer" data-lab-form-titulo="Lo que me hace crecer" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="cr-si">Me ayuda a crecer…</label><textarea class="lab-texto" id="cr-si" rows="5" placeholder="Personas, lugares, actividades…"></textarea></div>
+          <div><label for="cr-no">Me achica…</label><textarea class="lab-texto" id="cr-no" rows="5"></textarea></div>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="cr-paso">Un paso para darle más lugar a lo que me hace crecer</label><input class="lab-campo" id="cr-paso" type="text" autocomplete="off"></div>
+        <p class="lab-nota">Para seguir con esto, te puede servir el <a href="/laboratorio-de-valores/">laboratorio de valores y sentido</a>.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="humanista">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Cómo soy.</strong> Escribí cinco rasgos tuyos, sin juzgarlos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Los «debería».</strong> Anotá los «debería» que aparecen en tu día.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Escuchar.</strong> Escuchá a alguien y devolvele lo que entendiste antes de opinar.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Sin condiciones.</strong> Escribite una frase de aceptación incondicional.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Ser auténtico.</strong> Decí algo que pensás de verdad, con cuidado, en vez de lo que se espera.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un momento cumbre.</strong> Recordá y escribí una experiencia de plenitud.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Crecer.</strong> Hacé una cosa que te ayude a crecer.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Mirar la distancia entre quién sos y quién creés que deberías ser puede doler, sobre todo si esos «debería» vienen de vínculos muy exigentes. Si te pesa mucho, es un buen tema para trabajar en terapia: podés <a href="/contacto/">escribirme</a>. También te puede servir el <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Rogers, C. R. (1961). <em>El proceso de convertirse en persona</em>.</li>
+        <li>Rogers, C. R. (1957). «The necessary and sufficient conditions of therapeutic personality change». <em>Journal of Consulting Psychology</em>, 21(2).</li>
+        <li>Maslow, A. H. (1968). <em>El hombre autorrealizado: hacia una psicología del ser</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

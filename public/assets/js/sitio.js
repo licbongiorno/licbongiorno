@@ -585,17 +585,45 @@
     enlacesI.forEach(function (a) { var h = document.getElementById(a.getAttribute("href").slice(1)); if (h) ioI.observe(h); });
   }
 
+  /* ---------- Filtros del catálogo de laboratorios ---------- */
+  var filtros = document.querySelector("[data-lab-filtros]");
+  if (filtros) {
+    var catalogo = document.querySelector("[data-lab-catalogo]"), estFiltro = document.querySelector("[data-lab-filtros-estado]");
+    filtros.hidden = false;
+    filtros.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-filtro]");
+      if (!b || !catalogo) return;
+      var t = b.getAttribute("data-filtro"), n = 0;
+      filtros.querySelectorAll("[data-filtro]").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      catalogo.querySelectorAll(".lab-catalogo__item").forEach(function (it) {
+        var ver = !t || it.getAttribute("data-tema") === t;
+        it.hidden = !ver; if (ver) n++;
+      });
+      estFiltro.textContent = (t ? t + ": " : "") + n + (n === 1 ? " laboratorio" : " laboratorios");
+    });
+  }
+
+  /* ---------- Atajo «/» para buscar ---------- */
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+    var t = e.target, tag = (t && t.tagName) || "";
+    if (/^(INPUT|TEXTAREA|SELECT)$/.test(tag) || (t && t.isContentEditable)) return;
+    var campo = document.getElementById("buscar-sitio");
+    e.preventDefault();
+    if (campo) campo.focus(); else location.href = "/buscar/";
+  });
+
   /* ---------- Modo claro / oscuro ---------- */
   var oscuroSistema = window.matchMedia("(prefers-color-scheme: dark)");
   var temaActual = function () { return doc.getAttribute("data-tema") || (oscuroSistema.matches ? "oscuro" : "claro"); };
   var marcarBotones = function () {
     var t = temaActual();
-    document.querySelectorAll(".tema-boton").forEach(function (b) {
+    document.querySelectorAll("button.tema-boton").forEach(function (b) {
       b.setAttribute("aria-label", t === "oscuro" ? "Cambiar a modo claro" : "Cambiar a modo oscuro");
       b.setAttribute("aria-pressed", t === "oscuro" ? "true" : "false");
     });
   };
-  document.querySelectorAll(".tema-boton").forEach(function (b) {
+  document.querySelectorAll("button.tema-boton").forEach(function (b) {
     b.addEventListener("click", function () {
       var nuevo = temaActual() === "oscuro" ? "claro" : "oscuro";
       if (!reducido) { doc.classList.add("cambiando-tema"); setTimeout(function () { doc.classList.remove("cambiando-tema"); }, 600); }

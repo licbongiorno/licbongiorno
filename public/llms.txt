@@ -17,7 +17,7 @@
 - También integra el equipo de Centro Sinapsis (Berazategui), con atención online: https://sinapsiscentro.com.ar/equipo-profesional.html
 
 ## Enfoque
-El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orientación junguiana: sueños, símbolos, sombra, proceso de individuación), sobre una base psicoanalítica y psicodinámica. Desde una perspectiva integrativa, dialoga con la terapia sistémica, la Gestalt y la terapia cognitivo-conductual, y toma recursos de otros marcos cuando son pertinentes. Estas corrientes son marcos teóricos de referencia: no se presentan como especializaciones ni certificaciones.
+El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orientación junguiana: sueños, símbolos, sombra, proceso de individuación), sobre una base psicoanalítica y psicodinámica. Desde una perspectiva integrativa, dialoga con la terapia sistémica, la Gestalt, la terapia narrativa y la terapia cognitivo-conductual, y toma recursos de otros marcos cuando son pertinentes. Estas corrientes son marcos teóricos de referencia: no se presentan como especializaciones ni certificaciones.
 
 ## Motivos de consulta que aborda
 ansiedad, depresión, estrés y agotamiento, ataques de pánico, autoestima, dificultades vinculares, conflictos de pareja y familiares, duelo y pérdidas, crisis vitales, trauma y regulación emocional, autoconocimiento, desarrollo personal, dificultades emocionales, cambios y transiciones de vida.
@@ -102,6 +102,11 @@ ansiedad, depresión, estrés y agotamiento, ataques de pánico, autoestima, dif
 - [La meditación en Occidente: de la oración contemplativa a la relajación](https://licbongiorno5.vercel.app/recursos/meditacion-en-occidente/): Occidente también tiene su historia de silencio y contemplación. De los monjes del desierto a la relajación progresiva y el entrenamiento autógeno.
 - [Jung y la meditación: Oriente, el mandala y la imaginación activa](https://licbongiorno5.vercel.app/recursos/jung-y-la-meditacion/): Jung se interesó por el yoga, el zen y la alquimia china, pero advirtió que Occidente necesitaba su propio camino. Qué propuso.
 - [Cuándo meditar no es recomendable: efectos adversos y cuidados](https://licbongiorno5.vercel.app/recursos/cuando-meditar-no-es-recomendable/): Se habla mucho de los beneficios de meditar y poco de sus riesgos. Qué dice la investigación sobre los efectos adversos y cómo cuidarse.
+- [Terapia Gestalt: el aquí y ahora y el darse cuenta](https://licbongiorno5.vercel.app/recursos/terapia-gestalt/): Menos «por qué» y más «qué» y «cómo». Qué es la terapia Gestalt, sus ideas centrales y sus técnicas más conocidas, como la silla vacía.
+- [La psicología humanista y Carl Rogers: confiar en la capacidad de crecer](https://licbongiorno5.vercel.app/recursos/psicologia-humanista-carl-rogers/): Empatía, aceptación y autenticidad. Qué propuso Carl Rogers, qué aportó Maslow y por qué la relación terapéutica sigue siendo tan importante.
+- [Terapia narrativa: la persona no es el problema](https://licbongiorno5.vercel.app/recursos/terapia-narrativa/): Las historias que nos contamos sobre nosotros nos dan forma. Qué propone la terapia narrativa para separarnos del problema y escribir otra historia.
+- [Terapia sistémica: la familia como sistema](https://licbongiorno5.vercel.app/recursos/terapia-sistemica/): No vivimos aislados. Qué propone la terapia sistémica para entender lo que nos pasa en relación con la familia, la pareja y los grupos.
+- [El genograma: el árbol familiar que muestra los vínculos](https://licbongiorno5.vercel.app/recursos/el-genograma/): Un árbol genealógico que, además de nombres, muestra vínculos, pérdidas y patrones que se repiten. Qué es el genograma y cómo armar uno.
 
 ## Texto completo
 - https://licbongiorno5.vercel.app/llms-full.txt (todas las páginas en texto plano)
