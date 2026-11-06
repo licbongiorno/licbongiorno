@@ -39,6 +39,10 @@ NOMBRE_COMPLETO = f'{C["prefijo"]} {C["nombre"]}'
 WA_BASE = f'https://wa.me/{C["whatsapp_numero"]}'
 HOY = C.get("fecha_actualizacion") or date.today().isoformat()
 
+REGLAS_ESPECULACION = json.dumps({"prerender": [{"source": "document", "where": {"and": [
+    {"href_matches": "/*"}, {"not": {"href_matches": "/assets/*"}}, {"not": {"selector_matches": "[target=_blank]"}}]},
+    "eagerness": "moderate"}]}, separators=(",", ":"))
+
 # Script en línea mínimo: marca que hay JS antes del primer pintado (evita parpadeos).
 JS_INLINE = ('var d=document.documentElement;d.classList.add("js");'
              'try{var t=localStorage.getItem("nb-tema");if(t==="oscuro"||t==="claro")d.setAttribute("data-tema",t)}catch(e){}'
@@ -281,10 +285,12 @@ def cabecera(ruta):
     for txt, href, sub in NAV:
         if sub:
             for t, h, d in sub:
-                movil.append(f'<li><a href="{h}">{esc(t)}<small>{esc(d.split(",")[0])}</small></a></li>')
+                cur = ' aria-current="page"' if ruta == h else ""
+                movil.append(f'<li><a href="{h}"{cur}>{esc(t)}<small>{esc(d)}</small></a></li>')
         else:
-            movil.append(f'<li><a href="{href}">{esc(txt)}</a></li>')
-    movil.append('<li><a href="/contacto/">Contacto</a></li>')
+            cur = ' aria-current="page"' if ruta == href or (href != "/" and ruta.startswith(href)) else ""
+            movil.append(f'<li><a href="{href}"{cur}>{esc("Motivos de consulta" if txt == "Motivos" else txt)}</a></li>')
+    movil.append(f'<li><a href="/contacto/"{" aria-current=\"page\"" if ruta == "/contacto/" else ""}>Contacto</a></li>')
     return f'''<a class="saltar" href="#contenido">Saltar al contenido</a>
 <header class="cabecera">
   <div class="contenedor cabecera__fila">
@@ -884,7 +890,7 @@ def migas_schema(migas):
 
 # --------------------------------------------------------------------------- plantilla
 def csp():
-    script = ["'self'", f"'sha256-{JS_INLINE_HASH}'"]
+    script = ["'self'", f"'sha256-{JS_INLINE_HASH}'", "'inline-speculation-rules'"]
     connect = ["'self'"]
     img = ["'self'", "data:"]
     if C.get("ga4_id"):
@@ -982,6 +988,7 @@ def pagina(meta, cuerpo, ruta):
 <script type="application/ld+json">
 {jsonld}
 </script>
+<script type="speculationrules">{REGLAS_ESPECULACION}</script>
 <script type="application/json" id="config-sitio">{config_js}</script>
 <script src="/assets/js/sitio.js?v={VERSION}" defer></script>
 {'<script src="/_vercel/insights/script.js" defer></script>' if C.get("vercel_analytics") else ""}
@@ -1027,6 +1034,8 @@ def leer_articulos():
                 k, v = l.split(":", 1)
                 meta[k.strip()] = v.strip()
         meta["publicado"] = meta.get("estado") == "publicado"
+        palabras = len(re.findall(r"\w+", re.sub(r"^## Para seguir leyendo.*", "", cuerpo, flags=re.S | re.M)))
+        meta["lectura"] = str(max(3, round(palabras / 200)))
         meta["ruta"] = f'/recursos/{f.stem}/'
         meta["md"] = cuerpo
         meta["archivo"] = f.name
@@ -1072,7 +1081,7 @@ def render_articulo(a):
     <p class="articulo__meta"><span>Escrito y revisado por <a href="/sobre-mi/">{esc(NOMBRE_COMPLETO)}</a>, psicólogo clínico ({esc(C["matricula"])})</span><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><span>Última revisión: <time datetime="{a.get("revision", a.get("fecha", HOY))}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></span></p>
   </div>
 </section>
-<div class="contenedor--texto prosa" style="padding-bottom:var(--sec)">
+<div class="contenedor--texto prosa prosa--articulo" style="padding-bottom:var(--sec)">
   {aviso}
   {respuesta_breve(a.get("respuesta"))}
   {indice_articulo(cuerpo_md)}

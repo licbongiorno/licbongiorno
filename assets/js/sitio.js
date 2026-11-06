@@ -543,6 +543,29 @@
   if (oscuroSistema.addEventListener) oscuroSistema.addEventListener("change", marcarBotones);
   marcarBotones();
 
+  /* ---------- Enlaces directos a preguntas frecuentes: abrir y resaltar ---------- */
+  var abrirDestino = function () {
+    if (!location.hash) return;
+    var el; try { el = document.querySelector(location.hash); } catch (err) { return; }
+    var det = el && (el.tagName === "DETAILS" ? el : el.closest("details"));
+    if (det && !det.classList.contains("indice-articulo")) {
+      det.open = true;
+      det.classList.remove("destacada"); void det.offsetWidth; det.classList.add("destacada");
+      setTimeout(function () { det.scrollIntoView({ behavior: reducido ? "auto" : "smooth", block: "center" }); }, 60);
+    }
+  };
+  abrirDestino();
+  window.addEventListener("hashchange", abrirDestino);
+
+  /* ---------- Fotos diferidas que se funden al cargar ---------- */
+  document.querySelectorAll('img[loading="lazy"]').forEach(function (img) {
+    if (img.complete && img.naturalWidth) return;
+    img.classList.add("por-cargar");
+    var listo = function () { img.classList.add("cargada"); };
+    img.addEventListener("load", listo, { once: true });
+    img.addEventListener("error", listo, { once: true });
+  });
+
   /* ---------- Medición de clics de contacto (si hay GA4 con consentimiento) ---------- */
   function evento(nombre, params) { if (typeof window.gtag === "function") window.gtag("event", nombre, params || {}); }
   document.addEventListener("click", function (e) {

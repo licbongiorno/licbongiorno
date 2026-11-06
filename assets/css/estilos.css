@@ -1072,3 +1072,84 @@ html.cambiando-tema, html.cambiando-tema * { transition: background-color .5s va
 }
 .urgencias { grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
 .urgencia > a { white-space: nowrap; font-size: clamp(1.6rem, 1.25rem + 1vw, 2.1rem); }
+
+/* ==========================================================================
+   Microdetalles (6 de noviembre de 2026)
+   ========================================================================== */
+/* Tipografía: sin palabras sueltas al final de los párrafos, comillas colgantes, números alineados */
+p, li, dd, figcaption { text-wrap: pretty; }
+blockquote, .manifiesto__frase { hanging-punctuation: first; }
+.datos strong, .franja-confianza strong, .resenas__dato strong, .umbral__sello strong, .urgencia > a { font-variant-numeric: lining-nums tabular-nums; }
+abbr[title] { text-decoration: none; }
+
+/* Letra capital en el primer párrafo de cada artículo */
+.prosa--articulo > p:first-of-type::first-letter {
+  float: left; font-family: var(--f-display); font-size: 4.1em; line-height: .82; padding: .08em .12em 0 0; color: var(--salvia-profunda);
+}
+
+/* Página actual en el menú: también el grupo desplegable y el menú móvil */
+.nav__desplegar[data-actual] { color: var(--tinta); }
+.menu-movil a[aria-current="page"] { color: var(--salvia-profunda); }
+.menu-movil a[aria-current="page"]::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--terracota); position: absolute; left: -14px; top: 50%; transform: translateY(-50%); }
+.menu-movil li { position: relative; }
+
+/* Barras de desplazamiento con los colores de la marca */
+html { scrollbar-color: rgba(74,90,60,.45) transparent; }
+.carrusel__pista, .menu-movil { scrollbar-width: thin; }
+
+/* Autocompletado del navegador sin el amarillo por defecto */
+.campo input:-webkit-autofill, .campo input:-webkit-autofill:hover, .campo input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--tinta); box-shadow: 0 0 0 1000px var(--papel) inset; transition: background-color 9999s;
+}
+.campo input::placeholder, .campo textarea::placeholder, .buscador input::placeholder { color: var(--piedra-oscura); opacity: .8; }
+.check input { accent-color: var(--accion); }
+
+/* Toques en celular: sin destello gris, objetivos táctiles amplios */
+a, button, summary, label { -webkit-tap-highlight-color: transparent; }
+.migas a, .pie a, .redes a { padding-block: .15rem; }
+
+/* Botón de tema: el ícono gira al cambiar */
+.tema-boton svg { transition: transform .6s var(--ease-out), opacity .3s; }
+.tema-boton[aria-pressed="true"] .sol { transform: rotate(90deg); }
+.cambiando-tema .tema-boton svg { animation: tema-giro .6s var(--ease-out); }
+@keyframes tema-giro { from { transform: rotate(-90deg) scale(.6); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* Foco visible y consistente en elementos con fondo propio */
+.boton:focus-visible, .opcion input:focus-visible + span, .tema-boton:focus-visible, .menu-boton:focus-visible { outline: 2px solid var(--foco); outline-offset: 3px; }
+.faq summary:focus-visible { outline-offset: 6px; border-radius: 6px; }
+
+/* Enlaces de texto: subrayado más fino que se engrosa al pasar */
+.prosa a:not(.boton):not(.enlace-glosario) { text-decoration-thickness: 1px; transition: text-decoration-thickness .2s, color .2s; }
+.prosa a:not(.boton):not(.enlace-glosario):hover { text-decoration-thickness: 2px; }
+
+/* Tarjetas: el título acompaña al hover */
+.articulo-tarjeta h3, .motivo h3 { transition: color .3s var(--ease); }
+.articulo-tarjeta:hover h3, .motivo:hover h3 { color: var(--salvia-profunda); }
+
+/* Imágenes: nunca arrastrables por accidente en el carrusel o al tocar */
+.umbral img, .retrato img { -webkit-user-drag: none; user-select: none; }
+
+@media (prefers-reduced-motion: reduce) { .cambiando-tema .tema-boton svg { animation: none; } }
+
+/* ---------- Refinamientos de movimiento ---------- */
+/* 1. Profundidad de las fotos al desplazarse (CSS puro, mejora progresiva) */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .retrato img { animation: paralaje-foto linear both; animation-timeline: view(); animation-range: cover; }
+    @keyframes paralaje-foto { from { transform: translateY(-3.5%) scale(1.08); } to { transform: translateY(3.5%) scale(1.08); } }
+  }
+}
+/* 2. La línea del antetítulo se dibuja al aparecer */
+.js .revelar .antetitulo::before, .js .revelar.antetitulo::before { width: 0; transition: width .9s var(--ease-out) .25s; }
+.js .revelar.visible .antetitulo::before, .js .revelar.visible.antetitulo::before { width: 2rem; }
+/* 3 y 4. Destino de un enlace: resaltado breve */
+@keyframes resaltar { 0% { background-color: rgba(244,162,97,.22); } 100% { background-color: transparent; } }
+.termino:target, .faq details.destacada { animation: resaltar 2.2s var(--ease) .2s; border-radius: var(--r-s); }
+/* 5. Fotos que se funden al cargar */
+.js img.por-cargar { opacity: 0; transition: opacity .7s var(--ease); }
+.js img.por-cargar.cargada { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .js .revelar .antetitulo::before { width: 2rem; transition: none; }
+  .termino:target, .faq details.destacada { animation: none; }
+  .js img.por-cargar { opacity: 1; transition: none; }
+}
