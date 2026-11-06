@@ -1297,7 +1297,7 @@ main#contenido:focus { outline: none; }
 .para-vos-bloque > .bajada, .modalidades-bloque > .bajada { margin: 0 0 2rem; max-width: 40rem; }
 .espacio .rasgo { border-top-color: rgba(246,241,235,.25); }
 .espacio .rasgo p { color: #DAD6CB; }
-.espacio .rasgo blockquote { color: var(--salvia-suave); }
+.espacio .rasgo blockquote { color: #DDE3D2; }
 .espacio .rasgo__icono { color: var(--terracota-suave); border-color: rgba(246,241,235,.3); }
 .espacio .bajada { color: #DAD6CB; }
 .espacio__resenas { margin-top: clamp(3.5rem, 2.5rem + 4vw, 6rem); padding-top: clamp(2.5rem, 2rem + 2vw, 4rem); border-top: 1px solid rgba(246,241,235,.18); }

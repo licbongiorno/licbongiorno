@@ -464,7 +464,7 @@ def cabecera(ruta):
   <nav aria-label="Principal (móvil)"><ul>{"".join(movil)}</ul></nav>
   <div class="menu-movil__pie">
     <a class="boton" href="/contacto/">Pedir una primera entrevista</a>
-    <a class="boton boton--secundario boton--whatsapp" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="menu">{ICON["whatsapp"]} Escribir por WhatsApp</a>
+    <a class="boton boton--secundario boton--whatsapp" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="menu">{ICON["whatsapp"]} Escribirme por WhatsApp</a>
   </div>
 </div>'''
 
