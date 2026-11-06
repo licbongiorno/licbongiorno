@@ -332,6 +332,8 @@ LABORATORIOS = [
      "descripcion": "Externalizar el problema, buscar excepciones, dos historias, el club de la vida y el árbol de la vida."},
     {"titulo": "Laboratorio sistémico", "ruta": "/laboratorio-sistemico/", "tipo": "Sistémica",
      "descripcion": "Tu genograma dibujado en pantalla, preguntas circulares, secuencias que se repiten, mandatos y límites."},
+    {"titulo": "Laboratorio de diálogo socrático", "ruta": "/laboratorio-de-dialogo-socratico/", "tipo": "Pensamiento",
+     "descripcion": "Reconocer preguntas que abren, los seis tipos de preguntas, un diálogo guiado con tu creencia y cómo preguntar a otros."},
 ]
 
 TEMAS_LAB = {
@@ -345,7 +347,7 @@ TEMAS_LAB = {
     "/laboratorio-de-descanso/": "Cuerpo y respiración", "/laboratorio-de-habitos/": "Aprendizaje y cambio",
     "/laboratorio-de-respiraciones/": "Cuerpo y respiración", "/laboratorio-de-meditacion/": "Cuerpo y respiración",
     "/laboratorio-gestalt/": "Enfoques", "/laboratorio-humanista/": "Enfoques", "/laboratorio-narrativo/": "Enfoques",
-    "/laboratorio-sistemico/": "Vínculos",
+    "/laboratorio-sistemico/": "Vínculos", "/laboratorio-de-dialogo-socratico/": "Aprendizaje y cambio",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio"]
 
@@ -680,6 +682,10 @@ def bloque_datos_clave():
 
 
 WIKI = {
+    "socrates": ("Sócrates", "https://es.wikipedia.org/wiki/S%C3%B3crates"),
+    "metodo-socratico": ("Método socrático", "https://es.wikipedia.org/wiki/M%C3%A9todo_socr%C3%A1tico"),
+    "mayeutica": ("Mayéutica", "https://es.wikipedia.org/wiki/May%C3%A9utica"),
+    "aaron-beck": ("Aaron T. Beck", "https://es.wikipedia.org/wiki/Aaron_T._Beck"),
     "jung": ("Carl Gustav Jung", "https://es.wikipedia.org/wiki/Carl_Gustav_Jung"),
     "freud": ("Sigmund Freud", "https://es.wikipedia.org/wiki/Sigmund_Freud"),
     "bowlby": ("John Bowlby", "https://es.wikipedia.org/wiki/John_Bowlby"),

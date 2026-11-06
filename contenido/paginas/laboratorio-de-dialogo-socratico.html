@@ -1,0 +1,174 @@
+<!--{
+  "ruta": "/laboratorio-de-dialogo-socratico/",
+  "titulo": "Laboratorio de diálogo socrático: preguntar para pensar",
+  "descripcion": "Ejercicios de diálogo socrático: reconocer buenas preguntas, los seis tipos de preguntas, un diálogo guiado con tu propia creencia y cómo preguntar a otros.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Diálogo socrático", "/laboratorio-de-dialogo-socratico/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>diálogo socrático</em>",
+  "bajada": "Practicar el arte de preguntar: para revisar lo que pensás de vos, para entender mejor a otros y para llegar a conclusiones propias en lugar de respuestas prestadas.",
+  "respuesta": "El laboratorio de diálogo socrático propone ejercicios para reconocer preguntas que abren frente a preguntas que inducen o aconsejan, conocer los seis tipos de preguntas socráticas de Paul y Elder, recorrer un diálogo guiado con una creencia propia siguiendo los cuatro pasos de Christine Padesky, comparar buenas y malas preguntas y practicar preguntas para conversaciones difíciles. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-socratico.js"],
+  "wa_tema": "el laboratorio de diálogo socrático",
+  "articulos": ["el-dialogo-socratico", "metahabilidades", "ansiedad-cuando-el-cuerpo-habla"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios están <em>inspirados</em> en el método socrático tal como lo usan distintas psicoterapias. Son para pensar y practicar, no reemplazan una terapia.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es ganar una discusión ni hacerle decir al otro lo que ya pensabas. Es preguntar porque de verdad no sabés, y dejar que la respuesta aparezca. Sócrates decía que hacía lo mismo que su madre, que era partera: no daba a luz ideas, ayudaba a otros a dar a luz las suyas.</p>
+        <p>En psicoterapia, este modo de preguntar se usa para revisar pensamientos que hacen sufrir, buscar sentido o entender lo que se repite. Si querés saber de dónde viene y cómo lo usan distintas terapias, leé <a href="/recursos/el-dialogo-socratico/">el diálogo socrático: preguntar para pensar mejor</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con curiosidad.</strong> Preguntá como si no supieras la respuesta.</li>
+        <li><strong>Sin apuro.</strong> Una pregunta a la vez.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#reconocer">¿Es socrática?</a>
+      <a href="#tipos">Seis tipos de preguntas</a>
+      <a href="#dialogo">Un diálogo con tu creencia</a>
+      <a href="#buenas-malas">Buenas y malas preguntas</a>
+      <a href="#otros">Preguntar a otros</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="reconocer" aria-labelledby="t-reconocer">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-reconocer">¿Es una pregunta socrática?</h2>
+      <p class="lab-estacion__bajada">Muchas preguntas son, en realidad, consejos o juicios disfrazados. Una pregunta socrática <strong>abre</strong>: invita al otro a pensar y no trae la respuesta adentro. Leé la situación y elegí qué hace cada pregunta.</p>
+      <div class="lab-tarjeta" data-lab-quiz="reconocer">
+        <p class="lab-tarjeta__titulo">La pregunta</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta" data-lab-quiz-opciones></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="tipos" aria-labelledby="t-tipos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-tipos">Seis tipos de preguntas</h2>
+      <p class="lab-estacion__bajada">Richard Paul y Linda Elder ordenaron las preguntas socráticas en seis familias. No hace falta usarlas todas: sirven como un mapa para cuando una conversación, con otro o con vos, se traba. Elegí un tipo y pedí otra pregunta las veces que quieras.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Tipos de preguntas socráticas">
+          <label class="opcion"><input type="radio" name="tipo" value="clarificar" checked><span>Clarificación</span></label>
+          <label class="opcion"><input type="radio" name="tipo" value="supuestos"><span>Supuestos</span></label>
+          <label class="opcion"><input type="radio" name="tipo" value="evidencia"><span>Evidencia</span></label>
+          <label class="opcion"><input type="radio" name="tipo" value="perspectivas"><span>Perspectivas</span></label>
+          <label class="opcion"><input type="radio" name="tipo" value="consecuencias"><span>Consecuencias</span></label>
+          <label class="opcion"><input type="radio" name="tipo" value="meta"><span>La pregunta sobre la pregunta</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="clarificar"><p><strong>Para entender qué se quiere decir.</strong> Las palabras grandes («siempre», «nadie», «fracaso») suelen esconder cosas más concretas.</p><div data-lab-azar="clarificar"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+        <div class="lab-panel" data-lab-panel="supuestos"><p><strong>Para ver lo que se da por hecho.</strong> Detrás de cada conclusión hay ideas que no se dicen y que vale la pena mirar.</p><div data-lab-azar="supuestos"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+        <div class="lab-panel" data-lab-panel="evidencia"><p><strong>Para revisar en qué se apoya lo que pensamos.</strong> No para refutarlo, sino para ver si se sostiene.</p><div data-lab-azar="evidencia"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+        <div class="lab-panel" data-lab-panel="perspectivas"><p><strong>Para mirar desde otro lugar.</strong> Cuando estamos adentro de un problema, cuesta ver lo que se ve desde afuera.</p><div data-lab-azar="perspectivas"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+        <div class="lab-panel" data-lab-panel="consecuencias"><p><strong>Para pensar a dónde lleva una idea.</strong> Lo que creemos tiene efectos: en lo que hacemos, en cómo nos sentimos, en los vínculos.</p><div data-lab-azar="consecuencias"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+        <div class="lab-panel" data-lab-panel="meta"><p><strong>Para revisar la propia búsqueda.</strong> A veces lo más revelador no es la respuesta, sino por qué nos importa tanto la pregunta.</p><div data-lab-azar="meta"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="dialogo" aria-labelledby="t-dialogo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-dialogo">Un diálogo con tu propia creencia</h2>
+      <p class="lab-estacion__bajada">Elegí un pensamiento que te hace sufrir («no sirvo para esto», «me van a dejar», «todo me sale mal») y recorrelo con preguntas. El camino sigue los cuatro pasos que propuso la psicóloga Christine Padesky: preguntar para conocer, escuchar, <strong>resumir</strong> y llegar a una <strong>pregunta que sintetiza</strong>. No se trata de convencerte de lo contrario, sino de ver más.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dialogo-socratico" data-lab-form-titulo="Un diálogo con mi creencia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-creencia"><span>1</span>El pensamiento</label><p class="lab-paso__ayuda">Escribilo tal como aparece, con sus palabras.</p><input class="lab-campo" id="ds-creencia" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-antes"><span>2</span>¿Cuánto lo creés ahora, del 0 al 100?</label><input class="lab-campo" id="ds-antes" type="number" min="0" max="100" inputmode="numeric" style="max-width:8rem"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-significa"><span>3</span>¿Qué querés decir exactamente?</label><p class="lab-paso__ayuda">Si dice «siempre» o «nunca», ¿es literal? ¿Qué palabra lo describiría mejor?</p><textarea class="lab-texto" id="ds-significa" rows="2"></textarea></div>
+        <div class="lab-tabla2">
+          <div><label for="ds-favor">¿Qué te hace pensar que es cierto?</label><textarea class="lab-texto" id="ds-favor" rows="3"></textarea></div>
+          <div><label for="ds-contra">¿Hay algo que no encaje con esa idea?</label><textarea class="lab-texto" id="ds-contra" rows="3"></textarea></div>
+          <div><label for="ds-otras">¿Qué otras explicaciones podría haber?</label><textarea class="lab-texto" id="ds-otras" rows="3"></textarea></div>
+          <div><label for="ds-amigo">Si alguien que querés pensara esto de sí, ¿qué le dirías?</label><textarea class="lab-texto" id="ds-amigo" rows="3"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-consecuencias"><span>4</span>¿Qué te pasa cuando lo creés?</label><p class="lab-paso__ayuda">Qué sentís, qué hacés, qué dejás de hacer.</p><textarea class="lab-texto" id="ds-consecuencias" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-resumen"><span>5</span>Un resumen con tus palabras</label><p class="lab-paso__ayuda">«Por un lado… por otro lado…». Releé lo que escribiste antes de hacerlo.</p><textarea class="lab-texto" id="ds-resumen" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-sintesis"><span>6</span>La pregunta que sintetiza: ¿qué te llevás de esto?</label><p class="lab-paso__ayuda">¿Hay una forma más completa de decir lo mismo? ¿Algo que quieras probar esta semana?</p><textarea class="lab-texto" id="ds-sintesis" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-despues"><span>7</span>¿Cuánto lo creés ahora, del 0 al 100?</label><p class="lab-paso__ayuda">No hace falta que baje. A veces lo que cambia no es cuánto lo creés, sino cuánto te define.</p><input class="lab-campo" id="ds-despues" type="number" min="0" max="100" inputmode="numeric" style="max-width:8rem"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button><button class="boton boton--secundario boton--chico" type="reset">Empezar otro diálogo</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="buenas-malas" aria-labelledby="t-buenas">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-buenas">Buenas y malas preguntas</h2>
+      <p class="lab-estacion__bajada">La diferencia entre una pregunta que abre y una que encierra muchas veces es sutil. Para cada situación, elegí la pregunta que deja más lugar al otro.</p>
+      <div class="lab-tarjeta" data-lab-quiz="mejor">
+        <p class="lab-tarjeta__titulo">Alguien te dice</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí la mejor pregunta" data-lab-quiz-opciones></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente</button></div>
+      </div>
+      <div class="prosa" style="margin-top:2rem;max-width:46rem">
+        <h3>Cinco cuidados para preguntar bien</h3>
+        <ul>
+          <li><strong>Curiosidad genuina.</strong> Si ya sabés qué respuesta querés escuchar, no es una pregunta: es una trampa.</li>
+          <li><strong>Una a la vez.</strong> Una catarata de preguntas se siente como un interrogatorio.</li>
+          <li><strong>Dejá el silencio.</strong> Lo mejor suele llegar después de una pausa incómoda.</li>
+          <li><strong>Resumí con sus palabras.</strong> «Entonces, por un lado… y por otro…». Ordena y muestra que escuchás.</li>
+          <li><strong>No busques ganar.</strong> El objetivo es que el otro vea con más claridad, no que te dé la razón.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="otros" aria-labelledby="t-otros">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-otros">Preguntar a otros</h2>
+      <p class="lab-estacion__bajada">En una conversación difícil, con tu pareja, tu familia o en el trabajo, una buena pregunta puede bajar la tensión más que un buen argumento. Elegí el contexto y pedí ideas. Usalas de a una, y solo si de verdad querés escuchar la respuesta.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Contexto de la conversación">
+          <label class="opcion"><input type="radio" name="contexto" value="pareja" checked><span>Pareja</span></label>
+          <label class="opcion"><input type="radio" name="contexto" value="familia"><span>Familia</span></label>
+          <label class="opcion"><input type="radio" name="contexto" value="trabajo"><span>Trabajo</span></label>
+          <label class="opcion"><input type="radio" name="contexto" value="amistad"><span>Amistad</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="pareja"><div data-lab-azar="pareja"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+        <div class="lab-panel" data-lab-panel="familia"><div data-lab-azar="familia"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+        <div class="lab-panel" data-lab-panel="trabajo"><div data-lab-azar="trabajo"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+        <div class="lab-panel" data-lab-panel="amistad"><div data-lab-azar="amistad"><p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra pregunta</button></div></div></div>
+      </div>
+      <p class="lab-nota">Para decir lo que te pasa con claridad, también te puede servir el <a href="/laboratorio-de-comunicacion-no-violenta/">laboratorio de comunicación no violenta</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Preguntar bien es un hábito. Un pequeño ejercicio por día. Marcalos a medida que los hacés.</p>
+      <div class="lab-tarjeta" data-lab-plan="socratico">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Escuchar tus preguntas.</strong> Anotá tres preguntas que hiciste hoy. ¿Abrían o traían la respuesta adentro?</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Clarificar.</strong> Cuando alguien diga «siempre» o «nunca», preguntá qué quiere decir.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Un diálogo con vos.</strong> Recorré el diálogo con una creencia que te pese.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. El silencio.</strong> Después de preguntar, esperá cinco segundos antes de hablar.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Resumir.</strong> En una conversación, resumí lo que entendiste antes de opinar.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Otra perspectiva.</strong> Preguntate cómo vería tu problema alguien que te quiere.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. ¿Qué te llevás?</strong> Escribí qué aprendiste de esta semana preguntando.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Preguntar ayuda a pensar, pero no es lo que se necesita en todos los momentos. En una crisis, un duelo reciente o un momento de desborde, lo primero es la contención, no las preguntas. Y si un pensamiento te hace sufrir mucho o no podés salir de él, no tenés que resolverlo solo: podés <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Platón. <em>Teeteto</em> y <em>Menón</em>.</li>
+        <li>Padesky, C. A. (1993). «Socratic questioning: Changing minds or guiding discovery?». Conferencia en el European Congress of Behavioural and Cognitive Therapies, Londres.</li>
+        <li>Overholser, J. C. (2018). <em>The Socratic Method of Psychotherapy</em>. Columbia University Press.</li>
+        <li>Paul, R. y Elder, L. (2006). <em>The Thinker's Guide to the Art of Socratic Questioning</em>. Foundation for Critical Thinking.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
