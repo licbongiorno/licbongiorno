@@ -36,7 +36,7 @@ La terapia online se realiza por videollamada, en un día y horario fijos. Para 
 
 - **Normativa:** cada país regula de manera distinta la atención psicológica a distancia. Es razonable preguntarle al profesional dónde está matriculado y conversar sobre tu situación particular antes de iniciar.
 - **Emergencias:** la terapia online no reemplaza la atención de urgencia. Es importante que tengas a mano los teléfonos de emergencia del país donde vivís.
-- **Pagos:** acordá desde el comienzo la forma de pago y la moneda.
+- **Pagos:** acordá desde el comienzo la forma de pago y la moneda. Hoy es habitual pagar con plataformas internacionales como Remitly, Western Union o Global66.
 - **Complementariedad:** si necesitás medicación o atención médica, eso deberá coordinarse con profesionales del lugar donde residís.
 
 > La distancia geográfica no impide un vínculo terapéutico genuino. Lo que lo sostiene es la regularidad, la confianza y la escucha.

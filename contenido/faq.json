@@ -67,8 +67,16 @@
     "id": "otro-pais",
     "pregunta": "¿Puedo hacer terapia si vivo en otro país?",
     "respuesta": [
-      "Sí. Atiendo online a personas hispanohablantes que viven fuera de Argentina, coordinando la diferencia horaria.",
+      "Sí. Atiendo online a personas hispanohablantes que viven fuera de Argentina, coordinando la diferencia horaria, y el pago se puede hacer con plataformas internacionales como Remitly, Western Union o Global66.",
       "Cada país tiene sus propias normas sobre la atención psicológica a distancia, por eso en la primera conversación revisamos tu situación particular. La terapia online no reemplaza la atención de urgencia: ante una emergencia, siempre hay que recurrir a los servicios locales."
+    ]
+  },
+  {
+    "id": "pago-exterior",
+    "pregunta": "¿Cómo pago si vivo fuera de Argentina?",
+    "respuesta": [
+      "Podés abonar las sesiones desde el exterior con plataformas de pago internacional como **Remitly, Western Union o Global66**, entre otras. La forma de pago y la moneda las acordamos al comienzo, junto con el horario.",
+      "Si usás otra plataforma, consultame y vemos si es posible."
     ]
   },
   {
