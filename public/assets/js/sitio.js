@@ -566,6 +566,27 @@
     img.addEventListener("error", listo, { once: true });
   });
 
+  /* ---------- Volver arriba con anillo de progreso ---------- */
+  var arriba = document.querySelector(".volver-arriba");
+  if (arriba) {
+    var pendienteA = false;
+    var medir = function () {
+      pendienteA = false;
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      var k = max > 0 ? window.scrollY / max : 0;
+      arriba.style.setProperty("--avance", (1 - k).toFixed(3));
+      arriba.classList.toggle("visible", window.scrollY > window.innerHeight * 1.5);
+    };
+    window.addEventListener("scroll", function () { if (!pendienteA) { pendienteA = true; requestAnimationFrame(medir); } }, { passive: true });
+    arriba.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: reducido ? "auto" : "smooth" });
+      var destino = document.getElementById("contenido");
+      if (destino) { destino.setAttribute("tabindex", "-1"); destino.focus({ preventScroll: true }); }
+    });
+    medir();
+  }
+
   /* ---------- Medición de clics de contacto (si hay GA4 con consentimiento) ---------- */
   function evento(nombre, params) { if (typeof window.gtag === "function") window.gtag("event", nombre, params || {}); }
   document.addEventListener("click", function (e) {

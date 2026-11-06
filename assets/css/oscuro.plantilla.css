@@ -76,3 +76,5 @@ TEMA .enfoque-bloque__lugar { background: #34402C; color: #ECE6DC; }
 TEMA .enfoque-bloque__lugar--recurso { background: var(--arena-2); color: #ECE6DC; }
 TEMA { scrollbar-color: rgba(179,194,154,.35) transparent; }
 TEMA .prosa--articulo > p:first-of-type::first-letter { color: var(--salvia-profunda); }
+TEMA .urgencia--principal .urgencia__icono { background: rgba(240,164,107,.14); }
+TEMA .volver-arriba { background: var(--arena); }

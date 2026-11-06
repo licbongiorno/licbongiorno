@@ -74,6 +74,16 @@ ICON = {
     "mapa": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
     "pantalla": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8.5 20h7M12 16.5V20"/></svg>',
     "mail": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>',
+    "estrella": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.6L12 16.5l-5.1 2.7 1-5.6-4.1-4 5.7-.8z"/></svg>',
+    "calendario": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M8 13.5h2M14 13.5h2M8 16.5h2"/></svg>',
+    "birrete": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 9 12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.2c0 1.5 2.5 2.8 5.5 2.8s5.5-1.3 5.5-2.8V11"/><path d="M21.5 9v5"/></svg>',
+    "credencial": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="8.5" cy="11" r="2"/><path d="M5.8 16c.6-1.4 1.6-2 2.7-2s2.1.6 2.7 2M14 10h4M14 13.5h3"/></svg>',
+    "telefono": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.5h3l1.5 4-2 1.3a11 11 0 0 0 5.7 5.7l1.3-2 4 1.5v3a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg>',
+    "globo": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.4 2.5 3.5 5.3 3.5 8.5s-1.1 6-3.5 8.5c-2.4-2.5-3.5-5.3-3.5-8.5s1.1-6 3.5-8.5z"/></svg>',
+    "palabra": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5h16v10H9.5L5.5 19v-3.5H4z"/><path d="M8 10.5h8"/></svg>',
+    "espiral": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 12c0-1 1.5-1.5 2-.5s-.5 2.5-2 2.5-3-1.5-3-3.5 2-4 4.5-4S18 8.5 18 12s-3 6-6 6-7-2.5-7-7 3.5-8 7-8"/></svg>',
+    "marco": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19V9a7 7 0 0 1 14 0v10z"/><path d="M3.5 19h17"/></svg>',
+    "arriba": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 18V6M6.5 11.5 12 6l5.5 5.5"/></svg>',
     "comillas": '<svg viewBox="0 0 40 32" fill="currentColor" aria-hidden="true"><path d="M0 32V19.6C0 8.9 5.4 2.4 16.2 0l1.7 3.9C11.7 5.8 8.6 9.6 8.4 15.3H16V32zm22.1 0V19.6C22.1 8.9 27.5 2.4 38.3 0L40 3.9c-6.2 1.9-9.3 5.7-9.5 11.4h7.6V32z"/></svg>',
 }
 
@@ -482,7 +492,7 @@ def bloque_opiniones():
         temas.setdefault(c["tema"], []).append(c)
     out = []
     for tema, citas in temas.items():
-        figs = "".join(f'''<figure class="opinion revelar"><blockquote><p>{esc(c["texto"])}</p></blockquote>
+        figs = "".join(f'''<figure class="opinion revelar"><span class="opinion__comillas">{ICON["comillas"]}</span><blockquote><p>{esc(c["texto"])}</p></blockquote>
   <figcaption>Paciente · Google · {esc(c["fecha"])}</figcaption></figure>''' for c in citas)
         out.append(f'<section class="opiniones-tema" id="{slug(tema)}"><h2>{esc(tema)}</h2><div class="opiniones">{figs}</div></section>')
     indice = "".join(f'<li><a href="#{slug(t)}">{esc(t)}</a></li>' for t in temas)
@@ -1003,6 +1013,7 @@ def pagina(meta, cuerpo, ruta):
 {pie()}
 {wa_flotante()}
 {barra_movil()}
+<a class="volver-arriba" href="#contenido" aria-label="Volver arriba"><svg class="volver-arriba__anillo" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" pathLength="1"/></svg>{ICON["arriba"]}</a>
 {consentimiento()}
 </body>
 </html>

@@ -1153,3 +1153,47 @@ a, button, summary, label { -webkit-tap-highlight-color: transparent; }
   .termino:target, .faq details.destacada { animation: none; }
   .js img.por-cargar { opacity: 1; transition: none; }
 }
+
+/* ==========================================================================
+   Íconos y pulido (noviembre 2026)
+   ========================================================================== */
+.franja__icono, .rasgo__icono, .urgencia__icono { display: inline-grid; place-items: center; font-style: normal; color: var(--salvia-profunda); }
+.franja__icono { width: 34px; height: 34px; margin-bottom: .35rem; border-radius: 50%; background: rgba(163,177,138,.18); transition: transform .5s var(--ease-out), background-color .3s; }
+.franja__icono svg { width: 18px; height: 18px; }
+.franja-confianza li:hover .franja__icono { transform: translateY(-3px) rotate(-8deg); background: rgba(163,177,138,.3); }
+.rasgo__icono { width: 44px; height: 44px; margin-bottom: 1rem; border-radius: 14px; border: 1px solid rgba(74,90,60,.25); transition: transform .6s var(--ease-out), border-color .3s; }
+.rasgo__icono svg { width: 22px; height: 22px; }
+.rasgo:hover .rasgo__icono { transform: rotate(-6deg) scale(1.06); border-color: var(--salvia-profunda); }
+.rasgo:hover .rasgo__icono svg path:first-child { stroke-dasharray: 60; animation: trazo-icono 1.2s var(--ease-out); }
+@keyframes trazo-icono { from { stroke-dashoffset: 60; } to { stroke-dashoffset: 0; } }
+.urgencia { position: relative; }
+.urgencia__icono { position: absolute; right: 1.2rem; top: 1.2rem; width: 36px; height: 36px; border-radius: 50%; background: rgba(163,177,138,.18); }
+.urgencia--principal .urgencia__icono { background: rgba(154,78,28,.12); color: var(--terracota-profunda); }
+.urgencia__icono svg { width: 18px; height: 18px; }
+.urgencia:hover .urgencia__icono svg { animation: timbre .6s var(--ease); }
+@keyframes timbre { 0%, 100% { transform: rotate(0); } 20%, 60% { transform: rotate(-14deg); } 40%, 80% { transform: rotate(14deg); } }
+.opinion { position: relative; }
+.opinion__comillas { display: block; width: 22px; margin-bottom: .7rem; color: var(--terracota); opacity: .8; }
+
+/* Íconos que reaccionan al pasar el mouse */
+.hero__modalidades li svg, .modalidad__icono svg { transition: transform .5s var(--ease-out); }
+.hero__modalidades li:hover svg:first-child { animation: rebote .7s var(--ease-out); }
+.modalidad:hover .modalidad__icono svg { animation: rebote .8s var(--ease-out); }
+@keyframes rebote { 0% { transform: translateY(0); } 35% { transform: translateY(-5px); } 65% { transform: translateY(1px); } 100% { transform: none; } }
+.canal:hover .canal__icono svg { animation: rebote .6s var(--ease-out); }
+.resenas__dato strong { transition: text-shadow .6s; }
+
+/* Volver arriba (escritorio) con anillo de progreso */
+.volver-arriba { position: fixed; left: max(1.25rem, env(safe-area-inset-left)); bottom: max(1.25rem, env(safe-area-inset-bottom)); z-index: 39; width: 48px; height: 48px; display: grid; place-items: center; border-radius: 50%; background: var(--papel); color: var(--tinta); box-shadow: var(--sombra); opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity .4s var(--ease), transform .5s var(--ease-out), visibility 0s .4s; }
+.volver-arriba.visible { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
+.volver-arriba:hover { color: var(--salvia-profunda); }
+.volver-arriba > svg:last-child { width: 18px; height: 18px; transition: transform .4s var(--ease-out); }
+.volver-arriba:hover > svg:last-child { transform: translateY(-3px); }
+.volver-arriba__anillo { position: absolute; inset: 0; width: 100%; height: 100%; transform: rotate(-90deg); }
+.volver-arriba__anillo circle { fill: none; stroke: var(--salvia-profunda); stroke-width: 2; stroke-dasharray: 1; stroke-dashoffset: var(--avance, 1); transition: stroke-dashoffset .2s linear; }
+@media (max-width: 640px) { .volver-arriba { display: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .hero__modalidades li:hover svg, .modalidad:hover .modalidad__icono svg, .canal:hover .canal__icono svg, .urgencia:hover .urgencia__icono svg, .rasgo:hover .rasgo__icono svg path { animation: none !important; }
+}
+main#contenido:focus { outline: none; }
+.urgencia > span { padding-right: 2.9rem; }
