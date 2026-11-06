@@ -510,6 +510,7 @@ def pie():
           <li><a href="/terapia-online/">Terapia online en español</a></li>
           <li><a href="/terapia-online-por-pais/">Terapia online por país</a></li>
           <li><a href="/psicologo-valle-de-paravachasca/">Valle de Paravachasca</a></li>
+          <li><a href="/psicoterapia-para-adultos/">Adultos</a></li>
           <li><a href="/psicologo-para-adolescentes/">Adolescentes</a></li>
           <li><a href="/terapia-para-adultos-mayores/">Adultos mayores</a></li>
           <li><a href="/contacto/">Pedir una primera entrevista</a></li>
@@ -1045,6 +1046,7 @@ def consultorio_schema():
             ("Psicoterapia individual presencial en Alta Gracia", "/psicologo-alta-gracia/"),
             ("Psicoterapia online en español", "/terapia-online/"),
             ("Terapia junguiana (psicología analítica)", "/terapia-junguiana/"),
+            ("Psicoterapia para adultos", "/psicoterapia-para-adultos/"),
             ("Psicoterapia para adolescentes", "/psicologo-para-adolescentes/"),
             ("Psicoterapia para adultos mayores", "/terapia-para-adultos-mayores/"),
             ("Tratamiento psicológico de la ansiedad y los ataques de pánico", "/ansiedad-y-ataques-de-panico/"),
@@ -1315,6 +1317,7 @@ def reemplazos(cuerpo, ruta):
         "faq_jung": lambda: bloque_faq(["que-es-terapia-junguiana", "suenos", "psicoanalisis-diferencia", "terapia-online"]),
         "faq_primera": lambda: bloque_faq(["nunca-hice-terapia", "primera-sesion", "obra-social", "como-solicitar", "confidencialidad"]),
         "faq_alta_gracia": lambda: bloque_faq(["primera-sesion", "duracion", "obra-social", "adolescentes", "como-solicitar"]),
+        "faq_adultos": lambda: bloque_faq(["necesito-terapia", "nunca-hice-terapia", "primera-sesion", "online-vs-presencial", "confidencialidad"]),
         "resenas": bloque_resenas,
         "cta": lambda: bloque_cta(),
         "cta_motivos": lambda: bloque_cta("Si te reconocés en alguno de estos temas, <em>no tenés que esperar</em> a que empeore", ubicacion="motivos", suave=True),
@@ -1473,7 +1476,7 @@ def construir():
         ("El espacio", ["/", "/sobre-mi/", "/terapia-junguiana/", "/enfoque/", "/glosario-junguiano/", "/opiniones/"]),
         ("Empezar", ["/primera-consulta/", "/preguntas-frecuentes/", "/contacto/", "/ayuda-urgente/"]),
         ("Modalidades", ["/psicologo-alta-gracia/", "/psicologo-valle-de-paravachasca/", "/terapia-online/", "/terapia-online-por-pais/"]),
-        ("Para quién", ["/psicologo-para-adolescentes/", "/terapia-para-adultos-mayores/"]),
+        ("Para quién", ["/psicoterapia-para-adultos/", "/psicologo-para-adolescentes/", "/terapia-para-adultos-mayores/"]),
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
@@ -1551,6 +1554,7 @@ El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orie
 - [Depresión]({URL}/depresion/)
 - [Estrés y agotamiento]({URL}/estres-y-agotamiento/)
 - [Trauma y regulación emocional]({URL}/trauma/)
+- [Psicoterapia para adultos]({URL}/psicoterapia-para-adultos/)
 - [Psicólogo para adolescentes]({URL}/psicologo-para-adolescentes/)
 - [Terapia para adultos mayores]({URL}/terapia-para-adultos-mayores/)
 - [Valle de Paravachasca]({URL}/psicologo-valle-de-paravachasca/)
