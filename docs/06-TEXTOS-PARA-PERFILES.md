@@ -76,6 +76,8 @@ Atiendo adolescentes, adultos y adultos mayores. Algunos motivos de consulta fre
 
 Atención presencial en Alta Gracia y online por videollamada, también para personas hispanohablantes que viven en el exterior.
 
+Atención particular: no atiendo a través de obras sociales, pero entrego factura con los datos que pide tu cobertura para que puedas solicitar el reintegro.
+
 Más información y opiniones de pacientes: https://licbongiorno5.vercel.app/
 ```
 

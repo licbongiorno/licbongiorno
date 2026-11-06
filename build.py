@@ -508,6 +508,7 @@ def bloque_datos_clave():
         ("Enfoque", "Psicología analítica de C. G. Jung como eje, base psicoanalítica y perspectiva integrativa"),
         ("Atiende a", "Adolescentes, adultos y adultos mayores"),
         ("Modalidades", f'Presencial en {D["calle"]}, {D["localidad"]}, {D["provincia"]} · Online por videollamada, en español'),
+        ("Honorarios", "Atención particular, con factura para solicitar reintegro a la obra social o prepaga"),
         ("Opiniones", "Más de 100 reseñas en Google y 80 en Doctoralia"),
         ("Contacto", f'WhatsApp {C["whatsapp_visible"]}'),
     ]
@@ -1093,11 +1094,11 @@ def reemplazos(cuerpo, ruta):
         "motivos": lambda: bloque_motivos(),
         "motivos_6": lambda: bloque_motivos(6),
         "faq": lambda: bloque_faq(),
-        "faq_inicio": lambda: bloque_faq(["necesito-terapia", "primera-sesion", "terapia-online", "otro-pais", "como-solicitar"]),
+        "faq_inicio": lambda: bloque_faq(["necesito-terapia", "primera-sesion", "obra-social", "terapia-online", "otro-pais", "como-solicitar"]),
         "faq_online": lambda: bloque_faq(["terapia-online", "otro-pais", "online-vs-presencial"]),
         "faq_jung": lambda: bloque_faq(["que-es-terapia-junguiana", "suenos", "psicoanalisis-diferencia", "terapia-online"]),
-        "faq_primera": lambda: bloque_faq(["nunca-hice-terapia", "primera-sesion", "como-solicitar", "confidencialidad"]),
-        "faq_alta_gracia": lambda: bloque_faq(["primera-sesion", "duracion", "adolescentes", "como-solicitar"]),
+        "faq_primera": lambda: bloque_faq(["nunca-hice-terapia", "primera-sesion", "obra-social", "como-solicitar", "confidencialidad"]),
+        "faq_alta_gracia": lambda: bloque_faq(["primera-sesion", "duracion", "obra-social", "adolescentes", "como-solicitar"]),
         "resenas": bloque_resenas,
         "cta": lambda: bloque_cta(),
         "cta_motivos": lambda: bloque_cta("Si te reconocés en alguno de estos temas, <em>no tenés que esperar</em> a que empeore", ubicacion="motivos", suave=True),
@@ -1286,6 +1287,7 @@ def construir():
 - Consultorio presencial: {D["calle"]}, {D["localidad"]}, {D["provincia"]}, Argentina. Mapa: {D["maps_url"]}
 - Modalidad online: videollamada, para personas de otras localidades, provincias o países que puedan sostener un proceso en español.
 - Población: adolescentes, adultos y adultos mayores.
+- Obras sociales: no atiende a través de obras sociales ni prepagas; trabaja con reintegro (el paciente abona la sesión y recibe una factura con los datos que pide su cobertura para solicitar el reintegro).
 - Contacto: WhatsApp {C["whatsapp_visible"]} ({WA_BASE}). Formulario: {URL}/contacto/
 - Redes: Instagram {R["instagram"]} · Facebook {R["facebook"]} · LinkedIn {R["linkedin"]}
 - Opiniones de pacientes: más de 100 reseñas en Google y 80 en Doctoralia ({R["doctoralia"]}). Selección: {URL}/opiniones/

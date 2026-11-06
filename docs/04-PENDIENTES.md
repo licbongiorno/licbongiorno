@@ -25,7 +25,7 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 - [ ] **Duración de la sesión** en minutos (para completar la FAQ).
 - [ ] **Días y horarios** de atención (para Google Business Profile y `openingHoursSpecification`).
 - [ ] **Correo profesional** (`"email"` en `sitio.json`).
-- [ ] **Honorarios / obras sociales**: ¿se informan? (Los directorios mencionan una tarifa antigua.)
+- [x] **Obras sociales:** publicado que la atención es particular, con factura para reintegro (6 de noviembre de 2026). Falta decidir si se muestran los honorarios.
 - [ ] **Otros servicios** que aparecen en directorios: psicoterapia de pareja, orientación a padres, psicodiagnóstico, aptos psicológicos. ¿Los incluimos?
 - [ ] **Formación de posgrado / continua** comprobable (cursos, posgrados, supervisiones). Solo se publica lo que confirmes.
 - [ ] Idiomas además del español.

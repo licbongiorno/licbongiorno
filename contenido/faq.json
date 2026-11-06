@@ -24,6 +24,14 @@
     ]
   },
   {
+    "id": "obra-social",
+    "pregunta": "¿Atendés por obra social o prepaga?",
+    "respuesta": [
+      "No atiendo a través de obras sociales ni prepagas, pero sí trabajo con **reintegro**: abonás la sesión, te preparo la factura con los datos que pide tu obra social o prepaga, y con ella podés solicitar el reintegro.",
+      "El monto que se reintegra y los requisitos dependen de cada plan, por eso conviene consultarlo antes con tu cobertura. Si tenés dudas, escribime y lo vemos juntos."
+    ]
+  },
+  {
     "id": "que-es-terapia-junguiana",
     "pregunta": "¿Qué es la terapia junguiana?",
     "respuesta": [
