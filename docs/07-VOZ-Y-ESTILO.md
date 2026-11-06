@@ -28,3 +28,9 @@ Guía tomada del propio texto del Lic. Bongiorno («No es un sillón», Instagra
 - **Textos personales** (inicio, sobre mí, invitaciones a consultar): su voz, con imágenes.
 - **Textos informativos** (enfoque, motivos, preguntas frecuentes, glosario): claros y precisos, para que los entiendan
   personas angustiadas y los citen buscadores y asistentes de IA. Se puede abrir y cerrar con una imagen.
+
+## Flujo para artículos nuevos
+
+Por pedido de Nicolás (noviembre de 2026): al escribir artículos nuevos, hacer **solo la versión para la web**
+(el `.md`, su imagen para compartir y el build). **No generar carruseles de Instagram ni otras piezas para redes**
+hasta que él lo pida.
