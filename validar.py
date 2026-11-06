@@ -37,10 +37,13 @@ class Analizador(HTMLParser):
         self.canon = None
         self.ids = set()
         self.summaries = []
+        self._en_menu = 0
         self._en_summary = False
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == "li" and "menu-movil__grupo" in (a.get("class") or ""):
+            self._en_menu = 1  # los grupos del menú móvil usan <details>, no son preguntas frecuentes
         if "id" in a:
             self.ids.add(a["id"])
         if tag == "html":
@@ -61,10 +64,12 @@ class Analizador(HTMLParser):
             self.imgs.append(a)
         elif tag == "script" and a.get("type") == "application/ld+json":
             self._en_ld, self._buf = True, ""
-        elif tag == "summary" and "indice-articulo__titulo" not in (a.get("class") or ""):
+        elif tag == "summary" and "indice-articulo__titulo" not in (a.get("class") or "") and not self._en_menu:
             self._en_summary, self._buf_s = True, ""
 
     def handle_endtag(self, tag):
+        if tag == "details" and self._en_menu:
+            self._en_menu = 0
         if tag == "title":
             self._en_titulo = False
         elif tag == "script" and self._en_ld:

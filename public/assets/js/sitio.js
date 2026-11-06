@@ -274,7 +274,9 @@
   /* ---------- Barra de progreso de lectura ---------- */
   var barra = document.querySelector(".progreso-lectura span");
   var articulo = document.querySelector("article");
-  if (barra && articulo) {
+  // Con animaciones ligadas al scroll (CSS), el navegador la mueve sin JavaScript.
+  var cssScroll = window.CSS && CSS.supports && CSS.supports("animation-timeline: scroll()") && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (barra && articulo && !cssScroll) {
     var pendienteP = false;
     var actualizar = function () {
       pendienteP = false;

@@ -437,9 +437,9 @@ def cabecera(ruta):
     movil = []
     for txt, href, sub in NAV:
         if sub:
-            for t, h, d in sub:
-                cur = ' aria-current="page"' if ruta == h else ""
-                movil.append(f'<li><a href="{h}"{cur}>{esc(t)}<small>{esc(d)}</small></a></li>')
+            actual = any(ruta == h for _, h, _ in sub) or (txt == "Recursos" and ruta.startswith("/recursos/"))
+            enlaces = "".join(f'<li><a href="{h}"{" aria-current=\"page\"" if ruta == h else ""}>{esc(t)}<small>{esc(d)}</small></a></li>' for t, h, d in sub)
+            movil.append(f'<li class="menu-movil__grupo"><details{" open" if actual else ""}><summary>{esc(txt)}<span class="menu-movil__signo" aria-hidden="true"></span></summary><ul>{enlaces}</ul></details></li>')
         else:
             cur = ' aria-current="page"' if ruta == href or (href != "/" and ruta.startswith(href)) else ""
             movil.append(f'<li><a href="{href}"{cur}>{esc("Motivos de consulta" if txt == "Motivos" else txt)}</a></li>')
@@ -1171,7 +1171,9 @@ def pagina(meta, cuerpo, ruta):
 <link rel="alternate" type="application/rss+xml" title="Recursos · Nicolás Bongiorno" href="/recursos/feed.xml">
 <link rel="preload" href="/assets/fonts/playfair-display-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/lora-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/estilos.css?v={VERSION}">
+<link rel="preload" href="/assets/fonts/playfair-display-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/estilos.css?v={VERSION}">{f'<link rel="stylesheet" href="/assets/css/interactivo.css?v={VERSION}">' if meta.get("scripts") else ""}
 <script>{JS_INLINE}</script>
 <script type="application/ld+json">
 {jsonld}
@@ -1349,7 +1351,7 @@ def reemplazos(cuerpo, ruta):
         "disponibilidad": lambda: ('<p class="disponibilidad entra"><span class="disponibilidad__punto" aria-hidden="true"></span>Recibiendo nuevas consultas · presencial y online</p>' if C.get("recibiendo_consultas") else ""),
         "glosario": bloque_glosario,
         "datos_clave": bloque_datos_clave,
-        "avatar": lambda: (f'<img class="hero__avatar" src="/{C["foto_chica"]}" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
+        "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
     }
     cuerpo = re.sub(r"\{\{>\s*(\w+)\s*\}\}", lambda m: parciales[m.group(1)](), cuerpo)
@@ -1375,7 +1377,7 @@ def leer_pagina(f):
     return meta, txt[m.end():]
 
 
-VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js")))).hexdigest()[:8]
+VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/interactivo.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js")))).hexdigest()[:8]
 
 
 def escribir(ruta, contenido):
@@ -1396,6 +1398,8 @@ def construir():
     oscuro = ("@media (prefers-color-scheme: dark) {" + plantilla.replace("TEMA", ':root:not([data-tema="claro"])') + "}\n"
               + plantilla.replace("TEMA", ':root[data-tema="oscuro"]'))
     css_pub.write_text(minificar_css(css_pub.read_text(encoding="utf-8") + "\n" + oscuro), encoding="utf-8")
+    inter_pub = SALIDA / "assets/css/interactivo.css"
+    inter_pub.write_text(minificar_css(inter_pub.read_text(encoding="utf-8")), encoding="utf-8")
     (SALIDA / "assets/css/oscuro.plantilla.css").unlink()
     for extra in ("favicon.svg", "favicon.ico", "apple-touch-icon.png"):
         origen = RAIZ / "assets/img" / extra
