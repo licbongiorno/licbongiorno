@@ -675,7 +675,7 @@ def bloque_asistente():
   <form class="asistente__form" id="asistente" novalidate>
     <fieldset class="asistente__paso" data-paso="1"><legend><span>1</span> ¿Qué te trae?</legend><div class="opciones">{opciones("motivo", motivos)}</div></fieldset>
     <fieldset class="asistente__paso" data-paso="2"><legend><span>2</span> ¿Cómo preferís?</legend><div class="opciones">{opciones("modalidad", ["Presencial en Alta Gracia", "Online", "Me da igual"])}</div></fieldset>
-    <fieldset class="asistente__paso" data-paso="3"><legend><span>3</span> ¿Qué horario te queda mejor?</legend><div class="opciones">{opciones("horario", ["Mañana", "Tarde", "Noche", "Cualquiera"])}</div></fieldset>
+    <fieldset class="asistente__paso" data-paso="3"><legend><span>3</span> ¿Qué horario te queda mejor?</legend><p class="asistente__nota" data-asistente-nota hidden></p><div class="opciones">{opciones("horario", ["Mañana", "Tarde", "Noche", "Cualquiera"])}</div></fieldset>
     <div class="asistente__vista" aria-live="polite"><p class="asistente__vista-titulo">Tu mensaje</p><p class="asistente__texto">Hola, Nicolás. Te escribo desde tu web para consultar por un turno.</p></div>
     <a class="boton boton--whatsapp asistente__enviar" href="{wa()}" target="_blank" rel="noopener" data-ubicacion="asistente">{ICON["whatsapp"]} Enviar por WhatsApp</a>
   </form>
@@ -1155,6 +1155,15 @@ def reemplazos(cuerpo, ruta):
             f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in CATEGORIAS
             if any(x["categoria"] == c and (x["publicado"] or BORRADORES) for x in ARTICULOS)) + "</ul>",
         "asistente": bloque_asistente,
+        "zona_horaria": lambda: ('<aside class="zona-horaria" data-zona hidden aria-label="Tu zona horaria">'
+            f'<span class="zona-horaria__icono">{ICON["globo"]}</span><p>Parece que estás en <strong data-zona-lugar></strong>. '
+            'Allá son las <strong data-zona-local></strong> y en Argentina, las <strong data-zona-ar></strong> '
+            '(<span data-zona-dif></span>). Cuando me escribas, coordinamos el turno teniendo en cuenta tu horario.</p></aside>'),
+        "conversor": lambda: ('<div class="conversor" data-conversor hidden><p class="conversor__titulo">Conversor de horarios</p>'
+            '<label for="conversor-hora">Si te propongo un turno a las</label><select id="conversor-hora">'
+            + "".join(f'<option value="{h}"{" selected" if h == 18 else ""}>{h:02d}:00 h</option>' for h in range(8, 22))
+            + '</select><span> de Argentina, en <strong data-conversor-lugar></strong> sería:</span>'
+            '<p class="conversor__resultado" data-conversor-resultado aria-live="polite"></p></div>'),
         "disponibilidad": lambda: ('<p class="disponibilidad entra"><span class="disponibilidad__punto" aria-hidden="true"></span>Recibiendo nuevas consultas · presencial y online</p>' if C.get("recibiendo_consultas") else ""),
         "glosario": bloque_glosario,
         "datos_clave": bloque_datos_clave,

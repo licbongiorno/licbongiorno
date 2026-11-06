@@ -78,3 +78,12 @@ Marcá cada punto cuando lo resuelvas. Casi todo se cambia en `sitio.json` o en 
 Hechas: compartir artículos (WhatsApp, copiar enlace, menú nativo), índice en artículos largos, artículos relacionados en las páginas de motivos y población, buscador en Recursos (también por enlace: `/recursos/?q=duelo`), imagen propia para compartir cada página, mapa del sitio para personas, sitemap con fechas e imágenes, 404 con accesos útiles, CSS minificado, versión para imprimir.
 
 Herramienta nueva: `node herramientas/generar_og_paginas.js` (regenera las imágenes para compartir de las páginas).
+
+## H. Zona horaria de pacientes internacionales (6 de noviembre de 2026)
+
+La web detecta la **zona horaria del dispositivo** (no la IP) y, si el visitante está fuera de Argentina:
+- muestra «Parece que estás en Madrid, España. Allá son las 22:10 y en Argentina, las 18:10…» en Contacto, Terapia online y Terapia online por país;
+- agrega a los mensajes de WhatsApp del asistente y del formulario la ciudad, el país y la diferencia horaria, aclarando que el horario elegido es en su hora local;
+- ofrece un conversor: «Si te propongo un turno a las 18:00 de Argentina, en Madrid sería: viernes, 22:00 h».
+
+Se eligió la zona horaria del dispositivo en lugar de la IP porque es más exacta (la IP falla con VPN y datos móviles) y no requiere enviar la IP del visitante a un servicio externo. El dato no se guarda ni se envía a ningún servidor; está explicado en la política de privacidad.

@@ -1197,3 +1197,19 @@ a, button, summary, label { -webkit-tap-highlight-color: transparent; }
 }
 main#contenido:focus { outline: none; }
 .urgencia > span { padding-right: 2.9rem; }
+
+/* ---------- Zona horaria y conversor ---------- */
+.zona-horaria { display: flex; align-items: flex-start; gap: 1rem; margin: 0 0 2rem; padding: 1.1rem 1.3rem; border-radius: var(--r-m); background: var(--salvia-bruma); border: 1px solid rgba(74,90,60,.18); max-width: 52rem; animation: respuesta-entra .6s var(--ease-out); }
+.zona-horaria[hidden] { display: none; }
+.zona-horaria p { margin: 0; font-family: var(--f-sans); font-size: .9rem; line-height: 1.6; color: var(--tinta); }
+.zona-horaria strong { font-weight: 600; color: var(--salvia-profunda); font-variant-numeric: tabular-nums; }
+.zona-horaria__icono { flex: none; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: rgba(163,177,138,.25); color: var(--salvia-profunda); }
+.zona-horaria__icono svg { width: 20px; height: 20px; animation: girar-lento 18s linear infinite; }
+@keyframes girar-lento { to { transform: rotate(360deg); } }
+.asistente__nota { margin: -.3rem 0 .8rem; font-family: var(--f-sans); font-size: .82rem; color: var(--salvia-profunda); }
+.conversor { margin: 1.5rem 0 2rem; padding: 1.25rem 1.4rem; border-radius: var(--r-m); background: var(--papel); border: 1px solid var(--linea); font-family: var(--f-sans); font-size: .9rem; }
+.conversor[hidden] { display: none; }
+.conversor__titulo { margin: 0 0 .7rem !important; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--salvia-profunda); }
+.conversor select { margin: 0 .4rem; min-height: 40px; padding: .35rem .6rem; border-radius: var(--r-s); border: 1px solid rgba(38,36,31,.22); background: var(--beige); color: var(--tinta); font-family: var(--f-sans); font-size: .95rem; }
+.conversor__resultado { margin: .7rem 0 0 !important; font-family: var(--f-display); font-size: 1.6rem; color: var(--tinta); font-variant-numeric: tabular-nums; }
+@media (prefers-reduced-motion: reduce) { .zona-horaria__icono svg { animation: none; } }

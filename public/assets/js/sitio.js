@@ -9,6 +9,58 @@
   try { cfg = JSON.parse(document.getElementById("config-sitio").textContent); } catch (err) { /* sin config */ }
   doc.classList.add("js");
 
+  /* ---------- Zona horaria del visitante (sin IP: se lee del dispositivo y no se envía a ningún servidor) ---------- */
+  var ZONA = (function () {
+    var tz = "";
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (err) { return null; }
+    if (!tz) return null;
+    var AR = "America/Argentina/Cordoba";
+    var esArgentina = /^America\/(Argentina\/|Buenos_Aires|Cordoba|Catamarca|Jujuy|Mendoza|Rosario)/.test(tz);
+    var paises = {
+      "Europe/Madrid": "España", "Atlantic/Canary": "España (Canarias)", "Africa/Ceuta": "España",
+      "America/New_York": "Estados Unidos (costa este)", "America/Detroit": "Estados Unidos (costa este)", "America/Chicago": "Estados Unidos (centro)",
+      "America/Denver": "Estados Unidos (montaña)", "America/Phoenix": "Estados Unidos (Arizona)", "America/Los_Angeles": "Estados Unidos (costa oeste)",
+      "America/Anchorage": "Estados Unidos (Alaska)", "Pacific/Honolulu": "Estados Unidos (Hawái)", "America/Puerto_Rico": "Puerto Rico",
+      "America/Toronto": "Canadá (este)", "America/Montreal": "Canadá (este)", "America/Vancouver": "Canadá (oeste)", "America/Edmonton": "Canadá (montaña)", "America/Halifax": "Canadá (atlántico)",
+      "America/Mexico_City": "México", "America/Monterrey": "México", "America/Tijuana": "México (noroeste)", "America/Cancun": "México (Quintana Roo)",
+      "America/Santiago": "Chile", "America/Montevideo": "Uruguay", "America/Asuncion": "Paraguay", "America/La_Paz": "Bolivia",
+      "America/Lima": "Perú", "America/Bogota": "Colombia", "America/Guayaquil": "Ecuador", "America/Caracas": "Venezuela",
+      "America/Panama": "Panamá", "America/Costa_Rica": "Costa Rica", "America/Guatemala": "Guatemala", "America/Santo_Domingo": "República Dominicana",
+      "America/Havana": "Cuba", "America/Sao_Paulo": "Brasil", "Europe/London": "Reino Unido", "Europe/Dublin": "Irlanda", "Europe/Lisbon": "Portugal",
+      "Europe/Paris": "Francia", "Europe/Rome": "Italia", "Europe/Berlin": "Alemania", "Europe/Amsterdam": "Países Bajos", "Europe/Brussels": "Bélgica",
+      "Europe/Zurich": "Suiza", "Europe/Vienna": "Austria", "Europe/Stockholm": "Suecia", "Europe/Oslo": "Noruega", "Europe/Copenhagen": "Dinamarca",
+      "Europe/Warsaw": "Polonia", "Europe/Prague": "Chequia", "Europe/Athens": "Grecia", "Asia/Jerusalem": "Israel", "Asia/Dubai": "Emiratos Árabes Unidos",
+      "Asia/Tokyo": "Japón", "Australia/Sydney": "Australia (este)", "Australia/Melbourne": "Australia (sudeste)", "Australia/Perth": "Australia (oeste)",
+      "Pacific/Auckland": "Nueva Zelanda"
+    };
+    var offset = function (zona, fecha) {
+      var d = fecha || new Date();
+      var a = new Date(d.toLocaleString("en-US", { timeZone: zona }));
+      var u = new Date(d.toLocaleString("en-US", { timeZone: "UTC" }));
+      return Math.round((a - u) / 60000);
+    };
+    var dif = (offset(tz) - offset(AR)) / 60;
+    var nombres = {
+      "New_York": "Nueva York", "Mexico_City": "Ciudad de México", "Los_Angeles": "Los Ángeles", "London": "Londres", "Rome": "Roma",
+      "Paris": "París", "Berlin": "Berlín", "Lisbon": "Lisboa", "Brussels": "Bruselas", "Amsterdam": "Ámsterdam", "Zurich": "Zúrich",
+      "Vienna": "Viena", "Stockholm": "Estocolmo", "Copenhagen": "Copenhague", "Warsaw": "Varsovia", "Prague": "Praga", "Athens": "Atenas",
+      "Jerusalem": "Jerusalén", "Dubai": "Dubái", "Tokyo": "Tokio", "Sydney": "Sídney", "Bogota": "Bogotá", "Asuncion": "Asunción",
+      "Panama": "Panamá", "Costa_Rica": "San José", "Santo_Domingo": "Santo Domingo", "Havana": "La Habana", "Sao_Paulo": "San Pablo",
+      "Dublin": "Dublín", "Canary": "Canarias", "Montreal": "Montreal", "Puerto_Rico": "San Juan", "Honolulu": "Honolulu", "Cancun": "Cancún"
+    };
+    var clave = tz.split("/").pop();
+    var ciudad = nombres[clave] || clave.replace(/_/g, " ");
+    var pais = paises[tz] || "";
+    var hora = function (zona, fecha) { return (fecha || new Date()).toLocaleTimeString("es-AR", { timeZone: zona, hour: "2-digit", minute: "2-digit", hour12: false }); };
+    var difTexto = function () {
+      if (!dif) return "la misma hora que en Argentina";
+      var n = Math.abs(dif), h = (n % 1 ? n.toFixed(1).replace(".", ",") : n) + (n === 1 ? " hora" : " horas");
+      return h + (dif > 0 ? " más tarde" : " más temprano") + " que en Argentina";
+    };
+    return { tz: tz, ar: AR, extranjero: !esArgentina, dif: dif, ciudad: ciudad, pais: pais, hora: hora, difTexto: difTexto, offset: offset,
+      lugar: function () { return pais ? ciudad + ", " + pais : ciudad; } };
+  })();
+
   /* ---------- Cabecera que se compacta al desplazarse ---------- */
   var cabecera = document.querySelector(".cabecera");
   if (cabecera) {
@@ -168,7 +220,7 @@
         fetch(cfg.formEndpoint, {
           method: "POST",
           headers: { "Content-Type": "application/json", "Accept": "application/json" },
-          body: JSON.stringify(Object.assign({ _subject: "Consulta desde la web" }, datos))
+          body: JSON.stringify(Object.assign({ _subject: "Consulta desde la web" }, datos, ZONA ? { zona_horaria: ZONA.tz + " (" + ZONA.difTexto() + ")" } : {}))
         }).then(function (r) {
           if (!r.ok) throw new Error(r.status);
           form.reset();
@@ -187,6 +239,7 @@
         (datos.horario ? " Me queda mejor a la " + datos.horario.toLowerCase() + "." : "") +
         (datos.mensaje ? " " + datos.mensaje : "") +
         (datos.origen ? " (Te conocí por: " + datos.origen + ".)" : "") +
+        (ZONA && ZONA.extranjero ? " Mi zona horaria: " + ZONA.lugar() + "; " + ZONA.difTexto() + "." : "") +
         " Mi contacto: " + datos.contacto;
       var url = "https://wa.me/" + cfg.whatsapp + "?text=" + encodeURIComponent(texto);
       evento("formulario_whatsapp", { modalidad: datos.modalidad });
@@ -315,7 +368,8 @@
       else if (motivo) t += " Quería hacer una consulta, aunque todavía no sé bien por dónde empezar.";
       if (modalidad === "Presencial en Alta Gracia") t += " Prefiero atención presencial en Alta Gracia.";
       else if (modalidad === "Online") t += " Prefiero atención online.";
-      if (horario && horario !== "Cualquiera") t += " Me queda mejor a la " + horario.toLowerCase() + ".";
+      if (horario && horario !== "Cualquiera") t += " Me queda mejor a la " + horario.toLowerCase() + (ZONA && ZONA.extranjero ? " (hora de " + ZONA.ciudad + ")" : "") + ".";
+      if (ZONA && ZONA.extranjero) t += " Escribo desde " + ZONA.lugar() + "; allá es " + ZONA.difTexto() + ".";
       t += " ¿Tenés disponibilidad?";
       if (texto.textContent !== t) {
         texto.classList.add("cambiando");
@@ -585,6 +639,44 @@
       if (destino) { destino.setAttribute("tabindex", "-1"); destino.focus({ preventScroll: true }); }
     });
     medir();
+  }
+
+  /* ---------- Aviso de zona horaria y conversor de horarios ---------- */
+  if (ZONA) {
+    document.querySelectorAll("[data-zona]").forEach(function (av) {
+      if (!ZONA.extranjero) return;
+      var pintar = function () {
+        av.querySelector("[data-zona-lugar]").textContent = ZONA.lugar();
+        av.querySelector("[data-zona-local]").textContent = ZONA.hora(ZONA.tz);
+        av.querySelector("[data-zona-ar]").textContent = ZONA.hora(ZONA.ar);
+        av.querySelector("[data-zona-dif]").textContent = ZONA.difTexto();
+      };
+      pintar(); setInterval(pintar, 30000);
+      av.hidden = false;
+    });
+    document.querySelectorAll("[data-asistente-nota]").forEach(function (n) {
+      if (!ZONA.extranjero) return;
+      n.textContent = "Elegí el horario en tu hora local (" + ZONA.ciudad + "). Lo sumo al mensaje junto con tu zona horaria, para coordinar sin confusiones.";
+      n.hidden = false;
+    });
+    document.querySelectorAll("[data-conversor]").forEach(function (cv) {
+      var sel = cv.querySelector("select"), res = cv.querySelector("[data-conversor-resultado]");
+      var zonaDestino = ZONA.extranjero ? ZONA.tz : "Europe/Madrid";
+      var nombre = ZONA.extranjero ? ZONA.lugar() : "Madrid, España (ejemplo)";
+      cv.querySelector("[data-conversor-lugar]").textContent = nombre;
+      var calcular = function () {
+        var hh = parseInt(sel.value, 10);
+        var hoy = new Date();
+        // Fecha de hoy a esa hora en Argentina (UTC−3 fijo)
+        var utc = Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth(), hoy.getUTCDate(), hh + 3, 0);
+        var f = new Date(utc);
+        var local = f.toLocaleString("es-AR", { timeZone: zonaDestino, weekday: "long", hour: "2-digit", minute: "2-digit", hour12: false });
+        res.textContent = local.charAt(0).toUpperCase() + local.slice(1) + " h";
+      };
+      sel.addEventListener("change", calcular);
+      calcular();
+      cv.hidden = false;
+    });
   }
 
   /* ---------- Medición de clics de contacto (si hay GA4 con consentimiento) ---------- */

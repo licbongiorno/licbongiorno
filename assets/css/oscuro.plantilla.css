@@ -78,3 +78,4 @@ TEMA { scrollbar-color: rgba(179,194,154,.35) transparent; }
 TEMA .prosa--articulo > p:first-of-type::first-letter { color: var(--salvia-profunda); }
 TEMA .urgencia--principal .urgencia__icono { background: rgba(240,164,107,.14); }
 TEMA .volver-arriba { background: var(--arena); }
+TEMA .conversor select { border-color: rgba(236,230,220,.24); }

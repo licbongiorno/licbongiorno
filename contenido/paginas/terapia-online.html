@@ -28,6 +28,7 @@
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
+    {{> zona_horaria}}
     <h2 class="visualmente-oculto">Cómo empezar la terapia online</h2>
     <ol class="pasos revelar" style="margin-bottom:var(--sec)">
       <li class="paso"><h3>Escribime</h3><p>Por WhatsApp o por el formulario, contándome desde dónde me escribís.</p></li>
@@ -68,6 +69,7 @@
         <blockquote><p>«Me mude al extranjero y sigo en contacto y la terapia con él.»</p></blockquote>
         <figcaption>Paciente · Reseña en Google</figcaption>
       </figure>
+      {{> conversor}}
       <a class="boton boton--whatsapp" href="{{wa_exterior}}" target="_blank" rel="noopener" data-ubicacion="exterior">{{icono_whatsapp}} Escribir desde el exterior</a>
     </div>
   </div>

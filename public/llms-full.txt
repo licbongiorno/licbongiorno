@@ -134,12 +134,14 @@ URL: https://licbongiorno5.vercel.app/contacto/
 Contacto
 Solicitar una consulta
 Escribime por el medio que te resulte más cómodo. Te respondo personalmente para coordinar una primera entrevista, presencial en Alta Gracia u online.
+Parece que estás en . Allá son las y en Argentina, las ( ). Cuando me escribas, coordinamos el turno teniendo en cuenta tu horario.
 Empezar en 3 pasos
 No hace falta saber qué escribir
 Elegí tres opciones y te armo el mensaje para que lo envíes por WhatsApp. No es un test ni un diagnóstico, y no se guarda ningún dato.
 1 ¿Qué te trae? Ansiedad o ataques de pánico Tristeza o desgano Un duelo o una pérdida Mis vínculos o mi pareja Una crisis o un cambio de etapa Conocerme más Todavía no lo sé
 2 ¿Cómo preferís? Presencial en Alta Gracia Online Me da igual
-3 ¿Qué horario te queda mejor? Mañana Tarde Noche Cualquiera
+3 ¿Qué horario te queda mejor?
+Mañana Tarde Noche Cualquiera
 Tu mensaje
 Hola, Nicolás. Te escribo desde tu web para consultar por un turno.
 Enviar por WhatsApp
@@ -710,7 +712,8 @@ No hace falta saber qué escribir
 Elegí tres opciones y te armo el mensaje para que lo envíes por WhatsApp. No es un test ni un diagnóstico, y no se guarda ningún dato.
 1 ¿Qué te trae? Ansiedad o ataques de pánico Tristeza o desgano Un duelo o una pérdida Mis vínculos o mi pareja Una crisis o un cambio de etapa Conocerme más Todavía no lo sé
 2 ¿Cómo preferís? Presencial en Alta Gracia Online Me da igual
-3 ¿Qué horario te queda mejor? Mañana Tarde Noche Cualquiera
+3 ¿Qué horario te queda mejor?
+Mañana Tarde Noche Cualquiera
 Tu mensaje
 Hola, Nicolás. Te escribo desde tu web para consultar por un turno.
 Enviar por WhatsApp
@@ -1108,6 +1111,7 @@ Formulario de contacto: nombre, un medio de contacto (teléfono o correo), modal
 WhatsApp: si me escribís por WhatsApp, la conversación queda sujeta también a las condiciones de ese servicio.
 Estadísticas: si se activa una herramienta de medición (Google Analytics), solo funciona con tu consentimiento expreso y recoge datos agregados de navegación, sin identificarte.
 Este sitio no utiliza cookies publicitarias ni vende o cede datos a terceros.
+Zona horaria: para ayudarte a coordinar turnos desde otro país, la web lee la zona horaria configurada en tu dispositivo. Ese dato se usa solo en tu navegador: no se guarda ni se envía a ningún servidor, salvo que lo incluyas en el mensaje que decidas enviarme. La web no consulta tu dirección IP para ubicarte.
 Información clínica
 Te pido que no envíes información clínica o sensible (diagnósticos, medicación, situaciones de riesgo) a través del formulario ni de mensajes. Esa información se conversa en la consulta, donde está protegida por el secreto profesional.
 Conservación
@@ -1468,6 +1472,9 @@ Chile (continental): igual o 1 hora menos, según la época.
 Uruguay: la misma hora.
 Colombia y Perú: 2 horas menos.
 Al comenzar acordamos un horario fijo que funcione para los dos, y lo revisamos cuando cambia la hora en tu país.
+Parece que estás en . Allá son las y en Argentina, las ( ). Cuando me escribas, coordinamos el turno teniendo en cuenta tu horario.
+Conversor de horarios
+Si te propongo un turno a las 08:00 h 09:00 h 10:00 h 11:00 h 12:00 h 13:00 h 14:00 h 15:00 h 16:00 h 17:00 h 18:00 h 19:00 h 20:00 h 21:00 h de Argentina, en sería:
 Cómo se pagan las sesiones
 Desde el exterior podés abonar con plataformas de pago internacional como Remitly, Western Union o Global66 , entre otras. Acordamos la forma de pago y la moneda en la primera conversación. Si usás otra plataforma, consultame.
 Qué conviene revisar según el país
@@ -1511,6 +1518,7 @@ Psicoterapia por videollamada para personas que viven en otras localidades, prov
 En pocas palabras
 La terapia online se realiza por videollamada, con un encuadre estable y la misma confidencialidad que en el consultorio. Atiendo en español a personas de otras provincias y del exterior. Solo hace falta conexión estable y un lugar privado.
 Consultar por terapia online Si vivís en el exterior
+Parece que estás en . Allá son las y en Argentina, las ( ). Cuando me escribas, coordinamos el turno teniendo en cuenta tu horario.
 Cómo empezar la terapia online
 Escribime
 Por WhatsApp o por el formulario, contándome desde dónde me escribís.
@@ -1538,6 +1546,8 @@ Coordinamos la diferencia horaria y la forma de pago al comienzo. Podés abonar 
 Paciente · Reseña en Google
 «Me mude al extranjero y sigo en contacto y la terapia con él.»
 Paciente · Reseña en Google
+Conversor de horarios
+Si te propongo un turno a las 08:00 h 09:00 h 10:00 h 11:00 h 12:00 h 13:00 h 14:00 h 15:00 h 16:00 h 17:00 h 18:00 h 19:00 h 20:00 h 21:00 h de Argentina, en sería:
 Escribir desde el exterior
 Preguntas frecuentes
 Sobre la terapia online
