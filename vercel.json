@@ -5,6 +5,30 @@
   "outputDirectory": "public",
   "cleanUrls": true,
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "licbongiorno5.vercel.app"
+        }
+      ],
+      "destination": "https://www.loquetehabita.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "loquetehabita.com"
+        }
+      ],
+      "destination": "https://www.loquetehabita.com/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

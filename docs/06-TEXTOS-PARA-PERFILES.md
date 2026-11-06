@@ -21,7 +21,7 @@ Lic. Nicolás Bongiorno - Psicólogo
 Psicólogo clínico (M.P. 8209), egresado de la Facultad de Psicología de la Universidad Nacional de Córdoba, con más de 15 años de práctica. Trabajo principalmente desde la psicología analítica de Carl Gustav Jung, sobre una base psicoanalítica y con una mirada integrativa: un espacio para comprender lo que te pasa, reconocer los patrones que se repiten y encontrar nuevas maneras de habitar tu vida. Atiendo adolescentes, adultos y adultos mayores. Consultas por ansiedad y ataques de pánico, duelos, crisis vitales, autoestima, vínculos y autoconocimiento. Atención presencial en Alta Gracia y online por videollamada, también para personas que viven en el exterior.
 ```
 
-**Sitio web:** `https://licbongiorno5.vercel.app/` (cambiarlo cuando tengas dominio propio).
+**Sitio web:** `https://www.loquetehabita.com/` (dominio propio).
 **Botón de mensajes / WhatsApp:** +54 9 351 657-5261.
 **Atributos sugeridos:** «Citas en línea», «Consultas virtuales», «Se requiere cita».
 
@@ -78,7 +78,7 @@ Atención presencial en Alta Gracia y online por videollamada, también para per
 
 Atención particular: no atiendo a través de obras sociales, pero entrego factura con los datos que pide tu cobertura para que puedas solicitar el reintegro. Desde el exterior se puede abonar con Remitly, Western Union, Global66 u otras plataformas de pago internacional.
 
-Más información y opiniones de pacientes: https://licbongiorno5.vercel.app/
+Más información y opiniones de pacientes: https://www.loquetehabita.com/
 ```
 
 ---
@@ -96,7 +96,7 @@ Terapia junguiana e integrativa
 Lo que te habita también merece ser escuchado.
 ```
 
-**Enlace:** `https://licbongiorno5.vercel.app/` (en lugar de Beacons, o agregalo como primer enlace en Beacons).
+**Enlace:** `https://www.loquetehabita.com/` (en lugar de Beacons, o agregalo como primer enlace en Beacons).
 Revisá también la cuenta @lic.bongiorno: si sigue activa, poné en su biografía «Nueva cuenta: @psicologobongiorno» o al revés.
 
 ---

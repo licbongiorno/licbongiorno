@@ -17,4 +17,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://licbongiorno5.vercel.app/sitemap.xml
+Sitemap: https://www.loquetehabita.com/sitemap.xml

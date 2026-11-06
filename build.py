@@ -1564,7 +1564,6 @@ El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orie
 {lineas_art}
 
 ## Texto completo
-- {URL}/llms-full.txt (todas las páginas en texto plano)
 - {URL}/recursos/feed.xml (RSS de artículos)
 
 ## Límites
@@ -1589,22 +1588,6 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         f'<atom:link href="{URL}/recursos/feed.xml" rel="self" type="application/rss+xml"/>'
         '<description>Divulgación sobre psicología analítica, emociones, vínculos y autoconocimiento.</description>'
         f'<language>es-ar</language><lastBuildDate>{fecha_rss(HOY)}</lastBuildDate>{items}</channel></rss>\n', encoding="utf-8")
-
-    # llms-full.txt: el texto completo de cada página indexable, para motores de respuesta
-    bloques = []
-    for ruta, _, _ in mapa:
-        f = SALIDA / ("index.html" if ruta == "/" else ruta.strip("/") + "/index.html")
-        h = f.read_text(encoding="utf-8")
-        titulo = re.search(r"<title>(.*?)</title>", h).group(1)
-        cuerpo = re.search(r'<main id="contenido">(.*?)</main>', h, re.S).group(1)
-        cuerpo = re.sub(r"<(svg|script|style|nav|button)\b.*?</\1>", " ", cuerpo, flags=re.S)
-        cuerpo = re.sub(r"</(p|h[1-6]|li|dt|dd|blockquote|figcaption|summary)>", "\n", cuerpo)
-        cuerpo = html.unescape(re.sub(r"<[^>]+>", " ", cuerpo))
-        cuerpo = "\n".join(re.sub(r"[ \t]+", " ", l).strip() for l in cuerpo.splitlines())
-        cuerpo = re.sub(r"\n{2,}", "\n", cuerpo).strip()
-        bloques.append(f"# {html.unescape(titulo)}\nURL: {URL}{ruta}\n\n{cuerpo}\n")
-    (SALIDA / "llms-full.txt").write_text(
-        f"# {NOMBRE_COMPLETO} — texto completo del sitio\n> Generado el {HOY}. Resumen breve: {URL}/llms.txt\n\n" + "\n---\n\n".join(bloques), encoding="utf-8")
 
     # buscar.json: índice para el buscador del sitio (/buscar/)
     rutas_lab = {l["ruta"] for l in LABORATORIOS}
@@ -1653,8 +1636,13 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         "X-Frame-Options": "DENY",
         "Cross-Origin-Opener-Policy": "same-origin",
     }
+    # Una sola versión canónica: el dominio de Vercel y el dominio sin www redirigen (301) al dominio principal.
+    from urllib.parse import urlparse
+    host = urlparse(URL).netloc
+    otros = [h for h in ("licbongiorno5.vercel.app", host[4:] if host.startswith("www.") else "") if h and h != host]
     vercel = {
         "cleanUrls": True, "trailingSlash": True,
+        "redirects": [{"source": "/:path*", "has": [{"type": "host", "value": h}], "destination": f"{URL}/:path*", "permanent": True} for h in otros],
         "headers": [
             {"source": "/(.*)", "headers": [{"key": k, "value": v} for k, v in seguridad.items()]},
             {"source": "/assets/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
