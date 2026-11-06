@@ -707,6 +707,7 @@ CATEGORIAS = {
     "Psicología contemporánea": "Psicoterapia integrativa, terapia online, duelo migratorio y otros temas de la psicología de hoy, en lenguaje claro.",
     "Psicología básica": "Personalidad, inteligencia, emociones, apego, memoria y motivación: los conceptos básicos de la psicología, explicados en lenguaje claro.",
     "Meditación y respiración": "Tipos de meditación de Oriente y Occidente, técnicas de respiración y lo que dice la psicología sobre ellas: beneficios, límites y cuidados.",
+    "Evaluación psicológica": "Apto psicológico para la licencia de conducir, técnicas proyectivas como el HTP y el desiderativo, y técnicas psicométricas: qué son y cómo se usan.",
     "Eneagrama": "El eneagrama de la personalidad y sus nueve eneatipos: motivaciones, miedos, alas y caminos de crecimiento, desde una mirada psicológica y crítica.",
     "Desarrollo personal": "Crisis vitales, la crisis de la mitad de la vida, búsqueda de sentido y autoconocimiento desde una mirada junguiana.",
 }
@@ -1042,6 +1043,7 @@ def consultorio_schema():
             ("Psicoterapia del trauma y regulación emocional", "/trauma/"),
             ("Psicoterapia para la autoestima", "/autoestima/"),
             ("Psicoterapia para dificultades vinculares", "/dificultades-vinculares/"),
+            ("Apto psicológico para la licencia de conducir", "/recursos/apto-psicologico-licencia-de-conducir/"),
         ]],
         "paymentAccepted": "Atención particular, con factura para reintegro de obra social o prepaga. Desde el exterior: Remitly, Western Union, Global66 u otras plataformas de pago internacional",
     }

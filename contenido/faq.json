@@ -104,6 +104,14 @@
     ]
   },
   {
+    "id": "apto-licencia",
+    "pregunta": "¿Hacés el apto psicológico para la licencia de conducir?",
+    "respuesta": [
+      "Sí. En mi consultorio de Alta Gracia realizo la evaluación psicológica para el apto de la licencia de conducir. Antes de venir, conviene confirmar con el área de tránsito de tu municipio qué formulario y qué requisitos te piden.",
+      "Podés escribirme para coordinar un turno."
+    ]
+  },
+  {
     "id": "como-solicitar",
     "pregunta": "¿Cómo puedo solicitar una consulta?",
     "respuesta": [
