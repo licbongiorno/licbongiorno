@@ -1021,6 +1021,7 @@ def pagina(meta, cuerpo, ruta):
 <script type="speculationrules">{REGLAS_ESPECULACION}</script>
 <script type="application/json" id="config-sitio">{config_js}</script>
 <script src="/assets/js/sitio.js?v={VERSION}" defer></script>
+{"".join(f'<script src="/assets/js/{x}?v={VERSION}" defer></script>' for x in meta.get("scripts", []))}
 {'<script src="/_vercel/insights/script.js" defer></script>' if C.get("vercel_analytics") else ""}
 </head>
 <body>
@@ -1212,7 +1213,8 @@ def leer_pagina(f):
     return meta, txt[m.end():]
 
 
-VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + (RAIZ / "assets/js/sitio.js").read_bytes()).hexdigest()[:8]
+VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + (RAIZ / "assets/js/sitio.js").read_bytes()
+                      + (RAIZ / "assets/js/laboratorio.js").read_bytes()).hexdigest()[:8]
 
 
 def escribir(ruta, contenido):
@@ -1310,7 +1312,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/"] + [ruta_categoria(c) for c in cats_con]),
+        ("Recursos", ["/recursos/", "/laboratorio-de-creatividad/"] + [ruta_categoria(c) for c in cats_con]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
     bloques_mapa = "".join(

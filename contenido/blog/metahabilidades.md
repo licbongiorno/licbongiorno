@@ -74,6 +74,8 @@ Una aclaración honesta: se habló mucho de la «mentalidad de crecimiento» de 
 
 A veces no es que falte una habilidad, sino que algo la bloquea: la autoexigencia, el miedo al error, una historia de etiquetas («no sirvo para esto»), la [ansiedad](/recursos/ansiedad-cuando-el-cuerpo-habla/) o el agotamiento. Ahí la terapia puede ayudar a destrabar lo que ya está, más que a sumar algo nuevo. Si sentís que te pasa, podés escribirme. Aprender, crear y cambiar también se aprende acompañado.
 
+Y si querés empezar a entrenar ahora, te espera el [laboratorio de creatividad](/laboratorio-de-creatividad/): consignas, juegos y desafíos para volver a jugar con las ideas.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es una metahabilidad?

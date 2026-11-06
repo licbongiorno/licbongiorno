@@ -1,0 +1,206 @@
+<!--{
+  "ruta": "/laboratorio-de-creatividad/",
+  "titulo": "Laboratorio de creatividad: consignas, juegos y desafíos",
+  "descripcion": "Consignas, juegos y desafíos para entrenar la creatividad, una metahabilidad que potencia a todas las demás. Gratis, sin registrarte y sin dejar datos.",
+  "prioridad": 0.7,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorio de creatividad", "/laboratorio-de-creatividad/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>creatividad</em>",
+  "bajada": "Consignas, juegos y desafíos para volver a jugar con las ideas. No hay respuestas correctas ni puntajes: solo un rato para mirar distinto.",
+  "respuesta": "El laboratorio de creatividad es un espacio gratuito con consignas, juegos y desafíos para entrenar la creatividad, una metahabilidad que potencia a todas las demás. Incluye combinaciones al azar, usos imposibles, escritura, el juego del garabato de Winnicott, imágenes simbólicas y un plan de siete días. Nada de lo que escribas o dibujes sale de tu dispositivo.",
+  "scripts": ["laboratorio.js"],
+  "wa_tema": "el laboratorio de creatividad",
+  "articulos": ["metahabilidades", "imaginacion-activa", "los-simbolos-segun-jung"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no hace falta ser artista. Hace falta acordarse de algo que todos sabíamos de chicos: que una caja puede ser un barco, que una mancha en el techo tiene cara y que equivocarse también es parte del juego. Con los años aprendemos a responder bien, a no hacer el ridículo, a buscar la única respuesta correcta. Y en el camino, muchas veces, dejamos de jugar.</p>
+        <p>Este laboratorio es una invitación a recuperar ese músculo. La creatividad es una <a href="/recursos/metahabilidades/">metahabilidad</a>: cuando se entrena, ayuda a resolver problemas, a tolerar la incertidumbre y a encontrar salidas donde parecía que no había. El psicoanalista Donald Winnicott decía que es jugando, y solo jugando, que podemos ser creativos y sentirnos vivos.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin respuestas correctas.</strong> Lo que se te ocurra, sirve.</li>
+        <li><strong>Sin registro.</strong> Nada de lo que escribas o dibujes sale de tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Cinco minutos alcanzan. Elegí una estación y empezá.</li>
+      </ul>
+    </div>
+
+    <section class="lab-dia revelar" aria-labelledby="lab-dia-titulo" data-lab-dia>
+      <p class="antetitulo">Desafío del día</p>
+      <h2 id="lab-dia-titulo" class="visualmente-oculto">Desafío del día</h2>
+      <p class="lab-dia__texto" data-lab-dia-texto aria-live="polite">Escribí tres cosas que viste hoy y que nadie más notó.</p>
+      <div class="lab-acciones">
+        <button class="boton boton--chico" type="button" data-lab-dia-otra>Otra consigna</button>
+        <button class="boton boton--secundario boton--chico" type="button" data-lab-copiar="[data-lab-dia-texto]">Copiar</button>
+      </div>
+    </section>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#combinar">Combinar</a>
+      <a href="#usos">Usos imposibles</a>
+      <a href="#escribir">Escribir</a>
+      <a href="#mirar">Mirar distinto</a>
+      <a href="#garabato">El juego del garabato</a>
+      <a href="#simbolos">Imágenes y símbolos</a>
+      <a href="#cuerpo">Con el cuerpo</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="combinar" aria-labelledby="t-combinar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-combinar">Combinar</h2>
+      <p class="lab-estacion__bajada">Muchas ideas nuevas son dos ideas viejas que nunca se habían conocido. Mezclá y mirá qué aparece.</p>
+      <div class="lab-tarjeta" data-lab-combinar>
+        <p class="lab-combo" aria-live="polite"><span data-lab-a>una lámpara</span> <span class="lab-combo__mas" aria-hidden="true">+</span> <span data-lab-b>un paraguas</span><span class="visualmente-oculto">, </span> <span class="lab-combo__en">en <span data-lab-lugar>una estación de tren</span></span></p>
+        <p class="lab-consigna">Inventá qué es este objeto, para qué sirve, quién lo usaría y qué problema resuelve en ese lugar. Ponele un nombre.</p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-mezclar>Mezclar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="usos" aria-labelledby="t-usos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-usos">Usos imposibles</h2>
+      <p class="lab-estacion__bajada">Un clásico de la psicología de la creatividad: el psicólogo J. P. Guilford pedía pensar todos los usos posibles de un objeto común. No se trata de acertar, sino de abrir.</p>
+      <div class="lab-tarjeta" data-lab-usos>
+        <p class="lab-consigna">¿Para cuántas cosas distintas puede servir <strong data-lab-usos-objeto>un ladrillo</strong>? Tenés dos minutos. Escribí una idea por renglón.</p>
+        <label class="visualmente-oculto" for="lab-usos-texto">Tus ideas, una por renglón</label>
+        <textarea id="lab-usos-texto" class="lab-texto" rows="7" placeholder="Una idea por renglón…" data-lab-usos-texto></textarea>
+        <div class="lab-barra">
+          <span class="lab-reloj" data-lab-reloj aria-hidden="true">2:00</span>
+          <span class="lab-contador" data-lab-usos-contador>0 ideas</span>
+        </div>
+        <p class="visualmente-oculto" role="status" data-lab-usos-estado></p>
+        <div class="lab-acciones">
+          <button class="boton boton--chico" type="button" data-lab-usos-empezar>Empezar los 2 minutos</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-lab-usos-otro>Otro objeto</button>
+        </div>
+        <div class="lab-reflexion" data-lab-usos-reflexion hidden>
+          <p><strong>¿Cómo te fue?</strong> Guilford miraba tres cosas, y vos podés mirarlas también:</p>
+          <ul>
+            <li><strong>Fluidez:</strong> cuántas ideas aparecieron (<span data-lab-usos-total>0</span>).</li>
+            <li><strong>Flexibilidad:</strong> ¿cuántas son de tipos distintos? Si todas usan el objeto para lo mismo, probá cambiar de categoría: juego, arte, cocina, música, emergencia…</li>
+            <li><strong>Originalidad:</strong> ¿cuál es la que nadie más pensaría? Esa es tuya.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="escribir" aria-labelledby="t-escribir">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-escribir">Escribir</h2>
+      <p class="lab-estacion__bajada">Escribir sin corregir es una forma de escucharse. Elegí un disparador y dejá que la mano vaya más rápido que el juez interno.</p>
+      <div class="lab-tarjeta" data-lab-escribir>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un disparador">
+          <label class="opcion"><input type="radio" name="lab-modo" value="palabras" checked><span>Tres palabras</span></label>
+          <label class="opcion"><input type="radio" name="lab-modo" value="frase"><span>Empezá con esta frase</span></label>
+          <label class="opcion"><input type="radio" name="lab-modo" value="libre"><span>Escritura libre</span></label>
+        </div>
+        <p class="lab-consigna" data-lab-escribir-consigna aria-live="polite">Escribí una historia breve que incluya estas tres palabras: <strong>llave, invierno, abuela</strong>.</p>
+        <label class="visualmente-oculto" for="lab-escribir-texto">Tu texto</label>
+        <textarea id="lab-escribir-texto" class="lab-texto" rows="9" placeholder="Empezá acá. No corrijas, no borres: seguí." data-lab-escribir-texto></textarea>
+        <div class="lab-barra">
+          <span class="lab-reloj" data-lab-escribir-reloj aria-hidden="true">5:00</span>
+          <span class="lab-contador" data-lab-escribir-contador>0 palabras</span>
+        </div>
+        <p class="visualmente-oculto" role="status" data-lab-escribir-estado></p>
+        <div class="lab-acciones">
+          <button class="boton boton--chico" type="button" data-lab-escribir-otro>Otro disparador</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-lab-escribir-reloj-btn>Escribir 5 minutos</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-lab-escribir-bajar>Guardar mi texto</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mirar" aria-labelledby="t-mirar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mirar">Mirar distinto</h2>
+      <p class="lab-estacion__bajada">Cambiar el punto de vista o ponerse una regla extraña obliga a la cabeza a salir del camino de siempre. Las restricciones, aunque parezca raro, despiertan la creatividad.</p>
+      <div class="lab-dos">
+        <div class="lab-tarjeta" data-lab-lista="perspectivas">
+          <p class="lab-tarjeta__titulo">Otro punto de vista</p>
+          <p class="lab-consigna lab-consigna--grande" data-lab-lista-texto aria-live="polite">Contá tu mañana de hoy como si la narrara tu perro, tu gato o tu planta.</p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-lista-otra>Otra</button></div>
+        </div>
+        <div class="lab-tarjeta" data-lab-lista="restricciones">
+          <p class="lab-tarjeta__titulo">Una regla extraña</p>
+          <p class="lab-consigna lab-consigna--grande" data-lab-lista-texto aria-live="polite">Describí tu casa sin usar la letra «a».</p>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-lista-otra>Otra</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="garabato" aria-labelledby="t-garabato">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-garabato">El juego del garabato</h2>
+      <p class="lab-estacion__bajada">Winnicott jugaba con los chicos que atendía a algo muy simple: uno hacía un garabato y el otro lo convertía en un dibujo. Acá el garabato lo pone el laboratorio; vos decidís qué es. Dibujá con el dedo, el mouse o el lápiz.</p>
+      <div class="lab-tarjeta" data-lab-garabato>
+        <div class="lab-lienzo">
+          <canvas width="900" height="600" role="img" aria-label="Lienzo para dibujar sobre un garabato al azar" data-lab-lienzo></canvas>
+        </div>
+        <div class="opciones lab-colores" role="radiogroup" aria-label="Color del trazo">
+          <label class="opcion"><input type="radio" name="lab-color" value="tinta" checked><span>Tinta</span></label>
+          <label class="opcion"><input type="radio" name="lab-color" value="#4A7A8C"><span>Azul</span></label>
+          <label class="opcion"><input type="radio" name="lab-color" value="#6B8E4E"><span>Verde</span></label>
+          <label class="opcion"><input type="radio" name="lab-color" value="#B5532A"><span>Rojo</span></label>
+        </div>
+        <div class="lab-acciones">
+          <button class="boton boton--chico" type="button" data-lab-garabato-nuevo>Nuevo garabato</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-lab-garabato-borrar>Borrar mi dibujo</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-lab-garabato-bajar>Guardar imagen</button>
+        </div>
+        <p class="lab-nota">¿Preferís no dibujar? Mirá el garabato un minuto y escribí qué ves: un animal, una cara, un lugar, un recuerdo. También vale.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="simbolos" aria-labelledby="t-simbolos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-simbolos">Imágenes y símbolos</h2>
+      <p class="lab-estacion__bajada">Para Jung, la psique habla en imágenes. Esta estación propone una imagen al azar y algunas preguntas para explorarla, como se hace con un sueño. No hay significados fijos: vale lo que la imagen te despierta a vos. Más sobre esto en <a href="/recursos/los-simbolos-segun-jung/">los símbolos según Jung</a>.</p>
+      <div class="lab-tarjeta lab-simbolo" data-lab-simbolo>
+        <p class="lab-simbolo__imagen" data-lab-simbolo-nombre aria-live="polite">Una puerta</p>
+        <ol class="lab-simbolo__preguntas">
+          <li>Imaginala con detalle: ¿cómo es, de qué está hecha, dónde está?</li>
+          <li>¿Qué recuerdo, persona o emoción te trae?</li>
+          <li>¿Conocés alguna historia, cuento o película donde aparezca?</li>
+          <li>Si esta imagen tuviera algo para decirte hoy, ¿qué sería?</li>
+        </ol>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-simbolo-otro>Otra imagen</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cuerpo" aria-labelledby="t-cuerpo">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-cuerpo">Con el cuerpo</h2>
+      <p class="lab-estacion__bajada">La creatividad no vive solo en la cabeza. Moverse distinto también es pensar distinto. Hacelo como te quede cómodo y respetando tus límites.</p>
+      <div class="lab-tarjeta" data-lab-lista="cuerpo">
+        <p class="lab-consigna lab-consigna--grande" data-lab-lista-texto aria-live="polite">Caminá un minuto por tu casa como si fuera la primera vez que entrás. ¿Qué descubrís?</p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-lista-otra>Otra</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Un desafío por día, de cinco a diez minutos. Marcá los que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan>
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Cambiar la ruta.</strong> Hacé un trayecto de siempre por otro camino y anotá tres cosas nuevas que viste.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Diez ideas malas.</strong> Pensá diez soluciones absurdas para un problema real. Después mirá si alguna esconde algo útil.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Garabato.</strong> Hacé el juego del garabato y ponele un título a tu dibujo.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Cocina sin receta.</strong> Prepará algo con lo que haya en la heladera, sin buscar instrucciones.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Carta a un objeto.</strong> Escribile una carta breve a un objeto que te acompañe hace años.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Enseñar.</strong> Explicale a alguien algo que aprendiste esta semana, de una forma que no sea hablando.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar atrás.</strong> ¿Qué desafío te costó más y cuál disfrutaste? ¿Qué te dice eso de vos?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Algunas consignas pueden traer recuerdos o emociones intensas. Si eso pasa, podés frenar cuando quieras: no hay que terminar nada. Este laboratorio es un espacio para jugar y no reemplaza una consulta. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>; si querés trabajar algo de lo que apareció, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+  </div>
+</section>
+{{> cta}}
