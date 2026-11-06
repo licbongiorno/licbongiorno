@@ -268,7 +268,11 @@ NAV = [
         ("Valle de Paravachasca", "/psicologo-valle-de-paravachasca/", "Anisacate, La Bolsa, Los Aromos…"),
         ("Terapia online por país", "/terapia-online-por-pais/", "Horarios y qué tener en cuenta"),
     ]),
-    ("Recursos", "/recursos/", None),
+    ("Recursos", None, [
+        ("Artículos", "/recursos/", "Psicología para la vida cotidiana"),
+        ("Para descargar", "/recursos/#para-descargar", "Diario de sueños en PDF"),
+        ("Laboratorio de creatividad", "/laboratorio-de-creatividad/", "Consignas, juegos y desafíos"),
+    ]),
     ("Empezar", None, [
         ("Tu primera consulta", "/primera-consulta/", "Paso a paso, sin sorpresas"),
         ("Preguntas frecuentes", "/preguntas-frecuentes/", "Dudas habituales antes de empezar"),
@@ -281,7 +285,7 @@ def cabecera(ruta):
     items = []
     for i, (txt, href, sub) in enumerate(NAV):
         if sub:
-            actual = any(ruta == s[1] for s in sub)
+            actual = any(ruta == s[1] for s in sub) or (txt == "Recursos" and ruta.startswith("/recursos/"))
             subitems = "".join(
                 f'<li><a href="{h}"{" aria-current=\"page\"" if ruta == h else ""}>{esc(t)}<small>{esc(d)}</small></a></li>' for t, h, d in sub)
             items.append(

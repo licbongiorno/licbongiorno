@@ -8,22 +8,39 @@
   "tipo_pagina": "CollectionPage",
   "antetitulo": "Recursos",
   "h1": "Psicología para <em>pensar la vida cotidiana</em>",
-  "bajada": "Un espacio de divulgación con textos claros y rigurosos sobre emociones, vínculos, autoconocimiento y psicología contemporánea. Cada artículo se publica una vez revisado."
+  "bajada": "Artículos para leer, materiales para descargar y un laboratorio para practicar. Textos claros y rigurosos sobre emociones, vínculos, autoconocimiento y psicología contemporánea."
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
-    <div class="buscador revelar" role="search">
-      <label for="buscar-articulos" class="visualmente-oculto">Buscar artículos</label>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
-      <input id="buscar-articulos" type="search" placeholder="Buscar: ansiedad, sueños, duelo, Jung…" autocomplete="off" aria-describedby="buscar-estado">
-      <span class="buscador__estado" id="buscar-estado" aria-live="polite"></span>
-    </div>
-    {{> categorias}}
-    <h2 class="visualmente-oculto">Artículos</h2>
-    <div class="descarga revelar" style="margin-bottom:1rem"><p><strong>Laboratorio de creatividad</strong>Consignas, juegos y desafíos para entrenar la creatividad: combinar ideas, escribir, el juego del garabato y un plan de 7 días. Gratis y sin dejar datos.</p><a class="boton boton--secundario boton--chico" href="/laboratorio-de-creatividad/">Entrar al laboratorio</a></div>
-    <div class="descarga revelar" style="margin-bottom:2rem"><p><strong>Diario de sueños</strong>Un cuaderno para imprimir, con una guía para registrar tus sueños, sus emociones y lo que te evocan. Gratis y sin dejar datos.</p><a class="boton boton--secundario boton--chico" href="/assets/descargas/diario-de-suenos.pdf" download>Descargar PDF</a></div>
-    {{> articulos}}
-    <p class="revelar" style="margin-top:2.5rem;font-family:var(--f-sans);font-size:.85rem;color:var(--piedra-oscura);max-width:46rem">Los artículos tienen fines de divulgación y no reemplazan una consulta profesional. Si querés que escriba sobre algún tema en particular, podés sugerirlo por <a href="{{instagram}}" target="_blank" rel="noopener">Instagram</a>.</p>
+    <nav class="recursos-indice revelar" aria-label="Tipos de recursos">
+      <a class="recursos-indice__item" href="#articulos"><span class="recursos-indice__tipo">Leer</span><strong>Artículos</strong><span>Psicología para pensar la vida cotidiana, la serie de Jung y conceptos básicos.</span></a>
+      <a class="recursos-indice__item" href="#para-descargar"><span class="recursos-indice__tipo">Imprimir</span><strong>Para descargar</strong><span>Materiales en PDF, gratis y sin dejar datos.</span></a>
+      <a class="recursos-indice__item" href="#laboratorios"><span class="recursos-indice__tipo">Practicar</span><strong>Laboratorios</strong><span>Consignas, juegos y desafíos interactivos.</span></a>
+    </nav>
+
+    <section class="recursos-bloque" id="articulos" aria-labelledby="t-articulos">
+      <h2 id="t-articulos" class="recursos-bloque__titulo">Artículos</h2>
+      <div class="buscador revelar" role="search">
+        <label for="buscar-articulos" class="visualmente-oculto">Buscar artículos</label>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        <input id="buscar-articulos" type="search" placeholder="Buscar: ansiedad, sueños, duelo, Jung…" autocomplete="off" aria-describedby="buscar-estado">
+        <span class="buscador__estado" id="buscar-estado" aria-live="polite"></span>
+      </div>
+      {{> categorias}}
+      {{> articulos}}
+    </section>
+
+    <section class="recursos-bloque" id="para-descargar" aria-labelledby="t-descargar">
+      <h2 id="t-descargar" class="recursos-bloque__titulo">Para descargar</h2>
+      <div class="descarga revelar"><p><strong>Diario de sueños</strong>Un cuaderno para imprimir, con una guía para registrar tus sueños, sus emociones y lo que te evocan. Gratis y sin dejar datos.</p><a class="boton boton--secundario boton--chico" href="/assets/descargas/diario-de-suenos.pdf" download>Descargar PDF</a></div>
+    </section>
+
+    <section class="recursos-bloque" id="laboratorios" aria-labelledby="t-laboratorios">
+      <h2 id="t-laboratorios" class="recursos-bloque__titulo">Laboratorios</h2>
+      <div class="descarga descarga--lab revelar"><p><strong>Laboratorio de creatividad</strong>Combinar ideas, usos imposibles, escritura, el juego del garabato, imágenes simbólicas y un plan de 7 días. Para entrenar una metahabilidad que potencia a todas las demás.</p><a class="boton boton--chico" href="/laboratorio-de-creatividad/">Entrar al laboratorio</a></div>
+    </section>
+
+    <p class="revelar" style="margin-top:2.5rem;font-family:var(--f-sans);font-size:.85rem;color:var(--piedra-oscura);max-width:46rem">Los recursos tienen fines de divulgación y no reemplazan una consulta profesional. Si querés que escriba sobre algún tema en particular, podés sugerirlo por <a href="{{instagram}}" target="_blank" rel="noopener">Instagram</a>.</p>
     <div style="margin-top:var(--sec)">{{> cta}}</div>
   </div>
 </section>
