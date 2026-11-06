@@ -553,6 +553,8 @@ WIKI = {
     "motivacion": ("Motivación", "https://es.wikipedia.org/wiki/Motivaci%C3%B3n"),
     "resiliencia": ("Resiliencia", "https://es.wikipedia.org/wiki/Resiliencia_(psicolog%C3%ADa)"),
     "empatia": ("Empatía", "https://es.wikipedia.org/wiki/Empat%C3%ADa"),
+    "metacognicion": ("Metacognición", "https://es.wikipedia.org/wiki/Metacognici%C3%B3n"),
+    "creatividad": ("Creatividad", "https://es.wikipedia.org/wiki/Creatividad"),
 }
 
 CATEGORIAS = {
