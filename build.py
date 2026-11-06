@@ -664,16 +664,22 @@ def prueba_social(clave):
 
 
 def bloque_asistente():
-    motivos = ["Ansiedad o ataques de pánico", "Tristeza o desgano", "Un duelo o una pérdida", "Mis vínculos o mi pareja",
-               "Una crisis o un cambio de etapa", "Conocerme más", "Todavía no lo sé"]
+    # (texto visible, frase para el mensaje). Se pueden elegir varios: casi nadie consulta por un solo tema.
+    motivos = [("Ansiedad o ataques de pánico", "ansiedad o ataques de pánico"), ("Estrés o agotamiento", "estrés o agotamiento"),
+               ("Tristeza o desgano", "tristeza o desgano"), ("Un duelo o una pérdida", "un duelo o una pérdida"),
+               ("Mis vínculos o mi pareja", "cosas de mis vínculos o de mi pareja"), ("Mi familia", "temas familiares"),
+               ("Autoestima o inseguridad", "autoestima o inseguridad"), ("Algo que se repite en mi vida", "algo que se repite en mi vida"),
+               ("Una crisis o un cambio de etapa", "una crisis o un cambio de etapa"), ("Conocerme más", "conocerme más"),
+               ("Todavía no lo sé", "")]
+    opciones_motivo = "".join(f'<label class="opcion"><input type="checkbox" name="motivo" value="{esc(v)}" data-frase="{esc(f)}"><span>{esc(v)}</span></label>' for v, f in motivos)
     def opciones(nombre, lista):
         return "".join(f'<label class="opcion"><input type="radio" name="{nombre}" value="{esc(v)}"><span>{esc(v)}</span></label>' for v in lista)
     return f'''<section class="asistente revelar" id="empezar" aria-labelledby="titulo-asistente">
   <p class="antetitulo">Empezar en 3 pasos</p>
   <h2 id="titulo-asistente">No hace falta saber <em>qué escribir</em></h2>
-  <p class="asistente__intro">Elegí tres opciones y te armo el mensaje para que lo envíes por WhatsApp. No es un test ni un diagnóstico, y no se guarda ningún dato.</p>
+  <p class="asistente__intro">Respondé tres preguntas y te armo el mensaje para que lo envíes por WhatsApp. No es un test ni un diagnóstico, y no se guarda ningún dato.</p>
   <form class="asistente__form" id="asistente" novalidate>
-    <fieldset class="asistente__paso" data-paso="1"><legend><span>1</span> ¿Qué te trae?</legend><div class="opciones">{opciones("motivo", motivos)}</div></fieldset>
+    <fieldset class="asistente__paso" data-paso="1"><legend><span>1</span> ¿Qué te trae?</legend><p class="asistente__subpaso asistente__subpaso--ayuda">Podés marcar varias: casi nunca es una sola cosa.</p><div class="opciones">{opciones_motivo}</div></fieldset>
     <fieldset class="asistente__paso" data-paso="2"><legend><span>2</span> ¿Cómo preferís?</legend><div class="opciones">{opciones("modalidad", ["Presencial en Alta Gracia", "Online", "Me da igual"])}</div></fieldset>
     <fieldset class="asistente__paso" data-paso="3"><legend><span>3</span> ¿Qué horario te queda mejor?</legend><p class="asistente__nota" data-asistente-nota hidden></p><div class="opciones">{opciones("horario", ["Mañana", "Tarde", "Noche", "Cualquiera"])}</div><p class="asistente__subpaso" id="asistente-dias">¿Qué días? <span>(podés elegir varios)</span></p><div class="opciones" role="group" aria-labelledby="asistente-dias">{"".join(f'<label class="opcion"><input type="checkbox" name="dias" value="{d}"><span>{d}</span></label>' for d in ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"])}</div></fieldset>
     <div class="asistente__vista" aria-live="polite"><p class="asistente__vista-titulo">Tu mensaje</p><p class="asistente__texto">Hola, Nicolás. Te escribo desde tu web para consultar por un turno.</p></div>

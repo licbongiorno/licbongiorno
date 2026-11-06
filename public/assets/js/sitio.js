@@ -13,7 +13,7 @@
   var ZONA = (function () {
     var tz = "";
     try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (err) { return null; }
-    if (!tz) return null;
+    if (!tz || tz.indexOf("/") < 0 || /^Etc\//.test(tz)) return null;  // UTC o zonas genéricas: no dicen dónde está la persona
     var AR = "America/Argentina/Cordoba";
     var esArgentina = /^America\/(Argentina\/|Buenos_Aires|Cordoba|Catamarca|Jujuy|Mendoza|Rosario)/.test(tz);
     var paises = {
@@ -362,15 +362,24 @@
     var pasos = asis.querySelectorAll(".asistente__paso");
     var armar = function () {
       var v = function (n) { var el = asis.querySelector('input[name="' + n + '"]:checked'); return el ? el.value : ""; };
-      var motivo = v("motivo"), modalidad = v("modalidad"), horario = v("horario");
-      var dias = Array.prototype.map.call(asis.querySelectorAll('input[name="dias"]:checked'), function (el) { return el.value.toLowerCase(); });
+      var modalidad = v("modalidad"), horario = v("horario");
+      var marcados = function (n) { return Array.prototype.slice.call(asis.querySelectorAll('input[name="' + n + '"]:checked')); };
+      var unir = function (l) { return l.length > 1 ? l.slice(0, -1).join(", ") + " y " + l[l.length - 1] : l[0]; };
+      var dias = marcados("dias").map(function (el) { return el.value.toLowerCase(); });
+      var motivos = marcados("motivo");
+      var noSe = motivos.some(function (el) { return !el.getAttribute("data-frase"); });
+      var conocerme = motivos.some(function (el) { return el.value === "Conocerme más"; });
+      var temas = motivos.filter(function (el) { return el.getAttribute("data-frase") && el.value !== "Conocerme más"; }).map(function (el) { return el.getAttribute("data-frase"); });
       var t = "Hola, Nicolás. Te escribo desde tu web.";
-      if (motivo && motivo !== "Todavía no lo sé") t += " Quería consultarte por: " + motivo.toLowerCase() + ".";
-      else if (motivo) t += " Quería hacer una consulta, aunque todavía no sé bien por dónde empezar.";
+      if (temas.length === 1) t += " Quería consultarte por " + temas[0] + ".";
+      else if (temas.length === 2) t += " Quería consultarte por " + temas[0] + " y por " + temas[1] + ".";
+      else if (temas.length > 2) t += " Quería consultarte porque se me juntaron varias cosas: " + unir(temas) + ".";
+      if (conocerme) t += temas.length ? " También me gustaría conocerme más." : " Me gustaría hacer terapia para conocerme más.";
+      if (noSe) t += temas.length || conocerme ? " Igual todavía no sé bien por dónde empezar." : " Quería hacer una consulta, aunque todavía no sé bien por dónde empezar.";
       if (modalidad === "Presencial en Alta Gracia") t += " Prefiero atención presencial en Alta Gracia.";
       else if (modalidad === "Online") t += " Prefiero atención online.";
       if (horario && horario !== "Cualquiera") t += " Me queda mejor a la " + horario.toLowerCase() + (ZONA && ZONA.extranjero ? " (hora de " + ZONA.ciudad + ")" : "") + ".";
-      if (dias.length) t += " Los días que mejor me quedan: " + (dias.length > 1 ? dias.slice(0, -1).join(", ") + " y " + dias[dias.length - 1] : dias[0]) + ".";
+      if (dias.length) t += " Los días que mejor me quedan: " + unir(dias) + ".";
       if (ZONA && ZONA.extranjero) t += " Escribo desde " + ZONA.lugar() + "; allá es " + ZONA.difTexto() + ".";
       t += " ¿Tenés disponibilidad?";
       if (texto.textContent !== t) {

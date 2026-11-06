@@ -1215,3 +1215,4 @@ main#contenido:focus { outline: none; }
 @media (prefers-reduced-motion: reduce) { .zona-horaria__icono svg { animation: none; } }
 .asistente__subpaso { margin: 1rem 0 .6rem; font-family: var(--f-sans); font-size: .85rem; font-weight: 600; color: var(--tinta-suave); }
 .asistente__subpaso span { font-weight: 400; color: var(--piedra-oscura); }
+.asistente__subpaso--ayuda { margin: -.2rem 0 .8rem; font-weight: 400; color: var(--piedra-oscura); }
