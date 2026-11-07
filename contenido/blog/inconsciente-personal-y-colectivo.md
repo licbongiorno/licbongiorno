@@ -31,6 +31,8 @@ Debajo, Jung describió una capa más profunda que no viene de la experiencia in
 
 Su contenido son los **arquetipos**: predisposiciones a vivir ciertas experiencias de maneras típicas —el nacimiento, la madre, el padre, el héroe, la muerte, el viaje, la transformación—. Del mismo modo que heredamos la capacidad de caminar o de hablar, heredamos formas posibles de imaginar y sentir. La forma concreta la pone cada cultura y cada historia. Para profundizar: [arquetipos en la vida cotidiana](/recursos/arquetipos-en-la-vida-cotidiana/).
 
+{{figura:capas-del-inconsciente}}
+
 ## Cómo distinguirlos
 
 - El **personal** es mío: mi madre, mi escuela, mi primera pérdida.

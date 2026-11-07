@@ -39,6 +39,8 @@ La relación entre el yo y el sí-mismo puede tomar distintas formas:
 
 > El yo maneja el auto. El sí-mismo sabe adónde vamos. El trabajo es que se hablen.
 
+{{figura:yo-y-si-mismo}}
+
 ## Por qué importa en la vida cotidiana
 
 Esta distinción ayuda a entender muchas experiencias: la sensación de vacío aunque «esté todo bien», las decisiones que el cuerpo rechaza aunque la cabeza las apruebe, las crisis que, mirándolas después, fueron un cambio de rumbo necesario. No todo lo que nos pasa es un error del yo; a veces es la vida pidiendo más espacio.

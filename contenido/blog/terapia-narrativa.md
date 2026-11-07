@@ -31,6 +31,8 @@ Esto no minimiza lo que pasa: permite verlo desde afuera, reduce la culpa y la v
 
 La **historia dominante** es la que suele contarse sobre alguien, muchas veces centrada en el problema. White hablaba de **acontecimientos extraordinarios**: momentos, aunque sean pequeños, que no encajan con esa historia (la vez que el miedo no ganó, la vez que dijiste que no). Rastrearlos permite construir una **historia alternativa**, más rica y más fiel a la persona.
 
+{{figura:dos-historias}}
+
 ## Otras prácticas
 
 - **Re-membranza:** pensar la vida como un «club» y revisar a quién darle un lugar de honor y a quién bajarle la voz.

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 600 330"><line x1="300" y1="45" x2="300" y2="285" class="esc-linea"/><line x1="130" y1="165" x2="470" y2="165" class="esc-linea"/>
+<circle cx="300" cy="45" r="14" class="esc-punto"/><text x="300" y="22" text-anchor="middle" font-size="19">Pensamiento</text><text x="330" y="52" class="esc-sans">principal</text>
+<circle cx="300" cy="285" r="14" class="esc-nodo esc-inferior"/><text x="300" y="320" text-anchor="middle" font-size="19">Sentimiento</text><text x="330" y="292" class="esc-sans">inferior</text>
+<circle cx="130" cy="165" r="11" class="esc-nodo"/><text x="112" y="171" text-anchor="end" font-size="19">Sensación</text>
+<circle cx="470" cy="165" r="11" class="esc-nodo"/><text x="488" y="171" font-size="19">Intuición</text>
+<text x="300" y="196" text-anchor="middle" class="esc-sans">auxiliares en el otro eje</text></svg>

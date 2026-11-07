@@ -1,0 +1,7 @@
+<svg viewBox="0 0 600 320"><path class="esc-linea esc-via trazo-fig" pathLength="1" d="M60 50 C 160 60, 220 120, 290 160"/>
+<text x="60" y="36" font-size="18">Lo que doy</text>
+<path class="esc-linea esc-via trazo-fig" pathLength="1" d="M60 270 C 160 260, 220 200, 290 166"/>
+<text x="60" y="300" font-size="18">Lo que recibo</text>
+<path class="esc-linea esc-via trazo-fig" pathLength="1" d="M540 50 C 470 80, 380 120, 312 160"/>
+<text x="540" y="36" font-size="18" text-anchor="end">Mi actitud</text>
+<g><circle cx="300" cy="164" r="26" class="esc-relleno esc-centro-sentido"/><text x="300" y="230" text-anchor="middle" font-size="18" class="esc-acento">sentido</text></g></svg>

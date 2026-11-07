@@ -28,6 +28,8 @@ La terapia sistémica surgió a mediados del siglo XX, influida por la teoría g
 - **Mandatos y lealtades:** Iván Boszormenyi-Nagy habló de lealtades invisibles que nos atan a la historia familiar.
 - **Ciclo vital:** las familias atraviesan etapas (la llegada de un hijo, la adolescencia, el «nido vacío») que exigen reorganizarse.
 
+{{figura:limites-familiares}}
+
 ## Las principales escuelas
 
 - **Estructural** (Salvador Minuchin): trabaja sobre la organización, las jerarquías y los límites.

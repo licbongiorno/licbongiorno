@@ -20,6 +20,8 @@ Cuando el ánimo baja, es natural hacer menos: dejamos de ver gente, de salir, d
 
 La activación conductual propone cortar el círculo **desde la acción**, no esperando a sentirse mejor.
 
+{{figura:circulo-del-desanimo}}
+
 ## De dónde viene
 
 En 1996, el psicólogo **Neil Jacobson** y sus colegas compararon la terapia cognitiva completa de Aaron Beck con solo uno de sus componentes: el de activar a la persona. Para sorpresa de muchos, la activación por sí sola funcionó tan bien como el tratamiento completo. A partir de ahí, Jacobson, **Christopher Martell** y **Michael Addis** desarrollaron la activación conductual como tratamiento propio.

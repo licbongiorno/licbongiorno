@@ -1,0 +1,116 @@
+{
+ "ventana-de-tolerancia": {
+  "titulo": "La ventana de tolerancia",
+  "desc": "Dentro de la ventana se puede sentir y pensar a la vez; por arriba está la hiperactivación y por abajo la hipoactivación. Regularse es volver a la franja del medio, que con práctica se ensancha.",
+  "enlace": [
+   "Verlo paso a paso en el laboratorio de regulación",
+   "/laboratorio-de-regulacion/#ventana"
+  ]
+ },
+ "pendulacion": {
+  "titulo": "La pendulación",
+  "desc": "Un péndulo va del recurso, una zona de calma, a una incomodidad leve y vuelve; con cada vaivén la incomodidad se achica. Siempre se termina en el recurso.",
+  "enlace": [
+   "Practicarla con pasos guiados",
+   "/laboratorio-de-regulacion/#pendular"
+  ]
+ },
+ "circulo-del-desanimo": {
+  "titulo": "El círculo del desánimo y una salida",
+  "desc": "Me siento mal, hago menos, recibo menos y me siento peor: el círculo se cierra. Una acción pequeña abre una salida hacia un poco mejor.",
+  "enlace": [
+   "Verlo paso a paso en el laboratorio de ánimo",
+   "/laboratorio-de-animo/#circulo"
+  ]
+ },
+ "ciclo-de-la-experiencia": {
+  "titulo": "El ciclo de la experiencia",
+  "desc": "Una necesidad recorre seis fases: sensación, darse cuenta, energía, acción, contacto y retirada, y el ciclo se cierra para dar lugar a otro.",
+  "enlace": [
+   "Ver dónde te trabás, en el laboratorio Gestalt",
+   "/laboratorio-gestalt/#ciclo"
+  ]
+ },
+ "viaje-del-heroe": {
+  "titulo": "El viaje del héroe",
+  "desc": "Se parte del mundo conocido, se cruza el umbral hacia lo desconocido, se atraviesan pruebas y se vuelve transformado.",
+  "enlace": [
+   "Recorrer tu propio viaje en el laboratorio",
+   "/laboratorio-mito-personal/#viaje"
+  ]
+ },
+ "tres-vias-del-sentido": {
+  "titulo": "Las tres vías del sentido",
+  "desc": "Lo que damos, lo que recibimos y la actitud frente a lo que no podemos cambiar: tres caminos que confluyen en el sentido.",
+  "enlace": [
+   "Escribir tus tres vías en el laboratorio de sentido",
+   "/laboratorio-de-sentido/#vias"
+  ]
+ },
+ "limites-familiares": {
+  "titulo": "Límites en la familia",
+  "desc": "Límites difusos (todo entra y sale), claros (hay intercambio y también privacidad) y rígidos (casi nada pasa).",
+  "enlace": [
+   "Explorarlos en el laboratorio sistémico",
+   "/laboratorio-sistemico/#limites"
+  ]
+ },
+ "congruencia": {
+  "titulo": "Yo real y yo ideal",
+  "desc": "Para Carl Rogers, cuanto más se superponen la imagen de cómo soy y la de cómo creo que debería ser, más congruencia hay.",
+  "enlace": [
+   "Mover los círculos en el laboratorio humanista",
+   "/laboratorio-humanista/#yo-real"
+  ]
+ },
+ "dos-historias": {
+  "titulo": "Dos historias",
+  "desc": "La historia dominante suele estar centrada en el problema. Los acontecimientos extraordinarios, momentos que no encajan con ella, permiten tejer una historia alternativa.",
+  "enlace": [
+   "Escribir tus dos historias en el laboratorio narrativo",
+   "/laboratorio-narrativo/#historias"
+  ]
+ },
+ "curva-del-olvido": {
+  "titulo": "Olvidar y volver a usar",
+  "desc": "Lo que no volvemos a usar tiende a borrarse; cada vez que lo usamos, el recuerdo se sostiene un poco más.",
+  "enlace": [
+   "Planificar repasos en el laboratorio de aprender",
+   "/laboratorio-de-aprender-a-aprender/#espaciar"
+  ]
+ },
+ "capas-del-inconsciente": {
+  "titulo": "Las capas de la psique según Jung",
+  "desc": "Por debajo de la conciencia está el inconsciente personal, donde se forman los complejos; más profundo, el inconsciente colectivo, compartido por todos, formado por los arquetipos.",
+  "enlace": null
+ },
+ "yo-y-si-mismo": {
+  "titulo": "El yo y el sí-mismo",
+  "desc": "El yo es el centro de la conciencia y solo una parte de la psique. El sí-mismo es la totalidad, consciente e inconsciente, y su centro organizador. El trabajo es que dialoguen.",
+  "enlace": null
+ },
+ "cuatro-funciones": {
+  "titulo": "Las cuatro funciones de Jung",
+  "desc": "Pensamiento y sentimiento juzgan; sensación e intuición perciben. Si la función principal es, por ejemplo, el pensamiento, la inferior es la opuesta, el sentimiento. Las auxiliares quedan en el otro eje.",
+  "enlace": [
+   "Hacer el test de tipos psicológicos",
+   "/test-de-tipos-psicologicos/"
+  ]
+ },
+ "base-segura": {
+  "titulo": "La base segura",
+  "desc": "Una figura de apego funciona como base segura: desde ahí se sale a explorar el mundo y se vuelve cuando hay miedo. Si la base está disponible, se explora más.",
+  "enlace": [
+   "Hacer el test de estilos de apego",
+   "/test-de-estilos-de-apego/"
+  ]
+ },
+ "eneagrama": {
+  "titulo": "El símbolo del eneagrama",
+  "desc": "Nueve puntos sobre un círculo, unidos por un triángulo (3, 6 y 9) y una figura de seis puntas (1, 4, 2, 8, 5, 7). Los colores marcan los tres centros: instintivo (8, 9 y 1), emocional (2, 3 y 4) y mental (5, 6 y 7).",
+  "enlace": [
+   "Hacer el test de eneagrama",
+   "/test-de-eneagrama/"
+  ]
+ }
+}

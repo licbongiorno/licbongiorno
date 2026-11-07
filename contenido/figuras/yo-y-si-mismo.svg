@@ -1,0 +1,7 @@
+<svg viewBox="0 0 600 320"><circle cx="300" cy="150" r="130" class="esc-capa esc-capa--2"/>
+<circle cx="300" cy="150" r="5" class="esc-punto"/>
+<text x="300" y="312" text-anchor="middle" font-size="18">sí-mismo: la totalidad</text>
+<circle cx="360" cy="100" r="42" class="esc-relleno"/>
+<text x="360" y="106" text-anchor="middle" font-size="18">yo</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M330 128 Q 312 145 306 150"/>
+<text x="230" y="178" text-anchor="middle" font-size="15" class="esc-acento">centro organizador</text></svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 600 330"><clipPath id="recorte-capas"><rect x="0" y="0" width="600" height="330" rx="18"/></clipPath>
+<g clip-path="url(#recorte-capas)">
+<circle cx="300" cy="330" r="300" class="esc-capa esc-capa--3"/>
+<circle cx="300" cy="330" r="210" class="esc-capa esc-capa--2"/>
+<circle cx="300" cy="330" r="115" class="esc-capa esc-capa--1"/>
+</g>
+<circle cx="300" cy="290" r="8" class="esc-punto"/><text x="300" y="276" text-anchor="middle" font-size="16">yo</text>
+<text x="300" y="316" text-anchor="middle" font-size="18">conciencia</text>
+<text x="300" y="160" text-anchor="middle" font-size="18">inconsciente personal</text>
+<text x="300" y="182" text-anchor="middle" class="esc-sans">los complejos</text>
+<text x="300" y="66" text-anchor="middle" font-size="18">inconsciente colectivo</text>
+<text x="300" y="88" text-anchor="middle" class="esc-sans">los arquetipos</text></svg>

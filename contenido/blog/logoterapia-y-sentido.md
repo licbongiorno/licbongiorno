@@ -31,6 +31,8 @@ Para Frankl, el sentido no se inventa: se **descubre**, y puede aparecer por tre
 
 > «Al hombre se le puede arrebatar todo salvo una cosa: la última de las libertades humanas, la elección de la actitud personal ante un conjunto de circunstancias.» (Viktor Frankl, *El hombre en busca de sentido*)
 
+{{figura:tres-vias-del-sentido}}
+
 ## La pregunta invertida
 
 Frankl proponía un giro: en lugar de preguntarnos qué esperamos de la vida, preguntarnos **qué espera la vida de nosotros**. El sentido no es algo que llega de afuera, sino una respuesta que damos con nuestras acciones a cada situación concreta.

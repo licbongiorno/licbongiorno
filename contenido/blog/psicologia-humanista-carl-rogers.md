@@ -35,6 +35,8 @@ Para Rogers, mucho sufrimiento viene de la distancia entre cómo somos y cómo c
 
 > Rogers decía algo paradójico: cuando me acepto tal como soy, recién entonces puedo cambiar.
 
+{{figura:congruencia}}
+
 ## Maslow y la autorrealización
 
 Abraham Maslow estudió a personas que consideraba **autorrealizadas** y describió las **experiencias cumbre**: momentos de plenitud y sentido. Su famosa pirámide de necesidades es muy popular, aunque la idea de que hay que completar cada escalón para pasar al siguiente no tiene demasiado respaldo. Lo cuento en [la motivación](/recursos/la-motivacion/).

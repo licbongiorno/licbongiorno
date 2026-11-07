@@ -121,3 +121,43 @@ Hay 32 laboratorios con 182 estaciones.
 **Validación de la segunda tanda:**
 - 40 comprobaciones automáticas sin fallas, incluidas las pruebas con movimiento reducido y sin JavaScript.
 - La regresión del sitio completo, axe y las comprobaciones de desborde se repitieron.
+
+## Figuras en los artículos
+
+**Criterio:** los artículos se leen, así que no llevan escenas con pasos ni botones. Solo los que explican un modelo o un proceso tienen **una figura estática**, que se dibuja suavemente una vez al aparecer, con un enlace a su versión interactiva cuando existe.
+
+**Cómo funciona:**
+- La figura se agrega con el marcador `{{figura:nombre}}` en el Markdown.
+- El dibujo y su texto están en `contenido/figuras/` (`nombre.svg` y `figuras.json`).
+- Los estilos están en `assets/css/figuras.css` y solo se cargan en los artículos que tienen figura.
+- No hay JavaScript nuevo.
+
+**Las 15 figuras:**
+- ventana de tolerancia;
+- pendulación;
+- activación conductual (el círculo del desánimo);
+- Gestalt (el ciclo de la experiencia);
+- mitos y cuentos (el viaje del héroe);
+- logoterapia (las tres vías del sentido);
+- terapia sistémica (los límites);
+- psicología humanista (yo real y yo ideal);
+- terapia narrativa (dos historias);
+- la memoria (olvidar y volver a usar);
+- inconsciente personal y colectivo (las capas);
+- el yo y el sí-mismo;
+- tipos psicológicos (las cuatro funciones);
+- el apego (la base segura);
+- qué es el eneagrama (el símbolo y los centros).
+
+**Dónde no hay figuras, a propósito:**
+- en los temas íntimos o reflexivos;
+- en las técnicas de evaluación, para no mostrar estímulos;
+- en cada eneatipo y cada tipo por separado;
+- en los tipos de meditación;
+- en los mecanismos de defensa, porque el artículo no desarrolla un modelo gráfico y una figura agregaría contenido que el texto no tiene.
+
+**Validación:**
+- axe en claro y oscuro: 0 violaciones en los 15 artículos.
+- Desbordes: 0.
+- Lighthouse en móvil: 99 en rendimiento, con CLS 0.
+- Con movimiento reducido o sin JavaScript, las figuras se ven completas.

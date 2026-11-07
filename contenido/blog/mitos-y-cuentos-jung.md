@@ -36,6 +36,8 @@ En los cuentos, cada personaje puede leerse también como una parte de uno mismo
 
 > Cuando una historia antigua nos conmueve, es porque está contando algo nuestro con otras palabras.
 
+{{figura:viaje-del-heroe}}
+
 ## Para qué sirven en terapia
 
 Los mitos y los cuentos no son recetas, son mapas. Cuando alguien atraviesa una [crisis vital](/crisis-vitales/), reconocer el «guion» de su experiencia en una historia antigua puede aliviar mucho: no es el único que pasó por esto, y hay un camino posible. En la [terapia junguiana](/terapia-junguiana/) se usan para ampliar el sentido de un sueño o de un momento de vida, a través de lo que Jung llamó [amplificación](/glosario-junguiano/#amplificacion).

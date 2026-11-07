@@ -21,6 +21,8 @@ El psiquiatra y psicoanalista británico John Bowlby propuso, a mediados del sig
 
 Una figura de apego funciona como **base segura**: el chico se aleja a explorar el mundo y vuelve a ella cuando tiene miedo. Si esa base está disponible, se anima a explorar más.
 
+{{figura:base-segura}}
+
 ## Los estilos de apego
 
 La psicóloga Mary Ainsworth estudió cómo reaccionaban los bebés cuando su madre se iba y volvía en una situación de laboratorio. A partir de esas observaciones, y de investigaciones posteriores, se describieron cuatro estilos:

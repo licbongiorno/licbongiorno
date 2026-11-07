@@ -1,0 +1,6 @@
+<svg viewBox="0 0 600 170"><text x="20" y="24" class="esc-sans">historia dominante</text>
+<path class="viz-hilo viz-hilo--dom trazo-fig" pathLength="1" stroke-width="7" d="M20 55 C 140 25, 220 85, 330 55 S 500 25, 580 55"/>
+<path class="viz-hilo viz-hilo--alt trazo-fig" pathLength="1" stroke-width="3" d="M20 115 C 140 85, 220 145, 330 115 S 500 85, 580 115"/>
+<circle class="esc-punto" cx="140" cy="103" r="6"/><circle class="esc-punto" cx="330" cy="115" r="6"/><circle class="esc-punto" cx="470" cy="100" r="6"/>
+<text x="20" y="160" class="esc-sans">historia alternativa</text>
+<text x="580" y="160" text-anchor="end" font-size="15" class="esc-acento">acontecimientos extraordinarios</text></svg>

@@ -44,6 +44,8 @@ La idea de fondo es que cada uno desarrolló, temprano en la vida, una estrategi
 - **Flechas:** en momentos de crecimiento o de estrés, cada eneatipo toma rasgos de otros dos.
 - **Subtipos instintivos:** según qué instinto predomina (conservación, social o uno a uno), cada eneatipo se expresa de forma distinta. Naranjo describió así 27 subtipos.
 
+{{figura:eneagrama}}
+
 ## De dónde viene
 
 El símbolo del eneagrama fue difundido en Occidente a principios del siglo XX por el místico **G. I. Gurdjieff**. En los años sesenta y setenta, el boliviano **Óscar Ichazo** lo vinculó con tipos de carácter, y el psiquiatra chileno **Claudio Naranjo** lo desarrolló desde la psicología y lo llevó a Estados Unidos. Después lo difundieron autores como Helen Palmer, Don Riso y Russ Hudson.

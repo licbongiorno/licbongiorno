@@ -201,6 +201,24 @@ def inline_md(t):
     return t
 
 
+# Figuras estáticas para artículos: contenido/figuras/<nombre>.svg + figuras.json (título, descripción, enlace).
+FIGURAS = json.loads((RAIZ / "contenido/figuras/figuras.json").read_text(encoding="utf-8")) if (RAIZ / "contenido/figuras/figuras.json").exists() else {}
+
+
+def figura_html(nombre):
+    m = FIGURAS.get(nombre)
+    svg_path = RAIZ / "contenido/figuras" / f"{nombre}.svg"
+    if not m or not svg_path.exists():
+        raise SystemExit(f"Falta la figura «{nombre}» en contenido/figuras/")
+    svg = svg_path.read_text(encoding="utf-8").strip()
+    fid = f"fig-{nombre}"
+    svg = svg.replace("<svg ", f'<svg role="img" aria-labelledby="{fid}-t {fid}-d" ', 1)
+    svg = svg.replace(">", f'><title id="{fid}-t">{esc(m["titulo"])}</title>', 1)
+    enlace = f'<a class="enlace-flecha" href="{m["enlace"][1]}">{esc(m["enlace"][0])} {ICON["flecha"]}</a>' if m.get("enlace") else ""
+    return (f'<figure class="figura-articulo escena revelar" id="{fid}">{svg}'
+            f'<figcaption><p id="{fid}-d">{esc(m["desc"])}</p>{enlace}</figcaption></figure>')
+
+
 def markdown(md):
     salida, parrafo, lista, tipo = [], [], [], None
 
@@ -223,6 +241,9 @@ def markdown(md):
             n = len(m.group(1))
             ident = slug(m.group(2))
             salida.append(f'<h{n} id="{ident}">{inline_md(m.group(2))}</h{n}>'); continue
+        mf = re.match(r"^\{\{figura:([a-z0-9-]+)\}\}$", s)
+        if mf:
+            cerrar(); salida.append(figura_html(mf.group(1))); continue
         if s.startswith("> "):
             cerrar(); salida.append(f"<blockquote><p>{inline_md(s[2:])}</p></blockquote>"); continue
         m = re.match(r"^(?:[-*]|\d+\.)\s+(.*)", s)
@@ -1217,7 +1238,7 @@ def pagina(meta, cuerpo, ruta):
 <link rel="preload" href="/assets/fonts/lora-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/playfair-display-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/estilos.css?v={VERSION}">{f'<link rel="stylesheet" href="/assets/css/interactivo.css?v={VERSION}">' if meta.get("scripts") else ""}
+<link rel="stylesheet" href="/assets/css/estilos.css?v={VERSION}">{f'<link rel="stylesheet" href="/assets/css/interactivo.css?v={VERSION}">' if meta.get("scripts") else ""}{f'<link rel="stylesheet" href="/assets/css/figuras.css?v={VERSION}">' if meta.get("figuras") else ""}
 <script>{JS_INLINE}</script>
 <script type="application/ld+json">
 {jsonld}
@@ -1333,6 +1354,7 @@ def render_articulo(a):
     meta = {
         "titulo": a.get("titulo_seo", a["titulo"]) , "descripcion": a["descripcion"], "migas": migas,
         "noindex": not a["publicado"], "con_consultorio": False, "og": og, "faq_items": faq_items,
+        "figuras": "figura-articulo" in cuerpo_md,
         "articulo": {"fecha": a.get("fecha", HOY)},
         "schema_extra": [{
             "@type": "Article", "@id": f'{URL}{a["ruta"]}#articulo', "headline": a["titulo"], "description": a["descripcion"],
@@ -1422,7 +1444,7 @@ def leer_pagina(f):
     return meta, txt[m.end():]
 
 
-VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/interactivo.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js")))).hexdigest()[:8]
+VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/interactivo.css").read_bytes() + (RAIZ / "assets/css/figuras.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js")))).hexdigest()[:8]
 
 
 def escribir(ruta, contenido):
@@ -1445,6 +1467,8 @@ def construir():
     css_pub.write_text(minificar_css(css_pub.read_text(encoding="utf-8") + "\n" + oscuro), encoding="utf-8")
     inter_pub = SALIDA / "assets/css/interactivo.css"
     inter_pub.write_text(minificar_css(inter_pub.read_text(encoding="utf-8")), encoding="utf-8")
+    fig_pub = SALIDA / "assets/css/figuras.css"
+    fig_pub.write_text(minificar_css(fig_pub.read_text(encoding="utf-8")), encoding="utf-8")
     (SALIDA / "assets/css/oscuro.plantilla.css").unlink()
     for extra in ("favicon.svg", "favicon.ico", "apple-touch-icon.png"):
         origen = RAIZ / "assets/img" / extra

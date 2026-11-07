@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 300"><circle cx="150" cy="215" r="62" class="esc-relleno esc-recurso"/>
+<text x="150" y="221" text-anchor="middle" font-size="19">Recurso</text>
+<circle cx="450" cy="215" r="44" class="esc-calido esc-incomodidad"/>
+<text x="450" y="284" text-anchor="middle" font-size="17">Incomodidad</text>
+<circle cx="300" cy="34" r="5" class="esc-nodo"/>
+<g class="pendulo"><line x1="300" y1="34" x2="300" y2="190" class="esc-linea"/><circle cx="300" cy="196" r="13" class="esc-punto"/></g>
+<path class="esc-suave trazo-fig" pathLength="1" d="M190 150 Q 300 110 410 150"/>
+<text x="150" y="128" text-anchor="middle" font-size="16" class="esc-acento">terminar en calma</text></svg>

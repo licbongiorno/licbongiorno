@@ -29,6 +29,8 @@ Pat Ogden y sus colegas la desarrollaron después en el trabajo con el trauma.
 
 > Fuera de la ventana no se piensa mejor por más que uno lo intente. Primero hay que volver.
 
+{{figura:ventana-de-tolerancia}}
+
 ## Por qué se estrecha
 
 Cada persona tiene una ventana distinta, y la misma persona la tiene más ancha o más angosta según el momento. El **trauma**, el **estrés crónico**, la falta de sueño y las experiencias tempranas de inseguridad suelen estrecharla: con poco, se sale por arriba o por abajo. Los vínculos seguros, el descanso y el trabajo terapéutico tienden a ampliarla.

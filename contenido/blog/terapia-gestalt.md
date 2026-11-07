@@ -29,6 +29,8 @@ Forma parte de la **psicología humanista**, junto con el enfoque de [Carl Roger
 - **Figura y fondo.** Una necesidad aparece como «figura» sobre el fondo de la experiencia, pide ser atendida y, cuando se satisface, vuelve al fondo.
 - **Los asuntos inconclusos.** Lo que quedó sin cerrar (un duelo, algo no dicho) sigue reclamando atención y se repite.
 
+{{figura:ciclo-de-la-experiencia}}
+
 ## La silla vacía y otras técnicas
 
 La técnica más conocida es la **silla vacía**: imaginar a una persona, o a una parte propia, sentada en una silla, hablarle directamente y luego cambiarse de lugar para responder desde ella. Se usa para asuntos inconclusos, duelos o conflictos internos.

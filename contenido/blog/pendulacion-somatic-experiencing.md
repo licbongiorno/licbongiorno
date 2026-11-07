@@ -30,6 +30,8 @@ Va de la mano de otros dos conceptos:
 - **El recurso:** una zona del cuerpo, una imagen, un recuerdo o una persona que dan una sensación de calma o de sostén.
 - **La titulación:** acercarse a lo difícil en dosis muy pequeñas, como una gota por vez, para no desbordar el sistema nervioso.
 
+{{figura:pendulacion}}
+
 ## Cómo se practica
 
 1. Encontrá un **recurso**: una zona del cuerpo donde sientas algo agradable o neutro (las manos, los pies, la espalda apoyada) y quedate ahí, notando cómo es.

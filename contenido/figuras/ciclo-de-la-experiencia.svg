@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 340"><circle class="esc-suave" cx="300" cy="170" r="120"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M300.0 50.0 A120 120 0 0 1 403.9 110.0"/>
+<g><circle class="esc-nodo" cx="300.0" cy="50.0" r="10"/><text x="300.0" y="22.0" text-anchor="middle" font-size="18">Sensación</text></g>
+
+<path class="esc-linea trazo-fig" pathLength="1" d="M403.9 110.0 A120 120 0 0 1 403.9 230.0"/>
+<g><circle class="esc-nodo" cx="403.9" cy="110.0" r="10"/><text x="433.4" y="99.0" text-anchor="start" font-size="18">Darse cuenta</text></g>
+
+<path class="esc-linea trazo-fig" pathLength="1" d="M403.9 230.0 A120 120 0 0 1 300.0 290.0"/>
+<g><circle class="esc-nodo" cx="403.9" cy="230.0" r="10"/><text x="433.4" y="253.0" text-anchor="start" font-size="18">Energía</text></g>
+
+<path class="esc-linea trazo-fig" pathLength="1" d="M300.0 290.0 A120 120 0 0 1 196.1 230.0"/>
+<g><circle class="esc-nodo" cx="300.0" cy="290.0" r="10"/><text x="300.0" y="330.0" text-anchor="middle" font-size="18">Acción</text></g>
+
+<path class="esc-linea trazo-fig" pathLength="1" d="M196.1 230.0 A120 120 0 0 1 196.1 110.0"/>
+<g><circle class="esc-nodo" cx="196.1" cy="230.0" r="10"/><text x="166.6" y="253.0" text-anchor="end" font-size="18">Contacto</text></g>
+
+<path class="esc-linea trazo-fig" pathLength="1" d="M196.1 110.0 A120 120 0 0 1 300.0 50.0"/>
+<g><circle class="esc-nodo" cx="196.1" cy="110.0" r="10"/><text x="166.6" y="99.0" text-anchor="end" font-size="18">Retirada</text></g>
+
+<text x="300" y="176" text-anchor="middle" font-size="18" class="esc-acento">y vuelve a empezar</text></svg>

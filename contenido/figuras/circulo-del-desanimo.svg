@@ -1,0 +1,15 @@
+<svg viewBox="-70 0 700 380"><circle class="esc-suave anillo" cx="230" cy="190" r="120"/>
+<g class="esc-nodos">
+<g><circle class="esc-nodo" cx="230" cy="70" r="9"/><text x="230" y="44" text-anchor="middle" font-size="19">Me siento mal</text></g>
+<path class="esc-linea trazo-fig" pathLength="1" d="M248 72 A120 120 0 0 1 348 172"/>
+<g><circle class="esc-nodo" cx="350" cy="190" r="9"/><text x="368" y="196" font-size="19">Hago menos</text></g>
+<path class="esc-linea trazo-fig" pathLength="1" d="M348 208 A120 120 0 0 1 248 308"/>
+<g><circle class="esc-nodo" cx="230" cy="310" r="9"/><text x="230" y="342" text-anchor="middle" font-size="19">Recibo menos</text></g>
+<path class="esc-linea trazo-fig" pathLength="1" d="M212 308 A120 120 0 0 1 112 208"/>
+<g><circle class="esc-nodo" cx="110" cy="190" r="9"/><text x="92" y="196" text-anchor="end" font-size="19">Me siento peor</text></g>
+<path class="esc-linea trazo-fig" pathLength="1" d="M112 172 A120 120 0 0 1 212 72"/>
+</g>
+
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M352 182 C 410 175, 420 120, 455 108 S 520 78, 548 62"/>
+<g><circle class="esc-punto" cx="352" cy="182" r="7"/><text x="455" y="150" font-size="17" class="esc-acento">una acción pequeña</text></g>
+<g><circle class="esc-relleno" cx="552" cy="58" r="12"/><text x="552" y="28" text-anchor="middle" font-size="19">Un poco mejor</text></g></svg>

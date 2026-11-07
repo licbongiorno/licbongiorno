@@ -1,0 +1,6 @@
+<svg viewBox="0 0 600 260"><circle cx="140" cy="140" r="62" class="esc-relleno"/><text x="140" y="136" text-anchor="middle" font-size="18">base</text><text x="140" y="158" text-anchor="middle" font-size="18">segura</text>
+<path class="esc-linea trazo-fig" pathLength="1" d="M196 120 C 300 30, 420 40, 470 110"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M470 170 C 420 240, 300 250, 196 162"/>
+<circle cx="490" cy="140" r="30" class="esc-nodo"/><text x="490" y="206" text-anchor="middle" font-size="16">el mundo</text>
+<text x="330" y="54" text-anchor="middle" font-size="17">salir a explorar</text>
+<text x="330" y="250" text-anchor="middle" font-size="17" class="esc-acento">volver cuando hay miedo</text></svg>

@@ -45,6 +45,8 @@ Esa función poco desarrollada está muy cerca de la [sombra](/glosario-junguian
 
 > Conocer tu tipo no sirve para saber quién sos. Sirve para descubrir qué parte tuya está esperando turno.
 
+{{figura:cuatro-funciones}}
+
 ## Los tipos no son un test
 
 Muchas pruebas de personalidad populares —la más conocida es el MBTI, desarrollado por Isabel Briggs Myers y Katharine Cook Briggs— se inspiraron en la obra de Jung, pero no son lo mismo. Jung no creó ningún cuestionario y advirtió contra el uso de los tipos para clasificar personas. Para él eran una brújula para orientarse, no un casillero.

@@ -43,6 +43,8 @@ Olvidar no es solo una falla, también es una función: la mente selecciona qué
 
 Desde el psicoanálisis, además, hay olvidos que no son casuales: aquello que angustia puede quedar fuera de la conciencia, por **represión** ([los mecanismos de defensa](/recursos/mecanismos-de-defensa/)).
 
+{{figura:curva-del-olvido}}
+
 ## Memoria y emociones
 
 Las experiencias cargadas de emoción se recuerdan con más fuerza: por eso recordamos dónde estábamos en un momento muy alegre o muy triste. Pero el estrés sostenido y la angustia hacen lo contrario con la memoria cotidiana: cuesta concentrarse, retener, recordar. Mucha gente que consulta por «problemas de memoria» en realidad está atravesando [ansiedad](/recursos/ansiedad-cuando-el-cuerpo-habla/), [depresión](/depresion/) o [agotamiento](/estres-y-agotamiento/).
