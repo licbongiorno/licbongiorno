@@ -145,12 +145,12 @@ def orbitas_svg():
     """Diagrama de la perspectiva integrativa: psicología analítica al centro, base y marcos en diálogo, y recursos alrededor."""
     cx = cy = 300
     anillo1 = [("Psicoanálisis", -90), ("Terapia sistémica", 0), ("Gestalt", 90), ("Cognitivo-conductual", 180)]
-    anillo2 = [("Humanista", -45), ("Logoterapia", 15), ("ACT · DBT", 75), ("Transpersonal", 135), ("Psicología positiva", 200), ("Contextuales", 255)]
+    anillo2 = [("Humanista", -45), ("Logoterapia", 15), ("Mindfulness", 60), ("ACT · DBT", 120), ("Transpersonal", 140), ("Psicología positiva", 222), ("Contextuales", 255)]
     partes = ['<svg viewBox="0 0 600 600" role="img" aria-labelledby="orb-t orb-d">',
               '<title id="orb-t">Perspectiva integrativa</title>',
               '<desc id="orb-d">En el centro, la psicología analítica de C. G. Jung como eje clínico. '
               'Alrededor, la base psicoanalítica y los marcos con los que dialogo: terapia sistémica, Gestalt y cognitivo-conductual. '
-              'En el anillo exterior, recursos y lecturas: humanista, logoterapia, ACT y DBT, transpersonal, psicología positiva y terapias contextuales.</desc>',
+              'En el anillo exterior, recursos y lecturas: humanista, logoterapia, mindfulness, ACT y DBT, transpersonal, psicología positiva y terapias contextuales.</desc>',
               f'<circle class="orbita orbita--punteada" cx="{cx}" cy="{cy}" r="262"/>',
               f'<circle class="orbita orbita--trazo" pathLength="1" cx="{cx}" cy="{cy}" r="172"/>',
               f'<circle cx="{cx}" cy="{cy}" r="96" fill="#DDE3D2"/>',

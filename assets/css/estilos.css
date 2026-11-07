@@ -298,6 +298,12 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 3rem 0; }
 .manifiesto__frase { font-family: var(--f-display); font-style: italic; font-size: clamp(1.9rem, 1.3rem + 2.6vw, 3.4rem); line-height: 1.2; max-width: 52rem; margin: 0 auto 2rem; color: var(--tinta); text-wrap: balance; }
 .manifiesto__frase em { color: var(--salvia-profunda); }
 .manifiesto__texto { max-width: 40rem; margin-inline: auto; color: var(--texto-2); }
+.manifiesto__cierre { margin: 2.25rem auto 0; font-family: var(--f-display); font-style: italic; font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem); line-height: 1.25; color: var(--tinta); }
+.manifiesto__cierre em { color: var(--terracota-profunda); }
+.cita-jung { margin: 1.75rem 0; padding: .2rem 0 .2rem 1.25rem; border-left: 2px solid var(--terracota); }
+.cita-jung blockquote { margin: 0; font-family: var(--f-display); font-style: italic; font-size: clamp(1.1rem, 1rem + .4vw, 1.3rem); line-height: 1.45; color: var(--tinta); }
+.cita-jung figcaption { margin-top: .5rem; font-family: var(--f-sans); font-size: .78rem; color: var(--piedra-oscura); }
+.cita-jung cite { font-style: italic; }
 .manifiesto__simbolo { width: 64px; margin: 0 auto 2rem; color: var(--salvia-profunda); }
 .conceptos { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem .9rem; list-style: none; padding: 0; margin: 2.5rem auto 0; max-width: 46rem; }
 .conceptos li { font-family: var(--f-sans); font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-suave); }
