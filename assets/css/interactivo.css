@@ -598,3 +598,25 @@
 @media (prefers-reduced-motion: reduce) { .escena .esc-saltos .esc-foco { animation: none !important; opacity: .7; } }
 .viz--linea .viz-capitulo text { font-size: 16px; }
 @media (max-width: 560px) { .viz--historias .viz-eje-t { font-size: 22px; } .viz--linea .viz-capitulo text { font-size: 22px; } .viz--olvido .viz-eje-t, .viz--animo .viz-eje-t { font-size: 18px; } }
+/* --- Mindfulness --- */
+/* Sin JS se ve la composición final: las piezas que terminan antes del último paso no se muestran. */
+.escena:not(.escena--js) [data-hasta] { display: none; }
+.escena .esc-zona-at { fill: var(--terracota); fill-opacity: .3; stroke: var(--terracota-profunda); stroke-width: 1.5; }
+.escena .esc-forma { fill: var(--terracota-suave); stroke: var(--terracota-profunda); stroke-width: 1.5; stroke-linejoin: round; }
+.escena .esc-forma--abierta { fill: var(--salvia-bruma); stroke: var(--salvia-profunda); stroke-width: 2; }
+.escena .esc-letra { font-family: var(--f-display); fill: var(--terracota-profunda); }
+.escena--js .esc-forma { transform-box: fill-box; transform-origin: center; }
+.escena--js .esc-forma.actual { animation: forma-entra .9s var(--ease-out) both; }
+@keyframes forma-entra { from { transform: scale(.85); } to { transform: scale(1); } }
+.calendario__campos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: .8rem 1rem; align-items: end; }
+.calendario__campos label { display: block; margin-bottom: .3rem; font-size: var(--t-sm); font-weight: 600; }
+.calendario__lista { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .6rem; }
+.calendario__lista li { padding: .7rem .9rem; border-radius: var(--r-m); border: 1px solid var(--linea); background: var(--papel); animation: calendario-entra .45s var(--ease-out) both; }
+@keyframes calendario-entra { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.calendario__lista li p { margin: 0; overflow-wrap: anywhere; }
+.calendario__lista .calendario__item--agradable { border-left: 4px solid var(--salvia-profunda); }
+.calendario__lista .calendario__item--desagradable { border-left: 4px solid var(--terracota-profunda); }
+.calendario__tipo { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--texto-2); }
+.calendario__lista .calendario__detalle { margin-top: .3rem; font-size: var(--t-sm); color: var(--texto-2); }
+.calendario__vacio { color: var(--texto-2); font-size: var(--t-sm); }
+@media (prefers-reduced-motion: reduce) { .escena--js .esc-forma.actual, .calendario__lista li { animation: none; } }

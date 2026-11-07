@@ -45,7 +45,7 @@ Años después, los psicólogos Zindel Segal, Mark Williams y John Teasdale lo c
 
 Muchas terapias actuales integran la atención plena: la terapia dialéctico conductual (DBT), la terapia de aceptación y compromiso (ACT) y la propia MBCT. Desde la mirada junguiana, observar lo que aparece sin juzgarlo tiene mucho en común con la actitud receptiva hacia el inconsciente. Lo cuento en [Jung y la meditación](/recursos/jung-y-la-meditacion/).
 
-Para empezar a practicar, te esperan el [laboratorio de presencia](/laboratorio-de-presencia/) y el [laboratorio de meditación](/laboratorio-de-meditacion/). Y si querés integrarlo a un proceso terapéutico, podés escribirme.
+Para empezar a practicar, el [laboratorio de mindfulness](/laboratorio-de-mindfulness/) reúne diez ejercicios de la vida diaria, del espacio de respiración de tres minutos a surfear un impulso. También te esperan el [laboratorio de presencia](/laboratorio-de-presencia/) y el [laboratorio de meditación](/laboratorio-de-meditacion/). Y si querés integrarlo a un proceso terapéutico, podés escribirme.
 
 ## Preguntas frecuentes
 

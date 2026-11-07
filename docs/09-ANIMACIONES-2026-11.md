@@ -161,3 +161,38 @@ Hay 32 laboratorios con 182 estaciones.
 - Desbordes: 0.
 - Lighthouse en móvil: 99 en rendimiento, con CLS 0.
 - Con movimiento reducido o sin JavaScript, las figuras se ven completas.
+
+## Laboratorio de mindfulness (hecho)
+
+`/laboratorio-de-mindfulness/`, en el tema «Cuerpo y respiración». Tiene 10 ejercicios, sobre todo de los programas MBSR y MBCT, y no repite los de presencia ni los de meditación:
+
+1. la pasa;
+2. el espacio de respiración de tres minutos;
+3. salir del piloto automático;
+4. sonidos que van y vienen;
+5. ver con ojos nuevos;
+6. una tarea cotidiana con atención;
+7. surfear la ola del impulso;
+8. RAIN;
+9. calendario de experiencias agradables y desagradables;
+10. escucha atenta.
+
+Además, un plan de 7 días.
+
+| Escena | Qué se anima | Para qué |
+|---|---|---|
+| Espacio de respiración | Un reloj de arena: la atención amplia se estrecha a la respiración y vuelve a abrirse, sincronizado con los pasos. | Hacer visible la forma de la práctica. |
+| Surfear el impulso | Una ola que crece, pasa la cresta y baja, con un punto que la recorre siguiendo los pasos. | Mostrar que el impulso tiene un pico y se va. |
+| RAIN | Las cuatro letras se encienden y una forma tensa se va aflojando hasta abrirse. | Representar el proceso de cada paso. |
+
+**Cómo se integra:**
+- El calendario se guarda en el dispositivo y se puede descargar.
+- El laboratorio aparece en el catálogo y en la guía («meditar» y «estrés»).
+- Tiene enlaces desde el artículo de mindfulness y desde los laboratorios de presencia y de meditación.
+
+**Validación:**
+- 65 comprobaciones sin fallas, incluidas las de movimiento reducido y sin JavaScript.
+- Regresión del sitio completo sin fallas.
+- axe: 0 violaciones en 368 combinaciones.
+- Desbordes: 0 en 736 combinaciones.
+- Lighthouse en móvil: 97 en rendimiento, 100 en las demás categorías, CLS 0.
