@@ -372,9 +372,21 @@ TEMAS_LAB = {
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio"]
 
 
+# Un glifo orgánico por tema del catálogo de laboratorios (24×24, trazo).
+_G = '<svg class="lab-glifo" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">{}</svg>'
+GLIFOS_TEMA = {
+    "Emociones": _G.format('<path d="M12 3c3.5 4.5 6 7.5 6 10.5a6 6 0 0 1-12 0C6 10.5 8.5 7.5 12 3z"/>'),
+    "Vínculos": _G.format('<circle cx="9" cy="12" r="5.5"/><circle cx="15" cy="12" r="5.5"/>'),
+    "Jung y autoconocimiento": _G.format('<path d="M18.4 7.6A8 8 0 1 0 19.8 13"/><circle cx="12" cy="12" r="1.6"/>'),
+    "Cuerpo y respiración": _G.format('<circle cx="12" cy="12" r="2.5"/><path d="M6.5 8.5a6.5 6.5 0 0 0 0 7M17.5 8.5a6.5 6.5 0 0 1 0 7M3.5 6a10 10 0 0 0 0 12M20.5 6a10 10 0 0 1 0 12"/>'),
+    "Enfoques": _G.format('<path d="M5 19C5 10 10 5 19 5c0 9-5 14-14 14z"/><path d="M5 19L13 11"/>'),
+    "Aprendizaje y cambio": _G.format('<path d="M12 12c0-1 1-2 2-2s2.5 1 2.5 2.5S15 16 12.5 16 8 14 8 11s2.5-5.5 6-5.5 6 3 6 6.5"/>'),
+}
+
+
 def bloque_laboratorios():
     items = "".join(
-        f'<a class="lab-catalogo__item" href="{l["ruta"]}" data-tema="{esc(TEMAS_LAB.get(l["ruta"], ""))}"><span class="recursos-indice__tipo">{esc(l["tipo"])}</span>'
+        f'<a class="lab-catalogo__item" href="{l["ruta"]}" data-tema="{esc(TEMAS_LAB.get(l["ruta"], ""))}">{GLIFOS_TEMA.get(TEMAS_LAB.get(l["ruta"], ""), "")}<span class="recursos-indice__tipo">{esc(l["tipo"])}</span>'
         f'<strong>{esc(l["titulo"])}</strong><span>{esc(l["descripcion"])}</span><span class="lab-catalogo__ir">Entrar al laboratorio →</span></a>'
         for l in LABORATORIOS)
     return f'<div class="lab-catalogo revelar" data-lab-catalogo>{items}</div>'
@@ -1679,6 +1691,8 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
     otros = [h for h in ("licbongiorno5.vercel.app", host[4:] if host.startswith("www.") else "") if h and h != host]
     vercel = {
         "cleanUrls": True, "trailingSlash": True,
+        # Las ramas de trabajo no generan publicaciones en Vercel (ahorra el cupo diario); solo main publica.
+        "git": {"deploymentEnabled": {"claude/animaciones": False}},
         "redirects": [{"source": "/:path*", "has": [{"type": "host", "value": h}], "destination": f"{URL}/:path*", "permanent": True} for h in otros],
         "headers": [
             {"source": "/(.*)", "headers": [{"key": k, "value": v} for k, v in seguridad.items()]},

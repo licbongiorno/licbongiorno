@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>mito personal</em>",
   "bajada": "Tu vida también tiene la forma de un relato: llamados, umbrales, pruebas y regresos. Mirarla así no la vuelve ficción: ayuda a encontrarle un sentido.",
   "respuesta": "El laboratorio de mito personal propone ejercicios para pensar la propia historia como un relato: recorrer las etapas del viaje del héroe descripto por Joseph Campbell (la partida, la iniciación y el regreso) aplicadas a una experiencia propia, armar una línea de vida dividida en capítulos con sus títulos, y elegir una figura de mito o cuento que acompañe el momento actual. Está inspirado en la mirada junguiana sobre los mitos y no reemplaza una terapia.",
-  "scripts": ["lab-base.js"],
+  "scripts": ["lab-base.js", "escenas.js", "visual-labs.js"],
   "wa_tema": "el laboratorio de mito personal",
   "articulos": ["mitos-y-cuentos-jung", "arquetipos-en-la-vida-cotidiana", "el-proceso-de-individuacion"]
 }-->
@@ -39,6 +39,29 @@
       <p class="lab-estacion__num">01</p>
       <h2 id="t-viaje">Tu viaje del héroe</h2>
       <p class="lab-estacion__bajada">Joseph Campbell estudió mitos de todo el mundo y encontró una estructura que se repite, el <strong>monomito</strong>, en tres grandes movimientos: la partida, la iniciación y el regreso. Elegí una experiencia importante de tu vida (una mudanza, una pérdida, un cambio de trabajo, una enfermedad, un amor) y recorrela con estas preguntas.</p>
+<figure class="escena revelar" data-escena id="escena-heroe" data-heroe>
+  <svg viewBox="0 0 600 340" role="img" aria-labelledby="escena-heroe-t escena-heroe-d"><title id="escena-heroe-t">El viaje del héroe</title><rect x="60" y="170" width="480" height="150" rx="16" class="esc-zona esc-zona--hipo"/>
+<line x1="40" y1="170" x2="560" y2="170" class="esc-umbral"/>
+<text x="530" y="40" text-anchor="end" class="esc-sans">Lo conocido</text><text x="530" y="306" text-anchor="end" class="esc-sans">Lo desconocido</text>
+<circle class="esc-suave" cx="300" cy="170" r="115"/>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M300.0 55.0 A115 115 0 0 1 381.3 88.7"/>
+<g data-paso="1" class="etapa" data-campo="vh-mundo"><circle class="esc-nodo" cx="300.0" cy="55.0" r="10"/><text x="300.0" y="31.0" text-anchor="middle" font-size="17">Mundo conocido</text></g>
+<path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M381.3 88.7 A115 115 0 0 1 415.0 170.0"/>
+<g data-paso="2" class="etapa" data-campo="vh-llamada"><circle class="esc-nodo" cx="381.3" cy="88.7" r="10"/><text x="402.5" y="73.5" text-anchor="start" font-size="17">La llamada</text></g>
+<path data-paso="4" class="esc-linea trazo-escena" pathLength="1" d="M415.0 170.0 A115 115 0 0 1 381.3 251.3"/>
+<g data-paso="3" class="etapa" data-campo="vh-umbral"><circle class="esc-nodo" cx="415.0" cy="170.0" r="10"/><text x="445.0" y="158" text-anchor="start" font-size="17">El umbral</text></g>
+<path data-paso="5" class="esc-linea trazo-escena" pathLength="1" d="M381.3 251.3 A115 115 0 0 1 300.0 285.0"/>
+<g data-paso="4" class="etapa" data-campo="vh-pruebas"><circle class="esc-nodo" cx="381.3" cy="251.3" r="10"/><text x="402.5" y="278.5" text-anchor="start" font-size="17">Pruebas</text></g>
+<path data-paso="6" class="esc-linea trazo-escena" pathLength="1" d="M300.0 285.0 A115 115 0 0 1 218.7 251.3"/>
+<g data-paso="5" class="etapa" data-campo="vh-abismo"><circle class="esc-nodo" cx="300.0" cy="285.0" r="10"/><text x="300.0" y="321.0" text-anchor="middle" font-size="17">El abismo</text></g>
+<path data-paso="7" class="esc-linea trazo-escena" pathLength="1" d="M218.7 251.3 A115 115 0 0 1 185.0 170.0"/>
+<g data-paso="6" class="etapa" data-campo="vh-tesoro"><circle class="esc-nodo" cx="218.7" cy="251.3" r="10"/><text x="197.5" y="278.5" text-anchor="end" font-size="17">El tesoro</text></g>
+<path data-paso="8" class="esc-linea trazo-escena" pathLength="1" d="M185.0 170.0 A115 115 0 0 1 218.7 88.7"/>
+<g data-paso="7" class="etapa" data-campo="vh-regreso"><circle class="esc-nodo" cx="185.0" cy="170.0" r="10"/><text x="155.0" y="158" text-anchor="end" font-size="17">El regreso</text></g>
+<g data-paso="8" class="etapa" data-campo="vh-elixir"><circle class="esc-nodo" cx="218.7" cy="88.7" r="10"/><text x="197.5" y="73.5" text-anchor="end" font-size="17">El elixir</text></g>
+<path data-paso="8" class="esc-linea trazo-escena" pathLength="1" d="M218.7 88.7 A115 115 0 0 1 300 55"/></svg>
+  <figcaption><ol class="escena__textos"><li>El mundo conocido</li><li>Llega una llamada</li><li>Cruzar el umbral</li><li>Pruebas y aliados</li><li>El momento más oscuro</li><li>Encontrar el tesoro</li><li>Volver a casa</li><li>Traer el elixir</li></ol><p class="escena__desc" id="escena-heroe-d">El monomito de Joseph Campbell: se parte del mundo conocido, se cruza el umbral hacia lo desconocido, se atraviesan pruebas y un momento oscuro, se encuentra algo valioso y se vuelve transformado. A medida que completes el formulario, se encienden las etapas de tu propio viaje.</p></figcaption>
+</figure>
       <form class="lab-tarjeta lab-armador" data-lab-form="mi-viaje-del-heroe" data-lab-form-titulo="Mi viaje del héroe" novalidate>
         <div class="lab-paso"><label class="lab-paso__titulo" for="vh-experiencia">La experiencia que elegí</label><input class="lab-campo" id="vh-experiencia" type="text" autocomplete="off"></div>
         <h3 class="lab-tarjeta__titulo">La partida</h3>

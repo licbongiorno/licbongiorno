@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>autoestima y autocompasión</em>",
   "bajada": "Hablarte como le hablarías a alguien que querés. Ejercicios para aflojar la voz crítica y construir una relación más amable con vos.",
   "respuesta": "El laboratorio de autoestima y autocompasión propone ejercicios basados en el trabajo de la psicóloga Kristin Neff: los tres componentes de la autocompasión (amabilidad con uno mismo, humanidad compartida y atención plena), reescribir la voz crítica, escribir una carta compasiva, registrar logros y cualidades, y una pausa de autocompasión guiada.",
-  "scripts": ["lab-base.js"],
+  "scripts": ["lab-base.js", "escenas.js"],
   "wa_tema": "el laboratorio de autocompasión",
   "articulos": ["la-culpa", "mecanismos-de-defensa", "la-resiliencia"]
 }-->
@@ -39,6 +39,15 @@
       <p class="lab-estacion__num">01</p>
       <h2 id="t-componentes">Los tres componentes</h2>
       <p class="lab-estacion__bajada">Para Neff, la autocompasión tiene tres partes, y cada una tiene su opuesto. Elegí una para verla en un ejemplo.</p>
+<figure class="escena revelar" data-escena id="escena-venn" >
+  <svg viewBox="0 0 600 330" role="img" aria-labelledby="escena-venn-t escena-venn-d"><title id="escena-venn-t">Los tres componentes de la autocompasión</title>
+<g data-paso="1" class="venn venn-a"><circle cx="250" cy="140" r="95" class="esc-venn esc-venn--a"/><text x="215" y="96" text-anchor="middle" font-size="17">Amabilidad</text></g>
+<g data-paso="2" class="venn venn-b"><circle cx="350" cy="140" r="95" class="esc-venn esc-venn--b"/><text x="388" y="96" text-anchor="middle" font-size="17">Humanidad</text><text x="388" y="116" text-anchor="middle" font-size="17">compartida</text></g>
+<g data-paso="3" class="venn venn-c"><circle cx="300" cy="225" r="95" class="esc-venn esc-venn--c"/><text x="300" y="290" text-anchor="middle" font-size="17">Atención plena</text></g>
+<g data-paso="4"><circle cx="300" cy="172" r="10" class="esc-punto esc-centro"/><text x="300" y="150" text-anchor="middle" font-size="15" class="esc-acento">autocompasión</text></g>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Amabilidad con vos</li><li>No estás solo</li><li>Mirar sin exagerar</li><li>Juntas: autocompasión</li></ol><p class="escena__desc" id="escena-venn-d">Según Kristin Neff, la autocompasión reúne tres componentes: la amabilidad con uno mismo, la humanidad compartida y la atención plena. Por separado ayudan; cuando se superponen, aparece la autocompasión.</p></figcaption>
+</figure>
       <div class="lab-tarjeta" data-lab-selector>
         <div class="opciones" role="radiogroup" aria-label="Elegí un componente">
           <label class="opcion"><input type="radio" name="ac-comp" value="amabilidad" checked><span>Amabilidad con uno mismo</span></label>

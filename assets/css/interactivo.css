@@ -345,3 +345,208 @@
 .matriz-act__celda label { display: block; margin-bottom: .4rem; font-size: var(--t-sm); color: var(--tinta-suave); }
 .matriz-act__celda strong { color: var(--tinta); }
 @media (max-width: 640px) { .matriz-act { grid-template-columns: minmax(0, 1fr); } }
+
+/* ===================== Animaciones con sentido (2026-11) ===================== */
+/* Recorrido de estaciones: actual, visitadas y avance */
+.lab-estaciones--recorrido { background: var(--fondo); position: sticky; top: 4.6rem; z-index: 5; flex-wrap: nowrap; overflow-x: auto; padding: .6rem 0 .9rem; margin-inline: calc(var(--gutter) * -0.25); padding-inline: calc(var(--gutter) * .25); background-color: color-mix(in srgb, var(--fondo) 88%, transparent); backdrop-filter: blur(8px); scrollbar-width: none; }
+.lab-estaciones--recorrido::-webkit-scrollbar { display: none; }
+.lab-estaciones--recorrido a { flex: none; position: relative; transition: background-color .25s, border-color .25s, color .25s, transform .3s var(--ease-out); }
+.lab-estaciones a.visitada { border-color: var(--salvia); }
+.lab-estaciones a.visitada::before { content: ""; width: .5rem; height: .5rem; margin-right: .45rem; border-radius: 50%; background: var(--salvia-profunda); transform: scale(0); animation: punto-visita .45s var(--ease-out) forwards; }
+.lab-estaciones a[aria-current="step"] { background: var(--salvia-profunda); border-color: var(--salvia-profunda); color: var(--beige); }
+.lab-estaciones a[aria-current="step"].visitada::before { background: var(--beige); }
+.lab-estaciones__avance { position: absolute; left: 0; right: 0; bottom: .25rem; height: 2px; background: var(--linea); pointer-events: none; }
+.lab-estaciones__avance span { display: block; height: 100%; background: var(--terracota); transform: scaleX(0); transform-origin: 0 50%; transition: transform .6s var(--ease-out); }
+@keyframes punto-visita { to { transform: scale(1); } }
+@media (max-width: 760px) { .lab-estaciones--recorrido { top: 3.9rem; } }
+
+/* Plan: anillo de avance */
+.lab-plan__pie { display: flex; align-items: center; gap: .7rem; margin-top: 1rem; }
+.lab-plan__pie .lab-plan__progreso { margin: 0; }
+.lab-plan__anillo { width: 34px; height: 34px; flex: none; transform: rotate(-90deg); }
+.lab-plan__anillo circle { fill: none; stroke-width: 3; }
+.lab-plan__anillo-fondo { stroke: var(--arena); }
+.lab-plan__anillo-trazo { stroke: var(--salvia-profunda); stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset .7s var(--ease-out); }
+[data-lab-plan].completo .lab-plan__anillo-trazo { stroke: var(--terracota-profunda); }
+.lab-plan input:checked + span { animation: plan-hecho .45s var(--ease-out); }
+@keyframes plan-hecho { 0% { transform: translateX(0); } 40% { transform: translateX(4px); } 100% { transform: none; } }
+
+/* Quiz: acierto, error y explicación */
+.lab-quiz__opcion { transition: background-color .2s, border-color .2s, transform .25s var(--ease-out); }
+.lab-quiz__opcion:active:not(:disabled) { transform: scale(.97); }
+.lab-quiz__opcion.es-correcta { position: relative; padding-left: 2.2rem; animation: quiz-bien .5s var(--ease-out); }
+.lab-quiz__opcion.es-correcta::before { content: ""; position: absolute; left: .95rem; top: 50%; width: .45rem; height: .8rem; border: solid currentColor; border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg) scale(0); transform-origin: center; animation: quiz-tilde .35s .15s var(--ease-out) forwards; }
+.lab-quiz__opcion.es-incorrecta { animation: quiz-mal .45s var(--ease); }
+.lab-quiz__resultado.bien, .lab-quiz__resultado.revisar { animation: aparece-abajo .4s var(--ease-out); }
+@keyframes quiz-bien { 0% { transform: scale(1); } 45% { transform: scale(1.04); } 100% { transform: scale(1); } }
+@keyframes quiz-tilde { to { transform: translateY(-62%) rotate(45deg) scale(1); } }
+@keyframes quiz-mal { 0%, 100% { transform: none; } 25% { transform: translateX(-4px); } 50% { transform: translateX(4px); } 75% { transform: translateX(-2px); } }
+@keyframes aparece-abajo { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* Selectores, pasos y opciones */
+[data-lab-panel]:not([hidden]) { animation: aparece-abajo .35s var(--ease-out); }
+.lab-pasos--activo .lab-pasos > li:not([hidden]) { animation: aparece-abajo .4s var(--ease-out); }
+.opcion input:checked + span { animation: opcion-pulso .35s var(--ease-out); }
+@keyframes opcion-pulso { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+[data-lab-form-estado]:not(:empty), [data-ra-estado]:not(:empty), [data-escritura-estado]:not(:empty), [data-lienzo-estado]:not(:empty) { animation: aparece-abajo .3s var(--ease-out); }
+
+/* ===================== Escenas conceptuales ===================== */
+.escena { margin: 0 0 1.5rem; padding: clamp(1rem, .6rem + 1.5vw, 1.75rem); border-radius: var(--r-l); background: var(--papel); border: 1px solid var(--linea); }
+.escena svg { display: block; width: 100%; height: auto; max-height: 440px; overflow: visible; }
+.escena svg text { font-family: var(--f-display); fill: var(--tinta); }
+.escena .esc-sans { font-family: var(--f-sans); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; fill: var(--piedra-oscura); }
+.escena .esc-linea { fill: none; stroke: var(--salvia-profunda); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.escena .esc-suave { fill: none; stroke: var(--linea); stroke-width: 1.5; }
+.escena .esc-relleno { fill: var(--salvia-bruma); stroke: var(--salvia-profunda); stroke-width: 1.5; }
+.escena .esc-calido { fill: var(--terracota-suave); stroke: var(--terracota-profunda); stroke-width: 1.5; }
+.escena .esc-punto { fill: var(--terracota-profunda); }
+.escena .esc-nodo { fill: var(--papel); stroke: var(--salvia-profunda); stroke-width: 1.5; }
+.escena figcaption { margin-top: .5rem; }
+.escena__desc { margin: .75rem 0 0; font-size: var(--t-sm); color: var(--texto-2); }
+.escena__barra { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin-top: .9rem; padding-top: .9rem; border-top: 1px solid var(--linea); }
+.escena__rotulo { flex: 1 1 12rem; margin: 0; min-height: 1.6em; font-family: var(--f-display); font-style: italic; font-size: clamp(1.15rem, 1rem + .6vw, 1.45rem); color: var(--tinta); }
+.escena__puntos { display: flex; gap: .35rem; }
+.escena__puntos span { width: 7px; height: 7px; border-radius: 50%; background: var(--arena); transition: background-color .3s, transform .3s var(--ease-out); }
+.escena__puntos span.on { background: var(--salvia-profunda); transform: scale(1.15); }
+.escena__controles { display: flex; gap: .4rem; }
+.escena__btn { min-width: 44px; min-height: 44px; padding: 0 .8rem; border-radius: 999px; border: 1px solid var(--linea); background: var(--beige); color: var(--tinta); font-family: var(--f-sans); font-size: 1.1rem; cursor: pointer; transition: background-color .2s, border-color .2s, transform .2s var(--ease-out); }
+.escena__btn--texto { font-size: .82rem; font-weight: 600; }
+.escena__btn:hover:not(:disabled) { border-color: var(--salvia-profunda); background: var(--salvia-bruma); }
+.escena__btn:active:not(:disabled) { transform: scale(.95); }
+.escena__btn:disabled { opacity: .4; cursor: default; }
+.escena__btn:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+/* Piezas por paso: sin JS todo visible (composición final). */
+.escena--js [data-paso] { opacity: 0; transition: opacity .6s var(--ease), transform .8s var(--ease-out); }
+.escena--js [data-paso].on { opacity: 1; }
+.escena--js:not(.escena--final) [data-paso].on:not(.actual):not(.fijo) { opacity: .5; }
+.escena--js .trazo-escena { stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset 1.2s var(--ease-out), opacity .6s; }
+.escena--js .trazo-escena.on { stroke-dashoffset: 0; }
+/* --- Piezas de las escenas --- */
+.escena .esc-acento { fill: var(--terracota-profunda); font-style: italic; }
+.escena .esc-calido-linea { fill: none; stroke: var(--terracota-profunda); stroke-width: 2; stroke-linecap: round; }
+.escena .esc-linea--fria { stroke: var(--piedra-oscura); }
+.escena .esc-linea--neutral { stroke: var(--piedra-oscura); stroke-dasharray: none; }
+.escena .esc-zona { stroke: none; }
+.escena .esc-zona--hiper { fill: var(--terracota-suave); opacity: .55; }
+.escena .esc-zona--ventana { fill: var(--salvia-bruma); }
+.escena .esc-zona--hipo { fill: var(--arena); opacity: .7; }
+.escena .esc-ensancha { stroke: var(--terracota-profunda); stroke-width: 2.5; stroke-linecap: round; }
+.escena .esc-umbral { stroke: var(--terracota-profunda); stroke-width: 1.5; stroke-dasharray: 6 6; }
+.escena .esc-venn { fill-opacity: .28; stroke-width: 1.5; }
+.escena .esc-venn--a { fill: var(--salvia); stroke: var(--salvia-profunda); }
+.escena .esc-venn--b { fill: var(--terracota); stroke: var(--terracota-profunda); }
+.escena .esc-venn--c { fill: var(--piedra); stroke: var(--piedra-oscura); }
+.escena .esc-borde { fill: var(--salvia-bruma); stroke: var(--salvia-profunda); }
+.escena .esc-borde.difuso { stroke-width: 1.5; stroke-dasharray: 3 7; }
+.escena .esc-borde.claro { stroke-width: 2; stroke-dasharray: 26 10; }
+.escena .esc-borde.rigido { stroke-width: 6; }
+.escena .esc-corte__aro { fill: none; stroke: var(--terracota-profunda); stroke-width: 2; stroke-dasharray: 4 4; }
+.escena .esc-corte { display: none; }
+.escena--eleccion .esc-corte.on { display: inline; }
+.escena .esc-via { stroke-width: 2; transition: stroke-width .5s var(--ease-out), stroke .5s; }
+.escena .esc-via.llena { stroke: var(--terracota-profunda); stroke-width: 6; }
+.escena .etapa.hecha .esc-nodo { fill: var(--terracota-profunda); stroke: var(--terracota-profunda); }
+.escena .etapa .esc-nodo { transition: fill .4s, stroke .4s; }
+/* Transformaciones (solo con JS): el estado final es el de reposo */
+.escena--js .venn { transition: opacity .6s var(--ease), transform 1s var(--ease-out); transform-box: view-box; }
+.escena--js:not(.escena--final) .venn-a { transform: translate(-40px, -25px); }
+.escena--js:not(.escena--final) .venn-b { transform: translate(40px, -25px); }
+.escena--js:not(.escena--final) .venn-c { transform: translate(0, 40px); }
+.escena--js .esc-centro { transform-box: fill-box; transform-origin: center; }
+.escena--final .esc-centro { animation: brillo-centro 1.4s var(--ease-out); }
+@keyframes brillo-centro { 0% { transform: scale(.3); opacity: 0; } 60% { transform: scale(1.25); opacity: 1; } 100% { transform: scale(1); } }
+/* Círculo del desánimo: el punto recorre el ciclo */
+.escena .esc-orbita { transform-box: view-box; transform-origin: 230px 190px; }
+.escena[data-actual="4"] .esc-orbita { animation: orbita-escena 2.4s linear infinite; }
+.escena[data-actual="4"] .anillo { stroke: var(--piedra-oscura); stroke-width: 3; transition: stroke .6s, stroke-width .6s; }
+@keyframes orbita-escena { to { transform: rotate(360deg); } }
+/* Pendulación */
+.escena .pendulo { transform-box: view-box; transform-origin: 300px 34px; transform: rotate(24deg); transition: transform 1.1s cubic-bezier(.45, 0, .25, 1); }
+.escena[data-actual="2"] .pendulo { transform: rotate(-17deg); }
+.escena[data-actual="4"] .pendulo { animation: pendular 3.2s cubic-bezier(.45, 0, .55, 1) infinite alternate; }
+@keyframes pendular { from { transform: rotate(24deg); } to { transform: rotate(-17deg); } }
+.escena .esc-recurso, .escena .esc-incomodidad { transform-box: fill-box; transform-origin: center; transition: transform 1.2s var(--ease-out); }
+.escena[data-actual="4"] .esc-incomodidad, .escena[data-actual="5"] .esc-incomodidad { transform: scale(.78); }
+.escena[data-actual="4"] .esc-recurso, .escena[data-actual="5"] .esc-recurso { transform: scale(1.08); }
+.escena--js:not([data-actual="2"]):not([data-actual="4"]) .esc-incomodidad { opacity: .75; }
+/* Límites: la partícula entra, pasa por la puerta o rebota */
+.escena .esc-particula { transform-box: view-box; }
+.escena[data-actual="1"] .esc-particula--difuso, .escena--final .esc-particula--difuso { animation: entra-libre 3s var(--ease) 2; }
+.escena[data-actual="2"] .esc-particula--claro, .escena--final .esc-particula--claro { animation: entra-puerta 3s var(--ease) 2; }
+.escena[data-actual="3"] .esc-particula--rigido, .escena--final .esc-particula--rigido { animation: rebota 3s var(--ease) 2; }
+@keyframes entra-libre { 0%, 100% { transform: none; } 50% { transform: translateX(-95px); } }
+@keyframes entra-puerta { 0%, 100% { transform: none; } 45% { transform: translateX(-30px); } 60% { transform: translateX(-30px); } }
+@keyframes rebota { 0%, 100% { transform: none; } 30% { transform: translateX(-16px); } 45% { transform: translateX(-12px); } 60% { transform: none; } }
+@media (max-width: 560px) { .escena svg text { font-size: 22px; } .escena .esc-sans { font-size: 14px; } }
+@media (prefers-reduced-motion: reduce) { .escena .esc-orbita, .escena .pendulo, .escena .esc-particula { animation: none !important; } }
+/* --- Visualizaciones reactivas --- */
+.viz { margin: 1.25rem 0 0; }
+.viz svg { display: block; width: 100%; height: auto; overflow: visible; }
+.viz text, .viz .viz-t { font-family: var(--f-display); font-size: 18px; fill: var(--tinta); }
+.viz .viz-acento { fill: var(--terracota-profunda); font-style: italic; transition: opacity .5s; }
+.viz .viz-eje { stroke: var(--linea); stroke-width: 1.5; }
+.viz .viz-eje-t { font-family: var(--f-sans); font-size: 12px; fill: var(--piedra-oscura); }
+.viz--congruencia { max-width: 520px; margin-inline: auto; }
+.viz-real, .viz-ideal { transform-box: view-box; transition: transform .7s var(--ease-out); fill-opacity: .3; stroke-width: 1.5; }
+.viz-real { fill: var(--salvia); stroke: var(--salvia-profunda); }
+.viz-ideal { fill: var(--terracota); stroke: var(--terracota-profunda); }
+.viz--termometro { float: left; width: 64px; margin: 0 1.25rem .5rem 0; }
+[data-emo-termometro].con-viz::after { content: ""; display: block; clear: both; }
+.viz-tubo { fill: var(--papel); stroke: var(--linea); stroke-width: 1.5; }
+.viz-mercurio { transform-box: fill-box; transform-origin: 50% 100%; transition: transform .5s var(--ease-out), fill .4s; }
+.viz-bulbo { transition: fill .4s; }
+.con-semaforo { display: grid; grid-template-columns: 60px minmax(0, 1fr); gap: 1rem; align-items: center; }
+.con-semaforo > *:not(.viz--semaforo):not(.lab-semaforo__resultado) { grid-column: 1 / -1; }
+.viz--semaforo { margin: 0; width: 60px; }
+.viz-semaforo { fill: var(--tinta); }
+.viz--semaforo [data-luz] { fill: #3b3a35; transition: fill .4s, filter .4s; }
+.viz--semaforo [data-luz="rojo"].encendida { fill: #C2452D; }
+.viz--semaforo [data-luz="amarillo"].encendida { fill: #E0A93B; }
+.viz--semaforo [data-luz="verde"].encendida { fill: #5E9B5A; }
+.viz--semaforo .encendida { animation: luz-enciende .5s var(--ease-out); transform-box: fill-box; transform-origin: center; }
+@keyframes luz-enciende { from { transform: scale(.7); } to { transform: none; } }
+.viz--animo { max-width: 420px; }
+.viz-mejor { fill: var(--salvia-bruma); }
+.viz-punto { fill: var(--salvia-profunda); animation: punto-entra .45s var(--ease-out) both; transform-box: fill-box; transform-origin: center; }
+.viz-punto--alto { fill: var(--terracota-profunda); }
+@keyframes punto-entra { from { transform: scale(0); opacity: 0; } to { transform: none; opacity: 1; } }
+.viz--creencia { max-width: 420px; }
+.viz-pista { fill: var(--arena); }
+.viz-barra { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); transition: transform .7s var(--ease-out); }
+.viz-barra--antes { fill: var(--piedra-oscura); }
+.viz-barra--ahora { fill: var(--salvia-profunda); }
+.viz-escalon { animation: aparece-abajo .45s var(--ease-out) both; }
+.viz-escalon rect { fill: var(--salvia-bruma); stroke: var(--salvia-profunda); stroke-width: 1.5; }
+.viz-escalon:last-child rect { fill: var(--terracota-suave); stroke: var(--terracota-profunda); }
+.viz-escalon text { font-family: var(--f-sans); font-size: 15px; font-weight: 700; fill: var(--tinta); }
+.viz--olvido .viz-curva { fill: none; stroke: var(--terracota-profunda); stroke-width: 2; }
+.viz--olvido .viz-repaso { stroke: var(--salvia-profunda); stroke-width: 1.5; stroke-dasharray: 3 4; }
+/* Hojas en el río */
+.viz-rio__agua { position: relative; height: 150px; margin-top: 1rem; border-radius: var(--r-m); background: linear-gradient(180deg, var(--salvia-bruma), color-mix(in srgb, var(--salvia) 35%, var(--papel))); overflow: hidden; }
+.viz-rio__agua svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.viz-rio__onda { fill: none; stroke: var(--papel); stroke-width: 2; opacity: .8; animation: onda-rio 7s linear infinite; }
+.viz-rio__onda--2 { animation-duration: 9s; opacity: .55; }
+@keyframes onda-rio { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+.viz-hoja { position: absolute; left: 0; display: flex; align-items: center; gap: .4rem; max-width: 70%; padding: .3rem .8rem .3rem .3rem; border-radius: 999px; background: color-mix(in srgb, var(--papel) 85%, transparent); box-shadow: var(--sombra); font-family: var(--f-serif); font-size: .95rem; color: var(--tinta); white-space: nowrap; animation: hoja-rio 11s linear forwards; will-change: transform; }
+.viz-hoja span { overflow: hidden; text-overflow: ellipsis; }
+.viz-hoja svg { width: 34px; height: 20px; flex: none; }
+.viz-hoja svg path:first-child { fill: var(--salvia); stroke: var(--salvia-profunda); stroke-width: 1.5; }
+.viz-hoja__nervio { fill: none; stroke: var(--salvia-profunda); stroke-width: 1; }
+@keyframes hoja-rio { 0% { transform: translateX(-110%) rotate(-3deg); opacity: 0; } 8% { opacity: 1; } 50% { transform: translateX(calc(50vw - 50%)) rotate(3deg); } 92% { opacity: 1; } 100% { transform: translateX(calc(100vw)) rotate(-2deg); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .viz-hoja { animation: none; left: 1rem; } .viz-rio__onda { animation: none; } }
+/* Guía: el recorrido se traza en orden */
+.guia-pasos { position: relative; }
+.guia-paso { animation: aparece-abajo .5s var(--ease-out) both; }
+.guia-paso:nth-child(2) { animation-delay: .12s; } .guia-paso:nth-child(3) { animation-delay: .24s; }
+@media (min-width: 760px) {
+  .guia-pasos::before { content: ""; position: absolute; left: 1.2rem; right: 1.2rem; top: 1.45rem; height: 2px; background: var(--terracota); opacity: .45; transform-origin: 0 50%; animation: sendero 1s var(--ease-out) both; z-index: 0; }
+  .guia-paso { position: relative; z-index: 1; }
+}
+@keyframes sendero { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.guia-resultado__titulo { animation: aparece-abajo .4s var(--ease-out) both; }
+/* Resultados de tests: las barras crecen y el punto llega a su lugar */
+.test-resultado:not([hidden]) .test-barra__pista span, .test-resultado:not([hidden]) .test-dim__pista span { transform-origin: 0 50%; animation: barra-crece .9s var(--ease-out) both; }
+.test-resultado:not([hidden]) .test-barra:nth-child(n) .test-barra__pista span { animation-delay: calc(var(--i, 0) * 40ms); }
+.test-resultado:not([hidden]) .test-medidor span { transform-origin: 0 50%; animation: barra-crece 1s var(--ease-out) both; }
+.test-resultado:not([hidden]) .test-plano__punto { transform-box: fill-box; transform-origin: center; animation: punto-entra .6s .5s var(--ease-out) both; }
+@keyframes barra-crece { from { transform: scaleX(0); } to { transform: scaleX(1); } }

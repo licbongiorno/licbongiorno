@@ -597,9 +597,21 @@
       if (!b || !catalogo) return;
       var t = b.getAttribute("data-filtro"), n = 0;
       filtros.querySelectorAll("[data-filtro]").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
-      catalogo.querySelectorAll(".lab-catalogo__item").forEach(function (it) {
+      // FLIP: las tarjetas que siguen visibles se deslizan a su nuevo lugar; las nuevas aparecen. Sin saltos de diseño.
+      var items = Array.prototype.slice.call(catalogo.querySelectorAll(".lab-catalogo__item"));
+      var animar = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var antes = new Map();
+      if (animar) items.forEach(function (it) { if (!it.hidden) antes.set(it, it.getBoundingClientRect()); });
+      items.forEach(function (it) {
         var ver = !t || it.getAttribute("data-tema") === t;
         it.hidden = !ver; if (ver) n++;
+      });
+      if (animar) items.forEach(function (it) {
+        if (it.hidden) return;
+        var r0 = antes.get(it);
+        if (!r0) { it.animate([{ opacity: 0, transform: "translateY(10px) scale(.98)" }, { opacity: 1, transform: "none" }], { duration: 380, easing: "cubic-bezier(.16,1,.3,1)" }); return; }
+        var r1 = it.getBoundingClientRect(), dx = r0.left - r1.left, dy = r0.top - r1.top;
+        if (dx || dy) it.animate([{ transform: "translate(" + dx + "px," + dy + "px)" }, { transform: "none" }], { duration: 420, easing: "cubic-bezier(.16,1,.3,1)" });
       });
       estFiltro.textContent = (t ? t + ": " : "") + n + (n === 1 ? " laboratorio" : " laboratorios");
     });

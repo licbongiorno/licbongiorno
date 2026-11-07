@@ -86,8 +86,21 @@
       var hechos = Array.prototype.filter.call(casillas, function (c) { return c.checked; }).map(function (c) { return c.value; });
       if (prog) prog.textContent = hechos.length === total ? "¡" + total + " de " + total + "! Completaste el plan." : hechos.length + " de " + total + unidad;
       plan.classList.toggle("completo", hechos.length === total);
+      if (anillo) anillo.style.strokeDashoffset = String(1 - hechos.length / total);
       escribir(hechos);
     };
+    // Anillo de avance junto al texto «3 de 7 días».
+    var anillo = null;
+    if (prog) {
+      var ns = "http://www.w3.org/2000/svg", svgA = document.createElementNS(ns, "svg");
+      svgA.setAttribute("viewBox", "0 0 36 36"); svgA.setAttribute("class", "lab-plan__anillo"); svgA.setAttribute("aria-hidden", "true");
+      svgA.innerHTML = '<circle cx="18" cy="18" r="15" class="lab-plan__anillo-fondo"/><circle cx="18" cy="18" r="15" pathLength="1" class="lab-plan__anillo-trazo"/>';
+      var pie = document.createElement("div");
+      pie.className = "lab-plan__pie";
+      prog.parentNode.insertBefore(pie, prog);
+      pie.appendChild(svgA); pie.appendChild(prog);
+      anillo = svgA.querySelector(".lab-plan__anillo-trazo");
+    }
     var guardados = leer();
     casillas.forEach(function (c) { c.checked = guardados.indexOf(c.value) >= 0; c.addEventListener("change", actualizar); });
     var reiniciar = plan.querySelector("[data-lab-plan-reiniciar]");
@@ -171,6 +184,7 @@
       ant.disabled = i === 0;
       sig.textContent = i === n - 1 ? "Empezar de nuevo" : "Siguiente";
       if (reloj && conReloj) { reloj.frenar(); reloj.empezar(); }
+      caja.dispatchEvent(new CustomEvent("lab:paso", { detail: { i: i, total: n } }));
     };
     ant.addEventListener("click", function () { if (i > 0) { i--; mostrar(); } });
     sig.addEventListener("click", function () { i = i === n - 1 ? 0 : i + 1; mostrar(); });
@@ -441,6 +455,49 @@
     });
     pintarTurno();
   });
+
+  /* Recorrido de estaciones: marca la estación actual y las visitadas en <nav class="lab-estaciones">, con una barra de avance.
+     Las visitadas se guardan solo en este dispositivo. */
+  (function () {
+    var nav = document.querySelector(".lab-estaciones");
+    if (!nav || !("IntersectionObserver" in window)) return;
+    var enlaces = Array.prototype.filter.call(nav.querySelectorAll('a[href^="#"]'), function (a) { return document.getElementById(a.getAttribute("href").slice(1)); });
+    if (!enlaces.length) return;
+    var clave = "lab-visitas-" + location.pathname, visitas = {};
+    try { visitas = JSON.parse(localStorage.getItem(clave) || "{}"); } catch (e) { visitas = {}; }
+    var barra = document.createElement("span");
+    barra.className = "lab-estaciones__avance"; barra.setAttribute("aria-hidden", "true"); barra.innerHTML = "<span></span>";
+    nav.appendChild(barra);
+    var estado = document.createElement("span");
+    estado.className = "visualmente-oculto"; estado.setAttribute("role", "status");
+    nav.appendChild(estado);
+    nav.classList.add("lab-estaciones--recorrido");
+    var pintar = function () {
+      var n = 0;
+      enlaces.forEach(function (a) { var v = !!visitas[a.getAttribute("href")]; a.classList.toggle("visitada", v); if (v) n++; });
+      barra.firstChild.style.transform = "scaleX(" + (n / enlaces.length).toFixed(3) + ")";
+      return n;
+    };
+    var actual = null;
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var id = "#" + en.target.id, a = enlaces.filter(function (x) { return x.getAttribute("href") === id; })[0];
+        if (!a || a === actual) return;
+        if (actual) actual.removeAttribute("aria-current");
+        actual = a; a.setAttribute("aria-current", "step");
+        if (!visitas[id]) {
+          visitas[id] = 1;
+          try { localStorage.setItem(clave, JSON.stringify(visitas)); } catch (e) { /* sin almacenamiento */ }
+          var n = pintar();
+          estado.textContent = n + " de " + enlaces.length + " estaciones recorridas";
+        }
+        if (nav.scrollWidth > nav.clientWidth) a.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+      });
+    }, { rootMargin: "-35% 0px -55% 0px" });
+    enlaces.forEach(function (a) { io.observe(document.getElementById(a.getAttribute("href").slice(1))); });
+    pintar();
+  })();
 
   window.LAB = LAB;
 })();

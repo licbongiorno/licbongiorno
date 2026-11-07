@@ -1344,3 +1344,5 @@ main > .seccion ~ .seccion { content-visibility: auto; contain-intrinsic-size: a
 .hero__modalidades a { display: inline-flex; align-items: center; gap: .55rem; min-height: 40px; padding: .5rem .95rem; color: inherit; text-decoration: none; }
 .hero__modalidades li:hover { border-color: var(--salvia-profunda); transform: translateY(-2px); }
 .hero__modalidades li:hover svg { transform: scale(1.1); }
+.lab-glifo { width: 28px; height: 28px; color: var(--terracota-profunda); margin-bottom: .2rem; transition: transform .5s var(--ease-out); }
+.lab-catalogo__item:hover .lab-glifo { transform: rotate(-8deg) scale(1.08); }

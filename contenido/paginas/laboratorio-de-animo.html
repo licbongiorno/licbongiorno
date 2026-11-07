@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>ánimo</em>",
   "bajada": "Cuando el ánimo está bajo, esperar a tener ganas suele alargar la espera. Ejercicios basados en la activación conductual para empezar por pasos pequeños.",
   "respuesta": "El laboratorio de ánimo propone ejercicios basados en la activación conductual, un tratamiento con buen respaldo para la depresión: entender el círculo de la inactividad, registrar actividades con su nivel de placer y de logro, elegir actividades pequeñas, armar una agenda amable para la semana y revisar la trampa de esperar a tener ganas. No reemplaza un tratamiento.",
-  "scripts": ["lab-base.js", "laboratorio-animo.js"],
+  "scripts": ["lab-base.js", "laboratorio-animo.js", "escenas.js", "visual-labs.js"],
   "wa_tema": "el laboratorio de ánimo",
   "articulos": ["activacion-conductual", "como-acompanar-a-alguien-con-depresion", "la-motivacion"]
 }-->
@@ -41,13 +41,27 @@
       <p class="lab-estacion__num">01</p>
       <h2 id="t-circulo">El círculo del desánimo</h2>
       <p class="lab-estacion__bajada">Mirá este círculo y preguntate en qué punto estás hoy. No es tu culpa estar adentro: es un mecanismo muy humano. Pero conocerlo ayuda a ver por dónde se puede salir.</p>
+<figure class="escena revelar" data-escena id="escena-circulo" >
+  <svg viewBox="-70 0 700 380" role="img" aria-labelledby="escena-circulo-t escena-circulo-d"><title id="escena-circulo-t">El círculo del desánimo y una salida</title>
+<circle class="esc-suave anillo" cx="230" cy="190" r="120"/>
+<g class="esc-nodos">
+<g data-paso="1"><circle class="esc-nodo" cx="230" cy="70" r="9"/><text x="230" y="44" text-anchor="middle" font-size="19">Me siento mal</text></g>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M248 72 A120 120 0 0 1 348 172"/>
+<g data-paso="2"><circle class="esc-nodo" cx="350" cy="190" r="9"/><text x="368" y="196" font-size="19">Hago menos</text></g>
+<path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M348 208 A120 120 0 0 1 248 308"/>
+<g data-paso="3"><circle class="esc-nodo" cx="230" cy="310" r="9"/><text x="230" y="342" text-anchor="middle" font-size="19">Recibo menos</text></g>
+<path data-paso="4" class="esc-linea trazo-escena" pathLength="1" d="M212 308 A120 120 0 0 1 112 208"/>
+<g data-paso="4"><circle class="esc-nodo" cx="110" cy="190" r="9"/><text x="92" y="196" text-anchor="end" font-size="19">Me siento peor</text></g>
+<path data-paso="4" class="esc-linea trazo-escena" pathLength="1" d="M112 172 A120 120 0 0 1 212 72"/>
+</g>
+<g data-paso="4" data-hasta="4" class="esc-orbita"><circle class="esc-punto" cx="230" cy="70" r="6"/></g>
+<path data-paso="5" class="esc-calido-linea trazo-escena" pathLength="1" d="M352 182 C 410 175, 420 120, 455 108 S 520 78, 548 62"/>
+<g data-paso="5"><circle class="esc-punto" cx="352" cy="182" r="7"/><text x="455" y="150" font-size="17" class="esc-acento">una acción pequeña</text></g>
+<g data-paso="6"><circle class="esc-relleno" cx="552" cy="58" r="12"/><text x="552" y="28" text-anchor="middle" font-size="19">Un poco mejor</text></g>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Me siento mal</li><li>Hago menos</li><li>Recibo menos</li><li>Me siento peor</li><li>Una acción pequeña</li><li>Un poco mejor</li></ol><p class="escena__desc" id="escena-circulo-d">El desánimo lleva a hacer menos; al hacer menos se recibe menos, y el ánimo baja más: el círculo se cierra. Una acción pequeña, aunque no haya ganas, abre una salida en espiral hacia un poco mejor.</p></figcaption>
+</figure>
       <div class="lab-tarjeta">
-        <ol class="circulo-animo" aria-label="El círculo del desánimo">
-          <li><strong>Me siento mal</strong><span>sin energía, sin ganas</span></li>
-          <li><strong>Hago menos</strong><span>me quedo en casa, postergo, me aíslo</span></li>
-          <li><strong>Recibo menos</strong><span>menos encuentros, menos logros, menos disfrute</span></li>
-          <li><strong>Me siento peor</strong><span>y el círculo vuelve a empezar</span></li>
-        </ol>
         <p class="lab-nota">La salida no está en esperar a sentirse mejor para hacer, sino en hacer algo pequeño para empezar a sentirse un poco mejor.</p>
       </div>
     </section>

@@ -8,7 +8,7 @@
   "h1": "Laboratorio <em>sistémico</em>",
   "bajada": "No vivimos aislados: somos parte de una familia, una pareja, un grupo. Ejercicios inspirados en la terapia sistémica para mirar los lazos, los patrones y las herencias que nos atraviesan.",
   "respuesta": "El laboratorio sistémico propone ejercicios inspirados en la terapia sistémica y familiar: armar un genograma simplificado que se dibuja en pantalla, generar preguntas circulares, dibujar secuencias de interacción que se repiten, reflexionar sobre mandatos y lealtades familiares y reconocer los límites en la familia. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-sistemico.js"],
+  "scripts": ["lab-base.js", "laboratorio-sistemico.js", "escenas.js"],
   "wa_tema": "el laboratorio sistémico",
   "articulos": ["terapia-sistemica", "el-genograma", "patrones-que-se-repiten-en-los-vinculos"]
 }-->
@@ -124,11 +124,15 @@
       <p class="lab-estacion__num">05</p>
       <h2 id="t-limites">Límites en la familia</h2>
       <p class="lab-estacion__bajada">Salvador Minuchin describió cómo los límites entre los miembros de una familia pueden ser difusos (todos metidos en todo), claros o rígidos (cada uno por su lado). Ninguna familia es pura: suelen combinarse. ¿Cuál se parece más a la tuya?</p>
+<figure class="escena revelar" data-escena id="escena-limites" data-escena-radios="lim">
+  <svg viewBox="0 0 600 290" role="img" aria-labelledby="escena-limites-t escena-limites-d"><title id="escena-limites-t">Límites en la familia</title><g data-paso="1"><circle cx="110" cy="152" r="72" class="esc-borde difuso"/><circle cx="80" cy="125" r="9" class="esc-nodo"/><circle cx="140" cy="125" r="9" class="esc-nodo"/><circle cx="80" cy="180" r="9" class="esc-nodo"/><circle cx="140" cy="180" r="9" class="esc-nodo"/><circle cx="205" cy="152" r="6" class="esc-punto esc-particula esc-particula--difuso"/><text x="110" y="262" text-anchor="middle" font-size="18">Difusos</text></g><g data-paso="2"><circle cx="300" cy="152" r="72" class="esc-borde claro"/><circle cx="270" cy="125" r="9" class="esc-nodo"/><circle cx="330" cy="125" r="9" class="esc-nodo"/><circle cx="270" cy="180" r="9" class="esc-nodo"/><circle cx="330" cy="180" r="9" class="esc-nodo"/><circle cx="395" cy="152" r="6" class="esc-punto esc-particula esc-particula--claro"/><text x="300" y="262" text-anchor="middle" font-size="18">Claros</text></g><g data-paso="3"><circle cx="490" cy="152" r="72" class="esc-borde rigido"/><circle cx="460" cy="125" r="9" class="esc-nodo"/><circle cx="520" cy="125" r="9" class="esc-nodo"/><circle cx="460" cy="180" r="9" class="esc-nodo"/><circle cx="520" cy="180" r="9" class="esc-nodo"/><circle cx="585" cy="152" r="6" class="esc-punto esc-particula esc-particula--rigido"/><text x="490" y="262" text-anchor="middle" font-size="18">Rígidos</text></g><text data-paso="4" x="300" y="40" text-anchor="middle" font-size="16" class="esc-acento">ni fusión ni muro</text></svg>
+  <figcaption><ol class="escena__textos"><li>Todo entra y sale</li><li>Hay una puerta</li><li>Nada pasa</li><li>Ni fusión ni muro</li></ol><p class="escena__desc" id="escena-limites-d">Salvador Minuchin describió tres tipos de límites: difusos (todo entra y sale, no hay espacio propio), claros (hay intercambio y también privacidad) y rígidos (casi nada pasa, cada uno queda aislado). Elegí un tipo abajo para verlo.</p></figcaption>
+</figure>
       <div class="lab-tarjeta" data-lab-selector>
         <div class="opciones" role="radiogroup" aria-label="Tipos de límites">
-          <label class="opcion"><input type="radio" name="lim" value="aglutinada" checked><span>Difusos (aglutinada)</span></label>
-          <label class="opcion"><input type="radio" name="lim" value="clara"><span>Claros</span></label>
-          <label class="opcion"><input type="radio" name="lim" value="desligada"><span>Rígidos (desligada)</span></label>
+          <label class="opcion"><input type="radio" name="lim" value="aglutinada" data-escena-paso="1" checked><span>Difusos (aglutinada)</span></label>
+          <label class="opcion"><input type="radio" name="lim" value="clara" data-escena-paso="2"><span>Claros</span></label>
+          <label class="opcion"><input type="radio" name="lim" value="desligada" data-escena-paso="3"><span>Rígidos (desligada)</span></label>
         </div>
         <div class="lab-panel" data-lab-panel="aglutinada"><p>Mucha cercanía y poca privacidad: todos opinan de todo, cuesta tener secretos o decisiones propias, el malestar de uno se contagia a todos.</p><p><strong>Pregunta:</strong> ¿dónde necesitarías más espacio propio?</p></div>
         <div class="lab-panel" data-lab-panel="clara" hidden><p>Cercanía con respeto por la autonomía: se puede pedir ayuda y también decir que no; cada uno tiene su lugar y sus decisiones.</p><p><strong>Pregunta:</strong> ¿qué cuida tu familia para que esto funcione?</p></div>

@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>duelo</em>",
   "bajada": "No para «superar» una pérdida, sino para acompañarla. Ejercicios suaves para darle lugar al dolor, al recuerdo y también a la vida que sigue.",
   "respuesta": "El laboratorio de duelo propone ejercicios para acompañar una pérdida: comprender el duelo como un ir y venir entre el dolor y la reconstrucción (modelo de doble proceso de Stroebe y Schut), escribir una carta a quien ya no está, registrar lo que esa persona dejó, pensar rituales propios y planificar las fechas difíciles. No reemplaza el acompañamiento profesional.",
-  "scripts": ["lab-base.js", "laboratorio-duelo.js"],
+  "scripts": ["lab-base.js", "laboratorio-duelo.js", "escenas.js"],
   "wa_tema": "el laboratorio de duelo",
   "articulos": ["duelo-migratorio", "la-soledad", "la-resiliencia"]
 }-->
@@ -38,6 +38,20 @@
       <p class="lab-estacion__num">01</p>
       <h2 id="t-ir">El duelo va y viene</h2>
       <p class="lab-estacion__bajada">Las investigadoras Margaret Stroebe y Henk Schut propusieron el <strong>modelo de doble proceso</strong>: en un duelo oscilamos entre momentos orientados a la pérdida (llorar, recordar, extrañar) y momentos orientados a la reconstrucción (ocuparse de lo nuevo, distraerse, hacer planes). Ir y venir entre los dos no es negación ni falta de amor: es como se procesa una pérdida.</p>
+<figure class="escena revelar" data-escena id="escena-duelo" >
+  <svg viewBox="0 0 600 300" role="img" aria-labelledby="escena-duelo-t escena-duelo-d"><title id="escena-duelo-t">El duelo va y viene</title>
+<text x="20" y="60" class="esc-sans">Pérdida</text>
+<text x="20" y="250" class="esc-sans">Reconstrucción</text>
+<line x1="20" y1="150" x2="580" y2="150" class="esc-suave"/>
+<text x="580" y="140" text-anchor="end" class="esc-sans">el tiempo</text>
+<path data-paso="1" class="esc-calido-linea trazo-escena" pathLength="1" d="M30 150 C 60 150, 70 40, 110 45 S 150 150, 160 150"/>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M160 150 C 175 160, 190 250, 220 245 S 255 150, 265 150"/>
+<path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M265 150 C 280 140, 290 70, 315 75 S 345 150, 355 150 C 370 160, 380 225, 400 222 S 425 150, 435 150"/>
+<path data-paso="4" class="esc-linea trazo-escena" pathLength="1" d="M435 150 C 448 145, 455 110, 470 112 S 490 150, 498 150 C 510 156, 518 182, 530 180 S 548 150, 556 150 L 575 150"/>
+<text data-paso="4" x="500" y="94" font-size="16" class="esc-acento" text-anchor="middle">más sereno</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Ir hacia la pérdida</li><li>Volver a la vida</li><li>Ir y venir</li><li>El vaivén se aquieta</li></ol><p class="escena__desc" id="escena-duelo-d">En el modelo de doble proceso, el duelo oscila entre momentos orientados a la pérdida y momentos orientados a la reconstrucción. Con el tiempo, el vaivén suele volverse más suave. Lo que preocupa no es oscilar, sino quedar fijo en un lado.</p></figcaption>
+</figure>
       <div class="lab-tarjeta" data-lab-selector>
         <div class="opciones" role="radiogroup" aria-label="Elegí un lado">
           <label class="opcion"><input type="radio" name="du-lado" value="perdida" checked><span>Hacia la pérdida</span></label>

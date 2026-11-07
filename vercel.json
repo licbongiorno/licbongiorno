@@ -5,6 +5,11 @@
   "outputDirectory": "public",
   "cleanUrls": true,
   "trailingSlash": true,
+  "git": {
+    "deploymentEnabled": {
+      "claude/animaciones": false
+    }
+  },
   "redirects": [
     {
       "source": "/:path*",

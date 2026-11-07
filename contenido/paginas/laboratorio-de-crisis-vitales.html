@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>crisis vitales</em>",
   "bajada": "Una separación, una mudanza, un hijo que se va, la mitad de la vida, una jubilación. Ejercicios para atravesar el pasaje entre lo que termina y lo que todavía no empieza.",
   "respuesta": "El laboratorio de crisis vitales propone ejercicios para atravesar cambios de etapa: reconocer en qué fase de una transición estás según William Bridges (un final, la zona neutral y un nuevo comienzo), nombrar lo que termina y lo que empieza, armar un ritual de pasaje propio inspirado en Arnold van Gennep (separación, margen y agregación) y una estación sobre el duelo migratorio para quienes viven lejos de su país. No reemplaza una terapia.",
-  "scripts": ["lab-base.js"],
+  "scripts": ["lab-base.js", "escenas.js"],
   "wa_tema": "el laboratorio de crisis vitales",
   "articulos": ["crisis-de-la-mitad-de-la-vida", "duelo-migratorio", "el-proceso-de-individuacion"]
 }-->
@@ -40,11 +40,25 @@
       <p class="lab-estacion__num">01</p>
       <h2 id="t-fases">Las tres fases de una transición</h2>
       <p class="lab-estacion__bajada">Para Bridges, toda transición empieza, paradójicamente, por un <strong>final</strong>, pasa por una <strong>zona neutral</strong> de desconcierto y recién después llega a un <strong>nuevo comienzo</strong>. ¿En cuál te parece que estás?</p>
+<figure class="escena revelar" data-escena id="escena-bridges" data-escena-radios="fase">
+  <svg viewBox="0 0 600 300" role="img" aria-labelledby="escena-bridges-t escena-bridges-d"><title id="escena-bridges-t">Las tres fases de una transición</title>
+<line x1="30" y1="250" x2="580" y2="250" class="esc-suave"/>
+<text x="580" y="275" text-anchor="end" class="esc-sans">el tiempo</text>
+<path data-paso="1" class="esc-calido-linea trazo-escena" pathLength="1" d="M30 60 C 120 60, 170 120, 230 250"/>
+<text data-paso="1" x="60" y="48" font-size="18">Un final</text>
+<path data-paso="2" class="esc-linea esc-linea--neutral trazo-escena" pathLength="1" d="M150 250 C 210 130, 380 130, 440 250"/>
+<text data-paso="2" x="295" y="128" font-size="18" text-anchor="middle">Zona neutral</text>
+<path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M360 250 C 420 120, 470 60, 575 58"/>
+<text data-paso="3" x="575" y="46" font-size="18" text-anchor="end">Un nuevo comienzo</text>
+<text data-paso="4" x="295" y="236" font-size="15" text-anchor="middle" class="esc-acento">se superponen</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Algo termina</li><li>La zona neutral</li><li>Algo empieza</li><li>Las fases se superponen</li></ol><p class="escena__desc" id="escena-bridges-d">Según William Bridges, toda transición empieza con un final, atraviesa una zona neutral de desconcierto y llega a un nuevo comienzo. Las tres fases no son etapas separadas: se superponen en el tiempo. Elegí una fase abajo para verla destacada.</p></figcaption>
+</figure>
       <div class="lab-tarjeta" data-lab-selector>
         <div class="opciones" role="radiogroup" aria-label="Fases de una transición">
-          <label class="opcion"><input type="radio" name="fase" value="final" checked><span>Un final</span></label>
-          <label class="opcion"><input type="radio" name="fase" value="neutral"><span>La zona neutral</span></label>
-          <label class="opcion"><input type="radio" name="fase" value="comienzo"><span>Un nuevo comienzo</span></label>
+          <label class="opcion"><input type="radio" name="fase" value="final" data-escena-paso="1" checked><span>Un final</span></label>
+          <label class="opcion"><input type="radio" name="fase" value="neutral" data-escena-paso="2"><span>La zona neutral</span></label>
+          <label class="opcion"><input type="radio" name="fase" value="comienzo" data-escena-paso="3"><span>Un nuevo comienzo</span></label>
         </div>
         <div class="lab-panel" data-lab-panel="final"><p><strong>Un final.</strong> Algo se termina: un rol, un vínculo, una etapa, una imagen de vos. Aparecen la tristeza, el enojo, la nostalgia, a veces el alivio. Es un duelo, aunque el cambio haya sido elegido.</p><p><strong>Preguntas:</strong> ¿qué estás perdiendo exactamente? ¿Qué te gustaría llevarte de lo que termina?</p></div>
         <div class="lab-panel" data-lab-panel="neutral"><p><strong>La zona neutral.</strong> Lo viejo ya no está y lo nuevo todavía no llegó. Es un tiempo de confusión, de vacío y de ansiedad, pero también de creatividad: es cuando se reorganiza lo de adentro. Bridges insistía en no apurarla.</p><p><strong>Preguntas:</strong> ¿qué te pide este tiempo de espera? ¿Qué está naciendo aunque todavía no se vea?</p></div>

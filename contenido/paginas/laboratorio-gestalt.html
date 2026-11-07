@@ -8,7 +8,7 @@
   "h1": "Laboratorio <em>Gestalt</em>",
   "bajada": "El aquí y ahora, el darse cuenta y lo que quedó sin cerrar. Ejercicios inspirados en la terapia Gestalt para registrar lo que te pasa en este momento y darle una voz.",
   "respuesta": "El laboratorio Gestalt propone ejercicios inspirados en la terapia de Fritz y Laura Perls: las tres zonas del darse cuenta, hablar en primera persona, un diálogo de silla vacía con otra persona o con una parte propia, el registro de asuntos inconclusos, el ciclo de la experiencia y el diálogo entre polaridades. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-gestalt.js"],
+  "scripts": ["lab-base.js", "laboratorio-gestalt.js", "escenas.js"],
   "wa_tema": "el laboratorio Gestalt",
   "articulos": ["terapia-gestalt", "psicologia-humanista-carl-rogers", "imaginacion-activa"]
 }-->
@@ -101,14 +101,37 @@
       <p class="lab-estacion__num">05</p>
       <h2 id="t-ciclo">El ciclo de la experiencia</h2>
       <p class="lab-estacion__bajada">Joseph Zinker describió cómo una necesidad recorre un ciclo: aparece como sensación, se vuelve conciencia, moviliza energía, lleva a la acción, se satisface en el contacto y se cierra en la retirada. Muchas veces nos trabamos siempre en la misma fase. ¿En cuál te reconocés?</p>
+<figure class="escena revelar" data-escena id="escena-ciclo" data-escena-radios="ciclo">
+  <svg viewBox="0 0 600 340" role="img" aria-labelledby="escena-ciclo-t escena-ciclo-d"><title id="escena-ciclo-t">El ciclo de la experiencia</title><circle class="esc-suave" cx="300" cy="170" r="120"/>
+<path data-paso="1" class="esc-linea trazo-escena" pathLength="1" d="M300.0 50.0 A120 120 0 0 1 403.9 110.0"/>
+<g data-paso="1"><circle class="esc-nodo" cx="300.0" cy="50.0" r="10"/><text x="300.0" y="22.0" text-anchor="middle" font-size="18">Sensación</text></g>
+<g data-paso="1" data-hasta="1" class="esc-corte"><circle cx="300.0" cy="50.0" r="20" class="esc-corte__aro"/></g>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M403.9 110.0 A120 120 0 0 1 403.9 230.0"/>
+<g data-paso="2"><circle class="esc-nodo" cx="403.9" cy="110.0" r="10"/><text x="433.4" y="99.0" text-anchor="start" font-size="18">Darse cuenta</text></g>
+<g data-paso="2" data-hasta="2" class="esc-corte"><circle cx="403.9" cy="110.0" r="20" class="esc-corte__aro"/></g>
+<path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M403.9 230.0 A120 120 0 0 1 300.0 290.0"/>
+<g data-paso="3"><circle class="esc-nodo" cx="403.9" cy="230.0" r="10"/><text x="433.4" y="253.0" text-anchor="start" font-size="18">Energía</text></g>
+<g data-paso="3" data-hasta="3" class="esc-corte"><circle cx="403.9" cy="230.0" r="20" class="esc-corte__aro"/></g>
+<path data-paso="4" class="esc-linea trazo-escena" pathLength="1" d="M300.0 290.0 A120 120 0 0 1 196.1 230.0"/>
+<g data-paso="4"><circle class="esc-nodo" cx="300.0" cy="290.0" r="10"/><text x="300.0" y="330.0" text-anchor="middle" font-size="18">Acción</text></g>
+<g data-paso="4" data-hasta="4" class="esc-corte"><circle cx="300.0" cy="290.0" r="20" class="esc-corte__aro"/></g>
+<path data-paso="5" class="esc-linea trazo-escena" pathLength="1" d="M196.1 230.0 A120 120 0 0 1 196.1 110.0"/>
+<g data-paso="5"><circle class="esc-nodo" cx="196.1" cy="230.0" r="10"/><text x="166.6" y="253.0" text-anchor="end" font-size="18">Contacto</text></g>
+<g data-paso="5" data-hasta="5" class="esc-corte"><circle cx="196.1" cy="230.0" r="20" class="esc-corte__aro"/></g>
+<path data-paso="6" class="esc-linea trazo-escena" pathLength="1" d="M196.1 110.0 A120 120 0 0 1 300.0 50.0"/>
+<g data-paso="6"><circle class="esc-nodo" cx="196.1" cy="110.0" r="10"/><text x="166.6" y="99.0" text-anchor="end" font-size="18">Retirada</text></g>
+<g data-paso="6" data-hasta="6" class="esc-corte"><circle cx="196.1" cy="110.0" r="20" class="esc-corte__aro"/></g>
+<text data-paso="7" x="300" y="176" text-anchor="middle" font-size="18" class="esc-acento">y vuelve a empezar</text></svg>
+  <figcaption><ol class="escena__textos"><li>Algo se siente</li><li>Me doy cuenta</li><li>Aparece la energía</li><li>Paso a la acción</li><li>Hago contacto</li><li>Me retiro</li><li>Un ciclo nuevo</li></ol><p class="escena__desc" id="escena-ciclo-d">Una necesidad recorre seis fases: sensación, darse cuenta, energía, acción, contacto y retirada, y el ciclo se cierra para dar lugar a otro. Elegí abajo la fase donde solés trabarte: el ciclo se queda abierto ahí.</p></figcaption>
+</figure>
       <div class="lab-tarjeta" data-lab-selector>
         <div class="opciones" role="radiogroup" aria-label="Fases del ciclo">
-          <label class="opcion"><input type="radio" name="ciclo" value="sensacion" checked><span>1. Sensación</span></label>
-          <label class="opcion"><input type="radio" name="ciclo" value="conciencia"><span>2. Darse cuenta</span></label>
-          <label class="opcion"><input type="radio" name="ciclo" value="energia"><span>3. Energía</span></label>
-          <label class="opcion"><input type="radio" name="ciclo" value="accion"><span>4. Acción</span></label>
-          <label class="opcion"><input type="radio" name="ciclo" value="contacto"><span>5. Contacto</span></label>
-          <label class="opcion"><input type="radio" name="ciclo" value="retirada"><span>6. Retirada</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="sensacion" data-escena-paso="1" checked><span>1. Sensación</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="conciencia" data-escena-paso="2"><span>2. Darse cuenta</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="energia" data-escena-paso="3"><span>3. Energía</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="accion" data-escena-paso="4"><span>4. Acción</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="contacto" data-escena-paso="5"><span>5. Contacto</span></label>
+          <label class="opcion"><input type="radio" name="ciclo" value="retirada" data-escena-paso="6"><span>6. Retirada</span></label>
         </div>
         <div class="lab-panel" data-lab-panel="sensacion"><p>Algo se mueve en el cuerpo: cansancio, hambre, inquietud, un nudo.</p><p><strong>Si te trabás acá:</strong> te cuesta registrar lo que sentís, vivís «desconectado» del cuerpo. <strong>Pregunta:</strong> ¿qué siento en el cuerpo ahora mismo?</p></div>
         <div class="lab-panel" data-lab-panel="conciencia" hidden><p>La sensación se vuelve figura: «estoy triste», «necesito descansar».</p><p><strong>Si te trabás acá:</strong> sentís algo pero no sabés qué es ni qué necesitás. <strong>Pregunta:</strong> si esta sensación hablara, ¿qué diría que necesito?</p></div>

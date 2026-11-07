@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>sentido</em>",
   "bajada": "No siempre podemos elegir lo que nos pasa, pero sí qué hacemos con eso. Ejercicios inspirados en la logoterapia de Viktor Frankl para buscar lo que le da sentido a tu vida.",
   "respuesta": "El laboratorio de sentido propone ejercicios inspirados en la logoterapia de Viktor Frankl: reconocer las tres vías del sentido (lo que creás o das, lo que vivís y recibís, y la actitud frente a lo que no se puede cambiar), responder preguntas de sentido, practicar la pregunta invertida (qué espera la vida de mí) y escribir una carta desde tu yo de dentro de diez años. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-sentido.js"],
+  "scripts": ["lab-base.js", "laboratorio-sentido.js", "escenas.js", "visual-labs.js"],
   "wa_tema": "el laboratorio de sentido",
   "articulos": ["logoterapia-y-sentido", "el-proceso-de-individuacion", "la-resiliencia"]
 }-->
@@ -40,6 +40,18 @@
       <p class="lab-estacion__num">01</p>
       <h2 id="t-vias">Las tres vías del sentido</h2>
       <p class="lab-estacion__bajada">Frankl describió tres caminos por los que el sentido aparece: lo que <strong>damos</strong> al mundo (valores de creación), lo que <strong>recibimos</strong> de él (valores de experiencia) y la <strong>actitud</strong> que tomamos frente a lo que no podemos cambiar (valores de actitud). Pensá en tu vida de hoy.</p>
+<figure class="escena revelar" data-escena id="escena-vias" data-vias>
+  <svg viewBox="0 0 600 320" role="img" aria-labelledby="escena-vias-t escena-vias-d"><title id="escena-vias-t">Las tres vías del sentido</title>
+<path data-paso="1" class="esc-linea esc-via trazo-escena" data-campo="vs-crear" pathLength="1" d="M60 50 C 160 60, 220 120, 290 160"/>
+<text data-paso="1" x="60" y="36" font-size="18">Lo que doy</text>
+<path data-paso="2" class="esc-linea esc-via trazo-escena" data-campo="vs-vivir" pathLength="1" d="M60 270 C 160 260, 220 200, 290 166"/>
+<text data-paso="2" x="60" y="300" font-size="18">Lo que recibo</text>
+<path data-paso="3" class="esc-linea esc-via trazo-escena" data-campo="vs-actitud" pathLength="1" d="M540 50 C 470 80, 380 120, 312 160"/>
+<text data-paso="3" x="540" y="36" font-size="18" text-anchor="end">Mi actitud</text>
+<g data-paso="4"><circle cx="300" cy="164" r="26" class="esc-relleno esc-centro-sentido"/><text x="300" y="230" text-anchor="middle" font-size="18" class="esc-acento">sentido</text></g>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que damos</li><li>Lo que recibimos</li><li>Cómo nos paramos</li><li>Confluyen en sentido</li></ol><p class="escena__desc" id="escena-vias-d">Para Viktor Frankl, el sentido aparece por tres vías: lo que damos al mundo, lo que recibimos de él y la actitud que tomamos frente a lo que no podemos cambiar. Cuando escribas en cada vía, se va a llenar su corriente.</p></figcaption>
+</figure>
       <form class="lab-tarjeta lab-armador" data-lab-form="las-tres-vias-del-sentido" data-lab-form-titulo="Las tres vías del sentido" novalidate>
         <div class="lab-paso"><label class="lab-paso__titulo" for="vs-crear"><span>1</span>Lo que doy: ¿qué hacés, creás o aportás que tenga valor para alguien?</label><p class="lab-paso__ayuda">Un trabajo, un cuidado, algo que hacés con las manos, una ayuda que das.</p><textarea class="lab-texto" id="vs-crear" rows="3"></textarea></div>
         <div class="lab-paso"><label class="lab-paso__titulo" for="vs-vivir"><span>2</span>Lo que recibo: ¿qué experiencias, personas o momentos te hacen sentir vivo?</label><p class="lab-paso__ayuda">Un vínculo, la naturaleza, la música, un libro, un amor.</p><textarea class="lab-texto" id="vs-vivir" rows="3"></textarea></div>

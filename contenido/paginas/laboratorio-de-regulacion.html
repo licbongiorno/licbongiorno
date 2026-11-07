@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>regulación</em>",
   "bajada": "Cuando el cuerpo se acelera o se apaga, las ideas solas no alcanzan. Ejercicios para volver al presente, conocer tus señales y ampliar de a poco lo que podés sostener.",
   "respuesta": "El laboratorio de regulación propone ejercicios para el desborde emocional y las secuelas del estrés y el trauma: reconocer en qué zona de la ventana de tolerancia estás (hiperactivación, dentro de la ventana o hipoactivación), anclajes al presente, un mapa del cuerpo con zonas de calma y de tensión, la pendulación de Peter Levine (ir y volver entre una sensación agradable y una apenas incómoda) y un kit de recursos personales. No se trabajan recuerdos traumáticos y no reemplaza un tratamiento.",
-  "scripts": ["lab-base.js"],
+  "scripts": ["lab-base.js", "escenas.js"],
   "wa_tema": "el laboratorio de regulación",
   "articulos": ["pendulacion-somatic-experiencing", "la-ventana-de-tolerancia", "ansiedad-cuando-el-cuerpo-habla"]
 }-->
@@ -41,11 +41,31 @@
       <p class="lab-estacion__num">01</p>
       <h2 id="t-ventana">Tu ventana de tolerancia</h2>
       <p class="lab-estacion__bajada">El psiquiatra Daniel Siegel llamó <strong>ventana de tolerancia</strong> a la franja en la que podemos sentir sin desbordarnos: hay emoción, pero también podemos pensar y elegir. Por arriba está la <strong>hiperactivación</strong> y por abajo la <strong>hipoactivación</strong>. ¿Dónde estás ahora?</p>
+<figure class="escena revelar" data-escena id="escena-ventana" data-escena-radios="zona">
+  <svg viewBox="0 0 600 300" role="img" aria-labelledby="escena-ventana-t escena-ventana-d"><title id="escena-ventana-t">La ventana de tolerancia</title>
+<rect x="40" y="20" width="540" height="80" rx="14" class="esc-zona esc-zona--hiper"/>
+<rect x="40" y="100" width="540" height="100" class="esc-zona esc-zona--ventana"/>
+<rect x="40" y="200" width="540" height="80" rx="14" class="esc-zona esc-zona--hipo"/>
+<text x="56" y="46" class="esc-sans">Hiperactivación</text>
+<text x="56" y="126" class="esc-sans">Ventana de tolerancia</text>
+<text x="56" y="226" class="esc-sans">Hipoactivación</text>
+<path data-paso="1" class="esc-linea trazo-escena" pathLength="1" d="M60 160 C 90 140, 110 175, 140 150 S 180 140, 200 152"/>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M200 152 C 225 120, 240 60, 262 52 S 290 110, 305 150"/>
+<path data-paso="3" class="esc-linea esc-linea--fria trazo-escena" pathLength="1" d="M305 150 C 325 190, 340 250, 362 252 S 390 190, 405 150"/>
+<path data-paso="4" class="esc-linea trazo-escena" pathLength="1" d="M405 150 C 430 135, 450 168, 475 150 S 520 140, 560 150"/>
+<circle data-paso="1" data-hasta="1" class="esc-punto" cx="200" cy="152" r="7"/>
+<circle data-paso="2" data-hasta="2" class="esc-punto" cx="262" cy="52" r="7"/>
+<circle data-paso="3" data-hasta="3" class="esc-punto" cx="362" cy="252" r="7"/>
+<circle data-paso="4" class="esc-punto" cx="560" cy="150" r="7"/>
+<g data-paso="5"><path class="esc-ensancha" d="M565 96 L 565 108 M 565 204 L 565 192" /><text x="545" y="128" font-size="16" text-anchor="end" class="esc-acento">más amplia</text></g>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Dentro de la ventana</li><li>Algo nos acelera</li><li>O nos apaga</li><li>Volver a la ventana</li><li>Se puede ampliar</li></ol><p class="escena__desc" id="escena-ventana-d">Dentro de la ventana podemos sentir y pensar a la vez. Cuando algo nos supera, la activación sube (hiperactivación) o se apaga (hipoactivación). Regularse es volver a la franja del medio, que con práctica se ensancha. Elegí una zona abajo para verla.</p></figcaption>
+</figure>
       <div class="lab-tarjeta" data-lab-selector>
         <div class="opciones" role="radiogroup" aria-label="Zona de la ventana de tolerancia">
-          <label class="opcion"><input type="radio" name="zona" value="hiper"><span>Acelerado</span></label>
-          <label class="opcion"><input type="radio" name="zona" value="dentro" checked><span>Dentro de la ventana</span></label>
-          <label class="opcion"><input type="radio" name="zona" value="hipo"><span>Apagado</span></label>
+          <label class="opcion"><input type="radio" name="zona" value="hiper" data-escena-paso="2"><span>Acelerado</span></label>
+          <label class="opcion"><input type="radio" name="zona" value="dentro" data-escena-paso="1" checked><span>Dentro de la ventana</span></label>
+          <label class="opcion"><input type="radio" name="zona" value="hipo" data-escena-paso="3"><span>Apagado</span></label>
         </div>
         <div class="lab-panel" data-lab-panel="hiper"><p><strong>Hiperactivación.</strong> Corazón rápido, respiración corta, tensión, irritabilidad, pensamientos a mil, ganas de huir o de pelear, sensación de alarma.</p><p><strong>Qué puede ayudar:</strong> bajar el ritmo con exhalaciones largas, apoyar los pies, mover el cuerpo para descargar, agua fría en la cara, mirar despacio el lugar donde estás. Probá la <a href="/laboratorio-de-respiraciones/">respiración con exhalación larga</a>.</p></div>
         <div class="lab-panel" data-lab-panel="dentro"><p><strong>Dentro de la ventana.</strong> Podés sentir algo intenso y, al mismo tiempo, pensar, hablar y decidir. Te sentís presente, con cierta calma o curiosidad, aunque haya emociones.</p><p><strong>Qué puede ayudar:</strong> es el mejor momento para practicar, conocer tus señales y armar tu kit de recursos. Así, cuando salgas de la ventana, vas a tener a mano por dónde volver.</p></div>
@@ -94,7 +114,20 @@
       <p class="lab-estacion__num">04</p>
       <h2 id="t-pendular">Pendulación</h2>
       <p class="lab-estacion__bajada">El psicólogo Peter Levine, creador del <strong>Somatic Experiencing</strong>, observó que el organismo oscila naturalmente entre la contracción y la expansión. La <strong>pendulación</strong> aprovecha ese vaivén: ir de una zona del cuerpo donde hay calma (el recurso) a otra donde hay una incomodidad leve, y volver. Lo importante es la dosis: Levine habla de <strong>titulación</strong>, acercarse de a gotas. Usá las zonas de tu mapa del cuerpo.</p>
-      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+<figure class="escena revelar" data-escena id="escena-pendulo" data-escena-sync="#pasos-pendulacion">
+  <svg viewBox="0 0 600 300" role="img" aria-labelledby="escena-pendulo-t escena-pendulo-d"><title id="escena-pendulo-t">La pendulación: ir y volver</title>
+<circle cx="150" cy="215" r="62" class="esc-relleno esc-recurso"/>
+<text x="150" y="221" text-anchor="middle" font-size="19">Recurso</text>
+<circle cx="450" cy="215" r="44" class="esc-calido esc-incomodidad"/>
+<text x="450" y="284" text-anchor="middle" font-size="17">Incomodidad</text>
+<circle cx="300" cy="34" r="5" class="esc-nodo"/>
+<g class="pendulo"><line x1="300" y1="34" x2="300" y2="190" class="esc-linea"/><circle cx="300" cy="196" r="13" class="esc-punto"/></g>
+<path data-paso="4" class="esc-suave trazo-escena" pathLength="1" d="M190 150 Q 300 110 410 150"/>
+<text data-paso="5" x="150" y="128" text-anchor="middle" font-size="16" class="esc-acento">terminar en calma</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Quedarte en el recurso</li><li>Rozar la incomodidad</li><li>Volver al recurso</li><li>Ir y volver</li><li>Terminar en calma</li></ol><p class="escena__desc" id="escena-pendulo-d">Un péndulo va de una zona de calma (el recurso) a una incomodidad leve y vuelve. Con cada vaivén, la incomodidad se achica y el recurso se amplía. Siempre se termina en el recurso. La escena acompaña los pasos guiados de abajo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-pendulacion" data-lab-pasos data-lab-pasos-segundos="60">
         <ol class="lab-pasos">
           <li><strong>El recurso.</strong> Llevá la atención a una zona del cuerpo donde sientas algo agradable o neutro: las manos, los pies, la espalda apoyada. Si no encontrás ninguna, usá una imagen que te dé calma. Quedate ahí, notando cómo es esa sensación: temperatura, peso, textura.</li>
           <li><strong>Un poco de incomodidad.</strong> Ahora llevá la atención, por unos segundos, a una zona con una incomodidad <em>leve</em> (no la más intensa): un poco de tensión en los hombros, algo en el estómago. Solo notala, sin cambiarla. Si es mucho, volvé enseguida.</li>
