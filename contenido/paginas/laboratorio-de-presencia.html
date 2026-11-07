@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>presencia</em>",
   "bajada": "Volver al cuerpo y al presente cuando la cabeza no para: respirar, anclarse en los sentidos y prestar atención, un minuto a la vez.",
   "respuesta": "El laboratorio de presencia ofrece prácticas guiadas de atención plena: respiración con un círculo que marca el ritmo, el anclaje 5-4-3-2-1 para momentos de ansiedad, un escaneo corporal paso a paso y un temporizador con campana suave para meditar. Es gratuito y no guarda datos.",
-  "scripts": ["lab-base.js", "laboratorio-presencia.js"],
+  "scripts": ["lab-base.js", "laboratorio-presencia.js", "escenas.js"],
   "wa_tema": "el laboratorio de presencia",
   "articulos": ["ansiedad-cuando-el-cuerpo-habla", "ataque-de-panico-que-hacer", "la-memoria"]
 }-->
@@ -61,7 +61,11 @@
       <p class="lab-estacion__num">02</p>
       <h2 id="t-anclaje">Anclaje 5-4-3-2-1</h2>
       <p class="lab-estacion__bajada">Cuando la ansiedad sube o la cabeza se va lejos, los sentidos te traen de vuelta al lugar donde estás. Podés hacerlo en cualquier lado, incluso con los ojos abiertos en un colectivo.</p>
-      <div class="lab-tarjeta" data-lab-pasos>
+<figure class="escena revelar" data-escena id="escena-anclaje" data-escena-sync="#pasos-anclaje">
+  <svg viewBox="20 20 560 270" role="img" aria-labelledby="escena-anclaje-t escena-anclaje-d"><title id="escena-anclaje-t">Anclaje 5-4-3-2-1</title><g data-paso="1" class="esc-fila"><circle cx="160" cy="50" r="9" class="esc-nodo"/><circle cx="230" cy="50" r="9" class="esc-nodo"/><circle cx="300" cy="50" r="9" class="esc-nodo"/><circle cx="370" cy="50" r="9" class="esc-nodo"/><circle cx="440" cy="50" r="9" class="esc-nodo"/><text x="40" y="55" class="esc-sans">5 · ves</text></g><g data-paso="2" class="esc-fila"><circle cx="195" cy="100" r="9" class="esc-nodo"/><circle cx="265" cy="100" r="9" class="esc-nodo"/><circle cx="335" cy="100" r="9" class="esc-nodo"/><circle cx="405" cy="100" r="9" class="esc-nodo"/><text x="40" y="105" class="esc-sans">4 · tocás</text></g><g data-paso="3" class="esc-fila"><circle cx="230" cy="150" r="9" class="esc-nodo"/><circle cx="300" cy="150" r="9" class="esc-nodo"/><circle cx="370" cy="150" r="9" class="esc-nodo"/><text x="40" y="155" class="esc-sans">3 · escuchás</text></g><g data-paso="4" class="esc-fila"><circle cx="265" cy="200" r="9" class="esc-nodo"/><circle cx="335" cy="200" r="9" class="esc-nodo"/><text x="40" y="205" class="esc-sans">2 · olés</text></g><g data-paso="5" class="esc-fila"><circle cx="300" cy="250" r="9" class="esc-nodo"/><text x="40" y="255" class="esc-sans">1 · saboreás</text></g><path data-paso="6" class="esc-suave trazo-escena" pathLength="1" d="M160 50 L 300 250 L 440 50"/><g data-paso="6"><circle cx="300" cy="250" r="18" class="esc-punto esc-centro"/><text x="330" y="256" font-size="18" class="esc-acento">estás acá</text></g></svg>
+  <figcaption><ol class="escena__textos"><li>Cinco que ves</li><li>Cuatro que tocás</li><li>Tres que escuchás</li><li>Dos que olés</li><li>Una que saboreás</li><li>Estás acá</li></ol><p class="escena__desc" id="escena-anclaje-d">Una cuenta regresiva con los sentidos: cinco cosas que ves, cuatro que podés tocar, tres que escuchás, dos que olés y una que saboreás. Cada paso achica el foco hasta llevarte al lugar donde estás. La escena acompaña los pasos de abajo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-anclaje" data-lab-pasos>
         <ol class="lab-pasos">
           <li><strong>5 cosas que ves.</strong> Nombralas en voz baja o mentalmente: un color, una forma, una luz, una sombra, un objeto.</li>
           <li><strong>4 cosas que podés tocar.</strong> La tela de tu ropa, la silla, el piso bajo los pies, la temperatura de tus manos.</li>

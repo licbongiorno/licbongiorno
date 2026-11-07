@@ -107,11 +107,17 @@ Hay 32 laboratorios con 182 estaciones.
   | Regulación | 98 | 0 | 100 |
   | `/laboratorios/` | 100 | 0 | 100 |
 
-## Pendiente (segunda tanda)
+## Segunda tanda (hecha)
 
-- Gestalt: las tres zonas del darse cuenta.
-- DBT: TIP.
-- Narrativo: dos historias.
-- Línea de vida animada.
-- Preguntas circulares.
-- Anclaje 5-4-3-2-1.
+| Laboratorio | Qué se anima | Para qué |
+|---|---|---|
+| Gestalt | Las tres zonas del darse cuenta (afuera, adentro y la fantasía). Una luz de atención sigue los pasos guiados y al final salta entre las tres. | Hacer visible dónde está la atención. |
+| DBT | TIP: un medidor de intensidad baja un escalón con cada recurso del cuerpo (agua fría, mover el cuerpo, exhalar largo y soltar los músculos) hasta la franja en la que se puede pensar. | Mostrar la magnitud y el proceso. |
+| Presencia | Anclaje 5-4-3-2-1: hileras de 5, 4, 3, 2 y 1 que se encienden con los pasos y convergen en «estás acá». | Mostrar la cuenta regresiva hacia el presente. |
+| Narrativo | Dos historias: el hilo de la historia alternativa se engrosa a medida que se escribe y el de la dominante se aligera. | Representar el «engrosamiento» de la historia alternativa, idea de White y Epston. |
+| Mito personal | La línea de vida se dibuja como un camino con los capítulos escritos. El último se marca como «ahora» y el próximo aparece punteado. | Ver la propia historia como recorrido. |
+| Sistémico | Preguntas circulares: cada pregunta nueva enciende una relación entre otras dos personas. | Mostrar qué mira una pregunta circular. |
+
+**Validación de la segunda tanda:**
+- 40 comprobaciones automáticas sin fallas, incluidas las pruebas con movimiento reducido y sin JavaScript.
+- La regresión del sitio completo, axe y las comprobaciones de desborde se repitieron.

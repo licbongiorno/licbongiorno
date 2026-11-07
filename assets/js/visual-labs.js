@@ -185,4 +185,78 @@
       "viz--olvido", "Curva del olvido: lo que recordás cae con el tiempo y cada repaso lo vuelve a subir; las caídas son cada vez más suaves.");
     rep.closest(".lab-resultado").before(figR);
   }
+
+  /* Narrativo · dos historias: la alternativa se engrosa a medida que se cuenta. */
+  var alt = document.getElementById("hi-alt");
+  if (alt) {
+    var figH = crear('<svg viewBox="0 0 600 150"><path class="viz-hilo viz-hilo--dom" d="M20 55 C 140 25, 220 85, 330 55 S 500 25, 580 55"/>' +
+      '<path class="viz-hilo viz-hilo--alt punteado" d="M20 105 C 140 75, 220 135, 330 105 S 500 75, 580 105"/>' +
+      '<text x="20" y="22" class="viz-eje-t">historia dominante</text><text x="20" y="145" class="viz-eje-t">historia alternativa</text></svg>', "viz--historias", "");
+    alt.closest(".lab-tabla2").after(figH);
+    var hDom = figH.querySelector(".viz-hilo--dom"), hAlt = figH.querySelector(".viz-hilo--alt");
+    var pintarH = function () {
+      var n = (alt.value.trim().match(/\S+/g) || []).length;
+      var w = n === 0 ? 1.5 : n <= 20 ? 3 : n <= 60 ? 5 : 8;
+      hAlt.style.strokeWidth = w; hAlt.classList.toggle("punteado", n <= 20);
+      hDom.style.strokeWidth = Math.max(2.5, 10 - w);
+      figH.querySelector("svg").setAttribute("aria-label", n === 0 ? "La historia dominante es un hilo grueso; la alternativa, un hilo fino y punteado." :
+        "La historia alternativa tiene " + n + " palabras y su hilo se está engrosando.");
+    };
+    alt.addEventListener("input", pintarH); pintarH();
+  }
+
+  /* Mito personal · la línea de vida como un camino con tus capítulos. */
+  var cap = document.querySelector("#linea [data-lle-lista]"), prox = document.getElementById("lv-proximo");
+  if (cap) {
+    var NS = "http://www.w3.org/2000/svg";
+    var figL = crear('<svg viewBox="0 0 600 200"><path class="viz-camino" d="M20 100 C 90 50, 150 150, 220 100 S 360 50, 430 100 S 540 150, 590 100"/><g class="viz-caps"></g></svg>', "viz--linea", "");
+    cap.closest("[data-lab-lista-editable]").after(figL);
+    var gC = figL.querySelector(".viz-caps"), camino = figL.querySelector(".viz-camino");
+    var corto = function (t) { return t.length > 16 ? t.slice(0, 15) + "…" : t; };
+    var pintarL = function () {
+      var titulos = Array.prototype.map.call(cap.querySelectorAll("[data-lle-texto]"), function (x) { return x.textContent; });
+      var hayProx = lleno(prox), total = titulos.length + (hayProx ? 1 : 0);
+      figL.hidden = !total; // visible antes de medir el camino
+      var largo = camino.getTotalLength();
+      gC.innerHTML = "";
+      var nodos = titulos.map(function (t, i) { return { t: t, cl: i === titulos.length - 1 ? "ahora" : "" }; });
+      if (hayProx) nodos.push({ t: prox.value.trim(), cl: "proximo" });
+      nodos.forEach(function (nd, i) {
+        var pt = camino.getPointAtLength(largo * (total === 1 ? .5 : .06 + .88 * i / (total - 1)));
+        var g = document.createElementNS(NS, "g"); g.setAttribute("class", "viz-capitulo " + nd.cl); g.style.animationDelay = (i * 60) + "ms";
+        var c = document.createElementNS(NS, "circle"); c.setAttribute("cx", pt.x); c.setAttribute("cy", pt.y); c.setAttribute("r", nd.cl ? 9 : 7);
+        var tx = document.createElementNS(NS, "text"); tx.setAttribute("x", pt.x); tx.setAttribute("y", i % 2 ? pt.y + 34 : pt.y - 20); tx.setAttribute("text-anchor", pt.x < 110 ? "start" : pt.x > 490 ? "end" : "middle");
+        tx.textContent = nd.cl === "proximo" ? "próximo" : corto(nd.t);
+        var ti = document.createElementNS(NS, "title"); ti.textContent = (nd.cl === "proximo" ? "Próximo capítulo: " : (i + 1) + ". ") + nd.t;
+        g.appendChild(ti); g.appendChild(c); g.appendChild(tx); gC.appendChild(g);
+      });
+      figL.hidden = !total;
+      figL.querySelector("svg").setAttribute("aria-label", "Línea de vida con " + titulos.length + " capítulos" + (hayProx ? " y un próximo capítulo" : ""));
+    };
+    new MutationObserver(pintarL).observe(cap, { childList: true, subtree: true, characterData: true });
+    if (prox) prox.addEventListener("input", pintarL);
+    pintarL();
+  }
+
+  /* Sistémico · preguntas circulares: cada pregunta mira una relación entre otros. */
+  var pc = document.querySelector("[data-gen-preguntas]");
+  if (pc) {
+    var P4 = { vos: [180, 220], a: [60, 110], b: [180, 30], c: [300, 110] };
+    var pares = [["a", "b"], ["b", "c"], ["a", "c"]];
+    var arcos = pares.map(function (p) { var x1 = P4[p[0]], x2 = P4[p[1]]; return '<line class="viz-arco on" data-par="' + p.join("") + '" x1="' + x1[0] + '" y1="' + x1[1] + '" x2="' + x2[0] + '" y2="' + x2[1] + '"/>'; }).join("") +
+      ["a", "b", "c"].map(function (k) { return '<line class="viz-arco viz-arco--vos" x1="180" y1="220" x2="' + P4[k][0] + '" y2="' + P4[k][1] + '"/>'; }).join("");
+    var personas = Object.keys(P4).map(function (k) { return '<circle class="viz-persona' + (k === "vos" ? " viz-persona--vos" : "") + '" data-persona="' + k + '" cx="' + P4[k][0] + '" cy="' + P4[k][1] + '" r="' + (k === "vos" ? 22 : 18) + '"/>'; }).join("");
+    var figC = crear('<svg viewBox="0 0 360 260">' + arcos + personas + '<text x="180" y="226" text-anchor="middle">vos</text></svg>', "viz--circular",
+      "Una red de cuatro personas: las preguntas circulares miran las relaciones entre los otros, no solo a vos.");
+    pc.insertBefore(figC, pc.querySelector("[data-pc-pregunta]"));
+    var ultimo = -1;
+    var mostrarRel = function () {
+      var k; do { k = Math.floor(Math.random() * pares.length); } while (k === ultimo && pares.length > 1);
+      ultimo = k;
+      figC.querySelectorAll(".viz-arco[data-par]").forEach(function (l, i) { l.classList.toggle("on", i === k); });
+      figC.querySelectorAll(".viz-persona").forEach(function (c) { c.classList.toggle("on", pares[k].indexOf(c.getAttribute("data-persona")) >= 0); });
+    };
+    var otra = pc.querySelector("[data-pc-otra]");
+    if (otra) otra.addEventListener("click", mostrarRel);
+  }
 })();
