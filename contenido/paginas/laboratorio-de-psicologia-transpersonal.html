@@ -1,0 +1,156 @@
+<!--{
+  "ruta": "/laboratorio-de-psicologia-transpersonal/",
+  "titulo": "Laboratorio de psicología transpersonal: Assagioli y Wilber",
+  "descripcion": "Subpersonalidades, desidentificación, niveles de conciencia y experiencias de asombro, con Assagioli, Wilber, Grof y Maslow.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Transpersonal",
+      "/laboratorio-de-psicologia-transpersonal/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>psicología transpersonal</em>",
+  "bajada": "Assagioli propuso que somos muchas partes y que el yo puede observarlas. Wilber, que la conciencia tiene niveles y que lo transpersonal incluye al yo. Cuatro prácticas para mirar esas ideas en tu vida.",
+  "respuesta": "El laboratorio de psicología transpersonal propone cuatro ejercicios inspirados en Roberto Assagioli, Ken Wilber, Stanislav Grof y Abraham Maslow: dialogar con una subpersonalidad, practicar la desidentificación, ubicar una experiencia en los niveles prepersonal, personal y transpersonal, y registrar un momento de asombro o de plenitud.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de psicología transpersonal",
+  "articulos": [
+    "roberto-assagioli",
+    "ken-wilber",
+    "stanislav-grof",
+    "abraham-maslow"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay partes de nosotros que hablan más fuerte: el que critica, el que se preocupa, el que quiere agradar. Assagioli propuso reconocerlas sin confundirse con ellas. Wilber, que la conciencia tiene niveles. Grof y Maslow, que hay experiencias que van más allá del yo. Acá las llevamos a la práctica.</p>
+        <p>Son ejercicios de reflexión y de observación. Ninguno reemplaza el acompañamiento de un profesional.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#subpersonalidad">Dialogar con una parte</a><a href="#desidentificacion">Soy una parte, no todo</a><a href="#niveles">Niveles de una experiencia</a><a href="#asombro">Un momento de asombro</a></nav>
+
+    <section class="lab-estacion revelar" id="subpersonalidad" aria-labelledby="t-subpersonalidad">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-subpersonalidad">Dialogar con una parte</h2>
+      <p class="lab-estacion__bajada">Assagioli describió las subpersonalidades: partes semiautónomas, cada una con su necesidad. Dialogar con una de ellas, en lugar de pelearse, es el primer paso de la psicosíntesis. Leé sobre <a href="/recursos/roberto-assagioli/">Roberto Assagioli</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué parte aparece más seguido"><label class="opcion"><input type="radio" name="parte" value="critico" data-escena-paso="1" checked><span>El crítico</span></label><label class="opcion"><input type="radio" name="parte" value="protector" data-escena-paso="2"><span>El protector</span></label><label class="opcion"><input type="radio" name="parte" value="nino" data-escena-paso="3"><span>El niño</span></label></div>
+        <div class="lab-panel" data-lab-panel="critico"><p>Preguntale qué quiere protegerte. Escuchá la respuesta sin discutir y anotá lo que te dice.</p></div><div class="lab-panel" data-lab-panel="protector" hidden><p>Preguntale de qué te está cuidando y qué teme que pase si baja la guardia.</p></div><div class="lab-panel" data-lab-panel="nino" hidden><p>Preguntale qué necesita hoy. Respondele como lo harías con alguien querido.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-subpersonalidad" data-escena-radios="parte">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-subpersonalidad-t escena-subpersonalidad-d"><title id="escena-subpersonalidad-t">El yo escucha</title>
+<circle data-paso="1" cx="300" cy="150" r="46" class="esc-calido"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="16">yo</text>
+<circle data-paso="1" cx="150" cy="80" r="26" class="esc-nodo"/><text data-paso="1" x="150" y="86" text-anchor="middle" font-size="14">crítico</text>
+<circle data-paso="2" cx="450" cy="80" r="26" class="esc-nodo"/><text data-paso="2" x="450" y="86" text-anchor="middle" font-size="14">protector</text>
+<circle data-paso="3" cx="300" cy="230" r="26" class="esc-nodo"/><text data-paso="3" x="300" y="236" text-anchor="middle" font-size="14">niño</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>El crítico</li><li>El protector</li><li>El niño</li></ol><p class="escena__desc" id="escena-subpersonalidad-d">El yo que observa puede escuchar a cada parte sin ser arrastrado por ninguna. Así, cada una deja de pelear para hacerse oír.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dialogo-parte" data-lab-form-titulo="Dialogar con una parte" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dp-parte">La parte que aparece más seguido</label><input class="lab-campo" id="dp-parte" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dp-dice">Lo que me dice</label><textarea class="lab-texto" id="dp-dice" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dp-necesita">Lo que necesita, según lo que escuché</label><textarea class="lab-texto" id="dp-necesita" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="desidentificacion" aria-labelledby="t-desidentificacion">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-desidentificacion">Soy una parte, no todo</h2>
+      <p class="lab-estacion__bajada">La desidentificación consiste en observar una parte de uno sin confundirse con ella. Cambiar «soy» por «hay una parte de mí que» abre espacio para elegir. Leé sobre <a href="/recursos/roberto-assagioli/">la psicosíntesis</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-desidentificacion" data-escena-sync="#pasos-desidentificacion">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-desidentificacion-t escena-desidentificacion-d"><title id="escena-desidentificacion-t">Mirar la parte</title>
+<text data-paso="1" data-hasta="1" x="300" y="70" text-anchor="middle" font-size="18">«soy miedo»</text>
+<text data-paso="2" x="300" y="70" text-anchor="middle" font-size="18">«hay una parte de mí que tiene miedo»</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M200 110 C 220 150, 380 150, 400 110"/><circle data-paso="3" cx="300" cy="200" r="40" class="esc-calido"/><text data-paso="3" x="300" y="206" text-anchor="middle" font-size="15">yo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Soy miedo</li><li>Hay una parte que tiene miedo</li><li>El yo que observa</li></ol><p class="escena__desc" id="escena-desidentificacion-d">Cuando decimos «hay una parte de mí», el yo que observa aparece. Desde ahí, la emoción pierde algo de fuerza.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-desidentificacion" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La frase.</strong> Escribí una frase que empiece con «soy» y se refiera a una emoción o rol.</li><li><strong>El cambio.</strong> Reescribila con «hay una parte de mí que…».</li><li><strong>El que observa.</strong> ¿Qué notás ahora que no notabas antes?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="desidentificacion" data-lab-form-titulo="Soy una parte, no todo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-frase">Una frase que empieza con «soy»</label><input class="lab-campo" id="ds-frase" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-cambio">La misma frase con «hay una parte de mí que…»</label><input class="lab-campo" id="ds-cambio" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ds-notas">Qué noté al cambiarla</label><textarea class="lab-texto" id="ds-notas" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="niveles" aria-labelledby="t-niveles">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-niveles">Niveles de una experiencia</h2>
+      <p class="lab-estacion__bajada">Wilber propuso que la conciencia tiene niveles: prepersonal, personal y transpersonal. Grof describió, además, niveles biográfico, perinatal y transpersonal. Ubicar una experiencia ayuda a distinguirla. Leé sobre <a href="/recursos/ken-wilber/">Ken Wilber</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-niveles" data-escena-sync="#pasos-niveles">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-niveles-t escena-niveles-d"><title id="escena-niveles-t">Tres niveles</title>
+<rect data-paso="1" x="30" y="170" width="160" height="60" rx="10" class="esc-suave"/><text data-paso="1" x="110" y="206" text-anchor="middle" font-size="15">prepersonal</text>
+<rect data-paso="2" x="220" y="110" width="160" height="60" rx="10" class="esc-nodo"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="15">personal</text>
+<rect data-paso="3" x="410" y="50" width="160" height="60" rx="10" class="esc-calido"/><text data-paso="3" x="490" y="86" text-anchor="middle" font-size="15" class="esc-acento">transpersonal</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Prepersonal: instinto</li><li>Personal: el yo</li><li>Transpersonal: la apertura</li></ol><p class="escena__desc" id="escena-niveles-d">Una experiencia puede ser un reflejo instintivo, una emoción personal o una apertura que incluye al yo. Distinguirlas evita confundirlas.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-niveles" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La experiencia.</strong> Pensá en un momento reciente que te movió: una emoción, un silencio, una sensación de unidad.</li><li><strong>El nivel.</strong> ¿Era un impulso instintivo, una emoción del yo personal o una apertura que te incluía?</li><li><strong>La consecuencia.</strong> ¿Qué cambió después en vos? Anotalo.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="niveles-experiencia" data-lab-form-titulo="Niveles de una experiencia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ne-experiencia">Un momento reciente que me movió</label><textarea class="lab-texto" id="ne-experiencia" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ne-nivel">Qué nivel me parece que era</label><input class="lab-campo" id="ne-nivel" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ne-cambio">Qué cambió después</label><textarea class="lab-texto" id="ne-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="asombro" aria-labelledby="t-asombro">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-asombro">Un momento de asombro</h2>
+      <p class="lab-estacion__bajada">Maslow llamó experiencias cumbre a los momentos de plenitud en que la persona se siente fuera de sí, en unidad con algo más grande. Registrarlos ayuda a reconocerlos y a cultivarlos. Leé sobre <a href="/recursos/abraham-maslow/">Abraham Maslow</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-asombro" data-escena-sync="#pasos-asombro">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-asombro-t escena-asombro-d"><title id="escena-asombro-t">Hacia lo más amplio</title>
+<circle data-paso="1" cx="300" cy="150" r="30" class="esc-nodo"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="15">yo</text>
+<circle data-paso="2" cx="300" cy="150" r="90" class="esc-suave" stroke-dasharray="6 6"/>
+<circle data-paso="3" cx="300" cy="150" r="150" class="esc-calido" fill-opacity="0.2"/><text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">unidad</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Yo</li><li>Me abro</li><li>Unidad</li></ol><p class="escena__desc" id="escena-asombro-d">En un momento de asombro, el límite del yo se vuelve más suave. Registrar esos momentos ayuda a reconocerlos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-asombro" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Recordar.</strong> Pensá en un momento en que te sentiste fuera de vos: un paisaje, una música, un abrazo.</li><li><strong>Describir.</strong> ¿Qué viste, qué sentiste en el cuerpo, qué dejó de importar?</li><li><strong>Cultivar.</strong> ¿Qué podrías hacer esta semana para darle lugar a un momento así?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="asombro" data-lab-form-titulo="Un momento de asombro" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-momento">Un momento en que me sentí fuera de mí</label><textarea class="lab-texto" id="as-momento" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-descripcion">Qué sentí en el cuerpo y qué dejó de importar</label><textarea class="lab-texto" id="as-descripcion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-lugar">Qué puedo hacer esta semana para darle lugar</label><textarea class="lab-texto" id="as-lugar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Las prácticas transpersonales pueden remover emociones profundas o experiencias intensas. Si algo te angustia o te desorganiza, dejá el ejercicio y buscá acompañamiento. Las técnicas de respiración intensa, como la holotrópica, requieren facilitadores capacitados y no se practican solo. Leé <a href="/recursos/cuando-meditar-no-es-recomendable/">cuándo meditar no es recomendable</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Assagioli, R. (1965). <em>Psicosíntesis</em>.</li><li>Wilber, K. (1977). <em>El espectro de la conciencia</em>.</li><li>Grof, S. (1985). <em>Más allá del cerebro</em>.</li><li>Maslow, A. H. (1962). <em>El hombre autorrealizado</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

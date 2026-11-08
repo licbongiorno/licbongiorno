@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 280">
+<circle cx="300" cy="140" r="120" class="esc-suave"/>
+<circle cx="300" cy="140" r="82" class="esc-relleno"/>
+<circle cx="300" cy="140" r="44" class="esc-calido"/>
+<text x="300" y="30" text-anchor="middle" font-size="16">transpersonal</text>
+<text x="300" y="72" text-anchor="middle" class="esc-sans">perinatal</text>
+<text x="300" y="146" text-anchor="middle" font-size="15">biográfico</text>
+</svg>

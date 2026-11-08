@@ -1,0 +1,6 @@
+<svg viewBox="0 0 600 240">
+<rect x="30" y="90" width="160" height="70" rx="12" class="esc-suave"/><text x="110" y="128" text-anchor="middle" font-size="16">prepersonal</text>
+<rect x="220" y="90" width="160" height="70" rx="12" class="esc-nodo"/><text x="300" y="128" text-anchor="middle" font-size="16">personal</text>
+<rect x="410" y="90" width="160" height="70" rx="12" class="esc-calido"/><text x="490" y="128" text-anchor="middle" font-size="16" class="esc-acento">transpersonal</text>
+<text x="300" y="206" text-anchor="middle" class="esc-sans">el ego es una etapa, no el final</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 280">
+<circle cx="300" cy="140" r="44" class="esc-calido"/><text x="300" y="146" text-anchor="middle" font-size="16">yo</text>
+<circle cx="150" cy="70" r="30" class="esc-nodo"/><text x="150" y="76" text-anchor="middle" font-size="15">crítico</text>
+<circle cx="450" cy="70" r="30" class="esc-nodo"/><text x="450" y="76" text-anchor="middle" font-size="15">protector</text>
+<circle cx="150" cy="210" r="30" class="esc-nodo"/><text x="150" y="216" text-anchor="middle" font-size="15">niño</text>
+<circle cx="450" cy="210" r="30" class="esc-nodo"/><text x="450" y="216" text-anchor="middle" font-size="15">artista</text>
+<path class="esc-linea trazo-fig" pathLength="1" d="M180 92 L 264 122 M420 92 L 336 122 M180 188 L 264 158 M420 188 L 336 158"/>
+<text x="300" y="268" text-anchor="middle" class="esc-sans">subpersonalidades, todas con su lugar</text>
+</svg>

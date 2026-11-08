@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 240">
+<circle cx="90" cy="120" r="46" class="esc-nodo"/><text x="90" y="116" text-anchor="middle" font-size="16">Reich</text><text x="90" y="140" text-anchor="middle" class="esc-sans">coraza</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-pc)" d="M140 120 H 224"/>
+<circle cx="300" cy="120" r="46" class="esc-relleno"/><text x="300" y="116" text-anchor="middle" font-size="16">Lowen</text><text x="300" y="140" text-anchor="middle" class="esc-sans">suelo</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-pc)" d="M350 120 H 434"/>
+<circle cx="510" cy="120" r="46" class="esc-calido"/><text x="510" y="116" text-anchor="middle" font-size="16">Gendlin</text><text x="510" y="140" text-anchor="middle" class="esc-sans">sentido</text>
+<defs><marker id="pf-pc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<text x="300" y="210" text-anchor="middle" class="esc-sans">el cuerpo como camino de la terapia</text>
+</svg>

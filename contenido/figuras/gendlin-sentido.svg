@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 260">
+<rect x="30" y="90" width="150" height="80" rx="12" class="esc-nodo"/><text x="105" y="128" text-anchor="middle" font-size="16">lo que pasa</text>
+<path class="esc-linea trazo-fig" pathLength="1" d="M186 130 H 230"/>
+<circle cx="300" cy="130" r="56" class="esc-calido"/><text x="300" y="126" text-anchor="middle" font-size="16">sensación</text><text x="300" y="150" text-anchor="middle" class="esc-sans">sentida</text>
+<path class="esc-linea trazo-fig" pathLength="1" d="M360 130 H 404"/>
+<rect x="408" y="90" width="160" height="80" rx="40" class="esc-relleno"/><text x="488" y="128" text-anchor="middle" font-size="16">la palabra</text><text x="488" y="150" text-anchor="middle" class="esc-sans">que encaja</text>
+<text x="300" y="240" text-anchor="middle" class="esc-sans">se siente en el cuerpo antes de tener nombre</text>
+</svg>

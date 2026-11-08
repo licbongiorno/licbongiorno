@@ -1,0 +1,146 @@
+<!--{
+  "ruta": "/laboratorio-de-psicologia-corporal/",
+  "titulo": "Laboratorio de psicología corporal: Reich, Lowen y Gendlin",
+  "descripcion": "Ejercicios para sentir el apoyo del suelo, notar tus tensiones, escuchar la sensación sentida y aflojar la coraza, con Reich, Lowen y Gendlin.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Cuerpo",
+      "/laboratorio-de-psicologia-corporal/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>psicología corporal</em>",
+  "bajada": "Reich describió la coraza muscular, Lowen la llevó a la bioenergética y Gendlin enseñó a escuchar la sensación sentida. Cuatro prácticas para volver al cuerpo sin forzarlo.",
+  "respuesta": "El laboratorio de psicología corporal propone cuatro ejercicios inspirados en Wilhelm Reich, Alexander Lowen y Eugene Gendlin: sentir el apoyo del suelo, identificar dónde se acumula la tensión, escuchar una sensación sentida con la técnica del focusing y terminar con una práctica de descarga suave y de regreso a la calma.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de psicología corporal",
+  "articulos": [
+    "alexander-lowen",
+    "eugene-gendlin",
+    "wilhelm-reich"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay emociones que se notan primero en el cuerpo: un nudo, un peso, un calor. Reich, Lowen y Gendlin pusieron esa experiencia en el centro. Acá la llevamos a la práctica, sin necesidad de saber nada previo.</p>
+        <p>Son ejercicios suaves. Si en algún momento sentís angustia fuerte, detenete y apoyate en la respiración.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#suelo">Apoyarme en el suelo</a><a href="#coraza">Dónde guardo la tensión</a><a href="#sentido">Escuchar la sensación</a><a href="#calma">Aflojar y volver</a></nav>
+
+    <section class="lab-estacion revelar" id="suelo" aria-labelledby="t-suelo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-suelo">Apoyarme en el suelo</h2>
+      <p class="lab-estacion__bajada">Lowen decía que, para sentirse en contacto con uno mismo, primero hay que sentirse firme. Sentir los pies y el peso del cuerpo es la base. Leé sobre <a href="/recursos/alexander-lowen/">Alexander Lowen</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-suelo" data-escena-sync="#pasos-suelo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-suelo-t escena-suelo-d"><title id="escena-suelo-t">El apoyo del suelo</title>
+<path class="esc-linea trazo-escena" pathLength="1" d="M60 230 H 540"/><circle data-paso="1" cx="300" cy="90" r="30" class="esc-calido"/><text data-paso="1" x="300" y="96" text-anchor="middle" font-size="15">yo</text><path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M270 140 V 200 M330 140 V 200"/><text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">firme</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Me ubico en el cuerpo</li><li>Siento los pies</li><li>Me siento firme</li></ol><p class="escena__desc" id="escena-suelo-d">Sentir el apoyo debajo del cuerpo es una forma de estar presente. Desde ahí, la sensación se vuelve más clara.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-suelo" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos"><li><strong>Parar.</strong> De pie o sentado, con los pies en el piso. Cerrá los ojos si te sentís cómodo.</li><li><strong>Sentir.</strong> Empujá suavemente con los pies contra el piso y notá el peso del cuerpo.</li><li><strong>Firme.</strong> Quedate un minuto en esa sensación. ¿Qué cambió en la respiración?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="apoyo-suelo" data-lab-form-titulo="Apoyarme en el suelo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-sensacion">Cómo sentí mis pies y mi peso</label><textarea class="lab-texto" id="as-sensacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-cambio">Qué cambió en mi respiración</label><textarea class="lab-texto" id="as-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="coraza" aria-labelledby="t-coraza">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-coraza">Dónde guardo la tensión</h2>
+      <p class="lab-estacion__bajada">Reich describió la coraza muscular: tensiones crónicas que protegen de sentir ciertas emociones y que limitan la respiración. Notar dónde se acumulan ayuda a entender qué emoción se está conteniendo. Leé sobre <a href="/recursos/wilhelm-reich/">Wilhelm Reich</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-coraza" data-escena-sync="#pasos-coraza">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-coraza-t escena-coraza-d"><title id="escena-coraza-t">Tres zonas de tensión</title>
+<circle cx="300" cy="150" r="90" class="esc-suave"/><circle data-paso="1" cx="300" cy="80" r="16" class="esc-nodo"/><text data-paso="1" x="340" y="86" font-size="15">mandíbula</text><circle data-paso="2" cx="300" cy="150" r="16" class="esc-nodo"/><text data-paso="2" x="340" y="156" font-size="15">pecho</text><circle data-paso="3" cx="300" cy="220" r="16" class="esc-calido"/><text data-paso="3" x="340" y="226" font-size="15" class="esc-acento">abdomen</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>La mandíbula</li><li>El pecho</li><li>El abdomen</li></ol><p class="escena__desc" id="escena-coraza-d">Las tensiones suelen aparecer en las mismas zonas cada vez. Nombrarlas es el primer paso para aflojarlas sin pelearse con el cuerpo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-coraza" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Recorrer.</strong> Llevá la atención a la mandíbula, luego al pecho y luego al abdomen, sin cambiar nada.</li><li><strong>Notar.</strong> ¿Dónde hay tensión, dónde hay soltura? Anotá la zona más tensa.</li><li><strong>Preguntar.</strong> ¿Qué emoción podría estar contenida ahí? Escribila tal como surja, sin juzgarla.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="coraza" data-lab-form-titulo="Dónde guardo la tensión" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-zona">La zona más tensa</label><input class="lab-campo" id="co-zona" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-emocion">Qué emoción podría estar contenida</label><textarea class="lab-texto" id="co-emocion" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="sentido" aria-labelledby="t-sentido">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-sentido">Escuchar la sensación</h2>
+      <p class="lab-estacion__bajada">Gendlin llamó sensación sentida a un saber corporal que todavía no tiene palabras. El focusing consiste en darle espacio y esperar la palabra o la imagen que encaja. Leé sobre <a href="/recursos/eugene-gendlin/">Eugene Gendlin</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-sentido-corp" data-escena-sync="#pasos-sentido-corp">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-sentido-corp-t escena-sentido-corp-d"><title id="escena-sentido-corp-t">Del cuerpo a la palabra</title>
+<rect data-paso="1" x="30" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="105" y="146" text-anchor="middle" font-size="16">algo que pesa</text>
+<circle data-paso="2" cx="300" cy="150" r="48" class="esc-calido"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">sensación</text>
+<rect data-paso="3" x="410" y="110" width="160" height="80" rx="40" class="esc-relleno"/><text data-paso="3" x="490" y="146" text-anchor="middle" font-size="16">la palabra</text><text data-paso="3" x="490" y="172" text-anchor="middle" class="esc-sans">que encaja</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Algo que pesa</li><li>La sensación</li><li>La palabra que encaja</li></ol><p class="escena__desc" id="escena-sentido-corp-d">La sensación sentida aparece antes que la palabra. Cuando llega la palabra adecuada, la sensación suele cambiar.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-sentido-corp" data-lab-pasos data-lab-pasos-segundos="90">
+        <ol class="lab-pasos"><li><strong>Un tema.</strong> Pensá en algo que te preocupa, sin buscar la respuesta.</li><li><strong>Sentir.</strong> Buscá en el cuerpo dónde está esa preocupación. Dejá que aparezca una sensación.</li><li><strong>Palabra.</strong> Preguntá a esa sensación cómo es. Esperá la palabra o la imagen que encaje.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sensacion-sentida" data-lab-form-titulo="Escuchar la sensación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ss-tema">El tema que elegí</label><input class="lab-campo" id="ss-tema" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ss-sensacion">Dónde la sentí y cómo es</label><textarea class="lab-texto" id="ss-sensacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ss-palabra">La palabra o la imagen que encajó</label><textarea class="lab-texto" id="ss-palabra" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="calma" aria-labelledby="t-calma">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-calma">Aflojar y volver</h2>
+      <p class="lab-estacion__bajada">Después de notar la tensión, conviene terminar con una práctica de soltura. Lowen y Reich hablaron de descargar la energía acumulada; hoy se usa sobre todo para volver a la calma y no para forzar emociones. Leé sobre <a href="/recursos/psicologia-corporal/">la psicología corporal</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-calma-corp" data-escena-sync="#pasos-calma-corp">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-calma-corp-t escena-calma-corp-d"><title id="escena-calma-corp-t">De la tensión a la calma</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-calido"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">tensión</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-cal)" d="M196 150 H 264"/><circle data-paso="2" cx="330" cy="150" r="56" class="esc-relleno"/><text data-paso="2" x="330" y="156" text-anchor="middle" font-size="15">soltura</text>
+<circle data-paso="3" cx="500" cy="150" r="46" class="esc-nodo"/><text data-paso="3" x="500" y="156" text-anchor="middle" font-size="15">calma</text>
+<defs><marker id="pf-cal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Tensión</li><li>Soltura</li><li>Calma</li></ol><p class="escena__desc" id="escena-calma-corp-d">Aflojar no es forzar. Es dejar que el cuerpo vuelva a un ritmo más amplio, con la respiración como guía.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-calma-corp" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos"><li><strong>Tensar y soltar.</strong> Apretá suavemente las manos durante cinco segundos y soltalas. Repetí dos veces.</li><li><strong>Respirar.</strong> Inhalá por la nariz y exhalá más largo, como si soltaras aire por la boca.</li><li><strong>Volver.</strong> Quedate un minuto en la calma. Anotá cómo estás.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="aflojar" data-lab-form-titulo="Aflojar y volver" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="af-como">Cómo estoy después de aflojar</label><textarea class="lab-texto" id="af-como" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El trabajo corporal puede movilizar emociones o recuerdos. No fuerces ninguna postura ni movimiento que te duela. Si algo te desborda, parate, apoyá los pies en el piso y respirá despacio. Si lo que aparece es muy intenso o se repite, buscá acompañamiento profesional. Podés leer <a href="/recursos/cuando-meditar-no-es-recomendable/">cuándo meditar no es recomendable</a>, que sirve también para estas prácticas.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Reich, W. (1933). <em>Análisis del carácter</em>.</li><li>Lowen, A. (1958). <em>El lenguaje del cuerpo</em>.</li><li>Gendlin, E. T. (1978). <em>Focusing</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

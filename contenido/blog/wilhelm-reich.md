@@ -59,6 +59,8 @@ Es el método que Reich desarrolló para analizar no solo lo que el paciente dic
 
 Fue uno de sus analistas en Berlín y el que Perls consideraba más importante. Su atención al cuerpo influyó en la terapia Gestalt.
 
+Para practicarlo, probá el [Laboratorio de psicología corporal](/laboratorio-de-psicologia-corporal/).
+
 ## Para seguir leyendo
 
 - Reich, W. (1933). *Análisis del carácter*.

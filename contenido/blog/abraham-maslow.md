@@ -59,6 +59,8 @@ Es el desarrollo pleno de las propias posibilidades. Para Maslow, las personas a
 
 Son momentos intensos de plenitud, asombro o unidad, que pueden aparecer ante la naturaleza, el arte o el amor, y que dejan una huella duradera.
 
+Para practicarlo, probá el [Laboratorio de psicología transpersonal](/laboratorio-de-psicologia-transpersonal/).
+
 ## Para seguir leyendo
 
 - Maslow, A. H. (1943). «A Theory of Human Motivation». *Psychological Review*.

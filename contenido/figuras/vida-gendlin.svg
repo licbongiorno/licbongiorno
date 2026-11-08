@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 242">
+<line x1="110" y1="34" x2="110" y2="208" class="esc-suave"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M110 34 V 208"/>
+<g class="hito" style="--i:0"><circle cx="110" cy="34" r="7" class="esc-nodo"/><text x="88" y="40" text-anchor="end" font-size="17" class="esc-anio">1926</text><text x="134" y="40" font-size="17">Nace</text></g>
+<g class="hito" style="--i:1"><circle cx="110" cy="92" r="7" class="esc-nodo"/><text x="88" y="98" text-anchor="end" font-size="17" class="esc-anio">1950</text><text x="134" y="98" font-size="17">Trabaja con Carl Rogers</text></g>
+<g class="hito" style="--i:2"><circle cx="110" cy="150" r="7" class="esc-nodo"/><text x="88" y="156" text-anchor="end" font-size="17" class="esc-anio">1978</text><text x="134" y="156" font-size="17">Publica Focusing</text></g>
+<g class="hito" style="--i:3"><circle cx="110" cy="208" r="7" class="esc-punto"/><text x="88" y="214" text-anchor="end" font-size="17" class="esc-anio">2017</text><text x="134" y="214" font-size="17">Muere</text></g>
+</svg>

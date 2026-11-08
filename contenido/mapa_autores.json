@@ -43,6 +43,14 @@
   {
    "id": "des",
    "nombre": "Desarrollo y apego"
+  },
+  {
+   "id": "cor",
+   "nombre": "Psicología corporal"
+  },
+  {
+   "id": "trans",
+   "nombre": "Psicología transpersonal"
   }
  ],
  "tipos": {
@@ -706,6 +714,46 @@
    "x": 1870,
    "escuela": "ori",
    "resumen": "El zen, el koan y el satori, en diálogo con el psicoanálisis."
+  },
+  {
+   "slug": "alexander-lowen",
+   "corto": "Lowen",
+   "anios": "1910–2008",
+   "x": 1910,
+   "escuela": "cor",
+   "resumen": "Bioenergética: el cuerpo como lenguaje de la personalidad."
+  },
+  {
+   "slug": "eugene-gendlin",
+   "corto": "Gendlin",
+   "anios": "1926–2017",
+   "x": 1926,
+   "escuela": "cor",
+   "resumen": "Focusing: escuchar la sensación sentida."
+  },
+  {
+   "slug": "stanislav-grof",
+   "corto": "Grof",
+   "anios": "n. 1931",
+   "x": 1931,
+   "escuela": "trans",
+   "resumen": "Niveles biográfico, perinatal y transpersonal; respiración holotrópica."
+  },
+  {
+   "slug": "ken-wilber",
+   "corto": "Wilber",
+   "anios": "n. 1949",
+   "x": 1949,
+   "escuela": "trans",
+   "resumen": "El espectro de la conciencia y la teoría integral."
+  },
+  {
+   "slug": "roberto-assagioli",
+   "corto": "Assagioli",
+   "anios": "1888–1974",
+   "x": 1888,
+   "escuela": "trans",
+   "resumen": "Psicosíntesis y subpersonalidades."
   }
  ],
  "relaciones": [
@@ -1356,6 +1404,30 @@
    "a": "karen-horney",
    "tipo": "influencia",
    "nota": "el viaje a Japón de 1952"
+  },
+  {
+   "de": "wilhelm-reich",
+   "a": "alexander-lowen",
+   "tipo": "formacion",
+   "nota": "Lowen fue alumno de Reich en los años cuarenta"
+  },
+  {
+   "de": "carl-rogers",
+   "a": "eugene-gendlin",
+   "tipo": "formacion",
+   "nota": "Gendlin trabajó con Rogers en el estudio de las sesiones"
+  },
+  {
+   "de": "otto-rank",
+   "a": "stanislav-grof",
+   "tipo": "influencia",
+   "nota": "la teoría del trauma del nacimiento"
+  },
+  {
+   "de": "abraham-maslow",
+   "a": "stanislav-grof",
+   "tipo": "dialogo",
+   "nota": "el nombre de la psicología transpersonal, 1967"
   }
  ]
 }

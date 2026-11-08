@@ -716,6 +716,8 @@
 .mapa-nodo__punto--cc { fill: var(--piedra-oscura); }
 .mapa-nodo__punto--sis { fill: var(--piedra); }
 .mapa-nodo__punto--des { fill: var(--arena-2); stroke: var(--piedra-oscura); }
+.mapa-nodo__punto--cor { fill: var(--salvia); stroke: var(--bosque); }
+.mapa-nodo__punto--trans { fill: var(--terracota); stroke: var(--piedra-oscura); }
 .mapa-nodo__nombre { font-family: var(--f-sans); font-size: 13px; fill: var(--tinta); transition: opacity .3s; }
 .mapa-nodo:hover .mapa-nodo__punto, .mapa-nodo:focus-visible .mapa-nodo__punto { transform: scale(1.35); }
 /* Selección: lo relacionado se destaca, el resto se atenúa */

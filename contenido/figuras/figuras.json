@@ -948,5 +948,77 @@
    "Practicar en el laboratorio de sueños",
    "/laboratorio-de-suenos/"
   ]
+ },
+ "vida-lowen": {
+  "titulo": "La vida de Alexander Lowen",
+  "desc": "Alumno de Reich, creó la bioenergética: el cuerpo como lenguaje de la personalidad."
+ },
+ "vida-gendlin": {
+  "titulo": "La vida de Eugene Gendlin",
+  "desc": "Filósofo y psicólogo, discípulo de Carl Rogers, creador del focusing."
+ },
+ "vida-grof": {
+  "titulo": "La vida de Stanislav Grof",
+  "desc": "Psiquiatra checo, investigador de los estados no ordinarios de conciencia y creador de la respiración holotrópica."
+ },
+ "vida-wilber": {
+  "titulo": "La vida de Ken Wilber",
+  "desc": "Escritor estadounidense, autor de El espectro de la conciencia y de la teoría integral."
+ },
+ "vida-assagioli": {
+  "titulo": "La vida de Roberto Assagioli",
+  "desc": "Psiquiatra italiano de Venecia, creador de la psicosíntesis."
+ },
+ "lowen-suelo": {
+  "titulo": "Apoyarse en el suelo",
+  "desc": "Para Lowen, sentir los pies y el apoyo del cuerpo es la base para sentirse en contacto con uno mismo y con la realidad.",
+  "enlace": [
+   "Practicar en el laboratorio de psicología corporal",
+   "/laboratorio-de-psicologia-corporal/"
+  ]
+ },
+ "gendlin-sentido": {
+  "titulo": "La sensación sentida",
+  "desc": "Gendlin llamó sensación sentida a un saber corporal, difuso, que todavía no tiene palabras. Cuando aparece la palabra o la imagen que encaja, algo se mueve por dentro.",
+  "enlace": [
+   "Practicar en el laboratorio de psicología corporal",
+   "/laboratorio-de-psicologia-corporal/"
+  ]
+ },
+ "grof-niveles": {
+  "titulo": "Tres niveles de la experiencia",
+  "desc": "Grof describió niveles de la experiencia: el biográfico, el perinatal, asociado al nacimiento y a la muerte, y el transpersonal, que trasciende los límites del yo, el tiempo y el espacio."
+ },
+ "wilber-espectro": {
+  "titulo": "El espectro de la conciencia",
+  "desc": "Wilber propuso un espectro de niveles: prepersonal, personal y transpersonal. Según Wilber, lo transpersonal incluye al yo personal, no lo anula.",
+  "enlace": [
+   "Practicar en el laboratorio de psicología transpersonal",
+   "/laboratorio-de-psicologia-transpersonal/"
+  ]
+ },
+ "assagioli-subpersonalidades": {
+  "titulo": "Subpersonalidades y desidentificación",
+  "desc": "Assagioli describió que la personalidad está formada por partes semiautónomas, cada una con su propia mirada. El yo puede reconocerlas sin confundirse con ninguna.",
+  "enlace": [
+   "Practicar en el laboratorio de psicología transpersonal",
+   "/laboratorio-de-psicologia-transpersonal/"
+  ]
+ },
+ "psicologia-corporal-linea": {
+  "titulo": "De Reich a Gendlin",
+  "desc": "Reich puso el cuerpo en el centro de la terapia, Lowen lo llevó a la bioenergética y Gendlin lo acercó a la palabra con el focusing.",
+  "enlace": [
+   "Ir al laboratorio de psicología corporal",
+   "/laboratorio-de-psicologia-corporal/"
+  ]
+ },
+ "psicologia-transpersonal-niveles": {
+  "titulo": "Niveles de la conciencia",
+  "desc": "La psicología transpersonal estudia experiencias que van más allá del yo personal. Wilber las ubicó como una etapa del desarrollo, no como un atajo.",
+  "enlace": [
+   "Ir al laboratorio de psicología transpersonal",
+   "/laboratorio-de-psicologia-transpersonal/"
+  ]
  }
 }
