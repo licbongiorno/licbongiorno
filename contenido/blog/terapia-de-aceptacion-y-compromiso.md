@@ -38,7 +38,7 @@ La ACT trabaja con seis procesos que se suelen dibujar como un hexágono:
 
 En 2008, Kevin Polk y Mark Webster crearon una herramienta sencilla para trabajar estas ideas: la **matriz ACT**. Dos ejes dividen la experiencia en cuatro cuadrantes: lo que vivimos adentro y lo que hacemos afuera, y lo que nos aleja o nos acerca a lo que nos importa. Ayuda a ver, de un vistazo, cómo ciertos pensamientos terminan decidiendo nuestras acciones.
 
-Podés probarla, junto con otros ejercicios, en el [laboratorio de aceptación y compromiso](/laboratorio-act/).
+Podés probarla, junto con otros ejercicios, en el [laboratorio de aceptación y compromiso](/laboratorio-act/). Y si lo que te pasa son pensamientos que dan vueltas, hay más ejercicios de defusión en el [laboratorio de pensamientos que se repiten](/laboratorio-de-pensamientos-repetitivos/).
 
 ## Qué dice la investigación
 

@@ -345,6 +345,8 @@ LABORATORIOS = [
      "descripcion": "Diez técnicas guiadas, de la cuadrada a la alterna por fosas nasales, con su sentido psicológico y sus precauciones."},
     {"titulo": "Laboratorio de meditación", "ruta": "/laboratorio-de-meditacion/", "tipo": "Meditación",
      "descripcion": "Nueve prácticas de Oriente y Occidente: zazen, vipassana, metta, relajación progresiva, un mandala y más."},
+    {"titulo": "Laboratorio de pensamientos que se repiten", "ruta": "/laboratorio-de-pensamientos-repetitivos/", "tipo": "Defusión",
+     "descripcion": "Diez ejercicios para la rumiación: detectar el bucle, tomar distancia de los pensamientos, del por qué al cómo y salir."},
     {"titulo": "Laboratorio de mindfulness", "ruta": "/laboratorio-de-mindfulness/", "tipo": "Atención plena",
      "descripcion": "Diez prácticas del MBSR y el MBCT para la vida diaria: la pasa, el espacio de respiración, surfear el impulso, RAIN y más."},
     {"titulo": "Laboratorio Gestalt", "ruta": "/laboratorio-gestalt/", "tipo": "Gestalt",
@@ -380,7 +382,7 @@ TEMAS_LAB = {
     "/laboratorio-de-habilidades-dbt/": "Emociones", "/laboratorio-de-flexibilidad-yoica/": "Jung y autoconocimiento",
     "/laboratorio-de-emociones/": "Emociones", "/laboratorio-de-presencia/": "Cuerpo y respiración",
     "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
-    "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones",
+    "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones", "/laboratorio-de-pensamientos-repetitivos/": "Emociones",
     "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones",
     "/laboratorio-de-sombra-y-arquetipos/": "Jung y autoconocimiento", "/laboratorio-de-estres/": "Cuerpo y respiración",
     "/laboratorio-de-descanso/": "Cuerpo y respiración", "/laboratorio-de-habitos/": "Aprendizaje y cambio",
@@ -418,9 +420,9 @@ def bloque_laboratorios():
 
 # Guía «¿Por dónde empiezo?»: tema → página de motivo, artículos y laboratorios sugeridos.
 GUIA = [
-    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-respiraciones/"]),
+    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-respiraciones/"]),
     ("panico", "Ataques de pánico", "/ansiedad-y-ataques-de-panico/", ["ataque-de-panico-que-hacer", "respiracion-y-emociones"], ["/laboratorio-de-presencia/"]),
-    ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
+    ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
     ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego"], ["/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
     ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma"], ["/laboratorio-sistemico/"]),
     ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia"], ["/laboratorio-de-duelo/"]),

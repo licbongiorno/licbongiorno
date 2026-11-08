@@ -43,7 +43,7 @@ La ACT trabaja seis procesos que juntos forman la **flexibilidad psicológica**:
 
 La ACT tiene evidencia de eficacia para la ansiedad, la depresión, el dolor crónico y muchos otros problemas, y su lenguaje —valores, aceptación, defusión— se volvió parte de la psicoterapia contemporánea. Su mirada se acerca, desde la ciencia de la conducta, a ideas que también aparecen en el mindfulness y en algunas tradiciones contemplativas.
 
-En la consulta, la pregunta por los valores y la idea de hacer lugar a lo difícil en vez de pelear con ello me resultan muy útiles. Podés practicar en el [laboratorio ACT](/laboratorio-act/) o en el de [flexibilidad](/laboratorio-de-flexibilidad-yoica/).
+En la consulta, la pregunta por los valores y la idea de hacer lugar a lo difícil en vez de pelear con ello me resultan muy útiles. Podés practicar en el [laboratorio ACT](/laboratorio-act/), en el de [pensamientos que se repiten](/laboratorio-de-pensamientos-repetitivos/), donde está la metáfora de los pasajeros del colectivo, o en el de [flexibilidad](/laboratorio-de-flexibilidad-yoica/).
 
 ## Preguntas frecuentes
 

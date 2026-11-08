@@ -1,0 +1,257 @@
+<!--{
+  "ruta": "/laboratorio-de-pensamientos-repetitivos/",
+  "titulo": "Laboratorio de pensamientos que se repiten: defusión",
+  "descripcion": "Ejercicios para pensamientos que dan vueltas: detectar el bucle, tomar distancia (defusión), del por qué al cómo, mirar sin engancharse y salir.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Pensamientos que se repiten", "/laboratorio-de-pensamientos-repetitivos/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>pensamientos que se repiten</em>",
+  "bajada": "Diez ejercicios para cuando la cabeza da vueltas sobre lo mismo: reconocer el bucle, tomar distancia de los pensamientos y salir. Basados en la terapia de aceptación y compromiso, la terapia metacognitiva y el trabajo sobre la rumiación.",
+  "respuesta": "El laboratorio de pensamientos que se repiten propone diez ejercicios para la rumiación y la preocupación: detectar si uno está en un bucle, ponerle nombre a la historia, la técnica «estoy teniendo el pensamiento de que», repetir una palabra hasta que pierda sentido, ver el pensamiento en pantalla, la metáfora de los pasajeros del colectivo, pasar del por qué al cómo, el mindfulness desapegado, cambiar de canal y un registro de bucles. No reemplaza un tratamiento.",
+  "scripts": ["lab-base.js", "escenas.js", "laboratorio-pensamientos.js"],
+  "wa_tema": "el laboratorio de pensamientos que se repiten",
+  "articulos": ["terapia-de-aceptacion-y-compromiso", "ansiedad-cuando-el-cuerpo-habla", "steven-c-hayes"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Estos ejercicios ayudan con la rumiación y la preocupación de todos los días. No reemplazan un tratamiento. Si los pensamientos te generan mucha angustia y te llevan a repetir rituales para calmarte, o si son pensamientos de hacerte daño, pedí ayuda: podés <a href="/contacto/">escribirme</a> o mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>No, no es que tengas que dejar de pensar. Nadie puede apagar la mente, y pelearse con un pensamiento suele hacerlo más fuerte. Lo que sí se puede aprender es otra cosa: darte cuenta de que estás dando vueltas, tomar un poco de distancia de lo que la mente dice y elegir qué hacer después.</p>
+        <p>A eso, en la terapia de aceptación y compromiso, se lo llama <strong>defusión</strong>: dejar de estar fundido con un pensamiento y verlo como lo que es, algo que la mente produce. Más en <a href="/recursos/terapia-de-aceptacion-y-compromiso/">la terapia de aceptación y compromiso</a> y en el <a href="/laboratorio-act/">laboratorio ACT</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>No discutir.</strong> La idea no es ganarle al pensamiento, sino soltarlo.</li>
+        <li><strong>Darse cuenta.</strong> Notar el bucle ya es la mitad del camino.</li>
+        <li><strong>Sin registro.</strong> Todo queda en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#bucle">¿Es un bucle?</a>
+      <a href="#historia">Ponerle nombre</a>
+      <a href="#distancia">Tomar distancia</a>
+      <a href="#palabra">La palabra</a>
+      <a href="#pantalla">En pantalla</a>
+      <a href="#colectivo">El colectivo</a>
+      <a href="#como">Del por qué al cómo</a>
+      <a href="#desapego">Sin engancharse</a>
+      <a href="#canal">Cambiar de canal</a>
+      <a href="#registro">Registro</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="bucle" aria-labelledby="t-bucle">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-bucle">¿Estoy en un bucle?</h2>
+      <p class="lab-estacion__bajada">No todo pensar es rumiar. Pensar un problema avanza: aparecen ideas, opciones, decisiones. Rumiar da vueltas. Marcá lo que te pasa ahora con ese pensamiento.</p>
+<figure class="escena revelar" data-escena id="escena-bucle" >
+  <svg viewBox="40 10 560 280" role="img" aria-labelledby="escena-bucle-t escena-bucle-d"><title id="escena-bucle-t">El bucle de un pensamiento que se repite</title>
+<circle cx="220" cy="150" r="90" class="esc-suave"/>
+<path data-paso="1" class="esc-linea trazo-escena" pathLength="1" d="M220 60 A 90 90 0 1 1 219.9 60"/>
+<g data-paso="1" class="esc-giro"><circle cx="220" cy="60" r="9" class="esc-punto"/></g>
+<text data-paso="1" x="220" y="146" text-anchor="middle" font-size="17">otra vez</text>
+<text data-paso="1" x="220" y="172" text-anchor="middle" class="esc-sans">¿por qué…?</text>
+<circle data-paso="2" cx="305" cy="118" r="11" class="esc-calido"/>
+<text data-paso="2" x="322" y="96" font-size="17" class="esc-acento">me doy cuenta</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M310 128 C 370 160, 430 170, 520 170"/>
+<text data-paso="3" x="560" y="200" text-anchor="end" font-size="17">salgo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Da vueltas</li><li>Me doy cuenta</li><li>Salgo del bucle</li></ol><p class="escena__desc" id="escena-bucle-d">Un pensamiento que se repite gira sobre sí mismo sin llegar a ningún lado. El primer paso para salir no es discutirlo, sino darse cuenta de que uno está dando vueltas. Desde ahí se abre una salida.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" data-bucle>
+        <ul class="bucle__senales">
+          <li><label><input type="checkbox" value="vuelve"> <span>El mismo pensamiento vuelve una y otra vez.</span></label></li>
+          <li><label><input type="checkbox" value="nada"> <span>No aparece nada nuevo: ni ideas ni opciones.</span></label></li>
+          <li><label><input type="checkbox" value="porque"> <span>Me hago preguntas de «por qué» que no tienen respuesta.</span></label></li>
+          <li><label><input type="checkbox" value="animo"> <span>Mientras más lo pienso, peor me siento.</span></label></li>
+          <li><label><input type="checkbox" value="decision"> <span>Pasa el tiempo y no tomo ninguna decisión.</span></label></li>
+        </ul>
+        <div class="bucle__medidor" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+        <p class="lab-paso__ayuda bucle__resultado" role="status" data-bucle-resultado>Marcá las señales que reconocés.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="historia" aria-labelledby="t-historia">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-historia">Ponerle nombre a la historia</h2>
+      <p class="lab-estacion__bajada">Los pensamientos que se repiten suelen contar siempre la misma historia. Ponerle un título ayuda a reconocerla cuando vuelve: «Ah, otra vez la historia de “no alcanzo”».</p>
+      <div class="lab-tarjeta" data-historia>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hi-titulo">¿Cómo se llama tu historia?</label><input class="lab-campo" id="hi-titulo" type="text" autocomplete="off" placeholder="no alcanzo, me van a dejar, todo sale mal…"></div>
+        <p class="historia__frase" data-historia-frase aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-historia-volvio>Volvió la historia</button><button class="boton boton--secundario boton--chico" type="button" data-historia-reiniciar>Empezar de nuevo</button></div>
+        <p class="lab-paso__ayuda" role="status" data-historia-cuenta></p>
+        <p class="lab-nota">Cada vez que vuelva, tocá el botón y decí por dentro: «Ah, la historia de…». No hace falta discutirla. Se guarda solo en este dispositivo.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="distancia" aria-labelledby="t-distancia">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-distancia">«Estoy teniendo el pensamiento de que…»</h2>
+      <p class="lab-estacion__bajada">Una técnica de la terapia de aceptación y compromiso. El pensamiento no cambia, pero cambia tu relación con él: deja de ser un hecho y pasa a ser algo que tu mente dice.</p>
+      <div class="lab-tarjeta" data-capas>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cp-texto">Escribí el pensamiento tal como aparece</label><input class="lab-campo" id="cp-texto" type="text" autocomplete="off" placeholder="soy un fracaso"></div>
+        <div class="capas__vista" data-capas-vista data-nivel="0"><p class="capas__texto" data-capas-texto aria-live="polite">soy un fracaso</p></div>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-capas-mas>Tomar distancia</button><button class="boton boton--secundario boton--chico" type="button" data-capas-volver>Volver al principio</button></div>
+        <p class="lab-nota">Leé cada versión despacio y notá si cambia algo en el cuerpo.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="palabra" aria-labelledby="t-palabra">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-palabra">La palabra que se gasta</h2>
+      <p class="lab-estacion__bajada">Un ejercicio clásico, que la terapia de aceptación y compromiso tomó del psicólogo Edward Titchener: repetir una palabra en voz alta, rápido, durante medio minuto. Al rato deja de significar y queda solo el sonido.</p>
+      <div class="lab-tarjeta" data-gastar>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ga-palabra">Elegí una palabra que te pese (una sola)</label><input class="lab-campo" id="ga-palabra" type="text" autocomplete="off" placeholder="fracaso"></div>
+        <p class="lab-reloj" data-gastar-reloj aria-live="off">0:30</p>
+        <div class="gastar__vista" data-gastar-vista aria-hidden="true"></div>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-gastar-empezar>Empezar 30 segundos</button><button class="boton boton--secundario boton--chico" type="button" data-gastar-frenar>Frenar</button></div>
+        <p class="lab-paso__ayuda" role="status" data-gastar-estado>Repetila en voz alta, rápido, mientras corre el reloj.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="pantalla" aria-labelledby="t-pantalla">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-pantalla">El pensamiento en pantalla</h2>
+      <p class="lab-estacion__bajada">Escribí el pensamiento y miralo de otras maneras. No es para burlarte de lo que sentís, sino para ver que es un pensamiento: algo que se puede leer, escuchar o mirar de lejos.</p>
+      <div class="lab-tarjeta" data-pantalla>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pn-texto">Tu pensamiento</label><input class="lab-campo" id="pn-texto" type="text" autocomplete="off" placeholder="nadie me quiere"></div>
+        <div class="pantalla__marco"><p class="pantalla__vista" data-pantalla-vista data-modo="normal" aria-live="polite">nadie me quiere</p></div>
+        <div class="opciones" role="group" aria-label="Formas de mirarlo">
+          <button class="opcion-boton" type="button" data-modo="subtitulo" aria-pressed="false">Como subtítulo</button>
+          <button class="opcion-boton" type="button" data-modo="marquesina" aria-pressed="false">En la marquesina</button>
+          <button class="opcion-boton" type="button" data-modo="cantado" aria-pressed="false">Cantado</button>
+          <button class="opcion-boton" type="button" data-modo="lejos" aria-pressed="false">Desde lejos</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="colectivo" aria-labelledby="t-colectivo">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-colectivo">Los pasajeros del colectivo</h2>
+      <p class="lab-estacion__bajada">Una metáfora de Steven Hayes, el creador de la terapia de aceptación y compromiso. Los pensamientos difíciles no se van porque los echemos, pero no tienen por qué manejar.</p>
+<figure class="escena revelar" data-escena id="escena-colectivo" data-escena-sync="#pasos-colectivo">
+  <svg viewBox="0 0 600 270" role="img" aria-labelledby="escena-colectivo-t escena-colectivo-d"><title id="escena-colectivo-t">Los pasajeros del colectivo</title>
+<line x1="20" y1="214" x2="580" y2="214" class="esc-suave"/>
+<g data-paso="1"><path d="M540 214 V 150" class="esc-linea"/><path d="M540 150 L 572 162 L 540 174 Z" class="esc-calido"/>
+<text x="575" y="136" text-anchor="end" font-size="16" class="esc-acento">lo que importa</text></g>
+<g data-paso="1" class="esc-colectivo">
+<rect x="130" y="138" width="180" height="66" rx="12" class="esc-relleno"/>
+<rect x="146" y="150" width="34" height="24" rx="4" class="esc-nodo"/><rect x="190" y="150" width="34" height="24" rx="4" class="esc-nodo"/><rect x="234" y="150" width="34" height="24" rx="4" class="esc-nodo"/>
+<circle cx="292" cy="162" r="10" class="esc-calido"/>
+<circle cx="160" cy="210" r="11" class="esc-nodo"/><circle cx="280" cy="210" r="11" class="esc-nodo"/>
+<g data-paso="2"><circle cx="163" cy="160" r="7" class="esc-punto"/><circle cx="207" cy="160" r="7" class="esc-punto"/><circle cx="251" cy="160" r="7" class="esc-punto"/></g>
+</g>
+<g data-paso="3"><text x="30" y="40" font-size="16">«¡Doblá!»</text><text x="30" y="70" font-size="16">«¡Pará acá!»</text><text x="30" y="100" font-size="16">«¡No vas a poder!»</text></g>
+<text data-paso="4" x="300" y="258" text-anchor="middle" font-size="16" class="esc-acento">los escucho y sigo manejando</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Vas manejando</li><li>Suben pasajeros</li><li>Gritan</li><li>Los escuchás</li><li>Seguís el rumbo</li></ol><p class="escena__desc" id="escena-colectivo-d">Vos manejás el colectivo de tu vida, en la dirección de lo que te importa. Los pensamientos difíciles son pasajeros que suben y gritan. No hace falta bajarlos ni obedecerlos: podés escucharlos y seguir manejando. La escena acompaña los pasos de abajo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-colectivo" data-lab-pasos data-lab-pasos-segundos="20">
+        <ol class="lab-pasos">
+          <li><strong>Vas manejando.</strong> Imaginá que manejás un colectivo en la dirección de algo que te importa: un vínculo, un proyecto, cuidarte.</li>
+          <li><strong>Suben pasajeros.</strong> En el camino suben pasajeros: tus pensamientos y recuerdos difíciles.</li>
+          <li><strong>Gritan.</strong> Te gritan que dobles, que pares, que no vas a poder. Escuchá qué dicen los tuyos.</li>
+          <li><strong>Los escuchás.</strong> No hace falta bajarlos ni pelearte con ellos. Podés decir: «Los escucho».</li>
+          <li><strong>Seguís el rumbo.</strong> Y seguís manejando hacia lo que te importa, con ellos a bordo.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="como" aria-labelledby="t-como">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-como">Del «por qué» al «cómo»</h2>
+      <p class="lab-estacion__bajada">La investigación sobre la rumiación muestra que las preguntas abstractas («¿por qué me pasa esto?») alimentan el bucle, y que las concretas («¿qué pasó?, ¿qué hago ahora?») ayudan a salir. Este formulario hace ese cambio.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="del-por-que-al-como" data-lab-form-titulo="Del por qué al cómo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-porque"><span>1</span>¿Qué me pregunto una y otra vez?</label><textarea class="lab-texto" id="co-porque" rows="2" placeholder="¿Por qué siempre me pasa lo mismo?"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-que"><span>2</span>¿Qué pasó exactamente, paso a paso, como lo contaría una cámara?</label><textarea class="lab-texto" id="co-que" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-depende"><span>3</span>¿Qué parte depende de mí?</label><textarea class="lab-texto" id="co-depende" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-paso"><span>4</span>¿Cuál es el próximo paso pequeño, y cuándo lo hago?</label><textarea class="lab-texto" id="co-paso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-otro"><span>5</span>¿Qué le diría a alguien que quiero si estuviera en mi lugar?</label><textarea class="lab-texto" id="co-otro" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="desapego" aria-labelledby="t-desapego">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-desapego">Mirar sin engancharse</h2>
+      <p class="lab-estacion__bajada">Un ejercicio de la terapia metacognitiva de Adrian Wells, el «mindfulness desapegado». No se trata de vaciar la mente, sino de dejar que un pensamiento esté ahí sin hacer nada con él.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Un tigre.</strong> Imaginá un tigre. No hagas nada con la imagen: solo mirala.</li>
+          <li><strong>Se mueve solo.</strong> Notá que el tigre se mueve, se echa o camina, sin que lo dirijas. La imagen tiene vida propia.</li>
+          <li><strong>Tu pensamiento.</strong> Ahora traé el pensamiento que se repite. Dejalo ahí, como al tigre.</li>
+          <li><strong>Sin empujar.</strong> No lo discutas, no lo analices, no intentes sacarlo. Tampoco lo sigas.</li>
+          <li><strong>Desde afuera.</strong> Notá que podés verlo desde un poco más atrás. Vos lo estás mirando: no sos el pensamiento.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="canal" aria-labelledby="t-canal">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-canal">Cambiar de canal</h2>
+      <p class="lab-estacion__bajada">Cuando ya te diste cuenta del bucle, a veces ayuda darle a la atención algo concreto que hacer durante cinco minutos. No es escapar de lo que sentís: es no seguir dándole vueltas.</p>
+      <div class="lab-tarjeta" data-lab-azar="canales">
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">10</p>
+      <h2 id="t-registro">Registro de bucles</h2>
+      <p class="lab-estacion__bajada">Anotar los bucles durante una semana ayuda a ver patrones: a qué hora aparecen, qué los dispara y qué te ayuda a salir.</p>
+      <div class="lab-tarjeta" data-registro-bucles>
+        <div class="calendario__campos">
+          <div><label for="rb-tema">El tema</label><input class="lab-campo" id="rb-tema" type="text" autocomplete="off"></div>
+          <div><label for="rb-disparo">Qué lo disparó</label><input class="lab-campo" id="rb-disparo" type="text" autocomplete="off"></div>
+          <div><label for="rb-min">Minutos que duró</label><input class="lab-campo" id="rb-min" type="number" min="0" max="600" inputmode="numeric"></div>
+          <div><label for="rb-salida">Qué me ayudó a salir</label><input class="lab-campo" id="rb-salida" type="text" autocomplete="off"></div>
+          <button class="boton boton--chico" type="button" data-rb-agregar>Agregar</button>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-rb-estado></p>
+        <ol class="calendario__lista" data-rb-lista></ol>
+        <p class="lab-paso__ayuda" data-rb-resumen></p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-rb-bajar>Guardar el registro</button><button class="boton boton--secundario boton--chico" type="button" data-rb-borrar>Borrar todo</button></div>
+        <p class="lab-nota">Se guarda solo en este dispositivo.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">11</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Un ejercicio por día alcanza. La idea es entrenar el darse cuenta, que es lo que permite salir del bucle cada vez más rápido.</p>
+      <div class="lab-tarjeta" data-lab-plan="pensamientos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Detectar.</strong> Cuando notes un pensamiento que vuelve, fijate si es un bucle.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Nombrar.</strong> Ponele título a tu historia y contá cuántas veces vuelve.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Tomar distancia.</strong> Usá «estoy teniendo el pensamiento de que…» tres veces.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Gastar la palabra.</strong> Hacé los 30 segundos con la palabra que más pesa.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Del por qué al cómo.</strong> Completá el formulario con un tema que te da vueltas.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Mirar sin engancharse.</strong> Practicá el ejercicio del tigre.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Mirá tu registro de bucles: ¿qué patrones aparecen?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Tomar distancia de un pensamiento no es negar lo que sentís ni hacer como si no pasara nada. Si los pensamientos son intrusivos y te llevan a rituales, puede tratarse de un trastorno obsesivo-compulsivo, que tiene tratamiento. Si aparecen pensamientos de muerte, no lo atravieses solo: en la Argentina podés llamar al 135 (desde CABA y el Gran Buenos Aires) o al 0800-345-1435 (desde todo el país, gratis), o mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Hayes, S. C., Strosahl, K. y Wilson, K. G. (2012). <em>Acceptance and Commitment Therapy</em> (2.ª ed.). Guilford Press.</li>
+        <li>Harris, R. (2008). <em>La trampa de la felicidad</em>.</li>
+        <li>Wells, A. (2009). <em>Metacognitive Therapy for Anxiety and Depression</em>. Guilford Press.</li>
+        <li>Watkins, E. R. (2016). <em>Rumination-Focused Cognitive-Behavioral Therapy for Depression</em>. Guilford Press.</li>
+        <li>Segal, Z. V., Williams, J. M. G. y Teasdale, J. D. (2013). <em>Mindfulness-Based Cognitive Therapy for Depression</em> (2.ª ed.). Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

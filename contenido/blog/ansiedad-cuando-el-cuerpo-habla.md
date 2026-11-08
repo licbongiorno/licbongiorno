@@ -55,7 +55,7 @@ Si la ansiedad interfiere en tu vida cotidiana, en tu descanso, en tus vínculos
 
 La ansiedad tiene tratamiento. Y cuando dejamos de pelearnos con ella y empezamos a escucharla, deja de ser solo una alarma y se vuelve una brújula: señala, casi siempre, hacia algo de tu vida que está pidiendo lugar.
 
-Para practicar respiración guiada y anclaje, te espera el [laboratorio de presencia](/laboratorio-de-presencia/), y para trabajar la preocupación, el [laboratorio de ansiedad](/laboratorio-de-ansiedad/).
+Para practicar respiración guiada y anclaje, te espera el [laboratorio de presencia](/laboratorio-de-presencia/), para trabajar la preocupación, el [laboratorio de ansiedad](/laboratorio-de-ansiedad/), y para los pensamientos que dan vueltas, el [laboratorio de pensamientos que se repiten](/laboratorio-de-pensamientos-repetitivos/).
 
 Si querés probar distintas técnicas de respiración y entender qué hace cada una, te espera el [laboratorio de respiraciones](/laboratorio-de-respiraciones/). Y para saber más, [respiración y emociones](/recursos/respiracion-y-emociones/).
 
