@@ -57,7 +57,7 @@ La ansiedad tiene tratamiento. Y cuando dejamos de pelearnos con ella y empezamo
 
 Para practicar respiración guiada y anclaje, te espera el [laboratorio de presencia](/laboratorio-de-presencia/), para trabajar la preocupación, el [laboratorio de ansiedad](/laboratorio-de-ansiedad/), y para los pensamientos que dan vueltas, el [laboratorio de pensamientos que se repiten](/laboratorio-de-pensamientos-repetitivos/).
 
-Si querés probar distintas técnicas de respiración y entender qué hace cada una, te espera el [laboratorio de respiraciones](/laboratorio-de-respiraciones/). Y para saber más, [respiración y emociones](/recursos/respiracion-y-emociones/).
+Si querés probar distintas técnicas de respiración y entender qué hace cada una, te espera el [laboratorio de respiraciones](/laboratorio-de-respiraciones/). Y para saber más, [respiración y emociones](/recursos/respiracion-y-emociones/). Si lo que más te angustia es la mirada de los otros, leé sobre la [ansiedad social](/recursos/ansiedad-social/).
 
 ## Preguntas frecuentes
 

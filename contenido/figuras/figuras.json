@@ -884,5 +884,69 @@
    "Leer sobre la meditación zen",
    "/recursos/meditacion-zen-zazen/"
   ]
+ },
+ "ansiedad-social-circulo": {
+  "titulo": "El círculo de la ansiedad social",
+  "desc": "El miedo a ser evaluado lleva a mirarse a uno mismo desde afuera; para protegerse, la persona evita o se esconde, y eso confirma la idea de que algo en ella está mal. Así el círculo se cierra.",
+  "enlace": [
+   "Practicar en el laboratorio de ansiedad",
+   "/laboratorio-de-ansiedad/"
+  ]
+ },
+ "insomnio-circulo": {
+  "titulo": "El círculo del insomnio",
+  "desc": "La preocupación por no dormir activa el cuerpo; para compensar, se pasan más horas en la cama, y la cama empieza a asociarse con estar despierto. La terapia cognitivo-conductual del insomnio trabaja sobre ese círculo.",
+  "enlace": [
+   "Practicar en el laboratorio de descanso",
+   "/laboratorio-de-descanso/"
+  ]
+ },
+ "celos-escala": {
+  "titulo": "De la inquietud al control",
+  "desc": "Los celos van de una inquietud que se puede hablar a la sospecha que vigila, y de ahí al control, que restringe la vida del otro. Cuanto más a la derecha, más necesitan atención.",
+  "enlace": [
+   "Practicar en el laboratorio de vínculos",
+   "/laboratorio-de-vinculos/"
+  ]
+ },
+ "burnout-dimensiones": {
+  "titulo": "Las tres dimensiones del burnout",
+  "desc": "La OMS describe el burnout con tres dimensiones: el agotamiento, la distancia mental o el cinismo frente al trabajo y la sensación de ineficacia profesional.",
+  "enlace": [
+   "Practicar en el laboratorio de estrés",
+   "/laboratorio-de-estres/"
+  ]
+ },
+ "autoexigencia-deberia": {
+  "titulo": "La tiranía de los «debería»",
+  "desc": "Karen Horney habló de la tiranía de los «debería»: exigencias internas que no dejan lugar a lo que una persona necesita, como descansar, equivocarse o pedir ayuda.",
+  "enlace": [
+   "Practicar en el laboratorio de autocompasión",
+   "/laboratorio-de-autocompasion/"
+  ]
+ },
+ "procrastinacion-ciclo": {
+  "titulo": "El ciclo de la postergación",
+  "desc": "La tarea genera malestar; postergarla da un alivio breve, pero el malestar vuelve, más grande. Por eso la procrastinación es un problema de regulación de emociones más que de manejo del tiempo.",
+  "enlace": [
+   "Practicar en el laboratorio de hábitos",
+   "/laboratorio-de-habitos/"
+  ]
+ },
+ "adolescencia-duelos": {
+  "titulo": "Los tres duelos de la adolescencia",
+  "desc": "Arminda Aberastury y Mauricio Knobel describieron tres duelos en la adolescencia: por el cuerpo infantil, por la identidad infantil y por los padres de la infancia.",
+  "enlace": [
+   "Ver a Arminda Aberastury",
+   "/recursos/arminda-aberastury/"
+  ]
+ },
+ "pesadillas-ensayo": {
+  "titulo": "El ensayo en imaginación",
+  "desc": "En el ensayo en imaginación, la persona recuerda una pesadilla, le escribe un final distinto y lo ensaya despierta durante unos minutos por día.",
+  "enlace": [
+   "Practicar en el laboratorio de sueños",
+   "/laboratorio-de-suenos/"
+  ]
  }
 }

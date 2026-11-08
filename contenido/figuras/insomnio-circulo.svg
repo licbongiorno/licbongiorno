@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 316"><defs><marker id="pf-in" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-in)" d="M396 40 C 450 50, 476 90, 480 128"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-in)" d="M478 186 C 470 236, 440 262, 412 268"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-in)" d="M188 268 C 160 262, 130 236, 122 192"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-in)" d="M120 128 C 124 90, 150 50, 204 40"/>
+<text x="300" y="44" text-anchor="middle" font-size="16" class="esc-acento">preocuparse</text>
+<text x="490" y="160" text-anchor="middle" font-size="16">alerta</text>
+<text x="300" y="302" text-anchor="middle" font-size="16">más horas en la cama</text>
+<text x="110" y="160" text-anchor="middle" font-size="16">cama = vigilia</text>
+</svg>

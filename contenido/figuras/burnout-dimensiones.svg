@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 330">
+<circle cx="300" cy="115" r="75" class="esc-calido"/>
+<circle cx="225" cy="205" r="75" class="esc-relleno"/>
+<circle cx="375" cy="205" r="75" class="esc-nodo"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 40 A 75 75 0 1 1 299 40"/>
+<text x="300" y="26" text-anchor="middle" font-size="16" class="esc-acento">agotamiento</text>
+<text x="160" y="314" text-anchor="middle" font-size="16">distancia</text>
+<text x="440" y="314" text-anchor="middle" font-size="16">ineficacia</text>
+</svg>

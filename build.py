@@ -585,19 +585,19 @@ def bloque_laboratorios():
 
 # Guía «¿Por dónde empiezo?»: tema → página de motivo, artículos y laboratorios sugeridos.
 GUIA = [
-    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-respiraciones/"]),
+    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "ansiedad-social", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-respiraciones/"]),
     ("panico", "Ataques de pánico", "/ansiedad-y-ataques-de-panico/", ["ataque-de-panico-que-hacer", "respiracion-y-emociones"], ["/laboratorio-de-presencia/"]),
     ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
-    ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego"], ["/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
-    ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma"], ["/laboratorio-sistemico/"]),
+    ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego", "los-celos"], ["/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
+    ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma", "padres-de-adolescentes"], ["/laboratorio-sistemico/"]),
     ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia"], ["/laboratorio-de-duelo/"]),
-    ("estres", "Estrés o agotamiento", "/estres-y-agotamiento/", ["la-motivacion", "respiracion-y-emociones"], ["/laboratorio-de-estres/", "/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/"]),
-    ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["la-culpa", "psicologia-humanista-carl-rogers"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/"]),
-    ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["respiracion-y-emociones", "ansiedad-cuando-el-cuerpo-habla"], ["/laboratorio-de-descanso/"]),
+    ("estres", "Estrés o agotamiento", "/estres-y-agotamiento/", ["burnout", "la-motivacion", "respiracion-y-emociones"], ["/laboratorio-de-estres/", "/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/"]),
+    ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["autoexigencia-y-perfeccionismo", "la-culpa", "psicologia-humanista-carl-rogers"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/"]),
+    ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["insomnio", "pesadillas", "respiracion-y-emociones"], ["/laboratorio-de-descanso/", "/laboratorio-de-suenos/"]),
     ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "logoterapia-y-sentido"], ["/laboratorio-de-crisis-vitales/", "/laboratorio-de-sentido/", "/laboratorio-de-valores/"]),
     ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-imaginacion-activa/", "/laboratorio-mito-personal/"]),
     ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "la-ventana-de-tolerancia"], ["/laboratorio-de-regulacion/", "/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
-    ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["metahabilidades", "la-motivacion"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/"]),
+    ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["procrastinacion", "metahabilidades", "la-motivacion"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/"]),
     ("meditar", "Empezar a meditar o respirar mejor", "/terapia-junguiana/", ["que-es-la-meditacion", "cuando-meditar-no-es-recomendable"], ["/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/", "/laboratorio-de-respiraciones/"]),
 ]
 

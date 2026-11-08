@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 220">
+<line x1="60" y1="110" x2="540" y2="110" class="esc-suave"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M60 110 H 540"/>
+<circle cx="80" cy="110" r="10" class="esc-nodo"/><circle cx="300" cy="110" r="10" class="esc-nodo"/><circle cx="520" cy="110" r="13" class="esc-punto"/>
+<text x="60" y="76" font-size="16">inquietud</text>
+<text x="300" y="76" text-anchor="middle" font-size="16">sospecha</text>
+<text x="540" y="76" text-anchor="end" font-size="16" class="esc-acento">control</text>
+<text x="60" y="150" class="esc-sans">se habla</text>
+<text x="300" y="150" text-anchor="middle" class="esc-sans">se vigila</text>
+<text x="540" y="150" text-anchor="end" class="esc-sans">se restringe</text>
+</svg>
