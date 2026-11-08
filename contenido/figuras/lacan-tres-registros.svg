@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 300">
+<circle cx="250" cy="120" r="82" fill="none" class="esc-linea trazo-fig" pathLength="1"/>
+<circle cx="350" cy="120" r="82" fill="none" class="esc-calido-linea trazo-fig" pathLength="1"/>
+<circle cx="300" cy="205" r="82" fill="none" class="esc-linea trazo-fig" pathLength="1"/>
+<text x="210" y="96" text-anchor="middle" font-size="18">Real</text>
+<text x="392" y="96" text-anchor="middle" font-size="18">Simbólico</text>
+<text x="300" y="262" text-anchor="middle" font-size="18">Imaginario</text>
+<text x="300" y="160" text-anchor="middle" font-size="18" class="esc-acento">a</text>
+</svg>

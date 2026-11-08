@@ -1,0 +1,13 @@
+<svg viewBox="0 0 600 300">
+<path class="esc-relleno" d="M40 40 H 260 L 150 270 Z"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M40 40 H 260 L 150 270 Z"/>
+<text x="150" y="30" text-anchor="middle" class="esc-sans">lo explícito</text>
+<text x="150" y="292" text-anchor="middle" class="esc-sans">lo implícito</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M150 250 C 110 210, 200 190, 150 160 C 100 130, 220 110, 150 70"/>
+<text x="320" y="62" font-size="18">pertenencia</text>
+<text x="320" y="102" font-size="18">cooperación</text>
+<text x="320" y="142" font-size="18">pertinencia</text>
+<text x="320" y="182" font-size="18">comunicación</text>
+<text x="320" y="222" font-size="18">aprendizaje</text>
+<text x="320" y="262" font-size="18" class="esc-acento">telé</text>
+</svg>

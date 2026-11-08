@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 260"><defs><marker id="pf-fe" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="110" cy="130" r="56" class="esc-relleno"/><text x="110" y="136" text-anchor="middle" font-size="18">el niño</text>
+<circle cx="490" cy="130" r="56" class="esc-calido"/><text x="490" y="136" text-anchor="middle" font-size="18">el adulto</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-fe)" d="M162 104 C 250 50, 350 50, 436 104"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-fe)" d="M436 156 C 350 210, 250 210, 164 156"/>
+<text x="300" y="48" text-anchor="middle" font-size="18">ternura</text>
+<text x="300" y="232" text-anchor="middle" font-size="18" class="esc-acento">pasión</text>
+<text x="300" y="136" text-anchor="middle" class="esc-sans">dos lenguajes</text>
+</svg>

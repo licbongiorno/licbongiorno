@@ -1,0 +1,12 @@
+<svg viewBox="0 0 600 300">
+<line x1="40" y1="96" x2="560" y2="96" class="esc-suave" stroke-dasharray="6 6"/>
+<path class="esc-relleno" d="M250 96 L 280 40 L 320 40 L 352 96 Z"/>
+<path class="esc-capa--2 esc-capa" d="M250 96 L 352 96 L 440 280 L 160 280 Z"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M160 280 L 250 96 L 280 40 L 320 40 L 352 96 L 440 280 Z"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M222 152 C 260 136, 340 136, 378 152"/>
+<text x="300" y="128" text-anchor="middle" font-size="18">yo</text>
+<text x="186" y="196" text-anchor="end" font-size="18" class="esc-acento">superyó</text>
+<text x="300" y="250" text-anchor="middle" font-size="18">ello</text>
+<text x="560" y="84" text-anchor="end" class="esc-sans">consciente</text>
+<text x="560" y="120" text-anchor="end" class="esc-sans">inconsciente</text>
+</svg>

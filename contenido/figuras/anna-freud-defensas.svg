@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 300"><defs><marker id="pf-af" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="300" cy="150" r="80" class="esc-borde claro"/>
+<circle cx="300" cy="150" r="58" class="esc-nodo"/><text x="300" y="157" text-anchor="middle" font-size="20">el yo</text>
+<text x="300" y="256" text-anchor="middle" class="esc-sans">defensas</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-af)" d="M70 150 H 214"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-af)" d="M500 60 L 372 112"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-af)" d="M500 240 L 372 188"/>
+<text x="40" y="132" font-size="18">el ello</text>
+<text x="560" y="50" text-anchor="end" font-size="18">el superyó</text>
+<text x="560" y="272" text-anchor="end" font-size="18">el mundo</text>
+</svg>

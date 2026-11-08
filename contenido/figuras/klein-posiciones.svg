@@ -1,0 +1,14 @@
+<svg viewBox="0 0 600 280"><defs><marker id="pf-kl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<path class="esc-relleno" d="M140 70 A 64 64 0 0 0 140 198 Z"/>
+<path class="esc-calido" d="M146 70 A 64 64 0 0 1 146 198 Z"/>
+<text x="110" y="140" text-anchor="middle" font-size="16">bueno</text>
+<text x="176" y="140" text-anchor="middle" font-size="16">malo</text>
+<circle cx="460" cy="134" r="64" class="esc-relleno"/>
+<circle cx="460" cy="134" r="64" class="esc-calido" fill-opacity=".35"/>
+<text x="460" y="140" text-anchor="middle" font-size="16">un mismo otro</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-kl)" d="M216 104 C 280 76, 330 76, 388 104"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-kl)" d="M388 166 C 330 194, 280 194, 218 166"/>
+<text x="143" y="238" text-anchor="middle" class="esc-sans">esquizo-paranoide</text>
+<text x="460" y="238" text-anchor="middle" class="esc-sans">depresiva</text>
+<text x="300" y="272" text-anchor="middle" font-size="16" class="esc-acento">un vaivén de toda la vida</text>
+</svg>

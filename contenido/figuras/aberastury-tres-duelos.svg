@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 310">
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 150 L 110 70"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 150 L 490 70"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 150 L 300 238"/>
+<circle cx="300" cy="150" r="58" class="esc-relleno"/><text x="300" y="157" text-anchor="middle" font-size="17">adolescer</text>
+<circle cx="110" cy="70" r="10" class="esc-punto"/><circle cx="490" cy="70" r="10" class="esc-punto"/><circle cx="300" cy="238" r="10" class="esc-punto"/>
+<text x="40" y="26" font-size="17">el cuerpo</text><text x="40" y="54" font-size="17" class="esc-acento">infantil</text>
+<text x="560" y="26" text-anchor="end" font-size="17">el rol y la identidad</text><text x="560" y="54" text-anchor="end" font-size="17" class="esc-acento">infantiles</text>
+<text x="300" y="270" text-anchor="middle" font-size="17">los padres</text><text x="300" y="298" text-anchor="middle" font-size="17" class="esc-acento">de la infancia</text>
+</svg>

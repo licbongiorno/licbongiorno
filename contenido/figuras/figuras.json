@@ -112,5 +112,93 @@
    "Hacer el test de eneagrama",
    "/test-de-eneagrama/"
   ]
+ },
+ "vida-freud": {
+  "titulo": "La vida de Sigmund Freud",
+  "desc": "Los momentos clave de su vida: la formación con Charcot, el libro de los sueños, la segunda tópica y el exilio en Londres."
+ },
+ "vida-ferenczi": {
+  "titulo": "La vida de Sándor Ferenczi",
+  "desc": "De su encuentro con Freud a la fundación del psicoanálisis húngaro y su último trabajo sobre el trauma."
+ },
+ "vida-anna-freud": {
+  "titulo": "La vida de Anna Freud",
+  "desc": "Maestra, psicoanalista de niños, exiliada en Londres y fundadora de la clínica que hoy lleva su nombre."
+ },
+ "vida-klein": {
+  "titulo": "La vida de Melanie Klein",
+  "desc": "De Viena a Londres: su análisis con Ferenczi, la técnica de juego y las dos posiciones."
+ },
+ "vida-winnicott": {
+  "titulo": "La vida de Donald Winnicott",
+  "desc": "Cuarenta años de pediatra y psicoanalista: los objetos transicionales, el verdadero self y el juego."
+ },
+ "vida-bion": {
+  "titulo": "La vida de Wilfred Bion",
+  "desc": "De la guerra a los grupos, el análisis con Klein y su teoría del pensamiento."
+ },
+ "vida-lacan": {
+  "titulo": "La vida de Jacques Lacan",
+  "desc": "Del estadio del espejo al Seminario y la Escuela Freudiana de París."
+ },
+ "vida-kohut": {
+  "titulo": "La vida de Heinz Kohut",
+  "desc": "De Viena a Chicago: la empatía como método y la psicología del self."
+ },
+ "vida-pichon-riviere": {
+  "titulo": "La vida de Enrique Pichon-Rivière",
+  "desc": "De Ginebra al Chaco y a Buenos Aires: la APA, la Experiencia Rosario y la psicología social."
+ },
+ "vida-aberastury": {
+  "titulo": "La vida de Arminda Aberastury",
+  "desc": "Pionera del psicoanálisis de niños y adolescentes en la Argentina."
+ },
+ "freud-aparato-psiquico": {
+  "titulo": "El aparato psíquico según Freud",
+  "desc": "Freud comparó la mente con un iceberg: lo consciente es solo la punta. El yo media entre el ello, que empuja desde abajo, y el superyó, que exige y juzga; buena parte de los tres funciona sin que lo sepamos.",
+  "enlace": [
+   "Ver los mecanismos de defensa",
+   "/recursos/mecanismos-de-defensa/"
+  ]
+ },
+ "ferenczi-confusion-de-lenguas": {
+  "titulo": "La confusión de lenguas",
+  "desc": "El niño busca ternura; cuando un adulto le responde con el lenguaje de la pasión, el niño queda confundido y suele cargar con una culpa que no es suya. Para Ferenczi, ahí está el núcleo de muchos traumas."
+ },
+ "anna-freud-defensas": {
+  "titulo": "El yo y sus defensas",
+  "desc": "Para Anna Freud, el yo se defiende de la angustia que le llega desde tres lugares: los impulsos del ello, las exigencias del superyó y los peligros del mundo exterior.",
+  "enlace": [
+   "Ver los mecanismos de defensa",
+   "/recursos/mecanismos-de-defensa/"
+  ]
+ },
+ "klein-posiciones": {
+  "titulo": "Las dos posiciones de Melanie Klein",
+  "desc": "En la posición esquizo-paranoide el otro aparece partido en bueno y malo. En la depresiva se lo puede ver entero, con lo que da y lo que frustra, y aparecen la culpa y el deseo de reparar. Se va y se vuelve entre las dos toda la vida."
+ },
+ "winnicott-espacio-transicional": {
+  "titulo": "El espacio transicional",
+  "desc": "Entre el mundo de adentro y el de afuera hay una zona intermedia que no pertenece del todo a ninguno: ahí viven el osito del bebé, el juego, el arte y la cultura."
+ },
+ "bion-continente": {
+  "titulo": "Continente y contenido",
+  "desc": "Las angustias que todavía no se pueden pensar necesitan una mente que las reciba y las transforme. Bion llamó función alfa a ese trabajo, que hace primero la madre y después, en otro plano, el analista."
+ },
+ "lacan-tres-registros": {
+  "titulo": "Real, Simbólico e Imaginario",
+  "desc": "Lacan pensó la experiencia humana en tres registros anudados: lo Imaginario de las imágenes y la identificación, lo Simbólico del lenguaje y la ley, y lo Real, lo que no se deja decir. En el cruce de los tres ubicó el objeto a, causa del deseo."
+ },
+ "kohut-self": {
+  "titulo": "El self y sus tres necesidades",
+  "desc": "Según Kohut, el self se sostiene en tres experiencias con los otros: ser mirado con entusiasmo, poder admirar a alguien y sentirse parecido a otros."
+ },
+ "pichon-cono-invertido": {
+  "titulo": "El cono invertido",
+  "desc": "Pichon-Rivière representó la tarea de un grupo como un cono: arriba lo explícito, abajo lo implícito. El trabajo grupal es una espiral que va de uno a otro, y seis vectores permiten evaluar cómo funciona el grupo."
+ },
+ "aberastury-tres-duelos": {
+  "titulo": "Los tres duelos de la adolescencia",
+  "desc": "Para Aberastury, adolescer es atravesar tres duelos: por el cuerpo de niño, por el rol y la identidad infantiles, y por los padres de la infancia."
  }
 }

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 600 260"><defs><marker id="pf-bi" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<g class="esc-punto"><circle cx="60" cy="100" r="5"/><circle cx="96" cy="78" r="4"/><circle cx="84" cy="128" r="6"/><circle cx="120" cy="110" r="4"/><circle cx="58" cy="150" r="4"/><circle cx="110" cy="152" r="5"/></g>
+<text x="90" y="206" text-anchor="middle" class="esc-sans">angustia cruda</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-bi)" d="M150 118 H 222"/>
+<path class="esc-relleno" d="M240 70 C 240 190, 360 190, 360 70"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M240 70 C 240 190, 360 190, 360 70"/>
+<text x="300" y="130" text-anchor="middle" font-size="17">continente</text>
+<text x="300" y="214" text-anchor="middle" class="esc-sans">función alfa</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-bi)" d="M378 118 H 450"/>
+<text x="560" y="112" text-anchor="end" font-size="17" class="esc-acento">algo que</text>
+<text x="560" y="138" text-anchor="end" font-size="17" class="esc-acento">se puede pensar</text>
+</svg>
