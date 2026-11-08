@@ -200,5 +200,109 @@
  "aberastury-tres-duelos": {
   "titulo": "Los tres duelos de la adolescencia",
   "desc": "Para Aberastury, adolescer es atravesar tres duelos: por el cuerpo de niño, por el rol y la identidad infantiles, y por los padres de la infancia."
+ },
+ "vida-jung": {
+  "titulo": "La vida de Carl Gustav Jung",
+  "desc": "Del hospital Burghölzli al encuentro y la ruptura con Freud, el Libro Rojo, los tipos psicológicos y el Instituto de Zúrich.",
+  "enlace": [
+   "Ver la terapia junguiana",
+   "/terapia-junguiana/"
+  ]
+ },
+ "vida-von-franz": {
+  "titulo": "La vida de Marie-Louise von Franz",
+  "desc": "Conoció a Jung a los dieciocho años y trabajó con él durante casi tres décadas."
+ },
+ "vida-neumann": {
+  "titulo": "La vida de Erich Neumann",
+  "desc": "De Berlín a Zúrich y a Tel Aviv: la historia de la conciencia y la Gran Madre."
+ },
+ "vida-fordham": {
+  "titulo": "La vida de Michael Fordham",
+  "desc": "Psiquiatra de niños, cofundador de la escuela de Londres y coeditor de la obra de Jung en inglés."
+ },
+ "vida-edinger": {
+  "titulo": "La vida de Edward Edinger",
+  "desc": "Psiquiatra estadounidense que hizo más accesibles las ideas más difíciles de Jung."
+ },
+ "vida-hillman": {
+  "titulo": "La vida de James Hillman",
+  "desc": "Del Instituto de Zúrich a la psicología arquetipal y la teoría de la bellota."
+ },
+ "vida-woodman": {
+  "titulo": "La vida de Marion Woodman",
+  "desc": "Docente de literatura que se formó en Zúrich y unió la psicología junguiana con el cuerpo."
+ },
+ "vida-bolen": {
+  "titulo": "La vida de Jean Shinoda Bolen",
+  "desc": "Psiquiatra y analista junguiana de San Francisco, conocida por sus libros sobre las diosas y los dioses."
+ },
+ "vida-estes": {
+  "titulo": "La vida de Clarissa Pinkola Estés",
+  "desc": "Analista junguiana y narradora de cuentos, autora de Mujeres que corren con los lobos."
+ },
+ "vida-hollis": {
+  "titulo": "La trayectoria de James Hollis",
+  "desc": "Profesor de humanidades que se formó como analista en Zúrich y escribió sobre la segunda mitad de la vida."
+ },
+ "jung-mapa-psique": {
+  "titulo": "Un mapa de la psique según Jung",
+  "desc": "El yo es solo una parte de la psique. Hacia afuera está la persona, la máscara social; más adentro, la sombra y el ánima o el ánimus; en el centro, el sí-mismo, que orienta el proceso de individuación.",
+  "enlace": [
+   "Leer sobre el proceso de individuación",
+   "/recursos/el-proceso-de-individuacion/"
+  ]
+ },
+ "vonfranz-estructura-relato": {
+  "titulo": "La estructura de un cuento o un sueño",
+  "desc": "Jung vio que muchos sueños tienen la forma de un drama: exposición, peripecia, culminación y lisis. Von Franz usó esa misma estructura para leer los cuentos de hadas como imágenes de la psique.",
+  "enlace": [
+   "Leer mitos y cuentos según Jung",
+   "/recursos/mitos-y-cuentos-jung/"
+  ]
+ },
+ "neumann-etapas": {
+  "titulo": "Las etapas de la conciencia según Neumann",
+  "desc": "Para Neumann, la conciencia se desarrolla siguiendo los mitos: del uróboros, donde todo está unido, a la Gran Madre, y de ahí al héroe que se separa y se afirma."
+ },
+ "fordham-deintegracion": {
+  "titulo": "Deintegración y reintegración",
+  "desc": "Fordham pensó que el bebé nace con un self primario que se abre al mundo (deintegración) y vuelve a reunirse con lo que vivió (reintegración). Ese ritmo, repetido, es el desarrollo."
+ },
+ "edinger-ciclo": {
+  "titulo": "El ciclo del eje yo–sí-mismo",
+  "desc": "Edinger describió un ciclo que se repite toda la vida: el yo se infla y se cree el centro, choca con la realidad y queda alienado, y desde ahí puede reconectarse con el sí-mismo.",
+  "enlace": [
+   "Leer el yo y el sí-mismo",
+   "/recursos/el-yo-y-el-si-mismo/"
+  ]
+ },
+ "hillman-bellota": {
+  "titulo": "La teoría de la bellota",
+  "desc": "Hillman propuso que cada vida trae una imagen propia, como la bellota lleva en sí al roble. No es un destino fijo, sino algo que pide ser vivido."
+ },
+ "woodman-perfeccion-totalidad": {
+  "titulo": "Perfección o totalidad",
+  "desc": "Woodman retomó una distinción de Jung: la perfección es rígida y deja afuera lo que no encaja; la totalidad incluye lo imperfecto y está viva."
+ },
+ "bolen-diosas": {
+  "titulo": "Las diosas de cada mujer",
+  "desc": "Bolen agrupó siete diosas griegas en tres grupos: las vírgenes, que no dependen de un vínculo; las vulnerables, centradas en los vínculos; y Afrodita, la alquímica, que transforma.",
+  "enlace": [
+   "Ver los arquetipos en la vida cotidiana",
+   "/recursos/arquetipos-en-la-vida-cotidiana/"
+  ]
+ },
+ "estes-vida-muerte-vida": {
+  "titulo": "El ciclo vida-muerte-vida",
+  "desc": "Para Estés, la psique, como la naturaleza, tiene ciclos: algo vive, algo tiene que morir y de ahí nace algo nuevo. Mucho sufrimiento viene de querer detener ese ciclo."
+ },
+ "hollis-dos-mitades": {
+  "titulo": "Las dos mitades de la vida",
+  "desc": "Jung comparó la vida con el recorrido del sol. En la primera mitad nos adaptamos al mundo; en la segunda, la pregunta pasa a ser por el sentido. Hollis llamó paso intermedio al cruce entre las dos.",
+  "enlace": [
+   "Leer sobre las crisis vitales",
+   "/crisis-vitales/"
+  ]
  }
 }

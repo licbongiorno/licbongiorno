@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 270">
+<line x1="30" y1="220" x2="570" y2="220" class="esc-suave"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M50 220 C 120 60, 230 40, 300 40"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M300 40 C 370 40, 480 60, 550 220"/>
+<circle cx="300" cy="40" r="12" class="esc-punto"/>
+<text x="300" y="80" text-anchor="middle" font-size="17">el paso intermedio</text>
+<text x="40" y="252" font-size="17">adaptarse al mundo</text>
+<text x="560" y="252" text-anchor="end" font-size="17" class="esc-acento">buscar sentido</text>
+</svg>

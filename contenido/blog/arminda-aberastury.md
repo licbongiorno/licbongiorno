@@ -64,4 +64,4 @@ Es una entrevista en la que se ofrece al chico un conjunto de materiales para ju
 - Aberastury, A. (1968). *El niño y sus juegos*.
 - Aberastury, A. y Knobel, M. (1971). *La adolescencia normal: un enfoque psicoanalítico*.
 
-Este es el último artículo de la primera tanda de la serie. Volvé a [Enrique Pichon-Rivière](/recursos/enrique-pichon-riviere/) o empezá desde el principio con [Sigmund Freud](/recursos/sigmund-freud/).
+Así termina la tanda del psicoanálisis. Seguí la serie con [Carl Gustav Jung](/recursos/carl-gustav-jung/) y los junguianos, o volvé a [Enrique Pichon-Rivière](/recursos/enrique-pichon-riviere/).

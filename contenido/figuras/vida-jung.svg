@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 416">
+<line x1="110" y1="34" x2="110" y2="382" class="esc-suave"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M110 34 V 382"/>
+<g class="hito" style="--i:0"><circle cx="110" cy="34" r="7" class="esc-nodo"/><text x="88" y="40" text-anchor="end" font-size="17" class="esc-anio">1875</text><text x="134" y="40" font-size="17">Nace en Kesswil, Suiza</text></g>
+<g class="hito" style="--i:1"><circle cx="110" cy="92" r="7" class="esc-nodo"/><text x="88" y="98" text-anchor="end" font-size="17" class="esc-anio">1900</text><text x="134" y="98" font-size="17">Entra al hospital Burghölzli</text></g>
+<g class="hito" style="--i:2"><circle cx="110" cy="150" r="7" class="esc-nodo"/><text x="88" y="156" text-anchor="end" font-size="17" class="esc-anio">1907</text><text x="134" y="156" font-size="17">Conoce a Freud</text></g>
+<g class="hito" style="--i:3"><circle cx="110" cy="208" r="7" class="esc-nodo"/><text x="88" y="214" text-anchor="end" font-size="17" class="esc-anio">1913</text><text x="134" y="214" font-size="17">Ruptura y Libro Rojo</text></g>
+<g class="hito" style="--i:4"><circle cx="110" cy="266" r="7" class="esc-nodo"/><text x="88" y="272" text-anchor="end" font-size="17" class="esc-anio">1921</text><text x="134" y="272" font-size="17">Tipos psicológicos</text></g>
+<g class="hito" style="--i:5"><circle cx="110" cy="324" r="7" class="esc-nodo"/><text x="88" y="330" text-anchor="end" font-size="17" class="esc-anio">1948</text><text x="134" y="330" font-size="17">Se crea el Instituto en Zúrich</text></g>
+<g class="hito" style="--i:6"><circle cx="110" cy="382" r="7" class="esc-punto"/><text x="88" y="388" text-anchor="end" font-size="17" class="esc-anio">1961</text><text x="134" y="388" font-size="17">Muere en Küsnacht</text></g>
+</svg>

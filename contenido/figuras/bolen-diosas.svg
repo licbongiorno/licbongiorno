@@ -1,0 +1,14 @@
+<svg viewBox="0 0 600 280">
+<path class="esc-linea trazo-fig" pathLength="1" d="M30 60 H 570"/>
+<text x="100" y="40" text-anchor="middle" class="esc-sans">vírgenes</text>
+<text x="300" y="40" text-anchor="middle" class="esc-sans">vulnerables</text>
+<text x="500" y="40" text-anchor="middle" class="esc-sans">alquímica</text>
+<text x="100" y="110" text-anchor="middle" font-size="18">Artemisa</text>
+<text x="100" y="160" text-anchor="middle" font-size="18">Atenea</text>
+<text x="100" y="210" text-anchor="middle" font-size="18">Hestia</text>
+<text x="300" y="110" text-anchor="middle" font-size="18">Hera</text>
+<text x="300" y="160" text-anchor="middle" font-size="18">Deméter</text>
+<text x="300" y="210" text-anchor="middle" font-size="18">Perséfone</text>
+<text x="500" y="160" text-anchor="middle" font-size="18" class="esc-acento">Afrodita</text>
+<circle cx="500" cy="200" r="7" class="esc-punto"/>
+</svg>

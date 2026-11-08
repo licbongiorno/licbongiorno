@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 260">
+<line x1="30" y1="210" x2="570" y2="210" class="esc-suave"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M40 200 C 120 196, 160 170, 220 140 C 290 104, 330 50, 380 50 C 440 50, 470 150, 560 190"/>
+<circle cx="60" cy="199" r="7" class="esc-nodo"/><circle cx="220" cy="140" r="7" class="esc-nodo"/>
+<circle cx="380" cy="50" r="8" class="esc-punto"/><circle cx="540" cy="185" r="7" class="esc-nodo"/>
+<text x="40" y="240" font-size="17">exposición</text>
+<text x="210" y="240" text-anchor="middle" font-size="17">peripecia</text>
+<text x="380" y="28" text-anchor="middle" font-size="17" class="esc-acento">culminación</text>
+<text x="560" y="240" text-anchor="end" font-size="17">lisis</text>
+</svg>

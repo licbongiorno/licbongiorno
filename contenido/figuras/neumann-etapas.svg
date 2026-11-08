@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 280">
+<path class="esc-linea trazo-fig" pathLength="1" d="M70 220 C 160 210, 200 170, 250 150 C 320 120, 380 90, 530 50"/>
+<circle cx="70" cy="220" r="26" class="esc-relleno"/><circle cx="70" cy="220" r="10" class="esc-nodo"/>
+<circle cx="250" cy="150" r="20" class="esc-relleno"/>
+<circle cx="400" cy="100" r="16" class="esc-calido"/>
+<circle cx="530" cy="50" r="10" class="esc-punto"/>
+<text x="70" y="272" text-anchor="middle" font-size="17">uróboros</text>
+<text x="250" y="204" text-anchor="middle" font-size="17">la Gran Madre</text>
+<text x="400" y="150" text-anchor="middle" font-size="17">el héroe</text>
+<text x="560" y="96" text-anchor="end" font-size="17" class="esc-acento">conciencia</text>
+</svg>

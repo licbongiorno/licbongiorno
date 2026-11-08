@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 260">
+<rect x="70" y="50" width="150" height="150" class="esc-nodo"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M70 50 H 220 V 200 H 70 Z"/>
+<path class="esc-relleno" d="M420 52 C 500 40, 540 110, 520 160 C 500 214, 430 220, 392 196 C 350 170, 350 64, 420 52 Z"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M420 52 C 500 40, 540 110, 520 160 C 500 214, 430 220, 392 196 C 350 170, 350 64, 420 52 Z"/>
+<text x="145" y="240" text-anchor="middle" font-size="18">perfección</text>
+<text x="450" y="240" text-anchor="middle" font-size="18" class="esc-acento">totalidad</text>
+<text x="145" y="132" text-anchor="middle" class="esc-sans">rígida</text>
+<text x="450" y="132" text-anchor="middle" class="esc-sans">viva</text>
+</svg>

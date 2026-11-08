@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 300"><defs><marker id="pf-es" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-es)" d="M318 52 C 420 66, 460 150, 420 214"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-es)" d="M392 244 C 330 270, 270 270, 210 244"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-es)" d="M180 214 C 140 150, 180 66, 280 52"/>
+<circle cx="300" cy="50" r="10" class="esc-nodo"/><circle cx="430" cy="232" r="10" class="esc-punto"/><circle cx="170" cy="232" r="10" class="esc-nodo"/>
+<text x="300" y="30" text-anchor="middle" font-size="18">vida</text>
+<text x="560" y="238" text-anchor="end" font-size="18" class="esc-acento">muerte</text>
+<text x="40" y="238" font-size="18">vida nueva</text>
+</svg>

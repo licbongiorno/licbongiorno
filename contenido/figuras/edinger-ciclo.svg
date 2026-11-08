@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 300"><defs><marker id="pf-ed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ed)" d="M330 52 C 430 70, 470 150, 430 210"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ed)" d="M400 246 C 330 280, 250 280, 196 246"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-ed)" d="M170 210 C 130 150, 170 70, 270 52"/>
+<circle cx="300" cy="50" r="10" class="esc-nodo"/><circle cx="440" cy="232" r="10" class="esc-nodo"/><circle cx="160" cy="232" r="10" class="esc-punto"/>
+<text x="300" y="30" text-anchor="middle" font-size="17">inflación</text>
+<text x="560" y="238" text-anchor="end" font-size="17">alienación</text>
+<text x="40" y="238" font-size="17" class="esc-acento">reconexión</text>
+<text x="300" y="156" text-anchor="middle" class="esc-sans">eje yo – sí-mismo</text>
+</svg>

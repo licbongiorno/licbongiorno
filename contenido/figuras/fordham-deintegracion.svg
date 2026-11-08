@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 260"><defs><marker id="pf-fo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="170" cy="130" r="56" class="esc-calido"/><text x="170" y="136" text-anchor="middle" font-size="18">self</text>
+<circle cx="440" cy="130" r="40" class="esc-nodo"/><text x="440" y="136" text-anchor="middle" font-size="16">el mundo</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-fo)" d="M226 112 C 290 70, 350 70, 398 106"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-fo)" d="M398 154 C 350 190, 290 190, 228 150"/>
+<text x="312" y="52" text-anchor="middle" font-size="17">deintegración</text>
+<text x="312" y="226" text-anchor="middle" font-size="17" class="esc-acento">reintegración</text>
+</svg>

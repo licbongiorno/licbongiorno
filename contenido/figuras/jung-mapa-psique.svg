@@ -1,0 +1,14 @@
+<svg viewBox="0 0 600 290">
+<circle cx="190" cy="150" r="130" class="esc-capa esc-capa--1"/>
+<circle cx="190" cy="150" r="100" class="esc-capa esc-capa--2"/>
+<circle cx="190" cy="150" r="70" class="esc-capa esc-capa--3"/>
+<circle cx="190" cy="150" r="30" class="esc-calido"/>
+<circle cx="190" cy="20" r="9" class="esc-nodo"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M190 29 C 220 80, 150 110, 190 150"/>
+<path class="esc-suave" d="M199 20 H 410 M310 92 H 410 M290 144 H 410 M249 188 H 410 M214 168 L 290 248 H 410"/>
+<text x="420" y="26" font-size="17">el yo</text>
+<text x="420" y="98" font-size="17">la persona</text>
+<text x="420" y="150" font-size="17">la sombra</text>
+<text x="420" y="194" font-size="17">ánima y ánimus</text>
+<text x="420" y="254" font-size="17" class="esc-acento">el sí-mismo</text>
+</svg>
