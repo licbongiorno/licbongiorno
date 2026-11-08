@@ -13,7 +13,7 @@ respuesta: La teoría de las inteligencias múltiples, propuesta por Howard Gard
 menciona: inteligencias-multiples, inteligencia
 revision: 2026-11-06
 ---
-No, no es que haya gente inteligente y gente que no. Está la que escribe una carta que te hace llorar y no puede con una regla de tres. El que arma un mueble sin mirar el instructivo. La que sabe exactamente qué decir en un velorio. El que escucha una canción una vez y la toca en la guitarra. Si la escuela solo hubiera medido una de esas cosas, ¿cuántos talentos se hubieran perdido?
+Está la que escribe una carta que te hace llorar y no puede con una regla de tres. El que arma un mueble sin mirar el instructivo. La que sabe exactamente qué decir en un velorio. El que escucha una canción una vez y la toca en la guitarra. Si la escuela solo hubiera medido una de esas cosas, ¿cuántos talentos se hubieran perdido?
 
 ## La teoría de Howard Gardner
 

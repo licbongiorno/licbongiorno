@@ -12,7 +12,7 @@ estado: publicado
 respuesta: Las técnicas psicométricas son tests psicológicos estandarizados que miden de forma cuantitativa aspectos como la inteligencia, la personalidad, la atención o los síntomas. Se aplican y puntúan siempre del mismo modo y se comparan con normas o baremos de una población. Su calidad se evalúa por su confiabilidad y su validez. Ejemplos son el WAIS, el MMPI y el 16PF.
 revision: 2026-11-06
 ---
-No, no es que un número diga quién sos. Es más parecido a un termómetro: no explica por qué tenés fiebre, pero te dice con bastante precisión cuánta. Las técnicas psicométricas intentan algo así con aspectos que no se ven a simple vista, como la atención, la memoria o ciertos rasgos de personalidad. Y, como cualquier instrumento de medida, sirven si están bien construidas y bien usadas.
+Un termómetro no explica por qué tenés fiebre, pero te dice con bastante precisión cuánta. Las técnicas psicométricas intentan algo parecido con aspectos que no se ven a simple vista, como la atención, la memoria o ciertos rasgos de personalidad. Ningún número dice quién sos, y, como cualquier instrumento de medida, sirven si están bien construidas y bien usadas.
 
 ## Qué son
 

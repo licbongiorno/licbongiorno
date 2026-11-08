@@ -13,7 +13,7 @@ respuesta: La inteligencia es la capacidad de comprender, razonar, aprender de l
 menciona: inteligencia
 revision: 2026-11-06
 ---
-No, no es que seas «burro para las matemáticas» ni «el inteligente de la familia». Esas etiquetas que nos pusieron de chicos —en la escuela, en la mesa del domingo— pesan más de lo que creemos. Hay gente que aprendió a leer el clima de una reunión en dos segundos, que arregla cualquier cosa con las manos, que entiende a un animal o a un bebé sin palabras. ¿Eso no es inteligencia?
+«Burro para las matemáticas», «el inteligente de la familia». Esas etiquetas que nos pusieron de chicos —en la escuela, en la mesa del domingo— pesan más de lo que creemos. Hay gente que aprendió a leer el clima de una reunión en dos segundos, que arregla cualquier cosa con las manos, que entiende a un animal o a un bebé sin palabras. ¿Eso no es inteligencia?
 
 ## Qué es la inteligencia
 

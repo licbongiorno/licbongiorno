@@ -12,7 +12,7 @@ estado: publicado
 respuesta: El cuestionario desiderativo es una técnica proyectiva verbal en la que se pregunta qué le gustaría ser a la persona si no pudiera ser una persona, y qué no le gustaría ser, en los reinos animal, vegetal y de los objetos, explicando por qué. Fue propuesto por Pigem y Córdoba en España en 1946 y desarrollado en Argentina por Jaime Bernstein. Explora deseos, temores, valores y recursos defensivos.
 revision: 2026-11-06
 ---
-No, no es una pregunta de juego de sobremesa, aunque lo parezca. «Si no pudieras ser una persona, ¿qué te gustaría ser?». Alguien dice «un águila, porque vuela alto y nadie la alcanza». Otro, «un árbol, porque da sombra y está siempre en el mismo lugar». Ninguna respuesta es mejor que otra. Pero en el porqué de cada elección aparece algo muy personal.
+«Si no pudieras ser una persona, ¿qué te gustaría ser?». Parece una pregunta de sobremesa. Alguien dice «un águila, porque vuela alto y nadie la alcanza». Otro, «un árbol, porque da sombra y está siempre en el mismo lugar». Ninguna respuesta es mejor que otra. Pero en el porqué de cada elección aparece algo muy personal.
 
 ## Qué es
 

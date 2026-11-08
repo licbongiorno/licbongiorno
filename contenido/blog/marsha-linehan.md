@@ -13,7 +13,7 @@ respuesta: Marsha Linehan, nacida en 1943, es una psicóloga estadounidense, pro
 menciona: linehan, mindfulness
 revision: 2026-11-08
 ---
-No, no es que haya que elegir entre aceptarse o cambiar. Marsha Linehan construyó un tratamiento entero sobre esa tensión: las personas que más sufren necesitan sentirse aceptadas tal como son y, a la vez, aprender a vivir de otra manera. Sostener las dos cosas a la vez es lo que ella llamó dialéctica.
+Aceptarse o cambiar: parece que hubiera que elegir. Marsha Linehan construyó un tratamiento entero sobre esa tensión. Las personas que más sufren necesitan sentirse aceptadas tal como son y, a la vez, aprender a vivir de otra manera. Sostener las dos cosas a la vez es lo que ella llamó dialéctica.
 
 ## Su recorrido
 

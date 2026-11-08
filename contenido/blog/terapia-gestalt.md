@@ -13,7 +13,7 @@ respuesta: La terapia Gestalt es un enfoque de la psicología humanista creado p
 menciona: gestalt, humanista
 revision: 2026-11-06
 ---
-No, no es gritarle a un almohadón ni «sacar todo afuera». Es algo más sutil: notar que mientras me contás que no te importa, apretás el puño. Que hablás de tu tristeza en tercera persona. Que cada vez que nombrás a tu hermano, cambiás de tema. La Gestalt confía en que el cuerpo, los gestos y la forma de hablar dicen mucho, y que darse cuenta de eso ya es empezar a cambiar.
+Me contás que no te importa, y mientras lo decís apretás el puño. Hablás de tu tristeza en tercera persona. Cada vez que nombrás a tu hermano, cambiás de tema. La Gestalt confía en que el cuerpo, los gestos y la forma de hablar dicen mucho, y que darse cuenta de eso ya es empezar a cambiar. Nada que ver con gritarle a un almohadón ni con «sacar todo afuera».
 
 ## De dónde viene
 

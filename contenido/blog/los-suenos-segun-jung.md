@@ -14,7 +14,7 @@ respuesta: Para Carl Gustav Jung, los sueños son expresiones naturales del inco
 revision: 2026-11-05
 menciona: jung, freud, psicologia-analitica
 ---
-No, no es «solo un sueño». Es una carta que te escribiste a vos mismo en un idioma que todavía no aprendiste a leer: con imágenes en lugar de palabras, con casas que no conocés, con personas que ya no están, con escaleras que suben a ninguna parte.
+Una casa que no conocés, una persona que ya no está, una escalera que sube a ninguna parte. Un sueño puede parecer un sinsentido, o «solo un sueño». Para Jung era otra cosa: una carta que te escribiste a vos mismo en un idioma que todavía no aprendiste a leer, con imágenes en lugar de palabras.
 
 Para Carl Gustav Jung, los sueños son una expresión natural y espontánea del inconsciente: la forma en que la psique se comunica con la conciencia a través de imágenes.
 

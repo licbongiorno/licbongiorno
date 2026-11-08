@@ -13,7 +13,7 @@ respuesta: Melanie Klein (1882-1960) fue una psicoanalista nacida en Viena que d
 menciona: melanie-klein, psicoanalisis
 revision: 2026-11-07
 ---
-No, no es una teoría sobre bebés malvados, aunque a veces se la lea así. Melanie Klein observó algo que cualquiera que haya estado cerca de un chico conoce: el amor y el odio aparecen juntos, muy temprano y con mucha fuerza. Y propuso que madurar no es dejar de odiar, sino poder sostener las dos cosas hacia la misma persona.
+Cualquiera que haya estado cerca de un chico lo vio alguna vez: en un mismo minuto abraza a su madre y le pega. Melanie Klein tomó en serio esa escena. Observó que el amor y el odio aparecen juntos, muy temprano y con mucha fuerza, y propuso que madurar no es dejar de odiar, sino poder sostener las dos cosas hacia la misma persona.
 
 ## Quién fue
 

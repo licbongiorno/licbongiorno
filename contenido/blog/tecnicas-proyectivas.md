@@ -12,7 +12,7 @@ estado: publicado
 respuesta: Las técnicas proyectivas son herramientas de evaluación psicológica que presentan estímulos ambiguos o consignas abiertas (un dibujo, una mancha, una historia, una elección) para que la persona responda libremente. Se basan en la idea de que, al hacerlo, proyecta aspectos de su mundo interno. Ejemplos son el Rorschach, el HTP, el test desiderativo y el TAT. Se interpretan dentro de una evaluación más amplia y su respaldo científico es variable.
 revision: 2026-11-06
 ---
-No, no es que el psicólogo «te lea la mente» con un dibujo. Es algo más sencillo y más interesante: cuando nadie te dice cómo hacer algo, lo hacés a tu manera. Dónde ubicás la casa en la hoja, qué historia inventás frente a una imagen, qué animal elegirías ser. En esas elecciones aparece algo tuyo, aunque no lo sepas decir con palabras.
+Cuando nadie te dice cómo hacer algo, lo hacés a tu manera. Dónde ubicás la casa en la hoja, qué historia inventás frente a una imagen, qué animal elegirías ser. En esas elecciones aparece algo tuyo, aunque no lo sepas decir con palabras. En eso se basan las técnicas proyectivas, mucho más que en la idea de que el psicólogo «te lee la mente» con un dibujo.
 
 ## Qué son
 

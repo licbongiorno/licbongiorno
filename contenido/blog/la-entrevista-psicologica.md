@@ -12,7 +12,7 @@ estado: publicado
 respuesta: La entrevista psicológica es una conversación con un objetivo y un encuadre, en la que el profesional busca comprender a la persona: su motivo de consulta, su historia y su forma de vincularse. Puede ser abierta, semidirigida o estructurada. José Bleger la definió como un campo de trabajo en el que importa tanto lo que se dice como lo que ocurre en el vínculo. Es la base de toda evaluación y de toda terapia.
 revision: 2026-11-06
 ---
-No, no es un interrogatorio. Tampoco una charla de café. Es algo intermedio y muy particular: una conversación en la que vos hablás de lo que te pasa y alguien escucha con atención, pregunta lo necesario y presta atención también a lo que no se dice. Es el primer instrumento de cualquier psicólogo, y muchas veces el más importante.
+Ni un interrogatorio ni una charla de café: algo intermedio y muy particular. Una conversación en la que vos hablás de lo que te pasa y alguien escucha con atención, pregunta lo necesario y presta atención también a lo que no se dice. Es el primer instrumento de cualquier psicólogo, y muchas veces el más importante.
 
 ## Qué es
 

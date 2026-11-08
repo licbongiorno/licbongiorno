@@ -34,3 +34,26 @@ Guía tomada del propio texto del Lic. Bongiorno («No es un sillón», Instagra
 Por pedido de Nicolás (noviembre de 2026): al escribir artículos nuevos, hacer **solo la versión para la web**
 (el `.md`, su imagen para compartir y el build). **No generar carruseles de Instagram ni otras piezas para redes**
 hasta que él lo pida.
+
+## Aperturas (desde noviembre de 2026)
+
+«No, no es…» sale de un texto de Nicolás, pero repetido en todos los artículos suena mecánico. Se usa como recurso ocasional:
+
+- como mucho en uno de cada cuatro textos nuevos;
+- nunca en dos textos seguidos de una misma serie.
+
+Otras formas de empezar, alternando:
+
+- **Una escena concreta:** «Son las tres de la mañana y la cabeza sigue dando vueltas…».
+- **Una pregunta directa:** «¿Qué pasa con lo que sentimos y todavía no podemos pensar?».
+- **Un dato o una historia breve:** solo con datos verificados en el mismo texto.
+- **Una definición llana:** «La rumiación es pensar sobre lo mismo sin avanzar».
+- **Una frase que la gente dice o escucha:** «"No lo alces tanto, que se acostumbra"».
+- **Una imagen o una cita breve:** siempre con fuente real.
+- **La primera persona del consultorio:** pocas veces y sin inventar casos.
+
+La idea que se quería discutir con el «no, no es» puede aparecer igual, más adelante en el párrafo.
+
+## Autoría
+
+Los textos generados con ayuda no se atribuyen a Nicolás: ni «escrito por» ni «revisado por», en el texto ni en los datos estructurados. Los artículos no llevan `author` ni `reviewedBy`. Si en el futuro él revisa un texto, se puede indicar en ese texto puntual.

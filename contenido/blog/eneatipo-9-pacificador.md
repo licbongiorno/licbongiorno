@@ -13,7 +13,7 @@ respuesta: El eneatipo 9 del eneagrama, el pacificador, se organiza alrededor de
 menciona: eneagrama
 revision: 2026-11-06
 ---
-No, no es que seas «vago». Es esa facilidad para ver que todos tienen un poco de razón, el «me da igual, elegí vos», la tarea importante que se posterga mientras ordenás un cajón. Es una calma que tranquiliza a todos. Y, a veces, la sensación de estar dormido en tu propia vida.
+«Me da igual, elegí vos». Ves que todos tienen un poco de razón, y la tarea importante se posterga mientras ordenás un cajón. Es una calma que tranquiliza a todos. Y, a veces, la sensación de estar dormido en tu propia vida.
 
 ## Cómo es
 

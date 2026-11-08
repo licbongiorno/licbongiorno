@@ -13,7 +13,7 @@ respuesta: La meditación trascendental es una técnica de meditación con mantr
 menciona: meditacion-trascendental, meditacion
 revision: 2026-11-06
 ---
-No, no es dejar la mente en blanco ni concentrarse con esfuerzo. La propuesta es casi lo opuesto: repetir en silencio una palabra suave y dejar que la atención se asiente sola, sin pelearse con los pensamientos. Veinte minutos a la mañana, veinte a la tarde. Fue una de las primeras meditaciones en volverse masiva en Occidente, de la mano de los Beatles y de las universidades.
+Una palabra suave, repetida en silencio, y la atención que se asienta sola, sin pelearse con los pensamientos. Veinte minutos a la mañana, veinte a la tarde. Lejos de dejar la mente en blanco o de concentrarse con esfuerzo, esa es la propuesta de la meditación trascendental, una de las primeras en volverse masivas en Occidente, de la mano de los Beatles y de las universidades.
 
 ## Qué es
 

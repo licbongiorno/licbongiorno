@@ -13,7 +13,7 @@ respuesta: Jean Piaget (1896-1980) fue un biólogo y psicólogo suizo, creador d
 menciona: piaget, inteligencia
 revision: 2026-11-08
 ---
-No, no es que los chicos piensen como adultos, solo que con menos información. Jean Piaget mostró que piensan de otra manera: con una lógica propia, que va cambiando a medida que crecen. Sus «errores» no son fallas, sino ventanas a cómo está organizado su pensamiento en cada momento.
+Un chico de cinco años jura que en el vaso alto hay más agua que en el ancho, aunque acaba de ver cómo la pasaban de uno a otro. Jean Piaget mostró que ese «error» no es falta de información: los chicos piensan de otra manera, con una lógica propia que va cambiando a medida que crecen.
 
 ## Quién fue
 

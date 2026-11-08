@@ -13,7 +13,7 @@ respuesta: En la tipología de Carl Gustav Jung, el tipo sentimiento extravertid
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es que seas «complaciente». Es esa capacidad de darte cuenta de que alguien está incómodo en una reunión y hacerlo sentir parte. Es acordarte de los cumpleaños de todos, saber qué decir en un velorio, sostener el clima de un grupo. Y, a veces, perderte un poco en lo que los demás esperan de vos.
+Se da cuenta enseguida de que alguien está incómodo en una reunión y lo hace sentir parte. Se acuerda de los cumpleaños de todos, sabe qué decir en un velorio, sostiene el clima de un grupo. Hay quien lo confunde con ser complaciente. Y, a veces, se pierde un poco en lo que los demás esperan.
 
 ## Qué es
 

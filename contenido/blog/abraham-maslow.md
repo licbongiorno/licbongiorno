@@ -13,7 +13,7 @@ respuesta: Abraham Maslow (1908-1970) fue un psicólogo estadounidense, uno de l
 menciona: maslow, humanista, motivacion
 revision: 2026-11-08
 ---
-No, no es que haya que tener todo resuelto para buscar sentido. La famosa «pirámide de Maslow» se enseña como si fuera una escalera rígida, pero Maslow nunca la dibujó así y él mismo aclaró que las necesidades se mezclan. Lo que de verdad quería saber era otra cosa: qué hace que algunas personas vivan con plenitud.
+La famosa «pirámide de Maslow» aparece en manuales de todo tipo, siempre con la misma forma de escalera rígida. Maslow nunca la dibujó así, y él mismo aclaró que las necesidades se mezclan. Lo que de verdad quería saber era otra cosa: qué hace que algunas personas vivan con plenitud.
 
 ## Quién fue
 

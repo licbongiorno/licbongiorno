@@ -13,7 +13,7 @@ respuesta: Aaron T. Beck (1921-2021) fue un psiquiatra estadounidense, creador d
 menciona: aaron-beck, depresion
 revision: 2026-11-08
 ---
-No, no es que la terapia cognitiva le diga a la gente que sus pensamientos están mal. Aaron Beck proponía algo más respetuoso: tratar los pensamientos como hipótesis, y no como hechos, e investigarlos junto con el paciente, como dos científicos. Ese espíritu colaborativo es lo que la volvió tan útil.
+¿Y si los pensamientos fueran hipótesis y no hechos? Aaron Beck propuso tratarlos así, e investigarlos junto con el paciente, como dos científicos. Ese espíritu colaborativo, más que la idea de corregir lo que alguien piensa, es lo que volvió tan útil a la terapia cognitiva.
 
 ## Quién fue
 

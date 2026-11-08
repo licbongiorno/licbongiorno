@@ -13,7 +13,7 @@ respuesta: James Hollis es un analista junguiano estadounidense que se formó en
 menciona: hollis, jung, psicologia-analitica
 revision: 2026-11-08
 ---
-No, no es que a cierta edad «se te cruzaron los cables». Lo que suele llamarse crisis de la mitad de la vida, para James Hollis, es una convocatoria: el momento en que la forma de vivir que armamos para cumplir con lo que se esperaba de nosotros deja de alcanzar, y la vida empieza a preguntar otra cosa.
+Un trabajo que antes entusiasmaba y ahora pesa, una casa armada que de golpe parece ajena, la pregunta que aparece un domingo a la tarde: ¿esto era todo? Lo que suele llamarse crisis de la mitad de la vida, para James Hollis, es una convocatoria: el momento en que la forma de vivir que armamos para cumplir con lo que se esperaba de nosotros deja de alcanzar, y la vida empieza a preguntar otra cosa.
 
 ## Quién es
 

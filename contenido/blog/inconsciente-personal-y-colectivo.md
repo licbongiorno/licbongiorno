@@ -13,7 +13,7 @@ respuesta: Para Carl Gustav Jung, el inconsciente tiene dos capas. El inconscien
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es algo esotérico. Es por qué un chico que nunca vio un dragón le tiene miedo a uno en un cuento, por qué en culturas que nunca se cruzaron aparecen historias de diluvios, de héroes que bajan al infierno y de madres que protegen y devoran. Es por qué un sueño tuyo puede parecerse tanto a un mito que no conocías. Jung se hizo esa pregunta y propuso una respuesta que cambió la psicología.
+¿Por qué un chico que nunca vio un dragón le tiene miedo a uno en un cuento? ¿Por qué en culturas que nunca se cruzaron aparecen historias de diluvios, de héroes que bajan al infierno y de madres que protegen y devoran? ¿Por qué un sueño tuyo puede parecerse tanto a un mito que no conocías? Jung se hizo esas preguntas y propuso una respuesta que cambió la psicología.
 
 ## Primero: qué es el inconsciente
 

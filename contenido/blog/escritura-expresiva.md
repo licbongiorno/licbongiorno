@@ -12,7 +12,7 @@ estado: publicado
 respuesta: La escritura expresiva es un ejercicio desarrollado por el psicólogo James Pennebaker en el que se escribe durante 15 a 20 minutos, tres o cuatro días seguidos, sobre una experiencia difícil, explorando los pensamientos y las emociones más profundos. Los estudios muestran efectos positivos modestos sobre la salud física y emocional. Puede producir malestar pasajero y no se recomienda en crisis ni sobre traumas muy recientes.
 revision: 2026-11-06
 ---
-No, no es llevar un diario ni escribir para que otros lean. Es algo más simple y, a la vez, más exigente: sentarte unos minutos y poner en palabras, sin censura, algo que te dolió y que quizás nunca contaste. Muchas personas me dicen en consulta que «ya lo saben», pero cuando lo escriben aparece algo que no sabían que sabían.
+Unos minutos, una hoja y algo que te dolió y que quizás nunca contaste. Escribirlo sin censura, para nadie más que para vos. Así de simple es la escritura expresiva, y así de exigente. Muchas personas me dicen en consulta que «ya lo saben», pero cuando lo escriben aparece algo que no sabían que sabían.
 
 ## De dónde viene
 

@@ -13,7 +13,7 @@ respuesta: La proyección es un proceso inconsciente por el cual vemos en otras 
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es que todo el mundo esté en tu contra. Es ese compañero de trabajo que te saca de quicio con solo abrir la boca, la persona que admirás tanto que no le ves ningún defecto, el «yo nunca haría eso» que decís con demasiada fuerza. Cuando alguien nos mueve mucho más de lo que justifica la realidad, vale la pena una pregunta incómoda: ¿qué de esto es mío?
+Ese compañero de trabajo que te saca de quicio con solo abrir la boca. La persona que admirás tanto que no le ves ningún defecto. El «yo nunca haría eso» que decís con demasiada fuerza. Cuando alguien nos mueve mucho más de lo que justifica la realidad, vale la pena una pregunta incómoda: ¿qué de esto es mío?
 
 ## Qué es la proyección
 

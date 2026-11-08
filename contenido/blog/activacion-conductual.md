@@ -12,7 +12,7 @@ estado: publicado
 respuesta: La activación conductual es un tratamiento psicológico para la depresión que busca cortar el círculo entre el desánimo y la inactividad, retomando de manera gradual y planificada actividades que den placer, logro o que estén alineadas con los valores de la persona. Fue desarrollada por Neil Jacobson, Christopher Martell y Michael Addis y tiene buen respaldo en la investigación.
 revision: 2026-11-06
 ---
-No, no es «ponerse las pilas» ni salir a distraerse para no pensar. Cuando alguien está deprimido, le decimos a veces «hacé algo, salí», como si fuera cuestión de voluntad. La activación conductual parte de entender algo distinto: con el ánimo bajo, las ganas casi nunca llegan antes de hacer. Suelen llegar después.
+«Hacé algo, salí, ponete las pilas». Es lo que suele escuchar alguien deprimido, como si fuera cuestión de voluntad. La activación conductual parte de entender algo distinto: con el ánimo bajo, las ganas casi nunca llegan antes de hacer. Suelen llegar después.
 
 ## El círculo del desánimo
 

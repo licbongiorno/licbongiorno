@@ -13,7 +13,7 @@ respuesta: El eneatipo 5 del eneagrama, el observador, se organiza alrededor del
 menciona: eneagrama
 revision: 2026-11-06
 ---
-No, no es que seas «frío». Es esa necesidad de irte a tu cuarto después de una reunión, aunque la hayas pasado bien. Es saber todo sobre un tema que a nadie le interesa. Es sentir que el mundo pide demasiado, y que si das todo lo que tenés, te vas a quedar sin nada.
+Después de una reunión, aunque la hayas pasado bien, necesitás irte a tu cuarto. Sabés todo sobre un tema que a nadie le interesa. Y sentís que el mundo pide demasiado, que si das todo lo que tenés te vas a quedar sin nada. Desde afuera puede parecer frialdad. Por dentro es otra cosa.
 
 ## Cómo es
 

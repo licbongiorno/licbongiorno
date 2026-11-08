@@ -13,7 +13,7 @@ respuesta: En la tipología de Carl Gustav Jung, el tipo sensación extravertida
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es que seas «superficial». Es esa capacidad de disfrutar una comida, un paisaje o una canción como si fuera la primera vez. Es reaccionar rápido cuando pasa algo, tener los pies en la tierra, no perder el tiempo con especulaciones. Y, a veces, una dificultad para quedarse con lo que no se ve.
+Disfruta una comida, un paisaje o una canción como si fuera la primera vez. Reacciona rápido cuando pasa algo, tiene los pies en la tierra y no pierde el tiempo con especulaciones. Lo que otros llaman superficialidad es, muchas veces, una forma intensa de estar en el presente. Y, a veces, le cuesta quedarse con lo que no se ve.
 
 ## Qué es
 

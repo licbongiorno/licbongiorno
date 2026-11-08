@@ -13,7 +13,7 @@ respuesta: Sincronicidad es el nombre que Carl Gustav Jung le dio a las coincide
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es magia. Es pensar en alguien que no ves hace años y que justo ese día te escriba. Es soñar con una casa y encontrarla al otro día en una foto. Es abrir un libro al azar en la frase que necesitabas leer. Todos tuvimos alguna. Y todos sentimos lo mismo: un pequeño escalofrío, como si el mundo nos estuviera guiñando un ojo.
+Pensás en alguien que no ves hace años y justo ese día te escribe. Soñás con una casa y la encontrás al otro día en una foto. Abrís un libro al azar en la frase que necesitabas leer. Todos tuvimos alguna. Y todos sentimos lo mismo: un pequeño escalofrío, como si el mundo nos estuviera guiñando un ojo.
 
 ## Qué es la sincronicidad
 

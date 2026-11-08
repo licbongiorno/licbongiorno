@@ -13,7 +13,7 @@ respuesta: Laura Perls (1905-1990) fue una psicóloga alemana, cofundadora de la
 menciona: laura-perls, gestalt
 revision: 2026-11-08
 ---
-No, no es solo «la esposa de Fritz». Laura Perls fue cofundadora de la terapia Gestalt, tenía una formación académica más sólida que la de su marido en psicología de la Gestalt y en filosofía, y sostuvo durante cuarenta años el instituto donde se formaron muchos terapeutas. Su estilo era más callado, y quizás por eso se la nombró menos.
+Cuando se cuenta la historia de la terapia Gestalt, suele aparecer un solo nombre: Fritz Perls. Pero Laura Perls fue cofundadora, tenía una formación académica más sólida que la de su marido en psicología de la Gestalt y en filosofía, y sostuvo durante cuarenta años el instituto donde se formaron muchos terapeutas. Su estilo era más callado, y quizás por eso se la nombró menos.
 
 ## Quién fue
 

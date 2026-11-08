@@ -13,7 +13,7 @@ respuesta: Los tipos psicológicos son una forma de describir las orientaciones 
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es un horóscopo. Es esa amiga que necesita contar lo que le pasa para entenderlo y vos, que necesitás tres días de silencio para saber qué sentís. Es tu pareja, que decide con una planilla, y vos, que decidís con una corazonada. No es que uno esté bien y el otro mal: miran el mundo desde lugares distintos. Jung pasó años tratando de entender esas diferencias.
+Tu amiga necesita contar lo que le pasa para entenderlo; vos necesitás tres días de silencio para saber qué sentís. Tu pareja decide con una planilla; vos, con una corazonada. No es que uno esté bien y el otro mal: miran el mundo desde lugares distintos. Jung pasó años tratando de entender esas diferencias, y lo que propuso está lejos de ser un horóscopo.
 
 ## De dónde salen los tipos psicológicos
 

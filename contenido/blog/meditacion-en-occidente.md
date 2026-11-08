@@ -13,7 +13,7 @@ respuesta: Occidente tiene sus propias tradiciones meditativas: la oración cont
 menciona: meditacion
 revision: 2026-11-06
 ---
-No, no es que la meditación «vino de Oriente» y acá no había nada. Es el monje que repetía una sola frase al ritmo de la respiración en un monasterio del monte Athos. Es la lectura lenta de un texto, palabra por palabra, hasta que una resuena. Es el médico que en Berlín le enseñaba a sus pacientes a sentir el peso y el calor de sus brazos. Occidente también tiene una larga historia de silencio, atención y contemplación.
+Un monje que repite una sola frase al ritmo de la respiración en un monasterio del monte Athos. La lectura lenta de un texto, palabra por palabra, hasta que una resuena. Un médico que en Berlín les enseña a sus pacientes a sentir el peso y el calor de sus brazos. La meditación no vino solo de Oriente: Occidente también tiene una larga historia de silencio, atención y contemplación.
 
 ## La contemplación cristiana
 

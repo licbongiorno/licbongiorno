@@ -13,7 +13,7 @@ respuesta: Albert Bandura (1925-2021) fue un psicólogo canadiense que desarroll
 menciona: bandura, motivacion
 revision: 2026-11-08
 ---
-No, no es que aprendamos solo por premios y castigos. Albert Bandura mostró algo que cualquier madre o padre sospecha: los chicos hacen lo que ven, mucho más que lo que se les dice. Y agregó una idea que hoy usan desde los entrenadores hasta los terapeutas: lo que creemos que podemos hacer cambia lo que efectivamente hacemos.
+Cualquier madre o padre lo sospecha: los chicos hacen lo que ven, mucho más que lo que se les dice. Albert Bandura lo demostró en el laboratorio y agregó una idea que hoy usan desde los entrenadores hasta los terapeutas: lo que creemos que podemos hacer cambia lo que efectivamente hacemos.
 
 ## Quién fue
 

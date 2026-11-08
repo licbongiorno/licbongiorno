@@ -13,7 +13,7 @@ respuesta: Sándor Ferenczi (1873-1933) fue un psicoanalista húngaro, uno de lo
 menciona: ferenczi, freud, psicoanalisis
 revision: 2026-11-07
 ---
-No, no es un nombre menor en la historia del psicoanálisis, aunque durante décadas lo pareció. Ferenczi fue el amigo más cercano de Freud y el analista de pacientes que nadie más quería atender. Se animó a decir algo incómodo para su época: que muchos de los sufrimientos que llegaban a la consulta no eran fantasías, sino heridas que los adultos les habían hecho a los chicos.
+Durante décadas, su nombre apareció en la historia del psicoanálisis casi como una nota al pie. Ferenczi fue el amigo más cercano de Freud y el analista de pacientes que nadie más quería atender. Se animó a decir algo incómodo para su época: que muchos de los sufrimientos que llegaban a la consulta no eran fantasías, sino heridas que los adultos les habían hecho a los chicos.
 
 ## Quién fue
 

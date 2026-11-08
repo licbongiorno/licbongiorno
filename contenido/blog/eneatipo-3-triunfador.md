@@ -13,7 +13,7 @@ respuesta: El eneatipo 3 del eneagrama, el triunfador, se organiza alrededor del
 menciona: eneagrama
 revision: 2026-11-06
 ---
-No, no es que seas «superficial». Es esa agenda llena, el objetivo siguiente apenas cumplido el anterior, la habilidad para leer qué se espera de vos en cada lugar y darlo. Y, a veces, en un domingo sin planes, una pregunta incómoda: ¿quién soy cuando no estoy logrando nada?
+La agenda llena, el objetivo siguiente apenas cumplido el anterior, la habilidad para leer qué se espera de vos en cada lugar y darlo. Y, a veces, en un domingo sin planes, una pregunta incómoda: ¿quién soy cuando no estoy logrando nada?
 
 ## Cómo es
 

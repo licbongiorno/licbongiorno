@@ -13,7 +13,7 @@ respuesta: Heinz Kohut (1913-1981) fue un psicoanalista nacido en Viena que desa
 menciona: kohut, freud, psicoanalisis
 revision: 2026-11-07
 ---
-No, no es que todo lo narcisista sea enfermo. Kohut propuso una idea que cambió muchas consultas: todos necesitamos que alguien nos mire con entusiasmo, tener a quién admirar y sentirnos parte de algo. Cuando eso falta, el self queda frágil, y lo que desde afuera parece soberbia muchas veces es una forma de sostenerse.
+Todos necesitamos que alguien nos mire con entusiasmo, tener a quién admirar y sentirnos parte de algo. Esa idea, simple en apariencia, cambió muchas consultas cuando Heinz Kohut la puso en el centro. Cuando eso falta, el self queda frágil, y lo que desde afuera parece soberbia muchas veces es una forma de sostenerse.
 
 ## Quién fue
 

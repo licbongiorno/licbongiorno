@@ -13,7 +13,7 @@ respuesta: Paul Watzlawick (1921-2007) fue un psicólogo y psicoterapeuta austr�
 menciona: watzlawick, sistemica
 revision: 2026-11-08
 ---
-No, no es que el silencio no diga nada. Paul Watzlawick lo resumió en una frase que se volvió famosa: es imposible no comunicar. Callar, mirar para otro lado o irse también son mensajes. Y muchas veces, cuando discutimos por algo, en realidad estamos discutiendo por otra cosa: por cómo nos tratamos.
+Callar, mirar para otro lado o irse de la habitación también son mensajes. Paul Watzlawick lo resumió en una frase que se volvió famosa: es imposible no comunicar. Y muchas veces, cuando discutimos por algo, en realidad estamos discutiendo por otra cosa: por cómo nos tratamos.
 
 ## Quién fue
 

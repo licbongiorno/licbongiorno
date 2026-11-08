@@ -13,7 +13,7 @@ respuesta: La respiración es la única función automática del cuerpo que tamb
 menciona: pranayama, ansiedad
 revision: 2026-11-06
 ---
-No, no es casualidad que digamos «me quedé sin aire» o «respiré aliviado». Es el suspiro que se escapa después de llorar, el aire que se corta cuando nos asustamos, el resoplido del enojo, la respiración lenta de quien duerme tranquilo. Cada emoción tiene su respiración. Y lo más interesante es que el camino también funciona al revés.
+«Me quedé sin aire». «Respiré aliviado». Es el suspiro que se escapa después de llorar, el aire que se corta cuando nos asustamos, el resoplido del enojo, la respiración lenta de quien duerme tranquilo. Cada emoción tiene su respiración. Y lo más interesante es que el camino también funciona al revés.
 
 ## La única puerta que podemos abrir a voluntad
 

@@ -13,7 +13,7 @@ respuesta: El genograma es una representación gráfica de la familia, de al men
 menciona: genograma, sistemica
 revision: 2026-11-06
 ---
-No, no es solo un árbol genealógico. Es ese momento en que, dibujando a tu familia, notás que la abuela, tu mamá y vos se casaron a la misma edad. Que en cada generación hubo un hermano que se fue lejos y no volvió. Que nadie habla del tío que murió joven. Poner la familia en un papel hace visible lo que de otro modo pasa de largo.
+Dibujando a tu familia en un papel, de pronto lo notás: la abuela, tu mamá y vos se casaron a la misma edad. En cada generación hubo un hermano que se fue lejos y no volvió. Nadie habla del tío que murió joven. Eso es un genograma, algo bastante más que un árbol genealógico: una forma de hacer visible lo que de otro modo pasa de largo.
 
 ## Qué es
 

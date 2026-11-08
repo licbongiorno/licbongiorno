@@ -13,7 +13,7 @@ respuesta: Para Carl Gustav Jung, la «persona» es la máscara social: la forma
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es hipocresía. Es el guardapolvo, la sonrisa de atención al público, la voz que usamos en una reunión de trabajo, el «todo bien» que respondemos sin pensar. Todos usamos máscaras: sin ellas, la vida en sociedad sería imposible. El problema empieza el día en que nos sacamos la máscara frente al espejo y no reconocemos lo que hay debajo.
+El guardapolvo, la sonrisa de atención al público, la voz que usamos en una reunión de trabajo, el «todo bien» que respondemos sin pensar. Todos usamos máscaras, y no es hipocresía: sin ellas, la vida en sociedad sería imposible. El problema empieza el día en que nos sacamos la máscara frente al espejo y no reconocemos lo que hay debajo.
 
 ## Qué es la persona
 

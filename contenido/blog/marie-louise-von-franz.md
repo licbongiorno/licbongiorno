@@ -13,7 +13,7 @@ respuesta: Marie-Louise von Franz (1915-1998) fue una analista junguiana suiza n
 menciona: von-franz, jung, psicologia-analitica
 revision: 2026-11-08
 ---
-No, no es que los cuentos de hadas sean cosa de chicos. Marie-Louise von Franz pasó la vida mostrando lo contrario: que «Blancanieves», «La bella durmiente» o los cuentos populares de cualquier lugar del mundo son como sueños colectivos, y que en ellos se ve, con una claridad que pocas teorías alcanzan, cómo funciona la psique.
+«Blancanieves», «La bella durmiente», un cuento que te contaba tu abuela y que nadie sabe de dónde salió. Marie-Louise von Franz pasó la vida mostrando que esas historias, lejos de ser cosa de chicos, son como sueños colectivos, y que en ellas se ve, con una claridad que pocas teorías alcanzan, cómo funciona la psique.
 
 ## Quién fue
 

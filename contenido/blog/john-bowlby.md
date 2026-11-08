@@ -13,7 +13,7 @@ respuesta: John Bowlby (1907-1990) fue un psiquiatra y psicoanalista británico,
 menciona: bowlby, apego, duelo
 revision: 2026-11-08
 ---
-No, no es que a los chicos haya que «no acostumbrarlos a los brazos». John Bowlby mostró que buscar a quien nos cuida cuando tenemos miedo no es un capricho ni una malcrianza: es una necesidad básica, tan importante como comer. Y que la forma en que esa necesidad fue respondida deja una huella en cómo amamos de grandes.
+«No lo alces tanto, que se acostumbra». Muchas madres y padres escucharon ese consejo. John Bowlby mostró que buscar a quien nos cuida cuando tenemos miedo no es un capricho ni una malcrianza: es una necesidad básica, tan importante como comer. Y que la forma en que esa necesidad fue respondida deja una huella en cómo amamos de grandes.
 
 ## Quién fue
 

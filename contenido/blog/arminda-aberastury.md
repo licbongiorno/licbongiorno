@@ -13,7 +13,7 @@ respuesta: Arminda Aberastury (1910-1972) fue una psicoanalista argentina, pione
 menciona: aberastury, melanie-klein, pichon-riviere, psicoanalisis
 revision: 2026-11-07
 ---
-No, no es que el adolescente «esté insoportable» sin motivo. Arminda Aberastury propuso una forma de mirarlo que todavía hoy alivia a muchas familias: adolescer es despedirse. Del cuerpo de niño, de un lugar en la familia y de los padres que uno tenía de chico. Y los duelos, aunque sean normales, duelen.
+Un portazo, una respuesta cortante, horas encerrado en la pieza. Muchas familias viven así la adolescencia de un hijo. Arminda Aberastury propuso una forma de mirarlo que todavía hoy alivia: adolescer es despedirse. Del cuerpo de niño, de un lugar en la familia y de los padres que uno tenía de chico. Y los duelos, aunque sean normales, duelen.
 
 ## Quién fue
 

@@ -13,7 +13,7 @@ respuesta: La pendulación es un concepto del psicólogo Peter Levine, creador d
 revision: 2026-11-06
 menciona: peter-levine
 ---
-No, no es «aguantarse» la sensación desagradable hasta que se pase. Es casi lo opuesto: ir hacia lo incómodo apenas un poco, por unos segundos, y volver a un lugar del cuerpo donde hay calma. Ir y volver. Como un péndulo. Muchas personas que llegan con el cuerpo en alarma descubren con este ejercicio algo sorprendente: que dentro de ellas también hay lugares tranquilos.
+Ir hacia lo incómodo apenas un poco, por unos segundos, y volver a un lugar del cuerpo donde hay calma. Ir y volver. Como un péndulo. Lejos de «aguantarse» la sensación desagradable hasta que pase, la pendulación propone ese vaivén. Muchas personas que llegan con el cuerpo en alarma descubren con este ejercicio algo sorprendente: que dentro de ellas también hay lugares tranquilos.
 
 ## De dónde viene
 

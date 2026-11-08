@@ -13,7 +13,7 @@ respuesta: El zen es una escuela del budismo que nació en China y se desarroll�
 menciona: zen, meditacion
 revision: 2026-11-06
 ---
-No, no es buscar la iluminación ni poner cara de paz. Es sentarte frente a una pared blanca, con la espalda derecha, y quedarte ahí. Sin objetivos, sin mantras, sin música. Al principio la cabeza protesta, se aburre, se impacienta, inventa urgencias. Y de a poco, en algún momento, algo se acomoda. El zen tiene fama de misterioso, pero su práctica central es de una simpleza casi desconcertante.
+Una pared blanca, la espalda derecha, y quedarte ahí. Sin objetivos, sin mantras, sin música. Al principio la cabeza protesta, se aburre, se impacienta, inventa urgencias. Y de a poco, en algún momento, algo se acomoda. El zen tiene fama de misterioso, pero su práctica central es de una simpleza casi desconcertante.
 
 ## Qué es el zen
 

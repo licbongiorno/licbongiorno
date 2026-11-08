@@ -13,7 +13,7 @@ respuesta: Salvador Minuchin (1921-2017) fue un médico y terapeuta familiar arg
 menciona: minuchin, sistemica
 revision: 2026-11-08
 ---
-No, no es que el chico que se porta mal sea «el problema» de la familia. Salvador Minuchin enseñó a mirar de otra manera: muchas veces el síntoma de un hijo dice algo sobre cómo está organizada la familia entera —quién manda, quién se alía con quién, qué límites se borraron—. Y cambiar esa organización puede hacer que el síntoma deje de ser necesario.
+En muchas familias hay un hijo que carga con la etiqueta de «el problema». Salvador Minuchin enseñó a mirar de otra manera: muchas veces el síntoma de un hijo dice algo sobre cómo está organizada la familia entera —quién manda, quién se alía con quién, qué límites se borraron—. Y cambiar esa organización puede hacer que el síntoma deje de ser necesario.
 
 ## Quién fue
 

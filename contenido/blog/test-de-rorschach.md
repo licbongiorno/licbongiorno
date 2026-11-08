@@ -12,7 +12,7 @@ estado: publicado
 respuesta: El test de Rorschach es una técnica de evaluación de la personalidad creada por el psiquiatra suizo Hermann Rorschach en 1921. Consiste en diez láminas con manchas de tinta, frente a las que la persona dice qué podrían ser. Las respuestas se codifican según qué se ve, dónde y por qué. Hoy se usan sistemas estandarizados como el de John Exner y el R-PAS, y algunos de sus índices tienen buen respaldo empírico.
 revision: 2026-11-06
 ---
-No, no es que haya una respuesta correcta escondida en la mancha. Tampoco que el psicólogo vaya a saber todo de vos por lo que veas. Es más sutil: frente a algo ambiguo, cada uno organiza la percepción a su manera. Algunos ven la mancha entera, otros un detalle mínimo. Algunos se fijan en la forma, otros en el color o en el movimiento.
+Frente a una mancha de tinta, alguien ve la mancha entera y otro se detiene en un detalle mínimo. Uno se fija en la forma; otro, en el color o en el movimiento. No hay una respuesta correcta escondida ni el psicólogo va a saber todo de vos por lo que veas. Lo que importa es más sutil: cómo cada uno organiza la percepción frente a algo ambiguo.
 
 ## Qué es
 

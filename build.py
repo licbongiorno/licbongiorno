@@ -874,7 +874,7 @@ def bloque_glosario():
 
 def glosario_schema():
     return {"@type": "DefinedTermSet", "@id": f"{URL}/glosario-junguiano/#glosario", "name": "Glosario de psicología analítica junguiana",
-            "inLanguage": C["idioma"], "author": {"@id": f"{URL}/#nicolas-bongiorno"},
+            "inLanguage": C["idioma"],
             "hasDefinedTerm": [{"@type": "DefinedTerm", "name": t["termino"], "url": f'{URL}/glosario-junguiano/#{slug(t["termino"])}',
                                 "description": re.sub(r"\[(.+?)\]\(.+?\)", r"\1", " ".join(t["definicion"])).replace("*", "")} for t in GLOSARIO]}
 
@@ -1421,7 +1421,7 @@ def pagina(meta, cuerpo, ruta):
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{canon}">
-<meta name="author" content="{esc(NOMBRE_COMPLETO)}">
+{"" if meta.get("articulo") else f'<meta name="author" content="{esc(NOMBRE_COMPLETO)}">'}
 <meta name="theme-color" content="#F6F1EB" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1B1A17" media="(prefers-color-scheme: dark)">
 <meta name="format-detection" content="telephone=no">
@@ -1548,7 +1548,7 @@ def render_articulo(a):
     <p class="antetitulo"><a href="{ruta_categoria(a["categoria"])}">{esc(a["categoria"])}</a></p>
     <h1 style="view-transition-name: t-{a["archivo"][:-3]}">{esc(a["titulo"])}</h1>
     <p class="bajada">{esc(a["resumen"])}</p>
-    <p class="articulo__meta"><span>Escrito y revisado por <a href="/sobre-mi/">{esc(NOMBRE_COMPLETO)}</a>, psicólogo clínico ({esc(C["matricula"])})</span><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><span>Última revisión: <time datetime="{a.get("revision", a.get("fecha", HOY))}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></span></p>
+    <p class="articulo__meta"><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><span>Publicado en <time datetime="{a.get("revision", a.get("fecha", HOY))}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></span></p>
   </div>
 </section>
 <div class="contenedor--texto prosa prosa--articulo" style="padding-bottom:var(--sec)">
@@ -1572,13 +1572,12 @@ def render_articulo(a):
         "schema_extra": [{
             "@type": "Article", "@id": f'{URL}{a["ruta"]}#articulo', "headline": a["titulo"], "description": a["descripcion"],
             "inLanguage": C["idioma"], "datePublished": a.get("fecha", HOY), "dateModified": a.get("fecha", HOY),
-            "author": {"@id": f"{URL}/#nicolas-bongiorno"}, "publisher": {"@id": f"{URL}/#nicolas-bongiorno"},
+            "publisher": {"@id": f"{URL}/#nicolas-bongiorno"},
             "mainEntityOfPage": f'{URL}{a["ruta"]}', "articleSection": a["categoria"],
             "image": f"{URL}/assets/img/{og}", "keywords": a.get("palabras_clave", ""),
             **({"mentions": menciones, "about": menciones[0]} if menciones else {}),
             "isPartOf": {"@id": f'{URL}{ruta_categoria(a["categoria"])}#pagina'},
         }],
-        "revisado": a.get("revision", a.get("fecha", HOY)),
     }
     return meta, cuerpo
 

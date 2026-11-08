@@ -13,7 +13,7 @@ respuesta: El eneatipo 1 del eneagrama, el perfeccionista, se organiza alrededor
 menciona: eneagrama
 revision: 2026-11-06
 ---
-No, no es que seas «obsesivo». Es ese cuadro torcido que no te deja concentrarte, la frase con un error que releés diez veces, la sensación de que si no lo hacés vos, nadie lo va a hacer bien. Es una voz adentro que corrige todo, empezando por vos. Y que casi nunca descansa.
+Un cuadro torcido que no te deja concentrarte. Una frase con un error que releés diez veces. La sensación de que, si no lo hacés vos, nadie lo va a hacer bien. Es una voz adentro que corrige todo, empezando por vos. Y que casi nunca descansa.
 
 ## Cómo es
 

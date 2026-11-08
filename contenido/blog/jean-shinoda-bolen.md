@@ -13,7 +13,7 @@ respuesta: Jean Shinoda Bolen (1936) es una psiquiatra y analista junguiana esta
 menciona: bolen, jung, psicologia-analitica
 revision: 2026-11-08
 ---
-No, no es un horóscopo con nombres griegos. Jean Shinoda Bolen tomó una idea de Jung —que hay patrones universales que nos atraviesan— y le dio una forma muy concreta: los dioses y diosas del Olimpo como imágenes de fuerzas que, en distinta medida, viven en cada persona. Reconocerlas no encasilla. Ayuda a entender por qué algunas elecciones nos tiran tanto y otras nos cuestan.
+Hay quien se reconoce enseguida en Atenea, la estratega, y quien se siente más cerca de Deméter, la que cuida. Jean Shinoda Bolen tomó una idea de Jung —que hay patrones universales que nos atraviesan— y le dio una forma muy concreta: los dioses y diosas del Olimpo como imágenes de fuerzas que, en distinta medida, viven en cada persona. Reconocerlas no encasilla. Ayuda a entender por qué algunas elecciones nos tiran tanto y otras nos cuestan.
 
 ## Quién es
 

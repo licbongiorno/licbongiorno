@@ -13,7 +13,7 @@ respuesta: El eneatipo 7 del eneagrama, el entusiasta, se organiza alrededor del
 menciona: eneagrama
 revision: 2026-11-06
 ---
-No, no es que seas «inmaduro». Es esa cabeza que ya está en el próximo viaje antes de terminar este, los diez proyectos abiertos, el chiste justo cuando la conversación se pone seria. Es una alegría verdadera y contagiosa. Y, a veces, una forma muy elegante de no quedarse con lo que duele.
+Ya estás pensando en el próximo viaje antes de terminar este. Tenés diez proyectos abiertos y el chiste justo cuando la conversación se pone seria. Es una alegría verdadera y contagiosa. Y, a veces, una forma muy elegante de no quedarse con lo que duele.
 
 ## Cómo es
 

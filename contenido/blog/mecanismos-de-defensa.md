@@ -13,7 +13,7 @@ respuesta: Los mecanismos de defensa son procesos psíquicos, en general inconsc
 menciona: mecanismos-de-defensa, freud
 revision: 2026-11-06
 ---
-No, no es que seas mentiroso. Es ese «no pasa nada» que decís mientras te tiembla la voz. Es el chiste justo cuando la conversación se pone seria, la explicación perfecta para no ir al médico, el enojo con el perro cuando el problema era con tu jefe. Todos lo hacemos. La mente, como el cuerpo, tiene sus maneras de protegerse cuando algo duele demasiado.
+Un «no pasa nada» dicho mientras tiembla la voz. El chiste justo cuando la conversación se pone seria. La explicación perfecta para no ir al médico. El enojo con el perro cuando el problema era con tu jefe. Todos lo hacemos, y no es mentir: la mente, como el cuerpo, tiene sus maneras de protegerse cuando algo duele demasiado.
 
 ## Qué son los mecanismos de defensa
 

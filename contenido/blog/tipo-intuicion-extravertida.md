@@ -13,7 +13,7 @@ respuesta: En la tipología de Carl Gustav Jung, el tipo intuición extravertida
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es que seas «disperso». Es esa cabeza que ve diez posibilidades donde otros ven una, el entusiasmo por cada proyecto nuevo, la capacidad de conectar ideas que nadie había juntado. Es alguien que abre caminos. Y que a veces se aburre antes de recorrerlos.
+Ve diez posibilidades donde otros ven una, se entusiasma con cada proyecto nuevo y conecta ideas que nadie había juntado. Desde afuera puede parecer disperso. Es alguien que abre caminos. Y que a veces se aburre antes de recorrerlos.
 
 ## Qué es
 

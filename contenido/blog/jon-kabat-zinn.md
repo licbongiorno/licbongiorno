@@ -13,7 +13,7 @@ respuesta: Jon Kabat-Zinn, nacido en 1944, es un biólogo molecular y profesor e
 menciona: kabat-zinn, mindfulness, meditacion
 revision: 2026-11-08
 ---
-No, no es que el mindfulness sea dejar la mente en blanco. Jon Kabat-Zinn lo definió de una manera muy simple: prestar atención, a propósito, al momento presente y sin juzgar. Lo nuevo no fue la práctica, que tiene miles de años, sino dónde la llevó: a un hospital, para personas con dolor crónico y estrés a las que la medicina ya no sabía qué ofrecer.
+Prestar atención, a propósito, al momento presente y sin juzgar. Así de simple definió Jon Kabat-Zinn el mindfulness. Lo nuevo no fue la práctica, que tiene miles de años, sino dónde la llevó: a un hospital, para personas con dolor crónico y estrés a las que la medicina ya no sabía qué ofrecer.
 
 ## Su recorrido
 

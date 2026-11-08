@@ -13,7 +13,7 @@ respuesta: La empatía es la capacidad de comprender y resonar con lo que otra p
 menciona: empatia
 revision: 2026-11-06
 ---
-No, no es decir «te entiendo» y cambiar de tema. Es quedarte callado al lado de alguien que llora sin apurarte a darle consejos. Es notar que tu hijo no está enojado con vos, sino asustado. Es ese nudo en la garganta cuando un amigo te cuenta algo que le duele. Y es también, a veces, volver a casa agotado de cargar con lo de todos. La empatía es un don. Y como todo don, pide cuidado.
+Quedarte callado al lado de alguien que llora, sin apurarte a darle consejos. Notar que tu hijo no está enojado con vos, sino asustado. Sentir un nudo en la garganta cuando un amigo te cuenta algo que le duele. Y también, a veces, volver a casa agotado de cargar con lo de todos. La empatía es un don. Y como todo don, pide cuidado.
 
 ## Qué es la empatía
 

@@ -12,7 +12,7 @@ estado: publicado
 respuesta: El test de la figura humana es una técnica proyectiva gráfica en la que se pide dibujar una persona y, a veces, otra del sexo opuesto, y luego conversar sobre ellas. Fue sistematizado por la psicóloga Karen Machover en 1949. Se observan aspectos formales y de contenido, y se interpreta dentro de una evaluación más amplia, porque los rasgos aislados tienen poca validez.
 revision: 2026-11-06
 ---
-No, no es un examen de dibujo. «Dibujá una persona» parece la consigna más obvia del mundo, y sin embargo cada uno la resuelve de una manera propia: de frente o de perfil, grande o chiquita, con detalles o apenas con líneas. Lo que interesa no es si sale linda, sino cómo cada uno se las arregla con la tarea de dibujar a alguien.
+«Dibujá una persona». Parece la consigna más obvia del mundo, y sin embargo cada uno la resuelve de una manera propia: de frente o de perfil, grande o chiquita, con detalles o apenas con líneas. Lo que interesa no es si sale linda, sino cómo cada uno se las arregla con la tarea de dibujar a alguien.
 
 ## Qué es
 

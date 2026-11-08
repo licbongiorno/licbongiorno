@@ -12,7 +12,7 @@ estado: publicado
 respuesta: El test de frases incompletas es una técnica proyectiva verbal en la que se presentan comienzos de frases, como «Mi padre…» o «Lo que más temo…», para que la persona las complete con lo primero que le surja. Los modelos más conocidos son el de Joseph Sacks y el de Julian Rotter, de 1950. Explora áreas como la familia, los vínculos, la imagen de sí y el futuro.
 revision: 2026-11-06
 ---
-No, no es un ejercicio de redacción. «Cuando estoy solo…», «Mi madre…», «Lo que más me cuesta…». Son comienzos de frases, y la consigna es completarlas con lo primero que aparezca. Algunas respuestas salen rápido y sin pensar. Otras se resisten. En las dos cosas hay información.
+«Cuando estoy solo…», «Mi madre…», «Lo que más me cuesta…». Son comienzos de frases, y la consigna es completarlas con lo primero que aparezca. Algunas respuestas salen rápido y sin pensar. Otras se resisten. En las dos cosas hay información.
 
 ## Qué es
 

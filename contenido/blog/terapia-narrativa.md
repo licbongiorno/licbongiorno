@@ -13,7 +13,7 @@ respuesta: La terapia narrativa fue desarrollada por Michael White y David Epsto
 menciona: narrativa
 revision: 2026-11-06
 ---
-No, no es «pensar en positivo» ni contarse un cuento lindo. Es darte cuenta de que la frase «soy un desastre» no es un hecho: es una historia. Una que quizás empezó con un comentario en la escuela, se repitió en casa y terminó pareciendo tu identidad. Y como toda historia, deja cosas afuera: las veces que pudiste, que te animaste, que alguien te vio de otra manera.
+«Soy un desastre». Parece un hecho, pero es una historia. Una que quizás empezó con un comentario en la escuela, se repitió en casa y terminó pareciendo tu identidad. Y como toda historia, deja cosas afuera: las veces que pudiste, que te animaste, que alguien te vio de otra manera.
 
 ## De dónde viene
 

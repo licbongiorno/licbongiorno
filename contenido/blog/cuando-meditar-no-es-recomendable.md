@@ -13,7 +13,7 @@ respuesta: La meditación es segura para la mayoría de las personas, pero no pa
 menciona: meditacion, mindfulness
 revision: 2026-11-06
 ---
-No, no es que «lo estés haciendo mal». Es esa persona que cerró los ojos para relajarse y se encontró con un recuerdo que no quería ver. Es el que salió de un retiro de diez días sintiendo que el mundo era irreal. Es quien sintió que, cuanto más prestaba atención a su respiración, más se ahogaba. Se habla mucho de los beneficios de meditar. Mucho menos de que, a veces, no es lo que hace falta.
+Alguien cierra los ojos para relajarse y se encuentra con un recuerdo que no quería ver. Otro sale de un retiro de diez días sintiendo que el mundo es irreal. Otra persona siente que, cuanto más presta atención a su respiración, más se ahoga. Se habla mucho de los beneficios de meditar. Mucho menos de que, a veces, no es lo que hace falta, y de que eso no significa que lo estés haciendo mal.
 
 ## La meditación no es inocua para todos
 

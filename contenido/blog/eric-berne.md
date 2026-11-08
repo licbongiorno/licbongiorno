@@ -13,7 +13,7 @@ respuesta: Eric Berne (1910-1970) fue un psiquiatra canadiense, creador del aná
 menciona: berne, psicoanalisis
 revision: 2026-11-08
 ---
-No, no es que algunas personas «buscan pelea» por maldad. Eric Berne observó que muchas discusiones siguen un libreto: empiezan con algo inocente, pasan por los mismos pasos y terminan siempre igual, con alguien herido o con razón. A eso lo llamó juegos, y escribió un libro sobre ellos que se volvió un éxito masivo.
+Empieza con algo inocente, pasa por los mismos pasos de siempre y termina igual que la última vez, con alguien herido o con razón. Eric Berne observó que muchas discusiones siguen ese libreto, sin que nadie lo busque a propósito. A eso lo llamó juegos, y escribió un libro sobre ellos que se volvió un éxito masivo.
 
 ## Quién fue
 

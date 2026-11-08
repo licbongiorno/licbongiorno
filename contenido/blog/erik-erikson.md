@@ -13,7 +13,7 @@ respuesta: Erik Erikson (1902-1994) fue un psicoanalista nacido en Alemania que 
 menciona: erikson, psicoanalisis
 revision: 2026-11-08
 ---
-No, no es que la personalidad quede armada a los cinco años. Erik Erikson, que se formó con Anna Freud, se animó a ampliar el psicoanálisis: siguió el desarrollo hasta la vejez y lo pensó en relación con la sociedad. Cada etapa de la vida, decía, trae su propia pregunta. Y la de la adolescencia —quién soy— él la conocía bien.
+¿Quién soy? Erik Erikson conocía bien esa pregunta: nunca supo con certeza quién era su padre biológico. Formado con Anna Freud, se animó a ampliar el psicoanálisis: siguió el desarrollo hasta la vejez y lo pensó en relación con la sociedad. Cada etapa de la vida, decía, trae su propia pregunta.
 
 ## Quién fue
 

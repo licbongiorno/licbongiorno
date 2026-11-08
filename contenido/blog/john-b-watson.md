@@ -13,7 +13,7 @@ respuesta: John B. Watson (1878-1958) fue un psicólogo estadounidense, fundador
 menciona: watson
 revision: 2026-11-08
 ---
-No, no es que el conductismo haya negado que sentimos y pensamos. Lo que John B. Watson propuso fue un método: si la psicología quería ser una ciencia, tenía que estudiar lo que se puede observar y medir. Esa apuesta ordenó la investigación durante décadas. Pero su historia también muestra hasta dónde puede llegar una ciencia sin límites éticos.
+Si la psicología quería ser una ciencia, tenía que estudiar lo que se puede observar y medir. Esa fue la apuesta de John B. Watson, y ordenó la investigación durante décadas. Su historia muestra también otra cosa: hasta dónde puede llegar una ciencia sin límites éticos.
 
 ## Quién fue
 

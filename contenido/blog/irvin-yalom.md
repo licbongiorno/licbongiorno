@@ -13,7 +13,7 @@ respuesta: Irvin Yalom, nacido en 1931, es un psiquiatra estadounidense, profeso
 menciona: yalom, humanista
 revision: 2026-11-08
 ---
-No, no es que la terapia tenga que evitar los grandes temas. Irvin Yalom pasó la vida sosteniendo lo contrario: que la muerte, la libertad, la soledad y la pregunta por el sentido están detrás de muchos síntomas, y que una terapia puede hablar de ellas sin volverse filosofía abstracta. Su forma de hacerlo fue contar historias.
+La muerte, la libertad, la soledad, la pregunta por el sentido. Muchos terapeutas prefieren no tocar esos temas en la consulta. Irvin Yalom pasó la vida sosteniendo lo contrario: que están detrás de muchos síntomas y que una terapia puede hablar de ellos sin volverse filosofía abstracta. Su forma de hacerlo fue contar historias.
 
 ## Su recorrido
 

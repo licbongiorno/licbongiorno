@@ -13,7 +13,7 @@ respuesta: En la tipología de Carl Gustav Jung, el tipo pensamiento extravertid
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es que seas «frío» o «mandón». Es esa necesidad de que las cosas tengan un orden, de que lo que se dice se cumpla, de que una reunión termine con decisiones. Es la persona a la que todos miran cuando hay que organizar algo. Y, a veces, alguien que no sabe muy bien qué hacer con lo que siente.
+Cuando hay que organizar algo, todos lo miran. Necesita que las cosas tengan un orden, que lo que se dice se cumpla, que una reunión termine con decisiones. Desde afuera puede parecer frío o mandón. Y, a veces, es alguien que no sabe muy bien qué hacer con lo que siente.
 
 ## Qué es
 

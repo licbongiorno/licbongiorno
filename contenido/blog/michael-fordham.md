@@ -13,7 +13,7 @@ respuesta: Michael Fordham (1905-1995) fue un psiquiatra infantil y analista jun
 menciona: fordham, jung, psicologia-analitica
 revision: 2026-11-08
 ---
-No, no es que la psicología de Jung sea solo para adultos en la mitad de la vida. Esa fue durante mucho tiempo su fama, y Jung mismo escribió poco sobre los primeros años. Michael Fordham, psiquiatra de niños, se preguntó qué pasa con el sí-mismo desde el nacimiento, y su respuesta abrió una escuela entera.
+Durante mucho tiempo, la psicología de Jung tuvo fama de servir sobre todo para adultos en la mitad de la vida. Jung mismo escribió poco sobre los primeros años. Michael Fordham, psiquiatra de niños, se preguntó qué pasa con el sí-mismo desde el nacimiento, y su respuesta abrió una escuela entera.
 
 ## Quién fue
 

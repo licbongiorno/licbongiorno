@@ -13,7 +13,7 @@ respuesta: Viktor Frankl (1905-1997) fue un neurólogo y psiquiatra austríaco, 
 menciona: viktor-frankl
 revision: 2026-11-08
 ---
-No, no es alguien que haya romantizado el sufrimiento. Viktor Frankl distinguió con cuidado el sufrimiento que se puede evitar, y que hay que evitar, del que no tiene remedio. Y sobre este último se animó a decir algo que solo podía decir alguien que lo había vivido: que incluso ahí queda una libertad, la de elegir la actitud.
+Frankl distinguió con cuidado dos tipos de sufrimiento: el que se puede evitar, y que hay que evitar, y el que no tiene remedio. Sobre este último se animó a decir algo que solo podía decir alguien que lo había vivido en los campos de concentración: que incluso ahí queda una libertad, la de elegir la actitud.
 
 ## Quién fue
 

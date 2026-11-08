@@ -13,7 +13,7 @@ respuesta: El enojo es una emoción natural que suele aparecer cuando sentimos q
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es que tengas «mal carácter». A veces el enojo es el único que se anima a decir lo que vos no dijiste: que te pasaron por encima, que diste de más, que algo no era justo. Nos enseñaron a tragárnoslo con una sonrisa, como quien se traga un carozo. Y el carozo, tarde o temprano, molesta.
+A veces el enojo es el único que se anima a decir lo que vos no dijiste: que te pasaron por encima, que diste de más, que algo no era justo. Nos enseñaron a tragárnoslo con una sonrisa, como quien se traga un carozo, y a pensar que enojarse es tener mal carácter. Y el carozo, tarde o temprano, molesta.
 
 ## Una emoción con mala fama
 

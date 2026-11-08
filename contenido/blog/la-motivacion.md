@@ -13,7 +13,7 @@ respuesta: La motivación es lo que nos impulsa a iniciar, sostener y orientar u
 menciona: motivacion
 revision: 2026-11-06
 ---
-No, no es que seas vago. Es el gimnasio que pagaste y no pisaste, el proyecto que te entusiasmaba en enero y en marzo ya no, la lista de pendientes que crece mientras mirás el techo. Nos dijeron que la motivación es cuestión de voluntad, de «ponerle onda». Pero las ganas no se fabrican a fuerza de exigencia. Tienen sus propias reglas.
+El gimnasio que pagaste y no pisaste. El proyecto que te entusiasmaba en enero y en marzo ya no. La lista de pendientes que crece mientras mirás el techo. Nos dijeron que la motivación es cuestión de voluntad, de «ponerle onda», y que lo demás es ser vago. Pero las ganas no se fabrican a fuerza de exigencia. Tienen sus propias reglas.
 
 ## Qué es la motivación
 

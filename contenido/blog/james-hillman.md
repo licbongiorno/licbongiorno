@@ -13,7 +13,7 @@ respuesta: James Hillman (1926-2011) fue un psicólogo y analista junguiano esta
 menciona: hillman, jung, psicologia-analitica
 revision: 2026-11-08
 ---
-No, no es que haya que «superar» todo lo que duele. James Hillman se animó a discutir una idea central de la psicología moderna: que el objetivo es curar, adaptar y normalizar. Para él, la depresión, la fantasía o el fracaso también son formas en que el alma se expresa, y antes de corregirlas vale la pena escucharlas.
+Curar, adaptar, normalizar: así resume buena parte de la psicología moderna su objetivo. James Hillman se animó a discutirlo. Para él, la depresión, la fantasía o el fracaso también son formas en que el alma se expresa, y antes de corregirlas vale la pena escucharlas.
 
 ## Quién fue
 

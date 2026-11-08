@@ -13,7 +13,7 @@ respuesta: Para Carl Gustav Jung, un símbolo es la mejor expresión posible de 
 menciona: jung, psicologia-analitica
 revision: 2026-11-06
 ---
-No, no es un acertijo. Es la casa de la infancia que aparece en un sueño, el río que no te animás a cruzar, la llave que encontrás en un bolsillo que no era tuyo. Es esa imagen que te queda dando vueltas todo el día aunque no sepas por qué. La psique tiene su propio idioma, y no es el de las palabras. Es el de las imágenes.
+La casa de la infancia que aparece en un sueño, el río que no te animás a cruzar, la llave que encontrás en un bolsillo que no era tuyo. Esa imagen que te queda dando vueltas todo el día aunque no sepas por qué. La psique tiene su propio idioma, y no es el de las palabras. Es el de las imágenes.
 
 ## Signo y símbolo no son lo mismo
 

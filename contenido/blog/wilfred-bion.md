@@ -13,7 +13,7 @@ respuesta: Wilfred Bion (1897-1979) fue un psicoanalista británico nacido en la
 menciona: bion, melanie-klein, psicoanalisis
 revision: 2026-11-07
 ---
-No, no es un autor imposible, aunque tenga fama de difícil. Bion se hizo una pregunta muy concreta: ¿qué pasa con lo que sentimos y todavía no podemos pensar? Su respuesta tiene algo de cotidiano. Un bebé que llora de angustia necesita a alguien que reciba ese llanto, lo entienda y se lo devuelva más tolerable. De ahí, según Bion, nace la capacidad de pensar.
+¿Qué pasa con lo que sentimos y todavía no podemos pensar? Bion tiene fama de autor difícil, pero se hizo esa pregunta tan concreta, y su respuesta tiene algo de cotidiano. Un bebé que llora de angustia necesita a alguien que reciba ese llanto, lo entienda y se lo devuelva más tolerable. De ahí, según Bion, nace la capacidad de pensar.
 
 ## Quién fue
 

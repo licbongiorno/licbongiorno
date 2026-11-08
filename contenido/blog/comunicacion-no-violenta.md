@@ -12,7 +12,7 @@ estado: publicado
 respuesta: La comunicación no violenta (CNV) es un modo de comunicarse desarrollado por el psicólogo Marshall Rosenberg. Propone cuatro pasos: observar los hechos sin juzgar, expresar lo que sentimos, reconocer la necesidad que hay detrás y hacer un pedido concreto. Ayuda a hablar de lo que nos pasa sin atacar ni callarnos, aunque no reemplaza la terapia ni sirve frente a situaciones de violencia.
 revision: 2026-11-06
 ---
-No, no es hablar bajito ni ser «buena onda» todo el tiempo. Es ese momento en la cena en que ibas a decir «vos nunca me escuchás» y te frenás. Es el mensaje que escribiste con bronca y borraste antes de mandarlo. Es la discusión de siempre, con las mismas palabras de siempre, que termina en el mismo lugar de siempre. Entre gritar y tragarse todo, hay otra forma de hablar. Se aprende.
+Ibas a decir «vos nunca me escuchás» y te frenaste. Escribiste un mensaje con bronca y lo borraste antes de mandarlo. Volvió la discusión de siempre, con las mismas palabras de siempre, y terminó en el mismo lugar de siempre. Entre gritar y tragarse todo, hay otra forma de hablar. Y se aprende.
 
 ## Qué es la comunicación no violenta
 
