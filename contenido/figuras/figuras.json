@@ -304,5 +304,113 @@
    "Leer sobre las crisis vitales",
    "/crisis-vitales/"
   ]
+ },
+ "vida-rogers": {
+  "titulo": "La vida de Carl Rogers",
+  "desc": "De un seminario de teología a la psicoterapia centrada en la persona y los grupos de encuentro."
+ },
+ "vida-maslow": {
+  "titulo": "La vida de Abraham Maslow",
+  "desc": "De los monos de Harlow a la autorrealización y las experiencias cumbre."
+ },
+ "vida-fromm": {
+  "titulo": "La vida de Erich Fromm",
+  "desc": "De Fráncfort a Nueva York y a México: el miedo a la libertad y el arte de amar."
+ },
+ "vida-frankl": {
+  "titulo": "La vida de Viktor Frankl",
+  "desc": "De la consejería para jóvenes en Viena a los campos de concentración y la logoterapia.",
+  "enlace": [
+   "Leer sobre la logoterapia",
+   "/recursos/logoterapia-y-sentido/"
+  ]
+ },
+ "vida-may": {
+  "titulo": "La vida de Rollo May",
+  "desc": "De la tuberculosis al estudio de la ansiedad y la psicología existencial en Estados Unidos."
+ },
+ "vida-yalom": {
+  "titulo": "El recorrido de Irvin Yalom",
+  "desc": "Psiquiatra, profesor en Stanford y escritor: de la terapia de grupo a las novelas de la psicoterapia."
+ },
+ "vida-fritz-perls": {
+  "titulo": "La vida de Fritz Perls",
+  "desc": "De Berlín a Sudáfrica, Nueva York y Esalen: el nacimiento de la terapia Gestalt."
+ },
+ "vida-laura-perls": {
+  "titulo": "La vida de Laura Perls",
+  "desc": "Cofundadora de la terapia Gestalt y del Instituto de Nueva York, que dirigió durante décadas."
+ },
+ "vida-naranjo": {
+  "titulo": "La vida de Claudio Naranjo",
+  "desc": "Psiquiatra chileno, discípulo de Perls, difusor del eneagrama y pensador de la educación."
+ },
+ "vida-berne": {
+  "titulo": "La vida de Eric Berne",
+  "desc": "De Montreal a California: el psiquiatra que creó el análisis transaccional."
+ },
+ "rogers-condiciones": {
+  "titulo": "Las tres condiciones de Rogers",
+  "desc": "Para Rogers, el cambio ocurre cuando el terapeuta es congruente, acepta a la persona sin condiciones y la comprende con empatía. No son técnicas, sino actitudes.",
+  "enlace": [
+   "Leer sobre la psicología humanista",
+   "/recursos/psicologia-humanista-carl-rogers/"
+  ]
+ },
+ "maslow-necesidades": {
+  "titulo": "Las necesidades según Maslow",
+  "desc": "Maslow ordenó las necesidades humanas de las más básicas a la autorrealización. Él no dibujó la famosa pirámide, y aclaró que el orden no es rígido: varias necesidades conviven.",
+  "enlace": [
+   "Leer sobre la motivación",
+   "/recursos/la-motivacion/"
+  ]
+ },
+ "fromm-amor": {
+  "titulo": "Los cuatro elementos del amor",
+  "desc": "Para Fromm, amar es un arte que se aprende y tiene cuatro elementos: el cuidado, la responsabilidad, el respeto y el conocimiento del otro."
+ },
+ "frankl-dimensiones": {
+  "titulo": "Las tres dimensiones del ser humano",
+  "desc": "Frankl distinguió en la persona una dimensión corporal, una psíquica y una noética o espiritual: la de la libertad, la responsabilidad y el sentido, que ninguna enfermedad puede enfermar.",
+  "enlace": [
+   "Practicar en el laboratorio de sentido",
+   "/laboratorio-de-sentido/"
+  ]
+ },
+ "may-ansiedad": {
+  "titulo": "Dos caminos ante la ansiedad",
+  "desc": "May distinguió la ansiedad normal, que acompaña a toda elección y se puede afrontar, de la neurótica, que lleva a evitar y a achicar la vida."
+ },
+ "yalom-cuatro": {
+  "titulo": "Las cuatro preocupaciones últimas",
+  "desc": "Yalom describió cuatro hechos de la existencia con los que todos tenemos que vérnoslas: la muerte, la libertad, el aislamiento y la pregunta por el sentido."
+ },
+ "fritz-perls-figura-fondo": {
+  "titulo": "Figura y fondo",
+  "desc": "Una necesidad surge del fondo y se vuelve figura; cuando se satisface, se cierra y vuelve al fondo para dejar lugar a otra. Cuando la figura no se cierra, queda un asunto inconcluso.",
+  "enlace": [
+   "Practicar en el laboratorio Gestalt",
+   "/laboratorio-gestalt/"
+  ]
+ },
+ "laura-perls-contacto-apoyo": {
+  "titulo": "Contacto y apoyo",
+  "desc": "Laura Perls sostenía que el contacto con otro solo es posible en la medida en que hay apoyo: el cuerpo, la respiración, la postura y lo vivido.",
+  "enlace": [
+   "Leer sobre la terapia Gestalt",
+   "/recursos/terapia-gestalt/"
+  ]
+ },
+ "naranjo-actitud": {
+  "titulo": "La actitud gestáltica",
+  "desc": "Naranjo resumió la Gestalt en tres valores: vivir en el aquí y ahora, darse cuenta de lo que pasa y hacerse responsable de lo que uno hace y siente.",
+  "enlace": [
+   "Ver el eneagrama",
+   "/recursos/que-es-el-eneagrama/"
+  ]
+ },
+ "berne-estados-del-yo": {
+  "titulo": "Los estados del yo",
+  "desc": "Berne describió tres estados del yo, Padre, Adulto y Niño, y estudió cómo se comunican entre dos personas: hay transacciones complementarias, como de Adulto a Adulto, y otras que se cruzan."
  }
 }

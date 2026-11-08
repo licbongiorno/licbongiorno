@@ -66,4 +66,4 @@ Es analista junguiano, formado en el Instituto C. G. Jung de Zúrich, y su obra 
 - Hollis, J. (2005). *Finding Meaning in the Second Half of Life*.
 - Jung, C. G. (1930). «Las etapas de la vida».
 
-Este es el último artículo de la tanda de Jung y los junguianos. Volvé a [Clarissa Pinkola Estés](/recursos/clarissa-pinkola-estes/) o empezá desde el principio con [Carl Gustav Jung](/recursos/carl-gustav-jung/).
+Así termina la tanda de Jung y los junguianos. Seguí la serie con [Carl Rogers](/recursos/carl-rogers/) y los enfoques humanistas, o volvé a [Clarissa Pinkola Estés](/recursos/clarissa-pinkola-estes/).

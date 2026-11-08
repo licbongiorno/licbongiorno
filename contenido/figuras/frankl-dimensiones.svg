@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 270">
+<path class="esc-capa esc-capa--3" d="M120 200 H 480 L 520 250 H 80 Z"/>
+<path class="esc-capa esc-capa--2" d="M150 130 H 450 L 480 190 H 120 Z"/>
+<path class="esc-capa esc-capa--1" d="M180 60 H 420 L 450 120 H 150 Z"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M180 60 H 420 L 450 120 H 150 Z"/>
+<text x="300" y="232" text-anchor="middle" font-size="17">el cuerpo</text>
+<text x="300" y="166" text-anchor="middle" font-size="17">la psique</text>
+<text x="300" y="98" text-anchor="middle" font-size="17" class="esc-acento">lo noético</text>
+<text x="300" y="38" text-anchor="middle" class="esc-sans">libertad · sentido · responsabilidad</text>
+</svg>

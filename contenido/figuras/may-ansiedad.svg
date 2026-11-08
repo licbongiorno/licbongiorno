@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 270"><defs><marker id="pf-ma" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="90" cy="135" r="40" class="esc-relleno"/><text x="90" y="141" text-anchor="middle" font-size="16">ansiedad</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-ma)" d="M132 120 C 220 60, 330 60, 440 64"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ma)" d="M132 150 C 220 210, 330 210, 440 206"/>
+<text x="290" y="46" text-anchor="middle" font-size="16">afrontarla</text>
+<text x="290" y="238" text-anchor="middle" font-size="16">evitarla</text>
+<text x="560" y="70" text-anchor="end" font-size="17" class="esc-acento">crecer</text>
+<text x="560" y="212" text-anchor="end" font-size="17">achicarse</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 290">
+<path class="esc-relleno" d="M40 250 H 560 V 270 H 40 Z"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M40 250 H 140 V 200 H 240 V 150 H 340 V 100 H 440 V 50 H 560"/>
+<circle cx="500" cy="50" r="8" class="esc-punto"/>
+<text x="90" y="232" text-anchor="middle" font-size="15">cuerpo</text>
+<text x="190" y="182" text-anchor="middle" font-size="15">seguridad</text>
+<text x="290" y="132" text-anchor="middle" font-size="15">pertenencia</text>
+<text x="390" y="82" text-anchor="middle" font-size="15">estima</text>
+<text x="500" y="30" text-anchor="middle" font-size="15" class="esc-acento">autorrealización</text>
+</svg>
