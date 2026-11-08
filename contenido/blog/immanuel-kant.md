@@ -57,6 +57,8 @@ Piaget estudió cómo se construyen en el desarrollo las categorías que Kant co
 
 Comparó los arquetipos con las categorías kantianas: formas que organizan la experiencia antes de cualquier aprendizaje individual.
 
+Para practicarlo, probá el [Laboratorio de razón y autonomía](/laboratorio-de-la-razon-y-la-autonomia/).
+
 ## Para seguir leyendo
 
 - Kant, I. (1781). *Crítica de la razón pura*.

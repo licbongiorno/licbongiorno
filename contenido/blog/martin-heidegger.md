@@ -57,6 +57,8 @@ Que la conciencia de nuestra finitud puede ayudarnos a vivir de un modo más pro
 
 Sí. Se afilió al partido nazi en 1933 y fue rector de la Universidad de Friburgo bajo el régimen. Es uno de los aspectos más discutidos de su biografía.
 
+Para practicarlo, probá el [Laboratorio de la libertad](/laboratorio-de-la-libertad/).
+
 ## Para seguir leyendo
 
 - Heidegger, M. (1927). *Ser y tiempo*.

@@ -56,6 +56,8 @@ Es una escuela filosófica griega y romana que propone vivir de acuerdo con la r
 
 Ellis y Beck reconocieron que la idea estoica de que nuestras interpretaciones influyen en nuestras emociones es un antecedente de sus terapias.
 
+Para practicarlo, probá el [Laboratorio de razón y autonomía](/laboratorio-de-la-razon-y-la-autonomia/).
+
 ## Para seguir leyendo
 
 - Epicteto. *Enquiridión*.

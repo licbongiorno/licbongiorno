@@ -1,0 +1,162 @@
+<!--{
+  "ruta": "/laboratorio-del-encuentro/",
+  "titulo": "Laboratorio del encuentro: Buber, Hegel y la escucha",
+  "descripcion": "Prácticas para distinguir el encuentro del uso, sentir el reconocimiento que buscamos, sostener dos verdades a la vez y escuchar de verdad.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Encuentro",
+      "/laboratorio-del-encuentro/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio del <em>encuentro</em>",
+  "bajada": "Buber distinguió la relación de encuentro, Yo-Tú, de la relación de uso, Yo-Ello. Hegel pensó que necesitamos ser reconocidos y que dos posiciones opuestas pueden superarse en algo nuevo. Cuatro prácticas para la vida con otros.",
+  "respuesta": "El laboratorio del encuentro propone cuatro prácticas inspiradas en Martin Buber y Georg Wilhelm Friedrich Hegel: distinguir una conversación de encuentro de una de uso, registrar cuánto nos sentimos reconocidos, sostener dos verdades opuestas para buscar una síntesis y practicar una escucha sin responder.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio del encuentro",
+  "articulos": [
+    "martin-buber",
+    "hegel"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Una charla con alguien que quieres puede ser un encuentro, en el que el otro aparece entero, o un intercambio en el que solo se resuelve algo. Buber distinguió esas dos maneras de estar con otros. Hegel mostró que necesitamos ser reconocidos, y que las tensiones entre dos verdades pueden llevar a algo nuevo.</p>
+        <p>Estas prácticas trabajan con la conversación de todos los días.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#yo-tu">Yo-Tú o Yo-Ello</a><a href="#reconocido">¿Me sentí reconocido?</a><a href="#dialectica">Dos verdades a la vez</a><a href="#escucha">Escuchar de verdad</a></nav>
+
+    <section class="lab-estacion revelar" id="yo-tu" aria-labelledby="t-yo-tu">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-yo-tu">Yo-Tú o Yo-Ello</h2>
+      <p class="lab-estacion__bajada">Buber describió dos relaciones: Yo-Tú, el encuentro con el otro como persona entera, y Yo-Ello, la relación con algo que se usa o se conoce. La vida necesita las dos, pero solo la primera es encuentro. Leé sobre <a href="/recursos/martin-buber/">Yo-Tú y Yo-Ello</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-yo-tu" data-escena-sync="#pasos-yo-tu">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-yo-tu-t escena-yo-tu-d"><title id="escena-yo-tu-t">Usar o encontrar</title>
+<circle cx="90" cy="150" r="40" class="esc-calido"/><text x="90" y="156" text-anchor="middle" font-size="17">Yo</text>
+<circle data-paso="1" data-hasta="1" cx="510" cy="150" r="40" class="esc-nodo"/><text data-paso="1" data-hasta="1" x="510" y="156" text-anchor="middle" font-size="17">Ello</text>
+<path data-paso="1" data-hasta="1" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-yt)" d="M134 150 H 466"/>
+<circle data-paso="2" cx="510" cy="150" r="40" class="esc-relleno"/><text data-paso="2" x="510" y="156" text-anchor="middle" font-size="17">Tú</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M134 138 H 466 M134 162 H 466"/>
+<text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">encuentro</text><defs><marker id="pf-yt" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Yo-Ello: uso</li><li>Yo-Tú: encuentro</li><li>Un encuentro</li></ol><p class="escena__desc" id="escena-yo-tu-d">En la relación Yo-Ello, el otro es algo que se usa o se resuelve. En la relación Yo-Tú, el otro aparece entero, y el encuentro sucede en el medio.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-yo-tu" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Una charla.</strong> Pensá en una conversación de hoy, con alguien cercano.</li><li><strong>Yo-Ello.</strong> ¿En qué momento la otra persona era solo alguien que resolvía algo para vos?</li><li><strong>Yo-Tú.</strong> ¿En qué momento apareció entera, con su propia vida y su mirada?</li><li><strong>El próximo.</strong> ¿Qué cambiarías en el próximo encuentro?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yo-tu" data-lab-form-titulo="Yo-Tú o Yo-Ello" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yt-charla">Una conversación de hoy</label><textarea class="lab-texto" id="yt-charla" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yt-ello">¿Cuándo la otra persona fue solo alguien que me resolvía algo?</label><textarea class="lab-texto" id="yt-ello" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yt-tu">¿Cuándo apareció entera, como persona?</label><textarea class="lab-texto" id="yt-tu" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yt-proximo">Qué cambiaría en el próximo encuentro</label><textarea class="lab-texto" id="yt-proximo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="reconocido" aria-labelledby="t-reconocido">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-reconocido">¿Me sentí reconocido?</h2>
+      <p class="lab-estacion__bajada">Hegel pensó que la conciencia se forma en el reconocimiento de otra conciencia: necesitamos sentirnos vistos. Cuando esa necesidad no se cubre, aparecen la lucha, el enojo o el retraimiento. Leé sobre <a href="/recursos/hegel/">Hegel</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Cómo me sentí hoy"><label class="opcion"><input type="radio" name="reconocimiento" value="visto" data-escena-paso="1" checked><span>Visto</span></label><label class="opcion"><input type="radio" name="reconocimiento" value="en-parte" data-escena-paso="2"><span>En parte</span></label><label class="opcion"><input type="radio" name="reconocimiento" value="ignorado" data-escena-paso="3"><span>Ignorado</span></label></div>
+        <div class="lab-panel" data-lab-panel="visto"><p>Cuando te sentís visto, anotá quién te vio y qué hizo que pasara. Eso es un recurso que podés cuidar.</p></div><div class="lab-panel" data-lab-panel="en-parte" hidden><p>Lo que no llegó: ¿qué te hubiera gustado que te dijeran o hicieran? A veces esa necesidad se puede pedir.</p></div><div class="lab-panel" data-lab-panel="ignorado" hidden><p>¿Qué te hubiera hecho sentir visto? Pedirlo con claridad, o buscar a alguien que te reconozca, también es un paso.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-reconocido" data-escena-radios="reconocimiento">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-reconocido-t escena-reconocido-d"><title id="escena-reconocido-t">Reconocer y ser reconocido</title>
+<circle cx="150" cy="150" r="60" class="esc-nodo"/><text x="150" y="156" text-anchor="middle" font-size="16">yo</text>
+<circle cx="450" cy="150" r="60" class="esc-relleno"/><text x="450" y="156" text-anchor="middle" font-size="16">el otro</text>
+<path data-paso="1" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-rc)" d="M214 130 H 384"/><path data-paso="1" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-rc)" d="M386 170 H 216"/>
+<text data-paso="2" x="300" y="100" text-anchor="middle" font-size="16">a medias</text>
+<path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M214 150 H 384" stroke-dasharray="4 8"/><text data-paso="3" x="300" y="250" text-anchor="middle" font-size="16" class="esc-acento">falta el reconocimiento</text>
+<defs><marker id="pf-rc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Nos vemos mutuamente</li><li>A medias</li><li>Falta el reconocimiento</li></ol><p class="escena__desc" id="escena-reconocido-d">El reconocimiento va en dos direcciones: uno se siente visto cuando también ve al otro. Cuando el intercambio se corta, la vida se siente más pesada.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="reconocimiento" data-lab-form-titulo="¿Me sentí reconocido?" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rc-momento">Un momento de hoy en que me sentí así</label><textarea class="lab-texto" id="rc-momento" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rc-necesidad">¿Qué necesitaba que el otro reconociera?</label><textarea class="lab-texto" id="rc-necesidad" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rc-pedir">¿Puedo pedirlo con claridad? ¿Cómo lo diría?</label><textarea class="lab-texto" id="rc-pedir" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="dialectica" aria-labelledby="t-dialectica">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-dialectica">Dos verdades a la vez</h2>
+      <p class="lab-estacion__bajada">Para Hegel, las posiciones opuestas no se eligen una contra la otra: encuentran su negación y, de esa tensión, surge algo que conserva y transforma a las dos. Leé sobre <a href="/recursos/hegel/">La dialéctica</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-dialectica" data-escena-sync="#pasos-dialectica">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-dialectica-t escena-dialectica-d"><title id="escena-dialectica-t">Una síntesis que conserva</title>
+<circle data-paso="1" cx="120" cy="230" r="56" class="esc-nodo"/><text data-paso="1" x="120" y="226" text-anchor="middle" font-size="16">aceptar</text><text data-paso="1" x="120" y="250" text-anchor="middle" class="esc-sans">lo que hay</text>
+<circle data-paso="1" cx="480" cy="230" r="56" class="esc-nodo"/><text data-paso="1" x="480" y="226" text-anchor="middle" font-size="16">cambiar</text><text data-paso="1" x="480" y="250" text-anchor="middle" class="esc-sans">lo que duele</text>
+<circle data-paso="3" cx="300" cy="90" r="46" class="esc-calido"/><text data-paso="3" x="300" y="96" text-anchor="middle" font-size="16" class="esc-acento">síntesis</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-dia)" d="M150 200 L 262 120"/><path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-dia)" d="M450 200 L 338 120"/>
+<text data-paso="4" x="300" y="200" text-anchor="middle" class="esc-sans">conserva las dos</text>
+<defs><marker id="pf-dia" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Acepto lo que hay</li><li>Quiero cambiar lo que duele</li><li>Aparece una síntesis</li><li>Conserva las dos</li></ol><p class="escena__desc" id="escena-dialectica-d">Aceptar y cambiar no son posiciones enemigas. Una síntesis no elige un lado: encuentra algo que conserva lo valioso de los dos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-dialectica" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Una posición.</strong> Escribí una verdad que sostenés sobre un vínculo o una situación.</li><li><strong>Su opuesta.</strong> Escribí la verdad contraria, con la misma seriedad.</li><li><strong>La tensión.</strong> ¿Qué pasa si las dos son ciertas a la vez?</li><li><strong>La síntesis.</strong> Anotá algo nuevo que conserve lo valioso de las dos.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dialectica-verdades" data-lab-form-titulo="Dos verdades a la vez" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dv-a">Una verdad que sostengo</label><p class="lab-paso__ayuda">Por ejemplo: «quiero a esta persona».</p><textarea class="lab-texto" id="dv-a" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dv-b">Su opuesta, con la misma seriedad</label><p class="lab-paso__ayuda">Por ejemplo: «me enoja lo que hace».</p><textarea class="lab-texto" id="dv-b" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dv-sintesis">Algo nuevo que conserve las dos</label><p class="lab-paso__ayuda">Una frase que no elija un lado y pueda ser cierta.</p><textarea class="lab-texto" id="dv-sintesis" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="escucha" aria-labelledby="t-escucha">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-escucha">Escuchar de verdad</h2>
+      <p class="lab-estacion__bajada">En el encuentro, escuchar es dejar que el otro aparezca sin prepararse la respuesta. Es una práctica que Buber y Rogers, cada uno a su manera, pusieron en el centro del vínculo. Leé sobre <a href="/recursos/martin-buber/">Buber</a>.</p>
+      <div class="lab-tarjeta" id="pasos-escucha" data-lab-pasos data-lab-pasos-segundos="90">
+        <ol class="lab-pasos"><li><strong>Elegí a alguien.</strong> Una persona que va a contarte algo, o una grabación de una conversación que hayas tenido.</li><li><strong>Escuchá.</strong> Sin preparar la respuesta. Si aparece, dejala pasar.</li><li><strong>Notá la distracción.</strong> Cuando te vayas, volvé a escuchar.</li><li><strong>Preguntá una vez.</strong> Solo para entender mejor lo que te dijeron.</li></ol>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-escucha" data-escena-sync="#pasos-escucha">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-escucha-t escena-escucha-d"><title id="escena-escucha-t">Escuchar sin preparar</title>
+<circle cx="150" cy="150" r="50" class="esc-nodo"/><text x="150" y="156" text-anchor="middle" font-size="16">hablo</text>
+<circle cx="450" cy="150" r="50" class="esc-relleno"/><text x="450" y="156" text-anchor="middle" font-size="16">escucho</text>
+<path data-paso="1" class="esc-calido-linea trazo-escena" pathLength="1" d="M300 140 Q 300 90 300 150 Q 300 210 300 160"/><text data-paso="2" x="300" y="108" text-anchor="middle" class="esc-sans">me distraigo</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-esc)" d="M402 150 H 200"/><text data-paso="4" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">vuelvo a escuchar</text>
+<defs><marker id="pf-esc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Escucho</li><li>Me distraigo</li><li>Vuelvo a escuchar</li><li>Pregunto una vez</li></ol><p class="escena__desc" id="escena-escucha-d">Escuchar de verdad exige soltar la respuesta preparada. Cuando la distracción aparece, volver a escuchar es la práctica.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="escucha" data-lab-form-titulo="Escuchar de verdad" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-quien">Con quién practiqué</label><input class="lab-campo" id="es-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-distraje">¿En qué momento me distraje?</label><textarea class="lab-texto" id="es-distraje" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-entendi">¿Qué entendí de la otra persona que antes no había visto?</label><textarea class="lab-texto" id="es-entendi" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Buber, M. (1923). <em>Yo y tú</em>.</li><li>Hegel, G. W. F. (1807). <em>Fenomenología del espíritu</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

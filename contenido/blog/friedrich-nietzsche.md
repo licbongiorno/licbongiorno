@@ -60,6 +60,8 @@ Jung lo leyó desde joven y dictó un seminario de cinco años sobre *Así habl�
 
 Es de Nietzsche, de *El crepúsculo de los ídolos*. Viktor Frankl la citó en *El hombre en busca de sentido*.
 
+Para practicarlo, probá el [Laboratorio de razón y autonomía](/laboratorio-de-la-razon-y-la-autonomia/).
+
 ## Para seguir leyendo
 
 - Nietzsche, F. (1883–1885). *Así habló Zaratustra*.

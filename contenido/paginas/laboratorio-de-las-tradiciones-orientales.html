@@ -1,0 +1,160 @@
+<!--{
+  "ruta": "/laboratorio-de-las-tradiciones-orientales/",
+  "titulo": "Laboratorio de tradiciones orientales: Buda, Lao Tse y Suzuki",
+  "descripcion": "Prácticas para llevar a la vida las cuatro nobles verdades, el wu wei, la concentración de los Yoga Sutras y el koan del zen. Teoría y práctica juntas.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Tradiciones orientales",
+      "/laboratorio-de-las-tradiciones-orientales/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de las <em>tradiciones orientales</em>",
+  "bajada": "Estos textos no se leen solo como teoría: se practican. El Buda propuso cuatro verdades para entender el sufrimiento, Lao Tse habló de no forzar, Patañjali de aquietar la mente y Suzuki de un koan que no se resuelve pensando. Cuatro prácticas para ponerlo en el cuerpo.",
+  "respuesta": "El laboratorio de las tradiciones orientales propone cuatro prácticas inspiradas en el Buda, Lao Tse, Patañjali y D. T. Suzuki: aplicar las cuatro nobles verdades a un sufrimiento concreto, practicar el wu wei en algo que se fuerza, sostener la atención en un solo punto como describen los Yoga Sutras, y trabajar un koan del zen.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de las tradiciones orientales",
+  "articulos": [
+    "buda",
+    "lao-tse",
+    "patanjali",
+    "d-t-suzuki"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Un príncipe que deja el palacio, un maestro que aconseja no forzar, un libro de aforismos sobre la mente, un monje que responde con silencio. Son tradiciones distintas, pero todas proponen algo que se hace con el cuerpo y la atención, no solo con las ideas.</p>
+        <p>Las prácticas son sencillas y cortas. Si una te desborda, dejala y volvé cuando quieras.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#verdades">Cuatro verdades en mi día</a><a href="#wu-wei">No forzar</a><a href="#atencion">Una sola cosa</a><a href="#koan">Un koan</a></nav>
+
+    <section class="lab-estacion revelar" id="verdades" aria-labelledby="t-verdades">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-verdades">Cuatro verdades en mi día</h2>
+      <p class="lab-estacion__bajada">El Buda enseñó que existe el sufrimiento, que tiene un origen en el apego, que puede cesar y que hay un camino para que cese. Aplicarlo a algo concreto lo vuelve práctico. Leé sobre <a href="/recursos/buda/">el Buda</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-verdades" data-escena-sync="#pasos-verdades">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-verdades-t escena-verdades-d"><title id="escena-verdades-t">Las cuatro verdades</title>
+<rect data-paso="1" x="30" y="40" width="230" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="145" y="86" text-anchor="middle" font-size="16">sufrimiento</text>
+<rect data-paso="2" x="340" y="40" width="230" height="80" rx="12" class="esc-nodo"/><text data-paso="2" x="455" y="86" text-anchor="middle" font-size="16">origen: apego</text>
+<rect data-paso="3" x="340" y="190" width="230" height="80" rx="12" class="esc-relleno"/><text data-paso="3" x="455" y="236" text-anchor="middle" font-size="16">cese</text>
+<rect data-paso="4" x="30" y="190" width="230" height="80" rx="40" class="esc-calido"/><text data-paso="4" x="145" y="236" text-anchor="middle" font-size="16" class="esc-acento">camino</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M262 80 H 336"/><path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M455 124 V 186"/><path data-paso="4" class="esc-linea trazo-escena" pathLength="1" d="M336 230 H 266"/>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Existe el sufrimiento</li><li>Tiene un origen</li><li>Puede cesar</li><li>Hay un camino</li></ol><p class="escena__desc" id="escena-verdades-d">El diagnóstico tiene cuatro partes: qué duele, qué lo sostiene, qué lo puede aliviar y qué hacer concretamente.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-verdades" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El sufrimiento.</strong> Elegí algo que se repite y te pesa. Describilo sin dramatizar.</li><li><strong>El origen.</strong> ¿Qué querés que pase o que no pase? ¿Qué apego lo sostiene?</li><li><strong>El cese.</strong> Imaginá, aunque sea un poco, cómo sería que eso aflojara.</li><li><strong>El camino.</strong> Una acción chica para esta semana.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cuatro-verdades" data-lab-form-titulo="Cuatro verdades en mi día" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-sufre">Un sufrimiento que se repite</label><textarea class="lab-texto" id="cv-sufre" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-origen">¿Qué quiero que pase o que no pase? ¿Qué lo sostiene?</label><textarea class="lab-texto" id="cv-origen" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-cese">¿Cómo sería que aflojara, aunque sea un poco?</label><textarea class="lab-texto" id="cv-cese" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-camino">Una acción chica para esta semana</label><textarea class="lab-texto" id="cv-camino" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="wu-wei" aria-labelledby="t-wu-wei">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-wu-wei">No forzar</h2>
+      <p class="lab-estacion__bajada">El wu wei es actuar sin forzar: acompañar el curso de las cosas en lugar de empujarlas. Lao Tse lo asoció con el agua, que blanda como es, gasta la piedra. Leé sobre <a href="/recursos/lao-tse/">Lao Tse</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-wu-wei" data-escena-sync="#pasos-wu">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-wu-wei-t escena-wu-wei-d"><title id="escena-wu-wei-t">Acompañar el movimiento</title>
+<circle cx="300" cy="150" r="104" class="esc-relleno"/><path class="esc-calido" d="M300 46 A 52 52 0 0 1 300 150 A 52 52 0 0 0 300 254 A 104 104 0 0 1 300 46 Z"/><circle cx="300" cy="98" r="10" class="esc-relleno"/><circle cx="300" cy="202" r="10" class="esc-calido"/>
+<text data-paso="1" data-hasta="1" x="300" y="290" text-anchor="middle" font-size="16">empujo</text><text data-paso="2" data-hasta="2" x="300" y="290" text-anchor="middle" font-size="16">me detengo</text><text data-paso="3" x="300" y="290" text-anchor="middle" font-size="16" class="esc-acento">acompaño</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Empujo</li><li>Me detengo</li><li>Acompaño</li></ol><p class="escena__desc" id="escena-wu-wei-d">El yin y el yang no se oponen: se transforman uno en otro. Actuar sin forzar es seguir ese movimiento y no imponer el propio.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-wu" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Empujo.</strong> Pensá en algo que estés forzando: una conversación, un proyecto, una persona.</li><li><strong>Me detengo.</strong> Durante un día, dejá de empujar esa cosa. Anotá qué pasa cuando no insistís.</li><li><strong>Acompaño.</strong> Hacé una sola acción pequeña, con atención, en lugar de muchas con tensión.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="wu-wei" data-lab-form-titulo="No forzar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ww-forzo">Algo que estoy forzando</label><textarea class="lab-texto" id="ww-forzo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ww-acompano">Qué pasaría si lo acompañara en lugar de empujarlo</label><textarea class="lab-texto" id="ww-acompano" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ww-accion">Una acción de wu wei para esta semana</label><input class="lab-campo" id="ww-accion" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="atencion" aria-labelledby="t-atencion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-atencion">Una sola cosa</h2>
+      <p class="lab-estacion__bajada">Patañjali definió el yoga como el aquietamiento de los movimientos de la mente. Una de sus etapas, dharana, es sostener la atención en un solo punto. Volver cada vez que se dispersa también es parte de la práctica. Leé sobre <a href="/recursos/patanjali/">Patañjali</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-atencion" data-escena-sync="#pasos-atencion">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-atencion-t escena-atencion-d"><title id="escena-atencion-t">Volver al punto</title>
+<circle cx="300" cy="150" r="100" class="esc-suave" stroke-dasharray="6 6"/><circle data-paso="1" cx="300" cy="150" r="22" class="esc-calido"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="15">aquí</text>
+<circle data-paso="2" cx="420" cy="90" r="12" class="esc-nodo"/><text data-paso="2" x="420" y="70" text-anchor="middle" class="esc-sans">me fui</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-at)" d="M410 102 C 370 140, 330 150, 320 150"/><text data-paso="3" x="300" y="278" text-anchor="middle" font-size="16" class="esc-acento">vuelvo</text>
+<defs><marker id="pf-at" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Pongo la atención aquí</li><li>La mente se va</li><li>Vuelvo sin enojarme</li></ol><p class="escena__desc" id="escena-atencion-d">La práctica no es no distraerse nunca: es notar la distracción y volver al punto, cada vez, sin reproche.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-atencion" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos"><li><strong>El punto.</strong> Elegí tu respiración o un objeto cercano. Quedate con él dos minutos.</li><li><strong>La distracción.</strong> Cuando la mente se vaya, notalo sin juzgar.</li><li><strong>La vuelta.</strong> Regresá al punto, con la misma amabilidad. Contá cuántas veces volviste.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="atencion-punto" data-lab-form-titulo="Una sola cosa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="at-punto">¿Qué punto elegiste?</label><input class="lab-campo" id="at-punto" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="at-veces">¿Cuántas veces volviste?</label><input class="lab-campo" id="at-veces" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="at-notas">¿Qué notaste en el cuerpo y en los pensamientos?</label><textarea class="lab-texto" id="at-notas" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="koan" aria-labelledby="t-koan">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-koan">Un koan</h2>
+      <p class="lab-estacion__bajada">En el zen, un koan es una pregunta que no se resuelve con la lógica, como «¿cuál es el sonido de una sola mano?». La duda que genera puede abrir el satori, una comprensión súbita. Leé sobre <a href="/recursos/d-t-suzuki/">D. T. Suzuki</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-koan" data-escena-sync="#pasos-koan">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-koan-t escena-koan-d"><title id="escena-koan-t">La lógica se detiene</title>
+<rect data-paso="1" x="20" y="100" width="150" height="60" rx="12" class="esc-nodo"/><text data-paso="1" x="95" y="136" text-anchor="middle" font-size="16">el koan</text>
+<rect data-paso="2" x="225" y="100" width="150" height="60" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="136" text-anchor="middle" font-size="16">la duda</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M505 74 A 58 58 0 1 1 468 84"/><text data-paso="3" x="500" y="136" text-anchor="middle" font-size="16" class="esc-acento">satori</text>
+<path class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-ko)" d="M172 130 H 219"/><path class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-ko)" d="M377 130 H 434"/>
+<text data-paso="2" x="300" y="216" text-anchor="middle" class="esc-sans">la lógica se detiene</text>
+<defs><marker id="pf-ko" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>El koan</li><li>La duda</li><li>El satori</li></ol><p class="escena__desc" id="escena-koan-d">El koan no busca una respuesta lógica. Lo que importa es sostener la pregunta hasta que la mente deje de dar vueltas.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-koan" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La pregunta.</strong> «¿Cuál es el sonido de una sola mano?». Leela despacio.</li><li><strong>La respuesta lógica.</strong> Anotá tu primera respuesta, aunque no te convenza.</li><li><strong>La duda.</strong> Dejá que la respuesta lógica no alcance. Quedate con esa sensación un minuto.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="koan" data-lab-form-titulo="Un koan" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ko-primera">Mi primera respuesta lógica</label><textarea class="lab-texto" id="ko-primera" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ko-no">¿Qué pasó cuando la respuesta lógica no alcanzó?</label><textarea class="lab-texto" id="ko-no" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ko-notaste">Algo que notaste sin palabras</label><textarea class="lab-texto" id="ko-notaste" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Las prácticas de atención pueden remover emociones o recuerdos. Si algo te desborda, dejalo y apoyate en el respiro. Leé <a href="/recursos/cuando-meditar-no-es-recomendable/">cuándo meditar no es recomendable</a>, y pedí ayuda si lo necesitás.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Dhammapada (antología de enseñanzas atribuidas al Buda).</li><li>Lao Tse. <em>Tao Te King</em>.</li><li>Patañjali. <em>Yoga Sutras</em>.</li><li>Suzuki, D. T. (1934). <em>Introducción al budismo zen</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -56,6 +56,8 @@ Es un pasaje de la *Fenomenología del espíritu* que describe la lucha de dos c
 
 Porque se basa en sostener a la vez posturas que parecen opuestas, como aceptar a la persona y ayudarla a cambiar, buscando una síntesis entre ellas.
 
+Para practicarlo, probá el [Laboratorio del encuentro](/laboratorio-del-encuentro/).
+
 ## Para seguir leyendo
 
 - Hegel, G. W. F. (1807). *Fenomenología del espíritu*.

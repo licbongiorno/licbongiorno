@@ -56,6 +56,8 @@ Es la tendencia de ciertas ideas a aparecer juntas porque se vivieron juntas, au
 
 El conductismo de Watson heredó la idea de que el ambiente y el aprendizaje forman a la persona, aunque dejó de lado la reflexión, que para Locke era central.
 
+Para practicarlo, probá el [Laboratorio de duda y percepción](/laboratorio-de-duda-y-percepcion/).
+
 ## Para seguir leyendo
 
 - Locke, J. (1690). *Ensayo sobre el entendimiento humano*.

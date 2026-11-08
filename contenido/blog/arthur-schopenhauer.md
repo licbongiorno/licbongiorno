@@ -57,6 +57,8 @@ Freud reconoció que Schopenhauer había anticipado la idea de la represión. Su
 
 Porque pensaba que la vida oscila entre el sufrimiento del deseo insatisfecho y el aburrimiento, y que la felicidad plena es imposible.
 
+Para practicarlo, probá el [Laboratorio de razón y autonomía](/laboratorio-de-la-razon-y-la-autonomia/).
+
 ## Para seguir leyendo
 
 - Schopenhauer, A. (1819). *El mundo como voluntad y representación*.

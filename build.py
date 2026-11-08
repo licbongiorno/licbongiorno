@@ -540,6 +540,18 @@ LABORATORIOS = [
      "descripcion": "Las tres fases de una transición, lo que termina y lo que empieza, un ritual de pasaje y el duelo migratorio."},
     {"titulo": "Laboratorio de aceptación y compromiso", "ruta": "/laboratorio-act/", "tipo": "ACT",
      "descripcion": "Tomar distancia de un pensamiento, hojas en el río, soltar la cuerda, la matriz ACT y acciones comprometidas."},
+    {"titulo": "Laboratorio de duda y percepción", "ruta": "/laboratorio-de-duda-y-percepcion/", "tipo": "Filosofía",
+     "descripcion": "Descartes, Locke y Husserl en práctica: revisar lo que das por sentado, rastrear el origen de una idea y describir sin explicar."},
+    {"titulo": "Laboratorio del cuerpo vivido", "ruta": "/laboratorio-del-cuerpo-vivido/", "tipo": "Filosofía",
+     "descripcion": "Merleau-Ponty y Spinoza para sentir el cuerpo: tocar y ser tocado, ubicar la mano sin mirarla, nombrar un afecto y la pausa antes del reflejo."},
+    {"titulo": "Laboratorio de la libertad", "ruta": "/laboratorio-de-la-libertad/", "tipo": "Filosofía",
+     "descripcion": "Sartre, Heidegger y Kierkegaard: detectar la mala fe, la mirada del otro, estar en el mundo y los estadios de la vida."},
+    {"titulo": "Laboratorio de tradiciones orientales", "ruta": "/laboratorio-de-las-tradiciones-orientales/", "tipo": "Oriente",
+     "descripcion": "El Buda, Lao Tse, Patañjali y Suzuki: las cuatro verdades en tu día, el wu wei, una sola cosa y un koan."},
+    {"titulo": "Laboratorio de razón y autonomía", "ruta": "/laboratorio-de-la-razon-y-la-autonomia/", "tipo": "Filosofía",
+     "descripcion": "Kant, Epicteto, Schopenhauer y Nietzsche: separar lo recibido de lo agregado, fines y medios, y de «debo» a «quiero»."},
+    {"titulo": "Laboratorio del encuentro", "ruta": "/laboratorio-del-encuentro/", "tipo": "Filosofía",
+     "descripcion": "Buber y Hegel para la vida con otros: Yo-Tú o Yo-Ello, el reconocimiento, dos verdades a la vez y escuchar de verdad."},
 ]
 
 TEMAS_LAB = {
@@ -559,8 +571,11 @@ TEMAS_LAB = {
     "/laboratorio-de-sentido/": "Jung y autoconocimiento", "/laboratorio-de-escritura-expresiva/": "Emociones",
     "/laboratorio-de-animo/": "Emociones", "/laboratorio-de-regulacion/": "Cuerpo y respiración",
     "/laboratorio-de-crisis-vitales/": "Aprendizaje y cambio", "/laboratorio-act/": "Enfoques",
+    "/laboratorio-de-duda-y-percepcion/": "Filosofía en práctica", "/laboratorio-del-cuerpo-vivido/": "Filosofía en práctica",
+    "/laboratorio-de-la-libertad/": "Filosofía en práctica", "/laboratorio-de-las-tradiciones-orientales/": "Filosofía en práctica",
+    "/laboratorio-de-la-razon-y-la-autonomia/": "Filosofía en práctica", "/laboratorio-del-encuentro/": "Filosofía en práctica",
 }
-ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio"]
+ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica"]
 
 
 # Un glifo orgánico por tema del catálogo de laboratorios (24×24, trazo).
@@ -571,6 +586,7 @@ GLIFOS_TEMA = {
     "Jung y autoconocimiento": _G.format('<path d="M18.4 7.6A8 8 0 1 0 19.8 13"/><circle cx="12" cy="12" r="1.6"/>'),
     "Cuerpo y respiración": _G.format('<circle cx="12" cy="12" r="2.5"/><path d="M6.5 8.5a6.5 6.5 0 0 0 0 7M17.5 8.5a6.5 6.5 0 0 1 0 7M3.5 6a10 10 0 0 0 0 12M20.5 6a10 10 0 0 1 0 12"/>'),
     "Enfoques": _G.format('<path d="M5 19C5 10 10 5 19 5c0 9-5 14-14 14z"/><path d="M5 19L13 11"/>'),
+    "Filosofía en práctica": _G.format('<path d="M4 19V7l8-3 8 3v12"/><path d="M9 19v-6h6v6"/>'),
     "Aprendizaje y cambio": _G.format('<path d="M12 12c0-1 1-2 2-2s2.5 1 2.5 2.5S15 16 12.5 16 8 14 8 11s2.5-5.5 6-5.5 6 3 6 6.5"/>'),
 }
 

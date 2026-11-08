@@ -56,6 +56,8 @@ Yama y niyama (la ética), asana (las posturas), pranayama (el aliento), pratyah
 
 Lo admiraba como una psicología profunda, pero creía que los occidentales no debían imitarlo sin más, sino buscar su propio camino.
 
+Para practicarlo, probá el [Laboratorio de tradiciones orientales](/laboratorio-de-las-tradiciones-orientales/).
+
 ## Para seguir leyendo
 
 - Patañjali. *Yoga Sutras*.

@@ -57,6 +57,8 @@ El estético, guiado por el placer; el ético, por el deber y el compromiso; y e
 
 Porque puso en el centro al individuo concreto, la libertad, la elección y la angustia, temas que después desarrollaron los filósofos y psicoterapeutas existenciales.
 
+Para practicarlo, probá el [Laboratorio de la libertad](/laboratorio-de-la-libertad/).
+
 ## Para seguir leyendo
 
 - Kierkegaard, S. (1843). *O lo uno o lo otro*.

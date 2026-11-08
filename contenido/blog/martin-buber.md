@@ -57,6 +57,8 @@ En 1957 conversaron sobre si en la relación terapéutica puede haber un encuent
 
 Laura Perls lo conoció en Fráncfort, y su filosofía del diálogo y del encuentro es una de las fuentes de la Gestalt.
 
+Para practicarlo, probá el [Laboratorio del encuentro](/laboratorio-del-encuentro/).
+
 ## Para seguir leyendo
 
 - Buber, M. (1923). *Yo y tú*.

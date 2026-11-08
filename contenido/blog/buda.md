@@ -59,6 +59,8 @@ El mindfulness que se usa en psicología se inspira en la atención plena budist
 
 Es una tradición espiritual y filosófica, pero contiene una descripción muy detallada de la mente y del sufrimiento, por eso dialoga tanto con la psicología.
 
+Para practicarlo, probá el [Laboratorio de tradiciones orientales](/laboratorio-de-las-tradiciones-orientales/).
+
 ## Para seguir leyendo
 
 - *Dhammapada* (antología de enseñanzas atribuidas al Buda).

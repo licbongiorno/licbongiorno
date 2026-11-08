@@ -57,6 +57,8 @@ Es la comprensión súbita o el despertar en el zen: una experiencia directa, m�
 
 Fromm, Horney y Jung encontraron en el zen ideas cercanas al psicoanálisis, como hacer consciente lo inconsciente. Fromm las desarrolló en *Budismo zen y psicoanálisis* (1960).
 
+Para practicarlo, probá el [Laboratorio de tradiciones orientales](/laboratorio-de-las-tradiciones-orientales/).
+
 ## Para seguir leyendo
 
 - Suzuki, D. T. (1934). *Introducción al budismo zen* (con prólogo de C. G. Jung en la edición de 1939).

@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-del-cuerpo-vivido/",
+  "titulo": "Laboratorio del cuerpo vivido: Merleau-Ponty y Spinoza",
+  "descripcion": "Ejercicios para sentir lo que describieron Merleau-Ponty, Spinoza y la idea de reflejo: tocar y ser tocado, el esquema corporal, nombrar los afectos y la pausa.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Cuerpo vivido",
+      "/laboratorio-del-cuerpo-vivido/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio del <em>cuerpo vivido</em>",
+  "bajada": "Para Merleau-Ponty el cuerpo no es algo que tenemos, sino el modo en que estamos en el mundo. Para Spinoza, cada afecto aumenta o disminuye lo que podemos hacer. Cuatro prácticas para sentirlo en vez de solo pensarlo.",
+  "respuesta": "El laboratorio del cuerpo vivido propone cuatro prácticas inspiradas en Maurice Merleau-Ponty y Baruch Spinoza: sentir cómo el cuerpo toca y es tocado, ubicar la mano sin mirarla, nombrar un afecto y ver qué hace en la capacidad de actuar, y entrenar una pausa entre el estímulo y la respuesta automática.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio del cuerpo vivido",
+  "articulos": [
+    "maurice-merleau-ponty",
+    "baruch-spinoza",
+    "rene-descartes"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Juntá las manos y tocá una con la otra. Mientras una toca, la otra siente. Y en cualquier momento puede invertirse. Merleau-Ponty usó esa experiencia mínima para mostrar que el cuerpo es, a la vez, sujeto y objeto.</p>
+        <p>Las prácticas son cortas, con el cuerpo y no solo con la cabeza. Si algo te incomoda, cambiá de práctica sin problema.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tocar">Tocar y ser tocado</a><a href="#esquema">Dónde está mi mano</a><a href="#afectos">Nombrar un afecto</a><a href="#pausa">La pausa antes del reflejo</a></nav>
+
+    <section class="lab-estacion revelar" id="tocar" aria-labelledby="t-tocar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tocar">Tocar y ser tocado</h2>
+      <p class="lab-estacion__bajada">Merleau-Ponty describió que la mano que toca puede ser tocada, y que el cuerpo se experimenta desde adentro, no como un objeto. Leé sobre <a href="/recursos/maurice-merleau-ponty/">Maurice Merleau-Ponty</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-tocar" data-escena-sync="#pasos-tocar">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-tocar-t escena-tocar-d"><title id="escena-tocar-t">Tocar y ser tocado</title>
+<ellipse cx="170" cy="150" rx="105" ry="62" class="esc-nodo"/><text x="170" y="156" text-anchor="middle" font-size="16">toca</text>
+<ellipse cx="430" cy="150" rx="105" ry="62" class="esc-nodo"/><text x="430" y="156" text-anchor="middle" font-size="16">es tocado</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M250 128 C 280 100, 320 100, 350 128"/><path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M350 172 C 320 200, 280 200, 250 172"/>
+<text data-paso="4" x="300" y="270" text-anchor="middle" font-size="16" class="esc-acento">se invierten</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Una mano toca</li><li>La otra lo siente</li><li>Se cruzan los roles</li><li>Se invierten</li></ol><p class="escena__desc" id="escena-tocar-d">Quien toca puede sentirse tocado, y la atención pasa de un lado al otro. Esa reversibilidad es lo que Merleau-Ponty llamó cuerpo vivido.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-tocar" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Juntá las manos.</strong> Palmas abiertas, una sobre la otra, sin apretar.</li><li><strong>Tocá con una.</strong> Pasá la yema de los dedos por la otra, despacio. Notá qué siente la que toca.</li><li><strong>Cambiá.</strong> Dejá que la mano tocada se mueva y toque a la otra.</li><li><strong>Quedate con la pregunta.</strong> ¿Quién toca y quién es tocado en este momento?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cuerpo-tocar" data-lab-form-titulo="Tocar y ser tocado" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-notas">¿Qué notaste cuando cambiaron los roles?</label><textarea class="lab-texto" id="tc-notas" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="esquema" aria-labelledby="t-esquema">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-esquema">Dónde está mi mano</h2>
+      <p class="lab-estacion__bajada">El esquema corporal es el saber práctico que tenemos sobre nuestro cuerpo sin mirarlo: sabemos dónde están nuestras manos sin verlas. Ese saber no pasa por el pensamiento. Leé sobre <a href="/recursos/maurice-merleau-ponty/">Merleau-Ponty</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-esquema" data-escena-sync="#pasos-esquema">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-esquema-t escena-esquema-d"><title id="escena-esquema-t">Ubicar sin mirar</title>
+<circle cx="300" cy="90" r="36" class="esc-suave"/><path class="esc-suave" d="M250 140 H 350 V 240 H 250 Z" rx="12"/>
+<circle data-paso="1" cx="250" cy="170" r="10" class="esc-punto"/><circle data-paso="2" cx="232" cy="200" r="12" class="esc-calido"/><text data-paso="3" x="300" y="284" text-anchor="middle" font-size="16" class="esc-acento">lo compruebo</text>
+<text data-paso="1" x="300" y="34" text-anchor="middle" font-size="16">ojos cerrados</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Cierro los ojos</li><li>Ubico la mano</li><li>Lo compruebo</li></ol><p class="escena__desc" id="escena-esquema-d">Sin mirar, el cuerpo sabe dónde está cada parte. Ubicarla y después comprobarlo muestra cuánto sabemos sin darnos cuenta.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-esquema" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Cerrá los ojos.</strong> Respirá una vez y dejá que la atención llegue a tu mano derecha.</li><li><strong>Ubicala.</strong> Sin moverla, señalá en el aire dónde creés que está, y notá la distancia con el cuerpo.</li><li><strong>Compruebá.</strong> Abrí los ojos y mirala. ¿Qué tan cerca estaba tu ubicación?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="esquema-corporal" data-lab-form-titulo="Dónde está mi mano" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ec-donde">¿Qué tan lejos estaba tu ubicación de la mano real?</label><p class="lab-paso__ayuda">Por ejemplo: «un poco adelante», «justo donde estaba».</p><input class="lab-campo" id="ec-donde" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ec-sentir">¿Qué sentiste al ubicarla sin mirarla?</label><textarea class="lab-texto" id="ec-sentir" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="afectos" aria-labelledby="t-afectos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-afectos">Nombrar un afecto</h2>
+      <p class="lab-estacion__bajada">Spinoza dijo que hay tres afectos básicos: el deseo, la alegría, que aumenta nuestra potencia de actuar, y la tristeza, que la disminuye. Elegí el que sentís y mirá qué hace con tu capacidad de actuar. Leé sobre <a href="/recursos/baruch-spinoza/">Los afectos según Spinoza</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué afecto sentís"><label class="opcion"><input type="radio" name="afecto" value="deseo" data-escena-paso="1" checked><span>El deseo</span></label><label class="opcion"><input type="radio" name="afecto" value="alegria" data-escena-paso="2"><span>La alegría</span></label><label class="opcion"><input type="radio" name="afecto" value="tristeza" data-escena-paso="3"><span>La tristeza</span></label></div>
+        <div class="lab-panel" data-lab-panel="deseo"><p>El deseo es el esfuerzo de seguir siendo. Preguntate hacia qué te lleva: qué querés hacer, con quién, para qué.</p></div><div class="lab-panel" data-lab-panel="alegria" hidden><p>La alegría aumenta lo que podés hacer. Preguntate qué te permite hacer ahora y si podés cuidarla.</p></div><div class="lab-panel" data-lab-panel="tristeza" hidden><p>La tristeza disminuye lo que podés hacer. Preguntate qué te quita fuerza y qué pequeña acción la contrarresta.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-afectos" data-escena-radios="afecto">
+  <svg viewBox="40 10 560 300" role="img" aria-labelledby="escena-afectos-t escena-afectos-d"><title id="escena-afectos-t">Tres afectos básicos</title>
+<path class="esc-linea trazo-escena" pathLength="1" d="M300 160 L 130 70 M300 160 L 470 70 M300 160 L 300 262"/><circle cx="300" cy="160" r="46" class="esc-calido"/><text x="300" y="166" text-anchor="middle" font-size="16">conatus</text>
+<circle data-paso="1" cx="130" cy="70" r="12" class="esc-nodo"/><text data-paso="1" x="130" y="46" text-anchor="middle" font-size="17">deseo</text>
+<circle data-paso="2" cx="470" cy="70" r="12" class="esc-punto"/><text data-paso="2" x="470" y="46" text-anchor="middle" font-size="17" class="esc-acento">alegría</text>
+<circle data-paso="3" cx="300" cy="262" r="12" class="esc-relleno"/><text data-paso="3" x="352" y="268" font-size="17">tristeza</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>El deseo</li><li>La alegría</li><li>La tristeza</li></ol><p class="escena__desc" id="escena-afectos-d">Spinoza describió el esfuerzo de seguir siendo, el conatus, y de ahí se derivan el deseo, la alegría y la tristeza. Un afecto que se entiende deja de dominarnos del mismo modo.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="afecto-entendido" data-lab-form-titulo="Nombrar un afecto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="af-nombre">El afecto que sentí, con sus palabras</label><input class="lab-campo" id="af-nombre" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="af-causa">¿Qué lo causó? Anotá lo que pasó y lo que pensaste</label><p class="lab-paso__ayuda">Entender las causas es lo que, para Spinoza, nos devuelve parte del poder de actuar.</p><textarea class="lab-texto" id="af-causa" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="af-accion">Una acción pequeña que aumente mi capacidad de actuar hoy</label><textarea class="lab-texto" id="af-accion" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="pausa" aria-labelledby="t-pausa">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-pausa">La pausa antes del reflejo</h2>
+      <p class="lab-estacion__bajada">Muchas reacciones son automáticas, como las del reflejo que describieron Descartes y, más tarde, Pávlov. Entre el estímulo y la respuesta hay un espacio chico. Practicar ese espacio cambia la respuesta. Leé sobre <a href="/recursos/ivan-pavlov/">Iván Pávlov</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-pausa" data-escena-sync="#pasos-pausa">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-pausa-t escena-pausa-d"><title id="escena-pausa-t">Entre el estímulo y la respuesta</title>
+<rect data-paso="1" x="30" y="120" width="130" height="60" rx="12" class="esc-nodo"/><text data-paso="1" x="95" y="156" text-anchor="middle" font-size="16">estímulo</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M166 150 H 230"/><rect data-paso="2" x="234" y="120" width="130" height="60" rx="12" class="esc-relleno"/><text data-paso="2" x="299" y="156" text-anchor="middle" font-size="16">reflejo</text>
+<rect data-paso="3" x="234" y="210" width="130" height="50" rx="25" class="esc-calido"/><text data-paso="3" x="299" y="240" text-anchor="middle" font-size="16">respiro</text>
+<path data-paso="4" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-pausa)" d="M370 150 H 470"/><text data-paso="4" x="520" y="156" text-anchor="middle" font-size="16" class="esc-acento">elijo</text>
+<defs><marker id="pf-pausa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Llega un estímulo</li><li>Reacciona el cuerpo</li><li>Respiro una vez</li><li>Elijo la respuesta</li></ol><p class="escena__desc" id="escena-pausa-d">El reflejo es rápido y no se puede evitar del todo. Pero en el espacio que queda, a veces de un segundo, podemos elegir qué hacemos con él.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-pausa" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El estímulo.</strong> Pensá en algo que te dispara una reacción automática: un mensaje, un tono de voz.</li><li><strong>El reflejo.</strong> Notá en qué parte del cuerpo aparece: el pecho, la mandíbula, las manos.</li><li><strong>La pausa.</strong> Respirá una vez, lento, con la exhalación más larga.</li><li><strong>La elección.</strong> Decidí qué querés responder, aunque sea algo chico.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pausa-reflejo" data-lab-form-titulo="La pausa antes del reflejo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-estimulo">El estímulo</label><input class="lab-campo" id="pr-estimulo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-reflejo">La reacción automática y dónde la sentí</label><textarea class="lab-texto" id="pr-reflejo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-respuesta">La respuesta que elegí</label><textarea class="lab-texto" id="pr-respuesta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Merleau-Ponty, M. (1945). <em>Fenomenología de la percepción</em>.</li><li>Spinoza, B. (1677). <em>Ética demostrada según el orden geométrico</em>, parte III.</li><li>Descartes, R. (1649). <em>Las pasiones del alma</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

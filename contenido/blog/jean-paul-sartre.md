@@ -56,6 +56,8 @@ Es engañarse a uno mismo para no asumir la propia libertad, como cuando decimos
 
 Laing y Cooper, dos figuras de la antipsiquiatría, estudiaron su filosofía en *Razón y violencia* (1964), con prólogo del propio Sartre.
 
+Para practicarlo, probá el [Laboratorio de la libertad](/laboratorio-de-la-libertad/).
+
 ## Para seguir leyendo
 
 - Sartre, J.-P. (1943). *El ser y la nada*.

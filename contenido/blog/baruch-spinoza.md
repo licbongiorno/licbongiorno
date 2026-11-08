@@ -57,6 +57,8 @@ El deseo, la alegría y la tristeza. Los demás afectos se derivan de ellos.
 
 Por sus ideas sobre Dios, la Biblia y la religión, que los líderes de la comunidad judía de Ámsterdam consideraron heréticas.
 
+Para practicarlo, probá el [Laboratorio del cuerpo vivido](/laboratorio-del-cuerpo-vivido/).
+
 ## Para seguir leyendo
 
 - Spinoza, B. (1677). *Ética demostrada según el orden geométrico*.

@@ -56,6 +56,8 @@ Es la suspensión de las creencias que damos por sentadas sobre el mundo, para p
 
 Su método inspiró a psiquiatras como Binswanger y, a través de Heidegger, al análisis existencial y a la psicoterapia existencial.
 
+Para practicarlo, probá el [Laboratorio de duda y percepción](/laboratorio-de-duda-y-percepcion/).
+
 ## Para seguir leyendo
 
 - Husserl, E. (1900-1901). *Investigaciones lógicas*.

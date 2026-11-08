@@ -1,0 +1,181 @@
+<!--{
+  "ruta": "/laboratorio-de-la-razon-y-la-autonomia/",
+  "titulo": "Laboratorio de razón y autonomía: Kant, Epicteto y Nietzsche",
+  "descripcion": "Separar lo que recibimos de lo que agregamos, distinguir lo que depende de nosotros, tratar a otros como fines y pasar de «debo» a «quiero».",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Razón y autonomía",
+      "/laboratorio-de-la-razon-y-la-autonomia/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de la <em>razón y la autonomía</em>",
+  "bajada": "Kant pensó que la mente pone formas a lo que percibe; Epicteto, que nos perturban las opiniones; Schopenhauer, que por debajo de lo que queremos hay una voluntad; Nietzsche, que podemos pasar del «tú debes» al «yo quiero». Cinco prácticas para pensar con ellos.",
+  "respuesta": "El laboratorio de la razón y la autonomía propone cinco prácticas inspiradas en Immanuel Kant, Epicteto, Arthur Schopenhauer y Friedrich Nietzsche: separar lo recibido de lo agregado, distinguir lo que depende de nosotros, pensar si tratamos a alguien como medio o como fin, rastrear lo que queremos detrás de lo que queremos y transformar un «debo» en una elección.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de la razón y la autonomía",
+  "articulos": [
+    "immanuel-kant",
+    "epicteto",
+    "arthur-schopenhauer",
+    "friedrich-nietzsche"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay una situación de hoy que te molestó. Antes de juzgarla, vale preguntarse qué pasó y qué le agregaste vos. Esa distinción es el punto de partida de Kant. Desde ahí, las otras prácticas ayudan a pensar con más libertad.</p>
+        <p>Son ejercicios de reflexión. Escribir ayuda más que pensar sin papel.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#recibo">Lo que recibo y lo que agrego</a><a href="#depende">Lo que depende de mí</a><a href="#fines">Fines, no medios</a><a href="#voluntad">Lo que quiero de lo que quiero</a><a href="#espiritu">De «debo» a «quiero»</a></nav>
+
+    <section class="lab-estacion revelar" id="recibo" aria-labelledby="t-recibo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-recibo">Lo que recibo y lo que agrego</h2>
+      <p class="lab-estacion__bajada">Kant sostuvo que la experiencia surge de dos cosas: lo que llega por los sentidos y las formas que pone la mente, como el espacio, el tiempo y la causa. Separarlas en una situación concreta es un ejercicio de lucidez. Leé sobre <a href="/recursos/immanuel-kant/">Kant y el conocimiento</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-recibo" data-escena-sync="#pasos-recibo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-recibo-t escena-recibo-d"><title id="escena-recibo-t">Lo que pasó y lo que agregué</title>
+<rect data-paso="1" x="30" y="60" width="180" height="60" rx="12" class="esc-nodo"/><text data-paso="1" x="120" y="96" text-anchor="middle" font-size="16">lo que pasó</text>
+<rect data-paso="2" x="30" y="170" width="180" height="60" rx="12" class="esc-relleno"/><text data-paso="2" x="120" y="206" text-anchor="middle" font-size="16">lo que agregué</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M212 200 C 280 200, 300 170, 380 160"/><path data-paso="1" class="esc-linea trazo-escena" pathLength="1" d="M212 90 C 280 90, 300 130, 380 140"/>
+<rect data-paso="3" x="380" y="110" width="190" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="475" y="158" text-anchor="middle" font-size="16" class="esc-acento">mi experiencia</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que pasó</li><li>Lo que agregué</li><li>Mi experiencia</li></ol><p class="escena__desc" id="escena-recibo-d">Lo que sucede y lo que le añadimos con juicios, temores o historias forman juntos la experiencia. Separarlos abre espacio para elegir.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-recibo" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Lo que pasó.</strong> Describí la situación como si fuera una cámara: sin adjetivos.</li><li><strong>Lo que agregué.</strong> Anotá los juicios, las interpretaciones y los temores que sumaste.</li><li><strong>Mi experiencia.</strong> Escribí cómo la vivís ahora, sabiendo qué es hecho y qué es interpretación.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="recibo-agrego" data-lab-form-titulo="Lo que recibo y lo que agrego" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-situacion">Una situación de hoy</label><textarea class="lab-texto" id="ra-situacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-hechos">Lo que pasó, sin juicios</label><textarea class="lab-texto" id="ra-hechos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-agregue">Lo que yo agregué: juicios, miedos, historias</label><textarea class="lab-texto" id="ra-agregue" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="depende" aria-labelledby="t-depende">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-depende">Lo que depende de mí</h2>
+      <p class="lab-estacion__bajada">Epicteto separó lo que depende de nosotros —juicios, deseos y acciones— de lo que no: el cuerpo, la reputación, lo que hacen los demás. Gran parte del malestar viene de querer controlar lo segundo. Leé sobre <a href="/recursos/epicteto/">Epicteto</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-depende" data-escena-sync="#pasos-depende">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-depende-t escena-depende-d"><title id="escena-depende-t">Dos círculos</title>
+<circle data-paso="1" cx="170" cy="150" r="110" class="esc-relleno"/><text data-paso="1" x="170" y="130" text-anchor="middle" font-size="16">depende de mí</text><text data-paso="1" x="170" y="170" text-anchor="middle" class="esc-sans">juicio · acción</text>
+<circle data-paso="2" cx="430" cy="150" r="110" class="esc-nodo"/><text data-paso="2" x="430" y="130" text-anchor="middle" font-size="16">no depende</text><text data-paso="2" x="430" y="170" text-anchor="middle" class="esc-sans">los otros · el clima</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-dep)" d="M170 262 C 200 290, 400 290, 430 262"/><text data-paso="3" x="300" y="300" text-anchor="middle" font-size="16" class="esc-acento">elijo mi respuesta</text>
+<defs><marker id="pf-dep" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que depende de mí</li><li>Lo que no depende</li><li>Elijo mi respuesta</li></ol><p class="escena__desc" id="escena-depende-d">Lo que está en nuestras manos es la respuesta, no el resultado de todo. Concentrar la energía ahí cambia cómo vivimos lo que no controlamos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-depende" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La situación.</strong> Elegí algo que te preocupa de hoy.</li><li><strong>Dos columnas.</strong> En una, lo que depende de vos. En la otra, lo que no.</li><li><strong>La respuesta.</strong> Escribí la acción que sí podés elegir, aunque sea pequeña.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="depende-de-mi" data-lab-form-titulo="Lo que depende de mí" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dm-situacion">Algo que me preocupa hoy</label><input class="lab-campo" id="dm-situacion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dm-depende">Lo que depende de mí</label><textarea class="lab-texto" id="dm-depende" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dm-no">Lo que no depende de mí</label><textarea class="lab-texto" id="dm-no" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dm-respuesta">La respuesta que elijo</label><textarea class="lab-texto" id="dm-respuesta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="fines" aria-labelledby="t-fines">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-fines">Fines, no medios</h2>
+      <p class="lab-estacion__bajada">Kant propuso tratar a las personas siempre como fines y nunca solo como medios. Usar a alguien para conseguir algo no siempre es malo, pero conviene notarlo. Leé sobre <a href="/recursos/immanuel-kant/">Immanuel Kant</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-fines" data-escena-sync="#pasos-fines">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-fines-t escena-fines-d"><title id="escena-fines-t">De medio a fin</title>
+<circle data-paso="1" cx="130" cy="150" r="58" class="esc-nodo"/><text data-paso="1" x="130" y="146" text-anchor="middle" font-size="16">otra</text><text data-paso="1" x="130" y="170" text-anchor="middle" class="esc-sans">persona</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-fin)" d="M198 150 H 292"/><rect data-paso="2" x="296" y="116" width="120" height="68" rx="12" class="esc-relleno"/><text data-paso="2" x="356" y="146" text-anchor="middle" font-size="16">medio</text><text data-paso="2" x="356" y="170" text-anchor="middle" class="esc-sans">para algo</text>
+<path data-paso="3" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-fin)" d="M430 150 H 470"/><circle data-paso="3" cx="500" cy="150" r="30" class="esc-punto"/><text data-paso="3" x="500" y="210" text-anchor="middle" class="esc-sans">fin en sí</text>
+<defs><marker id="pf-fin" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Veo a otra persona</li><li>La uso como medio</li><li>La veo como fin</li></ol><p class="escena__desc" id="escena-fines-d">Cuando una persona se vuelve solo un medio, la relación pierde algo. Preguntarnos qué le estamos pidiendo, sin preguntarle, es el primer paso para verla como fin.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-fines" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La persona.</strong> Pensá en alguien a quien le pedís algo con frecuencia: trabajo, afecto, aprobación.</li><li><strong>El medio.</strong> ¿Qué le estás pidiendo, y le preguntaste si puede darlo?</li><li><strong>El fin.</strong> ¿Cómo la tratarías si la viera como alguien con sus propios fines?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fines-personas" data-lab-form-titulo="Fines, no medios" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fp-persona">Una persona a la que le pido algo con frecuencia</label><input class="lab-campo" id="fp-persona" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fp-pido">¿Qué le pido, y se lo pregunté?</label><textarea class="lab-texto" id="fp-pido" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fp-fin">¿Cómo la trataría si la viera como alguien con sus propios fines?</label><textarea class="lab-texto" id="fp-fin" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="voluntad" aria-labelledby="t-voluntad">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-voluntad">Lo que quiero de lo que quiero</h2>
+      <p class="lab-estacion__bajada">Schopenhauer describió el mundo como representación y, por debajo, una voluntad que nos mueve. Muchas veces creemos querer algo que en realidad responde a una necesidad más honda. Preguntar «¿para qué?» varias veces lo muestra. Leé sobre <a href="/recursos/arthur-schopenhauer/">Voluntad y representación</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-voluntad" data-escena-sync="#pasos-voluntad">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-voluntad-t escena-voluntad-d"><title id="escena-voluntad-t">Preguntar por debajo</title>
+<circle data-paso="1" cx="300" cy="90" r="50" class="esc-nodo"/><text data-paso="1" x="300" y="96" text-anchor="middle" font-size="16">quiero algo</text>
+<circle data-paso="2" cx="300" cy="170" r="50" class="esc-relleno"/><text data-paso="2" x="300" y="176" text-anchor="middle" font-size="16">¿para qué?</text>
+<circle data-paso="3" cx="300" cy="250" r="34" class="esc-calido"/><text data-paso="3" x="300" y="256" text-anchor="middle" font-size="16" class="esc-acento">necesito</text>
+<path class="esc-linea trazo-escena" pathLength="1" d="M300 140 V 120"/><path class="esc-linea trazo-escena" pathLength="1" d="M300 220 V 216"/>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Quiero algo</li><li>¿Para qué lo quiero?</li><li>Lo que necesito</li></ol><p class="escena__desc" id="escena-voluntad-d">Cada «¿para qué?» baja un nivel. Lo que aparece al final suele ser una necesidad concreta, más honda que el deseo inicial.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-voluntad" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Un deseo.</strong> Escribí algo que querés hoy, en una frase.</li><li><strong>Un porqué.</strong> ¿Para qué lo querés? Escribí la respuesta.</li><li><strong>Otro porqué.</strong> Repetí la pregunta sobre la última respuesta, dos veces más.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="voluntad-debajo" data-lab-form-titulo="Lo que quiero de lo que quiero" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vo-deseo">Algo que quiero hoy</label><input class="lab-campo" id="vo-deseo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vo-para">¿Para qué lo quiero?</label><textarea class="lab-texto" id="vo-para" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vo-debajo">¿Qué hay debajo de la última respuesta?</label><textarea class="lab-texto" id="vo-debajo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="espiritu" aria-labelledby="t-espiritu">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-espiritu">De «debo» a «quiero»</h2>
+      <p class="lab-estacion__bajada">Nietzsche describió tres transformaciones del espíritu: el camello carga con el «tú debes»; el león dice «yo quiero»; el niño, un comienzo nuevo. No se trata de evitar las obligaciones, sino de elegirlas. Leé sobre <a href="/recursos/friedrich-nietzsche/">Friedrich Nietzsche</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-espiritu" data-escena-sync="#pasos-espiritu">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-espiritu-t escena-espiritu-d"><title id="escena-espiritu-t">Del camello al niño</title>
+<circle data-paso="1" cx="95" cy="150" r="52" class="esc-nodo"/><text data-paso="1" x="95" y="146" text-anchor="middle" font-size="16">camello</text><text data-paso="1" x="95" y="170" text-anchor="middle" class="esc-sans">«tú debes»</text>
+<circle data-paso="2" cx="300" cy="150" r="52" class="esc-calido"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">león</text><text data-paso="2" x="300" y="170" text-anchor="middle" class="esc-sans">«yo quiero»</text>
+<circle data-paso="3" cx="505" cy="150" r="52" class="esc-relleno"/><text data-paso="3" x="505" y="146" text-anchor="middle" font-size="16">niño</text><text data-paso="3" x="505" y="170" text-anchor="middle" class="esc-sans">un comienzo</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-esp)" d="M152 150 H 244"/><path data-paso="3" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-esp)" d="M356 150 H 449"/>
+<defs><marker id="pf-esp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Camello: «tú debes»</li><li>León: «yo quiero»</li><li>Niño: un comienzo</li></ol><p class="escena__desc" id="escena-espiritu-d">Cargar con el «debo» es el primer paso. Lo que lo transforma es decir «quiero» o «elijo», incluso sobre lo que cuesta.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-espiritu" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El debo.</strong> Escribí un «debo» que cargás y no elegiste.</li><li><strong>El quiero.</strong> Reescribilo con «quiero» o «elijo», aunque sea sobre algo que cuesta.</li><li><strong>El comienzo.</strong> Escribí una acción que nace de esa elección.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="de-debo-a-quiero" data-lab-form-titulo="De debo a quiero" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dq-debo">Un «debo» que cargo</label><p class="lab-paso__ayuda">Por ejemplo: «debo ir a esa reunión», «debo llamar a mi madre».</p><textarea class="lab-texto" id="dq-debo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dq-quiero">Reescribilo con «quiero» o «elijo»</label><textarea class="lab-texto" id="dq-quiero" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dq-comienzo">Una acción que nace de esa elección</label><textarea class="lab-texto" id="dq-comienzo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Kant, I. (1785). <em>Fundamentación de la metafísica de las costumbres</em>.</li><li>Epicteto. <em>Enquiridión</em>.</li><li>Schopenhauer, A. (1819). <em>El mundo como voluntad y representación</em>.</li><li>Nietzsche, F. (1883). <em>Así habló Zaratustra</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

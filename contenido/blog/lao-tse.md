@@ -56,6 +56,8 @@ Es la idea taoísta de actuar sin forzar, acompañando el curso natural de las c
 
 Jung encontró en el tao una imagen de la unión de los opuestos y comentó, junto con Richard Wilhelm, el texto taoísta *El secreto de la flor de oro*.
 
+Para practicarlo, probá el [Laboratorio de tradiciones orientales](/laboratorio-de-las-tradiciones-orientales/).
+
 ## Para seguir leyendo
 
 - Lao Tse. *Tao Te King*.

@@ -1,0 +1,157 @@
+<!--{
+  "ruta": "/laboratorio-de-duda-y-percepcion/",
+  "titulo": "Laboratorio de duda y percepción: Descartes, Locke y Husserl",
+  "descripcion": "Ejercicios para practicar la duda metódica, la tabla rasa de Locke y la epojé de Husserl: revisar lo que das por sentado y describir sin explicar.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Duda y percepción",
+      "/laboratorio-de-duda-y-percepcion/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>duda y percepción</em>",
+  "bajada": "Descartes dudó para llegar a algo seguro, Locke pensó la mente como una hoja en blanco y Husserl propuso describir la experiencia antes de explicarla. Cuatro prácticas para llevar esas ideas a tu día.",
+  "respuesta": "El laboratorio de duda y percepción propone cuatro prácticas basadas en tres filósofos: Descartes y la duda metódica, para revisar lo que damos por sentado; Locke y la tabla rasa, para rastrear de dónde vienen nuestras creencias; Husserl y la epojé, para describir una experiencia sin explicarla; y la asociación de ideas de Locke, para ver qué une nuestros pensamientos.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de duda y percepción",
+  "articulos": [
+    "rene-descartes",
+    "john-locke",
+    "edmund-husserl"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Un café, un mensaje sin responder, una frase que alguien dijo hace años. Casi todo lo que creemos sobre eso lo aceptamos sin revisar. Descartes hizo de esa revisión un método; Locke se preguntó de dónde sale cada idea; Husserl pidió mirar la experiencia tal como aparece.</p>
+        <p>Son prácticas breves. La idea es sentir en carne propia lo que los filósofos describieron.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#duda">Lo que doy por sentado</a><a href="#tabla">De dónde viene una idea</a><a href="#epoje">Describir sin explicar</a><a href="#asociar">Asociar una cadena</a></nav>
+
+    <section class="lab-estacion revelar" id="duda" aria-labelledby="t-duda">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-duda">Lo que doy por sentado</h2>
+      <p class="lab-estacion__bajada">Descartes dudó de lo que pudiera ser falso para llegar a una certeza. Acá no se trata de dudar de todo, sino de notar cuántas cosas damos por ciertas sin haberlas revisado. Leé sobre <a href="/recursos/rene-descartes/">René Descartes</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-duda" data-escena-sync="#pasos-duda">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-duda-t escena-duda-d"><title id="escena-duda-t">Creer, preguntar, comprobar</title>
+<circle data-paso="1" cx="120" cy="150" r="62" class="esc-relleno"/><text data-paso="1" x="120" y="146" text-anchor="middle" font-size="16">creo</text><text data-paso="1" x="120" y="170" text-anchor="middle" class="esc-sans">algo</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-duda)" d="M186 150 H 300"/><circle data-paso="2" cx="350" cy="150" r="50" class="esc-nodo"/><text data-paso="2" x="350" y="138" text-anchor="middle" font-size="16">¿cómo lo</text><text data-paso="2" x="350" y="174" text-anchor="middle" font-size="16">sé?</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M404 150 H 480"/><text data-paso="3" x="520" y="146" text-anchor="middle" font-size="16" class="esc-acento">lo pruebo</text><text data-paso="3" x="520" y="172" text-anchor="middle" class="esc-sans">o lo suelto</text>
+<defs><marker id="pf-duda" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Creo algo</li><li>Pregunto: ¿cómo lo sé?</li><li>Lo pruebo o lo suelto</li></ol><p class="escena__desc" id="escena-duda-d">Dar algo por cierto pide un paso más: preguntarse cómo se sabe. Lo que no se puede probar no hace falta sostenerlo como verdad.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-duda" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Creer.</strong> Elegí una cosa que das por cierta sobre hoy.</li><li><strong>Preguntar.</strong> ¿Cómo lo sabés? ¿Qué lo muestra?</li><li><strong>Decidir.</strong> Si no tiene pruebas, anotala como hipótesis, no como hecho.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="duda-metodica" data-lab-form-titulo="Lo que doy por sentado" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="du-cinco">Cinco cosas que doy por sentadas sobre mi día</label><p class="lab-paso__ayuda">Por ejemplo: que mi jefe piensa mal de mí, que alguien se enojó conmigo.</p><textarea class="lab-texto" id="du-cinco" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="du-prueba">¿Cuál de esas tiene pruebas reales?</label><input class="lab-campo" id="du-prueba" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="du-sin">¿Cuál no tiene pruebas y me pesa?</label><textarea class="lab-texto" id="du-sin" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="du-paso">¿Qué podría averiguar sobre esa, en vez de suponerla?</label><textarea class="lab-texto" id="du-paso" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="tabla" aria-labelledby="t-tabla">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-tabla">De dónde viene una idea</h2>
+      <p class="lab-estacion__bajada">Locke imaginó la mente como una tabla rasa: las ideas llegan por la sensación, lo que entra por los sentidos, y por la reflexión, lo que observamos en nosotros mismos. Leé <a href="/recursos/john-locke/">La tabla rasa</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-tabla" data-escena-sync="#pasos-tabla">
+  <svg viewBox="40 10 560 300" role="img" aria-labelledby="escena-tabla-t escena-tabla-d"><title id="escena-tabla-t">De dónde viene una idea</title>
+<rect x="200" y="110" width="200" height="120" rx="8" class="esc-relleno"/><text x="300" y="176" text-anchor="middle" font-size="17">tabla rasa</text>
+<text data-paso="1" x="110" y="66" text-anchor="middle" font-size="16">sensación</text><text data-paso="1" x="110" y="90" text-anchor="middle" class="esc-sans">lo de afuera</text>
+<text data-paso="2" x="490" y="66" text-anchor="middle" font-size="16">reflexión</text><text data-paso="2" x="490" y="90" text-anchor="middle" class="esc-sans">lo de adentro</text>
+<path data-paso="1" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-tabla)" d="M110 104 C 110 150, 160 160, 198 164"/><path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-tabla)" d="M490 104 C 490 150, 440 160, 402 164"/>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-tabla)" d="M300 236 V 262"/><text data-paso="3" x="300" y="290" text-anchor="middle" font-size="16" class="esc-acento">una idea</text>
+<defs><marker id="pf-tabla" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Entra por los sentidos</li><li>Lo observo en mí</li><li>Se vuelve una idea</li></ol><p class="escena__desc" id="escena-tabla-d">Según Locke, todo lo que sabemos entra por la experiencia. Revisar el origen de una creencia ayuda a verla como algo aprendido, no como algo que siempre fue así.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-tabla" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Entra.</strong> Una idea llega desde afuera: una frase, una mirada, un hecho.</li><li><strong>Se observa.</strong> Revisás qué pasó vos con eso, qué sentiste, qué concluiste.</li><li><strong>Queda.</strong> La idea pasa a ser parte de tu forma de pensar. Por eso se puede revisar.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tabla-rasa" data-lab-form-titulo="De dónde viene una idea" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ta-idea">Una creencia que tengo sobre mí</label><p class="lab-paso__ayuda">Por ejemplo: «no sirvo para hablar en público», «siempre fallo en lo importante».</p><textarea class="lab-texto" id="ta-idea" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ta-origen">¿De dónde viene? Escribí quién o qué te la enseñó</label><p class="lab-paso__ayuda">Una persona, una situación, una comparación, un mandato familiar.</p><textarea class="lab-texto" id="ta-origen" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ta-prueba">¿Qué experiencias concretas la confirman, y cuáles la contradicen?</label><textarea class="lab-texto" id="ta-prueba" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ta-escrita">Reescribila como algo que aprendiste, no como una verdad</label><p class="lab-paso__ayuda">Por ejemplo: «Aprendí que me cuesta hablar en público; no es lo que soy».</p><textarea class="lab-texto" id="ta-escrita" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="epoje" aria-labelledby="t-epoje">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-epoje">Describir sin explicar</h2>
+      <p class="lab-estacion__bajada">Husserl llamó epojé a poner entre paréntesis lo que damos por sentado para describir la experiencia tal como aparece. Es casi lo contrario de analizar. Leé sobre <a href="/recursos/edmund-husserl/">Edmund Husserl</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-epoje" data-escena-sync="#pasos-epoje">
+  <svg viewBox="40 10 560 300" role="img" aria-labelledby="escena-epoje-t escena-epoje-d"><title id="escena-epoje-t">Suspender y describir</title>
+<circle cx="300" cy="150" r="118" class="esc-suave" stroke-dasharray="6 6"/><text data-paso="1" x="300" y="46" text-anchor="middle" class="esc-sans">lo que doy por sentado</text>
+<circle data-paso="2" cx="300" cy="150" r="58" class="esc-calido"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">lo vivido</text><text data-paso="2" x="300" y="170" text-anchor="middle" class="esc-sans">tal como aparece</text>
+<text data-paso="3" x="300" y="284" text-anchor="middle" font-size="17" class="esc-acento">describo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Suspendo lo sabido</li><li>Miro lo que aparece</li><li>Describo</li></ol><p class="escena__desc" id="escena-epoje-d">La epojé no niega lo que sabemos: lo deja en suspenso para mirar lo que aparece. Desde ahí, la descripción es más precisa.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-epoje" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos"><li><strong>Elegí algo cerca.</strong> Una taza, una planta, tu mano. Algo que tengas a mano.</li><li><strong>Mirá sin nombrarlo.</strong> Solo colores, formas, texturas, peso. Si aparece la palabra «taza», dejala pasar.</li><li><strong>Notá lo que cambia.</strong> ¿Qué aparece cuando no sabés para qué sirve o qué es?</li><li><strong>Describí.</strong> Escribí una frase que describa cómo aparece, sin juzgar ni explicar.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="epoje-descripcion" data-lab-form-titulo="Describir sin explicar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ep-objeto">¿Qué elegiste?</label><input class="lab-campo" id="ep-objeto" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ep-frase">Tu descripción, sin explicaciones</label><p class="lab-paso__ayuda">Por ejemplo: «un color cálido, algo rugoso en el borde, más liviano de lo que esperaba».</p><textarea class="lab-texto" id="ep-frase" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ep-cambio">¿Qué notaste al suspender la explicación?</label><textarea class="lab-texto" id="ep-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="asociar" aria-labelledby="t-asociar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-asociar">Asociar una cadena</h2>
+      <p class="lab-estacion__bajada">Locke observó que algunas ideas quedan unidas por costumbre o por azar, y después aparecen juntas aunque no tengan relación lógica. Esta práctica las hace visibles. Leé sobre <a href="/recursos/john-locke/">John Locke</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-asociar" data-escena-sync="#pasos-asociar">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-asociar-t escena-asociar-d"><title id="escena-asociar-t">Una palabra lleva a otra</title>
+<circle data-paso="1" cx="110" cy="130" r="40" class="esc-nodo"/><text data-paso="1" x="110" y="136" text-anchor="middle" font-size="16">agua</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M150 130 H 218"/><circle data-paso="2" cx="260" cy="130" r="40" class="esc-relleno"/><text data-paso="2" x="260" y="136" text-anchor="middle" font-size="16">mar</text>
+<path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M300 130 H 368"/><circle data-paso="3" cx="410" cy="130" r="40" class="esc-nodo"/><text data-paso="3" x="410" y="136" text-anchor="middle" font-size="16">verano</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M410 178 C 380 232, 300 240, 260 200 S 150 232, 110 178"/><text data-paso="3" x="260" y="268" text-anchor="middle" class="esc-sans">¿qué las une?</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Empiezo con una palabra</li><li>La siguiente aparece sola</li><li>Miro qué une a las dos</li></ol><p class="escena__desc" id="escena-asociar-d">Cada palabra trae la siguiente por costumbre o por una historia propia. Mirar la cadena muestra qué vínculos hay debajo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-asociar" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Empezar.</strong> Escribí la palabra de partida.</li><li><strong>Seguir.</strong> Dejá que aparezcan las otras cinco, sin corregirlas.</li><li><strong>Mirar.</strong> Preguntate qué une la cadena y qué te sorprendió.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="asociacion-de-ideas" data-lab-form-titulo="Asociación de ideas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-inicio">La palabra de partida</label><p class="lab-paso__ayuda">Elegí una palabra que te venga a la cabeza hoy.</p><input class="lab-campo" id="as-inicio" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-cadena">Las siguientes cinco palabras que te vengan, sin pensar</label><p class="lab-paso__ayuda">Una por línea, lo más rápido que puedas.</p><textarea class="lab-texto" id="as-cadena" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-une">¿Qué une esa cadena? Anotá lo que descubrís</label><p class="lab-paso__ayuda">Una experiencia, un miedo, una persona, un recuerdo.</p><textarea class="lab-texto" id="as-une" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Descartes, R. (1637). <em>Discurso del método</em>.</li><li>Locke, J. (1690). <em>Ensayo sobre el entendimiento humano</em>.</li><li>Husserl, E. (1913). <em>Ideas relativas a una fenomenología pura</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

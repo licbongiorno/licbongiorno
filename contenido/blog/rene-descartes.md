@@ -58,6 +58,8 @@ Es la idea de que la mente y el cuerpo son dos sustancias distintas: una piensa 
 
 Describió movimientos automáticos del cuerpo ante un estímulo, como retirar el pie del fuego. Pávlov lo consideró un antecedente de su estudio de los reflejos.
 
+Para practicarlo, probá el [Laboratorio de duda y percepción](/laboratorio-de-duda-y-percepcion/).
+
 ## Para seguir leyendo
 
 - Descartes, R. (1637). *Discurso del método*.

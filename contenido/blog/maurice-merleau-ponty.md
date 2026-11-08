@@ -56,6 +56,8 @@ Tomó de la psicología de la Gestalt la idea de que percibimos totalidades con 
 
 Era filósofo, pero estudió a fondo la psicología de su tiempo y tuvo la cátedra de psicología infantil en la Sorbona entre 1949 y 1952.
 
+Para practicarlo, probá el [Laboratorio del cuerpo vivido](/laboratorio-del-cuerpo-vivido/).
+
 ## Para seguir leyendo
 
 - Merleau-Ponty, M. (1942). *La estructura del comportamiento*.
