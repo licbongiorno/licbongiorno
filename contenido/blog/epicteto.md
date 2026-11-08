@@ -60,6 +60,8 @@ Para practicarlo, probá el [Laboratorio de razón y autonomía](/laboratorio-de
 
 Para practicarlo, probá el [Laboratorio estoico](/laboratorio-estoico/).
 
+Para practicarlo, probá el [Laboratorio de Marco Aurelio](/laboratorio-de-marco-aurelio/).
+
 ## Para seguir leyendo
 
 - Epicteto. *Enquiridión*.

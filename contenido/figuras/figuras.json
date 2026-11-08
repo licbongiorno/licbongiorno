@@ -1020,5 +1020,29 @@
    "Ir al laboratorio de psicología transpersonal",
    "/laboratorio-de-psicologia-transpersonal/"
   ]
+ },
+ "vida-seneca": {
+  "titulo": "La vida de Séneca",
+  "desc": "De Córdoba a Roma: filósofo estoico, tutor de Nerón y autor de las Cartas a Lucilio."
+ },
+ "vida-marco-aurelio": {
+  "titulo": "La vida de Marco Aurelio",
+  "desc": "De Roma al Danubio: emperador estoico y autor de las Meditaciones."
+ },
+ "seneca-ira": {
+  "titulo": "La pausa frente a la ira",
+  "desc": "Séneca propuso esperar entre la ofensa y la respuesta, y preguntarse qué bien busca la ira.",
+  "enlace": [
+   "Practicar en el laboratorio de Séneca",
+   "/laboratorio-de-seneca/"
+  ]
+ },
+ "marco-reencuadre": {
+  "titulo": "Ver las cosas como son",
+  "desc": "Marco Aurelio recomendaba describir un hecho sin agregados: el hecho es una cosa, el juicio que le ponemos es otra.",
+  "enlace": [
+   "Practicar en el laboratorio de Marco Aurelio",
+   "/laboratorio-de-marco-aurelio/"
+  ]
  }
 }

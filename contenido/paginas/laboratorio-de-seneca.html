@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-de-seneca/",
+  "titulo": "Laboratorio de Séneca: la ira, el tiempo y la carta",
+  "descripcion": "Pausar la ira, inventariar el tiempo, escribir a un amigo y consolar, con Séneca y sus tratados y cartas.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Estoicismo",
+      "/laboratorio-de-seneca/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>Séneca</em>",
+  "bajada": "Séneca escribió sobre la ira, sobre el tiempo que malgastamos y sobre cómo consolar a un amigo. Cuatro prácticas para llevar esos consejos a la semana.",
+  "respuesta": "El laboratorio de Séneca propone cuatro ejercicios inspirados en Lucio Anneo Séneca: pausar la ira antes de responder, hacer un inventario del tiempo de la última semana, escribir una carta breve a alguien querido y consolar a quien sufre desde la mirada estoica.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de Séneca",
+  "articulos": [
+    "seneca",
+    "epicteto",
+    "marco-aurelio"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Séneca escribía cartas a un amigo sobre cosas cotidianas: una lectura, un miedo, una pérdida. Sus consejos son prácticos y directos. Acá los convertimos en ejercicios para una semana.</p>
+        <p>Si la ira es intensa o pone en riesgo a otras personas, no se trabaja sola: pedí acompañamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#ira">Pausar la ira</a><a href="#tiempo">Inventario del tiempo</a><a href="#carta">Una carta a un amigo</a><a href="#consuelo">Consolar</a></nav>
+
+    <section class="lab-estacion revelar" id="ira" aria-labelledby="t-ira">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-ira">Pausar la ira</h2>
+      <p class="lab-estacion__bajada">En De ira, Séneca describió la ira como una pasión que empieza con una impresión y se alimenta del juicio. Su consejo es esperar, pensar y preguntarse qué bien busca la ira. Leé sobre <a href="/recursos/seneca/">Séneca</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-ira-seneca" data-escena-sync="#pasos-ira">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-ira-seneca-t escena-ira-seneca-d"><title id="escena-ira-seneca-t">Esperar antes de responder</title>
+<rect data-paso="1" x="20" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="95" y="146" text-anchor="middle" font-size="16">la ofensa</text>
+<rect data-paso="2" x="225" y="110" width="150" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">la pausa</text>
+<rect data-paso="3" x="430" y="110" width="150" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="505" y="156" text-anchor="middle" font-size="16" class="esc-acento">pensar</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>La ofensa</li><li>La pausa</li><li>Pensar antes de responder</li></ol><p class="escena__desc" id="escena-ira-seneca-d">Entre la ofensa y la respuesta hay un espacio. Séneca proponía usarlo para preguntarse qué busca la ira y si ese bien vale la pena.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-ira" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos"><li><strong>Nombrar.</strong> Escribí la ofensa en una frase, sin adjetivos.</li><li><strong>Esperar.</strong> Respirá dos minutos antes de responder. Si hace falta, levantate de la mesa.</li><li><strong>Preguntar.</strong> ¿Qué bien buscaba la ira? ¿Respetarme, que me escuchen, sentirme seguro?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ira-seneca" data-lab-form-titulo="Pausar la ira" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="is-ofensa">La ofensa, en una frase</label><textarea class="lab-texto" id="is-ofensa" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="is-bien">Qué bien buscaba la ira</label><textarea class="lab-texto" id="is-bien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="is-respuesta">La respuesta que elegí, después de pensar</label><textarea class="lab-texto" id="is-respuesta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="tiempo" aria-labelledby="t-tiempo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-tiempo">Inventario del tiempo</h2>
+      <p class="lab-estacion__bajada">En De brevitate vitae, Séneca sostuvo que la vida no es corta, sino que la malgastamos en cosas que no importan. Revisar cómo usamos el tiempo es una práctica estoica. Leé sobre <a href="/recursos/seneca/">Séneca</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-tiempo-seneca" data-escena-sync="#pasos-tiempo-seneca">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-tiempo-seneca-t escena-tiempo-seneca-d"><title id="escena-tiempo-seneca-t">Dónde se fue la semana</title>
+<rect data-paso="1" x="30" y="110" width="110" height="80" rx="10" class="esc-nodo"/><text data-paso="1" x="85" y="146" text-anchor="middle" font-size="15">trabajo</text>
+<rect data-paso="1" x="160" y="110" width="110" height="80" rx="10" class="esc-suave"/><text data-paso="1" x="215" y="146" text-anchor="middle" font-size="15">pantallas</text>
+<rect data-paso="2" x="290" y="110" width="110" height="80" rx="10" class="esc-relleno"/><text data-paso="2" x="345" y="146" text-anchor="middle" font-size="15">vínculos</text>
+<rect data-paso="3" x="420" y="110" width="130" height="80" rx="10" class="esc-calido"/><text data-paso="3" x="485" y="146" text-anchor="middle" font-size="15" class="esc-acento">lo que importa</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Trabajo y pantallas</li><li>Vínculos</li><li>Lo que importa</li></ol><p class="escena__desc" id="escena-tiempo-seneca-d">Mirar en qué se fue el tiempo ayuda a elegir mejor. Séneca pedía separar lo que importa de lo que solo ocupa.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-tiempo-seneca" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Inventario.</strong> Anotá, por categorías, cómo usaste el tiempo la última semana.</li><li><strong>Separar.</strong> Marcá lo que importaba de verdad y lo que se fue sin querer.</li><li><strong>Recuperar.</strong> Elegí una sola cosa para recuperar esta semana.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tiempo-seneca" data-lab-form-titulo="Inventario del tiempo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ti-semana">Cómo usé el tiempo la última semana</label><textarea class="lab-texto" id="ti-semana" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ti-importaba">Lo que importaba de verdad</label><textarea class="lab-texto" id="ti-importaba" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ti-recuperar">Una cosa para recuperar esta semana</label><textarea class="lab-texto" id="ti-recuperar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-carta">Una carta a un amigo</h2>
+      <p class="lab-estacion__bajada">Séneca escribía cartas a Lucilio para ordenar sus ideas y acompañarlo. Escribir a alguien querido es también una forma de pensar en voz alta. Leé sobre <a href="/recursos/seneca/">Séneca</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-carta-seneca" data-escena-sync="#pasos-carta">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-carta-seneca-t escena-carta-seneca-d"><title id="escena-carta-seneca-t">Escribir para cuidar</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-nodo"/><text data-paso="1" x="130" y="140" text-anchor="middle" font-size="15">alguien</text><text data-paso="1" x="130" y="176" text-anchor="middle" font-size="15">querido</text><rect data-paso="2" x="230" y="110" width="140" height="80" rx="8" class="esc-relleno"/><text data-paso="2" x="300" y="140" text-anchor="middle" font-size="15">una carta</text><text data-paso="2" x="300" y="174" text-anchor="middle" font-size="15">breve</text><circle data-paso="3" cx="480" cy="150" r="56" class="esc-calido"/><text data-paso="3" x="480" y="156" text-anchor="middle" font-size="15" class="esc-acento">un consejo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>A alguien querido</li><li>Una carta breve</li><li>Un consejo para mí</li></ol><p class="escena__desc" id="escena-carta-seneca-d">Escribir a alguien con un consejo concreto ordena las propias ideas y acompaña a la otra persona.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-carta" data-lab-pasos data-lab-pasos-segundos="300">
+        <ol class="lab-pasos"><li><strong>A quién.</strong> Elegí a alguien querido que esté pasando algo difícil, o que simplemente quieras cuidar.</li><li><strong>Qué decir.</strong> Escribí una carta breve, de cinco o seis líneas, con un tema concreto.</li><li><strong>El consejo.</strong> Incluí un consejo que te darías a vos mismo.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="carta-amigo" data-lab-form-titulo="Una carta a un amigo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ca-quien">A quién le escribí</label><input class="lab-campo" id="ca-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ca-carta">La carta breve</label><textarea class="lab-texto" id="ca-carta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ca-consejo">El consejo que me daría a mí mismo</label><textarea class="lab-texto" id="ca-consejo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="consuelo" aria-labelledby="t-consuelo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-consuelo">Consolar</h2>
+      <p class="lab-estacion__bajada">Séneca escribió consuelos para amigos en pérdidas y fracasos. Su recomendación era distinguir lo que depende de nosotros de lo que no, y recordar lo que aún podemos hacer. Leé sobre <a href="/recursos/seneca/">Séneca</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué le pasa a quien sufre"><label class="opcion"><input type="radio" name="consuelo-seneca" value="tristeza" data-escena-paso="1" checked><span>Tristeza</span></label><label class="opcion"><input type="radio" name="consuelo-seneca" value="perdida" data-escena-paso="2"><span>Pérdida</span></label><label class="opcion"><input type="radio" name="consuelo-seneca" value="fracaso" data-escena-paso="3"><span>Fracaso</span></label></div>
+        <div class="lab-panel" data-lab-panel="tristeza"><p>Séneca recomendaba no negar el dolor, pero no quedarse en él. Preguntá qué parte de la tristeza depende de lo que pasa y qué parte de la mirada.</p></div><div class="lab-panel" data-lab-panel="perdida" hidden><p>En una pérdida, Séneca invitaba a recordar lo que se tuvo sin negar la falta. Preguntá qué puede seguir dando sentido.</p></div><div class="lab-panel" data-lab-panel="fracaso" hidden><p>Ante un fracaso, Séneca proponía mirarlo como una lección y no como un veredicto sobre la persona.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-consuelo-seneca" data-escena-radios="consuelo-seneca">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-consuelo-seneca-t escena-consuelo-seneca-d"><title id="escena-consuelo-seneca-t">Tres consuelos</title>
+<circle data-paso="1" cx="130" cy="150" r="60" class="esc-suave"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">tristeza</text>
+<circle data-paso="2" cx="300" cy="150" r="60" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">pérdida</text>
+<circle data-paso="3" cx="470" cy="150" r="60" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">fracaso</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Tristeza</li><li>Pérdida</li><li>Fracaso</li></ol><p class="escena__desc" id="escena-consuelo-seneca-d">Consolar no es minimizar. Es ayudar a ver lo que depende de la persona y lo que no, sin negar el dolor.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="consolar" data-lab-form-titulo="Consolar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cs-quien">A quién quise consolar</label><input class="lab-campo" id="cs-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cs-dijo">Qué le dije</label><textarea class="lab-texto" id="cs-dijo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la ira te lleva a lastimar a alguien o hay violencia en casa, llamá al 144 (violencia de género, las 24 horas) o al 911. Si lo que aparece es angustia o desesperanza, podés llamar al 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Séneca. <em>De ira</em>.</li><li>Séneca. <em>De brevitate vitae</em> (Sobre la brevedad de la vida).</li><li>Séneca. <em>Cartas a Lucilio</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

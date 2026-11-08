@@ -754,6 +754,22 @@
    "x": 1888,
    "escuela": "trans",
    "resumen": "Psicosíntesis y subpersonalidades."
+  },
+  {
+   "slug": "seneca",
+   "corto": "Séneca",
+   "anios": "c. 4 a. C.–65",
+   "x": -4,
+   "escuela": "fil",
+   "resumen": "La ira, el tiempo y las cartas a Lucilio."
+  },
+  {
+   "slug": "marco-aurelio",
+   "corto": "Marco Aurelio",
+   "anios": "121–180",
+   "x": 121,
+   "escuela": "fil",
+   "resumen": "Las Meditaciones: obrar bien y ver las cosas como son."
   }
  ],
  "relaciones": [
@@ -1428,6 +1444,12 @@
    "a": "stanislav-grof",
    "tipo": "dialogo",
    "nota": "el nombre de la psicología transpersonal, 1967"
+  },
+  {
+   "de": "epicteto",
+   "a": "marco-aurelio",
+   "tipo": "influencia",
+   "nota": "leyó sus Disertaciones, que le prestó Rústico"
   }
  ]
 }

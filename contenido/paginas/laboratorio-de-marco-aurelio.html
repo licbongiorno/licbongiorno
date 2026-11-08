@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-de-marco-aurelio/",
+  "titulo": "Laboratorio de Marco Aurelio: las Meditaciones en práctica",
+  "descripcion": "Empezar el día con propósito, ver las cosas como son, recordar lo breve y mirar a otros con benevolencia, con Marco Aurelio.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Estoicismo",
+      "/laboratorio-de-marco-aurelio/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>Marco Aurelio</em>",
+  "bajada": "Marco Aurelio escribió para sí mismo, en griego, sobre cómo actuar bien. Cuatro prácticas inspiradas en sus Meditaciones para empezar el día, mirar un hecho sin agregados y mirar a otros con benevolencia.",
+  "respuesta": "El laboratorio de Marco Aurelio propone cuatro ejercicios inspirados en las Meditaciones: un diario de la mañana con propósitos, un reencuadre de los hechos sin agregados, un recordatorio de la brevedad de la vida y un ejercicio de benevolencia hacia personas cercanas, conocidas o que nos molestan.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de Marco Aurelio",
+  "articulos": [
+    "marco-aurelio",
+    "epicteto",
+    "seneca"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Marco Aurelio gobernó el imperio y escribió para sí mismo recordatorios de cómo actuar bien. No tenía intención de publicar sus notas. Eso las vuelve directas: son consejos para uno mismo, que podemos probar en el día.</p>
+        <p>Son prácticas breves y de reflexión. Ninguna sustituye una terapia.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#manana">Empezar el día</a><a href="#hecho">Ver las cosas como son</a><a href="#breve">Recordar lo breve</a><a href="#benevolencia">Benevolencia</a></nav>
+
+    <section class="lab-estacion revelar" id="manana" aria-labelledby="t-manana">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-manana">Empezar el día</h2>
+      <p class="lab-estacion__bajada">Marco Aurelio se recordaba, al empezar la jornada, con quiénes iba a tratar, qué iba a encontrar y cómo quería actuar. Empezar con propósito le da forma al día. Leé sobre <a href="/recursos/marco-aurelio/">Marco Aurelio</a>.</p>
+      <div class="lab-tarjeta" id="pasos-manana" data-lab-pasos data-lab-pasos-segundos="180">
+        <ol class="lab-pasos"><li><strong>Qué debo hacer.</strong> Escribí una tarea o un gesto importante para hoy.</li><li><strong>Qué puede pasar.</strong> Pensá en dos cosas que podrían salir mal, y en cómo las tomarías.</li><li><strong>Cómo quiero actuar.</strong> Escribí una frase sobre la persona que querés ser hoy.</li></ol>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-manana-ma" data-escena-sync="#pasos-manana">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-manana-ma-t escena-manana-ma-d"><title id="escena-manana-ma-t">Tres preguntas al empezar</title>
+<rect data-paso="1" x="30" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="105" y="146" text-anchor="middle" font-size="16">qué debo</text><text data-paso="1" x="105" y="172" text-anchor="middle" class="esc-sans">hacer</text>
+<rect data-paso="2" x="225" y="110" width="150" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">qué puede</text><text data-paso="2" x="300" y="172" text-anchor="middle" class="esc-sans">pasar</text>
+<rect data-paso="3" x="420" y="110" width="150" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="495" y="146" text-anchor="middle" font-size="16" class="esc-acento">cómo quiero</text><text data-paso="3" x="495" y="172" text-anchor="middle" class="esc-sans">actuar</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Qué debo hacer</li><li>Qué puede pasar</li><li>Cómo quiero actuar</li></ol><p class="escena__desc" id="escena-manana-ma-d">Preguntarse al empezar qué hay que hacer, qué puede pasar y cómo se quiere actuar da una dirección al día.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="manana-ma" data-lab-form-titulo="Empezar el día" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mm-hacer">Lo que debo hacer hoy</label><textarea class="lab-texto" id="mm-hacer" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mm-pasar">Dos cosas que podrían salir mal y cómo las tomaría</label><textarea class="lab-texto" id="mm-pasar" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mm-actuar">Cómo quiero actuar hoy</label><textarea class="lab-texto" id="mm-actuar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="hecho" aria-labelledby="t-hecho">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-hecho">Ver las cosas como son</h2>
+      <p class="lab-estacion__bajada">En las Meditaciones, Marco Aurelio insistía en mirar las cosas como son, separando el hecho del juicio y de la historia que le agregamos. Es el reencuadre que Epicteto también enseñaba. Leé sobre <a href="/recursos/marco-aurelio/">Marco Aurelio</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-hecho-ma" data-escena-sync="#pasos-hecho-ma">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-hecho-ma-t escena-hecho-ma-d"><title id="escena-hecho-ma-t">Hecho y juicio</title>
+<rect data-paso="1" x="30" y="60" width="240" height="140" rx="12" class="esc-relleno"/><text data-paso="1" x="150" y="130" text-anchor="middle" font-size="16">el hecho</text><text data-paso="1" x="150" y="160" text-anchor="middle" class="esc-sans">lo que es</text>
+<rect data-paso="2" x="330" y="60" width="240" height="140" rx="12" class="esc-suave" stroke-dasharray="6 6"/><text data-paso="2" x="450" y="130" text-anchor="middle" font-size="16">el juicio</text><text data-paso="2" x="450" y="160" text-anchor="middle" class="esc-sans">lo que le agrego</text>
+<text data-paso="3" x="300" y="250" text-anchor="middle" font-size="16" class="esc-acento">separar uno del otro</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>El hecho</li><li>El juicio</li><li>Separar uno del otro</li></ol><p class="escena__desc" id="escena-hecho-ma-d">Un hecho es un dato. El juicio y la historia que le agregamos son otra cosa. Separarlos cambia lo que sentimos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-hecho-ma" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El hecho.</strong> Describí algo que te pasó hoy, como lo haría una cámara: sin adjetivos.</li><li><strong>El juicio.</strong> Anotá lo que le agregaste: la historia, la interpretación, lo que supusiste.</li><li><strong>Separar.</strong> ¿Qué cambia si mirás solo el hecho?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="hecho-ma" data-lab-form-titulo="Ver las cosas como son" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hm-hecho">El hecho, sin adjetivos</label><textarea class="lab-texto" id="hm-hecho" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hm-juicio">El juicio o la historia que le agregué</label><textarea class="lab-texto" id="hm-juicio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="breve" aria-labelledby="t-breve">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-breve">Recordar lo breve</h2>
+      <p class="lab-estacion__bajada">Marco Aurelio recordaba que la vida es breve y que todo cambia. Esa conciencia no es para angustiarse, sino para elegir qué importa hoy. Leé sobre <a href="/recursos/marco-aurelio/">Marco Aurelio</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-breve-ma" data-escena-sync="#pasos-breve-ma">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-breve-ma-t escena-breve-ma-d"><title id="escena-breve-ma-t">Lo breve, lo importante</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="16">hoy</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M190 150 H 240"/><circle data-paso="2" cx="300" cy="150" r="56" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">lo que importa</text>
+<circle data-paso="3" cx="470" cy="150" r="56" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">una acción</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Hoy</li><li>Lo que importa</li><li>Una acción</li></ol><p class="escena__desc" id="escena-breve-ma-d">Si el tiempo es breve, conviene elegir lo que importa hoy y hacer una acción concreta, sin esperar a mañana.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-breve-ma" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Pensar.</strong> Imaginá que hoy es uno de los últimos días importantes de tu vida.</li><li><strong>Elegir.</strong> ¿Qué harías distinto?</li><li><strong>Hacer.</strong> Elegí una acción concreta para hacer hoy.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="breve-ma" data-lab-form-titulo="Recordar lo breve" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bm-pregunta">Si hoy fuera uno de los últimos días importantes, ¿qué haría?</label><textarea class="lab-texto" id="bm-pregunta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bm-accion">Una acción concreta para hoy</label><textarea class="lab-texto" id="bm-accion" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="benevolencia" aria-labelledby="t-benevolencia">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-benevolencia">Benevolencia</h2>
+      <p class="lab-estacion__bajada">Marco Aurelio recomendaba mirar a los demás como parte de una misma comunidad, incluso a quien nos molesta. La benevolencia no es aprobar: es reconocer que todos somos parte de algo común. Leé sobre <a href="/recursos/marco-aurelio/">Marco Aurelio</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="A quién miro con benevolencia"><label class="opcion"><input type="radio" name="benevolencia-ma" value="molesta" data-escena-paso="1" checked><span>Alguien que me molesta</span></label><label class="opcion"><input type="radio" name="benevolencia-ma" value="ayudo" data-escena-paso="2"><span>Alguien que me ayudó</span></label><label class="opcion"><input type="radio" name="benevolencia-ma" value="desconocido" data-escena-paso="3"><span>Alguien que no conozco</span></label></div>
+        <div class="lab-panel" data-lab-panel="molesta"><p>Preguntate qué necesita esa persona y qué le pasó para actuar así. No hace falta aprobarla, pero sí mirarla como persona.</p></div><div class="lab-panel" data-lab-panel="ayudo" hidden><p>Agradecé en voz alta o por escrito. La benevolencia también se practica recibiendo.</p></div><div class="lab-panel" data-lab-panel="desconocido" hidden><p>Imaginá que esa persona también tiene miedos y alegrías. Desearle algo bueno es un gesto pequeño y real.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-benevolencia-ma" data-escena-radios="benevolencia-ma">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-benevolencia-ma-t escena-benevolencia-ma-d"><title id="escena-benevolencia-ma-t">Todos somos parte</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-suave"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">me molesta</text>
+<circle data-paso="2" cx="300" cy="150" r="56" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">me ayudó</text>
+<circle data-paso="3" cx="470" cy="150" r="56" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">no lo conozco</text>
+<text x="300" y="262" text-anchor="middle" class="esc-sans">todos somos parte de algo común</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Alguien que me molesta</li><li>Alguien que me ayudó</li><li>Alguien que no conozco</li></ol><p class="escena__desc" id="escena-benevolencia-ma-d">Mirar a otros con benevolencia no exige aprobar lo que hacen. Es reconocerlos como personas con sus propias razones.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="benevolencia" data-lab-form-titulo="Benevolencia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bv-persona">A quién miré con benevolencia</label><input class="lab-campo" id="bv-persona" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bv-gesto">Un gesto pequeño que le puedo dar</label><textarea class="lab-texto" id="bv-gesto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Pensar en la brevedad de la vida puede despertar angustia en algunas personas. Si la reflexión deriva en pensamientos de no querer vivir, llamá al 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Marco Aurelio. <em>Meditaciones</em>.</li><li>Epicteto. <em>Disertaciones por Arriano</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

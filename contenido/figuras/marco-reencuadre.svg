@@ -1,0 +1,5 @@
+<svg viewBox="0 0 600 260">
+<rect x="30" y="60" width="240" height="140" rx="12" class="esc-relleno"/><text x="150" y="110" text-anchor="middle" font-size="16">el hecho</text><text x="150" y="140" text-anchor="middle" class="esc-sans">lo que es</text>
+<rect x="330" y="60" width="240" height="140" rx="12" class="esc-suave" stroke-dasharray="6 6"/><text x="450" y="110" text-anchor="middle" font-size="16">el juicio</text><text x="450" y="140" text-anchor="middle" class="esc-sans">lo que le agrego</text>
+<text x="300" y="232" text-anchor="middle" class="esc-sans">separar uno del otro</text>
+</svg>

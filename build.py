@@ -540,6 +540,10 @@ LABORATORIOS = [
      "descripcion": "Las tres fases de una transición, lo que termina y lo que empieza, un ritual de pasaje y el duelo migratorio."},
     {"titulo": "Laboratorio de aceptación y compromiso", "ruta": "/laboratorio-act/", "tipo": "ACT",
      "descripcion": "Tomar distancia de un pensamiento, hojas en el río, soltar la cuerda, la matriz ACT y acciones comprometidas."},
+    {"titulo": "Laboratorio de Séneca", "ruta": "/laboratorio-de-seneca/", "tipo": "Estoicismo",
+     "descripcion": "Pausar la ira antes de responder, inventariar el tiempo, escribir una carta a un amigo y consolar, con Séneca."},
+    {"titulo": "Laboratorio de Marco Aurelio", "ruta": "/laboratorio-de-marco-aurelio/", "tipo": "Estoicismo",
+     "descripcion": "Empezar el día con propósito, ver las cosas como son, recordar lo breve y mirar a otros con benevolencia."},
     {"titulo": "Laboratorio del amor como arte", "ruta": "/laboratorio-del-amor-como-arte/", "tipo": "Amor",
      "descripcion": "Cuidado, responsabilidad, respeto y conocimiento, y la diferencia entre tener y ser, con Erich Fromm."},
     {"titulo": "Laboratorio estoico", "ruta": "/laboratorio-estoico/", "tipo": "Estoicismo",
@@ -608,6 +612,7 @@ TEMAS_LAB = {
     "/laboratorio-de-pesadillas/": "Emociones", "/laboratorio-de-pareja/": "Vínculos", "/laboratorio-de-adolescentes/": "Vínculos",
     "/laboratorio-de-psicologia-corporal/": "Cuerpo y respiración", "/laboratorio-de-psicologia-transpersonal/": "Enfoques",
     "/laboratorio-del-amor-como-arte/": "Vínculos", "/laboratorio-estoico/": "Filosofía en práctica", "/laboratorio-de-grupos/": "Vínculos",
+    "/laboratorio-de-seneca/": "Filosofía en práctica", "/laboratorio-de-marco-aurelio/": "Filosofía en práctica",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica", "Psicología en práctica"]
 
@@ -1022,6 +1027,8 @@ WIKI = {
     "kierkegaard": ("Søren Kierkegaard", "https://es.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard"),
     "nietzsche": ("Friedrich Nietzsche", "https://es.wikipedia.org/wiki/Friedrich_Nietzsche"),
     "buber": ("Martin Buber", "https://es.wikipedia.org/wiki/Martin_Buber"),
+    "seneca": ("Séneca", "https://es.wikipedia.org/wiki/S%C3%A9neca"),
+    "marco-aurelio": ("Marco Aurelio", "https://es.wikipedia.org/wiki/Marco_Aurelio"),
     "lowen": ("Alexander Lowen", "https://es.wikipedia.org/wiki/Alexander_Lowen"),
     "gendlin": ("Eugene Gendlin", "https://es.wikipedia.org/wiki/Eugene_Gendlin"),
     "grof": ("Stanislav Grof", "https://es.wikipedia.org/wiki/Stanislav_Grof"),
