@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 300">
+<rect x="150" y="30" width="300" height="90" rx="16" class="esc-relleno"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M150 140 H 450" stroke-dasharray="14 8"/>
+<rect x="110" y="160" width="380" height="90" rx="16" class="esc-nodo"/>
+<circle cx="240" cy="75" r="16" class="esc-calido"/><circle cx="360" cy="75" r="16" class="esc-calido"/>
+<circle cx="190" cy="205" r="13" class="esc-punto"/><circle cx="300" cy="205" r="13" class="esc-punto"/><circle cx="410" cy="205" r="13" class="esc-punto"/>
+<text x="300" y="112" text-anchor="middle" class="esc-sans">subsistema parental</text>
+<text x="300" y="242" text-anchor="middle" class="esc-sans">subsistema fraterno</text>
+<text x="300" y="286" text-anchor="middle" font-size="16" class="esc-acento">un límite claro: se ve y se puede cruzar</text>
+</svg>

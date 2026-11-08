@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 300">
+<circle cx="300" cy="150" r="130" class="esc-capa esc-capa--1"/>
+<circle cx="300" cy="150" r="90" class="esc-capa esc-capa--2"/>
+<circle cx="300" cy="150" r="48" class="esc-calido"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M300 102 A 48 48 0 1 1 299.9 102"/>
+<text x="300" y="156" text-anchor="middle" font-size="15">solo</text>
+<text x="300" y="86" text-anchor="middle" font-size="15" class="esc-acento">con ayuda</text>
+<text x="300" y="38" text-anchor="middle" font-size="15">todavía no</text>
+</svg>

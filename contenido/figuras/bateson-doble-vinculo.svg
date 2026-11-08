@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 280"><defs><marker id="pf-bt" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<rect x="30" y="104" width="160" height="52" rx="26" class="esc-calido"/><text x="110" y="136" text-anchor="middle" font-size="17">mensaje</text>
+<rect x="400" y="104" width="170" height="52" rx="26" class="esc-relleno"/><text x="485" y="136" text-anchor="middle" font-size="17">quien recibe</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-bt)" d="M192 112 C 260 70, 340 70, 398 112"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-bt)" d="M192 148 C 260 190, 340 190, 398 148"/>
+<text x="300" y="58" text-anchor="middle" font-size="16">«acercate»</text>
+<text x="300" y="214" text-anchor="middle" font-size="16" class="esc-acento">(el cuerpo se aleja)</text>
+<text x="300" y="262" text-anchor="middle" class="esc-sans">y no se puede hablar de la contradicción</text>
+</svg>

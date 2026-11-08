@@ -524,5 +524,105 @@
    "Practicar en el laboratorio de mindfulness",
    "/laboratorio-de-mindfulness/"
   ]
+ },
+ "vida-bateson": {
+  "titulo": "La vida de Gregory Bateson",
+  "desc": "De la antropología a la cibernética y la terapia familiar: un pensador de los sistemas y la comunicación."
+ },
+ "vida-watzlawick": {
+  "titulo": "La vida de Paul Watzlawick",
+  "desc": "De Austria a Palo Alto: un analista junguiano que se volvió referente de la comunicación y la terapia breve."
+ },
+ "vida-satir": {
+  "titulo": "La vida de Virginia Satir",
+  "desc": "Trabajadora social, cofundadora del MRI y una de las madres de la terapia familiar."
+ },
+ "vida-minuchin": {
+  "titulo": "La vida de Salvador Minuchin",
+  "desc": "De Entre Ríos y la Universidad de Córdoba a Israel, Nueva York y Filadelfia: el creador de la terapia familiar estructural."
+ },
+ "vida-bowen": {
+  "titulo": "La vida de Murray Bowen",
+  "desc": "Del estudio de familias en un hospital a la teoría de los sistemas familiares."
+ },
+ "vida-piaget": {
+  "titulo": "La vida de Jean Piaget",
+  "desc": "De estudiar moluscos a estudiar cómo piensan los chicos: la epistemología genética."
+ },
+ "vida-vygotsky": {
+  "titulo": "La vida de Lev Vygotsky",
+  "desc": "Una carrera de apenas diez años que cambió la forma de pensar el desarrollo y la educación."
+ },
+ "vida-bowlby": {
+  "titulo": "La vida de John Bowlby",
+  "desc": "Psiquiatra y psicoanalista británico, creador de la teoría del apego.",
+  "enlace": [
+   "Leer sobre el apego",
+   "/recursos/el-apego/"
+  ]
+ },
+ "vida-ainsworth": {
+  "titulo": "La vida de Mary Ainsworth",
+  "desc": "De Toronto a Londres, Uganda y Baltimore: la investigadora que dio base empírica al apego."
+ },
+ "vida-erikson": {
+  "titulo": "La vida de Erik Erikson",
+  "desc": "Un artista sin título universitario que llegó a profesor en Harvard y le puso nombre a la crisis de identidad."
+ },
+ "bateson-doble-vinculo": {
+  "titulo": "El doble vínculo",
+  "desc": "Un doble vínculo ocurre cuando alguien recibe dos mensajes que se contradicen —uno en las palabras y otro en el gesto—, no puede escapar de la relación y tampoco puede hablar de la contradicción."
+ },
+ "watzlawick-niveles": {
+  "titulo": "Contenido y relación",
+  "desc": "Todo mensaje tiene un contenido —lo que se dice— y un nivel de relación —cómo nos tratamos al decirlo—. Muchos conflictos se discuten en el contenido cuando el problema está en la relación.",
+  "enlace": [
+   "Practicar en el laboratorio de comunicación no violenta",
+   "/laboratorio-de-comunicacion-no-violenta/"
+  ]
+ },
+ "satir-posturas": {
+  "titulo": "Las posturas ante el estrés",
+  "desc": "Bajo estrés, Satir observó cuatro formas de comunicarse que dejan algo afuera: aplacar, culpar, superrazonar y distraer. La comunicación congruente incluye al otro, a uno mismo y al contexto."
+ },
+ "minuchin-estructura": {
+  "titulo": "La estructura familiar",
+  "desc": "Minuchin miró a la familia como una estructura con subsistemas —el de los padres, el de los hermanos— separados por límites. Los límites claros se ven y se pueden cruzar; los difusos o los rígidos traen problemas.",
+  "enlace": [
+   "Ver los límites en el laboratorio sistémico",
+   "/laboratorio-sistemico/"
+  ]
+ },
+ "bowen-diferenciacion": {
+  "titulo": "La diferenciación del self",
+  "desc": "Bowen pensó una escala entre la fusión, donde se reacciona a la emoción del grupo, y la diferenciación, donde se puede estar en el vínculo pensando y sintiendo por cuenta propia."
+ },
+ "piaget-etapas": {
+  "titulo": "Las etapas del desarrollo cognitivo",
+  "desc": "Piaget describió cuatro grandes etapas: sensoriomotora, preoperacional, de las operaciones concretas y de las operaciones formales. Las edades son aproximadas y el orden es lo que se mantiene."
+ },
+ "vygotsky-zdp": {
+  "titulo": "La zona de desarrollo próximo",
+  "desc": "Entre lo que alguien ya puede hacer solo y lo que todavía no puede, hay una zona: lo que puede hacer con ayuda. Ahí es donde el aprendizaje empuja el desarrollo.",
+  "enlace": [
+   "Ver el laboratorio de aprender a aprender",
+   "/laboratorio-de-aprender-a-aprender/"
+  ]
+ },
+ "bowlby-separacion": {
+  "titulo": "Las respuestas a la separación",
+  "desc": "Bowlby y James Robertson describieron cómo reacciona un chico separado de quien lo cuida: primero protesta, después cae en la desesperanza y, si la separación se prolonga, se desapega."
+ },
+ "ainsworth-situacion-extrana": {
+  "titulo": "La situación extraña",
+  "desc": "En la situación extraña, lo más revelador es el reencuentro: el chico con apego seguro busca a su madre y se calma; el evitativo parece no notarla; el ambivalente la busca y a la vez se enoja.",
+  "enlace": [
+   "Hacer el test de estilos de apego",
+   "/test-de-estilos-de-apego/"
+  ]
+ },
+ "erikson-etapas": {
+  "titulo": "Las ocho etapas psicosociales",
+  "desc": "Erikson describió ocho etapas a lo largo de toda la vida. En cada una hay una tensión entre dos polos, y de cómo se atraviesa surge una fortaleza."
  }
 }

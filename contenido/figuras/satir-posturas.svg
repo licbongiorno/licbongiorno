@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 300">
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 150 L 120 60 M300 150 L 480 60 M300 150 L 120 240 M300 150 L 480 240"/>
+<ellipse cx="300" cy="150" rx="86" ry="40" class="esc-relleno"/><text x="300" y="156" text-anchor="middle" font-size="16" class="esc-acento">congruente</text>
+<circle cx="120" cy="60" r="9" class="esc-nodo"/><circle cx="480" cy="60" r="9" class="esc-nodo"/><circle cx="120" cy="240" r="9" class="esc-nodo"/><circle cx="480" cy="240" r="9" class="esc-nodo"/>
+<text x="120" y="36" text-anchor="middle" font-size="17">aplacar</text>
+<text x="480" y="36" text-anchor="middle" font-size="17">culpar</text>
+<text x="120" y="276" text-anchor="middle" font-size="17">superrazonar</text>
+<text x="480" y="276" text-anchor="middle" font-size="17">distraer</text>
+</svg>

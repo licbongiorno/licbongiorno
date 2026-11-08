@@ -1,0 +1,12 @@
+<svg viewBox="0 0 600 290">
+<path class="esc-linea trazo-fig" pathLength="1" d="M40 250 H 160 V 190 H 280 V 130 H 400 V 70 H 560"/>
+<circle cx="500" cy="70" r="8" class="esc-punto"/>
+<text x="100" y="240" text-anchor="middle" font-size="15">sensoriomotora</text>
+<text x="100" y="276" text-anchor="middle" class="esc-sans">0 a 2</text>
+<text x="220" y="180" text-anchor="middle" font-size="15">preoperacional</text>
+<text x="220" y="216" text-anchor="middle" class="esc-sans">2 a 7</text>
+<text x="340" y="120" text-anchor="middle" font-size="15">concreta</text>
+<text x="340" y="156" text-anchor="middle" class="esc-sans">7 a 11</text>
+<text x="480" y="56" text-anchor="middle" font-size="15" class="esc-acento">formal</text>
+<text x="480" y="96" text-anchor="middle" class="esc-sans">desde 11</text>
+</svg>

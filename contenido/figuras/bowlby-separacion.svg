@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 240">
+<path class="esc-linea trazo-fig" pathLength="1" d="M40 60 C 120 50, 160 60, 200 90 C 260 130, 320 160, 380 170 C 440 180, 500 200, 560 200"/>
+<circle cx="110" cy="56" r="10" class="esc-calido"/><circle cx="300" cy="150" r="10" class="esc-nodo"/><circle cx="500" cy="196" r="10" class="esc-punto"/>
+<text x="110" y="34" text-anchor="middle" font-size="17">protesta</text>
+<text x="300" y="120" text-anchor="middle" font-size="17">desesperanza</text>
+<text x="500" y="166" text-anchor="middle" font-size="17" class="esc-acento">desapego</text>
+<text x="300" y="230" text-anchor="middle" class="esc-sans">un chico separado de quien lo cuida</text>
+</svg>

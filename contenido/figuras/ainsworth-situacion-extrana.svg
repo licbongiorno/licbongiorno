@@ -1,0 +1,13 @@
+<svg viewBox="0 0 600 290"><defs><marker id="pf-ai" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<text x="300" y="34" text-anchor="middle" font-size="17">cuando la madre vuelve…</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ai)" d="M300 50 C 200 80, 130 110, 110 150"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ai)" d="M300 50 V 148"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ai)" d="M300 50 C 400 80, 470 110, 490 150"/>
+<circle cx="110" cy="176" r="18" class="esc-relleno"/><circle cx="300" cy="176" r="18" class="esc-nodo"/><circle cx="490" cy="176" r="18" class="esc-calido"/>
+<text x="110" y="222" text-anchor="middle" font-size="16" class="esc-acento">seguro</text>
+<text x="110" y="248" text-anchor="middle" font-size="14">busca y se calma</text>
+<text x="300" y="222" text-anchor="middle" font-size="16">evitativo</text>
+<text x="300" y="248" text-anchor="middle" font-size="14">parece no notarlo</text>
+<text x="490" y="222" text-anchor="middle" font-size="16">ambivalente</text>
+<text x="490" y="248" text-anchor="middle" font-size="14">busca y se enoja</text>
+</svg>

@@ -65,4 +65,4 @@ No juzgar, paciencia, mente de principiante, confianza, no forzar, aceptación y
 - Kabat-Zinn, J. (1994). *Mindfulness en la vida cotidiana: donde vayas, ahí estás*.
 - Segal, Z. V., Williams, J. M. G. y Teasdale, J. D. (2002). *Terapia cognitiva basada en la conciencia plena para la depresión*.
 
-Así termina la tanda de las corrientes conductuales y cognitivas. Volvé a [Steven C. Hayes](/recursos/steven-c-hayes/) o empezá desde el principio con [Iván Pávlov](/recursos/ivan-pavlov/).
+Así termina la tanda de las corrientes conductuales y cognitivas. Seguí la serie con [Gregory Bateson](/recursos/gregory-bateson/) y los enfoques sistémicos y del desarrollo, o volvé a [Steven C. Hayes](/recursos/steven-c-hayes/).
