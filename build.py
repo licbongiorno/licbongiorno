@@ -219,6 +219,164 @@ def figura_html(nombre):
             f'<figcaption><p id="{fid}-d">{esc(m["desc"])}</p>{enlace}</figcaption></figure>')
 
 
+# --------------------------------------------------------------------------- mapa de autores
+MAPA = json.loads((RAIZ / "contenido/mapa_autores.json").read_text(encoding="utf-8")) if (RAIZ / "contenido/mapa_autores.json").exists() else None
+MAPA_RUTA = "/recursos/mapa-de-la-psicologia/"
+
+
+def _mapa_nombres():
+    nombres = {}
+    for a in MAPA["autores"]:
+        f = RAIZ / "contenido/blog" / f'{a["slug"]}.md'
+        if not f.exists():
+            raise SystemExit(f"Mapa de autores: falta el artículo {a['slug']}")
+        m = re.search(r"^titulo:\s*(.+)$", f.read_text(encoding="utf-8"), re.M)
+        nombres[a["slug"]] = m.group(1).split(":")[0].strip()
+    ids = set(nombres)
+    for r in MAPA["relaciones"]:
+        if r["de"] not in ids or r["a"] not in ids:
+            raise SystemExit(f"Mapa de autores: relación con un autor inexistente: {r}")
+    return nombres
+
+
+MAPA_NOMBRES = _mapa_nombres() if MAPA else {}
+MAPA_ESCUELAS = {e["id"]: e["nombre"] for e in MAPA["escuelas"]} if MAPA else {}
+
+
+def _mapa_vinculos(slug):
+    """Devuelve (recibió, influyó, diálogo): listas de (slug, tipo, nota)."""
+    recibio, influyo, dialogo = [], [], []
+    for r in MAPA["relaciones"]:
+        simetrica = r["tipo"] in ("dialogo", "colaboracion")
+        if r["a"] == slug:
+            (dialogo if simetrica else recibio).append((r["de"], r["tipo"], r["nota"]))
+        elif r["de"] == slug:
+            (dialogo if simetrica else influyo).append((r["a"], r["tipo"], r["nota"]))
+    return recibio, influyo, dialogo
+
+
+def _mapa_lista(items):
+    return ", ".join(f'<a href="/recursos/{s}/">{esc(MAPA_NOMBRES[s])}</a> <span class="mapa-nota">({esc(n)})</span>' for s, t, n in items)
+
+
+MAPA_FRASES = {"pa": "el psicoanálisis", "rio": "el psicoanálisis rioplatense", "jung": "la psicología analítica",
+               "hum": "la psicología humanista y existencial", "ges": "la Gestalt y el análisis transaccional",
+               "cc": "las corrientes conductuales y cognitivas", "sis": "la terapia sistémica", "des": "la psicología del desarrollo y el apego"}
+
+
+def _mapa_trayectoria(a):
+    if a.get("origen"):
+        return esc(("de " + MAPA_FRASES[a["origen"]]).replace("de el ", "del ") + (" a " + MAPA_FRASES[a["escuela"]]).replace(" a el ", " al "))
+    return esc(MAPA_ESCUELAS[a["escuela"]])
+
+
+def _mapa_relaciones_html(slug):
+    recibio, influyo, dialogo = _mapa_vinculos(slug)
+    filas = []
+    if recibio:
+        filas.append(f'<p><span class="mapa-etiqueta">Recibió influencia de</span> {_mapa_lista(recibio)}</p>')
+    if influyo:
+        filas.append(f'<p><span class="mapa-etiqueta">Influyó en</span> {_mapa_lista(influyo)}</p>')
+    if dialogo:
+        filas.append(f'<p><span class="mapa-etiqueta">En diálogo con</span> {_mapa_lista(dialogo)}</p>')
+    return "".join(filas)
+
+
+def mapa_autores_svg():
+    ancho, x0, anio0, escala = 1400, 190, 1845, 11.0
+    fila_alto, fila_ancho_letra = 26, 7.6
+    def px(anio):
+        return x0 + (anio - anio0) * escala
+    # Ubicación: por carril, filas para que los nombres no se pisen
+    pos, carriles, y = {}, [], 46
+    for e in MAPA["escuelas"]:
+        autores = sorted([a for a in MAPA["autores"] if a["escuela"] == e["id"]], key=lambda a: a["x"])
+        fin_fila = []
+        for a in autores:
+            x = px(a["x"])
+            fila = next((i for i, f in enumerate(fin_fila) if x > f + 10), None)
+            if fila is None:
+                fila = len(fin_fila); fin_fila.append(0)
+            fin_fila[fila] = x + 14 + len(a["corto"]) * fila_ancho_letra
+            pos[a["slug"]] = (x, fila)
+        alto = 30 + max(1, len(fin_fila)) * fila_alto
+        carriles.append((e, y, alto))
+        for a in autores:
+            x, fila = pos[a["slug"]]
+            pos[a["slug"]] = (x, y + 30 + fila * fila_alto)
+        y += alto + 8
+    alto_total = y + 10
+    carril_y = {e["id"]: yy for e, yy, h in carriles}
+    p = [f'<svg class="mapa__svg" viewBox="0 0 {ancho} {alto_total}" aria-labelledby="mapa-t mapa-d" data-mapa>',
+         '<title id="mapa-t">Mapa de la psicología</title>',
+         '<desc id="mapa-d">Cincuenta autores ubicados por año de nacimiento y por escuela, con las influencias, formaciones, rupturas y diálogos entre ellos. Cada nombre lleva a su artículo. Debajo del mapa está el mismo contenido como índice.</desc>',
+         '<defs><marker id="mapa-flecha" viewBox="0 0 10 10" refX="19" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" class="mapa-flecha"/></marker></defs>']
+    for i, (e, yy, h) in enumerate(carriles):
+        p.append(f'<g class="mapa-carril" data-escuela="{e["id"]}"><rect x="0" y="{yy}" width="{ancho}" height="{h}" rx="10" class="mapa-carril__fondo mapa-carril__fondo--{i % 2}"/>'
+                 f'<text x="16" y="{yy + 20}" class="mapa-carril__nombre">{esc(e["nombre"])}</text></g>')
+    for d in range(1850, 1960, 10):
+        p.append(f'<text x="{px(d):.0f}" y="28" text-anchor="middle" class="mapa-anio">{d}</text>'
+                 f'<line x1="{px(d):.0f}" y1="36" x2="{px(d):.0f}" y2="{alto_total - 10}" class="mapa-guia"/>')
+    # Trayectorias (de una escuela a otra)
+    for a in MAPA["autores"]:
+        if a.get("origen"):
+            x, yn = pos[a["slug"]]
+            yo = carril_y[a["origen"]] + 14
+            p.append(f'<g class="mapa-trayectoria" data-id="{a["slug"]}"><circle cx="{x:.0f}" cy="{yo}" r="4" class="mapa-fantasma"/>'
+                     f'<path d="M{x:.0f} {yo} V {yn}" class="mapa-trayectoria__linea"/></g>')
+    # Relaciones, en orden cronológico
+    rel = sorted(MAPA["relaciones"], key=lambda r: max(next(a["x"] for a in MAPA["autores"] if a["slug"] == r["de"]),
+                                                       next(a["x"] for a in MAPA["autores"] if a["slug"] == r["a"])))
+    for i, r in enumerate(rel):
+        x1, y1 = pos[r["de"]]; x2, y2 = pos[r["a"]]
+        if abs(y1 - y2) < 1:
+            d = f'M{x1:.0f} {y1} Q {(x1 + x2) / 2:.0f} {y1 - 34} {x2:.0f} {y2}'
+        else:
+            ym = (y1 + y2) / 2
+            d = f'M{x1:.0f} {y1} C {x1:.0f} {ym:.0f}, {x2:.0f} {ym:.0f}, {x2:.0f} {y2}'
+        flecha = '' if r["tipo"] in ("dialogo", "colaboracion") else ' marker-end="url(#mapa-flecha)"'
+        p.append(f'<path d="{d}" class="mapa-rel mapa-rel--{r["tipo"]}" data-de="{r["de"]}" data-a="{r["a"]}" data-tipo="{r["tipo"]}" style="--i:{i}"{flecha}><title>{esc(MAPA_NOMBRES[r["de"]])} → {esc(MAPA_NOMBRES[r["a"]])}: {esc(r["nota"])}</title></path>')
+    # Nodos
+    for a in MAPA["autores"]:
+        x, yn = pos[a["slug"]]
+        p.append(f'<a class="mapa-nodo" href="/recursos/{a["slug"]}/" data-id="{a["slug"]}" data-escuela="{a["escuela"]}" '
+                 f'aria-label="{esc(MAPA_NOMBRES[a["slug"]])}, {esc(a["anios"])}, {esc(MAPA_ESCUELAS[a["escuela"]])}">'
+                 f'<circle cx="{x:.0f}" cy="{yn}" r="7" class="mapa-nodo__punto mapa-nodo__punto--{a["escuela"]}"/>'
+                 f'<text x="{x + 12:.0f}" y="{yn + 5}" class="mapa-nodo__nombre">{esc(a["corto"])}</text></a>')
+    p.append("</svg>")
+    filtros_esc = "".join(f'<button class="mapa-chip" type="button" data-filtro-escuela="{e["id"]}" aria-pressed="false">{esc(e["nombre"])}</button>' for e in MAPA["escuelas"])
+    filtros_tipo = "".join(f'<button class="mapa-chip mapa-chip--tipo mapa-chip--{k}" type="button" data-filtro-tipo="{k}" aria-pressed="true"><span class="mapa-chip__muestra" aria-hidden="true"></span>{esc(v)}</button>' for k, v in MAPA["tipos"].items())
+    return (f'<div class="mapa revelar">'
+            f'<div class="mapa__filtros" role="group" aria-label="Filtrar por escuela"><button class="mapa-chip" type="button" data-filtro-escuela="" aria-pressed="true">Todas</button>{filtros_esc}</div>'
+            f'<div class="mapa__filtros mapa__filtros--tipos" role="group" aria-label="Tipos de relación">{filtros_tipo}</div>'
+            f'<p class="mapa__aviso">Deslizá para ver todo el mapa. Tocá un nombre para ver sus relaciones.</p>'
+            f'<div class="mapa__marco" tabindex="0" role="region" aria-label="Mapa de autores, se puede desplazar">{"".join(p)}</div>'
+            f'<div class="mapa__ficha" data-mapa-ficha aria-live="polite" hidden></div>'
+            f'</div>')
+
+
+def indice_autores_html():
+    partes = []
+    for e in MAPA["escuelas"]:
+        autores = sorted([a for a in MAPA["autores"] if a["escuela"] == e["id"]], key=lambda a: a["x"])
+        items = "".join(
+            f'<li id="autor-{a["slug"]}" class="mapa-indice__autor" data-escuela="{e["id"]}">'
+            f'<h3><a href="/recursos/{a["slug"]}/">{esc(MAPA_NOMBRES[a["slug"]])}</a></h3>'
+            f'<p class="mapa-indice__datos">{esc(a["anios"])} · {_mapa_trayectoria(a)}</p>'
+            f'<p>{esc(a["resumen"])}</p>{_mapa_relaciones_html(a["slug"])}</li>' for a in autores)
+        partes.append(f'<section class="mapa-indice__escuela" aria-labelledby="escuela-{e["id"]}"><h2 id="escuela-{e["id"]}">{esc(e["nombre"])}</h2><ul>{items}</ul></section>')
+    return f'<div class="mapa-indice">{"".join(partes)}</div>'
+
+
+def bloque_mapa(slug):
+    if not MAPA or slug not in MAPA_NOMBRES:
+        return ""
+    a = next(x for x in MAPA["autores"] if x["slug"] == slug)
+    return (f'<aside class="mapa-caja" aria-label="En el mapa de la psicología"><p class="mapa-caja__titulo">En el mapa de la psicología</p>'
+            f'<p class="mapa-indice__datos">{_mapa_trayectoria(a)[:1].upper() + _mapa_trayectoria(a)[1:]}</p>{_mapa_relaciones_html(slug)}'
+            f'<a class="enlace-flecha" href="{MAPA_RUTA}#autor-{slug}">Ver en el mapa {ICON["flecha"]}</a></aside>')
+
+
 def markdown(md):
     salida, parrafo, lista, tipo = [], [], [], None
 
@@ -1370,6 +1528,10 @@ def render_articulo(a):
     html_md = markdown(md_sin_faq)
     corte = html_md.find('<h2 id="para-seguir-leyendo">')
     cuerpo_md = enlazar_glosario(html_md) if corte < 0 else enlazar_glosario(html_md[:corte]) + html_md[corte:]
+    caja_mapa = bloque_mapa(a["archivo"][:-3])
+    if caja_mapa:
+        i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
+        cuerpo_md = cuerpo_md + caja_mapa if i_corte < 0 else cuerpo_md[:i_corte] + caja_mapa + cuerpo_md[i_corte:]
     og = f'og/{a["archivo"][:-3]}.jpg'
     og = og if (RAIZ / "assets/img" / og).exists() else "og-inicio.jpg"
     menciones = [{"@type": "Thing", "name": WIKI[k][0], "sameAs": WIKI[k][1]}
@@ -1443,6 +1605,8 @@ def reemplazos(cuerpo, ruta):
         "retrato_sobre_mi": lambda: retrato(cual="foto_sobre_mi"),
         "retrato_biblioteca": lambda: retrato(cual="foto_biblioteca"),
         "orbitas": orbitas_svg,
+        "mapa_autores": mapa_autores_svg,
+        "indice_autores": indice_autores_html,
         "arte_hero": lambda: ARTE_HERO,
         "deco_enso": lambda: DECO_ENSO,
         "simbolo": lambda: SIMBOLO,
@@ -1577,6 +1741,7 @@ def construir():
         otras = "".join(f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in cats_con if c != cat)
         cuerpo = portada(meta) + f'''<section class="seccion" style="padding-top:0"><div class="contenedor">
 <h2 class="visualmente-oculto">Artículos</h2>
+{('<div class="descarga descarga--lab revelar" style="margin-bottom:2rem"><p><strong>El mapa de la psicología.</strong>Los cincuenta autores ubicados por escuela y por época, con sus influencias, formaciones, rupturas y diálogos.</p><a class="boton boton--chico" href="' + MAPA_RUTA + '">Ver el mapa</a></div>') if cat == "Historia de la psicología" and MAPA else ""}
 {articulos_lista(categoria=cat)}
 <p style="margin-top:3rem;font-family:var(--f-sans);font-size:.9rem">Otras categorías:</p><ul class="indice-enfoques">{otras}<li><a href="/recursos/">Todos los artículos</a></li></ul>
 <div style="margin-top:var(--sec)">{bloque_cta()}</div></div></section>'''
