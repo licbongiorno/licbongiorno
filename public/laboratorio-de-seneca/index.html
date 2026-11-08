@@ -94,7 +94,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#ira">Pausar la ira</a><a href="#tiempo">Inventario del tiempo</a><a href="#carta">Una carta a un amigo</a><a href="#consuelo">Consolar</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#ira">Pausar la ira</a><a href="#multitud">La multitud</a><a href="#carta">Una carta a un amigo</a><a href="#consuelo">Consolar</a></nav>
 
     <section class="lab-estacion revelar" id="ira" aria-labelledby="t-ira">
       <p class="lab-estacion__num">01</p>
@@ -119,26 +119,25 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
-    <section class="lab-estacion revelar" id="tiempo" aria-labelledby="t-tiempo">
+    <section class="lab-estacion revelar" id="multitud" aria-labelledby="t-multitud">
       <p class="lab-estacion__num">02</p>
-      <h2 id="t-tiempo">Inventario del tiempo</h2>
-      <p class="lab-estacion__bajada">En De brevitate vitae, Séneca sostuvo que la vida no es corta, sino que la malgastamos en cosas que no importan. Revisar cómo usamos el tiempo es una práctica estoica. Leé sobre <a href="/recursos/seneca/">Séneca</a>.</p>
-      <figure class="escena revelar" data-escena id="escena-tiempo-seneca" data-escena-sync="#pasos-tiempo-seneca">
-  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-tiempo-seneca-t escena-tiempo-seneca-d"><title id="escena-tiempo-seneca-t">Dónde se fue la semana</title>
-<rect data-paso="1" x="30" y="110" width="110" height="80" rx="10" class="esc-nodo"/><text data-paso="1" x="85" y="146" text-anchor="middle" font-size="15">trabajo</text>
-<rect data-paso="1" x="160" y="110" width="110" height="80" rx="10" class="esc-suave"/><text data-paso="1" x="215" y="146" text-anchor="middle" font-size="15">pantallas</text>
-<rect data-paso="2" x="290" y="110" width="110" height="80" rx="10" class="esc-relleno"/><text data-paso="2" x="345" y="146" text-anchor="middle" font-size="15">vínculos</text>
-<rect data-paso="3" x="420" y="110" width="130" height="80" rx="10" class="esc-calido"/><text data-paso="3" x="485" y="146" text-anchor="middle" font-size="15" class="esc-acento">lo que importa</text>
+      <h2 id="t-multitud">La multitud</h2>
+      <p class="lab-estacion__bajada">Séneca advirtió en varias cartas del contagio de la multitud: cuanta más gente, más fácil es adoptar sus vicios y sus opiniones sin pensarlas. Elegir con cuidado la compañía es una práctica estoica. Leé sobre <a href="/recursos/seneca/">Séneca</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-multitud-seneca" data-escena-sync="#pasos-multitud-seneca">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-multitud-seneca-t escena-multitud-seneca-d"><title id="escena-multitud-seneca-t">Quién me acompaña</title>
+<circle data-paso="1" cx="130" cy="150" r="46" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">yo</text>
+<circle data-paso="2" cx="300" cy="90" r="18" class="esc-suave"/><circle data-paso="2" cx="330" cy="130" r="18" class="esc-suave"/><circle data-paso="2" cx="290" cy="200" r="18" class="esc-suave"/><circle data-paso="2" cx="360" cy="180" r="18" class="esc-suave"/>
+<text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">pocos, buenos</text>
 </svg>
-  <figcaption><ol class="escena__textos"><li>Trabajo y pantallas</li><li>Vínculos</li><li>Lo que importa</li></ol><p class="escena__desc" id="escena-tiempo-seneca-d">Mirar en qué se fue el tiempo ayuda a elegir mejor. Séneca pedía separar lo que importa de lo que solo ocupa.</p></figcaption>
+  <figcaption><ol class="escena__textos"><li>Yo</li><li>La multitud</li><li>Pocos, buenos</li></ol><p class="escena__desc" id="escena-multitud-seneca-d">Séneca recomendaba elegir pocas compañías buenas. La multitud no decide por nosotros, pero contagia con facilidad.</p></figcaption>
 </figure>
-      <div class="lab-tarjeta" id="pasos-tiempo-seneca" data-lab-pasos>
-        <ol class="lab-pasos"><li><strong>Inventario.</strong> Anotá, por categorías, cómo usaste el tiempo la última semana.</li><li><strong>Separar.</strong> Marcá lo que importaba de verdad y lo que se fue sin querer.</li><li><strong>Recuperar.</strong> Elegí una sola cosa para recuperar esta semana.</li></ol>
+      <div class="lab-tarjeta" id="pasos-multitud-seneca" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Mirar.</strong> Pensá en las personas con las que pasás más tiempo esta semana.</li><li><strong>Notar.</strong> ¿Qué opiniones o costumbres adoptaste de ellas sin pensarlas?</li><li><strong>Elegir.</strong> ¿Con quién te gustaría pasar más tiempo, y en qué?</li></ol>
       </div>
-      <form class="lab-tarjeta lab-armador" data-lab-form="tiempo-seneca" data-lab-form-titulo="Inventario del tiempo" novalidate>
-        <div class="lab-paso"><label class="lab-paso__titulo" for="ti-semana">Cómo usé el tiempo la última semana</label><textarea class="lab-texto" id="ti-semana" rows="2"></textarea></div>
-        <div class="lab-paso"><label class="lab-paso__titulo" for="ti-importaba">Lo que importaba de verdad</label><textarea class="lab-texto" id="ti-importaba" rows="2"></textarea></div>
-        <div class="lab-paso"><label class="lab-paso__titulo" for="ti-recuperar">Una cosa para recuperar esta semana</label><textarea class="lab-texto" id="ti-recuperar" rows="2"></textarea></div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="multitud-seneca" data-lab-form-titulo="La multitud" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mu-personas">Las personas con las que más tiempo pasé esta semana</label><textarea class="lab-texto" id="mu-personas" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mu-adopte">Qué opinión o costumbre adopté sin pensarla</label><textarea class="lab-texto" id="mu-adopte" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mu-elegir">Con quién quiero pasar más tiempo, y en qué</label><textarea class="lab-texto" id="mu-elegir" rows="2"></textarea></div>
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>

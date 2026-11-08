@@ -36,6 +36,8 @@ Entre la **ofensa** y la **respuesta** hay un espacio. Séneca sugería usarlo p
 
 {{figura:seneca-ira}}
 
+La idea de que la vida no es corta, sino que se malgasta, se conecta con la finitud: pensar en el tiempo que tenemos ayuda a elegir qué importa. Séneca no recomendaba angustiarse por la muerte, sino vivir cada día como si fuera completo. Podés explorarlo en el [laboratorio de la vida que no es breve](/laboratorio-de-la-vida-que-no-es-breve/).
+
 ## Qué tomó la psicología
 
 - La idea de que las emociones dependen de nuestros **juicios** es antecedente de la terapia cognitiva. Ver [Albert Ellis](/recursos/albert-ellis/) y [Aaron Beck](/recursos/aaron-t-beck/).

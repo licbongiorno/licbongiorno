@@ -1,0 +1,153 @@
+<!--{
+  "ruta": "/laboratorio-de-la-vida-que-no-es-breve/",
+  "titulo": "Laboratorio de la vida que no es breve: finitud y sentido",
+  "descripcion": "Mirar en qué se va el tiempo, vivir un momento completo, pensar la finitud sin angustia y elegir lo que queremos dejar, con Séneca.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Sentido",
+      "/laboratorio-de-la-vida-que-no-es-breve/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de la <em>vida que no es breve</em>",
+  "bajada": "Séneca sostuvo que la vida no es corta por naturaleza, sino porque la malgastamos. Cuatro prácticas para vivirla con intensidad, conciencia y sentido.",
+  "respuesta": "El laboratorio de la vida que no es breve propone cuatro ejercicios inspirados en Séneca: mirar en qué se fue el tiempo de un día, vivir una actividad cotidiana con plenitud, pensar la finitud como guía y no como amenaza, y elegir lo que queremos que quede en la vida de otras personas.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de la vida que no es breve",
+  "articulos": [
+    "seneca",
+    "marco-aurelio",
+    "viktor-frankl"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Séneca escribió que la vida es suficientemente larga si se usa bien. Eso no quiere decir que la muerte no exista: quiere decir que pensarla puede ayudarnos a elegir mejor. Acá trabajamos la finitud, la intensidad y el sentido sin apuro.</p>
+        <p>Si la reflexión sobre la muerte te genera angustia o desesperanza, dejá el ejercicio y buscá acompañamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tiempo">Lo que es mío</a><a href="#plenitud">Un momento completo</a><a href="#finitud">Si esta semana fuera la última</a><a href="#quede">Lo que quiero que quede</a></nav>
+
+    <section class="lab-estacion revelar" id="tiempo" aria-labelledby="t-tiempo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tiempo">Lo que es mío</h2>
+      <p class="lab-estacion__bajada">Séneca distinguía el tiempo que elegimos del que nos imponen y del que se va sin querer. Mirar un día entero, y no una semana, muestra con claridad dónde está la vida. Leé sobre <a href="/recursos/seneca/">Séneca</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-tiempo-vida" data-escena-sync="#pasos-tiempo-vida">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-tiempo-vida-t escena-tiempo-vida-d"><title id="escena-tiempo-vida-t">Tres partes del día</title>
+<rect data-paso="1" x="30" y="110" width="150" height="80" rx="12" class="esc-calido"/><text data-paso="1" x="105" y="146" text-anchor="middle" font-size="15">lo que elegí</text>
+<rect data-paso="2" x="225" y="110" width="150" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="15">lo impuesto</text>
+<rect data-paso="3" x="420" y="110" width="150" height="80" rx="12" class="esc-suave"/><text data-paso="3" x="495" y="146" text-anchor="middle" font-size="15">lo que se fue</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que elegí</li><li>Lo impuesto</li><li>Lo que se fue</li></ol><p class="escena__desc" id="escena-tiempo-vida-d">El día tiene partes que elegimos, partes que nos imponen y partes que se pierden sin darnos cuenta. Verlas juntas ayuda a elegir.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-tiempo-vida" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Un día.</strong> Pensá en ayer, de la mañana a la noche.</li><li><strong>Tres partes.</strong> Separá lo que elegiste, lo que te impusieron y lo que se fue sin querer.</li><li><strong>Una elección.</strong> ¿Qué parte de lo que se fue te gustaría recuperar?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tiempo-vida" data-lab-form-titulo="Lo que es mío" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tv-elegi">Lo que elegí hacer ayer</label><textarea class="lab-texto" id="tv-elegi" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tv-impuesto">Lo que me impusieron</label><textarea class="lab-texto" id="tv-impuesto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tv-fue">Lo que se fue sin querer</label><textarea class="lab-texto" id="tv-fue" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tv-recuperar">Una parte que quiero recuperar</label><textarea class="lab-texto" id="tv-recuperar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="plenitud" aria-labelledby="t-plenitud">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-plenitud">Un momento completo</h2>
+      <p class="lab-estacion__bajada">Séneca hablaba de vivir cada día como si fuera completo, sin dejar la vida para después. Hacer una actividad cotidiana con atención plena es una forma concreta de hacerlo. Leé sobre <a href="/recursos/seneca/">Séneca</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-plenitud" data-escena-sync="#pasos-plenitud">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-plenitud-t escena-plenitud-d"><title id="escena-plenitud-t">Un momento completo</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">distraído</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M190 150 H 240"/><circle data-paso="2" cx="300" cy="150" r="56" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">atento</text>
+<circle data-paso="3" cx="470" cy="150" r="56" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">completo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Distraído</li><li>Atento</li><li>Completo</li></ol><p class="escena__desc" id="escena-plenitud-d">Una actividad cotidiana, hecha con atención, deja de ser un trámite. Cinco minutos de atención completa cambian cómo se vive el resto.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-plenitud" data-lab-pasos data-lab-pasos-segundos="300">
+        <ol class="lab-pasos"><li><strong>Elegir.</strong> Una actividad cotidiana: comer, caminar, lavar los platos, hablar con alguien.</li><li><strong>Estar.</strong> Durante cinco minutos, sin pantallas ni otras tareas. Notá colores, sonidos, el cuerpo.</li><li><strong>Notar.</strong> ¿Qué cambió en cómo viviste ese momento?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="plenitud" data-lab-form-titulo="Un momento completo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pl-actividad">La actividad que elegí</label><input class="lab-campo" id="pl-actividad" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pl-noto">Qué noté en esos cinco minutos</label><textarea class="lab-texto" id="pl-noto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="finitud" aria-labelledby="t-finitud">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-finitud">Si esta semana fuera la última</h2>
+      <p class="lab-estacion__bajada">Pensar en la finitud no tiene que ser angustiante. Usada como guía, la muerte ayuda a distinguir lo importante de lo urgente. Leé sobre <a href="/recursos/marco-aurelio/">Marco Aurelio</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-finitud-vida" data-escena-sync="#pasos-finitud">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-finitud-vida-t escena-finitud-vida-d"><title id="escena-finitud-vida-t">Una semana</title>
+<circle data-paso="1" cx="300" cy="150" r="110" class="esc-suave" stroke-dasharray="6 6"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="16">esta semana</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-fin-v)" d="M300 40 A 110 110 0 1 1 299 40"/>
+<text data-paso="3" x="300" y="284" text-anchor="middle" font-size="16" class="esc-acento">una acción</text>
+<defs><marker id="pf-fin-v" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Esta semana</li><li>Lo que importa</li><li>Una acción</li></ol><p class="escena__desc" id="escena-finitud-vida-d">Imaginar que una semana es la última ayuda a separar lo que importa de lo que solo ocupa. No hace falta angustiarse para hacerlo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-finitud" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Imaginar.</strong> Pensá que esta semana es la última. Sin dramatizarla.</li><li><strong>Responder.</strong> ¿Qué le dirías a alguien querido? ¿Qué harías?</li><li><strong>Actuar.</strong> Elegí una sola acción para hacer esta semana.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="finitud" data-lab-form-titulo="Si esta semana fuera la última" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fi-decir">Lo que le diría a alguien querido</label><textarea class="lab-texto" id="fi-decir" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fi-hacer">Lo que haría esta semana</label><textarea class="lab-texto" id="fi-hacer" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quede" aria-labelledby="t-quede">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-quede">Lo que quiero que quede</h2>
+      <p class="lab-estacion__bajada">Séneca escribía cartas para acompañar y dejar algo a otra persona. Pensar en lo que queremos que quede en la vida de los demás da dirección al sentido. Leé sobre <a href="/recursos/viktor-frankl/">Viktor Frankl</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-quede" data-escena-sync="#pasos-quede">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-quede-t escena-quede-d"><title id="escena-quede-t">Lo que queda</title>
+<circle data-paso="1" cx="130" cy="150" r="50" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">hoy</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-qu)" d="M186 150 H 254"/><circle data-paso="2" cx="300" cy="150" r="50" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">otros</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-qu)" d="M356 150 H 424"/><circle data-paso="3" cx="470" cy="150" r="50" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">después</text>
+<defs><marker id="pf-qu" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Hoy</li><li>En otros</li><li>Después</li></ol><p class="escena__desc" id="escena-quede-d">Lo que hacemos hoy llega a otras personas y sigue después. Elegir qué queremos dejar da dirección a lo que hacemos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-quede" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Tres cosas.</strong> Escribí tres cosas que te gustaría que otras personas recuerden de vos.</li><li><strong>Una hoy.</strong> Elegí una de ellas y hacé algo concreto hoy para que sea posible.</li><li><strong>Revisar.</strong> ¿Cambia algo si lo mirás como algo que deja un rastro?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="quede" data-lab-form-titulo="Lo que quiero que quede" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qe-tres">Tres cosas que quiero que recuerden de mí</label><textarea class="lab-texto" id="qe-tres" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qe-hoy">Una acción concreta de hoy</label><textarea class="lab-texto" id="qe-hoy" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Pensar en la finitud puede despertar angustia en algunas personas. Si la reflexión deriva en pensamientos de no querer vivir, llamá al 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Séneca. <em>De brevitate vitae</em> (Sobre la brevedad de la vida).</li><li>Séneca. <em>Cartas a Lucilio</em>.</li><li>Frankl, V. E. (1946). <em>El hombre en busca de sentido</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
