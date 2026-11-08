@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 300">
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 40 L 430 100 L 430 210 L 300 270 L 170 210 L 170 100 Z"/>
+<circle cx="300" cy="155" r="44" class="esc-calido"/><text x="300" y="146" text-anchor="middle" font-size="15">flexibilidad</text><text x="300" y="178" text-anchor="middle" font-size="15">psicológica</text>
+<circle cx="300" cy="40" r="7" class="esc-nodo"/><circle cx="430" cy="100" r="7" class="esc-nodo"/><circle cx="430" cy="210" r="7" class="esc-nodo"/><circle cx="300" cy="270" r="7" class="esc-nodo"/><circle cx="170" cy="210" r="7" class="esc-nodo"/><circle cx="170" cy="100" r="7" class="esc-nodo"/>
+<text x="300" y="24" text-anchor="middle" font-size="16">el presente</text>
+<text x="446" y="104" font-size="16">valores</text>
+<text x="446" y="214" font-size="16">acción</text>
+<text x="300" y="296" text-anchor="middle" font-size="16">el yo observador</text>
+<text x="154" y="214" text-anchor="end" font-size="16">defusión</text>
+<text x="154" y="104" text-anchor="end" font-size="16">aceptación</text>
+</svg>

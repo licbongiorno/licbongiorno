@@ -1,0 +1,12 @@
+<svg viewBox="0 0 600 290">
+<circle cx="300" cy="145" r="104" class="esc-suave"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 41 A 104 104 0 1 1 299.9 41"/>
+<circle cx="300" cy="145" r="30" class="esc-calido"/>
+<text x="300" y="24" text-anchor="middle" font-size="16">no juzgar</text>
+<text x="420" y="74" font-size="16">paciencia</text>
+<text x="420" y="146" font-size="16">mente de</text><text x="420" y="176" font-size="16">principiante</text>
+<text x="380" y="270" font-size="16">confianza</text>
+<text x="220" y="270" text-anchor="end" font-size="16">no forzar</text>
+<text x="170" y="166" text-anchor="end" font-size="16">aceptación</text>
+<text x="180" y="74" text-anchor="end" font-size="16">soltar</text>
+</svg>

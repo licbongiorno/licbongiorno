@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 290"><defs><marker id="pf-ba" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="300" cy="50" r="12" class="esc-punto"/><circle cx="130" cy="240" r="12" class="esc-nodo"/><circle cx="470" cy="240" r="12" class="esc-nodo"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ba)" marker-start="url(#pf-ba)" d="M286 66 L 146 224"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ba)" marker-start="url(#pf-ba)" d="M314 66 L 454 224"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ba)" marker-start="url(#pf-ba)" d="M150 240 H 450"/>
+<text x="330" y="40" font-size="17" class="esc-acento">la persona</text>
+<text x="40" y="276" font-size="17">la conducta</text>
+<text x="560" y="276" text-anchor="end" font-size="17">el ambiente</text>
+<text x="300" y="186" text-anchor="middle" class="esc-sans">se influyen entre sí</text>
+</svg>

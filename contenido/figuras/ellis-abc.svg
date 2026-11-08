@@ -1,0 +1,12 @@
+<svg viewBox="0 0 600 260"><defs><marker id="pf-el" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="80" cy="90" r="34" class="esc-nodo"/><text x="80" y="98" text-anchor="middle" font-size="22">A</text>
+<circle cx="300" cy="90" r="34" class="esc-calido"/><text x="300" y="98" text-anchor="middle" font-size="22">B</text>
+<circle cx="520" cy="90" r="34" class="esc-nodo"/><text x="520" y="98" text-anchor="middle" font-size="22">C</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-el)" d="M116 90 H 262"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-el)" d="M336 90 H 482"/>
+<text x="80" y="150" text-anchor="middle" font-size="16">lo que pasa</text>
+<text x="300" y="150" text-anchor="middle" font-size="16">lo que creo</text>
+<text x="520" y="150" text-anchor="middle" font-size="16">lo que siento</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M300 170 V 210"/>
+<text x="300" y="240" text-anchor="middle" font-size="17" class="esc-acento">D: discutir la creencia</text>
+</svg>

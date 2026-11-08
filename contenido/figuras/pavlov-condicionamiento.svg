@@ -1,0 +1,13 @@
+<svg viewBox="0 0 600 290"><defs><marker id="pf-pa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<text x="40" y="40" class="esc-sans">antes</text>
+<text x="40" y="150" class="esc-sans">después</text>
+<rect x="40" y="58" width="120" height="44" rx="22" class="esc-nodo"/><text x="100" y="86" text-anchor="middle" font-size="15">campana</text>
+<text x="178" y="88" text-anchor="middle" font-size="20">+</text>
+<rect x="196" y="58" width="110" height="44" rx="22" class="esc-relleno"/><text x="251" y="86" text-anchor="middle" font-size="15">comida</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-pa)" d="M314 80 H 400"/>
+<text x="490" y="86" text-anchor="middle" font-size="17">salivación</text>
+<rect x="40" y="178" width="120" height="44" rx="22" class="esc-nodo"/><text x="100" y="206" text-anchor="middle" font-size="15">campana</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-pa)" d="M168 200 H 400"/>
+<text x="490" y="206" text-anchor="middle" font-size="17" class="esc-acento">salivación</text>
+<text x="270" y="266" text-anchor="middle" font-size="16">un estímulo neutro aprende a anticipar</text>
+</svg>

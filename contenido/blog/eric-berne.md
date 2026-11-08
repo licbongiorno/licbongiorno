@@ -65,4 +65,4 @@ Es un plan de vida inconsciente, decidido en la infancia a partir de los mensaje
 - Berne, E. (1964). *Juegos en que participamos*.
 - Berne, E. (1972). *¿Qué dice usted después de decir hola?*
 
-Así termina la tanda de los enfoques humanistas, existenciales y gestálticos. Volvé a [Claudio Naranjo](/recursos/claudio-naranjo/) o empezá desde el principio con [Carl Rogers](/recursos/carl-rogers/).
+Así termina la tanda de los enfoques humanistas, existenciales y gestálticos. Seguí la serie con [Iván Pávlov](/recursos/ivan-pavlov/) y las corrientes conductuales y cognitivas, o volvé a [Claudio Naranjo](/recursos/claudio-naranjo/).

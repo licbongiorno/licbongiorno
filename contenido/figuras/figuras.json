@@ -412,5 +412,117 @@
  "berne-estados-del-yo": {
   "titulo": "Los estados del yo",
   "desc": "Berne describió tres estados del yo, Padre, Adulto y Niño, y estudió cómo se comunican entre dos personas: hay transacciones complementarias, como de Adulto a Adulto, y otras que se cruzan."
+ },
+ "vida-pavlov": {
+  "titulo": "La vida de Iván Pávlov",
+  "desc": "Del seminario a la fisiología: el Nobel por la digestión y el descubrimiento de los reflejos condicionados."
+ },
+ "vida-watson": {
+  "titulo": "La vida de John B. Watson",
+  "desc": "Del manifiesto conductista a la publicidad: la carrera breve e influyente del fundador del conductismo."
+ },
+ "vida-skinner": {
+  "titulo": "La vida de B. F. Skinner",
+  "desc": "De Harvard a Walden Dos: el condicionamiento operante y una ciencia de la conducta."
+ },
+ "vida-bandura": {
+  "titulo": "La vida de Albert Bandura",
+  "desc": "Del pueblo de Alberta a Stanford: el aprendizaje por observación y la autoeficacia."
+ },
+ "vida-ellis": {
+  "titulo": "La vida de Albert Ellis",
+  "desc": "De la Bronx al psicoanálisis y a la terapia racional emotiva conductual."
+ },
+ "vida-beck": {
+  "titulo": "La vida de Aaron T. Beck",
+  "desc": "Del psicoanálisis a la terapia cognitiva: cien años de vida y más de sesenta de trabajo."
+ },
+ "vida-seligman": {
+  "titulo": "El recorrido de Martin Seligman",
+  "desc": "De la indefensión aprendida al optimismo aprendido y la psicología positiva."
+ },
+ "vida-linehan": {
+  "titulo": "El recorrido de Marsha Linehan",
+  "desc": "De su propia internación en la adolescencia a la creación de la terapia dialéctica conductual."
+ },
+ "vida-hayes": {
+  "titulo": "El recorrido de Steven C. Hayes",
+  "desc": "De sus propios ataques de pánico a la terapia de aceptación y compromiso."
+ },
+ "vida-kabat-zinn": {
+  "titulo": "El recorrido de Jon Kabat-Zinn",
+  "desc": "De la biología molecular a la clínica de reducción del estrés y el mindfulness en la medicina."
+ },
+ "pavlov-condicionamiento": {
+  "titulo": "El condicionamiento clásico",
+  "desc": "Si una campana suena muchas veces justo antes de la comida, el perro termina salivando con la campana sola. Un estímulo neutro aprende a anticipar otro. Así se forman también muchos miedos.",
+  "enlace": [
+   "Ver el laboratorio de ansiedad",
+   "/laboratorio-de-ansiedad/"
+  ]
+ },
+ "watson-caja-negra": {
+  "titulo": "La caja negra",
+  "desc": "Watson propuso estudiar solo lo observable: los estímulos y las respuestas. Lo que pasa adentro quedaba fuera de la ciencia, como una caja negra. La psicología cognitiva volvió a abrirla."
+ },
+ "skinner-operante": {
+  "titulo": "El condicionamiento operante",
+  "desc": "Lo que hacemos tiene consecuencias, y las consecuencias cambian lo que hacemos: lo que se refuerza tiende a repetirse y lo que se castiga, a disminuir.",
+  "enlace": [
+   "Ver el laboratorio de hábitos",
+   "/laboratorio-de-habitos/"
+  ]
+ },
+ "bandura-reciproco": {
+  "titulo": "El determinismo recíproco",
+  "desc": "Para Bandura, la persona, su conducta y el ambiente se influyen entre sí. No somos solo producto del entorno: también lo elegimos y lo cambiamos."
+ },
+ "ellis-abc": {
+  "titulo": "El modelo ABC",
+  "desc": "No es lo que pasa (A) lo que nos hace sentir (C), sino lo que creemos sobre lo que pasa (B). Discutir esas creencias (D) abre la posibilidad de sentir distinto.",
+  "enlace": [
+   "Practicar en el laboratorio de diálogo socrático",
+   "/laboratorio-de-dialogo-socratico/"
+  ]
+ },
+ "beck-triada": {
+  "titulo": "La tríada cognitiva",
+  "desc": "Beck observó que en la depresión el pensamiento se tiñe en tres direcciones: una visión negativa de uno mismo, del mundo y del futuro.",
+  "enlace": [
+   "Practicar en el laboratorio de ánimo",
+   "/laboratorio-de-animo/"
+  ]
+ },
+ "seligman-explicativo": {
+  "titulo": "Dos estilos explicativos",
+  "desc": "Ante un fracaso, el estilo pesimista lo explica como personal, permanente y general; el optimista, como algo que dependió de la situación, de esta vez y de este tema.",
+  "enlace": [
+   "Leer sobre la resiliencia",
+   "/recursos/la-resiliencia/"
+  ]
+ },
+ "linehan-dialectica": {
+  "titulo": "Aceptación y cambio",
+  "desc": "La DBT sostiene una tensión: aceptar a la persona tal como es y, a la vez, ayudarla a cambiar. Sus cuatro módulos de habilidades trabajan los dos lados.",
+  "enlace": [
+   "Practicar en el laboratorio DBT",
+   "/laboratorio-de-habilidades-dbt/"
+  ]
+ },
+ "hayes-hexaflex": {
+  "titulo": "El hexaflex",
+  "desc": "La terapia de aceptación y compromiso trabaja seis procesos que juntos forman la flexibilidad psicológica: estar en el presente, aceptar, tomar distancia de los pensamientos, observarse, conocer los valores y actuar.",
+  "enlace": [
+   "Practicar en el laboratorio ACT",
+   "/laboratorio-act/"
+  ]
+ },
+ "kabat-zinn-actitudes": {
+  "titulo": "Las siete actitudes del mindfulness",
+  "desc": "Kabat-Zinn describió siete actitudes que sostienen la práctica: no juzgar, paciencia, mente de principiante, confianza, no forzar, aceptación y soltar.",
+  "enlace": [
+   "Practicar en el laboratorio de mindfulness",
+   "/laboratorio-de-mindfulness/"
+  ]
  }
 }

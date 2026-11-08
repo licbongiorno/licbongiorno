@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 300">
+<line x1="110" y1="34" x2="110" y2="266" class="esc-suave"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M110 34 V 266"/>
+<g class="hito" style="--i:0"><circle cx="110" cy="34" r="7" class="esc-nodo"/><text x="88" y="40" text-anchor="end" font-size="17" class="esc-anio">1849</text><text x="134" y="40" font-size="17">Nace en Riazán, Rusia</text></g>
+<g class="hito" style="--i:1"><circle cx="110" cy="92" r="7" class="esc-nodo"/><text x="88" y="98" text-anchor="end" font-size="17" class="esc-anio">1891</text><text x="134" y="98" font-size="17">Instituto de Medicina Experimental</text></g>
+<g class="hito" style="--i:2"><circle cx="110" cy="150" r="7" class="esc-nodo"/><text x="88" y="156" text-anchor="end" font-size="17" class="esc-anio">1904</text><text x="134" y="156" font-size="17">Premio Nobel por la digestión</text></g>
+<g class="hito" style="--i:3"><circle cx="110" cy="208" r="7" class="esc-nodo"/><text x="88" y="214" text-anchor="end" font-size="17" class="esc-anio">1927</text><text x="134" y="214" font-size="17">Los reflejos condicionados</text></g>
+<g class="hito" style="--i:4"><circle cx="110" cy="266" r="7" class="esc-punto"/><text x="88" y="272" text-anchor="end" font-size="17" class="esc-anio">1936</text><text x="134" y="272" font-size="17">Muere en Leningrado</text></g>
+</svg>

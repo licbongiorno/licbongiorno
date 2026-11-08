@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 280">
+<circle cx="150" cy="120" r="70" class="viz-real"/>
+<circle cx="450" cy="120" r="70" class="viz-ideal"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M220 120 C 260 80, 340 160, 380 120"/>
+<text x="150" y="126" text-anchor="middle" font-size="18">aceptación</text>
+<text x="450" y="126" text-anchor="middle" font-size="18">cambio</text>
+<text x="300" y="236" text-anchor="middle" font-size="16">mindfulness · tolerancia al malestar</text>
+<text x="300" y="264" text-anchor="middle" font-size="16">regulación emocional · eficacia interpersonal</text>
+</svg>
