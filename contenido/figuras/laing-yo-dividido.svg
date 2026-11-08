@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 270"><defs><marker id="pf-la" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="220" cy="135" r="100" fill="none" class="esc-linea trazo-fig" pathLength="1"/>
+<circle cx="220" cy="135" r="44" class="esc-calido"/>
+<text x="220" y="141" text-anchor="middle" font-size="15">yo «real»</text>
+<text x="220" y="62" text-anchor="middle" font-size="15">falso yo</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-la)" d="M450 120 H 330"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-la)" d="M330 150 H 450"/>
+<text x="560" y="140" text-anchor="end" font-size="17">los otros</text>
+<text x="300" y="262" text-anchor="middle" font-size="16" class="esc-acento">protegerse tanto que se pierde el contacto</text>
+</svg>

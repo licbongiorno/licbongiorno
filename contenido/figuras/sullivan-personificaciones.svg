@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 260">
+<line x1="40" y1="200" x2="560" y2="200" class="esc-suave"/>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M40 200 C 200 196, 380 150, 560 60"/>
+<circle cx="110" cy="198" r="12" class="esc-relleno"/><circle cx="320" cy="164" r="12" class="esc-calido"/><circle cx="510" cy="88" r="12" class="esc-punto"/>
+<text x="110" y="236" text-anchor="middle" font-size="16">yo bueno</text>
+<text x="320" y="132" text-anchor="middle" font-size="16">yo malo</text>
+<text x="510" y="56" text-anchor="middle" font-size="16" class="esc-acento">no-yo</text>
+<text x="40" y="36" class="esc-sans">ansiedad en el vínculo</text>
+</svg>

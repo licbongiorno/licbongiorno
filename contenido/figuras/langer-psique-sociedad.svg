@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 260">
+<circle cx="230" cy="125" r="100" class="viz-real"/>
+<circle cx="370" cy="125" r="100" class="viz-ideal"/>
+<circle cx="300" cy="125" r="10" class="esc-punto"/>
+<text x="180" y="131" text-anchor="middle" font-size="17">lo psíquico</text>
+<text x="420" y="131" text-anchor="middle" font-size="17">lo social</text>
+<text x="300" y="252" text-anchor="middle" font-size="16" class="esc-acento">el sufrimiento también tiene contexto</text>
+</svg>

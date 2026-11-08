@@ -624,5 +624,85 @@
  "erikson-etapas": {
   "titulo": "Las ocho etapas psicosociales",
   "desc": "Erikson describió ocho etapas a lo largo de toda la vida. En cada una hay una tensión entre dos polos, y de cómo se atraviesa surge una fortaleza."
+ },
+ "vida-wundt": {
+  "titulo": "La vida de Wilhelm Wundt",
+  "desc": "Del laboratorio de fisiología al primer laboratorio de psicología, en Leipzig."
+ },
+ "vida-james": {
+  "titulo": "La vida de William James",
+  "desc": "Médico, psicólogo y filósofo: los Principios de psicología, la experiencia religiosa y el pragmatismo."
+ },
+ "vida-adler": {
+  "titulo": "La vida de Alfred Adler",
+  "desc": "Del grupo de Freud a la psicología individual y su difusión en escuelas y clínicas."
+ },
+ "vida-rank": {
+  "titulo": "La vida de Otto Rank",
+  "desc": "Del círculo íntimo de Freud a una terapia centrada en la voluntad y el vínculo."
+ },
+ "vida-reich": {
+  "titulo": "La vida de Wilhelm Reich",
+  "desc": "Del psicoanálisis vienés al análisis del carácter y el trabajo con el cuerpo."
+ },
+ "vida-horney": {
+  "titulo": "La vida de Karen Horney",
+  "desc": "De Berlín a Nueva York: una psicoanalista que discutió a Freud y puso la cultura en primer plano."
+ },
+ "vida-sullivan": {
+  "titulo": "La vida de Harry Stack Sullivan",
+  "desc": "Psiquiatra estadounidense que pensó la personalidad como algo que se forma entre personas."
+ },
+ "vida-binswanger": {
+  "titulo": "La vida de Ludwig Binswanger",
+  "desc": "Psiquiatra suizo, amigo de Freud y creador del análisis existencial."
+ },
+ "vida-laing": {
+  "titulo": "La vida de R. D. Laing",
+  "desc": "Psiquiatra escocés que buscó comprender la experiencia de la locura en su contexto."
+ },
+ "vida-langer": {
+  "titulo": "La vida de Marie Langer",
+  "desc": "De Viena a la Guerra Civil Española, la fundación de la APA en Buenos Aires y el exilio en México."
+ },
+ "wundt-laboratorio": {
+  "titulo": "La psicología en el laboratorio",
+  "desc": "Wundt presentaba un estímulo controlado, pedía a observadores entrenados que describieran su experiencia inmediata y medía, por ejemplo, el tiempo de reacción. Así, la mente entró al laboratorio."
+ },
+ "james-corriente": {
+  "titulo": "La corriente de la conciencia",
+  "desc": "Para James, la conciencia no está hecha de piezas sueltas, sino que fluye como un río: recuerdos, percepciones e ideas se suceden y se mezclan sin cortes."
+ },
+ "adler-compensacion": {
+  "titulo": "Inferioridad y compensación",
+  "desc": "Todos partimos de un sentimiento de inferioridad que empuja a superarnos. Si ese afán se orienta hacia los otros, aparece el sentimiento de comunidad; si se vuelve contra ellos, la búsqueda de superioridad."
+ },
+ "rank-voluntad": {
+  "titulo": "Entre dos miedos",
+  "desc": "Rank pensó la vida como un movimiento entre dos miedos: el miedo a separarse y quedar solo, y el miedo a fundirse con otro y perderse. La voluntad es lo que permite ser uno mismo sin romper el vínculo."
+ },
+ "reich-coraza": {
+  "titulo": "La coraza",
+  "desc": "Reich describió una coraza de carácter —actitudes rígidas— y una coraza muscular —tensiones crónicas— que protegen de la angustia pero también ahogan lo vital."
+ },
+ "horney-tendencias": {
+  "titulo": "Tres maneras de defenderse",
+  "desc": "Horney describió tres tendencias ante la angustia: ir hacia los otros para complacer, ir contra los otros para dominar o alejarse de los otros para no necesitar a nadie."
+ },
+ "sullivan-personificaciones": {
+  "titulo": "Yo bueno, yo malo, no-yo",
+  "desc": "Según Sullivan, nos formamos una imagen de nosotros según la ansiedad que acompañó cada experiencia con los otros: el yo bueno, el yo malo y el no-yo, lo tan angustiante que queda disociado."
+ },
+ "binswanger-mundos": {
+  "titulo": "Los tres modos de estar en el mundo",
+  "desc": "El análisis existencial distingue tres modos de existir: el mundo circundante, del cuerpo y la naturaleza; el compartido, de los vínculos; y el propio, de la relación con uno mismo."
+ },
+ "laing-yo-dividido": {
+  "titulo": "El yo dividido",
+  "desc": "En El yo dividido, Laing describió cómo una persona muy insegura puede protegerse detrás de un falso yo que trata con el mundo, mientras su yo íntimo queda aislado y cada vez más lejos del contacto."
+ },
+ "langer-psique-sociedad": {
+  "titulo": "Lo psíquico y lo social",
+  "desc": "Langer sostuvo que el psicoanálisis no podía mirar al sujeto separado de su época: el sufrimiento también tiene un contexto social y político."
  }
 }

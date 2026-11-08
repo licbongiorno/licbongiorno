@@ -66,4 +66,4 @@ Es la preocupación, propia de la adultez, por dejar algo a las generaciones sig
 - Erikson, E. H. (1968). *Identidad, juventud y crisis*.
 - Erikson, E. H. (1982). *El ciclo vital completado*.
 
-Con Erikson se completan los cincuenta autores de la serie [Quiénes hicieron la psicología](/recursos/historia-de-la-psicologia/). Podés volver a [Mary Ainsworth](/recursos/mary-ainsworth/) o empezar desde el principio con [Sigmund Freud](/recursos/sigmund-freud/).
+Seguí la serie con [Wilhelm Wundt](/recursos/wilhelm-wundt/), que abre la tanda siguiente con los comienzos de la psicología, o volvé a [Mary Ainsworth](/recursos/mary-ainsworth/). También podés ver a todos los autores en el [mapa de la psicología](/recursos/mapa-de-la-psicologia/).

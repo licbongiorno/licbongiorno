@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 300">
+<circle cx="230" cy="120" r="88" class="viz-real"/>
+<circle cx="370" cy="120" r="88" class="viz-ideal"/>
+<circle cx="300" cy="200" r="88" fill="none" class="esc-linea trazo-fig" pathLength="1"/>
+<text x="180" y="96" text-anchor="middle" font-size="15">el mundo</text><text x="180" y="126" text-anchor="middle" font-size="15">circundante</text>
+<text x="420" y="96" text-anchor="middle" font-size="15">el mundo</text><text x="420" y="126" text-anchor="middle" font-size="15">compartido</text>
+<text x="300" y="250" text-anchor="middle" font-size="15" class="esc-acento">el mundo propio</text>
+</svg>

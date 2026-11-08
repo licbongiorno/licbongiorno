@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 240"><defs><marker id="pf-wu" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<rect x="20" y="80" width="160" height="60" rx="12" class="esc-nodo"/><text x="100" y="116" text-anchor="middle" font-size="16">un estímulo</text>
+<rect x="220" y="80" width="160" height="60" rx="12" class="esc-relleno"/><text x="300" y="116" text-anchor="middle" font-size="16">la experiencia</text>
+<rect x="420" y="80" width="160" height="60" rx="12" class="esc-calido"/><text x="500" y="116" text-anchor="middle" font-size="16">la medida</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-wu)" d="M182 110 H 216"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-wu)" d="M382 110 H 416"/>
+<text x="100" y="170" text-anchor="middle" class="esc-sans">un sonido</text>
+<text x="300" y="170" text-anchor="middle" class="esc-sans">introspección</text>
+<text x="500" y="170" text-anchor="middle" class="esc-sans">la reacción</text>
+<text x="300" y="224" text-anchor="middle" font-size="16" class="esc-acento">la mente, en el laboratorio</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 280">
+<circle cx="200" cy="140" r="120" class="esc-capa esc-capa--3"/>
+<circle cx="200" cy="140" r="82" class="esc-capa esc-capa--2"/>
+<circle cx="200" cy="140" r="40" class="esc-calido"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M200 20 A 120 120 0 1 1 199.9 20"/>
+<path class="esc-suave" d="M240 140 H 400 M282 110 H 400 M318 60 H 400"/>
+<text x="410" y="66" font-size="17">la coraza muscular</text>
+<text x="410" y="116" font-size="17">la coraza de carácter</text>
+<text x="410" y="146" font-size="17" class="esc-acento">lo vital</text>
+</svg>
