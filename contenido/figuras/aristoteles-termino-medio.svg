@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 220">
+<line x1="60" y1="110" x2="540" y2="110" class="esc-suave"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M60 110 H 540"/>
+<circle cx="80" cy="110" r="10" class="esc-nodo"/><circle cx="300" cy="110" r="14" class="esc-punto"/><circle cx="520" cy="110" r="10" class="esc-nodo"/>
+<text x="60" y="76" font-size="17">cobardía</text>
+<text x="300" y="76" text-anchor="middle" font-size="17" class="esc-acento">valentía</text>
+<text x="540" y="76" text-anchor="end" font-size="17">temeridad</text>
+<text x="60" y="150" class="esc-sans">falta</text>
+<text x="300" y="150" text-anchor="middle" class="esc-sans">término medio</text>
+<text x="540" y="150" text-anchor="end" class="esc-sans">exceso</text>
+</svg>

@@ -259,7 +259,7 @@ def _mapa_lista(items):
     return ", ".join(f'<a href="/recursos/{s}/">{esc(MAPA_NOMBRES[s])}</a> <span class="mapa-nota">({esc(n)})</span>' for s, t, n in items)
 
 
-MAPA_FRASES = {"ini": "los comienzos de la psicología científica", "pa": "el psicoanálisis", "rio": "el psicoanálisis rioplatense", "jung": "la psicología analítica",
+MAPA_FRASES = {"fil": "la filosofía", "ini": "los comienzos de la psicología científica", "pa": "el psicoanálisis", "rio": "el psicoanálisis rioplatense", "jung": "la psicología analítica",
                "hum": "la psicología humanista y existencial", "ges": "la Gestalt y el análisis transaccional",
                "cc": "las corrientes conductuales y cognitivas", "sis": "la terapia sistémica", "des": "la psicología del desarrollo y el apego"}
 
@@ -283,9 +283,13 @@ def _mapa_relaciones_html(slug):
 
 
 def mapa_autores_svg():
-    ancho, x0, anio0, escala = 1400, 190, 1826, 9.5
+    ancho, x0, anio0, escala = 1760, 570, 1826, 9.5
     fila_alto, fila_ancho_letra = 26, 7.6
-    def px(anio):
+    antes = sorted([a for a in MAPA["autores"] if a["x"] < anio0], key=lambda a: a["x"])
+    pos_antes = {a["slug"]: 40 + i * (470 / max(1, len(antes) - 1)) for i, a in enumerate(antes)}
+    def px(anio, slug=None):
+        if slug in pos_antes:
+            return pos_antes[slug]
         return x0 + (anio - anio0) * escala
     # Ubicación: por carril, filas para que los nombres no se pisen
     pos, carriles, y = {}, [], 46
@@ -293,7 +297,7 @@ def mapa_autores_svg():
         autores = sorted([a for a in MAPA["autores"] if a["escuela"] == e["id"]], key=lambda a: a["x"])
         fin_fila = []
         for a in autores:
-            x = px(a["x"])
+            x = px(a["x"], a["slug"])
             fila = next((i for i, f in enumerate(fin_fila) if x > f + 10), None)
             if fila is None:
                 fila = len(fin_fila); fin_fila.append(0)
@@ -314,6 +318,9 @@ def mapa_autores_svg():
     for i, (e, yy, h) in enumerate(carriles):
         p.append(f'<g class="mapa-carril" data-escuela="{e["id"]}"><rect x="0" y="{yy}" width="{ancho}" height="{h}" rx="10" class="mapa-carril__fondo mapa-carril__fondo--{i % 2}"/>'
                  f'<text x="16" y="{yy + 20}" class="mapa-carril__nombre">{esc(e["nombre"])}</text></g>')
+    if antes:
+        p.append(f'<text x="{(40 + 510) / 2:.0f}" y="28" text-anchor="middle" class="mapa-anio">antes de 1830</text>'
+                 f'<line x1="545" y1="36" x2="545" y2="{alto_total - 10}" class="mapa-guia mapa-guia--corte"/>')
     for d in range(1830, 1960, 10):
         p.append(f'<text x="{px(d):.0f}" y="28" text-anchor="middle" class="mapa-anio">{d}</text>'
                  f'<line x1="{px(d):.0f}" y1="36" x2="{px(d):.0f}" y2="{alto_total - 10}" class="mapa-guia"/>')
@@ -954,6 +961,16 @@ WIKI = {
     "ainsworth": ("Mary Ainsworth", "https://es.wikipedia.org/wiki/Mary_Ainsworth"),
     "erikson": ("Erik Erikson", "https://es.wikipedia.org/wiki/Erik_Erikson"),
     "wundt": ("Wilhelm Wundt", "https://es.wikipedia.org/wiki/Wilhelm_Wundt"),
+    "platon": ("Platón", "https://es.wikipedia.org/wiki/Plat%C3%B3n"),
+    "aristoteles": ("Aristóteles", "https://es.wikipedia.org/wiki/Arist%C3%B3teles"),
+    "epicteto": ("Epicteto", "https://es.wikipedia.org/wiki/Epicteto"),
+    "spinoza": ("Baruch Spinoza", "https://es.wikipedia.org/wiki/Baruch_Spinoza"),
+    "kant": ("Immanuel Kant", "https://es.wikipedia.org/wiki/Immanuel_Kant"),
+    "hegel": ("Georg Wilhelm Friedrich Hegel", "https://es.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"),
+    "schopenhauer": ("Arthur Schopenhauer", "https://es.wikipedia.org/wiki/Arthur_Schopenhauer"),
+    "kierkegaard": ("Søren Kierkegaard", "https://es.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard"),
+    "nietzsche": ("Friedrich Nietzsche", "https://es.wikipedia.org/wiki/Friedrich_Nietzsche"),
+    "buber": ("Martin Buber", "https://es.wikipedia.org/wiki/Martin_Buber"),
     "william-james": ("William James", "https://es.wikipedia.org/wiki/William_James"),
     "adler": ("Alfred Adler", "https://es.wikipedia.org/wiki/Alfred_Adler"),
     "rank": ("Otto Rank", "https://es.wikipedia.org/wiki/Otto_Rank"),

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 270">
+<path class="esc-linea trazo-fig" pathLength="1" d="M40 230 H 220 V 160 H 400 V 90 H 560"/>
+<circle cx="480" cy="90" r="9" class="esc-punto"/>
+<text x="130" y="218" text-anchor="middle" font-size="17">estético</text>
+<text x="130" y="254" text-anchor="middle" class="esc-sans">el placer</text>
+<text x="310" y="148" text-anchor="middle" font-size="17">ético</text>
+<text x="310" y="184" text-anchor="middle" class="esc-sans">el deber</text>
+<text x="480" y="70" text-anchor="middle" font-size="17" class="esc-acento">religioso</text>
+<text x="480" y="122" text-anchor="middle" class="esc-sans">la fe</text>
+</svg>

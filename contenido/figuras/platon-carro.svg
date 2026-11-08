@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 270">
+<circle cx="150" cy="135" r="46" class="esc-calido"/><text x="150" y="141" text-anchor="middle" font-size="17">razón</text>
+<circle cx="420" cy="75" r="40" class="esc-relleno"/><text x="420" y="81" text-anchor="middle" font-size="16">ánimo</text>
+<circle cx="420" cy="195" r="40" class="esc-nodo"/><text x="420" y="201" text-anchor="middle" font-size="16">deseo</text>
+<path class="esc-linea trazo-fig" pathLength="1" d="M196 125 C 280 100, 330 80, 380 76"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M196 145 C 280 170, 330 190, 380 194"/>
+<text x="150" y="214" text-anchor="middle" class="esc-sans">el auriga</text>
+<text x="560" y="140" text-anchor="end" font-size="16" class="esc-acento">dos caballos</text>
+</svg>

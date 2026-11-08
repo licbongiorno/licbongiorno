@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 240"><defs><marker id="pf-ni" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="90" cy="110" r="40" class="esc-nodo"/><text x="90" y="116" text-anchor="middle" font-size="16">camello</text>
+<circle cx="300" cy="110" r="40" class="esc-calido"/><text x="300" y="116" text-anchor="middle" font-size="16">león</text>
+<circle cx="510" cy="110" r="40" class="esc-relleno"/><text x="510" y="116" text-anchor="middle" font-size="16">niño</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ni)" d="M132 110 H 256"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-ni)" d="M342 110 H 466"/>
+<text x="90" y="182" text-anchor="middle" class="esc-sans">«tú debes»</text>
+<text x="300" y="182" text-anchor="middle" class="esc-sans">«yo quiero»</text>
+<text x="510" y="182" text-anchor="middle" class="esc-sans">un comienzo</text>
+</svg>

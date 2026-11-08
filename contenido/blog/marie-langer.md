@@ -65,4 +65,4 @@ En 1974, amenazada por la Triple A, el grupo paraestatal que perseguía a milita
 - Langer, M. (comp.) (1971). *Cuestionamos*.
 - Langer, M., del Palacio, J. y Guinsberg, E. (1981). *Memoria, historia y diálogo psicoanalítico*.
 
-Así termina la sexta tanda. Volvé a [R. D. Laing](/recursos/ronald-laing/) o empezá desde el principio con [Sigmund Freud](/recursos/sigmund-freud/), o mirá todo en el [mapa de la psicología](/recursos/mapa-de-la-psicologia/).
+Así termina la sexta tanda. Seguí con la filosofía que influyó en la psicología, empezando por [Platón](/recursos/platon/), o mirá a todos en el [mapa de la psicología](/recursos/mapa-de-la-psicologia/). También podés volver a [R. D. Laing](/recursos/ronald-laing/).

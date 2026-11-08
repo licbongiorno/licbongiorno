@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 280">
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 150 L 130 60 M300 150 L 470 60 M300 150 L 300 250"/>
+<circle cx="300" cy="150" r="46" class="esc-calido"/><text x="300" y="156" text-anchor="middle" font-size="17">conatus</text>
+<circle cx="130" cy="60" r="10" class="esc-nodo"/><circle cx="470" cy="60" r="10" class="esc-nodo"/><circle cx="300" cy="250" r="10" class="esc-nodo"/>
+<text x="130" y="36" text-anchor="middle" font-size="17">deseo</text>
+<text x="470" y="36" text-anchor="middle" font-size="17" class="esc-acento">alegría</text>
+<text x="350" y="256" font-size="17">tristeza</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 242">
+<line x1="160" y1="34" x2="160" y2="208" class="esc-suave"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M160 34 V 208"/>
+<g class="hito" style="--i:0"><circle cx="160" cy="34" r="7" class="esc-nodo"/><text x="138" y="40" text-anchor="end" font-size="17" class="esc-anio">1632</text><text x="184" y="40" font-size="17">Nace en Ámsterdam</text></g>
+<g class="hito" style="--i:1"><circle cx="160" cy="92" r="7" class="esc-nodo"/><text x="138" y="98" text-anchor="end" font-size="17" class="esc-anio">1656</text><text x="184" y="98" font-size="17">Expulsado de su comunidad</text></g>
+<g class="hito" style="--i:2"><circle cx="160" cy="150" r="7" class="esc-nodo"/><text x="138" y="156" text-anchor="end" font-size="17" class="esc-anio">1670</text><text x="184" y="156" font-size="17">Tratado teológico-político</text></g>
+<g class="hito" style="--i:3"><circle cx="160" cy="208" r="7" class="esc-punto"/><text x="138" y="214" text-anchor="end" font-size="17" class="esc-anio">1677</text><text x="184" y="214" font-size="17">Muere en La Haya; sale la Ética</text></g>
+</svg>

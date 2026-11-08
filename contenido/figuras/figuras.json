@@ -704,5 +704,93 @@
  "langer-psique-sociedad": {
   "titulo": "Lo psíquico y lo social",
   "desc": "Langer sostuvo que el psicoanálisis no podía mirar al sujeto separado de su época: el sufrimiento también tiene un contexto social y político."
+ },
+ "vida-platon": {
+  "titulo": "La vida de Platón",
+  "desc": "Discípulo de Sócrates, fundador de la Academia de Atenas."
+ },
+ "vida-aristoteles": {
+  "titulo": "La vida de Aristóteles",
+  "desc": "De la Academia de Platón al Liceo, pasando por la educación de Alejandro Magno."
+ },
+ "vida-epicteto": {
+  "titulo": "La vida de Epicteto",
+  "desc": "De esclavo en Roma a maestro de filosofía en Nicópolis."
+ },
+ "vida-spinoza": {
+  "titulo": "La vida de Baruch Spinoza",
+  "desc": "Expulsado de su comunidad, pulidor de lentes y autor de la Ética."
+ },
+ "vida-kant": {
+  "titulo": "La vida de Immanuel Kant",
+  "desc": "Nunca se alejó de Königsberg y cambió la forma de pensar el conocimiento."
+ },
+ "vida-hegel": {
+  "titulo": "La vida de G. W. F. Hegel",
+  "desc": "De Stuttgart a Berlín: la Fenomenología del espíritu y la dialéctica."
+ },
+ "vida-schopenhauer": {
+  "titulo": "La vida de Arthur Schopenhauer",
+  "desc": "De Danzig a Fráncfort: el mundo como voluntad y representación."
+ },
+ "vida-kierkegaard": {
+  "titulo": "La vida de Søren Kierkegaard",
+  "desc": "Un filósofo de Copenhague que escribió sobre la angustia, la elección y la fe."
+ },
+ "vida-nietzsche": {
+  "titulo": "La vida de Friedrich Nietzsche",
+  "desc": "Profesor a los veinticuatro años, autor de Zaratustra, enfermo a los cuarenta y cuatro."
+ },
+ "vida-buber": {
+  "titulo": "La vida de Martin Buber",
+  "desc": "De Viena a Jerusalén: el filósofo del diálogo."
+ },
+ "platon-carro": {
+  "titulo": "El carro alado",
+  "desc": "En el Fedro, Platón comparó el alma con un carro: la razón es el auriga, que conduce dos caballos, uno noble —el ánimo— y otro que tira hacia el deseo."
+ },
+ "aristoteles-termino-medio": {
+  "titulo": "El término medio",
+  "desc": "Para Aristóteles, la virtud está en un punto medio entre dos extremos: la valentía, entre la cobardía y la temeridad. Y se forma con la práctica, como un hábito."
+ },
+ "epicteto-control": {
+  "titulo": "Lo que depende de mí",
+  "desc": "Epicteto separó lo que depende de nosotros —nuestros juicios, deseos y acciones— de lo que no: el cuerpo, la reputación, lo que hacen los demás. Mucho sufrimiento viene de confundirlos.",
+  "enlace": [
+   "Practicar en el laboratorio de diálogo socrático",
+   "/laboratorio-de-dialogo-socratico/"
+  ]
+ },
+ "spinoza-afectos": {
+  "titulo": "Los afectos según Spinoza",
+  "desc": "Para Spinoza, todo ser tiende a perseverar en su ser (el conatus). De ahí surgen tres afectos básicos: el deseo, la alegría, cuando aumenta nuestra potencia, y la tristeza, cuando disminuye."
+ },
+ "kant-conocimiento": {
+  "titulo": "Cómo conocemos según Kant",
+  "desc": "Para Kant, la experiencia surge de la unión entre lo que dan los sentidos y las formas que pone la mente: el espacio, el tiempo y categorías como la causa."
+ },
+ "hegel-dialectica": {
+  "titulo": "La dialéctica",
+  "desc": "Suele resumirse la dialéctica de Hegel así: una posición encuentra su negación, y de esa tensión surge algo nuevo que conserva y transforma a las dos.",
+  "enlace": [
+   "Ver la DBT de Marsha Linehan",
+   "/recursos/marsha-linehan/"
+  ]
+ },
+ "schopenhauer-voluntad": {
+  "titulo": "Voluntad y representación",
+  "desc": "Para Schopenhauer, el mundo que vemos es representación; por debajo hay una voluntad ciega, un impulso que nos mueve sin que lo sepamos. Freud reconoció en esa idea un antecedente del inconsciente."
+ },
+ "kierkegaard-estadios": {
+  "titulo": "Los tres estadios",
+  "desc": "Kierkegaard describió tres formas de vivir: la estética, guiada por el placer; la ética, por el deber y el compromiso; y la religiosa, por la fe. El paso de una a otra es un salto, no una deducción."
+ },
+ "nietzsche-transformaciones": {
+  "titulo": "Las tres transformaciones",
+  "desc": "En Así habló Zaratustra, el espíritu se vuelve camello, que carga con el «tú debes»; después león, que dice «yo quiero»; y por último niño, un nuevo comienzo."
+ },
+ "buber-yo-tu": {
+  "titulo": "Yo-Tú y Yo-Ello",
+  "desc": "Buber distinguió dos formas de relación: Yo-Tú, el encuentro con el otro como persona entera, y Yo-Ello, la relación con algo que se usa o se conoce. La vida necesita las dos, pero solo la primera es encuentro."
  }
 }

@@ -1,6 +1,10 @@
 {
  "escuelas": [
   {
+   "id": "fil",
+   "nombre": "Filosofía"
+  },
+  {
    "id": "ini",
    "nombre": "Los comienzos"
   },
@@ -538,6 +542,86 @@
    "x": 1927,
    "escuela": "hum",
    "resumen": "El yo dividido: la locura en su contexto."
+  },
+  {
+   "slug": "platon",
+   "corto": "Platón",
+   "anios": "c. 428–348 a. C.",
+   "x": -428,
+   "escuela": "fil",
+   "resumen": "El alma tripartita, las ideas y el diálogo."
+  },
+  {
+   "slug": "aristoteles",
+   "corto": "Aristóteles",
+   "anios": "384–322 a. C.",
+   "x": -384,
+   "escuela": "fil",
+   "resumen": "La catarsis, el hábito y la eudaimonía."
+  },
+  {
+   "slug": "epicteto",
+   "corto": "Epicteto",
+   "anios": "c. 50–135",
+   "x": 50,
+   "escuela": "fil",
+   "resumen": "Lo que depende de mí y lo que no."
+  },
+  {
+   "slug": "baruch-spinoza",
+   "corto": "Spinoza",
+   "anios": "1632–1677",
+   "x": 1632,
+   "escuela": "fil",
+   "resumen": "Los afectos, el deseo y la libertad."
+  },
+  {
+   "slug": "immanuel-kant",
+   "corto": "Kant",
+   "anios": "1724–1804",
+   "x": 1724,
+   "escuela": "fil",
+   "resumen": "Lo que la mente pone en lo que conoce."
+  },
+  {
+   "slug": "hegel",
+   "corto": "Hegel",
+   "anios": "1770–1831",
+   "x": 1770,
+   "escuela": "fil",
+   "resumen": "La dialéctica y el reconocimiento."
+  },
+  {
+   "slug": "arthur-schopenhauer",
+   "corto": "Schopenhauer",
+   "anios": "1788–1860",
+   "x": 1788,
+   "escuela": "fil",
+   "resumen": "La voluntad ciega."
+  },
+  {
+   "slug": "soren-kierkegaard",
+   "corto": "Kierkegaard",
+   "anios": "1813–1855",
+   "x": 1813,
+   "escuela": "fil",
+   "resumen": "La angustia como vértigo de la libertad."
+  },
+  {
+   "slug": "friedrich-nietzsche",
+   "corto": "Nietzsche",
+   "anios": "1844–1900",
+   "x": 1844,
+   "escuela": "fil",
+   "resumen": "La voluntad de poder y las tres transformaciones."
+  },
+  {
+   "slug": "martin-buber",
+   "corto": "Buber",
+   "anios": "1878–1965",
+   "x": 1878,
+   "escuela": "fil",
+   "resumen": "Yo y Tú: la filosofía del encuentro."
   }
  ],
  "relaciones": [
@@ -930,6 +1014,150 @@
    "a": "carl-gustav-jung",
    "tipo": "influencia",
    "nota": "se conocieron en 1909; Jung lo cita en Tipos psicológicos"
+  },
+  {
+   "de": "platon",
+   "a": "aristoteles",
+   "tipo": "formacion",
+   "nota": "estudió veinte años en la Academia"
+  },
+  {
+   "de": "platon",
+   "a": "carl-gustav-jung",
+   "tipo": "influencia",
+   "nota": "las ideas, comparadas con los arquetipos"
+  },
+  {
+   "de": "platon",
+   "a": "aaron-t-beck",
+   "tipo": "influencia",
+   "nota": "el método socrático de los diálogos"
+  },
+  {
+   "de": "aristoteles",
+   "a": "sigmund-freud",
+   "tipo": "influencia",
+   "nota": "la catarsis dio nombre al método catártico"
+  },
+  {
+   "de": "aristoteles",
+   "a": "martin-seligman",
+   "tipo": "influencia",
+   "nota": "la eudaimonía"
+  },
+  {
+   "de": "epicteto",
+   "a": "albert-ellis",
+   "tipo": "influencia",
+   "nota": "«no nos perturban las cosas, sino las opiniones»"
+  },
+  {
+   "de": "epicteto",
+   "a": "aaron-t-beck",
+   "tipo": "influencia",
+   "nota": "las raíces estoicas de la terapia cognitiva"
+  },
+  {
+   "de": "baruch-spinoza",
+   "a": "irvin-yalom",
+   "tipo": "influencia",
+   "nota": "la novela El problema de Spinoza"
+  },
+  {
+   "de": "immanuel-kant",
+   "a": "jean-piaget",
+   "tipo": "influencia",
+   "nota": "cómo se construyen las categorías"
+  },
+  {
+   "de": "immanuel-kant",
+   "a": "carl-gustav-jung",
+   "tipo": "influencia",
+   "nota": "los arquetipos y las categorías"
+  },
+  {
+   "de": "immanuel-kant",
+   "a": "arthur-schopenhauer",
+   "tipo": "influencia",
+   "nota": "partió de la filosofía de Kant"
+  },
+  {
+   "de": "hegel",
+   "a": "jacques-lacan",
+   "tipo": "influencia",
+   "nota": "el deseo de reconocimiento, vía Kojève"
+  },
+  {
+   "de": "hegel",
+   "a": "marsha-linehan",
+   "tipo": "influencia",
+   "nota": "la dialéctica"
+  },
+  {
+   "de": "arthur-schopenhauer",
+   "a": "sigmund-freud",
+   "tipo": "influencia",
+   "nota": "anticipó la represión"
+  },
+  {
+   "de": "arthur-schopenhauer",
+   "a": "friedrich-nietzsche",
+   "tipo": "influencia",
+   "nota": "se volvió filósofo leyéndolo"
+  },
+  {
+   "de": "arthur-schopenhauer",
+   "a": "carl-gustav-jung",
+   "tipo": "influencia",
+   "nota": "lo leyó de joven"
+  },
+  {
+   "de": "soren-kierkegaard",
+   "a": "rollo-may",
+   "tipo": "influencia",
+   "nota": "la angustia y la libertad"
+  },
+  {
+   "de": "friedrich-nietzsche",
+   "a": "sigmund-freud",
+   "tipo": "influencia",
+   "nota": "intuiciones que Freud reconoció"
+  },
+  {
+   "de": "friedrich-nietzsche",
+   "a": "carl-gustav-jung",
+   "tipo": "influencia",
+   "nota": "el seminario sobre Zaratustra (1934–1939)"
+  },
+  {
+   "de": "friedrich-nietzsche",
+   "a": "alfred-adler",
+   "tipo": "influencia",
+   "nota": "la voluntad de poder"
+  },
+  {
+   "de": "friedrich-nietzsche",
+   "a": "viktor-frankl",
+   "tipo": "influencia",
+   "nota": "«quien tiene un porqué para vivir…»"
+  },
+  {
+   "de": "friedrich-nietzsche",
+   "a": "irvin-yalom",
+   "tipo": "influencia",
+   "nota": "la novela El día que Nietzsche lloró"
+  },
+  {
+   "de": "martin-buber",
+   "a": "carl-rogers",
+   "tipo": "dialogo",
+   "nota": "el diálogo público de 1957"
+  },
+  {
+   "de": "martin-buber",
+   "a": "laura-perls",
+   "tipo": "influencia",
+   "nota": "la filosofía del diálogo"
   }
  ]
 }
