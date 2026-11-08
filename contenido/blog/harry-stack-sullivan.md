@@ -60,6 +60,8 @@ Es el conjunto de formas aprendidas de evitar la ansiedad en los vínculos. Prot
 
 Formaron parte del mismo grupo de psicoanalistas en Nueva York y Washington, que dio origen al psicoanálisis interpersonal.
 
+Para practicarlo, probá el [Laboratorio de relaciones y poder personal](/laboratorio-de-relaciones-y-poder-personal/).
+
 ## Para seguir leyendo
 
 - Sullivan, H. S. (1953). *La teoría interpersonal de la psiquiatría*.

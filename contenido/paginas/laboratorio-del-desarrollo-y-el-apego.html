@@ -1,0 +1,161 @@
+<!--{
+  "ruta": "/laboratorio-del-desarrollo-y-el-apego/",
+  "titulo": "Laboratorio del desarrollo: Piaget, Vygotsky, Erikson y Bowlby",
+  "descripcion": "Descentrar la mirada, pedir la ayuda justa, leer la etapa que vivís y buscar una base segura, con Piaget, Vygotsky, Erikson, Bowlby y Ainsworth.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Desarrollo",
+      "/laboratorio-del-desarrollo-y-el-apego/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio del <em>desarrollo y el apego</em>",
+  "bajada": "Piaget habló de salir del propio punto de vista. Vygotsky, de la ayuda que nos permite llegar un poco más lejos. Erikson, de crisis que se repiten en cada etapa. Bowlby y Ainsworth, de la base segura que nos deja explorar el mundo.",
+  "respuesta": "El laboratorio del desarrollo y el apego propone cuatro ejercicios inspirados en Jean Piaget, Lev Vygotsky, Erik Erikson, John Bowlby y Mary Ainsworth: descentrar la mirada en un conflicto, identificar la ayuda justa para aprender algo, reconocer la crisis de la etapa de vida actual y reconocer una base segura desde la que explorar.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio del desarrollo y el apego",
+  "articulos": [
+    "jean-piaget",
+    "lev-vygotsky",
+    "erik-erikson",
+    "john-bowlby",
+    "mary-ainsworth"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Cómo pensamos, cómo aprendemos, cómo nos vinculamos: todo cambia a lo largo de la vida. Piaget, Vygotsky, Erikson, Bowlby y Ainsworth describieron esos cambios desde ángulos distintos. Acá los llevamos a una situación concreta de hoy.</p>
+        <p>Podés usarlas para cualquier etapa, también para la adultez.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#descentrar">Ver desde otro lugar</a><a href="#ayuda">La ayuda justa</a><a href="#etapa">La etapa que vivo</a><a href="#base">Una base segura</a></nav>
+
+    <section class="lab-estacion revelar" id="descentrar" aria-labelledby="t-descentrar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-descentrar">Ver desde otro lugar</h2>
+      <p class="lab-estacion__bajada">Piaget llamó descentración a la capacidad de salir del propio punto de vista y considerar el de otra persona. Se desarrolla de a poco y se practica en los conflictos cotidianos. Leé sobre <a href="/recursos/jean-piaget/">Jean Piaget</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Desde qué lugar mirás el conflicto"><label class="opcion"><input type="radio" name="punto-vista" value="yo" data-escena-paso="1" checked><span>Yo</span></label><label class="opcion"><input type="radio" name="punto-vista" value="otro" data-escena-paso="2"><span>El otro</span></label><label class="opcion"><input type="radio" name="punto-vista" value="tercero" data-escena-paso="3"><span>Un tercero</span></label></div>
+        <div class="lab-panel" data-lab-panel="yo"><p>Describí el conflicto desde tu lugar: qué sentís y qué necesitás.</p></div><div class="lab-panel" data-lab-panel="otro" hidden><p>Ahora escribilo desde el lugar de la otra persona: qué siente, qué necesita, qué le preocupa.</p></div><div class="lab-panel" data-lab-panel="tercero" hidden><p>Por último, imaginá que un amigo neutral lo describe: ¿qué ve que vos no ves?</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-descentrar" data-escena-sync="#pasos-descentrar">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-descentrar-t escena-descentrar-d"><title id="escena-descentrar-t">Tres lugares</title>
+<circle cx="300" cy="150" r="110" class="esc-suave" stroke-dasharray="6 6"/><circle data-paso="1" cx="300" cy="50" r="22" class="esc-calido"/><text data-paso="1" x="300" y="56" text-anchor="middle" font-size="15">yo</text>
+<circle data-paso="2" cx="410" cy="150" r="22" class="esc-nodo"/><text data-paso="2" x="410" y="156" text-anchor="middle" font-size="15">otro</text>
+<circle data-paso="3" cx="190" cy="150" r="22" class="esc-relleno"/><text data-paso="3" x="190" y="156" text-anchor="middle" font-size="15">tercero</text>
+<text x="300" y="268" text-anchor="middle" class="esc-sans">el mismo conflicto</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Mi lugar</li><li>El lugar del otro</li><li>Un tercero</li></ol><p class="escena__desc" id="escena-descentrar-d">Mirar el mismo conflicto desde otro lugar cambia lo que vemos. Eso es descentrar: salir del centro del propio punto de vista.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-descentrar" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Mi lugar.</strong> Un conflicto reciente: qué sentís y qué necesitás.</li><li><strong>El otro.</strong> Describilo desde su lugar, con sus necesidades.</li><li><strong>Un tercero.</strong> ¿Qué ve alguien neutral que vos no viste?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="descentrar" data-lab-form-titulo="Ver desde otro lugar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-conflicto">Un conflicto reciente</label><textarea class="lab-texto" id="de-conflicto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-otro">Cómo lo vive el otro, desde su lugar</label><textarea class="lab-texto" id="de-otro" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-tercero">Qué vería alguien neutral</label><textarea class="lab-texto" id="de-tercero" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="ayuda" aria-labelledby="t-ayuda">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-ayuda">La ayuda justa</h2>
+      <p class="lab-estacion__bajada">Vygotsky describió la zona de desarrollo próximo: lo que una persona no puede hacer sola, pero sí con una ayuda adecuada. Aprender ocurre en esa zona, ni demasiado fácil ni imposible. Leé sobre <a href="/recursos/lev-vygotsky/">Lev Vygotsky</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-ayuda" data-escena-sync="#pasos-ayuda">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-ayuda-t escena-ayuda-d"><title id="escena-ayuda-t">Un poco más lejos</title>
+<circle cx="300" cy="150" r="120" class="esc-suave"/><circle cx="300" cy="150" r="80" class="esc-relleno"/><circle data-paso="1" cx="300" cy="150" r="40" class="esc-nodo"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="15">lo que puedo</text>
+<text data-paso="2" x="300" y="100" text-anchor="middle" font-size="15" class="esc-sans">con ayuda</text>
+<text data-paso="3" x="300" y="34" text-anchor="middle" font-size="15" class="esc-acento">lo que todavía no</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que puedo solo</li><li>Lo que puedo con ayuda</li><li>Lo que todavía no</li></ol><p class="escena__desc" id="escena-ayuda-d">Lo que hacemos con ayuda marca el terreno donde aprendemos. La ayuda justa acompaña sin hacer por el otro lo que puede hacer solo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-ayuda" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Lo que sé.</strong> Elegí algo que querés aprender. Anotá qué podés hacer solo.</li><li><strong>La ayuda.</strong> ¿Qué ayuda te haría avanzar un poco más, sin hacerlo por vos?</li><li><strong>Quién.</strong> ¿A quién podés pedírsela, y cómo?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ayuda-justa" data-lab-form-titulo="La ayuda justa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="aj-aprender">Algo que quiero aprender</label><input class="lab-campo" id="aj-aprender" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="aj-solo">Qué puedo hacer solo</label><textarea class="lab-texto" id="aj-solo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="aj-ayuda">Qué ayuda justa necesito</label><textarea class="lab-texto" id="aj-ayuda" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="aj-quien">A quién puedo pedírsela y cómo</label><textarea class="lab-texto" id="aj-quien" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="etapa" aria-labelledby="t-etapa">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-etapa">La etapa que vivo</h2>
+      <p class="lab-estacion__bajada">Erikson describió la vida como una serie de etapas, cada una con una tensión central: confianza frente a desconfianza en la infancia, identidad frente a confusión en la adolescencia, intimidad frente a aislamiento en la juventud. Cada tensión se revisita a lo largo de la vida. Leé sobre <a href="/recursos/erik-erikson/">Erik Erikson</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-etapa" data-escena-sync="#pasos-etapa">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-etapa-t escena-etapa-d"><title id="escena-etapa-t">Una tensión por etapa</title>
+<rect data-paso="1" x="40" y="180" width="160" height="60" rx="10" class="esc-nodo"/><text data-paso="1" x="120" y="216" text-anchor="middle" font-size="15">una etapa</text>
+<rect data-paso="2" x="220" y="120" width="160" height="60" rx="10" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">una tensión</text>
+<rect data-paso="3" x="400" y="60" width="160" height="60" rx="10" class="esc-calido"/><text data-paso="3" x="480" y="96" text-anchor="middle" font-size="15" class="esc-acento">una fuerza</text>
+<path class="esc-linea trazo-escena" pathLength="1" d="M200 210 H 220 V 150 H 400 V 90 H 400"/>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Una etapa de la vida</li><li>Una tensión que la acompaña</li><li>Una fuerza que crece</li></ol><p class="escena__desc" id="escena-etapa-d">Cada etapa trae una tensión que pide ser trabajada. No se resuelve de una vez: se vuelve a ella en otras etapas de la vida.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-etapa" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La etapa.</strong> ¿En qué etapa sentís que estás? (estudio, pareja, trabajo, crianza, cambio).</li><li><strong>La tensión.</strong> ¿Qué tensión de esa etapa reconocés? ¿Cuál es el polo que más te cuesta?</li><li><strong>La fuerza.</strong> ¿Qué cualidad te está pidiendo crecer ahora?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="etapa-de-vida" data-lab-form-titulo="La etapa que vivo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ev-etapa">En qué etapa siento que estoy</label><input class="lab-campo" id="ev-etapa" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ev-tension">Qué tensión reconozco</label><textarea class="lab-texto" id="ev-tension" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ev-fuerza">Qué fuerza me pide crecer ahora</label><textarea class="lab-texto" id="ev-fuerza" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="base" aria-labelledby="t-base">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-base">Una base segura</h2>
+      <p class="lab-estacion__bajada">Bowlby describió el apego como un sistema que busca seguridad, y dijo que una base segura permite explorar el mundo. Ainsworth observó, en la situación extraña, que los niños exploran más cuando sienten que la base está disponible. Leé sobre <a href="/recursos/john-bowlby/">John Bowlby</a> y <a href="/recursos/mary-ainsworth/">Mary Ainsworth</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-base" data-escena-sync="#pasos-base">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-base-t escena-base-d"><title id="escena-base-t">Explorar y volver</title>
+<circle data-paso="1" cx="110" cy="150" r="50" class="esc-calido"/><text data-paso="1" x="110" y="156" text-anchor="middle" font-size="15">base</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" stroke-dasharray="6 6" d="M160 150 H 400"/><circle data-paso="2" cx="440" cy="150" r="36" class="esc-nodo"/><text data-paso="2" x="440" y="156" text-anchor="middle" font-size="15">explorar</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-base)" d="M404 178 C 330 230, 200 230, 160 178"/>
+<text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">y vuelvo</text>
+<defs><marker id="pf-base" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Una base</li><li>Me animo a explorar</li><li>Vuelvo a la base</li></ol><p class="escena__desc" id="escena-base-d">La base segura no impide salir. Permite salir y volver, con la tranquilidad de saber que hay un lugar al que regresar.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-base" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La base.</strong> ¿Qué persona, lugar o hábito te da seguridad hoy?</li><li><strong>El paso.</strong> Elegí una exploración chica esta semana: algo nuevo, lejos de tu base.</li><li><strong>La vuelta.</strong> Después, anotá cómo volviste y qué te dio la base.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="base-segura" data-lab-form-titulo="Una base segura" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bs-base">Mi base segura: persona, lugar o hábito</label><textarea class="lab-texto" id="bs-base" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bs-paso">Un paso afuera esta semana</label><textarea class="lab-texto" id="bs-paso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bs-vuelta">Cómo vuelvo a la base después</label><textarea class="lab-texto" id="bs-vuelta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Vygotsky, L. S. (1934). <em>Pensamiento y lenguaje</em>.</li><li>Erikson, E. H. (1968). <em>Identidad, juventud y crisis</em>.</li><li>Bowlby, J. (1988). <em>Una base segura</em>.</li><li>Ainsworth, M. D. S., Blehar, M. C., Waters, E. y Wall, S. (1978). <em>Patterns of Attachment</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

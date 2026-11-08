@@ -62,6 +62,8 @@ Es a la vez un método de tratamiento, basado en la palabra y la asociación lib
 
 Son las tres instancias del aparato psíquico según Freud. El ello reúne las pulsiones, el superyó las exigencias morales y el yo intenta conciliarlos con la realidad.
 
+Para practicarlo, probá el [Laboratorio de psicoanálisis en práctica](/laboratorio-de-psicoanalisis-en-practica/).
+
 ## Para seguir leyendo
 
 - Freud, S. (1900). *La interpretación de los sueños*.

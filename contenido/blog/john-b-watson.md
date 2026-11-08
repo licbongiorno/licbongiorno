@@ -64,6 +64,8 @@ Un experimento de 1920 en el que Watson y Rayner condicionaron el miedo a una ra
 
 En 1920 tuvo que renunciar a Johns Hopkins tras el escándalo por su relación con su asistente, Rosalie Rayner. Después trabajó en publicidad.
 
+Para practicarlo, probá el [Laboratorio de aprendizaje y hábito](/laboratorio-de-aprendizaje-y-habito/).
+
 ## Para seguir leyendo
 
 - Watson, J. B. (1913). «La psicología tal como la ve el conductista». *Psychological Review*.

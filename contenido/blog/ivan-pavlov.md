@@ -61,6 +61,8 @@ Por sus investigaciones sobre la fisiología de la digestión, en 1904. Sus estu
 
 Su modelo ayuda a entender cómo se forman algunos miedos —por asociación— y por qué la exposición gradual permite debilitarlos.
 
+Para practicarlo, probá el [Laboratorio de aprendizaje y hábito](/laboratorio-de-aprendizaje-y-habito/).
+
 ## Para seguir leyendo
 
 - Pávlov, I. P. (1927). *Los reflejos condicionados*.

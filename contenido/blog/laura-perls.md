@@ -59,6 +59,8 @@ Que el contacto con otro solo es posible en la medida en que la persona cuenta c
 
 Laura tenía un estilo más sereno y relacional, y daba más importancia al ritmo de cada persona y al apoyo. Fritz era más confrontativo y espectacular en sus demostraciones.
 
+Para practicarlo, probá el [Laboratorio de transacciones y estados del yo](/laboratorio-de-transacciones-y-estados-del-yo/).
+
 ## Para seguir leyendo
 
 - Perls, L. (1992). *Viviendo en los límites*.

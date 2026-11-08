@@ -540,6 +540,18 @@ LABORATORIOS = [
      "descripcion": "Las tres fases de una transición, lo que termina y lo que empieza, un ritual de pasaje y el duelo migratorio."},
     {"titulo": "Laboratorio de aceptación y compromiso", "ruta": "/laboratorio-act/", "tipo": "ACT",
      "descripcion": "Tomar distancia de un pensamiento, hojas en el río, soltar la cuerda, la matriz ACT y acciones comprometidas."},
+    {"titulo": "Laboratorio de psicoanálisis en práctica", "ruta": "/laboratorio-de-psicoanalisis-en-practica/", "tipo": "Psicoanálisis",
+     "descripcion": "Asociación libre, un objeto que consuela, recibir y nombrar lo confuso, y sentirse comprendido: Freud, Winnicott, Bion y Kohut."},
+    {"titulo": "Laboratorio de relaciones y poder personal", "ruta": "/laboratorio-de-relaciones-y-poder-personal/", "tipo": "Relaciones",
+     "descripcion": "Un acto de interés social, yo real y yo ideal, yo bueno y yo malo, y lo que esperás del otro: Adler, Horney y Sullivan."},
+    {"titulo": "Laboratorio de aprendizaje y hábito", "ruta": "/laboratorio-de-aprendizaje-y-habito/", "tipo": "Aprendizaje",
+     "descripcion": "Registro de antecedente, conducta y consecuencia, señales que disparan emociones, tareas en pasos y el primer paso de un hábito."},
+    {"titulo": "Laboratorio del desarrollo y el apego", "ruta": "/laboratorio-del-desarrollo-y-el-apego/", "tipo": "Desarrollo",
+     "descripcion": "Ver desde otro lugar, la ayuda justa, la etapa que vivís y una base segura: Piaget, Vygotsky, Erikson, Bowlby y Ainsworth."},
+    {"titulo": "Laboratorio de transacciones y estados del yo", "ruta": "/laboratorio-de-transacciones-y-estados-del-yo/", "tipo": "Transacciones",
+     "descripcion": "Padre, adulto y niño en una conversación, transacciones paralelas o cruzadas, juegos que se repiten y el contacto en la frontera."},
+    {"titulo": "Laboratorio de la psique y la imagen", "ruta": "/laboratorio-de-la-psique-y-la-imagen/", "tipo": "Psique",
+     "descripcion": "Una imagen que insiste, desde dónde miro, las preguntas de la segunda mitad de la vida y la trampa de la perfección."},
     {"titulo": "Laboratorio de duda y percepción", "ruta": "/laboratorio-de-duda-y-percepcion/", "tipo": "Filosofía",
      "descripcion": "Descartes, Locke y Husserl en práctica: revisar lo que das por sentado, rastrear el origen de una idea y describir sin explicar."},
     {"titulo": "Laboratorio del cuerpo vivido", "ruta": "/laboratorio-del-cuerpo-vivido/", "tipo": "Filosofía",
@@ -574,8 +586,11 @@ TEMAS_LAB = {
     "/laboratorio-de-duda-y-percepcion/": "Filosofía en práctica", "/laboratorio-del-cuerpo-vivido/": "Filosofía en práctica",
     "/laboratorio-de-la-libertad/": "Filosofía en práctica", "/laboratorio-de-las-tradiciones-orientales/": "Filosofía en práctica",
     "/laboratorio-de-la-razon-y-la-autonomia/": "Filosofía en práctica", "/laboratorio-del-encuentro/": "Filosofía en práctica",
+    "/laboratorio-de-psicoanalisis-en-practica/": "Psicología en práctica", "/laboratorio-de-relaciones-y-poder-personal/": "Psicología en práctica",
+    "/laboratorio-de-aprendizaje-y-habito/": "Psicología en práctica", "/laboratorio-del-desarrollo-y-el-apego/": "Psicología en práctica",
+    "/laboratorio-de-transacciones-y-estados-del-yo/": "Psicología en práctica", "/laboratorio-de-la-psique-y-la-imagen/": "Psicología en práctica",
 }
-ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica"]
+ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica", "Psicología en práctica"]
 
 
 # Un glifo orgánico por tema del catálogo de laboratorios (24×24, trazo).
@@ -586,6 +601,7 @@ GLIFOS_TEMA = {
     "Jung y autoconocimiento": _G.format('<path d="M18.4 7.6A8 8 0 1 0 19.8 13"/><circle cx="12" cy="12" r="1.6"/>'),
     "Cuerpo y respiración": _G.format('<circle cx="12" cy="12" r="2.5"/><path d="M6.5 8.5a6.5 6.5 0 0 0 0 7M17.5 8.5a6.5 6.5 0 0 1 0 7M3.5 6a10 10 0 0 0 0 12M20.5 6a10 10 0 0 1 0 12"/>'),
     "Enfoques": _G.format('<path d="M5 19C5 10 10 5 19 5c0 9-5 14-14 14z"/><path d="M5 19L13 11"/>'),
+    "Psicología en práctica": _G.format('<path d="M12 21c-4-3-7-6-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4-3 7-7 10z"/>'),
     "Filosofía en práctica": _G.format('<path d="M4 19V7l8-3 8 3v12"/><path d="M9 19v-6h6v6"/>'),
     "Aprendizaje y cambio": _G.format('<path d="M12 12c0-1 1-2 2-2s2.5 1 2.5 2.5S15 16 12.5 16 8 14 8 11s2.5-5.5 6-5.5 6 3 6 6.5"/>'),
 }

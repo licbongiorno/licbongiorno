@@ -60,6 +60,8 @@ Es el primer objeto que el bebé siente como propio pero que no es parte de su c
 
 Es una forma de adaptarse a lo que el ambiente exige que protege al verdadero self, pero que puede dejar a la persona con la sensación de no vivir su propia vida.
 
+Para practicarlo, probá el [Laboratorio de psicoanálisis en práctica](/laboratorio-de-psicoanalisis-en-practica/).
+
 ## Para seguir leyendo
 
 - Winnicott, D. W. (1953). «Objetos transicionales y fenómenos transicionales».

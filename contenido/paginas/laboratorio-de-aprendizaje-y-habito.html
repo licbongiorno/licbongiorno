@@ -1,0 +1,164 @@
+<!--{
+  "ruta": "/laboratorio-de-aprendizaje-y-habito/",
+  "titulo": "Laboratorio de aprendizaje y hábito: Pávlov, Skinner y James",
+  "descripcion": "Registro ABC, asociaciones que disparan emociones, autoeficacia en pasos y el primer paso de un hábito, con Pávlov, Skinner, Bandura y James.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Aprendizaje",
+      "/laboratorio-de-aprendizaje-y-habito/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>aprendizaje y hábito</em>",
+  "bajada": "Pávlov mostró que un estímulo neutro puede volverse señal. Skinner, que las consecuencias moldean lo que hacemos. Bandura, que creer que podemos cambia nuestra conducta. James, que el hábito puede educarse. Cuatro prácticas para probarlo.",
+  "respuesta": "El laboratorio de aprendizaje y hábito propone cuatro ejercicios inspirados en Iván Pávlov, B. F. Skinner, Albert Bandura y William James: un registro de antecedente, conducta y consecuencia; el reconocimiento de asociaciones condicionadas; una tarea dividida en pasos para aumentar la autoeficacia, y el primer paso de un hábito nuevo.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de aprendizaje y hábito",
+  "articulos": [
+    "ivan-pavlov",
+    "b-f-skinner",
+    "albert-bandura",
+    "william-james",
+    "john-b-watson"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Muchas cosas que hacemos sin pensar fueron aprendidas. Una emoción aparece con un olor, una conducta se repite porque algo la premia, una tarea parece imposible hasta que la dividimos. Estos autores estudiaron cómo se aprende, y esa mirada se puede probar en la vida diaria.</p>
+        <p>Son ejercicios de observación. No reemplazan una evaluación profesional.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#abc">Antecedente, conducta, consecuencia</a><a href="#asociacion">Lo que dispara una emoción</a><a href="#eficacia">Una tarea en pasos</a><a href="#habito">El primer paso de un hábito</a></nav>
+
+    <section class="lab-estacion revelar" id="abc" aria-labelledby="t-abc">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-abc">Antecedente, conducta, consecuencia</h2>
+      <p class="lab-estacion__bajada">En el análisis de la conducta, inspirado en Skinner, se describe una conducta por lo que la precede y lo que le sigue. Anotarlo sin juzgar muestra qué mantiene un hábito. Leé sobre <a href="/recursos/b-f-skinner/">B. F. Skinner</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-abc" data-escena-sync="#pasos-abc">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-abc-t escena-abc-d"><title id="escena-abc-t">Lo que viene antes y después</title>
+<rect data-paso="1" x="30" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="105" y="146" text-anchor="middle" font-size="16">antecedente</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-abc)" d="M186 150 H 234"/><rect data-paso="2" x="238" y="110" width="124" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">conducta</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-abc)" d="M366 150 H 414"/><rect data-paso="3" x="418" y="110" width="150" height="80" rx="12" class="esc-calido"/><text data-paso="3" x="493" y="146" text-anchor="middle" font-size="16">consecuencia</text>
+<defs><marker id="pf-abc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Antecedente</li><li>Conducta</li><li>Consecuencia</li></ol><p class="escena__desc" id="escena-abc-d">Una conducta se entiende mejor cuando miramos lo que la dispara y lo que la sigue. Si la consecuencia la refuerza, tiende a repetirse.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-abc" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Antecedente.</strong> ¿Qué pasó justo antes? Lugar, hora, persona, pensamiento.</li><li><strong>Conducta.</strong> ¿Qué hiciste, en concreto?</li><li><strong>Consecuencia.</strong> ¿Qué pasó después? ¿Qué sentiste o qué obtuviste?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="abc" data-lab-form-titulo="Antecedente, conducta, consecuencia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="abc-ante">Antecedente: qué pasó antes</label><textarea class="lab-texto" id="abc-ante" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="abc-conducta">Conducta: qué hice</label><textarea class="lab-texto" id="abc-conducta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="abc-cons">Consecuencia: qué pasó después</label><textarea class="lab-texto" id="abc-cons" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="abc-mantiene">¿Qué consecuencia podría mantener la conducta?</label><textarea class="lab-texto" id="abc-mantiene" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="asociacion" aria-labelledby="t-asociacion">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-asociacion">Lo que dispara una emoción</h2>
+      <p class="lab-estacion__bajada">Pávlov mostró que un estímulo neutro, como un sonido, puede volverse señal de algo cuando se asocia con otro que produce una respuesta. Lo mismo pasa con olores, lugares o horas del día. Leé sobre <a href="/recursos/ivan-pavlov/">Iván Pávlov</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué tipo de disparador notás"><label class="opcion"><input type="radio" name="asoc-pavlov" value="lugar" data-escena-paso="1" checked><span>Un lugar</span></label><label class="opcion"><input type="radio" name="asoc-pavlov" value="olor" data-escena-paso="2"><span>Un olor</span></label><label class="opcion"><input type="radio" name="asoc-pavlov" value="hora" data-escena-paso="3"><span>Una hora</span></label></div>
+        <div class="lab-panel" data-lab-panel="lugar"><p>Un lugar puede asociarse a una emoción por lo que pasó allí. Anotá cuál y qué sentís al entrar.</p></div><div class="lab-panel" data-lab-panel="olor" hidden><p>Un olor puede traer una emoción de golpe. Notá si te pasa con un perfume, una comida, un producto de limpieza.</p></div><div class="lab-panel" data-lab-panel="hora" hidden><p>Una hora del día puede volverse señal de ansiedad o de calma. ¿Qué pasa a esa hora?</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-asociacion-pavlov" data-escena-sync="#pasos-asoc">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-asociacion-pavlov-t escena-asociacion-pavlov-d"><title id="escena-asociacion-pavlov-t">Una señal aprendida</title>
+<circle cx="110" cy="150" r="46" class="esc-suave"/><text x="110" y="156" text-anchor="middle" font-size="16">neutro</text>
+<circle data-paso="1" cx="300" cy="150" r="46" class="esc-relleno"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="16">emoción</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M160 150 H 250"/>
+<circle data-paso="3" cx="490" cy="150" r="46" class="esc-calido"/><text data-paso="3" x="490" y="156" text-anchor="middle" font-size="16" class="esc-acento">sola</text>
+<text data-paso="3" x="490" y="218" text-anchor="middle" class="esc-sans">dispara la emoción</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Un estímulo neutro</li><li>Se asocia a una emoción</li><li>Ahora dispara sola</li></ol><p class="escena__desc" id="escena-asociacion-pavlov-d">Un estímulo neutro que se repite junto a algo emocional puede, después, disparar la emoción por sí solo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-asoc" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El neutro.</strong> Pensá en un olor, lugar u hora que te pase algo emocional.</li><li><strong>La asociación.</strong> ¿Qué pasó la primera vez, o las veces que se repitió?</li><li><strong>La señal.</strong> Anotá qué sentís hoy cuando aparece. ¿Es proporcional a lo que pasa?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="asociaciones" data-lab-form-titulo="Lo que dispara una emoción" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-disparador">Un olor, lugar, sonido u hora que me dispara algo</label><input class="lab-campo" id="as-disparador" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-emocion">Qué emoción o reacción aparece</label><textarea class="lab-texto" id="as-emocion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-origen">¿Con qué otra cosa creo que se asoció?</label><textarea class="lab-texto" id="as-origen" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="eficacia" aria-labelledby="t-eficacia">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-eficacia">Una tarea en pasos</h2>
+      <p class="lab-estacion__bajada">Bandura mostró que la creencia en nuestra capacidad, la autoeficacia, cambia lo que intentamos. Se forma con experiencias propias, con ver a otros lo logran, con palabras de aliento y con el estado del cuerpo. Leé sobre <a href="/recursos/albert-bandura/">Albert Bandura</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-eficacia" data-escena-sync="#pasos-eficacia">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-eficacia-t escena-eficacia-d"><title id="escena-eficacia-t">Pasos chicos</title>
+<rect data-paso="1" x="30" y="120" width="120" height="60" rx="10" class="esc-nodo"/><text data-paso="1" x="90" y="156" text-anchor="middle" font-size="15">paso 1</text>
+<rect data-paso="2" x="200" y="120" width="120" height="60" rx="10" class="esc-relleno"/><text data-paso="2" x="260" y="156" text-anchor="middle" font-size="15">paso 2</text>
+<rect data-paso="3" x="370" y="120" width="120" height="60" rx="10" class="esc-calido"/><text data-paso="3" x="430" y="156" text-anchor="middle" font-size="15" class="esc-acento">paso 3</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M154 150 H 194"/><path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M324 150 H 364"/>
+<text data-paso="3" x="300" y="250" text-anchor="middle" font-size="16" class="esc-acento">lo registro</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Un paso chico</li><li>Otro paso</li><li>Lo logro y lo registro</li></ol><p class="escena__desc" id="escena-eficacia-d">Cada paso logrado es una evidencia para la creencia en uno mismo. Por eso dividir la tarea importa tanto.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-eficacia" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La tarea.</strong> Elegí algo que dudás poder hacer. Escribilo.</li><li><strong>Los pasos.</strong> Dividila en tres pasos chicos, el más fácil primero.</li><li><strong>La evidencia.</strong> Hacé el primero y anotá qué pasó. Después, el siguiente.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="autoeficacia" data-lab-form-titulo="Una tarea en pasos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-tarea">Una tarea que dudo poder hacer</label><textarea class="lab-texto" id="ef-tarea" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-pasos">Tres pasos chicos, del más fácil al más difícil</label><textarea class="lab-texto" id="ef-pasos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-evidencia">Qué evidencia tengo de que puedo hacerla</label><textarea class="lab-texto" id="ef-evidencia" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="habito" aria-labelledby="t-habito">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-habito">El primer paso de un hábito</h2>
+      <p class="lab-estacion__bajada">William James dedicó un capítulo al hábito en sus Principios de psicología (1890): describió cómo una conducta repetida se vuelve más fácil y automática. Un hábito nuevo empieza por un paso que sea casi imposible de fallar. Leé sobre <a href="/recursos/william-james/">William James</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-habito" data-escena-sync="#pasos-habito">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-habito-t escena-habito-d"><title id="escena-habito-t">Un camino que se gasta</title>
+<path class="esc-suave" pathLength="1" d="M40 220 C 140 220, 160 120, 260 120 S 380 220, 480 220"/>
+<circle data-paso="1" cx="40" cy="220" r="12" class="esc-nodo"/>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M40 220 C 140 220, 160 120, 260 120"/><circle data-paso="2" cx="260" cy="120" r="12" class="esc-calido"/>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M260 120 S 380 220, 480 220"/><circle data-paso="3" cx="480" cy="220" r="12" class="esc-punto"/>
+<text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">cada vez, más fácil</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Un camino nuevo</li><li>El primer paso</li><li>Repetir hasta que sea fácil</li></ol><p class="escena__desc" id="escena-habito-d">Según James, repetir una conducta la vuelve más fácil. Empezar con un paso casi imposible de fallar es la forma más confiable de sostenerla.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-habito" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El hábito.</strong> Elegí uno que querés construir. Escribilo en una frase.</li><li><strong>El primer paso.</strong> Que dure menos de dos minutos y casi no puedas fallarlo.</li><li><strong>Cuándo y dónde.</strong> Asociálo a algo que ya hacés todos los días.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="primer-paso" data-lab-form-titulo="El primer paso de un hábito" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-habito">Un hábito que quiero construir</label><input class="lab-campo" id="pp-habito" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-paso">El primer paso más chico posible</label><textarea class="lab-texto" id="pp-paso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-cuando">Cuándo y dónde lo hago, junto a algo que ya hago</label><textarea class="lab-texto" id="pp-cuando" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Pávlov, I. P. (1927). <em>Los reflejos condicionados</em>.</li><li>Skinner, B. F. (1953). <em>Ciencia y conducta humana</em>.</li><li>Bandura, A. (1977). «Self-efficacy: Toward a unifying theory of behavioral change». <em>Psychological Review</em>, 84(2).</li><li>James, W. (1890). <em>Principios de psicología</em>, capítulo sobre el hábito.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

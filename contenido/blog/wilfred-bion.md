@@ -59,6 +59,8 @@ Dependencia, ataque y fuga, y emparejamiento. Son creencias inconscientes compar
 
 Melanie Klein, entre 1945 y 1953. Bion amplió varias de sus ideas, como la identificación proyectiva.
 
+Para practicarlo, probá el [Laboratorio de psicoanálisis en práctica](/laboratorio-de-psicoanalisis-en-practica/).
+
 ## Para seguir leyendo
 
 - Bion, W. R. (1961). *Experiencias en grupos*.

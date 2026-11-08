@@ -60,6 +60,8 @@ Es un sentimiento de inferioridad que se vuelve paralizante. Para Adler, el sent
 
 Porque Adler le daba más importancia al sentimiento de inferioridad, el poder y los vínculos sociales que a la sexualidad. La ruptura se produjo en 1911.
 
+Para practicarlo, probá el [Laboratorio de relaciones y poder personal](/laboratorio-de-relaciones-y-poder-personal/).
+
 ## Para seguir leyendo
 
 - Adler, A. (1912). *El carácter neurótico*.

@@ -59,6 +59,8 @@ Piaget puso el acento en cómo el chico construye el conocimiento actuando sobre
 
 Porque murió joven, en 1934, y poco después su obra fue censurada en la Unión Soviética. Se difundió en Occidente recién desde la década de 1960.
 
+Para practicarlo, probá el [Laboratorio del desarrollo y el apego](/laboratorio-del-desarrollo-y-el-apego/).
+
 ## Para seguir leyendo
 
 - Vygotsky, L. S. (1934). *Pensamiento y lenguaje*.

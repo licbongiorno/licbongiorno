@@ -59,6 +59,8 @@ Son estados como la culpa, la ansiedad, la depresión o la soledad. Hollis los d
 
 Es analista junguiano, formado en el Instituto C. G. Jung de Zúrich, y su obra desarrolla las ideas de Jung sobre las dos mitades de la vida y la individuación.
 
+Para practicarlo, probá el [Laboratorio de la psique y la imagen](/laboratorio-de-la-psique-y-la-imagen/).
+
 ## Para seguir leyendo
 
 - Hollis, J. (1993). *The Middle Passage: From Misery to Meaning in Midlife*.

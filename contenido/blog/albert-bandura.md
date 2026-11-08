@@ -59,6 +59,8 @@ Que los chicos aprenden conductas, como la agresión, observando a un adulto, au
 
 Es la teoría de Bandura según la cual buena parte de lo que aprendemos lo aprendemos observando a otros y las consecuencias de sus actos.
 
+Para practicarlo, probá el [Laboratorio de aprendizaje y hábito](/laboratorio-de-aprendizaje-y-habito/).
+
 ## Para seguir leyendo
 
 - Bandura, A. (1977). *Teoría del aprendizaje social*.

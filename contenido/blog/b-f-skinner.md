@@ -60,6 +60,8 @@ El refuerzo negativo aumenta una conducta al quitar algo desagradable (por ejemp
 
 Es una cámara experimental en la que un animal puede accionar una palanca u otro mecanismo y recibir una consecuencia, como comida. Skinner la usó para estudiar el condicionamiento operante.
 
+Para practicarlo, probá el [Laboratorio de aprendizaje y hábito](/laboratorio-de-aprendizaje-y-habito/).
+
 ## Para seguir leyendo
 
 - Skinner, B. F. (1938). *La conducta de los organismos*.

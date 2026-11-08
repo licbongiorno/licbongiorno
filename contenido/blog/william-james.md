@@ -60,6 +60,8 @@ Que la emoción es la percepción de los cambios corporales que provoca una situ
 
 Sí, en 1909, en las conferencias de la Universidad Clark, en Estados Unidos.
 
+Para practicarlo, probá el [Laboratorio de aprendizaje y hábito](/laboratorio-de-aprendizaje-y-habito/).
+
 ## Para seguir leyendo
 
 - James, W. (1890). *Principios de psicología*.

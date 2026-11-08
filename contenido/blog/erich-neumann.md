@@ -59,6 +59,8 @@ Es el arquetipo de lo femenino materno, con una cara que da vida y protege y otr
 
 Estudió con él en Zúrich en 1934 y mantuvieron una correspondencia durante décadas. Jung prologó su obra principal y lo consideraba uno de sus continuadores más originales.
 
+Para practicarlo, probá el [Laboratorio de la psique y la imagen](/laboratorio-de-la-psique-y-la-imagen/).
+
 ## Para seguir leyendo
 
 - Neumann, E. (1949). *Historia del origen de la conciencia*.

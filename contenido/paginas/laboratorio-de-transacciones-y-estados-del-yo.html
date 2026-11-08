@@ -1,0 +1,157 @@
+<!--{
+  "ruta": "/laboratorio-de-transacciones-y-estados-del-yo/",
+  "titulo": "Laboratorio de transacciones: Berne y Laura Perls",
+  "descripcion": "Padre, adulto y niño en una conversación, transacciones cruzadas, juegos que se repiten y el contacto en la frontera, con Eric Berne y Laura Perls.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Transacciones",
+      "/laboratorio-de-transacciones-y-estados-del-yo/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>transacciones y estados del yo</em>",
+  "bajada": "Berne describió tres estados del yo que aparecen en cada conversación: el padre, el adulto y el niño. Laura Perls, cofundadora de la Gestalt, habló de vivir en la frontera entre uno y el otro. Cuatro prácticas para mirar tus conversaciones.",
+  "respuesta": "El laboratorio de transacciones y estados del yo propone cuatro ejercicios inspirados en Eric Berne y Laura Perls: identificar desde qué estado del yo hablamos, distinguir transacciones paralelas y cruzadas, reconocer un juego que se repite en un vínculo y practicar el contacto en la frontera entre yo y el otro.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de transacciones y estados del yo",
+  "articulos": [
+    "eric-berne",
+    "laura-perls"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Una misma conversación puede sonar muy distinta según desde dónde hablemos. Berne propuso que hablamos desde tres estados del yo: el padre que manda o cuida, el adulto que evalúa, el niño que siente. Laura Perls, desde la Gestalt, invitó a estar en el contacto con el otro sin perderse.</p>
+        <p>Las prácticas son para tus conversaciones de hoy. Nada se analiza en el otro.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#estados">Padre, adulto y niño</a><a href="#transacciones">Paralelas o cruzadas</a><a href="#juego">Un juego que se repite</a><a href="#frontera">Contacto en la frontera</a></nav>
+
+    <section class="lab-estacion revelar" id="estados" aria-labelledby="t-estados">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-estados">Padre, adulto y niño</h2>
+      <p class="lab-estacion__bajada">Berne describió tres estados del yo: el padre (normas, cuidado o crítica heredados), el adulto (evaluación de lo que pasa aquí y ahora) y el niño (emociones y reacciones de la infancia). Leé sobre <a href="/recursos/eric-berne/">Eric Berne</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Desde qué estado hablaste"><label class="opcion"><input type="radio" name="estado" value="padre" data-escena-paso="1" checked><span>Padre</span></label><label class="opcion"><input type="radio" name="estado" value="adulto" data-escena-paso="2"><span>Adulto</span></label><label class="opcion"><input type="radio" name="estado" value="nino" data-escena-paso="3"><span>Niño</span></label></div>
+        <div class="lab-panel" data-lab-panel="padre"><p>Hablaste desde normas o mandatos: «hay que», «nunca». ¿Eran tuyos o los heredaste?</p></div><div class="lab-panel" data-lab-panel="adulto" hidden><p>Hablaste evaluando lo que pasa aquí y ahora. ¿Qué información tenías y qué pediste?</p></div><div class="lab-panel" data-lab-panel="nino" hidden><p>Hablaste desde la emoción o la reacción de una herida antigua. ¿Qué sentiste y qué necesitabas?</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-estados" data-escena-radios="estado">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-estados-t escena-estados-d"><title id="escena-estados-t">Tres estados del yo</title>
+<rect data-paso="1" x="170" y="20" width="260" height="70" rx="12" class="esc-nodo"/><text data-paso="1" x="300" y="62" text-anchor="middle" font-size="17">padre</text>
+<rect data-paso="2" x="170" y="110" width="260" height="70" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="152" text-anchor="middle" font-size="17">adulto</text>
+<rect data-paso="3" x="170" y="200" width="260" height="70" rx="12" class="esc-calido"/><text data-paso="3" x="300" y="242" text-anchor="middle" font-size="17" class="esc-acento">niño</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Padre: normas</li><li>Adulto: lo que pasa</li><li>Niño: lo que siento</li></ol><p class="escena__desc" id="escena-estados-d">No son personas distintas: son formas de estar en una conversación. Reconocer cuál aparece permite elegir desde el adulto.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="estados-del-yo" data-lab-form-titulo="Padre, adulto y niño" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ey-conversacion">Una conversación de hoy</label><textarea class="lab-texto" id="ey-conversacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ey-estado">Desde qué estado hablé</label><input class="lab-campo" id="ey-estado" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ey-adulto">Cómo lo diría desde el adulto</label><textarea class="lab-texto" id="ey-adulto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="transacciones" aria-labelledby="t-transacciones">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-transacciones">Paralelas o cruzadas</h2>
+      <p class="lab-estacion__bajada">Berne llamó transacción a cada intercambio entre dos personas. Una transacción es paralela si la respuesta continúa en el mismo estado del yo que la pregunta, y cruzada si responde desde otro, lo que suele cortar la comunicación. Leé sobre <a href="/recursos/eric-berne/">Eric Berne</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-transacciones" data-escena-sync="#pasos-transacciones">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-transacciones-t escena-transacciones-d"><title id="escena-transacciones-t">Paralela o cruzada</title>
+<text x="110" y="60" text-anchor="middle" font-size="16">yo</text><text x="490" y="60" text-anchor="middle" font-size="16">el otro</text>
+<path data-paso="1" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-tr)" d="M110 90 H 470"/><path data-paso="1" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-tr)" d="M470 130 H 110"/>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-tr)" d="M110 170 H 470"/><path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-tr)" d="M470 210 H 150"/>
+<text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">respondo desde el adulto</text>
+<defs><marker id="pf-tr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Pregunta y respuesta paralelas</li><li>Respuesta cruzada</li><li>Vuelvo al adulto</li></ol><p class="escena__desc" id="escena-transacciones-d">En una transacción paralela, la comunicación fluye. En una cruzada, la respuesta viene de otro lugar y la conversación se traba.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-transacciones" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Lo que dije.</strong> Una frase tuya de hoy, con su tono y su pedido.</li><li><strong>Lo que me respondieron.</strong> ¿La respuesta fue en el mismo tono, o vino de otro lugar?</li><li><strong>La respuesta del adulto.</strong> ¿Qué podrías decir ahora, con claridad y sin reproche?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="transacciones" data-lab-form-titulo="Paralelas o cruzadas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tr-dije">Lo que dije</label><textarea class="lab-texto" id="tr-dije" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tr-respondieron">Lo que me respondieron</label><textarea class="lab-texto" id="tr-respondieron" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tr-tipo">¿Fue paralela o cruzada?</label><input class="lab-campo" id="tr-tipo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tr-adulto">Qué diría ahora desde el adulto</label><textarea class="lab-texto" id="tr-adulto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="juego" aria-labelledby="t-juego">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-juego">Un juego que se repite</h2>
+      <p class="lab-estacion__bajada">Berne llamó juegos a secuencias de transacciones que se repiten, tienen un mensaje oculto y terminan en un resultado conocido, como sentirse herido. Reconocer el juego es el primer paso para salir de él. Leé sobre <a href="/recursos/eric-berne/">Eric Berne</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-juego" data-escena-sync="#pasos-juego">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-juego-t escena-juego-d"><title id="escena-juego-t">El guion que se repite</title>
+<rect data-paso="1" x="30" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="105" y="146" text-anchor="middle" font-size="16">la frase</text><text data-paso="1" x="105" y="172" text-anchor="middle" class="esc-sans">de siempre</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M186 150 H 230"/><rect data-paso="2" x="234" y="110" width="150" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="309" y="146" text-anchor="middle" font-size="16">el cierre</text><text data-paso="2" x="309" y="172" text-anchor="middle" class="esc-sans">de siempre</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-jg)" d="M390 150 H 440"/><rect data-paso="3" x="444" y="110" width="110" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="499" y="156" text-anchor="middle" font-size="16" class="esc-acento">salgo</text>
+<defs><marker id="pf-jg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>La frase de siempre</li><li>El cierre de siempre</li><li>Salgo del guion</li></ol><p class="escena__desc" id="escena-juego-d">Un juego es una secuencia que se repite con el mismo final. Cambiar una sola respuesta, desde el adulto, puede cortarla.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-juego" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El juego.</strong> ¿Qué conversación se repite con alguien? Escribí la frase con la que empieza siempre.</li><li><strong>Mi papel.</strong> ¿Qué lugar ocupás en ese juego? ¿Y el otro?</li><li><strong>El cierre.</strong> ¿Cómo termina siempre? ¿Qué sentís al final?</li><li><strong>Salir.</strong> Escribí una respuesta directa, desde el adulto, que no siga el guion.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="juego" data-lab-form-titulo="Un juego que se repite" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-juego">Una conversación que se repite con alguien</label><textarea class="lab-texto" id="jg-juego" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-papel">Mi papel en ese juego</label><input class="lab-campo" id="jg-papel" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-salida">Una respuesta directa que no siga el guion</label><textarea class="lab-texto" id="jg-salida" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="frontera" aria-labelledby="t-frontera">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-frontera">Contacto en la frontera</h2>
+      <p class="lab-estacion__bajada">Laura Perls, cofundadora de la Gestalt junto a Fritz Perls y Paul Goodman, trabajó la idea de vivir en la frontera del contacto entre uno mismo y el otro, sin perderse en ninguno de los dos lados. Su obra póstuma se titula *Viviendo en los límites*. Leé sobre <a href="/recursos/laura-perls/">Laura Perls</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-frontera" data-escena-sync="#pasos-frontera">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-frontera-t escena-frontera-d"><title id="escena-frontera-t">En la frontera</title>
+<circle cx="170" cy="150" r="80" class="esc-nodo"/><text x="170" y="156" text-anchor="middle" font-size="16">yo</text>
+<circle cx="430" cy="150" r="80" class="esc-relleno"/><text x="430" y="156" text-anchor="middle" font-size="16">el otro</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M300 90 V 210"/>
+<circle data-paso="3" cx="300" cy="150" r="10" class="esc-punto"/>
+<text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">contacto</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Yo</li><li>La frontera</li><li>El contacto</li></ol><p class="escena__desc" id="escena-frontera-d">El contacto ocurre en el límite entre dos personas. Ahí se ve qué es mío y qué es del otro, sin fundirnos ni alejarnos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-frontera" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Un encuentro.</strong> Elegí una conversación de hoy con alguien cercano.</li><li><strong>La frontera.</strong> ¿Qué fue tuyo y qué fue del otro en ese intercambio?</li><li><strong>El contacto.</strong> ¿Hubo un momento de contacto? ¿Qué lo hizo posible?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="frontera" data-lab-form-titulo="Contacto en la frontera" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fr-encuentro">Un encuentro de hoy con alguien cercano</label><textarea class="lab-texto" id="fr-encuentro" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fr-mio">Qué fue mío en ese intercambio</label><textarea class="lab-texto" id="fr-mio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fr-otro">Qué fue del otro</label><textarea class="lab-texto" id="fr-otro" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fr-contacto">Un momento de contacto, si lo hubo</label><textarea class="lab-texto" id="fr-contacto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Berne, E. (1961). <em>Análisis transaccional en psicoterapia</em>.</li><li>Berne, E. (1964). <em>Juegos en que participamos</em>.</li><li>Perls, L. (1992). <em>Viviendo en los límites</em>.</li><li>Perls, F., Hefferline, R. y Goodman, P. (1951). <em>Terapia Gestalt</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

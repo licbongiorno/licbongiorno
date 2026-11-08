@@ -59,6 +59,8 @@ Son los talleres que Woodman creó con Ann Skinner y Mary Hamilton, en los que s
 
 Es, para Woodman, una forma de conciencia que valora el cuerpo, la receptividad y los procesos. No es exclusiva de las mujeres: está en cualquier persona.
 
+Para practicarlo, probá el [Laboratorio de la psique y la imagen](/laboratorio-de-la-psique-y-la-imagen/).
+
 ## Para seguir leyendo
 
 - Woodman, M. (1980). *The Owl Was a Baker's Daughter*.

@@ -60,6 +60,8 @@ La asimilación es incorporar lo nuevo a los esquemas que ya tenemos; la acomoda
 
 Es el estudio de cómo se origina y se desarrolla el conocimiento. Piaget la creó para responder preguntas filosóficas con investigación psicológica.
 
+Para practicarlo, probá el [Laboratorio del desarrollo y el apego](/laboratorio-del-desarrollo-y-el-apego/).
+
 ## Para seguir leyendo
 
 - Piaget, J. (1936). *El nacimiento de la inteligencia en el niño*.

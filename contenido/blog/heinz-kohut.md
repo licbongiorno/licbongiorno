@@ -60,6 +60,8 @@ Son las personas que cumplen para nosotros funciones que sostienen el self, como
 
 Que tiene una línea de desarrollo sana. Cuando las necesidades de reconocimiento y de idealización se frustran de forma traumática, el self queda frágil y aparecen los problemas narcisistas.
 
+Para practicarlo, probá el [Laboratorio de psicoanálisis en práctica](/laboratorio-de-psicoanalisis-en-practica/).
+
 ## Para seguir leyendo
 
 - Kohut, H. (1959). «Introspección, empatía y psicoanálisis».

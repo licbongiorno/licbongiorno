@@ -59,6 +59,8 @@ Es la idea, presentada en *El código del alma*, de que cada persona trae una im
 
 Es la expresión que Hillman tomó del poeta John Keats para nombrar la tarea de profundizar la experiencia y darle sentido, más allá de solo adaptarse o curarse.
 
+Para practicarlo, probá el [Laboratorio de la psique y la imagen](/laboratorio-de-la-psique-y-la-imagen/).
+
 ## Para seguir leyendo
 
 - Hillman, J. (1964). *Suicidio y alma*.

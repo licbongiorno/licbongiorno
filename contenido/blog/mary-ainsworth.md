@@ -59,6 +59,8 @@ Seguro, evitativo y ambivalente o resistente. Después se agregó el desorganiza
 
 Es la capacidad de quien cuida para percibir las señales del bebé, interpretarlas bien y responder a tiempo y de manera adecuada.
 
+Para practicarlo, probá el [Laboratorio del desarrollo y el apego](/laboratorio-del-desarrollo-y-el-apego/).
+
 ## Para seguir leyendo
 
 - Ainsworth, M. D. S. (1967). *Infancy in Uganda*.

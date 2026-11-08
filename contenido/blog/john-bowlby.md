@@ -61,6 +61,8 @@ Son las representaciones de uno mismo y de los otros que se forman a partir de l
 
 Trabajaron juntos durante décadas. Bowlby formuló la teoría y Ainsworth aportó la investigación empírica que permitió describir los estilos de apego.
 
+Para practicarlo, probá el [Laboratorio del desarrollo y el apego](/laboratorio-del-desarrollo-y-el-apego/).
+
 ## Para seguir leyendo
 
 - Bowlby, J. (1969). *El apego* (vol. 1 de *El apego y la pérdida*).

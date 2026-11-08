@@ -1,0 +1,155 @@
+<!--{
+  "ruta": "/laboratorio-de-relaciones-y-poder-personal/",
+  "titulo": "Laboratorio de relaciones: Adler, Horney y Sullivan",
+  "descripcion": "Interés social, ideal de sí, yo bueno y yo malo, y ansiedad en los vínculos: cuatro prácticas con Adler, Horney y Sullivan para tus relaciones.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Relaciones",
+      "/laboratorio-de-relaciones-y-poder-personal/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>relaciones y poder personal</em>",
+  "bajada": "Adler pensó que sentirnos parte de algo nos da fuerza. Horney, que el ideal de sí puede volverse una tiranía. Sullivan, que nos armamos un yo bueno y un yo malo según cómo nos miraron. Prácticas para mirar eso en tus vínculos.",
+  "respuesta": "El laboratorio de relaciones y poder personal propone cuatro ejercicios inspirados en Alfred Adler, Karen Horney y Harry Stack Sullivan: un acto de interés social, la distancia entre el yo real y el yo ideal, la división del yo en bueno, malo y no mío, y la ansiedad que aparece cuando esperamos algo del otro.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de relaciones y poder personal",
+  "articulos": [
+    "alfred-adler",
+    "karen-horney",
+    "harry-stack-sullivan"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay personas que nos hacen sentir capaces, y otras que nos achican. Adler creía que el sentirnos parte de algo, lo que llamó sentimiento comunitario, es una fuente de fuerza. Horney describió cómo un ideal de perfección puede volverse exigente. Sullivan mostró cómo aprendemos a vernos como buenos o malos según la mirada de los otros.</p>
+        <p>Las prácticas se hacen con tus vínculos reales, sin apuntar a nadie.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#social">Un acto de interés social</a><a href="#ideal">Yo real y yo ideal</a><a href="#yo">Yo bueno, yo malo</a><a href="#espera">Lo que espero del otro</a></nav>
+
+    <section class="lab-estacion revelar" id="social" aria-labelledby="t-social">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-social">Un acto de interés social</h2>
+      <p class="lab-estacion__bajada">Adler llamó sentimiento comunitario, o interés social, a la capacidad de sentirnos parte de los demás y de cooperar. Lo describió como algo que se puede cultivar con actos concretos. Leé sobre <a href="/recursos/alfred-adler/">Alfred Adler</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-social" data-escena-sync="#pasos-social">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-social-t escena-social-d"><title id="escena-social-t">Parte de algo</title>
+<circle data-paso="1" cx="300" cy="150" r="36" class="esc-calido"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="16">yo</text>
+<circle data-paso="2" cx="150" cy="110" r="30" class="esc-nodo"/><circle data-paso="2" cx="450" cy="110" r="30" class="esc-nodo"/><circle data-paso="2" cx="150" cy="200" r="30" class="esc-nodo"/><circle data-paso="2" cx="450" cy="200" r="30" class="esc-nodo"/>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M186 110 Q 300 60 414 110 M186 200 Q 300 250 414 200"/>
+<text data-paso="3" x="300" y="290" text-anchor="middle" font-size="16" class="esc-acento">parte de algo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Pienso en otro</li><li>Un gesto chico</li><li>Me siento parte</li></ol><p class="escena__desc" id="escena-social-d">Un gesto chico hacia otra persona cambia el lugar que ocupamos en el grupo y en nosotros mismos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-social" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Pensar en otro.</strong> ¿Quién, cerca tuyo, podría necesitar algo hoy?</li><li><strong>Hacer algo chico.</strong> Un mensaje, una ayuda, una palabra que reconozca.</li><li><strong>Notar.</strong> ¿Cómo te sentiste después? ¿Qué cambió en la relación?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="interes-social" data-lab-form-titulo="Un acto de interés social" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="is-acto">Un acto chico que beneficie a otra persona</label><textarea class="lab-texto" id="is-acto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="is-recibio">Cómo lo recibió</label><textarea class="lab-texto" id="is-recibio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="is-sentiste">Cómo me sentí después</label><textarea class="lab-texto" id="is-sentiste" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="ideal" aria-labelledby="t-ideal">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-ideal">Yo real y yo ideal</h2>
+      <p class="lab-estacion__bajada">Horney describió que, cuando el ideal de sí se vuelve una exigencia, la distancia con el yo real aumenta y la persona vive en tensión. Entender esa distancia es el primer paso para acercarla. Leé sobre <a href="/recursos/karen-horney/">Karen Horney</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-ideal" data-escena-sync="#pasos-ideal">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-ideal-t escena-ideal-d"><title id="escena-ideal-t">Dos figuras, un puente</title>
+<circle data-paso="1" cx="130" cy="150" r="60" class="esc-relleno"/><text data-paso="1" x="130" y="146" text-anchor="middle" font-size="16">yo ideal</text><text data-paso="1" x="130" y="170" text-anchor="middle" class="esc-sans">lo que debería</text>
+<circle data-paso="2" cx="470" cy="150" r="60" class="esc-nodo"/><text data-paso="2" x="470" y="146" text-anchor="middle" font-size="16">yo real</text><text data-paso="2" x="470" y="170" text-anchor="middle" class="esc-sans">lo que soy hoy</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M190 150 Q 300 110 410 150"/>
+<text data-paso="3" x="300" y="262" text-anchor="middle" font-size="16" class="esc-acento">un puente posible</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Yo ideal: lo que debería</li><li>Yo real: lo que soy</li><li>Un puente posible</li></ol><p class="escena__desc" id="escena-ideal-d">El yo ideal sirve cuando orienta. Se vuelve una tiranía cuando no deja lugar al yo real. Un puente posible es aceptar lo real y elegir un paso.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-ideal" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El ideal.</strong> Escribí cómo te gustaría ser en un área de tu vida.</li><li><strong>El real.</strong> Escribí, sin dramatizar, cómo sos hoy en esa misma área.</li><li><strong>El puente.</strong> ¿Qué parte del ideal te sirve y qué paso chico te acerca?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yo-real-ideal" data-lab-form-titulo="Yo real y yo ideal" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yr-ideal">Mi ideal de mí en un área de la vida</label><textarea class="lab-texto" id="yr-ideal" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yr-real">Cómo estoy hoy en esa misma área</label><textarea class="lab-texto" id="yr-real" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yr-puente">Qué parte del ideal me sirve y qué paso chico doy</label><textarea class="lab-texto" id="yr-puente" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="yo" aria-labelledby="t-yo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-yo">Yo bueno, yo malo</h2>
+      <p class="lab-estacion__bajada">Sullivan describió tres «mí» que se forman en la infancia: el yo bueno, que surge de la aprobación; el yo malo, que surge del castigo, y el no-yo, lo que se niega o se disocia. Elegí uno para mirarlo. Leé sobre <a href="/recursos/harry-stack-sullivan/">Harry Stack Sullivan</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué parte de mí aparece"><label class="opcion"><input type="radio" name="yo-sullivan" value="bueno" data-escena-paso="1" checked><span>Yo bueno</span></label><label class="opcion"><input type="radio" name="yo-sullivan" value="malo" data-escena-paso="2"><span>Yo malo</span></label><label class="opcion"><input type="radio" name="yo-sullivan" value="no-mio" data-escena-paso="3"><span>Lo no mío</span></label></div>
+        <div class="lab-panel" data-lab-panel="bueno"><p>¿En qué situación te sentiste aprobado? ¿Qué hiciste para merecerlo? Mirá si esa aprobación te deja libre o te condiciona.</p></div><div class="lab-panel" data-lab-panel="malo" hidden><p>¿Dónde te sentiste castigado o avergonzado? ¿Esa parte es tuya, o es algo que te enseñaron a verte?</p></div><div class="lab-panel" data-lab-panel="no-mio" hidden><p>¿Qué sentimiento o rasgo negás en vos? ¿Lo ves en otros con más facilidad? Anotalo sin juzgarlo.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-yo-sullivan" data-escena-radios="yo-sullivan">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-yo-sullivan-t escena-yo-sullivan-d"><title id="escena-yo-sullivan-t">Tres «mí»</title>
+<rect data-paso="1" x="40" y="90" width="160" height="120" rx="12" class="esc-calido"/><text data-paso="1" x="120" y="150" text-anchor="middle" font-size="16">yo bueno</text>
+<rect data-paso="2" x="220" y="90" width="160" height="120" rx="12" class="esc-nodo"/><text data-paso="2" x="300" y="150" text-anchor="middle" font-size="16">yo malo</text>
+<rect data-paso="3" x="400" y="90" width="160" height="120" rx="12" class="esc-relleno" stroke-dasharray="6 6"/><text data-paso="3" x="480" y="150" text-anchor="middle" font-size="16">lo no mío</text>
+<text x="300" y="262" text-anchor="middle" class="esc-sans">así nos vemos</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Yo bueno</li><li>Yo malo</li><li>Lo no mío</li></ol><p class="escena__desc" id="escena-yo-sullivan-d">Según Sullivan, los «mí» se forman con la mirada de los otros. Reconocerlos permite verlos como aprendidos, no como verdades fijas.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yo-bueno-malo" data-lab-form-titulo="Yo bueno, yo malo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yb-situacion">Una situación en la que me vi así</label><textarea class="lab-texto" id="yb-situacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yb-parte">¿Qué parte de mí me doy en esa situación?</label><textarea class="lab-texto" id="yb-parte" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yb-otro">¿Qué mirada de otra persona entró en esa imagen?</label><textarea class="lab-texto" id="yb-otro" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="espera" aria-labelledby="t-espera">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-espera">Lo que espero del otro</h2>
+      <p class="lab-estacion__bajada">Sullivan describió la ansiedad interpersonal: el miedo que aparece cuando esperamos algo del otro y no sabemos si va a llegar. Hacer explícita la espera reduce esa ansiedad. Leé sobre <a href="/recursos/harry-stack-sullivan/">Sullivan</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-espera" data-escena-sync="#pasos-espera">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-espera-t escena-espera-d"><title id="escena-espera-t">De la espera al pedido</title>
+<rect data-paso="1" x="30" y="110" width="170" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="115" y="146" text-anchor="middle" font-size="16">espero que</text><text data-paso="1" x="115" y="172" text-anchor="middle" class="esc-sans">el otro haga</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-esp2)" d="M204 150 H 290"/><text data-paso="2" x="330" y="146" text-anchor="middle" font-size="16">no llega</text><text data-paso="2" x="330" y="172" text-anchor="middle" class="esc-sans">y me angustio</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-esp2)" d="M370 150 H 460"/><rect data-paso="3" x="466" y="110" width="110" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="521" y="156" text-anchor="middle" font-size="16" class="esc-acento">pido</text>
+<defs><marker id="pf-esp2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Espero que el otro haga</li><li>No llega y me angustio</li><li>Pido con claridad</li></ol><p class="escena__desc" id="escena-espera-d">Esperar sin decir nada deja la angustia en nosotros. Pedir con claridad abre una respuesta posible, aunque no siempre sea la que queremos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-espera" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>La espera.</strong> Pensá en algo que esperás de alguien y no le dijiste.</li><li><strong>La angustia.</strong> ¿Qué pasa en vos si no llega? ¿Qué te decís?</li><li><strong>El pedido.</strong> Escribí cómo lo pedirías con una frase clara.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="espera-del-otro" data-lab-form-titulo="Lo que espero del otro" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="eo-espera">Algo que espero de alguien</label><textarea class="lab-texto" id="eo-espera" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="eo-angustia">Qué pasa en mí si no llega</label><textarea class="lab-texto" id="eo-angustia" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="eo-pedido">Cómo lo pediría con claridad</label><textarea class="lab-texto" id="eo-pedido" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Adler, A. (1927). <em>Conocimiento del hombre</em>.</li><li>Horney, K. (1950). <em>Neurosis y madurez</em>.</li><li>Sullivan, H. S. (1953). <em>La teoría interpersonal de la psiquiatría</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

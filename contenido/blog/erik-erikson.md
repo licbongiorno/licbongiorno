@@ -60,6 +60,8 @@ Es la expresión que Erikson acuñó para la tarea central de la adolescencia: c
 
 Es la preocupación, propia de la adultez, por dejar algo a las generaciones siguientes: criar, enseñar, crear o cuidar.
 
+Para practicarlo, probá el [Laboratorio del desarrollo y el apego](/laboratorio-del-desarrollo-y-el-apego/).
+
 ## Para seguir leyendo
 
 - Erikson, E. H. (1950). *Infancia y sociedad*.

@@ -1,0 +1,161 @@
+<!--{
+  "ruta": "/laboratorio-de-psicoanalisis-en-practica/",
+  "titulo": "Laboratorio de psicoanálisis: Freud, Winnicott, Bion y Kohut",
+  "descripcion": "Asociación libre, objeto transicional, contenedor y empatía: cuatro prácticas para sentir lo que describieron Freud, Winnicott, Bion y Kohut.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Psicoanálisis",
+      "/laboratorio-de-psicoanalisis-en-practica/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>psicoanálisis en práctica</em>",
+  "bajada": "Freud pidió decir lo que se nos ocurre, sin filtro. Winnicott habló de los objetos que consuelan sin ser personas. Bion, de alguien que recibe lo que no podemos sostener. Kohut, de sentirse comprendido. Cuatro prácticas para probarlo.",
+  "respuesta": "El laboratorio de psicoanálisis en práctica propone cuatro ejercicios inspirados en Sigmund Freud, Donald Winnicott, Wilfred Bion y Heinz Kohut: la asociación libre sin corregir, el objeto transicional que consuela, la función contenedora que recibe y nombra una emoción confusa, y la experiencia de sentirse comprendido por otro.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de psicoanálisis",
+  "articulos": [
+    "sigmund-freud",
+    "donald-winnicott",
+    "wilfred-bion",
+    "heinz-kohut"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Un psicoanalista pide que se diga todo lo que viene a la cabeza, aunque suene tonto. Otro habla de un oso de peluche que consuela sin ser una persona. Otro, de alguien que recibe lo que no podemos sostener y nos lo devuelve más claro. Y otro, de sentirse comprendido.</p>
+        <p>Son prácticas para sentir esas ideas en tu día, no para interpretar a nadie.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#asociacion">Asociación libre</a><a href="#transicional">Un objeto que consuela</a><a href="#contenedor">Recibir y nombrar</a><a href="#empatia">Sentirme comprendido</a></nav>
+
+    <section class="lab-estacion revelar" id="asociacion" aria-labelledby="t-asociacion">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-asociacion">Asociación libre</h2>
+      <p class="lab-estacion__bajada">Freud pidió a sus pacientes decir todo lo que se les ocurriera, sin seleccionar, y de ahí nació el método de la asociación libre. Escribir sin corregir durante unos minutos muestra qué se repite. Leé sobre <a href="/recursos/sigmund-freud/">Sigmund Freud</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-asociacion" data-escena-sync="#pasos-asociacion">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-asociacion-t escena-asociacion-d"><title id="escena-asociacion-t">Decir lo que viene</title>
+<circle data-paso="1" cx="120" cy="150" r="46" class="esc-nodo"/><text data-paso="1" x="120" y="156" text-anchor="middle" font-size="16">una palabra</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-aso)" d="M170 150 H 240"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">sin corregir</text><text data-paso="2" x="300" y="172" text-anchor="middle" class="esc-sans">la siguiente</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M360 150 C 400 110, 440 190, 480 150 S 520 110, 540 150"/><text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">lo que se repite</text>
+<defs><marker id="pf-aso" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Una palabra</li><li>Sin corregir</li><li>Lo que se repite</li></ol><p class="escena__desc" id="escena-asociacion-d">Sin corregir ni elegir, las palabras empiezan a formar una línea. Lo que vuelve una y otra vez suele decir algo importante.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-asociacion" data-lab-pasos data-lab-pasos-segundos="300">
+        <ol class="lab-pasos"><li><strong>Empezar.</strong> Elegí una palabra o una frase del día. Escribila arriba de la hoja.</li><li><strong>Seguir.</strong> Escribí lo primero que te venga, cinco minutos, sin corregir ni releer.</li><li><strong>Mirar.</strong> Subrayá la palabra que más se repitió y preguntate por qué.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="asociacion-libre" data-lab-form-titulo="Asociación libre" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="al-inicio">La palabra o frase de partida</label><input class="lab-campo" id="al-inicio" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="al-texto">Lo que escribiste, sin corregir</label><textarea class="lab-texto" id="al-texto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="al-repite">La palabra que más se repitió</label><input class="lab-campo" id="al-repite" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="al-porque">¿Qué te sugiere que se repita?</label><textarea class="lab-texto" id="al-porque" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="transicional" aria-labelledby="t-transicional">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-transicional">Un objeto que consuela</h2>
+      <p class="lab-estacion__bajada">Winnicott llamó objeto transicional a un objeto, como una manta o un peluche, que el niño usa para consolarse y que está entre lo interno y lo externo. Ese espacio intermedio también existe en los adultos. Leé sobre <a href="/recursos/donald-winnicott/">Donald Winnicott</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-transicional" data-escena-sync="#pasos-transicional">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-transicional-t escena-transicional-d"><title id="escena-transicional-t">Un puente entre dentro y fuera</title>
+<circle data-paso="1" cx="110" cy="150" r="54" class="esc-nodo"/><text data-paso="1" x="110" y="146" text-anchor="middle" font-size="16">yo</text><text data-paso="1" x="110" y="170" text-anchor="middle" class="esc-sans">adentro</text>
+<rect data-paso="2" x="240" y="112" width="120" height="76" rx="18" class="esc-calido"/><text data-paso="2" x="300" y="148" text-anchor="middle" font-size="16">objeto</text><text data-paso="2" x="300" y="172" text-anchor="middle" class="esc-sans">consuela</text>
+<circle data-paso="3" cx="490" cy="150" r="54" class="esc-relleno"/><text data-paso="3" x="490" y="146" text-anchor="middle" font-size="16">mundo</text><text data-paso="3" x="490" y="170" text-anchor="middle" class="esc-sans">afuera</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M166 150 H 236"/><path data-paso="3" class="esc-linea trazo-escena" pathLength="1" d="M360 150 H 432"/>
+<text data-paso="3" x="300" y="262" text-anchor="middle" font-size="16" class="esc-acento">un puente</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Algo que consuela</li><li>No es una persona</li><li>Un puente</li></ol><p class="escena__desc" id="escena-transicional-d">El objeto transicional no es la persona, pero la representa en su ausencia. Ayuda a estar con uno mismo sin sentirse solo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-transicional" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Algo que consuela.</strong> Pensá en algo (un lugar, una canción, un objeto) que te calma sin que tenga que estar otra persona.</li><li><strong>No es una persona.</strong> ¿Cuándo lo usás? ¿Qué te da que no te da nadie?</li><li><strong>El puente.</strong> ¿Qué dice ese consuelo sobre cómo te cuidás?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="objeto-transicional" data-lab-form-titulo="Un objeto que consuela" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ot-cosa">Algo que me consuela sin ser una persona</label><input class="lab-campo" id="ot-cosa" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ot-cuando">¿Cuándo lo uso?</label><textarea class="lab-texto" id="ot-cuando" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ot-dice">¿Qué dice de mi forma de cuidarme?</label><textarea class="lab-texto" id="ot-dice" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="contenedor" aria-labelledby="t-contenedor">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-contenedor">Recibir y nombrar</h2>
+      <p class="lab-estacion__bajada">Bion describió la función contenedora: alguien que recibe una emoción confusa y angustiante, la piensa y la devuelve en una forma que se puede entender. Podemos hacerlo con nosotros mismos. Leé sobre <a href="/recursos/wilfred-bion/">Wilfred Bion</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-contenedor" data-escena-sync="#pasos-contenedor">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-contenedor-t escena-contenedor-d"><title id="escena-contenedor-t">Recibir lo que duele</title>
+<path data-paso="1" class="esc-linea trazo-escena" pathLength="1" d="M60 150 H 170"/><text data-paso="1" x="60" y="130" font-size="16">algo confuso</text>
+<rect x="200" y="90" width="200" height="120" rx="30" class="esc-relleno"/><text x="300" y="146" text-anchor="middle" font-size="16">recibo</text><text x="300" y="172" text-anchor="middle" class="esc-sans">y pienso</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M404 150 H 520"/><text data-paso="3" x="520" y="130" text-anchor="middle" font-size="16" class="esc-acento">más claro</text>
+<text data-paso="2" x="300" y="262" text-anchor="middle" class="esc-sans">sin huir de lo que duele</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Llega algo confuso</li><li>Lo recibo sin huir</li><li>Lo devuelvo más claro</li></ol><p class="escena__desc" id="escena-contenedor-d">Bion pensó que la mente se forma cuando alguien contiene lo que no podemos procesar solos. Hoy podemos ser nuestro propio contenedor.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-contenedor" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Lo confuso.</strong> Escribí una emoción que te llega sin entender por qué: inquietud, enojo, tristeza difusa.</li><li><strong>Recibirla.</strong> Respirá y decile «estoy acá», sin tratar de eliminarla.</li><li><strong>Nombrarla.</strong> Escribí qué emoción es, qué la dispara y qué necesitás.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="contenedor" data-lab-form-titulo="Recibir y nombrar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-confuso">Lo confuso que me llega</label><textarea class="lab-texto" id="co-confuso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-nombre">Con qué palabra lo nombro</label><input class="lab-campo" id="co-nombre" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-cambio">¿Qué cambió al nombrarlo?</label><textarea class="lab-texto" id="co-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="empatia" aria-labelledby="t-empatia">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-empatia">Sentirme comprendido</h2>
+      <p class="lab-estacion__bajada">Kohut puso la empatía en el centro del trabajo terapéutico: sentirse comprendido por otro permite crecer por dentro. Muchas veces ese recuerdo es el punto de partida para cuidarse. Leé sobre <a href="/recursos/heinz-kohut/">Heinz Kohut</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-empatia" data-escena-sync="#pasos-empatia">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-empatia-t escena-empatia-d"><title id="escena-empatia-t">Ser comprendido</title>
+<circle cx="150" cy="150" r="56" class="esc-nodo"/><text x="150" y="156" text-anchor="middle" font-size="16">escucha</text>
+<circle cx="450" cy="150" r="56" class="esc-relleno"/><text x="450" y="156" text-anchor="middle" font-size="16">me muestro</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-emp)" d="M212 130 H 386"/><path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-emp)" d="M388 170 H 214"/>
+<text data-paso="3" x="300" y="262" text-anchor="middle" font-size="16" class="esc-acento">me siento comprendido</text>
+<defs><marker id="pf-emp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Alguien escucha</li><li>Me muestro</li><li>Me siento comprendido</li></ol><p class="escena__desc" id="escena-empatia-d">Cuando alguien entiende lo que sentimos sin juzgarnos, algo se reorganiza. Recordar ese momento también nos ayuda a acompañarnos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-empatia" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Recordar.</strong> Pensá en alguien que te escuchó bien. Puede ser de la infancia o de hoy.</li><li><strong>Describir.</strong> ¿Qué hizo, qué dijo, cómo te miró?</li><li><strong>Llevarlo.</strong> ¿Qué podrías hacer hoy para acompañarte de esa manera?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sentirme-comprendido" data-lab-form-titulo="Sentirme comprendido" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sc-quien">Alguien que me escuchó bien</label><input class="lab-campo" id="sc-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sc-hizo">Qué hizo o dijo</label><textarea class="lab-texto" id="sc-hizo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sc-hoy">Cómo puedo acompañarme hoy de esa manera</label><textarea class="lab-texto" id="sc-hoy" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La asociación libre puede traer recuerdos o emociones intensas. Si algo te desborda, cortá la práctica, apoyate en la respiración y pedí acompañamiento si se repite. Podés escribirme desde la <a href="/contacto/">página de contacto</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Freud, S. (1900). <em>La interpretación de los sueños</em>.</li><li>Winnicott, D. W. (1953). «Objetos transicionales y fenómenos transicionales».</li><li>Bion, W. R. (1962). <em>Aprendiendo de la experiencia</em>.</li><li>Kohut, H. (1959). «Introspección, empatía y psicoanálisis».</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -59,6 +59,8 @@ Es una secuencia repetitiva de intercambios con un mensaje oculto y un final pre
 
 Es un plan de vida inconsciente, decidido en la infancia a partir de los mensajes de los padres, que tiende a cumplirse si la persona no lo revisa.
 
+Para practicarlo, probá el [Laboratorio de transacciones y estados del yo](/laboratorio-de-transacciones-y-estados-del-yo/).
+
 ## Para seguir leyendo
 
 - Berne, E. (1961). *Análisis transaccional en psicoterapia*.

@@ -59,6 +59,8 @@ Moverse hacia los otros (complacer), contra los otros (dominar) y lejos de los o
 
 Sus ideas sobre la psicología femenina, en especial la «envidia del pene». Propuso que muchas diferencias entre hombres y mujeres tienen raíces culturales.
 
+Para practicarlo, probá el [Laboratorio de relaciones y poder personal](/laboratorio-de-relaciones-y-poder-personal/).
+
 ## Para seguir leyendo
 
 - Horney, K. (1937). *La personalidad neurótica de nuestro tiempo*.
