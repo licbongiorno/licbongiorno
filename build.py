@@ -540,6 +540,12 @@ LABORATORIOS = [
      "descripcion": "Las tres fases de una transición, lo que termina y lo que empieza, un ritual de pasaje y el duelo migratorio."},
     {"titulo": "Laboratorio de aceptación y compromiso", "ruta": "/laboratorio-act/", "tipo": "ACT",
      "descripcion": "Tomar distancia de un pensamiento, hojas en el río, soltar la cuerda, la matriz ACT y acciones comprometidas."},
+    {"titulo": "Laboratorio del amor como arte", "ruta": "/laboratorio-del-amor-como-arte/", "tipo": "Amor",
+     "descripcion": "Cuidado, responsabilidad, respeto y conocimiento, y la diferencia entre tener y ser, con Erich Fromm."},
+    {"titulo": "Laboratorio estoico", "ruta": "/laboratorio-estoico/", "tipo": "Estoicismo",
+     "descripcion": "Lo que depende de mí, anticipar un contratiempo, el examen nocturno y la opinión sobre uno mismo, con Epicteto."},
+    {"titulo": "Laboratorio de grupos", "ruta": "/laboratorio-de-grupos/", "tipo": "Grupos",
+     "descripcion": "La tarea explícita e implícita de un grupo, información, emoción y producción, la universalidad y la esperanza."},
     {"titulo": "Laboratorio de psicología corporal", "ruta": "/laboratorio-de-psicologia-corporal/", "tipo": "Cuerpo",
      "descripcion": "Apoyarte en el suelo, notar dónde guardás la tensión, escuchar una sensación sentida y aflojar, con Reich, Lowen y Gendlin."},
     {"titulo": "Laboratorio de psicología transpersonal", "ruta": "/laboratorio-de-psicologia-transpersonal/", "tipo": "Transpersonal",
@@ -601,6 +607,7 @@ TEMAS_LAB = {
     "/laboratorio-de-transacciones-y-estados-del-yo/": "Psicología en práctica", "/laboratorio-de-la-psique-y-la-imagen/": "Psicología en práctica",
     "/laboratorio-de-pesadillas/": "Emociones", "/laboratorio-de-pareja/": "Vínculos", "/laboratorio-de-adolescentes/": "Vínculos",
     "/laboratorio-de-psicologia-corporal/": "Cuerpo y respiración", "/laboratorio-de-psicologia-transpersonal/": "Enfoques",
+    "/laboratorio-del-amor-como-arte/": "Vínculos", "/laboratorio-estoico/": "Filosofía en práctica", "/laboratorio-de-grupos/": "Vínculos",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica", "Psicología en práctica"]
 

@@ -1,0 +1,151 @@
+<!--{
+  "ruta": "/laboratorio-estoico/",
+  "titulo": "Laboratorio estoico: Epicteto en práctica",
+  "descripcion": "Dos columnas de lo que depende de mí, anticipar los contratiempos, el examen nocturno y la opinión sobre uno mismo, con Epicteto.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Estoicismo",
+      "/laboratorio-estoico/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>estoico</em>",
+  "bajada": "Epicteto enseñó a distinguir lo que depende de nosotros de lo que no. Cuatro prácticas para ponerlo en práctica en la semana: preparar lo difícil, revisar el día y separar la opinión ajena del propio juicio.",
+  "respuesta": "El laboratorio estoico propone cuatro ejercicios inspirados en Epicteto: separar lo que depende de mí de lo que no, anticipar un contratiempo de la semana, hacer un examen nocturno del día y distinguir la opinión ajena del propio juicio. El estoicismo no pide reprimir las emociones: pide revisar los juicios que las causan.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio estoico",
+  "articulos": [
+    "epicteto"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Epicteto fue esclavo y después maestro de filosofía. Sus enseñanzas, reunidas por Arriano en el Enquiridión, se centran en algo simple y difícil: distinguir lo que está en nuestro poder de lo que no.</p>
+        <p>El estoicismo no pide dejar de sentir. Pide revisar los juicios que nos hacen sufrir, y eso es lo que practicamos acá.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#depende">Lo que depende de mí</a><a href="#contratiempo">Anticipar un contratiempo</a><a href="#examen">Examen nocturno</a><a href="#opinion">La opinión sobre mí</a></nav>
+
+    <section class="lab-estacion revelar" id="depende" aria-labelledby="t-depende">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-depende">Lo que depende de mí</h2>
+      <p class="lab-estacion__bajada">Epicteto distinguió nuestros juicios, deseos y acciones de lo que no depende de nosotros: el cuerpo, la reputación, lo que hacen los demás. Gran parte del malestar viene de querer controlar lo segundo. Leé sobre <a href="/recursos/epicteto/">Epicteto</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-depende-estoico" data-escena-sync="#pasos-depende-estoico">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-depende-estoico-t escena-depende-estoico-d"><title id="escena-depende-estoico-t">Dos círculos</title>
+<circle data-paso="1" cx="170" cy="150" r="110" class="esc-relleno"/><text data-paso="1" x="170" y="146" text-anchor="middle" font-size="16">depende de mí</text><text data-paso="1" x="170" y="170" text-anchor="middle" class="esc-sans">juicio · acción</text>
+<circle data-paso="2" cx="430" cy="150" r="110" class="esc-nodo"/><text data-paso="2" x="430" y="146" text-anchor="middle" font-size="16">no depende</text><text data-paso="2" x="430" y="170" text-anchor="middle" class="esc-sans">los otros · el clima</text>
+<text data-paso="3" x="300" y="290" text-anchor="middle" font-size="16" class="esc-acento">pongo la atención acá</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que depende de mí</li><li>Lo que no depende</li><li>Pongo la atención acá</li></ol><p class="escena__desc" id="escena-depende-estoico-d">La atención puesta en lo que depende de nosotros cambia la forma de vivir lo que no controlamos.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-depende-estoico" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Situación.</strong> Elegí algo que te preocupa hoy.</li><li><strong>Dos columnas.</strong> En una, lo que depende de vos. En la otra, lo que no.</li><li><strong>Un paso.</strong> Escribí una acción concreta que sí podés hacer hoy.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="depende-estoico" data-lab-form-titulo="Lo que depende de mí" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-situacion">Algo que me preocupa hoy</label><input class="lab-campo" id="de-situacion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-depende">Lo que depende de mí</label><textarea class="lab-texto" id="de-depende" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-no">Lo que no depende de mí</label><textarea class="lab-texto" id="de-no" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="de-paso">Un paso concreto que sí puedo dar</label><textarea class="lab-texto" id="de-paso" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="contratiempo" aria-labelledby="t-contratiempo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-contratiempo">Anticipar un contratiempo</h2>
+      <p class="lab-estacion__bajada">Epicteto recomendaba imaginar de antemano las dificultades posibles, para no sorprendernos cuando llegan. Es la premeditación de los males. Leé sobre <a href="/recursos/epicteto/">Epicteto</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-contratiempo" data-escena-sync="#pasos-contratiempo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-contratiempo-t escena-contratiempo-d"><title id="escena-contratiempo-t">Preparar lo difícil</title>
+<rect data-paso="1" x="40" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="115" y="146" text-anchor="middle" font-size="16">imagino</text><text data-paso="1" x="115" y="172" text-anchor="middle" class="esc-sans">lo difícil</text>
+<rect data-paso="2" x="225" y="110" width="150" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">pienso qué</text><text data-paso="2" x="300" y="172" text-anchor="middle" class="esc-sans">haría</text>
+<rect data-paso="3" x="410" y="110" width="150" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="485" y="156" text-anchor="middle" font-size="16" class="esc-acento">sin sorpresa</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Imagino lo difícil</li><li>Pienso qué haría</li><li>Sin sorpresa</li></ol><p class="escena__desc" id="escena-contratiempo-d">Pensar de antemano qué haríamos si algo sale mal reduce la sorpresa y la angustia cuando llega.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-contratiempo" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos"><li><strong>Elegir.</strong> Pensá en una situación difícil que podría pasar esta semana.</li><li><strong>Imaginar.</strong> Visualizala con detalle, durante un minuto, sin dramatizarla.</li><li><strong>Preparar.</strong> ¿Qué haría si ocurriera? Escribí una respuesta concreta.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="contratiempo" data-lab-form-titulo="Anticipar un contratiempo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ct-situacion">La situación que imaginé</label><textarea class="lab-texto" id="ct-situacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ct-respuesta">Lo que haría si ocurriera</label><textarea class="lab-texto" id="ct-respuesta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="examen" aria-labelledby="t-examen">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-examen">Examen nocturno</h2>
+      <p class="lab-estacion__bajada">Epicteto propuso revisar cada día lo que hicimos bien, lo que hicimos mal y lo que dejamos de hacer. El examen nocturno convierte el día en una práctica de aprendizaje. Leé sobre <a href="/recursos/epicteto/">Epicteto</a>.</p>
+      <div class="lab-tarjeta" id="pasos-examen" data-lab-pasos data-lab-pasos-segundos="300">
+        <ol class="lab-pasos"><li><strong>Bien.</strong> ¿Qué hice bien hoy, aunque sea chico?</li><li><strong>Mal.</strong> ¿Qué hice que no quería hacer? Sin castigarte.</li><li><strong>Dejé de hacer.</strong> ¿Qué cosa importante dejé pasar?</li><li><strong>Mañana.</strong> Elegí una sola cosa para hacer distinto mañana.</li></ol>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-examen" data-escena-sync="#pasos-examen">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-examen-t escena-examen-d"><title id="escena-examen-t">Revisar el día</title>
+<rect data-paso="1" x="40" y="110" width="130" height="80" rx="12" class="esc-calido"/><text data-paso="1" x="105" y="146" text-anchor="middle" font-size="16">bien</text>
+<rect data-paso="2" x="200" y="110" width="130" height="80" rx="12" class="esc-suave"/><text data-paso="2" x="265" y="146" text-anchor="middle" font-size="16">mal</text>
+<rect data-paso="3" x="360" y="110" width="130" height="80" rx="12" class="esc-nodo"/><text data-paso="3" x="425" y="146" text-anchor="middle" font-size="16">dejé de hacer</text>
+<rect data-paso="4" x="440" y="220" width="130" height="50" rx="25" class="esc-calido"/><text data-paso="4" x="505" y="251" text-anchor="middle" font-size="15" class="esc-acento">mañana</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que hice bien</li><li>Lo que hice mal</li><li>Lo que dejé de hacer</li><li>Una cosa para mañana</li></ol><p class="escena__desc" id="escena-examen-d">Revisar el día con honestidad y sin castigo convierte cada jornada en aprendizaje, no en un juicio.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="examen-nocturno" data-lab-form-titulo="Examen nocturno" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-bien">Lo que hice bien hoy</label><textarea class="lab-texto" id="en-bien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-mal">Lo que hice mal, sin castigarme</label><textarea class="lab-texto" id="en-mal" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-dejo">Lo que dejé de hacer</label><textarea class="lab-texto" id="en-dejo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-manana">Una sola cosa para mañana</label><textarea class="lab-texto" id="en-manana" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="opinion" aria-labelledby="t-opinion">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-opinion">La opinión sobre mí</h2>
+      <p class="lab-estacion__bajada">Para Epicteto, lo que nos perturba no son los hechos, sino las opiniones que tenemos sobre ellos. La imagen que otros tienen de nosotros es un hecho ajeno; nuestro juicio sobre nosotros es algo que sí podemos revisar. Leé sobre <a href="/recursos/epicteto/">Epicteto</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="De dónde viene lo que pienso de mí"><label class="opcion"><input type="radio" name="fuente-juicio" value="dirian" data-escena-paso="1" checked><span>Lo que dirían</span></label><label class="opcion"><input type="radio" name="fuente-juicio" value="pienso" data-escena-paso="2"><span>Lo que pienso</span></label><label class="opcion"><input type="radio" name="fuente-juicio" value="se" data-escena-paso="3"><span>Lo que sé</span></label></div>
+        <div class="lab-panel" data-lab-panel="dirian"><p>Es la opinión ajena, que no depende de vos. ¿Qué tanto te mueve? ¿Podés dejarla en su lugar?</p></div><div class="lab-panel" data-lab-panel="pienso" hidden><p>Es tu juicio, que sí podés revisar. ¿Qué pruebas tenés? ¿Lo dirías de otra persona?</p></div><div class="lab-panel" data-lab-panel="se" hidden><p>Es un dato comprobable. Anotalo sin adornos y compáralo con tu juicio.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-opinion" data-escena-radios="fuente-juicio">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-opinion-t escena-opinion-d"><title id="escena-opinion-t">Tres fuentes</title>
+<circle data-paso="1" cx="130" cy="150" r="60" class="esc-suave"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="16">lo que dirían</text>
+<circle data-paso="2" cx="300" cy="150" r="60" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="16">lo que pienso</text>
+<circle data-paso="3" cx="470" cy="150" r="60" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="16" class="esc-acento">lo que sé</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que dirían</li><li>Lo que pienso</li><li>Lo que sé</li></ol><p class="escena__desc" id="escena-opinion-d">Distinguir lo que otros piensan, lo que pensamos y lo que sabemos con certeza ayuda a revisar el juicio sin depender de la mirada ajena.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="opinion-sobre-mi" data-lab-form-titulo="La opinión sobre mí" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="op-juicio">Un juicio que tengo sobre mí</label><textarea class="lab-texto" id="op-juicio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="op-pruebas">Qué pruebas tengo, a favor y en contra</label><textarea class="lab-texto" id="op-pruebas" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="op-nuevo">Cómo lo diría si fuera de otra persona</label><textarea class="lab-texto" id="op-nuevo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Epicteto. <em>Enquiridión</em>.</li><li>Epicteto. <em>Disertaciones por Arriano</em>.</li><li>Marco Aurelio. <em>Meditaciones</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

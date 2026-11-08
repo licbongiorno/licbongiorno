@@ -59,6 +59,8 @@ Es el Esquema Conceptual, Referencial y Operativo: el conjunto de conocimientos,
 
 Fue una experiencia de trabajo con grupos operativos que Pichon-Rivière y su equipo realizaron en Rosario en 1958, con estudiantes, profesionales y vecinos de la ciudad.
 
+Para practicarlo, probá el [Laboratorio de grupos](/laboratorio-de-grupos/).
+
 ## Para seguir leyendo
 
 - Pichon-Rivière, E. (1971). *El proceso grupal: del psicoanálisis a la psicología social*.

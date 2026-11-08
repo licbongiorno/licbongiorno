@@ -59,6 +59,8 @@ Son los elementos que, según Yalom, hacen que un grupo terapéutico ayude, como
 
 *El don de la terapia* para quienes se interesan por la práctica, *El verdugo del amor* para conocer su forma de trabajar a través de casos, y *Mirar al sol* sobre el miedo a la muerte.
 
+Para practicarlo, probá el [Laboratorio de grupos](/laboratorio-de-grupos/).
+
 ## Para seguir leyendo
 
 - Yalom, I. D. (1970). *Teoría y práctica de la psicoterapia de grupo*.

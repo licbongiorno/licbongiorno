@@ -1,0 +1,164 @@
+<!--{
+  "ruta": "/laboratorio-del-amor-como-arte/",
+  "titulo": "Laboratorio del amor como arte: Fromm",
+  "descripcion": "Cuidado, responsabilidad, respeto y conocimiento, y la diferencia entre tener y ser, con Erich Fromm y ejercicios para practicarlos.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Amor",
+      "/laboratorio-del-amor-como-arte/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio del <em>amor como arte</em>",
+  "bajada": "Fromm dijo que el amor es un arte que se practica, no un sentimiento que se espera. Cuatro elementos y una pregunta: ¿quiero tener a alguien o ser con alguien?",
+  "respuesta": "El laboratorio del amor como arte propone cuatro ejercicios inspirados en Erich Fromm: practicar el cuidado con una acción concreta, distinguir si respondemos, eludimos o imponemos una necesidad, mirar al otro tal como es, y conocer a alguien querido con preguntas abiertas. Cierra con la distinción entre tener y ser.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio del amor como arte",
+  "articulos": [
+    "erich-fromm",
+    "rollo-may",
+    "irvin-yalom"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Muchas veces pensamos el amor como algo que nos pasa. Fromm propuso otra mirada: el amor exige conocimiento, esfuerzo y práctica, como cualquier arte. Estas prácticas son chicas y concretas, para usar con alguien que querés.</p>
+        <p>Si en el vínculo hay control, celos extremos o miedo, no es un ejercicio de amor sino de seguridad.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#cuidado">Cuidado</a><a href="#responsabilidad">Responsabilidad</a><a href="#respeto">Respeto</a><a href="#conocimiento">Conocimiento</a><a href="#tener">Tener o ser</a></nav>
+
+    <section class="lab-estacion revelar" id="cuidado" aria-labelledby="t-cuidado">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-cuidado">Cuidado</h2>
+      <p class="lab-estacion__bajada">Fromm describió el cuidado como un interés activo por el crecimiento de la otra persona. No es sentir ternura: es hacer algo concreto para que la otra persona florezca. Leé sobre <a href="/recursos/erich-fromm/">Erich Fromm</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-cuidado" data-escena-sync="#pasos-cuidado">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-cuidado-t escena-cuidado-d"><title id="escena-cuidado-t">Una acción que ayuda a crecer</title>
+<circle data-paso="1" cx="130" cy="150" r="60" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="16">el otro</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-cui)" d="M200 150 H 270"/><text data-paso="2" x="235" y="130" text-anchor="middle" font-size="15" class="esc-sans">una acción</text>
+<circle data-paso="3" cx="470" cy="150" r="60" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="16" class="esc-acento">crece</text>
+<defs><marker id="pf-cui" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>El otro</li><li>Una acción concreta</li><li>Crece</li></ol><p class="escena__desc" id="escena-cuidado-d">El cuidado se ve en lo que hacemos. Una acción concreta, pensada para el crecimiento del otro, es la forma más simple de practicarlo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-cuidado" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos"><li><strong>Elegir.</strong> Pensá en una persona que querés. No hace falta que sea tu pareja.</li><li><strong>Actuar.</strong> Pensá en una acción concreta que le ayude a crecer esta semana. Dos minutos alcanzan para pensarla.</li><li><strong>Notar.</strong> ¿Cómo sabés que le serviría? Preguntale o mirá lo que le hace bien.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cuidado-amor" data-lab-form-titulo="Cuidado" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cu-persona">A quién elegí</label><input class="lab-campo" id="cu-persona" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cu-accion">La acción concreta que pensé</label><textarea class="lab-texto" id="cu-accion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cu-sirve">Cómo sé que le serviría</label><textarea class="lab-texto" id="cu-sirve" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="responsabilidad" aria-labelledby="t-responsabilidad">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-responsabilidad">Responsabilidad</h2>
+      <p class="lab-estacion__bajada">Para Fromm, la responsabilidad es responder voluntariamente a las necesidades del otro, no una obligación impuesta. Es distinta del deber: nace de elegir estar presente. Leé sobre <a href="/recursos/erich-fromm/">Fromm</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué hice con una necesidad del otro"><label class="opcion"><input type="radio" name="respuesta-necesidad" value="respondi" data-escena-paso="1" checked><span>La respondí</span></label><label class="opcion"><input type="radio" name="respuesta-necesidad" value="elude" data-escena-paso="2"><span>La eludí</span></label><label class="opcion"><input type="radio" name="respuesta-necesidad" value="impuse" data-escena-paso="3"><span>Impuse la mía</span></label></div>
+        <div class="lab-panel" data-lab-panel="respondi"><p>Respondiste a algo que el otro necesitaba. Anotá qué fue y cómo se sintió la relación después.</p></div><div class="lab-panel" data-lab-panel="elude" hidden><p>Te hiciste el distraído. No hace falta culparte: anotá qué te impidió responder y qué podrías hacer distinto.</p></div><div class="lab-panel" data-lab-panel="impuse" hidden><p>Respondiste a tu necesidad, no a la del otro. Anotá cuál era la del otro y si le preguntaste.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-responsabilidad" data-escena-radios="respuesta-necesidad">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-responsabilidad-t escena-responsabilidad-d"><title id="escena-responsabilidad-t">Tres maneras de responder</title>
+<rect data-paso="1" x="40" y="110" width="150" height="80" rx="12" class="esc-calido"/><text data-paso="1" x="115" y="146" text-anchor="middle" font-size="16">la respondí</text>
+<rect data-paso="2" x="225" y="110" width="150" height="80" rx="12" class="esc-suave"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">la eludí</text>
+<rect data-paso="3" x="410" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="3" x="485" y="146" text-anchor="middle" font-size="16">impuse la mía</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>La respondí</li><li>La eludí</li><li>Impuse la mía</li></ol><p class="escena__desc" id="escena-responsabilidad-d">Responder a una necesidad es responsabilidad. Eludirla o imponer la propia no la cumple, aunque se haga con buena intención.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="responsabilidad-amor" data-lab-form-titulo="Responsabilidad" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-necesidad">Una necesidad del otro que noté</label><textarea class="lab-texto" id="re-necesidad" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-respuesta">Cómo respondí, o por qué no respondí</label><textarea class="lab-texto" id="re-respuesta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="respeto" aria-labelledby="t-respeto">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-respeto">Respeto</h2>
+      <p class="lab-estacion__bajada">Fromm llamó respeto a ver al otro tal como es, sin usarlo para nuestros fines. Sin respeto, la responsabilidad puede degenerar en control o explotación. Leé sobre <a href="/recursos/erich-fromm/">Erich Fromm</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="respeto-amor" data-lab-form-titulo="Respeto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rs-ver">Qué veo de esa persona tal como es, hoy</label><textarea class="lab-texto" id="rs-ver" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rs-pido">Qué le estoy pidiendo que no es suyo de dar</label><textarea class="lab-texto" id="rs-pido" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rs-cambio">Qué podría dejar de pedirle, o pedirle de otra forma</label><textarea class="lab-texto" id="rs-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="conocimiento" aria-labelledby="t-conocimiento">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-conocimiento">Conocimiento</h2>
+      <p class="lab-estacion__bajada">Fromm distinguió el conocimiento superficial del que comprende al otro en profundidad. Se practica con preguntas abiertas y escucha, no con suposiciones. Leé sobre <a href="/recursos/erich-fromm/">Erich Fromm</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-conocimiento" data-escena-sync="#pasos-conocimiento">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-conocimiento-t escena-conocimiento-d"><title id="escena-conocimiento-t">De suponer a preguntar</title>
+<circle data-paso="1" cx="170" cy="150" r="60" class="esc-nodo"/><text data-paso="1" x="170" y="156" text-anchor="middle" font-size="16">supongo</text>
+<circle data-paso="2" cx="430" cy="150" r="60" class="esc-relleno"/><text data-paso="2" x="430" y="156" text-anchor="middle" font-size="16">pregunto</text>
+<text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">lo conozco de verdad</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Supongo</li><li>Pregunto</li><li>Lo conozco de verdad</li></ol><p class="escena__desc" id="escena-conocimiento-d">Suponer es fácil y empobrece el vínculo. Preguntar con curiosidad abre un conocimiento real de la otra persona.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-conocimiento" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Preguntas.</strong> Elegí tres preguntas abiertas que empiecen con «¿cómo?» o «¿qué?».</li><li><strong>Escuchar.</strong> Hacelas a alguien querido y escuchá sin corregir ni completar la frase.</li><li><strong>Anotar.</strong> Escribí una cosa nueva que aprendiste de esa persona.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="conocimiento-amor" data-lab-form-titulo="Conocimiento" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ko-preguntas">Las tres preguntas que hice</label><textarea class="lab-texto" id="ko-preguntas" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ko-aprendi">Algo nuevo que aprendí</label><textarea class="lab-texto" id="ko-aprendi" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="tener" aria-labelledby="t-tener">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-tener">Tener o ser</h2>
+      <p class="lab-estacion__bajada">Fromm escribió sobre dos modos de vivir: tener, que busca poseer al otro y a las cosas, y ser, que se relaciona desde lo que una persona es. En el amor, la diferencia se nota en el apego y en la libertad. Leé sobre <a href="/recursos/erich-fromm/">Erich Fromm</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Cómo querés al otro, hoy"><label class="opcion"><input type="radio" name="modo" value="tener" data-escena-paso="1" checked><span>Teniendo</span></label><label class="opcion"><input type="radio" name="modo" value="ser" data-escena-paso="2"><span>Siendo</span></label></div>
+        <div class="lab-panel" data-lab-panel="tener"><p>Notá si sentís que el otro te pertenece o te falta. Preguntate qué tendrías que soltar para dejarlo ser.</p></div><div class="lab-panel" data-lab-panel="ser" hidden><p>Notá si podés disfrutar del otro sin necesitar que esté siempre cerca. Preguntate qué te da esa libertad.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-tener" data-escena-radios="modo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-tener-t escena-tener-d"><title id="escena-tener-t">Poseer o estar con</title>
+<circle data-paso="1" cx="170" cy="150" r="80" class="esc-nodo"/><text data-paso="1" x="170" y="146" text-anchor="middle" font-size="16">tener</text><text data-paso="1" x="170" y="172" text-anchor="middle" class="esc-sans">poseer</text>
+<circle data-paso="2" cx="430" cy="150" r="80" class="esc-calido"/><text data-paso="2" x="430" y="146" text-anchor="middle" font-size="16" class="esc-acento">ser</text><text data-paso="2" x="430" y="172" text-anchor="middle" class="esc-sans">con libertad</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Tener</li><li>Ser</li></ol><p class="escena__desc" id="escena-tener-d">Tener intenta asegurar al otro; ser lo deja libre. El amor como arte se acerca a esta segunda forma.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tener-o-ser" data-lab-form-titulo="Tener o ser" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="to-momento">Un momento en que quise poseer a alguien</label><textarea class="lab-texto" id="to-momento" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="to-libre">Un momento en que lo dejé ser</label><textarea class="lab-texto" id="to-libre" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si en tu vínculo hay control del celular, del dinero o de las salidas, gritos, amenazas o violencia, no es un tema de amor sino de seguridad. Llamá al 144 (violencia de género, las 24 horas) o al 911. Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Fromm, E. (1956). <em>El arte de amar</em>.</li><li>Fromm, E. (1976). <em>¿Tener o ser?</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

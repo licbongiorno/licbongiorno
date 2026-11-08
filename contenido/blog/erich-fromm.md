@@ -59,6 +59,8 @@ Es la angustia que produce la libertad cuando trae aislamiento e incertidumbre. 
 
 Vivió allí desde 1950 durante unos veinte años, enseñó en la UNAM y fundó la Sociedad Mexicana de Psicoanálisis, donde formó a muchos analistas.
 
+Para practicarlo, probá el [Laboratorio del amor como arte](/laboratorio-del-amor-como-arte/).
+
 ## Para seguir leyendo
 
 - Fromm, E. (1941). *El miedo a la libertad*.

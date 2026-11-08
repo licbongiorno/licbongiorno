@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-de-grupos/",
+  "titulo": "Laboratorio de grupos: Pichon-Rivière y Yalom",
+  "descripcion": "La tarea explícita y la implícita del grupo, el ciclo de información, emoción y producción, la universalidad y la esperanza, con Pichon-Rivière y Yalom.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Grupos",
+      "/laboratorio-de-grupos/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>grupos</em>",
+  "bajada": "Pichon-Rivière pensó el grupo como un espacio con una tarea, que avanza entre información, emoción y producción. Yalom describió lo que cura en el grupo: sentir que otros comparten lo que sentimos. Cuatro prácticas para observar un grupo y para participar en él.",
+  "respuesta": "El laboratorio de grupos propone cuatro ejercicios inspirados en Enrique Pichon-Rivière e Irvin Yalom: distinguir la tarea explícita y la implícita de un grupo, observar el ciclo de información, emoción y producción, reconocer la universalidad al compartir una emoción y registrar lo aprendido y la esperanza que deja la experiencia grupal.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de grupos",
+  "articulos": [
+    "enrique-pichon-riviere",
+    "irvin-yalom"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Un grupo tiene una tarea, aunque no siempre esté escrita. Pichon-Rivière llamó a esa tarea el eje del grupo, y propuso mirar qué pasa entre las personas que lo forman. Yalom mostró que, en un grupo, muchas personas descubren que no están solas con lo que sienten.</p>
+        <p>Podés hacer estas prácticas en una reunión de trabajo, en un grupo de estudio o en un espacio de apoyo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tarea">La tarea del grupo</a><a href="#ciclo">Información, emoción, producción</a><a href="#universalidad">Universalidad</a><a href="#esperanza">Esperanza y aprendizaje</a></nav>
+
+    <section class="lab-estacion revelar" id="tarea" aria-labelledby="t-tarea">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tarea">La tarea del grupo</h2>
+      <p class="lab-estacion__bajada">Pichon-Rivière describió la tarea del grupo como su finalidad, con un componente explícito, lo que dice que hace, y uno implícito, lo que hace en realidad. Las diferencias entre ambos suelen explicar los conflictos. Leé sobre <a href="/recursos/enrique-pichon-riviere/">Enrique Pichon-Rivière</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-tarea-grupo" data-escena-sync="#pasos-tarea-grupo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-tarea-grupo-t escena-tarea-grupo-d"><title id="escena-tarea-grupo-t">Explícita e implícita</title>
+<rect data-paso="1" x="40" y="100" width="220" height="90" rx="12" class="esc-nodo"/><text data-paso="1" x="150" y="140" text-anchor="middle" font-size="16">lo que dice</text><text data-paso="1" x="150" y="166" text-anchor="middle" class="esc-sans">el grupo</text>
+<rect data-paso="2" x="340" y="100" width="220" height="90" rx="12" class="esc-relleno"/><text data-paso="2" x="450" y="140" text-anchor="middle" font-size="16">lo que hace</text><text data-paso="2" x="450" y="166" text-anchor="middle" class="esc-sans">en realidad</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M262 145 H 336"/><text data-paso="3" x="300" y="250" text-anchor="middle" font-size="16" class="esc-acento">¿se encuentran?</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que dice</li><li>Lo que hace</li><li>¿Se encuentran?</li></ol><p class="escena__desc" id="escena-tarea-grupo-d">Cuando lo que el grupo dice que hace y lo que hace en realidad no coinciden, aparece un conflicto. Nombrar esa distancia ayuda a trabajarlo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-tarea-grupo" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Explícita.</strong> ¿Para qué dice que existe el grupo? Escribí la finalidad, tal como se formuló.</li><li><strong>Implícita.</strong> ¿Qué hace el grupo en la práctica? Observá dos o tres encuentros.</li><li><strong>Distancia.</strong> ¿En qué se diferencian? Anotá una diferencia que te haya llamado la atención.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tarea-grupo" data-lab-form-titulo="La tarea del grupo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tg-explicita">La tarea explícita del grupo</label><textarea class="lab-texto" id="tg-explicita" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tg-implicita">La tarea implícita, lo que hace en la práctica</label><textarea class="lab-texto" id="tg-implicita" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tg-distancia">Una diferencia entre ambas</label><textarea class="lab-texto" id="tg-distancia" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="ciclo" aria-labelledby="t-ciclo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-ciclo">Información, emoción, producción</h2>
+      <p class="lab-estacion__bajada">Pichon-Rivière describió que un grupo avanza entre información, emoción y producción, y que estos momentos pueden repetirse dentro de una misma reunión. Observar ese ciclo ayuda a entender por qué se traba un grupo. Leé sobre <a href="/recursos/enrique-pichon-riviere/">Pichon-Rivière</a>.</p>
+      <div class="lab-tarjeta" id="pasos-ciclo" data-lab-pasos data-lab-pasos-segundos="600">
+        <ol class="lab-pasos"><li><strong>Observar.</strong> En tu próxima reunión o conversación de grupo, mirá qué pasa durante diez minutos.</li><li><strong>Clasificar.</strong> Anotá cada momento: ¿se intercambió información, apareció una emoción o se llegó a algo concreto?</li><li><strong>Repetir.</strong> ¿El ciclo volvió a empezar? ¿Cuántas veces?</li></ol>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-ciclo-grupo" data-escena-sync="#pasos-ciclo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-ciclo-grupo-t escena-ciclo-grupo-d"><title id="escena-ciclo-grupo-t">Un ciclo que se repite</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-nodo"/><text data-paso="1" x="130" y="146" text-anchor="middle" font-size="15">información</text>
+<circle data-paso="2" cx="300" cy="150" r="56" class="esc-calido"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15" class="esc-acento">emoción</text>
+<circle data-paso="3" cx="470" cy="150" r="56" class="esc-relleno"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15">producción</text>
+<path data-paso="4" class="esc-linea trazo-escena" pathLength="1" d="M470 210 C 400 260, 200 260, 130 210"/>
+<text data-paso="4" x="300" y="284" text-anchor="middle" class="esc-sans">y vuelve a empezar</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Información</li><li>Emoción</li><li>Producción</li><li>Vuelve a empezar</li></ol><p class="escena__desc" id="escena-ciclo-grupo-d">Un grupo pasa por información, emoción y producción, y vuelve a empezar. Si la emoción no se nombra, la producción suele trabarse.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ciclo-grupo" data-lab-form-titulo="Información, emoción, producción" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cg-momentos">Los momentos que observé, en orden</label><textarea class="lab-texto" id="cg-momentos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cg-trabo">En qué momento se trabó, si pasó</label><textarea class="lab-texto" id="cg-trabo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="universalidad" aria-labelledby="t-universalidad">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-universalidad">Universalidad</h2>
+      <p class="lab-estacion__bajada">Yalom llamó universalidad al alivio de descubrir que otros comparten lo que sentimos. Muchas personas llegan al grupo creyendo que son las únicas con cierto malestar. Leé sobre <a href="/recursos/irvin-yalom/">Irvin Yalom</a>.</p>
+      <div class="lab-tarjeta" id="pasos-universalidad" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos"><li><strong>Elegir.</strong> Pensá en algo que sentís y que creés que solo te pasa a vos.</li><li><strong>Preguntar.</strong> Con alguien de confianza, o en el grupo, preguntá si alguna vez sintió algo parecido.</li><li><strong>Notar.</strong> ¿Qué cambió en vos al escuchar que no estás solo?</li></ol>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-universalidad" data-escena-sync="#pasos-universalidad">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-universalidad-t escena-universalidad-d"><title id="escena-universalidad-t">Otros también</title>
+<circle data-paso="1" cx="300" cy="150" r="40" class="esc-calido"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="16">yo</text>
+<circle data-paso="2" cx="150" cy="90" r="30" class="esc-nodo"/><circle data-paso="2" cx="450" cy="90" r="30" class="esc-nodo"/><circle data-paso="2" cx="150" cy="210" r="30" class="esc-nodo"/><circle data-paso="2" cx="450" cy="210" r="30" class="esc-nodo"/>
+<text data-paso="3" x="300" y="284" text-anchor="middle" font-size="16" class="esc-acento">no estoy solo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que siento</li><li>Otros lo sintieron</li><li>No estoy solo</li></ol><p class="escena__desc" id="escena-universalidad-d">Escuchar que otros sintieron lo mismo reduce la sensación de anormalidad y de soledad.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="universalidad" data-lab-form-titulo="Universalidad" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="un-sentir">Algo que siento y creía que solo me pasaba a mí</label><textarea class="lab-texto" id="un-sentir" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="un-otro">Quién me dijo que también lo sintió, y qué dijo</label><textarea class="lab-texto" id="un-otro" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="un-cambio">Qué cambió al escucharlo</label><textarea class="lab-texto" id="un-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="esperanza" aria-labelledby="t-esperanza">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-esperanza">Esperanza y aprendizaje</h2>
+      <p class="lab-estacion__bajada">Yalom describió factores terapéuticos del grupo, entre ellos la esperanza, que surge al ver a otros mejorar, y el aprendizaje interpersonal, que surge de cómo nos relacionamos con los demás. Leé sobre <a href="/recursos/irvin-yalom/">Yalom</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-esperanza-grupo" data-escena-sync="#pasos-esperanza-grupo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-esperanza-grupo-t escena-esperanza-grupo-d"><title id="escena-esperanza-grupo-t">Lo que veo en otros</title>
+<circle data-paso="1" cx="130" cy="150" r="46" class="esc-suave"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">otro</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-esp-g)" d="M182 150 H 412"/><circle data-paso="3" cx="470" cy="150" r="46" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">yo, mejor</text>
+<defs><marker id="pf-esp-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Veo a otro</li><li>Me inspira</li><li>Yo también</li></ol><p class="escena__desc" id="escena-esperanza-grupo-d">Ver a otra persona avanzar abre la esperanza de que uno también puede. Eso se aprende en el grupo, mirando y siendo mirado.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-esperanza-grupo" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Recordar.</strong> Pensá en algo que aprendiste de alguien en un grupo.</li><li><strong>Esperanza.</strong> ¿Qué te dio esperanza de la experiencia grupal?</li><li><strong>Llevar.</strong> ¿Qué podés llevar a otra relación esta semana?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="esperanza-grupo" data-lab-form-titulo="Esperanza y aprendizaje" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="eg-aprendi">Algo que aprendí de otra persona en el grupo</label><textarea class="lab-texto" id="eg-aprendi" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="eg-esperanza">La esperanza que me dio</label><textarea class="lab-texto" id="eg-esperanza" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Un grupo puede despertar emociones fuertes. Si en un grupo terapéutico surge algo que te desborda, llevalo a tu terapeuta; estos ejercicios no reemplazan un espacio de terapia. Si necesitás ayuda urgente, llamá al 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Pichon-Rivière, E. (1971). <em>El proceso grupal: del psicoanálisis a la psicología social</em>.</li><li>Yalom, I. D. (1970). <em>Teoría y práctica de la psicoterapia de grupo</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

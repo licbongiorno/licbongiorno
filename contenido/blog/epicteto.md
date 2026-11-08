@@ -58,6 +58,8 @@ Ellis y Beck reconocieron que la idea estoica de que nuestras interpretaciones i
 
 Para practicarlo, probá el [Laboratorio de razón y autonomía](/laboratorio-de-la-razon-y-la-autonomia/).
 
+Para practicarlo, probá el [Laboratorio estoico](/laboratorio-estoico/).
+
 ## Para seguir leyendo
 
 - Epicteto. *Enquiridión*.
