@@ -1,0 +1,13 @@
+<svg viewBox="0 -34 600 314">
+<path class="esc-linea trazo-fig" pathLength="1" d="M40 250 H 150 V 190 H 260 V 130 H 370 V 70 H 480 V 30 H 560"/>
+<text x="95" y="236" text-anchor="middle" class="esc-sans">ética</text>
+<text x="95" y="270" text-anchor="middle" class="esc-sans">yama · niyama</text>
+<text x="205" y="176" text-anchor="middle" class="esc-sans">el cuerpo</text>
+<text x="205" y="216" text-anchor="middle" font-size="15">asana</text>
+<text x="315" y="116" text-anchor="middle" class="esc-sans">el aliento</text>
+<text x="315" y="156" text-anchor="middle" font-size="15">pranayama</text>
+<text x="425" y="56" text-anchor="middle" class="esc-sans">la atención</text>
+<text x="425" y="96" text-anchor="middle" font-size="15">dharana</text>
+<circle cx="520" cy="30" r="9" class="esc-punto"/>
+<text x="520" y="-6" text-anchor="middle" font-size="15" class="esc-acento">samadhi</text>
+</svg>

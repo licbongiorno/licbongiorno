@@ -5,6 +5,10 @@
    "nombre": "Filosofía"
   },
   {
+   "id": "ori",
+   "nombre": "Tradiciones orientales"
+  },
+  {
    "id": "ini",
    "nombre": "Los comienzos"
   },
@@ -622,6 +626,86 @@
    "x": 1878,
    "escuela": "fil",
    "resumen": "Yo y Tú: la filosofía del encuentro."
+  },
+  {
+   "slug": "rene-descartes",
+   "corto": "Descartes",
+   "anios": "1596–1650",
+   "x": 1596,
+   "escuela": "fil",
+   "resumen": "Mente y cuerpo: dos sustancias, y el cuerpo como máquina."
+  },
+  {
+   "slug": "john-locke",
+   "corto": "Locke",
+   "anios": "1632–1704",
+   "x": 1632,
+   "escuela": "fil",
+   "resumen": "La mente como tabla rasa y la asociación de ideas."
+  },
+  {
+   "slug": "edmund-husserl",
+   "corto": "Husserl",
+   "anios": "1859–1938",
+   "x": 1859,
+   "escuela": "fil",
+   "resumen": "La fenomenología: describir la experiencia tal como aparece."
+  },
+  {
+   "slug": "martin-heidegger",
+   "corto": "Heidegger",
+   "anios": "1889–1976",
+   "x": 1889,
+   "escuela": "fil",
+   "resumen": "El ser-en-el-mundo, la angustia y el ser para la muerte."
+  },
+  {
+   "slug": "jean-paul-sartre",
+   "corto": "Sartre",
+   "anios": "1905–1980",
+   "x": 1905,
+   "escuela": "fil",
+   "resumen": "La libertad, la mala fe y la mirada del otro."
+  },
+  {
+   "slug": "maurice-merleau-ponty",
+   "corto": "Merleau-Ponty",
+   "anios": "1908–1961",
+   "x": 1908,
+   "escuela": "fil",
+   "resumen": "El cuerpo vivido y la percepción."
+  },
+  {
+   "slug": "buda",
+   "corto": "Buda",
+   "anios": "s. VI–IV a. C.",
+   "x": -500,
+   "escuela": "ori",
+   "resumen": "El sufrimiento, su origen y el camino; la atención plena."
+  },
+  {
+   "slug": "lao-tse",
+   "corto": "Lao Tse",
+   "anios": "fechas inciertas",
+   "x": -480,
+   "escuela": "ori",
+   "resumen": "El tao, el yin y el yang y el arte de no forzar."
+  },
+  {
+   "slug": "patanjali",
+   "corto": "Patañjali",
+   "anios": "c. 400",
+   "x": -200,
+   "escuela": "ori",
+   "resumen": "Los Yoga Sutras: aquietar los movimientos de la mente."
+  },
+  {
+   "slug": "d-t-suzuki",
+   "corto": "Suzuki",
+   "anios": "1870–1966",
+   "x": 1870,
+   "escuela": "ori",
+   "resumen": "El zen, el koan y el satori, en diálogo con el psicoanálisis."
   }
  ],
  "relaciones": [
@@ -1158,6 +1242,120 @@
    "a": "laura-perls",
    "tipo": "influencia",
    "nota": "la filosofía del diálogo"
+  },
+  {
+   "de": "rene-descartes",
+   "a": "ivan-pavlov",
+   "tipo": "influencia",
+   "nota": "la idea del reflejo"
+  },
+  {
+   "de": "john-locke",
+   "a": "john-b-watson",
+   "tipo": "influencia",
+   "nota": "la tabla rasa y el peso del ambiente"
+  },
+  {
+   "de": "edmund-husserl",
+   "a": "martin-heidegger",
+   "tipo": "formacion",
+   "nota": "fue su asistente en Friburgo"
+  },
+  {
+   "de": "edmund-husserl",
+   "a": "ludwig-binswanger",
+   "tipo": "influencia",
+   "nota": "el método fenomenológico"
+  },
+  {
+   "de": "martin-heidegger",
+   "a": "ludwig-binswanger",
+   "tipo": "influencia",
+   "nota": "el Daseinsanálisis"
+  },
+  {
+   "de": "martin-heidegger",
+   "a": "rollo-may",
+   "tipo": "influencia",
+   "nota": "el análisis existencial"
+  },
+  {
+   "de": "martin-heidegger",
+   "a": "jacques-lacan",
+   "tipo": "dialogo",
+   "nota": "Lacan tradujo su texto «Logos»"
+  },
+  {
+   "de": "jean-paul-sartre",
+   "a": "ronald-laing",
+   "tipo": "influencia",
+   "nota": "Razón y violencia (1964)"
+  },
+  {
+   "de": "jean-paul-sartre",
+   "a": "irvin-yalom",
+   "tipo": "influencia",
+   "nota": "la libertad y la responsabilidad"
+  },
+  {
+   "de": "maurice-merleau-ponty",
+   "a": "jacques-lacan",
+   "tipo": "dialogo",
+   "nota": "amistad y debate sobre la mirada"
+  },
+  {
+   "de": "buda",
+   "a": "jon-kabat-zinn",
+   "tipo": "influencia",
+   "nota": "la atención plena"
+  },
+  {
+   "de": "buda",
+   "a": "marsha-linehan",
+   "tipo": "influencia",
+   "nota": "el zen y la aceptación radical"
+  },
+  {
+   "de": "lao-tse",
+   "a": "carl-gustav-jung",
+   "tipo": "influencia",
+   "nota": "el tao y la unión de los opuestos"
+  },
+  {
+   "de": "lao-tse",
+   "a": "jean-shinoda-bolen",
+   "tipo": "influencia",
+   "nota": "El tao de la psicología"
+  },
+  {
+   "de": "patanjali",
+   "a": "carl-gustav-jung",
+   "tipo": "influencia",
+   "nota": "Yoga y Occidente"
+  },
+  {
+   "de": "patanjali",
+   "a": "jon-kabat-zinn",
+   "tipo": "influencia",
+   "nota": "el yoga en el MBSR"
+  },
+  {
+   "de": "d-t-suzuki",
+   "a": "carl-gustav-jung",
+   "tipo": "dialogo",
+   "nota": "el prólogo de 1939"
+  },
+  {
+   "de": "d-t-suzuki",
+   "a": "erich-fromm",
+   "tipo": "colaboracion",
+   "nota": "Budismo zen y psicoanálisis"
+  },
+  {
+   "de": "d-t-suzuki",
+   "a": "karen-horney",
+   "tipo": "influencia",
+   "nota": "el viaje a Japón de 1952"
   }
  ]
 }

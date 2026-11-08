@@ -706,6 +706,7 @@
 .mapa-nodo { cursor: pointer; }
 .mapa-nodo__punto { stroke: var(--papel); stroke-width: 2; transition: transform .3s var(--ease-out); transform-box: fill-box; transform-origin: center; }
 .mapa-nodo__punto--fil { fill: var(--tinta-suave); }
+.mapa-nodo__punto--ori { fill: var(--arena-2); stroke: var(--salvia-profunda); }
 .mapa-nodo__punto--ini { fill: var(--salvia-suave); stroke: var(--piedra-oscura); }
 .mapa-nodo__punto--pa { fill: var(--terracota-profunda); }
 .mapa-nodo__punto--rio { fill: var(--terracota); }

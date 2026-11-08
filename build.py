@@ -259,7 +259,7 @@ def _mapa_lista(items):
     return ", ".join(f'<a href="/recursos/{s}/">{esc(MAPA_NOMBRES[s])}</a> <span class="mapa-nota">({esc(n)})</span>' for s, t, n in items)
 
 
-MAPA_FRASES = {"fil": "la filosofía", "ini": "los comienzos de la psicología científica", "pa": "el psicoanálisis", "rio": "el psicoanálisis rioplatense", "jung": "la psicología analítica",
+MAPA_FRASES = {"fil": "la filosofía", "ori": "las tradiciones orientales", "ini": "los comienzos de la psicología científica", "pa": "el psicoanálisis", "rio": "el psicoanálisis rioplatense", "jung": "la psicología analítica",
                "hum": "la psicología humanista y existencial", "ges": "la Gestalt y el análisis transaccional",
                "cc": "las corrientes conductuales y cognitivas", "sis": "la terapia sistémica", "des": "la psicología del desarrollo y el apego"}
 
@@ -971,6 +971,16 @@ WIKI = {
     "kierkegaard": ("Søren Kierkegaard", "https://es.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard"),
     "nietzsche": ("Friedrich Nietzsche", "https://es.wikipedia.org/wiki/Friedrich_Nietzsche"),
     "buber": ("Martin Buber", "https://es.wikipedia.org/wiki/Martin_Buber"),
+    "descartes": ("René Descartes", "https://es.wikipedia.org/wiki/Ren%C3%A9_Descartes"),
+    "locke": ("John Locke", "https://es.wikipedia.org/wiki/John_Locke"),
+    "husserl": ("Edmund Husserl", "https://es.wikipedia.org/wiki/Edmund_Husserl"),
+    "heidegger": ("Martin Heidegger", "https://es.wikipedia.org/wiki/Martin_Heidegger"),
+    "sartre": ("Jean-Paul Sartre", "https://es.wikipedia.org/wiki/Jean-Paul_Sartre"),
+    "merleau-ponty": ("Maurice Merleau-Ponty", "https://es.wikipedia.org/wiki/Maurice_Merleau-Ponty"),
+    "buda": ("Buda Gautama", "https://es.wikipedia.org/wiki/Buda_Gautama"),
+    "lao-tse": ("Lao-Tse", "https://es.wikipedia.org/wiki/Lao-Tse"),
+    "patanjali": ("Patañjali", "https://es.wikipedia.org/wiki/Pata%C3%B1jali"),
+    "suzuki": ("D. T. Suzuki", "https://es.wikipedia.org/wiki/Daisetsu_Teitaro_Suzuki"),
     "william-james": ("William James", "https://es.wikipedia.org/wiki/William_James"),
     "adler": ("Alfred Adler", "https://es.wikipedia.org/wiki/Alfred_Adler"),
     "rank": ("Otto Rank", "https://es.wikipedia.org/wiki/Otto_Rank"),

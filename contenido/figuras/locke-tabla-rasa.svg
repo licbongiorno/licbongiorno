@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 270"><defs><marker id="pf-lo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<rect x="200" y="70" width="200" height="130" rx="8" class="esc-relleno"/>
+<text x="300" y="142" text-anchor="middle" font-size="17">tabla rasa</text>
+<text x="100" y="46" text-anchor="middle" font-size="16">sensación</text>
+<text x="500" y="46" text-anchor="middle" font-size="16">reflexión</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-lo)" d="M100 60 C 100 110, 150 130, 194 132"/>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-lo)" d="M500 60 C 500 110, 450 130, 406 132"/>
+<text x="300" y="244" text-anchor="middle" font-size="16" class="esc-acento">las ideas</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" marker-end="url(#pf-lo)" d="M300 202 V 222"/>
+</svg>

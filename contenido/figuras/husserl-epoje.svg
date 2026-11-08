@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 280">
+<circle cx="300" cy="140" r="120" class="esc-nodo" stroke-dasharray="6 6"/>
+<circle cx="300" cy="150" r="56" class="esc-calido"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 20 A 120 120 0 1 1 299 20"/>
+<text x="300" y="72" text-anchor="middle" class="esc-sans">lo que doy por sentado</text>
+<text x="300" y="148" text-anchor="middle" font-size="16">lo vivido</text>
+<text x="300" y="174" text-anchor="middle" class="esc-sans">tal como aparece</text>
+<text x="580" y="270" text-anchor="end" font-size="16" class="esc-acento">epojé</text>
+</svg>

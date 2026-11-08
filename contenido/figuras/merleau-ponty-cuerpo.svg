@@ -1,0 +1,7 @@
+<svg viewBox="0 0 600 260">
+<ellipse cx="150" cy="110" rx="110" ry="50" class="esc-nodo"/><text x="150" y="116" text-anchor="middle" font-size="16">toca</text>
+<ellipse cx="450" cy="110" rx="110" ry="50" class="esc-nodo"/><text x="450" y="116" text-anchor="middle" font-size="16">es tocado</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M262 96 C 290 70, 310 70, 338 96 M338 124 C 310 150, 290 150, 262 124"/>
+<text x="300" y="214" text-anchor="middle" font-size="16" class="esc-acento">el cuerpo vivido</text>
+<text x="300" y="244" text-anchor="middle" class="esc-sans">sujeto y objeto a la vez</text>
+</svg>

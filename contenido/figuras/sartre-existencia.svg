@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 240"><defs><marker id="pf-sa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<circle cx="130" cy="100" r="56" class="esc-calido"/><text x="130" y="106" text-anchor="middle" font-size="16">existencia</text>
+<circle cx="470" cy="100" r="56" class="esc-relleno"/><text x="470" y="106" text-anchor="middle" font-size="16">esencia</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-sa)" d="M190 100 H 408"/>
+<text x="300" y="84" text-anchor="middle" class="esc-sans">elegir</text>
+<text x="130" y="194" text-anchor="middle" class="esc-sans">primero existimos</text>
+<text x="470" y="194" text-anchor="middle" class="esc-sans">después nos definimos</text>
+</svg>

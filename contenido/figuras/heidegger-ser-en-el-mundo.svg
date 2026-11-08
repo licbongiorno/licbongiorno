@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 280"><defs><marker id="pf-hd" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+<rect x="20" y="30" width="400" height="220" rx="16" class="esc-relleno"/>
+<text x="40" y="60" font-size="16">el mundo</text>
+<circle cx="220" cy="150" r="44" class="esc-calido"/><text x="220" y="156" text-anchor="middle" font-size="17">Dasein</text>
+<text x="80" y="226" class="esc-sans">los otros</text>
+<text x="400" y="226" text-anchor="end" class="esc-sans">las cosas</text>
+<path class="esc-linea trazo-fig" pathLength="1" marker-end="url(#pf-hd)" d="M266 150 H 520"/>
+<circle cx="540" cy="150" r="12" class="esc-punto"/>
+<text x="540" y="116" text-anchor="middle" font-size="16" class="esc-acento">la muerte</text>
+</svg>

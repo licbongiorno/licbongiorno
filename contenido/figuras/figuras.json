@@ -792,5 +792,97 @@
  "buber-yo-tu": {
   "titulo": "Yo-Tú y Yo-Ello",
   "desc": "Buber distinguió dos formas de relación: Yo-Tú, el encuentro con el otro como persona entera, y Yo-Ello, la relación con algo que se usa o se conoce. La vida necesita las dos, pero solo la primera es encuentro."
+ },
+ "vida-descartes": {
+  "titulo": "La vida de René Descartes",
+  "desc": "De Francia a Holanda y a Estocolmo: el método, la duda y las pasiones."
+ },
+ "vida-locke": {
+  "titulo": "La vida de John Locke",
+  "desc": "Médico, exiliado y autor del Ensayo sobre el entendimiento humano."
+ },
+ "vida-husserl": {
+  "titulo": "La vida de Edmund Husserl",
+  "desc": "De Moravia a Friburgo: el fundador de la fenomenología."
+ },
+ "vida-heidegger": {
+  "titulo": "La vida de Martin Heidegger",
+  "desc": "Autor de Ser y tiempo y rector bajo el nazismo, un hecho que no se puede separar de su biografía."
+ },
+ "vida-sartre": {
+  "titulo": "La vida de Jean-Paul Sartre",
+  "desc": "De París a París: el existencialismo, Les Temps modernes y el Nobel rechazado."
+ },
+ "vida-merleau-ponty": {
+  "titulo": "La vida de Maurice Merleau-Ponty",
+  "desc": "Filósofo de la percepción y del cuerpo, profesor en la Sorbona y en el Collège de France."
+ },
+ "vida-buda": {
+  "titulo": "La vida del Buda",
+  "desc": "Según la tradición; las fechas exactas se discuten y suelen ubicarse entre los siglos VI y IV a. C."
+ },
+ "vida-lao-tse": {
+  "titulo": "Lao Tse y el Tao Te King",
+  "desc": "Lo que cuenta la leyenda y lo que se sabe del libro: su autor sigue siendo incierto."
+ },
+ "vida-patanjali": {
+  "titulo": "Los Yoga Sutras en el tiempo",
+  "desc": "La fecha de Patañjali es incierta; muchos estudiosos ubican los Yoga Sutras alrededor del año 400."
+ },
+ "vida-suzuki": {
+  "titulo": "La vida de D. T. Suzuki",
+  "desc": "De Kanazawa al mundo: el divulgador del zen en Occidente."
+ },
+ "descartes-mente-cuerpo": {
+  "titulo": "Mente y cuerpo según Descartes",
+  "desc": "Descartes separó la mente, que piensa, del cuerpo, que ocupa lugar y funciona como una máquina. Pensó que se comunicaban en la glándula pineal. Ese dualismo marcó siglos de debate."
+ },
+ "locke-tabla-rasa": {
+  "titulo": "La tabla rasa",
+  "desc": "Para Locke, la mente empieza como una hoja en blanco. Las ideas llegan por dos vías: la sensación, que viene de afuera, y la reflexión, que observa lo que pasa adentro."
+ },
+ "husserl-epoje": {
+  "titulo": "La epojé",
+  "desc": "Husserl propuso poner entre paréntesis lo que damos por sentado sobre el mundo para describir la experiencia tal como aparece. Lo llamó epojé."
+ },
+ "heidegger-ser-en-el-mundo": {
+  "titulo": "Ser-en-el-mundo",
+  "desc": "Para Heidegger, el ser humano (Dasein) no es una mente encerrada que mira el mundo: siempre ya está en él, con los otros y con las cosas, y orientado hacia su propia muerte."
+ },
+ "sartre-existencia": {
+  "titulo": "La existencia precede a la esencia",
+  "desc": "Para Sartre, primero existimos y después nos definimos por lo que elegimos. No hay una esencia previa que diga quiénes tenemos que ser."
+ },
+ "merleau-ponty-cuerpo": {
+  "titulo": "El cuerpo vivido",
+  "desc": "Cuando una mano toca la otra, cada una es a la vez la que toca y la tocada. Para Merleau-Ponty, el cuerpo no es un objeto que tenemos, sino el modo en que somos en el mundo."
+ },
+ "buda-verdades": {
+  "titulo": "Las cuatro nobles verdades",
+  "desc": "El primer sermón del Buda: existe el sufrimiento, tiene un origen en el apego, puede cesar y hay un camino para que cese.",
+  "enlace": [
+   "Practicar en el laboratorio de mindfulness",
+   "/laboratorio-de-mindfulness/"
+  ]
+ },
+ "lao-tse-yin-yang": {
+  "titulo": "El yin y el yang",
+  "desc": "En el pensamiento taoísta, los opuestos no se excluyen: se contienen y se transforman uno en otro. El wu wei es actuar sin forzar, acompañando ese movimiento."
+ },
+ "patanjali-ocho-miembros": {
+  "titulo": "Los ocho miembros del yoga",
+  "desc": "Los Yoga Sutras describen un camino de ocho pasos: la ética, las posturas, el aliento, el retiro de los sentidos, la concentración, la meditación y la absorción, el samadhi.",
+  "enlace": [
+   "Practicar en el laboratorio de respiraciones",
+   "/laboratorio-de-respiraciones/"
+  ]
+ },
+ "suzuki-satori": {
+  "titulo": "El koan y el satori",
+  "desc": "En el zen, el koan es una pregunta que no se resuelve con lógica. La duda que genera puede abrir el satori: una comprensión súbita, más vivida que pensada.",
+  "enlace": [
+   "Leer sobre la meditación zen",
+   "/recursos/meditacion-zen-zazen/"
+  ]
  }
 }

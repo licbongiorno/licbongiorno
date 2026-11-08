@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 260">
+<rect x="20" y="40" width="200" height="70" rx="12" class="esc-relleno"/><text x="120" y="82" text-anchor="middle" font-size="17">la mente</text>
+<rect x="380" y="40" width="200" height="70" rx="12" class="esc-nodo"/><text x="480" y="82" text-anchor="middle" font-size="17">el cuerpo</text>
+<path class="esc-calido-linea trazo-fig" pathLength="1" d="M222 75 C 260 75, 270 170, 300 170 C 330 170, 340 75, 378 75"/>
+<circle cx="300" cy="170" r="12" class="esc-punto"/>
+<text x="120" y="140" text-anchor="middle" class="esc-sans">piensa</text>
+<text x="480" y="140" text-anchor="middle" class="esc-sans">ocupa lugar</text>
+<text x="300" y="220" text-anchor="middle" font-size="16" class="esc-acento">la glándula pineal</text>
+</svg>

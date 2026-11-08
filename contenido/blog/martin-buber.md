@@ -62,4 +62,4 @@ Laura Perls lo conoció en Fráncfort, y su filosofía del diálogo y del encuen
 - Buber, M. (1923). *Yo y tú*.
 - Kirschenbaum, H. y Henderson, V. L. (eds.) (1989). *Carl Rogers: Dialogues* (incluye el diálogo con Buber).
 
-Así termina la séptima tanda. Volvé a [Friedrich Nietzsche](/recursos/friedrich-nietzsche/), empezá desde [Platón](/recursos/platon/) o mirá a todos en el [mapa de la psicología](/recursos/mapa-de-la-psicologia/).
+Así termina la séptima tanda. Seguí con la octava, que empieza con [René Descartes](/recursos/rene-descartes/), volvé a [Friedrich Nietzsche](/recursos/friedrich-nietzsche/) o mirá a todos en el [mapa de la psicología](/recursos/mapa-de-la-psicologia/).

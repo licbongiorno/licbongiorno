@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 270">
+<circle cx="300" cy="130" r="96" class="esc-relleno"/>
+<path class="esc-calido" d="M300 34 A 48 48 0 0 1 300 130 A 48 48 0 0 0 300 226 A 96 96 0 0 1 300 34 Z"/>
+<circle cx="300" cy="82" r="11" class="esc-relleno"/><circle cx="300" cy="178" r="11" class="esc-calido"/>
+<path class="esc-linea trazo-fig" pathLength="1" d="M300 34 A 96 96 0 1 1 299 34"/>
+<text x="140" y="136" text-anchor="end" font-size="17">yin</text>
+<text x="460" y="136" font-size="17">yang</text>
+<text x="300" y="258" text-anchor="middle" class="esc-sans">wu wei: no forzar</text>
+</svg>
