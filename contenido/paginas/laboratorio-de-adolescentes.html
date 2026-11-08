@@ -1,0 +1,216 @@
+<!--{
+  "ruta": "/laboratorio-de-adolescentes/",
+  "titulo": "Laboratorio de adolescentes: para adolescentes y para adultos",
+  "descripcion": "Dos partes: para adolescentes, sobre cambios, identidad, pantallas y pedir ayuda; y para adultos, sobre escuchar, límites y conversaciones.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Adolescencia",
+      "/laboratorio-de-adolescentes/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>adolescentes</em>",
+  "bajada": "Una parte para quien tiene entre trece y dieciocho años, y otra para quien lo acompaña. Ejercicios cortos para entender lo que pasa y para hablarlo sin que sea una pelea.",
+  "respuesta": "El laboratorio de adolescentes tiene dos partes. Para adolescentes: cuatro ejercicios sobre los tres duelos de la adolescencia descritos por Arminda Aberastury y Mauricio Knobel, quién soy hoy, cómo me siento después de usar pantallas y cómo pedir ayuda. Para adultos: cuatro ejercicios para escuchar antes de corregir, poner límites claros, tener una conversación difícil y registrar lo que una misma siente.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de adolescentes",
+  "articulos": [
+    "padres-de-adolescentes",
+    "arminda-aberastury",
+    "erik-erikson"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Si sos adolescente, estas prácticas son para vos: son cortas, no hay respuestas correctas y podés saltear las que no te sirvan. Si sos adulto que acompaña, la segunda parte es para vos. En las dos, lo importante es hablar sin pelear.</p>
+        <p>Elegí tu parte. Podés usar la otra más adelante, si te sirve.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#duelos">Los tres duelos</a><a href="#quien">Quién soy hoy</a><a href="#pantallas">Pantallas y ánimo</a><a href="#pedir">Pedir ayuda</a><a href="#escuchar">Escuchar antes de corregir</a><a href="#limites">Límites claros</a><a href="#conversacion">Una conversación difícil</a><a href="#yo-adulto">Lo que me pasa a mí</a></nav>
+
+<h2 class="lab-grupo" id="para-adolescentes">Para adolescentes</h2>
+    <section class="lab-estacion revelar" id="duelos" aria-labelledby="t-duelos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-duelos">Los tres duelos</h2>
+      <p class="lab-estacion__bajada">Aberastury y Knobel describieron que en la adolescencia se hacen tres duelos: por el cuerpo de la infancia, por la identidad de la infancia y por los padres de la infancia. Es normal sentir pérdida y confusión. Leé sobre <a href="/recursos/arminda-aberastury/">Arminda Aberastury</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-duelos-adol" data-escena-sync="#pasos-duelos-adol">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-duelos-adol-t escena-duelos-adol-d"><title id="escena-duelos-adol-t">Tres despedidas</title>
+<rect data-paso="1" x="30" y="90" width="160" height="110" rx="12" class="esc-nodo"/><text data-paso="1" x="110" y="144" text-anchor="middle" font-size="16">el cuerpo</text><text data-paso="1" x="110" y="168" text-anchor="middle" class="esc-sans">de antes</text>
+<rect data-paso="2" x="220" y="90" width="160" height="110" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="144" text-anchor="middle" font-size="16">la identidad</text><text data-paso="2" x="300" y="168" text-anchor="middle" class="esc-sans">de antes</text>
+<rect data-paso="3" x="410" y="90" width="160" height="110" rx="12" class="esc-calido"/><text data-paso="3" x="490" y="144" text-anchor="middle" font-size="16" class="esc-acento">los padres</text><text data-paso="3" x="490" y="168" text-anchor="middle" class="esc-sans">de antes</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>El cuerpo de antes</li><li>La identidad de antes</li><li>Los padres de antes</li></ol><p class="escena__desc" id="escena-duelos-adol-d">Cada duelo es una despedida de algo que ya no es igual. Nombrarlo ayuda a entender el enojo, la tristeza o la confusión que aparecen.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-duelos-adol" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>El cuerpo.</strong> ¿Qué cambió en tu cuerpo que te sorprendió o te incomodó?</li><li><strong>La identidad.</strong> ¿Qué cosa de vos de antes ya no te representa, y cuál sí?</li><li><strong>Los padres.</strong> ¿Qué cosa de tus padres de antes extrañás, y cuál te cuesta ver ahora?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tres-duelos" data-lab-form-titulo="Los tres duelos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="td-cuerpo">Qué cambió en mi cuerpo</label><textarea class="lab-texto" id="td-cuerpo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="td-identidad">Qué de mí de antes ya no me representa</label><textarea class="lab-texto" id="td-identidad" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="td-padres">Qué extraño de mis padres de antes</label><textarea class="lab-texto" id="td-padres" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quien" aria-labelledby="t-quien">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quien">Quién soy hoy</h2>
+      <p class="lab-estacion__bajada">La identidad se construye probando cosas, equivocándose y volviendo a empezar. No tiene que estar definida a esta edad. Esta práctica te ayuda a ver lo que ya sabés de vos.</p>
+      <figure class="escena revelar" data-escena id="escena-quien" data-escena-sync="#pasos-quien">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-quien-t escena-quien-d"><title id="escena-quien-t">Tres preguntas</title>
+<circle data-paso="1" cx="130" cy="150" r="60" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="16">me gusta</text> <circle data-paso="2" cx="300" cy="150" r="60" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="16">valoro</text> <circle data-paso="3" cx="470" cy="150" r="60" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="16" class="esc-acento">pruebo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Intereses</li><li>Valores</li><li>Probar</li></ol><p class="escena__desc" id="escena-quien-d">Lo que ya sabés de vos está en lo que te gusta, lo que no tolerás y lo que querés probar. No hace falta tener todo resuelto.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-quien" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Intereses.</strong> Escribí tres cosas que te gustan, aunque no sean importantes para nadie.</li><li><strong>Valores.</strong> Escribí tres cosas que no tolerarías que te pasen o que hagas.</li><li><strong>Probar.</strong> Elegí una cosa nueva para probar esta semana, aunque sea chica.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="quien-soy" data-lab-form-titulo="Quién soy hoy" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qs-intereses">Tres cosas que me gustan</label><textarea class="lab-texto" id="qs-intereses" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qs-valores">Tres cosas que no tolero</label><textarea class="lab-texto" id="qs-valores" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qs-probar">Algo nuevo para probar esta semana</label><textarea class="lab-texto" id="qs-probar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="pantallas" aria-labelledby="t-pantallas">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-pantallas">Pantallas y ánimo</h2>
+      <p class="lab-estacion__bajada">Algunas veces, el celular nos deja con más energía; otras, más vacíos. Notar cómo te sentís antes y después ayuda a decidir cuándo usarlo y cuándo no.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Cómo te sentís después de usar el celular"><label class="opcion"><input type="radio" name="pantallas-animo" value="mejor" data-escena-paso="1" checked><span>Mejor</span></label><label class="opcion"><input type="radio" name="pantallas-animo" value="igual" data-escena-paso="2"><span>Igual</span></label><label class="opcion"><input type="radio" name="pantallas-animo" value="peor" data-escena-paso="3"><span>Peor</span></label></div>
+        <div class="lab-panel" data-lab-panel="mejor"><p>Bien. Anotá qué hiciste: si conectaste con alguien, si aprendiste algo, si te reíste. Eso es lo que te suma.</p></div><div class="lab-panel" data-lab-panel="igual" hidden><p>Ni mejor ni peor. Vale la pena probar un rato sin pantallas y ver si cambia algo.</p></div><div class="lab-panel" data-lab-panel="peor" hidden><p>Eso también es información. Mirá qué app o qué momento del día te deja así, y probá cambiarlo unos días.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-pantallas" data-escena-radios="pantallas-animo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-pantallas-t escena-pantallas-d"><title id="escena-pantallas-t">Cómo quedo después</title>
+<circle data-paso="1" cx="120" cy="150" r="60" class="esc-nodo"/><text data-paso="1" x="120" y="156" text-anchor="middle" font-size="16">mejor</text>
+<circle data-paso="2" cx="300" cy="150" r="60" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="16">igual</text>
+<circle data-paso="3" cx="480" cy="150" r="60" class="esc-calido"/><text data-paso="3" x="480" y="156" text-anchor="middle" font-size="16" class="esc-acento">peor</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Mejor</li><li>Igual</li><li>Peor</li></ol><p class="escena__desc" id="escena-pantallas-d">No hay una respuesta correcta. Lo importante es notar el patrón y decidir con esa información.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pantallas-y-animo" data-lab-form-titulo="Pantallas y ánimo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-app">Qué app o momento me dejó así</label><input class="lab-campo" id="pa-app" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-cambio">Qué voy a probar cambiar esta semana</label><textarea class="lab-texto" id="pa-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="pedir" aria-labelledby="t-pedir">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-pedir">Pedir ayuda</h2>
+      <p class="lab-estacion__bajada">Pedir ayuda es una forma de cuidarte, no de fallar. Podés empezar con una persona de confianza, con una frase simple y sin tener que explicarlo todo.</p>
+      <figure class="escena revelar" data-escena id="escena-pedir" data-escena-sync="#pasos-pedir">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-pedir-t escena-pedir-d"><title id="escena-pedir-t">Pedir con una frase</title>
+<circle data-paso="1" cx="130" cy="150" r="60" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="16">alguien</text><text data-paso="1" x="130" y="176" text-anchor="middle" class="esc-sans">de confianza</text> <rect data-paso="2" x="230" y="120" width="140" height="60" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">una frase</text> <path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M400 150 H 480"/><text data-paso="3" x="520" y="156" text-anchor="middle" font-size="16" class="esc-acento">hablo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>A quién</li><li>Qué decir</li><li>Cuándo</li></ol><p class="escena__desc" id="escena-pedir-d">Una frase simple alcanza para empezar. No hace falta contar todo de una vez.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-pedir" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>A quién.</strong> Pensá en una persona de confianza: un familiar, un amigo, alguien del colegio.</li><li><strong>Qué decir.</strong> Una frase simple: «Estoy pasando por algo y quiero contarte, ¿tenés un rato?».</li><li><strong>Cuándo.</strong> Elegí un momento tranquilo para decirlo.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pedir-ayuda" data-lab-form-titulo="Pedir ayuda" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pe-quien">Una persona de confianza</label><input class="lab-campo" id="pe-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pe-mensaje">El mensaje que le voy a mandar</label><textarea class="lab-texto" id="pe-mensaje" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+<h2 class="lab-grupo" id="para-adultos">Para adultos que acompañan</h2>
+    <section class="lab-estacion revelar" id="escuchar" aria-labelledby="t-escuchar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-escuchar">Escuchar antes de corregir</h2>
+      <p class="lab-estacion__bajada">Cuando un adolescente cuenta algo, la reacción más común es corregir o aconsejar. Escuchar primero, sin interrumpir, muchas veces abre la conversación. Leé sobre <a href="/recursos/padres-de-adolescentes/">los padres de adolescentes</a>.</p>
+      <div class="lab-tarjeta" id="pasos-escuchar-adol" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Preguntar.</strong> «¿Qué pasó?» o «¿cómo fue?». Sin juzgar lo que responde.</li><li><strong>Escuchar.</strong> Repetí lo que entendiste con sus palabras, para que se sienta escuchado.</li><li><strong>Después, hablar.</strong> Recién entonces, preguntá qué necesita de vos.</li></ol>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-escuchar-adol" data-escena-sync="#pasos-escuchar-adol">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-escuchar-adol-t escena-escuchar-adol-d"><title id="escena-escuchar-adol-t">Primero escuchar</title>
+<circle data-paso="1" cx="130" cy="150" r="60" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="16">pregunto</text>
+<circle data-paso="2" cx="300" cy="150" r="60" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="16">escucho</text>
+<circle data-paso="3" cx="470" cy="150" r="60" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="16" class="esc-acento">después, hablo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Pregunto</li><li>Escucho</li><li>Después, hablo</li></ol><p class="escena__desc" id="escena-escuchar-adol-d">Escuchar sin corregir le da al adolescente la sensación de ser entendido. Eso hace más probable que vuelva a contar.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="escuchar-adolescente" data-lab-form-titulo="Escuchar antes de corregir" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ea-pregunta">Una pregunta abierta que hice</label><textarea class="lab-texto" id="ea-pregunta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ea-entendi">Lo que entendí de lo que me contó</label><textarea class="lab-texto" id="ea-entendi" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="limites" aria-labelledby="t-limites">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-limites">Límites claros</h2>
+      <p class="lab-estacion__bajada">Los adolescentes necesitan límites, aunque los discutan. Pocos y claros funcionan mejor que muchos y cambiantes. Un límite se explica con una razón y se sostiene.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="limites-claros" data-lab-form-titulo="Límites claros" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lc-limite">Un límite que quiero sostener</label><p class="lab-paso__ayuda">Por ejemplo: «el celular se queda en la cocina a la noche».</p><textarea class="lab-texto" id="lc-limite" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lc-razon">La razón, en una frase</label><textarea class="lab-texto" id="lc-razon" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lc-acuerdo">Qué puede hacer el adolescente para negociarlo</label><textarea class="lab-texto" id="lc-acuerdo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="conversacion" aria-labelledby="t-conversacion">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-conversacion">Una conversación difícil</h2>
+      <p class="lab-estacion__bajada">Una conversación difícil va mejor con un inicio tranquilo, un tema concreto y un pedido claro. Evitar «siempre» y «nunca» ayuda a que no se convierta en una pelea.</p>
+      <figure class="escena revelar" data-escena id="escena-conversacion" data-escena-sync="#pasos-conversacion">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-conversacion-t escena-conversacion-d"><title id="escena-conversacion-t">Inicio, tema, pedido</title>
+<rect data-paso="1" x="30" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="105" y="156" text-anchor="middle" font-size="16">inicio</text> <rect data-paso="2" x="225" y="110" width="150" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="16">tema</text> <rect data-paso="3" x="420" y="110" width="150" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="495" y="156" text-anchor="middle" font-size="16" class="esc-acento">pedido</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Inicio tranquilo</li><li>El tema</li><li>El pedido</li></ol><p class="escena__desc" id="escena-conversacion-d">Empezar tranquilo, describir el hecho y pedir algo concreto hace que la conversación avance en vez de trabarse.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-conversacion" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Inicio.</strong> «Quiero hablar de algo que me preocupa. ¿Podemos hoy a la noche?».</li><li><strong>Tema.</strong> Describí el hecho, sin etiquetas.</li><li><strong>Pedido.</strong> Una cosa concreta que te gustaría que pase.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="conversacion-dificil" data-lab-form-titulo="Una conversación difícil" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cd-inicio">Cómo la empiezo</label><textarea class="lab-texto" id="cd-inicio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cd-tema">El tema, descrito sin etiquetas</label><textarea class="lab-texto" id="cd-tema" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cd-pedido">El pedido concreto</label><textarea class="lab-texto" id="cd-pedido" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="yo-adulto" aria-labelledby="t-yo-adulto">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-yo-adulto">Lo que me pasa a mí</h2>
+      <p class="lab-estacion__bajada">Acompañar a un adolescente cansa y preocupa. Registrar tu propio cansancio o miedo te ayuda a no descargarlo en la conversación, y a pedir apoyo si lo necesitás.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-me-pasa" data-lab-form-titulo="Lo que me pasa a mí" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ym-cansancio">Qué me cansa o me preocupa de esta etapa</label><textarea class="lab-texto" id="ym-cansancio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ym-apoyo">A quién puedo recurrir para mí</label><textarea class="lab-texto" id="ym-apoyo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si alguien habla de no querer vivir, de lastimarse o de un riesgo inmediato, no esperes: llamá al 911, al Centro de Asistencia al Suicida, 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Si hay violencia en casa, llamá al 144. Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Aberastury, A. y Knobel, M. (1971). <em>La adolescencia normal: un enfoque psicoanalítico</em>.</li><li>Erikson, E. H. (1968). <em>Identidad, juventud y crisis</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

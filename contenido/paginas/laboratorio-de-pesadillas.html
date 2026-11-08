@@ -1,0 +1,153 @@
+<!--{
+  "ruta": "/laboratorio-de-pesadillas/",
+  "titulo": "Laboratorio de pesadillas y noche agitada",
+  "descripcion": "Ensayo en imaginación para pesadillas repetidas, anclaje al despertar, escribir la preocupación antes de dormir y cómo volver a dormir.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Pesadillas",
+      "/laboratorio-de-pesadillas/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>pesadillas y noche agitada</em>",
+  "bajada": "Despertarse con el corazón acelerado y el sueño todavía encima. Cuatro prácticas para las pesadillas que se repiten y para la noche que no termina de aflojar.",
+  "respuesta": "El laboratorio de pesadillas y noche agitada propone cuatro ejercicios: el ensayo en imaginación, basado en el estudio de Barry Krakow y su equipo (2001), para cambiar el final de una pesadilla repetida; un anclaje para volver al presente al despertar; un registro de la preocupación antes de dormir; y un recorrido para volver a dormir según lo que te pasa.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de pesadillas",
+  "articulos": [
+    "suenos-recurrentes",
+    "insomnio",
+    "pesadillas"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay pesadillas que vuelven noche tras noche, y el miedo a volver a soñarlas hace que la noche empiece tensa. Estas prácticas trabajan con eso: cambiar el final de lo que se repite, volver al cuarto al despertar y dejar la preocupación en un papel.</p>
+        <p>Si las pesadillas vienen de una experiencia traumática, conviene hacerlo con acompañamiento profesional.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#ensayo">Cambiar el final</a><a href="#anclaje">Volver al cuarto</a><a href="#preocupacion">Escribir antes de dormir</a><a href="#volver">Volver a dormir</a></nav>
+
+    <section class="lab-estacion revelar" id="ensayo" aria-labelledby="t-ensayo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-ensayo">Cambiar el final</h2>
+      <p class="lab-estacion__bajada">El ensayo en imaginación consiste en recordar una pesadilla repetida, cambiar un elemento del sueño y ensayar la versión nueva durante el día. En el estudio de Krakow y su equipo (2001, *JAMA*), con mujeres que sufrían pesadillas crónicas después de una agresión sexual, bastaron tres sesiones para reducirlas. Leé sobre <a href="/recursos/pesadillas/">las pesadillas</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-ensayo-sueno" data-escena-sync="#pasos-ensayo-sueno">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-ensayo-sueno-t escena-ensayo-sueno-d"><title id="escena-ensayo-sueno-t">Recordar, cambiar, ensayar</title>
+<rect data-paso="1" x="30" y="110" width="150" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="105" y="146" text-anchor="middle" font-size="16">recuerdo</text><text data-paso="1" x="105" y="172" text-anchor="middle" class="esc-sans">el sueño</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" marker-end="url(#pf-en)" d="M186 150 H 234"/><rect data-paso="2" x="238" y="110" width="124" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">cambio</text><text data-paso="2" x="300" y="172" text-anchor="middle" class="esc-sans">un elemento</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" marker-end="url(#pf-en)" d="M366 150 H 414"/><rect data-paso="3" x="418" y="110" width="150" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="493" y="146" text-anchor="middle" font-size="16" class="esc-acento">ensayo</text><text data-paso="3" x="493" y="172" text-anchor="middle" class="esc-sans">de día</text>
+<defs><marker id="pf-en" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="esc-punto"/></marker></defs>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Recuerdo el sueño</li><li>Cambio un elemento</li><li>Ensayo de día</li></ol><p class="escena__desc" id="escena-ensayo-sueno-d">La pesadilla se repite porque el cerebro la aprendió como guion. Cambiar un elemento y ensayarlo de día le da otro guion posible.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-ensayo-sueno" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Recordar.</strong> Escribí la pesadilla que más vuelve, sin entrar en los detalles más dolorosos.</li><li><strong>Cambiar.</strong> Elegí un elemento (el final, un personaje, el lugar) y escribí la versión nueva.</li><li><strong>Ensayar.</strong> Durante cinco minutos de día, imaginá la versión nueva con detalle, con los ojos cerrados o abiertos.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ensayo-pesadilla" data-lab-form-titulo="Cambiar el final" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ep-sueno">La pesadilla que más vuelve</label><textarea class="lab-texto" id="ep-sueno" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ep-cambio">El elemento que cambio y la versión nueva</label><textarea class="lab-texto" id="ep-cambio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ep-dia">Cuándo la ensayo de día y cómo me sentí</label><textarea class="lab-texto" id="ep-dia" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="anclaje" aria-labelledby="t-anclaje">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-anclaje">Volver al cuarto</h2>
+      <p class="lab-estacion__bajada">Al despertar de una pesadilla, el cuerpo sigue en alerta. Anclar la atención en lo que te rodea le avisa al cuerpo que ya no estás en el sueño. Podés combinarlo con la respiración del laboratorio de respiraciones.</p>
+      <figure class="escena revelar" data-escena id="escena-anclaje-sueno" data-escena-sync="#pasos-anclaje-sueno">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-anclaje-sueno-t escena-anclaje-sueno-d"><title id="escena-anclaje-sueno-t">Volver al presente</title>
+<circle data-paso="1" cx="120" cy="150" r="50" class="esc-nodo"/><text data-paso="1" x="120" y="156" text-anchor="middle" font-size="16">miro</text>
+<rect data-paso="2" x="230" y="110" width="140" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">nombro</text><text data-paso="2" x="300" y="172" text-anchor="middle" class="esc-sans">el cuarto</text>
+<path data-paso="3" class="esc-calido-linea trazo-escena" pathLength="1" d="M400 150 H 470"/><text data-paso="3" x="530" y="146" text-anchor="middle" font-size="16" class="esc-acento">pies</text><text data-paso="3" x="530" y="172" text-anchor="middle" class="esc-sans">en el piso</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Miro alrededor</li><li>Nombro el cuarto</li><li>Siento los pies</li></ol><p class="escena__desc" id="escena-anclaje-sueno-d">Mirar, nombrar y sentir el apoyo son tres formas de avisarle al cuerpo dónde estás. No hace falta que la pesadilla se vaya del todo para empezar.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-anclaje-sueno" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos"><li><strong>Mirar.</strong> Encendé una luz suave si podés. Mirá alrededor sin apuro: tres cosas que ves.</li><li><strong>Nombrar.</strong> Decí en voz baja dónde estás: «estoy en mi cuarto, es de noche».</li><li><strong>Sentir.</strong> Apoyá los pies en el piso y sentí el peso del cuerpo en la cama.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="anclaje" data-lab-form-titulo="Volver al cuarto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="an-cosas">Tres cosas que vi al despertar</label><textarea class="lab-texto" id="an-cosas" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="an-cuerpo">Qué sentí en el cuerpo después</label><textarea class="lab-texto" id="an-cuerpo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="preocupacion" aria-labelledby="t-preocupacion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-preocupacion">Escribir antes de dormir</h2>
+      <p class="lab-estacion__bajada">Escribir lo que da vueltas en la cabeza antes de dormir ayuda a separar lo que se puede hacer mañana de lo que solo se puede soltar. Es una práctica simple que reduce la activación nocturna.</p>
+      <figure class="escena revelar" data-escena id="escena-preocupacion" data-escena-sync="#pasos-preocupacion">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-preocupacion-t escena-preocupacion-d"><title id="escena-preocupacion-t">Del papel a la noche</title>
+<rect data-paso="1" x="30" y="110" width="160" height="80" rx="12" class="esc-nodo"/><text data-paso="1" x="110" y="146" text-anchor="middle" font-size="16">lo que da</text><text data-paso="1" x="110" y="172" text-anchor="middle" class="esc-sans">vueltas</text>
+<rect data-paso="2" x="220" y="110" width="160" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="300" y="146" text-anchor="middle" font-size="16">lo que hago</text><text data-paso="2" x="300" y="172" text-anchor="middle" class="esc-sans">mañana</text>
+<rect data-paso="3" x="410" y="110" width="160" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="490" y="146" text-anchor="middle" font-size="16" class="esc-acento">lo suelto</text><text data-paso="3" x="490" y="172" text-anchor="middle" class="esc-sans">esta noche</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Lo que da vueltas</li><li>Lo que hago mañana</li><li>Lo suelto esta noche</li></ol><p class="escena__desc" id="escena-preocupacion-d">Lo que se escribe deja de dar vueltas en la cabeza. Separar lo accionable de lo que no depende de una acción ayuda a soltarlo.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-preocupacion" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Vueltas.</strong> Escribí todo lo que te da vueltas, aunque sea desordenado.</li><li><strong>Mañana.</strong> Marcá lo que sí podés hacer mañana, con un paso concreto.</li><li><strong>Soltar.</strong> Lo que no depende de vos esta noche, escribilo y cerrá el papel.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="preocupacion-nocturna" data-lab-form-titulo="Escribir antes de dormir" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pn-vueltas">Lo que me da vueltas</label><textarea class="lab-texto" id="pn-vueltas" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pn-manana">Lo que puedo hacer mañana</label><textarea class="lab-texto" id="pn-manana" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pn-soltar">Lo que puedo soltar esta noche</label><textarea class="lab-texto" id="pn-soltar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="volver" aria-labelledby="t-volver">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-volver">Volver a dormir</h2>
+      <p class="lab-estacion__bajada">No siempre se duerme de nuevo enseguida. Lo que ayuda depende de lo que te pasa al despertar. Elegí la situación que más se parece a la tuya.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué te pasa al despertar"><label class="opcion"><input type="radio" name="noche" value="miedo" data-escena-paso="1" checked><span>Con miedo</span></label><label class="opcion"><input type="radio" name="noche" value="calor" data-escena-paso="2"><span>Con calor o inquietud</span></label><label class="opcion"><input type="radio" name="noche" value="pensamientos" data-escena-paso="3"><span>Con pensamientos</span></label></div>
+        <div class="lab-panel" data-lab-panel="miedo"><p>Anclá la atención en el cuarto y en la respiración lenta. Recordá que el sueño ya terminó y que estás a salvo en tu cama.</p></div><div class="lab-panel" data-lab-panel="calor" hidden><p>Destapate un poco, tomá agua y volvé a acostarte sin mirar el reloj. Si pasan veinte minutos, levantate un rato con luz baja.</p></div><div class="lab-panel" data-lab-panel="pensamientos" hidden><p>Escribí el pensamiento en el papel, con la frase «ahora lo dejo acá». Si vuelve, volvé a escribirlo y seguí con la respiración.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-volver" data-escena-radios="noche">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-volver-t escena-volver-d"><title id="escena-volver-t">Tres despertares</title>
+<circle data-paso="1" cx="130" cy="150" r="60" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="16">miedo</text>
+<circle data-paso="2" cx="300" cy="150" r="60" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="16">calor</text>
+<circle data-paso="3" cx="470" cy="150" r="60" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="16" class="esc-acento">pensamientos</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Con miedo</li><li>Con calor o inquietud</li><li>Con pensamientos</li></ol><p class="escena__desc" id="escena-volver-d">Cada despertar pide algo distinto. Identificarlo es el primer paso para volver a dormir sin pelearse con la noche.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="volver-a-dormir" data-lab-form-titulo="Volver a dormir" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vd-situacion">Qué me pasó al despertar</label><input class="lab-campo" id="vd-situacion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vd-hice">Qué hice y cómo me fue</label><textarea class="lab-texto" id="vd-hice" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si las pesadillas se relacionan con una experiencia de violencia o trauma, no tenés que trabajarlas sola. Podés llamar al 144 (violencia de género, las 24 horas), al 911 o al 135 (CABA y GBA) y al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Krakow, B. y otros (2001). «Imagery rehearsal therapy for chronic nightmares in sexual assault survivors with posttraumatic stress disorder». <em>JAMA</em>, 286(5).</li><li>Morin, C. M. y Espie, C. A. (2003). <em>Insomnia: A Clinical Guide to Assessment and Treatment</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

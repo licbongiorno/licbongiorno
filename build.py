@@ -540,6 +540,12 @@ LABORATORIOS = [
      "descripcion": "Las tres fases de una transición, lo que termina y lo que empieza, un ritual de pasaje y el duelo migratorio."},
     {"titulo": "Laboratorio de aceptación y compromiso", "ruta": "/laboratorio-act/", "tipo": "ACT",
      "descripcion": "Tomar distancia de un pensamiento, hojas en el río, soltar la cuerda, la matriz ACT y acciones comprometidas."},
+    {"titulo": "Laboratorio de pesadillas y noche agitada", "ruta": "/laboratorio-de-pesadillas/", "tipo": "Sueño",
+     "descripcion": "Cambiar el final de una pesadilla repetida, volver al cuarto al despertar, escribir la preocupación y volver a dormir."},
+    {"titulo": "Laboratorio de pareja", "ruta": "/laboratorio-de-pareja/", "tipo": "Pareja",
+     "descripcion": "Una pausa antes de discutir, reparar después de un conflicto, pasar de los celos a un pedido claro y un acuerdo chico."},
+    {"titulo": "Laboratorio de adolescentes", "ruta": "/laboratorio-de-adolescentes/", "tipo": "Adolescencia",
+     "descripcion": "Dos partes: para adolescentes, sobre cambios, identidad, pantallas y pedir ayuda; y para adultos, sobre escuchar y poner límites."},
     {"titulo": "Laboratorio de psicoanálisis en práctica", "ruta": "/laboratorio-de-psicoanalisis-en-practica/", "tipo": "Psicoanálisis",
      "descripcion": "Asociación libre, un objeto que consuela, recibir y nombrar lo confuso, y sentirse comprendido: Freud, Winnicott, Bion y Kohut."},
     {"titulo": "Laboratorio de relaciones y poder personal", "ruta": "/laboratorio-de-relaciones-y-poder-personal/", "tipo": "Relaciones",
@@ -589,6 +595,7 @@ TEMAS_LAB = {
     "/laboratorio-de-psicoanalisis-en-practica/": "Psicología en práctica", "/laboratorio-de-relaciones-y-poder-personal/": "Psicología en práctica",
     "/laboratorio-de-aprendizaje-y-habito/": "Psicología en práctica", "/laboratorio-del-desarrollo-y-el-apego/": "Psicología en práctica",
     "/laboratorio-de-transacciones-y-estados-del-yo/": "Psicología en práctica", "/laboratorio-de-la-psique-y-la-imagen/": "Psicología en práctica",
+    "/laboratorio-de-pesadillas/": "Emociones", "/laboratorio-de-pareja/": "Vínculos", "/laboratorio-de-adolescentes/": "Vínculos",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica", "Psicología en práctica"]
 

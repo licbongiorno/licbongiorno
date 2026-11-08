@@ -77,6 +77,8 @@ Según Aberastury y Knobel, el adolescente elabora tres duelos: por el cuerpo in
 
 Con pocas reglas claras, explicadas, sostenidas en el tiempo y acordadas entre los adultos. Los límites dan seguridad aunque se discutan.
 
+Para practicarlo, probá el [Laboratorio de adolescentes](/laboratorio-de-adolescentes/).
+
 ## Para seguir leyendo
 
 - Aberastury, A. y Knobel, M. (1971). *La adolescencia normal: un enfoque psicoanalítico*.

@@ -64,6 +64,8 @@ Es el término que usó Freud para describir la tendencia a repetir, sin darnos 
 
 Sí, aunque lleva tiempo. El primer paso es reconocerlo; después, comprender su origen y ensayar respuestas nuevas en los vínculos actuales.
 
+Para practicarlo, probá el [Laboratorio de pareja](/laboratorio-de-pareja/).
+
 ## Para seguir leyendo
 
 - Freud, S. (1914). *Recordar, repetir y reelaborar*. El texto donde Freud describe cómo repetimos en actos lo que no podemos recordar.

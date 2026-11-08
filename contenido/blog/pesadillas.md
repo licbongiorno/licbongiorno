@@ -73,6 +73,8 @@ Es una técnica para pesadillas recurrentes: se cambia el final del sueño y se 
 
 Para Jung, los sueños pueden mostrar aspectos de nosotros que no vemos de día. Una pesadilla puede leerse como un mensaje, además de tratarse como un síntoma.
 
+Para practicarlo, probá el [Laboratorio de pesadillas y noche agitada](/laboratorio-de-pesadillas/).
+
 ## Para seguir leyendo
 
 - Krakow, B. y otros (2001). «Imagery rehearsal therapy for chronic nightmares in sexual assault survivors with posttraumatic stress disorder». *JAMA*, 286(5).

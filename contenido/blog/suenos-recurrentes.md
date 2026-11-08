@@ -64,6 +64,8 @@ No necesariamente. Pueden ser incómodos, pero suelen señalar algo importante. 
 
 No hay una fórmula. Registrarlo, explorar lo que te evoca y conversarlo en terapia ayuda a comprender lo que expresa, y muchas veces eso alcanza para que deje de repetirse.
 
+Para practicarlo, probá el [Laboratorio de pesadillas y noche agitada](/laboratorio-de-pesadillas/).
+
 ## Para seguir leyendo
 
 - Jung, C. G. y otros (1964). *El hombre y sus símbolos*.

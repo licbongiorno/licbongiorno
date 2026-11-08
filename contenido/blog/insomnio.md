@@ -66,6 +66,8 @@ Pueden ayudar por períodos cortos y siempre con indicación médica. Para el in
 
 La mayoría de los adultos necesita entre siete y nueve horas, pero varía de persona a persona. Lo importante es cómo te sentís durante el día.
 
+Para practicarlo, probá el [Laboratorio de pesadillas y noche agitada](/laboratorio-de-pesadillas/).
+
 ## Para seguir leyendo
 
 - Morin, C. M. y Espie, C. A. (2003). *Insomnia: A Clinical Guide to Assessment and Treatment*.

@@ -69,6 +69,8 @@ No necesariamente. Pueden aparecer en vínculos con amor, pero el control y la v
 
 Entendiendo qué despiertan los celos en tu historia, aprendiendo a nombrarlos sin acusar y trabajando la inseguridad que suele estar detrás. La terapia puede ayudar mucho.
 
+Para practicarlo, probá el [Laboratorio de pareja](/laboratorio-de-pareja/).
+
 ## Para seguir leyendo
 
 - Freud, S. (1922). «Sobre algunos mecanismos neuróticos en los celos, la paranoia y la homosexualidad».
