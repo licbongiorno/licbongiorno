@@ -59,6 +59,8 @@ Porque puso en el centro al individuo concreto, la libertad, la elección y la a
 
 Para practicarlo, probá el [Laboratorio de la libertad](/laboratorio-de-la-libertad/).
 
+Para practicarlo, probá el [Laboratorio de la angustia](/laboratorio-de-la-angustia/).
+
 ## Para seguir leyendo
 
 - Kierkegaard, S. (1843). *O lo uno o lo otro*.

@@ -540,6 +540,10 @@ LABORATORIOS = [
      "descripcion": "Las tres fases de una transición, lo que termina y lo que empieza, un ritual de pasaje y el duelo migratorio."},
     {"titulo": "Laboratorio de aceptación y compromiso", "ruta": "/laboratorio-act/", "tipo": "ACT",
      "descripcion": "Tomar distancia de un pensamiento, hojas en el río, soltar la cuerda, la matriz ACT y acciones comprometidas."},
+    {"titulo": "Laboratorio de la angustia", "ruta": "/laboratorio-de-la-angustia/", "tipo": "Existencia",
+     "descripcion": "Distinguir angustia y miedo, el vértigo de elegir, volver a lo cotidiano y sostenerse, con Kierkegaard, Heidegger y Yalom."},
+    {"titulo": "Laboratorio de virtudes", "ruta": "/laboratorio-de-virtudes/", "tipo": "Virtudes",
+     "descripcion": "El término medio entre dos extremos, la virtud como hábito, exceso o defecto y una actividad que vale por sí misma, con Aristóteles."},
     {"titulo": "Laboratorio de la vida que no es breve", "ruta": "/laboratorio-de-la-vida-que-no-es-breve/", "tipo": "Sentido",
      "descripcion": "Mirar en qué se va el tiempo, vivir un momento completo, pensar la finitud sin angustia y elegir lo que queremos dejar, con Séneca."},
     {"titulo": "Laboratorio de Séneca", "ruta": "/laboratorio-de-seneca/", "tipo": "Estoicismo",
@@ -616,6 +620,7 @@ TEMAS_LAB = {
     "/laboratorio-del-amor-como-arte/": "Vínculos", "/laboratorio-estoico/": "Filosofía en práctica", "/laboratorio-de-grupos/": "Vínculos",
     "/laboratorio-de-seneca/": "Filosofía en práctica", "/laboratorio-de-marco-aurelio/": "Filosofía en práctica",
     "/laboratorio-de-la-vida-que-no-es-breve/": "Filosofía en práctica",
+    "/laboratorio-de-la-angustia/": "Filosofía en práctica", "/laboratorio-de-virtudes/": "Filosofía en práctica",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica", "Psicología en práctica"]
 

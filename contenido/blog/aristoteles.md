@@ -58,6 +58,8 @@ Es la idea de que la virtud está entre dos extremos, uno por falta y otro por e
 
 Es el buen vivir o florecimiento humano: una vida plena de acuerdo con lo mejor de uno, más que un placer momentáneo.
 
+Para practicarlo, probá el [Laboratorio de virtudes](/laboratorio-de-virtudes/).
+
 ## Para seguir leyendo
 
 - Aristóteles. *Acerca del alma*.

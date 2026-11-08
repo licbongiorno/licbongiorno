@@ -61,6 +61,8 @@ Son los elementos que, según Yalom, hacen que un grupo terapéutico ayude, como
 
 Para practicarlo, probá el [Laboratorio de grupos](/laboratorio-de-grupos/).
 
+Para practicarlo, probá el [Laboratorio de la angustia](/laboratorio-de-la-angustia/).
+
 ## Para seguir leyendo
 
 - Yalom, I. D. (1970). *Teoría y práctica de la psicoterapia de grupo*.

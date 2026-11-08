@@ -1,0 +1,156 @@
+<!--{
+  "ruta": "/laboratorio-de-virtudes/",
+  "titulo": "Laboratorio de virtudes: Aristóteles en práctica",
+  "descripcion": "El término medio entre dos extremos, la virtud como hábito que se forma y la actividad que nos hace bien, con Aristóteles.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Virtudes",
+      "/laboratorio-de-virtudes/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>virtudes</em>",
+  "bajada": "Aristóteles pensó la virtud como un término medio entre dos extremos, que se aprende practicando. Cuatro prácticas para encontrar el punto medio y formar el hábito.",
+  "respuesta": "El laboratorio de virtudes propone cuatro ejercicios inspirados en Aristóteles: encontrar el término medio entre un exceso y un defecto, practicar la virtud como hábito, identificar en qué extremo estamos y reconocer una actividad que nos hace bien por sí misma.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de virtudes",
+  "articulos": [
+    "aristoteles",
+    "viktor-frankl",
+    "marco-aurelio"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Aristóteles no pensaba la virtud como una regla, sino como una manera de ser que se forma con la práctica. Como la valentía: ni huir de todo ni arriesgarse sin medida.</p>
+        <p>Los ejercicios son para pensar tu vida con ejemplos concretos. No son una prescripción ni reemplazan la terapia.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#medio">El término medio</a><a href="#habito">La virtud como hábito</a><a href="#extremos">Exceso o defecto</a><a href="#bien">Una actividad que me hace bien</a></nav>
+
+    <section class="lab-estacion revelar" id="medio" aria-labelledby="t-medio">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-medio">El término medio</h2>
+      <p class="lab-estacion__bajada">Aristóteles sostuvo que cada virtud está en un término medio entre dos extremos: la valentía, entre la cobardía y la temeridad. El medio se busca con la razón y con el contexto. Leé sobre <a href="/recursos/aristoteles/">Aristóteles</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-medio" data-escena-sync="#pasos-medio">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-medio-t escena-medio-d"><title id="escena-medio-t">Entre dos extremos</title>
+<line x1="60" y1="150" x2="540" y2="150" class="esc-suave"/>
+<circle data-paso="1" cx="90" cy="150" r="14" class="esc-nodo"/><text data-paso="1" x="90" y="120" text-anchor="middle" font-size="15">cobardía</text>
+<circle data-paso="2" cx="300" cy="150" r="20" class="esc-calido"/><text data-paso="2" x="300" y="120" text-anchor="middle" font-size="15" class="esc-acento">valentía</text>
+<circle data-paso="3" cx="510" cy="150" r="14" class="esc-nodo"/><text data-paso="3" x="510" y="120" text-anchor="middle" font-size="15">temeridad</text>
+<text x="300" y="262" text-anchor="middle" class="esc-sans">el medio se busca, no se impone</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Un extremo</li><li>El término medio</li><li>El otro extremo</li></ol><p class="escena__desc" id="escena-medio-d">La virtud no es el extremo ni la mitad mecánica: es el punto que la razón ubica según la situación.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-medio" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Virtud.</strong> Elegí una virtud que te cuesta: valentía, paciencia, generosidad.</li><li><strong>Extremos.</strong> ¿Qué exceso y qué defecto de esa virtud reconocés en vos?</li><li><strong>Medio.</strong> ¿Qué sería el punto medio en tu situación actual?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="medio-virtud" data-lab-form-titulo="El término medio" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mv-virtud">La virtud que elegí</label><input class="lab-campo" id="mv-virtud" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mv-exceso">El exceso que reconozco</label><textarea class="lab-texto" id="mv-exceso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mv-defecto">El defecto que reconozco</label><textarea class="lab-texto" id="mv-defecto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mv-medio">El punto medio en mi situación</label><textarea class="lab-texto" id="mv-medio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="habito" aria-labelledby="t-habito">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-habito">La virtud como hábito</h2>
+      <p class="lab-estacion__bajada">Para Aristóteles nos hacemos justos practicando la justicia, y valientes practicando la valentía. La virtud es un hábito que se forma con actos repetidos. Leé sobre <a href="/recursos/aristoteles/">Aristóteles</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-habito-virtud" data-escena-sync="#pasos-habito-virtud">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-habito-virtud-t escena-habito-virtud-d"><title id="escena-habito-virtud-t">De actos a hábitos</title>
+<circle data-paso="1" cx="110" cy="150" r="46" class="esc-suave"/><text data-paso="1" x="110" y="156" text-anchor="middle" font-size="15">un acto</text>
+<circle data-paso="2" cx="300" cy="150" r="46" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">otro acto</text>
+<circle data-paso="3" cx="490" cy="150" r="46" class="esc-calido"/><text data-paso="3" x="490" y="156" text-anchor="middle" font-size="15" class="esc-acento">un hábito</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Un acto</li><li>Otro acto</li><li>Un hábito</li></ol><p class="escena__desc" id="escena-habito-virtud-d">Los actos repetidos forman el carácter. Por eso una virtud se practica, no solo se piensa.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-habito-virtud" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Acto.</strong> Elegí una acción concreta que expresa la virtud que querés formar.</li><li><strong>Repetir.</strong> Hacela tres veces esta semana, en situaciones distintas.</li><li><strong>Registrar.</strong> ¿Te resulta más natural cada vez? Anotá qué cambió.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="habito-virtud" data-lab-form-titulo="La virtud como hábito" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hv-acto">La acción concreta que elegí</label><textarea class="lab-texto" id="hv-acto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hv-veces">Dónde y cuándo la hice</label><textarea class="lab-texto" id="hv-veces" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hv-cambio">Qué cambió al repetirla</label><textarea class="lab-texto" id="hv-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="extremos" aria-labelledby="t-extremos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-extremos">Exceso o defecto</h2>
+      <p class="lab-estacion__bajada">Según Aristóteles, a veces nos desviamos hacia el exceso y otras veces hacia el defecto. Reconocer hacia qué lado tendemos es el primer paso para encontrar el medio. Leé sobre <a href="/recursos/aristoteles/">Aristóteles</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Hacia qué lado tendés más"><label class="opcion"><input type="radio" name="lado" value="exceso" data-escena-paso="1" checked><span>Exceso</span></label><label class="opcion"><input type="radio" name="lado" value="defecto" data-escena-paso="2"><span>Defecto</span></label></div>
+        <div class="lab-panel" data-lab-panel="exceso"><p>Tendés a hacer de más: decir sí a todo, controlar, exigirte. Preguntate qué sacrificás por hacer de más.</p></div><div class="lab-panel" data-lab-panel="defecto" hidden><p>Tendés a hacer de menos: evitar, callar, postergar. Preguntate qué te estás perdiendo por no animarte.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-extremos-virtud" data-escena-radios="lado">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-extremos-virtud-t escena-extremos-virtud-d"><title id="escena-extremos-virtud-t">Hacia dónde me inclino</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">exceso</text>
+<circle data-paso="2" cx="470" cy="150" r="56" class="esc-relleno"/><text data-paso="2" x="470" y="156" text-anchor="middle" font-size="15">defecto</text>
+<circle data-paso="3" cx="300" cy="150" r="30" class="esc-calido"/><text data-paso="3" x="300" y="156" text-anchor="middle" font-size="15" class="esc-acento">medio</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Exceso</li><li>Defecto</li><li>El medio</li></ol><p class="escena__desc" id="escena-extremos-virtud-d">Reconocer hacia qué extremo nos inclinamos ayuda a corregir la dirección sin irnos al otro extremo.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="extremos-virtud" data-lab-form-titulo="Exceso o defecto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ex-inclino">Hacia qué lado me inclino en esta área</label><input class="lab-campo" id="ex-inclino" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ex-corregir">Un ajuste chico para acercarme al medio</label><textarea class="lab-texto" id="ex-corregir" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="bien" aria-labelledby="t-bien">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-bien">Una actividad que me hace bien</h2>
+      <p class="lab-estacion__bajada">Aristóteles llamó eudaimonía al buen vivir, que se alcanza en una actividad acorde con la virtud y que vale por sí misma. Buscar esas actividades, y no solo los resultados, es parte de la vida buena. Leé sobre <a href="/recursos/aristoteles/">Aristóteles</a>.</p>
+      <div class="lab-tarjeta" id="pasos-bien" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Elegir.</strong> Pensá en una actividad que hacés o podrías hacer por el gusto de hacerla.</li><li><strong>Notar.</strong> ¿Qué virtud pone en juego? ¿Te hace sentir más vos?</li><li><strong>Planear.</strong> ¿Cuándo podrías hacerla esta semana, sin esperar un resultado?</li></ol>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-bien" data-escena-sync="#pasos-bien">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-bien-t escena-bien-d"><title id="escena-bien-t">Una actividad que vale por sí misma</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">una actividad</text>
+<path data-paso="2" class="esc-calido-linea trazo-escena" pathLength="1" d="M190 150 H 240"/><circle data-paso="2" cx="300" cy="150" r="56" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">por sí misma</text>
+<circle data-paso="3" cx="470" cy="150" r="56" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">buen vivir</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Una actividad</li><li>Vale por sí misma</li><li>Buen vivir</li></ol><p class="escena__desc" id="escena-bien-d">Una actividad que expresa lo mejor de nosotros vale por sí misma, no solo por lo que resulta de ella.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="actividad-bien" data-lab-form-titulo="Una actividad que me hace bien" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ab-actividad">La actividad que elegí</label><textarea class="lab-texto" id="ab-actividad" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ab-virtud">Qué virtud pone en juego</label><textarea class="lab-texto" id="ab-virtud" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ab-cuando">Cuándo la haré esta semana</label><input class="lab-campo" id="ab-cuando" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si en tu vida hay conductas que te dañan, como el consumo de sustancias o la violencia, no las vas a corregir con un ejercicio. Pedí ayuda profesional. Si necesitás apoyo urgente, llamá al 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Aristóteles. <em>Ética a Nicómaco</em>.</li><li>Frankl, V. E. (1946). <em>El hombre en busca de sentido</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

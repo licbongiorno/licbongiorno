@@ -59,6 +59,8 @@ Sí. Se afilió al partido nazi en 1933 y fue rector de la Universidad de Fribur
 
 Para practicarlo, probá el [Laboratorio de la libertad](/laboratorio-de-la-libertad/).
 
+Para practicarlo, probá el [Laboratorio de la angustia](/laboratorio-de-la-angustia/).
+
 ## Para seguir leyendo
 
 - Heidegger, M. (1927). *Ser y tiempo*.

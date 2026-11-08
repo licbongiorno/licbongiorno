@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-de-la-angustia/",
+  "titulo": "Laboratorio de la angustia: Kierkegaard, Heidegger y Yalom",
+  "descripcion": "Distinguir angustia y miedo, usar la angustia como señal de elección y sostenerla con cuidado, con Kierkegaard, Heidegger y Yalom.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Existencia",
+      "/laboratorio-de-la-angustia/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de la <em>angustia</em>",
+  "bajada": "Kierkegaard la describió como el vértigo de la libertad; Heidegger, como el modo en que el mundo se vuelve extraño y nos devuelve a nosotros mismos. Cuatro prácticas para mirar la angustia sin huir de ella.",
+  "respuesta": "El laboratorio de la angustia propone cuatro ejercicios inspirados en Søren Kierkegaard, Martin Heidegger e Irvin Yalom: distinguir la angustia del miedo, reconocer la angustia como vértigo ante una decisión, volver a lo cotidiano cuando la angustia lo vuelve extraño y cuidarse mientras se la atraviesa.",
+  "scripts": [
+    "lab-base.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de la angustia",
+  "articulos": [
+    "soren-kierkegaard",
+    "martin-heidegger",
+    "irvin-yalom"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay una inquietud sin objeto: no sabemos qué nos pasa, pero algo pesa. Kierkegaard la llamó angustia y la relacionó con la libertad. Heidegger mostró que puede abrir el mundo a su totalidad. Yalom la trabajó como parte de la vida humana. Estos ejercicios la miran de cerca, sin apurarla.</p>
+        <p>Si la angustia es intensa, dura varios días o viene con pensamientos de no querer vivir, buscá acompañamiento profesional.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> La teoría se entiende mejor cuando la probás en tu vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola práctica y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#miedo">Miedo o angustia</a><a href="#vertigo">El vértigo de elegir</a><a href="#cotidiano">Volver a lo cotidiano</a><a href="#cuidado">Sostenerme</a></nav>
+
+    <section class="lab-estacion revelar" id="miedo" aria-labelledby="t-miedo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-miedo">Miedo o angustia</h2>
+      <p class="lab-estacion__bajada">Kierkegaard distinguió el miedo, que tiene un objeto concreto, de la angustia, que no lo tiene. Esa diferencia ayuda a entender lo que nos pasa. Leé sobre <a href="/recursos/soren-kierkegaard/">Søren Kierkegaard</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-miedo-angustia" data-escena-sync="#pasos-miedo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-miedo-angustia-t escena-miedo-angustia-d"><title id="escena-miedo-angustia-t">Algo concreto o nada concreto</title>
+<circle data-paso="1" cx="170" cy="150" r="60" class="esc-nodo"/><text data-paso="1" x="170" y="146" text-anchor="middle" font-size="16">miedo</text><text data-paso="1" x="170" y="172" text-anchor="middle" class="esc-sans">a algo</text>
+<circle data-paso="2" cx="430" cy="150" r="60" class="esc-suave" stroke-dasharray="6 6"/><text data-paso="2" x="430" y="146" text-anchor="middle" font-size="16">angustia</text><text data-paso="2" x="430" y="172" text-anchor="middle" class="esc-sans">sin objeto</text>
+<text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">mirar qué hay debajo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Miedo: algo concreto</li><li>Angustia: sin objeto</li><li>Mirar qué hay debajo</li></ol><p class="escena__desc" id="escena-miedo-angustia-d">El miedo tiene un objeto que podemos nombrar. La angustia muchas veces no. Reconocer la diferencia cambia la forma de atenderla.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-miedo" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Sentir.</strong> Pensá en la inquietud de hoy y notá dónde está en el cuerpo.</li><li><strong>Nombrar.</strong> ¿Hay algo concreto que temés? Si no hay, escribí «no sé a qué».</li><li><strong>Diferenciar.</strong> ¿Es miedo a algo o angustia sin objeto?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="miedo-angustia" data-lab-form-titulo="Miedo o angustia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ma-sentir">Dónde la siento en el cuerpo</label><input class="lab-campo" id="ma-sentir" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ma-objeto">Algo concreto que temo, si lo hay</label><textarea class="lab-texto" id="ma-objeto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ma-tipo">¿Es miedo o angustia? ¿Por qué?</label><textarea class="lab-texto" id="ma-tipo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vertigo" aria-labelledby="t-vertigo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-vertigo">El vértigo de elegir</h2>
+      <p class="lab-estacion__bajada">Kierkegaard llamó a la angustia el vértigo de la libertad: aparece cuando se puede elegir de muchas maneras. Mirar la decisión pendiente, y no solo la inquietud, ayuda a usarla como señal. Leé sobre <a href="/recursos/soren-kierkegaard/">Kierkegaard</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-vertigo" data-escena-sync="#pasos-vertigo">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-vertigo-t escena-vertigo-d"><title id="escena-vertigo-t">Muchos caminos</title>
+<circle data-paso="1" cx="300" cy="150" r="46" class="esc-calido"/><text data-paso="1" x="300" y="156" text-anchor="middle" font-size="15">decisión</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M254 150 L 120 90 M254 150 L 120 210 M346 150 L 480 90 M346 150 L 480 210"/>
+<text data-paso="3" x="300" y="268" text-anchor="middle" font-size="16" class="esc-acento">elegir, aunque dé vértigo</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Una decisión</li><li>Muchos caminos</li><li>Elegir, aunque dé vértigo</li></ol><p class="escena__desc" id="escena-vertigo-d">Cuando hay muchas posibilidades, la libertad puede dar vértigo. La angustia señala que hay algo para elegir.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-vertigo" data-lab-pasos>
+        <ol class="lab-pasos"><li><strong>Decisión.</strong> Elegí una decisión pendiente que te inquieta.</li><li><strong>Caminos.</strong> Escribí al menos tres caminos posibles, aunque alguno no te guste.</li><li><strong>Elegir.</strong> ¿Cuál elegirías si el vértigo no decidiera por vos?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="vertigo-eleccion" data-lab-form-titulo="El vértigo de elegir" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ve-decision">La decisión pendiente</label><textarea class="lab-texto" id="ve-decision" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ve-caminos">Tres caminos posibles</label><textarea class="lab-texto" id="ve-caminos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ve-elegiria">Lo que elegiría sin el vértigo</label><textarea class="lab-texto" id="ve-elegiria" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="cotidiano" aria-labelledby="t-cotidiano">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-cotidiano">Volver a lo cotidiano</h2>
+      <p class="lab-estacion__bajada">Heidegger describió que la angustia hace extraño el mundo, de modo que las cosas dejan de ser familiares. Volver a objetos y gestos cotidianos devuelve el sentido de estar en el mundo. Leé sobre <a href="/recursos/martin-heidegger/">Martin Heidegger</a>.</p>
+      <figure class="escena revelar" data-escena id="escena-cotidiano" data-escena-sync="#pasos-cotidiano">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-cotidiano-t escena-cotidiano-d"><title id="escena-cotidiano-t">De lo extraño a lo familiar</title>
+<rect data-paso="1" x="40" y="110" width="130" height="80" rx="12" class="esc-suave"/><text data-paso="1" x="105" y="156" text-anchor="middle" font-size="15">extraño</text>
+<path data-paso="2" class="esc-linea trazo-escena" pathLength="1" d="M176 150 H 230"/><rect data-paso="2" x="234" y="110" width="130" height="80" rx="12" class="esc-relleno"/><text data-paso="2" x="299" y="146" text-anchor="middle" font-size="15">un objeto</text><text data-paso="2" x="299" y="170" text-anchor="middle" class="esc-sans">de casa</text>
+<rect data-paso="3" x="430" y="110" width="130" height="80" rx="40" class="esc-calido"/><text data-paso="3" x="495" y="156" text-anchor="middle" font-size="15" class="esc-acento">familiar</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Todo extraño</li><li>Un objeto de casa</li><li>Vuelve a ser familiar</li></ol><p class="escena__desc" id="escena-cotidiano-d">Un objeto cotidiano, mirado con atención, vuelve a ser familiar y devuelve el suelo que la angustia había movido.</p></figcaption>
+</figure>
+      <div class="lab-tarjeta" id="pasos-cotidiano" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos"><li><strong>Elegir.</strong> Un objeto de tu casa, algo que usás todos los días.</li><li><strong>Mirar.</strong> Durante dos minutos, notá su forma, su uso, quién lo usa con vos.</li><li><strong>Volver.</strong> ¿Qué cambió en cómo te sentís frente a lo cotidiano?</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cotidiano-angustia" data-lab-form-titulo="Volver a lo cotidiano" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vc-objeto">El objeto que elegí</label><input class="lab-campo" id="vc-objeto" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vc-noto">Qué noté al mirarlo</label><textarea class="lab-texto" id="vc-noto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="cuidado" aria-labelledby="t-cuidado">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-cuidado">Sostenerme</h2>
+      <p class="lab-estacion__bajada">Yalom, en Mirar al sol, escribió sobre el miedo a la muerte y la fragilidad de la vida, y sobre la importancia de no atravesar esas preguntas en soledad. Sostenerse mientras se atraviesa la angustia es parte del trabajo. Leé sobre <a href="/recursos/irvin-yalom/">Irvin Yalom</a>.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué necesito ahora"><label class="opcion"><input type="radio" name="sosten" value="hablar" data-escena-paso="1" checked><span>Hablar con alguien</span></label><label class="opcion"><input type="radio" name="sosten" value="cuerpo" data-escena-paso="2"><span>Cuidar el cuerpo</span></label><label class="opcion"><input type="radio" name="sosten" value="pausa" data-escena-paso="3"><span>Una pausa</span></label></div>
+        <div class="lab-panel" data-lab-panel="hablar"><p>Contarle a alguien de confianza lo que sentís alivia la carga. Elegí a quién y cuándo.</p></div><div class="lab-panel" data-lab-panel="cuerpo" hidden><p>Dormir, comer, caminar: el cuerpo también sostiene la angustia. Elegí una sola cosa para hoy.</p></div><div class="lab-panel" data-lab-panel="pausa" hidden><p>Dejá de pensar por diez minutos. Respirá y volvé a lo que estás haciendo sin resolver nada.</p></div>
+      </div>
+      <figure class="escena revelar" data-escena id="escena-sosten" data-escena-radios="sosten">
+  <svg viewBox="40 10 560 290" role="img" aria-labelledby="escena-sosten-t escena-sosten-d"><title id="escena-sosten-t">Tres formas de sostenerse</title>
+<circle data-paso="1" cx="130" cy="150" r="56" class="esc-nodo"/><text data-paso="1" x="130" y="156" text-anchor="middle" font-size="15">hablar</text>
+<circle data-paso="2" cx="300" cy="150" r="56" class="esc-relleno"/><text data-paso="2" x="300" y="156" text-anchor="middle" font-size="15">cuerpo</text>
+<circle data-paso="3" cx="470" cy="150" r="56" class="esc-calido"/><text data-paso="3" x="470" y="156" text-anchor="middle" font-size="15" class="esc-acento">pausa</text>
+</svg>
+  <figcaption><ol class="escena__textos"><li>Hablar</li><li>Cuidar el cuerpo</li><li>Una pausa</li></ol><p class="escena__desc" id="escena-sosten-d">La angustia se atraviesa mejor acompañado, cuidando el cuerpo y con pausas. Ninguna de estas formas reemplaza una consulta cuando la angustia es intensa.</p></figcaption>
+</figure>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sostenerme" data-lab-form-titulo="Sostenerme" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-quien">Con quién puedo hablar esta semana</label><input class="lab-campo" id="so-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-cuerpo">Una cosa que hago hoy por mi cuerpo</label><textarea class="lab-texto" id="so-cuerpo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la angustia es intensa, no te deja dormir o aparecen pensamientos de no querer vivir, no te quedes solo con el ejercicio. Llamá al 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Kierkegaard, S. (1844). <em>El concepto de la angustia</em>.</li><li>Heidegger, M. (1927). <em>Ser y tiempo</em>.</li><li>Yalom, I. D. (2008). <em>Mirar al sol</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
