@@ -460,6 +460,7 @@ NAV = [
         ("Laboratorios", "/laboratorios/", "Prácticas interactivas para emociones, vínculos y más"),
         ("¿Por dónde empiezo?", "/por-donde-empezar/", "Un recorrido según lo que te pasa"),
         ("Tests", "/tests/", "Autoconocimiento, escalas breves y ejercicios"),
+        ("El mapa de lo que me habita", "/el-mapa-de-lo-que-me-habita/", "Un recorrido para pensarte en nueve estaciones"),
         ("Buscar", "/buscar/", "Artículos, laboratorios y preguntas"),
     ]),
     ("Empezar", None, [
@@ -589,8 +590,7 @@ LABORATORIOS = [
     {"titulo": "Laboratorio de razón y autonomía", "ruta": "/laboratorio-de-la-razon-y-la-autonomia/", "tipo": "Filosofía",
      "descripcion": "Kant, Epicteto, Schopenhauer y Nietzsche: separar lo recibido de lo agregado, fines y medios, y de «debo» a «quiero»."},
     {"titulo": "Laboratorio del encuentro", "ruta": "/laboratorio-del-encuentro/", "tipo": "Filosofía",
-     "descripcion": "Buber y Hegel para la vida con otros: Yo-Tú o Yo-Ello, el reconocimiento, dos verdades a la vez y escuchar de verdad."},
-]
+     "descripcion": "Buber y Hegel para la vida con otros: Yo-Tú o Yo-Ello, el reconocimiento, dos verdades a la vez y escuchar de verdad."},]
 
 TEMAS_LAB = {
     "/laboratorio-de-creatividad/": "Aprendizaje y cambio", "/laboratorio-de-comunicacion-no-violenta/": "Vínculos",
@@ -679,7 +679,7 @@ GUIA_TESTS = {
     "vinculos": [("Test de estilos de apego", "/test-de-estilos-de-apego/")],
     "estres": [("Test de afrontamiento del estrés", "/test-de-afrontamiento-del-estres/")],
     "autoestima": [("Escala de autoestima de Rosenberg", "/escala-de-autoestima-rosenberg/")],
-    "conocerme": [("Test de eneagrama", "/test-de-eneagrama/"), ("Test de mecanismos de defensa", "/test-de-mecanismos-de-defensa/"), ("Si no fueras una persona, ¿qué serías?", "/ejercicio-desiderativo/")],
+    "conocerme": [("El mapa de lo que me habita", "/el-mapa-de-lo-que-me-habita/"), ("Test de eneagrama", "/test-de-eneagrama/"), ("Test de mecanismos de defensa", "/test-de-mecanismos-de-defensa/"), ("Si no fueras una persona, ¿qué serías?", "/ejercicio-desiderativo/")],
     "emociones": [("Test de mecanismos de defensa", "/test-de-mecanismos-de-defensa/")],
     "crisis": [("Una persona bajo la lluvia", "/ejercicio-persona-bajo-la-lluvia/")],
 }
