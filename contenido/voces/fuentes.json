@@ -1,0 +1,283 @@
+{
+ "freud-unbehagen": {
+  "titulo": "Das Unbehagen in der Kultur",
+  "anio": 1930,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur",
+  "capitulos": "auto",
+  "dominio_publico": "Freud murió en 1939: dominio público (vida + 70 años).",
+  "titulo_es": "El malestar en la cultura",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE"
+ },
+ "freud-zukunft": {
+  "titulo": "Die Zukunft einer Illusion",
+  "anio": 1927,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-zukunft-einer-illusion",
+  "capitulos": "auto",
+  "dominio_publico": "Freud murió en 1939.",
+  "titulo_es": "El porvenir de una ilusión",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE"
+ },
+ "freud-ich-es": {
+  "titulo": "Das Ich und das Es",
+  "anio": 1923,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-ich-und-das-es",
+  "capitulos": "auto",
+  "dominio_publico": "Freud murió en 1939.",
+  "titulo_es": "El yo y el ello",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE"
+ },
+ "freud-vorlesungen": {
+  "titulo": "Vorlesungen zur Einführung in die Psychoanalyse",
+  "anio": 1917,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-vorlesungen-zur-einfuehrung-in-die-psychoanalyse",
+  "capitulos": "auto",
+  "dominio_publico": "Freud murió en 1939.",
+  "titulo_es": "Conferencias de introducción al psicoanálisis",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE"
+ },
+ "freud-neue-folge": {
+  "titulo": "Neue Folge der Vorlesungen zur Einführung in die Psychoanalyse",
+  "anio": 1933,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-neue-folge-der-vorlesungen-zur-einfuehrung-in-die-psychoanalyse",
+  "capitulos": "auto",
+  "dominio_publico": "Freud murió en 1939.",
+  "titulo_es": "Nuevas conferencias de introducción al psicoanálisis",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE"
+ },
+ "freud-traumdeutung": {
+  "titulo": "Die Traumdeutung",
+  "anio": 1900,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-traumdeutung",
+  "capitulos": "auto",
+  "dominio_publico": "Freud murió en 1939.",
+  "titulo_es": "La interpretación de los sueños",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE"
+ },
+ "freud-jenseits": {
+  "titulo": "Jenseits des Lustprinzips",
+  "anio": 1920,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-jenseits-des-lustprinzips",
+  "capitulos": "auto",
+  "dominio_publico": "Freud murió en 1939.",
+  "titulo_es": "Más allá del principio del placer",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE"
+ },
+ "freud-ueber-psa": {
+  "titulo": "Über Psychoanalyse",
+  "anio": 1910,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/ueber-psychoanalyse",
+  "capitulos": "auto",
+  "dominio_publico": "Freud murió en 1939.",
+  "titulo_es": "Sobre psicoanálisis (Cinco conferencias)",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE"
+ },
+ "seneca-epistulae": {
+  "titulo": "Epistulae morales ad Lucilium",
+  "anio": 65,
+  "idioma": "la",
+  "urls": [
+   "https://www.thelatinlibrary.com/sen/seneca.ep1.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep2.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep3.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep4.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep5.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep6.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep7.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep8.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep9.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep10.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep11-13.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep14-15.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep16.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep17-18.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep19.shtml",
+   "https://www.thelatinlibrary.com/sen/seneca.ep20.shtml"
+  ],
+  "dominio_publico": "Texto latino antiguo (siglo I).",
+  "localizador": "epistula",
+  "titulo_es": "Cartas a Lucilio",
+  "edicion": "Texto latino en The Latin Library",
+  "anio_texto": "c. 62–65"
+ },
+ "seneca-brevitate": {
+  "titulo": "De brevitate vitae",
+  "anio": 49,
+  "idioma": "la",
+  "urls": [
+   "https://www.thelatinlibrary.com/sen/sen.brevita.shtml"
+  ],
+  "dominio_publico": "Texto latino antiguo.",
+  "localizador": "tratado",
+  "titulo_es": "Sobre la brevedad de la vida",
+  "edicion": "Texto latino en The Latin Library",
+  "anio_texto": "c. 49"
+ },
+ "seneca-tranquillitate": {
+  "titulo": "De tranquillitate animi",
+  "anio": 60,
+  "idioma": "la",
+  "urls": [
+   "https://www.thelatinlibrary.com/sen/sen.tranq.shtml"
+  ],
+  "dominio_publico": "Texto latino antiguo.",
+  "localizador": "tratado",
+  "titulo_es": "Sobre la tranquilidad del ánimo",
+  "edicion": "Texto latino en The Latin Library",
+  "anio_texto": "c. 60"
+ },
+ "seneca-ira": {
+  "titulo": "De ira",
+  "anio": 41,
+  "idioma": "la",
+  "urls": [
+   "https://www.thelatinlibrary.com/sen/sen.ira1.shtml",
+   "https://www.thelatinlibrary.com/sen/sen.ira2.shtml",
+   "https://www.thelatinlibrary.com/sen/sen.ira3.shtml"
+  ],
+  "dominio_publico": "Texto latino antiguo.",
+  "localizador": "tratado",
+  "titulo_es": "Sobre la ira",
+  "edicion": "Texto latino en The Latin Library",
+  "anio_texto": "c. 41"
+ },
+ "seneca-providentia": {
+  "titulo": "De providentia",
+  "anio": 64,
+  "idioma": "la",
+  "urls": [
+   "https://www.thelatinlibrary.com/sen/sen.prov.shtml"
+  ],
+  "dominio_publico": "Texto latino antiguo.",
+  "localizador": "tratado",
+  "titulo_es": "Sobre la providencia",
+  "edicion": "Texto latino en The Latin Library",
+  "anio_texto": "c. 64"
+ },
+ "marco-long": {
+  "titulo": "Τὰ εἰς ἑαυτόν (Meditaciones), traducción inglesa de George Long (1862)",
+  "anio": 1862,
+  "idioma": "en",
+  "idioma_original": "grc",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/15877/pg15877.txt"
+  ],
+  "dominio_publico": "Original griego del siglo II; traducción de George Long (1820-1879) en dominio público.",
+  "localizador": "meditaciones",
+  "inicio_texto": 126700,
+  "titulo_es": "Meditaciones",
+  "edicion": "The Thoughts of the Emperor Marcus Aurelius Antoninus, trad. inglesa de George Long (1862), en Project Gutenberg",
+  "anio_texto": "c. 170–180"
+ },
+ "james-principles-1": {
+  "titulo": "The Principles of Psychology, vol. 1",
+  "anio": 1890,
+  "idioma": "en",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/57628/pg57628.txt"
+  ],
+  "dominio_publico": "James murió en 1910.",
+  "localizador": "capitulo-romano",
+  "titulo_es": "Principios de psicología, vol. 1",
+  "edicion": "Primera edición inglesa, en Project Gutenberg"
+ },
+ "james-principles-2": {
+  "titulo": "The Principles of Psychology, vol. 2",
+  "anio": 1890,
+  "idioma": "en",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/57634/pg57634.txt"
+  ],
+  "dominio_publico": "James murió en 1910.",
+  "localizador": "capitulo-romano",
+  "titulo_es": "Principios de psicología, vol. 2",
+  "edicion": "Primera edición inglesa, en Project Gutenberg"
+ },
+ "james-varieties": {
+  "titulo": "The Varieties of Religious Experience",
+  "anio": 1902,
+  "idioma": "en",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/621/pg621.txt"
+  ],
+  "dominio_publico": "James murió en 1910.",
+  "localizador": "capitulo-romano",
+  "titulo_es": "Las variedades de la experiencia religiosa",
+  "edicion": "Primera edición inglesa, en Project Gutenberg"
+ },
+ "james-pragmatism": {
+  "titulo": "Pragmatism",
+  "anio": 1907,
+  "idioma": "en",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/5116/pg5116.txt"
+  ],
+  "dominio_publico": "James murió en 1910.",
+  "localizador": "capitulo-romano",
+  "titulo_es": "Pragmatismo",
+  "edicion": "Primera edición inglesa, en Project Gutenberg"
+ },
+ "james-talks": {
+  "titulo": "Talks to Teachers on Psychology; and to Students on Some of Life's Ideals",
+  "anio": 1899,
+  "idioma": "en",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/16287/pg16287.txt"
+  ],
+  "dominio_publico": "James murió en 1910.",
+  "localizador": "titulos",
+  "titulos": [
+   "PSYCHOLOGY AND THE TEACHING ART",
+   "THE STREAM OF CONSCIOUSNESS",
+   "THE CHILD AS A BEHAVING ORGANISM",
+   "EDUCATION AND BEHAVIOR",
+   "THE NECESSITY OF REACTIONS",
+   "NATIVE AND ACQUIRED REACTIONS",
+   "WHAT THE NATIVE REACTIONS ARE",
+   "THE LAWS OF HABIT",
+   "THE ASSOCIATION OF IDEAS",
+   "INTEREST",
+   "ATTENTION",
+   "MEMORY",
+   "THE ACQUISITION OF IDEAS",
+   "APPERCEPTION",
+   "THE WILL",
+   "THE GOSPEL OF RELAXATION",
+   "ON A CERTAIN BLINDNESS IN HUMAN BEINGS",
+   "WHAT MAKES A LIFE SIGNIFICANT"
+  ],
+  "titulo_es": "Charlas a los maestros sobre psicología y a los estudiantes sobre algunos ideales de la vida",
+  "edicion": "Primera edición inglesa, en Project Gutenberg"
+ },
+ "james-will": {
+  "titulo": "The Will to Believe, and Other Essays in Popular Philosophy",
+  "anio": 1897,
+  "idioma": "en",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/26659/pg26659.txt"
+  ],
+  "dominio_publico": "James murió en 1910.",
+  "localizador": "titulos",
+  "titulos": [
+   "THE WILL TO BELIEVE",
+   "IS LIFE WORTH LIVING?",
+   "THE SENTIMENT OF RATIONALITY",
+   "REFLEX ACTION AND THEISM",
+   "THE DILEMMA OF DETERMINISM",
+   "THE MORAL PHILOSOPHER AND THE MORAL LIFE",
+   "GREAT MEN AND THEIR ENVIRONMENT",
+   "THE IMPORTANCE OF INDIVIDUALS",
+   "ON SOME HEGELISMS",
+   "WHAT PSYCHICAL RESEARCH HAS ACCOMPLISHED"
+  ],
+  "titulo_es": "La voluntad de creer y otros ensayos",
+  "edicion": "Primera edición inglesa, en Project Gutenberg"
+ }
+}

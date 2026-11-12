@@ -1,0 +1,286 @@
+{
+ "_categorias": {
+  "emociones": "Emociones",
+  "autoconocimiento": "Autoconocimiento",
+  "vinculos": "Vínculos",
+  "existencia": "Existencia",
+  "clinica": "Clínica y salud mental",
+  "sociedad": "Sociedad y cultura",
+  "espiritualidad": "Espiritualidad"
+ },
+ "temas": {
+  "sufrimiento": [
+   "Sufrimiento",
+   "clinica"
+  ],
+  "tiempo": [
+   "El tiempo",
+   "existencia"
+  ],
+  "conciencia": [
+   "Conciencia",
+   "autoconocimiento"
+  ],
+  "vinculos": [
+   "Vínculos",
+   "vinculos"
+  ],
+  "sentido-de-vida": [
+   "Sentido de la vida",
+   "existencia"
+  ],
+  "identidad": [
+   "Identidad",
+   "autoconocimiento"
+  ],
+  "muerte": [
+   "La muerte",
+   "existencia"
+  ],
+  "cambio": [
+   "Cambio",
+   "existencia"
+  ],
+  "presencia": [
+   "Presencia",
+   "espiritualidad"
+  ],
+  "habitos": [
+   "Hábitos",
+   "autoconocimiento"
+  ],
+  "aceptacion": [
+   "Aceptación",
+   "emociones"
+  ],
+  "autoconocimiento": [
+   "Autoconocimiento",
+   "autoconocimiento"
+  ],
+  "atencion": [
+   "Atención",
+   "autoconocimiento"
+  ],
+  "deseo": [
+   "Deseo",
+   "emociones"
+  ],
+  "inconsciente": [
+   "Lo inconsciente",
+   "clinica"
+  ],
+  "cultura": [
+   "Cultura",
+   "sociedad"
+  ],
+  "felicidad": [
+   "Felicidad",
+   "emociones"
+  ],
+  "responsabilidad": [
+   "Responsabilidad",
+   "existencia"
+  ],
+  "encuentro": [
+   "El encuentro",
+   "vinculos"
+  ],
+  "ira": [
+   "Ira y agresión",
+   "emociones"
+  ],
+  "verdad": [
+   "La verdad",
+   "existencia"
+  ],
+  "alegria": [
+   "Alegría",
+   "emociones"
+  ],
+  "educacion": [
+   "Aprender y enseñar",
+   "sociedad"
+  ],
+  "amor": [
+   "Amor",
+   "vinculos"
+  ],
+  "sociedad": [
+   "Sociedad",
+   "sociedad"
+  ],
+  "resiliencia": [
+   "Resiliencia",
+   "clinica"
+  ],
+  "trabajo": [
+   "Trabajo",
+   "sociedad"
+  ],
+  "regulacion-emocional": [
+   "Regulación emocional",
+   "emociones"
+  ],
+  "transformacion-personal": [
+   "Transformación personal",
+   "autoconocimiento"
+  ],
+  "angustia": [
+   "Angustia",
+   "emociones"
+  ],
+  "trascendencia": [
+   "Trascendencia",
+   "espiritualidad"
+  ],
+  "incertidumbre": [
+   "Incertidumbre",
+   "existencia"
+  ],
+  "desarrollo-humano": [
+   "Desarrollo humano",
+   "autoconocimiento"
+  ],
+  "culpa": [
+   "Culpa",
+   "emociones"
+  ],
+  "libertad": [
+   "Libertad",
+   "existencia"
+  ],
+  "miedo": [
+   "Miedo",
+   "emociones"
+  ],
+  "autenticidad": [
+   "Autenticidad",
+   "autoconocimiento"
+  ],
+  "terapia": [
+   "Terapia",
+   "clinica"
+  ],
+  "comunicacion": [
+   "Comunicación",
+   "vinculos"
+  ],
+  "amistad": [
+   "Amistad",
+   "vinculos"
+  ],
+  "compasion": [
+   "Compasión",
+   "vinculos"
+  ],
+  "cuerpo": [
+   "El cuerpo",
+   "autoconocimiento"
+  ],
+  "infancia": [
+   "Infancia",
+   "vinculos"
+  ],
+  "duelo": [
+   "Duelo",
+   "clinica"
+  ],
+  "perdida": [
+   "Pérdida",
+   "emociones"
+  ],
+  "poder": [
+   "Poder",
+   "sociedad"
+  ],
+  "conocimiento": [
+   "Conocimiento",
+   "existencia"
+  ],
+  "suenos": [
+   "Sueños",
+   "clinica"
+  ],
+  "voluntad": [
+   "Voluntad",
+   "autoconocimiento"
+  ],
+  "emociones": [
+   "Emociones",
+   "emociones"
+  ],
+  "silencio": [
+   "Silencio",
+   "espiritualidad"
+  ],
+  "naturaleza": [
+   "Naturaleza",
+   "espiritualidad"
+  ],
+  "existencia": [
+   "Existencia",
+   "existencia"
+  ],
+  "autoestima": [
+   "Autoestima",
+   "autoconocimiento"
+  ],
+  "esperanza": [
+   "Esperanza",
+   "emociones"
+  ],
+  "tristeza": [
+   "Tristeza",
+   "emociones"
+  ],
+  "gratitud": [
+   "Gratitud",
+   "emociones"
+  ],
+  "conexion": [
+   "Conexión",
+   "espiritualidad"
+  ],
+  "tecnologia": [
+   "Tecnología",
+   "sociedad"
+  ],
+  "familia": [
+   "Familia",
+   "vinculos"
+  ],
+  "memoria": [
+   "Memoria",
+   "clinica"
+  ],
+  "trauma": [
+   "Trauma",
+   "clinica"
+  ],
+  "repeticion": [
+   "Repetición",
+   "clinica"
+  ],
+  "empatia": [
+   "Empatía",
+   "vinculos"
+  ],
+  "salud-mental": [
+   "Salud mental",
+   "clinica"
+  ],
+  "humor": [
+   "Humor",
+   "emociones"
+  ],
+  "soledad": [
+   "Soledad",
+   "existencia"
+  ],
+  "creatividad": [
+   "Creatividad",
+   "autoconocimiento"
+  ]
+ },
+ "_nota": "Agregar un tema nuevo es opcional: si una cita usa un tema que no figura acá, el sitio lo muestra igual con un nombre derivado del slug y lo ubica en «Existencia»."
+}

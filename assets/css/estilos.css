@@ -1372,3 +1372,11 @@ main > .seccion ~ .seccion { content-visibility: auto; contain-intrinsic-size: a
 .pq-acceso strong { display: block; margin: .15rem 0 .35rem; font-family: var(--f-display); font-weight: 400; font-size: clamp(1.4rem, 1.15rem + 1vw, 1.9rem); color: #FBF8F3; }
 .pq-acceso p { margin: 0; max-width: 40rem; font-size: var(--t-sm); color: #DDE3D2; }
 .pq-acceso__cta { display: inline-flex; align-items: center; min-height: 48px; padding: .6rem 1.4rem; border-radius: 999px; background: var(--terracota); color: #26241F; font-family: var(--f-sans); font-size: .85rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+
+/* Recuadro de «Voces que nos habitan» dentro del artículo de un autor */
+.vo-caja { margin: 2.5rem 0; padding: 1.4rem 1.5rem; border-radius: var(--r-m); background: var(--salvia-bruma); border-left: 3px solid var(--salvia-profunda); }
+.vo-caja__marca { margin: 0 0 .6rem; font-family: var(--f-sans); font-size: .75rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--salvia-profunda); }
+.vo-caja blockquote { margin: 0; padding: 0; border: 0; }
+.vo-caja blockquote p { margin: 0; font-family: var(--f-display); font-size: 1.3rem; line-height: 1.4; color: var(--tinta); }
+.vo-caja__pie { margin: .6rem 0 .8rem; font-family: var(--f-sans); font-size: .8rem; color: var(--texto-2); }
+.vo-caja a { font-family: var(--f-sans); font-size: .9rem; font-weight: 600; }

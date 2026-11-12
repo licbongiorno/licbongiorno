@@ -247,6 +247,64 @@ for d in pq["controversias"]:
 if not (PUB / "assets/js/psicoquiz-banco.js").is_file():
     errores.append("psicoquiz: falta public/assets/js/psicoquiz-banco.js (corré build.py)")
 
+# Voces que nos habitan: solo citas verificadas, con fuente y temas, sin duplicados, de autores registrados
+VOC = RAIZ / "contenido/voces"
+if (VOC / "autores.json").is_file():
+    reg = json.loads((VOC / "autores.json").read_text(encoding="utf-8"))
+    fuentes_v = json.loads((VOC / "fuentes.json").read_text(encoding="utf-8"))
+    slugs_mapa = {a["slug"] for a in json.loads((RAIZ / "contenido/mapa_autores.json").read_text(encoding="utf-8"))["autores"]}
+    vistos, textos = set(), set()
+    for a in reg["autores"]:
+        if a["slug"] not in slugs_mapa:
+            errores.append(f"voces: el autor {a['slug']} no está en contenido/mapa_autores.json")
+        if a.get("estado") != "incorporado":
+            continue
+        for k in ("nombre", "nombre_completo", "bio", "disciplinas", "obras", "relacion"):
+            if not a.get(k):
+                errores.append(f"voces {a['slug']}: falta «{k}» en la ficha")
+        archivo = VOC / "citas" / f"{a['slug']}.json"
+        if not archivo.is_file():
+            errores.append(f"voces {a['slug']}: falta {archivo.relative_to(RAIZ)}")
+            continue
+        citas_v = json.loads(archivo.read_text(encoding="utf-8"))
+        publicadas = 0
+        for c in citas_v:
+            pref = f"voces {c.get('id')}:"
+            if c.get("id") in vistos:
+                errores.append(f"{pref} id repetido")
+            vistos.add(c.get("id"))
+            if c.get("fuente") not in fuentes_v:
+                errores.append(f"{pref} fuente desconocida {c.get('fuente')}")
+            if not c.get("temas"):
+                errores.append(f"{pref} sin temas")
+            if not c.get("original") or not c.get("traduccion"):
+                errores.append(f"{pref} falta el texto original o la traducción")
+            clave = re.sub(r"\W+", "", c.get("original", "").lower())
+            if clave in textos:
+                errores.append(f"{pref} cita duplicada")
+            textos.add(clave)
+            if c.get("publicada"):
+                if not c.get("verificada"):
+                    errores.append(f"{pref} publicada sin verificar (corré herramientas/verificar_voces.py)")
+                if c.get("tipo") in ("dudosa", "parafrasis"):
+                    errores.append(f"{pref} una cita {c['tipo']} no puede publicarse")
+                if c.get("verificada") and not c.get("url"):
+                    errores.append(f"{pref} verificada pero sin enlace a la fuente")
+                publicadas += 1
+        if publicadas < 50:
+            avisos.append(f"voces {a['slug']}: {publicadas} citas publicadas (el mínimo de la colección es 50)")
+        if not existe(f"/recursos/voces-que-nos-habitan/autores/{a['slug']}/"):
+            errores.append(f"voces {a['slug']}: no se generó la ficha del autor (corré build.py)")
+    if not (PUB / "assets/js/voces-datos.js").is_file():
+        errores.append("voces: falta public/assets/js/voces-datos.js (corré build.py)")
+    else:
+        datos_pub = (PUB / "assets/js/voces-datos.js").read_text(encoding="utf-8")
+        for a in reg["autores"]:
+            if a.get("estado") == "incorporado":
+                for c in json.loads((VOC / "citas" / f"{a['slug']}.json").read_text(encoding="utf-8")):
+                    if f'"i":"{c["id"]}"' in datos_pub and not (c.get("publicada") and c.get("verificada")):
+                        errores.append(f"voces {c['id']}: aparece en el sitio sin estar publicada y verificada")
+
 for a in avisos:
     print("AVISO ", a)
 for e in errores:
