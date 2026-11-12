@@ -589,7 +589,8 @@ LABORATORIOS = [
     {"titulo": "Laboratorio de razón y autonomía", "ruta": "/laboratorio-de-la-razon-y-la-autonomia/", "tipo": "Filosofía",
      "descripcion": "Kant, Epicteto, Schopenhauer y Nietzsche: separar lo recibido de lo agregado, fines y medios, y de «debo» a «quiero»."},
     {"titulo": "Laboratorio del encuentro", "ruta": "/laboratorio-del-encuentro/", "tipo": "Filosofía",
-     "descripcion": "Buber y Hegel para la vida con otros: Yo-Tú o Yo-Ello, el reconocimiento, dos verdades a la vez y escuchar de verdad."},
+     "descripcion": "Buber y Hegel para la vida con otros: Yo-Tú o Yo-Ello, el reconocimiento, dos verdades a la vez y escuchar de verdad."},    {"titulo": "El mapa de lo que me habita", "ruta": "/laboratorio-mapa-de-lo-que-me-habita/", "tipo": "Integrativo",
+     "descripcion": "Nueve estaciones desde Jung, el psicoanálisis, la Gestalt, la sistémica, ACT y TCC: tus palabras ordenadas en un mapa, sin puntajes."},
 ]
 
 TEMAS_LAB = {
@@ -621,6 +622,7 @@ TEMAS_LAB = {
     "/laboratorio-de-seneca/": "Filosofía en práctica", "/laboratorio-de-marco-aurelio/": "Filosofía en práctica",
     "/laboratorio-de-la-vida-que-no-es-breve/": "Filosofía en práctica",
     "/laboratorio-de-la-angustia/": "Filosofía en práctica", "/laboratorio-de-virtudes/": "Filosofía en práctica",
+    "/laboratorio-mapa-de-lo-que-me-habita/": "Enfoques",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica", "Psicología en práctica"]
 
@@ -659,7 +661,7 @@ GUIA = [
     ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["autoexigencia-y-perfeccionismo", "la-culpa", "psicologia-humanista-carl-rogers"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/"]),
     ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["insomnio", "pesadillas", "respiracion-y-emociones"], ["/laboratorio-de-descanso/", "/laboratorio-de-suenos/"]),
     ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "logoterapia-y-sentido"], ["/laboratorio-de-crisis-vitales/", "/laboratorio-de-sentido/", "/laboratorio-de-valores/"]),
-    ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-imaginacion-activa/", "/laboratorio-mito-personal/"]),
+    ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-mapa-de-lo-que-me-habita/", "/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-imaginacion-activa/", "/laboratorio-mito-personal/"]),
     ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "la-ventana-de-tolerancia"], ["/laboratorio-de-regulacion/", "/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
     ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["procrastinacion", "metahabilidades", "la-motivacion"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/"]),
     ("meditar", "Empezar a meditar o respirar mejor", "/terapia-junguiana/", ["que-es-la-meditacion", "cuando-meditar-no-es-recomendable"], ["/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/", "/laboratorio-de-respiraciones/"]),
