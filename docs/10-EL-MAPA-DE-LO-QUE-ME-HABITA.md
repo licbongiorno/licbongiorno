@@ -1,7 +1,7 @@
-# Laboratorio «El mapa de lo que me habita»: revisión epistemológica y matriz teórica
+# «El mapa de lo que me habita»: revisión epistemológica y matriz teórica
 
-Página: [`/laboratorio-mapa-de-lo-que-me-habita/`](../contenido/paginas/laboratorio-mapa-de-lo-que-me-habita.html) ·
-Lógica: [`assets/js/laboratorio-mapa.js`](../assets/js/laboratorio-mapa.js) · Estilos: final de `assets/css/interactivo.css`.
+Página: [`/el-mapa-de-lo-que-me-habita/`](../contenido/paginas/el-mapa-de-lo-que-me-habita.html) ·
+Lógica: [`assets/js/mapa-habita.js`](../assets/js/mapa-habita.js) · Estilos: final de `assets/css/interactivo.css`.
 
 > «No existe una única teoría capaz de explicar toda la complejidad de la experiencia humana. Este laboratorio reúne
 > diferentes perspectivas psicológicas para ofrecer herramientas de exploración y reflexión, sin establecer
@@ -27,14 +27,14 @@ Lógica: [`assets/js/laboratorio-mapa.js`](../assets/js/laboratorio-mapa.js) · 
 6. **Nada se calcula.** No hay puntajes, niveles, tipos, estilos de apego, perfiles ni índices. El mapa muestra solo
    qué regiones se exploraron; las nueve tienen el mismo tamaño.
 
-## 2. Distinciones que el laboratorio sostiene
+## 2. Distinciones que el recorrido sostiene
 
 | Se confunde a menudo | Distinción que se mantiene |
 |---|---|
 | Sombra = lo que uno oculta | En Jung, aspectos que el yo no reconoce como propios (incluye capacidades no vividas); se conocen sobre todo por proyección. No es lo malo ni lo escondido a sabiendas. |
 | Retroflexión = reprimir emociones | Gestalt: la energía se moviliza pero se vuelve hacia uno (reprocharse en vez de reclamar). La represión psicoanalítica mantiene representaciones fuera de la conciencia. |
 | Conflicto psíquico = dos deseos contradictorios | Psicoanálisis: oposición entre exigencias internas donde al menos un término es inconsciente. La contradicción consciente puede ser su cara visible. |
-| Mandato familiar = mandato inconsciente | Sistémica: reglas, roles y lealtades que pueden ser explícitos y conscientes. «Mandato» se usa en el laboratorio de forma descriptiva. |
+| Mandato familiar = mandato inconsciente | Sistémica: reglas, roles y lealtades que pueden ser explícitos y conscientes. «Mandato» se usa en el recorrido de forma descriptiva. |
 | Aceptación (ACT) = resignación | Disposición activa a tener experiencias internas difíciles al servicio de lo que importa; compatible con cambiar lo cambiable. |
 | Introyección | Psicoanálisis (Ferenczi, Klein): proceso fantaseado, base de la identificación. Gestalt (Perls): tragar normas sin masticarlas, interrupción del contacto. |
 | Proyección | Jung: proceso espontáneo de un contenido inconsciente percibido en otro. Psicoanálisis: defensa. Gestalt: atribuir al entorno lo propio. |
@@ -110,4 +110,16 @@ respuestas en este navegador» (al desmarcarlo se borran). Se puede descargar un
 ## 7. Pendientes sugeridos
 
 - Que Nicolás revise la redacción clínica de las preguntas y de los desplegables antes de difundirlo.
-- Evaluar una imagen para compartir (`assets/img/og/pagina-laboratorio-mapa-de-lo-que-me-habita.jpg`).
+- Evaluar una imagen para compartir (`assets/img/og/pagina-el-mapa-de-lo-que-me-habita.jpg`).
+
+## 8. Dónde va en el sitio
+
+No es un laboratorio: los laboratorios son de práctica (entrenar una habilidad, plan de 7 días) y este recurso es de
+exploración, sin puntaje ni interpretación automática. Por eso es un **ejercicio para pensarte**, con URL propia
+(`/el-mapa-de-lo-que-me-habita/`) y estos accesos:
+
+- `/tests/` → primero en «Ejercicios para pensarte».
+- `/recursos/` → bloque destacado.
+- Menú «Recursos» → entrada propia.
+- `/por-donde-empezar/` → sugerido en «Conocerme más».
+- `/enfoque/` → enlace desde «Psicoterapia integrativa».

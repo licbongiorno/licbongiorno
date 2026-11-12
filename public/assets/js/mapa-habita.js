@@ -244,7 +244,7 @@
       r.preguntas.forEach(function (p) { l.push("- " + p); });
       l.push("");
     }
-    l.push("Generado en el laboratorio «El mapa de lo que me habita». Nada de esto se envió a ningún servidor.");
+    l.push("Generado en «El mapa de lo que me habita», un recorrido para pensarte. Nada de esto se envió a ningún servidor.");
     return l.join("\n") + "\n";
   }
 
