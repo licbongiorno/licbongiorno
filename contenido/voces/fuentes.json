@@ -1129,5 +1129,61 @@
   "traductor": "F. Robbins y Smith Ely Jelliffe (1914)",
   "edicion": "Edición inglesa de 1914, digitalizada en Internet Archive",
   "dominio_publico": "Rank murió en 1939; Jelliffe, en 1945."
+ },
+ "ferenczi-genitaltheorie": {
+  "titulo": "Versuch einer Genitaltheorie",
+  "titulo_es": "Ensayo de una teoría de la genitalidad",
+  "anio": 1924,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/versucheinergeni00fere/versucheinergeni00fere_djvu.txt"
+  ],
+  "edicion": "Primera edición alemana (1924), digitalizada en Internet Archive",
+  "dominio_publico": "Ferenczi murió en 1933."
+ },
+ "ferenczi-bausteine": {
+  "titulo": "Bausteine zur Psychoanalyse",
+  "titulo_es": "Materiales para el psicoanálisis",
+  "anio": 1927,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/bausteinezurpsyc0000drsf/bausteinezurpsyc0000drsf_djvu.txt"
+  ],
+  "edicion": "Edición alemana (1927), digitalizada en Internet Archive",
+  "dominio_publico": "Ferenczi murió en 1933."
+ },
+ "wundt-ethik": {
+  "titulo": "Ethik. Eine Untersuchung der Tatsachen und Gesetze des sittlichen Lebens",
+  "titulo_es": "Ética. Una investigación de los hechos y leyes de la vida moral",
+  "anio": 1892,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/ethik01unkngoog/ethik01unkngoog_djvu.txt"
+  ],
+  "edicion": "Edición alemana (1892), digitalizada en Internet Archive",
+  "dominio_publico": "Wundt murió en 1920."
+ },
+ "husserl-investigaciones": {
+  "titulo": "Logische Untersuchungen",
+  "titulo_es": "Investigaciones lógicas",
+  "anio": 1900,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt"
+  ],
+  "edicion": "Primera edición alemana (1900), digitalizada en Internet Archive",
+  "dominio_publico": "Husserl murió en 1938."
+ },
+ "husserl-ideas": {
+  "titulo": "Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie",
+  "titulo_es": "Ideas para una fenomenología pura",
+  "anio": 1913,
+  "anio_texto": "1913 (edición de 1922)",
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/ideenzueinerrein00unse/ideenzueinerrein00unse_djvu.txt"
+  ],
+  "edicion": "Edición alemana (1922), digitalizada en Internet Archive",
+  "dominio_publico": "Husserl murió en 1938."
  }
 }

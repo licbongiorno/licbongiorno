@@ -26,6 +26,7 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
 | Buda | 52 | 52 | 1 | completo (≥ 50) |
 | Lao-tse | 52 | 52 | 1 | completo (≥ 50) |
 | Patanjali | 52 | 52 | 1 | completo (≥ 50) |
+| Sándor Ferenczi | 50 | 50 | 2 | completo (≥ 50) |
 
 ## Citas no verificadas
 
@@ -64,7 +65,6 @@ Ninguna.
 
 | Autor | Años | Motivo |
 |---|---|---|
-| Ferenczi | 1873–1933 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Klein | 1882–1960 | Obra protegida por derechos de autor hasta el 2031 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Anna Freud | 1895–1982 | Obra protegida por derechos de autor hasta el 2053 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Winnicott | 1896–1971 | Obra protegida por derechos de autor hasta el 2042 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
@@ -93,7 +93,6 @@ Ninguna.
 | Laura Perls | 1905–1990 | Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Berne | 1910–1970 | Obra protegida por derechos de autor hasta el 2041 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Naranjo | 1932–2019 | Obra protegida por derechos de autor hasta el 2090 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Pávlov | 1849–1936 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Watson | 1878–1958 | Obra protegida por derechos de autor hasta el 2029 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Skinner | 1904–1990 | Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Ellis | 1913–2007 | Obra protegida por derechos de autor hasta el 2078 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
@@ -109,13 +108,10 @@ Ninguna.
 | Watzlawick | 1921–2007 | Obra protegida por derechos de autor hasta el 2078 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Minuchin | 1921–2017 | Obra protegida por derechos de autor hasta el 2088 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Piaget | 1896–1980 | Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Vygotsky | 1896–1934 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Erikson | 1902–1994 | Obra protegida por derechos de autor hasta el 2065 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Bowlby | 1907–1990 | Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Ainsworth | 1913–1999 | Obra protegida por derechos de autor hasta el 2070 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Wundt | 1832–1920 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Rank | 1884–1939 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Sullivan | 1892–1949 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Reich | 1897–1957 | Obra protegida por derechos de autor hasta el 2028 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Langer | 1910–1987 | Obra protegida por derechos de autor hasta el 2058 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Binswanger | 1881–1966 | Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
@@ -132,6 +128,11 @@ Ninguna.
 | Wilber | n. 1949 | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Assagioli | 1888–1974 | Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Otto Rank | 1884–1939 | Colección incompleta: 18 citas verificadas de 50 (solo dos libros en inglés de dominio público accesibles). Faltan ediciones de sus obras en alemán. No publicado. |
+| Edmund Husserl |  | Filosofía fenomenológica. Solo tenemos textos alemanes con OCR de baja calidad (Ideas, 1922) y un texto de 1900 con frases verificables escasas. Pendiente: reunir 50 citas con transcripción limpia. |
+| Wilhelm Wundt | 1832–1920 | Psicología experimental y Völkerpsicología. El escaneo de la Ética (1892) tiene demasiado ruido de OCR para citar con seguridad. Pendiente: buscar una edición con texto limpio. |
+| Harry Stack Sullivan | 1892–1949 | Psiquiatría interpersonal. Sus libros en Internet Archive están en préstamo restringido, sin texto accesible. Pendiente. |
+| Iván Pávlov | 1849–1936 | Reflejos condicionados. Las lecciones rusas de 1927 están en préstamo restringido. Pendiente: buscar otra edición accesible. |
+| Lev Vygotski | 1896–1934 | Psicología del desarrollo. Las traducciones disponibles tienen derechos vigentes y no pude acceder a un original ruso de dominio público. Pendiente. |
 
 ## Fuentes
 
@@ -210,3 +211,8 @@ Ninguna.
 - `horney-nuevos-caminos` — *New Ways in Psychoanalysis* (1939), Primera edición (1939), digitalizada en Internet Archive <https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt> — Horney murió en 1952: dominio público en Argentina desde 2023.
 - `rank-trauma` — *The Trauma of Birth* (1929), Edición inglesa de 1929, digitalizada en Internet Archive <https://archive.org/download/in.ernet.dli.2015.221578/2015.221578.The-Trauma_djvu.txt> — Rank murió en 1939: dominio público.
 - `rank-heroe` — *The Myth of the Birth of the Hero* (1914), Edición inglesa de 1914, digitalizada en Internet Archive <https://archive.org/download/mythofbirthofher0000drot/mythofbirthofher0000drot_djvu.txt> — Rank murió en 1939; Jelliffe, en 1945.
+- `ferenczi-genitaltheorie` — *Versuch einer Genitaltheorie* (1924), Primera edición alemana (1924), digitalizada en Internet Archive <https://archive.org/download/versucheinergeni00fere/versucheinergeni00fere_djvu.txt> — Ferenczi murió en 1933.
+- `ferenczi-bausteine` — *Bausteine zur Psychoanalyse* (1927), Edición alemana (1927), digitalizada en Internet Archive <https://archive.org/download/bausteinezurpsyc0000drsf/bausteinezurpsyc0000drsf_djvu.txt> — Ferenczi murió en 1933.
+- `wundt-ethik` — *Ethik. Eine Untersuchung der Tatsachen und Gesetze des sittlichen Lebens* (1892), Edición alemana (1892), digitalizada en Internet Archive <https://archive.org/download/ethik01unkngoog/ethik01unkngoog_djvu.txt> — Wundt murió en 1920.
+- `husserl-investigaciones` — *Logische Untersuchungen* (1900), Primera edición alemana (1900), digitalizada en Internet Archive <https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt> — Husserl murió en 1938.
+- `husserl-ideas` — *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie* (1913), Edición alemana (1922), digitalizada en Internet Archive <https://archive.org/download/ideenzueinerrein00unse/ideenzueinerrein00unse_djvu.txt> — Husserl murió en 1938.
