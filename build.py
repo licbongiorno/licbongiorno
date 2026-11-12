@@ -1770,7 +1770,7 @@ def leer_pagina(f):
     return meta, txt[m.end():]
 
 
-VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/interactivo.css").read_bytes() + (RAIZ / "assets/css/figuras.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js")))).hexdigest()[:8]
+VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/interactivo.css").read_bytes() + (RAIZ / "assets/css/figuras.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js"))) + (RAIZ / "contenido/psicoquiz.json").read_bytes()).hexdigest()[:8]
 
 
 def escribir(ruta, contenido):
@@ -1796,6 +1796,10 @@ def construir():
     fig_pub = SALIDA / "assets/css/figuras.css"
     fig_pub.write_text(minificar_css(fig_pub.read_text(encoding="utf-8")), encoding="utf-8")
     (SALIDA / "assets/css/oscuro.plantilla.css").unlink()
+    # PsicoQuiz: el banco de preguntas vive en contenido/psicoquiz.json y se publica como script versionado.
+    banco = json.loads((RAIZ / "contenido/psicoquiz.json").read_text(encoding="utf-8"))
+    (SALIDA / "assets/js/psicoquiz-banco.js").write_text(
+        "window.PSICOQUIZ=" + json.dumps(banco, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + ";\n", encoding="utf-8")
     for extra in ("favicon.svg", "favicon.ico", "apple-touch-icon.png"):
         origen = RAIZ / "assets/img" / extra
         if origen.exists():

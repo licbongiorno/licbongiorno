@@ -185,6 +185,68 @@ for loc in re.findall(r"<loc>(.*?)</loc>", sm):
         if "noindex" in destino.read_text(encoding="utf-8")[:3000]:
             errores.append(f"sitemap: {loc} está marcada noindex")
 
+# PsicoQuiz: estructura del banco, respuestas válidas y enlaces reales
+pq = json.loads((RAIZ / "contenido/psicoquiz.json").read_text(encoding="utf-8"))
+cats_pq = {c["id"] for c in pq["categorias"]}
+temas_pq = {t["id"] for t in pq["temas"]}
+ids_pq, enunciados_pq = set(), set()
+for q in pq["preguntas"]:
+    pref = f"psicoquiz {q.get('id')}:"
+    for k in ("id", "categoria", "nivel", "tipo", "enunciado", "explicacion", "fuente", "conceptos"):
+        if not q.get(k):
+            errores.append(f"{pref} falta «{k}»")
+    if q["id"] in ids_pq:
+        errores.append(f"{pref} id repetido")
+    ids_pq.add(q["id"])
+    if q["enunciado"] in enunciados_pq:
+        errores.append(f"{pref} enunciado repetido")
+    enunciados_pq.add(q["enunciado"])
+    if q["categoria"] not in cats_pq:
+        errores.append(f"{pref} categoría desconocida {q['categoria']}")
+    if q["nivel"] not in (1, 2, 3, 4, 5):
+        errores.append(f"{pref} nivel inválido")
+    for t in q.get("temas", []):
+        if t not in temas_pq:
+            errores.append(f"{pref} tema desconocido {t}")
+    for m in q.get("modos", []):
+        if m not in ("quien", "error", "caso", "duelo"):
+            errores.append(f"{pref} modo desconocido {m}")
+    tipo, ops, c = q["tipo"], q.get("opciones", []), q.get("correcta")
+    if tipo in ("unica", "completar", "vf"):
+        if not isinstance(c, int) or not 0 <= c < len(ops) or len(ops) < 2:
+            errores.append(f"{pref} respuesta correcta inválida")
+    elif tipo == "multiple":
+        if not isinstance(c, list) or len(c) < 2 or any(not 0 <= x < len(ops) for x in c):
+            errores.append(f"{pref} respuestas correctas inválidas")
+    elif tipo == "relacionar":
+        if len(q.get("pares", [])) < 3 or len({p[1] for p in q["pares"]}) != len(q["pares"]):
+            errores.append(f"{pref} pares inválidos")
+    elif tipo == "ordenar":
+        if len(q.get("orden", [])) < 3:
+            errores.append(f"{pref} orden inválido")
+    else:
+        errores.append(f"{pref} tipo desconocido {tipo}")
+    if q.get("alternativas") and len(q["alternativas"]) != len(ops):
+        errores.append(f"{pref} las explicaciones por alternativa no coinciden con las opciones")
+    if q.get("enlace") and not existe(q["enlace"]["url"]):
+        errores.append(f"{pref} «Explorar este concepto» apunta a una página inexistente {q['enlace']['url']}")
+if len(pq["preguntas"]) < 100:
+    errores.append("psicoquiz: el banco tiene menos de 100 preguntas")
+for c in cats_pq:
+    if sum(1 for q in pq["preguntas"] if q["categoria"] == c) < 10:
+        errores.append(f"psicoquiz: la categoría {c} tiene menos de 10 preguntas")
+for n in (1, 2, 3, 4, 5):
+    if sum(1 for q in pq["preguntas"] if q["nivel"] == n) < 10:
+        errores.append(f"psicoquiz: el nivel {n} tiene menos de 10 preguntas")
+for m in ("quien", "error", "caso", "duelo"):
+    if sum(1 for q in pq["preguntas"] if m in q.get("modos", [])) < 10:
+        errores.append(f"psicoquiz: la modalidad {m} tiene menos de 10 preguntas")
+for d in pq["controversias"]:
+    if len(d.get("posiciones", [])) < 2 or not d.get("fuentes"):
+        errores.append(f"psicoquiz {d['id']}: controversia incompleta")
+if not (PUB / "assets/js/psicoquiz-banco.js").is_file():
+    errores.append("psicoquiz: falta public/assets/js/psicoquiz-banco.js (corré build.py)")
+
 for a in avisos:
     print("AVISO ", a)
 for e in errores:

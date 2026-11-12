@@ -1361,3 +1361,14 @@ main > .seccion ~ .seccion { content-visibility: auto; contain-intrinsic-size: a
 .mapa-nota { color: var(--texto-2); font-size: .92em; }
 .mapa-indice__datos { color: var(--texto-2); font-style: italic; }
 .mapa-caja .enlace-flecha { margin-top: .5rem; }
+
+/* Tarjeta de acceso a PsicoQuiz (página de Recursos) */
+.pq-acceso { display: grid; gap: 1.2rem 2rem; align-items: center; margin: -1.5rem 0 3rem; padding: clamp(1.25rem, 3vw, 2rem); border-radius: var(--r-l); background: var(--bosque); color: #EEF1E8; position: relative; overflow: hidden; text-decoration: none; transition: transform .3s var(--ease-out), box-shadow .3s; }
+@media (min-width: 760px) { .pq-acceso { grid-template-columns: auto 1fr auto; } }
+.pq-acceso:hover { transform: translateY(-3px); box-shadow: var(--sombra-alta); }
+.pq-acceso:focus-visible { outline: 3px solid var(--foco); outline-offset: 3px; }
+.pq-acceso svg { width: 84px; height: 84px; }
+.pq-acceso__marca { display: block; font-family: var(--f-sans); font-size: .72rem; font-weight: 600; letter-spacing: .28em; color: var(--terracota); }
+.pq-acceso strong { display: block; margin: .15rem 0 .35rem; font-family: var(--f-display); font-weight: 400; font-size: clamp(1.4rem, 1.15rem + 1vw, 1.9rem); color: #FBF8F3; }
+.pq-acceso p { margin: 0; max-width: 40rem; font-size: var(--t-sm); color: #DDE3D2; }
+.pq-acceso__cta { display: inline-flex; align-items: center; min-height: 48px; padding: .6rem 1.4rem; border-radius: 999px; background: var(--terracota); color: #26241F; font-family: var(--f-sans); font-size: .85rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }

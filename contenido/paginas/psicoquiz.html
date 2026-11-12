@@ -1,0 +1,147 @@
+<!--{
+  "ruta": "/recursos/psicoquiz/",
+  "titulo": "PsicoQuiz: el juego para aprender psicología jugando",
+  "descripcion": "Juego de preguntas sobre psicología: autores, escuelas, experimentos, neurociencias, clínica y filosofía. Cinco niveles, ocho modos y una explicación por respuesta.",
+  "prioridad": 0.7,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "PsicoQuiz",
+      "/recursos/psicoquiz/"
+    ]
+  ],
+  "antetitulo": "Recursos · Juego",
+  "h1": "PsicoQuiz: <em>el juego de la psicología</em>",
+  "bajada": "Jugar con las ideas. Descubrir la mente. Aprender psicología.",
+  "respuesta": "PsicoQuiz es un juego educativo de preguntas sobre psicología, con 166 preguntas revisadas en nueve categorías (historia, autores, escuelas, conceptos, experimentos, vida cotidiana, neurociencias, clínica y filosofía), cinco niveles de dificultad y ocho modos de juego, además de una sección de grandes controversias. Cada respuesta se acompaña de una explicación con su fuente. Es gratuito, no pide registro y guarda el progreso solo en el navegador.",
+  "scripts": [
+    "lab-base.js",
+    "psicoquiz-banco.js",
+    "psicoquiz.js"
+  ],
+  "wa_tema": "PsicoQuiz",
+  "articulos": [
+    "que-es-la-psicoterapia-integrativa",
+    "sigmund-freud",
+    "carl-gustav-jung",
+    "b-f-skinner"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="pq" data-pq>
+      <noscript><p class="lab-aviso">PsicoQuiz necesita JavaScript para funcionar. Más abajo podés leer cómo se juega y qué contenidos incluye.</p></noscript>
+
+      <section class="pq-pantalla pq-inicio" data-pq-pantalla="inicio" aria-labelledby="pq-t-inicio">
+        <div class="pq-hero">
+          <svg class="pq-hero__emblema" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="88" class="pq-e1"/><circle cx="100" cy="100" r="64" class="pq-e2"/><circle cx="100" cy="100" r="40" class="pq-e3"/><path d="M100 12 A88 88 0 0 1 188 100" class="pq-e4"/><text x="100" y="122" text-anchor="middle" class="pq-e5">?</text></svg>
+          <div>
+            <p class="pq-hero__marca">PSICOQUIZ</p>
+            <h2 id="pq-t-inicio" class="pq-hero__titulo">¿Cuánto sabés de psicología?</h2>
+            <p>Desde los primeros experimentos de laboratorio hasta las teorías contemporáneas. Desde Freud y Jung hasta las neurociencias, la psicología cognitiva y las terapias actuales.</p>
+            <p>Poné a prueba tus conocimientos, descubrí nuevas ideas y aprendé mientras jugás.</p>
+            <div class="pq-continuar" data-pq-continuar hidden><p></p><div class="lab-acciones"><button class="boton boton--chico" type="button" data-pq-retomar>Continuar la partida</button><button class="boton boton--secundario boton--chico" type="button" data-pq-descartar>Descartarla</button></div></div>
+            <fieldset class="pq-niveles"><legend class="lab-paso__titulo">Nivel</legend><div class="pq-niveles__op"><label class="pq-nivel"><input type="radio" name="pq-nivel" value="0" checked><span><strong>Mixto</strong><small>Todos los niveles</small></span></label><label class="pq-nivel"><input type="radio" name="pq-nivel" value="1"><span><strong>1. Curioso</strong><small>Inicial</small></span></label><label class="pq-nivel"><input type="radio" name="pq-nivel" value="2"><span><strong>2. Explorador</strong><small>Intermedio</small></span></label><label class="pq-nivel"><input type="radio" name="pq-nivel" value="3"><span><strong>3. Estudiante</strong><small>Avanzado</small></span></label><label class="pq-nivel"><input type="radio" name="pq-nivel" value="4"><span><strong>4. Especialista</strong><small>Experto</small></span></label><label class="pq-nivel"><input type="radio" name="pq-nivel" value="5"><span><strong>5. Maestro de la psicología</strong><small>Desafío máximo</small></span></label></div></fieldset>
+            <div class="lab-acciones"><button class="boton pq-boton-grande" type="button" data-pq-comenzar>Comenzar a jugar</button></div>
+          </div>
+        </div>
+
+        <h2 class="pq-subtitulo">Elegí cómo jugar</h2>
+        <div class="pq-modos"><button class="pq-modo" type="button" data-pq-modo="rapida"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3 5 14h6l-1 7 8-11h-6l1-7z"/></svg><span class="pq-modo__meta">10 preguntas</span><strong>Partida rápida</strong><span>Diez preguntas al azar, en el nivel que elijas.</span></button><button class="pq-modo" type="button" data-pq-modo="categoria"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="13.5" y="3.5" width="7" height="7" rx="2"/><rect x="3.5" y="13.5" width="7" height="7" rx="2"/><rect x="13.5" y="13.5" width="7" height="7" rx="2"/></svg><span class="pq-modo__meta">A tu elección</span><strong>Por categorías</strong><span>Elegí una categoría o un tema, como psicoanálisis, Jung o neurociencias.</span></button><button class="pq-modo" type="button" data-pq-modo="escalera"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20h4v-4h4v-4h4V8h3"/><path d="M17 4l3 3-3 3"/></svg><span class="pq-modo__meta">10 peldaños</span><strong>Escalera de conocimiento</strong><span>Empezás fácil y subís un peldaño con cada acierto, hasta el nivel máximo.</span></button><button class="pq-modo" type="button" data-pq-modo="reloj"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="7.5"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg><span class="pq-modo__meta">Con o sin tiempo</span><strong>Contra el reloj</strong><span>Treinta segundos por pregunta. La rapidez suma, pero no decide sola.</span></button><button class="pq-modo" type="button" data-pq-modo="quien"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6.5C5 5 6 4 7.5 4h9C18 4 19 5 19 6.5v6c0 1.5-1 2.5-2.5 2.5H11l-4 4v-4h0c-1.2 0-2-1-2-2.5z"/><path d="M9 9.5h.01M12 9.5h.01M15 9.5h.01"/></svg><span class="pq-modo__meta">Citas y paráfrasis</span><strong>¿Quién lo dijo?</strong><span>Citas verificadas y paráfrasis señaladas: ¿de qué autor son?</span></button><button class="pq-modo" type="button" data-pq-modo="error"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5M8.5 8.5l5 5M13.5 8.5l-5 5"/></svg><span class="pq-modo__meta">Mitos y confusiones</span><strong>Detectá el error</strong><span>Mitos y confusiones frecuentes sobre psicología: ¿qué está mal?</span></button><button class="pq-modo" type="button" data-pq-modo="caso"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h16v10H8l-4 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg><span class="pq-modo__meta">Situaciones</span><strong>Casos y situaciones</strong><span>Escenas ficticias para pensar con conceptos. Sin diagnosticar a nadie.</span></button><button class="pq-modo" type="button" data-pq-modo="duelo"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="12" r="5"/><circle cx="15.5" cy="12" r="5"/></svg><span class="pq-modo__meta">Comparaciones</span><strong>Duelo de escuelas</strong><span>Freud y Jung, ACT y TCC, Rogers y Skinner: diferencias reales, sin caricaturas.</span></button><button class="pq-modo" type="button" data-pq-modo="controversias"><svg class="pq-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M6 7h12M6 7l-3 7a3 3 0 0 0 6 0zM18 7l-3 7a3 3 0 0 0 6 0z"/></svg><span class="pq-modo__meta">Para pensar</span><strong>Grandes controversias</strong><span>Debates abiertos de la psicología, con posiciones, argumentos y fuentes. Sin puntaje.</span></button></div>
+        <label class="check pq-sin-tiempo"><input type="checkbox" data-pq-sin-tiempo> <span>Jugar «Contra el reloj» sin límite de tiempo</span></label>
+
+        <h2 class="pq-subtitulo" id="pq-categorias">O elegí una categoría</h2>
+        <div class="pq-cats"><button class="pq-cat" type="button" data-pq-cat="historia"><strong>Historia de la psicología</strong><span>De los orígenes filosóficos y el laboratorio de Leipzig a la revolución cognitiva y la psicología en Argentina y América Latina.</span><span class="pq-cat__n">16 preguntas</span></button><button class="pq-cat" type="button" data-pq-cat="autores"><strong>Grandes autores</strong><span>Aportes, obras y diferencias entre las figuras que construyeron la disciplina.</span><span class="pq-cat__n">27 preguntas</span></button><button class="pq-cat" type="button" data-pq-cat="escuelas"><strong>Escuelas y corrientes</strong><span>Del psicoanálisis y el conductismo a las terapias contextuales: fundamentos y diferencias.</span><span class="pq-cat__n">21 preguntas</span></button><button class="pq-cat" type="button" data-pq-cat="conceptos"><strong>Conceptos psicológicos</strong><span>Inconsciente, refuerzo, sombra, mentalización, diferenciación del self y más.</span><span class="pq-cat__n">21 preguntas</span></button><button class="pq-cat" type="button" data-pq-cat="experimentos"><strong>Experimentos e investigaciones</strong><span>Hallazgos, contexto y limitaciones de los estudios más citados, y los mitos que los rodean.</span><span class="pq-cat__n">18 preguntas</span></button><button class="pq-cat" type="button" data-pq-cat="cotidiana"><strong>Psicología en la vida cotidiana</strong><span>Situaciones ficticias para razonar con conceptos psicológicos, sin diagnosticar a nadie.</span><span class="pq-cat__n">13 preguntas</span></button><button class="pq-cat" type="button" data-pq-cat="neuro"><strong>Neurociencias</strong><span>Cerebro, memoria, sueño, emoción y plasticidad, sin neuromitos.</span><span class="pq-cat__n">16 preguntas</span></button><button class="pq-cat" type="button" data-pq-cat="clinica"><strong>Psicopatología y clínica</strong><span>Historia, diagnóstico, encuadre, alianza y los debates actuales de la salud mental.</span><span class="pq-cat__n">15 preguntas</span></button><button class="pq-cat" type="button" data-pq-cat="filosofia"><strong>Filosofía y psicología</strong><span>Las preguntas filosóficas sobre la mente, el yo, la libertad y el sentido que heredó la psicología.</span><span class="pq-cat__n">19 preguntas</span></button></div>
+        <p class="lab-paso__titulo pq-temas__t">Temas transversales</p>
+        <div class="pq-temas"><button class="mv-chip pq-tema" type="button" data-pq-tema="psicoanalisis">Psicoanálisis</button><button class="mv-chip pq-tema" type="button" data-pq-tema="jung">Psicología analítica (Jung)</button><button class="mv-chip pq-tema" type="button" data-pq-tema="conductismo">Conductismo</button><button class="mv-chip pq-tema" type="button" data-pq-tema="cognitivo">Psicología cognitiva y TCC</button><button class="mv-chip pq-tema" type="button" data-pq-tema="humanista">Humanismo y Gestalt</button><button class="mv-chip pq-tema" type="button" data-pq-tema="sistemica">Psicología sistémica</button><button class="mv-chip pq-tema" type="button" data-pq-tema="contextuales">Terapias contextuales</button><button class="mv-chip pq-tema" type="button" data-pq-tema="neuro">Neurociencias</button></div>
+
+        <section class="lab-tarjeta pq-progreso" aria-labelledby="pq-t-progreso">
+          <h2 id="pq-t-progreso" class="pq-subtitulo">Mi progreso</h2>
+          <div data-pq-progreso></div>
+          <p class="lab-nota">Se guarda solo en este navegador. No hay rankings ni cuentas.</p>
+          <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-pq-borrar>Borrar mi progreso</button></div>
+        </section>
+      </section>
+
+      <section class="pq-pantalla pq-juego" data-pq-pantalla="juego" hidden aria-label="Partida en curso">
+        <header class="pq-barra">
+          <div class="pq-barra__info"><span class="pq-barra__modo" data-pq-modo-nombre></span><span class="pq-badge" data-pq-nivel-badge></span></div>
+          <div class="pq-barra__datos">
+            <span class="pq-racha" data-pq-racha hidden></span>
+            <span class="pq-puntos"><span data-pq-puntos>0</span> pts<span class="pq-suma" data-pq-suma aria-hidden="true"></span></span>
+            <span class="pq-reloj" data-pq-reloj hidden><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="15.5" class="pq-reloj__fondo"/><circle cx="18" cy="18" r="15.5" pathLength="1" class="pq-reloj__arco" data-pq-reloj-arco/></svg><span data-pq-reloj-n></span></span>
+          </div>
+        </header>
+        <div class="pq-avance" data-pq-avance aria-hidden="true"></div>
+        <p class="visualmente-oculto" role="status" data-pq-anuncio></p>
+        <div class="pq-cuerpo">
+          <ol class="pq-escalera" data-pq-escalera hidden aria-label="Escalera de conocimiento"></ol>
+          <article class="pq-carta" data-pq-carta>
+            <p class="pq-carta__meta"><span data-pq-numero></span> · <span data-pq-categoria></span></p>
+            <p class="pq-cita" data-pq-cita hidden></p>
+            <h2 class="pq-enunciado" data-pq-enunciado tabindex="-1"></h2>
+            <p class="pq-consigna" data-pq-consigna></p>
+            <div class="pq-opciones" data-pq-opciones></div>
+            <p class="pq-pista" data-pq-pista-texto hidden></p>
+            <div class="lab-acciones pq-acciones">
+              <button class="boton boton--chico" type="button" data-pq-responder hidden>Responder</button>
+              <button class="boton boton--secundario boton--chico" type="button" data-pq-pista>Pista (la respuesta vale la mitad)</button>
+              <button class="boton boton--secundario boton--chico" type="button" data-pq-salir>Pausar y salir</button>
+            </div>
+          </article>
+          <section class="pq-explica" data-pq-explica hidden tabindex="-1" aria-live="polite"></section>
+        </div>
+      </section>
+
+      <section class="pq-pantalla pq-resultado" data-pq-pantalla="resultado" hidden aria-labelledby="pq-t-resultado">
+        <div class="pq-celebra" data-pq-celebra aria-hidden="true"></div>
+        <h2 id="pq-t-resultado" class="pq-resultado__titulo" tabindex="-1" data-pq-res-titulo></h2>
+        <p class="pq-resultado__frase" data-pq-res-frase></p>
+        <div class="pq-cifras" data-pq-cifras></div>
+        <div data-pq-res-detalle></div>
+        <p class="lab-nota">El puntaje refleja esta partida: no mide inteligencia, capacidad profesional ni conocimiento general de psicología.</p>
+        <div class="lab-acciones">
+          <button class="boton boton--chico" type="button" data-pq-otra>Volver a jugar</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-pq-cambiar>Cambiar de categoría</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-pq-subir hidden>Subir de nivel</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-pq-revisar>Revisar mis respuestas</button>
+        </div>
+        <div class="pq-revision" data-pq-revision hidden></div>
+      </section>
+
+      <section class="pq-pantalla pq-controversias" data-pq-pantalla="controversias" hidden aria-labelledby="pq-t-contro">
+        <h2 id="pq-t-contro" class="pq-subtitulo" tabindex="-1">Las grandes controversias de la psicología</h2>
+        <p class="lab-estacion__bajada">La psicología también es un campo de discusión científica y epistemológica. Acá no hay una respuesta correcta: elegí la posición que hoy te resulta más convincente y después mirá los argumentos, lo que sigue abierto y las fuentes.</p>
+        <div data-pq-contro></div>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-pq-volver>Volver al inicio</button></div>
+      </section>
+    </div>
+
+    <div class="prosa revelar pq-info">
+      <h2>Cómo se juega</h2>
+      <p>PsicoQuiz tiene 166 preguntas revisadas y ocho maneras de jugar. Después de cada respuesta, acertada o no, aparece una explicación: la respuesta correcta, la idea que hay detrás, el autor o la corriente, y la diferencia con conceptos parecidos cuando ayuda. El error también enseña.</p>
+      <ul>
+        <li><strong>Partida rápida.</strong> Diez preguntas al azar, en el nivel que elijas.</li><li><strong>Por categorías.</strong> Elegí una categoría o un tema, como psicoanálisis, Jung o neurociencias.</li><li><strong>Escalera de conocimiento.</strong> Empezás fácil y subís un peldaño con cada acierto, hasta el nivel máximo.</li><li><strong>Contra el reloj.</strong> Treinta segundos por pregunta. La rapidez suma, pero no decide sola.</li><li><strong>¿Quién lo dijo?.</strong> Citas verificadas y paráfrasis señaladas: ¿de qué autor son?</li><li><strong>Detectá el error.</strong> Mitos y confusiones frecuentes sobre psicología: ¿qué está mal?</li><li><strong>Casos y situaciones.</strong> Escenas ficticias para pensar con conceptos. Sin diagnosticar a nadie.</li><li><strong>Duelo de escuelas.</strong> Freud y Jung, ACT y TCC, Rogers y Skinner: diferencias reales, sin caricaturas.</li><li><strong>Grandes controversias.</strong> Debates abiertos de la psicología, con posiciones, argumentos y fuentes. Sin puntaje.</li>
+      </ul>
+      <p>Hay preguntas de opción múltiple, de verdadero o falso, de selección múltiple, para relacionar autores con conceptos, para ordenar acontecimientos y para completar afirmaciones.</p>
+      <h2>Cinco niveles</h2>
+      <ul>
+        <li><strong>1. Curioso</strong> (inicial): Conceptos fundamentales, autores conocidos y escuelas principales.</li><li><strong>2. Explorador</strong> (intermedio): Conceptos específicos, relaciones entre autores y teorías, historia y experimentos.</li><li><strong>3. Estudiante</strong> (avanzado): Diferencias conceptuales, comparación entre corrientes y lectura de situaciones.</li><li><strong>4. Especialista</strong> (experto): Debates teóricos, limitaciones metodológicas e historia de las ideas.</li><li><strong>5. Maestro de la psicología</strong> (desafío máximo): Revisiones de teorías, debates abiertos y razonamiento entre escuelas.</li>
+      </ul>
+      <h2>Categorías</h2>
+      <ul>
+        <li><strong>Historia de la psicología.</strong> De los orígenes filosóficos y el laboratorio de Leipzig a la revolución cognitiva y la psicología en Argentina y América Latina.</li><li><strong>Grandes autores.</strong> Aportes, obras y diferencias entre las figuras que construyeron la disciplina.</li><li><strong>Escuelas y corrientes.</strong> Del psicoanálisis y el conductismo a las terapias contextuales: fundamentos y diferencias.</li><li><strong>Conceptos psicológicos.</strong> Inconsciente, refuerzo, sombra, mentalización, diferenciación del self y más.</li><li><strong>Experimentos e investigaciones.</strong> Hallazgos, contexto y limitaciones de los estudios más citados, y los mitos que los rodean.</li><li><strong>Psicología en la vida cotidiana.</strong> Situaciones ficticias para razonar con conceptos psicológicos, sin diagnosticar a nadie.</li><li><strong>Neurociencias.</strong> Cerebro, memoria, sueño, emoción y plasticidad, sin neuromitos.</li><li><strong>Psicopatología y clínica.</strong> Historia, diagnóstico, encuadre, alianza y los debates actuales de la salud mental.</li><li><strong>Filosofía y psicología.</strong> Las preguntas filosóficas sobre la mente, el yo, la libertad y el sentido que heredó la psicología.</li>
+      </ul>
+      <h2>Puntos y logros</h2>
+      <p>Cada acierto vale 100 puntos. Las rachas de tres o más aciertos suman un multiplicador moderado, una partida perfecta tiene un bono y en «Contra el reloj» responder rápido suma hasta 50 puntos más, pero solo si la respuesta es correcta. Pedir una pista reduce el valor de la pregunta a la mitad. Los logros se desbloquean jugando y solo ves los que conseguiste. No hay rankings ni comparaciones con otras personas.</p>
+      <h2>Sobre el contenido</h2>
+      <p>Las preguntas se elaboraron a partir de obras originales, artículos científicos y manuales de referencia, y cada una muestra su fuente. Las citas textuales se usan solo cuando su origen es verificable; en otros casos, se presentan como paráfrasis. Se distinguen teorías históricas, modelos clínicos y hallazgos empíricos, y se señalan los debates abiertos, las limitaciones de los experimentos clásicos y los mitos de la psicología.</p>
+      <p>PsicoQuiz no es una evaluación ni un test: los casos son ficticios, nadie recibe un diagnóstico y el puntaje no dice nada sobre la inteligencia de quien juega. El progreso se guarda solo en este navegador y nada se envía a ningún servidor.</p>
+      <p>Para seguir explorando: el <a href="/recursos/mapa-de-la-psicologia/">mapa de la psicología</a>, el <a href="/glosario-junguiano/">glosario junguiano</a> y los <a href="/laboratorios/">laboratorios</a>.</p>
+    </div>
+  </div>
+</section>
+{{> cta}}
