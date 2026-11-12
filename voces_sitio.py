@@ -20,7 +20,7 @@ RUTA = "/recursos/voces-que-nos-habitan/"
 RUTA_AUTORES = RUTA + "autores/"
 RUTA_TEMAS = RUTA + "temas/"
 MIN_TEMA_CITAS, MIN_TEMA_AUTORES = 8, 3  # una página de tema solo existe si tiene contenido suficiente y miradas distintas
-IDIOMAS = {"la": "latín", "de": "alemán", "en": "inglés", "grc": "griego", "fr": "francés", "it": "italiano", "es": "castellano", "zh": "chino", "pi": "pali"}
+IDIOMAS = {"la": "latín", "de": "alemán", "en": "inglés", "grc": "griego", "fr": "francés", "it": "italiano", "es": "castellano", "zh": "chino", "pi": "pali", "sa": "sánscrito", "da": "danés"}
 VERSION_DE = {"en": "inglesa", "de": "alemana", "fr": "francesa", "la": "latina", "es": "castellana", "it": "italiana"}
 EPOCAS = {"clasico": "Clásicos", "moderno": "Modernos", "contemporaneo": "Contemporáneos"}
 # Enlaces discretos desde los temas hacia laboratorios y recursos del sitio.

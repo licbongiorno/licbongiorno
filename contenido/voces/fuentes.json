@@ -942,5 +942,169 @@
   ],
   "edicion": "Segunda edición (1922), texto alemán digitalizado en Internet Archive",
   "dominio_publico": "Adler murió en 1937."
+ },
+ "kierkegaard-enfermedad": {
+  "titulo": "Sygdommen til Døden",
+  "titulo_es": "La enfermedad mortal",
+  "anio": 1849,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-sd-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "kierkegaard-angustia": {
+  "titulo": "Begrebet Angest",
+  "titulo_es": "El concepto de la angustia",
+  "anio": 1844,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-ba-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "kierkegaard-oo1": {
+  "titulo": "Enten – Eller. Første Deel",
+  "titulo_es": "O lo uno o lo otro, primera parte",
+  "anio": 1843,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-ee1-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "kierkegaard-oo2": {
+  "titulo": "Enten – Eller. Anden Deel",
+  "titulo_es": "O lo uno o lo otro, segunda parte",
+  "anio": 1843,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-ee2-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "kierkegaard-temor": {
+  "titulo": "Frygt og Bæven",
+  "titulo_es": "Temor y temblor",
+  "anio": 1843,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-fb-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "kierkegaard-repeticion": {
+  "titulo": "Gjentagelsen",
+  "titulo_es": "La repetición",
+  "anio": 1843,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-g-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "kierkegaard-amor": {
+  "titulo": "Kjerlighedens Gjerninger",
+  "titulo_es": "Las obras del amor",
+  "anio": 1847,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-kg-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "kierkegaard-diario-jj": {
+  "titulo": "Journalen JJ",
+  "titulo_es": "Diario JJ",
+  "anio": 1842,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-jj-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "kierkegaard-diario-aa": {
+  "titulo": "Journalen AA",
+  "titulo_es": "Diario AA",
+  "anio": 1835,
+  "idioma": "da",
+  "urls": [
+   "https://tekster.kb.dk/text/sks-aa-txt-root"
+  ],
+  "edicion": "Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca",
+  "dominio_publico": "Kierkegaard murió en 1855."
+ },
+ "hegel-fenomenologia": {
+  "titulo": "Phänomenologie des Geistes",
+  "titulo_es": "Fenomenología del espíritu",
+  "anio": 1807,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Hegel murió en 1831."
+ },
+ "hegel-historia": {
+  "titulo": "Vorlesungen über die Philosophie der Geschichte",
+  "titulo_es": "Lecciones sobre la filosofía de la historia",
+  "anio": 1837,
+  "anio_texto": "1822–1831 (publ. 1837)",
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Hegel murió en 1831."
+ },
+ "patanjali-johnston": {
+  "titulo": "The Yoga Sutras of Patanjali: The Book of the Spiritual Man",
+  "titulo_es": "Yoga Sutras",
+  "anio": 1912,
+  "anio_texto": "c. s. II a. C. – s. V",
+  "idioma": "en",
+  "idioma_original": "sa",
+  "traductor": "Charles Johnston (1912)",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/2526/pg2526.txt"
+  ],
+  "edicion": "Trad. inglesa y comentario de Charles Johnston, en Project Gutenberg",
+  "dominio_publico": "Johnston murió en 1931.",
+  "localizador": "regex",
+  "inicio_texto": 5400,
+  "patrones": [
+   [
+    "BOOK ([IVX]+) ",
+    "Libro {0}"
+   ],
+   [
+    "(?<=[.!?\\\"'] )(\\d{1,2})\\. (?=[A-Z])",
+    "sutra {0}"
+   ]
+  ]
+ },
+ "horney-nuevos-caminos": {
+  "titulo": "New Ways in Psychoanalysis",
+  "titulo_es": "Nuevos caminos en psicoanálisis",
+  "anio": 1939,
+  "idioma": "en",
+  "urls": [
+   "https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt"
+  ],
+  "edicion": "Primera edición (1939), digitalizada en Internet Archive",
+  "dominio_publico": "Horney murió en 1952: dominio público en Argentina desde 2023.",
+  "localizador": "regex",
+  "patrones": [
+   [
+    "CHAPTER\\s+([IVXL]+)",
+    "Capítulo {0}"
+   ]
+  ]
  }
 }

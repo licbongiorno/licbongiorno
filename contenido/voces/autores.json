@@ -432,8 +432,38 @@
   },
   {
    "slug": "karen-horney",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Karen Horney",
+   "nombre_completo": "Karen Horney",
+   "nacimiento": "16 de septiembre de 1885, Blankenese (Hamburgo)",
+   "muerte": "4 de diciembre de 1952, Nueva York",
+   "epoca": "moderno",
+   "nacionalidad": "Alemana, nacionalizada estadounidense",
+   "disciplinas": [
+    "Psicoanálisis",
+    "Psiquiatría",
+    "Medicina"
+   ],
+   "corriente": "Psicoanálisis culturalista",
+   "bio": "Psiquiatra y psicoanalista alemana, una de las primeras mujeres en formarse en psicoanálisis. Discutió la visión freudiana de la psicología femenina y, ya en Estados Unidos, subrayó el peso de la cultura y de los vínculos en las neurosis. Fundó el American Institute for Psychoanalysis.",
+   "aportes": [
+    "La angustia básica: sentirse solo y desamparado en un mundo hostil",
+    "Las necesidades neuróticas y los movimientos hacia, contra y lejos de los demás",
+    "El peso de la cultura y la competencia en el sufrimiento psíquico",
+    "La terapia como camino hacia el yo real y la espontaneidad",
+    "Una crítica temprana de la psicología femenina freudiana"
+   ],
+   "obras": [
+    "La personalidad neurótica de nuestro tiempo (1937)",
+    "Nuevos caminos en psicoanálisis (1939)",
+    "Autoanálisis (1942)",
+    "Nuestros conflictos interiores (1945)",
+    "Neurosis y madurez (1950)"
+   ],
+   "relacion": "Influyó en la psicología humanista, en la terapia cognitiva (sus «tiranías del deber» anticipan los «debería» de Albert Ellis) y en los enfoques interpersonales y culturales del psicoanálisis.",
+   "nota_citas": "Citamos la primera edición de Nuevos caminos en psicoanálisis (1939), digitalizada en Internet Archive. Horney murió en 1952: su obra es de dominio público en Argentina desde 2023. Las traducciones son propias de Lo que te habita; las erratas de la digitalización se conservan y se señalan."
   },
   {
    "slug": "harry-stack-sullivan",
@@ -623,8 +653,34 @@
   },
   {
    "slug": "hegel",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "G. W. F. Hegel",
+   "nombre_completo": "Georg Wilhelm Friedrich Hegel",
+   "nacimiento": "27 de agosto de 1770, Stuttgart",
+   "muerte": "14 de noviembre de 1831, Berlín",
+   "epoca": "moderno",
+   "nacionalidad": "Alemán",
+   "disciplinas": [
+    "Filosofía"
+   ],
+   "corriente": "Idealismo alemán",
+   "bio": "Filósofo alemán, profesor en Jena, Heidelberg y Berlín. En la Fenomenología del espíritu describió el camino de la conciencia hacia el saber a través de sus contradicciones, y construyó un sistema que abarca la lógica, la naturaleza, el derecho, la historia, el arte y la religión.",
+   "aportes": [
+    "La dialéctica: el desarrollo a través de la contradicción",
+    "El reconocimiento: la identidad depende de ser reconocido por otro",
+    "La dialéctica del amo y el esclavo, y el trabajo como formación de sí",
+    "La historia como progreso en la conciencia de la libertad"
+   ],
+   "obras": [
+    "Fenomenología del espíritu (1807)",
+    "Ciencia de la lógica (1812–1816)",
+    "Principios de la filosofía del derecho (1820)",
+    "Lecciones sobre la filosofía de la historia (publ. 1837)"
+   ],
+   "relacion": "Su idea de que nos constituimos en el reconocimiento del otro influyó en Lacan (a través de Kojève), en el psicoanálisis relacional, en la teoría del reconocimiento de Axel Honneth y en la psicología social.",
+   "nota_citas": "Textos alemanes en Projekt Gutenberg-DE. Las traducciones son propias de Lo que te habita. Las Lecciones sobre la filosofía de la historia fueron editadas después de su muerte a partir de sus apuntes y los de sus alumnos."
   },
   {
    "slug": "arthur-schopenhauer",
@@ -657,8 +713,39 @@
   },
   {
    "slug": "soren-kierkegaard",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Søren Kierkegaard",
+   "nombre_completo": "Søren Aabye Kierkegaard",
+   "nacimiento": "5 de mayo de 1813, Copenhague",
+   "muerte": "11 de noviembre de 1855, Copenhague",
+   "epoca": "moderno",
+   "nacionalidad": "Danés",
+   "disciplinas": [
+    "Filosofía",
+    "Teología"
+   ],
+   "corriente": "Existencialismo cristiano",
+   "bio": "Filósofo y teólogo danés, considerado el padre del existencialismo. Escribió gran parte de su obra bajo seudónimos, cada uno con su propio punto de vista, y exploró como nadie antes la angustia, la desesperación, la elección y la experiencia del individuo singular frente a la existencia.",
+   "aportes": [
+    "La angustia como «vértigo de la libertad»",
+    "La desesperación como enfermedad del yo",
+    "El yo como relación que se relaciona consigo misma",
+    "Los estadios estético, ético y religioso de la existencia",
+    "La verdad subjetiva: una verdad «para mí»"
+   ],
+   "obras": [
+    "O lo uno o lo otro (1843)",
+    "Temor y temblor (1843)",
+    "La repetición (1843)",
+    "El concepto de la angustia (1844)",
+    "Las obras del amor (1847)",
+    "La enfermedad mortal (1849)",
+    "Diarios"
+   ],
+   "relacion": "Es una fuente central de la psicología existencial y humanista: Rollo May lo consideró un precursor de la psicoterapia, y su análisis de la angustia y de la desesperación anticipa la clínica de la ansiedad y la depresión. Carl Rogers retomó su idea de «ser el yo que uno realmente es».",
+   "nota_citas": "Texto danés de la edición crítica Søren Kierkegaards Skrifter, publicada por la Biblioteca Real de Dinamarca con licencia de dominio público. Las traducciones son propias de Lo que te habita. Muchas obras se publicaron con seudónimo: cada cita indica bajo qué nombre."
   },
   {
    "slug": "friedrich-nietzsche",
@@ -845,8 +932,32 @@
   },
   {
    "slug": "patanjali",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Patanjali",
+   "nombre_completo": "Patanjali",
+   "nacimiento": "Fechas inciertas",
+   "muerte": "Fechas inciertas",
+   "epoca": "clasico",
+   "nacionalidad": "Indio",
+   "disciplinas": [
+    "Espiritualidad",
+    "Filosofía"
+   ],
+   "corriente": "Yoga (escuela clásica)",
+   "bio": "Sabio indio a quien la tradición atribuye los Yoga Sutras, una colección de 195 aforismos breves que sistematiza la práctica del yoga como camino de aquietamiento de la mente. Los historiadores fechan el texto entre el siglo II a. C. y el siglo V; de su autor casi no se sabe nada.",
+   "aportes": [
+    "El yoga como aquietamiento de las fluctuaciones de la mente",
+    "Los ocho miembros del yoga, entre ellos la postura, la respiración y la meditación",
+    "Los obstáculos (kleshas): ignorancia, ego, apego, aversión y aferrarse a la vida",
+    "La práctica constante y el desapego como medios"
+   ],
+   "obras": [
+    "Yoga Sutras"
+   ],
+   "relacion": "Los Yoga Sutras están en la base de muchas prácticas contemporáneas de atención plena y de regulación a través de la respiración, que la psicología clínica estudia como herramientas para la ansiedad y el estrés.",
+   "nota_citas": "Los Yoga Sutras están escritos en sánscrito. Citamos la traducción inglesa de Charles Johnston (1912), de dominio público y de orientación espiritual, y ofrecemos una traducción propia al castellano hecha a partir de ella. Solo citamos los sutras, nunca los comentarios de Johnston. Dejamos fuera los sutras sobre poderes sobrenaturales."
   },
   {
    "slug": "d-t-suzuki",
@@ -989,6 +1100,26 @@
    "autor": "Alfred Adler",
    "frase": "Pasajes sobre el «protesto masculino»",
    "motivo": "Excluidos: reflejan concepciones de época sobre los géneros que hoy no se sostienen."
+  },
+  {
+   "autor": "Søren Kierkegaard",
+   "frase": "«La angustia es el vértigo de la libertad» (versión abreviada)",
+   "motivo": "Es una síntesis de un pasaje más largo de El concepto de la angustia; publicamos el texto literal."
+  },
+  {
+   "autor": "G. W. F. Hegel",
+   "frase": "«La lechuza de Minerva solo levanta vuelo al anochecer»",
+   "motivo": "Es de la Filosofía del derecho, que no figura entre las fuentes verificadas de esta biblioteca."
+  },
+  {
+   "autor": "G. W. F. Hegel",
+   "frase": "«No hay héroe para su ayuda de cámara» (como frase de Hegel)",
+   "motivo": "Es un dicho popular; Hegel lo cita y agrega una segunda parte, que es lo que le atribuimos."
+  },
+  {
+   "autor": "Patanjali",
+   "frase": "Sutras sobre poderes sobrenaturales (libro III)",
+   "motivo": "Excluidos por no corresponder al propósito de esta biblioteca."
   }
  ]
 }

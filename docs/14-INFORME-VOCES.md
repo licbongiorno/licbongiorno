@@ -11,17 +11,21 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
 | Sigmund Freud | 50 | 50 | 8 | completo (≥ 50) |
 | William James | 51 | 51 | 6 | completo (≥ 50) |
 | Alfred Adler | 51 | 51 | 1 | completo (≥ 50) |
+| Karen Horney | 51 | 51 | 1 | completo (≥ 50) |
 | Platón | 53 | 53 | 8 | completo (≥ 50) |
 | Aristóteles | 52 | 52 | 3 | completo (≥ 50) |
 | Epicteto | 53 | 53 | 2 | completo (≥ 50) |
 | Baruch Spinoza | 51 | 51 | 1 | completo (≥ 50) |
 | Immanuel Kant | 51 | 51 | 8 | completo (≥ 50) |
+| G. W. F. Hegel | 52 | 52 | 2 | completo (≥ 50) |
 | Arthur Schopenhauer | 51 | 51 | 1 | completo (≥ 50) |
+| Søren Kierkegaard | 52 | 52 | 9 | completo (≥ 50) |
 | Friedrich Nietzsche | 52 | 52 | 5 | completo (≥ 50) |
 | René Descartes | 52 | 52 | 3 | completo (≥ 50) |
 | John Locke | 50 | 50 | 2 | completo (≥ 50) |
 | Buda | 52 | 52 | 1 | completo (≥ 50) |
 | Lao-tse | 52 | 52 | 1 | completo (≥ 50) |
+| Patanjali | 52 | 52 | 1 | completo (≥ 50) |
 
 ## Citas no verificadas
 
@@ -51,6 +55,10 @@ Ninguna.
 - **Aristóteles** — ««Cualquiera puede enojarse, eso es fácil…» (versión popular)»: Paráfrasis libre de la Ética (libro II). Publicamos los pasajes textuales sobre la ira.
 - **René Descartes** — ««Divide cada dificultad en tantas partes como sea posible» (versión abreviada)»: Paráfrasis de la segunda regla del método; no coincide con el texto de la edición citada.
 - **Alfred Adler** — «Pasajes sobre el «protesto masculino»»: Excluidos: reflejan concepciones de época sobre los géneros que hoy no se sostienen.
+- **Søren Kierkegaard** — ««La angustia es el vértigo de la libertad» (versión abreviada)»: Es una síntesis de un pasaje más largo de El concepto de la angustia; publicamos el texto literal.
+- **G. W. F. Hegel** — ««La lechuza de Minerva solo levanta vuelo al anochecer»»: Es de la Filosofía del derecho, que no figura entre las fuentes verificadas de esta biblioteca.
+- **G. W. F. Hegel** — ««No hay héroe para su ayuda de cámara» (como frase de Hegel)»: Es un dicho popular; Hegel lo cita y agrega una segunda parte, que es lo que le atribuimos.
+- **Patanjali** — «Sutras sobre poderes sobrenaturales (libro III)»: Excluidos por no corresponder al propósito de esta biblioteca.
 
 ## Autores del sitio pendientes
 
@@ -107,20 +115,16 @@ Ninguna.
 | Ainsworth | 1913–1999 | Obra protegida por derechos de autor hasta el 2070 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Wundt | 1832–1920 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Rank | 1884–1939 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Horney | 1885–1952 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Sullivan | 1892–1949 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Reich | 1897–1957 | Obra protegida por derechos de autor hasta el 2028 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Langer | 1910–1987 | Obra protegida por derechos de autor hasta el 2058 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Binswanger | 1881–1966 | Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Laing | 1927–1989 | Obra protegida por derechos de autor hasta el 2060 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Hegel | 1770–1831 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Kierkegaard | 1813–1855 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Buber | 1878–1965 | Obra protegida por derechos de autor hasta el 2036 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Husserl | 1859–1938 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Heidegger | 1889–1976 | Obra protegida por derechos de autor hasta el 2047 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Sartre | 1905–1980 | Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Merleau-Ponty | 1908–1961 | Obra protegida por derechos de autor hasta el 2032 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Patañjali | c. 400 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Suzuki | 1870–1966 | Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Lowen | 1910–2008 | Obra protegida por derechos de autor hasta el 2079 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Gendlin | 1926–2017 | Obra protegida por derechos de autor hasta el 2088 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
@@ -190,3 +194,16 @@ Ninguna.
 - `descartes-discurso` — *Discours de la méthode* (1637), Texto francés (ed. Cousin) en Wikisource <https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render> — Descartes murió en 1650.
 - `descartes-meditaciones` — *Méditations métaphysiques* (1647), Versión francesa de 1647, revisada por Descartes, en Wikisource <https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_premi%C3%A8re&action=render> — Descartes murió en 1650.
 - `adler-caracter` — *Über den nervösen Charakter* (1922), Segunda edición (1922), texto alemán digitalizado en Internet Archive <https://archive.org/download/berdennervsencha02adle/berdennervsencha02adle_djvu.txt> — Adler murió en 1937.
+- `kierkegaard-enfermedad` — *Sygdommen til Døden* (1849), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-sd-txt-root> — Kierkegaard murió en 1855.
+- `kierkegaard-angustia` — *Begrebet Angest* (1844), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-ba-txt-root> — Kierkegaard murió en 1855.
+- `kierkegaard-oo1` — *Enten – Eller. Første Deel* (1843), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-ee1-txt-root> — Kierkegaard murió en 1855.
+- `kierkegaard-oo2` — *Enten – Eller. Anden Deel* (1843), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-ee2-txt-root> — Kierkegaard murió en 1855.
+- `kierkegaard-temor` — *Frygt og Bæven* (1843), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-fb-txt-root> — Kierkegaard murió en 1855.
+- `kierkegaard-repeticion` — *Gjentagelsen* (1843), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-g-txt-root> — Kierkegaard murió en 1855.
+- `kierkegaard-amor` — *Kjerlighedens Gjerninger* (1847), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-kg-txt-root> — Kierkegaard murió en 1855.
+- `kierkegaard-diario-jj` — *Journalen JJ* (1842), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-jj-txt-root> — Kierkegaard murió en 1855.
+- `kierkegaard-diario-aa` — *Journalen AA* (1835), Texto danés de Søren Kierkegaards Skrifter (SKS), en la Biblioteca Real de Dinamarca <https://tekster.kb.dk/text/sks-aa-txt-root> — Kierkegaard murió en 1855.
+- `hegel-fenomenologia` — *Phänomenologie des Geistes* (1807), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes> — Hegel murió en 1831.
+- `hegel-historia` — *Vorlesungen über die Philosophie der Geschichte* (1837), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte> — Hegel murió en 1831.
+- `patanjali-johnston` — *The Yoga Sutras of Patanjali: The Book of the Spiritual Man* (1912), Trad. inglesa y comentario de Charles Johnston, en Project Gutenberg <https://www.gutenberg.org/cache/epub/2526/pg2526.txt> — Johnston murió en 1931.
+- `horney-nuevos-caminos` — *New Ways in Psychoanalysis* (1939), Primera edición (1939), digitalizada en Internet Archive <https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt> — Horney murió en 1952: dominio público en Argentina desde 2023.
