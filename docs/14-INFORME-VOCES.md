@@ -10,6 +10,10 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
 | Marco Aurelio | 50 | 50 | 1 | completo (≥ 50) |
 | Sigmund Freud | 50 | 50 | 8 | completo (≥ 50) |
 | William James | 51 | 51 | 6 | completo (≥ 50) |
+| Epicteto | 53 | 53 | 2 | completo (≥ 50) |
+| Friedrich Nietzsche | 52 | 52 | 5 | completo (≥ 50) |
+| Buda | 52 | 52 | 1 | completo (≥ 50) |
+| Lao-tse | 52 | 52 | 1 | completo (≥ 50) |
 
 ## Citas no verificadas
 
@@ -29,6 +33,8 @@ Ninguna.
 - **Séneca** — «Ducunt volentem fata, nolentem trahunt»: Séneca traduce aquí versos de Cleantes (Carta 107).
 - **Séneca** — «Sentencias de Epicuro citadas en las primeras cartas»: Séneca cierra muchas cartas con una frase de Epicuro u otro autor; se excluyeron todas.
 - **Séneca** — «Pasajes sobre el suicidio (Cartas 70, 77)»: Excluidos por criterio de cuidado: aislados de su contexto pueden leerse como una invitación.
+- **Friedrich Nietzsche** — «Y aquellos que fueron vistos bailando fueron considerados locos por quienes no podían escuchar la música»: No aparece en la obra de Nietzsche. Atribución falsa muy difundida.
+- **Buda** — «Somos lo que pensamos (versiones abreviadas sin fuente)»: Se publica el verso 1 del Dhammapada completo, en la traducción de Max Müller; las versiones abreviadas que circulan no son literales.
 
 ## Autores del sitio pendientes
 
@@ -94,13 +100,11 @@ Ninguna.
 | Laing | 1927–1989 | Obra protegida por derechos de autor hasta el 2060 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Platón | c. 428–348 a. C. | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Aristóteles | 384–322 a. C. | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Epicteto | c. 50–135 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Spinoza | 1632–1677 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Kant | 1724–1804 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Hegel | 1770–1831 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Schopenhauer | 1788–1860 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Kierkegaard | 1813–1855 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Nietzsche | 1844–1900 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Buber | 1878–1965 | Obra protegida por derechos de autor hasta el 2036 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Descartes | 1596–1650 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Locke | 1632–1704 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
@@ -108,8 +112,6 @@ Ninguna.
 | Heidegger | 1889–1976 | Obra protegida por derechos de autor hasta el 2047 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Sartre | 1905–1980 | Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Merleau-Ponty | 1908–1961 | Obra protegida por derechos de autor hasta el 2032 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Buda | s. VI–IV a. C. | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
-| Lao Tse | fechas inciertas | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Patañjali | c. 400 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Suzuki | 1870–1966 | Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Lowen | 1910–2008 | Obra protegida por derechos de autor hasta el 2079 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
@@ -140,3 +142,12 @@ Ninguna.
 - `james-pragmatism` — *Pragmatism* (1907), Primera edición inglesa, en Project Gutenberg <https://www.gutenberg.org/cache/epub/5116/pg5116.txt> — James murió en 1910.
 - `james-talks` — *Talks to Teachers on Psychology; and to Students on Some of Life's Ideals* (1899), Primera edición inglesa, en Project Gutenberg <https://www.gutenberg.org/cache/epub/16287/pg16287.txt> — James murió en 1910.
 - `james-will` — *The Will to Believe, and Other Essays in Popular Philosophy* (1897), Primera edición inglesa, en Project Gutenberg <https://www.gutenberg.org/cache/epub/26659/pg26659.txt> — James murió en 1910.
+- `laotse-legge` — *The Tao Teh King* (1891), Trad. inglesa de James Legge (1891), en Project Gutenberg <https://www.gutenberg.org/cache/epub/216/pg216.txt> — Legge murió en 1897.
+- `buda-dhammapada` — *The Dhammapada* (1881), Trad. inglesa de F. Max Müller (1881), en Project Gutenberg <https://www.gutenberg.org/cache/epub/2017/pg2017.txt> — Max Müller murió en 1900.
+- `nietzsche-zarathustra` — *Also sprach Zarathustra* (1885), Texto alemán en Project Gutenberg <https://www.gutenberg.org/cache/epub/7205/pg7205.txt> — Nietzsche murió en 1900.
+- `nietzsche-jenseits` — *Jenseits von Gut und Böse* (1886), Texto alemán en Project Gutenberg <https://www.gutenberg.org/cache/epub/7204/pg7204.txt> — Nietzsche murió en 1900.
+- `nietzsche-goetzen` — *Götzen-Dämmerung* (1889), Texto alemán en Project Gutenberg <https://www.gutenberg.org/cache/epub/7203/pg7203.txt> — Nietzsche murió en 1900.
+- `nietzsche-ecce` — *Ecce homo* (1908), Texto alemán en Project Gutenberg <https://www.gutenberg.org/cache/epub/7202/pg7202.txt> — Nietzsche murió en 1900.
+- `nietzsche-menschliches` — *Menschliches, Allzumenschliches* (1878), Texto alemán en Project Gutenberg <https://www.gutenberg.org/cache/epub/7207/pg7207.txt> — Nietzsche murió en 1900.
+- `epicteto-disertaciones` — *A Selection from the Discourses of Epictetus* (1890), Trad. inglesa de George Long, en Project Gutenberg <https://www.gutenberg.org/cache/epub/10661/pg10661.txt> — Epicteto murió c. 135; Long, en 1879.
+- `epicteto-manual` — *The Encheiridion, or Manual* (1890), Trad. inglesa de George Long, en Project Gutenberg <https://www.gutenberg.org/cache/epub/10661/pg10661.txt> — Epicteto murió c. 135; Long, en 1879.

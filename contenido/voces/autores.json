@@ -442,8 +442,33 @@
   },
   {
    "slug": "epicteto",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Epicteto",
+   "nombre_completo": "Epicteto",
+   "nacimiento": "c. 50, Hierápolis (Frigia)",
+   "muerte": "c. 135, Nicópolis (Epiro)",
+   "epoca": "clasico",
+   "nacionalidad": "Griego, súbdito romano",
+   "disciplinas": [
+    "Filosofía",
+    "Ética"
+   ],
+   "corriente": "Estoicismo",
+   "bio": "Nació esclavo y fue liberado en Roma, donde estudió con el estoico Musonio Rufo. Expulsado por Domiciano, fundó una escuela en Nicópolis. No escribió nada: su discípulo Arriano reunió sus lecciones en las Disertaciones y las resumió en el Manual, una guía práctica para distinguir lo que depende de nosotros de lo que no.",
+   "aportes": [
+    "La distinción entre lo que depende de nosotros y lo que no",
+    "El sufrimiento como efecto de las opiniones sobre los hechos",
+    "La filosofía como entrenamiento diario",
+    "La libertad interior como posible aun en la esclavitud"
+   ],
+   "obras": [
+    "Disertaciones (recogidas por Arriano)",
+    "Manual o Enquiridión (resumen de Arriano)"
+   ],
+   "relacion": "Albert Ellis reconoció en Epicteto el antecedente directo de la terapia racional emotiva: «no nos perturban las cosas, sino las opiniones sobre las cosas». La terapia cognitiva, la ACT y la psicología de la resiliencia retoman su distinción entre lo controlable y lo no controlable.",
+   "nota_citas": "Epicteto habló en griego y sus palabras nos llegan a través de Arriano. Citamos la traducción inglesa de George Long (1890), de dominio público, y ofrecemos una traducción propia al castellano hecha a partir de ella."
   },
   {
    "slug": "baruch-spinoza",
@@ -472,8 +497,37 @@
   },
   {
    "slug": "friedrich-nietzsche",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Friedrich Nietzsche",
+   "nombre_completo": "Friedrich Wilhelm Nietzsche",
+   "nacimiento": "15 de octubre de 1844, Röcken (Prusia)",
+   "muerte": "25 de agosto de 1900, Weimar",
+   "epoca": "moderno",
+   "nacionalidad": "Alemán",
+   "disciplinas": [
+    "Filosofía",
+    "Filología"
+   ],
+   "corriente": "Filosofía de la vida",
+   "bio": "Filólogo y filósofo alemán. Fue profesor en Basilea desde los 24 años y dejó la cátedra por su salud. Escribió en forma de aforismos y de prosa poética una crítica radical de la moral, la religión y la cultura de su tiempo. En 1889 sufrió un colapso mental del que no se recuperó.",
+   "aportes": [
+    "La crítica de la moral y de los valores heredados",
+    "La voluntad de poder y la afirmación de la vida",
+    "El cuerpo como «gran razón»",
+    "El perspectivismo: no hay hechos sin interpretación",
+    "Una psicología de los motivos ocultos que anticipa al psicoanálisis"
+   ],
+   "obras": [
+    "Humano, demasiado humano (1878)",
+    "Así habló Zaratustra (1883–1885)",
+    "Más allá del bien y del mal (1886)",
+    "El ocaso de los ídolos (1889)",
+    "Ecce homo (escrito en 1888, publicado en 1908)"
+   ],
+   "relacion": "Freud reconoció que Nietzsche había anticipado muchas ideas del psicoanálisis. Influyó en Adler, en Jung, que le dedicó un seminario sobre Zaratustra, en la psicología existencial y en Viktor Frankl, que retomó su idea del «por qué» que permite soportar casi cualquier «cómo».",
+   "nota_citas": "Textos alemanes en Project Gutenberg, con la ortografía de la época. Las traducciones son propias de Lo que te habita. No incluimos La voluntad de poder, compilación póstuma armada por su hermana."
   },
   {
    "slug": "martin-buber",
@@ -512,13 +566,61 @@
   },
   {
    "slug": "buda",
-   "estado": "pendiente",
-   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Buda",
+   "nombre_completo": "Siddhartha Gautama, el Buda",
+   "nacimiento": "c. s. VI–V a. C., Lumbini",
+   "muerte": "c. s. V–IV a. C., Kushinagar",
+   "epoca": "clasico",
+   "nacionalidad": "Indio",
+   "disciplinas": [
+    "Espiritualidad",
+    "Filosofía"
+   ],
+   "corriente": "Budismo",
+   "bio": "Príncipe del clan Shakya que abandonó su vida cortesana en busca de una salida al sufrimiento. Tras años de búsqueda alcanzó, según la tradición, el despertar (bodhi) y dedicó el resto de su vida a enseñar. Sus enseñanzas se transmitieron oralmente y se pusieron por escrito siglos después.",
+   "aportes": [
+    "Las cuatro nobles verdades sobre el sufrimiento y su cese",
+    "El camino medio entre la indulgencia y la mortificación",
+    "La impermanencia y el no-yo",
+    "La atención y la meditación como prácticas de transformación"
+   ],
+   "obras": [
+    "Dhammapada (colección de versos del canon pali)"
+   ],
+   "relacion": "La psicología contemporánea tomó del budismo la atención plena (mindfulness), que Jon Kabat-Zinn llevó a la clínica, y la compasión, base de varias terapias actuales. También dialogaron con él Jung, Fromm y la psicología transpersonal.",
+   "nota_citas": "El Buda no dejó escritos. El Dhammapada es una colección de versos del canon pali que la tradición atribuye a sus enseñanzas. Citamos la traducción inglesa de F. Max Müller (1881), de dominio público, y ofrecemos una traducción propia al castellano hecha a partir de ella."
   },
   {
    "slug": "lao-tse",
-   "estado": "pendiente",
-   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Lao-tse",
+   "nombre_completo": "Lao-tse (Laozi)",
+   "nacimiento": "Fechas inciertas (tradicionalmente, s. VI a. C.)",
+   "muerte": "Fechas inciertas",
+   "epoca": "clasico",
+   "nacionalidad": "China",
+   "disciplinas": [
+    "Filosofía",
+    "Espiritualidad"
+   ],
+   "corriente": "Taoísmo",
+   "bio": "Figura fundacional del taoísmo, a quien la tradición atribuye el Tao Te Ching. Los historiadores discuten si fue una persona histórica y suelen fechar el texto, tal como lo conocemos, hacia el siglo IV a. C. Sus 81 capítulos breves hablan del Tao —el camino, el curso de las cosas—, de la no acción, la humildad y la fuerza de lo blando.",
+   "aportes": [
+    "La no acción (wu wei): actuar sin forzar",
+    "La fuerza de lo blando y lo flexible frente a lo rígido",
+    "La unidad de los opuestos",
+    "La sencillez y el contento como formas de sabiduría"
+   ],
+   "obras": [
+    "Tao Te Ching (Daodejing)"
+   ],
+   "relacion": "El taoísmo influyó en Jung, que lo citó con frecuencia, en la psicología humanista y transpersonal, y en enfoques contemporáneos basados en la aceptación y la atención plena.",
+   "nota_citas": "El Tao Te Ching se atribuye a Lao-tse por tradición. Citamos la traducción inglesa de James Legge (1891), de dominio público; los paréntesis son agregados de Legge para aclarar el chino. La traducción al castellano es propia, hecha a partir de esa versión."
   },
   {
    "slug": "patanjali",
@@ -616,6 +718,16 @@
    "autor": "Séneca",
    "frase": "Pasajes sobre el suicidio (Cartas 70, 77)",
    "motivo": "Excluidos por criterio de cuidado: aislados de su contexto pueden leerse como una invitación."
+  },
+  {
+   "autor": "Friedrich Nietzsche",
+   "frase": "Y aquellos que fueron vistos bailando fueron considerados locos por quienes no podían escuchar la música",
+   "motivo": "No aparece en la obra de Nietzsche. Atribución falsa muy difundida."
+  },
+  {
+   "autor": "Buda",
+   "frase": "Somos lo que pensamos (versiones abreviadas sin fuente)",
+   "motivo": "Se publica el verso 1 del Dhammapada completo, en la traducción de Max Müller; las versiones abreviadas que circulan no son literales."
   }
  ]
 }
