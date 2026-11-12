@@ -21,7 +21,20 @@ CACHE = RAIZ / "herramientas/.cache-voces"
 FUENTES = json.loads((RAIZ / "contenido/voces/fuentes.json").read_text(encoding="utf-8"))
 
 
-def bajar(url):
+BLOQUEO = "request is being verified"
+
+
+def bajar(url, intentos=6):
+    """Descarga con reintentos: si el sitio responde con una página de verificación, espera y vuelve a pedir."""
+    for n in range(intentos):
+        texto = _bajar(url)
+        if BLOQUEO not in texto:
+            return texto
+        time.sleep(5 * (n + 1))
+    raise RuntimeError(f"el sitio no entregó el texto: {url}")
+
+
+def _bajar(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (verificador de citas)"})
     with urllib.request.urlopen(req, timeout=60) as r:
         datos = r.read()

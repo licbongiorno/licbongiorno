@@ -1334,7 +1334,8 @@ fieldset.mapa-campo { border: 0; padding: 0; min-width: 0; }
 .vo-cita__original summary:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; border-radius: 4px; }
 .vo-cita__original p { margin: .5rem 0 0; color: var(--texto-2); }
 .vo-cita__original p[lang] { font-family: var(--f-serif); font-style: italic; color: var(--tinta-suave); }
-.vo-cita__fuente, .vo-cita__tipo, .vo-cita__nota { font-family: var(--f-sans); font-size: .78rem; }
+.vo-cita__nota { margin: .4rem 0 0; font-family: var(--f-sans); font-size: .78rem; color: var(--piedra-oscura); font-style: italic; }
+.vo-cita__fuente, .vo-cita__tipo { font-family: var(--f-sans); font-size: .78rem; }
 .vo-cita__frag { font-style: normal; font-family: var(--f-sans); font-size: .75rem; color: var(--piedra-oscura); }
 .vo-temas { display: flex; flex-wrap: wrap; gap: .35rem; margin: .9rem 0 0; padding: 0; list-style: none; }
 .vo-temas li { margin: 0; }

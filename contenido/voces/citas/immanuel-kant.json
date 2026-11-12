@@ -1,0 +1,789 @@
+[
+ {
+  "id": "immanuel-kant-001",
+  "fuente": "kant-ilustracion",
+  "original": "Aufklärung ist der Ausgang des Menschen aus seiner selbst verschuldeten Unmündigkeit.",
+  "traduccion": "La Ilustración es la salida del ser humano de su minoría de edad, de la que él mismo es culpable.",
+  "temas": [
+   "libertad",
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-002",
+  "fuente": "kant-ilustracion",
+  "original": "Unmündigkeit ist das Unvermögen, sich seines Verstandes ohne Leitung eines anderen zu bedienen.",
+  "traduccion": "La minoría de edad es la incapacidad de servirse del propio entendimiento sin la guía de otro.",
+  "temas": [
+   "libertad",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-003",
+  "fuente": "kant-ilustracion",
+  "original": "Sapere aude! Habe Mut dich deines eigenen Verstandes zu bedienen! ist also der Wahlspruch der Aufklärung.",
+  "traduccion": "Sapere aude: ¡tené el valor de servirte de tu propio entendimiento! Ese es el lema de la Ilustración.",
+  "temas": [
+   "libertad",
+   "miedo",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-004",
+  "fuente": "kant-ilustracion",
+  "original": "Faulheit und Feigheit sind die Ursachen, warum ein so großer Teil der Menschen",
+  "traduccion": "La pereza y la cobardía son las causas por las que tantas personas [siguen gustosamente toda la vida en la minoría de edad].",
+  "temas": [
+   "libertad",
+   "miedo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-005",
+  "fuente": "kant-ilustracion",
+  "original": "Es ist so bequem, unmündig zu sein.",
+  "traduccion": "¡Es tan cómodo ser menor de edad!",
+  "temas": [
+   "libertad",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-006",
+  "fuente": "kant-ilustracion",
+  "original": "Habe ich ein Buch, das für mich Verstand hat, einen Seelsorger, der für mich Gewissen hat, einen Arzt, der für mich die Diät beurteilt",
+  "traduccion": "Si tengo un libro que piensa por mí, un director espiritual que tiene conciencia por mí, un médico que decide por mí la dieta… [no necesito esforzarme].",
+  "temas": [
+   "responsabilidad",
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-007",
+  "fuente": "kant-ilustracion",
+  "original": "von seiner Vernunft in allen Stücken öffentlichen Gebrauch zu machen",
+  "traduccion": "[Para la Ilustración solo hace falta la libertad] de hacer uso público de la propia razón en todos los asuntos.",
+  "temas": [
+   "libertad",
+   "sociedad",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-008",
+  "fuente": "kant-ilustracion",
+  "original": "Daß aber ein Publikum sich selbst aufkläre, ist eher möglich; ja es ist, wenn man ihm nur Freiheit läßt, beinahe unausbleiblich.",
+  "traduccion": "Que un público se ilustre a sí mismo es más bien posible; más aún, si se le deja libertad, es casi inevitable.",
+  "temas": [
+   "libertad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-009",
+  "fuente": "kant-grundlegung",
+  "original": "Es ist überall nichts in der Welt, ja überhaupt auch außer derselben zu denken möglich, was ohne Einschränkung für gut könnte gehalten werden, als allein ein guter Wille.",
+  "traduccion": "No hay nada en el mundo, ni fuera de él, que pueda considerarse bueno sin restricción, salvo una buena voluntad.",
+  "temas": [
+   "voluntad",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-010",
+  "fuente": "kant-grundlegung",
+  "original": "Handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde.",
+  "traduccion": "Obrá solo según aquella máxima que puedas querer, al mismo tiempo, que se convierta en ley universal.",
+  "temas": [
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-011",
+  "fuente": "kant-grundlegung",
+  "original": "Kannst du auch wollen, dass deine Maxime ein allgemeines Gesetz werde?",
+  "traduccion": "¿Podés querer también que tu máxima se convierta en ley universal?",
+  "temas": [
+   "responsabilidad",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-012",
+  "fuente": "kant-grundlegung",
+  "original": "Handle so, dass du die Menschheit sowohl in deiner Person, als in der Person eines jeden andern jederzeit zugleich als Zweck, niemals bloß als Mittel brauchst.",
+  "traduccion": "Obrá de tal modo que trates a la humanidad, tanto en tu persona como en la de cualquier otro, siempre a la vez como un fin y nunca solo como un medio.",
+  "temas": [
+   "vinculos",
+   "responsabilidad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-013",
+  "fuente": "kant-grundlegung",
+  "original": "Im Reiche der Zwecke hat alles entweder einen Preis, oder eine Würde.",
+  "traduccion": "En el reino de los fines, todo tiene un precio o una dignidad.",
+  "temas": [
+   "identidad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-014",
+  "fuente": "kant-grundlegung",
+  "original": "Was einen Preis hat, an dessen Stelle kann auch etwas anderes als Äquivalent gesetzt werden; was dagegen über allen Preis erhaben ist, mithin kein Äquivalent verstattet, das hat eine Würde.",
+  "traduccion": "Lo que tiene precio puede ser reemplazado por otra cosa equivalente; lo que está por encima de todo precio y no admite equivalente tiene dignidad.",
+  "temas": [
+   "identidad",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-015",
+  "fuente": "kant-grundlegung",
+  "original": "Autonomie ist also der Grund der Würde der menschlichen und jeder vernünftigen Natur.",
+  "traduccion": "La autonomía es, pues, el fundamento de la dignidad de la naturaleza humana y de toda naturaleza racional.",
+  "temas": [
+   "libertad",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-016",
+  "fuente": "kant-grundlegung",
+  "original": "weil Glückseligkeit nicht ein Ideal der Vernunft, sondern der Einbildungskraft ist",
+  "traduccion": "Porque la felicidad no es un ideal de la razón, sino de la imaginación.",
+  "temas": [
+   "felicidad",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-017",
+  "fuente": "kant-grundlegung",
+  "original": "Pflicht ist die Notwendigkeit einer Handlung aus Achtung fürs Gesetz.",
+  "traduccion": "El deber es la necesidad de una acción por respeto a la ley.",
+  "temas": [
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-018",
+  "fuente": "kant-grundlegung",
+  "original": "Eigentlich ist Achtung die Vorstellung von einem Werte, der meiner Selbstliebe Abbruch tut.",
+  "traduccion": "En rigor, el respeto es la representación de un valor que le pone freno a mi amor propio.",
+  "temas": [
+   "vinculos",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-019",
+  "fuente": "kant-grundlegung",
+  "original": "Sie bewahren ihr Leben zwar pflichtmäßig aber nicht aus Pflicht.",
+  "traduccion": "Conservan su vida conforme al deber, pero no por deber.",
+  "temas": [
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-020",
+  "fuente": "kant-grundlegung",
+  "original": "dass er wohltue, nicht aus Neigung, sondern aus Pflicht",
+  "traduccion": "[Ahí empieza el valor del carácter:] en hacer el bien no por inclinación, sino por deber.",
+  "temas": [
+   "responsabilidad",
+   "compasion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-021",
+  "fuente": "kant-grundlegung",
+  "original": "haben alle Menschen schon von selbst die mächtigste und innigste Neigung zur Glückseligkeit",
+  "traduccion": "Todos los seres humanos tienen por sí mismos la inclinación más poderosa e íntima hacia la felicidad.",
+  "temas": [
+   "felicidad",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-022",
+  "fuente": "kant-grundlegung",
+  "original": "Geschicklichkeit und Fleiß im Arbeiten haben einen Marktpreis; Witz, lebhafte Einbildungskraft und Launen einen Affektionspreis; dagegen Treue im Versprechen, Wohlwollen aus Grundsätzen (nicht aus Instinkt) haben einen innern Wert.",
+  "traduccion": "La habilidad y la diligencia en el trabajo tienen un precio de mercado; el ingenio, la imaginación viva y el humor, un precio afectivo; en cambio, la fidelidad a lo prometido y la benevolencia por principios tienen un valor interior.",
+  "temas": [
+   "trabajo",
+   "vinculos",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-023",
+  "fuente": "kant-grundlegung",
+  "original": "Alle Achtung für eine Person ist eigentlich nur Achtung fürs Gesetz",
+  "traduccion": "Todo respeto por una persona es, en rigor, respeto por la ley [de la que nos da el ejemplo].",
+  "temas": [
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-024",
+  "fuente": "kant-practica",
+  "original": "Zwei Dinge erfüllen das Gemüt mit immer neuer und zunehmender Bewunderung und Ehrfurcht, je öfter und anhaltender sich das Nachdenken damit beschäftigt: Der bestirnte Himmel über mir, und das moralische Gesetz in mir.",
+  "traduccion": "Dos cosas llenan el ánimo de una admiración y un respeto siempre nuevos y crecientes, cuanto más a menudo y con más constancia se ocupa de ellas la reflexión: el cielo estrellado sobre mí y la ley moral en mí.",
+  "temas": [
+   "trascendencia",
+   "conciencia",
+   "naturaleza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 34",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/kritik-der-praktischen-vernunft/chapter/34",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-025",
+  "fuente": "kant-practica",
+  "original": "Pflicht! du erhabener großer Name",
+  "traduccion": "¡Deber! Nombre sublime y grande…",
+  "temas": [
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 17",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/kritik-der-praktischen-vernunft/chapter/17",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-026",
+  "fuente": "kant-orientarse",
+  "original": "Selbstdenken heißt den obersten Probierstein der Wahrheit in sich selbst (d. i. in seiner eigenen Vernunft) suchen; und die Maxime, jederzeit selbst zu denken, ist die Aufklärung.",
+  "traduccion": "Pensar por uno mismo significa buscar en sí mismo, es decir, en la propia razón, la piedra de toque suprema de la verdad; y la máxima de pensar siempre por uno mismo es la Ilustración.",
+  "temas": [
+   "autenticidad",
+   "verdad",
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/was-heisst-sich-im-denken-orientieren/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-027",
+  "fuente": "kant-orientarse",
+  "original": "Allein wie viel und mit welcher Richtigkeit würden wir wohl denken, wenn wir nicht gleichsam in Gemeinschaft mit andern, denen wir unsere und die uns ihre Gedanken mitteilen, dächten!",
+  "traduccion": "Pero ¡cuánto y con qué acierto pensaríamos si no pensáramos, por así decir, en comunidad con otros a quienes comunicamos nuestros pensamientos y que nos comunican los suyos!",
+  "temas": [
+   "comunicacion",
+   "encuentro",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/was-heisst-sich-im-denken-orientieren/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-028",
+  "fuente": "kant-orientarse",
+  "original": "Die Vernunft fühlt nicht; sie sieht ihren Mangel ein, und wirkt durch den Erkenntnistrieb das Gefühl des Bedürfnisses.",
+  "traduccion": "La razón no siente: advierte su carencia y, mediante el impulso de conocer, produce el sentimiento de necesidad.",
+  "temas": [
+   "emociones",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/was-heisst-sich-im-denken-orientieren/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-029",
+  "fuente": "kant-orientarse",
+  "original": "Und so zerstört Freiheit im Denken, wenn sie so gar unabhängig von Gesetzen der Vernunft verfahren will, endlich sich selbst.",
+  "traduccion": "Y así, la libertad de pensamiento, si quiere proceder con total independencia de las leyes de la razón, termina destruyéndose a sí misma.",
+  "temas": [
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/was-heisst-sich-im-denken-orientieren/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-030",
+  "fuente": "kant-orientarse",
+  "original": "Zwar sagt man: die Freiheit zu sprechen oder zu schreiben, könne uns zwar durch obere Gewalt, aber die Freiheit zu denken durch sie gar nicht genommen werden.",
+  "traduccion": "Se dice que un poder superior puede quitarnos la libertad de hablar o de escribir, pero de ningún modo la libertad de pensar.",
+  "temas": [
+   "libertad",
+   "poder"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/was-heisst-sich-im-denken-orientieren/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-031",
+  "fuente": "kant-bello",
+  "original": "Das Erhabene rührt, das Schöne reizt.",
+  "traduccion": "Lo sublime conmueve; lo bello encanta.",
+  "temas": [
+   "emociones",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-032",
+  "fuente": "kant-bello",
+  "original": "Die Nacht ist erhaben, der Tag ist schön.",
+  "traduccion": "La noche es sublime; el día es bello.",
+  "temas": [
+   "naturaleza",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-033",
+  "fuente": "kant-bello",
+  "original": "Erhabene Eigenschaften flößen Hochachtung, schöne aber Liebe ein.",
+  "traduccion": "Las cualidades sublimes inspiran respeto; las bellas, amor.",
+  "temas": [
+   "amor",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-034",
+  "fuente": "kant-bello",
+  "original": "Freundschaft hat hauptsächlich den Zug des Erhabenen.",
+  "traduccion": "La amistad tiene sobre todo el rasgo de lo sublime.",
+  "temas": [
+   "amistad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-035",
+  "fuente": "kant-bello",
+  "original": "In moralischen Eigenschaften ist wahre Tugend allein erhaben.",
+  "traduccion": "Entre las cualidades morales, solo la verdadera virtud es sublime.",
+  "temas": [
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-036",
+  "fuente": "kant-bello",
+  "original": "Wahrhaftigkeit und Redlichkeit ist einfältig und edel, Scherz und gefällige Schmeichelei ist fein und schön.",
+  "traduccion": "La veracidad y la honradez son sencillas y nobles; la broma y la lisonja amable son finas y bellas.",
+  "temas": [
+   "verdad",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-037",
+  "fuente": "kant-bello",
+  "original": "Scherze und Munterkeit schlagen in das Gefühl des Schönen ein.",
+  "traduccion": "Las bromas y la alegría pertenecen al sentimiento de lo bello.",
+  "temas": [
+   "humor",
+   "alegria"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-038",
+  "fuente": "kant-paz",
+  "original": "Der Friedenszustand unter Menschen, die neben einander leben, ist kein Naturstand",
+  "traduccion": "El estado de paz entre seres humanos que viven juntos no es un estado natural [hay que instaurarlo].",
+  "temas": [
+   "sociedad",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/zum-ewigen-frieden/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-039",
+  "fuente": "kant-paz",
+  "original": "Die Welt wird keinesweges dadurch untergehen, daß der bösen Menschen weniger wird.",
+  "traduccion": "El mundo no se va a hundir porque haya menos personas malas.",
+  "temas": [
+   "sociedad",
+   "humor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 9",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/zum-ewigen-frieden/chapter/9",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-040",
+  "fuente": "kant-paz",
+  "original": "Es ist der Handelsgeist, der mit dem Kriege nicht zusammen bestehen kann",
+  "traduccion": "Es el espíritu comercial el que no puede coexistir con la guerra.",
+  "temas": [
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 8",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/zum-ewigen-frieden/chapter/8",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-041",
+  "fuente": "kant-idea",
+  "original": "aus so krummem Holze, als woraus der Mensch gemacht ist, kann nichts ganz Gerades gezimmert werden.",
+  "traduccion": "De una madera tan torcida como aquella de la que está hecho el ser humano no puede tallarse nada del todo recto.",
+  "temas": [
+   "aceptacion",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-idee-zu-einer-allgemeinen-geschichte-in-weltbuergerlicher-absicht/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-042",
+  "fuente": "kant-idea",
+  "original": "Ich verstehe hier unter dem Antagonism die ungesellige Geselligkeit des Menschen",
+  "traduccion": "Entiendo aquí por antagonismo la insociable sociabilidad del ser humano.",
+  "temas": [
+   "vinculos",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-idee-zu-einer-allgemeinen-geschichte-in-weltbuergerlicher-absicht/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-043",
+  "fuente": "kant-facultades",
+  "original": "Von der Macht des Gemüths durch den bloßen Vorsatz seiner krankhaften Gefühle Meister zu sein.",
+  "traduccion": "Del poder del ánimo para dominar sus sentimientos morbosos por la sola resolución.",
+  "temas": [
+   "regulacion-emocional",
+   "salud-mental"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Título del ensayo de Kant sobre la hipocondría, el sueño y el pensamiento. Hoy se sabe que no todo malestar se domina con la voluntad: ver la nota del autor.",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-044",
+  "fuente": "kant-facultades",
+  "original": "Ein vernünftiger Mensch statuirt keine solche Hypochondrie: sondern wenn ihm Beängstigungen anwandeln, die in Grillen, d.i. selbst ausgedachte Übel, ausschlagen wollen, so fragt er sich, ob ein Object derselben da sei.",
+  "traduccion": "Cuando lo asaltan angustias que amenazan convertirse en cavilaciones, es decir, en males imaginados, una persona razonable se pregunta si existe un objeto que las justifique.",
+  "temas": [
+   "angustia",
+   "regulacion-emocional",
+   "terapia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Kant describe un procedimiento cercano a lo que hoy se llama examen de la evidencia en la terapia cognitiva.",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-045",
+  "fuente": "kant-facultades",
+  "original": "eine natürliche Anlage zur Hypochondrie",
+  "traduccion": "[Por mi pecho estrecho tengo] una disposición natural a la hipocondría.",
+  "temas": [
+   "salud-mental",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "nota": "Kant habla de sí mismo y de cómo aprendió a convivir con ese malestar.",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-046",
+  "fuente": "kant-facultades",
+  "original": "Aber über ihren Einfluß auf meine Gedanken und Handlungen bin ich Meister geworden durch Abkehrung der Aufmerksamkeit von diesem Gefühle, als ob es mich gar nicht anginge.",
+  "traduccion": "Pero llegué a dominar su influencia sobre mis pensamientos y acciones apartando la atención de ese sentimiento, como si no tuviera que ver conmigo.",
+  "temas": [
+   "atencion",
+   "regulacion-emocional",
+   "salud-mental"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-047",
+  "fuente": "kant-facultades",
+  "original": "da man des Lebens mehr froh wird durch das, was man im freien Gebrauch desselben thut, als was man genießt",
+  "traduccion": "Uno se alegra más de la vida por lo que hace en el uso libre de ella que por lo que disfruta.",
+  "temas": [
+   "sentido-de-vida",
+   "alegria",
+   "trabajo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-048",
+  "fuente": "kant-facultades",
+  "original": "Einem Gelehrten ist das Denken ein Nahrungsmittel, ohne welches, wenn er wach und allein ist, er nicht leben kann",
+  "traduccion": "Para quien estudia, pensar es un alimento sin el cual, cuando está despierto y solo, no puede vivir.",
+  "temas": [
+   "conocimiento",
+   "soledad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-049",
+  "fuente": "kant-facultades",
+  "original": "daß das angestrengte Denken im Gehen geschwinde matt macht; dagegen, wenn man sich dem freien Spiel der Einbildungskraft überläßt, die Motion restaurirend ist.",
+  "traduccion": "Pensar con esfuerzo mientras se camina cansa enseguida; en cambio, si uno se entrega al libre juego de la imaginación, el movimiento repara.",
+  "temas": [
+   "cuerpo",
+   "creatividad",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-050",
+  "fuente": "kant-facultades",
+  "original": "Diese ist alsdann philosophisch, wenn bloß die Macht der Vernunft im Menschen, über seine sinnliche Gefühle durch einen sich selbst gegebenen Grundsatz Meister zu sein, die Lebensweise bestimmt.",
+  "traduccion": "[El arte de cuidar la salud] es filosófico cuando el modo de vida lo determina solo el poder de la razón para dominar los sentimientos sensibles mediante un principio que uno mismo se da.",
+  "temas": [
+   "habitos",
+   "regulacion-emocional",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "immanuel-kant-051",
+  "fuente": "kant-orientarse",
+  "original": "Der Freiheit zu denken ist erstlich der bürgerliche Zwang entgegengesetzt.",
+  "traduccion": "A la libertad de pensar se opone, en primer lugar, la coacción civil.",
+  "temas": [
+   "libertad",
+   "poder"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/was-heisst-sich-im-denken-orientieren/chapter/2",
+  "verificada": true
+ }
+]

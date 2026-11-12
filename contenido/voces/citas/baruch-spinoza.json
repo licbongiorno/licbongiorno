@@ -1,0 +1,809 @@
+[
+ {
+  "id": "baruch-spinoza-001",
+  "fuente": "spinoza-etica",
+  "original": "I shall consider human actions and desires in exactly the same manner, as though I were concerned with lines, planes, and solids.",
+  "traduccion": "Consideraré las acciones y los deseos humanos exactamente como si se tratara de líneas, planos y cuerpos.",
+  "temas": [
+   "emociones",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-002",
+  "fuente": "spinoza-etica",
+  "original": "Everything, in so far as it is in itself, endeavours to persist in its own being.",
+  "traduccion": "Cada cosa, en cuanto está en sí, se esfuerza por perseverar en su ser.",
+  "temas": [
+   "existencia",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-003",
+  "fuente": "spinoza-etica",
+  "original": "men think themselves free inasmuch as they are conscious of their volitions and desires, and never even dream, in their ignorance, of the causes",
+  "traduccion": "Los seres humanos se creen libres porque son conscientes de sus voliciones y deseos, y en su ignorancia ni sueñan con las causas [que los determinan].",
+  "temas": [
+   "libertad",
+   "inconsciente",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 1",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-004",
+  "fuente": "spinoza-etica",
+  "original": "conscious of their own actions and appetites, but ignorant of the causes whereby they are determined to any particular desire",
+  "traduccion": "Conscientes de sus acciones y apetitos, pero ignorantes de las causas que los determinan a desear algo en particular.",
+  "temas": [
+   "inconsciente",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-005",
+  "fuente": "spinoza-etica",
+  "original": "Desire is the actual essence of man",
+  "traduccion": "El deseo es la esencia misma del ser humano.",
+  "temas": [
+   "deseo",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-006",
+  "fuente": "spinoza-etica",
+  "original": "Pleasure is the transition of a man from a less to a greater perfection.",
+  "traduccion": "La alegría es el paso de una perfección menor a una mayor.",
+  "temas": [
+   "alegria",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-007",
+  "fuente": "spinoza-etica",
+  "original": "Pain is the transition of a man from a greater to a less perfection.",
+  "traduccion": "La tristeza es el paso de una perfección mayor a una menor.",
+  "temas": [
+   "tristeza",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-008",
+  "fuente": "spinoza-etica",
+  "original": "Love is nothing else but pleasure accompanied by the idea of an external cause",
+  "traduccion": "El amor no es sino una alegría acompañada de la idea de una causa exterior.",
+  "temas": [
+   "amor",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-009",
+  "fuente": "spinoza-etica",
+  "original": "Hatred is pain, accompanied by the idea of an external cause.",
+  "traduccion": "El odio es una tristeza acompañada de la idea de una causa exterior.",
+  "temas": [
+   "ira",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-010",
+  "fuente": "spinoza-etica",
+  "original": "Wonder is the conception (imaginatio) of anything, wherein the mind comes to a stand, because the particular concept in question has no connection with other concepts",
+  "traduccion": "La admiración es la imaginación de algo en que la mente se detiene, porque esa idea no tiene conexión con otras.",
+  "temas": [
+   "emociones",
+   "atencion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-011",
+  "fuente": "spinoza-etica",
+  "original": "Hope is an inconstant pleasure, arising from the idea of something past or future, whereof we to a certain extent doubt the issue.",
+  "traduccion": "La esperanza es una alegría inconstante, surgida de la idea de algo pasado o futuro de cuyo desenlace dudamos en alguna medida.",
+  "temas": [
+   "esperanza",
+   "incertidumbre",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-012",
+  "fuente": "spinoza-etica",
+  "original": "Fear is an inconstant pain arising from the idea of something past or future, whereof we to a certain extent doubt the issue",
+  "traduccion": "El miedo es una tristeza inconstante, surgida de la idea de algo pasado o futuro de cuyo desenlace dudamos en alguna medida.",
+  "temas": [
+   "miedo",
+   "incertidumbre",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "fragmento": true,
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-013",
+  "fuente": "spinoza-etica",
+  "original": "Confidence is pleasure arising from the idea of something past or future, wherefrom all cause of doubt has been removed.",
+  "traduccion": "La seguridad es una alegría surgida de la idea de algo pasado o futuro del que se ha eliminado toda causa de duda.",
+  "temas": [
+   "emociones",
+   "esperanza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-014",
+  "fuente": "spinoza-etica",
+  "original": "Despair is pain arising from the idea of something past or future, wherefrom all cause of doubt has been removed.",
+  "traduccion": "La desesperación es una tristeza surgida de la idea de algo pasado o futuro del que se ha eliminado toda causa de duda.",
+  "temas": [
+   "angustia",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-015",
+  "fuente": "spinoza-etica",
+  "original": "Disappointment is pain accompanied by the idea of something past, which has had an issue contrary to our hope.",
+  "traduccion": "La decepción es una tristeza acompañada de la idea de algo pasado que tuvo un desenlace contrario a nuestra esperanza.",
+  "temas": [
+   "tristeza",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-016",
+  "fuente": "spinoza-etica",
+  "original": "Pity is pain accompanied by the idea of evil, which has befallen someone else whom we conceive to be like ourselves",
+  "traduccion": "La conmiseración es una tristeza acompañada de la idea de un mal que le sucedió a otro que imaginamos semejante a nosotros.",
+  "temas": [
+   "empatia",
+   "compasion",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "fragmento": true,
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-017",
+  "fuente": "spinoza-etica",
+  "original": "Envy is hatred, in so far as it induces a man to be pained by another's good fortune, and to rejoice in another's evil fortune.",
+  "traduccion": "La envidia es odio en cuanto lleva a entristecerse por la dicha ajena y alegrarse por la desgracia ajena.",
+  "temas": [
+   "emociones",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-018",
+  "fuente": "spinoza-etica",
+  "original": "Humility is pain arising from a man's contemplation of his own weakness of body or mind.",
+  "traduccion": "La humildad es una tristeza que surge de contemplar la propia debilidad del cuerpo o de la mente.",
+  "temas": [
+   "autoestima",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-019",
+  "fuente": "spinoza-etica",
+  "original": "Pride is thinking too highly of one's self from self--love.",
+  "traduccion": "La soberbia es estimarse más de lo justo por amor de sí.",
+  "temas": [
+   "autoestima",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-020",
+  "fuente": "spinoza-etica",
+  "original": "Shame is pain accompanied by the idea of some action of our own, which we believe to be blamed by others.",
+  "traduccion": "La vergüenza es una tristeza acompañada de la idea de alguna acción propia que creemos censurada por los demás.",
+  "temas": [
+   "culpa",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-021",
+  "fuente": "spinoza-etica",
+  "original": "Regret is the desire or appetite to possess something, kept alive by the remembrance of the said thing, and at the same time constrained by the remembrance of other things which exclude the existence of it.",
+  "traduccion": "La añoranza es el deseo de poseer algo, mantenido vivo por su recuerdo y a la vez frenado por el recuerdo de otras cosas que excluyen su existencia.",
+  "temas": [
+   "duelo",
+   "memoria",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-022",
+  "fuente": "spinoza-etica",
+  "original": "Emulation is the desire of something, engendered in us by our conception that others have the same desire.",
+  "traduccion": "La emulación es el deseo de algo, engendrado en nosotros porque imaginamos que otros tienen el mismo deseo.",
+  "temas": [
+   "deseo",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-023",
+  "fuente": "spinoza-etica",
+  "original": "Thankfulness or Gratitude is the desire or zeal springing from love, whereby we endeavour to benefit him, who with similar feelings of love has conferred a benefit on us.",
+  "traduccion": "El agradecimiento o gratitud es el deseo, nacido del amor, de hacer el bien a quien, con un afecto semejante, nos hizo bien.",
+  "temas": [
+   "gratitud",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-024",
+  "fuente": "spinoza-etica",
+  "original": "Anger is the desire, whereby through hatred we are induced to injure one whom we hate",
+  "traduccion": "La ira es el deseo que, por odio, nos impulsa a dañar a quien odiamos.",
+  "temas": [
+   "ira",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "fragmento": true,
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-025",
+  "fuente": "spinoza-etica",
+  "original": "Revenge is the desire whereby we are induced, through mutual hatred, to injure one who, with similar feelings, has injured us.",
+  "traduccion": "La venganza es el deseo que, por odio recíproco, nos impulsa a dañar a quien, con un afecto semejante, nos dañó.",
+  "temas": [
+   "ira",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-026",
+  "fuente": "spinoza-etica",
+  "original": "Ambition is the immoderate desire of power.",
+  "traduccion": "La ambición es el deseo inmoderado de poder.",
+  "temas": [
+   "poder",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-027",
+  "fuente": "spinoza-etica",
+  "original": "An emotion, which is a passion, ceases to be a passion, as soon as we form a clear and distinct idea thereof.",
+  "traduccion": "Un afecto que es una pasión deja de ser pasión en cuanto nos formamos de él una idea clara y distinta.",
+  "temas": [
+   "regulacion-emocional",
+   "autoconocimiento",
+   "terapia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 5",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-028",
+  "fuente": "spinoza-etica",
+  "original": "An emotion can only be controlled or destroyed by another emotion contrary thereto, and with more power for controlling emotion.",
+  "traduccion": "Un afecto solo puede ser reprimido o suprimido por otro afecto contrario y más fuerte.",
+  "temas": [
+   "regulacion-emocional",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-029",
+  "fuente": "spinoza-etica",
+  "original": "An emotion is stronger in proportion to the number of simultaneous concurrent causes whereby it is aroused.",
+  "traduccion": "Un afecto es tanto más fuerte cuantas más causas concurren a la vez para despertarlo.",
+  "temas": [
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 5",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-030",
+  "fuente": "spinoza-etica",
+  "original": "Human infirmity in moderating and checking the emotions I name bondage",
+  "traduccion": "Llamo servidumbre a la impotencia humana para moderar y reprimir los afectos.",
+  "temas": [
+   "libertad",
+   "regulacion-emocional"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-031",
+  "fuente": "spinoza-etica",
+  "original": "Hatred is increased by being reciprocated, and can on the other hand be destroyed by love.",
+  "traduccion": "El odio aumenta cuando es correspondido y, en cambio, puede ser destruido por el amor.",
+  "temas": [
+   "ira",
+   "amor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-032",
+  "fuente": "spinoza-etica",
+  "original": "Hatred can never be good.",
+  "traduccion": "El odio nunca puede ser bueno.",
+  "temas": [
+   "ira"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-033",
+  "fuente": "spinoza-etica",
+  "original": "endeavours, as far as possible, to render back love, or kindness, for other men's hatred",
+  "traduccion": "[Quien vive guiado por la razón] se esfuerza, en lo posible, por devolver amor o bondad al odio de los demás.",
+  "temas": [
+   "compasion",
+   "ira"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-034",
+  "fuente": "spinoza-etica",
+  "original": "Emotions of hope and fear cannot be in themselves good.",
+  "traduccion": "Los afectos de esperanza y miedo no pueden ser buenos por sí mismos.",
+  "temas": [
+   "esperanza",
+   "miedo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-035",
+  "fuente": "spinoza-etica",
+  "original": "Humility is not a virtue, or does not arise from reason.",
+  "traduccion": "La humildad no es una virtud, o no nace de la razón.",
+  "temas": [
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-036",
+  "fuente": "spinoza-etica",
+  "original": "Self--approval may arise from reason, and that which arises from reason is the highest possible.",
+  "traduccion": "El contento de sí puede nacer de la razón, y el que nace de la razón es el más alto posible.",
+  "temas": [
+   "autoestima",
+   "felicidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-037",
+  "fuente": "spinoza-etica",
+  "original": "Pity, in a man who lives under the guidance of reason, is in itself bad and useless.",
+  "traduccion": "En quien vive guiado por la razón, la conmiseración es en sí misma mala e inútil.",
+  "temas": [
+   "compasion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Spinoza no rechaza ayudar a otros: sostiene que hay que hacerlo guiado por la razón y no por la tristeza.",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-038",
+  "fuente": "spinoza-etica",
+  "original": "to man there is nothing more useful than man",
+  "traduccion": "Para el ser humano no hay nada más útil que otro ser humano.",
+  "temas": [
+   "vinculos",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-039",
+  "fuente": "spinoza-etica",
+  "original": "The highest good of those who follow virtue is common to all, and therefore all can equally rejoice therein.",
+  "traduccion": "El bien supremo de quienes siguen la virtud es común a todos, y por eso todos pueden gozarlo por igual.",
+  "temas": [
+   "felicidad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-040",
+  "fuente": "spinoza-etica",
+  "original": "Yet minds are not conquered by force, but by love and high--mindedness.",
+  "traduccion": "Sin embargo, las almas no se vencen con las armas, sino con el amor y la generosidad.",
+  "temas": [
+   "amor",
+   "poder"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-041",
+  "fuente": "spinoza-etica",
+  "original": "A free man thinks of death least of all things; and his wisdom is a meditation not of death but of life.",
+  "traduccion": "El hombre libre en nada piensa menos que en la muerte, y su sabiduría es una meditación no de la muerte sino de la vida.",
+  "temas": [
+   "muerte",
+   "libertad",
+   "sentido-de-vida"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-042",
+  "fuente": "spinoza-etica",
+  "original": "He who rightly realizes, that all things follow from the necessity of the divine nature",
+  "traduccion": "Quien sabe bien que todo se sigue de la necesidad de la naturaleza divina [no hallará nada digno de odio, risa o desprecio].",
+  "temas": [
+   "aceptacion",
+   "trascendencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-043",
+  "fuente": "spinoza-etica",
+  "original": "The mind's highest good is the knowledge of God",
+  "traduccion": "El bien supremo de la mente es el conocimiento de Dios.",
+  "temas": [
+   "trascendencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 4",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-044",
+  "fuente": "spinoza-etica",
+  "original": "we feel and know that we are eternal",
+  "traduccion": "Sentimos y experimentamos que somos eternos.",
+  "temas": [
+   "trascendencia",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 5",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-045",
+  "fuente": "spinoza-etica",
+  "original": "Blessedness is not the reward of virtue, but virtue itself",
+  "traduccion": "La felicidad no es el premio de la virtud, sino la virtud misma.",
+  "temas": [
+   "felicidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Parte 5",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-046",
+  "fuente": "spinoza-etica",
+  "original": "But all things excellent are as difficult as they are rare.",
+  "traduccion": "Pero todo lo excelso es tan difícil como raro.",
+  "temas": [
+   "transformacion-personal",
+   "esperanza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Última frase de la Ética.",
+  "ubicacion": "Parte 5",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-047",
+  "fuente": "spinoza-etica",
+  "original": "Devotion is love towards one whom we admire.",
+  "traduccion": "La devoción es amor hacia alguien a quien admiramos.",
+  "temas": [
+   "amor",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-048",
+  "fuente": "spinoza-etica",
+  "original": "Indignation is hatred towards one who has done evil to another.",
+  "traduccion": "La indignación es odio hacia quien hizo mal a otro.",
+  "temas": [
+   "ira",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-049",
+  "fuente": "spinoza-etica",
+  "original": "Partiality is thinking too highly of anyone because of the love we bear him.",
+  "traduccion": "La sobrestimación es estimar a alguien más de lo justo por el amor que le tenemos.",
+  "temas": [
+   "amor",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-050",
+  "fuente": "spinoza-etica",
+  "original": "Benevolence is the desire of benefiting one whom we pity.",
+  "traduccion": "La benevolencia es el deseo de hacer bien a alguien que nos inspira conmiseración.",
+  "temas": [
+   "compasion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ },
+ {
+  "id": "baruch-spinoza-051",
+  "fuente": "spinoza-etica",
+  "original": "Daring is the desire, whereby a man is set on to do something dangerous which his equals fear to attempt.",
+  "traduccion": "La audacia es el deseo que impulsa a hacer algo peligroso que nuestros iguales temen intentar.",
+  "temas": [
+   "miedo",
+   "voluntad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
+  "ubicacion": "Parte 3",
+  "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+  "verificada": true
+ }
+]
