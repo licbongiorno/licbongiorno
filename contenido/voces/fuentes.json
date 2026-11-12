@@ -1185,5 +1185,38 @@
   ],
   "edicion": "Edición alemana (1922), digitalizada en Internet Archive",
   "dominio_publico": "Husserl murió en 1938."
+ },
+ "wundt-lecciones-alma": {
+  "titulo": "Vorlesungen über die Menschen- und Thierseele",
+  "titulo_es": "Lecciones sobre el alma humana y animal",
+  "anio": 1892,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/vorlesungenueber00wunduoft/vorlesungenueber00wunduoft_djvu.txt"
+  ],
+  "edicion": "Edición alemana (1892), digitalizada en Internet Archive",
+  "dominio_publico": "Wundt murió en 1920."
+ },
+ "wundt-etica-1903": {
+  "titulo": "Ethik. Eine Untersuchung der Tatsachen und Gesetze des sittlichen Lebens (2.ª ed.)",
+  "titulo_es": "Ética. Una investigación de los hechos y leyes de la vida moral",
+  "anio": 1903,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/ethikeineunters02wundgoog/ethikeineunters02wundgoog_djvu.txt"
+  ],
+  "edicion": "Segunda edición alemana (1903), digitalizada en Internet Archive",
+  "dominio_publico": "Wundt murió en 1920."
+ },
+ "wundt-volkerpsychologie": {
+  "titulo": "Grundzüge der Völkerpsychologie / Ausdrucksbewegungen y afectos (texto de Wundt)",
+  "titulo_es": "Psicología de los pueblos (texto de Wundt)",
+  "anio": 1904,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/b28118996/b28118996_djvu.txt"
+  ],
+  "edicion": "Edición alemana digitalizada en Internet Archive",
+  "dominio_publico": "Wundt murió en 1920."
  }
 }

@@ -27,6 +27,8 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
 | Lao-tse | 52 | 52 | 1 | completo (≥ 50) |
 | Patanjali | 52 | 52 | 1 | completo (≥ 50) |
 | Sándor Ferenczi | 50 | 50 | 2 | completo (≥ 50) |
+| Wilhelm Wundt | 50 | 50 | 3 | completo (≥ 50) |
+| Edmund Husserl | 61 | 61 | 1 | completo (≥ 50) |
 
 ## Citas no verificadas
 
@@ -117,7 +119,6 @@ Ninguna.
 | Binswanger | 1881–1966 | Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Laing | 1927–1989 | Obra protegida por derechos de autor hasta el 2060 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Buber | 1878–1965 | Obra protegida por derechos de autor hasta el 2036 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Husserl | 1859–1938 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Heidegger | 1889–1976 | Obra protegida por derechos de autor hasta el 2047 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Sartre | 1905–1980 | Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Merleau-Ponty | 1908–1961 | Obra protegida por derechos de autor hasta el 2032 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
@@ -128,8 +129,6 @@ Ninguna.
 | Wilber | n. 1949 | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Assagioli | 1888–1974 | Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Otto Rank | 1884–1939 | Colección incompleta: 18 citas verificadas de 50 (solo dos libros en inglés de dominio público accesibles). Faltan ediciones de sus obras en alemán. No publicado. |
-| Edmund Husserl |  | Filosofía fenomenológica. Solo tenemos textos alemanes con OCR de baja calidad (Ideas, 1922) y un texto de 1900 con frases verificables escasas. Pendiente: reunir 50 citas con transcripción limpia. |
-| Wilhelm Wundt | 1832–1920 | Psicología experimental y Völkerpsicología. El escaneo de la Ética (1892) tiene demasiado ruido de OCR para citar con seguridad. Pendiente: buscar una edición con texto limpio. |
 | Harry Stack Sullivan | 1892–1949 | Psiquiatría interpersonal. Sus libros en Internet Archive están en préstamo restringido, sin texto accesible. Pendiente. |
 | Iván Pávlov | 1849–1936 | Reflejos condicionados. Las lecciones rusas de 1927 están en préstamo restringido. Pendiente: buscar otra edición accesible. |
 | Lev Vygotski | 1896–1934 | Psicología del desarrollo. Las traducciones disponibles tienen derechos vigentes y no pude acceder a un original ruso de dominio público. Pendiente. |
@@ -216,3 +215,6 @@ Ninguna.
 - `wundt-ethik` — *Ethik. Eine Untersuchung der Tatsachen und Gesetze des sittlichen Lebens* (1892), Edición alemana (1892), digitalizada en Internet Archive <https://archive.org/download/ethik01unkngoog/ethik01unkngoog_djvu.txt> — Wundt murió en 1920.
 - `husserl-investigaciones` — *Logische Untersuchungen* (1900), Primera edición alemana (1900), digitalizada en Internet Archive <https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt> — Husserl murió en 1938.
 - `husserl-ideas` — *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie* (1913), Edición alemana (1922), digitalizada en Internet Archive <https://archive.org/download/ideenzueinerrein00unse/ideenzueinerrein00unse_djvu.txt> — Husserl murió en 1938.
+- `wundt-lecciones-alma` — *Vorlesungen über die Menschen- und Thierseele* (1892), Edición alemana (1892), digitalizada en Internet Archive <https://archive.org/download/vorlesungenueber00wunduoft/vorlesungenueber00wunduoft_djvu.txt> — Wundt murió en 1920.
+- `wundt-etica-1903` — *Ethik. Eine Untersuchung der Tatsachen und Gesetze des sittlichen Lebens (2.ª ed.)* (1903), Segunda edición alemana (1903), digitalizada en Internet Archive <https://archive.org/download/ethikeineunters02wundgoog/ethikeineunters02wundgoog_djvu.txt> — Wundt murió en 1920.
+- `wundt-volkerpsychologie` — *Grundzüge der Völkerpsychologie / Ausdrucksbewegungen y afectos (texto de Wundt)* (1904), Edición alemana digitalizada en Internet Archive <https://archive.org/download/b28118996/b28118996_djvu.txt> — Wundt murió en 1920.

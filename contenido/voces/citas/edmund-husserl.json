@@ -1,0 +1,907 @@
+[
+ {
+  "id": "edmund-husserl-001",
+  "fuente": "husserl-investigaciones",
+  "original": "Umsomehr beunruhigte mich daher auch der principielle Zweifel, wie sich die Objectivität der Mathematik und aller Wissenschaft überhaupt mit einer psychologischen Begründung des Logischen vertrage.",
+  "traduccion": "Me inquietó entonces la duda de principio sobre cómo puede conciliarse la objetividad de la matemática y de toda ciencia con una fundamentación psicológica de lo lógico.",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-002",
+  "fuente": "husserl-investigaciones",
+  "original": "Das Gebiet einer Wissenschaft ist eine objectiv geschlossene Einheit, es liegt nicht in unserer Willkür, wo und wie wir Wahrheitsgebiete abgrenzen.",
+  "traduccion": "El ámbito de una ciencia es una unidad objetivamente cerrada: no depende de nuestro arbitrio dónde y cómo delimitamos los campos de la verdad.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-003",
+  "fuente": "husserl-investigaciones",
+  "original": "Daran schließt sich naturgemäß die Frage nach den theoretischen Grundlagen dieser Disciplin und im Besonderen nach ihrem Verhältnis zur Psychologie.",
+  "traduccion": "De ahí se sigue naturalmente la pregunta por los fundamentos teóricos de esta disciplina y, en particular, por su relación con la psicología.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-004",
+  "fuente": "husserl-investigaciones",
+  "original": "Das vollkommenste Kennzeichen der Richtigkeit ist die Evidenz, es gilt uns als unmittelbares Innewerden der Wahrheit selbst.",
+  "traduccion": "El signo más perfecto de la corrección es la evidencia: vale para nosotros como percepción inmediata de la verdad misma.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-005",
+  "fuente": "husserl-investigaciones",
+  "original": "Im letzten Grunde beruht also jede echte und speciell jede wissenschaftliche Erkenntnis auf Evidenz, und so weit die Evidenz reicht, so weit reicht auch der Begriff des Wissens.",
+  "traduccion": "En última instancia, todo conocimiento genuino, y en especial todo conocimiento científico, descansa sobre la evidencia; y el concepto de saber alcanza hasta donde llega la evidencia.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-006",
+  "fuente": "husserl-investigaciones",
+  "original": "Wenn wir innere Wahrnehmungen, einzeln oder gruppenweise erleben und als daseiend anerkennen, so haben wir Wissen aber noch lange nicht Wissenschaft.",
+  "traduccion": "Si vivimos percepciones internas, una por una o en grupos, y las reconocemos como existentes, tenemos saber, pero todavía no ciencia.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-007",
+  "fuente": "husserl-investigaciones",
+  "original": "Und nicht anders verhält es sich mit zusammenhangslosen Gruppen von Wissensacten überhaupt.",
+  "traduccion": "Y lo mismo ocurre con los grupos sin conexión de actos de saber en general.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-008",
+  "fuente": "husserl-investigaciones",
+  "original": "Zwar Mannigfaltigkeit des Wissens aber nicht bloße Mannigfaltigkeit will die Wissenschaft uns geben.",
+  "traduccion": "La ciencia quiere darnos una variedad del saber, pero no una mera variedad.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-009",
+  "fuente": "husserl-investigaciones",
+  "original": "Offenbar ist mehr erfordert, nämlich systematischer Zusammenhang im theoretischen Sinne, und darin liegt Begründung des Wissens und gehörige Verknüpfung und Ordnung in der Folge der Begründungen.",
+  "traduccion": "Pero se requiere algo más: una conexión sistemática en sentido teórico, en la que se fundamenta el saber y se ordena la sucesión de los fundamentos.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-010",
+  "fuente": "husserl-investigaciones",
+  "original": "Die Systematik, die der Wissenschaft eignet, natürlich der echten und rechten Wissenschaft, erfinden wir nicht, sondern sie liegt in den Sachen, wo wir sie einfach vorfinden, entdecken.",
+  "traduccion": "La sistemática que corresponde a la ciencia verdadera y auténtica no la inventamos: está en las cosas mismas, donde simplemente la encontramos y descubrimos.",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-011",
+  "fuente": "husserl-investigaciones",
+  "original": "Wozu die Begründungsverhältnisse erforschen und Beweise construiren, wenn man der Wahrheit in unmittelbarem Innewerden theilhaftig wird?",
+  "traduccion": "¿Para qué investigar las relaciones de fundamentación y construir pruebas, si se llega a participar de la verdad por intuición inmediata?",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-012",
+  "fuente": "husserl-investigaciones",
+  "original": "Weil sich ihm die Typen der Beweise durch mannigfache Erfahrung immer tiefer eingegraben haben und darum für ihn viel leichter wirksam und die Gedankenrichtung bestimmend sein müssen.",
+  "traduccion": "Porque los tipos de prueba se le han grabado cada vez más hondo por la experiencia múltiple, y por eso le resultan mucho más eficaces y determinan la dirección de su pensamiento.",
+  "temas": [
+   "conocimiento",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-013",
+  "fuente": "husserl-investigaciones",
+  "original": "Wie Wunderbares diese Methoden auch leisten, sie gewinnen Sinn und Rechtfertigung nur aus dem Wesen des begründenden Denkens.",
+  "traduccion": "Por maravillosos que sean los logros de estos métodos, solo obtienen sentido y justificación de la esencia del pensar fundamentador.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-014",
+  "fuente": "husserl-investigaciones",
+  "original": "Nicht allein giltige und ungiltige Begründungen, sondern auch giltige und ungiltige Theorien und Wissenschaften zu scheiden, fällt ihr zu.",
+  "traduccion": "Distinguir las fundamentaciones válidas de las inválidas, y también las teorías y ciencias válidas de las inválidas, le corresponde a ella.",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-015",
+  "fuente": "husserl-investigaciones",
+  "original": "Ob eine Wissenschaft in Wahrheit Wissenschaft, eine Methode in Wahrheit Methode ist, das hängt davon ab, ob sie dem Ziele gemäß ist, dem sie zustrebt.",
+  "traduccion": "Que una ciencia sea en verdad ciencia, y un método en verdad método, depende de si se ajusta al fin que persigue.",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-016",
+  "fuente": "husserl-investigaciones",
+  "original": "Was uns im Besonderen die Wissenschaftslehre giebt und allein geben kann, sind Specialkriterien.",
+  "traduccion": "Lo que nos da en particular la doctrina de la ciencia, y lo único que puede darnos, son criterios especiales.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-017",
+  "fuente": "husserl-investigaciones",
+  "original": "Daß diese Definition aber zu enge ist, geht nun daraus hervor, daß aus ihr der Zweck der wissenschaftlichen Erkenntnis nicht ableitbar ist.",
+  "traduccion": "Que esa definición es demasiado estrecha se deduce de que de ella no puede derivarse el fin del conocimiento científico.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-018",
+  "fuente": "husserl-investigaciones",
+  "original": "Vortreffliche Gedanken zur Umgrenzung unserer Disciplin findet man in Bolzano's \"Wissenschaftslehre\", aber mehr in den kritischen Voruntersuchungen als in der Definition, die er selbst bevorzugt.",
+  "traduccion": "Excelentes ideas para delimitar nuestra disciplina se encuentran en la «Doctrina de la ciencia» de Bolzano, pero más en sus investigaciones críticas preliminares que en la definición que él mismo prefiere.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-019",
+  "fuente": "husserl-investigaciones",
+  "original": "Stellen wir Erdmann und Drobisch, Wundt und Bergmann, Schuppe und Brentano, Sigwart und Ueberweg zusammen - ist das alles Eine Wissenschaft und nicht bloß Ein Name?",
+  "traduccion": "Si reunimos a Erdmann y Drobisch, Wundt y Bergmann, Schuppe y Brentano, Sigwart y Ueberweg, ¿es todo esto una sola ciencia y no solo un nombre?",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-020",
+  "fuente": "husserl-investigaciones",
+  "original": "Es giebt daher sowol Naturgesetze des Denkens als Normalgesetze für dasselbe, Vorschriften (Normen), nach denen es sich zu richten hat, um zu wahren Ergebnissen zu führen.",
+  "traduccion": "Hay, por tanto, leyes naturales del pensar y, además, leyes normales para él: prescripciones (normas) según las cuales debe regirse para llegar a resultados verdaderos.",
+  "temas": [
+   "conocimiento",
+   "verdad",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-021",
+  "fuente": "husserl-investigaciones",
+  "original": "Die soeben klargelegten Urtheile normativer Form sind offenbar nicht die einzigen, die man als solche wird gelten lassen, mag auch im Ausdruck das Wörtchen Sollen keine Verwendung finden.",
+  "traduccion": "Los juicios de forma normativa que acabamos de exponer no son, evidentemente, los únicos que se aceptarán como tales, aunque en la expresión no aparezca la palabra «deber».",
+  "temas": [
+   "responsabilidad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-022",
+  "fuente": "husserl-investigaciones",
+  "original": "Aber neben diesem gemeinsamen Gedanken der Abmessung an der Grundnorm besitzen diese Sätze einen eigenen, den einen vom anderen unterscheidenden theoretischen Gehalt.",
+  "traduccion": "Pero, además de esta idea común de medirse por la norma fundamental, estas proposiciones tienen un contenido teórico propio, que distingue unas de otras.",
+  "temas": [
+   "conocimiento",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-023",
+  "fuente": "husserl-investigaciones",
+  "original": "Es treten die theoretischen Erkenntnisse hinzu, welche die Grundlage für eine fruchtbare Realisirung der Zwecke und Mittel bieten müssen.",
+  "traduccion": "A ello se suman los conocimientos teóricos que deben ofrecer la base para una realización fecunda de fines y medios.",
+  "temas": [
+   "conocimiento",
+   "trabajo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-024",
+  "fuente": "husserl-investigaciones",
+  "original": "Die Streitfrage, ob die wesentlichen theoretischen Fundamente der normativen Logik in der Psychologie liegen.",
+  "traduccion": "La cuestión disputada es si los fundamentos teóricos esenciales de la lógica normativa residen en la psicología.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-025",
+  "fuente": "husserl-investigaciones",
+  "original": "Zur Abgrenzung einer neuen theoretischen Wissenschaft, zumal einer solchen, die in einem engeren und prägnanteren Sinne den Namen Logik verdienen sollte, besteht für diese Richtung kein Anlaß.",
+  "traduccion": "Para delimitar una nueva ciencia teórica, sobre todo una que merezca en un sentido más estricto y preciso el nombre de lógica, no hay motivo alguno en esta corriente.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-026",
+  "fuente": "husserl-investigaciones",
+  "original": "Ja nicht selten spricht man so, als gäbe die Psychologie das alleinige und ausreichende theoretische Fundament für die logische Kunstlehre.",
+  "traduccion": "No pocas veces se habla como si la psicología diera el único y suficiente fundamento teórico para el arte lógico.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-027",
+  "fuente": "husserl-investigaciones",
+  "original": "Man möge der reinen Logik noch so enge Grenzen ziehen, das Psychologische wird man nicht fernhalten können.",
+  "traduccion": "Por estrechos que se tracen los límites de la lógica pura, no se podrá mantener alejado lo psicológico.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-028",
+  "fuente": "husserl-investigaciones",
+  "original": "Die erstere hat es mit den Naturgesetzen, die letztere mit den Normalgesetzen des Denkens zu thun.",
+  "traduccion": "La primera tiene que ver con las leyes naturales; la segunda, con las leyes normales del pensar.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-029",
+  "fuente": "husserl-investigaciones",
+  "original": "Die Regeln der Logik müssen daher nicht vom zufälligen, sondern vom nothwendigen Vernunftgebrauche hergenommen sein, den man ohne alle Psychologie bei sich findet.",
+  "traduccion": "Las reglas de la lógica deben tomarse, por tanto, no de un uso casual, sino del uso necesario de la razón, que se encuentra en uno mismo sin ninguna psicología.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-030",
+  "fuente": "husserl-investigaciones",
+  "original": "Wir wollen in der Logik nicht wissen: wie der Verstand ist und denkt, und wie er bisher im Denken verfahren ist, sondern: wie er im Denken verfahren sollte.",
+  "traduccion": "En lógica no queremos saber cómo es y piensa el entendimiento, ni cómo ha procedido hasta ahora en su pensar, sino cómo debería proceder al pensar.",
+  "temas": [
+   "conocimiento",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-031",
+  "fuente": "husserl-investigaciones",
+  "original": "Sie antworten: der notwendige Verstandesgebrauch ist eben auch ein Verstandesgebrauch und gehört mit dem Verstände selbst in die Psychologie.",
+  "traduccion": "Ellos responden: el uso necesario del entendimiento es también un uso del entendimiento, y pertenece con el entendimiento mismo a la psicología.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-032",
+  "fuente": "husserl-investigaciones",
+  "original": "Will man leugnen, daß die Normalgesetze des Denkens den Charakter solcher psychologischen Specialgesetze haben?",
+  "traduccion": "¿Se quiere negar que las leyes normales del pensar tienen el carácter de tales leyes psicológicas especiales?",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-033",
+  "fuente": "husserl-investigaciones",
+  "original": "Gewiß hat die Logik eine ganz andere Aufgabe als die Psychologie, wer wird dies auch leugnen?",
+  "traduccion": "Ciertamente, la lógica tiene una tarea muy distinta de la psicología: ¿quién lo negará?",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-034",
+  "fuente": "husserl-investigaciones",
+  "original": "Die Möglichkeit bleibt offen, daß eine andere Wissenschaft und vielleicht in ungleich bedeutsamerer Weise zu ihrer Fundirung beitrüge.",
+  "traduccion": "Queda abierta la posibilidad de que otra ciencia, y quizás de modo mucho más significativo, contribuya a su fundamentación.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-035",
+  "fuente": "husserl-investigaciones",
+  "original": "Stellen wir uns für den Augenblick auf den Boden der psychologistischen Logik, nehmen wir also an, es lägen die wesentlichen theoretischen Fundamente der logischen Vorschriften in der Psychologie.",
+  "traduccion": "Coloquémonos por un momento en el terreno de la lógica psicologista: supongamos que los fundamentos teóricos esenciales de las prescripciones lógicas residen en la psicología.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-036",
+  "fuente": "husserl-investigaciones",
+  "original": "Keineswegs soll durch ihn irgend welche Geringschätzung der Psychologie ausgedrückt sein, der etwas am Zeuge flicken zu wollen, mir gänzlich fern liegt.",
+  "traduccion": "No se pretende con esto menospreciar en absoluto a la psicología, cuya crítica me es completamente ajena.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-037",
+  "fuente": "husserl-investigaciones",
+  "original": "Nicht durch Induction, sondern durch apodictische Evidenz finden sie Begründung und Rechtfertigung.",
+  "traduccion": "No por inducción, sino por evidencia apodíctica, encuentran fundamento y justificación.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-038",
+  "fuente": "husserl-investigaciones",
+  "original": "Einsichtig gerechtfertigt sind nicht bloße Wahrscheinlichkeiten ihrer Geltung, sondern ihre Geltung oder Wahrheit selbst.",
+  "traduccion": "Lo que se justifica con evidencia no son meras probabilidades de su validez, sino su validez o verdad misma.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-039",
+  "fuente": "husserl-investigaciones",
+  "original": "Wir haben ja Einsicht nicht in die bloße Wahrscheinlichkeit, sondern in die Wahrheit der logischen Gesetze.",
+  "traduccion": "Porque no tenemos conocimiento de la mera probabilidad, sino de la verdad de las leyes lógicas.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-040",
+  "fuente": "husserl-investigaciones",
+  "original": "Der bloße Hinblick auf irgend Eines der logischen Gesetze, auf seine eigentliche Meinung und die Einsichtigkeit, mit der es als Wahrheit an sich erfaßt wird, müßte der Täuschung ein Ende machen.",
+  "traduccion": "La sola mirada a cualquiera de las leyes lógicas, a su sentido propio y a la evidencia con que se la capta como verdad en sí, debería poner fin al engaño.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-041",
+  "fuente": "husserl-investigaciones",
+  "original": "Auch die Behauptung, daß alles Wissen ein bloß wahrscheinliches ist, wäre nur wahrscheinlich giltig; diese neue Behauptung abermals und so in infinitum.",
+  "traduccion": "También la afirmación de que todo saber es meramente probable sería solo probablemente válida; y esta nueva afirmación, a su vez, de nuevo, y así sin fin.",
+  "temas": [
+   "verdad",
+   "incertidumbre"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-042",
+  "fuente": "husserl-investigaciones",
+  "original": "Da jede folgende Stufe den Wahrscheinlichkeitsgrad der nächstvorhergehenden in Etwas her abdrückt, so müssten wir um den Werth aller Erkenntnis ernstlich besorgt sein.",
+  "traduccion": "Como cada grado siguiente imprime en algo el grado de probabilidad del anterior, deberíamos preocuparnos seriamente por el valor de todo conocimiento.",
+  "temas": [
+   "verdad",
+   "incertidumbre"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-043",
+  "fuente": "husserl-investigaciones",
+  "original": "Ist die Bemessung eines Denkens durch die logischen Gesetze etwa gleichbedeutend mit dem Nachweis seiner causalen Entstehung nach eben diesen Gesetzen als Naturgesetzen?",
+  "traduccion": "¿Equivale medir un pensar según las leyes lógicas a demostrar su origen causal según esas mismas leyes, como leyes naturales?",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-044",
+  "fuente": "husserl-investigaciones",
+  "original": "Zunächst verwechselt man die logischen Gesetze mit den Urtheilen (Urtheilsacten) , in denen sie möglicher Weise erkannt werden, also die Gesetze als \"Urtheilsinhalte\" mit den Urtheilen selbst.",
+  "traduccion": "Primero se confunden las leyes lógicas con los juicios (actos de juzgar) en los que pueden llegar a conocerse; es decir, los contenidos de la ley con los juicios mismos.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-045",
+  "fuente": "husserl-investigaciones",
+  "original": "Insbesondere wirken die Urtheile gesetzlichen Inhalts des Oefteren als Denkmotive, welche den Gang unserer Denkerlebnisse so bestimmen, wie es eben jene Inhalte, die Denkgesetze, vorschreiben.",
+  "traduccion": "Los juicios de contenido legal actúan con frecuencia como motivos del pensar, que dirigen el curso de nuestras vivencias de pensamiento tal como lo prescriben esos contenidos.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-046",
+  "fuente": "husserl-investigaciones",
+  "original": "Verwechselt man aber das Gesetz mit dem Urtheilen, Erkennen des Gesetzes, das Ideale mit dem Realen, so erscheint das Gesetz als eine bestimmende Macht unseres Denkverlaufs.",
+  "traduccion": "Si se confunde la ley con el juzgar, el conocer la ley, lo ideal con lo real, la ley aparece como una fuerza que determina el curso de nuestro pensar.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-047",
+  "fuente": "husserl-investigaciones",
+  "original": "Wir fingiren einen Idealmenschen, in dem alles Denken so von Statten geht, wie es die logischen Gesetze fordern.",
+  "traduccion": "Fingimos un hombre ideal en el que todo pensar transcurre como lo exigen las leyes lógicas.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-048",
+  "fuente": "husserl-investigaciones",
+  "original": "Causalgesetze, nach welchen das Denken so ablaufen muß, wie es nach den idealen Normen der Logik gerechtfertigt werden könnte, und diese Normen selbst - das ist doch keineswegs dasselbe.",
+  "traduccion": "Leyes causales según las cuales el pensar debe discurrir tal como podría justificarse según las normas ideales de la lógica, y esas normas mismas: eso no es, ciertamente, lo mismo.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-049",
+  "fuente": "husserl-investigaciones",
+  "original": "Kein logisches Gesetz implicirt einen \"matter of fact\", auch nicht die Existenz von Vorstellungen oder Urtheilen oder sonstigen Erkenntnisphänomenen.",
+  "traduccion": "Ninguna ley lógica implica un «matter of fact»: ni siquiera la existencia de representaciones, juicios u otros fenómenos del conocer.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-050",
+  "fuente": "husserl-investigaciones",
+  "original": "Man beachtet nicht, daß ein consequenter Psychologismus zu Interpretationen der logischen Gesetze nöthigen würde, welche ihrem wahren Sinn von Grund aus fremd wären.",
+  "traduccion": "No se advierte que un psicologismo consecuente obligaría a interpretar las leyes lógicas de un modo totalmente ajeno a su verdadero sentido.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-051",
+  "fuente": "husserl-investigaciones",
+  "original": "Diese Wahrheit ist mit Thatsächlichkeitsgehalt reichlich beschwert, sie selbst ist also nichts weniger als ein Gesetz im echten Sinne des Wortes.",
+  "traduccion": "Esa verdad está cargada de contenido fáctico; por tanto, no es en absoluto una ley en el sentido propio de la palabra.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-052",
+  "fuente": "husserl-investigaciones",
+  "original": "Und so sind alle Gesetze der exacten Wissenschaften über Thatsachen zwar echte Gesetze, aber erkenntnistheoretisch betrachtet nur idealisirende Fictionen - obschon Fictionen cum fundamento in re.",
+  "traduccion": "Y así, todas las leyes de las ciencias exactas sobre hechos son leyes auténticas, pero, consideradas desde la teoría del conocimiento, solo ficciones idealizadoras, aunque ficciones con fundamento en la cosa.",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-053",
+  "fuente": "husserl-investigaciones",
+  "original": "Diese reduciren wir dann auf gewisse exacte Gedanken von echtem Gesetzescharakter, und so gelingt uns der Aufbau formell vollkommener Systeme erklärender Theorien.",
+  "traduccion": "A estas las reducimos luego a ciertos pensamientos exactos de carácter legal auténtico, y así logramos construir sistemas formalmente perfectos de teorías explicativas.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-054",
+  "fuente": "husserl-investigaciones",
+  "original": "Ist echte Gesetzlichkeit, wie soeben gezeigt wurde, ein bloßes Ideal im Gebiete der Thatsachenerkenntnis , so findet sie sich dagegen realisirt im Gebiete der \"rein begrifflichen\" Erkenntnis.",
+  "traduccion": "Si la legalidad auténtica es, como acaba de mostrarse, un mero ideal en el terreno del conocimiento de hechos, en cambio se realiza en el terreno del conocimiento «puramente conceptual».",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-055",
+  "fuente": "husserl-investigaciones",
+  "original": "So verschafft uns die Erfahrung ein unmittelbares Bewußtsein der Gesetzlichkeit unseres Geistes.",
+  "traduccion": "Así, la experiencia nos proporciona una conciencia inmediata de la legalidad de nuestro espíritu.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-056",
+  "fuente": "husserl-investigaciones",
+  "original": "Niemand wird bezweifeln, daß die Erkenntnis der logischen Gesetze, als psychischer Act, die Einzelerfahrung voraussetzt, daß sie ihre Grundlage hat in der concreten Anschauung.",
+  "traduccion": "Nadie dudará de que el conocimiento de las leyes lógicas, como acto psíquico, presupone la experiencia singular, y que tiene su base en la intuición concreta.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-057",
+  "fuente": "husserl-investigaciones",
+  "original": "Alle Erkenntnis \"fängt mit der Erfahrung an\", aber sie \"entspringt\" darum nicht schon aus der Erfahrung.",
+  "traduccion": "Todo conocimiento «empieza con la experiencia», pero por eso no «surge» ya de la experiencia.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-058",
+  "fuente": "husserl-investigaciones",
+  "original": "Nun finden sich unter den Gesetzen auch solche, die sich auf Wahrheiten überhaupt beziehen, in denen also Wahrheiten die geregelten \"Gegenstände\" sind.",
+  "traduccion": "Entre las leyes hay también algunas que se refieren a las verdades en general, en las que, por tanto, las verdades son los «objetos» regulados.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-059",
+  "fuente": "husserl-investigaciones",
+  "original": "Es ist aber absurd Gesetze, die für Wahrheiten als solche gelten, als Gesetze für Thatsachen zu bezeichnen.",
+  "traduccion": "Es absurdo, sin embargo, llamar leyes de hechos a las leyes que valen para las verdades como tales.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-060",
+  "fuente": "husserl-investigaciones",
+  "original": "Da schriebe ein Gesetz gewissen Thatsachen, genannt Wahrheiten, Kommen und Gehen vor, und unter diesen Thatsachen sollte sich nun, als Eine neben anderen, das Gesetz selbst finden.",
+  "traduccion": "Pues una ley de este tipo atribuiría a ciertos hechos, llamados verdades, la aparición y la desaparición, y entre esos hechos debería encontrarse, como uno más, la propia ley.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ },
+ {
+  "id": "edmund-husserl-061",
+  "fuente": "husserl-investigaciones",
+  "original": "Und ähnlich, wenn wir das Wahrheitsgesetz als Coexistenzgesetz deuten wollten, als zeitlich Einzelnes und doch als allgemeine Regel für alles und jedes zeitlich Seiende maßgebend.",
+  "traduccion": "Y de manera parecida, si quisiéramos interpretar la ley de la verdad como ley de coexistencia, como algo temporal singular y a la vez regla general para todo lo que existe en el tiempo.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "",
+  "url": "https://archive.org/download/logischeuntersuc01hussuoft/logischeuntersuc01hussuoft_djvu.txt",
+  "verificada": true
+ }
+]
