@@ -1,0 +1,165 @@
+<!--{
+  "ruta": "/laboratorio-respirar-volver-al-presente/",
+  "titulo": "Respirar, volver al presente: visualizador de respiración",
+  "descripcion": "Un visualizador para acompañar la respiración: consciente libre, cuadrada, 4-7-8, exhalación prolongada o tu propio ritmo. Sin promesas, a tu ritmo.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Respirar, volver al presente",
+      "/laboratorio-respirar-volver-al-presente/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Respirar, <em>volver al presente</em>",
+  "bajada": "Una figura que se expande cuando inspirás y se recoge cuando exhalás. Cinco maneras de acompañar la respiración, con el tiempo, el ritmo y el estilo que elijas.",
+  "respuesta": "Respirar, volver al presente es un visualizador interactivo de respiración con cinco modalidades: respiración consciente libre, respiración cuadrada, 4-7-8, exhalación prolongada y ritmo personalizado. Muestra la fase, el tiempo restante, la duración y los ciclos, con tres estilos visuales y sonido opcional. Puede ayudar a autorregularse, pero no cura la ansiedad ni reemplaza un tratamiento; no conviene forzar el aire ni sostenerlo si resulta incómodo.",
+  "scripts": [
+    "lab-base.js",
+    "respirar.js"
+  ],
+  "wa_tema": "el laboratorio de respiración",
+  "articulos": [
+    "respiracion-y-emociones",
+    "la-ventana-de-tolerancia",
+    "ansiedad-cuando-el-cuerpo-habla",
+    "mindfulness-atencion-plena"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Seguridad y cuidado"><p><strong>Seguridad y cuidado.</strong> Esta práctica es voluntaria. No fuerces la respiración ni sostengas el aire si te resulta incómodo. Si sentís mareo, falta de aire, angustia o malestar, detené el ejercicio y volvé a respirar naturalmente. Si tenés una enfermedad respiratoria o cardíaca, estás cursando un embarazo, o retener el aire te genera angustia o pánico, preferí las técnicas sin pausas y consultá con tu médico. Respirar puede ayudar a regularse, pero no reemplaza un tratamiento psicológico ni médico. Si estás en una crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p></aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p class="mapa-cita">No hace falta cambiar nada. Por un momento, simplemente observá cómo estás respirando.</p>
+        <p>La respiración es una de las pocas funciones del cuerpo que ocurre sola y que, a la vez, podemos modular. Por eso puede ser un puente para volver al presente. Este visualizador acompaña cinco maneras de respirar: desde observar sin intervenir hasta ritmos con tiempos definidos. Ninguna es obligatoria ni «mejor»: probá la que te resulte cómoda.</p>
+        <p>Si buscás más técnicas —diafragmática, alterna, del abejorro, entre otras—, mirá el <a href="/laboratorio-de-respiraciones/">laboratorio de respiraciones</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>A tu ritmo.</strong> Podés pausar, cambiar la técnica o terminar cuando quieras.</li>
+        <li><strong>Sin forzar.</strong> Si una pausa incomoda, ponela en cero.</li>
+        <li><strong>Sin sonido por defecto.</strong> Si lo activás, empieza recién cuando tocás «Iniciar».</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#practicar">Practicar</a><a href="#tecnicas">Las técnicas</a><a href="#investigacion">Qué dice la investigación</a></nav>
+
+    <section class="lab-estacion revelar" id="practicar" aria-labelledby="t-practicar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-practicar">Practicar</h2>
+      <div class="rp" data-rp>
+        <div class="rp-panel">
+          <fieldset class="rp-grupo"><legend class="lab-paso__titulo">Técnica</legend><div class="rp-tecnicas"><label class="rp-tec"><input type="radio" name="rp-tec" value="libre"><span><strong>Respiración consciente libre</strong><small>Sin tiempos impuestos: observar la respiración tal como es.</small></span></label><label class="rp-tec"><input type="radio" name="rp-tec" value="cuadrada"><span><strong>Respiración cuadrada</strong><small>Cuatro fases iguales: inspirar, sostener, exhalar, sostener.</small></span></label><label class="rp-tec"><input type="radio" name="rp-tec" value="478"><span><strong>Respiración 4-7-8</strong><small>Inspirar 4, sostener 7, exhalar 8. La retención puede reducirse o quitarse.</small></span></label><label class="rp-tec"><input type="radio" name="rp-tec" value="prolongada" checked><span><strong>Exhalación prolongada</strong><small>Inspirar 4 y exhalar 6, sin forzar el aire.</small></span></label><label class="rp-tec"><input type="radio" name="rp-tec" value="personal"><span><strong>Ritmo personalizado</strong><small>Elegís la duración de cada fase, con o sin pausas.</small></span></label></div></fieldset>
+          <fieldset class="rp-grupo" data-rp-fases-caja><legend class="lab-paso__titulo">Tiempos de cada fase</legend>
+            <div class="rp-fases"><div><label for="rp-f-inhala">Inspirar <small>(segundos)</small></label><input class="lab-campo" id="rp-f-inhala" type="number" inputmode="numeric" min="2" max="10" step="1" data-rp-fase="0"></div><div><label for="rp-f-pausa1">Pausa con el aire adentro <small>(segundos)</small></label><input class="lab-campo" id="rp-f-pausa1" type="number" inputmode="numeric" min="0" max="10" step="1" data-rp-fase="1"></div><div><label for="rp-f-exhala">Exhalar <small>(segundos)</small></label><input class="lab-campo" id="rp-f-exhala" type="number" inputmode="numeric" min="2" max="12" step="1" data-rp-fase="2"></div><div><label for="rp-f-pausa2">Pausa con los pulmones vacíos <small>(segundos)</small></label><input class="lab-campo" id="rp-f-pausa2" type="number" inputmode="numeric" min="0" max="10" step="1" data-rp-fase="3"></div></div>
+            <p class="lab-paso__ayuda" data-rp-retencion hidden>Esta técnica incluye pausas con el aire retenido. Si te incomodan, ponelas en 0.</p>
+            <button class="boton boton--secundario boton--chico" type="button" data-rp-restablecer>Volver a los tiempos sugeridos</button>
+          </fieldset>
+          <fieldset class="rp-grupo"><legend class="lab-paso__titulo">Duración</legend><div class="opciones"><label class="opcion"><input type="radio" name="rp-dur" value="1"><span>1 min</span></label><label class="opcion"><input type="radio" name="rp-dur" value="2"><span>2 min</span></label><label class="opcion"><input type="radio" name="rp-dur" value="3" checked><span>3 min</span></label><label class="opcion"><input type="radio" name="rp-dur" value="5"><span>5 min</span></label><label class="opcion"><input type="radio" name="rp-dur" value="10"><span>10 min</span></label><label class="opcion"><input type="radio" name="rp-dur" value="otra"><span>Otra</span></label></div>
+            <div class="rp-otra" data-rp-otra hidden><label for="rp-min">Minutos</label><input class="lab-campo" id="rp-min" type="number" min="1" max="60" step="1" value="4" inputmode="numeric"></div>
+          </fieldset>
+          <fieldset class="rp-grupo"><legend class="lab-paso__titulo">Estilo visual</legend><div class="opciones"><label class="opcion"><input type="radio" name="rp-estilo" value="esfera" checked><span>Esfera</span></label><label class="opcion"><input type="radio" name="rp-estilo" value="flor"><span>Flor</span></label><label class="opcion"><input type="radio" name="rp-estilo" value="ondas"><span>Ondas de agua</span></label></div></fieldset>
+          <fieldset class="rp-grupo"><legend class="lab-paso__titulo">Sonido</legend>
+            <div class="opciones"><label class="opcion"><input type="radio" name="rp-sonido" value="no" checked><span>Sin sonido</span></label><label class="opcion"><input type="radio" name="rp-sonido" value="campana"><span>Campana suave en cada fase</span></label><label class="opcion"><input type="radio" name="rp-sonido" value="mar"><span>Mar de fondo</span></label></div>
+            <label class="rp-vol"><span>Volumen</span><input type="range" min="0" max="1" step="0.05" value="0.5" data-rp-vol></label>
+          </fieldset>
+          <label class="check"><input type="checkbox" data-rp-anunciar> <span>Anunciar cada fase con el lector de pantalla</span></label>
+        </div>
+
+        <div class="rp-centro">
+          <div class="rp-escenario" data-rp-escenario data-estilo="esfera">
+            <svg class="rp-escena" viewBox="0 0 400 400" aria-hidden="true">
+  <defs>
+    <radialGradient id="rp-g" cx="42%" cy="38%" r="70%"><stop offset="0%" class="rp-g1"/><stop offset="60%" class="rp-g2"/><stop offset="100%" class="rp-g3"/></radialGradient>
+  </defs>
+  <g data-rp-anillo></g>
+  <path class="rp-marco-cuadrado" data-rp-cuadrado d="M70 70 H330 V330 H70 Z" hidden/>
+  <circle class="rp-marcador" r="7" cx="200" cy="15" data-rp-marcador/>
+  <g class="rp-fig rp-fig--esfera" data-rp-fig="esfera"><circle class="rp-esfera" cx="200" cy="200" r="120" fill="url(#rp-g)" data-rp-esfera/><path class="rp-blob" d="M200 110c38 0 74 22 82 60s-10 82-50 98-86 2-104-34-6-82 24-104c14-12 30-20 48-20z" data-rp-blob/></g>
+  <g class="rp-fig rp-fig--flor" data-rp-fig="flor" hidden><ellipse class="rp-petalo" data-rp-petalo="0" cx="200" cy="200" rx="34" ry="78"/><ellipse class="rp-petalo" data-rp-petalo="1" cx="200" cy="200" rx="34" ry="78"/><ellipse class="rp-petalo" data-rp-petalo="2" cx="200" cy="200" rx="34" ry="78"/><ellipse class="rp-petalo" data-rp-petalo="3" cx="200" cy="200" rx="34" ry="78"/><ellipse class="rp-petalo" data-rp-petalo="4" cx="200" cy="200" rx="34" ry="78"/><ellipse class="rp-petalo" data-rp-petalo="5" cx="200" cy="200" rx="34" ry="78"/><ellipse class="rp-petalo" data-rp-petalo="6" cx="200" cy="200" rx="34" ry="78"/><ellipse class="rp-petalo" data-rp-petalo="7" cx="200" cy="200" rx="34" ry="78"/><circle class="rp-flor__centro" cx="200" cy="200" r="26"/></g>
+  <g class="rp-fig rp-fig--ondas" data-rp-fig="ondas" hidden><circle class="rp-onda" data-rp-onda="0" cx="200" cy="200" r="60"/><circle class="rp-onda" data-rp-onda="1" cx="200" cy="200" r="60"/><circle class="rp-onda" data-rp-onda="2" cx="200" cy="200" r="60"/><circle class="rp-onda" data-rp-onda="3" cx="200" cy="200" r="60"/><circle class="rp-onda" data-rp-onda="4" cx="200" cy="200" r="60"/></g>
+</svg>
+            <div class="rp-texto"><p class="rp-fase" data-rp-fase-txt aria-live="off">Listo para empezar</p><p class="rp-cuenta" data-rp-cuenta></p></div>
+          </div>
+          <div class="rp-barra" aria-hidden="true"><span data-rp-barra></span></div>
+          <dl class="rp-datos">
+            <div><dt>Técnica</dt><dd data-rp-d-tec></dd></div>
+            <div><dt>Fase</dt><dd data-rp-d-fase>—</dd></div>
+            <div><dt>Quedan en la fase</dt><dd data-rp-d-resta>—</dd></div>
+            <div><dt>Tiempo</dt><dd><span data-rp-d-trans>0:00</span> de <span data-rp-d-total>3:00</span></dd></div>
+            <div><dt>Ciclos</dt><dd data-rp-d-ciclos>0</dd></div>
+          </dl>
+          <div class="lab-acciones rp-controles">
+            <button class="boton" type="button" data-rp-iniciar>Iniciar</button>
+            <button class="boton boton--secundario" type="button" data-rp-marcar hidden>Marcar una respiración</button>
+            <button class="boton boton--secundario boton--chico" type="button" data-rp-reiniciar disabled>Reiniciar</button>
+            <button class="boton boton--secundario boton--chico" type="button" data-rp-finalizar disabled>Finalizar</button>
+          </div>
+          <p class="lab-nota">Con el teclado, la barra espaciadora pausa y reanuda.</p>
+          <div class="rp-antes" data-rp-antes hidden tabindex="-1" role="alertdialog" aria-labelledby="rp-antes-t" aria-describedby="rp-antes-d">
+            <p id="rp-antes-t" class="rp-antes__t">Antes de empezar</p>
+            <p id="rp-antes-d">Esta práctica es voluntaria. No fuerces la respiración ni sostengas el aire si te resulta incómodo. Si sentís mareo, falta de aire, angustia o malestar, detené el ejercicio y volvé a respirar naturalmente.</p>
+            <p>Si tenés una enfermedad respiratoria o cardíaca, estás cursando un embarazo, o retener el aire te genera angustia o pánico, preferí las técnicas sin pausas y consultá con tu médico. Respirar puede ayudar a regularse, pero no reemplaza un tratamiento psicológico ni médico.</p>
+            <div class="lab-acciones"><button class="boton boton--chico" type="button" data-rp-acepto>Entendido, empezar</button><button class="boton boton--secundario boton--chico" type="button" data-rp-cancelo>Ahora no</button></div>
+          </div>
+          <div class="rp-fin" data-rp-fin hidden tabindex="-1">
+            <p class="rp-fin__t">Terminaste</p>
+            <p data-rp-fin-txt></p>
+            <p>Antes de seguir, tomate un momento: ¿qué notás ahora en el cuerpo, en la respiración, en el ánimo? No hace falta que haya cambiado algo.</p>
+            <div class="lab-acciones"><button class="boton boton--chico" type="button" data-rp-otra>Practicar otra vez</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="tecnicas" aria-labelledby="t-tecnicas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-tecnicas">Las cinco técnicas</h2>
+      <div class="prosa" style="max-width:46rem">
+        <h3>Respiración consciente libre</h3>
+        <p>No hay tiempos: la invitación es observar cómo entra y sale el aire, sin modificarlo. Viene de las prácticas de atención plena. Si querés, podés marcar cada respiración para llevar la cuenta. Si observar la respiración te pone más nervioso, también es una información valiosa: podés llevar la atención a los pies o a los sonidos.</p>
+        <h3>Respiración cuadrada</h3>
+        <p>Cuatro fases iguales —por lo general de cuatro segundos— que se recorren como los lados de un cuadrado. Su regularidad ayuda a algunas personas a concentrarse. Incluye dos retenciones: si incomodan, se pueden acortar.</p>
+        <h3>Respiración 4-7-8</h3>
+        <p>Inspirar en cuatro tiempos, sostener siete y exhalar en ocho. Fue difundida por el médico Andrew Weil y tiene poca investigación propia. La retención larga puede resultar incómoda: podés reducirla o quitarla sin perder lo central, que es una exhalación más larga.</p>
+        <h3>Exhalación prolongada</h3>
+        <p>Inspirar cuatro y exhalar seis, sin pausas. Una exhalación algo más larga que la inspiración, sin forzar el aire, es para muchas personas una forma cómoda de bajar el ritmo.</p>
+        <h3>Ritmo personalizado</h3>
+        <p>Elegís la duración de cada fase y si hay pausas. Una regla útil: que nunca falte el aire. Si el ritmo te deja con sensación de ahogo o te acelera, alargá la inspiración, acortá las pausas o volvé a respirar libremente.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="investigacion" aria-labelledby="t-investigacion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-investigacion">Qué dice la investigación</h2>
+      <div class="prosa" style="max-width:46rem">
+        <p>Las revisiones sobre respiración lenta (alrededor de seis respiraciones por minuto) encontraron efectos sobre la variabilidad de la frecuencia cardíaca y sobre medidas de relajación y bienestar, aunque los estudios son heterogéneos y muchos pequeños. Un ensayo de 2023 comparó cinco minutos diarios de tres técnicas de respiración y de meditación de atención plena durante un mes: el ánimo mejoró en todos los grupos, y más con el «suspiro cíclico» —una técnica de exhalación prolongada— que con la meditación.</p>
+        <p>Eso no significa que respirar «cure» la ansiedad, el pánico o el insomnio. Puede ser una herramienta de autorregulación útil, sobre todo si se practica también en momentos tranquilos. En algunas personas —por ejemplo, con ataques de pánico— prestar atención a la respiración o retener el aire puede aumentar el malestar: en ese caso conviene elegir otra vía para volver al presente y consultarlo.</p>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Esta práctica es voluntaria. No fuerces la respiración ni sostengas el aire si te resulta incómodo. Si sentís mareo, falta de aire, angustia o malestar, detené el ejercicio y volvé a respirar naturalmente. Si la angustia es muy intensa o pensás en hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Si la ansiedad o el pánico se repiten, puede ayudarte una consulta: podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Zaccaro, A. y otros (2018). How breath-control can change your life: A systematic review on psycho-physiological correlates of slow breathing. <em>Frontiers in Human Neuroscience, 12</em>, 353.</li>
+        <li>Balban, M. Y. y otros (2023). Brief structured respiration practices enhance mood and reduce physiological arousal. <em>Cell Reports Medicine, 4</em>(1), 100895.</li>
+        <li>Lehrer, P. M. y Gevirtz, R. (2014). Heart rate variability biofeedback: how and why does it work? <em>Frontiers in Psychology, 5</em>, 756.</li>
+        <li>Kabat-Zinn, J. (1990). <em>Vivir con plenitud las crisis</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<script type="application/json" id="rp-datos">{"libre": {"nombre": "Respiración consciente libre", "fases": null}, "cuadrada": {"nombre": "Respiración cuadrada", "fases": [4, 4, 4, 4]}, "478": {"nombre": "Respiración 4-7-8", "fases": [4, 7, 8, 0]}, "prolongada": {"nombre": "Exhalación prolongada", "fases": [4, 0, 6, 0]}, "personal": {"nombre": "Ritmo personalizado", "fases": [4, 0, 6, 0]}}</script>
+{{> cta}}
