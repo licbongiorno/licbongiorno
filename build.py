@@ -590,7 +590,10 @@ LABORATORIOS = [
     {"titulo": "Laboratorio de razón y autonomía", "ruta": "/laboratorio-de-la-razon-y-la-autonomia/", "tipo": "Filosofía",
      "descripcion": "Kant, Epicteto, Schopenhauer y Nietzsche: separar lo recibido de lo agregado, fines y medios, y de «debo» a «quiero»."},
     {"titulo": "Laboratorio del encuentro", "ruta": "/laboratorio-del-encuentro/", "tipo": "Filosofía",
-     "descripcion": "Buber y Hegel para la vida con otros: Yo-Tú o Yo-Ello, el reconocimiento, dos verdades a la vez y escuchar de verdad."},]
+     "descripcion": "Buber y Hegel para la vida con otros: Yo-Tú o Yo-Ello, el reconocimiento, dos verdades a la vez y escuchar de verdad."},
+    {"titulo": "Mi mapa de vínculos", "ruta": "/laboratorio-mi-mapa-de-vinculos/", "tipo": "Vínculos y genograma",
+     "descripcion": "Tu mundo vincular en dos capas, la red actual y el genograma: cercanía, intercambios, límites, roles y repeticiones."},
+]
 
 TEMAS_LAB = {
     "/laboratorio-de-creatividad/": "Aprendizaje y cambio", "/laboratorio-de-comunicacion-no-violenta/": "Vínculos",
@@ -621,6 +624,7 @@ TEMAS_LAB = {
     "/laboratorio-de-seneca/": "Filosofía en práctica", "/laboratorio-de-marco-aurelio/": "Filosofía en práctica",
     "/laboratorio-de-la-vida-que-no-es-breve/": "Filosofía en práctica",
     "/laboratorio-de-la-angustia/": "Filosofía en práctica", "/laboratorio-de-virtudes/": "Filosofía en práctica",
+    "/laboratorio-mi-mapa-de-vinculos/": "Vínculos",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica", "Psicología en práctica"]
 
@@ -652,8 +656,8 @@ GUIA = [
     ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "ansiedad-social", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-respiraciones/"]),
     ("panico", "Ataques de pánico", "/ansiedad-y-ataques-de-panico/", ["ataque-de-panico-que-hacer", "respiracion-y-emociones"], ["/laboratorio-de-presencia/"]),
     ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
-    ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego", "los-celos"], ["/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
-    ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma", "padres-de-adolescentes"], ["/laboratorio-sistemico/"]),
+    ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego", "los-celos"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
+    ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma", "padres-de-adolescentes"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-sistemico/"]),
     ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia"], ["/laboratorio-de-duelo/"]),
     ("estres", "Estrés o agotamiento", "/estres-y-agotamiento/", ["burnout", "la-motivacion", "respiracion-y-emociones"], ["/laboratorio-de-estres/", "/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/"]),
     ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["autoexigencia-y-perfeccionismo", "la-culpa", "psicologia-humanista-carl-rogers"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/"]),
