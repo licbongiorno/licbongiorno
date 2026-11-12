@@ -45,7 +45,7 @@ def preparar(t, latin=False):
     t = re.sub(r"\[\w{1,3}\]|(?<![\w.,])\d{1,3}(?![\w])", lambda m: " " * len(m.group()), t)
     norm, pos = [], []
     for i, c in enumerate(t):
-        if c in "_*+[]":
+        if c in "_*+[]►✂─👤":
             continue
         if c.isspace():
             continue  # se ignoran los espacios: algunas fuentes unen palabras al cortar líneas

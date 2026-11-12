@@ -62,6 +62,7 @@ def a_texto(crudo):
 def normalizar(t):
     """Normalización usada tanto para la fuente como para las citas: comillas, guiones y espacios."""
     t = t.replace("­", "").replace(" ", " ")
+    t = re.sub(r"[►✂─]", " ", t)  # marcas editoriales (edición SKS de Kierkegaard)
     t = re.sub(r"[‘’‚′´`]", "'", t)
     t = re.sub(r"[“”„«»″]", '"', t)
     t = re.sub(r"[–—]", "-", t)

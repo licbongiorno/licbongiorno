@@ -1,0 +1,818 @@
+[
+ {
+  "id": "hegel-001",
+  "fuente": "hegel-fenomenologia",
+  "original": "Das Wahre ist das Ganze.",
+  "traduccion": "Lo verdadero es el todo.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "hegel-002",
+  "fuente": "hegel-fenomenologia",
+  "original": "Das Bekannte überhaupt ist darum, weil es bekannt ist, nicht erkannt.",
+  "traduccion": "Lo conocido en general, precisamente por ser conocido, no es reconocido.",
+  "temas": [
+   "conocimiento",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "hegel-003",
+  "fuente": "hegel-fenomenologia",
+  "original": "Der Anfang des neuen Geistes ist das Produkt einer weitläufigen Umwälzung von mannigfaltigen Bildungsformen, der Preis eines vielfach verschlungnen Weges und ebenso vielfacher Anstrengung und Bemühung.",
+  "traduccion": "El comienzo de un espíritu nuevo es el producto de una larga transformación de múltiples formas de cultura, el precio de un camino muy enrevesado y de mucho esfuerzo.",
+  "temas": [
+   "cambio",
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "hegel-004",
+  "fuente": "hegel-fenomenologia",
+  "original": "Es ist von dem Absoluten zu sagen, daß es wesentlich Resultat , daß es erst am Ende das ist, was es in Wahrheit ist",
+  "traduccion": "Del absoluto hay que decir que es esencialmente resultado: que solo al final es lo que es en verdad.",
+  "temas": [
+   "verdad",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "hegel-005",
+  "fuente": "hegel-fenomenologia",
+  "original": "Das Ziel ist die Einsicht des Geistes in das, was das Wissen ist.",
+  "traduccion": "La meta es que el espíritu comprenda qué es el saber.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "hegel-006",
+  "fuente": "hegel-fenomenologia",
+  "original": "Der Tod, wenn wir jene Unwirklichkeit so nennen wollen, ist das Furchtbarste, und das Tote festzuhalten das, was die größte Kraft erfodert.",
+  "traduccion": "La muerte, si queremos llamar así a esa irrealidad, es lo más terrible, y sostener lo muerto es lo que exige la mayor fuerza.",
+  "temas": [
+   "muerte",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "hegel-007",
+  "fuente": "hegel-fenomenologia",
+  "original": "Aber nicht das Leben, das sich vor dem Tode scheut und von der Verwüstung rein bewahrt, sondern das ihn erträgt und in ihm sich erhält, ist das Leben des Geistes.",
+  "traduccion": "No es la vida que se espanta ante la muerte y se preserva pura de la devastación, sino la que la soporta y se mantiene en ella, la vida del espíritu.",
+  "temas": [
+   "muerte",
+   "resiliencia",
+   "sufrimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "hegel-008",
+  "fuente": "hegel-fenomenologia",
+  "original": "Er gewinnt seine Wahrheit nur, indem er in der absoluten Zerrissenheit sich selbst findet.",
+  "traduccion": "[El espíritu] solo conquista su verdad cuando se encuentra a sí mismo en el desgarramiento absoluto.",
+  "temas": [
+   "sufrimiento",
+   "identidad",
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "hegel-009",
+  "fuente": "hegel-fenomenologia",
+  "original": "Worauf es deswegen bei dem Studium der Wissenschaft ankommt, ist die Anstrengung des Begriffs auf sich zu nehmen.",
+  "traduccion": "Lo que importa en el estudio de la ciencia es asumir el esfuerzo del concepto.",
+  "temas": [
+   "educacion",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 7",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/7",
+  "verificada": true
+ },
+ {
+  "id": "hegel-010",
+  "fuente": "hegel-fenomenologia",
+  "original": "Von allen Wissenschaften, Künsten, Geschicklichkeiten, Handwerken gilt die Überzeugung, daß, um sie zu besitzen, eine vielfache Bemühung des Erlernens und Übens derselben nötig ist.",
+  "traduccion": "De todas las ciencias, artes, habilidades y oficios se sabe que, para dominarlos, hace falta mucho esfuerzo de aprendizaje y práctica.",
+  "temas": [
+   "educacion",
+   "habitos",
+   "trabajo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 8",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/8",
+  "verificada": true
+ },
+ {
+  "id": "hegel-011",
+  "fuente": "hegel-fenomenologia",
+  "original": "Wahre Gedanken und wissenschaftliche Einsicht ist nur in der Arbeit des Begriffes zu gewinnen.",
+  "traduccion": "Los pensamientos verdaderos y la comprensión científica solo se ganan con el trabajo del concepto.",
+  "temas": [
+   "conocimiento",
+   "trabajo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 8",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/8",
+  "verificada": true
+ },
+ {
+  "id": "hegel-012",
+  "fuente": "hegel-fenomenologia",
+  "original": "Die Reihe seiner Gestaltungen, welche das Bewußtsein auf diesem Wege durchläuft, ist vielmehr die ausführliche Geschichte der Bildung des Bewußtseins selbst zur Wissenschaft.",
+  "traduccion": "La serie de figuras que la conciencia recorre en este camino es la historia detallada de la formación de la conciencia misma.",
+  "temas": [
+   "conciencia",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 9",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/9",
+  "verificada": true
+ },
+ {
+  "id": "hegel-013",
+  "fuente": "hegel-fenomenologia",
+  "original": "Das besondre Individuum aber ist der unvollständige Geist",
+  "traduccion": "El individuo particular es el espíritu incompleto.",
+  "temas": [
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "hegel-014",
+  "fuente": "hegel-fenomenologia",
+  "original": "das Selbstbewußtsein erreicht seine Befriedigung nur in einem andern Selbstbewußtsein.",
+  "traduccion": "La autoconciencia solo alcanza su satisfacción en otra autoconciencia.",
+  "temas": [
+   "vinculos",
+   "identidad",
+   "encuentro"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 20",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/20",
+  "verificada": true
+ },
+ {
+  "id": "hegel-015",
+  "fuente": "hegel-fenomenologia",
+  "original": "Ich, das Wir, und Wir, das Ich ist",
+  "traduccion": "Un yo que es un nosotros, y un nosotros que es un yo.",
+  "temas": [
+   "vinculos",
+   "identidad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 20",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/20",
+  "verificada": true
+ },
+ {
+  "id": "hegel-016",
+  "fuente": "hegel-fenomenologia",
+  "original": "Das Selbstbewußtsein ist an und für sich , indem, und dadurch, daß es für ein Anderes an und für sich ist; d.h. es ist nur als ein Anerkanntes.",
+  "traduccion": "La autoconciencia es en sí y para sí en cuanto y porque es en sí y para sí para otra; es decir, solo existe en cuanto reconocida.",
+  "temas": [
+   "vinculos",
+   "identidad",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Comienzo del célebre capítulo sobre el amo y el esclavo: la identidad depende del reconocimiento del otro.",
+  "ubicacion": "Capítulo 21",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/21",
+  "verificada": true
+ },
+ {
+  "id": "hegel-017",
+  "fuente": "hegel-fenomenologia",
+  "original": "Die Arbeit hingegen ist gehemmte Begierde, aufgehaltenes Verschwinden, oder sie bildet .",
+  "traduccion": "El trabajo, en cambio, es deseo refrenado, desaparición contenida: forma.",
+  "temas": [
+   "trabajo",
+   "deseo",
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 22",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/22",
+  "verificada": true
+ },
+ {
+  "id": "hegel-018",
+  "fuente": "hegel-fenomenologia",
+  "original": "obzwar die Furcht des Herrn der Anfang der Weisheit ist",
+  "traduccion": "Aunque el temor al amo sea el comienzo de la sabiduría…",
+  "temas": [
+   "miedo",
+   "poder"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "nota": "Hegel retoma aquí, para transformarla, la frase bíblica «el temor de Dios es el principio de la sabiduría».",
+  "ubicacion": "Capítulo 22",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/22",
+  "verificada": true
+ },
+ {
+  "id": "hegel-019",
+  "fuente": "hegel-fenomenologia",
+  "original": "Durch die Arbeit kömmt es aber zu sich selbst.",
+  "traduccion": "Pero a través del trabajo [la conciencia] llega a sí misma.",
+  "temas": [
+   "trabajo",
+   "identidad",
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 22",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/22",
+  "verificada": true
+ },
+ {
+  "id": "hegel-020",
+  "fuente": "hegel-fenomenologia",
+  "original": "das unglückliche Bewußtsein ist das Bewußtsein seiner als des gedoppelten nur widersprechenden Wesens.",
+  "traduccion": "La conciencia desdichada es la conciencia de sí como un ser desdoblado, solo contradictorio.",
+  "temas": [
+   "sufrimiento",
+   "identidad",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 24",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/24",
+  "verificada": true
+ },
+ {
+  "id": "hegel-021",
+  "fuente": "hegel-fenomenologia",
+  "original": "Die Wunden des Geistes heilen, ohne daß Narben bleiben",
+  "traduccion": "Las heridas del espíritu se curan sin dejar cicatrices.",
+  "temas": [
+   "resiliencia",
+   "esperanza",
+   "trauma"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "nota": "Hegel lo dice del perdón: el espíritu puede retomar y superar lo hecho. Hoy sabemos que muchas heridas psíquicas sí dejan huella, aunque puedan elaborarse.",
+  "ubicacion": "Capítulo 77",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/77",
+  "verificada": true
+ },
+ {
+  "id": "hegel-022",
+  "fuente": "hegel-fenomenologia",
+  "original": "Es gibt keinen Helden für den Kammerdiener; nicht aber weil jener nicht ein Held, sondern weil dieser - der Kammerdiener ist",
+  "traduccion": "No hay héroe para su ayuda de cámara; pero no porque aquel no sea un héroe, sino porque este es un ayuda de cámara.",
+  "temas": [
+   "identidad",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "nota": "Hegel parte de un dicho popular y le agrega la segunda mitad.",
+  "ubicacion": "Capítulo 77",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/77",
+  "verificada": true
+ },
+ {
+  "id": "hegel-023",
+  "fuente": "hegel-fenomenologia",
+  "original": "Die Wissenschaft muß sich aber von diesem Scheine befreien; und sie kann dies nur dadurch, daß sie sich gegen ihn wendet.",
+  "traduccion": "La ciencia debe liberarse de esta apariencia, y solo puede hacerlo volviéndose contra ella.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 9",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/9",
+  "verificada": true
+ },
+ {
+  "id": "hegel-024",
+  "fuente": "hegel-fenomenologia",
+  "original": "Denn die Natur dieser ist, auf die Übereinkunft mit andern zu dringen, und ihre Existenz nur in der zustande gebrachten Gemeinsamkeit der Bewußtsein.",
+  "traduccion": "Porque es propio de la naturaleza humana buscar el acuerdo con otros y existir solo en la comunidad lograda de las conciencias.",
+  "temas": [
+   "vinculos",
+   "comunicacion",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 8",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/8",
+  "verificada": true
+ },
+ {
+  "id": "hegel-025",
+  "fuente": "hegel-fenomenologia",
+  "original": "Die Tätigkeit des Scheidens ist die Kraft und Arbeit des Verstandes , der verwundersamsten und größten, oder vielmehr der absoluten Macht.",
+  "traduccion": "La actividad de separar es la fuerza y el trabajo del entendimiento, el más asombroso y grande de los poderes, o más bien el poder absoluto.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "hegel-026",
+  "fuente": "hegel-historia",
+  "original": "daß nichts Großes in der Welt ohne Leidenschaft vollbracht worden ist",
+  "traduccion": "Nada grande se ha hecho en el mundo sin pasión.",
+  "temas": [
+   "deseo",
+   "emociones",
+   "creatividad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-027",
+  "fuente": "hegel-historia",
+  "original": "Die Weltgeschichte ist der Fortschritt im Bewußtsein der Freiheit",
+  "traduccion": "La historia universal es el progreso en la conciencia de la libertad.",
+  "temas": [
+   "libertad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-028",
+  "fuente": "hegel-historia",
+  "original": "Was die Erfahrung aber und die Geschichte lehren, ist dieses, daß Völker und Regierungen niemals etwas aus der Geschichte gelernt und nach Lehren, die aus derselben zu ziehen gewesen wären, gehandelt haben.",
+  "traduccion": "Lo que enseñan la experiencia y la historia es que los pueblos y los gobiernos nunca aprendieron nada de la historia ni actuaron según las lecciones que podrían haber sacado de ella.",
+  "temas": [
+   "sociedad",
+   "repeticion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-029",
+  "fuente": "hegel-historia",
+  "original": "Jede Zeit hat so eigentümliche Umstände, ist ein so individueller Zustand",
+  "traduccion": "Cada época tiene circunstancias tan propias, es una situación tan singular…",
+  "temas": [
+   "cambio",
+   "tiempo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-030",
+  "fuente": "hegel-historia",
+  "original": "Die Weltgeschichte ist nicht der Boden des Glücks. Die Perioden des Glücks sind leere Blätter in ihr",
+  "traduccion": "La historia universal no es el terreno de la felicidad. Los períodos de felicidad son en ella hojas en blanco.",
+  "temas": [
+   "felicidad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-031",
+  "fuente": "hegel-historia",
+  "original": "Glücklich ist derjenige, welcher sein Dasein seinem besonderen Charakter, Wollen und Willkür angemessen hat und so in seinem Dasein sich selbst genießt.",
+  "traduccion": "Feliz es quien adecuó su existencia a su carácter, a su querer y a su albedrío, y así se disfruta a sí mismo en su existencia.",
+  "temas": [
+   "felicidad",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-032",
+  "fuente": "hegel-historia",
+  "original": "wer die Welt vernünftig ansieht, den sieht sie auch vernünftig an, beides ist in Wechselbestimmung.",
+  "traduccion": "A quien mira el mundo con razón, el mundo también lo mira con razón: ambas cosas se determinan mutuamente.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-033",
+  "fuente": "hegel-historia",
+  "original": "Reden aber sind Handlungen unter Menschen und zwar sehr wesentlich wirksame Handlungen.",
+  "traduccion": "Los discursos son acciones entre seres humanos, y acciones muy eficaces.",
+  "temas": [
+   "comunicacion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-034",
+  "fuente": "hegel-historia",
+  "original": "Freilich sagen die Menschen oft, es seien nur Reden gewesen, und wollen insofern die Unschuld derselben dartun.",
+  "traduccion": "Es cierto que la gente suele decir que «fueron solo palabras», y quiere así mostrar su inocencia.",
+  "temas": [
+   "comunicacion",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-035",
+  "fuente": "hegel-historia",
+  "original": "Das Allgemeine ist jedoch, daß die Philosophie der Geschichte nichts andres als die denkende Betrachtung derselben bedeutet.",
+  "traduccion": "Lo general es que la filosofía de la historia no significa otra cosa que su consideración pensante.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-036",
+  "fuente": "hegel-historia",
+  "original": "Die Geschichte erklären aber heißt, die Leidenschaften des Menschen, ihr Genie, ihre wirkenden Kräfte enthüllen",
+  "traduccion": "Explicar la historia significa revelar las pasiones de los seres humanos, su genio, sus fuerzas activas.",
+  "temas": [
+   "emociones",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-037",
+  "fuente": "hegel-historia",
+  "original": "Wie die Substanz der Materie die Schwere ist, so, müssen wir sagen, ist die Substanz, das Wesen des Geistes die Freiheit.",
+  "traduccion": "Así como la sustancia de la materia es la gravedad, debemos decir que la sustancia, la esencia del espíritu, es la libertad.",
+  "temas": [
+   "libertad",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-038",
+  "fuente": "hegel-historia",
+  "original": "Der Geist im Gegenteil ist eben das, in sich den Mittelpunkt zu haben",
+  "traduccion": "El espíritu, en cambio, es precisamente tener el centro en sí mismo.",
+  "temas": [
+   "identidad",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-039",
+  "fuente": "hegel-historia",
+  "original": "Dies eben ist die Freiheit, denn wenn ich abhängig bin, so beziehe ich mich auf ein andres, das ich nicht bin; ich kann nicht sein ohne ein Äußeres; frei bin ich, wenn ich bei mir selbst bin.",
+  "traduccion": "Esto es la libertad: si dependo, me refiero a otro que no soy yo y no puedo ser sin algo exterior; soy libre cuando estoy en mí mismo.",
+  "temas": [
+   "libertad",
+   "autenticidad",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-040",
+  "fuente": "hegel-historia",
+  "original": "Dieses Beisichselbstsein des Geistes ist Selbstbewußtsein, das Bewußtsein von sich selbst.",
+  "traduccion": "Este estar en sí mismo del espíritu es autoconciencia, conciencia de sí.",
+  "temas": [
+   "conciencia",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-041",
+  "fuente": "hegel-historia",
+  "original": "Die Tätigkeit, welche sie ins Werk und Dasein setzt, ist des Menschen Bedürfnis, Trieb, Neigung und Leidenschaft.",
+  "traduccion": "La actividad que realiza [las ideas] y les da existencia son las necesidades, los impulsos, las inclinaciones y las pasiones del ser humano.",
+  "temas": [
+   "deseo",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-042",
+  "fuente": "hegel-historia",
+  "original": "Wenn die Menschen sich für etwas interessieren sollen, so müssen sie sich selbst darin haben und ihr eignes Selbstgefühl darin befriedigt finden.",
+  "traduccion": "Para que las personas se interesen por algo, tienen que encontrarse a sí mismas en ello y ver satisfecho su propio sentimiento de sí.",
+  "temas": [
+   "sentido-de-vida",
+   "autoestima",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-043",
+  "fuente": "hegel-historia",
+  "original": "Der einzige Gedanke, den die Philosophie mitbringt, ist aber der einfache Gedanke der Vernunft, daß die Vernunft die Welt beherrsche",
+  "traduccion": "El único pensamiento que trae la filosofía es el simple pensamiento de que la razón gobierna el mundo.",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-044",
+  "fuente": "hegel-historia",
+  "original": "Für einen Kammerdiener gibt es keinen Helden, ist ein bekanntes Sprichwort; ich habe hinzugesetzt",
+  "traduccion": "«No hay héroe para su ayuda de cámara» es un dicho conocido; yo le agregué [que no es porque aquel no sea un héroe, sino porque este es un ayuda de cámara].",
+  "temas": [
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "nota": "Hegel aclara que el dicho es popular y que lo suyo es la segunda parte.",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-045",
+  "fuente": "hegel-historia",
+  "original": "Der Mensch muß essen und trinken, steht in Beziehung zu Freunden und Bekannten, hat Empfindungen und Aufwallungen des Augenblicks.",
+  "traduccion": "El ser humano tiene que comer y beber, está en relación con amigos y conocidos, tiene sentimientos y arrebatos del momento.",
+  "temas": [
+   "existencia",
+   "cuerpo",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-046",
+  "fuente": "hegel-historia",
+  "original": "Die Materie hat ihre Substanz außer ihr; der Geist ist das Bei-sich-selbst-sein .",
+  "traduccion": "La materia tiene su sustancia fuera de sí; el espíritu es el estar en sí mismo.",
+  "temas": [
+   "identidad",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-047",
+  "fuente": "hegel-historia",
+  "original": "Es muß ein zweites Moment für die Wirklichkeit hinzukommen, und dies ist die Betätigung, Verwirklichung, und deren Prinzip ist der Wille, die Tätigkeit des Menschen überhaupt.",
+  "traduccion": "Para la realidad hace falta un segundo momento: la puesta en práctica, la realización, cuyo principio es la voluntad, la actividad humana en general.",
+  "temas": [
+   "voluntad",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-048",
+  "fuente": "hegel-historia",
+  "original": "In den Griechen ist erst das Bewußtsein der Freiheit aufgegangen",
+  "traduccion": "En los griegos surgió por primera vez la conciencia de la libertad.",
+  "temas": [
+   "libertad",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-049",
+  "fuente": "hegel-fenomenologia",
+  "original": "Die Phänomenologie des Geistes soll an die Stelle der psychologischen Erklärungen oder auch der abstraktem Erörterungen über die Begründung des Wissens treten.",
+  "traduccion": "La Fenomenología del espíritu debe reemplazar a las explicaciones psicológicas y a las discusiones abstractas sobre el fundamento del saber.",
+  "temas": [
+   "conocimiento",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Del anuncio que Hegel escribió para su libro. La fuente dice «abstraktem», errata que conservamos.",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-050",
+  "fuente": "hegel-fenomenologia",
+  "original": "Sie faßt die verschiedenen Gestalten des Geistes als Stationen des Weges in sich",
+  "traduccion": "[La Fenomenología] comprende las distintas figuras del espíritu como estaciones de un camino.",
+  "temas": [
+   "desarrollo-humano",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "hegel-051",
+  "fuente": "hegel-fenomenologia",
+  "original": "Das Wissen, wie es zuerst ist, oder der unmittelbare Geist ist das Geistlose, oder ist das sinnliche Bewußtsein .",
+  "traduccion": "El saber tal como es al principio, el espíritu inmediato, es lo carente de espíritu: la conciencia sensible.",
+  "temas": [
+   "conocimiento",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "hegel-052",
+  "fuente": "hegel-fenomenologia",
+  "original": "Dies für sich ist ein sinnloser Laut, ein bloßer Name",
+  "traduccion": "Esto [la palabra «Dios»] tomado por sí solo es un sonido sin sentido, un mero nombre.",
+  "temas": [
+   "comunicacion",
+   "trascendencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/3",
+  "verificada": true
+ }
+]
