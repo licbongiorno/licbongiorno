@@ -1,0 +1,782 @@
+[
+ {
+  "id": "sigmund-freud-001",
+  "fuente": "freud-unbehagen",
+  "original": "die Absicht, daß der Mensch \"glücklich\" sei, ist im Plan der \"Schöpfung\" nicht enthalten",
+  "traduccion": "La intención de que el ser humano sea «feliz» no está contenida en el plan de la «Creación».",
+  "temas": [
+   "felicidad",
+   "sufrimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-002",
+  "fuente": "freud-unbehagen",
+  "original": "Von drei Seiten droht das Leiden, vom eigenen Körper her, der, zu Verfall und Auflösung bestimmt, sogar Schmerz und Angst als Warnungssignale nicht entbehren kann, von der Außenwelt, die mit übermächtigen, unerbittlichen, zerstörenden Kräften gegen uns wüten kann, und endlich aus den Beziehungen zu anderen Menschen.",
+  "traduccion": "El sufrimiento nos amenaza desde tres lados: desde el propio cuerpo, condenado a la decadencia y la disolución, que ni siquiera puede prescindir del dolor y la angustia como señales de alarma; desde el mundo exterior, que puede abatirse sobre nosotros con fuerzas hiperpotentes, implacables y destructivas; y por último, desde los vínculos con otros seres humanos.",
+  "temas": [
+   "sufrimiento",
+   "vinculos",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-003",
+  "fuente": "freud-unbehagen",
+  "original": "Das Leiden, das aus dieser Quelle stammt, empfinden wir vielleicht schmerzlicher als jedes andere",
+  "traduccion": "El sufrimiento que proviene de esta fuente [los vínculos] lo sentimos quizás más dolorosamente que cualquier otro.",
+  "temas": [
+   "sufrimiento",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-004",
+  "fuente": "freud-unbehagen",
+  "original": "Niemals sind wir ungeschützter gegen das Leiden, als wenn wir lieben, niemals hilfloser unglücklich, als wenn wir das geliebte Objekt oder seine Liebe verloren haben.",
+  "traduccion": "Nunca estamos más desprotegidos frente al sufrimiento que cuando amamos; nunca más desamparadamente infelices que cuando perdimos al objeto amado o su amor.",
+  "temas": [
+   "amor",
+   "perdida",
+   "duelo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-005",
+  "fuente": "freud-unbehagen",
+  "original": "Das Leben, wie es uns auferlegt ist, ist zu schwer für uns, es bringt uns zuviel Schmerzen, Enttäuschungen, unlösbare Aufgaben.",
+  "traduccion": "La vida, tal como nos es impuesta, resulta demasiado pesada: nos trae demasiados dolores, desengaños, tareas insolubles.",
+  "temas": [
+   "sufrimiento",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-006",
+  "fuente": "freud-unbehagen",
+  "original": "Der Mensch ist sozusagen eine Art Prothesengott geworden, recht großartig, wenn er alle seine Hilfsorgane anlegt, aber sie sind nicht mit ihm verwachsen",
+  "traduccion": "El ser humano se ha convertido, por así decir, en una especie de dios con prótesis: bastante magnífico cuando se coloca todos sus órganos auxiliares, pero estos no se le han integrado.",
+  "temas": [
+   "tecnologia",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-007",
+  "fuente": "freud-unbehagen",
+  "original": "Das Glück in jenem ermäßigten Sinn, in dem es als möglich erkannt wird, ist ein Problem der individuellen Libidoökonomie.",
+  "traduccion": "La felicidad, en ese sentido moderado en que se la reconoce posible, es un problema de la economía libidinal de cada individuo.",
+  "temas": [
+   "felicidad",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-008",
+  "fuente": "freud-unbehagen",
+  "original": "Der Genuß an der Schönheit hat einen besonderen, milde berauschenden Empfindungscharakter.",
+  "traduccion": "El goce de la belleza tiene un carácter sensorial particular, suavemente embriagador.",
+  "temas": [
+   "alegria",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-009",
+  "fuente": "freud-unbehagen",
+  "original": "Ein Nutzen der Schönheit liegt nicht klar zutage, ihre kulturelle Notwendigkeit ist nicht einzusehen, und doch könnte man sie in der Kultur nicht vermissen.",
+  "traduccion": "La utilidad de la belleza no es evidente, su necesidad cultural no se ve, y sin embargo la cultura no podría prescindir de ella.",
+  "temas": [
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-010",
+  "fuente": "freud-unbehagen",
+  "original": "Diese ästhetische Einstellung zum Lebensziel bietet wenig Schutz gegen drohende Leiden, vermag aber für vieles zu entschädigen.",
+  "traduccion": "Esta actitud estética ante la meta de la vida protege poco contra los sufrimientos que amenazan, pero puede compensar muchas cosas.",
+  "temas": [
+   "sufrimiento",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-011",
+  "fuente": "freud-unbehagen",
+  "original": "Wer in verzweifelter Empörung diesen Weg zum Glück einschlägt, wird in der Regel nichts erreichen; die Wirklichkeit ist zu stark für ihn.",
+  "traduccion": "Quien emprende este camino hacia la felicidad [rehacer el mundo según sus deseos] con una rebeldía desesperada, por lo general no logrará nada: la realidad es demasiado fuerte para él.",
+  "temas": [
+   "felicidad",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-012",
+  "fuente": "freud-unbehagen",
+  "original": "Die zu lösende Aufgabe ist, die Triebziele solcherart zu verlegen, daß sie von der Versagung der Außenwelt nicht getroffen werden können.",
+  "traduccion": "La tarea es desplazar las metas pulsionales de manera que la frustración que impone el mundo exterior no pueda alcanzarlas.",
+  "temas": [
+   "deseo",
+   "sufrimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-013",
+  "fuente": "freud-unbehagen",
+  "original": "Und dennoch wird Arbeit als Weg zum Glück von den Menschen wenig geschätzt.",
+  "traduccion": "Y sin embargo, las personas valoran poco el trabajo como camino hacia la felicidad.",
+  "temas": [
+   "trabajo",
+   "felicidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-014",
+  "fuente": "freud-unbehagen",
+  "original": "Der Kulturmensch hat für ein Stück Glücksmöglichkeit ein Stück Sicherheit eingetauscht.",
+  "traduccion": "El ser humano civilizado cambió una parte de posibilidad de felicidad por una parte de seguridad.",
+  "temas": [
+   "cultura",
+   "felicidad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 5",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/5",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-015",
+  "fuente": "freud-unbehagen",
+  "original": "Die Kultur muß alles aufbieten, um den Aggressionstrieben der Menschen Schranken zu setzen",
+  "traduccion": "La cultura tiene que movilizarlo todo para poner límites a las pulsiones agresivas de los seres humanos.",
+  "temas": [
+   "cultura",
+   "ira",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/5",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-016",
+  "fuente": "freud-unbehagen",
+  "original": "Es ist immer möglich, eine größere Menge von Menschen in Liebe aneinander zu binden, wenn nur andere für die Äußerung der Aggression übrigbleiben.",
+  "traduccion": "Siempre es posible ligar amorosamente entre sí a una multitud mayor de personas, con tal de que queden otras para manifestarles la agresión.",
+  "temas": [
+   "sociedad",
+   "ira",
+   "poder"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 5",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/5",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-017",
+  "fuente": "freud-unbehagen",
+  "original": "triebhafte Leidenschaften sind stärker als vernünftige Interessen",
+  "traduccion": "Las pasiones pulsionales son más fuertes que los intereses racionales.",
+  "temas": [
+   "deseo",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/5",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-018",
+  "fuente": "freud-unbehagen",
+  "original": "Die Aggression wird introjiziert, verinnerlicht, eigentlich aber dorthin zurückgeschickt, woher sie gekommen ist, also gegen das eigene Ich gewendet.",
+  "traduccion": "La agresión es introyectada, interiorizada, en verdad devuelta al lugar de donde vino: vuelta contra el propio yo.",
+  "temas": [
+   "culpa",
+   "ira",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 7",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/7",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-019",
+  "fuente": "freud-unbehagen",
+  "original": "Die Spannung zwischen dem gestrengen Über-Ich und dem ihm unterworfenen Ich heißen wir Schuldbewußtsein; sie äußert sich als Strafbedürfnis.",
+  "traduccion": "A la tensión entre el severo superyó y el yo que le está sometido la llamamos conciencia de culpa; se manifiesta como necesidad de castigo.",
+  "temas": [
+   "culpa",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 7",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/7",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-020",
+  "fuente": "freud-unbehagen",
+  "original": "Das Böse ist also anfänglich dasjenige, wofür man mit Liebesverlust bedroht wird; aus Angst vor diesem Verlust muß man es vermeiden.",
+  "traduccion": "Lo malo es, al principio, aquello por lo cual se nos amenaza con la pérdida del amor; por angustia ante esa pérdida hay que evitarlo.",
+  "temas": [
+   "culpa",
+   "miedo",
+   "amor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 7",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/7",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-021",
+  "fuente": "freud-unbehagen",
+  "original": "Die Aggression des Gewissens konserviert die Aggression der Autorität.",
+  "traduccion": "La agresión de la conciencia moral conserva la agresión de la autoridad.",
+  "temas": [
+   "culpa",
+   "poder"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 7",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/7",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-022",
+  "fuente": "freud-unbehagen",
+  "original": "Die Religionen wenigstens haben die Rolle des Schuldgefühls in der Kultur nie verkannt.",
+  "traduccion": "Las religiones, al menos, nunca desconocieron el papel del sentimiento de culpa en la cultura.",
+  "temas": [
+   "culpa",
+   "cultura",
+   "trascendencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 8",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/8",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-023",
+  "fuente": "freud-unbehagen",
+  "original": "Eros und Ananke sind auch die Eltern der menschlichen Kultur geworden.",
+  "traduccion": "Eros y Ananké [amor y necesidad] se convirtieron también en los padres de la cultura humana.",
+  "temas": [
+   "amor",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-024",
+  "fuente": "freud-unbehagen",
+  "original": "das Schuldgefühl als das wichtigste Problem der Kulturentwicklung hinzustellen",
+  "traduccion": "[Mi propósito era] presentar el sentimiento de culpa como el problema más importante del desarrollo cultural.",
+  "temas": [
+   "culpa",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 8",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/8",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-025",
+  "fuente": "freud-unbehagen",
+  "original": "Ein ähnlich starkes Bedürfnis aus der Kindheit wie das nach dem Vaterschutz wüßte ich nicht anzugeben.",
+  "traduccion": "No sabría indicar una necesidad de la infancia tan intensa como la de la protección paterna.",
+  "temas": [
+   "familia",
+   "infancia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-026",
+  "fuente": "freud-unbehagen",
+  "original": "Die Wohltat der Ordnung ist ganz unleugbar, sie ermöglicht dem Menschen die beste Ausnützung von Raum und Zeit, während sie seine psychischen Kräfte schont.",
+  "traduccion": "El beneficio del orden es innegable: permite al ser humano aprovechar mejor el espacio y el tiempo, mientras ahorra sus fuerzas psíquicas.",
+  "temas": [
+   "habitos",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-027",
+  "fuente": "freud-unbehagen",
+  "original": "Die Ordnung ist eine Art Wiederholungszwang, die durch einmalige Einrichtung entscheidet, wann, wo und wie etwas getan werden soll",
+  "traduccion": "El orden es una especie de compulsión de repetición que, establecida una vez, decide cuándo, dónde y cómo debe hacerse algo.",
+  "temas": [
+   "habitos",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-028",
+  "fuente": "freud-unbehagen",
+  "original": "Die zielgehemmte Liebe war eben ursprünglich vollsinnliche Liebe und ist es im Unbewußten des Menschen noch immer.",
+  "traduccion": "El amor de meta inhibida fue en su origen amor plenamente sensual, y lo sigue siendo en lo inconsciente del ser humano.",
+  "temas": [
+   "amor",
+   "inconsciente",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-unbehagen-in-der-kultur/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-029",
+  "fuente": "freud-zukunft",
+  "original": "die Stimme des Intellekts ist leise, aber sie ruht nicht, ehe sie sich Gehör geschafft hat",
+  "traduccion": "La voz del intelecto es baja, pero no descansa hasta hacerse oír.",
+  "temas": [
+   "verdad",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 9",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-zukunft-einer-illusion/chapter/9",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-030",
+  "fuente": "freud-zukunft",
+  "original": "Nein, unsere Wissenschaft ist keine Illusion. Eine Illusion aber wäre es zu glauben, daß wir anderswoher bekommen könnten, was sie uns nicht geben kann.",
+  "traduccion": "No, nuestra ciencia no es una ilusión. Pero sería una ilusión creer que podríamos obtener de otra parte lo que ella no puede darnos.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 9",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-zukunft-einer-illusion/chapter/9",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-031",
+  "fuente": "freud-zukunft",
+  "original": "Der Mensch kann nicht ewig Kind bleiben, er muß endlich hinaus ins \"feindliche Leben\".",
+  "traduccion": "El ser humano no puede seguir siendo niño para siempre: tiene que salir, finalmente, a la «vida hostil».",
+  "temas": [
+   "desarrollo-humano",
+   "infancia",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 8",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-zukunft-einer-illusion/chapter/8",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-032",
+  "fuente": "freud-zukunft",
+  "original": "Es gibt keine Instanz über der Vernunft.",
+  "traduccion": "No hay ninguna instancia por encima de la razón.",
+  "temas": [
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-zukunft-einer-illusion/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-033",
+  "fuente": "freud-zukunft",
+  "original": "Da wir bereit sind, auf ein gutes Stück unserer infantilen Wünsche zu verzichten, können wir es vertragen, wenn sich einige unserer Erwartungen als Illusionen herausstellen.",
+  "traduccion": "Como estamos dispuestos a renunciar a buena parte de nuestros deseos infantiles, podemos soportar que algunas de nuestras expectativas resulten ser ilusiones.",
+  "temas": [
+   "deseo",
+   "aceptacion",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 9",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-zukunft-einer-illusion/chapter/9",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-034",
+  "fuente": "freud-zukunft",
+  "original": "Wir mögen noch so oft betonen, der menschliche Intellekt sei kraftlos im Vergleich zum menschlichen Triebleben, und recht damit haben.",
+  "traduccion": "Podemos insistir cuanto queramos en que el intelecto humano carece de fuerza frente a la vida pulsional, y tener razón.",
+  "temas": [
+   "deseo",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 9",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-zukunft-einer-illusion/chapter/9",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-035",
+  "fuente": "freud-ich-es",
+  "original": "Das Ich ist vor allem ein körperliches, es ist nicht nur ein Oberflächenwesen, sondern selbst die Projektion einer Oberfläche.",
+  "traduccion": "El yo es, ante todo, un yo corporal: no es solo un ser de superficie, sino él mismo la proyección de una superficie.",
+  "temas": [
+   "identidad",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 2",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-ich-und-das-es/chapter/2",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-036",
+  "fuente": "freud-ich-es",
+  "original": "Das Ich ist ja die eigentliche Angststätte.",
+  "traduccion": "El yo es la verdadera sede de la angustia.",
+  "temas": [
+   "angustia",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 5",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-ich-und-das-es/chapter/5",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-037",
+  "fuente": "freud-ich-es",
+  "original": "dasselbe Ich als armes Ding, welches unter dreierlei Dienstbarkeiten steht und demzufolge unter den Drohungen von dreierlei Gefahren leidet",
+  "traduccion": "[Vemos] al mismo yo como una pobre criatura, sometida a tres servidumbres y que, por eso, sufre la amenaza de tres peligros.",
+  "temas": [
+   "identidad",
+   "sufrimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-ich-und-das-es/chapter/5",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-038",
+  "fuente": "freud-ich-es",
+  "original": "Die Psychoanalyse ist ein Werkzeug, welches dem Ich die fortschreitende Eroberung des Es ermöglichen soll.",
+  "traduccion": "El psicoanálisis es un instrumento que debe permitirle al yo la conquista progresiva del ello.",
+  "temas": [
+   "terapia",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 5",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-das-ich-und-das-es/chapter/5",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-039",
+  "fuente": "freud-vorlesungen",
+  "original": "daß es nicht einmal Herr ist im eigenen Hause, sondern auf kärgliche Nachrichten angewiesen bleibt von dem, was unbewußt in seinem Seelenleben vorgeht",
+  "traduccion": "[El yo] ni siquiera es dueño en su propia casa, sino que depende de escasas noticias sobre lo que ocurre de manera inconsciente en su vida anímica.",
+  "temas": [
+   "inconsciente",
+   "identidad",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 18",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-vorlesungen-zur-einfuehrung-in-die-psychoanalyse/chapter/18",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-040",
+  "fuente": "freud-vorlesungen",
+  "original": "Worte waren ursprünglich Zauber, und das Wort hat noch heute viel von seiner alten Zauberkraft bewahrt.",
+  "traduccion": "Las palabras fueron en su origen magia, y la palabra conserva todavía hoy mucho de su antiguo poder mágico.",
+  "temas": [
+   "comunicacion",
+   "terapia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-vorlesungen-zur-einfuehrung-in-die-psychoanalyse/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-041",
+  "fuente": "freud-vorlesungen",
+  "original": "Durch Worte kann ein Mensch den anderen selig machen oder zur Verzweiflung treiben",
+  "traduccion": "Con palabras una persona puede hacer dichosa a otra o empujarla a la desesperación.",
+  "temas": [
+   "comunicacion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-vorlesungen-zur-einfuehrung-in-die-psychoanalyse/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-042",
+  "fuente": "freud-vorlesungen",
+  "original": "In der analytischen Behandlung geht nichts anderes vor als ein Austausch von Worten zwischen dem Analysierten und dem Arzt.",
+  "traduccion": "En el tratamiento analítico no ocurre otra cosa que un intercambio de palabras entre el analizado y el médico.",
+  "temas": [
+   "terapia",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-vorlesungen-zur-einfuehrung-in-die-psychoanalyse/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-043",
+  "fuente": "freud-vorlesungen",
+  "original": "Die feindlichen Gefühle bedeuten ebenso eine Gefühlsbindung wie die zärtlichen",
+  "traduccion": "Los sentimientos hostiles significan un lazo afectivo tanto como los tiernos.",
+  "temas": [
+   "vinculos",
+   "ira",
+   "amor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 27",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-vorlesungen-zur-einfuehrung-in-die-psychoanalyse/chapter/27",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-044",
+  "fuente": "freud-traumdeutung",
+  "original": "Die Traumdeutung aber ist die Via regia zur Kenntnis des Unbewußten im Seelenleben.",
+  "traduccion": "La interpretación de los sueños es la vía regia hacia el conocimiento de lo inconsciente en la vida anímica.",
+  "temas": [
+   "suenos",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 7",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-traumdeutung/chapter/7",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-045",
+  "fuente": "freud-traumdeutung",
+  "original": "Der Traum ist die (verkleidete) Erfüllung eines (unterdrückten, verdrängten) Wunsches",
+  "traduccion": "El sueño es el cumplimiento (disfrazado) de un deseo (sofocado, reprimido).",
+  "temas": [
+   "suenos",
+   "deseo",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 4",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-die-traumdeutung/chapter/4",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-046",
+  "fuente": "freud-jenseits",
+  "original": "Das Ziel alles Lebens ist der Tod",
+  "traduccion": "La meta de toda vida es la muerte.",
+  "temas": [
+   "muerte"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Freud lo formula como consecuencia de una hipótesis especulativa sobre las pulsiones, no como una consigna.",
+  "ubicacion": "Capítulo 5",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-jenseits-des-lustprinzips/chapter/5",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-047",
+  "fuente": "freud-neue-folge",
+  "original": "Wo Es war, soll Ich werden. Es ist Kulturarbeit etwa wie die Trockenlegung der Zuydersee.",
+  "traduccion": "Donde era ello, ha de advenir yo. Es un trabajo de cultura, como la desecación del Zuiderzee.",
+  "temas": [
+   "inconsciente",
+   "terapia",
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-neue-folge-der-vorlesungen-zur-einfuehrung-in-die-psychoanalyse/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-048",
+  "fuente": "freud-ueber-psa",
+  "original": "Unsere hysterisch Kranken leiden an Reminiszenzen.",
+  "traduccion": "Nuestras enfermas histéricas sufren de reminiscencias.",
+  "temas": [
+   "sufrimiento",
+   "memoria",
+   "trauma"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "La formulación proviene de Breuer y Freud (1893); aquí Freud la retoma en sus conferencias de 1909.",
+  "ubicacion": "Capítulo 1",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/ueber-psychoanalyse/chapter/1",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-049",
+  "fuente": "freud-ueber-psa",
+  "original": "Die Traumdeutung ist in Wirklichkeit die Via Regia zur Kenntnis des Unbewußten, die sicherste Grundlage der Psychoanalyse",
+  "traduccion": "La interpretación de los sueños es, en realidad, la vía regia hacia el conocimiento de lo inconsciente, el fundamento más seguro del psicoanálisis.",
+  "temas": [
+   "suenos",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/ueber-psychoanalyse/chapter/3",
+  "verificada": true
+ },
+ {
+  "id": "sigmund-freud-050",
+  "fuente": "freud-jenseits",
+  "original": "die Psychoanalyse hat vom Anfang an solches Schicksal für zum großen Teil selbstbereitet und durch frühinfantile Einflüsse determiniert gehalten",
+  "traduccion": "El psicoanálisis consideró desde el comienzo que ese destino [que parece perseguir a algunas personas] es en gran parte autoprovocado y está determinado por influencias de la primera infancia.",
+  "temas": [
+   "repeticion",
+   "infancia",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://projekt-gutenberg.org/authors/sigmund-freud/books/sigmund-freud-jenseits-des-lustprinzips/chapter/3",
+  "verificada": true
+ }
+]

@@ -1,0 +1,621 @@
+{
+ "autores": [
+  {
+   "slug": "seneca",
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": true,
+   "nombre": "Séneca",
+   "nombre_completo": "Lucio Anneo Séneca",
+   "nacimiento": "c. 4 a. C., Córdoba (Hispania)",
+   "muerte": "65 d. C., Roma",
+   "epoca": "clasico",
+   "nacionalidad": "Romano, nacido en Hispania",
+   "idioma": "la",
+   "disciplinas": [
+    "Filosofía",
+    "Ética"
+   ],
+   "corriente": "Estoicismo",
+   "bio": "Filósofo, escritor y político romano. Fue preceptor y luego consejero de Nerón, y murió obligado por él a quitarse la vida. Sus cartas a Lucilio y sus diálogos son una de las expresiones más vivas del estoicismo: una filosofía pensada como práctica cotidiana para vivir con menos miedo, menos ira y más libertad interior.",
+   "aportes": [
+    "La filosofía como ejercicio diario y no como teoría",
+    "El tiempo como el único bien verdaderamente propio",
+    "Un análisis fino de la ira, el miedo anticipatorio y la opinión como fuente de sufrimiento",
+    "La amistad y la conversación como espacios de transformación"
+   ],
+   "obras": [
+    "Cartas a Lucilio (Epistulae morales ad Lucilium, c. 62–65)",
+    "Sobre la brevedad de la vida (De brevitate vitae)",
+    "Sobre la ira (De ira)",
+    "Sobre la providencia (De providentia)",
+    "Sobre la tranquilidad del ánimo (De tranquillitate animi)"
+   ],
+   "relacion": "Muchas intuiciones de Séneca anticipan ideas de la psicología actual: la distinción entre el hecho y la interpretación que hacemos de él (base de la terapia cognitiva), el valor de la demora ante la ira y la idea de que sufrimos más por anticipación que por lo que efectivamente ocurre.",
+   "nota_citas": "Textos latinos de The Latin Library. Las traducciones son propias de Lo que te habita."
+  },
+  {
+   "slug": "marco-aurelio",
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": true,
+   "nombre": "Marco Aurelio",
+   "nombre_completo": "Marco Aurelio Antonino",
+   "nacimiento": "121, Roma",
+   "muerte": "180, Vindobona o Sirmio",
+   "epoca": "clasico",
+   "nacionalidad": "Romano",
+   "idioma": "grc",
+   "disciplinas": [
+    "Filosofía",
+    "Ética"
+   ],
+   "corriente": "Estoicismo",
+   "bio": "Emperador romano entre 161 y 180. Durante sus campañas militares escribió, en griego y para sí mismo, unas notas que hoy conocemos como Meditaciones: un diario de ejercicios espirituales en el que se recuerda cómo vivir con justicia, serenidad y atención al presente en medio de la guerra, la peste y la pérdida.",
+   "aportes": [
+    "La escritura como práctica de autoexamen",
+    "El presente como el único tiempo que se vive",
+    "La distinción entre lo que depende de nosotros y lo que no",
+    "La conciencia de pertenecer a un todo compartido con los demás"
+   ],
+   "obras": [
+    "Meditaciones (Ta eis heauton, «A sí mismo»)"
+   ],
+   "relacion": "Las Meditaciones son una referencia frecuente en la terapia cognitivo-conductual, la terapia de aceptación y compromiso y las prácticas de atención plena: proponen observar el propio juicio, volver al presente y aceptar lo que no se puede cambiar sin renunciar a actuar bien.",
+   "nota_citas": "Marco Aurelio escribió en griego. Citamos la traducción inglesa de George Long (1862), de dominio público, y ofrecemos una traducción propia al castellano hecha a partir de ella. La ubicación (libro y sección) permite cotejar cualquier edición."
+  },
+  {
+   "slug": "sigmund-freud",
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": true,
+   "nombre": "Sigmund Freud",
+   "nombre_completo": "Sigmund Freud",
+   "nacimiento": "6 de mayo de 1856, Freiberg (Moravia)",
+   "muerte": "23 de septiembre de 1939, Londres",
+   "epoca": "moderno",
+   "nacionalidad": "Austríaco",
+   "idioma": "de",
+   "disciplinas": [
+    "Psicoanálisis",
+    "Medicina",
+    "Psicología"
+   ],
+   "corriente": "Psicoanálisis",
+   "bio": "Médico neurólogo vienés, creador del psicoanálisis. A partir del trabajo con pacientes histéricas desarrolló un método —la asociación libre y la interpretación— y una teoría del psiquismo centrada en el inconsciente, la sexualidad infantil, la represión y la transferencia. Exiliado por el nazismo en 1938, murió en Londres al año siguiente.",
+   "aportes": [
+    "El inconsciente como dimensión determinante de la vida psíquica",
+    "La interpretación de los sueños, los actos fallidos y los síntomas",
+    "La cura por la palabra y la transferencia",
+    "Las instancias ello, yo y superyó",
+    "Una lectura de la cultura a partir del conflicto entre pulsión y civilización"
+   ],
+   "obras": [
+    "La interpretación de los sueños (1900)",
+    "Sobre psicoanálisis (1910)",
+    "Conferencias de introducción al psicoanálisis (1916–1917)",
+    "Más allá del principio del placer (1920)",
+    "El yo y el ello (1923)",
+    "El porvenir de una ilusión (1927)",
+    "El malestar en la cultura (1930)",
+    "Nuevas conferencias de introducción al psicoanálisis (1933)"
+   ],
+   "relacion": "Fundador de una de las grandes tradiciones de la psicología clínica. Aun quienes discuten sus teorías trabajan con ideas que él volvió comunes: que hay procesos psíquicos fuera de la conciencia, que la infancia deja marcas y que hablar puede transformar.",
+   "nota_citas": "Textos alemanes de Projekt Gutenberg-DE. Las traducciones son propias de Lo que te habita; los términos técnicos siguen el uso habitual en castellano (pulsión, yo, ello, superyó)."
+  },
+  {
+   "slug": "william-james",
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": true,
+   "nombre": "William James",
+   "nombre_completo": "William James",
+   "nacimiento": "11 de enero de 1842, Nueva York",
+   "muerte": "26 de agosto de 1910, Chocorua (New Hampshire)",
+   "epoca": "moderno",
+   "nacionalidad": "Estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicología",
+    "Filosofía",
+    "Medicina"
+   ],
+   "corriente": "Funcionalismo y pragmatismo",
+   "bio": "Médico, psicólogo y filósofo, profesor en Harvard. Sus Principios de psicología (1890) fundaron la psicología académica estadounidense. Describió la conciencia como una corriente, estudió el hábito, la atención, el yo y la emoción, y desarrolló el pragmatismo: la idea de que la verdad de una idea se juega en sus consecuencias para la vida.",
+   "aportes": [
+    "La conciencia como «corriente de pensamiento»",
+    "El hábito y la atención como bases del carácter",
+    "La teoría de la emoción de James-Lange",
+    "El yo material, social y espiritual; la fórmula de la autoestima",
+    "La experiencia religiosa estudiada desde la psicología",
+    "El pragmatismo"
+   ],
+   "obras": [
+    "Principios de psicología (1890)",
+    "La voluntad de creer (1897)",
+    "Charlas a los maestros sobre psicología (1899)",
+    "Las variedades de la experiencia religiosa (1902)",
+    "Pragmatismo (1907)"
+   ],
+   "relacion": "Considerado el padre de la psicología estadounidense. Sus ideas sobre el hábito, la atención y la emoción siguen presentes en la psicología cognitiva, la investigación sobre la atención plena y la psicología de la religión.",
+   "nota_citas": "Textos ingleses de las primeras ediciones, en Project Gutenberg. Las traducciones son propias de Lo que te habita."
+  },
+  {
+   "slug": "sandor-ferenczi",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "melanie-klein",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2031 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "anna-freud",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2053 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "donald-winnicott",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2042 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "wilfred-bion",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2050 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "jacques-lacan",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2052 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "heinz-kohut",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2052 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "enrique-pichon-riviere",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2048 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "arminda-aberastury",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2043 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "carl-gustav-jung",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2032 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "erich-neumann",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2031 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "michael-fordham",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2066 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "marie-louise-von-franz",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2069 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "edward-edinger",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2069 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "james-hillman",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2082 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "marion-woodman",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2089 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "jean-shinoda-bolen",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "james-hollis",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "clarissa-pinkola-estes",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "erich-fromm",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "carl-rogers",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2058 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "viktor-frankl",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2068 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "abraham-maslow",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2041 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "rollo-may",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2065 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "irvin-yalom",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "fritz-perls",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2041 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "laura-perls",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "eric-berne",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2041 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "claudio-naranjo",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2090 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "ivan-pavlov",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "john-b-watson",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2029 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "b-f-skinner",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "albert-ellis",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2078 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "aaron-t-beck",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2092 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "albert-bandura",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2092 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "martin-seligman",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "marsha-linehan",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "jon-kabat-zinn",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "steven-c-hayes",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "gregory-bateson",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "murray-bowen",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "virginia-satir",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2059 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "paul-watzlawick",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2078 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "salvador-minuchin",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2088 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "jean-piaget",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "lev-vygotsky",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "erik-erikson",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2065 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "john-bowlby",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "mary-ainsworth",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2070 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "wilhelm-wundt",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "alfred-adler",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "otto-rank",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "karen-horney",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "harry-stack-sullivan",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "wilhelm-reich",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2028 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "marie-langer",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2058 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "ludwig-binswanger",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "ronald-laing",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2060 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "platon",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "aristoteles",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "epicteto",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "baruch-spinoza",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "immanuel-kant",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "hegel",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "arthur-schopenhauer",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "soren-kierkegaard",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "friedrich-nietzsche",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "martin-buber",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2036 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "rene-descartes",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "john-locke",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "edmund-husserl",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "martin-heidegger",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2047 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "jean-paul-sartre",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "maurice-merleau-ponty",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2032 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "buda",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "lao-tse",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "patanjali",
+   "estado": "pendiente",
+   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+  },
+  {
+   "slug": "d-t-suzuki",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "alexander-lowen",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2079 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "eugene-gendlin",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2088 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "stanislav-grof",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "ken-wilber",
+   "estado": "pendiente",
+   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+  },
+  {
+   "slug": "roberto-assagioli",
+   "estado": "pendiente",
+   "motivo": "Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  }
+ ],
+ "descartadas": [
+  {
+   "autor": "William James",
+   "frase": "Wisdom is learning what to overlook",
+   "motivo": "Paráfrasis viral. El pasaje auténtico es «the art of being wise is the art of knowing what to overlook» (Principios de psicología, cap. 22), incluido como cita."
+  },
+  {
+   "autor": "William James",
+   "frase": "Act as if what you do makes a difference. It does.",
+   "motivo": "No aparece en las obras revisadas. Atribución sin fuente primaria."
+  },
+  {
+   "autor": "William James",
+   "frase": "The greatest discovery of my generation is that a human being can alter his life by altering his attitudes",
+   "motivo": "No aparece en las obras revisadas. Atribución sin fuente primaria."
+  },
+  {
+   "autor": "William James",
+   "frase": "The deepest principle in human nature is the craving to be appreciated",
+   "motivo": "Proviene de una carta citada de segunda mano; no se pudo cotejar en una fuente primaria."
+  },
+  {
+   "autor": "Sigmund Freud",
+   "frase": "El sentimiento oceánico",
+   "motivo": "En El malestar en la cultura la expresión pertenece a Romain Rolland; Freud la discute. No se atribuye a Freud."
+  },
+  {
+   "autor": "Sigmund Freud",
+   "frase": "Der Mensch ist eindeutig gut…",
+   "motivo": "Freud presenta esa tesis para criticarla. Citarla como suya invertiría su sentido."
+  },
+  {
+   "autor": "Sigmund Freud",
+   "frase": "A veces un cigarro es solo un cigarro",
+   "motivo": "Atribución apócrifa, sin fuente en la obra de Freud."
+  },
+  {
+   "autor": "Marco Aurelio",
+   "frase": "Eres un alma pequeña que lleva un cadáver",
+   "motivo": "Marco Aurelio cita aquí a Epicteto (Meditaciones 4.41). No se atribuye a Marco Aurelio."
+  },
+  {
+   "autor": "Séneca",
+   "frase": "Si vis amari, ama",
+   "motivo": "Séneca la cita de Hecatón (Carta 9). No se atribuye a Séneca."
+  },
+  {
+   "autor": "Séneca",
+   "frase": "Ducunt volentem fata, nolentem trahunt",
+   "motivo": "Séneca traduce aquí versos de Cleantes (Carta 107)."
+  },
+  {
+   "autor": "Séneca",
+   "frase": "Sentencias de Epicuro citadas en las primeras cartas",
+   "motivo": "Séneca cierra muchas cartas con una frase de Epicuro u otro autor; se excluyeron todas."
+  },
+  {
+   "autor": "Séneca",
+   "frase": "Pasajes sobre el suicidio (Cartas 70, 77)",
+   "motivo": "Excluidos por criterio de cuidado: aislados de su contexto pueden leerse como una invitación."
+  }
+ ]
+}

@@ -222,6 +222,8 @@ def figura_html(nombre):
 # --------------------------------------------------------------------------- mapa de autores
 MAPA = json.loads((RAIZ / "contenido/mapa_autores.json").read_text(encoding="utf-8")) if (RAIZ / "contenido/mapa_autores.json").exists() else None
 MAPA_RUTA = "/recursos/mapa-de-la-psicologia/"
+import voces_sitio  # noqa: E402  «Voces que nos habitan»
+VOCES = voces_sitio.cargar(MAPA)
 
 
 def _mapa_nombres():
@@ -461,6 +463,7 @@ NAV = [
         ("¿Por dónde empiezo?", "/por-donde-empezar/", "Un recorrido según lo que te pasa"),
         ("Tests", "/tests/", "Autoconocimiento, escalas breves y ejercicios"),
         ("El mapa de lo que me habita", "/el-mapa-de-lo-que-me-habita/", "Un recorrido para pensarte en nueve estaciones"),
+        ("Voces que nos habitan", "/recursos/voces-que-nos-habitan/", "Citas verificadas de grandes pensadores"),
         ("Buscar", "/buscar/", "Artículos, laboratorios y preguntas"),
     ]),
     ("Empezar", None, [
@@ -1648,6 +1651,10 @@ def render_articulo(a):
     if caja_mapa:
         i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
         cuerpo_md = cuerpo_md + caja_mapa if i_corte < 0 else cuerpo_md[:i_corte] + caja_mapa + cuerpo_md[i_corte:]
+    caja_voces = voces_sitio.caja_articulo(sys.modules[__name__], VOCES, a["archivo"][:-3])
+    if caja_voces:
+        i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
+        cuerpo_md = cuerpo_md + caja_voces if i_corte < 0 else cuerpo_md[:i_corte] + caja_voces + cuerpo_md[i_corte:]
     og = f'og/{a["archivo"][:-3]}.jpg'
     og = og if (RAIZ / "assets/img" / og).exists() else "og-inicio.jpg"
     menciones = [{"@type": "Thing", "name": WIKI[k][0], "sameAs": WIKI[k][1]}
@@ -1774,7 +1781,7 @@ def leer_pagina(f):
     return meta, txt[m.end():]
 
 
-VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/interactivo.css").read_bytes() + (RAIZ / "assets/css/figuras.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js"))) + (RAIZ / "contenido/psicoquiz.json").read_bytes()).hexdigest()[:8]
+VERSION = hashlib.md5((RAIZ / "assets/css/estilos.css").read_bytes() + (RAIZ / "assets/css/interactivo.css").read_bytes() + (RAIZ / "assets/css/figuras.css").read_bytes() + (RAIZ / "assets/css/oscuro.plantilla.css").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "assets/js").glob("*.js"))) + (RAIZ / "contenido/psicoquiz.json").read_bytes() + b"".join(f.read_bytes() for f in sorted((RAIZ / "contenido/voces").rglob("*.json")))).hexdigest()[:8]
 
 
 def escribir(ruta, contenido):
@@ -1849,6 +1856,9 @@ def construir():
             fechas[a["ruta"]] = a.get("revision", a.get("fecha", HOY))
             imagenes[a["ruta"]] = meta["og"]
 
+    # Voces que nos habitan: biblioteca de citas verificadas (voces_sitio.py)
+    rutas_voces = voces_sitio.construir(sys.modules[__name__], VOCES, mapa, nombres, fechas, imagenes) if VOCES else []
+
     # Páginas por categoría de artículos
     visibles = [a for a in ARTICULOS if a["publicado"] or BORRADORES]
     cats_con = [c for c in CATEGORIAS if any(a["categoria"] == c for a in visibles)]
@@ -1881,7 +1891,8 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
+        ("Voces que nos habitan", rutas_voces[2:]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
     bloques_mapa = "".join(
