@@ -763,5 +763,184 @@
   "capitulos": "auto",
   "edicion": "Texto alemán en Projekt Gutenberg-DE",
   "dominio_publico": "Kant murió en 1804."
+ },
+ "aristoteles-etica": {
+  "titulo": "The Nicomachean Ethics",
+  "titulo_es": "Ética a Nicómaco",
+  "anio": 1847,
+  "anio_texto": "s. IV a. C.",
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "D. P. Chase",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+  ],
+  "edicion": "Trad. inglesa de D. P. Chase (Everyman's Library), en Project Gutenberg",
+  "estricto": true,
+  "dominio_publico": "Aristóteles murió en 322 a. C.; Chase, en 1902.",
+  "inicio_texto": 50734,
+  "localizador": "regex",
+  "patrones": [
+   [
+    "BOOK ([IVX]+)",
+    "Libro {0}"
+   ]
+  ]
+ },
+ "aristoteles-politica": {
+  "titulo": "Politics: A Treatise on Government",
+  "titulo_es": "Política",
+  "anio": 1776,
+  "anio_texto": "s. IV a. C.",
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "William Ellis",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/6762/pg6762.txt"
+  ],
+  "edicion": "Trad. inglesa de William Ellis, en Project Gutenberg",
+  "estricto": true,
+  "dominio_publico": "Traducción del siglo XVIII.",
+  "inicio_texto": 29164,
+  "localizador": "regex",
+  "patrones": [
+   [
+    "BOOK ([IVX]+)",
+    "Libro {0}"
+   ],
+   [
+    "CHAPTER ([IVXL]+)",
+    "cap. {0}"
+   ]
+  ]
+ },
+ "aristoteles-poetica": {
+  "titulo": "The Poetics",
+  "titulo_es": "Poética",
+  "anio": 1895,
+  "anio_texto": "s. IV a. C.",
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "S. H. Butcher",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1974/pg1974.txt"
+  ],
+  "edicion": "Trad. inglesa de S. H. Butcher, en Project Gutenberg",
+  "estricto": true,
+  "dominio_publico": "Butcher murió en 1910.",
+  "inicio_texto": 3186
+ },
+ "locke-ensayo-1": {
+  "titulo": "An Essay Concerning Humane Understanding, vol. 1",
+  "titulo_es": "Ensayo sobre el entendimiento humano, vol. 1",
+  "anio": 1690,
+  "idioma": "en",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/10615/pg10615.txt"
+  ],
+  "edicion": "Texto inglés en Project Gutenberg",
+  "dominio_publico": "Locke murió en 1704.",
+  "localizador": "regex",
+  "inicio_texto": 0,
+  "patrones": [
+   [
+    "BOOK ([IVX]+)",
+    "Libro {0}"
+   ],
+   [
+    "CHAPTER ([IVXL]+)\\.",
+    "cap. {0}"
+   ]
+  ]
+ },
+ "locke-ensayo-2": {
+  "titulo": "An Essay Concerning Humane Understanding, vol. 2",
+  "titulo_es": "Ensayo sobre el entendimiento humano, vol. 2",
+  "anio": 1690,
+  "idioma": "en",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/10616/pg10616.txt"
+  ],
+  "edicion": "Texto inglés en Project Gutenberg",
+  "dominio_publico": "Locke murió en 1704.",
+  "localizador": "regex",
+  "inicio_texto": 0,
+  "patrones": [
+   [
+    "BOOK ([IVX]+)",
+    "Libro {0}"
+   ],
+   [
+    "CHAPTER ([IVXL]+)\\.",
+    "cap. {0}"
+   ]
+  ]
+ },
+ "descartes-pasiones": {
+  "titulo": "Les Passions de l’âme",
+  "titulo_es": "Las pasiones del alma",
+  "anio": 1649,
+  "idioma": "fr",
+  "urls": [
+   "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
+   "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+   "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render"
+  ],
+  "edicion": "Texto francés en Wikisource",
+  "dominio_publico": "Descartes murió en 1650.",
+  "localizador": "regex",
+  "patrones": [
+   [
+    "Art\\. ?(\\d+)",
+    "art. {0}"
+   ]
+  ]
+ },
+ "descartes-discurso": {
+  "titulo": "Discours de la méthode",
+  "titulo_es": "Discurso del método",
+  "anio": 1637,
+  "idioma": "fr",
+  "urls": [
+   "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render"
+  ],
+  "edicion": "Texto francés (ed. Cousin) en Wikisource",
+  "dominio_publico": "Descartes murió en 1650."
+ },
+ "descartes-meditaciones": {
+  "titulo": "Méditations métaphysiques",
+  "titulo_es": "Meditaciones metafísicas",
+  "anio": 1647,
+  "anio_texto": "1641 (trad. francesa de 1647)",
+  "idioma": "fr",
+  "urls": [
+   "https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_premi%C3%A8re&action=render",
+   "https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_seconde&action=render",
+   "https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_troisi%C3%A8me&action=render",
+   "https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_quatri%C3%A8me&action=render",
+   "https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_cinqui%C3%A8me&action=render",
+   "https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_sixi%C3%A8me&action=render"
+  ],
+  "edicion": "Versión francesa de 1647, revisada por Descartes, en Wikisource",
+  "dominio_publico": "Descartes murió en 1650.",
+  "localizador": "regex",
+  "patrones": [
+   [
+    "\\[\\[SECCION (\\d)\\]\\]",
+    "Meditación {0}"
+   ]
+  ]
+ },
+ "adler-caracter": {
+  "titulo": "Über den nervösen Charakter",
+  "titulo_es": "El carácter neurótico",
+  "anio": 1922,
+  "anio_texto": "1912 (2.ª ed. 1922)",
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/berdennervsencha02adle/berdennervsencha02adle_djvu.txt"
+  ],
+  "edicion": "Segunda edición (1922), texto alemán digitalizado en Internet Archive",
+  "dominio_publico": "Adler murió en 1937."
  }
 }

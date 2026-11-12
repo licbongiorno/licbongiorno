@@ -1,0 +1,810 @@
+[
+ {
+  "id": "rene-descartes-001",
+  "fuente": "descartes-discurso",
+  "original": "Le bon sens est la chose du monde la mieux partagée",
+  "traduccion": "El buen sentido es la cosa mejor repartida del mundo.",
+  "temas": [
+   "conocimiento",
+   "humor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "",
+  "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-002",
+  "fuente": "descartes-discurso",
+  "original": "car ce n'est pas assez d'avoir l'esprit bon, mais le principal est de l'appliquer bien.",
+  "traduccion": "No basta con tener buen ingenio: lo principal es aplicarlo bien.",
+  "temas": [
+   "conocimiento",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "",
+  "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-003",
+  "fuente": "descartes-discurso",
+  "original": "Les plus grandes âmes sont capables des plus grands vices aussi bien que des plus grandes vertus",
+  "traduccion": "Las almas más grandes son capaces de los mayores vicios tanto como de las mayores virtudes.",
+  "temas": [
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "",
+  "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-004",
+  "fuente": "descartes-discurso",
+  "original": "la lecture de tous les bons livres est comme une conversation avec les plus honnêtes gens des siècles passés",
+  "traduccion": "La lectura de todos los buenos libros es como una conversación con las personas más valiosas de los siglos pasados.",
+  "temas": [
+   "educacion",
+   "cultura",
+   "encuentro"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "",
+  "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-005",
+  "fuente": "descartes-discurso",
+  "original": "je pense, donc je suis",
+  "traduccion": "Pienso, luego existo.",
+  "temas": [
+   "conciencia",
+   "existencia",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "",
+  "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-006",
+  "fuente": "descartes-discurso",
+  "original": "tâcher toujours plutôt à me vaincre que la fortune, et à changer mes désirs que l'ordre du monde",
+  "traduccion": "Procurar siempre vencerme a mí mismo antes que a la fortuna, y cambiar mis deseos antes que el orden del mundo.",
+  "temas": [
+   "aceptacion",
+   "deseo",
+   "regulacion-emocional"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "",
+  "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-007",
+  "fuente": "descartes-discurso",
+  "original": "il n'y a rien qui soit entièrement en notre pouvoir que nos pensées",
+  "traduccion": "No hay nada que esté enteramente en nuestro poder salvo nuestros pensamientos.",
+  "temas": [
+   "libertad",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "",
+  "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-008",
+  "fuente": "descartes-discurso",
+  "original": "ne recevoir jamais aucune chose pour vraie que je ne la connusse évidemment être telle",
+  "traduccion": "No aceptar nunca nada como verdadero sin conocer con evidencia que lo es.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "",
+  "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-009",
+  "fuente": "descartes-meditaciones",
+  "original": "je suis, j'existe, est nécessairement vraie, toutes les fois que je la prononce ou que je la conçois en mon esprit.",
+  "traduccion": "[Esta proposición:] yo soy, yo existo, es necesariamente verdadera cada vez que la pronuncio o la concibo en mi mente.",
+  "temas": [
+   "existencia",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Meditación 2",
+  "url": "https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_seconde&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-010",
+  "fuente": "descartes-meditaciones",
+  "original": "je ne suis donc, précisément parlant, qu'une chose qui pense",
+  "traduccion": "No soy, entonces, hablando con precisión, más que una cosa que piensa.",
+  "temas": [
+   "identidad",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Meditación 2",
+  "url": "https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_seconde&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-011",
+  "fuente": "descartes-pasiones",
+  "original": "Il n'y a rien en quoi paraisse mieux combien les sciences que nous avons des anciens sont défectueuses qu'en ce qu'ils ont écrit des passions.",
+  "traduccion": "En nada se ve mejor cuán defectuosas son las ciencias que heredamos de los antiguos que en lo que escribieron sobre las pasiones.",
+  "temas": [
+   "emociones",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 1",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-012",
+  "fuente": "descartes-pasiones",
+  "original": "Tels sont les sentiments de joie, de colère, et autres semblables, qui sont quelquefois excités en nous par les objets qui meuvent nos nerfs, et quelquefois aussi par d'autres causes.",
+  "traduccion": "Tales son los sentimientos de alegría, de ira y otros semejantes, que a veces despiertan en nosotros los objetos que mueven nuestros nervios, y a veces otras causas.",
+  "temas": [
+   "emociones",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 25",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-013",
+  "fuente": "descartes-pasiones",
+  "original": "Comment une même cause peut exciter diverses passions en divers hommes.",
+  "traduccion": "Cómo una misma causa puede despertar pasiones distintas en personas distintas.",
+  "temas": [
+   "emociones",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Título de uno de los artículos de la primera parte.",
+  "ubicacion": "art. 39",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-014",
+  "fuente": "descartes-pasiones",
+  "original": "Par exemple, si la colère fait lever la main pour frapper, la volonté peut ordinairement la retenir ; si la peur incite les jambes à fuir, la volonté les peut arrêter, et ainsi des autres.",
+  "traduccion": "Por ejemplo, si la ira hace levantar la mano para golpear, la voluntad puede de ordinario retenerla; si el miedo empuja las piernas a huir, la voluntad puede detenerlas; y así con las demás.",
+  "temas": [
+   "regulacion-emocional",
+   "ira",
+   "miedo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 46",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-015",
+  "fuente": "descartes-pasiones",
+  "original": "Mais il y en a qui ne peuvent éprouver leur force, parce qu'ils ne font jamais combattre leur volonté avec ses propres armes, mais seulement avec celles que lui fournissent quelques passions pour résister à quelques autres.",
+  "traduccion": "Pero hay quienes no pueden probar su fuerza porque nunca hacen combatir a su voluntad con sus propias armas, sino solo con las que le dan algunas pasiones para resistir a otras.",
+  "temas": [
+   "voluntad",
+   "regulacion-emocional"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 48",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-016",
+  "fuente": "descartes-pasiones",
+  "original": "Qu'il n'y a point d'âme si faible qu'elle ne puisse, étant bien conduite, acquérir un pouvoir absolu sur ses passions.",
+  "traduccion": "Que no hay alma tan débil que, bien guiada, no pueda adquirir un poder absoluto sobre sus pasiones.",
+  "temas": [
+   "regulacion-emocional",
+   "esperanza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Título de un artículo de la primera parte. Hoy sabemos que ese dominio rara vez es absoluto; Descartes mismo propone para lograrlo un largo ejercicio de hábitos.",
+  "ubicacion": "art. 50",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-017",
+  "fuente": "descartes-pasiones",
+  "original": "Or ces choses sont utiles à savoir pour donner le courage à un chacun d'étudier à régler ses passions.",
+  "traduccion": "Es útil saber estas cosas para darle a cada uno el ánimo de aprender a regular sus pasiones.",
+  "temas": [
+   "regulacion-emocional",
+   "educacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 50",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-018",
+  "fuente": "descartes-pasiones",
+  "original": "il me semble que l'admiration est la première de toutes les passions.",
+  "traduccion": "Me parece que la admiración [el asombro] es la primera de todas las pasiones.",
+  "temas": [
+   "emociones",
+   "atencion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "art. 53",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-019",
+  "fuente": "descartes-pasiones",
+  "original": "L'admiration est une subite surprise de l'âme, qui fait qu'elle se porte à considérer avec attention les objets qui lui semblent rares et extraordinaires.",
+  "traduccion": "La admiración es una sorpresa súbita del alma que la lleva a considerar con atención los objetos que le parecen raros y extraordinarios.",
+  "temas": [
+   "emociones",
+   "atencion",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 70",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-020",
+  "fuente": "descartes-pasiones",
+  "original": "Et on peut dire en particulier de l'admiration qu'elle est utile en ce qu'elle fait que nous apprenons et retenons en notre mémoire les choses que nous avons auparavant ignorées.",
+  "traduccion": "De la admiración puede decirse en particular que es útil porque hace que aprendamos y retengamos en la memoria lo que antes ignorábamos.",
+  "temas": [
+   "educacion",
+   "memoria"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 75",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-021",
+  "fuente": "descartes-pasiones",
+  "original": "C'est cela qu'on appelle communément être étonné ; et l'étonnement est un excès d'admiration qui ne peut jamais être que mauvais.",
+  "traduccion": "Eso es lo que comúnmente se llama quedarse atónito; y el pasmo es un exceso de admiración que no puede ser sino malo.",
+  "temas": [
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 73",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-022",
+  "fuente": "descartes-pasiones",
+  "original": "L'amour est une émotion de l'âme causée par le mouvement des esprits, qui l'incite à se joindre de volonté aux objets qui paraissent lui être convenables.",
+  "traduccion": "El amor es una emoción del alma que la incita a unirse por voluntad a los objetos que le parecen convenientes.",
+  "temas": [
+   "amor",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 79",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-023",
+  "fuente": "descartes-pasiones",
+  "original": "Et la haine est une émotion causée par les esprits, qui incite l'âme à vouloir être séparée des objets qui se présentent à elle comme nuisibles.",
+  "traduccion": "Y el odio es una emoción que incita al alma a querer separarse de los objetos que se le presentan como dañinos.",
+  "temas": [
+   "ira",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 79",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-024",
+  "fuente": "descartes-pasiones",
+  "original": "Car lorsqu'on estime l'objet de son amour moins que soi, on n'a pour lui qu'une simple affection ; lorsqu'on l'estime à l'égal de soi, cela se nomme amitié ; et lorsqu'on l'estime davantage, la passion qu'on a peut être nommée dévotion.",
+  "traduccion": "Cuando se estima lo que se ama menos que a uno mismo, se siente por ello un simple afecto; cuando se lo estima igual que a uno mismo, se llama amistad; y cuando se lo estima más, esa pasión puede llamarse devoción.",
+  "temas": [
+   "amor",
+   "amistad",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 83",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-025",
+  "fuente": "descartes-pasiones",
+  "original": "La passion du désir est une agitation de l'âme causée par les esprits qui la dispose à vouloir pour l'avenir les choses qu'elle se représente être convenables.",
+  "traduccion": "El deseo es una agitación del alma que la dispone a querer para el futuro las cosas que se representa como convenientes.",
+  "temas": [
+   "deseo",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 86",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-026",
+  "fuente": "descartes-pasiones",
+  "original": "La joie est une agréable émotion de l'âme, en laquelle consiste la jouissance qu'elle a du bien que les impressions du cerveau lui représentent comme sien.",
+  "traduccion": "La alegría es una emoción agradable del alma en la que consiste el disfrute del bien que las impresiones del cerebro le presentan como propio.",
+  "temas": [
+   "alegria",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 91",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-027",
+  "fuente": "descartes-pasiones",
+  "original": "La tristesse est une langueur désagréable en laquelle consiste l'incommodité que l'âme reçoit du mal, ou du défaut que les impressions du cerveau lui représentent comme lui appartenant.",
+  "traduccion": "La tristeza es una languidez desagradable en la que consiste el malestar que el alma recibe del mal o de la carencia que las impresiones del cerebro le presentan como propios.",
+  "temas": [
+   "tristeza",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 92",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-028",
+  "fuente": "descartes-pasiones",
+  "original": "Toutefois, ils diffèrent si fort qu'on peut quelquefois souffrir des douleurs avec joie, et recevoir des chatouillements qui déplaisent.",
+  "traduccion": "Sin embargo, son tan distintos que a veces se pueden sufrir dolores con alegría y recibir cosquillas que desagradan.",
+  "temas": [
+   "emociones",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 94",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-029",
+  "fuente": "descartes-pasiones",
+  "original": "Et le bien qui a été fait par nous-mêmes nous donne une satisfaction intérieure, qui est la plus douce de toutes les passions, au lieu que le mal excite le repentir, qui est la plus amère.",
+  "traduccion": "El bien que hicimos nos da una satisfacción interior, la más dulce de todas las pasiones; el mal, en cambio, despierta el arrepentimiento, la más amarga.",
+  "temas": [
+   "culpa",
+   "felicidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 63",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-030",
+  "fuente": "descartes-pasiones",
+  "original": "Et quelquefois la durée du bien cause l'ennui ou le dégoût, au lieu que celle du mal diminue la tristesse.",
+  "traduccion": "A veces la duración del bien causa aburrimiento o hastío, mientras que la duración del mal disminuye la tristeza.",
+  "temas": [
+   "emociones",
+   "tiempo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 67",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-031",
+  "fuente": "descartes-pasiones",
+  "original": "Enfin, du bien passé vient le regret, qui est une espèce de tristesse, et du mal passé vient l'allégresse, qui est une espèce de joie.",
+  "traduccion": "Del bien pasado viene la añoranza, que es una especie de tristeza; y del mal pasado, el alivio alegre, que es una especie de alegría.",
+  "temas": [
+   "duelo",
+   "alegria",
+   "memoria"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 67",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Seconde_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-032",
+  "fuente": "descartes-pasiones",
+  "original": "Et parce que l'une des principales parties de la sagesse est de savoir en quelle façon et pour quelle cause chacun se doit estimer ou mépriser, je tâcherai ici d'en dire mon opinion.",
+  "traduccion": "Y como una de las partes principales de la sabiduría es saber de qué manera y por qué causa cada uno debe estimarse o despreciarse, intentaré dar aquí mi opinión.",
+  "temas": [
+   "autoestima",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 152",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-033",
+  "fuente": "descartes-pasiones",
+  "original": "Quelles sont les propriétés de la générosité, et comment elle sert de remède contre tous les dérèglements des passions.",
+  "traduccion": "Cuáles son las propiedades de la generosidad y cómo sirve de remedio contra todos los desarreglos de las pasiones.",
+  "temas": [
+   "regulacion-emocional",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Para Descartes, la generosidad es la justa estima de sí basada en el buen uso de la propia libertad.",
+  "ubicacion": "art. 156",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-034",
+  "fuente": "descartes-pasiones",
+  "original": "Ceux qui sont généreux en cette façon sont naturellement portés à faire de grandes choses, et toutefois à ne rien entreprendre dont ils ne se sentent capables.",
+  "traduccion": "Quienes son generosos de esta manera tienden naturalmente a hacer grandes cosas, y sin embargo a no emprender nada de lo que no se sientan capaces.",
+  "temas": [
+   "autoestima",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 156",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-035",
+  "fuente": "descartes-pasiones",
+  "original": "et il arrive souvent que ceux qui ont l'esprit le plus bas sont les plus arrogants et superbes, en même façon que les plus généreux sont les plus modestes et les plus humbles.",
+  "traduccion": "Y sucede a menudo que quienes tienen el espíritu más bajo son los más arrogantes y soberbios, así como los más generosos son los más modestos y humildes.",
+  "temas": [
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "art. 159",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-036",
+  "fuente": "descartes-pasiones",
+  "original": "Et il faut remarquer que ce qu'on nomme communément des vertus sont des habitudes en l'âme qui la disposent à certaines pensées",
+  "traduccion": "Hay que notar que lo que comúnmente llamamos virtudes son hábitos del alma que la disponen a ciertos pensamientos.",
+  "temas": [
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "art. 161",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-037",
+  "fuente": "descartes-pasiones",
+  "original": "L'espérance est une disposition de l'âme à se persuader que ce qu'elle désire adviendra",
+  "traduccion": "La esperanza es una disposición del alma a persuadirse de que lo que desea sucederá.",
+  "temas": [
+   "esperanza",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "art. 165",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-038",
+  "fuente": "descartes-pasiones",
+  "original": "Et la crainte est une autre disposition de l'âme qui lui persuade qu'il n'adviendra pas.",
+  "traduccion": "Y el temor es otra disposición del alma que la persuade de que no sucederá.",
+  "temas": [
+   "miedo",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 165",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-039",
+  "fuente": "descartes-pasiones",
+  "original": "L'irrésolution est aussi une espèce de crainte qui, retenant l'âme comme en balance entre plusieurs actions qu'elle peut faire, est cause qu'elle n'en exécute aucune",
+  "traduccion": "La irresolución es también una especie de temor que, reteniendo al alma como en una balanza entre varias acciones posibles, hace que no realice ninguna.",
+  "temas": [
+   "miedo",
+   "voluntad",
+   "incertidumbre"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "art. 170",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-040",
+  "fuente": "descartes-pasiones",
+  "original": "Et parce que la principale cause de la peur est la surprise, il n'y a rien de meilleur pour s'en exempter que d'user de préméditation et de se préparer à tous les événements, la crainte desquels la peut causer.",
+  "traduccion": "Como la principal causa del miedo es la sorpresa, nada mejor para librarse de él que anticiparse y prepararse para todos los sucesos que podrían causarlo.",
+  "temas": [
+   "miedo",
+   "regulacion-emocional"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 176",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-041",
+  "fuente": "descartes-pasiones",
+  "original": "L'envie donc, en tant qu'elle est une passion, est une espèce de tristesse mêlée de haine qui vient de ce qu'on voit arriver du bien à ceux qu'on pense en être indignes.",
+  "traduccion": "La envidia, en cuanto pasión, es una especie de tristeza mezclada con odio que surge al ver que les llega un bien a quienes creemos que no lo merecen.",
+  "temas": [
+   "emociones",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 182",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-042",
+  "fuente": "descartes-pasiones",
+  "original": "Au reste, il n'y a aucun vice qui nuise tant à la félicité des hommes que celui de l'envie.",
+  "traduccion": "Por lo demás, no hay vicio que dañe tanto la felicidad de las personas como la envidia.",
+  "temas": [
+   "felicidad",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 184",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-043",
+  "fuente": "descartes-pasiones",
+  "original": "La pitié est une espèce de tristesse mêlée d'amour ou de bonne volonté envers ceux à qui nous voyons souffrir quelque mal duquel nous les estimons indignes.",
+  "traduccion": "La compasión es una especie de tristeza mezclada con amor o buena voluntad hacia quienes vemos sufrir un mal que no merecen.",
+  "temas": [
+   "compasion",
+   "empatia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 185",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-044",
+  "fuente": "descartes-pasiones",
+  "original": "Car c'est une partie de la générosité que d'avoir de la bonne volonté pour un chacun.",
+  "traduccion": "Tener buena voluntad hacia cada uno es parte de la generosidad.",
+  "temas": [
+   "compasion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 187",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-045",
+  "fuente": "descartes-pasiones",
+  "original": "La satisfaction qu'ont toujours ceux qui suivent constamment la vertu est une habitude en leur âme qui se nomme tranquillité et repos de conscience.",
+  "traduccion": "La satisfacción que tienen siempre quienes siguen con constancia la virtud es un hábito del alma que se llama tranquilidad y paz de conciencia.",
+  "temas": [
+   "felicidad",
+   "habitos",
+   "silencio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 190",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-046",
+  "fuente": "descartes-pasiones",
+  "original": "Le repentir est directement contraire à la satisfaction de soi-même, et c'est une espèce de tristesse qui vient de ce qu'on croit avoir fait quelque mauvaise action ; et elle est très amère, parce que sa cause ne vient que de nous.",
+  "traduccion": "El arrepentimiento es lo contrario de la satisfacción de uno mismo: una especie de tristeza que surge de creer que hicimos algo malo; y es muy amarga, porque su causa está solo en nosotros.",
+  "temas": [
+   "culpa",
+   "tristeza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 191",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-047",
+  "fuente": "descartes-pasiones",
+  "original": "La reconnaissance est aussi une espèce d'amour excitée en nous par quelque action de celui pour qui",
+  "traduccion": "La gratitud es también una especie de amor que despierta en nosotros alguna acción de aquel por quien [la sentimos].",
+  "temas": [
+   "gratitud",
+   "amor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "art. 193",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-048",
+  "fuente": "descartes-pasiones",
+  "original": "Au reste, l'indignation se remarque bien plus en ceux qui veulent paraître vertueux qu'en ceux qui le sont véritablement.",
+  "traduccion": "Por lo demás, la indignación se nota mucho más en quienes quieren parecer virtuosos que en quienes lo son de verdad.",
+  "temas": [
+   "autenticidad",
+   "ira"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 198",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-049",
+  "fuente": "descartes-pasiones",
+  "original": "La honte, au contraire, est une espèce de tristesse fondée aussi sur l'amour de soi-même, et qui vient de l'opinion ou de la crainte qu'on a d'être blâmé.",
+  "traduccion": "La vergüenza, en cambio, es una especie de tristeza fundada también en el amor de sí, que nace de la opinión o del temor de ser censurado.",
+  "temas": [
+   "culpa",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 205",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-050",
+  "fuente": "descartes-pasiones",
+  "original": "Il est seulement besoin d'instruire son jugement touchant ce qui est véritablement digne de blâme ou de louange, afin de n'être pas honteux de bien faire, et ne tirer point de vanité de ses vices",
+  "traduccion": "Solo hace falta educar el juicio sobre lo que de verdad merece censura o elogio, para no avergonzarse de obrar bien ni envanecerse de los propios vicios.",
+  "temas": [
+   "autoestima",
+   "educacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "art. 206",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-051",
+  "fuente": "descartes-pasiones",
+  "original": "Car nous voyons qu'elles sont toutes bonnes de leur nature, et que nous n'avons",
+  "traduccion": "Vemos que [las pasiones] son todas buenas por naturaleza, y que solo tenemos que evitar sus malos usos o sus excesos.",
+  "temas": [
+   "emociones",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "nota": "La frase continúa: «…rien à éviter que leurs mauvais usages ou leurs excès»; en la fuente la interrumpe un número de página.",
+  "ubicacion": "art. 211",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ },
+ {
+  "id": "rene-descartes-052",
+  "fuente": "descartes-pasiones",
+  "original": "Mais la sagesse est principalement utile en ce point, qu'elle enseigne à s'en rendre tellement maître et à les ménager avec tant d'adresse, que les maux qu'elles causent sont fort supportables, et même qu'on tire de la joie de tous.",
+  "traduccion": "Pero la sabiduría es útil sobre todo en esto: enseña a dominar las pasiones y a manejarlas con tanta destreza que los males que causan resultan muy soportables, y que hasta se saca alegría de todos ellos.",
+  "temas": [
+   "regulacion-emocional",
+   "alegria",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "art. 212",
+  "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
+  "verificada": true
+ }
+]

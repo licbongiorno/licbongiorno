@@ -13,6 +13,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -27,7 +28,13 @@ BLOQUEO = "request is being verified"
 def bajar(url, intentos=6):
     """Descarga con reintentos: si el sitio responde con una página de verificación, espera y vuelve a pedir."""
     for n in range(intentos):
-        texto = _bajar(url)
+        try:
+            texto = _bajar(url)
+        except urllib.error.HTTPError as e:
+            if e.code != 429:  # 429: demasiadas solicitudes; se espera y se reintenta
+                raise
+            time.sleep(10 * (n + 1))
+            continue
         if BLOQUEO not in texto:
             return texto
         time.sleep(5 * (n + 1))
@@ -80,7 +87,7 @@ def descargar(fid, f):
     else:
         for i, u in enumerate(f.get("urls", [f.get("url")]), 1):
             partes.append(f"\n[[SECCION {i}]]\n" + (a_texto(bajar(u)) if not u.endswith(".txt") else bajar(u)))
-            time.sleep(0.4)
+            time.sleep(2)
     texto = normalizar("\n".join(partes))
     CACHE.mkdir(exist_ok=True)
     (CACHE / f"{fid}.txt").write_text(texto, encoding="utf-8")
