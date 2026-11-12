@@ -836,3 +836,145 @@ fieldset.mapa-campo { border: 0; padding: 0; min-width: 0; }
 .mapa-termino dd p { margin: 0 0 .35rem; }
 .mapa-termino__no { color: var(--tinta-suave); }
 .mapa-termino__ref { font-family: var(--f-sans); font-size: .78rem; color: var(--piedra-oscura); }
+
+/* ---------- Laboratorio «Mi mapa de vínculos» ---------- */
+.mv-cat-0 { --mv-c: var(--terracota-suave); }
+.mv-cat-1 { --mv-c: #F9D9BD; } .mv-cat-2 { --mv-c: #F2C29A; } .mv-cat-3 { --mv-c: #E8C7C0; }
+.mv-cat-4 { --mv-c: #D9D2C5; } .mv-cat-5 { --mv-c: #EBDDB9; } .mv-cat-6 { --mv-c: #DDE3D2; }
+.mv-cat-7 { --mv-c: #C9D3B6; } .mv-cat-8 { --mv-c: #D6DDE0; } .mv-cat-9 { --mv-c: #E6E1D8; }
+.mv-cat-10 { --mv-c: #E3D5E4; } .mv-cat-11 { --mv-c: #D3E0D9; } .mv-cat-12 { --mv-c: #EADFCB; }
+
+.mv-editor { margin-bottom: 1.2rem; }
+.mv-capas { border: 0; padding: 0; margin: 1.2rem 0 0; }
+.mv-capas .check { margin-bottom: .6rem; }
+.mv-lista { display: grid; gap: 1rem; }
+.mv-lista__grupo ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.mv-chip { display: inline-flex; align-items: center; min-height: 44px; padding: .45rem .95rem; border-radius: 999px; border: 1px solid rgba(38,36,31,.22); background: var(--mv-c, var(--beige)); color: #26241F; font-family: var(--f-sans); font-size: .85rem; cursor: pointer; transition: transform .2s var(--ease-out), box-shadow .2s; }
+.mv-chip small { margin-left: .2rem; color: #4D493F; font-size: .74rem; }
+.mv-chip:hover { box-shadow: var(--sombra); }
+.mv-chip[aria-pressed="true"] { outline: 2px solid var(--salvia-profunda); outline-offset: 2px; font-weight: 600; }
+.mv-chip:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.mv-selector { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
+.mv-panel { display: grid; gap: 1rem; padding: 1.1rem 1.2rem; border-radius: var(--r-s); background: var(--beige); }
+.mv-panel__nombre { margin: 0; font-family: var(--f-display); font-size: 1.3rem; color: var(--tinta); }
+.mv-panel .lab-tabla2 { margin-top: 0; }
+.mv-dos { display: grid; gap: 1.5rem; align-items: start; }
+@media (min-width: 980px) { .mv-dos { grid-template-columns: 1.25fr 1fr; } }
+.mv-figura { margin: 0; }
+.mv-figura--gen { overflow-x: auto; border-radius: var(--r-s); background: var(--beige); border: 1px solid var(--linea); padding: .5rem; margin: 1.2rem 0 .8rem; }
+.mv-figura--gen:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.mv-svg { display: block; width: 100%; height: auto; font-family: var(--f-sans); touch-action: manipulation; }
+.mv-svg--gen { min-width: 520px; }
+.mv-subform { margin-top: 1.2rem; }
+.mv-subform + .mv-subform, .mv-panel-gen { margin-top: 1.4rem; }
+.mv-tabla { border: 0; padding: 0; margin: 0; display: grid; gap: .55rem; min-width: 0; }
+.mv-tabla__fila { display: grid; gap: .3rem; align-items: center; }
+@media (min-width: 640px) { .mv-tabla__fila { grid-template-columns: minmax(10rem, 1fr) 1.4fr; gap: 1rem; } }
+.mv-tabla__fila label { font-family: var(--f-sans); font-size: .88rem; color: var(--tinta-suave); }
+.mv-preguntas { margin-top: 1.2rem; display: grid; gap: 1.2rem; }
+.mv-siguiente { margin: 1.4rem 0 0; font-family: var(--f-sans); font-size: .9rem; }
+.mv-siguiente a { color: var(--salvia-profunda); font-weight: 600; text-decoration: none; }
+.mv-siguiente a:hover { text-decoration: underline; }
+.mv-rol-grupo { padding-top: 1rem; border-top: 1px solid var(--linea); }
+.mv-rol-grupo:first-of-type { border-top: 0; padding-top: 0; }
+.mv-rol-propio { display: flex; gap: .5rem; margin-top: .7rem; max-width: 32rem; }
+.mv-rol-propio .lab-campo { flex: 1; min-width: 0; }
+.mv-obs-lista { list-style: none; margin: 1.2rem 0 0; padding: 0; display: grid; gap: .8rem; }
+.mv-obs { padding: .9rem 1rem; border-radius: var(--r-s); background: var(--beige); border-left: 3px solid var(--salvia-profunda); }
+.mv-obs--hipotesis { border-left-style: dashed; border-left-color: var(--terracota); }
+.mv-obs p { margin: .3rem 0; }
+.mv-obs__tipo { font-family: var(--f-sans); font-size: .72rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--salvia-profunda); }
+.mv-obs--hipotesis .mv-obs__tipo { color: var(--terracota-profunda); }
+
+/* Leyendas */
+.mv-leyenda { list-style: none; margin: .4rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; font-family: var(--f-sans); font-size: .8rem; color: var(--tinta-suave); }
+.mv-leyenda li { display: inline-flex; align-items: center; gap: .45rem; }
+.mv-leyenda svg { width: 40px; height: 16px; overflow: visible; }
+.mv-leyenda--gen svg { width: 26px; height: 22px; }
+
+/* Mapa actual */
+.mv-anillo { fill: none; stroke: var(--linea); stroke-width: 1.2; }
+.mv-anillo--1 { fill: rgba(244,162,97,.07); }
+.mv-anillo__txt { fill: var(--piedra-oscura); font-size: 12px; letter-spacing: .06em; }
+.mv-yo { fill: var(--terracota-suave); stroke: var(--terracota); stroke-width: 1.5; }
+.mv-yo__txt { fill: var(--tinta); font-family: var(--f-display); font-size: 18px; }
+.mv-sector { fill: var(--tinta); font-size: 14px; font-weight: 600; }
+.mv-sector__rol { fill: var(--tinta-suave); font-size: 12.5px; font-style: italic; font-family: var(--f-serif); }
+.mv-vacio { fill: var(--piedra-oscura); font-size: 15px; font-family: var(--f-serif); font-style: italic; }
+.mv-linea, .mv-deco { fill: none; stroke: var(--tinta-suave); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.mv-linea--sin { stroke-width: 1; stroke-opacity: .55; }
+.mv-linea--estrecho { stroke-width: 3.6; }
+.mv-linea--distante { stroke-dasharray: 1.5 6; stroke-width: 2; }
+.mv-linea--intermitente { stroke-dasharray: 12 8; }
+.mv-linea--cambio { stroke-dasharray: 10 4 2 4; }
+.mv-deco--guiones { stroke-dasharray: 5 4; }
+.mv-flecha { fill: var(--tinta-suave); }
+.mv-nodo-g { cursor: pointer; outline: none; }
+.mv-nodo-g.mv-movible { cursor: grab; touch-action: none; }
+.mv-nodo-g.mv-arrastrando { cursor: grabbing; }
+.mv-nodo { fill: var(--mv-c, var(--arena)); stroke: rgba(38,36,31,.45); stroke-width: 1.3; transition: stroke-width .2s; }
+.mv-nodo--pasado { stroke-dasharray: 4 3; }
+.mv-nodo__ini { fill: #26241F; font-family: var(--f-display); font-size: 17px; pointer-events: none; }
+.mv-nodo__nombre { fill: var(--tinta); font-size: 13px; pointer-events: none; paint-order: stroke; stroke: var(--fondo); stroke-width: 4px; stroke-linejoin: round; }
+.mv-nodo__x { stroke: var(--tinta-suave); stroke-width: 1.6; }
+.mv-nodo-g:hover .mv-nodo, .mv-nodo-g:focus-visible .mv-nodo { stroke-width: 2.6; stroke: var(--tinta); }
+.mv-nodo-g:focus-visible .mv-nodo { stroke: var(--foco); stroke-width: 3; }
+.mv-nodo-g.es-sel .mv-nodo { stroke: var(--salvia-profunda); stroke-width: 3.5; }
+.mv-lim { fill: none; stroke: var(--tinta-suave); stroke-width: 2.4; stroke-linecap: round; }
+.mv-lim--depende { stroke-dasharray: 4 3; }
+.mv-lim--cuesta { stroke-dasharray: .5 4; stroke-width: 3; }
+
+/* Genograma */
+.mv-g-fila { fill: var(--piedra-oscura); font-size: 12px; letter-spacing: .04em; }
+.mv-g-separador { stroke: var(--linea); stroke-dasharray: 3 6; }
+.mv-g-rel { fill: none; stroke: var(--tinta-suave); stroke-width: 1.6; }
+.mv-g-rel--otra { stroke-dasharray: 5 4; }
+.mv-g-persona { cursor: pointer; outline: none; }
+.mv-g-simbolo { fill: var(--papel); stroke: var(--tinta); stroke-width: 1.6; transition: stroke-width .2s; }
+.mv-g-simbolo--sin { stroke-dasharray: 5 3; }
+.mv-g-x { stroke: var(--tinta); stroke-width: 1.5; }
+.mv-g-marca { fill: var(--salvia); stroke: var(--salvia-profunda); }
+.mv-g-nombre { fill: var(--tinta); font-size: 13px; }
+.mv-g-persona:hover .mv-g-simbolo { stroke-width: 2.6; }
+.mv-g-persona:focus-visible .mv-g-simbolo { stroke: var(--foco); stroke-width: 3; }
+.mv-g-persona.es-sel .mv-g-simbolo { stroke: var(--salvia-profunda); stroke-width: 3.2; fill: var(--salvia-bruma); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .mv-entra { animation: mv-aparece .6s var(--ease-out) both; }
+  .mv-entra .mv-nodo, .mv-entra .mv-g-simbolo { transform-box: fill-box; transform-origin: center; animation: mv-brota .6s var(--ease-out) both; }
+  @keyframes mv-aparece { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes mv-brota { from { transform: scale(.4); } to { transform: scale(1); } }
+}
+.mv-quieto *, .mv-quieto { animation: none !important; transition: none !important; }
+
+/* Vista final */
+.mv-controles { display: grid; gap: 1rem; margin-bottom: 1.2rem; }
+.mv-controles fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.mv-controles [data-mv-ver-ayuda]:empty { display: none; }
+.mv-final { display: grid; gap: 1.2rem; align-items: start; }
+@media (min-width: 1100px) { .mv-final[data-mv-final="ambas"] { grid-template-columns: 1fr 1fr; } }
+.mv-final[data-mv-final="actual"] [data-mv-capa="familia"], .mv-final[data-mv-final="familia"] [data-mv-capa="actual"] { display: none; }
+.mv-figura--final { padding: 1rem; border-radius: var(--r-m); background: var(--papel); border: 1px solid var(--linea); margin: 0; }
+.mv-figura--final.mv-figura--gen { background: var(--papel); }
+.mv-final[data-mv-final="familia"] .mv-figura--gen .mv-svg--gen { max-width: 960px; margin-inline: auto; }
+.mv-ficha { margin-top: 1.2rem; border-left: 4px solid var(--salvia-profunda); }
+.mv-ficha:focus { outline: none; }
+.mv-ficha h3 { margin: 0 0 .8rem; font-size: clamp(1.4rem, 1.2rem + .8vw, 1.8rem); }
+.mv-ficha__datos { margin: 0; display: grid; gap: .2rem .9rem; font-size: var(--t-sm); }
+@media (min-width: 700px) { .mv-ficha__datos { grid-template-columns: minmax(11rem, auto) 1fr; } }
+.mv-ficha__datos dt { font-family: var(--f-sans); font-size: .8rem; font-weight: 600; color: var(--tinta-suave); }
+.mv-ficha__datos dd { margin: 0 0 .5rem; }
+.mv-sint-vinculos, .mv-sint-preguntas { margin: 0; padding-left: 1.1rem; display: grid; gap: .7rem; }
+.mv-sint-preguntas p { margin: 0; }
+.mv-sint-porque { font-family: var(--f-sans); font-size: .78rem; color: var(--piedra-oscura); }
+.mv-exportar { margin-top: 1.4rem; }
+.mv-informe { display: none; }
+@media print {
+  body.mv-imprimiendo > *:not(.mv-informe) { display: none !important; }
+  body.mv-imprimiendo .mv-informe { display: block; padding: 0 1rem; color: #26241F; font-family: Georgia, serif; }
+  .mv-informe svg { display: block; width: 100%; max-width: 640px; height: auto; margin: .5rem auto 1.5rem; page-break-inside: avoid; }
+  .mv-informe h1 { font-size: 22pt; margin: 0 0 .3rem; }
+  .mv-informe h2 { font-size: 14pt; margin: 1rem 0 .3rem; }
+  .mv-informe .mapa-dev__seccion { page-break-inside: auto; border-top: 1px solid #ccc; padding: .6rem 0; }
+  .mv-informe dd { background: none !important; padding: 0 0 .4rem !important; }
+}

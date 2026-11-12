@@ -1,0 +1,414 @@
+<!--{
+  "ruta": "/laboratorio-mi-mapa-de-vinculos/",
+  "titulo": "Mi mapa de vínculos: laboratorio con genograma",
+  "descripcion": "Un mapa de tu mundo vincular en dos capas, tu red actual y tu genograma: cercanía, intercambios, límites, roles, conflictos y repeticiones.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Mi mapa de vínculos",
+      "/laboratorio-mi-mapa-de-vinculos/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Mi mapa de <em>vínculos</em>",
+  "bajada": "Una cartografía de tu mundo vincular en dos capas, tu universo vincular actual y tu historia familiar, para explorar cercanías, distancias, intercambios, límites, lugares y repeticiones.",
+  "respuesta": "Mi mapa de vínculos es un laboratorio interactivo para representar el propio mundo vincular en dos capas: la red de vínculos actual, en círculos de cercanía emocional, y la historia familiar, en un genograma. Recorre diez estaciones (universo vincular, cercanía, reciprocidad, límites, historia familiar, roles, conflictos, repeticiones y posición actual) desde la perspectiva sistémica, con aportes del psicoanálisis, Jung, la Gestalt, la psicología humanista, la TCC, ACT y la psicología existencial. No evalúa relaciones ni diagnostica: muestra la experiencia de quien lo usa y queda guardado solo en su dispositivo.",
+  "scripts": [
+    "lab-base.js",
+    "mapa-vinculos.js"
+  ],
+  "wa_tema": "el laboratorio «Mi mapa de vínculos»",
+  "articulos": [
+    "el-genograma",
+    "terapia-sistemica",
+    "patrones-que-se-repiten-en-los-vinculos",
+    "murray-bowen"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Esto no es una evaluación psicológica, un test de relaciones «sanas» o «tóxicas» ni un diagnóstico familiar, y no reemplaza un proceso terapéutico. No hace falta incluir vínculos que hoy resulten demasiado difíciles de explorar. Si algo te moviliza mucho, podés <a href="/contacto/">escribirme</a> o ver <a href="/ayuda-urgente/">ayuda urgente</a>.</p></aside>
+
+    <section class="lab-intro revelar" id="umbral" aria-labelledby="t-umbral">
+      <div class="prosa">
+        <p class="lab-estacion__num">00 · El umbral</p>
+        <h2 id="t-umbral" class="visualmente-oculto">El umbral: tu universo vincular</h2>
+        <p class="mapa-cita">Los vínculos forman parte de nuestra historia y de nuestra experiencia cotidiana. Algunos nos acompañan desde siempre; otros aparecen en diferentes momentos de la vida. Hay relaciones cercanas, distantes, intensas, intermitentes, significativas o difíciles de definir.</p>
+        <p>Este espacio te propone observar cómo está compuesto tu universo vincular y qué lugar ocupás en él. No se trata de evaluar a las personas que forman parte de tu vida, sino de explorar cómo experimentás esas relaciones.</p>
+        <p>El mapa tiene dos capas, porque no son necesariamente lo mismo: <strong>tu historia familiar</strong> —de dónde venís y cómo se configura tu historia— y <strong>tu universo vincular actual</strong> —con quiénes te relacionás hoy y qué lugar ocupan en tu vida—. Alguien puede tener a su familia de origen muy presente en su historia y encontrar sus vínculos más significativos en amistades, pareja o comunidad. El eje es la perspectiva sistémica, con aportes del psicoanálisis, la psicología analítica, la Gestalt y otras corrientes, que podés conocer en el desplegable de cada estación. Para los conceptos generales, mirá el <a href="/el-mapa-de-lo-que-me-habita/#glosario">glosario de «El mapa de lo que me habita»</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Vos definís todo.</strong> El mapa no decide si un vínculo es cercano, recíproco o conflictivo: dibuja lo que vos marcás.</li>
+        <li><strong>Sin datos reales.</strong> Podés usar apodos, iniciales o roles. Todo es opcional y podés volver a cualquier estación.</li>
+        <li><strong>Queda en tu dispositivo.</strong> Nada se envía a ningún servidor. Podés borrarlo todo cuando quieras.</li>
+      </ul>
+    </section>
+
+    <div class="lab-tarjeta mapa-memoria revelar">
+      <label class="check"><input type="checkbox" data-mv-recordar checked> <span>Guardar mi progreso en este navegador para continuar otro día. Si usás un dispositivo compartido, desmarcalo: se borra lo guardado.</span></label>
+      <p class="lab-paso__ayuda" role="status" data-mv-memoria-estado></p>
+      <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-mv-borrar>Borrar toda la información</button></div>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#umbral">El umbral</a><a href="#universo">Mi universo</a><a href="#cercania">Cercanía</a><a href="#reciprocidad">Reciprocidad</a><a href="#limites">Límites</a><a href="#historia">Historia familiar</a><a href="#lugares">Lugares</a><a href="#conflictos">Conflictos</a><a href="#patrones">Repeticiones</a><a href="#posicion">Mi posición</a><a href="#mi-mapa">Mi mapa</a></nav>
+
+    <section class="lab-estacion revelar" id="universo" aria-labelledby="t-universo">
+      <p class="lab-estacion__num">01 · Mi universo vincular</p>
+      <h2 id="t-universo">Las personas y los grupos que forman parte de tu vida</h2>
+      <p class="mapa-eje">¿Quiénes forman parte de tu mundo vincular, hoy y en tu historia?</p>
+      <p class="lab-estacion__bajada">Agregá personas o grupos: familia, pareja, exparejas, amistades, trabajo, comunidad o cualquier vínculo que para vos sea significativo, incluidas personas que ya no están. Podés usar un apodo, una inicial o un rol («mi hermana», «el grupo del club»). No hace falta incluir relaciones que hoy resulten demasiado difíciles de mirar.</p>
+      <form class="lab-tarjeta mv-editor" data-mv-editor novalidate>
+        <p class="lab-tarjeta__titulo" data-mv-editor-titulo>Agregar un vínculo</p>
+        <div class="lab-tabla2">
+          <div><label for="mv-nombre">Nombre, inicial, apodo o rol</label><input class="lab-campo" id="mv-nombre" type="text" maxlength="24" autocomplete="off" placeholder="Por ejemplo: L., mi tía, el equipo"></div>
+          <div><label for="mv-cat">Tipo de vínculo</label><select class="lab-campo" id="mv-cat"><option value="origen">Familia de origen</option><option value="actual">Familia actual</option><option value="pareja">Pareja</option><option value="expareja">Exparejas</option><option value="hijos">Hijos e hijas</option><option value="amistades">Amistades</option><option value="trabajo">Trabajo o estudio</option><option value="comunidad">Comunidad</option><option value="otros">Otros vínculos significativos</option><option value="nueva">Otra categoría (escribila)…</option></select></div>
+          <div data-mv-cat-otra hidden><label for="mv-cat-otra">Nombre de la categoría</label><input class="lab-campo" id="mv-cat-otra" type="text" maxlength="28" autocomplete="off"></div>
+          <div><label for="mv-estado">¿Es un vínculo actual o pasado?</label><select class="lab-campo" id="mv-estado" ><option value="actual">Actual</option><option value="pasado">Pasado</option></select></div>
+          <div><label for="mv-inicio">Desde cuándo (opcional)</label><input class="lab-campo" id="mv-inicio" type="text" maxlength="30" autocomplete="off" placeholder="Desde siempre, 2015, la secundaria…"></div>
+          <div><label for="mv-importancia">Qué lugar tiene hoy en tu vida (opcional)</label><select class="lab-campo" id="mv-importancia" ><option value="">Prefiero no decirlo</option><option value="central">Central</option><option value="importante">Importante</option><option value="presente">Presente, sin ser central</option><option value="no-se">No sé cómo definirlo</option></select></div>
+        </div>
+        <fieldset class="mv-capas"><legend class="lab-paso__titulo">¿En qué capa del mapa aparece?</legend>
+          <label class="check"><input type="checkbox" id="mv-capa-actual" checked> <span>En mi <strong>universo vincular actual</strong> (con quiénes me relaciono hoy, aunque sea a la distancia o en el recuerdo)</span></label>
+          <label class="check"><input type="checkbox" id="mv-capa-familia"> <span>En mi <strong>historia familiar</strong> (el genograma de la estación 5)</span></label>
+          <label class="check"><input type="checkbox" id="mv-fallecio"> <span>Esta persona falleció</span></label>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mv-nota">Algo que quieras anotar sobre este vínculo (opcional)</label><textarea class="lab-texto" id="mv-nota" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-mv-editor-estado></p>
+        <div class="lab-acciones">
+          <button class="boton boton--chico" type="submit" data-mv-guardar>Agregar al mapa</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-mv-cancelar hidden>Cancelar</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-mv-quitar hidden>Quitar este vínculo</button>
+        </div>
+      </form>
+      <div class="mv-lista" data-mv-lista aria-live="polite"></div>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Psicología sistémica: la red social personal</h3><p class="mapa-perspectiva__autores">Carlos Sluzki, Ann Hartman</p><p><strong>Conceptos:</strong> Red social personal, ecomapa.</p><p>Sluzki (1996) propuso mapear la red social personal en cuatro cuadrantes —familia, amistades, relaciones laborales o de estudio, relaciones comunitarias— y en círculos de mayor a menor intimidad. Hartman (1978) creó el ecomapa para situar a una familia en su entorno. Ambos muestran que una persona no se agota en su familia de origen.</p></div><div class="mapa-perspectiva"><h3>Modelo del convoy</h3><p class="mapa-perspectiva__autores">Robert Kahn, Toni Antonucci</p><p><strong>Conceptos:</strong> Convoy social.</p><p>Los vínculos cercanos acompañan a lo largo de la vida como un «convoy» que cambia de composición con el tiempo (Kahn y Antonucci, 1980). Por eso el mapa admite vínculos pasados y personas que ya no están.</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>El <em>mapa de la red social</em> (quiénes forman parte de tu vida y qué lugar ocupan hoy) y el <em>genograma</em> (cómo se configura tu historia familiar a lo largo de generaciones) son herramientas distintas. Por eso este laboratorio las mantiene en dos capas: una persona puede ser central en tu historia familiar y no en tu vida actual, o al revés.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Nada sobre la calidad de tu red ni sobre las personas que agregás. El mapa muestra cómo vos experimentás tus vínculos, no cómo son objetivamente esas personas.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#cercania">Seguir: cercanía y distancia <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="cercania" aria-labelledby="t-cercania">
+      <p class="lab-estacion__num">02 · Cercanía y distancia</p>
+      <h2 id="t-cercania">Ubicar cada vínculo en tu mapa</h2>
+      <p class="mapa-eje">¿Con quiénes sentís cercanía hoy, y qué significa para vos estar cerca de alguien?</p>
+      <p class="lab-estacion__bajada">Vos estás en el centro. Elegí un vínculo y ubicalo en uno de los cuatro círculos según la cercanía emocional que percibís hoy: arrastrándolo en el mapa o con las opciones de al lado. Después podés distinguir otras dimensiones que no siempre coinciden: la frecuencia del contacto, la confianza, la intimidad y la distancia física.</p>
+      <div class="lab-tarjeta mv-dos">
+        <figure class="mv-figura">
+          <svg class="mv-svg" viewBox="0 0 640 640" role="group" aria-label="Mapa de cercanía: vos en el centro y cuatro círculos de cercanía emocional" data-mv-mapa="edicion"></svg>
+          <figcaption class="lab-nota">Podés arrastrar los vínculos con el mouse o el dedo, o usar el teclado: cada vínculo es un botón, y la cercanía se elige con las opciones de al lado.</figcaption>
+        </figure>
+        <div class="mv-lado">
+          <div class="mv-selector" data-mv-selector="cercania" role="group" aria-label="Elegí una persona"></div><p class="lab-nota" data-mv-sin-personas>Todavía no agregaste vínculos. Empezá por <a href="#universo">tu universo vincular</a>.</p>
+          <div class="mv-panel" data-mv-panel="cercania" hidden>
+            <p class="mv-panel__nombre" data-mv-nombre-sel></p>
+            <fieldset class="lab-paso mapa-campo"><legend class="lab-paso__titulo">Cercanía emocional que percibís hoy</legend>
+              <div class="opciones"><label class="opcion"><input type="radio" name="mv-anillo" value="1"><span>Muy cerca</span></label><label class="opcion"><input type="radio" name="mv-anillo" value="2"><span>Cerca</span></label><label class="opcion"><input type="radio" name="mv-anillo" value="3"><span>A cierta distancia</span></label><label class="opcion"><input type="radio" name="mv-anillo" value="4"><span>Lejos</span></label><label class="opcion"><input type="radio" name="mv-anillo" value="0"><span>Sin ubicar todavía</span></label></div>
+            </fieldset>
+            <div class="lab-tabla2">
+              <div><label for="mv-frecuencia">Frecuencia de contacto</label><select class="lab-campo" id="mv-frecuencia" data-mv-campo="frecuencia"><option value="">Sin marcar</option><option value="diaria">Casi todos los días</option><option value="semanal">Semanal</option><option value="mensual">Mensual</option><option value="esporadica">Esporádica</option><option value="sin-contacto">Sin contacto actual</option></select></div>
+              <div><label for="mv-confianza">Confianza</label><select class="lab-campo" id="mv-confianza" data-mv-campo="confianza"><option value="">Sin marcar</option><option value="mucha">Mucha</option><option value="alguna">Alguna</option><option value="poca">Poca</option><option value="no-se">No lo sé</option></select></div>
+              <div><label for="mv-intimidad">Intimidad (poder mostrarte como sos)</label><select class="lab-campo" id="mv-intimidad" data-mv-campo="intimidad"><option value="">Sin marcar</option><option value="mucha">Mucha</option><option value="alguna">Alguna</option><option value="poca">Poca</option><option value="no-se">No lo sé</option></select></div>
+              <div><label for="mv-distancia">Distancia física</label><select class="lab-campo" id="mv-distancia" data-mv-campo="distancia"><option value="">Sin marcar</option><option value="cerca">Vivimos cerca</option><option value="ciudad">En la misma ciudad</option><option value="lejos">Lejos</option><option value="pais">En otro país</option><option value="no-aplica">No aplica</option></select></div>
+              <div><label for="mv-cualidad">¿Cómo describirías hoy este vínculo?</label><select class="lab-campo" id="mv-cualidad" data-mv-campo="cualidad"><option value="">Sin definir</option><option value="estrecho">Estrecho</option><option value="distante">Distante</option><option value="conflictivo">Conflictivo</option><option value="ambivalente">Ambivalente</option><option value="intermitente">Intermitente</option><option value="cambio">En transformación</option><option value="cortado">Cortado</option></select></div>
+            </div>
+          </div>
+          <p class="lab-tarjeta__titulo" style="margin-top:1.2rem">Cómo se dibujan las líneas</p>
+          <ul class="mv-leyenda" aria-label="Estilos de línea según cómo describís el vínculo"><li><svg viewBox="0 0 40 14" aria-hidden="true"><path class="mv-linea mv-linea--estrecho" d="M2 7 L38 7"/></svg>Estrecho</li><li><svg viewBox="0 0 40 14" aria-hidden="true"><path class="mv-linea mv-linea--distante" d="M2 7 L38 7"/></svg>Distante</li><li><svg viewBox="0 0 40 14" aria-hidden="true"><path class="mv-linea mv-linea--conflictivo" d="M2 7 L8 2 L14 12 L20 2 L26 12 L32 2 L38 7"/></svg>Conflictivo</li><li><svg viewBox="0 0 40 14" aria-hidden="true"><path class="mv-linea mv-linea--ambivalente" d="M2 5 L38 5"/><path class="mv-deco mv-deco--guiones" d="M2 10 L38 10"/></svg>Ambivalente</li><li><svg viewBox="0 0 40 14" aria-hidden="true"><path class="mv-linea mv-linea--intermitente" d="M2 7 L38 7"/></svg>Intermitente</li><li><svg viewBox="0 0 40 14" aria-hidden="true"><path class="mv-linea mv-linea--cambio" d="M2 7 L38 7"/></svg>En transformación</li><li><svg viewBox="0 0 40 14" aria-hidden="true"><path class="mv-linea mv-linea--cortado" d="M2 7 L16 7 M24 7 L38 7"/><path class="mv-deco" d="M17 2 L17 12 M23 2 L23 12"/></svg>Cortado</li><li><svg viewBox="0 0 40 14" aria-hidden="true"><path class="mv-linea mv-linea--sin" d="M2 7 L38 7"/></svg>Sin definir</li></ul>
+          <p class="lab-nota">Las líneas no tienen colores de «bueno» o «malo»: muestran la palabra que vos elegiste.</p>
+        </div>
+      </div>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="cercania" novalidate><p class="lab-tarjeta__titulo">Para pensar</p><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-cerca-quienes">¿Con quiénes sentís mayor cercanía emocional actualmente?</label><textarea class="lab-texto" id="mv-p-cerca-quienes" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-cerca-frecuente">¿Hay personas con quienes tenés contacto frecuente, pero con quienes sentís poca intimidad?</label><textarea class="lab-texto" id="mv-p-cerca-frecuente" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-cerca-distancia">¿Existen vínculos importantes aunque haya distancia física o poco contacto?</label><textarea class="lab-texto" id="mv-p-cerca-distancia" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-cerca-significa">¿Qué significa para vos sentirte cerca de alguien?</label><textarea class="lab-texto" id="mv-p-cerca-significa" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-cerca-revisar">¿Hay alguna distancia que elegís, y otra que te gustaría revisar?</label><textarea class="lab-texto" id="mv-p-cerca-revisar" rows="3" data-mv-resp></textarea></div><p class="lab-nota">Todas las preguntas son opcionales.</p></form>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Psicología sistémica</h3><p class="mapa-perspectiva__autores">Carlos Sluzki, Murray Bowen</p><p><strong>Conceptos:</strong> Atributos del vínculo, diferenciación del self.</p><p>Sluzki distingue atributos de cada vínculo —intimidad, frecuencia de contacto, historia, intensidad— que pueden variar con independencia. Bowen recuerda que la cercanía no equivale a fusión: un vínculo cercano puede convivir con diferencias.</p></div><div class="mapa-perspectiva"><h3>Terapia Gestalt</h3><p class="mapa-perspectiva__autores">Fritz Perls, Paul Goodman</p><p><strong>Conceptos:</strong> Contacto y retirada.</p><p>El contacto y la retirada forman parte de un mismo ritmo. Retirarse no es rechazar: también es una manera de regular el encuentro.</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>Cercanía emocional, frecuencia de contacto, confianza, intimidad y distancia física son dimensiones diferentes. Alguien puede vivir lejos y ser central, o estar presente todos los días con poca intimidad.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Que la distancia signifique rechazo, que la cercanía signifique dependencia, ni cuál debería ser la distancia «correcta» con cada persona.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#reciprocidad">Seguir: reciprocidad e intercambios <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="reciprocidad" aria-labelledby="t-reciprocidad">
+      <p class="lab-estacion__num">03 · Reciprocidad e intercambios</p>
+      <h2 id="t-reciprocidad">Qué circula entre vos y los demás</h2>
+      <p class="mapa-eje">¿Cómo circulan la escucha, el cuidado, el apoyo y las responsabilidades en tus relaciones?</p>
+      <p class="lab-estacion__bajada">Elegí un vínculo y marcá, solo en lo que quieras, cómo percibís cada intercambio. No es una cuenta: en una relación no siempre se intercambia lo mismo ni al mismo tiempo, y un vínculo puede ser valioso aunque algo no circule de manera pareja.</p>
+      <div class="lab-tarjeta">
+        <div class="mv-selector" data-mv-selector="reciprocidad" role="group" aria-label="Elegí una persona"></div><p class="lab-nota" data-mv-sin-personas>Todavía no agregaste vínculos. Empezá por <a href="#universo">tu universo vincular</a>.</p>
+        <div class="mv-panel" data-mv-panel="reciprocidad" hidden>
+          <p class="mv-panel__nombre" data-mv-nombre-sel></p>
+          <fieldset class="mv-tabla"><legend class="lab-paso__titulo">¿Cómo percibís estos intercambios?</legend><div class="mv-tabla__fila"><label for="mv-inter-escucha">Escucha</label><select class="lab-campo" id="mv-inter-escucha" data-mv-inter="escucha"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-cuidado">Cuidado</label><select class="lab-campo" id="mv-inter-cuidado" data-mv-inter="cuidado"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-apoyo">Apoyo emocional</label><select class="lab-campo" id="mv-inter-apoyo" data-mv-inter="apoyo"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-disponibilidad">Disponibilidad</label><select class="lab-campo" id="mv-inter-disponibilidad" data-mv-inter="disponibilidad"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-tiempo">Tiempo compartido</label><select class="lab-campo" id="mv-inter-tiempo" data-mv-inter="tiempo"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-reconocimiento">Reconocimiento</label><select class="lab-campo" id="mv-inter-reconocimiento" data-mv-inter="reconocimiento"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-responsabilidades">Responsabilidades</label><select class="lab-campo" id="mv-inter-responsabilidades" data-mv-inter="responsabilidades"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-confianza">Confianza</label><select class="lab-campo" id="mv-inter-confianza" data-mv-inter="confianza"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-afecto">Afecto</label><select class="lab-campo" id="mv-inter-afecto" data-mv-inter="afecto"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div><div class="mv-tabla__fila"><label for="mv-inter-practica">Ayuda práctica</label><select class="lab-campo" id="mv-inter-practica" data-mv-inter="practica"><option value="">Sin marcar</option><option value="ambos">Circula en ambos sentidos</option><option value="doy">Va más de mí hacia la otra persona</option><option value="recibo">Va más de la otra persona hacia mí</option><option value="varia">Varía según el momento</option><option value="falta">Lo siento insuficiente</option><option value="no-se">Difícil de definir</option></select></div></fieldset>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="mv-inter-nota">¿Cómo vivís lo que circula en este vínculo?</label><textarea class="lab-texto" id="mv-inter-nota" rows="2" data-mv-campo="interNota"></textarea></div>
+        </div>
+      </div>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="reciprocidad" novalidate><p class="lab-tarjeta__titulo">Para pensar</p><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-rec-dar">¿En qué relaciones sentís que podés dar y recibir?</label><textarea class="lab-texto" id="mv-p-rec-dar" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-rec-pedir">¿En cuáles te resulta más fácil pedir ayuda?</label><textarea class="lab-texto" id="mv-p-rec-pedir" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-rec-responsabilidades">¿Hay situaciones en las que sentís que asumís más responsabilidades de las que quisieras?</label><textarea class="lab-texto" id="mv-p-rec-responsabilidades" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-rec-esperas">¿Qué esperás de los demás cuando necesitás apoyo?</label><textarea class="lab-texto" id="mv-p-rec-esperas" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-rec-expectativas">¿Qué sucede en vos, y en el vínculo, cuando esas expectativas no se cumplen?</label><textarea class="lab-texto" id="mv-p-rec-expectativas" rows="3" data-mv-resp></textarea></div><p class="lab-nota">Todas las preguntas son opcionales.</p></form>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Terapia contextual (sistémica)</h3><p class="mapa-perspectiva__autores">Ivan Boszormenyi-Nagy</p><p><strong>Conceptos:</strong> Justicia relacional, dar y recibir, lealtades.</p><p>Las relaciones se sostienen en un equilibrio de dar y recibir que se juega a lo largo del tiempo, e incluso entre generaciones. No se trata de intercambios iguales, sino de una equidad que cada quien percibe (Boszormenyi-Nagy y Spark, 1973).</p></div><div class="mapa-perspectiva"><h3>Red social personal</h3><p class="mapa-perspectiva__autores">Carlos Sluzki</p><p><strong>Conceptos:</strong> Funciones de la red.</p><p>Sluzki describe funciones distintas que cumple una red: compañía social, apoyo emocional, guía, regulación social, ayuda material y acceso a nuevos contactos. Un mismo vínculo rara vez las cumple todas.</p></div><div class="mapa-perspectiva"><h3>Psicología centrada en la persona</h3><p class="mapa-perspectiva__autores">Carl Rogers</p><p><strong>Conceptos:</strong> Empatía, consideración positiva.</p><p>Rogers describió condiciones que hacen que una relación favorezca el desarrollo: comprensión empática, aceptación y autenticidad. Sirven para pensar qué vínculos ofrecen esas condiciones, no para calificarlos.</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>La <em>reciprocidad</em> no es una contabilidad. Que algo vaya más en un sentido puede ser parte de la etapa (cuidar a un hijo pequeño o a una persona enferma), una elección o algo que te gustaría revisar: solo vos podés situarlo.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Si una relación es sana o tóxica, ni quién da más o menos «en realidad». Lo que se registra es tu percepción hoy.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#limites">Seguir: límites y posiciones <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="limites" aria-labelledby="t-limites">
+      <p class="lab-estacion__num">04 · Límites y posiciones</p>
+      <h2 id="t-limites">Qué podés expresar, pedir, aceptar o rechazar</h2>
+      <p class="mapa-eje">¿Qué podés decir y pedir en cada relación, y qué responsabilidades asumís?</p>
+      <p class="lab-estacion__bajada">Un límite no es una pared ni una ruptura: es la posibilidad de decir lo propio sin perder el vínculo. Elegí una relación y marcá qué te resulta posible y qué te cuesta.</p>
+      <div class="lab-tarjeta">
+        <div class="mv-selector" data-mv-selector="limites" role="group" aria-label="Elegí una persona"></div><p class="lab-nota" data-mv-sin-personas>Todavía no agregaste vínculos. Empezá por <a href="#universo">tu universo vincular</a>.</p>
+        <div class="mv-panel" data-mv-panel="limites" hidden>
+          <p class="mv-panel__nombre" data-mv-nombre-sel></p>
+          <fieldset class="mv-tabla"><legend class="lab-paso__titulo">En este vínculo…</legend><div class="mv-tabla__fila"><label for="mv-lim-desacuerdo">Expresar desacuerdo</label><select class="lab-campo" id="mv-lim-desacuerdo" data-mv-lim="desacuerdo"><option value="">Sin marcar</option><option value="facil">Me resulta posible</option><option value="depende">Depende del momento</option><option value="cuesta">Me cuesta</option><option value="no-se">No lo sé</option></select></div><div class="mv-tabla__fila"><label for="mv-lim-no">Decir que no</label><select class="lab-campo" id="mv-lim-no" data-mv-lim="no"><option value="">Sin marcar</option><option value="facil">Me resulta posible</option><option value="depende">Depende del momento</option><option value="cuesta">Me cuesta</option><option value="no-se">No lo sé</option></select></div><div class="mv-tabla__fila"><label for="mv-lim-necesidades">Expresar lo que necesito</label><select class="lab-campo" id="mv-lim-necesidades" data-mv-lim="necesidades"><option value="">Sin marcar</option><option value="facil">Me resulta posible</option><option value="depende">Depende del momento</option><option value="cuesta">Me cuesta</option><option value="no-se">No lo sé</option></select></div><div class="mv-tabla__fila"><label for="mv-lim-espacios">Conservar espacios propios</label><select class="lab-campo" id="mv-lim-espacios" data-mv-lim="espacios"><option value="">Sin marcar</option><option value="facil">Me resulta posible</option><option value="depende">Depende del momento</option><option value="cuesta">Me cuesta</option><option value="no-se">No lo sé</option></select></div><div class="mv-tabla__fila"><label for="mv-lim-responsabilidades">Repartir responsabilidades de un modo que me parezca justo</label><select class="lab-campo" id="mv-lim-responsabilidades" data-mv-lim="responsabilidades"><option value="">Sin marcar</option><option value="facil">Me resulta posible</option><option value="depende">Depende del momento</option><option value="cuesta">Me cuesta</option><option value="no-se">No lo sé</option></select></div></fieldset>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="mv-lim-nota">¿Qué pasa cuando intentás marcar un límite en esta relación?</label><textarea class="lab-texto" id="mv-lim-nota" rows="2" data-mv-campo="limNota"></textarea></div>
+        </div>
+      </div>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="limites" novalidate><p class="lab-tarjeta__titulo">Para pensar</p><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lim-facil">¿En qué relaciones te resulta fácil expresar lo que pensás?</label><textarea class="lab-texto" id="mv-p-lim-facil" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lim-aceptas">¿Hay situaciones en las que aceptás algo aunque preferirías no hacerlo?</label><textarea class="lab-texto" id="mv-p-lim-aceptas" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lim-sucede">¿Qué sucede cuando necesitás establecer un límite?</label><textarea class="lab-texto" id="mv-p-lim-sucede" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lim-espacios">¿Sentís que podés conservar espacios propios dentro de tus relaciones?</label><textarea class="lab-texto" id="mv-p-lim-espacios" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lim-autentico">¿En qué relaciones podés mostrarte como sos, sin dejar afuera partes importantes de vos?</label><textarea class="lab-texto" id="mv-p-lim-autentico" rows="3" data-mv-resp></textarea></div><p class="lab-nota">Todas las preguntas son opcionales.</p></form>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Psicología sistémica</h3><p class="mapa-perspectiva__autores">Salvador Minuchin, Murray Bowen</p><p><strong>Conceptos:</strong> Límites, diferenciación del self, posición del yo.</p><p>Minuchin (1974) describe límites claros, difusos o rígidos como parte de la organización de un sistema. Bowen habla de sostener una «posición del yo»: decir lo propio con calma, sin atacar ni cortar el vínculo.</p></div><div class="mapa-perspectiva"><h3>Terapia Gestalt</h3><p class="mapa-perspectiva__autores">Fritz Perls, Erving y Miriam Polster</p><p><strong>Conceptos:</strong> Frontera de contacto, confluencia, retroflexión.</p><p>En la confluencia se pierde la diferencia entre lo propio y lo ajeno. En la retroflexión, lo que se querría decir o reclamar se vuelve hacia uno mismo, por ejemplo como autorreproche. No son defectos: fueron ajustes a situaciones.</p></div><div class="mapa-perspectiva"><h3>Psicología centrada en la persona</h3><p class="mapa-perspectiva__autores">Carl Rogers</p><p><strong>Conceptos:</strong> Congruencia.</p><p>La correspondencia entre lo que se vive y lo que se comunica. Una relación facilita la congruencia cuando no exige dejar afuera partes de la propia experiencia.</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>El <em>límite</em> sistémico (una regla de organización), la <em>frontera de contacto</em> gestáltica (el lugar del encuentro) y el «poner límites» cotidiano no son lo mismo. Y un límite tampoco es una ruptura: muchas veces es lo que permite seguir en el vínculo.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Que tus límites sean «débiles» o «rígidos», ni que la solución sea alejarte. El laboratorio no recomienda rupturas ni reconciliaciones.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#historia">Seguir: historia y configuración familiar <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="historia" aria-labelledby="t-historia">
+      <p class="lab-estacion__num">05 · Historia y configuración familiar</p>
+      <h2 id="t-historia">Tu genograma</h2>
+      <p class="mapa-eje">¿De dónde venís, cómo se configura tu historia familiar y qué relaciones forman parte de ella?</p>
+      <p class="lab-estacion__bajada">El genograma organiza la historia familiar por generaciones. Vos decidís a quién incluir, qué contar y cuántas generaciones representar. Admite cualquier configuración: familias ensambladas, adopciones, crianzas compartidas, personas que ya no están, parejas y separaciones. Las personas que marcaste en la capa «historia familiar» en la estación 1 ya aparecen acá.</p>
+      <div class="lab-tarjeta">
+        <label class="check"><input type="checkbox" id="mv-familia-no" data-mv-familia-no> <span>Prefiero no explorar mi historia familiar por ahora.</span></label>
+        <div data-mv-familia-cuerpo>
+          <form class="mv-subform" data-mv-fam-agregar novalidate>
+            <p class="lab-tarjeta__titulo">Agregar una persona a la historia familiar</p>
+            <div class="lab-tabla2">
+              <div><label for="mv-fam-nombre">Nombre, inicial o cómo la nombrás</label><input class="lab-campo" id="mv-fam-nombre" type="text" maxlength="24" autocomplete="off" placeholder="Abuela R., mi papá, Tomi…"></div>
+              <div><label for="mv-fam-gen">Generación</label><select class="lab-campo" id="mv-fam-gen" ><option value="-3">Bisabuelos (ampliar)</option><option value="-2">Abuelos</option><option value="-1">Padres, madres, tíos y tías</option><option value="0">Mi generación (hermanos, parejas, primos)</option><option value="1">Hijos, hijas, sobrinos</option><option value="2">Nietos (ampliar)</option></select></div>
+            </div>
+            <label class="check"><input type="checkbox" id="mv-fam-actual"> <span>También forma parte de mi universo vincular actual</span></label>
+            <div class="lab-acciones"><button class="boton boton--chico" type="submit">Agregar a la historia familiar</button></div>
+          </form>
+          <figure class="mv-figura mv-figura--gen" tabindex="0" aria-label="Genograma: si no entra en la pantalla, podés desplazarlo de costado">
+            <svg class="mv-svg mv-svg--gen" viewBox="0 0 640 300" role="group" aria-label="Tu genograma" data-mv-gen="edicion"></svg>
+          </figure>
+          <ul class="mv-leyenda mv-leyenda--gen" aria-label="Símbolos del genograma">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect class="mv-g-simbolo" x="3" y="3" width="18" height="18"/><rect class="mv-g-simbolo" x="6" y="6" width="12" height="12"/></svg>Vos (doble borde)</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="mv-g-simbolo" cx="12" cy="12" r="9"/><path class="mv-g-x" d="M5 5 L19 19 M19 5 L5 19"/></svg>Falleció</li>
+            <li><svg viewBox="0 0 40 16" aria-hidden="true"><path class="mv-g-rel" d="M2 2 L2 12 L38 12 L38 2"/></svg>Pareja o unión</li>
+            <li><svg viewBox="0 0 40 16" aria-hidden="true"><path class="mv-g-rel" d="M2 2 L2 12 L38 12 L38 2 M16 15 L20 8 M21 15 L25 8"/></svg>Separación</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path class="mv-g-rel" d="M12 2 L12 22"/></svg>Hijo o hija</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="mv-g-simbolo" cx="12" cy="12" r="8"/><circle class="mv-g-marca" cx="20" cy="4" r="3"/></svg>También en tu universo actual</li>
+          </ul>
+          <p class="lab-nota">En la notación clásica del genograma, el cuadrado representa a un varón y el círculo a una mujer. Acá podés usar el símbolo que prefieras para cada persona, o ninguno.</p>
+          <div class="mv-panel-gen">
+            <p class="lab-tarjeta__titulo">Editar una persona del genograma</p>
+            <div class="mv-selector" data-mv-selector="historia" role="group" aria-label="Elegí una persona"></div><p class="lab-nota" data-mv-sin-personas>Todavía no agregaste vínculos. Empezá por <a href="#universo">tu universo vincular</a>.</p>
+            <div class="mv-panel" data-mv-panel="historia" hidden>
+              <p class="mv-panel__nombre" data-mv-nombre-sel></p>
+              <div class="lab-tabla2">
+                <div><label for="mv-g-gen">Generación</label><select class="lab-campo" id="mv-g-gen" data-mv-campo="gen"><option value="-3">Bisabuelos (ampliar)</option><option value="-2">Abuelos</option><option value="-1">Padres, madres, tíos y tías</option><option value="0">Mi generación (hermanos, parejas, primos)</option><option value="1">Hijos, hijas, sobrinos</option><option value="2">Nietos (ampliar)</option></select></div>
+                <div><label for="mv-g-simbolo">Símbolo</label><select class="lab-campo" id="mv-g-simbolo" data-mv-campo="simbolo"><option value="">Sin especificar</option><option value="circulo">Círculo</option><option value="cuadrado">Cuadrado</option><option value="rombo">Rombo</option></select></div>
+                <div><label for="mv-g-padre1">Hijo o hija de</label><select class="lab-campo" id="mv-g-padre1" data-mv-padre="0"></select></div>
+                <div><label for="mv-g-padre2">y de</label><select class="lab-campo" id="mv-g-padre2" data-mv-padre="1"></select></div>
+              </div>
+              <label class="check" style="margin-top:.8rem"><input type="checkbox" id="mv-g-fallecio" data-mv-campo="fallecio"> <span>Falleció</span></label>
+              <div class="lab-paso"><label class="lab-paso__titulo" for="mv-g-nota">Una nota sobre esta persona en tu historia (opcional)</label><textarea class="lab-texto" id="mv-g-nota" rows="2" data-mv-campo="notaFamilia"></textarea></div>
+            </div>
+          </div>
+          <form class="mv-subform" data-mv-pareja novalidate>
+            <p class="lab-tarjeta__titulo">Marcar una pareja o una separación</p>
+            <div class="lab-tabla2">
+              <div><label for="mv-pa-a">Entre</label><select class="lab-campo" id="mv-pa-a" data-mv-fam-sel></select></div>
+              <div><label for="mv-pa-b">y</label><select class="lab-campo" id="mv-pa-b" data-mv-fam-sel></select></div>
+              <div><label for="mv-pa-tipo">Tipo</label><select class="lab-campo" id="mv-pa-tipo" ><option value="union">Pareja o unión</option><option value="separacion">Separación o divorcio</option></select></div>
+            </div>
+            <div class="lab-acciones"><button class="boton boton--chico" type="submit">Marcar</button></div>
+            <ul class="lab-orden" data-mv-parejas-lista></ul>
+          </form>
+          <p class="visualmente-oculto" role="status" data-mv-fam-estado></p>
+        </div>
+      </div>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="historia" novalidate><p class="lab-tarjeta__titulo">Para pensar</p><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-fam-eventos">Acontecimientos que considerás relevantes en tu historia familiar (mudanzas, migraciones, nacimientos, pérdidas, separaciones, cambios económicos…)</label><p class="lab-paso__ayuda" id="mv-p-fam-eventos-ayuda">Solo lo que quieras registrar.</p><textarea class="lab-texto" id="mv-p-fam-eventos" rows="3" data-mv-resp aria-describedby="mv-p-fam-eventos-ayuda"></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-fam-caracteristicas">¿Qué características de tu familia de origen considerás importantes en tu historia?</label><textarea class="lab-texto" id="mv-p-fam-caracteristicas" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-fam-generaciones">¿Qué formas de relacionarse reconocés en distintas generaciones?</label><p class="lab-paso__ayuda" id="mv-p-fam-generaciones-ayuda">Si encontrás alguna repetición, podés registrarla como observación propia en la estación 8.</p><textarea class="lab-texto" id="mv-p-fam-generaciones" rows="3" data-mv-resp aria-describedby="mv-p-fam-generaciones-ayuda"></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-fam-presente">¿Qué aspectos de tu experiencia familiar sentís que continúan presentes en tu vida actual?</label><textarea class="lab-texto" id="mv-p-fam-presente" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-fam-diferencias">¿Qué diferencias encontrás entre la familia en la que creciste y los vínculos que construiste después?</label><textarea class="lab-texto" id="mv-p-fam-diferencias" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-fam-no">¿Hay aspectos de tu historia familiar que preferís no explorar? No hace falta decir cuáles.</label><textarea class="lab-texto" id="mv-p-fam-no" rows="3" data-mv-resp></textarea></div><p class="lab-nota">Todas las preguntas son opcionales.</p></form>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Genograma</h3><p class="mapa-perspectiva__autores">Monica McGoldrick, Randy Gerson, Sueli Petry</p><p><strong>Conceptos:</strong> Estructura familiar, acontecimientos, relaciones.</p><p>El genograma es una herramienta para conversar sobre la historia familiar: quiénes la integran, qué acontecimientos la marcaron y cómo se relacionan sus miembros (McGoldrick, Gerson y Petry, 2008). En terapia se construye con la persona, nunca sobre ella.</p></div><div class="mapa-perspectiva"><h3>Psicología sistémica</h3><p class="mapa-perspectiva__autores">Murray Bowen, Ivan Boszormenyi-Nagy</p><p><strong>Conceptos:</strong> Transmisión multigeneracional, lealtades.</p><p>Bowen observó que ciertas formas de manejar la ansiedad y la cercanía se transmiten entre generaciones. Boszormenyi-Nagy habló de lealtades que ligan a los miembros de una familia a lo largo del tiempo.</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>Un genograma describe una configuración y permite formular preguntas; no establece causas. Que algo se repita en varias generaciones no prueba que una cosa produzca la otra, y no todas las dificultades actuales vienen de la familia de origen.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Diagnósticos, secretos, alianzas ni patrones transgeneracionales que no hayas registrado vos. El laboratorio no infiere nada a partir del dibujo.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#lugares">Seguir: los lugares que ocupo <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="lugares" aria-labelledby="t-lugares">
+      <p class="lab-estacion__num">06 · Los lugares que ocupo</p>
+      <h2 id="t-lugares">Roles y posiciones en tus sistemas vinculares</h2>
+      <p class="mapa-eje">¿Qué lugar sentís que ocupás en cada ámbito de tu vida, y cuánto lo elegís?</p>
+      <p class="lab-estacion__bajada">Las opciones son hipótesis para explorar, no categorías fijas: marcá las que reconozcas en cada ámbito o escribí las tuyas. Es frecuente ocupar lugares distintos según el vínculo.</p>
+      <div class="lab-tarjeta" data-mv-roles>
+        <p class="lab-nota" data-mv-roles-vacio>Cuando agregues vínculos, acá vas a ver un grupo por cada ámbito de tu mapa.</p>
+      </div>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="lugares" novalidate><p class="lab-tarjeta__titulo">Para pensar</p><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lug-familia">¿Qué lugar sentís que ocupás habitualmente en tu familia?</label><textarea class="lab-texto" id="mv-p-lug-familia" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lug-cambia">¿Ese lugar cambia según el vínculo?</label><textarea class="lab-texto" id="mv-p-lug-cambia" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lug-elegidos">¿Hay roles que asumís voluntariamente y otros que sentís que se esperan de vos?</label><textarea class="lab-texto" id="mv-p-lug-elegidos" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lug-dejar">¿Qué sucede cuando dejás de ocupar ese lugar?</label><textarea class="lab-texto" id="mv-p-lug-dejar" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-lug-aspectos">¿Podés mostrar distintos aspectos de vos según la relación?</label><textarea class="lab-texto" id="mv-p-lug-aspectos" rows="3" data-mv-resp></textarea></div><p class="lab-nota">Todas las preguntas son opcionales.</p></form>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Psicología sistémica</h3><p class="mapa-perspectiva__autores">Salvador Minuchin, Virginia Satir</p><p><strong>Conceptos:</strong> Roles, posiciones, complementariedad.</p><p>Un rol es una posición dentro de un sistema que los demás también sostienen: si alguien deja de cuidar, de mediar o de resolver, el sistema se reacomoda. Satir describió posturas comunicacionales que se adoptan bajo tensión: aplacar, culpar, superrazonar, distraer, y una posición congruente.</p></div><div class="mapa-perspectiva"><h3>Psicología analítica</h3><p class="mapa-perspectiva__autores">Carl G. Jung</p><p><strong>Conceptos:</strong> Persona.</p><p>La persona es la cara que se muestra según el contexto; es necesaria. El problema aparece cuando alguien queda identificado por completo con un papel.</p></div><div class="mapa-perspectiva"><h3>Psicoanálisis</h3><p class="mapa-perspectiva__autores">Sigmund Freud</p><p><strong>Conceptos:</strong> Identificación.</p><p>Algunos lugares se ocupan por identificación con figuras significativas: se asume un modo de ser de otro, a veces sin advertirlo.</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>Un <em>rol</em> sistémico depende del sistema que lo sostiene; la <em>persona</em> junguiana es una adaptación de la propia identidad al mundo; una <em>identificación</em> psicoanalítica es un proceso de constitución subjetiva. Pueden coincidir en un mismo «lugar», pero explican cosas distintas.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Que un rol sea un problema, ni de dónde viene. Lo que se registra es cómo vos describís tu lugar.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#conflictos">Seguir: conflictos y modalidades de relación <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="conflictos" aria-labelledby="t-conflictos">
+      <p class="lab-estacion__num">07 · Conflictos y modalidades de relación</p>
+      <h2 id="t-conflictos">Cómo se dan los desacuerdos y las tensiones</h2>
+      <p class="mapa-eje">¿Qué pasa en tus vínculos cuando aparece un desacuerdo, y cómo se vuelve a encontrarse?</p>
+      <p class="lab-estacion__bajada">Los conflictos forman parte de cualquier vínculo. Interesa menos si los hay que cómo empiezan, qué hacés vos, qué hace la otra persona y cómo siguen después.</p>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="conflictos-chips" novalidate>
+        <fieldset class="lab-paso mapa-campo" data-mv-chips="mv-conflicto"><legend class="lab-paso__titulo">¿Qué solés hacer cuando aparece un desacuerdo?</legend><p class="lab-paso__ayuda">Podés marcar varias: es común responder distinto según la relación.</p><div class="opciones"><label class="opcion"><input type="checkbox" name="mv-conflicto" value="hablo"><span>Lo hablo en el momento</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="espero"><span>Espero y lo hablo después</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="evito"><span>Evito el tema</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="discuto"><span>Discuto con intensidad</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="silencio"><span>Hago silencio</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="retiro"><span>Me retiro o tomo distancia</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="cedo"><span>Cedo para que termine</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="acuerdo"><span>Busco un acuerdo</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="reparo"><span>Intento reparar después</span></label><label class="opcion"><input type="checkbox" name="mv-conflicto" value="depende"><span>Depende mucho del vínculo</span></label></div></fieldset>
+      </form>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="conflictos" novalidate><p class="lab-tarjeta__titulo">Para pensar</p><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-con-comienzan">¿Cómo suelen comenzar los conflictos en tus relaciones?</label><textarea class="lab-texto" id="mv-p-con-comienzan" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-con-emociones">¿Te resulta posible expresar enojo, tristeza o desacuerdo? ¿Con quiénes sí y con quiénes no?</label><textarea class="lab-texto" id="mv-p-con-emociones" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-con-pensamientos">Cuando aparece un desacuerdo, ¿qué pensamientos o temores aparecen, y cuánto deciden por vos lo que hacés?</label><textarea class="lab-texto" id="mv-p-con-pensamientos" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-con-acercamientos">¿Cómo se producen los acercamientos después de una discusión?</label><textarea class="lab-texto" id="mv-p-con-acercamientos" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-con-repite">¿Reconocés alguna modalidad que se repite en diferentes relaciones?</label><textarea class="lab-texto" id="mv-p-con-repite" rows="3" data-mv-resp></textarea></div><p class="lab-nota">Todas las preguntas son opcionales.</p></form>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Psicología sistémica y comunicación</h3><p class="mapa-perspectiva__autores">Gregory Bateson, Paul Watzlawick, Virginia Satir</p><p><strong>Conceptos:</strong> Secuencias simétricas y complementarias, puntuación.</p><p>Las interacciones pueden escalar de manera simétrica (cada uno responde con más de lo mismo) o complementaria (uno avanza, otro retrocede). Cada parte suele «puntuar» la secuencia empezando por lo que hizo la otra (Watzlawick, Beavin y Jackson, 1967).</p></div><div class="mapa-perspectiva"><h3>Psicoanálisis</h3><p class="mapa-perspectiva__autores">Melanie Klein, Donald Winnicott</p><p><strong>Conceptos:</strong> Ambivalencia, reparación.</p><p>Querer y enojarse con la misma persona es parte de los vínculos significativos. Klein describió la reparación como el movimiento de cuidar lo que se sintió dañado.</p></div><div class="mapa-perspectiva"><h3>ACT y terapia cognitiva</h3><p class="mapa-perspectiva__autores">Steven Hayes, Aaron Beck</p><p><strong>Conceptos:</strong> Evitación experiencial, fusión cognitiva, atribuciones.</p><p>Ante un desacuerdo pueden aparecer pensamientos como «si digo esto, se termina» que se toman como hechos (fusión), o respuestas que buscan sobre todo no sentir algo (evitación). Beck (1988) estudió cómo las atribuciones sobre las intenciones del otro alimentan los conflictos de pareja. No toda interpretación negativa es errónea.</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>No todos los conflictos deben resolverse con una reconciliación: en algunas circunstancias, tomar distancia es una decisión legítima. Y una modalidad de conflicto es algo que ocurre <em>entre</em> personas, no un rasgo de una de ellas.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Quién tiene razón ni quién empieza los conflictos «de verdad». Tampoco se califica tu manera de discutir.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#patrones">Seguir: patrones y repeticiones <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="patrones" aria-labelledby="t-patrones">
+      <p class="lab-estacion__num">08 · Patrones y repeticiones</p>
+      <h2 id="t-patrones">Lo que vos observás que se repite</h2>
+      <p class="mapa-eje">¿Hay situaciones que parecen repetirse, aunque cambien las personas?</p>
+      <p class="lab-estacion__bajada">El laboratorio no detecta patrones: los registrás vos. Al anotar algo, distinguí si es una <strong>repetición que observás</strong> (algo que efectivamente pasó más de una vez) o una <strong>hipótesis personal</strong> (una idea tuya sobre por qué podría pasar). Las interpretaciones, si llegan, se construyen con tiempo y, a veces, en un espacio terapéutico.</p>
+      <form class="lab-tarjeta mv-subform" data-mv-obs novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mv-obs-texto">Lo que observás</label><textarea class="lab-texto" id="mv-obs-texto" rows="2" placeholder="Por ejemplo: en los trabajos termino siendo quien resuelve los problemas de todos."></textarea></div>
+        <fieldset class="lab-paso mapa-campo"><legend class="lab-paso__titulo">¿Qué tipo de registro es?</legend>
+          <div class="opciones"><label class="opcion"><input type="radio" name="mv-obs-tipo" value="observo" checked><span>Una repetición que observo</span></label><label class="opcion"><input type="radio" name="mv-obs-tipo" value="hipotesis"><span>Una hipótesis mía, para seguir pensando</span></label></div>
+        </fieldset>
+        <fieldset class="lab-paso mapa-campo"><legend class="lab-paso__titulo">¿En qué vínculos aparece? (opcional)</legend><div class="opciones" data-mv-obs-personas></div></fieldset>
+        <div class="lab-acciones"><button class="boton boton--chico" type="submit">Registrar</button></div>
+        <p class="visualmente-oculto" role="status" data-mv-obs-estado></p>
+        <ul class="mv-obs-lista" data-mv-obs-lista></ul>
+      </form>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="patrones" novalidate><p class="lab-tarjeta__titulo">Para pensar</p><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pat-similares">¿Encontrás características similares en algunas de tus relaciones?</label><textarea class="lab-texto" id="mv-p-pat-similares" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pat-posicion">¿Qué posición solés adoptar cuando aparece una situación de tensión?</label><textarea class="lab-texto" id="mv-p-pat-posicion" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pat-diferencias">De esas experiencias, ¿qué es similar y qué es diferente?</label><textarea class="lab-texto" id="mv-p-pat-diferencias" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pat-reaccion">¿Hay rasgos de alguna persona de tu mapa que te despiertan una reacción especialmente intensa? ¿Qué sabés de esa reacción?</label><textarea class="lab-texto" id="mv-p-pat-reaccion" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pat-comprender">¿Hay alguna modalidad vincular que quisieras comprender mejor?</label><textarea class="lab-texto" id="mv-p-pat-comprender" rows="3" data-mv-resp></textarea></div><p class="lab-nota">Todas las preguntas son opcionales.</p></form>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Psicoanálisis</h3><p class="mapa-perspectiva__autores">Sigmund Freud, Melanie Klein, Donald Winnicott</p><p><strong>Conceptos:</strong> Repetición, transferencia, relaciones de objeto.</p><p>Freud describió la tendencia a repetir en actos lo que no puede recordarse (1914). Las teorías de relaciones de objeto subrayan que nos vinculamos también con imágenes internas de los otros. La transferencia, en sentido técnico, se trabaja dentro de un tratamiento: un formulario no puede leerla.</p></div><div class="mapa-perspectiva"><h3>Psicología analítica</h3><p class="mapa-perspectiva__autores">Carl G. Jung</p><p><strong>Conceptos:</strong> Proyección, complejos.</p><p>Una reacción muy intensa ante alguien puede tener que ver con algo propio que se percibe en el otro, o con un complejo que se activa. También puede responder a algo real del otro: la pregunta sirve para explorar, no para concluir.</p></div><div class="mapa-perspectiva"><h3>Sistémica y terapia cognitiva</h3><p class="mapa-perspectiva__autores">Paul Watzlawick, Jeremy Safran</p><p><strong>Conceptos:</strong> Pautas circulares, esquemas interpersonales.</p><p>Las pautas se mantienen porque cada parte responde a la otra. Los esquemas interpersonales son expectativas sobre cómo responderán los demás, que orientan lo que hacemos (Safran, 1990).</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>Una <em>repetición observada</em> (algo que pasó varias veces), una <em>hipótesis personal</em> (tu idea sobre por qué) y una <em>interpretación</em> (una lectura que en psicoanálisis se construye en el trabajo terapéutico, en transferencia) son tres cosas distintas. El laboratorio registra las dos primeras y no produce la tercera.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Que tus vínculos actuales repitan necesariamente los de tu familia de origen, ni cuál sería el «origen» de un patrón.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#posicion">Seguir: mi posición actual <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="posicion" aria-labelledby="t-posicion">
+      <p class="lab-estacion__num">09 · Mi posición actual y lo que quiero revisar</p>
+      <h2 id="t-posicion">Mirar el mapa desde donde estás hoy</h2>
+      <p class="mapa-eje">Comprender los vínculos también implica reconocer el lugar que ocupamos en ellos.</p>
+      <p class="lab-estacion__bajada">Una síntesis sin apuro. No hace falta tomar ninguna decisión: a veces lo más valioso es poder formular mejor una pregunta.</p>
+      <form class="lab-tarjeta mv-preguntas" data-mv-preguntas="posicion" novalidate><p class="lab-tarjeta__titulo">Para pensar</p><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pos-importancia">¿Qué relaciones tienen hoy mayor importancia para vos?</label><textarea class="lab-texto" id="mv-p-pos-importancia" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pos-valoras">¿Qué aspectos de tu universo vincular valorás?</label><textarea class="lab-texto" id="mv-p-pos-valoras" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pos-interrogantes">¿Qué relaciones o situaciones te generan interrogantes?</label><textarea class="lab-texto" id="mv-p-pos-interrogantes" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pos-necesidades">¿Qué necesidades tuyas reconocés con mayor claridad?</label><textarea class="lab-texto" id="mv-p-pos-necesidades" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pos-espacio">¿Cómo convivís con la necesidad de estar con otros y la de tener un espacio propio?</label><textarea class="lab-texto" id="mv-p-pos-espacio" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pos-modificar">¿Hay algún vínculo en el que quisieras modificar tu manera de posicionarte?</label><textarea class="lab-texto" id="mv-p-pos-modificar" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pos-conservar">¿Qué te gustaría conservar?</label><textarea class="lab-texto" id="mv-p-pos-conservar" rows="3" data-mv-resp></textarea></div><div class="lab-paso mapa-campo"><label class="lab-paso__titulo" for="mv-p-pos-comprender">¿Qué te gustaría comprender mejor?</label><textarea class="lab-texto" id="mv-p-pos-comprender" rows="3" data-mv-resp></textarea></div><p class="lab-nota">Todas las preguntas son opcionales.</p></form>
+      <details class="mapa-detalle">
+        <summary>Perspectivas psicológicas de esta estación</summary>
+        <div class="mapa-detalle__cuerpo"><div class="mapa-perspectiva"><h3>Psicología existencial</h3><p class="mapa-perspectiva__autores">Irvin Yalom, Rollo May</p><p><strong>Conceptos:</strong> Aislamiento existencial, intimidad, libertad, responsabilidad.</p><p>Yalom distingue la soledad interpersonal del aislamiento existencial: ningún vínculo elimina del todo la separación entre dos personas, y aceptarlo puede volver la intimidad más libre y menos exigente.</p></div><div class="mapa-perspectiva"><h3>ACT</h3><p class="mapa-perspectiva__autores">Steven Hayes</p><p><strong>Conceptos:</strong> Valores en las relaciones.</p><p>Los valores vinculares son cualidades elegidas de la manera de estar con otros (por ejemplo, ser honesto, ser cálido). Orientan la acción aunque los vínculos no respondan como uno quisiera.</p></div><div class="mapa-perspectiva"><h3>Psicología humanista</h3><p class="mapa-perspectiva__autores">Carl Rogers</p><p><strong>Conceptos:</strong> Autenticidad, autonomía.</p><p>Rogers vio en las relaciones auténticas una condición del desarrollo personal, y en la autonomía no un aislamiento sino la posibilidad de elegir desde la propia experiencia.</p></div>
+          <div class="mapa-distincion"><h3>Una distinción necesaria</h3><p>El <em>aislamiento existencial</em> (una condición de la existencia) no es la <em>soledad social</em> (falta de vínculos). Y revisar tu posición en un vínculo no implica cambiar al otro.</p></div>
+          <div class="mapa-limite"><h3>Qué no puede concluirse</h3><p>Qué vínculos conservar, cuáles terminar ni con quién reconciliarte.</p></div>
+        </div>
+      </details>
+      <p class="mv-siguiente"><a href="#mi-mapa">Seguir: tu mapa de vínculos <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section class="lab-estacion revelar" id="mi-mapa" aria-labelledby="t-mimapa">
+      <p class="lab-estacion__num">10 · Mi mapa de vínculos</p>
+      <h2 id="t-mimapa">La cartografía de tu mundo vincular</h2>
+      <p class="lab-estacion__bajada">Dos capas que pueden mirarse juntas o por separado: tu <strong>universo vincular actual</strong> y tu <strong>historia familiar</strong>. Es una representación de cómo vos experimentás tus vínculos, no un diagnóstico de tu familia ni de las personas que aparecen. Tocá cualquier vínculo para ver su ficha; en el mapa actual también podés moverlos.</p>
+      <div class="lab-tarjeta mv-controles">
+        <fieldset><legend class="lab-paso__titulo">Ver</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="mv-vista" value="ambas" checked><span>Ambas capas</span></label>
+            <label class="opcion"><input type="radio" name="mv-vista" value="actual"><span>Universo vincular actual</span></label>
+            <label class="opcion"><input type="radio" name="mv-vista" value="familia"><span>Historia familiar</span></label>
+          </div>
+        </fieldset>
+        <fieldset><legend class="lab-paso__titulo">Mostrar en el mapa actual</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" data-mv-ver="intercambios"><span>Intercambios</span></label>
+            <label class="opcion"><input type="checkbox" data-mv-ver="limites"><span>Límites</span></label>
+            <label class="opcion"><input type="checkbox" data-mv-ver="roles" checked><span>Roles</span></label>
+          </div>
+        </fieldset>
+        <p class="lab-nota" data-mv-ver-ayuda></p>
+      </div>
+      <div class="mv-final" data-mv-final="ambas">
+        <figure class="mv-figura mv-figura--final" data-mv-capa="actual">
+          <figcaption class="lab-tarjeta__titulo">Universo vincular actual</figcaption>
+          <svg class="mv-svg" viewBox="0 0 640 640" role="group" aria-label="Universo vincular actual" data-mv-mapa="final"></svg>
+        </figure>
+        <figure class="mv-figura mv-figura--final mv-figura--gen" data-mv-capa="familia" tabindex="0" aria-label="Historia familiar. Si no entra en la pantalla, podés desplazarla de costado.">
+          <figcaption class="lab-tarjeta__titulo">Historia familiar</figcaption>
+          <svg class="mv-svg mv-svg--gen" viewBox="0 0 640 300" role="group" aria-label="Genograma de tu historia familiar" data-mv-gen="final"></svg>
+        </figure>
+      </div>
+      <aside class="lab-tarjeta mv-ficha" data-mv-ficha hidden tabindex="-1" aria-live="polite"></aside>
+      <div class="lab-acciones">
+        <button class="boton boton--chico" type="button" data-mv-devolucion>Ver la síntesis</button>
+      </div>
+      <div class="lab-tarjeta mapa-devolucion" data-mv-salida hidden tabindex="-1" aria-labelledby="t-mv-sintesis">
+        <h3 id="t-mv-sintesis">Síntesis de tu exploración</h3>
+        <p class="lab-nota">Se basa solo en lo que registraste. Separa lo que expresaste, las relaciones y modalidades que identificaste, tus propias observaciones sobre repeticiones y algunas preguntas para seguir explorando. No infiere estilos de apego, diagnósticos ni características de otras personas.</p>
+        <div data-mv-sintesis></div>
+      </div>
+      <div class="lab-tarjeta mv-exportar">
+        <p class="lab-tarjeta__titulo">Guardar o exportar (opcional)</p>
+        <div class="lab-acciones">
+          <button class="boton boton--secundario boton--chico" type="button" data-mv-exportar="mapa-png">Mapa (PNG)</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-mv-exportar="gen-png">Genograma (PNG)</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-mv-exportar="gen-svg">Genograma (SVG)</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-mv-exportar="txt">Síntesis y preguntas (texto)</button>
+          <button class="boton boton--chico" type="button" data-mv-exportar="pdf">Informe para imprimir o guardar como PDF</button>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-mv-exportar-estado></p>
+        <p class="lab-nota">Los archivos se generan en tu dispositivo. Para el PDF se abre el diálogo de impresión de tu navegador: elegí «Guardar como PDF».</p>
+      </div>
+    </section>
+    <div class="mv-informe" data-mv-informe aria-hidden="true"></div>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Mirar los propios vínculos, y sobre todo la historia familiar, puede traer recuerdos o emociones intensas. Podés frenar en cualquier momento, dejar estaciones sin completar y volver otro día. Si en tus vínculos hay violencia o sentís que corrés peligro, buscá ayuda: mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Si querés pensar esto acompañado, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Sluzki, C. (1996). <em>La red social: frontera de la práctica sistémica</em>. Gedisa.</li>
+        <li>McGoldrick, M., Gerson, R. y Petry, S. (2008). <em>Genograms: Assessment and intervention</em> (3.ª ed.). Norton.</li>
+        <li>Hartman, A. (1978). Diagrammatic assessment of family relationships. <em>Social Casework, 59</em>(8), 465-476.</li>
+        <li>Kahn, R. y Antonucci, T. (1980). Convoys over the life course. En P. Baltes y O. Brim (Eds.), <em>Life-span development and behavior</em>, vol. 3.</li>
+        <li>Bowen, M. (1978). <em>Family therapy in clinical practice</em>.</li>
+        <li>Minuchin, S. (1974). <em>Familias y terapia familiar</em>.</li>
+        <li>Boszormenyi-Nagy, I. y Spark, G. (1973). <em>Lealtades invisibles</em>.</li>
+        <li>Satir, V. (1972). <em>Relaciones humanas en el núcleo familiar</em>.</li>
+        <li>Watzlawick, P., Beavin, J. y Jackson, D. (1967). <em>Teoría de la comunicación humana</em>.</li>
+        <li>Freud, S. (1914). Recordar, repetir y reelaborar.</li>
+        <li>Winnicott, D. W. (1965). <em>Los procesos de maduración y el ambiente facilitador</em>.</li>
+        <li>Jung, C. G. (1928). <em>Las relaciones entre el yo y lo inconsciente</em>. Obra Completa, vol. 7.</li>
+        <li>Polster, E. y Polster, M. (1973). <em>Terapia gestáltica</em>.</li>
+        <li>Rogers, C. (1961). <em>El proceso de convertirse en persona</em>.</li>
+        <li>Beck, A. T. (1988). <em>Con el amor no basta</em>.</li>
+        <li>Safran, J. D. (1990). Towards a refinement of cognitive therapy in light of interpersonal theory. <em>Clinical Psychology Review, 10</em>(1), 87-105.</li>
+        <li>Hayes, S. C., Strosahl, K. y Wilson, K. (2012). <em>Acceptance and commitment therapy</em> (2.ª ed.).</li>
+        <li>Yalom, I. (1980). <em>Psicoterapia existencial</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
