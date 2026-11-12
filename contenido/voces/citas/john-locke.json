@@ -1,0 +1,779 @@
+[
+ {
+  "id": "john-locke-001",
+  "fuente": "locke-ensayo-1",
+  "original": "Let us then suppose the mind to be, as we say, white paper, void of all characters, without any ideas:-How comes it to be furnished?",
+  "traduccion": "Supongamos que la mente es, como se dice, un papel en blanco, sin ningún carácter escrito, sin ideas: ¿cómo llega a llenarse?",
+  "temas": [
+   "conocimiento",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 1",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-002",
+  "fuente": "locke-ensayo-1",
+  "original": "No man's knowledge here can go beyond his experience.",
+  "traduccion": "El conocimiento de nadie puede ir, en esto, más allá de su experiencia.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 1",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-003",
+  "fuente": "locke-ensayo-1",
+  "original": "Consciousness is the perception of what passes in a man's own mind.",
+  "traduccion": "La conciencia es la percepción de lo que pasa en la propia mente.",
+  "temas": [
+   "conciencia",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 1",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-004",
+  "fuente": "locke-ensayo-1",
+  "original": "new opinions are always suspected, and usually opposed, without any other reason but because they are not already common.",
+  "traduccion": "Las opiniones nuevas son siempre sospechadas y casi siempre combatidas, sin otra razón que la de no ser todavía comunes.",
+  "temas": [
+   "cambio",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 33",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-005",
+  "fuente": "locke-ensayo-1",
+  "original": "Truth scarce ever yet carried it by vote anywhere at its first appearance",
+  "traduccion": "La verdad casi nunca ganó por votación cuando apareció por primera vez.",
+  "temas": [
+   "verdad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 33",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-006",
+  "fuente": "locke-ensayo-1",
+  "original": "it is ambition enough to be employed as an under-labourer in clearing the ground a little, and removing some of the rubbish that lies in the way to knowledge",
+  "traduccion": "Es ambición suficiente trabajar como peón despejando un poco el terreno y quitando algunos escombros del camino hacia el conocimiento.",
+  "temas": [
+   "conocimiento",
+   "trabajo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 33",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-007",
+  "fuente": "locke-ensayo-1",
+  "original": "Habits, especially such as are begun very early, come at last to produce actions in us, which often escape our observation.",
+  "traduccion": "Los hábitos, sobre todo los que empiezan muy temprano, terminan produciendo en nosotros acciones que a menudo escapan a nuestra observación.",
+  "temas": [
+   "habitos",
+   "inconsciente",
+   "infancia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 9",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-008",
+  "fuente": "locke-ensayo-1",
+  "original": "how the facility which we get of doing things, by a custom of doing, makes them often pass in us without our notice.",
+  "traduccion": "Cómo la facilidad que adquirimos por la costumbre de hacer algo hace que muchas veces pase en nosotros sin que lo notemos.",
+  "temas": [
+   "habitos",
+   "atencion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 9",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-009",
+  "fuente": "locke-ensayo-1",
+  "original": "Men that, by custom, have got the use of a by-word, do almost in every sentence pronounce sounds which, though taken notice of by others, they themselves neither hear nor observe.",
+  "traduccion": "Quienes por costumbre adquirieron una muletilla la pronuncian casi en cada frase: los demás la notan, pero ellos mismos ni la oyen ni la advierten.",
+  "temas": [
+   "habitos",
+   "comunicacion",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 9",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-010",
+  "fuente": "locke-ensayo-1",
+  "original": "Memory, in an intellectual creature, is necessary in the next degree to perception.",
+  "traduccion": "En una criatura inteligente, la memoria es lo más necesario después de la percepción.",
+  "temas": [
+   "memoria"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 10",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-011",
+  "fuente": "locke-ensayo-1",
+  "original": "It is not easy for the mind to put off those confused notions and prejudices it has imbibed from custom, inadvertency, and common conversation.",
+  "traduccion": "No es fácil para la mente desprenderse de las nociones confusas y los prejuicios que absorbió de la costumbre, la distracción y la conversación corriente.",
+  "temas": [
+   "cambio",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 13",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-012",
+  "fuente": "locke-ensayo-1",
+  "original": "Pleasure and pain and that which causes them,-good and evil, are the hinges on which our passions turn.",
+  "traduccion": "El placer y el dolor, y lo que los causa —el bien y el mal—, son los goznes sobre los que giran nuestras pasiones.",
+  "temas": [
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-013",
+  "fuente": "locke-ensayo-1",
+  "original": "The uneasiness a man finds in himself upon the absence of anything whose present enjoyment carries the idea of delight with it, is that we call DESIRE",
+  "traduccion": "La inquietud que una persona siente ante la ausencia de algo cuyo disfrute le traería deleite es lo que llamamos deseo.",
+  "temas": [
+   "deseo",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-014",
+  "fuente": "locke-ensayo-1",
+  "original": "Desire also is stopped or abated by the opinion of the impossibility or unattainableness of the good proposed",
+  "traduccion": "El deseo también se detiene o se apaga ante la opinión de que el bien buscado es imposible o inalcanzable.",
+  "temas": [
+   "deseo",
+   "esperanza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-015",
+  "fuente": "locke-ensayo-1",
+  "original": "JOY is a delight of the mind, from the consideration of the present or assured approaching possession of a good",
+  "traduccion": "La alegría es un deleite de la mente al considerar la posesión presente, o segura y próxima, de un bien.",
+  "temas": [
+   "alegria",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-016",
+  "fuente": "locke-ensayo-1",
+  "original": "SORROW is uneasiness in the mind, upon the thought of a good lost, which might have been enjoyed longer; or the sense of a present evil.",
+  "traduccion": "La tristeza es una inquietud de la mente al pensar en un bien perdido del que se podría haber disfrutado más tiempo, o al sentir un mal presente.",
+  "temas": [
+   "tristeza",
+   "duelo",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-017",
+  "fuente": "locke-ensayo-1",
+  "original": "HOPE is that pleasure in the mind, which every one finds in himself, upon the thought of a probable future enjoyment of a thing which is apt to delight him.",
+  "traduccion": "La esperanza es ese placer de la mente que cada uno encuentra en sí al pensar en el disfrute futuro y probable de algo que puede deleitarlo.",
+  "temas": [
+   "esperanza",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-018",
+  "fuente": "locke-ensayo-1",
+  "original": "FEAR is an uneasiness of the mind, upon the thought of future evil likely to befall us.",
+  "traduccion": "El miedo es una inquietud de la mente al pensar en un mal futuro que probablemente nos alcance.",
+  "temas": [
+   "miedo",
+   "angustia",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-019",
+  "fuente": "locke-ensayo-1",
+  "original": "DESPAIR is the thought of the unattainableness of any good, which works differently in men's minds, sometimes producing uneasiness or pain, sometimes rest and indolency.",
+  "traduccion": "La desesperación es pensar que un bien es inalcanzable; obra de modo distinto en cada mente: a veces produce inquietud o dolor, a veces quietud e indolencia.",
+  "temas": [
+   "angustia",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-020",
+  "fuente": "locke-ensayo-1",
+  "original": "ANGER is uneasiness or discomposure of the mind, upon the receipt of any injury, with a present purpose of revenge.",
+  "traduccion": "La ira es la inquietud o la turbación de la mente al recibir una ofensa, con el propósito presente de vengarse.",
+  "temas": [
+   "ira",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-021",
+  "fuente": "locke-ensayo-1",
+  "original": "ENVY is an uneasiness of the mind, caused by the consideration of a good we desire obtained by one we think should not have had it before us.",
+  "traduccion": "La envidia es una inquietud de la mente causada por ver un bien que deseamos en manos de alguien que, creemos, no debería haberlo tenido antes que nosotros.",
+  "temas": [
+   "emociones",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-022",
+  "fuente": "locke-ensayo-1",
+  "original": "For SHAME, which is an uneasiness of the mind upon the thought of having done something which is indecent, or will lessen the valued esteem which others have for us, has not always blushing accompanying it.",
+  "traduccion": "La vergüenza, que es una inquietud de la mente al pensar que hicimos algo indecoroso o que disminuirá la estima que otros nos tienen, no siempre va acompañada de rubor.",
+  "temas": [
+   "culpa",
+   "emociones",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-023",
+  "fuente": "locke-ensayo-1",
+  "original": "All pain of the body, of what sort soever, and disquiet of the mind, is uneasiness: and with this is always joined desire, equal to the pain or uneasiness felt",
+  "traduccion": "Todo dolor del cuerpo, de cualquier tipo, y toda intranquilidad de la mente son inquietud; y a ella siempre se une un deseo igual al dolor o a la inquietud que se siente.",
+  "temas": [
+   "sufrimiento",
+   "deseo",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-024",
+  "fuente": "locke-ensayo-1",
+  "original": "That desire is a state of uneasiness, every one who reflects on himself will quickly find.",
+  "traduccion": "Que el deseo es un estado de inquietud lo descubrirá enseguida cualquiera que reflexione sobre sí mismo.",
+  "temas": [
+   "deseo",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-025",
+  "fuente": "locke-ensayo-1",
+  "original": "When a man is perfectly content with the state he is in-which is when he is perfectly without any uneasiness-what industry, what action, what will is there left, but to continue in it?",
+  "traduccion": "Cuando alguien está perfectamente contento con su estado, es decir, sin ninguna inquietud, ¿qué esfuerzo, qué acción, qué voluntad le queda, salvo seguir en él?",
+  "temas": [
+   "deseo",
+   "felicidad",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-026",
+  "fuente": "locke-ensayo-1",
+  "original": "I am sure wherever there is uneasiness, there is desire.",
+  "traduccion": "Estoy seguro de que donde hay inquietud, hay deseo.",
+  "temas": [
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-027",
+  "fuente": "locke-ensayo-1",
+  "original": "For we constantly desire happiness; and whatever we feel of uneasiness, so much it is certain we want of happiness",
+  "traduccion": "Deseamos constantemente la felicidad, y cuanto sentimos de inquietud, tanto nos falta, sin duda, de felicidad.",
+  "temas": [
+   "felicidad",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-028",
+  "fuente": "locke-ensayo-1",
+  "original": "The greatest present uneasiness is the spur to action, that is constantly most felt, and for the most part determines the will in its choice of the next action.",
+  "traduccion": "La mayor inquietud presente es el aguijón de la acción: es la que más se siente y la que, casi siempre, determina la voluntad al elegir la acción siguiente.",
+  "temas": [
+   "voluntad",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-029",
+  "fuente": "locke-ensayo-1",
+  "original": "All uneasiness therefore being removed, a moderate portion of good serve at present to content men",
+  "traduccion": "Una vez quitada toda inquietud, una porción moderada de bien basta para contentar a las personas.",
+  "temas": [
+   "felicidad",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-030",
+  "fuente": "locke-ensayo-1",
+  "original": "But as soon as any new uneasiness comes in, this happiness is disturbed, and we are set afresh on work in the pursuit of happiness.",
+  "traduccion": "Pero en cuanto llega una nueva inquietud, esa felicidad se altera y volvemos a ponernos en marcha tras ella.",
+  "temas": [
+   "felicidad",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-031",
+  "fuente": "locke-ensayo-1",
+  "original": "Nothing, as we passionately think, can exceed, or almost equal, the uneasiness that sits so heavy upon us.",
+  "traduccion": "Nada, pensamos apasionadamente, puede superar ni casi igualar la inquietud que pesa tanto sobre nosotros.",
+  "temas": [
+   "sufrimiento",
+   "angustia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-032",
+  "fuente": "locke-ensayo-1",
+  "original": "Add to this, that absent good, or, which is the same thing, future pleasure,-especially if of a sort we are unacquainted with,-seldom is able to counterbalance any uneasiness, either of pain or desire, which is present.",
+  "traduccion": "Además, el bien ausente, es decir, el placer futuro, sobre todo si es de una clase que no conocemos, rara vez logra contrapesar una inquietud presente de dolor o de deseo.",
+  "temas": [
+   "deseo",
+   "tiempo",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-033",
+  "fuente": "locke-ensayo-1",
+  "original": "A due consideration will do it in some cases; and practice, application, and custom in most.",
+  "traduccion": "En algunos casos bastará una reflexión adecuada; en la mayoría, la práctica, la dedicación y la costumbre.",
+  "temas": [
+   "habitos",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-034",
+  "fuente": "locke-ensayo-1",
+  "original": "Fashion and the common opinion having settled wrong notions, and education and custom ill habits, the just values of things are misplaced, and the palates of men corrupted.",
+  "traduccion": "Cuando la moda y la opinión común instalaron ideas equivocadas, y la educación y la costumbre malos hábitos, el justo valor de las cosas se desplaza y el gusto de las personas se corrompe.",
+  "temas": [
+   "habitos",
+   "sociedad",
+   "educacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-035",
+  "fuente": "locke-ensayo-1",
+  "original": "Pains should be taken to rectify these; and contrary habits change our pleasures, and give a relish to that which is necessary or conducive to our happiness.",
+  "traduccion": "Hay que esforzarse por corregirlo: los hábitos contrarios cambian nuestros placeres y le dan gusto a lo que es necesario o conduce a nuestra felicidad.",
+  "temas": [
+   "habitos",
+   "cambio",
+   "felicidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-036",
+  "fuente": "locke-ensayo-1",
+  "original": "The ideas of goblins and sprites have really no more to do with darkness than light: yet let but a foolish maid inculcate these often on the mind of a child, and raise them there together",
+  "traduccion": "Las ideas de duendes y espíritus no tienen en realidad más que ver con la oscuridad que con la luz; pero basta que alguien se las inculque a menudo a un niño y las asocie [para que ya no pueda separarlas].",
+  "temas": [
+   "miedo",
+   "infancia",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "nota": "Ejemplo de Locke sobre la asociación de ideas, antecedente de las teorías del aprendizaje del miedo.",
+  "ubicacion": "Libro 2, cap. 33",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-037",
+  "fuente": "locke-ensayo-1",
+  "original": "Ideas that in themselves are not all of kin, come to be so united in some men's minds, that it is very hard to separate them; they always keep in company",
+  "traduccion": "Ideas que en sí mismas no tienen nada que ver llegan a unirse tanto en la mente de algunas personas que es muy difícil separarlas: siempre van juntas.",
+  "temas": [
+   "inconsciente",
+   "memoria",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 33",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-038",
+  "fuente": "locke-ensayo-1",
+  "original": "Let custom from the very childhood have joined figure and shape to the idea of God, and what absurdities will that mind be liable to about the Deity?",
+  "traduccion": "Si la costumbre, desde la infancia, unió una figura a la idea de Dios, ¿en qué absurdos podrá caer esa mente acerca de la divinidad?",
+  "temas": [
+   "infancia",
+   "trascendencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 33",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-039",
+  "fuente": "locke-ensayo-1",
+  "original": "But hatred or love, to beings capable of happiness or misery, is often the uneasiness of delight which we find in ourselves, arising from their very being or happiness.",
+  "traduccion": "El odio o el amor hacia seres capaces de dicha o desdicha suelen ser la inquietud o el deleite que encontramos en nosotros por su sola existencia o su felicidad.",
+  "temas": [
+   "amor",
+   "ira",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 20",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-040",
+  "fuente": "locke-ensayo-1",
+  "original": "Aversion, fear, anger, envy, shame, &c. have each their uneasinesses too, and thereby influence the will.",
+  "traduccion": "La aversión, el miedo, la ira, la envidia, la vergüenza, etcétera, tienen cada uno su propia inquietud, y por eso influyen en la voluntad.",
+  "temas": [
+   "emociones",
+   "voluntad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-041",
+  "fuente": "locke-ensayo-1",
+  "original": "the infinitely greatest confessed good being often neglected, to satisfy the successive uneasiness of our desires pursuing trifles.",
+  "traduccion": "El bien que reconocemos como infinitamente mayor suele quedar descuidado para satisfacer la inquietud sucesiva de deseos que persiguen nimiedades.",
+  "temas": [
+   "deseo",
+   "sentido-de-vida"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-042",
+  "fuente": "locke-ensayo-1",
+  "original": "it is uneasiness alone determines the will",
+  "traduccion": "Solo la inquietud determina la voluntad.",
+  "temas": [
+   "voluntad",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-043",
+  "fuente": "locke-ensayo-1",
+  "original": "The ordinary necessities of our lives fill a great part of them with the uneasinesses of hunger, thirst, heat, cold, weariness, with labour, and sleepiness, in their constant returns",
+  "traduccion": "Las necesidades corrientes de la vida la llenan en gran parte con las inquietudes del hambre, la sed, el calor, el frío, el cansancio, el trabajo y el sueño, que vuelven una y otra vez.",
+  "temas": [
+   "cuerpo",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 2, cap. 21",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-044",
+  "fuente": "locke-ensayo-2",
+  "original": "therefore some, not only children but men, speak several words no otherwise than parrots do, only because they have learned them, and have been accustomed to those sounds.",
+  "traduccion": "Por eso algunos, no solo niños sino también adultos, dicen muchas palabras como loros, solo porque las aprendieron y se acostumbraron a esos sonidos.",
+  "temas": [
+   "comunicacion",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 3, cap. 2",
+  "url": "https://www.gutenberg.org/cache/epub/10616/pg10616.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-045",
+  "fuente": "locke-ensayo-2",
+  "original": "It is evident how much men love to deceive and be deceived",
+  "traduccion": "Es evidente cuánto les gusta a las personas engañar y ser engañadas.",
+  "temas": [
+   "verdad",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 3, cap. 10",
+  "url": "https://www.gutenberg.org/cache/epub/10616/pg10616.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-046",
+  "fuente": "locke-ensayo-2",
+  "original": "The ideas of the nurse and the mother are well framed in their minds; and, like pictures of them there, represent only those individuals.",
+  "traduccion": "Las ideas de la nodriza y de la madre están bien formadas en su mente [de los niños] y, como retratos, representan solo a esas personas.",
+  "temas": [
+   "infancia",
+   "familia",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 3, cap. 3",
+  "url": "https://www.gutenberg.org/cache/epub/10616/pg10616.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-047",
+  "fuente": "locke-ensayo-2",
+  "original": "Experience then convinces us, that we have an INTUITIVE KNOWLEDGE of our own existence, and an internal infallible perception that we are.",
+  "traduccion": "La experiencia nos convence de que tenemos un conocimiento intuitivo de nuestra propia existencia, una percepción interna e infalible de que somos.",
+  "temas": [
+   "conciencia",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 4, cap. 9",
+  "url": "https://www.gutenberg.org/cache/epub/10616/pg10616.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-048",
+  "fuente": "locke-ensayo-2",
+  "original": "Experience is that which in this part we must depend on.",
+  "traduccion": "En esta parte debemos apoyarnos en la experiencia.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 4, cap. 3",
+  "url": "https://www.gutenberg.org/cache/epub/10616/pg10616.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-049",
+  "fuente": "locke-ensayo-2",
+  "original": "because words are many of them learned before the ideas are known for which they stand",
+  "traduccion": "Porque muchas palabras se aprenden antes de conocer las ideas que representan.",
+  "temas": [
+   "comunicacion",
+   "infancia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Libro 3, cap. 2",
+  "url": "https://www.gutenberg.org/cache/epub/10616/pg10616.txt",
+  "verificada": true
+ },
+ {
+  "id": "john-locke-050",
+  "fuente": "locke-ensayo-1",
+  "original": "Children, though they may have Ideas in the Womb, have none innate.",
+  "traduccion": "Los niños, aunque puedan tener ideas en el vientre materno, no tienen ninguna innata.",
+  "temas": [
+   "infancia",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Libro 2, cap. 9",
+  "url": "https://www.gutenberg.org/cache/epub/10615/pg10615.txt",
+  "verificada": true
+ }
+]

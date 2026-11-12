@@ -392,8 +392,38 @@
   },
   {
    "slug": "alfred-adler",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Alfred Adler",
+   "nombre_completo": "Alfred Adler",
+   "nacimiento": "7 de febrero de 1870, Rudolfsheim (Viena)",
+   "muerte": "28 de mayo de 1937, Aberdeen (Escocia)",
+   "epoca": "moderno",
+   "nacionalidad": "Austríaco",
+   "disciplinas": [
+    "Psicología",
+    "Medicina",
+    "Psiquiatría"
+   ],
+   "corriente": "Psicología individual",
+   "bio": "Médico vienés, fue uno de los primeros miembros del círculo de Freud, del que se separó en 1911 para fundar la psicología individual. Puso en el centro el sentimiento de inferioridad, la búsqueda de compensación, el estilo de vida y el sentimiento de comunidad. Impulsó centros de orientación para niños y familias en Viena.",
+   "aportes": [
+    "El sentimiento de inferioridad y su compensación",
+    "La meta ficticia que orienta la vida psíquica",
+    "El estilo de vida como unidad de la personalidad",
+    "El sentimiento de comunidad como criterio de salud psíquica",
+    "La atención al lugar del niño en la familia"
+   ],
+   "obras": [
+    "Estudio sobre la inferioridad de los órganos (1907)",
+    "El carácter neurótico (1912)",
+    "Práctica y teoría de la psicología individual (1920)",
+    "Conocimiento del hombre (1927)",
+    "El sentido de la vida (1933)"
+   ],
+   "relacion": "Influyó en la psicología humanista, en la terapia cognitiva (Albert Ellis lo consideró un precursor) y en la orientación familiar y escolar. Expresiones como «complejo de inferioridad» provienen de su obra.",
+   "nota_citas": "Citamos la segunda edición alemana de El carácter neurótico (1922), digitalizada en Internet Archive. Las traducciones son propias de Lo que te habita. Cuando la digitalización tiene erratas, las conservamos y lo indicamos. Algunas ideas de esta obra, como el «protesto masculino», reflejan concepciones de su época sobre los géneros y no las incluimos."
   },
   {
    "slug": "otto-rank",
@@ -467,8 +497,36 @@
   },
   {
    "slug": "aristoteles",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Aristóteles",
+   "nombre_completo": "Aristóteles de Estagira",
+   "nacimiento": "384 a. C., Estagira (Macedonia)",
+   "muerte": "322 a. C., Calcis (Eubea)",
+   "epoca": "clasico",
+   "nacionalidad": "Griego",
+   "disciplinas": [
+    "Filosofía",
+    "Ciencias naturales"
+   ],
+   "corriente": "Escuela peripatética",
+   "bio": "Discípulo de Platón durante veinte años y maestro de Alejandro Magno, fundó en Atenas el Liceo. Escribió sobre lógica, física, biología, ética, política, retórica y poética. Su tratado Sobre el alma es considerado el primer libro de psicología de la historia occidental.",
+   "aportes": [
+    "La felicidad (eudaimonía) como actividad conforme a la excelencia",
+    "La virtud como hábito y como término medio entre extremos",
+    "Una teoría de la amistad que sigue siendo referencia",
+    "La catarsis trágica: el efecto purificador de la compasión y el miedo"
+   ],
+   "obras": [
+    "Sobre el alma",
+    "Ética a Nicómaco",
+    "Política",
+    "Retórica",
+    "Poética"
+   ],
+   "relacion": "La psicología positiva retomó su idea de eudaimonía; la terapia cognitivo-conductual, su insistencia en el hábito; y Breuer y Freud llamaron «catártico» a su primer método. Su análisis de la ira —enojarse con quien corresponde, cuando corresponde y en la medida justa— sigue siendo una guía clínica.",
+   "nota_citas": "Aristóteles escribió en griego. Citamos traducciones inglesas de dominio público (D. P. Chase para la Ética, William Ellis para la Política, S. H. Butcher para la Poética) y ofrecemos una traducción propia al castellano hecha a partir de ellas. Solo publicamos el texto de Aristóteles, nunca las introducciones de los editores."
   },
   {
    "slug": "epicteto",
@@ -643,13 +701,69 @@
   },
   {
    "slug": "rene-descartes",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "René Descartes",
+   "nombre_completo": "René Descartes",
+   "nacimiento": "31 de marzo de 1596, La Haye (Turena)",
+   "muerte": "11 de febrero de 1650, Estocolmo",
+   "epoca": "moderno",
+   "nacionalidad": "Francés",
+   "disciplinas": [
+    "Filosofía",
+    "Matemáticas",
+    "Ciencias naturales"
+   ],
+   "corriente": "Racionalismo",
+   "bio": "Filósofo, matemático y científico francés que vivió gran parte de su vida en los Países Bajos. Buscó un fundamento indudable para el conocimiento y lo encontró en el «pienso, luego existo». En su último libro, Las pasiones del alma, escrito a partir de su correspondencia con la princesa Isabel de Bohemia, propuso una de las primeras teorías sistemáticas de las emociones.",
+   "aportes": [
+    "La duda metódica y el «pienso, luego existo»",
+    "Una clasificación de las emociones a partir de seis pasiones primitivas: admiración, amor, odio, deseo, alegría y tristeza",
+    "La idea de que las pasiones son buenas por naturaleza y solo hay que evitar sus excesos",
+    "La generosidad como justa estima de sí"
+   ],
+   "obras": [
+    "Discurso del método (1637)",
+    "Meditaciones metafísicas (1641; versión francesa de 1647)",
+    "Los principios de la filosofía (1644)",
+    "Las pasiones del alma (1649)"
+   ],
+   "relacion": "Su separación entre mente y cuerpo marcó por siglos la psicología y la medicina, y hoy es discutida por la neurociencia (Antonio Damasio, El error de Descartes). Su tratado de las pasiones es un antecedente de la psicología de las emociones.",
+   "nota_citas": "Textos franceses en Wikisource (edición de Victor Cousin), con la ortografía de esa edición. Las traducciones son propias de Lo que te habita."
   },
   {
    "slug": "john-locke",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "John Locke",
+   "nombre_completo": "John Locke",
+   "nacimiento": "29 de agosto de 1632, Wrington (Inglaterra)",
+   "muerte": "28 de octubre de 1704, High Laver (Inglaterra)",
+   "epoca": "moderno",
+   "nacionalidad": "Inglés",
+   "disciplinas": [
+    "Filosofía",
+    "Medicina",
+    "Política"
+   ],
+   "corriente": "Empirismo",
+   "bio": "Médico y filósofo inglés. En su Ensayo sobre el entendimiento humano sostuvo que la mente nace como un papel en blanco y que todas las ideas provienen de la experiencia. También escribió sobre la tolerancia, el gobierno y la educación, y es uno de los padres del liberalismo político.",
+   "aportes": [
+    "La mente como «papel en blanco» y el origen de las ideas en la experiencia",
+    "La asociación de ideas, antecedente de las teorías del aprendizaje",
+    "La «inquietud» (uneasiness) como motor del deseo y de la voluntad",
+    "Una teoría de la identidad personal basada en la conciencia y la memoria"
+   ],
+   "obras": [
+    "Ensayo sobre el entendimiento humano (1690)",
+    "Dos tratados sobre el gobierno civil (1689)",
+    "Carta sobre la tolerancia (1689)",
+    "Pensamientos sobre la educación (1693)"
+   ],
+   "relacion": "Su empirismo y su teoría de la asociación de ideas están en la base del asociacionismo, del conductismo y de las primeras teorías sobre cómo aprendemos los miedos. Su idea de que la identidad depende de la memoria anticipa debates actuales de la psicología.",
+   "nota_citas": "Texto inglés original en Project Gutenberg. Las traducciones son propias de Lo que te habita; traducimos «uneasiness» como «inquietud»."
   },
   {
    "slug": "edmund-husserl",
@@ -855,6 +969,26 @@
    "autor": "Immanuel Kant",
    "frase": "Pasajes de las Observaciones sobre lo bello y lo sublime sobre mujeres y pueblos",
    "motivo": "Excluidos: expresan prejuicios de su época y no aportan a esta biblioteca."
+  },
+  {
+   "autor": "Aristóteles",
+   "frase": "«Somos lo que hacemos repetidamente. La excelencia no es un acto, sino un hábito»",
+   "motivo": "Es una paráfrasis de Will Durant (1926) que resume ideas de la Ética; no es una frase de Aristóteles."
+  },
+  {
+   "autor": "Aristóteles",
+   "frase": "«Cualquiera puede enojarse, eso es fácil…» (versión popular)",
+   "motivo": "Paráfrasis libre de la Ética (libro II). Publicamos los pasajes textuales sobre la ira."
+  },
+  {
+   "autor": "René Descartes",
+   "frase": "«Divide cada dificultad en tantas partes como sea posible» (versión abreviada)",
+   "motivo": "Paráfrasis de la segunda regla del método; no coincide con el texto de la edición citada."
+  },
+  {
+   "autor": "Alfred Adler",
+   "frase": "Pasajes sobre el «protesto masculino»",
+   "motivo": "Excluidos: reflejan concepciones de época sobre los géneros que hoy no se sostienen."
   }
  ]
 }

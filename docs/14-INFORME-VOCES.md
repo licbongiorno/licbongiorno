@@ -10,12 +10,16 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
 | Marco Aurelio | 50 | 50 | 1 | completo (≥ 50) |
 | Sigmund Freud | 50 | 50 | 8 | completo (≥ 50) |
 | William James | 51 | 51 | 6 | completo (≥ 50) |
+| Alfred Adler | 51 | 51 | 1 | completo (≥ 50) |
 | Platón | 53 | 53 | 8 | completo (≥ 50) |
+| Aristóteles | 52 | 52 | 3 | completo (≥ 50) |
 | Epicteto | 53 | 53 | 2 | completo (≥ 50) |
 | Baruch Spinoza | 51 | 51 | 1 | completo (≥ 50) |
 | Immanuel Kant | 51 | 51 | 8 | completo (≥ 50) |
 | Arthur Schopenhauer | 51 | 51 | 1 | completo (≥ 50) |
 | Friedrich Nietzsche | 52 | 52 | 5 | completo (≥ 50) |
+| René Descartes | 52 | 52 | 3 | completo (≥ 50) |
+| John Locke | 50 | 50 | 2 | completo (≥ 50) |
 | Buda | 52 | 52 | 1 | completo (≥ 50) |
 | Lao-tse | 52 | 52 | 1 | completo (≥ 50) |
 
@@ -43,6 +47,10 @@ Ninguna.
 - **Platón** — ««Conócete a ti mismo»»: Es la inscripción del templo de Delfos, que Sócrates cita; no es una frase de Platón.
 - **Platón** — ««Solo los muertos han visto el fin de la guerra»»: Atribución falsa muy difundida; no figura en la obra de Platón.
 - **Immanuel Kant** — «Pasajes de las Observaciones sobre lo bello y lo sublime sobre mujeres y pueblos»: Excluidos: expresan prejuicios de su época y no aportan a esta biblioteca.
+- **Aristóteles** — ««Somos lo que hacemos repetidamente. La excelencia no es un acto, sino un hábito»»: Es una paráfrasis de Will Durant (1926) que resume ideas de la Ética; no es una frase de Aristóteles.
+- **Aristóteles** — ««Cualquiera puede enojarse, eso es fácil…» (versión popular)»: Paráfrasis libre de la Ética (libro II). Publicamos los pasajes textuales sobre la ira.
+- **René Descartes** — ««Divide cada dificultad en tantas partes como sea posible» (versión abreviada)»: Paráfrasis de la segunda regla del método; no coincide con el texto de la edición citada.
+- **Alfred Adler** — «Pasajes sobre el «protesto masculino»»: Excluidos: reflejan concepciones de época sobre los géneros que hoy no se sostienen.
 
 ## Autores del sitio pendientes
 
@@ -98,7 +106,6 @@ Ninguna.
 | Bowlby | 1907–1990 | Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Ainsworth | 1913–1999 | Obra protegida por derechos de autor hasta el 2070 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Wundt | 1832–1920 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Adler | 1870–1937 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Rank | 1884–1939 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Horney | 1885–1952 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Sullivan | 1892–1949 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
@@ -106,12 +113,9 @@ Ninguna.
 | Langer | 1910–1987 | Obra protegida por derechos de autor hasta el 2058 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Binswanger | 1881–1966 | Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Laing | 1927–1989 | Obra protegida por derechos de autor hasta el 2060 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Aristóteles | 384–322 a. C. | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Hegel | 1770–1831 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Kierkegaard | 1813–1855 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Buber | 1878–1965 | Obra protegida por derechos de autor hasta el 2036 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Descartes | 1596–1650 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Locke | 1632–1704 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Husserl | 1859–1938 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Heidegger | 1889–1976 | Obra protegida por derechos de autor hasta el 2047 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Sartre | 1905–1980 | Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
@@ -177,3 +181,12 @@ Ninguna.
 - `kant-metafisica-costumbres` — *Die Metaphysik der Sitten* (1797), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/die-metaphysik-der-sitten> — Kant murió en 1804.
 - `kant-idea` — *Idee zu einer allgemeinen Geschichte in weltbürgerlicher Absicht* (1784), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-idee-zu-einer-allgemeinen-geschichte-in-weltbuergerlicher-absicht> — Kant murió en 1804.
 - `kant-facultades` — *Der Streit der Fakultäten* (1798), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten> — Kant murió en 1804.
+- `aristoteles-etica` — *The Nicomachean Ethics* (1847), Trad. inglesa de D. P. Chase (Everyman's Library), en Project Gutenberg <https://www.gutenberg.org/cache/epub/8438/pg8438.txt> — Aristóteles murió en 322 a. C.; Chase, en 1902.
+- `aristoteles-politica` — *Politics: A Treatise on Government* (1776), Trad. inglesa de William Ellis, en Project Gutenberg <https://www.gutenberg.org/cache/epub/6762/pg6762.txt> — Traducción del siglo XVIII.
+- `aristoteles-poetica` — *The Poetics* (1895), Trad. inglesa de S. H. Butcher, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1974/pg1974.txt> — Butcher murió en 1910.
+- `locke-ensayo-1` — *An Essay Concerning Humane Understanding, vol. 1* (1690), Texto inglés en Project Gutenberg <https://www.gutenberg.org/cache/epub/10615/pg10615.txt> — Locke murió en 1704.
+- `locke-ensayo-2` — *An Essay Concerning Humane Understanding, vol. 2* (1690), Texto inglés en Project Gutenberg <https://www.gutenberg.org/cache/epub/10616/pg10616.txt> — Locke murió en 1704.
+- `descartes-pasiones` — *Les Passions de l’âme* (1649), Texto francés en Wikisource <https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render> — Descartes murió en 1650.
+- `descartes-discurso` — *Discours de la méthode* (1637), Texto francés (ed. Cousin) en Wikisource <https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render> — Descartes murió en 1650.
+- `descartes-meditaciones` — *Méditations métaphysiques* (1647), Versión francesa de 1647, revisada por Descartes, en Wikisource <https://fr.wikisource.org/w/index.php?title=M%C3%A9ditations_m%C3%A9taphysiques/M%C3%A9ditation_premi%C3%A8re&action=render> — Descartes murió en 1650.
+- `adler-caracter` — *Über den nervösen Charakter* (1922), Segunda edición (1922), texto alemán digitalizado en Internet Archive <https://archive.org/download/berdennervsencha02adle/berdennervsencha02adle_djvu.txt> — Adler murió en 1937.
