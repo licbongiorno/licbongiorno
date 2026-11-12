@@ -111,6 +111,17 @@ def ubicar(fid, crudo, i):
         # Libros de ensayos o charlas: el último título (en mayúsculas) que aparece antes de la cita.
         mejor = max(((crudo.rfind(tt, 0, i), tt) for tt in f["titulos"]), default=(-1, ""))
         return (f"«{mejor[1].title()}»" if mejor[0] >= 0 else ""), url
+    if tipo == "regex":
+        # Lista de [patrón, formato]: cada patrón busca su última aparición antes de la cita,
+        # empezando después de la anterior (por ejemplo, capítulo y luego versículo).
+        partes, desde = [], f.get("inicio_texto", 0)
+        for patron, formato in f["patrones"]:
+            m = ultimo(patron, crudo, i, desde)
+            if m:
+                g = m.group(1)
+                partes.append(formato.format(romano(g) if re.fullmatch(r"[IVXLC]+", g) else (g.capitalize() if g.isupper() and len(g) > 4 else g)))
+                desde = m.end() - 1
+        return ", ".join(partes), url
     if f.get("capitulos"):
         return f"Capítulo {nsec}", f"{f['url'].rstrip('/')}/chapter/{nsec}"
     return "", url

@@ -174,7 +174,8 @@
   "inicio_texto": 126700,
   "titulo_es": "Meditaciones",
   "edicion": "The Thoughts of the Emperor Marcus Aurelius Antoninus, trad. inglesa de George Long (1862), en Project Gutenberg",
-  "anio_texto": "c. 170–180"
+  "anio_texto": "c. 170–180",
+  "traductor": "George Long (1862)"
  },
  "james-principles-1": {
   "titulo": "The Principles of Psychology, vol. 1",
@@ -279,5 +280,202 @@
   ],
   "titulo_es": "La voluntad de creer y otros ensayos",
   "edicion": "Primera edición inglesa, en Project Gutenberg"
+ },
+ "laotse-legge": {
+  "titulo": "The Tao Teh King",
+  "titulo_es": "Tao Te Ching",
+  "anio": 1891,
+  "anio_texto": "s. IV a. C.",
+  "idioma": "en",
+  "idioma_original": "zh",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/216/pg216.txt"
+  ],
+  "edicion": "Trad. inglesa de James Legge (1891), en Project Gutenberg",
+  "traductor": "James Legge (1891)",
+  "dominio_publico": "Legge murió en 1897.",
+  "localizador": "regex",
+  "inicio_texto": 1066,
+  "patrones": [
+   [
+    "(?:Ch\\.|[.!?\\\"'); ]) (\\d{1,2})\\. 1\\. (?=[A-Z(\\\"'])",
+    "Capítulo {0}"
+   ]
+  ]
+ },
+ "buda-dhammapada": {
+  "titulo": "The Dhammapada",
+  "titulo_es": "Dhammapada",
+  "anio": 1881,
+  "anio_texto": "s. III a. C.",
+  "idioma": "en",
+  "idioma_original": "pi",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/2017/pg2017.txt"
+  ],
+  "edicion": "Trad. inglesa de F. Max Müller (1881), en Project Gutenberg",
+  "traductor": "F. Max Müller (1881)",
+  "dominio_publico": "Max Müller murió en 1900.",
+  "localizador": "regex",
+  "inicio_texto": 1981,
+  "patrones": [
+   [
+    "Chapter ([IVXL]+)\\.",
+    "Capítulo {0}"
+   ],
+   [
+    "(?<=[.!?\\\"'); ] )(\\d{1,3})(?:, \\d{1,3})*\\. (?=[A-Z\\\"'(])",
+    "verso {0}"
+   ]
+  ]
+ },
+ "nietzsche-zarathustra": {
+  "titulo": "Also sprach Zarathustra",
+  "titulo_es": "Así habló Zaratustra",
+  "anio": 1885,
+  "anio_texto": "1883–1885",
+  "idioma": "de",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/7205/pg7205.txt"
+  ],
+  "edicion": "Texto alemán en Project Gutenberg",
+  "dominio_publico": "Nietzsche murió en 1900.",
+  "localizador": "regex",
+  "inicio_texto": 2800,
+  "patrones": [
+   [
+    "(Erster|Zweiter|Dritter|Vierter und letzter) Theil",
+    "{0} Theil"
+   ]
+  ]
+ },
+ "nietzsche-jenseits": {
+  "titulo": "Jenseits von Gut und Böse",
+  "titulo_es": "Más allá del bien y del mal",
+  "anio": 1886,
+  "idioma": "de",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/7204/pg7204.txt"
+  ],
+  "edicion": "Texto alemán en Project Gutenberg",
+  "dominio_publico": "Nietzsche murió en 1900.",
+  "localizador": "regex",
+  "inicio_texto": 5000,
+  "patrones": [
+   [
+    "(?<=[.!?\\\"'\\-:;)] )(\\d{1,3})\\. (?=[A-ZÄÖÜ\\\"'(])",
+    "§ {0}"
+   ]
+  ]
+ },
+ "nietzsche-goetzen": {
+  "titulo": "Götzen-Dämmerung",
+  "titulo_es": "El ocaso de los ídolos",
+  "anio": 1889,
+  "idioma": "de",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/7203/pg7203.txt"
+  ],
+  "edicion": "Texto alemán en Project Gutenberg",
+  "dominio_publico": "Nietzsche murió en 1900.",
+  "localizador": "regex",
+  "inicio_texto": 3000,
+  "patrones": [
+   [
+    "(Sprüche und Pfeile|Das Problem des Sokrates|Die \\\"Vernunft\\\" in der Philosophie|Moral als Widernatur|Die vier grossen Irrthümer|Die \\\"Verbesserer\\\" der Menschheit|Was den Deutschen abgeht|Streifzüge eines Unzeitgemässen|Was ich den Alten verdanke|Der Hammer redet)",
+    "«{0}»"
+   ],
+   [
+    "(?<=[.!?\\\"'\\-:;)] )(\\d{1,3})\\. (?=[A-ZÄÖÜ\\\"'(])",
+    "§ {0}"
+   ]
+  ]
+ },
+ "nietzsche-ecce": {
+  "titulo": "Ecce homo",
+  "titulo_es": "Ecce homo",
+  "anio": 1908,
+  "anio_texto": "1888 (publ. 1908)",
+  "idioma": "de",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/7202/pg7202.txt"
+  ],
+  "edicion": "Texto alemán en Project Gutenberg",
+  "dominio_publico": "Nietzsche murió en 1900.",
+  "localizador": "regex",
+  "inicio_texto": 8000,
+  "patrones": [
+   [
+    "(Warum ich so weise bin|Warum ich so klug bin|Warum ich so gute Bücher schreibe|Warum ich ein Schicksal bin)",
+    "«{0}»"
+   ],
+   [
+    "(?<=[.!?\\\"'\\-:;)] )(\\d{1,3})\\. (?=[A-ZÄÖÜ\\\"'(])",
+    "§ {0}"
+   ]
+  ]
+ },
+ "nietzsche-menschliches": {
+  "titulo": "Menschliches, Allzumenschliches",
+  "titulo_es": "Humano, demasiado humano",
+  "anio": 1878,
+  "idioma": "de",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/7207/pg7207.txt"
+  ],
+  "edicion": "Texto alemán en Project Gutenberg",
+  "dominio_publico": "Nietzsche murió en 1900.",
+  "localizador": "regex",
+  "inicio_texto": 5000,
+  "patrones": [
+   [
+    "(?<=[.!?\\\"'\\-:;)] )(\\d{1,3})\\. (?=[A-ZÄÖÜ\\\"'(])",
+    "§ {0}"
+   ]
+  ]
+ },
+ "epicteto-disertaciones": {
+  "titulo": "A Selection from the Discourses of Epictetus",
+  "titulo_es": "Disertaciones (selección)",
+  "anio": 1890,
+  "anio_texto": "c. 108",
+  "idioma": "en",
+  "idioma_original": "grc",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/10661/pg10661.txt"
+  ],
+  "edicion": "Trad. inglesa de George Long, en Project Gutenberg",
+  "traductor": "George Long",
+  "dominio_publico": "Epicteto murió c. 135; Long, en 1879.",
+  "localizador": "regex",
+  "inicio_texto": 3500,
+  "patrones": [
+   [
+    "\\b([A-Z][A-Z ,'\\-]{12,90})\\.\\s?-",
+    "«{0}»"
+   ]
+  ]
+ },
+ "epicteto-manual": {
+  "titulo": "The Encheiridion, or Manual",
+  "titulo_es": "Manual (Enquiridión)",
+  "anio": 1890,
+  "anio_texto": "c. 125",
+  "idioma": "en",
+  "idioma_original": "grc",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/10661/pg10661.txt"
+  ],
+  "edicion": "Trad. inglesa de George Long, en Project Gutenberg",
+  "traductor": "George Long",
+  "dominio_publico": "Epicteto murió c. 135; Long, en 1879.",
+  "localizador": "regex",
+  "inicio_texto": 283000,
+  "patrones": [
+   [
+    "(?<=[.!?\\\"'] )([IVXL]+)\\. (?=[A-Z])",
+    "§ {0}"
+   ]
+  ]
  }
 }

@@ -1,0 +1,820 @@
+[
+ {
+  "id": "epicteto-001",
+  "fuente": "epicteto-manual",
+  "original": "Of things some are in our power, and others are not.",
+  "traduccion": "De las cosas, unas dependen de nosotros y otras no.",
+  "temas": [
+   "libertad",
+   "aceptacion",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 1",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-002",
+  "fuente": "epicteto-manual",
+  "original": "If you love an earthen vessel, say it is an earthen vessel which you love; for when it has been broken you will not be disturbed.",
+  "traduccion": "Si amás una vasija de barro, decite que amás una vasija de barro: cuando se rompa, no te perturbará.",
+  "temas": [
+   "perdida",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 3",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-003",
+  "fuente": "epicteto-manual",
+  "original": "Men are disturbed not by the things which happen, but by the opinions about the things",
+  "traduccion": "A los seres humanos no los perturban las cosas que suceden, sino las opiniones sobre las cosas.",
+  "temas": [
+   "sufrimiento",
+   "conciencia",
+   "regulacion-emocional"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 5",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-004",
+  "fuente": "epicteto-manual",
+  "original": "for the opinion about death that it is terrible, is the terrible thing.",
+  "traduccion": "Lo terrible es la opinión de que la muerte es terrible.",
+  "temas": [
+   "muerte",
+   "miedo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 5",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-005",
+  "fuente": "epicteto-manual",
+  "original": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
+  "traduccion": "No pretendas que las cosas sucedan como querés: querelas como suceden, y tu vida fluirá en calma.",
+  "temas": [
+   "aceptacion",
+   "felicidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 8",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-006",
+  "fuente": "epicteto-manual",
+  "original": "Disease is an impediment to the body, but not to the will, unless the will itself chooses.",
+  "traduccion": "La enfermedad es un impedimento para el cuerpo, pero no para la voluntad, a menos que ella misma lo elija.",
+  "temas": [
+   "cuerpo",
+   "libertad",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 9",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-007",
+  "fuente": "epicteto-manual",
+  "original": "On the occasion of every accident (event) that befalls you, remember to turn to yourself and inquire what power you have for turning it to use.",
+  "traduccion": "Ante cada cosa que te suceda, acordate de volver a vos y preguntarte qué capacidad tenés para aprovecharla.",
+  "temas": [
+   "resiliencia",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 10",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-008",
+  "fuente": "epicteto-manual",
+  "original": "Never say about anything, I have lost it, but say I have restored it.",
+  "traduccion": "Nunca digas de algo «lo perdí», sino «lo devolví».",
+  "temas": [
+   "perdida",
+   "duelo",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 11",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-009",
+  "fuente": "epicteto-manual",
+  "original": "If you would improve, submit to be considered without sense and foolish with respect to externals.",
+  "traduccion": "Si querés progresar, aceptá que te consideren tonto e ignorante en las cosas exteriores.",
+  "temas": [
+   "autenticidad",
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 13",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-010",
+  "fuente": "epicteto-manual",
+  "original": "Remember that in life you ought to behave as at a banquet.",
+  "traduccion": "Recordá que en la vida tenés que comportarte como en un banquete.",
+  "temas": [
+   "deseo",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 15",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-011",
+  "fuente": "epicteto-manual",
+  "original": "Remember that thou art an actor in a play, of such a kind as the teacher (author) may choose",
+  "traduccion": "Recordá que sos un actor en una obra, tal como el autor quiera que sea.",
+  "temas": [
+   "identidad",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 17",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-012",
+  "fuente": "epicteto-manual",
+  "original": "You can be invincible, if you enter into no contest in which it is not in your power to conquer.",
+  "traduccion": "Podés ser invencible si no entrás en ninguna contienda en la que vencer no dependa de vos.",
+  "temas": [
+   "libertad",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 19",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-013",
+  "fuente": "epicteto-manual",
+  "original": "Remember that it is not he who reviles you or strikes you, who insults you, but it is your opinion about these things as being insulting.",
+  "traduccion": "Recordá que no te ofende quien te insulta o te golpea, sino tu opinión de que eso es ofensivo.",
+  "temas": [
+   "ira",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 20",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-014",
+  "fuente": "epicteto-manual",
+  "original": "When then a man irritates you, you must know that it is your own opinion which has irritated you.",
+  "traduccion": "Cuando alguien te irrita, sabé que lo que te irritó es tu propia opinión.",
+  "temas": [
+   "ira",
+   "regulacion-emocional"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 20",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-015",
+  "fuente": "epicteto-manual",
+  "original": "Let death and exile and every other thing which appears dreadful be daily before your eyes; but most of all death: and you will never think of anything mean nor will you desire anything extravagantly.",
+  "traduccion": "Tené cada día ante los ojos la muerte, el exilio y todo lo que parece terrible, sobre todo la muerte: nunca pensarás nada mezquino ni desearás nada en exceso.",
+  "temas": [
+   "muerte",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 21",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-016",
+  "fuente": "epicteto-manual",
+  "original": "If it should ever happen to you to be turned to externals in order to please some person, you must know that you have lost your purpose in life.",
+  "traduccion": "Si alguna vez te volcás hacia lo exterior para agradar a alguien, sabé que perdiste el rumbo de tu vida.",
+  "temas": [
+   "autenticidad",
+   "sentido-de-vida"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 23",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-017",
+  "fuente": "epicteto-manual",
+  "original": "but that you put your understanding in the power of any man whom you meet, so that if he should revile you, it is disturbed and troubled, are you not ashamed at this?",
+  "traduccion": "[Te indignaría que alguien entregara tu cuerpo a un desconocido;] pero que pongas tu mente en manos de cualquiera, de modo que si te insulta quede turbada, ¿no te avergüenza?",
+  "temas": [
+   "libertad",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 28",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-018",
+  "fuente": "epicteto-manual",
+  "original": "And let silence be the general rule, or let only what is necessary be said, and in few words.",
+  "traduccion": "Que el silencio sea la regla general, o que se diga solo lo necesario y en pocas palabras.",
+  "temas": [
+   "silencio",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 33",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-019",
+  "fuente": "epicteto-manual",
+  "original": "but let the thing wait for you, and allow yourself a certain delay on your own part.",
+  "traduccion": "[Ante la impresión de un placer,] que la cosa te espere, y concedete cierta demora.",
+  "temas": [
+   "deseo",
+   "regulacion-emocional"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 34",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-020",
+  "fuente": "epicteto-manual",
+  "original": "When you have decided that a thing ought to be done, and are doing it, never avoid being seen doing it, though the many shall form an unfavorable opinion about it.",
+  "traduccion": "Cuando decidiste que algo debe hacerse y lo estás haciendo, no evites que te vean, aunque muchos opinen mal de ello.",
+  "temas": [
+   "autenticidad",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 35",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-021",
+  "fuente": "epicteto-manual",
+  "original": "let all your care be directed to the mind.",
+  "traduccion": "Que todo tu cuidado se dirija a la mente.",
+  "temas": [
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 41",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-022",
+  "fuente": "epicteto-manual",
+  "original": "When any person treats you ill or speaks ill of you, remember that he does this or says this because he thinks that it is his duty.",
+  "traduccion": "Cuando alguien te trata mal o habla mal de vos, recordá que lo hace o lo dice porque cree que es lo que corresponde.",
+  "temas": [
+   "vinculos",
+   "compasion",
+   "ira"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 42",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-023",
+  "fuente": "epicteto-manual",
+  "original": "Everything has two handles, the one by which it may be borne, the other by which it may not.",
+  "traduccion": "Todo tiene dos asas: una por la que se lo puede llevar y otra por la que no.",
+  "temas": [
+   "aceptacion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 43",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-024",
+  "fuente": "epicteto-manual",
+  "original": "For before you shall have determined the opinion how do you know whether he is acting wrong?",
+  "traduccion": "Antes de conocer su razón, ¿cómo sabés si obra mal?",
+  "temas": [
+   "vinculos",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 45",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-025",
+  "fuente": "epicteto-manual",
+  "original": "at a banquet do not say how a man ought to eat, but eat as you ought to eat.",
+  "traduccion": "En un banquete no digas cómo hay que comer: comé como se debe.",
+  "temas": [
+   "autenticidad",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 46",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-026",
+  "fuente": "epicteto-manual",
+  "original": "The condition and characteristic of a philosopher is this: he expects all advantage and all harm from himself.",
+  "traduccion": "Lo propio del filósofo es esto: espera de sí mismo todo beneficio y todo daño.",
+  "temas": [
+   "responsabilidad",
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 48",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-027",
+  "fuente": "epicteto-manual",
+  "original": "And whatever any man shall say about you, do not attend to it; for this is no affair of yours.",
+  "traduccion": "Y lo que digan de vos, no le prestes atención: no es asunto tuyo.",
+  "temas": [
+   "autoestima",
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 50",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-028",
+  "fuente": "epicteto-manual",
+  "original": "If you would have your children and your wife and your friends to live for ever, you are silly",
+  "traduccion": "Si querés que tus hijos, tu pareja y tus amigos vivan para siempre, sos un ingenuo.",
+  "temas": [
+   "muerte",
+   "aceptacion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 14",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-029",
+  "fuente": "epicteto-disertaciones",
+  "original": "It is circumstances (difficulties) which show what men are.",
+  "traduccion": "Son las dificultades las que muestran quiénes son las personas.",
+  "temas": [
+   "resiliencia",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«How we should struggle with circumstances»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-030",
+  "fuente": "epicteto-disertaciones",
+  "original": "Nothing great, said Epictetus, is produced suddenly, since not even the grape or the fig is.",
+  "traduccion": "Nada grande, decía Epicteto, se produce de golpe: ni siquiera la uva o el higo.",
+  "temas": [
+   "cambio",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«What philosophy promises»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-031",
+  "fuente": "epicteto-disertaciones",
+  "original": "so the matter of the art of living is each man's life.",
+  "traduccion": "La materia del arte de vivir es la vida de cada uno.",
+  "temas": [
+   "sentido-de-vida",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«What philosophy promises»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-032",
+  "fuente": "epicteto-disertaciones",
+  "original": "Where is the good? In the will. Where is the evil? In the will.",
+  "traduccion": "¿Dónde está el bien? En la voluntad. ¿Dónde está el mal? En la voluntad.",
+  "temas": [
+   "voluntad",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«That we do not strive to use our opinions about good and evil»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-033",
+  "fuente": "epicteto-disertaciones",
+  "original": "For it is impossible for a man to begin to learn that which he thinks that he knows.",
+  "traduccion": "Es imposible empezar a aprender lo que uno cree que ya sabe.",
+  "temas": [
+   "educacion",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«How we must adapt preconceptions to particular cases»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-034",
+  "fuente": "epicteto-disertaciones",
+  "original": "Every habit and faculty is maintained and increased by the corresponding actions",
+  "traduccion": "Todo hábito y toda capacidad se mantienen y crecen con las acciones que les corresponden.",
+  "temas": [
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«How we should struggle against appearances»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-035",
+  "fuente": "epicteto-disertaciones",
+  "original": "If you would be a good reader, read; if a writer, write.",
+  "traduccion": "Si querés ser un buen lector, leé; si querés ser escritor, escribí.",
+  "temas": [
+   "habitos",
+   "educacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«How we should struggle against appearances»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-036",
+  "fuente": "epicteto-disertaciones",
+  "original": "Generally then if you would make anything a habit, do it; if you would not make it a habit, do not do it",
+  "traduccion": "En general, si querés que algo se vuelva hábito, hacelo; si no querés, no lo hagas.",
+  "temas": [
+   "habitos",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«How we should struggle against appearances»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-037",
+  "fuente": "epicteto-disertaciones",
+  "original": "The beginning of philosophy, to him at least who enters on it in the right way and by the door is a consciousness of his own weakness and inability about necessary things",
+  "traduccion": "El comienzo de la filosofía, para quien entra en ella como corresponde, es la conciencia de la propia debilidad e incapacidad en las cosas necesarias.",
+  "temas": [
+   "autoconocimiento",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«What the beginning of philosophy is»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-038",
+  "fuente": "epicteto-disertaciones",
+  "original": "He is free who lives as he wishes to live; who is neither subject to compulsion nor to hindrance, nor to force",
+  "traduccion": "Es libre quien vive como quiere vivir, sin estar sometido a la coacción, al impedimento ni a la fuerza.",
+  "temas": [
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«About freedom»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-039",
+  "fuente": "epicteto-disertaciones",
+  "original": "I must die. Must I then die lamenting? I must be put in chains. Must I then also lament?",
+  "traduccion": "Tengo que morir. ¿Tengo entonces que morir lamentándome? Me van a encadenar. ¿Tengo también que lamentarme?",
+  "temas": [
+   "muerte",
+   "aceptacion",
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Of the things which are in our power and not in our power»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-040",
+  "fuente": "epicteto-disertaciones",
+  "original": "Whoever then understands what is good can also know how to love",
+  "traduccion": "Quien entiende qué es el bien sabe también amar.",
+  "temas": [
+   "amor",
+   "amistad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«On friendship»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-041",
+  "fuente": "epicteto-disertaciones",
+  "original": "Solitude is a certain condition of a helpless man. For because a man is alone, he is not for that reason also solitary",
+  "traduccion": "La soledad es la condición de una persona desamparada. Porque alguien esté solo no por eso está en soledad.",
+  "temas": [
+   "soledad",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«What solitude is, and what kind of person a solitary man is»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-042",
+  "fuente": "epicteto-disertaciones",
+  "original": "Man, if you are anything, both walk alone and talk to yourself, and do not hide yourself in the chorus.",
+  "traduccion": "Si sos alguien, caminá solo, hablá con vos mismo y no te escondas en el coro.",
+  "temas": [
+   "soledad",
+   "autenticidad",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Certain miscellaneous matters»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-043",
+  "fuente": "epicteto-disertaciones",
+  "original": "Examine a little at last, look around, stir yourself up, that you may know who you are.",
+  "traduccion": "Examinate un poco por fin, mirá a tu alrededor, sacudite, para saber quién sos.",
+  "temas": [
+   "autoconocimiento",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Certain miscellaneous matters»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-044",
+  "fuente": "epicteto-disertaciones",
+  "original": "If a man has frequent intercourse with others either for talk, or drinking together, or generally for social purposes, he must either become like them, or change them to his own fashion.",
+  "traduccion": "Quien trata con frecuencia con otros, para conversar, beber juntos o por la vida social, termina pareciéndose a ellos o haciéndolos parecidos a él.",
+  "temas": [
+   "vinculos",
+   "amistad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«That we ought with caution to enter into familiar intercourse with men»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-045",
+  "fuente": "epicteto-disertaciones",
+  "original": "Things themselves (materials) are indifferent; but the use of them is not indifferent.",
+  "traduccion": "Las cosas en sí son indiferentes; el uso que hacemos de ellas, no.",
+  "temas": [
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«How magnanimity is consistent with care»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-046",
+  "fuente": "epicteto-disertaciones",
+  "original": "Externals are not in my power: will is in my power.",
+  "traduccion": "Lo exterior no depende de mí; la voluntad, sí.",
+  "temas": [
+   "libertad",
+   "voluntad",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«How magnanimity is consistent with care»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-047",
+  "fuente": "epicteto-disertaciones",
+  "original": "For to every man the cause of his acting is opinion.",
+  "traduccion": "Para cada persona, la causa de sus actos es su opinión.",
+  "temas": [
+   "conciencia",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«To a certain rhetorician who was going up to rome on a suit»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-048",
+  "fuente": "epicteto-disertaciones",
+  "original": "the faculty of seeing what belongs and happens to all persons and things, and a grateful disposition",
+  "traduccion": "[Para alabar la Providencia hacen falta dos cosas:] la capacidad de ver lo que pertenece y sucede a todas las personas y cosas, y una disposición agradecida.",
+  "temas": [
+   "gratitud",
+   "atencion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«Of providence»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-049",
+  "fuente": "epicteto-disertaciones",
+  "original": "Consider who you are.",
+  "traduccion": "Considerá quién sos.",
+  "temas": [
+   "identidad",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«How we may discover the duties of life from names»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-050",
+  "fuente": "epicteto-disertaciones",
+  "original": "Further, you are a citizen of the world, and a part of it",
+  "traduccion": "Además, sos ciudadano del mundo y parte de él.",
+  "temas": [
+   "sociedad",
+   "conexion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«How we may discover the duties of life from names»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-051",
+  "fuente": "epicteto-disertaciones",
+  "original": "For we must not shrink when we are engaged in the greatest combat, but we must even take blows.",
+  "traduccion": "No debemos retroceder cuando estamos en el combate más grande: hasta hay que recibir golpes.",
+  "temas": [
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«From their purpose»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-052",
+  "fuente": "epicteto-disertaciones",
+  "original": "In my opinion no man has had a more profitable difficulty than you have had, if you choose to make use of it as an athlete would deal with a young antagonist.",
+  "traduccion": "Creo que nadie tuvo una dificultad más provechosa que la tuya, si querés aprovecharla como un atleta a un rival joven.",
+  "temas": [
+   "resiliencia",
+   "sufrimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«How we should struggle with circumstances»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ },
+ {
+  "id": "epicteto-053",
+  "fuente": "epicteto-disertaciones",
+  "original": "Philosophy does not propose to secure for a man any external thing.",
+  "traduccion": "La filosofía no promete conseguirle a nadie nada exterior.",
+  "temas": [
+   "sentido-de-vida",
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«What philosophy promises»",
+  "url": "https://www.gutenberg.org/cache/epub/10661/pg10661.txt",
+  "verificada": true
+ }
+]

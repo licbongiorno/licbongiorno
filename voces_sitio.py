@@ -20,7 +20,7 @@ RUTA = "/recursos/voces-que-nos-habitan/"
 RUTA_AUTORES = RUTA + "autores/"
 RUTA_TEMAS = RUTA + "temas/"
 MIN_TEMA_CITAS, MIN_TEMA_AUTORES = 8, 3  # una página de tema solo existe si tiene contenido suficiente y miradas distintas
-IDIOMAS = {"la": "latín", "de": "alemán", "en": "inglés", "grc": "griego", "fr": "francés", "it": "italiano", "es": "castellano"}
+IDIOMAS = {"la": "latín", "de": "alemán", "en": "inglés", "grc": "griego", "fr": "francés", "it": "italiano", "es": "castellano", "zh": "chino", "pi": "pali"}
 EPOCAS = {"clasico": "Clásicos", "moderno": "Modernos", "contemporaneo": "Contemporáneos"}
 # Enlaces discretos desde los temas hacia laboratorios y recursos del sitio.
 TEMA_ENLACES = {
@@ -71,7 +71,8 @@ def cargar(mapa_autores):
                 continue
             f = fuentes[c["fuente"]]
             c = dict(c, obra=f.get("titulo_es", f["titulo"]), obra_original=f["titulo"], anio=f.get("anio_texto", str(f["anio"])),
-                     idioma=f.get("idioma"), idioma_obra=f.get("idioma_original", f.get("idioma")), edicion=f.get("edicion", ""))
+                     idioma=f.get("idioma"), idioma_obra=f.get("idioma_original", f.get("idioma")), edicion=f.get("edicion", ""),
+                     traductor=f.get("traductor", ""))
             citas.append(c)
         if not citas:
             continue
@@ -120,7 +121,7 @@ def atribucion(c, a):
 
 def nota_traduccion(c):
     if c["idioma"] != c["idioma_obra"]:
-        return f"Traducción propia de Lo que te habita, a partir de la versión {IDIOMAS.get(c['idioma'], c['idioma'])} de George Long (1862); original en {IDIOMAS.get(c['idioma_obra'])}."
+        return f"Traducción propia de Lo que te habita, a partir de la versión {IDIOMAS.get(c['idioma'], c['idioma'])} de {c['traductor']}; original en {IDIOMAS.get(c['idioma_obra'], c['idioma_obra'])}."
     return f"Traducción propia de Lo que te habita; original en {IDIOMAS.get(c['idioma'], c['idioma'])}."
 
 
@@ -227,7 +228,7 @@ def _pie_metodo(B, V):
   <p>En internet circulan miles de frases atribuidas a autores que nunca las escribieron. Por eso esta biblioteca sigue reglas estrictas:</p>
   <ul>
     <li><strong>Solo citas textuales comprobadas.</strong> Cada frase se cotejó, palabra por palabra, con una edición de la obra original. Junto a cada cita está el texto original, la obra, la ubicación exacta y un enlace a la fuente.</li>
-    <li><strong>Traducciones propias, señaladas como tales.</strong> Las versiones en castellano son nuestras. Cuando el autor escribió en una lengua que no citamos directamente (Marco Aurelio, en griego), lo decimos.</li>
+    <li><strong>Traducciones propias, señaladas como tales.</strong> Las versiones en castellano son nuestras. Cuando no citamos la lengua original (el griego de Marco Aurelio y Epicteto, el chino del Tao Te Ching, el pali del Dhammapada), usamos una traducción clásica de dominio público y lo indicamos en cada cita.</li>
     <li><strong>Sin atribuciones dudosas ni paráfrasis presentadas como citas.</strong> Las frases virales que no figuran en la obra, o que el autor tomó de otro, quedaron afuera.</li>
     <li><strong>Obras de dominio público.</strong> Por ahora reunimos autores cuya obra ya es de libre uso. Otros autores del sitio se irán sumando cuando podamos hacerlo con el mismo cuidado.</li>
   </ul>
@@ -455,9 +456,10 @@ def construir(B, V, mapa, nombres, fechas, imagenes):
         extra = f'<div class="descarga descarga--lab"><p><strong>Para llevarlo a tu experiencia</strong>Un recurso del sitio relacionado con este tema.</p><a class="boton boton--chico" href="{enlace[0]}">{esc(enlace[1])}</a></div>' if enlace else ""
         nombres_aut = [V["por_autor"][s]["nombre"] for s in v["autores"]]
         lista_aut = ", ".join(nombres_aut[:-1]) + " y " + nombres_aut[-1] if len(nombres_aut) > 1 else nombres_aut[0]
-        opciones_t = [f"{v['nombre']}: citas verificadas de {lista_aut}", f"{v['nombre']}: {v['citas']} citas verificadas | Voces que nos habitan", f"{v['nombre']}: {v['citas']} citas verificadas"]
+        lista_corta = lista_aut if len(nombres_aut) <= 3 else ", ".join(nombres_aut[:3]) + " y otros"
+        opciones_t = [f"{v['nombre']}: citas verificadas de {lista_corta}", f"{v['nombre']}: {v['citas']} citas verificadas | Voces que nos habitan", f"{v['nombre']}: {v['citas']} citas verificadas"]
         meta_t = {"titulo": next(x for x in opciones_t + [opciones_t[-1]] if len(x) <= 65 or x is opciones_t[-1]),
-                  "descripcion": f"{v['citas']} citas sobre {v['nombre'].lower()} de {lista_aut}, verificadas en su obra original, con traducción y fuente.",
+                  "descripcion": f"{v['citas']} citas sobre {v['nombre'].lower()} de {lista_corta}, verificadas en su obra original, con traducción y fuente."[:158],
                   "migas": migas + [(v["nombre"], r)], "tipo_pagina": "CollectionPage", "con_consultorio": False, "scripts": scripts,
                   "antetitulo": "Voces que nos habitan · Tema", "h1": esc(v["nombre"]),
                   "bajada": esc(f"Un tema, distintas miradas: {v['citas']} citas de {lista_aut}.")}

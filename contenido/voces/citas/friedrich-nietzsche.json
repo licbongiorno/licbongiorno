@@ -1,0 +1,805 @@
+[
+ {
+  "id": "friedrich-nietzsche-001",
+  "fuente": "nietzsche-goetzen",
+  "original": "Was mich nicht umbringt, macht mich stärker.",
+  "traduccion": "Lo que no me mata me hace más fuerte.",
+  "temas": [
+   "resiliencia",
+   "sufrimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "En el original lleva el título «Aus der Kriegsschule des Lebens» («De la escuela de guerra de la vida»).",
+  "ubicacion": "«Sprüche und Pfeile», § 8",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-002",
+  "fuente": "nietzsche-goetzen",
+  "original": "Hat man sein warum? des Lebens, so verträgt man sich fast mit jedem wie?",
+  "traduccion": "Si se tiene un «por qué» para vivir, se soporta casi cualquier «cómo».",
+  "temas": [
+   "sentido-de-vida",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Sprüche und Pfeile», § 12",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-003",
+  "fuente": "nietzsche-goetzen",
+  "original": "Ohne Musik wäre das Leben ein Irrthum.",
+  "traduccion": "Sin música, la vida sería un error.",
+  "temas": [
+   "alegria",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Sprüche und Pfeile», § 33",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-004",
+  "fuente": "nietzsche-goetzen",
+  "original": "Müssiggang ist aller Psychologie Anfang.",
+  "traduccion": "El ocio es el comienzo de toda psicología.",
+  "temas": [
+   "autoconocimiento",
+   "humor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Sprüche und Pfeile», § 1",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-005",
+  "fuente": "nietzsche-goetzen",
+  "original": "Auch der Muthigste von uns hat nur selten den Muth zu dem, was er eigentlich weiss",
+  "traduccion": "Hasta el más valiente de nosotros rara vez tiene el valor de lo que en verdad sabe.",
+  "temas": [
+   "miedo",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«Sprüche und Pfeile», § 2",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-006",
+  "fuente": "nietzsche-goetzen",
+  "original": "Die Weisheit zieht auch der Erkenntniss Grenzen.",
+  "traduccion": "La sabiduría también le pone límites al conocimiento.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Sprüche und Pfeile», § 5",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-007",
+  "fuente": "nietzsche-goetzen",
+  "original": "Ich misstraue allen Systematikern und gehe ihnen aus dem Weg. Der Wille zum System ist ein Mangel an Rechtschaffenheit.",
+  "traduccion": "Desconfío de todos los sistemáticos y los evito. La voluntad de sistema es una falta de honestidad.",
+  "temas": [
+   "verdad",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Sprüche und Pfeile», § 26",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-008",
+  "fuente": "nietzsche-goetzen",
+  "original": "Nur die ergangenen Gedanken haben Werth.",
+  "traduccion": "Solo valen los pensamientos que nacen caminando.",
+  "temas": [
+   "cuerpo",
+   "creatividad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Sprüche und Pfeile», § 34",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-009",
+  "fuente": "nietzsche-goetzen",
+  "original": "ist der Mensch nur ein Fehlgriff Gottes? Oder Gott nur ein Fehlgriff des Menschen?",
+  "traduccion": "¿Es el ser humano solo un error de Dios? ¿O Dios solo un error del ser humano?",
+  "temas": [
+   "trascendencia",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«Sprüche und Pfeile», § 7",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-010",
+  "fuente": "nietzsche-goetzen",
+  "original": "Der getretene Wurm krümmt sich. So ist es klug.",
+  "traduccion": "El gusano pisado se enrosca. Así es prudente.",
+  "temas": [
+   "poder",
+   "humor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«Sprüche und Pfeile», § 31",
+  "url": "https://www.gutenberg.org/cache/epub/7203/pg7203.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-011",
+  "fuente": "nietzsche-jenseits",
+  "original": "Wer mit Ungeheuern kämpft, mag zusehn, dass er nicht dabei zum Ungeheuer wird. Und wenn du lange in einen Abgrund blickst, blickt der Abgrund auch in dich hinein.",
+  "traduccion": "Quien lucha con monstruos debe cuidar de no convertirse en monstruo. Y si mirás largo tiempo a un abismo, el abismo también mira dentro de vos.",
+  "temas": [
+   "identidad",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 146",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-012",
+  "fuente": "nietzsche-jenseits",
+  "original": "\"Das habe ich gethan\" sagt mein Gedächtniss. Das kann ich nicht gethan haben - sagt mein Stolz und bleibt unerbittlich. Endlich - giebt das Gedächtniss nach.",
+  "traduccion": "«Esto lo hice yo», dice mi memoria. «Esto no puedo haberlo hecho», dice mi orgullo, y se mantiene inflexible. Al final, cede la memoria.",
+  "temas": [
+   "memoria",
+   "autoestima",
+   "inconsciente"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 68",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-013",
+  "fuente": "nietzsche-jenseits",
+  "original": "Was aus Liebe gethan wird, geschieht immer jenseits von Gut und Böse.",
+  "traduccion": "Lo que se hace por amor sucede siempre más allá del bien y del mal.",
+  "temas": [
+   "amor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 153",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-014",
+  "fuente": "nietzsche-jenseits",
+  "original": "Der Irrsinn ist bei Einzelnen etwas Seltenes, - aber bei Gruppen, Parteien, Völkern, Zeiten die Regel.",
+  "traduccion": "La locura es algo raro en los individuos; pero en los grupos, los partidos, los pueblos y las épocas, es la regla.",
+  "temas": [
+   "sociedad",
+   "salud-mental"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 156",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-015",
+  "fuente": "nietzsche-jenseits",
+  "original": "Wer sich selbst verachtet, achtet sich doch immer noch dabei als Verächter.",
+  "traduccion": "Quien se desprecia a sí mismo se respeta todavía, en eso, como despreciador.",
+  "temas": [
+   "autoestima",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 78",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-016",
+  "fuente": "nietzsche-jenseits",
+  "original": "Man liebt zuletzt seine Begierde, und nicht das Begehrte.",
+  "traduccion": "Al final, uno ama su deseo y no lo deseado.",
+  "temas": [
+   "deseo",
+   "amor"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 175",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-017",
+  "fuente": "nietzsche-jenseits",
+  "original": "Alles, was tief ist, liebt die Maske",
+  "traduccion": "Todo lo profundo ama la máscara.",
+  "temas": [
+   "identidad",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 40",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-018",
+  "fuente": "nietzsche-jenseits",
+  "original": "Nicht dass du mich belogst, sondern dass ich dir nicht mehr glaube, hat mich erschüttert.",
+  "traduccion": "No me conmovió que me mintieras, sino que ya no pueda creerte.",
+  "temas": [
+   "vinculos",
+   "verdad",
+   "perdida"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 183",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-019",
+  "fuente": "nietzsche-jenseits",
+  "original": "Es giebt gar keine moralischen Phänomene, sondern nur eine moralische Ausdeutung von Phänomenen",
+  "traduccion": "No hay fenómenos morales, sino solo una interpretación moral de los fenómenos.",
+  "temas": [
+   "verdad",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 108",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-020",
+  "fuente": "nietzsche-jenseits",
+  "original": "Man liebt seine Erkenntniss nicht genug mehr, sobald man sie mittheilt.",
+  "traduccion": "Uno ya no ama lo suficiente su conocimiento en cuanto lo comunica.",
+  "temas": [
+   "conocimiento",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 160",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-021",
+  "fuente": "nietzsche-jenseits",
+  "original": "ein Gedanke kommt, wenn \"er\" will, und nicht wenn \"ich\" will",
+  "traduccion": "Un pensamiento viene cuando «él» quiere, y no cuando «yo» quiero.",
+  "temas": [
+   "inconsciente",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 17",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-022",
+  "fuente": "nietzsche-jenseits",
+  "original": "Reife des Mannes: das heisst den Ernst wiedergefunden haben, den man als Kind hatte, beim Spiel.",
+  "traduccion": "Madurez del hombre: haber reencontrado la seriedad que se tenía de niño al jugar.",
+  "temas": [
+   "infancia",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 94",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-023",
+  "fuente": "nietzsche-jenseits",
+  "original": "Die Falschheit eines Urtheils ist uns noch kein Einwand gegen ein Urtheil",
+  "traduccion": "Que un juicio sea falso no es todavía, para nosotros, una objeción contra ese juicio.",
+  "temas": [
+   "verdad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 4",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-024",
+  "fuente": "nietzsche-jenseits",
+  "original": "Die Liebe bringt die hohen und verborgenen Eigenschaften eines Liebenden an's Licht",
+  "traduccion": "El amor saca a la luz las cualidades elevadas y ocultas de quien ama.",
+  "temas": [
+   "amor",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 163",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-025",
+  "fuente": "nietzsche-jenseits",
+  "original": "Ich sehe immer nur den Schauspieler seines eignen Ideals",
+  "traduccion": "[¿Un gran hombre?] Siempre veo solo al actor de su propio ideal.",
+  "temas": [
+   "identidad",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 97",
+  "url": "https://www.gutenberg.org/cache/epub/7204/pg7204.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-026",
+  "fuente": "nietzsche-zarathustra",
+  "original": "man muss noch Chaos in sich haben, um einen tanzenden Stern gebären zu können",
+  "traduccion": "Hay que tener todavía caos dentro de sí para poder dar a luz una estrella danzante.",
+  "temas": [
+   "creatividad",
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-027",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Der Mensch ist ein Seil, geknüpft zwischen Thier und Übermensch",
+  "traduccion": "El ser humano es una cuerda tendida entre el animal y el superhombre.",
+  "temas": [
+   "existencia",
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-028",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Was gross ist am Menschen, das ist, dass er eine Brücke und kein Zweck ist",
+  "traduccion": "Lo grande del ser humano es que es un puente y no una meta.",
+  "temas": [
+   "transformacion-personal",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-029",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Ich würde nur an einen Gott glauben, der zu tanzen verstünde.",
+  "traduccion": "Solo creería en un dios que supiera bailar.",
+  "temas": [
+   "trascendencia",
+   "alegria"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-030",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Es ist immer etwas Wahnsinn in der Liebe. Es ist aber immer auch etwas Vernunft im Wahnsinn.",
+  "traduccion": "Siempre hay algo de locura en el amor. Pero siempre hay también algo de razón en la locura.",
+  "temas": [
+   "amor",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-031",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Hinter deinen Gedanken und Gefühlen, mein Bruder, steht ein mächtiger Gebieter, ein unbekannter Weiser-der heisst Selbst. In deinem Leibe wohnt er, dein Leib ist er.",
+  "traduccion": "Detrás de tus pensamientos y sentimientos, hermano, hay un soberano poderoso, un sabio desconocido: se llama «sí mismo». Habita en tu cuerpo; es tu cuerpo.",
+  "temas": [
+   "cuerpo",
+   "inconsciente",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-032",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Es ist mehr Vernunft in deinem Leibe, als in deiner besten Weisheit.",
+  "traduccion": "Hay más razón en tu cuerpo que en tu mejor sabiduría.",
+  "temas": [
+   "cuerpo",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-033",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Werkzeug deines Leibes ist auch deine kleine Vernunft",
+  "traduccion": "También tu pequeña razón es una herramienta de tu cuerpo.",
+  "temas": [
+   "cuerpo",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-034",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Verbrennen musst du dich wollen in deiner eignen Flamme: wie wolltest du neu werden, wenn du nicht erst Asche geworden bist!",
+  "traduccion": "Tenés que querer quemarte en tu propia llama: ¿cómo querrías renovarte si antes no te hiciste ceniza?",
+  "temas": [
+   "transformacion-personal",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-035",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Einsamer, du gehst den Weg zu dir selber!",
+  "traduccion": "Solitario, recorrés el camino hacia vos mismo.",
+  "temas": [
+   "soledad",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-036",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Aber der schlimmste Feind, dem du begegnen kannst, wirst du immer dir selber sein",
+  "traduccion": "Pero el peor enemigo que podés encontrar siempre serás vos mismo.",
+  "temas": [
+   "autoconocimiento",
+   "sufrimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-037",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Wahrlich, ein schmutziger Strom ist der Mensch. Man muss schon ein Meer sein, um einen schmutzigen Strom aufnehmen zu können, ohne unrein zu werden.",
+  "traduccion": "En verdad, el ser humano es un río sucio. Hay que ser un mar para poder recibir un río sucio sin volverse impuro.",
+  "temas": [
+   "aceptacion",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-038",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Muth aber ist der beste Todtschläger, Muth, der angreift: der schlägt noch den Tod todt",
+  "traduccion": "El valor es el mejor matador, el valor que ataca: hasta a la muerte mata.",
+  "temas": [
+   "miedo",
+   "muerte",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Dritter Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-039",
+  "fuente": "nietzsche-zarathustra",
+  "original": "War _das_ das Leben? Wohlan! Noch Ein Mal!",
+  "traduccion": "¿Eso era la vida? ¡Bien! ¡Otra vez!",
+  "temas": [
+   "sentido-de-vida",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Dritter Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-040",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Man vergilt einem Lehrer schlecht, wenn man immer nur der Schüler bleibt.",
+  "traduccion": "Se le paga mal a un maestro si se sigue siendo siempre solo su alumno.",
+  "temas": [
+   "educacion",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-041",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Der Mensch ist Etwas, das überwunden werden soll.",
+  "traduccion": "El ser humano es algo que debe ser superado.",
+  "temas": [
+   "transformacion-personal"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-042",
+  "fuente": "nietzsche-zarathustra",
+  "original": "bleibt der Erde treu",
+  "traduccion": "Permanezcan fieles a la tierra.",
+  "temas": [
+   "naturaleza",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-043",
+  "fuente": "nietzsche-zarathustra",
+  "original": "alles Leben ist Streit um Geschmack und Schmecken",
+  "traduccion": "Toda la vida es una disputa sobre gustos y sabores.",
+  "temas": [
+   "existencia",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Zweiter Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-044",
+  "fuente": "nietzsche-zarathustra",
+  "original": "Von allem Geschriebenen liebe ich nur Das, was Einer mit seinem Blute schreibt.",
+  "traduccion": "De todo lo escrito, solo amo lo que alguien escribe con su sangre.",
+  "temas": [
+   "autenticidad",
+   "creatividad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Erster Theil",
+  "url": "https://www.gutenberg.org/cache/epub/7205/pg7205.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-045",
+  "fuente": "nietzsche-ecce",
+  "original": "Meine Formel für die Grösse am Menschen ist amor fati: dass man Nichts anders haben will, vorwärts nicht, rückwärts nicht, in alle Ewigkeit nicht.",
+  "traduccion": "Mi fórmula para la grandeza del ser humano es amor fati: no querer que nada sea distinto, ni hacia adelante, ni hacia atrás, ni por toda la eternidad.",
+  "temas": [
+   "aceptacion",
+   "sentido-de-vida"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Warum ich so klug bin», § 10",
+  "url": "https://www.gutenberg.org/cache/epub/7202/pg7202.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-046",
+  "fuente": "nietzsche-ecce",
+  "original": "keinem Gedanken Glauben schenken, der nicht im Freien geboren ist",
+  "traduccion": "No darle crédito a ningún pensamiento que no haya nacido al aire libre.",
+  "temas": [
+   "cuerpo",
+   "naturaleza",
+   "creatividad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "«Warum ich so klug bin»",
+  "url": "https://www.gutenberg.org/cache/epub/7202/pg7202.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-047",
+  "fuente": "nietzsche-ecce",
+  "original": "Dass man wird, was man ist, setzt voraus, dass man nicht im Entferntesten ahnt, was man ist.",
+  "traduccion": "Llegar a ser lo que uno es supone no sospechar ni remotamente lo que uno es.",
+  "temas": [
+   "identidad",
+   "desarrollo-humano",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Warum ich so klug bin», § 9",
+  "url": "https://www.gutenberg.org/cache/epub/7202/pg7202.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-048",
+  "fuente": "nietzsche-ecce",
+  "original": "Ich bin kein Mensch, ich bin Dynamit.",
+  "traduccion": "No soy un hombre, soy dinamita.",
+  "temas": [
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "«Warum ich ein Schicksal bin», § 1",
+  "url": "https://www.gutenberg.org/cache/epub/7202/pg7202.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-049",
+  "fuente": "nietzsche-menschliches",
+  "original": "Ueberzeugungen sind gefährlichere Feinde der Wahrheit, als Lügen.",
+  "traduccion": "Las convicciones son enemigas de la verdad más peligrosas que las mentiras.",
+  "temas": [
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 483",
+  "url": "https://www.gutenberg.org/cache/epub/7207/pg7207.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-050",
+  "fuente": "nietzsche-menschliches",
+  "original": "sie ist in Wahrheit das übelste der Uebel, weil sie die Qual der Menschen verlängert",
+  "traduccion": "[La esperanza] es, en verdad, el peor de los males, porque prolonga el tormento de los seres humanos.",
+  "temas": [
+   "esperanza",
+   "sufrimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "nota": "Nietzsche comenta aquí el mito de Pandora: la esperanza es el último mal que quedó en la caja.",
+  "ubicacion": "§ 71",
+  "url": "https://www.gutenberg.org/cache/epub/7207/pg7207.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-051",
+  "fuente": "nietzsche-menschliches",
+  "original": "Mitfreude, nicht Mitleiden, macht den Freund.",
+  "traduccion": "Lo que hace al amigo es compartir la alegría, no compartir el sufrimiento.",
+  "temas": [
+   "amistad",
+   "alegria"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "§ 499",
+  "url": "https://www.gutenberg.org/cache/epub/7207/pg7207.txt",
+  "verificada": true
+ },
+ {
+  "id": "friedrich-nietzsche-052",
+  "fuente": "nietzsche-menschliches",
+  "original": "Wer nur einigermaassen zur Freiheit der Vernunft gekommen ist, kann sich auf Erden nicht anders fühlen, denn als Wanderer",
+  "traduccion": "Quien haya llegado aunque sea un poco a la libertad de la razón no puede sentirse en la tierra sino como un caminante.",
+  "temas": [
+   "libertad",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "§ 638",
+  "url": "https://www.gutenberg.org/cache/epub/7207/pg7207.txt",
+  "verificada": true
+ }
+]

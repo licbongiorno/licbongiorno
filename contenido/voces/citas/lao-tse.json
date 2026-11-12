@@ -1,0 +1,803 @@
+[
+ {
+  "id": "lao-tse-001",
+  "fuente": "laotse-legge",
+  "original": "The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.",
+  "traduccion": "El Tao que puede recorrerse no es el Tao permanente e inmutable. El nombre que puede nombrarse no es el nombre permanente e inmutable.",
+  "temas": [
+   "trascendencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 1",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-002",
+  "fuente": "laotse-legge",
+  "original": "All in the world know the beauty of the beautiful, and in doing this they have (the idea of) what ugliness is",
+  "traduccion": "Todos en el mundo conocen la belleza de lo bello, y al hacerlo ya tienen la idea de lo feo.",
+  "temas": [
+   "conocimiento",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-003",
+  "fuente": "laotse-legge",
+  "original": "We should blunt our sharp points, and unravel the complications of things",
+  "traduccion": "Deberíamos limar nuestras aristas y desenredar las complicaciones de las cosas.",
+  "temas": [
+   "aceptacion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-004",
+  "fuente": "laotse-legge",
+  "original": "Therefore the sage puts his own person last, and yet it is found in the foremost place",
+  "traduccion": "Por eso el sabio se pone en último lugar, y sin embargo se encuentra en el primero.",
+  "temas": [
+   "poder",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 7",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-005",
+  "fuente": "laotse-legge",
+  "original": "The highest excellence is like (that of) water.",
+  "traduccion": "La excelencia más alta es como la del agua.",
+  "temas": [
+   "naturaleza",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 8",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-006",
+  "fuente": "laotse-legge",
+  "original": "The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike.",
+  "traduccion": "La excelencia del agua está en que beneficia a todas las cosas y ocupa, sin disputar, el lugar bajo que todos desprecian.",
+  "temas": [
+   "naturaleza",
+   "compasion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 8",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-007",
+  "fuente": "laotse-legge",
+  "original": "that of the mind is in abysmal stillness",
+  "traduccion": "La excelencia de la mente está en su quietud profunda.",
+  "temas": [
+   "silencio",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 8",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-008",
+  "fuente": "laotse-legge",
+  "original": "It is better to leave a vessel unfilled, than to attempt to carry it when it is full.",
+  "traduccion": "Es mejor dejar una vasija sin llenar que intentar llevarla cuando está colmada.",
+  "temas": [
+   "deseo",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 9",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-009",
+  "fuente": "laotse-legge",
+  "original": "When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven.",
+  "traduccion": "Cuando la obra está hecha y el nombre empieza a destacarse, retirarse a la sombra es el camino del cielo.",
+  "temas": [
+   "trabajo",
+   "poder"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 9",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-010",
+  "fuente": "laotse-legge",
+  "original": "The thirty spokes unite in the one nave; but it is on the empty space (for the axle), that the use of the wheel depends.",
+  "traduccion": "Los treinta rayos se unen en un solo cubo; pero del espacio vacío depende la utilidad de la rueda.",
+  "temas": [
+   "silencio",
+   "existencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 10",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-011",
+  "fuente": "laotse-legge",
+  "original": "When things (in the vegetable world) have displayed their luxuriant growth, we see each of them return to its root.",
+  "traduccion": "Cuando las plantas despliegan su crecimiento exuberante, vemos a cada una volver a su raíz.",
+  "temas": [
+   "naturaleza",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 16",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-012",
+  "fuente": "laotse-legge",
+  "original": "This returning to their root is what we call the state of stillness",
+  "traduccion": "Este volver a la raíz es lo que llamamos quietud.",
+  "temas": [
+   "silencio",
+   "presencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 16",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-013",
+  "fuente": "laotse-legge",
+  "original": "The partial becomes complete; the crooked, straight; the empty, full; the worn out, new.",
+  "traduccion": "Lo parcial se vuelve completo; lo torcido, recto; lo vacío, lleno; lo gastado, nuevo.",
+  "temas": [
+   "cambio",
+   "esperanza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 22",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-014",
+  "fuente": "laotse-legge",
+  "original": "He is free from self-display, and therefore he shines",
+  "traduccion": "No se exhibe, y por eso brilla.",
+  "temas": [
+   "autenticidad",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 22",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-015",
+  "fuente": "laotse-legge",
+  "original": "A violent wind does not last for a whole morning; a sudden rain does not last for the whole day.",
+  "traduccion": "Un viento violento no dura toda la mañana; un aguacero repentino no dura todo el día.",
+  "temas": [
+   "cambio",
+   "regulacion-emocional",
+   "naturaleza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 23",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-016",
+  "fuente": "laotse-legge",
+  "original": "He who stands on his tiptoes does not stand firm; he who stretches his legs does not walk (easily).",
+  "traduccion": "Quien se pone en puntas de pie no está firme; quien estira las piernas no camina con soltura.",
+  "temas": [
+   "autenticidad",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 23",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-017",
+  "fuente": "laotse-legge",
+  "original": "Gravity is the root of lightness; stillness, the ruler of movement.",
+  "traduccion": "La gravedad es la raíz de la ligereza; la quietud, la que gobierna el movimiento.",
+  "temas": [
+   "silencio",
+   "presencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 26",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-018",
+  "fuente": "laotse-legge",
+  "original": "The skilful traveller leaves no traces of his wheels or footsteps",
+  "traduccion": "El buen viajero no deja huellas de sus ruedas ni de sus pasos.",
+  "temas": [
+   "presencia",
+   "naturaleza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 27",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-019",
+  "fuente": "laotse-legge",
+  "original": "He who knows other men is discerning; he who knows himself is intelligent. He who overcomes others is strong; he who overcomes himself is mighty.",
+  "traduccion": "Quien conoce a los demás es perspicaz; quien se conoce a sí mismo es sabio. Quien vence a otros es fuerte; quien se vence a sí mismo es poderoso.",
+  "temas": [
+   "autoconocimiento",
+   "poder"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 33",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-020",
+  "fuente": "laotse-legge",
+  "original": "He who is satisfied with his lot is rich",
+  "traduccion": "Quien está conforme con lo que tiene es rico.",
+  "temas": [
+   "felicidad",
+   "deseo",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 33",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-021",
+  "fuente": "laotse-legge",
+  "original": "The soft overcomes the hard; and the weak the strong.",
+  "traduccion": "Lo blando vence a lo duro; lo débil, a lo fuerte.",
+  "temas": [
+   "resiliencia",
+   "naturaleza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 36",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-022",
+  "fuente": "laotse-legge",
+  "original": "The movement of the Tao By contraries proceeds",
+  "traduccion": "El movimiento del Tao procede por contrarios.",
+  "temas": [
+   "cambio",
+   "trascendencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 40",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-023",
+  "fuente": "laotse-legge",
+  "original": "The softest thing in the world dashes against and overcomes the hardest",
+  "traduccion": "Lo más blando del mundo choca contra lo más duro y lo vence.",
+  "temas": [
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 43",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-024",
+  "fuente": "laotse-legge",
+  "original": "Who is content Needs fear no shame. Who knows to stop Incurs no blame.",
+  "traduccion": "Quien está contento no teme la vergüenza. Quien sabe detenerse no incurre en culpa.",
+  "temas": [
+   "aceptacion",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 44",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-025",
+  "fuente": "laotse-legge",
+  "original": "There is no guilt greater than to sanction ambition; no calamity greater than to be discontented with one's lot; no fault greater than the wish to be getting.",
+  "traduccion": "No hay culpa mayor que consentir la ambición, ni calamidad mayor que no estar conforme con lo que uno tiene, ni falta mayor que el deseo de obtener.",
+  "temas": [
+   "deseo",
+   "felicidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 46",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-026",
+  "fuente": "laotse-legge",
+  "original": "Therefore the sufficiency of contentment is an enduring and unchanging sufficiency.",
+  "traduccion": "Por eso la suficiencia del contento es una suficiencia duradera e inmutable.",
+  "temas": [
+   "felicidad",
+   "aceptacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 46",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-027",
+  "fuente": "laotse-legge",
+  "original": "The farther that one goes out (from himself), the less he knows.",
+  "traduccion": "Cuanto más lejos va uno, fuera de sí, menos sabe.",
+  "temas": [
+   "autoconocimiento",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 47",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-028",
+  "fuente": "laotse-legge",
+  "original": "He who devotes himself to learning (seeks) from day to day to increase (his knowledge); he who devotes himself to the Tao (seeks) from day to day to diminish (his doing).",
+  "traduccion": "Quien se dedica al estudio busca aumentar cada día su saber; quien se dedica al Tao busca disminuir cada día su hacer.",
+  "temas": [
+   "conocimiento",
+   "trascendencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 48",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-029",
+  "fuente": "laotse-legge",
+  "original": "To those who are good (to me), I am good; and to those who are not good (to me), I am also good;--and thus (all) get to be good.",
+  "traduccion": "Con quienes son buenos conmigo soy bueno; con quienes no lo son, también soy bueno: y así todos llegan a ser buenos.",
+  "temas": [
+   "compasion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 49",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-030",
+  "fuente": "laotse-legge",
+  "original": "He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.",
+  "traduccion": "Quien conoce el Tao no se preocupa por hablar de él; quien siempre está dispuesto a hablar de él no lo conoce.",
+  "temas": [
+   "silencio",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 56",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-031",
+  "fuente": "laotse-legge",
+  "original": "Misery!--happiness is to be found by its side! Happiness!--misery lurks beneath it! Who knows what either will come to in the end?",
+  "traduccion": "¡La desdicha! A su lado se encuentra la dicha. ¡La dicha! Debajo acecha la desdicha. ¿Quién sabe en qué terminará cada una?",
+  "temas": [
+   "felicidad",
+   "sufrimiento",
+   "incertidumbre"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 58",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-032",
+  "fuente": "laotse-legge",
+  "original": "there is nothing like moderation",
+  "traduccion": "No hay nada como la moderación.",
+  "temas": [
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 59",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-033",
+  "fuente": "laotse-legge",
+  "original": "Governing a great state is like cooking small fish.",
+  "traduccion": "Gobernar un gran Estado es como cocinar pescados pequeños.",
+  "temas": [
+   "poder",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "nota": "Se suele leer como una advertencia contra la intervención excesiva: si se los revuelve demasiado, se deshacen.",
+  "ubicacion": "Capítulo 60",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-034",
+  "fuente": "laotse-legge",
+  "original": "and to recompense injury with kindness",
+  "traduccion": "Y responder a la ofensa con bondad.",
+  "temas": [
+   "compasion",
+   "ira"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 63",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-035",
+  "fuente": "laotse-legge",
+  "original": "The tree which fills the arms grew from the tiniest sprout; the tower of nine storeys rose from a (small) heap of earth; the journey of a thousand li commenced with a single step.",
+  "traduccion": "El árbol que llena los brazos nació de un brote diminuto; la torre de nueve pisos se levantó de un montón de tierra; el viaje de mil li empezó con un solo paso.",
+  "temas": [
+   "cambio",
+   "habitos",
+   "esperanza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 64",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-036",
+  "fuente": "laotse-legge",
+  "original": "Action should be taken before a thing has made its appearance; order should be secured before disorder has begun.",
+  "traduccion": "Hay que actuar antes de que algo aparezca; hay que poner orden antes de que empiece el desorden.",
+  "temas": [
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 64",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-037",
+  "fuente": "laotse-legge",
+  "original": "That whereby the rivers and seas are able to receive the homage and tribute of all the valley streams, is their skill in being lower than they",
+  "traduccion": "Los ríos y los mares reciben el tributo de todos los arroyos del valle porque saben estar más abajo que ellos.",
+  "temas": [
+   "poder",
+   "naturaleza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 66",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-038",
+  "fuente": "laotse-legge",
+  "original": "But I have three precious things which I prize and hold fast. The first is gentleness; the second is economy; and the third is shrinking from taking precedence of others.",
+  "traduccion": "Tengo tres tesoros que aprecio y conservo: el primero es la bondad; el segundo, la sobriedad; el tercero, no querer ponerme por delante de los demás.",
+  "temas": [
+   "compasion",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 67",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-039",
+  "fuente": "laotse-legge",
+  "original": "With that gentleness I can be bold",
+  "traduccion": "Con esa bondad puedo ser valiente.",
+  "temas": [
+   "compasion",
+   "miedo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 67",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-040",
+  "fuente": "laotse-legge",
+  "original": "To know and yet (think) we do not know is the highest (attainment); not to know (and yet think) we do know is a disease.",
+  "traduccion": "Saber y pensar que no sabemos es lo más alto; no saber y creer que sabemos es una enfermedad.",
+  "temas": [
+   "conocimiento",
+   "autoconocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 71",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-041",
+  "fuente": "laotse-legge",
+  "original": "Man at his birth is supple and weak; at his death, firm and strong.",
+  "traduccion": "Al nacer, el ser humano es flexible y débil; al morir, rígido y duro.",
+  "temas": [
+   "muerte",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 76",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-042",
+  "fuente": "laotse-legge",
+  "original": "Thus it is that firmness and strength are the concomitants of death; softness and weakness, the concomitants of life.",
+  "traduccion": "Así, la rigidez y la dureza acompañan a la muerte; la flexibilidad y la suavidad acompañan a la vida.",
+  "temas": [
+   "resiliencia",
+   "muerte"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 76",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-043",
+  "fuente": "laotse-legge",
+  "original": "There is nothing in the world more soft and weak than water, and yet for attacking things that are firm and strong there is nothing that can take precedence of it",
+  "traduccion": "No hay nada en el mundo más blando y débil que el agua, y sin embargo, para vencer lo firme y lo fuerte, nada la supera.",
+  "temas": [
+   "resiliencia",
+   "naturaleza"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 78",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-044",
+  "fuente": "laotse-legge",
+  "original": "Every one in the world knows that the soft overcomes the hard, and the weak the strong, but no one is able to carry it out in practice.",
+  "traduccion": "Todos en el mundo saben que lo blando vence a lo duro y lo débil a lo fuerte, pero nadie es capaz de llevarlo a la práctica.",
+  "temas": [
+   "conocimiento",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 78",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-045",
+  "fuente": "laotse-legge",
+  "original": "When a reconciliation is effected (between two parties) after a great animosity, there is sure to be a grudge remaining",
+  "traduccion": "Cuando dos partes se reconcilian después de una gran enemistad, siempre queda algún rencor.",
+  "temas": [
+   "vinculos",
+   "ira"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 79",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-046",
+  "fuente": "laotse-legge",
+  "original": "Sincere words are not fine; fine words are not sincere.",
+  "traduccion": "Las palabras sinceras no son bellas; las palabras bellas no son sinceras.",
+  "temas": [
+   "autenticidad",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 81",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-047",
+  "fuente": "laotse-legge",
+  "original": "The more that he expends for others, the more does he possess of his own",
+  "traduccion": "Cuanto más da a los demás, más posee.",
+  "temas": [
+   "compasion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 81",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-048",
+  "fuente": "laotse-legge",
+  "original": "My words are very easy to know, and very easy to practise; but there is no one in the world who is able to know and able to practise them.",
+  "traduccion": "Mis palabras son muy fáciles de entender y muy fáciles de practicar; pero nadie en el mundo es capaz de entenderlas y practicarlas.",
+  "temas": [
+   "conocimiento",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 70",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-049",
+  "fuente": "laotse-legge",
+  "original": "Purity and stillness give the correct law to all under heaven.",
+  "traduccion": "La pureza y la quietud dan la norma justa a todo lo que existe bajo el cielo.",
+  "temas": [
+   "silencio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 45",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-050",
+  "fuente": "laotse-legge",
+  "original": "When one gives undivided attention to the (vital) breath, and brings it to the utmost degree of pliancy, he can become as a (tender) babe.",
+  "traduccion": "Quien presta atención indivisa a la respiración y la vuelve flexible al máximo puede ser como un niño pequeño.",
+  "temas": [
+   "cuerpo",
+   "atencion",
+   "presencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 10",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-051",
+  "fuente": "laotse-legge",
+  "original": "He who has in himself abundantly the attributes (of the Tao) is like an infant.",
+  "traduccion": "Quien tiene en abundancia las virtudes del Tao es como un niño recién nacido.",
+  "temas": [
+   "infancia",
+   "trascendencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "ubicacion": "Capítulo 55",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ },
+ {
+  "id": "lao-tse-052",
+  "fuente": "laotse-legge",
+  "original": "Favour and disgrace would seem equally to be feared",
+  "traduccion": "El favor y la desgracia parecen igualmente temibles.",
+  "temas": [
+   "miedo",
+   "autoestima"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-12",
+  "fragmento": true,
+  "ubicacion": "Capítulo 13",
+  "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+  "verificada": true
+ }
+]
