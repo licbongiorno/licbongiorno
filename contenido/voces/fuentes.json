@@ -477,5 +477,291 @@
     "§ {0}"
    ]
   ]
+ },
+ "platon-republica": {
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "Benjamin Jowett",
+  "edicion": "Trad. inglesa de Benjamin Jowett, en Project Gutenberg",
+  "dominio_publico": "Platón murió c. 347 a. C.; Jowett, en 1893.",
+  "titulo": "The Republic",
+  "titulo_es": "La República",
+  "anio": -380,
+  "anio_texto": "c. 375 a. C.",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1497/pg1497.txt"
+  ],
+  "inicio_texto": 553290,
+  "estricto": true,
+  "localizador": "regex",
+  "patrones": [
+   [
+    "BOOK ([IVX]+)\\.",
+    "Libro {0}"
+   ]
+  ]
+ },
+ "platon-apologia": {
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "Benjamin Jowett",
+  "edicion": "Trad. inglesa de Benjamin Jowett, en Project Gutenberg",
+  "dominio_publico": "Platón murió c. 347 a. C.; Jowett, en 1893.",
+  "titulo": "Apology",
+  "titulo_es": "Apología de Sócrates",
+  "anio": -380,
+  "anio_texto": "c. 399–390 a. C.",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1656/pg1656.txt"
+  ],
+  "inicio_texto": 27444,
+  "estricto": true
+ },
+ "platon-banquete": {
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "Benjamin Jowett",
+  "edicion": "Trad. inglesa de Benjamin Jowett, en Project Gutenberg",
+  "dominio_publico": "Platón murió c. 347 a. C.; Jowett, en 1893.",
+  "titulo": "Symposium",
+  "titulo_es": "El banquete",
+  "anio": -380,
+  "anio_texto": "c. 385–370 a. C.",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1600/pg1600.txt"
+  ],
+  "inicio_texto": 60692,
+  "estricto": true
+ },
+ "platon-fedon": {
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "Benjamin Jowett",
+  "edicion": "Trad. inglesa de Benjamin Jowett, en Project Gutenberg",
+  "dominio_publico": "Platón murió c. 347 a. C.; Jowett, en 1893.",
+  "titulo": "Phaedo",
+  "titulo_es": "Fedón",
+  "anio": -380,
+  "anio_texto": "c. 380 a. C.",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1658/pg1658.txt"
+  ],
+  "inicio_texto": 86993,
+  "estricto": true
+ },
+ "platon-fedro": {
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "Benjamin Jowett",
+  "edicion": "Trad. inglesa de Benjamin Jowett, en Project Gutenberg",
+  "dominio_publico": "Platón murió c. 347 a. C.; Jowett, en 1893.",
+  "titulo": "Phaedrus",
+  "titulo_es": "Fedro",
+  "anio": -380,
+  "anio_texto": "c. 370 a. C.",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1636/pg1636.txt"
+  ],
+  "inicio_texto": 86623,
+  "estricto": true
+ },
+ "platon-criton": {
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "Benjamin Jowett",
+  "edicion": "Trad. inglesa de Benjamin Jowett, en Project Gutenberg",
+  "dominio_publico": "Platón murió c. 347 a. C.; Jowett, en 1893.",
+  "titulo": "Crito",
+  "titulo_es": "Critón",
+  "anio": -380,
+  "anio_texto": "c. 399–390 a. C.",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1657/pg1657.txt"
+  ],
+  "inicio_texto": 7676,
+  "estricto": true
+ },
+ "platon-menon": {
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "Benjamin Jowett",
+  "edicion": "Trad. inglesa de Benjamin Jowett, en Project Gutenberg",
+  "dominio_publico": "Platón murió c. 347 a. C.; Jowett, en 1893.",
+  "titulo": "Meno",
+  "titulo_es": "Menón",
+  "anio": -380,
+  "anio_texto": "c. 385 a. C.",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1643/pg1643.txt"
+  ],
+  "inicio_texto": 54633,
+  "estricto": true
+ },
+ "platon-teeteto": {
+  "idioma": "en",
+  "idioma_original": "grc",
+  "traductor": "Benjamin Jowett",
+  "edicion": "Trad. inglesa de Benjamin Jowett, en Project Gutenberg",
+  "dominio_publico": "Platón murió c. 347 a. C.; Jowett, en 1893.",
+  "titulo": "Theaetetus",
+  "titulo_es": "Teeteto",
+  "anio": -380,
+  "anio_texto": "c. 369 a. C.",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/1726/pg1726.txt"
+  ],
+  "inicio_texto": 196717,
+  "estricto": true
+ },
+ "spinoza-etica": {
+  "titulo": "Ethics (Ethica ordine geometrico demonstrata)",
+  "titulo_es": "Ética demostrada según el orden geométrico",
+  "anio": 1677,
+  "idioma": "en",
+  "idioma_original": "la",
+  "traductor": "R. H. M. Elwes (1883)",
+  "edicion": "Trad. inglesa de R. H. M. Elwes, en Project Gutenberg",
+  "urls": [
+   "https://www.gutenberg.org/cache/epub/3800/pg3800.txt"
+  ],
+  "dominio_publico": "Spinoza murió en 1677; Elwes, a comienzos del siglo XX.",
+  "localizador": "regex",
+  "inicio_texto": 1009,
+  "patrones": [
+   [
+    "PART ([IVX]+)[.:]",
+    "Parte {0}"
+   ]
+  ]
+ },
+ "schopenhauer-aforismos": {
+  "titulo": "Aphorismen zur Lebensweisheit",
+  "titulo_es": "Aforismos sobre el arte de vivir",
+  "anio": 1851,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/arthur-schopenhauer/books/aphorismen",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Schopenhauer murió en 1860."
+ },
+ "schopenhauer-mundo-1": {
+  "titulo": "Die Welt als Wille und Vorstellung, Band I",
+  "titulo_es": "El mundo como voluntad y representación, vol. 1",
+  "anio": 1819,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/arthur-schopenhauer/books/die-welt-als-wille-und-vorstellung-band-i",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Schopenhauer murió en 1860."
+ },
+ "schopenhauer-mundo-2": {
+  "titulo": "Die Welt als Wille und Vorstellung, Band II",
+  "titulo_es": "El mundo como voluntad y representación, vol. 2",
+  "anio": 1844,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/arthur-schopenhauer/books/die-welt-als-wille-und-vorstellung-zweiter-band",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Schopenhauer murió en 1860."
+ },
+ "schopenhauer-erizos": {
+  "titulo": "Die Stachelschweine (Parerga und Paralipomena II)",
+  "titulo_es": "Los puercoespines (Parerga y Paralipómena)",
+  "anio": 1851,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/arthur-schopenhauer/books/die-stachelschweine",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Schopenhauer murió en 1860."
+ },
+ "kant-ilustracion": {
+  "titulo": "Beantwortung der Frage: Was ist Aufklärung?",
+  "titulo_es": "Respuesta a la pregunta: ¿qué es la Ilustración?",
+  "anio": 1784,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
+ },
+ "kant-grundlegung": {
+  "titulo": "Grundlegung zur Metaphysik der Sitten",
+  "titulo_es": "Fundamentación de la metafísica de las costumbres",
+  "anio": 1785,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
+ },
+ "kant-practica": {
+  "titulo": "Kritik der praktischen Vernunft",
+  "titulo_es": "Crítica de la razón práctica",
+  "anio": 1788,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/kritik-der-praktischen-vernunft",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
+ },
+ "kant-orientarse": {
+  "titulo": "Was heißt: Sich im Denken orientieren?",
+  "titulo_es": "¿Qué significa orientarse en el pensamiento?",
+  "anio": 1786,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/was-heisst-sich-im-denken-orientieren",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
+ },
+ "kant-paz": {
+  "titulo": "Zum ewigen Frieden",
+  "titulo_es": "Sobre la paz perpetua",
+  "anio": 1795,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/zum-ewigen-frieden",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
+ },
+ "kant-bello": {
+  "titulo": "Beobachtungen über das Gefühl des Schönen und Erhabenen",
+  "titulo_es": "Observaciones sobre el sentimiento de lo bello y lo sublime",
+  "anio": 1764,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
+ },
+ "kant-metafisica-costumbres": {
+  "titulo": "Die Metaphysik der Sitten",
+  "titulo_es": "La metafísica de las costumbres",
+  "anio": 1797,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/die-metaphysik-der-sitten",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
+ },
+ "kant-idea": {
+  "titulo": "Idee zu einer allgemeinen Geschichte in weltbürgerlicher Absicht",
+  "titulo_es": "Idea de una historia universal en sentido cosmopolita",
+  "anio": 1784,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-idee-zu-einer-allgemeinen-geschichte-in-weltbuergerlicher-absicht",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
+ },
+ "kant-facultades": {
+  "titulo": "Der Streit der Fakultäten",
+  "titulo_es": "El conflicto de las facultades",
+  "anio": 1798,
+  "idioma": "de",
+  "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten",
+  "capitulos": "auto",
+  "edicion": "Texto alemán en Projekt Gutenberg-DE",
+  "dominio_publico": "Kant murió en 1804."
  }
 }

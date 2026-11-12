@@ -21,6 +21,7 @@ RUTA_AUTORES = RUTA + "autores/"
 RUTA_TEMAS = RUTA + "temas/"
 MIN_TEMA_CITAS, MIN_TEMA_AUTORES = 8, 3  # una página de tema solo existe si tiene contenido suficiente y miradas distintas
 IDIOMAS = {"la": "latín", "de": "alemán", "en": "inglés", "grc": "griego", "fr": "francés", "it": "italiano", "es": "castellano", "zh": "chino", "pi": "pali"}
+VERSION_DE = {"en": "inglesa", "de": "alemana", "fr": "francesa", "la": "latina", "es": "castellana", "it": "italiana"}
 EPOCAS = {"clasico": "Clásicos", "moderno": "Modernos", "contemporaneo": "Contemporáneos"}
 # Enlaces discretos desde los temas hacia laboratorios y recursos del sitio.
 TEMA_ENLACES = {
@@ -121,7 +122,7 @@ def atribucion(c, a):
 
 def nota_traduccion(c):
     if c["idioma"] != c["idioma_obra"]:
-        return f"Traducción propia de Lo que te habita, a partir de la versión {IDIOMAS.get(c['idioma'], c['idioma'])} de {c['traductor']}; original en {IDIOMAS.get(c['idioma_obra'], c['idioma_obra'])}."
+        return f"Traducción propia de Lo que te habita, a partir de la versión {VERSION_DE.get(c['idioma'], c['idioma'])} de {c['traductor']}; original en {IDIOMAS.get(c['idioma_obra'], c['idioma_obra'])}."
     return f"Traducción propia de Lo que te habita; original en {IDIOMAS.get(c['idioma'], c['idioma'])}."
 
 
@@ -138,11 +139,11 @@ def cita_html(B, V, c, con_autor=True, nivel="h3"):
     return f'''<figure class="vo-cita" id="cita-{c["id"]}" data-vo-cita="{c["id"]}" data-temas="{" ".join(c["temas"])}" data-fuente="{c["fuente"]}">
   <blockquote><p>«{esc(_comillas(c["traduccion"]))}»</p></blockquote>
   <figcaption class="vo-cita__pie">— {nombre_autor}, <cite>{esc(c["obra"])}</cite> ({esc(c["anio"])}){ubic}</figcaption>
+  {nota}
   <details class="vo-cita__original"><summary>Texto original y fuente</summary>
     <p lang="{c["idioma"]}">«{esc(_comillas(c["original"]))}»{frag}</p>
     <p class="vo-cita__fuente"><cite lang="{c["idioma"]}">{esc(c["obra_original"])}</cite>{ubic}. {esc(c["edicion"])}. <a href="{esc(c["url"])}" target="_blank" rel="noopener nofollow">Ver la fuente</a></p>
     <p class="vo-cita__tipo">{esc(nota_traduccion(c))} Cita textual verificada en la fuente.</p>
-    {nota}
   </details>
   <ul class="vo-temas" aria-label="Temas">{temas}</ul>
   <div class="vo-acciones" data-vo-acciones></div>

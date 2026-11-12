@@ -432,8 +432,38 @@
   },
   {
    "slug": "platon",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Platón",
+   "nombre_completo": "Platón (Aristocles de Atenas)",
+   "nacimiento": "c. 428/427 a. C., Atenas",
+   "muerte": "c. 348/347 a. C., Atenas",
+   "epoca": "clasico",
+   "nacionalidad": "Griego",
+   "disciplinas": [
+    "Filosofía"
+   ],
+   "corriente": "Platonismo",
+   "bio": "Discípulo de Sócrates y maestro de Aristóteles, fundó en Atenas la Academia. Escribió diálogos en los que Sócrates conversa con sus contemporáneos sobre la justicia, el amor, el conocimiento, la muerte y el alma. Su obra es una de las bases de toda la filosofía occidental.",
+   "aportes": [
+    "El diálogo y la pregunta como camino hacia el conocimiento (mayéutica)",
+    "La teoría de las Ideas y la alegoría de la caverna",
+    "Una psicología del alma en tres partes: razón, ánimo y deseo",
+    "El Eros como fuerza que impulsa hacia lo bello y lo verdadero"
+   ],
+   "obras": [
+    "Apología de Sócrates",
+    "Critón",
+    "Menón",
+    "Fedón",
+    "El banquete",
+    "La República",
+    "Fedro",
+    "Teeteto"
+   ],
+   "relacion": "Freud comparó su Eros con el Eros platónico, y la imagen del alma como un auriga que conduce dos caballos anticipa la idea de conflicto psíquico. El diálogo socrático es una herramienta central de la terapia cognitiva.",
+   "nota_citas": "Platón escribió en griego. Citamos la traducción inglesa de Benjamin Jowett, de dominio público, y ofrecemos una traducción propia al castellano hecha a partir de ella. En los diálogos hablan personajes: cada cita indica quién la dice. Solo publicamos pasajes que figuran en el diálogo, nunca en las introducciones de Jowett, que a veces los parafrasean."
   },
   {
    "slug": "aristoteles",
@@ -472,13 +502,66 @@
   },
   {
    "slug": "baruch-spinoza",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Baruch Spinoza",
+   "nombre_completo": "Baruch (Benedictus) de Spinoza",
+   "nacimiento": "24 de noviembre de 1632, Ámsterdam",
+   "muerte": "21 de febrero de 1677, La Haya",
+   "epoca": "moderno",
+   "nacionalidad": "Neerlandés, de familia sefardí portuguesa",
+   "disciplinas": [
+    "Filosofía"
+   ],
+   "corriente": "Racionalismo",
+   "bio": "Expulsado de la comunidad judía de Ámsterdam a los 23 años por sus ideas, vivió con sencillez puliendo lentes. Su Ética, publicada después de su muerte, expone en forma geométrica una filosofía de Dios o la Naturaleza, de los afectos y de la libertad humana.",
+   "aportes": [
+    "Una teoría de los afectos: alegría, tristeza y deseo como emociones básicas",
+    "El conatus: el esfuerzo de cada ser por perseverar en su ser",
+    "La libertad como comprensión de las causas que nos mueven",
+    "La idea de que comprender una emoción transforma su efecto sobre nosotros"
+   ],
+   "obras": [
+    "Tratado teológico-político (1670)",
+    "Ética demostrada según el orden geométrico (1677)",
+    "Tratado político (1677)"
+   ],
+   "relacion": "Antonio Damasio dedicó un libro a Spinoza como precursor de la neurociencia de las emociones. Su idea de que un afecto deja de ser pasión cuando lo comprendemos anticipa el valor terapéutico de poner en palabras lo que sentimos.",
+   "nota_citas": "La Ética está escrita en latín. Citamos la traducción inglesa de R. H. M. Elwes, de dominio público, y ofrecemos una traducción propia al castellano hecha a partir de ella. En Elwes, «pleasure» y «pain» traducen laetitia y tristitia: las vertimos como alegría y tristeza."
   },
   {
    "slug": "immanuel-kant",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Immanuel Kant",
+   "nombre_completo": "Immanuel Kant",
+   "nacimiento": "22 de abril de 1724, Königsberg",
+   "muerte": "12 de febrero de 1804, Königsberg",
+   "epoca": "moderno",
+   "nacionalidad": "Prusiano",
+   "disciplinas": [
+    "Filosofía"
+   ],
+   "corriente": "Idealismo trascendental e Ilustración",
+   "bio": "Vivió toda su vida en Königsberg, donde enseñó durante décadas. Sus tres Críticas transformaron la filosofía: investigó los límites del conocimiento, fundó la ética en la autonomía de la voluntad y pensó la belleza y lo sublime. También escribió sobre la Ilustración, la paz entre los pueblos y la salud del ánimo.",
+   "aportes": [
+    "La autonomía y la dignidad de la persona como fin en sí misma",
+    "El imperativo categórico",
+    "La Ilustración como salida de la minoría de edad",
+    "La reflexión sobre lo bello y lo sublime"
+   ],
+   "obras": [
+    "Observaciones sobre el sentimiento de lo bello y lo sublime (1764)",
+    "¿Qué es la Ilustración? (1784)",
+    "Fundamentación de la metafísica de las costumbres (1785)",
+    "Crítica de la razón práctica (1788)",
+    "Sobre la paz perpetua (1795)",
+    "El conflicto de las facultades (1798)"
+   ],
+   "relacion": "Kant dudaba de que la psicología pudiera ser una ciencia, pero su idea de que la mente organiza la experiencia influyó en la psicología de la Gestalt, en Piaget y en el constructivismo. Su ensayo sobre la hipocondría describe cómo él mismo aprendió a no quedar atrapado en sus temores.",
+   "nota_citas": "Textos alemanes en Projekt Gutenberg-DE, con la ortografía de cada edición. Las traducciones son propias de Lo que te habita. Sobre el ensayo de la hipocondría: Kant confía en la fuerza de la voluntad; hoy sabemos que muchos malestares psíquicos requieren además acompañamiento profesional."
   },
   {
    "slug": "hegel",
@@ -487,8 +570,32 @@
   },
   {
    "slug": "arthur-schopenhauer",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Arthur Schopenhauer",
+   "nombre_completo": "Arthur Schopenhauer",
+   "nacimiento": "22 de febrero de 1788, Danzig",
+   "muerte": "21 de septiembre de 1860, Fráncfort del Meno",
+   "epoca": "moderno",
+   "nacionalidad": "Alemán",
+   "disciplinas": [
+    "Filosofía"
+   ],
+   "corriente": "Pesimismo filosófico",
+   "bio": "Filósofo alemán, autor de El mundo como voluntad y representación. Sostuvo que en el fondo de todo actúa una voluntad ciega e insaciable, fuente del sufrimiento, y buscó alivio en el arte, la compasión y la renuncia. El reconocimiento le llegó tarde, gracias sobre todo a sus Aforismos sobre el arte de vivir.",
+   "aportes": [
+    "La voluntad como fuerza inconsciente que mueve a los seres humanos",
+    "El sufrimiento y el aburrimiento como polos de la existencia",
+    "Una ética de la compasión",
+    "Consejos prácticos sobre la felicidad, la soledad y la opinión ajena"
+   ],
+   "obras": [
+    "El mundo como voluntad y representación (1819)",
+    "Parerga y Paralipómena (1851), que incluye los Aforismos sobre el arte de vivir"
+   ],
+   "relacion": "Freud reconoció que Schopenhauer había anticipado ideas como la represión y el peso de la sexualidad. Influyó en Nietzsche, en Jung y en la psicología existencial.",
+   "nota_citas": "Textos alemanes en Projekt Gutenberg-DE. Las traducciones son propias de Lo que te habita. Elegimos pasajes sobre la vida cotidiana; dejamos fuera los ensayos en los que expresa prejuicios de su época."
   },
   {
    "slug": "soren-kierkegaard",
@@ -728,6 +835,26 @@
    "autor": "Buda",
    "frase": "Somos lo que pensamos (versiones abreviadas sin fuente)",
    "motivo": "Se publica el verso 1 del Dhammapada completo, en la traducción de Max Müller; las versiones abreviadas que circulan no son literales."
+  },
+  {
+   "autor": "Platón",
+   "frase": "«Hasta que los filósofos sean reyes… las ciudades no cesarán de sufrir males» (versión de la introducción de Jowett)",
+   "motivo": "Es la paráfrasis de Jowett en su introducción; publicamos el texto del diálogo (Libro V)."
+  },
+  {
+   "autor": "Platón",
+   "frase": "«Conócete a ti mismo»",
+   "motivo": "Es la inscripción del templo de Delfos, que Sócrates cita; no es una frase de Platón."
+  },
+  {
+   "autor": "Platón",
+   "frase": "«Solo los muertos han visto el fin de la guerra»",
+   "motivo": "Atribución falsa muy difundida; no figura en la obra de Platón."
+  },
+  {
+   "autor": "Immanuel Kant",
+   "frase": "Pasajes de las Observaciones sobre lo bello y lo sublime sobre mujeres y pueblos",
+   "motivo": "Excluidos: expresan prejuicios de su época y no aportan a esta biblioteca."
   }
  ]
 }

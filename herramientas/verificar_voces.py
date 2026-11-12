@@ -136,7 +136,12 @@ def buscar(fid, original):
         return None
     # Si la frase aparece también en una introducción, preferir la del cuerpo del texto.
     inicio = FUENTES[fid].get("inicio_texto", 0)
-    elegidos = [c for c in candidatos if pos[c] >= inicio] or candidatos
+    elegidos = [c for c in candidatos if pos[c] >= inicio]
+    if not elegidos:
+        # "estricto": la fuente trae un prólogo del traductor que parafrasea la obra; ahí no vale.
+        if FUENTES[fid].get("estricto"):
+            return None
+        elegidos = candidatos
     return pos[elegidos[0]], len(candidatos)
 
 

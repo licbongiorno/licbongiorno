@@ -10,7 +10,11 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
 | Marco Aurelio | 50 | 50 | 1 | completo (≥ 50) |
 | Sigmund Freud | 50 | 50 | 8 | completo (≥ 50) |
 | William James | 51 | 51 | 6 | completo (≥ 50) |
+| Platón | 53 | 53 | 8 | completo (≥ 50) |
 | Epicteto | 53 | 53 | 2 | completo (≥ 50) |
+| Baruch Spinoza | 51 | 51 | 1 | completo (≥ 50) |
+| Immanuel Kant | 51 | 51 | 8 | completo (≥ 50) |
+| Arthur Schopenhauer | 51 | 51 | 1 | completo (≥ 50) |
 | Friedrich Nietzsche | 52 | 52 | 5 | completo (≥ 50) |
 | Buda | 52 | 52 | 1 | completo (≥ 50) |
 | Lao-tse | 52 | 52 | 1 | completo (≥ 50) |
@@ -35,6 +39,10 @@ Ninguna.
 - **Séneca** — «Pasajes sobre el suicidio (Cartas 70, 77)»: Excluidos por criterio de cuidado: aislados de su contexto pueden leerse como una invitación.
 - **Friedrich Nietzsche** — «Y aquellos que fueron vistos bailando fueron considerados locos por quienes no podían escuchar la música»: No aparece en la obra de Nietzsche. Atribución falsa muy difundida.
 - **Buda** — «Somos lo que pensamos (versiones abreviadas sin fuente)»: Se publica el verso 1 del Dhammapada completo, en la traducción de Max Müller; las versiones abreviadas que circulan no son literales.
+- **Platón** — ««Hasta que los filósofos sean reyes… las ciudades no cesarán de sufrir males» (versión de la introducción de Jowett)»: Es la paráfrasis de Jowett en su introducción; publicamos el texto del diálogo (Libro V).
+- **Platón** — ««Conócete a ti mismo»»: Es la inscripción del templo de Delfos, que Sócrates cita; no es una frase de Platón.
+- **Platón** — ««Solo los muertos han visto el fin de la guerra»»: Atribución falsa muy difundida; no figura en la obra de Platón.
+- **Immanuel Kant** — «Pasajes de las Observaciones sobre lo bello y lo sublime sobre mujeres y pueblos»: Excluidos: expresan prejuicios de su época y no aportan a esta biblioteca.
 
 ## Autores del sitio pendientes
 
@@ -98,12 +106,8 @@ Ninguna.
 | Langer | 1910–1987 | Obra protegida por derechos de autor hasta el 2058 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Binswanger | 1881–1966 | Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Laing | 1927–1989 | Obra protegida por derechos de autor hasta el 2060 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Platón | c. 428–348 a. C. | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Aristóteles | 384–322 a. C. | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Spinoza | 1632–1677 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Kant | 1724–1804 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Hegel | 1770–1831 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
-| Schopenhauer | 1788–1860 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Kierkegaard | 1813–1855 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Buber | 1878–1965 | Obra protegida por derechos de autor hasta el 2036 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Descartes | 1596–1650 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
@@ -151,3 +155,25 @@ Ninguna.
 - `nietzsche-menschliches` — *Menschliches, Allzumenschliches* (1878), Texto alemán en Project Gutenberg <https://www.gutenberg.org/cache/epub/7207/pg7207.txt> — Nietzsche murió en 1900.
 - `epicteto-disertaciones` — *A Selection from the Discourses of Epictetus* (1890), Trad. inglesa de George Long, en Project Gutenberg <https://www.gutenberg.org/cache/epub/10661/pg10661.txt> — Epicteto murió c. 135; Long, en 1879.
 - `epicteto-manual` — *The Encheiridion, or Manual* (1890), Trad. inglesa de George Long, en Project Gutenberg <https://www.gutenberg.org/cache/epub/10661/pg10661.txt> — Epicteto murió c. 135; Long, en 1879.
+- `platon-republica` — *The Republic* (-380), Trad. inglesa de Benjamin Jowett, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1497/pg1497.txt> — Platón murió c. 347 a. C.; Jowett, en 1893.
+- `platon-apologia` — *Apology* (-380), Trad. inglesa de Benjamin Jowett, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1656/pg1656.txt> — Platón murió c. 347 a. C.; Jowett, en 1893.
+- `platon-banquete` — *Symposium* (-380), Trad. inglesa de Benjamin Jowett, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1600/pg1600.txt> — Platón murió c. 347 a. C.; Jowett, en 1893.
+- `platon-fedon` — *Phaedo* (-380), Trad. inglesa de Benjamin Jowett, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1658/pg1658.txt> — Platón murió c. 347 a. C.; Jowett, en 1893.
+- `platon-fedro` — *Phaedrus* (-380), Trad. inglesa de Benjamin Jowett, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1636/pg1636.txt> — Platón murió c. 347 a. C.; Jowett, en 1893.
+- `platon-criton` — *Crito* (-380), Trad. inglesa de Benjamin Jowett, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1657/pg1657.txt> — Platón murió c. 347 a. C.; Jowett, en 1893.
+- `platon-menon` — *Meno* (-380), Trad. inglesa de Benjamin Jowett, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1643/pg1643.txt> — Platón murió c. 347 a. C.; Jowett, en 1893.
+- `platon-teeteto` — *Theaetetus* (-380), Trad. inglesa de Benjamin Jowett, en Project Gutenberg <https://www.gutenberg.org/cache/epub/1726/pg1726.txt> — Platón murió c. 347 a. C.; Jowett, en 1893.
+- `spinoza-etica` — *Ethics (Ethica ordine geometrico demonstrata)* (1677), Trad. inglesa de R. H. M. Elwes, en Project Gutenberg <https://www.gutenberg.org/cache/epub/3800/pg3800.txt> — Spinoza murió en 1677; Elwes, a comienzos del siglo XX.
+- `schopenhauer-aforismos` — *Aphorismen zur Lebensweisheit* (1851), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/arthur-schopenhauer/books/aphorismen> — Schopenhauer murió en 1860.
+- `schopenhauer-mundo-1` — *Die Welt als Wille und Vorstellung, Band I* (1819), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/arthur-schopenhauer/books/die-welt-als-wille-und-vorstellung-band-i> — Schopenhauer murió en 1860.
+- `schopenhauer-mundo-2` — *Die Welt als Wille und Vorstellung, Band II* (1844), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/arthur-schopenhauer/books/die-welt-als-wille-und-vorstellung-zweiter-band> — Schopenhauer murió en 1860.
+- `schopenhauer-erizos` — *Die Stachelschweine (Parerga und Paralipomena II)* (1851), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/arthur-schopenhauer/books/die-stachelschweine> — Schopenhauer murió en 1860.
+- `kant-ilustracion` — *Beantwortung der Frage: Was ist Aufklärung?* (1784), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung> — Kant murió en 1804.
+- `kant-grundlegung` — *Grundlegung zur Metaphysik der Sitten* (1785), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten> — Kant murió en 1804.
+- `kant-practica` — *Kritik der praktischen Vernunft* (1788), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/kritik-der-praktischen-vernunft> — Kant murió en 1804.
+- `kant-orientarse` — *Was heißt: Sich im Denken orientieren?* (1786), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/was-heisst-sich-im-denken-orientieren> — Kant murió en 1804.
+- `kant-paz` — *Zum ewigen Frieden* (1795), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/zum-ewigen-frieden> — Kant murió en 1804.
+- `kant-bello` — *Beobachtungen über das Gefühl des Schönen und Erhabenen* (1764), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen> — Kant murió en 1804.
+- `kant-metafisica-costumbres` — *Die Metaphysik der Sitten* (1797), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/die-metaphysik-der-sitten> — Kant murió en 1804.
+- `kant-idea` — *Idee zu einer allgemeinen Geschichte in weltbürgerlicher Absicht* (1784), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-idee-zu-einer-allgemeinen-geschichte-in-weltbuergerlicher-absicht> — Kant murió en 1804.
+- `kant-facultades` — *Der Streit der Fakultäten* (1798), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten> — Kant murió en 1804.
