@@ -988,6 +988,12 @@
    "slug": "roberto-assagioli",
    "estado": "pendiente",
    "motivo": "Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "otto-rank",
+   "estado": "pendiente",
+   "motivo": "Colección incompleta: 18 citas verificadas de 50 (solo dos libros en inglés de dominio público accesibles). Faltan ediciones de sus obras en alemán. No publicado.",
+   "nombre": "Otto Rank"
   }
  ],
  "descartadas": [

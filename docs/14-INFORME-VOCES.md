@@ -131,6 +131,7 @@ Ninguna.
 | Grof | n. 1931 | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Wilber | n. 1949 | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Assagioli | 1888–1974 | Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
+| Otto Rank | 1884–1939 | Colección incompleta: 18 citas verificadas de 50 (solo dos libros en inglés de dominio público accesibles). Faltan ediciones de sus obras en alemán. No publicado. |
 
 ## Fuentes
 
@@ -207,3 +208,5 @@ Ninguna.
 - `hegel-historia` — *Vorlesungen über die Philosophie der Geschichte* (1837), Texto alemán en Projekt Gutenberg-DE <https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte> — Hegel murió en 1831.
 - `patanjali-johnston` — *The Yoga Sutras of Patanjali: The Book of the Spiritual Man* (1912), Trad. inglesa y comentario de Charles Johnston, en Project Gutenberg <https://www.gutenberg.org/cache/epub/2526/pg2526.txt> — Johnston murió en 1931.
 - `horney-nuevos-caminos` — *New Ways in Psychoanalysis* (1939), Primera edición (1939), digitalizada en Internet Archive <https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt> — Horney murió en 1952: dominio público en Argentina desde 2023.
+- `rank-trauma` — *The Trauma of Birth* (1929), Edición inglesa de 1929, digitalizada en Internet Archive <https://archive.org/download/in.ernet.dli.2015.221578/2015.221578.The-Trauma_djvu.txt> — Rank murió en 1939: dominio público.
+- `rank-heroe` — *The Myth of the Birth of the Hero* (1914), Edición inglesa de 1914, digitalizada en Internet Archive <https://archive.org/download/mythofbirthofher0000drot/mythofbirthofher0000drot_djvu.txt> — Rank murió en 1939; Jelliffe, en 1945.
