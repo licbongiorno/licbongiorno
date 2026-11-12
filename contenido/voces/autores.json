@@ -141,11 +141,6 @@
    "nota_citas": "Textos ingleses de las primeras ediciones, en Project Gutenberg. Las traducciones son propias de Lo que te habita."
   },
   {
-   "slug": "sandor-ferenczi",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
-  },
-  {
    "slug": "melanie-klein",
    "estado": "pendiente",
    "motivo": "Obra protegida por derechos de autor hasta el 2031 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
@@ -286,11 +281,6 @@
    "motivo": "Obra protegida por derechos de autor hasta el 2090 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
   },
   {
-   "slug": "ivan-pavlov",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
-  },
-  {
    "slug": "john-b-watson",
    "estado": "pendiente",
    "motivo": "Obra protegida por derechos de autor hasta el 2029 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
@@ -366,11 +356,6 @@
    "motivo": "Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
   },
   {
-   "slug": "lev-vygotsky",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
-  },
-  {
    "slug": "erik-erikson",
    "estado": "pendiente",
    "motivo": "Obra protegida por derechos de autor hasta el 2065 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
@@ -384,11 +369,6 @@
    "slug": "mary-ainsworth",
    "estado": "pendiente",
    "motivo": "Obra protegida por derechos de autor hasta el 2070 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
-  },
-  {
-   "slug": "wilhelm-wundt",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
   },
   {
    "slug": "alfred-adler",
@@ -464,11 +444,6 @@
    ],
    "relacion": "Influyó en la psicología humanista, en la terapia cognitiva (sus «tiranías del deber» anticipan los «debería» de Albert Ellis) y en los enfoques interpersonales y culturales del psicoanálisis.",
    "nota_citas": "Citamos la primera edición de Nuevos caminos en psicoanálisis (1939), digitalizada en Internet Archive. Horney murió en 1952: su obra es de dominio público en Argentina desde 2023. Las traducciones son propias de Lo que te habita; las erratas de la digitalización se conservan y se señalan."
-  },
-  {
-   "slug": "harry-stack-sullivan",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
   },
   {
    "slug": "wilhelm-reich",
@@ -988,6 +963,73 @@
    "slug": "roberto-assagioli",
    "estado": "pendiente",
    "motivo": "Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+  },
+  {
+   "slug": "otto-rank",
+   "estado": "pendiente",
+   "motivo": "Colección incompleta: 18 citas verificadas de 50 (solo dos libros en inglés de dominio público accesibles). Faltan ediciones de sus obras en alemán. No publicado.",
+   "nombre": "Otto Rank"
+  },
+  {
+   "slug": "sandor-ferenczi",
+   "estado": "incorporado",
+   "incorporado": "2026-11-12",
+   "destacado": false,
+   "nombre": "Sándor Ferenczi",
+   "nombre_completo": "Sándor Ferenczi",
+   "nacimiento": "16 de julio de 1873, Miskolc (Hungría)",
+   "muerte": "22 de mayo de 1933, Budapest",
+   "epoca": "moderno",
+   "nacionalidad": "Húngaro",
+   "disciplinas": [
+    "Psicoanálisis",
+    "Medicina"
+   ],
+   "corriente": "Psicoanálisis (escuela húngara)",
+   "bio": "Médico y psicoanalista húngaro, discípulo cercano de Freud y uno de los fundadores del psicoanálisis. Introdujo la técnica activa, se interesó por el trauma infantil real y por la relación entre análisis y contacto humano, y propuso una teoría de la genitalidad inspirada en la observación clínica de la infancia.",
+   "aportes": [
+    "La teoría de la genitalidad como desarrollo de los erotismos oral, anal y genital",
+    "La sobredeterminación de los síntomas en el análisis",
+    "Las «pequeñas» formaciones de síntomas que aparecen durante el tratamiento",
+    "La importancia de la respuesta del analista y del trato humano en la cura"
+   ],
+   "obras": [
+    "Versuch einer Genitaltheorie (1924)",
+    "Bausteine zur Psychoanalyse (1927)",
+    "Thalassa (1924, en alemán; traducción inglesa de 1938)"
+   ],
+   "relacion": "Ferenczi fue el primero en dar al cuidado del analista un lugar central en la cura. Sus ideas sobre el trauma real y la respuesta del entorno influyeron en la psicología del trauma y en las terapias relacionales.",
+   "nota_citas": "Textos alemanes de la primera edición (1924) y de Bausteine zur Psychoanalyse (1927), digitalizados en Internet Archive. Ferenczi murió en 1933: su obra es de dominio público. Las traducciones son propias de Lo que te habita. Las citas son de sus escritos teóricos y clínicos; el estilo de su época incluye lenguaje técnico sobre la sexualidad que conservamos con su contexto."
+  },
+  {
+   "slug": "edmund-husserl",
+   "estado": "pendiente",
+   "nombre": "Edmund Husserl",
+   "motivo": "Filosofía fenomenológica. Solo tenemos textos alemanes con OCR de baja calidad (Ideas, 1922) y un texto de 1900 con frases verificables escasas. Pendiente: reunir 50 citas con transcripción limpia."
+  },
+  {
+   "slug": "wilhelm-wundt",
+   "estado": "pendiente",
+   "nombre": "Wilhelm Wundt",
+   "motivo": "Psicología experimental y Völkerpsicología. El escaneo de la Ética (1892) tiene demasiado ruido de OCR para citar con seguridad. Pendiente: buscar una edición con texto limpio."
+  },
+  {
+   "slug": "harry-stack-sullivan",
+   "estado": "pendiente",
+   "nombre": "Harry Stack Sullivan",
+   "motivo": "Psiquiatría interpersonal. Sus libros en Internet Archive están en préstamo restringido, sin texto accesible. Pendiente."
+  },
+  {
+   "slug": "ivan-pavlov",
+   "estado": "pendiente",
+   "nombre": "Iván Pávlov",
+   "motivo": "Reflejos condicionados. Las lecciones rusas de 1927 están en préstamo restringido. Pendiente: buscar otra edición accesible."
+  },
+  {
+   "slug": "lev-vygotsky",
+   "estado": "pendiente",
+   "nombre": "Lev Vygotski",
+   "motivo": "Psicología del desarrollo. Las traducciones disponibles tienen derechos vigentes y no pude acceder a un original ruso de dominio público. Pendiente."
   }
  ],
  "descartadas": [
