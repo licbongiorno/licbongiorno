@@ -47,6 +47,8 @@ def preparar(t, latin=False):
     for i, c in enumerate(t):
         if c in "_*+[]►✂─👤":
             continue
+        if c == "-" and i + 1 < len(t) and t[i + 1].isspace():
+            continue  # guion de cambio de línea del OCR («Wissen- schaft»): no cuenta
         if c.isspace():
             continue  # se ignoran los espacios: algunas fuentes unen palabras al cortar líneas
         c = c.lower()
