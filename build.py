@@ -592,7 +592,10 @@ LABORATORIOS = [
     {"titulo": "Laboratorio del encuentro", "ruta": "/laboratorio-del-encuentro/", "tipo": "Filosofía",
      "descripcion": "Buber y Hegel para la vida con otros: Yo-Tú o Yo-Ello, el reconocimiento, dos verdades a la vez y escuchar de verdad."},
     {"titulo": "Mi mapa de vínculos", "ruta": "/laboratorio-mi-mapa-de-vinculos/", "tipo": "Vínculos y genograma",
-     "descripcion": "Tu mundo vincular en dos capas, la red actual y el genograma: cercanía, intercambios, límites, roles y repeticiones."},
+     "descripcion": "Tu mundo vincular en dos capas, la red actual y el genograma: cercanía, intercambios, límites, roles y repeticiones."},    {"titulo": "La rueda de las emociones", "ruta": "/laboratorio-rueda-de-las-emociones/", "tipo": "Emociones",
+     "descripcion": "La rueda de Plutchik con intensidades y combinaciones, el plano de Russell y un recorrido guiado hasta tu mapa emocional."},
+    {"titulo": "Respirar, volver al presente", "ruta": "/laboratorio-respirar-volver-al-presente/", "tipo": "Respiración",
+     "descripcion": "Un visualizador para acompañar la respiración: libre, cuadrada, 4-7-8, exhalación prolongada o tu propio ritmo."},
 ]
 
 TEMAS_LAB = {
@@ -625,6 +628,7 @@ TEMAS_LAB = {
     "/laboratorio-de-la-vida-que-no-es-breve/": "Filosofía en práctica",
     "/laboratorio-de-la-angustia/": "Filosofía en práctica", "/laboratorio-de-virtudes/": "Filosofía en práctica",
     "/laboratorio-mi-mapa-de-vinculos/": "Vínculos",
+    "/laboratorio-rueda-de-las-emociones/": "Emociones", "/laboratorio-respirar-volver-al-presente/": "Cuerpo y respiración",
 }
 ORDEN_TEMAS = ["Emociones", "Vínculos", "Jung y autoconocimiento", "Cuerpo y respiración", "Enfoques", "Aprendizaje y cambio", "Filosofía en práctica", "Psicología en práctica"]
 
@@ -653,7 +657,7 @@ def bloque_laboratorios():
 
 # Guía «¿Por dónde empiezo?»: tema → página de motivo, artículos y laboratorios sugeridos.
 GUIA = [
-    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "ansiedad-social", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-respiraciones/"]),
+    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "ansiedad-social", "respiracion-y-emociones"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-respirar-volver-al-presente/", "/laboratorio-de-respiraciones/"]),
     ("panico", "Ataques de pánico", "/ansiedad-y-ataques-de-panico/", ["ataque-de-panico-que-hacer", "respiracion-y-emociones"], ["/laboratorio-de-presencia/"]),
     ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
     ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego", "los-celos"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
@@ -664,7 +668,7 @@ GUIA = [
     ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["insomnio", "pesadillas", "respiracion-y-emociones"], ["/laboratorio-de-descanso/", "/laboratorio-de-suenos/"]),
     ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "logoterapia-y-sentido"], ["/laboratorio-de-crisis-vitales/", "/laboratorio-de-sentido/", "/laboratorio-de-valores/"]),
     ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-imaginacion-activa/", "/laboratorio-mito-personal/"]),
-    ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "la-ventana-de-tolerancia"], ["/laboratorio-de-regulacion/", "/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
+    ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "la-ventana-de-tolerancia"], ["/laboratorio-rueda-de-las-emociones/", "/laboratorio-de-regulacion/", "/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
     ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["procrastinacion", "metahabilidades", "la-motivacion"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/"]),
     ("meditar", "Empezar a meditar o respirar mejor", "/terapia-junguiana/", ["que-es-la-meditacion", "cuando-meditar-no-es-recomendable"], ["/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/", "/laboratorio-de-respiraciones/"]),
 ]
