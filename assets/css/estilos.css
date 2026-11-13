@@ -200,7 +200,7 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 3rem 0; }
 .nav__sub a { display: block; padding: .8rem 1rem; border-radius: var(--r-s); text-decoration: none; color: var(--tinta); font-family: var(--f-sans); font-size: .875rem; font-weight: 500; }
 .nav__sub a small { display: block; font-weight: 400; color: var(--piedra-oscura); font-size: .78rem; margin-top: .15rem; }
 .nav__sub a:hover { background: var(--salvia-bruma); }
-.cabecera__cta { margin-left: .75rem; }
+.cabecera__cta { margin-left: .75rem; white-space: nowrap; }
 .menu-boton { display: none; }
 @media (max-width: 1080px) {
 .nav { display: none; }

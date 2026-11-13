@@ -747,7 +747,7 @@ def cabecera(ruta):
   <div class="contenedor cabecera__fila">
     <a class="marca" href="/">
       {SIMBOLO}
-      <span class="marca__texto"><span class="marca__nombre">Nicolás Bongiorno</span><span class="marca__rol">Psicólogo clínico · {esc(C["matricula"])}</span></span>
+      <span class="marca__texto"><span class="marca__nombre">Nicolás Bongiorno</span><span class="marca__rol">Psicólogo clínico integrativo · {esc(C["matricula"])}</span></span>
     </a>
     <nav class="nav" aria-label="Principal">
       <ul class="nav__lista">{"".join(items)}</ul>
@@ -782,9 +782,9 @@ def pie():
   <div class="contenedor">
     <div class="pie__grilla">
       <div>
-        <a class="marca" href="/">{SIMBOLO}<span class="marca__texto"><span class="marca__nombre">Nicolás Bongiorno</span><span class="marca__rol">Psicólogo clínico · {esc(C["matricula"])}</span></span></a>
+        <a class="marca" href="/">{SIMBOLO}<span class="marca__texto"><span class="marca__nombre">Nicolás Bongiorno</span><span class="marca__rol">Psicólogo clínico integrativo · {esc(C["matricula"])}</span></span></a>
         <p class="pie__lema">Lo que te habita también merece ser escuchado.</p>
-        <p>{esc(NOMBRE_COMPLETO)}. Psicólogo clínico egresado de la {esc(C["facultad"])} de la {esc(C["universidad"])}. Atención presencial en {esc(D["localidad"])} y online.</p>
+        <p>{esc(NOMBRE_COMPLETO)}. Psicólogo clínico integrativo, egresado de la {esc(C["facultad"])} de la {esc(C["universidad"])}. Atención presencial en {esc(D["localidad"])} y online.</p>
         {redes_html()}
       </div>
       <div>
@@ -1324,7 +1324,7 @@ def bloque_cta(titulo="¿Querés empezar a <em>conversarlo</em>?", texto=None, u
 def retrato(clase="retrato", cual="foto"):
     extras = {
         "foto_lectura": (f"{NOMBRE_COMPLETO} leyendo en un sillón, junto a una ventana", 682, 852),
-        "foto_sobre_mi": (f"{NOMBRE_COMPLETO}, psicólogo clínico, sentado en un sillón con gesto pensativo", 552, 691),
+        "foto_sobre_mi": (f"{NOMBRE_COMPLETO}, psicólogo clínico integrativo, sentado en un sillón con gesto pensativo", 552, 691),
         "foto_biblioteca": (f"{NOMBRE_COMPLETO} sentado en un sillón frente a una biblioteca", 768, 960),
     }
     if cual in extras and C.get(cual):
@@ -1333,7 +1333,7 @@ def retrato(clase="retrato", cual="foto"):
                 f'width="{w}" height="{h}" loading="lazy" decoding="async"></div>')
     if C.get("foto"):
         srcset = f' srcset="/{C["foto_chica"]} 480w, /{C["foto"]} 682w" sizes="(max-width: 860px) 340px, 480px"' if C.get("foto_chica") else ""
-        return (f'<div class="{clase}"><img src="/{C["foto"]}"{srcset} alt="Retrato del {esc(NOMBRE_COMPLETO)}, psicólogo clínico" '
+        return (f'<div class="{clase}"><img src="/{C["foto"]}"{srcset} alt="Retrato del {esc(NOMBRE_COMPLETO)}, psicólogo clínico integrativo" '
                 f'width="682" height="852" loading="lazy" decoding="async"></div>')
     return (f'<div class="{clase} retrato--monograma" role="img" aria-label="Símbolo de marca: un círculo abierto que contiene una semilla">'
             '<svg viewBox="0 0 200 200" aria-hidden="true"><path d="M172 70A80 80 0 1 0 178 118" fill="none" stroke="#4A5A3C" stroke-width="7" stroke-linecap="round"/>'
@@ -1344,7 +1344,7 @@ def retrato(clase="retrato", cual="foto"):
 
 def umbral():
     srcset = f' srcset="/{C["foto_chica"]} 480w, /{C["foto"]} 682w" sizes="(max-width: 520px) 270px, (max-width: 900px) 340px, 480px"' if C.get("foto_chica") else ""
-    interior = (f'<img src="/{C["foto"]}"{srcset} alt="Retrato del {esc(NOMBRE_COMPLETO)}, psicólogo clínico" width="682" height="852" fetchpriority="high">'
+    interior = (f'<img src="/{C["foto"]}"{srcset} alt="Retrato del {esc(NOMBRE_COMPLETO)}, psicólogo clínico integrativo" width="682" height="852" fetchpriority="high">'
                 if C.get("foto") else ARTE_HERO)
     return f'''<div class="umbral entra" style="--retraso:.35s">
   <div class="umbral__aro" aria-hidden="true" data-parallax="-0.04"></div>
@@ -1380,7 +1380,7 @@ def persona_schema():
         "honorificPrefix": C["prefijo"],
         "alternateName": ["Nicolás Bongiorno", "Lic. Nicolás Bongiorno", "Psicólogo Bongiorno"],
         "jobTitle": C["profesion"],
-        "description": ("Psicólogo clínico (M.P. 8209, Córdoba) con más de 15 años de práctica. Orientación junguiana (psicología analítica) "
+        "description": ("Psicólogo clínico integrativo (M.P. 8209, Córdoba) con más de 15 años de práctica. Orientación junguiana (psicología analítica) "
                         "con base psicoanalítica y perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores en Alta Gracia "
                         "(Córdoba, Argentina) y online en español."),
         "url": f"{URL}/sobre-mi/",
@@ -1411,7 +1411,7 @@ def consultorio_schema():
     c = {
         "@type": ["MedicalBusiness", "ProfessionalService"],
         "@id": f"{URL}/#consultorio",
-        "name": f'{NOMBRE_COMPLETO} — Psicólogo clínico',
+        "name": f'{NOMBRE_COMPLETO} — Psicólogo clínico integrativo',
         "description": "Consultorio de psicología clínica y psicoterapia en Alta Gracia, Córdoba. Atención presencial y online para adolescentes, adultos y adultos mayores.",
         "url": f"{URL}/",
         "telephone": C["telefono_e164"],
@@ -1456,7 +1456,7 @@ def consultorio_schema():
 
 
 def sitio_schema():
-    return {"@type": "WebSite", "@id": f"{URL}/#sitio", "url": f"{URL}/", "name": "Nicolás Bongiorno · Psicólogo clínico",
+    return {"@type": "WebSite", "@id": f"{URL}/#sitio", "url": f"{URL}/", "name": "Nicolás Bongiorno · Psicólogo clínico integrativo",
             "alternateName": "Lo que te habita", "inLanguage": C["idioma"], "publisher": {"@id": f"{URL}/#nicolas-bongiorno"}}
 
 
@@ -1546,14 +1546,14 @@ def pagina(meta, cuerpo, ruta):
 <meta name="geo.placename" content="Alta Gracia, Córdoba">
 {verif}<meta property="og:type" content="{og_tipo}">
 <meta property="og:locale" content="es_AR">
-<meta property="og:site_name" content="Nicolás Bongiorno · Psicólogo clínico">
+<meta property="og:site_name" content="Nicolás Bongiorno · Psicólogo clínico integrativo">
 <meta property="og:title" content="{esc(meta.get("og_titulo", titulo))}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{canon}">
 <meta property="og:image" content="{URL}/assets/img/{og}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="{esc(meta.get("og_alt", "Lic. Nicolás Raúl Bongiorno, psicólogo clínico en Alta Gracia y online"))}">
+<meta property="og:image:alt" content="{esc(meta.get("og_alt", "Lic. Nicolás Raúl Bongiorno, psicólogo clínico integrativo en Alta Gracia y online"))}">
 {art_meta}<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -1681,7 +1681,7 @@ def render_articulo(a):
   <div class="destacado destacado--aviso"><p>Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).</p></div>
   {bloque_compartir(a["titulo"], a["ruta"])}
   {relacionados(a)}
-  <div class="autor-caja">{SIMBOLO.replace('class="marca__simbolo"', '')}<p><strong>{esc(NOMBRE_COMPLETO)}</strong><br>Psicólogo clínico, {esc(C["matricula"])}. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. <a href="/sobre-mi/">Conocé más sobre mí</a>.</p></div>
+  <div class="autor-caja">{SIMBOLO.replace('class="marca__simbolo"', '')}<p><strong>{esc(NOMBRE_COMPLETO)}</strong><br>Psicólogo clínico integrativo, {esc(C["matricula"])}. Más de 15 años de práctica, con orientación junguiana, base psicoanalítica y perspectiva integrativa. <a href="/sobre-mi/">Conocé más sobre mí</a>.</p></div>
   <div style="margin-top:3rem">{bloque_cta("Si este texto te resonó, <em>podemos conversarlo</em>", ubicacion="articulo")}</div>
 </div>
 </article>'''
@@ -1926,9 +1926,9 @@ def construir():
     publicados = [a for a in ARTICULOS if a["publicado"]]
     lineas_art = "\n".join(f'- [{a["titulo"]}]({URL}{a["ruta"]}): {a["resumen"]}' for a in publicados) or "- (Artículos en preparación.)"
     motivos_txt = ", ".join(m["titulo"].lower() for m in MOTIVOS)
-    (SALIDA / "llms.txt").write_text(f"""# {NOMBRE_COMPLETO} — Psicólogo clínico ({C["matricula"]})
+    (SALIDA / "llms.txt").write_text(f"""# {NOMBRE_COMPLETO} — Psicólogo clínico integrativo ({C["matricula"]})
 
-> Psicólogo clínico egresado de la {C["facultad"]} de la {C["universidad"]}, con {C["anios_experiencia"]} de práctica clínica. Orientación junguiana (psicología analítica de C. G. Jung) con base psicoanalítica y perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores, de forma presencial en {D["localidad"]} ({D["provincia"]}, Argentina) y online por videollamada, en español.
+> Psicólogo clínico integrativo, egresado de la {C["facultad"]} de la {C["universidad"]}, con {C["anios_experiencia"]} de práctica clínica. Orientación junguiana (psicología analítica de C. G. Jung) con base psicoanalítica y perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores, de forma presencial en {D["localidad"]} ({D["provincia"]}, Argentina) y online por videollamada, en español.
 
 ## Datos verificables
 - Nombre: {C["nombre"]} (también: Nicolás Bongiorno, Lic. Nicolás Bongiorno).
@@ -2038,7 +2038,7 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
 
     # Manifest
     (SALIDA / "manifest.webmanifest").write_text(json.dumps({
-        "name": "Nicolás Bongiorno · Psicólogo clínico", "short_name": "N. Bongiorno", "lang": C["idioma"], "start_url": "/",
+        "name": "Nicolás Bongiorno · Psicólogo clínico integrativo", "short_name": "N. Bongiorno", "lang": C["idioma"], "start_url": "/",
         "display": "browser", "background_color": "#F6F1EB", "theme_color": "#F6F1EB",
         "icons": [{"src": "/assets/img/simbolo-192.png", "sizes": "192x192", "type": "image/png"},
                   {"src": "/assets/img/simbolo-512.png", "sizes": "512x512", "type": "image/png"}]}, ensure_ascii=False, indent=1), encoding="utf-8")
