@@ -993,7 +993,11 @@ p, li, blockquote { orphans: 3; widows: 3; }
 .tema-boton:hover { background: rgba(163,177,138,.18); color: var(--tinta); transform: rotate(-15deg); }
 .tema-boton svg { width: 20px; height: 20px; }
 .tema-boton .sol { display: none; }
-.cabecera__movil { display: none; align-items: center; gap: .25rem; }
+.cabecera__movil { display: none; align-items: center; gap: .25rem; flex-shrink: 0; }
+.marca { flex: 0 1 auto; }
+.marca, .marca__texto { min-width: 0; }
+.marca__rol { white-space: normal; line-height: 1.35; }
+@media (max-width: 480px) { .marca__rol { font-size: .6rem; letter-spacing: .06em; } }
 @media (max-width: 1080px) {
 .cabecera__movil { display: inline-flex; }
 .nav .tema-boton { display: none; }
