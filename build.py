@@ -88,10 +88,8 @@ ICON = {
 }
 
 # Símbolo de marca: un círculo abierto (ensō: proceso, no clausura) que aloja una semilla (lo que te habita).
-SIMBOLO = ('<svg class="marca__simbolo" viewBox="0 0 48 48" aria-hidden="true">'
-           '<path class="trazo" pathLength="1" d="M40.6 16.4A18.2 18.2 0 1 0 41.6 28.6" fill="none" stroke="#4A5A3C" stroke-width="2.6" stroke-linecap="round"/>'
-           '<path class="trazo trazo--2" pathLength="1" d="M38.4 13.2A18.6 18.6 0 0 0 9.6 13.8" fill="none" stroke="#A3B18A" stroke-width="1.2" stroke-linecap="round" opacity=".8"/>'
-           '<circle class="semilla" cx="27.4" cy="26.6" r="4.4" fill="#F4A261"/></svg>')
+SIMBOLO = ('<svg class="marca__simbolo" viewBox="0 0 512 512" aria-hidden="true">'
+           '<path d="M117.4 394.6A196 196 0 1 1 394.6 394.6" fill="none" stroke="currentColor" stroke-width="46" stroke-linecap="round"/><path d="M236.5 304.2A52 52 0 1 1 275.5 304.2" fill="none" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><line x1="256.0" y1="204.0" x2="256.0" y2="176.0" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><path d="M286.0 181.8A80 80 0 1 1 226.0 181.8" fill="none" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><line x1="256.0" y1="336.0" x2="256.0" y2="364.0" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><path d="M215.5 356.1A108 108 0 1 1 296.5 356.1" fill="none" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><line x1="256.0" y1="148.0" x2="256.0" y2="120.0" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><path d="M306.9 129.9A136 136 0 1 1 205.1 129.9" fill="none" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><line x1="256.0" y1="392.0" x2="256.0" y2="420.0" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><path d="M194.6 408.1A164 164 0 1 1 317.4 408.1" fill="none" stroke="#B49A6E" stroke-width="10" stroke-linecap="round"/><circle cx="256.0" cy="232.0" r="19" fill="#B49A6E"/><circle cx="280.0" cy="256.0" r="19" fill="#B49A6E"/><circle cx="256.0" cy="280.0" r="19" fill="#B49A6E"/><circle cx="232.0" cy="256.0" r="19" fill="#B49A6E"/><circle cx="256" cy="256" r="12" fill="#B49A6E"/><path d="M256 270 L256 326" stroke="#B49A6E" stroke-width="9" stroke-linecap="round"/></svg>')
 
 FORMAS = [  # formas orgánicas para las tarjetas (piedra, onda, hoja, círculo abierto)
     '<svg class="motivo__forma" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M8 25c0-8 6.5-13 13.5-13S33 16.5 33 23.5 27 32 19.5 32 8 31 8 25z"/></svg>',
