@@ -1252,5 +1252,28 @@
   ],
   "edicion": "Segunda edición alemana (1922), digitalizada en Internet Archive",
   "dominio_publico": "Rank murió en 1939."
+ },
+ "pavlov-reflejos-condicionados": {
+  "titulo": "Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex",
+  "titulo_es": "Reflejos condicionados: investigación de la actividad fisiológica de la corteza cerebral",
+  "anio": 1927,
+  "idioma": "en",
+  "idioma_original": "ru",
+  "traductor": "G. V. Anrep",
+  "url": "https://psychclassics.yorku.ca/Pavlov/",
+  "edicion": "Traducción inglesa de G. V. Anrep (1927), en la edición digital de Classics in the History of Psychology (York University)",
+  "dominio_publico": "Pavlov murió en 1936; la traducción es de 1927.",
+  "localizador": "capitulo-romano"
+ },
+ "vygotsky-pensamiento-lenguaje": {
+  "titulo": "Мышление и речь",
+  "titulo_es": "Pensamiento y lenguaje",
+  "anio": 1934,
+  "idioma": "ru",
+  "idioma_original": "ru",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf",
+  "edicion": "Edición original rusa (Moscú–Leningrado, 1934), escaneo en marxists.org; se usa el texto del autor, sin el prólogo del editor",
+  "dominio_publico": "Vygotski murió en 1934: dominio público (vida + 70 años).",
+  "localizador": "capitulo-romano"
  }
 }
