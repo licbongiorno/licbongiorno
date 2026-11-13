@@ -27,8 +27,9 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-13. No editar a mano.
 | Buda | 52 | 52 | 1 | completo (≥ 50) |
 | Lao-tse | 52 | 52 | 1 | completo (≥ 50) |
 | Patanjali | 52 | 52 | 1 | completo (≥ 50) |
-| Otto Rank | 51 | 51 | 4 | completo (≥ 50) |
 | Sándor Ferenczi | 50 | 50 | 2 | completo (≥ 50) |
+| Iván Pávlov | 56 | 56 | 1 | completo (≥ 50) |
+| Lev Vygotski | 68 | 68 | 1 | completo (≥ 50) |
 | Wilhelm Wundt | 50 | 50 | 3 | completo (≥ 50) |
 | Edmund Husserl | 61 | 61 | 1 | completo (≥ 50) |
 
@@ -129,9 +130,7 @@ Ninguna.
 | Grof | n. 1931 | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Wilber | n. 1949 | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Assagioli | 1888–1974 | Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Harry Stack Sullivan | 1892–1949 | Psiquiatría interpersonal. Sus libros en Internet Archive están en préstamo restringido, sin texto accesible. Pendiente. |
-| Iván Pávlov | 1849–1936 | Reflejos condicionados. Las lecciones rusas de 1927 están en préstamo restringido. Pendiente: buscar otra edición accesible. |
-| Lev Vygotski | 1896–1934 | Psicología del desarrollo. Las traducciones disponibles tienen derechos vigentes y no pude acceder a un original ruso de dominio público. Pendiente. |
+| Harry Stack Sullivan | 1892–1949 | Psiquiatría interpersonal. Las ediciones en Internet Archive (The Interpersonal Theory of Psychiatry, 1953) están en préstamo restringido: el texto no es accesible. PEP-Web tiene la reseña de 1948 solo para suscriptores. Pendiente. |
 
 ## Fuentes
 
@@ -221,3 +220,5 @@ Ninguna.
 - `rank-trauma-aleman` — *Das Trauma der Geburt und seine Bedeutung für die Psychoanalyse* (1924), Primera edición alemana (1924), digitalizada en Internet Archive <https://archive.org/download/DasTraumaDerGeburtUndSeineBedeutungFrDiePsychoanalyse/Rank_1924_Trauma_djvu.txt> — Rank murió en 1939.
 - `rank-mythus-aleman` — *Der Mythus von der Geburt des Helden* (1909), Segunda edición alemana (1922), digitalizada en Internet Archive <https://archive.org/download/Rank_1922_Geburt_des_Helden_2te_k/Rank_1922_Geburt_des_Helden_2te_k_djvu.txt> — Rank murió en 1939.
 - `rank-mythenforschung` — *Psychoanalytische Beiträge zur Mythenforschung* (1922), Segunda edición alemana (1922), digitalizada en Internet Archive <https://archive.org/download/psychoanalytisch0000drot/psychoanalytisch0000drot_djvu.txt> — Rank murió en 1939.
+- `pavlov-reflejos-condicionados` — *Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex* (1927), Traducción inglesa de G. V. Anrep (1927), en la edición digital de Classics in the History of Psychology (York University) <https://psychclassics.yorku.ca/Pavlov/> — Pavlov murió en 1936; la traducción es de 1927.
+- `vygotsky-pensamiento-lenguaje` — *Мышление и речь* (1934), Edición original rusa (Moscú–Leningrado, 1934), escaneo en marxists.org; se usa el texto del autor, sin el prólogo del editor <https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf> — Vygotski murió en 1934: dominio público (vida + 70 años).

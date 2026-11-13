@@ -1021,19 +1021,67 @@
    "slug": "harry-stack-sullivan",
    "estado": "pendiente",
    "nombre": "Harry Stack Sullivan",
-   "motivo": "Psiquiatría interpersonal. Sus libros en Internet Archive están en préstamo restringido, sin texto accesible. Pendiente."
+   "motivo": "Psiquiatría interpersonal. Las ediciones en Internet Archive (The Interpersonal Theory of Psychiatry, 1953) están en préstamo restringido: el texto no es accesible. PEP-Web tiene la reseña de 1948 solo para suscriptores. Pendiente."
   },
   {
    "slug": "ivan-pavlov",
-   "estado": "pendiente",
+   "estado": "incorporado",
+   "incorporado": "2026-11-13",
+   "destacado": false,
    "nombre": "Iván Pávlov",
-   "motivo": "Reflejos condicionados. Las lecciones rusas de 1927 están en préstamo restringido. Pendiente: buscar otra edición accesible."
+   "nombre_completo": "Iván Petrovich Pávlov",
+   "nacimiento": "26 de septiembre de 1849, Riazán (Imperio ruso)",
+   "muerte": "27 de febrero de 1936, Leningrado (URSS)",
+   "epoca": "moderno",
+   "nacionalidad": "Ruso",
+   "disciplinas": [
+    "Fisiología",
+    "Psicología"
+   ],
+   "corriente": "Fisiología de la actividad nerviosa superior",
+   "bio": "Fisiólogo ruso, premio Nobel de Medicina en 1904 por sus trabajos sobre la digestión. Desde 1900 estudió la actividad nerviosa superior con métodos objetivos y definió el reflejo condicionado como respuesta aprendida a una señal: la base de un enfoque experimental de la conducta que influyó en la psicología del siglo XX.",
+   "aportes": [
+    "El reflejo condicionado como mecanismo de la asociación aprendida",
+    "El método objetivo para estudiar la actividad nerviosa superior",
+    "La distinción entre reflejos incondicionados y condicionados",
+    "La idea de la segunda señalización (el lenguaje como señal de señales)"
+   ],
+   "obras": [
+    "Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex (1927; traducción inglesa de G. V. Anrep de las Lecciones)",
+    "Reflejos condicionados (1927, en ruso, Lecciones sobre la actividad de los hemisferios cerebrales)"
+   ],
+   "relacion": "Pávlov partió de la fisiología digestiva y pasó al estudio de los hemisferios cerebrales con métodos objetivos. Su programa de investigación fue retomado por el conductismo y por la psicología experimental del aprendizaje, aunque él mismo sostuvo una posición fisiológica y no psicológica.",
+   "nota_citas": "Textos de la traducción inglesa de G. V. Anrep (1927), publicada en la edición digital de Classics in the History of Psychology (York University). Pávlov murió en 1936: su obra es de dominio público. Las traducciones al español son propias de Lo que te habita, hechas a partir de la versión inglesa."
   },
   {
    "slug": "lev-vygotsky",
-   "estado": "pendiente",
+   "estado": "incorporado",
+   "incorporado": "2026-11-13",
+   "destacado": false,
    "nombre": "Lev Vygotski",
-   "motivo": "Psicología del desarrollo. Las traducciones disponibles tienen derechos vigentes y no pude acceder a un original ruso de dominio público. Pendiente."
+   "nombre_completo": "Lev Semiónovich Vygotski",
+   "nacimiento": "17 de noviembre de 1896, Orsha (Imperio ruso, hoy Bielorrusia)",
+   "muerte": "11 de junio de 1934, Moscú (URSS)",
+   "epoca": "moderno",
+   "nacionalidad": "Ruso",
+   "disciplinas": [
+    "Psicología del desarrollo",
+    "Psicología"
+   ],
+   "corriente": "Psicología histórico-cultural",
+   "bio": "Psicólogo ruso, fundador de la psicología histórico-cultural. Estudió cómo el lenguaje, los signos y la cultura transforman las funciones psíquicas elementales en funciones superiores, como el pensamiento conceptual, la atención voluntaria y la memoria lógica. Murió joven, en 1934, y su obra se difundió después de manera decisiva.",
+   "aportes": [
+    "La zona de desarrollo próximo",
+    "El origen social de las funciones psíquicas superiores",
+    "El papel del lenguaje y de la palabra como instrumento del pensamiento",
+    "La distinción entre conceptos espontáneos y conceptos científicos",
+    "El desarrollo del habla interior"
+   ],
+   "obras": [
+    "Pensamiento y lenguaje (Мышление и речь, 1934)"
+   ],
+   "relacion": "Vygotski dialogó críticamente con Piaget y con Stern sobre el habla y el pensamiento infantil. Su teoría de la interiorización del lenguaje y de la mediación cultural es una de las bases de la psicología del desarrollo y de la educación de las décadas siguientes.",
+   "nota_citas": "Texto de la edición original rusa de Мышление и речь (1934), digitalizada en marxists.org; se omiten el prólogo del editor y el prefacio de Kolbánovski. Vygotski murió en 1934: su obra es de dominio público. Las traducciones al español son propias de Lo que te habita."
   },
   {
    "slug": "wilhelm-wundt",

@@ -1,0 +1,993 @@
+[
+ {
+  "id": "lev-vygotsky-001",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Первый способ психологического анализа можно было бы назвать разложением сложных психологических целых на элементы.",
+  "traduccion": "El primer modo de análisis psicológico podría llamarse descomposición de los todos psicológicos complejos en elementos.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-002",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Так же точно живая клетка, сохраняющая все основные свойства жизни, присущие живому организму, является настоящей единицей биологического анализа.",
+  "traduccion": "Del mismo modo, la célula viva, que conserva todas las propiedades fundamentales de la vida inherentes al organismo vivo, es la verdadera unidad del análisis biológico.",
+  "temas": [
+   "cuerpo",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-003",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Эта внутренняя сторона слова до сих пор почти не подвергалась специальным исследованиям.",
+  "traduccion": "Este lado interior de la palabra apenas ha sido objeto de investigaciones especiales hasta ahora.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-004",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Что непосредственное общение душ невозможно—это является конечно аксиомой для научной психологии.",
+  "traduccion": "Que la comunicación directa de las almas es imposible: esto es, por supuesto, un axioma para la psicología científica.",
+  "temas": [
+   "vinculos",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-005",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Вот почему целая вещь является несообщаемой для детей, которые не имеют еще известного обобщения.",
+  "traduccion": "Por eso, para los niños que aún no tienen cierta generalización, una cosa entera resulta incomunicable.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 1",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-006",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Историческое состояние нашей науки таково, что, говоря языком Брентано, «существует много психологии, но не существует единой психологии».",
+  "traduccion": "El estado histórico de nuestra ciencia es tal que, para decirlo en el lenguaje de Brentano, «existe mucha psicología, pero no existe una psicología única».",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-007",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Это—основной нерв всей его системы, это—краеугольный камень всего его построения.",
+  "traduccion": "Este es el nervio central de todo su sistema, es la piedra angular de toda su construcción.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-008",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Это мышление не столько направлено на действительность, сколько на удовлетворение желания.",
+  "traduccion": "Este pensamiento no se dirige tanto a la realidad como a la satisfacción del deseo.",
+  "temas": [
+   "deseo",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-009",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Дикарь, призывающий дождь магическим обрядом, объясняет свой неуспех влиянием злого духа.",
+  "traduccion": "El salvaje que invoca la lluvia con un rito mágico explica su fracaso por la influencia de un espíritu maligno.",
+  "temas": [
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-010",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Под именем эгоцентрической речи Пиаже разумеет речь, отличающуюся прежде всего своей функцией.",
+  "traduccion": "Bajo el nombre de habla egocéntrica, Piaget entiende un habla que se distingue, ante todo, por su función.",
+  "temas": [
+   "conocimiento",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-011",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Фактические исследования Пиаже действительно показывают, что коэфициент эгоцентрической речи падает по мере роста ребенка.",
+  "traduccion": "Las investigaciones fácticas de Piaget muestran, en efecto, que el coeficiente del habla egocéntrica disminuye a medida que el niño crece.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-012",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Здесь прямое экспериментальное исследование самой сути вопроса чрезвычайно затруднено.",
+  "traduccion": "Aquí la investigación experimental directa de la esencia misma de la cuestión resulta extremadamente difícil.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-013",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Речь таким образом становится психологически внутренней раньше, чем она становится действительно внутренней.",
+  "traduccion": "Así, el habla se vuelve psicológicamente interior antes de volverse realmente interior.",
+  "temas": [
+   "conciencia",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-014",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Явление А может рассматриваться как функция явления Б, но и, наоборот: явление Б может рассматриваться как функция А.",
+  "traduccion": "El fenómeno A puede considerarse función del fenómeno B, pero también, a la inversa: el fenómeno B puede considerarse función de A.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-015",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Это—плоскость объективности, речи, логических концепций, одним словом—реальность.",
+  "traduccion": "Este es el plano de la objetividad, del habla, de los conceptos lógicos; en una palabra, la realidad.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-016",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Ведь аутистическая мысль—по Пиаже—создает сама себе воображаемую действительность или действительность сновидения.",
+  "traduccion": "Pues el pensamiento autista, según Piaget, crea por sí mismo una realidad imaginaria, la realidad del sueño.",
+  "temas": [
+   "inconsciente",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-017",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "В действительной жизни существует столько видов причинности, сколько видов или ступеней сознания.",
+  "traduccion": "En la vida real existen tantas clases de causalidad como clases o grados de conciencia.",
+  "temas": [
+   "conciencia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-018",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Очевидно во все фактические положения Пиаже нужно внести две существенных поправки.",
+  "traduccion": "Es evidente que a todas las afirmaciones fácticas de Piaget hay que hacerles dos correcciones esenciales.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-019",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Для Пиаже все же основной догмой остается положение, что ребенок непроницаем для опыта.",
+  "traduccion": "Para Piaget, sin embargo, el dogma fundamental sigue siendo que el niño es impermeable a la experiencia.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-020",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Те закономерности, которые Пиаже установил, те факты, которые он нашел, имеют не всеобщее, но ограниченное значение.",
+  "traduccion": "Las regularidades que Piaget estableció y los hechos que encontró tienen un valor no general, sino limitado.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-021",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Так развивается не мышление ребенка вообще, но мышление того ребенка, которого изучал Пиаже.",
+  "traduccion": "Así se desarrolla no el pensamiento del niño en general, sino el pensamiento del niño que estudió Piaget.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-022",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Эта ошибка основана на том, что Пиаже недостаточно принимает во внимание значение социальной ситуации.",
+  "traduccion": "Este error se basa en que Piaget no tiene suficientemente en cuenta el significado de la situación social.",
+  "temas": [
+   "vinculos",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-023",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Эти закономерности, как уже сказано, действительны для той социальной среды, которую изучал Пиаже.",
+  "traduccion": "Estas regularidades, como ya se dijo, valen para el medio social que estudió Piaget.",
+  "temas": [
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-024",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Но для этого детской психологии необходимо коренным образом изменить свое основное методологическое направление.",
+  "traduccion": "Pero para ello, la psicología infantil necesita cambiar de raíz su orientación metodológica fundamental.",
+  "temas": [
+   "infancia",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 2",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-025",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Основная идея Штерна—идея персонализма: личность—как психофизически нейтральное единство.",
+  "traduccion": "La idea básica de Stern es la del personalismo: la persona como unidad psicofísicamente neutra.",
+  "temas": [
+   "identidad",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 3",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-026",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Мы не хотим вовсе сказать этим, что наличие «идеации» является необходимым условием для возникновения речи.",
+  "traduccion": "No queremos decir con esto que la presencia de la «ideación» sea una condición necesaria para la aparición del habla.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-027",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Не надо никакого специального анализа для того, чтобы дать на этот вопрос отрицательный ответ.",
+  "traduccion": "No hace falta ningún análisis especial para dar a esta pregunta una respuesta negativa.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-028",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Напротив, это скорее чрезвычайно общая черта для животных, обладающих голосовым аппаратом.",
+  "traduccion": "Por el contrario, es más bien un rasgo extremadamente general de los animales que poseen un aparato vocal.",
+  "temas": [
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-029",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Менее всего эта реакция может напомнить намеренное, осмысленное сообщение чего-нибудь или такое же воздействие.",
+  "traduccion": "Lo que menos puede recordar esta reacción es una comunicación intencional y con sentido de algo, o una acción de igual tipo.",
+  "temas": [
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-030",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Общепринятый взгляд рассматривал детскую речь на этой ступени ее развития как эмоциональную форму поведения по преимуществу.",
+  "traduccion": "La opinión generalmente aceptada consideraba el habla infantil, en esta etapa de su desarrollo, sobre todo como una forma emocional de conducta.",
+  "temas": [
+   "infancia",
+   "emociones"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-031",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "С их точки зрения, мышление есть не что иное, как заторможенная, задержанная, беззвучная речь.",
+  "traduccion": "Desde su punto de vista, el pensamiento no es otra cosa que habla inhibida, retenida, sin sonido.",
+  "temas": [
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-032",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Мы увидели бы, что речь становится психологически внутренней раньше, чем она становится физиологически внутренней.",
+  "traduccion": "Veríamos que el habla se vuelve psicológicamente interior antes de volverse fisiológicamente interior.",
+  "temas": [
+   "conciencia",
+   "cuerpo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-033",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Все, что мы знаем по этому поводу, заставляет нас дать отрицательный ответ на этот вопрос.",
+  "traduccion": "Todo lo que sabemos al respecto nos obliga a dar una respuesta negativa a esta pregunta.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-034",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Валлон полагает, что для ребенка имя является некоторое время скорее атрибутом, чем субститутом предмета.",
+  "traduccion": "Wallon sostiene que, durante cierto tiempo, para el niño el nombre es más un atributo que un sustituto del objeto.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-035",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Наличие цели, наличие задачи является необходимым, но недостаточным моментом для возникновения целесообразной деятельности.",
+  "traduccion": "La existencia de un fin, la existencia de una tarea, es un momento necesario pero insuficiente para la aparición de una actividad racional.",
+  "temas": [
+   "habitos",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-036",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "С этой точки зрения вообще является непонятным тот факт, что формы мышления развиваются.",
+  "traduccion": "Desde este punto de vista resulta incomprensible, en general, el hecho de que las formas del pensamiento se desarrollen.",
+  "temas": [
+   "cambio",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-037",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Мышление ребенка, направляемое устойчивыми постоянными значениями слов, не изменяет основных законов своей деятельности.",
+  "traduccion": "El pensamiento del niño, guiado por los significados estables y constantes de las palabras, no cambia las leyes básicas de su actividad.",
+  "temas": [
+   "conocimiento",
+   "habitos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-038",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Она связывает собственную активность ребенка, направляя ее по определенному, строго очерченному руслу.",
+  "traduccion": "Ella ata la actividad propia del niño, encauzándola por un cauce determinado y estrictamente delimitado.",
+  "temas": [
+   "habitos",
+   "infancia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-039",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Ребенок до наступления этого периода также усваивает отдельные слова, которые являются для него условными стимулами или заместителями отдельных предметов, людей, действий, состояний, желаний.",
+  "traduccion": "El niño, antes de que llegue este período, también incorpora palabras aisladas que son para él estímulos condicionados o sustitutos de objetos, personas, acciones, estados y deseos.",
+  "temas": [
+   "infancia",
+   "deseo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-040",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Вместо трех этапов—громкая речь, шопот, беззвучная речь—мы получили бы другие три типа этапа: внешняя речь, эгоцентрическая речь, внутренняя речь.",
+  "traduccion": "En lugar de tres etapas —habla en voz alta, susurro, habla sin sonido— obtendríamos otros tres tipos de etapa: habla externa, habla egocéntrica, habla interna.",
+  "temas": [
+   "conciencia",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-041",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Ребенок овладевает синтаксисом речи раньше, чем он овладевает синтаксисом мысли.",
+  "traduccion": "El niño domina la sintaxis del habla antes de dominar la sintaxis del pensamiento.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-042",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Таким образом традиционные методы исследований понятий одинаково характеризуются отрывом слова от объективного материала; они оперируют либо словами без объективного материала, либо объективным материалом без слов.",
+  "traduccion": "Así, los métodos tradicionales de investigación de los conceptos se caracterizan por igual por separar la palabra del material objetivo: operan o bien con palabras sin material objetivo, o bien con material objetivo sin palabras.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-043",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Но это речевое мышление не исчерпывает ни всех форм мысли, ни всех форм речи.",
+  "traduccion": "Pero este pensamiento verbal no agota ni todas las formas del pensamiento ni todas las formas del habla.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 4",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-044",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Этот вопрос решается на основании фактической принадлежности или фактического родства между людьми.",
+  "traduccion": "Esta cuestión se resuelve por la pertenencia de hecho o por el parentesco efectivo entre las personas.",
+  "temas": [
+   "vinculos",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-045",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Вместо ассоциации по сходству, здесь действуют скорее ассоциации по контрасту.",
+  "traduccion": "En lugar de la asociación por semejanza, aquí actúan más bien asociaciones por contraste.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-046",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Значение слова тем самым передвигается по звеньям комплексной цепи.",
+  "traduccion": "El significado de la palabra se desplaza así por los eslabones de la cadena compleja.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-047",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "В цепном комплексе структурный центр может отсутствовать вовсе.",
+  "traduccion": "En el complejo en cadena, el centro estructural puede faltar por completo.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-048",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Часто отдаленного сходства, самого поверхностного касания признаков оказывается достаточным для образования фактической связи.",
+  "traduccion": "Con frecuencia basta una semejanza lejana, un mero roce superficial de rasgos, para formar una conexión de hecho.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-049",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Нам могли бы возразить, что это употребленное нами сослагательное наклонение говорит скорее против эксперимента, чем за него.",
+  "traduccion": "Podrían objetarnos que este modo condicional que empleamos habla más contra el experimento que a favor de él.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-050",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Для самого ребенка существуют комплексы, эквивалентные понятиям взрослых, т. е. псевдопонятия.",
+  "traduccion": "Para el propio niño existen complejos equivalentes a los conceptos de los adultos, es decir, seudoconceptos.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-051",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Если судить по внешнему сходству, то псевдопонятие так же похоже на истинное понятие, как кит—на рыбу.",
+  "traduccion": "Si se juzga por la semejanza externa, el seudoconcepto se parece al concepto verdadero como la ballena al pez.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-052",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Проще говоря, ребенок не создает своей речи, но усваивает готовую речь окружающих его взрослых.",
+  "traduccion": "Dicho más sencillamente, el niño no crea su habla, sino que incorpora el habla ya hecha de los adultos que lo rodean.",
+  "temas": [
+   "infancia",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-053",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Именно благодаря этому возникает огромное функциональное значение псевдопонятия как особой двойственной внутренне противоречивой формы детского мышления.",
+  "traduccion": "Precisamente por eso surge la enorme importancia funcional del seudoconcepto como forma particular, dual e internamente contradictoria, del pensamiento infantil.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-054",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Речевое общение со взрослыми становится таким образом мощным двигателем, могучим фактором развития детских понятий.",
+  "traduccion": "La comunicación verbal con los adultos se convierte así en un motor poderoso, en un factor potente del desarrollo de los conceptos infantiles.",
+  "temas": [
+   "vinculos",
+   "infancia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-055",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Таким образом создается своеобразное генетическое положение, представляющее скорее общее правило, нежели исключение, во всем интеллектуальном развитии ребенка.",
+  "traduccion": "Así se crea una situación genética peculiar, que representa más una regla general que una excepción en todo el desarrollo intelectual del niño.",
+  "temas": [
+   "infancia",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-056",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Развитие не есть простая функция, полностью определяемая икс единицами наследственности плюс игрек единиц среды.",
+  "traduccion": "El desarrollo no es una función simple, determinada por completo por x unidades de herencia más y unidades de medio.",
+  "temas": [
+   "cambio",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-057",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Эту особенность примитивного мышления, составляющую очевидно свойство мышления на его ранних генетических ступенях, называют обычно партиципацией.",
+  "traduccion": "A esta característica del pensamiento primitivo, que es evidentemente una propiedad del pensamiento en sus etapas genéticas tempranas, suele llamársela participación.",
+  "temas": [
+   "conocimiento",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-058",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Это не имя, которое они себе присваивают, это не родство, на котором они настаивают.",
+  "traduccion": "No es un nombre que se atribuyen, no es un parentesco sobre el que insisten.",
+  "temas": [
+   "identidad",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-059",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "В основе этого мышления лежит наглядная группа конкретных предметов.",
+  "traduccion": "En la base de este pensamiento se halla un grupo concreto y visible de objetos.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-060",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Первоначально оно означало шов, место соединения двух кусков ткани, нечто сотканное вместе.",
+  "traduccion": "Originalmente significaba la costura, el lugar de unión de dos trozos de tela, algo tejido junto.",
+  "temas": [
+   "cultura",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-061",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Выделяется какой-нибудь конкретный признак, по которому предмет получает свое название.",
+  "traduccion": "Se destaca algún rasgo concreto según el cual el objeto recibe su nombre.",
+  "temas": [
+   "conocimiento",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-062",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "По выражению Потебни, язык есть средство понимать самого себя.",
+  "traduccion": "En palabras de Potebnia, el lenguaje es el medio para comprenderse a sí mismo.",
+  "temas": [
+   "conocimiento",
+   "cultura"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-063",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Псевдопонятия составляют не только исключительное достояние ребенка.",
+  "traduccion": "Los seudoconceptos no son un patrimonio exclusivo del niño.",
+  "temas": [
+   "infancia",
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-064",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "В этом отношении комплексное мышление оказывается беспомощным.",
+  "traduccion": "En este sentido, el pensamiento en complejos resulta impotente.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-065",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Оно беднее псевдопонятия потому, что связи, на которых держится это построение, чрезвычайно бедны, они исчерпываются только смутным впечатлением общности или максимального сходства.",
+  "traduccion": "Es más pobre que el seudoconcepto porque las conexiones sobre las que se sostiene esa construcción son extremadamente pobres: se agotan en la vaga impresión de comunidad o de máxima semejanza.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-066",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Это не понятие, но это нечто такое, что может стать таковым.",
+  "traduccion": "No es un concepto, pero es algo que puede llegar a serlo.",
+  "temas": [
+   "conocimiento",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-067",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "И такое явление действительно заслуживает названия потенциального понятия.",
+  "traduccion": "Y un fenómeno así merece en verdad el nombre de concepto potencial.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ },
+ {
+  "id": "lev-vygotsky-068",
+  "fuente": "vygotsky-pensamiento-lenguaje",
+  "original": "Представления этих трех деревьев могут быть разложены на свои составные части, из которых каждая обозначает форму, цвет или величину отдельных деревьев.",
+  "traduccion": "Las representaciones de estos tres árboles pueden descomponerse en sus partes componentes, cada una de las cuales designa la forma, el color o el tamaño de los árboles individuales.",
+  "temas": [
+   "conocimiento"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-13",
+  "verificada": true,
+  "ubicacion": "Capítulo 5",
+  "url": "https://www.marxists.org/russkij/vygotsky/1934/thinking-speech.pdf"
+ }
+]
