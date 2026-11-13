@@ -1,6 +1,6 @@
 # «Voces que nos habitan» — informe de verificación
 
-Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
+Generado por `herramientas/verificar_voces.py` el 2026-11-13. No editar a mano.
 
 ## Autores incorporados
 
@@ -11,6 +11,7 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
 | Sigmund Freud | 50 | 50 | 8 | completo (≥ 50) |
 | William James | 51 | 51 | 6 | completo (≥ 50) |
 | Alfred Adler | 51 | 51 | 1 | completo (≥ 50) |
+| Otto Rank | 51 | 51 | 4 | completo (≥ 50) |
 | Karen Horney | 51 | 51 | 1 | completo (≥ 50) |
 | Platón | 53 | 53 | 8 | completo (≥ 50) |
 | Aristóteles | 52 | 52 | 3 | completo (≥ 50) |
@@ -26,6 +27,7 @@ Generado por `herramientas/verificar_voces.py` el 2026-11-12. No editar a mano.
 | Buda | 52 | 52 | 1 | completo (≥ 50) |
 | Lao-tse | 52 | 52 | 1 | completo (≥ 50) |
 | Patanjali | 52 | 52 | 1 | completo (≥ 50) |
+| Otto Rank | 51 | 51 | 4 | completo (≥ 50) |
 | Sándor Ferenczi | 50 | 50 | 2 | completo (≥ 50) |
 | Wilhelm Wundt | 50 | 50 | 3 | completo (≥ 50) |
 | Edmund Husserl | 61 | 61 | 1 | completo (≥ 50) |
@@ -113,7 +115,6 @@ Ninguna.
 | Erikson | 1902–1994 | Obra protegida por derechos de autor hasta el 2065 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Bowlby | 1907–1990 | Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Ainsworth | 1913–1999 | Obra protegida por derechos de autor hasta el 2070 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Rank | 1884–1939 | Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias. |
 | Reich | 1897–1957 | Obra protegida por derechos de autor hasta el 2028 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Langer | 1910–1987 | Obra protegida por derechos de autor hasta el 2058 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
 | Binswanger | 1881–1966 | Obra protegida por derechos de autor hasta el 2037 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
@@ -128,7 +129,6 @@ Ninguna.
 | Grof | n. 1931 | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Wilber | n. 1949 | Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial. |
 | Assagioli | 1888–1974 | Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial. |
-| Otto Rank | 1884–1939 | Colección incompleta: 18 citas verificadas de 50 (solo dos libros en inglés de dominio público accesibles). Faltan ediciones de sus obras en alemán. No publicado. |
 | Harry Stack Sullivan | 1892–1949 | Psiquiatría interpersonal. Sus libros en Internet Archive están en préstamo restringido, sin texto accesible. Pendiente. |
 | Iván Pávlov | 1849–1936 | Reflejos condicionados. Las lecciones rusas de 1927 están en préstamo restringido. Pendiente: buscar otra edición accesible. |
 | Lev Vygotski | 1896–1934 | Psicología del desarrollo. Las traducciones disponibles tienen derechos vigentes y no pude acceder a un original ruso de dominio público. Pendiente. |
@@ -218,3 +218,6 @@ Ninguna.
 - `wundt-lecciones-alma` — *Vorlesungen über die Menschen- und Thierseele* (1892), Edición alemana (1892), digitalizada en Internet Archive <https://archive.org/download/vorlesungenueber00wunduoft/vorlesungenueber00wunduoft_djvu.txt> — Wundt murió en 1920.
 - `wundt-etica-1903` — *Ethik. Eine Untersuchung der Tatsachen und Gesetze des sittlichen Lebens (2.ª ed.)* (1903), Segunda edición alemana (1903), digitalizada en Internet Archive <https://archive.org/download/ethikeineunters02wundgoog/ethikeineunters02wundgoog_djvu.txt> — Wundt murió en 1920.
 - `wundt-volkerpsychologie` — *Grundzüge der Völkerpsychologie / Ausdrucksbewegungen y afectos (texto de Wundt)* (1904), Edición alemana digitalizada en Internet Archive <https://archive.org/download/b28118996/b28118996_djvu.txt> — Wundt murió en 1920.
+- `rank-trauma-aleman` — *Das Trauma der Geburt und seine Bedeutung für die Psychoanalyse* (1924), Primera edición alemana (1924), digitalizada en Internet Archive <https://archive.org/download/DasTraumaDerGeburtUndSeineBedeutungFrDiePsychoanalyse/Rank_1924_Trauma_djvu.txt> — Rank murió en 1939.
+- `rank-mythus-aleman` — *Der Mythus von der Geburt des Helden* (1909), Segunda edición alemana (1922), digitalizada en Internet Archive <https://archive.org/download/Rank_1922_Geburt_des_Helden_2te_k/Rank_1922_Geburt_des_Helden_2te_k_djvu.txt> — Rank murió en 1939.
+- `rank-mythenforschung` — *Psychoanalytische Beiträge zur Mythenforschung* (1922), Segunda edición alemana (1922), digitalizada en Internet Archive <https://archive.org/download/psychoanalytisch0000drot/psychoanalytisch0000drot_djvu.txt> — Rank murió en 1939.
