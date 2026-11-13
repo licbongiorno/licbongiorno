@@ -108,7 +108,7 @@ def tipos(nodo, acc):
             tipos(v, acc)
 
 
-paginas = sorted(PUB.rglob("*.html"))
+paginas = sorted(f for f in PUB.rglob("*.html") if not f.name.startswith("yandex_"))  # archivos de verificación de webmaster, no son páginas
 for f in paginas:
     rel = "/" + str(f.relative_to(PUB)).replace("index.html", "")
     a = Analizador()
