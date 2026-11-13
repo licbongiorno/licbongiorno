@@ -997,6 +997,7 @@ p, li, blockquote { orphans: 3; widows: 3; }
 .marca { flex: 0 1 auto; }
 .marca, .marca__texto { min-width: 0; }
 .marca__rol { white-space: normal; line-height: 1.35; }
+@media (min-width: 901px) { .marca__rol { white-space: nowrap; } }
 @media (max-width: 480px) { .marca__rol { font-size: .6rem; letter-spacing: .06em; } }
 @media (max-width: 1080px) {
 .cabecera__movil { display: inline-flex; }

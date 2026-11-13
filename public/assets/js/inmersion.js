@@ -1,13 +1,29 @@
-/* Inmersión en la portada: partículas que responden al cursor y una leve inclinación del umbral.
-   Solo escritorio con puntero fino; con movimiento reducido o pantallas chicas no hace nada.
-   Se pausa cuando el hero no está en pantalla. No envía nada a ningún servidor. */
+/* Inmersión en la portada: el enso de fondo gira al bajar (todas las pantallas);
+   partículas que responden al cursor y una leve inclinación del umbral (solo escritorio con puntero fino).
+   Con movimiento reducido no hace nada. Se pausa cuando el hero no está en pantalla. No envía nada a ningún servidor. */
 (function () {
   "use strict";
   var hero = document.querySelector(".hero");
   if (!hero) return;
   var reducir = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reducir) return;
   var puntero = window.matchMedia && window.matchMedia("(min-width: 901px) and (pointer: fine)").matches;
-  if (reducir || !puntero) return;
+
+  // ---------- Camino hacia adentro: el enso de fondo gira al bajar ----------
+  var enso = hero.querySelector(".hero__fondo svg");
+  var pendienteScroll = false;
+  function alDesplazar() {
+    pendienteScroll = false;
+    var alto = Math.max(hero.offsetHeight * 0.9, 1);
+    var p = Math.min(Math.max(window.scrollY / alto, 0), 1);
+    if (enso) { enso.style.transformOrigin = "50% 50%"; enso.style.transform = "rotate(" + (p * 120).toFixed(1) + "deg)"; }
+  }
+  window.addEventListener("scroll", function () {
+    if (!pendienteScroll) { pendienteScroll = true; requestAnimationFrame(alDesplazar); }
+  }, { passive: true });
+  alDesplazar();
+
+  if (!puntero) return;
 
   // Estilo mínimo del lienzo, inyectado aquí para no tocar la hoja principal.
   var css = ".hero__motas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}" +
