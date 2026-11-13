@@ -1218,5 +1218,39 @@
   ],
   "edicion": "Edición alemana digitalizada en Internet Archive",
   "dominio_publico": "Wundt murió en 1920."
+ },
+ "rank-trauma-aleman": {
+  "titulo": "Das Trauma der Geburt und seine Bedeutung für die Psychoanalyse",
+  "titulo_es": "El trauma del nacimiento y su significado para el psicoanálisis",
+  "anio": 1924,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/DasTraumaDerGeburtUndSeineBedeutungFrDiePsychoanalyse/Rank_1924_Trauma_djvu.txt"
+  ],
+  "edicion": "Primera edición alemana (1924), digitalizada en Internet Archive",
+  "dominio_publico": "Rank murió en 1939."
+ },
+ "rank-mythus-aleman": {
+  "titulo": "Der Mythus von der Geburt des Helden",
+  "titulo_es": "El mito del nacimiento del héroe",
+  "anio": 1909,
+  "anio_texto": "1909 (2.ª ed. 1922)",
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/Rank_1922_Geburt_des_Helden_2te_k/Rank_1922_Geburt_des_Helden_2te_k_djvu.txt"
+  ],
+  "edicion": "Segunda edición alemana (1922), digitalizada en Internet Archive",
+  "dominio_publico": "Rank murió en 1939."
+ },
+ "rank-mythenforschung": {
+  "titulo": "Psychoanalytische Beiträge zur Mythenforschung",
+  "titulo_es": "Aportes psicoanalíticos a la investigación de los mitos",
+  "anio": 1922,
+  "idioma": "de",
+  "urls": [
+   "https://archive.org/download/psychoanalytisch0000drot/psychoanalytisch0000drot_djvu.txt"
+  ],
+  "edicion": "Segunda edición alemana (1922), digitalizada en Internet Archive",
+  "dominio_publico": "Rank murió en 1939."
  }
 }

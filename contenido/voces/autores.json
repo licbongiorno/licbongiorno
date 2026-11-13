@@ -407,8 +407,35 @@
   },
   {
    "slug": "otto-rank",
-   "estado": "pendiente",
-   "motivo": "Dominio público. Pendiente: reunir y verificar 50 citas en fuentes primarias."
+   "estado": "incorporado",
+   "incorporado": "2026-11-13",
+   "destacado": false,
+   "nombre": "Otto Rank",
+   "nombre_completo": "Otto Rank (nacido Otto Rosenfeld)",
+   "nacimiento": "22 de abril de 1884, Viena (Austria)",
+   "muerte": "31 de octubre de 1939, Nueva York (Estados Unidos)",
+   "epoca": "moderno",
+   "nacionalidad": "Austríaco",
+   "disciplinas": [
+    "Psicoanálisis",
+    "Psicología"
+   ],
+   "corriente": "Psicoanálisis (escuela de Viena)",
+   "bio": "Psicoanalista austríaco y colaborador cercano de Freud en los primeros años del movimiento psicoanalítico. Propuso el trauma del nacimiento como matriz de la angustia y estudió el mito del nacimiento del héroe y la «novela familiar» del neurótico. Su distanciamiento de la ortodoxia freudiana dio paso a una psicología centrada en la voluntad, la individuación y la separación.",
+   "aportes": [
+    "El trauma del nacimiento como matriz de la angustia",
+    "El mito del nacimiento del héroe y sus motivos recurrentes",
+    "La «novela familiar» del neurótico",
+    "La terapia de la voluntad y el valor de la separación"
+   ],
+   "obras": [
+    "Der Mythus von der Geburt des Helden (1909; 2.ª ed. 1922)",
+    "Das Trauma der Geburt und seine Bedeutung für die Psychoanalyse (1924)",
+    "Psychoanalytische Beiträge zur Mythenforschung",
+    "The Trauma of Birth (1929, traducción inglesa)"
+   ],
+   "relacion": "Rank fue secretario y colaborador de Freud. Su libro sobre el trauma del nacimiento lo llevó a separarse de la ortodoxia psicoanalítica y a desarrollar una psicología de la voluntad y la separación.",
+   "nota_citas": "Textos alemanes de 1922 y 1924 y edición inglesa de 1929, digitalizados en Internet Archive. Rank murió en 1939: su obra es de dominio público. Las traducciones al español son propias de Lo que te habita; las citas de la edición inglesa se traducen desde la versión inglesa."
   },
   {
    "slug": "karen-horney",
@@ -958,12 +985,6 @@
    "slug": "roberto-assagioli",
    "estado": "pendiente",
    "motivo": "Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
-  },
-  {
-   "slug": "otto-rank",
-   "estado": "pendiente",
-   "motivo": "Colección incompleta: 18 citas verificadas de 50 (solo dos libros en inglés de dominio público accesibles). Faltan ediciones de sus obras en alemán. No publicado.",
-   "nombre": "Otto Rank"
   },
   {
    "slug": "sandor-ferenczi",
