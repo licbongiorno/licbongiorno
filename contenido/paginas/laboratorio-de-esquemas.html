@@ -1,0 +1,157 @@
+<!--{
+  "ruta": "/laboratorio-de-esquemas/",
+  "titulo": "Laboratorio de terapia de esquemas: los 18 esquemas y los modos",
+  "descripcion": "Ejercicios de terapia de esquemas según Jeffrey Young: los cinco dominios, los 18 esquemas, los modos y un diálogo entre el crítico y el adulto sano.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Terapia de esquemas", "/laboratorio-de-esquemas/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>terapia de esquemas</em>",
+  "bajada": "Hay patrones que se formaron cuando éramos chicos y siguen funcionando como trampas: abandono, vergüenza, sacrificarse por todos. Ejercicios para reconocerlos y responderles desde el adulto que sos hoy.",
+  "respuesta": "El laboratorio de terapia de esquemas propone ejercicios basados en el modelo de Jeffrey Young (Young, Klosko y Weishaar, Schema Therapy, 2003): los cinco dominios de necesidades infantiles no satisfechas, los 18 esquemas desadaptativos tempranos, los modos (niño vulnerable, crítico, protector desapegado, adulto sano) y un diálogo entre modos para fortalecer al adulto sano. No es un test diagnóstico ni reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el laboratorio de terapia de esquemas",
+  "articulos": ["patrones-que-se-repiten-en-los-vinculos", "el-apego"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Jeffrey Young, psicólogo formado en terapia cognitiva junto a Aaron Beck, notó que algunas personas no mejoraban con las técnicas habituales: sus problemas tenían raíces profundas y repetían los mismos patrones toda la vida. Desarrolló la <strong>terapia de esquemas</strong>, que integra la terapia cognitiva con ideas del apego, la Gestalt y el psicoanálisis.</p>
+        <p>Un <strong>esquema desadaptativo temprano</strong> es un patrón amplio de recuerdos, emociones, pensamientos y sensaciones que se forma en la infancia cuando necesidades básicas (seguridad, afecto, autonomía, límites, espontaneidad) no fueron satisfechas. En la adultez se activa ante situaciones que se parecen a las de entonces y nos hace reaccionar como si lo de antes estuviera pasando de nuevo. Young y Janet Klosko los llamaron también «trampas vitales» (<em>Reinventing Your Life</em>, 1993).</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>No es un test.</strong> Reconocerte en un esquema no es un diagnóstico.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con ternura.</strong> Los esquemas fueron, alguna vez, la mejor forma de adaptarte.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#dominios">Los cinco dominios</a>
+      <a href="#reconocer">¿Qué esquema es?</a>
+      <a href="#mis-esquemas">Los que reconozco</a>
+      <a href="#modos">Los modos</a>
+      <a href="#dialogo">Diálogo de modos</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="dominios" aria-labelledby="t-dominios">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-dominios">Los cinco dominios</h2>
+      <p class="lab-estacion__bajada">Young agrupó los 18 esquemas en cinco dominios, según qué necesidad infantil quedó sin satisfacer. Investigaciones posteriores sugieren que pueden agruparse en menos dominios, pero esta organización sigue siendo útil para pensar. Elegí un dominio para ver sus esquemas.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un dominio">
+          <label class="opcion"><input type="radio" name="es-dom" value="desconexion" checked><span>Desconexión y rechazo</span></label>
+          <label class="opcion"><input type="radio" name="es-dom" value="autonomia"><span>Autonomía deteriorada</span></label>
+          <label class="opcion"><input type="radio" name="es-dom" value="limites"><span>Límites deficitarios</span></label>
+          <label class="opcion"><input type="radio" name="es-dom" value="otros"><span>Orientación hacia los demás</span></label>
+          <label class="opcion"><input type="radio" name="es-dom" value="vigilancia"><span>Sobrevigilancia e inhibición</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="desconexion"><p><strong>Necesidad no cubierta:</strong> seguridad, afecto, aceptación, pertenencia.</p><ul><li><strong>Abandono:</strong> «la gente que quiero se va a ir».</li><li><strong>Desconfianza y abuso:</strong> «los demás me van a lastimar o aprovechar».</li><li><strong>Privación emocional:</strong> «nadie va a entender ni cubrir lo que necesito».</li><li><strong>Imperfección y vergüenza:</strong> «si me conocen de verdad, me van a rechazar».</li><li><strong>Aislamiento social:</strong> «no pertenezco, soy distinto».</li></ul></div>
+        <div class="lab-panel" data-lab-panel="autonomia" hidden><p><strong>Necesidad no cubierta:</strong> autonomía, competencia, identidad propia.</p><ul><li><strong>Dependencia e incompetencia:</strong> «no puedo arreglármelas solo».</li><li><strong>Vulnerabilidad al daño:</strong> «en cualquier momento va a pasar algo terrible».</li><li><strong>Apego confuso o yo inmaduro:</strong> «no sé quién soy sin mi madre, mi padre o mi pareja».</li><li><strong>Fracaso:</strong> «soy menos capaz que los demás».</li></ul></div>
+        <div class="lab-panel" data-lab-panel="limites" hidden><p><strong>Necesidad no cubierta:</strong> límites realistas, autocontrol.</p><ul><li><strong>Grandiosidad o derecho:</strong> «las reglas son para otros».</li><li><strong>Autocontrol insuficiente:</strong> «no tolero la frustración ni el esfuerzo».</li></ul></div>
+        <div class="lab-panel" data-lab-panel="otros" hidden><p><strong>Necesidad no cubierta:</strong> expresar necesidades y emociones propias.</p><ul><li><strong>Subyugación:</strong> «si no hago lo que quieren, me van a castigar o dejar».</li><li><strong>Autosacrificio:</strong> «primero los demás; mis necesidades no importan».</li><li><strong>Búsqueda de aprobación:</strong> «valgo si me reconocen».</li></ul></div>
+        <div class="lab-panel" data-lab-panel="vigilancia" hidden><p><strong>Necesidad no cubierta:</strong> espontaneidad, juego, disfrute.</p><ul><li><strong>Negatividad y pesimismo:</strong> «algo va a salir mal».</li><li><strong>Inhibición emocional:</strong> «mostrar lo que siento es peligroso o vergonzoso».</li><li><strong>Normas inalcanzables:</strong> «nunca es suficiente, tengo que ser el mejor».</li><li><strong>Castigo:</strong> «quien se equivoca merece ser castigado, yo incluido».</li></ul></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="reconocer" aria-labelledby="t-reconocer">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-reconocer">¿Qué esquema es?</h2>
+      <p class="lab-estacion__bajada">Para practicar: ¿qué esquema parece activarse en cada situación?</p>
+      <div class="lab-tarjeta" data-lab-quiz="esquemas">
+        <p class="lab-tarjeta__titulo">¿Qué esquema se activa?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mis-esquemas" aria-labelledby="t-mis-esquemas">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-mis-esquemas">Los que reconozco</h2>
+      <p class="lab-estacion__bajada">Pensá en un esquema que reconozcas en tu vida. Para trabajarlo, Young propone entender su origen, ver cómo se mantiene y reconocer las tres formas en que solemos responder: <strong>rendirnos</strong> a él (actuar como si fuera verdad), <strong>evitarlo</strong> (no meternos en situaciones que lo activen) o <strong>sobrecompensarlo</strong> (hacer lo contrario de forma exagerada).</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="un-esquema-que-reconozco" data-lab-form-titulo="Un esquema que reconozco" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-cual">El esquema</label><input class="lab-campo" id="es-cual" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-origen">¿Dónde se formó? ¿Qué necesidad no fue cubierta?</label><textarea class="lab-texto" id="es-origen" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-activa">¿Qué lo activa hoy?</label><textarea class="lab-texto" id="es-activa" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-respondo">¿Cómo respondo: me rindo, lo evito o lo sobrecompenso?</label><textarea class="lab-texto" id="es-respondo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-precio">¿Qué precio pago?</label><textarea class="lab-texto" id="es-precio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="modos" aria-labelledby="t-modos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-modos">Los modos</h2>
+      <p class="lab-estacion__bajada">Los esquemas son rasgos estables; los <strong>modos</strong> son los estados que se activan en un momento dado, y todos los tenemos. Se agrupan en modos infantiles, modos de afrontamiento, modos parentales internalizados y el adulto sano. Elegí uno para verlo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un modo">
+          <label class="opcion"><input type="radio" name="es-modo" value="vulnerable" checked><span>Niño vulnerable</span></label>
+          <label class="opcion"><input type="radio" name="es-modo" value="enojado"><span>Niño enojado</span></label>
+          <label class="opcion"><input type="radio" name="es-modo" value="critico"><span>Crítico punitivo o exigente</span></label>
+          <label class="opcion"><input type="radio" name="es-modo" value="protector"><span>Protector desapegado</span></label>
+          <label class="opcion"><input type="radio" name="es-modo" value="adulto"><span>Adulto sano</span></label>
+          <label class="opcion"><input type="radio" name="es-modo" value="feliz"><span>Niño feliz</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="vulnerable"><p>Se siente solo, asustado, triste, avergonzado o desvalido. Es la parte que guarda el dolor original. Necesita cuidado y protección.</p></div>
+        <div class="lab-panel" data-lab-panel="enojado" hidden><p>Se enfurece porque sus necesidades no se cubren. Su enojo tiene una razón, aunque a veces la forma de expresarlo no ayude.</p></div>
+        <div class="lab-panel" data-lab-panel="critico" hidden><p>La voz interna que castiga, humilla o exige sin descanso. Suele parecerse a figuras de la infancia. En terapia de esquemas, este modo no se negocia: se le pone un límite.</p></div>
+        <div class="lab-panel" data-lab-panel="protector" hidden><p>Se desconecta para no sentir: se aísla, se anestesia con pantallas, comida o trabajo. Protegió en su momento, pero hoy deja al niño vulnerable solo.</p></div>
+        <div class="lab-panel" data-lab-panel="adulto" hidden><p>Cuida al niño vulnerable, pone límites al crítico, contiene al niño enojado y deja espacio al juego. Fortalecerlo es el objetivo central de la terapia.</p></div>
+        <div class="lab-panel" data-lab-panel="feliz" hidden><p>Juega, disfruta, se siente querido y conectado. Aparece cuando las necesidades están cubiertas.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="dialogo" aria-labelledby="t-dialogo">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-dialogo">Diálogo de modos</h2>
+      <p class="lab-estacion__bajada">La terapia de esquemas usa diálogos entre modos, a veces con sillas, como en la Gestalt. Pensá en una situación reciente que te dolió y escribí lo que dice cada parte. Al final, que hable el adulto sano.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dialogo-de-modos" data-lab-form-titulo="Diálogo de modos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-situacion">La situación</label><input class="lab-campo" id="es-situacion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-nino">El niño vulnerable siente…</label><textarea class="lab-texto" id="es-nino" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-critico">El crítico dice…</label><textarea class="lab-texto" id="es-critico" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-protector">El protector quiere…</label><textarea class="lab-texto" id="es-protector" rows="2" placeholder="Por ejemplo: «no pensar más en esto, mirar series hasta tarde»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-adulto-nino">El adulto sano le dice al niño…</label><textarea class="lab-texto" id="es-adulto-nino" rows="2" placeholder="«Es lógico que te duela. Estoy acá, no estás solo»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-adulto-critico">El adulto sano le pone un límite al crítico…</label><textarea class="lab-texto" id="es-adulto-critico" rows="2" placeholder="«No te voy a dejar que lo trates así»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="es-hacer">Y decide hacer…</label><input class="lab-campo" id="es-hacer" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="esquemas">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Los dominios.</strong> Leé los cinco y marcá cuál resuena más.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Un esquema.</strong> Completá el ejercicio con el esquema que más reconocés.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Cuándo se activa.</strong> Notá en qué momento del día aparece.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. El modo.</strong> Cuando reacciones fuerte, preguntate qué modo está al mando.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. El niño.</strong> Hacé algo de cuidado por tu niño vulnerable.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un límite al crítico.</strong> Respondele con la voz del adulto sano.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Jugar.</strong> Dale espacio al niño feliz: algo solo por disfrute.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Los esquemas tocan heridas tempranas, a veces muy dolorosas. Reconocerse en uno puede traer tristeza o enojo intensos. La terapia de esquemas se basa en una relación terapéutica que ofrece, en parte, lo que faltó: por eso estos ejercicios rinden mucho más acompañados. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Young, J. E. y Klosko, J. S. (1993). <em>Reinventing Your Life</em> (en castellano, <em>Reinventa tu vida</em>).</li>
+        <li>Young, J. E., Klosko, J. S. y Weishaar, M. E. (2003). <em>Schema Therapy: A Practitioner's Guide</em> (en castellano, <em>Terapia de esquemas</em>). Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

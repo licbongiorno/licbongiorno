@@ -1,0 +1,139 @@
+<!--{
+  "ruta": "/laboratorio-compasion-tres-sistemas/",
+  "titulo": "Terapia de la compasión nivel 1: los tres sistemas",
+  "descripcion": "Nivel básico de la terapia focalizada en la compasión de Paul Gilbert: los sistemas de amenaza, logro y calma, la respiración calmante y el lugar seguro.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Compasión nivel 1", "/laboratorio-compasion-tres-sistemas/"]],
+  "antetitulo": "Terapia focalizada en la compasión · Nivel 1, básico",
+  "h1": "Compasión: <em>los tres sistemas</em>",
+  "bajada": "Tu cerebro tiene tres formas de regular las emociones: protegerse, conseguir y calmarse. Cuando la tercera está débil, las otras dos se desbordan. Ejercicios para equilibrarlas.",
+  "respuesta": "El nivel básico de la terapia focalizada en la compasión propone ejercicios basados en Paul Gilbert (The Compassionate Mind, 2009): el modelo de los tres sistemas de regulación emocional (amenaza, logro y calma), un medidor para ver cómo están equilibrados, la respiración de ritmo calmante y la imaginería del lugar seguro. Es la puerta de entrada a dos niveles más: el yo compasivo y los tres flujos de la compasión. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el nivel básico de terapia focalizada en la compasión",
+  "articulos": ["inteligencia-emocional"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El psicólogo británico Paul Gilbert desarrolló la <strong>terapia focalizada en la compasión</strong> para personas con mucha vergüenza y autocrítica, que entendían racionalmente que no eran culpables de todo, pero no podían <em>sentirlo</em>. Gilbert integra la psicología evolutiva, la neurociencia y prácticas contemplativas (<em>The Compassionate Mind</em>, 2009).</p>
+        <p>Su punto de partida es que tenemos tres sistemas de regulación emocional, que evolucionaron para funciones distintas. Muchos problemas aparecen cuando el sistema de amenaza y el de logro dominan, y el de calma, ligado al afecto y la conexión, quedó poco desarrollado. La compasión, para Gilbert, no es debilidad ni lástima: es la sensibilidad al sufrimiento, propio y ajeno, junto con el compromiso de aliviarlo. Este es el primer nivel; en el sitio también está el <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a>, basado en Kristin Neff.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>No es tu culpa.</strong> Tu cerebro fue diseñado así; lo que podés hacer es entrenarlo.</li>
+        <li><strong>Sin registro.</strong> Lo que marques queda en tu dispositivo.</li>
+        <li><strong>Con práctica.</strong> La compasión se entrena como un músculo.</li>
+      </ul>
+    </div>
+
+    <section class="revelar" aria-labelledby="t-niveles" style="margin:2rem 0">
+      <div class="prosa"><h2 id="t-niveles">Los tres niveles</h2></div>
+      <div class="lab-necesidades">
+        <a class="lab-tarjeta" href="/laboratorio-compasion-tres-sistemas/"><h3>Nivel 1, básico: los tres sistemas</h3><p>Amenaza, logro y calma, la respiración de ritmo calmante y el lugar seguro. Estás acá.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-compasion-yo-compasivo/"><h3>Nivel 2, medio: el yo compasivo</h3><p>Las cualidades del yo compasivo, autocrítica frente a autocorrección compasiva, y la imaginería.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-compasion-tres-flujos/"><h3>Nivel 3, avanzado: los tres flujos</h3><p>Compasión hacia otros, desde otros y hacia uno, y los miedos a la compasión.</p></a>
+      </div>
+    </section>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#sistemas">Los tres sistemas</a>
+      <a href="#balance">Mi equilibrio</a>
+      <a href="#respiracion">Respiración de ritmo calmante</a>
+      <a href="#lugar">El lugar seguro</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="sistemas" aria-labelledby="t-sistemas">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-sistemas">Los tres sistemas</h2>
+      <p class="lab-estacion__bajada">Elegí un sistema para ver qué hace, qué emociones trae y qué pasa cuando domina.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un sistema">
+          <label class="opcion"><input type="radio" name="cf-sis" value="amenaza" checked><span>Amenaza</span></label>
+          <label class="opcion"><input type="radio" name="cf-sis" value="logro"><span>Logro</span></label>
+          <label class="opcion"><input type="radio" name="cf-sis" value="calma"><span>Calma</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="amenaza"><p><strong>Para qué sirve:</strong> detectar peligros y protegernos. Es rápido y prioriza lo negativo: «mejor prevenir que curar».</p><p><strong>Emociones:</strong> ansiedad, enojo, asco, miedo.</p><p><strong>Cuando domina:</strong> vivimos en guardia, con autocrítica, rumiación y sensación de peligro constante.</p></div>
+        <div class="lab-panel" data-lab-panel="logro" hidden><p><strong>Para qué sirve:</strong> buscar recursos, alcanzar metas, conseguir lo que necesitamos.</p><p><strong>Emociones:</strong> entusiasmo, excitación, placer de conseguir.</p><p><strong>Cuando domina:</strong> nunca alcanza, se vive corriendo, y el valor propio depende de los resultados.</p></div>
+        <div class="lab-panel" data-lab-panel="calma" hidden><p><strong>Para qué sirve:</strong> descansar, sentirse a salvo, conectar. Se activa con el afecto, el cuidado y la pertenencia.</p><p><strong>Emociones:</strong> calma, satisfacción, sentirse seguro y querido.</p><p><strong>Cuando está débil:</strong> no sabemos calmarnos, y la única forma de sentirnos bien es lograr cosas o eliminar amenazas.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="balance" aria-labelledby="t-balance">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-balance">Mi equilibrio</h2>
+      <p class="lab-estacion__bajada">Gilbert suele dibujar los tres sistemas como círculos de distinto tamaño. Puntuá del 0 al 10 cuánto tiempo pasás en cada uno durante una semana típica.</p>
+      <div class="lab-tarjeta" data-cf-balance>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-amenaza">Amenaza: en guardia, preocupado, criticándome</label><input class="lab-campo" id="cf-amenaza" type="range" min="0" max="10" value="6"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-logro">Logro: haciendo, consiguiendo, corriendo</label><input class="lab-campo" id="cf-logro" type="range" min="0" max="10" value="6"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-calma">Calma: descansando, conectado, a salvo</label><input class="lab-campo" id="cf-calma" type="range" min="0" max="10" value="3"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tus tres círculos</p>
+          <div data-cf-circulos aria-hidden="true" style="display:flex;align-items:center;justify-content:center;gap:1rem;min-height:9rem;flex-wrap:wrap"></div>
+          <p class="lab-resultado__texto" data-cf-salida aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="respiracion" aria-labelledby="t-respiracion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-respiracion">Respiración de ritmo calmante</h2>
+      <p class="lab-estacion__bajada">Una de las prácticas de base de la terapia focalizada en la compasión: enlentecer la respiración para activar el sistema de calma. No se trata de respirar «bien», sino de encontrar un ritmo un poco más lento y suave que el habitual. Unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Postura.</strong> Sentate con la espalda erguida y los hombros sueltos, con una postura digna y relajada a la vez.</li>
+          <li><strong>Notar.</strong> Observá tu respiración como está, sin cambiarla.</li>
+          <li><strong>Enlentecer.</strong> Llevá la respiración a un ritmo más lento: unos cuatro segundos para inhalar y cuatro para exhalar, o lo que te resulte cómodo.</li>
+          <li><strong>Suavizar.</strong> Aflojá la cara y dejá que se dibuje una expresión amable, una media sonrisa.</li>
+          <li><strong>Sentir.</strong> Notá si aparece algo de calma, aunque sea mínima. No hace falta forzarla.</li>
+        </ol>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Si querés acompañar el ritmo con una guía visual, probá el <a href="/laboratorio-respirar-volver-al-presente/">visualizador de respiración</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="lugar" aria-labelledby="t-lugar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-lugar">El lugar seguro</h2>
+      <p class="lab-estacion__bajada">La imaginación activa sistemas del cuerpo como si lo imaginado estuviera pasando: si imaginás una comida rica, se te hace agua la boca. La terapia focalizada en la compasión usa esto para entrenar el sistema de calma. Imaginá un lugar, real o inventado, donde te sentís a salvo y bienvenido. No hace falta que la imagen sea nítida.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-lugar-seguro" data-lab-form-titulo="Mi lugar seguro" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-lugar">¿Cómo es el lugar? (colores, luz, sonidos, temperatura)</label><textarea class="lab-texto" id="cf-lugar" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-cuerpo">¿Qué siente tu cuerpo ahí?</label><input class="lab-campo" id="cf-cuerpo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-bienvenida">Imaginá que el lugar se alegra de que estés ahí. ¿Qué se siente?</label><textarea class="lab-texto" id="cf-bienvenida" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="compasion-sistemas">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Los círculos.</strong> Puntuá tus tres sistemas.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Notar la amenaza.</strong> Registrá cuándo se activa durante el día.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Respirar.</strong> Cinco minutos de respiración de ritmo calmante.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Calma sin logro.</strong> Hacé algo agradable que no tenga ningún objetivo.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. El lugar seguro.</strong> Visitalo en la imaginación unos minutos.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Conexión.</strong> Buscá un rato de afecto con alguien.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Volver a medir.</strong> ¿Cambió algo el tamaño de tus círculos?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> A algunas personas les cuesta mucho imaginar un lugar seguro, o la calma les despierta tristeza o miedo, sobre todo si nunca tuvieron mucha seguridad. No es un error: Gilbert lo describe y lo trabaja en el <a href="/laboratorio-compasion-tres-flujos/">nivel 3</a>. Si te pasa con intensidad, conviene acompañarlo en terapia: podés <a href="/contacto/">escribirme</a>. Seguí con el <a href="/laboratorio-compasion-yo-compasivo/">nivel 2: el yo compasivo</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Gilbert, P. (2009). <em>The Compassionate Mind</em> (en castellano, <em>La mente compasiva</em>). Constable.</li>
+        <li>Gilbert, P. (2010). <em>Compassion Focused Therapy: Distinctive Features</em>. Routledge.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

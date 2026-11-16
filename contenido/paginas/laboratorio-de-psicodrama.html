@@ -1,0 +1,151 @@
+<!--{
+  "ruta": "/laboratorio-de-psicodrama/",
+  "titulo": "Laboratorio de psicodrama: Moreno en la escena",
+  "descripcion": "Ejercicios del psicodrama de Jacob Levy Moreno: los instrumentos, las fases, la espontaneidad, el soliloquio, el doble y la inversión de roles.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Psicodrama", "/laboratorio-de-psicodrama/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>psicodrama</em>",
+  "bajada": "En lugar de contar lo que te pasa, ponerlo en escena. Ejercicios inspirados en Moreno, adaptados para hacer a solas: el soliloquio, el doble, la inversión de roles y armar una escena.",
+  "respuesta": "El laboratorio de psicodrama propone ejercicios inspirados en Jacob Levy Moreno, creador del psicodrama: los cinco instrumentos (protagonista, director, yo auxiliar, escenario y auditorio), las tres fases (caldeamiento, dramatización y compartir), la espontaneidad, y adaptaciones escritas de técnicas como el soliloquio, el doble, el espejo y la inversión de roles. El psicodrama se practica en grupo con un director formado; estos ejercicios son una introducción.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el laboratorio de psicodrama",
+  "articulos": ["la-empatia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Jacob Levy Moreno, psiquiatra nacido en Bucarest y formado en Viena, creó el <strong>psicodrama</strong> a principios del siglo XX, después de experimentar con el teatro de la espontaneidad. Su idea era que muchas cosas no se resuelven hablando sobre ellas, sino actuándolas: poner en escena el conflicto, con otros que asumen los papeles, permite verlo desde afuera, sentirlo de nuevo y probar respuestas distintas.</p>
+        <p>Para Moreno, la clave de la salud es la <strong>espontaneidad</strong>: la capacidad de responder de forma nueva a una situación conocida, o de forma adecuada a una situación nueva. El psicodrama se practica en grupo, con un director formado. Este laboratorio adapta algunas técnicas para hacerlas a solas, por escrito o en voz alta. También fue fuente de otras terapias: la silla vacía de la Gestalt tiene raíces en el psicodrama.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Actuar, no explicar.</strong> En voz alta, con el cuerpo, si podés.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con juego.</strong> La espontaneidad aparece cuando bajamos la exigencia.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#instrumentos">Los instrumentos y las fases</a>
+      <a href="#tecnicas">Las técnicas</a>
+      <a href="#escena">Armar una escena</a>
+      <a href="#inversion">Invertir los roles</a>
+      <a href="#doble">El doble</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="instrumentos" aria-labelledby="t-instrumentos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-instrumentos">Los instrumentos y las fases</h2>
+      <p class="lab-estacion__bajada">Una sesión de psicodrama tiene cinco instrumentos: el <strong>protagonista</strong> (quien trae su situación), el <strong>director</strong> (quien guía la acción), los <strong>yo auxiliares</strong> (quienes asumen los papeles de otras personas), el <strong>escenario</strong> (el espacio donde se actúa) y el <strong>auditorio</strong> (el resto del grupo). Y tres fases: el <strong>caldeamiento</strong>, que prepara el cuerpo y el grupo; la <strong>dramatización</strong>, donde se actúa la escena; y el <strong>compartir</strong>, donde el grupo cuenta qué le resonó, sin juzgar ni aconsejar.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Caldeamiento: el cuerpo.</strong> Parate, sacudí brazos y piernas, caminá por la habitación.</li>
+          <li><strong>Caldeamiento: la voz.</strong> Decí tu nombre en voz alta, de tres formas distintas: con alegría, con cansancio, con firmeza.</li>
+          <li><strong>Caldeamiento: el tema.</strong> Mientras caminás, dejá que aparezca una situación que te gustaría explorar.</li>
+          <li><strong>El escenario.</strong> Elegí un lugar de la habitación que va a ser tu escenario.</li>
+          <li><strong>Listo.</strong> Ya estás caldeado para las estaciones siguientes.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="tecnicas" aria-labelledby="t-tecnicas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-tecnicas">Las técnicas</h2>
+      <p class="lab-estacion__bajada">Elegí una técnica para ver cómo se usa en un grupo y cómo podés adaptarla a solas.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una técnica">
+          <label class="opcion"><input type="radio" name="pd-tec" value="soliloquio" checked><span>Soliloquio</span></label>
+          <label class="opcion"><input type="radio" name="pd-tec" value="doble"><span>Doble</span></label>
+          <label class="opcion"><input type="radio" name="pd-tec" value="espejo"><span>Espejo</span></label>
+          <label class="opcion"><input type="radio" name="pd-tec" value="inversion"><span>Inversión de roles</span></label>
+          <label class="opcion"><input type="radio" name="pd-tec" value="silla"><span>Silla vacía</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="soliloquio"><p><strong>En grupo:</strong> el protagonista dice en voz alta lo que piensa y siente en medio de la escena, como en un aparte teatral.</p><p><strong>A solas:</strong> en una situación difícil, decí en voz alta, para vos, lo que no te animás a decir a nadie.</p></div>
+        <div class="lab-panel" data-lab-panel="doble" hidden><p><strong>En grupo:</strong> un yo auxiliar se pone detrás del protagonista, adopta su postura y dice lo que el protagonista siente pero no dice.</p><p><strong>A solas:</strong> escribí lo que tu «doble» diría detrás tuyo en una conversación (está en la estación 05).</p></div>
+        <div class="lab-panel" data-lab-panel="espejo" hidden><p><strong>En grupo:</strong> otro reproduce cómo actuó el protagonista, mientras este lo mira desde afuera.</p><p><strong>A solas:</strong> imaginá que mirás un video tuyo en esa escena. ¿Qué ves desde afuera?</p></div>
+        <div class="lab-panel" data-lab-panel="inversion" hidden><p><strong>En grupo:</strong> el protagonista cambia de lugar con la persona con la que tiene el conflicto y habla desde su rol.</p><p><strong>A solas:</strong> cambiá de silla y hablá como el otro (está en la estación 04).</p></div>
+        <div class="lab-panel" data-lab-panel="silla" hidden><p><strong>En grupo:</strong> se le habla a una silla vacía donde se imagina a alguien ausente o a una parte de uno.</p><p><strong>A solas:</strong> mirá la <a href="/laboratorio-gestalt/">silla vacía en el laboratorio Gestalt</a>, que la tomó del psicodrama.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="escena" aria-labelledby="t-escena">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-escena">Armar una escena</h2>
+      <p class="lab-estacion__bajada">En psicodrama, el director no pregunta «¿qué te pasa?», sino «¿dónde estamos?». Situar la escena con detalles concretos hace que se viva en presente, no que se cuente. Elegí una escena, real o temida, y armala.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="armar-una-escena" data-lab-form-titulo="Armar una escena" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-donde">¿Dónde estamos? (el lugar, la hora, los objetos)</label><textarea class="lab-texto" id="pd-donde" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-quienes">¿Quiénes están?</label><input class="lab-campo" id="pd-quienes" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-pasa">¿Qué pasa? Contalo en presente.</label><textarea class="lab-texto" id="pd-pasa" rows="3" placeholder="«Estoy en la cocina. Mi papá entra y dice…»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-soliloquio">Soliloquio: ¿qué pienso y siento en ese momento, que no digo?</label><textarea class="lab-texto" id="pd-soliloquio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-nueva">Respuesta espontánea: ¿qué me gustaría hacer o decir, distinto de lo de siempre?</label><textarea class="lab-texto" id="pd-nueva" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda">Probá decir la respuesta nueva en voz alta, parado en tu escenario. Repetila hasta que suene tuya.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="inversion" aria-labelledby="t-inversion">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-inversion">Invertir los roles</h2>
+      <p class="lab-estacion__bajada">La técnica central de Moreno: ponerse en el lugar del otro, literalmente. Usá dos sillas: una para vos y otra para la otra persona. Decí lo tuyo, cambiá de silla, respondé como el otro, y volvé.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="inversion-de-roles" data-lab-form-titulo="Inversión de roles" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-otro">¿Con quién es la escena?</label><input class="lab-campo" id="pd-otro" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-yo">Desde mi silla, le digo…</label><textarea class="lab-texto" id="pd-yo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-como-otro">Cambio de silla. Siendo el otro, con su postura y su voz, respondo…</label><textarea class="lab-texto" id="pd-como-otro" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-siente">Siendo el otro, ¿qué siento por dentro?</label><textarea class="lab-texto" id="pd-siente" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-vuelvo">Vuelvo a mi silla. ¿Qué entendí que antes no veía?</label><textarea class="lab-texto" id="pd-vuelvo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="doble" aria-labelledby="t-doble">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-doble">El doble</h2>
+      <p class="lab-estacion__bajada">En psicodrama, el doble se pone detrás del protagonista y dice en voz alta lo que este siente, pero calla. Escribí, en dos columnas, una conversación difícil: lo que dijiste y lo que tu doble hubiera dicho por vos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="el-doble" data-lab-form-titulo="El doble" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="pd-dije">Lo que dije</label><textarea class="lab-texto" id="pd-dije" rows="5"></textarea></div>
+          <div><label for="pd-doble">Lo que mi doble diría</label><textarea class="lab-texto" id="pd-doble" rows="5"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-integrar">¿Qué de lo que dice el doble podría decir yo, la próxima vez?</label><textarea class="lab-texto" id="pd-integrar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="psicodrama">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Caldeamiento.</strong> Mové el cuerpo y la voz cinco minutos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Soliloquio.</strong> Decí en voz alta lo que no le decís a nadie.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Una escena.</strong> Armá una escena con todos sus detalles.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Inversión.</strong> Hablá desde la silla del otro.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. El doble.</strong> Escribí lo que tu doble diría.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Espontaneidad.</strong> Respondé a algo cotidiano de una forma nueva.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Compartir.</strong> Contale a alguien qué descubriste, sin pedirle consejo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Actuar una escena puede despertar emociones mucho más intensas que hablar de ella. Por eso, en psicodrama, siempre hay un director formado que cuida el proceso. No uses estos ejercicios para revivir situaciones traumáticas a solas. Si querés trabajar desde la acción, podés <a href="/contacto/">escribirme</a>. Para el trabajo en grupo, mirá también el <a href="/laboratorio-de-grupos/">laboratorio de grupos</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Moreno, J. L. (1946). <em>Psychodrama</em>, vol. 1 (en castellano, <em>Psicodrama</em>).</li>
+        <li>Cruz, A., Sales, C. M. D., Alves, P. y Moita, G. (2018). «The core techniques of Morenian psychodrama: A systematic review of literature». <em>Frontiers in Psychology</em>, 9, 1263.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -1,0 +1,141 @@
+<!--{
+  "ruta": "/laboratorio-sistemica-comunicacion/",
+  "titulo": "Sistémica nivel 3: soluciones intentadas y cambio",
+  "descripcion": "Nivel avanzado del laboratorio sistémico, según la escuela de Palo Alto: soluciones intentadas, cambio 1 y cambio 2, contenido y relación.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Sistémico", "/laboratorio-sistemico/"], ["Nivel 3: el cambio", "/laboratorio-sistemica-comunicacion/"]],
+  "antetitulo": "Terapia sistémica · Nivel 3, avanzado",
+  "h1": "Sistémica: <em>soluciones intentadas y cambio</em>",
+  "bajada": "A veces lo que hacemos para resolver un problema es justamente lo que lo mantiene. Ejercicios basados en la escuela de Palo Alto: Watzlawick, Weakland y Fisch.",
+  "respuesta": "El nivel avanzado del laboratorio sistémico propone ejercicios basados en la escuela de Palo Alto (Watzlawick, Weakland y Fisch, Cambio, 1974): cómo las soluciones intentadas mantienen los problemas, la diferencia entre cambio 1 (más de lo mismo) y cambio 2 (cambiar las reglas), la puntuación de las secuencias, el contenido y la relación en la comunicación, y el diseño de un pequeño cambio. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el nivel avanzado del laboratorio sistémico",
+  "articulos": ["terapia-sistemica", "patrones-que-se-repiten-en-los-vinculos"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>En el Mental Research Institute de Palo Alto, California, un grupo de investigadores influidos por Gregory Bateson y Milton Erickson, entre ellos Paul Watzlawick, John Weakland y Richard Fisch, estudió cómo se forman y se mantienen los problemas en la comunicación humana. En <em>Cambio</em> (1974) propusieron una idea sencilla y provocadora: muchas veces el problema se mantiene por las <strong>soluciones intentadas</strong>, es decir, por lo que hacemos para resolverlo.</p>
+        <p>Si algo no funciona y hacemos más de lo mismo, el problema crece. Por eso distinguieron un <strong>cambio 1</strong>, dentro de las mismas reglas, de un <strong>cambio 2</strong>, que cambia las reglas del juego. Este es el tercer nivel del <a href="/laboratorio-sistemico/">laboratorio sistémico</a>; el segundo es <a href="/laboratorio-sistemica-bowen/">Bowen y la diferenciación</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Mirar lo que se hace.</strong> Más que el porqué, importa el cómo.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Cambios chicos.</strong> Un cambio pequeño puede cambiar todo el circuito.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#cambio">¿Más de lo mismo o cambio 2?</a>
+      <a href="#soluciones">Mis soluciones intentadas</a>
+      <a href="#puntuacion">¿Quién empezó?</a>
+      <a href="#relacion">Contenido y relación</a>
+      <a href="#hacer-distinto">Hacer algo distinto</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="cambio" aria-labelledby="t-cambio">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-cambio">¿Más de lo mismo o cambio 2?</h2>
+      <p class="lab-estacion__bajada">Para practicar: en cada situación, ¿la persona hace más de lo mismo, o cambia las reglas?</p>
+      <div class="lab-tarjeta" data-lab-quiz="cambio">
+        <p class="lab-tarjeta__titulo">¿Más de lo mismo o cambio 2?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Más de lo mismo</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Cambio 2</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="soluciones" aria-labelledby="t-soluciones">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-soluciones">Mis soluciones intentadas</h2>
+      <p class="lab-estacion__bajada">La pregunta clave del enfoque de Palo Alto es: «¿qué hiciste hasta ahora para resolverlo?». Elegí un problema que se repite.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="soluciones-intentadas" data-lab-form-titulo="Mis soluciones intentadas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-problema">El problema, descripto en conductas concretas</label><textarea class="lab-texto" id="pa-problema" rows="2" placeholder="No «nos llevamos mal», sino «cuando llego tarde, discutimos a los gritos»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-intente">¿Qué intenté para resolverlo? Anotá todo.</label><textarea class="lab-texto" id="pa-intente" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-comun">¿Qué tienen en común esas soluciones? ¿Cuál es la idea de fondo?</label><textarea class="lab-texto" id="pa-comun" rows="2" placeholder="Por ejemplo: todas intentan convencer"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-efecto">¿Qué efecto tienen? ¿El problema bajó, se mantuvo o creció?</label><textarea class="lab-texto" id="pa-efecto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="puntuacion" aria-labelledby="t-puntuacion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-puntuacion">¿Quién empezó?</h2>
+      <p class="lab-estacion__bajada">En una secuencia que se repite, cada uno suele «puntuarla» de forma distinta: «me alejo porque me criticás», «te critico porque te alejás». Watzlawick llamaba a esto la <strong>puntuación de la secuencia</strong>. Discutir quién empezó no lleva a ningún lado: es un circuito.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="quien-empezo" data-lab-form-titulo="¿Quién empezó?" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-mio">Mi versión: «Yo hago… porque vos hacés…»</label><input class="lab-campo" id="pa-mio" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-suyo">Su versión, probablemente: «Yo hago… porque vos hacés…»</label><input class="lab-campo" id="pa-suyo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-circulo">Escrito como círculo: «Cuanto más yo…, más el otro…, y cuanto más el otro…, más yo…»</label><textarea class="lab-texto" id="pa-circulo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda">Para dibujar el círculo, usá las <a href="/laboratorio-sistemico/#secuencias">secuencias que se repiten</a> del nivel 1.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="relacion" aria-labelledby="t-relacion">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-relacion">Contenido y relación</h2>
+      <p class="lab-estacion__bajada">Watzlawick, Beavin y Jackson señalaron en <em>Teoría de la comunicación humana</em> (1967) que todo mensaje tiene un <strong>contenido</strong> (lo que se dice) y un aspecto de <strong>relación</strong> (qué dice sobre el vínculo). Muchas discusiones parecen ser sobre los platos sucios, pero en realidad son sobre «¿me tenés en cuenta?».</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="contenido-y-relacion" data-lab-form-titulo="Contenido y relación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-tema">¿Sobre qué discutimos, en apariencia?</label><input class="lab-campo" id="pa-tema" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-vinculo">¿Qué se discute, en realidad, sobre la relación?</label><textarea class="lab-texto" id="pa-vinculo" rows="2" placeholder="Quién decide, si me respeta, si le importo…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-decirlo">¿Cómo podría hablar directamente de la relación?</label><textarea class="lab-texto" id="pa-decirlo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="hacer-distinto" aria-labelledby="t-hacer-distinto">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-hacer-distinto">Hacer algo distinto</h2>
+      <p class="lab-estacion__bajada">Si la solución intentada mantiene el problema, el camino es interrumpirla: hacer algo que vaya en otra dirección, aunque sea pequeño. No se trata de hacer lo mismo más suave, sino de cambiar la lógica.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="hacer-algo-distinto" data-lab-form-titulo="Hacer algo distinto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-dejar">¿Qué voy a dejar de hacer?</label><textarea class="lab-texto" id="pa-dejar" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-opuesto">¿Qué podría hacer que vaya en otra dirección?</label><textarea class="lab-texto" id="pa-opuesto" rows="2" placeholder="Si siempre insisto, dejar de insistir. Si siempre tranquilizo, preguntar."></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-pequeno">¿Cuál es el paso más pequeño para probarlo esta semana?</label><input class="lab-campo" id="pa-pequeno" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pa-observar">¿Qué voy a observar para saber si algo cambió?</label><input class="lab-campo" id="pa-observar" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="sistemica-cambio">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Describir.</strong> Escribí el problema en conductas concretas.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Lo que intenté.</strong> Hacé la lista de soluciones intentadas.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. El círculo.</strong> Escribí la secuencia como un círculo, sin culpables.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La relación.</strong> En una discusión, preguntate qué se discute sobre el vínculo.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Dejar de hacer.</strong> Suspendé una solución intentada por un día.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Algo distinto.</strong> Probá el paso pequeño en otra dirección.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Observar.</strong> Anotá qué cambió en el circuito, aunque sea poco.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Ver un problema como un circuito no significa que las responsabilidades sean iguales. Si en el vínculo hay violencia, no es un «juego de dos»: la prioridad es tu seguridad (<a href="tel:144">144</a>, <a href="tel:911">911</a>). Mirá también el <a href="/laboratorio-de-violencia-en-el-vinculo/">laboratorio sobre violencia</a>, o <a href="/contacto/">escribime</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Watzlawick, P., Beavin, J. H. y Jackson, D. D. (1967). <em>Pragmatics of Human Communication</em> (en castellano, <em>Teoría de la comunicación humana</em>).</li>
+        <li>Watzlawick, P., Weakland, J. y Fisch, R. (1974). <em>Change: Principles of Problem Formation and Problem Resolution</em> (en castellano, <em>Cambio</em>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

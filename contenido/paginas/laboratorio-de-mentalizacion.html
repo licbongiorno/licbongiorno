@@ -1,0 +1,156 @@
+<!--{
+  "ruta": "/laboratorio-de-mentalizacion/",
+  "titulo": "Laboratorio de mentalización: entender la mente propia y la ajena",
+  "descripcion": "Ejercicios de mentalización según Bateman y Fonagy: leer los estados mentales, los modos que fallan, pausar y rebobinar, y la curiosidad por la mente del otro.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Mentalización", "/laboratorio-de-mentalizacion/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>mentalización</em>",
+  "bajada": "Entender lo que pasa en tu mente y en la de los demás, detrás de lo que se hace y se dice. Una capacidad que se pierde justo cuando más la necesitamos, y que se puede entrenar.",
+  "respuesta": "El laboratorio de mentalización propone ejercicios basados en el trabajo de Peter Fonagy y Anthony Bateman: qué es mentalizar (entender la conducta propia y ajena en términos de estados mentales), los modos que aparecen cuando la mentalización falla (equivalencia psíquica, modo simulado y modo teleológico), pausar y rebobinar una escena, la actitud de curiosidad y no saber, y la confianza epistémica. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el laboratorio de mentalización",
+  "articulos": ["la-empatia", "el-apego"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p><strong>Mentalizar</strong> es entender la conducta, la propia y la de los demás, en términos de estados mentales: pensamientos, emociones, deseos, intenciones. «Me contestó cortante porque está preocupada por el trabajo, no porque me odie.» «Me enojé tanto porque me sentí ignorado, como cuando era chico.» Lo hacemos todo el tiempo, casi sin darnos cuenta, y se aprende en los primeros vínculos.</p>
+        <p>El psicoanalista Peter Fonagy y el psiquiatra Anthony Bateman desarrollaron el <strong>tratamiento basado en la mentalización</strong>, primero para personas con emociones muy intensas y vínculos turbulentos. Observaron que cuando la emoción sube mucho, la mentalización se apaga, y aparecen formas más primitivas de pensar sobre uno y los demás. La buena noticia: se puede entrenar.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Curiosidad.</strong> La mente del otro es opaca: solo podemos hacer hipótesis.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>En calma.</strong> Se entrena mejor cuando la emoción está baja.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mentalizar">¿Mentaliza o no?</a>
+      <a href="#modos">Cuando la mentalización falla</a>
+      <a href="#rebobinar">Pausar y rebobinar</a>
+      <a href="#curiosidad">Curiosidad por la otra mente</a>
+      <a href="#confianza">La confianza epistémica</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="mentalizar" aria-labelledby="t-mentalizar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mentalizar">¿Mentaliza o no?</h2>
+      <p class="lab-estacion__bajada">Una frase mentaliza cuando reconoce que detrás de la conducta hay una mente, con estados que pueden ser distintos de los propios, y que no los conocemos con certeza.</p>
+      <div class="lab-tarjeta" data-lab-quiz="mentaliza">
+        <p class="lab-tarjeta__titulo">¿Mentaliza o no mentaliza?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mentaliza</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">No mentaliza</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="modos" aria-labelledby="t-modos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-modos">Cuando la mentalización falla</h2>
+      <p class="lab-estacion__bajada">Bateman y Fonagy describieron tres modos de pensar que aparecen cuando la mentalización se apaga. Son formas tempranas del desarrollo que vuelven bajo estrés. Elegí uno para verlo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un modo">
+          <label class="opcion"><input type="radio" name="mz-modo" value="equivalencia" checked><span>Equivalencia psíquica</span></label>
+          <label class="opcion"><input type="radio" name="mz-modo" value="simulado"><span>Modo simulado</span></label>
+          <label class="opcion"><input type="radio" name="mz-modo" value="teleologico"><span>Modo teleológico</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="equivalencia"><p><strong>Qué es:</strong> lo que pienso o siento es la realidad. No hay distancia entre la mente y el mundo.</p><p><strong>Cómo suena:</strong> «Siento que me odia, entonces me odia». «Si tengo miedo, es que hay peligro».</p><p><strong>Suele aparecer:</strong> cuando la emoción es muy intensa.</p></div>
+        <div class="lab-panel" data-lab-panel="simulado" hidden><p><strong>Qué es:</strong> se habla mucho de estados mentales, pero desconectado de la experiencia real. Parece reflexión, pero está vacío.</p><p><strong>Cómo suena:</strong> largas explicaciones psicológicas sobre uno mismo o los demás que no cambian nada ni conectan con lo que se siente.</p></div>
+        <div class="lab-panel" data-lab-panel="teleologico" hidden><p><strong>Qué es:</strong> solo cuenta lo que se ve, lo que se hace. Los estados mentales se reconocen únicamente por sus consecuencias físicas.</p><p><strong>Cómo suena:</strong> «Si me quisiera, vendría ya mismo». «Necesito que me lo demuestres con algo concreto».</p></div>
+      </div>
+      <div class="lab-tarjeta" data-lab-quiz="modos-mz" style="margin-top:1rem">
+        <p class="lab-tarjeta__titulo">¿Qué modo es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="rebobinar" aria-labelledby="t-rebobinar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-rebobinar">Pausar y rebobinar</h2>
+      <p class="lab-estacion__bajada">En el tratamiento basado en la mentalización se usa una técnica simple: cuando una situación se desbordó, volver atrás, como con un video, hasta el momento en que todavía se podía pensar, y recorrerla despacio. Elegí una escena reciente que terminó mal.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pausar-y-rebobinar" data-lab-form-titulo="Pausar y rebobinar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-final">¿Cómo terminó la escena?</label><textarea class="lab-texto" id="mz-final" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-antes">Rebobiná: ¿cuál fue el último momento en que todavía estabas tranquilo?</label><textarea class="lab-texto" id="mz-antes" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-quiebre">¿Qué pasó justo después? ¿Qué sentiste y qué pensaste que el otro sentía o pensaba?</label><textarea class="lab-texto" id="mz-quiebre" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-otra">¿Qué otra cosa podría haber estado pasando en la mente del otro?</label><textarea class="lab-texto" id="mz-otra" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-yo">¿Y en la mía, más allá de lo que mostré?</label><textarea class="lab-texto" id="mz-yo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="curiosidad" aria-labelledby="t-curiosidad">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-curiosidad">Curiosidad por la otra mente</h2>
+      <p class="lab-estacion__bajada">El tratamiento propone una actitud de <strong>no saber</strong>: la mente del otro es opaca, y lo que creemos que piensa es una hipótesis. En lugar de «ya sé lo que estás pensando», preguntar con curiosidad genuina. Pedí una situación y pensá tres explicaciones distintas antes de quedarte con una.</p>
+      <div class="lab-tarjeta" data-lab-azar="mentes">
+        <p class="lab-tarjeta__titulo">Una situación para mentalizar</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra situación</button></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tres-hipotesis" data-lab-form-titulo="Tres hipótesis sobre otra mente" novalidate style="margin-top:1rem">
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-h1">Una explicación</label><input class="lab-campo" id="mz-h1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-h2">Otra muy distinta</label><input class="lab-campo" id="mz-h2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-h3">Una tercera, que no tenga que ver conmigo</label><input class="lab-campo" id="mz-h3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-pregunta">¿Cómo podría preguntarle, con curiosidad y sin acusar?</label><input class="lab-campo" id="mz-pregunta" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="confianza" aria-labelledby="t-confianza">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-confianza">La confianza epistémica</h2>
+      <p class="lab-estacion__bajada">En sus trabajos más recientes, Fonagy y Bateman ponen el foco en la <strong>confianza epistémica</strong>: la disposición a confiar en lo que otros nos enseñan sobre el mundo y sobre nosotros. Cuando alguien sufrió mucho en sus vínculos, esa confianza se cierra, y se vuelve difícil aprender de los demás. Sentirse comprendido por otro, es decir, sentir que alguien mentaliza nuestra experiencia, es lo que la vuelve a abrir.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="confianza-epistemica" data-lab-form-titulo="Confianza epistémica" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-quien">¿De quién puedo aprender algo sobre mí sin ponerme a la defensiva?</label><input class="lab-campo" id="mz-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-por-que">¿Qué hace esa persona para que confíe en ella?</label><textarea class="lab-texto" id="mz-por-que" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mz-cierro">¿Con quién me cierro, y por qué?</label><textarea class="lab-texto" id="mz-cierro" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="mentalizacion">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar.</strong> Registrá una vez que diste por cierto lo que otro pensaba.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Tres hipótesis.</strong> Ante una conducta ajena, pensá tres explicaciones.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Preguntar.</strong> En lugar de suponer, preguntá con curiosidad.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Rebobinar.</strong> Hacé el ejercicio con una discusión reciente.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Mi mente.</strong> Antes de reaccionar, preguntate qué sentís y qué necesitás.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Mostrar mi mente.</strong> Contale a alguien qué te pasaba en un momento en que reaccionaste.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Sentirme comprendido.</strong> Buscá un rato con alguien que te entiende.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si tus vínculos son muy intensos e inestables, si las emociones te desbordan con frecuencia o si aparecen impulsos de hacerte daño, el tratamiento basado en la mentalización y la DBT tienen buena evidencia, pero se hacen con profesionales formados. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Para trabajar los vínculos tempranos, mirá el <a href="/laboratorio-del-desarrollo-y-el-apego/">laboratorio de desarrollo y apego</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Bateman, A. y Fonagy, P. (2004). <em>Psychotherapy for Borderline Personality Disorder: Mentalization-Based Treatment</em>. Oxford University Press.</li>
+        <li>Bateman, A. y Fonagy, P. (2016). <em>Mentalization-Based Treatment for Personality Disorders: A Practical Guide</em>. Oxford University Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

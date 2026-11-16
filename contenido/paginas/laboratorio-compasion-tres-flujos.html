@@ -1,0 +1,154 @@
+<!--{
+  "ruta": "/laboratorio-compasion-tres-flujos/",
+  "titulo": "Terapia de la compasión nivel 3: los tres flujos",
+  "descripcion": "Nivel avanzado de la terapia focalizada en la compasión de Paul Gilbert: la compasión hacia otros, desde otros y hacia uno mismo, y los miedos a la compasión.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Compasión", "/laboratorio-compasion-tres-sistemas/"], ["Nivel 3: los tres flujos", "/laboratorio-compasion-tres-flujos/"]],
+  "antetitulo": "Terapia focalizada en la compasión · Nivel 3, avanzado",
+  "h1": "Compasión: <em>los tres flujos</em>",
+  "bajada": "Dar compasión, recibirla y dártela: tres direcciones que no siempre fluyen igual. Ejercicios para notar cuál está bloqueada y qué miedos la frenan.",
+  "respuesta": "El nivel avanzado de la terapia focalizada en la compasión propone ejercicios basados en Paul Gilbert: los tres flujos de la compasión (hacia otros, desde otros hacia uno, y hacia uno mismo), un medidor para ver cuál fluye y cuál está bloqueado, los miedos y resistencias a la compasión, y prácticas para cada flujo. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el nivel avanzado de terapia focalizada en la compasión",
+  "articulos": ["la-empatia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Gilbert describe tres direcciones de la compasión, los <strong>tres flujos</strong>: la que sentimos hacia otros, la que podemos recibir de otros y la que nos dirigimos a nosotros mismos. Muchas personas tienen uno muy desarrollado y otro bloqueado: son muy compasivas con los demás y durísimas consigo, o pueden dar, pero no recibir.</p>
+        <p>Gilbert observó además algo paradójico: para algunas personas, la compasión no calma, sino que asusta. La calidez puede activar el sistema de amenaza en lugar del de calma, sobre todo si el afecto, en la historia de cada uno, vino mezclado con dolor. Este es el tercer nivel; antes están <a href="/laboratorio-compasion-tres-sistemas/">los tres sistemas</a> y <a href="/laboratorio-compasion-yo-compasivo/">el yo compasivo</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin forzar.</strong> Un flujo bloqueado se abre de a poco.</li>
+        <li><strong>Sin registro.</strong> Lo que marques queda en tu dispositivo.</li>
+        <li><strong>Con cuidado.</strong> Este nivel puede movilizar.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#flujos">Mis tres flujos</a>
+      <a href="#miedos">Los miedos a la compasión</a>
+      <a href="#hacia-otros">Hacia otros</a>
+      <a href="#desde-otros">Desde otros</a>
+      <a href="#hacia-mi">Hacia mí</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="flujos" aria-labelledby="t-flujos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-flujos">Mis tres flujos</h2>
+      <p class="lab-estacion__bajada">Puntuá del 0 al 10 qué tan fácil te resulta cada flujo.</p>
+      <div class="lab-tarjeta" data-cf-flujos>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-otros">Sentir compasión por otros y ayudarlos</label><input class="lab-campo" id="cf-otros" type="range" min="0" max="10" value="7" data-flujo="hacia otros" data-ancla="#hacia-otros"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-recibir">Recibir el cuidado de otros, dejarme ayudar</label><input class="lab-campo" id="cf-recibir" type="range" min="0" max="10" value="4" data-flujo="desde otros" data-ancla="#desde-otros"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-mi">Tratarme con compasión cuando sufro o fallo</label><input class="lab-campo" id="cf-mi" type="range" min="0" max="10" value="3" data-flujo="hacia vos" data-ancla="#hacia-mi"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tus flujos</p>
+          <p class="lab-resultado__texto" data-cf-flujos-salida aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="miedos" aria-labelledby="t-miedos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-miedos">Los miedos a la compasión</h2>
+      <p class="lab-estacion__bajada">Gilbert y sus colegas estudiaron los miedos, bloqueos y resistencias a la compasión. Marcá los que reconocés. Nombrarlos ya los afloja un poco.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="miedos-a-la-compasion" data-lab-form-titulo="Mis miedos a la compasión" novalidate>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo">Me pasa que…</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" value="debil"><span>Siento que ser compasivo conmigo es ser débil o blando.</span></label>
+            <label class="opcion"><input type="checkbox" value="merezco"><span>Siento que no merezco compasión.</span></label>
+            <label class="opcion"><input type="checkbox" value="estandares"><span>Temo que, si dejo de exigirme, voy a bajar mis estándares.</span></label>
+            <label class="opcion"><input type="checkbox" value="dependencia"><span>Temo que, si acepto ayuda, voy a depender de los demás.</span></label>
+            <label class="opcion"><input type="checkbox" value="aprovecharse"><span>Temo que, si soy amable, se aprovechen de mí.</span></label>
+            <label class="opcion"><input type="checkbox" value="tristeza"><span>Cuando alguien es cálido conmigo, me da tristeza o ganas de llorar.</span></label>
+            <label class="opcion"><input type="checkbox" value="desconfio"><span>Desconfío de la amabilidad: pienso que quieren algo a cambio.</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-de-donde">¿De dónde puede venir ese miedo, en mi historia?</label><textarea class="lab-texto" id="cf-de-donde" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda">La tristeza que a veces aparece con la calidez es frecuente: puede ser el recuerdo de lo que faltó. Es una señal de que algo se está abriendo, no de que algo anda mal.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="hacia-otros" aria-labelledby="t-hacia-otros">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-hacia-otros">Hacia otros</h2>
+      <p class="lab-estacion__bajada">Una práctica breve para el primer flujo. Pensá en alguien que esté pasando un momento difícil. Unos 30 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Traerlo.</strong> Imaginá a esa persona. Notá que, como vos, quiere estar bien y no sufrir.</li>
+          <li><strong>Su dificultad.</strong> Reconocé lo que está atravesando, sin juzgarlo.</li>
+          <li><strong>Desear.</strong> Decí en silencio: «Que puedas estar bien. Que encuentres alivio».</li>
+          <li><strong>Un gesto.</strong> Pensá algo concreto que podrías hacer por esa persona, aunque sea chico.</li>
+          <li><strong>Notar.</strong> ¿Cómo te sentís vos al desearle bien a otro?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="desde-otros" aria-labelledby="t-desde-otros">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-desde-otros">Desde otros</h2>
+      <p class="lab-estacion__bajada">El segundo flujo, recibir, suele ser el más difícil. Gilbert propone, entre otras prácticas, recordar o imaginar a alguien que te mira con calidez y quiere tu bien. Puede ser una persona real, un recuerdo o una figura imaginada.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="desde-otros" data-lab-form-titulo="Recibir compasión" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-alguien">¿Quién te mira o te miró con cariño? (o cómo sería esa figura imaginada)</label><input class="lab-campo" id="cf-alguien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-recibo">Si te dijera algo sobre lo que estás atravesando, ¿qué te diría?</label><textarea class="lab-texto" id="cf-recibo" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-cuesta">¿Qué pasa en tu cuerpo al recibirlo? ¿Te cuesta?</label><textarea class="lab-texto" id="cf-cuesta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-pedir">¿A quién podrías pedirle apoyo esta semana, aunque sea en algo chico?</label><input class="lab-campo" id="cf-pedir" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="hacia-mi" aria-labelledby="t-hacia-mi">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-hacia-mi">Hacia mí</h2>
+      <p class="lab-estacion__bajada">El tercer flujo junta los otros dos: tratarte como tratarías a alguien que querés, y dejarte recibir ese trato. Una práctica para un momento difícil.</p>
+      <div class="lab-tarjeta">
+        <ol class="lab-guion">
+          <li>Respirá con el ritmo calmante unos instantes.</li>
+          <li>Desde el yo compasivo, mirate como si fueras otra persona que está sufriendo.</li>
+          <li>Preguntate: «¿Qué necesita esta persona ahora?».</li>
+          <li>Decite algo cálido y firme. Si no te sale, decite lo que le dirías a un amigo.</li>
+          <li>Hacé un gesto concreto de cuidado: descansar, comer algo, llamar a alguien, salir a caminar.</li>
+        </ol>
+        <p class="lab-paso__ayuda">Para seguir con este flujo, el <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a> tiene la pausa de Neff y la carta para vos.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="compasion-flujos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Medir.</strong> Puntuá tus tres flujos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Los miedos.</strong> Marcá los miedos que reconocés.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Hacia otros.</strong> Hacé la práctica pensando en alguien.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Recibir.</strong> Aceptá una ayuda sin justificarte.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Una mirada cálida.</strong> Recordá a alguien que te quiso bien.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Hacia mí.</strong> En un momento difícil, preguntate qué necesitás.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. El flujo bloqueado.</strong> Dedicale un rato al flujo que más te cuesta.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la calidez te genera miedo, tristeza intensa o rechazo, y eso se repite, puede estar ligado a experiencias tempranas difíciles. No es un fracaso de la práctica: es algo valioso para trabajar en terapia, a un ritmo que respete lo que sentís. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Gilbert, P. (2009). <em>The Compassionate Mind</em> (en castellano, <em>La mente compasiva</em>). Constable.</li>
+        <li>Gilbert, P. (2010). <em>Compassion Focused Therapy: Distinctive Features</em>. Routledge.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

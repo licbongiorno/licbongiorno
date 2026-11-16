@@ -1,0 +1,130 @@
+<!--{
+  "ruta": "/laboratorio-narrativa-reautoria/",
+  "titulo": "Narrativa nivel 2: conversaciones de reautoría",
+  "descripcion": "Nivel medio del laboratorio narrativo, según Michael White: acontecimientos extraordinarios, los paisajes de la acción y la identidad, y re-membranza.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Narrativo", "/laboratorio-narrativo/"], ["Nivel 2: reautoría", "/laboratorio-narrativa-reautoria/"]],
+  "antetitulo": "Terapia narrativa · Nivel 2, medio",
+  "h1": "Narrativa: <em>reautoría</em>",
+  "bajada": "Una historia alternativa no se inventa: se rescata de momentos que la historia dominante deja afuera. Ejercicios basados en los mapas de Michael White.",
+  "respuesta": "El nivel medio del laboratorio narrativo propone ejercicios basados en Maps of Narrative Practice de Michael White (2007): distinguir el paisaje de la acción y el paisaje de la identidad, engrosar un acontecimiento extraordinario hasta convertirlo en historia alternativa, y las conversaciones de re-membranza, que revisan quiénes forman parte del club de la propia vida. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el nivel medio del laboratorio narrativo",
+  "articulos": ["terapia-narrativa", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>En el <a href="/laboratorio-narrativo/">primer nivel</a> externalizaste el problema y buscaste excepciones. Michael White llamaba a esas excepciones <strong>acontecimientos extraordinarios</strong> (<em>unique outcomes</em>): momentos que la historia dominante no puede explicar. Por sí solos son frágiles; se olvidan rápido. Las <strong>conversaciones de reautoría</strong> los engrosan hasta que forman una historia alternativa con peso propio.</p>
+        <p>Para eso, White tomó de Jerome Bruner la idea de que toda historia transcurre en dos paisajes: el <strong>paisaje de la acción</strong> (qué pasó, en qué orden, con quiénes) y el <strong>paisaje de la identidad</strong> (qué significa eso sobre lo que valoro, lo que espero, quién soy). La reautoría va y viene entre los dos.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Vos sos el autor.</strong> Nadie conoce mejor tu historia.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con detalle.</strong> Las historias se engrosan con detalles concretos.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#paisajes">Los dos paisajes</a>
+      <a href="#engrosar">Engrosar un acontecimiento</a>
+      <a href="#historia">Una línea de tiempo alternativa</a>
+      <a href="#re-membranza">Re-membranza</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="paisajes" aria-labelledby="t-paisajes">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-paisajes">Los dos paisajes</h2>
+      <p class="lab-estacion__bajada">Las preguntas de reautoría alternan entre los dos paisajes. ¿A cuál pertenece cada pregunta?</p>
+      <div class="lab-tarjeta" data-lab-quiz="paisajes">
+        <p class="lab-tarjeta__titulo">¿Acción o identidad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Paisaje de la acción</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Paisaje de la identidad</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente pregunta</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="engrosar" aria-labelledby="t-engrosar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-engrosar">Engrosar un acontecimiento</h2>
+      <p class="lab-estacion__bajada">Elegí un momento en que el problema no tuvo la última palabra: una vez que hiciste algo distinto de lo que la historia dominante dice de vos. Recorrelo en los dos paisajes.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="engrosar-un-acontecimiento" data-lab-form-titulo="Engrosar un acontecimiento extraordinario" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-momento">Acción: ¿qué pasó? ¿Dónde, cuándo, con quién?</label><textarea class="lab-texto" id="ra-momento" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-preparo">Acción: ¿qué pasos previos lo hicieron posible?</label><textarea class="lab-texto" id="ra-preparo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-valoro">Identidad: ¿qué dice esto sobre lo que valoro?</label><textarea class="lab-texto" id="ra-valoro" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-espero">Identidad: ¿qué esperanzas o propósitos se reflejan acá?</label><textarea class="lab-texto" id="ra-espero" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-nombre">¿Qué nombre le pondría a esta historia alternativa?</label><input class="lab-campo" id="ra-nombre" type="text" autocomplete="off" placeholder="Por ejemplo: «la historia de mi terquedad para cuidarme»"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="historia" aria-labelledby="t-historia">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-historia">Una línea de tiempo alternativa</h2>
+      <p class="lab-estacion__bajada">Una historia necesita pasado, presente y futuro. Buscá otros momentos, hacia atrás, en los que se vio eso que valorás, y proyectalo hacia adelante.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="linea-alternativa" data-lab-form-titulo="Una línea de tiempo alternativa" novalidate>
+        <div data-lab-lista-editable data-lab-lista-titulo="Momentos de la historia alternativa">
+          <label class="lab-paso__titulo" for="ra-hito" style="display:block">Un momento, con su fecha aproximada</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="ra-hito" type="text" placeholder="Por ejemplo: a los 12, cuando defendí a mi hermano" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-proximo">Si esta historia siguiera creciendo, ¿cuál sería el próximo paso?</label><textarea class="lab-texto" id="ra-proximo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="re-membranza" aria-labelledby="t-re-membranza">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-re-membranza">Re-membranza</h2>
+      <p class="lab-estacion__bajada">White retomó de la antropóloga Barbara Myerhoff la idea de que la vida es como un club, con socios. Las <strong>conversaciones de re-membranza</strong> permiten revisar la membresía: dar más lugar a quienes apoyan la historia preferida, aunque ya no estén, y menos a quienes la achican. Ampliá acá el <a href="/laboratorio-narrativo/">club de la vida</a> del nivel 1.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="re-membranza" data-lab-form-titulo="Re-membranza" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-figura">Alguien que contribuyó a mi vida (una persona, una mascota, un autor, alguien que ya no está)</label><input class="lab-campo" id="ra-figura" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-aporto">¿Qué aportó a mi vida? ¿Qué vio en mí?</label><textarea class="lab-texto" id="ra-aporto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-yo-aporte">¿Y qué le aporté yo a su vida? ¿Qué significó conocerme?</label><textarea class="lab-texto" id="ra-yo-aporte" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ra-hoy">¿Cómo sigue presente en lo que hago hoy?</label><textarea class="lab-texto" id="ra-hoy" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="narrativa-reautoria">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Un acontecimiento.</strong> Anotá un momento en que el problema no ganó.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Acción.</strong> Describilo con todos sus detalles.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Identidad.</strong> Escribí qué dice sobre lo que valorás.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Hacia atrás.</strong> Buscá dos momentos más antiguos de la misma historia.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un nombre.</strong> Ponele nombre a la historia alternativa.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Re-membranza.</strong> Pensá en alguien que habría reconocido esta historia en vos.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Hacia adelante.</strong> Da un paso pequeño coherente con esa historia.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Revisar la propia historia puede traer recuerdos dolorosos, sobre todo al pensar en personas que ya no están. Si algo se vuelve demasiado, frená. Si estás atravesando un duelo, mirá el <a href="/laboratorio-de-psicotanatologia/">laboratorio de psicotanatología</a>, o <a href="/contacto/">escribime</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>White, M. (2007). <em>Maps of Narrative Practice</em> (en castellano, <em>Mapas de la práctica narrativa</em>).</li>
+        <li>Bruner, J. (1986). <em>Actual Minds, Possible Worlds</em> (en castellano, <em>Realidad mental y mundos posibles</em>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

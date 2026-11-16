@@ -1,0 +1,146 @@
+<!--{
+  "ruta": "/laboratorio-focalizado-en-las-emociones/",
+  "titulo": "Laboratorio de terapia focalizada en las emociones, con Greenberg",
+  "descripcion": "Ejercicios de la terapia focalizada en las emociones de Leslie Greenberg: emociones primarias y secundarias, cambiar emoción con emoción y las sillas.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Focalizada en las emociones", "/laboratorio-focalizado-en-las-emociones/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>terapia focalizada en las emociones</em>",
+  "bajada": "No todas las emociones son iguales: algunas guían, otras tapan a otras, otras quedaron atascadas. Ejercicios para llegar a la emoción de fondo y transformarla.",
+  "respuesta": "El laboratorio de terapia focalizada en las emociones propone ejercicios basados en Leslie Greenberg: distinguir emociones primarias adaptativas, primarias desadaptativas, secundarias e instrumentales; llegar desde la emoción que se ve a la de fondo y a la necesidad; cambiar una emoción con otra emoción; y los diálogos de dos sillas para la autocrítica y de silla vacía para los asuntos pendientes. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el laboratorio de terapia focalizada en las emociones",
+  "articulos": ["inteligencia-emocional", "el-enojo"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Leslie Greenberg, psicólogo sudafricano radicado en Canadá, desarrolló la <strong>terapia focalizada en las emociones</strong>, que integra la escucha empática de Rogers, las técnicas de la Gestalt y la investigación sobre las emociones. Su idea central: las emociones son una fuente de información y de orientación sobre lo que necesitamos, pero no todas sirven de la misma manera. Hay que aprender a distinguirlas.</p>
+        <p>Greenberg resume el cambio en una frase: no se cambia una emoción solo razonando, sino <strong>con otra emoción</strong>. La vergüenza no se disuelve con argumentos; se transforma cuando, en contacto con ella, aparece algo como la compasión o el enojo que protege. Este laboratorio se conecta con el de <a href="/laboratorio-de-emociones/">emociones</a> y con el <a href="/laboratorio-gestalt/">laboratorio Gestalt</a>, de donde vienen las sillas.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sentir, no solo pensar.</strong> La emoción tiene que estar presente para cambiar.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Si algo es muy intenso, pausá.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#tipos">Cuatro tipos de emoción</a>
+      <a href="#reconocer">¿Qué tipo es?</a>
+      <a href="#capas">De la superficie al fondo</a>
+      <a href="#transformar">Cambiar emoción con emoción</a>
+      <a href="#sillas">Las sillas</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="tipos" aria-labelledby="t-tipos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tipos">Cuatro tipos de emoción</h2>
+      <p class="lab-estacion__bajada">Greenberg distingue cuatro tipos de respuesta emocional. Cada una pide algo distinto. Elegí una para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un tipo de emoción">
+          <label class="opcion"><input type="radio" name="ef-tipo" value="adaptativa" checked><span>Primaria adaptativa</span></label>
+          <label class="opcion"><input type="radio" name="ef-tipo" value="desadaptativa"><span>Primaria desadaptativa</span></label>
+          <label class="opcion"><input type="radio" name="ef-tipo" value="secundaria"><span>Secundaria</span></label>
+          <label class="opcion"><input type="radio" name="ef-tipo" value="instrumental"><span>Instrumental</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="adaptativa"><p><strong>Qué es:</strong> la respuesta directa y sana a una situación: tristeza ante una pérdida, enojo ante una injusticia, miedo ante un peligro real.</p><p><strong>Qué pide:</strong> escucharla y dejar que guíe la acción.</p></div>
+        <div class="lab-panel" data-lab-panel="desadaptativa" hidden><p><strong>Qué es:</strong> una respuesta profunda pero aprendida en experiencias dolorosas, que ya no ayuda: una vergüenza de «no valgo», un miedo a ser abandonado que aparece ante cualquier distancia.</p><p><strong>Qué pide:</strong> transformarla, con otra emoción.</p></div>
+        <div class="lab-panel" data-lab-panel="secundaria" hidden><p><strong>Qué es:</strong> una reacción a otra emoción o a un pensamiento, que la tapa: enojo que tapa tristeza, desesperanza que tapa miedo.</p><p><strong>Qué pide:</strong> explorar qué hay debajo.</p></div>
+        <div class="lab-panel" data-lab-panel="instrumental" hidden><p><strong>Qué es:</strong> una emoción que se muestra, consciente o inconscientemente, para conseguir algo del otro: llorar para que no nos reten, enojarse para que el otro ceda.</p><p><strong>Qué pide:</strong> darse cuenta de su función y buscar formas más directas de pedir.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="reconocer" aria-labelledby="t-reconocer">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-reconocer">¿Qué tipo es?</h2>
+      <p class="lab-estacion__bajada">Para practicar: ¿qué tipo de emoción aparece en cada situación?</p>
+      <div class="lab-tarjeta" data-lab-quiz="tipos-ef">
+        <p class="lab-tarjeta__titulo">¿Qué tipo de emoción es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="capas" aria-labelledby="t-capas">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-capas">De la superficie al fondo</h2>
+      <p class="lab-estacion__bajada">La emoción que se ve primero muchas veces es secundaria. Greenberg propone ir más abajo, hasta la emoción primaria, y de ahí a la necesidad que expresa. Pensá en una reacción reciente.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="de-la-superficie-al-fondo" data-lab-form-titulo="De la superficie al fondo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-situacion">La situación</label><input class="lab-campo" id="ef-situacion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-superficie">La emoción que se notó primero</label><input class="lab-campo" id="ef-superficie" type="text" placeholder="Por ejemplo: enojo" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-debajo">Si me quedo con ella un momento, ¿qué hay debajo?</label><input class="lab-campo" id="ef-debajo" type="text" placeholder="Por ejemplo: tristeza, sentirme solo" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-cuerpo">¿Dónde la siento en el cuerpo?</label><input class="lab-campo" id="ef-cuerpo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-necesidad">¿Qué necesidad expresa?</label><input class="lab-campo" id="ef-necesidad" type="text" placeholder="Por ejemplo: que me tengan en cuenta" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="transformar" aria-labelledby="t-transformar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-transformar">Cambiar emoción con emoción</h2>
+      <p class="lab-estacion__bajada">Cuando la emoción de fondo es desadaptativa, como una vergüenza antigua o un miedo a ser abandonado, Greenberg propone contactar con la necesidad que no fue cubierta y dejar que aparezca una emoción adaptativa que la responda: compasión por uno, tristeza por lo que faltó, enojo que protege. Unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>La emoción atascada.</strong> Traé esa emoción de fondo que se repite. Notala en el cuerpo, sin pelearla.</li>
+          <li><strong>La necesidad.</strong> Preguntate: «¿qué necesitaba y no tuve?». Ser visto, ser protegido, ser querido como era.</li>
+          <li><strong>Merecerla.</strong> Decite: «Necesitaba eso, y merecía tenerlo».</li>
+          <li><strong>La emoción que responde.</strong> Notá qué aparece: tal vez tristeza por lo que faltó, ternura hacia el chico que fuiste, o un enojo que dice «no estuvo bien».</li>
+          <li><strong>Darle lugar.</strong> Dejá que esa nueva emoción se instale un poco. Es la que transforma a la otra.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="sillas" aria-labelledby="t-sillas">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-sillas">Las sillas</h2>
+      <p class="lab-estacion__bajada">Greenberg tomó de la Gestalt dos tareas. La de <strong>dos sillas</strong>, para los conflictos internos: una parte critica a la otra. La de <strong>silla vacía</strong>, para los asuntos pendientes con alguien significativo. En las dos, el cambio aparece cuando, debajo de la crítica o del reproche, se llega a la emoción primaria y a la necesidad. Hacé la de dos sillas por escrito.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dos-sillas" data-lab-form-titulo="Dos sillas: el crítico y la parte criticada" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-critico">Desde la silla del crítico, digo:</label><textarea class="lab-texto" id="ef-critico" rows="2" placeholder="Hablale a la otra parte en segunda persona: «Sos un…»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-siento">Cambio de silla. Al escuchar eso, siento:</label><textarea class="lab-texto" id="ef-siento" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-necesito">Y le digo al crítico lo que necesito de él:</label><textarea class="lab-texto" id="ef-necesito" rows="2" placeholder="«Necesito que me apoyes, no que me aplastes»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ef-ablanda">Vuelvo a la silla del crítico. ¿Puede responder a esa necesidad? ¿Qué cambia?</label><textarea class="lab-texto" id="ef-ablanda" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda">Para la silla vacía con alguien ausente, mirá el <a href="/laboratorio-gestalt/">laboratorio Gestalt</a>.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="focalizada-emociones">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Ponele nombre a tres emociones del día.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Clasificar.</strong> ¿Fueron primarias, secundarias o instrumentales?</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Bajar una capa.</strong> Ante un enojo, buscá qué hay debajo.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La necesidad.</strong> Escribí qué necesidad expresa una emoción que se repite.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Transformar.</strong> Hacé el ejercicio de cambiar emoción con emoción.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Dos sillas.</strong> Hacé el diálogo con tu crítico.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Pedir directo.</strong> En lugar de mostrar una emoción para conseguir algo, pedilo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Llegar a la emoción de fondo puede despertar dolores antiguos con mucha intensidad. En terapia, el vínculo empático con el terapeuta es lo que permite sostenerlos y transformarlos. Si algo se vuelve demasiado, pará, respirá y volvé al presente. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Greenberg, L. S., Rice, L. N. y Elliott, R. (1993). <em>Facilitating Emotional Change</em> (en castellano, <em>Facilitando el cambio emocional</em>).</li>
+        <li>Greenberg, L. S. (2002). <em>Emotion-Focused Therapy: Coaching Clients to Work Through Their Feelings</em>. American Psychological Association.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
