@@ -129,7 +129,7 @@
       entradas.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add("visible"); io.unobserve(en.target); }
       });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0 });
     revelables.forEach(function (el) { io.observe(el); });
   } else {
     revelables.forEach(function (el) { el.classList.add("visible"); });
