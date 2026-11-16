@@ -1,0 +1,177 @@
+<!--{
+  "ruta": "/laboratorio-dbt-regulacion-emocional/",
+  "titulo": "DBT: regulación emocional, ejercicios del módulo",
+  "descripcion": "Módulo de regulación emocional de la DBT: para qué sirven las emociones, describirlas, reducir la vulnerabilidad, construir maestría y anticiparse.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Habilidades DBT", "/laboratorio-de-habilidades-dbt/"], ["Regulación emocional", "/laboratorio-dbt-regulacion-emocional/"]],
+  "antetitulo": "Laboratorio DBT · Módulo 3",
+  "h1": "DBT: <em>regulación emocional</em>",
+  "bajada": "Entender para qué sirve cada emoción, ponerle nombre a lo que sentís y armar una vida que te deje menos expuesto a que la emoción te desborde.",
+  "respuesta": "El módulo de regulación emocional del laboratorio de habilidades DBT propone ejercicios inspirados en la Terapia Dialéctico Conductual de Marsha Linehan: para qué sirven las emociones, un modelo para describirlas (disparador, interpretación, sensaciones, impulso, expresión y consecuencias), reducir la vulnerabilidad con las habilidades ABC (acumular emociones positivas, construir maestría y anticiparse), resolver problemas y un plan de 7 días. Verificar los hechos, acción opuesta y cuidar el cuerpo están en el laboratorio de primeros auxilios. Es un recurso de práctica y no reemplaza un tratamiento DBT.",
+  "scripts": ["lab-base.js", "laboratorio-dbt-regulacion.js", "escenas.js"],
+  "wa_tema": "el módulo de regulación emocional de DBT",
+  "articulos": ["inteligencia-emocional", "el-enojo"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar">
+      <p><strong>Antes de empezar.</strong> Este laboratorio está <em>inspirado</em> en las habilidades de la Terapia Dialéctico Conductual (DBT) de Marsha Linehan. No es un tratamiento DBT ni lo reemplaza: la DBT completa incluye terapia individual, grupo de habilidades y acompañamiento entre sesiones con profesionales formados. Si en este momento pensás en hacerte daño, la prioridad es pedir ayuda: llamá al <a href="tel:911">911</a> o al Centro de Asistencia al Suicida (<a href="tel:135">135</a> desde CABA y GBA, <a href="tel:08003451435">0800-345-1435</a> desde todo el país). Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Regular las emociones no es dejar de sentirlas ni taparlas. Es poder entender qué te pasa, influir en cuánto dura y cuán fuerte es, y elegir qué hacer con eso. Para Linehan, muchas personas sufren no por tener emociones, sino por no haber aprendido a manejarlas, a menudo porque crecieron en ambientes donde lo que sentían era ignorado, castigado o exagerado.</p>
+        <p>En el manual de habilidades (<em>DBT Skills Training Manual</em>, 2.ª ed., 2015), este módulo tiene tres objetivos: <strong>entender</strong> las propias emociones, <strong>reducir la vulnerabilidad</strong> a la mente emocional y <strong>disminuir el sufrimiento</strong> cuando una emoción ya está en marcha. Verificar los hechos, la acción opuesta y el cuidado del cuerpo están en el <a href="/laboratorio-de-habilidades-dbt/">laboratorio de primeros auxilios</a>. Acá están las demás.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Para empezar y para profundizar.</strong> Primero entender, después prevenir.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A largo plazo.</strong> Estas habilidades rinden con semanas de práctica.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#funciones">Para qué sirven las emociones</a>
+      <a href="#describir">Describir una emoción</a>
+      <a href="#vulnerabilidad">Reducir la vulnerabilidad</a>
+      <a href="#maestria">Construir maestría</a>
+      <a href="#anticiparse">Anticiparse</a>
+      <a href="#problemas">Resolver el problema</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <div class="prosa revelar" style="margin-top:2rem"><h2>Para empezar: entender lo que sentís</h2></div>
+
+    <section class="lab-estacion revelar" id="funciones" aria-labelledby="t-funciones">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-funciones">Para qué sirven las emociones</h2>
+      <p class="lab-estacion__bajada">Linehan describe tres funciones. Las emociones <strong>nos preparan para actuar</strong>: el miedo para huir, el enojo para defendernos. <strong>Comunican a otros</strong>: una cara triste pide consuelo sin palabras. Y <strong>nos comunican algo a nosotros</strong>: una alarma interna de que algo importa. El problema aparece cuando la señal es tan fuerte que la tomamos como un hecho («si tengo miedo, es que hay peligro»).</p>
+      <div class="lab-tarjeta" data-lab-quiz="funciones">
+        <p class="lab-tarjeta__titulo">¿Qué función está cumpliendo la emoción?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="describir" aria-labelledby="t-describir">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-describir">Describir una emoción</h2>
+      <p class="lab-estacion__bajada">Las emociones no son un bloque: son una secuencia. Linehan propone un modelo para desarmarlas: algo las dispara, lo interpretamos, el cuerpo reacciona, aparece un impulso, lo expresamos de algún modo y eso trae consecuencias. Ponerle nombre a cada parte ya baja la intensidad, y muestra dónde se puede intervenir. Si no sabés qué nombre ponerle, probá la <a href="/laboratorio-rueda-de-las-emociones/">rueda de las emociones</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="describir-una-emocion" data-lab-form-titulo="Describir una emoción" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-disparador">1. ¿Qué la disparó?</label><textarea class="lab-texto" id="re-disparador" rows="2" placeholder="Un hecho, un recuerdo, un pensamiento"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-interpretacion">2. ¿Cómo lo interpreté?</label><textarea class="lab-texto" id="re-interpretacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-cuerpo">3. ¿Qué sentí en el cuerpo?</label><input class="lab-campo" id="re-cuerpo" type="text" placeholder="Calor en la cara, nudo en el estómago, tensión en los hombros" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-impulso">4. ¿Qué tenía ganas de hacer?</label><input class="lab-campo" id="re-impulso" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-expresion">5. ¿Qué hice o dije?</label><input class="lab-campo" id="re-expresion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-consecuencias">6. ¿Qué consecuencias tuvo?</label><textarea class="lab-texto" id="re-consecuencias" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-nombre">El nombre de la emoción, y su intensidad del 0 al 10</label><input class="lab-campo" id="re-nombre" type="text" placeholder="Por ejemplo: vergüenza, 7" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="vulnerabilidad" aria-labelledby="t-vulnerabilidad">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-vulnerabilidad">Reducir la vulnerabilidad</h2>
+      <p class="lab-estacion__bajada">Con hambre, sin dormir o sin nada lindo en la semana, cualquier chispa enciende la mente emocional. Linehan propone las habilidades ABC (en inglés): <strong>acumular emociones positivas</strong>, <strong>construir maestría</strong> y <strong>anticiparse</strong>, junto con el cuidado del cuerpo, que ya está en <a href="/laboratorio-de-habilidades-dbt/#cuidados">primeros auxilios</a>. Empezá por la primera: acumular emociones positivas a corto plazo (algo agradable cada día) y a largo plazo (construir una vida que valga la pena vivir, de acuerdo con tus valores).</p>
+      <div class="lab-tarjeta" data-lab-azar="positivas">
+        <p class="lab-tarjeta__titulo">Algo agradable para hoy</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra idea</button></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="acumular-positivo" data-lab-form-titulo="Acumular emociones positivas" novalidate style="margin-top:1rem">
+        <div data-lab-lista-editable data-lab-lista-titulo="Algo agradable cada día">
+          <label class="lab-paso__titulo" for="re-agradable" style="display:block">A corto plazo: cosas agradables para esta semana</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="re-agradable" type="text" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="re-valor">A largo plazo: un valor que quiero que guíe mi vida, y un primer paso hacia él</label><textarea class="lab-texto" id="re-valor" rows="2" placeholder="Por ejemplo: aprender. Primer paso: averiguar por ese curso."></textarea></div>
+        <p class="lab-paso__ayuda">Un detalle importante: mientras hacés algo agradable, prestale atención. Si la cabeza se va a cuándo va a terminar o a si te lo merecés, volvé al momento.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem"><h2>Para profundizar: prevenir y resolver</h2></div>
+
+    <section class="lab-estacion revelar" id="maestria" aria-labelledby="t-maestria">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-maestria">Construir maestría</h2>
+      <p class="lab-estacion__bajada">Hacer cada día algo que te haga sentir capaz. La clave es que sea un poco difícil, pero posible: si es muy fácil no suma, y si es imposible frustra. Se trata de planificar el éxito, no el fracaso, e ir subiendo la dificultad de a poco. Con el tiempo, la sensación de «puedo» protege contra la desesperanza.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="construir-maestria" data-lab-form-titulo="Construir maestría" novalidate>
+        <div data-lab-lista-editable data-lab-lista-titulo="Desafíos de esta semana, del más fácil al más difícil">
+          <label class="lab-paso__titulo" for="re-desafio" style="display:block">Un desafío pequeño y posible</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="re-desafio" type="text" placeholder="Por ejemplo: cocinar una receta nueva, ordenar los papeles pendientes" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="anticiparse" aria-labelledby="t-anticiparse">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-anticiparse">Anticiparse</h2>
+      <p class="lab-estacion__bajada">Para situaciones difíciles que ya sabés que vienen (una reunión familiar, una entrevista, una fecha sensible), Linehan propone ensayarlas en la imaginación antes de que pasen. El cerebro registra el ensayo como experiencia, y cuando llega el momento, la respuesta hábil está más a mano.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="anticiparse" data-lab-form-titulo="Anticiparse a una situación difícil" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-situacion">1. La situación que se viene, solo con hechos</label><textarea class="lab-texto" id="re-situacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-emocion">2. Las emociones y los impulsos que probablemente aparezcan</label><textarea class="lab-texto" id="re-emocion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-habilidades">3. Las habilidades que voy a usar</label><textarea class="lab-texto" id="re-habilidades" rows="2" placeholder="Por ejemplo: STOP si me provocan, salir a tomar aire, pedir con claridad"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-ensayo">4. Lo imaginé en detalle, como si estuviera pasando, y me vi usando las habilidades. ¿Qué noté?</label><textarea class="lab-texto" id="re-ensayo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-despues">5. Qué hago después para relajarme</label><input class="lab-campo" id="re-despues" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="problemas" aria-labelledby="t-problemas">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-problemas">Resolver el problema</h2>
+      <p class="lab-estacion__bajada">Cuando la emoción encaja con los hechos (verificalos en <a href="/laboratorio-de-habilidades-dbt/#hechos">primeros auxilios</a>) y el problema tiene solución, lo más regulador es resolverlo. Si la emoción no encaja, la herramienta es la <a href="/laboratorio-de-habilidades-dbt/#accion-opuesta">acción opuesta</a>. Para resolver, estos pasos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="resolver-el-problema" data-lab-form-titulo="Resolver el problema" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-problema">1. ¿Cuál es el problema, descripto con hechos?</label><textarea class="lab-texto" id="re-problema" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-meta">2. ¿Qué tendría que pasar para sentirme bien? (una meta realista)</label><textarea class="lab-texto" id="re-meta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-opciones">3. Todas las soluciones posibles, sin descartar ninguna todavía</label><textarea class="lab-texto" id="re-opciones" rows="4"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-elegida">4. La que elijo, después de pensar pros y contras</label><input class="lab-campo" id="re-elegida" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-primer-paso">5. El primer paso, y cuándo lo hago</label><input class="lab-campo" id="re-primer-paso" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-evaluar">6. Después: ¿funcionó? Si no, ¿qué pruebo?</label><textarea class="lab-texto" id="re-evaluar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="dbt-regulacion">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Tres veces en el día, ponele nombre e intensidad a lo que sentís.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Desarmar.</strong> Describí una emoción del día con los seis pasos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Algo agradable.</strong> Hacé algo agradable y prestale toda la atención.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Maestría.</strong> Hacé un desafío pequeño y posible.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Cuidar el cuerpo.</strong> Comé a horario, dormí lo suficiente y movete un poco.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Anticiparse.</strong> Ensayá en la imaginación una situación difícil que se viene.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un paso de valor.</strong> Dá un paso hacia algo que te importa a largo plazo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si tus emociones cambian de forma muy intensa y rápida, si te llevan seguido a hacer cosas de las que te arrepentís, o si hace semanas que no sentís nada agradable, no es falta de voluntad: puede ser algo que vale la pena consultar. Un tratamiento DBT completo, con profesionales formados, ayuda mucho en esos casos: podés <a href="/contacto/">escribirme</a>. Este módulo es parte del <a href="/laboratorio-de-habilidades-dbt/">laboratorio de habilidades DBT</a>; seguí con <a href="/laboratorio-dbt-efectividad-interpersonal/">efectividad interpersonal</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Linehan, M. M. (1993). <em>Cognitive-Behavioral Treatment of Borderline Personality Disorder</em>. Guilford Press.</li>
+        <li>Linehan, M. M. (2015). <em>DBT Skills Training Manual</em> (2.ª ed.). Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

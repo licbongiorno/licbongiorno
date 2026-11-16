@@ -480,6 +480,14 @@ LABORATORIOS = [
      "descripcion": "Distinguir hechos de juicios, nombrar lo que sentís y necesitás, y armar un pedido claro en cuatro pasos."},
     {"titulo": "Laboratorio de habilidades inspiradas en DBT", "ruta": "/laboratorio-de-habilidades-dbt/", "tipo": "Emociones intensas",
      "descripcion": "Atención plena, STOP, kit de crisis, acción opuesta y pedir con claridad: herramientas para cuando la emoción sube."},
+    {"titulo": "DBT: atención plena", "ruta": "/laboratorio-dbt-atencion-plena/", "tipo": "DBT · Módulo 1",
+     "descripcion": "Mente sabia, observar, describir y participar, no juzgar, una cosa a la vez y con efectividad."},
+    {"titulo": "DBT: tolerancia al malestar", "ruta": "/laboratorio-dbt-tolerancia-al-malestar/", "tipo": "DBT · Módulo 2",
+     "descripcion": "Distraerse con sabiduría, autocalmarse con los sentidos, mejorar el momento, aceptación radical y girar la mente."},
+    {"titulo": "DBT: regulación emocional", "ruta": "/laboratorio-dbt-regulacion-emocional/", "tipo": "DBT · Módulo 3",
+     "descripcion": "Para qué sirven las emociones, describirlas, acumular lo positivo, construir maestría, anticiparse y resolver problemas."},
+    {"titulo": "DBT: efectividad interpersonal", "ruta": "/laboratorio-dbt-efectividad-interpersonal/", "tipo": "DBT · Módulo 4",
+     "descripcion": "Objetivos y prioridades, lo que se interpone, cuánto pedir, validarse y el camino del medio."},
     {"titulo": "Laboratorio de flexibilidad yoica", "ruta": "/laboratorio-de-flexibilidad-yoica/", "tipo": "Autoconocimiento",
      "descripcion": "Las tres sillas, otras explicaciones posibles, el diálogo con tus voces internas y tus defensas."},
     {"titulo": "Laboratorio de emociones", "ruta": "/laboratorio-de-emociones/", "tipo": "Emociones",
@@ -615,7 +623,7 @@ LABORATORIOS = [
 
 TEMAS_LAB = {
     "/laboratorio-de-creatividad/": "Aprendizaje y cambio", "/laboratorio-de-comunicacion-no-violenta/": "Vínculos",
-    "/laboratorio-de-habilidades-dbt/": "Emociones", "/laboratorio-de-flexibilidad-yoica/": "Jung y autoconocimiento",
+    "/laboratorio-de-habilidades-dbt/": "Emociones", "/laboratorio-dbt-atencion-plena/": "Emociones", "/laboratorio-dbt-tolerancia-al-malestar/": "Emociones", "/laboratorio-dbt-regulacion-emocional/": "Emociones", "/laboratorio-dbt-efectividad-interpersonal/": "Vínculos", "/laboratorio-de-flexibilidad-yoica/": "Jung y autoconocimiento",
     "/laboratorio-de-emociones/": "Emociones", "/laboratorio-de-presencia/": "Cuerpo y respiración",
     "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
     "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones", "/laboratorio-de-pensamientos-repetitivos/": "Emociones",

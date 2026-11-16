@@ -1425,3 +1425,10 @@ fieldset.mapa-campo { border: 0; padding: 0; min-width: 0; }
 .vo-tarjeta__botones { display: flex; flex-wrap: wrap; gap: .5rem; }
 @media (max-width: 600px) { .vo-cita { padding: 1.2rem 1.1rem 1rem; } }
 .vo-azar > .boton { justify-self: start; }
+
+/* Tarjetas que son enlaces (mapa de módulos DBT) */
+a.lab-tarjeta { display: block; color: inherit; text-decoration: none; transition: border-color .2s, transform .2s; }
+a.lab-tarjeta h3 { color: var(--salvia-profunda); }
+a.lab-tarjeta:hover h3, a.lab-tarjeta:focus-visible h3 { text-decoration: underline; text-underline-offset: .2em; }
+a.lab-tarjeta:hover { transform: translateY(-2px); }
+@media (prefers-reduced-motion: reduce) { a.lab-tarjeta, a.lab-tarjeta:hover { transition: none; transform: none; } }
