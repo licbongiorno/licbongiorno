@@ -32,12 +32,12 @@
   if (pa) {
     var inp = pa.querySelector("#lt-temo"), sal = pa.querySelector("[data-lt-salida]"), k = 0;
     var MOLDES = [
-      function (t) { return "Hoy me propongo " + t + " como nunca antes. Que quede en la historia: el mejor " + t + " del que se tenga memoria."; },
-      function (t) { return "Bueno, si va a pasar, que pase a lo grande: voy a " + t + " tres veces seguidas, para que valga la pena."; },
-      function (t) { return "Hoy entreno para el campeonato mundial de " + t + ". Voy a dar lo mejor de mí."; }
+      function (t) { return "Hoy deseo que pase esto: " + t + ". Y no un poquito: a lo grande, como nunca nadie lo vio."; },
+      function (t) { return "Que venga: " + t + ". Mejor tres veces seguidas, así vale la pena."; },
+      function (t) { return "Hoy entreno para el campeonato mundial de esto: " + t + ". Voy a dar lo mejor de mí."; }
     ];
     var armar = function () {
-      var t = inp.value.trim().replace(/^[«"]|[»".]$/g, "").replace(/^(que )?(me )?/i, "");
+      var t = inp.value.trim().replace(/^[«"]|[»".]$/g, "");
       sal.textContent = t ? "«" + MOLDES[k % MOLDES.length](t.charAt(0).toLowerCase() + t.slice(1)) + "»" : "Escribí lo que temés.";
     };
     inp.addEventListener("input", armar);
