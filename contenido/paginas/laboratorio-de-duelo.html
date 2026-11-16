@@ -1,16 +1,38 @@
 <!--{
   "ruta": "/laboratorio-de-duelo/",
   "titulo": "Laboratorio de duelo: acompañar una pérdida",
-  "descripcion": "Ejercicios para atravesar un duelo: el ir y venir entre el dolor y la vida, una carta a quien ya no está, lo que te dejó, rituales y las fechas difíciles.",
+  "descripcion": "Ejercicios para atravesar un duelo: las tareas de Worden, los vínculos continuos, reconstruir el sentido, duelos no reconocidos, los chicos y cuándo consultar.",
   "prioridad": 0.6,
-  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Duelo", "/laboratorio-de-duelo/"]],
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Duelo",
+      "/laboratorio-de-duelo/"
+    ]
+  ],
   "antetitulo": "Laboratorio",
   "h1": "Laboratorio de <em>duelo</em>",
-  "bajada": "No para «superar» una pérdida, sino para acompañarla. Ejercicios suaves para darle lugar al dolor, al recuerdo y también a la vida que sigue.",
-  "respuesta": "El laboratorio de duelo propone ejercicios para acompañar una pérdida: comprender el duelo como un ir y venir entre el dolor y la reconstrucción (modelo de doble proceso de Stroebe y Schut), escribir una carta a quien ya no está, registrar lo que esa persona dejó, pensar rituales propios y planificar las fechas difíciles. No reemplaza el acompañamiento profesional.",
-  "scripts": ["lab-base.js", "laboratorio-duelo.js", "escenas.js"],
+  "bajada": "No para «superar» una pérdida, sino para acompañarla. Lo que sabe hoy la psicología del duelo, con ejercicios suaves para darle lugar al dolor, al recuerdo y a la vida que sigue.",
+  "respuesta": "El laboratorio de duelo propone ejercicios para acompañar una pérdida: el modelo de doble proceso de Stroebe y Schut, las cuatro tareas del duelo de William Worden, mitos sobre el duelo, una carta a quien ya no está, lo que esa persona dejó, los vínculos continuos (Klass, Silverman y Nickman), la reconstrucción del sentido de Robert Neimeyer, rituales y fechas difíciles, el duelo desautorizado (Doka) y la pérdida ambigua (Boss), el duelo en los chicos, cómo acompañar a alguien y las señales del trastorno por duelo prolongado del DSM-5-TR. Incluye un plan de 7 días. No reemplaza el acompañamiento profesional.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "laboratorio-duelo.js",
+    "escenas.js"
+  ],
   "wa_tema": "el laboratorio de duelo",
-  "articulos": ["duelo-migratorio", "la-soledad", "la-resiliencia"]
+  "articulos": [
+    "duelo-migratorio",
+    "la-soledad",
+    "la-resiliencia"
+  ]
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
@@ -26,13 +48,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
-      <a href="#ir-y-venir">El ir y venir</a>
-      <a href="#carta">Una carta</a>
-      <a href="#me-dejo">Lo que me dejó</a>
-      <a href="#rituales">Rituales</a>
-      <a href="#fechas">Fechas difíciles</a>
-    </nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#ir-y-venir">El duelo va y viene</a><a href="#tareas">Las cuatro tareas del duelo</a><a href="#mitos">Mitos sobre el duelo</a><a href="#carta">Una carta a quien ya no está</a><a href="#me-dejo">Lo que me dejó</a><a href="#vinculos-continuos">Vínculos que continúan</a><a href="#sentido">Reconstruir el sentido</a><a href="#rituales">Rituales posibles</a><a href="#fechas">Fechas difíciles</a><a href="#desautorizado">Duelos que nadie reconoce</a><a href="#chicos">Los chicos y el duelo</a><a href="#acompanar">Acompañar a alguien en duelo</a><a href="#prolongado">Cuándo consultar</a><a href="#siete-dias">Plan de 7 días</a></nav>
 
     <section class="lab-estacion revelar" id="ir-y-venir" aria-labelledby="t-ir">
       <p class="lab-estacion__num">01</p>
@@ -63,8 +79,41 @@
       </div>
     </section>
 
-    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+    <section class="lab-estacion revelar" id="tareas" aria-labelledby="t-tareas">
       <p class="lab-estacion__num">02</p>
+      <h2 id="t-tareas">Las cuatro tareas del duelo</h2>
+      <p class="lab-estacion__bajada">El psicólogo William Worden propuso pensar el duelo no como etapas que se padecen, sino como <strong>tareas</strong> que la persona va haciendo, a su ritmo y no siempre en orden. Lo hace activo: hay algo que se puede hacer. Elegí una tarea para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una tarea"><label class="opcion"><input type="radio" name="du-tarea" value="t1" checked><span>1. Aceptar la realidad</span></label><label class="opcion"><input type="radio" name="du-tarea" value="t2"><span>2. Atravesar el dolor</span></label><label class="opcion"><input type="radio" name="du-tarea" value="t3"><span>3. Adaptarse</span></label><label class="opcion"><input type="radio" name="du-tarea" value="t4"><span>4. Una conexión duradera</span></label></div>
+        <div class="lab-panel" data-lab-panel="t1"><p><strong>Aceptar la realidad de la pérdida</strong>, primero con la cabeza y después con el corazón. Al principio es común esperar escuchar su voz, poner un plato de más, marcar su número.</p><p><em>Ayuda:</em> los rituales, nombrar lo que pasó, ver o despedir.</p></div><div class="lab-panel" data-lab-panel="t2" hidden><p><strong>Elaborar el dolor</strong>: sentirlo en lugar de evitarlo todo el tiempo. Tristeza, enojo, culpa, alivio, ansiedad: todas pueden aparecer.</p><p><em>Ayuda:</em> espacios para el llanto, la escritura, hablar con otros.</p></div><div class="lab-panel" data-lab-panel="t3" hidden><p><strong>Adaptarse a un mundo sin esa persona</strong>, en tres planos: lo externo (las tareas que hacía, los roles), lo interno (quién soy ahora) y lo espiritual (qué creo sobre la vida).</p><p><em>Ayuda:</em> aprender lo que hacía el otro, pedir ayuda, revisar la identidad.</p></div><div class="lab-panel" data-lab-panel="t4" hidden><p><strong>Encontrar una conexión duradera con quien murió</strong> mientras se sigue viviendo. No se trata de olvidar, sino de darle un lugar distinto.</p><p><em>Ayuda:</em> lo que me dejó, los vínculos continuos (estación siguiente).</p></div>
+      </div>
+      <div style="margin-top:1rem"></div><form class="lab-tarjeta lab-armador" data-lab-form="mis-tareas-del-duelo" data-lab-form-titulo="Mis tareas del duelo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dt-1">¿Qué me cuesta aceptar todavía?</label><textarea class="lab-texto" id="dt-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dt-2">¿Qué emoción estoy evitando sentir?</label><textarea class="lab-texto" id="dt-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dt-3">¿Qué hacía esa persona que ahora me toca a mí, o tengo que resolver?</label><textarea class="lab-texto" id="dt-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dt-4">¿Qué lugar le quiero dar en mi vida de ahora en adelante?</label><textarea class="lab-texto" id="dt-4" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-mitos">Mitos sobre el duelo</h2>
+      <p class="lab-estacion__bajada">Muchas ideas sobre el duelo que circulan, incluso entre profesionales, no tienen respaldo y agregan sufrimiento: hacen sentir que uno lo está haciendo mal. ¿Mito o realidad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="duelo-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o realidad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Realidad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div><p class="lab-paso__ayuda">Más mitos en el <a href="/laboratorio-de-psicotanatologia/">laboratorio de psicotanatología</a>.</p>
+    </section>
+
+
+
+    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+      <p class="lab-estacion__num">04</p>
       <h2 id="t-carta">Una carta a quien ya no está</h2>
       <p class="lab-estacion__bajada">Muchas veces quedan cosas sin decir: un gracias, un perdón, un te quiero, una bronca. Escribirlas no cambia lo que pasó, pero puede aliviar. Algunas preguntas para empezar:</p>
       <form class="lab-tarjeta lab-armador" data-lab-form="carta-de-duelo" data-lab-form-titulo="Una carta" novalidate>
@@ -84,7 +133,7 @@
     </section>
 
     <section class="lab-estacion revelar" id="me-dejo" aria-labelledby="t-dejo">
-      <p class="lab-estacion__num">03</p>
+      <p class="lab-estacion__num">05</p>
       <h2 id="t-dejo">Lo que me dejó</h2>
       <p class="lab-estacion__bajada">El vínculo no termina con la pérdida: se transforma. El psicólogo J. William Worden habla de encontrar una forma de seguir conectados mientras la vida continúa. ¿Qué de esa persona, o de esa etapa, querés conservar?</p>
       <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-me-dejo" data-lab-form-titulo="Lo que me dejó" novalidate>
@@ -97,8 +146,38 @@
       </form>
     </section>
 
+    <section class="lab-estacion revelar" id="vinculos-continuos" aria-labelledby="t-vinculos-continuos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-vinculos-continuos">Vínculos que continúan</h2>
+      <p class="lab-estacion__bajada">Durante buena parte del siglo XX se pensó que hacer el duelo era «desprenderse» de quien murió. En 1996, Dennis Klass, Phyllis Silverman y Steven Nickman reunieron investigaciones que mostraban otra cosa: muchas personas mantienen un <strong>vínculo continuo</strong> con sus muertos, y eso no es patológico. Se le habla, se lo consulta por dentro, se hacen cosas en su nombre. El vínculo cambia de forma; no desaparece.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="vinculos-continuos" data-lab-form-titulo="Un vínculo que continúa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vc-como">¿Cómo sigue presente en mi vida? (objetos, lugares, gestos, frases que repito)</label><textarea class="lab-texto" id="vc-como" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vc-hablo">Si pudiera consultarle algo hoy, ¿qué le preguntaría? ¿Qué me diría?</label><textarea class="lab-texto" id="vc-hablo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vc-nombre">Algo que puedo hacer en su nombre</label><input class="lab-campo" id="vc-nombre" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="vc-cambio">¿Qué parte del vínculo necesito cambiar o soltar? (un enojo, una promesa imposible)</label><textarea class="lab-texto" id="vc-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sentido" aria-labelledby="t-sentido">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-sentido">Reconstruir el sentido</h2>
+      <p class="lab-estacion__bajada">Para el psicólogo Robert Neimeyer, una pérdida sacude el relato que teníamos sobre la vida, sobre el mundo y sobre nosotros. El duelo implica, en parte, <strong>reconstruir el sentido</strong>: entender de algún modo lo que pasó, encontrar, con el tiempo, algo que la pérdida dejó, y revisar quién soy ahora. No hay que apurarlo, y no siempre se encuentra un sentido; a veces alcanza con poder contar la historia.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="reconstruir-el-sentido" data-lab-form-titulo="Reconstruir el sentido" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rs-historia">¿Cómo me explico, hoy, lo que pasó?</label><textarea class="lab-texto" id="rs-historia" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rs-mundo">¿Qué cambió en lo que creía sobre la vida o el mundo?</label><textarea class="lab-texto" id="rs-mundo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rs-yo">¿Quién soy ahora, que antes no era? (para bien o para mal)</label><textarea class="lab-texto" id="rs-yo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rs-capitulo">Si mi vida fuera un libro, ¿cómo se llamaría este capítulo?</label><input class="lab-campo" id="rs-capitulo" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+
+
     <section class="lab-estacion revelar" id="rituales" aria-labelledby="t-rituales">
-      <p class="lab-estacion__num">04</p>
+      <p class="lab-estacion__num">08</p>
       <h2 id="t-rituales">Rituales posibles</h2>
       <p class="lab-estacion__bajada">Los rituales le dan forma a lo que no tiene palabras. No hace falta que sean religiosos ni grandes. Algunas ideas, por si alguna te resuena:</p>
       <div class="lab-tarjeta" data-lab-azar="rituales">
@@ -108,7 +187,7 @@
     </section>
 
     <section class="lab-estacion revelar" id="fechas" aria-labelledby="t-fechas">
-      <p class="lab-estacion__num">05</p>
+      <p class="lab-estacion__num">09</p>
       <h2 id="t-fechas">Fechas difíciles</h2>
       <p class="lab-estacion__bajada">Cumpleaños, aniversarios, fiestas: suelen doler más de lo esperado, y muchas veces la anticipación es peor que el día. Planificarlas un poco ayuda.</p>
       <form class="lab-tarjeta lab-armador" data-lab-form="fechas-dificiles" data-lab-form-titulo="Fechas difíciles" novalidate>
@@ -122,7 +201,90 @@
       </form>
     </section>
 
-    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+    <section class="lab-estacion revelar" id="desautorizado" aria-labelledby="t-desautorizado">
+      <p class="lab-estacion__num">10</p>
+      <h2 id="t-desautorizado">Duelos que nadie reconoce</h2>
+      <p class="lab-estacion__bajada">Kenneth Doka llamó <strong>duelo desautorizado</strong> al que no está socialmente reconocido: la pérdida no se considera importante, o la relación no se valida, o la forma de doler no se acepta. Pauline Boss describió además la <strong>pérdida ambigua</strong>: cuando la persona está físicamente pero no psicológicamente, o al revés. Estos duelos suelen vivirse en soledad. Elegí uno para verlo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un tipo de duelo"><label class="opcion"><input type="radio" name="du-desaut" value="perinatal" checked><span>Perinatal</span></label><label class="opcion"><input type="radio" name="du-desaut" value="mascota"><span>Una mascota</span></label><label class="opcion"><input type="radio" name="du-desaut" value="ruptura"><span>Una ruptura</span></label><label class="opcion"><input type="radio" name="du-desaut" value="suicidio"><span>Por suicidio</span></label><label class="opcion"><input type="radio" name="du-desaut" value="ambigua"><span>Pérdida ambigua</span></label><label class="opcion"><input type="radio" name="du-desaut" value="migratorio"><span>Migratorio</span></label></div>
+        <div class="lab-panel" data-lab-panel="perinatal"><p>Un embarazo que se pierde, un bebé que muere al nacer. Se escucha «ya vas a tener otro», como si no hubiera habido un hijo. Necesita nombre, ritual y tiempo, como cualquier duelo.</p></div><div class="lab-panel" data-lab-panel="mascota" hidden><p>Para muchas personas, un animal es un vínculo cotidiano y central. El «era solo un perro» duele doble.</p></div><div class="lab-panel" data-lab-panel="ruptura" hidden><p>La separación de una pareja, una amistad que terminó, un ex con quien no se puede hablar. No hay velorio ni pésame, pero hay pérdida.</p></div><div class="lab-panel" data-lab-panel="suicidio" hidden><p>Suele venir con culpa, preguntas sin respuesta y, a veces, silencio social. Hay grupos específicos de sobrevivientes que ayudan mucho.</p></div><div class="lab-panel" data-lab-panel="ambigua" hidden><p>Un familiar con demencia que ya no reconoce, una persona desaparecida, un hijo con quien no hay contacto. La pérdida no termina de cerrarse, y eso, dice Boss, no es un fracaso personal.</p></div><div class="lab-panel" data-lab-panel="migratorio" hidden><p>Dejar el país, la lengua, los olores, los vínculos. Está en el artículo sobre <a href="/recursos/duelo-migratorio/">duelo migratorio</a>.</p></div>
+      </div>
+      <div style="margin-top:1rem"></div><form class="lab-tarjeta lab-armador" data-lab-form="un-duelo-no-reconocido" data-lab-form-titulo="Un duelo no reconocido" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dd-que">Una pérdida que no fue reconocida por otros</label><textarea class="lab-texto" id="dd-que" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dd-dijeron">Lo que me dijeron, o lo que no me dijeron</label><textarea class="lab-texto" id="dd-dijeron" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dd-necesito">Lo que necesitaría para reconocerla yo</label><textarea class="lab-texto" id="dd-necesito" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="chicos" aria-labelledby="t-chicos">
+      <p class="lab-estacion__num">11</p>
+      <h2 id="t-chicos">Los chicos y el duelo</h2>
+      <p class="lab-estacion__bajada">Los chicos también hacen duelo, a su manera y según su edad. Suelen vivirlo de a ratos: lloran y a los cinco minutos juegan, y eso no significa que no les importe. Y vuelven a elaborar la pérdida a medida que crecen y la entienden de otro modo. Elegí una edad para ver qué suele ayudar.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una edad"><label class="opcion"><input type="radio" name="du-edad" value="menos3" checked><span>Hasta 3 años</span></label><label class="opcion"><input type="radio" name="du-edad" value="3a6"><span>De 3 a 6</span></label><label class="opcion"><input type="radio" name="du-edad" value="6a10"><span>De 6 a 10</span></label><label class="opcion"><input type="radio" name="du-edad" value="adolescentes"><span>Adolescentes</span></label></div>
+        <div class="lab-panel" data-lab-panel="menos3"><p>No entienden la muerte, pero sí la ausencia y el clima emocional. Ayuda sostener rutinas, contacto físico y personas estables.</p></div><div class="lab-panel" data-lab-panel="3a6" hidden><p>Pueden pensar que la muerte es reversible o que la causaron con un pensamiento. Ayuda decir «murió» y no «se durmió» o «se fue de viaje», y aclarar que no fue su culpa.</p></div><div class="lab-panel" data-lab-panel="6a10" hidden><p>Empiezan a entender que la muerte es definitiva y universal. Suelen hacer preguntas concretas. Ayuda responder con la verdad, en palabras simples, e incluirlos en los rituales si quieren.</p></div><div class="lab-panel" data-lab-panel="adolescentes" hidden><p>Entienden la muerte como un adulto, pero a veces se encierran o la viven más con sus pares. Ayuda estar disponible sin forzar la charla.</p></div>
+      </div><p class="lab-paso__ayuda">Si un chico deja de jugar, de comer o de dormir durante mucho tiempo, o si aparecen ideas de reunirse con quien murió, conviene consultar.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="acompanar" aria-labelledby="t-acompanar">
+      <p class="lab-estacion__num">12</p>
+      <h2 id="t-acompanar">Acompañar a alguien en duelo</h2>
+      <p class="lab-estacion__bajada">Muchas personas en duelo cuentan que lo que más dolió no fue el silencio, sino algunas frases bienintencionadas. Y que lo que más ayudó fue que alguien se quedara, nombrara a quien murió y ofreciera algo concreto. ¿Ayuda o no ayuda?</p>
+      <div class="lab-tarjeta" data-lab-quiz="duelo-acompanar">
+        <p class="lab-tarjeta__titulo">¿Ayuda o no ayuda?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Ayuda</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">No ayuda tanto</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="prolongado" aria-labelledby="t-prolongado">
+      <p class="lab-estacion__num">13</p>
+      <h2 id="t-prolongado">Cuándo consultar</h2>
+      <p class="lab-estacion__bajada">La mayoría de los duelos, con el tiempo y con apoyo, se van integrando en la vida. Pero en un grupo de personas el dolor queda detenido. Desde 2022, el DSM-5-TR incluye el <strong>trastorno por duelo prolongado</strong>: cuando, pasado al menos un año de la muerte (seis meses en chicos y adolescentes), el anhelo intenso por quien murió o la preocupación constante por él siguen presentes casi todos los días, con un malestar que afecta la vida. Estas son algunas señales que conviene conversar con un profesional. No es un test.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="senales-para-consultar" data-lab-form-titulo="Señales para consultar" novalidate>
+        <fieldset class="lab-paso"><legend class="lab-paso__titulo">Desde hace mucho tiempo, casi todos los días…</legend><div class="opciones opciones--columna">
+          <label class="opcion"><input type="checkbox" value="1"><span>Siento que una parte de mí murió con esa persona.</span></label>
+          <label class="opcion"><input type="checkbox" value="2"><span>Todavía no puedo creer que haya muerto.</span></label>
+          <label class="opcion"><input type="checkbox" value="3"><span>Evito todo lo que me la recuerda.</span></label>
+          <label class="opcion"><input type="checkbox" value="4"><span>El dolor sigue siendo tan intenso como al principio.</span></label>
+          <label class="opcion"><input type="checkbox" value="5"><span>No puedo retomar mis actividades ni proyectos.</span></label>
+          <label class="opcion"><input type="checkbox" value="6"><span>Me siento entumecido, sin emociones.</span></label>
+          <label class="opcion"><input type="checkbox" value="7"><span>Siento que la vida no tiene sentido sin esa persona.</span></label>
+          <label class="opcion"><input type="checkbox" value="8"><span>Me siento muy solo, aunque haya gente cerca.</span></label></div></fieldset>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form><p class="lab-paso__ayuda">Si reconocés varias, y sobre todo si aparecen ideas de morir o de reunirte con quien murió, pedí ayuda: <a href="/ayuda-urgente/">ayuda urgente</a>. El duelo prolongado tiene tratamientos con buen respaldo.</p>
+    </section>
+
+
+
+
+
+    
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">14</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica suave por día. Marcá las que vayas haciendo; queda guardado solo en este navegador. Si un día no podés, no pasa nada.</p>
+      <div class="lab-tarjeta" data-lab-plan="duelo">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Escribí su nombre y una frase sobre quién era.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Oscilar.</strong> Date un rato para el dolor y otro para algo de la vida que sigue.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Una carta.</strong> Escribile algo que quedó sin decir.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Lo que me dejó.</strong> Anotá tres cosas que llevás de esa persona.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un ritual.</strong> Elegí un gesto pequeño en su memoria.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Pedir.</strong> Pedile a alguien una ayuda concreta.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Cuidarte.</strong> Comé, dormí, caminá: el cuerpo también está de duelo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+<aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> El dolor de un duelo puede ser muy intenso y aun así ser normal. Conviene consultar si después de muchos meses el dolor no cede y te impide sostener la vida cotidiana, si sentís que no podés vivir sin esa persona o si aparecen ideas de muerte. En ese caso, pedí ayuda ya: <a href="tel:135">135</a> o <a href="tel:08003451435">0800-345-1435</a> (Centro de Asistencia al Suicida) o <a href="tel:911">911</a>. Para acompañarte en tu duelo, podés <a href="/contacto/">escribirme</a>.</p>
     </aside>
 
@@ -132,6 +294,13 @@
         <li>Stroebe, M. y Schut, H. (1999). «The dual process model of coping with bereavement: rationale and description». <em>Death Studies</em>, 23(3).</li>
         <li>Worden, J. W. (2009). <em>El tratamiento del duelo: asesoramiento psicológico y terapia</em>.</li>
         <li>Klass, D., Silverman, P. R. y Nickman, S. L. (Eds.) (1996). <em>Continuing Bonds: New Understandings of Grief</em>.</li>
+      
+        <li>Worden, J. W. (2009). <em>Grief Counseling and Grief Therapy</em>, 4.ª ed. (en castellano, <em>El tratamiento del duelo</em>).</li>
+        <li>Klass, D., Silverman, P. R. y Nickman, S. L. (Eds.) (1996). <em>Continuing Bonds: New Understandings of Grief</em>. Taylor &amp; Francis.</li>
+        <li>Neimeyer, R. A. (Ed.) (2001). <em>Meaning Reconstruction and the Experience of Loss</em>. American Psychological Association.</li>
+        <li>Doka, K. J. (Ed.) (1989). <em>Disenfranchised Grief: Recognizing Hidden Sorrow</em>. Lexington Books.</li>
+        <li>Boss, P. (1999). <em>Ambiguous Loss</em> (en castellano, <em>La pérdida ambigua</em>).</li>
+        <li>American Psychiatric Association (2022). <em>DSM-5-TR</em>: trastorno por duelo prolongado.</li>
       </ul>
     </div>
   </div>

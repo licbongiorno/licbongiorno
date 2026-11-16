@@ -1,16 +1,37 @@
 <!--{
   "ruta": "/laboratorio-de-suenos/",
   "titulo": "Laboratorio de sueños: registrar y explorar tus sueños",
-  "descripcion": "Registrá un sueño paso a paso, exploralo con preguntas inspiradas en Jung, dialogá con una figura del sueño y descargá todo en tu dispositivo.",
+  "descripcion": "Trabajar los sueños con Jung: registrarlos, su estructura dramática, amplificar, el nivel del sujeto, la compensación, las series y llevarlos a la vida.",
   "prioridad": 0.6,
-  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Sueños", "/laboratorio-de-suenos/"]],
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Sueños",
+      "/laboratorio-de-suenos/"
+    ]
+  ],
   "antetitulo": "Recorrido junguiano · Nivel 3",
   "h1": "Laboratorio de <em>sueños</em>",
-  "bajada": "Un espacio para escribir un sueño antes de que se borre, mirarlo con preguntas y escuchar lo que trae. Sin diccionarios de significados: el sentido lo encontrás vos.",
-  "respuesta": "El laboratorio de sueños propone un registro guiado para escribir un sueño, preguntas de amplificación inspiradas en la psicología analítica de Jung, un ejercicio de diálogo con una figura del sueño y la opción de descargar todo en el propio dispositivo. No interpreta los sueños con significados fijos: ayuda a explorarlos.",
-  "scripts": ["lab-base.js", "laboratorio-suenos.js"],
+  "bajada": "Registrar, ordenar, amplificar, dialogar y llevar a la vida. Herramientas de Jung y sus continuadores para escuchar lo que tus sueños dicen de vos.",
+  "respuesta": "El laboratorio de sueños propone trabajar los propios sueños desde la psicología analítica de Jung: registrarlos, ordenarlos según su estructura dramática (exposición, desarrollo, culminación y lisis), amplificar una imagen con mitos y cuentos, distinguir el nivel del objeto y el nivel del sujeto, preguntarse qué compensa el sueño, trabajar con series de sueños, comparar a Freud y Jung, mirar los sueños típicos sin diccionarios, dialogar con una figura del sueño y llevarlo a la vida con los cuatro pasos de Robert A. Johnson. Incluye un plan de 7 días para recordar más sueños.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "laboratorio-suenos.js"
+  ],
   "wa_tema": "el laboratorio de sueños",
-  "articulos": ["los-suenos-segun-jung", "suenos-recurrentes", "imaginacion-activa"]
+  "articulos": [
+    "los-suenos-segun-jung",
+    "suenos-recurrentes",
+    "imaginacion-activa"
+  ]
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
@@ -26,13 +47,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
-      <a href="#registro">Registrar el sueño</a>
-      <a href="#amplificar">Amplificar</a>
-      <a href="#dialogo">Dialogar con una figura</a>
-      <a href="#guardar">Guardar</a>
-      <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#registro">Registrar el sueño</a><a href="#amplificar">Amplificar una imagen</a><a href="#dialogo">Dialogar con una figura del sueño</a><a href="#guardar">Guardar el sueño</a><a href="#drama">El sueño como un drama</a><a href="#sujeto-objeto">Nivel del objeto y nivel del sujeto</a><a href="#compensacion">Lo que el sueño compensa</a><a href="#series">Sueños en serie</a><a href="#freud-jung">Freud y Jung ante el sueño</a><a href="#tipicos">Sueños que mucha gente tiene</a><a href="#cuatro-pasos">Llevar el sueño a la vida</a><a href="#siete-dias">Plan de 7 días para recordar más sueños</a></nav>
 
     <form data-lab-form="mi-sueno" data-lab-form-titulo="Mi sueño" novalidate>
       <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
@@ -91,8 +106,118 @@
       </section>
     </form>
 
-    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+
+    <section class="lab-estacion revelar" id="drama" aria-labelledby="t-drama">
       <p class="lab-estacion__num">05</p>
+      <h2 id="t-drama">El sueño como un drama</h2>
+      <p class="lab-estacion__bajada">En «Sobre la naturaleza de los sueños», Jung observó que muchos sueños tienen una estructura parecida a la de una obra de teatro, en cuatro momentos. Ordenar el sueño así ayuda a ver hacia dónde va. No todos los sueños la tienen: algunos son una sola imagen.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="el-sueno-como-drama" data-lab-form-titulo="El sueño como un drama" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dr-expo">Exposición: el lugar, el tiempo y los personajes</label><textarea class="lab-texto" id="dr-expo" rows="2" placeholder="Estoy en la casa de mi infancia, de noche, con mi hermano"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dr-desarrollo">Desarrollo: qué empieza a pasar, cómo se complica</label><textarea class="lab-texto" id="dr-desarrollo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dr-culmina">Culminación (peripecia): el momento decisivo, el giro</label><textarea class="lab-texto" id="dr-culmina" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dr-lisis">Solución (lisis): cómo termina, o cómo queda abierto</label><textarea class="lab-texto" id="dr-lisis" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dr-falta">Si el sueño quedó sin final, ¿cómo podría seguir?</label><textarea class="lab-texto" id="dr-falta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+
+    <section class="lab-estacion revelar" id="sujeto-objeto" aria-labelledby="t-sujeto-objeto">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-sujeto-objeto">Nivel del objeto y nivel del sujeto</h2>
+      <p class="lab-estacion__bajada">Jung distinguió dos formas de leer una figura del sueño. En el <strong>nivel del objeto</strong>, la figura habla de la persona real: si sueño con mi jefe, el sueño dice algo sobre mi relación con él. En el <strong>nivel del sujeto</strong>, la figura representa una parte de mí: mi jefe interior, mi propia exigencia. Muchas veces el nivel del sujeto es el más revelador, sobre todo cuando la figura es alguien lejano o desconocido.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dos-niveles" data-lab-form-titulo="Nivel del objeto y nivel del sujeto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ns-figura">Una figura de mi sueño</label><input class="lab-campo" id="ns-figura" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ns-objeto">Nivel del objeto: ¿qué me dice sobre mi vínculo con esa persona real?</label><textarea class="lab-texto" id="ns-objeto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ns-rasgo">¿Cómo es esa figura? Tres adjetivos</label><input class="lab-campo" id="ns-rasgo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ns-sujeto">Nivel del sujeto: ¿qué parte mía tiene esos rasgos?</label><textarea class="lab-texto" id="ns-sujeto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+
+    <section class="lab-estacion revelar" id="compensacion" aria-labelledby="t-compensacion">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-compensacion">Lo que el sueño compensa</h2>
+      <p class="lab-estacion__bajada">Para Jung, una de las funciones principales del sueño es <strong>compensar</strong> la actitud de la conciencia: mostrar lo que dejamos de lado. Si de día me muestro siempre fuerte, quizás sueñe con alguien frágil; si me subestimo, quizás sueñe que soy admirado. La pregunta no es solo «¿qué significa?», sino «¿qué actitud mía está corrigiendo o completando este sueño?».</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-compensa" data-lab-form-titulo="Lo que el sueño compensa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-dia">¿Cómo estuve los días antes del sueño? ¿Qué actitud predominaba?</label><textarea class="lab-texto" id="co-dia" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-sueno">¿Qué muestra el sueño que es distinto, u opuesto?</label><textarea class="lab-texto" id="co-sueno" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="co-corrige">¿Qué me está proponiendo integrar?</label><textarea class="lab-texto" id="co-corrige" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+
+    <section class="lab-estacion revelar" id="series" aria-labelledby="t-series">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-series">Sueños en serie</h2>
+      <p class="lab-estacion__bajada">Jung desconfiaba de interpretar un sueño suelto. Prefería trabajar con <strong>series</strong> de sueños: así se ven los motivos que vuelven, los personajes que cambian y el proceso que se va desplegando con el tiempo. Anotá tus sueños de las últimas semanas, aunque sea con una línea, y buscá lo que se repite.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="suenos-en-serie" data-lab-form-titulo="Sueños en serie" novalidate>
+        <div data-lab-lista-editable data-lab-lista-titulo="Mis sueños de las últimas semanas">
+          <label class="lab-paso__titulo" for="se-sueno" style="display:block">Un sueño, en una línea, con su fecha</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="se-sueno" type="text" autocomplete="off" data-lle-entrada placeholder="12/11: una casa con habitaciones que no conocía"><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-repite">¿Qué se repite? (lugares, personajes, situaciones, emociones)</label><textarea class="lab-texto" id="se-repite" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-cambia">¿Qué va cambiando de un sueño al otro?</label><textarea class="lab-texto" id="se-cambia" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+
+    <section class="lab-estacion revelar" id="freud-jung" aria-labelledby="t-freud-jung">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-freud-jung">Freud y Jung ante el sueño</h2>
+      <p class="lab-estacion__bajada">Freud y Jung coincidían en que los sueños hablan del inconsciente, pero no en cómo. Para Freud, en <em>La interpretación de los sueños</em> (1900), el sueño es la realización disfrazada de un deseo, y hay que descifrar el contenido latente detrás del manifiesto. Para Jung, el sueño no disfraza: es un autorretrato espontáneo de la situación psíquica, en el lenguaje de las imágenes. ¿Quién lo diría?</p>
+      <div class="lab-tarjeta" data-lab-quiz="freud-jung-suenos">
+        <p class="lab-tarjeta__titulo">¿Freud o Jung?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Freud</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Jung</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+
+    <section class="lab-estacion revelar" id="tipicos" aria-labelledby="t-tipicos">
+      <p class="lab-estacion__num">10</p>
+      <h2 id="t-tipicos">Sueños que mucha gente tiene</h2>
+      <p class="lab-estacion__bajada">Caer, ser perseguido, rendir un examen sin haber estudiado, estar desnudo en público, perder los dientes, llegar tarde. Son sueños frecuentes en todas partes. Pero Jung advertía contra los diccionarios de sueños: un símbolo no significa lo mismo para todos. En lugar de buscar «qué significa», es mejor preguntarse qué significa <em>para vos</em>, ahora. Elegí uno para ver preguntas que ayudan.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un sueño"><label class="opcion"><input type="radio" name="su-tipico" value="caer" checked><span>Caer</span></label><label class="opcion"><input type="radio" name="su-tipico" value="perseguido"><span>Ser perseguido</span></label><label class="opcion"><input type="radio" name="su-tipico" value="examen"><span>Un examen</span></label><label class="opcion"><input type="radio" name="su-tipico" value="desnudo"><span>Estar desnudo</span></label><label class="opcion"><input type="radio" name="su-tipico" value="dientes"><span>Perder los dientes</span></label><label class="opcion"><input type="radio" name="su-tipico" value="pesadilla"><span>Una pesadilla repetida</span></label></div>
+        <div class="lab-panel" data-lab-panel="caer"><p>¿Desde dónde caías? ¿Qué sentiste? ¿Dónde en tu vida sentís que perdés pie, o que te soltás de algo?</p></div><div class="lab-panel" data-lab-panel="perseguido" hidden><p>¿Quién o qué te perseguía? Si te dieras vuelta, ¿qué pasaría? Lo que perseguimos en sueños a veces es algo propio que evitamos mirar.</p></div><div class="lab-panel" data-lab-panel="examen" hidden><p>¿Qué se evaluaba? ¿Quién te evaluaba? ¿En qué ámbito te sentís a prueba hoy?</p></div><div class="lab-panel" data-lab-panel="desnudo" hidden><p>¿Los demás lo notaban? ¿Qué sentiste: vergüenza, libertad, indiferencia? ¿Dónde te sentís expuesto o al descubierto?</p></div><div class="lab-panel" data-lab-panel="dientes" hidden><p>¿Cómo se caían? ¿Qué sentiste? ¿Qué estás perdiendo, o temés perder, en tu vida?</p></div><div class="lab-panel" data-lab-panel="pesadilla" hidden><p>Si una pesadilla vuelve y te quita el sueño, hay una técnica con buen respaldo para cambiarle el final: está en el <a href="/laboratorio-de-pesadillas/">laboratorio de pesadillas</a>.</p></div>
+      </div>
+    </section>
+
+
+    <section class="lab-estacion revelar" id="cuatro-pasos" aria-labelledby="t-cuatro-pasos">
+      <p class="lab-estacion__num">11</p>
+      <h2 id="t-cuatro-pasos">Llevar el sueño a la vida</h2>
+      <p class="lab-estacion__bajada">El analista junguiano Robert A. Johnson propuso en <em>Inner Work</em> (1986) un método de cuatro pasos para trabajar un sueño por cuenta propia. El último es el más olvidado: hacer algo concreto, aunque sea pequeño, que honre lo que el sueño mostró. Unos dos minutos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos">
+          <li><strong>Asociaciones.</strong> Para cada imagen importante, anotá qué te viene a la mente. Volvé siempre a la imagen, sin encadenar asociaciones lejos de ella.</li>
+          <li><strong>Dinámicas.</strong> Preguntate qué parte de vos representa cada imagen, y en qué lugar de tu vida está activa esa dinámica.</li>
+          <li><strong>Interpretación.</strong> Juntá todo en una frase: ¿qué te está diciendo el sueño? Elegí la lectura que te enseñe algo que no sabías, no la que confirme lo que ya pensás.</li>
+          <li><strong>Un ritual.</strong> Hacé algo concreto que dé forma física al sueño: un gesto, un dibujo, una visita, una conversación. Pequeño y significativo.</li>
+        </ol>
+      </div>
+      <div style="margin-top:1rem"></div><form class="lab-tarjeta lab-armador" data-lab-form="mi-ritual-del-sueno" data-lab-form-titulo="Mi ritual del sueño" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ri-mensaje">Lo que entendí del sueño, en una frase</label><input class="lab-campo" id="ri-mensaje" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ri-gesto">El gesto concreto que voy a hacer</label><input class="lab-campo" id="ri-gesto" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ri-cuando">¿Cuándo?</label><input class="lab-campo" id="ri-cuando" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">12</p>
       <h2 id="t-siete">Plan de 7 días para recordar más sueños</h2>
       <p class="lab-estacion__bajada">Recordar sueños es, en parte, un hábito: cuanta más atención les damos, más vuelven. Queda guardado solo en este navegador.</p>
       <div class="lab-tarjeta" data-lab-plan="suenos">
@@ -122,6 +247,11 @@
         <li>Jung, C. G. (1945/1948). «De la esencia de los sueños». En <em>La dinámica de lo inconsciente</em> (Obra completa, vol. 8).</li>
         <li>Jung, C. G. y otros (1964). <em>El hombre y sus símbolos</em>.</li>
         <li>Johnson, R. A. (1986). <em>Inner Work: Using Dreams and Active Imagination for Personal Growth</em>.</li>
+      
+        <li>Jung, C. G. (1945/1948). «Sobre la naturaleza de los sueños», en <em>La dinámica de lo inconsciente</em> (Obra completa, vol. 8).</li>
+        <li>Jung, C. G. (1916/1948). «Consideraciones generales sobre la psicología del sueño», en <em>La dinámica de lo inconsciente</em> (Obra completa, vol. 8).</li>
+        <li>Freud, S. (1900). <em>La interpretación de los sueños</em>.</li>
+        <li>Johnson, R. A. (1986). <em>Inner Work: Using Dreams and Active Imagination for Personal Growth</em>. Harper &amp; Row.</li>
       </ul>
     </div>
   </div>
