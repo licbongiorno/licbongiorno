@@ -1,0 +1,136 @@
+<!--{
+  "ruta": "/laboratorio-de-ansiedad-social/",
+  "titulo": "Laboratorio de ansiedad social y timidez: ejercicios",
+  "descripcion": "Ansiedad social según el modelo de Clark y Wells: la atención en uno mismo, las conductas de seguridad, experimentos y la atención hacia afuera.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Ansiedad social", "/laboratorio-de-ansiedad-social/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>ansiedad social</em>",
+  "bajada": "El miedo a quedar en ridículo, a que te miren, a no saber qué decir. Ejercicios para entender por qué la timidez se sostiene y cómo empezar a aflojarla.",
+  "respuesta": "El laboratorio de ansiedad social propone ejercicios basados en el modelo cognitivo de David Clark y Adrian Wells (1995): cómo la atención puesta en uno mismo y las conductas de seguridad mantienen la ansiedad, un registro de conductas de seguridad, una práctica para llevar la atención hacia afuera, experimentos conductuales para poner a prueba las predicciones y un plan de 7 días. No reemplaza el tratamiento de un trastorno de ansiedad social.",
+  "scripts": ["lab-base.js", "laboratorio-tematicos.js", "escenas.js"],
+  "wa_tema": "el laboratorio de ansiedad social",
+  "articulos": ["la-soledad"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>La timidez es un rasgo común y no necesita tratamiento. La <strong>ansiedad social</strong> es otra cosa cuando el miedo a ser evaluado negativamente es tan intenso que lleva a evitar reuniones, trabajos, vínculos o conversaciones que uno quisiera tener. Mucha gente la vive en silencio, convencida de que es «su forma de ser».</p>
+        <p>David Clark y Adrian Wells («A cognitive model of social phobia», 1995) describieron cómo se mantiene. En una situación social, la persona ansiosa dirige la atención hacia sí misma (cómo se ve, si se nota que tiembla), y forma una imagen negativa de cómo la ven los demás. Para protegerse, usa <strong>conductas de seguridad</strong>: no mirar a los ojos, hablar poco, ensayar cada frase. Esas conductas parecen ayudar, pero impiden comprobar que lo temido no pasa, y a veces lo provocan. Después, repasa el encuentro buscando errores. Este laboratorio trabaja cada una de esas piezas.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>De a poco.</strong> Se empieza por situaciones de baja dificultad.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Experimentar.</strong> Lo que cambia la ansiedad es la experiencia, no solo entenderla.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#circulo">El círculo de la ansiedad social</a>
+      <a href="#seguridad">Mis conductas de seguridad</a>
+      <a href="#afuera">La atención hacia afuera</a>
+      <a href="#experimento">Un experimento</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="circulo" aria-labelledby="t-circulo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-circulo">El círculo de la ansiedad social</h2>
+      <p class="lab-estacion__bajada">Reconocé qué pieza del círculo aparece en cada situación.</p>
+      <div class="lab-tarjeta" data-lab-quiz="social">
+        <p class="lab-tarjeta__titulo">¿Qué pieza del círculo es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="seguridad" aria-labelledby="t-seguridad">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-seguridad">Mis conductas de seguridad</h2>
+      <p class="lab-estacion__bajada">Marcá las que usás. Son muy humanas y no tenés que dejarlas todas de golpe. Reconocerlas es el primer paso para ponerlas a prueba.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mis-conductas-de-seguridad" data-lab-form-titulo="Mis conductas de seguridad" novalidate>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo">En situaciones sociales, suelo…</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" value="mirada"><span>Evitar la mirada de los demás.</span></label>
+            <label class="opcion"><input type="checkbox" value="ensayo"><span>Ensayar mentalmente lo que voy a decir.</span></label>
+            <label class="opcion"><input type="checkbox" value="callar"><span>Hablar poco o nada, para no equivocarme.</span></label>
+            <label class="opcion"><input type="checkbox" value="celular"><span>Mirar el celular para tener algo que hacer.</span></label>
+            <label class="opcion"><input type="checkbox" value="tapar"><span>Taparme la cara, usar ropa para que no se note que transpiro o me pongo rojo.</span></label>
+            <label class="opcion"><input type="checkbox" value="preguntas"><span>Hacer muchas preguntas para no hablar de mí.</span></label>
+            <label class="opcion"><input type="checkbox" value="alcohol"><span>Tomar alcohol para animarme.</span></label>
+            <label class="opcion"><input type="checkbox" value="irse"><span>Irme temprano o estar cerca de la salida.</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-temo">Si dejara una de estas conductas, ¿qué temo que pasaría?</label><textarea class="lab-texto" id="as-temo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="afuera" aria-labelledby="t-afuera">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-afuera">La atención hacia afuera</h2>
+      <p class="lab-estacion__bajada">La atención puesta en uno mismo agranda la ansiedad y deja menos recursos para la conversación. El modelo propone practicar el movimiento contrario: llevar la atención hacia la otra persona y la situación. Practicalo primero en algo de baja intensidad, como una charla con un vendedor. Unos 20 segundos por paso, antes de la situación.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="20">
+        <ol class="lab-pasos">
+          <li><strong>Notar.</strong> Reconocé hacia dónde va tu atención: «estoy pendiente de si me tiembla la voz».</li>
+          <li><strong>Afuera.</strong> Elegí algo de la otra persona para observar: sus ojos, lo que dice, cómo gesticula.</li>
+          <li><strong>Curiosidad.</strong> Preguntate algo genuino sobre ella o sobre el tema.</li>
+          <li><strong>Escuchar.</strong> Escuchá la respuesta entera antes de pensar la tuya.</li>
+          <li><strong>Volver.</strong> Cada vez que la atención vuelva a vos, traela otra vez afuera, sin retarte.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="experimento" aria-labelledby="t-experimento">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-experimento">Un experimento</h2>
+      <p class="lab-estacion__bajada">La terapia cognitiva propone tratar las predicciones como hipótesis y ponerlas a prueba con <strong>experimentos conductuales</strong>. Por ejemplo, entrar a una reunión sin una conducta de seguridad y comprobar si pasa lo que temés. Diseñá uno chico.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="experimento-social" data-lab-form-titulo="Un experimento social" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-situacion">La situación</label><input class="lab-campo" id="as-situacion" type="text" placeholder="Por ejemplo: preguntar algo en una reunión" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-prediccion">¿Qué predigo que va a pasar? ¿Qué tan seguro estoy, del 0 al 100?</label><textarea class="lab-texto" id="as-prediccion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-cambio">¿Qué conducta de seguridad voy a dejar esta vez?</label><input class="lab-campo" id="as-cambio" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-paso">¿Qué pasó en realidad?</label><textarea class="lab-texto" id="as-paso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-aprendi">¿Qué aprendí? ¿Cuánto creo ahora en mi predicción?</label><textarea class="lab-texto" id="as-aprendi" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Para armar una escalera de situaciones de menor a mayor dificultad, mirá el <a href="/laboratorio-de-asertividad/#escalera">laboratorio de asertividad</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="ansiedad-social">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mis conductas.</strong> Marcá tus conductas de seguridad.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Afuera.</strong> En una charla corta, llevá la atención a la otra persona.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Mirar.</strong> Sostené la mirada un poco más de lo habitual en una conversación.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un experimento.</strong> Dejá una conducta de seguridad en algo pequeño.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Sin repasar.</strong> Después de un encuentro, no lo repases buscando errores.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Una opinión.</strong> Decí algo que pensás, aunque sea breve.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Otro experimento.</strong> Repetí uno, un poco más difícil.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la ansiedad social te impide trabajar, estudiar o tener los vínculos que querés, o si estás usando alcohol u otras sustancias para poder enfrentar las situaciones, conviene consultarlo: la ansiedad social tiene tratamientos psicológicos eficaces. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Para la ansiedad en general, está el <a href="/laboratorio-de-ansiedad/">laboratorio de ansiedad</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Clark, D. M. y Wells, A. (1995). «A cognitive model of social phobia». En R. Heimberg y otros (eds.), <em>Social Phobia: Diagnosis, Assessment, and Treatment</em>, 69-93.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

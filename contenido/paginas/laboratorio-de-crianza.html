@@ -1,0 +1,154 @@
+<!--{
+  "ruta": "/laboratorio-de-crianza/",
+  "titulo": "Laboratorio de crianza: acompañar a los hijos",
+  "descripcion": "Para madres y padres: estilos de crianza según Baumrind, acompañar las emociones de los hijos, reparar después de un error y límites con cariño.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Crianza", "/laboratorio-de-crianza/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>crianza</em>",
+  "bajada": "No hay madres ni padres perfectos, y no hacen falta. Ejercicios para acompañar las emociones de tus hijos, poner límites con cariño y reparar cuando te equivocás.",
+  "respuesta": "El laboratorio de crianza propone ejercicios para madres, padres y cuidadores basados en la psicología del desarrollo: los estilos de crianza de Diana Baumrind (afecto y exigencia), el acompañamiento emocional que John Gottman llamó entrenamiento emocional, la ruptura y la reparación en el vínculo que mostró el experimento de la cara inmóvil de Edward Tronick, el cuidado suficientemente bueno de Winnicott y los límites con cariño. Incluye un plan de 7 días.",
+  "scripts": ["lab-base.js", "laboratorio-tematicos.js", "escenas.js"],
+  "wa_tema": "el laboratorio de crianza",
+  "articulos": ["el-apego", "inteligencia-emocional"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Criar es una de las tareas más exigentes que existen, y se hace casi siempre sin preparación, con cansancio y con la propia historia a cuestas. Muchas veces repetimos lo que vivimos de chicos, o hacemos justo lo contrario, sin terminar de elegir. Este laboratorio no te va a decir cómo criar: cada familia es distinta. Te propone algunas ideas de la psicología del desarrollo que ayudan a pensar.</p>
+        <p>Una de ellas atraviesa todo el laboratorio: Donald Winnicott decía que los chicos no necesitan padres perfectos, sino <strong>suficientemente buenos</strong>. Y la investigación muestra que lo que más importa no es no equivocarse nunca, sino poder reparar. Para adolescentes, el sitio tiene un <a href="/laboratorio-de-adolescentes/">laboratorio propio</a>, y para el apego, el de <a href="/laboratorio-del-desarrollo-y-el-apego/">desarrollo y apego</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin culpas.</strong> Pensar la crianza no es juzgarte.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Tu familia es única.</strong> Tomá lo que te sirva.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#estilos">Afecto y exigencia</a>
+      <a href="#emociones">Acompañar las emociones</a>
+      <a href="#reparar">Reparar después de un error</a>
+      <a href="#limites">Límites con cariño</a>
+      <a href="#mi-historia">Lo que traigo de mi historia</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="estilos" aria-labelledby="t-estilos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-estilos">Afecto y exigencia</h2>
+      <p class="lab-estacion__bajada">La psicóloga Diana Baumrind estudió cómo crían las familias y encontró dos dimensiones clave: el <strong>afecto</strong> (calidez, escucha, disponibilidad) y la <strong>exigencia</strong> (límites, normas, expectativas). Combinadas, dan estilos distintos; Eleanor Maccoby y John Martin sumaron después un cuarto. Ningún padre es un estilo puro, y los efectos dependen de la cultura y del temperamento de cada chico. Elegí un estilo para verlo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un estilo">
+          <label class="opcion"><input type="radio" name="cr-estilo" value="democratico" checked><span>Mucho afecto, mucha exigencia</span></label>
+          <label class="opcion"><input type="radio" name="cr-estilo" value="autoritario"><span>Poco afecto, mucha exigencia</span></label>
+          <label class="opcion"><input type="radio" name="cr-estilo" value="permisivo"><span>Mucho afecto, poca exigencia</span></label>
+          <label class="opcion"><input type="radio" name="cr-estilo" value="ausente"><span>Poco afecto, poca exigencia</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="democratico"><p><strong>El estilo democrático o «con autoridad»:</strong> límites claros y explicados, junto con calidez y escucha. Es el que más se asocia con buenos resultados en la investigación.</p><p><strong>Cómo suena:</strong> «Entiendo que estés enojado. Igual, la tele se apaga a las nueve. Mañana la vemos».</p></div>
+        <div class="lab-panel" data-lab-panel="autoritario" hidden><p><strong>El estilo autoritario:</strong> muchas reglas, poca explicación y poca calidez. «Porque lo digo yo».</p><p><strong>Qué puede pasar:</strong> obediencia por miedo, dificultad para expresar emociones, o rebelión.</p></div>
+        <div class="lab-panel" data-lab-panel="permisivo" hidden><p><strong>El estilo permisivo:</strong> mucho afecto y pocos límites. Le cuesta decir que no.</p><p><strong>Qué puede pasar:</strong> dificultad para tolerar la frustración. Los límites también son una forma de cuidado.</p></div>
+        <div class="lab-panel" data-lab-panel="ausente" hidden><p><strong>El estilo negligente o ausente:</strong> poco afecto y pocos límites, muchas veces por agotamiento, problemas propios o desbordes.</p><p><strong>Si te reconocés acá:</strong> no es para culparte, sino para pedir ayuda. Cuidar a quien cuida es parte de cuidar a los chicos.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="emociones" aria-labelledby="t-emociones">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-emociones">Acompañar las emociones</h2>
+      <p class="lab-estacion__bajada">El psicólogo John Gottman, en sus estudios con familias, describió un estilo que llamó <strong>entrenamiento emocional</strong>: tomar las emociones de los chicos, incluso las difíciles, como una oportunidad de conexión y aprendizaje, en lugar de minimizarlas o castigarlas. Sus pasos, en una versión breve, son estos. Unos 30 segundos por paso, la próxima vez que tu hijo esté desbordado.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Notar.</strong> Darte cuenta de la emoción de tu hijo, aunque sea chica, antes de que explote.</li>
+          <li><strong>Verla como oportunidad.</strong> No es un problema a eliminar: es un momento para acercarte.</li>
+          <li><strong>Escuchar y validar.</strong> «Estás muy enojado porque se rompió tu juguete. Tiene sentido».</li>
+          <li><strong>Ponerle nombre.</strong> Ayudalo a encontrar la palabra: enojo, frustración, miedo, celos.</li>
+          <li><strong>Límites y soluciones.</strong> Todas las emociones valen, no todas las conductas: «podés estar enojado, no podés pegar. ¿Qué podemos hacer?».</li>
+        </ol>
+      </div>
+      <div class="lab-tarjeta" data-lab-quiz="crianza" style="margin-top:1rem">
+        <p class="lab-tarjeta__titulo">¿Qué respuesta acompaña la emoción?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="reparar" aria-labelledby="t-reparar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-reparar">Reparar después de un error</h2>
+      <p class="lab-estacion__bajada">En el experimento de la cara inmóvil, el psicólogo Edward Tronick pidió a madres que, después de jugar con sus bebés, dejaran la cara quieta e inexpresiva por un momento. Los bebés se desorganizaban rápido: buscaban, protestaban, lloraban. Cuando la madre volvía a conectar, se recuperaban. De sus investigaciones surge una idea muy tranquilizadora: los desencuentros son constantes en todos los vínculos, y lo que fortalece al chico es la <strong>reparación</strong>. Gritaste, no escuchaste, te desbordaste: se puede volver.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="reparar-con-mi-hijo" data-lab-form-titulo="Reparar con mi hijo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-paso">¿Qué pasó?</label><textarea class="lab-texto" id="cr-paso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-sintio">¿Qué pudo haber sentido mi hijo?</label><textarea class="lab-texto" id="cr-sintio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-decir">¿Qué le puedo decir, adaptado a su edad?</label><textarea class="lab-texto" id="cr-decir" rows="2" placeholder="Por ejemplo: «Te grité y no estuvo bien. Estaba muy cansada, y no es tu culpa. Perdoname»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-distinto">¿Qué puedo hacer distinto la próxima vez que esté al límite?</label><input class="lab-campo" id="cr-distinto" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="limites" aria-labelledby="t-limites">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-limites">Límites con cariño</h2>
+      <p class="lab-estacion__bajada">Un límite claro le da seguridad al chico: sabe dónde está parado. Lo que lo vuelve dañino no es el límite en sí, sino la humillación, el grito o la amenaza con que a veces se pone. Armá un límite para una situación que se repite en tu casa.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="un-limite-con-carino" data-lab-form-titulo="Un límite con cariño" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-situacion">La situación que se repite</label><input class="lab-campo" id="cr-situacion" type="text" placeholder="Por ejemplo: no quiere dejar la tablet a la hora de cenar" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-validar">Validar lo que siente</label><input class="lab-campo" id="cr-validar" type="text" placeholder="«Te cuesta dejarla porque estabas en lo mejor del juego»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-limite">El límite, claro y breve</label><input class="lab-campo" id="cr-limite" type="text" placeholder="«La tablet se guarda a la hora de comer»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-opcion">Una opción o una ayuda</label><input class="lab-campo" id="cr-opcion" type="text" placeholder="«¿La guardás vos o la guardo yo? Después de comer tenés diez minutos más»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-sostener">¿Cómo lo sostengo si llora o se enoja?</label><textarea class="lab-texto" id="cr-sostener" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mi-historia" aria-labelledby="t-mi-historia">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mi-historia">Lo que traigo de mi historia</h2>
+      <p class="lab-estacion__bajada">Muchas reacciones intensas en la crianza no vienen del chico que tenemos enfrente, sino del chico que fuimos. Darse cuenta de eso no es buscar culpables: es elegir qué queremos repetir y qué no.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-traigo" data-lab-form-titulo="Lo que traigo de mi historia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-conservo">¿Qué de cómo me criaron quiero conservar?</label><textarea class="lab-texto" id="cr-conservo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-cambio">¿Qué quiero hacer distinto?</label><textarea class="lab-texto" id="cr-cambio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cr-reacciono">¿En qué situación reacciono con una intensidad que me sorprende?</label><textarea class="lab-texto" id="cr-reacciono" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="crianza">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Quince minutos.</strong> Jugá con tu hijo quince minutos, sin celular y siguiendo su juego.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Nombrar.</strong> Ayudalo a ponerle nombre a una emoción.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Validar.</strong> Antes de corregir, decí «tiene sentido que te sientas así».</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un límite.</strong> Poné un límite con calma, usando el ejercicio.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Reparar.</strong> Si te desbordaste, volvé y repará.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Cuidarte.</strong> Hacé algo por vos: los chicos necesitan adultos descansados.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Lo bueno.</strong> Decile a tu hijo algo concreto que admirás de él.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si sentís que estás perdiendo el control con frecuencia, si hay golpes o humillaciones, o si notás en tu hijo cambios que te preocupan (aislamiento, miedo, retrocesos, tristeza persistente), pedí ayuda: no es un fracaso, es cuidarlos. En Argentina, la línea 102 atiende consultas sobre derechos de niñas, niños y adolescentes en muchas provincias. Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>. Podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Baumrind, D. (1966). «Effects of authoritative parental control on child behavior». <em>Child Development</em>, 37(4).</li>
+        <li>Gottman, J. (1997). <em>Raising an Emotionally Intelligent Child</em> (en castellano, <em>Los hijos con inteligencia emocional</em>).</li>
+        <li>Tronick, E. (2007). <em>The Neurobehavioral and Social-Emotional Development of Infants and Children</em>.</li>
+        <li>Winnicott, D. W. (1971). <em>Realidad y juego</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

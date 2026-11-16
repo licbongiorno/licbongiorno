@@ -1,0 +1,140 @@
+<!--{
+  "ruta": "/laboratorio-de-procrastinacion/",
+  "titulo": "Laboratorio de procrastinación: entender y empezar",
+  "descripcion": "Ejercicios sobre procrastinación: no es pereza, es evitar una emoción. La emoción detrás, el primer paso mínimo, el yo futuro y perdonarse para seguir.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Procrastinación", "/laboratorio-de-procrastinacion/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>procrastinación</em>",
+  "bajada": "Dejar para mañana lo que sabés que te conviene hacer hoy. No es pereza ni falta de voluntad: muchas veces es una forma de escapar de una emoción. Ejercicios para entenderlo y empezar.",
+  "respuesta": "El laboratorio de procrastinación propone ejercicios basados en la investigación psicológica: la definición de Piers Steel (2007), como el retraso voluntario de algo que pensamos hacer aun sabiendo que nos va a perjudicar; la idea de Fuschia Sirois y Timothy Pychyl (2013) de que procrastinar es una forma de reparar el ánimo a corto plazo; la emoción detrás de la tarea, el primer paso mínimo, el vínculo con el yo futuro y el perdón a uno mismo. Incluye un plan de 7 días.",
+  "scripts": ["lab-base.js", "laboratorio-tematicos.js", "escenas.js"],
+  "wa_tema": "el laboratorio de procrastinación",
+  "articulos": ["la-culpa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Piers Steel, en una revisión de cientos de estudios («The nature of procrastination», <em>Psychological Bulletin</em>, 2007), definió la procrastinación como retrasar voluntariamente algo que pensábamos hacer, aun sabiendo que el retraso nos va a perjudicar. Esa última parte es clave: no es descansar ni postergar algo con sentido, es elegir lo que sabemos que no nos conviene.</p>
+        <p>¿Por qué lo hacemos? Fuschia Sirois y Timothy Pychyl (2013) propusieron que la procrastinación es, ante todo, un problema de <strong>regulación emocional</strong>: la tarea nos genera algo desagradable (aburrimiento, ansiedad, inseguridad, frustración), y postergarla nos alivia en el momento. El alivio es real, pero dura poco, y le pasa la cuenta a nuestro yo futuro. Por eso los trucos de organización solos no alcanzan: hay que trabajar con la emoción.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin retarte.</strong> El castigo suele aumentar la procrastinación.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Empezar chico.</strong> Lo difícil es arrancar, no seguir.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#emocion">¿Qué emoción evito?</a>
+      <a href="#detras">Lo que hay detrás</a>
+      <a href="#minimo">El primer paso mínimo</a>
+      <a href="#futuro">Mi yo futuro</a>
+      <a href="#perdon">Perdonarme para seguir</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="emocion" aria-labelledby="t-emocion">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-emocion">¿Qué emoción evito?</h2>
+      <p class="lab-estacion__bajada">Detrás de cada postergación suele haber una emoción que la tarea despierta. ¿Cuál se está evitando en cada caso?</p>
+      <div class="lab-tarjeta" data-lab-quiz="procrastinacion">
+        <p class="lab-tarjeta__titulo">¿Qué emoción se evita?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="detras" aria-labelledby="t-detras">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-detras">Lo que hay detrás</h2>
+      <p class="lab-estacion__bajada">Elegí algo que estás postergando y miralo de cerca, sin juzgarte.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-hay-detras" data-lab-form-titulo="Lo que hay detrás de lo que postergo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-tarea">¿Qué estoy postergando?</label><input class="lab-campo" id="pr-tarea" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-siento">Cuando pienso en hacerlo, ¿qué siento?</label><input class="lab-campo" id="pr-siento" type="text" placeholder="Aburrimiento, miedo a hacerlo mal, no saber por dónde empezar, enojo…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-pienso">¿Qué me digo sobre la tarea o sobre mí?</label><textarea class="lab-texto" id="pr-pienso" rows="2" placeholder="Por ejemplo: «va a salir mal», «es demasiado», «tendría que estar inspirado»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-hago">¿Qué hago en lugar de eso?</label><input class="lab-campo" id="pr-hago" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-costo">¿Qué me cuesta a mediano plazo?</label><textarea class="lab-texto" id="pr-costo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="minimo" aria-labelledby="t-minimo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-minimo">El primer paso mínimo</h2>
+      <p class="lab-estacion__bajada">La emoción desagradable suele ser más fuerte antes de empezar que durante la tarea. Por eso conviene reducir el primer paso hasta que sea casi ridículo: abrir el documento, escribir el título, sacar los papeles del cajón. Escribí la tarea y el laboratorio te propone un primer paso mínimo. Después, hacelo durante cinco minutos con el permiso de parar.</p>
+      <div class="lab-tarjeta" data-pr-minimo>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-grande">La tarea grande</label><input class="lab-campo" id="pr-grande" type="text" placeholder="Por ejemplo: hacer la declaración de impuestos" autocomplete="off"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Un primer paso de cinco minutos</p>
+          <p class="lab-resultado__texto" data-pr-salida aria-live="polite">Escribí la tarea.</p>
+        </div>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-pr-otro>Otra idea</button></div>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Para convertir esto en hábito, el <a href="/laboratorio-de-habitos/">laboratorio de hábitos</a> tiene los planes «cuando… voy a…».</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="futuro" aria-labelledby="t-futuro">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-futuro">Mi yo futuro</h2>
+      <p class="lab-estacion__bajada">Sirois y Pychyl señalan que procrastinar implica priorizar el ánimo de ahora sobre el de nuestro yo futuro, como si fuera otra persona. Una forma de acercarlo es escribirle, o escribir desde él.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-yo-futuro" data-lab-form-titulo="Mi yo futuro" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-futuro">Imaginá que es dentro de una semana y lo hiciste. ¿Qué le dirías a tu yo de hoy?</label><textarea class="lab-texto" id="pr-futuro" rows="4"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pr-no">Y si no lo hiciste, ¿qué le diría tu yo de la semana próxima al de hoy?</label><textarea class="lab-texto" id="pr-no" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="perdon" aria-labelledby="t-perdon">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-perdon">Perdonarme para seguir</h2>
+      <p class="lab-estacion__bajada">Parece contraintuitivo, pero retarse por haber procrastinado suele empeorar las cosas: la culpa es otra emoción desagradable que la próxima tarea va a querer evitar. En un estudio con estudiantes (Wohl, Pychyl y Bennett, 2010), quienes se perdonaron por haber postergado el estudio para un examen procrastinaron menos en el siguiente. Probá decirte algo así:</p>
+      <div class="lab-tarjeta">
+        <ol class="lab-guion">
+          <li>«Postergué esto. Me pasa a mí y le pasa a mucha gente.»</li>
+          <li>«Lo hice porque la tarea me hacía sentir… (nombrá la emoción).»</li>
+          <li>«No necesito castigarme. Lo que necesito es un primer paso chico.»</li>
+          <li>«¿Cuál es ese paso, y cuándo lo hago?»</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="procrastinacion">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Elegí algo que postergás y nombrá la emoción que te despierta.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Cinco minutos.</strong> Hacé el primer paso mínimo, con permiso de parar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Fricción.</strong> Dejá el celular en otra habitación mientras hacés la tarea.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. El yo futuro.</strong> Escribile a tu yo de la semana próxima.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Otro paso.</strong> Sumá otros cinco minutos a la tarea.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Perdonarme.</strong> Si postergaste algo, perdonate y elegí un paso.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Celebrar.</strong> Reconocé lo que avanzaste, por poco que sea.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> A veces la procrastinación es la punta de algo más: falta de energía por depresión, dificultades de atención, perfeccionismo intenso o un trabajo que ya no tiene sentido para vos. Si te pasa con casi todo y desde hace mucho, conviene consultarlo. Podés <a href="/contacto/">escribirme</a>. El <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a> también puede ayudarte con la voz que te reta.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Steel, P. (2007). «The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure». <em>Psychological Bulletin</em>, 133(1), 65-94.</li>
+        <li>Sirois, F. y Pychyl, T. (2013). «Procrastination and the priority of short-term mood regulation». <em>Social and Personality Psychology Compass</em>, 7(2), 115-127.</li>
+        <li>Wohl, M. J. A., Pychyl, T. A. y Bennett, S. H. (2010). «I forgive myself, now I can study: How self-forgiveness for procrastinating can reduce future procrastination». <em>Personality and Individual Differences</em>, 48(7), 803-808.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

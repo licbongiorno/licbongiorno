@@ -1,0 +1,136 @@
+<!--{
+  "ruta": "/laboratorio-de-trauma/",
+  "titulo": "Laboratorio para entender el trauma: información y cuidado",
+  "descripcion": "Psicoeducación sobre el trauma: cómo se manifiesta, la ventana de tolerancia, anclaje, las etapas de recuperación de Herman y cómo pedir ayuda.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Entender el trauma", "/laboratorio-de-trauma/"]],
+  "antetitulo": "Laboratorio psicoeducativo",
+  "h1": "Laboratorio para <em>entender el trauma</em>",
+  "bajada": "Información clara para entender qué le pasa a la mente y al cuerpo después de una experiencia traumática, algunas herramientas para los momentos difíciles y cómo buscar ayuda.",
+  "respuesta": "El laboratorio para entender el trauma es un recurso psicoeducativo, no terapéutico: qué es una experiencia traumática y cómo puede manifestarse (recuerdos intrusivos, evitación, hiperalerta, cambios en el ánimo), la ventana de tolerancia, ejercicios de anclaje para cuando la emoción desborda, las tres etapas de la recuperación según Judith Herman (Trauma and Recovery, 1992): seguridad, recuerdo y duelo, y reconexión, y cómo pedir ayuda. No reemplaza un tratamiento especializado.",
+  "scripts": ["lab-base.js", "laboratorio-tematicos.js", "escenas.js"],
+  "wa_tema": "el laboratorio para entender el trauma",
+  "articulos": ["la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar">
+      <p><strong>Antes de empezar.</strong> Este laboratorio es informativo. No te pide que recuerdes ni que escribas sobre lo que te pasó: trabajar los recuerdos traumáticos es tarea de un tratamiento especializado, con alguien que te acompañe. Si en algún momento te sentís desbordado, pasá directo a la <a href="#anclaje">estación de anclaje</a>. Si estás en peligro o pensás en hacerte daño, llamá al <a href="tel:911">911</a> o al Centro de Asistencia al Suicida (<a href="tel:135">135</a> desde CABA y GBA, <a href="tel:08003451435">0800-345-1435</a> desde todo el país). Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Una experiencia es traumática cuando supera la capacidad de la persona para procesarla: un accidente, una agresión, un abuso, una guerra, una pérdida súbita, años de maltrato. No todo lo doloroso es trauma, y no todas las personas que atraviesan algo terrible desarrollan síntomas. Pero cuando pasa, la mente y el cuerpo quedan, de algún modo, atrapados en el peligro aunque el peligro ya haya pasado.</p>
+        <p>La psiquiatra Judith Herman (<em>Trauma and Recovery</em>, 1992) mostró que las reacciones al trauma son respuestas comprensibles a situaciones anormales, no signos de debilidad. Entenderlas suele ser un primer alivio.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Solo información.</strong> No hay ejercicios sobre los recuerdos.</li>
+        <li><strong>A tu ritmo.</strong> Podés cerrar la página en cualquier momento.</li>
+        <li><strong>Nada se guarda.</strong> Esta página no tiene formularios.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#senales">Cómo se manifiesta</a>
+      <a href="#ventana">La ventana de tolerancia</a>
+      <a href="#anclaje">Anclaje</a>
+      <a href="#etapas">Las etapas de la recuperación</a>
+      <a href="#ayuda">Cómo pedir ayuda</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-senales">Cómo se manifiesta</h2>
+      <p class="lab-estacion__bajada">Las reacciones después de un trauma suelen agruparse en cuatro familias. Pueden aparecer enseguida o mucho después. Muchas disminuyen con el tiempo; cuando persisten y dificultan la vida, conviene buscar ayuda. Elegí una para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una familia de reacciones">
+          <label class="opcion"><input type="radio" name="tr-senal" value="intrusion" checked><span>Volver a vivirlo</span></label>
+          <label class="opcion"><input type="radio" name="tr-senal" value="evitacion"><span>Evitar</span></label>
+          <label class="opcion"><input type="radio" name="tr-senal" value="alerta"><span>Estar en alerta</span></label>
+          <label class="opcion"><input type="radio" name="tr-senal" value="animo"><span>Cambios en el ánimo y las creencias</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="intrusion"><p>Recuerdos que irrumpen sin querer, pesadillas, la sensación de estar reviviendo lo que pasó, reacciones intensas ante algo que lo recuerda: un olor, un sonido, un lugar.</p></div>
+        <div class="lab-panel" data-lab-panel="evitacion" hidden><p>Evitar lugares, personas, conversaciones o pensamientos que recuerden lo que pasó. Muchas veces la vida se va achicando para no encontrarse con nada que lo despierte.</p></div>
+        <div class="lab-panel" data-lab-panel="alerta" hidden><p>Estar siempre en guardia, sobresaltarse con facilidad, irritabilidad, dificultad para dormir o para concentrarse. El cuerpo sigue preparado para un peligro que ya no está.</p></div>
+        <div class="lab-panel" data-lab-panel="animo" hidden><p>Culpa, vergüenza, sensación de estar desconectado de los demás o de uno mismo, ideas como «el mundo es peligroso» o «no se puede confiar en nadie», dificultad para sentir cosas buenas.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="ventana" aria-labelledby="t-ventana">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-ventana">La ventana de tolerancia</h2>
+      <p class="lab-estacion__bajada">El psiquiatra Daniel Siegel propuso la imagen de la <strong>ventana de tolerancia</strong>: el rango en que podemos sentir emociones, incluso intensas, sin desbordarnos ni apagarnos. Por encima está la hiperactivación (pánico, furia, agitación); por debajo, la hipoactivación (entumecimiento, desconexión, sentirse lejos). El trauma suele achicar esa ventana. ¿Dónde estás ahora?</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí cómo estás ahora">
+          <label class="opcion"><input type="radio" name="tr-ventana" value="arriba"><span>Acelerado, en alerta, desbordado</span></label>
+          <label class="opcion"><input type="radio" name="tr-ventana" value="dentro" checked><span>Dentro de la ventana: puedo sentir y pensar</span></label>
+          <label class="opcion"><input type="radio" name="tr-ventana" value="abajo"><span>Apagado, entumecido, lejos</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="arriba" hidden><p><strong>Para bajar:</strong> exhalá más largo de lo que inhalás, apoyá los pies con fuerza en el piso, mojate la cara con agua fría, nombrá en voz alta cinco cosas que ves.</p></div>
+        <div class="lab-panel" data-lab-panel="dentro"><p><strong>Para quedarte:</strong> es un buen momento para cuidarte, conectar con alguien o hacer algo que te guste. No hace falta hacer nada especial.</p></div>
+        <div class="lab-panel" data-lab-panel="abajo" hidden><p><strong>Para volver:</strong> movete (estirarte, caminar, sacudir las manos), tocá algo con textura, olé algo intenso como café o menta, decí tu nombre, la fecha y dónde estás.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="anclaje" aria-labelledby="t-anclaje">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-anclaje">Anclaje</h2>
+      <p class="lab-estacion__bajada">Cuando un recuerdo te arrastra al pasado, el anclaje ayuda a volver al presente a través de los sentidos. Hacelo con los ojos abiertos. Unos 20 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="20">
+        <ol class="lab-pasos">
+          <li><strong>Dónde estás.</strong> Decí en voz alta: «Me llamo…, hoy es…, estoy en…». Lo que pasó fue antes; ahora estás acá.</li>
+          <li><strong>Cinco cosas que ves.</strong> Nombralas, con su color.</li>
+          <li><strong>Cuatro que podés tocar.</strong> Tocalas y notá su textura y temperatura.</li>
+          <li><strong>Tres que oís.</strong> Cercanas y lejanas.</li>
+          <li><strong>Los pies.</strong> Apoyalos firmes en el piso, empujá un poco, y respirá largo. Estás a salvo, en este momento.</li>
+        </ol>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Para pesadillas repetidas, el sitio tiene un <a href="/laboratorio-de-pesadillas/">laboratorio de pesadillas</a>, y para respirar, el <a href="/laboratorio-respirar-volver-al-presente/">visualizador de respiración</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="etapas" aria-labelledby="t-etapas">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-etapas">Las etapas de la recuperación</h2>
+      <p class="lab-estacion__bajada">Herman describió la recuperación en tres etapas. No son lineales: se vuelve a las anteriores muchas veces, cada vez con más recursos. Lo más importante es la primera: sin seguridad, no conviene avanzar sobre los recuerdos. Elegí una para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una etapa">
+          <label class="opcion"><input type="radio" name="tr-etapa" value="seguridad" checked><span>1. Seguridad</span></label>
+          <label class="opcion"><input type="radio" name="tr-etapa" value="recuerdo"><span>2. Recuerdo y duelo</span></label>
+          <label class="opcion"><input type="radio" name="tr-etapa" value="reconexion"><span>3. Reconexión</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="seguridad"><p>Estar a salvo en el presente: fuera de situaciones de violencia, con cuidado del cuerpo, del sueño, con personas de confianza y con herramientas para manejar los síntomas. Muchas veces es la etapa más larga.</p></div>
+        <div class="lab-panel" data-lab-panel="recuerdo" hidden><p>Con la seguridad establecida, y con acompañamiento profesional, poder contar la historia, integrarla, y hacer el duelo por lo que se perdió.</p></div>
+        <div class="lab-panel" data-lab-panel="reconexion" hidden><p>Volver a la vida cotidiana, a los vínculos, a los proyectos. Construir un futuro en el que lo que pasó es parte de la historia, pero no la define entera.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="ayuda" aria-labelledby="t-ayuda">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-ayuda">Cómo pedir ayuda</h2>
+      <p class="lab-estacion__bajada">Existen tratamientos psicológicos específicos para el trauma, con buena evidencia. Al buscar un profesional, estas preguntas pueden orientarte:</p>
+      <div class="lab-tarjeta">
+        <ol class="lab-guion">
+          <li>¿Tiene formación específica en trauma?</li>
+          <li>¿Empieza por la seguridad y la estabilización, antes de trabajar los recuerdos?</li>
+          <li>¿Me explica qué vamos a hacer y por qué?</li>
+          <li>¿Respeta mi ritmo y me deja decir que no a algo?</li>
+          <li>¿Me siento seguro en el vínculo con esta persona?</li>
+        </ol>
+        <p class="lab-paso__ayuda">Si el trauma tiene que ver con violencia de género, la línea 144 atiende las 24 horas. Si fue violencia en el vínculo, mirá también el <a href="/laboratorio-de-violencia-en-el-vinculo/">laboratorio sobre violencia en el vínculo</a>.</p>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si después de una experiencia muy difícil sentís que no podés volver a tu vida, que los recuerdos te invaden o que estás desconectado de todo, no es debilidad ni exageración: es una reacción que tiene tratamiento. Podés <a href="/contacto/">escribirme</a> para pensar juntos qué tipo de acompañamiento necesitás. En una emergencia, llamá al 911. Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Herman, J. L. (1992). <em>Trauma and Recovery</em> (en castellano, <em>Trauma y recuperación</em>). Basic Books.</li>
+        <li>Siegel, D. J. (1999). <em>The Developing Mind</em> (en castellano, <em>La mente en desarrollo</em>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

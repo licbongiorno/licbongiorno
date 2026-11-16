@@ -1,0 +1,159 @@
+<!--{
+  "ruta": "/laboratorio-de-conductas-compulsivas/",
+  "titulo": "Laboratorio de conductas compulsivas: pantallas, compras, juego",
+  "descripcion": "Pantallas, compras, apuestas, comida: la cadena de la conducta, surfear el impulso, la necesidad que hay detrás y cambiar el entorno.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Conductas compulsivas", "/laboratorio-de-conductas-compulsivas/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>conductas compulsivas</em>",
+  "bajada": "Revisar el celular sin parar, comprar lo que no necesitás, apostar «una vez más». Ejercicios para entender qué alimenta esas conductas y recuperar algo de elección.",
+  "respuesta": "El laboratorio de conductas compulsivas propone ejercicios para conductas que se vuelven difíciles de controlar (pantallas, compras, apuestas, comida, juegos): señales de alerta, el análisis de la cadena de la conducta (lo que la dispara, la emoción, el impulso, la conducta y sus consecuencias), surfear el impulso según Alan Marlatt, la necesidad que la conducta intenta cubrir y cambios en el entorno. No reemplaza el tratamiento de una adicción. En Argentina, la línea 141 de SEDRONAR orienta las 24 horas, de forma gratuita y anónima.",
+  "scripts": ["lab-base.js", "laboratorio-tematicos.js", "escenas.js"],
+  "wa_tema": "el laboratorio de conductas compulsivas",
+  "articulos": ["la-soledad"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Algunas conductas empiezan como algo agradable o útil y, sin que nos demos cuenta, toman el control: el celular que se abre solo, la compra para sentirse mejor, la apuesta para recuperar lo perdido, la comida cuando no hay hambre. No hace falta que sea una adicción para que valga la pena mirarla: alcanza con que te esté costando algo que te importa.</p>
+        <p>Este laboratorio usa herramientas de las terapias conductuales. El <strong>análisis de cadena</strong>, que la DBT usa para entender una conducta paso a paso, y el <strong>surfear el impulso</strong>, que Alan Marlatt y Judith Gordon propusieron en su trabajo sobre prevención de recaídas (1985): observar el impulso como una ola que sube, llega a un pico y baja, sin actuar.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin vergüenza.</strong> Estas conductas son muy humanas, y están diseñadas para engancharnos.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Un paso a la vez.</strong> No hace falta cortar todo de golpe.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#senales">Señales de alerta</a>
+      <a href="#cadena">La cadena de la conducta</a>
+      <a href="#surfear">Surfear el impulso</a>
+      <a href="#necesidad">La necesidad detrás</a>
+      <a href="#entorno">Cambiar el entorno</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-senales">Señales de alerta</h2>
+      <p class="lab-estacion__bajada">Pensá en una conducta concreta y marcá lo que reconocés. No es un diagnóstico; es una forma de ver cuánto espacio ocupa. Nada de lo que marques se guarda.</p>
+      <div class="lab-tarjeta" data-cc-senales>
+        <div class="opciones">
+          <label class="opcion"><input type="checkbox"><span>Lo hago más de lo que me propongo.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Intenté reducirlo y no pude.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Le dedico tiempo o dinero que necesito para otras cosas.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Lo escondo o miento sobre cuánto lo hago.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Me pongo irritable o ansioso cuando no puedo hacerlo.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Sigo aunque me trae problemas con otros o conmigo.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Lo uso para no sentir algo: tristeza, aburrimiento, soledad, angustia.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Fui dejando de lado cosas que antes disfrutaba.</span></label>
+        </div>
+        <p class="lab-resultado__texto" data-cc-resultado aria-live="polite" style="margin-top:1rem"></p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cadena" aria-labelledby="t-cadena">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-cadena">La cadena de la conducta</h2>
+      <p class="lab-estacion__bajada">Ninguna conducta aparece de la nada: hay una cadena de eslabones. Analizarla después de un episodio, sin juzgarte, muestra dónde se puede cortar. Cada eslabón es una oportunidad.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="la-cadena" data-lab-form-titulo="La cadena de la conducta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cc-vulnerable">¿Cómo estaba antes? (cansado, solo, aburrido, estresado)</label><input class="lab-campo" id="cc-vulnerable" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cc-disparador">¿Qué lo disparó? (un lugar, una hora, una notificación, una emoción)</label><input class="lab-campo" id="cc-disparador" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cc-pense">¿Qué pensé o me dije?</label><input class="lab-campo" id="cc-pense" type="text" placeholder="Por ejemplo: «solo cinco minutos», «me lo merezco»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cc-conducta">¿Qué hice, y cuánto?</label><input class="lab-campo" id="cc-conducta" type="text" autocomplete="off"></div>
+        <div class="lab-tabla2">
+          <div><label for="cc-corto">¿Qué gané en el momento?</label><textarea class="lab-texto" id="cc-corto" rows="3"></textarea></div>
+          <div><label for="cc-largo">¿Qué me costó después?</label><textarea class="lab-texto" id="cc-largo" rows="3"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cc-eslabon">¿En qué eslabón podría haber cortado la cadena, y cómo?</label><textarea class="lab-texto" id="cc-eslabon" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="surfear" aria-labelledby="t-surfear">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-surfear">Surfear el impulso</h2>
+      <p class="lab-estacion__bajada">Un impulso se siente urgente, como si fuera a crecer para siempre si no le hacemos caso. En realidad, se comporta como una ola: sube, llega a un pico y baja, casi siempre en pocos minutos. La próxima vez que aparezca, probá surfearlo. Activá el reloj para unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Notar.</strong> «Apareció el impulso de…». Solo nombralo.</li>
+          <li><strong>El cuerpo.</strong> ¿Dónde lo sentís? Tensión en las manos, inquietud en el pecho, ansiedad en el estómago.</li>
+          <li><strong>Respirar con la ola.</strong> Imaginá que el impulso es una ola y tu respiración, la tabla. No la empujes ni la sigas: subí y bajá con ella.</li>
+          <li><strong>Observar el pico.</strong> Notá si sube, si se queda, si empieza a bajar. Puntuala del 0 al 10.</li>
+          <li><strong>La bajada.</strong> Fijate cómo está ahora. Cada vez que surfeás una ola sin actuar, la próxima suele ser un poco más baja.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="necesidad" aria-labelledby="t-necesidad">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-necesidad">La necesidad detrás</h2>
+      <p class="lab-estacion__bajada">Casi toda conducta compulsiva intenta cubrir una necesidad real: descansar, conectar con alguien, sentir algo, dejar de sentir algo, una recompensa. La conducta funciona un rato, pero no termina de cubrirla. Buscá qué necesitás de verdad y otras formas de cubrirlo.</p>
+      <div class="lab-tarjeta" data-lab-quiz="compulsivas">
+        <p class="lab-tarjeta__titulo">¿Qué necesidad hay detrás?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="entorno" aria-labelledby="t-entorno">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-entorno">Cambiar el entorno</h2>
+      <p class="lab-estacion__bajada">La fuerza de voluntad sola suele perder contra un entorno diseñado para engancharnos. Agregar fricción (pasos extra entre el impulso y la conducta) y quitar disparadores es más eficaz que pelear a cada rato.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cambiar-el-entorno" data-lab-form-titulo="Cambiar el entorno" novalidate>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo">Voy a probar…</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" value="notificaciones"><span>Apagar notificaciones.</span></label>
+            <label class="opcion"><input type="checkbox" value="app"><span>Borrar una aplicación del celular (y usarla solo desde la computadora).</span></label>
+            <label class="opcion"><input type="checkbox" value="tarjeta"><span>Sacar la tarjeta guardada en las tiendas en línea.</span></label>
+            <label class="opcion"><input type="checkbox" value="dormitorio"><span>Dejar el celular fuera del dormitorio.</span></label>
+            <label class="opcion"><input type="checkbox" value="limite"><span>Poner un límite de tiempo o de dinero, y decírselo a alguien.</span></label>
+            <label class="opcion"><input type="checkbox" value="autoexclusion"><span>Autoexcluirme de sitios de apuestas.</span></label>
+            <label class="opcion"><input type="checkbox" value="alternativa"><span>Tener a mano una alternativa para el momento del impulso.</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cc-alternativa">Mi alternativa para cuando aparezca el impulso</label><input class="lab-campo" id="cc-alternativa" type="text" placeholder="Por ejemplo: salir a caminar diez minutos, llamar a alguien" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="conductas-compulsivas">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Registrar.</strong> Anotá cuántas veces y cuánto tiempo, sin cambiar nada.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. La cadena.</strong> Analizá un episodio eslabón por eslabón.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Fricción.</strong> Hacé un cambio en el entorno.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Surfear.</strong> Surfeá un impulso sin actuar.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. La necesidad.</strong> Cubrí la necesidad de fondo de otra forma.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Contarlo.</strong> Hablalo con alguien de confianza.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar la semana.</strong> Compará con el día 1, sin retarte si no salió todo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la conducta te genera deudas, problemas graves en el trabajo o en la familia, o si incluye alcohol u otras sustancias, conviene buscar ayuda especializada: las adicciones tienen tratamiento. En Argentina, la <a href="tel:141">línea 141</a> de SEDRONAR orienta sobre consumos problemáticos, apuestas y uso problemático de pantallas, las 24 horas, de forma gratuita y anónima. Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>. Podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Marlatt, G. A. y Gordon, J. R. (eds.) (1985). <em>Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors</em>.</li>
+        <li>Linehan, M. M. (2015). <em>DBT Skills Training Manual</em> (2.ª ed.). Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
