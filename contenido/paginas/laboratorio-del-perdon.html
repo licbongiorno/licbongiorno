@@ -1,0 +1,186 @@
+<!--{
+  "ruta": "/laboratorio-del-perdon/",
+  "titulo": "Laboratorio del perdón y el cierre: ejercicios",
+  "descripcion": "Ejercicios para pensar el perdón sin obligación: qué es y qué no es, el modelo de Enright, REACH de Worthington, reparar y cerrar ciclos de daño.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Perdón y cierre", "/laboratorio-del-perdon/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio del <em>perdón y el cierre</em>",
+  "bajada": "Perdonar no es olvidar, ni justificar, ni volver. Ejercicios para pensar qué hacer con un daño recibido, o causado, sin que nadie te apure.",
+  "respuesta": "El laboratorio del perdón y el cierre propone ejercicios basados en la psicología del perdón: qué es y qué no es perdonar, la diferencia entre perdón y reconciliación, el modelo de proceso de Robert Enright y Richard Fitzgibbons (2000), el modelo REACH de Everett Worthington (2003), la reparación de Melanie Klein (1937) cuando el daño lo causamos nosotros, una carta que no se envía y un plan de 7 días. Perdonar es una opción, no una obligación. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-perdon.js", "escenas.js"],
+  "wa_tema": "el laboratorio del perdón y el cierre",
+  "articulos": ["la-culpa", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay daños que siguen ocupando lugar mucho después de que pasaron: una traición, una injusticia, una infancia difícil, palabras que no se borran. A veces el enojo protege, y está bien que esté. Otras veces ya no protege: solo pesa, y mantiene atada a la persona a quien la lastimó. Este laboratorio no te pide perdonar. Te propone pensar qué querés hacer con ese peso.</p>
+        <p>El perdón se volvió objeto de investigación psicológica en las últimas décadas. Robert Enright y Richard Fitzgibbons (<em>Helping Clients Forgive</em>, 2000) lo describen como un <strong>proceso</strong> en fases, que no se fuerza y que empieza por reconocer el daño y el enojo. Everett Worthington (<em>Forgiving and Reconciling</em>, 2003) propone el modelo <strong>REACH</strong> y distingue con claridad el perdón, que ocurre adentro de uno, de la reconciliación, que requiere que el otro cambie. Desde el psicoanálisis, Melanie Klein («Love, guilt and reparation», 1937) describe la <strong>reparación</strong>: el impulso de reparar el daño que nosotros causamos, que surge de la culpa y del amor. Y Freud, en <em>Duelo y melancolía</em> (1917), muestra que soltar algo perdido lleva tiempo y trabajo psíquico.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin obligación.</strong> No perdonar también es una opción legítima.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin apuro.</strong> El perdón, si llega, llega con tiempo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#que-es">Qué es y qué no es</a>
+      <a href="#opciones">Perdonar, reconciliarse, soltar</a>
+      <a href="#descubrir">Reconocer el daño</a>
+      <a href="#decidir">¿Estoy listo?</a>
+      <a href="#reach">Los pasos de REACH</a>
+      <a href="#reparar">Cuando el daño lo causé yo</a>
+      <a href="#carta">Una carta que no se envía</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="que-es" aria-labelledby="t-que-es">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-que-es">Qué es y qué no es perdonar</h2>
+      <p class="lab-estacion__bajada">Perdonar es dejar de ir, poco a poco, contra quien nos dañó: soltar el resentimiento y el deseo de que pague, sin negar que lo que hizo estuvo mal. No es olvidar, ni excusar, ni minimizar, ni volver a confiar, ni renunciar a la justicia. Muchas resistencias a perdonar vienen de confundirlo con alguna de esas cosas.</p>
+      <div class="lab-tarjeta" data-lab-quiz="que-es">
+        <p class="lab-tarjeta__titulo">¿Es perdonar?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Ya no le deseo mal, aunque lo que hizo sigue estando mal.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Sí, es perdonar</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">No, es otra cosa</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="opciones" aria-labelledby="t-opciones">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-opciones">Perdonar, reconciliarse o soltar</h2>
+      <p class="lab-estacion__bajada">Worthington insiste en una distinción: se puede perdonar sin reconciliarse. El perdón depende de vos; la reconciliación depende de los dos, y solo tiene sentido si el otro reconoce el daño y es seguro volver. Elegí una opción para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una opción">
+          <label class="opcion"><input type="radio" name="pd-opcion" value="perdonar" checked><span>Perdonar</span></label>
+          <label class="opcion"><input type="radio" name="pd-opcion" value="reconciliar"><span>Reconciliarse</span></label>
+          <label class="opcion"><input type="radio" name="pd-opcion" value="soltar"><span>Soltar sin perdonar</span></label>
+          <label class="opcion"><input type="radio" name="pd-opcion" value="no"><span>No perdonar, por ahora</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="perdonar"><p><strong>Qué implica:</strong> un cambio interno: el resentimiento baja y aparece algo de comprensión, incluso compasión, por quien dañó. No requiere hablar con esa persona, ni que esté viva.</p><p><strong>Cuándo puede servir:</strong> cuando el rencor te sigue ocupando y querés recuperar ese espacio.</p></div>
+        <div class="lab-panel" data-lab-panel="reconciliar" hidden><p><strong>Qué implica:</strong> volver a construir confianza en el vínculo. Necesita que el otro reconozca lo que hizo, repare y cambie su conducta.</p><p><strong>Cuándo puede servir:</strong> cuando el vínculo importa, es seguro y los dos están dispuestos. Nunca en una relación violenta en curso.</p></div>
+        <div class="lab-panel" data-lab-panel="soltar" hidden><p><strong>Qué implica:</strong> dejar de darle lugar al tema en tu vida, sin llegar a perdonar. Es aceptar que pasó y elegir dónde poner tu energía.</p><p><strong>Cuándo puede servir:</strong> cuando el perdón no aparece, o no te parece justo, pero el peso sí querés dejarlo.</p></div>
+        <div class="lab-panel" data-lab-panel="no" hidden><p><strong>Qué implica:</strong> reconocer que todavía no es momento, o que no querés. El enojo puede estar cumpliendo una función: protegerte, marcar un límite, sostener tu dignidad.</p><p><strong>Cuándo puede servir:</strong> cuando el daño es reciente, sigue ocurriendo o nadie lo reconoció. Forzar un perdón antes de tiempo suele dejar el dolor tapado, no resuelto.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="descubrir" aria-labelledby="t-descubrir">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-descubrir">Reconocer el daño</h2>
+      <p class="lab-estacion__bajada">En el modelo de Enright, el primer paso no es perdonar: es mirar el daño de frente. Reconocer qué pasó, el enojo que dejó, cómo te afectó y cómo lo estuviste sobrellevando. Sin este paso, el perdón suele ser un intento de no sentir.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="reconocer-el-dano" data-lab-form-titulo="Reconocer el daño" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-que">¿Qué pasó? ¿Quién me dañó?</label><textarea class="lab-texto" id="pd-que" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-enojo">¿Qué siento cuando lo recuerdo? Enojo, tristeza, vergüenza, miedo…</label><textarea class="lab-texto" id="pd-enojo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-afecto">¿Cómo me afectó en mi vida? ¿Qué perdí o qué cambió?</label><textarea class="lab-texto" id="pd-afecto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-como">¿Cómo lo estuve manejando hasta ahora? ¿Me sirve?</label><textarea class="lab-texto" id="pd-como" rows="2" placeholder="Por ejemplo: no lo pienso, lo repaso todas las noches, evito a ciertas personas"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="decidir" aria-labelledby="t-decidir">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-decidir">¿Estoy listo para considerarlo?</h2>
+      <p class="lab-estacion__bajada">La segunda fase del modelo de Enright es una decisión: darte cuenta de que la forma en que venías manejando el daño ya no te sirve, y considerar el perdón como una posibilidad. Considerar no es comprometerse. Estas preguntas pueden ayudarte a ver dónde estás.</p>
+      <div class="lab-tarjeta">
+        <ol class="lab-guion">
+          <li>¿El daño terminó, o sigue pasando? Si sigue pasando, primero va la protección.</li>
+          <li>¿Pude reconocer y sentir el enojo, o lo estoy salteando?</li>
+          <li>¿Qué me cuesta seguir cargando este resentimiento?</li>
+          <li>¿Perdonar me parecería traicionarme? ¿Por qué?</li>
+          <li>Si dentro de cinco años esto siguiera igual adentro mío, ¿cómo me sentiría?</li>
+        </ol>
+        <p class="lab-paso__ayuda">«Todavía no» es una respuesta válida. Podés volver a esta página dentro de un tiempo.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="reach" aria-labelledby="t-reach">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-reach">Los pasos de REACH</h2>
+      <p class="lab-estacion__bajada">El modelo de Worthington toma su nombre de las iniciales en inglés de cinco pasos. Es un ejercicio para cuando ya decidiste intentarlo. Seguí los pasos a tu ritmo o activá el reloj, con un minuto para cada uno. Si en algún momento te desborda, pará: podés retomarlo otro día.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Recordar el daño.</strong> Traé a la mente lo que pasó, como un observador, sin revivirlo con toda la intensidad. Sin minimizarlo ni culparte.</li>
+          <li><strong>Empatizar.</strong> Intentá imaginar qué pasaba por dentro de la otra persona: su historia, su miedo, sus límites. Entender no es justificar.</li>
+          <li><strong>El regalo.</strong> Recordá alguna vez en que alguien te perdonó a vos. El perdón, para Worthington, es un regalo que se da, no algo que el otro se gana.</li>
+          <li><strong>Comprometerse.</strong> Decí o escribí, para vos o para alguien de confianza: «Elijo perdonar a…». Ponerlo en palabras ayuda a sostenerlo.</li>
+          <li><strong>Sostener.</strong> Cuando el recuerdo vuelva, y va a volver, recordá que recordar no es dejar de perdonar. Volvé a tu compromiso.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="reparar" aria-labelledby="t-reparar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-reparar">Cuando el daño lo causé yo</h2>
+      <p class="lab-estacion__bajada">El perdón tiene otra cara: pedirlo. Para Klein, la capacidad de sentir culpa por el daño causado a quien queremos, y el deseo de repararlo, es un signo de madurez emocional. La culpa que repara no es la que castiga: no busca sufrir, busca restituir algo. Y también vale para el perdón a uno mismo, que empieza por reconocer el daño y repararlo en lo posible.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="reparar-un-dano" data-lab-form-titulo="Reparar un daño que causé" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-hice">¿Qué hice, sin justificarme ni exagerar?</label><textarea class="lab-texto" id="pd-hice" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-efecto">¿Cómo pudo afectar a la otra persona?</label><textarea class="lab-texto" id="pd-efecto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-reparacion">¿Qué puedo hacer para reparar, aunque sea en parte?</label><textarea class="lab-texto" id="pd-reparacion" rows="2" placeholder="Pedir perdón sin excusas, devolver algo, cambiar una conducta, escuchar"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-distinto">¿Qué voy a hacer distinto la próxima vez?</label><input class="lab-campo" id="pd-distinto" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda">Pedir perdón no obliga al otro a darlo. La reparación vale aunque el otro no responda.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-carta">Una carta que no se envía</h2>
+      <p class="lab-estacion__bajada">Escribirle a quien te dañó, sabiendo que no la vas a enviar, permite decir todo lo que quedó atragantado, sin filtro y sin riesgo. No hace falta que termine con un perdón. Algunas preguntas para empezar:</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="carta-que-no-se-envia" data-lab-form-titulo="Una carta que no se envía" novalidate>
+        <ol class="lab-guion">
+          <li>¿Qué me hiciste y cómo me hizo sentir?</li>
+          <li>¿Qué me hubiera gustado que hicieras o dijeras?</li>
+          <li>¿Qué me quitó lo que pasó, y qué no pudo quitarme?</li>
+          <li>¿Qué quiero hacer hoy con esto?</li>
+        </ol>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-carta">La carta</label><textarea class="lab-texto" id="pd-carta" rows="10"></textarea></div>
+        <p class="lab-paso__ayuda">Hay quienes la queman, la entierran o la leen en voz alta en un lugar significativo. No hay una forma correcta.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi carta</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, sin apuro. Marcá las que vayas haciendo; queda guardado solo en este navegador. Si alguna te desborda, salteala.</p>
+      <div class="lab-tarjeta" data-lab-plan="perdon">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Escribí en una frase qué daño te sigue pesando.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Sentir.</strong> Dejá lugar al enojo o a la tristeza diez minutos, sin juzgarlos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Separar.</strong> Distinguí, en tu caso, perdonar de reconciliarte.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La carta.</strong> Escribí la carta que no se envía.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. La otra historia.</strong> Pensá qué pudo llevar a esa persona a actuar así, sin justificarla.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Mi parte.</strong> Elegí algo que vos hayas dañado y pensá cómo repararlo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar adentro.</strong> ¿Cambió algo en el peso que llevás, aunque sea un poco?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Nadie tiene la obligación de perdonar, y menos de volver con quien lo dañó. Si el daño fue abuso o violencia, o si sigue ocurriendo, la prioridad es tu seguridad: en Argentina, la línea 144 atiende las 24 horas y es gratuita; en una emergencia, llamá al 911. Si el recuerdo trae imágenes intrusivas, pesadillas o una angustia que no cede, puede tratarse de un trauma que conviene trabajar con un profesional: podés <a href="/contacto/">escribirme</a>. Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Freud, S. (1917). <em>Duelo y melancolía</em>.</li>
+        <li>Klein, M. (1937). «Love, guilt and reparation». En M. Klein y J. Riviere, <em>Love, Hate and Reparation</em>.</li>
+        <li>Enright, R. D. y Fitzgibbons, R. P. (2000). <em>Helping Clients Forgive: An Empirical Guide for Resolving Anger and Restoring Hope</em>.</li>
+        <li>Worthington, E. L. (2003). <em>Forgiving and Reconciling: Bridges to Wholeness and Hope</em>. InterVarsity Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

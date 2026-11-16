@@ -7,15 +7,15 @@
 
   /* Pasiva (a), asertiva (b), agresiva (c), pasivo-agresiva (d). */
   LAB.quiz("estilos", [
-    { t: "«Ah, bueno, lo que digas. No pasa nada, aunque en realidad me molestó.»", r: "a", e: "Cede para evitar el conflicto y oculta lo que siente. Es pasividad." },
-    { t: "«Me molestó que llegaras tarde. ¿Podemos acordar avisar cuando pase algo?»", r: "b", e: "Describe, nombra lo que sintió y pide algo concreto, sin atacar. Es asertiva." },
-    { t: "«¡Siempre llegás tarde, sos un desconsiderado!»", r: "c", e: "Ataca a la persona y generaliza. Es agresiva, aunque tenga razón en el reclamo." },
-    { t: "«No, no me molesta… Total, como siempre, lo hago yo.»", r: "d", e: "Dice que no le molesta y castiga con una indirecta. Es pasivo-agresiva: el enojo sale, pero de costado." },
-    { t: "«No me sirve que me interrumpas. Termino y después te escucho.»", r: "b", e: "Pone un límite claro y deja la puerta abierta. Es asertiva." },
-    { t: "«Está bien, lo que sea, no importa.»", r: "a", e: "Renuncia a lo que necesita y deja al otro sin saber qué pasa. Es pasividad." },
-    { t: "«Lo hiciste mal y lo sabés, así que no me vengas con excusas.»", r: "c", e: "Juzga y cierra la conversación. Es agresiva: impone sin dejar lugar al otro." },
-    { t: "«Sí, sí, ahora lo hago», y después no lo hace a propósito.", r: "d", e: "Acepta de palabra y resiste con la acción. Es pasivo-agresiva: evita el conflicto abierto, pero lo traslada." },
-    { t: "«Prefiero no ir a la cena. Gracias por invitarme.»", r: "b", e: "Dice lo que quiere sin justificarse de más y con amabilidad. Es asertiva." }
+    { t: "Ah, bueno, lo que digas. No pasa nada, aunque en realidad me molestó.", r: "a", e: "Cede para evitar el conflicto y oculta lo que siente. Es pasividad." },
+    { t: "Me molestó que llegaras tarde. ¿Podemos acordar avisar cuando pase algo?", r: "b", e: "Describe, nombra lo que sintió y pide algo concreto, sin atacar. Es asertiva." },
+    { t: "¡Siempre llegás tarde, sos un desconsiderado!", r: "c", e: "Ataca a la persona y generaliza. Es agresiva, aunque tenga razón en el reclamo." },
+    { t: "No, no me molesta… Total, como siempre, lo hago yo.", r: "d", e: "Dice que no le molesta y castiga con una indirecta. Es pasivo-agresiva: el enojo sale, pero de costado." },
+    { t: "No me sirve que me interrumpas. Termino y después te escucho.", r: "b", e: "Pone un límite claro y deja la puerta abierta. Es asertiva." },
+    { t: "Está bien, lo que sea, no importa.", r: "a", e: "Renuncia a lo que necesita y deja al otro sin saber qué pasa. Es pasividad." },
+    { t: "Lo hiciste mal y lo sabés, así que no me vengas con excusas.", r: "c", e: "Juzga y cierra la conversación. Es agresiva: impone sin dejar lugar al otro." },
+    { sinComillas: true, t: "«Sí, sí, ahora lo hago», y después no lo hace a propósito.", r: "d", e: "Acepta de palabra y resiste con la acción. Es pasivo-agresiva: evita el conflicto abierto, pero lo traslada." },
+    { t: "Prefiero no ir a la cena. Gracias por invitarme.", r: "b", e: "Dice lo que quiere sin justificarse de más y con amabilidad. Es asertiva." }
   ]);
 
   /* Guion de tres partes: arma la frase a medida que se escribe. */

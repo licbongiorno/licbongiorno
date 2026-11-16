@@ -9,12 +9,12 @@
 
   /* Funciones de las emociones: índice de la opción correcta. */
   LAB.quiz("funciones", [
-    { t: "Un auto frena de golpe frente a vos y saltás hacia atrás antes de pensar.", ops: OPS, r: 0, e: "El miedo preparó al cuerpo para actuar en una fracción de segundo." },
-    { t: "Tu hijo te ve la cara después de una discusión y te pregunta si estás triste.", ops: OPS, r: 1, e: "Tu expresión comunicó la tristeza sin palabras." },
-    { t: "Te incomoda cada vez que un compañero hace un chiste sobre vos, y te das cuenta de que te importa más de lo que creías.", ops: OPS, r: 2, e: "La incomodidad te avisó que algo de eso te importa." },
-    { t: "Sentís enojo y te ponés firme para que no te pasen por encima en una reunión.", ops: OPS, r: 0, e: "El enojo da energía para defenderse y poner límites." },
-    { t: "Llorás en el velorio y tus amigos se acercan a abrazarte.", ops: OPS, r: 1, e: "El llanto comunica dolor y convoca el cuidado de los demás." },
-    { t: "Sentís ansiedad antes de firmar un contrato y decidís leerlo otra vez.", ops: OPS, r: 2, e: "La ansiedad te avisó que había algo para revisar. Conviene escucharla, sin tomarla como un hecho." }
+    { sinComillas: true, t: "Un auto frena de golpe frente a vos y saltás hacia atrás antes de pensar.", ops: OPS, r: 0, e: "El miedo preparó al cuerpo para actuar en una fracción de segundo." },
+    { sinComillas: true, t: "Tu hijo te ve la cara después de una discusión y te pregunta si estás triste.", ops: OPS, r: 1, e: "Tu expresión comunicó la tristeza sin palabras." },
+    { sinComillas: true, t: "Te incomoda cada vez que un compañero hace un chiste sobre vos, y te das cuenta de que te importa más de lo que creías.", ops: OPS, r: 2, e: "La incomodidad te avisó que algo de eso te importa." },
+    { sinComillas: true, t: "Sentís enojo y te ponés firme para que no te pasen por encima en una reunión.", ops: OPS, r: 0, e: "El enojo da energía para defenderse y poner límites." },
+    { sinComillas: true, t: "Llorás en el velorio y tus amigos se acercan a abrazarte.", ops: OPS, r: 1, e: "El llanto comunica dolor y convoca el cuidado de los demás." },
+    { sinComillas: true, t: "Sentís ansiedad antes de firmar un contrato y decidís leerlo otra vez.", ops: OPS, r: 2, e: "La ansiedad te avisó que había algo para revisar. Conviene escucharla, sin tomarla como un hecho." }
   ]);
 
   /* Ideas de cosas agradables. */

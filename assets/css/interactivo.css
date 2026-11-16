@@ -1432,3 +1432,9 @@ a.lab-tarjeta h3 { color: var(--salvia-profunda); }
 a.lab-tarjeta:hover h3, a.lab-tarjeta:focus-visible h3 { text-decoration: underline; text-underline-offset: .2em; }
 a.lab-tarjeta:hover { transform: translateY(-2px); }
 @media (prefers-reduced-motion: reduce) { a.lab-tarjeta, a.lab-tarjeta:hover { transition: none; transform: none; } }
+
+/* Botón de salida rápida (laboratorio de violencia en el vínculo) */
+.salida-rapida { position: fixed; right: 12px; bottom: calc(env(safe-area-inset-bottom, 0px) + 84px); z-index: 80; padding: .7rem 1.1rem; border: 0; border-radius: 999px; background: #8a2e2e; color: #fff; font: 600 .95rem/1 var(--f-sans); box-shadow: 0 4px 14px rgba(0,0,0,.25); cursor: pointer; }
+.salida-rapida:hover { background: #6f2323; }
+.salida-rapida:focus-visible { outline: 3px solid var(--foco, #000); outline-offset: 3px; }
+@media (min-width: 901px) { .salida-rapida { bottom: 20px; } }
