@@ -60,7 +60,7 @@
   "ga4_id": "",
   "_ga4_nota": "ID de Google Analytics 4 (G-XXXXXXX). Vacío = sin analítica y sin banner de cookies.",
   "search_console_token": "",
-  "bing_token": "",
+  "bing_token": "9ECB3FEB58D38556C5C330BDD3CDAC44",
 
   "formulario_endpoint": "",
   "_formulario_nota": "URL de Formspree (https://formspree.io/f/xxxx) u otro servicio que acepte POST JSON. Vacío = el formulario arma el mensaje y lo abre en WhatsApp, sin guardar datos en ningún servidor.",

@@ -1,23 +1,23 @@
 <!--{
   "ruta": "/laboratorio-del-jardinero-interior/",
   "titulo": "Laboratorio del jardinero interior: ejercicios",
-  "descripcion": "Ejercicios para cultivar lo que te nutre y podar lo que te desgasta, desde la Gestalt y el ambiente suficientemente bueno de Winnicott.",
+  "descripcion": "Ejercicios para cultivar lo que te nutre y podar lo que te desgasta, desde la Gestalt, Carl Rogers y el ambiente suficientemente bueno de Winnicott.",
   "prioridad": 0.6,
   "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Jardinero interior", "/laboratorio-del-jardinero-interior/"]],
   "antetitulo": "Laboratorio",
   "h1": "Laboratorio del <em>jardinero interior</em>",
   "bajada": "No solo arrancar lo que te daña: también sembrar, regar y darle tiempo a lo que crece. Ejercicios para cuidarte como cuidarías un jardín.",
-  "respuesta": "El laboratorio del jardinero interior propone ejercicios de autocuidado basados en la Gestalt (darse cuenta del presente, figura y fondo, contacto) y en la idea de Donald Winnicott de un ambiente suficientemente bueno. Incluye un inventario de lo que nutre y lo que desgasta, un plan de cultivo semanal y una práctica de darse cuenta. No es un plan alimentario ni reemplaza el acompañamiento profesional.",
+  "respuesta": "El laboratorio del jardinero interior propone ejercicios de autocuidado basados en la Gestalt (darse cuenta del presente, figura y fondo, contacto), en la tendencia actualizante y las condiciones de crecimiento de Carl Rogers, y en la idea de Donald Winnicott de un ambiente suficientemente bueno. Incluye un inventario de lo que nutre y lo que desgasta, una revisión de los cuatro terrenos de la vida, un riego guiado de cinco minutos, un plan de cultivo y un plan de 7 días. No es un plan alimentario ni reemplaza el acompañamiento profesional.",
   "scripts": ["lab-base.js", "laboratorio-jardinero.js", "escenas.js"],
   "wa_tema": "el laboratorio del jardinero interior",
-  "articulos": ["la-culpa"]
+  "articulos": ["la-resiliencia", "la-soledad"]
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
     <div class="lab-intro revelar">
       <div class="prosa">
-        <p>Cuando algo no va bien, solemos buscar qué arrancar: el mal hábito, la persona que nos agota, el pensamiento que no para. Es necesario, pero un jardín no se sostiene solo con podar. Hace falta sembrar, regar y dejar tiempo para que crezca lo que vale. Este laboratorio propone mirarte de esa manera: como alguien que cuida un terreno que se transforma todos los días.</p>
-        <p>Desde la <strong>Gestalt</strong>, Perls, Hefferline y Goodman (<em>Gestalt Therapy</em>, 1951) ubican el cuidado en el <strong>darse cuenta</strong> del presente: notar qué figura ocupa primer plano y qué queda en el fondo, qué nutre el contacto y qué lo interrumpe. Donald Winnicott (<em>Realidad y juego</em>, 1971) habla del ambiente <strong>suficientemente bueno</strong>: no hace falta ser perfecto para cuidar bien. Lo que importa es la constancia, no el gesto heroico.</p>
+        <p>Cuando algo no va bien, solemos buscar qué arrancar: el mal hábito, la persona que nos agota, el pensamiento que no para. Es necesario, pero un jardín no se sostiene solo con podar. Hace falta sembrar, regar y dejar tiempo para que crezca lo que vale. Este laboratorio propone mirarte de esa manera: como alguien que cuida un terreno vivo, que cambia con las estaciones y que no florece a la fuerza.</p>
+        <p>Carl Rogers (<em>El proceso de convertirse en persona</em>, 1961) sostenía que en cada persona hay una <strong>tendencia actualizante</strong>: un impulso a crecer que puede quedar trabado o torcido, pero que no desaparece. Para que se despliegue hacen falta ciertas condiciones, como la aceptación y la empatía. Desde la <strong>Gestalt</strong>, Perls, Hefferline y Goodman (<em>Gestalt Therapy</em>, 1951) ubican el cuidado en el <strong>darse cuenta</strong> del presente: notar qué ocupa el primer plano, qué queda en el fondo, qué nutre el contacto y qué lo interrumpe. Donald Winnicott (<em>Realidad y juego</em>, 1971) habla del ambiente <strong>suficientemente bueno</strong>: no hace falta ser perfecto para cuidar bien. Lo que importa es la constancia, no el gesto heroico.</p>
       </div>
       <ul class="lab-reglas" aria-label="Cómo funciona">
         <li><strong>Sin perfección.</strong> Un jardín tiene malezas. Eso no lo vuelve un fracaso.</li>
@@ -28,9 +28,13 @@
 
     <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
       <a href="#darse-cuenta">Darse cuenta</a>
+      <a href="#terrenos">Los cuatro terrenos</a>
       <a href="#inventario">Malezas y semillas</a>
+      <a href="#condiciones">Condiciones para crecer</a>
+      <a href="#riego">Un riego de cinco minutos</a>
       <a href="#suficiente">Lo suficientemente bueno</a>
       <a href="#cultivo">Mi plan de cultivo</a>
+      <a href="#siete-dias">Plan de 7 días</a>
     </nav>
 
     <section class="lab-estacion revelar" id="darse-cuenta" aria-labelledby="t-darse-cuenta">
@@ -49,10 +53,25 @@
       </div>
     </section>
 
-    <section class="lab-estacion revelar" id="inventario" aria-labelledby="t-inventario">
+    <section class="lab-estacion revelar" id="terrenos" aria-labelledby="t-terrenos">
       <p class="lab-estacion__num">02</p>
+      <h2 id="t-terrenos">Los cuatro terrenos</h2>
+      <p class="lab-estacion__bajada">Un jardinero recorre todo el terreno, no solo el cantero que más le gusta. Puntuá del 0 al 10 cómo está hoy cada zona de tu vida. No hace falta que todas estén en 10: la idea es ver cuál pide atención primero.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cuatro-terrenos" data-lab-form-titulo="Los cuatro terrenos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jt-cuerpo">El cuerpo: descanso, movimiento, salud, el cuidado básico</label><input class="lab-campo" id="jt-cuerpo" type="number" min="0" max="10" inputmode="numeric"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jt-emociones">Las emociones: poder sentir, nombrar y transitar lo que pasa</label><input class="lab-campo" id="jt-emociones" type="number" min="0" max="10" inputmode="numeric"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jt-vinculos">Los vínculos: personas que te nutren y con quienes podés ser vos</label><input class="lab-campo" id="jt-vinculos" type="number" min="0" max="10" inputmode="numeric"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jt-sentido">El sentido: lo que hacés que te importa, aprender, crear, aportar</label><input class="lab-campo" id="jt-sentido" type="number" min="0" max="10" inputmode="numeric"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jt-primero">¿Qué terreno pide atención primero, y por qué?</label><textarea class="lab-texto" id="jt-primero" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="inventario" aria-labelledby="t-inventario">
+      <p class="lab-estacion__num">03</p>
       <h2 id="t-inventario">Malezas y semillas</h2>
-      <p class="lab-estacion__bajada">Hacé dos listas. En la primera, lo que desgasta: hábitos, horarios, personas, pensamientos que se repiten. En la segunda, lo que nutre: lo que te deja más entero, lo que te calma, lo que te da sentido. No hace falta que sean grandes cosas. Un paseo o una charla con alguien querido cuentan.</p>
+      <p class="lab-estacion__bajada">Hacé dos listas. En la primera, lo que desgasta: hábitos, horarios, personas, pensamientos que se repiten, lo que mirás o escuchás sin elegirlo. En la segunda, lo que nutre: lo que te deja más entero, lo que te calma, lo que te da sentido. No hace falta que sean grandes cosas. Un paseo o una charla con alguien querido cuentan. Podés ordenar cada lista con las flechas, de lo más importante a lo menos.</p>
       <div class="lab-estaciones-listas">
         <div data-lab-lista-editable data-lab-lista-titulo="Malezas: lo que desgasta" class="lab-tarjeta">
           <label class="lab-paso__titulo" for="jd-maleza" style="display:block">Una maleza</label>
@@ -67,10 +86,41 @@
       </div>
     </section>
 
+    <section class="lab-estacion revelar" id="condiciones" aria-labelledby="t-condiciones">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-condiciones">Condiciones para crecer</h2>
+      <p class="lab-estacion__bajada">Rogers describió tres condiciones que, en terapia, permiten que una persona crezca: la aceptación incondicional, la comprensión empática y la autenticidad. No son solo para el consultorio. También son la forma en que podés tratarte a vos. Elegí una y mirá cómo se aplica.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una condición">
+          <label class="opcion"><input type="radio" name="jd-condicion" value="aceptacion" checked><span>Aceptación</span></label>
+          <label class="opcion"><input type="radio" name="jd-condicion" value="empatia"><span>Empatía</span></label>
+          <label class="opcion"><input type="radio" name="jd-condicion" value="autenticidad"><span>Autenticidad</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="aceptacion"><p><strong>Qué es:</strong> valorar a la persona sin condiciones, aunque no se apruebe todo lo que hace.</p><p><strong>Aplicado a vos:</strong> poder decir «esto que hice no me gusta» sin concluir «yo no valgo». El valor no se gana: está de base.</p><p><strong>Una pregunta:</strong> ¿qué parte de vos solo aceptás cuando rinde?</p></div>
+        <div class="lab-panel" data-lab-panel="empatia" hidden><p><strong>Qué es:</strong> comprender lo que el otro siente desde su propio marco, como si fuera propio, sin perder el «como si».</p><p><strong>Aplicado a vos:</strong> preguntarte qué te pasa antes de corregirte. Entender por qué reaccionaste así, en lugar de solo exigir que no vuelva a pasar.</p><p><strong>Una pregunta:</strong> si un amigo hubiera vivido tu semana, ¿qué entenderías de él?</p></div>
+        <div class="lab-panel" data-lab-panel="autenticidad" hidden><p><strong>Qué es:</strong> que lo que uno muestra coincida con lo que vive por dentro. Rogers la llamaba congruencia.</p><p><strong>Aplicado a vos:</strong> dejar de sostener un «estoy bien» que no es cierto, al menos con vos y con alguien de confianza.</p><p><strong>Una pregunta:</strong> ¿dónde estás actuando un papel que te cansa?</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="riego" aria-labelledby="t-riego">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-riego">Un riego de cinco minutos</h2>
+      <p class="lab-estacion__bajada">Un ejercicio breve de darse cuenta, en el estilo de la Gestalt: pasar de lo que sentís a lo que necesitás, y de ahí a un gesto concreto. Seguí los pasos a tu ritmo o activá el reloj, con un minuto para cada uno.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Notar el cuerpo.</strong> ¿Cómo está ahora? Cansado, tenso, inquieto, liviano. Solo registralo.</li>
+          <li><strong>Notar la emoción.</strong> ¿Qué está en primer plano? Ponele una palabra, aunque sea aproximada.</li>
+          <li><strong>Escuchar la necesidad.</strong> ¿Qué pide eso que sentís? Descanso, compañía, movimiento, silencio, terminar algo.</li>
+          <li><strong>Elegir un gesto.</strong> Algo pequeño que responda a esa necesidad y que puedas hacer hoy.</li>
+          <li><strong>Hacerlo y cerrar.</strong> Hacé el gesto, o agendalo. Después notá si algo cambió, aunque sea un poco.</li>
+        </ol>
+      </div>
+    </section>
+
     <section class="lab-estacion revelar" id="suficiente" aria-labelledby="t-suficiente">
-      <p class="lab-estacion__num">03</p>
+      <p class="lab-estacion__num">06</p>
       <h2 id="t-suficiente">Lo suficientemente bueno</h2>
-      <p class="lab-estacion__bajada">Winnicott describió el ambiente suficientemente bueno como aquel que se adapta a las necesidades de cada momento y que, con el tiempo, se va adaptando un poco menos, para que la persona aprenda a sostenerse. Aplicado a vos: no necesitás cuidarte perfecto. Necesitás cuidarte de forma sostenida, y ajustar el cuidado cuando cambia la necesidad.</p>
+      <p class="lab-estacion__bajada">Winnicott describió el ambiente suficientemente bueno como aquel que se adapta a las necesidades de cada momento y que, con el tiempo, se va adaptando un poco menos, para que la persona aprenda a sostenerse. Aplicado a vos: no necesitás cuidarte perfecto. Necesitás cuidarte de forma sostenida, y ajustar el cuidado cuando cambia la necesidad. Cuando estás mal, cuidarte más. Cuando estás mejor, animarte a un poco más de desafío.</p>
       <div class="lab-tarjeta" data-lab-azar="cuidado">
         <p class="lab-tarjeta__titulo">Una práctica de constancia</p>
         <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
@@ -79,17 +129,52 @@
     </section>
 
     <section class="lab-estacion revelar" id="cultivo" aria-labelledby="t-cultivo">
-      <p class="lab-estacion__num">04</p>
+      <p class="lab-estacion__num">07</p>
       <h2 id="t-cultivo">Mi plan de cultivo</h2>
-      <p class="lab-estacion__bajada">Una semana, tres gestos: lo que vas a regar, lo que vas a podar y lo que vas a sembrar. Pensalo chico, algo que puedas cumplir aunque sea un día malo.</p>
+      <p class="lab-estacion__bajada">Una semana, tres gestos: lo que vas a regar, lo que vas a podar y lo que vas a sembrar. Pensalo chico, algo que puedas cumplir aunque sea un día malo. Y una cosa más: qué hacés si el plan no sale, para no convertir el cuidado en otra exigencia.</p>
       <form class="lab-tarjeta lab-armador" data-lab-form="plan-de-cultivo" data-lab-form-titulo="Mi plan de cultivo" novalidate>
         <div class="lab-paso"><label class="lab-paso__titulo" for="jc-regar">Lo que voy a regar</label><textarea class="lab-texto" id="jc-regar" rows="2" placeholder="Algo que nutre y que quiero sostener"></textarea></div>
         <div class="lab-paso"><label class="lab-paso__titulo" for="jc-podar">Lo que voy a podar</label><textarea class="lab-texto" id="jc-podar" rows="2" placeholder="Algo que desgasta y que puedo reducir"></textarea></div>
         <div class="lab-paso"><label class="lab-paso__titulo" for="jc-sembrar">Lo que voy a sembrar</label><textarea class="lab-texto" id="jc-sembrar" rows="2" placeholder="Algo nuevo que quiero empezar"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jc-ayuda">Quién o qué me puede ayudar</label><input class="lab-campo" id="jc-ayuda" type="text" autocomplete="off"></div>
         <div class="lab-paso"><label class="lab-paso__titulo" for="jc-dia-dificil">Si es un día difícil, lo mínimo que hago</label><input class="lab-campo" id="jc-dia-dificil" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jc-si-no-sale">Si el plan no sale, me digo…</label><input class="lab-campo" id="jc-si-no-sale" type="text" placeholder="Por ejemplo: «Fue una semana difícil. Retomo el lunes.»" autocomplete="off"></div>
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, en tu vida real. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="jardinero-interior">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Recorrer el terreno.</strong> Puntuá los cuatro terrenos y elegí uno para esta semana.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Arrancar una maleza.</strong> Reducí algo que te desgasta, aunque sea por un día.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Regar.</strong> Dedicá quince minutos a algo que te nutre.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. El riego de cinco minutos.</strong> Hacé el ejercicio guiado una vez.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Sembrar.</strong> Dá el primer paso, mínimo, de algo nuevo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un vínculo que nutre.</strong> Buscá a alguien con quien te sentís bien.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar lo que creció.</strong> Anotá un cambio, por chico que sea.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio trabaja el cuidado emocional y relacional, no la alimentación: no reemplaza a un nutricionista ni a un médico. Si notás que el cuidado básico está muy deteriorado (dejaste de comer, de dormir o de salir), o que nada de lo que antes te nutría te genera algo, puede ser algo más que cansancio. Conviene consultarlo: podés <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Perls, F., Hefferline, R. y Goodman, P. (1951). <em>Gestalt Therapy</em>.</li>
+        <li>Rogers, C. (1961). <em>El proceso de convertirse en persona</em>.</li>
+        <li>Winnicott, D. W. (1971). <em>Realidad y juego</em>.</li>
+      </ul>
+    </div>
   </div>
 </section>
+{{> cta}}
