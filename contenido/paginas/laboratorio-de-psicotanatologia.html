@@ -1,0 +1,194 @@
+<!--{
+  "ruta": "/laboratorio-de-psicotanatologia/",
+  "titulo": "Laboratorio de psicotanatología: la muerte y el duelo",
+  "descripcion": "Psicotanatología: deseos para el final, duelo anticipado, dolor total, las tareas del duelo, el vínculo que continúa y los duelos no reconocidos.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Psicotanatología", "/laboratorio-de-psicotanatologia/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>psicotanatología</em>",
+  "bajada": "La muerte es parte de la vida, aunque nuestra cultura haga todo lo posible por no nombrarla. Ejercicios para pensarla, prepararse, acompañar y atravesar los duelos.",
+  "respuesta": "El laboratorio de psicotanatología propone ejercicios desde la psicología de la muerte y el duelo: mitos sobre el duelo (las etapas de Kübler-Ross, 1969, no son una secuencia fija), deseos para el final de la vida y directivas anticipadas según la Ley 26.529 de Argentina, el duelo anticipado (Rando, 1986), el dolor total de Cicely Saunders, las tareas del duelo de J. William Worden, los vínculos continuos (Klass, Silverman y Nickman, 1996) y los duelos desautorizados (Doka, 1989). No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-psicotanatologia.js", "escenas.js"],
+  "wa_tema": "el laboratorio de psicotanatología",
+  "articulos": ["duelo-migratorio", "la-soledad"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Vivimos como si la muerte fuera algo que les pasa a otros. No se habla en la mesa, se evita en las conversaciones, se esconde en los hospitales. Y sin embargo es la única certeza que compartimos. Cuando llega, la de alguien querido o la propia en el horizonte de una enfermedad, nos encuentra sin palabras y sin preparación.</p>
+        <p>La <strong>psicotanatología</strong> es el campo que aplica la psicología a todo lo que rodea a la muerte: el miedo a morir, la enfermedad grave, el acompañamiento al final de la vida, el duelo antes y después de una pérdida. No busca que la muerte deje de doler, sino que se pueda mirar, hablar y atravesar con más recursos. Para el duelo en sí, el sitio tiene también un <a href="/laboratorio-de-duelo/">laboratorio de duelo</a>, y para las preguntas existenciales, el <a href="/laboratorio-humanista-existencial/">nivel existencial del laboratorio humanista</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>A tu ritmo.</strong> Podés leer una sola estación y volver otro día.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin forzar.</strong> Si una estación toca algo muy reciente, salteala.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mitos">Mitos del duelo</a>
+      <a href="#deseos">Mis deseos para el final</a>
+      <a href="#anticipado">El duelo anticipado</a>
+      <a href="#dolor-total">El dolor total</a>
+      <a href="#tareas">Las tareas del duelo</a>
+      <a href="#vinculos">El vínculo que continúa</a>
+      <a href="#desautorizados">Duelos no reconocidos</a>
+      <a href="#siete-dias">Siete días para pensarlo</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mitos">Mitos del duelo</h2>
+      <p class="lab-estacion__bajada">Mucho de lo que creemos sobre el duelo viene de simplificaciones. Las famosas cinco etapas de Elisabeth Kübler-Ross (<em>On Death and Dying</em>, 1969) surgieron de su trabajo con personas que iban a morir, no con deudos, y ella misma aclaró después que no son una secuencia fija. Hoy se entiende el duelo como un proceso singular, que va y viene. ¿Mito o realidad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o realidad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Realidad</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="deseos" aria-labelledby="t-deseos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-deseos">Mis deseos para el final</h2>
+      <p class="lab-estacion__bajada">Pensar cómo nos gustaría que sea el final de nuestra vida no atrae la muerte: alivia a quienes un día tendrán que decidir por nosotros. En Argentina, la Ley 26.529 de derechos del paciente, modificada en 2012 por la llamada ley de muerte digna (26.742), permite a toda persona mayor de edad y capaz dejar <strong>directivas anticipadas</strong>: aceptar o rechazar ciertos tratamientos, sin que eso implique dejar de recibir cuidados para aliviar el sufrimiento. Este ejercicio no tiene valor legal; es un primer borrador para pensarlo y conversarlo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mis-deseos-para-el-final" data-lab-form-titulo="Mis deseos para el final" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-importa">Si estuviera muy enfermo, lo que más me importaría es…</label><textarea class="lab-texto" id="pt-importa" rows="2" placeholder="Por ejemplo: no sentir dolor, estar en casa, estar acompañado, poder despedirme"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-donde">¿Dónde me gustaría estar?</label><input class="lab-campo" id="pt-donde" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-quien">¿Quién me gustaría que decida por mí si yo no pudiera?</label><input class="lab-campo" id="pt-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-tratamientos">¿Qué tratamientos querría o no querría recibir?</label><textarea class="lab-texto" id="pt-tratamientos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-despedida">¿Cómo me gustaría que me despidan?</label><textarea class="lab-texto" id="pt-despedida" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda">Para que tenga valor legal, la ley pide que la directiva anticipada se formalice por escrito ante escribano público o en un juzgado de primera instancia, con dos testigos. Se puede revocar en cualquier momento. Lo más importante, igual, es conversarlo con quienes querés.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="anticipado" aria-labelledby="t-anticipado">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-anticipado">El duelo anticipado</h2>
+      <p class="lab-estacion__bajada">El duelo no siempre empieza con la muerte. Cuando alguien querido tiene una enfermedad grave, una demencia o está muy mayor, empezamos a perderlo de a poco: su autonomía, su memoria, los planes compartidos. La psicóloga Therese Rando (<em>Loss and Anticipatory Grief</em>, 1986) estudió este <strong>duelo anticipado</strong>. Puede traer culpa («lo estoy despidiendo en vida») y agotamiento, pero también la oportunidad de decir lo que importa a tiempo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="duelo-anticipado" data-lab-form-titulo="Duelo anticipado" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-ya-perdi">¿Qué ya perdí de esta persona, aunque siga viva?</label><textarea class="lab-texto" id="pt-ya-perdi" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-sigue">¿Qué sigue estando, y quiero aprovechar?</label><textarea class="lab-texto" id="pt-sigue" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-decir">¿Qué me gustaría decirle o hacer con ella mientras se pueda?</label><textarea class="lab-texto" id="pt-decir" rows="2" placeholder="Gracias, perdón, te quiero, una visita, un recuerdo compartido"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-cuidarme">¿Cómo me estoy cuidando yo en este tiempo?</label><textarea class="lab-texto" id="pt-cuidarme" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="dolor-total" aria-labelledby="t-dolor-total">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-dolor-total">El dolor total</h2>
+      <p class="lab-estacion__bajada">Cicely Saunders, médica y fundadora del movimiento moderno de cuidados paliativos, propuso en los años sesenta el concepto de <strong>dolor total</strong>: al final de la vida, el sufrimiento no es solo físico. Tiene dimensiones psicológicas, sociales y espirituales entrelazadas. Acompañar bien es atender todas. Elegí una para ver qué suele necesitar quien está muriendo y cómo acompañarla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una dimensión">
+          <label class="opcion"><input type="radio" name="pt-dolor" value="fisico" checked><span>Física</span></label>
+          <label class="opcion"><input type="radio" name="pt-dolor" value="psicologico"><span>Psicológica</span></label>
+          <label class="opcion"><input type="radio" name="pt-dolor" value="social"><span>Social</span></label>
+          <label class="opcion"><input type="radio" name="pt-dolor" value="espiritual"><span>Espiritual</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="fisico"><p><strong>Qué aparece:</strong> dolor, falta de aire, cansancio, náuseas, insomnio.</p><p><strong>Cómo acompañar:</strong> pedir al equipo de cuidados paliativos el control de los síntomas, que es un derecho. Estar atento a lo que la persona no dice: una mueca, un movimiento.</p></div>
+        <div class="lab-panel" data-lab-panel="psicologico" hidden><p><strong>Qué aparece:</strong> miedo, angustia, tristeza, enojo, sensación de ser una carga.</p><p><strong>Cómo acompañar:</strong> permitir que exprese lo que siente sin apurarse a consolar. «Tenés derecho a estar enojado» ayuda más que «no digas eso».</p></div>
+        <div class="lab-panel" data-lab-panel="social" hidden><p><strong>Qué aparece:</strong> preocupación por los que quedan, asuntos económicos o legales sin resolver, vínculos rotos.</p><p><strong>Cómo acompañar:</strong> ayudar a ordenar lo práctico, facilitar encuentros o reconciliaciones que la persona desee.</p></div>
+        <div class="lab-panel" data-lab-panel="espiritual" hidden><p><strong>Qué aparece:</strong> preguntas por el sentido de la vida, por lo que viene después, por el valor de lo vivido; a veces culpa o necesidad de perdón.</p><p><strong>Cómo acompañar:</strong> escuchar sin imponer creencias propias, ofrecer el acompañamiento religioso o espiritual que la persona elija, ayudar a repasar lo que fue valioso.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="tareas" aria-labelledby="t-tareas">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-tareas">Las tareas del duelo</h2>
+      <p class="lab-estacion__bajada">El psicólogo J. William Worden (<em>Grief Counseling and Grief Therapy</em>, publicado por primera vez en 1982) propuso pensar el duelo como un conjunto de <strong>tareas</strong> en lugar de etapas: algo activo, que la persona va haciendo, no algo que le pasa. No hay que cumplirlas en orden, y se puede volver a ellas una y otra vez. Elegí una para ver de qué se trata.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una tarea">
+          <label class="opcion"><input type="radio" name="pt-tarea" value="realidad" checked><span>1. Aceptar la realidad</span></label>
+          <label class="opcion"><input type="radio" name="pt-tarea" value="dolor"><span>2. Atravesar el dolor</span></label>
+          <label class="opcion"><input type="radio" name="pt-tarea" value="adaptarse"><span>3. Adaptarse</span></label>
+          <label class="opcion"><input type="radio" name="pt-tarea" value="conexion"><span>4. Una conexión duradera</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="realidad"><p><strong>Qué implica:</strong> reconocer que la persona murió y no va a volver, con la cabeza y con el corazón. Los rituales de despedida ayudan a esta tarea.</p><p><strong>Una pregunta:</strong> ¿hay algo que todavía hago como si no hubiera pasado?</p></div>
+        <div class="lab-panel" data-lab-panel="dolor" hidden><p><strong>Qué implica:</strong> permitirse sentir la tristeza, el enojo, la culpa, la añoranza, en lugar de evitarlos con hiperactividad, consumo o silencio.</p><p><strong>Una pregunta:</strong> ¿con quién puedo hablar de lo que siento?</p></div>
+        <div class="lab-panel" data-lab-panel="adaptarse" hidden><p><strong>Qué implica:</strong> aprender a vivir en un mundo donde esa persona ya no está: asumir roles que cumplía, rearmar la rutina, preguntarse quién soy ahora.</p><p><strong>Una pregunta:</strong> ¿qué cambió en mi vida diaria, y qué necesito aprender?</p></div>
+        <div class="lab-panel" data-lab-panel="conexion" hidden><p><strong>Qué implica:</strong> encontrar una forma de seguir vinculado con quien murió, mientras la vida continúa. No se trata de olvidar, sino de darle otro lugar.</p><p><strong>Una pregunta:</strong> ¿cómo quiero llevar a esta persona conmigo?</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="vinculos" aria-labelledby="t-vinculos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-vinculos">El vínculo que continúa</h2>
+      <p class="lab-estacion__bajada">Durante mucho tiempo se pensó que un duelo sano exigía «soltar» al muerto. Dennis Klass, Phyllis Silverman y Steven Nickman (<em>Continuing Bonds</em>, 1996) mostraron que muchas personas sanas mantienen un vínculo interno con quien murió: le hablan, lo recuerdan, sienten que sigue guiándolas. No es negar la muerte, sino transformar la relación. Una aclaración: cuando el vínculo fue dañino, mantenerlo puede no ser lo mejor.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="el-vinculo-que-continua" data-lab-form-titulo="El vínculo que continúa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-presente">¿Cómo sigue presente esta persona en mi vida?</label><textarea class="lab-texto" id="pt-presente" rows="2" placeholder="Una frase que repito, un gesto, un valor, un objeto, un lugar"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-diria">Si hoy pudiera hablarle, ¿qué le contaría?</label><textarea class="lab-texto" id="pt-diria" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-ritual">Un ritual pequeño para honrar ese vínculo</label><input class="lab-campo" id="pt-ritual" type="text" placeholder="Por ejemplo: cocinar su receta en su cumpleaños" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="desautorizados" aria-labelledby="t-desautorizados">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-desautorizados">Duelos no reconocidos</h2>
+      <p class="lab-estacion__bajada">Kenneth Doka (<em>Disenfranchised Grief</em>, 1989) llamó <strong>duelo desautorizado</strong> al que la sociedad no reconoce ni acompaña: no hay licencia, ni velorio, ni pésames, y a veces ni siquiera permiso para estar triste. Ese silencio lo vuelve más difícil. Marcá si atravesaste alguno. Nombrarlo ya es una forma de reconocerlo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="duelos-no-reconocidos" data-lab-form-titulo="Duelos no reconocidos" novalidate>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo">Atravesé la pérdida de…</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" value="embarazo"><span>Un embarazo.</span></label>
+            <label class="opcion"><input type="checkbox" value="mascota"><span>Un animal querido.</span></label>
+            <label class="opcion"><input type="checkbox" value="expareja"><span>Una ex pareja, o un amante.</span></label>
+            <label class="opcion"><input type="checkbox" value="suicidio"><span>Alguien que murió por suicidio.</span></label>
+            <label class="opcion"><input type="checkbox" value="desaparicion"><span>Alguien desaparecido, sin un cuerpo para despedir.</span></label>
+            <label class="opcion"><input type="checkbox" value="vivo"><span>Alguien que sigue vivo pero ya no está (por demencia, adicción, distancia).</span></label>
+            <label class="opcion"><input type="checkbox" value="migracion"><span>Mi país, mi lengua o mi lugar, por migrar.</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pt-reconocer">¿Qué me hubiera ayudado que alguien reconociera?</label><textarea class="lab-texto" id="pt-reconocer" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Siete días para pensarlo</h2>
+      <p class="lab-estacion__bajada">Una práctica suave por día. Si alguna toca algo muy reciente, salteala. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="psicotanatologia">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Escribí qué pérdidas te acompañan hoy.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una conversación.</strong> Hablá con alguien de confianza sobre cómo te gustaría que sea tu final.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Mis deseos.</strong> Completá el borrador de deseos para el final.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. A tiempo.</strong> Decile a alguien vivo algo que no querrías dejar sin decir.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un recuerdo.</strong> Recordá a alguien que murió, con detalle y sin apuro.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un ritual.</strong> Hacé un gesto pequeño para honrar ese vínculo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Lo que importa.</strong> ¿Qué cambió en tu forma de mirar la vida esta semana?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El duelo no tiene plazos, pero si después de mucho tiempo el dolor sigue igual de intenso, te impide vivir, o aparecen ideas de querer reunirte con quien murió, puede tratarse de un duelo complicado y conviene consultarlo. Si pensás en hacerte daño, llamá al 911 o al Centro de Asistencia al Suicida (135 desde CABA y GBA, 0800-345-1435 desde todo el país). Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>. La psicotanatología es parte de mi práctica: podés <a href="/contacto/">escribirme</a> para acompañarte en un duelo, en una enfermedad grave o en el acompañamiento de alguien querido.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Kübler-Ross, E. (1969). <em>On Death and Dying</em> (en castellano, <em>Sobre la muerte y los moribundos</em>).</li>
+        <li>Worden, J. W. (1982). <em>Grief Counseling and Grief Therapy</em> (en castellano, <em>El tratamiento del duelo</em>).</li>
+        <li>Rando, T. A. (1986). <em>Loss and Anticipatory Grief</em>.</li>
+        <li>Doka, K. J. (1989). <em>Disenfranchised Grief: Recognizing Hidden Sorrow</em>.</li>
+        <li>Klass, D., Silverman, P. R. y Nickman, S. L. (1996). <em>Continuing Bonds: New Understandings of Grief</em>.</li>
+        <li>Ley 26.529 de derechos del paciente, modificada por la Ley 26.742 (Argentina, 2012).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
