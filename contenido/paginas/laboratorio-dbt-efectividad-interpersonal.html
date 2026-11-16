@@ -1,0 +1,193 @@
+<!--{
+  "ruta": "/laboratorio-dbt-efectividad-interpersonal/",
+  "titulo": "DBT: efectividad interpersonal, ejercicios del módulo",
+  "descripcion": "Módulo de efectividad interpersonal de la DBT: objetivos y prioridades, qué se interpone, cuánto pedir, validarse y el camino del medio.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Habilidades DBT", "/laboratorio-de-habilidades-dbt/"], ["Efectividad interpersonal", "/laboratorio-dbt-efectividad-interpersonal/"]],
+  "antetitulo": "Laboratorio DBT · Módulo 4",
+  "h1": "DBT: <em>efectividad interpersonal</em>",
+  "bajada": "Conseguir lo que necesitás, cuidar el vínculo y no perder el respeto por vos, a la vez. Y salir del todo o nada en las relaciones.",
+  "respuesta": "El módulo de efectividad interpersonal del laboratorio de habilidades DBT propone ejercicios inspirados en la Terapia Dialéctico Conductual de Marsha Linehan: los tres objetivos de una conversación (lo que quiero, la relación y el respeto propio) y cómo priorizarlos, lo que se interpone en la efectividad, cuánta intensidad poner al pedir o al decir que no, la autovalidación y el camino del medio (pensamiento dialéctico). DEAR MAN está en el laboratorio de primeros auxilios y GIVE y FAST en el de buen trato. Es un recurso de práctica y no reemplaza un tratamiento DBT.",
+  "scripts": ["lab-base.js", "laboratorio-dbt-interpersonal.js", "escenas.js"],
+  "wa_tema": "el módulo de efectividad interpersonal de DBT",
+  "articulos": ["patrones-que-se-repiten-en-los-vinculos", "la-empatia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar">
+      <p><strong>Antes de empezar.</strong> Este laboratorio está <em>inspirado</em> en las habilidades de la Terapia Dialéctico Conductual (DBT) de Marsha Linehan. No es un tratamiento DBT ni lo reemplaza: la DBT completa incluye terapia individual, grupo de habilidades y acompañamiento entre sesiones con profesionales formados. Si en este momento pensás en hacerte daño, la prioridad es pedir ayuda: llamá al <a href="tel:911">911</a> o al Centro de Asistencia al Suicida (<a href="tel:135">135</a> desde CABA y GBA, <a href="tel:08003451435">0800-345-1435</a> desde todo el país). Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Muchas personas saben perfectamente qué decir cuando aconsejan a un amigo, y se traban cuando les toca a ellas. No es falta de inteligencia: en el momento aparecen el miedo al rechazo, la culpa, el enojo o la historia de vínculos donde pedir salía caro. Linehan reunió habilidades para que esas conversaciones salgan mejor.</p>
+        <p>En el manual de habilidades (<em>DBT Skills Training Manual</em>, 2.ª ed., 2015), este módulo incluye las pautas para pedir y decir que no, para cuidar la relación y para cuidar el respeto propio, y suma una parte llamada <strong>el camino del medio</strong>, que trabaja el pensamiento dialéctico y la validación. DEAR MAN está en el <a href="/laboratorio-de-habilidades-dbt/#pedir">laboratorio de primeros auxilios</a>, y GIVE y FAST, con la validación del otro, en el <a href="/laboratorio-de-buen-trato/">laboratorio de buen trato</a>. Acá está lo que conecta todo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Para empezar y para profundizar.</strong> Primero ordenar la conversación, después salir de los extremos.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con una situación real.</strong> Pensá en una conversación pendiente.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#objetivos">Tres objetivos</a>
+      <a href="#obstaculos">Lo que se interpone</a>
+      <a href="#intensidad">Cuánto pedir</a>
+      <a href="#autovalidacion">Validarse a uno mismo</a>
+      <a href="#dialectica">El camino del medio</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <div class="prosa revelar" style="margin-top:2rem"><h2>Para empezar: ordenar la conversación</h2></div>
+
+    <section class="lab-estacion revelar" id="objetivos" aria-labelledby="t-objetivos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-objetivos">Tres objetivos en cada conversación</h2>
+      <p class="lab-estacion__bajada">Linehan distingue tres tipos de efectividad: <strong>de objetivo</strong> (conseguir lo que querés o decir que no), <strong>de relación</strong> (que el vínculo quede bien o mejor) y <strong>de respeto propio</strong> (sentirte bien con cómo actuaste). En cada situación las tres importan, pero no siempre igual. Saber cuál pesa más ayuda a elegir qué habilidad usar: DEAR MAN para el objetivo, GIVE para la relación, FAST para el respeto propio.</p>
+      <div class="lab-tarjeta" data-lab-quiz="prioridad">
+        <p class="lab-tarjeta__titulo">¿Qué conviene priorizar?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tres-objetivos" data-lab-form-titulo="Tres objetivos en una conversación" novalidate style="margin-top:1rem">
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ei-situacion">La conversación pendiente</label><textarea class="lab-texto" id="ei-situacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ei-objetivo">Objetivo: ¿qué quiero conseguir concretamente?</label><input class="lab-campo" id="ei-objetivo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ei-relacion">Relación: ¿cómo quiero que esa persona se sienta conmigo después?</label><input class="lab-campo" id="ei-relacion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ei-respeto">Respeto propio: ¿cómo quiero sentirme conmigo después?</label><input class="lab-campo" id="ei-respeto" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ei-orden">En esta situación, lo más importante es…</label>
+          <select class="lab-campo" id="ei-orden">
+            <option value="">Elegí una prioridad</option>
+            <option>Conseguir lo que quiero (DEAR MAN)</option>
+            <option>Cuidar la relación (GIVE)</option>
+            <option>Cuidar mi respeto propio (FAST)</option>
+          </select>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="obstaculos" aria-labelledby="t-obstaculos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-obstaculos">Lo que se interpone</h2>
+      <p class="lab-estacion__bajada">Cuando una conversación sale mal, no siempre es porque no sabemos qué decir. Linehan describe varios factores que se interponen: no tener la habilidad todavía, creencias que traban («si pido, molesto»), emociones que desbordan, no saber bien qué queremos, o un entorno donde, aunque hagamos todo bien, el otro no puede o no quiere. Marcá los que reconocés.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-se-interpone" data-lab-form-titulo="Lo que se interpone en mis conversaciones" novalidate>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo">Cuando tengo que pedir algo o decir que no…</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" value="habilidad"><span>No sé bien cómo decirlo; nunca lo practiqué.</span></label>
+            <label class="opcion"><input type="checkbox" value="creencias"><span>Pienso que voy a molestar, que no tengo derecho o que me van a rechazar.</span></label>
+            <label class="opcion"><input type="checkbox" value="emociones"><span>La emoción me desborda: me pongo a llorar, me enojo o me bloqueo.</span></label>
+            <label class="opcion"><input type="checkbox" value="indecision"><span>No tengo claro qué quiero, y doy vueltas.</span></label>
+            <label class="opcion"><input type="checkbox" value="entorno"><span>La otra persona no puede o no quiere, haga lo que haga.</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ei-creencia">Si marcaste las creencias: ¿qué te decís? ¿Qué le dirías a un amigo que piensa eso?</label><textarea class="lab-texto" id="ei-creencia" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda">Cada obstáculo tiene su herramienta: practicar (habilidad), revisar la creencia con la <a href="/laboratorio-dbt-atencion-plena/#juicios">descripción sin juicio</a> (creencias), <a href="/laboratorio-dbt-tolerancia-al-malestar/">tolerancia al malestar</a> o <a href="/laboratorio-dbt-regulacion-emocional/">regulación emocional</a> (emociones), la <a href="/laboratorio-dbt-atencion-plena/#mente-sabia">mente sabia</a> (indecisión) y, si es el entorno, la aceptación.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="intensidad" aria-labelledby="t-intensidad">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-intensidad">¿Cuánto pedir? ¿Cuánto decir que no?</h2>
+      <p class="lab-estacion__bajada">No todo pedido merece la misma insistencia. Linehan propone hacerse algunas preguntas antes de decidir con qué firmeza pedir algo o negarse. Respondé pensando en una situación concreta y el laboratorio te sugiere una intensidad. Es una orientación, no una regla.</p>
+      <div class="lab-tarjeta" data-ei-intensidad>
+        <div class="opciones" role="radiogroup" aria-label="¿Qué vas a hacer?" style="margin-bottom:1rem">
+          <label class="opcion"><input type="radio" name="ei-modo" value="pedir" checked><span>Voy a pedir algo</span></label>
+          <label class="opcion"><input type="radio" name="ei-modo" value="negar"><span>Me piden algo y quiero decir que no</span></label>
+        </div>
+        <ol class="lab-guion" data-ei-preguntas></ol>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Sugerencia</p>
+          <p class="lab-resultado__texto" data-ei-salida aria-live="polite">Respondé las preguntas.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem"><h2>Para profundizar: el camino del medio</h2></div>
+
+    <section class="lab-estacion revelar" id="autovalidacion" aria-labelledby="t-autovalidacion">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-autovalidacion">Validarse a uno mismo</h2>
+      <p class="lab-estacion__bajada">La validación no es solo hacia los otros. Linehan observa que muchas personas con emociones intensas aprendieron a invalidarse: «no debería sentir esto», «estoy exagerando». Validarse es reconocer que lo que sentís tiene sentido, por tu historia o por la situación, aun cuando decidas no actuar según esa emoción. Es la base para poder pedir algo a otro.</p>
+      <div class="lab-tarjeta" data-lab-quiz="autovalidacion">
+        <p class="lab-tarjeta__titulo">¿Es validación o invalidación?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Tiene sentido que me ponga nervioso: es la primera vez que hablo en público.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Me valido</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Me invalido</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="dialectica" aria-labelledby="t-dialectica">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-dialectica">El camino del medio</h2>
+      <p class="lab-estacion__bajada">«Dialéctica» le da nombre a la DBT. Es la idea de que dos cosas que parecen opuestas pueden ser verdad a la vez, y de que la salida suele estar en una síntesis, no en elegir un extremo. «Te quiero y estoy enojado con vos.» «Estoy haciendo lo mejor que puedo y necesito mejorar.» En los vínculos, pensar en blanco o negro («siempre», «nunca», «o todo o nada») alimenta los conflictos. Un ejercicio simple: cambiar el «pero» por un «y».</p>
+      <div class="lab-tarjeta" data-lab-quiz="dialectica">
+        <p class="lab-tarjeta__titulo">¿Pensamiento dialéctico o extremo?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Mi mamá me ayudó mucho y también me lastimó.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Dialéctico</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Extremo</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+      <div class="lab-tarjeta" data-lab-azar="pero-y" style="margin-top:1rem">
+        <p class="lab-tarjeta__titulo">Del «pero» al «y»: reescribila en voz alta</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra frase</button></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dos-verdades" data-lab-form-titulo="Dos verdades a la vez" novalidate style="margin-top:1rem">
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ei-tema">Un conflicto en el que estoy en un extremo</label><textarea class="lab-texto" id="ei-tema" rows="2"></textarea></div>
+        <div class="lab-tabla2">
+          <div><label for="ei-mi-verdad">Lo que es verdad desde mi lado</label><textarea class="lab-texto" id="ei-mi-verdad" rows="4"></textarea></div>
+          <div><label for="ei-su-verdad">Lo que puede ser verdad desde el otro lado</label><textarea class="lab-texto" id="ei-su-verdad" rows="4"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ei-sintesis">Una frase que sostenga las dos</label><input class="lab-campo" id="ei-sintesis" type="text" placeholder="Por ejemplo: «Necesito más tiempo para mí y quiero que sigamos cerca.»" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="dbt-interpersonal">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Tres objetivos.</strong> Antes de una conversación, definí qué querés, cómo querés que quede el vínculo y cómo querés sentirte.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. El obstáculo.</strong> Identificá qué se interpone cuando te cuesta pedir.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Pedir con DEAR MAN.</strong> Hacé un pedido pequeño siguiendo los pasos.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Calibrar.</strong> Usá las preguntas de intensidad antes de pedir o negarte.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Validarte.</strong> Ante una emoción incómoda, decite: «tiene sentido que sienta esto».</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Del pero al y.</strong> Cambiá tres «pero» por «y» en conversaciones reales.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Dos verdades.</strong> En un desacuerdo, buscá qué parte de verdad tiene el otro.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estas habilidades sirven en vínculos donde los dos pueden escuchar. Si hay violencia, control o amenazas, la prioridad no es comunicarse mejor sino estar a salvo: en Argentina, la línea 144 atiende las 24 horas y es gratuita; en una emergencia, llamá al 911. El camino del medio tampoco significa encontrar «la parte de razón» de quien te maltrata. Si los vínculos se repiten siempre igual, se puede trabajar en terapia: podés <a href="/contacto/">escribirme</a>. Este módulo es parte del <a href="/laboratorio-de-habilidades-dbt/">laboratorio de habilidades DBT</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Linehan, M. M. (1993). <em>Cognitive-Behavioral Treatment of Borderline Personality Disorder</em>. Guilford Press.</li>
+        <li>Linehan, M. M. (2015). <em>DBT Skills Training Manual</em> (2.ª ed.). Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

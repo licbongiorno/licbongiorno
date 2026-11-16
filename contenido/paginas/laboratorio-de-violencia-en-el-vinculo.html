@@ -1,0 +1,183 @@
+<!--{
+  "ruta": "/laboratorio-de-violencia-en-el-vinculo/",
+  "titulo": "Laboratorio de violencia en el vínculo: reconocerla y salir",
+  "descripcion": "Recursos para distinguir un conflicto de la violencia, reconocer sus formas y su ciclo, entender por qué cuesta irse y pensar un plan de seguridad.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Violencia en el vínculo", "/laboratorio-de-violencia-en-el-vinculo/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>violencia en el vínculo</em>",
+  "bajada": "Para poner en palabras lo que a veces cuesta nombrar: cuándo un vínculo dejó de ser un conflicto y se volvió violencia, por qué cuesta tanto salir y cómo empezar a cuidarte.",
+  "respuesta": "El laboratorio de violencia en el vínculo ofrece recursos para distinguir un conflicto de una relación violenta, reconocer los tipos de violencia que describe la Ley 26.485 de Argentina, entender el ciclo de la violencia descripto por Lenore Walker (1979) y el acoso moral descripto por Marie-France Hirigoyen (1998), comprender por qué cuesta salir y pensar un plan de seguridad. Incluye una sección para quien acompaña. No guarda nada en el dispositivo y tiene un botón de salida rápida. En Argentina, la línea 144 atiende las 24 horas y es gratuita; en una emergencia, el 911.",
+  "scripts": ["lab-base.js", "laboratorio-violencia.js", "escenas.js"],
+  "wa_tema": "el laboratorio de violencia en el vínculo",
+  "articulos": ["patrones-que-se-repiten-en-los-vinculos", "los-celos"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Si estás en peligro">
+      <p><strong>Si estás en peligro ahora, llamá al <a href="tel:911">911</a>.</strong> En Argentina, la <a href="tel:144">línea 144</a> atiende situaciones de violencia de género las 24 horas, todos los días, de forma gratuita y confidencial. Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+      <p><strong>Tu seguridad en este dispositivo.</strong> Esta página no guarda nada de lo que marques. Si otra persona revisa tu teléfono o tu computadora, usá una ventana privada o de incógnito, o borrá el historial después. El botón <em>Salir rápido</em> (o la tecla Escape dos veces) te lleva a otra página al instante.</p>
+    </aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>La violencia en un vínculo rara vez empieza con un golpe. Suele empezar con cosas que se confunden con amor o con preocupación: celos, control, comentarios que te hacen sentir menos, pedidos de que dejes de ver a ciertas personas. Con el tiempo, el miedo se vuelve parte de la vida cotidiana, y lo que al principio parecía raro termina pareciendo normal. Por eso cuesta tanto reconocerla desde adentro.</p>
+        <p>Este laboratorio no pretende diagnosticar tu relación. Busca darte palabras y criterios para pensar lo que te pasa, a partir de lo que la psicología y la ley describen. La psicóloga Lenore Walker (<em>The Battered Woman</em>, 1979) describió el <strong>ciclo de la violencia</strong> a partir de entrevistas con mujeres maltratadas. La psiquiatra y psicoterapeuta Marie-France Hirigoyen (<em>El acoso moral</em>, 1998) mostró cómo la violencia también puede ser invisible: palabras, miradas e insinuaciones repetidas que desgastan a una persona. La Ley 26.485 de Argentina (2009) nombra los distintos tipos de violencia contra las mujeres. La violencia en el vínculo puede darse en cualquier tipo de pareja y también en otros vínculos cercanos; lo que la define es el daño y el control, no quién la ejerce.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Nada se guarda.</strong> Ni en el dispositivo ni en ningún servidor.</li>
+        <li><strong>A tu ritmo.</strong> Podés leer una sola estación y cerrar.</li>
+        <li><strong>No es tu culpa.</strong> Nadie merece ser maltratado, hayas hecho lo que hayas hecho.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#conflicto">¿Conflicto o violencia?</a>
+      <a href="#formas">Las formas de la violencia</a>
+      <a href="#ciclo">El ciclo</a>
+      <a href="#senales">Las señales que desgastan</a>
+      <a href="#por-que">¿Por qué cuesta irse?</a>
+      <a href="#seguridad">Un plan de seguridad</a>
+      <a href="#acompanar">Si acompañás a alguien</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="conflicto" aria-labelledby="t-conflicto">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-conflicto">¿Conflicto o violencia?</h2>
+      <p class="lab-estacion__bajada">Todas las parejas discuten. En un conflicto, los dos pueden decir lo que piensan, nadie tiene miedo del otro y las diferencias se pueden negociar. En la violencia hay una desigualdad: una persona controla, intimida o castiga, y la otra empieza a cuidar lo que dice y hace para evitar la reacción. La pregunta clave no es «¿discutimos?» sino «¿tengo miedo?».</p>
+      <div class="lab-tarjeta" data-lab-quiz="conflicto">
+        <p class="lab-tarjeta__titulo">¿Es un conflicto o una señal de violencia?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Discutimos fuerte por cómo repartir los gastos, y al día siguiente lo hablamos y llegamos a un acuerdo.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Conflicto</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Señal de violencia</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="formas" aria-labelledby="t-formas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-formas">Las formas de la violencia</h2>
+      <p class="lab-estacion__bajada">La Ley 26.485 distingue varios tipos de violencia. No hace falta que haya golpes para que haya violencia. Elegí una forma para ver cómo se presenta.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una forma de violencia">
+          <label class="opcion"><input type="radio" name="vv-forma" value="psicologica" checked><span>Psicológica</span></label>
+          <label class="opcion"><input type="radio" name="vv-forma" value="fisica"><span>Física</span></label>
+          <label class="opcion"><input type="radio" name="vv-forma" value="sexual"><span>Sexual</span></label>
+          <label class="opcion"><input type="radio" name="vv-forma" value="economica"><span>Económica</span></label>
+          <label class="opcion"><input type="radio" name="vv-forma" value="simbolica"><span>Simbólica</span></label>
+          <label class="opcion"><input type="radio" name="vv-forma" value="digital"><span>Control digital</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="psicologica"><p><strong>Qué es:</strong> la que causa daño emocional y baja la autoestima: humillar, insultar, amenazar, aislar, vigilar, culpar, hacerte dudar de tu propia percepción.</p><p><strong>Cómo suena:</strong> «Nadie más te va a querer», «estás loca», «si me dejás, me mato», «¿con quién hablabas?».</p></div>
+        <div class="lab-panel" data-lab-panel="fisica" hidden><p><strong>Qué es:</strong> la que se ejerce contra el cuerpo y produce dolor, daño o riesgo de producirlo.</p><p><strong>Cómo se presenta:</strong> empujones, zamarreos, apretar el brazo, tirar del pelo, bloquear la salida, romper objetos cerca tuyo, golpes. También cuenta cuando «no dejó marcas».</p></div>
+        <div class="lab-panel" data-lab-panel="sexual" hidden><p><strong>Qué es:</strong> cualquier acción que vulnere tu derecho a decidir sobre tu vida sexual o reproductiva, también dentro de la pareja.</p><p><strong>Cómo se presenta:</strong> insistir hasta que cedas, presionar con enojo o culpa, forzar prácticas, impedir el uso de anticonceptivos. Estar en pareja no obliga a nada.</p></div>
+        <div class="lab-panel" data-lab-panel="economica" hidden><p><strong>Qué es:</strong> la que afecta tus recursos económicos o patrimoniales.</p><p><strong>Cómo se presenta:</strong> controlar todo el dinero, pedirte cuentas de cada gasto, impedirte trabajar, quedarse con tu sueldo, no pasar la cuota alimentaria, romper tus cosas.</p></div>
+        <div class="lab-panel" data-lab-panel="simbolica" hidden><p><strong>Qué es:</strong> la que, a través de mensajes, estereotipos o imágenes, transmite y reproduce desigualdad y naturaliza la subordinación.</p><p><strong>Cómo se presenta:</strong> burlas que desvalorizan por el hecho de ser mujer, «eso no es cosa de mujeres», ridiculizarte frente a otros por tu cuerpo o tus decisiones.</p></div>
+        <div class="lab-panel" data-lab-panel="digital" hidden><p><strong>Qué es:</strong> no aparece como un tipo aparte en la ley, pero es hoy una de las formas más frecuentes de control psicológico.</p><p><strong>Cómo se presenta:</strong> exigir tus contraseñas, revisar tu teléfono, rastrear tu ubicación, controlar con quién hablás en redes, amenazar con difundir fotos íntimas.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="ciclo" aria-labelledby="t-ciclo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-ciclo">El ciclo de la violencia</h2>
+      <p class="lab-estacion__bajada">Walker describió tres fases que muchas veces se repiten, y que ayudan a entender por qué la relación no parece siempre mala. Con el tiempo, el ciclo suele acortarse y la violencia, aumentar. Una aclaración: no todas las relaciones violentas siguen este ciclo. En muchas, el control es constante y no hay fase de «reconciliación».</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una fase">
+          <label class="opcion"><input type="radio" name="vv-fase" value="tension" checked><span>1. Acumulación de tensión</span></label>
+          <label class="opcion"><input type="radio" name="vv-fase" value="estallido"><span>2. Estallido</span></label>
+          <label class="opcion"><input type="radio" name="vv-fase" value="calma"><span>3. Arrepentimiento</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="tension"><p><strong>Qué pasa:</strong> irritabilidad, críticas, silencios hostiles, enojo por cosas pequeñas. La otra persona empieza a «caminar sobre huevos» para no provocar una explosión.</p><p><strong>Cómo se vive:</strong> ansiedad, hipervigilancia, la sensación de que todo depende de no equivocarse.</p></div>
+        <div class="lab-panel" data-lab-panel="estallido" hidden><p><strong>Qué pasa:</strong> la tensión se descarga: gritos, insultos, amenazas, golpes, rotura de objetos, violencia sexual.</p><p><strong>Cómo se vive:</strong> miedo, shock, a veces una desconexión, como si no estuviera pasando de verdad.</p></div>
+        <div class="lab-panel" data-lab-panel="calma" hidden><p><strong>Qué pasa:</strong> pedidos de perdón, regalos, promesas de cambio, a veces culpa hacia la víctima («me provocaste»). La relación parece volver a ser como al principio.</p><p><strong>Cómo se vive:</strong> esperanza, alivio, ganas de creer. Esta fase es la que más retiene, y por eso no es una debilidad quedarse: es parte de cómo funciona el ciclo.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-senales">Las señales que desgastan</h2>
+      <p class="lab-estacion__bajada">Hirigoyen subraya que lo que destruye no es un episodio aislado sino la repetición: pequeñas descalificaciones que, día tras día, minan la confianza en uno mismo. Marcá las que reconocés. Nada de lo que marques se guarda.</p>
+      <div class="lab-tarjeta" data-vv-senales>
+        <div class="opciones">
+          <label class="opcion"><input type="checkbox"><span>Me critica o se burla de mí, también delante de otros.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Controla con quién hablo, adónde voy o cómo me visto.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Fui dejando de ver a amigos o familia para evitar problemas.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Revisa mi teléfono o me exige contraseñas.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Me hace sentir que exagero o que estoy loca o loco.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Cuido lo que digo para que no se enoje.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Decide sobre el dinero, o me pide cuentas de cada gasto.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Amenazó con dejarme, con hacerse daño, con quitarme a los hijos o con hacerme daño.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Me empujó, me sujetó, rompió cosas o me golpeó.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Me presionó para tener relaciones sexuales cuando no quería.</span></label>
+          <label class="opcion"><input type="checkbox"><span>Siento miedo de su reacción.</span></label>
+        </div>
+        <p class="lab-resultado__texto" data-vv-resultado aria-live="polite" style="margin-top:1rem"></p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="por-que" aria-labelledby="t-por-que">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-por-que">¿Por qué cuesta tanto irse?</h2>
+      <p class="lab-estacion__bajada">«¿Por qué no se va?» es una pregunta que suele cargar culpa sobre quien sufre. La psicología muestra que quedarse tiene razones, y ninguna es «le gusta». Entenderlas ayuda a dejar de culparse.</p>
+      <div class="lab-necesidades">
+        <div class="lab-tarjeta"><h3>El miedo</h3><p>El momento de la separación suele ser de los más peligrosos. El miedo a la reacción del otro es, muchas veces, realista.</p></div>
+        <div class="lab-tarjeta"><h3>La esperanza</h3><p>La fase de arrepentimiento muestra a la persona de la que te enamoraste. Es lógico querer creer que esa es la verdadera.</p></div>
+        <div class="lab-tarjeta"><h3>El aislamiento</h3><p>Cuando la violencia fue alejando a amigos y familia, no queda a quién recurrir, o da vergüenza volver a buscarlos.</p></div>
+        <div class="lab-tarjeta"><h3>La dependencia</h3><p>Económica, de vivienda, por los hijos. Irse implica resolver cosas muy concretas.</p></div>
+        <div class="lab-tarjeta"><h3>La autoestima dañada</h3><p>Después de mucho tiempo de descalificación, aparece la idea de «no puedo sola» o «nadie más me va a querer».</p></div>
+        <div class="lab-tarjeta"><h3>La identificación con el agresor</h3><p>Ferenczi (1933) describió cómo quien es dañado puede terminar viendo las cosas con los ojos de quien lo daña, y culparse por lo que pasa.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="seguridad" aria-labelledby="t-seguridad">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-seguridad">Un plan de seguridad</h2>
+      <p class="lab-estacion__bajada">Un plan de seguridad es pensar de antemano qué hacer si la situación se pone peligrosa, o cuando decidas irte. Lo mejor es armarlo con la línea 144 o con un profesional. Estas son preguntas para pensar, <strong>no para escribir en un dispositivo que otra persona pueda revisar</strong>.</p>
+      <div class="lab-tarjeta">
+        <ol class="lab-guion">
+          <li>¿A qué lugar seguro podría ir de urgencia? Una casa de alguien de confianza, una comisaría, una guardia.</li>
+          <li>¿A quién de confianza podría avisarle? ¿Podemos acordar una palabra clave que signifique «llamá al 911»?</li>
+          <li>¿Sé de memoria al menos un teléfono importante?</li>
+          <li>¿Dónde podría dejar copias de mis documentos, los de mis hijos, algo de dinero y una llave, fuera de casa?</li>
+          <li>Si hay una discusión, ¿en qué parte de la casa es más fácil salir y hay menos objetos peligrosos?</li>
+          <li>¿Qué hago con mi teléfono: tiene ubicación compartida, contraseñas que la otra persona conoce?</li>
+          <li>Si tengo hijos, ¿qué les enseño a hacer en una emergencia?</li>
+        </ol>
+        <p class="lab-paso__ayuda">En Argentina se pueden pedir medidas de protección, como la exclusión del hogar o la prohibición de acercamiento. La línea 144 puede orientarte sobre cómo hacerlo en tu localidad.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="acompanar" aria-labelledby="t-acompanar">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-acompanar">Si acompañás a alguien</h2>
+      <p class="lab-estacion__bajada">Si sospechás que alguien cercano está en una relación violenta, tu presencia puede ser decisiva. No hace falta que tengas la solución. Lo más importante es no convertirte en otra persona que la juzga o la presiona.</p>
+      <div class="lab-tarjeta" data-lab-quiz="acompanar">
+        <p class="lab-tarjeta__titulo">¿Ayuda o no ayuda?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Te creo. No es tu culpa. Estoy acá para lo que necesites.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Ayuda</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">No ayuda</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Dónde pedir ayuda">
+      <p><strong>Dónde pedir ayuda.</strong> En una emergencia, llamá al 911. En Argentina, la línea 144 brinda atención, contención y asesoramiento en situaciones de violencia de género las 24 horas, todos los días, de forma gratuita y confidencial, en todo el país. Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>. Salir de una relación violenta lleva tiempo y suele necesitar varias ayudas a la vez. Un espacio terapéutico puede acompañarte antes, durante y después: podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Walker, L. E. (1979). <em>The Battered Woman</em>. Harper &amp; Row.</li>
+        <li>Hirigoyen, M.-F. (1998). <em>El acoso moral: el maltrato psicológico en la vida cotidiana</em>.</li>
+        <li>Ferenczi, S. (1933). <em>Confusión de lenguas entre los adultos y el niño</em>.</li>
+        <li>Ley 26.485 de protección integral para prevenir, sancionar y erradicar la violencia contra las mujeres (Argentina, 2009).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

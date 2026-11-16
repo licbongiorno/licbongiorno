@@ -1,0 +1,182 @@
+<!--{
+  "ruta": "/laboratorio-dbt-atencion-plena/",
+  "titulo": "DBT: atención plena, ejercicios del módulo",
+  "descripcion": "Módulo de atención plena de la DBT de Marsha Linehan: mente sabia, habilidades «qué» y «cómo», observar sin juzgar y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Habilidades DBT", "/laboratorio-de-habilidades-dbt/"], ["Atención plena", "/laboratorio-dbt-atencion-plena/"]],
+  "antetitulo": "Laboratorio DBT · Módulo 1",
+  "h1": "DBT: <em>atención plena</em>",
+  "bajada": "La base de todas las demás habilidades: darte cuenta de lo que pasa adentro y afuera, sin quedar arrastrado por la emoción ni encerrado en la lógica fría.",
+  "respuesta": "El módulo de atención plena del laboratorio de habilidades DBT propone ejercicios inspirados en la Terapia Dialéctico Conductual de Marsha Linehan: los tres estados de la mente (emocional, razonable y sabia), las habilidades «qué» (observar, describir, participar) y las habilidades «cómo» (sin juzgar, una cosa a la vez, con efectividad), con prácticas guiadas, un ejercicio para transformar juicios en descripciones y un plan de 7 días. Es un recurso de práctica y no reemplaza un tratamiento DBT.",
+  "scripts": ["lab-base.js", "laboratorio-dbt-atencion.js", "escenas.js"],
+  "wa_tema": "el módulo de atención plena de DBT",
+  "articulos": ["inteligencia-emocional"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar">
+      <p><strong>Antes de empezar.</strong> Este laboratorio está <em>inspirado</em> en las habilidades de la Terapia Dialéctico Conductual (DBT) de Marsha Linehan. No es un tratamiento DBT ni lo reemplaza: la DBT completa incluye terapia individual, grupo de habilidades y acompañamiento entre sesiones con profesionales formados. Si en este momento pensás en hacerte daño, la prioridad es pedir ayuda: llamá al <a href="tel:911">911</a> o al Centro de Asistencia al Suicida (<a href="tel:135">135</a> desde CABA y GBA, <a href="tel:08003451435">0800-345-1435</a> desde todo el país). Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Marsha Linehan, psicóloga, creó la Terapia Dialéctico Conductual (<em>Cognitive-Behavioral Treatment of Borderline Personality Disorder</em>, 1993) para personas con emociones muy intensas. Organizó sus habilidades en cuatro módulos, y puso a la <strong>atención plena</strong> en el centro: sin darse cuenta de lo que pasa, ninguna otra habilidad se puede usar a tiempo. Linehan tomó la práctica contemplativa, en especial del zen, y la tradujo a conductas concretas que se pueden enseñar y entrenar.</p>
+        <p>Atención plena, en DBT, no es poner la mente en blanco ni relajarse. Es saber dónde está tu atención y poder llevarla adonde elegís. Las habilidades están organizadas en tres partes: los <strong>estados de la mente</strong>, las habilidades <strong>«qué»</strong> (qué hacer para estar atento) y las habilidades <strong>«cómo»</strong> (de qué manera hacerlo).</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Para empezar y para profundizar.</strong> Las primeras estaciones son la base; las siguientes piden más práctica.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Pocos minutos.</strong> Mejor un minuto todos los días que una hora una vez.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#estados">Tres estados de la mente</a>
+      <a href="#que">Observar, describir, participar</a>
+      <a href="#observar">Un minuto de observar</a>
+      <a href="#como">Sin juzgar, una cosa a la vez, con efectividad</a>
+      <a href="#juicios">De juicio a descripción</a>
+      <a href="#mente-sabia">Consultar a la mente sabia</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <div class="prosa revelar" style="margin-top:2rem"><h2>Para empezar</h2></div>
+
+    <section class="lab-estacion revelar" id="estados" aria-labelledby="t-estados">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-estados">Los tres estados de la mente</h2>
+      <p class="lab-estacion__bajada">Linehan describe tres estados. La <strong>mente emocional</strong>, cuando la emoción decide por vos. La <strong>mente razonable</strong>, cuando solo cuenta la lógica y lo que sentís queda afuera. Y la <strong>mente sabia</strong>, que integra las dos: sabe lo que sentís y también lo que conviene. Todos tenemos acceso a la mente sabia, aunque a veces cueste encontrarla. Elegí un estado para verlo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un estado de la mente">
+          <label class="opcion"><input type="radio" name="ap-estado" value="emocional" checked><span>Mente emocional</span></label>
+          <label class="opcion"><input type="radio" name="ap-estado" value="razonable"><span>Mente razonable</span></label>
+          <label class="opcion"><input type="radio" name="ap-estado" value="sabia"><span>Mente sabia</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="emocional"><p><strong>Cómo se nota:</strong> todo es urgente, los hechos se acomodan a lo que sentís, el impulso empuja a actuar ya.</p><p><strong>Ejemplo:</strong> «Me dejó en visto, no le importo, le escribo todo lo que pienso ahora mismo.»</p><p><strong>Lo que aporta:</strong> pasión, intuición, energía. El problema no es la emoción, es que maneje sola.</p></div>
+        <div class="lab-panel" data-lab-panel="razonable" hidden><p><strong>Cómo se nota:</strong> analizás, planificás, calculás; lo que sentís parece un estorbo.</p><p><strong>Ejemplo:</strong> «No tiene sentido estar triste, así que no lo estoy», mientras el cuerpo dice otra cosa.</p><p><strong>Lo que aporta:</strong> orden y planificación. El problema es que deja afuera información valiosa.</p></div>
+        <div class="lab-panel" data-lab-panel="sabia" hidden><p><strong>Cómo se nota:</strong> una calma que no es frialdad; sabés lo que sentís y lo que te importa, y elegís desde ahí.</p><p><strong>Ejemplo:</strong> «Me dolió que no conteste. Voy a esperar a mañana y preguntarle con calma qué pasó.»</p><p><strong>Lo que aporta:</strong> decisiones que después no te arrepentís de haber tomado.</p></div>
+      </div>
+      <div class="lab-tarjeta" data-lab-quiz="estados" style="margin-top:1rem">
+        <p class="lab-tarjeta__titulo">¿Desde qué estado habla?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Estoy furioso y voy a renunciar hoy mismo.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mente emocional</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Mente razonable</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="c" aria-pressed="false">Mente sabia</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="que" aria-labelledby="t-que">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-que">Las habilidades «qué»: observar, describir, participar</h2>
+      <p class="lab-estacion__bajada"><strong>Observar</strong> es notar lo que pasa sin ponerle palabras todavía: una sensación, un sonido, un pensamiento que aparece. <strong>Describir</strong> es ponerle palabras a lo observado, solo los hechos, sin interpretación. <strong>Participar</strong> es entregarse por completo a lo que estás haciendo, sin quedarte afuera mirándote. Lo más difícil suele ser describir sin agregar lo que creemos.</p>
+      <div class="lab-tarjeta" data-lab-quiz="describir">
+        <p class="lab-tarjeta__titulo">¿Es una descripción o una interpretación?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Siento el corazón acelerado y las manos frías.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Descripción</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Interpretación</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="observar" aria-labelledby="t-observar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-observar">Un minuto de observar</h2>
+      <p class="lab-estacion__bajada">Una práctica breve para entrenar la habilidad de observar. Si la atención se va, no pasa nada: darte cuenta de que se fue y traerla de vuelta <em>es</em> el ejercicio. Activá el reloj para dedicarle unos 20 segundos a cada paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="20">
+        <ol class="lab-pasos">
+          <li><strong>Apoyos.</strong> Notá los puntos donde tu cuerpo toca la silla, el piso o la cama.</li>
+          <li><strong>Respiración.</strong> Observá el aire que entra y sale, sin cambiarlo.</li>
+          <li><strong>Sonidos.</strong> Registrá los sonidos que hay, como si fueran música, sin nombrar de dónde vienen.</li>
+          <li><strong>Pensamientos.</strong> Mirá los pensamientos pasar como nubes en el cielo. No los sigas, no los echés.</li>
+          <li><strong>Volver.</strong> Elegí un solo foco, la respiración o un sonido, y quedate ahí unos segundos más.</li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem"><h2>Para profundizar</h2></div>
+
+    <section class="lab-estacion revelar" id="como" aria-labelledby="t-como">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-como">Las habilidades «cómo»</h2>
+      <p class="lab-estacion__bajada">Las habilidades «qué» dicen qué hacer; las «cómo», de qué manera. Son tres, y se pueden practicar en cualquier actividad del día. Elegí una.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una habilidad «cómo»">
+          <label class="opcion"><input type="radio" name="ap-como" value="sin-juzgar" checked><span>Sin juzgar</span></label>
+          <label class="opcion"><input type="radio" name="ap-como" value="una-cosa"><span>Una cosa a la vez</span></label>
+          <label class="opcion"><input type="radio" name="ap-como" value="efectividad"><span>Con efectividad</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="sin-juzgar"><p><strong>Qué es:</strong> ver los hechos sin etiquetarlos como buenos o malos. No es aprobar todo: es separar lo que pasó de la evaluación.</p><p><strong>Para practicar:</strong> contá cuántos juicios hacés en una hora («qué estúpido», «qué horrible»). No los corrijas: solo contalos.</p></div>
+        <div class="lab-panel" data-lab-panel="una-cosa" hidden><p><strong>Qué es:</strong> hacer una sola cosa por vez, con toda la atención. Cuando comés, comer; cuando hablás con alguien, hablar con esa persona.</p><p><strong>Para practicar:</strong> elegí una tarea diaria (lavar los platos, ducharte) y hacela sin celular ni pensamientos sobre otra cosa. Cada vez que te vayas, volvé.</p></div>
+        <div class="lab-panel" data-lab-panel="efectividad" hidden><p><strong>Qué es:</strong> hacer lo que funciona para tu objetivo, en lugar de lo que «debería» funcionar o lo que te daría la razón.</p><p><strong>Para practicar:</strong> ante un conflicto, preguntate: «¿quiero tener razón o quiero que esto se resuelva?». Elegí lo que sirve.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="juicios" aria-labelledby="t-juicios">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-juicios">De juicio a descripción</h2>
+      <p class="lab-estacion__bajada">En DBT, una forma de practicar el no juzgar es reemplazar el juicio por tres cosas: los hechos, las consecuencias y lo que preferirías. «Mi jefe es un idiota» se transforma en: «Cambió el plazo sin avisar (hecho); tuve que quedarme hasta tarde (consecuencia); prefiero que me avise con tiempo (preferencia)». Así queda algo con lo que se puede hacer algo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="de-juicio-a-descripcion" data-lab-form-titulo="De juicio a descripción" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-juicio">El juicio, tal cual</label><input class="lab-campo" id="ap-juicio" type="text" placeholder="Por ejemplo: «Soy un desastre»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-hechos">Los hechos</label><textarea class="lab-texto" id="ap-hechos" rows="2" placeholder="Lo que pasó, como lo registraría una cámara"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-consecuencias">Las consecuencias</label><textarea class="lab-texto" id="ap-consecuencias" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-preferencia">Lo que preferiría</label><textarea class="lab-texto" id="ap-preferencia" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mente-sabia" aria-labelledby="t-mente-sabia">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mente-sabia">Consultar a la mente sabia</h2>
+      <p class="lab-estacion__bajada">Linehan propone varias prácticas para encontrar la mente sabia. Una de ellas usa la respiración y una pregunta. Pensá antes en una decisión o una duda que tengas. No esperes una respuesta inmediata: a veces llega más tarde, o llega como una sensación más que como una frase.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Bajar.</strong> Respirá unas veces más lento de lo habitual. Llevá la atención al centro del cuerpo, debajo del esternón.</li>
+          <li><strong>Imaginar.</strong> Imaginá una piedra pequeña que cae en un lago tranquilo y baja despacio hasta el fondo. Dejá que tu atención baje con ella.</li>
+          <li><strong>Preguntar.</strong> Al inhalar, hacé la pregunta en silencio. Al exhalar, escuchá.</li>
+          <li><strong>Esperar.</strong> No fuerces la respuesta. Notá qué aparece: una palabra, una imagen, una sensación de calma o de tensión.</li>
+          <li><strong>Distinguir.</strong> Preguntate: ¿esto viene de la urgencia de la emoción, de la lógica fría, o de un lugar más tranquilo que integra las dos?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="dbt-atencion-plena">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. ¿Qué mente?</strong> Tres veces en el día, preguntate desde qué estado de la mente estás actuando.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Observar.</strong> Hacé el minuto de observar al despertar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Describir.</strong> Describí una emoción del día solo con hechos y sensaciones.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Contar juicios.</strong> Durante una hora, contá cuántos juicios hacés.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Una cosa a la vez.</strong> Hacé una comida completa sin pantallas.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Participar.</strong> Entregate por completo a algo que te guste: bailar, cocinar, jugar.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mente sabia.</strong> Consultá a la mente sabia sobre una decisión pendiente.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Para algunas personas, sobre todo con historias de trauma, quedarse quietas observando el cuerpo puede traer recuerdos o sensaciones intensas. Si te pasa, abrí los ojos, mirá alrededor, nombrá cinco cosas que ves y volvé a una práctica más activa, como participar en una tarea. Las habilidades DBT se aprenden mejor acompañado: podés <a href="/contacto/">escribirme</a>. Este módulo es parte del <a href="/laboratorio-de-habilidades-dbt/">laboratorio de habilidades DBT</a>; seguí con <a href="/laboratorio-dbt-tolerancia-al-malestar/">tolerancia al malestar</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Linehan, M. M. (1993). <em>Cognitive-Behavioral Treatment of Borderline Personality Disorder</em>. Guilford Press.</li>
+        <li>Linehan, M. M. (2015). <em>DBT Skills Training Manual</em> (2.ª ed.). Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -1,0 +1,196 @@
+<!--{
+  "ruta": "/laboratorio-dbt-tolerancia-al-malestar/",
+  "titulo": "DBT: tolerancia al malestar, ejercicios del módulo",
+  "descripcion": "Módulo de tolerancia al malestar de la DBT: distraerse, autocalmarse, mejorar el momento, aceptación radical, girar la mente y disposición.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Habilidades DBT", "/laboratorio-de-habilidades-dbt/"], ["Tolerancia al malestar", "/laboratorio-dbt-tolerancia-al-malestar/"]],
+  "antetitulo": "Laboratorio DBT · Módulo 2",
+  "h1": "DBT: <em>tolerancia al malestar</em>",
+  "bajada": "Habilidades para atravesar un momento muy doloroso sin empeorarlo, y para aceptar lo que no se puede cambiar sin pelear contra la realidad.",
+  "respuesta": "El módulo de tolerancia al malestar del laboratorio de habilidades DBT propone ejercicios inspirados en la Terapia Dialéctico Conductual de Marsha Linehan. Incluye las habilidades de supervivencia a crisis (distraerse con sabiduría, autocalmarse con los sentidos, mejorar el momento) y las de aceptación de la realidad (aceptación radical, girar la mente, disposición frente a obstinación), con un kit sensorial, prácticas guiadas y un plan de 7 días. STOP, TIP y pros y contras están en el laboratorio de primeros auxilios. Es un recurso de práctica y no reemplaza un tratamiento DBT.",
+  "scripts": ["lab-base.js", "laboratorio-dbt-tolerancia.js", "escenas.js"],
+  "wa_tema": "el módulo de tolerancia al malestar de DBT",
+  "articulos": ["el-enojo", "la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar">
+      <p><strong>Antes de empezar.</strong> Este laboratorio está <em>inspirado</em> en las habilidades de la Terapia Dialéctico Conductual (DBT) de Marsha Linehan. No es un tratamiento DBT ni lo reemplaza: la DBT completa incluye terapia individual, grupo de habilidades y acompañamiento entre sesiones con profesionales formados. Si en este momento pensás en hacerte daño, la prioridad es pedir ayuda: llamá al <a href="tel:911">911</a> o al Centro de Asistencia al Suicida (<a href="tel:135">135</a> desde CABA y GBA, <a href="tel:08003451435">0800-345-1435</a> desde todo el país). Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay dolores que no se pueden resolver en el momento: una pérdida, una noticia, una angustia que llega a las tres de la mañana. En esos momentos, muchas cosas que hacemos para sentirnos mejor (gritar, consumir, lastimarnos, mandar ese mensaje) alivian un rato y empeoran todo después. La tolerancia al malestar no busca que el dolor desaparezca. Busca que lo atravieses sin agregarle más daño.</p>
+        <p>Marsha Linehan (<em>DBT Skills Training Manual</em>, 2.ª ed., 2015) divide este módulo en dos grupos. Las habilidades de <strong>supervivencia a crisis</strong> sirven para aguantar el momento cuando no se puede resolver el problema ya. Las de <strong>aceptación de la realidad</strong> sirven para dejar de pelear con lo que ya pasó o no se puede cambiar, que es otra forma de sufrir. Linehan lo resume así: el dolor es parte de la vida; el sufrimiento aparece cuando al dolor se le suma la no aceptación.</p>
+        <p>Algunas habilidades de crisis (STOP, TIP y pros y contras) ya están en el <a href="/laboratorio-de-habilidades-dbt/">laboratorio de primeros auxilios</a>. Acá están las demás.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Practicá en calma.</strong> En plena crisis solo se usa lo que ya se entrenó.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Para empezar y para profundizar.</strong> Primero las de crisis, después las de aceptación.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#crisis">¿Es una crisis?</a>
+      <a href="#distraerse">Distraerse con sabiduría</a>
+      <a href="#sentidos">Autocalmarse con los sentidos</a>
+      <a href="#mejorar">Mejorar el momento</a>
+      <a href="#aceptacion">Aceptación radical</a>
+      <a href="#girar">Girar la mente y disposición</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <div class="prosa revelar" style="margin-top:2rem"><h2>Para empezar: sobrevivir a la crisis</h2></div>
+
+    <section class="lab-estacion revelar" id="crisis" aria-labelledby="t-crisis">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-crisis">¿Es momento de habilidades de crisis?</h2>
+      <p class="lab-estacion__bajada">Las habilidades de supervivencia a crisis son para situaciones de mucho malestar, que no se pueden resolver ahora mismo y en las que hay un impulso fuerte a hacer algo que empeoraría las cosas. Si el problema se puede resolver, lo mejor es resolverlo. Si no hay urgencia ni impulso, no hace falta «aguantar»: alcanza con cuidarse.</p>
+      <div class="lab-tarjeta" data-lab-quiz="crisis">
+        <p class="lab-tarjeta__titulo">¿Qué conviene?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">Son las tres de la mañana, discutiste con tu pareja, que se fue a dormir, y tenés ganas de romper algo.</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Habilidades de crisis</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Resolver el problema</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="distraerse" aria-labelledby="t-distraerse">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-distraerse">Distraerse con sabiduría</h2>
+      <p class="lab-estacion__bajada">Distraerse no es negar el problema: es tomar distancia mientras la emoción baja, para volver a él con la mente más clara. En inglés, Linehan lo resume con la sigla ACCEPTS. Estas son las siete formas, con un ejemplo de cada una.</p>
+      <div class="lab-necesidades">
+        <div class="lab-tarjeta"><h3>Actividades</h3><p>Hacer algo que ocupe la atención: ordenar un cajón, caminar, cocinar, un juego.</p></div>
+        <div class="lab-tarjeta"><h3>Contribuir</h3><p>Hacer algo por otro: ayudar a un vecino, mandar un mensaje amable, ofrecer una mano.</p></div>
+        <div class="lab-tarjeta"><h3>Comparaciones</h3><p>Recordar momentos difíciles que ya superaste, o cómo estabas en un momento peor.</p></div>
+        <div class="lab-tarjeta"><h3>Emociones distintas</h3><p>Buscar una emoción diferente: una película de humor, música alegre, un video que te emocione.</p></div>
+        <div class="lab-tarjeta"><h3>Apartar</h3><p>Dejar el problema a un lado por un rato: imaginá que lo guardás en una caja y la cerrás hasta mañana.</p></div>
+        <div class="lab-tarjeta"><h3>Pensamientos</h3><p>Ocupar la mente: contar hacia atrás de a siete, hacer un crucigrama, repetir la letra de una canción.</p></div>
+        <div class="lab-tarjeta"><h3>Sensaciones</h3><p>Una sensación intensa y segura: agua fría en la cara, un hielo en la mano, una ducha caliente.</p></div>
+      </div>
+      <div class="lab-tarjeta" data-lab-azar="distracciones" style="margin-top:1rem">
+        <p class="lab-tarjeta__titulo">Una idea para ahora</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="sentidos" aria-labelledby="t-sentidos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-sentidos">Autocalmarse con los sentidos</h2>
+      <p class="lab-estacion__bajada">Tratarse con suavidad a través de los sentidos, como se calma a alguien querido. En la segunda edición del manual, Linehan suma el movimiento a los cinco sentidos. Armá tu kit sensorial ahora, en calma, para tenerlo listo cuando haga falta.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="kit-sensorial" data-lab-form-titulo="Mi kit sensorial" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-vista">Vista</label><input class="lab-campo" id="tm-vista" type="text" placeholder="Por ejemplo: fotos de un viaje, mirar el cielo, una vela" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-oido">Oído</label><input class="lab-campo" id="tm-oido" type="text" placeholder="Por ejemplo: una canción que me calma, sonido de lluvia" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-olfato">Olfato</label><input class="lab-campo" id="tm-olfato" type="text" placeholder="Por ejemplo: café, lavanda, una crema" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-gusto">Gusto</label><input class="lab-campo" id="tm-gusto" type="text" placeholder="Por ejemplo: un té caliente, un caramelo de menta" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-tacto">Tacto</label><input class="lab-campo" id="tm-tacto" type="text" placeholder="Por ejemplo: una manta suave, acariciar a mi perro" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-movimiento">Movimiento</label><input class="lab-campo" id="tm-movimiento" type="text" placeholder="Por ejemplo: mecerme, estirarme, caminar despacio" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi kit</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mejorar" aria-labelledby="t-mejorar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mejorar">Mejorar el momento</h2>
+      <p class="lab-estacion__bajada">Cuando no se puede cambiar la situación, a veces se puede cambiar cómo se vive el momento. En inglés, la sigla es IMPROVE. Elegí una forma para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una forma de mejorar el momento">
+          <label class="opcion"><input type="radio" name="tm-mejorar" value="imagen" checked><span>Imaginar</span></label>
+          <label class="opcion"><input type="radio" name="tm-mejorar" value="sentido"><span>Sentido</span></label>
+          <label class="opcion"><input type="radio" name="tm-mejorar" value="conexion"><span>Conexión</span></label>
+          <label class="opcion"><input type="radio" name="tm-mejorar" value="relajacion"><span>Relajación</span></label>
+          <label class="opcion"><input type="radio" name="tm-mejorar" value="una-cosa"><span>Una cosa a la vez</span></label>
+          <label class="opcion"><input type="radio" name="tm-mejorar" value="pausa"><span>Unas vacaciones breves</span></label>
+          <label class="opcion"><input type="radio" name="tm-mejorar" value="aliento"><span>Darse aliento</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="imagen"><p>Imaginá un lugar seguro, con todos sus detalles: colores, sonidos, temperatura. O imaginá que el dolor sale de vos como agua por un desagüe.</p></div>
+        <div class="lab-panel" data-lab-panel="sentido" hidden><p>Buscá algún sentido en lo que estás atravesando: qué te enseña, qué valor estás defendiendo, por quién lo estás aguantando. No para justificar el dolor, sino para no quedarte solo con él.</p></div>
+        <div class="lab-panel" data-lab-panel="conexion" hidden><p>Linehan habla de oración, en un sentido amplio: abrirte a algo más grande que vos, sea Dios, la naturaleza, tu sabiduría interior o la humanidad que también sufre. Pedir fuerza para atravesar el momento.</p></div>
+        <div class="lab-panel" data-lab-panel="relajacion" hidden><p>Relajá el cuerpo a propósito: aflojá la mandíbula, bajá los hombros, soltá las manos, alargá la exhalación. El cuerpo relajado le avisa a la mente que puede bajar la guardia.</p></div>
+        <div class="lab-panel" data-lab-panel="una-cosa" hidden><p>Poné toda la atención en lo que estás haciendo ahora: lavar una taza, caminar, respirar. El sufrimiento suele crecer cuando la mente se va al pasado o al futuro.</p></div>
+        <div class="lab-panel" data-lab-panel="pausa" hidden><p>Tomate un recreo breve y planificado: veinte minutos en la cama con una manta, un paseo corto, apagar el teléfono una hora. Breve: unas vacaciones de horas, no de semanas.</p></div>
+        <div class="lab-panel" data-lab-panel="aliento" hidden><p>Hablate como un entrenador que confía en vos: «esto es muy difícil y lo estoy atravesando», «ya pasé por cosas así», «esto va a pasar».</p></div>
+      </div>
+    </section>
+
+    <div class="prosa revelar" style="margin-top:2.5rem"><h2>Para profundizar: aceptar la realidad</h2></div>
+
+    <section class="lab-estacion revelar" id="aceptacion" aria-labelledby="t-aceptacion">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-aceptacion">Aceptación radical</h2>
+      <p class="lab-estacion__bajada">Aceptar radicalmente es reconocer la realidad tal como es, con todo el cuerpo y la mente, sin pelear contra ella. No es aprobar, ni resignarse, ni dejar de intentar cambiar lo que se puede cambiar. Es dejar de gastar energía en «esto no debería haber pasado» para usarla en «esto pasó, ¿y ahora qué?». Suele ser la habilidad más difícil de todas, y se practica una y otra vez.</p>
+      <div class="lab-tarjeta" data-lab-quiz="aceptacion">
+        <p class="lab-tarjeta__titulo">¿Es aceptación radical?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Me despidieron. Me duele y me parece injusto. Es lo que pasó; mañana empiezo a buscar.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Sí, es aceptación</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">No, es rechazo o resignación</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="aceptacion-radical" data-lab-form-titulo="Aceptación radical" novalidate style="margin-top:1rem">
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-realidad">Algo que me cuesta aceptar</label><textarea class="lab-texto" id="tm-realidad" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-causas">¿Qué causas llevaron a que esto pase? (no para culpar, sino para entender que tiene historia)</label><textarea class="lab-texto" id="tm-causas" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-pelea">¿Cómo me peleo con esta realidad?</label><textarea class="lab-texto" id="tm-pelea" rows="2" placeholder="Por ejemplo: me repito que no es justo, me enojo cada vez que lo pienso"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-aceptar">Una frase de aceptación</label><input class="lab-campo" id="tm-aceptar" type="text" placeholder="Por ejemplo: «Es lo que es. Pasó, y no puedo cambiar el pasado.»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tm-ahora">Si lo acepto, ¿qué puedo hacer ahora?</label><textarea class="lab-texto" id="tm-ahora" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="girar" aria-labelledby="t-girar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-girar">Girar la mente y disposición</h2>
+      <p class="lab-estacion__bajada">La aceptación no se logra una vez y para siempre. <strong>Girar la mente</strong> es darte cuenta de que volviste a pelear con la realidad y elegir, otra vez, el camino de la aceptación, como quien vuelve a tomar una bifurcación. La <strong>disposición</strong> es hacer lo que la situación pide, con todo; su opuesto, la <strong>obstinación</strong>, es negarse a actuar, querer arreglarlo todo o rendirse. Linehan propone acompañarlo con el cuerpo: una media sonrisa suave y las manos abiertas.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Notar la pelea.</strong> «Otra vez estoy pensando que esto no debería ser así.» Solo notalo.</li>
+          <li><strong>Manos dispuestas.</strong> Si estás sentado, apoyá las manos sobre las piernas con las palmas hacia arriba y los dedos relajados.</li>
+          <li><strong>Media sonrisa.</strong> Aflojá la cara y dejá que las comisuras de los labios suban apenas. No es fingir alegría: es un rostro sereno.</li>
+          <li><strong>Elegir.</strong> Decite: «elijo aceptar esto, aunque no me guste». Si la pelea vuelve, está bien: girás otra vez.</li>
+          <li><strong>Disposición.</strong> Preguntate: «¿qué pide esta situación de mí ahora?». Y hacé ese paso.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, en calma, para que estén disponibles en la próxima crisis. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="dbt-tolerancia">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mi kit.</strong> Completá el kit sensorial y juntá en un lugar algo para cada sentido.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Distraerse.</strong> Ante un malestar chico, probá dos de las siete formas de distraerte.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Un sentido.</strong> Dedicá diez minutos a calmarte con un solo sentido.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Mejorar el momento.</strong> Elegí una forma de mejorar el momento y usala en algo que te pese.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Aceptar algo chico.</strong> Aceptá radicalmente algo menor: el tránsito, la lluvia, una fila larga.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Girar la mente.</strong> Cada vez que notes que peleás con algo, girá la mente.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Manos dispuestas.</strong> Practicá la media sonrisa y las manos dispuestas durante cinco minutos.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Aceptar la realidad no significa aceptar el maltrato. Si estás en una situación de violencia, aceptar radicalmente que está pasando es el primer paso para salir, no para quedarte. En Argentina, la línea 144 atiende las 24 horas y es gratuita; en una emergencia, llamá al 911. Si las crisis se repiten seguido, o si las habilidades no alcanzan, un tratamiento con profesionales formados en DBT puede ayudar mucho: podés <a href="/contacto/">escribirme</a>. Este módulo es parte del <a href="/laboratorio-de-habilidades-dbt/">laboratorio de habilidades DBT</a>; seguí con <a href="/laboratorio-dbt-regulacion-emocional/">regulación emocional</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Linehan, M. M. (1993). <em>Cognitive-Behavioral Treatment of Borderline Personality Disorder</em>. Guilford Press.</li>
+        <li>Linehan, M. M. (2015). <em>DBT Skills Training Manual</em> (2.ª ed.). Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
