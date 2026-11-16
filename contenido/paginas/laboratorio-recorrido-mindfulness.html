@@ -1,0 +1,119 @@
+<!--{
+  "ruta": "/laboratorio-recorrido-mindfulness/",
+  "titulo": "Recorrido de mindfulness: tres niveles y siete actitudes",
+  "descripcion": "Puerta de entrada al mindfulness: las siete actitudes de Jon Kabat-Zinn y un recorrido en tres niveles, de la presencia a la meditación formal.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Recorrido de mindfulness", "/laboratorio-recorrido-mindfulness/"]],
+  "antetitulo": "Mindfulness · Puerta de entrada",
+  "h1": "Recorrido de <em>mindfulness</em>",
+  "bajada": "La atención plena se aprende como un idioma: primero palabras sueltas, después frases, después conversaciones. Un recorrido en tres niveles y las actitudes que lo sostienen.",
+  "respuesta": "El recorrido de mindfulness ordena los laboratorios de atención plena del sitio en tres niveles: presencia (anclajes y respiración), mindfulness en la vida diaria (piloto automático, espacio de respiración, RAIN, surfear el impulso) y meditación formal (zazen, caminar, metta). Incluye las siete actitudes que Jon Kabat-Zinn propuso en Full Catastrophe Living (1990): no juzgar, paciencia, mente de principiante, confianza, no esforzarse, aceptación y soltar. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-recorrido-mindfulness.js", "escenas.js"],
+  "wa_tema": "el recorrido de mindfulness",
+  "articulos": ["inteligencia-emocional"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>En 1979, el biólogo molecular Jon Kabat-Zinn creó en la Universidad de Massachusetts el programa de <strong>reducción del estrés basada en mindfulness</strong> (MBSR), que llevó prácticas de meditación de origen budista a un formato laico y evaluable. Lo describió en <em>Full Catastrophe Living</em> (1990). A partir de ahí surgieron otros programas, como la terapia cognitiva basada en mindfulness para prevenir recaídas en la depresión, y la atención plena se integró a terapias como la DBT y la ACT.</p>
+        <p>Kabat-Zinn definía mindfulness como prestar atención de un modo particular: a propósito, en el momento presente y sin juzgar. El sitio tiene varios laboratorios sobre esto; acá están ordenados como un recorrido, con las actitudes que, según él, sostienen la práctica.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>En orden.</strong> Cada nivel se apoya en el anterior.</li>
+        <li><strong>Sin registro.</strong> Lo que marques queda en tu dispositivo.</li>
+        <li><strong>Pocos minutos.</strong> La constancia vale más que la duración.</li>
+      </ul>
+    </div>
+
+    <section class="revelar" aria-labelledby="t-niveles" style="margin:2rem 0">
+      <div class="prosa"><h2 id="t-niveles">Los tres niveles</h2></div>
+      <div class="lab-necesidades">
+        <a class="lab-tarjeta" href="/laboratorio-de-presencia/"><h3>Nivel 1, básico: presencia</h3><p>Respiración guiada, anclaje 5-4-3-2-1, escaneo corporal y temporizador. Para empezar a volver al cuerpo y al ahora.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-de-mindfulness/"><h3>Nivel 2, medio: mindfulness en la vida diaria</h3><p>Salir del piloto automático, el espacio de respiración de tres minutos, surfear el impulso, RAIN y escucha atenta.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-de-meditacion/"><h3>Nivel 3, avanzado: meditación formal</h3><p>Sesiones con temporizador, zazen, meditación caminando, anotar, metta y relajación progresiva.</p></a>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Para acompañar cualquier nivel: el <a href="/laboratorio-respirar-volver-al-presente/">visualizador de respiración</a>, el <a href="/laboratorio-de-respiraciones/">laboratorio de respiraciones</a> y el de <a href="/laboratorio-de-las-tradiciones-orientales/">tradiciones orientales</a>, que trabaja las raíces de estas prácticas. Y si querés ver cómo se usa la atención plena en terapia, el <a href="/laboratorio-dbt-atencion-plena/">módulo de atención plena de la DBT</a>.</p>
+    </section>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#actitudes">Las siete actitudes</a>
+      <a href="#mi-actitud">La actitud que me cuesta</a>
+      <a href="#siete-dias">Una semana de actitudes</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="actitudes" aria-labelledby="t-actitudes">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-actitudes">Las siete actitudes</h2>
+      <p class="lab-estacion__bajada">Kabat-Zinn insistía en que la técnica no alcanza: lo que transforma es la actitud con que se practica. Propuso siete actitudes de base. Elegí una para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una actitud">
+          <label class="opcion"><input type="radio" name="rm-act" value="juzgar" checked><span>No juzgar</span></label>
+          <label class="opcion"><input type="radio" name="rm-act" value="paciencia"><span>Paciencia</span></label>
+          <label class="opcion"><input type="radio" name="rm-act" value="principiante"><span>Mente de principiante</span></label>
+          <label class="opcion"><input type="radio" name="rm-act" value="confianza"><span>Confianza</span></label>
+          <label class="opcion"><input type="radio" name="rm-act" value="esforzarse"><span>No esforzarse</span></label>
+          <label class="opcion"><input type="radio" name="rm-act" value="aceptacion"><span>Aceptación</span></label>
+          <label class="opcion"><input type="radio" name="rm-act" value="soltar"><span>Soltar</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="juzgar"><p><strong>Qué es:</strong> ser testigo imparcial de la propia experiencia. Notar que la mente juzga todo el tiempo («esto me gusta», «esto está mal») y no seguir cada juicio.</p><p><strong>En la práctica:</strong> cuando notes un juicio, no lo juzgues también. Solo notá: «juicio».</p></div>
+        <div class="lab-panel" data-lab-panel="paciencia" hidden><p><strong>Qué es:</strong> aceptar que las cosas se despliegan a su tiempo. Como la mariposa que no sale antes rompiendo el capullo.</p><p><strong>En la práctica:</strong> cuando la mente se impaciente («esto no sirve»), volvé a la respiración sin apuro.</p></div>
+        <div class="lab-panel" data-lab-panel="principiante" hidden><p><strong>Qué es:</strong> mirar cada momento como si fuera la primera vez, sin dar por sabido lo que ya conocés.</p><p><strong>En la práctica:</strong> mirá a alguien cercano como si lo vieras por primera vez. ¿Qué notás?</p></div>
+        <div class="lab-panel" data-lab-panel="confianza" hidden><p><strong>Qué es:</strong> confiar en tu propia experiencia y en tus sensaciones, en lugar de buscar todo el tiempo una autoridad externa.</p><p><strong>En la práctica:</strong> si algo de la práctica no te sienta bien, escuchalo y ajustalo.</p></div>
+        <div class="lab-panel" data-lab-panel="esforzarse" hidden><p><strong>Qué es:</strong> meditar no tiene otra meta que estar presente. Paradójicamente, cuanto más te esforzás por relajarte, menos lo lográs.</p><p><strong>En la práctica:</strong> en lugar de «tengo que calmarme», probá «estoy notando cómo estoy».</p></div>
+        <div class="lab-panel" data-lab-panel="aceptacion" hidden><p><strong>Qué es:</strong> ver las cosas como son en este momento. No es resignación: es el punto de partida de cualquier cambio.</p><p><strong>En la práctica:</strong> «ahora hay ansiedad». No «no debería tener ansiedad».</p></div>
+        <div class="lab-panel" data-lab-panel="soltar" hidden><p><strong>Qué es:</strong> no aferrarse a lo agradable ni rechazar lo desagradable. Dejar que las experiencias vengan y se vayan.</p><p><strong>En la práctica:</strong> notá un pensamiento al que te aferrás, y probá dejarlo pasar como una nube.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mi-actitud" aria-labelledby="t-mi-actitud">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-mi-actitud">La actitud que me cuesta</h2>
+      <p class="lab-estacion__bajada">Puntuá del 0 al 10 cuánto te sale hoy cada actitud. El laboratorio te sugiere por cuál empezar y qué nivel del recorrido te puede ayudar.</p>
+      <div class="lab-tarjeta" data-rm-actitudes>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rm-1">No juzgar</label><input class="lab-campo" id="rm-1" type="range" min="0" max="10" value="5" data-rm="no juzgar"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rm-2">Paciencia</label><input class="lab-campo" id="rm-2" type="range" min="0" max="10" value="5" data-rm="la paciencia"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rm-3">Mente de principiante</label><input class="lab-campo" id="rm-3" type="range" min="0" max="10" value="5" data-rm="la mente de principiante"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rm-4">Confianza</label><input class="lab-campo" id="rm-4" type="range" min="0" max="10" value="5" data-rm="la confianza"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rm-5">No esforzarse</label><input class="lab-campo" id="rm-5" type="range" min="0" max="10" value="5" data-rm="no esforzarse"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rm-6">Aceptación</label><input class="lab-campo" id="rm-6" type="range" min="0" max="10" value="5" data-rm="la aceptación"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="rm-7">Soltar</label><input class="lab-campo" id="rm-7" type="range" min="0" max="10" value="5" data-rm="soltar"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Por dónde empezar</p>
+          <p class="lab-resultado__texto" data-rm-salida aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-siete">Una semana de actitudes</h2>
+      <p class="lab-estacion__bajada">Una actitud por día, para llevar a cualquier práctica o a la vida diaria. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="recorrido-mindfulness">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. No juzgar.</strong> Contá cuántas veces juzgás algo durante una hora.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Paciencia.</strong> En una fila o en el tránsito, respirá en lugar de apurarte por dentro.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Principiante.</strong> Comé algo conocido como si fuera la primera vez.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Confianza.</strong> Elegí la práctica que mejor te sienta, sin compararte.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. No esforzarse.</strong> Meditá cinco minutos sin buscar ningún resultado.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Aceptación.</strong> Nombrá lo que sentís, tal como es, tres veces en el día.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Soltar.</strong> Dejá pasar un pensamiento recurrente cada vez que vuelva.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El mindfulness ayuda a muchas personas, pero no a todas de la misma forma. En personas con historias de trauma, con disociación o en medio de una crisis intensa, quedarse quieto observando puede aumentar el malestar. Si te pasa, elegí prácticas con los ojos abiertos, en movimiento o más breves, y consultalo: podés <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Kabat-Zinn, J. (1990). <em>Full Catastrophe Living</em> (en castellano, <em>Vivir con plenitud las crisis</em>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
