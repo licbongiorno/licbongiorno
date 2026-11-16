@@ -1,0 +1,139 @@
+<!--{
+  "ruta": "/laboratorio-act-comprometido/",
+  "titulo": "ACT nivel 3: comprometerse, con valores y acción",
+  "descripcion": "Nivel avanzado de la terapia de aceptación y compromiso: valores en cada área de la vida, los pasajeros del colectivo y la acción comprometida.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["ACT", "/laboratorio-act/"], ["Nivel 3: comprometido", "/laboratorio-act-comprometido/"]],
+  "antetitulo": "Laboratorio ACT · Nivel 3, avanzado",
+  "h1": "ACT: <em>comprometerse</em>",
+  "bajada": "Saber qué te importa y moverte en esa dirección, aunque el miedo venga a bordo. Ejercicios de valores y acción comprometida, el tercer pilar de la flexibilidad.",
+  "respuesta": "El nivel avanzado del laboratorio ACT trabaja el pilar «comprometido» de la terapia de aceptación y compromiso: los valores como direcciones elegidas en distintas áreas de la vida, la metáfora de los pasajeros del colectivo y la acción comprometida, con el paso de FEAR (fusión, metas excesivas, evitación, lejanía de los valores) a DARE (defusión, aceptación, metas realistas, abrazar los valores) que propone Russ Harris. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-act-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel avanzado del laboratorio ACT",
+  "articulos": ["la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Los dos primeros pilares de la ACT, abrirse y estar consciente, no son un fin en sí mismos: están al servicio del tercero. Abrirse a lo que duele y observar los pensamientos sin quedar atrapados tiene sentido porque libera energía para hacer lo que importa. Ese es el pilar <strong>comprometido</strong>: los <strong>valores</strong> (qué querés que represente tu vida) y la <strong>acción comprometida</strong> (pasos concretos en esa dirección, aun con el malestar a bordo).</p>
+        <p>Este es el tercer nivel del <a href="/laboratorio-act/">laboratorio ACT</a>. La diferencia entre valores y metas está en el <a href="/laboratorio-de-flexibilidad-ante-expectativas/#valores">laboratorio de flexibilidad</a>, y la brújula de valores, en el <a href="/laboratorio-de-valores/">laboratorio de valores</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Pasos chicos.</strong> Un valor se vive en acciones concretas, no en grandes planes.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con el malestar a bordo.</strong> No esperes a sentirte listo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#areas">Valores en cada área</a>
+      <a href="#colectivo">Los pasajeros del colectivo</a>
+      <a href="#fear">De FEAR a DARE</a>
+      <a href="#accion">Mi acción comprometida</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="areas" aria-labelledby="t-areas">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-areas">Valores en cada área</h2>
+      <p class="lab-estacion__bajada">En ACT es habitual revisar los valores área por área, y comparar cuánto importa cada una con cuánto la estás viviendo. La distancia entre las dos barras muestra dónde la vida se está alejando de lo que querés. Movés las barras: primero cuánto te importa (0 a 10), después cuánto la estás viviendo de acuerdo con lo que te importa.</p>
+      <div class="lab-tarjeta" data-act-areas>
+        <div class="lab-tabla2"><div><label for="av-fam-i">Familia: importancia</label><input class="lab-campo" id="av-fam-i" type="range" min="0" max="10" value="8" data-area="familia" data-tipo="i"></div><div><label for="av-fam-v">Familia: cuánto la vivo</label><input class="lab-campo" id="av-fam-v" type="range" min="0" max="10" value="5" data-area="familia" data-tipo="v"></div></div>
+        <div class="lab-tabla2"><div><label for="av-par-i">Pareja: importancia</label><input class="lab-campo" id="av-par-i" type="range" min="0" max="10" value="7" data-area="pareja" data-tipo="i"></div><div><label for="av-par-v">Pareja: cuánto la vivo</label><input class="lab-campo" id="av-par-v" type="range" min="0" max="10" value="5" data-area="pareja" data-tipo="v"></div></div>
+        <div class="lab-tabla2"><div><label for="av-ami-i">Amistades: importancia</label><input class="lab-campo" id="av-ami-i" type="range" min="0" max="10" value="7" data-area="amistades" data-tipo="i"></div><div><label for="av-ami-v">Amistades: cuánto las vivo</label><input class="lab-campo" id="av-ami-v" type="range" min="0" max="10" value="5" data-area="amistades" data-tipo="v"></div></div>
+        <div class="lab-tabla2"><div><label for="av-tra-i">Trabajo: importancia</label><input class="lab-campo" id="av-tra-i" type="range" min="0" max="10" value="7" data-area="trabajo" data-tipo="i"></div><div><label for="av-tra-v">Trabajo: cuánto lo vivo</label><input class="lab-campo" id="av-tra-v" type="range" min="0" max="10" value="5" data-area="trabajo" data-tipo="v"></div></div>
+        <div class="lab-tabla2"><div><label for="av-sal-i">Salud y cuerpo: importancia</label><input class="lab-campo" id="av-sal-i" type="range" min="0" max="10" value="8" data-area="salud" data-tipo="i"></div><div><label for="av-sal-v">Salud y cuerpo: cuánto lo vivo</label><input class="lab-campo" id="av-sal-v" type="range" min="0" max="10" value="5" data-area="salud" data-tipo="v"></div></div>
+        <div class="lab-tabla2"><div><label for="av-cre-i">Crecimiento personal: importancia</label><input class="lab-campo" id="av-cre-i" type="range" min="0" max="10" value="7" data-area="crecimiento personal" data-tipo="i"></div><div><label for="av-cre-v">Crecimiento personal: cuánto lo vivo</label><input class="lab-campo" id="av-cre-v" type="range" min="0" max="10" value="5" data-area="crecimiento personal" data-tipo="v"></div></div>
+        <div class="lab-tabla2"><div><label for="av-com-i">Comunidad: importancia</label><input class="lab-campo" id="av-com-i" type="range" min="0" max="10" value="5" data-area="comunidad" data-tipo="i"></div><div><label for="av-com-v">Comunidad: cuánto la vivo</label><input class="lab-campo" id="av-com-v" type="range" min="0" max="10" value="4" data-area="comunidad" data-tipo="v"></div></div>
+        <div class="lab-tabla2"><div><label for="av-ocio-i">Ocio y disfrute: importancia</label><input class="lab-campo" id="av-ocio-i" type="range" min="0" max="10" value="6" data-area="ocio y disfrute" data-tipo="i"></div><div><label for="av-ocio-v">Ocio y disfrute: cuánto lo vivo</label><input class="lab-campo" id="av-ocio-v" type="range" min="0" max="10" value="4" data-area="ocio y disfrute" data-tipo="v"></div></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Dónde está la mayor distancia</p>
+          <p class="lab-resultado__texto" data-act-areas-salida aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="colectivo" aria-labelledby="t-colectivo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-colectivo">Los pasajeros del colectivo</h2>
+      <p class="lab-estacion__bajada">Una metáfora clásica de Hayes y sus colegas. Sos el chofer de un colectivo que va en la dirección de tus valores. En el camino suben pasajeros: el miedo, la duda, la vergüenza, los recuerdos dolorosos. Algunos son amenazantes y te gritan que cambies de ruta. Si les hacés caso, terminás manejando adonde ellos quieren. Si parás a discutir con ellos, no avanzás. La alternativa: dejarlos viajar, aunque griten, y seguir manejando hacia donde elegiste.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pasajeros-del-colectivo" data-lab-form-titulo="Los pasajeros del colectivo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-destino">¿Hacia dónde quiero manejar? (un valor)</label><input class="lab-campo" id="ap-destino" type="text" autocomplete="off"></div>
+        <div data-lab-lista-editable data-lab-lista-titulo="Mis pasajeros">
+          <label class="lab-paso__titulo" for="ap-pasajero" style="display:block">Un pasajero y lo que grita</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="ap-pasajero" type="text" placeholder="Por ejemplo: el miedo, que grita «te van a rechazar»" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="ap-giro">¿Adónde terminé manejando cuando les hice caso?</label><textarea class="lab-texto" id="ap-giro" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="fear" aria-labelledby="t-fear">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-fear">De FEAR a DARE</h2>
+      <p class="lab-estacion__bajada">Russ Harris (<em>ACT Made Simple</em>, 2009) resumió en inglés los cuatro obstáculos más comunes de la acción comprometida con la sigla FEAR («miedo»), y su antídoto con DARE («atreverse»). Elegí un obstáculo para ver su antídoto.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un obstáculo">
+          <label class="opcion"><input type="radio" name="ap-fear" value="fusion" checked><span>Fusión</span></label>
+          <label class="opcion"><input type="radio" name="ap-fear" value="metas"><span>Metas excesivas</span></label>
+          <label class="opcion"><input type="radio" name="ap-fear" value="evitacion"><span>Evitar el malestar</span></label>
+          <label class="opcion"><input type="radio" name="ap-fear" value="lejania"><span>Lejanía de los valores</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="fusion"><p><strong>El obstáculo:</strong> quedar enganchado a pensamientos como «no voy a poder», «no es el momento», «es inútil».</p><p><strong>El antídoto, defusión:</strong> reconocer el pensamiento como pensamiento («ahí está la historia de no voy a poder») y actuar igual.</p></div>
+        <div class="lab-panel" data-lab-panel="metas" hidden><p><strong>El obstáculo:</strong> proponerse demasiado, o algo que no depende de uno, y abandonar al primer tropiezo.</p><p><strong>El antídoto, metas realistas:</strong> achicar el paso hasta que sea posible incluso en un día malo.</p></div>
+        <div class="lab-panel" data-lab-panel="evitacion" hidden><p><strong>El obstáculo:</strong> no hacerlo para no sentir ansiedad, vergüenza o incomodidad.</p><p><strong>El antídoto, aceptación:</strong> hacer lugar al malestar como precio de hacer lo que importa. Ver el <a href="/laboratorio-act-abierto/">nivel 1</a>.</p></div>
+        <div class="lab-panel" data-lab-panel="lejania" hidden><p><strong>El obstáculo:</strong> haber perdido de vista para qué lo hacés, y que el paso parezca una obligación vacía.</p><p><strong>El antídoto, abrazar los valores:</strong> antes de actuar, recordar qué valor estás honrando con ese paso.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="accion" aria-labelledby="t-accion">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-accion">Mi acción comprometida</h2>
+      <p class="lab-estacion__bajada">Elegí el área con mayor distancia entre lo que te importa y lo que vivís, y diseñá un paso. Uno solo, concreto, con fecha.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="accion-comprometida" data-lab-form-titulo="Mi acción comprometida" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-valor">El valor que quiero honrar</label><input class="lab-campo" id="ap-valor" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-paso">El paso concreto</label><input class="lab-campo" id="ap-paso" type="text" placeholder="Por ejemplo: llamar a mi hermana el sábado a la mañana" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-cuando">¿Cuándo y dónde?</label><input class="lab-campo" id="ap-cuando" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-pasajeros">¿Qué pasajeros van a subir? ¿Qué me digo cuando griten?</label><textarea class="lab-texto" id="ap-pasajeros" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ap-si-no">Si no sale, ¿cuál es la versión más chica que igual puedo hacer?</label><input class="lab-campo" id="ap-si-no" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="act-comprometido">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Las áreas.</strong> Puntuá tus áreas y encontrá la mayor distancia.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. El destino.</strong> Escribí qué valor querés honrar en esa área.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Los pasajeros.</strong> Anotá qué pasajeros suben cuando querés ir hacia ahí.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un paso.</strong> Diseñá tu acción comprometida.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Hacerlo.</strong> Dá el paso, con los pasajeros a bordo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Revisar.</strong> ¿Qué obstáculo de FEAR apareció? Aplicá su antídoto.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Otro paso.</strong> Dá un segundo paso, igual de chico o un poco más.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Comprometerse con los valores no significa exigirse más. Si ya vivís agotado de tanto «tener que», quizás el valor que hoy pide lugar es el cuidado de vos mismo. Y si sentís que nada te importa, eso puede ser una señal de depresión más que de falta de valores: conviene consultarlo. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-act/">laboratorio ACT</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Hayes, S. C., Strosahl, K. D. y Wilson, K. G. (1999). <em>Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change</em>. Guilford Press.</li>
+        <li>Harris, R. (2009). <em>ACT Made Simple</em>. New Harbinger.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
