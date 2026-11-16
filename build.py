@@ -2008,6 +2008,17 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         '<description>Divulgación sobre psicología analítica, emociones, vínculos y autoconocimiento.</description>'
         f'<language>es-ar</language><lastBuildDate>{fecha_rss(HOY)}</lastBuildDate>{items}</channel></rss>\n', encoding="utf-8")
 
+    # Tipo de cada página para los filtros del buscador (/buscar/).
+    def tipo_de_ruta(ruta, rutas_lab):
+        if ruta in rutas_lab:
+            return "Laboratorio"
+        if ruta.startswith("/recursos/psicoquiz") or ruta.startswith("/escala-") or "/test" in ruta or ruta.startswith("/psicoquiz"):
+            return "Test"
+        if ruta.startswith("/ejercicio-") or ruta.startswith("/recursos/ejercicio"):
+            return "Ejercicio"
+        if ruta.startswith("/recursos/voces-que-nos-habitan"):
+            return "Voces"
+        return "Página"
     # buscar.json: índice para el buscador del sitio (/buscar/)
     rutas_lab = {l["ruta"] for l in LABORATORIOS}
     arts = {a["ruta"]: a for a in ARTICULOS if a["publicado"]}
@@ -2027,7 +2038,7 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
             indice.append({"t": a["titulo"], "k": "Artículo", "u": ruta, "d": a.get("resumen", ""),
                            "c": a.get("palabras_clave", "") + ", " + a["categoria"], "x": texto[:1000]})
         else:
-            indice.append({"t": html.unescape(nombres.get(ruta, ruta)), "k": "Laboratorio" if ruta in rutas_lab else "Página", "u": ruta,
+            indice.append({"t": html.unescape(nombres.get(ruta, ruta)), "k": tipo_de_ruta(ruta, rutas_lab), "u": ruta,
                            "d": html.unescape(desc.group(1)) if desc else "", "c": "", "x": texto[:900 if ruta in rutas_lab else 500]})
     for t in GLOSARIO:
         indice.append({"t": t["termino"], "k": "Glosario", "u": f"/glosario-junguiano/#{slug(t['termino'])}",
