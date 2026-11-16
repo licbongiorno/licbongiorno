@@ -1,0 +1,101 @@
+{
+  "enfoques": [
+    {"nombre": "Cognitivo-conductual", "descripcion": "Beck, Ellis, Bandura y la investigación sobre aprendizaje, hábitos y ansiedad.", "rutas": [
+      "/laboratorio-de-ansiedad/", "/laboratorio-de-ansiedad-social/", "/laboratorio-de-animo/", "/laboratorio-de-descanso/", "/laboratorio-de-pesadillas/", "/laboratorio-de-habitos/", "/laboratorio-de-aprender-a-aprender/", "/laboratorio-de-aprendizaje-y-habito/", "/laboratorio-de-dialogo-socratico/", "/laboratorio-de-higiene-sensorial/", "/laboratorio-de-asertividad/", "/laboratorio-de-conductas-compulsivas/", "/laboratorio-de-escritura-expresiva/"]},
+    {"nombre": "Terapias contextuales", "descripcion": "DBT, ACT, mindfulness, compasión y esquemas: la llamada tercera ola.", "rutas": [
+      "/laboratorio-de-habilidades-dbt/", "/laboratorio-dbt-atencion-plena/", "/laboratorio-dbt-tolerancia-al-malestar/", "/laboratorio-dbt-regulacion-emocional/", "/laboratorio-dbt-efectividad-interpersonal/", "/laboratorio-act/", "/laboratorio-act-abierto/", "/laboratorio-act-consciente/", "/laboratorio-act-comprometido/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-valores/", "/laboratorio-recorrido-mindfulness/", "/laboratorio-de-presencia/", "/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/", "/laboratorio-de-autocompasion/", "/laboratorio-compasion-tres-sistemas/", "/laboratorio-compasion-yo-compasivo/", "/laboratorio-compasion-tres-flujos/", "/laboratorio-de-esquemas/", "/laboratorio-de-buen-trato/", "/laboratorio-de-dolor-cronico/"]},
+    {"nombre": "Psicoanálisis y apego", "descripcion": "Freud, Klein, Winnicott, Adler, Horney, Bowlby, Fonagy y la escuela rioplatense.", "rutas": [
+      "/laboratorio-recorrido-psicoanalitico/", "/laboratorio-psicoanalisis-freud/", "/laboratorio-de-psicoanalisis-en-practica/", "/laboratorio-psicoanalisis-klein-winnicott/", "/laboratorio-de-mentalizacion/", "/laboratorio-del-desarrollo-y-el-apego/", "/laboratorio-de-relaciones-y-poder-personal/", "/laboratorio-de-flexibilidad-yoica/", "/laboratorio-de-adolescentes/", "/laboratorio-de-grupos/"]},
+    {"nombre": "Junguiana y transpersonal", "descripcion": "Jung, Hillman, Assagioli y la psicología transpersonal.", "rutas": [
+      "/laboratorio-recorrido-junguiano/", "/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-complejos-y-tipos/", "/laboratorio-de-suenos/", "/laboratorio-de-imaginacion-activa/", "/laboratorio-de-la-psique-y-la-imagen/", "/laboratorio-mito-personal/", "/laboratorio-de-psicologia-transpersonal/", "/laboratorio-de-psicosintesis/"]},
+    {"nombre": "Humanista y existencial", "descripcion": "Rogers, Maslow, Frankl, Yalom, Fromm y Greenberg.", "rutas": [
+      "/laboratorio-humanista/", "/laboratorio-humanista-rogers/", "/laboratorio-humanista-necesidades/", "/laboratorio-humanista-existencial/", "/laboratorio-de-sentido/", "/laboratorio-logoterapia-voluntad-de-sentido/", "/laboratorio-logoterapia-tecnicas/", "/laboratorio-logoterapia-optimismo-tragico/", "/laboratorio-de-la-angustia/", "/laboratorio-del-jardinero-interior/", "/laboratorio-del-amor-como-arte/", "/laboratorio-focalizado-en-las-emociones/"]},
+    {"nombre": "Gestalt, psicodrama y AT", "descripcion": "Perls, Moreno y Berne: el aquí y ahora, la acción y los estados del yo.", "rutas": [
+      "/laboratorio-gestalt/", "/laboratorio-gestalt-darse-cuenta/", "/laboratorio-gestalt-contacto/", "/laboratorio-gestalt-experimentos/", "/laboratorio-de-psicodrama/", "/laboratorio-de-transacciones-y-estados-del-yo/"]},
+    {"nombre": "Sistémica y narrativa", "descripcion": "Bowen, Minuchin, Palo Alto, White y Epston.", "rutas": [
+      "/laboratorio-sistemico/", "/laboratorio-sistemica-bowen/", "/laboratorio-sistemica-comunicacion/", "/laboratorio-narrativo/", "/laboratorio-narrativa-reautoria/", "/laboratorio-narrativa-testigos/", "/laboratorio-mi-mapa-de-vinculos/"]},
+    {"nombre": "Psicología positiva", "descripcion": "Seligman, Fredrickson, Csikszentmihalyi y las fortalezas.", "rutas": [
+      "/laboratorio-de-psicologia-positiva/", "/laboratorio-psicologia-positiva-emociones/", "/laboratorio-psicologia-positiva-fortalezas/", "/laboratorio-psicologia-positiva-vinculos-y-sentido/"]},
+    {"nombre": "Cuerpo y tradiciones orientales", "descripcion": "Reich, Lowen, Gendlin, la regulación del sistema nervioso y la respiración.", "rutas": [
+      "/laboratorio-de-psicologia-corporal/", "/laboratorio-de-regulacion/", "/laboratorio-de-respiraciones/", "/laboratorio-respirar-volver-al-presente/", "/laboratorio-de-las-tradiciones-orientales/"]},
+    {"nombre": "Filosofía en práctica", "descripcion": "Estoicos, Descartes, Kant, Sartre, Merleau-Ponty y Buber.", "rutas": [
+      "/laboratorio-estoico/", "/laboratorio-de-seneca/", "/laboratorio-de-marco-aurelio/", "/laboratorio-de-la-vida-que-no-es-breve/", "/laboratorio-de-virtudes/", "/laboratorio-de-duda-y-percepcion/", "/laboratorio-del-cuerpo-vivido/", "/laboratorio-de-la-libertad/", "/laboratorio-de-la-razon-y-la-autonomia/", "/laboratorio-del-encuentro/"]},
+    {"nombre": "Integrativos", "descripcion": "Laboratorios temáticos que combinan aportes de varias escuelas.", "rutas": [
+      "/laboratorio-de-emociones/", "/laboratorio-rueda-de-las-emociones/", "/laboratorio-de-la-sabiduria-de-las-emociones/", "/laboratorio-de-comunicacion-no-violenta/", "/laboratorio-de-vinculos/", "/laboratorio-de-pareja/", "/laboratorio-de-los-lenguajes-del-amor/", "/laboratorio-de-crianza/", "/laboratorio-de-violencia-en-el-vinculo/", "/laboratorio-del-perdon/", "/laboratorio-de-no-violencia-interior/", "/laboratorio-de-flexibilidad-ante-expectativas/", "/laboratorio-de-duelo/", "/laboratorio-de-psicotanatologia/", "/laboratorio-de-trauma/", "/laboratorio-de-estres/", "/laboratorio-de-crisis-vitales/", "/laboratorio-de-procrastinacion/", "/laboratorio-de-creatividad/"]}
+  ],
+  "recorridos": [
+    {"clave": "ansiedad", "titulo": "Ansiedad y preocupación", "intro": "Primero bajar la activación del cuerpo, después entender cómo funciona la preocupación, tomar distancia de los pensamientos y, al final, mirar la angustia de fondo.", "pasos": [
+      ["/laboratorio-respirar-volver-al-presente/", "Empezar por el cuerpo: una respiración lenta baja la activación y deja pensar con más claridad."],
+      ["/laboratorio-de-ansiedad/", "Entender el ciclo de la preocupación y distinguir los problemas que se pueden resolver de los que no, desde la terapia cognitivo-conductual."],
+      ["/laboratorio-de-pensamientos-repetitivos/", "Tomar distancia de los pensamientos que se repiten, con las técnicas de defusión de la ACT."],
+      ["/laboratorio-compasion-tres-sistemas/", "Fortalecer el sistema de calma, que según Paul Gilbert es el que regula la amenaza."],
+      ["/laboratorio-de-la-angustia/", "Mirar la angustia desde la perspectiva existencial: no solo como síntoma, también como señal."]]},
+    {"clave": "tristeza", "titulo": "Tristeza y desánimo", "intro": "Empezar por la acción, que es lo que primero ayuda cuando el ánimo está bajo, y avanzar hacia el trato con uno mismo y el sentido.", "pasos": [
+      ["/laboratorio-de-animo/", "Romper el círculo de la inactividad con la activación conductual, que tiene buen respaldo para la depresión."],
+      ["/laboratorio-de-autocompasion/", "Cambiar el modo de hablarse cuando uno está mal, con el trabajo de Kristin Neff."],
+      ["/laboratorio-de-valores/", "Reconectar con lo que importa y definir acciones pequeñas en esa dirección."],
+      ["/laboratorio-psicologia-positiva-emociones/", "Cultivar emociones positivas sin negar la tristeza, según la teoría de Barbara Fredrickson."],
+      ["/laboratorio-logoterapia-voluntad-de-sentido/", "Buscar sentido incluso en lo difícil, con la logoterapia de Viktor Frankl."]]},
+    {"clave": "autocritica", "titulo": "Autocrítica y autoestima", "intro": "Ver cómo te tratás, entender de dónde viene esa voz y aprender a responderle desde otro lugar.", "pasos": [
+      ["/laboratorio-de-no-violencia-interior/", "Distinguir la autocrítica que ayuda de la autoagresión, y rastrear de dónde viene la voz crítica."],
+      ["/laboratorio-de-esquemas/", "Reconocer el esquema de fondo, como la defectuosidad o las metas inalcanzables, según Jeffrey Young."],
+      ["/laboratorio-compasion-yo-compasivo/", "Distinguir la autocrítica que ataca de la autocorrección compasiva, con Paul Gilbert."],
+      ["/laboratorio-focalizado-en-las-emociones/", "Dialogar con el crítico interno en dos sillas, con Leslie Greenberg."],
+      ["/laboratorio-humanista-rogers/", "Acercarte a la aceptación incondicional y a la congruencia de Carl Rogers."]]},
+    {"clave": "emociones", "titulo": "Emociones que desbordan", "intro": "Nombrar lo que sentís, volver a la ventana de tolerancia y entrenar habilidades para atravesar los picos sin empeorar las cosas.", "pasos": [
+      ["/laboratorio-rueda-de-las-emociones/", "Ponerle nombre a lo que sentís, con la rueda de Robert Plutchik."],
+      ["/laboratorio-de-regulacion/", "Reconocer en qué zona estás y usar anclajes para volver a la ventana de tolerancia."],
+      ["/laboratorio-dbt-tolerancia-al-malestar/", "Habilidades de la DBT para atravesar una crisis sin empeorarla."],
+      ["/laboratorio-dbt-regulacion-emocional/", "Habilidades de la DBT para bajar la vulnerabilidad emocional en el día a día."],
+      ["/laboratorio-focalizado-en-las-emociones/", "Distinguir la emoción de superficie de la de fondo y la necesidad que expresa."]]},
+    {"clave": "vinculos", "titulo": "Vínculos y pareja", "intro": "Mirar tus vínculos, entender tu forma de apegarte, mentalizar al otro y aprender a hablar sin herir.", "pasos": [
+      ["/laboratorio-mi-mapa-de-vinculos/", "Dibujar tu mapa de vínculos con sus cercanías y distancias."],
+      ["/laboratorio-del-desarrollo-y-el-apego/", "Entender tu estilo de apego, desde Bowlby y Ainsworth."],
+      ["/laboratorio-de-mentalizacion/", "Pensar la mente del otro con curiosidad, en lugar de dar por cierto lo que piensa."],
+      ["/laboratorio-de-comunicacion-no-violenta/", "Decir lo que te pasa sin atacar, con la comunicación no violenta."],
+      ["/laboratorio-de-pareja/", "Pausar una discusión, reparar después del conflicto y trabajar los celos."]]},
+    {"clave": "familia", "titulo": "Mi familia", "intro": "Ver la familia como un sistema, reconocer los patrones que se repiten entre generaciones y encontrar tu lugar sin cortar ni fundirte.", "pasos": [
+      ["/laboratorio-sistemico/", "Armar tu genograma y ver las secuencias que se repiten."],
+      ["/laboratorio-sistemica-bowen/", "Diferenciarte sin cortar, y salir de los triángulos, con Murray Bowen."],
+      ["/laboratorio-sistemica-comunicacion/", "Descubrir si lo que hacés para resolver un problema lo mantiene, con la escuela de Palo Alto."],
+      ["/laboratorio-narrativo/", "Separarte de la historia familiar que te achica y escribir otra."],
+      ["/laboratorio-del-perdon/", "Pensar el perdón y el cierre sin forzarlos."]]},
+    {"clave": "limites", "titulo": "Poner límites", "intro": "Reconocer dónde se cruzan tus límites, aprender a decir que no y cuidar el vínculo y el respeto propio al mismo tiempo.", "pasos": [
+      ["/laboratorio-de-vinculos/", "Distinguir señales de un vínculo sano de señales de alarma y practicar un primer límite."],
+      ["/laboratorio-de-asertividad/", "Diferenciar la respuesta pasiva, la agresiva y la asertiva, y armar la tuya."],
+      ["/laboratorio-dbt-efectividad-interpersonal/", "Pedir y decir que no con las pautas DEAR MAN, GIVE y FAST de la DBT."],
+      ["/laboratorio-de-buen-trato/", "Sostener el respeto propio sin dejar de cuidar la relación."],
+      ["/laboratorio-de-relaciones-y-poder-personal/", "Mirar el poder en los vínculos con Adler, Horney y Sullivan."]]},
+    {"clave": "duelo", "titulo": "Duelo y pérdidas", "intro": "Acompañar la pérdida a tu ritmo: entender el duelo, darle palabras y, con el tiempo, encontrar una forma de seguir vinculado a quien ya no está.", "pasos": [
+      ["/laboratorio-de-duelo/", "Entender el duelo como un ir y venir entre el dolor y la reconstrucción, con el modelo de Stroebe y Schut."],
+      ["/laboratorio-de-psicotanatologia/", "Revisar los mitos sobre el duelo y pensar el duelo anticipado, desde la psicotanatología."],
+      ["/laboratorio-de-escritura-expresiva/", "Escribir sobre la pérdida con el método de James Pennebaker."],
+      ["/laboratorio-narrativa-reautoria/", "Las conversaciones de re-membranza: mantener presente a quien ya no está."],
+      ["/laboratorio-logoterapia-optimismo-tragico/", "El optimismo trágico de Frankl: decir sí a la vida a pesar del dolor."]]},
+    {"clave": "estres", "titulo": "Estrés y agotamiento", "intro": "Medir la carga, separar lo que depende de vos de lo que no, recuperar el descanso y entrenar la atención.", "pasos": [
+      ["/laboratorio-de-estres/", "Ver tus señales de estrés y armar un mapa de cargas."],
+      ["/laboratorio-estoico/", "Separar lo que depende de vos de lo que no, con los estoicos."],
+      ["/laboratorio-de-descanso/", "Revisar el sueño con un diario y la higiene del sueño."],
+      ["/laboratorio-de-presencia/", "Prácticas breves de atención plena para el día a día."],
+      ["/laboratorio-compasion-tres-sistemas/", "Equilibrar el sistema de logro con el de calma."]]},
+    {"clave": "trauma", "titulo": "Después de una experiencia traumática", "intro": "Un recorrido psicoeducativo y de estabilización, que no reemplaza el tratamiento del trauma con un profesional.", "pasos": [
+      ["/laboratorio-de-trauma/", "Entender qué es el trauma y cómo deja huella en el cuerpo y la memoria."],
+      ["/laboratorio-de-regulacion/", "La ventana de tolerancia y los anclajes para volver al presente."],
+      ["/laboratorio-de-psicologia-corporal/", "Sentir el apoyo del cuerpo y el suelo, con Reich, Lowen y Gendlin."],
+      ["/laboratorio-compasion-tres-sistemas/", "El lugar seguro y la respiración de ritmo calmante."],
+      ["/laboratorio-narrativo/", "Separar la identidad del problema, con la terapia narrativa."]]},
+    {"clave": "conocerme", "titulo": "Conocerme más", "intro": "Un recorrido por distintas escuelas para mirarte desde varios ángulos: lo inconsciente, la sombra, las necesidades y el sentido.", "pasos": [
+      ["/laboratorio-psicoanalisis-freud/", "El inconsciente cotidiano: lapsus, sueños y repeticiones, con Freud."],
+      ["/laboratorio-de-sombra-y-arquetipos/", "Lo que no reconocés de vos, con la sombra de Jung."],
+      ["/laboratorio-de-transacciones-y-estados-del-yo/", "Tus estados del yo, padre, adulto y niño, con Eric Berne."],
+      ["/laboratorio-humanista-necesidades/", "Tus necesidades y tu crecimiento, con Maslow y Rogers."],
+      ["/laboratorio-mito-personal/", "Tu mito personal: la historia que da forma a tu vida."]]},
+    {"clave": "cambio", "titulo": "Un cambio de etapa", "intro": "Atravesar una transición: nombrar lo que termina, aclarar hacia dónde querés ir y dar pasos pequeños que se sostengan.", "pasos": [
+      ["/laboratorio-de-crisis-vitales/", "Reconocer en qué fase de la transición estás, con William Bridges."],
+      ["/laboratorio-de-flexibilidad-ante-expectativas/", "Distinguir preferencias de exigencias, con Albert Ellis, para soltar la vida que esperabas."],
+      ["/laboratorio-act-comprometido/", "Definir acciones comprometidas con tus valores, con la ACT."],
+      ["/laboratorio-de-habitos/", "Convertir el cambio en hábitos pequeños, según la investigación."],
+      ["/laboratorio-de-sentido/", "Las tres vías del sentido de Viktor Frankl."]]}
+  ],
+  "guia_a_recorrido": {"ansiedad": "ansiedad", "panico": "ansiedad", "tristeza": "tristeza", "vinculos": "vinculos", "familia": "familia", "duelo": "duelo", "estres": "estres", "autoestima": "autocritica", "crisis": "cambio", "conocerme": "conocerme", "emociones": "emociones"}
+}

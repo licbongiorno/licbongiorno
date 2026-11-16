@@ -129,7 +129,7 @@
       entradas.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add("visible"); io.unobserve(en.target); }
       });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0 });
     revelables.forEach(function (el) { io.observe(el); });
   } else {
     revelables.forEach(function (el) { el.classList.add("visible"); });
@@ -587,24 +587,30 @@
     enlacesI.forEach(function (a) { var h = document.getElementById(a.getAttribute("href").slice(1)); if (h) ioI.observe(h); });
   }
 
-  /* ---------- Filtros del catálogo de laboratorios ---------- */
+  /* ---------- Filtros del catálogo de laboratorios: tema, enfoque y nivel ---------- */
   var filtros = document.querySelector("[data-lab-filtros]");
-  if (filtros) {
-    var catalogo = document.querySelector("[data-lab-catalogo]"), estFiltro = document.querySelector("[data-lab-filtros-estado]");
-    filtros.hidden = false;
-    filtros.addEventListener("click", function (e) {
-      var b = e.target.closest("[data-filtro]");
-      if (!b || !catalogo) return;
-      var t = b.getAttribute("data-filtro"), n = 0;
-      filtros.querySelectorAll("[data-filtro]").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
-      // FLIP: las tarjetas que siguen visibles se deslizan a su nuevo lugar; las nuevas aparecen. Sin saltos de diseño.
-      var items = Array.prototype.slice.call(catalogo.querySelectorAll(".lab-catalogo__item"));
-      var animar = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      var antes = new Map();
+  var catalogo = document.querySelector("[data-lab-catalogo]");
+  if (filtros && catalogo) {
+    var estFiltro = filtros.querySelector("[data-lab-filtros-estado]"), limpiar = filtros.querySelector("[data-lab-filtros-limpiar]");
+    var GRUPOS = ["tema", "enfoque", "nivel"], estado = { tema: "", enfoque: "", nivel: "" };
+    var items = Array.prototype.slice.call(catalogo.querySelectorAll(".lab-catalogo__item"));
+    var botones = Array.prototype.slice.call(filtros.querySelectorAll("[data-grupo]"));
+    var pasa = function (it, salvo) {
+      return GRUPOS.every(function (g) { return g === salvo || !estado[g] || it.getAttribute("data-" + g) === estado[g]; });
+    };
+    var aplicar = function (animarCambio) {
+      var animar = animarCambio && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var antes = new Map(), n = 0;
       if (animar) items.forEach(function (it) { if (!it.hidden) antes.set(it, it.getBoundingClientRect()); });
-      items.forEach(function (it) {
-        var ver = !t || it.getAttribute("data-tema") === t;
-        it.hidden = !ver; if (ver) n++;
+      items.forEach(function (it) { var ver = pasa(it); it.hidden = !ver; if (ver) n++; });
+      // Conteos por opción, teniendo en cuenta los otros dos filtros.
+      botones.forEach(function (b) {
+        var g = b.getAttribute("data-grupo"), v = b.getAttribute("data-filtro");
+        b.setAttribute("aria-pressed", estado[g] === v ? "true" : "false");
+        if (!v) return;
+        var c = items.filter(function (it) { return pasa(it, g) && it.getAttribute("data-" + g) === v; }).length;
+        var sp = b.querySelector("[data-n]"); if (sp) sp.textContent = c;
+        b.disabled = !c && estado[g] !== v;
       });
       if (animar) items.forEach(function (it) {
         if (it.hidden) return;
@@ -613,8 +619,98 @@
         var r1 = it.getBoundingClientRect(), dx = r0.left - r1.left, dy = r0.top - r1.top;
         if (dx || dy) it.animate([{ transform: "translate(" + dx + "px," + dy + "px)" }, { transform: "none" }], { duration: 420, easing: "cubic-bezier(.16,1,.3,1)" });
       });
-      estFiltro.textContent = (t ? t + ": " : "") + n + (n === 1 ? " laboratorio" : " laboratorios");
+      var activos = GRUPOS.filter(function (g) { return estado[g]; }).map(function (g) { return estado[g]; });
+      estFiltro.textContent = (activos.length ? activos.join(" · ") + ": " : "") + n + (n === 1 ? " laboratorio" : " laboratorios");
+      limpiar.hidden = !activos.length;
+      // La dirección refleja los filtros, para poder compartirla.
+      var params = new URLSearchParams(location.search);
+      GRUPOS.forEach(function (g) {
+        var b = estado[g] && filtros.querySelector('[data-grupo="' + g + '"][data-filtro="' + CSS.escape(estado[g]) + '"]');
+        if (b) params.set(g, b.getAttribute("data-slug")); else params.delete(g);
+      });
+      var q = params.toString();
+      history.replaceState(null, "", location.pathname + (q ? "?" + q : "") + location.hash);
+    };
+    // Filtros que llegan en la dirección (por ejemplo, desde el mapa de laboratorios).
+    var inicial = new URLSearchParams(location.search);
+    GRUPOS.forEach(function (g) {
+      var slug = inicial.get(g);
+      if (!slug) return;
+      var b = filtros.querySelector('[data-grupo="' + g + '"][data-slug="' + CSS.escape(slug) + '"]');
+      if (b) estado[g] = b.getAttribute("data-filtro");
     });
+    filtros.hidden = false;
+    filtros.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-grupo]");
+      if (!b || b.disabled) return;
+      estado[b.getAttribute("data-grupo")] = b.getAttribute("data-filtro");
+      aplicar(true);
+    });
+    limpiar.addEventListener("click", function () { estado = { tema: "", enfoque: "", nivel: "" }; aplicar(true); });
+    aplicar(false);
+    // En celular cada grupo es una fila deslizable: mostrar la opción elegida.
+    filtros.querySelectorAll('.lab-filtros__fila [aria-pressed="true"]').forEach(function (b) {
+      var fila = b.parentNode;
+      if (fila.scrollWidth > fila.clientWidth) fila.scrollLeft = Math.max(0, b.offsetLeft - fila.offsetLeft - 16);
+    });
+  }
+
+  /* ---------- Recorridos de laboratorios ---------- */
+  var CLAVE_HECHOS = "recorridos-hechos";
+  var leerHechos = function () { try { return JSON.parse(localStorage.getItem(CLAVE_HECHOS)) || {}; } catch (e) { return {}; } };
+  var guardarHechos = function (h) { try { localStorage.setItem(CLAVE_HECHOS, JSON.stringify(h)); } catch (e) {} };
+  var recorridos = document.querySelectorAll("[data-recorrido]");
+  if (recorridos.length) {
+    var pintarRecorridos = function () {
+      var h = leerHechos();
+      recorridos.forEach(function (sec) {
+        var cajas = sec.querySelectorAll(".recorrido__hecho input"), n = 0;
+        cajas.forEach(function (c) { c.checked = !!h[c.value]; c.closest(".recorrido__paso").classList.toggle("recorrido__paso--hecho", c.checked); if (c.checked) n++; });
+        sec.querySelector("[data-recorrido-progreso]").textContent = n ? n + " de " + cajas.length + " pasos hechos" : "";
+      });
+    };
+    document.addEventListener("change", function (e) {
+      var c = e.target.closest(".recorrido__hecho input");
+      if (!c) return;
+      var h = leerHechos();
+      if (c.checked) h[c.value] = 1; else delete h[c.value];
+      guardarHechos(h);
+      pintarRecorridos();
+    });
+    pintarRecorridos();
+  }
+  // En un laboratorio abierto desde un recorrido: barra con el paso, el anterior y el siguiente.
+  var claveRec = new URLSearchParams(location.search).get("recorrido");
+  if (claveRec && /^[a-z]+$/.test(claveRec) && window.fetch) {
+    fetch("/recorridos.json").then(function (r) { return r.json(); }).then(function (todos) {
+      var rec = todos[claveRec]; if (!rec) return;
+      var ruta = location.pathname, i = -1;
+      rec.p.forEach(function (x, k) { if (x[0] === ruta) i = k; });
+      if (i < 0) return;
+      var esc = function (t) { return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); };
+      var enlace = function (x, txt) { return '<a href="' + esc(x[0]) + "?recorrido=" + claveRec + '">' + txt + "</a>"; };
+      var barra = document.createElement("aside");
+      barra.className = "recorrido-barra";
+      barra.setAttribute("aria-label", "Recorrido");
+      var hecho = !!leerHechos()[ruta];
+      barra.innerHTML = '<p><a href="/recorridos-de-laboratorios/#' + claveRec + '">Recorrido: ' + esc(rec.t) + "</a> · paso " + (i + 1) + " de " + rec.p.length + "</p>" +
+        '<div class="recorrido-barra__acciones">' +
+        (i > 0 ? enlace(rec.p[i - 1], "← Anterior") : "") +
+        '<button type="button" class="boton boton--secundario boton--chico" aria-pressed="' + hecho + '" data-recorrido-marcar>' + (hecho ? "Hecho ✓" : "Marcar como hecho") + "</button>" +
+        (i < rec.p.length - 1 ? enlace(rec.p[i + 1], "Siguiente: " + esc(rec.p[i + 1][1]) + " →") : '<a href="/recorridos-de-laboratorios/#' + claveRec + '">Terminaste el recorrido →</a>') +
+        "</div>";
+      // Debajo de la bajada del título, para que se vea sin bajar.
+      var ancla = document.querySelector("main p.bajada");
+      if (ancla) { barra.style.marginTop = "1.5rem"; ancla.parentNode.insertBefore(barra, ancla.nextSibling); }
+      else { var destino = document.querySelector("main"); if (!destino) return; destino.insertBefore(barra, destino.firstChild); }
+      barra.querySelector("[data-recorrido-marcar]").addEventListener("click", function () {
+        var h = leerHechos(), b = this;
+        if (h[ruta]) delete h[ruta]; else h[ruta] = 1;
+        guardarHechos(h);
+        b.setAttribute("aria-pressed", h[ruta] ? "true" : "false");
+        b.textContent = h[ruta] ? "Hecho ✓" : "Marcar como hecho";
+      });
+    }).catch(function () {});
   }
 
   /* ---------- Atajo «/» para buscar ---------- */

@@ -1,0 +1,148 @@
+<!--{
+  "ruta": "/laboratorio-sistemica-bowen/",
+  "titulo": "Sistémica nivel 2: Bowen y la diferenciación del self",
+  "descripcion": "Nivel medio del laboratorio sistémico, según Murray Bowen: diferenciación del self, triángulos, corte emocional y transmisión entre generaciones.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Sistémico", "/laboratorio-sistemico/"], ["Nivel 2: Bowen", "/laboratorio-sistemica-bowen/"]],
+  "antetitulo": "Terapia sistémica · Nivel 2, medio",
+  "h1": "Sistémica: <em>Bowen y la diferenciación</em>",
+  "bajada": "Estar cerca de tu familia sin perderte en ella, y ser vos sin tener que cortar. Ejercicios basados en la teoría de los sistemas familiares de Murray Bowen.",
+  "respuesta": "El nivel medio del laboratorio sistémico propone ejercicios basados en la teoría de los sistemas familiares de Murray Bowen: la diferenciación del self (poder separar pensamiento y emoción, y sostener la propia posición en contacto con los otros), los triángulos, el corte emocional, la transmisión multigeneracional y las afirmaciones en primera persona. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el nivel medio del laboratorio sistémico",
+  "articulos": ["terapia-sistemica", "el-genograma", "patrones-que-se-repiten-en-los-vinculos"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El psiquiatra estadounidense Murray Bowen fue uno de los fundadores de la terapia familiar. Para él, la familia es una <strong>unidad emocional</strong>: lo que le pasa a uno repercute en todos, y la ansiedad circula entre sus miembros. Su concepto central es la <strong>diferenciación del self</strong>: la capacidad de distinguir lo que uno piensa de lo que siente, y de sostener la propia posición sin dejar de estar en contacto con los demás.</p>
+        <p>Con poca diferenciación, hay dos salidas que parecen opuestas pero son parecidas: la <strong>fusión</strong> (sentir lo que siente el otro, no poder pensar distinto) y el <strong>corte emocional</strong> (alejarse para no sentir). Este es el segundo nivel del <a href="/laboratorio-sistemico/">laboratorio sistémico</a>, que conviene hacer antes, porque usa el genograma.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Mirar el sistema.</strong> El foco está en las pautas, no en las culpas.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Un poco por vez.</strong> La diferenciación cambia despacio.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#diferenciacion">Diferenciado o reactivo</a>
+      <a href="#conceptos">Los conceptos de Bowen</a>
+      <a href="#triangulos">Mis triángulos</a>
+      <a href="#generaciones">A través de las generaciones</a>
+      <a href="#posicion-yo">La posición del yo</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="diferenciacion" aria-labelledby="t-diferenciacion">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-diferenciacion">Diferenciado o reactivo</h2>
+      <p class="lab-estacion__bajada">Nadie está del todo diferenciado: es una escala, y todos nos volvemos más reactivos bajo estrés. Para practicar, ¿cuál de estas frases muestra diferenciación?</p>
+      <div class="lab-tarjeta" data-lab-quiz="diferenciacion">
+        <p class="lab-tarjeta__titulo">¿Diferenciado o reactivo?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Diferenciado</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Reactivo</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="conceptos" aria-labelledby="t-conceptos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-conceptos">Los conceptos de Bowen</h2>
+      <p class="lab-estacion__bajada">Bowen describió ocho conceptos entrelazados. Estos cuatro son los más útiles para empezar. Elegí uno.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un concepto">
+          <label class="opcion"><input type="radio" name="bw-con" value="diferenciacion" checked><span>Diferenciación</span></label>
+          <label class="opcion"><input type="radio" name="bw-con" value="triangulos"><span>Triángulos</span></label>
+          <label class="opcion"><input type="radio" name="bw-con" value="corte"><span>Corte emocional</span></label>
+          <label class="opcion"><input type="radio" name="bw-con" value="transmision"><span>Transmisión multigeneracional</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="diferenciacion"><p>Poder pensar con claridad aunque haya emoción, y mantener los propios valores sin necesitar que los demás estén de acuerdo, pero sin alejarse de ellos.</p></div>
+        <div class="lab-panel" data-lab-panel="triangulos" hidden><p>Cuando la tensión entre dos personas sube, se involucra a un tercero para bajarla: un hijo, un suegro, un amante, un trabajo. Alivia, pero impide que los dos resuelvan lo suyo.</p></div>
+        <div class="lab-panel" data-lab-panel="corte" hidden><p>Reducir o cortar el contacto con la familia para manejar la tensión no resuelta. La distancia física no resuelve el vínculo emocional, que suele reaparecer en otras relaciones.</p></div>
+        <div class="lab-panel" data-lab-panel="transmision" hidden><p>Los niveles de diferenciación y las formas de manejar la ansiedad se transmiten de generación en generación. Por eso el genograma es una herramienta central.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="triangulos" aria-labelledby="t-triangulos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-triangulos">Mis triángulos</h2>
+      <p class="lab-estacion__bajada">Pensá en un conflicto entre dos personas de tu familia o de tu vida, en el que vos, u otro, termina en el medio.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mis-triangulos" data-lab-form-titulo="Mis triángulos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-dos">¿Entre quiénes es la tensión?</label><input class="lab-campo" id="bw-dos" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-tercero">¿Quién queda en el medio, como tercero?</label><input class="lab-campo" id="bw-tercero" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-como">¿Cómo funciona? ¿Qué hace el tercero, qué le piden, qué alivia?</label><textarea class="lab-texto" id="bw-como" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-salir">Si fuera yo el tercero, ¿cómo podría salir del medio sin cortar con ninguno?</label><textarea class="lab-texto" id="bw-salir" rows="2" placeholder="Por ejemplo: «Entiendo que estés enojada con él. Eso lo tienen que hablar ustedes.»"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="generaciones" aria-labelledby="t-generaciones">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-generaciones">A través de las generaciones</h2>
+      <p class="lab-estacion__bajada">Mirá tu <a href="/laboratorio-sistemico/#genograma">genograma</a> buscando cómo se manejó la ansiedad en cada generación.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="a-traves-de-las-generaciones" data-lab-form-titulo="A través de las generaciones" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-abuelos">¿Cómo manejaban los conflictos mis abuelos?</label><textarea class="lab-texto" id="bw-abuelos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-padres">¿Y mis padres?</label><textarea class="lab-texto" id="bw-padres" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-yo">¿Y yo?</label><textarea class="lab-texto" id="bw-yo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-cortes">¿Hay cortes emocionales en la familia? ¿Entre quiénes?</label><textarea class="lab-texto" id="bw-cortes" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-patron">¿Qué patrón se repite, y qué me gustaría hacer distinto?</label><textarea class="lab-texto" id="bw-patron" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="posicion-yo" aria-labelledby="t-posicion-yo">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-posicion-yo">La posición del yo</h2>
+      <p class="lab-estacion__bajada">Bowen proponía las <strong>posiciones del yo</strong> (<em>I-positions</em>): decir con calma qué pienso, qué voy a hacer y qué no, sin atacar, sin pedir permiso y sin cortar. Lo esperable es que la familia reaccione para devolver todo a su lugar: sostener la posición sin responder con más reactividad es la parte difícil.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="posicion-del-yo" data-lab-form-titulo="La posición del yo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-tema">¿Sobre qué tema me cuesta sostener mi posición en la familia?</label><input class="lab-campo" id="bw-tema" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-pienso">Yo pienso que…</label><textarea class="lab-texto" id="bw-pienso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-hare">Lo que voy a hacer es… y lo que no voy a hacer es…</label><textarea class="lab-texto" id="bw-hare" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bw-reaccion">¿Cómo es probable que reaccionen? ¿Cómo voy a mantenerme tranquilo y en contacto?</label><textarea class="lab-texto" id="bw-reaccion" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="sistemica-bowen">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar la reactividad.</strong> Registrá un momento en que reaccionaste en automático con tu familia.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Pensar y sentir.</strong> Ante algo que te angustie, escribí por separado qué sentís y qué pensás.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Un triángulo.</strong> Identificá un triángulo en el que participás.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. No ser mensajero.</strong> Si alguien te cuenta un conflicto con un tercero, invitalo a hablarlo directo.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Generaciones.</strong> Preguntale a un familiar mayor cómo se manejaban los conflictos antes.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Contacto.</strong> Si hay un corte, pensá un contacto pequeño y seguro.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Una posición del yo.</strong> Decí con calma algo que pensás, sin pedir que estén de acuerdo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Diferenciarse no significa volver a vínculos que te dañan. Si en tu familia hubo o hay violencia o abuso, un corte puede ser una forma necesaria de protegerte, y cualquier acercamiento conviene pensarlo con un profesional. Si estás en riesgo, llamá al <a href="tel:144">144</a> o al <a href="tel:911">911</a>. Podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Bowen, M. (1978). <em>Family Therapy in Clinical Practice</em> (en castellano, <em>De la familia al individuo</em>).</li>
+        <li>Kerr, M. E. y Bowen, M. (1988). <em>Family Evaluation</em>. Norton.</li>
+        <li>McGoldrick, M. y Gerson, R. (1985). <em>Genograms in Family Assessment</em> (en castellano, <em>Genogramas en la evaluación familiar</em>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

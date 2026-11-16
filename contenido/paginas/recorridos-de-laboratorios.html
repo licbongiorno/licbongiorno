@@ -1,0 +1,33 @@
+<!--{
+  "ruta": "/recorridos-de-laboratorios/",
+  "titulo": "Recorridos de laboratorios según lo que te pasa",
+  "descripcion": "Doce recorridos de cinco laboratorios en orden según el motivo de consulta: ansiedad, tristeza, autocrítica, vínculos, duelo, estrés y más.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Recorridos", "/recorridos-de-laboratorios/"]],
+  "tipo_pagina": "CollectionPage",
+  "antetitulo": "Laboratorios",
+  "h1": "Recorridos según <em>lo que te pasa</em>",
+  "bajada": "Cinco laboratorios en orden para cada motivo de consulta. Cada paso viene de un enfoque distinto, porque cada escuela ilumina una parte del problema.",
+  "respuesta": "Los recorridos de laboratorios proponen, para cada motivo de consulta, cinco laboratorios en un orden pensado: suelen empezar por regular el cuerpo o entender lo que pasa, siguen con habilidades concretas y terminan con el sentido o la historia personal. Hay recorridos para ansiedad, tristeza, autocrítica, emociones que desbordan, vínculos, familia, límites, duelo, estrés, trauma, autoconocimiento y cambios de etapa. Cada paso indica su enfoque: cognitivo-conductual, terapias contextuales, psicoanálisis, Jung, humanismo, Gestalt, sistémica, narrativa o filosofía."
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Los laboratorios se pueden hacer sueltos, pero muchas veces sirve tener un orden. Cada recorrido empieza por lo más inmediato, como bajar la activación del cuerpo o entender cómo funciona lo que te pasa, sigue con habilidades concretas y termina con preguntas más hondas: el sentido, la historia, el vínculo con uno mismo.</p>
+        <p>Cada paso viene de una escuela distinta. No es una mezcla al azar: así trabajo en mi <a href="/enfoque/">enfoque integrativo</a>, tomando de cada corriente lo que mejor responde a cada momento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>En orden.</strong> Al entrar desde acá, cada laboratorio te muestra el paso siguiente.</li>
+        <li><strong>A tu ritmo.</strong> Un paso por semana está bien.</li>
+        <li><strong>Sin registro.</strong> Lo que marques queda solo en este navegador.</li>
+      </ul>
+    </div>
+    {{> recorridos}}
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Los recorridos son un complemento y no reemplazan una consulta. Si lo que te pasa es intenso, dura hace tiempo o aparecen ideas de hacerte daño, buscá ayuda: mirá <a href="/ayuda-urgente/">ayuda urgente</a> o <a href="/contacto/">escribime</a>.</p>
+    </aside>
+    <p class="revelar" style="margin-top:2rem"><a class="enlace-flecha" href="/mapa-de-laboratorios/">Ver todos los laboratorios en un mapa {{icono_flecha}}</a></p>
+    <div style="margin-top:var(--sec)">{{> cta}}</div>
+  </div>
+</section>

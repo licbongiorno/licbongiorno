@@ -1,0 +1,144 @@
+<!--{
+  "ruta": "/laboratorio-narrativa-testigos/",
+  "titulo": "Narrativa nivel 3: testigos y documentos terapéuticos",
+  "descripcion": "Nivel avanzado del laboratorio narrativo: ceremonias de definición con testigos externos, cartas y documentos terapéuticos, y el andamiaje de White y Epston.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Narrativo", "/laboratorio-narrativo/"], ["Nivel 3: testigos", "/laboratorio-narrativa-testigos/"]],
+  "antetitulo": "Terapia narrativa · Nivel 3, avanzado",
+  "h1": "Narrativa: <em>testigos y documentos</em>",
+  "bajada": "Una historia preferida se vuelve más firme cuando otros la escuchan y la reconocen, y cuando queda escrita. Ejercicios basados en White y Epston.",
+  "respuesta": "El nivel avanzado del laboratorio narrativo propone ejercicios basados en Michael White y David Epston: las ceremonias de definición con testigos externos y sus cuatro preguntas (expresión, imagen, resonancia y transporte), las cartas y documentos terapéuticos (Narrative Means to Therapeutic Ends, 1990), los certificados y el andamiaje de las preguntas, de lo conocido a lo posible de conocer. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el nivel avanzado del laboratorio narrativo",
+  "articulos": ["terapia-narrativa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Las identidades no se construyen a solas: se construyen ante otros. Por eso Michael White y David Epston buscaron formas de que la historia preferida tuviera <strong>audiencia</strong>. Una son las <strong>ceremonias de definición</strong>, en las que testigos externos escuchan a la persona y luego cuentan qué les resonó. Otra son los <strong>documentos terapéuticos</strong>: cartas, certificados y declaraciones que dejan la historia por escrito.</p>
+        <p>Epston observó que una carta después de una sesión podía valer, para muchas personas, tanto como varias sesiones. Lo escrito se puede releer, compartir y no se lo lleva el olvido. Este es el tercer nivel del <a href="/laboratorio-narrativo/">laboratorio narrativo</a>; el segundo es <a href="/laboratorio-narrativa-reautoria/">reautoría</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con audiencia.</strong> Elegí con cuidado a quién mostrarle tu historia.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Por escrito.</strong> Lo escrito queda.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#testigos">Las cuatro preguntas del testigo</a>
+      <a href="#ser-testigo">Ser testigo de otro</a>
+      <a href="#carta">Una carta narrativa</a>
+      <a href="#certificado">Un certificado</a>
+      <a href="#andamiaje">El andamiaje</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="testigos" aria-labelledby="t-testigos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-testigos">Las cuatro preguntas del testigo</h2>
+      <p class="lab-estacion__bajada">En una ceremonia de definición, los testigos no aplauden, no aconsejan ni interpretan. White les propone responder cuatro preguntas, en orden. Elegí una para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una pregunta">
+          <label class="opcion"><input type="radio" name="tx-preg" value="expresion" checked><span>1. La expresión</span></label>
+          <label class="opcion"><input type="radio" name="tx-preg" value="imagen"><span>2. La imagen</span></label>
+          <label class="opcion"><input type="radio" name="tx-preg" value="resonancia"><span>3. La resonancia</span></label>
+          <label class="opcion"><input type="radio" name="tx-preg" value="transporte"><span>4. El transporte</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="expresion"><p><strong>¿Qué palabra o frase te llamó la atención?</strong> El testigo nombra algo concreto que escuchó, con las palabras de la persona.</p></div>
+        <div class="lab-panel" data-lab-panel="imagen" hidden><p><strong>¿Qué imagen te dio de la persona, de sus valores y propósitos?</strong> Lo que esas palabras sugieren sobre lo que ella valora.</p></div>
+        <div class="lab-panel" data-lab-panel="resonancia" hidden><p><strong>¿Por qué te tocó a vos? ¿Qué de tu propia vida resonó?</strong> El testigo habla de su experiencia, no de la del otro.</p></div>
+        <div class="lab-panel" data-lab-panel="transporte" hidden><p><strong>¿A dónde te lleva haber escuchado esto?</strong> Qué cambia en el testigo, qué se lleva, qué va a pensar o hacer distinto.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="ser-testigo" aria-labelledby="t-ser-testigo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-ser-testigo">Ser testigo de otro</h2>
+      <p class="lab-estacion__bajada">Elegí a alguien de confianza, que te cuente un momento importante de su vida. Escuchá sin interrumpir, y respondé con las cuatro preguntas. Después, si quieren, inviertan los roles.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ser-testigo" data-lab-form-titulo="Ser testigo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-expresion">La expresión que me llamó la atención</label><input class="lab-campo" id="tx-expresion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-imagen">La imagen que me dio de sus valores</label><textarea class="lab-texto" id="tx-imagen" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-resonancia">Lo que resonó de mi propia vida</label><textarea class="lab-texto" id="tx-resonancia" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-transporte">A dónde me lleva haberlo escuchado</label><textarea class="lab-texto" id="tx-transporte" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-carta">Una carta narrativa</h2>
+      <p class="lab-estacion__bajada">Las cartas de Epston usan las palabras de la persona, hacen preguntas en lugar de dar respuestas y destacan los acontecimientos extraordinarios. Escribite una carta, como si viniera de alguien que escuchó tu historia preferida.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="carta-narrativa" data-lab-form-titulo="Una carta narrativa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-escuche">«Querido/a…, me quedé pensando en algo que contaste:»</label><textarea class="lab-texto" id="tx-escuche" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-problema">«Me di cuenta de que el problema (con su nombre externalizado) intentó…»</label><textarea class="lab-texto" id="tx-problema" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-pero">«Pero vos…»</label><textarea class="lab-texto" id="tx-pero" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-pregunta">«Me pregunto…» (una pregunta abierta sobre la historia preferida)</label><textarea class="lab-texto" id="tx-pregunta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="certificado" aria-labelledby="t-certificado">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-certificado">Un certificado</h2>
+      <p class="lab-estacion__bajada">White y Epston usaban certificados, sobre todo con chicos, para reconocer un logro frente al problema: «certificado de domador de miedos», por ejemplo. Puede parecer un juego, pero hace visible y compartible un cambio.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="certificado" data-lab-form-titulo="Certificado" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-titulo">Título del certificado</label><input class="lab-campo" id="tx-titulo" type="text" autocomplete="off" placeholder="Por ejemplo: «Certificado de resistencia a la autoexigencia»"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-otorga">Se otorga a… por…</label><textarea class="lab-texto" id="tx-otorga" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tx-firma">Firman, como testigos (personas reales o del club de mi vida)</label><input class="lab-campo" id="tx-firma" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="andamiaje" aria-labelledby="t-andamiaje">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-andamiaje">El andamiaje</h2>
+      <p class="lab-estacion__bajada">White tomó de Lev Vygotski la idea de la zona de desarrollo próximo: la distancia entre lo que alguien conoce y lo que es posible conocer con ayuda. Las preguntas narrativas son un <strong>andamiaje</strong>: suben de a un escalón, de lo concreto a lo abstracto. Recorré estos escalones con tu acontecimiento extraordinario.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="45">
+        <ol class="lab-pasos">
+          <li><strong>Nombrar.</strong> ¿Cómo llamarías a lo que hiciste ese día?</li>
+          <li><strong>Efectos.</strong> ¿Qué efectos tuvo en tu vida y en la de otros?</li>
+          <li><strong>Evaluar.</strong> ¿Esos efectos te parecen bien? ¿Por qué?</li>
+          <li><strong>Justificar.</strong> ¿Qué dice de lo que te importa que te parezcan bien?</li>
+          <li><strong>Planear.</strong> Sabiendo esto, ¿qué te gustaría hacer ahora?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="narrativa-testigos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Una audiencia.</strong> Pensá a quién te gustaría contarle tu historia preferida.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Ser testigo.</strong> Escuchá a alguien y respondé con las cuatro preguntas.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Contar.</strong> Contale tu acontecimiento extraordinario a alguien de confianza.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La carta.</strong> Escribí la carta narrativa.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. El certificado.</strong> Armá tu certificado.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. El andamiaje.</strong> Recorré los cinco escalones.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Releer.</strong> Volvé a leer lo que escribiste esta semana.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Elegí con cuidado a quién mostrarle tu historia: un testigo que juzga, aconseja o minimiza puede lastimar. En terapia narrativa, el terapeuta prepara a los testigos para que escuchen de esta forma. Si querés trabajar así, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>White, M. y Epston, D. (1990). <em>Narrative Means to Therapeutic Ends</em> (en castellano, <em>Medios narrativos para fines terapéuticos</em>).</li>
+        <li>White, M. (2007). <em>Maps of Narrative Practice</em> (en castellano, <em>Mapas de la práctica narrativa</em>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

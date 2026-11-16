@@ -1,0 +1,130 @@
+<!--{
+  "ruta": "/laboratorio-compasion-yo-compasivo/",
+  "titulo": "Terapia de la compasión nivel 2: el yo compasivo",
+  "descripcion": "Nivel medio de la terapia focalizada en la compasión de Paul Gilbert: las cualidades del yo compasivo, autocrítica o autocorrección compasiva, y la imaginería.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Compasión", "/laboratorio-compasion-tres-sistemas/"], ["Nivel 2: el yo compasivo", "/laboratorio-compasion-yo-compasivo/"]],
+  "antetitulo": "Terapia focalizada en la compasión · Nivel 2, medio",
+  "h1": "Compasión: <em>el yo compasivo</em>",
+  "bajada": "Dentro tuyo hay una voz que ataca y otra que puede cuidar con firmeza. Ejercicios para conocer y fortalecer la segunda, sin dejar de aprender de los errores.",
+  "respuesta": "El nivel medio de la terapia focalizada en la compasión propone ejercicios basados en Paul Gilbert: el yo compasivo y sus cualidades (sabiduría, fortaleza y compromiso), la diferencia entre la autocrítica que ataca y la autocorrección compasiva, la función protectora de la voz crítica y una imaginería del yo compasivo. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "wa_tema": "el nivel medio de terapia focalizada en la compasión",
+  "articulos": ["la-culpa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>En el centro del entrenamiento de la mente compasiva está el <strong>yo compasivo</strong>: una forma de ser que se puede cultivar, como un actor que se prepara para un papel, hasta que se vuelve propia. Gilbert lo describe con cualidades como la <strong>sabiduría</strong> (entender que no elegimos nuestro cerebro ni nuestra historia), la <strong>fortaleza</strong> (el coraje para acercarse al sufrimiento en lugar de huir) y el <strong>compromiso</strong> (la intención de aliviar el sufrimiento, propio y ajeno).</p>
+        <p>Este nivel trabaja también la autocrítica. Para Gilbert, la voz crítica suele ser un intento del sistema de amenaza de protegernos, aunque lo haga con métodos dañinos. Es el segundo nivel; el primero trabaja <a href="/laboratorio-compasion-tres-sistemas/">los tres sistemas</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Compasión no es blandura.</strong> El yo compasivo también es firme.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Como un actor.</strong> No hace falta sentirlo de entrada: se practica.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#cualidades">Las cualidades</a>
+      <a href="#critica">Atacar o corregir</a>
+      <a href="#funcion">Para qué está el crítico</a>
+      <a href="#imaginar">Ser el yo compasivo</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="cualidades" aria-labelledby="t-cualidades">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-cualidades">Las cualidades del yo compasivo</h2>
+      <p class="lab-estacion__bajada">Elegí una cualidad para ver cómo se reconoce y cómo se practica.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una cualidad">
+          <label class="opcion"><input type="radio" name="cy-cual" value="sabiduria" checked><span>Sabiduría</span></label>
+          <label class="opcion"><input type="radio" name="cy-cual" value="fortaleza"><span>Fortaleza</span></label>
+          <label class="opcion"><input type="radio" name="cy-cual" value="compromiso"><span>Compromiso</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="sabiduria"><p><strong>Qué es:</strong> comprender que tenemos un cerebro que no elegimos, moldeado por la evolución y por una historia que tampoco elegimos. Por eso muchas reacciones no son nuestra culpa, aunque sí nuestra responsabilidad.</p><p><strong>Para practicar:</strong> ante una reacción intensa, decite: «tiene sentido, dado cómo funciona mi mente y lo que viví».</p></div>
+        <div class="lab-panel" data-lab-panel="fortaleza" hidden><p><strong>Qué es:</strong> el coraje para mirar el dolor de frente, sentir emociones difíciles y hacer lo que hace falta, aunque cueste.</p><p><strong>Para practicar:</strong> imaginá cómo te pararías y hablarías si tuvieras toda la confianza y la calma del mundo.</p></div>
+        <div class="lab-panel" data-lab-panel="compromiso" hidden><p><strong>Qué es:</strong> la intención sostenida de no hacer daño y de aliviar el sufrimiento, propio y de otros.</p><p><strong>Para practicar:</strong> empezá el día preguntándote: «¿qué puedo hacer hoy para ser útil, para mí y para alguien más?».</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="critica" aria-labelledby="t-critica">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-critica">Atacar o corregir</h2>
+      <p class="lab-estacion__bajada">Gilbert distingue la <strong>autocrítica que ataca</strong>, que mira hacia atrás, castiga y nace del miedo y el enojo, de la <strong>autocorrección compasiva</strong>, que mira hacia adelante, busca mejorar y nace del deseo de crecer. Las dos reconocen el error; lo que cambia es el tono y el para qué. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="autocorreccion">
+        <p class="lab-tarjeta__titulo">¿Ataca o corrige con compasión?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Ataca</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Corrige con compasión</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="funcion" aria-labelledby="t-funcion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-funcion">Para qué está el crítico</h2>
+      <p class="lab-estacion__bajada">La voz crítica suele tener una intención protectora: evitar que te rechacen, que fracases, que te lastimen. El problema es el método. Gilbert propone mirarla con curiosidad: ¿qué teme? Entenderla no es darle la razón, sino poder responderle desde un lugar más sabio.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="para-que-esta-el-critico" data-lab-form-titulo="Para qué está el crítico" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cy-dice">¿Qué me dice el crítico?</label><textarea class="lab-texto" id="cy-dice" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cy-teme">¿Qué teme que pase si deja de atacarme?</label><textarea class="lab-texto" id="cy-teme" rows="2" placeholder="Por ejemplo: «que me vuelva vago», «que me rechacen»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cy-emocion">¿Qué emoción tiene el crítico? ¿Y cómo me hace sentir a mí?</label><input class="lab-campo" id="cy-emocion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cy-responde">¿Qué le respondería el yo compasivo, con sabiduría, fortaleza y compromiso?</label><textarea class="lab-texto" id="cy-responde" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="imaginar" aria-labelledby="t-imaginar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-imaginar">Ser el yo compasivo</h2>
+      <p class="lab-estacion__bajada">Un ejercicio de imaginería, en la línea de los que propone Gilbert: imaginar que sos la versión más compasiva de vos, como un actor que entra en un personaje. No hace falta creerlo: alcanza con practicarlo. Empezá con unos minutos de respiración de ritmo calmante. Unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>La postura.</strong> Erguido y relajado, con una expresión amable en la cara.</li>
+          <li><strong>La sabiduría.</strong> Imaginá que tenés una comprensión profunda: sabés que la vida es difícil y que nadie eligió su mente.</li>
+          <li><strong>La fortaleza.</strong> Sentí una calma firme, como la de alguien que puede sostener el dolor sin desmoronarse.</li>
+          <li><strong>La calidez.</strong> Notá el deseo genuino de que vos y los demás estén bien.</li>
+          <li><strong>Mirar desde ahí.</strong> Desde este yo, mirá una dificultad tuya. ¿Qué entendés? ¿Qué te dirías?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="compasion-yo">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Sabiduría.</strong> Ante una reacción tuya, decite «tiene sentido».</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Registrar al crítico.</strong> Anotá qué te dice durante el día.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Qué teme.</strong> Completá el ejercicio de la función del crítico.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Corregir.</strong> Ante un error, usá la autocorrección compasiva.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. El yo compasivo.</strong> Hacé la imaginería durante cinco minutos.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Fortaleza.</strong> Hacé algo difícil desde la calma firme del yo compasivo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Una carta.</strong> Escribite desde el yo compasivo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la voz crítica es muy dura, constante, o empuja a hacerte daño, no la trabajes a solas: es exactamente lo que la terapia focalizada en la compasión aborda en consulta. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Para la violencia hacia uno mismo, mirá también el <a href="/laboratorio-de-no-violencia-interior/">laboratorio de no violencia hacia uno mismo</a>. Seguí con el <a href="/laboratorio-compasion-tres-flujos/">nivel 3: los tres flujos</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Gilbert, P. (2009). <em>The Compassionate Mind</em> (en castellano, <em>La mente compasiva</em>). Constable.</li>
+        <li>Gilbert, P. (2010). <em>Compassion Focused Therapy: Distinctive Features</em>. Routledge.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
