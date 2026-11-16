@@ -1397,3 +1397,72 @@ main > .seccion ~ .seccion { content-visibility: auto; contain-intrinsic-size: a
 .buscador-filtro:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
 .busqueda-tipo { display: inline-block; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--salvia-profunda); border: 1px solid rgba(74,90,60,.35); border-radius: 999px; padding: .1rem .5rem; margin-right: .35rem; vertical-align: .1em; }
 .busqueda-mas { font-size: .9rem; color: var(--piedra-oscura); margin-top: .75rem; }
+
+/* ---------- Filtros del catálogo por tema, enfoque y nivel ---------- */
+.lab-filtros { display: block; margin: 0 0 1rem; }
+.lab-filtros__grupo { margin-bottom: .9rem; }
+.lab-filtros__nombre { margin: 0 0 .4rem; font-family: var(--f-sans); font-size: .75rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--piedra-oscura); }
+.lab-filtros__fila { display: flex; flex-wrap: wrap; gap: .45rem; }
+.lab-filtro:disabled { opacity: .4; cursor: default; }
+.lab-filtro__n { font-size: .75rem; opacity: .7; margin-left: .15rem; }
+.lab-filtro__n:empty { display: none; }
+a.lab-filtro { display: inline-flex; align-items: center; text-decoration: none; }
+.lab-filtros__pie { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin: .2rem 0 1rem; }
+.lab-filtros__pie .lab-filtros__estado { margin: 0; }
+.lab-filtros__limpiar { min-height: 44px; padding: 0 .2rem; border: 0; background: none; color: var(--salvia-profunda); font-family: var(--f-sans); font-size: .85rem; font-weight: 600; text-decoration: underline; cursor: pointer; }
+.lab-catalogo__meta { font-family: var(--f-sans); font-size: .78rem; color: var(--piedra-oscura); }
+@media (max-width: 640px) { .lab-filtro { min-height: 40px; padding: .35rem .8rem; font-size: .8rem; } }
+
+/* ---------- Recorridos de laboratorios ---------- */
+.recorridos-indice { margin: 0 0 2.5rem; }
+.recorrido { margin: 0 0 var(--sec); scroll-margin-top: 6rem; }
+.recorrido__intro { max-width: 46rem; color: var(--texto-2); }
+.recorrido__pasos { list-style: none; margin: 1.5rem 0 1rem; padding: 0; display: grid; gap: .9rem; counter-reset: none; }
+.recorrido__paso { display: grid; grid-template-columns: 2.5rem 1fr; gap: 1rem; align-items: start; padding: 1.1rem 1.2rem; border-radius: var(--r-m); background: var(--papel); border: 1px solid var(--linea); }
+.recorrido__paso p { margin: .35rem 0 .5rem; font-size: var(--t-sm); color: var(--texto-2); }
+.recorrido__paso a { color: var(--tinta); text-decoration: none; }
+.recorrido__paso a strong { font-family: var(--f-display); font-weight: 400; font-size: 1.3rem; line-height: 1.2; }
+.recorrido__paso a:hover strong { text-decoration: underline; }
+.recorrido__num { display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border-radius: 50%; background: var(--salvia-bruma); color: var(--salvia-profunda); font-family: var(--f-display); font-size: 1.2rem; }
+.recorrido__paso--hecho .recorrido__num { background: var(--salvia-profunda); color: var(--beige); }
+.recorrido__enfoque { display: block; margin-top: .2rem; font-family: var(--f-sans); font-size: .72rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--terracota-profunda); }
+.recorrido__hecho { display: inline-flex; align-items: center; gap: .4rem; min-height: 44px; font-family: var(--f-sans); font-size: .85rem; cursor: pointer; }
+.recorrido__progreso { min-height: 1.2em; font-family: var(--f-sans); font-size: .85rem; color: var(--piedra-oscura); }
+.recorrido-barra { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .6rem 1rem; margin: 0 0 2rem; padding: .9rem 1.1rem; border-radius: var(--r-m); background: var(--salvia-bruma); border: 1px solid var(--linea); font-family: var(--f-sans); font-size: .88rem; }
+.recorrido-barra p { margin: 0; }
+.recorrido-barra a { color: var(--salvia-profunda); font-weight: 600; }
+.recorrido-barra__acciones { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+
+/* ---------- Mapa de laboratorios ---------- */
+.mapa-labs__tabla { overflow-x: auto; margin: 1rem 0; border: 1px solid var(--linea); border-radius: var(--r-m); background: var(--papel); }
+.mapa-labs__tabla:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.mapa-labs__tabla table { border-collapse: collapse; width: 100%; min-width: 46rem; font-family: var(--f-sans); font-size: .82rem; }
+.mapa-labs__tabla th, .mapa-labs__tabla td { padding: .45rem .4rem; border-bottom: 1px solid var(--linea); text-align: center; }
+.mapa-labs__tabla thead th { font-weight: 600; font-size: .72rem; line-height: 1.25; vertical-align: bottom; color: var(--piedra-oscura); }
+.mapa-labs__tabla tbody th { text-align: left; font-weight: 600; white-space: nowrap; position: sticky; left: 0; background: var(--papel); }
+.mapa-labs__tabla tbody th a { color: var(--tinta); }
+.mapa-labs__tabla tbody th small { color: var(--piedra-oscura); font-weight: 400; }
+.mapa-labs__tabla td a { display: grid; place-items: center; width: 2.2rem; height: 2.2rem; margin: auto; border-radius: 50%; text-decoration: none; font-weight: 600; color: var(--tinta);
+  background: color-mix(in srgb, var(--salvia) calc(var(--int) * 100%), transparent); }
+.mapa-labs__tabla td a:hover { outline: 2px solid var(--salvia-profunda); }
+.mapa-labs__tabla td span { color: var(--linea); }
+.mapa-labs { display: grid; gap: 1.5rem; margin-top: 1.2rem; }
+@media (min-width: 900px) { .mapa-labs { grid-template-columns: repeat(2, 1fr); } }
+.mapa-labs__grupo h3 { display: flex; align-items: center; gap: .5rem; margin: 0 0 .3rem; font-size: 1.35rem; }
+.mapa-labs__grupo h3 span { font-family: var(--f-sans); font-size: .8rem; color: var(--piedra-oscura); }
+.mapa-labs__grupo h3 .lab-glifo { width: 1.3rem; height: 1.3rem; color: var(--salvia-profunda); }
+.mapa-labs__grupo > p { margin: 0 0 .6rem; font-size: var(--t-sm); color: var(--texto-2); }
+.mapa-labs__grupo ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
+.mapa-labs__grupo li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .1rem .8rem; padding: .5rem 0; border-bottom: 1px solid var(--linea); font-size: var(--t-sm); }
+.mapa-labs__grupo li a { color: var(--tinta); text-decoration: none; }
+.mapa-labs__grupo li a:hover { text-decoration: underline; }
+.mapa-labs__grupo li small { font-family: var(--f-sans); font-size: .75rem; color: var(--piedra-oscura); }
+.mapa-labs__nivel { display: inline-block; margin-right: .45rem; padding: .05rem .45rem; border-radius: 999px; font-family: var(--f-sans); font-size: .68rem; font-weight: 600; vertical-align: .1em; background: var(--salvia-bruma); color: var(--salvia-profunda); }
+.mapa-labs__nivel--puerta-de-entrada { background: var(--terracota-suave); color: var(--terracota-profunda); }
+.mapa-labs__nivel--medio { background: var(--salvia-suave); }
+.mapa-labs__nivel--avanzado { background: var(--salvia-profunda); color: var(--beige); }
+@media (max-width: 640px) {
+  .lab-filtros .lab-filtros__fila { flex-wrap: nowrap; overflow-x: auto; margin-inline: -16px; padding: 0 16px .3rem; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent); }
+  .lab-filtros .lab-filtros__fila::-webkit-scrollbar { display: none; }
+  .lab-filtros .lab-filtro { flex: none; white-space: nowrap; }
+}

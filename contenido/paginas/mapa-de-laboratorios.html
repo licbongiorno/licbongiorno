@@ -1,0 +1,30 @@
+<!--{
+  "ruta": "/mapa-de-laboratorios/",
+  "titulo": "Mapa de laboratorios: por enfoque y por tema",
+  "descripcion": "Todos los laboratorios de práctica psicológica en un mapa: agrupados por enfoque, del psicoanálisis a las terapias contextuales, y por tema, con su nivel.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Mapa", "/mapa-de-laboratorios/"]],
+  "tipo_pagina": "CollectionPage",
+  "antetitulo": "Laboratorios",
+  "h1": "El mapa de <em>los laboratorios</em>",
+  "bajada": "Todos los laboratorios de un vistazo: de qué escuela vienen, sobre qué tema trabajan y en qué nivel están.",
+  "respuesta": "El mapa de laboratorios agrupa todos los laboratorios del sitio de dos formas: por enfoque (cognitivo-conductual, terapias contextuales, psicoanálisis y apego, junguiana y transpersonal, humanista y existencial, Gestalt, psicodrama y análisis transaccional, sistémica y narrativa, psicología positiva, cuerpo y tradiciones orientales, filosofía en práctica e integrativos) y por tema. Incluye una tabla que cruza enfoques y temas, y marca el nivel de los laboratorios que forman recorridos: puerta de entrada, básico, medio y avanzado.",
+  "scripts": ["lab-base.js"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Cada laboratorio viene de una escuela de la psicología, o de la filosofía, y trabaja sobre un tema. Algunos forman series por niveles: una <strong>puerta de entrada</strong> que presenta el enfoque, y después un nivel <strong>básico</strong>, uno <strong>medio</strong> y uno <strong>avanzado</strong>. Los demás se pueden hacer sueltos.</p>
+        <p>Los enfoques son agrupaciones amplias: varios laboratorios toman de más de una escuela, y los ubiqué donde está su base principal. Para ver a los autores detrás de cada escuela, mirá el <a href="/recursos/mapa-de-la-psicologia/">mapa de la psicología</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo se lee">
+        <li><strong>La tabla</strong> cruza enfoques y temas.</li>
+        <li><strong>Las listas</strong> muestran cada laboratorio con su nivel.</li>
+        <li><strong>¿Preferís un orden?</strong> Mirá los <a href="/recorridos-de-laboratorios/">recorridos</a>.</li>
+      </ul>
+    </div>
+    {{> mapa_laboratorios}}
+    <div style="margin-top:var(--sec)">{{> cta}}</div>
+  </div>
+</section>

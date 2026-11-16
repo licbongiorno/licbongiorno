@@ -23,6 +23,7 @@ import math
 import re
 import shutil
 import sys
+import unicodedata
 from datetime import date
 from pathlib import Path
 
@@ -459,6 +460,8 @@ NAV = [
         ("Para descargar", "/recursos/#para-descargar", "Diario de sueños en PDF"),
         ("Laboratorios", "/laboratorios/", "Prácticas interactivas para emociones, vínculos y más"),
         ("¿Por dónde empiezo?", "/por-donde-empezar/", "Un recorrido según lo que te pasa"),
+        ("Recorridos de laboratorios", "/recorridos-de-laboratorios/", "Cinco laboratorios en orden según el motivo"),
+        ("Mapa de laboratorios", "/mapa-de-laboratorios/", "Todos los laboratorios por enfoque y por tema"),
         ("Tests", "/tests/", "Autoconocimiento, escalas breves y ejercicios"),
         ("El mapa de lo que me habita", "/el-mapa-de-lo-que-me-habita/", "Un recorrido para pensarte en nueve estaciones"),
         ("Voces que nos habitan", "/recursos/voces-que-nos-habitan/", "Citas verificadas de grandes pensadores"),
@@ -759,12 +762,142 @@ GLIFOS_TEMA = {
 }
 
 
+LAB_MAPA = cargar_json("laboratorios-mapa.json")
+ENFOQUES_ORDEN = [e["nombre"] for e in LAB_MAPA["enfoques"]]
+ENFOQUE_LAB = {r: e["nombre"] for e in LAB_MAPA["enfoques"] for r in e["rutas"]}
+NIVELES_ORDEN = ["Puerta de entrada", "Básico", "Medio", "Avanzado", "Independiente"]
+RECORRIDOS = LAB_MAPA["recorridos"]
+
+
+def _niveles_de_paginas():
+    """Nivel de cada laboratorio según el antetítulo de su página."""
+    niveles = {}
+    for f in (CONTENIDO / "paginas").glob("laboratorio*.html"):
+        t = f.read_text(encoding="utf-8")[:3000]
+        r = re.search(r'"ruta": "([^"]*)"', t)
+        a = re.search(r'"antetitulo": "([^"]*)"', t)
+        if not r:
+            continue
+        a = a.group(1) if a else ""
+        if "Puerta de entrada" in a or "Primeros auxilios" in a:
+            n = "Puerta de entrada"
+        elif re.search(r"Nivel 1\b", a):
+            n = "Básico"
+        elif re.search(r"Nivel 2\b", a):
+            n = "Medio"
+        elif re.search(r"Nivel [34]\b", a):
+            n = "Avanzado"
+        else:
+            n = "Independiente"
+        niveles[r.group(1)] = n
+    return niveles
+
+
+NIVEL_LAB = _niveles_de_paginas()
+
+
+def slug_simple(t):
+    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
 def bloque_laboratorios():
-    items = "".join(
-        f'<a class="lab-catalogo__item" href="{l["ruta"]}" data-tema="{esc(TEMAS_LAB.get(l["ruta"], ""))}">{GLIFOS_TEMA.get(TEMAS_LAB.get(l["ruta"], ""), "")}<span class="recursos-indice__tipo">{esc(l["tipo"])}</span>'
-        f'<strong>{esc(l["titulo"])}</strong><span>{esc(l["descripcion"])}</span><span class="lab-catalogo__ir">Entrar al laboratorio →</span></a>'
-        for l in LABORATORIOS)
-    return f'<div class="lab-catalogo revelar" data-lab-catalogo>{items}</div>'
+    items = []
+    for l in LABORATORIOS:
+        r = l["ruta"]
+        tema, enf, niv = TEMAS_LAB.get(r, ""), ENFOQUE_LAB.get(r, ""), NIVEL_LAB.get(r, "Independiente")
+        meta = esc(enf) + ("" if niv == "Independiente" else " · " + esc(niv if niv == "Puerta de entrada" else "nivel " + niv.lower()))
+        items.append(
+            f'<a class="lab-catalogo__item" href="{r}" data-tema="{esc(tema)}" data-enfoque="{esc(enf)}" data-nivel="{esc(niv)}">{GLIFOS_TEMA.get(tema, "")}<span class="recursos-indice__tipo">{esc(l["tipo"])}</span>'
+            f'<strong>{esc(l["titulo"])}</strong><span>{esc(l["descripcion"])}</span><span class="lab-catalogo__meta">{meta}</span><span class="lab-catalogo__ir">Entrar al laboratorio →</span></a>')
+    return f'<div class="lab-catalogo revelar" data-lab-catalogo>{"".join(items)}</div>'
+
+
+def bloque_filtros_laboratorios():
+    grupos = [("tema", "Tema", ORDEN_TEMAS), ("enfoque", "Enfoque", ENFOQUES_ORDEN), ("nivel", "Nivel", NIVELES_ORDEN)]
+    html = ""
+    for clave, nombre, valores in grupos:
+        botones = f'<button type="button" class="lab-filtro" aria-pressed="true" data-grupo="{clave}" data-filtro="">Todos</button>' + "".join(
+            f'<button type="button" class="lab-filtro" aria-pressed="false" data-grupo="{clave}" data-filtro="{esc(v)}" data-slug="{slug_simple(v)}">{esc(v)} <span class="lab-filtro__n" data-n></span></button>'
+            for v in valores)
+        html += (f'<div class="lab-filtros__grupo"><p class="lab-filtros__nombre" id="lf-{clave}">{nombre}</p>'
+                 f'<div class="lab-filtros__fila" role="group" aria-labelledby="lf-{clave}">{botones}</div></div>')
+    return (f'<div class="lab-filtros" data-lab-filtros hidden>{html}'
+            f'<p class="lab-filtros__pie"><span class="lab-filtros__estado" role="status" data-lab-filtros-estado></span>'
+            f'<button type="button" class="lab-filtros__limpiar" data-lab-filtros-limpiar hidden>Quitar filtros</button></p></div>')
+
+
+def _nombre_lab():
+    return {l["ruta"]: l["titulo"] for l in LABORATORIOS}
+
+
+def bloque_recorridos():
+    nombres = _nombre_lab()
+    indice = "".join(f'<a class="lab-filtro" href="#{r["clave"]}">{esc(r["titulo"])}</a>' for r in RECORRIDOS)
+    secciones = ""
+    for r in RECORRIDOS:
+        pasos = ""
+        for i, (ruta, por_que) in enumerate(r["pasos"], 1):
+            enf = ENFOQUE_LAB.get(ruta, "")
+            pasos += (f'<li class="recorrido__paso" data-recorrido-paso="{ruta}"><span class="recorrido__num" aria-hidden="true">{i}</span>'
+                      f'<div><a href="{ruta}?recorrido={r["clave"]}"><strong>{esc(nombres[ruta])}</strong></a>'
+                      f'<span class="recorrido__enfoque">{esc(enf)}</span><p>{esc(por_que)}</p>'
+                      f'<label class="recorrido__hecho"><input type="checkbox" value="{ruta}"> Lo hice</label></div></li>')
+        secciones += (f'<section class="recorrido revelar" id="{r["clave"]}" aria-labelledby="t-{r["clave"]}" data-recorrido="{r["clave"]}">'
+                      f'<h2 id="t-{r["clave"]}">{esc(r["titulo"])}</h2><p class="recorrido__intro">{esc(r["intro"])}</p>'
+                      f'<ol class="recorrido__pasos">{pasos}</ol>'
+                      f'<p class="recorrido__progreso" data-recorrido-progreso aria-live="polite"></p>'
+                      f'<p><a class="boton boton--chico" href="{r["pasos"][0][0]}?recorrido={r["clave"]}">Empezar por el paso 1</a></p></section>')
+    return f'<nav class="lab-filtros__fila recorridos-indice revelar" aria-label="Elegí un recorrido">{indice}</nav>{secciones}'
+
+
+def bloque_mapa_laboratorios():
+    nombres = _nombre_lab()
+    por_enf = {e: [] for e in ENFOQUES_ORDEN}
+    por_tema = {t: [] for t in ORDEN_TEMAS}
+    for l in LABORATORIOS:
+        por_enf[ENFOQUE_LAB[l["ruta"]]].append(l["ruta"])
+        por_tema.setdefault(TEMAS_LAB.get(l["ruta"], ""), []).append(l["ruta"])
+    orden_niv = {n: i for i, n in enumerate(NIVELES_ORDEN)}
+    # Matriz enfoque × tema
+    cab = "".join(f'<th scope="col"><span>{esc(t)}</span></th>' for t in ORDEN_TEMAS)
+    filas = ""
+    maximo = max(sum(1 for r in por_enf[e] if TEMAS_LAB.get(r) == t) for e in ENFOQUES_ORDEN for t in ORDEN_TEMAS) or 1
+    for e in ENFOQUES_ORDEN:
+        celdas = ""
+        for t in ORDEN_TEMAS:
+            n = sum(1 for r in por_enf[e] if TEMAS_LAB.get(r) == t)
+            if n:
+                celdas += (f'<td><a href="/laboratorios/?enfoque={slug_simple(e)}&amp;tema={slug_simple(t)}" style="--int:{0.18 + 0.82 * n / maximo:.2f}" '
+                           f'aria-label="{n} de {esc(e)} en {esc(t)}">{n}</a></td>')
+            else:
+                celdas += '<td><span aria-hidden="true">·</span></td>'
+        filas += f'<tr><th scope="row"><a href="/laboratorios/?enfoque={slug_simple(e)}">{esc(e)}</a> <small>{len(por_enf[e])}</small></th>{celdas}</tr>'
+    matriz = (f'<div class="mapa-labs__tabla" tabindex="0" role="region" aria-label="Cantidad de laboratorios por enfoque y por tema">'
+              f'<table><thead><tr><th scope="col">Enfoque</th>{cab}</tr></thead><tbody>{filas}</tbody></table></div>')
+
+    def chip(r, etiqueta):
+        niv = NIVEL_LAB.get(r, "Independiente")
+        marca = "" if niv == "Independiente" else f'<span class="mapa-labs__nivel mapa-labs__nivel--{slug_simple(niv)}">{esc("Entrada" if niv == "Puerta de entrada" else niv)}</span>'
+        return f'<li><a href="{r}">{marca}{esc(nombres[r])}</a><small>{esc(etiqueta)}</small></li>'
+
+    desc = {e["nombre"]: e["descripcion"] for e in LAB_MAPA["enfoques"]}
+    vista_enf = "".join(
+        f'<section class="mapa-labs__grupo"><h3>{esc(e)} <span>{len(rs)}</span></h3><p>{esc(desc[e])}</p><ul>'
+        + "".join(chip(r, TEMAS_LAB.get(r, "")) for r in sorted(rs, key=lambda r: (orden_niv[NIVEL_LAB.get(r, "Independiente")], nombres[r])))
+        + "</ul></section>" for e, rs in por_enf.items())
+    vista_tema = "".join(
+        f'<section class="mapa-labs__grupo"><h3>{GLIFOS_TEMA.get(t, "")}{esc(t)} <span>{len(rs)}</span></h3><ul>'
+        + "".join(chip(r, ENFOQUE_LAB[r]) for r in sorted(rs, key=lambda r: (ENFOQUES_ORDEN.index(ENFOQUE_LAB[r]), orden_niv[NIVEL_LAB.get(r, "Independiente")], nombres[r])))
+        + "</ul></section>" for t, rs in por_tema.items() if rs)
+    return (f'<section class="revelar" aria-labelledby="t-matriz"><h2 id="t-matriz">De un vistazo</h2>'
+            f'<p>Cada número es la cantidad de laboratorios de ese enfoque en ese tema. Tocalo para verlos en el catálogo.</p>{matriz}</section>'
+            f'<section class="revelar" aria-labelledby="t-todos" style="margin-top:var(--sec)"><h2 id="t-todos">Los {len(LABORATORIOS)} laboratorios</h2>'
+            f'<div class="lab-tarjeta" data-lab-selector><div class="opciones" role="radiogroup" aria-label="Agrupar por">'
+            f'<label class="opcion"><input type="radio" name="mapa-vista" value="enfoque" checked><span>Por enfoque</span></label>'
+            f'<label class="opcion"><input type="radio" name="mapa-vista" value="tema"><span>Por tema</span></label></div>'
+            f'<div class="lab-panel mapa-labs" data-lab-panel="enfoque">{vista_enf}</div>'
+            f'<div class="lab-panel mapa-labs" data-lab-panel="tema" hidden>{vista_tema}</div></div></section>')
 
 
 # Guía «¿Por dónde empiezo?»: tema → página de motivo, artículos y laboratorios sugeridos.
@@ -814,19 +947,15 @@ def bloque_guia():
                         "a": [[arts[x]["titulo"], arts[x]["ruta"]] for x in slugs_a if x in arts],
                         "l": [[labs[r], r] for r in rutas_l if r in labs],
                         "t": [list(x) for x in GUIA_TESTS.get(clave, [])]}
+        rc = LAB_MAPA["guia_a_recorrido"].get(clave)
+        if rc:
+            datos[clave]["r"] = [next(r["titulo"] for r in RECORRIDOS if r["clave"] == rc), f"/recorridos-de-laboratorios/#{rc}"]
     chips = "".join(f'<label class="opcion"><input type="checkbox" name="guia" value="{c}"><span>{esc(n)}</span></label>' for c, n, *_ in GUIA)
     jd = json.dumps(datos, ensure_ascii=False).replace("</", "<\\/")
     return (f'<fieldset class="lab-tarjeta guia" data-guia><legend class="lab-paso__titulo">¿Qué te está pasando? <span class="lab-paso__ayuda">Podés elegir varias.</span></legend>'
             f'<div class="opciones">{chips}</div></fieldset>'
             f'<div class="guia-resultado" data-guia-resultado aria-live="polite"></div>'
             f'<script type="application/json" id="guia-datos">{jd}</script>')
-
-
-def bloque_filtros_laboratorios():
-    botones = '<button type="button" class="lab-filtro" aria-pressed="true" data-filtro="">Todos</button>' + "".join(
-        f'<button type="button" class="lab-filtro" aria-pressed="false" data-filtro="{esc(t)}">{esc(t)}</button>' for t in ORDEN_TEMAS)
-    return (f'<div class="lab-filtros" role="group" aria-label="Filtrar laboratorios por tema" data-lab-filtros hidden>{botones}</div>'
-            f'<p class="lab-filtros__estado" role="status" data-lab-filtros-estado></p>')
 
 
 def cabecera(ruta):
@@ -1851,6 +1980,8 @@ def reemplazos(cuerpo, ruta):
         "asistente_h3": lambda: bloque_asistente(3),
         "laboratorios": bloque_laboratorios,
         "filtros_laboratorios": bloque_filtros_laboratorios,
+        "recorridos": bloque_recorridos,
+        "mapa_laboratorios": bloque_mapa_laboratorios,
         "guia": bloque_guia,
         "zona_horaria": lambda: ('<aside class="zona-horaria" data-zona hidden aria-label="Tu zona horaria">'
             f'<span class="zona-horaria__icono">{ICON["globo"]}</span><p>Parece que estás en <strong data-zona-lugar></strong>. '
@@ -2159,6 +2290,10 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         r = q["respuesta"] if isinstance(q["respuesta"], str) else " ".join(q["respuesta"])
         indice.append({"t": q["pregunta"], "k": "Pregunta", "u": f"/preguntas-frecuentes/#{q['id']}",
                        "d": re.sub(r"<[^>]+>", "", html.unescape(r))[:300], "c": "", "x": ""})
+    # recorridos.json: los laboratorios en orden para cada motivo de consulta (barra «paso n de 5»).
+    nombres_lab = {l["ruta"]: l["titulo"] for l in LABORATORIOS}
+    (SALIDA / "recorridos.json").write_text(json.dumps({r["clave"]: {"t": r["titulo"], "p": [[x[0], nombres_lab[x[0]]] for x in r["pasos"]]} for r in RECORRIDOS},
+                                                      ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (SALIDA / "buscar.json").write_text(json.dumps(indice, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # Manifest
