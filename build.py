@@ -496,6 +496,8 @@ LABORATORIOS = [
      "descripcion": "Reglas del lenguaje, «me hago responsable», exagerar, invertir, ser el sueño y dialogar con el síntoma."},
     {"titulo": "Laboratorio de flexibilidad yoica", "ruta": "/laboratorio-de-flexibilidad-yoica/", "tipo": "Autoconocimiento",
      "descripcion": "Las tres sillas, otras explicaciones posibles, el diálogo con tus voces internas y tus defensas."},
+    {"titulo": "Laboratorio de la sabiduría de las emociones", "ruta": "/laboratorio-de-la-sabiduria-de-las-emociones/", "tipo": "Emociones",
+     "descripcion": "Inspirado en Norberto Levy: leer el miedo, el enojo, la culpa, la envidia y la vergüenza como señales de un problema a resolver."},
     {"titulo": "Laboratorio de emociones", "ruta": "/laboratorio-de-emociones/", "tipo": "Emociones",
      "descripcion": "Un mapa para ponerle nombre a lo que sentís, un termómetro de intensidad y un diario emocional."},
     {"titulo": "Laboratorio de presencia", "ruta": "/laboratorio-de-presencia/", "tipo": "Atención plena",
@@ -634,7 +636,7 @@ LABORATORIOS = [
 TEMAS_LAB = {
     "/laboratorio-de-creatividad/": "Aprendizaje y cambio", "/laboratorio-de-comunicacion-no-violenta/": "Vínculos",
     "/laboratorio-de-habilidades-dbt/": "Emociones", "/laboratorio-dbt-atencion-plena/": "Emociones", "/laboratorio-dbt-tolerancia-al-malestar/": "Emociones", "/laboratorio-dbt-regulacion-emocional/": "Emociones", "/laboratorio-dbt-efectividad-interpersonal/": "Vínculos", "/laboratorio-de-flexibilidad-yoica/": "Jung y autoconocimiento",
-    "/laboratorio-de-emociones/": "Emociones", "/laboratorio-de-presencia/": "Cuerpo y respiración",
+    "/laboratorio-de-emociones/": "Emociones", "/laboratorio-de-la-sabiduria-de-las-emociones/": "Emociones", "/laboratorio-de-presencia/": "Cuerpo y respiración",
     "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
     "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones", "/laboratorio-de-pensamientos-repetitivos/": "Emociones",
     "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones",

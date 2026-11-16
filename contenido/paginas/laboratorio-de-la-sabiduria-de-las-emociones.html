@@ -1,0 +1,195 @@
+<!--{
+  "ruta": "/laboratorio-de-la-sabiduria-de-las-emociones/",
+  "titulo": "Laboratorio de la sabiduría de las emociones",
+  "descripcion": "Ejercicios inspirados en Norberto Levy: leer el miedo, el enojo, la culpa, la envidia y la vergüenza como señales que indican un problema a resolver.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["La sabiduría de las emociones", "/laboratorio-de-la-sabiduria-de-las-emociones/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de la <em>sabiduría de las emociones</em>",
+  "bajada": "El miedo, el enojo, la culpa, la envidia y la vergüenza no son fallas a eliminar: son señales. Ejercicios para aprender a leerlas y a resolver lo que indican.",
+  "respuesta": "El laboratorio de la sabiduría de las emociones propone ejercicios inspirados en el libro La sabiduría de las emociones (2000) del médico psicoterapeuta argentino Norberto Levy, para quien las emociones consideradas conflictivas son señales que indican un problema a resolver: el miedo, una desproporción entre la amenaza y los recursos; el enojo, un deseo frustrado por un obstáculo; la culpa, la transgresión de una norma propia. Incluye una balanza del miedo, ejercicios para el enojo, la culpa, la envidia y la vergüenza, un quiz para leer el tablero emocional y un plan de 7 días. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-sabiduria-emociones.js", "escenas.js"],
+  "wa_tema": "el laboratorio de la sabiduría de las emociones",
+  "articulos": ["la-culpa", "el-enojo", "inteligencia-emocional"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Solemos tratar a ciertas emociones como enemigas: el miedo que paraliza, el enojo que lastima, la culpa que no deja dormir, la envidia que avergüenza. Queremos que se vayan. Pero una emoción que se tapa no desaparece: se queda trabajando desde abajo, y muchas veces vuelve con más fuerza.</p>
+        <p>Norberto Levy, médico psicoterapeuta argentino, propone en <em>La sabiduría de las emociones</em> (2000) otra mirada. Las emociones que consideramos conflictivas son <strong>señales</strong>, como las luces del tablero de un auto: cada una se enciende para avisar que hay un problema específico por resolver. Apagar la luz no arregla el motor. Leerla bien, sí. Este laboratorio sigue esa idea con ejercicios propios, y la conecta con otras miradas de la psicología que ya están en el sitio.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Ninguna emoción es mala.</strong> Lo que puede dañar es lo que hacemos con ella.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Una por vez.</strong> Elegí la emoción que más se enciende en tu vida.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#tablero">El tablero</a>
+      <a href="#miedo">La balanza del miedo</a>
+      <a href="#enojo">El enojo que resuelve</a>
+      <a href="#culpa">La culpa y la norma</a>
+      <a href="#envidia">Lo que dice la envidia</a>
+      <a href="#verguenza">La vergüenza y la mirada</a>
+      <a href="#leer">Leer el tablero</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="tablero" aria-labelledby="t-tablero">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tablero">El tablero de las emociones</h2>
+      <p class="lab-estacion__bajada">Cada emoción se enciende por un motivo y señala algo distinto. Elegí una luz para ver qué indica y qué pregunta conviene hacerse cuando aparece.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una emoción">
+          <label class="opcion"><input type="radio" name="se-emocion" value="miedo" checked><span>Miedo</span></label>
+          <label class="opcion"><input type="radio" name="se-emocion" value="enojo"><span>Enojo</span></label>
+          <label class="opcion"><input type="radio" name="se-emocion" value="culpa"><span>Culpa</span></label>
+          <label class="opcion"><input type="radio" name="se-emocion" value="envidia"><span>Envidia</span></label>
+          <label class="opcion"><input type="radio" name="se-emocion" value="verguenza"><span>Vergüenza</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="miedo"><p><strong>Qué señala:</strong> que la amenaza que percibís es más grande que los recursos con que contás para enfrentarla.</p><p><strong>La pregunta:</strong> ¿qué recurso me falta? ¿O estoy viendo la amenaza más grande de lo que es?</p><p><strong>Lo que no ayuda:</strong> obligarte a no tener miedo. Lo que ayuda es achicar la amenaza o agrandar los recursos.</p></div>
+        <div class="lab-panel" data-lab-panel="enojo" hidden><p><strong>Qué señala:</strong> que un deseo tuyo encontró un obstáculo. El enojo es la energía que aparece para removerlo.</p><p><strong>La pregunta:</strong> ¿qué quería, y qué se interpuso?</p><p><strong>Lo que no ayuda:</strong> tragarlo (vuelve contra vos) o descargarlo atacando a otro. Lo que ayuda es usar esa energía para resolver.</p></div>
+        <div class="lab-panel" data-lab-panel="culpa" hidden><p><strong>Qué señala:</strong> que hiciste algo que va contra una norma de tu propio código.</p><p><strong>La pregunta:</strong> ¿qué norma transgredí? ¿Es realmente mía, y es justa?</p><p><strong>Lo que no ayuda:</strong> castigarte indefinidamente. Lo que ayuda es reparar, o revisar la norma si es excesiva.</p></div>
+        <div class="lab-panel" data-lab-panel="envidia" hidden><p><strong>Qué señala:</strong> que otro tiene algo que deseás y que, en este momento, sentís que no podés alcanzar.</p><p><strong>La pregunta:</strong> ¿qué de lo que tiene esa persona deseo para mí? ¿Qué me impide buscarlo?</p><p><strong>Lo que no ayuda:</strong> desvalorizar al otro o desvalorizarte a vos. Lo que ayuda es escuchar el deseo que la envidia revela.</p></div>
+        <div class="lab-panel" data-lab-panel="verguenza" hidden><p><strong>Qué señala:</strong> que sentís expuesto algo de vos que creés inaceptable ante una mirada que te importa, de otros o tuya.</p><p><strong>La pregunta:</strong> ¿qué parte de mí estoy rechazando? ¿Con qué vara la estoy midiendo?</p><p><strong>Lo que no ayuda:</strong> esconderte más. Lo que ayuda es revisar la mirada con que te juzgás y encontrar una más justa.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="miedo" aria-labelledby="t-miedo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-miedo">La balanza del miedo</h2>
+      <p class="lab-estacion__bajada">Si el miedo indica una desproporción entre la amenaza y los recursos, hay dos caminos para equilibrar la balanza: revisar si la amenaza es tan grande como parece, y sumar recursos (información, preparación, práctica, compañía, ayuda profesional). Pensá en algo que te da miedo y movés las dos barras.</p>
+      <div class="lab-tarjeta" data-se-balanza>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-amenaza">¿Qué tan grande es la amenaza, del 0 al 10?</label><input class="lab-campo" id="se-amenaza" type="range" min="0" max="10" value="7"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-recursos">¿Cuántos recursos sentís que tenés, del 0 al 10?</label><input class="lab-campo" id="se-recursos" type="range" min="0" max="10" value="3"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">La balanza</p>
+          <p class="lab-resultado__texto" data-se-balanza-salida aria-live="polite"></p>
+        </div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="balanza-del-miedo" data-lab-form-titulo="La balanza del miedo" novalidate style="margin-top:1rem">
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-temo">¿Qué temo, concretamente?</label><textarea class="lab-texto" id="se-temo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-realista">¿Es tan grande como la siento? ¿Qué es lo más probable que pase?</label><textarea class="lab-texto" id="se-realista" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-tengo">¿Qué recursos ya tengo?</label><textarea class="lab-texto" id="se-tengo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-sumar">¿Qué recurso puedo sumar? (aprender algo, prepararme, practicar, pedir ayuda)</label><textarea class="lab-texto" id="se-sumar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="enojo" aria-labelledby="t-enojo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-enojo">El enojo que resuelve</h2>
+      <p class="lab-estacion__bajada">El enojo trae una carga de energía. Levy distingue la descarga de esa energía, que puede hacerse sin dañar a nadie, del ataque a otro. Y propone ir más allá de la descarga: usar el enojo para resolver lo que lo provocó. Primero, identificá el deseo y el obstáculo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="el-enojo-que-resuelve" data-lab-form-titulo="El enojo que resuelve" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-situacion-enojo">¿Qué pasó?</label><textarea class="lab-texto" id="se-situacion-enojo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-deseo">¿Qué quería o necesitaba yo?</label><input class="lab-campo" id="se-deseo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-obstaculo">¿Qué se interpuso?</label><input class="lab-campo" id="se-obstaculo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-descarga">Si la carga es mucha, una forma de descargarla sin dañar a nadie</label><input class="lab-campo" id="se-descarga" type="text" placeholder="Por ejemplo: correr, golpear una almohada, escribir sin filtro y romper el papel" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-resolver">Y para resolver: ¿qué puedo hacer con el obstáculo?</label><textarea class="lab-texto" id="se-resolver" rows="2" placeholder="Pedir algo, poner un límite, buscar otro camino, aceptar que no depende de mí"></textarea></div>
+        <p class="lab-paso__ayuda">Si te cuesta pedir o poner el límite, el <a href="/laboratorio-de-asertividad/">laboratorio de asertividad</a> tiene ejercicios para eso.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="culpa" aria-labelledby="t-culpa">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-culpa">La culpa y la norma</h2>
+      <p class="lab-estacion__bajada">Si la culpa señala que transgredimos una norma propia, hay dos salidas sanas. Si la norma es justa, reparar lo que hicimos. Si la norma es excesiva o ni siquiera es nuestra (un mandato tragado entero, como diría la Gestalt), revisarla. Lo que no sirve es quedarse en el castigo, que no repara nada.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="la-culpa-y-la-norma" data-lab-form-titulo="La culpa y la norma" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-hice">¿Qué hice, o qué no hice?</label><textarea class="lab-texto" id="se-hice" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-norma">¿Qué norma mía siento que transgredí?</label><input class="lab-campo" id="se-norma" type="text" placeholder="Por ejemplo: «hay que estar siempre para la familia»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-justa">¿Esa norma es justa conmigo y con los demás? ¿De dónde viene?</label><textarea class="lab-texto" id="se-justa" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-camino">El camino que elijo</label>
+          <select class="lab-campo" id="se-camino">
+            <option value="">Elegí un camino</option>
+            <option>Reparar: la norma es justa y quiero hacerme cargo</option>
+            <option>Revisar la norma: es excesiva o no es mía</option>
+            <option>Un poco de las dos</option>
+          </select>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-paso">Un paso concreto</label><input class="lab-campo" id="se-paso" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda">Para reparar, mirá el <a href="/laboratorio-del-perdon/#reparar">laboratorio del perdón</a>. Para revisar un mandato, el ejercicio <a href="/laboratorio-gestalt-contacto/#introyecto">masticar un «debería»</a>.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="envidia" aria-labelledby="t-envidia">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-envidia">Lo que dice la envidia</h2>
+      <p class="lab-estacion__bajada">La envidia es de las emociones que más se esconden, porque avergüenza sentirla. Pero leída como señal, dice algo valioso: muestra un deseo propio que quizás no te animás a reconocer, y la sensación de que no podés alcanzarlo. Levy le dedica un capítulo a aprender de la envidia. Probá escucharla.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-dice-la-envidia" data-lab-form-titulo="Lo que dice la envidia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-envidio">¿A quién envidio? (nadie va a leerlo)</label><input class="lab-campo" id="se-envidio" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-tiene">¿Qué tiene o qué hace esa persona?</label><textarea class="lab-texto" id="se-tiene" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-deseo-envidia">¿Qué de eso deseo, de verdad, para mí?</label><textarea class="lab-texto" id="se-deseo-envidia" rows="2" placeholder="A veces no es el objeto, sino lo que representa: libertad, reconocimiento, tiempo, amor"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-impide">¿Qué siento que me impide buscarlo?</label><textarea class="lab-texto" id="se-impide" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-paso-envidia">Un primer paso hacia ese deseo, a mi manera</label><input class="lab-campo" id="se-paso-envidia" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="verguenza" aria-labelledby="t-verguenza">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-verguenza">La vergüenza y la mirada</h2>
+      <p class="lab-estacion__bajada">La vergüenza aparece cuando algo de nosotros queda expuesto ante una mirada que lo desvaloriza: la de otros, o la nuestra. Lo que duele no es solo lo que hicimos o somos, sino la vara con que nos medimos. Levy dedica un capítulo a la vergüenza y su curación. Una forma de empezar es cambiar de mirada.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="la-verguenza-y-la-mirada" data-lab-form-titulo="La vergüenza y la mirada" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-avergonzado">¿Qué me avergüenza?</label><textarea class="lab-texto" id="se-avergonzado" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-mirada">¿Ante qué mirada? ¿Quién me mira así, o a quién se parece esa mirada?</label><input class="lab-campo" id="se-mirada" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-vara">¿Con qué vara me estoy midiendo?</label><input class="lab-campo" id="se-vara" type="text" placeholder="Por ejemplo: «tendría que tener todo resuelto a mi edad»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="se-otra-mirada">¿Cómo miraría esto alguien que me quiere y me conoce bien?</label><textarea class="lab-texto" id="se-otra-mirada" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda">Si esta mirada crítica es muy fuerte, el <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a> y el de <a href="/laboratorio-de-no-violencia-interior/">no violencia hacia uno mismo</a> pueden ayudarte.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="leer" aria-labelledby="t-leer">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-leer">Leer el tablero</h2>
+      <p class="lab-estacion__bajada">Para practicar: en cada situación, ¿qué luz se encendió y qué está señalando?</p>
+      <div class="lab-tarjeta" data-lab-quiz="tablero">
+        <p class="lab-tarjeta__titulo">¿Qué señala esta emoción?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="sabiduria-emociones">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. El tablero.</strong> Anotá qué luces se encendieron hoy y en qué momento.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Miedo.</strong> Ante un miedo, preguntate qué recurso te falta y sumá uno.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Enojo.</strong> Ante un enojo, nombrá el deseo y el obstáculo antes de actuar.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Culpa.</strong> Revisá una culpa: ¿la norma es justa? ¿Toca reparar o revisar?</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Envidia.</strong> Escuchá una envidia y descubrí qué deseo trae.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Vergüenza.</strong> Mirá algo que te avergüenza con los ojos de alguien que te quiere.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Agradecer una señal.</strong> Elegí una emoción difícil de la semana y anotá qué te enseñó.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Leer las emociones como señales no significa que todas tengan una explicación sencilla. Un miedo que no cede, un enojo que lleva a lastimar a alguien, una culpa o una vergüenza que no te dejan vivir, pueden necesitar algo más que un ejercicio: conviene consultarlo. Podés <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Otros laboratorios sobre emociones: <a href="/laboratorio-de-emociones/">emociones</a>, <a href="/laboratorio-dbt-regulacion-emocional/">regulación emocional (DBT)</a> y <a href="/laboratorio-rueda-de-las-emociones/">rueda de las emociones</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Levy, N. (2000). <em>La sabiduría de las emociones</em>. Plaza &amp; Janés.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
