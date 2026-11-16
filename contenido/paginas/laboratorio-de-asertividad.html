@@ -1,0 +1,91 @@
+<!--{
+  "ruta": "/laboratorio-de-asertividad/",
+  "titulo": "Laboratorio de asertividad: ejercicios",
+  "descripcion": "Ejercicios de asertividad: distinguir conductas pasivas, asertivas y agresivas, practicar un guion de tres partes y ensayar situaciones difíciles.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Asertividad", "/laboratorio-de-asertividad/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>asertividad</em>",
+  "bajada": "Decir lo que pensás y necesitás sin someterte ni atacar. Ejercicios para ensayar conversaciones difíciles antes de tenerlas.",
+  "respuesta": "El laboratorio de asertividad propone ejercicios basados en el entrenamiento asertivo de la terapia conductual (Wolpe, 1958; Alberti y Emmons, Your Perfect Right, 1970): reconocer las conductas pasiva, asertiva y agresiva, revisar los derechos asertivos, armar un mensaje en tres partes y ensayar situaciones difíciles. Complementa la pauta DEAR MAN de la DBT. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-asertividad.js", "escenas.js"],
+  "wa_tema": "el laboratorio de asertividad",
+  "articulos": ["comunicacion-no-violenta"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay personas que no pueden decir que no sin pedir mil disculpas, y otras que lo dicen a los gritos. Entre esos dos extremos hay una forma de hablar que respeta a los dos. La asertividad no es una personalidad: es una habilidad que se practica con situaciones concretas.</p>
+        <p>El entrenamiento asertivo se formó dentro de la terapia conductual. Joseph Wolpe (<em>Psychotherapy by Reciprocal Inhibition</em>, 1958) incluyó la práctica de la asertividad como técnica para reducir la ansiedad de las relaciones. Robert Alberti y Michael Emmons (<em>Your Perfect Right</em>, 1970) la popularizaron con una idea central: cada persona tiene derechos asertivos, y ejercerlos no quita los del otro. Dentro de la terapia dialéctico-conductual, Marsha Linehan integra esta práctica en la pauta DEAR MAN, para pedir lo que se necesita.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin guion perfecto.</strong> Es un borrador para ensayar.</li>
+        <li><strong>Sin registro.</strong> Nada de lo que escribas sale de tu dispositivo.</li>
+        <li><strong>Ensayá antes.</strong> Practicarlo en voz alta reduce la tensión de la conversación real.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#estilos">Pasiva, asertiva o agresiva</a>
+      <a href="#derechos">Derechos asertivos</a>
+      <a href="#guion">Guion de tres partes</a>
+      <a href="#ensayo">Ensayo de situaciones</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="estilos" aria-labelledby="t-estilos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-estilos">¿Pasiva, asertiva o agresiva?</h2>
+      <p class="lab-estacion__bajada">La conducta pasiva deja de lado lo que uno piensa para evitar el conflicto. La agresiva se impone a costa del otro. La asertiva dice lo que piensa y necesita, respeta al otro y se mantiene firme sin humillar.</p>
+      <div class="lab-tarjeta" data-lab-quiz="estilos">
+        <p class="lab-tarjeta__titulo">¿Qué estilo es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Ah, bueno, lo que digas. No pasa nada, aunque en realidad me molestó.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Pasiva</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Asertiva</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="c" aria-pressed="false">Agresiva</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="derechos" aria-labelledby="t-derechos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-derechos">Derechos asertivos</h2>
+      <p class="lab-estacion__bajada">Alberti y Emmons proponen una lista de derechos que todos tenemos. Leelos despacio y marcá cuáles te cuesta ejercer. Esa lista suele mostrar dónde aparece la culpa.</p>
+      <ul class="lab-tarjeta lab-derechos">
+        <li>Tenés derecho a decir no sin sentirte obligado a justificarte.</li>
+        <li>Tenés derecho a expresar lo que sentís y pensás.</li>
+        <li>Tenés derecho a cambiar de opinión.</li>
+        <li>Tenés derecho a pedir lo que necesitás, aunque el otro pueda decir que no.</li>
+        <li>Tenés derecho a no ser responsable de los problemas ajenos.</li>
+        <li>Tenés derecho a equivocarte y a reparar tu error.</li>
+      </ul>
+    </section>
+
+    <section class="lab-estacion revelar" id="guion" aria-labelledby="t-guion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-guion">Guion de tres partes</h2>
+      <p class="lab-estacion__bajada">Una forma sencilla de decir algo asertivo: describir lo que pasó, nombrar lo que sentís y pedir algo concreto. No hace falta más.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="guion-asertivo" data-lab-form-titulo="Guion asertivo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-paso">1. Lo que pasó</label><textarea class="lab-texto" id="as-paso" rows="2" placeholder="Describí el hecho, sin etiquetas: «Te pedí el informe para el martes y lo recibí el jueves.»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-siento">2. Lo que siento o pienso</label><input class="lab-campo" id="as-siento" type="text" placeholder="Por ejemplo: «Me preocupó, porque tenía que presentarlo.»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="as-pido">3. Lo que pido</label><input class="lab-campo" id="as-pido" type="text" placeholder="Algo concreto: «¿Podemos acordar una fecha antes del lunes?»" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="ensayo" aria-labelledby="t-ensayo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-ensayo">Ensayo de situaciones</h2>
+      <p class="lab-estacion__bajada">Elegí una situación y decí tu guion en voz alta, dos o tres veces. Si el primer intento sale torpe, es normal: la práctica es lo que vuelve natural la respuesta asertiva.</p>
+      <div class="lab-tarjeta" data-lab-azar="situaciones">
+        <p class="lab-tarjeta__titulo">Una situación para ensayar</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra situación</button></div>
+      </div>
+    </section>
+  </div>
+</section>

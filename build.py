@@ -498,6 +498,18 @@ LABORATORIOS = [
      "descripcion": "Reescribir la voz crítica, una pausa de autocompasión, una carta para vos y un registro de logros."},
     {"titulo": "Laboratorio de vínculos y límites", "ruta": "/laboratorio-de-vinculos/", "tipo": "Vínculos",
      "descripcion": "Tu mapa de vínculos, señales de alarma, cómo decir que no y tu forma de vincularte."},
+    {"titulo": "Laboratorio de no violencia hacia uno mismo", "ruta": "/laboratorio-de-no-violencia-interior/", "tipo": "Autotrato",
+     "descripcion": "Detectar la autoagresión, distinguirla de la autocrítica que ayuda, rastrear de dónde viene esa voz y practicar un trato firme y respetuoso."},
+    {"titulo": "Laboratorio de buen trato y paz", "ruta": "/laboratorio-de-buen-trato/", "tipo": "Buen trato",
+     "descripcion": "Decir no en paz, reparar después de un conflicto y practicar microgestos de respeto, con habilidades de la DBT y la mirada de Gilbert."},
+    {"titulo": "Laboratorio del jardinero interior", "ruta": "/laboratorio-del-jardinero-interior/", "tipo": "Cultivo",
+     "descripcion": "Cultivar lo que te nutre y podar lo que te desgasta: darse cuenta, malezas y semillas, y un plan de cultivo semanal."},
+    {"titulo": "Laboratorio de asertividad", "ruta": "/laboratorio-de-asertividad/", "tipo": "Asertividad",
+     "descripcion": "Distinguir conductas pasivas, asertivas y agresivas, revisar derechos asertivos, armar un guion de tres partes y ensayar situaciones."},
+    {"titulo": "Laboratorio de higiene sensorial", "ruta": "/laboratorio-de-higiene-sensorial/", "tipo": "Bienestar",
+     "descripcion": "Lo que entra por los ojos y los oídos: separar estímulo e interpretación, registrar tus entradas y probar un experimento de una semana."},
+    {"titulo": "Laboratorio de flexibilidad ante las expectativas", "ruta": "/laboratorio-de-flexibilidad-ante-expectativas/", "tipo": "Flexibilidad",
+     "descripcion": "Distinguir preferencias de exigencias, separar valores de metas y ensayar pensamientos con distancia, según Ellis y la ACT."},
     {"titulo": "Laboratorio de duelo", "ruta": "/laboratorio-de-duelo/", "tipo": "Pérdidas",
      "descripcion": "El ir y venir del duelo, una carta a quien ya no está, lo que te dejó, rituales y fechas difíciles."},
     {"titulo": "Laboratorio de sombra y arquetipos", "ruta": "/laboratorio-de-sombra-y-arquetipos/", "tipo": "Jung",
@@ -554,6 +566,8 @@ LABORATORIOS = [
      "descripcion": "Empezar el día con propósito, ver las cosas como son, recordar lo breve y mirar a otros con benevolencia."},
     {"titulo": "Laboratorio del amor como arte", "ruta": "/laboratorio-del-amor-como-arte/", "tipo": "Amor",
      "descripcion": "Cuidado, responsabilidad, respeto y conocimiento, y la diferencia entre tener y ser, con Erich Fromm."},
+    {"titulo": "Laboratorio de los lenguajes del amor", "ruta": "/laboratorio-de-los-lenguajes-del-amor/", "tipo": "Amor",
+     "descripcion": "Palabras, tiempo, servicio, contacto y regalos: cinco formas de dar y recibir cariño, con Gary Chapman."},
     {"titulo": "Laboratorio estoico", "ruta": "/laboratorio-estoico/", "tipo": "Estoicismo",
      "descripcion": "Lo que depende de mí, anticipar un contratiempo, el examen nocturno y la opinión sobre uno mismo, con Epicteto."},
     {"titulo": "Laboratorio de grupos", "ruta": "/laboratorio-de-grupos/", "tipo": "Grupos",
@@ -606,6 +620,7 @@ TEMAS_LAB = {
     "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
     "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones", "/laboratorio-de-pensamientos-repetitivos/": "Emociones",
     "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones",
+    "/laboratorio-de-no-violencia-interior/": "Emociones", "/laboratorio-de-buen-trato/": "Vínculos", "/laboratorio-del-jardinero-interior/": "Emociones", "/laboratorio-de-asertividad/": "Vínculos", "/laboratorio-de-higiene-sensorial/": "Cuerpo y respiración", "/laboratorio-de-flexibilidad-ante-expectativas/": "Enfoques",
     "/laboratorio-de-sombra-y-arquetipos/": "Jung y autoconocimiento", "/laboratorio-de-estres/": "Cuerpo y respiración",
     "/laboratorio-de-descanso/": "Cuerpo y respiración", "/laboratorio-de-habitos/": "Aprendizaje y cambio",
     "/laboratorio-de-respiraciones/": "Cuerpo y respiración", "/laboratorio-de-meditacion/": "Cuerpo y respiración",
@@ -624,7 +639,7 @@ TEMAS_LAB = {
     "/laboratorio-de-transacciones-y-estados-del-yo/": "Psicología en práctica", "/laboratorio-de-la-psique-y-la-imagen/": "Psicología en práctica",
     "/laboratorio-de-pesadillas/": "Emociones", "/laboratorio-de-pareja/": "Vínculos", "/laboratorio-de-adolescentes/": "Vínculos",
     "/laboratorio-de-psicologia-corporal/": "Cuerpo y respiración", "/laboratorio-de-psicologia-transpersonal/": "Enfoques",
-    "/laboratorio-del-amor-como-arte/": "Vínculos", "/laboratorio-estoico/": "Filosofía en práctica", "/laboratorio-de-grupos/": "Vínculos",
+    "/laboratorio-del-amor-como-arte/": "Vínculos", "/laboratorio-de-los-lenguajes-del-amor/": "Vínculos", "/laboratorio-estoico/": "Filosofía en práctica", "/laboratorio-de-grupos/": "Vínculos",
     "/laboratorio-de-seneca/": "Filosofía en práctica", "/laboratorio-de-marco-aurelio/": "Filosofía en práctica",
     "/laboratorio-de-la-vida-que-no-es-breve/": "Filosofía en práctica",
     "/laboratorio-de-la-angustia/": "Filosofía en práctica", "/laboratorio-de-virtudes/": "Filosofía en práctica",
@@ -2006,6 +2021,17 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         '<description>Divulgación sobre psicología analítica, emociones, vínculos y autoconocimiento.</description>'
         f'<language>es-ar</language><lastBuildDate>{fecha_rss(HOY)}</lastBuildDate>{items}</channel></rss>\n', encoding="utf-8")
 
+    # Tipo de cada página para los filtros del buscador (/buscar/).
+    def tipo_de_ruta(ruta, rutas_lab):
+        if ruta in rutas_lab:
+            return "Laboratorio"
+        if ruta.startswith("/recursos/psicoquiz") or ruta.startswith("/escala-") or "/test" in ruta or ruta.startswith("/psicoquiz"):
+            return "Test"
+        if ruta.startswith("/ejercicio-") or ruta.startswith("/recursos/ejercicio"):
+            return "Ejercicio"
+        if ruta.startswith("/recursos/voces-que-nos-habitan"):
+            return "Voces"
+        return "Página"
     # buscar.json: índice para el buscador del sitio (/buscar/)
     rutas_lab = {l["ruta"] for l in LABORATORIOS}
     arts = {a["ruta"]: a for a in ARTICULOS if a["publicado"]}
@@ -2025,7 +2051,7 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
             indice.append({"t": a["titulo"], "k": "Artículo", "u": ruta, "d": a.get("resumen", ""),
                            "c": a.get("palabras_clave", "") + ", " + a["categoria"], "x": texto[:1000]})
         else:
-            indice.append({"t": html.unescape(nombres.get(ruta, ruta)), "k": "Laboratorio" if ruta in rutas_lab else "Página", "u": ruta,
+            indice.append({"t": html.unescape(nombres.get(ruta, ruta)), "k": tipo_de_ruta(ruta, rutas_lab), "u": ruta,
                            "d": html.unescape(desc.group(1)) if desc else "", "c": "", "x": texto[:900 if ruta in rutas_lab else 500]})
     for t in GLOSARIO:
         indice.append({"t": t["termino"], "k": "Glosario", "u": f"/glosario-junguiano/#{slug(t['termino'])}",

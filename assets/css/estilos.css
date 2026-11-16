@@ -1385,3 +1385,15 @@ main > .seccion ~ .seccion { content-visibility: auto; contain-intrinsic-size: a
 .vo-caja blockquote p { margin: 0; font-family: var(--f-display); font-size: 1.3rem; line-height: 1.4; color: var(--tinta); }
 .vo-caja__pie { margin: .6rem 0 .8rem; font-family: var(--f-sans); font-size: .8rem; color: var(--texto-2); }
 .vo-caja a { font-family: var(--f-sans); font-size: .9rem; font-weight: 600; }
+
+/* Buscador: filtros por tipo y etiquetas de resultado */
+.buscador-filtros { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.25rem 0 .5rem; }
+.buscador-filtros:empty { display: none; }
+.buscador-filtro { font: inherit; font-size: .85rem; color: var(--tinta); background: transparent; border: 1px solid rgba(38,36,31,.22); border-radius: 999px; padding: .4rem .85rem; cursor: pointer; min-height: 40px; transition: background-color .2s, border-color .2s, color .2s; }
+.buscador-filtro span { color: var(--piedra-oscura); margin-left: .2rem; font-variant-numeric: tabular-nums; }
+.buscador-filtro:hover { border-color: var(--salvia-profunda); }
+.buscador-filtro--activo { background: var(--salvia-profunda); border-color: var(--salvia-profunda); color: #F7F4EE; }
+.buscador-filtro--activo span { color: #F7F4EE; }
+.buscador-filtro:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.busqueda-tipo { display: inline-block; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--salvia-profunda); border: 1px solid rgba(74,90,60,.35); border-radius: 999px; padding: .1rem .5rem; margin-right: .35rem; vertical-align: .1em; }
+.busqueda-mas { font-size: .9rem; color: var(--piedra-oscura); margin-top: .75rem; }

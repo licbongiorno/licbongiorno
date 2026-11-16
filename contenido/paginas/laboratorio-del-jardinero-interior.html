@@ -1,0 +1,95 @@
+<!--{
+  "ruta": "/laboratorio-del-jardinero-interior/",
+  "titulo": "Laboratorio del jardinero interior: ejercicios",
+  "descripcion": "Ejercicios para cultivar lo que te nutre y podar lo que te desgasta, desde la Gestalt y el ambiente suficientemente bueno de Winnicott.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Jardinero interior", "/laboratorio-del-jardinero-interior/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio del <em>jardinero interior</em>",
+  "bajada": "No solo arrancar lo que te daña: también sembrar, regar y darle tiempo a lo que crece. Ejercicios para cuidarte como cuidarías un jardín.",
+  "respuesta": "El laboratorio del jardinero interior propone ejercicios de autocuidado basados en la Gestalt (darse cuenta del presente, figura y fondo, contacto) y en la idea de Donald Winnicott de un ambiente suficientemente bueno. Incluye un inventario de lo que nutre y lo que desgasta, un plan de cultivo semanal y una práctica de darse cuenta. No es un plan alimentario ni reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-jardinero.js", "escenas.js"],
+  "wa_tema": "el laboratorio del jardinero interior",
+  "articulos": ["la-culpa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Cuando algo no va bien, solemos buscar qué arrancar: el mal hábito, la persona que nos agota, el pensamiento que no para. Es necesario, pero un jardín no se sostiene solo con podar. Hace falta sembrar, regar y dejar tiempo para que crezca lo que vale. Este laboratorio propone mirarte de esa manera: como alguien que cuida un terreno que se transforma todos los días.</p>
+        <p>Desde la <strong>Gestalt</strong>, Perls, Hefferline y Goodman (<em>Gestalt Therapy</em>, 1951) ubican el cuidado en el <strong>darse cuenta</strong> del presente: notar qué figura ocupa primer plano y qué queda en el fondo, qué nutre el contacto y qué lo interrumpe. Donald Winnicott (<em>Realidad y juego</em>, 1971) habla del ambiente <strong>suficientemente bueno</strong>: no hace falta ser perfecto para cuidar bien. Lo que importa es la constancia, no el gesto heroico.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin perfección.</strong> Un jardín tiene malezas. Eso no lo vuelve un fracaso.</li>
+        <li><strong>Sin registro.</strong> Nada de lo que escribas sale de tu dispositivo.</li>
+        <li><strong>Con constancia.</strong> Un poco cada semana rinde más que mucho una vez.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#darse-cuenta">Darse cuenta</a>
+      <a href="#inventario">Malezas y semillas</a>
+      <a href="#suficiente">Lo suficientemente bueno</a>
+      <a href="#cultivo">Mi plan de cultivo</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="darse-cuenta" aria-labelledby="t-darse-cuenta">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-darse-cuenta">Darse cuenta o juzgarse</h2>
+      <p class="lab-estacion__bajada">Darse cuenta es describir lo que está pasando en el cuerpo, en la mirada o en la situación, sin sentencia. Juzgarse es ponerle una etiqueta a la persona. El primer paso del jardinero es mirar la planta antes de decidir qué hacer con ella.</p>
+      <div class="lab-tarjeta" data-lab-quiz="darse-cuenta">
+        <p class="lab-tarjeta__titulo">¿Es darse cuenta o es un juicio?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Noto que tengo los hombros tensos cuando hablo con mi jefe.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Darse cuenta</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Juicio</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="inventario" aria-labelledby="t-inventario">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-inventario">Malezas y semillas</h2>
+      <p class="lab-estacion__bajada">Hacé dos listas. En la primera, lo que desgasta: hábitos, horarios, personas, pensamientos que se repiten. En la segunda, lo que nutre: lo que te deja más entero, lo que te calma, lo que te da sentido. No hace falta que sean grandes cosas. Un paseo o una charla con alguien querido cuentan.</p>
+      <div class="lab-estaciones-listas">
+        <div data-lab-lista-editable data-lab-lista-titulo="Malezas: lo que desgasta" class="lab-tarjeta">
+          <label class="lab-paso__titulo" for="jd-maleza" style="display:block">Una maleza</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="jd-maleza" type="text" placeholder="Por ejemplo: revisar el mail a la noche" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div data-lab-lista-editable data-lab-lista-titulo="Semillas: lo que nutre" class="lab-tarjeta">
+          <label class="lab-paso__titulo" for="jd-semilla" style="display:block">Una semilla</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="jd-semilla" type="text" placeholder="Por ejemplo: caminar sin el celular" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="suficiente" aria-labelledby="t-suficiente">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-suficiente">Lo suficientemente bueno</h2>
+      <p class="lab-estacion__bajada">Winnicott describió el ambiente suficientemente bueno como aquel que se adapta a las necesidades de cada momento y que, con el tiempo, se va adaptando un poco menos, para que la persona aprenda a sostenerse. Aplicado a vos: no necesitás cuidarte perfecto. Necesitás cuidarte de forma sostenida, y ajustar el cuidado cuando cambia la necesidad.</p>
+      <div class="lab-tarjeta" data-lab-azar="cuidado">
+        <p class="lab-tarjeta__titulo">Una práctica de constancia</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra práctica</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cultivo" aria-labelledby="t-cultivo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-cultivo">Mi plan de cultivo</h2>
+      <p class="lab-estacion__bajada">Una semana, tres gestos: lo que vas a regar, lo que vas a podar y lo que vas a sembrar. Pensalo chico, algo que puedas cumplir aunque sea un día malo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="plan-de-cultivo" data-lab-form-titulo="Mi plan de cultivo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jc-regar">Lo que voy a regar</label><textarea class="lab-texto" id="jc-regar" rows="2" placeholder="Algo que nutre y que quiero sostener"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jc-podar">Lo que voy a podar</label><textarea class="lab-texto" id="jc-podar" rows="2" placeholder="Algo que desgasta y que puedo reducir"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jc-sembrar">Lo que voy a sembrar</label><textarea class="lab-texto" id="jc-sembrar" rows="2" placeholder="Algo nuevo que quiero empezar"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jc-dia-dificil">Si es un día difícil, lo mínimo que hago</label><input class="lab-campo" id="jc-dia-dificil" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+  </div>
+</section>

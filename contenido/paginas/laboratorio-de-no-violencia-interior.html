@@ -1,0 +1,105 @@
+<!--{
+  "ruta": "/laboratorio-de-no-violencia-interior/",
+  "titulo": "Laboratorio de no violencia hacia uno mismo: ejercicios",
+  "descripcion": "Ejercicios para detectar la autoagresión, distinguirla de la autocrítica que ayuda, rastrear su origen y reemplazarla por un trato firme y respetuoso.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["No violencia interior", "/laboratorio-de-no-violencia-interior/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>no violencia hacia uno mismo</em>",
+  "bajada": "Ejercicios para notar cómo te hablás cuando te equivocás, de dónde aprendiste ese tono y cómo empezar a tratarte con firmeza y sin castigo.",
+  "respuesta": "El laboratorio de no violencia hacia uno mismo propone ejercicios basados en el psicoanálisis y en la terapia dialéctico-conductual: distinguir la autocrítica que ayuda de la autoagresión, rastrear el origen de la voz crítica (el superyó, según Freud), registrar tus propias frases y practicar un trato validante y firme, al estilo de Marsha Linehan. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-no-violencia.js", "escenas.js"],
+  "wa_tema": "el laboratorio de no violencia hacia uno mismo",
+  "articulos": ["la-culpa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay una forma de hablarse que nunca tolerarías en otra persona. Después de un error, aparecen frases como «sos un inútil» o «siempre arruinás todo». Se dicen rápido, parecen sinceras y casi nunca ayudan a cambiar nada. Este laboratorio no busca que te digas cosas lindas por obligación. Busca que notes el tono, entiendas de dónde viene y elijas un trato que sí sirva.</p>
+        <p>Desde el psicoanálisis, Freud describió el <strong>superyó</strong> como una instancia que hereda la voz de las primeras figuras de autoridad (<em>El yo y el ello</em>, 1923). En <em>El malestar en la cultura</em> (1930) sostiene que su severidad corresponde, en buena medida, a la propia agresión del sujeto, más que a lo que los padres hicieron realmente. En <em>Duelo y melancolía</em> (1917) describe cómo los reproches contra uno mismo pueden ser, en realidad, reproches dirigidos a otro que se volvió contra el yo. Desde la terapia dialéctico-conductual, Marsha Linehan (<em>Cognitive-Behavioral Treatment of Borderline Personality Disorder</em>, 1993) trabaja la validación y señala la <strong>autoinvalidación</strong> como un patrón que mantiene el sufrimiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin juzgarte por juzgarte.</strong> Notar la autoagresión ya es un paso.</li>
+        <li><strong>Sin registro.</strong> Nada de lo que escribas sale de tu dispositivo.</li>
+        <li><strong>De a poco.</strong> Una estación por vez alcanza.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#distinguir">Autocrítica o autoagresión</a>
+      <a href="#origen">De dónde viene la voz</a>
+      <a href="#registro">Mi registro</a>
+      <a href="#reemplazo">Trato firme y respetuoso</a>
+      <a href="#cuidado">Cuando se pone difícil</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="distinguir" aria-labelledby="t-distinguir">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-distinguir">¿Autocrítica que ayuda o autoagresión?</h2>
+      <p class="lab-estacion__bajada">La autocrítica útil reconoce un error, se responsabiliza y propone algo para reparar o mejorar. La autoagresión insulta, generaliza («siempre», «nunca») y no deja ningún camino: solo castiga. Pensá en cómo te sentís después de cada una: la primera deja ganas de hacer algo; la segunda, ganas de esconderte.</p>
+      <div class="lab-tarjeta" data-lab-quiz="autocritica">
+        <p class="lab-tarjeta__titulo">¿Qué tipo de frase es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Me olvidé de devolver el llamado. Le escribo ahora y me disculpo.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Autocrítica que ayuda</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Autoagresión</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="origen" aria-labelledby="t-origen">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-origen">De dónde viene la voz</h2>
+      <p class="lab-estacion__bajada">Muchas frases de autoagresión suenan a alguien: un padre que exigía sin dar margen, un maestro que humillaba, una pareja que controlaba, una cultura que premiaba solo el resultado. Freud llamaba superyó a esa voz interiorizada. Conocer su origen no justifica lo que dice, pero permite separarla de la propia voz. Preguntate:</p>
+      <div class="lab-tarjeta">
+        <ol class="lab-guion">
+          <li>¿Esta frase me la dijo alguien? ¿Quién, y en qué época?</li>
+          <li>¿Esa persona me trataba así porque yo lo merecía, o por cómo era ella?</li>
+          <li>Si hoy la dijera un amigo sobre sí mismo, ¿qué le contestaría?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-registro">Mi registro</h2>
+      <p class="lab-estacion__bajada">La próxima vez que notes una frase de autoagresión, anotala. Con el tiempo aparecen patrones: las situaciones que la disparan, el tono y el origen. Lo que registrás te muestra dónde trabajar primero.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="registro-no-violencia-interior" data-lab-form-titulo="Registro de autoagresión y trato" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nv-situacion">¿Qué pasó?</label><textarea class="lab-texto" id="nv-situacion" rows="2" placeholder="Un error, una discusión, algo que no salió como esperabas…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nv-frase">¿Qué te dijiste, palabra por palabra?</label><textarea class="lab-texto" id="nv-frase" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nv-origen">¿Te suena de alguien?</label><input class="lab-campo" id="nv-origen" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nv-reemplazo">¿Qué te dirías con firmeza y respeto?</label><textarea class="lab-texto" id="nv-reemplazo" rows="3" placeholder="Por ejemplo: «Me equivoqué. Puedo reparar esto y aprender algo.»"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="reemplazo" aria-labelledby="t-reemplazo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-reemplazo">Trato firme y respetuoso</h2>
+      <p class="lab-estacion__bajada">Linehan distingue la validación de la complacencia: validar es reconocer que la reacción tiene sentido dado lo que pasó, y a la vez sostener un cambio. Firme no es cruel. Se puede decir «me equivoqué y quiero corregirlo» sin agregar «y soy un fracaso».</p>
+      <div class="lab-tarjeta" data-lab-quiz="reemplazo">
+        <p class="lab-tarjeta__titulo">¿Cuál de estas respuestas es un trato firme y respetuoso?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Es lógico que estés enojado con vos mismo. Ahora pensemos qué sigue.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Sí, reconoce y propone un paso</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">No, es complacencia</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cuidado" aria-labelledby="t-cuidado">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-cuidado">Cuando se pone difícil</h2>
+      <p class="lab-estacion__bajada">Si la voz crítica empuja a hacerte daño, o aparecen pensamientos de no querer vivir, este laboratorio no alcanza. Buscá apoyo ahora: llamá al 911 o acercate a la guardia más cercana, y pedí una consulta con un profesional de salud mental. Si lo que te lastima viene de alguien que te controla, te humilla o te amenaza, también podés llamar a la línea 144.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-paso__ayuda">Una pregunta para el día que cueste: ¿a quién puedo contarle esto hoy?</p>
+      </div>
+    </section>
+  </div>
+</section>

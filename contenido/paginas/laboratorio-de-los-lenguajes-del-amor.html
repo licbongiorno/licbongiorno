@@ -1,0 +1,126 @@
+<!--{
+  "ruta": "/laboratorio-de-los-lenguajes-del-amor/",
+  "titulo": "Laboratorio de los lenguajes del amor: Chapman",
+  "descripcion": "Palabras, tiempo, servicio, contacto y regalos: cinco formas de dar y recibir cariño. Para notar la tuya y traducir la del otro.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Lenguajes del amor",
+      "/laboratorio-de-los-lenguajes-del-amor/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de los <em>lenguajes del amor</em>",
+  "bajada": "Hay cariño que no llega porque se dice en otro idioma. Cinco formas de expresarlo y una pregunta: ¿cuál hablo yo, y cuál necesita el otro?",
+  "respuesta": "El laboratorio de los lenguajes del amor parte del marco de Gary Chapman: palabras de afirmación, tiempo de calidad, actos de servicio, contacto físico y regalos. Propone notar cómo recibís el cariño, cómo lo das, traducir lo que necesita el otro y mirar las diferencias.",
+  "scripts": [
+    "lab-base.js"
+  ],
+  "wa_tema": "el laboratorio de los lenguajes del amor",
+  "articulos": [
+    "erich-fromm",
+    "rollo-may",
+    "irvin-yalom"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Dos personas pueden quererse mucho y sentirse poco queridas. Gary Chapman propuso que cada uno tiene una forma preferida de recibir cariño, y que a veces la damos en la forma que a nosotros nos gusta, no en la que el otro necesita.</p>
+        <p>Es un marco útil para conversar, pero no tiene el respaldo de la investigación que tienen otros enfoques. Tomalo como punto de partida, no como un diagnóstico de la pareja.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con honestidad.</strong> Probalo con alguien que querés, sin buscar quién tiene la razón.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Podés hacer una sola estación y volver otro día.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#recibir">Recibir</a><a href="#dar">Dar</a><a href="#traducir">Traducir</a><a href="#diferencia">La diferencia</a></nav>
+
+    <section class="lab-estacion revelar" id="recibir" aria-labelledby="t-recibir">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-recibir">Recibir</h2>
+      <p class="lab-estacion__bajada">Elegí la forma que más te hace sentir querido o querida. Después pensá cuándo la sentiste por última vez.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué me hace sentir querido o querida">
+          <label class="opcion"><input type="radio" name="recibo" value="palabras" checked><span>Palabras</span></label>
+          <label class="opcion"><input type="radio" name="recibo" value="tiempo"><span>Tiempo</span></label>
+          <label class="opcion"><input type="radio" name="recibo" value="servicio"><span>Servicio</span></label>
+          <label class="opcion"><input type="radio" name="recibo" value="contacto"><span>Contacto</span></label>
+          <label class="opcion"><input type="radio" name="recibo" value="regalos"><span>Regalos</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="palabras"><p>Palabras de afirmación: que te digan lo que valoran de vos, con palabras concretas. Anotá qué frase te quedó grabada.</p></div>
+        <div class="lab-panel" data-lab-panel="tiempo" hidden><p>Tiempo de calidad: atención completa, sin celular de por medio. Anotá qué conversación o salida te hizo sentir acompañado o acompañada.</p></div>
+        <div class="lab-panel" data-lab-panel="servicio" hidden><p>Actos de servicio: que alguien haga algo concreto que te facilita la vida. Anotá cuál te alivió de verdad.</p></div>
+        <div class="lab-panel" data-lab-panel="contacto" hidden><p>Contacto físico: abrazos, caricias, un gesto de cercanía que se dé con cuidado y con permiso. Anotá cuándo lo sentiste como cariño y no como presión.</p></div>
+        <div class="lab-panel" data-lab-panel="regalos" hidden><p>Regalos: un detalle que muestra que alguien pensó en vos. No importa el precio, sino que sea un símbolo. Anotá cuál te emocionó.</p></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="recibir-lenguaje" data-lab-form-titulo="Recibir" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-cuando">Cuándo la sentí por última vez</label><textarea class="lab-texto" id="re-cuando" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-que">Qué fue exactamente</label><textarea class="lab-texto" id="re-que" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="dar" aria-labelledby="t-dar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-dar">Dar</h2>
+      <p class="lab-estacion__bajada">Cuando queremos a alguien, solemos mostrarlo como nos gustaría que nos lo mostraran. Notá tu forma habitual de dar cariño.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dar-lenguaje" data-lab-form-titulo="Dar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="da-habito">Cómo suelo demostrar cariño</label><textarea class="lab-texto" id="da-habito" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="da-llega">Lo que hago con cariño y quizás no llega como cariño</label><textarea class="lab-texto" id="da-llega" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="traducir" aria-labelledby="t-traducir">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-traducir">Traducir</h2>
+      <p class="lab-estacion__bajada">Traducir no es adivinar. Es preguntar y observar qué le hace bien a esa persona, y después probar una acción concreta.</p>
+      <div class="lab-tarjeta" id="pasos-traducir" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos"><li><strong>Preguntar.</strong> ¿Qué te hace sentir más cuidado o cuidada?</li><li><strong>Observar.</strong> ¿Qué pide o agradece con más ganas?</li><li><strong>Probar.</strong> Elegí una acción concreta en su idioma para esta semana.</li></ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="traducir-lenguaje" data-lab-form-titulo="Traducir" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tr-persona">A quién quiero traducirle el cariño</label><input class="lab-campo" id="tr-persona" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tr-accion">La acción concreta en su idioma</label><textarea class="lab-texto" id="tr-accion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tr-respuesta">Cómo reaccionó, o qué noté</label><textarea class="lab-texto" id="tr-respuesta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="diferencia" aria-labelledby="t-diferencia">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-diferencia">La diferencia</h2>
+      <p class="lab-estacion__bajada">Muchas veces el malentendido no es falta de amor, sino de idioma. Mirar la diferencia sin culpa abre una conversación más amable. Si querés seguir la mirada de Fromm sobre el amor, está en el <a href="/laboratorio-del-amor-como-arte/">laboratorio del amor como arte</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="diferencia-lenguaje" data-lab-form-titulo="La diferencia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="df-yo">Lo que yo doy y me gustaría recibir</label><textarea class="lab-texto" id="df-yo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="df-otro">Lo que el otro da y quizás no reconozco</label><textarea class="lab-texto" id="df-otro" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si en tu vínculo hay control del celular, del dinero o de las salidas, gritos, amenazas o violencia, no es un tema de lenguajes del amor sino de seguridad. Llamá al 144 (violencia de género, las 24 horas) o al 911. Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Chapman, G. (1992). <em>The 5 Love Languages</em>. Northfield Publishing.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
