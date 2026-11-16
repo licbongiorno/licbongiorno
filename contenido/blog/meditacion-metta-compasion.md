@@ -47,7 +47,7 @@ En las últimas dos décadas creció mucho la investigación sobre la compasión
 
 A muchas personas les resulta mucho más fácil desearle el bien a otro que a sí mismas. Cuando aparece resistencia, tristeza o la sensación de «no lo merezco», no es un error: es una información valiosa sobre la relación con uno mismo, muchas veces atravesada por la [culpa](/recursos/la-culpa/) o una voz interna muy exigente. Gilbert llama a esto «miedo a la compasión». Vale la pena explorarlo con calma, y a veces en terapia.
 
-Podés probar la práctica completa en el [laboratorio de meditación](/laboratorio-de-meditacion/). Y si la autocrítica te pesa mucho, podés escribirme.
+Podés probar la práctica completa, con frases guiadas, en el [laboratorio de amor bondadoso](/laboratorio-de-amor-bondadoso/), que forma parte de las [meditaciones del corazón](/laboratorio-meditaciones-del-corazon/): amor bondadoso, [compasión y tonglen](/laboratorio-de-compasion-y-tonglen/), alegría empática y ecuanimidad. Y si la autocrítica te pesa mucho, podés escribirme.
 
 ## Preguntas frecuentes
 

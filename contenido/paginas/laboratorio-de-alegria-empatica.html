@@ -1,0 +1,160 @@
+<!--{
+  "ruta": "/laboratorio-de-alegria-empatica/",
+  "titulo": "Alegría empática (mudita): laboratorio de meditación",
+  "descripcion": "Mudita, la alegría por el bien ajeno: la envidia benigna y la maligna, cómo responder a las buenas noticias de otros, saborear y una meditación guiada.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Meditaciones del corazón",
+      "/laboratorio-meditaciones-del-corazon/"
+    ],
+    [
+      "Alegría empática",
+      "/laboratorio-de-alegria-empatica/"
+    ]
+  ],
+  "antetitulo": "Meditaciones del corazón · Nivel 3, avanzado",
+  "h1": "Alegría <em>empática</em>",
+  "bajada": "Alegrarse de verdad cuando a otro le va bien. Parece fácil y es de lo más difícil: la tercera morada, el antídoto de la envidia.",
+  "respuesta": "El laboratorio de alegría empática propone cultivar mudita, la alegría por el bien ajeno: sus enemigos (la envidia y la alegría superficial o por comparación), la distinción entre envidia benigna y maligna estudiada por Niels van de Ven y colaboradores (2009), los estilos de respuesta a las buenas noticias de otros de Shelly Gable (2004), el saboreo según Fred Bryant y Joseph Veroff, una meditación guiada y frases de mudita, y un plan de 7 días.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-corazon.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de alegría empática",
+  "articulos": [
+    "alegria-empatica-mudita",
+    "meditacion-metta-compasion"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p><em>Mudita</em> es la alegría que sentimos por el bien de otros: su éxito, su felicidad, su buena fortuna. Es la morada que menos atención recibe, y quizás la más desafiante. Acompañar a alguien en su dolor suele salirnos más natural que alegrarnos sin reservas cuando le va mejor que a nosotros.</p><p>Su enemigo lejano es la <strong>envidia</strong> y el rechazo. Su enemigo cercano es una alegría superficial: el entusiasmo forzado, o la que en el fondo compara («me alegro, pero…»). Cultivar mudita no es negar la envidia, que es humana, sino aprender a no quedar atrapado en ella. Y tiene un regalo: la alegría ajena es una fuente casi infinita de alegría propia.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin culpa.</strong> Sentir envidia no te hace mala persona.</li><li><strong>Empezá fácil.</strong> Un chico jugando, un amigo feliz.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+<section class="revelar" aria-labelledby="t-niveles" style="margin:2rem 0">
+      <div class="prosa"><h2 id="t-niveles">Las cuatro moradas</h2></div>
+      <div class="lab-necesidades"><a class="lab-tarjeta" href="/laboratorio-meditaciones-del-corazon/"><h3>Puerta de entrada: las cuatro moradas</h3><p>Qué son, sus enemigos cercanos y lejanos, y una práctica breve de las cuatro.</p></a><a class="lab-tarjeta" href="/laboratorio-de-amor-bondadoso/"><h3>1. Amor bondadoso (metta)</h3><p>Desear el bien, a uno y a los demás, con frases guiadas.</p></a><a class="lab-tarjeta" href="/laboratorio-de-compasion-y-tonglen/"><h3>2. Compasión (karuna) y tonglen</h3><p>Quedarse cerca del sufrimiento sin desbordarse, y la respiración de tonglen.</p></a><div class="lab-tarjeta lab-tarjeta--actual"><h3>3. Alegría empática (mudita)</h3><p>Alegrarse por el bien ajeno: el antídoto de la envidia. Estás acá.</p></div><a class="lab-tarjeta" href="/laboratorio-de-ecuanimidad/"><h3>4. Ecuanimidad (upekkha)</h3><p>Paz y serenidad ante lo que cambia, sin volverse indiferente.</p></a></div>
+    </section>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#envidia">Mirar la envidia</a><a href="#noticias">Las buenas noticias de otros</a><a href="#meditacion">Meditación de mudita</a><a href="#frases">Frases</a><a href="#saborear">Saborear</a><a href="#siete-dias">Plan de 7 días</a></nav>
+
+    <section class="lab-estacion revelar" id="envidia" aria-labelledby="t-envidia">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-envidia">Mirar la envidia</h2>
+      <p class="lab-estacion__bajada">La investigación distingue dos envidias. Niels van de Ven, Marcel Zeelenberg y Rik Pieters encontraron que la <strong>envidia benigna</strong> impulsa a mejorar uno («quiero lograr lo que logró»), mientras que la <strong>maligna</strong> impulsa a rebajar al otro («ojalá lo pierda»). Richard Smith y Sung Hee Kim, en su revisión de 2007, describen la envidia como una emoción dolorosa que mezcla inferioridad y sensación de injusticia. Antes de cultivar mudita, escuchá tu envidia: suele señalar algo que deseás.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mirar-la-envidia" data-lab-form-titulo="Mirar la envidia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-quien">¿A quién envidio, o envidié hace poco?</label><input class="lab-campo" id="en-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-que">¿Qué tiene o logró esa persona?</label><textarea class="lab-texto" id="en-que" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-deseo">¿Qué me muestra esa envidia de lo que yo deseo?</label><textarea class="lab-texto" id="en-deseo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-tipo">¿Me impulsa a mejorar o a que el otro pierda?</label><textarea class="lab-texto" id="en-tipo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="en-paso">Un paso hacia lo que deseo, sin que el otro tenga que perder nada</label><input class="lab-campo" id="en-paso" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="noticias" aria-labelledby="t-noticias">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-noticias">Las buenas noticias de otros</h2>
+      <p class="lab-estacion__bajada">Shelly Gable y su equipo estudiaron qué pasa cuando alguien nos cuenta algo bueno. Encontraron cuatro formas de responder, y solo una, la <strong>activa y constructiva</strong>, se asoció con vínculos más satisfechos y de más confianza. Es mudita en acción. ¿Cuál es cada respuesta?</p>
+      <div class="lab-tarjeta" data-lab-quiz="buenas-noticias">
+        <p class="lab-tarjeta__titulo">¿Qué tipo de respuesta es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="meditacion" aria-labelledby="t-meditacion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-meditacion">Meditación de mudita</h2>
+      <p class="lab-estacion__bajada">Se empieza por alguien cuya alegría nos resulte fácil de celebrar y se avanza hacia los más difíciles. Algunos maestros sugieren empezar por un chico jugando, o por alguien que queremos mucho. Unos dos minutos cada paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="120">
+        <ol class="lab-pasos">
+          <li><strong>Alguien fácil.</strong> Imaginá a un chico jugando, feliz. O a alguien que querés en un momento de alegría. Notá cómo te contagia.</li>
+          <li><strong>Desear que dure.</strong> Decile por dentro: «Me alegro por vos. Que tu alegría crezca. Que esta buena fortuna dure».</li>
+          <li><strong>Un amigo.</strong> Pensá en un amigo al que le está yendo bien en algo. Repetí las frases.</li>
+          <li><strong>Alguien neutro.</strong> Alguien que ves seguido. Imaginá algo bueno que le haya pasado.</li>
+          <li><strong>Alguien que envidiás.</strong> Despacio. Si aparece la envidia, reconocela con amabilidad («esto es envidia») y probá una sola frase.</li>
+          <li><strong>Vos.</strong> Pensá en algo bueno de tu vida y alegrate por eso, sin culpa.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="frases" aria-labelledby="t-frases">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-frases">Frases de alegría empática</h2>
+      <p class="lab-estacion__bajada">Armá tus frases y dejalas aparecer de a una.</p>
+      <div class="lab-tarjeta cor-frases" data-cor-frases="mudita">
+        <p class="lab-tarjeta__titulo">Frases de mudita</p>
+        <div class="lab-tabla2">
+          <div><label for="mudita-dest">¿Hacia quién?</label><select class="lab-campo" id="mudita-dest" data-cor-dest><option value="yo">Hacia mí</option><option value="benefactor">Alguien que me cuidó</option><option value="querido" selected>Alguien querido</option><option value="neutro">Alguien neutro</option><option value="dificil">Alguien difícil</option><option value="todos">Todos los seres</option></select></div>
+          <div data-cor-campo-nombre><label for="mudita-nombre">Su nombre (opcional)</label><input class="lab-campo" id="mudita-nombre" type="text" autocomplete="off" data-cor-nombre placeholder="Solo queda en tu pantalla"></div>
+        </div>
+        <p class="lab-paso__ayuda" data-cor-ayuda></p>
+        <fieldset class="cor-frases__lista"><legend class="lab-paso__titulo">Elegí las frases que te resuenen</legend><div class="opciones opciones--columna" data-cor-opciones></div></fieldset>
+        <div class="lab-tabla2">
+          <div><label for="mudita-propia">Una frase propia (opcional)</label><input class="lab-campo" id="mudita-propia" type="text" autocomplete="off" data-cor-propia placeholder="Con tus palabras"></div>
+          <div><label for="mudita-ritmo">Tiempo por frase</label><select class="lab-campo" id="mudita-ritmo" data-cor-ritmo><option value="6">6 segundos</option><option value="10" selected>10 segundos</option><option value="15">15 segundos</option><option value="20">20 segundos</option></select></div>
+        </div>
+        <div class="cor-pantalla" data-cor-pantalla><p class="cor-texto" data-cor-texto aria-live="polite">Elegí las frases y tocá «Empezar». Las vas a ver de a una, tres vueltas.</p></div>
+        <p class="lab-paso__ayuda" role="status" data-cor-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-cor-empezar>Empezar</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="saborear" aria-labelledby="t-saborear">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-saborear">Saborear</h2>
+      <p class="lab-estacion__bajada">Fred Bryant y Joseph Veroff llamaron <strong>saborear</strong> (<em>savoring</em>) a la capacidad de prestar atención a lo bueno, hacerlo durar y amplificarlo: compartirlo, recordarlo, detenerse en los detalles. Es el músculo que mudita necesita: si no saboreamos lo bueno propio, es difícil celebrar lo ajeno.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="saborear" data-lab-form-titulo="Saborear" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sa-propio">Algo bueno que me pasó hoy, con detalle</label><textarea class="lab-texto" id="sa-propio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sa-ajeno">Algo bueno que le pasó a otra persona</label><textarea class="lab-texto" id="sa-ajeno" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sa-celebrar">¿Cómo puedo celebrarlo con ella?</label><input class="lab-campo" id="sa-celebrar" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="corazon-mudita">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar.</strong> Registrá tres buenas noticias de otros que escuchaste hoy.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Preguntar.</strong> Ante una buena noticia, hacé dos preguntas sobre eso.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Meditación.</strong> Hacé la meditación de mudita.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La envidia.</strong> Escuchá una envidia y escribí qué te muestra.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Saborear.</strong> Detenete un minuto en algo bueno tuyo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Celebrar.</strong> Felicitá a alguien por algo, con detalle.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Lo difícil.</strong> Una frase de mudita hacia alguien que envidiás.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estas prácticas pueden despertar emociones intensas o recuerdos dolorosos, sobre todo al dirigirlas hacia uno o hacia alguien difícil. Si algo se vuelve demasiado, abrí los ojos, sentí los pies en el suelo y volvé otro día con una dosis más chica. Leé <a href="/recursos/cuando-meditar-no-es-recomendable/">cuándo meditar no es recomendable</a>, y si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Si querés trabajarlo en terapia, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Buddhaghosa (s. V). <em>Visuddhimagga</em> (en inglés, <em>The Path of Purification</em>, trad. Bhikkhu Ñāṇamoli), capítulo IX.</li><li>Gable, S. L., Reis, H. T., Impett, E. A. y Asher, E. R. (2004). «What do you do when things go right? The intrapersonal and interpersonal benefits of sharing positive events». <em>Journal of Personality and Social Psychology</em>, 87(2), 228-245.</li><li>Van de Ven, N., Zeelenberg, M. y Pieters, R. (2009). «Leveling up and down: The experiences of benign and malicious envy». <em>Emotion</em>, 9(3), 419-429.</li><li>Smith, R. H. y Kim, S. H. (2007). «Comprehending envy». <em>Psychological Bulletin</em>, 133(1), 46-64.</li><li>Bryant, F. B. y Veroff, J. (2007). <em>Savoring: A New Model of Positive Experience</em>. Lawrence Erlbaum.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
