@@ -1438,3 +1438,32 @@ a.lab-tarjeta:hover { transform: translateY(-2px); }
 .salida-rapida:hover { background: #6f2323; }
 .salida-rapida:focus-visible { outline: 3px solid var(--foco, #000); outline-offset: 3px; }
 @media (min-width: 901px) { .salida-rapida { bottom: 20px; } }
+
+/* ---------- Meditaciones del corazón ---------- */
+.opciones--columna { flex-direction: column; align-items: stretch; }
+.lab-tarjeta--actual { border-color: var(--salvia-profunda); box-shadow: inset 0 0 0 1px var(--salvia-profunda); }
+.lab-tabla-scroll { overflow-x: auto; border: 1px solid var(--linea); border-radius: var(--r-m); background: var(--papel); }
+.lab-tabla { width: 100%; min-width: 34rem; border-collapse: collapse; font-size: var(--t-sm); }
+.lab-tabla th, .lab-tabla td { padding: .75rem .9rem; border-bottom: 1px solid var(--linea); text-align: left; vertical-align: top; }
+.lab-tabla thead th { font-family: var(--f-sans); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--piedra-oscura); }
+.lab-tabla tbody th { font-family: var(--f-display); font-weight: 400; font-size: 1.05rem; color: var(--tinta); }
+.lab-tabla tr:last-child th, .lab-tabla tr:last-child td { border-bottom: 0; }
+.cor-frases__lista { border: 0; padding: 0; margin: 1rem 0; }
+.cor-pantalla { position: relative; display: grid; place-items: center; min-height: 11rem; margin: 1.2rem 0 .6rem; padding: 2rem 1.5rem; border-radius: var(--r-m);
+  background: radial-gradient(circle at 50% 50%, var(--salvia-bruma) 0%, var(--papel) 70%); border: 1px solid var(--linea); overflow: hidden; text-align: center; }
+.cor-pantalla::before { content: ""; position: absolute; width: 9rem; height: 9rem; border-radius: 50%; background: var(--salvia-suave); opacity: .35; transform: scale(.85); }
+.cor-pantalla--activa::before { animation: cor-latido 8s ease-in-out infinite; }
+@keyframes cor-latido { 0%, 100% { transform: scale(.85); opacity: .3; } 50% { transform: scale(1.35); opacity: .55; } }
+.cor-texto { position: relative; margin: 0; max-width: 32rem; font-family: var(--f-display); font-size: clamp(1.25rem, 1rem + 1.2vw, 1.7rem); line-height: 1.35; color: var(--tinta); }
+.cor-texto--entra { animation: cor-entra 1.2s ease-out both; }
+@keyframes cor-entra { from { opacity: 0; transform: translateY(6px); filter: blur(2px); } to { opacity: 1; transform: none; filter: none; } }
+.cor-respira { display: grid; place-items: center; height: 13rem; margin: 1rem 0 .4rem; }
+.cor-circulo { --cor-seg: 5s; display: block; width: 6rem; height: 6rem; border-radius: 50%; background: radial-gradient(circle at 40% 35%, var(--salvia-suave), var(--salvia)); box-shadow: 0 0 0 0 rgba(163,177,138,.4); transform: scale(1); transition: transform var(--cor-seg) ease-in-out, background var(--cor-seg) ease-in-out, filter var(--cor-seg) ease-in-out; }
+.cor-circulo--inhala { transform: scale(1.9); filter: saturate(.4) brightness(.72); }
+.cor-circulo--exhala { transform: scale(1); filter: saturate(1.1) brightness(1.15); box-shadow: 0 0 2.5rem .6rem rgba(249,217,189,.55); }
+.cor-texto--tonglen { text-align: center; margin: 0 auto .4rem; min-height: 2.8em; }
+@media (prefers-reduced-motion: reduce) {
+  .cor-pantalla--activa::before, .cor-texto--entra { animation: none; }
+  .cor-circulo { transition: none; }
+}
+.opciones--columna .opcion span { display: flex; border-radius: var(--r-s); line-height: 1.4; }
