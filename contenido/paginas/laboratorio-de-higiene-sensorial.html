@@ -1,0 +1,76 @@
+<!--{
+  "ruta": "/laboratorio-de-higiene-sensorial/",
+  "titulo": "Laboratorio de higiene sensorial: ejercicios",
+  "descripcion": "Ejercicios para observar lo que entra por los ojos y los oídos, distinguir el estímulo de la interpretación y ver cómo cambian el ánimo y el pensamiento.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Higiene sensorial", "/laboratorio-de-higiene-sensorial/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>higiene sensorial</em>",
+  "bajada": "Lo que mirás, escuchás y leés también moldea cómo te sentís. Ejercicios para notarlo, separar el estímulo de lo que interpretás y hacer experimentos chicos.",
+  "respuesta": "El laboratorio de higiene sensorial propone ejercicios para observar lo que entra por los sentidos (pantallas, noticias, conversaciones, música) y el efecto que tiene en el ánimo. Se apoya en el modelo cognitivo de Aaron Beck (Cognitive Therapy and the Emotional Disorders, 1976), que distingue el suceso de su interpretación, y en la atención al contacto sensorial de la Gestalt. No es un plan alimentario: no somos nutricionistas.",
+  "scripts": ["lab-base.js", "laboratorio-higiene-sensorial.js", "escenas.js"],
+  "wa_tema": "el laboratorio de higiene sensorial",
+  "articulos": ["patrones-que-se-repiten-en-los-vinculos"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Pasamos horas mirando pantallas, escuchando noticias o charlas que nos tensan, y después nos preguntamos por qué estamos irritables o cansados. Lo que entra por los sentidos no es neutro: cambia el ánimo, la atención y el modo de pensar. Este laboratorio no busca que vivas aislado. Busca que lo notes y elijas con más criterio.</p>
+        <p>Aaron Beck (<em>Cognitive Therapy and the Emotional Disorders</em>, 1976) describe la distinción entre el <strong>suceso</strong> y la <strong>interpretación</strong>: no reaccionamos solo a lo que pasa, sino a lo que concluimos de ello. Desde la <strong>Gestalt</strong>, el contacto con el entorno se da a través de los sentidos, y se empobrece cuando la atención queda atrapada en estímulos que no elegimos. Observar sin juzgar es el primer paso para elegir mejor.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin culpas.</strong> No se trata de dejar todo, sino de notar.</li>
+        <li><strong>Sin registro.</strong> Nada de lo que escribas sale de tu dispositivo.</li>
+        <li><strong>Experimentos chicos.</strong> Una semana alcanza para ver un cambio.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#estimulo">Estímulo o interpretación</a>
+      <a href="#registro">Mi registro de entradas</a>
+      <a href="#experimento">Experimento de una semana</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="estimulo" aria-labelledby="t-estimulo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-estimulo">¿Estímulo o interpretación?</h2>
+      <p class="lab-estacion__bajada">Un estímulo es lo que los sentidos captan: un titular, una voz, una imagen. La interpretación es lo que concluimos de eso. Separar ambas cosas permite elegir qué hacemos con la lectura, aunque el estímulo no se pueda evitar.</p>
+      <div class="lab-tarjeta" data-lab-quiz="estimulo">
+        <p class="lab-tarjeta__titulo">¿Es un estímulo o una interpretación?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Llegó un mensaje corto y sin saludo.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Estímulo</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Interpretación</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-registro">Mi registro de entradas</h2>
+      <p class="lab-estacion__bajada">Durante un día, anotá las entradas que más te marcan: qué viste, escuchaste o leíste, cuánto tiempo te llevó y cómo te quedó el ánimo después. No hace falta anotar todo, solo lo que notás.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="registro-sensorial" data-lab-form-titulo="Registro de entradas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hs-entrada">¿Qué entró?</label><input class="lab-campo" id="hs-entrada" type="text" placeholder="Por ejemplo: un noticiero, un feed de redes, una charla con un familiar" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hs-tiempo">¿Cuánto tiempo?</label><input class="lab-campo" id="hs-tiempo" type="text" placeholder="Por ejemplo: 40 minutos" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hs-animo">¿Cómo quedé después?</label><input class="lab-campo" id="hs-animo" type="text" placeholder="Por ejemplo: inquieto, más tranquilo, con ganas de llamar a alguien" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hs-interpretacion">¿Qué concluí de eso?</label><textarea class="lab-texto" id="hs-interpretacion" rows="2" placeholder="La interpretación que hice, aunque no la haya dicho en voz alta"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="experimento" aria-labelledby="t-experimento">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-experimento">Experimento de una semana</h2>
+      <p class="lab-estacion__bajada">Elegí una o dos entradas para cambiar durante siete días, por ejemplo, mirar las noticias una vez por día, o dejar el celular fuera del dormitorio. Anotá lo que probás y cómo te sentís. Al final de la semana, mirá si cambió algo.</p>
+      <div data-lab-lista-editable data-lab-lista-titulo="Experimento de la semana" class="lab-tarjeta">
+        <label class="lab-paso__titulo" for="hs-prueba" style="display:block">Algo que voy a probar</label>
+        <div class="lab-lle__fila"><input class="lab-campo" id="hs-prueba" type="text" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+        <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+      </div>
+    </section>
+  </div>
+</section>
