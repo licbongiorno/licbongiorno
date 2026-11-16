@@ -1,0 +1,93 @@
+<!--{
+  "ruta": "/laboratorio-de-buen-trato/",
+  "titulo": "Laboratorio de buen trato y paz: ejercicios",
+  "descripcion": "Ejercicios de buen trato con habilidades interpersonales de la DBT: decir no en paz, reparar después de un conflicto y practicar microgestos.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Buen trato", "/laboratorio-de-buen-trato/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>buen trato y paz</em>",
+  "bajada": "Ejercicios para relacionarte sin atacar y sin someterte: decir que no en paz, reparar después de un conflicto y sostener microgestos de respeto.",
+  "respuesta": "El laboratorio de buen trato y paz propone ejercicios inspirados en las habilidades de efectividad interpersonal de la terapia dialéctico-conductual (Marsha Linehan): las pautas GIVE para mantener la relación y FAST para sostener el respeto propio, además de la reparación después de un conflicto y una práctica de microgestos cotidianos. Basado también en la mirada compasiva de Paul Gilbert. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-buen-trato.js", "escenas.js"],
+  "wa_tema": "el laboratorio de buen trato y paz",
+  "articulos": ["la-empatia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El buen trato no es ceder siempre ni ser amable a cualquier costo. Es poder sostener una relación sin atacar, sin humillarse y sin borrarse. Muchas veces no sabemos cómo decir que no sin pelearnos, o cómo volver a hablar después de una discusión sin hacer como si nada hubiera pasado. Son habilidades, y se aprenden practicando.</p>
+        <p>Linehan (<em>Cognitive-Behavioral Treatment of Borderline Personality Disorder</em>, 1993; y <em>DBT Skills Training Manual</em>, 2014) organiza estas habilidades en dos pautas. <strong>GIVE</strong> cuida la relación: ser gentil, interesarse, validar y mantener un tono de buen ánimo. <strong>FAST</strong> cuida el respeto propio: ser justo, evitar disculpas excesivas, mantenerse fiel a los valores y ser veraz. Paul Gilbert (<em>The Compassionate Mind</em>, 2009) suma la idea de que la compasión no es debilidad: es una forma de actuar que cuida a ambos lados.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin perfección.</strong> El objetivo es sostener el trato, no ganar la discusión.</li>
+        <li><strong>Sin registro.</strong> Nada de lo que escribas sale de tu dispositivo.</li>
+        <li><strong>De a poco.</strong> Una estación por vez alcanza.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#give-fast">GIVE o FAST</a>
+      <a href="#decir-no">Decir no en paz</a>
+      <a href="#reparar">Reparar después</a>
+      <a href="#microgestos">Microgestos</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="give-fast" aria-labelledby="t-give-fast">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-give-fast">¿GIVE para la relación o FAST para el respeto propio?</h2>
+      <p class="lab-estacion__bajada">GIVE: gentil (sin atacar, amenazar ni juzgar), interesado (escuchar de verdad), validante (reconocer lo que el otro siente) y con buen ánimo. FAST: justo (con vos y con el otro), sin disculpas excesivas, fiel a tus valores y veraz.</p>
+      <div class="lab-tarjeta" data-lab-quiz="give-fast">
+        <p class="lab-tarjeta__titulo">¿A qué pauta corresponde?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Escucho sin interrumpir y reconozco lo que te pasa, aunque no esté de acuerdo.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">GIVE (la relación)</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">FAST (el respeto propio)</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="decir-no" aria-labelledby="t-decir-no">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-decir-no">Decir no en paz</h2>
+      <p class="lab-estacion__bajada">Decir que no no requiere atacar ni explicar de más. Sirve describir la situación, decir lo que sentís o pensás, pedir lo que necesitás y dejar claro el límite. Cuando el otro insiste, la pauta FAST ayuda a no ceder por culpa: podés repetir la misma frase con calma, sin justificarla de nuevo.</p>
+      <div class="lab-tarjeta" data-lab-quiz="decir-no">
+        <p class="lab-tarjeta__titulo">¿Cuál de estas respuestas dice que no en paz?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Hoy no puedo ir. Te aviso si cambia algo.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Sí, es un no claro y amable</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">No, es una evasión</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="reparar" aria-labelledby="t-reparar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-reparar">Reparar después de un conflicto</h2>
+      <p class="lab-estacion__bajada">Reparar es volver a la conversación sin que el orgullo decida. Se reconoce la parte propia, se nombra el daño y se propone algo concreto. Una disculpa sirve cuando es breve y verdadera: si se alarga, se vuelve una forma de pedir perdón por existir, que es justamente lo que FAST advierte.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="reparacion-de-trato" data-lab-form-titulo="Reparar después de un conflicto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bt-que-paso">¿Qué pasó?</label><textarea class="lab-texto" id="bt-que-paso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bt-mi-parte">¿Cuál fue mi parte, sin exagerar ni minimizar?</label><textarea class="lab-texto" id="bt-mi-parte" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bt-frase">Una frase breve y verdadera para decirlo</label><input class="lab-campo" id="bt-frase" type="text" placeholder="Por ejemplo: «Me molestó lo que dije, y no fue justo con vos.»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bt-proximo">Algo concreto que puedo hacer distinto</label><input class="lab-campo" id="bt-proximo" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="microgestos" aria-labelledby="t-microgestos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-microgestos">Microgestos de buen trato</h2>
+      <p class="lab-estacion__bajada">El buen trato se construye en lo chico: terminar de escuchar antes de responder, agradecer, preguntar cómo está el otro, no hablar mal de alguien a sus espaldas. Anotá tres microgestos para esta semana y marcá cuando los hagas.</p>
+      <div data-lab-lista-editable data-lab-lista-titulo="Microgestos de esta semana" class="lab-tarjeta">
+        <label class="lab-paso__titulo" for="bt-micro" style="display:block">Un microgesto</label>
+        <div class="lab-lle__fila"><input class="lab-campo" id="bt-micro" type="text" placeholder="Por ejemplo: preguntarle a mi hermana cómo le fue" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+        <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+      </div>
+    </section>
+  </div>
+</section>
