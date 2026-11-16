@@ -1,0 +1,134 @@
+<!--{
+  "ruta": "/laboratorio-logoterapia-voluntad-de-sentido/",
+  "titulo": "Logoterapia nivel 1: la voluntad de sentido",
+  "descripcion": "Nivel básico de logoterapia: la voluntad de sentido, el vacío existencial, el autodistanciamiento y la autotrascendencia, según Viktor Frankl.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Sentido", "/laboratorio-de-sentido/"], ["Nivel 1: voluntad de sentido", "/laboratorio-logoterapia-voluntad-de-sentido/"]],
+  "antetitulo": "Logoterapia · Nivel 1, básico",
+  "h1": "Logoterapia: <em>la voluntad de sentido</em>",
+  "bajada": "Para Frankl, lo que más mueve a una persona no es el placer ni el poder, sino encontrar un sentido. Ejercicios para reconocer el vacío y las capacidades que permiten salir de él.",
+  "respuesta": "El nivel básico de logoterapia propone ejercicios basados en Viktor Frankl: la voluntad de sentido como motivación central del ser humano, el vacío existencial y sus formas (el aburrimiento, el conformismo, el totalitarismo), y las dos capacidades específicamente humanas que Frankl describió: el autodistanciamiento (tomar distancia de uno mismo, incluso con humor) y la autotrascendencia (orientarse hacia algo o alguien más allá de uno). Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-logoterapia-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel básico de logoterapia",
+  "articulos": ["logoterapia-y-sentido"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Viktor Frankl, psiquiatra y neurólogo vienés, creó la <strong>logoterapia</strong>, a veces llamada la tercera escuela vienesa de psicoterapia, después de Freud y de Adler. Si para Freud lo central era la búsqueda de placer y para Adler la de poder, para Frankl era la <strong>voluntad de sentido</strong>: la necesidad humana de encontrar un para qué. Frankl sobrevivió a los campos de concentración y lo contó en <em>El hombre en busca de sentido</em> (1946), donde observó que quienes conservaban un sentido tenían más recursos para resistir.</p>
+        <p>Este es el primer nivel de logoterapia. Las tres vías del sentido, las preguntas de sentido y la pregunta invertida están en la <a href="/laboratorio-de-sentido/">puerta de entrada</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>El sentido no se inventa.</strong> Para Frankl, se descubre en cada situación.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin apuro.</strong> Estas preguntas se responden viviendo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#vacio">El vacío existencial</a>
+      <a href="#senales">¿Hay vacío en mi vida?</a>
+      <a href="#distancia">Autodistanciamiento</a>
+      <a href="#trascender">Autotrascendencia</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="vacio" aria-labelledby="t-vacio">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-vacio">El vacío existencial</h2>
+      <p class="lab-estacion__bajada">Frankl llamó <strong>vacío existencial</strong> a una sensación extendida de falta de sentido, que suele aparecer como aburrimiento, apatía o la sensación de que nada vale la pena. Describió dos formas frecuentes de llenarlo sin resolverlo: el <strong>conformismo</strong> (hacer lo que hacen los demás) y el <strong>totalitarismo</strong> (hacer lo que otros quieren). También lo vinculó con conductas que intentan tapar el vacío, como algunas adicciones o la búsqueda constante de estímulos. ¿Qué frase habla desde el vacío?</p>
+      <div class="lab-tarjeta" data-lab-quiz="vacio">
+        <p class="lab-tarjeta__titulo">¿Vacío o sentido?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Habla desde el vacío</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Habla desde un sentido</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-senales">¿Hay vacío en mi vida?</h2>
+      <p class="lab-estacion__bajada">El vacío existencial no es un diagnóstico, y en sí no es una enfermedad: Frankl lo consideraba una crisis humana. Marcá lo que reconocés en los últimos meses. Sirve para ver por dónde empezar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="hay-vacio" data-lab-form-titulo="¿Hay vacío en mi vida?" novalidate>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo">En los últimos meses…</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" value="aburrimiento"><span>Me aburro con frecuencia, incluso con tiempo libre.</span></label>
+            <label class="opcion"><input type="checkbox" value="domingo"><span>Los domingos o las vacaciones me dejan una sensación rara de vacío.</span></label>
+            <label class="opcion"><input type="checkbox" value="conformismo"><span>Hago lo que se espera de mí sin saber si lo quiero.</span></label>
+            <label class="opcion"><input type="checkbox" value="estimulos"><span>Busco estímulos todo el tiempo (pantallas, compras, comida) para no sentir nada.</span></label>
+            <label class="opcion"><input type="checkbox" value="para-que"><span>Me pregunto «¿para qué?» y no encuentro respuesta.</span></label>
+            <label class="opcion"><input type="checkbox" value="nadie"><span>Siento que no soy necesario para nadie ni para nada.</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lv-cuando">¿Cuándo fue la última vez que sentí que lo que hacía tenía sentido? ¿Qué estaba haciendo?</label><textarea class="lab-texto" id="lv-cuando" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="distancia" aria-labelledby="t-distancia">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-distancia">Autodistanciamiento</h2>
+      <p class="lab-estacion__bajada">Frankl describió dos capacidades específicamente humanas. La primera es el <strong>autodistanciamiento</strong>: poder tomar distancia de uno mismo, observarse, no quedar pegado a los propios síntomas o estados de ánimo. «No tengo que dejarme todo lo que me pasa», decía. Una de sus formas más poderosas es el humor: poder reírse un poco de uno mismo ya es ponerse por encima de lo que pasa.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="autodistanciamiento" data-lab-form-titulo="Autodistanciamiento" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lv-estado">Un estado que hoy me domina</label><input class="lab-campo" id="lv-estado" type="text" placeholder="Por ejemplo: el miedo a equivocarme" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lv-observo">Si lo observara como un testigo, ¿cómo lo describiría?</label><textarea class="lab-texto" id="lv-observo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lv-humor">¿Puedo encontrarle algo de humor, sin burlarme de mí?</label><textarea class="lab-texto" id="lv-humor" rows="2" placeholder="Por ejemplo: «Mi miedo es tan perfeccionista que hasta quiere tener miedo perfecto»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lv-yo">¿Qué parte de mí no es ese estado, y puede elegir qué hacer?</label><textarea class="lab-texto" id="lv-yo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="trascender" aria-labelledby="t-trascender">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-trascender">Autotrascendencia</h2>
+      <p class="lab-estacion__bajada">La segunda capacidad es la <strong>autotrascendencia</strong>: la existencia humana apunta siempre hacia algo o alguien distinto de uno mismo, una tarea que cumplir o una persona a quien amar. Frankl sostenía que la felicidad no se puede perseguir directamente: es un efecto secundario de entregarse a algo. Cuanto más uno se ocupa de sí, más se pierde; cuanto más se olvida de sí en una tarea o en otro, más se encuentra.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="autotrascendencia" data-lab-form-titulo="Autotrascendencia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lv-quien">¿Quién me necesita, aunque sea un poco?</label><textarea class="lab-texto" id="lv-quien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lv-tarea">¿Qué tarea me espera, que solo yo puedo hacer de esta manera?</label><textarea class="lab-texto" id="lv-tarea" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lv-olvido">¿En qué momentos me olvido de mí porque estoy entregado a algo?</label><textarea class="lab-texto" id="lv-olvido" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="logo-voluntad">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar el vacío.</strong> Registrá cuándo aparece el aburrimiento o el «¿para qué?».</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Lo que yo quiero.</strong> Hacé algo porque lo elegís, no porque se espera.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Distancia.</strong> Observá un estado de ánimo como testigo.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Humor.</strong> Encontrale algo gracioso a una preocupación tuya.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Alguien.</strong> Hacé algo por alguien que te necesita.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Una tarea.</strong> Entregate a una tarea hasta olvidarte de vos.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. El para qué.</strong> Escribí para qué te levantás a la mañana, hoy.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El vacío existencial no es lo mismo que una depresión, aunque a veces se parecen o se superponen. Si además del vacío hay tristeza persistente, cambios en el sueño o el apetito, o pensamientos de no querer vivir, consultalo: llamá al 911 o al Centro de Asistencia al Suicida (135 desde CABA y GBA, 0800-345-1435 desde todo el país). Más teléfonos en <a href="/ayuda-urgente/">ayuda urgente</a>. Podés <a href="/contacto/">escribirme</a>. Este nivel es parte del recorrido de logoterapia; seguí con el <a href="/laboratorio-logoterapia-tecnicas/">nivel 2: las técnicas</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Frankl, V. E. (1946). <em>El hombre en busca de sentido</em>.</li>
+        <li>Frankl, V. E. (1969). <em>La voluntad de sentido</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

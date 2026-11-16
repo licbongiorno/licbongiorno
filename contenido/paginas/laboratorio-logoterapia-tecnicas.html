@@ -1,0 +1,129 @@
+<!--{
+  "ruta": "/laboratorio-logoterapia-tecnicas/",
+  "titulo": "Logoterapia nivel 2: intención paradójica y derreflexión",
+  "descripcion": "Nivel medio de logoterapia: las técnicas de Frankl, la intención paradójica para la ansiedad anticipatoria y la derreflexión para salir de la hiperreflexión.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Sentido", "/laboratorio-de-sentido/"], ["Nivel 2: técnicas", "/laboratorio-logoterapia-tecnicas/"]],
+  "antetitulo": "Logoterapia · Nivel 2, medio",
+  "h1": "Logoterapia: <em>las técnicas</em>",
+  "bajada": "A veces, cuanto más queremos dormir, menos dormimos; cuanto más nos miramos, peor nos sale. Las dos técnicas de Frankl para salir de ese círculo.",
+  "respuesta": "El nivel medio de logoterapia propone ejercicios con las dos técnicas clásicas de Viktor Frankl: la intención paradójica, que desarma la ansiedad anticipatoria deseando con humor aquello que se teme, y la derreflexión, que saca la atención de uno mismo (la hiperreflexión) y la lleva hacia el sentido. Incluye ejemplos, ejercicios guiados y un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-logoterapia-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel medio de logoterapia",
+  "articulos": ["logoterapia-y-sentido"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Frankl observó un mecanismo que se repite en muchos síntomas. Alguien teme que algo le pase (no poder dormir, ponerse colorado, que le tiemble la voz). Ese miedo, la <strong>ansiedad anticipatoria</strong>, provoca justamente lo que se temía. Y cuando pasa, el miedo se confirma y crece. A eso se suman dos trampas: la <strong>hiperintención</strong>, querer algo con tanta fuerza que se vuelve imposible (como dormir o tener placer), y la <strong>hiperreflexión</strong>, observarse tanto que uno se paraliza.</p>
+        <p>Para esos círculos, Frankl propuso dos técnicas: la <strong>intención paradójica</strong> y la <strong>derreflexión</strong>. Este es el segundo nivel de logoterapia; el primero trabaja la <a href="/laboratorio-logoterapia-voluntad-de-sentido/">voluntad de sentido</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con humor.</strong> La intención paradójica funciona si se hace con humor, no con angustia.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>No para todo.</strong> Mirá las aclaraciones de cuándo no usarlas.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#circulo">El círculo del miedo</a>
+      <a href="#paradojica">Intención paradójica</a>
+      <a href="#armar">Armar mi frase paradójica</a>
+      <a href="#derreflexion">Derreflexión</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="circulo" aria-labelledby="t-circulo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-circulo">El círculo del miedo</h2>
+      <p class="lab-estacion__bajada">Reconocé en cada situación qué trampa está funcionando: la ansiedad anticipatoria (temer que pase algo y provocarlo), la hiperintención (querer algo tanto que se vuelve imposible) o la hiperreflexión (observarse tanto que uno se bloquea).</p>
+      <div class="lab-tarjeta" data-lab-quiz="trampas">
+        <p class="lab-tarjeta__titulo">¿Qué trampa es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="paradojica" aria-labelledby="t-paradojica">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-paradojica">Intención paradójica</h2>
+      <p class="lab-estacion__bajada">La idea es invertir el miedo: en lugar de temer que pase, desearlo, a propósito y con humor. Quien teme no dormir se propone quedarse despierto toda la noche. Quien teme sonrojarse se propone ponerse rojo como un tomate, el más rojo del mundo. Miedo y deseo de lo mismo no pueden convivir del todo, y el humor pone distancia. Frankl la proponía sobre todo para la ansiedad anticipatoria, las fobias y algunos pensamientos obsesivos.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un ejemplo">
+          <label class="opcion"><input type="radio" name="lt-ej" value="dormir" checked><span>No poder dormir</span></label>
+          <label class="opcion"><input type="radio" name="lt-ej" value="sonrojo"><span>Ponerse colorado</span></label>
+          <label class="opcion"><input type="radio" name="lt-ej" value="temblor"><span>Que tiemble la voz</span></label>
+          <label class="opcion"><input type="radio" name="lt-ej" value="transpirar"><span>Transpirar</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="dormir"><p><strong>El miedo:</strong> «si no me duermo ya, mañana va a ser un desastre».</p><p><strong>La frase paradójica:</strong> «Esta noche me voy a quedar despierto todo lo que pueda. Voy a batir el récord mundial de horas sin dormir».</p></div>
+        <div class="lab-panel" data-lab-panel="sonrojo" hidden><p><strong>El miedo:</strong> «se van a dar cuenta de que me pongo rojo».</p><p><strong>La frase paradójica:</strong> «Hoy voy a ponerme tan rojo que van a tener que llamar a los bomberos. Que vean lo que es un sonrojo de verdad».</p></div>
+        <div class="lab-panel" data-lab-panel="temblor" hidden><p><strong>El miedo:</strong> «me va a temblar la voz y voy a quedar en ridículo».</p><p><strong>La frase paradójica:</strong> «Voy a hacer temblar la voz como un violín. Que suene la mejor vibración que se escuchó en esta sala».</p></div>
+        <div class="lab-panel" data-lab-panel="transpirar" hidden><p><strong>El miedo:</strong> «voy a transpirar y lo van a notar».</p><p><strong>La frase paradójica:</strong> «Hoy voy a transpirar un balde entero. Mostrarles a todos lo que es transpirar de verdad».</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="armar" aria-labelledby="t-armar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-armar">Armar mi frase paradójica</h2>
+      <p class="lab-estacion__bajada">Escribí lo que temés que te pase y el laboratorio te ayuda a darlo vuelta. Después ajustá la frase hasta que te haga sonreír: si no hay humor, no funciona.</p>
+      <div class="lab-tarjeta" data-lt-paradoja>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-temo">Temo que me pase…</label><input class="lab-campo" id="lt-temo" type="text" placeholder="Por ejemplo: quedarme en blanco en el examen" autocomplete="off"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tu intención paradójica</p>
+          <p class="lab-resultado__texto" data-lt-salida aria-live="polite">Escribí lo que temés.</p>
+        </div>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lt-otra>Otra versión</button><button class="boton boton--chico" type="button" data-lab-copiar="[data-lt-salida]">Copiar</button></div>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem"><strong>Cuándo no usarla:</strong> no se usa con pensamientos de hacerse daño ni con depresión, ni ante peligros reales. Tampoco reemplaza el tratamiento de un trastorno de ansiedad. Ante la duda, consultalo.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="derreflexion" aria-labelledby="t-derreflexion">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-derreflexion">Derreflexión</h2>
+      <p class="lab-estacion__bajada">La segunda técnica apunta a la hiperreflexión: cuando uno se observa tanto (el propio cuerpo, el propio desempeño, el propio síntoma) que eso mismo arruina la experiencia. La derreflexión no pide «dejar de pensar en eso», que es imposible. Pide llevar la atención hacia otra cosa con sentido: una tarea, una persona, lo que está pasando. Uno no se olvida de sí por decreto, sino porque algo más le importa.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="derreflexion" data-lab-form-titulo="Derreflexión" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-observo">¿En qué me estoy observando demasiado?</label><input class="lab-campo" id="lt-observo" type="text" placeholder="Por ejemplo: en cómo respiro, en si estoy disfrutando, en cómo me ven" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-costo">¿Qué me hace perder esa autoobservación?</label><textarea class="lab-texto" id="lt-costo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-hacia">¿Hacia qué o hacia quién podría llevar mi atención?</label><textarea class="lab-texto" id="lt-hacia" rows="2" placeholder="La persona con la que estoy, la tarea, el paisaje, lo que quiero aportar"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="lt-despues">Después de probarlo: ¿qué pasó con el síntoma?</label><textarea class="lab-texto" id="lt-despues" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="logo-tecnicas">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. El círculo.</strong> Identificá un miedo que provoca lo que temés.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. La frase.</strong> Armá tu frase paradójica, con humor.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Probarla.</strong> Usala en una situación de baja intensidad.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Mirarse menos.</strong> Notá en qué te observás demasiado.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Derreflexionar.</strong> Llevá la atención a la otra persona en una conversación.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Una tarea.</strong> Entregate a algo con sentido y notá qué pasa con el síntoma.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar la semana.</strong> ¿Qué técnica te sirvió más?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La intención paradójica tiene respaldo clínico para la ansiedad anticipatoria, aunque su eficacia en algunos cuadros, como el insomnio, fue discutida en investigaciones posteriores. No reemplaza el tratamiento de un trastorno de ansiedad, de una fobia intensa o de un trastorno obsesivo. Y nunca se usa con ideas de hacerse daño. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Seguí con el <a href="/laboratorio-logoterapia-optimismo-tragico/">nivel 3: el optimismo trágico</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Frankl, V. E. (1946). <em>El hombre en busca de sentido</em>.</li>
+        <li>Frankl, V. E. (1969). <em>La voluntad de sentido</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
