@@ -1,0 +1,133 @@
+<!--{
+  "ruta": "/laboratorio-psicoanalisis-klein-winnicott/",
+  "titulo": "Psicoanálisis nivel 3: Klein, Winnicott y el verdadero self",
+  "descripcion": "Psicoanálisis avanzado: escisión, posición depresiva y reparación según Klein; verdadero y falso self y la capacidad de estar solo según Winnicott.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Recorrido psicoanalítico", "/laboratorio-recorrido-psicoanalitico/"], ["Nivel 3: Klein y Winnicott", "/laboratorio-psicoanalisis-klein-winnicott/"]],
+  "antetitulo": "Recorrido psicoanalítico · Nivel 3, avanzado",
+  "h1": "Psicoanálisis: <em>amor, odio y verdadero self</em>",
+  "bajada": "Poder querer a alguien que también nos frustra, reparar el daño, ser auténticos y estar solos sin sentirnos abandonados. Ejercicios con Melanie Klein y Donald Winnicott.",
+  "respuesta": "El nivel avanzado del recorrido psicoanalítico propone ejercicios basados en Melanie Klein y Donald Winnicott: la escisión entre lo bueno y lo malo y la posición depresiva, donde se integra el amor y el odio hacia la misma persona y aparece el deseo de reparar (Klein); el verdadero y el falso self (Winnicott, 1960) y la capacidad de estar solo (Winnicott, 1958). Incluye un plan de 7 días. No reemplaza un análisis.",
+  "scripts": ["lab-base.js", "laboratorio-psicoanalisis-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel avanzado del recorrido psicoanalítico",
+  "articulos": ["patrones-que-se-repiten-en-los-vinculos", "la-soledad"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Melanie Klein y Donald Winnicott, dos psicoanalistas que trabajaron en Inglaterra, pusieron el foco en los primeros vínculos y en cómo marcan la forma en que nos relacionamos toda la vida. Klein describió cómo el bebé primero divide el mundo en «bueno» y «malo», y cómo madurar implica poder integrar ambas cosas en la misma persona. Winnicott se preguntó qué hace falta para que alguien pueda ser auténtico, sin tener que construir una fachada para adaptarse.</p>
+        <p>Este es el tercer nivel del <a href="/laboratorio-recorrido-psicoanalitico/">recorrido psicoanalítico</a>, y el más exigente.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con delicadeza.</strong> Estos temas tocan los vínculos más tempranos.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin culpar.</strong> Comprender cómo nos formamos no es buscar culpables.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#escision">Todo bueno o todo malo</a>
+      <a href="#reparar">Integrar y reparar</a>
+      <a href="#self">Verdadero y falso self</a>
+      <a href="#solo">La capacidad de estar solo</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="escision" aria-labelledby="t-escision">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-escision">Todo bueno o todo malo</h2>
+      <p class="lab-estacion__bajada">Klein describió una forma temprana de funcionar, la <strong>posición esquizoparanoide</strong>, en la que el mundo se divide en partes totalmente buenas y totalmente malas: la escisión. En los primeros meses es necesaria para organizarse. En la vida adulta reaparece cuando estamos muy angustiados: alguien pasa de ser maravilloso a ser un monstruo, sin término medio. ¿La frase habla desde la escisión o desde la integración?</p>
+      <div class="lab-tarjeta" data-lab-quiz="escision">
+        <p class="lab-tarjeta__titulo">¿Escisión o integración?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Escisión</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Integración</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="reparar" aria-labelledby="t-reparar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-reparar">Integrar y reparar</h2>
+      <p class="lab-estacion__bajada">Cuando podemos ver que la persona que nos cuida es la misma que nos frustra, aparece lo que Klein llamó la <strong>posición depresiva</strong>: duele reconocer que también la odiamos, surge la culpa por el daño que pudimos hacerle en la fantasía o en la realidad, y nace el deseo de <strong>reparar</strong>. Para Klein, esa capacidad de reparar está en la base del amor maduro y de la creatividad.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="integrar-y-reparar" data-lab-form-titulo="Integrar y reparar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kw-persona">Una persona importante con la que tengo sentimientos mezclados</label><input class="lab-campo" id="kw-persona" type="text" autocomplete="off"></div>
+        <div class="lab-tabla2">
+          <div><label for="kw-bueno">Lo que me dio, lo que quiero de ella</label><textarea class="lab-texto" id="kw-bueno" rows="4"></textarea></div>
+          <div><label for="kw-malo">Lo que me frustró, lo que me enoja</label><textarea class="lab-texto" id="kw-malo" rows="4"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kw-junto">¿Puedo sostener las dos columnas a la vez, sin borrar ninguna?</label><textarea class="lab-texto" id="kw-junto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kw-reparo">¿Hay algo que quiera reparar en este vínculo, aunque sea en mí?</label><textarea class="lab-texto" id="kw-reparo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda">Para seguir con la reparación, el <a href="/laboratorio-del-perdon/#reparar">laboratorio del perdón</a> tiene un ejercicio inspirado en Klein.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="self" aria-labelledby="t-self">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-self">Verdadero y falso self</h2>
+      <p class="lab-estacion__bajada">En un artículo de 1960, Winnicott describió el <strong>falso self</strong>: una fachada que se construye para adaptarse a lo que el ambiente espera, cuando no hay lugar para la espontaneidad. Protege al <strong>verdadero self</strong>, que es la fuente de lo espontáneo y lo creativo, pero a costa de una sensación de vacío o de irrealidad. Todos tenemos algo de falso self, y es necesario para la vida social. El problema es cuando ya no queda espacio para lo verdadero.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="verdadero-y-falso-self" data-lab-form-titulo="Verdadero y falso self" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kw-fachada">¿Dónde siento que actúo un papel para cumplir con lo que se espera?</label><textarea class="lab-texto" id="kw-fachada" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kw-real">¿Dónde, o con quién, me siento real, espontáneo, vivo?</label><textarea class="lab-texto" id="kw-real" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kw-gesto">Winnicott hablaba del «gesto espontáneo». ¿Qué gesto espontáneo mío quedó guardado?</label><textarea class="lab-texto" id="kw-gesto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="solo" aria-labelledby="t-solo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-solo">La capacidad de estar solo</h2>
+      <p class="lab-estacion__bajada">En «La capacidad para estar solo» (1958), Winnicott propuso una paradoja: aprendemos a estar solos estando solos en presencia de otro. El bebé que juega tranquilo mientras su madre está cerca, sin pedirle nada, va internalizando esa presencia. De adultos, quien la tiene puede estar a solas sin sentirse abandonado. Un ejercicio para explorarla, unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>A solas.</strong> Buscá un rato a solas, sin pantallas. Notá qué aparece: calma, inquietud, aburrimiento.</li>
+          <li><strong>Una presencia.</strong> Recordá a alguien con quien podés estar en silencio sin incomodidad.</li>
+          <li><strong>Sentirla adentro.</strong> Imaginá que esa presencia está en la habitación, sin pedirte nada.</li>
+          <li><strong>Hacer algo tuyo.</strong> Hacé algo pequeño solo porque te dan ganas: dibujar, mirar por la ventana, tararear.</li>
+          <li><strong>Notar.</strong> ¿Cambió algo en cómo se siente estar solo?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="psicoanalisis-klein-winnicott">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Todo o nada.</strong> Notá cuándo ves a alguien como completamente bueno o malo.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Las dos columnas.</strong> Completá el ejercicio de integrar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Reparar.</strong> Hacé un gesto de reparación, aunque sea pequeño.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La fachada.</strong> Notá dónde actuás un papel.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un gesto espontáneo.</strong> Hacé algo solo porque te salió.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. A solas.</strong> Pasá un rato a solas sin pantallas.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Presencia.</strong> Estate en silencio con alguien querido, sin hacer nada.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Pensar los vínculos tempranos puede despertar dolor, sobre todo si hubo abandono, maltrato o ausencias. Comprender no obliga a perdonar ni a reconciliarse. Si estos temas te pesan, son justamente los que se trabajan en un análisis: podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-recorrido-psicoanalitico/">recorrido psicoanalítico</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Klein, M. (1935). «Contribución a la psicogénesis de los estados maníaco-depresivos».</li>
+        <li>Klein, M. (1946). «Notas sobre algunos mecanismos esquizoides».</li>
+        <li>Winnicott, D. W. (1958). «La capacidad para estar solo».</li>
+        <li>Winnicott, D. W. (1960). «La distorsión del yo en términos de self verdadero y falso».</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

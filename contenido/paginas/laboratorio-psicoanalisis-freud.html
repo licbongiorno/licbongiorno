@@ -1,0 +1,111 @@
+<!--{
+  "ruta": "/laboratorio-psicoanalisis-freud/",
+  "titulo": "Psicoanálisis nivel 1: el inconsciente cotidiano, con Freud",
+  "descripcion": "Nivel básico del recorrido psicoanalítico: los actos fallidos, los mecanismos de defensa según Sigmund y Anna Freud y la compulsión a repetir.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Recorrido psicoanalítico", "/laboratorio-recorrido-psicoanalitico/"], ["Nivel 1: Freud", "/laboratorio-psicoanalisis-freud/"]],
+  "antetitulo": "Recorrido psicoanalítico · Nivel 1, básico",
+  "h1": "Psicoanálisis: <em>el inconsciente cotidiano</em>",
+  "bajada": "El olvido de un nombre, la palabra que se escapa, la pareja que se parece a la anterior. Ejercicios para ver cómo el inconsciente aparece en la vida de todos los días.",
+  "respuesta": "El nivel básico del recorrido psicoanalítico propone ejercicios basados en Sigmund Freud y Anna Freud: los actos fallidos descriptos en Psicopatología de la vida cotidiana (1901), los mecanismos de defensa sistematizados por Anna Freud en El yo y los mecanismos de defensa (1936), y la compulsión a repetir de Recordar, repetir y reelaborar (1914). Incluye un registro de actos fallidos, un quiz de defensas y un plan de 7 días. No reemplaza un análisis.",
+  "scripts": ["lab-base.js", "laboratorio-psicoanalisis-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel básico del recorrido psicoanalítico",
+  "articulos": ["sigmund-freud", "anna-freud"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Sigmund Freud propuso que una parte importante de la vida psíquica ocurre fuera de la conciencia, y que ese <strong>inconsciente</strong> no solo aparece en los síntomas o en los sueños, sino en la vida de todos los días. En <em>Psicopatología de la vida cotidiana</em> (1901) estudió los olvidos, los lapsus y las torpezas que parecen casuales, y mostró que muchas veces dicen algo. Este primer nivel no busca interpretar por vos (eso se hace en un análisis), sino ayudarte a notar dónde aparece lo inconsciente.</p>
+        <p>Es el primer nivel del <a href="/laboratorio-recorrido-psicoanalitico/">recorrido psicoanalítico</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Notar, no interpretar.</strong> El sentido de un acto fallido lo descubre cada uno, no un manual.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con humor.</strong> Todos tenemos lapsus; no son motivo de vergüenza.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#fallidos">Los actos fallidos</a>
+      <a href="#defensas">Los mecanismos de defensa</a>
+      <a href="#repetir">La compulsión a repetir</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="fallidos" aria-labelledby="t-fallidos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-fallidos">Los actos fallidos</h2>
+      <p class="lab-estacion__bajada">Olvidar el nombre de alguien con quien estamos enojados, decir «cerramos la reunión» cuando queríamos decir «abrimos», perder justo las llaves de un lugar al que no queremos ir. Freud los llamó <strong>actos fallidos</strong>: fallan en lo que la conciencia quería, pero a veces aciertan en algo que no queríamos saber. No todos tienen un sentido oculto; algunos son simple cansancio. La idea es registrarlos y preguntarse, con curiosidad, si dicen algo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="registro-de-actos-fallidos" data-lab-form-titulo="Registro de actos fallidos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-que">¿Qué pasó? (un olvido, un lapsus, una pérdida, una torpeza)</label><textarea class="lab-texto" id="pf-que" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-contexto">¿En qué contexto? ¿Con quién, antes de qué?</label><textarea class="lab-texto" id="pf-contexto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-asocio">¿Qué se me ocurre cuando lo pienso? (sin censurar)</label><textarea class="lab-texto" id="pf-asocio" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-dice">Si este acto quisiera decir algo, ¿qué diría?</label><input class="lab-campo" id="pf-dice" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="defensas" aria-labelledby="t-defensas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-defensas">Los mecanismos de defensa</h2>
+      <p class="lab-estacion__bajada">Freud describió distintas formas en que la mente se protege de lo que le resulta intolerable. Su hija, Anna Freud, las sistematizó en <em>El yo y los mecanismos de defensa</em> (1936). Las defensas no son un defecto: todos las usamos, y muchas veces nos protegen. El problema aparece cuando son tan rígidas que nos impiden ver lo que pasa. ¿Qué defensa aparece en cada situación?</p>
+      <div class="lab-tarjeta" data-lab-quiz="defensas">
+        <p class="lab-tarjeta__titulo">¿Qué mecanismo de defensa es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="repetir" aria-labelledby="t-repetir">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-repetir">La compulsión a repetir</h2>
+      <p class="lab-estacion__bajada">En «Recordar, repetir y reelaborar» (1914), Freud observó que lo que no podemos recordar, lo repetimos: en lugar de traer a la memoria una experiencia dolorosa, la volvemos a actuar, muchas veces sin darnos cuenta. Elegimos parejas que se parecen, terminamos en el mismo tipo de conflicto con distintos jefes, nos sentimos excluidos en cada grupo. El trabajo analítico busca transformar esa repetición en recuerdo y en elaboración.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="algo-que-se-repite" data-lab-form-titulo="Algo que se repite" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-patron">¿Qué se repite en mi vida, aunque cambien las personas o los lugares?</label><textarea class="lab-texto" id="pf-patron" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-veces">Tres veces en que pasó</label><textarea class="lab-texto" id="pf-veces" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-recuerdo">¿Me recuerda algo de mi historia más temprana?</label><textarea class="lab-texto" id="pf-recuerdo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-parte">¿Qué parte tengo yo en que se repita?</label><textarea class="lab-texto" id="pf-parte" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda">Para seguir con los patrones en los vínculos, el sitio tiene un artículo sobre <a href="/recursos/patrones-que-se-repiten-en-los-vinculos/">patrones que se repiten</a>.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="psicoanalisis-freud">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Un lapsus.</strong> Prestá atención a tus olvidos y equivocaciones del día.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Registrar.</strong> Anotá un acto fallido y lo que te evoca.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Una defensa.</strong> Notá cuándo racionalizás algo que te dolió.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Desplazar.</strong> ¿Te enojaste con alguien por algo que venía de otro lado?</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. El patrón.</strong> Escribí algo que se repite en tu vida.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un sueño.</strong> Anotá un sueño apenas te despiertes.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Asociar.</strong> Escribí diez minutos sin censura, como en la asociación libre.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios son una puerta, no un análisis. Interpretar lo inconsciente propio a solas tiene límites: lo que más cuesta ver es justamente lo que más nos defendemos de ver. Si algo de esto te movilizó, es material valioso para trabajar en un espacio terapéutico: podés <a href="/contacto/">escribirme</a>. Seguí con el <a href="/laboratorio-de-psicoanalisis-en-practica/">nivel 2: Winnicott, Bion y Kohut</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Freud, S. (1901). <em>Psicopatología de la vida cotidiana</em>.</li>
+        <li>Freud, S. (1914). «Recordar, repetir y reelaborar».</li>
+        <li>Freud, A. (1936). <em>El yo y los mecanismos de defensa</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
