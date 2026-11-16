@@ -1,0 +1,177 @@
+<!--{
+  "ruta": "/laboratorio-gestalt-experimentos/",
+  "titulo": "Gestalt nivel 3: los experimentos, ejercicios",
+  "descripcion": "Nivel avanzado del laboratorio Gestalt: reglas del lenguaje, «me hago responsable», exageración, inversión, trabajo con sueños y diálogo con el síntoma.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Gestalt", "/laboratorio-gestalt/"], ["Nivel 3: experimentos", "/laboratorio-gestalt-experimentos/"]],
+  "antetitulo": "Laboratorio Gestalt · Nivel 3, avanzado",
+  "h1": "Gestalt: <em>los experimentos</em>",
+  "bajada": "En la Gestalt no se habla sobre lo que te pasa: se lo hace pasar, ahora, para descubrirlo. Experimentos con el lenguaje, el cuerpo, los sueños y los síntomas.",
+  "respuesta": "El nivel avanzado del laboratorio Gestalt propone experimentos inspirados en las reglas y juegos de la terapia Gestalt descriptos por Abraham Levitsky y Fritz Perls (1970): el lenguaje responsable (yo en lugar de eso, afirmaciones en lugar de preguntas, «no quiero» en lugar de «no puedo»), el juego de «me hago responsable», la exageración, la inversión, el trabajo gestáltico con sueños según Perls (1969), donde cada elemento del sueño es una parte de uno, y el diálogo con un síntoma. Incluye un traductor al lenguaje responsable y un plan de 7 días. Son experimentos que suelen hacerse con un terapeuta; no reemplazan una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-gestalt-experimentos.js", "escenas.js"],
+  "wa_tema": "el nivel avanzado del laboratorio Gestalt",
+  "articulos": ["las-emociones-segun-jung"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El <strong>experimento</strong> es el corazón del trabajo gestáltico. En lugar de explicar por qué te pasa algo, se propone hacerlo de otra manera, ahora, y ver qué aparece: decirlo en primera persona, exagerar un gesto, hablar como si fueras otra parte de vos. Joseph Zinker (<em>El proceso creativo en la terapia gestáltica</em>, 1977) lo describió como una forma de convertir la terapia en un espacio de creación, donde lo que se descubre se vive en el cuerpo y no solo se entiende.</p>
+        <p>Abraham Levitsky y Fritz Perls («The rules and games of Gestalt therapy», 1970) reunieron muchas de estas propuestas como <strong>reglas</strong> (para el lenguaje y la actitud) y <strong>juegos</strong> (ejercicios concretos). Este es el tercer nivel: conviene haber practicado antes el <a href="/laboratorio-gestalt-darse-cuenta/">darse cuenta</a> y el <a href="/laboratorio-gestalt-contacto/">contacto</a>. La silla vacía, los asuntos inconclusos y el diálogo entre polaridades están en la <a href="/laboratorio-gestalt/">puerta de entrada</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Hacerlo, no pensarlo.</strong> Un experimento solo funciona si lo probás.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con cuidado.</strong> Si algo se vuelve muy intenso, pará.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#lenguaje">Las reglas del lenguaje</a>
+      <a href="#traductor">Traductor al lenguaje responsable</a>
+      <a href="#responsable">Y me hago responsable</a>
+      <a href="#exagerar">Exagerar</a>
+      <a href="#invertir">Invertir</a>
+      <a href="#suenos">Ser el sueño</a>
+      <a href="#sintoma">Si el síntoma hablara</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="lenguaje" aria-labelledby="t-lenguaje">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-lenguaje">Las reglas del lenguaje</h2>
+      <p class="lab-estacion__bajada">La forma de hablar muestra la forma de estar. Las reglas gestálticas proponen hablar en <strong>primera persona</strong> («yo» en lugar de «uno», «se» o «eso»); convertir las <strong>preguntas en afirmaciones</strong>, porque muchas preguntas esconden una opinión; decir <strong>«no quiero»</strong> cuando decimos «no puedo» y en realidad no queremos; hablarle <strong>a</strong> la persona, no <strong>sobre</strong> ella; y notar el «pero» que borra lo anterior. ¿Qué regla se está rompiendo en cada frase?</p>
+      <div class="lab-tarjeta" data-lab-quiz="lenguaje">
+        <p class="lab-tarjeta__titulo">¿Qué regla se rompe?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="traductor" aria-labelledby="t-traductor">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-traductor">Traductor al lenguaje responsable</h2>
+      <p class="lab-estacion__bajada">Escribí una frase como te sale y el laboratorio te sugiere cómo decirla según las reglas gestálticas. Es una ayuda mecánica: la versión final tiene que sonar a vos. Después decí las dos versiones en voz alta y notá la diferencia en el cuerpo.</p>
+      <div class="lab-tarjeta" data-gx-traductor>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-frase">Tu frase</label><input class="lab-campo" id="gx-frase" type="text" placeholder="Por ejemplo: «Uno no puede decir lo que piensa, pero es lo que hay.»" autocomplete="off"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Una versión más responsable</p>
+          <p class="lab-resultado__texto" data-gx-salida aria-live="polite">Escribí una frase y acá aparece la sugerencia.</p>
+          <ul class="lab-paso__ayuda" data-gx-cambios></ul>
+        </div>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-gx-ejemplo>Probar con un ejemplo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="responsable" aria-labelledby="t-responsable">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-responsable">Y me hago responsable</h2>
+      <p class="lab-estacion__bajada">Uno de los juegos que describen Levitsky y Perls: agregar al final de cada frase «…y me hago responsable de esto». «Me siento aburrido… y me hago responsable de esto.» «No te escucho… y me hago responsable de esto.» Al principio suena forzado. Después muestra cuánto de lo que nos pasa lo estamos haciendo nosotros. Responsable no es culpable: es reconocer que hay algo en tus manos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="me-hago-responsable" data-lab-form-titulo="Y me hago responsable" novalidate>
+        <div data-lab-lista-editable data-lab-lista-titulo="…y me hago responsable de esto">
+          <label class="lab-paso__titulo" for="gx-resp" style="display:block">Algo que te pasa ahora (el laboratorio agrega el final)</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="gx-resp" type="text" placeholder="Por ejemplo: «Estoy posponiendo esa llamada»" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="gx-resp-noto">Al decirlas en voz alta, ¿qué noté?</label><textarea class="lab-texto" id="gx-resp-noto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="exagerar" aria-labelledby="t-exagerar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-exagerar">Exagerar</h2>
+      <p class="lab-estacion__bajada">Muchas veces el cuerpo dice algo antes que las palabras: un pie que se mueve sin parar, una mano que se cierra, un suspiro, una sonrisa que no encaja con lo que contás. En lugar de frenarlo, la Gestalt propone exagerarlo, para que lo que está en el fondo se vuelva figura. Seguí los pasos, con unos 40 segundos para cada uno.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Notar.</strong> Recordá algo que te preocupa. Mientras lo pensás, notá qué gesto, movimiento o tensión aparece en tu cuerpo.</li>
+          <li><strong>Repetir.</strong> Hacé ese gesto a propósito, despacio, varias veces.</li>
+          <li><strong>Agrandar.</strong> Ahora exageralo: más grande, más fuerte, más rápido. Si es un suspiro, que sea un suspiro enorme.</li>
+          <li><strong>Darle voz.</strong> Si ese gesto pudiera hablar, ¿qué diría? Decilo en voz alta, en primera persona: «yo soy este puño y…».</li>
+          <li><strong>Darte cuenta.</strong> ¿Qué apareció? ¿Qué emoción, qué deseo, qué recuerdo?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="invertir" aria-labelledby="t-invertir">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-invertir">Invertir</h2>
+      <p class="lab-estacion__bajada">Otro juego gestáltico es la inversión: actuar lo contrario de lo que habitualmente hacés. Quien siempre complace prueba a negarse; quien siempre controla prueba a soltar; quien nunca pide prueba a pedir. La idea de fondo es que muchas conductas rígidas tapan su opuesto, que también es parte de uno y no tiene lugar. No se trata de quedarse en el otro extremo, sino de descubrir lo que había ahí.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="inversion" data-lab-form-titulo="Inversión" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-habitual">Mi forma habitual de ser o de actuar</label><input class="lab-campo" id="gx-habitual" type="text" placeholder="Por ejemplo: siempre soy el que escucha" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-opuesto">Su opuesto</label><input class="lab-campo" id="gx-opuesto" type="text" placeholder="Por ejemplo: ser el que habla y pide que lo escuchen" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-prueba">Una situación segura y concreta para probarlo</label><input class="lab-campo" id="gx-prueba" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-descubri">Después de probarlo: ¿qué descubrí de esa parte de mí?</label><textarea class="lab-texto" id="gx-descubri" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="suenos" aria-labelledby="t-suenos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-suenos">Ser el sueño</h2>
+      <p class="lab-estacion__bajada">Perls (<em>Gestalt Therapy Verbatim</em>, 1969) no interpretaba los sueños: los hacía vivir. Para él, cada elemento del sueño (las personas, los objetos, los lugares) es una parte de uno mismo que quedó alienada, y el sueño es un camino hacia la integración. El trabajo consiste en contarlo en presente y después hablar como cada elemento. Es distinto de la mirada de Jung, que podés explorar en el <a href="/laboratorio-de-suenos/">laboratorio de sueños</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ser-el-sueno" data-lab-form-titulo="Ser el sueño" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-sueno">1. Contá el sueño en presente, como si estuviera pasando ahora</label><textarea class="lab-texto" id="gx-sueno" rows="4" placeholder="«Estoy en una casa vieja. Hay una puerta cerrada al fondo del pasillo…»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-elemento">2. Elegí un elemento del sueño, mejor si es un objeto o algo raro</label><input class="lab-campo" id="gx-elemento" type="text" placeholder="Por ejemplo: la puerta cerrada" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-ser">3. Hablá como ese elemento, en primera persona: «Yo soy…, y…»</label><textarea class="lab-texto" id="gx-ser" rows="4" placeholder="«Yo soy la puerta cerrada. Nadie me abre. Guardo algo que…»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-dialogo">4. Hacé dialogar a dos elementos del sueño. ¿Qué se dicen?</label><textarea class="lab-texto" id="gx-dialogo" rows="4"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-mio">5. Al leerlo, ¿en qué te reconocés? ¿Qué parte tuya es esa?</label><textarea class="lab-texto" id="gx-mio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sintoma" aria-labelledby="t-sintoma">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-sintoma">Si el síntoma hablara</h2>
+      <p class="lab-estacion__bajada">En la Gestalt, un síntoma (un dolor de cabeza, una contractura, un nudo en el estómago, un insomnio) también puede ser tratado como una parte de uno que tiene algo para decir. El experimento es darle voz y escucharlo, sin dejar de consultar al médico cuando corresponde. No se trata de explicar el síntoma, sino de encontrarse con él.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="si-el-sintoma-hablara" data-lab-form-titulo="Si el síntoma hablara" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-sintoma">El síntoma, y dónde lo sentís</label><input class="lab-campo" id="gx-sintoma" type="text" placeholder="Por ejemplo: una presión en el pecho" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-como">Describilo como si fuera un personaje: forma, color, tamaño, qué hace</label><textarea class="lab-texto" id="gx-como" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-voz">Hablá como el síntoma: «Yo soy la presión en tu pecho, y estoy acá porque…»</label><textarea class="lab-texto" id="gx-voz" rows="4"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-respuesta">Ahora respondele vos. ¿Qué le querés decir?</label><textarea class="lab-texto" id="gx-respuesta" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gx-necesita">¿Qué necesita esa parte de vos?</label><input class="lab-campo" id="gx-necesita" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Un experimento por día. Marcá los que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="gestalt-experimentos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Yo.</strong> Durante el día, cambiá cada «uno» o «se» por «yo».</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. No quiero.</strong> Cada vez que digas «no puedo», preguntate si es «no quiero».</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Afirmar.</strong> Convertí tres preguntas en afirmaciones.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Me hago responsable.</strong> Agregá la frase a cinco cosas que te pasan.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Exagerar.</strong> Exagerá un gesto propio y dale voz.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Invertir.</strong> Probá lo opuesto de tu forma habitual en algo pequeño.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Ser el sueño.</strong> Hablá como un elemento de un sueño reciente.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Los experimentos gestálticos pueden movilizar mucho, y la Gestalt los piensa dentro de una relación terapéutica que sostiene lo que aparece. Si tenés una historia de trauma, si un experimento te desborda o si aparecen recuerdos difíciles, pará, apoyá los pies en el piso, mirá alrededor, y retomalo acompañado. Un síntoma físico persistente siempre merece una consulta médica. Podés <a href="/contacto/">escribirme</a>; si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-gestalt/">laboratorio Gestalt</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Levitsky, A. y Perls, F. (1970). «The rules and games of Gestalt therapy». En J. Fagan e I. L. Shepherd (eds.), <em>Gestalt Therapy Now</em>.</li>
+        <li>Perls, F. (1969). <em>Gestalt Therapy Verbatim</em> (en castellano, <em>Sueños y existencia</em>). Real People Press.</li>
+        <li>Zinker, J. (1977). <em>El proceso creativo en la terapia gestáltica</em>.</li>
+        <li>Polster, E. y Polster, M. (1973). <em>Gestalt Therapy Integrated</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

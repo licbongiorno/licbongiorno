@@ -1,0 +1,192 @@
+<!--{
+  "ruta": "/laboratorio-gestalt-darse-cuenta/",
+  "titulo": "Gestalt nivel 1: el darse cuenta, ejercicios",
+  "descripcion": "Nivel básico del laboratorio Gestalt: continuo de conciencia, aquí y ahora, figura y fondo, los sentidos, los preceptos de Naranjo y el cambio paradójico.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Gestalt", "/laboratorio-gestalt/"], ["Nivel 1: darse cuenta", "/laboratorio-gestalt-darse-cuenta/"]],
+  "antetitulo": "Laboratorio Gestalt · Nivel 1, básico",
+  "h1": "Gestalt: <em>el darse cuenta</em>",
+  "bajada": "El punto de partida de toda la Gestalt: notar lo que está pasando ahora, en vos y a tu alrededor, antes de explicarlo, juzgarlo o querer cambiarlo.",
+  "respuesta": "El nivel básico del laboratorio Gestalt propone ejercicios sobre el darse cuenta (awareness): el continuo de conciencia, en la línea de John O. Stevens (1971); el aquí y ahora; la figura y el fondo, tomado de la psicología de la Gestalt por Perls, Hefferline y Goodman (1951); los sentidos como funciones de contacto; los preceptos de la actitud gestáltica según Claudio Naranjo (1990); y la teoría paradójica del cambio de Arnold Beisser (1970). Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-gestalt-darse-cuenta.js", "escenas.js"],
+  "wa_tema": "el nivel básico del laboratorio Gestalt",
+  "articulos": ["inteligencia-emocional"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>La terapia Gestalt nació de la mano de Fritz Perls, Laura Perls y Paul Goodman, y su libro fundacional (<em>Gestalt Therapy</em>, 1951, con Ralph Hefferline) propone algo simple de decir y difícil de hacer: que la salud depende, en buena medida, de poder <strong>darse cuenta</strong> de lo que uno siente, necesita y hace, en el momento en que pasa. No se trata de interpretar ni de buscar causas en el pasado, sino de notar el «qué» y el «cómo» de la experiencia presente.</p>
+        <p>Erving y Miriam Polster (<em>Gestalt Therapy Integrated</em>, 1973) señalaron tres pilares de la Gestalt: el <strong>darse cuenta</strong>, el <strong>contacto</strong> y el <strong>experimento</strong>. Este laboratorio sigue ese orden en tres niveles. Este es el primero, la base de los otros dos. Las tres zonas del darse cuenta (exterior, interior y fantasía) están explicadas en la <a href="/laboratorio-gestalt/">puerta de entrada</a>; acá se practican.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin interpretar.</strong> Primero notar; entender, si hace falta, viene después.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>En el presente.</strong> Cada ejercicio se hace ahora, no se piensa.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#continuo">El continuo de conciencia</a>
+      <a href="#aqui-ahora">Aquí y ahora</a>
+      <a href="#figura">Figura y fondo</a>
+      <a href="#sentidos">Los sentidos como contacto</a>
+      <a href="#preceptos">La actitud gestáltica</a>
+      <a href="#paradoja">El cambio paradójico</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="continuo" aria-labelledby="t-continuo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-continuo">El continuo de conciencia</h2>
+      <p class="lab-estacion__bajada">Un ejercicio clásico, que John O. Stevens recoge en <em>El darse cuenta</em> (1971): empezar cada frase con «ahora me doy cuenta de…» y seguir el fluir de la experiencia, sin detenerse a analizarla. Vas a notar que la atención salta del afuera al adentro y a la fantasía. No hay que corregirla: solo seguirla. Activá el reloj para dedicarle unos 40 segundos a cada paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Afuera.</strong> Decí en voz baja: «ahora me doy cuenta de…» y completá con lo que ves, oís, olés o tocás. Una frase tras otra.</li>
+          <li><strong>Adentro.</strong> Ahora con lo que pasa en tu cuerpo: «ahora me doy cuenta de que tengo los hombros tensos…», «…de que respiro corto».</li>
+          <li><strong>La fantasía.</strong> Notá cuando aparece un pensamiento, un recuerdo o un plan: «ahora me doy cuenta de que estoy pensando en…».</li>
+          <li><strong>Libre.</strong> Seguí sin elegir zona, dejando que la atención vaya adonde vaya, y nombrando cada cosa.</li>
+          <li><strong>Cerrar.</strong> ¿Dónde se quedó más tu atención? ¿Qué zona evitaste?</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="continuo-de-conciencia" data-lab-form-titulo="Ahora me doy cuenta de…" novalidate style="margin-top:1rem">
+        <div data-lab-lista-editable data-lab-lista-titulo="Ahora me doy cuenta de…">
+          <label class="lab-paso__titulo" for="dc-frase" style="display:block">Ahora me doy cuenta de…</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="dc-frase" type="text" placeholder="…que el sol entra por la ventana" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="aqui-ahora" aria-labelledby="t-aqui-ahora">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-aqui-ahora">Aquí y ahora</h2>
+      <p class="lab-estacion__bajada">Para la Gestalt, el pasado y el futuro existen en el presente: como recuerdo, como anticipación, como fantasía. No se trata de negarlos, sino de darse cuenta de que estamos recordando o anticipando ahora. Mucha angustia viene de vivir en un futuro que todavía no pasó, y mucha culpa, de un pasado que ya no se puede tocar.</p>
+      <div class="lab-tarjeta" data-lab-quiz="aqui-ahora">
+        <p class="lab-tarjeta__titulo">¿Dónde está esta frase?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Siento el peso de mi cuerpo sobre la silla.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Aquí y ahora</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">En el pasado</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="c" aria-pressed="false">En el futuro</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="figura" aria-labelledby="t-figura">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-figura">Figura y fondo</h2>
+      <p class="lab-estacion__bajada">La terapia Gestalt tomó de la psicología de la Gestalt la idea de que percibimos en <strong>figura y fondo</strong>: algo se destaca y el resto queda detrás. Perls, Hefferline y Goodman la aplicaron a las necesidades: en cada momento, la necesidad más urgente se vuelve figura, organiza la atención, y cuando se satisface, vuelve al fondo y deja lugar a otra. Cuando una necesidad no puede satisfacerse ni cerrarse, queda como un asunto inconcluso que tironea desde atrás.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="figura-y-fondo" data-lab-form-titulo="Figura y fondo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-figura">¿Qué ocupa el primer plano en este momento? (un pensamiento, una sensación, una preocupación)</label><textarea class="lab-texto" id="dc-figura" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-necesidad">¿Qué necesidad hay detrás de esa figura?</label><input class="lab-campo" id="dc-necesidad" type="text" placeholder="Descanso, compañía, terminar algo, que me escuchen…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-fondo">¿Qué queda en el fondo, esperando?</label><textarea class="lab-texto" id="dc-fondo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-cerrar">¿Qué haría falta para que la figura se cierre y vuelva al fondo?</label><textarea class="lab-texto" id="dc-cerrar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sentidos" aria-labelledby="t-sentidos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-sentidos">Los sentidos como contacto</h2>
+      <p class="lab-estacion__bajada">Los Polster describen las <strong>funciones de contacto</strong>: las formas concretas en que nos encontramos con el mundo y con los otros. Mirar, escuchar, tocar, hablar, moverse, oler y gustar. Cuando una función se apaga (mirar sin ver, oír sin escuchar, hablar sin decir) el contacto se empobrece. Elegí una función para practicarla hoy.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una función de contacto">
+          <label class="opcion"><input type="radio" name="dc-funcion" value="mirar" checked><span>Mirar</span></label>
+          <label class="opcion"><input type="radio" name="dc-funcion" value="escuchar"><span>Escuchar</span></label>
+          <label class="opcion"><input type="radio" name="dc-funcion" value="tocar"><span>Tocar</span></label>
+          <label class="opcion"><input type="radio" name="dc-funcion" value="hablar"><span>Hablar</span></label>
+          <label class="opcion"><input type="radio" name="dc-funcion" value="moverse"><span>Moverse</span></label>
+          <label class="opcion"><input type="radio" name="dc-funcion" value="oler"><span>Oler y gustar</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="mirar"><p><strong>Cuando se apaga:</strong> mirar sin ver, esquivar los ojos del otro, mirar a través de las personas.</p><p><strong>Para practicar:</strong> en una conversación, mirá de verdad la cara de quien te habla. Notá un detalle que nunca habías visto.</p></div>
+        <div class="lab-panel" data-lab-panel="escuchar" hidden><p><strong>Cuando se apaga:</strong> oír mientras preparás la respuesta, escuchar solo lo que confirma lo que pensás.</p><p><strong>Para practicar:</strong> escuchá a alguien sin interrumpir y notá también el tono, las pausas, lo que dice sin palabras.</p></div>
+        <div class="lab-panel" data-lab-panel="tocar" hidden><p><strong>Cuando se apaga:</strong> tocar sin registrar, evitar todo contacto físico o tocar en automático.</p><p><strong>Para practicar:</strong> registrá la textura de lo que tocás durante el día: el agua, una tela, la mano de alguien querido.</p></div>
+        <div class="lab-panel" data-lab-panel="hablar" hidden><p><strong>Cuando se apaga:</strong> hablar mucho sin decir nada, hablar en tono plano, hablar «sobre» en vez de hablar «a».</p><p><strong>Para practicar:</strong> notá tu voz: volumen, ritmo, si está de acuerdo con lo que decís. Decí una cosa importante, breve y directa.</p></div>
+        <div class="lab-panel" data-lab-panel="moverse" hidden><p><strong>Cuando se apaga:</strong> un cuerpo rígido, quieto o que se mueve siempre igual.</p><p><strong>Para practicar:</strong> durante unos minutos, dejá que el cuerpo se mueva como quiera, sin coreografía. Notá qué movimiento aparece.</p></div>
+        <div class="lab-panel" data-lab-panel="oler" hidden><p><strong>Cuando se apaga:</strong> comer sin sentir el sabor, no registrar los olores del lugar.</p><p><strong>Para practicar:</strong> en una comida, comé los primeros bocados despacio, con los ojos cerrados, notando sabor, textura y olor.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="preceptos" aria-labelledby="t-preceptos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-preceptos">La actitud gestáltica</h2>
+      <p class="lab-estacion__bajada">Claudio Naranjo, psiquiatra chileno y discípulo de Perls, resumió la actitud gestáltica en una serie de preceptos (<em>La vieja y novísima Gestalt</em>, 1990). No son reglas morales: son una forma de estar en la vida. Acá van en palabras propias. Marcá cuáles te cuestan más.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="actitud-gestaltica" data-lab-form-titulo="Preceptos que me cuestan" novalidate>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo">Me cuesta…</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" value="ahora"><span>Vivir ahora: ocuparme del presente más que del pasado o del futuro.</span></label>
+            <label class="opcion"><input type="checkbox" value="aqui"><span>Vivir aquí: relacionarme con lo que está presente más que con lo ausente.</span></label>
+            <label class="opcion"><input type="checkbox" value="imaginar"><span>Dejar de imaginar: experimentar lo real.</span></label>
+            <label class="opcion"><input type="checkbox" value="pensar"><span>Dejar los pensamientos innecesarios: sentir y observar.</span></label>
+            <label class="opcion"><input type="checkbox" value="expresar"><span>Expresar en lugar de manipular, explicar, justificar o juzgar.</span></label>
+            <label class="opcion"><input type="checkbox" value="displacer"><span>Aceptar lo desagradable y el dolor tanto como el placer, sin restringir lo que me doy cuenta.</span></label>
+            <label class="opcion"><input type="checkbox" value="deber"><span>No aceptar otros «debería» que los míos.</span></label>
+            <label class="opcion"><input type="checkbox" value="responsable"><span>Hacerme responsable de mis acciones, sentimientos y pensamientos.</span></label>
+            <label class="opcion"><input type="checkbox" value="ser"><span>Aceptar ser como soy.</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-precepto">Elegí uno. ¿Cómo sería practicarlo hoy, en algo concreto?</label><textarea class="lab-texto" id="dc-precepto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="paradoja" aria-labelledby="t-paradoja">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-paradoja">El cambio paradójico</h2>
+      <p class="lab-estacion__bajada">Arnold Beisser formuló en 1970 una idea que se volvió central en la Gestalt: el cambio ocurre cuando uno se convierte en lo que es, no cuando intenta convertirse en lo que no es. Mientras peleamos contra una parte de nosotros, esa parte se fortalece. Cuando la reconocemos plenamente, se mueve. No es resignación: es dejar de forzar para que algo pueda cambiar.</p>
+      <div class="lab-tarjeta" data-lab-quiz="paradoja">
+        <p class="lab-tarjeta__titulo">¿Es cambio paradójico o cambio forzado?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Me doy cuenta de lo tímido que soy en las reuniones. Me quedo un rato sintiéndolo, sin pelearme con eso.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Cambio paradójico</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Cambio forzado</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="gestalt-darse-cuenta">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Ahora me doy cuenta.</strong> Cinco minutos de continuo de conciencia, en voz baja.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. ¿Dónde estoy?</strong> Tres veces en el día, notá si estás en el aquí y ahora, en el pasado o en el futuro.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Figura.</strong> Al mediodía, preguntate qué es figura y qué necesidad hay detrás.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Mirar.</strong> Mirá de verdad a una persona con la que hables.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Escuchar.</strong> Escuchá a alguien sin preparar la respuesta.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un precepto.</strong> Practicá el precepto que más te cuesta.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Ser lo que soy.</strong> Elegí algo de vos que rechazás y quedate con eso un rato, sin pelear.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Darse cuenta puede traer a la figura sensaciones o recuerdos que estaban en el fondo por algo. Si aparece algo muy intenso, abrí los ojos, mirá alrededor y apoyá los pies en el piso. No hace falta atravesarlo a solas: la Gestalt es, ante todo, una terapia de encuentro, y estos ejercicios rinden más acompañados. Podés <a href="/contacto/">escribirme</a>. Este nivel es parte del <a href="/laboratorio-gestalt/">laboratorio Gestalt</a>; seguí con el <a href="/laboratorio-gestalt-contacto/">nivel 2: el contacto</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Perls, F., Hefferline, R. y Goodman, P. (1951). <em>Gestalt Therapy: Excitement and Growth in the Human Personality</em>.</li>
+        <li>Beisser, A. (1970). «The paradoxical theory of change». En J. Fagan e I. L. Shepherd (eds.), <em>Gestalt Therapy Now</em>.</li>
+        <li>Stevens, J. O. (1971). <em>Awareness: Exploring, Experimenting, Experiencing</em> (en castellano, <em>El darse cuenta</em>). Real People Press.</li>
+        <li>Polster, E. y Polster, M. (1973). <em>Gestalt Therapy Integrated</em>.</li>
+        <li>Naranjo, C. (1990). <em>La vieja y novísima Gestalt: actitud y práctica</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

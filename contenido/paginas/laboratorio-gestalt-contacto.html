@@ -1,0 +1,182 @@
+<!--{
+  "ruta": "/laboratorio-gestalt-contacto/",
+  "titulo": "Gestalt nivel 2: el contacto y sus interrupciones",
+  "descripcion": "Nivel medio del laboratorio Gestalt: la frontera de contacto, masticar lo que te dan, las interrupciones del contacto, contacto y retirada, y el autoapoyo.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Gestalt", "/laboratorio-gestalt/"], ["Nivel 2: contacto", "/laboratorio-gestalt-contacto/"]],
+  "antetitulo": "Laboratorio Gestalt · Nivel 2, medio",
+  "h1": "Gestalt: <em>el contacto</em>",
+  "bajada": "Cómo te encontrás con los demás y con el mundo, y las formas, muchas veces automáticas, en que interrumpís ese encuentro para protegerte.",
+  "respuesta": "El nivel medio del laboratorio Gestalt propone ejercicios sobre el contacto: la frontera de contacto y la asimilación frente a la introyección (Perls, 1942; Perls, Hefferline y Goodman, 1951); las interrupciones del contacto (confluencia, introyección, proyección, retroflexión y egotismo, más la deflexión descripta por Erving y Miriam Polster en 1973), cada una con su función sana y un experimento; el ritmo de contacto y retirada; y el pasaje del apoyo del ambiente al autoapoyo. Incluye un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-gestalt-contacto.js", "escenas.js"],
+  "wa_tema": "el nivel medio del laboratorio Gestalt",
+  "articulos": ["patrones-que-se-repiten-en-los-vinculos", "la-culpa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Para la Gestalt, la vida sucede en la <strong>frontera de contacto</strong>: el lugar donde un organismo se encuentra con su ambiente, donde una persona se encuentra con otra. Ahí tomamos lo que necesitamos, rechazamos lo que no nos sirve y nos transformamos. Perls, Hefferline y Goodman (<em>Gestalt Therapy</em>, 1951) describieron cómo ese contacto puede interrumpirse de distintas formas. Ninguna es «mala» en sí: todas tienen una versión sana. El problema aparece cuando se vuelven automáticas y rígidas, y uno ya no elige.</p>
+        <p>Este es el segundo nivel. Conviene haber practicado antes el <a href="/laboratorio-gestalt-darse-cuenta/">darse cuenta</a>, porque para notar cómo interrumpís el contacto primero hay que poder notar. El ciclo de la experiencia, que muestra en qué momento aparece cada interrupción, está en la <a href="/laboratorio-gestalt/">puerta de entrada</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin culpas.</strong> Cada interrupción fue, alguna vez, una forma de cuidarte.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con curiosidad.</strong> Más que corregir, explorar cómo lo hacés.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#masticar">Masticar lo que te dan</a>
+      <a href="#interrupciones">Las interrupciones del contacto</a>
+      <a href="#reconocer">¿Cuál es?</a>
+      <a href="#introyecto">Masticar un «debería»</a>
+      <a href="#retroflexion">Lo que me hago a mí</a>
+      <a href="#ritmo">Contacto y retirada</a>
+      <a href="#autoapoyo">El autoapoyo</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="masticar" aria-labelledby="t-masticar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-masticar">Masticar lo que te dan</h2>
+      <p class="lab-estacion__bajada">En su primer libro (<em>Ego, Hunger and Aggression</em>, 1942), Perls usó una metáfora del comer. Así como los dientes muerden y mastican la comida para poder digerirla, la mente necesita «masticar» las ideas, normas y mensajes que recibe: probarlos, quedarse con lo que nutre y descartar lo que no. Cuando tragamos entero, sin masticar, lo que entra queda adentro como un cuerpo extraño. Perls llamó a eso <strong>introyección</strong>, y a lo contrario, <strong>asimilación</strong>.</p>
+      <div class="lab-tarjeta" data-lab-quiz="masticar">
+        <p class="lab-tarjeta__titulo">¿Asimilado o tragado entero?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite">«Mi mamá decía que hay que ahorrar. Lo pensé y me sirve, aunque no ahorro como ella.»</p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Asimilado</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Tragado entero</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="interrupciones" aria-labelledby="t-interrupciones">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-interrupciones">Las interrupciones del contacto</h2>
+      <p class="lab-estacion__bajada">Perls, Hefferline y Goodman describieron cinco: confluencia, introyección, proyección, retroflexión y egotismo. Los Polster (<em>Gestalt Therapy Integrated</em>, 1973) sumaron la deflexión. Cada una tiene una función sana y una forma rígida. Elegí una para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una interrupción del contacto">
+          <label class="opcion"><input type="radio" name="gc-mec" value="confluencia" checked><span>Confluencia</span></label>
+          <label class="opcion"><input type="radio" name="gc-mec" value="introyeccion"><span>Introyección</span></label>
+          <label class="opcion"><input type="radio" name="gc-mec" value="proyeccion"><span>Proyección</span></label>
+          <label class="opcion"><input type="radio" name="gc-mec" value="retroflexion"><span>Retroflexión</span></label>
+          <label class="opcion"><input type="radio" name="gc-mec" value="deflexion"><span>Deflexión</span></label>
+          <label class="opcion"><input type="radio" name="gc-mec" value="egotismo"><span>Egotismo</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="confluencia"><p><strong>Qué es:</strong> la frontera entre uno y el otro se borra. No se sabe dónde termino yo y dónde empezás vos.</p><p><strong>Cómo suena:</strong> «nosotros pensamos», «a mí me da igual, lo que vos quieras», sentirse culpable por estar en desacuerdo.</p><p><strong>Su versión sana:</strong> la fusión de un abrazo, la empatía, sentirse parte de un grupo.</p><p><strong>Un experimento:</strong> en una decisión compartida, decí primero qué querés vos, antes de saber qué quiere el otro.</p></div>
+        <div class="lab-panel" data-lab-panel="introyeccion" hidden><p><strong>Qué es:</strong> tragar entero normas, ideas o mandatos ajenos, sin masticarlos, y vivirlos como propios.</p><p><strong>Cómo suena:</strong> «se debe», «hay que», «tengo que», muchos «debería» que no sabés de dónde vienen.</p><p><strong>Su versión sana:</strong> aprender de otros, sobre todo en la infancia.</p><p><strong>Un experimento:</strong> elegí un «debería» y preguntate de quién es la voz. Masticalo en la estación 04.</p></div>
+        <div class="lab-panel" data-lab-panel="proyeccion" hidden><p><strong>Qué es:</strong> atribuir a otros lo que es propio y no se reconoce: un sentimiento, un deseo, una crítica.</p><p><strong>Cómo suena:</strong> «me mira con odio», «todos me juzgan», «él está enojado conmigo» cuando el enojado es uno.</p><p><strong>Su versión sana:</strong> la imaginación, la empatía, anticipar lo que otro puede sentir.</p><p><strong>Un experimento:</strong> dá vuelta la frase. «Me juzgan» → «yo me juzgo» o «yo los juzgo». Fijate si algo de eso es cierto.</p></div>
+        <div class="lab-panel" data-lab-panel="retroflexion" hidden><p><strong>Qué es:</strong> hacerse a uno mismo lo que uno querría hacerle a otro, o lo que querría que otro le hiciera.</p><p><strong>Cómo suena:</strong> morderse los labios, apretar los puños, culparse en vez de reclamar, abrazarse a uno mismo porque nadie lo hace.</p><p><strong>Su versión sana:</strong> el autocontrol cuando expresar sería dañino o peligroso.</p><p><strong>Un experimento:</strong> preguntate a quién iba dirigido eso que te hacés. Está en la estación 05.</p></div>
+        <div class="lab-panel" data-lab-panel="deflexion" hidden><p><strong>Qué es:</strong> desviarse del contacto directo: cambiar de tema, hacer un chiste, hablar en general, no mirar, responder otra cosa.</p><p><strong>Cómo suena:</strong> «bueno, ¿y vos cómo andás?» justo cuando la conversación se pone importante; hablar mucho para no decir nada.</p><p><strong>Su versión sana:</strong> bajar la intensidad cuando es demasiada, el humor que alivia.</p><p><strong>Un experimento:</strong> cuando notes que desviás, volvé: decí lo mismo, pero directo y breve.</p></div>
+        <div class="lab-panel" data-lab-panel="egotismo" hidden><p><strong>Qué es:</strong> observarse y controlarse tanto que uno no termina de entregarse a la experiencia. Estar en el encuentro como espectador de uno mismo.</p><p><strong>Cómo suena:</strong> pensar todo el tiempo cómo estás quedando, no poder disfrutar sin evaluarte, no soltarte nunca.</p><p><strong>Su versión sana:</strong> la prudencia, revisar antes de comprometerse.</p><p><strong>Un experimento:</strong> elegí algo pequeño y placentero, como bailar una canción o reírte fuerte, y hacelo sin mirarte desde afuera.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="reconocer" aria-labelledby="t-reconocer">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-reconocer">¿Cuál es?</h2>
+      <p class="lab-estacion__bajada">Para practicar, reconocé qué interrupción aparece en cada situación. A veces hay más de una a la vez; elegí la que más se destaca.</p>
+      <div class="lab-tarjeta" data-lab-quiz="mecanismos">
+        <p class="lab-tarjeta__titulo">¿Qué interrupción del contacto es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="introyecto" aria-labelledby="t-introyecto">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-introyecto">Masticar un «debería»</h2>
+      <p class="lab-estacion__bajada">Elegí uno de tus «debería», «tengo que» o «no se puede», y masticalo. No se trata de tirarlo a la basura: muchos mandatos tienen algo valioso. Se trata de que lo que quede sea tuyo, elegido.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="masticar-un-deberia" data-lab-form-titulo="Masticar un «debería»" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-deberia">El «debería», tal como suena adentro</label><input class="lab-campo" id="gc-deberia" type="text" placeholder="Por ejemplo: «Los hombres no lloran», «tengo que poder con todo»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-voz">¿De quién es esa voz? ¿Cuándo la tragué?</label><input class="lab-campo" id="gc-voz" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-nutre">¿Qué parte me nutre y quiero conservar?</label><textarea class="lab-texto" id="gc-nutre" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-escupo">¿Qué parte no me sirve y quiero escupir?</label><textarea class="lab-texto" id="gc-escupo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-propia">Mi versión, masticada</label><input class="lab-campo" id="gc-propia" type="text" placeholder="Por ejemplo: «Quiero poder con lo que me importa, y pedir ayuda con el resto.»" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="retroflexion" aria-labelledby="t-retroflexion">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-retroflexion">Lo que me hago a mí</h2>
+      <p class="lab-estacion__bajada">La retroflexión suele verse en el cuerpo: mandíbula apretada, uñas comidas, un puño cerrado, una autocrítica feroz. La propuesta gestáltica es devolver la energía a su dirección original, al menos en la imaginación, para entender qué quedó retenido. No se trata de descargarla sobre nadie, sino de saber qué hay ahí.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-me-hago" data-lab-form-titulo="Lo que me hago a mí" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-me-hago">¿Qué me hago? (un gesto, una tensión, una crítica)</label><textarea class="lab-texto" id="gc-me-hago" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-a-quien">Si eso fuera dirigido hacia afuera, ¿a quién iría?</label><input class="lab-campo" id="gc-a-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-diria">¿Qué le diría o haría, si pudiera hacerlo sin consecuencias?</label><textarea class="lab-texto" id="gc-diria" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-necesito">¿Y qué necesito para mí, que me estoy dando a medias?</label><textarea class="lab-texto" id="gc-necesito" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="ritmo" aria-labelledby="t-ritmo">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-ritmo">Contacto y retirada</h2>
+      <p class="lab-estacion__bajada">El contacto sano tiene ritmo: acercarse, encontrarse, y después retirarse para asimilar lo vivido. Así como respiramos hacia adentro y hacia afuera, necesitamos momentos de encuentro y momentos de soledad. Algunas personas no pueden retirarse (se quedan siempre en el vínculo, aunque estén agotadas); otras no pueden acercarse (se retiran antes de que el contacto empiece). Ninguno de los dos polos es sano por sí solo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="¿Cuál te pasa más?">
+          <label class="opcion"><input type="radio" name="gc-ritmo" value="retirarse" checked><span>Me cuesta retirarme</span></label>
+          <label class="opcion"><input type="radio" name="gc-ritmo" value="acercarse"><span>Me cuesta acercarme</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="retirarse"><p><strong>Cómo se nota:</strong> te quedás en conversaciones, reuniones o vínculos aunque ya no quieras; te sentís mal si te tomás un tiempo para vos; después de estar con otros quedás agotado.</p><p><strong>Un experimento:</strong> esta semana, retirate de algo un poco antes de lo habitual, avisando con una frase simple: «me voy a descansar». Notá qué sentís.</p></div>
+        <div class="lab-panel" data-lab-panel="acercarse" hidden><p><strong>Cómo se nota:</strong> te vas antes de que la conversación se vuelva personal, no respondés mensajes, te aislás aunque extrañes.</p><p><strong>Un experimento:</strong> elegí a alguien seguro y acercate un poco más de lo habitual: una pregunta personal, contar algo tuyo. Notá el impulso de irte, y quedate un minuto más.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="autoapoyo" aria-labelledby="t-autoapoyo">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-autoapoyo">El autoapoyo</h2>
+      <p class="lab-estacion__bajada">Perls describía la maduración como el pasaje del apoyo del ambiente al <strong>autoapoyo</strong>: poder sostenerse en los propios recursos (la respiración, el cuerpo, el criterio, la capacidad de pedir) en lugar de depender de que otros nos sostengan o nos digan quiénes somos. No es autosuficiencia: quien tiene autoapoyo también pide ayuda, pero no se derrumba cuando no la recibe.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="autoapoyo" data-lab-form-titulo="Mi autoapoyo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-sostengo">¿En qué me sostengo en mí? (recursos, capacidades, formas de calmarme)</label><textarea class="lab-texto" id="gc-sostengo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-dependo">¿En qué dependo del apoyo de otros más de lo que me gustaría?</label><textarea class="lab-texto" id="gc-dependo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-manipulo">¿Cómo busco ese apoyo? (pedirlo directo, o de forma indirecta: quejarme, hacerme el débil, enojarme)</label><textarea class="lab-texto" id="gc-manipulo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="gc-recurso">Un recurso propio que quiero desarrollar</label><input class="lab-campo" id="gc-recurso" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="gestalt-contacto">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mis «debería».</strong> Anotá cada «tengo que» o «se debe» que aparezca en el día.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Masticar.</strong> Masticá uno de esos «debería» con el ejercicio de la estación 04.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Dar vuelta.</strong> Cuando pienses «me juzgan», probá «yo me juzgo» o «yo juzgo».</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. El cuerpo retenido.</strong> Notá dónde apretás y preguntate hacia quién iba esa fuerza.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Decirlo directo.</strong> Cuando notes que cambiás de tema, volvé y decilo en una frase.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Primero yo.</strong> En una decisión compartida, decí qué querés antes de escuchar al otro.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Ritmo.</strong> Practicá retirarte o acercarte, según lo que más te cueste.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Las interrupciones del contacto se formaron por algo: muchas veces fueron la mejor manera que encontraste de protegerte en un ambiente difícil. Desarmarlas de golpe puede dejar al descubierto emociones intensas, como enojos guardados en la retroflexión o dolores tapados por la deflexión. Hacelo de a poco, y si algo se desborda, frená. Este trabajo es más profundo acompañado: podés <a href="/contacto/">escribirme</a>. Este nivel es parte del <a href="/laboratorio-gestalt/">laboratorio Gestalt</a>; seguí con el <a href="/laboratorio-gestalt-experimentos/">nivel 3: los experimentos</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Perls, F. (1942). <em>Ego, Hunger and Aggression</em> (en castellano, <em>Yo, hambre y agresión</em>).</li>
+        <li>Perls, F., Hefferline, R. y Goodman, P. (1951). <em>Gestalt Therapy: Excitement and Growth in the Human Personality</em>.</li>
+        <li>Perls, F. (1969). <em>Gestalt Therapy Verbatim</em> (en castellano, <em>Sueños y existencia</em>). Real People Press.</li>
+        <li>Polster, E. y Polster, M. (1973). <em>Gestalt Therapy Integrated</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
