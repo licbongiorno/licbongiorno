@@ -1,0 +1,151 @@
+<!--{
+  "ruta": "/laboratorio-humanista-necesidades/",
+  "titulo": "Humanista nivel 2: necesidades y crecimiento",
+  "descripcion": "Nivel medio de psicología humanista: las necesidades según Maslow, motivación de déficit y de crecimiento, los valores del ser y el focusing de Gendlin.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Humanista", "/laboratorio-humanista/"], ["Nivel 2: necesidades", "/laboratorio-humanista-necesidades/"]],
+  "antetitulo": "Laboratorio humanista · Nivel 2, medio",
+  "h1": "Humanista: <em>necesidades y crecimiento</em>",
+  "bajada": "Lo que te falta y lo que te hace crecer mueven de forma distinta. Ejercicios con las necesidades de Maslow y con el focusing de Gendlin, para escuchar lo que el cuerpo ya sabe.",
+  "respuesta": "El nivel medio del laboratorio humanista propone ejercicios basados en Abraham Maslow y Eugene Gendlin: un mapa de las necesidades humanas según Maslow (1943), aclarando que él nunca dibujó una pirámide rígida; la diferencia entre motivación por déficit y motivación por crecimiento y los valores del ser (Toward a Psychology of Being, 1962); y los seis pasos del focusing de Gendlin (1978) para encontrar la sensación sentida. Incluye un plan de 7 días. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-humanista-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel medio del laboratorio humanista",
+  "articulos": ["la-soledad"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Abraham Maslow fue, junto con Rogers, una de las figuras centrales de la psicología humanista. En lugar de estudiar solo a personas enfermas, se interesó por las personas sanas y por lo que las movía a crecer. Su teoría de las necesidades («A theory of human motivation», 1943) es una de las ideas más conocidas de la psicología, aunque casi siempre se la presenta mal: Maslow nunca dibujó una pirámide, y aclaró que el orden de las necesidades no era rígido.</p>
+        <p>Este nivel suma también a Eugene Gendlin, filósofo y psicólogo que trabajó con Rogers. Gendlin observó que las personas que más avanzaban en terapia eran las que podían prestar atención a una sensación corporal difusa, todavía sin palabras, y de ahí nació el <strong>focusing</strong>. Es el segundo nivel del <a href="/laboratorio-humanista/">laboratorio humanista</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin escalera obligatoria.</strong> Las necesidades conviven; no hay que completar una para pasar a otra.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con paciencia.</strong> El focusing no se apura.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mapa">Mapa de necesidades</a>
+      <a href="#motivacion">Falta o crecimiento</a>
+      <a href="#valores-ser">Los valores del ser</a>
+      <a href="#focusing">Focusing</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mapa">Mapa de necesidades</h2>
+      <p class="lab-estacion__bajada">Maslow propuso cinco grupos de necesidades: fisiológicas, de seguridad, de pertenencia y amor, de estima, y de autorrealización. Sostuvo que, en general, cuando las más básicas están muy insatisfechas ocupan toda la atención. Pero no son peldaños que se suben de a uno: conviven, y cada persona las ordena a su manera. Puntuá del 0 al 10 qué tan cubierta está hoy cada una.</p>
+      <div class="lab-tarjeta" data-hn-mapa>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-fis">Fisiológicas: dormir, comer, descansar, salud</label><input class="lab-campo" id="hn-fis" type="range" min="0" max="10" value="6" data-hn="fisiológicas"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-seg">Seguridad: un lugar estable, ingresos, sentirte a salvo</label><input class="lab-campo" id="hn-seg" type="range" min="0" max="10" value="6" data-hn="de seguridad"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-per">Pertenencia y amor: vínculos, afecto, ser parte</label><input class="lab-campo" id="hn-per" type="range" min="0" max="10" value="6" data-hn="de pertenencia y amor"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-est">Estima: sentirte capaz, respetado, reconocido</label><input class="lab-campo" id="hn-est" type="range" min="0" max="10" value="6" data-hn="de estima"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-aut">Autorrealización: desarrollar tu potencial, ser quien podés ser</label><input class="lab-campo" id="hn-aut" type="range" min="0" max="10" value="6" data-hn="de autorrealización"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tu mapa hoy</p>
+          <p class="lab-resultado__texto" data-hn-salida aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="motivacion" aria-labelledby="t-motivacion">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-motivacion">Falta o crecimiento</h2>
+      <p class="lab-estacion__bajada">En <em>Toward a Psychology of Being</em> (1962), Maslow distinguió dos motivaciones. La <strong>motivación por déficit</strong> busca llenar una falta: cuando se satisface, se apaga, como el hambre después de comer. La <strong>motivación por crecimiento</strong> busca desarrollarse: cuando se satisface, no se apaga, sino que pide más, como la curiosidad. Lo mismo (estudiar, trabajar, amar) puede hacerse desde una o desde otra.</p>
+      <div class="lab-tarjeta" data-lab-quiz="motivacion">
+        <p class="lab-tarjeta__titulo">¿Déficit o crecimiento?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Por déficit</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Por crecimiento</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="valores-ser" aria-labelledby="t-valores-ser">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-valores-ser">Los valores del ser</h2>
+      <p class="lab-estacion__bajada">Al estudiar a personas autorrealizadas, Maslow encontró que se orientaban por ciertos <strong>valores del ser</strong>: la verdad, la bondad, la belleza, la totalidad, la vitalidad, la singularidad, la justicia, la simplicidad, el juego. No los perseguían por necesidad, sino porque los atraían. Marcá los que más te convocan y pensá cómo darles más lugar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="valores-del-ser" data-lab-form-titulo="Los valores del ser que me convocan" novalidate>
+        <fieldset class="lab-paso" style="border:0;padding:0;margin:0">
+          <legend class="lab-paso__titulo">Me atrae…</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="checkbox" value="verdad"><span>La verdad</span></label>
+            <label class="opcion"><input type="checkbox" value="bondad"><span>La bondad</span></label>
+            <label class="opcion"><input type="checkbox" value="belleza"><span>La belleza</span></label>
+            <label class="opcion"><input type="checkbox" value="totalidad"><span>La totalidad, la unidad</span></label>
+            <label class="opcion"><input type="checkbox" value="vitalidad"><span>La vitalidad</span></label>
+            <label class="opcion"><input type="checkbox" value="singularidad"><span>La singularidad</span></label>
+            <label class="opcion"><input type="checkbox" value="justicia"><span>La justicia</span></label>
+            <label class="opcion"><input type="checkbox" value="simplicidad"><span>La simplicidad</span></label>
+            <label class="opcion"><input type="checkbox" value="juego"><span>El juego</span></label>
+          </div>
+        </fieldset>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-lugar">¿Dónde vive ya ese valor en mi vida? ¿Dónde podría vivir más?</label><textarea class="lab-texto" id="hn-lugar" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="focusing" aria-labelledby="t-focusing">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-focusing">Focusing</h2>
+      <p class="lab-estacion__bajada">Gendlin (<em>Focusing</em>, 1978) describió seis pasos para contactar con la <strong>sensación sentida</strong>: una sensación corporal difusa sobre un problema, que todavía no tiene palabras pero ya «sabe» algo. Él mismo aclaraba que lo esencial no son los pasos, sino la actitud de escucha amable hacia lo que aparece. Buscá un lugar tranquilo y activá el reloj para dedicarle un minuto a cada paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Hacer espacio.</strong> Preguntate: «¿cómo estoy? ¿Qué hay entre yo y sentirme bien?». Dejá que aparezcan las cosas que te pesan, sin meterte en ninguna. Ponelas imaginariamente a un costado.</li>
+          <li><strong>La sensación sentida.</strong> Elegí una. No pienses en ella: notá cómo se siente en el cuerpo el «todo» de ese tema. Una sensación difusa, en el pecho, en el estómago, en la garganta.</li>
+          <li><strong>Un asidero.</strong> Buscá una palabra, una frase o una imagen que describa la cualidad de esa sensación: «pesado», «apretado», «como un nudo».</li>
+          <li><strong>Resonar.</strong> Ir y venir entre la palabra y la sensación. ¿Encaja? Si no, buscá otra, hasta que el cuerpo diga «sí, eso».</li>
+          <li><strong>Preguntar.</strong> Preguntale a la sensación: «¿qué hay en todo este tema que lo hace tan… (la palabra)?». Esperá. Dejá que la respuesta venga del cuerpo, no de la cabeza.</li>
+          <li><strong>Recibir.</strong> Recibí lo que llegue, aunque sea un pequeño alivio o un cambio sutil. Agradecé y quedate un momento ahí.</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="focusing" data-lab-form-titulo="Lo que apareció en el focusing" novalidate style="margin-top:1rem">
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-tema">El tema</label><input class="lab-campo" id="hn-tema" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-asidero">El asidero (la palabra o imagen)</label><input class="lab-campo" id="hn-asidero" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hn-recibi">Lo que recibí</label><textarea class="lab-texto" id="hn-recibi" rows="3"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="humanista-necesidades">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mi mapa.</strong> Puntuá tus necesidades y elegí la que más pide.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Lo básico.</strong> Cuidá una necesidad básica: dormir, comer a horario, descansar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Pertenecer.</strong> Buscá un rato con alguien con quien te sentís parte.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Desde dónde.</strong> Notá si algo que hacés viene de la falta o del crecimiento.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un valor del ser.</strong> Dale lugar a uno: belleza, juego, verdad.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Focusing.</strong> Hacé los seis pasos con un tema que te pese.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Sensación sentida.</strong> Antes de una decisión, consultá cómo se siente en el cuerpo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si tus necesidades básicas están muy insatisfechas (no tenés dónde vivir, no te alcanza para comer, no estás a salvo), lo primero no es un ejercicio sino buscar apoyo concreto, y eso no es un fracaso personal. En el focusing, si la sensación que aparece es abrumadora, abrí los ojos y volvé al entorno: no hace falta entrar en ella. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-humanista/">laboratorio humanista</a>; seguí con el <a href="/laboratorio-humanista-existencial/">nivel 3: las preguntas existenciales</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Maslow, A. H. (1943). «A theory of human motivation». <em>Psychological Review</em>, 50(4).</li>
+        <li>Maslow, A. H. (1962). <em>Toward a Psychology of Being</em> (en castellano, <em>El hombre autorrealizado</em>).</li>
+        <li>Gendlin, E. T. (1978). <em>Focusing</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

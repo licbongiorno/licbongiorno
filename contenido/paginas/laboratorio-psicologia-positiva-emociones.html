@@ -1,0 +1,147 @@
+<!--{
+  "ruta": "/laboratorio-psicologia-positiva-emociones/",
+  "titulo": "Psicología positiva nivel 1: emociones positivas",
+  "descripcion": "Nivel básico de psicología positiva: ampliar y construir de Fredrickson, tres cosas buenas, saborear y la carta de gratitud, con respaldo en la investigación.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Psicología positiva", "/laboratorio-de-psicologia-positiva/"], ["Nivel 1: emociones positivas", "/laboratorio-psicologia-positiva-emociones/"]],
+  "antetitulo": "Psicología positiva · Nivel 1, básico",
+  "h1": "Psicología positiva: <em>emociones positivas</em>",
+  "bajada": "La alegría, la gratitud, la calma o el interés no son un lujo: amplían la mirada y construyen recursos para los momentos difíciles. Ejercicios para cultivarlas.",
+  "respuesta": "El nivel básico del laboratorio de psicología positiva propone ejercicios sobre emociones positivas: la teoría de ampliar y construir de Barbara Fredrickson (2001), el ejercicio de tres cosas buenas y la carta de gratitud evaluados por Seligman, Steen, Park y Peterson (2005), y el saborear según Bryant y Veroff (2007). Incluye un plan de 7 días. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-psicologia-positiva.js", "escenas.js"],
+  "wa_tema": "el nivel básico de psicología positiva",
+  "articulos": ["la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Las emociones negativas tienen una función clara: el miedo nos hace huir, el enojo nos defiende. Durante mucho tiempo no se entendía para qué servían las positivas. Barbara Fredrickson («The role of positive emotions in positive psychology», <em>American Psychologist</em>, 2001) propuso la teoría de <strong>ampliar y construir</strong>: las emociones positivas amplían momentáneamente lo que podemos pensar y hacer (vemos más opciones, somos más creativos, nos acercamos a otros), y con el tiempo construyen recursos duraderos (vínculos, habilidades, resiliencia) que quedan disponibles cuando las cosas se ponen difíciles.</p>
+        <p>Este es el primer nivel del <a href="/laboratorio-de-psicologia-positiva/">laboratorio de psicología positiva</a>. Las prácticas son simples, pero fueron evaluadas en investigaciones. Funcionan mejor si se hacen con atención y constancia, no de memoria.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin forzar.</strong> No se trata de sentir algo que no sentís, sino de notar lo que ya está.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con constancia.</strong> Una semana es el mínimo para notar algo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#tres-cosas">Tres cosas buenas</a>
+      <a href="#saborear">Saborear</a>
+      <a href="#pausa">Una pausa para saborear</a>
+      <a href="#gratitud">La carta de gratitud</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="tres-cosas" aria-labelledby="t-tres-cosas">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tres-cosas">Tres cosas buenas</h2>
+      <p class="lab-estacion__bajada">Uno de los ejercicios mejor estudiados de la psicología positiva. Seligman y sus colegas (2005) pidieron a los participantes que, cada noche durante una semana, anotaran tres cosas que habían salido bien en el día y <strong>por qué</strong> habían pasado. El efecto sobre el bienestar se mantuvo meses después. La pregunta por el porqué es clave: lleva a notar qué parte tuviste vos, o quién te ayudó.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tres-cosas-buenas" data-lab-form-titulo="Tres cosas buenas" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="pp1-c1">Algo bueno que pasó hoy</label><textarea class="lab-texto" id="pp1-c1" rows="2"></textarea></div>
+          <div><label for="pp1-p1">¿Por qué pasó?</label><textarea class="lab-texto" id="pp1-p1" rows="2"></textarea></div>
+        </div>
+        <div class="lab-tabla2">
+          <div><label for="pp1-c2">Algo bueno que pasó hoy</label><textarea class="lab-texto" id="pp1-c2" rows="2"></textarea></div>
+          <div><label for="pp1-p2">¿Por qué pasó?</label><textarea class="lab-texto" id="pp1-p2" rows="2"></textarea></div>
+        </div>
+        <div class="lab-tabla2">
+          <div><label for="pp1-c3">Algo bueno que pasó hoy</label><textarea class="lab-texto" id="pp1-c3" rows="2"></textarea></div>
+          <div><label for="pp1-p3">¿Por qué pasó?</label><textarea class="lab-texto" id="pp1-p3" rows="2"></textarea></div>
+        </div>
+        <p class="lab-paso__ayuda">Pueden ser cosas chicas: un mensaje, una comida rica, un rato de sol. No hace falta que sean extraordinarias.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="saborear" aria-labelledby="t-saborear">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-saborear">Saborear</h2>
+      <p class="lab-estacion__bajada">Fred Bryant y Joseph Veroff (<em>Savoring</em>, 2007) estudiaron el <strong>saborear</strong>: la capacidad de notar, apreciar y prolongar las experiencias positivas. Se puede saborear el presente (disfrutar mientras pasa), el pasado (recordar con detalle algo lindo) y el futuro (anticipar con gusto algo que viene). Muchas veces lo bueno pasa y no lo registramos: estamos pensando en otra cosa. Elegí una idea para hoy.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un tiempo para saborear">
+          <label class="opcion"><input type="radio" name="pp1-tiempo" value="presente" checked><span>Saborear el presente</span></label>
+          <label class="opcion"><input type="radio" name="pp1-tiempo" value="pasado"><span>Saborear el pasado</span></label>
+          <label class="opcion"><input type="radio" name="pp1-tiempo" value="futuro"><span>Saborear el futuro</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="presente"><p><strong>Cómo:</strong> cuando algo te guste, frená un instante. Notá los detalles con los sentidos. Decite, en silencio o en voz alta, «esto está lindo».</p><p><strong>Lo que lo arruina:</strong> pensar en cuándo va a terminar, o en si te lo merecés.</p></div>
+        <div class="lab-panel" data-lab-panel="pasado" hidden><p><strong>Cómo:</strong> recordá un buen momento con todos sus detalles: dónde estabas, quién estaba, qué se escuchaba. Contáselo a alguien o mirá fotos.</p><p><strong>Lo que lo arruina:</strong> compararlo con el presente con nostalgia («ya no es como antes»).</p></div>
+        <div class="lab-panel" data-lab-panel="futuro" hidden><p><strong>Cómo:</strong> pensá en algo lindo que viene, aunque sea chico, e imaginalo con gusto. Tener algo para esperar sostiene en los días grises.</p><p><strong>Lo que lo arruina:</strong> imaginar todo lo que podría salir mal.</p></div>
+      </div>
+      <div class="lab-tarjeta" data-lab-azar="saborear" style="margin-top:1rem">
+        <p class="lab-tarjeta__titulo">Una idea para saborear hoy</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="pausa" aria-labelledby="t-pausa">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-pausa">Una pausa para saborear</h2>
+      <p class="lab-estacion__bajada">Un ejercicio breve para entrenar el saborear del pasado. Pensá en un momento lindo, reciente o lejano. Activá el reloj para dedicarle unos 30 segundos a cada paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Elegir.</strong> Traé a la mente un momento en que te sentiste bien: con alguien, en un lugar, haciendo algo.</li>
+          <li><strong>Ver.</strong> ¿Qué veías? Colores, luz, caras, el lugar.</li>
+          <li><strong>Escuchar y sentir.</strong> ¿Qué sonidos había? ¿Qué temperatura, qué olor, qué sensación en el cuerpo?</li>
+          <li><strong>La emoción.</strong> ¿Qué sentías? Ponele nombre: alegría, paz, orgullo, ternura. Dejá que aparezca ahora, aunque sea un poco.</li>
+          <li><strong>Agradecer.</strong> Notá que ese momento existió y forma parte de tu historia.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="gratitud" aria-labelledby="t-gratitud">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-gratitud">La carta de gratitud</h2>
+      <p class="lab-estacion__bajada">En el estudio de Seligman y sus colegas (2005), la intervención con el efecto inmediato más grande fue la <strong>visita de gratitud</strong>: escribir una carta a alguien que hizo algo importante por vos y a quien nunca le agradeciste como corresponde, y leérsela en persona. El efecto fue intenso, aunque se fue diluyendo en las semanas siguientes. Podés entregarla o no: escribirla ya tiene valor.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="carta-de-gratitud" data-lab-form-titulo="Carta de gratitud" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp1-quien">¿A quién?</label><input class="lab-campo" id="pp1-quien" type="text" autocomplete="off"></div>
+        <ol class="lab-guion">
+          <li>¿Qué hizo esa persona por vos, concretamente?</li>
+          <li>¿Cómo te afectó en ese momento?</li>
+          <li>¿Qué cambió en tu vida gracias a eso?</li>
+          <li>¿Qué te gustaría que sepa hoy?</li>
+        </ol>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp1-carta">La carta</label><textarea class="lab-texto" id="pp1-carta" rows="10"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar mi carta</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="pp-emociones">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Tres cosas buenas.</strong> Antes de dormir, con su porqué.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Saborear el presente.</strong> Frená en un momento lindo y registralo.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Tres cosas buenas.</strong> Otra vez, buscando cosas distintas.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Saborear el pasado.</strong> Hacé la pausa guiada de la estación 03.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Saborear el futuro.</strong> Planeá algo lindo para esta semana y anticipalo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. La carta.</strong> Escribí la carta de gratitud.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Compartir.</strong> Contale a alguien algo bueno de la semana.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si hace semanas que no encontrás nada bueno en tus días, o si estos ejercicios te hacen sentir peor porque no te sale «sentir lo positivo», puede ser una señal de depresión, y no es tu culpa. Lo primero es hablarlo con un profesional: podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-de-psicologia-positiva/">laboratorio de psicología positiva</a>; seguí con el <a href="/laboratorio-psicologia-positiva-fortalezas/">nivel 2: fortalezas y fluir</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Fredrickson, B. L. (2001). «The role of positive emotions in positive psychology: The broaden-and-build theory of positive emotions». <em>American Psychologist</em>, 56, 218-226.</li>
+        <li>Seligman, M. E. P., Steen, T. A., Park, N. y Peterson, C. (2005). «Positive psychology progress: Empirical validation of interventions». <em>American Psychologist</em>, 60(5).</li>
+        <li>Bryant, F. B. y Veroff, J. (2007). <em>Savoring: A New Model of Positive Experience</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -1,0 +1,146 @@
+<!--{
+  "ruta": "/laboratorio-humanista-existencial/",
+  "titulo": "Humanista nivel 3: las preguntas existenciales",
+  "descripcion": "Nivel avanzado de psicología humanista: los cuatro datos de la existencia según Irvin Yalom (muerte, libertad, aislamiento y sentido) y cómo vivir con ellos.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Humanista", "/laboratorio-humanista/"], ["Nivel 3: existencial", "/laboratorio-humanista-existencial/"]],
+  "antetitulo": "Laboratorio humanista · Nivel 3, avanzado",
+  "h1": "Humanista: <em>las preguntas existenciales</em>",
+  "bajada": "La muerte, la libertad, la soledad y el sentido: preguntas que no tienen solución, pero sí una forma más honesta de vivir con ellas. Ejercicios desde la psicoterapia existencial.",
+  "respuesta": "El nivel avanzado del laboratorio humanista propone ejercicios basados en la psicoterapia existencial de Irvin Yalom (Existential Psychotherapy, 1980), que describe cuatro preocupaciones últimas de la existencia: la muerte, la libertad y la responsabilidad, el aislamiento existencial y la falta de sentido. Incluye un recorrido por cada una, ejercicios de reflexión y un plan de 7 días. Se conecta con los laboratorios de sentido (Frankl), libertad (Sartre) y encuentro (Buber). No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-humanista-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel avanzado del laboratorio humanista",
+  "articulos": ["la-soledad", "duelo-migratorio"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>La psicología humanista tiene una rama que mira de frente lo que más cuesta mirar: la psicoterapia existencial. El psiquiatra Irvin Yalom (<em>Existential Psychotherapy</em>, 1980) propuso que, debajo de muchos síntomas, laten cuatro <strong>preocupaciones últimas</strong> que forman parte de la condición humana: la <strong>muerte</strong>, la <strong>libertad</strong>, el <strong>aislamiento</strong> y la <strong>falta de sentido</strong>. No se resuelven, porque no son problemas: son datos de la existencia. Lo que sí cambia es cómo vivimos con ellos. Según Yalom, mucha angustia, depresión o malestar físico puede ser, en el fondo, una forma disfrazada de responder a estas preguntas.</p>
+        <p>Este es el tercer nivel del <a href="/laboratorio-humanista/">laboratorio humanista</a>, y el más exigente. Conviene haber pasado antes por <a href="/laboratorio-humanista-rogers/">Rogers</a> y por <a href="/laboratorio-humanista-necesidades/">Maslow y Gendlin</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin respuestas cerradas.</strong> Las preguntas valen por sí mismas.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con cuidado.</strong> Elegí un momento tranquilo y no lo hagas en un día de crisis.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#cuatro">Los cuatro datos</a>
+      <a href="#muerte">La finitud que despierta</a>
+      <a href="#libertad">Libertad y responsabilidad</a>
+      <a href="#aislamiento">Solos y juntos</a>
+      <a href="#sentido">Crear sentido</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="cuatro" aria-labelledby="t-cuatro">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-cuatro">Los cuatro datos de la existencia</h2>
+      <p class="lab-estacion__bajada">Cada preocupación última nace de un conflicto entre un dato de la realidad y un deseo profundo. Elegí una para verla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una preocupación">
+          <label class="opcion"><input type="radio" name="he-dato" value="muerte" checked><span>La muerte</span></label>
+          <label class="opcion"><input type="radio" name="he-dato" value="libertad"><span>La libertad</span></label>
+          <label class="opcion"><input type="radio" name="he-dato" value="aislamiento"><span>El aislamiento</span></label>
+          <label class="opcion"><input type="radio" name="he-dato" value="sentido"><span>La falta de sentido</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="muerte"><p><strong>El conflicto:</strong> sabemos que vamos a morir, y deseamos seguir existiendo.</p><p><strong>Cómo se esquiva:</strong> vivir como si hubiera tiempo infinito, postergar, sentirse especial o invulnerable.</p><p><strong>Lo que puede abrir:</strong> Yalom sostenía que confrontar la finitud puede paralizar, pero también despertar: ordenar las prioridades y vivir con más autenticidad.</p></div>
+        <div class="lab-panel" data-lab-panel="libertad" hidden><p><strong>El conflicto:</strong> somos autores de nuestras elecciones y de buena parte de nuestra vida, y a la vez deseamos un suelo firme, alguien que decida por nosotros.</p><p><strong>Cómo se esquiva:</strong> culpar a otros o a las circunstancias, no decidir, «no tengo opción».</p><p><strong>Lo que puede abrir:</strong> hacerse cargo de las propias elecciones devuelve el poder de cambiarlas.</p></div>
+        <div class="lab-panel" data-lab-panel="aislamiento" hidden><p><strong>El conflicto:</strong> por más cerca que estemos de otros, hay una distancia que no se cruza del todo: nadie puede vivir, sentir ni morir por nosotros. Y deseamos fundirnos, no estar solos.</p><p><strong>Cómo se esquiva:</strong> fusionarse con otro, usar a los demás para no sentir la soledad, no tolerar estar solo.</p><p><strong>Lo que puede abrir:</strong> aceptar esa soledad de fondo permite encuentros más libres, sin exigirle al otro que la llene.</p></div>
+        <div class="lab-panel" data-lab-panel="sentido" hidden><p><strong>El conflicto:</strong> somos seres que buscan sentido en un mundo que no trae uno ya dado.</p><p><strong>Cómo se esquiva:</strong> la actividad frenética, el consumo, adoptar sentidos ajenos sin pensarlos.</p><p><strong>Lo que puede abrir:</strong> el sentido no se encuentra hecho: se construye, sobre todo comprometiéndose con algo o alguien.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="muerte" aria-labelledby="t-muerte">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-muerte">La finitud que despierta</h2>
+      <p class="lab-estacion__bajada">No se trata de pensar en la muerte para angustiarse, sino de dejar que la conciencia de que el tiempo es limitado ordene lo que importa. Respondé con calma. Si en este momento estás atravesando un duelo o pensamientos de muerte, salteá esta estación y mirá el recuadro de cuidado.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="la-finitud-que-despierta" data-lab-form-titulo="La finitud que despierta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-posterga">¿Qué estoy postergando como si tuviera tiempo infinito?</label><textarea class="lab-texto" id="he-posterga" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-importa">Si mirara mi vida desde el final, ¿qué me alegraría haber hecho? ¿Qué lamentaría?</label><textarea class="lab-texto" id="he-importa" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-decir">¿A quién le diría algo que todavía no le dije?</label><input class="lab-campo" id="he-decir" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-cambio">Un cambio pequeño que puedo hacer esta semana</label><input class="lab-campo" id="he-cambio" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="libertad" aria-labelledby="t-libertad">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-libertad">Libertad y responsabilidad</h2>
+      <p class="lab-estacion__bajada">Para Yalom, asumir la libertad implica hacerse responsable de la propia vida: de las elecciones, de los sentimientos, incluso de las situaciones en las que uno se mete. No es culpa, es autoría. Una forma de empezar es notar cuándo decimos «no tengo opción» y en realidad estamos eligiendo, aunque sea entre opciones difíciles. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="libertad">
+        <p class="lab-tarjeta__titulo">¿Asume su elección o la esquiva?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Asume su elección</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Esquiva su elección</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Para seguir con esta pregunta desde la filosofía, el <a href="/laboratorio-de-la-libertad/">laboratorio de la libertad</a> trabaja con Sartre y Kierkegaard.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="aislamiento" aria-labelledby="t-aislamiento">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-aislamiento">Solos y juntos</h2>
+      <p class="lab-estacion__bajada">Yalom distingue el aislamiento existencial (esa distancia de fondo que nadie puede cruzar del todo) de la soledad cotidiana. Cuando no toleramos el primero, solemos pedirle al otro que lo llene, y los vínculos se vuelven asfixiantes. Cuando lo aceptamos, podemos encontrarnos con el otro como otro, no como un remedio. Martin Buber llamaba a ese encuentro la relación «yo-tú»: podés explorarla en el <a href="/laboratorio-del-encuentro/">laboratorio del encuentro</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="solos-y-juntos" data-lab-form-titulo="Solos y juntos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-solo">¿Cómo me llevo con estar solo? ¿Qué hago para no sentirlo?</label><textarea class="lab-texto" id="he-solo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-pedir">¿Le estoy pidiendo a alguien que llene algo que nadie puede llenar?</label><textarea class="lab-texto" id="he-pedir" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-encuentro">¿Con quién siento un encuentro verdadero, de igual a igual?</label><input class="lab-campo" id="he-encuentro" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sentido" aria-labelledby="t-sentido">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-sentido">Crear sentido</h2>
+      <p class="lab-estacion__bajada">Yalom observó que buscar el sentido de forma directa suele alejarlo, y que aparece más bien como resultado del compromiso: con una tarea, con personas, con una causa, con la creación. Es una idea cercana a la de Viktor Frankl, que el sitio trabaja en el <a href="/laboratorio-de-sentido/">laboratorio de sentido</a>. La pregunta no es «¿cuál es el sentido de la vida?» sino «¿con qué me comprometo?».</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="crear-sentido" data-lab-form-titulo="Crear sentido" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-absorbe">¿En qué momentos me olvido de preguntarme por el sentido, porque estoy absorbido en algo?</label><textarea class="lab-texto" id="he-absorbe" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-compromiso">¿Con qué o con quién me comprometo, de verdad?</label><textarea class="lab-texto" id="he-compromiso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="he-mas">¿Qué podría hacer para comprometerme un poco más con eso?</label><input class="lab-campo" id="he-mas" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="humanista-existencial">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Los cuatro.</strong> Leé las cuatro preocupaciones y elegí la que más resuena hoy.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Lo postergado.</strong> Hacé algo que venías postergando como si hubiera tiempo infinito.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Decirlo.</strong> Decile a alguien algo importante que todavía no le dijiste.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Elijo.</strong> Cambiá un «no tengo opción» por «elijo», y fijate qué pasa.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Estar solo.</strong> Pasá una hora a solas sin pantallas, y notá qué aparece.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Encuentro.</strong> Tené una conversación de igual a igual, escuchando de verdad.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Comprometerse.</strong> Dá un paso concreto hacia algo con lo que te comprometés.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estas preguntas pueden despertar angustia, y eso es parte del trabajo existencial. Pero si aparecen pensamientos de no querer vivir, o si estás atravesando un duelo reciente, no las trabajes a solas: llamá al 911 o al Centro de Asistencia al Suicida (135 desde CABA y GBA, 0800-345-1435 desde todo el país), y mirá <a href="/ayuda-urgente/">ayuda urgente</a>. La psicoterapia existencial es, ante todo, un encuentro: podés <a href="/contacto/">escribirme</a>. Este nivel es parte del <a href="/laboratorio-humanista/">laboratorio humanista</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Yalom, I. D. (1980). <em>Existential Psychotherapy</em> (en castellano, <em>Psicoterapia existencial</em>).</li>
+        <li>Frankl, V. E. (1946). <em>El hombre en busca de sentido</em>.</li>
+        <li>Buber, M. (1923). <em>Yo y tú</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

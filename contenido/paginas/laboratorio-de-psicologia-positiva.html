@@ -1,0 +1,90 @@
+<!--{
+  "ruta": "/laboratorio-de-psicologia-positiva/",
+  "titulo": "Laboratorio de psicología positiva: PERMA y niveles",
+  "descripcion": "Puerta de entrada a la psicología positiva: el modelo PERMA de Seligman, qué es y qué no es, y tres niveles de ejercicios con respaldo en la investigación.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Psicología positiva", "/laboratorio-de-psicologia-positiva/"]],
+  "antetitulo": "Laboratorio de psicología positiva · Puerta de entrada",
+  "h1": "Laboratorio de <em>psicología positiva</em>",
+  "bajada": "No se trata de pensar en positivo ni de estar siempre bien. Se trata de estudiar, con método, lo que hace que una vida florezca, y de practicarlo.",
+  "respuesta": "El laboratorio de psicología positiva es la puerta de entrada a tres niveles de ejercicios basados en la investigación de la psicología positiva: el modelo PERMA de Martin Seligman (Flourish, 2011), con una autoevaluación de sus cinco pilares, la diferencia entre psicología positiva y positividad tóxica, y un mapa de los niveles: emociones positivas, fortalezas y fluir, y vínculos, esperanza y sentido. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-psicologia-positiva.js", "escenas.js"],
+  "wa_tema": "el laboratorio de psicología positiva",
+  "articulos": ["la-resiliencia", "inteligencia-emocional"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Durante gran parte del siglo XX, la psicología se ocupó sobre todo de lo que anda mal: los trastornos, los síntomas, el sufrimiento. Fue necesario, y lo sigue siendo. A fines de los años noventa, Martin Seligman y otros psicólogos propusieron sumar una pregunta: ¿qué hace que una vida valga la pena? ¿Qué fortalece a las personas? Así nació la <strong>psicología positiva</strong>, que estudia con métodos científicos el bienestar, las fortalezas y el sentido.</p>
+        <p>En <em>Flourish</em> (2011), Seligman resumió el bienestar en cinco pilares, con la sigla en inglés <strong>PERMA</strong>: emociones positivas, compromiso, relaciones, sentido y logro. No son una receta de felicidad sino dimensiones que se pueden cultivar, cada una por su lado. Los tres niveles de este laboratorio recorren esos pilares con ejercicios que fueron puestos a prueba en investigaciones.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin obligación de estar bien.</strong> El malestar también es parte de la vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con evidencia.</strong> Cada ejercicio cita el estudio en que se basa.</li>
+      </ul>
+    </div>
+
+    <section class="revelar" aria-labelledby="t-niveles" style="margin:2rem 0">
+      <div class="prosa"><h2 id="t-niveles">Los tres niveles</h2></div>
+      <div class="lab-necesidades">
+        <a class="lab-tarjeta" href="/laboratorio-psicologia-positiva-emociones/"><h3>Nivel 1, básico: emociones positivas</h3><p>Ampliar y construir, tres cosas buenas, saborear y la carta de gratitud.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-psicologia-positiva-fortalezas/"><h3>Nivel 2, medio: fortalezas y fluir</h3><p>Las 24 fortalezas, usar una de una manera nueva, la experiencia de fluir y tu mejor yo posible.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-psicologia-positiva-vinculos-y-sentido/"><h3>Nivel 3, avanzado: vínculos, esperanza y sentido</h3><p>Responder a las buenas noticias, actos de bondad, la esperanza como camino y el sentido.</p></a>
+      </div>
+    </section>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#perma">Mi PERMA</a>
+      <a href="#que-no-es">Lo que no es</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="perma" aria-labelledby="t-perma">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-perma">Mi PERMA</h2>
+      <p class="lab-estacion__bajada">Puntuá del 0 al 10 cómo está hoy cada pilar en tu vida. No es un test validado: es una forma de mirar dónde estás más fuerte y dónde conviene empezar. Nada se guarda.</p>
+      <div class="lab-tarjeta" data-pp-perma>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-p">Emociones positivas: alegría, gratitud, calma, interés</label><input class="lab-campo" id="pp-p" type="range" min="0" max="10" value="5" data-pp-pilar="Emociones positivas" data-pp-nivel="/laboratorio-psicologia-positiva-emociones/"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-e">Compromiso: momentos de estar absorbido en lo que hacés</label><input class="lab-campo" id="pp-e" type="range" min="0" max="10" value="5" data-pp-pilar="Compromiso" data-pp-nivel="/laboratorio-psicologia-positiva-fortalezas/"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-r">Relaciones: vínculos cercanos, sentirte acompañado</label><input class="lab-campo" id="pp-r" type="range" min="0" max="10" value="5" data-pp-pilar="Relaciones" data-pp-nivel="/laboratorio-psicologia-positiva-vinculos-y-sentido/"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-m">Sentido: sentir que tu vida tiene un propósito más allá de vos</label><input class="lab-campo" id="pp-m" type="range" min="0" max="10" value="5" data-pp-pilar="Sentido" data-pp-nivel="/laboratorio-psicologia-positiva-vinculos-y-sentido/"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-a">Logro: avanzar en metas que te importan</label><input class="lab-campo" id="pp-a" type="range" min="0" max="10" value="5" data-pp-pilar="Logro" data-pp-nivel="/laboratorio-psicologia-positiva-fortalezas/"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tu perfil</p>
+          <p class="lab-resultado__texto" data-pp-salida aria-live="polite"></p>
+          <p class="lab-paso__ayuda" data-pp-sugerencia></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="que-no-es" aria-labelledby="t-que-no-es">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-que-no-es">Lo que la psicología positiva no es</h2>
+      <p class="lab-estacion__bajada">La psicología positiva se confunde a menudo con el «pensá en positivo» de la autoayuda. No es lo mismo. No niega el dolor, no culpa a nadie por estar mal y no promete felicidad permanente. Al presionar para estar siempre bien, la llamada positividad tóxica hace lo contrario de lo que la investigación recomienda. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="positividad">
+        <p class="lab-tarjeta__titulo">¿Psicología positiva o positividad tóxica?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Psicología positiva</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Positividad tóxica</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Los ejercicios de psicología positiva tienen efectos reales pero moderados, y funcionan mejor como complemento que como tratamiento. Si estás atravesando una depresión, un duelo o una crisis, obligarte a «ver lo bueno» puede hacerte sentir peor. En ese caso, lo primero es el acompañamiento: podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Seligman, M. E. P. (2011). <em>Flourish: A Visionary New Understanding of Happiness and Well-being</em>.</li>
+        <li>Seligman, M. E. P., Steen, T. A., Park, N. y Peterson, C. (2005). «Positive psychology progress: Empirical validation of interventions». <em>American Psychologist</em>, 60(5).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

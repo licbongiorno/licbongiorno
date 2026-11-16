@@ -1,0 +1,130 @@
+<!--{
+  "ruta": "/laboratorio-humanista-rogers/",
+  "titulo": "Humanista nivel 1: convertirse en persona, con Rogers",
+  "descripcion": "Nivel básico de psicología humanista según Rogers: condiciones de valía, congruencia, la valoración organísmica y la persona en pleno funcionamiento.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Humanista", "/laboratorio-humanista/"], ["Nivel 1: Rogers", "/laboratorio-humanista-rogers/"]],
+  "antetitulo": "Laboratorio humanista · Nivel 1, básico",
+  "h1": "Humanista: <em>convertirse en persona</em>",
+  "bajada": "Carl Rogers pensaba que cada persona sabe, en el fondo, hacia dónde crecer. Ejercicios para escuchar esa brújula interna y soltar los «tengo que» que la tapan.",
+  "respuesta": "El nivel básico del laboratorio humanista propone ejercicios basados en Carl Rogers: las condiciones de valía (1959), es decir, los requisitos que aprendimos para sentirnos valiosos; la congruencia entre lo que vivimos y lo que mostramos; el proceso de valoración organísmica, la brújula interna que esas condiciones tapan; y la persona en pleno funcionamiento descripta en El proceso de convertirse en persona (1961). Incluye un plan de 7 días. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-humanista-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel básico del laboratorio humanista",
+  "articulos": ["la-empatia", "la-culpa"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>La psicología humanista surgió a mediados del siglo XX como una «tercera fuerza», junto al psicoanálisis y la conducta. Su apuesta fue confiar en la persona: en su capacidad de crecer, de elegir y de saber lo que necesita. Carl Rogers, uno de sus fundadores, sostenía que en todo organismo hay una <strong>tendencia actualizante</strong>, un impulso a desarrollarse, y que el sufrimiento aparece cuando ese impulso queda trabado por lo que aprendimos para ser aceptados.</p>
+        <p>Este es el primer nivel del <a href="/laboratorio-humanista/">laboratorio humanista</a>. Allí están el yo real y el yo ideal, la escucha empática y la aceptación incondicional; acá se profundiza en cómo se forma la distancia entre lo que vivimos y lo que creemos que tenemos que ser.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin juzgar.</strong> Lo que aprendiste para ser querido tuvo sentido en su momento.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Escuchándote.</strong> La respuesta suele estar más en el cuerpo que en la cabeza.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#valia">Condiciones de valía</a>
+      <a href="#congruencia">Congruencia</a>
+      <a href="#brujula">La brújula interna</a>
+      <a href="#pleno">En pleno funcionamiento</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="valia" aria-labelledby="t-valia">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-valia">Condiciones de valía</h2>
+      <p class="lab-estacion__bajada">Rogers (1959) describió cómo, de chicos, aprendemos que somos queridos <em>con condiciones</em>: si somos buenos, si no lloramos, si sacamos buenas notas, si no nos enojamos. Con el tiempo, esas condiciones se vuelven nuestras: nos valoramos solo cuando las cumplimos y rechazamos las partes de nosotros que no encajan. Rogers las llamó <strong>condiciones de valía</strong>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="condiciones-de-valia" data-lab-form-titulo="Mis condiciones de valía" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hr-querido">De chico, sentía que me querían más cuando…</label><textarea class="lab-texto" id="hr-querido" rows="2" placeholder="Por ejemplo: no daba problemas, era el que ayudaba, me iba bien en la escuela"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hr-rechazo">Y sentía que no era aceptado cuando…</label><textarea class="lab-texto" id="hr-rechazo" rows="2" placeholder="Por ejemplo: lloraba, me enojaba, pedía algo para mí"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hr-hoy">¿Cómo sigue funcionando eso hoy? ¿Cuándo me valoro y cuándo no?</label><textarea class="lab-texto" id="hr-hoy" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hr-parte">¿Qué parte de mí quedó afuera, y qué necesitaría para volver?</label><textarea class="lab-texto" id="hr-parte" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="congruencia" aria-labelledby="t-congruencia">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-congruencia">Congruencia</h2>
+      <p class="lab-estacion__bajada">Para Rogers, la salud psicológica tiene mucho que ver con la <strong>congruencia</strong>: que lo que vivís por dentro, lo que te das cuenta y lo que mostrás afuera coincidan. La incongruencia aparece cuando decimos «estoy bien» con un nudo en el estómago, o sonreímos mientras algo nos duele. No es mentir: muchas veces ni siquiera nos damos cuenta. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="congruencia">
+        <p class="lab-tarjeta__titulo">¿Congruente o incongruente?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Congruente</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Incongruente</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="brujula" aria-labelledby="t-brujula">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-brujula">La brújula interna</h2>
+      <p class="lab-estacion__bajada">Rogers llamó <strong>proceso de valoración organísmica</strong> a la capacidad de evaluar las experiencias según lo que de verdad nos hace bien, sentida en todo el organismo y no solo pensada. Las condiciones de valía la tapan: empezamos a elegir según lo que «hay que» y no según lo que nos nutre. Este ejercicio busca volver a escucharla ante una decisión. Activá el reloj para dedicarle unos 40 segundos a cada paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>La decisión.</strong> Pensá en una decisión pendiente, con dos o más opciones.</li>
+          <li><strong>Opción A.</strong> Imaginá que ya elegiste la primera. Viví un día con esa elección. Notá el cuerpo: ¿se expande o se contrae? ¿Respirás mejor o peor?</li>
+          <li><strong>Opción B.</strong> Ahora imaginá que elegiste la otra. Mismo ejercicio: ¿qué pasa en el cuerpo?</li>
+          <li><strong>Los «tengo que».</strong> Notá qué voces aparecieron: «tendrías que», «qué van a pensar». ¿De quién son?</li>
+          <li><strong>Escuchar.</strong> Sin esas voces, ¿qué opción se siente más tuya? No hace falta decidir ahora: solo tomar nota.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="pleno" aria-labelledby="t-pleno">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-pleno">La persona en pleno funcionamiento</h2>
+      <p class="lab-estacion__bajada">En <em>El proceso de convertirse en persona</em> (1961), Rogers describió hacia dónde tiende alguien que puede crecer sin tantas trabas. No es un ideal de perfección, sino una dirección. Elegí una característica para ver cómo se practica.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una característica">
+          <label class="opcion"><input type="radio" name="hr-pleno" value="apertura" checked><span>Apertura a la experiencia</span></label>
+          <label class="opcion"><input type="radio" name="hr-pleno" value="presente"><span>Vivir cada momento</span></label>
+          <label class="opcion"><input type="radio" name="hr-pleno" value="confianza"><span>Confiar en el propio organismo</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="apertura"><p><strong>Qué es:</strong> poder registrar lo que sentís, incluso lo incómodo, sin defenderte de eso.</p><p><strong>Para practicar:</strong> cuando aparezca una emoción que solés tapar, quedate un minuto con ella antes de hacer algo.</p></div>
+        <div class="lab-panel" data-lab-panel="presente" hidden><p><strong>Qué es:</strong> vivir cada momento como algo nuevo, sin forzarlo a encajar en lo que esperabas.</p><p><strong>Para practicar:</strong> en una situación conocida (un almuerzo familiar, una reunión), buscá algo que no habías notado antes.</p></div>
+        <div class="lab-panel" data-lab-panel="confianza" hidden><p><strong>Qué es:</strong> tomar en cuenta lo que te dice todo tu ser, y no solo las reglas o la opinión de otros, para decidir.</p><p><strong>Para practicar:</strong> en una decisión chica, elegí según lo que sentís que te hace bien, y notá cómo te va.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="humanista-rogers">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mis condiciones.</strong> Completá el ejercicio de condiciones de valía.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Valer sin condiciones.</strong> Hacé algo por vos sin haberlo «ganado».</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Notar la incongruencia.</strong> Registrá una vez que dijiste algo distinto de lo que sentías.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Ser congruente.</strong> Decí cómo estás de verdad a alguien de confianza.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. La brújula.</strong> Usá la brújula interna ante una decisión.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Apertura.</strong> Quedate un minuto con una emoción que solés tapar.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Aceptarte.</strong> Elegí una parte tuya que rechazás y mirala con aceptación.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Revisar las condiciones de valía puede traer recuerdos de la infancia que duelen. Para Rogers, lo que más ayuda a crecer es una relación de aceptación, empatía y autenticidad: por eso estos ejercicios rinden más dentro de un espacio terapéutico. Podés <a href="/contacto/">escribirme</a>. Este nivel es parte del <a href="/laboratorio-humanista/">laboratorio humanista</a>; seguí con el <a href="/laboratorio-humanista-necesidades/">nivel 2: necesidades y crecimiento</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Rogers, C. R. (1959). «A theory of therapy, personality, and interpersonal relationships, as developed in the client-centered framework». En S. Koch (ed.), <em>Psychology: A Study of a Science</em>, vol. 3.</li>
+        <li>Rogers, C. R. (1961). <em>El proceso de convertirse en persona</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
