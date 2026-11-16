@@ -1824,6 +1824,9 @@ def construir():
     banco = json.loads((RAIZ / "contenido/psicoquiz.json").read_text(encoding="utf-8"))
     (SALIDA / "assets/js/psicoquiz-banco.js").write_text(
         "window.PSICOQUIZ=" + json.dumps(banco, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + ";\n", encoding="utf-8")
+    # Archivos de verificación de webmasters (Yandex, etc.): van tal cual a la raíz del sitio.
+    for archivo in sorted((RAIZ / "verificacion").glob("*")) if (RAIZ / "verificacion").is_dir() else []:
+        shutil.copy(archivo, SALIDA / archivo.name)
     for extra in ("favicon.svg", "favicon.ico", "apple-touch-icon.png"):
         origen = RAIZ / "assets/img" / extra
         if origen.exists():
