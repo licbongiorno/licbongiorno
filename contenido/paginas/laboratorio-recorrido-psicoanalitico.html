@@ -1,0 +1,72 @@
+<!--{
+  "ruta": "/laboratorio-recorrido-psicoanalitico/",
+  "titulo": "Recorrido psicoanalítico: de Freud a Winnicott",
+  "descripcion": "Puerta de entrada al psicoanálisis: un recorrido en tres niveles, de los actos fallidos y las defensas a Klein y Winnicott, más laboratorios relacionados.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Recorrido psicoanalítico", "/laboratorio-recorrido-psicoanalitico/"]],
+  "antetitulo": "Psicoanálisis · Puerta de entrada",
+  "h1": "Recorrido <em>psicoanalítico</em>",
+  "bajada": "El psicoanálisis cambió la forma de pensar lo humano: hay algo en nosotros que no conocemos y que, sin embargo, decide. Un recorrido en tres niveles por sus ideas centrales.",
+  "respuesta": "El recorrido psicoanalítico ordena los laboratorios del sitio en tres niveles: el inconsciente cotidiano con Freud (actos fallidos, mecanismos de defensa, compulsión a repetir); la práctica del vínculo con Winnicott, Bion y Kohut (objeto transicional, contenedor, empatía); y el amor, el odio y el verdadero self con Klein y Winnicott. Incluye un quiz sobre mitos del psicoanálisis y enlaces a laboratorios relacionados. No reemplaza un análisis.",
+  "scripts": ["lab-base.js", "laboratorio-psicoanalisis-niveles.js", "escenas.js"],
+  "wa_tema": "el recorrido psicoanalítico",
+  "articulos": ["sigmund-freud", "anna-freud"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>A fines del siglo XIX, Sigmund Freud propuso que una parte de nuestra vida psíquica es <strong>inconsciente</strong>: deseos, recuerdos y conflictos que no conocemos, pero que se expresan en los sueños, en los síntomas, en los olvidos y en la forma en que nos vinculamos. Desde entonces, el psicoanálisis se desarrolló en muchas corrientes. Algunas se centraron en el yo y sus defensas, otras en los vínculos tempranos, otras en el lenguaje.</p>
+        <p>Este recorrido ordena los laboratorios del sitio en tres niveles, de lo más cotidiano a lo más profundo. Freud sostenía que el psicoanálisis es, ante todo, una práctica entre dos personas: estos ejercicios son una puerta, no un análisis.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>En orden.</strong> Cada nivel se apoya en el anterior.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con preguntas.</strong> El psicoanálisis abre más preguntas que respuestas.</li>
+      </ul>
+    </div>
+
+    <section class="revelar" aria-labelledby="t-niveles" style="margin:2rem 0">
+      <div class="prosa"><h2 id="t-niveles">Los tres niveles</h2></div>
+      <div class="lab-necesidades">
+        <a class="lab-tarjeta" href="/laboratorio-psicoanalisis-freud/"><h3>Nivel 1, básico: el inconsciente cotidiano</h3><p>Freud y Anna Freud: actos fallidos, mecanismos de defensa y la compulsión a repetir.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-de-psicoanalisis-en-practica/"><h3>Nivel 2, medio: el psicoanálisis en práctica</h3><p>Asociación libre, el objeto transicional de Winnicott, el contenedor de Bion y la empatía de Kohut.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-psicoanalisis-klein-winnicott/"><h3>Nivel 3, avanzado: amor, odio y verdadero self</h3><p>Klein y Winnicott: escisión e integración, reparación, verdadero y falso self, la capacidad de estar solo.</p></a>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Laboratorios relacionados: <a href="/laboratorio-del-desarrollo-y-el-apego/">desarrollo y apego</a> (Bowlby y Ainsworth), <a href="/laboratorio-de-transacciones-y-estados-del-yo/">transacciones y estados del yo</a> (Berne), <a href="/laboratorio-de-no-violencia-interior/">no violencia hacia uno mismo</a> (el superyó y la identificación con el agresor) y <a href="/laboratorio-de-suenos/">sueños</a>.</p>
+    </section>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mitos">Mitos sobre el psicoanálisis</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mitos">Mitos sobre el psicoanálisis</h2>
+      <p class="lab-estacion__bajada">El psicoanálisis está lleno de lugares comunes, algunos ciertos y otros no. ¿Mito o realidad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="mitos-psicoanalisis">
+        <p class="lab-tarjeta__titulo">¿Mito o realidad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Realidad</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Leer sobre psicoanálisis puede dar ganas de interpretarlo todo, en uno y en los demás. Conviene hacerlo con cuidado: una interpretación fuera de un vínculo terapéutico puede herir más que ayudar. Si querés trabajar estas preguntas, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Freud, S. (1900). <em>La interpretación de los sueños</em>.</li>
+        <li>Freud, S. (1901). <em>Psicopatología de la vida cotidiana</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

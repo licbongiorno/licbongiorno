@@ -1,0 +1,69 @@
+<!--{
+  "ruta": "/laboratorio-recorrido-junguiano/",
+  "titulo": "Recorrido junguiano: los laboratorios de Jung en orden",
+  "descripcion": "Puerta de entrada a la psicología de Jung: un recorrido en cuatro niveles, de la persona y la sombra a la individuación, pasando por complejos, tipos y sueños.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Recorrido junguiano", "/laboratorio-recorrido-junguiano/"]],
+  "antetitulo": "Psicología junguiana · Puerta de entrada",
+  "h1": "Recorrido <em>junguiano</em>",
+  "bajada": "La psicología de Jung es un camino, no una lista de conceptos. Un recorrido por los laboratorios del sitio, en el orden en que suele transitarse: de lo que mostramos a lo que somos.",
+  "respuesta": "El recorrido junguiano ordena los laboratorios inspirados en Carl Gustav Jung en cuatro niveles: la persona y la sombra; los complejos y los tipos psicológicos; el lenguaje de lo inconsciente (sueños, imaginación activa, pesadillas); y la individuación (la psique y la imagen, el mito personal). Incluye un quiz sobre conceptos junguianos. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-jung-recorrido.js", "escenas.js"],
+  "wa_tema": "el recorrido junguiano",
+  "articulos": ["carl-gustav-jung", "el-proceso-de-individuacion", "inconsciente-personal-y-colectivo"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Carl Gustav Jung pensaba la vida psíquica como un proceso de <strong>individuación</strong>: llegar a ser plenamente quien uno es, integrando lo que quedó afuera de la conciencia. Ese camino no es lineal, pero tiene un orden habitual. Primero, darse cuenta de la máscara que mostramos y de la sombra que escondemos. Después, reconocer los complejos que nos mueven y nuestra forma particular de percibir. Luego, aprender el lenguaje de lo inconsciente, que habla en imágenes. Y, finalmente, integrar todo eso en una vida con sentido.</p>
+        <p>El sitio tiene varios laboratorios sobre Jung. Acá están ordenados en ese recorrido. También hay artículos para profundizar, como <a href="/recursos/el-proceso-de-individuacion/">el proceso de individuación</a> o <a href="/recursos/la-sombra-segun-jung/">la sombra según Jung</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>En orden, pero sin rigidez.</strong> Podés volver a cualquier nivel.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con tiempo.</strong> Jung hablaba de un proceso de toda la vida.</li>
+      </ul>
+    </div>
+
+    <section class="revelar" aria-labelledby="t-niveles" style="margin:2rem 0">
+      <div class="prosa"><h2 id="t-niveles">Los cuatro niveles</h2></div>
+      <div class="lab-necesidades">
+        <a class="lab-tarjeta" href="/laboratorio-de-sombra-y-arquetipos/"><h3>Nivel 1: persona y sombra</h3><p>Lo que te molesta en otros, la sombra dorada, tus arquetipos y la máscara que mostrás.</p></a>
+        <a class="lab-tarjeta" href="/laboratorio-de-complejos-y-tipos/"><h3>Nivel 2: complejos y tipos</h3><p>El experimento de asociación, cuando un complejo se activa, los tipos psicológicos y la función inferior.</p></a>
+        <div class="lab-tarjeta"><h3><a href="/laboratorio-de-suenos/">Nivel 3: el lenguaje de lo inconsciente</a></h3><p>Los <a href="/laboratorio-de-suenos/">sueños</a> y su amplificación, la <a href="/laboratorio-de-imaginacion-activa/">imaginación activa</a> y, si hace falta, las <a href="/laboratorio-de-pesadillas/">pesadillas</a>.</p></div>
+        <div class="lab-tarjeta"><h3><a href="/laboratorio-de-la-psique-y-la-imagen/">Nivel 4: individuación</a></h3><p>La <a href="/laboratorio-de-la-psique-y-la-imagen/">psique y la imagen</a> (la segunda mitad de la vida, la trampa de la perfección) y el <a href="/laboratorio-mito-personal/">mito personal</a>.</p></div>
+      </div>
+    </section>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#conceptos">Conceptos junguianos</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="conceptos" aria-labelledby="t-conceptos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-conceptos">Conceptos junguianos</h2>
+      <p class="lab-estacion__bajada">Un repaso de los conceptos que aparecen en el recorrido. ¿Qué concepto describe cada situación?</p>
+      <div class="lab-tarjeta" data-lab-quiz="conceptos-jung">
+        <p class="lab-tarjeta__titulo">¿Qué concepto es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El trabajo con lo inconsciente puede traer a la superficie material intenso. Jung lo hacía siempre dentro de una relación analítica. Si algo de este recorrido te desborda, frená y consultalo: podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Jung, C. G. (1921). <em>Tipos psicológicos</em>.</li>
+        <li>Jung, C. G. (1962). <em>Recuerdos, sueños, pensamientos</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

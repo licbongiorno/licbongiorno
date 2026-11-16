@@ -1,0 +1,148 @@
+<!--{
+  "ruta": "/laboratorio-de-psicosintesis/",
+  "titulo": "Laboratorio de psicosíntesis: el mapa de Assagioli",
+  "descripcion": "Psicosíntesis de Roberto Assagioli: el mapa del huevo, el yo y el Sí mismo, la voluntad fuerte, hábil y buena, el modelo ideal y las palabras evocadoras.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Transpersonal", "/laboratorio-de-psicologia-transpersonal/"], ["Psicosíntesis", "/laboratorio-de-psicosintesis/"]],
+  "antetitulo": "Psicología transpersonal · Nivel 2",
+  "h1": "Laboratorio de <em>psicosíntesis</em>",
+  "bajada": "Roberto Assagioli imaginó la psique como un huevo con distintas regiones, y un yo capaz de elegir. Ejercicios para conocer ese mapa, fortalecer la voluntad y cultivar las cualidades que querés.",
+  "respuesta": "El laboratorio de psicosíntesis propone ejercicios basados en Roberto Assagioli (Psychosynthesis, 1965; The Act of Will, 1973): el mapa del huevo con el inconsciente inferior, medio y superior, el campo de la conciencia, el yo y el Sí mismo; los aspectos de la voluntad (fuerte, hábil y buena); la técnica del modelo ideal; y las palabras evocadoras para cultivar cualidades. Complementa el laboratorio de psicología transpersonal, donde están las subpersonalidades y la desidentificación. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-psicosintesis.js", "escenas.js"],
+  "wa_tema": "el laboratorio de psicosíntesis",
+  "articulos": ["el-proceso-de-individuacion"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Roberto Assagioli, psiquiatra italiano contemporáneo de Freud y de Jung, desarrolló la <strong>psicosíntesis</strong>: una psicología que, además de explorar lo que está herido o reprimido, se ocupa de lo que puede crecer, incluida la dimensión espiritual. Si el psicoanálisis busca analizar, la psicosíntesis busca integrar las distintas partes de la persona alrededor de un centro. Es una de las raíces de la psicología transpersonal.</p>
+        <p>Este laboratorio complementa el de <a href="/laboratorio-de-psicologia-transpersonal/">psicología transpersonal</a>, donde están las subpersonalidades y el ejercicio de desidentificación («tengo un cuerpo, pero no soy solo mi cuerpo»). Acá se trabajan el mapa de la psique, la voluntad y el cultivo de cualidades.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Un mapa, no un territorio.</strong> El huevo es una forma de pensarse, no una verdad anatómica.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con práctica.</strong> La voluntad se entrena como un músculo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#huevo">El mapa del huevo</a>
+      <a href="#voluntad">Los aspectos de la voluntad</a>
+      <a href="#ejercicio-voluntad">Entrenar la voluntad</a>
+      <a href="#modelo">El modelo ideal</a>
+      <a href="#palabras">Palabras evocadoras</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="huevo" aria-labelledby="t-huevo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-huevo">El mapa del huevo</h2>
+      <p class="lab-estacion__bajada">En <em>Psychosynthesis</em> (1965), Assagioli dibujó la psique como un huevo con varias regiones. Elegí una para ver qué contiene. La palabra «inferior» no es un juicio moral: designa lo más básico y antiguo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una región">
+          <label class="opcion"><input type="radio" name="ps-region" value="inferior" checked><span>Inconsciente inferior</span></label>
+          <label class="opcion"><input type="radio" name="ps-region" value="medio"><span>Inconsciente medio</span></label>
+          <label class="opcion"><input type="radio" name="ps-region" value="superior"><span>Inconsciente superior</span></label>
+          <label class="opcion"><input type="radio" name="ps-region" value="campo"><span>Campo de la conciencia</span></label>
+          <label class="opcion"><input type="radio" name="ps-region" value="yo"><span>El yo</span></label>
+          <label class="opcion"><input type="radio" name="ps-region" value="self"><span>El Sí mismo</span></label>
+          <label class="opcion"><input type="radio" name="ps-region" value="colectivo"><span>Inconsciente colectivo</span></label>
+        </div>
+        <div class="lab-panel" data-lab-panel="inferior"><p>Las pulsiones básicas, los miedos antiguos, los recuerdos y complejos reprimidos: lo que más trabajó el psicoanálisis.</p></div>
+        <div class="lab-panel" data-lab-panel="medio" hidden><p>Lo que está cerca de la conciencia y se puede traer con facilidad: recuerdos recientes, habilidades aprendidas, lo que se va elaborando sin que lo notemos.</p></div>
+        <div class="lab-panel" data-lab-panel="superior" hidden><p>También llamado supraconsciente: la fuente de la inspiración, la creatividad, el altruismo, las intuiciones y las experiencias de plenitud. Para Assagioli, también puede estar reprimido.</p></div>
+        <div class="lab-panel" data-lab-panel="campo" hidden><p>Lo que está presente ahora en tu conciencia: sensaciones, pensamientos, emociones que van y vienen.</p></div>
+        <div class="lab-panel" data-lab-panel="yo" hidden><p>El centro de la conciencia y de la voluntad: el que observa los contenidos y puede elegir. No es ninguno de ellos.</p></div>
+        <div class="lab-panel" data-lab-panel="self" hidden><p>El centro más profundo, de naturaleza transpersonal. Assagioli lo ubicó en el vértice del huevo, unido al yo por una línea punteada: el yo sería un reflejo del Sí mismo.</p></div>
+        <div class="lab-panel" data-lab-panel="colectivo" hidden><p>Lo que rodea al huevo: el inconsciente compartido con otros, en una idea cercana a la de Jung.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="voluntad" aria-labelledby="t-voluntad">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-voluntad">Los aspectos de la voluntad</h2>
+      <p class="lab-estacion__bajada">En <em>The Act of Will</em> (1973), Assagioli le dedicó un libro entero a la voluntad, un tema que la psicología de su época había dejado de lado. Distinguió tres aspectos que una voluntad sana necesita equilibrar: la <strong>voluntad fuerte</strong>, la <strong>voluntad hábil</strong> y la <strong>voluntad buena</strong>. ¿Cuál falta en cada situación?</p>
+      <div class="lab-tarjeta" data-lab-quiz="voluntad">
+        <p class="lab-tarjeta__titulo">¿Qué aspecto de la voluntad falta?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="ejercicio-voluntad" aria-labelledby="t-ejercicio-voluntad">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-ejercicio-voluntad">Entrenar la voluntad</h2>
+      <p class="lab-estacion__bajada">Assagioli proponía entrenar la voluntad con actos pequeños, deliberados y aparentemente inútiles: guardar algo despacio en lugar de tirarlo, esperar un minuto antes de responder. No se trata de exigirse, sino de descubrir que hay alguien que elige. Diseñá tu entrenamiento.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="entrenar-la-voluntad" data-lab-form-titulo="Entrenar la voluntad" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ps-quiero">¿Qué quiero lograr, y para qué?</label><textarea class="lab-texto" id="ps-quiero" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ps-fuerte">Voluntad fuerte: ¿qué esfuerzo concreto voy a sostener?</label><input class="lab-campo" id="ps-fuerte" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ps-habil">Voluntad hábil: ¿cómo lo hago más fácil, en vez de solo apretar los dientes?</label><input class="lab-campo" id="ps-habil" type="text" placeholder="Por ejemplo: dejar la ropa de correr al lado de la cama" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ps-buena">Voluntad buena: ¿esto es bueno para mí y para los demás?</label><input class="lab-campo" id="ps-buena" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ps-acto">Un acto pequeño y deliberado para hoy</label><input class="lab-campo" id="ps-acto" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="modelo" aria-labelledby="t-modelo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-modelo">El modelo ideal</h2>
+      <p class="lab-estacion__bajada">Una de las técnicas de la psicosíntesis: imaginar con detalle cómo serías si tuvieras una cualidad que querés desarrollar (más serenidad, más coraje, más ternura). La imagen orienta y, según Assagioli, las imágenes tienden a producir las condiciones que las realizan. No es un ideal perfecto: es una versión posible de vos. Unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>La cualidad.</strong> Elegí una cualidad que quieras cultivar.</li>
+          <li><strong>Verte.</strong> Imaginate en una situación concreta de tu vida, actuando desde esa cualidad. ¿Cómo estás parado? ¿Qué cara tenés?</li>
+          <li><strong>Escucharte.</strong> ¿Qué decís, y con qué tono?</li>
+          <li><strong>Sentirlo.</strong> Notá cómo se siente en el cuerpo actuar así.</li>
+          <li><strong>Un puente.</strong> Elegí un gesto pequeño de esa versión tuya para llevar a hoy.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="palabras" aria-labelledby="t-palabras">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-palabras">Palabras evocadoras</h2>
+      <p class="lab-estacion__bajada">La psicosíntesis usa palabras escritas en tarjetas, como «serenidad», «coraje» o «gratitud», colocadas a la vista para evocar una cualidad a lo largo del día. Pedí una palabra, escribila en un papel y dejala donde la veas.</p>
+      <div class="lab-tarjeta" data-lab-azar="palabras">
+        <p class="lab-tarjeta__titulo">Tu palabra de hoy</p>
+        <p class="lab-consigna lab-consigna--grande" data-lab-azar-texto aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-azar-otra>Otra palabra</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="psicosintesis">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. El mapa.</strong> Recorré las regiones del huevo y anotá un contenido tuyo en cada una.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. El yo.</strong> Hacé el ejercicio de desidentificación del laboratorio transpersonal.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Un acto deliberado.</strong> Hacé algo pequeño solo porque lo elegís.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Voluntad hábil.</strong> Hacé más fácil algo que te cuesta.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. El modelo ideal.</strong> Imaginá la cualidad que querés cultivar.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Una palabra.</strong> Dejá una palabra evocadora a la vista todo el día.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Síntesis.</strong> ¿Qué parte de vos se integró un poco más esta semana?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El trabajo con la dimensión transpersonal no reemplaza el trabajo con lo personal: Assagioli insistía en que ambos van juntos. Si estás atravesando una crisis intensa, o experiencias que te desbordan y no sabés cómo nombrar, lo primero es el acompañamiento. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este laboratorio es parte del recorrido de <a href="/laboratorio-de-psicologia-transpersonal/">psicología transpersonal</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Assagioli, R. (1965). <em>Psychosynthesis: A Manual of Principles and Techniques</em> (en castellano, <em>Psicosíntesis</em>).</li>
+        <li>Assagioli, R. (1973). <em>The Act of Will</em> (en castellano, <em>El acto de voluntad</em>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

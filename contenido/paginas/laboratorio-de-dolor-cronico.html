@@ -1,0 +1,145 @@
+<!--{
+  "ruta": "/laboratorio-de-dolor-cronico/",
+  "titulo": "Laboratorio de enfermedad crónica y dolor",
+  "descripcion": "Para vivir con una enfermedad crónica o dolor persistente: la compuerta del dolor, dosificar la energía, la aceptación y más allá del diagnóstico.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Enfermedad crónica y dolor", "/laboratorio-de-dolor-cronico/"]],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>enfermedad crónica y dolor</em>",
+  "bajada": "Cuando el dolor o la enfermedad no se van, la vida cambia de forma. Ejercicios psicológicos para acompañar el tratamiento médico: entender el dolor, dosificar la energía y no quedar reducido a un diagnóstico.",
+  "respuesta": "El laboratorio de enfermedad crónica y dolor propone ejercicios psicológicos complementarios al tratamiento médico: la teoría de la compuerta de Ronald Melzack y Patrick Wall (1965), que explica cómo la atención y las emociones modulan el dolor; el dolor total de Cicely Saunders; la dosificación de la actividad para salir del ciclo de hacer de más y colapsar; la aceptación del dolor desde la ACT; preguntas para la consulta médica, y la identidad más allá de la enfermedad. Incluye un plan de 7 días.",
+  "scripts": ["lab-base.js", "laboratorio-tematicos.js", "escenas.js"],
+  "wa_tema": "el laboratorio de enfermedad crónica y dolor",
+  "articulos": ["la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Vivir con una enfermedad crónica o con dolor persistente no es solo un problema del cuerpo. Cambia el trabajo, los vínculos, el humor, los planes, la forma de verse a uno mismo. A veces se suma la incomprensión de los demás («no parecés enfermo») o el cansancio de explicar. La psicología no reemplaza el tratamiento médico, pero puede ayudar mucho a convivir con lo que no se va.</p>
+        <p>En 1965, Ronald Melzack y Patrick Wall publicaron en <em>Science</em> la <strong>teoría de la compuerta</strong>: el dolor no es una señal directa del daño, sino que se modula en la médula espinal y en el cerebro, como si hubiera una compuerta que se abre o se cierra. El estrés, el miedo, la atención fija en el dolor y la tristeza tienden a abrirla; la distracción, la calma, el movimiento adecuado y el buen ánimo tienden a cerrarla. Eso no quiere decir que el dolor «sea psicológico»: quiere decir que la psicología tiene herramientas para modularlo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Complemento, no reemplazo.</strong> Seguí siempre las indicaciones de tu equipo médico.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu medida.</strong> Adaptá cada ejercicio a tus posibilidades.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#compuerta">La compuerta del dolor</a>
+      <a href="#dosificar">Dosificar la energía</a>
+      <a href="#aceptar">Pelear o hacer lugar</a>
+      <a href="#consulta">Preparar la consulta</a>
+      <a href="#identidad">Más que un diagnóstico</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="compuerta" aria-labelledby="t-compuerta">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-compuerta">La compuerta del dolor</h2>
+      <p class="lab-estacion__bajada">Según la teoría de la compuerta, muchas cosas influyen en cuánto dolor se siente. Marcá las que reconocés en tu experiencia: qué la abre y qué la cierra.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-compuerta" data-lab-form-titulo="Mi compuerta del dolor" novalidate>
+        <div class="lab-tabla2">
+          <div><label for="dc-abre">Lo que abre la compuerta (aumenta el dolor)</label><textarea class="lab-texto" id="dc-abre" rows="5" placeholder="Estrés, dormir mal, estar todo el día pendiente del dolor, miedo a moverme, discusiones…"></textarea></div>
+          <div><label for="dc-cierra">Lo que cierra la compuerta (lo alivia)</label><textarea class="lab-texto" id="dc-cierra" rows="5" placeholder="Calor, una charla con alguien querido, música, caminar un poco, reírme, concentrarme en algo…"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-sumar">¿Qué de la columna derecha puedo sumar esta semana?</label><input class="lab-campo" id="dc-sumar" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="dosificar" aria-labelledby="t-dosificar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-dosificar">Dosificar la energía</h2>
+      <p class="lab-estacion__bajada">Un patrón muy común en el dolor crónico: el día que te sentís mejor, hacés todo lo pendiente; al día siguiente, el dolor se dispara y pasás días en cama. Es el ciclo de hacer de más y colapsar. La <strong>dosificación</strong> propone hacer cantidades más parejas cada día, con pausas planificadas antes de que el dolor obligue a parar, e ir aumentando de a poco.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dosificar-la-energia" data-lab-form-titulo="Dosificar la energía" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-actividad">Una actividad que suelo hacer de golpe</label><input class="lab-campo" id="dc-actividad" type="text" placeholder="Por ejemplo: limpiar la casa" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-tolero">¿Cuánto puedo hacer en un día malo sin que empeore?</label><input class="lab-campo" id="dc-tolero" type="text" placeholder="Por ejemplo: quince minutos" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-base">Mi punto de partida: un poco menos que eso, todos los días</label><input class="lab-campo" id="dc-base" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-pausa">¿Cuándo hago la pausa, antes de que el dolor me obligue?</label><input class="lab-campo" id="dc-pausa" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-aumento">¿Cuánto y cada cuánto voy a aumentar?</label><input class="lab-campo" id="dc-aumento" type="text" placeholder="Por ejemplo: dos minutos más por semana" autocomplete="off"></div>
+        <p class="lab-paso__ayuda">Consultalo con tu médico o kinesiólogo, sobre todo si el plan incluye ejercicio físico.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="aceptar" aria-labelledby="t-aceptar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-aceptar">Pelear o hacer lugar</h2>
+      <p class="lab-estacion__bajada">La terapia de aceptación y compromiso se usa mucho en el dolor crónico. No propone resignarse ni dejar de buscar tratamientos, sino dejar de pelear contra el dolor en cada minuto del día, porque esa pelea agota y deja menos energía para vivir. ¿Lucha o aceptación?</p>
+      <div class="lab-tarjeta" data-lab-quiz="dolor">
+        <p class="lab-tarjeta__titulo">¿Lucha o aceptación?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Lucha</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Aceptación</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Para trabajar la aceptación en profundidad, mirá el <a href="/laboratorio-act-abierto/">nivel 1 del laboratorio ACT</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="consulta" aria-labelledby="t-consulta">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-consulta">Preparar la consulta</h2>
+      <p class="lab-estacion__bajada">Las consultas médicas suelen ser cortas, y muchas veces salimos sin haber dicho lo importante. Preparar lo que querés preguntar ayuda a aprovecharlas y a sentirte parte de las decisiones.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="preparar-la-consulta" data-lab-form-titulo="Preparar la consulta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-cambios">¿Qué cambió desde la última consulta?</label><textarea class="lab-texto" id="dc-cambios" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-preguntas">Mis tres preguntas más importantes</label><textarea class="lab-texto" id="dc-preguntas" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-animo">¿Cómo está mi ánimo? (también es parte de la salud)</label><input class="lab-campo" id="dc-animo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-quiero">¿Qué es lo que más me importa poder hacer, que el dolor me impide?</label><input class="lab-campo" id="dc-quiero" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="identidad" aria-labelledby="t-identidad">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-identidad">Más que un diagnóstico</h2>
+      <p class="lab-estacion__bajada">Una enfermedad larga puede ir ocupando todo: las conversaciones, la agenda, la forma de presentarse. Cicely Saunders, fundadora de los cuidados paliativos modernos, insistía en que el sufrimiento tiene dimensiones físicas, psicológicas, sociales y espirituales. Cuidar las cuatro también es tratamiento.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mas-que-un-diagnostico" data-lab-form-titulo="Más que un diagnóstico" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-sigo">¿Qué sigo siendo, más allá de la enfermedad?</label><textarea class="lab-texto" id="dc-sigo" rows="2" placeholder="Mis vínculos, mis gustos, mis valores, mi humor, lo que sé hacer"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-adaptar">¿Qué actividad que me importaba puedo adaptar, en lugar de abandonar?</label><input class="lab-campo" id="dc-adaptar" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-red">¿Con quién puedo hablar de lo que me pasa, sin tener que explicar todo?</label><input class="lab-campo" id="dc-red" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, adaptada a lo que puedas. Queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="dolor-cronico">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. La compuerta.</strong> Anotá qué abre y qué cierra tu compuerta.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una pausa antes.</strong> Hacé una pausa antes de que el dolor te obligue.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Algo que cierra.</strong> Sumá algo de la columna que alivia.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Hacer lugar.</strong> Durante un rato, dejá de pelear con el dolor y respirá con él.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Algo que importa.</strong> Hacé una versión adaptada de algo que te gusta.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Contarlo.</strong> Hablá con alguien de cómo estás, sin minimizar.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. La consulta.</strong> Prepará las preguntas para tu próxima consulta.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Ante un dolor nuevo, que cambia de forma o se intensifica, consultá siempre al médico: estos ejercicios no reemplazan un diagnóstico. Y vivir con dolor durante mucho tiempo aumenta el riesgo de depresión: si notás tristeza persistente, desesperanza o pensamientos de no querer vivir, pedí ayuda. Llamá al 911 o al Centro de Asistencia al Suicida (135 desde CABA y GBA, 0800-345-1435 desde todo el país). Podés <a href="/contacto/">escribirme</a>; también trabajo desde la <a href="/laboratorio-de-psicotanatologia/">psicotanatología</a> el acompañamiento en enfermedades graves.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Melzack, R. y Wall, P. D. (1965). «Pain mechanisms: A new theory». <em>Science</em>, 150(3699), 971-979.</li>
+        <li>Hayes, S. C., Strosahl, K. D. y Wilson, K. G. (1999). <em>Acceptance and Commitment Therapy</em>. Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

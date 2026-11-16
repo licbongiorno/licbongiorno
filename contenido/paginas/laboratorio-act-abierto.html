@@ -1,0 +1,153 @@
+<!--{
+  "ruta": "/laboratorio-act-abierto/",
+  "titulo": "ACT nivel 1: abrirse, con aceptación y defusión",
+  "descripcion": "Nivel básico de la terapia de aceptación y compromiso: aceptación y defusión, hacer lugar, nombrar la historia, la palabra repetida y la disposición.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["ACT", "/laboratorio-act/"], ["Nivel 1: abierto", "/laboratorio-act-abierto/"]],
+  "antetitulo": "Laboratorio ACT · Nivel 1, básico",
+  "h1": "ACT: <em>abrirse</em>",
+  "bajada": "Dejar de pelear con lo que sentís y pensás, para que deje de manejarte. Ejercicios de aceptación y defusión, el primer pilar de la flexibilidad psicológica.",
+  "respuesta": "El nivel básico del laboratorio ACT trabaja el pilar «abierto» de la terapia de aceptación y compromiso (Hayes, Strosahl y Wilson): la aceptación (hacer lugar a las emociones difíciles en lugar de luchar contra ellas) y la defusión (tomar distancia de los pensamientos). Incluye la escala de disposición, el ejercicio de expansión, nombrar la historia, la palabra repetida y la metáfora de las arenas movedizas, con un plan de 7 días. No reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-act-niveles.js", "escenas.js"],
+  "wa_tema": "el nivel básico del laboratorio ACT",
+  "articulos": ["inteligencia-emocional"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>La terapia de aceptación y compromiso (ACT), desarrollada por Steven Hayes, Kirk Strosahl y Kelly Wilson (<em>Acceptance and Commitment Therapy</em>, 1999), busca la <strong>flexibilidad psicológica</strong>: poder estar en contacto con lo que pasa, incluso cuando duele, y seguir actuando según lo que te importa. Sus seis procesos suelen agruparse en tres pilares: estar <strong>abierto</strong>, estar <strong>consciente</strong> y estar <strong>comprometido</strong>. Este laboratorio sigue ese orden en tres niveles.</p>
+        <p>El primero es abrirse. La ACT parte de una observación incómoda: muchas veces, el intento de no sentir lo que sentimos (evitar, distraernos, discutir con los pensamientos) termina agrandando el problema. La alternativa no es resignarse, sino hacer lugar. La cuerda, las hojas en el río y la matriz están en la <a href="/laboratorio-act/">puerta de entrada</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Hacer lugar no es querer.</strong> Podés aceptar algo que no te gusta.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Practicar con poco.</strong> Empezá con molestias chicas, no con lo más difícil.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#arenas">Las arenas movedizas</a>
+      <a href="#evitar">El costo de evitar</a>
+      <a href="#expansion">Hacer lugar</a>
+      <a href="#historia">Nombrar la historia</a>
+      <a href="#palabra">La palabra repetida</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="arenas" aria-labelledby="t-arenas">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-arenas">Las arenas movedizas</h2>
+      <p class="lab-estacion__bajada">Una metáfora clásica de la ACT: si caés en arenas movedizas, el instinto es patalear para salir, y eso te hunde más. Lo que funciona es lo contrario: extenderte, aumentar el contacto con la arena, flotar. Con muchas emociones pasa lo mismo: cuanto más luchamos contra la ansiedad o la tristeza, más espacio ocupan. Aceptar es dejar de patalear. ¿Cuál de estas respuestas patalea y cuál hace lugar?</p>
+      <div class="lab-tarjeta" data-lab-quiz="aceptacion-act">
+        <p class="lab-tarjeta__titulo">¿Lucha o aceptación?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta">
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Lucha</button>
+          <button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Aceptación</button>
+        </div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="evitar" aria-labelledby="t-evitar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-evitar">El costo de evitar</h2>
+      <p class="lab-estacion__bajada">La ACT llama <strong>evitación experiencial</strong> a todo lo que hacemos para no sentir algo: postergar, consumir, distraernos, no ir, no decir. A corto plazo alivia. A largo plazo suele achicar la vida. Este ejercicio, muy usado en ACT, ayuda a ver ese balance con honestidad, sin culpa.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="costo-de-evitar" data-lab-form-titulo="El costo de evitar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="aa-no-quiero">¿Qué emoción, pensamiento o sensación no quiero sentir?</label><input class="lab-campo" id="aa-no-quiero" type="text" placeholder="Por ejemplo: la ansiedad de hablar en público" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="aa-hago">¿Qué hago para no sentirla?</label><textarea class="lab-texto" id="aa-hago" rows="2"></textarea></div>
+        <div class="lab-tabla2">
+          <div><label for="aa-corto">¿Qué gano a corto plazo?</label><textarea class="lab-texto" id="aa-corto" rows="3"></textarea></div>
+          <div><label for="aa-largo">¿Qué me cuesta a largo plazo?</label><textarea class="lab-texto" id="aa-largo" rows="3"></textarea></div>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="aa-funciona">Siendo honesto: ¿esto me está funcionando para vivir la vida que quiero?</label><textarea class="lab-texto" id="aa-funciona" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="expansion" aria-labelledby="t-expansion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-expansion">Hacer lugar</h2>
+      <p class="lab-estacion__bajada">Un ejercicio de aceptación, en la línea de los que propone Russ Harris: observar una emoción difícil en el cuerpo, respirar hacia ella, darle espacio y permitir que esté. No para que se vaya, sino para dejar de pelear. Elegí algo moderado, no lo más difícil. Activá el reloj para unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Observar.</strong> Traé la emoción y buscá dónde se siente en el cuerpo. ¿Dónde empieza y dónde termina? ¿Es caliente o fría, quieta o en movimiento?</li>
+          <li><strong>Respirar.</strong> Respirá lento y profundo, como si el aire llegara hasta esa zona y la rodeara.</li>
+          <li><strong>Expandir.</strong> Imaginá que abrís espacio alrededor de la sensación, como si el cuerpo se agrandara para que entre sin apretar.</li>
+          <li><strong>Permitir.</strong> Decite: «no me gusta, y puedo hacerle lugar». No hace falta que se vaya.</li>
+          <li><strong>Volver.</strong> Ampliá la atención al resto del cuerpo, a los sonidos, a la habitación. La emoción sigue ahí, y vos también.</li>
+        </ol>
+      </div>
+      <div class="lab-tarjeta" data-act-disposicion style="margin-top:1rem">
+        <div class="lab-paso"><label class="lab-paso__titulo" for="aa-disposicion">Después del ejercicio, ¿qué tan dispuesto estás a sentir esto si te acerca a lo que te importa? (0 a 10)</label><input class="lab-campo" id="aa-disposicion" type="range" min="0" max="10" value="5"></div>
+        <p class="lab-resultado__texto" data-act-disposicion-salida aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="historia" aria-labelledby="t-historia">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-historia">Nombrar la historia</h2>
+      <p class="lab-estacion__bajada">La <strong>defusión</strong> no busca discutir con los pensamientos ni reemplazarlos por otros mejores, sino ver que son pensamientos. Una forma sencilla: muchos pensamientos que se repiten forman «historias» con un argumento conocido. Si les ponés título, se vuelven más fáciles de reconocer cuando aparecen: «ah, otra vez la historia de "no doy la talla"». Escribí tus historias.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mis-historias" data-lab-form-titulo="Mis historias" novalidate>
+        <div data-lab-lista-editable data-lab-lista-titulo="Las historias que me cuenta mi mente">
+          <label class="lab-paso__titulo" for="aa-historia" style="display:block">El título de una historia</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="aa-historia" type="text" placeholder="Por ejemplo: la historia de «nadie me quiere de verdad»" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <p class="lab-paso__ayuda">La próxima vez que aparezca, decite: «gracias, mente, ya conozco esta historia». No para burlarte, sino para no tomarla como un hecho.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="palabra" aria-labelledby="t-palabra">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-palabra">La palabra repetida</h2>
+      <p class="lab-estacion__bajada">Un ejercicio que la ACT tomó del psicólogo Edward Titchener: si repetís una palabra muchas veces seguidas, rápido y en voz alta, pierde su significado y queda como un sonido. Con una palabra cargada («inútil», «fracaso») se ve que también es solo eso: un sonido que tu mente aprendió a asociar con un dolor.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Una palabra neutra.</strong> Decí «leche» en voz alta, una vez. Notá todo lo que trae: el color, el sabor, la textura.</li>
+          <li><strong>Repetirla.</strong> Ahora decila rápido, durante 30 segundos: «leche, leche, leche…». Notá qué pasa con el significado.</li>
+          <li><strong>Tu palabra.</strong> Elegí una palabra con la que te criticás. Decila una vez y notá el peso que tiene.</li>
+          <li><strong>Repetirla.</strong> Decila rápido, durante 30 segundos. ¿Qué pasó con el peso?</li>
+          <li><strong>Darte cuenta.</strong> La palabra sigue existiendo, pero ahora ves que es un sonido. No tiene por qué darte órdenes.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="act-abierto">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. El costo.</strong> Completá el ejercicio del costo de evitar.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. No patalear.</strong> Ante una molestia chica, dejá de pelear con ella durante un minuto.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Hacer lugar.</strong> Hacé el ejercicio de expansión.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Títulos.</strong> Ponele título a tres historias de tu mente.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Gracias, mente.</strong> Cuando aparezca una historia, nombrala y seguí con lo tuyo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. La palabra.</strong> Hacé el ejercicio de la palabra repetida.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Dispuesto.</strong> Hacé algo que evitabas, con la incomodidad a bordo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Aceptar una emoción no significa aceptar una situación dañina: si estás en peligro o en un vínculo violento, lo primero es protegerte. Y si la emoción es muy intensa (un ataque de pánico, un trauma que vuelve), estos ejercicios conviene hacerlos acompañado. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-act/">laboratorio ACT</a>; seguí con el <a href="/laboratorio-act-consciente/">nivel 2: consciente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Hayes, S. C., Strosahl, K. D. y Wilson, K. G. (1999). <em>Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change</em>. Guilford Press.</li>
+        <li>Harris, R. (2009). <em>ACT Made Simple</em>. New Harbinger.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

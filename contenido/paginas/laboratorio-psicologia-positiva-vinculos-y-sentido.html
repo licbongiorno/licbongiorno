@@ -1,0 +1,130 @@
+<!--{
+  "ruta": "/laboratorio-psicologia-positiva-vinculos-y-sentido/",
+  "titulo": "Psicología positiva nivel 3: vínculos, esperanza y sentido",
+  "descripcion": "Nivel avanzado de psicología positiva: responder a las buenas noticias, actos de bondad, la esperanza según Snyder y el sentido, con base en la investigación.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Psicología positiva", "/laboratorio-de-psicologia-positiva/"], ["Nivel 3: vínculos y sentido", "/laboratorio-psicologia-positiva-vinculos-y-sentido/"]],
+  "antetitulo": "Psicología positiva · Nivel 3, avanzado",
+  "h1": "Psicología positiva: <em>vínculos, esperanza y sentido</em>",
+  "bajada": "El bienestar más duradero no se juega solo adentro de uno: se construye con otros y hacia algo que importa. Ejercicios para los vínculos, la esperanza y el sentido.",
+  "respuesta": "El nivel avanzado del laboratorio de psicología positiva propone ejercicios sobre relaciones, sentido y esperanza: la respuesta activa y constructiva a las buenas noticias (Gable, Reis, Impett y Asher, 2004), los actos de bondad concentrados en un día (Lyubomirsky, Sheldon y Schkade, 2005), la teoría de la esperanza de C. R. Snyder (2002), con metas, caminos y agencia, y el sentido como pilar del bienestar. Incluye un plan de 7 días. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-psicologia-positiva.js", "escenas.js"],
+  "wa_tema": "el nivel avanzado de psicología positiva",
+  "articulos": ["la-empatia", "la-soledad"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>De todos los pilares del modelo PERMA, las <strong>relaciones</strong> y el <strong>sentido</strong> son los que más se resisten a ser trabajados en soledad. Christopher Peterson, uno de los fundadores de la psicología positiva, solía resumir sus hallazgos en una frase: «los otros importan». Este nivel propone prácticas para fortalecer los vínculos, para sostener la esperanza cuando las metas se complican y para conectar lo que hacés con algo que vaya más allá de vos.</p>
+        <p>Es el tercer nivel del <a href="/laboratorio-de-psicologia-positiva/">laboratorio de psicología positiva</a>. Conviene haber pasado por las <a href="/laboratorio-psicologia-positiva-emociones/">emociones positivas</a> y las <a href="/laboratorio-psicologia-positiva-fortalezas/">fortalezas</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con otros.</strong> Varias prácticas se hacen en tus vínculos reales.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A largo plazo.</strong> El sentido se construye con el tiempo.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#buenas-noticias">Responder a las buenas noticias</a>
+      <a href="#bondad">Un día de bondad</a>
+      <a href="#esperanza">La esperanza como camino</a>
+      <a href="#sentido">Más allá de uno</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="buenas-noticias" aria-labelledby="t-buenas-noticias">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-buenas-noticias">Responder a las buenas noticias</h2>
+      <p class="lab-estacion__bajada">Solemos pensar que un vínculo se pone a prueba en las malas. Shelly Gable y sus colegas (2004) mostraron que también se juega en las buenas: en cómo respondemos cuando alguien nos cuenta algo bueno. Distinguieron cuatro formas de responder, y solo una, la <strong>activa y constructiva</strong> (entusiasmo genuino y preguntas), se asoció con más bienestar y vínculos más satisfactorios. ¿Cuál es cada respuesta?</p>
+      <div class="lab-tarjeta" data-lab-quiz="respuestas">
+        <p class="lab-tarjeta__titulo">¿Qué tipo de respuesta es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="bondad" aria-labelledby="t-bondad">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-bondad">Un día de bondad</h2>
+      <p class="lab-estacion__bajada">Sonja Lyubomirsky, Kennon Sheldon y David Schkade (2005) estudiaron los actos de bondad y encontraron un detalle llamativo: hacer cinco actos en un mismo día, una vez por semana, aumentó el bienestar más que repartirlos a lo largo de la semana. Concentrarlos parece hacerlos más visibles para uno mismo. Planeá tu día de bondad.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dia-de-bondad" data-lab-form-titulo="Mi día de bondad" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-dia">¿Qué día va a ser?</label><input class="lab-campo" id="pp3-dia" type="text" autocomplete="off"></div>
+        <div data-lab-lista-editable data-lab-lista-titulo="Cinco actos de bondad">
+          <label class="lab-paso__titulo" for="pp3-acto" style="display:block">Un acto de bondad (grande o chico, conocido o anónimo)</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="pp3-acto" type="text" placeholder="Por ejemplo: llevarle algo rico a un vecino mayor" autocomplete="off" data-lle-entrada><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="pp3-noto">Al final del día: ¿cómo me sentí?</label><textarea class="lab-texto" id="pp3-noto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="esperanza" aria-labelledby="t-esperanza">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-esperanza">La esperanza como camino</h2>
+      <p class="lab-estacion__bajada">Para C. R. Snyder («Hope theory: Rainbows in the mind», 2002), la esperanza no es un sentimiento vago: es una forma de pensar con tres partes. Una <strong>meta</strong> clara; <strong>caminos</strong>, es decir, la capacidad de imaginar varias rutas para llegar, y otras cuando una se cierra; y <strong>agencia</strong>, la energía y la convicción de que podés recorrerlas. Las personas con más esperanza no tienen menos obstáculos: tienen más caminos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mapa-de-esperanza" data-lab-form-titulo="Mapa de esperanza" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-meta">La meta (concreta, que te importe)</label><input class="lab-campo" id="pp3-meta" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-camino1">Camino 1</label><input class="lab-campo" id="pp3-camino1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-camino2">Camino 2, por si el primero se cierra</label><input class="lab-campo" id="pp3-camino2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-camino3">Camino 3</label><input class="lab-campo" id="pp3-camino3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-obstaculo">El obstáculo más probable, y qué haría</label><textarea class="lab-texto" id="pp3-obstaculo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-agencia">Agencia: una frase para cuando falte energía</label><input class="lab-campo" id="pp3-agencia" type="text" placeholder="Por ejemplo: «Ya superé cosas difíciles; esto también puedo encararlo»" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sentido" aria-labelledby="t-sentido">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-sentido">Más allá de uno</h2>
+      <p class="lab-estacion__bajada">En el modelo de Seligman, el sentido es pertenecer y servir a algo que uno cree más grande que sí mismo: la familia, una comunidad, una causa, una tradición, la naturaleza. A diferencia del placer, que se agota rápido, el sentido sostiene incluso en los momentos difíciles. Para trabajarlo en profundidad, el sitio tiene un <a href="/laboratorio-de-sentido/">laboratorio de sentido</a> basado en Viktor Frankl y otro de <a href="/laboratorio-de-valores/">valores</a>. Acá, una primera pregunta.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mas-alla-de-uno" data-lab-form-titulo="Más allá de uno" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-pertenezco">¿A qué siento que pertenezco?</label><textarea class="lab-texto" id="pp3-pertenezco" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-aporto">¿Qué aporto, o me gustaría aportar, a eso?</label><textarea class="lab-texto" id="pp3-aporto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp3-fortaleza">¿Qué fortaleza mía puedo poner al servicio de eso?</label><input class="lab-campo" id="pp3-fortaleza" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="pp-vinculos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Preguntar.</strong> Cuando alguien te cuente algo bueno, hacé dos preguntas con entusiasmo.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Notar.</strong> Observá cómo solés responder a las buenas noticias de otros.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Día de bondad.</strong> Hacé cinco actos de bondad en el mismo día.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Tres caminos.</strong> Completá el mapa de esperanza para una meta.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un vínculo.</strong> Buscá un rato de calidad con alguien que querés.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Pertenecer.</strong> Participá de algo colectivo: una actividad, un grupo, una ayuda.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar la semana.</strong> ¿Qué momento te hizo sentir más conectado?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La bondad hacia otros no debería costarte tu propio bienestar: si siempre das y nunca recibís, el <a href="/laboratorio-de-asertividad/">laboratorio de asertividad</a> puede ayudarte a equilibrar. Y si te sentís muy solo o sin esperanza, no es un problema de actitud: puede ser momento de pedir ayuda. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-de-psicologia-positiva/">laboratorio de psicología positiva</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Gable, S. L., Reis, H. T., Impett, E. A. y Asher, E. R. (2004). «What do you do when things go right? The intrapersonal and interpersonal benefits of sharing positive events». <em>Journal of Personality and Social Psychology</em>, 87(2).</li>
+        <li>Lyubomirsky, S., Sheldon, K. M. y Schkade, D. (2005). «Pursuing happiness: The architecture of sustainable change». <em>Review of General Psychology</em>, 9, 111-131.</li>
+        <li>Snyder, C. R. (2002). «Hope theory: Rainbows in the mind». <em>Psychological Inquiry</em>, 13(4), 249-275.</li>
+        <li>Seligman, M. E. P. (2011). <em>Flourish</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -1,0 +1,141 @@
+<!--{
+  "ruta": "/laboratorio-psicologia-positiva-fortalezas/",
+  "titulo": "Psicología positiva nivel 2: fortalezas y fluir",
+  "descripcion": "Nivel medio de psicología positiva: las 24 fortalezas de Peterson y Seligman, usar una de manera nueva, la experiencia de fluir y tu mejor yo posible.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Psicología positiva", "/laboratorio-de-psicologia-positiva/"], ["Nivel 2: fortalezas y fluir", "/laboratorio-psicologia-positiva-fortalezas/"]],
+  "antetitulo": "Psicología positiva · Nivel 2, medio",
+  "h1": "Psicología positiva: <em>fortalezas y fluir</em>",
+  "bajada": "Lo que te sale bien y te hace sentir vos mismo también se entrena. Ejercicios para conocer tus fortalezas, encontrar estados de fluir y proyectar tu mejor versión.",
+  "respuesta": "El nivel medio del laboratorio de psicología positiva propone ejercicios sobre fortalezas y compromiso: la clasificación de 24 fortalezas del carácter de Christopher Peterson y Martin Seligman (2004), usar una fortaleza de una manera nueva (Seligman y otros, 2005), la experiencia de fluir de Mihaly Csikszentmihalyi (1990) con un medidor de desafío y habilidad, y el ejercicio del mejor yo posible de Laura King (2001). Incluye un plan de 7 días. No reemplaza el acompañamiento profesional.",
+  "scripts": ["lab-base.js", "laboratorio-psicologia-positiva.js", "escenas.js"],
+  "wa_tema": "el nivel medio de psicología positiva",
+  "articulos": ["la-resiliencia"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Solemos conocer muy bien nuestros defectos y muy poco nuestras fortalezas. La psicología positiva propone invertir la mirada: no para ignorar lo que falta, sino para usar lo que ya está como punto de apoyo. Christopher Peterson y Martin Seligman (<em>Character Strengths and Virtues</em>, 2004) revisaron tradiciones filosóficas y religiosas de distintas culturas y describieron <strong>24 fortalezas del carácter</strong> agrupadas en seis virtudes. Investigaciones posteriores sugieren que la agrupación en seis no es tan nítida, pero las 24 fortalezas siguen siendo una herramienta útil para conocerse.</p>
+        <p>Este es el segundo nivel del <a href="/laboratorio-de-psicologia-positiva/">laboratorio de psicología positiva</a>. Trabaja dos pilares del modelo PERMA: el <strong>compromiso</strong> (estar absorbido en lo que hacés) y el <strong>logro</strong>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin falsa modestia.</strong> Reconocer una fortaleza no es creérsela.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>En la práctica.</strong> Una fortaleza se conoce usándola.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#fortalezas">Mis fortalezas</a>
+      <a href="#nueva">Usarla de una manera nueva</a>
+      <a href="#fluir">La experiencia de fluir</a>
+      <a href="#mejor-yo">Mi mejor yo posible</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="fortalezas" aria-labelledby="t-fortalezas">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-fortalezas">Mis fortalezas</h2>
+      <p class="lab-estacion__bajada">Seligman llama <strong>fortalezas distintivas</strong> a las que sentís como propias: te salen con naturalidad, te dan energía en lugar de cansarte y te hacen sentir «este soy yo». Marcá las cinco que más te representan. Si dudás, pensá qué diría alguien que te conoce bien. Para una medición validada existe el cuestionario VIA, que se completa en línea.</p>
+      <div class="lab-tarjeta" data-pp-fortalezas>
+        <p class="lab-grupo">Sabiduría</p>
+        <div class="opciones"><label class="opcion"><input type="checkbox" value="Creatividad"><span>Creatividad</span></label><label class="opcion"><input type="checkbox" value="Curiosidad"><span>Curiosidad</span></label><label class="opcion"><input type="checkbox" value="Juicio"><span>Juicio y apertura mental</span></label><label class="opcion"><input type="checkbox" value="Amor por el aprendizaje"><span>Amor por el aprendizaje</span></label><label class="opcion"><input type="checkbox" value="Perspectiva"><span>Perspectiva</span></label></div>
+        <p class="lab-grupo">Coraje</p>
+        <div class="opciones"><label class="opcion"><input type="checkbox" value="Valentía"><span>Valentía</span></label><label class="opcion"><input type="checkbox" value="Perseverancia"><span>Perseverancia</span></label><label class="opcion"><input type="checkbox" value="Honestidad"><span>Honestidad</span></label><label class="opcion"><input type="checkbox" value="Vitalidad"><span>Vitalidad</span></label></div>
+        <p class="lab-grupo">Humanidad</p>
+        <div class="opciones"><label class="opcion"><input type="checkbox" value="Amor"><span>Amor</span></label><label class="opcion"><input type="checkbox" value="Amabilidad"><span>Amabilidad</span></label><label class="opcion"><input type="checkbox" value="Inteligencia social"><span>Inteligencia social</span></label></div>
+        <p class="lab-grupo">Justicia</p>
+        <div class="opciones"><label class="opcion"><input type="checkbox" value="Trabajo en equipo"><span>Trabajo en equipo</span></label><label class="opcion"><input type="checkbox" value="Equidad"><span>Equidad</span></label><label class="opcion"><input type="checkbox" value="Liderazgo"><span>Liderazgo</span></label></div>
+        <p class="lab-grupo">Templanza</p>
+        <div class="opciones"><label class="opcion"><input type="checkbox" value="Perdón"><span>Perdón</span></label><label class="opcion"><input type="checkbox" value="Humildad"><span>Humildad</span></label><label class="opcion"><input type="checkbox" value="Prudencia"><span>Prudencia</span></label><label class="opcion"><input type="checkbox" value="Autorregulación"><span>Autorregulación</span></label></div>
+        <p class="lab-grupo">Trascendencia</p>
+        <div class="opciones"><label class="opcion"><input type="checkbox" value="Apreciación de la belleza"><span>Apreciación de la belleza</span></label><label class="opcion"><input type="checkbox" value="Gratitud"><span>Gratitud</span></label><label class="opcion"><input type="checkbox" value="Esperanza"><span>Esperanza</span></label><label class="opcion"><input type="checkbox" value="Humor"><span>Humor</span></label><label class="opcion"><input type="checkbox" value="Espiritualidad"><span>Espiritualidad</span></label></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tus fortalezas</p>
+          <p class="lab-resultado__texto" data-pp-fortalezas-salida aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="nueva" aria-labelledby="t-nueva">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-nueva">Usarla de una manera nueva</h2>
+      <p class="lab-estacion__bajada">En el estudio de Seligman y sus colegas (2005), usar una fortaleza distintiva de una manera nueva cada día durante una semana se asoció con más bienestar y menos síntomas depresivos durante meses. La clave está en lo de «nueva»: llevar la fortaleza a un terreno donde no la usás. Las ideas de la estación anterior son un punto de partida.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fortaleza-nueva" data-lab-form-titulo="Una fortaleza usada de una manera nueva" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp2-fortaleza">La fortaleza que elijo</label><input class="lab-campo" id="pp2-fortaleza" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp2-donde">¿Dónde la uso siempre?</label><input class="lab-campo" id="pp2-donde" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp2-nuevo">¿En qué lugar de mi vida no la uso, y podría?</label><input class="lab-campo" id="pp2-nuevo" type="text" placeholder="Por ejemplo: uso el humor con amigos, pero nunca en el trabajo" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp2-como">¿Cómo, concretamente, y cuándo?</label><textarea class="lab-texto" id="pp2-como" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp2-noto">Después: ¿qué noté?</label><textarea class="lab-texto" id="pp2-noto" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="fluir" aria-labelledby="t-fluir">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-fluir">La experiencia de fluir</h2>
+      <p class="lab-estacion__bajada">Mihaly Csikszentmihalyi (<em>Flow</em>, 1990) estudió esos momentos en que estás tan absorbido en lo que hacés que el tiempo vuela y te olvidás de vos: el <strong>fluir</strong>. Aparece cuando el desafío de la tarea y tu habilidad están parejos y altos, con una meta clara y una devolución inmediata de cómo vas. Si el desafío te supera, aparece la ansiedad; si es muy fácil, el aburrimiento. Pensá en una actividad y movés las barras.</p>
+      <div class="lab-tarjeta" data-pp-fluir>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-desafio">¿Qué tan desafiante es, del 0 al 10?</label><input class="lab-campo" id="pp-desafio" type="range" min="0" max="10" value="7"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp-habilidad">¿Qué tan hábil te sentís en eso, del 0 al 10?</label><input class="lab-campo" id="pp-habilidad" type="range" min="0" max="10" value="4"></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Dónde estás</p>
+          <p class="lab-resultado__texto" data-pp-fluir-salida aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mejor-yo" aria-labelledby="t-mejor-yo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mejor-yo">Mi mejor yo posible</h2>
+      <p class="lab-estacion__bajada">Laura King (2001) pidió a los participantes que escribieran, veinte minutos al día durante cuatro días, sobre su vida en el futuro si todo hubiera salido tan bien como es realistamente posible. El ejercicio mejoró el ánimo y el optimismo. La palabra clave es «realista»: no es una fantasía, es una imagen de hacia dónde querés ir, que ayuda a ordenar las metas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mejor-yo-posible" data-lab-form-titulo="Mi mejor yo posible" novalidate>
+        <ol class="lab-guion">
+          <li>Imaginá tu vida dentro de cinco o diez años, si todo saliera tan bien como es posible.</li>
+          <li>¿Cómo es un día cualquiera? ¿Dónde estás, con quién, qué hacés?</li>
+          <li>¿Qué lograste? ¿Qué fortalezas tuyas te llevaron hasta ahí?</li>
+          <li>¿Qué paso, por chico que sea, podés dar esta semana en esa dirección?</li>
+        </ol>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pp2-mejor">Escribí durante veinte minutos, sin corregir</label><textarea class="lab-texto" id="pp2-mejor" rows="10"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="pp-fortalezas">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mis cinco.</strong> Elegí tus cinco fortalezas distintivas.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Preguntar.</strong> Preguntale a alguien de confianza qué fortalezas ve en vos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Una manera nueva.</strong> Usá una fortaleza en un terreno donde no la usás.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Otra manera nueva.</strong> Repetí con otra fortaleza.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Buscar el fluir.</strong> Dedicá un rato a una actividad en la que puedas fluir, sin interrupciones.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Mi mejor yo.</strong> Escribí veinte minutos sobre tu mejor yo posible.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un paso.</strong> Dá el primer paso que salió de ese escrito.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Las fortalezas también tienen excesos: la perseverancia puede volverse terquedad, la amabilidad puede volverse incapacidad de decir que no. Si una fortaleza te está costando caro, el <a href="/laboratorio-de-virtudes/">laboratorio de virtudes</a> trabaja el término medio. Y si sentís que no tenés ninguna fortaleza, eso habla más de cómo te estás mirando que de quién sos: podés <a href="/contacto/">escribirme</a>. Este nivel es parte del <a href="/laboratorio-de-psicologia-positiva/">laboratorio de psicología positiva</a>; seguí con el <a href="/laboratorio-psicologia-positiva-vinculos-y-sentido/">nivel 3: vínculos, esperanza y sentido</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Peterson, C. y Seligman, M. E. P. (2004). <em>Character Strengths and Virtues: A Handbook and Classification</em>.</li>
+        <li>Seligman, M. E. P., Steen, T. A., Park, N. y Peterson, C. (2005). «Positive psychology progress: Empirical validation of interventions». <em>American Psychologist</em>, 60(5).</li>
+        <li>Csikszentmihalyi, M. (1990). <em>Flow: The Psychology of Optimal Experience</em>.</li>
+        <li>King, L. A. (2001). «The health benefits of writing about life goals». <em>Personality and Social Psychology Bulletin</em>, 27, 798-807.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

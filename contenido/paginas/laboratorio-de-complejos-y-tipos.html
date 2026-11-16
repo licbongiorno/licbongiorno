@@ -1,0 +1,132 @@
+<!--{
+  "ruta": "/laboratorio-de-complejos-y-tipos/",
+  "titulo": "Laboratorio de complejos y tipos psicológicos, con Jung",
+  "descripcion": "Ejercicios con Jung: un experimento de asociación de palabras, los complejos con carga afectiva, los tipos psicológicos y la función inferior.",
+  "prioridad": 0.6,
+  "migas": [["Recursos", "/recursos/"], ["Laboratorios", "/laboratorios/"], ["Recorrido junguiano", "/laboratorio-recorrido-junguiano/"], ["Complejos y tipos", "/laboratorio-de-complejos-y-tipos/"]],
+  "antetitulo": "Recorrido junguiano · Nivel 2",
+  "h1": "Laboratorio de <em>complejos y tipos</em>",
+  "bajada": "Hay palabras que nos tocan más de lo que creemos, y formas de percibir el mundo que preferimos sin darnos cuenta. Ejercicios con dos descubrimientos tempranos de Jung.",
+  "respuesta": "El laboratorio de complejos y tipos propone ejercicios basados en Carl Gustav Jung: una versión del experimento de asociación de palabras que Jung desarrolló a principios del siglo XX y que lo llevó a describir los complejos con carga afectiva; un ejercicio para reconocer cuándo un complejo se activa; los tipos psicológicos (introversión y extraversión; pensamiento, sentimiento, sensación e intuición) de 1921, y la función inferior. No es un test diagnóstico ni reemplaza una terapia.",
+  "scripts": ["lab-base.js", "laboratorio-jung-recorrido.js", "escenas.js"],
+  "wa_tema": "el laboratorio de complejos y tipos",
+  "articulos": ["los-complejos-segun-jung", "tipos-psicologicos-jung"]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Antes de escribir sobre arquetipos y sueños, Carl Gustav Jung trabajó en el laboratorio del hospital Burghölzli, en Zúrich. Con un experimento muy simple, decir una palabra y pedir que la persona responda con la primera que se le ocurra, descubrió que algunas palabras producían demoras, tropiezos u olvidos. Detrás de esas reacciones había grupos de recuerdos y emociones con una fuerte carga afectiva, que funcionaban con cierta autonomía: los llamó <strong>complejos</strong>.</p>
+        <p>Años después, en <em>Tipos psicológicos</em> (1921), describió las distintas formas en que las personas se orientan en el mundo. Este es el segundo nivel del <a href="/laboratorio-recorrido-junguiano/">recorrido junguiano</a>; el primero trabaja la persona y la sombra.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>No es un test.</strong> Es una forma de explorar, no un diagnóstico.</li>
+        <li><strong>Sin registro.</strong> Nada de lo que respondas sale de tu dispositivo.</li>
+        <li><strong>Con curiosidad.</strong> Un complejo no es un defecto: todos los tenemos.</li>
+      </ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#asociacion">El experimento de asociación</a>
+      <a href="#complejo">Cuando un complejo se activa</a>
+      <a href="#tipos">Los tipos psicológicos</a>
+      <a href="#inferior">La función inferior</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+    </nav>
+
+    <section class="lab-estacion revelar" id="asociacion" aria-labelledby="t-asociacion">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-asociacion">El experimento de asociación</h2>
+      <p class="lab-estacion__bajada">Una versión casera del experimento de Jung. Aparece una palabra; escribí lo más rápido posible la primera palabra que se te ocurra y apretá Enter. El laboratorio mide el tiempo. Al final, te muestra las palabras en las que más tardaste: en el experimento original, las demoras largas eran una de las señales de que una palabra tocaba un complejo. Es solo una pista para explorar, no una conclusión.</p>
+      <div class="lab-tarjeta" data-jg-asociacion>
+        <p class="lab-tarjeta__titulo" data-jg-estado>Cuando estés listo, empezá.</p>
+        <p class="lab-quiz__frase" data-jg-palabra aria-live="polite">—</p>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-respuesta">Tu primera palabra</label><input class="lab-campo" id="jg-respuesta" type="text" autocomplete="off" disabled></div>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-jg-empezar>Empezar</button></div>
+        <div class="lab-resultado" hidden data-jg-resultado>
+          <p class="lab-tarjeta__titulo">Tus tiempos</p>
+          <ol class="lab-guion" data-jg-lista></ol>
+          <p class="lab-paso__ayuda">Mirá las palabras de arriba de la lista. ¿Qué te evocan? ¿Hubo alguna en la que te salió algo raro, repetiste la palabra, o no se te ocurrió nada? Eso también era una señal en el experimento de Jung.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="complejo" aria-labelledby="t-complejo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-complejo">Cuando un complejo se activa</h2>
+      <p class="lab-estacion__bajada">Un complejo se reconoce por la reacción desproporcionada: una frase menor que nos hace explotar, una situación que nos deja como chicos, la sensación de que «algo se apoderó de mí». Jung decía que no somos nosotros los que tenemos complejos, sino que a veces los complejos nos tienen a nosotros. Pensá en una reacción reciente que te sorprendió por su intensidad.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cuando-un-complejo-se-activa" data-lab-form-titulo="Cuando un complejo se activa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-disparador">¿Qué lo disparó?</label><textarea class="lab-texto" id="jg-disparador" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-reaccion">¿Cómo reaccioné? ¿Fue proporcionado?</label><textarea class="lab-texto" id="jg-reaccion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-edad">¿Qué edad sentía que tenía en ese momento?</label><input class="lab-campo" id="jg-edad" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-tema">¿Cuál es el tema de fondo? (ser abandonado, no valer, ser controlado, ser visto…)</label><input class="lab-campo" id="jg-tema" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-nombre">Si ese complejo tuviera nombre, ¿cómo lo llamaría?</label><input class="lab-campo" id="jg-nombre" type="text" placeholder="Por ejemplo: «el chico que nadie elige»" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="tipos" aria-labelledby="t-tipos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-tipos">Los tipos psicológicos</h2>
+      <p class="lab-estacion__bajada">Jung describió dos <strong>actitudes</strong>: la extraversión, que orienta la energía hacia el mundo exterior, y la introversión, que la orienta hacia el mundo interior. Y cuatro <strong>funciones</strong>: dos para percibir (la sensación, que registra lo que hay, y la intuición, que capta posibilidades) y dos para juzgar (el pensamiento, que ordena con lógica, y el sentimiento, que valora según lo que importa). Todos usamos las cuatro, pero preferimos una. Movés las barras según cuánto confiás en cada función.</p>
+      <div class="lab-tarjeta" data-jg-tipos>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-pen">Pensamiento: analizar, ordenar, buscar la lógica</label><input class="lab-campo" id="jg-pen" type="range" min="0" max="10" value="5" data-fn="pensamiento"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-sen">Sentimiento: valorar, sentir qué importa, cuidar el vínculo</label><input class="lab-campo" id="jg-sen" type="range" min="0" max="10" value="5" data-fn="sentimiento"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-sns">Sensación: los hechos concretos, el detalle, el presente</label><input class="lab-campo" id="jg-sns" type="range" min="0" max="10" value="5" data-fn="sensación"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-int">Intuición: las posibilidades, el sentido oculto, el futuro</label><input class="lab-campo" id="jg-int" type="range" min="0" max="10" value="5" data-fn="intuición"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-act">¿Hacia dónde va tu energía? (0 introversión, 10 extraversión)</label><input class="lab-campo" id="jg-act" type="range" min="0" max="10" value="5" data-actitud></div>
+        <div class="lab-resultado">
+          <p class="lab-tarjeta__titulo">Tu preferencia</p>
+          <p class="lab-resultado__texto" data-jg-tipos-salida aria-live="polite"></p>
+        </div>
+      </div>
+      <p class="lab-paso__ayuda" style="margin-top:1rem">Hay cuestionarios inspirados en los tipos de Jung, como el MBTI, pero su validez científica es discutida. Jung mismo advertía que los tipos no son casilleros sino orientaciones.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="inferior" aria-labelledby="t-inferior">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-inferior">La función inferior</h2>
+      <p class="lab-estacion__bajada">Para Jung, la función opuesta a la dominante queda menos desarrollada: es la <strong>función inferior</strong>. Si tu función principal es el pensamiento, la inferior será el sentimiento, y al revés; si es la sensación, la inferior será la intuición, y al revés. La función inferior suele aparecer de forma torpe o explosiva bajo estrés, pero también es una puerta hacia lo que falta desarrollar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="funcion-inferior" data-lab-form-titulo="Mi función inferior" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-mi-inferior">¿Cuál creo que es mi función inferior?</label><input class="lab-campo" id="jg-mi-inferior" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-estres">¿Cómo aparece cuando estoy muy cansado o estresado?</label><textarea class="lab-texto" id="jg-estres" rows="2" placeholder="Por ejemplo: alguien muy racional que de golpe se desborda emocionalmente"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jg-cultivar">¿Cómo podría cultivarla un poco, sin forzarla?</label><textarea class="lab-texto" id="jg-cultivar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="complejos-tipos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Asociar.</strong> Hacé el experimento de asociación.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una palabra.</strong> Elegí la palabra en que más tardaste y escribí lo que te evoca.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Una reacción.</strong> Registrá una reacción desproporcionada del día.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Nombrar el complejo.</strong> Ponele nombre a ese complejo.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Mi tipo.</strong> Notá qué función usás primero ante un problema.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. La otra función.</strong> Resolvé algo pequeño usando tu función inferior.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un sueño.</strong> Anotá un sueño y buscá si aparece algo del complejo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Algunos complejos están ligados a experiencias muy dolorosas. Si al explorarlos aparece algo que te desborda, frená: es material para trabajar en terapia, no a solas. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este laboratorio es parte del <a href="/laboratorio-recorrido-junguiano/">recorrido junguiano</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Jung, C. G. (1904-1910). <em>Estudios experimentales</em> (Obra completa, vol. 2), sobre el experimento de asociación.</li>
+        <li>Jung, C. G. (1921). <em>Tipos psicológicos</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
