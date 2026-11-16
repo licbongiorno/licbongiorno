@@ -1,7 +1,7 @@
 <!--{
   "ruta": "/laboratorio-del-desarrollo-y-el-apego/",
   "titulo": "Laboratorio del desarrollo: Piaget, Vygotsky, Erikson y Bowlby",
-  "descripcion": "Descentrar la mirada, pedir la ayuda justa, leer la etapa que vivís y buscar una base segura, con Piaget, Vygotsky, Erikson, Bowlby y Ainsworth.",
+  "descripcion": "Desarrollo y apego con Bowlby, Ainsworth, Main, Winnicott y Erikson: la situación extraña, el apego adulto, la seguridad ganada, reparar y la crianza.",
   "prioridad": 0.6,
   "migas": [
     [
@@ -19,10 +19,11 @@
   ],
   "antetitulo": "Laboratorio",
   "h1": "Laboratorio del <em>desarrollo y el apego</em>",
-  "bajada": "Piaget habló de salir del propio punto de vista. Vygotsky, de la ayuda que nos permite llegar un poco más lejos. Erikson, de crisis que se repiten en cada etapa. Bowlby y Ainsworth, de la base segura que nos deja explorar el mundo.",
-  "respuesta": "El laboratorio del desarrollo y el apego propone cuatro ejercicios inspirados en Jean Piaget, Lev Vygotsky, Erik Erikson, John Bowlby y Mary Ainsworth: descentrar la mirada en un conflicto, identificar la ayuda justa para aprender algo, reconocer la crisis de la etapa de vida actual y reconocer una base segura desde la que explorar.",
+  "bajada": "Cómo nos formamos en los primeros vínculos, y cómo esos vínculos siguen presentes. Lo que aportaron Bowlby, Ainsworth, Winnicott y Erikson, con ejercicios para pensarte.",
+  "respuesta": "El laboratorio del desarrollo y el apego propone ejercicios basados en Piaget, Vygotsky, Erikson, Bowlby, Ainsworth, Main, Winnicott, Tronick y Fonagy: descentrar la mirada, pedir la ayuda justa, las ocho edades de Erikson, la base segura, los patrones de la situación extraña, el apego adulto en dos dimensiones (ansiedad y evitación) con un medidor interactivo, la seguridad ganada y la coherencia del relato, desencuentros y reparación, la madre suficientemente buena, la función reflexiva parental y un plan de 7 días. No es una evaluación ni un diagnóstico.",
   "scripts": [
     "lab-base.js",
+    "laboratorio-ampliados.js",
     "escenas.js"
   ],
   "wa_tema": "el laboratorio del desarrollo y el apego",
@@ -48,7 +49,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#descentrar">Ver desde otro lugar</a><a href="#ayuda">La ayuda justa</a><a href="#etapa">La etapa que vivo</a><a href="#base">Una base segura</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#descentrar">Ver desde otro lugar</a><a href="#ayuda">La ayuda justa</a><a href="#erikson">Las ocho edades de Erikson</a><a href="#etapa">La etapa que vivo</a><a href="#base">Una base segura</a><a href="#situacion-extrana">La situación extraña</a><a href="#apego-adulto">El apego en la adultez</a><a href="#seguridad-ganada">La seguridad ganada</a><a href="#reparar">Desencuentros y reparación</a><a href="#suficientemente-buena">Suficientemente buena</a><a href="#funcion-reflexiva">Pensar la mente del hijo</a><a href="#siete-dias">Plan de 7 días</a></nav>
 
     <section class="lab-estacion revelar" id="descentrar" aria-labelledby="t-descentrar">
       <p class="lab-estacion__num">01</p>
@@ -102,8 +103,27 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
-    <section class="lab-estacion revelar" id="etapa" aria-labelledby="t-etapa">
+
+    <section class="lab-estacion revelar" id="erikson" aria-labelledby="t-erikson">
       <p class="lab-estacion__num">03</p>
+      <h2 id="t-erikson">Las ocho edades de Erikson</h2>
+      <p class="lab-estacion__bajada">Erik Erikson propuso que a lo largo de la vida atravesamos ocho crisis, cada una con una tensión entre dos polos. No se «aprueban» de una vez: se vuelven a trabajar en cada etapa. Recorré la tabla antes de la estación siguiente.</p>
+      <div class="lab-tabla-scroll"><table class="lab-tabla">
+        <thead><tr><th scope="col">Etapa</th><th scope="col">La tensión</th><th scope="col">La virtud que deja</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Primer año</th><td>Confianza frente a desconfianza</td><td>Esperanza</td></tr>
+          <tr><th scope="row">Primera infancia</th><td>Autonomía frente a vergüenza y duda</td><td>Voluntad</td></tr>
+          <tr><th scope="row">Edad del juego</th><td>Iniciativa frente a culpa</td><td>Propósito</td></tr>
+          <tr><th scope="row">Edad escolar</th><td>Laboriosidad frente a inferioridad</td><td>Competencia</td></tr>
+          <tr><th scope="row">Adolescencia</th><td>Identidad frente a confusión de roles</td><td>Fidelidad</td></tr>
+          <tr><th scope="row">Juventud</th><td>Intimidad frente a aislamiento</td><td>Amor</td></tr>
+          <tr><th scope="row">Adultez</th><td>Generatividad frente a estancamiento</td><td>Cuidado</td></tr>
+          <tr><th scope="row">Vejez</th><td>Integridad frente a desesperación</td><td>Sabiduría</td></tr>
+        </tbody></table></div>
+    </section>
+
+    <section class="lab-estacion revelar" id="etapa" aria-labelledby="t-etapa">
+      <p class="lab-estacion__num">04</p>
       <h2 id="t-etapa">La etapa que vivo</h2>
       <p class="lab-estacion__bajada">Erikson describió la vida como una serie de etapas, cada una con una tensión central: confianza frente a desconfianza en la infancia, identidad frente a confusión en la adolescencia, intimidad frente a aislamiento en la juventud. Cada tensión se revisita a lo largo de la vida. Leé sobre <a href="/recursos/erik-erikson/">Erik Erikson</a>.</p>
       <figure class="escena revelar" data-escena id="escena-etapa" data-escena-sync="#pasos-etapa">
@@ -127,7 +147,7 @@
       </form>
     </section>
     <section class="lab-estacion revelar" id="base" aria-labelledby="t-base">
-      <p class="lab-estacion__num">04</p>
+      <p class="lab-estacion__num">05</p>
       <h2 id="t-base">Una base segura</h2>
       <p class="lab-estacion__bajada">Bowlby describió el apego como un sistema que busca seguridad, y dijo que una base segura permite explorar el mundo. Ainsworth observó, en la situación extraña, que los niños exploran más cuando sienten que la base está disponible. Leé sobre <a href="/recursos/john-bowlby/">John Bowlby</a> y <a href="/recursos/mary-ainsworth/">Mary Ainsworth</a>.</p>
       <figure class="escena revelar" data-escena id="escena-base" data-escena-sync="#pasos-base">
@@ -152,9 +172,133 @@
       </form>
     </section>
 
+    <section class="lab-estacion revelar" id="situacion-extrana" aria-labelledby="t-situacion-extrana">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-situacion-extrana">La situación extraña</h2>
+      <p class="lab-estacion__bajada">En los años setenta, Mary Ainsworth diseñó una observación de laboratorio, la <strong>situación extraña</strong>: un bebé de alrededor de un año juega con su madre, entra una desconocida, la madre sale y vuelve. Lo más revelador no era la separación, sino el <strong>reencuentro</strong>. Ainsworth describió tres patrones, y luego Mary Main y Judith Solomon agregaron un cuarto. Elegí uno.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un patrón"><label class="opcion"><input type="radio" name="ap-estilo" value="seguro" checked><span>Seguro</span></label><label class="opcion"><input type="radio" name="ap-estilo" value="evitativo"><span>Evitativo</span></label><label class="opcion"><input type="radio" name="ap-estilo" value="ambivalente"><span>Ambivalente</span></label><label class="opcion"><input type="radio" name="ap-estilo" value="desorganizado"><span>Desorganizado</span></label></div>
+        <div class="lab-panel" data-lab-panel="seguro"><p><strong>En la observación:</strong> se angustia cuando la madre sale, la busca al volver, se calma y sigue jugando.</p><p><strong>Lo que aprendió:</strong> «si te necesito, vas a estar».</p></div><div class="lab-panel" data-lab-panel="evitativo" hidden><p><strong>En la observación:</strong> parece indiferente a la salida y evita a la madre al volver, aunque su cuerpo muestra estrés.</p><p><strong>Lo que aprendió:</strong> «mejor no mostrar que te necesito».</p></div><div class="lab-panel" data-lab-panel="ambivalente" hidden><p><strong>En la observación:</strong> se angustia mucho, al reencuentro busca a la madre y a la vez la rechaza, y le cuesta calmarse.</p><p><strong>Lo que aprendió:</strong> «nunca sé si vas a estar, tengo que asegurarme».</p></div><div class="lab-panel" data-lab-panel="desorganizado" hidden><p><strong>En la observación:</strong> conductas contradictorias o congeladas, como si no tuviera una estrategia.</p><p><strong>Lo que aprendió:</strong> «quien me tendría que calmar también me asusta». Suele asociarse a cuidadores atemorizados o atemorizantes.</p></div>
+      </div><p class="lab-paso__ayuda">Los patrones describen una relación, no a un chico, y no son destinos: el apego puede cambiar con vínculos nuevos.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="apego-adulto" aria-labelledby="t-apego-adulto">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-apego-adulto">El apego en la adultez</h2>
+      <p class="lab-estacion__bajada">En 1987, Cindy Hazan y Phillip Shaver propusieron que el amor de pareja también es un vínculo de apego. Hoy se lo piensa en dos dimensiones: la <strong>ansiedad</strong> (miedo al abandono, necesidad de confirmación) y la <strong>evitación</strong> (incomodidad con la cercanía y la dependencia). Kim Bartholomew y Leonard Horowitz describieron cuatro patrones según cómo se combinan. Mové los controles según cómo te sentís en tus vínculos cercanos.</p>
+      <div class="lab-tarjeta" data-apego-ejes>
+        <div class="lab-tabla2">
+          <div><label for="ap-ansiedad">Ansiedad: me preocupa que me dejen, necesito confirmación</label><input class="lab-campo" id="ap-ansiedad" type="range" min="0" max="10" value="4"></div>
+          <div><label for="ap-evitacion">Evitación: me incomoda depender y que dependan de mí</label><input class="lab-campo" id="ap-evitacion" type="range" min="0" max="10" value="4"></div>
+        </div>
+        <div class="apego-plano" aria-hidden="true">
+          <span class="apego-plano__c apego-plano__c--1">Preocupado</span><span class="apego-plano__c apego-plano__c--2">Temeroso</span>
+          <span class="apego-plano__c apego-plano__c--3">Seguro</span><span class="apego-plano__c apego-plano__c--4">Evitativo</span>
+          <span class="apego-plano__punto" data-apego-punto></span>
+          <span class="apego-plano__eje apego-plano__eje--x">Evitación →</span><span class="apego-plano__eje apego-plano__eje--y">Ansiedad →</span>
+        </div>
+        <p class="lab-resultado__texto" data-apego-salida aria-live="polite"></p>
+      </div>
+      <p class="lab-paso__ayuda">Para explorarlo con más detalle está el <a href="/test-de-estilos-de-apego/">test de estilos de apego</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="seguridad-ganada" aria-labelledby="t-seguridad-ganada">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-seguridad-ganada">La seguridad ganada</h2>
+      <p class="lab-estacion__bajada">Mary Main y su equipo crearon la <strong>Entrevista de Apego Adulto</strong>, que no evalúa qué pasó en la infancia, sino <strong>cómo se cuenta</strong>: si el relato es coherente, si integra lo bueno y lo malo, si se puede pensar sobre los propios padres sin idealizarlos ni quedar atrapado en el enojo. Lo más esperanzador: hay personas con infancias difíciles que logran un relato coherente. Se habla de <strong>seguridad ganada</strong>, y suele construirse con vínculos reparadores: una pareja, un amigo, una terapia. Este ejercicio no es la entrevista; es una invitación a contar tu historia.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-historia-de-apego" data-lab-form-titulo="Mi historia de apego" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sg-palabras">Cinco palabras que describan mi relación con cada uno de mis cuidadores, de chico</label><textarea class="lab-texto" id="sg-palabras" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sg-recuerdo">Un recuerdo concreto que ilustre una de esas palabras</label><textarea class="lab-texto" id="sg-recuerdo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sg-asustado">Cuando de chico me sentía mal, asustado o lastimado, ¿qué hacía? ¿A quién acudía?</label><textarea class="lab-texto" id="sg-asustado" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sg-por-que">¿Por qué creo que mis cuidadores eran como eran?</label><textarea class="lab-texto" id="sg-por-que" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sg-hoy">¿Cómo influye eso en cómo me vinculo hoy?</label><textarea class="lab-texto" id="sg-hoy" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sg-reparador">¿Qué vínculo, en mi vida, fue reparador?</label><textarea class="lab-texto" id="sg-reparador" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="reparar" aria-labelledby="t-reparar">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-reparar">Desencuentros y reparación</h2>
+      <p class="lab-estacion__bajada">Edward Tronick, con el experimento de la <strong>cara inmóvil</strong>, mostró cuánto se desorganiza un bebé cuando su madre deja de responderle por unos minutos. Pero su hallazgo más tranquilizador fue otro: en las interacciones normales entre bebés y cuidadores hay <strong>muchísimos desencuentros</strong>, la mayor parte del tiempo, y lo que construye seguridad no es evitarlos sino <strong>repararlos</strong>. Lo mismo vale entre adultos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="desencuentro-y-reparacion" data-lab-form-titulo="Un desencuentro y su reparación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-desencuentro">Un desencuentro reciente con alguien cercano (un hijo, una pareja, un amigo)</label><textarea class="lab-texto" id="re-desencuentro" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-otro">¿Qué habrá sentido el otro?</label><textarea class="lab-texto" id="re-otro" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="re-reparar">¿Cómo podría reparar? (nombrar lo que pasó, pedir perdón, volver a acercarme)</label><textarea class="lab-texto" id="re-reparar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="suficientemente-buena" aria-labelledby="t-suficientemente-buena">
+      <p class="lab-estacion__num">10</p>
+      <h2 id="t-suficientemente-buena">Suficientemente buena</h2>
+      <p class="lab-estacion__bajada">Donald Winnicott, pediatra y psicoanalista, acuñó la idea de la <strong>madre suficientemente buena</strong>, que hoy se aplica a cualquier cuidador. Al principio se adapta casi por completo a las necesidades del bebé; después, de a poco, falla un poco, y esas fallas tolerables le permiten al chico desarrollar sus propios recursos. La crianza perfecta no existe, y si existiera, no ayudaría.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="suficientemente-bueno" data-lab-form-titulo="Suficientemente bueno" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sb-exijo">¿Qué me exijo como madre, padre o cuidador?</label><textarea class="lab-texto" id="sb-exijo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sb-suficiente">¿Qué sería «suficientemente bueno» en eso?</label><textarea class="lab-texto" id="sb-suficiente" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sb-falla">Una falla mía que, mirándola bien, le dejó algo al otro</label><textarea class="lab-texto" id="sb-falla" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="funcion-reflexiva" aria-labelledby="t-funcion-reflexiva">
+      <p class="lab-estacion__num">11</p>
+      <h2 id="t-funcion-reflexiva">Pensar la mente del hijo</h2>
+      <p class="lab-estacion__bajada">Peter Fonagy y Arietta Slade estudiaron la <strong>función reflexiva parental</strong>: la capacidad de los padres de pensar a sus hijos en términos de lo que sienten, desean o temen, y de reconocer cómo influye su propia historia. Se asocia con un apego más seguro en los chicos. ¿Cuál de estas frases muestra función reflexiva?</p>
+      <div class="lab-tarjeta" data-lab-quiz="funcion-reflexiva">
+        <p class="lab-tarjeta__titulo">¿Piensa la mente del chico?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Sí</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">No mucho</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div><p class="lab-paso__ayuda">Más en el <a href="/laboratorio-de-mentalizacion/">laboratorio de mentalización</a>.</p>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">12</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="desarrollo-apego">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mi patrón.</strong> Mové los controles de ansiedad y evitación y escribí qué reconocés.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Cinco palabras.</strong> Elegí cinco palabras para tu vínculo con cada cuidador.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Un recuerdo.</strong> Escribí un recuerdo que ilustre una de esas palabras.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Reparar.</strong> Repará un desencuentro chico con alguien cercano.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Pensar al otro.</strong> Ante una conducta que te moleste, preguntate qué sentía el otro.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Suficiente.</strong> Soltá una exigencia de perfección en un vínculo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Base segura.</strong> Agradecele a alguien que fue base segura para vos.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Revisar la propia infancia puede despertar recuerdos dolorosos. Estos ejercicios no evalúan ni diagnostican el apego: son una invitación a pensarte. Si aparecen recuerdos de maltrato o abuso, o mucho malestar, es mejor trabajarlo acompañado. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
     <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
       <h2>Para seguir leyendo</h2>
-      <ul><li>Vygotsky, L. S. (1934). <em>Pensamiento y lenguaje</em>.</li><li>Erikson, E. H. (1968). <em>Identidad, juventud y crisis</em>.</li><li>Bowlby, J. (1988). <em>Una base segura</em>.</li><li>Ainsworth, M. D. S., Blehar, M. C., Waters, E. y Wall, S. (1978). <em>Patterns of Attachment</em>.</li></ul>
+      <ul><li>Vygotsky, L. S. (1934). <em>Pensamiento y lenguaje</em>.</li><li>Erikson, E. H. (1968). <em>Identidad, juventud y crisis</em>.</li><li>Bowlby, J. (1988). <em>Una base segura</em>.</li><li>Ainsworth, M. D. S., Blehar, M. C., Waters, E. y Wall, S. (1978). <em>Patterns of Attachment</em>.</li>
+        <li>Ainsworth, M. D. S., Blehar, M. C., Waters, E. y Wall, S. (1978). <em>Patterns of Attachment</em>. Lawrence Erlbaum.</li>
+        <li>Main, M. y Solomon, J. (1990). «Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation», en Greenberg, Cicchetti y Cummings (Eds.), <em>Attachment in the Preschool Years</em>.</li>
+        <li>Hazan, C. y Shaver, P. (1987). «Romantic love conceptualized as an attachment process». <em>Journal of Personality and Social Psychology</em>, 52(3), 511-524.</li>
+        <li>Bartholomew, K. y Horowitz, L. M. (1991). «Attachment styles among young adults: A test of a four-category model». <em>Journal of Personality and Social Psychology</em>, 61(2), 226-244.</li>
+        <li>Tronick, E. (2007). <em>The Neurobehavioral and Social-Emotional Development of Infants and Children</em>. Norton.</li>
+        <li>Winnicott, D. W. (1971). <em>Realidad y juego</em>.</li>
+        <li>Slade, A. (2005). «Parental reflective functioning: An introduction». <em>Attachment &amp; Human Development</em>, 7(3), 269-281.</li>
+        <li>Erikson, E. H. (1950). <em>Infancia y sociedad</em>.</li>
+      </ul>
     </div>
   </div>
 </section>
