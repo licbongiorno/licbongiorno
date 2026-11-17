@@ -2236,7 +2236,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/test-de-fortalezas/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
         ("Voces que nos habitan", rutas_voces[2:]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
