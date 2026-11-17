@@ -1,0 +1,191 @@
+<!--{
+  "ruta": "/laboratorio-de-insomnio/",
+  "titulo": "Insomnio: terapia cognitivo-conductual (TCC-I) paso a paso",
+  "descripcion": "La terapia cognitivo-conductual para el insomnio, primera elección: diario de sueño, eficiencia, ventana de sueño, control de estímulos y la mente.",
+  "prioridad": 0.7,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Insomnio",
+      "/laboratorio-de-insomnio/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Sueño",
+  "h1": "Insomnio: <em>dormir de nuevo</em>",
+  "bajada": "Cuando la cama se volvió un lugar de lucha. La terapia cognitivo-conductual para el insomnio, paso a paso, con un diario que calcula tu ventana de sueño.",
+  "respuesta": "El laboratorio de insomnio propone los componentes de la terapia cognitivo-conductual para el insomnio (TCC-I), que las guías de la American Academy of Sleep Medicine (2021) y del American College of Physicians (2016) recomiendan como tratamiento de primera elección para el insomnio crónico: un diario de sueño que calcula la eficiencia del sueño y una ventana de sueño, el control de estímulos de Richard Bootzin, la restricción del sueño de Arthur Spielman con sus precauciones, mitos sobre el dormir, la preocupación constructiva, la relajación y un plan. La higiene del sueño sola no alcanza. No reemplaza una consulta.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-clinicos.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de insomnio",
+  "articulos": [
+    "insomnio",
+    "pesadillas",
+    "respiracion-y-emociones"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Se habla de <strong>insomnio crónico</strong> cuando cuesta dormirse, mantener el sueño o se despierta demasiado temprano al menos tres noches por semana durante tres meses o más, y eso afecta el día. Es uno de los problemas de salud más frecuentes.</p><p>Lo que pocos saben es que el tratamiento de primera elección no es una pastilla, sino la <strong>terapia cognitivo-conductual para el insomnio</strong> (TCC-I). Así lo recomiendan la Academia Estadounidense de Medicina del Sueño en su guía de 2021 y el Colegio Estadounidense de Médicos. Y otra cosa que pocos saben: los consejos de higiene del sueño, solos, no alcanzan. La TCC-I combina varios componentes. Este laboratorio es el segundo paso después del <a href="/laboratorio-de-descanso/">laboratorio de descanso</a>.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Con datos.</strong> Todo empieza por un diario de sueño.</li><li><strong>Constancia.</strong> Los cambios se notan en dos a cuatro semanas, y a veces el sueño empeora un poco al principio.</li><li><strong>Sin registro.</strong> Lo que anotes queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#mitos">Ideas que empeoran el insomnio</a><a href="#diario">Mi diario y mi ventana</a><a href="#estimulos">Control de estímulos</a><a href="#restriccion">Restricción del sueño</a><a href="#mente">La mente que no para</a><a href="#relajar">Relajación</a><a href="#siete-dias">Plan de 2 semanas</a></nav>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mitos">Ideas que empeoran el insomnio</h2>
+      <p class="lab-estacion__bajada">Charles Morin, uno de los referentes de la TCC-I, estudió cómo ciertas creencias sobre el sueño aumentan la preocupación y el esfuerzo por dormir, que justamente lo impiden. ¿Ayuda o empeora?</p>
+      <div class="lab-tarjeta" data-lab-quiz="tcci-mitos">
+        <p class="lab-tarjeta__titulo">¿Esta idea ayuda o empeora?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Empeora</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Ayuda</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="diario" aria-labelledby="t-diario">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-diario">Mi diario y mi ventana de sueño</h2>
+      <p class="lab-estacion__bajada">Anotá cada mañana, durante al menos una semana, a qué hora te acostaste, a qué hora te levantaste, cuántos minutos tardaste en dormirte y cuántos estuviste despierto durante la noche. Con eso se calcula la <strong>eficiencia del sueño</strong>, el porcentaje del tiempo en la cama que pasás dormido. Por debajo del 85 %, la cama se está asociando con estar despierto.</p>
+      <div class="lab-tarjeta" data-tcci>
+        <div class="lab-tabla-scroll"><table class="lab-tabla tcci-tabla">
+          <thead><tr><th scope="col"></th><th scope="col">Me acosté</th><th scope="col">Me levanté</th><th scope="col">Minutos para dormirme</th><th scope="col">Minutos despierto en la noche</th></tr></thead>
+          <tbody><tr data-noche><th scope="row">Noche 1</th>
+            <td><input class="lab-campo" type="time" name="acostarse" aria-label="Noche 1: me acosté"></td>
+            <td><input class="lab-campo" type="time" name="levantarse" aria-label="Noche 1: me levanté"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="latencia" inputmode="numeric" aria-label="Noche 1: minutos para dormirme"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="despierto" inputmode="numeric" aria-label="Noche 1: minutos despierto en la noche"></td></tr><tr data-noche><th scope="row">Noche 2</th>
+            <td><input class="lab-campo" type="time" name="acostarse" aria-label="Noche 2: me acosté"></td>
+            <td><input class="lab-campo" type="time" name="levantarse" aria-label="Noche 2: me levanté"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="latencia" inputmode="numeric" aria-label="Noche 2: minutos para dormirme"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="despierto" inputmode="numeric" aria-label="Noche 2: minutos despierto en la noche"></td></tr><tr data-noche><th scope="row">Noche 3</th>
+            <td><input class="lab-campo" type="time" name="acostarse" aria-label="Noche 3: me acosté"></td>
+            <td><input class="lab-campo" type="time" name="levantarse" aria-label="Noche 3: me levanté"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="latencia" inputmode="numeric" aria-label="Noche 3: minutos para dormirme"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="despierto" inputmode="numeric" aria-label="Noche 3: minutos despierto en la noche"></td></tr><tr data-noche><th scope="row">Noche 4</th>
+            <td><input class="lab-campo" type="time" name="acostarse" aria-label="Noche 4: me acosté"></td>
+            <td><input class="lab-campo" type="time" name="levantarse" aria-label="Noche 4: me levanté"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="latencia" inputmode="numeric" aria-label="Noche 4: minutos para dormirme"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="despierto" inputmode="numeric" aria-label="Noche 4: minutos despierto en la noche"></td></tr><tr data-noche><th scope="row">Noche 5</th>
+            <td><input class="lab-campo" type="time" name="acostarse" aria-label="Noche 5: me acosté"></td>
+            <td><input class="lab-campo" type="time" name="levantarse" aria-label="Noche 5: me levanté"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="latencia" inputmode="numeric" aria-label="Noche 5: minutos para dormirme"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="despierto" inputmode="numeric" aria-label="Noche 5: minutos despierto en la noche"></td></tr><tr data-noche><th scope="row">Noche 6</th>
+            <td><input class="lab-campo" type="time" name="acostarse" aria-label="Noche 6: me acosté"></td>
+            <td><input class="lab-campo" type="time" name="levantarse" aria-label="Noche 6: me levanté"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="latencia" inputmode="numeric" aria-label="Noche 6: minutos para dormirme"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="despierto" inputmode="numeric" aria-label="Noche 6: minutos despierto en la noche"></td></tr><tr data-noche><th scope="row">Noche 7</th>
+            <td><input class="lab-campo" type="time" name="acostarse" aria-label="Noche 7: me acosté"></td>
+            <td><input class="lab-campo" type="time" name="levantarse" aria-label="Noche 7: me levanté"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="latencia" inputmode="numeric" aria-label="Noche 7: minutos para dormirme"></td>
+            <td><input class="lab-campo" type="number" min="0" step="5" name="despierto" inputmode="numeric" aria-label="Noche 7: minutos despierto en la noche"></td></tr></tbody></table></div>
+        <div class="lab-paso" style="margin-top:1rem"><label class="lab-paso__titulo" for="tcci-hora-fija">Hora fija a la que me quiero levantar (opcional)</label><input class="lab-campo" id="tcci-hora-fija" type="time" style="max-width:10rem"></div>
+        <p class="lab-resultado__texto" data-tcci-salida aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-tcci-borrar>Borrar el diario</button></div>
+        <p class="lab-paso__ayuda">Se guarda solo en este navegador. Anotá a la mañana, con una estimación: no mires el reloj de noche.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="estimulos" aria-labelledby="t-estimulos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-estimulos">Control de estímulos</h2>
+      <p class="lab-estacion__bajada">El psicólogo Richard Bootzin propuso en 1972 un conjunto de reglas para que la cama vuelva a asociarse con dormir y no con dar vueltas, preocuparse o mirar el celular. Es uno de los componentes con más respaldo.</p>
+      <ol class="lab-checklist lab-checklist--numerada">
+        <li>Acostate solo cuando tengas sueño, no solo cansancio.</li>
+        <li>Usá la cama solo para dormir y para la vida sexual: nada de celular, series ni trabajo.</li>
+        <li>Si no te dormís en unos 15 o 20 minutos (sin mirar el reloj: cuando sientas que pasó un rato), levantate, andá a otro ambiente con luz tenue y hacé algo tranquilo.</li>
+        <li>Volvé a la cama solo cuando tengas sueño. Repetí las veces que haga falta.</li>
+        <li>Levantate todos los días a la misma hora, también el fin de semana, aunque hayas dormido mal.</li>
+        <li>Evitá las siestas, o que sean cortas y antes de las 15.</li>
+      </ol>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-control-de-estimulos" data-lab-form-titulo="Mi control de estímulos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-hora">Mi hora fija para levantarme</label><input class="lab-campo" id="ce-hora" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-lugar">Adónde voy y qué hago si no me duermo</label><textarea class="lab-texto" id="ce-lugar" rows="2" placeholder="Al living, con luz baja, a leer algo liviano en papel"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-cama">Lo que voy a dejar de hacer en la cama</label><textarea class="lab-texto" id="ce-cama" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="restriccion" aria-labelledby="t-restriccion">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-restriccion">Restricción del sueño</h2>
+      <p class="lab-estacion__bajada">Parece contradictorio: para dormir mejor, pasar <strong>menos</strong> tiempo en la cama. Arthur Spielman y su equipo propusieron en 1987 limitar el tiempo en la cama a lo que la persona realmente duerme. Al principio da algo de sueño durante el día; con eso aumenta la presión de sueño, el sueño se consolida y la eficiencia sube. Después, la ventana se amplía de a 15 minutos por semana mientras la eficiencia se mantenga alta. El diario de la estación 02 te propone una ventana.</p>
+      <div class="lab-aviso"><p><strong>Precauciones.</strong> La ventana nunca baja de 5 horas. La restricción del sueño no se recomienda sin supervisión médica si tenés trastorno bipolar, epilepsia, apneas del sueño o embarazo, ni si manejás o trabajás con máquinas y te da mucho sueño de día. Si es tu caso, hacela con un profesional.</p></div>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una situación"><label class="opcion"><input type="radio" name="rs-reglas" value="alta" checked><span>Eficiencia de 85 % o más</span></label><label class="opcion"><input type="radio" name="rs-reglas" value="media"><span>Entre 80 y 85 %</span></label><label class="opcion"><input type="radio" name="rs-reglas" value="baja"><span>Menos de 80 %</span></label></div>
+        <div class="lab-panel" data-lab-panel="alta"><p>Si además tenés sueño durante el día, sumá 15 minutos a la ventana la semana siguiente, adelantando la hora de acostarte.</p></div><div class="lab-panel" data-lab-panel="media" hidden><p>Mantené la misma ventana otra semana.</p></div><div class="lab-panel" data-lab-panel="baja" hidden><p>Ajustá la ventana a lo que dormiste en promedio, sin bajar de 5 horas.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mente" aria-labelledby="t-mente">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mente">La mente que no para</h2>
+      <p class="lab-estacion__bajada">Colleen Carney y William Waters propusieron la <strong>preocupación constructiva</strong>: dedicar un rato, temprano a la noche y lejos de la cama, a escribir las preocupaciones y un próximo paso para cada una. Así, cuando aparezcan acostado, podés decirte: «ya me ocupé de esto hoy». Si igual aparecen, otra técnica es la <strong>intención paradójica</strong>: en lugar de esforzarte por dormir, proponerte quedarte despierto tranquilo, con los ojos cerrados. Quitar el esfuerzo suele quitar la ansiedad.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="preocupacion-constructiva" data-lab-form-titulo="Preocupación constructiva" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pc-1">Una preocupación, y mi próximo paso</label><textarea class="lab-texto" id="pc-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pc-2">Otra preocupación, y mi próximo paso</label><textarea class="lab-texto" id="pc-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pc-3">Lo que no puedo resolver hoy, y que dejo para mañana</label><textarea class="lab-texto" id="pc-3" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form><p class="lab-paso__ayuda">Más herramientas en <a href="/laboratorio-de-descanso/#mente">la mente que no para</a> y en el <a href="/laboratorio-de-pensamientos-repetitivos/">laboratorio de pensamientos que se repiten</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="relajar" aria-labelledby="t-relajar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-relajar">Relajación para la noche</h2>
+      <p class="lab-estacion__bajada">La relajación es otro componente de la TCC-I. Esta secuencia combina respiración lenta y relajación muscular. Hacela fuera de la cama, como parte de la rutina previa, o acostado si no te genera presión. Unos 60 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Bajar las luces.</strong> Una hora antes de acostarte, luz tenue y pantallas lejos.</li>
+          <li><strong>Exhalar largo.</strong> Inhalá en cuatro tiempos, exhalá en seis. Diez veces.</li>
+          <li><strong>Pies y piernas.</strong> Tensá cinco segundos y soltá. Notá la diferencia.</li>
+          <li><strong>Manos, brazos y hombros.</strong> Tensá y soltá.</li>
+          <li><strong>Cara.</strong> Fruncí la cara, y soltá. Aflojá la mandíbula y la frente.</li>
+          <li><strong>Soltar el objetivo.</strong> No hace falta dormirse. Alcanza con descansar.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete-dias">Plan de 2 semanas</h2>
+      <p class="lab-estacion__bajada">La TCC-I lleva tiempo. Marcá los pasos a medida que los vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="insomnio">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Diario.</strong> Empezá el diario de sueño y completalo cada mañana.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Hora fija.</strong> Elegí una hora fija para levantarte, todos los días.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Cama para dormir.</strong> Sacá el celular y las series de la cama.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Levantarse.</strong> Si no te dormís, levantate y volvé con sueño.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Preocupación constructiva.</strong> Escribí tus preocupaciones temprano a la noche.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. La ventana.</strong> Con una semana de diario, calculá tu ventana de sueño.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Al final de la segunda semana, recalculá y ajustá la ventana.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Consultá a un médico si roncás fuerte o hacés pausas al respirar mientras dormís, si tenés mucho sueño durante el día, si las piernas se mueven sin parar a la noche o si el insomnio vino con un cambio de ánimo. Si tomás pastillas para dormir, no las dejes de golpe sin hablar con quien te las indicó. Si querés hacer la TCC-I acompañado, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Edinger, J. D. y otros (2021). «Behavioral and psychological treatments for chronic insomnia disorder in adults: An American Academy of Sleep Medicine clinical practice guideline». <em>Journal of Clinical Sleep Medicine</em>, 17(2), 255-262.</li><li>Qaseem, A. y otros (2016). «Management of chronic insomnia disorder in adults: A clinical practice guideline from the American College of Physicians». <em>Annals of Internal Medicine</em>, 165(2), 125-133.</li><li>Bootzin, R. R. (1972). «Stimulus control treatment for insomnia». <em>Proceedings of the American Psychological Association</em>, 7, 395-396.</li><li>Spielman, A. J., Saskin, P. y Thorpy, M. J. (1987). «Treatment of chronic insomnia by restriction of time in bed». <em>Sleep</em>, 10(1), 45-56.</li><li>Carney, C. E. y Waters, W. F. (2006). «Effects of a structured problem-solving procedure on pre-sleep cognitive arousal in college students with insomnia». <em>Behavioral Sleep Medicine</em>, 4(1), 13-28.</li><li>Morin, C. M. (1993). <em>Insomnia: Psychological Assessment and Management</em>. Guilford.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

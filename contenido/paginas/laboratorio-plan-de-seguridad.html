@@ -1,0 +1,131 @@
+<!--{
+  "ruta": "/laboratorio-plan-de-seguridad/",
+  "titulo": "Mi plan de seguridad para momentos de crisis",
+  "descripcion": "Un plan de seguridad para crisis suicidas, basado en Stanley y Brown: señales, qué hacer, a quién llamar y cómo cuidarte. Queda en tu dispositivo.",
+  "prioridad": 0.7,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Plan de seguridad",
+      "/laboratorio-plan-de-seguridad/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Prevención",
+  "h1": "Mi plan de <em>seguridad</em>",
+  "bajada": "Si estás en peligro ahora, llamá al 0800-345-1435 (135 desde CABA y GBA) o al 911. Si no, armá acá, con calma, un plan para tenerlo a mano cuando llegue la tormenta.",
+  "respuesta": "Un plan de seguridad es una lista breve y personal, escrita en un momento de calma, con los pasos a seguir cuando aparecen pensamientos de quitarse la vida: reconocer las señales de alerta, estrategias propias para calmarse, personas y lugares que distraen, personas a quienes pedir ayuda, profesionales y líneas de crisis, cómo hacer el entorno más seguro y las razones para vivir. Lo desarrollaron Barbara Stanley y Gregory Brown; en un estudio de 2018 se asoció con un 45 % menos de conductas suicidas en los seis meses siguientes. En Argentina, el Centro de Asistencia al Suicida atiende en el 135 (CABA y GBA) y el 0800-345-1435 (todo el país).",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-clinicos.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el plan de seguridad",
+  "articulos": [
+    "como-saber-si-necesito-terapia"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <aside class="lab-aviso lab-aviso--urgente revelar" aria-label="Si estás en peligro ahora"><p><strong>Si estás en peligro ahora</strong>, no sigas leyendo: llamá al <a href="tel:911">911</a>, o al Centro de Asistencia al Suicida, <a href="tel:135">135</a> desde CABA y GBA o <a href="tel:08003451435">0800-345-1435</a> desde todo el país, gratis. También podés ir a la guardia del hospital más cercano. Más líneas en <a href="/ayuda-urgente/">ayuda urgente</a>.</p></aside>
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Cuando una persona atraviesa una crisis y aparecen pensamientos de quitarse la vida, la mente se estrecha: cuesta pensar alternativas, recordar a quién llamar o qué ayudó otras veces. Por eso se escribe un <strong>plan de seguridad</strong> en un momento de más calma, para tenerlo a mano cuando haga falta.</p>
+      <p>Lo desarrollaron la psicóloga Barbara Stanley y el psicólogo Gregory Brown. En un estudio en guardias de hospitales de Estados Unidos, publicado en 2018, las personas que hicieron su plan y recibieron llamados de seguimiento tuvieron un <strong>45 % menos de conductas suicidas</strong> en los seis meses siguientes que quienes recibieron la atención habitual, y el doble de probabilidad de iniciar un tratamiento. Funciona mejor si lo armás con tu terapeuta o con alguien de confianza, y si lo vas revisando.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Con tus palabras.</strong> Un plan sirve si es tuyo, concreto y realista.</li><li><strong>Solo en tu dispositivo.</strong> Se guarda en este navegador; podés descargarlo o imprimirlo.</li><li><strong>A mano.</strong> Guardalo en el celular, en la billetera, en la heladera.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#plan">Mi plan</a><a href="#ola">Cuando la ola sube</a><a href="#mitos">Mitos y realidades</a><a href="#alguien">Si alguien que querés está en riesgo</a><a href="#despues">Después de la crisis</a></nav>
+
+    <section class="lab-estacion revelar" id="plan" aria-labelledby="t-plan">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-plan">Mi plan, paso a paso</h2>
+      <p class="lab-estacion__bajada">Los pasos van de lo que podés hacer solo a la ayuda de otros. Si un paso no alcanza, pasá al siguiente. No hace falta completarlo todo hoy.</p>
+      <form class="lab-tarjeta lab-armador ps-plan" data-lab-form="mi-plan-de-seguridad" data-lab-form-titulo="Mi plan de seguridad" data-ps-plan novalidate>
+        <div class="ps-paso"><p class="ps-paso__num">Paso 1</p><label class="lab-paso__titulo" for="ps-senales">Mis señales de alerta</label><p class="lab-paso__ayuda">Pensamientos, imágenes, emociones, situaciones o conductas que me avisan que se viene una crisis.</p><textarea class="lab-texto" id="ps-senales" rows="3" placeholder="Por ejemplo: cuando me quedo solo a la noche, cuando pienso «soy una carga», cuando dejo de responder mensajes"></textarea></div>
+        <div class="ps-paso"><p class="ps-paso__num">Paso 2</p><label class="lab-paso__titulo" for="ps-solo">Lo que puedo hacer solo para calmarme o distraerme</label><p class="lab-paso__ayuda">Cosas que no dependen de nadie y que alguna vez me ayudaron, aunque sea un poco.</p><textarea class="lab-texto" id="ps-solo" rows="3" placeholder="Ducharme con agua fría, salir a caminar, escuchar una música, respirar lento, sostener hielo en la mano"></textarea></div>
+        <div class="ps-paso"><p class="ps-paso__num">Paso 3</p><label class="lab-paso__titulo" for="ps-distraer">Personas y lugares que me ayudan a distraerme</label><p class="lab-paso__ayuda">No hace falta contarles lo que me pasa: alcanza con estar acompañado.</p><textarea class="lab-texto" id="ps-distraer" rows="3" placeholder="Ir a la casa de mi hermana, una plaza con gente, llamar a un amigo para hablar de cualquier cosa"></textarea></div>
+        <div class="ps-paso"><p class="ps-paso__num">Paso 4</p><label class="lab-paso__titulo" for="ps-personas">Personas a quienes puedo pedir ayuda</label><p class="lab-paso__ayuda">Nombre y teléfono. Personas a las que puedo decirles que estoy mal.</p><textarea class="lab-texto" id="ps-personas" rows="3" placeholder="Nombre · teléfono"></textarea></div>
+        <div class="ps-paso"><p class="ps-paso__num">Paso 5</p><label class="lab-paso__titulo" for="ps-profesionales">Profesionales y servicios</label><p class="lab-paso__ayuda">Mi terapeuta o psiquiatra, la guardia más cercana y las líneas de crisis.</p><textarea class="lab-texto" id="ps-profesionales" rows="4" placeholder="Mi terapeuta: … · Guardia: hospital … · Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 · Emergencias: 911 · Emergencias médicas: 107"></textarea></div>
+        <div class="ps-paso"><p class="ps-paso__num">Paso 6</p><label class="lab-paso__titulo" for="ps-entorno">Cómo hacer mi entorno más seguro</label><p class="lab-paso__ayuda">Alejar o dejar en manos de otra persona lo que podría usar para lastimarme: medicamentos, armas, objetos. Es uno de los pasos más importantes.</p><textarea class="lab-texto" id="ps-entorno" rows="3" placeholder="Le pido a … que guarde los medicamentos y me dé solo los del día"></textarea></div>
+        <div class="ps-paso"><p class="ps-paso__num">Paso 7</p><label class="lab-paso__titulo" for="ps-razones">Lo que me importa: mis razones para vivir</label><p class="lab-paso__ayuda">Personas, animales, proyectos, valores, cosas pendientes. Aunque hoy se vean lejos.</p><textarea class="lab-texto" id="ps-razones" rows="3" placeholder=""></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-ps-estado>Lo que escribas se guarda solo en este navegador. Nadie más lo ve.</p>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones">
+          <button class="boton boton--chico" type="button" data-lab-form-bajar>Descargar mi plan</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-ps-imprimir>Imprimir</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button>
+          <button class="boton boton--secundario boton--chico" type="button" data-ps-borrar>Borrar</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="ola" aria-labelledby="t-ola">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-ola">Cuando la ola sube</h2>
+      <p class="lab-estacion__bajada">Las crisis suicidas suelen ser intensas y, aunque no lo parezca en ese momento, <strong>pasan</strong>: el impulso sube, llega a un pico y baja. El objetivo de estos minutos no es resolver tu vida, sino atravesar la ola a salvo. Unos 60 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Alejarte de los medios.</strong> Si tenés cerca algo con lo que podrías lastimarte, alejate de eso o salí de esa habitación.</li>
+          <li><strong>Bajar el cuerpo.</strong> Agua fría en la cara o en las muñecas, o un hielo en la mano. Exhalá más largo de lo que inhalás.</li>
+          <li><strong>Volver al presente.</strong> Nombrá cinco cosas que ves, cuatro que podés tocar, tres que escuchás.</li>
+          <li><strong>Decirte la verdad.</strong> «Esto es una crisis. Es muy intensa, y va a bajar. No tengo que decidir nada ahora».</li>
+          <li><strong>Abrir tu plan.</strong> Leé tus razones para vivir y elegí el próximo paso.</li>
+          <li><strong>Pedir ayuda.</strong> Escribile o llamá a una persona de tu lista, o al 135 / 0800-345-1435. Decir «no estoy bien» alcanza.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-mitos">Mitos y realidades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas muy difundidas sobre el suicidio impiden ayudar a tiempo. ¿Mito o realidad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="mitos-suicidio">
+        <p class="lab-tarjeta__titulo">¿Mito o realidad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Realidad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="alguien" aria-labelledby="t-alguien">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-alguien">Si alguien que querés está en riesgo</h2>
+      <p class="lab-estacion__bajada">Muchas personas no saben qué hacer cuando sospechan que alguien piensa en quitarse la vida, y por miedo a empeorar las cosas no dicen nada. Una revisión de estudios (Dazzi y colaboradores, 2014) encontró que <strong>preguntar directamente por el suicidio no aumenta el riesgo</strong>; muchas veces alivia.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un paso"><label class="opcion"><input type="radio" name="ps-alguien" value="senales" checked><span>Las señales</span></label><label class="opcion"><input type="radio" name="ps-alguien" value="preguntar"><span>Preguntar</span></label><label class="opcion"><input type="radio" name="ps-alguien" value="acompanar"><span>Acompañar</span></label><label class="opcion"><input type="radio" name="ps-alguien" value="ayuda"><span>Buscar ayuda</span></label><label class="opcion"><input type="radio" name="ps-alguien" value="vos"><span>Cuidarte vos</span></label></div>
+        <div class="lab-panel" data-lab-panel="senales"><p>Hablar de querer morir o de ser una carga, despedirse, regalar cosas importantes, buscar medios, aislarse, cambios bruscos de ánimo (incluida una calma repentina después de una etapa muy mala), más consumo de alcohol o drogas.</p></div><div class="lab-panel" data-lab-panel="preguntar" hidden><p>Con calma y en privado: «¿Estás pensando en quitarte la vida?». Usá las palabras directas. Escuchá sin juzgar, sin sermonear y sin prometer guardar el secreto.</p></div><div class="lab-panel" data-lab-panel="acompanar" hidden><p>No dejes sola a la persona si el riesgo es alto. Ayudala a alejar los medios: medicamentos, armas, objetos. Ofrecé armar juntos su plan de seguridad.</p></div><div class="lab-panel" data-lab-panel="ayuda" hidden><p>Llamen juntos al 135 o al 0800-345-1435, o acompañala a la guardia. Si hay peligro inmediato, 911 o 107.</p></div><div class="lab-panel" data-lab-panel="vos" hidden><p>Acompañar a alguien en riesgo es muy pesado. Buscá apoyo para vos también: no tenés que cargarlo solo.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="despues" aria-labelledby="t-despues">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-despues">Después de la crisis</h2>
+      <p class="lab-estacion__bajada">Cuando la ola pasa, es un buen momento para revisar el plan: qué ayudó, qué faltó, a quién sumar. Y para buscar un tratamiento, si todavía no lo tenés: la terapia cognitivo-conductual para la prevención del suicidio y la terapia dialéctico-conductual tienen buen respaldo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="revisar-mi-plan" data-lab-form-titulo="Revisar mi plan" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-ayudo">¿Qué me ayudó esta vez?</label><textarea class="lab-texto" id="dc-ayudo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-falto">¿Qué faltó, o qué no funcionó?</label><textarea class="lab-texto" id="dc-falto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-cambio">¿Qué voy a agregar o cambiar en mi plan?</label><textarea class="lab-texto" id="dc-cambio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dc-tratamiento">¿Con quién voy a hablar para empezar o retomar un tratamiento?</label><input class="lab-campo" id="dc-tratamiento" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form><p class="lab-paso__ayuda">Para las emociones intensas, mirá también las <a href="/laboratorio-dbt-tolerancia-al-malestar/">habilidades de tolerancia al malestar de la DBT</a>.</p>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este plan no reemplaza la atención profesional. Si los pensamientos de quitarte la vida son frecuentes, si ya intentaste hacerlo o si tenés un plan concreto, buscá ayuda hoy mismo: <a href="tel:135">135</a> o <a href="tel:08003451435">0800-345-1435</a>, <a href="tel:911">911</a>, la guardia más cercana, o <a href="/ayuda-urgente/">ayuda urgente</a>. Si querés, también podés <a href="/contacto/">escribirme</a>, pero ante una emergencia no esperes mi respuesta.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Stanley, B. y Brown, G. K. (2012). «Safety planning intervention: A brief intervention to mitigate suicide risk». <em>Cognitive and Behavioral Practice</em>, 19(2), 256-264.</li><li>Stanley, B., Brown, G. K., Brenner, L. A. y otros (2018). «Comparison of the safety planning intervention with follow-up vs usual care of suicidal patients treated in the emergency department». <em>JAMA Psychiatry</em>, 75(9), 894-900.</li><li>Dazzi, T., Gribble, R., Wessely, S. y Fear, N. T. (2014). «Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?». <em>Psychological Medicine</em>, 44(16), 3361-3363.</li><li>Organización Mundial de la Salud (2021). <em>LIVE LIFE: An implementation guide for suicide prevention in countries</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

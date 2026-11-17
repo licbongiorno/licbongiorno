@@ -1480,3 +1480,28 @@ a.lab-tarjeta:hover { transform: translateY(-2px); }
 .apego-plano__eje { position: absolute; font-family: var(--f-sans); font-size: .7rem; color: var(--piedra-oscura); white-space: nowrap; }
 .apego-plano__eje--x { bottom: -1.5rem; right: 0; }
 .apego-plano__eje--y { top: 0; left: -1.5rem; transform: rotate(-90deg) translateX(-100%); transform-origin: left top; }
+
+/* ---------- Laboratorios clínicos ---------- */
+.lab-aviso--urgente { border-left: 4px solid #b0413e; background: rgba(176,65,62,.07); margin-bottom: 2rem; }
+.lab-aviso--urgente a { font-weight: 600; }
+.lab-checklist { margin: 0 0 1rem; padding-left: 1.2rem; display: grid; gap: .55rem; max-width: 46rem; }
+.lab-checklist li { padding-left: .3rem; line-height: 1.55; }
+.lab-checklist--numerada { list-style: decimal; }
+.lab-lista { margin: .4rem 0 0; padding-left: 1.2rem; font-size: var(--t-sm); display: grid; gap: .35rem; }
+.lab-lista:empty::before { content: "Todavía no anotaste ningún ejercicio."; display: block; margin-left: -1.2rem; color: var(--piedra-oscura); font-style: italic; }
+.ps-plan { display: grid; gap: 1.2rem; }
+.ps-paso { padding: 1.1rem 1.2rem; border-radius: var(--r-m); background: var(--papel); border: 1px solid var(--linea); }
+.ps-paso__num { margin: 0 0 .2rem; font-family: var(--f-sans); font-size: .72rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--terracota-profunda); }
+.ps-paso .lab-paso__titulo { font-family: var(--f-display); font-size: 1.25rem; font-weight: 400; }
+.unidades-grilla { display: grid; gap: .2rem 1rem; }
+@media (min-width: 700px) { .unidades-grilla { grid-template-columns: 1fr 1fr; } }
+.tcci-tabla { min-width: 40rem; }
+.tcci-tabla td { padding: .4rem; }
+.tcci-tabla .lab-campo { min-width: 6.5rem; padding: .45rem .5rem; }
+@media print {
+  body.imprimiendo-plan * { visibility: hidden; }
+  body.imprimiendo-plan .ps-plan, body.imprimiendo-plan .ps-plan * { visibility: visible; }
+  body.imprimiendo-plan .ps-plan { position: absolute; left: 0; top: 0; width: 100%; box-shadow: none; border: 0; }
+  body.imprimiendo-plan .ps-plan .lab-acciones, body.imprimiendo-plan .ps-plan [role="status"] { display: none; }
+  body.imprimiendo-plan .ps-plan textarea { border: 1px solid #999; min-height: 4rem; }
+}
