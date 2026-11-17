@@ -3,6 +3,7 @@
 .asistente__paso.completo legend span { background: var(--salvia-profunda); color: #F7F4EE; }
 .asistente__paso.completo legend span { animation: pop .45s var(--ease-out); }
 .lab-intro { display: grid; gap: 2rem; align-items: start; margin-bottom: 2.5rem; }
+.lab-intro[hidden] { display: none; }
 @media (min-width: 900px) {
 .lab-intro { grid-template-columns: 1.6fr 1fr; gap: 3.5rem; }
 }
