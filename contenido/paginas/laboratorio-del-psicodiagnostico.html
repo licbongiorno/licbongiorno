@@ -1,0 +1,197 @@
+<!--{
+  "ruta": "/laboratorio-del-psicodiagnostico/",
+  "titulo": "Qué pasa en un psicodiagnóstico: laboratorio paso a paso",
+  "descripcion": "Cómo es un psicodiagnóstico paso a paso: la entrevista, las técnicas psicométricas y proyectivas, tus derechos, la devolución y cómo leer un informe.",
+  "prioridad": 0.7,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Qué pasa en un psicodiagnóstico",
+      "/laboratorio-del-psicodiagnostico/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Evaluación psicológica",
+  "h1": "Qué pasa en un <em>psicodiagnóstico</em>",
+  "bajada": "Si te pidieron una evaluación psicológica (para la escuela, un trabajo, la licencia de conducir o una consulta), acá podés entender cómo es el proceso, qué derechos tenés y qué preguntar. Sin tests de práctica: no hacen falta, y no conviene.",
+  "respuesta": "Un psicodiagnóstico es un proceso de evaluación psicológica que realiza un psicólogo para responder una pregunta concreta: orientar un tratamiento, evaluar el desarrollo de un niño, una aptitud laboral o una situación judicial. Suele incluir una entrevista inicial, la administración de una batería de técnicas psicométricas y proyectivas, el análisis integrado de los resultados, una entrevista de devolución y, cuando corresponde, un informe escrito. Este laboratorio explica cada paso, los derechos de quien es evaluado y cómo prepararse, sin administrar ninguna prueba.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio sobre el psicodiagnóstico",
+  "articulos": [
+    "que-es-un-psicodiagnostico",
+    "la-entrevista-psicologica",
+    "el-informe-psicologico",
+    "tecnicas-proyectivas",
+    "tecnicas-psicometricas",
+    "test-de-rorschach",
+    "test-tat",
+    "test-de-bender",
+    "test-htp-casa-arbol-persona",
+    "test-figura-humana-machover",
+    "test-persona-bajo-la-lluvia",
+    "test-desiderativo",
+    "test-frases-incompletas",
+    "apto-psicologico-licencia-de-conducir"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Mucha gente llega a una evaluación psicológica con nervios y con dudas: qué me van a preguntar, si hay respuestas correctas, si se puede «fallar» un dibujo, quién va a leer los resultados. Es lógico: no sabemos qué esperar, y lo que está en juego a veces importa mucho (un trabajo, una escuela, un tratamiento).</p><p>Este laboratorio explica el proceso tal como se enseña en la formación clínica argentina, que tiene una larga tradición en psicodiagnóstico desde los trabajos de María Luisa Siquier de Ocampo, María Esther García Arzeno y su equipo. No vas a encontrar láminas ni preguntas de los tests: conocerlas de antemano invalida los resultados y no te ayuda en nada.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>No hay respuestas correctas.</strong> En la mayoría de las técnicas, importa cómo sos, no si acertás.</li><li><strong>Tenés derechos.</strong> A saber para qué es, a preguntar y a una devolución.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#para-que">Para qué se hace</a><a href="#pasos">El proceso, paso a paso</a><a href="#tecnicas">Dos familias de técnicas</a><a href="#cual">¿Psicométrica o proyectiva?</a><a href="#mitos">Mitos y verdades</a><a href="#derechos">Tus derechos</a><a href="#preparar">Antes de ir</a><a href="#nervios">Si llegás con nervios</a><a href="#devolucion">La devolución</a><a href="#informe">Leer un informe</a></nav>
+
+    <section class="lab-estacion revelar" id="para-que" aria-labelledby="t-para-que">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-para-que">Para qué se hace</h2>
+      <p class="lab-estacion__bajada">Todo psicodiagnóstico responde a una pregunta. Esa pregunta define qué técnicas se eligen, cuánto dura y quién recibe los resultados. Elegí el contexto que se parece al tuyo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un contexto"><label class="opcion"><input type="radio" name="pd-contextos" value="clinico" checked><span>Clínico</span></label><label class="opcion"><input type="radio" name="pd-contextos" value="infantil"><span>Niños y escuela</span></label><label class="opcion"><input type="radio" name="pd-contextos" value="laboral"><span>Laboral</span></label><label class="opcion"><input type="radio" name="pd-contextos" value="licencia"><span>Licencia de conducir</span></label><label class="opcion"><input type="radio" name="pd-contextos" value="forense"><span>Judicial</span></label></div>
+        <div class="lab-panel" data-lab-panel="clinico"><p>Para entender qué le pasa a una persona y orientar un tratamiento: qué tipo de terapia conviene, si hace falta una interconsulta, cuáles son sus recursos y sus dificultades. Los resultados son para la persona (o su familia) y para los profesionales que la atienden.</p></div><div class="lab-panel" data-lab-panel="infantil" hidden><p>Cuando un niño tiene dificultades de aprendizaje, de conducta o emocionales. Incluye entrevistas con los padres, horas de juego y técnicas adaptadas a la edad. La devolución se hace a los padres y, de un modo adecuado a su edad, también al niño.</p></div><div class="lab-panel" data-lab-panel="laboral" hidden><p>Para una selección de personal o un examen preocupacional. La pregunta es acotada: la adecuación a un puesto. El informe lo recibe la empresa, por eso conviene preguntar qué se va a comunicar y qué no.</p></div><div class="lab-panel" data-lab-panel="licencia" hidden><p>Una evaluación breve, que suele combinar una entrevista y algunas pruebas de atención, percepción y reacción, según lo que exija cada jurisdicción. Ver <a href="/recursos/apto-psicologico-licencia-de-conducir/">apto psicológico para la licencia</a>.</p></div><div class="lab-panel" data-lab-panel="forense" hidden><p>Pedido por un juzgado: tenencia de hijos, daño psíquico, capacidad, entre otros. El psicólogo responde a los puntos de pericia que fija el juez, y el informe se incorpora al expediente.</p></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pd-mi-pregunta" data-lab-form-titulo="Mi evaluación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-quien">¿Quién pidió la evaluación? (yo, un médico, la escuela, una empresa, un juzgado)</label><input class="lab-campo" id="pd-quien" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-pregunta">¿Qué pregunta se quiere responder? Si no lo sé, lo anoto para preguntarlo</label><textarea class="lab-texto" id="pd-pregunta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-destino">¿Quién va a recibir los resultados?</label><input class="lab-campo" id="pd-destino" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="pasos" aria-labelledby="t-pasos">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-pasos">El proceso, paso a paso</h2>
+      <p class="lab-estacion__bajada">Ocampo y García Arzeno describieron el psicodiagnóstico como un proceso con momentos bien definidos. Puede durar desde un encuentro (en una evaluación laboral breve) hasta varias semanas (en una evaluación clínica completa). Elegí un momento.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un momento del proceso"><label class="opcion"><input type="radio" name="pd-momentos" value="contacto" checked><span>1. Primer contacto</span></label><label class="opcion"><input type="radio" name="pd-momentos" value="entrevista"><span>2. Entrevista inicial</span></label><label class="opcion"><input type="radio" name="pd-momentos" value="tecnicas"><span>3. Administración de técnicas</span></label><label class="opcion"><input type="radio" name="pd-momentos" value="analisis"><span>4. Análisis e integración</span></label><label class="opcion"><input type="radio" name="pd-momentos" value="devolucion"><span>5. Entrevista de devolución</span></label><label class="opcion"><input type="radio" name="pd-momentos" value="informe"><span>6. Informe escrito</span></label></div>
+        <div class="lab-panel" data-lab-panel="contacto"><p>Se acuerda el encuadre: cuántos encuentros, horarios, honorarios, quién recibirá los resultados. Es el momento de preguntar todo lo que no esté claro.</p></div><div class="lab-panel" data-lab-panel="entrevista" hidden><p>Una conversación abierta sobre el motivo de la evaluación, tu historia y tu situación actual. En niños, se entrevista primero a los padres. Ver <a href="/recursos/la-entrevista-psicologica/">la entrevista psicológica</a>.</p></div><div class="lab-panel" data-lab-panel="tecnicas" hidden><p>El psicólogo aplica una <strong>batería</strong>: varias técnicas que se complementan, elegidas según la pregunta. Puede haber cuestionarios, pruebas de inteligencia, dibujos, láminas para contar historias, frases para completar. Ninguna sola alcanza para concluir algo.</p></div><div class="lab-panel" data-lab-panel="analisis" hidden><p>Sin vos presente, el psicólogo analiza cada técnica y busca lo que se repite y lo que se contradice entre ellas y con la entrevista. Las conclusiones salen de esa integración, no de un dato aislado.</p></div><div class="lab-panel" data-lab-panel="devolucion" hidden><p>Se te comunica lo comprendido, en un lenguaje claro, y se escucha cómo lo recibís. Para Ocampo y García Arzeno era una parte esencial del proceso, no un trámite.</p></div><div class="lab-panel" data-lab-panel="informe" hidden><p>Cuando corresponde, un documento con el motivo, las técnicas usadas, el análisis y las conclusiones. Su contenido depende de para quién es. Ver <a href="/recursos/el-informe-psicologico/">el informe psicológico</a>.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="tecnicas" aria-labelledby="t-tecnicas">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-tecnicas">Dos familias de técnicas</h2>
+      <p class="lab-estacion__bajada">Las técnicas de evaluación se agrupan, a grandes rasgos, en dos familias. La mayoría de las baterías combina ambas.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una familia"><label class="opcion"><input type="radio" name="pd-familias" value="psico" checked><span>Psicométricas</span></label><label class="opcion"><input type="radio" name="pd-familias" value="proy"><span>Proyectivas</span></label></div>
+        <div class="lab-panel" data-lab-panel="psico"><p>Pruebas estandarizadas, con consignas fijas y resultados que se comparan con los de una población de referencia (los <strong>baremos</strong>). Miden aspectos como la inteligencia, la atención, la memoria o rasgos de personalidad. Se les exige <strong>validez</strong> (que midan lo que dicen medir) y <strong>confiabilidad</strong> (que den resultados estables). Ver <a href="/recursos/tecnicas-psicometricas/">técnicas psicométricas</a>.</p></div><div class="lab-panel" data-lab-panel="proy" hidden><p>Proponen un estímulo abierto o ambiguo (una mancha, una lámina, una consigna de dibujo, una frase incompleta), y la persona responde con libertad. La idea es que, al organizar lo ambiguo, proyecta algo de su manera de ver, sentir y vincularse. No hay respuestas correctas. Ver <a href="/recursos/tecnicas-proyectivas/">técnicas proyectivas</a>.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cual" aria-labelledby="t-cual">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-cual">¿Psicométrica o proyectiva?</h2>
+      <p class="lab-estacion__bajada">Un ejercicio para reconocer las dos familias en técnicas conocidas.</p>
+      <div class="lab-tarjeta" data-lab-quiz="familias-psicodiagnostico">
+        <p class="lab-tarjeta__titulo">¿A qué familia pertenece?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas que circulan sobre las evaluaciones psicológicas. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="mitos-psicodiagnostico">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="derechos" aria-labelledby="t-derechos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-derechos">Tus derechos</h2>
+      <p class="lab-estacion__bajada">Los códigos de ética profesionales, como el de la Federación de Psicólogos de la República Argentina, contemplan el consentimiento informado, el secreto profesional y el cuidado al comunicar resultados. En la práctica, eso se traduce en cosas que podés pedir.</p>
+      <div class="lab-tarjeta">
+        <ul>
+          <li><strong>Saber para qué es</strong> la evaluación, quién la pidió y quién recibirá los resultados, antes de empezar.</li>
+          <li><strong>Dar tu consentimiento</strong> informado. En niños y adolescentes, lo dan los adultos responsables, y se escucha también al chico.</li>
+          <li><strong>Confidencialidad:</strong> lo que digas está protegido por el secreto profesional, con los límites que fija la ley (por ejemplo, un riesgo grave).</li>
+          <li><strong>Hacer preguntas</strong> en cualquier momento, y pedir una pausa si estás cansado.</li>
+          <li><strong>Una devolución</strong> comprensible, en el contexto clínico. En evaluaciones laborales o judiciales, preguntá al comienzo cómo se comunican los resultados.</li>
+          <li><strong>Que no se te reduzca a un número o a una etiqueta:</strong> un buen informe describe a una persona, con sus recursos y sus dificultades.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="preparar" aria-labelledby="t-preparar">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-preparar">Antes de ir</h2>
+      <p class="lab-estacion__bajada">No hace falta (ni conviene) estudiar tests. Sí ayuda llegar en buenas condiciones y con tus preguntas claras.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pd-antes" data-lab-form-titulo="Mi preparación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-dormir">Dormir bien la noche anterior y comer algo antes: ¿cómo lo organizo?</label><input class="lab-campo" id="pd-dormir" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-lentes">¿Uso anteojos o audífonos? ¿Tomo alguna medicación que convenga mencionar?</label><input class="lab-campo" id="pd-lentes" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-papeles">Documentos útiles (informes escolares, estudios médicos, evaluaciones anteriores)</label><textarea class="lab-texto" id="pd-papeles" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-preguntas">Las preguntas que quiero hacer</label><textarea class="lab-texto" id="pd-preguntas" rows="2" placeholder="¿Cuántos encuentros son? ¿Quién recibe el informe? ¿Habrá devolución?"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="nervios" aria-labelledby="t-nervios">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-nervios">Si llegás con nervios</h2>
+      <p class="lab-estacion__bajada">Estar nervioso es esperable, y el psicólogo lo sabe y lo tiene en cuenta. Si querés, probá esta pausa breve antes de entrar, unos treinta segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Apoyá los pies.</strong> Sentí el piso bajo los pies y el peso del cuerpo en la silla.</li>
+          <li><strong>Exhalá largo.</strong> Inhalá por la nariz y soltá el aire despacio, más largo que la inhalación. Tres veces.</li>
+          <li><strong>Nombrá lo que pasa.</strong> «Estoy nervioso porque esto me importa.» Es una señal, no un problema.</li>
+          <li><strong>Recordá.</strong> No hay respuestas correctas en la mayoría de las técnicas. Alcanza con responder como sos.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="devolucion" aria-labelledby="t-devolucion">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-devolucion">La devolución</h2>
+      <p class="lab-estacion__bajada">La entrevista de devolución es el momento de entender lo que se encontró y de decir cómo lo recibís. Ocampo y García Arzeno insistían en que el evaluado no es un objeto de estudio, sino alguien que participa del proceso. Prepará tus preguntas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pd-devolucion" data-lab-form-titulo="Mi devolución" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-d-entender">¿Qué quiero entender de los resultados?</label><textarea class="lab-texto" id="pd-d-entender" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-d-recursos">¿Qué recursos o fortalezas aparecieron?</label><textarea class="lab-texto" id="pd-d-recursos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-d-recom">¿Qué se recomienda? ¿Por qué?</label><textarea class="lab-texto" id="pd-d-recom" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pd-d-sentir">Después: ¿cómo me sentí con lo que escuché? ¿Algo me sorprendió o no me cerró?</label><textarea class="lab-texto" id="pd-d-sentir" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="informe" aria-labelledby="t-informe">
+      <p class="lab-estacion__num">10</p>
+      <h2 id="t-informe">Leer un informe</h2>
+      <p class="lab-estacion__bajada">Un informe psicológico suele organizarse en partes. Conocerlas ayuda a leerlo sin quedarse solo con una palabra suelta. Elegí una parte.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una parte del informe"><label class="opcion"><input type="radio" name="pd-partes" value="datos" checked><span>Datos y motivo</span></label><label class="opcion"><input type="radio" name="pd-partes" value="tecnicas"><span>Técnicas administradas</span></label><label class="opcion"><input type="radio" name="pd-partes" value="analisis"><span>Análisis</span></label><label class="opcion"><input type="radio" name="pd-partes" value="conclusiones"><span>Conclusiones</span></label><label class="opcion"><input type="radio" name="pd-partes" value="recomendaciones"><span>Recomendaciones</span></label></div>
+        <div class="lab-panel" data-lab-panel="datos"><p>Quién fue evaluado, quién lo pidió, cuándo y por qué. Define el alcance de todo lo demás: un informe responde a esa pregunta y no a otras.</p></div><div class="lab-panel" data-lab-panel="tecnicas" hidden><p>La lista de entrevistas y pruebas usadas. Sirve para saber en qué se basan las conclusiones.</p></div><div class="lab-panel" data-lab-panel="analisis" hidden><p>Lo que se observó en las distintas áreas (intelectual, emocional, vincular), integrando las técnicas entre sí.</p></div><div class="lab-panel" data-lab-panel="conclusiones" hidden><p>La respuesta a la pregunta inicial. Un buen informe es prudente: habla de hipótesis y tendencias, no de verdades definitivas, y menciona también los recursos.</p></div><div class="lab-panel" data-lab-panel="recomendaciones" hidden><p>Qué se sugiere hacer: un tratamiento, un apoyo escolar, una interconsulta, una nueva evaluación más adelante. Es la parte más útil para decidir los próximos pasos.</p></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio informa sobre el proceso, pero no es una evaluación ni la reemplaza: ninguna prueba en internet puede hacer un psicodiagnóstico. Si tenés dudas sobre una evaluación que te hicieron, lo mejor es preguntarle al profesional que la realizó. Si necesitás una evaluación o una segunda opinión, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Siquier de Ocampo, M. L., García Arzeno, M. E., Grassano, E. y colaboradoras (1974). <em>Las técnicas proyectivas y el proceso psicodiagnóstico</em>. Nueva Visión.</li><li>García Arzeno, M. E. (1993). <em>Nuevas aportaciones al psicodiagnóstico clínico</em>. Nueva Visión.</li><li>Federación de Psicólogos de la República Argentina (FePRA). <em>Código de Ética</em>.</li><li><a href="/recursos/que-es-un-psicodiagnostico/">Qué es un psicodiagnóstico</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

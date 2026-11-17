@@ -173,4 +173,25 @@
     { t: "Tiene todo planificado al detalle y siente que su vida está quieta.", ops: FM, r: 0, e: "Forma sin movimiento." },
     { t: "Pasa de un vínculo intenso a otro, sin poder quedarse.", ops: FM, r: 1, e: "Movimiento sin forma." }
   ]);
+
+  var FAM = ["Psicométrica", "Proyectiva"];
+  LAB.quiz("familias-psicodiagnostico", [
+    { t: "Una escala de inteligencia con subpruebas cronometradas y puntajes comparados con baremos.", ops: FAM, r: 0, e: "Estandarizada y comparada con una población de referencia: psicométrica." },
+    { t: "Una serie de manchas de tinta sobre las que se pregunta qué podría ser.", ops: FAM, r: 1, e: "Es el Rorschach: un estímulo ambiguo, sin respuestas correctas." },
+    { t: "Un cuestionario de personalidad con cientos de afirmaciones para responder verdadero o falso.", ops: FAM, r: 0, e: "Consignas fijas y puntuación estandarizada: psicométrico." },
+    { t: "Dibujar una casa, un árbol y una persona.", ops: FAM, r: 1, e: "El HTP es una técnica proyectiva gráfica." },
+    { t: "Láminas con escenas ambiguas, sobre las que se pide contar una historia.", ops: FAM, r: 1, e: "El TAT: la historia que se arma habla de quien la cuenta." },
+    { t: "Una prueba de matrices en la que hay que completar la figura que falta.", ops: FAM, r: 0, e: "Las matrices progresivas miden razonamiento y tienen respuestas correctas." },
+    { t: "Completar frases que empiezan, por ejemplo, con «Mi mayor miedo…».", ops: FAM, r: 1, e: "Las frases incompletas son una técnica proyectiva verbal." }
+  ]);
+  LAB.quiz("mitos-psicodiagnostico", [
+    { t: "Con un solo test se puede saber cómo es una persona.", r: "a", e: "Mito. Se usa una batería, y las conclusiones salen de integrar varias técnicas con la entrevista." },
+    { t: "En las técnicas proyectivas no hay respuestas correctas ni incorrectas.", r: "b", e: "Verdad. Lo que importa es cómo responde cada persona, no si acierta." },
+    { t: "Conviene buscar en internet las láminas y practicar los dibujos antes de ir.", r: "a", e: "Mito. Prepararse así no ayuda y puede invalidar los resultados. Es mejor responder con naturalidad." },
+    { t: "Dibujar mal es una mala señal.", r: "a", e: "Mito. En las técnicas gráficas no se evalúa la habilidad artística." },
+    { t: "En una evaluación clínica, tenés derecho a una devolución comprensible.", r: "b", e: "Verdad. La entrevista de devolución es parte del proceso." },
+    { t: "Estar nervioso arruina la evaluación.", r: "a", e: "Mito. Los nervios son esperables, y el profesional los tiene en cuenta al interpretar." },
+    { t: "Las técnicas psicométricas comparan tus resultados con los de una población de referencia.", r: "b", e: "Verdad. Para eso se usan los baremos." },
+    { t: "Lo que digas en la evaluación puede contarse libremente a cualquiera.", r: "a", e: "Mito. Está protegido por el secreto profesional, con los límites que fija la ley." }
+  ]);
 })();
