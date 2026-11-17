@@ -104,4 +104,14 @@
     { sinComillas: true, t: "Discutió con su jefe. Sale a caminar para calmarse y después escribe qué quiere decirle.", ops: AF, r: 1, e: "Primero regula la emoción; después puede pasar al problema. Las dos formas se combinan." },
     { sinComillas: true, t: "Se mudó y no conoce a nadie. Se anota en un taller del barrio.", ops: AF, r: 0, e: "Busca resolver la falta de vínculos con una acción concreta." }
   ]);
+
+  /* ---------- Psicoterapia breve focalizada (Fiorini): intervenciones del terapeuta ---------- */
+  var INT = ["Preguntar", "Clarificar", "Señalar", "Interpretar", "Sugerir"];
+  LAB.quiz("intervenciones-fiorini", [
+    { t: "¿Qué pasó exactamente la noche en que empezó el insomnio?", ops: INT, r: 0, e: "Una pregunta que busca datos concretos de la situación." },
+    { t: "Entonces, si entiendo bien, lo que más te angustia no es el trabajo nuevo, sino dejar a tu equipo de antes.", ops: INT, r: 1, e: "Reformula lo dicho para ordenarlo y volverlo más claro." },
+    { t: "Noto que cada vez que hablás de tu padre bajás la voz.", ops: INT, r: 2, e: "Llama la atención sobre algo observable, sin explicarlo, y deja que la persona lo piense." },
+    { t: "Quizás el insomnio aparece porque crecer en el trabajo se te vive como traicionar a tu viejo grupo, como cuando dejaste el barrio.", ops: INT, r: 3, e: "Propone un sentido no evidente, que conecta el síntoma con un conflicto y con la historia." },
+    { t: "¿Y si esta semana probás hablar con tu jefe antes de que se acumule la tensión?", ops: INT, r: 4, e: "Propone una actitud o una acción concreta, algo frecuente en las terapias breves, con un terapeuta activo." }
+  ]);
 })();
