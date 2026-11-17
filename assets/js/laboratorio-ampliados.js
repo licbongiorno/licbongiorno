@@ -262,4 +262,13 @@
     { t: "Ver un paisaje desde la ventana se asoció con una recuperación más rápida en pacientes operados.", r: "b", e: "Es lo que encontró Ulrich en 1984, con registros de un hospital. Como no fue un ensayo al azar, hay que tomarlo como una pista." },
     { t: "Los animales de compañía no tienen ninguna relación con el bienestar emocional.", r: "a", e: "Hay asociaciones con menor soledad y mejor ánimo, pero la evidencia es mixta y muchas veces correlacional." }
   ]);
+  LAB.quiz("separacion-mitos", [
+    { t: "Si estoy en desacuerdo con la cuota alimentaria, no me queda más que aceptarla.", r: "a", e: "En general existen vías legales para pedir que se revise, sobre todo si cambian las circunstancias. Cómo y cuándo depende de cada caso y lo orienta un abogado o abogada. Lo que depende de vos es usar esos canales y no otros." },
+    { t: "Perdonar significa reconciliarse.", r: "a", e: "Worthington distingue las dos cosas: el perdón depende de uno; la reconciliación, de los dos. Se puede perdonar sin volver a confiar, y sin dejar de reclamar lo que corresponde." },
+    { t: "La culpa a veces informa algo, y a veces sólo castiga.", r: "b", e: "La culpa por un acto concreto puede llevar a reparar. Cuando se vuelve un juicio sobre uno mismo («soy malo»), Tangney y Dearing la describen como vergüenza, que suele llevar a esconderse más que a reparar." },
+    { t: "Sentir bronca durante una separación quiere decir que algo anda mal en mí.", r: "a", e: "El enojo es una respuesta esperable ante lo que se vive como un agravio (Lazarus, 1991). La dificultad aparece cuando decide por uno lo que se hace o se dice." },
+    { t: "Extrañar una casa o unos animales es un duelo menor que no debería doler tanto.", r: "a", e: "Pauline Boss describió cómo las pérdidas sin cierre ni reconocimiento social pueden doler mucho y prolongarse. El tamaño de un duelo no lo fija una regla externa." },
+    { t: "Que los hijos queden en medio del conflicto entre los padres suele afectarlos.", r: "b", e: "La investigación sobre divorcio, como la de Robert Emery, señala el conflicto entre los padres, sobre todo cuando los hijos quedan en el medio, como uno de los riesgos más estudiados para ellos." },
+    { t: "En la terapia de aceptación y compromiso, aceptar el malestar es resignarse.", r: "a", e: "Aceptar, en ACT, es dejar de pelear con lo que se siente para poder actuar según lo que importa. No implica dejar de reclamar ni de cambiar lo que se puede cambiar." }
+  ]);
 })();

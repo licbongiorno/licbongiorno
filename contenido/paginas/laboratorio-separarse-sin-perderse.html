@@ -1,0 +1,181 @@
+<!--{
+  "ruta": "/laboratorio-separarse-sin-perderse/",
+  "titulo": "Separarse sin perderse: laboratorio para una separación",
+  "descripcion": "Ejercicios desde la psicología para una separación: pérdida ambigua, lo que depende de vos, la bronca, la culpa, el perdón y el tiempo con los hijos.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Separarse sin perderse",
+      "/laboratorio-separarse-sin-perderse/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Transiciones de vida",
+  "h1": "Separarse sin <em>perderse</em>",
+  "bajada": "Una separación con conflicto trae muchas pérdidas a la vez: la casa, la rutina, los animales, el tiempo con los hijos. Y emociones que se mezclan: bronca, culpa, pena, impotencia. Acá hay siete estaciones para ordenar lo que se pueda, cada una con su fuente y con lo que se sabe (y lo que no) de su respaldo.",
+  "respuesta": "Este laboratorio propone ejercicios para atravesar una separación conflictiva: la pérdida ambigua de Pauline Boss, la distinción estoica entre lo que depende de uno y lo que no, la función de la bronca, la diferencia entre culpa y vergüenza junto con la autocompasión de Kristin Neff, el perdón sin reconciliación, los valores de la terapia de aceptación y compromiso y el cuidado del vínculo con los hijos. No es terapia ni orienta ninguna decisión judicial: lo que se trabaja es la relación con lo que no se puede controlar.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio sobre la separación",
+  "articulos": [
+    "el-enojo",
+    "la-culpa",
+    "vinculo-con-los-animales",
+    "terapia-de-aceptacion-y-compromiso",
+    "patrones-que-se-repiten-en-los-vinculos",
+    "la-soledad",
+    "la-resiliencia",
+    "psicologia-de-la-naturaleza"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Cuando una pareja se separa en medio de un conflicto, lo cotidiano se vuelve incierto. Hay decisiones que toman otros (un juzgado, la otra persona, los tiempos de un expediente) y hay pérdidas que no terminan de ser pérdidas: la casa sigue ahí, los animales siguen vivos, los hijos siguen siendo tuyos, pero ya no están al alcance como antes.</p><p>Este laboratorio no decide ni anticipa ningún proceso judicial, y no reemplaza el consejo de un abogado ni una psicoterapia. Lo que propone es otra cosa: trabajar la relación con la incertidumbre y con las emociones que trae, con herramientas de la psicología y de la filosofía práctica. En cada estación está la fuente y qué tan sólida es la evidencia.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin promesas.</strong> Nada de esto cura una separación: ayuda a pensarla con más claridad.</li><li><strong>A tu ritmo.</strong> Podés hacer una estación por día, o volver a la que necesites.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#perdi">Lo que perdí y lo que sigue</a><a href="#depende">Lo que depende de mí</a><a href="#bronca">La bronca</a><a href="#culpa">La culpa</a><a href="#soltar">Soltar sin reconciliarse</a><a href="#valores">Seguir con lo que importa</a><a href="#hijos">Tiempo con los hijos</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="perdi" aria-labelledby="t-perdi">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-perdi">Lo que perdí y lo que sigue presente</h2>
+      <p class="lab-estacion__bajada">Pauline Boss (<em>Ambiguous Loss</em>, 1999) llamó <strong>pérdida ambigua</strong> a la que no tiene cierre: alguien o algo sigue existiendo, pero ya no está a nuestro alcance, o está cerca pero ya no como antes. En una separación pasa con la casa, con los animales, con la vida diaria junto a los hijos. Boss subraya que lo que congela el duelo es la ambigüedad de la situación, no una falla de quien la sufre. Es un marco clínico, sostenido sobre todo por trabajo con familias y estudios descriptivos, no una técnica probada en ensayos. Probá ponerle nombre a las dos caras.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sep-ambigua" data-lab-form-titulo="Lo que perdí y lo que sigue" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-perdi">Lo que perdí o ya no está a mi alcance (un lugar, una rutina, un animal, momentos con mis hijos)</label><textarea class="lab-texto" id="sep-perdi" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-sigue">Lo que sigue presente, aunque sea de otra manera</label><textarea class="lab-texto" id="sep-sigue" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-y">Una frase con «y» en lugar de «o»</label><input class="lab-campo" id="sep-y" type="text" autocomplete="off" placeholder="Extraño mi casa y sigo teniendo un lugar donde estar con los míos"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="depende" aria-labelledby="t-depende">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-depende">Lo que depende de mí</h2>
+      <p class="lab-estacion__bajada">El <em>Manual</em> de Epicteto empieza con una distinción: hay cosas que dependen de nosotros (nuestros juicios, lo que elegimos hacer) y cosas que no (el cuerpo, los bienes, la opinión ajena). En una separación, depende de vos cómo te presentás, qué preparás con tu abogado o abogada, el tono de tus mensajes. No depende de vos lo que decida un juez, lo que haga la otra persona ni, a veces, dónde terminan viviendo los animales. Esto es filosofía, no un tratamiento, aunque Albert Ellis citaba a Epicteto como antecedente de su terapia. La columna del medio (lo que puedo influir sin decidir) es un agregado moderno, no de Epicteto. Más ejercicios en el <a href="/laboratorio-estoico/">laboratorio estoico</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sep-depende" data-lab-form-titulo="Lo que depende de mí" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-dep-si">Depende de mí</label><textarea class="lab-texto" id="sep-dep-si" rows="3" placeholder="Cómo me presento, lo que digo, cómo cuido mi salud, los papeles que preparo"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-dep-medio">Puedo influir, pero no decidir</label><textarea class="lab-texto" id="sep-dep-medio" rows="3" placeholder="Lo que pido por los canales que corresponden, cómo propongo organizar el tiempo con mis hijos"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-dep-no">No depende de mí</label><textarea class="lab-texto" id="sep-dep-no" rows="3" placeholder="La decisión del juez, lo que haga la otra persona, los tiempos del expediente"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-dep-hoy">Hoy, de la primera columna, voy a ocuparme de</label><input class="lab-campo" id="sep-dep-hoy" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="bronca" aria-labelledby="t-bronca">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-bronca">La bronca</h2>
+      <p class="lab-estacion__bajada">Richard Lazarus (<em>Emotion and Adaptation</em>, 1991) describió el enojo como la respuesta a lo que vivimos como un agravio contra nosotros o los nuestros. La bronca no es un defecto: señala un límite pasado y protege algo que importa. El problema aparece cuando gobierna lo que hacemos. Marco Aurelio abre el libro II de las <em>Meditaciones</em> preparándose cada mañana para encontrarse con gente difícil; la DBT de Marsha Linehan propone revisar si la emoción encaja con los hechos y, si actuarla no ayuda, hacer la acción opuesta. La DBT tiene respaldo en ensayos clínicos como programa completo; sus habilidades sueltas están menos estudiadas por separado. Probá esta secuencia, unos treinta segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Nombrala.</strong> «Esto es bronca.» Notá dónde está en el cuerpo: la mandíbula, el pecho, las manos.</li>
+          <li><strong>¿Qué protege?</strong> Un límite, algo que considerás justo, un vínculo, tu tiempo, tu lugar.</li>
+          <li><strong>¿Qué pide?</strong> Que algo se repare, que se te escuche, que se respete un acuerdo.</li>
+          <li><strong>Antes de actuar.</strong> ¿Lo que tengo ganas de hacer me acerca o me aleja de lo que quiero para mí y para los míos?</li>
+          <li><strong>Un canal hábil.</strong> Escribí el mensaje y no lo mandes hasta mañana. Llevá el reclamo a quien corresponde. Mové el cuerpo: caminar, ordenar algo.</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sep-bronca" data-lab-form-titulo="Mi bronca" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-br-protege">Lo que mi bronca protege</label><textarea class="lab-texto" id="sep-br-protege" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-br-pide">Lo que pide, dicho con claridad</label><textarea class="lab-texto" id="sep-br-pide" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-br-hacer">Lo que voy a hacer con ella (y lo que no voy a hacer)</label><textarea class="lab-texto" id="sep-br-hacer" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="culpa" aria-labelledby="t-culpa">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-culpa">La culpa y la autocompasión</h2>
+      <p class="lab-estacion__bajada">June Tangney y Ronda Dearing (<em>Shame and Guilt</em>, 2002) distinguen la <strong>culpa</strong>, centrada en un acto («hice algo mal»), de la <strong>vergüenza</strong>, centrada en uno mismo («soy malo»). La primera suele llevar a reparar; la segunda, a esconderse o a atacar. Una culpa por un acto concreto puede informar algo; una culpa por existir solo castiga. Kristin Neff (2003) describe la autocompasión con tres componentes: bondad hacia uno mismo, humanidad compartida y atención plena. Muchos estudios la asocian con menos ansiedad y depresión, en buena parte correlacionales. Más en el <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sep-culpa" data-lab-form-titulo="Mi culpa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-cu-acto">¿Hay un acto concreto del que me siento responsable? ¿Cuál?</label><textarea class="lab-texto" id="sep-cu-acto" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-cu-reparar">¿Hay algo que pueda reparar? ¿Cómo y cuándo?</label><textarea class="lab-texto" id="sep-cu-reparar" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-cu-castiga">¿Qué parte de esta culpa ya no informa nada y solo me castiga?</label><textarea class="lab-texto" id="sep-cu-castiga" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="30">
+        <ol class="lab-pasos">
+          <li><strong>Atención plena.</strong> «Esto es un momento difícil.» Nombralo sin agrandarlo ni achicarlo.</li>
+          <li><strong>Humanidad compartida.</strong> Mucha gente atravesó una separación y sintió esto mismo. No estás fallando por sentirlo.</li>
+          <li><strong>Bondad.</strong> ¿Qué le dirías a alguien que querés si estuviera en tu lugar? Decítelo a vos, con las mismas palabras.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="soltar" aria-labelledby="t-soltar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-soltar">Soltar sin reconciliarse</h2>
+      <p class="lab-estacion__bajada">Robert Enright y Richard Fitzgibbons (2000) describen el perdón como un proceso, que empieza por mirar el daño de frente, y Everett Worthington (2003) insiste en que se puede perdonar sin reconciliarse: el perdón depende de uno, la reconciliación de los dos. Perdonar no es negar la injusticia, ni excusarla, ni renunciar a reclamar lo que corresponde por los canales legales. Tampoco es obligatorio ni tiene plazo. Las intervenciones de perdón se probaron en ensayos controlados, con grupos en general chicos. Más en el <a href="/laboratorio-del-perdon/">laboratorio del perdón</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sep-soltar" data-lab-form-titulo="Lo que cargo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-so-dano">Lo que me dañó, dicho con claridad</label><textarea class="lab-texto" id="sep-so-dano" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-so-reclamo">Lo que sigo reclamando, y por qué canal</label><textarea class="lab-texto" id="sep-so-reclamo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-so-cargar">Lo que algún día me gustaría dejar de cargar (no hace falta que sea hoy)</label><textarea class="lab-texto" id="sep-so-cargar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="valores" aria-labelledby="t-valores">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-valores">Seguir adelante con lo que importa</h2>
+      <p class="lab-estacion__bajada">La terapia de aceptación y compromiso (ACT), de Steven Hayes, Kirk Strosahl y Kelly Wilson (1999), propone no esperar a que el malestar se vaya para vivir según lo que importa. Los valores son direcciones (cómo quiero ser como padre o madre, como amigo, en el trabajo), no metas que se cumplen. ACT tiene numerosos ensayos controlados en distintos problemas; un ejercicio suelto no equivale a una terapia. Más en <a href="/laboratorio-act-comprometido/">ACT: comprometerse</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sep-valores" data-lab-form-titulo="Lo que importa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-va-quien">¿Qué persona quiero ser durante esta etapa, aunque no la haya elegido?</label><textarea class="lab-texto" id="sep-va-quien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-va-area">Un área que no quiero descuidar (mis hijos, mi salud, mis amistades, mi trabajo, un lugar que me hace bien)</label><input class="lab-campo" id="sep-va-area" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-va-accion">Una acción pequeña para esta semana, aunque la bronca o la pena vengan conmigo</label><textarea class="lab-texto" id="sep-va-accion" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="hijos" aria-labelledby="t-hijos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-hijos">Tiempo con los hijos</h2>
+      <p class="lab-estacion__bajada">Robert Emery (<em>Renegotiating Family Relationships</em>, 2.ª ed., 2011) siguió durante años a familias que resolvieron la separación por mediación y por litigio. Su trabajo y el de otros investigadores señalan que el conflicto entre los padres, sobre todo cuando los hijos quedan en el medio, es uno de los riesgos más estudiados para ellos. No se puede controlar todo el tiempo que se tiene, pero sí cuidar el que hay. Las preguntas sobre la cuota o el régimen de comunicación son para tu abogado o abogada; las de abajo, para un profesional de crianza y coparentalidad. Más en el <a href="/laboratorio-de-crianza/">laboratorio de crianza</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sep-hijos" data-lab-form-titulo="El tiempo con mis hijos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-hi-sostener">Lo que puedo sostener en el tiempo que tenemos (un ritual, una llamada, una comida, algo que hacemos juntos)</label><textarea class="lab-texto" id="sep-hi-sostener" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-hi-cuidar">Lo que voy a evitar: hablar mal del otro progenitor delante de ellos, usarlos de mensajeros, pedirles que elijan</label><textarea class="lab-texto" id="sep-hi-cuidar" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sep-hi-preguntas">Preguntas para un profesional de crianza y coparentalidad</label><textarea class="lab-texto" id="sep-hi-preguntas" rows="4" placeholder="¿Cómo les explico la separación según su edad? ¿Cómo sostener rutinas en dos casas? ¿Qué señales en ellos me indicarían pedir ayuda? ¿Hay mediación familiar donde vivo?"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas que circulan sobre las separaciones y las emociones que traen. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="separacion-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio no reemplaza una psicoterapia ni un asesoramiento legal. Si hay violencia en la relación, la prioridad es tu seguridad y la de los tuyos: mirá el <a href="/laboratorio-de-violencia-en-el-vinculo/">laboratorio de violencia en el vínculo</a> y la página de <a href="/ayuda-urgente/">ayuda urgente</a>. Si aparecen pensamientos de no querer vivir, no esperes: consultá ya y armá tu <a href="/laboratorio-plan-de-seguridad/">plan de seguridad</a>. Si querés acompañamiento psicológico, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Boss, P. (1999). <em>Ambiguous Loss: Learning to Live with Unresolved Grief</em>. Harvard University Press.</li><li>Epicteto. <em>Manual</em> (<em>Enquiridión</em>). Marco Aurelio. <em>Meditaciones</em>.</li><li>Lazarus, R. S. (1991). <em>Emotion and Adaptation</em>. Oxford University Press.</li><li>Linehan, M. M. (2015). <em>DBT Skills Training Manual</em> (2.ª ed.). Guilford Press.</li><li>Tangney, J. P. y Dearing, R. L. (2002). <em>Shame and Guilt</em>. Guilford Press.</li><li>Neff, K. D. (2003). «Self-Compassion: An Alternative Conceptualization of a Healthy Attitude Toward Oneself». <em>Self and Identity</em>, 2(2), 85–101.</li><li>Enright, R. D. y Fitzgibbons, R. P. (2000). <em>Helping Clients Forgive: An Empirical Guide for Resolving Anger and Restoring Hope</em>.</li><li>Worthington, E. L. (2003). <em>Forgiving and Reconciling: Bridges to Wholeness and Hope</em>. InterVarsity Press.</li><li>Hayes, S. C., Strosahl, K. D. y Wilson, K. G. (1999). <em>Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change</em>. Guilford Press.</li><li>Emery, R. E. (2011). <em>Renegotiating Family Relationships: Divorce, Child Custody, and Mediation</em> (2.ª ed.). Guilford Press.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
