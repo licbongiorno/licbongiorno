@@ -388,6 +388,50 @@ def bloque_mapa(slug):
             f'<a class="enlace-flecha" href="{MAPA_RUTA}#autor-{slug}">Ver en el mapa {ICON["flecha"]}</a></aside>')
 
 
+_LABS_POR_ARTICULO = None
+_LABS_GARANTIZADOS = None
+
+
+def labs_de_articulo(slug):
+    """Laboratorios que citan este artículo en sus «articulos», para enlazarlos de vuelta.
+    Cada laboratorio tiene garantizado un lugar en el artículo que lo cita con menos competencia."""
+    global _LABS_POR_ARTICULO, _LABS_GARANTIZADOS
+    if _LABS_POR_ARTICULO is None:
+        _LABS_POR_ARTICULO = {}
+        for f in sorted((CONTENIDO / "paginas").glob("laboratorio*.html")):
+            m = re.match(r"<!--(.*?)-->", f.read_text(encoding="utf-8"), re.S)
+            if not m:
+                continue
+            meta = json.loads(m.group(1))
+            if meta.get("ruta") == "/laboratorios/" or meta.get("borrador"):
+                continue
+            for i, art in enumerate(meta.get("articulos", [])):
+                _LABS_POR_ARTICULO.setdefault(art, []).append((i, meta["ruta"]))
+        citas = {}
+        for art, lista in _LABS_POR_ARTICULO.items():
+            for _, r in lista:
+                citas.setdefault(r, []).append(art)
+        _LABS_GARANTIZADOS = {}
+        for r in sorted(citas, key=lambda r: (len(citas[r]), r)):
+            art = min(citas[r], key=lambda a: (len(_LABS_GARANTIZADOS.get(a, [])), len(_LABS_POR_ARTICULO[a]), a))
+            _LABS_GARANTIZADOS.setdefault(art, []).append(r)
+    garant = _LABS_GARANTIZADOS.get(slug, [])
+    resto = [r for _, r in sorted(_LABS_POR_ARTICULO.get(slug, [])) if r not in garant]
+    return garant + resto
+
+
+def bloque_labs_articulo(slug, cuerpo):
+    """Caja «Practicalo en un laboratorio»: los laboratorios que citan el artículo y no están ya enlazados en el texto."""
+    datos = {l["ruta"]: l for l in LABORATORIOS}
+    rutas = [r for r in labs_de_articulo(slug) if r in datos and f'href="{r}"' not in cuerpo]
+    rutas = rutas[:max(5, len([r for r in rutas if r in (_LABS_GARANTIZADOS or {}).get(slug, [])]))]
+    if not rutas:
+        return ""
+    items = "".join(f'<li><a href="{r}">{esc(datos[r]["titulo"])}</a> <span class="mapa-nota">{esc(datos[r]["descripcion"])}</span></li>' for r in rutas)
+    return (f'<aside class="mapa-caja labs-caja" aria-label="Laboratorios relacionados"><p class="mapa-caja__titulo">Practicalo en un laboratorio</p>'
+            f'<ul>{items}</ul><a class="enlace-flecha" href="/laboratorios/">Ver todos los laboratorios {ICON["flecha"]}</a></aside>')
+
+
 def markdown(md):
     salida, parrafo, lista, tipo = [], [], [], None
 
@@ -582,6 +626,8 @@ LABORATORIOS = [
      "descripcion": "Las funciones del yo, las once intervenciones verbales del terapeuta, el encuadre y la relación de trabajo."},
     {"titulo": "El psiquismo creador (Fiorini, nivel 3)", "ruta": "/laboratorio-fiorini-psiquismo-creador/", "tipo": "Psicoterapia breve",
      "descripcion": "Los procesos terciarios, la tópica de lo dado a lo posible, forma y movimiento, las fases de la creación y el proyecto."},
+    {"titulo": "Qué pasa en un psicodiagnóstico", "ruta": "/laboratorio-del-psicodiagnostico/", "tipo": "Evaluación psicológica",
+     "descripcion": "El proceso de evaluación paso a paso: la entrevista, las técnicas psicométricas y proyectivas, tus derechos, la devolución y el informe."},
     {"titulo": "Laboratorio de flexibilidad yoica", "ruta": "/laboratorio-de-flexibilidad-yoica/", "tipo": "Autoconocimiento",
      "descripcion": "Las tres sillas, otras explicaciones posibles, el diálogo con tus voces internas y tus defensas."},
     {"titulo": "Laboratorio de la sabiduría de las emociones", "ruta": "/laboratorio-de-la-sabiduria-de-las-emociones/", "tipo": "Emociones",
@@ -750,7 +796,7 @@ TEMAS_LAB = {
     "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
     "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones", "/laboratorio-de-pensamientos-repetitivos/": "Emociones",
     "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones", "/laboratorio-de-ansiedad-social/": "Emociones", "/laboratorio-de-procrastinacion/": "Aprendizaje y cambio", "/laboratorio-de-crianza/": "Vínculos", "/laboratorio-de-trauma/": "Emociones", "/laboratorio-de-dolor-cronico/": "Cuerpo y respiración", "/laboratorio-de-conductas-compulsivas/": "Aprendizaje y cambio", "/laboratorio-de-psicotanatologia/": "Emociones",
-    "/laboratorio-de-no-violencia-interior/": "Emociones", "/laboratorio-de-buen-trato/": "Vínculos", "/laboratorio-de-violencia-en-el-vinculo/": "Vínculos", "/laboratorio-del-perdon/": "Emociones", "/laboratorio-del-jardinero-interior/": "Emociones", "/laboratorio-de-asertividad/": "Vínculos", "/laboratorio-de-higiene-sensorial/": "Cuerpo y respiración", "/laboratorio-de-flexibilidad-ante-expectativas/": "Enfoques", "/laboratorio-de-psicoterapia-breve-focalizada/": "Enfoques", "/laboratorio-fiorini-el-foco/": "Enfoques", "/laboratorio-fiorini-intervenciones/": "Enfoques", "/laboratorio-fiorini-psiquismo-creador/": "Enfoques", "/laboratorio-de-resolucion-de-problemas/": "Aprendizaje y cambio", "/laboratorio-plan-de-seguridad/": "Emociones", "/laboratorio-de-alcohol-y-consumos/": "Aprendizaje y cambio", "/laboratorio-de-ataques-de-panico/": "Emociones", "/laboratorio-de-insomnio/": "Cuerpo y respiración", "/laboratorio-meditaciones-del-corazon/": "Emociones", "/laboratorio-de-amor-bondadoso/": "Emociones", "/laboratorio-de-compasion-y-tonglen/": "Emociones", "/laboratorio-de-alegria-empatica/": "Emociones", "/laboratorio-de-ecuanimidad/": "Emociones", "/laboratorio-de-esquemas/": "Enfoques", "/laboratorio-compasion-tres-sistemas/": "Emociones", "/laboratorio-compasion-yo-compasivo/": "Emociones", "/laboratorio-compasion-tres-flujos/": "Emociones", "/laboratorio-de-mentalizacion/": "Vínculos", "/laboratorio-de-psicodrama/": "Enfoques", "/laboratorio-focalizado-en-las-emociones/": "Emociones",
+    "/laboratorio-de-no-violencia-interior/": "Emociones", "/laboratorio-de-buen-trato/": "Vínculos", "/laboratorio-de-violencia-en-el-vinculo/": "Vínculos", "/laboratorio-del-perdon/": "Emociones", "/laboratorio-del-jardinero-interior/": "Emociones", "/laboratorio-de-asertividad/": "Vínculos", "/laboratorio-de-higiene-sensorial/": "Cuerpo y respiración", "/laboratorio-de-flexibilidad-ante-expectativas/": "Enfoques", "/laboratorio-de-psicoterapia-breve-focalizada/": "Enfoques", "/laboratorio-fiorini-el-foco/": "Enfoques", "/laboratorio-fiorini-intervenciones/": "Enfoques", "/laboratorio-fiorini-psiquismo-creador/": "Enfoques", "/laboratorio-del-psicodiagnostico/": "Psicología en práctica", "/laboratorio-de-resolucion-de-problemas/": "Aprendizaje y cambio", "/laboratorio-plan-de-seguridad/": "Emociones", "/laboratorio-de-alcohol-y-consumos/": "Aprendizaje y cambio", "/laboratorio-de-ataques-de-panico/": "Emociones", "/laboratorio-de-insomnio/": "Cuerpo y respiración", "/laboratorio-meditaciones-del-corazon/": "Emociones", "/laboratorio-de-amor-bondadoso/": "Emociones", "/laboratorio-de-compasion-y-tonglen/": "Emociones", "/laboratorio-de-alegria-empatica/": "Emociones", "/laboratorio-de-ecuanimidad/": "Emociones", "/laboratorio-de-esquemas/": "Enfoques", "/laboratorio-compasion-tres-sistemas/": "Emociones", "/laboratorio-compasion-yo-compasivo/": "Emociones", "/laboratorio-compasion-tres-flujos/": "Emociones", "/laboratorio-de-mentalizacion/": "Vínculos", "/laboratorio-de-psicodrama/": "Enfoques", "/laboratorio-focalizado-en-las-emociones/": "Emociones",
     "/laboratorio-de-sombra-y-arquetipos/": "Jung y autoconocimiento", "/laboratorio-recorrido-junguiano/": "Jung y autoconocimiento", "/laboratorio-de-complejos-y-tipos/": "Jung y autoconocimiento", "/laboratorio-de-estres/": "Cuerpo y respiración",
     "/laboratorio-de-descanso/": "Cuerpo y respiración", "/laboratorio-de-habitos/": "Aprendizaje y cambio",
     "/laboratorio-de-respiraciones/": "Cuerpo y respiración", "/laboratorio-de-meditacion/": "Cuerpo y respiración",
@@ -1922,6 +1968,10 @@ def render_articulo(a):
     if caja_mapa:
         i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
         cuerpo_md = cuerpo_md + caja_mapa if i_corte < 0 else cuerpo_md[:i_corte] + caja_mapa + cuerpo_md[i_corte:]
+    caja_labs = bloque_labs_articulo(a["archivo"][:-3], cuerpo_md)
+    if caja_labs:
+        i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
+        cuerpo_md = cuerpo_md + caja_labs if i_corte < 0 else cuerpo_md[:i_corte] + caja_labs + cuerpo_md[i_corte:]
     caja_voces = voces_sitio.caja_articulo(sys.modules[__name__], VOCES, a["archivo"][:-3])
     if caja_voces:
         i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
