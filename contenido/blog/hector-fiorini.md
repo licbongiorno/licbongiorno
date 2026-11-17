@@ -9,7 +9,7 @@ fecha: 2026-11-17
 fecha_visible: noviembre de 2026
 orden: 108
 estado: publicado
-respuesta: Héctor Juan Fiorini fue un psiquiatra y psicoanalista argentino, egresado de la Universidad de Buenos Aires en 1962, que murió en 2023. Trabajó en el Servicio de Psicopatología del Hospital de Lanús y desarrolló la psicoterapia psicoanalítica breve y focalizada, expuesta en Teoría y técnica de psicoterapias (1973). Sus conceptos centrales son el foco, la situación, la activación de las funciones del yo y la relación de trabajo. Más tarde propuso la teoría del psiquismo creador y los procesos terciarios.
+respuesta: Héctor Juan Fiorini (1931-2023) fue un psiquiatra y psicoanalista argentino, egresado de la Universidad de Buenos Aires en 1962. Trabajó en el Servicio de Psicopatología del Hospital de Lanús y desarrolló la psicoterapia psicoanalítica breve y focalizada, expuesta en Teoría y técnica de psicoterapias (1973). Sus conceptos centrales son el foco, la situación, la activación de las funciones del yo y la relación de trabajo. Más tarde propuso la teoría del psiquismo creador y los procesos terciarios.
 menciona: psicoanalisis, pichon-riviere
 revision: 2026-11-17
 ---
@@ -17,7 +17,7 @@ No, la psicoterapia breve no es un psicoanálisis apurado. Esa fue una de las id
 
 ## Quién fue
 
-Héctor Juan Fiorini se recibió de médico psiquiatra en la Universidad de Buenos Aires en 1962 y se formó en psicoanálisis. En los años sesenta trabajó en el Servicio de Psicopatología del Hospital Policlínico de Lanús, dirigido por Mauricio Goldenberg, una experiencia pionera que llevó la psiquiatría argentina del manicomio hacia una atención más humana y comunitaria.
+Héctor Juan Fiorini nació en 1931. Se recibió de médico psiquiatra en la Universidad de Buenos Aires en 1962 y se formó en psicoanálisis. En los años sesenta trabajó en el Servicio de Psicopatología del Hospital Policlínico de Lanús, dirigido por Mauricio Goldenberg, una experiencia pionera que llevó la psiquiatría argentina del manicomio hacia una atención más humana y comunitaria.
 
 En el Lanús había muchas personas que consultar y poco tiempo. El psicoanálisis clásico, con varias sesiones por semana durante años, quedaba al alcance de pocos. Fiorini se preguntó entonces cómo usar las herramientas del psicoanálisis en tratamientos más breves, sin perder profundidad. En 1973 publicó **Teoría y técnica de psicoterapias**, que se convirtió en un texto clásico de la formación clínica en toda América Latina.
 
@@ -54,7 +54,7 @@ Podés recorrer sus ideas en el [laboratorio de psicoterapia breve focalizada](/
 
 ### ¿Quién fue Héctor Fiorini?
 
-Un psiquiatra y psicoanalista argentino (fallecido en 2023) que desarrolló la psicoterapia psicoanalítica breve y focalizada y la teoría del psiquismo creador.
+Un psiquiatra y psicoanalista argentino (1931-2023) que desarrolló la psicoterapia psicoanalítica breve y focalizada y la teoría del psiquismo creador.
 
 ### ¿Qué es el foco en psicoterapia breve?
 

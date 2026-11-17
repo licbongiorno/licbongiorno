@@ -539,6 +539,15 @@
    "resumen": "Maternidad y sexo; el psicoanálisis y lo social."
   },
   {
+   "slug": "hector-fiorini",
+   "corto": "Fiorini",
+   "anios": "1931–2023",
+   "x": 1931,
+   "escuela": "rio",
+   "origen": "pa",
+   "resumen": "La psicoterapia breve focalizada y el psiquismo creador."
+  },
+  {
    "slug": "ludwig-binswanger",
    "corto": "Binswanger",
    "anios": "1881–1966",
@@ -1450,6 +1459,18 @@
    "a": "marco-aurelio",
    "tipo": "influencia",
    "nota": "leyó sus Disertaciones, que le prestó Rústico"
+  },
+  {
+   "de": "donald-winnicott",
+   "a": "hector-fiorini",
+   "tipo": "influencia",
+   "nota": "el juego y la creatividad en el psiquismo creador"
+  },
+  {
+   "de": "jean-paul-sartre",
+   "a": "hector-fiorini",
+   "tipo": "influencia",
+   "nota": "la idea de proyecto en Foco, situación y proyecto"
   }
  ]
 }
