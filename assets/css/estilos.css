@@ -1366,6 +1366,9 @@ main > .seccion ~ .seccion { content-visibility: auto; contain-intrinsic-size: a
 .mapa-nota { color: var(--texto-2); font-size: .92em; }
 .mapa-indice__datos { color: var(--texto-2); font-style: italic; }
 .mapa-caja .enlace-flecha { margin-top: .5rem; }
+.labs-caja ul { margin: .5rem 0 .25rem; padding-left: 1.1rem; }
+.labs-caja li { margin: .4rem 0; }
+.labs-caja li .mapa-nota { display: block; }
 
 /* Tarjeta de acceso a PsicoQuiz (página de Recursos) */
 .pq-acceso { display: grid; gap: 1.2rem 2rem; align-items: center; margin: -1.5rem 0 3rem; padding: clamp(1.25rem, 3vw, 2rem); border-radius: var(--r-l); background: var(--bosque); color: #EEF1E8; position: relative; overflow: hidden; text-decoration: none; transition: transform .3s var(--ease-out), box-shadow .3s; }

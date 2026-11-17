@@ -388,6 +388,50 @@ def bloque_mapa(slug):
             f'<a class="enlace-flecha" href="{MAPA_RUTA}#autor-{slug}">Ver en el mapa {ICON["flecha"]}</a></aside>')
 
 
+_LABS_POR_ARTICULO = None
+_LABS_GARANTIZADOS = None
+
+
+def labs_de_articulo(slug):
+    """Laboratorios que citan este artículo en sus «articulos», para enlazarlos de vuelta.
+    Cada laboratorio tiene garantizado un lugar en el artículo que lo cita con menos competencia."""
+    global _LABS_POR_ARTICULO, _LABS_GARANTIZADOS
+    if _LABS_POR_ARTICULO is None:
+        _LABS_POR_ARTICULO = {}
+        for f in sorted((CONTENIDO / "paginas").glob("laboratorio*.html")):
+            m = re.match(r"<!--(.*?)-->", f.read_text(encoding="utf-8"), re.S)
+            if not m:
+                continue
+            meta = json.loads(m.group(1))
+            if meta.get("ruta") == "/laboratorios/" or meta.get("borrador"):
+                continue
+            for i, art in enumerate(meta.get("articulos", [])):
+                _LABS_POR_ARTICULO.setdefault(art, []).append((i, meta["ruta"]))
+        citas = {}
+        for art, lista in _LABS_POR_ARTICULO.items():
+            for _, r in lista:
+                citas.setdefault(r, []).append(art)
+        _LABS_GARANTIZADOS = {}
+        for r in sorted(citas, key=lambda r: (len(citas[r]), r)):
+            art = min(citas[r], key=lambda a: (len(_LABS_GARANTIZADOS.get(a, [])), len(_LABS_POR_ARTICULO[a]), a))
+            _LABS_GARANTIZADOS.setdefault(art, []).append(r)
+    garant = _LABS_GARANTIZADOS.get(slug, [])
+    resto = [r for _, r in sorted(_LABS_POR_ARTICULO.get(slug, [])) if r not in garant]
+    return garant + resto
+
+
+def bloque_labs_articulo(slug, cuerpo):
+    """Caja «Practicalo en un laboratorio»: los laboratorios que citan el artículo y no están ya enlazados en el texto."""
+    datos = {l["ruta"]: l for l in LABORATORIOS}
+    rutas = [r for r in labs_de_articulo(slug) if r in datos and f'href="{r}"' not in cuerpo]
+    rutas = rutas[:max(5, len([r for r in rutas if r in (_LABS_GARANTIZADOS or {}).get(slug, [])]))]
+    if not rutas:
+        return ""
+    items = "".join(f'<li><a href="{r}">{esc(datos[r]["titulo"])}</a> <span class="mapa-nota">{esc(datos[r]["descripcion"])}</span></li>' for r in rutas)
+    return (f'<aside class="mapa-caja labs-caja" aria-label="Laboratorios relacionados"><p class="mapa-caja__titulo">Practicalo en un laboratorio</p>'
+            f'<ul>{items}</ul><a class="enlace-flecha" href="/laboratorios/">Ver todos los laboratorios {ICON["flecha"]}</a></aside>')
+
+
 def markdown(md):
     salida, parrafo, lista, tipo = [], [], [], None
 
@@ -1922,6 +1966,10 @@ def render_articulo(a):
     if caja_mapa:
         i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
         cuerpo_md = cuerpo_md + caja_mapa if i_corte < 0 else cuerpo_md[:i_corte] + caja_mapa + cuerpo_md[i_corte:]
+    caja_labs = bloque_labs_articulo(a["archivo"][:-3], cuerpo_md)
+    if caja_labs:
+        i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
+        cuerpo_md = cuerpo_md + caja_labs if i_corte < 0 else cuerpo_md[:i_corte] + caja_labs + cuerpo_md[i_corte:]
     caja_voces = voces_sitio.caja_articulo(sys.modules[__name__], VOCES, a["archivo"][:-3])
     if caja_voces:
         i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
