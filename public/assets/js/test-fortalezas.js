@@ -119,7 +119,7 @@
         '<section><h3>Tus fortalezas menos desarrolladas</h3><p>No son defectos: son las que menos reconocés en vos hoy. Pueden estar presentes en otros contextos o tener lugar para crecer, si te importan.</p>' +
         (r.bajas.length ? '<ol class="test-resultado__lista">' + r.bajas.map(ficha).join("") + "</ol>" : "<p>Tus puntajes están tan parejos que no hay un grupo de fortalezas claramente más bajo.</p>") + notaB + "</section></div>";
     }
-    html += '<div class="test-resultado__grid"><section><h3>Promedio por virtud</h3><p>Cada virtud es el promedio de sus fortalezas, de 1 a 5.</p><ol class="test-barras">' +
+    html += '<div class="test-resultado__grid" style="margin-top:2rem"><section><h3>Promedio por virtud</h3><p>Cada virtud es el promedio de sus fortalezas, de 1 a 5.</p><ol class="test-barras">' +
       C.virtudes.map(function (v) { return barraHtml(v.n, r.virt[v.id], false); }).join("") + "</ol></section>";
     var marcadas = {}; if (!r.plano) r.altas.forEach(function (x) { marcadas[x.id] = true; });
     html += "<section><h3>Tus 24 fortalezas</h3><p>Puntaje de 1 a 5, agrupadas por virtud." + (r.plano ? "" : " Las resaltadas son las más desarrolladas.") + "</p>" + C.virtudes.map(function (v) {
