@@ -38,6 +38,8 @@ En mi caso, el eje es la [psicología analítica de Jung](/terapia-junguiana/), 
 Al final, las teorías son mapas, y ningún mapa es el territorio. El territorio sos vos: único, con tus propios caminos y atajos. Podés leer más sobre cada corriente y el lugar que ocupa en [Mi enfoque](/enfoque/).
 
 
+Para ver los factores comunes, las vías de integración y las etapas del cambio con ejercicios, mirá el [laboratorio de psicoterapia integrativa](/laboratorio-de-psicoterapia-integrativa/).
+
 ## Preguntas frecuentes
 
 ### ¿La terapia integrativa es menos profunda?

@@ -1,0 +1,163 @@
+<!--{
+  "ruta": "/laboratorio-de-psicoterapia-integrativa/",
+  "titulo": "Laboratorio de psicoterapia integrativa: factores y vías",
+  "descripcion": "Qué es integrar en psicoterapia: factores comunes, cuatro vías de integración, las etapas de cambio de Prochaska y un formulario para pensar qué necesitás.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Psicoterapia integrativa",
+      "/laboratorio-de-psicoterapia-integrativa/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Enfoques",
+  "h1": "Laboratorio de <em>psicoterapia integrativa</em>",
+  "bajada": "Integrar no es mezclar técnicas al azar. Acá podés recorrer qué tienen en común las psicoterapias, las vías para integrarlas, las etapas del cambio y cómo pensar qué necesitás vos de un tratamiento.",
+  "respuesta": "La psicoterapia integrativa combina de manera coherente aportes de distintas corrientes según cada persona. Entre sus vías están el eclecticismo técnico, la integración teórica, los factores comunes (alianza terapéutica, expectativas, empatía) y la integración asimilativa. El modelo transteórico de Prochaska y DiClemente aporta las etapas del cambio. Este laboratorio explica esos conceptos, con ejercicios y quizzes, y ayuda a pensar qué necesitás de una terapia, sin reemplazar una consulta.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de psicoterapia integrativa",
+  "articulos": [
+    "que-es-la-psicoterapia-integrativa",
+    "como-saber-si-necesito-terapia",
+    "psicoterapia-breve-focalizada",
+    "terapia-sistemica"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Durante buena parte del siglo XX, las escuelas de psicoterapia se desarrollaron por separado y muchas veces enfrentadas: psicoanálisis, conductismo, humanismo, terapia sistémica. Con el tiempo, la investigación mostró que, más allá de las técnicas, hay factores comunes que influyen mucho en los resultados. Eso abrió el camino a los enfoques que integran miradas.</p><p>Un enfoque integrativo serio requiere un eje teórico claro, conocimiento de otros enfoques y criterio clínico. Este laboratorio explica las ideas principales y te deja herramientas para pensar qué buscás en una terapia. No recomienda un enfoque como el mejor: la investigación no autoriza esa conclusión.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Integrar no es mezclar.</strong> Hace falta un eje y un criterio.</li><li><strong>Con ejercicios.</strong> Un selector, dos quizzes y un formulario.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#factores">Factores comunes</a><a href="#vias">Cuatro vías</a><a href="#cual-via">¿Qué vía es?</a><a href="#etapas">Etapas del cambio</a><a href="#cual-etapa">¿En qué etapa?</a><a href="#necesito">Qué necesito de una terapia</a><a href="#serio">Cómo reconocer una integración seria</a><a href="#plan">Plan de 7 días</a></nav>
+
+    <section class="lab-estacion revelar" id="factores" aria-labelledby="t-factores">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-factores">Los factores comunes</h2>
+      <p class="lab-estacion__bajada">En 1936, Saul Rosenzweig propuso que métodos de psicoterapia muy distintos podían tener resultados parecidos por factores implícitos que comparten. Décadas después, Bruce Wampold, entre otros, sostuvo con investigación que esos factores explican buena parte de los resultados. Elegí uno.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un factor común"><label class="opcion"><input type="radio" name="pi-factores" value="alianza" checked><span>Alianza terapéutica</span></label><label class="opcion"><input type="radio" name="pi-factores" value="expectativas"><span>Expectativas y esperanza</span></label><label class="opcion"><input type="radio" name="pi-factores" value="empatia"><span>Empatía</span></label><label class="opcion"><input type="radio" name="pi-factores" value="limite"><span>Qué no dicen</span></label></div>
+        <div class="lab-panel" data-lab-panel="alianza"><p>El vínculo de trabajo entre paciente y terapeuta. Edward Bordin la describió con tres componentes: acuerdo sobre las <strong>metas</strong>, acuerdo sobre las <strong>tareas</strong> y un <strong>vínculo</strong> de confianza. Es uno de los factores más estudiados.</p></div><div class="lab-panel" data-lab-panel="expectativas" hidden><p>La confianza de que el tratamiento puede ayudar y de que uno puede cambiar. Una explicación creíble de lo que pasa y de cómo trabajar también cuenta.</p></div><div class="lab-panel" data-lab-panel="empatia" hidden><p>Que la persona se sienta comprendida: Carl Rogers la ubicó como una condición central. Se vincula con la alianza, y se puede aprender y mejorar.</p></div><div class="lab-panel" data-lab-panel="limite" hidden><p>Que los factores comunes sean importantes no implica que las técnicas no importen en ningún caso: algunos problemas se benefician de intervenciones específicas. Sobre cuánto pesa cada cosa, la investigación sigue discutiendo.</p></div>
+      </div><p class="lab-paso__ayuda" style="margin-top:.8rem">Rosenzweig usó, en su artículo, una imagen del cuento de Alicia en el país de las maravillas (el veredicto del pájaro dodo: «todos han ganado»), que se hizo famosa como «veredicto del dodo».</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="vias" aria-labelledby="t-vias">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-vias">Las cuatro vías de integración</h2>
+      <p class="lab-estacion__bajada">Las vías de integración suelen agruparse en cuatro, según se describen en el <em>Handbook of Psychotherapy Integration</em> de Norcross y Goldfried. Este es el selector: elegí una vía y mirá qué propone y en qué consiste.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una vía de integración"><label class="opcion"><input type="radio" name="pi-vias" value="tecnico" checked><span>Eclecticismo técnico</span></label><label class="opcion"><input type="radio" name="pi-vias" value="teorica"><span>Integración teórica</span></label><label class="opcion"><input type="radio" name="pi-vias" value="comunes"><span>Factores comunes</span></label><label class="opcion"><input type="radio" name="pi-vias" value="asimilativa"><span>Integración asimilativa</span></label></div>
+        <div class="lab-panel" data-lab-panel="tecnico"><p>Elegir las técnicas que mejor funcionan para cada problema, venga de la teoría que venga, guiándose por la evidencia, sin comprometerse con la teoría de origen. Arnold Lazarus, con su terapia multimodal, es una referencia.</p><p><strong>Ventaja:</strong> es práctico. <strong>Riesgo:</strong> puede quedar sin una comprensión de fondo de la persona.</p></div><div class="lab-panel" data-lab-panel="teorica" hidden><p>Combinar dos o más teorías en un marco nuevo, que las articule a nivel conceptual. Va más allá de sumar técnicas: propone una manera unificada de comprender a la persona.</p><p><strong>Ventaja:</strong> coherencia. <strong>Riesgo:</strong> es un trabajo conceptual difícil.</p></div><div class="lab-panel" data-lab-panel="comunes" hidden><p>Identificar los ingredientes que comparten las distintas terapias (alianza, expectativas, empatía) y trabajar sobre ellos, más que sobre las técnicas.</p><p><strong>Ventaja:</strong> se apoya en la investigación. <strong>Riesgo:</strong> es menos específico para un problema dado.</p></div><div class="lab-panel" data-lab-panel="asimilativa" hidden><p>Trabajar desde una teoría de base, y <strong>asimilar</strong> con criterio técnicas de otros enfoques sin perder el eje. Stanley Messer es uno de los autores asociados con esta vía.</p><p><strong>Ventaja:</strong> eje claro y flexibilidad. <strong>Riesgo:</strong> depende de la formación de cada profesional. Es la que describe el artículo del sitio: un eje, y herramientas de otros enfoques.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cual-via" aria-labelledby="t-cual-via">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-cual-via">¿Qué vía es?</h2>
+      <p class="lab-estacion__bajada">Reconocé la vía de integración en cada descripción.</p>
+      <div class="lab-tarjeta" data-lab-quiz="vias-integracion">
+        <p class="lab-tarjeta__titulo">¿Qué vía de integración describe?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="etapas" aria-labelledby="t-etapas">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-etapas">Las etapas del cambio</h2>
+      <p class="lab-estacion__bajada">James Prochaska y Carlo DiClemente propusieron, a partir de estudios sobre dejar de fumar, el <strong>modelo transteórico</strong>: las personas atraviesan etapas al cambiar una conducta, y lo que ayuda en una etapa puede no servir en otra. Elegí una.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una etapa"><label class="opcion"><input type="radio" name="pi-etapas" value="pre" checked><span>Precontemplación</span></label><label class="opcion"><input type="radio" name="pi-etapas" value="con"><span>Contemplación</span></label><label class="opcion"><input type="radio" name="pi-etapas" value="prep"><span>Preparación</span></label><label class="opcion"><input type="radio" name="pi-etapas" value="acc"><span>Acción</span></label><label class="opcion"><input type="radio" name="pi-etapas" value="man"><span>Mantenimiento</span></label></div>
+        <div class="lab-panel" data-lab-panel="pre"><p>Todavía no se considera un cambio. Quizás la persona no ve el problema, o le parece que otros lo ven por ella. Presionar suele generar resistencia.</p></div><div class="lab-panel" data-lab-panel="con" hidden><p>Se advierte el problema y se piensa en cambiar, con ambivalencia: razones a favor y en contra. Puede durar mucho tiempo.</p></div><div class="lab-panel" data-lab-panel="prep" hidden><p>Hay una decisión y se empieza a planificar: fijar una fecha, buscar ayuda, probar pequeños pasos.</p></div><div class="lab-panel" data-lab-panel="acc" hidden><p>Se hacen cambios visibles en la conducta y en el entorno. Requiere esfuerzo y apoyo.</p></div><div class="lab-panel" data-lab-panel="man" hidden><p>Se trabaja para sostener el cambio y prevenir las recaídas. Las recaídas son frecuentes y forman parte del proceso, no un fracaso total.</p></div>
+      </div><p class="lab-paso__ayuda" style="margin-top:.8rem">Una salvedad: el modelo es muy usado, pero también criticado, porque las personas no siempre avanzan en orden y las etapas son menos nítidas que en el esquema. Sirve como mapa, no como regla.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="cual-etapa" aria-labelledby="t-cual-etapa">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-cual-etapa">¿En qué etapa está?</h2>
+      <p class="lab-estacion__bajada">Situaciones de personas imaginarias. Identificá la etapa. Ojo: no mide nada de vos.</p>
+      <div class="lab-tarjeta" data-lab-quiz="etapas-cambio-prochaska">
+        <p class="lab-tarjeta__titulo">¿Qué etapa del cambio es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="necesito" aria-labelledby="t-necesito">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-necesito">Qué necesito de una terapia</h2>
+      <p class="lab-estacion__bajada">Los factores comunes sugieren que importa que el tratamiento se ajuste a la persona. Antes de una primera consulta, ayuda saber qué buscás. Completá lo que quieras: es para vos y para llevar a la entrevista.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pi-necesito" data-lab-form-titulo="Qué necesito de una terapia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pi-n-motivo">¿Qué me trae? (en pocas palabras)</label><textarea class="lab-texto" id="pi-n-motivo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pi-n-etapa">¿En qué etapa del cambio me siento? (todavía no sé si quiero cambiar, estoy pensándolo, ya me estoy preparando, ya estoy actuando)</label><input class="lab-campo" id="pi-n-etapa" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pi-n-estilo">¿Qué me ayudaría? (que me escuchen, herramientas concretas, comprender el origen, trabajar con otros del entorno)</label><textarea class="lab-texto" id="pi-n-estilo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pi-n-antes">Si ya hice terapia: qué me ayudó y qué no</label><textarea class="lab-texto" id="pi-n-antes" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pi-n-vinculo">Qué necesito para sentirme cómodo con un terapeuta (un ritmo, una forma de hablar, ciertos límites)</label><textarea class="lab-texto" id="pi-n-vinculo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pi-n-preguntas">Preguntas para la primera entrevista</label><textarea class="lab-texto" id="pi-n-preguntas" rows="2" placeholder="¿Cuál es tu eje teórico? ¿Cómo trabajás? ¿Cuánto suele durar?"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="serio" aria-labelledby="t-serio">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-serio">Cómo reconocer una integración seria</h2>
+      <p class="lab-estacion__bajada">Integrar con criterio no es lo mismo que usar un poco de cada cosa. Algunas señales, y preguntas que podés hacer.</p>
+      <div class="lab-tarjeta">
+        <ul>
+          <li><strong>Tiene un eje teórico claro</strong> y puede explicarte, con palabras sencillas, cómo comprende lo que te pasa.</li>
+          <li><strong>Conoce otros enfoques</strong>, sus fundamentos y sus límites, y no los usa como etiquetas.</li>
+          <li><strong>Tiene criterio para elegir</strong> qué recurso conviene en cada momento, y puede explicarte por qué.</li>
+          <li><strong>Se adapta a vos</strong>: el método se adapta a la persona, no al revés. Si algo no te sirve, te escucha y lo ajusta.</li>
+          <li><strong>Trabaja la alianza</strong>: acuerda metas y tareas con vos, y revisa cómo te sentís en el vínculo.</li>
+          <li><strong>Tiene formación y matrícula</strong>: preguntarlo es legítimo.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="plan" aria-labelledby="t-plan">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-plan">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una semana para prepararte a elegir y aprovechar una terapia. Marcá los días que hagas.</p>
+      <div class="lab-tarjeta" data-lab-plan="psicoterapia-integrativa">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Motivo.</strong> Escribí en pocas líneas qué te trae y cuánto hace que te preocupa.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Etapa.</strong> Ubicá en qué etapa del cambio estás y qué te haría falta para avanzar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Lo que me ayudó.</strong> Anotá qué te ayudó antes (una persona, un lugar, una práctica) y qué no.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Preferencias.</strong> Completá el formulario «qué necesito de una terapia».</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Preguntas.</strong> Escribí cuatro preguntas para la primera entrevista.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Informarte.</strong> Revisá la formación y el enfoque de uno o dos profesionales, y qué te resuena.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Decidir.</strong> Releé todo. ¿Qué paso concreto podés dar esta semana: pedir un turno, hablar con tu médico, sostener lo que ya estás haciendo?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio informa, no reemplaza una consulta ni recomienda un tratamiento específico. Si hace tiempo sufrís o hay riesgo para vos o para otros, buscá ayuda profesional cuanto antes. Si querés conversarlo, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Rosenzweig, S. (1936). «Some implicit common factors in diverse methods of psychotherapy». <em>American Journal of Orthopsychiatry</em>, 6(3).</li><li>Wampold, B. E. (2001). <em>The Great Psychotherapy Debate: Models, Methods, and Findings</em>. Lawrence Erlbaum.</li><li>Norcross, J. C. y Goldfried, M. R. (eds.) (1992). <em>Handbook of Psychotherapy Integration</em>. Basic Books.</li><li>Prochaska, J. O. y DiClemente, C. C. (1983). «Stages and processes of self-change of smoking». <em>Journal of Consulting and Clinical Psychology</em>, 51(3).</li><li><a href="/recursos/que-es-la-psicoterapia-integrativa/">¿Qué es la psicoterapia integrativa?</a> y <a href="/recursos/como-saber-si-necesito-terapia/">cómo saber si necesito terapia</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

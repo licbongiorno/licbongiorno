@@ -47,6 +47,8 @@ Muchas de sus ideas fueron superadas, y la introspección como método fue muy d
 
 Desde la psicología analítica y el psicoanálisis, que trabajan con lo que no se ve en un laboratorio, vale la pena recordar de dónde viene la otra mitad de la historia. Podés seguir con [William James](/recursos/william-james/), su contemporáneo en Estados Unidos.
 
+Podés probar la autoobservación disciplinada en el [laboratorio de Wundt](/laboratorio-de-wundt/).
+
 ## Preguntas frecuentes
 
 ### ¿Por qué se considera a Wundt el padre de la psicología?

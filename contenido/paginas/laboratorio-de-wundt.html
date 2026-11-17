@@ -1,0 +1,161 @@
+<!--{
+  "ruta": "/laboratorio-de-wundt/",
+  "titulo": "Laboratorio de Wundt: introspección y autoobservación",
+  "descripcion": "Un laboratorio para recorrer a Wilhelm Wundt: la introspección entrenada, las tres dimensiones del sentimiento, la apercepción y un registro de autoobservación.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Wundt",
+      "/laboratorio-de-wundt/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Psicología en práctica",
+  "h1": "Laboratorio de <em>Wundt</em>",
+  "bajada": "En 1879, en Leipzig, Wilhelm Wundt abrió el primer laboratorio dedicado a la psicología. Acá podés recorrer su método y probar, en versión sencilla, la autoobservación disciplinada: describir qué experimentás, con cuidado.",
+  "respuesta": "Wilhelm Wundt (1832-1920) abrió en 1879 en la Universidad de Leipzig el primer laboratorio de psicología. Estudiaba la experiencia consciente con un estímulo controlado, la descripción de un observador entrenado y una medida, como el tiempo de reacción. Propuso tres dimensiones del sentimiento (placer-displacer, excitación-calma y tensión-relajación), distinguió la apercepción de la simple percepción y escribió la Psicología de los pueblos. Este laboratorio adapta esas ideas a ejercicios de autoobservación que no son un test ni un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de Wundt",
+  "articulos": [
+    "wilhelm-wundt",
+    "william-james",
+    "sigmund-freud",
+    "carl-gustav-jung"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Wundt pensaba que la experiencia consciente podía estudiarse con rigor. No alcanzaba con mirarse hacia adentro libremente: había que describir la experiencia inmediata ante un estímulo controlado, en condiciones que se pudieran repetir, y con observadores entrenados.</p><p>La introspección como método fue muy discutida y hoy no se usa como Wundt la usaba. Pero la idea de observar con cuidado lo que uno vive, sin apurarse a interpretarlo, sigue siendo una buena práctica. Este laboratorio toma esa actitud y la lleva a ejercicios sencillos, sin pretensiones experimentales.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>No es un experimento.</strong> Es una práctica de atención y descripción.</li><li><strong>Describir antes que interpretar.</strong> Primero qué ocurre; el porqué, después.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#leipzig">Leipzig, 1879</a><a href="#introspeccion">Introspección entrenada</a><a href="#dimensiones">Tres dimensiones del sentimiento</a><a href="#registro">Registro introspectivo</a><a href="#autoobservacion">Autoobservación</a><a href="#apercepcion">Apercepción</a><a href="#dos-psicologias">Dos psicologías</a><a href="#plan">Plan de 7 días</a></nav>
+
+    <section class="lab-estacion revelar" id="leipzig" aria-labelledby="t-leipzig">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-leipzig">El método de Leipzig</h2>
+      <p class="lab-estacion__bajada">El método tenía tres elementos. Elegí uno.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un elemento del método"><label class="opcion"><input type="radio" name="wu-metodo" value="estimulo" checked><span>1. Estímulo controlado</span></label><label class="opcion"><input type="radio" name="wu-metodo" value="observador"><span>2. Observador entrenado</span></label><label class="opcion"><input type="radio" name="wu-metodo" value="medida"><span>3. Una medida</span></label><label class="opcion"><input type="radio" name="wu-metodo" value="ideas"><span>Qué buscaba</span></label></div>
+        <div class="lab-panel" data-lab-panel="estimulo"><p>Un sonido, una luz o un peso presentados en condiciones precisas, con aparatos de medición (relojes de precisión, entre otros). Que el estímulo sea controlado permite repetirlo.</p></div><div class="lab-panel" data-lab-panel="observador" hidden><p>Quien describe su experiencia inmediata ante el estímulo, después de haberse entrenado para hacerlo. Se describe lo que se vive, no lo que se supone sobre el estímulo.</p></div><div class="lab-panel" data-lab-panel="medida" hidden><p>Por ejemplo, el tiempo de reacción: cuánto tarda una persona en responder a un sonido o una luz, y cómo cambia según la tarea. Medir permite comparar y repetir.</p></div><div class="lab-panel" data-lab-panel="ideas" hidden><p>Llevar lo que pasa adentro de la mente al terreno de lo que se puede repetir y comparar. De ese laboratorio salieron estudiantes de Europa y de Estados Unidos, que fundaron después sus propios laboratorios.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="introspeccion" aria-labelledby="t-introspeccion">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-introspeccion">Introspección entrenada: qué era y qué no</h2>
+      <p class="lab-estacion__bajada">La palabra «introspección» puede confundirse con mirarse el ombligo. No era eso.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una pregunta"><label class="opcion"><input type="radio" name="wu-intro" value="que" checked><span>Qué era</span></label><label class="opcion"><input type="radio" name="wu-intro" value="no"><span>Qué no era</span></label><label class="opcion"><input type="radio" name="wu-intro" value="limites"><span>Por qué se discutió</span></label></div>
+        <div class="lab-panel" data-lab-panel="que"><p>Una descripción disciplinada de la experiencia inmediata, en condiciones controladas y repetibles. El observador entrenado informa lo que vivió, por ejemplo qué intensidad o qué calidad tuvo una sensación.</p></div><div class="lab-panel" data-lab-panel="no" hidden><p>No era una reflexión libre sobre uno mismo ni una confesión de intimidades. No buscaba explicar por qué alguien es como es, sino describir la experiencia.</p></div><div class="lab-panel" data-lab-panel="limites" hidden><p>Porque lo que cada observador describe es difícil de verificar desde afuera, y diferentes laboratorios podían describir de modo distinto. Eso llevó a otras escuelas a preferir la conducta observable. Wundt, igual, dejó la idea de que la experiencia se investiga con rigor.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="dimensiones" aria-labelledby="t-dimensiones">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-dimensiones">Las tres dimensiones del sentimiento</h2>
+      <p class="lab-estacion__bajada">Wundt propuso describir los sentimientos con tres ejes, cada uno con dos polos. Es una de sus ideas más conocidas, y sirve como vocabulario para observarse. Elegí un eje.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una dimensión"><label class="opcion"><input type="radio" name="wu-dim" value="placer" checked><span>Placer / displacer</span></label><label class="opcion"><input type="radio" name="wu-dim" value="excitacion"><span>Excitación / calma</span></label><label class="opcion"><input type="radio" name="wu-dim" value="tension"><span>Tensión / relajación</span></label><label class="opcion"><input type="radio" name="wu-dim" value="combinar"><span>Cómo se combinan</span></label></div>
+        <div class="lab-panel" data-lab-panel="placer"><p>El eje de lo agradable y lo desagradable. ¿Esto me resulta grato o ingrato, y cuánto?</p></div><div class="lab-panel" data-lab-panel="excitacion" hidden><p>El eje de la activación: ¿estoy agitado o aquietado? Un mismo agrado puede ser excitante o sereno.</p></div><div class="lab-panel" data-lab-panel="tension" hidden><p>El eje de la expectativa: ¿estoy a la espera de algo, en tensión, o suelto? La tensión puede ser agradable (una película de suspenso) o no (esperar un resultado).</p></div><div class="lab-panel" data-lab-panel="combinar" hidden><p>Cada sentimiento se ubica en un punto de los tres ejes. Dos emociones con el mismo placer pueden diferir en la activación. Por eso describirlas con tres preguntas es más fino que decir «bien» o «mal».</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-registro">Registro introspectivo</h2>
+      <p class="lab-estacion__bajada">Elegí un momento reciente (una conversación, una noticia, un paseo) y describilo con las tres dimensiones. Describí antes de interpretar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="wu-registro" data-lab-form-titulo="Mi registro introspectivo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="wu-momento">El momento (qué estaba pasando, en pocas palabras)</label><input class="lab-campo" id="wu-momento" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="wu-placer">Placer o displacer: de qué grado, y cómo lo noté en el cuerpo</label><textarea class="lab-texto" id="wu-placer" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="wu-excitacion">Excitación o calma: ¿qué tan activado estaba? (ritmo del corazón, respiración, ganas de moverme)</label><textarea class="lab-texto" id="wu-excitacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="wu-tension">Tensión o relajación: ¿estaba a la espera de algo? ¿qué?</label><textarea class="lab-texto" id="wu-tension" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="wu-aparte">Una vez descripto, ¿qué interpretación se me ocurre? La anoto aparte</label><textarea class="lab-texto" id="wu-aparte" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="autoobservacion" aria-labelledby="t-autoobservacion">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-autoobservacion">Un ejercicio de autoobservación</h2>
+      <p class="lab-estacion__bajada">Cinco pasos de aproximadamente un minuto. La consigna de Wundt es describir con cuidado lo que se experimenta ante algo concreto. Elegí un estímulo simple: un sonido de la casa, un objeto en la mano, un sabor.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Preparate.</strong> Sentate cómodo y elegí el estímulo. Dejá un minuto para que el cuerpo se aquiete.</li>
+          <li><strong>Atendé.</strong> Prestale atención al estímulo. Cuando la mente se vaya, volvé.</li>
+          <li><strong>Describí.</strong> Mentalmente, con palabras simples: qué calidad tiene (agudo, áspero, cálido), qué intensidad, cuánto dura.</li>
+          <li><strong>Ubicá el sentimiento.</strong> ¿Cuánto placer o displacer hay? ¿Cuánta activación? ¿Cuánta tensión?</li>
+          <li><strong>Anotalo.</strong> Escribí en una frase lo observado, sin explicarlo.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="apercepcion" aria-labelledby="t-apercepcion">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-apercepcion">Apercepción: lo que la atención toma</h2>
+      <p class="lab-estacion__bajada">Wundt distinguió lo que simplemente está en la conciencia de lo que la atención toma y organiza activamente (la apercepción). Probá reconocer la diferencia.</p>
+      <div class="lab-tarjeta" data-lab-quiz="apercepcion-wundt">
+        <p class="lab-tarjeta__titulo">¿Está en la conciencia o la atención lo toma?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Solo está presente</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">La atención lo toma</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="dos-psicologias" aria-labelledby="t-dos-psicologias">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-dos-psicologias">Dos psicologías</h2>
+      <p class="lab-estacion__bajada">Wundt pensaba que los procesos simples se estudian en el laboratorio, y los superiores, como el lenguaje, los mitos o las costumbres, a través de la cultura. Esa segunda mitad es la <em>Psicología de los pueblos</em> (1900-1920). Clasificá.</p>
+      <div class="lab-tarjeta" data-lab-quiz="dos-psicologias-wundt">
+        <p class="lab-tarjeta__titulo">¿Laboratorio o cultura?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="plan" aria-labelledby="t-plan">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-plan">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una semana de autoobservación. Marcá los días que hagas.</p>
+      <div class="lab-tarjeta" data-lab-plan="wundt">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Un sonido.</strong> Hacé el ejercicio de autoobservación con un sonido cotidiano.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Tres ejes.</strong> Describí un momento con placer, excitación y tensión.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Cuerpo.</strong> Anotá dónde se sintió el sentimiento del día antes de ponerle nombre.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Una espera.</strong> Observá la tensión en una espera (una cola, una respuesta) sin cambiar nada.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Describir, no explicar.</strong> En una discusión o un malestar, escribí solo los hechos observados.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Atención.</strong> Elegí una conversación y notá cuándo la atención se va y cuándo la tomás.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Repasar.</strong> Releé los registros. ¿Qué patrones ves en tus tres ejes?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> La introspección sirve para describir, pero no alcanza para explicar por qué algo nos pasa. Si lo que observás es un malestar intenso o persistente, conviene consultarlo con un profesional. Podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Wundt, W. (1874). <em>Principios de psicología fisiológica</em>.</li><li>Wundt, W. (1900–1920). <em>Psicología de los pueblos</em>.</li><li><a href="/recursos/wilhelm-wundt/">Wilhelm Wundt: el primer laboratorio de psicología</a> y <a href="/recursos/william-james/">William James</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

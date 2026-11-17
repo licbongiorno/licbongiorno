@@ -1,0 +1,160 @@
+<!--{
+  "ruta": "/laboratorio-de-inteligencias-multiples/",
+  "titulo": "Laboratorio de inteligencias múltiples: ideas y evidencia",
+  "descripcion": "Las ocho inteligencias de Gardner, lo que dice la evidencia (y lo que no), y un ejercicio para reflexionar sobre tus fortalezas sin etiquetas ni tests.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Inteligencias múltiples",
+      "/laboratorio-de-inteligencias-multiples/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Aprendizaje y cambio",
+  "h1": "Laboratorio de <em>inteligencias múltiples</em>",
+  "bajada": "La teoría de Howard Gardner invita a mirar los talentos de una manera más amplia. Acá la recorrés con honestidad: qué propone, qué dice la investigación y cómo usarla como invitación a reflexionar, sin etiquetarte.",
+  "respuesta": "La teoría de las inteligencias múltiples, propuesta por Howard Gardner en 1983, plantea ocho inteligencias: lingüística, lógico-matemática, espacial, musical, corporal-cinestésica, interpersonal, intrapersonal y naturalista. Es muy influyente en educación, pero tiene poco respaldo empírico como inteligencias independientes, y los estilos de aprendizaje tampoco están respaldados. Este laboratorio explica la teoría, resume la evidencia y ofrece un ejercicio de reflexión sobre fortalezas, no un test que diagnostique la inteligencia de nadie.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de inteligencias múltiples",
+  "articulos": [
+    "inteligencias-multiples",
+    "que-es-la-inteligencia",
+    "inteligencia-emocional",
+    "jean-piaget"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Hay quien escribe una carta que emociona y no puede con una regla de tres; quien arma un mueble sin leer el instructivo; quien sabe qué decir en un velorio. La teoría de las inteligencias múltiples nació de intentar nombrar esa variedad de talentos.</p><p>Este laboratorio no incluye un «test de inteligencias múltiples», porque ningún cuestionario de este tipo puede decir qué tan inteligente sos ni qué tipo de inteligencia tenés. Lo que sí podés hacer es conocer la teoría, entender sus límites y reflexionar sobre qué actividades te hacen bien.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>No es un test.</strong> Nadie va a decirte «sos tal inteligencia».</li><li><strong>Con evidencia.</strong> Hay una estación dedicada a lo que dice la investigación.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#ocho">Las ocho inteligencias</a><a href="#cual">¿Cuál es?</a><a href="#evidencia">Lo que dice la evidencia</a><a href="#mitos">Mito o verdad</a><a href="#otras">Otras propuestas</a><a href="#fortalezas">Mis fortalezas y actividades</a><a href="#creencias">Revisar una creencia</a><a href="#plan">Plan de 7 días</a></nav>
+
+    <section class="lab-estacion revelar" id="ocho" aria-labelledby="t-ocho">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-ocho">Las ocho inteligencias de Gardner</h2>
+      <p class="lab-estacion__bajada">En 1983, Howard Gardner publicó <em>Estructuras de la mente</em> (<em>Frames of Mind</em>) y propuso que la inteligencia no es una sola capacidad general, sino varias relativamente independientes. Elegí una.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una inteligencia"><label class="opcion"><input type="radio" name="im-ocho" value="ling" checked><span>Lingüística</span></label><label class="opcion"><input type="radio" name="im-ocho" value="logica"><span>Lógico-matemática</span></label><label class="opcion"><input type="radio" name="im-ocho" value="espacial"><span>Espacial</span></label><label class="opcion"><input type="radio" name="im-ocho" value="musical"><span>Musical</span></label><label class="opcion"><input type="radio" name="im-ocho" value="corporal"><span>Corporal-cinestésica</span></label><label class="opcion"><input type="radio" name="im-ocho" value="inter"><span>Interpersonal</span></label><label class="opcion"><input type="radio" name="im-ocho" value="intra"><span>Intrapersonal</span></label><label class="opcion"><input type="radio" name="im-ocho" value="natural"><span>Naturalista</span></label></div>
+        <div class="lab-panel" data-lab-panel="ling"><p>El manejo de las palabras, al hablar y al escribir. Ejemplos: la escritura, el periodismo, la oratoria, la poesía.</p></div><div class="lab-panel" data-lab-panel="logica" hidden><p>El razonamiento, los números y los patrones. Ejemplos: la matemática, la programación, la investigación científica.</p></div><div class="lab-panel" data-lab-panel="espacial" hidden><p>Pensar en imágenes, orientarse e imaginar formas en el espacio. Ejemplos: la arquitectura, la navegación, el diseño.</p></div><div class="lab-panel" data-lab-panel="musical" hidden><p>Percibir y crear ritmos, melodías y tonos. Ejemplos: tocar un instrumento, componer, tener buen oído.</p></div><div class="lab-panel" data-lab-panel="corporal" hidden><p>Usar el cuerpo con habilidad. Ejemplos: el deporte, la danza, la cirugía, un oficio manual.</p></div><div class="lab-panel" data-lab-panel="inter" hidden><p>Comprender a los demás y vincularse. Ejemplos: la docencia, la mediación, acompañar a alguien en un momento difícil.</p></div><div class="lab-panel" data-lab-panel="intra" hidden><p>Conocerse a uno mismo: las propias emociones, motivaciones y límites. Se parece a lo que luego se llamó <a href="/recursos/inteligencia-emocional/">inteligencia emocional</a>.</p></div><div class="lab-panel" data-lab-panel="natural" hidden><p>Reconocer y clasificar elementos de la naturaleza. Ejemplos: la botánica, la biología, la observación de aves.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="cual" aria-labelledby="t-cual">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-cual">¿Qué inteligencia describe?</h2>
+      <p class="lab-estacion__bajada">Ejercicio para familiarizarte con el vocabulario de Gardner. No mide nada de vos: es solo un repaso de los conceptos.</p>
+      <div class="lab-tarjeta" data-lab-quiz="ocho-inteligencias-gardner">
+        <p class="lab-tarjeta__titulo">¿Qué inteligencia se pone en juego?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="evidencia" aria-labelledby="t-evidencia">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-evidencia">Lo que dice la evidencia</h2>
+      <p class="lab-estacion__bajada">La teoría es muy popular en las escuelas, y conviene decirlo con claridad: tiene poco respaldo empírico. Elegí un punto.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un punto"><label class="opcion"><input type="radio" name="im-evidencia" value="influyente" checked><span>Por qué es influyente</span></label><label class="opcion"><input type="radio" name="im-evidencia" value="criticas"><span>Lo que se le critica</span></label><label class="opcion"><input type="radio" name="im-evidencia" value="estilos"><span>Los «estilos de aprendizaje»</span></label><label class="opcion"><input type="radio" name="im-evidencia" value="gardner"><span>Lo que aclaró Gardner</span></label><label class="opcion"><input type="radio" name="im-evidencia" value="uso"><span>Cómo usarla con criterio</span></label></div>
+        <div class="lab-panel" data-lab-panel="influyente"><p>Porque ofrece un lenguaje para valorar talentos que la escuela tradicional no veía, y porque invita a no reducir el valor de alguien a sus notas en lengua o matemática. Su efecto sobre la manera de mirar a los alumnos fue grande.</p></div><div class="lab-panel" data-lab-panel="criticas" hidden><p>Muchos investigadores señalan que varias de esas «inteligencias» son más bien talentos o habilidades, y que las capacidades cognitivas suelen estar más relacionadas entre sí de lo que la teoría supone: no parecen independientes. Una revisión crítica conocida es la de Lynn Waterhouse (2006).</p></div><div class="lab-panel" data-lab-panel="estilos" hidden><p>La idea de que cada persona aprende mejor si se le enseña según su «estilo» (visual, auditivo, kinestésico) tampoco tiene respaldo: la revisión de Pashler y colaboradores (2008) no encontró evidencia de que adaptar la enseñanza al estilo preferido mejore el aprendizaje. Lo que sí ayuda a todos está en el <a href="/laboratorio-de-aprender-a-aprender/">laboratorio de aprender a aprender</a>.</p></div><div class="lab-panel" data-lab-panel="gardner" hidden><p>El propio Gardner aclaró que sus inteligencias no son estilos de aprendizaje: no describen cómo aprende cada persona, sino capacidades en distintos dominios. Usar la teoría para etiquetar a un chico («es kinestésico») es una mala lectura.</p></div><div class="lab-panel" data-lab-panel="uso" hidden><p>Como una invitación a ampliar la mirada, a ofrecer variedad en cómo se presenta un contenido y a reconocer fortalezas, no como un diagnóstico ni como una clasificación de personas.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mitos">Mito o verdad</h2>
+      <p class="lab-estacion__bajada">Algunas frases frecuentes sobre las inteligencias múltiples y los estilos de aprendizaje.</p>
+      <div class="lab-tarjeta" data-lab-quiz="mitos-inteligencias">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="otras" aria-labelledby="t-otras">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-otras">Otras propuestas sobre la inteligencia</h2>
+      <p class="lab-estacion__bajada">Gardner no es el único que pensó la inteligencia de manera más amplia.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una propuesta"><label class="opcion"><input type="radio" name="im-otras" value="trias" checked><span>Sternberg: teoría triárquica</span></label><label class="opcion"><input type="radio" name="im-otras" value="cattell"><span>Cattell: fluida y cristalizada</span></label><label class="opcion"><input type="radio" name="im-otras" value="general"><span>La inteligencia general</span></label></div>
+        <div class="lab-panel" data-lab-panel="trias"><p>Robert Sternberg distingue tres aspectos: el <strong>analítico</strong> (resolver problemas, lo que miden los tests), el <strong>creativo</strong> (enfrentar situaciones nuevas) y el <strong>práctico</strong> (adaptarse a la vida cotidiana).</p></div><div class="lab-panel" data-lab-panel="cattell" hidden><p>Raymond Cattell distinguió la capacidad de razonar ante problemas nuevos (<strong>fluida</strong>, que tiende a declinar con la edad) del conocimiento y la experiencia acumulados (<strong>cristalizada</strong>, que puede seguir creciendo).</p></div><div class="lab-panel" data-lab-panel="general" hidden><p>La mayoría de la investigación psicométrica encuentra que las capacidades cognitivas correlacionan entre sí, lo que sustenta la idea de una capacidad general. Es un punto de tensión con Gardner. Ver <a href="/recursos/que-es-la-inteligencia/">qué es la inteligencia</a>.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="fortalezas" aria-labelledby="t-fortalezas">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-fortalezas">Mis fortalezas y actividades</h2>
+      <p class="lab-estacion__bajada">Un ejercicio de reflexión, no un diagnóstico. En lugar de preguntarte «qué inteligencia tengo», preguntate qué actividades te hacen sentir competente y vivo. Podés usar las ocho áreas como disparador.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="im-fortalezas" data-lab-form-titulo="Mis fortalezas y actividades" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-f-flujo">Actividades en las que se me pasa el tiempo sin darme cuenta</label><textarea class="lab-texto" id="im-f-flujo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-f-otros">Cosas por las que otras personas suelen buscarme o agradecerme</label><textarea class="lab-texto" id="im-f-otros" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-f-aprendi">Algo que aprendí con facilidad y algo que aprendí con esfuerzo: ¿qué me ayudó en cada caso?</label><textarea class="lab-texto" id="im-f-aprendi" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-f-areas">De las ocho áreas de Gardner, ¿cuáles me gustaría ejercitar más, aunque no me salgan fácil?</label><textarea class="lab-texto" id="im-f-areas" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-f-prueba">Una actividad nueva para probar esta semana</label><input class="lab-campo" id="im-f-prueba" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="creencias" aria-labelledby="t-creencias">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-creencias">Revisar una creencia sobre mí</h2>
+      <p class="lab-estacion__bajada">Muchas personas llegan a la adultez convencidas de que «no son inteligentes» o «no sirven para estudiar» por cómo les fue en la escuela. Una escuela mide pocas cosas, y mide un momento. Revisá esa creencia con evidencia.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="im-creencia" data-lab-form-titulo="Revisar una creencia" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-c-frase">La frase que me digo («No soy bueno para…»)</label><input class="lab-campo" id="im-c-frase" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-c-origen">¿De dónde viene? (una nota, un comentario, una comparación)</label><textarea class="lab-texto" id="im-c-origen" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-c-contra">Cosas que hice o aprendí que no encajan con esa frase</label><textarea class="lab-texto" id="im-c-contra" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="im-c-nueva">Una frase más ajustada</label><input class="lab-campo" id="im-c-nueva" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="plan" aria-labelledby="t-plan">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-plan">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una semana para ampliar la mirada sobre tus capacidades. Marcá los días que hagas.</p>
+      <div class="lab-tarjeta" data-lab-plan="inteligencias">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Observar.</strong> Anotá tres actividades de hoy en las que te sentiste competente.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Un área nueva.</strong> Elegí una de las ocho áreas y hacé una actividad breve de ese tipo (dibujar, caminar por el parque, tararear una canción).</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Preguntar.</strong> Preguntale a alguien de confianza en qué te ve bien.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Aprender mejor.</strong> Probá una técnica de estudio con evidencia, como explicarte algo en voz alta sin mirar los apuntes.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Una creencia.</strong> Revisá una frase del estilo «no soy bueno para…» con el ejercicio de la estación 7.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Variedad.</strong> Presentá un contenido que estés aprendiendo de dos maneras distintas (leerlo y dibujarlo, por ejemplo).</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Cierre.</strong> Releé lo escrito: ¿qué fortalezas querés cuidar y cuáles querés ejercitar?</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Ningún cuestionario puede decir qué tan inteligente sos. Si las dificultades de aprendizaje o la autoestima son una preocupación, conviene consultar con un psicólogo o un psicopedagogo. Podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Gardner, H. (1983). <em>Estructuras de la mente: la teoría de las inteligencias múltiples</em>.</li><li>Sternberg, R. J. (1985). <em>Beyond IQ: A Triarchic Theory of Human Intelligence</em>.</li><li>Waterhouse, L. (2006). «Multiple intelligences, the Mozart effect, and emotional intelligence: A critical review». <em>Educational Psychologist</em>, 41(4).</li><li>Pashler, H., McDaniel, M., Rohrer, D. y Bjork, R. (2008). «Learning styles: Concepts and evidence». <em>Psychological Science in the Public Interest</em>, 9(3).</li><li><a href="/recursos/inteligencias-multiples/">Las inteligencias múltiples y otros tipos de inteligencia</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
