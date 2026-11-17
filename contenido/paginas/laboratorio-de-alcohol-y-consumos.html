@@ -1,0 +1,221 @@
+<!--{
+  "ruta": "/laboratorio-de-alcohol-y-consumos/",
+  "titulo": "Alcohol y otros consumos: laboratorio basado en evidencia",
+  "descripcion": "Revisar tu consumo de alcohol con evidencia: el AUDIT-C, las unidades, las etapas del cambio, la entrevista motivacional, el impulso y cómo reducir daños.",
+  "prioridad": 0.7,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Alcohol y consumos",
+      "/laboratorio-de-alcohol-y-consumos/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Alcohol y <em>otros consumos</em>",
+  "bajada": "Sin sermones y sin etiquetas: mirar con honestidad cuánto tomás, qué te da y qué te quita, y qué querés hacer con eso.",
+  "respuesta": "El laboratorio de alcohol y otros consumos propone revisar el propio consumo con herramientas basadas en evidencia: el autochequeo AUDIT-C de la OMS, una calculadora de gramos y unidades semanales, las señales de un consumo problemático, las etapas del cambio de Prochaska y DiClemente, el balance de la entrevista motivacional de Miller y Rollnick, un registro de disparadores, surfear el impulso según Marlatt, estrategias de reducción de daños, cuidados ante la abstinencia, cómo acompañar a alguien cercano según el enfoque CRAFT y un plan de 7 días. En Argentina, el abuso de alcohol es uno de los trastornos más frecuentes. La línea 141 de SEDRONAR orienta de forma gratuita.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-clinicos.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de alcohol y consumos",
+  "articulos": [
+    "como-saber-si-necesito-terapia"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>En Argentina, según el estudio epidemiológico de salud mental de 2018, el <strong>abuso de alcohol</strong> fue uno de los trastornos más frecuentes a lo largo de la vida: más de 8 de cada 100 adultos. Y aun así es de lo que menos se habla en terapia, porque tomar está muy naturalizado y porque da vergüenza.</p><p>Este laboratorio no te va a decir que dejes de tomar. Se apoya en la <strong>entrevista motivacional</strong> de William Miller y Stephen Rollnick: la idea de que el cambio es más probable cuando la persona encuentra sus propias razones, sin que nadie la presione. Primero, mirar con datos. Después, decidir.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin juicio.</strong> Mirar no obliga a cambiar.</li><li><strong>Con datos.</strong> Contar es el primer paso.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#unidades">¿Cuánto tomo?</a><a href="#audit">Autochequeo</a><a href="#senales">Señales</a><a href="#etapas">Etapas del cambio</a><a href="#balance">El balance</a><a href="#registro">Disparadores</a><a href="#impulso">Surfear el impulso</a><a href="#danos">Reducir daños</a><a href="#abstinencia">Si querés dejar</a><a href="#otros">Otros consumos</a><a href="#cercano">Si es alguien cercano</a><a href="#siete-dias">Plan de 7 días</a></nav>
+
+    <section class="lab-estacion revelar" id="unidades" aria-labelledby="t-unidades">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-unidades">¿Cuánto tomo?</h2>
+      <p class="lab-estacion__bajada">Para comparar bebidas distintas se usa la <strong>unidad</strong>: 10 gramos de alcohol puro. Un litro de cerveza tiene unos 40 gramos; una botella de vino, unos 74. La Organización Mundial de la Salud advirtió en 2023 que <strong>no hay un nivel de consumo totalmente seguro</strong> para la salud: el riesgo crece con la cantidad. Anotá lo que tomaste en los últimos siete días.</p>
+      <div class="lab-tarjeta" data-unidades>
+        <p class="lab-tarjeta__titulo">Mi última semana</p>
+        <div class="unidades-grilla"><div class="lab-paso"><label class="lab-paso__titulo" for="al-0">Cerveza, litro (5 %)</label><input class="lab-campo" id="al-0" type="number" min="0" step="1" inputmode="numeric" data-gramos="40" placeholder="0" style="max-width:8rem"></div><div class="lab-paso"><label class="lab-paso__titulo" for="al-1">Cerveza, lata de 473 ml (5 %)</label><input class="lab-campo" id="al-1" type="number" min="0" step="1" inputmode="numeric" data-gramos="19" placeholder="0" style="max-width:8rem"></div><div class="lab-paso"><label class="lab-paso__titulo" for="al-2">Vino, copa de 150 ml (12,5 %)</label><input class="lab-campo" id="al-2" type="number" min="0" step="1" inputmode="numeric" data-gramos="15" placeholder="0" style="max-width:8rem"></div><div class="lab-paso"><label class="lab-paso__titulo" for="al-3">Vino, botella de 750 ml (12,5 %)</label><input class="lab-campo" id="al-3" type="number" min="0" step="1" inputmode="numeric" data-gramos="74" placeholder="0" style="max-width:8rem"></div><div class="lab-paso"><label class="lab-paso__titulo" for="al-4">Fernet con gaseosa, un vaso (60 ml de fernet)</label><input class="lab-campo" id="al-4" type="number" min="0" step="1" inputmode="numeric" data-gramos="18" placeholder="0" style="max-width:8rem"></div><div class="lab-paso"><label class="lab-paso__titulo" for="al-5">Destilado, medida de 40 ml (40 %)</label><input class="lab-campo" id="al-5" type="number" min="0" step="1" inputmode="numeric" data-gramos="13" placeholder="0" style="max-width:8rem"></div><div class="lab-paso"><label class="lab-paso__titulo" for="al-6">Aperitivo o vermut, vaso de 100 ml (15 %)</label><input class="lab-campo" id="al-6" type="number" min="0" step="1" inputmode="numeric" data-gramos="12" placeholder="0" style="max-width:8rem"></div></div>
+        <p class="lab-resultado__texto" data-unidades-salida aria-live="polite"></p>
+        <p class="lab-paso__ayuda">Los gramos son aproximados: dependen de la graduación y de cuánto sirvas.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="audit" aria-labelledby="t-audit">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-audit">Autochequeo: el AUDIT-C</h2>
+      <p class="lab-estacion__bajada">El <strong>AUDIT-C</strong> son las tres primeras preguntas del AUDIT, un cuestionario desarrollado por la Organización Mundial de la Salud y validado en muchos países. Se usa en atención primaria para detectar un consumo de riesgo. No es un diagnóstico.</p>
+      <div class="lab-tarjeta" data-auditc>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ac-1">1. ¿Con qué frecuencia tomás alguna bebida con alcohol?</label><select class="lab-campo" id="ac-1" data-auditc-p><option value="">Elegí una opción</option><option value="0">Nunca</option><option value="1">Una vez por mes o menos</option><option value="2">De 2 a 4 veces por mes</option><option value="3">De 2 a 3 veces por semana</option><option value="4">4 o más veces por semana</option></select></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ac-2">2. Un día en que tomás, ¿cuántas unidades tomás? (una unidad: una lata chica de cerveza, una copa de vino o una medida de destilado)</label><select class="lab-campo" id="ac-2" data-auditc-p><option value="">Elegí una opción</option><option value="0">1 o 2</option><option value="1">3 o 4</option><option value="2">5 o 6</option><option value="3">De 7 a 9</option><option value="4">10 o más</option></select></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ac-3">3. ¿Con qué frecuencia tomás 6 unidades o más en una misma ocasión?</label><select class="lab-campo" id="ac-3" data-auditc-p><option value="">Elegí una opción</option><option value="0">Nunca</option><option value="1">Menos de una vez por mes</option><option value="2">Una vez por mes</option><option value="3">Una vez por semana</option><option value="4">Todos o casi todos los días</option></select></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ac-sexo">Los puntos de corte cambian según el sexo biológico</label><select class="lab-campo" id="ac-sexo" data-auditc-sexo><option value="mujer">Mujer</option><option value="hombre">Hombre</option><option value="otro">Prefiero no decirlo</option></select></div>
+        <p class="lab-resultado__texto" data-auditc-salida aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-senales">Señales de que el consumo es un problema</h2>
+      <p class="lab-estacion__bajada">Más que la cantidad, importa lo que el consumo hace en tu vida. Estas señales se basan en los criterios clínicos del trastorno por consumo de alcohol. Si reconocés dos o más en el último año, vale la pena consultar. No es un test.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="senales-de-consumo" data-lab-form-titulo="Señales de consumo" novalidate>
+        <fieldset class="lab-paso"><legend class="lab-paso__titulo">En el último año…</legend><div class="opciones opciones--columna">
+          <label class="opcion"><input type="checkbox" value="1"><span>Tomé más, o durante más tiempo, de lo que pensaba.</span></label>
+          <label class="opcion"><input type="checkbox" value="2"><span>Quise reducir o dejar, y no pude.</span></label>
+          <label class="opcion"><input type="checkbox" value="3"><span>Paso mucho tiempo tomando o recuperándome.</span></label>
+          <label class="opcion"><input type="checkbox" value="4"><span>Tuve ganas muy fuertes de tomar.</span></label>
+          <label class="opcion"><input type="checkbox" value="5"><span>Por tomar, dejé de cumplir con el trabajo, el estudio o la casa.</span></label>
+          <label class="opcion"><input type="checkbox" value="6"><span>Seguí tomando aunque me trajo problemas con otros.</span></label>
+          <label class="opcion"><input type="checkbox" value="7"><span>Dejé actividades importantes por tomar.</span></label>
+          <label class="opcion"><input type="checkbox" value="8"><span>Tomé en situaciones peligrosas, como antes de manejar.</span></label>
+          <label class="opcion"><input type="checkbox" value="9"><span>Seguí aunque me hacía mal física o emocionalmente.</span></label>
+          <label class="opcion"><input type="checkbox" value="10"><span>Necesito tomar más que antes para sentir el efecto.</span></label>
+          <label class="opcion"><input type="checkbox" value="11"><span>Cuando no tomo, aparecen temblores, sudor, ansiedad o insomnio.</span></label></div></fieldset>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="etapas" aria-labelledby="t-etapas">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-etapas">¿En qué etapa estoy?</h2>
+      <p class="lab-estacion__bajada">James Prochaska y Carlo DiClemente describieron el cambio como un proceso en etapas. Cada una necesita algo distinto: no sirve hacer un plan de acción si todavía no estás seguro de querer cambiar. Elegí la tuya.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una etapa"><label class="opcion"><input type="radio" name="al-etapa" value="pre" checked><span>No lo veo como problema</span></label><label class="opcion"><input type="radio" name="al-etapa" value="contemplacion"><span>Lo pienso</span></label><label class="opcion"><input type="radio" name="al-etapa" value="preparacion"><span>Quiero hacer algo</span></label><label class="opcion"><input type="radio" name="al-etapa" value="accion"><span>Estoy cambiando</span></label><label class="opcion"><input type="radio" name="al-etapa" value="mantenimiento"><span>Lo sostengo</span></label><label class="opcion"><input type="radio" name="al-etapa" value="recaida"><span>Volví a tomar</span></label></div>
+        <div class="lab-panel" data-lab-panel="pre"><p><strong>Precontemplación.</strong> Otros se preocupan más que vos. Lo útil acá es informarse y mirar los datos, sin presión.</p></div><div class="lab-panel" data-lab-panel="contemplacion" hidden><p><strong>Contemplación.</strong> Ves pros y contras, y estás en duda. Es la etapa del balance: la estación siguiente.</p></div><div class="lab-panel" data-lab-panel="preparacion" hidden><p><strong>Preparación.</strong> Decidiste cambiar y estás viendo cómo. Ayuda poner una fecha, un objetivo concreto y contarle a alguien.</p></div><div class="lab-panel" data-lab-panel="accion" hidden><p><strong>Acción.</strong> Ya empezaste. Ayudan el registro, surfear el impulso y cambiar el entorno.</p></div><div class="lab-panel" data-lab-panel="mantenimiento" hidden><p><strong>Mantenimiento.</strong> El cambio lleva meses. Ayuda identificar las situaciones de riesgo y tener un plan para ellas.</p></div><div class="lab-panel" data-lab-panel="recaida" hidden><p><strong>Recaída.</strong> Es parte frecuente del proceso, no un fracaso. Marlatt proponía verla como información: ¿qué pasó, qué aprendí, cómo sigo?</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="balance" aria-labelledby="t-balance">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-balance">El balance</h2>
+      <p class="lab-estacion__bajada">En la entrevista motivacional se exploran los dos lados: lo que el alcohol te da y lo que te quita. No hay respuestas correctas. Después, dos preguntas en escala del 0 al 10: ¿qué tan importante es para vos cambiar?, ¿qué tan capaz te sentís? Y una pregunta clave: ¿por qué un número y no uno más bajo?</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-balance" data-lab-form-titulo="Mi balance" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ba-1">Lo bueno de seguir como estoy (lo que el alcohol me da)</label><textarea class="lab-texto" id="ba-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ba-2">Lo malo de seguir como estoy</label><textarea class="lab-texto" id="ba-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ba-3">Lo bueno de cambiar</label><textarea class="lab-texto" id="ba-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ba-4">Lo difícil de cambiar</label><textarea class="lab-texto" id="ba-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ba-imp">Del 0 al 10, ¿qué tan importante es para mí cambiar? ¿Por qué ese número y no uno más bajo?</label><textarea class="lab-texto" id="ba-imp" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ba-conf">Del 0 al 10, ¿qué tan capaz me siento? ¿Qué me haría subir un punto?</label><textarea class="lab-texto" id="ba-conf" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-registro">Mis disparadores</h2>
+      <p class="lab-estacion__bajada">Tomar rara vez es algo aislado: suele haber situaciones, lugares, personas o emociones que lo disparan. Registrarlos durante una semana muestra patrones que no se ven de otro modo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mis-disparadores" data-lab-form-titulo="Mis disparadores" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-donde">¿Dónde y con quién tomo más?</label><textarea class="lab-texto" id="di-donde" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-cuando">¿En qué momentos del día o de la semana?</label><textarea class="lab-texto" id="di-cuando" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-emocion">¿Qué siento antes de tomar? (aburrimiento, estrés, soledad, ganas de festejar)</label><textarea class="lab-texto" id="di-emocion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-busco">¿Qué busco con el alcohol en esos momentos?</label><textarea class="lab-texto" id="di-busco" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-otra">¿Qué otra cosa podría darme algo parecido?</label><textarea class="lab-texto" id="di-otra" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="impulso" aria-labelledby="t-impulso">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-impulso">Surfear el impulso</h2>
+      <p class="lab-estacion__bajada">G. Alan Marlatt, uno de los creadores de la prevención de recaídas, propuso tratar las ganas de tomar como una ola: sube, llega a un pico y baja, si no la alimentamos. En lugar de pelear contra ella o ceder, se la observa. Unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Notar.</strong> «Tengo ganas de tomar». Nombrá el impulso, sin juzgarte.</li>
+          <li><strong>Ubicar.</strong> ¿Dónde lo sentís en el cuerpo? La boca, el estómago, el pecho, las manos.</li>
+          <li><strong>Observar.</strong> Describí la sensación como si fuera la primera vez: intensidad, temperatura, movimiento.</li>
+          <li><strong>Respirar con la ola.</strong> Respirá hacia esa zona. Notá cómo la intensidad cambia, sube y baja.</li>
+          <li><strong>Esperar.</strong> Las ganas suelen bajar en minutos. Si podés, esperá veinte minutos antes de decidir.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="danos" aria-labelledby="t-danos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-danos">Reducir daños</h2>
+      <p class="lab-estacion__bajada">Si hoy no querés dejar de tomar, igual podés reducir los riesgos. La <strong>reducción de daños</strong> es un enfoque de salud pública que acompaña a las personas donde están.</p>
+      <ul class="lab-checklist">
+        <li>Alternar cada vaso de alcohol con uno de agua.</li>
+        <li>Comer antes y mientras tomás.</li>
+        <li>Decidir de antemano cuánto vas a tomar, y contar.</li>
+        <li>Tener al menos dos o tres días por semana sin alcohol.</li>
+        <li>No manejar ni usar máquinas después de tomar.</li>
+        <li>No mezclar alcohol con psicofármacos, opioides u otras drogas.</li>
+        <li>Servir medidas más chicas, y tomar más despacio.</li>
+        <li>Tener un plan para volver a casa a salvo.</li>
+      </ul>
+    </section>
+
+    <section class="lab-estacion revelar" id="abstinencia" aria-labelledby="t-abstinencia">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-abstinencia">Si querés dejar: un cuidado importante</h2>
+      <p class="lab-estacion__bajada">Si tomás mucho todos los días desde hace tiempo, <strong>dejar de golpe puede ser peligroso</strong>. La abstinencia de alcohol puede provocar temblores, sudoración, ansiedad, insomnio y, en los casos graves, convulsiones o un cuadro de confusión con alucinaciones que es una urgencia médica. Antes de dejar, consultá con un médico: hay tratamientos para hacerlo de forma segura, y también medicamentos que ayudan a sostener el cambio.</p>
+      <div class="lab-aviso"><p><strong>Si al dejar de tomar aparecen</strong> temblores fuertes, confusión, alucinaciones o convulsiones, andá a una guardia o llamá al <a href="tel:107">107</a>.</p></div>
+    </section>
+
+    <section class="lab-estacion revelar" id="otros" aria-labelledby="t-otros">
+      <p class="lab-estacion__num">10</p>
+      <h2 id="t-otros">Otros consumos</h2>
+      <p class="lab-estacion__bajada">Lo mismo que vale para el alcohol vale, con matices, para el cannabis, la cocaína, los psicofármacos tomados sin receta o el juego. Las herramientas de este laboratorio, y las del <a href="/laboratorio-de-conductas-compulsivas/">laboratorio de conductas compulsivas</a>, sirven para todos. En Argentina, la <strong>línea 141</strong> de SEDRONAR orienta de forma gratuita y anónima, las 24 horas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="otros-consumos" data-lab-form-titulo="Otros consumos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ot-que">¿Qué otro consumo me preocupa?</label><input class="lab-campo" id="ot-que" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ot-funcion">¿Qué función cumple en mi vida?</label><textarea class="lab-texto" id="ot-funcion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ot-precio">¿Qué precio estoy pagando?</label><textarea class="lab-texto" id="ot-precio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="cercano" aria-labelledby="t-cercano">
+      <p class="lab-estacion__num">11</p>
+      <h2 id="t-cercano">Si es alguien cercano</h2>
+      <p class="lab-estacion__bajada">Muchas familias oscilan entre confrontar, rogar y desentenderse, y nada parece funcionar. El enfoque <strong>CRAFT</strong>, desarrollado por Robert Meyers y Jane Ellen Smith, enseña a los familiares a comunicarse sin confrontar, a no rescatar al otro de las consecuencias de su consumo, a reforzar los momentos sin consumo y a cuidarse. En los estudios, logró que más personas aceptaran iniciar un tratamiento que la confrontación tradicional.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una idea"><label class="opcion"><input type="radio" name="al-cercano" value="hablar" checked><span>Hablar sin confrontar</span></label><label class="opcion"><input type="radio" name="al-cercano" value="reforzar"><span>Reforzar lo sano</span></label><label class="opcion"><input type="radio" name="al-cercano" value="consecuencias"><span>No rescatar</span></label><label class="opcion"><input type="radio" name="al-cercano" value="cuidarte"><span>Cuidarte</span></label></div>
+        <div class="lab-panel" data-lab-panel="hablar"><p>Hablá en un momento sin consumo, en primera persona, sobre hechos concretos: «Me preocupé el sábado cuando volviste manejando así». Evitá etiquetas como «alcohólico».</p></div><div class="lab-panel" data-lab-panel="reforzar" hidden><p>Notá y acompañá los momentos sin consumo con actividades agradables juntos.</p></div><div class="lab-panel" data-lab-panel="consecuencias" hidden><p>Dejá de cubrir las consecuencias: no lo excuses ante el trabajo, no pagues sus deudas por el consumo. Con amor, pero sin rescatar.</p></div><div class="lab-panel" data-lab-panel="cuidarte" hidden><p>Tu bienestar no depende de que el otro deje. Buscá apoyo para vos: terapia, grupos de familiares. Y si hay violencia, tu seguridad es lo primero: <a href="tel:144">144</a> o <a href="tel:911">911</a>.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">12</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="alcohol">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Contar.</strong> Anotá todo lo que tomás hoy, con la cantidad.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Autochequeo.</strong> Hacé el AUDIT-C y leé el resultado sin juzgarte.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Balance.</strong> Completá los cuatro cuadros del balance.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Disparadores.</strong> Anotá dónde, cuándo y por qué tomaste.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un día sin.</strong> Elegí un día sin alcohol y notá qué pasa.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Surfear.</strong> La próxima vez que tengas ganas, esperá veinte minutos.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Hablar.</strong> Contale a alguien de confianza lo que estás revisando.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si tomás mucho todos los días, no dejes de golpe sin consultar a un médico. Si el consumo está afectando tu salud, tus vínculos o tu trabajo, hay tratamientos que funcionan: la línea <a href="tel:141">141</a> de SEDRONAR orienta gratis y de forma anónima. Si querés trabajarlo en terapia, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Stagnaro, J. C., Cía, A. H., Vázquez, N. y otros (2018). «Estudio epidemiológico de salud mental en población general de la República Argentina». <em>Vertex</em>, 29(142).</li><li>Bush, K., Kivlahan, D. R., McDonell, M. B., Fihn, S. D. y Bradley, K. A. (1998). «The AUDIT alcohol consumption questions (AUDIT-C)». <em>Archives of Internal Medicine</em>, 158(16), 1789-1795.</li><li>Bradley, K. A. y otros (2007). «AUDIT-C as a brief screen for alcohol misuse in primary care». <em>Alcoholism: Clinical and Experimental Research</em>, 31(7), 1208-1217.</li><li>Miller, W. R. y Rollnick, S. (2013). <em>Motivational Interviewing: Helping People Change</em>, 3.ª ed. (en castellano, <em>La entrevista motivacional</em>).</li><li>Prochaska, J. O. y DiClemente, C. C. (1983). «Stages and processes of self-change of smoking». <em>Journal of Consulting and Clinical Psychology</em>, 51(3), 390-395.</li><li>Marlatt, G. A. y Gordon, J. R. (Eds.) (1985). <em>Relapse Prevention</em>. Guilford.</li><li>Meyers, R. J. y Wolfe, B. L. (2004). <em>Get Your Loved One Sober: Alternatives to Nagging, Pleading, and Threatening</em>. Hazelden.</li><li>Organización Mundial de la Salud (2023). «No level of alcohol consumption is safe for our health».</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

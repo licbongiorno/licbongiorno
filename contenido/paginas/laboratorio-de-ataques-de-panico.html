@@ -1,0 +1,202 @@
+<!--{
+  "ruta": "/laboratorio-de-ataques-de-panico/",
+  "titulo": "Ataques de pánico: laboratorio basado en la evidencia",
+  "descripcion": "Entender y atravesar los ataques de pánico con el modelo de David Clark: el círculo del pánico, las conductas de seguridad y la exposición a las sensaciones.",
+  "prioridad": 0.7,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Ataques de pánico",
+      "/laboratorio-de-ataques-de-panico/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Ataques de <em>pánico</em>",
+  "bajada": "El corazón se dispara, falta el aire, parece que algo terrible va a pasar. Entender cómo funciona el pánico es el primer paso para dejar de temerle.",
+  "respuesta": "El laboratorio de ataques de pánico propone ejercicios de la terapia cognitivo-conductual, el tratamiento con más respaldo para el trastorno de pánico: qué es un ataque de pánico, el círculo del pánico según el modelo cognitivo de David Clark (1986), las interpretaciones catastróficas de las sensaciones, la importancia de descartar una causa médica una vez, qué hacer durante un ataque, las conductas de seguridad (Salkovskis), la exposición interoceptiva con reloj y registro, una escalera para la agorafobia y un plan de 7 días. No reemplaza un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-clinicos.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de ataques de pánico",
+  "articulos": [
+    "ataque-de-panico-que-hacer",
+    "ansiedad-cuando-el-cuerpo-habla",
+    "respiracion-y-emociones"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Un <strong>ataque de pánico</strong> es una oleada de miedo intenso que llega a su pico en pocos minutos, con sensaciones físicas muy fuertes: palpitaciones, falta de aire, mareo, temblor, sudor, opresión en el pecho, hormigueo, sensación de irrealidad. Y casi siempre con un pensamiento: me voy a morir, me voy a desmayar, me voy a volver loco.</p><p>Tener un ataque aislado es frecuente. Se habla de <strong>trastorno de pánico</strong> cuando los ataques se repiten y aparece un miedo persistente a tener otro, que lleva a evitar lugares o actividades. La buena noticia es que la terapia cognitivo-conductual tiene muy buenos resultados, y muchos de sus ejercicios se pueden empezar por cuenta propia. Este laboratorio sigue el modelo del psicólogo David Clark y el trabajo de Michelle Craske y David Barlow.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Entender baja el miedo.</strong> El pánico se alimenta de malinterpretar el cuerpo.</li><li><strong>A tu ritmo.</strong> La exposición se hace de a poco, nunca a la fuerza.</li><li><strong>Sin registro.</strong> Lo que anotes queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#que-es">Qué es</a><a href="#circulo">El círculo del pánico</a><a href="#interpretar">Interpretar el cuerpo</a><a href="#medico">Lo médico, una vez</a><a href="#durante">Durante un ataque</a><a href="#seguridad">Conductas de seguridad</a><a href="#interoceptiva">Exponerse a las sensaciones</a><a href="#agorafobia">Recuperar lugares</a><a href="#siete-dias">Plan de 7 días</a></nav>
+
+    <section class="lab-estacion revelar" id="que-es" aria-labelledby="t-que-es">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-que-es">Qué pasa en el cuerpo</h2>
+      <p class="lab-estacion__bajada">Un ataque de pánico es la respuesta de alarma del cuerpo, la de lucha o huida, que se dispara sin un peligro real. Cada sensación tiene una función. Elegí una para entenderla.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una sensación"><label class="opcion"><input type="radio" name="pa-sens" value="corazon" checked><span>Palpitaciones</span></label><label class="opcion"><input type="radio" name="pa-sens" value="aire"><span>Falta de aire</span></label><label class="opcion"><input type="radio" name="pa-sens" value="mareo"><span>Mareo</span></label><label class="opcion"><input type="radio" name="pa-sens" value="irrealidad"><span>Irrealidad</span></label><label class="opcion"><input type="radio" name="pa-sens" value="pecho"><span>Opresión en el pecho</span></label></div>
+        <div class="lab-panel" data-lab-panel="corazon"><p>El corazón late más rápido y más fuerte para llevar sangre a los músculos. Es incómodo, pero un corazón sano puede sostener ese ritmo mucho tiempo sin riesgo.</p></div><div class="lab-panel" data-lab-panel="aire" hidden><p>Al asustarnos respiramos más rápido. Ese exceso de aire, aunque parezca falta, baja el dióxido de carbono en la sangre y produce sensación de ahogo, hormigueo y mareo.</p></div><div class="lab-panel" data-lab-panel="mareo" hidden><p>Suele venir de respirar de más. En un ataque de pánico la presión arterial tiende a subir, por eso el desmayo es muy poco frecuente.</p></div><div class="lab-panel" data-lab-panel="irrealidad" hidden><p>Sentir que todo es extraño o que uno se ve desde afuera es un efecto de la ansiedad intensa. Asusta, pero no es locura y pasa.</p></div><div class="lab-panel" data-lab-panel="pecho" hidden><p>Los músculos del pecho se tensan con la ansiedad y la respiración rápida. Si nunca te revisaron, consultá una vez para descartar otra causa.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="circulo" aria-labelledby="t-circulo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-circulo">El círculo del pánico</h2>
+      <p class="lab-estacion__bajada">En 1986, David Clark propuso que un ataque de pánico se produce por una <strong>interpretación catastrófica</strong> de sensaciones corporales normales. Una sensación (el corazón acelerado) se interpreta como un peligro (un infarto); eso da más miedo; el miedo produce más sensaciones; y las sensaciones confirman el peligro. El círculo se cierra en segundos. Dibujá el tuyo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-circulo-del-panico" data-lab-form-titulo="Mi círculo del pánico" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ci-disparador">Lo que lo dispara (un lugar, una sensación, un pensamiento)</label><input class="lab-campo" id="ci-disparador" type="text" autocomplete="off" placeholder="Estar en el subte, tomar café, hacer ejercicio"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ci-sensacion">La sensación que noto</label><input class="lab-campo" id="ci-sensacion" type="text" autocomplete="off" placeholder="El corazón acelerado"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ci-interpreto">Lo que pienso que significa</label><input class="lab-campo" id="ci-interpreto" type="text" autocomplete="off" placeholder="Me está dando un infarto"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ci-miedo">Lo que siento y hago entonces</label><textarea class="lab-texto" id="ci-miedo" rows="2" placeholder="Más miedo, me tomo el pulso, busco la salida"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ci-alternativa">Otra explicación posible de esa sensación</label><textarea class="lab-texto" id="ci-alternativa" rows="2" placeholder="Es la ansiedad: ya me pasó otras veces y no fue un infarto"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="interpretar" aria-labelledby="t-interpretar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-interpretar">Interpretar el cuerpo</h2>
+      <p class="lab-estacion__bajada">La terapia apunta a cambiar la interpretación, no a eliminar las sensaciones. ¿Cuál de estas lecturas alimenta el círculo y cuál lo desarma?</p>
+      <div class="lab-tarjeta" data-lab-quiz="panico-interpretacion">
+        <p class="lab-tarjeta__titulo">¿Catastrófica o realista?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Catastrófica</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Realista</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="medico" aria-labelledby="t-medico">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-medico">Lo médico, una vez</h2>
+      <p class="lab-estacion__bajada">Es razonable consultar a un médico la primera vez, para descartar problemas como una arritmia, un problema de tiroides o un efecto de alguna sustancia o medicación. Pero una vez descartados, <strong>volver a chequear una y otra vez</strong> (ir a la guardia en cada ataque, tomarse el pulso, buscar síntomas en internet) mantiene el miedo: cada chequeo confirma que había algo que chequear.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-medico" data-lab-form-titulo="Lo médico, una vez" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="me-consulte">¿Me revisó un médico? ¿Qué me dijeron?</label><textarea class="lab-texto" id="me-consulte" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="me-chequeo">¿Qué chequeos repito? (pulso, presión, buscar en internet, pedir estudios)</label><textarea class="lab-texto" id="me-chequeo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="me-reducir">¿Cuál podría empezar a dejar?</label><input class="lab-campo" id="me-reducir" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="durante" aria-labelledby="t-durante">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-durante">Durante un ataque</h2>
+      <p class="lab-estacion__bajada">La clave es paradójica: <strong>dejar de pelear</strong> contra el ataque. Querer frenarlo a toda costa lo alimenta. El objetivo no es que pase rápido, sino comprobar que pasa solo. Unos 45 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="45">
+        <ol class="lab-pasos">
+          <li><strong>Nombrarlo.</strong> «Esto es un ataque de pánico. Es muy incómodo, pero no es peligroso».</li>
+          <li><strong>No escapar.</strong> Si podés, quedate donde estás. Irte confirma que había un peligro.</li>
+          <li><strong>Respirar sin forzar.</strong> Respirá despacio por la nariz, con la exhalación un poco más larga. No hace falta respirar profundo: alcanza con no acelerar.</li>
+          <li><strong>Dejar que la ola suba.</strong> Observá las sensaciones con curiosidad, como un científico: ¿dónde están?, ¿cómo cambian?</li>
+          <li><strong>Esperar el pico.</strong> El pico suele llegar en pocos minutos, y después baja.</li>
+          <li><strong>Seguir con lo que hacías.</strong> Cuando baje, retomá la actividad. Eso le enseña al cerebro que no había peligro.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="seguridad" aria-labelledby="t-seguridad">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-seguridad">Conductas de seguridad</h2>
+      <p class="lab-estacion__bajada">Paul Salkovskis señaló que muchas cosas que hacemos para «protegernos» del pánico, como llevar agua, sentarnos cerca de la salida o salir siempre acompañados, alivian en el momento pero <strong>mantienen el problema</strong>: impiden comprobar que el ataque pasa solo y que lo temido no ocurre. ¿Cuál es una conducta de seguridad y cuál ayuda?</p>
+      <div class="lab-tarjeta" data-lab-quiz="conductas-seguridad">
+        <p class="lab-tarjeta__titulo">¿Conducta de seguridad o exposición?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Conducta de seguridad</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Ayuda</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+      <div style="margin-top:1rem"></div><form class="lab-tarjeta lab-armador" data-lab-form="mis-conductas-de-seguridad" data-lab-form-titulo="Mis conductas de seguridad" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cs-lista">Mis conductas de seguridad (lo que hago, llevo o evito para no tener un ataque)</label><textarea class="lab-texto" id="cs-lista" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cs-dejar">Una que podría dejar esta semana</label><input class="lab-campo" id="cs-dejar" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cs-prediccion">¿Qué temo que pase si la dejo? ¿Qué tan seguro estoy, del 0 al 100?</label><textarea class="lab-texto" id="cs-prediccion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cs-resultado">Después de probar: ¿qué pasó en realidad?</label><textarea class="lab-texto" id="cs-resultado" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="interoceptiva" aria-labelledby="t-interoceptiva">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-interoceptiva">Exponerse a las sensaciones</h2>
+      <p class="lab-estacion__bajada">La <strong>exposición interoceptiva</strong>, desarrollada por Michelle Craske y David Barlow, consiste en provocar a propósito, en un lugar seguro, sensaciones parecidas a las del pánico, para que el cuerpo y la mente aprendan que no son peligrosas. Probá un ejercicio, anotá qué tan intensas fueron las sensaciones, cuánto se parecieron al pánico y cuánta ansiedad te dieron. Repetí los que más se parezcan, hasta que la ansiedad baje.</p>
+      <div class="lab-aviso" style="margin-bottom:1rem"><p><strong>Antes de empezar.</strong> No hagas estos ejercicios si tenés problemas cardíacos, asma, epilepsia, presión alta no controlada, problemas de columna o de oído, si estás embarazada, o si tu médico te lo desaconsejó. Consultalo antes. Si en algún momento sentís algo distinto a lo esperado, pará.</p></div>
+      <div class="lab-tarjeta" data-interoceptiva>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="int-ej">Ejercicio</label><select class="lab-campo" id="int-ej" data-int-ejercicio>
+          <option value="hiperventilar">Respirar rápido</option><option value="pajita">Respirar por una pajita</option><option value="girar">Girar</option>
+          <option value="cabeza">Sacudir la cabeza</option><option value="piernas">Cabeza entre las piernas</option><option value="correr">Correr en el lugar</option>
+          <option value="tension">Tensar todo el cuerpo</option><option value="mirar">Mirar fijo</option></select></div>
+        <p data-int-desc></p>
+        <p class="lab-reloj lab-reloj--grande" data-int-reloj aria-live="polite"></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-int-empezar>Empezar</button></div>
+        <div data-int-puntaje hidden style="margin-top:1rem">
+          <div class="lab-paso"><label class="lab-paso__titulo" for="int-intensidad">Intensidad de las sensaciones (0 a 10)</label><input class="lab-campo" id="int-intensidad" type="range" min="0" max="10" value="5"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="int-parecido">Parecido con un ataque de pánico (0 a 10)</label><input class="lab-campo" id="int-parecido" type="range" min="0" max="10" value="5"></div>
+          <div class="lab-paso"><label class="lab-paso__titulo" for="int-ansiedad">Ansiedad que me dio (0 a 10)</label><input class="lab-campo" id="int-ansiedad" type="range" min="0" max="10" value="5"></div>
+          <div class="lab-acciones"><button class="boton boton--chico" type="button" data-int-anotar>Anotar</button></div>
+        </div>
+        <p class="lab-tarjeta__titulo" style="margin-top:1.2rem">Mi registro</p>
+        <ul class="lab-lista" data-int-lista></ul>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="agorafobia" aria-labelledby="t-agorafobia">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-agorafobia">Recuperar lugares</h2>
+      <p class="lab-estacion__bajada">Muchas personas con pánico empiezan a evitar lugares donde temen tener un ataque o no poder salir: el subte, el supermercado, el cine, viajar lejos. Eso se llama <strong>agorafobia</strong>. Se recupera con una escalera: de lo más fácil a lo más difícil, quedándose en cada escalón hasta que la ansiedad baje, y sin conductas de seguridad.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-escalera" data-lab-form-titulo="Mi escalera de lugares" novalidate>
+        <div data-lab-lista-editable data-lab-lista-titulo="Mi escalera (de lo más fácil a lo más difícil)">
+          <label class="lab-paso__titulo" for="ag-escalon" style="display:block">Un lugar o situación que evito, con su ansiedad esperada (0 a 100)</label>
+          <div class="lab-lle__fila"><input class="lab-campo" id="ag-escalon" type="text" autocomplete="off" data-lle-entrada placeholder="Ir al kiosco de la esquina solo (30)"><button class="boton boton--chico" type="button" data-lle-agregar>Agregar</button></div>
+          <ol class="lab-orden lab-lle__lista" data-lle-lista></ol>
+        </div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ag-primero">El primer escalón que voy a practicar, y cuándo</label><input class="lab-campo" id="ag-primero" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="panico">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Entender.</strong> Leé qué pasa en el cuerpo durante un ataque.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Tu círculo.</strong> Escribí tu círculo del pánico.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Otra explicación.</strong> Para cada sensación temida, anotá una explicación realista.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Una conducta menos.</strong> Dejá una conducta de seguridad por un día.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Interoceptiva.</strong> Probá dos ejercicios y anotá los resultados.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Repetir.</strong> Repetí el ejercicio que más se parezca al pánico, tres veces.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un escalón.</strong> Practicá el primer escalón de tu escalera.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si es la primera vez que tenés síntomas así, o si aparecen dolor de pecho fuerte, falta de aire que no cede o desmayo, consultá a un médico o llamá al <a href="tel:107">107</a>. Si los ataques se repiten, la terapia cognitivo-conductual tiene muy buenos resultados. Podés <a href="/contacto/">escribirme</a>, o mirar el <a href="/laboratorio-de-ansiedad/">laboratorio de ansiedad</a> y el de <a href="/laboratorio-de-respiraciones/">respiraciones</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Clark, D. M. (1986). «A cognitive approach to panic». <em>Behaviour Research and Therapy</em>, 24(4), 461-470.</li><li>Salkovskis, P. M. (1991). «The importance of behaviour in the maintenance of anxiety and panic: A cognitive account». <em>Behavioural Psychotherapy</em>, 19(1), 6-19.</li><li>Craske, M. G. y Barlow, D. H. (2007). <em>Mastery of Your Anxiety and Panic</em>, 4.ª ed. Oxford University Press.</li><li>American Psychiatric Association (2022). <em>DSM-5-TR</em>: trastorno de pánico y agorafobia.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

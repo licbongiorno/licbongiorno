@@ -16,7 +16,11 @@
         "/laboratorio-de-higiene-sensorial/",
         "/laboratorio-de-asertividad/",
         "/laboratorio-de-conductas-compulsivas/",
-        "/laboratorio-de-escritura-expresiva/"
+        "/laboratorio-de-escritura-expresiva/",
+        "/laboratorio-plan-de-seguridad/",
+        "/laboratorio-de-alcohol-y-consumos/",
+        "/laboratorio-de-ataques-de-panico/",
+        "/laboratorio-de-insomnio/"
       ]
     },
     {
@@ -208,8 +212,8 @@
           "Tomar distancia de los pensamientos que se repiten, con las técnicas de defusión de la ACT."
         ],
         [
-          "/laboratorio-compasion-tres-sistemas/",
-          "Fortalecer el sistema de calma, que según Paul Gilbert es el que regula la amenaza."
+          "/laboratorio-de-ataques-de-panico/",
+          "Si aparecen ataques de pánico: entender el círculo del pánico y exponerse a las sensaciones."
         ],
         [
           "/laboratorio-de-la-angustia/",
@@ -420,8 +424,8 @@
           "Separar lo que depende de vos de lo que no, con los estoicos."
         ],
         [
-          "/laboratorio-de-descanso/",
-          "Revisar el sueño con un diario y la higiene del sueño."
+          "/laboratorio-de-insomnio/",
+          "Si el estrés quita el sueño: la terapia cognitivo-conductual para el insomnio, con una ventana de sueño calculada."
         ],
         [
           "/laboratorio-de-presencia/",
@@ -538,6 +542,33 @@
         [
           "/laboratorio-de-ecuanimidad/",
           "Cerrar con la ecuanimidad: paz y serenidad sin indiferencia."
+        ]
+      ]
+    },
+    {
+      "clave": "alcohol",
+      "titulo": "Alcohol y consumos",
+      "intro": "Mirar el consumo con datos, encontrar las propias razones para cambiar y aprender a atravesar el impulso.",
+      "pasos": [
+        [
+          "/laboratorio-de-alcohol-y-consumos/",
+          "Contar, hacer el autochequeo y armar el balance de la entrevista motivacional."
+        ],
+        [
+          "/laboratorio-de-conductas-compulsivas/",
+          "La cadena de la conducta y la necesidad que hay detrás."
+        ],
+        [
+          "/laboratorio-de-regulacion/",
+          "Regular las emociones que suelen llevar al consumo."
+        ],
+        [
+          "/laboratorio-de-valores/",
+          "Reconectar con lo que importa, más allá del consumo."
+        ],
+        [
+          "/laboratorio-de-habitos/",
+          "Construir hábitos nuevos que ocupen ese lugar."
         ]
       ]
     }
