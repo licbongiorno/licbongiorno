@@ -257,4 +257,9 @@
     { t: "Hace un año que sostiene el cambio y se prepara para las situaciones de riesgo.", ops: ETA, r: 4, e: "Sostener el cambio y prevenir recaídas." },
     { t: "Tuvo una recaída y se pregunta qué aprender para la próxima vez.", ops: ETA, r: 4, e: "En el modelo, las recaídas son parte del proceso de mantenimiento." }
   ]);
+  LAB.quiz("naturaleza-mitos", [
+    { t: "Estar en la naturaleza cura la depresión.", r: "a", e: "Los estudios sugieren beneficios sobre la rumiación y el ánimo, sobre todo a corto plazo y en personas sanas. No curan trastornos ni reemplazan un tratamiento." },
+    { t: "Ver un paisaje desde la ventana se asoció con una recuperación más rápida en pacientes operados.", r: "b", e: "Es lo que encontró Ulrich en 1984, con registros de un hospital. Como no fue un ensayo al azar, hay que tomarlo como una pista." },
+    { t: "Los animales de compañía no tienen ninguna relación con el bienestar emocional.", r: "a", e: "Hay asociaciones con menor soledad y mejor ánimo, pero la evidencia es mixta y muchas veces correlacional." }
+  ]);
 })();
