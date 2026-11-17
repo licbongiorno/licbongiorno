@@ -631,7 +631,7 @@ LABORATORIOS = [
     {"titulo": "Laboratorio de Platón", "ruta": "/laboratorio-de-platon/", "tipo": "Filosofía",
      "descripcion": "La caverna, el carro alado del alma, el diálogo socrático, Eros y el conocete a vos mismo, como ejercicios de pensamiento."},
     {"titulo": "Naturaleza y psique: laboratorio de estar afuera", "ruta": "/laboratorio-de-naturaleza-y-psique/", "tipo": "Psicología ambiental",
-     "descripcion": "Ejercicios desde la psicología para estar en la naturaleza: caminar con atención, mirar por la ventana, el vínculo con los animales y el duelo ecológico, con sus fuentes."},
+     "descripcion": "Doce estaciones desde la psicología: caminar, mirar, plantas, aves, animales de compañía y duelo ecológico, con fuentes verificadas y sus límites."},
     {"titulo": "Separarse sin perderse", "ruta": "/laboratorio-separarse-sin-perderse/", "tipo": "Transiciones de vida",
      "descripcion": "Siete estaciones para una separación con conflicto: pérdida ambigua, lo que depende de vos, la bronca, la culpa, el perdón, los valores y los hijos."},
     {"titulo": "Conflicto alto y seguridad en la separación", "ruta": "/laboratorio-conflicto-alto-y-seguridad/", "tipo": "Seguridad y conflicto",
@@ -2183,6 +2183,10 @@ def construir():
         escribir(ruta, html_final)
         if not meta.get("noindex"):
             mapa.append((ruta, meta.get("prioridad", 0.7), meta.get("frecuencia", "monthly")))
+        # Rutas viejas: la misma página sigue respondiendo en su dirección anterior (por enlaces ya compartidos),
+        # con noindex, fuera del sitemap y del buscador. El sitio no las enlaza.
+        for vieja in meta.get("rutas_viejas", []):
+            escribir(vieja, pagina(dict(meta, noindex=True), reemplazos(cuerpo, vieja), vieja))
 
     for a in ARTICULOS:
         if not a["publicado"] and not BORRADORES:
@@ -2232,7 +2236,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
         ("Voces que nos habitan", rutas_voces[2:]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
