@@ -44,6 +44,8 @@ En el *Fedro*, la **razón** es el auriga; el **ánimo**, un caballo noble; el *
 - La división del alma en partes en tensión anticipa una intuición que Freud desarrollaría a su modo con el ello, el yo y el superyó, aunque con otra lógica.
 - El método de preguntas de los diálogos —la **mayéutica** de Sócrates— inspira el [diálogo socrático](/recursos/el-dialogo-socratico/) que usan Aaron Beck y la terapia cognitiva.
 
+Llevá estas ideas a la práctica en el [laboratorio de Platón](/laboratorio-de-platon/): la caverna, el carro alado y el diálogo como ejercicios.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el alma tripartita de Platón?

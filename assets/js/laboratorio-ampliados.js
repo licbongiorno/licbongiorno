@@ -194,4 +194,67 @@
     { t: "Las técnicas psicométricas comparan tus resultados con los de una población de referencia.", r: "b", e: "Verdad. Para eso se usan los baremos." },
     { t: "Lo que digas en la evaluación puede contarse libremente a cualquiera.", r: "a", e: "Mito. Está protegido por el secreto profesional, con los límites que fija la ley." }
   ]);
+  var ALMA = ["Razón", "Ánimo (thymós)", "Deseo"];
+  LAB.quiz("alma-tripartita-platon", [
+    { t: "Sabe que tiene que rendir un examen, arma un plan de repasos y lo sigue.", ops: ALMA, r: 0, e: "Planificar y buscar lo conveniente: la parte racional, el auriga." },
+    { t: "Se indigna ante una injusticia en el trabajo y quiere decir algo ya.", ops: ALMA, r: 1, e: "La indignación y el coraje son del ánimo, el caballo noble." },
+    { t: "A las tres de la mañana siente ganas de comerse el postre.", ops: ALMA, r: 2, e: "Un apetito: el caballo que tira para su lado." },
+    { t: "Antes de contestar un mensaje enojado, se pregunta qué le conviene de verdad.", ops: ALMA, r: 0, e: "Detenerse a evaluar es función de la razón." },
+    { t: "Siente el orgullo herido cuando lo critican delante de otros.", ops: ALMA, r: 1, e: "El honor y el orgullo se asocian con el thymós." },
+    { t: "Tiene sed después de caminar y quiere agua.", ops: ALMA, r: 2, e: "Un apetito corporal, es decir, el deseo." }
+  ]);
+  var W_PRES = ["Solo está presente", "La atención lo toma"];
+  LAB.quiz("apercepcion-wundt", [
+    { t: "Mientras leés, el ruido del tránsito suena de fondo y no registrás nada de él.", r: "a", e: "Está en el campo de la conciencia, pero la atención no lo toma." },
+    { t: "De pronto decidís seguir la conversación de la mesa de al lado y entender lo que dicen.", r: "b", e: "La atención lo toma y lo organiza: es apercepción." },
+    { t: "Comparás dos sonidos con cuidado para decidir cuál es más agudo.", r: "b", e: "Una atención activa que organiza lo percibido." },
+    { t: "En el borde de tu campo visual hay colores que no mirás directamente.", r: "a", e: "Están presentes, pero no en el foco de la atención." },
+    { t: "Te concentrás en cómo se siente el contacto de la silla con la espalda.", r: "b", e: "Antes estaba presente; ahora la atención lo toma." }
+  ]);
+  var W_DOS = ["Se estudia en el laboratorio", "Se estudia a través de la cultura"];
+  LAB.quiz("dos-psicologias-wundt", [
+    { t: "Cuánto tarda alguien en apretar un botón al oír un sonido.", ops: W_DOS, r: 0, e: "Un proceso simple, medible con aparatos." },
+    { t: "El origen y la evolución del lenguaje.", ops: W_DOS, r: 1, e: "Wundt lo estudió en la Psicología de los pueblos." },
+    { t: "Los mitos de una comunidad.", ops: W_DOS, r: 1, e: "Los mitos son parte de la psicología de los pueblos." },
+    { t: "Qué intensidad tiene una luz para un observador.", ops: W_DOS, r: 0, e: "Una sensación simple, estudiable con un estímulo controlado." },
+    { t: "Las costumbres y el arte de un pueblo.", ops: W_DOS, r: 1, e: "Procesos superiores que se entienden por la cultura." },
+    { t: "Cómo cambia el tiempo de reacción según la tarea.", ops: W_DOS, r: 0, e: "Una medida de laboratorio." }
+  ]);
+  var IM8 = ["Lingüística", "Lógico-matemática", "Espacial", "Musical", "Corporal-cinestésica", "Interpersonal", "Intrapersonal", "Naturalista"];
+  LAB.quiz("ocho-inteligencias-gardner", [
+    { t: "Escribir un cuento que emociona a quien lo lee.", ops: IM8, r: 0, e: "Manejo de las palabras." },
+    { t: "Encontrar el patrón en una serie de números.", ops: IM8, r: 1, e: "Razonamiento y patrones." },
+    { t: "Imaginar cómo quedaría un mueble en un cuarto antes de comprarlo.", ops: IM8, r: 2, e: "Pensar en imágenes y en el espacio." },
+    { t: "Escuchar una canción y reconocer cuándo una nota desafina.", ops: IM8, r: 3, e: "Percibir tonos y melodías." },
+    { t: "Bailar siguiendo un ritmo con precisión.", ops: IM8, r: 4, e: "Usar el cuerpo con habilidad." },
+    { t: "Notar que un amigo está mal aunque diga que no.", ops: IM8, r: 5, e: "Comprender a los demás." },
+    { t: "Reconocer qué te motiva y qué límites tenés.", ops: IM8, r: 6, e: "Conocerse a uno mismo." },
+    { t: "Identificar especies de aves por su canto y su forma.", ops: IM8, r: 7, e: "Reconocer y clasificar elementos de la naturaleza." }
+  ]);
+  LAB.quiz("mitos-inteligencias", [
+    { t: "Gardner publicó su teoría en 1983 y, con el tiempo, su lista llegó a ocho inteligencias.", r: "b", e: "Verdad. Las ocho son las que se mencionan habitualmente." },
+    { t: "La teoría de las inteligencias múltiples está comprobada empíricamente.", r: "a", e: "Mito. Tiene poco respaldo empírico y es muy criticada." },
+    { t: "Enseñar a cada alumno según su estilo de aprendizaje (visual, auditivo, kinestésico) mejora el aprendizaje.", r: "a", e: "Mito. Las revisiones no encontraron evidencia sólida de eso." },
+    { t: "Gardner aclaró que las inteligencias múltiples no son estilos de aprendizaje.", r: "b", e: "Verdad. Son capacidades en distintos dominios, no maneras de aprender." },
+    { t: "Un cuestionario online puede decirte qué tipo de inteligencia tenés.", r: "a", e: "Mito. Esos cuestionarios no están validados para eso." },
+    { t: "Reconocer talentos variados en los alumnos es un aporte valioso de la teoría.", r: "b", e: "Verdad. Es su aporte más reconocido, aun con las críticas." },
+    { t: "Las capacidades cognitivas suelen estar relacionadas entre sí.", r: "b", e: "Verdad. Es uno de los hallazgos que dificulta pensarlas como independientes." }
+  ]);
+  var VIA = ["Eclecticismo técnico", "Integración teórica", "Factores comunes", "Integración asimilativa"];
+  LAB.quiz("vias-integracion", [
+    { t: "Un terapeuta elige, para cada problema, la técnica con mejor respaldo, sin importar de qué escuela venga.", ops: VIA, r: 0, e: "Elegir técnicas según la evidencia, sin una teoría que las una." },
+    { t: "Un equipo construye un marco nuevo que articula dos teorías a nivel conceptual.", ops: VIA, r: 1, e: "Combinar teorías en un marco unificado." },
+    { t: "Un profesional prioriza construir una buena alianza, dar esperanza y mostrar empatía, que se dan en todas las terapias.", ops: VIA, r: 2, e: "Trabajar sobre los ingredientes compartidos." },
+    { t: "Una terapeuta trabaja desde su enfoque de base y suma con criterio una técnica de regulación de otro enfoque.", ops: VIA, r: 3, e: "Asimilar técnicas de otros desde un eje propio." },
+    { t: "Alguien usa un poco de cada cosa según el día, sin eje ni criterio.", ops: VIA.concat(["Ninguna: es mezclar sin criterio"]), r: 4, e: "Eso no es integrar: falta eje teórico y criterio clínico." }
+  ]);
+  var ETA = ["Precontemplación", "Contemplación", "Preparación", "Acción", "Mantenimiento"];
+  LAB.quiz("etapas-cambio-prochaska", [
+    { t: "Dice que no tiene problema con el alcohol y que su familia exagera.", ops: ETA, r: 0, e: "No considera un cambio." },
+    { t: "Sabe que fumar le hace mal, piensa en dejarlo, pero cada vez se convence de que todavía no es momento.", ops: ETA, r: 1, e: "Ambivalencia: ve razones a favor y en contra." },
+    { t: "Eligió una fecha, pidió un turno y avisó en su casa que va a empezar.", ops: ETA, r: 2, e: "Decisión y planificación." },
+    { t: "Hace tres semanas que dejó el cigarrillo y cambió sus rutinas.", ops: ETA, r: 3, e: "Cambios visibles en la conducta y el entorno." },
+    { t: "Hace un año que sostiene el cambio y se prepara para las situaciones de riesgo.", ops: ETA, r: 4, e: "Sostener el cambio y prevenir recaídas." },
+    { t: "Tuvo una recaída y se pregunta qué aprender para la próxima vez.", ops: ETA, r: 4, e: "En el modelo, las recaídas son parte del proceso de mantenimiento." }
+  ]);
 })();

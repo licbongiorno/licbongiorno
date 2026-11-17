@@ -49,6 +49,8 @@ Aun con esas críticas, la idea dejó algo valioso: la invitación a mirar a las
 
 Muchas personas llegan a la adultez convencidas de que «no son inteligentes» porque les costó la escuela, cuando en realidad tienen capacidades que nadie les ayudó a reconocer. Revisar esas creencias es parte del trabajo sobre la [autoestima](/autoestima/). Si querés pensarlo en un espacio propio, podés escribirme.
 
+Para recorrer la teoría con la evidencia a la vista, está el [laboratorio de inteligencias múltiples](/laboratorio-de-inteligencias-multiples/).
+
 ## Preguntas frecuentes
 
 ### ¿Cuáles son las inteligencias múltiples de Gardner?
