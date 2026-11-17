@@ -54,7 +54,7 @@
     },
     {
       "nombre": "Psicoanálisis y apego",
-      "descripcion": "Freud, Klein, Winnicott, Adler, Horney, Bowlby, Fonagy y la escuela rioplatense.",
+      "descripcion": "Freud, Klein, Winnicott, Adler, Horney, Bowlby, Fonagy, la escuela rioplatense y la psicoterapia breve de Fiorini.",
       "rutas": [
         "/laboratorio-recorrido-psicoanalitico/",
         "/laboratorio-psicoanalisis-freud/",
@@ -65,7 +65,11 @@
         "/laboratorio-de-relaciones-y-poder-personal/",
         "/laboratorio-de-flexibilidad-yoica/",
         "/laboratorio-de-adolescentes/",
-        "/laboratorio-de-grupos/"
+        "/laboratorio-de-grupos/",
+        "/laboratorio-de-psicoterapia-breve-focalizada/",
+        "/laboratorio-fiorini-el-foco/",
+        "/laboratorio-fiorini-intervenciones/",
+        "/laboratorio-fiorini-psiquismo-creador/"
       ]
     },
     {

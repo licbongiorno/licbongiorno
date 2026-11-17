@@ -1,0 +1,175 @@
+<!--{
+  "ruta": "/laboratorio-fiorini-el-foco/",
+  "titulo": "El foco y la situación: laboratorio de Héctor Fiorini, nivel 1",
+  "descripcion": "Cómo se arma un foco en la psicoterapia breve de Héctor Fiorini: el motivo de consulta, el conflicto nuclear, los planos de la situación y el foco que cambia.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "El foco y la situación",
+      "/laboratorio-fiorini-el-foco/"
+    ]
+  ],
+  "antetitulo": "Psicoterapia breve focalizada · Nivel 1, básico",
+  "h1": "El foco y <em>la situación</em>",
+  "bajada": "El primer nivel del recorrido por la obra de Héctor Fiorini: cómo pasar de lo que te trae a un eje de trabajo, mirando la situación que hoy vivís.",
+  "respuesta": "El laboratorio El foco y la situación es el primer nivel del recorrido por la obra de Héctor Fiorini (1931-2023), creador de la psicoterapia psicoanalítica breve y focalizada. Propone ejercicios para distinguir las formas del motivo de consulta, pasar del motivo al conflicto nuclear, mirar los planos grupal, caracterológico y social de la situación, reconocer los determinantes actuales y seguir cómo un foco se densifica y cambia. No reemplaza una terapia.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio el foco y la situación",
+  "articulos": [
+    "hector-fiorini",
+    "psicoterapia-breve-focalizada"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>En la psicoterapia breve de Héctor Fiorini, el <strong>foco</strong> es lo que ordena el trabajo. No es un tema elegido al azar ni un síntoma aislado: es un eje que reúne lo que la persona trae, el conflicto que lo sostiene y la situación en la que aparece. Hay quienes lo describieron como un conjunto amplio de información que configura la situación vivencial del paciente.</p><p>Este nivel trabaja esa construcción paso a paso. Es el más cercano a lo que pasa en las primeras entrevistas de una terapia breve.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Del síntoma al sentido.</strong> Lo que te trae es una puerta, no todo el problema.</li><li><strong>Mirar el presente.</strong> Qué de hoy despierta algo de antes.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+<section class="revelar" aria-labelledby="t-niveles" style="margin:2rem 0">
+      <div class="prosa"><h2 id="t-niveles">El recorrido por la obra de Fiorini</h2></div>
+      <div class="lab-necesidades"><a class="lab-tarjeta" href="/laboratorio-de-psicoterapia-breve-focalizada/"><h3>Puerta de entrada: la psicoterapia breve</h3><p>Los tres ejes, el foco, la empresa oculta y el psiquismo creador, en un primer recorrido.</p></a><div class="lab-tarjeta lab-tarjeta--actual"><h3>1. El foco y la situación</h3><p>Del motivo de consulta al conflicto, los tres planos de la situación y un foco que cambia. Estás acá.</p></div><a class="lab-tarjeta" href="/laboratorio-fiorini-intervenciones/"><h3>2. El yo y las intervenciones</h3><p>Las funciones del yo, las once intervenciones verbales, el encuadre y la relación de trabajo.</p></a><a class="lab-tarjeta" href="/laboratorio-fiorini-psiquismo-creador/"><h3>3. El psiquismo creador</h3><p>Los procesos terciarios, la tópica de lo dado a lo posible, forma y movimiento, y el proyecto.</p></a><a class="lab-tarjeta" href="/glosario-fiorini/"><h3>Glosario de conceptos</h3><p>Las palabras clave de Fiorini, explicadas una por una.</p></a></div>
+    </section>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#motivo">El motivo de consulta</a><a href="#formas">Tres formas del motivo</a><a href="#conflicto">Del motivo al conflicto</a><a href="#planos">Los planos de la situación</a><a href="#cual-plano">¿Qué plano es?</a><a href="#actuales">Los determinantes actuales</a><a href="#densifica">Un foco que cambia</a><a href="#siete-dias">Plan de 7 días</a></nav>
+
+    <section class="lab-estacion revelar" id="motivo" aria-labelledby="t-motivo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-motivo">El motivo de consulta</h2>
+      <p class="lab-estacion__bajada">Fiorini partía de lo que la persona dice que la trae. El motivo de consulta tiene un valor especial: es lo que hoy duele lo suficiente como para pedir ayuda, y también lo que más moviliza para trabajar. Conviene escribirlo con las propias palabras, sin traducirlo todavía a teoría.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fi1-motivo" data-lab-form-titulo="Mi motivo de consulta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-palabras">Lo que me trae, con mis palabras</label><textarea class="lab-texto" id="f1-palabras" rows="2" placeholder="Desde que nació mi hija no paro de discutir con mi pareja"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-cuando">¿Desde cuándo? ¿Qué cambió en mi vida en ese momento?</label><textarea class="lab-texto" id="f1-cuando" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-por-que-ahora">¿Por qué ahora? ¿Qué hizo que hoy pida ayuda y no hace seis meses?</label><textarea class="lab-texto" id="f1-por-que-ahora" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-espero">¿Qué espero que cambie?</label><textarea class="lab-texto" id="f1-espero" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="formas" aria-labelledby="t-formas">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-formas">Tres formas del motivo</h2>
+      <p class="lab-estacion__bajada">Fiorini describió que el motivo de consulta suele tomar alguna de estas formas: un <strong>síntoma</strong> que perturba (una angustia, un insomnio, una inhibición), una <strong>crisis</strong> (algo que se rompe o cambia de golpe) o un <strong>fracaso adaptativo</strong> (no poder acomodarse a una exigencia o a un cambio de etapa). Muchas veces se mezclan. ¿Cuál predomina en cada caso?</p>
+      <div class="lab-tarjeta" data-lab-quiz="motivo-fiorini">
+        <p class="lab-tarjeta__titulo">¿Qué forma toma el motivo?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="conflicto" aria-labelledby="t-conflicto">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-conflicto">Del motivo al conflicto</h2>
+      <p class="lab-estacion__bajada">Debajo del motivo suele haber un <strong>conflicto nuclear</strong>: dos deseos que tiran para lados distintos, un deseo y un miedo, dos lealtades. No hace falta resolverlo para nombrarlo. Nombrarlo ya ordena.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fi1-conflicto" data-lab-form-titulo="Del motivo al conflicto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-polo-a">Por un lado quiero…</label><input class="lab-campo" id="f1-polo-a" type="text" autocomplete="off" placeholder="seguir creciendo en el trabajo"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-polo-b">Por otro lado…</label><input class="lab-campo" id="f1-polo-b" type="text" autocomplete="off" placeholder="siento que abandono a mi familia"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-repite">¿Este conflicto apareció antes en mi vida, con otra forma?</label><textarea class="lab-texto" id="f1-repite" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-foco">Mi foco, en una frase: el motivo y el conflicto juntos</label><textarea class="lab-texto" id="f1-foco" rows="2" placeholder="El insomnio aparece cuando crecer se me vive como traicionar"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="planos" aria-labelledby="t-planos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-planos">Los planos de la situación</h2>
+      <p class="lab-estacion__bajada">Para Fiorini, el foco se inscribe siempre en una <strong>situación</strong>, que tiene varios planos. Nadie se enferma en el vacío. Elegí un plano y anotá lo que aparece.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un plano"><label class="opcion"><input type="radio" name="fi1-planos" value="grupal" checked><span>Grupal</span></label><label class="opcion"><input type="radio" name="fi1-planos" value="caracter"><span>Caracterológico</span></label><label class="opcion"><input type="radio" name="fi1-planos" value="social"><span>Contexto social</span></label></div>
+        <div class="lab-panel" data-lab-panel="grupal"><p>Los vínculos y roles en los grupos de pertenencia: la familia, la pareja, el trabajo, los amigos. ¿Qué lugar ocupás? ¿Qué se espera de vos? Aquí se nota la herencia de <a href="/recursos/enrique-pichon-riviere/">Pichon-Rivière</a> y de la psiquiatría social del Lanús.</p></div><div class="lab-panel" data-lab-panel="caracter" hidden><p>Los rasgos propios que se ponen en juego: la exigencia, la complacencia, la evitación, la necesidad de control. No son defectos: son maneras de estar que alguna vez sirvieron y hoy pueden pesar.</p></div><div class="lab-panel" data-lab-panel="social" hidden><p>Lo que viene de más lejos: la economía, el trabajo, la cultura, los mandatos de género, una mudanza, una pandemia. A veces el conflicto personal es también el eco de un momento colectivo.</p></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fi1-planos-form" data-lab-form-titulo="Mi situación en tres planos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-grupal">Plano grupal</label><textarea class="lab-texto" id="f1-grupal" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-caracter">Plano caracterológico</label><textarea class="lab-texto" id="f1-caracter" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-social">Contexto social</label><textarea class="lab-texto" id="f1-social" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="cual-plano" aria-labelledby="t-cual-plano">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-cual-plano">¿Qué plano es?</h2>
+      <p class="lab-estacion__bajada">Un ejercicio rápido para afinar la mirada. ¿A qué plano de la situación apunta cada observación?</p>
+      <div class="lab-tarjeta" data-lab-quiz="situacion-fiorini">
+        <p class="lab-tarjeta__titulo">¿Qué plano de la situación?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="actuales" aria-labelledby="t-actuales">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-actuales">Los determinantes actuales</h2>
+      <p class="lab-estacion__bajada">Una de las apuestas de Fiorini fue mirar los <strong>determinantes actuales</strong> del conflicto, sin perder de vista la historia. La pregunta no es solo «de dónde viene esto», sino también «qué de hoy lo despierta y lo sostiene». Ahí suele haber margen para intervenir en un tiempo acotado.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fi1-actuales" data-lab-form-titulo="Hoy y antes" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-hoy">¿Qué de mi presente reactiva este conflicto? (una persona, una exigencia, un cambio)</label><textarea class="lab-texto" id="f1-hoy" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-antes">¿A qué de mi historia me recuerda?</label><textarea class="lab-texto" id="f1-antes" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-margen">De lo que pasa hoy, ¿qué está en mis manos modificar?</label><textarea class="lab-texto" id="f1-margen" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="densifica" aria-labelledby="t-densifica">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-densifica">Un foco que cambia</h2>
+      <p class="lab-estacion__bajada">El foco no es fijo. Fiorini señaló que, a lo largo del proceso, se va <strong>densificando</strong>: se enriquece con asociaciones, recuerdos y nuevas conexiones, y a veces se desplaza hacia otro eje. Escribí cómo se vería tu foco en tres momentos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fi1-densifica" data-lab-form-titulo="Mi foco en tres momentos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-m1">Al comienzo: lo que hoy puedo decir</label><textarea class="lab-texto" id="f1-m1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-m2">Más adelante: ¿qué recuerdos, vínculos o temas podrían sumarse?</label><textarea class="lab-texto" id="f1-m2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="f1-m3">Al final: ¿qué me gustaría poder decir sobre esto?</label><textarea class="lab-texto" id="f1-m3" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="fiorini-1">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Las palabras.</strong> Escribí tu motivo de consulta tal como se lo dirías a alguien de confianza.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. La forma.</strong> ¿Es más un síntoma, una crisis o algo a lo que no te podés adaptar?</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. ¿Por qué ahora?</strong> Anotá qué pasó en los últimos meses.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Los dos polos.</strong> Nombrá el conflicto: quiero… y por otro lado…</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. El grupo.</strong> Dibujá a las personas que participan de la situación.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Lo actual.</strong> Elegí una cosa de hoy que reactiva el conflicto.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Una frase.</strong> Escribí tu foco en una sola frase.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios ayudan a pensar, pero no reemplazan una psicoterapia: el foco, el encuadre y las intervenciones se arman con un profesional, que evalúa además si un tratamiento breve es lo adecuado para vos. Si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Si querés trabajar con un foco y un tiempo acotado, podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Fiorini, H. J. (1973). <em>Teoría y técnica de psicoterapias</em>. Nueva Visión (19.ª edición ampliada, 2002).</li><li>Ceraldi, T. A. (2024). «La concepción de terapia breve en Héctor Fiorini (1973)». <em>XVI Congreso Internacional de Investigación y Práctica Profesional en Psicología</em>, Facultad de Psicología, UBA.</li><li>Fiorini, H. J. (2015). <em>Foco, situación y proyecto. Otros ejes para una clínica psicoanalítica</em>. Ediciones del Boulevard.</li><li><a href="/glosario-fiorini/">Glosario de conceptos de Héctor Fiorini</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

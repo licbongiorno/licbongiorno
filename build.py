@@ -189,6 +189,9 @@ MOTIVOS = cargar_json("motivos.json")
 FAQ = cargar_json("faq.json")
 RESENAS = cargar_json("resenas.json")
 GLOSARIO = cargar_json("glosario.json")
+GLOSARIO_FIORINI = cargar_json("glosario-fiorini.json")
+GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
+             (GLOSARIO_FIORINI, "/glosario-fiorini/", "Glosario de la psicoterapia breve focalizada de Héctor Fiorini")]
 
 
 # --------------------------------------------------------------------------- Markdown mínimo
@@ -571,6 +574,14 @@ LABORATORIOS = [
      "descripcion": "Diario de sueño con ventana calculada, control de estímulos y restricción del sueño."},
     {"titulo": "Resolver problemas", "ruta": "/laboratorio-de-resolucion-de-problemas/", "tipo": "Resolución de problemas",
      "descripcion": "Un resolvedor guiado en seis pasos, basado en la terapia de D'Zurilla y Nezu y en el programa de la OMS."},
+    {"titulo": "Laboratorio de psicoterapia breve focalizada", "ruta": "/laboratorio-de-psicoterapia-breve-focalizada/", "tipo": "Psicoterapia breve",
+     "descripcion": "Las ideas de Héctor Fiorini: el foco, la situación, las funciones del yo, las intervenciones y el psiquismo creador, para ensayar sobre tu propia consulta."},
+    {"titulo": "El foco y la situación (Fiorini, nivel 1)", "ruta": "/laboratorio-fiorini-el-foco/", "tipo": "Psicoterapia breve",
+     "descripcion": "Del motivo de consulta al conflicto nuclear, los planos de la situación y un foco que cambia, según Héctor Fiorini."},
+    {"titulo": "El yo y las intervenciones (Fiorini, nivel 2)", "ruta": "/laboratorio-fiorini-intervenciones/", "tipo": "Psicoterapia breve",
+     "descripcion": "Las funciones del yo, las once intervenciones verbales del terapeuta, el encuadre y la relación de trabajo."},
+    {"titulo": "El psiquismo creador (Fiorini, nivel 3)", "ruta": "/laboratorio-fiorini-psiquismo-creador/", "tipo": "Psicoterapia breve",
+     "descripcion": "Los procesos terciarios, la tópica de lo dado a lo posible, forma y movimiento, las fases de la creación y el proyecto."},
     {"titulo": "Laboratorio de flexibilidad yoica", "ruta": "/laboratorio-de-flexibilidad-yoica/", "tipo": "Autoconocimiento",
      "descripcion": "Las tres sillas, otras explicaciones posibles, el diálogo con tus voces internas y tus defensas."},
     {"titulo": "Laboratorio de la sabiduría de las emociones", "ruta": "/laboratorio-de-la-sabiduria-de-las-emociones/", "tipo": "Emociones",
@@ -739,7 +750,7 @@ TEMAS_LAB = {
     "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
     "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones", "/laboratorio-de-pensamientos-repetitivos/": "Emociones",
     "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones", "/laboratorio-de-ansiedad-social/": "Emociones", "/laboratorio-de-procrastinacion/": "Aprendizaje y cambio", "/laboratorio-de-crianza/": "Vínculos", "/laboratorio-de-trauma/": "Emociones", "/laboratorio-de-dolor-cronico/": "Cuerpo y respiración", "/laboratorio-de-conductas-compulsivas/": "Aprendizaje y cambio", "/laboratorio-de-psicotanatologia/": "Emociones",
-    "/laboratorio-de-no-violencia-interior/": "Emociones", "/laboratorio-de-buen-trato/": "Vínculos", "/laboratorio-de-violencia-en-el-vinculo/": "Vínculos", "/laboratorio-del-perdon/": "Emociones", "/laboratorio-del-jardinero-interior/": "Emociones", "/laboratorio-de-asertividad/": "Vínculos", "/laboratorio-de-higiene-sensorial/": "Cuerpo y respiración", "/laboratorio-de-flexibilidad-ante-expectativas/": "Enfoques", "/laboratorio-de-resolucion-de-problemas/": "Aprendizaje y cambio", "/laboratorio-plan-de-seguridad/": "Emociones", "/laboratorio-de-alcohol-y-consumos/": "Aprendizaje y cambio", "/laboratorio-de-ataques-de-panico/": "Emociones", "/laboratorio-de-insomnio/": "Cuerpo y respiración", "/laboratorio-meditaciones-del-corazon/": "Emociones", "/laboratorio-de-amor-bondadoso/": "Emociones", "/laboratorio-de-compasion-y-tonglen/": "Emociones", "/laboratorio-de-alegria-empatica/": "Emociones", "/laboratorio-de-ecuanimidad/": "Emociones", "/laboratorio-de-esquemas/": "Enfoques", "/laboratorio-compasion-tres-sistemas/": "Emociones", "/laboratorio-compasion-yo-compasivo/": "Emociones", "/laboratorio-compasion-tres-flujos/": "Emociones", "/laboratorio-de-mentalizacion/": "Vínculos", "/laboratorio-de-psicodrama/": "Enfoques", "/laboratorio-focalizado-en-las-emociones/": "Emociones",
+    "/laboratorio-de-no-violencia-interior/": "Emociones", "/laboratorio-de-buen-trato/": "Vínculos", "/laboratorio-de-violencia-en-el-vinculo/": "Vínculos", "/laboratorio-del-perdon/": "Emociones", "/laboratorio-del-jardinero-interior/": "Emociones", "/laboratorio-de-asertividad/": "Vínculos", "/laboratorio-de-higiene-sensorial/": "Cuerpo y respiración", "/laboratorio-de-flexibilidad-ante-expectativas/": "Enfoques", "/laboratorio-de-psicoterapia-breve-focalizada/": "Enfoques", "/laboratorio-fiorini-el-foco/": "Enfoques", "/laboratorio-fiorini-intervenciones/": "Enfoques", "/laboratorio-fiorini-psiquismo-creador/": "Enfoques", "/laboratorio-de-resolucion-de-problemas/": "Aprendizaje y cambio", "/laboratorio-plan-de-seguridad/": "Emociones", "/laboratorio-de-alcohol-y-consumos/": "Aprendizaje y cambio", "/laboratorio-de-ataques-de-panico/": "Emociones", "/laboratorio-de-insomnio/": "Cuerpo y respiración", "/laboratorio-meditaciones-del-corazon/": "Emociones", "/laboratorio-de-amor-bondadoso/": "Emociones", "/laboratorio-de-compasion-y-tonglen/": "Emociones", "/laboratorio-de-alegria-empatica/": "Emociones", "/laboratorio-de-ecuanimidad/": "Emociones", "/laboratorio-de-esquemas/": "Enfoques", "/laboratorio-compasion-tres-sistemas/": "Emociones", "/laboratorio-compasion-yo-compasivo/": "Emociones", "/laboratorio-compasion-tres-flujos/": "Emociones", "/laboratorio-de-mentalizacion/": "Vínculos", "/laboratorio-de-psicodrama/": "Enfoques", "/laboratorio-focalizado-en-las-emociones/": "Emociones",
     "/laboratorio-de-sombra-y-arquetipos/": "Jung y autoconocimiento", "/laboratorio-recorrido-junguiano/": "Jung y autoconocimiento", "/laboratorio-de-complejos-y-tipos/": "Jung y autoconocimiento", "/laboratorio-de-estres/": "Cuerpo y respiración",
     "/laboratorio-de-descanso/": "Cuerpo y respiración", "/laboratorio-de-habitos/": "Aprendizaje y cambio",
     "/laboratorio-de-respiraciones/": "Cuerpo y respiración", "/laboratorio-de-meditacion/": "Cuerpo y respiración",
@@ -1201,22 +1212,24 @@ def bloque_opiniones():
     return f'<ul class="indice-enfoques" aria-label="Temas">{indice}</ul>' + "".join(out)
 
 
-def bloque_glosario():
+def bloque_glosario(lista=None):
+    lista = GLOSARIO if lista is None else lista
     out = []
-    for t in GLOSARIO:
+    for t in lista:
         out.append(f'''<div class="termino revelar" id="{slug(t["termino"])}">
   <dt>{esc(t["termino"])}{f' <span>{esc(t["original"])}</span>' if t.get("original") else ""}</dt>
   <dd>{"".join(f"<p>{inline_md(p)}</p>" for p in t["definicion"])}</dd>
 </div>''')
-    indice = "".join(f'<li><a href="#{slug(t["termino"])}">{esc(t["termino"])}</a></li>' for t in GLOSARIO)
+    indice = "".join(f'<li><a href="#{slug(t["termino"])}">{esc(t["termino"])}</a></li>' for t in lista)
     return f'<ul class="indice-enfoques" aria-label="Términos">{indice}</ul><dl class="glosario">{"".join(out)}</dl>'
 
 
-def glosario_schema():
-    return {"@type": "DefinedTermSet", "@id": f"{URL}/glosario-junguiano/#glosario", "name": "Glosario de psicología analítica junguiana",
+def glosario_schema(ruta="/glosario-junguiano/"):
+    lista, _, nombre = next(g for g in GLOSARIOS if g[1] == ruta)
+    return {"@type": "DefinedTermSet", "@id": f"{URL}{ruta}#glosario", "name": nombre,
             "inLanguage": C["idioma"],
-            "hasDefinedTerm": [{"@type": "DefinedTerm", "name": t["termino"], "url": f'{URL}/glosario-junguiano/#{slug(t["termino"])}',
-                                "description": re.sub(r"\[(.+?)\]\(.+?\)", r"\1", " ".join(t["definicion"])).replace("*", "")} for t in GLOSARIO]}
+            "hasDefinedTerm": [{"@type": "DefinedTerm", "name": t["termino"], "url": f'{URL}{ruta}#{slug(t["termino"])}',
+                                "description": re.sub(r"\[(.+?)\]\(.+?\)", r"\1", " ".join(t["definicion"])).replace("*", "")} for t in lista]}
 
 
 def bloque_datos_clave():
@@ -1225,7 +1238,7 @@ def bloque_datos_clave():
         ("Profesión", f'{C["profesion"]}, {C["matricula"]} ({C["matricula_entidad"]})'),
         ("Formación de grado", f'Licenciatura en Psicología, {C["facultad"]}, {C["universidad"]}'),
         ("Trayectoria", f'{C["anios_experiencia"].capitalize()} de práctica clínica'),
-        ("Enfoque", "Psicología analítica de C. G. Jung como eje, base psicoanalítica y perspectiva integrativa"),
+        ("Enfoque", "Psicología analítica de C. G. Jung como eje, base psicoanalítica, psicoterapia breve focalizada y perspectiva integrativa"),
         ("Atiende a", "Adolescentes, adultos y adultos mayores"),
         ("Modalidades", f'Presencial en {D["calle"]}, {D["localidad"]}, {D["provincia"]} · Online por videollamada, en español'),
         ("Honorarios", "Atención particular, con factura para solicitar reintegro a la obra social o prepaga"),
@@ -1650,7 +1663,7 @@ def persona_schema():
             "name": f'Matrícula profesional de psicólogo {C["matricula"]}', "identifier": C["matricula"],
             "recognizedBy": {"@type": "Organization", "name": C["matricula_entidad"]}
         },
-        "knowsAbout": ["Psicología analítica de Carl Gustav Jung", "Psicoterapia junguiana", "Psicoanálisis", "Psicoterapia psicodinámica",
+        "knowsAbout": ["Psicología analítica de Carl Gustav Jung", "Psicoterapia junguiana", "Psicoanálisis", "Psicoterapia psicodinámica", "Psicoterapia breve focalizada",
                        "Psicoterapia integrativa", "Ansiedad", "Depresión", "Ataques de pánico", "Duelo",
                        "Dificultades vinculares", "Autoconocimiento"],
         "knowsLanguage": "es",
@@ -1759,7 +1772,7 @@ def pagina(meta, cuerpo, ruta):
     if meta.get("faq_items"):
         grafo.append(faq_schema_items(meta["faq_items"]))
     if meta.get("glosario_schema"):
-        grafo.append(glosario_schema())
+        grafo.append(glosario_schema(meta["ruta"]))
     if meta.get("faq_schema"):
         grafo.append(faq_schema(meta["faq_schema"] if isinstance(meta["faq_schema"], list) else None))
     pag_tipo = meta.get("tipo_pagina", "WebPage")
@@ -2014,6 +2027,7 @@ def reemplazos(cuerpo, ruta):
             '<p class="conversor__resultado" data-conversor-resultado aria-live="polite"></p></div>'),
         "disponibilidad": lambda: ('<p class="disponibilidad entra"><span class="disponibilidad__punto" aria-hidden="true"></span>Recibiendo nuevas consultas · presencial y online</p>' if C.get("recibiendo_consultas") else ""),
         "glosario": bloque_glosario,
+        "glosario_fiorini": lambda: bloque_glosario(GLOSARIO_FIORINI),
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
@@ -2303,8 +2317,8 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         else:
             indice.append({"t": html.unescape(nombres.get(ruta, ruta)), "k": tipo_de_ruta(ruta, rutas_lab), "u": ruta,
                            "d": html.unescape(desc.group(1)) if desc else "", "c": "", "x": texto[:900 if ruta in rutas_lab else 500]})
-    for t in GLOSARIO:
-        indice.append({"t": t["termino"], "k": "Glosario", "u": f"/glosario-junguiano/#{slug(t['termino'])}",
+    for t, ruta_g in [(t, g[1]) for g in GLOSARIOS for t in g[0]]:
+        indice.append({"t": t["termino"], "k": "Glosario", "u": f"{ruta_g}#{slug(t['termino'])}",
                        "d": re.sub(r"\[(.+?)\]\(.+?\)", r"\1", " ".join(t["definicion"])).replace("*", "")[:300], "c": "", "x": ""})
     for q in FAQ:
         r = q["respuesta"] if isinstance(q["respuesta"], str) else " ".join(q["respuesta"])
