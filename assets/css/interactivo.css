@@ -1505,3 +1505,33 @@ a.lab-tarjeta:hover { transform: translateY(-2px); }
   body.imprimiendo-plan .ps-plan .lab-acciones, body.imprimiendo-plan .ps-plan [role="status"] { display: none; }
   body.imprimiendo-plan .ps-plan textarea { border: 1px solid #999; min-height: 4rem; }
 }
+
+/* ---------- Resolvedor de problemas ---------- */
+.rp-progreso { height: 6px; border-radius: 99px; background: var(--salvia-bruma); overflow: hidden; margin-bottom: .6rem; }
+.rp-progreso span { display: block; height: 100%; width: 0; background: var(--salvia-profunda); transition: width .4s var(--ease-out, ease); }
+.rp-estado { margin: 0 0 1rem; font-family: var(--f-sans); font-size: .82rem; font-weight: 600; letter-spacing: .04em; color: var(--piedra-oscura); }
+.rp-paso h3 { margin: 0 0 .5rem; font-size: 1.5rem; }
+.rp-lista { list-style: none; margin: 1rem 0; padding: 0; display: grid; gap: .6rem; }
+.rp-lista li { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .8rem; padding: .7rem .9rem; border-radius: var(--r-s, 10px); border: 1px solid var(--linea); background: var(--papel); }
+.rp-problema__texto { flex: 1 1 14rem; }
+.rp-problema__tipo { flex: 0 1 12rem; padding: .4rem .5rem; }
+.rp-problema__acciones { display: flex; align-items: center; gap: .4rem; }
+.rp-problema--elegido { border-color: var(--salvia-profunda) !important; box-shadow: inset 0 0 0 1px var(--salvia-profunda); }
+.rp-lista--alt li span { flex: 1; }
+.rp-quitar { min-width: 44px; min-height: 44px; border: 0; background: none; font-size: 1.3rem; color: var(--piedra-oscura); cursor: pointer; border-radius: 50%; }
+.rp-quitar:hover { background: var(--salvia-bruma); }
+.rp-vacio { color: var(--piedra-oscura); font-style: italic; border: 0 !important; background: none !important; }
+.rp-idea { margin-top: 1rem; padding: 1rem 1.1rem; border-radius: var(--r-m); background: var(--salvia-bruma); }
+.rp-idea .lab-consigna { margin: .3rem 0 .7rem; }
+.rp-alt { margin: 0 0 1rem; padding: 1rem 1.1rem; border: 1px solid var(--linea); border-radius: var(--r-m); background: var(--papel); }
+.rp-alt legend { padding: 0 .4rem; font-family: var(--f-display); font-size: 1.15rem; }
+.rp-crit { display: grid; grid-template-columns: 1fr auto; gap: .2rem .8rem; align-items: center; margin: .5rem 0; font-size: var(--t-sm); }
+.rp-crit label { grid-column: 1 / -1; }
+.rp-crit input { width: 100%; accent-color: var(--salvia-profunda); }
+.rp-crit output { font-family: var(--f-sans); font-weight: 600; min-width: 1.5rem; text-align: right; }
+.rp-ranking ol { margin: .4rem 0; padding-left: 1.3rem; display: grid; gap: .35rem; }
+.rp-ganadora { color: var(--salvia-profunda); }
+.rp-nav { margin-top: 1.4rem; padding-top: 1rem; border-top: 1px solid var(--linea); }
+.rp-enlace { border: 0; background: none; padding: 0; color: var(--salvia-profunda); font: inherit; font-weight: 600; text-decoration: underline; cursor: pointer; min-height: 44px; }
+.rp-resumen { margin-top: 1rem; padding: 1rem 1.1rem; border-radius: var(--r-m); background: var(--papel); border: 1px dashed var(--linea); }
+.rp-resumen pre { white-space: pre-wrap; font-family: var(--f-sans); font-size: .85rem; margin: 0; }
