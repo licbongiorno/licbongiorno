@@ -275,7 +275,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 1",
   "url": "https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "karen-horney-019",
@@ -380,7 +381,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 3",
   "url": "https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "karen-horney-026",
@@ -703,7 +705,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 10",
   "url": "https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "karen-horney-047",
@@ -763,7 +766,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 5",
   "url": "https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "karen-horney-051",
@@ -778,6 +782,7 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 5",
   "url": "https://archive.org/download/in.ernet.dli.2015.174102/2015.174102.New-Ways-In-Psychoanalysis_djvu.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  }
 ]

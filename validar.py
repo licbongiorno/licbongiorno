@@ -291,8 +291,13 @@ if (VOC / "autores.json").is_file():
                 if c.get("verificada") and not c.get("url"):
                     errores.append(f"{pref} verificada pero sin enlace a la fuente")
                 publicadas += 1
-        if publicadas < 50:
-            avisos.append(f"voces {a['slug']}: {publicadas} citas publicadas (el mínimo de la colección es 50)")
+        minimo = 1 if a.get("derecho_cita") else 50
+        if publicadas < minimo:
+            avisos.append(f"voces {a['slug']}: {publicadas} citas publicadas (el mínimo es {minimo})")
+        if a.get("derecho_cita"):
+            for c in citas_v:
+                if c.get("publicada") and len(c.get("original", "")) > 320:
+                    errores.append(f"voces {c.get('id')}: una cita breve (derecho de cita) no puede superar los 320 caracteres")
         if not existe(f"/recursos/voces-que-nos-habitan/autores/{a['slug']}/"):
             errores.append(f"voces {a['slug']}: no se generó la ficha del autor (corré build.py)")
     if not (PUB / "assets/js/voces-datos.js").is_file():

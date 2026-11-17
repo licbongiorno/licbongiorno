@@ -1,0 +1,92 @@
+[
+ {
+  "id": "irvin-yalom-001",
+  "fuente": "yalom-verdugo",
+  "original": "It's the relationship that heals, the relationship that heals, the relationship that heals",
+  "traduccion": "Es la relación la que cura, la relación la que cura, la relación la que cura.",
+  "temas": [
+   "terapia",
+   "vinculos",
+   "encuentro"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "lovesexecutioner0000yalo",
+   "titulo": "Love's executioner and other tales of psychotherapy",
+   "anio": 1989,
+   "fragmento": "professional.\nIt’s the relationship that heals, the relationship that heals, the relation- ship that heals—my"
+  },
+  "url": "https://archive.org/details/lovesexecutioner0000yalo",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "irvin-yalom-002",
+  "fuente": "yalom-existencial",
+  "original": "Although the physicality of death destroys man, the idea of death saves him.",
+  "traduccion": "Aunque la muerte física destruye al ser humano, la idea de la muerte lo salva.",
+  "temas": [
+   "muerte",
+   "sentido-de-vida"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "existentialpsych0000yalo",
+   "titulo": "Existential psychotherapy",
+   "anio": 1980,
+   "fragmento": "it bears repeating: although the physicality of death destroys man, the idea of death saves him. But"
+  },
+  "url": "https://archive.org/details/existentialpsych0000yalo",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "irvin-yalom-003",
+  "fuente": "yalom-sol",
+  "original": "The more unlived your life, the greater your death anxiety",
+  "traduccion": "Cuanto menos vivida está tu vida, mayor es tu angustia ante la muerte.",
+  "temas": [
+   "muerte",
+   "angustia",
+   "sentido-de-vida"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "staringatsunover0000yalo",
+   "titulo": "Staring at the sun : overcoming the dread of death",
+   "anio": 2011,
+   "fragmento": "life.\nIn other words, the more unlived your life, the greater your death anxiety. The more you fail to"
+  },
+  "url": "https://archive.org/details/staringatsunover0000yalo",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "irvin-yalom-004",
+  "fuente": "yalom-don",
+  "original": "Therapy should not be theory-driven but relationship-driven.",
+  "traduccion": "La terapia no debería guiarse por la teoría, sino por la relación.",
+  "temas": [
+   "terapia",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "giftoftherapy00irvi",
+   "titulo": "The gift of therapy : an open letter to a new generation of therapists and their patients",
+   "anio": 2002,
+   "fragmento": " content  area:  Therapy should  not  be  theory-driven  but  relationship -driven.\nBut  observe  these"
+  },
+  "url": "https://archive.org/details/giftoftherapy00irvi",
+  "fragmento": false,
+  "destacada": true
+ }
+]

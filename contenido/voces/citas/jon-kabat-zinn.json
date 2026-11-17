@@ -1,0 +1,70 @@
+[
+ {
+  "id": "jon-kabat-zinn-001",
+  "fuente": "kz-donde",
+  "original": "Mindfulness means paying attention in a particular way: on purpose, in the present moment, and nonjudgmentally.",
+  "traduccion": "Mindfulness significa prestar atención de una manera particular: a propósito, en el momento presente y sin juzgar.",
+  "temas": [
+   "atencion",
+   "presencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "whereveryougoth000kaba",
+   "titulo": "Wherever you go, there you are : mindfulness meditation in everyday life",
+   "anio": 1994,
+   "fragmento": "applications.  Mindfulness  means paying  attention  in  a  particular  way:  on  purpose,  in  the  present"
+  },
+  "url": "https://archive.org/details/whereveryougoth000kaba",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "jon-kabat-zinn-002",
+  "fuente": "kz-donde",
+  "original": "You can't stop the waves, but you can learn to surf.",
+  "traduccion": "No podés detener las olas, pero podés aprender a surfear.",
+  "temas": [
+   "aceptacion",
+   "regulacion-emocional",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "whereveryougoth000kaba",
+   "titulo": "Wherever you go, there you are : mindfulness meditation in everyday life",
+   "anio": 1994,
+   "fragmento": "Keeping  It  Simple\n29\nYou  Can't  Stop  the  Waves  but  You  Can  Learn  to  Surf\n3°\nCan  Anybody  Meditate …  to  work with  it.\nYou  Can't  Stop  the  Waves  but  You  Can  Learn  to  Surf     J  /\nThe  spirit"
+  },
+  "url": "https://archive.org/details/whereveryougoth000kaba",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "jon-kabat-zinn-003",
+  "fuente": "kz-catastrofe",
+  "original": "As long as you are breathing, there is more right with you than wrong with you",
+  "traduccion": "Mientras respires, hay más cosas bien que mal en vos.",
+  "temas": [
+   "cuerpo",
+   "aceptacion",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "fullcatastrophel0000kaba",
+   "titulo": "Full catastrophe living : using the wisdom of your body and mind to face stress, pain, and illness",
+   "anio": 2005,
+   "fragmento": "assume from the start that as long as you are breathing, there is more right with you than there is wrong"
+  },
+  "url": "https://archive.org/details/fullcatastrophel0000kaba",
+  "fragmento": true,
+  "destacada": true
+ }
+]

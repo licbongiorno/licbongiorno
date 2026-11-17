@@ -1,0 +1,69 @@
+[
+ {
+  "id": "jean-paul-sartre-001",
+  "fuente": "sartre-humanismo",
+  "original": "Man is nothing else but what he makes of himself.",
+  "traduccion": "El ser humano no es otra cosa que lo que hace de sí mismo.",
+  "temas": [
+   "libertad",
+   "responsabilidad",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_C0-AXB-171",
+   "titulo": "existentialism",
+   "anio": 1947,
+   "fragmento": "thrust to- ward existence.\nMan is nothing else but what he makes of himself. Such is the first principle"
+  },
+  "url": "https://archive.org/details/bwb_C0-AXB-171",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "jean-paul-sartre-002",
+  "fuente": "sartre-humanismo",
+  "original": "Man is condemned to be free",
+  "traduccion": "El ser humano está condenado a ser libre.",
+  "temas": [
+   "libertad",
+   "responsabilidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_C0-AXB-171",
+   "titulo": "existentialism",
+   "anio": 1947,
+   "fragmento": "shall try to convey when I say that man is condemned to be free. Con- demned, because he did not create"
+  },
+  "url": "https://archive.org/details/bwb_C0-AXB-171",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "jean-paul-sartre-003",
+  "fuente": "sartre-humanismo",
+  "original": "Existence comes before essence",
+  "traduccion": "La existencia precede a la esencia.",
+  "temas": [
+   "libertad",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "existentialismhu0000sart_a4b1",
+   "titulo": "Existentialism and humanism",
+   "anio": 1973,
+   "fragmento": "simply the fact that they believe that existence comes before essence— or, if you will, that we must begin"
+  },
+  "url": "https://archive.org/details/existentialismhu0000sart_a4b1",
+  "fragmento": true,
+  "destacada": true
+ }
+]

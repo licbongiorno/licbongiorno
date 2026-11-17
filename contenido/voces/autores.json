@@ -152,8 +152,37 @@
   },
   {
    "slug": "donald-winnicott",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2042 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": true,
+   "derecho_cita": true,
+   "nombre": "Donald Winnicott",
+   "nombre_completo": "Donald Woods Winnicott",
+   "nacimiento": "7 de abril de 1896, Plymouth (Inglaterra)",
+   "muerte": "25 de enero de 1971, Londres",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Británico",
+   "idioma": "en",
+   "disciplinas": [
+    "Pediatría",
+    "Psicoanálisis"
+   ],
+   "corriente": "Psicoanálisis, escuela independiente británica",
+   "bio": "Pediatra y psicoanalista inglés. Atendió a miles de madres e hijos, y desde esa experiencia pensó el desarrollo emocional temprano. Sus ideas sobre el juego, el objeto transicional y la madre suficientemente buena cambiaron la forma de entender la infancia y la psicoterapia.",
+   "aportes": [
+    "La madre suficientemente buena",
+    "El objeto y el espacio transicional",
+    "El verdadero y el falso self",
+    "El juego como base de la creatividad y de la psicoterapia",
+    "El ambiente facilitador"
+   ],
+   "obras": [
+    "Escritos de pediatría y psicoanálisis (1958)",
+    "Los procesos de maduración y el ambiente facilitador (1965)",
+    "Realidad y juego (1971)"
+   ],
+   "relacion": "Winnicott es una de las referencias principales del psicoanálisis contemporáneo y de la psicología del desarrollo. Su idea de que no hace falta ser perfecto para criar bien alivia a muchos padres.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "wilfred-bion",
@@ -182,8 +211,38 @@
   },
   {
    "slug": "carl-gustav-jung",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2032 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": true,
+   "derecho_cita": true,
+   "nombre": "Carl Gustav Jung",
+   "nombre_completo": "Carl Gustav Jung",
+   "nacimiento": "26 de julio de 1875, Kesswil (Suiza)",
+   "muerte": "6 de junio de 1961, Küsnacht (Suiza)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Suizo",
+   "idioma": "en",
+   "disciplinas": [
+    "Psiquiatría",
+    "Psicología"
+   ],
+   "corriente": "Psicología analítica",
+   "bio": "Psiquiatra suizo, colaborador cercano de Freud hasta su ruptura en 1913. Fundó la psicología analítica, que exploró el inconsciente colectivo, los arquetipos, los tipos psicológicos y el proceso de individuación. Estudió mitos, religiones, alquimia y sueños como expresiones de la psique.",
+   "aportes": [
+    "El inconsciente colectivo y los arquetipos",
+    "La sombra, la persona, el ánima y el ánimus",
+    "Los tipos psicológicos: introversión y extraversión",
+    "La individuación como camino de desarrollo",
+    "El método de la amplificación y la imaginación activa"
+   ],
+   "obras": [
+    "Transformaciones y símbolos de la libido (1912)",
+    "Tipos psicológicos (1921)",
+    "Psicología y religión (1938)",
+    "Recuerdos, sueños, pensamientos (1962)"
+   ],
+   "relacion": "Muchas ideas de Jung se volvieron parte del lenguaje cotidiano: introvertido, extravertido, complejo, sombra. Su psicología inspira hoy la terapia junguiana, el trabajo con sueños y con la imaginación, y buena parte de la psicología transpersonal.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "erich-neumann",
@@ -227,43 +286,271 @@
   },
   {
    "slug": "clarissa-pinkola-estes",
-   "estado": "pendiente",
-   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Clarissa Pinkola Estés",
+   "nombre_completo": "Clarissa Pinkola Estés",
+   "nacimiento": "27 de enero de 1945, Indiana (Estados Unidos)",
+   "muerte": "",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicoanálisis junguiano",
+    "Narración"
+   ],
+   "corriente": "Psicología analítica",
+   "bio": "Analista junguiana y narradora estadounidense de origen mexicano y húngaro. En Mujeres que corren con los lobos interpretó cuentos y mitos como mapas de la vida psíquica.",
+   "aportes": [
+    "La lectura junguiana de cuentos y mitos",
+    "El arquetipo de la mujer salvaje"
+   ],
+   "obras": [
+    "Mujeres que corren con los lobos (1992)"
+   ],
+   "relacion": "Su obra acercó la psicología junguiana a un público muy amplio.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "erich-fromm",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": true,
+   "derecho_cita": true,
+   "nombre": "Erich Fromm",
+   "nombre_completo": "Erich Seligmann Fromm",
+   "nacimiento": "23 de marzo de 1900, Fráncfort del Meno (Alemania)",
+   "muerte": "18 de marzo de 1980, Muralto (Suiza)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Alemán, nacionalizado estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicoanálisis",
+    "Psicología social",
+    "Filosofía"
+   ],
+   "corriente": "Psicoanálisis humanista",
+   "bio": "Psicoanalista y filósofo social alemán, vinculado a la Escuela de Fráncfort. Emigró a Estados Unidos y luego vivió en México. Unió el psicoanálisis con la crítica social y la ética humanista, y escribió sobre la libertad, el amor y el carácter de las sociedades modernas.",
+   "aportes": [
+    "El miedo a la libertad y los mecanismos de evasión",
+    "El amor como arte que se aprende y se practica",
+    "El carácter social",
+    "La distinción entre tener y ser"
+   ],
+   "obras": [
+    "El miedo a la libertad (1941)",
+    "Ética y psicoanálisis (1947)",
+    "El arte de amar (1956)",
+    "¿Tener o ser? (1976)"
+   ],
+   "relacion": "Fromm llevó el psicoanálisis a la pregunta por cómo vivir bien. El arte de amar sigue siendo uno de los libros más leídos sobre el amor como capacidad que se cultiva.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "carl-rogers",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2058 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": true,
+   "derecho_cita": true,
+   "nombre": "Carl Rogers",
+   "nombre_completo": "Carl Ransom Rogers",
+   "nacimiento": "8 de enero de 1902, Oak Park (Estados Unidos)",
+   "muerte": "4 de febrero de 1987, La Jolla (Estados Unidos)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicología",
+    "Psicoterapia"
+   ],
+   "corriente": "Psicología humanista",
+   "bio": "Psicólogo estadounidense, uno de los fundadores de la psicología humanista. Creó la terapia centrada en la persona, que pone en el centro la experiencia del consultante y la calidad de la relación terapéutica. Fue también pionero en investigar empíricamente la psicoterapia, grabando sesiones.",
+   "aportes": [
+    "La terapia centrada en la persona",
+    "Las condiciones de la relación terapéutica: empatía, aceptación incondicional y congruencia",
+    "La tendencia actualizante",
+    "La investigación sobre el proceso terapéutico"
+   ],
+   "obras": [
+    "Psicoterapia centrada en el cliente (1951)",
+    "El proceso de convertirse en persona (1961)",
+    "Libertad y creatividad en la educación (1969)",
+    "El camino del ser (1980)"
+   ],
+   "relacion": "Las condiciones que describió Rogers, sobre todo la empatía, son hoy de los factores comunes más estudiados de cualquier psicoterapia, más allá de la escuela.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "viktor-frankl",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2068 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": true,
+   "derecho_cita": true,
+   "nombre": "Viktor Frankl",
+   "nombre_completo": "Viktor Emil Frankl",
+   "nacimiento": "26 de marzo de 1905, Viena",
+   "muerte": "2 de septiembre de 1997, Viena",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Austríaco",
+   "idioma": "en",
+   "disciplinas": [
+    "Psiquiatría",
+    "Neurología",
+    "Psicoterapia"
+   ],
+   "corriente": "Logoterapia y análisis existencial",
+   "bio": "Psiquiatra y neurólogo vienés. Sobrevivió a cuatro campos de concentración nazis, donde murieron su esposa, sus padres y su hermano. A partir de esa experiencia escribió El hombre en busca de sentido, uno de los libros de psicología más leídos del siglo XX, y desarrolló la logoterapia, la llamada tercera escuela vienesa de psicoterapia.",
+   "aportes": [
+    "La voluntad de sentido como motivación central del ser humano",
+    "La libertad de elegir la actitud ante el sufrimiento inevitable",
+    "La intención paradójica y la derreflexión como técnicas terapéuticas",
+    "Las tres vías del sentido: crear, vivir y la actitud ante lo inevitable"
+   ],
+   "obras": [
+    "El hombre en busca de sentido (1946)",
+    "Psicoanálisis y existencialismo (1946)",
+    "La voluntad de sentido (1969)",
+    "El hombre doliente (1975)"
+   ],
+   "relacion": "Frankl integró la psiquiatría con la filosofía existencial. Su idea de que encontrar sentido protege frente a la desesperación inspiró desarrollos actuales en psicología positiva, en la terapia de aceptación y compromiso y en el trabajo con el duelo y la enfermedad.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "abraham-maslow",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2041 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Abraham Maslow",
+   "nombre_completo": "Abraham Harold Maslow",
+   "nacimiento": "1 de abril de 1908, Nueva York",
+   "muerte": "8 de junio de 1970, Menlo Park (Estados Unidos)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicología"
+   ],
+   "corriente": "Psicología humanista",
+   "bio": "Psicólogo estadounidense, uno de los fundadores de la psicología humanista y de la transpersonal. En lugar de estudiar solo la enfermedad, estudió a personas sanas y plenas, y propuso una teoría de la motivación que va de las necesidades básicas a la autorrealización.",
+   "aportes": [
+    "La jerarquía de necesidades",
+    "La autorrealización",
+    "Las experiencias cumbre",
+    "La psicología de la salud y no solo de la enfermedad"
+   ],
+   "obras": [
+    "Motivación y personalidad (1954)",
+    "El hombre autorrealizado (1962)",
+    "La psicología de la ciencia (1966)",
+    "La personalidad creadora (1971)"
+   ],
+   "relacion": "La pirámide de necesidades es una de las imágenes más difundidas de la psicología, aunque Maslow nunca la dibujó como pirámide. Su interés por lo sano anticipó a la psicología positiva.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "rollo-may",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2065 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Rollo May",
+   "nombre_completo": "Rollo Reece May",
+   "nacimiento": "21 de abril de 1909, Ada (Estados Unidos)",
+   "muerte": "22 de octubre de 1994, Tiburon (Estados Unidos)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicología",
+    "Psicoterapia"
+   ],
+   "corriente": "Psicología existencial",
+   "bio": "Psicólogo estadounidense que introdujo la psicología existencial en su país. Escribió sobre la angustia, el amor, la voluntad, la libertad y el coraje, y sobre el vacío y la apatía de la vida moderna.",
+   "aportes": [
+    "La psicología existencial en Estados Unidos",
+    "La angustia normal y la angustia neurótica",
+    "El coraje de ser y de crear",
+    "La relación entre amor y voluntad"
+   ],
+   "obras": [
+    "El significado de la ansiedad (1950)",
+    "El hombre en busca de sí mismo (1953)",
+    "Amor y voluntad (1969)",
+    "El coraje de crear (1975)"
+   ],
+   "relacion": "May mostró que la angustia no es solo un síntoma, sino también una señal de la libertad y de las posibilidades propias. Influyó en Irvin Yalom y en toda la psicoterapia existencial.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "irvin-yalom",
-   "estado": "pendiente",
-   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Irvin Yalom",
+   "nombre_completo": "Irvin David Yalom",
+   "nacimiento": "13 de junio de 1931, Washington D. C.",
+   "muerte": "",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psiquiatría",
+    "Psicoterapia"
+   ],
+   "corriente": "Psicoterapia existencial",
+   "bio": "Psiquiatra estadounidense, profesor emérito de la Universidad de Stanford. Sistematizó la psicoterapia existencial en torno a cuatro preocupaciones últimas, la muerte, la libertad, el aislamiento y el sentido, y escribió obras de referencia sobre terapia de grupo, además de novelas y relatos de casos.",
+   "aportes": [
+    "Las cuatro preocupaciones últimas",
+    "Los factores terapéuticos de los grupos",
+    "La relación terapéutica como lo que cura"
+   ],
+   "obras": [
+    "Psicoterapia existencial (1980)",
+    "Teoría y práctica de la psicoterapia de grupo (1970)",
+    "El verdugo del amor (1989)",
+    "El don de la terapia (2002)",
+    "Mirar al sol (2008)"
+   ],
+   "relacion": "Yalom acercó la psicoterapia a un público amplio con relatos de casos y novelas, y su manual de terapia de grupo se usa en la formación de terapeutas de todo el mundo.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "fritz-perls",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2041 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Fritz Perls",
+   "nombre_completo": "Friedrich Salomon Perls",
+   "nacimiento": "8 de julio de 1893, Berlín",
+   "muerte": "14 de marzo de 1970, Chicago",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Alemán, nacionalizado estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psiquiatría",
+    "Psicoterapia"
+   ],
+   "corriente": "Terapia Gestalt",
+   "bio": "Psiquiatra y psicoanalista alemán que, junto con Laura Perls y Paul Goodman, creó la terapia Gestalt. Puso el foco en el darse cuenta, en el aquí y ahora y en la responsabilidad de cada uno por su experiencia.",
+   "aportes": [
+    "La terapia Gestalt",
+    "El darse cuenta como herramienta terapéutica",
+    "El trabajo en el aquí y ahora",
+    "La silla vacía y el trabajo con sueños como partes de uno"
+   ],
+   "obras": [
+    "Yo, hambre y agresión (1942)",
+    "Terapia Gestalt (1951, con Hefferline y Goodman)",
+    "Sueños y existencia (1969)",
+    "Dentro y fuera del tarro de la basura (1969)"
+   ],
+   "relacion": "La terapia Gestalt aportó técnicas que hoy usan muchas escuelas, como la silla vacía, retomada por la terapia focalizada en las emociones.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "laura-perls",
@@ -272,8 +559,34 @@
   },
   {
    "slug": "eric-berne",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2041 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Eric Berne",
+   "nombre_completo": "Eric Berne",
+   "nacimiento": "10 de mayo de 1910, Montreal",
+   "muerte": "15 de julio de 1970, Carmel (Estados Unidos)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Canadiense, nacionalizado estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psiquiatría"
+   ],
+   "corriente": "Análisis transaccional",
+   "bio": "Psiquiatra canadiense, creador del análisis transaccional. Describió los estados del yo Padre, Adulto y Niño, y los juegos psicológicos que las personas repiten en sus relaciones.",
+   "aportes": [
+    "Los estados del yo",
+    "El análisis de las transacciones",
+    "Los juegos psicológicos",
+    "El guion de vida"
+   ],
+   "obras": [
+    "Análisis transaccional en psicoterapia (1961)",
+    "Juegos en que participamos (1964)"
+   ],
+   "relacion": "El análisis transaccional ofreció un lenguaje simple para pensar las relaciones, que se usa en terapia, educación y organizaciones.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "claudio-naranjo",
@@ -307,8 +620,34 @@
   },
   {
    "slug": "martin-seligman",
-   "estado": "pendiente",
-   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Martin Seligman",
+   "nombre_completo": "Martin Elias Peter Seligman",
+   "nacimiento": "12 de agosto de 1942, Albany (Estados Unidos)",
+   "muerte": "",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicología"
+   ],
+   "corriente": "Psicología positiva",
+   "bio": "Psicólogo estadounidense. Estudió la indefensión aprendida y el estilo explicativo, y como presidente de la Asociación Estadounidense de Psicología impulsó la psicología positiva.",
+   "aportes": [
+    "La indefensión aprendida",
+    "El estilo explicativo optimista y pesimista",
+    "La psicología positiva"
+   ],
+   "obras": [
+    "Aprenda optimismo (1990)",
+    "La auténtica felicidad (2002)",
+    "La vida que florece (2011)"
+   ],
+   "relacion": "Seligman cambió el foco de buena parte de la investigación psicológica hacia el bienestar y las fortalezas.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "marsha-linehan",
@@ -317,8 +656,35 @@
   },
   {
    "slug": "jon-kabat-zinn",
-   "estado": "pendiente",
-   "motivo": "Autor vivo o con fechas inciertas: obra protegida o de autoría difícil de establecer. Requiere decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Jon Kabat-Zinn",
+   "nombre_completo": "Jon Kabat-Zinn",
+   "nacimiento": "5 de junio de 1944, Nueva York",
+   "muerte": "",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Medicina",
+    "Biología molecular",
+    "Mindfulness"
+   ],
+   "corriente": "Mindfulness",
+   "bio": "Biólogo molecular y profesor de medicina en la Universidad de Massachusetts. En 1979 creó el programa de reducción del estrés basado en mindfulness (MBSR), que llevó la meditación al ámbito hospitalario y a la investigación científica.",
+   "aportes": [
+    "El programa MBSR de reducción del estrés",
+    "Una definición operativa de mindfulness",
+    "La integración de la meditación en la medicina"
+   ],
+   "obras": [
+    "Vivir con plenitud las crisis (1990)",
+    "Mindfulness en la vida cotidiana (1994)"
+   ],
+   "relacion": "El MBSR dio origen a la terapia cognitiva basada en mindfulness y a buena parte de la investigación actual sobre atención plena.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "steven-c-hayes",
@@ -327,8 +693,35 @@
   },
   {
    "slug": "gregory-bateson",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Gregory Bateson",
+   "nombre_completo": "Gregory Bateson",
+   "nacimiento": "9 de mayo de 1904, Grantchester (Inglaterra)",
+   "muerte": "4 de julio de 1980, San Francisco",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Británico, nacionalizado estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Antropología",
+    "Cibernética",
+    "Epistemología"
+   ],
+   "corriente": "Pensamiento sistémico",
+   "bio": "Antropólogo y pensador británico. Aplicó la cibernética a la comunicación humana y a la psiquiatría, propuso la teoría del doble vínculo y fue una influencia fundamental de la escuela de Palo Alto y de la terapia familiar.",
+   "aportes": [
+    "La teoría del doble vínculo",
+    "La aplicación de la cibernética a la comunicación",
+    "Una ecología de la mente"
+   ],
+   "obras": [
+    "Pasos hacia una ecología de la mente (1972)",
+    "Espíritu y naturaleza (1979)"
+   ],
+   "relacion": "Bateson es una de las raíces de la terapia sistémica y de la idea de que los problemas viven en los patrones de relación.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "murray-bowen",
@@ -342,8 +735,35 @@
   },
   {
    "slug": "paul-watzlawick",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2078 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Paul Watzlawick",
+   "nombre_completo": "Paul Watzlawick",
+   "nacimiento": "25 de julio de 1921, Villach (Austria)",
+   "muerte": "31 de marzo de 2007, Palo Alto (Estados Unidos)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Austríaco, nacionalizado estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicología",
+    "Psicoterapia"
+   ],
+   "corriente": "Escuela de Palo Alto",
+   "bio": "Psicólogo y filósofo austríaco, miembro del Mental Research Institute de Palo Alto. Estudió la comunicación humana y el cambio, y escribió libros muy populares sobre cómo nos complicamos la vida.",
+   "aportes": [
+    "Los axiomas de la comunicación humana",
+    "Las soluciones intentadas",
+    "El cambio de primer y de segundo orden"
+   ],
+   "obras": [
+    "Teoría de la comunicación humana (1967)",
+    "Cambio (1974)",
+    "El arte de amargarse la vida (1983)"
+   ],
+   "relacion": "Watzlawick es una referencia central de la terapia sistémica breve.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "salvador-minuchin",
@@ -357,13 +777,69 @@
   },
   {
    "slug": "erik-erikson",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2065 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Erik Erikson",
+   "nombre_completo": "Erik Homburger Erikson",
+   "nacimiento": "15 de junio de 1902, Fráncfort del Meno (Alemania)",
+   "muerte": "12 de mayo de 1994, Harwich (Estados Unidos)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Alemán, nacionalizado estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Psicoanálisis",
+    "Psicología del desarrollo"
+   ],
+   "corriente": "Psicología del yo",
+   "bio": "Psicoanalista formado en Viena con Anna Freud, emigró a Estados Unidos. Propuso que el desarrollo psicológico continúa toda la vida, en ocho etapas con sus crisis, y acuñó la idea de crisis de identidad.",
+   "aportes": [
+    "Las ocho etapas del desarrollo psicosocial",
+    "La crisis de identidad en la adolescencia",
+    "La generatividad y la integridad en la adultez"
+   ],
+   "obras": [
+    "Infancia y sociedad (1950)",
+    "Identidad, juventud y crisis (1968)",
+    "Ética y psicoanálisis (1964)"
+   ],
+   "relacion": "Erikson es una referencia básica de la psicología del desarrollo y de la adolescencia, y amplió el psicoanálisis hacia lo social y lo cultural.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "john-bowlby",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2061 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "John Bowlby",
+   "nombre_completo": "Edward John Mostyn Bowlby",
+   "nacimiento": "26 de febrero de 1907, Londres",
+   "muerte": "2 de septiembre de 1990, isla de Skye (Escocia)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Británico",
+   "idioma": "en",
+   "disciplinas": [
+    "Psiquiatría",
+    "Psicoanálisis"
+   ],
+   "corriente": "Teoría del apego",
+   "bio": "Psiquiatra y psicoanalista británico, creador de la teoría del apego. Estudió las consecuencias de la separación temprana y propuso que el vínculo con quienes nos cuidan es una necesidad básica, no un derivado de la alimentación.",
+   "aportes": [
+    "La teoría del apego",
+    "La base segura",
+    "Los modelos internos de trabajo",
+    "El estudio de la separación y la pérdida"
+   ],
+   "obras": [
+    "El apego (1969)",
+    "La separación (1973)",
+    "La pérdida (1980)",
+    "Una base segura (1988)"
+   ],
+   "relacion": "La teoría del apego es hoy una de las más investigadas de la psicología y orienta el trabajo con niños, familias y parejas.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "mary-ainsworth",
@@ -474,8 +950,34 @@
   },
   {
    "slug": "wilhelm-reich",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2028 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Wilhelm Reich",
+   "nombre_completo": "Wilhelm Reich",
+   "nacimiento": "24 de marzo de 1897, Dobzau (Galitzia)",
+   "muerte": "3 de noviembre de 1957, Lewisburg (Estados Unidos)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Austríaco",
+   "idioma": "en",
+   "disciplinas": [
+    "Psiquiatría",
+    "Psicoanálisis"
+   ],
+   "corriente": "Psicoterapia corporal",
+   "bio": "Psicoanalista austríaco, discípulo de Freud. Estudió cómo el carácter se expresa en el cuerpo, en lo que llamó coraza muscular, y fundó las terapias corporales. Sus últimas teorías fueron muy controvertidas.",
+   "aportes": [
+    "El análisis del carácter",
+    "La coraza muscular",
+    "La relación entre cuerpo y emoción"
+   ],
+   "obras": [
+    "Análisis del carácter (1933)",
+    "La función del orgasmo (1942)"
+   ],
+   "relacion": "Reich es el origen de las psicoterapias corporales, como la bioenergética de Alexander Lowen.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "marie-langer",
@@ -785,8 +1287,35 @@
   },
   {
    "slug": "martin-buber",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2036 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Martin Buber",
+   "nombre_completo": "Martin Mordechai Buber",
+   "nacimiento": "8 de febrero de 1878, Viena",
+   "muerte": "13 de junio de 1965, Jerusalén",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Austríaco, luego israelí",
+   "idioma": "en",
+   "disciplinas": [
+    "Filosofía",
+    "Teología"
+   ],
+   "corriente": "Filosofía del diálogo",
+   "bio": "Filósofo de origen austríaco que vivió en Alemania y luego en Jerusalén. Su obra Yo y tú distingue la relación Yo-Tú, de encuentro pleno, de la relación Yo-Ello, que trata al otro como objeto.",
+   "aportes": [
+    "La relación Yo-Tú y la relación Yo-Ello",
+    "La filosofía del diálogo",
+    "El encuentro como dimensión central de la existencia"
+   ],
+   "obras": [
+    "Yo y tú (1923)",
+    "Diálogo (1932)",
+    "¿Qué es el hombre? (1942)"
+   ],
+   "relacion": "Buber influyó en Carl Rogers, con quien dialogó en público en 1957, y en la Gestalt y la psicoterapia existencial, que piensan la relación terapéutica como encuentro.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "rene-descartes",
@@ -861,8 +1390,36 @@
   },
   {
    "slug": "jean-paul-sartre",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2051 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Jean-Paul Sartre",
+   "nombre_completo": "Jean-Paul Charles Aymard Sartre",
+   "nacimiento": "21 de junio de 1905, París",
+   "muerte": "15 de abril de 1980, París",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Francés",
+   "idioma": "en",
+   "disciplinas": [
+    "Filosofía",
+    "Literatura"
+   ],
+   "corriente": "Existencialismo",
+   "bio": "Filósofo, novelista y dramaturgo francés, figura central del existencialismo. Sostuvo que la existencia precede a la esencia: el ser humano no tiene una naturaleza dada, sino que se hace a sí mismo con sus elecciones.",
+   "aportes": [
+    "La existencia precede a la esencia",
+    "La libertad y la responsabilidad radicales",
+    "La mala fe",
+    "El psicoanálisis existencial"
+   ],
+   "obras": [
+    "El ser y la nada (1943)",
+    "El existencialismo es un humanismo (1946)",
+    "A puerta cerrada (1944)"
+   ],
+   "relacion": "Sartre influyó en la psicoterapia existencial y en la idea de que somos responsables de lo que hacemos con lo que nos pasó.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "maurice-merleau-ponty",
@@ -968,8 +1525,34 @@
   },
   {
    "slug": "eugene-gendlin",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2088 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Eugene Gendlin",
+   "nombre_completo": "Eugene Tovio Gendlin",
+   "nacimiento": "25 de diciembre de 1926, Viena",
+   "muerte": "1 de mayo de 2017, Nueva York",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Austríaco, nacionalizado estadounidense",
+   "idioma": "en",
+   "disciplinas": [
+    "Filosofía",
+    "Psicología"
+   ],
+   "corriente": "Focusing, psicología experiencial",
+   "bio": "Filósofo y psicólogo, colaborador de Carl Rogers. Investigando qué tenían en común los pacientes a los que la terapia les servía, descubrió la capacidad de atender a la sensación sentida del cuerpo, y desarrolló el focusing.",
+   "aportes": [
+    "El focusing",
+    "La sensación sentida",
+    "La filosofía de lo implícito"
+   ],
+   "obras": [
+    "Focusing (1978)",
+    "Focusing-Oriented Psychotherapy (1996)"
+   ],
+   "relacion": "El focusing influyó en la terapia focalizada en las emociones y en las terapias corporales.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "stanislav-grof",
@@ -983,8 +1566,34 @@
   },
   {
    "slug": "roberto-assagioli",
-   "estado": "pendiente",
-   "motivo": "Obra protegida por derechos de autor hasta el 2045 (vida + 70 años, Ley 11.723). Pendiente de decisión editorial."
+   "estado": "incorporado",
+   "incorporado": "2026-11-17",
+   "destacado": false,
+   "derecho_cita": true,
+   "nombre": "Roberto Assagioli",
+   "nombre_completo": "Roberto Assagioli",
+   "nacimiento": "27 de febrero de 1888, Venecia",
+   "muerte": "23 de agosto de 1974, Capolona (Italia)",
+   "epoca": "contemporaneo",
+   "nacionalidad": "Italiano",
+   "idioma": "en",
+   "disciplinas": [
+    "Psiquiatría"
+   ],
+   "corriente": "Psicosíntesis",
+   "bio": "Psiquiatra italiano, uno de los primeros en introducir el psicoanálisis en Italia. Creó la psicosíntesis, que integra el trabajo con el inconsciente con el desarrollo de la voluntad y de la dimensión espiritual.",
+   "aportes": [
+    "La psicosíntesis",
+    "La desidentificación",
+    "El yo y el yo superior",
+    "El papel de la voluntad"
+   ],
+   "obras": [
+    "Psicosíntesis (1965)",
+    "El acto de voluntad (1973)"
+   ],
+   "relacion": "Assagioli es uno de los precursores de la psicología transpersonal.",
+   "nota_citas": "Su obra está protegida por derechos de autor: reunimos solo citas breves, verificadas palabra por palabra en ediciones digitalizadas de sus libros, con traducción propia."
   },
   {
    "slug": "sandor-ferenczi",

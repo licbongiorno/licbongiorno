@@ -1,0 +1,47 @@
+[
+ {
+  "id": "john-bowlby-001",
+  "fuente": "bowlby-perdida",
+  "original": "Intimate attachments to other human beings are the hub around which a person's life revolves",
+  "traduccion": "Los vínculos íntimos con otros seres humanos son el eje alrededor del cual gira la vida de una persona.",
+  "temas": [
+   "vinculos",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "losssadnessdepre0000bowl",
+   "titulo": "Loss : sadness and depression",
+   "anio": null,
+   "fragmento": "rely.\n441\nEPILOGUE\nIntimate attachments to other human beings are the hub around which a person’s life"
+  },
+  "url": "https://archive.org/details/losssadnessdepre0000bowl",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "john-bowlby-002",
+  "fuente": "bowlby-base",
+  "original": "A secure base from which a child or an adolescent can make sorties into the outside world and to which he can return knowing for sure that he will be welcomed when he gets there",
+  "traduccion": "Una base segura desde la cual un niño o un adolescente puede hacer salidas al mundo exterior, y a la cual puede volver sabiendo con certeza que, al llegar, será bien recibido.",
+  "temas": [
+   "infancia",
+   "vinculos",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "securebase00john",
+   "titulo": "A secure base : parent-child attachment and healthy human development",
+   "anio": 1988,
+   "fragmento": "by  both  parents  of  a   secure  base  from  which  a child  or  an  adolescent  can  make  sorties "
+  },
+  "url": "https://archive.org/details/securebase00john",
+  "fragmento": true,
+  "destacada": true
+ }
+]

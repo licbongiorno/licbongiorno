@@ -1,0 +1,23 @@
+[
+ {
+  "id": "clarissa-pinkola-estes-001",
+  "fuente": "estes-lobos",
+  "original": "Be wild; that is how to clear the river.",
+  "traduccion": "Sé salvaje: así se limpia el río.",
+  "temas": [
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "isbn_2000015296663",
+   "titulo": "Women Who Run With the Wolves",
+   "anio": 1995,
+   "fragmento": " not saying, doing, or being.\nBe wild; that is how to clear the river. In its original form, the river"
+  },
+  "url": "https://archive.org/details/isbn_2000015296663",
+  "fragmento": false,
+  "destacada": true
+ }
+]

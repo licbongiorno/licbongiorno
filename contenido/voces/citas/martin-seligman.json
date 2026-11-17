@@ -1,0 +1,68 @@
+[
+ {
+  "id": "martin-seligman-001",
+  "fuente": "seligman-optimismo",
+  "original": "The defining characteristic of pessimists is that they tend to believe bad events will last a long time, will undermine everything they do, and are their own fault.",
+  "traduccion": "Lo que define a los pesimistas es que tienden a creer que los malos acontecimientos van a durar mucho, van a arruinar todo lo que hacen y son culpa suya.",
+  "temas": [
+   "resiliencia",
+   "culpa"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "learnedoptimism0000mart",
+   "titulo": "Learned Optimism",
+   "anio": 1991,
+   "fragmento": "twenty-five years. The defining characteristic of pessimists is that they tend to believe bad events"
+  },
+  "url": "https://archive.org/details/learnedoptimism0000mart",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "martin-seligman-002",
+  "fuente": "seligman-optimismo",
+  "original": "Habits of thinking need not be forever.",
+  "traduccion": "Los hábitos de pensamiento no tienen por qué ser para siempre.",
+  "temas": [
+   "habitos",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "isbn_9781400078394",
+   "titulo": "Learned optimism : how to change your mind and your life",
+   "anio": 2006,
+   "fragmento": " bad  events  in  her life.\nHabits  of  thinking  need  not  be  forever.  One  of  the  most  significant"
+  },
+  "url": "https://archive.org/details/isbn_9781400078394",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "martin-seligman-003",
+  "fuente": "seligman-optimismo",
+  "original": "Pessimism is escapable.",
+  "traduccion": "Del pesimismo se puede salir.",
+  "temas": [
+   "cambio",
+   "resiliencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "isbn_9781400078394",
+   "titulo": "Learned optimism : how to change your mind and your life",
+   "anio": 2006,
+   "fragmento": "permanent. I   have  found,  however,  that  pessimism  is  escapable.  Pessimists  can  in  fact learn  to"
+  },
+  "url": "https://archive.org/details/isbn_9781400078394",
+  "fragmento": false,
+  "destacada": true
+ }
+]

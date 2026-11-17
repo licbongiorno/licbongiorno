@@ -1,0 +1,92 @@
+[
+ {
+  "id": "abraham-maslow-001",
+  "fuente": "maslow-motivacion",
+  "original": "What a man can be, he must be.",
+  "traduccion": "Lo que una persona puede ser, tiene que serlo.",
+  "temas": [
+   "desarrollo-humano",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "motivation00masl",
+   "titulo": "Motivation and Personality",
+   "anio": 1954,
+   "fragmento": "ultimately  at  peace  with  himself.  What  a  man can  be,  he  must  be.  This  need  we  may  call  self-actualization"
+  },
+  "url": "https://archive.org/details/motivation00masl",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "abraham-maslow-002",
+  "fuente": "maslow-motivacion",
+  "original": "A musician must make music, an artist must paint, a poet must write, if he is to be ultimately at peace with himself.",
+  "traduccion": "Un músico tiene que hacer música, un pintor tiene que pintar, un poeta tiene que escribir, si quiere, en definitiva, estar en paz consigo mismo.",
+  "temas": [
+   "autenticidad",
+   "trabajo",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "motivation00masl",
+   "titulo": "Motivation and Personality",
+   "anio": 1954,
+   "fragmento": "he  is  fitted  for.  A musician  must  make  music,  an  artist  must  paint,  a  poet  must write,  if"
+  },
+  "url": "https://archive.org/details/motivation00masl",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "abraham-maslow-003",
+  "fuente": "maslow-ciencia",
+  "original": "I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.",
+  "traduccion": "Supongo que, si la única herramienta que tenés es un martillo, es tentador tratar todo como si fuera un clavo.",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "psychologyofscie00masl",
+   "titulo": "The psychology of science; a reconnaissance",
+   "anio": 1966,
+   "fragmento": "bile to  be  washed.  I  suppose  it  is  tempting,  if  the  only  tool  you\n16  THE  PSYCHOLOGY  OF"
+  },
+  "url": "https://archive.org/details/psychologyofscie00masl",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "abraham-maslow-004",
+  "fuente": "maslow-ciencia",
+  "original": "One can choose to go back toward safety or forward toward growth",
+  "traduccion": "Uno puede elegir volver hacia la seguridad o avanzar hacia el crecimiento.",
+  "temas": [
+   "miedo",
+   "transformacion-personal",
+   "libertad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "psychologyofscie00abra",
+   "titulo": "The psychology of science : a reconnaissance",
+   "anio": 1966,
+   "fragmento": "each  of  which  one  can  choose  to go  back  toward  safety  or  forward  toward  growth.  Growth must"
+  },
+  "url": "https://archive.org/details/psychologyofscie00abra",
+  "fragmento": true,
+  "destacada": true
+ }
+]

@@ -157,6 +157,13 @@ def verificar():
             if c.get("tipo") in ("dudosa", "parafrasis"):
                 c["verificada"] = False
                 continue
+            if FUENTES.get(c["fuente"], {}).get("verificacion") == "ia-fts":
+                # Obra protegida: se verifica con herramientas/verificar_voces_fts.py (Internet Archive).
+                if c.get("verificada"):
+                    ok += 1
+                else:
+                    fallas.append(c["id"])
+                continue
             r = buscar(c["fuente"], c["original"]) if (CACHE / f"{c['fuente']}.txt").exists() else None
             if r:
                 crudo = fuente(c["fuente"])[0]

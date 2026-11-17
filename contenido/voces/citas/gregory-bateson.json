@@ -1,0 +1,68 @@
+[
+ {
+  "id": "gregory-bateson-001",
+  "fuente": "bateson-pasos",
+  "original": "A difference which makes a difference",
+  "traduccion": "Una diferencia que hace una diferencia.",
+  "temas": [
+   "conocimiento",
+   "cambio"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_S0-BUN-629",
+   "titulo": "STEPS TO AN ECOLOGY OF MIND",
+   "anio": null,
+   "fragmento": "of information is definable as a difference which makes a difference. Such a difference, as it travels … differences. And, as noted above, a difference which makes a difference is an idea or unit of information"
+  },
+  "url": "https://archive.org/details/bwb_S0-BUN-629",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "gregory-bateson-002",
+  "fuente": "bateson-mente",
+  "original": "The map is not the territory, and the name is not the thing named",
+  "traduccion": "El mapa no es el territorio, y el nombre no es la cosa nombrada.",
+  "temas": [
+   "conocimiento",
+   "verdad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "mindnaturenecess0000bate",
+   "titulo": "Mind and nature : a necessary unity",
+   "anio": 1979,
+   "fragmento": "probes; it does not prove.\n2. THE MAP IS NOT THE TERRITORY, AND THE NAME IS NOT THE THING NAMED\nThis principle"
+  },
+  "url": "https://archive.org/details/mindnaturenecess0000bate",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "gregory-bateson-003",
+  "fuente": "bateson-mente",
+  "original": "The pattern which connects",
+  "traduccion": "La pauta que conecta.",
+  "temas": [
+   "conocimiento",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "mindnaturenecess0000bate",
+   "titulo": "Mind and nature : a necessary unity",
+   "anio": 1979,
+   "fragmento": "book.\nThe pattern which connects. Why do schools teach almost nothing of the pattern which connects? Is … TTS ED Se a 7 # INTRODUCTION\n~\n“Break the pattern which connects the items of learning and you necessarily"
+  },
+  "url": "https://archive.org/details/mindnaturenecess0000bate",
+  "fragmento": true,
+  "destacada": true
+ }
+]

@@ -1,0 +1,68 @@
+[
+ {
+  "id": "martin-buber-001",
+  "fuente": "buber-yo-tu",
+  "original": "All real living is meeting.",
+  "traduccion": "Toda vida verdadera es encuentro.",
+  "temas": [
+   "encuentro",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "IAndThou",
+   "titulo": "I And Thou",
+   "anio": null,
+   "fragmento": "the Thou ; as I become /, I say Thou.\nAll real living is meeting.\n*\nThe relation to the Thou is direct"
+  },
+  "url": "https://archive.org/details/IAndThou",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "martin-buber-002",
+  "fuente": "buber-yo-tu",
+  "original": "In the beginning is relation.",
+  "traduccion": "En el principio es la relación.",
+  "temas": [
+   "vinculos",
+   "encuentro"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "IAndThou",
+   "titulo": "I And Thou",
+   "anio": null,
+   "fragmento": "profoundly twofold, confusedly entangled.\n★\nIn the beginning is relation.\nConsider the speech of “ primitive … and the connected partners separated. In the beginning is relation—as category of being, readiness, grasping"
+  },
+  "url": "https://archive.org/details/IAndThou",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "martin-buber-003",
+  "fuente": "buber-yo-tu",
+  "original": "Through the Thou a man becomes I.",
+  "traduccion": "Es a través del Tú que el ser humano se vuelve Yo.",
+  "temas": [
+   "encuentro",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "ithou0000unse",
+   "titulo": "I and Thou",
+   "anio": 1958,
+   "fragmento": " out  of  this  primal  world.\nThrough  the  Thou  a  man  becomes  I.  That  which confronts  him  comes"
+  },
+  "url": "https://archive.org/details/ithou0000unse",
+  "fragmento": false,
+  "destacada": true
+ }
+]

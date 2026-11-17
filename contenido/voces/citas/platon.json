@@ -14,7 +14,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://www.gutenberg.org/cache/epub/1656/pg1656.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "platon-002",
@@ -31,7 +32,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://www.gutenberg.org/cache/epub/1656/pg1656.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "platon-003",
@@ -65,7 +67,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://www.gutenberg.org/cache/epub/1656/pg1656.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "platon-005",
@@ -449,7 +452,8 @@
   "nota": "En el diálogo lo dice Fedro.",
   "ubicacion": "",
   "url": "https://www.gutenberg.org/cache/epub/1600/pg1600.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "platon-028",
@@ -565,7 +569,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://www.gutenberg.org/cache/epub/1657/pg1657.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "platon-035",
@@ -633,7 +638,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://www.gutenberg.org/cache/epub/1643/pg1643.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "platon-039",
@@ -750,7 +756,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://www.gutenberg.org/cache/epub/1726/pg1726.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "platon-046",

@@ -27,7 +27,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 4",
   "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/4",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "hegel-003",
@@ -212,7 +213,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 20",
   "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/20",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "hegel-015",
@@ -229,7 +231,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 20",
   "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/20",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "hegel-016",
@@ -330,7 +333,8 @@
   "nota": "Hegel lo dice del perdón: el espíritu puede retomar y superar lo hecho. Hoy sabemos que muchas heridas psíquicas sí dejan huella, aunque puedan elaborarse.",
   "ubicacion": "Capítulo 77",
   "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/phaenomenologie-des-geistes/chapter/77",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "hegel-022",
@@ -409,7 +413,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 1",
   "url": "https://projekt-gutenberg.org/authors/georg-wilhelm-friedrich-hegel/books/vorlesungen-ueber-die-philosophie-der-geschichte/chapter/1",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "hegel-027",
