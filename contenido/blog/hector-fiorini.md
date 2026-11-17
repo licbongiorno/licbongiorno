@@ -48,7 +48,7 @@ En los años noventa, Fiorini abrió una segunda línea de investigación. Inspi
 
 Para él, en la clínica «somos convocados a crear»: las personas no consultan solo para entender lo que les pasa, sino también para crear algo diferente con eso. Y retomó una frase de Sartre: en todo padecimiento humano se oculta alguna empresa. Lo desarrolló en *El psiquismo creador* (2006) y, más tarde, en *Foco, situación y proyecto* (2015), donde sumó el **proyecto** como tercer eje de la clínica.
 
-Podés recorrer sus ideas en el [laboratorio de psicoterapia breve focalizada](/laboratorio-de-psicoterapia-breve-focalizada/).
+Podés recorrer sus ideas en una serie de laboratorios: una [puerta de entrada](/laboratorio-de-psicoterapia-breve-focalizada/) y tres niveles, sobre [el foco y la situación](/laboratorio-fiorini-el-foco/), [el yo y las intervenciones](/laboratorio-fiorini-intervenciones/) y [el psiquismo creador](/laboratorio-fiorini-psiquismo-creador/). Los conceptos están reunidos en el [glosario de Fiorini](/glosario-fiorini/).
 
 ## Preguntas frecuentes
 

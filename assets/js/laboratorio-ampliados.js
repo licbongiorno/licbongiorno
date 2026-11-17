@@ -114,4 +114,63 @@
     { t: "Quizás el insomnio aparece porque crecer en el trabajo se te vive como traicionar a tu viejo grupo, como cuando dejaste el barrio.", ops: INT, r: 3, e: "Propone un sentido no evidente, que conecta el síntoma con un conflicto y con la historia." },
     { t: "¿Y si esta semana probás hablar con tu jefe antes de que se acumule la tensión?", ops: INT, r: 4, e: "Propone una actitud o una acción concreta, algo frecuente en las terapias breves, con un terapeuta activo." }
   ]);
+
+  var MOT = ["Un síntoma", "Una crisis", "Un fracaso adaptativo"];
+  LAB.quiz("motivo-fiorini", [
+    { t: "Hace dos meses empecé a tener taquicardia y miedo a salir sola a la calle.", ops: MOT, r: 0, e: "Un síntoma que perturba y que aparece en primer plano." },
+    { t: "Mi pareja se fue de casa el viernes y no sé cómo seguir.", ops: MOT, r: 1, e: "Algo se rompió de golpe: una crisis." },
+    { t: "Me jubilé hace un año y no encuentro qué hacer con mis días.", ops: MOT, r: 2, e: "Dificultad para acomodarse a un cambio de etapa." },
+    { t: "Desde hace semanas no puedo concentrarme para estudiar.", ops: MOT, r: 0, e: "Una inhibición, un síntoma que traba una función." },
+    { t: "Me mudé por trabajo a otra ciudad y no logro armar una vida acá.", ops: MOT, r: 2, e: "No poder adaptarse a una nueva exigencia." },
+    { t: "Ayer murió mi padre de manera inesperada.", ops: MOT, r: 1, e: "Un acontecimiento que irrumpe: una crisis, y el comienzo de un duelo." }
+  ]);
+  var PLA = ["Grupal", "Caracterológico", "Contexto social"];
+  LAB.quiz("situacion-fiorini", [
+    { t: "En mi familia siempre fui la que resuelve los problemas de todos.", ops: PLA, r: 0, e: "Un rol en el grupo de pertenencia." },
+    { t: "Me cuesta muchísimo decir que no; prefiero cargar con todo.", ops: PLA, r: 1, e: "Un rasgo propio, una manera estable de estar." },
+    { t: "Con la inflación, tuve que tomar un segundo trabajo.", ops: PLA, r: 2, e: "Un determinante económico, más allá de la persona." },
+    { t: "En la oficina me ubicaron como el que nunca se queja.", ops: PLA, r: 0, e: "El lugar asignado en un grupo." },
+    { t: "Necesito que todo esté bajo control antes de relajarme.", ops: PLA, r: 1, e: "Un rasgo de carácter que se pone en juego." },
+    { t: "En mi pueblo se espera que las mujeres se casen antes de los treinta.", ops: PLA, r: 2, e: "Un mandato cultural del contexto." }
+  ]);
+  var FUN = ["Básica", "Defensiva", "Integradora"];
+  LAB.quiz("funciones-fiorini", [
+    { t: "Antes de la entrevista de trabajo, imagina qué le pueden preguntar.", ops: FUN, r: 0, e: "Anticipación, una función básica." },
+    { t: "Dice que no le afecta la separación y cambia rápido de tema.", ops: FUN, r: 1, e: "Una forma de neutralizar la angustia: algo cercano a la negación." },
+    { t: "Puede contar su historia de vida y encontrarle un hilo.", ops: FUN, r: 2, e: "Sintetizar y dar coherencia: una función integradora." },
+    { t: "Recuerda con detalle lo que le dijo el médico.", ops: FUN, r: 0, e: "Memoria y atención, funciones básicas." },
+    { t: "Explica con argumentos impecables por qué no le importa no haber sido invitado.", ops: FUN, r: 1, e: "Una racionalización, al servicio de no sentir." },
+    { t: "Sostiene un proyecto a cinco años, aunque hoy esté cansada.", ops: FUN, r: 2, e: "Organizar la vida en torno a un proyecto: una función integradora." }
+  ]);
+  var ONCE = ["Interrogar", "Proporcionar información", "Confirmar o rectificar", "Clarificar", "Recapitular", "Señalar", "Interpretar", "Sugerir", "Intervención directiva", "Operación de encuadre", "Metaintervención"];
+  LAB.quiz("intervenciones-fiorini-11", [
+    { t: "¿Qué te dijo exactamente tu hermano esa noche?", ops: ONCE, r: 0, e: "Pide datos precisos del relato." },
+    { t: "Los ataques de pánico son muy frecuentes y no producen un infarto, aunque se sientan así.", ops: ONCE, r: 1, e: "Da información que la persona no tenía." },
+    { t: "No es cierto que nunca hayas podido terminar nada: terminaste la carrera trabajando.", ops: ONCE, r: 2, e: "Rectifica una idea de la persona sobre sí misma y muestra un punto ciego." },
+    { t: "O sea: lo que te angustia no es la mudanza en sí, sino dejar sola a tu madre.", ops: ONCE, r: 3, e: "Despeja el relato y recorta lo significativo." },
+    { t: "En estas cuatro sesiones vimos tu relación con tu jefe, con tu padre y con tu pareja, y en las tres aparece el miedo a decepcionar.", ops: ONCE, r: 4, e: "Resume de manera sintética lo trabajado a lo largo del tiempo." },
+    { t: "Te reíste justo cuando nombraste a tu ex.", ops: ONCE, r: 5, e: "Muestra algo sin explicarlo y deja que la persona lo piense." },
+    { t: "Tal vez llegás tarde a todo lo que te importa porque llegar a tiempo sería admitir cuánto lo deseás.", ops: ONCE, r: 6, e: "Propone un sentido no evidente, ligado a un conflicto." },
+    { t: "¿Qué te parece si probás contarle a tu amiga lo que te pasó?", ops: ONCE, r: 7, e: "Propone una acción posible, sin imponerla." },
+    { t: "Esta semana, antes de dormir, anotá tres cosas que te preocupan y dejá el celular fuera del cuarto.", ops: ONCE, r: 8, e: "Indica una tarea concreta de manera explícita." },
+    { t: "Como acordamos, vamos a trabajar unas veinte sesiones sobre el tema de tu separación.", ops: ONCE, r: 9, e: "Recuerda las condiciones del trabajo: tiempo y foco." },
+    { t: "Te hago tantas preguntas sobre los detalles porque ahí suele esconderse lo importante.", ops: ONCE, r: 10, e: "Explica el sentido de las intervenciones anteriores." }
+  ]);
+  var TOP = ["Lo dado", "El límite", "El caos creador", "Lo posible"];
+  LAB.quiz("topica-fiorini", [
+    { t: "Hace quince años que trabaja en lo mismo, de la misma manera, y le sale de memoria.", ops: TOP, r: 0, e: "Formas constituidas, conocidas: lo dado." },
+    { t: "Quiere renunciar; cada vez que lo piensa siente vértigo y, a la vez, una extraña alegría.", ops: TOP, r: 1, e: "El borde de lo dado: ansiedad y placer al mismo tiempo." },
+    { t: "Después de la separación, nada tiene su lugar: horarios, amigos, ideas sobre sí mismo.", ops: TOP, r: 2, e: "Las formas se desarman: un espacio abierto en muchas direcciones." },
+    { t: "Empieza a imaginar una forma de vivir que antes no se le había ocurrido.", ops: TOP, r: 3, e: "Emerge una forma nueva: lo posible." },
+    { t: "La novela que escribió hace años hoy le parece algo ajeno, una parte de su pasado.", ops: TOP, r: 0, e: "Lo creado se vuelve, con el tiempo, algo dado." },
+    { t: "En el taller de pintura rompe todas sus reglas y no sabe qué va a salir.", ops: TOP, r: 2, e: "Desarmar las formas: el caos creador." }
+  ]);
+  var FM = ["Forma sin movimiento", "Movimiento sin forma", "Oscilar en el límite"];
+  LAB.quiz("forma-movimiento-fiorini", [
+    { t: "Revisa tres veces que la puerta esté cerrada y no puede salir sin su rutina.", ops: FM, r: 0, e: "Orden y repetición: forma rígida." },
+    { t: "Empieza un proyecto nuevo cada mes, con entusiasmo, y ninguno llega a término.", ops: FM, r: 1, e: "Mucha intensidad, sin que algo tome forma." },
+    { t: "Quiere viajar sola; arma la valija, se acerca al aeropuerto y vuelve a casa.", ops: FM, r: 2, e: "Acercarse al borde y retroceder." },
+    { t: "Tiene todo planificado al detalle y siente que su vida está quieta.", ops: FM, r: 0, e: "Forma sin movimiento." },
+    { t: "Pasa de un vínculo intenso a otro, sin poder quedarse.", ops: FM, r: 1, e: "Movimiento sin forma." }
+  ]);
 })();

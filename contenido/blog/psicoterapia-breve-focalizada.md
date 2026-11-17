@@ -49,7 +49,7 @@ Puede no ser el encuadre adecuado cuando los problemas son muy extendidos o de l
 
 Tengo formación en psicoterapia breve focalizada en la línea de Fiorini, y la uso cuando lo que trae la persona se presta a un foco claro, en diálogo con la mirada [junguiana](/terapia-junguiana/) y [psicoanalítica](/enfoque/) que es la base de mi trabajo. Lo conversamos en la primera entrevista.
 
-Si querés explorar las ideas de Fiorini por tu cuenta, probá el [laboratorio de psicoterapia breve focalizada](/laboratorio-de-psicoterapia-breve-focalizada/).
+Si querés explorar las ideas de Fiorini por tu cuenta, probá el [laboratorio de psicoterapia breve focalizada](/laboratorio-de-psicoterapia-breve-focalizada/) o mirá el [glosario de sus conceptos](/glosario-fiorini/).
 
 ## Preguntas frecuentes
 
