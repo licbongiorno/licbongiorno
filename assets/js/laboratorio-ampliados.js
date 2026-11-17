@@ -271,4 +271,11 @@
     { t: "Que los hijos queden en medio del conflicto entre los padres suele afectarlos.", r: "b", e: "La investigación sobre divorcio, como la de Robert Emery, señala el conflicto entre los padres, sobre todo cuando los hijos quedan en el medio, como uno de los riesgos más estudiados para ellos." },
     { t: "En la terapia de aceptación y compromiso, aceptar el malestar es resignarse.", r: "a", e: "Aceptar, en ACT, es dejar de pelear con lo que se siente para poder actuar según lo que importa. No implica dejar de reclamar ni de cambiar lo que se puede cambiar." }
   ]);
+  LAB.quiz("conflicto-mitos", [
+    { t: "Si no respondo nunca, el conflicto se apaga.", r: "a", e: "Depende. A veces el silencio total hace que la otra parte escale para obtener una respuesta, y hay temas (los chicos, los horarios) que necesitan contestación. Por eso se recomiendan respuestas breves y concretas, sin entrar en la pelea." },
+    { t: "Si hay violencia, lo mejor es confrontar para que se termine.", r: "a", e: "La seguridad va primero. Confrontar en el momento puede aumentar el riesgo. Lo prudente es alejarse, pedir ayuda (911 si hay peligro) y canalizar el reclamo por la vía legal, con un abogado o abogada." },
+    { t: "Documentar lo que pasa puede ayudar en un proceso legal.", r: "b", e: "Un registro con fechas, hechos, testigos y mensajes originales puede ser útil. Qué sirve como prueba y cómo presentarla lo orienta tu abogado o abogada." },
+    { t: "Los hijos tienen que ver el conflicto para que entiendan lo que pasa.", r: "a", e: "La investigación sobre divorcio, como la de Robert Emery, señala que quedar en medio del conflicto entre los padres es uno de los riesgos más estudiados para los hijos. Pueden recibir una explicación según su edad sin ser testigos ni mensajeros." },
+    { t: "La violencia en la pareja puede venir de cualquiera de las partes.", r: "b", e: "Puede ejercerla una mujer o un varón, y puede sufrirla una mujer o un varón. Lo que la define es el uso del miedo, el daño o el control para imponerse, no el género de quien la ejerce." }
+  ]);
 })();
