@@ -218,13 +218,116 @@
     if (select) select.addEventListener("change", mostrar);
   });
 
+
+  /* ---------- El mazo: una carta grande, con estados de ánimo, historial y gestos ---------- */
+  function htmlCarta(c) {
+    var a = AUTORES[c.a];
+    return '<figure class="vo-carta" data-vo-cita="' + c.i + '"><blockquote><p>«' + esc(c.t) + '»</p></blockquote>' +
+      '<figcaption><a class="vo-carta__autor" href="' + a.r + '">' + esc(a.n) + '</a><span class="vo-carta__obra"><cite>' + esc(c.ob) + "</cite> (" + esc(c.an) + ")" + (c.u ? ", " + esc(c.u) : "") + "</span></figcaption>" +
+      '<div class="vo-carta__barra"><a class="vo-carta__fuente" href="' + a.r + "#cita-" + c.i + '">Texto original y fuente</a><div class="vo-acciones" data-vo-acciones></div></div></figure>';
+  }
+  var mazo = document.querySelector("[data-vo-mazo]");
+  if (mazo) {
+    var carta = mazo.querySelector("[data-vo-mazo-carta]"), todas = mazo.querySelector("[data-vo-mazo-todas]"), origenSel = mazo.querySelector("[data-vo-origen]");
+    var chips = Array.prototype.slice.call(mazo.querySelectorAll("[data-vo-estado]"));
+    var temasEstado = "", pila = [], pos = -1;
+    var inicial = carta.querySelector("[data-vo-cita]");
+    if (inicial && CITAS[inicial.getAttribute("data-vo-cita")]) { pila.push(inicial.getAttribute("data-vo-cita")); pos = 0; }
+    var pool = function () {
+      var base = grupo(origenSel ? origenSel.value : "");
+      if (temasEstado) { var ts = temasEstado.split(" "); base = base.filter(function (c) { return c.te.some(function (t) { return ts.indexOf(t) >= 0; }); }); }
+      if (!todas.checked) { var dest = base.filter(function (c) { return c.d; }); if (dest.length >= 3) base = dest; }
+      return base;
+    };
+    var recientes = [];
+    var sacar = function () {
+      var p = pool();
+      if (!p.length) return null;
+      var libres = p.filter(function (c) { return recientes.indexOf(c.i) < 0; });
+      if (!libres.length) { recientes = []; libres = p; }
+      var c = libres[azarEntero(libres.length)];
+      recientes.push(c.i); if (recientes.length > 40) recientes.shift();
+      return c;
+    };
+    var mostrarCarta = function (id, dir) {
+      var c = CITAS[id];
+      if (!c) { carta.innerHTML = '<p class="vo-vacio">Todavía no hay citas para esa elección. Probá con «Todas las citas».</p>'; return; }
+      if (reducido) { carta.innerHTML = htmlCarta(c); prepararAcciones(carta); return; }
+      carta.classList.add(dir < 0 ? "vo-carta-sale-der" : "vo-carta-sale-izq");
+      setTimeout(function () {
+        carta.innerHTML = htmlCarta(c); prepararAcciones(carta);
+        carta.classList.remove("vo-carta-sale-der", "vo-carta-sale-izq");
+        carta.classList.add(dir < 0 ? "vo-carta-entra-izq" : "vo-carta-entra-der");
+        setTimeout(function () { carta.classList.remove("vo-carta-entra-izq", "vo-carta-entra-der"); }, 420);
+      }, 200);
+    };
+    var siguiente = function () {
+      if (pos < pila.length - 1) { pos++; mostrarCarta(pila[pos], 1); return; }
+      var c = sacar();
+      if (!c) { mostrarCarta(null, 1); return; }
+      pila.push(c.i); if (pila.length > 60) pila.shift(); pos = pila.length - 1;
+      mostrarCarta(c.i, 1);
+    };
+    var anterior = function () { if (pos > 0) { pos--; mostrarCarta(pila[pos], -1); } };
+    var reiniciar = function () { pila = pila.slice(0, pos + 1); recientes = []; siguiente(); };
+    mazo.querySelectorAll("[data-vo-mazo-sig]").forEach(function (b) { b.addEventListener("click", siguiente); });
+    mazo.querySelector("[data-vo-mazo-ant]").addEventListener("click", anterior);
+    chips.forEach(function (b) {
+      b.addEventListener("click", function () {
+        chips.forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+        temasEstado = b.getAttribute("data-temas") || "";
+        reiniciar();
+      });
+    });
+    todas.addEventListener("change", reiniciar);
+    if (origenSel) origenSel.addEventListener("change", reiniciar);
+    // Teclado: flechas cuando el foco está dentro del mazo
+    mazo.addEventListener("keydown", function (e) {
+      if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
+      if (e.key === "ArrowRight") { e.preventDefault(); siguiente(); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); anterior(); }
+    });
+    // Deslizar en pantallas táctiles
+    var x0 = null, y0 = null;
+    carta.addEventListener("touchstart", function (e) { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+    carta.addEventListener("touchend", function (e) {
+      if (x0 === null) return;
+      var dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) { if (dx < 0) siguiente(); else anterior(); }
+      x0 = null;
+    });
+  }
+
+  /* ---------- Diálogo entre dos voces ---------- */
+  var dialogo = document.querySelector("[data-vo-dialogo]");
+  if (dialogo) {
+    var dSel = dialogo.querySelector("[data-vo-dialogo-tema]"), dPar = dialogo.querySelector("[data-vo-dialogo-par]");
+    var armar = function () {
+      var tema = dSel.value;
+      var con = V.citas.filter(function (c) { return c.te.indexOf(tema) >= 0; });
+      var autores = {};
+      con.forEach(function (c) { (autores[c.a] = autores[c.a] || []).push(c); });
+      var lista = Object.keys(autores);
+      if (lista.length < 2) { poner(dPar, '<p class="vo-vacio">Este tema todavía tiene una sola voz.</p>'); return; }
+      // Preferimos dos autores de escuelas o épocas distintas.
+      var a1 = lista[azarEntero(lista.length)], resto = lista.filter(function (x) { return x !== a1; });
+      var distintos = resto.filter(function (x) { return AUTORES[x].e !== AUTORES[a1].e || AUTORES[x].p !== AUTORES[a1].p; });
+      var a2 = (distintos.length ? distintos : resto)[azarEntero((distintos.length ? distintos : resto).length)];
+      var elegir = function (a) { var xs = autores[a], d = xs.filter(function (c) { return c.d; }); xs = d.length ? d : xs; return xs[azarEntero(xs.length)]; };
+      poner(dPar, htmlCita(elegir(a1)) + htmlCita(elegir(a2)));
+    };
+    dSel.addEventListener("change", armar);
+    dialogo.querySelector("[data-vo-dialogo-otro]").addEventListener("click", armar);
+  }
+
   /* ---------- Una idea para hoy (misma regla que build.py: FNV-1a sobre la fecha local) ---------- */
   var hoyCaja = document.querySelector("[data-vo-hoy]");
   if (hoyCaja) {
     var d = new Date(), iso = d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
     var h = 2166136261;
     for (var k = 0; k < iso.length; k++) h = Math.imul(h ^ iso.charCodeAt(k), 16777619) >>> 0;
-    var orden = V.citas.slice().sort(function (x, y) { return x.i < y.i ? -1 : x.i > y.i ? 1 : 0; });
+    var baseHoy = V.citas.filter(function (c) { return c.d; }); if (!baseHoy.length) baseHoy = V.citas;
+    var orden = baseHoy.slice().sort(function (x, y) { return x.i < y.i ? -1 : x.i > y.i ? 1 : 0; });
     var cHoy = orden[h % orden.length], actual = hoyCaja.querySelector("[data-vo-cita]");
     if (!actual || actual.getAttribute("data-vo-cita") !== cHoy.i) { hoyCaja.innerHTML = htmlCita(cHoy); }
     var t = document.querySelector("[data-vo-hoy-fecha]");

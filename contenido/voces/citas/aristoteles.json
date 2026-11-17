@@ -60,7 +60,8 @@
   "fragmento": true,
   "ubicacion": "Libro 2",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-005",
@@ -153,7 +154,8 @@
   "fragmento": true,
   "ubicacion": "Libro 2",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-011",
@@ -306,7 +308,8 @@
   "nota": "Aristóteles habla de la insensibilidad como vicio; hoy llamaríamos anhedonia a esa falta de placer, y la entendemos como un síntoma que merece atención, no como un defecto moral.",
   "ubicacion": "Libro 3",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-021",
@@ -384,7 +387,8 @@
   "fragmento": true,
   "ubicacion": "Libro 4",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-026",
@@ -447,7 +451,8 @@
   "fragmento": true,
   "ubicacion": "Libro 8",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-030",
@@ -568,7 +573,8 @@
   "fragmento": true,
   "ubicacion": "Libro 9",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-038",
@@ -584,7 +590,8 @@
   "fragmento": true,
   "ubicacion": "Libro 9",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-039",
@@ -599,7 +606,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Libro 9",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-040",
@@ -631,7 +639,8 @@
   "fragmento": true,
   "ubicacion": "Libro 9",
   "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "aristoteles-042",

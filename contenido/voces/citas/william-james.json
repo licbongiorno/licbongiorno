@@ -58,7 +58,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 4",
   "url": "https://www.gutenberg.org/cache/epub/57628/pg57628.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-005",
@@ -196,7 +197,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 11",
   "url": "https://www.gutenberg.org/cache/epub/57628/pg57628.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-014",
@@ -259,7 +261,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 10",
   "url": "https://www.gutenberg.org/cache/epub/57628/pg57628.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-018",
@@ -306,7 +309,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 10",
   "url": "https://www.gutenberg.org/cache/epub/57628/pg57628.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-021",
@@ -339,7 +343,8 @@
   "nota": "La versión viral «La sabiduría es aprender qué pasar por alto» es una paráfrasis de este pasaje.",
   "ubicacion": "Capítulo 22",
   "url": "https://www.gutenberg.org/cache/epub/57634/pg57634.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-023",
@@ -435,7 +440,8 @@
   "fragmento": true,
   "ubicacion": "«On A Certain Blindness In Human Beings»",
   "url": "https://www.gutenberg.org/cache/epub/16287/pg16287.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-029",
@@ -531,7 +537,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "«Is Life Worth Living?»",
   "url": "https://www.gutenberg.org/cache/epub/26659/pg26659.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-035",
@@ -612,7 +619,8 @@
   "fragmento": true,
   "ubicacion": "Conferencia 8",
   "url": "https://www.gutenberg.org/cache/epub/5116/pg5116.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-040",
@@ -706,7 +714,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 11",
   "url": "https://www.gutenberg.org/cache/epub/57628/pg57628.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-046",
@@ -755,7 +764,8 @@
   "nota": "El original continúa en cursiva: «notice shape my mind».",
   "ubicacion": "Capítulo 11",
   "url": "https://www.gutenberg.org/cache/epub/57628/pg57628.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "william-james-049",

@@ -76,7 +76,8 @@
   "fragmento": true,
   "ubicacion": "Parte 3",
   "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "baruch-spinoza-006",
@@ -92,7 +93,8 @@
   "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
   "ubicacion": "Parte 3",
   "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "baruch-spinoza-007",
@@ -108,7 +110,8 @@
   "nota": "Una de las definiciones de los afectos que cierran la tercera parte de la Ética.",
   "ubicacion": "Parte 3",
   "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "baruch-spinoza-008",
@@ -124,7 +127,8 @@
   "fragmento": true,
   "ubicacion": "Parte 3",
   "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "baruch-spinoza-009",
@@ -600,7 +604,8 @@
   "fragmento": true,
   "ubicacion": "Parte 4",
   "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "baruch-spinoza-039",
@@ -709,7 +714,8 @@
   "fragmento": true,
   "ubicacion": "Parte 5",
   "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "baruch-spinoza-046",
@@ -725,7 +731,8 @@
   "nota": "Última frase de la Ética.",
   "ubicacion": "Parte 5",
   "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "baruch-spinoza-047",

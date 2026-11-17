@@ -44,7 +44,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "rene-descartes-004",
@@ -61,7 +62,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "rene-descartes-005",
@@ -95,7 +97,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "rene-descartes-007",
@@ -111,7 +114,8 @@
   "fragmento": true,
   "ubicacion": "",
   "url": "https://fr.wikisource.org/w/index.php?title=Discours_de_la_m%C3%A9thode_%28%C3%A9d._Cousin%29/Texte_entier&action=render",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "rene-descartes-008",
@@ -252,7 +256,8 @@
   "nota": "Título de un artículo de la primera parte. Hoy sabemos que ese dominio rara vez es absoluto; Descartes mismo propone para lograrlo un largo ejercicio de hábitos.",
   "ubicacion": "art. 50",
   "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Premi%C3%A8re_partie&action=render",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "rene-descartes-017",
@@ -649,7 +654,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "art. 184",
   "url": "https://fr.wikisource.org/w/index.php?title=Les_Passions_de_l%E2%80%99%C3%A2me/Troisi%C3%A8me_partie&action=render",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "rene-descartes-043",

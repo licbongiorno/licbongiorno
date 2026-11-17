@@ -28,7 +28,8 @@
   "fragmento": true,
   "ubicacion": "Libro 2, 4",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-003",
@@ -110,7 +111,8 @@
   "fragmento": true,
   "ubicacion": "Libro 4, 7",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-008",
@@ -190,7 +192,8 @@
   "nota": "En la traducción de Long, la frase continúa entre corchetes: «[the wrong-doer]».",
   "ubicacion": "Libro 6, 6",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-013",
@@ -236,7 +239,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Libro 10, 16",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-016",
@@ -331,7 +335,8 @@
   "fragmento": true,
   "ubicacion": "Libro 5, 20",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-022",
@@ -425,7 +430,8 @@
   "fragmento": true,
   "ubicacion": "Libro 3, 4",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-028",
@@ -455,7 +461,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Libro 7, 22",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-030",
@@ -487,7 +494,8 @@
   "fragmento": true,
   "ubicacion": "Libro 6, 48",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-032",
@@ -503,7 +511,8 @@
   "fragmento": true,
   "ubicacion": "Libro 7, 9",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-033",
@@ -565,7 +574,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Libro 10, 4",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-037",
@@ -657,7 +667,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Libro 7, 29",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-043",
@@ -672,7 +683,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Libro 5, 18",
   "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "marco-aurelio-044",

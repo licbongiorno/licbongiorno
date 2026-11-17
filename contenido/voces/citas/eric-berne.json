@@ -1,0 +1,46 @@
+[
+ {
+  "id": "eric-berne-001",
+  "fuente": "berne-juegos",
+  "original": "Awareness requires living in the here and now, and not in the elsewhere, the past or the future.",
+  "traduccion": "Darse cuenta requiere vivir en el aquí y ahora, y no en otra parte, en el pasado o en el futuro.",
+  "temas": [
+   "presencia",
+   "conciencia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_C0-BYG-207",
+   "titulo": "games people play",
+   "anio": 1964,
+   "fragmento": "appreciating their\na products.\n__ Awareness requires living in the here and now, and not in the elsewhere, the past"
+  },
+  "url": "https://archive.org/details/bwb_C0-BYG-207",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "eric-berne-002",
+  "fuente": "berne-juegos",
+  "original": "A game is an ongoing series of complementary ulterior transactions progressing to a well-defined, predictable outcome.",
+  "traduccion": "Un juego es una serie continua de transacciones ulteriores complementarias que avanza hacia un desenlace bien definido y previsible.",
+  "temas": [
+   "vinculos",
+   "comunicacion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "games-people-play-eric-berne",
+   "titulo": "Games People Play - Eric Berne",
+   "anio": null,
+   "fragmento": "Games\n1 DEFINITION\nA GAME is an ongoing series of complementary ulterior transactions progressing to a"
+  },
+  "url": "https://archive.org/details/games-people-play-eric-berne",
+  "fragmento": false,
+  "destacada": true
+ }
+]

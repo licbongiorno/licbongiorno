@@ -79,7 +79,9 @@ def verificar_cita(c, f):
     autor_k = plano(f["ia_autor"]).split()
     titulo_k = plano(f["ia_titulo"]).split()
     candidatos, primero = None, None
-    for t in tramos(c["original"]):
+    # «tramos» explícitos: para frases cortadas por el OCR (guiones o saltos de página en medio de una palabra).
+    for t in (c.get("tramos") or tramos(c["original"])):
+        t = plano(t)
         hits = consultar(f'"{t}" AND creator:({f["ia_autor"]})')
         time.sleep(0.4)
         if hits is None:

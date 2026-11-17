@@ -27,7 +27,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 1",
   "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/beantwortung-der-frage-was-ist-aufklaerung/chapter/1",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "immanuel-kant-003",
@@ -197,7 +198,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 4",
   "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "immanuel-kant-014",
@@ -243,7 +245,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 4",
   "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/grundlegung-zur-metaphysik-der-sitten/chapter/4",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "immanuel-kant-017",
@@ -486,7 +489,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 2",
   "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/immanuel-kant-beobachtungen-ueber-das-gefuehl-des-schoenen-und-erhabenen/chapter/2",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "immanuel-kant-033",
@@ -720,7 +724,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 1",
   "url": "https://projekt-gutenberg.org/authors/immanuel-kant/books/der-streit-der-facultaeten/chapter/1",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "immanuel-kant-048",

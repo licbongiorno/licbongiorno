@@ -1,0 +1,46 @@
+[
+ {
+  "id": "paul-watzlawick-001",
+  "fuente": "watzlawick-pragmatica",
+  "original": "One cannot not communicate",
+  "traduccion": "No se puede no comunicar.",
+  "temas": [
+   "comunicacion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "pragmaticsofhum000watz",
+   "titulo": "Pragmatics of human communication; a study of interactional patterns, pathologies, and paradoxes",
+   "anio": 1967,
+   "fragmento": "that  no  matter  how  one  may try,  one  cannot  not  communicate.  Activity  or  inactivity,  words  … communication  can  be  postulated:  one  cannot  not  communicate.\n2.3\nThe  Content  and  Relationship"
+  },
+  "url": "https://archive.org/details/pragmaticsofhum000watz",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "paul-watzlawick-002",
+  "fuente": "watzlawick-pragmatica",
+  "original": "Every communication has a content and a relationship aspect",
+  "traduccion": "Toda comunicación tiene un aspecto de contenido y un aspecto de relación.",
+  "temas": [
+   "comunicacion",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "pragmaticsofhum000watz",
+   "titulo": "Pragmatics of human communication; a study of interactional patterns, pathologies, and paradoxes",
+   "anio": 1967,
+   "fragmento": "tentative  calculus:  Every  communication  has a  content  and  a  relationship  aspect  such  that  the"
+  },
+  "url": "https://archive.org/details/pragmaticsofhum000watz",
+  "fragmento": true,
+  "destacada": true
+ }
+]

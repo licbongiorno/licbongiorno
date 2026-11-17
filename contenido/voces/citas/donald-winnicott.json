@@ -1,0 +1,114 @@
+[
+ {
+  "id": "donald-winnicott-001",
+  "fuente": "winnicott-realidad",
+  "original": "It is creative apperception more than anything else that makes the individual feel that life is worth living.",
+  "traduccion": "Es la percepción creadora, más que ninguna otra cosa, lo que hace que una persona sienta que la vida vale la pena.",
+  "temas": [
+   "sentido-de-vida",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "playingreality0000winn",
+   "titulo": "Playing and reality",
+   "anio": 1989,
+   "fragmento": "to external reality.\nIt is creative apperception more than anything else that makes the\nindividual feel"
+  },
+  "url": "https://archive.org/details/playingreality0000winn",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "donald-winnicott-002",
+  "fuente": "winnicott-realidad",
+  "original": "Psychotherapy takes place in the overlap of two areas of playing, that of the patient and that of the therapist.",
+  "traduccion": "La psicoterapia sucede donde se superponen dos zonas de juego: la del paciente y la del terapeuta.",
+  "temas": [
+   "terapia",
+   "encuentro"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "playingreality0000winn",
+   "titulo": "Playing and reality",
+   "anio": 1989,
+   "fragmento": "to cover the subject. Psychotherapy takes place in the overlap of two areas of playing, that of the patient"
+  },
+  "url": "https://archive.org/details/playingreality0000winn",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "donald-winnicott-003",
+  "fuente": "winnicott-realidad",
+  "original": "What does the baby see when he or she looks at the mother's face? I am suggesting that, ordinarily, what the baby sees is himself or herself.",
+  "traduccion": "¿Qué ve el bebé cuando mira la cara de su madre? Sugiero que, por lo general, lo que ve es a sí mismo.",
+  "temas": [
+   "infancia",
+   "vinculos",
+   "identidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "playingreality0000winn",
+   "titulo": "Playing and reality",
+   "anio": 1989,
+   "fragmento": "unverbalizable except perhaps in poetry.\nWhat does the baby see when he or she looks at the mother’s face? I am suggesting"
+  },
+  "url": "https://archive.org/details/playingreality0000winn",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "donald-winnicott-004",
+  "fuente": "winnicott-realidad",
+  "original": "In playing, and perhaps only in playing, the child or adult is free to be creative.",
+  "traduccion": "En el juego, y quizás solo en el juego, el niño o el adulto son libres de ser creativos.",
+  "temas": [
+   "libertad",
+   "infancia",
+   "autenticidad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "playingreality0000winn",
+   "titulo": "Playing and reality",
+   "anio": 1989,
+   "fragmento": "of playing. This is that in playing, and perhaps only in playing, the child or adult is free to be creative … of playing. This is that in playing, and perhaps only in playing, the child or adult is free to be creative"
+  },
+  "url": "https://archive.org/details/playingreality0000winn",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "donald-winnicott-005",
+  "fuente": "winnicott-maduracion",
+  "original": "The experience of being alone while someone else is present",
+  "traduccion": "La experiencia de estar a solas mientras alguien más está presente.",
+  "temas": [
+   "vinculos",
+   "infancia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "maturationalproc0000dwwi",
+   "titulo": "The Maturational Processes and the Facilitating Environment by D.W. Winnicott (1965-05-03)",
+   "anio": 1845,
+   "fragmento": "is a paradox; it is the experience of being alone while someone else is present.\nHere is implied a rather"
+  },
+  "url": "https://archive.org/details/maturationalproc0000dwwi",
+  "fragmento": true,
+  "destacada": true
+ }
+]

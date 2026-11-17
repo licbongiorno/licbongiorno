@@ -73,7 +73,7 @@ def cargar(mapa_autores):
             f = fuentes[c["fuente"]]
             c = dict(c, obra=f.get("titulo_es", f["titulo"]), obra_original=f["titulo"], anio=f.get("anio_texto", str(f["anio"])),
                      idioma=f.get("idioma"), idioma_obra=f.get("idioma_original", f.get("idioma")), edicion=f.get("edicion", ""),
-                     traductor=f.get("traductor", ""))
+                     traductor=f.get("traductor", ""), breve=f.get("verificacion") == "ia-fts")
             citas.append(c)
         if not citas:
             continue
@@ -143,7 +143,7 @@ def cita_html(B, V, c, con_autor=True, nivel="h3"):
   <details class="vo-cita__original"><summary>Texto original y fuente</summary>
     <p lang="{c["idioma"]}">«{esc(_comillas(c["original"]))}»{frag}</p>
     <p class="vo-cita__fuente"><cite lang="{c["idioma"]}">{esc(c["obra_original"])}</cite>{ubic}. {esc(c["edicion"])}. <a href="{esc(c["url"])}" target="_blank" rel="noopener nofollow">Ver la fuente</a></p>
-    <p class="vo-cita__tipo">{esc(nota_traduccion(c))} Cita textual verificada en la fuente.</p>
+    <p class="vo-cita__tipo">{esc(nota_traduccion(c))} {"Cita breve con fines de estudio y comentario (art. 10 de la Ley 11.723), verificada en una edición digitalizada en Internet Archive." if c.get("breve") else "Cita textual verificada en la fuente."}</p>
   </details>
   <ul class="vo-temas" aria-label="Temas">{temas}</ul>
   <div class="vo-acciones" data-vo-acciones></div>
@@ -164,7 +164,7 @@ def _datos_js(B, V):
                 "p": a["epoca"], "d": a.get("disciplinas", [])} for a in V["autores"]]
     temas = {t: [v["nombre"], v["pagina"]] for t, v in V["temas"].items()}
     citas = [{"i": c["id"], "a": c["autor"], "t": _comillas(c["traduccion"]), "o": _comillas(c["original"]), "l": c["idioma"],
-              "ob": c["obra"], "an": c["anio"], "u": c.get("ubicacion", ""), "te": c["temas"]} for c in V["citas"]]
+              "ob": c["obra"], "an": c["anio"], "u": c.get("ubicacion", ""), "te": c["temas"], "d": 1 if c.get("destacada") else 0, "b": 1 if c.get("breve") else 0} for c in V["citas"]]
     datos = {"autores": autores, "temas": temas, "citas": citas, "ruta": RUTA, "temasRuta": RUTA_TEMAS,
              "escuelas": sorted({(a["escuela"], a["escuela_nombre"]) for a in V["autores"] if a["escuela"]}),
              "epocas": [[k, v] for k, v in EPOCAS.items() if any(a["epoca"] == k for a in V["autores"])]}
@@ -190,7 +190,8 @@ def _dia(V, iso):
     h = 2166136261
     for ch in iso:
         h = ((h ^ ord(ch)) * 16777619) & 0xFFFFFFFF
-    orden = sorted(V["citas"], key=lambda c: c["id"])
+    base = [c for c in V["citas"] if c.get("destacada")] or V["citas"]
+    orden = sorted(base, key=lambda c: c["id"])
     return orden[h % len(orden)]
 
 
@@ -204,6 +205,49 @@ def _miradas(B, V, tema):
     return "".join(cita_html(B, V, c) for c in elegidas)
 
 
+ESTADOS = [
+    ("calma", "Necesito calma", ["presencia", "aceptacion", "regulacion-emocional", "atencion"]),
+    ("tristeza", "Estoy triste", ["sufrimiento", "perdida", "duelo", "resiliencia"]),
+    ("miedo", "Tengo miedo", ["miedo", "angustia", "incertidumbre"]),
+    ("amor", "Pienso en el amor", ["amor", "amistad", "vinculos", "encuentro", "compasion"]),
+    ("sentido", "Busco sentido", ["sentido-de-vida", "trascendencia", "responsabilidad", "libertad"]),
+    ("cambio", "Quiero cambiar", ["cambio", "habitos", "transformacion-personal", "voluntad"]),
+    ("conocerme", "Quiero conocerme", ["autoconocimiento", "identidad", "inconsciente", "autenticidad"]),
+    ("enojo", "Estoy enojado", ["ira"]),
+    ("muerte", "Pienso en la muerte", ["muerte", "tiempo"]),
+]
+
+
+def _estados_html():
+    b = '<button type="button" class="vo-estado-chip" aria-pressed="true" data-vo-estado="">Cualquier momento</button>'
+    return b + "".join(f'<button type="button" class="vo-estado-chip" aria-pressed="false" data-vo-estado="{k}" data-temas="{" ".join(t)}">{n}</button>' for k, n, t in ESTADOS)
+
+
+def _carta_mazo(B, V, c):
+    """La carta grande del mazo: la cita, el autor y las acciones (las mismas que el resto)."""
+    esc = B.esc
+    a = V["por_autor"][c["autor"]]
+    ubic = f', {esc(c["ubicacion"])}' if c.get("ubicacion") else ""
+    return f'''<figure class="vo-carta" data-vo-cita="{c["id"]}">
+  <blockquote><p>«{esc(_comillas(c["traduccion"]))}»</p></blockquote>
+  <figcaption><a class="vo-carta__autor" href="{a["ruta"]}">{esc(a["nombre"])}</a><span class="vo-carta__obra"><cite>{esc(c["obra"])}</cite> ({esc(c["anio"])}){ubic}</span></figcaption>
+  <div class="vo-carta__barra"><a class="vo-carta__fuente" href="{a["ruta"]}#cita-{c["id"]}">Texto original y fuente</a><div class="vo-acciones" data-vo-acciones></div></div>
+</figure>'''
+
+
+def _dialogo_inicial(B, V, tema):
+    con = [c for c in V["citas"] if tema in c["temas"]]
+    con.sort(key=lambda c: (not c.get("destacada"), c["id"]))
+    elegidas, autores = [], set()
+    for c in con:
+        if c["autor"] not in autores:
+            elegidas.append(c); autores.add(c["autor"])
+        if len(elegidas) == 2:
+            break
+    return "".join(cita_html(B, V, c) for c in elegidas)
+
+
+
 def _tarjeta_autor(B, V, a):
     esc = B.esc
     disc = ", ".join(a.get("disciplinas", []))
@@ -212,7 +256,7 @@ def _tarjeta_autor(B, V, a):
   <h3><a href="{a["ruta"]}">{esc(a["nombre"])}</a></h3>
   <p class="vo-autor__anios">{esc(a["anios"])} · {esc(a.get("nacionalidad", ""))}</p>
   <p>{esc(a.get("resumen", ""))}</p>
-  <p class="vo-autor__cuenta"><strong>{len(a["citas"])}</strong> citas verificadas · {esc(disc)}</p>
+  <p class="vo-autor__cuenta"><strong>{len(a["citas"])}</strong> {"cita verificada" if len(a["citas"]) == 1 else "citas verificadas"} · {esc(disc)}</p>
 </article>'''
 
 
@@ -231,7 +275,9 @@ def _pie_metodo(B, V):
     <li><strong>Solo citas textuales comprobadas.</strong> Cada frase se cotejó, palabra por palabra, con una edición de la obra original. Junto a cada cita está el texto original, la obra, la ubicación exacta y un enlace a la fuente.</li>
     <li><strong>Traducciones propias, señaladas como tales.</strong> Las versiones en castellano son nuestras. Cuando no citamos la lengua original (el griego de Marco Aurelio y Epicteto, el chino del Tao Te Ching, el pali del Dhammapada), usamos una traducción clásica de dominio público y lo indicamos en cada cita.</li>
     <li><strong>Sin atribuciones dudosas ni paráfrasis presentadas como citas.</strong> Las frases virales que no figuran en la obra, o que el autor tomó de otro, quedaron afuera.</li>
-    <li><strong>Obras de dominio público.</strong> Por ahora reunimos autores cuya obra ya es de libre uso. Otros autores del sitio se irán sumando cuando podamos hacerlo con el mismo cuidado.</li>
+    <li><strong>Obras de dominio público, completas.</strong> De los autores cuya obra ya es de libre uso reunimos colecciones amplias, cotejadas con la obra completa descargada.</li>
+    <li><strong>Autores con obra protegida, en citas breves.</strong> De psicólogos más recientes, como Jung, Frankl, Rogers o Winnicott, publicamos solo citas breves, con fines de estudio y comentario, como permite el artículo 10 de la Ley 11.723, siempre con autor, obra y año. Cada una se verificó palabra por palabra en una edición digitalizada de su libro en Internet Archive, y se descartaron las frases que circulan con su nombre pero no aparecen en su obra.</li>
+    <li><strong>Destacadas.</strong> Algunas frases están marcadas como destacadas: una selección de las más claras y bellas, que aparecen primero en el mazo y en la idea del día.</li>
   </ul>
   <p>Hoy la biblioteca reúne <strong>{len(V["citas"])} citas verificadas</strong> de {n_aut} {"autor" if n_aut == 1 else "autores"}. Si encontrás un error, <a href="/contacto/">escribinos</a>.</p>
 </div></section>'''
@@ -272,7 +318,28 @@ def construir(B, V, mapa, nombres, fechas, imagenes):
                                                   for i, a in enumerate(V["autores"])]}]}
     aut_dest = "".join(_tarjeta_autor(B, V, a) for a in sorted(V["autores"], key=lambda a: (not a.get("destacado"), a["x"])))
     cuerpo = portada(meta) + f'''<div class="vo" data-vo-centro>
-<section class="seccion vo-seccion" aria-labelledby="t-hoy" style="padding-top:0"><div class="contenedor">
+<section class="seccion vo-seccion vo-seccion--mazo" aria-labelledby="t-mazo" style="padding-top:0"><div class="contenedor">
+  <div class="vo-mazo" data-vo-mazo>
+    <h2 id="t-mazo" class="visualmente-oculto">El mazo de voces</h2>
+    <div class="vo-mazo__estados" role="group" aria-label="Para cuando…">
+      <span class="vo-mazo__etiqueta">Para cuando</span>
+      {_estados_html()}
+    </div>
+    <div class="vo-mazo__escena">
+      <button class="vo-mazo__flecha vo-mazo__flecha--ant" type="button" data-vo-mazo-ant aria-label="Cita anterior">‹</button>
+      <div class="vo-mazo__carta" data-vo-mazo-carta aria-live="polite">{_carta_mazo(B, V, hoy)}</div>
+      <button class="vo-mazo__flecha vo-mazo__flecha--sig" type="button" data-vo-mazo-sig aria-label="Otra cita">›</button>
+    </div>
+    <div class="vo-mazo__pie">
+      <button class="boton" type="button" data-vo-mazo-sig>{_icono("azar")} Otra voz</button>
+      <label class="vo-mazo__todas"><input type="checkbox" data-vo-mazo-todas> Todas las citas, no solo las destacadas</label>
+      <details class="vo-mazo__mas"><summary>Elegir autor, escuela o tema</summary>{_selector_origen(B, V, "vo-origen")}</details>
+    </div>
+    <p class="vo-mazo__ayuda">Deslizá la carta o usá las flechas del teclado. Las destacadas son una selección de las frases más claras y bellas de la biblioteca.</p>
+  </div>
+</div></section>
+
+<section class="seccion vo-seccion" aria-labelledby="t-hoy"><div class="contenedor">
   <div class="vo-hoy revelar">
     <p class="vo-hoy__marca">{_icono("sol")} Una idea para hoy · <time data-vo-hoy-fecha datetime="{B.HOY}"></time></p>
     <h2 id="t-hoy" class="visualmente-oculto">Una idea para hoy</h2>
@@ -281,20 +348,16 @@ def construir(B, V, mapa, nombres, fechas, imagenes):
   </div>
 </div></section>
 
-<section class="seccion vo-seccion" aria-labelledby="t-azar"><div class="contenedor">
-  <div class="encabezado-seccion revelar"><p class="antetitulo">Sorprendeme</p><h2 id="t-azar">Una voz <em>al azar</em></h2>
-    <p>Pedí una cita sorpresa entre todas, o elegí de qué autor, escuela, época o tema querés que venga.</p></div>
-  <div class="vo-azar" data-vo-azar>
-    <div class="vo-azar__controles">{_selector_origen(B, V, "vo-origen")}<button class="boton" type="button" data-vo-sorprender>{_icono("azar")} Sorprendeme</button></div>
-    <div class="vo-azar__cita" data-vo-azar-cita aria-live="polite"><p class="vo-vacio">Tocá «Sorprendeme» para recibir una cita.</p></div>
+<section class="seccion seccion--papel vo-seccion" aria-labelledby="t-dialogo"><div class="contenedor">
+  <div class="encabezado-seccion revelar"><p class="antetitulo">Un tema, dos voces</p><h2 id="t-dialogo">Diálogo entre <em>dos voces</em></h2>
+    <p>Dos autores de épocas o escuelas distintas sobre un mismo tema. A veces coinciden, a veces se contradicen, a veces se completan.</p></div>
+  <div class="vo-dialogo" data-vo-dialogo>
+    <div class="vo-dialogo__controles">
+      <label class="vo-campo"><span>Tema</span><select data-vo-dialogo-tema>{op_miradas}</select></label>
+      <button class="boton boton--secundario" type="button" data-vo-dialogo-otro>{_icono("azar")} Otro diálogo</button>
+    </div>
+    <div class="vo-dialogo__par" data-vo-dialogo-par aria-live="polite">{_dialogo_inicial(B, V, tema_inicial)}</div>
   </div>
-</div></section>
-
-<section class="seccion seccion--papel vo-seccion" aria-labelledby="t-miradas"><div class="contenedor">
-  <div class="encabezado-seccion revelar"><p class="antetitulo">Un tema, distintas miradas</p><h2 id="t-miradas">Lo mismo, <em>visto por varios</em></h2>
-    <p>Elegí un tema y compará qué dijo cada autor. Coinciden, se contradicen, se completan.</p></div>
-  <label class="vo-campo vo-campo--linea"><span>Tema</span><select data-vo-miradas-tema>{op_miradas}</select></label>
-  <div class="vo-lista vo-lista--miradas" data-vo-miradas>{_miradas(B, V, tema_inicial)}</div>
 </div></section>
 
 <section class="seccion vo-seccion" aria-labelledby="t-autores"><div class="contenedor">
@@ -343,7 +406,7 @@ def construir(B, V, mapa, nombres, fechas, imagenes):
   </div>
   <div class="vo-autores" data-vo-autores>{aut_dest}</div>
   <details class="vo-pendientes"><summary>Autores en preparación ({len(pend)})</summary>
-    <p>Son los autores que aparecen en otros recursos del sitio. Se van a sumar cuando podamos verificar al menos 50 citas en sus obras y cuando sus derechos lo permitan. Muchos tienen obra protegida por derechos de autor, por lo que no publicamos colecciones de sus frases.</p>
+    <p>Son autores que aparecen en otros recursos del sitio y que todavía no tienen citas verificadas. De los que tienen obra protegida publicamos solo citas breves, y se van sumando a medida que las verificamos en sus libros.</p>
     <ul>{pend_html}</ul></details>
   <p class="vo-mas"><a href="{RUTA}">Volver a Voces que nos habitan</a></p>
 </div></section></div>'''
@@ -379,7 +442,7 @@ def construir(B, V, mapa, nombres, fechas, imagenes):
                    "knowsAbout": a.get("disciplinas", [])}
         if art:
             persona["subjectOf"] = {"@id": f'{B.URL}{art["ruta"]}#articulo'}
-        meta_r = {"titulo": f"{a['nombre']}: {len(a['citas'])} citas verificadas | Voces que nos habitan"[:70],
+        meta_r = {"titulo": (f"{a['nombre']}: {len(a['citas'])} citas verificadas | Voces que nos habitan" if len(a['citas']) > 1 else f"{a['nombre']}: frases verificadas | Voces que nos habitan") if len(f"{a['nombre']}: {len(a['citas'])} citas verificadas | Voces que nos habitan") <= 65 else f"{a['nombre']}: citas verificadas"[:70],
                   "descripcion": f"Frases de {a['nombre']} verificadas en su obra original, con traducción, fuente y ubicación exacta. Biografía, obras y aportes a la psicología.",
                   "migas": migas_r, "tipo_pagina": "CollectionPage", "con_consultorio": False, "scripts": scripts,
                   "antetitulo": "Voces que nos habitan · " + (a.get("corriente") or ""), "h1": esc(a["nombre"]),
@@ -408,7 +471,7 @@ def construir(B, V, mapa, nombres, fechas, imagenes):
 </div></section>
 
 <section class="seccion seccion--papel" aria-labelledby="t-citas"><div class="contenedor">
-  <div class="encabezado-seccion"><p class="antetitulo">{len(a["citas"])} citas verificadas</p><h2 id="t-citas">Con sus <em>propias palabras</em></h2>
+  <div class="encabezado-seccion"><p class="antetitulo">{len(a["citas"])} {"cita verificada" if len(a["citas"]) == 1 else "citas verificadas"}</p><h2 id="t-citas">Con sus <em>propias palabras</em></h2>
     <p>{esc(a.get("nota_citas", ""))}</p></div>
   <div class="vo-azar vo-azar--autor" data-vo-azar data-vo-fijo="a:{a["slug"]}">
     <button class="boton boton--secundario" type="button" data-vo-sorprender>{_icono("azar")} Una cita de {esc(a["nombre"])} al azar</button>

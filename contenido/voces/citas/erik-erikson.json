@@ -1,0 +1,91 @@
+[
+ {
+  "id": "erik-erikson-001",
+  "fuente": "erikson-infancia",
+  "original": "Healthy children will not fear life if their elders have integrity enough not to fear death.",
+  "traduccion": "Los niños sanos no le temerán a la vida si sus mayores tienen la integridad suficiente para no temerle a la muerte.",
+  "temas": [
+   "infancia",
+   "muerte",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_S0-EGH-374",
+   "titulo": "ChildHood and Society",
+   "anio": null,
+   "fragmento": "infantile trust by saying that healthy children will not fear life if their elders have integrity enough not to"
+  },
+  "url": "https://archive.org/details/bwb_S0-EGH-374",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "erik-erikson-002",
+  "fuente": "erikson-infancia",
+  "original": "Doubt is the brother of shame.",
+  "traduccion": "La duda es hermana de la vergüenza.",
+  "temas": [
+   "culpa",
+   "infancia"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_C0-AXG-022",
+   "titulo": "Childhood and Society",
+   "anio": 1950,
+   "fragmento": "hallucinations.)\n224 Childhood and Society\nDoubt is the brother of shame. Where shame is dependent on the consciousness"
+  },
+  "url": "https://archive.org/details/bwb_C0-AXG-022",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "erik-erikson-003",
+  "fuente": "erikson-insight",
+  "original": "Hope is both the earliest and the most indispensable virtue inherent in the state of being alive.",
+  "traduccion": "La esperanza es la virtud más temprana y la más indispensable de estar vivo.",
+  "temas": [
+   "resiliencia",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "20191211124523insightandresponsibility",
+   "titulo": "Insight and responsibility : lectures on the ethical implications of psychoanalytic insight",
+   "anio": 1964,
+   "fragmento": "is  not  there.  Hope  is  both  the  earliest  and  the  most indispensable  virtue  inherent  in  the"
+  },
+  "url": "https://archive.org/details/20191211124523insightandresponsibility",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "erik-erikson-004",
+  "fuente": "erikson-identidad",
+  "original": "In the social jungle of human existence, there is no feeling of being alive without a sense of identity.",
+  "traduccion": "En la jungla social de la existencia humana, no hay sentimiento de estar vivo sin un sentido de identidad.",
+  "temas": [
+   "identidad",
+   "sociedad"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_P7-AOV-967",
+   "titulo": "identity youth and crisis",
+   "anio": 1968,
+   "fragmento": "their lives. For, indeed, in the social jungle of human existence there is no feeling of being alive without"
+  },
+  "url": "https://archive.org/details/bwb_P7-AOV-967",
+  "fragmento": false,
+  "destacada": true
+ }
+]

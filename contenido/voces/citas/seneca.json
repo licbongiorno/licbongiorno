@@ -75,7 +75,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Carta 1, 3",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep1.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-006",
@@ -91,7 +92,8 @@
   "fragmento": true,
   "ubicacion": "Carta 1, 3",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep1.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-007",
@@ -122,7 +124,8 @@
   "fragmento": true,
   "ubicacion": "Carta 2, 6",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep1.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-009",
@@ -171,7 +174,8 @@
   "fragmento": true,
   "ubicacion": "Carta 6, 4",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep1.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-012",
@@ -297,7 +301,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Carta 16, 8",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep2.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-020",
@@ -407,7 +412,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Carta 28, 1",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep3.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-027",
@@ -487,7 +493,8 @@
   "fragmento": true,
   "ubicacion": "Carta 48, 2",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep5.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-032",
@@ -552,7 +559,8 @@
   "fragmento": true,
   "ubicacion": "Carta 81, 7",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep16.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-036",
@@ -629,7 +637,8 @@
   "fragmento": true,
   "ubicacion": "Carta 74, 13",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep9.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-041",
@@ -694,7 +703,8 @@
   "fragmento": true,
   "ubicacion": "Carta 81, 8",
   "url": "https://www.thelatinlibrary.com/sen/seneca.ep17-18.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-045",
@@ -739,7 +749,8 @@
   "fragmento": true,
   "ubicacion": "2, 1",
   "url": "https://www.thelatinlibrary.com/sen/sen.brevita.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-048",
@@ -770,7 +781,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "9, 1",
   "url": "https://www.thelatinlibrary.com/sen/sen.brevita.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-050",
@@ -818,7 +830,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Libro 2, 29, 1",
   "url": "https://www.thelatinlibrary.com/sen/sen.ira2.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "seneca-053",
@@ -833,6 +846,7 @@
   "incorporada": "2026-11-12",
   "ubicacion": "5, 9",
   "url": "https://www.thelatinlibrary.com/sen/sen.prov.shtml",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  }
 ]

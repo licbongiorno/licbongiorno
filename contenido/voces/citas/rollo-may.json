@@ -1,0 +1,90 @@
+[
+ {
+  "id": "rollo-may-001",
+  "fuente": "may-hombre",
+  "original": "Freedom is man's capacity to take a hand in his own development.",
+  "traduccion": "La libertad es la capacidad del ser humano de intervenir en su propio desarrollo.",
+  "temas": [
+   "libertad",
+   "desarrollo-humano"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_S0-EEV-893",
+   "titulo": "Man's Search For Himself",
+   "anio": 1953,
+   "fragmento": "freedom.\nWhat Freedom Is\nFreedom is man’s capacity to take a hand in his own development. It is our capacity"
+  },
+  "url": "https://archive.org/details/bwb_S0-EEV-893",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "rollo-may-002",
+  "fuente": "may-amor",
+  "original": "Hate is not the opposite of love; apathy is.",
+  "traduccion": "Lo contrario del amor no es el odio: es la apatía.",
+  "temas": [
+   "amor",
+   "vinculos"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_C0-BYG-208",
+   "titulo": "love and will",
+   "anio": 1969,
+   "fragmento": "close relation to love and will. Hate is not the opposite of love, apathy is. The opposite of will is not"
+  },
+  "url": "https://archive.org/details/bwb_C0-BYG-208",
+  "fragmento": false,
+  "destacada": true
+ },
+ {
+  "id": "rollo-may-003",
+  "fuente": "may-amor",
+  "original": "Care is a state in which something does matter",
+  "traduccion": "El cuidado es un estado en el que algo de verdad importa.",
+  "temas": [
+   "amor",
+   "compasion"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "bwb_C0-BYG-208",
+   "titulo": "love and will",
+   "anio": 1969,
+   "fragmento": "Will\nCARE IN LOVE AND WILL\nCare is a state in which something does matter; care is | the opposite of"
+  },
+  "url": "https://archive.org/details/bwb_C0-BYG-208",
+  "fragmento": true,
+  "destacada": true
+ },
+ {
+  "id": "rollo-may-004",
+  "fuente": "may-crear",
+  "original": "Courage is not the absence of despair; it is, rather, the capacity to move ahead in spite of despair.",
+  "traduccion": "El coraje no es la ausencia de desesperación, sino la capacidad de seguir adelante a pesar de ella.",
+  "temas": [
+   "resiliencia",
+   "miedo"
+  ],
+  "publicada": true,
+  "incorporada": "2026-11-17",
+  "verificada": true,
+  "evidencia": {
+   "item": "couragetocreate0000unse",
+   "titulo": "The Courage to Create.",
+   "anio": null,
+   "fragmento": "Sartre have proclaimed that courage is not the absence of despair; it is, rather, the capacity to move ahead"
+  },
+  "url": "https://archive.org/details/couragetocreate0000unse",
+  "fragmento": false,
+  "destacada": true
+ }
+]

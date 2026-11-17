@@ -29,7 +29,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 1, verso 5",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-003",
@@ -240,7 +241,8 @@
   "incorporada": "2026-11-12",
   "ubicacion": "Capítulo 6, verso 81",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-017",
@@ -408,7 +410,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 13, verso 170",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-028",
@@ -439,7 +442,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 14, verso 186",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-030",
@@ -488,7 +492,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 15, verso 205",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-033",
@@ -552,7 +557,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 17, verso 224",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-037",
@@ -599,7 +605,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 18, verso 252",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-040",
@@ -646,7 +653,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 20, verso 276",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-043",
@@ -742,7 +750,8 @@
   "fragmento": true,
   "ubicacion": "Capítulo 24, verso 348",
   "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
-  "verificada": true
+  "verificada": true,
+  "destacada": true
  },
  {
   "id": "buda-049",
