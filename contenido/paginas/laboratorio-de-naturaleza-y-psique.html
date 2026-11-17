@@ -1,0 +1,151 @@
+<!--{
+  "ruta": "/laboratorio-de-naturaleza-y-psique/",
+  "titulo": "Naturaleza y psique: laboratorio de estar afuera",
+  "descripcion": "Ejercicios desde la psicología para estar en la naturaleza: caminar con atención, la ventana, el vínculo con los animales y el duelo ecológico.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Naturaleza y psique",
+      "/laboratorio-de-naturaleza-y-psique/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Psicología ambiental",
+  "h1": "Naturaleza y <em>psique</em>",
+  "bajada": "Hay experiencias que la psicología empezó a estudiar con método: el alivio de una caminata por el bosque, el efecto de un paisaje desde la ventana, el apego con los animales y el dolor por lo que se pierde del planeta. Acá podés probar algunas, observar tu propia experiencia y leer de dónde viene cada idea.",
+  "respuesta": "Este laboratorio propone ejercicios sobre la relación entre la psicología y la naturaleza. Incluye una caminata con atención inspirada en Bratman y colaboradores (2015), una mirada sobre la ventana de Ulrich (1984), la atención fascinada de los Kaplan (1989), la biofilia de Wilson (1984), el vínculo con los animales desde Lorenz y Harlow, y el duelo ecológico de Cunsolo y Ellis (2018). No reemplaza un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio sobre la naturaleza y la psique",
+  "articulos": [
+    "psicologia-de-la-naturaleza",
+    "vinculo-con-los-animales",
+    "duelo-ecologico"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Estar afuera, mirar un árbol o caminar sin apuro suele hacernos bien, y durante mucho tiempo eso fue una impresión. Desde los años ochenta, la psicología ambiental la estudió con experimentos y encuestas. Los resultados son prometedores y también modestos: muchas investigaciones son chicas o de corto plazo.</p><p>Por eso este laboratorio no promete curar nada. Propone ejercicios para observar tu propia experiencia y, en cada estación, indica qué estudio o autor respalda la idea.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin promesas.</strong> Los efectos que se describen son sugerentes y limitados, y lo decimos en cada estación.</li><li><strong>Observá vos.</strong> Anotá lo que pasa, sin buscar una respuesta correcta.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#mirar">Mirar por la ventana</a><a href="#caminar">Caminar con atención</a><a href="#atencion">Dos tipos de atención</a><a href="#biofilia">Lo vivo que nos llama</a><a href="#animales">El vínculo con los animales</a><a href="#duelo">Una pérdida de la naturaleza</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="mirar" aria-labelledby="t-mirar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mirar">Mirar por la ventana</h2>
+      <p class="lab-estacion__bajada">En 1984, Roger Ulrich comparó pacientes con una ventana a un paisaje natural y pacientes con una pared de ladrillos: los primeros tuvieron estadías más cortas. Fue un estudio con registros, no un ensayo al azar, así que es una pista y no una prueba. Ahora mirá tu propio entorno.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="nat-ventana" data-lab-form-titulo="Mi ventana" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-vista">Cuando levanto la vista desde donde paso más tiempo, ¿qué veo?</label><textarea class="lab-texto" id="nat-vista" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-verde">¿Hay algo vivo a la vista (un árbol, el cielo, una planta, agua)?</label><input class="lab-campo" id="nat-verde" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-cambio">Si pudiera cambiar una cosa de esa vista, ¿cuál sería?</label><input class="lab-campo" id="nat-cambio" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="caminar" aria-labelledby="t-caminar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-caminar">Caminar con atención</h2>
+      <p class="lab-estacion__bajada">Bratman y colaboradores (2015, PNAS) compararon una caminata de 90 minutos por un entorno natural con una por una zona urbana. Quienes caminaron por la naturaleza informaron menos rumiación, es decir, pensamiento repetitivo centrado en lo negativo de uno mismo. El estudio tuvo 38 personas sanas: es un indicio, no una receta. Podés probar una caminata breve.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Elegí un lugar con algo vivo.</strong> Un parque, una plaza con árboles o la orilla de un río. Si no hay, cualquier calle con plantas.</li>
+          <li><strong>Dejá el celular en el bolsillo.</strong> Sin música ni mensajes durante la caminata. Si necesitás mirar la hora, mejor.</li>
+          <li><strong>Notá tres cosas.</strong> Un color, un sonido y una textura. Detenete a mirar cada una un momento.</li>
+          <li><strong>Anotá cómo estás al final.</strong> Usá los dos números de abajo para comparar antes y después.</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="nat-caminata" data-lab-form-titulo="Antes y después (autorregistro sencillo, no una escala validada)" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-antes">Antes de caminar: del 0 al 10, ¿cuánto me estoy repitiendo pensamientos negativos?</label><input class="lab-campo" id="nat-antes" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-despues">Después de caminar: del 0 al 10, ¿cuánto me repito pensamientos negativos?</label><input class="lab-campo" id="nat-despues" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-notas">¿Qué noté que no había notado antes?</label><textarea class="lab-texto" id="nat-notas" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="atencion" aria-labelledby="t-atencion">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-atencion">Dos tipos de atención</h2>
+      <p class="lab-estacion__bajada">Rachel y Stephen Kaplan (*The Experience of Nature*, 1989) distinguen la atención dirigida, la que exige concentración y se cansa, de una atención fascinada que llega sin esfuerzo. Según su teoría, ciertos entornos naturales permiten que la atención dirigida descanse. Es un marco para pensar, no una verdad cerrada. Elegí una de las dos y pensá en tu día.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un tipo de atención"><label class="opcion"><input type="radio" name="nat-atencion" value="dirigida" checked><span>Atención dirigida</span></label><label class="opcion"><input type="radio" name="nat-atencion" value="fascinada"><span>Atención fascinada</span></label></div>
+        <div class="lab-panel" data-lab-panel="dirigida"><p>La que usás para leer un contrato, resolver una cuenta o sostener una reunión. Es valiosa, pero se agota: al final del día cuesta filtrar las distracciones y cualquier ruido molesta más.</p><p>Preguntá: ¿en qué momento de tu día se te agota?</p></div><div class="lab-panel" data-lab-panel="fascinada" hidden><p>La que se activa sin esfuerzo: mirar una nube, seguir el agua de un arroyo, ver cómo se mueven las hojas. Según los Kaplan, este tipo de atención permite que la dirigida descanse.</p><p>Preguntá: ¿qué cosas te atrapan sin pedirte nada?</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="biofilia" aria-labelledby="t-biofilia">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-biofilia">Lo vivo que nos llama</h2>
+      <p class="lab-estacion__bajada">Edward O. Wilson (*Biophilia*, 1984) propuso que los humanos tenemos una tendencia innata a interesarnos por la vida y sus procesos. Es una hipótesis, debatida y difícil de probar. Como ejercicio, la pregunta es personal: ¿qué ser vivo te hace detener el paso?</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="nat-biofilia" data-lab-form-titulo="Mi interés por lo vivo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-ser">¿Qué ser vivo (planta, animal, hongo, insecto) me hace detener el paso?</label><input class="lab-campo" id="nat-ser" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-recuerdo">¿Cuándo fue la última vez que lo observé con calma?</label><input class="lab-campo" id="nat-recuerdo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-porque">¿Qué me despierta: la forma, el movimiento, el sonido, el cuidado que necesita?</label><textarea class="lab-texto" id="nat-porque" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="animales" aria-labelledby="t-animales">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-animales">El vínculo con los animales</h2>
+      <p class="lab-estacion__bajada">Konrad Lorenz describió en 1935 la impronta de los gansos grises, y Harry Harlow mostró en 1958, con crías de macaco, que el contacto y el consuelo importan además de la comida. Los experimentos de Harlow no se harían hoy, pero su pregunta sigue vigente. La compañía animal se asocia con menos soledad en varios estudios, aunque la evidencia es mixta. Contá tu historia con algún animal.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="nat-animales" data-lab-form-titulo="Mi historia con los animales" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-animal">¿Qué animal aparece en mi historia (de la infancia, de ahora, uno que extraño)?</label><input class="lab-campo" id="nat-animal" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-dio">¿Qué me dio ese vínculo? ¿Compañía, calma, alegría, sentido?</label><textarea class="lab-texto" id="nat-dio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-pide">¿Qué me pide hoy, en cuidado o en presencia?</label><textarea class="lab-texto" id="nat-pide" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="duelo" aria-labelledby="t-duelo">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-duelo">Una pérdida de la naturaleza</h2>
+      <p class="lab-estacion__bajada">Ashlee Cunsolo y Neville Ellis (2018, Nature Climate Change) definen el duelo ecológico como el dolor por pérdidas ecológicas experimentadas o anticipadas. No tiene rito ni reconocimiento social, y por eso puede ser difícil de nombrar. Si alguna pérdida te duele, escribila con palabras propias. Si el malestar es intenso o no te deja vivir, consultá a un profesional.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="nat-duelo" data-lab-form-titulo="Mi pérdida" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-perdida">Una pérdida ambiental que me duele (un lugar, una especie, una costumbre)</label><textarea class="lab-texto" id="nat-perdida" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-con">¿Con quién puedo hablar de esto?</label><input class="lab-campo" id="nat-con" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="nat-cuidado">¿Qué cuidado concreto me gustaría sostener, aunque sea pequeño?</label><textarea class="lab-texto" id="nat-cuidado" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre la naturaleza y la salud mental circulan más de lo que la evidencia permite. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="naturaleza-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es informativo y no reemplaza una consulta. Si la tristeza, la angustia o la desesperanza te acompañan durante semanas, o si la preocupación por el ambiente te impide vivir, hablá con un profesional de salud mental.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Ulrich, R. S. (1984), «View through a window may influence recovery from surgery», <em>Science</em>, 224(4647), 420–421.</li><li>Kaplan, R. y Kaplan, S. (1989), <em>The Experience of Nature: A Psychological Perspective</em>. Cambridge University Press.</li><li>Bratman, G. N. y colaboradores (2015), «Nature experience reduces rumination and subgenual prefrontal cortex activation», <em>PNAS</em>, 112(28), 8567–8572.</li><li>Wilson, E. O. (1984), <em>Biophilia</em>. Harvard University Press.</li><li>Lorenz, K. (1954), <em>Man Meets Dog</em>. Harlow, H. F. (1958), «The Nature of Love», <em>American Psychologist</em>, 13(12), 673–685.</li><li>Cunsolo, A. y Ellis, N. R. (2018), «Ecological grief as a mental health response to climate change-related loss», <em>Nature Climate Change</em>, 8, 275–281.</li><li><a href="/recursos/psicologia-de-la-naturaleza/">Psicología y naturaleza</a>, <a href="/recursos/vinculo-con-los-animales/">El vínculo con los animales</a> y <a href="/recursos/duelo-ecologico/">Duelo ecológico</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
