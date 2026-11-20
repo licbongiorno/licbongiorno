@@ -350,4 +350,13 @@
     { t: "Para Assagioli, la desidentificación consiste en reconocer que tenés partes sin reducirte a ninguna de ellas.", r: "b", e: "Es uno de los ejercicios centrales de la psicosíntesis: «tengo emociones, pero no soy solo mis emociones»." },
     { t: "Usar ideas espirituales para no sentir el dolor o la bronca es una forma de crecimiento.", r: "a", e: "John Welwood llamó a eso bypass espiritual (1984): esquivar con lo espiritual asuntos emocionales pendientes." }
   ]);
+  LAB.quiz("mejor-version-mitos", [
+    { t: "Tu mejor versión es la que nunca se equivoca.", r: "a", e: "No. Una mejor versión es una dirección más fiel a lo que te importa, con errores incluidos. Pensarla como una versión sin fallas es la puerta al perfeccionismo." },
+    { t: "Escribir sobre tu mejor yo posible se asoció con más bienestar.", r: "b", e: "King (2001) lo halló en estudiantes. La revisión de Carrillo y colaboradores (2019) mostró efectos pequeños a moderados: ayuda, pero no transforma la vida." },
+    { t: "El perfeccionismo socialmente prescrito aumentó entre 1989 y 2016.", r: "b", e: "Curran y Hill (2019) encontraron un aumento del 33 % en estudiantes universitarios de Estados Unidos, Canadá y Reino Unido. El mecanismo cultural no fue probado." },
+    { t: "Un valor se cumple y se tacha como una meta.", r: "a", e: "En ACT (Hayes, Strosahl y Wilson, 1999), un valor es una dirección que nunca se cumple del todo, como ir hacia el oeste. Las metas sí se alcanzan y se tachan." },
+    { t: "Ser más exigente con uno mismo es el mejor camino para mejorar.", r: "a", e: "Neff (2003) propuso la autocompasión, es decir, amabilidad con uno mismo ante el error, como una actitud sana hacia uno mismo, sin que exigirse más sea el camino." },
+    { t: "Los yo posibles incluyen también el yo que tememos ser.", r: "b", e: "Markus y Nurius (1986) los describieron como versiones imaginadas que expresan esperanzas y también miedos." },
+    { t: "La distancia con el «debería» se asocia con ansiedad.", r: "b", e: "Higgins (1987) la asoció con agitación y ansiedad; la distancia con el ideal, con desánimo y tristeza." }
+  ]);
 })();
