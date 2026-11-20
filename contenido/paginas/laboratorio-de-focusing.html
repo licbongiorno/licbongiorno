@@ -1,0 +1,149 @@
+<!--{
+  "ruta": "/laboratorio-de-focusing/",
+  "titulo": "Laboratorio de focusing: los seis pasos de Gendlin",
+  "descripcion": "Practicá el focusing de Eugene Gendlin paso a paso: hacer espacio, la sensación sentida, el asidero, resonar, preguntar y recibir, con sus fuentes.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Focusing",
+      "/laboratorio-de-focusing/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Psicología corporal",
+  "h1": "Laboratorio de <em>focusing</em>",
+  "bajada": "Eugene Gendlin llamó sensación sentida a esa impresión corporal de una situación que todavía no tiene palabras. Acá podés recorrer los seis pasos con los que la propuso escuchar, a tu ritmo y sin forzar nada.",
+  "respuesta": "Este laboratorio propone practicar el focusing de Eugene Gendlin (1978) en sus seis pasos clásicos: hacer espacio, encontrar la sensación sentida, darle un asidero (una palabra o imagen), resonar entre la palabra y la sensación, preguntar y recibir. Gendlin presentó los pasos como un andamiaje y no como un procedimiento rígido. Es un ejercicio de autoexploración y no reemplaza una terapia.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de focusing",
+  "articulos": [
+    "focusing",
+    "eugene-gendlin",
+    "mapa-de-las-psicoterapias-corporales"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>A veces sabemos que algo nos pasa con una situación, una persona o una decisión, pero no sabemos qué. Hay una impresión en el pecho, en la garganta o en la panza, difusa y todavía sin nombre. Gendlin, que trabajó con Carl Rogers, la llamó sensación sentida (<em>felt sense</em>) y propuso un modo de escucharla: el focusing.</p><p>Los seis pasos que siguen son los que describió en <em>Focusing</em> (1978). Él mismo los presentaba como un andamiaje: sirven mientras ayudan, y se pueden saltear o repetir. No hay una respuesta correcta que encontrar.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Despacio.</strong> Cada paso puede llevar un par de minutos. No hace falta terminar en una sola vez.</li><li><strong>Sin forzar.</strong> Si no aparece nada, está bien. Si aparece algo demasiado intenso, ponelo a un costado y pará.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#espacio">Hacer espacio</a><a href="#sensacion">La sensación sentida</a><a href="#asidero">El asidero</a><a href="#resonar">Resonar</a><a href="#preguntar">Preguntar</a><a href="#recibir">Recibir</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="espacio" aria-labelledby="t-espacio">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-espacio">Hacer espacio</h2>
+      <p class="lab-estacion__bajada">El primer paso es hacer un inventario sin entrar en nada. Preguntate cómo estás y dejá que aparezcan, una por una, las cosas que hoy te pesan o te ocupan. A cada una la reconocés y la dejás a un costado, como si la apoyaras en una mesa cerca tuyo.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="90">
+        <ol class="lab-pasos">
+          <li><strong>Sentate cómodo y respirá.</strong> Llevá la atención al centro del cuerpo: el pecho, el estómago, la panza.</li>
+          <li><strong>Preguntá: «¿cómo estoy ahora?».</strong> No respondas con la cabeza. Esperá a ver qué aparece.</li>
+          <li><strong>Nombrá lo que aparece, sin entrar.</strong> «Está lo del trabajo», «está lo de mi hermana». No lo analices.</li>
+          <li><strong>Ponelo a un costado.</strong> Imaginá que lo dejás a una distancia que te resulte cómoda. Fijate si el cuerpo afloja un poco.</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="foc-espacio" data-lab-form-titulo="Lo que apareció" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-lista">Las cosas que aparecieron (sin explicarlas)</label><textarea class="lab-texto" id="foc-lista" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-despues">¿Cómo está el cuerpo después de ponerlas a un costado?</label><input class="lab-campo" id="foc-despues" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sensacion" aria-labelledby="t-sensacion">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-sensacion">La sensación sentida</h2>
+      <p class="lab-estacion__bajada">Elegí una de las cosas que aparecieron, la que más te llama o la que hoy te parece posible mirar. No pienses en ella: notá cómo se siente en el cuerpo toda esa cuestión. La sensación sentida no es una emoción precisa, como «miedo» o «bronca». Es más amplia y más difusa: la impresión corporal de todo el asunto.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="foc-sentida" data-lab-form-titulo="Mi sensación sentida" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-tema">La cuestión que elegí</label><input class="lab-campo" id="foc-tema" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-donde">¿Dónde la siento en el cuerpo?</label><input class="lab-campo" id="foc-donde" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-como">¿Cómo es? (pesada, apretada, borrosa, inquieta…)</label><textarea class="lab-texto" id="foc-como" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="asidero" aria-labelledby="t-asidero">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-asidero">El asidero</h2>
+      <p class="lab-estacion__bajada">Gendlin llamó asidero (<em>handle</em>) a una palabra, una frase o una imagen que surge de la sensación misma, como si la pudieras agarrar por ahí. No se trata de buscar la palabra más precisa con la cabeza, sino de esperar a que alguna venga: «nudo», «gris», «como estar en puntas de pie».</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="foc-asidero" data-lab-form-titulo="Mi asidero" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-palabra">La palabra o imagen que vino</label><input class="lab-campo" id="foc-palabra" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-otras">Otras que aparecieron antes</label><input class="lab-campo" id="foc-otras" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="resonar" aria-labelledby="t-resonar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-resonar">Resonar</h2>
+      <p class="lab-estacion__bajada">Ahora pasá de la palabra a la sensación y de vuelta, para ver si encajan. Si encaja, suele aparecer una pequeña confirmación en el cuerpo, como un «sí, es eso». Si no, la sensación misma te va a mostrar que hace falta otra palabra. Podés cambiarla tantas veces como haga falta.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="foc-resonar" data-lab-form-titulo="Palabra y sensación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-encaja">¿Encaja la palabra con la sensación? ¿Qué pasó en el cuerpo al probarla?</label><textarea class="lab-texto" id="foc-encaja" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-ajuste">Si cambió, ¿cuál es la palabra ahora?</label><input class="lab-campo" id="foc-ajuste" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="preguntar" aria-labelledby="t-preguntar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-preguntar">Preguntar</h2>
+      <p class="lab-estacion__bajada">Con la sensación presente, podés hacerle una pregunta y esperar a que conteste, sin responder vos con la cabeza. Gendlin proponía preguntas abiertas, como: «¿qué hay en todo esto que lo hace tan…?» (completando con tu asidero) o «¿qué necesita esto?». La respuesta, si viene, suele llegar con un pequeño cambio en el cuerpo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="foc-preguntar" data-lab-form-titulo="Lo que respondió" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-pregunta">La pregunta que hice</label><input class="lab-campo" id="foc-pregunta" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-respuesta">Lo que vino, aunque sea poco o confuso</label><textarea class="lab-texto" id="foc-respuesta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="recibir" aria-labelledby="t-recibir">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-recibir">Recibir</h2>
+      <p class="lab-estacion__bajada">El último paso es recibir lo que llegó, sin juzgarlo ni apurarte a hacer algo con eso. Aunque sea pequeño, es un paso. Podés agradecerle a la sensación, marcar el lugar para volver otro día y despedirte de a poco.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="foc-recibir" data-lab-form-titulo="Para cerrar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-recibi">Lo que me llevo de esta práctica</label><textarea class="lab-texto" id="foc-recibi" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="foc-volver">¿Hay algo a lo que me gustaría volver otro día?</label><input class="lab-campo" id="foc-volver" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre el focusing circulan con más seguridad de la que tienen. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="focusing-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es un ejercicio de autoexploración y no reemplaza una consulta. Si al escuchar una sensación aparece algo muy intenso, como un recuerdo traumático, angustia o miedo que no afloja, pará, volvé a mirar lo que te rodea y hablalo con un profesional. Si hay riesgo, llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Gendlin, E. T. (1978), <em>Focusing</em>. Everest House.</li><li>Hendricks, M. N. (2002), «Focusing-oriented/experiential psychotherapy», en D. J. Cain y J. Seeman (eds.), <em>Humanistic Psychotherapies: Handbook of Research and Practice</em>. American Psychological Association.</li><li>Elliott, R., Greenberg, L. S. y Lietaer, G. (2004), «Research on experiential psychotherapies», en M. J. Lambert (ed.), <em>Bergin and Garfield's Handbook of Psychotherapy and Behavior Change</em>. Wiley.</li><li><a href="/recursos/focusing/">Focusing</a>, <a href="/recursos/eugene-gendlin/">Eugene Gendlin</a> y el <a href="/recursos/mapa-de-las-psicoterapias-corporales/">mapa de las psicoterapias corporales</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

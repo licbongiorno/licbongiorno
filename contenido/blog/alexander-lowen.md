@@ -11,7 +11,7 @@ orden: 187
 estado: publicado
 respuesta: Alexander Lowen (1910-2008) fue un psicoterapeuta estadounidense, alumno de Wilhelm Reich en los años cuarenta. Junto con John Pierrakos creó la bioenergética, una terapia que trabaja con la tensión muscular, la respiración y el contacto con el suelo. Sostuvo que la personalidad se expresa en el cuerpo, y publicó El lenguaje del cuerpo (1958) y Bioenergética (1975). Es una de las raíces de la psicología corporal.
 menciona: reich
-revision: 2026-11-12
+revision: 2026-11-20
 ---
 Imaginá a alguien que dice «estoy bien» con los hombros levantados, la respiración corta y la mandíbula apretada. Para Lowen, esa contradicción no es un detalle: el cuerpo también está diciendo algo. Esa idea, que el cuerpo no acompaña a la mente sino que la expresa, fue central en su trabajo.
 
@@ -36,11 +36,23 @@ Para Lowen, el primer paso en la terapia es sentirse **firme**. Sin ese **apoyo*
 
 {{figura:lowen-suelo}}
 
+Un ejemplo cotidiano de apoyo: parate un momento con los pies separados al ancho de la cadera, las rodillas apenas flexionadas, y sentí cuánto peso cae en cada pie. Mucha gente descubre que estaba con las rodillas trabadas, como lista para irse. Para Lowen, ese gesto mínimo dice algo del modo de estar en el mundo.
+
 ## Qué tomó la psicología
 
 - La **psicología corporal** que hoy se practica tiene a Reich y a Lowen como punto de partida. Eugene Gendlin, que trabajó con Carl Rogers, llevó después la atención al cuerpo hacia el focusing. Ver [Eugene Gendlin](/recursos/eugene-gendlin/).
 - La idea de que el cuerpo guarda lo no dicho aparece en muchas terapias actuales, y en el trabajo con trauma. Ver [Peter Levine y el Somatic Experiencing](/recursos/pendulacion-somatic-experiencing/).
 - Si querés probar algo del cuerpo, podés empezar por el [laboratorio de psicología corporal](/laboratorio-de-psicologia-corporal/).
+
+## Qué tiene respaldo y qué no
+
+Las formulaciones de Lowen sobre el carácter son históricas: sirven para pensar, pero no están probadas como teoría de la personalidad. De Reich y de Lowen salieron otras [escuelas posreichianas](/recursos/escuelas-posreichianas/), como Core Energetics, la biosíntesis y Bodynamic. Estas escuelas tienen escasa investigación controlada y se apoyan sobre todo en la clínica.
+
+Lo que perdura es la observación de que la respiración, la postura y la tensión forman parte de la experiencia emocional. La idea de una energía que se acumula y se descarga es una metáfora de trabajo, no un hallazgo medido.
+
+## Un cuidado
+
+Los ejercicios bioenergéticos movilizan la respiración y la expresión emocional, y pueden despertar emociones fuertes. Si algo te desborda, detenete, volvé a apoyar los pies y respirá con calma. Conviene hacerlo con un profesional formado, y no esperar de la descarga una cura rápida.
 
 ## Preguntas frecuentes
 
@@ -61,5 +73,7 @@ Es un patrón de tensión crónica que protege a la persona de sentir ciertas em
 - Lowen, A. (1958). *El lenguaje del cuerpo*.
 - Lowen, A. (1975). *Bioenergética*.
 - Reich, W. (1933). *Análisis del carácter*.
+
+Para ubicar a Lowen en el conjunto, mirá el [mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y la [interocepción](/recursos/interocepcion/).
 
 Seguí la serie con [Eugene Gendlin](/recursos/eugene-gendlin/), o volvé a [Wilhelm Reich](/recursos/wilhelm-reich/).

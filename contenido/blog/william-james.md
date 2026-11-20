@@ -68,4 +68,6 @@ Para practicarlo, probá el [Laboratorio de aprendizaje y hábito](/laboratorio-
 - James, W. (1902). *Las variedades de la experiencia religiosa*.
 - James, W. (1907). *Pragmatismo*.
 
+Su estudio de la experiencia religiosa sigue en la [psicología de la religión](/recursos/psicologia-de-la-religion/) y en la [experiencia mística](/recursos/experiencia-mistica/).
+
 Seguí la serie con [Alfred Adler](/recursos/alfred-adler/), o volvé a [Wilhelm Wundt](/recursos/wilhelm-wundt/).

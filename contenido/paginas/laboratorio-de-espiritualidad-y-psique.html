@@ -1,0 +1,161 @@
+<!--{
+  "ruta": "/laboratorio-de-espiritualidad-y-psique/",
+  "titulo": "Laboratorio de espiritualidad y psique: siete estaciones",
+  "descripcion": "Explorá cómo se cruzan espiritualidad y psicología: religión, asombro, experiencias extraordinarias, afrontamiento, bypass y crisis, con sus fuentes.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Espiritualidad y psique",
+      "/laboratorio-de-espiritualidad-y-psique/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Psicología espiritual",
+  "h1": "Laboratorio de <em>espiritualidad y psique</em>",
+  "bajada": "La psicología estudió la religión, la experiencia mística, el asombro y las crisis de sentido sin decidir qué es verdad en el plano de la fe. Acá podés recorrer siete estaciones de preguntas, con respeto por toda creencia y por la no creencia.",
+  "respuesta": "Este laboratorio propone siete estaciones para pensar la relación entre espiritualidad y psicología: religión y espiritualidad, lo numinoso (Otto), los cuatro rasgos de la experiencia mística de James, el afrontamiento religioso (Pargament), el bypass espiritual (Welwood), la crisis espiritual (Grof, Lukoff) y un quiz. No promueve ni descalifica ninguna creencia, y no es un diagnóstico.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de espiritualidad y psique",
+  "articulos": [
+    "mapa-de-las-psicologias-espirituales",
+    "psicologia-de-la-religion",
+    "experiencia-mistica",
+    "crisis-espiritual",
+    "bypass-espiritual"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Hay quienes encuentran sentido en una religión, quienes lo encuentran por fuera de toda institución y quienes no lo buscan en lo espiritual. La psicología estudió estas formas con herramientas propias: no decide si una creencia es verdadera, sino qué le pasa a las personas con ella.</p><p>En este laboratorio vas a encontrar preguntas, no respuestas. Se distingue qué tiene respaldo en la investigación, qué es una propuesta teórica y qué pertenece al terreno filosófico o espiritual, que cada quien resuelve a su manera.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin jerarquías.</strong> Ninguna forma de creer, de no creer o de dudar vale más que otra.</li><li><strong>A tu ritmo.</strong> Podés saltear estaciones y volver cuando quieras.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#religion">Espiritualidad y religión</a><a href="#conmueve">Lo que me conmueve</a><a href="#extraordinaria">Una experiencia fuera de lo común</a><a href="#creer">Cuando creer ayuda y cuando pesa</a><a href="#bypass">Esquivar con lo espiritual</a><a href="#crisis">Crisis espiritual o algo más</a><a href="#intensas">Antes de una práctica intensa</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="religion" aria-labelledby="t-religion">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-religion">Espiritualidad y religión</h2>
+      <p class="lab-estacion__bajada">Espiritualidad y religión se superponen, pero no son lo mismo. Elegí el panel que más se parezca a tu situación, o recorrelos todos: cada uno ofrece preguntas para pensar, sin ubicar a nadie por encima de nadie.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí un panel"><label class="opcion"><input type="radio" name="esp-religion" value="con" checked><span>Con religión</span></label><label class="opcion"><input type="radio" name="esp-religion" value="sin"><span>Espiritualidad sin religión</span></label><label class="opcion"><input type="radio" name="esp-religion" value="ambas"><span>Ambas</span></label><label class="opcion"><input type="radio" name="esp-religion" value="ninguna"><span>Ninguna de las dos</span></label></div>
+        <div class="lab-panel" data-lab-panel="con"><ul><li>¿Qué lugar ocupan en tu vida los rituales, la comunidad y los textos de tu tradición?</li><li>¿Qué te sostiene de ella y qué te cuesta?</li><li>¿Practicás por convicción propia, por pertenencia, por costumbre familiar o por varias razones a la vez?</li></ul></div><div class="lab-panel" data-lab-panel="sin" hidden><ul><li>¿Qué prácticas, lugares o vínculos te dan sensación de sentido o de trascendencia?</li><li>¿Qué palabras usás para nombrarlo, si es que usás alguna?</li><li>¿Con quién podés hablar de esto sin sentirte juzgado?</li></ul></div><div class="lab-panel" data-lab-panel="ambas" hidden><ul><li>¿Cómo conviven en vos lo que viene de una tradición y lo que descubriste por tu cuenta?</li><li>¿Hay tensiones entre ambas? ¿Cómo las vivís?</li><li>¿Qué te gustaría conservar de cada una?</li></ul></div><div class="lab-panel" data-lab-panel="ninguna" hidden><ul><li>¿Qué te da sentido, pertenencia o consuelo? Los valores, los vínculos y el trabajo también cumplen ese papel.</li><li>¿Hay momentos de asombro o de silencio que tengas ganas de cuidar, sin ponerles nombre religioso?</li><li>¿Cómo te sentís cuando otros hablan de fe? ¿Hay algo que quisieras que entendieran de vos?</li></ul></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="conmueve" aria-labelledby="t-conmueve">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-conmueve">Lo que me conmueve</h2>
+      <p class="lab-estacion__bajada">Rudolf Otto (1917) llamó lo numinoso a una experiencia de lo «totalmente otro», con dos caras: el <em>tremendum</em> (temor, estremecimiento) y el <em>fascinans</em> (atracción). Jung tomó el término. No hace falta ser creyente para reconocer momentos de asombro: una montaña, una música, un nacimiento, una noche de estrellas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="esp-conmueve" data-lab-form-titulo="Lo que me conmueve" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-asombro">Un momento en que sentí asombro o algo más grande que yo</label><textarea class="lab-texto" id="esp-asombro" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-cara">¿Hubo algo de temor o estremecimiento? ¿Algo de atracción?</label><textarea class="lab-texto" id="esp-cara" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-nombre">¿Cómo lo nombro yo, con mis palabras?</label><input class="lab-campo" id="esp-nombre" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="extraordinaria" aria-labelledby="t-extraordinaria">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-extraordinaria">Una experiencia fuera de lo común</h2>
+      <p class="lab-estacion__bajada">William James (1902) describió cuatro rasgos de la experiencia mística: inefabilidad (cuesta ponerla en palabras), cualidad noética (se vive como conocimiento), transitoriedad (suele durar poco, de media hora a una o dos horas) y pasividad (se vive como algo que le sucede a uno). Muchos filósofos posteriores consideran la lista incompleta o imprecisa. Usala como lente para mirar, no como examen. No es un diagnóstico ni prueba de nada: ni de que la experiencia sea una verdad, ni de que sea un síntoma.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="esp-extraordinaria" data-lab-form-titulo="Una experiencia fuera de lo común" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-exp">La experiencia, en pocas palabras</label><textarea class="lab-texto" id="esp-exp" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-inef">Inefabilidad: ¿qué cuesta decir?</label><input class="lab-campo" id="esp-inef" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-noet">Cualidad noética: ¿sentí que comprendía algo?</label><input class="lab-campo" id="esp-noet" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-trans">Transitoriedad: ¿cuánto duró?</label><input class="lab-campo" id="esp-trans" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-pasiv">Pasividad: ¿sentí que me sucedía?</label><input class="lab-campo" id="esp-pasiv" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-desp">¿Qué cambió después, en lo cotidiano?</label><textarea class="lab-texto" id="esp-desp" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="creer" aria-labelledby="t-creer">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-creer">Cuando creer ayuda y cuando pesa</h2>
+      <p class="lab-estacion__bajada">Pargament y colaboradores (1998) distinguieron dos modos de afrontar las dificultades con recursos religiosos: el positivo (buscar apoyo espiritual, sentirse acompañado) y el negativo (sentirse castigado o abandonado por Dios). La gente usó más el positivo, y cada uno se asoció de forma distinta con la salud. Elegí un modo y pensalo desde tu experiencia, crea o no crea.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Modo de afrontamiento"><label class="opcion"><input type="radio" name="esp-afrontar" value="pos" checked><span>Afrontamiento positivo</span></label><label class="opcion"><input type="radio" name="esp-afrontar" value="neg"><span>Afrontamiento negativo</span></label></div>
+        <div class="lab-panel" data-lab-panel="pos"><ul><li>¿Qué te acompaña cuando atravesás algo difícil: una comunidad, una oración, un silencio, una idea de sentido?</li><li>¿Qué efecto tiene en tu cuerpo y en tu ánimo?</li></ul></div><div class="lab-panel" data-lab-panel="neg" hidden><ul><li>¿Aparece la idea de castigo, de abandono o de «algo hice mal»?</li><li>¿Se mantiene aunque pase el tiempo? Si es así, vale la pena hablarlo con un profesional o con alguien de confianza.</li></ul></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="esp-creer" data-lab-form-titulo="Cuando creer ayuda y cuando pesa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-ayuda">Lo que me ayuda de mis creencias o de mis búsquedas</label><textarea class="lab-texto" id="esp-ayuda" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-pesa">Lo que me pesa</label><textarea class="lab-texto" id="esp-pesa" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-hablar">Algo que quisiera hablar con alguien</label><input class="lab-campo" id="esp-hablar" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+      <p class="lab-paso__ayuda">Si aparece culpa o una sensación de castigo que no afloja, hablalo con un profesional de la salud mental. Es un tema para cuidar, no para sobrellevar a solas.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="bypass" aria-labelledby="t-bypass">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-bypass">Esquivar con lo espiritual</h2>
+      <p class="lab-estacion__bajada">John Welwood acuñó en 1984 el término «bypass espiritual»: usar ideas y prácticas espirituales para esquivar asuntos emocionales y personales pendientes. Lo observó en la comunidad budista en la que participaba y en sí mismo. No es una acusación contra ninguna práctica: es una pregunta para mirarse con honestidad.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="esp-bypass" data-lab-form-titulo="Esquivar con lo espiritual" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-bp1">¿Hay algo que evito sentir (bronca, tristeza, miedo) y que resuelvo con «estar en paz» o «soltar»?</label><textarea class="lab-texto" id="esp-bp1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-bp2">¿Una práctica mía me acerca a lo que siento o me aleja?</label><textarea class="lab-texto" id="esp-bp2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-bp3">¿Qué asunto pendiente con alguien o conmigo sigo postergando?</label><input class="lab-campo" id="esp-bp3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="esp-bp4">¿Con quién podría hablarlo?</label><input class="lab-campo" id="esp-bp4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="crisis" aria-labelledby="t-crisis">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-crisis">Crisis espiritual o algo más</h2>
+      <p class="lab-estacion__bajada">Stanislav y Christina Grof (1989) llamaron emergencia espiritual a una crisis en que el proceso de crecimiento se vuelve caótico y abrumador. Lukoff, Lu y Turner (1992) propusieron una categoría que el DSM-IV incluyó como «Problema religioso o espiritual» (V62.89): no es un trastorno, sino un motivo de atención clínica. Una crisis espiritual no debe confundirse ni con normalidad automática ni con patología automática: conviene descartar episodios maníacos, psicóticos o disociativos, y causas médicas o por sustancias.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Información"><label class="opcion"><input type="radio" name="esp-crisis" value="senales" checked><span>Señales de consulta urgente</span></label><label class="opcion"><input type="radio" name="esp-crisis" value="grof"><span>Qué propusieron Grof y Lukoff</span></label><label class="opcion"><input type="radio" name="esp-crisis" value="evaluar"><span>Qué conviene evaluar</span></label></div>
+        <div class="lab-panel" data-lab-panel="senales"><ul><li>No dormir durante varias noches.</li><li>Oír voces que otros no oyen.</li><li>Ideas de misión o de grandeza que desorganizan la vida.</li><li>No poder cuidarse.</li><li>Riesgo para sí o para otros.</li></ul><p>Si reconocés alguna, buscá ayuda ya: <a href="/ayuda-urgente/">ayuda urgente</a>.</p></div><div class="lab-panel" data-lab-panel="grof" hidden><p>Grof (1989) describió la emergencia espiritual; Lukoff y colaboradores (1992) propusieron la categoría diagnóstica. Esta última no se basó en datos empíricos sino en su validez aparente.</p></div><div class="lab-panel" data-lab-panel="evaluar" hidden><p>Un profesional puede descartar episodios maníacos, psicóticos o disociativos y causas médicas o por sustancias, y acompañar con respeto por tu marco de creencias.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="intensas" aria-labelledby="t-intensas">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-intensas">Antes de una práctica intensa</h2>
+      <p class="lab-estacion__bajada">Constelaciones familiares, ceremonias con sustancias psicodélicas, respiración holotrópica, retiros largos de silencio: son experiencias que pueden movilizar mucho. No hace falta prohibírselas a nadie, pero sí llegar con preguntas. Elegí la práctica que te interesa y leé qué conviene saber antes.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una práctica"><label class="opcion"><input type="radio" name="esp-intensas" value="constelaciones" checked><span>Constelaciones familiares</span></label><label class="opcion"><input type="radio" name="esp-intensas" value="psicodelicos"><span>Psicodélicos</span></label><label class="opcion"><input type="radio" name="esp-intensas" value="holotropica"><span>Respiración holotrópica</span></label><label class="opcion"><input type="radio" name="esp-intensas" value="retiros"><span>Retiros intensivos</span></label></div>
+        <div class="lab-panel" data-lab-panel="constelaciones"><p>Las creó Bert Hellinger. Un ensayo aleatorizado de la Universidad de Heidelberg (Weinhold y colaboradores, 2013) encontró mejoras con seminarios conducidos por psicoterapeutas formados, pero la idea de que los representantes perciben algo real de personas que no conocen no tiene respaldo científico.</p><p>Preguntá quién coordina y qué formación tiene, qué seguimiento hay después y qué pasa si algo te desborda. Es una señal de alarma si se sugiere que una víctima de abuso o de violencia debe «honrar» o reconciliarse con quien la dañó.</p><p>Más en <a href="/recursos/constelaciones-familiares/">constelaciones familiares</a>.</p></div><div class="lab-panel" data-lab-panel="psicodelicos" hidden><p>Hay ensayos clínicos serios con psilocibina, siempre con selección de pacientes, control médico y psicoterapia. En Argentina no están aprobados para uso terapéutico, y una ceremonia no es un ensayo clínico.</p><p>Antes de cualquier experiencia, tené en cuenta que los antecedentes personales o familiares de psicosis o de trastorno bipolar suelen ser motivo de exclusión, y que hay interacciones con medicación. Consultalo con un profesional de salud mental.</p><p>Más en <a href="/recursos/terapia-con-psicodelicos/">terapia asistida con psicodélicos</a>.</p></div><div class="lab-panel" data-lab-panel="holotropica" hidden><p>La crearon Stanislav y Christina Grof: respiración rápida y profunda sostenida, con música, para inducir estados no ordinarios de conciencia. Su eficacia no está demostrada.</p><p>No se recomienda con embarazo, enfermedad cardiovascular, hipertensión, epilepsia, antecedentes de psicosis, trastorno bipolar o crisis de pánico. Puede movilizar recuerdos traumáticos intensos: preguntá por la formación de quien facilita y por el acompañamiento posterior.</p><p>Más en <a href="/recursos/respiracion-holotropica/">respiración holotrópica</a>.</p></div><div class="lab-panel" data-lab-panel="retiros" hidden><p>Muchas horas de meditación o de silencio pueden traer calma y también angustia, recuerdos o desorganización, sobre todo en personas con trauma o con antecedentes psiquiátricos.</p><p>Preguntá si hay alguien con quien hablar durante el retiro y si podés irte o parar. Más en <a href="/recursos/cuando-meditar-no-es-recomendable/">cuándo meditar no es recomendable</a>.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Hay ideas sobre espiritualidad y salud mental que circulan con más seguridad de la que tienen. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="espiritualidad-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es un ejercicio de reflexión y no reemplaza una consulta. Si una experiencia te desorganiza, no dormís, oís voces, no podés cuidarte o sentís culpa o castigo que no afloja, hablalo con un profesional. Si hay riesgo, llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>James, W. (1902), <em>The Varieties of Religious Experience</em>.</li><li>Otto, R. (1917), <em>Das Heilige</em> (<em>Lo santo</em>).</li><li>Pargament, K. I., Smith, B. W., Koenig, H. G. y Perez, L. (1998), «Patterns of positive and negative religious coping with major life stressors», <em>Journal for the Scientific Study of Religion</em>, 37(4), 710–724.</li><li>Bonelli, R., Dew, R. E., Koenig, H. G., Rosmarin, D. H. y Vasegh, S. (2012), «Religious and spiritual factors in depression», <em>Depression Research and Treatment</em>.</li><li>Grof, S. y Grof, C. (eds.) (1989), <em>Spiritual Emergency: When Personal Transformation Becomes a Crisis</em>. Tarcher.</li><li>Lukoff, D., Lu, F. y Turner, R. (1992), «Toward a more culturally sensitive DSM-IV: psychoreligious and psychospiritual problems», <em>Journal of Nervous and Mental Disease</em>, 180(11), 673–682.</li><li>Welwood, J., <em>Toward a Psychology of Awakening</em>.</li><li><a href="/recursos/mapa-de-las-psicologias-espirituales/">El mapa de las psicologías espirituales</a>, <a href="/recursos/psicologia-de-la-religion/">psicología de la religión</a>, <a href="/recursos/experiencia-mistica/">experiencia mística</a>, <a href="/recursos/crisis-espiritual/">crisis espiritual</a> y <a href="/recursos/bypass-espiritual/">bypass espiritual</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

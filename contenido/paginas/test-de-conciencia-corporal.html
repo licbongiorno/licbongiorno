@@ -1,0 +1,80 @@
+<!--{
+  "ruta": "/test-de-conciencia-corporal/",
+  "titulo": "Test de conciencia corporal: ocho formas de sentir el cuerpo",
+  "descripcion": "Test gratuito de 24 afirmaciones sobre cómo notás y escuchás tu cuerpo, inspirado en las ocho escalas del MAIA. Tu perfil, sin registro.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Conciencia corporal",
+      "/test-de-conciencia-corporal/"
+    ]
+  ],
+  "antetitulo": "Test de autoconocimiento",
+  "h1": "Test de <em>conciencia corporal</em>",
+  "bajada": "Veinticuatro afirmaciones sobre cómo notás, atendés y escuchás lo que pasa en tu cuerpo. Al final, tu perfil en ocho dimensiones, con lo que más aparece, lo que menos y algunas preguntas para pensar.",
+  "respuesta": "Este test de conciencia corporal tiene 24 afirmaciones originales, tres por cada una de ocho dimensiones inspiradas en el MAIA, el cuestionario de conciencia interoceptiva de Wolf Mehling y colaboradores (2012 y 2018): notar, no apartar la atención, no alarmarse, regular la atención, conciencia emocional, autorregulación, escuchar al cuerpo y confianza. Cada dimensión recibe un puntaje de 1 a 5. Es un autorreporte no validado y no es el MAIA. Las respuestas no se guardan ni se envían.",
+  "wa_tema": "el test de conciencia corporal",
+  "articulos": [
+    "interocepcion",
+    "mapa-de-las-psicoterapias-corporales",
+    "focusing"
+  ],
+  "scripts": [
+    "test-conciencia-corporal.js"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+        <p>La interocepción es la percepción de lo que pasa dentro del cuerpo: la respiración, el latido, la tensión, el hambre o el cansancio. Las psicoterapias corporales la ponen en el centro, y la investigación reciente la relaciona con la ansiedad, el ánimo y otras dificultades. Este test es una forma de mirar cómo es hoy tu relación con esas señales.</p>
+        <p>Para cada afirmación, marcá <strong>con qué frecuencia te pasa</strong>, pensando en las últimas semanas y no en cómo te gustaría que fuera.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Unos 5 minutos.</strong> 24 afirmaciones en 3 páginas.</li>
+        <li><strong>Sin registro y sin guardar nada.</strong> Todo ocurre en tu navegador. Si recargás la página, las respuestas se borran.</li>
+        <li><strong>Podés parar cuando quieras.</strong> Si alguna afirmación te incomoda, no hace falta seguir.</li>
+      </ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p><strong>Antes de empezar.</strong> Las ocho dimensiones se inspiran en las escalas del MAIA (Multidimensional Assessment of Interoceptive Awareness), de Wolf Mehling y colaboradores. Las afirmaciones de este test, en cambio, son originales de este sitio: <strong>no es el MAIA</strong> ni está validado psicométricamente. Es un autorreporte para reflexionar, no una evaluación profesional.</p></aside>
+
+    <div class="test" data-test-corporal>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este test necesita JavaScript para funcionar. Igual podés leer más abajo cómo está armado.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+
+    <div class="prosa revelar" style="max-width:46rem;margin-top:3rem">
+      <h2 id="que-mide">Las ocho dimensiones</h2>
+      <ul><li><strong>Notar.</strong> Darte cuenta de lo que pasa en tu cuerpo: sensaciones cómodas, incómodas y neutras.</li><li><strong>No apartar la atención.</strong> No ignorar ni tapar enseguida las sensaciones incómodas.</li><li><strong>No alarmarte.</strong> Poder notar una sensación incómoda sin preocuparte ni asustarte por ella.</li><li><strong>Regular la atención.</strong> Llevar la atención al cuerpo, sostenerla y volver a ella cuando te distraés.</li><li><strong>Conciencia emocional.</strong> Relacionar lo que sentís en el cuerpo con lo que te pasa emocionalmente.</li><li><strong>Autorregulación.</strong> Usar la atención al cuerpo para calmarte cuando algo te altera.</li><li><strong>Escuchar al cuerpo.</strong> Tener en cuenta lo que el cuerpo indica para decidir y para cuidarte.</li><li><strong>Confianza.</strong> Sentir el cuerpo como un lugar seguro, habitable y confiable.</li></ul>
+
+      <h2 id="como-se-calcula">Cómo se calcula el resultado</h2>
+      <p>Cada dimensión tiene tres afirmaciones, mezcladas entre las demás. Cada respuesta vale de 1 («nunca») a 5 («siempre»). Seis afirmaciones están redactadas al revés, porque describen lo contrario de la dimensión: por ejemplo, «busco distraerme enseguida» resta en «no apartar la atención». En esas, el puntaje se invierte. El <strong>puntaje de cada dimensión es el promedio de sus tres afirmaciones</strong>, de 1 a 5. El resultado muestra las dos dimensiones más altas y las dos más bajas; si hay empates, las muestra todas.</p>
+
+      <h2 id="mas-no-es-mejor">Más no siempre es mejor</h2>
+      <p>Notar mucho el cuerpo no es en sí algo bueno. Una persona con ataques de pánico puede registrar cada latido con enorme detalle, y justamente eso alimenta el miedo. Por eso el MAIA, y este test, separan el notar de la manera de relacionarse con lo que se nota: poder quedarse con una sensación sin alarmarse, usarla para calmarse, tenerla en cuenta para cuidarse. Un puntaje bajo en «confianza» tampoco es un defecto: es frecuente después de experiencias traumáticas o de un dolor prolongado.</p>
+
+      <h2 id="de-donde-viene">De dónde viene</h2>
+      <p>Wolf Mehling y su equipo, de la Universidad de California en San Francisco, publicaron en 2012 el MAIA, un cuestionario de 32 ítems con ocho escalas, y en 2018 una versión revisada, el MAIA-2, de 37 ítems, que es de dominio público. Sahib Khalsa y colaboradores (2018) resumieron el consenso de la investigación: la interocepción es el proceso por el que el sistema nervioso percibe, interpreta e integra las señales del interior del cuerpo, y sus alteraciones aparecen en la ansiedad, el ánimo, la alimentación, las adicciones y los síntomas somáticos.</p>
+      <p>Este test toma las dimensiones como mapa, pero no los ítems validados. Si querés profundizar, leé <a href="/recursos/interocepcion/">interocepción</a> y el <a href="/recursos/mapa-de-las-psicoterapias-corporales/">mapa de las psicoterapias corporales</a>, o probá el <a href="/laboratorio-de-terapias-corporales/">laboratorio de terapias corporales</a>. Si el resultado te moviliza, es un buen tema para conversar en terapia.</p>
+      <p><em>Lecturas:</em> Mehling, W. E. y colaboradores (2012), «The Multidimensional Assessment of Interoceptive Awareness (MAIA)», <em>PLoS ONE</em>. Mehling, W. E. y colaboradores (2018), «The Multidimensional Assessment of Interoceptive Awareness, Version 2 (MAIA-2)», <em>PLoS ONE</em>. Khalsa, S. S. y colaboradores (2018), «Interoception and Mental Health: A Roadmap», <em>Biological Psychiatry: Cognitive Neuroscience and Neuroimaging</em>, 3(6), 501–513.</p>
+    </div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"opciones":[{"t":"Nunca","v":1},{"t":"Casi nunca","v":2},{"t":"A veces","v":3},{"t":"Casi siempre","v":4},{"t":"Siempre","v":5}],"porPagina":8,"dimensiones":[{"id":"notar","n":"Notar","txt":"Darte cuenta de lo que pasa en tu cuerpo: sensaciones cómodas, incómodas y neutras.","alta":"Registrás con facilidad lo que pasa en tu cuerpo. Para pensar: ¿qué hacés con lo que notás?","baja":"Puede que el cuerpo pase a segundo plano en tu día. Para pensar: ¿en qué momentos sí lo registrás?"},{"id":"presencia","n":"No apartar la atención","txt":"No ignorar ni tapar enseguida las sensaciones incómodas.","alta":"Podés quedarte un momento con una sensación incómoda sin taparla. Para pensar: ¿cuándo te sirve y cuándo conviene distraerte?","baja":"Tendés a tapar el malestar con otra cosa. Eso a veces protege, y otras veces hace que una señal llegue tarde. Para pensar: ¿qué te pasaría si te quedaras unos segundos con ella?"},{"id":"calma","n":"No alarmarte","txt":"Poder notar una sensación incómoda sin preocuparte ni asustarte por ella.","alta":"Las sensaciones incómodas no suelen asustarte. Para pensar: ¿hay alguna que sí te preocupe y que valga la pena consultar?","baja":"Las sensaciones del cuerpo te alarman con facilidad. Es frecuente en la ansiedad y en el pánico, y se puede trabajar. Para pensar: ¿qué sensación te asusta más y qué te decís cuando aparece?"},{"id":"atencion","n":"Regular la atención","txt":"Llevar la atención al cuerpo, sostenerla y volver a ella cuando te distraés.","alta":"Podés dirigir y sostener la atención en el cuerpo. Para pensar: ¿en qué situaciones lo usás?","baja":"Te cuesta sostener la atención en el cuerpo. Se entrena de a poco, con prácticas breves. Para pensar: ¿qué parte del cuerpo te resulta más fácil de atender?"},{"id":"emocion","n":"Conciencia emocional","txt":"Relacionar lo que sentís en el cuerpo con lo que te pasa emocionalmente.","alta":"Reconocés cómo se ven tus emociones en el cuerpo. Para pensar: ¿qué emoción se nota primero?","baja":"La conexión entre emoción y cuerpo aparece poco. Para pensar: la próxima vez que te enojes o te entristezcas, ¿dónde lo notás?"},{"id":"regulacion","n":"Autorregulación","txt":"Usar la atención al cuerpo para calmarte cuando algo te altera.","alta":"El cuerpo te ayuda a recuperar la calma. Para pensar: ¿qué recurso corporal te funciona mejor?","baja":"Todavía no encontraste en el cuerpo un recurso para calmarte. Para pensar: el laboratorio de respiraciones y el de regulación tienen prácticas breves para probar."},{"id":"escucha","n":"Escuchar al cuerpo","txt":"Tener en cuenta lo que el cuerpo indica para decidir y para cuidarte.","alta":"Tomás en cuenta lo que el cuerpo te dice. Para pensar: ¿cuándo te dio una señal acertada?","baja":"Lo que dice el cuerpo cuenta poco en tus decisiones. Para pensar: ¿qué señal de cansancio o de incomodidad solés pasar por alto?"},{"id":"confianza","n":"Confianza","txt":"Sentir el cuerpo como un lugar seguro, habitable y confiable.","alta":"Tu cuerpo es, en general, un lugar donde te sentís a gusto. Para pensar: ¿qué cuida esa sensación?","baja":"El cuerpo no se siente del todo como un lugar seguro. Es frecuente después de experiencias difíciles o de un dolor prolongado, y no es culpa tuya. Para pensar: si esto pesa, es un buen tema para hablar con un profesional."}],"items":[{"t":"Me doy cuenta de cuándo cambia mi respiración, por ejemplo si se acelera o se hace más corta.","d":"notar"},{"t":"Cuando siento un malestar en el cuerpo, trato de no pensar en él y sigo con lo que estaba haciendo.","d":"presencia","r":true},{"t":"Cuando siento algo raro en el cuerpo, pienso que me puede estar pasando algo grave.","d":"calma","r":true},{"t":"Puedo llevar la atención a una parte del cuerpo y sostenerla un rato, aunque haya ruido alrededor.","d":"atencion"},{"t":"Me doy cuenta de qué siento en el cuerpo cuando tengo enojo, tristeza o alegría.","d":"emocion"},{"t":"Cuando siento nervios, puedo calmarme prestando atención a la respiración.","d":"regulacion"},{"t":"Cuando tengo que tomar una decisión, tengo en cuenta cómo reacciona mi cuerpo.","d":"escucha"},{"t":"Siento mi cuerpo como un lugar seguro.","d":"confianza"},{"t":"Noto tensiones en el cuerpo, como los hombros levantados o la mandíbula apretada, mientras hago otras cosas.","d":"notar"},{"t":"Si algo me duele o me incomoda, busco distraerme enseguida con el celular, la comida o una tarea.","d":"presencia","r":true},{"t":"Una sensación incómoda me preocupa aunque sepa que suele ser pasajera.","d":"calma","r":true},{"t":"Cuando me distraigo mientras atiendo a mi respiración, puedo volver a ella.","d":"atencion"},{"t":"Noto que mi cuerpo cambia cuando hablo de algo que me importa.","d":"emocion"},{"t":"Si siento que me desbordo, llevar la atención al cuerpo me ayuda a recuperar algo de calma.","d":"regulacion"},{"t":"Me doy permiso para parar cuando el cuerpo me indica cansancio.","d":"escucha"},{"t":"Confío en lo que siento en el cuerpo.","d":"confianza"},{"t":"Registro sensaciones agradables del cuerpo, como el calor del sol o el alivio al estirarme.","d":"notar"},{"t":"Prefiero no prestar atención a las sensaciones incómodas hasta que se vuelven muy fuertes.","d":"presencia","r":true},{"t":"Me cuesta notar un latido fuerte o un mareo sin asustarme.","d":"calma","r":true},{"t":"Puedo prestar atención a todo el cuerpo a la vez, no sólo a una parte.","d":"atencion"},{"t":"Puedo relacionar un malestar físico con algo que me pasó o me preocupa.","d":"emocion"},{"t":"Cuando me cuesta dormir, puedo aflojar el cuerpo de a poco.","d":"regulacion"},{"t":"Escucho lo que el cuerpo me dice sobre una situación, aunque después lo piense con la cabeza.","d":"escucha"},{"t":"Me siento a gusto en mi cuerpo.","d":"confianza"}],"lecturas":[{"t":"Interocepción: sentir el cuerpo desde adentro","url":"/recursos/interocepcion/"},{"t":"Psicoterapias corporales: un mapa","url":"/recursos/mapa-de-las-psicoterapias-corporales/"},{"t":"Laboratorio de terapias corporales","url":"/laboratorio-de-terapias-corporales/"},{"t":"Laboratorio de focusing","url":"/laboratorio-de-focusing/"},{"t":"Laboratorio de ataques de pánico","url":"/laboratorio-de-ataques-de-panico/"}]}</script>
+{{> cta}}
