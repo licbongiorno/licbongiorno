@@ -766,6 +766,8 @@ LABORATORIOS = [
      "descripcion": "Apoyarte en el suelo, notar dónde guardás la tensión, escuchar una sensación sentida y aflojar, con Reich, Lowen y Gendlin."},
     {"titulo": "Laboratorio de terapias corporales", "ruta": "/laboratorio-de-terapias-corporales/", "tipo": "Cuerpo",
      "descripcion": "Escuelas corporales con su evidencia, una pausa de interocepción, un movimiento Feldenkrais, la sensación sentida y los mitos del cuerpo."},
+    {"titulo": "Laboratorio de focusing", "ruta": "/laboratorio-de-focusing/", "tipo": "Cuerpo",
+     "descripcion": "Los seis pasos de Gendlin: hacer espacio, la sensación sentida, el asidero, resonar, preguntar y recibir."},
     {"titulo": "Laboratorio de psicosíntesis", "ruta": "/laboratorio-de-psicosintesis/", "tipo": "Transpersonal · Nivel 2",
      "descripcion": "El mapa del huevo de Assagioli, los aspectos de la voluntad, el modelo ideal y las palabras evocadoras."},
     {"titulo": "Laboratorio de psicología transpersonal", "ruta": "/laboratorio-de-psicologia-transpersonal/", "tipo": "Transpersonal",
@@ -832,7 +834,7 @@ TEMAS_LAB = {
     "/laboratorio-de-aprendizaje-y-habito/": "Psicología en práctica", "/laboratorio-del-desarrollo-y-el-apego/": "Psicología en práctica",
     "/laboratorio-de-transacciones-y-estados-del-yo/": "Psicología en práctica", "/laboratorio-de-la-psique-y-la-imagen/": "Psicología en práctica",
     "/laboratorio-de-pesadillas/": "Emociones", "/laboratorio-de-pareja/": "Vínculos", "/laboratorio-de-adolescentes/": "Vínculos",
-    "/laboratorio-de-psicologia-corporal/": "Cuerpo y respiración", "/laboratorio-de-terapias-corporales/": "Cuerpo y respiración", "/laboratorio-de-psicologia-transpersonal/": "Enfoques", "/laboratorio-de-psicosintesis/": "Enfoques",
+    "/laboratorio-de-psicologia-corporal/": "Cuerpo y respiración", "/laboratorio-de-terapias-corporales/": "Cuerpo y respiración", "/laboratorio-de-focusing/": "Cuerpo y respiración", "/laboratorio-de-psicologia-transpersonal/": "Enfoques", "/laboratorio-de-psicosintesis/": "Enfoques",
     "/laboratorio-del-amor-como-arte/": "Vínculos", "/laboratorio-de-los-lenguajes-del-amor/": "Vínculos", "/laboratorio-estoico/": "Filosofía en práctica", "/laboratorio-de-grupos/": "Vínculos",
     "/laboratorio-de-seneca/": "Filosofía en práctica", "/laboratorio-de-marco-aurelio/": "Filosofía en práctica",
     "/laboratorio-de-la-vida-que-no-es-breve/": "Filosofía en práctica",
@@ -2240,7 +2242,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/test-de-fortalezas/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/test-de-fortalezas/", "/test-de-conciencia-corporal/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
         ("Voces que nos habitan", rutas_voces[2:]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]

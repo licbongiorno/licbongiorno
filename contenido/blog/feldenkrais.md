@@ -8,7 +8,7 @@ palabras_clave: método Feldenkrais, Moshe Feldenkrais, conciencia corporal, mov
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026
 orden: 133
-estado: borrador
+estado: publicado
 respuesta: El método Feldenkrais es una práctica de movimiento lento y atento, creada por Moshe Feldenkrais, para ampliar la conciencia del cuerpo y las posibilidades de acción. No es una psicoterapia, aunque se usa como complemento. Una revisión sistemática de 2015 encontró ensayos heterogéneos y de calidad metodológica variable, con resultados positivos en el equilibrio de personas mayores.
 menciona:
 revision: 2026-11-20

@@ -55,4 +55,4 @@ Algunas prácticas, como el focusing o la atención a la respiración, se pueden
 - Lowen, A. (1958). *El lenguaje del cuerpo*.
 - Gendlin, E. T. (1978). *Focusing*.
 
-Practicalo en el [laboratorio de psicología corporal](/laboratorio-de-psicologia-corporal/).
+Practicalo en el [laboratorio de psicología corporal](/laboratorio-de-psicologia-corporal/). Para conocer las demás escuelas, desde Hakomi y la psicoterapia sensoriomotriz hasta la danza movimiento terapia, mirá el [mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/).

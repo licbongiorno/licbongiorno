@@ -8,7 +8,7 @@ palabras_clave: TRE, Trauma Releasing Exercises, David Berceli, temblores neurog
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026
 orden: 134
-estado: borrador
+estado: publicado
 respuesta: Los TRE, ejercicios de David Berceli, buscan inducir temblores para liberar tensión y trauma. El mecanismo de los temblores neurogénicos se basa sobre todo en hipótesis del autor y no está establecido. Los estudios disponibles son pequeños, exploratorios y con resultados mixtos. No reemplazan una psicoterapia para el trauma.
 menciona:
 revision: 2026-11-20

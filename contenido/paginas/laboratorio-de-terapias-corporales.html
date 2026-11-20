@@ -1,0 +1,162 @@
+<!--{
+  "ruta": "/laboratorio-de-terapias-corporales/",
+  "titulo": "Terapias corporales: laboratorio de sentir el cuerpo",
+  "descripcion": "Ejercicios para notar el cuerpo desde las psicoterapias corporales: interocepción, Feldenkrais, Hakomi y focusing, con qué respaldo tiene cada idea.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Terapias corporales",
+      "/laboratorio-de-terapias-corporales/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Psicología corporal",
+  "h1": "Terapias corporales: <em>sentir el cuerpo</em>",
+  "bajada": "Las psicoterapias corporales trabajan con la postura, la respiración, el movimiento y la sensación además de la palabra. Acá podés recorrer un mapa de sus escuelas, probar algunos ejercicios breves para notar el cuerpo y separar lo que tiene respaldo de lo que todavía es hipótesis.",
+  "respuesta": "Este laboratorio propone ejercicios inspirados en las psicoterapias corporales. Incluye un mapa de escuelas (Reich y Lowen, el focusing de Gendlin, el Somatic Experiencing de Levine, la psicoterapia sensoriomotriz de Ogden y Hakomi de Kurtz), una pausa de interocepción, un movimiento pequeño al estilo Feldenkrais, una exploración de un gesto propio, una sensación sentida y pautas de cuidado. No reemplaza un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio sobre las terapias corporales",
+  "articulos": [
+    "mapa-de-las-psicoterapias-corporales",
+    "hakomi",
+    "psicoterapia-sensoriomotriz",
+    "feldenkrais",
+    "focusing",
+    "interocepcion",
+    "tre-liberacion-del-trauma"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>La experiencia psíquica no se expresa sólo con palabras: aparece también en el tono muscular, en la respiración y en los gestos que repetimos sin darnos cuenta. Desde Wilhelm Reich hasta las escuelas actuales, varias psicoterapias trabajan con eso. Son un conjunto heterogéneo, y sus ideas tienen respaldos muy distintos.</p><p>Por eso este laboratorio no promete descargas ni curaciones. Propone ejercicios suaves para notar el cuerpo y, en cada estación, aclara de qué autor viene la idea y qué tan sólida es la evidencia.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin forzar.</strong> Si algo duele o incomoda, se detiene. Ningún ejercicio pide aguantar.</li><li><strong>Observá vos.</strong> Lo que notes es tuyo; no hay una sensación correcta.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#mapa">Un mapa de escuelas</a><a href="#interocepcion">Pausa de interocepción</a><a href="#movimiento">Un movimiento pequeño</a><a href="#gesto">Gesto y pregunta</a><a href="#sensacion">La sensación sentida</a><a href="#cuidado">Cuidado y límites</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mapa">Un mapa de escuelas</h2>
+      <p class="lab-estacion__bajada">No todas las terapias corporales dicen lo mismo ni tienen el mismo respaldo, y esa diferencia importa más que el nombre. Elegí una escuela para ver qué trabaja y qué sostiene hoy la evidencia.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una escuela"><label class="opcion"><input type="radio" name="tc-escuela" value="reich" checked><span>Reich y Lowen</span></label><label class="opcion"><input type="radio" name="tc-escuela" value="gendlin"><span>Gendlin y el focusing</span></label><label class="opcion"><input type="radio" name="tc-escuela" value="levine"><span>Levine y el Somatic Experiencing</span></label><label class="opcion"><input type="radio" name="tc-escuela" value="ogden"><span>Ogden y la sensoriomotriz</span></label><label class="opcion"><input type="radio" name="tc-escuela" value="hakomi"><span>Kurtz y Hakomi</span></label></div>
+        <div class="lab-panel" data-lab-panel="reich"><p><strong>Qué trabaja.</strong> Wilhelm Reich (<em>Charakteranalyse</em>, 1933) describió la coraza muscular: tensiones crónicas que protegen de sentir ciertas emociones y limitan la respiración. Alexander Lowen, su alumno, creó la bioenergética (<em>Bioenergetics</em>, 1975), que trabaja con la respiración, el apoyo en los pies y la expresión emocional.</p><p><strong>Qué respaldo tiene.</strong> La idea de la defensa corporal es un aporte clínico. La «energía orgónica» de Reich no tiene respaldo científico, y las tipologías de carácter de Lowen sirven para pensar, pero no están probadas como teoría de la personalidad.</p></div><div class="lab-panel" data-lab-panel="gendlin" hidden><p><strong>Qué trabaja.</strong> Eugene Gendlin, que trabajó con Carl Rogers, describió la sensación sentida (<em>felt sense</em>): una sensación corporal global, todavía sin palabras, sobre una situación. Creó el focusing (<em>Focusing</em>, 1978) para escucharla.</p><p><strong>Qué respaldo tiene.</strong> Es una de las líneas con investigación más activa del campo, junto con la atención a la sensación y el mindfulness, con estudios de calidad moderada.</p></div><div class="lab-panel" data-lab-panel="levine" hidden><p><strong>Qué trabaja.</strong> Peter Levine (<em>Waking the Tiger</em>, 1997) propuso el Somatic Experiencing para el trauma: atender a la sensación y a la activación fisiológica, y acompañar una descarga gradual, alternando entre la incomodidad y lo que da apoyo.</p><p><strong>Qué respaldo tiene.</strong> Evidencia incipiente: estudios de caso, ensayos pequeños y mucha clínica, pero todavía poca investigación controlada.</p></div><div class="lab-panel" data-lab-panel="ogden" hidden><p><strong>Qué trabaja.</strong> Pat Ogden, con Kekuni Minton y Clare Pain (<em>Trauma and the Body</em>, 2006), propuso trabajar con los patrones defensivos de movimiento y postura, la regulación de la activación y el vínculo. Ogden y Janina Fisher ampliaron el enfoque en <em>Sensorimotor Psychotherapy</em> (2015).</p><p><strong>Qué respaldo tiene.</strong> Es un marco clínico prometedor y en desarrollo. Su énfasis en la regulación coincide con líneas de investigación más amplias, pero faltan ensayos controlados.</p></div><div class="lab-panel" data-lab-panel="hakomi" hidden><p><strong>Qué trabaja.</strong> Ron Kurtz (<em>Body-Centered Psychotherapy: The Hakomi Method</em>, 1990) combinó atención plena, creencias nucleares y experimentos corporales: se pone en foco un gesto y la persona nota qué aparece.</p><p><strong>Qué respaldo tiene.</strong> La investigación controlada es escasa: hay descripciones clínicas y estudios de caso. Weiss, Johanson y Monda (2015) reunieron su teoría y práctica en una guía amplia.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="interocepcion" aria-labelledby="t-interocepcion">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-interocepcion">Pausa de interocepción</h2>
+      <p class="lab-estacion__bajada">La interocepción es la percepción de lo que pasa dentro del cuerpo: la respiración, el latido, la temperatura, la tensión. Atender a la sensación es la base común de muchas de estas escuelas. Probá una pausa de un minuto, sin cambiar nada: sólo notar.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Buscá una postura cómoda.</strong> Sentado o de pie, con los pies apoyados. Si te resulta más fácil, dejá los ojos abiertos con la mirada baja.</li>
+          <li><strong>Notá una primera sensación.</strong> Puede ser el contacto con la silla, la ropa o el suelo. No hace falta que sea agradable.</li>
+          <li><strong>Notá una segunda.</strong> Algo más adentro: el aire que entra y sale, la temperatura de las manos, el estómago.</li>
+          <li><strong>Notá una tercera.</strong> Una zona tensa o una zona tranquila. Sólo registrala, sin intentar soltarla.</li>
+          <li><strong>Volvé al entorno.</strong> Mirá alrededor y nombrá tres cosas que veas. Si en algún momento te sentiste incómodo, volvé a esto antes.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="movimiento" aria-labelledby="t-movimiento">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-movimiento">Un movimiento pequeño</h2>
+      <p class="lab-estacion__bajada">Moshe Feldenkrais (<em>Awareness Through Movement</em>, 1972) propuso lecciones de movimientos suaves en las que lo importante no es hacerlo bien, sino notar cómo uno se mueve. Su método no es una psicoterapia: es una práctica de movimiento y aprendizaje. La revisión de Hillier y Worley (2015) encontró resultados prometedores en algunos estudios, con evidencia de calidad limitada. Si algo duele, se detiene.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Sentate con los pies apoyados.</strong> La espalda cómoda, sin enderezarte de más.</li>
+          <li><strong>Girá la cabeza un poco hacia un lado.</strong> Despacio, sólo hasta donde llega sin esfuerzo. Volvé al centro.</li>
+          <li><strong>Repetilo una segunda vez, más lento.</strong> Notá qué parte se mueve primero: los ojos, el cuello, los hombros.</li>
+          <li><strong>Quedate quieto unos segundos.</strong> Notá qué cambió en los hombros, en la respiración o en la mirada. Sin meta de resultado.</li>
+          <li><strong>Compará con el otro lado.</strong> Si querés, girá una vez hacia el otro lado y notá la diferencia. Si duele, se detiene.</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tc-movimiento" data-lab-form-titulo="Lo que noté al moverme" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-mov-cambio">¿Qué cambió después de girar la cabeza dos veces?</label><textarea class="lab-texto" id="tc-mov-cambio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-mov-lado">¿Noté diferencia entre un lado y el otro?</label><input class="lab-campo" id="tc-mov-lado" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="gesto" aria-labelledby="t-gesto">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-gesto">Gesto y pregunta</h2>
+      <p class="lab-estacion__bajada">En Hakomi, Ron Kurtz (1990) propone poner en foco un gesto propio y notar qué aparece, sin interpretarlo desde afuera. Acá lo hacés sólo con vos y sólo con tus gestos: no sirve para leer el cuerpo de otra persona. Lo que surja es una pregunta, no una verdad sobre vos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tc-gesto" data-lab-form-titulo="Un gesto que repito" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-gesto-cual">¿Qué gesto repito? (tocarme la cara, cruzar los brazos, apretar la mandíbula, mover un pie)</label><input class="lab-campo" id="tc-gesto-cual" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-gesto-cuando">¿Cuándo suele aparecer? ¿Con quién, en qué situaciones?</label><textarea class="lab-texto" id="tc-gesto-cuando" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-gesto-pregunta">Si ese gesto pudiera hacerme una pregunta, ¿cuál sería?</label><textarea class="lab-texto" id="tc-gesto-pregunta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sensacion" aria-labelledby="t-sensacion">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-sensacion">La sensación sentida</h2>
+      <p class="lab-estacion__bajada">Eugene Gendlin (<em>Focusing</em>, 1978) observó que muchas personas que cambiaban en terapia hacían una pausa para atender a una sensación corporal difusa antes de hablar. Esta es una versión simplificada: pensá en una situación que te ocupa, sin entrar en detalles, y notá qué se forma en el cuerpo. Esperá a que llegue una palabra o una imagen, sin forzarla.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tc-sentida" data-lab-form-titulo="Mi sensación sentida" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-sent-situacion">Una situación que me ocupa (en pocas palabras)</label><input class="lab-campo" id="tc-sent-situacion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-sent-donde">¿Dónde la siento en el cuerpo y cómo es? (pesada, apretada, vacía, inquieta)</label><textarea class="lab-texto" id="tc-sent-donde" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-sent-palabra">Una palabra o imagen que se formó sin forzar</label><input class="lab-campo" id="tc-sent-palabra" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-sent-encaja">Si la repito, ¿encaja con lo que siento o pide otra palabra?</label><textarea class="lab-texto" id="tc-sent-encaja" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="cuidado" aria-labelledby="t-cuidado">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-cuidado">Cuidado y límites</h2>
+      <p class="lab-estacion__bajada">El trabajo corporal con el trauma puede activar recuerdos y emociones intensas. Requiere formación y alguien que sepa cuándo pausar. Elegí una situación para ver qué conviene hacer.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Elegí una situación"><label class="opcion"><input type="radio" name="tc-cuidado" value="parar" checked><span>Cuándo parar</span></label><label class="opcion"><input type="radio" name="tc-cuidado" value="acudir"><span>A quién acudir</span></label><label class="opcion"><input type="radio" name="tc-cuidado" value="medica"><span>Cuándo consultar antes</span></label><label class="opcion"><input type="radio" name="tc-cuidado" value="urgente"><span>Cuándo es urgente</span></label></div>
+        <div class="lab-panel" data-lab-panel="parar"><p>Detenete si aparece dolor físico, un malestar intenso, un recuerdo que irrumpe o una sensación de desborde. No fuerces ninguna sensación ni ningún temblor.</p><p>Volvé al apoyo: los pies en el suelo, la respiración, mirar alrededor y nombrar lo que ves.</p></div><div class="lab-panel" data-lab-panel="acudir" hidden><p>Si hay trauma o emociones que desbordan, conviene trabajar con un psicólogo o psicóloga con formación en trauma, que pueda pausar y articular el trabajo corporal con otros tratamientos.</p><p>Preguntá qué formación tiene quien ofrece una terapia corporal y cómo maneja las emociones intensas. Desconfiá de quien prometa descargas o curaciones rápidas.</p></div><div class="lab-panel" data-lab-panel="medica" hidden><p>Si tenés lesiones, dolor físico importante o estás embarazada, consultá con un médico antes de hacer ejercicios de movimiento o de tensión.</p></div><div class="lab-panel" data-lab-panel="urgente" hidden><p>Si hay pensamientos de hacerte daño, la urgencia va primero, sin esperar a la siguiente sesión: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).</p></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="tc-plan" data-lab-form-titulo="Mi plan de cuidado" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-plan-senal">¿Qué señal de mi cuerpo me avisa que tengo que parar?</label><input class="lab-campo" id="tc-plan-senal" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-plan-apoyo">¿Qué me ayuda a volver al presente?</label><input class="lab-campo" id="tc-plan-apoyo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tc-plan-quien">¿A quién puedo acudir si algo me desborda?</label><input class="lab-campo" id="tc-plan-quien" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Alrededor de las terapias corporales circulan promesas que van más allá de lo que la evidencia permite. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="terapias-corporales-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es informativo y no reemplaza una consulta. Si el malestar, la angustia o los recuerdos de una experiencia traumática te desbordan, hablá con un profesional de salud mental. Si hay riesgo, llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Reich, W. (1933), <em>Charakteranalyse</em>.</li><li>Lowen, A. (1975), <em>Bioenergetics</em>.</li><li>Gendlin, E. T. (1978), <em>Focusing</em>.</li><li>Levine, P. (1997), <em>Waking the Tiger</em>.</li><li>Ogden, P., Minton, K. y Pain, C. (2006), <em>Trauma and the Body: A Sensorimotor Approach to Psychotherapy</em>. W. W. Norton.</li><li>Ogden, P. y Fisher, J. (2015), <em>Sensorimotor Psychotherapy: Interventions for Trauma and Attachment</em>. W. W. Norton.</li><li>Kurtz, R. (1990), <em>Body-Centered Psychotherapy: The Hakomi Method</em>. LifeRhythm.</li><li>Weiss, H., Johanson, G. y Monda, L. (eds.) (2015), <em>Hakomi Mindfulness-Centered Somatic Psychotherapy</em>. W. W. Norton.</li><li>Feldenkrais, M. (1972), <em>Awareness Through Movement</em>. Harper &amp; Row.</li><li>Hillier, S. y Worley, A. (2015), «The effectiveness of the Feldenkrais method: a systematic review of the evidence», <em>Evidence-Based Complementary and Alternative Medicine</em>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

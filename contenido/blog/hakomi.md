@@ -8,7 +8,7 @@ palabras_clave: Hakomi, Ron Kurtz, psicoterapia corporal, atención plena, creen
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026
 orden: 131
-estado: borrador
+estado: publicado
 respuesta: Hakomi es una psicoterapia corporal creada por Ron Kurtz, que trabaja con la atención plena, los gestos y la postura para acceder a creencias inconscientes sobre uno mismo y los vínculos. Se apoya en cinco principios: atención plena, no violencia, organicidad, unidad y holismo mente-cuerpo. Su evidencia es todavía escasa y en su mayoría clínica.
 menciona: eugene-gendlin
 revision: 2026-11-20

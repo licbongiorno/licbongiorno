@@ -61,4 +61,4 @@ Gendlin lo desarrolló en el marco de la psicoterapia centrada en el cliente. En
 - Gendlin, E. T. (1978). *Focusing*.
 - Gendlin, E. T. (1962). *Experiencing and the Creation of Meaning*.
 
-Seguí la serie con [Stanislav Grof](/recursos/stanislav-grof/), o volvé a [Alexander Lowen](/recursos/alexander-lowen/).
+Para practicar el método, leé [el focusing paso a paso](/recursos/focusing/) o probá el [laboratorio de focusing](/laboratorio-de-focusing/). Seguí la serie con [Stanislav Grof](/recursos/stanislav-grof/), o volvé a [Alexander Lowen](/recursos/alexander-lowen/).

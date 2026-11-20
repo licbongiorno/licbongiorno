@@ -8,7 +8,7 @@ palabras_clave: psicoterapia sensoriomotriz, Pat Ogden, trauma, apego, defensas 
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026
 orden: 132
-estado: borrador
+estado: publicado
 respuesta: La psicoterapia sensoriomotriz, creada por Pat Ogden, trabaja con el trauma y el apego a través del cuerpo. Entiende que las experiencias difíciles dejan patrones de movimiento y postura que funcionan como defensas, y busca ampliarlos de forma gradual. Integra neurobiología interpersonal y psicoterapia. Su investigación es todavía incipiente.
 menciona:
 revision: 2026-11-20
