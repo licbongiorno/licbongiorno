@@ -1,0 +1,154 @@
+<!--{
+  "ruta": "/laboratorio-de-tono-postura-y-movimiento/",
+  "titulo": "Laboratorio de tono, postura y movimiento: eutonía y Alexander",
+  "descripcion": "Explorá el apoyo, el tono y la pausa antes de moverte con ideas de la eutonía y la técnica Alexander, y conocé qué es el EMDR y qué dice la evidencia.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Tono y postura",
+      "/laboratorio-de-tono-postura-y-movimiento/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Psicología corporal",
+  "h1": "Laboratorio de <em>tono, postura y movimiento</em>",
+  "bajada": "Notar cómo te apoyás, cuánto tono ponés en el cuerpo y qué hacés antes de moverte es el punto de partida de la eutonía y de la técnica Alexander. Acá podés probar esas observaciones a tu ritmo, y conocer qué lugar tienen la psicomotricidad y el EMDR.",
+  "respuesta": "Este laboratorio propone observaciones simples inspiradas en la eutonía de Gerda Alexander (apoyo, contacto y tono) y en la técnica de F. M. Alexander (inhibición y uso). Suma una estación sobre psicomotricidad y otra informativa sobre EMDR, que se hace con un terapeuta formado. La eutonía y la técnica Alexander son educación corporal y no psicoterapia. No reemplaza una consulta.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de tono, postura y movimiento",
+  "articulos": [
+    "eutonia",
+    "tecnica-alexander",
+    "psicomotricidad",
+    "emdr",
+    "teoria-polivagal"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Casi nunca nos fijamos en cómo estamos apoyados en la silla, cuánta fuerza ponemos al escribir o qué hacemos con el cuerpo un instante antes de levantarnos. Dos propuestas de educación corporal partieron de ahí: la eutonía, de Gerda Alexander, y la técnica de F. M. Alexander.</p><p>No son parientes, aunque compartan apellido. Tampoco son psicoterapias: son modos de aprender a observarse. Las estaciones de abajo son ejercicios de observación, más una mirada a la psicomotricidad y una estación informativa sobre EMDR.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Despacio.</strong> Cada ejercicio puede llevar un par de minutos. Si algo molesta, pará.</li><li><strong>Sin corregirte.</strong> Se trata de notar, no de acomodarte en una postura «correcta».</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#apoyo">El apoyo y la piel</a><a href="#tono">El tono</a><a href="#pausa">La pausa</a><a href="#uso">El uso</a><a href="#historia">Tu historia en movimiento</a><a href="#emdr">EMDR</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="apoyo" aria-labelledby="t-apoyo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-apoyo">El apoyo y la piel</h2>
+      <p class="lab-estacion__bajada">La eutonía trabaja la conciencia del contacto, de la piel y del apoyo. El ejercicio es simple: notar dónde tu cuerpo toca el piso o la silla, sin cambiar nada.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="90">
+        <ol class="lab-pasos">
+          <li><strong>Sentate o parate y quedate quieto.</strong> No te acomodes todavía.</li>
+          <li><strong>Notá los puntos de contacto.</strong> Los pies con el piso, la espalda o la cola con la silla, las manos con las piernas.</li>
+          <li><strong>Fijate en la piel.</strong> Dónde sentís la ropa, el aire o la superficie. Qué zonas se sienten más y cuáles casi nada.</li>
+          <li><strong>Dejá que el apoyo te sostenga.</strong> Fijate si algo en el cuerpo suelta un poco. Si no pasa nada, está bien.</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ton-apoyo" data-lab-form-titulo="El apoyo y la piel" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-contacto">Dónde sentí más el contacto</label><input class="lab-campo" id="ton-contacto" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-menos">Dónde casi no lo sentí</label><input class="lab-campo" id="ton-menos" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-cambio">¿Qué cambió al notarlo?</label><textarea class="lab-texto" id="ton-cambio" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="tono" aria-labelledby="t-tono">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-tono">El tono</h2>
+      <p class="lab-estacion__bajada">Eutonía significa tono armonioso: un tono adaptado a la situación, ni de más ni de menos. Probá comparar un lado del cuerpo con el otro, por ejemplo la mano derecha y la izquierda, o un hombro y el otro, sin intentar corregir la diferencia.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ton-tono" data-lab-form-titulo="El tono" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-lado">¿Qué diferencia noté entre un lado y el otro?</label><textarea class="lab-texto" id="ton-lado" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-situacion">¿En qué situaciones del día pongo más tono del que hace falta?</label><textarea class="lab-texto" id="ton-situacion" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-adaptado">¿Y cuándo me parece que pongo menos?</label><input class="lab-campo" id="ton-adaptado" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="pausa" aria-labelledby="t-pausa">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-pausa">La pausa antes de pararte</h2>
+      <p class="lab-estacion__bajada">F. M. Alexander llamó inhibición a pausar la reacción habitual antes de actuar. No es quedarse rígido: es dejar un instante entre la intención y el movimiento, para ver qué hacés de costumbre.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Sentate y pensá que te vas a parar.</strong> Todavía no lo hagas.</li>
+          <li><strong>Hacé una pausa.</strong> Notá qué empieza a hacer el cuerpo apenas pensás en pararte: ¿te inclinás, apretás algo, contenés el aire?</li>
+          <li><strong>Dejá pasar el impulso.</strong> Fijate si podés decidir cómo pararte, en lugar de hacerlo en automático.</li>
+          <li><strong>Pasate a la posición de parado.</strong> Hacelo sin apuro y notá cómo fue distinto, si lo fue.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="uso" aria-labelledby="t-uso">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-uso">El uso</h2>
+      <p class="lab-estacion__bajada">Alexander llamó «uso» al modo en que cada persona usa su cuerpo en lo que hace. Elegí una actividad cotidiana, como sentarte, escribir o usar el celular, y observá un hábito: nada que corregir, solo notarlo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ton-uso" data-lab-form-titulo="El uso" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-actividad">La actividad que observé</label><input class="lab-campo" id="ton-actividad" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-habito">El hábito que noté (cómo me siento, qué hago con el cuello, los hombros, las manos…)</label><textarea class="lab-texto" id="ton-habito" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-aparecio">¿Cuándo aparece ese hábito?</label><input class="lab-campo" id="ton-aparecio" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="historia" aria-labelledby="t-historia">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-historia">Tu historia en movimiento</h2>
+      <p class="lab-estacion__bajada">La psicomotricidad trabaja sobre todo con niños: cuerpo, juego, movimiento y relación con otros. Esta estación no interpreta nada: te invita a recordar cómo se jugaba y se movía el cuerpo en tu casa cuando eras chico.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ton-historia" data-lab-form-titulo="Mi historia en movimiento" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-juegos">Los juegos y movimientos que más recuerdo de mi infancia</label><textarea class="lab-texto" id="ton-juegos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-casa">Cómo se jugaba en mi casa (con quién, dónde, a qué)</label><textarea class="lab-texto" id="ton-casa" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ton-hoy">¿Qué movimiento o juego de aquella época extraño o me da curiosidad?</label><input class="lab-campo" id="ton-hoy" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="emdr" aria-labelledby="t-emdr">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-emdr">EMDR: lo que no se hace solo</h2>
+      <p class="lab-estacion__bajada">El EMDR es un tratamiento para el trauma, y no un ejercicio. Esta estación es solo informativa. No lo intentes solo.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Información sobre EMDR"><label class="opcion"><input type="radio" name="ton-emdr" value="que" checked><span>Qué es</span></label><label class="opcion"><input type="radio" name="ton-emdr" value="evidencia"><span>Qué dice la evidencia</span></label><label class="opcion"><input type="radio" name="ton-emdr" value="terapeuta"><span>Por qué con un terapeuta</span></label></div>
+        <div class="lab-panel" data-lab-panel="que"><p>Francine Shapiro desarrolló el EMDR, la desensibilización y reprocesamiento por movimientos oculares. Es un tratamiento estructurado en fases que se aplica en el marco de una terapia.</p></div><div class="lab-panel" data-lab-panel="evidencia" hidden><p>La Organización Mundial de la Salud (2013) lo recomienda, junto con la terapia cognitivo-conductual centrada en el trauma, para el estrés postraumático en adultos. Lo que sigue en discusión es el mecanismo: Lee y Cuijpers (2013) hallaron un efecto adicional de los movimientos oculares, con estudios de calidad no óptima, y un metaanálisis de 2020 no pudo confirmarlo. La eficacia del tratamiento completo tiene respaldo; si el movimiento ocular es un ingrediente activo, todavía se discute.</p></div><div class="lab-panel" data-lab-panel="terapeuta" hidden><p>Se hace con un terapeuta formado. No es un ejercicio para hacer solo: <strong>no intentes reproducirlo por tu cuenta</strong> ni con videos. Si te interesa, consultá con un profesional con formación en el método.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Estos temas están rodeados de afirmaciones muy seguras. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="tono-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios son de observación y no reemplazan una consulta. Si aparece dolor, si tenés una lesión o sentís mareo, frená. Si al prestar atención al cuerpo surge algo muy intenso, como un recuerdo traumático o angustia que no afloja, pará y hablalo con un profesional. Si hay riesgo, llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Alexander, G., <em>La eutonía: un camino hacia la experiencia total del cuerpo</em>. Paidós.</li><li>Vishnivetz, B. (1994), <em>Eutonía: la educación del cuerpo hacia el ser</em>. Paidós.</li><li>Little, P. y col. (2008), «Randomised controlled trial of Alexander technique lessons, exercise, and massage (ATEAM) for chronic and recurrent back pain», <em>BMJ</em>, 337, a884.</li><li>MacPherson, H. y col. (2015), «Alexander Technique Lessons or Acupuncture Sessions for Persons With Chronic Neck Pain: A Randomized Trial», <em>Annals of Internal Medicine</em>, 163, 653-662.</li><li>Organización Mundial de la Salud (2013), <em>Guidelines for the management of conditions specifically related to stress</em>.</li><li>Lee, C. W. y Cuijpers, P. (2013), metaanálisis sobre el papel de los movimientos oculares en el EMDR.</li><li>Porges, S. W. (1995), «Orienting in a defensive world: Mammalian modifications of our evolutionary heritage. A Polyvagal Theory», <em>Psychophysiology</em>, 32(4), 301-318.</li><li>Grossman, P. (2023), «Fundamental challenges and likely refutations of the five basic premises of the polyvagal theory», <em>Biological Psychology</em>, 180, 108589.</li><li>Calmels, D. (2003), sobre los orígenes de la psicomotricidad.</li><li><a href="/recursos/eutonia/">Eutonía</a>, <a href="/recursos/tecnica-alexander/">técnica Alexander</a>, <a href="/recursos/psicomotricidad/">psicomotricidad</a>, <a href="/recursos/emdr/">EMDR</a> y <a href="/recursos/teoria-polivagal/">teoría polivagal</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

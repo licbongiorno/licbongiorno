@@ -19,7 +19,7 @@ Hay una cantidad de psicoterapias que parten de una idea parecida: la experienci
 
 **Wilhelm Reich** puso el cuerpo en el centro del análisis del carácter. Describió la coraza muscular: tensiones crónicas que protegen de sentir ciertas emociones y que limitan la respiración. Su hipótesis de una «energía orgónica» no tiene respaldo científico, y ese punto debe separarse de su aporte clínico sobre la defensa corporal. Ver [Wilhelm Reich](/recursos/wilhelm-reich/).
 
-**Alexander Lowen**, alumno de Reich, creó la bioenergética. Trabaja con la respiración, el apoyo en los pies, la expresión emocional y las posturas. Sus formulaciones sobre el carácter son históricas: sirven para pensar, pero no están probadas como teoría de la personalidad. Ver [Alexander Lowen](/recursos/alexander-lowen/).
+**Alexander Lowen**, alumno de Reich, creó la bioenergética. Trabaja con la respiración, el apoyo en los pies, la expresión emocional y las posturas. De Reich y Lowen salieron otras [escuelas posreichianas](/recursos/escuelas-posreichianas/), como Core Energetics, la biosíntesis y Bodynamic. Sus formulaciones sobre el carácter son históricas: sirven para pensar, pero no están probadas como teoría de la personalidad. Ver [Alexander Lowen](/recursos/alexander-lowen/).
 
 **Fritz Perls** y la terapia Gestalt no son corporales en sentido estricto, pero integran cuerpo, emoción y conciencia del presente. Trabajan con gestos, postura y el «darse cuenta». Ver [Fritz Perls](/recursos/fritz-perls/).
 
@@ -29,7 +29,7 @@ Hay una cantidad de psicoterapias que parten de una idea parecida: la experienci
 
 **Eugene Gendlin** trabajó con Carl Rogers y estudió qué pasaba en las sesiones que producían cambios. Descubrió la sensación sentida (*felt sense*) y creó el focusing, un método para escuchar esa sensación global antes de ponerle palabras. Tiene una línea de investigación activa. Ver [el focusing](/recursos/focusing/) y [Eugene Gendlin](/recursos/eugene-gendlin/).
 
-**Peter Levine** creó el Somatic Experiencing para el trauma. Trabaja con sensaciones, la activación fisiológica y la descarga gradual. Ver [la pendulación](/recursos/pendulacion-somatic-experiencing/).
+**Peter Levine** creó el Somatic Experiencing para el trauma. Trabaja con sensaciones, la activación fisiológica y la descarga gradual. Ver [el Somatic Experiencing](/recursos/somatic-experiencing/) y [la pendulación](/recursos/pendulacion-somatic-experiencing/).
 
 **Pat Ogden** creó la psicoterapia sensoriomotriz, que integra neurobiología interpersonal, apego y trabajo corporal. Está orientada a los patrones defensivos de movimiento y a la regulación. Ver [la psicoterapia sensoriomotriz](/recursos/psicoterapia-sensoriomotriz/).
 
@@ -38,6 +38,14 @@ Hay una cantidad de psicoterapias que parten de una idea parecida: la experienci
 ## Los abordajes que no son psicoterapia
 
 Algunas prácticas comparten la mirada sobre el cuerpo, pero no se presentan como psicoterapia. El método Feldenkrais trabaja con movimientos suaves y atención sensorial; ver [el método Feldenkrais](/recursos/feldenkrais/). La [somática de Thomas Hanna](/recursos/somatica-de-hanna/) es una reeducación del movimiento emparentada con él. Otras, como el Rolfing, son trabajo corporal sobre la postura y el tejido conectivo, sin pretensión psicoterapéutica. La [danza movimiento terapia](/recursos/danza-movimiento-terapia/), la arteterapia y el [psicodrama](/laboratorio-de-psicodrama/) usan el cuerpo como medio de expresión dentro de un encuadre terapéutico. El [yoga sensible al trauma](/recursos/yoga-sensible-al-trauma/) adapta la práctica para personas con trauma, como complemento del tratamiento.
+
+## Trauma: EMDR y una teoría discutida
+
+El [EMDR](/recursos/emdr/), de Francine Shapiro, no es una terapia corporal en sentido estricto, pero trabaja con la memoria traumática junto con estímulos bilaterales, y es el abordaje de este campo con más respaldo: la OMS lo recomienda para el estrés postraumático. Muchas terapias corporales del trauma usan, además, el lenguaje de la [teoría polivagal](/recursos/teoria-polivagal/) de Stephen Porges, cuya base neurofisiológica está hoy fuertemente cuestionada.
+
+## Educación del movimiento y psicomotricidad
+
+La [eutonía](/recursos/eutonia/) de Gerda Alexander y la [técnica Alexander](/recursos/tecnica-alexander/) de F. M. Alexander, que no eran parientes, trabajan con el tono, la postura y el uso del cuerpo. La técnica Alexander tiene ensayos controlados en dolor de espalda y de cuello. La [psicomotricidad](/recursos/psicomotricidad/), nacida en la medicina francesa y muy desarrollada en Argentina, trabaja sobre todo con chicos, a través del cuerpo, el juego y el movimiento. El [Movimiento Auténtico y la arteterapia](/recursos/movimiento-autentico-y-arteterapia/) usan el movimiento y la imagen como expresión.
 
 ## Qué sostiene la evidencia
 
@@ -57,6 +65,7 @@ Casi todas estas escuelas trabajan, con distintos nombres, con la [interocepció
 
 - El [laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/) recorre las escuelas con ejercicios breves.
 - El [laboratorio de focusing](/laboratorio-de-focusing/) propone los seis pasos de Gendlin.
+- El [laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/) trabaja con eutonía, técnica Alexander y psicomotricidad.
 - El [laboratorio de psicología corporal](/laboratorio-de-psicologia-corporal/) trabaja con Reich, Lowen y Gendlin.
 - El [test de conciencia corporal](/test-de-conciencia-corporal/) muestra cómo notás y escuchás tu cuerpo, en ocho dimensiones.
 
