@@ -11,7 +11,7 @@ orden: 191
 estado: publicado
 respuesta: Roberto Assagioli (1888-1974) fue un psiquiatra italiano, nacido en Venecia, creador de la psicosíntesis. Propuso que la personalidad está formada por subpersonalidades, partes semiautónomas con sus propias necesidades y miradas, y que el yo puede reconocerlas mediante la desidentificación: observar una parte sin confundirse con ella. Su manual Psicosíntesis (1965) organiza sus técnicas, y su enfoque se considera uno de los antecedentes de la psicología transpersonal.
 menciona: jung
-revision: 2026-11-12
+revision: 2026-11-20
 ---
 Hay una parte de vos que quiere controlar todo, otra que se preocupa por los demás, otra que necesita que la aprueben y otra que simplemente quiere jugar. Roberto Assagioli propuso que todas esas voces son partes de una misma persona, y que el trabajo no es eliminarlas, sino dejar de confundirse con ninguna de ellas.
 
@@ -21,6 +21,8 @@ Roberto Assagioli nació en Venecia en 1888. Se mudó con su familia a Florencia
 
 Creó la psicosíntesis, una corriente que combina la psicología profunda con la búsqueda de sentido y de valores. Sistematizó sus ideas en el libro *Psicosíntesis* (1965), y fundó en Florencia un instituto que continúa hoy. Murió en la Toscana en 1974.
 
+Su punto de partida era práctico: una persona no es solo lo que le pasó, también es quien puede mirar eso que le pasó. Por eso la psicosíntesis no se queda en explicar el pasado, sino que busca fortalecer el centro desde el cual se elige.
+
 {{figura:vida-assagioli}}
 
 ## Sus ideas centrales
@@ -29,6 +31,10 @@ Creó la psicosíntesis, una corriente que combina la psicología profunda con l
 - **La desidentificación.** Es el ejercicio de observar una parte sin confundirse con ella. Por ejemplo: «tengo miedo» pasa a «hay una parte de mí que tiene miedo».
 - **El diálogo y la síntesis.** Las partes no se eliminan: se escuchan, se integran y pueden trabajar juntas. Esa integración es la síntesis.
 - **El yo superior.** Assagioli habló de un centro de conciencia que observa y puede elegir, distinto de cualquiera de las partes.
+
+### Un ejemplo cotidiano
+
+Imaginá que tenés que decidir si aceptar un trabajo nuevo. Una parte tuya quiere la seguridad de lo conocido. Otra quiere el desafío. Otra teme que te juzguen si fracasás. Si te identificás con una sola, decidís desde ella y las demás te boicotean después. En cambio, si las reconocés, les preguntás qué necesita cada una y las escuchás sin que ninguna gobierne, la decisión se toma desde un lugar más amplio. No desaparece la duda, pero deja de ser una pelea sin árbitro.
 
 ### Subpersonalidades
 
@@ -42,6 +48,10 @@ Cada **subpersonalidad** tiene su voz y su **necesidad**. El **yo** que observa 
 - Su idea de un yo que observa dialoga con la **defusión** de la terapia de aceptación y compromiso. Ver [Steven Hayes](/recursos/steven-c-hayes/).
 - Como [Jung](/recursos/carl-gustav-jung/), Assagioli pensó que la persona puede crecer hacia algo más amplio que el yo personal, lo que lo sitúa entre los antecedentes de la psicología transpersonal.
 - Podés practicarlo en el [laboratorio de psicología transpersonal](/laboratorio-de-psicologia-transpersonal/).
+
+## Un cuidado
+
+La desidentificación no es negar lo que sentís ni tomar distancia para no sufrir. Decir «hay una parte de mí que tiene miedo» no reemplaza sentir el miedo: lo vuelve más manejable porque dejás de ser el miedo. Si usás el ejercicio para esquivar lo emocional, se parece al [bypass espiritual](/recursos/bypass-espiritual/). Y si las partes aparecen como voces que no podés controlar, o el trabajo te desborda, es mejor hacerlo acompañado por un profesional.
 
 ## Preguntas frecuentes
 
@@ -60,5 +70,7 @@ Es una psicoterapia que busca integrar las partes de la personalidad en torno a 
 ## Para seguir leyendo
 
 - Assagioli, R. (1965). *Psicosíntesis*.
+
+Para ubicar su lugar en el mapa, mirá [psicología transpersonal](/recursos/psicologia-transpersonal/) y [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/). También podés practicar en el [laboratorio de psicosíntesis](/laboratorio-de-psicosintesis/).
 
 Seguí la serie con [Ken Wilber](/recursos/ken-wilber/), o volvé a [Stanislav Grof](/recursos/stanislav-grof/).

@@ -11,7 +11,7 @@ orden: 188
 estado: publicado
 respuesta: Eugene Gendlin (1926-2017) fue un filósofo y psicólogo que trabajó con Carl Rogers. Llamó sensación sentida a un saber corporal, difuso, que aparece antes de tener palabras, y creó el focusing, un método para escucharla y dejar que la palabra o la imagen adecuada aparezca. Publicó Focusing en 1978, y su aporte forma parte de la psicoterapia centrada en el cliente y de la psicología corporal.
 menciona: rogers
-revision: 2026-11-12
+revision: 2026-11-20
 ---
 Hay momentos en que sabemos que algo nos pesa, pero no sabemos qué es. Sentimos un nudo en el estómago, una presión en el pecho, y la mente da vueltas sin encontrar la palabra. Eugene Gendlin estudió qué pasaba en esos momentos en la terapia, y descubrió algo que cambió la manera de trabajar: las personas que mejor cambiaban eran las que se detenían a sentir el cuerpo antes de hablar.
 
@@ -30,6 +30,10 @@ De esa investigación surgió su concepto central, la sensación sentida, y en 1
 - **El focusing.** Es un método para escuchar la sensación sentida: darle espacio, preguntarle, esperar la palabra que encaja, y recibir lo que aparece.
 - **La relación con Rogers.** Gendlin trabajó con la idea de Rogers de que el cambio ocurre cuando la persona se siente escuchada, y agregó la dimensión del cuerpo.
 
+### Un ejemplo cotidiano
+
+Pensá en alguien que tiene que responder un mensaje de un amigo con quien se distanció. Ninguna frase le cae bien. Se detiene y nota algo en el pecho, una presión vaga. Prueba la palabra «culpa» y no encaja del todo; prueba «deuda» y tampoco; con «pendiente» siente un pequeño alivio, un «sí, es eso». Recién entonces sabe qué quiere decir. Esa secuencia, de la sensación sin nombre a la palabra que encaja, es lo que Gendlin describió.
+
 ### La sensación sentida
 
 La sensación sentida es un **saber** del cuerpo que **todavía no tiene palabras**. Cuando aparece la **palabra que encaja**, algo se **mueve** por dentro.
@@ -41,6 +45,14 @@ La sensación sentida es un **saber** del cuerpo que **todavía no tiene palabra
 - El **focusing** se practica en psicoterapia y como práctica personal, y es una de las psicoterapias corporales más conocidas junto a la de Reich y Lowen. Ver [Alexander Lowen](/recursos/alexander-lowen/).
 - La idea de que la experiencia corporal es fuente de cambio se conecta con la psicoterapia centrada en el cliente de [Carl Rogers](/recursos/carl-rogers/).
 - Podés probar la práctica en el [laboratorio de psicología corporal](/laboratorio-de-psicologia-corporal/).
+
+## Qué tiene respaldo y qué no
+
+El respaldo viene sobre todo de la psicoterapia experiencial y de la Escala de Experiencing, que mide en qué grado una persona se refiere a su experiencia sentida mientras habla. Son revisiones sobre una familia de terapias, no una prueba de que cada práctica de focusing por sí sola produzca un resultado determinado. Para el detalle de los pasos y de la evidencia, leé [focusing](/recursos/focusing/).
+
+## Un cuidado
+
+Prestar atención a una sensación corporal puede abrir material difícil. Si lo que aparece desborda, no hace falta seguir: se puede volver a notar los pies en el suelo, la respiración y el entorno. Para temas muy dolorosos o traumáticos, es más prudente hacerlo con un terapeuta que conozca el método.
 
 ## Preguntas frecuentes
 
@@ -61,4 +73,6 @@ Gendlin lo desarrolló en el marco de la psicoterapia centrada en el cliente. En
 - Gendlin, E. T. (1978). *Focusing*.
 - Gendlin, E. T. (1962). *Experiencing and the Creation of Meaning*.
 
-Para practicar el método, leé [el focusing paso a paso](/recursos/focusing/) o probá el [laboratorio de focusing](/laboratorio-de-focusing/). Seguí la serie con [Stanislav Grof](/recursos/stanislav-grof/), o volvé a [Alexander Lowen](/recursos/alexander-lowen/).
+Para practicar el método, leé [el focusing paso a paso](/recursos/focusing/) o probá el [laboratorio de focusing](/laboratorio-de-focusing/). Para ver su lugar entre otras prácticas, mirá [psicología corporal](/recursos/psicologia-corporal/).
+
+Seguí la serie con [Stanislav Grof](/recursos/stanislav-grof/), o volvé a [Alexander Lowen](/recursos/alexander-lowen/).
