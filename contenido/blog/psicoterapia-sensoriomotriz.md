@@ -10,14 +10,14 @@ fecha_visible: noviembre de 2026
 orden: 132
 estado: borrador
 respuesta: La psicoterapia sensoriomotriz, creada por Pat Ogden, trabaja con el trauma y el apego a través del cuerpo. Entiende que las experiencias difíciles dejan patrones de movimiento y postura que funcionan como defensas, y busca ampliarlos de forma gradual. Integra neurobiología interpersonal y psicoterapia. Su investigación es todavía incipiente.
-menciona: peter-levine
+menciona:
 revision: 2026-11-20
 ---
 Una persona que, cuando habla de algo doloroso, se encoge un poco los hombros. Otra que se queda muy quieta cuando alguien se acerca. Otra que mueve los pies sin parar mientras cuenta una historia que dice ya haber superado. La psicoterapia sensoriomotriz mira esos detalles como parte de la historia, y no sólo como síntomas que acompañan el relato.
 
 ## Qué propone
 
-Pat Ogden, junto con Kekuni Minton y Clare Pain, publicó en 2006 *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. El libro propone que los terapeutas formados en enfoques psicodinámicos o cognitivos pueden incorporar intervenciones corporales y ganar profundidad en su trabajo. Janina Fisher participó en la elaboración posterior del enfoque, que se desarrolló en el Sensorimotor Psychotherapy Institute.
+Pat Ogden, junto con Kekuni Minton y Clare Pain, publicó en 2006 *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. El libro propone que los terapeutas formados en enfoques psicodinámicos o cognitivos pueden incorporar intervenciones corporales y ganar profundidad en su trabajo. Años después, Ogden y Janina Fisher publicaron *Sensorimotor Psychotherapy* (2015), que amplía las intervenciones del enfoque.
 
 La idea central es que las experiencias de amenaza, de desamparo o de vínculos inseguros no quedan sólo en la memoria narrativa. También se organizan en patrones de movimiento y postura, que funcionan como defensas: por ejemplo, la contracción que impide moverse, la huida que se queda a medio camino o la sumisión del cuerpo que se achica.
 

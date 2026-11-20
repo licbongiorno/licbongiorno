@@ -1,7 +1,7 @@
 ---
 titulo: Psicoterapias corporales: un mapa de las escuelas y de lo que sostiene la evidencia
 titulo_seo: Psicoterapias corporales: mapa de escuelas y evidencia
-descripcion: Un mapa de las principales psicoterapias corporales, desde Reich hasta el Somatic Experiencing, la psicoterapia sensoriomotriz y Hakomi, con qué aporta cada una y qué evidencia tiene.
+descripcion: Un mapa de las psicoterapias corporales, desde Reich hasta el Somatic Experiencing, la psicoterapia sensoriomotriz y Hakomi, con su aporte y su evidencia.
 resumen: Reich, Lowen, Perls, Gendlin, Levine, Ogden, Kurtz. Un mapa de las psicoterapias que trabajan con el cuerpo, con sus fundadores, sus ideas centrales y el grado de respaldo que tienen hoy.
 categoria: Psicología contemporánea
 palabras_clave: psicoterapias corporales, psicología somática, terapia corporal, Wilhelm Reich, Alexander Lowen, Somatic Experiencing, psicoterapia sensoriomotriz, Hakomi, focusing, evidencia
@@ -10,24 +10,24 @@ fecha_visible: noviembre de 2026
 orden: 130
 estado: borrador
 respuesta: Las psicoterapias corporales trabajan con la postura, la respiración, el movimiento y la sensación además de la palabra. Hay escuelas clásicas, como la vegetoterapia de Reich y la bioenergética de Lowen, y abordajes contemporáneos, como el Somatic Experiencing, la psicoterapia sensoriomotriz y Hakomi. Sus ideas tienen distinto respaldo: algunas tienen líneas de investigación activas y otras se apoyan sobre todo en la clínica y en hipótesis que la ciencia aún no confirmó.
-menciona: wilhelm-reich, alexander-lowen, fritz-perls, eugene-gendlin, peter-levine
+menciona: wilhelm-reich, alexander-lowen, fritz-perls, eugene-gendlin
 revision: 2026-11-20
 ---
 Hay una cantidad de psicoterapias que parten de una idea parecida: la experiencia psíquica no se expresa sólo con palabras. Aparece también en la postura, en la respiración, en el tono muscular, en el movimiento y en la sensación. Se las suele agrupar como psicoterapias corporales, psicología somática o abordajes psicocorporales. Son un conjunto heterogéneo, así que conviene mirarlas una por una.
 
 ## Las escuelas clásicas
 
-**Wilhelm Reich** trabajó en Viena y luego en Berlín, y puso el cuerpo en el centro del análisis del carácter. Describió la coraza muscular: tensiones crónicas que protegen de sentir ciertas emociones y que limitan la respiración. Su hipótesis de una «energía orgónica» no tiene respaldo científico, y ese punto debe separarse de su aporte clínico sobre la defensa corporal. Ver [Wilhelm Reich](/recursos/wilhelm-reich/).
+**Wilhelm Reich** puso el cuerpo en el centro del análisis del carácter. Describió la coraza muscular: tensiones crónicas que protegen de sentir ciertas emociones y que limitan la respiración. Su hipótesis de una «energía orgónica» no tiene respaldo científico, y ese punto debe separarse de su aporte clínico sobre la defensa corporal. Ver [Wilhelm Reich](/recursos/wilhelm-reich/).
 
 **Alexander Lowen**, alumno de Reich, creó la bioenergética. Trabaja con la respiración, el apoyo en los pies, la expresión emocional y las posturas. Sus formulaciones sobre el carácter son históricas: sirven para pensar, pero no están probadas como teoría de la personalidad. Ver [Alexander Lowen](/recursos/alexander-lowen/).
 
 **Fritz Perls** y la terapia Gestalt no son corporales en sentido estricto, pero integran cuerpo, emoción y conciencia del presente. Trabajan con gestos, postura y el «darse cuenta». Ver [Fritz Perls](/recursos/fritz-perls/).
 
-**Gerda Boyesen** desarrolló la psicología biodinámica, que relaciona emociones, sistema nervioso autónomo y tensiones, e incorpora el masaje. **Stanley Keleman** propuso la psicología formativa, que lee las emociones en la organización muscular y postural. Son abordajes con poca investigación en español y con más peso en la formación clínica que en la ciencia.
+**Gerda Boyesen** desarrolló la psicología biodinámica, que relaciona emociones, sistema nervioso autónomo y tensiones, e incorpora el masaje. **Stanley Keleman** propuso la psicología formativa, que lee las emociones en la organización muscular y postural. Su respaldo proviene sobre todo de la práctica clínica y de la formación de sus terapeutas.
 
 ## Las escuelas contemporáneas
 
-**Eugene Gendlin** trabajó con Carl Rogers y estudió qué pasaba en las sesiones que producían cambios. Descubrió la sensación sentida (*felt sense*) y creó el focusing, un método para escuchar esa sensación global antes de ponerle palabras. Tiene una línea de investigación activa y es uno de los puntos más sólidos del campo. Ver [Eugene Gendlin](/recursos/eugene-gendlin/).
+**Eugene Gendlin** trabajó con Carl Rogers y estudió qué pasaba en las sesiones que producían cambios. Descubrió la sensación sentida (*felt sense*) y creó el focusing, un método para escuchar esa sensación global antes de ponerle palabras. Tiene una línea de investigación activa. Ver [Eugene Gendlin](/recursos/eugene-gendlin/).
 
 **Peter Levine** creó el Somatic Experiencing para el trauma. Trabaja con sensaciones, la activación fisiológica y la descarga gradual. Ver [la pendulación](/recursos/pendulacion-somatic-experiencing/).
 
@@ -43,7 +43,7 @@ Algunas prácticas comparten la mirada sobre el cuerpo, pero no se presentan com
 
 No todas estas escuelas tienen el mismo respaldo, y esa diferencia importa más que el nombre:
 
-- **Con líneas de investigación activas:** el focusing, el mindfulness y la atención a la sensación. Varios estudios son de calidad moderada y muestran efectos en la regulación y en la experiencia emocional.
+- **Con líneas de investigación activas:** el focusing, el mindfulness y la atención a la sensación. Hay investigación sobre sus efectos en la regulación y en la experiencia emocional, con resultados que varían según los estudios.
 - **Con evidencia incipiente:** la psicoterapia sensoriomotriz, el Somatic Experiencing y Hakomi. Hay estudios de caso, ensayos pequeños y mucha clínica, pero todavía poca investigación controlada.
 - **Con hipótesis no confirmadas:** la energía orgónica de Reich, la idea de que el cuerpo «almacena» recuerdos como un archivo, y la liberación de trauma mediante temblores (ver [TRE](/recursos/tre-liberacion-del-trauma/)).
 

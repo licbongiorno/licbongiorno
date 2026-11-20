@@ -17,9 +17,9 @@ Un gesto que se repite cada vez que alguien se sienta a hablar de su pareja. Una
 
 ## De dónde viene
 
-Ron Kurtz desarrolló el método a partir de los años setenta, con colaboradores que siguieron trabajando en su formación. Lo expuso en *Body-Centered Psychotherapy: The Hakomi Method* (1990). El nombre viene de una palabra de los nativos americanos que se usa como pregunta: «¿quién sos?», y apunta a la identidad que se va revelando en la exploración.
+Ron Kurtz desarrolló el método, con colaboradores que siguieron trabajando en su formación. Lo expuso en *Body-Centered Psychotherapy: The Hakomi Method* (1990).
 
-Hakomi es una de las escuelas que combinan atención plena (*mindfulness*) con psicoterapia corporal. Retoma ideas de la psicología humanista y de la terapia Gestalt, y las articula con la observación del movimiento y la postura.
+Hakomi es una de las escuelas que combinan atención plena (*mindfulness*) con psicoterapia corporal.
 
 ## Los cinco principios
 
