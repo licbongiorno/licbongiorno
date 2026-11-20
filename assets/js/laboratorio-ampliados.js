@@ -350,4 +350,22 @@
     { t: "Para Assagioli, la desidentificación consiste en reconocer que tenés partes sin reducirte a ninguna de ellas.", r: "b", e: "Es uno de los ejercicios centrales de la psicosíntesis: «tengo emociones, pero no soy solo mis emociones»." },
     { t: "Usar ideas espirituales para no sentir el dolor o la bronca es una forma de crecimiento.", r: "a", e: "John Welwood llamó a eso bypass espiritual (1984): esquivar con lo espiritual asuntos emocionales pendientes." }
   ]);
+  LAB.quiz("mejor-version-mitos", [
+    { t: "Tu mejor versión es la que nunca se equivoca.", r: "a", e: "No. Una mejor versión es una dirección más fiel a lo que te importa, con errores incluidos. Pensarla como una versión sin fallas es la puerta al perfeccionismo." },
+    { t: "Escribir sobre tu mejor yo posible se asoció con más bienestar.", r: "b", e: "King (2001) lo halló en estudiantes. La revisión de Carrillo y colaboradores (2019) mostró efectos pequeños a moderados: ayuda, pero no transforma la vida." },
+    { t: "El perfeccionismo socialmente prescrito aumentó entre 1989 y 2016.", r: "b", e: "Curran y Hill (2019) encontraron un aumento del 33 % en estudiantes universitarios de Estados Unidos, Canadá y Reino Unido. El mecanismo cultural no fue probado." },
+    { t: "Un valor se cumple y se tacha como una meta.", r: "a", e: "En ACT (Hayes, Strosahl y Wilson, 1999), un valor es una dirección que nunca se cumple del todo, como ir hacia el oeste. Las metas sí se alcanzan y se tachan." },
+    { t: "Ser más exigente con uno mismo es el mejor camino para mejorar.", r: "a", e: "Neff (2003) propuso la autocompasión, es decir, amabilidad con uno mismo ante el error, como una actitud sana hacia uno mismo, sin que exigirse más sea el camino." },
+    { t: "Los yo posibles incluyen también el yo que tememos ser.", r: "b", e: "Markus y Nurius (1986) los describieron como versiones imaginadas que expresan esperanzas y también miedos." },
+    { t: "La distancia con el «debería» se asocia con ansiedad.", r: "b", e: "Higgins (1987) la asoció con agitación y ansiedad; la distancia con el ideal, con desánimo y tristeza." }
+  ]);
+  LAB.quiz("afrontamiento-mitos", [
+    { t: "Hay una estrategia de afrontamiento que sirve para todo.", r: "a", e: "Bonanno y Burton (2013) criticaron esa idea, la «falacia de la eficacia uniforme». Lo que ayuda depende de la situación, y por eso proponen la flexibilidad." },
+    { t: "Cuando algo no se puede cambiar, regular lo que sentís también es afrontar.", r: "b", e: "Lazarus y Folkman (1984) distinguieron el afrontamiento centrado en el problema del centrado en la emoción. Los dos son necesarios, y el segundo cobra peso cuando la situación no se puede cambiar." },
+    { t: "Rumiar un problema ayuda a resolverlo.", r: "a", e: "En el metaanálisis de Aldao, Nolen-Hoeksema y Schweizer (2010), la rumiación se asoció con más síntomas. Es una asociación, no una causa, y según Bonanno y Burton depende del contexto." },
+    { t: "El alcohol alivia al principio y suele empeorar las cosas después.", r: "b", e: "Es una de las trampas frecuentes del afrontamiento: tapar con sustancias da un alivio rápido y suele costar más adelante." },
+    { t: "Evitar todo lo que te angustia es la forma más segura de cuidarte.", r: "a", e: "Evitar alivia en el momento, pero en la investigación de Aldao y colaboradores (2010) se asoció con más síntomas. Conviene mirar qué te cuesta después." },
+    { t: "Darte cuenta de si una estrategia funciona y cambiarla es parte de afrontar bien.", r: "b", e: "Es el tercer componente de la flexibilidad según Bonanno y Burton (2013): la respuesta a la retroalimentación." },
+    { t: "El estrés depende solo de lo que pasa, no de cómo lo evaluamos.", r: "a", e: "Para Lazarus y Folkman (1984), el estrés depende de la evaluación que hace la persona: qué está en juego y qué recursos cree tener." }
+  ]);
 })();

@@ -1,0 +1,143 @@
+<!--{
+  "ruta": "/laboratorio-de-afrontamiento/",
+  "titulo": "Laboratorio de afrontamiento: tu caja de herramientas",
+  "descripcion": "Elegí cómo afrontar lo que te pasa: evaluá la situación, separá lo que depende de vos, armá tu caja de herramientas y un plan para la próxima vez.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Afrontamiento",
+      "/laboratorio-de-afrontamiento/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Herramientas",
+  "h1": "Laboratorio de <em>afrontamiento</em>",
+  "bajada": "No hay una herramienta buena para todo. Acá podés mirar qué está pasando, qué depende de vos y qué herramienta te conviene probar, con enlaces a los laboratorios del sitio.",
+  "respuesta": "Este laboratorio funciona como una caja de herramientas para el afrontamiento. Parte de Lazarus y Folkman (1984): el estrés depende de cómo evaluamos la situación y de los recursos que creemos tener. Bonanno y Burton (2013) proponen la flexibilidad: leer el contexto, tener varias estrategias y ajustar según el resultado. Es un ejercicio de autoobservación y no reemplaza una terapia.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de afrontamiento",
+  "articulos": [
+    "estrategias-de-afrontamiento",
+    "burnout",
+    "la-resiliencia"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>No hay una herramienta buena para todo. Respirar hondo puede servir cuando el cuerpo se dispara y no alcanzar cuando hay una decisión pendiente; resolver un problema sirve si hay algo para hacer, y se vuelve frustrante si no lo hay. Afrontar bien tiene más que ver con elegir según la situación que con tener la técnica correcta.</p><p>Este laboratorio te ayuda a elegir y te deriva a los laboratorios del sitio que trabajan cada herramienta. Si querés ver tu estilo habitual antes de empezar, podés hacer el <a href="/test-de-afrontamiento-del-estres/">test de afrontamiento del estrés</a>.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Elegí, no acumules.</strong> Una o dos herramientas para esta situación alcanzan. No hace falta probarlas todas.</li><li><strong>Probá y ajustá.</strong> Si una herramienta no ayuda, no es un fracaso: es información para cambiar.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#situacion">¿Qué está pasando?</a><a href="#depende">¿Qué depende de vos?</a><a href="#caja">Tu caja de herramientas</a><a href="#trampas">Las trampas</a><a href="#flexibilidad">Flexibilidad</a><a href="#plan">Mi plan</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="situacion" aria-labelledby="t-situacion">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-situacion">¿Qué está pasando?</h2>
+      <p class="lab-estacion__bajada">Según Lazarus y Folkman (1984), el estrés depende de cómo evaluamos la situación. La evaluación primaria pregunta qué está en juego: una amenaza, una pérdida o un desafío. La evaluación secundaria pregunta qué recursos tenés y qué podés hacer. Mirar las dos antes de actuar ayuda a elegir mejor.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="afr-situacion" data-lab-form-titulo="¿Qué está pasando?" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-sit">La situación, en pocas palabras</label><textarea class="lab-texto" id="afr-sit" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-juego">¿Qué está en juego? ¿Lo siento como amenaza, pérdida o desafío?</label><textarea class="lab-texto" id="afr-juego" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-recursos">¿Con qué recursos cuento? (personas, tiempo, información, habilidades)</label><textarea class="lab-texto" id="afr-recursos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-puedo">¿Qué podría hacer, aunque sea una parte?</label><textarea class="lab-texto" id="afr-puedo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="depende" aria-labelledby="t-depende">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-depende">¿Qué depende de vos?</h2>
+      <p class="lab-estacion__bajada">Lazarus y Folkman distinguieron dos grandes formas de afrontar, y las dos son necesarias. Elegí cómo ves la situación y mirá por dónde empezar.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="¿Se puede cambiar la situación?"><label class="opcion"><input type="radio" name="afr-depende" value="si" checked><span>Se puede cambiar</span></label><label class="opcion"><input type="radio" name="afr-depende" value="no"><span>No se puede cambiar</span></label><label class="opcion"><input type="radio" name="afr-depende" value="parte"><span>En parte</span></label></div>
+        <div class="lab-panel" data-lab-panel="si"><p>Conviene el afrontamiento centrado en el problema: actuar sobre la situación, juntar información, decidir, pedir lo que necesitás. Empezá por un paso chico y concreto.</p><ul><li><a href="/laboratorio-de-resolucion-de-problemas/">Laboratorio de resolución de problemas</a></li><li><a href="/laboratorio-de-asertividad/">Laboratorio de asertividad</a></li><li><a href="/laboratorio-de-estres/">Laboratorio de estrés</a></li></ul></div><div class="lab-panel" data-lab-panel="no" hidden><p>Conviene el afrontamiento centrado en la emoción: regular lo que sentís y aprender a aceptar lo que no está en tus manos. Aceptar no es resignarse ni que no duela: es dejar de gastar fuerzas en pelearte con lo que ya pasó.</p><ul><li><a href="/laboratorio-act-abierto/">ACT: abrirse a lo que hay</a></li><li><a href="/laboratorio-dbt-tolerancia-al-malestar/">DBT: tolerancia al malestar</a></li><li><a href="/laboratorio-de-autocompasion/">Laboratorio de autocompasión</a></li></ul></div><div class="lab-panel" data-lab-panel="parte" hidden><p>Es lo más frecuente. Separá lo que sí depende de vos de lo que no: para lo primero, un paso concreto; para lo segundo, cuidar lo que sentís mientras tanto.</p><ul><li><a href="/laboratorio-de-resolucion-de-problemas/">Laboratorio de resolución de problemas</a></li><li><a href="/laboratorio-dbt-regulacion-emocional/">DBT: regulación emocional</a></li><li><a href="/laboratorio-de-crisis-vitales/">Crisis vitales</a></li></ul></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="caja" aria-labelledby="t-caja">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-caja">Tu caja de herramientas</h2>
+      <p class="lab-estacion__bajada">Cada categoría sirve para algo distinto. Elegí la que se parece a lo que necesitás hoy y mirá cuándo conviene.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Categorías de herramientas"><label class="opcion"><input type="radio" name="afr-caja" value="resolver" checked><span>Resolver</span></label><label class="opcion"><input type="radio" name="afr-caja" value="activacion"><span>Bajar la activación</span></label><label class="opcion"><input type="radio" name="afr-caja" value="tolerar"><span>Tolerar</span></label><label class="opcion"><input type="radio" name="afr-caja" value="emocion"><span>Cuidar la emoción</span></label><label class="opcion"><input type="radio" name="afr-caja" value="pensamientos"><span>Pensamientos que dan vueltas</span></label><label class="opcion"><input type="radio" name="afr-caja" value="apoyo"><span>Buscar apoyo</span></label><label class="opcion"><input type="radio" name="afr-caja" value="cuerpo"><span>Cuerpo y descanso</span></label></div>
+        <div class="lab-panel" data-lab-panel="resolver"><p>Sirve cuando hay algo concreto para hacer: una decisión, un trámite, una conversación pendiente.</p><ul><li><a href="/laboratorio-de-resolucion-de-problemas/">Laboratorio de resolución de problemas</a></li><li><a href="/laboratorio-de-asertividad/">Laboratorio de asertividad</a></li></ul></div><div class="lab-panel" data-lab-panel="activacion" hidden><p>Sirve cuando el cuerpo está acelerado (corazón rápido, tensión, respiración corta) y cuesta pensar con claridad. Primero el cuerpo, después la decisión.</p><ul><li><a href="/laboratorio-de-respiraciones/">Laboratorio de respiraciones</a></li><li><a href="/laboratorio-respirar-volver-al-presente/">Respirar y volver al presente</a></li><li><a href="/laboratorio-de-regulacion/">Laboratorio de regulación</a></li></ul></div><div class="lab-panel" data-lab-panel="tolerar" hidden><p>Sirve cuando la situación no se puede cambiar ahora y lo que toca es atravesarla sin empeorarla.</p><ul><li><a href="/laboratorio-dbt-tolerancia-al-malestar/">DBT: tolerancia al malestar</a></li><li><a href="/laboratorio-act-abierto/">ACT: abrirse a lo que hay</a></li><li><a href="/laboratorio-de-mindfulness/">Laboratorio de mindfulness</a></li></ul></div><div class="lab-panel" data-lab-panel="emocion" hidden><p>Sirve cuando lo que duele es lo que sentís: tristeza, enojo, culpa, soledad. Se trata de darle lugar y cuidarte, no de eliminarla.</p><ul><li><a href="/laboratorio-dbt-regulacion-emocional/">DBT: regulación emocional</a></li><li><a href="/laboratorio-de-autocompasion/">Laboratorio de autocompasión</a></li><li><a href="/laboratorio-de-escritura-expresiva/">Escritura expresiva</a></li><li><a href="/laboratorio-de-duelo/">Laboratorio de duelo</a></li></ul></div><div class="lab-panel" data-lab-panel="pensamientos" hidden><p>Sirve cuando la cabeza repite lo mismo sin llegar a ningún lado, de día o de noche.</p><ul><li><a href="/laboratorio-de-pensamientos-repetitivos/">Pensamientos repetitivos</a></li><li><a href="/laboratorio-de-ansiedad/">Laboratorio de ansiedad</a></li></ul></div><div class="lab-panel" data-lab-panel="apoyo" hidden><p>Sirve casi siempre, y más cuando venís cargando solo. Contar lo que te pasa, pedir una mano o simplemente estar con alguien también es afrontar.</p><ul><li><a href="/laboratorio-de-vinculos/">Laboratorio de vínculos</a></li><li><a href="/laboratorio-de-asertividad/">Laboratorio de asertividad</a></li></ul></div><div class="lab-panel" data-lab-panel="cuerpo" hidden><p>Sirve cuando el cansancio, el mal sueño o el agotamiento hacen todo más difícil. Con el cuerpo agotado, cualquier otra herramienta rinde menos.</p><ul><li><a href="/laboratorio-de-insomnio/">Laboratorio de insomnio</a></li><li><a href="/laboratorio-de-descanso/">Laboratorio de descanso</a></li><li><a href="/laboratorio-de-estres/">Laboratorio de estrés</a></li></ul></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="trampas" aria-labelledby="t-trampas">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-trampas">Las trampas</h2>
+      <p class="lab-estacion__bajada">Aldao, Nolen-Hoeksema y Schweizer (2010), en un metaanálisis, encontraron que la rumiación, la evitación y la supresión se asociaron con más síntomas, y la reevaluación, la resolución de problemas y la aceptación con menos. Es una asociación, no una causa, y según Bonanno y Burton depende del contexto. Hay cinco trampas frecuentes: evitar todo lo que angustia, rumiar sin llegar a nada, tapar con alcohol u otras sustancias, aislarse y hacer de más hasta agotarse. Alivian al principio y suelen empeorar después. Si el alcohol o los consumos aparecen seguido, mirá el <a href="/laboratorio-de-alcohol-y-consumos/">laboratorio de alcohol y consumos</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="afr-trampas" data-lab-form-titulo="Las trampas: autoobservación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-uso">¿Cuál de estas trampas uso más?</label><input class="lab-campo" id="afr-uso" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-principio">¿Qué me da al principio?</label><textarea class="lab-texto" id="afr-principio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-despues">¿Qué me cuesta después?</label><textarea class="lab-texto" id="afr-despues" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="flexibilidad" aria-labelledby="t-flexibilidad">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-flexibilidad">Flexibilidad: probar y ajustar</h2>
+      <p class="lab-estacion__bajada">Bonanno y Burton (2013) critican clasificar las estrategias como siempre buenas o siempre malas. Proponen la flexibilidad, con tres componentes: sensibilidad al contexto (leer la situación), repertorio (tener varias estrategias) y respuesta a la retroalimentación (darte cuenta de si funciona y cambiar).</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="afr-flex" data-lab-form-titulo="Probar y ajustar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-probe">¿Qué probé?</label><textarea class="lab-texto" id="afr-probe" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-funciono">¿Funcionó? ¿En qué lo noté?</label><textarea class="lab-texto" id="afr-funciono" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-cambiaria">¿Qué cambiaría la próxima vez?</label><textarea class="lab-texto" id="afr-cambiaria" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="plan" aria-labelledby="t-plan">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-plan">Mi plan para la próxima vez</h2>
+      <p class="lab-estacion__bajada">Un plan escrito en un momento tranquilo es más fácil de usar cuando llega la tormenta. Si lo que estás viviendo es una crisis, no esperes a completar nada: andá a <a href="/laboratorio-plan-de-seguridad/">plan de seguridad</a> o a <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="afr-plan" data-lab-form-titulo="Mi plan de afrontamiento" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-senales">Mis señales tempranas (cuerpo, pensamientos, conducta)</label><textarea class="lab-texto" id="afr-senales" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-primera">Mi primera herramienta</label><input class="lab-campo" id="afr-primera" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-segunda">Mi segunda herramienta, si la primera no alcanza</label><input class="lab-campo" id="afr-segunda" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-llamo">A quién llamo</label><input class="lab-campo" id="afr-llamo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="afr-evito">Qué evito (mis trampas)</label><input class="lab-campo" id="afr-evito" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre el afrontamiento circulan con más seguridad de la que tienen. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="afrontamiento-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es un ejercicio de autoobservación y no reemplaza una consulta. Si sentís que no podés más o pensás en hacerte daño, no esperes: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Más recursos en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Lazarus, R. S. y Folkman, S. (1984), <em>Stress, Appraisal, and Coping</em>. Springer.</li><li>Folkman, S. y Moskowitz, J. T. (2004), «Coping: pitfalls and promise», <em>Annual Review of Psychology</em>, 55, 745–774.</li><li>Bonanno, G. A. y Burton, C. L. (2013), «Regulatory flexibility: an individual differences perspective on coping and emotion regulation», <em>Perspectives on Psychological Science</em>, 8(6), 591–612.</li><li>Aldao, A., Nolen-Hoeksema, S. y Schweizer, S. (2010), «Emotion regulation strategies across psychopathology: a meta-analysis», <em>Clinical Psychology Review</em>, 30, 217–237.</li><li><a href="/recursos/estrategias-de-afrontamiento/">Estrategias de afrontamiento</a>, <a href="/recursos/burnout/">burnout</a> y <a href="/recursos/la-resiliencia/">la resiliencia</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
