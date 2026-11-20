@@ -64,6 +64,13 @@ Una crisis espiritual no debe confundirse con normalidad automática ni con pato
 
 ## Para seguir
 
-Entrá al [laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/) para explorar estos temas en la práctica.
+Para llevar estos temas a la práctica:
+
+- El [laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/) recorre lo numinoso, el afrontamiento espiritual, el bypass, la crisis espiritual y las prácticas intensas.
+- El [test de sentido y espiritualidad](/test-de-sentido-y-espiritualidad/) muestra tu perfil en siete dimensiones, sin ranking.
+- El [laboratorio de psicología transpersonal](/laboratorio-de-psicologia-transpersonal/) y el de [psicosíntesis](/laboratorio-de-psicosintesis/) trabajan con Assagioli y la desidentificación.
+- El [laboratorio de sentido](/laboratorio-de-sentido/) sigue a Frankl, y el de las [tradiciones orientales](/laboratorio-de-las-tradiciones-orientales/) y el de [meditación](/laboratorio-de-meditacion/), a las prácticas contemplativas.
+
+Sobre la historia de la contemplación en Occidente, de los místicos a hoy, leé [meditación en Occidente](/recursos/meditacion-en-occidente/).
 
 Lecturas: James, W. (1902), *The Varieties of Religious Experience*. Pargament, K. I., Smith, B. W., Koenig, H. G. y Perez, L. (1998), «Patterns of positive and negative religious coping with major life stressors», *Journal for the Scientific Study of Religion*, 37(4), 710–724. Bonelli, R., Dew, R. E., Koenig, H. G., Rosmarin, D. H. y Vasegh, S. (2012), «Religious and spiritual factors in depression», *Depression Research and Treatment*.

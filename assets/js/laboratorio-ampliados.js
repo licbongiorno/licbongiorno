@@ -334,4 +334,20 @@
     { t: "Las constelaciones familiares demostraron que los representantes perciben lo que sienten personas que no conocen.", r: "a", e: "No hay respaldo científico para esa idea. Un ensayo de Weinhold y colaboradores (2013) encontró mejoras con seminarios conducidos por psicoterapeutas formados, lo que no prueba el mecanismo que propuso Hellinger." },
     { t: "En un ensayo publicado en 2021, la psilocibina no fue mejor que un antidepresivo en el resultado principal.", r: "b", e: "Carhart-Harris y colaboradores compararon psilocibina con escitalopram en depresión, ambos con apoyo psicoterapéutico, y no hubo diferencia en la medida principal. La investigación es prometedora pero más modesta de lo que se difunde." }
   ]);
+  LAB.quiz("corporal-mitos", [
+    { t: "Wilhelm Reich describió la coraza muscular como una defensa frente a ciertas emociones.", r: "b", e: "Es su aporte clínico en Análisis del carácter (1933): tensiones crónicas que protegen de sentir y limitan la respiración." },
+    { t: "La energía orgónica de Reich es un hallazgo comprobado.", r: "a", e: "Fue una hipótesis posterior de Reich que no tiene respaldo científico. Conviene separarla de su aporte sobre la defensa corporal." },
+    { t: "En la bioenergética de Alexander Lowen, el apoyo en los pies tiene un lugar central.", r: "b", e: "Lowen (Bioenergetics, 1975) trabaja con la respiración, la expresión emocional y el arraigo o apoyo en el suelo (grounding)." },
+    { t: "La sensación sentida de Gendlin es una emoción ya definida, como el miedo o la bronca.", r: "a", e: "Gendlin (Focusing, 1978) la describió como una impresión corporal global de una situación, todavía sin palabras. Una emoción puede ser parte de ella." },
+    { t: "Aflojar una tensión muscular libera siempre un recuerdo traumático guardado ahí.", r: "a", e: "El cuerpo participa de la experiencia emocional, pero no guarda recuerdos como un archivo que se abre al tocarlo." },
+    { t: "Si una práctica corporal te desborda, conviene parar y volver al apoyo y a lo que te rodea.", r: "b", e: "Trabajar con el cuerpo puede movilizar emociones fuertes. Detenerse es parte del trabajo, y si se repite, conviene hacerlo con un profesional formado." }
+  ]);
+  LAB.quiz("transpersonal-mitos", [
+    { t: "Stanislav y Christina Grof llamaron emergencia espiritual a una crisis en la que el crecimiento se vuelve caótico y abrumador.", r: "b", e: "Es la idea central de Spiritual Emergency (1989), una compilación que editaron con aportes de varios autores." },
+    { t: "El DSM-IV incluyó el «problema religioso o espiritual» como un trastorno mental.", r: "a", e: "Desde 1994 es un motivo de atención clínica, no un trastorno. Lo propusieron Lukoff, Lu y Turner (1992)." },
+    { t: "Toda experiencia extraordinaria es una señal de evolución espiritual.", r: "a", e: "No necesariamente. Conviene descartar episodios maníacos, psicóticos o disociativos y causas médicas o por sustancias, sin patologizar tampoco de entrada." },
+    { t: "La respiración holotrópica es adecuada para cualquier persona.", r: "a", e: "Se desaconseja con embarazo, enfermedad cardiovascular, epilepsia o antecedentes de psicosis, trastorno bipolar o crisis de pánico, entre otros. Puede movilizar material intenso." },
+    { t: "Para Assagioli, la desidentificación consiste en reconocer que tenés partes sin reducirte a ninguna de ellas.", r: "b", e: "Es uno de los ejercicios centrales de la psicosíntesis: «tengo emociones, pero no soy solo mis emociones»." },
+    { t: "Usar ideas espirituales para no sentir el dolor o la bronca es una forma de crecimiento.", r: "a", e: "John Welwood llamó a eso bypass espiritual (1984): esquivar con lo espiritual asuntos emocionales pendientes." }
+  ]);
 })();

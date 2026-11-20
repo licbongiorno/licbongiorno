@@ -23,6 +23,7 @@
   "respuesta": "El laboratorio de psicología corporal propone cuatro ejercicios inspirados en Wilhelm Reich, Alexander Lowen y Eugene Gendlin: sentir el apoyo del suelo, identificar dónde se acumula la tensión, escuchar una sensación sentida con la técnica del focusing y terminar con una práctica de descarga suave y de regreso a la calma.",
   "scripts": [
     "lab-base.js",
+    "laboratorio-ampliados.js",
     "escenas.js"
   ],
   "wa_tema": "el laboratorio de psicología corporal",
@@ -47,7 +48,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#suelo">Apoyarme en el suelo</a><a href="#coraza">Dónde guardo la tensión</a><a href="#sentido">Escuchar la sensación</a><a href="#calma">Aflojar y volver</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#suelo">Apoyarme en el suelo</a><a href="#coraza">Dónde guardo la tensión</a><a href="#sentido">Escuchar la sensación</a><a href="#calma">Aflojar y volver</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="suelo" aria-labelledby="t-suelo">
       <p class="lab-estacion__num">01</p>
@@ -134,6 +135,19 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre el cuerpo y las emociones circulan con más seguridad de la que tienen. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="corporal-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> El trabajo corporal puede movilizar emociones o recuerdos. No fuerces ninguna postura ni movimiento que te duela. Si algo te desborda, parate, apoyá los pies en el piso y respirá despacio. Si lo que aparece es muy intenso o se repite, buscá acompañamiento profesional. Podés leer <a href="/recursos/cuando-meditar-no-es-recomendable/">cuándo meditar no es recomendable</a>, que sirve también para estas prácticas.</p>
     </aside>

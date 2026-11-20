@@ -21,7 +21,7 @@ Hay una cantidad de psicoterapias que parten de una idea parecida: la experienci
 
 **Alexander Lowen**, alumno de Reich, creó la bioenergética. Trabaja con la respiración, el apoyo en los pies, la expresión emocional y las posturas. De Reich y Lowen salieron otras [escuelas posreichianas](/recursos/escuelas-posreichianas/), como Core Energetics, la biosíntesis y Bodynamic. Sus formulaciones sobre el carácter son históricas: sirven para pensar, pero no están probadas como teoría de la personalidad. Ver [Alexander Lowen](/recursos/alexander-lowen/).
 
-**Fritz Perls** y la terapia Gestalt no son corporales en sentido estricto, pero integran cuerpo, emoción y conciencia del presente. Trabajan con gestos, postura y el «darse cuenta». Ver [Fritz Perls](/recursos/fritz-perls/).
+**Fritz Perls** y la terapia Gestalt no son corporales en sentido estricto, pero integran cuerpo, emoción y conciencia del presente. Trabajan con gestos, postura y el «darse cuenta». Ver [Fritz Perls](/recursos/fritz-perls/) y [la terapia Gestalt](/recursos/terapia-gestalt/).
 
 **Gerda Boyesen** desarrolló la [psicología biodinámica](/recursos/psicologia-biodinamica/), que relaciona emociones, sistema nervioso autónomo y tensiones, e incorpora el masaje. **Stanley Keleman** propuso la [psicología formativa](/recursos/psicologia-formativa-keleman/), que lee las emociones en la organización muscular y postural. Su respaldo proviene sobre todo de la práctica clínica y de la formación de sus terapeutas.
 
@@ -70,6 +70,9 @@ Casi todas estas escuelas trabajan, con distintos nombres, con la [interocepció
 - El [laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/) trabaja con eutonía, técnica Alexander y psicomotricidad.
 - El [laboratorio de psicología corporal](/laboratorio-de-psicologia-corporal/) trabaja con Reich, Lowen y Gendlin.
 - El [test de conciencia corporal](/test-de-conciencia-corporal/) muestra cómo notás y escuchás tu cuerpo, en ocho dimensiones.
+- El [laboratorio de regulación](/laboratorio-de-regulacion/), el de [respiraciones](/laboratorio-de-respiraciones/), el del [cuerpo vivido](/laboratorio-del-cuerpo-vivido/) y el de [trauma](/laboratorio-de-trauma/) completan el recorrido.
+
+Si recién empezás, la [introducción a la psicología corporal](/recursos/psicologia-corporal/) es una buena puerta de entrada. Para entender qué pasa con la activación y la calma, leé [la ventana de tolerancia](/recursos/la-ventana-de-tolerancia/) y [respiración y emociones](/recursos/respiracion-y-emociones/).
 
 ## Cómo elegir
 
