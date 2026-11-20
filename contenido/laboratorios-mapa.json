@@ -75,7 +75,7 @@
     },
     {
       "nombre": "Junguiana y transpersonal",
-      "descripcion": "Jung, Hillman, Assagioli y la psicología transpersonal.",
+      "descripcion": "Jung, Hillman, Assagioli, la psicología transpersonal y las psicologías espirituales.",
       "rutas": [
         "/laboratorio-recorrido-junguiano/",
         "/laboratorio-de-sombra-y-arquetipos/",
@@ -85,7 +85,8 @@
         "/laboratorio-de-la-psique-y-la-imagen/",
         "/laboratorio-mito-personal/",
         "/laboratorio-de-psicologia-transpersonal/",
-        "/laboratorio-de-psicosintesis/"
+        "/laboratorio-de-psicosintesis/",
+        "/laboratorio-de-espiritualidad-y-psique/"
       ]
     },
     {

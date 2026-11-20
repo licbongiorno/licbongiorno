@@ -323,4 +323,13 @@
     { t: "Gerda Alexander, creadora de la eutonía, y F. M. Alexander, de la técnica Alexander, eran parientes.", r: "a", e: "No tenían parentesco. Comparten el apellido y el interés por el cuerpo, pero son dos propuestas distintas: Gerda Alexander (1908-1994) era una docente alemana-danesa de rítmica; F. M. Alexander (1869-1955), un actor australiano." },
     { t: "La psicomotricidad nació en la medicina francesa a comienzos del siglo XX.", r: "b", e: "El neurólogo Ernest Dupré introdujo el término en el discurso médico en 1905, según Calmels (2003), al estudiar las relaciones entre motricidad y psiquismo." }
   ]);
+  LAB.quiz("espiritualidad-mitos", [
+    { t: "Espiritualidad y religión son lo mismo.", r: "a", e: "Se superponen, pero no son idénticas: hay quienes viven la espiritualidad dentro de una religión, otros por fuera y otros no la viven. La psicología de la religión estudia estas formas sin jerarquizarlas." },
+    { t: "Toda experiencia mística es un síntoma.", r: "a", e: "William James (1902) las describió como experiencias humanas con rasgos propios. Una categoría como «Problema religioso o espiritual» (V62.89 del DSM-IV) no es un trastorno: es un motivo de atención clínica." },
+    { t: "Toda experiencia extraordinaria es evolución espiritual.", r: "a", e: "No necesariamente. Ante una experiencia que desorganiza conviene descartar episodios maníacos, psicóticos o disociativos, y causas médicas o por sustancias." },
+    { t: "El afrontamiento religioso puede ayudar o pesar.", r: "b", e: "Pargament y colaboradores (1998) distinguieron un afrontamiento positivo y uno negativo, y cada uno se asoció de forma distinta con la salud y la adaptación." },
+    { t: "En estudios rigurosos predominó una relación inversa entre religiosidad o espiritualidad y depresión.", r: "b", e: "Bonelli y colaboradores (2012) encontraron esa relación en 119 de los 178 estudios más rigurosos (67 %). Los autores advierten que no está resuelto si para cada persona funciona como recurso o como carga." },
+    { t: "Fowler propuso que todas las personas llegan a la sexta etapa de la fe.", r: "a", e: "James Fowler (1981) describió seis etapas, pero no todos las atraviesan todas, y las edades son aproximadas. Tampoco son un ranking de personas." },
+    { t: "Usar la meditación para no sentir nunca bronca o tristeza es lo que Welwood llamó bypass espiritual.", r: "b", e: "John Welwood acuñó el término en 1984 para describir el uso de ideas y prácticas espirituales para esquivar asuntos emocionales y personales pendientes." }
+  ]);
 })();

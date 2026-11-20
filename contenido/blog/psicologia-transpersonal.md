@@ -65,4 +65,6 @@ Con prácticas de atención, de desidentificación y de observación de partes. 
 - Grof, S. (1985). *Más allá del cerebro*.
 - Assagioli, R. (1965). *Psicosíntesis*.
 
+Para ver la transpersonal junto a otras psicologías espirituales, de la psicología de la religión a la crisis espiritual, mirá el [mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/).
+
 Volvé a [Alexander Lowen](/recursos/alexander-lowen/) o seguí con [Roberto Assagioli](/recursos/roberto-assagioli/).

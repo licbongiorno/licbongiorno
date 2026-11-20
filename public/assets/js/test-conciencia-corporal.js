@@ -8,6 +8,8 @@
   var raiz = document.querySelector("[data-test-corporal]"), fuente = document.getElementById("test-config");
   if (!raiz || !fuente) return;
   var C = JSON.parse(fuente.textContent);
+  /* Textos del resultado: se pueden cambiar desde la configuración para reutilizar este script en otros tests de perfil. */
+  var T = C.textos || {};
   var OPS = C.opciones, POR = C.porPagina || 8;
   var D = {}; C.dimensiones.forEach(function (d) { D[d.id] = d; });
   var preguntas = C.items.map(function (it, i) { return { id: "q" + i, i: i, txt: it.t, d: it.d, r: !!it.r }; });
@@ -97,23 +99,23 @@
 
   var mostrar = function () {
     var r = calcular(), html = '<p class="antetitulo">Tu resultado</p>';
-    html += '<h2 class="test-resultado__titulo">Tu perfil de <em>conciencia corporal</em></h2>';
+    html += '<h2 class="test-resultado__titulo">' + (T.titulo || "Tu perfil de <em>conciencia corporal</em>") + "</h2>";
     if (r.plano) {
       html += '<div class="prosa"><p>Todas las dimensiones dieron el mismo puntaje, así que el test no puede mostrar diferencias. Puede que hayas respondido rápido o que te cueste diferenciarte en estas descripciones. Si querés, volvé a hacerlo con calma, pensando en situaciones concretas de las últimas semanas.</p></div>';
     } else {
       html += '<div class="test-resultado__grid">' +
         '<section><h3>Lo que más aparece</h3><p>Las dimensiones con puntaje más alto en tus respuestas.</p><ol class="test-resultado__lista">' + r.altas.map(function (x) { return ficha(x, true); }).join("") + "</ol></section>" +
-        '<section><h3>Lo que menos aparece</h3><p>No son defectos: muestran por dónde podría ser más difícil, hoy, la relación con tu cuerpo.</p>' +
+        '<section><h3>Lo que menos aparece</h3><p>' + (T.bajas || "No son defectos: muestran por dónde podría ser más difícil, hoy, la relación con tu cuerpo.") + "</p>" +
         (r.bajas.length ? '<ol class="test-resultado__lista">' + r.bajas.map(function (x) { return ficha(x, false); }).join("") + "</ol>" : "<p>Tus puntajes están tan parejos que no hay un grupo claramente más bajo.</p>") + "</section></div>";
     }
     var marcadas = {}; if (!r.plano) r.altas.forEach(function (x) { marcadas[x.id] = true; });
-    html += '<section style="margin-top:2rem"><h3>Las ocho dimensiones</h3><p>Puntaje de 1 a 5. Más alto no es siempre mejor: mirá la nota de abajo.</p><ol class="test-barras">' +
+    html += '<section style="margin-top:2rem"><h3>' + (T.dimensiones || "Las ocho dimensiones") + '</h3><p>' + (T.barras || "Puntaje de 1 a 5. Más alto no es siempre mejor: mirá la nota de abajo.") + '</p><ol class="test-barras">' +
       C.dimensiones.map(function (d) { return barraHtml(d, r.dim[d.id], marcadas[d.id]); }).join("") + "</ol></section>";
-    html += '<p class="test-resultado__nota"><strong>Una aclaración.</strong> Notar mucho el cuerpo no siempre ayuda. Si una sensación te alarma enseguida, atenderla más puede aumentar la angustia, como pasa en los ataques de pánico. Lo que suele ayudar es la combinación: poder notar, sin alarmarte, y usar eso para cuidarte.</p>';
+    html += '<p class="test-resultado__nota">' + (T.aclaracion || "<strong>Una aclaración.</strong> Notar mucho el cuerpo no siempre ayuda. Si una sensación te alarma enseguida, atenderla más puede aumentar la angustia, como pasa en los ataques de pánico. Lo que suele ayudar es la combinación: poder notar, sin alarmarte, y usar eso para cuidarte.") + "</p>";
     html += '<div class="test-resultado__leer"><h3>Para seguir</h3><ul>' + C.lecturas.map(function (l) {
       return '<li><a href="' + esc(l.url) + '">' + esc(l.t) + "</a></li>";
     }).join("") + "</ul></div>";
-    html += '<p class="test-resultado__nota">Es un autorreporte con afirmaciones originales y <strong>no está validado psicométricamente</strong>; no es el MAIA. Refleja cómo te describiste hoy. Si algo de lo que aparece te inquieta, en especial si te sentís insegura o inseguro en tu cuerpo después de experiencias difíciles, es un buen tema para hablar con un profesional. Tus respuestas no se guardan ni se envían: si recargás la página, se borran.</p>';
+    html += '<p class="test-resultado__nota">' + (T.nota || "Es un autorreporte con afirmaciones originales y <strong>no está validado psicométricamente</strong>; no es el MAIA. Refleja cómo te describiste hoy. Si algo de lo que aparece te inquieta, en especial si te sentís insegura o inseguro en tu cuerpo después de experiencias difíciles, es un buen tema para hablar con un profesional.") + " Tus respuestas no se guardan ni se envían: si recargás la página, se borran.</p>";
     html += '<div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-test-rehacer>Volver a empezar</button></div>';
     resultado.innerHTML = html; resultado.hidden = false; raiz.hidden = true;
     if (inicio) inicio.hidden = true;
