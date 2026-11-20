@@ -44,6 +44,10 @@ Más allá de las escuelas, conviene ordenar los temas en siete dimensiones:
 6. **Experiencias espirituales:** momentos de unidad, asombro o misterio.
 7. **Crisis y transformación:** cuando el proceso se vuelve desbordante.
 
+## Prácticas intensas que conviene conocer
+
+Algunas propuestas muy difundidas mezclan lo espiritual y lo terapéutico, y conviene mirarlas con información: las [constelaciones familiares](/recursos/constelaciones-familiares/) de Bert Hellinger, la [terapia asistida con psicodélicos](/recursos/terapia-con-psicodelicos/), que hoy se investiga en ensayos clínicos, y la [respiración holotrópica](/recursos/respiracion-holotropica/) de los Grof. Desde una tradición religiosa, la [contemplación cristiana](/recursos/psicologia-y-contemplacion-cristiana/) dialoga con la psicología a través de autores como Thomas Merton y Paul Pruyser.
+
 ## Tres niveles: qué respaldo tiene cada cosa
 
 Esta es la distinción clave del campo.

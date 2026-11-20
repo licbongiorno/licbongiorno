@@ -62,6 +62,6 @@ Para practicarlo, probá el [Laboratorio de psicología transpersonal](/laborato
 
 - Grof, S. (1985). *Más allá del cerebro: nacimiento, muerte y trascendencia en psicoterapia*.
 
-Sobre la emergencia espiritual y cómo distinguirla de otros cuadros, leé [crisis espiritual](/recursos/crisis-espiritual/).
+Sobre la emergencia espiritual y cómo distinguirla de otros cuadros, leé [crisis espiritual](/recursos/crisis-espiritual/). Sobre su técnica de respiración y sus cuidados, [respiración holotrópica](/recursos/respiracion-holotropica/).
 
 Seguí la serie con [Ken Wilber](/recursos/ken-wilber/), o volvé a [Eugene Gendlin](/recursos/eugene-gendlin/).

@@ -48,4 +48,6 @@ Dicho de otro modo: el dato alentador no autoriza a prometer que el yoga cura el
 
 Podés situar el yoga entre otras propuestas en [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y explorar más en [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
+Sobre el libro más conocido de van der Kolk y sus críticas, leé [«El cuerpo lleva la cuenta»](/recursos/el-cuerpo-lleva-la-cuenta/).
+
 Lecturas: van der Kolk, B. A., Stone, L., West, J., Rhodes, A., Emerson, D., Suvak, M. y Spinazzola, J. (2014), «Yoga as an adjunctive treatment for posttraumatic stress disorder: a randomized controlled trial», *Journal of Clinical Psychiatry*, 75(6), e559–e565.

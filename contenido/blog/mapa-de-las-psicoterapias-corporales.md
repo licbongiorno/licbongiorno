@@ -43,9 +43,11 @@ Algunas prácticas comparten la mirada sobre el cuerpo, pero no se presentan com
 
 El [EMDR](/recursos/emdr/), de Francine Shapiro, no es una terapia corporal en sentido estricto, pero trabaja con la memoria traumática junto con estímulos bilaterales, y es el abordaje de este campo con más respaldo: la OMS lo recomienda para el estrés postraumático. Muchas terapias corporales del trauma usan, además, el lenguaje de la [teoría polivagal](/recursos/teoria-polivagal/) de Stephen Porges, cuya base neurofisiológica está hoy fuertemente cuestionada.
 
+El libro más leído sobre el tema, [«El cuerpo lleva la cuenta»](/recursos/el-cuerpo-lleva-la-cuenta/) de Bessel van der Kolk, popularizó estas ideas, y también varias afirmaciones que hoy están cuestionadas. La [respiración holotrópica](/recursos/respiracion-holotropica/) de los Grof busca estados no ordinarios de conciencia con hiperventilación, y pide cuidados especiales.
+
 ## Educación del movimiento y psicomotricidad
 
-La [eutonía](/recursos/eutonia/) de Gerda Alexander y la [técnica Alexander](/recursos/tecnica-alexander/) de F. M. Alexander, que no eran parientes, trabajan con el tono, la postura y el uso del cuerpo. La técnica Alexander tiene ensayos controlados en dolor de espalda y de cuello. La [psicomotricidad](/recursos/psicomotricidad/), nacida en la medicina francesa y muy desarrollada en Argentina, trabaja sobre todo con chicos, a través del cuerpo, el juego y el movimiento. El [Movimiento Auténtico y la arteterapia](/recursos/movimiento-autentico-y-arteterapia/) usan el movimiento y la imagen como expresión.
+La [eutonía](/recursos/eutonia/) de Gerda Alexander y la [técnica Alexander](/recursos/tecnica-alexander/) de F. M. Alexander, que no eran parientes, trabajan con el tono, la postura y el uso del cuerpo. La técnica Alexander tiene ensayos controlados en dolor de espalda y de cuello. La [psicomotricidad](/recursos/psicomotricidad/), nacida en la medicina francesa y muy desarrollada en Argentina, trabaja sobre todo con chicos, a través del cuerpo, el juego y el movimiento. El [Movimiento Auténtico y la arteterapia](/recursos/movimiento-autentico-y-arteterapia/) usan el movimiento y la imagen como expresión. El [psicodrama](/recursos/psicodrama/) de Jacob Levy Moreno trabaja con la acción y la escena, y tiene metaanálisis favorables. La [biodanza](/recursos/biodanza/) de Rolando Toro y la [sofrología](/recursos/sofrologia/) de Alfonso Caycedo son prácticas muy difundidas en el mundo hispano, con poca investigación sólida.
 
 ## Qué sostiene la evidencia
 
