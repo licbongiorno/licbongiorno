@@ -1,0 +1,145 @@
+<!--{
+  "ruta": "/laboratorio-de-apuestas-y-juego/",
+  "titulo": "Laboratorio de apuestas y juego: mirar tu relación con el juego",
+  "descripcion": "Un espacio para observar cómo jugás o apostás, entender por qué engancha, armar un plan de cambio y saber cómo hablar con un adolescente.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Apuestas y juego",
+      "/laboratorio-de-apuestas-y-juego/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Consumos",
+  "h1": "Laboratorio de <em>apuestas</em> y juego",
+  "bajada": "Apostar puede ser un entretenimiento o puede volverse un problema. Acá podés mirar tu relación con el juego, entender por qué engancha y pensar un plan, sin juicios y a tu ritmo.",
+  "respuesta": "Este laboratorio ofrece ejercicios de autoobservación sobre apuestas y juego: cómo es tu juego, por qué engancha (refuerzo intermitente, inmediatez, perseguir pérdidas, ilusión de control), qué te da y qué te cuesta, un plan de cambio y orientación para hablar con un adolescente. No diagnostica ni reemplaza una consulta. La línea 141 de SEDRONAR atiende las 24 horas.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de apuestas y juego",
+  "articulos": [
+    "apuestas-online",
+    "pantallas-y-redes-sociales",
+    "estrategias-de-afrontamiento"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Las apuestas deportivas, los casinos online y los juegos con premio están a un toque de distancia, a cualquier hora y desde el mismo celular que usamos para todo lo demás. Para mucha gente es un pasatiempo. Para otras personas, de a poco, deja de serlo: se juega más de lo pensado, se gasta más de lo previsto y cuesta parar.</p><p>Este laboratorio no es un test ni da un resultado. El DSM-5 (2013) reconoce el «trastorno por juego» como una condición clínica, y solo un profesional puede evaluarlo. Lo que sigue son ejercicios para observar, entender y decidir.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>No diagnostica.</strong> Es autoobservación, no una evaluación clínica.</li><li><strong>Sin juicio.</strong> Jugar no te hace una mala persona. Mirar con honestidad es el primer paso.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#mi-juego">Cómo es mi juego</a><a href="#engancha">Por qué engancha</a><a href="#senales">Señales para mirar</a><a href="#balance">Qué me da y qué me cuesta</a><a href="#plan">Un plan de cambio</a><a href="#adolescente">Si es un adolescente</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="mi-juego" aria-labelledby="t-mi-juego">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mi-juego">Cómo es mi juego</h2>
+      <p class="lab-estacion__bajada">Antes de evaluar nada, conviene describir. Anotá con la mayor precisión posible cómo es tu juego hoy, sin adornarlo ni castigarte.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="apu-juego" data-lab-form-titulo="Cómo es mi juego" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-que">A qué juego o apuesto</label><input class="lab-campo" id="apu-que" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-frecuencia">Con qué frecuencia (por día o por semana)</label><input class="lab-campo" id="apu-frecuencia" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-plata">Cuánta plata va en un mes, aproximadamente</label><input class="lab-campo" id="apu-plata" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-momentos">En qué momentos o estados de ánimo juego más (aburrimiento, ansiedad, después de cobrar, de noche…)</label><textarea class="lab-texto" id="apu-momentos" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="engancha" aria-labelledby="t-engancha">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-engancha">Por qué engancha</h2>
+      <p class="lab-estacion__bajada">El juego está diseñado para retener. Elegí uno de estos mecanismos para ver cómo funciona.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Mecanismos que hacen que el juego enganche"><label class="opcion"><input type="radio" name="apu-mec" value="refuerzo" checked><span>Refuerzo intermitente</span></label><label class="opcion"><input type="radio" name="apu-mec" value="inmediatez"><span>Inmediatez</span></label><label class="opcion"><input type="radio" name="apu-mec" value="perseguir"><span>Perseguir pérdidas</span></label><label class="opcion"><input type="radio" name="apu-mec" value="ilusion"><span>La ilusión de control</span></label></div>
+        <div class="lab-panel" data-lab-panel="refuerzo"><p>Ganar a veces, sin que se pueda predecir cuándo, es lo que más mantiene una conducta. Cada premio ocasional refuerza las apuestas anteriores y hace que perder pese menos que la expectativa de la próxima.</p></div><div class="lab-panel" data-lab-panel="inmediatez" hidden><p>Con el celular siempre a mano, apostar toma segundos: no hay que ir a ningún lugar ni esperar. Las apuestas en vivo y los resultados rápidos acortan el tiempo entre el impulso y el acto, y dejan poco espacio para pensar.</p></div><div class="lab-panel" data-lab-panel="perseguir" hidden><p>Después de perder aparece la idea de «recuperar» lo perdido apostando de nuevo. Es una de las señales que menciona el DSM-5. Suele aumentar las pérdidas, porque se apuesta más y con menos criterio.</p></div><div class="lab-panel" data-lab-panel="ilusion" hidden><p>Creer que con análisis, rachas o sistemas se puede influir en un resultado que depende del azar. En los juegos de azar, el resultado no mejora con lo que uno sabe o siente, y la publicidad suele alimentar esa sensación.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-senales">Señales para mirar</h2>
+      <p class="lab-estacion__bajada">No hay puntaje: son preguntas para pensar con calma. Algunas respuestas pueden incomodar, y eso también es información. Si varias te resuenan, vale consultar a un profesional.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="apu-senales" data-lab-form-titulo="Señales para mirar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-s1">¿Necesito apostar cada vez más plata o más seguido para sentir lo mismo?</label><textarea class="lab-texto" id="apu-s1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-s2">¿Intenté dejar o reducir y no pude sostenerlo?</label><textarea class="lab-texto" id="apu-s2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-s3">¿Después de perder, vuelvo a apostar para recuperar lo perdido?</label><textarea class="lab-texto" id="apu-s3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-s4">¿Oculté o minimicé cuánto juego o cuánto gasté, o mentí al respecto?</label><textarea class="lab-texto" id="apu-s4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-s5">¿Pienso en el juego en momentos en que debería estar en otra cosa?</label><textarea class="lab-texto" id="apu-s5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-s6">¿Pedí plata prestada o usé dinero que tenía otro destino?</label><textarea class="lab-texto" id="apu-s6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="balance" aria-labelledby="t-balance">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-balance">Qué me da y qué me cuesta</h2>
+      <p class="lab-estacion__bajada">Si el juego sigue ahí, algo te da: emoción, escape, compañía, esperanza. Reconocerlo ayuda a buscar otras vías. Y mirar lo que cuesta, sin dramatizar, ayuda a decidir.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="apu-balance" data-lab-form-titulo="Qué me da y qué me cuesta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-da">Qué me da el juego (lo que busco cuando juego)</label><textarea class="lab-texto" id="apu-da" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-cuesta">Qué me cuesta (plata, tiempo, sueño, vínculos, ánimo)</label><textarea class="lab-texto" id="apu-cuesta" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-otra">Qué otra cosa podría darme algo de eso</label><textarea class="lab-texto" id="apu-otra" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="plan" aria-labelledby="t-plan">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-plan">Un plan de cambio</h2>
+      <p class="lab-estacion__bajada">Cambiar suele ser más fácil cuando no depende de la fuerza de voluntad del momento. Pensar el plan de antemano, con la cabeza fría, ayuda a sostenerlo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="apu-plan" data-lab-form-titulo="Mi plan de cambio" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-medios">Límites con los medios de pago (tope, tarjetas o cuentas que dejo de usar, alguien de confianza que administre)</label><textarea class="lab-texto" id="apu-medios" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-bloqueos">Bloqueos (borrar apps, bloquear sitios, pedir la exclusión de plataformas, filtros en el celular)</label><textarea class="lab-texto" id="apu-bloqueos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-impulso">Qué voy a hacer en el momento del impulso (esperar 20 minutos, salir, llamar a alguien, otra actividad)</label><textarea class="lab-texto" id="apu-impulso" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="apu-contar">A quién le voy a contar</label><input class="lab-campo" id="apu-contar" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="adolescente" aria-labelledby="t-adolescente">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-adolescente">Si te preocupa un adolescente</h2>
+      <p class="lab-estacion__bajada">En Argentina, el juego online está prohibido para menores de 18 años, pero llega a muchos adolescentes. Las encuestas recientes miden uso, no adicción, y no son comparables entre sí. Elegí una pestaña.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Orientación para madres, padres y adultos"><label class="opcion"><input type="radio" name="apu-adol" value="hablar" checked><span>Cómo hablar</span></label><label class="opcion"><input type="radio" name="apu-adol" value="evitar"><span>Qué evitar</span></label><label class="opcion"><input type="radio" name="apu-adol" value="consultar"><span>Cuándo consultar</span></label></div>
+        <div class="lab-panel" data-lab-panel="hablar"><ul><li>Elegí un momento tranquilo, sin reproches. Empezá por lo que viste y por tu preocupación.</li><li>Preguntá con curiosidad: qué juega, qué le gusta, cómo lo hacen sus amigos.</li><li>Escuchá antes de aconsejar. Una charla alcanza para abrir la puerta; no hace falta resolver todo.</li><li>Dejá claro que puede contarte si perdió plata, sin castigo automático.</li></ul></div><div class="lab-panel" data-lab-panel="evitar" hidden><ul><li>Humillar, ridiculizar o hablar de «vicio» o «fracaso».</li><li>Interrogar o espiar sin avisar: suele llevar a esconder más.</li><li>Dar plata para «saldar la deuda» sin conversar antes.</li><li>Prohibir sin explicar y sin acordar límites con los medios de pago.</li></ul></div><div class="lab-panel" data-lab-panel="consultar" hidden><ul><li>Si apuesta de manera repetida, miente para ocultarlo o se endeuda.</li><li>Si cambió su ánimo, el sueño, el estudio o sus vínculos.</li><li>Si no logra parar aunque lo intente.</li></ul><p>La línea 141 de SEDRONAR (consumos problemáticos) atiende las 24 horas con profesionales. Podés ver también el <a href="/laboratorio-de-adolescentes/">laboratorio de adolescentes</a>.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Sobre las apuestas circulan muchas ideas falsas. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="apuestas-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es un ejercicio de autoobservación y no reemplaza una consulta. Si el juego te está causando problemas, pedir ayuda es un paso fuerte, no una derrota. Línea 141 de SEDRONAR (consumos problemáticos), atendida por profesionales, las 24 horas. Si sentís que no podés más o hay riesgo, llamá al 911, al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país), o a la Línea Nacional de Orientación y Apoyo en la Urgencia de Salud Mental, 0800-999-0091. Más en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>American Psychiatric Association (2013), <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5.ª ed.). APA.</li><li>UNICEF Argentina (2024), encuesta a unos 600 adolescentes y jóvenes sobre apuestas online. Defensoría del Pueblo de la Ciudad de Buenos Aires (2024), encuesta a 2.765 adolescentes de 13 a 19 años. Encuesta a 434 estudiantes secundarios de la Provincia de Buenos Aires (2024). Miden uso, no adicción, y no son comparables entre sí.</li><li>Más en este sitio: <a href="/laboratorio-de-alcohol-y-consumos/">alcohol y consumos</a>, <a href="/laboratorio-de-conductas-compulsivas/">conductas compulsivas</a> y <a href="/recursos/pantallas-y-redes-sociales/">pantallas y redes sociales</a>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

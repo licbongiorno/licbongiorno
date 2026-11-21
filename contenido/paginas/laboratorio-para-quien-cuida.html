@@ -1,0 +1,154 @@
+<!--{
+  "ruta": "/laboratorio-para-quien-cuida/",
+  "titulo": "Laboratorio para quien cuida: cuidar sin perderte a vos",
+  "descripcion": "Ejercicios para quien cuida a un familiar: registrar lo que hacés, nombrar lo que sentís, ver señales de sobrecarga, pedir ayuda y descansar.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Para quien cuida",
+      "/laboratorio-para-quien-cuida/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Cuidado",
+  "h1": "Laboratorio para <em>quien cuida</em>",
+  "bajada": "Cuidar a un familiar enfermo, mayor o con discapacidad puede ser un acto de amor y, a la vez, agotador. Acá podés ordenar lo que hacés, lo que sentís y lo que necesitás, sin culpa.",
+  "respuesta": "Este laboratorio ofrece ejercicios para quien cuida a un familiar: registrar las tareas del día, reconocer sentimientos como culpa, enojo y ambivalencia, observar señales de sobrecarga, repartir tareas y pedir ayuda, planear pequeños descansos y mirar el duelo anticipado. Las personas que cuidan muestran, en promedio, más estrés y depresión que quienes no cuidan. No reemplaza una consulta.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio para quien cuida",
+  "articulos": [
+    "cuidar-a-un-familiar",
+    "burnout",
+    "vejez-y-jubilacion"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Quien cuida a un familiar suele hacerlo de a poco: primero un acompañamiento al médico, después los remedios, las comidas, las noches. Un día se da cuenta de que su vida giró alrededor de otra persona, y que casi nadie le pregunta cómo está.</p><p>Una revisión de 84 estudios (Pinquart y Sörensen, 2003) encontró que quienes cuidan muestran, en promedio, más estrés y depresión y menos bienestar que quienes no cuidan. Sentirse cansado, culpable o enojado no significa cuidar mal: es esperable. Este laboratorio es un espacio para vos.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>A tu ritmo.</strong> Podés completar un ejercicio hoy y otro la semana que viene.</li><li><strong>Sin culpa.</strong> Todo lo que sientas tiene lugar acá, también lo que no se dice.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#dia">Lo que hago por día</a><a href="#sentir">Lo que siento</a><a href="#senales">Señales de sobrecarga</a><a href="#repartir">Repartir y pedir ayuda</a><a href="#descansos">Pequeños descansos</a><a href="#duelo">El duelo que empieza antes</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="dia" aria-labelledby="t-dia">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-dia">Lo que hago por día</h2>
+      <p class="lab-estacion__bajada">Lo que se hace todos los días suele volverse invisible, también para uno. Ponerlo por escrito permite ver cuánto es y dónde pesa más.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cui-dia" data-lab-form-titulo="Lo que hago por día" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-manana">Mañana (aseo, medicación, desayuno, traslados…)</label><textarea class="lab-texto" id="cui-manana" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-tarde">Tarde</label><textarea class="lab-texto" id="cui-tarde" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-noche">Noche y madrugada</label><textarea class="lab-texto" id="cui-noche" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-pesa">Lo que más me pesa de todo esto</label><input class="lab-campo" id="cui-pesa" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-propio">Cuánto tiempo me queda para mí en un día común</label><input class="lab-campo" id="cui-propio" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sentir" aria-labelledby="t-sentir">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-sentir">Lo que siento, también lo que no se dice</h2>
+      <p class="lab-estacion__bajada">Cuidar despierta sentimientos que cuesta admitir: culpa por no hacer más, enojo con la persona o con el resto de la familia, ganas de que termine, alivio y vergüenza por sentirlo. La ambivalencia es habitual: se puede querer a alguien y estar agotado de cuidarlo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cui-sentir" data-lab-form-titulo="Lo que siento" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-culpa">Culpa: de qué me siento culpable</label><textarea class="lab-texto" id="cui-culpa" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-enojo">Enojo: con quién o con qué</label><textarea class="lab-texto" id="cui-enojo" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-ambiv">Ambivalencia: lo que quiero y a la vez no quiero</label><textarea class="lab-texto" id="cui-ambiv" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-callo">Lo que no le digo a nadie</label><textarea class="lab-texto" id="cui-callo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-senales">Señales de sobrecarga</h2>
+      <p class="lab-estacion__bajada">No hay puntaje. Son preguntas para mirar cómo estás. Si varias son un sí desde hace semanas, es momento de pedir ayuda: la tuya cuenta tanto como la de quien cuidás.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cui-senales" data-lab-form-titulo="Señales de sobrecarga" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-s1">¿Duermo mal o muy poco desde hace tiempo?</label><input class="lab-campo" id="cui-s1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-s2">¿Estoy más irritable, triste o llorando sin razón clara?</label><input class="lab-campo" id="cui-s2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-s3">¿Dejé mis controles médicos, mis amistades o cosas que disfrutaba?</label><input class="lab-campo" id="cui-s3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-s4">¿Me enfermo seguido, o noto dolores y cansancio que no se van?</label><input class="lab-campo" id="cui-s4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-s5">¿Siento que no puedo más, o pienso que desaparecer sería un alivio?</label><input class="lab-campo" id="cui-s5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda">Si alguna respuesta te preocupa, hablalo con un profesional de la salud. Si pensás en hacerte daño, llamá al 911, al Centro de Asistencia al Suicida (135 en CABA y GBA, 0800-345-1435 en todo el país) o mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p><p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="repartir" aria-labelledby="t-repartir">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-repartir">Repartir y pedir ayuda</h2>
+      <p class="lab-estacion__bajada">Muchas veces una sola persona carga con casi todo, y pedir ayuda cuesta. Ayuda más ser concreto: una tarea, un día, una persona. «Necesito ayuda» es vago; «¿podés quedarte con mamá los martes a la tarde?» se puede responder.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cui-repartir" data-lab-form-titulo="Repartir y pedir ayuda" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-tareas">Tareas que podría dejar de hacer yo (compras, trámites, traslados, noches…)</label><textarea class="lab-texto" id="cui-tareas" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-quien">Quién podría hacerse cargo de cada una (familia, amigos, vecinos, servicios)</label><textarea class="lab-texto" id="cui-quien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-pedido">Un pedido concreto que me animo a hacer esta semana</label><input class="lab-campo" id="cui-pedido" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-obstaculo">Qué me frena a pedirlo</label><input class="lab-campo" id="cui-obstaculo" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="descansos" aria-labelledby="t-descansos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-descansos">Pequeños descansos</h2>
+      <p class="lab-estacion__bajada">No hace falta un fin de semana libre para empezar. Unos minutos de pausa, repetidos, también cuentan. Recorrelos cuando puedas.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Un minuto para respirar.</strong> Soltá los hombros y exhalá más largo de lo que inhalás, tres veces.</li>
+          <li><strong>Cambiá de lugar.</strong> Salí un momento al patio, a la ventana o a la vereda, aunque sea un rato corto.</li>
+          <li><strong>Hacé algo que sea tuyo.</strong> Una canción, un mate tranquilo, un mensaje a alguien querido.</li>
+          <li><strong>Anotá un descanso para mañana.</strong> Elegí cuándo y qué. Si tenés quién te reemplace, avisá de antemano.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="duelo" aria-labelledby="t-duelo">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-duelo">El duelo que empieza antes</h2>
+      <p class="lab-estacion__bajada">Cuando la persona que cuidás está enferma o deteriora, puede aparecer un duelo anticipado: tristeza por lo que ya cambió, por lo que se va perdiendo, por lo que vendrá. No es traición ni mala señal. Es parte de querer a alguien que está cambiando.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="cui-duelo" data-lab-form-titulo="El duelo que empieza antes" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-perdi">Qué ya perdí de la persona o de la relación</label><textarea class="lab-texto" id="cui-perdi" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-extrano">Qué extraño de cómo éramos</label><textarea class="lab-texto" id="cui-extrano" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-queda">Qué sigue estando, aunque sea distinto</label><textarea class="lab-texto" id="cui-queda" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cui-decir">Algo que quisiera decirle o hacer mientras se puede</label><textarea class="lab-texto" id="cui-decir" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Sobre quien cuida circulan ideas que suman culpa. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="cuidar-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es un ejercicio de reflexión y no reemplaza una consulta. Si estás agotado, triste o sin esperanza, consultá a un profesional: cuidarte también es cuidar. Si hay riesgo, llamá al 911, al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país), o a la Línea Nacional de Orientación y Apoyo en la Urgencia de Salud Mental, 0800-999-0091. Más en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Pinquart, M. y Sörensen, S. (2003), «Differences between caregivers and noncaregivers in psychological health and physical health: a meta-analysis», <em>Psychology and Aging</em>, 18(2), 250–267.</li><li>Zarit, S. H., Reever, K. E. y Bach-Peterson, J. (1980), «Relatives of the impaired elderly: correlates of feelings of burden», <em>The Gerontologist</em>, 20(6), 649–655.</li><li>Más en este sitio: <a href="/recursos/burnout/">burnout</a>, <a href="/laboratorio-de-autocompasion/">autocompasión</a>, <a href="/laboratorio-de-duelo/">duelo</a>, <a href="/terapia-para-adultos-mayores/">terapia para adultos mayores</a> y <a href="/recursos/vejez-y-jubilacion/">vejez y jubilación</a>.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
