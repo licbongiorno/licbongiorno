@@ -2253,6 +2253,9 @@ def construir():
         html_a = pagina(meta, reemplazos(cuerpo, a["ruta"]), a["ruta"])
         html_a = html_a.replace(wa(), wa(f'Hola, Nicolás. Leí tu artículo «{a["titulo"]}» y quería consultarte por un turno.'))
         escribir(a["ruta"], html_a)
+        # Rutas viejas de artículos (por ejemplo, un duplicado ya publicado que se unificó): responden con noindex.
+        for vieja in [x.strip() for x in a.get("rutas_viejas", "").split(",") if x.strip()]:
+            escribir(vieja, pagina(dict(meta, noindex=True), reemplazos(cuerpo, vieja), vieja))
         if a["publicado"]:
             mapa.append((a["ruta"], 0.6, "yearly"))
             nombres[a["ruta"]] = a["titulo"]

@@ -11,6 +11,7 @@ orden: 137
 estado: publicado
 respuesta: Steven C. Hayes, nacido en 1948, es un psicólogo estadounidense, profesor de la Universidad de Nevada en Reno y creador de la terapia de aceptación y compromiso (ACT). La ACT busca aumentar la flexibilidad psicológica: abrirse a los pensamientos y emociones difíciles sin pelear con ellos, tomar distancia de los pensamientos y actuar según los propios valores. Hayes desarrolló también la teoría de los marcos relacionales, sobre el lenguaje y la cognición.
 menciona: steven-hayes
+rutas_viejas: /recursos/steven-hayes/
 revision: 2026-11-08
 ---
 No, no es que aceptar sea resignarse. Steven Hayes lo aprendió en carne propia: durante años sufrió ataques de pánico, y cuanto más intentaba controlarlos, más espacio ocupaban en su vida. El cambio llegó cuando dejó de pelear con la ansiedad y empezó a preguntarse qué quería hacer con su vida, con la ansiedad a cuestas.
