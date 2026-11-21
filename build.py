@@ -2448,7 +2448,7 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
     def tipo_de_ruta(ruta, rutas_lab):
         if ruta in rutas_lab:
             return "Laboratorio"
-        if ruta.startswith("/recursos/psicoquiz") or ruta.startswith("/escala-") or "/test" in ruta or ruta.startswith("/psicoquiz"):
+        if ruta.startswith("/recursos/psicoquiz") or ruta.startswith("/escala-") or ruta.startswith("/indice-de-bienestar") or "/test" in ruta or ruta.startswith("/psicoquiz"):
             return "Test"
         if ruta.startswith("/ejercicio-") or ruta.startswith("/recursos/ejercicio"):
             return "Ejercicio"
@@ -2461,11 +2461,15 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
     rutas_cat = {ruta_categoria(c) for c in CATEGORIAS}
     indice = []
     for ruta, _, _ in mapa:
-        if ruta in rutas_cat or ruta in ("/mapa-del-sitio/", "/privacidad/", "/buscar/"):
+        if ruta in ("/mapa-del-sitio/", "/privacidad/", "/buscar/"):
             continue
         f = SALIDA / ("index.html" if ruta == "/" else ruta.strip("/") + "/index.html")
         h = f.read_text(encoding="utf-8")
         desc = re.search(r'<meta name="description" content="([^"]*)"', h)
+        if ruta in rutas_cat:  # categorías: solo título y descripción (su texto es la lista de artículos)
+            indice.append({"t": html.unescape(nombres.get(ruta, ruta)), "k": "Página", "u": ruta,
+                           "d": html.unescape(desc.group(1)) if desc else "", "c": "", "x": ""})
+            continue
         cuerpo = re.search(r'<main id="contenido">(.*?)</main>', h, re.S).group(1)
         cuerpo = re.sub(r"<(svg|script|style|nav|button|form|aside)\b.*?</\1>", " ", cuerpo, flags=re.S)
         texto = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", cuerpo))).strip()
