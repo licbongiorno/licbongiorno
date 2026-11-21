@@ -368,4 +368,21 @@
     { t: "Darte cuenta de si una estrategia funciona y cambiarla es parte de afrontar bien.", r: "b", e: "Es el tercer componente de la flexibilidad según Bonanno y Burton (2013): la respuesta a la retroalimentación." },
     { t: "El estrés depende solo de lo que pasa, no de cómo lo evaluamos.", r: "a", e: "Para Lazarus y Folkman (1984), el estrés depende de la evaluación que hace la persona: qué está en juego y qué recursos cree tener." }
   ]);
+  LAB.quiz("ikigai-mitos", [
+    { t: "El diagrama de los cuatro círculos es el concepto japonés original de ikigai.", r: "a", e: "No: viene del diagrama del propósito del astrólogo español Andrés Zuzunaga, y Marc Winn lo rebautizó «ikigai» en un blog de 2014. Sirve para reflexionar, pero no representa el concepto japonés." },
+    { t: "En Japón, el ikigai suele estar en lo cotidiano: vínculos, roles y pequeñas alegrías.", r: "b", e: "Así lo entiende la tradición que popularizó Mieko Kamiya: lo que hace que la vida valga la pena, no necesariamente una gran misión." },
+    { t: "Tu ikigai tiene que ser tu trabajo.", r: "a", e: "No necesariamente. Puede estar en el trabajo, pero también en la familia, la comunidad o una actividad por gusto." },
+    { t: "Mieko Kamiya popularizó el concepto a partir de su trabajo con pacientes en un sanatorio.", r: "b", e: "En Ikigai ni tsuite (1966) partió de su experiencia con pacientes con lepra en Nagashima Aiseien, donde notó en muchos una sensación de falta de sentido." },
+    { t: "Un estudio con 43.391 adultos japoneses (Ohsaki) demostró que tener ikigai alarga la vida.", r: "a", e: "Sone y colaboradores (2008) hallaron que quienes dijeron no tener ikigai tuvieron un riesgo de muerte 1,5 veces mayor, pero es una asociación medida con una sola pregunta, no una prueba de causa." },
+    { t: "Sin una gran misión, no se puede tener ikigai.", r: "a", e: "Es justo lo contrario de lo que sugiere el concepto: las pequeñas cosas que dan vida cuentan, y pueden cambiar a lo largo de las etapas." }
+  ]);
+  LAB.quiz("fobias-mitos", [
+    { t: "Evitar lo que te da miedo es la mejor manera de superarlo.", r: "a", e: "Evitar alivia enseguida, pero mantiene el miedo: nunca comprobás que podías tolerarlo. La exposición gradual es lo que tiene respaldo." },
+    { t: "La exposición es un tratamiento con respaldo para las fobias específicas.", r: "b", e: "En el metaanálisis de Wolitzky-Taylor y colaboradores (2008), con 33 ensayos aleatorizados, la exposición tuvo efectos grandes frente a no tratar y superó al placebo y a otras psicoterapias." },
+    { t: "La exposición consiste en enfrentar de golpe lo que más miedo da.", r: "a", e: "Suele hacerse de forma gradual y voluntaria, con una jerarquía de situaciones de menor a mayor, empezando por la que menos miedo da." },
+    { t: "Una sola sesión intensiva de exposición, con un terapeuta, puede ayudar en algunas fobias.", r: "b", e: "Öst (1989) describió un tratamiento de una sesión intensiva de exposición para fobias específicas." },
+    { t: "Tener una fobia significa ser débil o exagerado.", r: "a", e: "Es una forma de ansiedad frecuente que no depende de la voluntad ni del carácter, y tiene tratamiento." },
+    { t: "En la fobia a la sangre conviene consultar antes de practicar, porque puede producir desmayo.", r: "b", e: "A diferencia de otras fobias, puede bajar la presión y provocar un desmayo. Conviene consultar a un profesional antes de exponerte." },
+    { t: "Si la ansiedad sube durante la práctica, hay que irse enseguida.", r: "a", e: "Irse en el pico alivia pero refuerza la evitación. La ansiedad sube, llega a un máximo y baja; quedarse un rato más ayuda a aprenderlo, siempre dentro de lo tolerable." }
+  ]);
 })();

@@ -1,0 +1,149 @@
+<!--{
+  "ruta": "/laboratorio-de-decisiones/",
+  "titulo": "Laboratorio de decisiones: elegir con valores y sin parálisis",
+  "descripcion": "Herramientas para decidir mejor: qué tipo de decisión es, maximizar o satisfacer, tus valores como criterio, pros y contras, y el miedo a equivocarte.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Decisiones",
+      "/laboratorio-de-decisiones/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Herramientas",
+  "h1": "Laboratorio de <em>decisiones</em>",
+  "bajada": "Decidir cansa, sobre todo cuando importa. Acá podés ordenar una decisión concreta: ver de qué tipo es, qué criterio vas a usar, qué miedo se mete en el medio y cuándo vas a revisarla.",
+  "respuesta": "Este laboratorio ofrece herramientas para ordenar una decisión concreta: distinguir si es reversible o no, pensar si buscás la mejor opción o una suficientemente buena (Schwartz y colaboradores, 2002), usar tus valores como criterio, pesar pros y contras, mirar el miedo a equivocarte y fijar cuándo revisar. Es un ejercicio de reflexión y no reemplaza una consulta.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de decisiones",
+  "articulos": [
+    "tomar-decisiones",
+    "autoexigencia-y-perfeccionismo",
+    "estrategias-de-afrontamiento"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Hay decisiones que se toman en un minuto y otras que se rumian durante meses. Muchas veces el problema no es la falta de información sino la expectativa de elegir sin riesgo, o la sensación de que una sola opción es la correcta y hay que dar con ella.</p><p>Este laboratorio no decide por vos. Te propone preguntas para que pienses una decisión real con más orden: qué tipo de decisión es, qué te importa de verdad, qué miedo aparece y cómo vas a revisar lo que elijas.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Una decisión.</strong> Conviene trabajar con una sola decisión concreta a la vez.</li><li><strong>Sin respuesta correcta.</strong> Las preguntas ordenan, no deciden por vos.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tipo">Qué tipo es</a><a href="#maximizar">Maximizar o satisfacer</a><a href="#valores">Tus valores</a><a href="#pros">Pros y contras</a><a href="#miedo">El miedo a equivocarte</a><a href="#revisar">Decidir y revisar</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="tipo" aria-labelledby="t-tipo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tipo">Qué tipo de decisión es</h2>
+      <p class="lab-estacion__bajada">No todas las decisiones merecen el mismo esfuerzo. Una decisión reversible, que podés corregir sin mucho costo, admite menos análisis que una difícil de deshacer. Elegí cómo es la tuya.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Tipo de decisión"><label class="opcion"><input type="radio" name="dec-tipo" value="rev" checked><span>Reversible</span></label><label class="opcion"><input type="radio" name="dec-tipo" value="irrev"><span>Difícil de revertir</span></label><label class="opcion"><input type="radio" name="dec-tipo" value="urg"><span>Urgente</span></label><label class="opcion"><input type="radio" name="dec-tipo" value="noturg"><span>Sin apuro</span></label></div>
+        <div class="lab-panel" data-lab-panel="rev"><p>Si te equivocás, podés volver atrás o corregir con poco costo. Conviene decidir con la información que ya tenés, probar y ajustar. Buscar más datos suele costar más que lo que aporta.</p></div><div class="lab-panel" data-lab-panel="irrev" hidden><p>Volver atrás sería muy costoso o imposible. Vale la pena darle tiempo, consultar a personas de confianza y pensar escenarios. Aun así, no hace falta información total: alcanza con la suficiente.</p></div><div class="lab-panel" data-lab-panel="urg" hidden><p>Hay un plazo real. Definí cuánto tiempo tenés, reuní lo esencial y decidí dentro del plazo. Una decisión imperfecta a tiempo suele ser mejor que una perfecta fuera de tiempo.</p></div><div class="lab-panel" data-lab-panel="noturg" hidden><p>Si no hay plazo, a veces la urgencia es solo interna: la incomodidad de no saber. Ponerte una fecha te ayuda a no postergarla indefinidamente.</p></div>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dec-tipo-form" data-lab-form-titulo="Mi decisión" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-cual">La decisión que tengo que tomar</label><input class="lab-campo" id="dec-cual" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-tipo-txt">Es reversible o no, y tiene o no plazo</label><input class="lab-campo" id="dec-tipo-txt" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="maximizar" aria-labelledby="t-maximizar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-maximizar">Maximizar o satisfacer</h2>
+      <p class="lab-estacion__bajada">Schwartz y colaboradores (2002) distinguieron a quienes buscan la mejor opción posible (maximizadores) de quienes eligen una opción suficientemente buena (satisfactores). Los maximizadores informaron más arrepentimiento y menos satisfacción. Pensá cuál es tu estilo en esta decisión.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dec-max" data-lab-form-titulo="Mi estilo al elegir" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-suficiente">¿Qué tendría que tener una opción para ser «suficientemente buena»?</label><textarea class="lab-texto" id="dec-suficiente" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-buscar">¿Qué estoy buscando todavía que quizá no cambie la decisión?</label><textarea class="lab-texto" id="dec-buscar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="valores" aria-labelledby="t-valores">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-valores">Tus valores como criterio</h2>
+      <p class="lab-estacion__bajada">Cuando no sabés cuál elegir, un criterio claro ordena más que una lista larga. En ACT (terapia de aceptación y compromiso), los valores son direcciones que importan, no metas que se tachan. Preguntate qué opción te acerca más a lo que querés que sea importante en tu vida.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dec-valores" data-lab-form-titulo="Mis criterios" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-val1">Tres cosas que me importan en esta decisión</label><textarea class="lab-texto" id="dec-val1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-val2">¿Qué opción se acerca más a ellas?</label><input class="lab-campo" id="dec-val2" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+      <p class="lab-paso__ayuda">Si querés trabajar tus valores con más detalle, podés pasar por el <a href="/laboratorio-de-valores/">laboratorio de valores</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="pros" aria-labelledby="t-pros">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-pros">Pros, contras y lo que no se pesa</h2>
+      <p class="lab-estacion__bajada">La lista de pros y contras ordena, pero no todo cuenta igual ni todo se puede poner en una columna. Algunas cosas pesan mucho más que otras, y hay factores que no se miden bien, como una intuición o lo que sentís al imaginarte en cada camino. Si el problema es más amplio, el <a href="/laboratorio-de-resolucion-de-problemas/">laboratorio de resolución de problemas</a> propone otra forma de ordenarlo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dec-pros" data-lab-form-titulo="Pros y contras" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-opcion">La opción que estoy evaluando</label><input class="lab-campo" id="dec-opcion" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-pro">A favor (marcá con asterisco lo que más pesa)</label><textarea class="lab-texto" id="dec-pro" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-contra">En contra (marcá con asterisco lo que más pesa)</label><textarea class="lab-texto" id="dec-contra" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-nopesa">Lo que no se puede pesar bien: intuición, cómo me imagino en cada camino</label><textarea class="lab-texto" id="dec-nopesa" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="miedo" aria-labelledby="t-miedo">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-miedo">El miedo a equivocarte</h2>
+      <p class="lab-estacion__bajada">Muchas veces lo que traba una decisión es el miedo a equivocarse. Ninguna elección viene sin renuncia: elegir una cosa es dejar otras. Escribir el peor escenario, y qué harías si ocurriera, suele reducirlo a un tamaño más manejable. Si el perfeccionismo está en juego, el <a href="/recursos/autoexigencia-y-perfeccionismo/">artículo sobre autoexigencia</a> puede ayudar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dec-miedo" data-lab-form-titulo="Mi miedo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-peor">Lo peor que podría pasar si me equivoco</label><textarea class="lab-texto" id="dec-peor" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-haria">Qué haría en ese caso, y a quién podría pedir ayuda</label><textarea class="lab-texto" id="dec-haria" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-amigo">Qué le diría a un amigo en mi lugar</label><textarea class="lab-texto" id="dec-amigo" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="revisar" aria-labelledby="t-revisar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-revisar">Decidir y revisar</h2>
+      <p class="lab-estacion__bajada">Una decisión no termina al tomarla. Ponerle un plazo para revisarla, y definir de antemano qué te haría cambiar de idea, te permite avanzar sin quedar atrapado en la duda y sin aferrarte por orgullo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dec-revisar" data-lab-form-titulo="Mi plan de revisión" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-decidi">Lo que decido, por ahora</label><input class="lab-campo" id="dec-decidi" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-cuando">Cuándo la voy a revisar</label><input class="lab-campo" id="dec-cuando" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dec-cambiar">Qué tendría que pasar para que la reconsidere</label><textarea class="lab-texto" id="dec-cambiar" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Sobre decidir circulan ideas muy seguras. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="decisiones-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es un ejercicio de reflexión y no reemplaza una consulta. Si la indecisión te paraliza, te genera mucha angustia o se suma a una tristeza o ansiedad que no afloja, conviene hablarlo con un profesional. Si hay riesgo, llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Schwartz, B., Ward, A., Monterosso, J., Lyubomirsky, S., White, K. y Lehman, D. R. (2002), «Maximizing versus satisficing: happiness is a matter of choice», <em>Journal of Personality and Social Psychology</em>, 83(5), 1178–1197.</li><li>Scheibehenne, B., Greifeneder, R. y Todd, P. M. (2010), «Can there ever be too many options? A meta-analytic review of choice overload», <em>Journal of Consumer Research</em>.</li><li>Kahneman, D. (2011), <em>Thinking, Fast and Slow</em> (<em>Pensar rápido, pensar despacio</em>).</li><li><a href="/recursos/tomar-decisiones/">Tomar decisiones</a>, <a href="/recursos/autoexigencia-y-perfeccionismo/">autoexigencia y perfeccionismo</a> y <a href="/recursos/estrategias-de-afrontamiento/">estrategias de afrontamiento</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

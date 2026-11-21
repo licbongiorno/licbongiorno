@@ -21,7 +21,9 @@
         "/laboratorio-de-alcohol-y-consumos/",
         "/laboratorio-de-ataques-de-panico/",
         "/laboratorio-de-insomnio/",
-        "/laboratorio-de-resolucion-de-problemas/"
+        "/laboratorio-de-resolucion-de-problemas/",
+        "/laboratorio-de-pantallas/",
+        "/laboratorio-de-miedos-y-fobias/"
       ]
     },
     {
@@ -141,7 +143,8 @@
         "/laboratorio-psicologia-positiva-fortalezas/",
         "/laboratorio-de-fortalezas-y-virtudes/",
         "/laboratorio-mi-mejor-version/",
-        "/laboratorio-psicologia-positiva-vinculos-y-sentido/"
+        "/laboratorio-psicologia-positiva-vinculos-y-sentido/",
+        "/laboratorio-de-ikigai/"
       ]
     },
     {
@@ -209,7 +212,8 @@
         "/laboratorio-del-psicodiagnostico/",
         "/laboratorio-de-wundt/",
         "/laboratorio-de-inteligencias-multiples/",
-        "/laboratorio-de-psicoterapia-integrativa/"
+        "/laboratorio-de-psicoterapia-integrativa/",
+        "/laboratorio-de-decisiones/"
       ]
     }
   ],
@@ -591,6 +595,125 @@
           "Construir hábitos nuevos que ocupen ese lugar."
         ]
       ]
+    },
+    {
+      "clave": "cuerpo",
+      "titulo": "El cuerpo y las emociones",
+      "intro": "Empezar por notar el cuerpo, conocer las escuelas que trabajan con él y practicar formas de escucharlo y de moverse con más atención.",
+      "pasos": [
+        [
+          "/laboratorio-de-psicologia-corporal/",
+          "Apoyarte en el suelo, notar dónde guardás la tensión y escuchar una sensación, con Reich, Lowen y Gendlin."
+        ],
+        [
+          "/laboratorio-de-terapias-corporales/",
+          "Recorrer las escuelas corporales con ejercicios breves y separar lo que tiene respaldo de lo que es hipótesis."
+        ],
+        [
+          "/laboratorio-de-focusing/",
+          "Practicar los seis pasos del focusing para escuchar lo que todavía no tiene palabras."
+        ],
+        [
+          "/laboratorio-de-tono-postura-y-movimiento/",
+          "Trabajar el apoyo, el tono y la pausa antes de moverte, con eutonía y técnica Alexander."
+        ]
+      ]
+    },
+    {
+      "clave": "afrontar",
+      "titulo": "Afrontar lo difícil",
+      "intro": "Elegir la herramienta según lo que depende de vos, resolver lo que se puede, tolerar lo que no y tener un plan para los momentos de crisis.",
+      "pasos": [
+        [
+          "/laboratorio-de-afrontamiento/",
+          "Diagnosticar la situación y elegir la herramienta justa, sin caer en las trampas."
+        ],
+        [
+          "/laboratorio-de-resolucion-de-problemas/",
+          "Si se puede cambiar algo: un resolvedor guiado paso a paso."
+        ],
+        [
+          "/laboratorio-dbt-tolerancia-al-malestar/",
+          "Si no se puede cambiar ahora: habilidades para atravesar el malestar sin empeorarlo."
+        ],
+        [
+          "/laboratorio-plan-de-seguridad/",
+          "Para los momentos más difíciles: un plan escrito con señales, recursos y a quién llamar."
+        ]
+      ]
+    },
+    {
+      "clave": "mejorversion",
+      "titulo": "Tu mejor versión, sin perfeccionismo",
+      "intro": "Reconocer lo que ya funciona en vos, imaginar una dirección más fiel a lo que te importa y cuidarte en el camino.",
+      "pasos": [
+        [
+          "/laboratorio-de-fortalezas-y-virtudes/",
+          "Reconocer tus fortalezas y cómo usarlas, sin convertirlas en exigencia."
+        ],
+        [
+          "/laboratorio-mi-mejor-version/",
+          "Escribir tu mejor yo posible y distinguir una dirección de una vara más alta."
+        ],
+        [
+          "/laboratorio-de-valores/",
+          "Elegir los valores que orientan, que nunca se terminan de cumplir."
+        ],
+        [
+          "/laboratorio-de-autocompasion/",
+          "Tratarte con amabilidad cuando tropezás."
+        ],
+        [
+          "/laboratorio-de-ikigai/",
+          "Encontrar lo que hace que tu vida valga la pena en lo cotidiano."
+        ]
+      ]
+    },
+    {
+      "clave": "sentido",
+      "titulo": "Sentido y espiritualidad",
+      "intro": "Preguntarte por el sentido, explorar tu relación con lo espiritual con o sin religión y cuidarte frente a las prácticas intensas.",
+      "pasos": [
+        [
+          "/laboratorio-de-sentido/",
+          "Buscar el sentido con Viktor Frankl: lo que das, lo que recibís y la actitud ante lo inevitable."
+        ],
+        [
+          "/laboratorio-de-espiritualidad-y-psique/",
+          "Explorar lo numinoso, el afrontamiento espiritual, el bypass y las crisis espirituales."
+        ],
+        [
+          "/laboratorio-de-psicologia-transpersonal/",
+          "Trabajar con las partes de vos y la desidentificación, con Assagioli."
+        ],
+        [
+          "/laboratorio-de-ikigai/",
+          "Bajar el sentido a lo cotidiano: lo que te da vida hoy."
+        ]
+      ]
+    },
+    {
+      "clave": "separarse",
+      "titulo": "Atravesar una separación",
+      "intro": "Ordenar lo práctico, cuidar el duelo y las emociones, y protegerte si el conflicto es alto.",
+      "pasos": [
+        [
+          "/laboratorio-separarse-sin-perderse/",
+          "Atravesar la separación sin perderte: lo que sentís, lo que decidís y los hijos."
+        ],
+        [
+          "/laboratorio-conflicto-alto-y-seguridad/",
+          "Si el conflicto es alto: comunicación breve, límites y seguridad."
+        ],
+        [
+          "/laboratorio-de-duelo/",
+          "Elaborar la pérdida de lo que fue y de lo que esperabas."
+        ],
+        [
+          "/laboratorio-de-autocompasion/",
+          "Cuidarte en el proceso, sin culpa ni castigo."
+        ]
+      ]
     }
   ],
   "guia_a_recorrido": {
@@ -604,6 +727,17 @@
     "autoestima": "autocritica",
     "crisis": "cambio",
     "conocerme": "conocerme",
-    "emociones": "emociones"
+    "emociones": "emociones",
+    "cuerpo": "cuerpo",
+    "trauma": "trauma",
+    "separacion": "separarse",
+    "violencia": "limites",
+    "perfeccionismo": "mejorversion",
+    "proposito": "mejorversion",
+    "afrontar": "afrontar",
+    "sentido": "sentido",
+    "consumos": "alcohol",
+    "enojo": "emociones",
+    "decidir": "afrontar"
   }
 }
