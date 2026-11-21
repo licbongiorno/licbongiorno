@@ -23,7 +23,8 @@
         "/laboratorio-de-insomnio/",
         "/laboratorio-de-resolucion-de-problemas/",
         "/laboratorio-de-pantallas/",
-        "/laboratorio-de-miedos-y-fobias/"
+        "/laboratorio-de-miedos-y-fobias/",
+        "/laboratorio-de-apuestas-y-juego/"
       ]
     },
     {
@@ -213,7 +214,8 @@
         "/laboratorio-de-wundt/",
         "/laboratorio-de-inteligencias-multiples/",
         "/laboratorio-de-psicoterapia-integrativa/",
-        "/laboratorio-de-decisiones/"
+        "/laboratorio-de-decisiones/",
+        "/laboratorio-para-quien-cuida/"
       ]
     }
   ],
@@ -738,6 +740,9 @@
     "sentido": "sentido",
     "consumos": "alcohol",
     "enojo": "emociones",
-    "decidir": "afrontar"
+    "decidir": "afrontar",
+    "apuestas": "alcohol",
+    "hijos": "separarse",
+    "cuidar": "estres"
   }
 }

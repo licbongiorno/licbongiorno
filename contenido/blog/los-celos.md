@@ -71,6 +71,8 @@ Entendiendo qué despiertan los celos en tu historia, aprendiendo a nombrarlos s
 
 Para practicarlo, probá el [Laboratorio de pareja](/laboratorio-de-pareja/).
 
+Sobre la intimidad, el deseo y las dificultades sexuales en la pareja, leé [sexualidad](/recursos/sexualidad/).
+
 ## Para seguir leyendo
 
 - Freud, S. (1922). «Sobre algunos mecanismos neuróticos en los celos, la paranoia y la homosexualidad».

@@ -68,4 +68,6 @@ Para practicarlo, probá el [Laboratorio del desarrollo y el apego](/laboratorio
 - Erikson, E. H. (1968). *Identidad, juventud y crisis*.
 - Erikson, E. H. (1982). *El ciclo vital completado*.
 
+La última etapa que describió Erikson, integridad frente a desesperación, se desarrolla en [vejez y jubilación](/recursos/vejez-y-jubilacion/).
+
 Seguí la serie con [Wilhelm Wundt](/recursos/wilhelm-wundt/), que abre la tanda siguiente con los comienzos de la psicología, o volvé a [Mary Ainsworth](/recursos/mary-ainsworth/). También podés ver a todos los autores en el [mapa de la psicología](/recursos/mapa-de-la-psicologia/).

@@ -67,6 +67,8 @@ Escuchando cómo te hablás, definiendo metas alcanzables, permitiéndote errore
 
 Sí. El perfeccionismo, sobre todo cuando sentimos que los demás nos exigen ser perfectos, está muy ligado a la ansiedad, la depresión y el agotamiento.
 
+Cuando la exigencia se centra en la comida o en el cuerpo, puede tratarse de algo más serio: leé [trastornos de la conducta alimentaria](/recursos/trastornos-de-la-conducta-alimentaria/). Y si querés pensar una versión mejor sin perfeccionismo, está [tu mejor versión posible](/recursos/mejor-version-posible/).
+
 ## Para seguir leyendo
 
 - Horney, K. (1950). *Neurosis y madurez*.
