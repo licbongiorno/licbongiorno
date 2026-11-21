@@ -33,6 +33,12 @@ Imaginá a un bebé que pierde, de golpe, a la persona con la que venía vincul�
 
 La importancia de esta idea está en lo que desmiente. Durante mucho tiempo se pensó que cuidar a un bebé era, sobre todo, ocuparse de su cuerpo. El estudio de Spitz mostró que eso no alcanza. Por eso se lo recuerda cada vez que se discute cómo organizar la atención de niños pequeños en hospitales o instituciones.
 
+## Qué cambió en la manera de cuidar
+
+La enseñanza práctica de este trabajo se puede resumir en una frase: cuidar a un bebé no es solo alimentarlo. Cuando un niño pequeño está en una institución o en un hospital, importa quién lo atiende, si esa persona es siempre la misma y si hay tiempo para el contacto. Aun sin entrar en detalles técnicos, la idea de que un bebé necesita a alguien que lo mire, le hable y lo sostenga forma hoy parte del sentido común de la pediatría y de la psicología del desarrollo.
+
+Esa conciencia se la debemos, en parte, a observaciones como las de Spitz. Por eso se lo ubica en la historia del psicoanálisis con bebés, un campo en el que también trabajaron [Donald Winnicott](/recursos/donald-winnicott/) y [Margaret Mahler](/recursos/margaret-mahler/).
+
 ## Por qué sigue importando
 
 Lo que quedó en pie es la idea de que la privación emocional tiene efectos reales sobre el desarrollo, y de que un bebé necesita un vínculo estable y presente. Su trabajo influyó en el estudio del apego, que desarrollaron después [John Bowlby](/recursos/john-bowlby/) y [Mary Ainsworth](/recursos/mary-ainsworth/). Si querés ubicar el tema en general, podés leer sobre [el apego](/recursos/el-apego/).
@@ -55,7 +61,7 @@ Su trabajo influyó en el estudio del apego, que después se desarrolló como ca
 
 ## Para seguir leyendo
 
-- Spitz, R. (1945). Hospitalism. Trabajo sobre bebés institucionalizados.
+- Spitz, R. (1945). Trabajo sobre el hospitalismo.
 - Spitz, R. (1946). Continuación del trabajo sobre el hospitalismo.
 - Spitz, R. *El primer año de vida del niño*.
 

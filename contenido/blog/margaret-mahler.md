@@ -1,6 +1,6 @@
 ---
 titulo: Margaret Mahler: el nacimiento psicológico y la separación-individuación
-titulo_seo: Margaret Mahler: separación-individuación y nacimiento psicológico
+titulo_seo: Margaret Mahler: separación-individuación y desarrollo
 descripcion: Quién fue Margaret Mahler y qué es la separación-individuación: el nacimiento psicológico del infante, la fusión simbiótica con la madre y sus límites.
 resumen: Una psicoanalista que observó a niños pequeños con sus madres y propuso que nacer biológicamente y nacer como persona son dos procesos distintos.
 categoria: Historia de la psicología
