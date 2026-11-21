@@ -13,7 +13,7 @@ respuesta: W. Ronald D. Fairbairn (1889-1964) fue un psicoanalista escocés, una
 menciona:
 revision: 2026-11-21
 ---
-Si te dijeran que lo que mueve a las personas no es buscar placer sino buscar a otra persona, ¿te sonaría raro? Para Fairbairn era el punto de partida. Con esa idea, un psicoanalista escocés bastante alejado de los centros de poder de su disciplina movió el eje de la teoría hacia el vínculo.
+Si te dijeran que lo que mueve a las personas no es buscar placer sino buscar a otra persona, ¿te sonaría raro? Para Fairbairn era el punto de partida. Con esa idea, un psicoanalista escocés movió el eje de la teoría hacia el vínculo.
 
 ## Quién fue
 
@@ -61,7 +61,7 @@ Es una división, en la vida psíquica, de partes del yo y de los objetos. Fairb
 
 ## Para seguir leyendo
 
-- Fairbairn, W. R. D. (1952). *Psychoanalytic Studies of the Personality*. Londres: Tavistock.
-- Fairbairn, W. R. D. (1954). *An Object-Relations Theory of the Personality*. Nueva York: Basic Books.
+- Fairbairn, W. R. D. (1952). *Psychoanalytic Studies of the Personality*.
+- Fairbairn, W. R. D. (1954). *An Object-Relations Theory of the Personality*.
 
 Seguí la serie con [Margaret Mahler](/recursos/margaret-mahler/), o volvé a [Sigmund Freud](/recursos/sigmund-freud/).
