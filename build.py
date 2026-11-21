@@ -287,7 +287,7 @@ def _mapa_relaciones_html(slug):
 
 
 def mapa_autores_svg():
-    ancho, x0, anio0, escala = 1760, 570, 1826, 9.5
+    ancho, x0, anio0, escala = 1960, 570, 1826, 9.5
     fila_alto, fila_ancho_letra = 26, 7.6
     antes = sorted([a for a in MAPA["autores"] if a["x"] < anio0], key=lambda a: a["x"])
     pos_antes = {a["slug"]: 40 + i * (470 / max(1, len(antes) - 1)) for i, a in enumerate(antes)}
@@ -325,7 +325,7 @@ def mapa_autores_svg():
     if antes:
         p.append(f'<text x="{(40 + 510) / 2:.0f}" y="28" text-anchor="middle" class="mapa-anio">antes de 1830</text>'
                  f'<line x1="545" y1="36" x2="545" y2="{alto_total - 10}" class="mapa-guia mapa-guia--corte"/>')
-    for d in range(1830, 1960, 10):
+    for d in range(1830, 1980, 10):
         p.append(f'<text x="{px(d):.0f}" y="28" text-anchor="middle" class="mapa-anio">{d}</text>'
                  f'<line x1="{px(d):.0f}" y1="36" x2="{px(d):.0f}" y2="{alto_total - 10}" class="mapa-guia"/>')
     # Trayectorias (de una escuela a otra)

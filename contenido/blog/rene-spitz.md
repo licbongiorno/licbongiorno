@@ -21,6 +21,8 @@ René Spitz nació en Viena el 29 de enero de 1887 y murió en Denver el 14 de s
 
 En 1945 publicó su trabajo sobre el «hospitalismo» y en 1946 una continuación. También es autor de *El primer año de vida del niño*, un libro que reúne su mirada sobre el desarrollo en ese período.
 
+{{figura:vida-spitz}}
+
 ## Sus ideas centrales
 
 - **El hospitalismo.** Con ese nombre Spitz describió el caso de bebés institucionalizados que no prosperaban pese a tener cuidados físicos. Lo llamativo era justamente eso: la alimentación y la higiene estaban cubiertas, y sin embargo algo esencial faltaba.

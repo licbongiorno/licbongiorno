@@ -21,6 +21,8 @@ Margaret Mahler nació en 1897 en Hungría y murió en 1985. Fue psicoanalista y
 
 Su libro más conocido lo escribió en colaboración. Mahler, M. S., Pine, F. y Bergman, A. (1975), *The Psychological Birth of the Human Infant*, que en español circula como *El nacimiento psicológico del infante humano*. El título resume la tesis: hay un nacimiento biológico y hay un nacimiento psicológico, y no ocurren al mismo tiempo.
 
+{{figura:vida-mahler}}
+
 ## Sus ideas centrales
 
 - **Dos nacimientos.** El nacimiento biológico es un acontecimiento puntual. El psicológico, en cambio, es un proceso que lleva tiempo: el niño va dejando de vivirse como parte de otra persona para constituirse como un individuo con rasgos propios.

@@ -21,6 +21,8 @@ Otto F. Kernberg nació en Viena el 10 de septiembre de 1928. Fue hijo único de
 
 Su recorrido, entonces, atraviesa tres lugares: Viena, Chile y Estados Unidos. Esa biografía de exilio y de reinicio no explica sus ideas, pero ayuda a ubicar a un autor formado lejos de donde nació y que escribió para un público internacional.
 
+{{figura:vida-kernberg}}
+
 ## Sus ideas centrales
 
 - **La organización límite de la personalidad.** Kernberg es conocido por sus teorías sobre la organización límite. Habla de «organización» y no solo de síntomas: se refiere a una estructura de funcionamiento de la personalidad, más amplia que un conjunto de conductas.

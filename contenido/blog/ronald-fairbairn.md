@@ -23,6 +23,8 @@ Su obra principal reúne trabajos escritos a lo largo de varios años y se publi
 
 Conviene aclarar una palabra. En psicoanálisis, «objeto» no es una cosa: es aquello hacia lo que se dirige el deseo, y en la práctica casi siempre es una persona, o la representación interna de una persona. Cuando Fairbairn habla de relaciones de objeto, habla de vínculos.
 
+{{figura:vida-fairbairn}}
+
 ## Sus ideas centrales
 
 - **La libido busca objetos.** Para Freud, la libido era una energía que buscaba descarga y placer, y los otros importaban en la medida en que servían a esa descarga. Fairbairn invirtió la fórmula: la libido busca objetos, o sea vínculos. El placer es una señal de que la relación funciona, no la meta final.
