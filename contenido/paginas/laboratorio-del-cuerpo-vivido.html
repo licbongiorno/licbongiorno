@@ -21,10 +21,7 @@
   "h1": "Laboratorio del <em>cuerpo vivido</em>",
   "bajada": "Para Merleau-Ponty el cuerpo no es algo que tenemos, sino el modo en que estamos en el mundo. Para Spinoza, cada afecto aumenta o disminuye lo que podemos hacer. Cuatro prácticas para sentirlo en vez de solo pensarlo.",
   "respuesta": "El laboratorio del cuerpo vivido propone cuatro prácticas inspiradas en Maurice Merleau-Ponty y Baruch Spinoza: sentir cómo el cuerpo toca y es tocado, ubicar la mano sin mirarla, nombrar un afecto y ver qué hace en la capacidad de actuar, y entrenar una pausa entre el estímulo y la respuesta automática.",
-  "scripts": [
-    "lab-base.js",
-    "escenas.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio del cuerpo vivido",
   "articulos": [
     "maurice-merleau-ponty",
@@ -46,7 +43,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tocar">Tocar y ser tocado</a><a href="#esquema">Dónde está mi mano</a><a href="#afectos">Nombrar un afecto</a><a href="#pausa">La pausa antes del reflejo</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tocar">Tocar y ser tocado</a><a href="#esquema">Dónde está mi mano</a><a href="#afectos">Nombrar un afecto</a><a href="#pausa">La pausa antes del reflejo</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="tocar" aria-labelledby="t-tocar">
       <p class="lab-estacion__num">01</p>
@@ -141,6 +138,19 @@
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Seis ideas frecuentes sobre este tema: decidí si son un mito o una verdad.</p>
+      <div class="lab-tarjeta" data-lab-quiz="cuerpo-vivido-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
     </section>
 
     <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">

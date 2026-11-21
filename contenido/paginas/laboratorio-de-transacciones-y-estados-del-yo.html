@@ -21,10 +21,7 @@
   "h1": "Laboratorio de <em>transacciones y estados del yo</em>",
   "bajada": "Berne describió tres estados del yo que aparecen en cada conversación: el padre, el adulto y el niño. Laura Perls, cofundadora de la Gestalt, habló de vivir en la frontera entre uno y el otro. Cuatro prácticas para mirar tus conversaciones.",
   "respuesta": "El laboratorio de transacciones y estados del yo propone cuatro ejercicios inspirados en Eric Berne y Laura Perls: identificar desde qué estado del yo hablamos, distinguir transacciones paralelas y cruzadas, reconocer un juego que se repite en un vínculo y practicar el contacto en la frontera entre yo y el otro.",
-  "scripts": [
-    "lab-base.js",
-    "escenas.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de transacciones y estados del yo",
   "articulos": [
     "eric-berne",
@@ -45,7 +42,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#estados">Padre, adulto y niño</a><a href="#transacciones">Paralelas o cruzadas</a><a href="#juego">Un juego que se repite</a><a href="#frontera">Contacto en la frontera</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#estados">Padre, adulto y niño</a><a href="#transacciones">Paralelas o cruzadas</a><a href="#juego">Un juego que se repite</a><a href="#frontera">Contacto en la frontera</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="estados" aria-labelledby="t-estados">
       <p class="lab-estacion__num">01</p>
@@ -146,6 +143,19 @@
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Seis ideas frecuentes sobre este tema: decidí si son un mito o una verdad.</p>
+      <div class="lab-tarjeta" data-lab-quiz="transacciones-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
     </section>
 
     <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">

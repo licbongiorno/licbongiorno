@@ -8,9 +8,9 @@
   "h1": "ACT: <em>comprometerse</em>",
   "bajada": "Saber qué te importa y moverte en esa dirección, aunque el miedo venga a bordo. Ejercicios de valores y acción comprometida, el tercer pilar de la flexibilidad.",
   "respuesta": "El nivel avanzado del laboratorio ACT trabaja el pilar «comprometido» de la terapia de aceptación y compromiso: los valores como direcciones elegidas en distintas áreas de la vida, la metáfora de los pasajeros del colectivo y la acción comprometida, con el paso de FEAR (fusión, metas excesivas, evitación, lejanía de los valores) a DARE (defusión, aceptación, metas realistas, abrazar los valores) que propone Russ Harris. Incluye un plan de 7 días. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-act-niveles.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-act-niveles.js", "escenas.js"],
   "wa_tema": "el nivel avanzado del laboratorio ACT",
-  "articulos": ["la-resiliencia"]
+  "articulos": ["steven-hayes", "la-resiliencia"]
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
@@ -32,7 +32,7 @@
       <a href="#fear">De FEAR a DARE</a>
       <a href="#accion">Mi acción comprometida</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="areas" aria-labelledby="t-areas">
       <p class="lab-estacion__num">01</p>
@@ -123,6 +123,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre valores y acción comprometida: ¿mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="act-comprometido-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Comprometerse con los valores no significa exigirse más. Si ya vivís agotado de tanto «tener que», quizás el valor que hoy pide lugar es el cuidado de vos mismo. Y si sentís que nada te importa, eso puede ser una señal de depresión más que de falta de valores: conviene consultarlo. Podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-act/">laboratorio ACT</a>.</p>
     </aside>

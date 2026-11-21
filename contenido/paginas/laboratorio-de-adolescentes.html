@@ -22,7 +22,7 @@
   "bajada": "Una parte para quien tiene entre trece y dieciocho años, y otra para quien lo acompaña. Ejercicios cortos para entender lo que pasa y para hablarlo sin que sea una pelea.",
   "respuesta": "El laboratorio de adolescentes tiene dos partes. Para adolescentes: cuatro ejercicios sobre los tres duelos de la adolescencia descritos por Arminda Aberastury y Mauricio Knobel, quién soy hoy, cómo me siento después de usar pantallas y cómo pedir ayuda. Para adultos: cuatro ejercicios para escuchar antes de corregir, poner límites claros, tener una conversación difícil y registrar lo que una misma siente.",
   "scripts": [
-    "lab-base.js",
+    "lab-base.js", "laboratorio-ampliados.js",
     "escenas.js"
   ],
   "wa_tema": "el laboratorio de adolescentes",
@@ -42,7 +42,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#duelos">Los tres duelos</a><a href="#quien">Quién soy hoy</a><a href="#pantallas">Pantallas y ánimo</a><a href="#pedir">Pedir ayuda</a><a href="#escuchar">Escuchar antes de corregir</a><a href="#limites">Límites claros</a><a href="#conversacion">Una conversación difícil</a><a href="#yo-adulto">Lo que me pasa a mí</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#duelos">Los tres duelos</a><a href="#quien">Quién soy hoy</a><a href="#pantallas">Pantallas y ánimo</a><a href="#pedir">Pedir ayuda</a><a href="#escuchar">Escuchar antes de corregir</a><a href="#limites">Límites claros</a><a href="#conversacion">Una conversación difícil</a><a href="#yo-adulto">Lo que me pasa a mí</a><a href="#mitos">Mitos y verdades</a></nav>
 
 <h2 class="lab-grupo" id="para-adolescentes">Para adolescentes</h2>
     <section class="lab-estacion revelar" id="duelos" aria-labelledby="t-duelos">
@@ -198,6 +198,19 @@
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre la adolescencia: ¿mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="adolescentes-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
     </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Si alguien habla de no querer vivir, de lastimarse o de un riesgo inmediato, no esperes: llamá al 911, al Centro de Asistencia al Suicida, 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Si hay violencia en casa, llamá al 144. Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>

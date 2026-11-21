@@ -21,9 +21,7 @@
   "h1": "Laboratorio de los <em>lenguajes del amor</em>",
   "bajada": "Hay cariño que no llega porque se dice en otro idioma. Cinco formas de expresarlo y una pregunta: ¿cuál hablo yo, y cuál necesita el otro?",
   "respuesta": "El laboratorio de los lenguajes del amor parte del marco de Gary Chapman: palabras de afirmación, tiempo de calidad, actos de servicio, contacto físico y regalos. Propone notar cómo recibís el cariño, cómo lo das, traducir lo que necesita el otro y mirar las diferencias.",
-  "scripts": [
-    "lab-base.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js"],
   "wa_tema": "el laboratorio de los lenguajes del amor",
   "articulos": [
     "erich-fromm",
@@ -45,7 +43,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#recibir">Recibir</a><a href="#dar">Dar</a><a href="#traducir">Traducir</a><a href="#diferencia">La diferencia</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#recibir">Recibir</a><a href="#dar">Dar</a><a href="#traducir">Traducir</a><a href="#diferencia">La diferencia</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="recibir" aria-labelledby="t-recibir">
       <p class="lab-estacion__num">01</p>
@@ -111,6 +109,19 @@
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas frecuentes sobre los lenguajes del amor, a la luz del marco de Chapman.</p>
+      <div class="lab-tarjeta" data-lab-quiz="lenguajes-amor-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
     </section>
 
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">

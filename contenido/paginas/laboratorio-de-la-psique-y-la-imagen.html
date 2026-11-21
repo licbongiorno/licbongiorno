@@ -21,10 +21,7 @@
   "h1": "Laboratorio de la <em>psique y la imagen</em>",
   "bajada": "Hillman propuso tomar las imágenes en serio, sin reducirlas a una explicación. Neumann describió el desarrollo de la conciencia. Hollis planteó las preguntas de la segunda mitad de la vida. Woodman, la perfección como una forma de no vivir.",
   "respuesta": "El laboratorio de la psique y la imagen propone cuatro ejercicios inspirados en James Hillman, Erich Neumann, James Hollis y Marion Woodman, dentro de la psicología analítica de Jung: describir una imagen que insiste sin explicarla, reconocer desde qué posición de conciencia vivís, hacerse las preguntas de la segunda mitad de la vida y mirar la perfección como una trampa.",
-  "scripts": [
-    "lab-base.js",
-    "escenas.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de la psique y la imagen",
   "articulos": [
     "james-hillman",
@@ -47,7 +44,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#imagen">Una imagen que insiste</a><a href="#conciencia">Desde dónde miro</a><a href="#mitad">Preguntas de la segunda mitad</a><a href="#perfeccion">La trampa de la perfección</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#imagen">Una imagen que insiste</a><a href="#conciencia">Desde dónde miro</a><a href="#mitad">Preguntas de la segunda mitad</a><a href="#perfeccion">La trampa de la perfección</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="imagen" aria-labelledby="t-imagen">
       <p class="lab-estacion__num">01</p>
@@ -144,6 +141,19 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas frecuentes sobre la imagen y la psique, a la luz de Hillman, Neumann, Hollis y Woodman.</p>
+      <div class="lab-tarjeta" data-lab-quiz="psique-imagen-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Trabajar con imágenes y con la sombra puede remover recuerdos o emociones fuertes. Si una imagen te angustia, dejala y volvé a la respiración. En la <a href="/terapia-junguiana/">terapia junguiana</a> este trabajo se acompaña con tiempo.</p>
     </aside>

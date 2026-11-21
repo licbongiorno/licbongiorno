@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>respiraciones</em>",
   "bajada": "La respiración es la única función del cuerpo que ocurre sola y que también podemos dirigir. Por eso es una puerta entre el cuerpo y la mente. Diez técnicas guiadas, con su sentido psicológico.",
   "respuesta": "El laboratorio de respiraciones guía diez técnicas: diafragmática, cuadrada, triangular, coherente, 4-7-8, suspiro fisiológico, alterna por fosas nasales, del abejorro, oceánica (ujjayi) y de fuego (kapalabhati). Cada una explica qué pasa en el cuerpo y en la mente, cuándo usarla y sus precauciones. Las exhalaciones largas tienden a calmar; las respiraciones rápidas, a activar.",
-  "scripts": ["lab-base.js", "laboratorio-respiraciones.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-respiraciones.js"],
   "wa_tema": "el laboratorio de respiraciones",
   "articulos": ["respiracion-y-emociones", "que-es-la-meditacion", "ansiedad-cuando-el-cuerpo-habla"]
 }-->
@@ -30,7 +30,7 @@
       <a href="#practicar">Las diez técnicas</a>
       <a href="#antes-despues">Antes y después</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="practicar" aria-labelledby="t-practicar">
       <p class="lab-estacion__num">01</p>
@@ -156,6 +156,19 @@
         </ol>
         <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
         <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Seis ideas frecuentes sobre este tema: decidí si son un mito o una verdad.</p>
+      <div class="lab-tarjeta" data-lab-quiz="respiraciones-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
       </div>
     </section>
 

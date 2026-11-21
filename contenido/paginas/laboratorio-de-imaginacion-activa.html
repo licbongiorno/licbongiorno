@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>imaginación activa</em>",
   "bajada": "Dejar que las imágenes de adentro hablen: un recorrido guiado, un diálogo con una figura interior y un mandala para dibujar, inspirados en la psicología analítica de Jung.",
   "respuesta": "El laboratorio de imaginación activa propone ejercicios inspirados en Carl Gustav Jung: los pasos de la imaginación activa (aquietarse, dejar que aparezca una imagen, dialogar con ella, tomar posición y darle forma), un diálogo escrito con una figura interior y un mandala para dibujar en pantalla, con simetría opcional. No reemplaza una terapia y no se recomienda en momentos de crisis.",
-  "scripts": ["lab-base.js", "lienzo.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "lienzo.js"],
   "wa_tema": "el laboratorio de imaginación activa",
   "articulos": ["imaginacion-activa", "los-simbolos-segun-jung", "el-proceso-de-individuacion"]
 }-->
@@ -34,7 +34,7 @@
       <a href="#mandala">Tu mandala</a>
       <a href="#mirar">Mirar la imagen</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="pasos" aria-labelledby="t-pasos">
       <p class="lab-estacion__num">01</p>
@@ -132,6 +132,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre la imaginación activa: ¿mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="imaginacion-activa-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> La imaginación activa puede traer imágenes intensas. Jung mismo advertía que no es un juego y que conviene hacerla con un yo firme y, muchas veces, acompañado. Si algo te desborda, pará, volvé al presente y, si lo necesitás, <a href="/contacto/">escribime</a>. En la <a href="/terapia-junguiana/">terapia junguiana</a> la trabajamos con tiempo y cuidado.</p>
     </aside>

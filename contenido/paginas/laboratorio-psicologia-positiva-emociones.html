@@ -8,7 +8,7 @@
   "h1": "Psicología positiva: <em>emociones positivas</em>",
   "bajada": "La alegría, la gratitud, la calma o el interés no son un lujo: amplían la mirada y construyen recursos para los momentos difíciles. Ejercicios para cultivarlas.",
   "respuesta": "El nivel básico del laboratorio de psicología positiva propone ejercicios sobre emociones positivas: la teoría de ampliar y construir de Barbara Fredrickson (2001), el ejercicio de tres cosas buenas y la carta de gratitud evaluados por Seligman, Steen, Park y Peterson (2005), y el saborear según Bryant y Veroff (2007). Incluye un plan de 7 días. No reemplaza el acompañamiento profesional.",
-  "scripts": ["lab-base.js", "laboratorio-psicologia-positiva.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-psicologia-positiva.js", "escenas.js"],
   "wa_tema": "el nivel básico de psicología positiva",
   "articulos": ["la-resiliencia"]
 }-->
@@ -32,7 +32,7 @@
       <a href="#pausa">Una pausa para saborear</a>
       <a href="#gratitud">La carta de gratitud</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="tres-cosas" aria-labelledby="t-tres-cosas">
       <p class="lab-estacion__num">01</p>
@@ -130,6 +130,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre las emociones positivas y los ejercicios de este nivel.</p>
+      <div class="lab-tarjeta" data-lab-quiz="psicologia-positiva-emociones-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Si hace semanas que no encontrás nada bueno en tus días, o si estos ejercicios te hacen sentir peor porque no te sale «sentir lo positivo», puede ser una señal de depresión, y no es tu culpa. Lo primero es hablarlo con un profesional: podés <a href="/contacto/">escribirme</a>, o mirar <a href="/ayuda-urgente/">ayuda urgente</a>. Este nivel es parte del <a href="/laboratorio-de-psicologia-positiva/">laboratorio de psicología positiva</a>; seguí con el <a href="/laboratorio-psicologia-positiva-fortalezas/">nivel 2: fortalezas y fluir</a>.</p>
     </aside>

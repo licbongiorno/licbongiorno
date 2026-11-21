@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>psicodrama</em>",
   "bajada": "En lugar de contar lo que te pasa, ponerlo en escena. Ejercicios inspirados en Moreno, adaptados para hacer a solas: el soliloquio, el doble, la inversión de roles y armar una escena.",
   "respuesta": "El laboratorio de psicodrama propone ejercicios inspirados en Jacob Levy Moreno, creador del psicodrama: los cinco instrumentos (protagonista, director, yo auxiliar, escenario y auditorio), las tres fases (caldeamiento, dramatización y compartir), la espontaneidad, y adaptaciones escritas de técnicas como el soliloquio, el doble, el espejo y la inversión de roles. El psicodrama se practica en grupo con un director formado; estos ejercicios son una introducción.",
-  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-enfoques-2.js", "escenas.js"],
   "wa_tema": "el laboratorio de psicodrama",
   "articulos": ["psicodrama", "la-empatia"]
 }-->
@@ -33,7 +33,7 @@
       <a href="#inversion">Invertir los roles</a>
       <a href="#doble">El doble</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="instrumentos" aria-labelledby="t-instrumentos">
       <p class="lab-estacion__num">01</p>
@@ -132,6 +132,19 @@
         </ol>
         <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
         <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Seis ideas frecuentes sobre este tema: decidí si son un mito o una verdad.</p>
+      <div class="lab-tarjeta" data-lab-quiz="psicodrama-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
       </div>
     </section>
 

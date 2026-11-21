@@ -53,6 +53,8 @@ Desde la clínica, la indecisión persistente suele estar acompañada de ansieda
 
 Si la indecisión te paraliza en la vida cotidiana durante mucho tiempo, o viene con angustia intensa, insomnio o pensamientos de que nada tiene salida, conviene consultar con un profesional. Si hay riesgo, ver [/ayuda-urgente/](/ayuda-urgente/), llamar al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+Sobre los dos modos de pensamiento y la teoría prospectiva, leé [Daniel Kahneman](/recursos/daniel-kahneman/).
+
 ## Para seguir
 
 - [Laboratorio de decisiones](/laboratorio-de-decisiones/)

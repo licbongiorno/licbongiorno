@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>mito personal</em>",
   "bajada": "Tu vida también tiene la forma de un relato: llamados, umbrales, pruebas y regresos. Mirarla así no la vuelve ficción: ayuda a encontrarle un sentido.",
   "respuesta": "El laboratorio de mito personal propone ejercicios para pensar la propia historia como un relato: recorrer las etapas del viaje del héroe descripto por Joseph Campbell (la partida, la iniciación y el regreso) aplicadas a una experiencia propia, armar una línea de vida dividida en capítulos con sus títulos, y elegir una figura de mito o cuento que acompañe el momento actual. Está inspirado en la mirada junguiana sobre los mitos y no reemplaza una terapia.",
-  "scripts": ["lab-base.js", "escenas.js", "visual-labs.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js", "visual-labs.js"],
   "wa_tema": "el laboratorio de mito personal",
   "articulos": ["mitos-y-cuentos-jung", "arquetipos-en-la-vida-cotidiana", "el-proceso-de-individuacion", "clarissa-pinkola-estes", "jean-shinoda-bolen", "marie-louise-von-franz"]
 }-->
@@ -33,7 +33,7 @@
       <a href="#linea">Tu línea de vida</a>
       <a href="#figura">La figura que te acompaña</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="viaje" aria-labelledby="t-viaje">
       <p class="lab-estacion__num">01</p>
@@ -148,6 +148,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre el mito, el viaje del héroe y tu propia historia.</p>
+      <div class="lab-tarjeta" data-lab-quiz="mito-personal-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Recorrer la propia historia puede traer recuerdos dolorosos. No hace falta ir a los capítulos más difíciles si hoy no es el momento. Y si algo te pesa, es un buen tema para trabajar en terapia: podés <a href="/contacto/">escribirme</a>.</p>
     </aside>

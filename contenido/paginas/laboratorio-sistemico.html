@@ -8,7 +8,7 @@
   "h1": "Laboratorio <em>sistémico</em>",
   "bajada": "No vivimos aislados: somos parte de una familia, una pareja, un grupo. Ejercicios inspirados en la terapia sistémica para mirar los lazos, los patrones y las herencias que nos atraviesan.",
   "respuesta": "El laboratorio sistémico propone ejercicios inspirados en la terapia sistémica y familiar: armar un genograma simplificado que se dibuja en pantalla, generar preguntas circulares, dibujar secuencias de interacción que se repiten, reflexionar sobre mandatos y lealtades familiares y reconocer los límites en la familia. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-sistemico.js", "escenas.js", "visual-labs.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-sistemico.js", "escenas.js", "visual-labs.js"],
   "wa_tema": "el laboratorio sistémico",
   "articulos": ["terapia-sistemica", "el-genograma", "patrones-que-se-repiten-en-los-vinculos", "gregory-bateson"]
 }-->
@@ -44,7 +44,7 @@
       <a href="#mandatos">Mandatos y lealtades</a>
       <a href="#limites">Límites en la familia</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="genograma" aria-labelledby="t-genograma">
       <p class="lab-estacion__num">01</p>
@@ -168,6 +168,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre la familia como sistema, los patrones y los límites.</p>
+      <div class="lab-tarjeta" data-lab-quiz="sistemico-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Mirar la historia familiar puede traer dolor, enojo o recuerdos difíciles: pérdidas, secretos, violencias. Si algo te desborda, frená. Si en tu familia hay violencia, la prioridad es tu seguridad: <a href="tel:144">144</a> y <a href="tel:911">911</a>. Para trabajar estos temas acompañado, podés <a href="/contacto/">escribirme</a>.</p>
     </aside>

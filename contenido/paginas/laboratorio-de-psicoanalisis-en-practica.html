@@ -21,10 +21,7 @@
   "h1": "Laboratorio de <em>psicoanálisis en práctica</em>",
   "bajada": "Freud pidió decir lo que se nos ocurre, sin filtro. Winnicott habló de los objetos que consuelan sin ser personas. Bion, de alguien que recibe lo que no podemos sostener. Kohut, de sentirse comprendido. Cuatro prácticas para probarlo.",
   "respuesta": "El laboratorio de psicoanálisis en práctica propone cuatro ejercicios inspirados en Sigmund Freud, Donald Winnicott, Wilfred Bion y Heinz Kohut: la asociación libre sin corregir, el objeto transicional que consuela, la función contenedora que recibe y nombra una emoción confusa, y la experiencia de sentirse comprendido por otro.",
-  "scripts": [
-    "lab-base.js",
-    "escenas.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de psicoanálisis",
   "articulos": [
     "sigmund-freud",
@@ -47,7 +44,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#asociacion">Asociación libre</a><a href="#transicional">Un objeto que consuela</a><a href="#contenedor">Recibir y nombrar</a><a href="#empatia">Sentirme comprendido</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#asociacion">Asociación libre</a><a href="#transicional">Un objeto que consuela</a><a href="#contenedor">Recibir y nombrar</a><a href="#empatia">Sentirme comprendido</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="asociacion" aria-labelledby="t-asociacion">
       <p class="lab-estacion__num">01</p>
@@ -148,6 +145,19 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas frecuentes sobre el psicoanálisis, a la luz de Freud, Winnicott, Bion y Kohut.</p>
+      <div class="lab-tarjeta" data-lab-quiz="psicoanalisis-practica-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> La asociación libre puede traer recuerdos o emociones intensas. Si algo te desborda, cortá la práctica, apoyate en la respiración y pedí acompañamiento si se repite. Podés escribirme desde la <a href="/contacto/">página de contacto</a>.</p>
     </aside>

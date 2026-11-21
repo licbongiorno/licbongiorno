@@ -8,7 +8,7 @@
   "h1": "Psicología positiva: <em>fortalezas y fluir</em>",
   "bajada": "Lo que te sale bien y te hace sentir vos mismo también se entrena. Ejercicios para conocer tus fortalezas, encontrar estados de fluir y proyectar tu mejor versión.",
   "respuesta": "El nivel medio del laboratorio de psicología positiva propone ejercicios sobre fortalezas y compromiso: la clasificación de 24 fortalezas del carácter de Christopher Peterson y Martin Seligman (2004), usar una fortaleza de una manera nueva (Seligman y otros, 2005), la experiencia de fluir de Mihaly Csikszentmihalyi (1990) con un medidor de desafío y habilidad, y el ejercicio del mejor yo posible de Laura King (2001). Incluye un plan de 7 días. No reemplaza el acompañamiento profesional.",
-  "scripts": ["lab-base.js", "laboratorio-psicologia-positiva.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-psicologia-positiva.js", "escenas.js"],
   "wa_tema": "el nivel medio de psicología positiva",
   "articulos": ["la-resiliencia"]
 }-->
@@ -32,7 +32,7 @@
       <a href="#fluir">La experiencia de fluir</a>
       <a href="#mejor-yo">Mi mejor yo posible</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="fortalezas" aria-labelledby="t-fortalezas">
       <p class="lab-estacion__num">01</p>
@@ -123,6 +123,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre fortalezas, fluir y el mejor yo posible.</p>
+      <div class="lab-tarjeta" data-lab-quiz="psicologia-positiva-fortalezas-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Las fortalezas también tienen excesos: la perseverancia puede volverse terquedad, la amabilidad puede volverse incapacidad de decir que no. Si una fortaleza te está costando caro, el <a href="/laboratorio-de-virtudes/">laboratorio de virtudes</a> trabaja el término medio. Y si sentís que no tenés ninguna fortaleza, eso habla más de cómo te estás mirando que de quién sos: podés <a href="/contacto/">escribirme</a>. Este nivel es parte del <a href="/laboratorio-de-psicologia-positiva/">laboratorio de psicología positiva</a>; seguí con el <a href="/laboratorio-psicologia-positiva-vinculos-y-sentido/">nivel 3: vínculos, esperanza y sentido</a>.</p>
     </aside>

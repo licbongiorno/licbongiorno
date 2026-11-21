@@ -8,9 +8,9 @@
   "h1": "Laboratorio de <em>creatividad</em>",
   "bajada": "Consignas, juegos y desafíos para volver a jugar con las ideas. No hay respuestas correctas ni puntajes: solo un rato para mirar distinto.",
   "respuesta": "El laboratorio de creatividad es un espacio gratuito con consignas, juegos y desafíos para entrenar la creatividad, una metahabilidad que potencia a todas las demás. Incluye combinaciones al azar, usos imposibles, escritura, el juego del garabato de Winnicott, imágenes simbólicas y un plan de siete días. Nada de lo que escribas o dibujes sale de tu dispositivo.",
-  "scripts": ["lab-base.js", "laboratorio.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio.js"],
   "wa_tema": "el laboratorio de creatividad",
-  "articulos": ["metahabilidades", "imaginacion-activa", "los-simbolos-segun-jung"]
+  "articulos": ["mihaly-csikszentmihalyi", "metahabilidades", "imaginacion-activa", "los-simbolos-segun-jung"]
 }-->
 <section class="seccion" style="padding-top:0">
   <div class="contenedor">
@@ -45,7 +45,7 @@
       <a href="#simbolos">Imágenes y símbolos</a>
       <a href="#cuerpo">Con el cuerpo</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="combinar" aria-labelledby="t-combinar">
       <p class="lab-estacion__num">01</p>
@@ -198,6 +198,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre la creatividad: ¿mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="creatividad-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Algunas consignas pueden traer recuerdos o emociones intensas. Si eso pasa, podés frenar cuando quieras: no hay que terminar nada. Este laboratorio es un espacio para jugar y no reemplaza una consulta. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>; si querés trabajar algo de lo que apareció, podés <a href="/contacto/">escribirme</a>.</p>
     </aside>

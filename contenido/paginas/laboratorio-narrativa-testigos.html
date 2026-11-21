@@ -8,7 +8,7 @@
   "h1": "Narrativa: <em>testigos y documentos</em>",
   "bajada": "Una historia preferida se vuelve más firme cuando otros la escuchan y la reconocen, y cuando queda escrita. Ejercicios basados en White y Epston.",
   "respuesta": "El nivel avanzado del laboratorio narrativo propone ejercicios basados en Michael White y David Epston: las ceremonias de definición con testigos externos y sus cuatro preguntas (expresión, imagen, resonancia y transporte), las cartas y documentos terapéuticos (Narrative Means to Therapeutic Ends, 1990), los certificados y el andamiaje de las preguntas, de lo conocido a lo posible de conocer. Incluye un plan de 7 días. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-enfoques-2.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-enfoques-2.js", "escenas.js"],
   "wa_tema": "el nivel avanzado del laboratorio narrativo",
   "articulos": ["terapia-narrativa"]
 }-->
@@ -33,7 +33,7 @@
       <a href="#certificado">Un certificado</a>
       <a href="#andamiaje">El andamiaje</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="testigos" aria-labelledby="t-testigos">
       <p class="lab-estacion__num">01</p>
@@ -128,6 +128,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre testigos, cartas y certificados en la terapia narrativa.</p>
+      <div class="lab-tarjeta" data-lab-quiz="narrativa-testigos-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Elegí con cuidado a quién mostrarle tu historia: un testigo que juzga, aconseja o minimiza puede lastimar. En terapia narrativa, el terapeuta prepara a los testigos para que escuchen de esta forma. Si querés trabajar así, podés <a href="/contacto/">escribirme</a>.</p>
     </aside>

@@ -58,6 +58,8 @@ Es una entrevista en la que se ofrece al chico un conjunto de materiales para ju
 
 *Teoría y técnica del psicoanálisis de niños* (1962), donde sistematizó la práctica clínica con chicos.
 
+En Francia, el psicoanálisis con niños tuvo otras referentes: [Françoise Dolto](/recursos/francoise-dolto/) y [Maud Mannoni](/recursos/maud-mannoni/).
+
 ## Para seguir leyendo
 
 - Aberastury, A. (1962). *Teoría y técnica del psicoanálisis de niños*.

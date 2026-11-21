@@ -57,6 +57,8 @@ Durante años, este diagnóstico fue usado como etiqueta de rechazo: «es una bo
 
 Si hay ideas de hacerte daño o de quitarte la vida, o si ya te lastimaste y necesitás ayuda ahora, no estás solo ni sola. Entrá en [ayuda urgente](/ayuda-urgente/), llamá al 911, al Centro de Asistencia al Suicida (135 en CABA y GBA, o 0800-345-1435) o a la Línea de Salud Mental (0800-999-0091). Pedir ayuda en un momento de crisis es una decisión valiente y acertada.
 
+Desde el psicoanálisis, [Otto Kernberg](/recursos/otto-kernberg/) describió la organización límite de la personalidad y creó la psicoterapia focalizada en la transferencia.
+
 ## Para seguir
 
 Este artículo es informativo y no reemplaza un diagnóstico. Solo un profesional que te conozca puede evaluarlo. Si te reconocés en lo que describe, consultar con psicología o psiquiatría es un buen primer paso.

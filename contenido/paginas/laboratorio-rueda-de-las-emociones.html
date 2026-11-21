@@ -22,7 +22,7 @@
   "bajada": "Ponerle nombre a una emoción puede ayudarnos a comprender mejor lo que estamos viviendo. Pero ninguna rueda puede explicar por completo nuestra experiencia.",
   "respuesta": "La rueda de las emociones es un laboratorio interactivo organizado según el modelo psicoevolutivo de Robert Plutchik: ocho emociones primarias (alegría, confianza, miedo, sorpresa, tristeza, aversión, ira y anticipación), tres intensidades y sus combinaciones. Se complementa con el plano de valencia y activación de James Russell, la teoría de la valoración de Richard Lazarus y aportes de la Gestalt, la TCC, ACT, el psicoanálisis y Jung. Incluye un recorrido guiado que termina en un mapa emocional descargable. No diagnostica ni evalúa.",
   "scripts": [
-    "lab-base.js",
+    "lab-base.js", "laboratorio-ampliados.js",
     "rueda-emociones.js"
   ],
   "wa_tema": "el laboratorio de la rueda de las emociones",
@@ -49,7 +49,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#rueda">La rueda</a><a href="#como-se-siente">¿Cómo se siente?</a><a href="#recorrido">Recorrido guiado</a><a href="#fichas">Las ocho emociones</a><a href="#modelos">Los modelos</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#rueda">La rueda</a><a href="#como-se-siente">¿Cómo se siente?</a><a href="#recorrido">Recorrido guiado</a><a href="#fichas">Las ocho emociones</a><a href="#modelos">Los modelos</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="rueda" aria-labelledby="t-rueda">
       <p class="lab-estacion__num">01</p>
@@ -234,6 +234,19 @@
       <details class="mapa-detalle"><summary>Qué no puede concluirse de este laboratorio</summary><div class="mapa-detalle__cuerpo"><p>Ninguna elección en la rueda indica un trastorno, un rasgo de personalidad ni el significado «verdadero» de lo que sentís. Las sensaciones corporales no tienen significados universales, y las combinaciones del modelo no explican toda experiencia. Si una emoción es muy intensa, dura mucho o interfiere con tu vida, conviene conversarlo con un profesional.</p></div></details>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre la rueda, los modelos y las emociones.</p>
+      <div class="lab-tarjeta" data-lab-quiz="rueda-de-las-emociones-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Explorar lo que sentimos puede traer emociones intensas. Podés frenar en cualquier momento. Si la angustia es muy fuerte o pensás en hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Si querés pensarlo acompañado, podés <a href="/contacto/">escribirme</a>.</p>
     </aside>

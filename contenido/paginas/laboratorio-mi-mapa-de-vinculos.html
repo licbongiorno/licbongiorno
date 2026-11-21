@@ -22,7 +22,7 @@
   "bajada": "Una cartografía de tu mundo vincular en dos capas, tu universo vincular actual y tu historia familiar, para explorar cercanías, distancias, intercambios, límites, lugares y repeticiones.",
   "respuesta": "Mi mapa de vínculos es un laboratorio interactivo para representar el propio mundo vincular en dos capas: la red de vínculos actual, en círculos de cercanía emocional, y la historia familiar, en un genograma. Recorre diez estaciones (universo vincular, cercanía, reciprocidad, límites, historia familiar, roles, conflictos, repeticiones y posición actual) desde la perspectiva sistémica, con aportes del psicoanálisis, Jung, la Gestalt, la psicología humanista, la TCC, ACT y la psicología existencial. No evalúa relaciones ni diagnostica: muestra la experiencia de quien lo usa y queda guardado solo en su dispositivo.",
   "scripts": [
-    "lab-base.js",
+    "lab-base.js", "laboratorio-ampliados.js",
     "mapa-vinculos.js"
   ],
   "wa_tema": "el laboratorio «Mi mapa de vínculos»",
@@ -53,7 +53,7 @@
       <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-mv-borrar>Borrar toda la información</button></div>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#umbral">El umbral</a><a href="#universo">Mi universo</a><a href="#cercania">Cercanía</a><a href="#reciprocidad">Reciprocidad</a><a href="#limites">Límites</a><a href="#historia">Historia familiar</a><a href="#lugares">Lugares</a><a href="#conflictos">Conflictos</a><a href="#patrones">Repeticiones</a><a href="#posicion">Mi posición</a><a href="#mi-mapa">Mi mapa</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#umbral">El umbral</a><a href="#universo">Mi universo</a><a href="#cercania">Cercanía</a><a href="#reciprocidad">Reciprocidad</a><a href="#limites">Límites</a><a href="#historia">Historia familiar</a><a href="#lugares">Lugares</a><a href="#conflictos">Conflictos</a><a href="#patrones">Repeticiones</a><a href="#posicion">Mi posición</a><a href="#mi-mapa">Mi mapa</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="universo" aria-labelledby="t-universo">
       <p class="lab-estacion__num">01 · Mi universo vincular</p>
@@ -377,6 +377,19 @@
     </section>
     <div class="mv-informe" data-mv-informe aria-hidden="true"></div>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">11</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre los vínculos y el mapa, para revisar con calma.</p>
+      <div class="lab-tarjeta" data-lab-quiz="mi-mapa-de-vinculos-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Mirar los propios vínculos, y sobre todo la historia familiar, puede traer recuerdos o emociones intensas. Podés frenar en cualquier momento, dejar estaciones sin completar y volver otro día. Si en tus vínculos hay violencia o sentís que corrés peligro, buscá ayuda: mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Si querés pensar esto acompañado, podés <a href="/contacto/">escribirme</a>.</p>
     </aside>
