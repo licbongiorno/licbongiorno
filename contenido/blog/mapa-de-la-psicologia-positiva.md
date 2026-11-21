@@ -72,5 +72,6 @@ Para llevar estos temas a la práctica:
 - Los laboratorios de [emociones](/laboratorio-psicologia-positiva-emociones/), [fortalezas](/laboratorio-psicologia-positiva-fortalezas/) y [vínculos y sentido](/laboratorio-psicologia-positiva-vinculos-y-sentido/) profundizan cada eje.
 - El [laboratorio de mi mejor versión](/laboratorio-mi-mejor-version/) trabaja el ejercicio del mejor yo posible, y el de [ikigai](/laboratorio-de-ikigai/), lo cotidiano que da sentido.
 - El [test de fortalezas](/test-de-fortalezas/) muestra tu perfil sin ranking.
+- El [índice de bienestar WHO-5](/indice-de-bienestar-who-5/) de la OMS mide en cinco preguntas cuánto bienestar hubo en tus últimas dos semanas.
 
 Lecturas: Peterson, C. y Seligman, M. E. P. (2004), *Character Strengths and Virtues*, Oxford University Press. Wong, P. T. P. (2011), «Positive psychology 2.0: towards a balanced interactive model of the good life», *Canadian Psychology*. Carrillo, A. et al. (2019), metaanálisis sobre el ejercicio del mejor yo posible. Curran, T. y Hill, A. P. (2019), «Perfectionism is increasing over time», *Psychological Bulletin*.

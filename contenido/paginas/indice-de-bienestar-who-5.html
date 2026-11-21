@@ -1,0 +1,60 @@
+<!--{
+  "titulo": "Índice de bienestar WHO-5 de la OMS: versión online",
+  "descripcion": "El índice de bienestar WHO-5 de la OMS: cinco preguntas sobre las últimas dos semanas, con un puntaje orientativo de 0 a 100. No es un diagnóstico.",
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Bienestar (WHO-5)",
+      "/indice-de-bienestar-who-5/"
+    ]
+  ],
+  "antetitulo": "Escala breve validada",
+  "h1": "Índice de bienestar <em>WHO-5</em>",
+  "bajada": "Cinco preguntas sobre cómo te sentiste en las últimas dos semanas. Es una de las escalas de bienestar más usadas en el mundo y un buen primer filtro para detectar un ánimo bajo.",
+  "respuesta": "El WHO-5 es el índice de bienestar de cinco preguntas de la Organización Mundial de la Salud. Cada respuesta vale de 0 a 5; la suma va de 0 a 25 y, multiplicada por cuatro, da un porcentaje de 0 a 100. Una suma menor que 13 indica bajo bienestar y es una señal para evaluar si hay una depresión. Lo desarrolló Per Bech en el Centro Psiquiátrico del Norte de Zelanda (Dinamarca) en la década de 1990. Es orientativo y no reemplaza una evaluación profesional.",
+  "wa_tema": "el índice de bienestar WHO-5",
+  "articulos": [
+    "como-saber-si-necesito-terapia",
+    "como-acompanar-a-alguien-con-depresion",
+    "tecnicas-psicometricas"
+  ],
+  "ruta": "/indice-de-bienestar-who-5/",
+  "scripts": [
+    "test-motor.js"
+  ],
+  "prioridad": 0.6
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+<p>Esta escala no mide si estás triste o deprimido. Pregunta por lo contrario: cuánto bienestar hubo en tu vida en los últimos días. Por eso es una buena puerta de entrada. A veces el malestar no aparece como un síntoma claro, sino como una vida que perdió color: menos alegría, menos energía, menos cosas que interesen.</p>
+        <p>Respondé pensando en <strong>las últimas dos semanas</strong>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Un minuto.</strong> Cinco preguntas.</li><li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo.</li><li><strong>Validado.</strong> Índice de la OMS, versión 1998.</li></ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p>Este índice orienta sobre tu bienestar, no diagnostica una depresión. Si estás pensando en hacerte daño, no esperes al resultado: llamá al 911 o al 0800-345-1435, o mirá los <a href="/ayuda-urgente/">teléfonos de ayuda urgente</a>.</p></aside>
+
+    <div class="test" data-test-motor>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este cuestionario necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"id": "who5", "nombre": "Índice de bienestar WHO-5 (OMS)", "modo": "suma", "min": 0, "max": 25, "porPagina": 5, "consigna": "Durante las últimas dos semanas, ¿cuánto tiempo te sentiste así? Las cifras más altas indican mayor bienestar.", "opciones": [{"t": "Todo el tiempo", "v": 5}, {"t": "La mayor parte del tiempo", "v": 4}, {"t": "Más de la mitad del tiempo", "v": 3}, {"t": "Menos de la mitad del tiempo", "v": 2}, {"t": "De vez en cuando", "v": 1}, {"t": "Nunca", "v": 0}], "items": [{"t": "Me he sentido alegre y de buen humor."}, {"t": "Me he sentido tranquilo/a y relajado/a."}, {"t": "Me he sentido activo/a y enérgico/a."}, {"t": "Me he despertado fresco/a y descansado/a."}, {"t": "Mi vida cotidiana ha estado llena de cosas que me interesan."}], "bandas": [{"hasta": 12, "nombre": "Bienestar bajo", "texto": "Tu suma es menor que 13: en la escala de 0 a 100 equivale a menos de 52. Según las instrucciones de la OMS, esto indica un bienestar bajo y es una señal para evaluar si hay una depresión. No quiere decir que la tengas, pero vale la pena consultarlo con un profesional. Si querés, podés seguir con el <a href=\"/escala-de-animo-phq-9/\">cuestionario de ánimo PHQ-9<\/a>."}, {"hasta": 25, "nombre": "Bienestar conservado", "texto": "Tu suma es de 13 o más: está por encima del punto de corte de bajo bienestar. Mirá igual cada respuesta: si en alguna marcaste «Nunca» o «De vez en cuando», las instrucciones de la escala recomiendan prestarle atención, porque un solo aspecto muy bajo también cuenta."}], "enlaces": [["Cuestionario de ánimo PHQ-9", "/escala-de-animo-phq-9/"], ["Cómo saber si necesito terapia", "/recursos/como-saber-si-necesito-terapia/"], ["Cómo trabajo la depresión", "/depresion/"], ["Teléfonos de ayuda urgente", "/ayuda-urgente/"]], "nota": "Es una escala de detección: orienta, pero <strong>no es un diagnóstico<\/strong>. Para leer el resultado en porcentaje, multiplicá tu suma por cuatro; en un seguimiento, un cambio de 10 puntos porcentuales se considera significativo. Tus respuestas no salen de este dispositivo. WHO-5 (versión 1998), desarrollado por Per Bech en el Centro Psiquiátrico del Norte de Zelanda (Dinamarca); desde 2024 su copyright pertenece a la OMS, que lo publica como herramienta de acceso abierto."}</script>
+{{> cta}}
