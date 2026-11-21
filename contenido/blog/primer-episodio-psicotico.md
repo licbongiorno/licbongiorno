@@ -1,7 +1,7 @@
 ---
 titulo: Primer episodio psicótico: qué es y cómo acompañar
-titulo_seo: Primer episodio psicótico: señales, ayuda temprana y cómo acompañar
-descripcion: Qué es un primer episodio psicótico, por qué conviene consultar pronto, qué dice la evidencia sobre la intervención temprana y cómo acompañar sin discutir el delirio.
+titulo_seo: Primer episodio psicótico: ayuda temprana y cómo acompañar
+descripcion: Qué es un primer episodio psicótico, por qué conviene consultar pronto, qué dice la evidencia sobre la intervención temprana y cómo acompañar.
 resumen: Un primer episodio psicótico es una crisis, y también una oportunidad de ayuda temprana. Qué es, qué dice la evidencia y cómo acompañar sin discutir el delirio.
 categoria: Salud mental
 palabras_clave: psicosis, primer episodio psicótico, alucinaciones, delirios, intervención temprana, recuperación, estigma, acompañar

@@ -1,7 +1,7 @@
 ---
 titulo: Trastorno límite de la personalidad: qué es y qué ayuda
-titulo_seo: Trastorno límite de la personalidad: síntomas, terapias y pronóstico
-descripcion: Qué es el trastorno límite de la personalidad, qué terapias tienen respaldo, qué muestran los seguimientos a diez años y por qué hay que dejar atrás el estigma.
+titulo_seo: Trastorno límite de la personalidad: terapias y pronóstico
+descripcion: Qué es el trastorno límite de la personalidad, qué terapias tienen respaldo, qué muestran los seguimientos a diez años y por qué dejar el estigma.
 resumen: Emociones intensas, miedo al abandono y vínculos de alta tensión. Qué es el trastorno límite, qué psicoterapias funcionan y por qué el pronóstico es mejor de lo que se cree.
 categoria: Salud mental
 palabras_clave: trastorno límite de la personalidad, borderline, DBT, Marsha Linehan, inestabilidad emocional, miedo al abandono, psicoterapia, estigma

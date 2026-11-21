@@ -31,7 +31,7 @@ El tratamiento con mayor respaldo es combinado: **medicación indicada por psiqu
 
 Sobre uno de los tratamientos clásicos hay evidencia específica. Cipriani y colaboradores (2013), en una revisión sistemática con metaanálisis publicada en el *BMJ* sobre el litio en la prevención del suicidio en trastornos del ánimo, analizaron 48 ensayos y encontraron que el litio fue eficaz para reducir el riesgo de suicidio. Un metaanálisis de 2022 discutió esa estimación, en parte por la rareza de los eventos que se miden. Lo prudente es leerlo como una pista valiosa y recordar que la decisión sobre cualquier medicación se toma con el equipo tratante, nunca por cuenta propia ni suspendiéndola sin consulta.
 
-Lo que no tiene respaldo es la idea de que alcanza con voluntad, con «pensar en positivo» o con evitar el estrés. Tampoco lo tiene el mito opuesto: que quien lo tiene no puede trabajar, estudiar, sostener vínculos o criar. Con tratamiento y acompañamiento, mucha gente lo hace.
+Lo que no tiene respaldo es la idea de que alcanza con voluntad, con «pensar en positivo» o con evitar el estrés. Tampoco lo tiene el mito opuesto: que quien lo tiene no puede trabajar, estudiar o sostener vínculos.
 
 ## Qué ayuda en el día a día
 
@@ -46,14 +46,14 @@ La psicoterapia y la psicoeducación apuntan a que la persona conozca su propio 
 
 Quien convive con alguien con este diagnóstico suele atravesar su propio desgaste. Algunas ideas generales:
 
-- Informarse sobre el cuadro, idealmente junto con el equipo tratante, ayuda a distinguir lo que es del episodio de lo que es de la persona.
+- Informarse junto con el equipo tratante ayuda a distinguir lo que es del episodio de lo que es de la persona.
 - Hablar en un momento de calma, no en medio de una manía, y proponer acordar de antemano cómo actuar si vuelve a ocurrir.
 - Preguntar con respeto en lugar de corregir: «noto que dormís poco y estás muy acelerado, ¿lo hablamos con tu psiquiatra?».
 - Cuidarse también. Los familiares pueden consultar para sostener su propio equilibrio.
 
 ## Contra el estigma
 
-Decir de alguien que «está bipolar» como insulto o como chiste hace daño: confunde una condición de salud con un rasgo de carácter y desalienta a quienes necesitan pedir ayuda. Una persona con trastorno bipolar no es peligrosa por definición, ni inestable en todo lo que hace, ni está definida por su diagnóstico. Es alguien con una condición que se puede tratar y acompañar.
+Decir de alguien que «está bipolar» como insulto o como chiste hace daño: confunde una condición de salud con un rasgo de carácter y desalienta a quienes necesitan pedir ayuda. Una persona con trastorno bipolar no es peligrosa por definición ni está definida por su diagnóstico.
 
 ## Un cuidado
 
@@ -61,6 +61,6 @@ Si hay pensamientos de hacerte daño o de quitarte la vida, o si ves que alguien
 
 ## Para seguir
 
-Este artículo es informativo y no reemplaza una evaluación profesional. Si te reconocés en alguna de estas descripciones, una consulta con psiquiatría y con psicología es un buen primer paso.
+Si te reconocés en estas descripciones, una consulta con psiquiatría y con psicología es un buen primer paso.
 
 Lecturas: Merikangas, K. R. y colaboradores (2011), estudio de prevalencia del espectro bipolar en la Encuesta Mundial de Salud Mental, *Archives of General Psychiatry*. Cipriani, A. y colaboradores (2013), «Lithium in the prevention of suicide in mood disorders: updated systematic review and meta-analysis», *BMJ*.

@@ -1,7 +1,7 @@
 ---
 titulo: Narcisismo: entre el insulto de moda y el trastorno
-titulo_seo: Narcisismo: diferencia entre rasgo, insulto y trastorno narcisista
-descripcion: Qué significa narcisista en el uso cotidiano y qué es el trastorno narcisista de la personalidad. Narcisismo grandioso y vulnerable, Kohut y por qué no diagnosticar por internet.
+titulo_seo: Narcisismo: diferencia entre insulto y trastorno narcisista
+descripcion: Qué significa narcisista en el uso cotidiano y qué es el trastorno narcisista de la personalidad: formas grandiosa y vulnerable, y Kohut.
 resumen: Narcisista se volvió un insulto en redes. Qué es en realidad el trastorno narcisista de la personalidad, sus dos expresiones y por qué no conviene diagnosticar a otros.
 categoria: Salud mental
 palabras_clave: narcisismo, trastorno narcisista de la personalidad, narcisismo grandioso, narcisismo vulnerable, Heinz Kohut, Pincus, DSM-5, vínculos
