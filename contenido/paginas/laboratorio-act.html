@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>aceptación y compromiso</em>",
   "bajada": "No pelear contra lo que pensás y sentís, sino hacerle lugar, y dar pasos hacia lo que te importa. Ejercicios inspirados en la terapia de aceptación y compromiso (ACT).",
   "respuesta": "El laboratorio ACT propone ejercicios inspirados en la terapia de aceptación y compromiso de Steven Hayes: la defusión cognitiva (tomar distancia de los pensamientos con la fórmula «estoy teniendo el pensamiento de que…»), las hojas en el río, la metáfora de soltar la cuerda, la matriz ACT de Kevin Polk para ver hacia dónde te llevan tus acciones, y acciones comprometidas con tus valores. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-act.js", "visual-labs.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-act.js", "visual-labs.js"],
   "wa_tema": "el laboratorio de aceptación y compromiso",
   "articulos": ["terapia-de-aceptacion-y-compromiso", "que-es-la-meditacion", "la-motivacion"]
 }-->
@@ -44,7 +44,7 @@
       <a href="#matriz">La matriz</a>
       <a href="#acciones">Acciones comprometidas</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="defusion" aria-labelledby="t-defusion">
       <p class="lab-estacion__num">01</p>
@@ -145,6 +145,19 @@
     </section>
 
     <div class="descarga descarga--lab revelar"><p><strong>¿Pensamientos que dan vueltas?</strong>El laboratorio de pensamientos que se repiten tiene diez ejercicios de defusión para la rumiación: detectar el bucle, ponerle nombre a la historia, la palabra que se gasta y más.</p><a class="boton boton--chico" href="/laboratorio-de-pensamientos-repetitivos/">Ver el laboratorio</a></div>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre la aceptación y la defusión. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="act-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
 
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Aceptar no significa tolerar situaciones de maltrato ni resignarse a un sufrimiento que tiene solución. Si algo de lo que vivís te está dañando, la prioridad es cuidarte y pedir ayuda. Podés <a href="/contacto/">escribirme</a> o, si necesitás ayuda ahora, mirar <a href="/ayuda-urgente/">ayuda urgente</a>.</p>

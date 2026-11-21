@@ -23,7 +23,7 @@ Muchas veces es lo que Kenneth Doka describió en 1989 como **duelo no reconocid
 
 ## Una pérdida que puede complicarse
 
-Kersting y Wagner (2012), en «Complicated grief after perinatal loss», publicado en *Dialogues in Clinical Neuroscience*, revisan por qué este tipo de pérdida puede dar lugar a un duelo complicado en una parte de las personas. No todas lo atraviesan así, y el sufrimiento intenso no es en sí mismo señal de enfermedad. Pero la revisión ayuda a tomar en serio que la pérdida perinatal puede dejar un dolor prolongado que merece atención, y que pedir ayuda no es una exageración.
+Kersting y Wagner (2012), en «Complicated grief after perinatal loss», publicado en *Dialogues in Clinical Neuroscience*, abordan el duelo complicado que puede seguir a una pérdida perinatal. No todas lo atraviesan así, y el sufrimiento intenso no es en sí mismo señal de enfermedad. Pero ese trabajo ayuda a tomar en serio que la pérdida perinatal puede dejar un dolor prolongado que merece atención, y que pedir ayuda no es una exageración.
 
 ## Un duelo de la familia entera
 
@@ -47,7 +47,7 @@ Quedar embarazada otra vez, o que lo esté tu pareja, puede mezclar esperanza co
 
 ## Qué tiene respaldo y qué no
 
-Tiene respaldo que el duelo perinatal puede ser un duelo no reconocido y que una parte de las personas lo vive de forma complicada. No tiene respaldo la idea de que un duelo «correcto» dura un tiempo fijo, ni que el dolor sea menor porque el embarazo era temprano. Tampoco que haya que «dar vuelta la página» rápido para no quedar atrapado.
+Tiene respaldo que el duelo perinatal puede ser un duelo no reconocido y que puede complicarse. No tiene respaldo la idea de que un duelo «correcto» dura un tiempo fijo, ni que el dolor sea menor porque el embarazo era temprano. Tampoco que haya que «dar vuelta la página» rápido para no quedar atrapado.
 
 ## Cuándo pedir ayuda
 
@@ -59,4 +59,4 @@ Nadie puede decirte cómo tenés que sentirte ni cuánto tiempo tenés para sent
 
 ## Para seguir
 
-Lecturas: Doka, K. J. (1989), *Disenfranchised Grief: Recognizing Hidden Sorrow*, Lexington Books. Kersting, A. y Wagner, B. (2012), «Complicated grief after perinatal loss», *Dialogues in Clinical Neuroscience*, 14(2), 187–194.
+Lecturas: Doka, K. J. (1989), concepto de duelo no reconocido. Kersting, A. y Wagner, B. (2012), «Complicated grief after perinatal loss», *Dialogues in Clinical Neuroscience*, 14(2), 187–194.

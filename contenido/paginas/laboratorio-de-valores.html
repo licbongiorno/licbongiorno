@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>valores y sentido</em>",
   "bajada": "No se trata de metas para tachar, sino de direcciones para caminar. Ejercicios para descubrir qué te importa de verdad y cuánto lugar le estás dando.",
   "respuesta": "El laboratorio de valores y sentido propone elegir y ordenar los valores personales, medir cuánto se están viviendo hoy, definir una acción concreta para cada uno y armar una rueda de la vida con ocho áreas. Se inspira en Viktor Frankl y en el trabajo con valores de la terapia de aceptación y compromiso. Nada sale del dispositivo.",
-  "scripts": ["lab-base.js", "laboratorio-valores.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-valores.js"],
   "wa_tema": "el laboratorio de valores",
   "articulos": ["crisis-de-la-mitad-de-la-vida", "el-proceso-de-individuacion", "la-motivacion"]
 }-->
@@ -32,7 +32,7 @@
       <a href="#brujula">Brújula</a>
       <a href="#rueda">Rueda de la vida</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <div data-valores>
       <section class="lab-estacion revelar" id="elegir" aria-labelledby="t-elegir">
@@ -97,6 +97,19 @@
         </ol>
         <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
         <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre los valores. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="valores-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
       </div>
     </section>
 

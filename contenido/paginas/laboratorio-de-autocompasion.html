@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>autoestima y autocompasión</em>",
   "bajada": "Hablarte como le hablarías a alguien que querés. Ejercicios para aflojar la voz crítica y construir una relación más amable con vos.",
   "respuesta": "El laboratorio de autoestima y autocompasión propone ejercicios basados en el trabajo de la psicóloga Kristin Neff: los tres componentes de la autocompasión (amabilidad con uno mismo, humanidad compartida y atención plena), reescribir la voz crítica, escribir una carta compasiva, registrar logros y cualidades, y una pausa de autocompasión guiada.",
-  "scripts": ["lab-base.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de autocompasión",
   "articulos": ["trastornos-de-la-conducta-alimentaria", "la-culpa", "mecanismos-de-defensa", "la-resiliencia"]
 }-->
@@ -33,7 +33,7 @@
       <a href="#carta">Una carta para vos</a>
       <a href="#logros">Registro de logros</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="componentes" aria-labelledby="t-componentes">
       <p class="lab-estacion__num">01</p>
@@ -137,6 +137,19 @@
         </ol>
         <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
         <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre tratarte con amabilidad. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="autocompasion-lab-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
       </div>
     </section>
 

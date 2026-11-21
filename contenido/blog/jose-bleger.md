@@ -19,7 +19,7 @@ Cuando alguien llega a una primera sesión, casi siempre pregunta cosas práctic
 
 José Bleger fue un psicoanalista argentino. Según la fuente que se consulte, nació en 1922 o en 1923, y murió en Buenos Aires en 1972. Se formó bajo la influencia de [Enrique Pichon-Rivière](/recursos/enrique-pichon-riviere/), el psiquiatra que había empezado a mirar el vínculo, el grupo y la vida social como parte de la clínica. De esa matriz le quedó una pregunta que atraviesa su obra: qué lugar le toca a la psicología cuando sale del diván y entra en el mundo.
 
-Su vida fue corta, y sin embargo dejó tres líneas de trabajo que todavía se leen: la psicología fuera del consultorio, una teoría sobre los vínculos más tempranos y una reflexión sobre las condiciones del tratamiento.
+Dejó tres líneas de trabajo que todavía se leen: la psicología fuera del consultorio, una teoría sobre los vínculos más tempranos y una reflexión sobre las condiciones del tratamiento.
 
 ## Sus tres aportes
 
@@ -32,8 +32,6 @@ Para un lector de hoy puede sonar obvio, pero marcó un modo de entender la prof
 ### Simbiosis y ambigüedad
 
 *Simbiosis y ambigüedad* (1967) es considerada su obra teórica central. Allí desarrolla la idea de que en el origen de la vida psíquica hay un estado de indiferenciación, en el que la persona y su entorno todavía no están bien separados, y que ese núcleo no desaparece del todo con el crecimiento. Sigue presente, en distintas proporciones, en la vida adulta. Es una manera de pensar lo más primitivo no como algo que quedó atrás, sino como algo que convive con lo más organizado de cada uno.
-
-Esta idea conversa con la tradición que Bleger heredó: el psicoanálisis rioplatense de esos años, interesado en los vínculos tempranos y en cómo se prolongan en los grupos y las instituciones.
 
 ### El encuadre psicoanalítico
 

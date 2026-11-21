@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>regulación</em>",
   "bajada": "Cuando el cuerpo se acelera o se apaga, las ideas solas no alcanzan. Ejercicios para volver al presente, conocer tus señales y ampliar de a poco lo que podés sostener.",
   "respuesta": "El laboratorio de regulación propone ejercicios para el desborde emocional y las secuelas del estrés y el trauma: reconocer en qué zona de la ventana de tolerancia estás (hiperactivación, dentro de la ventana o hipoactivación), anclajes al presente, un mapa del cuerpo con zonas de calma y de tensión, la pendulación de Peter Levine (ir y volver entre una sensación agradable y una apenas incómoda) y un kit de recursos personales. No se trabajan recuerdos traumáticos y no reemplaza un tratamiento.",
-  "scripts": ["lab-base.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de regulación",
   "articulos": ["pendulacion-somatic-experiencing", "la-ventana-de-tolerancia", "ansiedad-cuando-el-cuerpo-habla"]
 }-->
@@ -35,7 +35,7 @@
       <a href="#pendular">Pendulación</a>
       <a href="#kit">Tu kit de recursos</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="ventana" aria-labelledby="t-ventana">
       <p class="lab-estacion__num">01</p>
@@ -170,6 +170,19 @@
         </ol>
         <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
         <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre la regulación del cuerpo. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="regulacion-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
       </div>
     </section>
 
