@@ -66,4 +66,6 @@ Es la propuesta de Seligman sobre los componentes del bienestar: emociones posit
 - Seligman, M. E. P. (2002). *La auténtica felicidad*.
 - Seligman, M. E. P. (2011). *Florecer*.
 
+Para recorrer todo lo que el sitio tiene sobre psicología positiva, de las fortalezas al ikigai, mirá el [mapa de la psicología positiva](/recursos/mapa-de-la-psicologia-positiva/).
+
 Seguí la serie con [Marsha Linehan](/recursos/marsha-linehan/), o volvé a [Aaron T. Beck](/recursos/aaron-t-beck/).

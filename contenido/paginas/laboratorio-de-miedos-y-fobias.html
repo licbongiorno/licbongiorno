@@ -1,0 +1,156 @@
+<!--{
+  "ruta": "/laboratorio-de-miedos-y-fobias/",
+  "titulo": "Laboratorio de miedos y fobias: entender el miedo y planear",
+  "descripcion": "Entendé cómo funciona el miedo, armá tu escalera de exposición gradual y conocé cuándo pedir ayuda. Es una guía para planear, no un tratamiento.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Miedos y fobias",
+      "/laboratorio-de-miedos-y-fobias/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Ansiedad",
+  "h1": "Laboratorio de <em>miedos y fobias</em>",
+  "bajada": "El miedo intenso a algo concreto suele sostenerse con la evitación. Acá podés entender cómo funciona, ordenar tu miedo en una escalera de pasos y pensar cómo practicar, con cuidado y a tu ritmo.",
+  "respuesta": "Este laboratorio ayuda a entender el miedo y a planear una exposición gradual a una fobia específica. La exposición tiene respaldo: en el metaanálisis de Wolitzky-Taylor y colaboradores (2008), con 33 ensayos, mostró efectos grandes frente a no tratar. No reemplaza un tratamiento y no conviene hacerla sola si hay problemas cardíacos, embarazo, fobia a la sangre con desmayos o miedo muy intenso.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de miedos y fobias",
+  "articulos": [
+    "fobias",
+    "ansiedad-cuando-el-cuerpo-habla",
+    "ataque-de-panico-que-hacer"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Este laboratorio es para entender el miedo y planear, no para reemplazar un tratamiento. Leelo y completalo con calma, sin apuro y sin exigirte nada.</p><p><strong>Antes de practicar cualquier exposición, consultá a un profesional si tenés problemas cardíacos, si estás embarazada, si tu fobia es a la sangre o a las inyecciones y te desmayás, o si el miedo es muy intenso.</strong> En esos casos conviene hacerlo con acompañamiento. Pensar y planear acá no tiene riesgo; practicar sola o solo, sí puede tenerlo.</p><p>Una fobia específica es un miedo intenso y desproporcionado a algo concreto (animales, alturas, sangre, volar), con evitación. Es frecuente y tiene tratamiento.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin apuro.</strong> Podés quedarte en las primeras estaciones todo el tiempo que quieras.</li><li><strong>Sin forzar.</strong> Si algo se vuelve demasiado, parás. Parar también es cuidarte.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#miedo">Cómo funciona</a><a href="#mi-miedo">Mi miedo</a><a href="#escalera">La escalera</a><a href="#practicar">Practicar un paso</a><a href="#durante">Durante la ansiedad</a><a href="#ayuda">Cuándo pedir ayuda</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="miedo" aria-labelledby="t-miedo">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-miedo">Cómo funciona el miedo</h2>
+      <p class="lab-estacion__bajada">El miedo es una alarma útil: prepara al cuerpo para huir o defenderse. En una fobia la alarma suena fuerte ante algo que en realidad ofrece poco peligro. Evitar alivia enseguida, y justamente por eso mantiene el miedo: nunca llegás a comprobar que podías tolerarlo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fob-funciona" data-lab-form-titulo="Cómo funciona mi miedo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-alarma">¿Qué siente mi cuerpo cuando la alarma suena?</label><textarea class="lab-texto" id="fob-alarma" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-evito">¿Qué evito, o qué hago para no enfrentarlo?</label><textarea class="lab-texto" id="fob-evito" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-costo">¿Qué me cuesta evitarlo?</label><input class="lab-campo" id="fob-costo" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mi-miedo" aria-labelledby="t-mi-miedo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-mi-miedo">Mi miedo</h2>
+      <p class="lab-estacion__bajada">Describí tu miedo con precisión: a qué es, cuándo apareció, en qué situaciones se enciende y en cuáles casi no. Cuanto más concreto, más fácil armar los pasos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fob-mi-miedo" data-lab-form-titulo="Mi miedo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-que">A qué le tengo miedo</label><input class="lab-campo" id="fob-que" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-cuando">Cuándo lo noté por primera vez y qué recuerdo de eso</label><textarea class="lab-texto" id="fob-cuando" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-situaciones">Situaciones donde se enciende más y donde casi nada</label><textarea class="lab-texto" id="fob-situaciones" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-intensidad">Cuánto interfiere hoy en mi vida (con mis palabras)</label><input class="lab-campo" id="fob-intensidad" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="escalera" aria-labelledby="t-escalera">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-escalera">La escalera</h2>
+      <p class="lab-estacion__bajada">La exposición gradual usa una jerarquía: una lista de 8 a 10 situaciones ordenadas de la que menos miedo da a la que más. Empezás por abajo. Para miedo a los perros, por ejemplo, podría ir desde mirar una foto hasta acercarte a uno tranquilo. Escribí la tuya, de menor a mayor.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fob-escalera" data-lab-form-titulo="Mi escalera" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p1">Paso 1 (el que menos miedo da)</label><input class="lab-campo" id="fob-p1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p2">Paso 2</label><input class="lab-campo" id="fob-p2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p3">Paso 3</label><input class="lab-campo" id="fob-p3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p4">Paso 4</label><input class="lab-campo" id="fob-p4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p5">Paso 5</label><input class="lab-campo" id="fob-p5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p6">Paso 6</label><input class="lab-campo" id="fob-p6" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p7">Paso 7</label><input class="lab-campo" id="fob-p7" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p8">Paso 8</label><input class="lab-campo" id="fob-p8" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p9">Paso 9 (opcional)</label><input class="lab-campo" id="fob-p9" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-p10">Paso 10 (el que más miedo da, opcional)</label><input class="lab-campo" id="fob-p10" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="practicar" aria-labelledby="t-practicar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-practicar">Cómo practicar un paso</h2>
+      <p class="lab-estacion__bajada">Wolitzky-Taylor y colaboradores (2008) revisaron 33 ensayos aleatorizados: la exposición tuvo efectos grandes frente a no tratar y superó al placebo y a otras psicoterapias. Öst (1989) mostró que incluso una sesión intensiva con un terapeuta puede ayudar. Si tu situación lo permite, esto es lo esencial de cada práctica.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Elegí el paso más bajo.</strong> Uno que te dé miedo manejable, no el que te paralice.</li>
+          <li><strong>Quedate hasta que baje.</strong> Sin escapar ni distraerte. La ansiedad sube, llega a un punto y empieza a bajar sola.</li>
+          <li><strong>Repetilo.</strong> Hasta que dé claramente menos miedo, y recién ahí subí al paso siguiente.</li>
+          <li><strong>Anotá cómo te fue.</strong> Qué pensabas que iba a pasar y qué pasó realmente.</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="fob-practica" data-lab-form-titulo="Mi práctica" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-paso">El paso que voy a practicar</label><input class="lab-campo" id="fob-paso" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-esperaba">Qué creía que iba a pasar</label><input class="lab-campo" id="fob-esperaba" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="fob-paso-paso">Qué pasó realmente</label><textarea class="lab-texto" id="fob-paso-paso" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="durante" aria-labelledby="t-durante">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-durante">Qué hacer con la ansiedad durante</h2>
+      <p class="lab-estacion__bajada">Es normal que la ansiedad suba durante la práctica. Elegí qué mirar.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Qué hacer durante la ansiedad"><label class="opcion"><input type="radio" name="fob-durante" value="respirar" checked><span>Respirar lento</span></label><label class="opcion"><input type="radio" name="fob-durante" value="no-escapar"><span>No escapar</span></label><label class="opcion"><input type="radio" name="fob-durante" value="baja"><span>Notar que baja</span></label></div>
+        <div class="lab-panel" data-lab-panel="respirar"><p>Exhalar despacio, un poco más largo que la inhalación, puede ayudarte a sentirte más estable. Usalo como apoyo, no como forma de escapar de la sensación. Podés practicar antes en el <a href="/laboratorio-respirar-volver-al-presente/">laboratorio de respirar y volver al presente</a>.</p></div><div class="lab-panel" data-lab-panel="no-escapar" hidden><p>Irte en el pico del miedo alivia y le enseña al cuerpo que la salida era necesaria. Quedarte, aunque sea un rato más, es lo que permite aprender que podés tolerarlo.</p></div><div class="lab-panel" data-lab-panel="baja" hidden><p>La ansiedad intensa no se sostiene sin fin: sube, llega a un máximo y baja. Observarlo, sin pelearte con las sensaciones, también es parte del aprendizaje.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="ayuda" aria-labelledby="t-ayuda">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-ayuda">Cuándo pedir ayuda</h2>
+      <p class="lab-estacion__bajada">Pedir ayuda no es un fracaso: con las fobias suele dar buenos resultados. Elegí tu caso.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Cuándo pedir ayuda"><label class="opcion"><input type="radio" name="fob-ayuda" value="antes" checked><span>Antes de practicar</span></label><label class="opcion"><input type="radio" name="fob-ayuda" value="durante"><span>Si no avanzás</span></label><label class="opcion"><input type="radio" name="fob-ayuda" value="urgente"><span>Si hay riesgo</span></label></div>
+        <div class="lab-panel" data-lab-panel="antes"><p>Consultá primero si tenés problemas cardíacos, si estás embarazada, si la fobia es a la sangre o a las inyecciones y te desmayás, o si el miedo es muy intenso. En esos casos conviene tener acompañamiento profesional.</p></div><div class="lab-panel" data-lab-panel="durante" hidden><p>Si pasan semanas y no avanzás, si el miedo te limita el trabajo, los vínculos o la salud, o si aparecen ataques de pánico frecuentes, consultá a un profesional de la salud mental. Hay tratamientos con respaldo.</p></div><div class="lab-panel" data-lab-panel="urgente" hidden><p>Si sentís que no podés más o pensás en hacerte daño, pedí ayuda ahora: <a href="/ayuda-urgente/">ayuda urgente</a>, 911, o el Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre las fobias circulan con más seguridad de la que tienen. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="fobias-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio sirve para entender el miedo y planear, y no reemplaza un tratamiento. No practiques exposición por tu cuenta si tenés problemas cardíacos, estás embarazada, tu fobia es a la sangre con desmayos o el miedo es muy intenso: consultá antes. Si hay riesgo, llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Wolitzky-Taylor, K. B., Horowitz, J. D., Powers, M. B. y Telch, M. J. (2008), «Psychological approaches in the treatment of specific phobias: a meta-analysis», <em>Clinical Psychology Review</em>, 28, 1021–1037.</li><li>Öst, L.-G. (1989), «One-session treatment for specific phobias», <em>Behaviour Research and Therapy</em>, 27, 1–7.</li><li><a href="/laboratorio-de-ataques-de-panico/">Laboratorio de ataques de pánico</a> y <a href="/recursos/ansiedad-social/">ansiedad social</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

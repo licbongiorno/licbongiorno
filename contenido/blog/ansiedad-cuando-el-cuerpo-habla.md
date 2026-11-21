@@ -77,3 +77,5 @@ Combinando recursos concretos para regular la activación del cuerpo con un trab
 
 - Freud, S. (1926). *Inhibición, síntoma y angustia*. La angustia como señal ante un peligro, también interno.
 - Jung, C. G. (1964). *El hombre y sus símbolos*. Para pensar cómo el inconsciente se expresa a través del cuerpo y las imágenes.
+
+Si la preocupación se centra en tener una enfermedad, leé [ansiedad por la salud](/recursos/ansiedad-por-la-salud/). Si el miedo es a algo concreto, como volar, las alturas o un animal, leé [fobias](/recursos/fobias/) y probá el [laboratorio de miedos y fobias](/laboratorio-de-miedos-y-fobias/).

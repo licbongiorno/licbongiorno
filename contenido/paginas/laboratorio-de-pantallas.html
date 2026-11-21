@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-de-pantallas/",
+  "titulo": "Laboratorio de pantallas: mirar tu uso sin culpa",
+  "descripcion": "Observá cómo y para qué usás el celular y las redes, qué desplazan y un experimento de una semana, sin culpa y con lo que dice la investigación.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Pantallas",
+      "/laboratorio-de-pantallas/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Hábitos",
+  "h1": "Laboratorio de <em>pantallas</em>",
+  "bajada": "Las horas frente a la pantalla dicen menos que el modo y el motivo. Acá podés observar tu uso sin culpa, ver qué desplaza y probar un experimento de una semana, con lo que la investigación permite afirmar y lo que todavía discute.",
+  "respuesta": "Este laboratorio propone observar el uso de pantallas y redes sociales sin culpa: cómo y para qué se usan, qué desplazan (sueño, movimiento, encuentros), el efecto de la comparación y un experimento de una semana inspirado en Hunt y colaboradores (2018). La investigación muestra asociaciones pequeñas con el bienestar (Orben y Przybylski, 2019) y un debate abierto sobre las causas.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de pantallas",
+  "articulos": [
+    "pantallas-y-redes-sociales",
+    "la-soledad",
+    "insomnio"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>Casi nadie siente que usa las pantallas exactamente como querría. Algunos se quedan más de lo planeado, otros sienten que se pierden cosas, otros se preocupan por sus hijos. Y circulan afirmaciones muy rotundas, en un sentido y en el otro.</p><p>La evidencia es más matizada. Este laboratorio no te pide dejar el celular ni te dice cuánto es mucho: te propone mirar cómo, para qué y a costa de qué lo usás, y probar un cambio chico para ver qué pasa.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin culpa.</strong> Observar no es juzgar. Importa más el cómo y el para qué que las horas.</li><li><strong>A tu medida.</strong> Elegí lo que te sirva y salteá el resto.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#uso">Cómo las uso</a><a href="#para-que">Para qué</a><a href="#desplaza">Qué desplazan</a><a href="#comparacion">Comparación</a><a href="#experimento">Un experimento</a><a href="#hijos">Con hijos</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="uso" aria-labelledby="t-uso">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-uso">Cómo uso las pantallas</h2>
+      <p class="lab-estacion__bajada">Empezá por observar, sin cambiar nada. Pensá en un día típico: cuándo agarrás el celular, en qué momentos y cómo te sentís después. No hace falta contar los minutos con precisión.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pan-uso" data-lab-form-titulo="Mi uso" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-cuando">Cuándo las uso más durante el día</label><textarea class="lab-texto" id="pan-cuando" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-despues">Cómo me siento después, en general</label><input class="lab-campo" id="pan-despues" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-bien">Un uso que me gusta y que no cambiaría</label><input class="lab-campo" id="pan-bien" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="para-que" aria-labelledby="t-para-que">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-para-que">Para qué las uso</h2>
+      <p class="lab-estacion__bajada">El mismo tiempo frente a la pantalla puede cumplir funciones muy distintas. Elegí la que más se parece a tu uso de hoy.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Para qué uso las pantallas"><label class="opcion"><input type="radio" name="pan-paraque" value="conectar" checked><span>Conectar</span></label><label class="opcion"><input type="radio" name="pan-paraque" value="distraer"><span>Distraerme</span></label><label class="opcion"><input type="radio" name="pan-paraque" value="evitar"><span>Evitar</span></label><label class="opcion"><input type="radio" name="pan-paraque" value="informar"><span>Informarme</span></label><label class="opcion"><input type="radio" name="pan-paraque" value="trabajar"><span>Trabajar</span></label></div>
+        <div class="lab-panel" data-lab-panel="conectar"><p>Hablar con personas que querés, mantener vínculos a distancia, compartir. Suele ser un uso que suma, sobre todo si reemplaza una distancia y no un encuentro posible.</p></div><div class="lab-panel" data-lab-panel="distraer" hidden><p>Descansar, entretenerte, desconectar. Es legítimo. Conviene fijarte si, al terminar, te sentís más descansado o más cansado.</p></div><div class="lab-panel" data-lab-panel="evitar" hidden><p>Escaparte de algo que incomoda: un pendiente, una emoción, el aburrimiento. Evitar alivia en el momento, pero puede mantener lo evitado. Mirarlo sin culpa ya es un paso.</p></div><div class="lab-panel" data-lab-panel="informar" hidden><p>Leer noticias o buscar datos. Ayuda a estar al tanto, aunque el desplazamiento infinito de noticias puede volverse una forma de preocupación repetitiva.</p></div><div class="lab-panel" data-lab-panel="trabajar" hidden><p>Cuando la pantalla es la herramienta, el desafío es separar los tiempos: marcar dónde termina el trabajo y empieza el resto.</p></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="desplaza" aria-labelledby="t-desplaza">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-desplaza">Qué desplazan</h2>
+      <p class="lab-estacion__bajada">Una hipótesis plausible es que el problema no sea la pantalla en sí, sino lo que ocupa el lugar de otras cosas: el sueño, el movimiento, los encuentros cara a cara. Fijate si en tu caso algo quedó afuera. Si el sueño se resiente, el <a href="/laboratorio-de-insomnio/">laboratorio de insomnio</a> puede ayudarte.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pan-desplaza" data-lab-form-titulo="Lo que quedó afuera" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-sueno">Sueño: ¿me acuesto o me levanto más tarde por la pantalla?</label><input class="lab-campo" id="pan-sueno" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-mov">Movimiento o aire libre</label><input class="lab-campo" id="pan-mov" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-enc">Encuentros o charlas que postergué</label><input class="lab-campo" id="pan-enc" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-otra">Algo que dejé de hacer y extraño</label><input class="lab-campo" id="pan-otra" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="comparacion" aria-labelledby="t-comparacion">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-comparacion">La comparación</h2>
+      <p class="lab-estacion__bajada">En las redes vemos una selección de la vida de los demás. Compararse con eso es muy fácil y, según cómo te sientas ese día, puede doler. Notarlo ayuda a decidir a quién seguir y cuándo mirar. Si la soledad aparece, el artículo sobre <a href="/recursos/la-soledad/">la soledad</a> da más contexto.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pan-comp" data-lab-form-titulo="Comparación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-quien">Cuentas o contenidos que me dejan peor después de mirarlos</label><textarea class="lab-texto" id="pan-quien" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-suma">Cuentas o contenidos que me suman</label><textarea class="lab-texto" id="pan-suma" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-ajuste">Un ajuste posible: silenciar, dejar de seguir o limitar</label><input class="lab-campo" id="pan-ajuste" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="experimento" aria-labelledby="t-experimento">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-experimento">Un experimento de una semana</h2>
+      <p class="lab-estacion__bajada">Hunt y colaboradores (2018) pidieron a estudiantes que limitaran las redes a unos 30 minutos por día durante tres semanas, y esos estudiantes informaron menos soledad y depresión que un grupo control. Es un estudio puntual, con estudiantes; no promete lo mismo para todos. Podés hacer una versión propia, más corta y a tu medida.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="60">
+        <ol class="lab-pasos">
+          <li><strong>Elegí un cambio chico.</strong> Por ejemplo: sin celular la primera hora del día, sin pantallas en la cama o un tope para una app puntual.</li>
+          <li><strong>Anotá cómo estás antes.</strong> Ánimo, sueño y energía, en una línea cada uno.</li>
+          <li><strong>Probalo siete días.</strong> Sin exigirte perfección: si un día falla, seguí al siguiente.</li>
+          <li><strong>Anotá cómo estás después.</strong> Comparalo con el inicio y decidí qué conservar.</li>
+        </ol>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pan-exp" data-lab-form-titulo="Mi experimento" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-cambio">El cambio que voy a probar</label><input class="lab-campo" id="pan-cambio" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-antes">Cómo estoy antes (ánimo, sueño, energía)</label><textarea class="lab-texto" id="pan-antes" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-desp">Cómo estoy después de la semana</label><textarea class="lab-texto" id="pan-desp" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+      <p class="lab-paso__ayuda">Si te cuesta sostener el cambio, el <a href="/laboratorio-de-habitos/">laboratorio de hábitos</a> puede ayudarte.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="hijos" aria-labelledby="t-hijos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-hijos">Si tenés hijos o hijas</h2>
+      <p class="lab-estacion__bajada">Algunas pautas generales: hablar sobre lo que ven y cómo se sienten en lugar de solo prohibir, acordar horarios y espacios sin pantallas (la mesa, el dormitorio), predicar con el ejemplo y mantenerse cerca, especialmente con los más chicos. Si te preocupa un cambio brusco de ánimo, aislamiento o malestar, consultá con un profesional. Hay más en el <a href="/laboratorio-de-crianza/">laboratorio de crianza</a> y en el <a href="/laboratorio-de-adolescentes/">laboratorio de adolescentes</a>.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="pan-hijos" data-lab-form-titulo="Acuerdos en casa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-acuerdo">Un acuerdo que me gustaría proponer</label><input class="lab-campo" id="pan-acuerdo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pan-ejemplo">Algo que yo podría cambiar primero</label><input class="lab-campo" id="pan-ejemplo" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Sobre pantallas y redes circulan ideas muy seguras. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="pantallas-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es un ejercicio de reflexión y no reemplaza una consulta. Si sentís que no podés controlar el uso, o aparecen tristeza, aislamiento o ansiedad que no ceden, conviene consultar con un profesional. Si hay riesgo, llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Orben, A. y Przybylski, A. K. (2019), «The association between adolescent well-being and digital technology use», <em>Nature Human Behaviour</em>, 3, 173–182.</li><li>Hunt, M. G., Marx, R., Lipson, C. y Young, J. (2018), «No more FOMO: limiting social media decreases loneliness and depression», <em>Journal of Social and Clinical Psychology</em>, 37(10), 751–768.</li><li>Haidt, J. (2024), <em>The Anxious Generation</em> (<em>La generación ansiosa</em>); Odgers, C. (2024), «The great rewiring: is social media really behind an epidemic of teenage mental illness?», <em>Nature</em>.</li><li><a href="/recursos/pantallas-y-redes-sociales/">Pantallas y redes sociales</a>, <a href="/recursos/la-soledad/">la soledad</a> e <a href="/recursos/insomnio/">insomnio</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

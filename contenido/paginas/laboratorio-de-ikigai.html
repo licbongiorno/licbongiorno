@@ -1,0 +1,145 @@
+<!--{
+  "ruta": "/laboratorio-de-ikigai/",
+  "titulo": "Laboratorio de ikigai: lo que hace valiosa tu vida",
+  "descripcion": "Explorá tu ikigai a partir de Mieko Kamiya: lo cotidiano que te da vida, los cuatro círculos y su origen, y un gesto para esta semana, con fuentes.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Ikigai",
+      "/laboratorio-de-ikigai/"
+    ]
+  ],
+  "antetitulo": "Laboratorio · Psicología positiva",
+  "h1": "Laboratorio de <em>ikigai</em>",
+  "bajada": "En Japón, ikigai es lo que hace que la vida valga la pena, y muchas veces está en lo cotidiano. Acá podés explorar el tuyo sin buscar una gran misión.",
+  "respuesta": "Este laboratorio propone explorar el ikigai a partir de la psiquiatra japonesa Mieko Kamiya, que lo popularizó en 1966: lo que da vida hoy, el sentido en sus propias palabras, los cuatro círculos como herramienta de reflexión (de origen occidental, no japonés), los cambios de etapa y un gesto concreto para la semana. Es un ejercicio de autoexploración y no reemplaza una terapia.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-ampliados.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de ikigai",
+  "articulos": [
+    "ikigai",
+    "mejor-version-posible",
+    "logoterapia-y-sentido"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa"><p>La psiquiatra japonesa Mieko Kamiya popularizó la palabra ikigai en <em>Ikigai ni tsuite</em> («Sobre el ikigai», 1966). Había trabajado con pacientes con lepra en el sanatorio Nagashima Aiseien, y en muchos notó una sensación de falta de sentido. Para ella, ikigai es aquello que hace que la vida valga la pena.</p><p>En Japón suele aludir a cosas de todos los días: un vínculo, un rol, una pequeña alegría. No hace falta una gran misión ni que tenga que ver con el trabajo. Este laboratorio te invita a mirar tu vida con esa vara, a tu ritmo.</p></div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin respuesta correcta.</strong> No hay un ikigai que encontrar de una vez y para siempre. Puede cambiar con las etapas.</li><li><strong>Sin grandiosidad.</strong> Lo pequeño y cotidiano cuenta. Si algo suena a «debería», dejalo a un costado.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
+    </div>
+
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#cotidiano">Lo que te da vida</a><a href="#kamiya">El ikigai de Kamiya</a><a href="#circulos">Los cuatro círculos</a><a href="#sin-grandiosidad">Sin grandiosidad</a><a href="#etapas">A lo largo de la vida</a><a href="#gesto">Un gesto</a><a href="#mitos">Mitos y verdades</a></nav>
+
+    <section class="lab-estacion revelar" id="cotidiano" aria-labelledby="t-cotidiano">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-cotidiano">Lo que te da vida hoy</h2>
+      <p class="lab-estacion__bajada">Empezá por lo chico. Pensá en los últimos días: qué momentos, personas o tareas hicieron que valiera la pena levantarse. Vale un mate con alguien, cuidar una planta, un rol que cumplís, una charla.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ik-cotidiano" data-lab-form-titulo="Lo que me da vida" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-momentos">Momentos o cosas de estos días que me dieron vida</label><textarea class="lab-texto" id="ik-momentos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-vinculos">Vínculos o roles que me importan</label><textarea class="lab-texto" id="ik-vinculos" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-alegrias">Pequeñas alegrías que se repiten</label><input class="lab-campo" id="ik-alegrias" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="kamiya" aria-labelledby="t-kamiya">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-kamiya">El ikigai de Kamiya</h2>
+      <p class="lab-estacion__bajada">Kamiya partió de una pregunta simple: qué hace que una vida valga la pena. No esperaba una respuesta grandiosa; muchas veces la encontraba en lo cotidiano. Probá responderla en tus palabras, hoy, sin pensar en cómo debería sonar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ik-kamiya" data-lab-form-titulo="Por qué vale la pena mi vida" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-vale">Hoy, mi vida vale la pena porque…</label><textarea class="lab-texto" id="ik-vale" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-falta">¿Hay algo que hoy siento que falta o que se apagó?</label><textarea class="lab-texto" id="ik-falta" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="circulos" aria-labelledby="t-circulos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-circulos">Los cuatro círculos como herramienta</h2>
+      <p class="lab-estacion__bajada">Quizás viste el diagrama de cuatro círculos: lo que amás, lo que el mundo necesita, por lo que te pagan y en lo que sos bueno. No es japonés. Viene del diagrama del propósito del astrólogo español Andrés Zuzunaga, difundido hacia 2011–2012, y en 2014 Marc Winn, en un blog, reemplazó «propósito» por «ikigai». No representa el concepto japonés, pero puede servir como herramienta de reflexión.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ik-circulos" data-lab-form-titulo="Mis cuatro círculos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-amo">Lo que amo</label><input class="lab-campo" id="ik-amo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-mundo">Lo que el mundo necesita (y yo puedo aportar)</label><input class="lab-campo" id="ik-mundo" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-pagan">Por lo que me pagan o podrían pagarme</label><input class="lab-campo" id="ik-pagan" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-bueno">En lo que soy bueno o buena</label><input class="lab-campo" id="ik-bueno" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-cruce">¿Qué se cruza entre dos o más círculos?</label><textarea class="lab-texto" id="ik-cruce" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="sin-grandiosidad" aria-labelledby="t-sin-grandiosidad">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-sin-grandiosidad">Sin grandiosidad</h2>
+      <p class="lab-estacion__bajada">No hace falta una gran misión, ni que tu ikigai sea tu trabajo. Elegí cuál de estas ideas te resulta más cercana hoy.</p>
+      <div class="lab-tarjeta" data-lab-selector>
+        <div class="opciones" role="radiogroup" aria-label="Ideas sobre la gran misión"><label class="opcion"><input type="radio" name="ik-grande" value="misión" checked><span>«Tengo que encontrar mi misión»</span></label><label class="opcion"><input type="radio" name="ik-grande" value="trabajo"><span>«Mi ikigai tendría que ser mi trabajo»</span></label><label class="opcion"><input type="radio" name="ik-grande" value="nada"><span>«No siento que tenga uno»</span></label></div>
+        <div class="lab-panel" data-lab-panel="misión"><p>Esa exigencia suele pesar más de lo que ayuda. Kamiya hablaba de lo que hace valiosa la vida, y eso puede ser un vínculo, una tarea o una rutina querida. Una misión grande puede existir, pero no es requisito.</p></div><div class="lab-panel" data-lab-panel="trabajo" hidden><p>Puede serlo, pero no necesariamente. Muchas personas encuentran sentido fuera del trabajo: en la familia, la comunidad, el cuidado o un oficio por gusto.</p></div><div class="lab-panel" data-lab-panel="nada" hidden><p>Es una sensación frecuente en etapas difíciles y no te define. Empezá por lo más chico del paso 1. Si hace tiempo que nada te da ganas de vivir, hablalo con un profesional.</p></div>
+      </div>
+      <p class="lab-paso__ayuda">Para pensar la dirección sin perfeccionismo, mirá el <a href="/laboratorio-mi-mejor-version/">laboratorio de mi mejor versión</a>.</p>
+    </section>
+
+    <section class="lab-estacion revelar" id="etapas" aria-labelledby="t-etapas">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-etapas">A lo largo de la vida</h2>
+      <p class="lab-estacion__bajada">Lo que da sentido cambia: un hijo que se va, una jubilación, una pérdida, un cambio de trabajo. A veces lo que sostenía la vida deja de estar, y toca buscar otras cosas. Eso es parte del camino y no un fracaso.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ik-etapas" data-lab-form-titulo="Cambios de etapa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-cambio">Un cambio o pérdida que movió mi sentido</label><textarea class="lab-texto" id="ik-cambio" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-sigue">Qué sigue valiendo la pena de lo de antes</label><input class="lab-campo" id="ik-sigue" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-nuevo">Qué podría ocupar ese lugar, aunque sea de a poco</label><input class="lab-campo" id="ik-nuevo" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="gesto" aria-labelledby="t-gesto">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-gesto">Un gesto esta semana</h2>
+      <p class="lab-estacion__bajada">Para que no quede en una idea: elegí un gesto chico y concreto, ligado a lo que te da vida. Algo que puedas hacer en pocos minutos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ik-gesto" data-lab-form-titulo="Mi gesto de la semana" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-hago">Esta semana voy a…</label><input class="lab-campo" id="ik-hago" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-cuando">¿Cuándo y dónde?</label><input class="lab-campo" id="ik-cuando" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ik-obstaculo">¿Qué podría dificultarlo y cómo lo resuelvo?</label><input class="lab-campo" id="ik-obstaculo" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Sobre el ikigai circulan muchas ideas con más seguridad de la que tienen. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="ikigai-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Este laboratorio es un ejercicio de autoexploración y no reemplaza una consulta. Si sentís que la vida perdió sentido de manera persistente, o aparecen ideas de hacerte daño, hablalo con un profesional. Si hay riesgo, llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país); más en <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
+    </aside>
+
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul><li>Kamiya, M. (1966), <em>Ikigai ni tsuite</em> («Sobre el ikigai»).</li><li>Sone, T. y colaboradores (2008), «Sense of life worth living (ikigai) and mortality in Japan: Ohsaki Study», <em>Psychosomatic Medicine</em>, 70, 709–715.</li><li>García, H. y Miralles, F. (2016), <em>Ikigai: los secretos de Japón para una vida larga y feliz</em>.</li><li><a href="/recursos/ikigai/">Ikigai</a>, <a href="/recursos/logoterapia-y-sentido/">logoterapia y sentido</a>, <a href="/recursos/viktor-frankl/">Viktor Frankl</a>, <a href="/laboratorio-de-sentido/">laboratorio de sentido</a> y <a href="/laboratorio-de-valores/">laboratorio de valores</a>, en este sitio.</li></ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
