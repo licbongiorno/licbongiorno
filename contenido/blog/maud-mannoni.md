@@ -23,6 +23,8 @@ En 1964 publicó *L'enfant arriéré et sa mère*, que en español se conoce com
 
 En 1969 fundó y dirigió la Escuela Experimental de Bonneuil, una institución pensada para niños con graves dificultades. Esa escuela cuestionaba la segregación, y por eso se la vincula con la corriente de la antipsiquiatría, que en esos años revisaba la lógica de encierro de las instituciones psiquiátricas.
 
+{{figura:vida-mannoni}}
+
 ## Sus ideas centrales
 
 - **El niño dentro de un vínculo.** Frente a un diagnóstico que describe al niño como un conjunto de déficits, Mannoni propuso mirar también el lugar que ese niño ocupa para su madre y para su familia. La dificultad del chico no se explica solo por sus límites, sino también por lo que se espera y se proyecta sobre él.

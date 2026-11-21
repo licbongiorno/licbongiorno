@@ -21,6 +21,8 @@ Silvia Bleichmar nació en Bahía Blanca en 1944 y murió el 15 de agosto de 200
 
 Esa formación le dio un sustento teórico exigente. Pero su obra no se quedó en la discusión entre especialistas: Bleichmar también quiso pensar qué le pasa a una sociedad concreta, la argentina, y qué consecuencias tiene sobre la vida psíquica de quienes la habitan.
 
+{{figura:vida-bleichmar}}
+
 ## Sus obras y sus ideas
 
 ### La fundación de lo inconsciente

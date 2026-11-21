@@ -21,6 +21,8 @@ Daniel Kahneman nació en 1934 y murió el 27 de marzo de 2024. Fue un psicólog
 
 En 2002 recibió el Premio Nobel de Economía, un reconocimiento llamativo para un psicólogo, que muestra hasta qué punto su trabajo influyó en una disciplina que partía de otras premisas. En 2011 publicó *Thinking, Fast and Slow* (en español, *Pensar rápido, pensar despacio*), donde resumió décadas de investigación para un público amplio.
 
+{{figura:vida-kahneman}}
+
 ## La teoría prospectiva
 
 El trabajo más citado es Kahneman, D. y Tversky, A. (1979), «Prospect theory: an analysis of decision under risk», *Econometrica*, 47(2), 263–291. Allí critican la teoría de la utilidad esperada como descripción de cómo decidimos cuando hay riesgo. Esa teoría suponía personas que evalúan cada opción por su valor final ponderado por la probabilidad.

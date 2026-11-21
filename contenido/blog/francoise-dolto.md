@@ -25,6 +25,8 @@ En 1979 abrieron las Maisons Vertes, las Casas Verdes, una idea que Dolto ideó.
 
 Su libro *La causa de los niños* resume su posición. El título ya dice mucho: habla de una «causa», como quien defiende una idea que todavía necesita abogados.
 
+{{figura:vida-dolto}}
+
 ## Sus ideas centrales
 
 - **El niño es sujeto de lenguaje desde el comienzo.** Aun antes de poder hablar, el bebé está inmerso en palabras, y esas palabras lo constituyen. No es un objeto de cuidados que recién empieza a ser alguien cuando domina el idioma.

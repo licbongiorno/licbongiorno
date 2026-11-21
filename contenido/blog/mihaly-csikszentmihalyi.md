@@ -21,6 +21,8 @@ Mihaly Csikszentmihalyi nació en Fiume, hoy Rijeka, en 1934, y murió en 2021. 
 
 Su obra más conocida es *Flow: The Psychology of Optimal Experience* (1990), publicada en español como *Fluir*. Allí reunió su investigación sobre qué experiencias de la vida cotidiana las personas describen como las más plenas.
 
+{{figura:vida-csikszentmihalyi}}
+
 ## Qué es el flujo
 
 El flujo es un estado de absorción total en una actividad. Según la descripción clásica de Csikszentmihalyi, se da cuando se combinan algunas condiciones:

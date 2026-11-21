@@ -21,6 +21,8 @@ José Bleger fue un psicoanalista argentino. Según la fuente que se consulte, n
 
 Dejó tres líneas de trabajo que todavía se leen: la psicología fuera del consultorio, una teoría sobre los vínculos más tempranos y una reflexión sobre las condiciones del tratamiento.
 
+{{figura:vida-bleger}}
+
 ## Sus tres aportes
 
 ### La psicología fuera del consultorio

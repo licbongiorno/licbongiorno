@@ -19,6 +19,8 @@ Imaginá a un científico en un laboratorio de neurociencia que, al terminar el 
 
 Francisco Varela nació en Talcahuano, Chile, el 7 de septiembre de 1946, y murió en París el 28 de mayo de 2001. Fue biólogo, filósofo y neurocientífico. Tras el golpe de 1973 vivió exiliado en Estados Unidos; después volvió a enseñar en la Universidad de Chile y, desde mediados de los años ochenta, se radicó en Europa.
 
+{{figura:vida-varela}}
+
 ## Autopoiesis
 
 Con su maestro Humberto Maturana introdujo el concepto de autopoiesis. En términos generales, designa la organización propia de los seres vivos: sistemas que se producen y se mantienen a sí mismos. Es una idea de la biología teórica, no un enunciado clínico, y su aplicación a otros campos (la psicología, lo social) es materia de debate.

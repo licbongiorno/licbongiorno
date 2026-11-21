@@ -21,6 +21,8 @@ Fernando Ulloa (1924-2008) fue un psicoanalista argentino y miembro de la Asocia
 
 Escribió sobre su práctica con un estilo narrativo, cercano a la experiencia clínica. Sus libros más conocidos son *Sociedad, psicología y crueldad* (1992), *Novela clínica psicoanalítica: historial de una práctica* (1995) y *La Argentina personal* (2003). Conviene no confundir los dos primeros títulos, porque comparten territorio y fueron escritos con pocos años de diferencia.
 
+{{figura:vida-ulloa}}
+
 ## Sus conceptos
 
 ### La cultura de la mortificación

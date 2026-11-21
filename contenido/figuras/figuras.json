@@ -1044,5 +1044,53 @@
    "Practicar en el laboratorio de Marco Aurelio",
    "/laboratorio-de-marco-aurelio/"
   ]
+ },
+ "vida-bleger": {
+  "titulo": "La vida de José Bleger",
+  "desc": "Psicoanalista argentino, formado junto a Pichon-Rivière; pensó el encuadre y la psicología institucional."
+ },
+ "vida-ulloa": {
+  "titulo": "La vida de Fernando Ulloa",
+  "desc": "Psicoanalista argentino; estudió la crueldad, la ternura y la cultura de la mortificación."
+ },
+ "vida-bleichmar": {
+  "titulo": "La vida de Silvia Bleichmar",
+  "desc": "Psicoanalista argentina, discípula de Laplanche; pensó el malestar sobrante."
+ },
+ "vida-kahneman": {
+  "titulo": "La vida de Daniel Kahneman",
+  "desc": "Psicólogo; estudió heurísticas y sesgos, y la teoría prospectiva con Amos Tversky."
+ },
+ "vida-fairbairn": {
+  "titulo": "La vida de Ronald Fairbairn",
+  "desc": "Psicoanalista escocés de las relaciones de objeto."
+ },
+ "vida-mahler": {
+  "titulo": "La vida de Margaret Mahler",
+  "desc": "Psicoanalista; estudió la separación-individuación en la primera infancia."
+ },
+ "vida-kernberg": {
+  "titulo": "La vida de Otto Kernberg",
+  "desc": "Psicoanalista; estudió la organización límite y la patología narcisista."
+ },
+ "vida-spitz": {
+  "titulo": "La vida de René Spitz",
+  "desc": "Psicoanalista; describió el hospitalismo y la depresión anaclítica."
+ },
+ "vida-dolto": {
+  "titulo": "La vida de Françoise Dolto",
+  "desc": "Psicoanalista y pediatra francesa; el niño como sujeto de lenguaje."
+ },
+ "vida-mannoni": {
+  "titulo": "La vida de Maud Mannoni",
+  "desc": "Psicoanalista; fundó la escuela experimental de Bonneuil."
+ },
+ "vida-csikszentmihalyi": {
+  "titulo": "La vida de Mihaly Csikszentmihalyi",
+  "desc": "Psicólogo; estudió el flujo y fue referente de la psicología positiva."
+ },
+ "vida-varela": {
+  "titulo": "La vida de Francisco Varela",
+  "desc": "Biólogo y neurocientífico chileno; cognición encarnada y neurofenomenología."
  }
 }

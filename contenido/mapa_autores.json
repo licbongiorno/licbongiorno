@@ -1,1476 +1,1688 @@
 {
- "escuelas": [
-  {
-   "id": "fil",
-   "nombre": "Filosofía"
-  },
-  {
-   "id": "ori",
-   "nombre": "Tradiciones orientales"
-  },
-  {
-   "id": "ini",
-   "nombre": "Los comienzos"
-  },
-  {
-   "id": "pa",
-   "nombre": "Psicoanálisis"
-  },
-  {
-   "id": "rio",
-   "nombre": "Psicoanálisis rioplatense"
-  },
-  {
-   "id": "jung",
-   "nombre": "Psicología analítica"
-  },
-  {
-   "id": "hum",
-   "nombre": "Humanistas y existenciales"
-  },
-  {
-   "id": "ges",
-   "nombre": "Gestalt y análisis transaccional"
-  },
-  {
-   "id": "cc",
-   "nombre": "Conductuales y cognitivos"
-  },
-  {
-   "id": "sis",
-   "nombre": "Sistémicos"
-  },
-  {
-   "id": "des",
-   "nombre": "Desarrollo y apego"
-  },
-  {
-   "id": "cor",
-   "nombre": "Psicología corporal"
-  },
-  {
-   "id": "trans",
-   "nombre": "Psicología transpersonal"
-  }
- ],
- "tipos": {
-  "formacion": "formación (analista, maestro o supervisor)",
-  "influencia": "influencia",
-  "ruptura": "ruptura",
-  "dialogo": "diálogo o debate",
-  "colaboracion": "colaboración"
- },
- "autores": [
-  {
-   "slug": "sigmund-freud",
-   "corto": "Freud",
-   "anios": "1856–1939",
-   "x": 1856,
-   "escuela": "pa",
-   "resumen": "Creador del psicoanálisis: el inconsciente, la represión y la transferencia."
-  },
-  {
-   "slug": "sandor-ferenczi",
-   "corto": "Ferenczi",
-   "anios": "1873–1933",
-   "x": 1873,
-   "escuela": "pa",
-   "resumen": "El trauma real, la confusión de lenguas y el tacto del analista."
-  },
-  {
-   "slug": "melanie-klein",
-   "corto": "Klein",
-   "anios": "1882–1960",
-   "x": 1882,
-   "escuela": "pa",
-   "resumen": "La técnica de juego y las posiciones esquizo-paranoide y depresiva."
-  },
-  {
-   "slug": "anna-freud",
-   "corto": "Anna Freud",
-   "anios": "1895–1982",
-   "x": 1895,
-   "escuela": "pa",
-   "resumen": "Los mecanismos de defensa y el análisis de niños."
-  },
-  {
-   "slug": "donald-winnicott",
-   "corto": "Winnicott",
-   "anios": "1896–1971",
-   "x": 1896,
-   "escuela": "pa",
-   "resumen": "La madre suficientemente buena, el objeto transicional y el juego."
-  },
-  {
-   "slug": "wilfred-bion",
-   "corto": "Bion",
-   "anios": "1897–1979",
-   "x": 1897,
-   "escuela": "pa",
-   "resumen": "Los grupos, el continente y la función alfa."
-  },
-  {
-   "slug": "jacques-lacan",
-   "corto": "Lacan",
-   "anios": "1901–1981",
-   "x": 1901,
-   "escuela": "pa",
-   "resumen": "El retorno a Freud: el inconsciente estructurado como un lenguaje."
-  },
-  {
-   "slug": "heinz-kohut",
-   "corto": "Kohut",
-   "anios": "1913–1981",
-   "x": 1913,
-   "escuela": "pa",
-   "resumen": "La psicología del self y la empatía."
-  },
-  {
-   "slug": "enrique-pichon-riviere",
-   "corto": "Pichon-Rivière",
-   "anios": "1907–1977",
-   "x": 1907,
-   "escuela": "rio",
-   "origen": "pa",
-   "resumen": "El vínculo, el grupo operativo y la psicología social."
-  },
-  {
-   "slug": "arminda-aberastury",
-   "corto": "Aberastury",
-   "anios": "1910–1972",
-   "x": 1910,
-   "escuela": "rio",
-   "origen": "pa",
-   "resumen": "El psicoanálisis de niños y los duelos de la adolescencia."
-  },
-  {
-   "slug": "carl-gustav-jung",
-   "corto": "Jung",
-   "anios": "1875–1961",
-   "x": 1875,
-   "escuela": "jung",
-   "origen": "pa",
-   "resumen": "Creador de la psicología analítica: arquetipos, sombra e individuación."
-  },
-  {
-   "slug": "erich-neumann",
-   "corto": "Neumann",
-   "anios": "1905–1960",
-   "x": 1905,
-   "escuela": "jung",
-   "resumen": "La historia de la conciencia y la Gran Madre."
-  },
-  {
-   "slug": "michael-fordham",
-   "corto": "Fordham",
-   "anios": "1905–1995",
-   "x": 1905,
-   "escuela": "jung",
-   "resumen": "El self primario y la escuela de Londres."
-  },
-  {
-   "slug": "marie-louise-von-franz",
-   "corto": "von Franz",
-   "anios": "1915–1998",
-   "x": 1915,
-   "escuela": "jung",
-   "resumen": "Los cuentos de hadas, los sueños y el puer aeternus."
-  },
-  {
-   "slug": "edward-edinger",
-   "corto": "Edinger",
-   "anios": "1922–1998",
-   "x": 1922,
-   "escuela": "jung",
-   "resumen": "El eje yo–sí-mismo y la alquimia como psicología."
-  },
-  {
-   "slug": "james-hillman",
-   "corto": "Hillman",
-   "anios": "1926–2011",
-   "x": 1926,
-   "escuela": "jung",
-   "resumen": "La psicología arquetipal y la teoría de la bellota."
-  },
-  {
-   "slug": "marion-woodman",
-   "corto": "Woodman",
-   "anios": "1928–2018",
-   "x": 1928,
-   "escuela": "jung",
-   "resumen": "El cuerpo, la adicción a la perfección y lo femenino consciente."
-  },
-  {
-   "slug": "jean-shinoda-bolen",
-   "corto": "Bolen",
-   "anios": "n. 1936",
-   "x": 1936,
-   "escuela": "jung",
-   "resumen": "Las diosas y los dioses como arquetipos."
-  },
-  {
-   "slug": "james-hollis",
-   "corto": "Hollis",
-   "anios": "formado en Zúrich (1977–1982)",
-   "x": 1940,
-   "escuela": "jung",
-   "resumen": "La mitad de la vida y la pregunta por el sentido."
-  },
-  {
-   "slug": "clarissa-pinkola-estes",
-   "corto": "Estés",
-   "anios": "nacida en la década de 1940",
-   "x": 1945,
-   "escuela": "jung",
-   "resumen": "La Mujer Salvaje y los cuentos como medicina."
-  },
-  {
-   "slug": "erich-fromm",
-   "corto": "Fromm",
-   "anios": "1900–1980",
-   "x": 1900,
-   "escuela": "hum",
-   "origen": "pa",
-   "resumen": "El miedo a la libertad y el arte de amar."
-  },
-  {
-   "slug": "carl-rogers",
-   "corto": "Rogers",
-   "anios": "1902–1987",
-   "x": 1902,
-   "escuela": "hum",
-   "resumen": "La terapia centrada en la persona: congruencia, aceptación y empatía."
-  },
-  {
-   "slug": "viktor-frankl",
-   "corto": "Frankl",
-   "anios": "1905–1997",
-   "x": 1905,
-   "escuela": "hum",
-   "origen": "pa",
-   "resumen": "La logoterapia y la voluntad de sentido."
-  },
-  {
-   "slug": "abraham-maslow",
-   "corto": "Maslow",
-   "anios": "1908–1970",
-   "x": 1908,
-   "escuela": "hum",
-   "resumen": "Las necesidades, la autorrealización y las experiencias cumbre."
-  },
-  {
-   "slug": "rollo-may",
-   "corto": "Rollo May",
-   "anios": "1909–1994",
-   "x": 1909,
-   "escuela": "hum",
-   "resumen": "La ansiedad, el coraje y la psicología existencial."
-  },
-  {
-   "slug": "irvin-yalom",
-   "corto": "Yalom",
-   "anios": "n. 1931",
-   "x": 1931,
-   "escuela": "hum",
-   "resumen": "La terapia de grupo y las preocupaciones últimas."
-  },
-  {
-   "slug": "fritz-perls",
-   "corto": "Fritz Perls",
-   "anios": "1893–1970",
-   "x": 1893,
-   "escuela": "ges",
-   "origen": "pa",
-   "resumen": "La terapia Gestalt: aquí y ahora, darse cuenta, figura y fondo."
-  },
-  {
-   "slug": "laura-perls",
-   "corto": "Laura Perls",
-   "anios": "1905–1990",
-   "x": 1905,
-   "escuela": "ges",
-   "resumen": "Cofundadora de la Gestalt: contacto y apoyo."
-  },
-  {
-   "slug": "eric-berne",
-   "corto": "Berne",
-   "anios": "1910–1970",
-   "x": 1910,
-   "escuela": "ges",
-   "origen": "pa",
-   "resumen": "El análisis transaccional: Padre, Adulto y Niño."
-  },
-  {
-   "slug": "claudio-naranjo",
-   "corto": "Naranjo",
-   "anios": "1932–2019",
-   "x": 1932,
-   "escuela": "ges",
-   "resumen": "La Gestalt como actitud, el eneagrama y la educación."
-  },
-  {
-   "slug": "ivan-pavlov",
-   "corto": "Pávlov",
-   "anios": "1849–1936",
-   "x": 1849,
-   "escuela": "cc",
-   "resumen": "El condicionamiento clásico."
-  },
-  {
-   "slug": "john-b-watson",
-   "corto": "Watson",
-   "anios": "1878–1958",
-   "x": 1878,
-   "escuela": "cc",
-   "resumen": "El fundador del conductismo."
-  },
-  {
-   "slug": "b-f-skinner",
-   "corto": "Skinner",
-   "anios": "1904–1990",
-   "x": 1904,
-   "escuela": "cc",
-   "resumen": "El condicionamiento operante: refuerzo y castigo."
-  },
-  {
-   "slug": "albert-ellis",
-   "corto": "Ellis",
-   "anios": "1913–2007",
-   "x": 1913,
-   "escuela": "cc",
-   "origen": "pa",
-   "resumen": "La terapia racional emotiva conductual y el modelo ABC."
-  },
-  {
-   "slug": "aaron-t-beck",
-   "corto": "Beck",
-   "anios": "1921–2021",
-   "x": 1921,
-   "escuela": "cc",
-   "origen": "pa",
-   "resumen": "La terapia cognitiva y la tríada cognitiva."
-  },
-  {
-   "slug": "albert-bandura",
-   "corto": "Bandura",
-   "anios": "1925–2021",
-   "x": 1925,
-   "escuela": "cc",
-   "resumen": "El aprendizaje por observación y la autoeficacia."
-  },
-  {
-   "slug": "martin-seligman",
-   "corto": "Seligman",
-   "anios": "n. 1942",
-   "x": 1942,
-   "escuela": "cc",
-   "resumen": "La indefensión aprendida y la psicología positiva."
-  },
-  {
-   "slug": "marsha-linehan",
-   "corto": "Linehan",
-   "anios": "n. 1943",
-   "x": 1943,
-   "escuela": "cc",
-   "resumen": "La terapia dialéctica conductual: aceptación y cambio."
-  },
-  {
-   "slug": "jon-kabat-zinn",
-   "corto": "Kabat-Zinn",
-   "anios": "n. 1944",
-   "x": 1944,
-   "escuela": "cc",
-   "resumen": "El mindfulness en la medicina (MBSR)."
-  },
-  {
-   "slug": "steven-c-hayes",
-   "corto": "Hayes",
-   "anios": "n. 1948",
-   "x": 1948,
-   "escuela": "cc",
-   "resumen": "La terapia de aceptación y compromiso."
-  },
-  {
-   "slug": "gregory-bateson",
-   "corto": "Bateson",
-   "anios": "1904–1980",
-   "x": 1904,
-   "escuela": "sis",
-   "resumen": "El doble vínculo y la ecología de la mente."
-  },
-  {
-   "slug": "murray-bowen",
-   "corto": "Bowen",
-   "anios": "1913–1990",
-   "x": 1913,
-   "escuela": "sis",
-   "resumen": "La diferenciación del self y los sistemas familiares."
-  },
-  {
-   "slug": "virginia-satir",
-   "corto": "Satir",
-   "anios": "1916–1988",
-   "x": 1916,
-   "escuela": "sis",
-   "resumen": "La autoestima y la comunicación en la familia."
-  },
-  {
-   "slug": "paul-watzlawick",
-   "corto": "Watzlawick",
-   "anios": "1921–2007",
-   "x": 1921,
-   "escuela": "sis",
-   "origen": "jung",
-   "resumen": "Los axiomas de la comunicación y la terapia breve."
-  },
-  {
-   "slug": "salvador-minuchin",
-   "corto": "Minuchin",
-   "anios": "1921–2017",
-   "x": 1921,
-   "escuela": "sis",
-   "resumen": "La terapia familiar estructural."
-  },
-  {
-   "slug": "jean-piaget",
-   "corto": "Piaget",
-   "anios": "1896–1980",
-   "x": 1896,
-   "escuela": "des",
-   "resumen": "Las etapas del desarrollo cognitivo."
-  },
-  {
-   "slug": "lev-vygotsky",
-   "corto": "Vygotsky",
-   "anios": "1896–1934",
-   "x": 1896,
-   "escuela": "des",
-   "resumen": "La zona de desarrollo próximo."
-  },
-  {
-   "slug": "erik-erikson",
-   "corto": "Erikson",
-   "anios": "1902–1994",
-   "x": 1902,
-   "escuela": "des",
-   "origen": "pa",
-   "resumen": "Las ocho etapas psicosociales y la identidad."
-  },
-  {
-   "slug": "john-bowlby",
-   "corto": "Bowlby",
-   "anios": "1907–1990",
-   "x": 1907,
-   "escuela": "des",
-   "origen": "pa",
-   "resumen": "La teoría del apego."
-  },
-  {
-   "slug": "mary-ainsworth",
-   "corto": "Ainsworth",
-   "anios": "1913–1999",
-   "x": 1913,
-   "escuela": "des",
-   "resumen": "La situación extraña y los estilos de apego."
-  },
-  {
-   "slug": "wilhelm-wundt",
-   "corto": "Wundt",
-   "anios": "1832–1920",
-   "x": 1832,
-   "escuela": "ini",
-   "resumen": "El primer laboratorio de psicología (Leipzig, 1879)."
-  },
-  {
-   "slug": "william-james",
-   "corto": "W. James",
-   "anios": "1842–1910",
-   "x": 1842,
-   "escuela": "ini",
-   "resumen": "La corriente de la conciencia, el hábito y la experiencia religiosa."
-  },
-  {
-   "slug": "alfred-adler",
-   "corto": "Adler",
-   "anios": "1870–1937",
-   "x": 1870,
-   "escuela": "pa",
-   "resumen": "La psicología individual: inferioridad, compensación y sentimiento de comunidad."
-  },
-  {
-   "slug": "otto-rank",
-   "corto": "Rank",
-   "anios": "1884–1939",
-   "x": 1884,
-   "escuela": "pa",
-   "resumen": "El trauma del nacimiento y la terapia de la voluntad."
-  },
-  {
-   "slug": "karen-horney",
-   "corto": "Horney",
-   "anios": "1885–1952",
-   "x": 1885,
-   "escuela": "pa",
-   "resumen": "La angustia básica, las tendencias neuróticas y la tiranía de los debería."
-  },
-  {
-   "slug": "harry-stack-sullivan",
-   "corto": "Sullivan",
-   "anios": "1892–1949",
-   "x": 1892,
-   "escuela": "pa",
-   "resumen": "La psiquiatría interpersonal."
-  },
-  {
-   "slug": "wilhelm-reich",
-   "corto": "Reich",
-   "anios": "1897–1957",
-   "x": 1897,
-   "escuela": "pa",
-   "resumen": "El análisis del carácter y la coraza muscular."
-  },
-  {
-   "slug": "marie-langer",
-   "corto": "Langer",
-   "anios": "1910–1987",
-   "x": 1910,
-   "escuela": "rio",
-   "origen": "pa",
-   "resumen": "Maternidad y sexo; el psicoanálisis y lo social."
-  },
-  {
-   "slug": "hector-fiorini",
-   "corto": "Fiorini",
-   "anios": "1931–2023",
-   "x": 1931,
-   "escuela": "rio",
-   "origen": "pa",
-   "resumen": "La psicoterapia breve focalizada y el psiquismo creador."
-  },
-  {
-   "slug": "ludwig-binswanger",
-   "corto": "Binswanger",
-   "anios": "1881–1966",
-   "x": 1881,
-   "escuela": "hum",
-   "origen": "pa",
-   "resumen": "El análisis existencial y los modos de estar en el mundo."
-  },
-  {
-   "slug": "ronald-laing",
-   "corto": "Laing",
-   "anios": "1927–1989",
-   "x": 1927,
-   "escuela": "hum",
-   "resumen": "El yo dividido: la locura en su contexto."
-  },
-  {
-   "slug": "platon",
-   "corto": "Platón",
-   "anios": "c. 428–348 a. C.",
-   "x": -428,
-   "escuela": "fil",
-   "resumen": "El alma tripartita, las ideas y el diálogo."
-  },
-  {
-   "slug": "aristoteles",
-   "corto": "Aristóteles",
-   "anios": "384–322 a. C.",
-   "x": -384,
-   "escuela": "fil",
-   "resumen": "La catarsis, el hábito y la eudaimonía."
-  },
-  {
-   "slug": "epicteto",
-   "corto": "Epicteto",
-   "anios": "c. 50–135",
-   "x": 50,
-   "escuela": "fil",
-   "resumen": "Lo que depende de mí y lo que no."
-  },
-  {
-   "slug": "baruch-spinoza",
-   "corto": "Spinoza",
-   "anios": "1632–1677",
-   "x": 1632,
-   "escuela": "fil",
-   "resumen": "Los afectos, el deseo y la libertad."
-  },
-  {
-   "slug": "immanuel-kant",
-   "corto": "Kant",
-   "anios": "1724–1804",
-   "x": 1724,
-   "escuela": "fil",
-   "resumen": "Lo que la mente pone en lo que conoce."
-  },
-  {
-   "slug": "hegel",
-   "corto": "Hegel",
-   "anios": "1770–1831",
-   "x": 1770,
-   "escuela": "fil",
-   "resumen": "La dialéctica y el reconocimiento."
-  },
-  {
-   "slug": "arthur-schopenhauer",
-   "corto": "Schopenhauer",
-   "anios": "1788–1860",
-   "x": 1788,
-   "escuela": "fil",
-   "resumen": "La voluntad ciega."
-  },
-  {
-   "slug": "soren-kierkegaard",
-   "corto": "Kierkegaard",
-   "anios": "1813–1855",
-   "x": 1813,
-   "escuela": "fil",
-   "resumen": "La angustia como vértigo de la libertad."
-  },
-  {
-   "slug": "friedrich-nietzsche",
-   "corto": "Nietzsche",
-   "anios": "1844–1900",
-   "x": 1844,
-   "escuela": "fil",
-   "resumen": "La voluntad de poder y las tres transformaciones."
-  },
-  {
-   "slug": "martin-buber",
-   "corto": "Buber",
-   "anios": "1878–1965",
-   "x": 1878,
-   "escuela": "fil",
-   "resumen": "Yo y Tú: la filosofía del encuentro."
-  },
-  {
-   "slug": "rene-descartes",
-   "corto": "Descartes",
-   "anios": "1596–1650",
-   "x": 1596,
-   "escuela": "fil",
-   "resumen": "Mente y cuerpo: dos sustancias, y el cuerpo como máquina."
-  },
-  {
-   "slug": "john-locke",
-   "corto": "Locke",
-   "anios": "1632–1704",
-   "x": 1632,
-   "escuela": "fil",
-   "resumen": "La mente como tabla rasa y la asociación de ideas."
-  },
-  {
-   "slug": "edmund-husserl",
-   "corto": "Husserl",
-   "anios": "1859–1938",
-   "x": 1859,
-   "escuela": "fil",
-   "resumen": "La fenomenología: describir la experiencia tal como aparece."
-  },
-  {
-   "slug": "martin-heidegger",
-   "corto": "Heidegger",
-   "anios": "1889–1976",
-   "x": 1889,
-   "escuela": "fil",
-   "resumen": "El ser-en-el-mundo, la angustia y el ser para la muerte."
-  },
-  {
-   "slug": "jean-paul-sartre",
-   "corto": "Sartre",
-   "anios": "1905–1980",
-   "x": 1905,
-   "escuela": "fil",
-   "resumen": "La libertad, la mala fe y la mirada del otro."
-  },
-  {
-   "slug": "maurice-merleau-ponty",
-   "corto": "Merleau-Ponty",
-   "anios": "1908–1961",
-   "x": 1908,
-   "escuela": "fil",
-   "resumen": "El cuerpo vivido y la percepción."
-  },
-  {
-   "slug": "buda",
-   "corto": "Buda",
-   "anios": "s. VI–IV a. C.",
-   "x": -500,
-   "escuela": "ori",
-   "resumen": "El sufrimiento, su origen y el camino; la atención plena."
-  },
-  {
-   "slug": "lao-tse",
-   "corto": "Lao Tse",
-   "anios": "fechas inciertas",
-   "x": -480,
-   "escuela": "ori",
-   "resumen": "El tao, el yin y el yang y el arte de no forzar."
-  },
-  {
-   "slug": "patanjali",
-   "corto": "Patañjali",
-   "anios": "c. 400",
-   "x": -200,
-   "escuela": "ori",
-   "resumen": "Los Yoga Sutras: aquietar los movimientos de la mente."
-  },
-  {
-   "slug": "d-t-suzuki",
-   "corto": "Suzuki",
-   "anios": "1870–1966",
-   "x": 1870,
-   "escuela": "ori",
-   "resumen": "El zen, el koan y el satori, en diálogo con el psicoanálisis."
-  },
-  {
-   "slug": "alexander-lowen",
-   "corto": "Lowen",
-   "anios": "1910–2008",
-   "x": 1910,
-   "escuela": "cor",
-   "resumen": "Bioenergética: el cuerpo como lenguaje de la personalidad."
-  },
-  {
-   "slug": "eugene-gendlin",
-   "corto": "Gendlin",
-   "anios": "1926–2017",
-   "x": 1926,
-   "escuela": "cor",
-   "resumen": "Focusing: escuchar la sensación sentida."
-  },
-  {
-   "slug": "stanislav-grof",
-   "corto": "Grof",
-   "anios": "n. 1931",
-   "x": 1931,
-   "escuela": "trans",
-   "resumen": "Niveles biográfico, perinatal y transpersonal; respiración holotrópica."
-  },
-  {
-   "slug": "ken-wilber",
-   "corto": "Wilber",
-   "anios": "n. 1949",
-   "x": 1949,
-   "escuela": "trans",
-   "resumen": "El espectro de la conciencia y la teoría integral."
-  },
-  {
-   "slug": "roberto-assagioli",
-   "corto": "Assagioli",
-   "anios": "1888–1974",
-   "x": 1888,
-   "escuela": "trans",
-   "resumen": "Psicosíntesis y subpersonalidades."
-  },
-  {
-   "slug": "seneca",
-   "corto": "Séneca",
-   "anios": "c. 4 a. C.–65",
-   "x": -4,
-   "escuela": "fil",
-   "resumen": "La ira, el tiempo y las cartas a Lucilio."
-  },
-  {
-   "slug": "marco-aurelio",
-   "corto": "Marco Aurelio",
-   "anios": "121–180",
-   "x": 121,
-   "escuela": "fil",
-   "resumen": "Las Meditaciones: obrar bien y ver las cosas como son."
-  }
- ],
- "relaciones": [
-  {
-   "de": "sigmund-freud",
-   "a": "sandor-ferenczi",
-   "tipo": "influencia",
-   "nota": "amistad y colaboración desde 1908"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "anna-freud",
-   "tipo": "formacion",
-   "nota": "se analizó con su padre"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "melanie-klein",
-   "tipo": "influencia",
-   "nota": "partió de la obra de Freud"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "carl-gustav-jung",
-   "tipo": "ruptura",
-   "nota": "colaboraron entre 1907 y 1913"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "jacques-lacan",
-   "tipo": "influencia",
-   "nota": "el «retorno a Freud»"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "heinz-kohut",
-   "tipo": "influencia",
-   "nota": "se formó en el psicoanálisis clásico"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "erich-fromm",
-   "tipo": "influencia",
-   "nota": "se formó como psicoanalista"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "viktor-frankl",
-   "tipo": "influencia",
-   "nota": "se carteó con Freud de adolescente"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "enrique-pichon-riviere",
-   "tipo": "influencia",
-   "nota": "cofundó la APA en 1942"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "albert-ellis",
-   "tipo": "ruptura",
-   "nota": "se formó como psicoanalista y lo dejó"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "aaron-t-beck",
-   "tipo": "ruptura",
-   "nota": "quiso probar sus ideas y llegó a otras"
-  },
-  {
-   "de": "sandor-ferenczi",
-   "a": "melanie-klein",
-   "tipo": "formacion",
-   "nota": "fue su analista en Budapest"
-  },
-  {
-   "de": "melanie-klein",
-   "a": "wilfred-bion",
-   "tipo": "formacion",
-   "nota": "fue su analista entre 1945 y 1953"
-  },
-  {
-   "de": "melanie-klein",
-   "a": "donald-winnicott",
-   "tipo": "formacion",
-   "nota": "lo supervisó"
-  },
-  {
-   "de": "melanie-klein",
-   "a": "john-bowlby",
-   "tipo": "formacion",
-   "nota": "lo supervisó"
-  },
-  {
-   "de": "melanie-klein",
-   "a": "arminda-aberastury",
-   "tipo": "influencia",
-   "nota": "la tradujo y difundió"
-  },
-  {
-   "de": "melanie-klein",
-   "a": "michael-fordham",
-   "tipo": "influencia",
-   "nota": "integró sus ideas con las de Jung"
-  },
-  {
-   "de": "anna-freud",
-   "a": "melanie-klein",
-   "tipo": "dialogo",
-   "nota": "las Discusiones controversiales (1942–1944)"
-  },
-  {
-   "de": "anna-freud",
-   "a": "erik-erikson",
-   "tipo": "formacion",
-   "nota": "fue su analista en Viena"
-  },
-  {
-   "de": "enrique-pichon-riviere",
-   "a": "arminda-aberastury",
-   "tipo": "colaboracion",
-   "nota": "compartieron los inicios del psicoanálisis argentino"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "marie-louise-von-franz",
-   "tipo": "formacion",
-   "nota": "su analizada y colaboradora"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "erich-neumann",
-   "tipo": "formacion",
-   "nota": "estudió con él en 1934"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "michael-fordham",
-   "tipo": "influencia",
-   "nota": "coeditor de su obra en inglés"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "edward-edinger",
-   "tipo": "influencia",
-   "nota": "explicó sus obras más difíciles"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "james-hillman",
-   "tipo": "influencia",
-   "nota": "se formó en el Instituto Jung y creó su propia corriente"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "marion-woodman",
-   "tipo": "influencia",
-   "nota": "se formó en el Instituto Jung"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "jean-shinoda-bolen",
-   "tipo": "influencia",
-   "nota": "analista junguiana"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "clarissa-pinkola-estes",
-   "tipo": "influencia",
-   "nota": "analista junguiana"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "james-hollis",
-   "tipo": "influencia",
-   "nota": "se formó en el Instituto Jung"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "paul-watzlawick",
-   "tipo": "influencia",
-   "nota": "se diplomó en el Instituto Jung en 1954"
-  },
-  {
-   "de": "erich-neumann",
-   "a": "edward-edinger",
-   "tipo": "influencia",
-   "nota": "la idea del eje yo–sí-mismo"
-  },
-  {
-   "de": "erich-fromm",
-   "a": "abraham-maslow",
-   "tipo": "influencia",
-   "nota": "Maslow lo admiraba"
-  },
-  {
-   "de": "carl-rogers",
-   "a": "abraham-maslow",
-   "tipo": "dialogo",
-   "nota": "dos figuras centrales de la psicología humanista"
-  },
-  {
-   "de": "rollo-may",
-   "a": "irvin-yalom",
-   "tipo": "influencia",
-   "nota": "la psicoterapia existencial"
-  },
-  {
-   "de": "fritz-perls",
-   "a": "laura-perls",
-   "tipo": "colaboracion",
-   "nota": "cofundaron la terapia Gestalt"
-  },
-  {
-   "de": "fritz-perls",
-   "a": "claudio-naranjo",
-   "tipo": "formacion",
-   "nota": "se formó con él en Esalen"
-  },
-  {
-   "de": "erik-erikson",
-   "a": "eric-berne",
-   "tipo": "formacion",
-   "nota": "siguió su formación con Erikson"
-  },
-  {
-   "de": "ivan-pavlov",
-   "a": "john-b-watson",
-   "tipo": "influencia",
-   "nota": "el condicionamiento como base"
-  },
-  {
-   "de": "ivan-pavlov",
-   "a": "b-f-skinner",
-   "tipo": "influencia",
-   "nota": "su lectura lo llevó a la psicología"
-  },
-  {
-   "de": "john-b-watson",
-   "a": "b-f-skinner",
-   "tipo": "influencia",
-   "nota": "su lectura lo llevó a la psicología"
-  },
-  {
-   "de": "b-f-skinner",
-   "a": "steven-c-hayes",
-   "tipo": "influencia",
-   "nota": "la tradición del análisis de la conducta"
-  },
-  {
-   "de": "albert-ellis",
-   "a": "aaron-t-beck",
-   "tipo": "dialogo",
-   "nota": "fundaron por caminos paralelos la terapia cognitivo-conductual"
-  },
-  {
-   "de": "gregory-bateson",
-   "a": "paul-watzlawick",
-   "tipo": "influencia",
-   "nota": "el MRI de Palo Alto"
-  },
-  {
-   "de": "gregory-bateson",
-   "a": "virginia-satir",
-   "tipo": "influencia",
-   "nota": "el MRI de Palo Alto"
-  },
-  {
-   "de": "jean-piaget",
-   "a": "lev-vygotsky",
-   "tipo": "dialogo",
-   "nota": "dos miradas sobre el desarrollo"
-  },
-  {
-   "de": "john-bowlby",
-   "a": "mary-ainsworth",
-   "tipo": "colaboracion",
-   "nota": "cuatro décadas de trabajo conjunto"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "alfred-adler",
-   "tipo": "ruptura",
-   "nota": "se separaron en 1911"
-  },
-  {
-   "de": "alfred-adler",
-   "a": "viktor-frankl",
-   "tipo": "influencia",
-   "nota": "formó parte de su círculo"
-  },
-  {
-   "de": "alfred-adler",
-   "a": "rollo-may",
-   "tipo": "influencia",
-   "nota": "asistió a sus seminarios en Viena"
-  },
-  {
-   "de": "alfred-adler",
-   "a": "abraham-maslow",
-   "tipo": "influencia",
-   "nota": "lo trató en Nueva York"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "otto-rank",
-   "tipo": "ruptura",
-   "nota": "veinte años a su lado; se alejaron tras 1924"
-  },
-  {
-   "de": "otto-rank",
-   "a": "carl-rogers",
-   "tipo": "influencia",
-   "nota": "el taller de Rochester (1936) y Jessie Taft"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "wilhelm-reich",
-   "tipo": "ruptura",
-   "nota": "expulsado de la IPA en 1934"
-  },
-  {
-   "de": "wilhelm-reich",
-   "a": "fritz-perls",
-   "tipo": "formacion",
-   "nota": "fue su analista en Berlín"
-  },
-  {
-   "de": "karen-horney",
-   "a": "fritz-perls",
-   "tipo": "formacion",
-   "nota": "fue su analista en Berlín"
-  },
-  {
-   "de": "karen-horney",
-   "a": "erich-fromm",
-   "tipo": "dialogo",
-   "nota": "compartieron el psicoanálisis culturalista en Nueva York"
-  },
-  {
-   "de": "karen-horney",
-   "a": "albert-ellis",
-   "tipo": "influencia",
-   "nota": "la tiranía de los debería"
-  },
-  {
-   "de": "harry-stack-sullivan",
-   "a": "erich-fromm",
-   "tipo": "dialogo",
-   "nota": "el psicoanálisis interpersonal"
-  },
-  {
-   "de": "sigmund-freud",
-   "a": "ludwig-binswanger",
-   "tipo": "dialogo",
-   "nota": "una amistad de toda la vida"
-  },
-  {
-   "de": "carl-gustav-jung",
-   "a": "ludwig-binswanger",
-   "tipo": "formacion",
-   "nota": "se formó con él y con Bleuler en Zúrich"
-  },
-  {
-   "de": "ludwig-binswanger",
-   "a": "rollo-may",
-   "tipo": "influencia",
-   "nota": "el libro Existence (1958)"
-  },
-  {
-   "de": "gregory-bateson",
-   "a": "ronald-laing",
-   "tipo": "influencia",
-   "nota": "el doble vínculo"
-  },
-  {
-   "de": "donald-winnicott",
-   "a": "ronald-laing",
-   "tipo": "formacion",
-   "nota": "lo supervisó en la Tavistock"
-  },
-  {
-   "de": "enrique-pichon-riviere",
-   "a": "marie-langer",
-   "tipo": "colaboracion",
-   "nota": "cofundadores de la APA en 1942"
-  },
-  {
-   "de": "william-james",
-   "a": "carl-gustav-jung",
-   "tipo": "influencia",
-   "nota": "se conocieron en 1909; Jung lo cita en Tipos psicológicos"
-  },
-  {
-   "de": "platon",
-   "a": "aristoteles",
-   "tipo": "formacion",
-   "nota": "estudió veinte años en la Academia"
-  },
-  {
-   "de": "platon",
-   "a": "carl-gustav-jung",
-   "tipo": "influencia",
-   "nota": "las ideas, comparadas con los arquetipos"
-  },
-  {
-   "de": "platon",
-   "a": "aaron-t-beck",
-   "tipo": "influencia",
-   "nota": "el método socrático de los diálogos"
-  },
-  {
-   "de": "aristoteles",
-   "a": "sigmund-freud",
-   "tipo": "influencia",
-   "nota": "la catarsis dio nombre al método catártico"
-  },
-  {
-   "de": "aristoteles",
-   "a": "martin-seligman",
-   "tipo": "influencia",
-   "nota": "la eudaimonía"
-  },
-  {
-   "de": "epicteto",
-   "a": "albert-ellis",
-   "tipo": "influencia",
-   "nota": "«no nos perturban las cosas, sino las opiniones»"
-  },
-  {
-   "de": "epicteto",
-   "a": "aaron-t-beck",
-   "tipo": "influencia",
-   "nota": "las raíces estoicas de la terapia cognitiva"
-  },
-  {
-   "de": "baruch-spinoza",
-   "a": "irvin-yalom",
-   "tipo": "influencia",
-   "nota": "la novela El problema de Spinoza"
-  },
-  {
-   "de": "immanuel-kant",
-   "a": "jean-piaget",
-   "tipo": "influencia",
-   "nota": "cómo se construyen las categorías"
-  },
-  {
-   "de": "immanuel-kant",
-   "a": "carl-gustav-jung",
-   "tipo": "influencia",
-   "nota": "los arquetipos y las categorías"
-  },
-  {
-   "de": "immanuel-kant",
-   "a": "arthur-schopenhauer",
-   "tipo": "influencia",
-   "nota": "partió de la filosofía de Kant"
-  },
-  {
-   "de": "hegel",
-   "a": "jacques-lacan",
-   "tipo": "influencia",
-   "nota": "el deseo de reconocimiento, vía Kojève"
-  },
-  {
-   "de": "hegel",
-   "a": "marsha-linehan",
-   "tipo": "influencia",
-   "nota": "la dialéctica"
-  },
-  {
-   "de": "arthur-schopenhauer",
-   "a": "sigmund-freud",
-   "tipo": "influencia",
-   "nota": "anticipó la represión"
-  },
-  {
-   "de": "arthur-schopenhauer",
-   "a": "friedrich-nietzsche",
-   "tipo": "influencia",
-   "nota": "se volvió filósofo leyéndolo"
-  },
-  {
-   "de": "arthur-schopenhauer",
-   "a": "carl-gustav-jung",
-   "tipo": "influencia",
-   "nota": "lo leyó de joven"
-  },
-  {
-   "de": "soren-kierkegaard",
-   "a": "rollo-may",
-   "tipo": "influencia",
-   "nota": "la angustia y la libertad"
-  },
-  {
-   "de": "friedrich-nietzsche",
-   "a": "sigmund-freud",
-   "tipo": "influencia",
-   "nota": "intuiciones que Freud reconoció"
-  },
-  {
-   "de": "friedrich-nietzsche",
-   "a": "carl-gustav-jung",
-   "tipo": "influencia",
-   "nota": "el seminario sobre Zaratustra (1934–1939)"
-  },
-  {
-   "de": "friedrich-nietzsche",
-   "a": "alfred-adler",
-   "tipo": "influencia",
-   "nota": "la voluntad de poder"
-  },
-  {
-   "de": "friedrich-nietzsche",
-   "a": "viktor-frankl",
-   "tipo": "influencia",
-   "nota": "«quien tiene un porqué para vivir…»"
-  },
-  {
-   "de": "friedrich-nietzsche",
-   "a": "irvin-yalom",
-   "tipo": "influencia",
-   "nota": "la novela El día que Nietzsche lloró"
-  },
-  {
-   "de": "martin-buber",
-   "a": "carl-rogers",
-   "tipo": "dialogo",
-   "nota": "el diálogo público de 1957"
-  },
-  {
-   "de": "martin-buber",
-   "a": "laura-perls",
-   "tipo": "influencia",
-   "nota": "la filosofía del diálogo"
-  },
-  {
-   "de": "rene-descartes",
-   "a": "ivan-pavlov",
-   "tipo": "influencia",
-   "nota": "la idea del reflejo"
-  },
-  {
-   "de": "john-locke",
-   "a": "john-b-watson",
-   "tipo": "influencia",
-   "nota": "la tabla rasa y el peso del ambiente"
-  },
-  {
-   "de": "edmund-husserl",
-   "a": "martin-heidegger",
-   "tipo": "formacion",
-   "nota": "fue su asistente en Friburgo"
-  },
-  {
-   "de": "edmund-husserl",
-   "a": "ludwig-binswanger",
-   "tipo": "influencia",
-   "nota": "el método fenomenológico"
-  },
-  {
-   "de": "martin-heidegger",
-   "a": "ludwig-binswanger",
-   "tipo": "influencia",
-   "nota": "el Daseinsanálisis"
-  },
-  {
-   "de": "martin-heidegger",
-   "a": "rollo-may",
-   "tipo": "influencia",
-   "nota": "el análisis existencial"
-  },
-  {
-   "de": "martin-heidegger",
-   "a": "jacques-lacan",
-   "tipo": "dialogo",
-   "nota": "Lacan tradujo su texto «Logos»"
-  },
-  {
-   "de": "jean-paul-sartre",
-   "a": "ronald-laing",
-   "tipo": "influencia",
-   "nota": "Razón y violencia (1964)"
-  },
-  {
-   "de": "jean-paul-sartre",
-   "a": "irvin-yalom",
-   "tipo": "influencia",
-   "nota": "la libertad y la responsabilidad"
-  },
-  {
-   "de": "maurice-merleau-ponty",
-   "a": "jacques-lacan",
-   "tipo": "dialogo",
-   "nota": "amistad y debate sobre la mirada"
-  },
-  {
-   "de": "buda",
-   "a": "jon-kabat-zinn",
-   "tipo": "influencia",
-   "nota": "la atención plena"
-  },
-  {
-   "de": "buda",
-   "a": "marsha-linehan",
-   "tipo": "influencia",
-   "nota": "el zen y la aceptación radical"
-  },
-  {
-   "de": "lao-tse",
-   "a": "carl-gustav-jung",
-   "tipo": "influencia",
-   "nota": "el tao y la unión de los opuestos"
-  },
-  {
-   "de": "lao-tse",
-   "a": "jean-shinoda-bolen",
-   "tipo": "influencia",
-   "nota": "El tao de la psicología"
-  },
-  {
-   "de": "patanjali",
-   "a": "carl-gustav-jung",
-   "tipo": "influencia",
-   "nota": "Yoga y Occidente"
-  },
-  {
-   "de": "patanjali",
-   "a": "jon-kabat-zinn",
-   "tipo": "influencia",
-   "nota": "el yoga en el MBSR"
-  },
-  {
-   "de": "d-t-suzuki",
-   "a": "carl-gustav-jung",
-   "tipo": "dialogo",
-   "nota": "el prólogo de 1939"
-  },
-  {
-   "de": "d-t-suzuki",
-   "a": "erich-fromm",
-   "tipo": "colaboracion",
-   "nota": "Budismo zen y psicoanálisis"
-  },
-  {
-   "de": "d-t-suzuki",
-   "a": "karen-horney",
-   "tipo": "influencia",
-   "nota": "el viaje a Japón de 1952"
-  },
-  {
-   "de": "wilhelm-reich",
-   "a": "alexander-lowen",
-   "tipo": "formacion",
-   "nota": "Lowen fue alumno de Reich en los años cuarenta"
-  },
-  {
-   "de": "carl-rogers",
-   "a": "eugene-gendlin",
-   "tipo": "formacion",
-   "nota": "Gendlin trabajó con Rogers en el estudio de las sesiones"
-  },
-  {
-   "de": "otto-rank",
-   "a": "stanislav-grof",
-   "tipo": "influencia",
-   "nota": "la teoría del trauma del nacimiento"
-  },
-  {
-   "de": "abraham-maslow",
-   "a": "stanislav-grof",
-   "tipo": "dialogo",
-   "nota": "el nombre de la psicología transpersonal, 1967"
-  },
-  {
-   "de": "epicteto",
-   "a": "marco-aurelio",
-   "tipo": "influencia",
-   "nota": "leyó sus Disertaciones, que le prestó Rústico"
-  },
-  {
-   "de": "donald-winnicott",
-   "a": "hector-fiorini",
-   "tipo": "influencia",
-   "nota": "el juego y la creatividad en el psiquismo creador"
-  },
-  {
-   "de": "jean-paul-sartre",
-   "a": "hector-fiorini",
-   "tipo": "influencia",
-   "nota": "la idea de proyecto en Foco, situación y proyecto"
-  }
- ]
+  "escuelas": [
+    {
+      "id": "fil",
+      "nombre": "Filosofía"
+    },
+    {
+      "id": "ori",
+      "nombre": "Tradiciones orientales"
+    },
+    {
+      "id": "ini",
+      "nombre": "Los comienzos"
+    },
+    {
+      "id": "pa",
+      "nombre": "Psicoanálisis"
+    },
+    {
+      "id": "rio",
+      "nombre": "Psicoanálisis rioplatense"
+    },
+    {
+      "id": "jung",
+      "nombre": "Psicología analítica"
+    },
+    {
+      "id": "hum",
+      "nombre": "Humanistas y existenciales"
+    },
+    {
+      "id": "ges",
+      "nombre": "Gestalt y análisis transaccional"
+    },
+    {
+      "id": "cc",
+      "nombre": "Conductuales y cognitivos"
+    },
+    {
+      "id": "soc",
+      "nombre": "Psicología social y cognitiva"
+    },
+    {
+      "id": "sis",
+      "nombre": "Sistémicos"
+    },
+    {
+      "id": "des",
+      "nombre": "Desarrollo y apego"
+    },
+    {
+      "id": "cor",
+      "nombre": "Psicología corporal"
+    },
+    {
+      "id": "trans",
+      "nombre": "Psicología transpersonal"
+    }
+  ],
+  "tipos": {
+    "formacion": "formación (analista, maestro o supervisor)",
+    "influencia": "influencia",
+    "ruptura": "ruptura",
+    "dialogo": "diálogo o debate",
+    "colaboracion": "colaboración"
+  },
+  "autores": [
+    {
+      "slug": "sigmund-freud",
+      "corto": "Freud",
+      "anios": "1856–1939",
+      "x": 1856,
+      "escuela": "pa",
+      "resumen": "Creador del psicoanálisis: el inconsciente, la represión y la transferencia."
+    },
+    {
+      "slug": "sandor-ferenczi",
+      "corto": "Ferenczi",
+      "anios": "1873–1933",
+      "x": 1873,
+      "escuela": "pa",
+      "resumen": "El trauma real, la confusión de lenguas y el tacto del analista."
+    },
+    {
+      "slug": "melanie-klein",
+      "corto": "Klein",
+      "anios": "1882–1960",
+      "x": 1882,
+      "escuela": "pa",
+      "resumen": "La técnica de juego y las posiciones esquizo-paranoide y depresiva."
+    },
+    {
+      "slug": "anna-freud",
+      "corto": "Anna Freud",
+      "anios": "1895–1982",
+      "x": 1895,
+      "escuela": "pa",
+      "resumen": "Los mecanismos de defensa y el análisis de niños."
+    },
+    {
+      "slug": "donald-winnicott",
+      "corto": "Winnicott",
+      "anios": "1896–1971",
+      "x": 1896,
+      "escuela": "pa",
+      "resumen": "La madre suficientemente buena, el objeto transicional y el juego."
+    },
+    {
+      "slug": "wilfred-bion",
+      "corto": "Bion",
+      "anios": "1897–1979",
+      "x": 1897,
+      "escuela": "pa",
+      "resumen": "Los grupos, el continente y la función alfa."
+    },
+    {
+      "slug": "jacques-lacan",
+      "corto": "Lacan",
+      "anios": "1901–1981",
+      "x": 1901,
+      "escuela": "pa",
+      "resumen": "El retorno a Freud: el inconsciente estructurado como un lenguaje."
+    },
+    {
+      "slug": "heinz-kohut",
+      "corto": "Kohut",
+      "anios": "1913–1981",
+      "x": 1913,
+      "escuela": "pa",
+      "resumen": "La psicología del self y la empatía."
+    },
+    {
+      "slug": "enrique-pichon-riviere",
+      "corto": "Pichon-Rivière",
+      "anios": "1907–1977",
+      "x": 1907,
+      "escuela": "rio",
+      "origen": "pa",
+      "resumen": "El vínculo, el grupo operativo y la psicología social."
+    },
+    {
+      "slug": "arminda-aberastury",
+      "corto": "Aberastury",
+      "anios": "1910–1972",
+      "x": 1910,
+      "escuela": "rio",
+      "origen": "pa",
+      "resumen": "El psicoanálisis de niños y los duelos de la adolescencia."
+    },
+    {
+      "slug": "carl-gustav-jung",
+      "corto": "Jung",
+      "anios": "1875–1961",
+      "x": 1875,
+      "escuela": "jung",
+      "origen": "pa",
+      "resumen": "Creador de la psicología analítica: arquetipos, sombra e individuación."
+    },
+    {
+      "slug": "erich-neumann",
+      "corto": "Neumann",
+      "anios": "1905–1960",
+      "x": 1905,
+      "escuela": "jung",
+      "resumen": "La historia de la conciencia y la Gran Madre."
+    },
+    {
+      "slug": "michael-fordham",
+      "corto": "Fordham",
+      "anios": "1905–1995",
+      "x": 1905,
+      "escuela": "jung",
+      "resumen": "El self primario y la escuela de Londres."
+    },
+    {
+      "slug": "marie-louise-von-franz",
+      "corto": "von Franz",
+      "anios": "1915–1998",
+      "x": 1915,
+      "escuela": "jung",
+      "resumen": "Los cuentos de hadas, los sueños y el puer aeternus."
+    },
+    {
+      "slug": "edward-edinger",
+      "corto": "Edinger",
+      "anios": "1922–1998",
+      "x": 1922,
+      "escuela": "jung",
+      "resumen": "El eje yo–sí-mismo y la alquimia como psicología."
+    },
+    {
+      "slug": "james-hillman",
+      "corto": "Hillman",
+      "anios": "1926–2011",
+      "x": 1926,
+      "escuela": "jung",
+      "resumen": "La psicología arquetipal y la teoría de la bellota."
+    },
+    {
+      "slug": "marion-woodman",
+      "corto": "Woodman",
+      "anios": "1928–2018",
+      "x": 1928,
+      "escuela": "jung",
+      "resumen": "El cuerpo, la adicción a la perfección y lo femenino consciente."
+    },
+    {
+      "slug": "jean-shinoda-bolen",
+      "corto": "Bolen",
+      "anios": "n. 1936",
+      "x": 1936,
+      "escuela": "jung",
+      "resumen": "Las diosas y los dioses como arquetipos."
+    },
+    {
+      "slug": "james-hollis",
+      "corto": "Hollis",
+      "anios": "formado en Zúrich (1977–1982)",
+      "x": 1940,
+      "escuela": "jung",
+      "resumen": "La mitad de la vida y la pregunta por el sentido."
+    },
+    {
+      "slug": "clarissa-pinkola-estes",
+      "corto": "Estés",
+      "anios": "nacida en la década de 1940",
+      "x": 1945,
+      "escuela": "jung",
+      "resumen": "La Mujer Salvaje y los cuentos como medicina."
+    },
+    {
+      "slug": "erich-fromm",
+      "corto": "Fromm",
+      "anios": "1900–1980",
+      "x": 1900,
+      "escuela": "hum",
+      "origen": "pa",
+      "resumen": "El miedo a la libertad y el arte de amar."
+    },
+    {
+      "slug": "carl-rogers",
+      "corto": "Rogers",
+      "anios": "1902–1987",
+      "x": 1902,
+      "escuela": "hum",
+      "resumen": "La terapia centrada en la persona: congruencia, aceptación y empatía."
+    },
+    {
+      "slug": "viktor-frankl",
+      "corto": "Frankl",
+      "anios": "1905–1997",
+      "x": 1905,
+      "escuela": "hum",
+      "origen": "pa",
+      "resumen": "La logoterapia y la voluntad de sentido."
+    },
+    {
+      "slug": "abraham-maslow",
+      "corto": "Maslow",
+      "anios": "1908–1970",
+      "x": 1908,
+      "escuela": "hum",
+      "resumen": "Las necesidades, la autorrealización y las experiencias cumbre."
+    },
+    {
+      "slug": "rollo-may",
+      "corto": "Rollo May",
+      "anios": "1909–1994",
+      "x": 1909,
+      "escuela": "hum",
+      "resumen": "La ansiedad, el coraje y la psicología existencial."
+    },
+    {
+      "slug": "irvin-yalom",
+      "corto": "Yalom",
+      "anios": "n. 1931",
+      "x": 1931,
+      "escuela": "hum",
+      "resumen": "La terapia de grupo y las preocupaciones últimas."
+    },
+    {
+      "slug": "fritz-perls",
+      "corto": "Fritz Perls",
+      "anios": "1893–1970",
+      "x": 1893,
+      "escuela": "ges",
+      "origen": "pa",
+      "resumen": "La terapia Gestalt: aquí y ahora, darse cuenta, figura y fondo."
+    },
+    {
+      "slug": "laura-perls",
+      "corto": "Laura Perls",
+      "anios": "1905–1990",
+      "x": 1905,
+      "escuela": "ges",
+      "resumen": "Cofundadora de la Gestalt: contacto y apoyo."
+    },
+    {
+      "slug": "eric-berne",
+      "corto": "Berne",
+      "anios": "1910–1970",
+      "x": 1910,
+      "escuela": "ges",
+      "origen": "pa",
+      "resumen": "El análisis transaccional: Padre, Adulto y Niño."
+    },
+    {
+      "slug": "claudio-naranjo",
+      "corto": "Naranjo",
+      "anios": "1932–2019",
+      "x": 1932,
+      "escuela": "ges",
+      "resumen": "La Gestalt como actitud, el eneagrama y la educación."
+    },
+    {
+      "slug": "ivan-pavlov",
+      "corto": "Pávlov",
+      "anios": "1849–1936",
+      "x": 1849,
+      "escuela": "cc",
+      "resumen": "El condicionamiento clásico."
+    },
+    {
+      "slug": "john-b-watson",
+      "corto": "Watson",
+      "anios": "1878–1958",
+      "x": 1878,
+      "escuela": "cc",
+      "resumen": "El fundador del conductismo."
+    },
+    {
+      "slug": "b-f-skinner",
+      "corto": "Skinner",
+      "anios": "1904–1990",
+      "x": 1904,
+      "escuela": "cc",
+      "resumen": "El condicionamiento operante: refuerzo y castigo."
+    },
+    {
+      "slug": "albert-ellis",
+      "corto": "Ellis",
+      "anios": "1913–2007",
+      "x": 1913,
+      "escuela": "cc",
+      "origen": "pa",
+      "resumen": "La terapia racional emotiva conductual y el modelo ABC."
+    },
+    {
+      "slug": "aaron-t-beck",
+      "corto": "Beck",
+      "anios": "1921–2021",
+      "x": 1921,
+      "escuela": "cc",
+      "origen": "pa",
+      "resumen": "La terapia cognitiva y la tríada cognitiva."
+    },
+    {
+      "slug": "albert-bandura",
+      "corto": "Bandura",
+      "anios": "1925–2021",
+      "x": 1925,
+      "escuela": "cc",
+      "resumen": "El aprendizaje por observación y la autoeficacia."
+    },
+    {
+      "slug": "martin-seligman",
+      "corto": "Seligman",
+      "anios": "n. 1942",
+      "x": 1942,
+      "escuela": "cc",
+      "resumen": "La indefensión aprendida y la psicología positiva."
+    },
+    {
+      "slug": "marsha-linehan",
+      "corto": "Linehan",
+      "anios": "n. 1943",
+      "x": 1943,
+      "escuela": "cc",
+      "resumen": "La terapia dialéctica conductual: aceptación y cambio."
+    },
+    {
+      "slug": "jon-kabat-zinn",
+      "corto": "Kabat-Zinn",
+      "anios": "n. 1944",
+      "x": 1944,
+      "escuela": "cc",
+      "resumen": "El mindfulness en la medicina (MBSR)."
+    },
+    {
+      "slug": "steven-c-hayes",
+      "corto": "Hayes",
+      "anios": "n. 1948",
+      "x": 1948,
+      "escuela": "cc",
+      "resumen": "La terapia de aceptación y compromiso."
+    },
+    {
+      "slug": "gregory-bateson",
+      "corto": "Bateson",
+      "anios": "1904–1980",
+      "x": 1904,
+      "escuela": "sis",
+      "resumen": "El doble vínculo y la ecología de la mente."
+    },
+    {
+      "slug": "murray-bowen",
+      "corto": "Bowen",
+      "anios": "1913–1990",
+      "x": 1913,
+      "escuela": "sis",
+      "resumen": "La diferenciación del self y los sistemas familiares."
+    },
+    {
+      "slug": "virginia-satir",
+      "corto": "Satir",
+      "anios": "1916–1988",
+      "x": 1916,
+      "escuela": "sis",
+      "resumen": "La autoestima y la comunicación en la familia."
+    },
+    {
+      "slug": "paul-watzlawick",
+      "corto": "Watzlawick",
+      "anios": "1921–2007",
+      "x": 1921,
+      "escuela": "sis",
+      "origen": "jung",
+      "resumen": "Los axiomas de la comunicación y la terapia breve."
+    },
+    {
+      "slug": "salvador-minuchin",
+      "corto": "Minuchin",
+      "anios": "1921–2017",
+      "x": 1921,
+      "escuela": "sis",
+      "resumen": "La terapia familiar estructural."
+    },
+    {
+      "slug": "jean-piaget",
+      "corto": "Piaget",
+      "anios": "1896–1980",
+      "x": 1896,
+      "escuela": "des",
+      "resumen": "Las etapas del desarrollo cognitivo."
+    },
+    {
+      "slug": "lev-vygotsky",
+      "corto": "Vygotsky",
+      "anios": "1896–1934",
+      "x": 1896,
+      "escuela": "des",
+      "resumen": "La zona de desarrollo próximo."
+    },
+    {
+      "slug": "erik-erikson",
+      "corto": "Erikson",
+      "anios": "1902–1994",
+      "x": 1902,
+      "escuela": "des",
+      "origen": "pa",
+      "resumen": "Las ocho etapas psicosociales y la identidad."
+    },
+    {
+      "slug": "john-bowlby",
+      "corto": "Bowlby",
+      "anios": "1907–1990",
+      "x": 1907,
+      "escuela": "des",
+      "origen": "pa",
+      "resumen": "La teoría del apego."
+    },
+    {
+      "slug": "mary-ainsworth",
+      "corto": "Ainsworth",
+      "anios": "1913–1999",
+      "x": 1913,
+      "escuela": "des",
+      "resumen": "La situación extraña y los estilos de apego."
+    },
+    {
+      "slug": "wilhelm-wundt",
+      "corto": "Wundt",
+      "anios": "1832–1920",
+      "x": 1832,
+      "escuela": "ini",
+      "resumen": "El primer laboratorio de psicología (Leipzig, 1879)."
+    },
+    {
+      "slug": "william-james",
+      "corto": "W. James",
+      "anios": "1842–1910",
+      "x": 1842,
+      "escuela": "ini",
+      "resumen": "La corriente de la conciencia, el hábito y la experiencia religiosa."
+    },
+    {
+      "slug": "alfred-adler",
+      "corto": "Adler",
+      "anios": "1870–1937",
+      "x": 1870,
+      "escuela": "pa",
+      "resumen": "La psicología individual: inferioridad, compensación y sentimiento de comunidad."
+    },
+    {
+      "slug": "otto-rank",
+      "corto": "Rank",
+      "anios": "1884–1939",
+      "x": 1884,
+      "escuela": "pa",
+      "resumen": "El trauma del nacimiento y la terapia de la voluntad."
+    },
+    {
+      "slug": "karen-horney",
+      "corto": "Horney",
+      "anios": "1885–1952",
+      "x": 1885,
+      "escuela": "pa",
+      "resumen": "La angustia básica, las tendencias neuróticas y la tiranía de los debería."
+    },
+    {
+      "slug": "harry-stack-sullivan",
+      "corto": "Sullivan",
+      "anios": "1892–1949",
+      "x": 1892,
+      "escuela": "pa",
+      "resumen": "La psiquiatría interpersonal."
+    },
+    {
+      "slug": "wilhelm-reich",
+      "corto": "Reich",
+      "anios": "1897–1957",
+      "x": 1897,
+      "escuela": "pa",
+      "resumen": "El análisis del carácter y la coraza muscular."
+    },
+    {
+      "slug": "marie-langer",
+      "corto": "Langer",
+      "anios": "1910–1987",
+      "x": 1910,
+      "escuela": "rio",
+      "origen": "pa",
+      "resumen": "Maternidad y sexo; el psicoanálisis y lo social."
+    },
+    {
+      "slug": "hector-fiorini",
+      "corto": "Fiorini",
+      "anios": "1931–2023",
+      "x": 1931,
+      "escuela": "rio",
+      "origen": "pa",
+      "resumen": "La psicoterapia breve focalizada y el psiquismo creador."
+    },
+    {
+      "slug": "ludwig-binswanger",
+      "corto": "Binswanger",
+      "anios": "1881–1966",
+      "x": 1881,
+      "escuela": "hum",
+      "origen": "pa",
+      "resumen": "El análisis existencial y los modos de estar en el mundo."
+    },
+    {
+      "slug": "ronald-laing",
+      "corto": "Laing",
+      "anios": "1927–1989",
+      "x": 1927,
+      "escuela": "hum",
+      "resumen": "El yo dividido: la locura en su contexto."
+    },
+    {
+      "slug": "platon",
+      "corto": "Platón",
+      "anios": "c. 428–348 a. C.",
+      "x": -428,
+      "escuela": "fil",
+      "resumen": "El alma tripartita, las ideas y el diálogo."
+    },
+    {
+      "slug": "aristoteles",
+      "corto": "Aristóteles",
+      "anios": "384–322 a. C.",
+      "x": -384,
+      "escuela": "fil",
+      "resumen": "La catarsis, el hábito y la eudaimonía."
+    },
+    {
+      "slug": "epicteto",
+      "corto": "Epicteto",
+      "anios": "c. 50–135",
+      "x": 50,
+      "escuela": "fil",
+      "resumen": "Lo que depende de mí y lo que no."
+    },
+    {
+      "slug": "baruch-spinoza",
+      "corto": "Spinoza",
+      "anios": "1632–1677",
+      "x": 1632,
+      "escuela": "fil",
+      "resumen": "Los afectos, el deseo y la libertad."
+    },
+    {
+      "slug": "immanuel-kant",
+      "corto": "Kant",
+      "anios": "1724–1804",
+      "x": 1724,
+      "escuela": "fil",
+      "resumen": "Lo que la mente pone en lo que conoce."
+    },
+    {
+      "slug": "hegel",
+      "corto": "Hegel",
+      "anios": "1770–1831",
+      "x": 1770,
+      "escuela": "fil",
+      "resumen": "La dialéctica y el reconocimiento."
+    },
+    {
+      "slug": "arthur-schopenhauer",
+      "corto": "Schopenhauer",
+      "anios": "1788–1860",
+      "x": 1788,
+      "escuela": "fil",
+      "resumen": "La voluntad ciega."
+    },
+    {
+      "slug": "soren-kierkegaard",
+      "corto": "Kierkegaard",
+      "anios": "1813–1855",
+      "x": 1813,
+      "escuela": "fil",
+      "resumen": "La angustia como vértigo de la libertad."
+    },
+    {
+      "slug": "friedrich-nietzsche",
+      "corto": "Nietzsche",
+      "anios": "1844–1900",
+      "x": 1844,
+      "escuela": "fil",
+      "resumen": "La voluntad de poder y las tres transformaciones."
+    },
+    {
+      "slug": "martin-buber",
+      "corto": "Buber",
+      "anios": "1878–1965",
+      "x": 1878,
+      "escuela": "fil",
+      "resumen": "Yo y Tú: la filosofía del encuentro."
+    },
+    {
+      "slug": "rene-descartes",
+      "corto": "Descartes",
+      "anios": "1596–1650",
+      "x": 1596,
+      "escuela": "fil",
+      "resumen": "Mente y cuerpo: dos sustancias, y el cuerpo como máquina."
+    },
+    {
+      "slug": "john-locke",
+      "corto": "Locke",
+      "anios": "1632–1704",
+      "x": 1632,
+      "escuela": "fil",
+      "resumen": "La mente como tabla rasa y la asociación de ideas."
+    },
+    {
+      "slug": "edmund-husserl",
+      "corto": "Husserl",
+      "anios": "1859–1938",
+      "x": 1859,
+      "escuela": "fil",
+      "resumen": "La fenomenología: describir la experiencia tal como aparece."
+    },
+    {
+      "slug": "martin-heidegger",
+      "corto": "Heidegger",
+      "anios": "1889–1976",
+      "x": 1889,
+      "escuela": "fil",
+      "resumen": "El ser-en-el-mundo, la angustia y el ser para la muerte."
+    },
+    {
+      "slug": "jean-paul-sartre",
+      "corto": "Sartre",
+      "anios": "1905–1980",
+      "x": 1905,
+      "escuela": "fil",
+      "resumen": "La libertad, la mala fe y la mirada del otro."
+    },
+    {
+      "slug": "maurice-merleau-ponty",
+      "corto": "Merleau-Ponty",
+      "anios": "1908–1961",
+      "x": 1908,
+      "escuela": "fil",
+      "resumen": "El cuerpo vivido y la percepción."
+    },
+    {
+      "slug": "buda",
+      "corto": "Buda",
+      "anios": "s. VI–IV a. C.",
+      "x": -500,
+      "escuela": "ori",
+      "resumen": "El sufrimiento, su origen y el camino; la atención plena."
+    },
+    {
+      "slug": "lao-tse",
+      "corto": "Lao Tse",
+      "anios": "fechas inciertas",
+      "x": -480,
+      "escuela": "ori",
+      "resumen": "El tao, el yin y el yang y el arte de no forzar."
+    },
+    {
+      "slug": "patanjali",
+      "corto": "Patañjali",
+      "anios": "c. 400",
+      "x": -200,
+      "escuela": "ori",
+      "resumen": "Los Yoga Sutras: aquietar los movimientos de la mente."
+    },
+    {
+      "slug": "d-t-suzuki",
+      "corto": "Suzuki",
+      "anios": "1870–1966",
+      "x": 1870,
+      "escuela": "ori",
+      "resumen": "El zen, el koan y el satori, en diálogo con el psicoanálisis."
+    },
+    {
+      "slug": "alexander-lowen",
+      "corto": "Lowen",
+      "anios": "1910–2008",
+      "x": 1910,
+      "escuela": "cor",
+      "resumen": "Bioenergética: el cuerpo como lenguaje de la personalidad."
+    },
+    {
+      "slug": "eugene-gendlin",
+      "corto": "Gendlin",
+      "anios": "1926–2017",
+      "x": 1926,
+      "escuela": "cor",
+      "resumen": "Focusing: escuchar la sensación sentida."
+    },
+    {
+      "slug": "stanislav-grof",
+      "corto": "Grof",
+      "anios": "n. 1931",
+      "x": 1931,
+      "escuela": "trans",
+      "resumen": "Niveles biográfico, perinatal y transpersonal; respiración holotrópica."
+    },
+    {
+      "slug": "ken-wilber",
+      "corto": "Wilber",
+      "anios": "n. 1949",
+      "x": 1949,
+      "escuela": "trans",
+      "resumen": "El espectro de la conciencia y la teoría integral."
+    },
+    {
+      "slug": "roberto-assagioli",
+      "corto": "Assagioli",
+      "anios": "1888–1974",
+      "x": 1888,
+      "escuela": "trans",
+      "resumen": "Psicosíntesis y subpersonalidades."
+    },
+    {
+      "slug": "seneca",
+      "corto": "Séneca",
+      "anios": "c. 4 a. C.–65",
+      "x": -4,
+      "escuela": "fil",
+      "resumen": "La ira, el tiempo y las cartas a Lucilio."
+    },
+    {
+      "slug": "marco-aurelio",
+      "corto": "Marco Aurelio",
+      "anios": "121–180",
+      "x": 121,
+      "escuela": "fil",
+      "resumen": "Las Meditaciones: obrar bien y ver las cosas como son."
+    },
+    {
+      "slug": "ronald-fairbairn",
+      "corto": "Fairbairn",
+      "anios": "1889–1964",
+      "x": 1889,
+      "escuela": "pa",
+      "resumen": "Relaciones de objeto: la libido busca vínculos, no placer."
+    },
+    {
+      "slug": "rene-spitz",
+      "corto": "Spitz",
+      "anios": "1887–1974",
+      "x": 1887,
+      "escuela": "des",
+      "resumen": "El hospitalismo y la depresión anaclítica en bebés privados de afecto."
+    },
+    {
+      "slug": "margaret-mahler",
+      "corto": "Mahler",
+      "anios": "1897–1985",
+      "x": 1897,
+      "escuela": "des",
+      "resumen": "El nacimiento psicológico: separación e individuación."
+    },
+    {
+      "slug": "francoise-dolto",
+      "corto": "Dolto",
+      "anios": "1908–1988",
+      "x": 1908,
+      "escuela": "pa",
+      "resumen": "El niño como sujeto de lenguaje; las Casas Verdes."
+    },
+    {
+      "slug": "maud-mannoni",
+      "corto": "Mannoni",
+      "anios": "1923–1998",
+      "x": 1923,
+      "escuela": "pa",
+      "resumen": "La escuela de Bonneuil y el niño con graves dificultades."
+    },
+    {
+      "slug": "otto-kernberg",
+      "corto": "Kernberg",
+      "anios": "1928",
+      "x": 1928,
+      "escuela": "pa",
+      "resumen": "La organización límite y la psicoterapia focalizada en la transferencia."
+    },
+    {
+      "slug": "jose-bleger",
+      "corto": "Bleger",
+      "anios": "1922–1972",
+      "x": 1922,
+      "escuela": "rio",
+      "resumen": "El encuadre, la simbiosis y la psicología institucional."
+    },
+    {
+      "slug": "fernando-ulloa",
+      "corto": "Ulloa",
+      "anios": "1924–2008",
+      "x": 1924,
+      "escuela": "rio",
+      "resumen": "La cultura de la mortificación y la ternura."
+    },
+    {
+      "slug": "silvia-bleichmar",
+      "corto": "Bleichmar",
+      "anios": "1944–2007",
+      "x": 1944,
+      "escuela": "rio",
+      "resumen": "La fundación de lo inconsciente y el malestar sobrante."
+    },
+    {
+      "slug": "solomon-asch",
+      "corto": "Asch",
+      "anios": "1907–1996",
+      "x": 1907,
+      "escuela": "soc",
+      "resumen": "La conformidad con el grupo."
+    },
+    {
+      "slug": "leon-festinger",
+      "corto": "Festinger",
+      "anios": "1919–1989",
+      "x": 1919,
+      "escuela": "soc",
+      "resumen": "La disonancia cognitiva."
+    },
+    {
+      "slug": "stanley-milgram",
+      "corto": "Milgram",
+      "anios": "1933–1984",
+      "x": 1933,
+      "escuela": "soc",
+      "resumen": "La obediencia a la autoridad."
+    },
+    {
+      "slug": "daniel-kahneman",
+      "corto": "Kahneman",
+      "anios": "1934–2024",
+      "x": 1934,
+      "escuela": "soc",
+      "resumen": "Heurísticas, sesgos y la teoría prospectiva."
+    },
+    {
+      "slug": "mihaly-csikszentmihalyi",
+      "corto": "Csikszentmihalyi",
+      "anios": "1934–2021",
+      "x": 1934,
+      "escuela": "cc",
+      "resumen": "El flujo y la psicología positiva."
+    },
+    {
+      "slug": "francisco-varela",
+      "corto": "Varela",
+      "anios": "1946–2001",
+      "x": 1946,
+      "escuela": "ori",
+      "resumen": "Cognición encarnada y diálogo entre ciencia y budismo."
+    },
+    {
+      "slug": "paul-gilbert",
+      "corto": "Gilbert",
+      "anios": "1951",
+      "x": 1951,
+      "escuela": "cc",
+      "resumen": "La terapia centrada en la compasión."
+    },
+    {
+      "slug": "kristin-neff",
+      "corto": "Neff",
+      "anios": "1966",
+      "x": 1966,
+      "escuela": "cc",
+      "resumen": "La autocompasión y su medición."
+    }
+  ],
+  "relaciones": [
+    {
+      "de": "sigmund-freud",
+      "a": "sandor-ferenczi",
+      "tipo": "influencia",
+      "nota": "amistad y colaboración desde 1908"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "anna-freud",
+      "tipo": "formacion",
+      "nota": "se analizó con su padre"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "melanie-klein",
+      "tipo": "influencia",
+      "nota": "partió de la obra de Freud"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "carl-gustav-jung",
+      "tipo": "ruptura",
+      "nota": "colaboraron entre 1907 y 1913"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "jacques-lacan",
+      "tipo": "influencia",
+      "nota": "el «retorno a Freud»"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "heinz-kohut",
+      "tipo": "influencia",
+      "nota": "se formó en el psicoanálisis clásico"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "erich-fromm",
+      "tipo": "influencia",
+      "nota": "se formó como psicoanalista"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "viktor-frankl",
+      "tipo": "influencia",
+      "nota": "se carteó con Freud de adolescente"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "enrique-pichon-riviere",
+      "tipo": "influencia",
+      "nota": "cofundó la APA en 1942"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "albert-ellis",
+      "tipo": "ruptura",
+      "nota": "se formó como psicoanalista y lo dejó"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "aaron-t-beck",
+      "tipo": "ruptura",
+      "nota": "quiso probar sus ideas y llegó a otras"
+    },
+    {
+      "de": "sandor-ferenczi",
+      "a": "melanie-klein",
+      "tipo": "formacion",
+      "nota": "fue su analista en Budapest"
+    },
+    {
+      "de": "melanie-klein",
+      "a": "wilfred-bion",
+      "tipo": "formacion",
+      "nota": "fue su analista entre 1945 y 1953"
+    },
+    {
+      "de": "melanie-klein",
+      "a": "donald-winnicott",
+      "tipo": "formacion",
+      "nota": "lo supervisó"
+    },
+    {
+      "de": "melanie-klein",
+      "a": "john-bowlby",
+      "tipo": "formacion",
+      "nota": "lo supervisó"
+    },
+    {
+      "de": "melanie-klein",
+      "a": "arminda-aberastury",
+      "tipo": "influencia",
+      "nota": "la tradujo y difundió"
+    },
+    {
+      "de": "melanie-klein",
+      "a": "michael-fordham",
+      "tipo": "influencia",
+      "nota": "integró sus ideas con las de Jung"
+    },
+    {
+      "de": "anna-freud",
+      "a": "melanie-klein",
+      "tipo": "dialogo",
+      "nota": "las Discusiones controversiales (1942–1944)"
+    },
+    {
+      "de": "anna-freud",
+      "a": "erik-erikson",
+      "tipo": "formacion",
+      "nota": "fue su analista en Viena"
+    },
+    {
+      "de": "enrique-pichon-riviere",
+      "a": "arminda-aberastury",
+      "tipo": "colaboracion",
+      "nota": "compartieron los inicios del psicoanálisis argentino"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "marie-louise-von-franz",
+      "tipo": "formacion",
+      "nota": "su analizada y colaboradora"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "erich-neumann",
+      "tipo": "formacion",
+      "nota": "estudió con él en 1934"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "michael-fordham",
+      "tipo": "influencia",
+      "nota": "coeditor de su obra en inglés"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "edward-edinger",
+      "tipo": "influencia",
+      "nota": "explicó sus obras más difíciles"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "james-hillman",
+      "tipo": "influencia",
+      "nota": "se formó en el Instituto Jung y creó su propia corriente"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "marion-woodman",
+      "tipo": "influencia",
+      "nota": "se formó en el Instituto Jung"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "jean-shinoda-bolen",
+      "tipo": "influencia",
+      "nota": "analista junguiana"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "clarissa-pinkola-estes",
+      "tipo": "influencia",
+      "nota": "analista junguiana"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "james-hollis",
+      "tipo": "influencia",
+      "nota": "se formó en el Instituto Jung"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "paul-watzlawick",
+      "tipo": "influencia",
+      "nota": "se diplomó en el Instituto Jung en 1954"
+    },
+    {
+      "de": "erich-neumann",
+      "a": "edward-edinger",
+      "tipo": "influencia",
+      "nota": "la idea del eje yo–sí-mismo"
+    },
+    {
+      "de": "erich-fromm",
+      "a": "abraham-maslow",
+      "tipo": "influencia",
+      "nota": "Maslow lo admiraba"
+    },
+    {
+      "de": "carl-rogers",
+      "a": "abraham-maslow",
+      "tipo": "dialogo",
+      "nota": "dos figuras centrales de la psicología humanista"
+    },
+    {
+      "de": "rollo-may",
+      "a": "irvin-yalom",
+      "tipo": "influencia",
+      "nota": "la psicoterapia existencial"
+    },
+    {
+      "de": "fritz-perls",
+      "a": "laura-perls",
+      "tipo": "colaboracion",
+      "nota": "cofundaron la terapia Gestalt"
+    },
+    {
+      "de": "fritz-perls",
+      "a": "claudio-naranjo",
+      "tipo": "formacion",
+      "nota": "se formó con él en Esalen"
+    },
+    {
+      "de": "erik-erikson",
+      "a": "eric-berne",
+      "tipo": "formacion",
+      "nota": "siguió su formación con Erikson"
+    },
+    {
+      "de": "ivan-pavlov",
+      "a": "john-b-watson",
+      "tipo": "influencia",
+      "nota": "el condicionamiento como base"
+    },
+    {
+      "de": "ivan-pavlov",
+      "a": "b-f-skinner",
+      "tipo": "influencia",
+      "nota": "su lectura lo llevó a la psicología"
+    },
+    {
+      "de": "john-b-watson",
+      "a": "b-f-skinner",
+      "tipo": "influencia",
+      "nota": "su lectura lo llevó a la psicología"
+    },
+    {
+      "de": "b-f-skinner",
+      "a": "steven-c-hayes",
+      "tipo": "influencia",
+      "nota": "la tradición del análisis de la conducta"
+    },
+    {
+      "de": "albert-ellis",
+      "a": "aaron-t-beck",
+      "tipo": "dialogo",
+      "nota": "fundaron por caminos paralelos la terapia cognitivo-conductual"
+    },
+    {
+      "de": "gregory-bateson",
+      "a": "paul-watzlawick",
+      "tipo": "influencia",
+      "nota": "el MRI de Palo Alto"
+    },
+    {
+      "de": "gregory-bateson",
+      "a": "virginia-satir",
+      "tipo": "influencia",
+      "nota": "el MRI de Palo Alto"
+    },
+    {
+      "de": "jean-piaget",
+      "a": "lev-vygotsky",
+      "tipo": "dialogo",
+      "nota": "dos miradas sobre el desarrollo"
+    },
+    {
+      "de": "john-bowlby",
+      "a": "mary-ainsworth",
+      "tipo": "colaboracion",
+      "nota": "cuatro décadas de trabajo conjunto"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "alfred-adler",
+      "tipo": "ruptura",
+      "nota": "se separaron en 1911"
+    },
+    {
+      "de": "alfred-adler",
+      "a": "viktor-frankl",
+      "tipo": "influencia",
+      "nota": "formó parte de su círculo"
+    },
+    {
+      "de": "alfred-adler",
+      "a": "rollo-may",
+      "tipo": "influencia",
+      "nota": "asistió a sus seminarios en Viena"
+    },
+    {
+      "de": "alfred-adler",
+      "a": "abraham-maslow",
+      "tipo": "influencia",
+      "nota": "lo trató en Nueva York"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "otto-rank",
+      "tipo": "ruptura",
+      "nota": "veinte años a su lado; se alejaron tras 1924"
+    },
+    {
+      "de": "otto-rank",
+      "a": "carl-rogers",
+      "tipo": "influencia",
+      "nota": "el taller de Rochester (1936) y Jessie Taft"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "wilhelm-reich",
+      "tipo": "ruptura",
+      "nota": "expulsado de la IPA en 1934"
+    },
+    {
+      "de": "wilhelm-reich",
+      "a": "fritz-perls",
+      "tipo": "formacion",
+      "nota": "fue su analista en Berlín"
+    },
+    {
+      "de": "karen-horney",
+      "a": "fritz-perls",
+      "tipo": "formacion",
+      "nota": "fue su analista en Berlín"
+    },
+    {
+      "de": "karen-horney",
+      "a": "erich-fromm",
+      "tipo": "dialogo",
+      "nota": "compartieron el psicoanálisis culturalista en Nueva York"
+    },
+    {
+      "de": "karen-horney",
+      "a": "albert-ellis",
+      "tipo": "influencia",
+      "nota": "la tiranía de los debería"
+    },
+    {
+      "de": "harry-stack-sullivan",
+      "a": "erich-fromm",
+      "tipo": "dialogo",
+      "nota": "el psicoanálisis interpersonal"
+    },
+    {
+      "de": "sigmund-freud",
+      "a": "ludwig-binswanger",
+      "tipo": "dialogo",
+      "nota": "una amistad de toda la vida"
+    },
+    {
+      "de": "carl-gustav-jung",
+      "a": "ludwig-binswanger",
+      "tipo": "formacion",
+      "nota": "se formó con él y con Bleuler en Zúrich"
+    },
+    {
+      "de": "ludwig-binswanger",
+      "a": "rollo-may",
+      "tipo": "influencia",
+      "nota": "el libro Existence (1958)"
+    },
+    {
+      "de": "gregory-bateson",
+      "a": "ronald-laing",
+      "tipo": "influencia",
+      "nota": "el doble vínculo"
+    },
+    {
+      "de": "donald-winnicott",
+      "a": "ronald-laing",
+      "tipo": "formacion",
+      "nota": "lo supervisó en la Tavistock"
+    },
+    {
+      "de": "enrique-pichon-riviere",
+      "a": "marie-langer",
+      "tipo": "colaboracion",
+      "nota": "cofundadores de la APA en 1942"
+    },
+    {
+      "de": "william-james",
+      "a": "carl-gustav-jung",
+      "tipo": "influencia",
+      "nota": "se conocieron en 1909; Jung lo cita en Tipos psicológicos"
+    },
+    {
+      "de": "platon",
+      "a": "aristoteles",
+      "tipo": "formacion",
+      "nota": "estudió veinte años en la Academia"
+    },
+    {
+      "de": "platon",
+      "a": "carl-gustav-jung",
+      "tipo": "influencia",
+      "nota": "las ideas, comparadas con los arquetipos"
+    },
+    {
+      "de": "platon",
+      "a": "aaron-t-beck",
+      "tipo": "influencia",
+      "nota": "el método socrático de los diálogos"
+    },
+    {
+      "de": "aristoteles",
+      "a": "sigmund-freud",
+      "tipo": "influencia",
+      "nota": "la catarsis dio nombre al método catártico"
+    },
+    {
+      "de": "aristoteles",
+      "a": "martin-seligman",
+      "tipo": "influencia",
+      "nota": "la eudaimonía"
+    },
+    {
+      "de": "epicteto",
+      "a": "albert-ellis",
+      "tipo": "influencia",
+      "nota": "«no nos perturban las cosas, sino las opiniones»"
+    },
+    {
+      "de": "epicteto",
+      "a": "aaron-t-beck",
+      "tipo": "influencia",
+      "nota": "las raíces estoicas de la terapia cognitiva"
+    },
+    {
+      "de": "baruch-spinoza",
+      "a": "irvin-yalom",
+      "tipo": "influencia",
+      "nota": "la novela El problema de Spinoza"
+    },
+    {
+      "de": "immanuel-kant",
+      "a": "jean-piaget",
+      "tipo": "influencia",
+      "nota": "cómo se construyen las categorías"
+    },
+    {
+      "de": "immanuel-kant",
+      "a": "carl-gustav-jung",
+      "tipo": "influencia",
+      "nota": "los arquetipos y las categorías"
+    },
+    {
+      "de": "immanuel-kant",
+      "a": "arthur-schopenhauer",
+      "tipo": "influencia",
+      "nota": "partió de la filosofía de Kant"
+    },
+    {
+      "de": "hegel",
+      "a": "jacques-lacan",
+      "tipo": "influencia",
+      "nota": "el deseo de reconocimiento, vía Kojève"
+    },
+    {
+      "de": "hegel",
+      "a": "marsha-linehan",
+      "tipo": "influencia",
+      "nota": "la dialéctica"
+    },
+    {
+      "de": "arthur-schopenhauer",
+      "a": "sigmund-freud",
+      "tipo": "influencia",
+      "nota": "anticipó la represión"
+    },
+    {
+      "de": "arthur-schopenhauer",
+      "a": "friedrich-nietzsche",
+      "tipo": "influencia",
+      "nota": "se volvió filósofo leyéndolo"
+    },
+    {
+      "de": "arthur-schopenhauer",
+      "a": "carl-gustav-jung",
+      "tipo": "influencia",
+      "nota": "lo leyó de joven"
+    },
+    {
+      "de": "soren-kierkegaard",
+      "a": "rollo-may",
+      "tipo": "influencia",
+      "nota": "la angustia y la libertad"
+    },
+    {
+      "de": "friedrich-nietzsche",
+      "a": "sigmund-freud",
+      "tipo": "influencia",
+      "nota": "intuiciones que Freud reconoció"
+    },
+    {
+      "de": "friedrich-nietzsche",
+      "a": "carl-gustav-jung",
+      "tipo": "influencia",
+      "nota": "el seminario sobre Zaratustra (1934–1939)"
+    },
+    {
+      "de": "friedrich-nietzsche",
+      "a": "alfred-adler",
+      "tipo": "influencia",
+      "nota": "la voluntad de poder"
+    },
+    {
+      "de": "friedrich-nietzsche",
+      "a": "viktor-frankl",
+      "tipo": "influencia",
+      "nota": "«quien tiene un porqué para vivir…»"
+    },
+    {
+      "de": "friedrich-nietzsche",
+      "a": "irvin-yalom",
+      "tipo": "influencia",
+      "nota": "la novela El día que Nietzsche lloró"
+    },
+    {
+      "de": "martin-buber",
+      "a": "carl-rogers",
+      "tipo": "dialogo",
+      "nota": "el diálogo público de 1957"
+    },
+    {
+      "de": "martin-buber",
+      "a": "laura-perls",
+      "tipo": "influencia",
+      "nota": "la filosofía del diálogo"
+    },
+    {
+      "de": "rene-descartes",
+      "a": "ivan-pavlov",
+      "tipo": "influencia",
+      "nota": "la idea del reflejo"
+    },
+    {
+      "de": "john-locke",
+      "a": "john-b-watson",
+      "tipo": "influencia",
+      "nota": "la tabla rasa y el peso del ambiente"
+    },
+    {
+      "de": "edmund-husserl",
+      "a": "martin-heidegger",
+      "tipo": "formacion",
+      "nota": "fue su asistente en Friburgo"
+    },
+    {
+      "de": "edmund-husserl",
+      "a": "ludwig-binswanger",
+      "tipo": "influencia",
+      "nota": "el método fenomenológico"
+    },
+    {
+      "de": "martin-heidegger",
+      "a": "ludwig-binswanger",
+      "tipo": "influencia",
+      "nota": "el Daseinsanálisis"
+    },
+    {
+      "de": "martin-heidegger",
+      "a": "rollo-may",
+      "tipo": "influencia",
+      "nota": "el análisis existencial"
+    },
+    {
+      "de": "martin-heidegger",
+      "a": "jacques-lacan",
+      "tipo": "dialogo",
+      "nota": "Lacan tradujo su texto «Logos»"
+    },
+    {
+      "de": "jean-paul-sartre",
+      "a": "ronald-laing",
+      "tipo": "influencia",
+      "nota": "Razón y violencia (1964)"
+    },
+    {
+      "de": "jean-paul-sartre",
+      "a": "irvin-yalom",
+      "tipo": "influencia",
+      "nota": "la libertad y la responsabilidad"
+    },
+    {
+      "de": "maurice-merleau-ponty",
+      "a": "jacques-lacan",
+      "tipo": "dialogo",
+      "nota": "amistad y debate sobre la mirada"
+    },
+    {
+      "de": "buda",
+      "a": "jon-kabat-zinn",
+      "tipo": "influencia",
+      "nota": "la atención plena"
+    },
+    {
+      "de": "buda",
+      "a": "marsha-linehan",
+      "tipo": "influencia",
+      "nota": "el zen y la aceptación radical"
+    },
+    {
+      "de": "lao-tse",
+      "a": "carl-gustav-jung",
+      "tipo": "influencia",
+      "nota": "el tao y la unión de los opuestos"
+    },
+    {
+      "de": "lao-tse",
+      "a": "jean-shinoda-bolen",
+      "tipo": "influencia",
+      "nota": "El tao de la psicología"
+    },
+    {
+      "de": "patanjali",
+      "a": "carl-gustav-jung",
+      "tipo": "influencia",
+      "nota": "Yoga y Occidente"
+    },
+    {
+      "de": "patanjali",
+      "a": "jon-kabat-zinn",
+      "tipo": "influencia",
+      "nota": "el yoga en el MBSR"
+    },
+    {
+      "de": "d-t-suzuki",
+      "a": "carl-gustav-jung",
+      "tipo": "dialogo",
+      "nota": "el prólogo de 1939"
+    },
+    {
+      "de": "d-t-suzuki",
+      "a": "erich-fromm",
+      "tipo": "colaboracion",
+      "nota": "Budismo zen y psicoanálisis"
+    },
+    {
+      "de": "d-t-suzuki",
+      "a": "karen-horney",
+      "tipo": "influencia",
+      "nota": "el viaje a Japón de 1952"
+    },
+    {
+      "de": "wilhelm-reich",
+      "a": "alexander-lowen",
+      "tipo": "formacion",
+      "nota": "Lowen fue alumno de Reich en los años cuarenta"
+    },
+    {
+      "de": "carl-rogers",
+      "a": "eugene-gendlin",
+      "tipo": "formacion",
+      "nota": "Gendlin trabajó con Rogers en el estudio de las sesiones"
+    },
+    {
+      "de": "otto-rank",
+      "a": "stanislav-grof",
+      "tipo": "influencia",
+      "nota": "la teoría del trauma del nacimiento"
+    },
+    {
+      "de": "abraham-maslow",
+      "a": "stanislav-grof",
+      "tipo": "dialogo",
+      "nota": "el nombre de la psicología transpersonal, 1967"
+    },
+    {
+      "de": "epicteto",
+      "a": "marco-aurelio",
+      "tipo": "influencia",
+      "nota": "leyó sus Disertaciones, que le prestó Rústico"
+    },
+    {
+      "de": "donald-winnicott",
+      "a": "hector-fiorini",
+      "tipo": "influencia",
+      "nota": "el juego y la creatividad en el psiquismo creador"
+    },
+    {
+      "de": "jean-paul-sartre",
+      "a": "hector-fiorini",
+      "tipo": "influencia",
+      "nota": "la idea de proyecto en Foco, situación y proyecto"
+    },
+    {
+      "de": "enrique-pichon-riviere",
+      "a": "jose-bleger",
+      "tipo": "formacion",
+      "nota": "Bleger se formó bajo su influencia"
+    },
+    {
+      "de": "melanie-klein",
+      "a": "ronald-fairbairn",
+      "tipo": "dialogo",
+      "nota": "dos teorías de las relaciones de objeto"
+    },
+    {
+      "de": "melanie-klein",
+      "a": "otto-kernberg",
+      "tipo": "influencia",
+      "nota": "integró las relaciones de objeto en su teoría"
+    },
+    {
+      "de": "heinz-kohut",
+      "a": "otto-kernberg",
+      "tipo": "dialogo",
+      "nota": "debate sobre el narcisismo"
+    },
+    {
+      "de": "rene-spitz",
+      "a": "john-bowlby",
+      "tipo": "influencia",
+      "nota": "el hospitalismo como antecedente del estudio del apego"
+    },
+    {
+      "de": "francoise-dolto",
+      "a": "maud-mannoni",
+      "tipo": "colaboracion",
+      "nota": "trabajaron juntas en el hospital Trousseau"
+    },
+    {
+      "de": "ronald-laing",
+      "a": "maud-mannoni",
+      "tipo": "dialogo",
+      "nota": "antipsiquiatría y la escuela de Bonneuil"
+    },
+    {
+      "de": "solomon-asch",
+      "a": "stanley-milgram",
+      "tipo": "influencia",
+      "nota": "de la conformidad a la obediencia"
+    },
+    {
+      "de": "martin-seligman",
+      "a": "mihaly-csikszentmihalyi",
+      "tipo": "colaboracion",
+      "nota": "referentes de la psicología positiva"
+    },
+    {
+      "de": "paul-gilbert",
+      "a": "kristin-neff",
+      "tipo": "dialogo",
+      "nota": "compasión y autocompasión"
+    },
+    {
+      "de": "buda",
+      "a": "francisco-varela",
+      "tipo": "influencia",
+      "nota": "el budismo en la cognición encarnada"
+    },
+    {
+      "de": "francisco-varela",
+      "a": "jon-kabat-zinn",
+      "tipo": "dialogo",
+      "nota": "ciencia contemplativa"
+    }
+  ]
 }
