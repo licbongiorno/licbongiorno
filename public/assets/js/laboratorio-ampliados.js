@@ -418,4 +418,84 @@
     { t: "Descansar es egoísta cuando la otra persona te necesita.", r: "a", e: "Los descansos, aunque sean breves, permiten seguir cuidando sin enfermarte. Cuidarte es parte del cuidado." },
     { t: "El estudio de la «carga» del cuidador tiene su origen en trabajos como el de Zarit (1980).", r: "b", e: "Zarit, Reever y Bach-Peterson (1980) estudiaron los sentimientos de carga en familiares de adultos mayores con deterioro." }
   ]);
+  LAB.quiz("act-mitos", [
+    { t: "Para la ACT, el objetivo es que los pensamientos difíciles desaparezcan.", r: "a", e: "No hace falta que los pensamientos se vayan. La ACT propone hacerles lugar y, con eso a cuestas, moverte hacia lo que te importa." },
+    { t: "La defusión no discute si un pensamiento es cierto: cambia la relación con él.", r: "b", e: "Cuando estamos fusionados con un pensamiento lo vivimos como una verdad. La defusión cambia esa relación." },
+    { t: "Aceptar significa resignarse a cualquier sufrimiento.", r: "a", e: "Aceptar no significa tolerar situaciones de maltrato ni resignarse a un sufrimiento que tiene solución. Si algo te daña, la prioridad es cuidarte y pedir ayuda." },
+    { t: "Los valores son direcciones que se viven, no metas que se cumplen.", r: "b", e: "Los valores no se «cumplen»: se viven. Por eso se trabajan con acciones pequeñas que vayan en esa dirección." },
+    { t: "En la metáfora de la cuerda, hay que ganarle la pelea al monstruo.", r: "a", e: "Soltar la cuerda no es ganar: el monstruo sigue ahí, pero tus manos quedan libres para hacer otra cosa." },
+    { t: "Hay que esperar a que se vaya el miedo para dar un paso hacia lo que te importa.", r: "a", e: "El ejercicio propone hacer una acción pequeña aunque aparezca el miedo, llevando esos pensamientos y emociones con vos." }
+  ]);
+  LAB.quiz("autocompasion-lab-mitos", [
+    { t: "Tratarte con amabilidad te vuelve más vago y complaciente.", r: "a", e: "Según las investigaciones de Kristin Neff, la autocompasión no vuelve a las personas más vagas ni complacientes: se asocia con más motivación para mejorar y menos miedo al fracaso." },
+    { t: "La autocompasión es tenerse lástima o conformarse con poco.", r: "a", e: "Es acortar la distancia entre cómo te hablás y cómo le hablarías a un amigo, sin tenerse lástima ni conformarse con poco." },
+    { t: "Para Neff, la autocompasión reúne amabilidad con uno mismo, humanidad compartida y atención plena.", r: "b", e: "Por separado ayudan; cuando se superponen, aparece la autocompasión." },
+    { t: "Pensar «a nadie más le pasa esto» es una muestra de humanidad compartida.", r: "a", e: "Es lo contrario: la humanidad compartida recuerda que equivocarse y sufrir es parte de la experiencia humana. No estás solo." },
+    { t: "La autoestima que depende de ser siempre el mejor es frágil.", r: "b", e: "La que se apoya en tratarse bien es mucho más estable." },
+    { t: "Si al tratarte con amabilidad aparece una tristeza vieja, el ejercicio salió mal.", r: "a", e: "No es que salga mal: es que algo se está aflojando. Si te pasa con intensidad, conviene trabajarlo acompañado." }
+  ]);
+  LAB.quiz("trauma-mitos", [
+    { t: "Todo lo doloroso es trauma, y todas las personas que atraviesan algo terrible desarrollan síntomas.", r: "a", e: "No todo lo doloroso es trauma, y no todas las personas que atraviesan algo terrible desarrollan síntomas." },
+    { t: "Para Judith Herman, las reacciones al trauma son respuestas comprensibles a situaciones anormales.", r: "b", e: "No son signos de debilidad. Entenderlas suele ser un primer alivio." },
+    { t: "Si después de algo muy difícil seguís con reacciones intensas, es debilidad o exageración.", r: "a", e: "No es debilidad ni exageración: es una reacción que tiene tratamiento. Podés pedir ayuda cuando lo necesites." },
+    { t: "Sin seguridad, no conviene avanzar sobre los recuerdos.", r: "b", e: "Para Herman, la seguridad es la etapa más importante de la recuperación y muchas veces es la más larga." },
+    { t: "Las etapas de la recuperación se recorren en línea recta, sin volver atrás.", r: "a", e: "No son lineales: se vuelve a las anteriores muchas veces, cada vez con más recursos." },
+    { t: "Estar siempre en guardia o sobresaltarse con facilidad puede ser una reacción al trauma.", r: "b", e: "El cuerpo sigue preparado para un peligro que ya no está. Es una de las familias de reacciones, y tiene tratamiento." }
+  ]);
+  LAB.quiz("regulacion-mitos", [
+    { t: "Regularse es calmarse a fuerza de voluntad o respirar hondo hasta que se pase.", r: "a", e: "Es, en buena parte, aprender a reconocer las señales del cuerpo y acompañarlas de a poco, para que recupere la sensación de estar a salvo en el presente." },
+    { t: "Daniel Siegel llamó ventana de tolerancia a la franja en la que podemos sentir sin desbordarnos.", r: "b", e: "Dentro de la ventana hay emoción, pero también podemos pensar y elegir." },
+    { t: "Sentirse apagado, entumecido o desconectado es una forma de salirse de la ventana.", r: "b", e: "Es la hipoactivación, por debajo de la ventana. La hiperactivación, por encima, es sentirse acelerado." },
+    { t: "En la pendulación conviene ir directo a la incomodidad más intensa.", r: "a", e: "Se elige una incomodidad leve, no la más intensa. Levine habla de titulación: acercarse de a gotas, y terminar siempre en el recurso." },
+    { t: "Practicar cuando estás tranquilo hace más fácil usar los recursos cuando los necesitás.", r: "b", e: "Así, cuando salgas de la ventana, vas a tener a mano por dónde volver." },
+    { t: "Los recursos son solo ejercicios del cuerpo.", r: "a", e: "Pat Ogden habla de recursos del cuerpo, de los vínculos, del entorno o internos: todo lo que te ayuda a volver a tu ventana." }
+  ]);
+  LAB.quiz("emociones-mitos", [
+    { t: "Hay emociones buenas y emociones malas.", r: "a", e: "Las emociones no son buenas ni malas: son información. Hay formas de expresarlas que lastiman, pero ninguna emoción está prohibida." },
+    { t: "Ponerle nombre a una emoción ya la vuelve un poco más manejable.", r: "b", e: "Por eso este laboratorio empieza por encontrar la palabra justa." },
+    { t: "Según Ekman, hay un grupo de emociones básicas que se reconocen en culturas muy distintas.", r: "b", e: "De cada una se desprenden muchas emociones más finas, con sus matices." },
+    { t: "El enojo solo sirve para lastimar.", r: "a", e: "Avisa que algo es injusto o que se cruzó un límite, y da energía para defenderse. Suele pedir poner un límite o ser escuchado." },
+    { t: "Si la tristeza dura semanas y nada interesa, alcanza con esperar.", r: "a", e: "Puede ser depresión: vale la pena consultar." },
+    { t: "Para Jung, las emociones son energía y una puerta para darse cuenta.", r: "b", e: "Mirarlas con curiosidad es una forma de acercarse a eso." }
+  ]);
+  LAB.quiz("meditacion-mitos", [
+    { t: "Para meditar hace falta un almohadón especial, incienso y una hora libre.", r: "a", e: "Hace falta un lugar donde sentarte un rato y la disposición a darte cuenta de que te fuiste a otro lado, y volver." },
+    { t: "Si te distraés, meditaste mal.", r: "a", e: "Darte cuenta de que te fuiste y volver es lo que entrena. No hay meditaciones «buenas» o «malas»: hay ratos de práctica." },
+    { t: "Cinco minutos todos los días valen más que una hora una vez.", r: "b", e: "Corto y seguido: la regularidad pesa más que la duración." },
+    { t: "Meditar es seguro para todas las personas en cualquier momento.", r: "a", e: "Es seguro para la mayoría, pero no para todas ni en cualquier momento. Si aparecen recuerdos traumáticos o mucha angustia, frená, abrí los ojos y volvé a algo concreto." },
+    { t: "«Una palabra que calma» es lo mismo que la meditación trascendental.", r: "a", e: "Herbert Benson describió la respuesta de relajación. No es la meditación trascendental, que se enseña con un mantra asignado, sino una versión libre." },
+    { t: "Ponerle una etiqueta breve a lo que aparece es una técnica de la vipassana.", r: "b", e: "Poner en palabras lo que sentimos, según la investigación, baja su intensidad." }
+  ]);
+  LAB.quiz("mindfulness-mitos", [
+    { t: "Mindfulness es dejar la mente en blanco y estar siempre en paz.", r: "a", e: "Es algo más simple: darte cuenta de lo que estás haciendo mientras lo hacés." },
+    { t: "Kabat-Zinn lo definió como prestar atención a propósito, en el momento presente y sin juzgar.", r: "b", e: "Por eso distraerte es parte de la práctica: volver es el ejercicio." },
+    { t: "Distraerte arruina la práctica.", r: "a", e: "Distraerte es parte de la práctica. Volver es el ejercicio." },
+    { t: "Un impulso crece como una ola, llega a un pico y, si no se actúa en seguida, vuelve a bajar.", r: "b", e: "Surfearlo es acompañarlo con la atención y la respiración, sin pelear ni obedecer." },
+    { t: "Ante un impulso, solo se puede obedecerlo o pelearlo.", r: "a", e: "La práctica propone una tercera opción: acompañarlo como quien surfea una ola." },
+    { t: "La atención plena es adecuada en cualquier momento, aun con trauma o depresión intensa.", r: "a", e: "No es para todos los momentos. Con trauma o una depresión intensa, conviene hacerlo acompañado." }
+  ]);
+  LAB.quiz("sentido-mitos", [
+    { t: "Según Frankl, el sentido se inventa o se recibe hecho.", r: "a", e: "Para él, el sentido no se inventa ni se recibe hecho: se descubre en cada situación concreta." },
+    { t: "Frankl describió tres vías del sentido: lo que damos, lo que recibimos y la actitud frente a lo que no podemos cambiar.", r: "b", e: "Son los valores de creación, de experiencia y de actitud." },
+    { t: "Tomar una actitud frente a lo que no podés cambiar significa que «esté bien».", r: "a", e: "No se trata de que esté bien, sino de qué hacés vos con eso." },
+    { t: "La pregunta invertida de Frankl es qué espera la vida de mí, y no qué espero yo de la vida.", r: "b", e: "Cambia el lugar desde donde mirás: de esperar que algo llegue a preguntarte a qué estás siendo llamado." },
+    { t: "Si el dolor es muy reciente, conviene buscarle un sentido cuanto antes.", r: "a", e: "Quizás no sea el momento: primero está el tiempo de sentirlo." },
+    { t: "La sensación de que nada tiene sentido puede ser parte de una depresión.", r: "b", e: "Si se sostiene en el tiempo o dejaste de disfrutar de casi todo, no es un problema de reflexión: es algo para consultar." }
+  ]);
+  LAB.quiz("valores-mitos", [
+    { t: "Los valores son metas que se cumplen de una vez.", r: "a", e: "Son como una brújula: no un lugar al que se llega, sino una dirección que se elige cada día." },
+    { t: "Hay valores mejores que otros.", r: "a", e: "No hay valores mejores que otros. Elegí lo que te importa, no lo que «debería» importarte." },
+    { t: "A veces el malestar no viene de lo que nos pasa, sino de lo lejos que estamos de lo que valoramos.", r: "b", e: "Por eso este laboratorio parte de elegir y ordenar tus valores." },
+    { t: "Para Frankl, lo que más nos sostiene es el sentido.", r: "b", e: "Sobrevivió a los campos de concentración y sostuvo que el sentido es lo que más nos sostiene." },
+    { t: "Ver una distancia grande entre lo que valorás y la vida que llevás es un fracaso.", r: "a", e: "No es un fracaso: es información. Si duele, es un buen momento para conversarlo." },
+    { t: "Las terapias de aceptación y compromiso trabajan los valores como una brújula.", r: "b", e: "Una dirección que se elige cada día, no un lugar al que se llega." }
+  ]);
+  LAB.quiz("alcohol-mitos", [
+    { t: "Según la OMS, hay un nivel de consumo de alcohol totalmente seguro para la salud.", r: "a", e: "La OMS advirtió en 2023 que no hay un nivel totalmente seguro: el riesgo crece con la cantidad. Contar lo que tomás es un primer paso, sin juicio." },
+    { t: "Lo único que importa para saber si el consumo es un problema es la cantidad.", r: "a", e: "Más que la cantidad, importa lo que el consumo hace en tu vida." },
+    { t: "El AUDIT-C es un diagnóstico.", r: "a", e: "Son las tres primeras preguntas del AUDIT, de la OMS, y se usan para detectar un consumo de riesgo. No es un diagnóstico." },
+    { t: "Si hoy no querés dejar de tomar, igual podés reducir los riesgos.", r: "b", e: "La reducción de daños es un enfoque de salud pública que acompaña a las personas donde están." },
+    { t: "Las ganas de tomar suelen bajar en minutos si no se las alimenta.", r: "b", e: "Marlatt propuso tratarlas como una ola: sube, llega a un pico y baja. Si podés, esperá veinte minutos antes de decidir." },
+    { t: "Si tomás mucho todos los días desde hace tiempo, dejar de golpe es siempre seguro.", r: "a", e: "Puede ser peligroso. Antes de dejar, consultá con un médico: hay tratamientos que ayudan. Si aparecen temblores fuertes, confusión, alucinaciones o convulsiones, andá a una guardia o llamá al 107." }
+  ]);
 })();

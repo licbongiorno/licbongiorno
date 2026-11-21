@@ -8,7 +8,7 @@
   "h1": "Laboratorio para <em>entender el trauma</em>",
   "bajada": "Información clara para entender qué le pasa a la mente y al cuerpo después de una experiencia traumática, algunas herramientas para los momentos difíciles y cómo buscar ayuda.",
   "respuesta": "El laboratorio para entender el trauma es un recurso psicoeducativo, no terapéutico: qué es una experiencia traumática y cómo puede manifestarse (recuerdos intrusivos, evitación, hiperalerta, cambios en el ánimo), la ventana de tolerancia, ejercicios de anclaje para cuando la emoción desborda, las tres etapas de la recuperación según Judith Herman (Trauma and Recovery, 1992): seguridad, recuerdo y duelo, y reconexión, y cómo pedir ayuda. No reemplaza un tratamiento especializado.",
-  "scripts": ["lab-base.js", "laboratorio-tematicos.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-tematicos.js", "escenas.js"],
   "wa_tema": "el laboratorio para entender el trauma",
   "articulos": ["la-resiliencia"]
 }-->
@@ -36,7 +36,7 @@
       <a href="#anclaje">Anclaje</a>
       <a href="#etapas">Las etapas de la recuperación</a>
       <a href="#ayuda">Cómo pedir ayuda</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="senales" aria-labelledby="t-senales">
       <p class="lab-estacion__num">01</p>
@@ -117,6 +117,19 @@
           <li>¿Me siento seguro en el vínculo con esta persona?</li>
         </ol>
         <p class="lab-paso__ayuda">Si el trauma tiene que ver con violencia de género, la línea 144 atiende las 24 horas. Si fue violencia en el vínculo, mirá también el <a href="/laboratorio-de-violencia-en-el-vinculo/">laboratorio sobre violencia en el vínculo</a>.</p>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre el trauma y la recuperación. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="trauma-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
       </div>
     </section>
 

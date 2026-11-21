@@ -22,7 +22,7 @@
   "bajada": "Sin sermones y sin etiquetas: mirar con honestidad cuánto tomás, qué te da y qué te quita, y qué querés hacer con eso.",
   "respuesta": "El laboratorio de alcohol y otros consumos propone revisar el propio consumo con herramientas basadas en evidencia: el autochequeo AUDIT-C de la OMS, una calculadora de gramos y unidades semanales, las señales de un consumo problemático, las etapas del cambio de Prochaska y DiClemente, el balance de la entrevista motivacional de Miller y Rollnick, un registro de disparadores, surfear el impulso según Marlatt, estrategias de reducción de daños, cuidados ante la abstinencia, cómo acompañar a alguien cercano según el enfoque CRAFT y un plan de 7 días. En Argentina, el abuso de alcohol es uno de los trastornos más frecuentes. La línea 141 de SEDRONAR orienta de forma gratuita.",
   "scripts": [
-    "lab-base.js",
+    "lab-base.js", "laboratorio-ampliados.js",
     "laboratorio-clinicos.js",
     "escenas.js"
   ],
@@ -36,7 +36,7 @@
       <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Sin juicio.</strong> Mirar no obliga a cambiar.</li><li><strong>Con datos.</strong> Contar es el primer paso.</li><li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li></ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#unidades">¿Cuánto tomo?</a><a href="#audit">Autochequeo</a><a href="#senales">Señales</a><a href="#etapas">Etapas del cambio</a><a href="#balance">El balance</a><a href="#registro">Disparadores</a><a href="#impulso">Surfear el impulso</a><a href="#danos">Reducir daños</a><a href="#abstinencia">Si querés dejar</a><a href="#otros">Otros consumos</a><a href="#cercano">Si es alguien cercano</a><a href="#siete-dias">Plan de 7 días</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#unidades">¿Cuánto tomo?</a><a href="#audit">Autochequeo</a><a href="#senales">Señales</a><a href="#etapas">Etapas del cambio</a><a href="#balance">El balance</a><a href="#registro">Disparadores</a><a href="#impulso">Surfear el impulso</a><a href="#danos">Reducir daños</a><a href="#abstinencia">Si querés dejar</a><a href="#otros">Otros consumos</a><a href="#cercano">Si es alguien cercano</a><a href="#siete-dias">Plan de 7 días</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="unidades" aria-labelledby="t-unidades">
       <p class="lab-estacion__num">01</p>
@@ -203,6 +203,19 @@
         </ol>
         <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
         <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">13</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas sobre el alcohol y otros consumos, sin juicio. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="alcohol-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
       </div>
     </section>
 
