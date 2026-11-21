@@ -60,6 +60,8 @@ Es el método que Klein creó para analizar a niños pequeños: interpretar lo q
 
 Es un mecanismo por el que se ubica en otro una parte de uno mismo que resulta intolerable, y se trata al otro como si fuera esa parte.
 
+En la misma época, [Ronald Fairbairn](/recursos/ronald-fairbairn/) desarrolló en Escocia otra teoría de las relaciones de objeto.
+
 ## Para seguir leyendo
 
 - Klein, M. (1932). *El psicoanálisis de niños*.

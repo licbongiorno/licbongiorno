@@ -59,6 +59,8 @@ Usar «narcisista» como descalificación general contribuye a que quienes realm
 
 Si en un vínculo hay violencia, amenazas o riesgo para tu integridad, o si sentís que no podés más, pedí ayuda ahora. Entrá en [ayuda urgente](/ayuda-urgente/), llamá al 911, al Centro de Asistencia al Suicida (135 en CABA y GBA, o 0800-345-1435) o a la Línea de Salud Mental (0800-999-0091).
 
+Otto Kernberg también estudió la patología narcisista: ver [Otto Kernberg](/recursos/otto-kernberg/).
+
 ## Para seguir
 
 Este artículo es informativo y no reemplaza una evaluación profesional.

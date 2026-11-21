@@ -59,6 +59,8 @@ Es la forma habitual en que una persona explica lo que le pasa. Seligman disting
 
 Es la propuesta de Seligman sobre los componentes del bienestar: emociones positivas, compromiso, relaciones, sentido y logro.
 
+Otro referente de la psicología positiva es [Mihaly Csikszentmihalyi](/recursos/mihaly-csikszentmihalyi/), que estudió el flujo.
+
 ## Para seguir leyendo
 
 - Seligman, M. E. P. (1975). *Indefensión*.

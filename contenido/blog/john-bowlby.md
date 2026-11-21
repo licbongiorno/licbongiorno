@@ -63,6 +63,8 @@ Trabajaron juntos durante décadas. Bowlby formuló la teoría y Ainsworth aport
 
 Para practicarlo, probá el [Laboratorio del desarrollo y el apego](/laboratorio-del-desarrollo-y-el-apego/).
 
+Antes de Bowlby, [René Spitz](/recursos/rene-spitz/) había descrito el hospitalismo; después, [Margaret Mahler](/recursos/margaret-mahler/) estudió la separación-individuación.
+
 ## Para seguir leyendo
 
 - Bowlby, J. (1969). *El apego* (vol. 1 de *El apego y la pérdida*).

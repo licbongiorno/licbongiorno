@@ -703,4 +703,218 @@
   { t: "Una familia con límites rígidos es la que más se cuida, porque cada uno resuelve solo.", r: "a", e: "Los límites rígidos significan mucha distancia: se habla poco de lo que pasa y cuesta pedir apoyo. Los claros combinan cercanía y autonomía." },
   { t: "Las familias transmiten mandatos, a veces explícitos y a veces silenciosos, como «de eso no se habla».", r: "b", e: "Boszormenyi-Nagy habló además de lealtades invisibles: compromisos inconscientes con la familia que pueden pesar en la vida de cada uno." }
   ]);
+  LAB.quiz("act-comprometido-mitos", [
+  { t: "Abrirse a lo que duele y observar los pensamientos son un fin en sí mismos.", r: "a", e: "Están al servicio del tercer pilar: liberan energía para hacer lo que importa, que es el pilar comprometido." },
+  { t: "Comprometerse con los valores significa exigirse más.", r: "a", e: "Si ya vivís agotado de tanto «tener que», quizás el valor que hoy pide lugar es el cuidado de vos mismo." },
+  { t: "En la metáfora del colectivo, la alternativa a discutir con los pasajeros es dejarlos viajar, aunque griten, y seguir manejando hacia donde elegiste.", r: "b", e: "Si les hacés caso manejás adonde ellos quieren, y si parás a discutir no avanzás." },
+  { t: "Para dar un paso hacia lo que te importa, primero tenés que sentirte listo y sin miedo.", r: "a", e: "La acción comprometida se hace con el malestar a bordo: no hace falta esperar a sentirse listo." },
+  { t: "Un valor se vive en acciones concretas, y conviene empezar con un paso chico.", r: "b", e: "Un valor se vive en pasos concretos, no en grandes planes; la versión más chica también cuenta." },
+  { t: "Si sentís que nada te importa, eso demuestra que no tenés valores.", r: "a", e: "Puede ser una señal de depresión más que de falta de valores, y conviene consultarlo." }
+  ]);
+
+  LAB.quiz("compasion-flujos-mitos", [
+  { t: "Quien es muy compasivo con los demás lo es, seguramente, también consigo.", r: "a", e: "Muchas personas tienen un flujo muy desarrollado y otro bloqueado: son muy compasivas con otros y durísimas consigo." },
+  { t: "Para algunas personas, la compasión no calma, sino que asusta.", r: "b", e: "Gilbert observó que la calidez puede activar el sistema de amenaza, sobre todo si el afecto vino mezclado con dolor." },
+  { t: "Si la calidez de alguien te da tristeza, es que la práctica fracasó.", r: "a", e: "Esa tristeza es frecuente y puede ser el recuerdo de lo que faltó: señal de que algo se está abriendo." },
+  { t: "Gilbert describe tres flujos de la compasión: hacia otros, desde otros y hacia uno mismo.", r: "b", e: "Son tres direcciones que no siempre fluyen igual." },
+  { t: "Ser compasivo con uno mismo es ser débil o blando.", r: "a", e: "Es uno de los miedos a la compasión que Gilbert y sus colegas estudiaron. Nombrarlo ya lo afloja un poco." },
+  { t: "El segundo flujo, recibir, suele ser el más difícil.", r: "b", e: "A muchas personas les cuesta dejarse ayudar, aunque puedan dar." }
+  ]);
+
+  LAB.quiz("compasion-sistemas-mitos", [
+  { t: "Para Gilbert, la compasión es debilidad o lástima.", r: "a", e: "Es la sensibilidad al sufrimiento, propio y ajeno, junto con el compromiso de aliviarlo." },
+  { t: "Gilbert propone tres sistemas de regulación emocional: amenaza, logro y calma.", r: "b", e: "Evolucionaron para funciones distintas, y muchos problemas aparecen cuando el de calma quedó poco desarrollado." },
+  { t: "El sistema de amenaza es un defecto del cerebro que no sirve para nada.", r: "a", e: "Sirve para detectar peligros y protegernos. El problema aparece cuando domina." },
+  { t: "Cuando el sistema de calma está débil, la única forma de sentirnos bien es lograr cosas o eliminar amenazas.", r: "b", e: "Por eso entrenar la calma ayuda a equilibrar los otros dos sistemas." },
+  { t: "En la respiración de ritmo calmante hay que respirar «bien», de una forma perfecta.", r: "a", e: "No se trata de respirar bien, sino de encontrar un ritmo un poco más lento y suave que el habitual." },
+  { t: "La imaginación activa sistemas del cuerpo como si lo imaginado estuviera pasando.", r: "b", e: "Por eso el lugar seguro sirve para entrenar el sistema de calma, aunque la imagen no sea nítida." }
+  ]);
+
+  LAB.quiz("adolescentes-mitos", [
+  { t: "Sentir pérdida y confusión en la adolescencia es señal de que algo anda mal.", r: "a", e: "Aberastury y Knobel describieron tres duelos de la adolescencia, y es normal sentir pérdida y confusión." },
+  { t: "Según Aberastury y Knobel, los tres duelos son por el cuerpo, la identidad y los padres de la infancia.", r: "b", e: "Nombrar cada despedida ayuda a entender el enojo, la tristeza o la confusión." },
+  { t: "La identidad tiene que estar definida a esta edad.", r: "a", e: "Se construye probando cosas, equivocándose y volviendo a empezar." },
+  { t: "Pedir ayuda es una forma de fallar.", r: "a", e: "Es una forma de cuidarte, y podés empezar con una persona de confianza y una frase simple." },
+  { t: "Escuchar primero, sin interrumpir, muchas veces abre la conversación con un adolescente.", r: "b", e: "Escuchar sin corregir le da la sensación de ser entendido, y es más probable que vuelva a contar." },
+  { t: "Como los adolescentes discuten los límites, no los necesitan.", r: "a", e: "Los necesitan aunque los discutan: pocos y claros funcionan mejor que muchos y cambiantes." }
+  ]);
+
+  LAB.quiz("aprendizaje-habito-mitos", [
+  { t: "Un estímulo neutro puede volverse señal de una emoción si se asocia a algo que la produce.", r: "b", e: "Pávlov lo mostró con un sonido, y lo mismo pasa con olores, lugares u horas del día." },
+  { t: "Un hábito nuevo se sostiene mejor empezando con un cambio grande y ambicioso.", r: "a", e: "Conviene empezar por un paso casi imposible de fallar, que dure menos de dos minutos." },
+  { t: "Si la consecuencia de una conducta la refuerza, tiende a repetirse.", r: "b", e: "Por eso el análisis de la conducta mira lo que precede y lo que sigue." },
+  { t: "La autoeficacia es una creencia fija con la que se nace.", r: "a", e: "Para Bandura se forma con experiencias propias, con ver a otros lograrlo, con palabras de aliento y con el estado del cuerpo." },
+  { t: "Según William James, repetir una conducta no cambia lo fácil que resulta hacerla.", r: "a", e: "James describió que una conducta repetida se vuelve más fácil y automática." },
+  { t: "Dividir una tarea en pasos chicos aporta evidencia para creer en uno mismo.", r: "b", e: "Cada paso logrado es una evidencia para la creencia en la propia capacidad." }
+  ]);
+
+  LAB.quiz("complejos-tipos-mitos", [
+  { t: "Un complejo es un defecto que tienen solo algunas personas.", r: "a", e: "Un complejo no es un defecto: todos los tenemos." },
+  { t: "Jung descubrió los complejos con un experimento de asociación de palabras en el hospital Burghölzli.", r: "b", e: "Notó que algunas palabras producían demoras, tropiezos u olvidos, detrás de los cuales había recuerdos con fuerte carga afectiva." },
+  { t: "Una demora larga ante una palabra prueba que tenés un complejo.", r: "a", e: "Es solo una pista para explorar, no una conclusión." },
+  { t: "Jung decía que a veces los complejos nos tienen a nosotros, y no al revés.", r: "b", e: "Se reconocen por la reacción desproporcionada y la sensación de que «algo se apoderó de mí»." },
+  { t: "Los tipos psicológicos de Jung son casilleros en los que cada persona encaja.", r: "a", e: "Jung mismo advertía que los tipos no son casilleros sino orientaciones." },
+  { t: "Bajo estrés, la función inferior suele aparecer de forma torpe o explosiva.", r: "b", e: "Pero también es una puerta hacia lo que falta desarrollar." }
+  ]);
+
+  LAB.quiz("creatividad-mitos", [
+  { t: "Para ser creativo hace falta ser artista.", r: "a", e: "Hace falta acordarse de jugar, como cuando de chicos una caja podía ser un barco." },
+  { t: "Winnicott decía que es jugando, y solo jugando, que podemos ser creativos y sentirnos vivos.", r: "b", e: "El garabato de Winnicott es un juego muy simple: uno hace un trazo y el otro lo convierte en dibujo." },
+  { t: "En los usos imposibles de un objeto, lo importante es acertar la respuesta correcta.", r: "a", e: "No se trata de acertar, sino de abrir: Guilford miraba fluidez, flexibilidad y originalidad." },
+  { t: "Las restricciones, aunque parezca raro, despiertan la creatividad.", r: "b", e: "Ponerse una regla extraña obliga a la cabeza a salir del camino de siempre." },
+  { t: "Para escribir con creatividad hay que corregir cada frase mientras la escribís.", r: "a", e: "Escribir sin corregir es una forma de escucharse: conviene que la mano vaya más rápido que el juez interno." },
+  { t: "Según el enfoque junguiano de esta estación, cada imagen tiene un significado fijo.", r: "a", e: "No hay significados fijos: vale lo que la imagen te despierta a vos." }
+  ]);
+
+  LAB.quiz("crisis-vitales-mitos", [
+  { t: "Una crisis vital se resuelve «dando vuelta la página» o reinventándose en un fin de semana.", r: "a", e: "Es un momento en que lo anterior ya no sirve y lo nuevo todavía no tiene forma, y cada transición tiene su tiempo." },
+  { t: "Bridges distinguía entre el cambio, que es externo, y la transición, que es interna y lleva tiempo.", r: "b", e: "El cambio puede ser rápido; la transición, no." },
+  { t: "Para Bridges, toda transición empieza por un nuevo comienzo.", r: "a", e: "Empieza, paradójicamente, por un final, pasa por una zona neutral y recién después llega un nuevo comienzo." },
+  { t: "Las tres fases de una transición se superponen en el tiempo.", r: "b", e: "No son etapas separadas: algo termina, aparece la zona neutral y algo empieza, a la vez." },
+  { t: "Si el cambio fue elegido, no hay duelo.", r: "a", e: "Un final es un duelo aunque el cambio haya sido elegido." },
+  { t: "El duelo migratorio es múltiple y suele volver en fechas o momentos inesperados.", r: "b", e: "Se cambia de lugar, de vínculos, de rutinas y a veces de idioma." }
+  ]);
+
+  LAB.quiz("duda-percepcion-mitos", [
+  { t: "El ejercicio de Descartes consiste en dudar de todo.", r: "a", e: "Se trata de notar cuántas cosas damos por ciertas sin haberlas revisado." },
+  { t: "Locke imaginó la mente como una tabla rasa: las ideas llegan por la sensación y por la reflexión.", r: "b", e: "Revisar el origen de una creencia ayuda a verla como algo aprendido." },
+  { t: "La epojé de Husserl consiste en negar lo que sabemos.", r: "a", e: "Deja lo sabido en suspenso para mirar lo que aparece, y así describir con más precisión." },
+  { t: "Si algo que das por cierto no tiene pruebas, conviene anotarlo como hipótesis y no como hecho.", r: "b", e: "Y averiguar en vez de suponer." },
+  { t: "Una creencia sobre uno mismo es una verdad que siempre fue así.", r: "a", e: "Puede reescribirse como algo que aprendiste, no como lo que sos." },
+  { t: "Según Locke, algunas ideas quedan unidas por costumbre o por azar y después aparecen juntas sin relación lógica.", r: "b", e: "La cadena de palabras hace visibles esos vínculos." }
+  ]);
+
+  LAB.quiz("escritura-expresiva-mitos", [
+  { t: "La escritura expresiva es un diario donde hay que escribir bonito.", r: "a", e: "Es poner en palabras, sin censura, algo que te dolió o te sigue pesando." },
+  { t: "Pennebaker encontró que estudiantes que escribieron así durante cuatro días consultaron menos al médico en los meses siguientes.", r: "b", e: "Los resultados posteriores fueron positivos, aunque modestos." },
+  { t: "Mientras escribís, conviene corregir y releer cada párrafo.", r: "a", e: "La consigna es escribir sin parar, sin corregir y sin releer; si no sabés qué poner, repetí la última frase." },
+  { t: "Es esperable sentirse un poco peor justo después de escribir.", r: "b", e: "Si te desborda, pará." },
+  { t: "Se recomienda hacerlo sobre un trauma muy reciente o en medio de una crisis.", r: "a", e: "No se recomienda en esos casos, y conviene buscar acompañamiento." },
+  { t: "A quienes más les servía la escritura eran quienes pasaban de contar a entender.", r: "b", e: "Usaban más palabras como «porque», «me doy cuenta» o «entiendo»." }
+  ]);
+
+  LAB.quiz("grupos-mitos", [
+  { t: "Para Pichon-Rivière, la tarea explícita y la implícita de un grupo pueden no coincidir, y esa distancia suele explicar conflictos.", r: "b", e: "Nombrar la diferencia ayuda a trabajarla." },
+  { t: "Lo que un grupo dice que hace es todo lo que hace.", r: "a", e: "Además de la tarea explícita hay una implícita: lo que el grupo hace en realidad." },
+  { t: "Un grupo pasa por información, emoción y producción una sola vez y termina.", r: "a", e: "Estos momentos pueden repetirse dentro de una misma reunión." },
+  { t: "Yalom llamó universalidad al alivio de descubrir que otros comparten lo que sentimos.", r: "b", e: "Escuchar que otros sintieron lo mismo reduce la sensación de anormalidad y de soledad." },
+  { t: "Si alguien siente un malestar que no ve en otros, es que realmente es el único.", r: "a", e: "Muchas personas llegan al grupo creyendo que son las únicas, y descubren que no." },
+  { t: "Si la emoción no se nombra, la producción del grupo suele trabarse.", r: "b", e: "Por eso observar el ciclo ayuda a entender por qué se traba un grupo." }
+  ]);
+
+  LAB.quiz("imaginacion-activa-mitos", [
+  { t: "La imaginación activa es lo mismo que fantasear.", r: "a", e: "Dejás que aparezca una imagen propia y te relacionás con ella como si tuviera vida: la mirás, le hablás, la escuchás." },
+  { t: "Jung consideraba la imaginación activa uno de los caminos más directos hacia el inconsciente.", r: "b", e: "La desarrolló a partir de su propia experiencia." },
+  { t: "En la imaginación activa se trata de obedecer a lo que dice la imagen.", r: "a", e: "Es un encuentro entre dos: respondés desde vos, con tus valores y tus emociones." },
+  { t: "Para empezar hay que poner la mente en blanco.", r: "a", e: "Alcanza con aquietarte y dejar pasar los pensamientos del día sin seguirlos." },
+  { t: "Jung dibujó mandalas casi a diario durante una época difícil de su vida.", r: "b", e: "Vio en ellos una expresión espontánea del sí-mismo, y no hace falta saber dibujar." },
+  { t: "Si la imagen te desborda, conviene seguir hasta terminar.", r: "a", e: "Conviene parar, volver al presente y, si hace falta, pedir acompañamiento." }
+  ]);
+  LAB.quiz("angustia-mitos", [
+  { t: "La angustia y el miedo son lo mismo con otro nombre.", r: "a", e: "Kierkegaard distinguió el miedo, que tiene un objeto concreto, de la angustia, que no lo tiene. Reconocer la diferencia cambia la forma de atenderla." },
+  { t: "Kierkegaard llamó a la angustia el vértigo de la libertad.", r: "b", e: "Aparece cuando se puede elegir de muchas maneras. Por eso mirar la decisión pendiente ayuda a usarla como señal." },
+  { t: "Según Heidegger, la angustia vuelve más familiar el mundo que nos rodea.", r: "a", e: "Al revés: Heidegger describió que la angustia hace extraño el mundo y las cosas dejan de ser familiares." },
+  { t: "Mirar con atención un objeto cotidiano puede ayudar a que vuelva a sentirse familiar.", r: "b", e: "Es el ejercicio de volver a lo cotidiano: un objeto mirado con atención devuelve el suelo que la angustia había movido." },
+  { t: "Si la angustia es intensa, alcanza con hacer estos ejercicios por tu cuenta.", r: "a", e: "Ninguna de estas formas reemplaza una consulta cuando la angustia es intensa, no deja dormir o aparecen pensamientos de no querer vivir. Ahí conviene pedir ayuda." },
+  { t: "Yalom subrayó que no conviene atravesar solo las preguntas sobre la muerte y la fragilidad de la vida.", r: "b", e: "En «Mirar al sol» escribió sobre eso, y sostenerse con otras personas es parte del trabajo de atravesar la angustia." },
+  ]);
+
+  LAB.quiz("libertad-mitos", [
+  { t: "Para Sartre, la mala fe es culparse a uno mismo por todo lo que pasa.", r: "a", e: "La mala fe es el modo en que nos escondemos de nuestra propia libertad usando una identidad o una excusa. Y el ejercicio aclara que no se trata de culparse." },
+  { t: "Para Sartre, la existencia precede a la esencia: primero estamos y después nos definimos con lo que hacemos.", r: "b", e: "No hay una naturaleza previa que decida quiénes somos. Por eso «soy así» puede reescribirse como «estoy siendo»." },
+  { t: "Heidegger pensó al ser humano como una mente aislada que mira el mundo desde afuera.", r: "a", e: "Su idea del Dasein es la contraria: siempre estamos en el mundo, con otros y con las cosas." },
+  { t: "La imagen de cómo nos mira el otro es nuestra, y se puede comprobar con preguntas.", r: "b", e: "Imaginar cómo nos ven es humano, pero muchas veces la imaginamos con más dureza de la que existe. Preguntar o notar ayuda a ponerla a prueba." },
+  { t: "Para Kierkegaard, el paso de un estadio de la vida al siguiente es automático.", r: "a", e: "Cada estadio, el estético, el ético y el religioso, tiene su propio sentido, y el paso no siempre es automático. Por eso el ejercicio propone un paso sin apuro." },
+  { t: "Una frase como «no tenía otra opción» puede ser cierta en parte y, aun así, servir para esconderse de elegir.", r: "b", e: "Son frases cómodas, y muchas veces ciertas en parte. La práctica sirve para descubrir qué parte de lo que hacemos sí podemos elegir." },
+  ]);
+
+  LAB.quiz("psique-imagen-mitos", [
+  { t: "Según Hillman, una imagen que vuelve debe traducirse enseguida a una explicación.", r: "a", e: "Hillman sostuvo que las imágenes del alma no necesitan ser traducidas: piden ser vistas con atención. Conviene describirlas antes de interpretarlas." },
+  { t: "Para Neumann, las posiciones de la conciencia no son una escala de valor.", r: "b", e: "Cada posición tiene su fuerza y sus riesgos. La pregunta es qué necesitamos hoy y qué nos falta mirar." },
+  { t: "Según Neumann, la apertura es la mejor posición y las otras hay que dejarlas atrás.", r: "a", e: "Ninguna posición es mejor en sí misma: el orden, la inmersión y la apertura tienen fuerza y riesgos." },
+  { t: "Para Hollis, la mitad de la vida empieza cuando algo que nos sostenía deja de hacerlo.", r: "b", e: "La segunda mitad de la vida pide preguntas distintas: qué dejar, qué sentido construir y qué parte de uno quedó postergada." },
+  { t: "Según Woodman, la perfección es el camino más seguro hacia lo vivo.", r: "a", e: "En «Adicción a la perfección» describió cómo buscarla puede llevar a dejar de vivir en el cuerpo y en lo que sentimos. Lo imperfecto puede ser el camino hacia lo vivo." },
+  { t: "Estos ejercicios sirven para acercarse a la propia psique, no para diagnosticarla.", r: "b", e: "Y si una imagen te angustia, el laboratorio sugiere dejarla y volver a la respiración. Este trabajo, en la terapia junguiana, se acompaña con tiempo." },
+  ]);
+
+  LAB.quiz("razon-autonomia-mitos", [
+  { t: "Para Kant, la experiencia surge de dos cosas: lo que llega por los sentidos y las formas que pone la mente.", r: "b", e: "Entre esas formas están el espacio, el tiempo y la causa. Separar lo que pasó de lo que agregamos es un ejercicio de lucidez." },
+  { t: "Para Epicteto, la reputación es algo que depende de nosotros.", r: "a", e: "Epicteto separó lo que depende de nosotros, que son los juicios, los deseos y las acciones, de lo que no: el cuerpo, la reputación y lo que hacen los demás." },
+  { t: "Según Kant, usar a alguien para conseguir algo es siempre algo malo.", r: "a", e: "Kant propuso tratar a las personas como fines y nunca solo como medios. Usar a alguien no siempre es malo, pero conviene notarlo." },
+  { t: "Para Schopenhauer, lo que creemos querer muchas veces responde a una necesidad más honda.", r: "b", e: "Por debajo de la representación hay una voluntad que nos mueve. Preguntar «¿para qué?» varias veces ayuda a verlo." },
+  { t: "Nietzsche propuso evitar todas las obligaciones para pasar del camello al niño.", r: "a", e: "No se trata de evitar las obligaciones, sino de elegirlas: del «tú debes» al «yo quiero»." },
+  { t: "Gran parte del malestar viene de querer controlar lo que no depende de nosotros.", r: "b", e: "Concentrar la energía en la propia respuesta, y no en el resultado de todo, cambia cómo vivimos lo que no controlamos." },
+  ]);
+
+  LAB.quiz("vida-breve-mitos", [
+  { t: "Séneca sostuvo que la vida es corta por naturaleza.", r: "a", e: "Séneca sostuvo que la vida no es corta por naturaleza, sino porque la malgastamos." },
+  { t: "Para Séneca, la vida es suficientemente larga si se usa bien.", r: "b", e: "Eso no quiere decir que la muerte no exista: quiere decir que pensarla puede ayudarnos a elegir mejor." },
+  { t: "Pensar en la finitud tiene que ser siempre una experiencia angustiante.", r: "a", e: "Usada como guía, la muerte ayuda a distinguir lo importante de lo urgente, y no hace falta angustiarse para hacerlo." },
+  { t: "Mirar un día entero, y no una semana, muestra con claridad dónde está la vida.", r: "b", e: "Permite separar lo que elegiste, lo que te impusieron y lo que se fue sin querer, y decidir qué parte querés recuperar." },
+  { t: "Para vivir un momento completo hay que esperar una ocasión especial.", r: "a", e: "Es al revés: una actividad cotidiana, como comer, caminar o lavar los platos, hecha con atención, deja de ser un trámite." },
+  { t: "Si pensar en la muerte te genera angustia o desesperanza, conviene dejar el ejercicio y buscar acompañamiento.", r: "b", e: "El laboratorio lo aclara desde el comienzo. Si la reflexión deriva en pensamientos de no querer vivir, podés llamar al 135 (CABA y GBA) o al 0800-345-1435 (todo el país)." },
+  ]);
+
+  LAB.quiz("tradiciones-orientales-mitos", [
+  { t: "Para el Buda, el sufrimiento no tiene salida.", r: "a", e: "Las cuatro nobles verdades dicen que el sufrimiento existe, que tiene un origen en el apego, que puede cesar y que hay un camino para que cese." },
+  { t: "El wu wei es actuar sin forzar, acompañando el curso de las cosas.", r: "b", e: "Lao Tse lo asoció con el agua, que, blanda como es, gasta la piedra." },
+  { t: "Según los Yoga Sutras, la práctica consiste en no distraerse nunca.", r: "a", e: "La práctica es notar la distracción y volver al punto, cada vez, sin reproche. Volver también es parte de la práctica." },
+  { t: "Un koan del zen no se resuelve con la lógica.", r: "b", e: "Lo que importa es sostener la pregunta hasta que la mente deje de dar vueltas. La duda que genera puede abrir el satori." },
+  { t: "Para el taoísmo, el yin y el yang se oponen y no se mezclan nunca.", r: "a", e: "El yin y el yang no se oponen: se transforman uno en otro. Actuar sin forzar es seguir ese movimiento." },
+  { t: "Si una de estas prácticas te desborda, podés dejarla y volver cuando quieras.", r: "b", e: "Las prácticas pueden remover emociones o recuerdos. Si algo te desborda, apoyate en el respiro y pedí ayuda si lo necesitás." },
+  ]);
+
+  LAB.quiz("lenguajes-amor-mitos", [
+  { t: "Según Chapman, hay diez lenguajes del amor.", r: "a", e: "Chapman propuso cinco: palabras de afirmación, tiempo de calidad, actos de servicio, contacto físico y regalos." },
+  { t: "El marco de los lenguajes del amor es útil para conversar, pero no tiene el respaldo de investigación de otros enfoques.", r: "b", e: "Por eso conviene tomarlo como punto de partida y no como un diagnóstico de la pareja." },
+  { t: "Solemos dar cariño en la forma exacta que el otro necesita.", r: "a", e: "Muchas veces lo damos en la forma que a nosotros nos gusta, no en la que el otro necesita." },
+  { t: "Traducir el cariño no es adivinar: es preguntar y observar qué le hace bien a esa persona.", r: "b", e: "Después se prueba una acción concreta en su idioma, y se mira cómo reacciona." },
+  { t: "Si en un vínculo hay control del celular, gritos o amenazas, es un tema de lenguajes del amor.", r: "a", e: "No es un tema de lenguajes del amor sino de seguridad. Podés llamar al 144 (violencia de género, las 24 horas) o al 911." },
+  { t: "Muchas veces el malentendido en una pareja no es falta de amor, sino de idioma.", r: "b", e: "Mirar la diferencia sin culpa abre una conversación más amable." },
+  ]);
+
+  LAB.quiz("marco-aurelio-mitos", [
+  { t: "Marco Aurelio escribió las Meditaciones pensando en publicarlas.", r: "a", e: "Escribió para sí mismo y no tenía intención de publicar sus notas. Eso las vuelve directas: son consejos para uno mismo." },
+  { t: "Marco Aurelio escribió sus recordatorios para sí mismo, en griego.", r: "b", e: "Eran recordatorios de cómo actuar bien, que podemos probar en el día." },
+  { t: "Mirar a los demás con benevolencia exige aprobar lo que hacen.", r: "a", e: "La benevolencia no es aprobar: es reconocer que todos somos parte de algo común, incluso quien nos molesta." },
+  { t: "Separar el hecho del juicio es un reencuadre que Marco Aurelio y Epicteto compartían.", r: "b", e: "Un hecho es un dato. El juicio y la historia que le agregamos son otra cosa, y separarlos cambia lo que sentimos." },
+  { t: "Recordar que la vida es breve sirve para angustiarse y no postergar nada.", r: "a", e: "Esa conciencia no es para angustiarse, sino para elegir qué importa hoy." },
+  { t: "Al empezar la jornada, Marco Aurelio se recordaba con quiénes iba a tratar, qué iba a encontrar y cómo quería actuar.", r: "b", e: "Empezar con propósito le da forma al día." },
+  ]);
+
+  LAB.quiz("pensamientos-repetitivos-mitos", [
+  { t: "Con suficiente práctica se puede apagar la mente.", r: "a", e: "Nadie puede apagar la mente. Lo que se puede aprender es darse cuenta de que uno está dando vueltas, tomar distancia y elegir qué hacer después." },
+  { t: "Pelearse con un pensamiento suele hacerlo más fuerte.", r: "b", e: "Por eso la idea no es ganarle al pensamiento, sino soltarlo." },
+  { t: "Pensar un problema y rumiar son lo mismo.", r: "a", e: "Pensar un problema avanza: aparecen ideas, opciones, decisiones. Rumiar da vueltas sin llegar a ningún lado." },
+  { t: "Defusión es dejar de estar fundido con un pensamiento y verlo como algo que la mente produce.", r: "b", e: "Es un término de la terapia de aceptación y compromiso. El pensamiento no cambia, pero cambia tu relación con él." },
+  { t: "El mindfulness desapegado de Wells consiste en vaciar la mente.", r: "a", e: "No se trata de vaciar la mente, sino de dejar que un pensamiento esté ahí sin hacer nada con él, como el tigre del ejercicio." },
+  { t: "Las preguntas abstractas de «por qué» alimentan el bucle, y las concretas ayudan a salir.", r: "b", e: "Preguntas como «¿qué pasó?» y «¿qué hago ahora?» ayudan a salir. Ese es el cambio que hace el formulario del «por qué» al «cómo»." },
+  ]);
+
+  LAB.quiz("pesadillas-mitos", [
+  { t: "Ensayar de día una versión nueva de la pesadilla no sirve para nada.", r: "a", e: "El ensayo en imaginación consiste en cambiar un elemento del sueño y ensayar la versión nueva de día. En el estudio de Krakow y su equipo (2001, JAMA), tres sesiones bastaron para reducir las pesadillas." },
+  { t: "Al despertar de una pesadilla, anclar la atención en lo que te rodea le avisa al cuerpo que ya no estás en el sueño.", r: "b", e: "Mirar, nombrar y sentir el apoyo son tres formas de avisarle al cuerpo dónde estás." },
+  { t: "Para trabajar una pesadilla hay que escribir todos los detalles más dolorosos.", r: "a", e: "La consigna pide escribirla sin entrar en los detalles más dolorosos. Y si viene de un trauma, conviene hacerlo con acompañamiento profesional." },
+  { t: "Escribir antes de dormir lo que da vueltas ayuda a separar lo que se puede hacer mañana de lo que solo se puede soltar.", r: "b", e: "Lo que se escribe deja de dar vueltas en la cabeza." },
+  { t: "Si te despertás con calor o inquietud, lo mejor es mirar el reloj para saber cuánto falta.", r: "a", e: "El laboratorio sugiere destaparte un poco, tomar agua y volver a acostarte sin mirar el reloj." },
+  { t: "Si las pesadillas se relacionan con una experiencia de violencia o trauma, no tenés que trabajarlas sola o solo.", r: "b", e: "Hay líneas de ayuda: el 144, el 911, el 135 (CABA y GBA) y el 0800-345-1435 (todo el país)." },
+  ]);
+
+  LAB.quiz("presencia-mitos", [
+  { t: "Prestar atención plena es dejar la mente en blanco.", r: "a", e: "Es darte cuenta de que estabas en otro lado y volver: a la respiración, a los pies en el piso, al ruido de la calle." },
+  { t: "Ir y volver con paciencia, una y otra vez, es la práctica.", r: "b", e: "Volver a la respiración cada vez que te distraés no es un fracaso: es la práctica misma." },
+  { t: "La atención plena reemplaza un tratamiento.", r: "a", e: "No lo reemplaza, aunque puede ayudar a bajar la ansiedad y a tomar distancia de los pensamientos que no paran." },
+  { t: "Exhalar más largo de lo que inhalás le indica al cuerpo que puede bajar la guardia.", r: "b", e: "Por eso el ritmo calmante de la respiración guiada es 4 · 6." },
+  { t: "Es mejor practicar mucho de vez en cuando que poco y seguido.", r: "a", e: "El laboratorio propone lo contrario: un minuto alcanza, y es mejor poco y seguido que mucho de vez en cuando." },
+  { t: "En algunas personas, sobre todo con historias de trauma, prestar atención al cuerpo puede traer malestar en lugar de calma.", r: "b", e: "Si te pasa, abrí los ojos, mirá a tu alrededor y volvé a algo concreto. No es un error tuyo: es una señal para hacerlo acompañado." },
+  ]);
+
+  LAB.quiz("psicoanalisis-practica-mitos", [
+  { t: "Freud pidió a sus pacientes decir todo lo que se les ocurriera, sin seleccionar.", r: "b", e: "De ahí nació el método de la asociación libre. Escribir sin corregir durante unos minutos muestra qué se repite." },
+  { t: "El objeto transicional de Winnicott sirve solo en la infancia.", r: "a", e: "Ese espacio intermedio también existe en los adultos: un lugar, una canción o un objeto que calma sin que tenga que estar otra persona." },
+  { t: "Para Winnicott, el objeto transicional es la persona misma.", r: "a", e: "No es la persona, pero la representa en su ausencia. Ayuda a estar con uno mismo sin sentirse solo." },
+  { t: "Bion describió la función contenedora: alguien que recibe una emoción confusa, la piensa y la devuelve en una forma comprensible.", r: "b", e: "Pensó que la mente se forma cuando alguien contiene lo que no podemos procesar solos. Hoy también podemos ser nuestro propio contenedor." },
+  { t: "Kohut puso la empatía en un lugar secundario del trabajo terapéutico.", r: "a", e: "La puso en el centro: sentirse comprendido por otro permite crecer por dentro." },
+  { t: "Si la asociación libre te desborda, podés cortar la práctica y apoyarte en la respiración.", r: "b", e: "Puede traer recuerdos o emociones intensas. Si se repite, conviene pedir acompañamiento." },
+  ]);
 })();
