@@ -401,4 +401,21 @@
     { t: "Usar el celular antes de dormir no tiene ninguna relación con el descanso.", r: "a", e: "Lo que se desplaza importa: el tiempo de pantalla nocturno puede quitarle tiempo al sueño. Más en el laboratorio de insomnio." },
     { t: "Notar tu uso sin culparte es un buen primer paso para cambiarlo.", r: "b", e: "La autoobservación sin juicio permite ver patrones. La culpa suele llevar a esconder el uso más que a cambiarlo." }
   ]);
+  LAB.quiz("apuestas-mitos", [
+    { t: "Si venís perdiendo, es más probable que la próxima apuesta salga ganadora.", r: "a", e: "En los juegos de azar cada resultado es independiente del anterior. «Perseguir» las pérdidas es justamente una de las señales del trastorno por juego." },
+    { t: "El DSM-5 (2013) incluyó el juego como un trastorno adictivo, el primero sin sustancia.", r: "b", e: "Lo trasladó a la categoría de trastornos relacionados con sustancias y trastornos adictivos, como «trastorno por juego»." },
+    { t: "Con suficiente análisis y experiencia se puede controlar el resultado de un juego de azar.", r: "a", e: "Es la ilusión de control: la sensación de influir en algo que depende del azar. La publicidad suele alimentarla." },
+    { t: "Ganar de vez en cuando, sin saber cuándo, es lo que más hace que se siga jugando.", r: "b", e: "Es el refuerzo intermitente: los premios impredecibles mantienen la conducta más que los premios fijos." },
+    { t: "Las encuestas sobre adolescentes y apuestas online miden adicción.", r: "a", e: "Miden uso (haber apostado o conocer a alguien que lo hizo), no adicción, y no son comparables entre sí." },
+    { t: "Se puede tener un problema con el juego aunque no se apueste todos los días.", r: "b", e: "Lo que cuenta es la pérdida de control y el daño, como no poder dejar, mentir para ocultarlo o endeudarse, no solo la frecuencia." },
+    { t: "Dar plata a un hijo para saldar una deuda de juego, sin hablar, resuelve el problema.", r: "a", e: "Alivia el momento pero deja intacto lo que sostiene el juego. Conviene hablar sin humillar, poner límites con los medios de pago y consultar." }
+  ]);
+  LAB.quiz("cuidar-mitos", [
+    { t: "Quien cuida bien no se siente cansado ni enojado.", r: "a", e: "La sobrecarga, la culpa, el enojo y la ambivalencia son esperables y no hablan de cuidar mal." },
+    { t: "Quienes cuidan muestran, en promedio, más estrés y depresión que quienes no cuidan.", r: "b", e: "Pinquart y Sörensen (2003), 84 artículos: la diferencia fue mayor en lo psicológico que en la salud física." },
+    { t: "Pedir ayuda es una señal de que no se quiere a la persona.", r: "a", e: "Repartir tareas y aceptar ayuda hace sostenible el cuidado, y suele mejorar también la calidad de lo que se da." },
+    { t: "Se puede sentir duelo por alguien que todavía está vivo.", r: "b", e: "Es el duelo anticipado: tristeza por lo que ya cambió o se va perdiendo. Es habitual y no es traición." },
+    { t: "Descansar es egoísta cuando la otra persona te necesita.", r: "a", e: "Los descansos, aunque sean breves, permiten seguir cuidando sin enfermarte. Cuidarte es parte del cuidado." },
+    { t: "El estudio de la «carga» del cuidador tiene su origen en trabajos como el de Zarit (1980).", r: "b", e: "Zarit, Reever y Bach-Peterson (1980) estudiaron los sentimientos de carga en familiares de adultos mayores con deterioro." }
+  ]);
 })();

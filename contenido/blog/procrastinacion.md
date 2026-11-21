@@ -57,6 +57,8 @@ Porque la presión del plazo termina siendo más fuerte que el malestar de la ta
 
 Achicando el primer paso, reconociendo qué te hace sentir la tarea, tratándote con amabilidad cuando postergás y reduciendo las distracciones al alcance de la mano.
 
+Si la dificultad para empezar, organizarte o sostener la atención te acompaña desde la infancia y aparece en casi todos los ámbitos, puede valer la pena leer sobre el [TDAH en adultos](/recursos/tdah-en-adultos/), sin autodiagnosticarte.
+
 ## Para seguir leyendo
 
 - Steel, P. (2007). «The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure». *Psychological Bulletin*, 133(1).
