@@ -1,7 +1,7 @@
 ---
 titulo: Pantallas y redes sociales: qué sabemos y qué sigue en debate
 titulo_seo: Pantallas, redes sociales y salud mental: qué dice la evidencia
-descripcion: Qué muestra la investigación sobre pantallas, redes sociales y bienestar: efectos chicos en promedio, un debate abierto y preguntas más útiles que contar horas.
+descripcion: Qué muestra la investigación sobre pantallas, redes y bienestar: efectos chicos en promedio, un debate abierto y preguntas más útiles que contar horas.
 resumen: La evidencia sobre pantallas y salud mental es mixta y el debate sigue abierto. Qué dicen los estudios y por qué conviene mirar el cómo y el para qué.
 categoria: Salud mental
 palabras_clave: pantallas, redes sociales, salud mental, adolescentes, bienestar, Orben, Przybylski, Haidt, Odgers, uso de celular

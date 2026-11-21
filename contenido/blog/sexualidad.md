@@ -43,12 +43,12 @@ Tiene respaldo que la respuesta sexual no sigue un único recorrido, que el dese
 
 ## Un cuidado
 
-Si hay dolor, cambios bruscos, malestar persistente, conflictos que no se resuelven o secuelas de experiencias que no fueron consentidas, conviene consultar con profesionales de la salud: médico, psicólogo o sexólogo. Si estás en peligro o alguien te está haciendo daño, la ayuda está en /ayuda-urgente/ y en el 911.
+Si hay dolor, cambios bruscos, malestar persistente, conflictos que no se resuelven o secuelas de experiencias que no fueron consentidas, conviene consultar con profesionales de la salud: médico, psicólogo o sexólogo. Si estás en peligro o alguien te está haciendo daño, la ayuda está en [ayuda urgente](/ayuda-urgente/) y en el 911.
 
 ## Para seguir
 
-- La pareja y sus encuentros y desencuentros: /laboratorio-de-pareja/.
-- Los vínculos más amplios: /laboratorio-de-vinculos/.
-- Cuando la culpa y la vergüenza interfieren: /recursos/la-culpa/ y /recursos/la-verguenza/.
+- La pareja y sus encuentros y desencuentros: [el laboratorio de pareja](/laboratorio-de-pareja/).
+- Los vínculos más amplios: [el laboratorio de vínculos](/laboratorio-de-vinculos/).
+- Cuando la culpa y la vergüenza interfieren: [la culpa](/recursos/la-culpa/) y [la vergüenza](/recursos/la-verguenza/).
 
 Lecturas: Masters, W. H. y Johnson, V. E. (1966), *Human Sexual Response*. Basson, R. (2000), «The female sexual response: a different model», *Journal of Sex & Marital Therapy*, 26(1), 51–65.

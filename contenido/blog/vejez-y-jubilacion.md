@@ -37,7 +37,7 @@ Esas creencias se forman en una cultura que no siempre trata bien a las personas
 
 ## Integridad o desesperación
 
-Erik Erikson describió la última etapa de su modelo del ciclo vital como una tensión entre integridad y desesperación: la posibilidad de mirar la propia vida con cierta aceptación, o de quedar atrapado en el lamento por lo que no fue. No es una meta que se alcance de una vez ni un examen que se aprueba. Es un trabajo de revisión, que puede hacerse conversando, escribiendo, o en psicoterapia (más en /recursos/erik-erikson/).
+Erik Erikson describió la última etapa de su modelo del ciclo vital como una tensión entre integridad y desesperación: la posibilidad de mirar la propia vida con cierta aceptación, o de quedar atrapado en el lamento por lo que no fue. No es una meta que se alcance de una vez ni un examen que se aprueba. Es un trabajo de revisión, que puede hacerse conversando, escribiendo, o en psicoterapia (más en [Erik Erikson](/recursos/erik-erikson/)).
 
 ## Qué tiene respaldo y qué no
 
@@ -45,13 +45,13 @@ Tiene respaldo que las prioridades emocionales cambian con la percepción del ti
 
 ## Un cuidado
 
-Algunas tristezas de esta etapa son esperables: duelos, cambios de rol, nostalgia. Pero si el ánimo bajo se sostiene durante semanas, si aparece desinterés por todo, aislamiento, problemas de sueño o pensamientos de no querer vivir, no es «cosa de la edad»: es motivo de consulta. En una situación de riesgo, la ayuda está en /ayuda-urgente/, en el 911, o en el Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
+Algunas tristezas de esta etapa son esperables: duelos, cambios de rol, nostalgia. Pero si el ánimo bajo se sostiene durante semanas, si aparece desinterés por todo, aislamiento, problemas de sueño o pensamientos de no querer vivir, no es «cosa de la edad»: es motivo de consulta. En una situación de riesgo, la ayuda está en [ayuda urgente](/ayuda-urgente/), en el 911, o en el Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
 ## Para seguir
 
-- Pensar qué da sentido hoy: /recursos/ikigai/ y /laboratorio-de-sentido/.
-- Las transiciones de la vida: /laboratorio-de-crisis-vitales/.
-- Acompañamiento psicológico en esta etapa: /terapia-para-adultos-mayores/.
-- La etapa final según Erikson: /recursos/erik-erikson/.
+- Pensar qué da sentido hoy: [ikigai](/recursos/ikigai/) y [el laboratorio de sentido](/laboratorio-de-sentido/).
+- Las transiciones de la vida: [el laboratorio de crisis vitales](/laboratorio-de-crisis-vitales/).
+- Acompañamiento psicológico en esta etapa: [terapia para adultos mayores](/terapia-para-adultos-mayores/).
+- La etapa final según Erikson: [Erik Erikson](/recursos/erik-erikson/).
 
 Lecturas: Carstensen, L. L., Isaacowitz, D. M. y Charles, S. T. (1999), «Taking time seriously: a theory of socioemotional selectivity», *American Psychologist*, 54(3), 165–181. Levy, B. R., Slade, M. D., Kunkel, S. R. y Kasl, S. V. (2002), «Longevity increased by positive self-perceptions of aging», *Journal of Personality and Social Psychology*, 83(2), 261–270. Organización Mundial de la Salud (2021), *Global report on ageism*.

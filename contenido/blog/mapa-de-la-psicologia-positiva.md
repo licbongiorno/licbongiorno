@@ -1,7 +1,7 @@
 ---
 titulo: Mapa de la psicología positiva: corrientes, fortalezas y límites
 titulo_seo: Psicología positiva: mapa de corrientes, fortalezas y evidencia
-descripcion: Un recorrido por la psicología positiva: Seligman, las 24 fortalezas, la versión 2.0 de Wong, qué tiene respaldo y cuándo la positividad se vuelve exigencia.
+descripcion: Un recorrido por la psicología positiva: Seligman, las 24 fortalezas, la versión 2.0 de Wong, qué tiene respaldo y cuándo se vuelve exigencia.
 resumen: La psicología positiva estudia lo que funciona bien, no obliga a estar bien. Un mapa de sus ideas, fortalezas, evidencia y riesgos, con puertas de entrada.
 categoria: Salud mental
 palabras_clave: psicología positiva, Martin Seligman, fortalezas del carácter, PP 2.0, Paul Wong, mejor yo posible, positividad forzada, bienestar

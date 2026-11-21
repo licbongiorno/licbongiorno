@@ -71,3 +71,5 @@ Es el término de Frankl para la sensación de falta de sentido: aburrimiento, a
 - Frankl, V. E. (1969). *La voluntad de sentido*.
 - Frankl, V. E. (1946). *Psicoanálisis y existencialismo* (*Ärztliche Seelsorge*).
 - Lukas, E. *También tu sufrimiento tiene sentido*.
+
+Para bajar el sentido a lo cotidiano, desde una tradición japonesa, leé [ikigai](/recursos/ikigai/) o probá el [laboratorio de ikigai](/laboratorio-de-ikigai/).

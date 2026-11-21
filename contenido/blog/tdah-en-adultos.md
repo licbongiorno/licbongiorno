@@ -43,12 +43,12 @@ Tiene respaldo que el TDAH existe en adultos, que el diagnóstico requiere inici
 
 ## Un cuidado
 
-Si te reconocés en lo que leíste, el paso sensato es una consulta con un profesional de la salud mental con experiencia en el tema, llevando datos concretos: desde cuándo te pasa, en qué situaciones, cómo dormís, qué más viene ocurriendo en tu vida. Y si junto con la falta de atención hay tristeza persistente, desesperanza o ideas de hacerte daño, hay que consultar pronto: /ayuda-urgente/, 911, o Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
+Si te reconocés en lo que leíste, el paso sensato es una consulta con un profesional de la salud mental con experiencia en el tema, llevando datos concretos: desde cuándo te pasa, en qué situaciones, cómo dormís, qué más viene ocurriendo en tu vida. Y si junto con la falta de atención hay tristeza persistente, desesperanza o ideas de hacerte daño, hay que consultar pronto: [ayuda urgente](/ayuda-urgente/), 911, o Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
 ## Para seguir
 
-- Armar rutinas que se sostengan: /laboratorio-de-habitos/ y /laboratorio-de-aprendizaje-y-habito/.
-- Cuando cuesta empezar: /recursos/procrastinacion/.
-- El sueño y la atención: /laboratorio-de-insomnio/.
+- Armar rutinas que se sostengan: [el laboratorio de hábitos](/laboratorio-de-habitos/) y [el de aprendizaje y hábito](/laboratorio-de-aprendizaje-y-habito/).
+- Cuando cuesta empezar: [procrastinación](/recursos/procrastinacion/).
+- El sueño y la atención: [el laboratorio de insomnio](/laboratorio-de-insomnio/).
 
 Lecturas: Song, P. y colaboradores (2021), «The prevalence of adult attention-deficit hyperactivity disorder: a global systematic review and meta-analysis», *Journal of Global Health*, 11, 04009. Safren, S. A. y colaboradores (2010), «Cognitive behavioral therapy vs relaxation with educational support for medication-treated adults with ADHD and persistent symptoms: a randomized controlled trial», *JAMA*.

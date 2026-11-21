@@ -1,7 +1,7 @@
 ---
 titulo: Ikigai: qué significa de verdad y qué no es
 titulo_seo: Ikigai: qué significa en Japón y el mito de los cuatro círculos
-descripcion: El ikigai japonés alude a lo que hace que la vida valga la pena, no a la profesión perfecta. Su origen con Mieko Kamiya, qué dice la evidencia y los límites del diagrama.
+descripcion: El ikigai japonés es lo que hace que la vida valga la pena, no la profesión perfecta. Su origen con Mieko Kamiya, la evidencia y los límites del diagrama.
 resumen: El ikigai no es encontrar la profesión ideal. Qué significa en Japón, de dónde sale el diagrama de cuatro círculos, qué dice la evidencia y cómo usarlo sin presión.
 categoria: Salud mental
 palabras_clave: ikigai, Mieko Kamiya, sentido de vida, propósito, psicología positiva, Estudio Ohsaki, cuatro círculos, jubilación

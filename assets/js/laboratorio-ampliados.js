@@ -385,4 +385,20 @@
     { t: "En la fobia a la sangre conviene consultar antes de practicar, porque puede producir desmayo.", r: "b", e: "A diferencia de otras fobias, puede bajar la presión y provocar un desmayo. Conviene consultar a un profesional antes de exponerte." },
     { t: "Si la ansiedad sube durante la práctica, hay que irse enseguida.", r: "a", e: "Irse en el pico alivia pero refuerza la evitación. La ansiedad sube, llega a un máximo y baja; quedarse un rato más ayuda a aprenderlo, siempre dentro de lo tolerable." }
   ]);
+  LAB.quiz("decisiones-mitos", [
+    { t: "Buscar siempre la mejor opción posible hace que quedes más conforme con lo que elegís.", r: "a", e: "Schwartz y colaboradores (2002) encontraron lo contrario: quienes maximizan informaron más arrepentimiento y menos satisfacción que quienes eligen una opción suficientemente buena." },
+    { t: "Tener muchas opciones siempre paraliza.", r: "a", e: "Un metaanálisis de Scheibehenne, Greifeneder y Todd (2010) encontró que, en promedio, el efecto de la sobrecarga de opciones fue cercano a cero, con mucha variación según las condiciones." },
+    { t: "Pensamos de dos maneras: una rápida e intuitiva y otra lenta y deliberada.", r: "b", e: "Es la distinción que Daniel Kahneman difundió en Pensar rápido, pensar despacio (2011). Las dos son útiles, según el tipo de decisión." },
+    { t: "Para decidir bien hace falta tener toda la información.", r: "a", e: "Casi nunca se tiene toda. Alcanza con información suficiente para el tipo de decisión, sobre todo si es reversible y se puede revisar." },
+    { t: "Tus valores pueden servir como criterio cuando las opciones parecen empatadas.", r: "b", e: "La terapia de aceptación y compromiso propone usar los valores como dirección: preguntarte qué opción te acerca a lo que te importa." },
+    { t: "Si una decisión sale mal, significa que la decidiste mal.", r: "a", e: "Una buena decisión puede tener un mal resultado por factores que no dependían de vos. Conviene evaluar cómo decidiste con lo que sabías en ese momento." }
+  ]);
+  LAB.quiz("pantallas-mitos", [
+    { t: "Está demostrado que el uso de tecnología es la causa principal del malestar adolescente.", r: "a", e: "Orben y Przybylski (2019) encontraron una asociación negativa pero chica: el uso de tecnología explicó como máximo el 0,4 % de la variación en el bienestar de más de 355.000 adolescentes." },
+    { t: "Limitar las redes sociales durante unas semanas se asoció con menos soledad en un experimento.", r: "b", e: "Hunt y colaboradores (2018): estudiantes que limitaron las redes a unos 30 minutos por día durante tres semanas informaron menos soledad y depresión que el grupo control." },
+    { t: "El debate sobre redes y salud mental adolescente está cerrado.", r: "a", e: "Jonathan Haidt (2024) sostiene que los smartphones causaron un aumento de problemas en adolescentes; Candice Odgers (2024), en Nature, objetó que confunde correlación con causa. Sigue abierto." },
+    { t: "Importa más cómo y para qué usás las pantallas que solo la cantidad de horas.", r: "b", e: "La comparación, lo que se desplaza (sueño, movimiento, encuentros) y el para qué suelen decir más que el número de horas." },
+    { t: "Usar el celular antes de dormir no tiene ninguna relación con el descanso.", r: "a", e: "Lo que se desplaza importa: el tiempo de pantalla nocturno puede quitarle tiempo al sueño. Más en el laboratorio de insomnio." },
+    { t: "Notar tu uso sin culparte es un buen primer paso para cambiarlo.", r: "b", e: "La autoobservación sin juicio permite ver patrones. La culpa suele llevar a esconder el uso más que a cambiarlo." }
+  ]);
 })();
