@@ -8,7 +8,7 @@
   "h1": "Recorrido de <em>mindfulness</em>",
   "bajada": "La atención plena se aprende como un idioma: primero palabras sueltas, después frases, después conversaciones. Un recorrido en tres niveles y las actitudes que lo sostienen.",
   "respuesta": "El recorrido de mindfulness ordena los laboratorios de atención plena del sitio en tres niveles: presencia (anclajes y respiración), mindfulness en la vida diaria (piloto automático, espacio de respiración, RAIN, surfear el impulso) y meditación formal (zazen, caminar, metta). Incluye las siete actitudes que Jon Kabat-Zinn propuso en Full Catastrophe Living (1990): no juzgar, paciencia, mente de principiante, confianza, no esforzarse, aceptación y soltar. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-recorrido-mindfulness.js", "escenas.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-recorrido-mindfulness.js", "escenas.js"],
   "wa_tema": "el recorrido de mindfulness",
   "articulos": ["inteligencia-emocional", "jon-kabat-zinn"]
 }-->
@@ -40,7 +40,7 @@
       <a href="#actitudes">Las siete actitudes</a>
       <a href="#mi-actitud">La actitud que me cuesta</a>
       <a href="#siete-dias">Una semana de actitudes</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="actitudes" aria-labelledby="t-actitudes">
       <p class="lab-estacion__num">01</p>
@@ -104,6 +104,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre mindfulness y sus actitudes, para distinguir lo que se dice de lo que propone el recorrido.</p>
+      <div class="lab-tarjeta" data-lab-quiz="recorrido-mindfulness-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> El mindfulness ayuda a muchas personas, pero no a todas de la misma forma. En personas con historias de trauma, con disociación o en medio de una crisis intensa, quedarse quieto observando puede aumentar el malestar. Si te pasa, elegí prácticas con los ojos abiertos, en movimiento o más breves, y consultalo: podés <a href="/contacto/">escribirme</a>. Si necesitás ayuda ahora, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p>
     </aside>

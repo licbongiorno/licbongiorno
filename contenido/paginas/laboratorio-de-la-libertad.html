@@ -21,10 +21,7 @@
   "h1": "Laboratorio de la <em>libertad</em>",
   "bajada": "Sartre dijo que estamos condenados a ser libres; Heidegger, que siempre estamos en un mundo con otros; Kierkegaard, que la vida se vive por estadios. Cinco prácticas para mirar dónde elegimos y dónde nos escondemos de elegir.",
   "respuesta": "El laboratorio de la libertad propone cinco prácticas inspiradas en Jean-Paul Sartre, Martin Heidegger y Søren Kierkegaard: detectar la mala fe en las frases que evitan elegir, reescribir el «soy así» como un «estoy siendo», mirar cómo nos imaginamos que nos ven los otros, reconocer el mundo en el que estamos y ubicar un área de la vida en los estadios estético, ético o religioso.",
-  "scripts": [
-    "lab-base.js",
-    "escenas.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de la libertad",
   "articulos": [
     "jean-paul-sartre",
@@ -46,7 +43,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#mala-fe">Detector de mala fe</a><a href="#esencia">Antes que la esencia</a><a href="#mirada">La mirada del otro</a><a href="#mundo">Estar en el mundo</a><a href="#estadios">Los estadios de la vida</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#mala-fe">Detector de mala fe</a><a href="#esencia">Antes que la esencia</a><a href="#mirada">La mirada del otro</a><a href="#mundo">Estar en el mundo</a><a href="#estadios">Los estadios de la vida</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="mala-fe" aria-labelledby="t-mala-fe">
       <p class="lab-estacion__num">01</p>
@@ -164,6 +161,19 @@
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas frecuentes sobre la libertad, a la luz de Sartre, Heidegger y Kierkegaard.</p>
+      <div class="lab-tarjeta" data-lab-quiz="libertad-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
     </section>
 
     <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">

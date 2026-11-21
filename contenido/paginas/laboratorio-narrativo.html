@@ -8,7 +8,7 @@
   "h1": "Laboratorio <em>narrativo</em>",
   "bajada": "La persona no es el problema: el problema es el problema. Ejercicios inspirados en la terapia narrativa para separarte de la historia que te achica y escribir otra más fiel a quien sos.",
   "respuesta": "El laboratorio narrativo propone ejercicios inspirados en la terapia narrativa de Michael White y David Epston: externalizar el problema poniéndole nombre, registrar las excepciones o acontecimientos extraordinarios, contrastar la historia dominante con una alternativa, el club de la vida y el árbol de la vida, que se dibuja con lo que escribís. No reemplaza una terapia.",
-  "scripts": ["lab-base.js", "laboratorio-narrativo.js", "visual-labs.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "laboratorio-narrativo.js", "visual-labs.js"],
   "wa_tema": "el laboratorio narrativo",
   "articulos": ["terapia-narrativa", "terapia-sistemica", "la-resiliencia"]
 }-->
@@ -44,7 +44,7 @@
       <a href="#club">El club de la vida</a>
       <a href="#arbol">El árbol de la vida</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="externalizar" aria-labelledby="t-externalizar">
       <p class="lab-estacion__num">01</p>
@@ -148,6 +148,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre el problema, la historia dominante y las excepciones.</p>
+      <div class="lab-tarjeta" data-lab-quiz="narrativo-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Externalizar no significa minimizar: si el problema es una violencia que alguien ejerce sobre vos, la prioridad es tu seguridad (<a href="tel:144">144</a>, <a href="tel:911">911</a>). Y si revisar tu historia trae recuerdos dolorosos, frená y buscá acompañamiento: podés <a href="/contacto/">escribirme</a>.</p>
     </aside>

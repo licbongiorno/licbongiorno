@@ -21,10 +21,7 @@
   "h1": "Laboratorio de <em>pesadillas y noche agitada</em>",
   "bajada": "Despertarse con el corazón acelerado y el sueño todavía encima. Cuatro prácticas para las pesadillas que se repiten y para la noche que no termina de aflojar.",
   "respuesta": "El laboratorio de pesadillas y noche agitada propone cuatro ejercicios: el ensayo en imaginación, basado en el estudio de Barry Krakow y su equipo (2001), para cambiar el final de una pesadilla repetida; un anclaje para volver al presente al despertar; un registro de la preocupación antes de dormir; y un recorrido para volver a dormir según lo que te pasa.",
-  "scripts": [
-    "lab-base.js",
-    "escenas.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de pesadillas",
   "articulos": [
     "suenos-recurrentes",
@@ -46,7 +43,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#ensayo">Cambiar el final</a><a href="#anclaje">Volver al cuarto</a><a href="#preocupacion">Escribir antes de dormir</a><a href="#volver">Volver a dormir</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#ensayo">Cambiar el final</a><a href="#anclaje">Volver al cuarto</a><a href="#preocupacion">Escribir antes de dormir</a><a href="#volver">Volver a dormir</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="ensayo" aria-labelledby="t-ensayo">
       <p class="lab-estacion__num">01</p>
@@ -140,6 +137,19 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas frecuentes sobre las pesadillas y la noche agitada.</p>
+      <div class="lab-tarjeta" data-lab-quiz="pesadillas-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Si las pesadillas se relacionan con una experiencia de violencia o trauma, no tenés que trabajarlas sola. Podés llamar al 144 (violencia de género, las 24 horas), al 911 o al 135 (CABA y GBA) y al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>. Si además te cuesta dormir, mirá el <a href="/laboratorio-de-insomnio/">laboratorio de insomnio</a>.</p>
     </aside>

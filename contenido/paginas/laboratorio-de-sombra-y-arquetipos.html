@@ -8,7 +8,7 @@
   "h1": "Laboratorio de <em>sombra y arquetipos</em>",
   "bajada": "Lo que rechazamos, lo que admiramos en otros y las historias antiguas que se repiten en nuestra vida. Ejercicios para conocer la parte de vos que todavía no conocés.",
   "respuesta": "El laboratorio de sombra y arquetipos propone ejercicios inspirados en la psicología analítica de Carl Gustav Jung: un diario de proyecciones para reconocer la propia sombra en lo que nos molesta de otros, la sombra dorada en lo que admiramos, una exploración de ocho figuras arquetípicas con su don y su sombra, y un contraste entre la persona (lo que mostramos) y lo que escondemos.",
-  "scripts": ["lab-base.js"],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js"],
   "wa_tema": "el laboratorio de sombra y arquetipos",
   "articulos": ["la-sombra-segun-jung", "arquetipos-en-la-vida-cotidiana", "la-proyeccion-segun-jung"]
 }-->
@@ -32,7 +32,7 @@
       <a href="#arquetipos">Mis arquetipos</a>
       <a href="#persona">Persona y sombra</a>
       <a href="#siete-dias">Plan de 7 días</a>
-    </nav>
+    <a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="me-molesta" aria-labelledby="t-molesta">
       <p class="lab-estacion__num">01</p>
@@ -121,6 +121,19 @@
         </ol>
         <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
         <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Seis ideas frecuentes sobre este tema: decidí si son un mito o una verdad.</p>
+      <div class="lab-tarjeta" data-lab-quiz="sombra-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
       </div>
     </section>
 

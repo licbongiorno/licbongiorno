@@ -498,4 +498,209 @@
     { t: "Las ganas de tomar suelen bajar en minutos si no se las alimenta.", r: "b", e: "Marlatt propuso tratarlas como una ola: sube, llega a un pico y baja. Si podés, esperá veinte minutos antes de decidir." },
     { t: "Si tomás mucho todos los días desde hace tiempo, dejar de golpe es siempre seguro.", r: "a", e: "Puede ser peligroso. Antes de dejar, consultá con un médico: hay tratamientos que ayudan. Si aparecen temblores fuertes, confusión, alucinaciones o convulsiones, andá a una guardia o llamá al 107." }
   ]);
+  LAB.quiz("psicodrama-mitos", [
+  { t: "Según Moreno, los conflictos se resuelven sobre todo hablando sobre ellos.", r: "a", e: "Mito. Para Moreno muchas cosas no se resuelven hablando, sino actuándolas: poner en escena el conflicto permite verlo desde afuera y probar respuestas distintas." },
+  { t: "Para Moreno, la espontaneidad es responder de forma nueva a una situación conocida, o de forma adecuada a una situación nueva.", r: "b", e: "Verdad. Esa es su definición de espontaneidad, que consideraba la clave de la salud." },
+  { t: "El psicodrama se hace siempre a solas, sin director ni grupo.", r: "a", e: "Mito. El psicodrama se practica en grupo, con un director formado. Este laboratorio solo adapta algunas técnicas para hacerlas a solas." },
+  { t: "En psicodrama, el doble se pone detrás del protagonista y dice lo que este siente pero calla.", r: "b", e: "Verdad. Esa es la técnica del doble. A solas, podés escribir lo que tu doble diría en una conversación difícil." },
+  { t: "Invertir los roles significa ponerse en el lugar del otro, literalmente, y hablar desde su rol.", r: "b", e: "Verdad. Es la técnica central de Moreno: cambiás de silla y respondés como la otra persona para ver lo que antes no veías." },
+  { t: "Está bien usar estos ejercicios a solas para revivir situaciones traumáticas.", r: "a", e: "Mito. Actuar una escena puede despertar emociones más intensas que hablar de ella. En psicodrama siempre hay un director formado que cuida el proceso, y estos ejercicios no son para revivir traumas a solas." }
+  ]);
+
+  LAB.quiz("relaciones-poder-mitos", [
+  { t: "Para Adler, el sentimiento comunitario es algo fijo que se tiene o no se tiene.", r: "a", e: "Mito. Adler lo describió como algo que se puede cultivar con actos concretos, como un gesto chico hacia otra persona." },
+  { t: "Horney describió que un ideal de perfección puede volverse exigente y aumentar la distancia con el yo real.", r: "b", e: "Verdad. Cuando el ideal se vuelve una exigencia, la persona vive en tensión. Un puente posible es aceptar lo real y elegir un paso." },
+  { t: "El yo ideal siempre es dañino y conviene eliminarlo.", r: "a", e: "Mito. El yo ideal sirve cuando orienta. Se vuelve una tiranía cuando no deja lugar al yo real." },
+  { t: "Según Sullivan, el yo bueno surge de la aprobación y el yo malo surge del castigo.", r: "b", e: "Verdad. Y el no-yo es lo que se niega o se disocia. Son «mí» que se forman con la mirada de los otros." },
+  { t: "Los «mí» que describió Sullivan son verdades fijas sobre quiénes somos.", r: "a", e: "Mito. Reconocerlos permite verlos como aprendidos, no como verdades fijas." },
+  { t: "Hacer explícito lo que esperamos del otro y pedirlo con claridad reduce la ansiedad interpersonal.", r: "b", e: "Verdad. Esperar sin decir nada deja la angustia en nosotros. Pedir abre una respuesta posible, aunque no siempre sea la que queremos." }
+  ]);
+
+  LAB.quiz("respiraciones-mitos", [
+  { t: "Cambiar la respiración puede cambiar algo de lo que sentimos.", r: "b", e: "Verdad. El camino también funciona al revés: así como cada emoción tiene su forma de respirar, cambiar la respiración puede modificar algo de lo que sentimos." },
+  { t: "Las respiraciones rápidas tienden a calmar y las exhalaciones largas tienden a activar.", r: "a", e: "Mito. Es al revés: las exhalaciones largas tienden a calmar y las respiraciones rápidas tienden a activar." },
+  { t: "La respiración de fuego (kapalabhati) sirve para calmar la ansiedad.", r: "a", e: "Mito. Es una técnica activadora: sube la energía y el estado de alerta, y en una persona ansiosa puede aumentar las sensaciones de alarma." },
+  { t: "El suspiro fisiológico es lo que el cuerpo hace solo cuando suspira o después de llorar.", r: "b", e: "Verdad. Son dos inhalaciones seguidas por la nariz y una exhalación larga por la boca. Se usa cuando necesitás bajar rápido la tensión." },
+  { t: "Si te mareás o te falta el aire mientras practicás, lo mejor es forzar la técnica un poco más.", r: "a", e: "Mito. Mareo, hormigueo o ahogo son señales de que estás respirando de más: frená y volvé a tu ritmo natural." },
+  { t: "En un ataque de pánico, lo que más ayuda son las exhalaciones largas, no las retenciones.", r: "b", e: "Verdad. Con asma, enfermedades respiratorias o cardíacas, o embarazo, conviene consultar al médico antes de practicar retenciones o respiraciones rápidas." }
+  ]);
+
+  LAB.quiz("seneca-mitos", [
+  { t: "Para Séneca, la ira empieza con una impresión y se alimenta del juicio.", r: "b", e: "Verdad. En De ira la describe como una pasión que se alimenta del juicio, y por eso aconseja esperar, pensar y preguntarse qué bien busca." },
+  { t: "Séneca aconsejaba responder a la ofensa lo más rápido posible, para no acumular enojo.", r: "a", e: "Mito. Su consejo era esperar antes de responder y usar ese espacio para preguntarse qué busca la ira y si ese bien vale la pena." },
+  { t: "Séneca advirtió que la multitud contagia vicios y opiniones con facilidad.", r: "b", e: "Verdad. Recomendaba elegir pocas compañías buenas. La multitud no decide por nosotros, pero contagia." },
+  { t: "Consolar a alguien es minimizar su dolor.", r: "a", e: "Mito. Consolar no es minimizar: es ayudar a ver lo que depende de la persona y lo que no, sin negar el dolor." },
+  { t: "Séneca escribió cartas a Lucilio para ordenar sus ideas y acompañarlo.", r: "b", e: "Verdad. Escribirle a alguien querido es también una forma de pensar en voz alta." },
+  { t: "Estos ejercicios alcanzan para trabajar una ira que pone en riesgo a otras personas.", r: "a", e: "Mito. Si la ira es intensa o pone en riesgo a otros, no se trabaja sola: hay que pedir acompañamiento. Si hay violencia, podés llamar al 144 o al 911." }
+  ]);
+
+  LAB.quiz("sombra-mitos", [
+  { t: "La sombra es todo lo malo que hay en vos.", r: "a", e: "Mito. Jung llamó sombra a lo que no aceptamos de nosotros mismos, y no es mala: es lo que todavía no integraste." },
+  { t: "Lo que más nos irrita en otros puede ser una pista de una proyección.", r: "b", e: "Verdad. Un exceso de irritación sugiere que algo tuyo también está en juego, aunque eso no significa que el otro no tenga nada que ver." },
+  { t: "La sombra guarda solo lo que rechazamos, nunca capacidades propias.", r: "a", e: "Mito. También guarda capacidades que no nos animamos a vivir. Los autores junguianos la llaman a veces «sombra dorada» y aparece en la admiración desmedida." },
+  { t: "Las ocho figuras de este laboratorio son una tipología científica.", r: "a", e: "Mito. No son una tipología científica ni un test: son espejos para pensar qué historias se repiten en tu vida." },
+  { t: "Cada arquetipo tiene un don y una sombra.", r: "b", e: "Verdad. Por ejemplo, el cuidador tiene el don de la generosidad y la sombra de darse hasta vaciarse." },
+  { t: "Cuanto más rígida es la máscara que mostramos, más grande es la sombra.", r: "b", e: "Verdad. La persona es la máscara que mostramos al mundo y la sombra es lo que queda del otro lado. Estos ejercicios son una puerta de entrada, no un diagnóstico." }
+  ]);
+
+  LAB.quiz("transacciones-mitos", [
+  { t: "Según Berne, hablamos desde tres estados del yo: padre, adulto y niño.", r: "b", e: "Verdad. Son formas de estar en una conversación, no personas distintas." },
+  { t: "El estado adulto es el que no siente nada y evalúa con frialdad.", r: "a", e: "Mito. El adulto evalúa lo que pasa aquí y ahora: qué información tenés y qué pedís. Las emociones corresponden más al niño, y todos los estados forman parte de nosotros." },
+  { t: "Una transacción cruzada es la que responde desde otro estado del yo, y suele cortar la comunicación.", r: "b", e: "Verdad. En la paralela, la respuesta continúa en el mismo estado y la comunicación fluye." },
+  { t: "Para Berne, un juego es una conversación divertida entre dos personas.", r: "a", e: "Mito. Berne llamó juegos a secuencias de transacciones que se repiten, tienen un mensaje oculto y terminan en un resultado conocido, como sentirse herido." },
+  { t: "Cambiar una sola respuesta, desde el adulto, puede cortar un juego que se repite.", r: "b", e: "Verdad. Reconocer el juego es el primer paso para salir de él." },
+  { t: "Laura Perls trabajó la idea de vivir en la frontera del contacto con el otro, sin perderse en ninguno de los dos lados.", r: "b", e: "Verdad. Su obra póstuma se titula Viviendo en los límites. Estas prácticas son para tus conversaciones, sin analizar al otro." }
+  ]);
+
+  LAB.quiz("virtudes-mitos", [
+  { t: "Para Aristóteles, la virtud es una regla que se obedece.", r: "a", e: "Mito. Aristóteles la pensaba como una manera de ser que se forma con la práctica." },
+  { t: "Cada virtud está en un término medio entre dos extremos, como la valentía entre la cobardía y la temeridad.", r: "b", e: "Verdad. El medio se busca con la razón y según el contexto." },
+  { t: "El término medio es siempre la mitad exacta entre los dos extremos.", r: "a", e: "Mito. La virtud no es el extremo ni la mitad mecánica: es el punto que la razón ubica según la situación." },
+  { t: "Nos hacemos justos practicando la justicia y valientes practicando la valentía.", r: "b", e: "Verdad. La virtud es un hábito que se forma con actos repetidos: se practica, no solo se piensa." },
+  { t: "Para corregir un exceso conviene irse al extremo opuesto.", r: "a", e: "Mito. Reconocer hacia qué lado tendemos ayuda a corregir la dirección sin irnos al otro extremo." },
+  { t: "La eudaimonía, o buen vivir, se alcanza en una actividad acorde con la virtud que vale por sí misma.", r: "b", e: "Verdad. Buscar esas actividades, y no solo los resultados, es parte de la vida buena. Y si hay conductas que te dañan, un ejercicio no alcanza: pedí ayuda profesional." }
+  ]);
+
+  LAB.quiz("amor-arte-mitos", [
+  { t: "Para Fromm, el amor es algo que nos pasa y no requiere práctica.", r: "a", e: "Mito. Fromm propuso que el amor exige conocimiento, esfuerzo y práctica, como cualquier arte." },
+  { t: "Según Fromm, el cuidado es un interés activo por el crecimiento de la otra persona.", r: "b", e: "Verdad. No es solo sentir ternura: es hacer algo concreto para que la otra persona florezca." },
+  { t: "La responsabilidad, para Fromm, es una obligación impuesta desde afuera.", r: "a", e: "Mito. Es responder voluntariamente a las necesidades del otro. Nace de elegir estar presente, y es distinta del deber." },
+  { t: "Sin respeto, la responsabilidad puede degenerar en control o explotación.", r: "b", e: "Verdad. Fromm llamó respeto a ver al otro tal como es, sin usarlo para nuestros fines." },
+  { t: "Para conocer de verdad a alguien alcanza con suponer lo que piensa.", r: "a", e: "Mito. Suponer es fácil y empobrece el vínculo. El conocimiento se practica con preguntas abiertas y escucha." },
+  { t: "Si en el vínculo hay control, celos extremos o miedo, no es un tema de ejercicios de amor sino de seguridad.", r: "b", e: "Verdad. Si hay control del celular, del dinero o de las salidas, gritos, amenazas o violencia, podés llamar al 144 (violencia de género, las 24 horas) o al 911." }
+  ]);
+
+  LAB.quiz("cuerpo-vivido-mitos", [
+  { t: "Merleau-Ponty usó la experiencia de una mano que toca a la otra para mostrar que el cuerpo es a la vez sujeto y objeto.", r: "b", e: "Verdad. La mano que toca puede ser tocada, y esa reversibilidad es lo que llamó cuerpo vivido." },
+  { t: "Saber dónde está tu mano sin mirarla requiere pensarlo con cuidado.", r: "a", e: "Mito. El esquema corporal es un saber práctico que no pasa por el pensamiento: sabemos dónde están nuestras manos sin verlas." },
+  { t: "Para Spinoza, la alegría aumenta nuestra potencia de actuar y la tristeza la disminuye.", r: "b", e: "Verdad. Junto con el deseo, son los tres afectos básicos que describió." },
+  { t: "Entender las causas de un afecto no cambia nada en cómo nos domina.", r: "a", e: "Mito. Para Spinoza, un afecto que se entiende deja de dominarnos del mismo modo: entender las causas devuelve parte del poder de actuar." },
+  { t: "Los reflejos son rápidos y no se pueden evitar del todo, pero queda un espacio chico para elegir qué hacer con ellos.", r: "b", e: "Verdad. Practicar ese espacio, con una respiración lenta, cambia la respuesta." },
+  { t: "Si una práctica te incomoda, tenés que seguir hasta el final.", r: "a", e: "Mito. Las prácticas son cortas y, si algo te incomoda, podés cambiar de práctica sin problema." }
+  ]);
+
+  LAB.quiz("encuentro-mitos", [
+  { t: "Buber distinguió la relación Yo-Tú, donde el otro aparece entero, de la relación Yo-Ello, donde el otro se usa o se conoce.", r: "b", e: "Verdad. La vida necesita las dos, pero solo la primera es encuentro." },
+  { t: "Según Buber, la relación Yo-Ello es mala y hay que evitarla siempre.", r: "a", e: "Mito. La vida necesita las dos relaciones. Lo que ocurre es que solo la Yo-Tú es encuentro." },
+  { t: "Para Hegel, necesitamos ser reconocidos por otra conciencia: necesitamos sentirnos vistos.", r: "b", e: "Verdad. Cuando esa necesidad no se cubre, aparecen la lucha, el enojo o el retraimiento." },
+  { t: "Para Hegel, ante dos posiciones opuestas hay que elegir una y descartar la otra.", r: "a", e: "Mito. De la tensión surge algo que conserva y transforma a las dos. Aceptar y cambiar no son posiciones enemigas." },
+  { t: "Pedir con claridad lo que necesitás para sentirte reconocido también es un paso.", r: "b", e: "Verdad. A veces esa necesidad se puede pedir, o se puede buscar a alguien que te reconozca." },
+  { t: "Escuchar de verdad es ir preparando la respuesta mientras el otro habla.", r: "a", e: "Mito. Escuchar exige soltar la respuesta preparada. Cuando aparece la distracción, volver a escuchar es la práctica." }
+  ]);
+
+  LAB.quiz("estoico-mitos", [
+  { t: "El estoicismo pide dejar de sentir.", r: "a", e: "Mito. No pide dejar de sentir: pide revisar los juicios que nos hacen sufrir." },
+  { t: "Epicteto distinguió lo que está en nuestro poder, como los juicios, deseos y acciones, de lo que no, como el cuerpo, la reputación o lo que hacen los demás.", r: "b", e: "Verdad. Gran parte del malestar viene de querer controlar lo segundo." },
+  { t: "Epicteto fue un emperador romano.", r: "a", e: "Mito. Epicteto fue esclavo y después maestro de filosofía. Sus enseñanzas las reunió Arriano en el Enquiridión." },
+  { t: "Imaginar de antemano las dificultades posibles ayuda a no sorprendernos tanto cuando llegan.", r: "b", e: "Verdad. Es la premeditación de los males: pensar qué haríamos reduce la sorpresa y la angustia." },
+  { t: "El examen nocturno consiste en castigarse por lo que se hizo mal.", r: "a", e: "Mito. Se revisa lo que hicimos bien, lo que hicimos mal y lo que dejamos de hacer, con honestidad y sin castigo, para aprender." },
+  { t: "Para Epicteto, lo que nos perturba no son los hechos sino las opiniones que tenemos sobre ellos.", r: "b", e: "Verdad. Por eso lo que otros piensan de nosotros es un hecho ajeno, mientras que nuestro juicio sobre nosotros sí podemos revisarlo." }
+  ]);
+
+  LAB.quiz("logoterapia-trago-mitos", [
+  { t: "El optimismo trágico consiste en exigirse ser feliz pase lo que pase.", r: "a", e: "Mito. Frankl distingue el optimismo trágico del mandato cultural de «ser feliz»: no niega el dolor ni exige felicidad." },
+  { t: "La tríada trágica que describe Frankl es el dolor, la culpa y la muerte.", r: "b", e: "Verdad. Su respuesta es que cada uno puede transformarse en algo con sentido." },
+  { t: "Frankl proponía buscar el sufrimiento porque es bueno en sí mismo.", r: "a", e: "Mito. No significa que el sufrimiento sea bueno ni que haya que buscarlo: si se puede evitar, lo sensato es evitarlo. Se trata de lo que no se puede evitar." },
+  { t: "Para Frankl, la culpa puede ser el punto de partida para cambiar.", r: "b", e: "Verdad. Es la prueba de que somos libres y responsables. La pregunta pasa a ser «¿en quién me quiero convertir a partir de esto?»." },
+  { t: "Para Frankl, lo vivido se pierde con el tiempo.", r: "a", e: "Mito. Frankl usaba la imagen del granero: lo que hicimos, amamos y sufrimos con valentía queda guardado en el pasado y nadie puede sacarlo." },
+  { t: "Frankl pensaba que la transitoriedad de la vida es un incentivo para actuar con responsabilidad.", r: "b", e: "Verdad. Justamente porque el tiempo es limitado, cada momento pide una respuesta. Y si el sufrimiento es muy intenso, primero hace falta alivio y compañía." }
+  ]);
+  LAB.quiz("meditaciones-del-corazon-mitos", [
+  { t: "Para practicar el amor bondadoso tenés que sentir algo especial mientras repetís las frases.", r: "a", e: "El laboratorio lo dice así: no hace falta sentir nada especial, porque lo que se cultiva es la intención." },
+  { t: "En los textos budistas, las cuatro moradas sublimes son disposiciones que se entrenan con la práctica.", r: "b", e: "No son sentimientos que aparecen solos: el amor bondadoso, la compasión, la alegría por el bien ajeno y la ecuanimidad se cultivan." },
+  { t: "La ecuanimidad es lo mismo que la indiferencia: «me da igual».", r: "a", e: "La indiferencia es justamente su enemigo cercano, algo que se le parece pero no lo es. La ecuanimidad sostiene el afecto sin dejarse arrastrar por los cambios." },
+  { t: "Según Buddhaghosa, los enemigos cercanos son los más traicioneros porque se viven como virtudes.", r: "b", e: "Por ejemplo, la lástima puede confundirse con la compasión, y el apego con el amor bondadoso." },
+  { t: "Cuando sentís envidia, la alegría empática sirve para taparla y no pensar más en eso.", r: "a", e: "El laboratorio propone lo contrario: no taparla, sino escuchar qué te muestra y no quedarte atrapado en ella." },
+  { t: "Tania Singer y Olga Klimecki distinguieron el malestar empático, que desgasta, de la compasión, que se vive con calidez y protege a quien cuida.", r: "b", e: "Es una de las razones por las que la compasión con ecuanimidad se propone para quienes cuidan." }
+  ]);
+
+  LAB.quiz("mi-mapa-de-vinculos-mitos", [
+  { t: "Este mapa te dice si un vínculo es «sano» o «tóxico».", r: "a", e: "El laboratorio aclara que no es una evaluación ni un test de relaciones sanas o tóxicas: dibuja lo que vos marcás." },
+  { t: "El mapa admite vínculos pasados y personas que ya no están.", r: "b", e: "Se apoya en la idea del convoy de Kahn y Antonucci: los vínculos cercanos acompañan a lo largo de la vida y cambian de composición con el tiempo." },
+  { t: "Si alguien vive lejos y casi no hablan, entonces no puede ser un vínculo central.", r: "a", e: "Cercanía emocional, frecuencia de contacto, confianza, intimidad y distancia física son dimensiones diferentes. Alguien puede vivir lejos y ser central." },
+  { t: "El genograma y el mapa de la red social son herramientas distintas, y por eso el laboratorio las mantiene en dos capas.", r: "b", e: "Una persona puede ser central en tu historia familiar y no en tu vida actual, o al revés." },
+  { t: "Según la perspectiva gestáltica del laboratorio, retirarse de un vínculo es siempre una forma de rechazo.", r: "a", e: "Contacto y retirada forman parte de un mismo ritmo. Retirarse no es rechazar: también es una manera de regular el encuentro." },
+  { t: "En una relación valiosa no siempre se intercambia lo mismo ni al mismo tiempo.", r: "b", e: "Por eso la estación de reciprocidad no es una cuenta: un vínculo puede ser valioso aunque algo no circule de manera pareja." }
+  ]);
+
+  LAB.quiz("mito-personal-mitos", [
+  { t: "Mirar tu vida como un viaje del héroe es convertirte en el protagonista de una película.", r: "a", e: "El laboratorio lo aclara: mirarla así no la vuelve ficción, ayuda a encontrarle un sentido." },
+  { t: "Joseph Campbell describió la estructura del monomito en tres movimientos: la partida, la iniciación y el regreso.", r: "b", e: "Es la base del ejercicio del viaje del héroe de este laboratorio." },
+  { t: "Para completar el viaje del héroe tenés que haberlo terminado y saber cómo sale.", r: "a", e: "Si estás en medio del viaje, está bien dejar en blanco lo que no llegó. A veces lo más honesto es reconocer que estamos en el bosque." },
+  { t: "Jung se preguntó una vez, en una época de crisis, cuál era el mito que vivía, y descubrió que no lo sabía.", r: "b", e: "La pregunta «¿cuál es el mito que vivo?» es el punto de partida de este laboratorio." },
+  { t: "Perséfone es la figura de los descensos involuntarios, como un duelo o una crisis, de los que también se vuelve.", r: "b", e: "Vive parte del año abajo y parte arriba. La pregunta que propone el laboratorio es qué estás aprendiendo «abajo» que no hubieras aprendido arriba." },
+  { t: "Hay que recorrer sí o sí los capítulos más dolorosos de tu historia para que el ejercicio sirva.", r: "a", e: "No hace falta ir a los capítulos más difíciles si hoy no es el momento. Si algo te pesa, es un buen tema para trabajar en terapia." }
+  ]);
+
+  LAB.quiz("narrativa-testigos-mitos", [
+  { t: "En una ceremonia de definición, los testigos aplauden y aconsejan a la persona.", r: "a", e: "Los testigos no aplauden, no aconsejan ni interpretan: responden cuatro preguntas, en orden." },
+  { t: "Las cuatro preguntas del testigo son la expresión, la imagen, la resonancia y el transporte.", r: "b", e: "Primero se nombra algo concreto que se escuchó, y al final se dice a dónde lleva al testigo haberlo escuchado." },
+  { t: "Al hablar de la resonancia, el testigo cuenta qué le pasó a él con lo que escuchó, no cómo es la vida del otro.", r: "b", e: "El testigo habla de su propia experiencia, no de la de la persona que contó su historia." },
+  { t: "Cualquier persona sirve como testigo de tu historia, aunque juzgue o minimice.", r: "a", e: "El laboratorio advierte que un testigo que juzga, aconseja o minimiza puede lastimar. Conviene elegir con cuidado a quién mostrarle tu historia." },
+  { t: "Epston observó que una carta después de una sesión podía valer, para muchas personas, tanto como varias sesiones.", r: "b", e: "Lo escrito se puede releer, compartir y no se lo lleva el olvido." },
+  { t: "Los certificados son solo un juego para chicos y no cambian nada.", r: "a", e: "Puede parecer un juego, pero hace visible y compartible un cambio, como el «certificado de domador de miedos»." }
+  ]);
+
+  LAB.quiz("narrativo-mitos", [
+  { t: "Según la terapia narrativa, la persona es el problema.", r: "a", e: "Una de las ideas centrales de White y Epston es que la persona no es el problema: el problema es el problema." },
+  { t: "Externalizar el problema, ponerle un nombre y mirar cómo opera, abre espacio para elegir otra relación con él.", r: "b", e: "Por ejemplo, en lugar de «soy ansioso», «la Ansiedad aparece y me dice cosas»." },
+  { t: "Externalizar significa minimizar lo que te pasa, incluso si hay violencia.", r: "a", e: "Externalizar no es minimizar: si el problema es una violencia que alguien ejerce sobre vos, la prioridad es tu seguridad." },
+  { t: "Los acontecimientos extraordinarios son momentos, aunque sean chiquitos, en que el problema no se salió con la suya.", r: "b", e: "La historia dominante suele olvidarlos, y por eso son la semilla de otra historia." },
+  { t: "La historia alternativa se inventa de cero, sin relación con lo que ya pasó.", r: "a", e: "Se arma con las excepciones, los valores y lo que la historia dominante deja afuera." },
+  { t: "El árbol de la vida habla de la propia vida desde los recursos, no desde el problema.", r: "b", e: "Fue creado por Ncazelo Ncube y David Denborough. Las «tormentas» se trabajan después de reconocer las fortalezas, y conviene hacerlo acompañado." }
+  ]);
+
+  LAB.quiz("psicologia-positiva-emociones-mitos", [
+  { t: "Las emociones positivas no sirven para nada, solo las negativas tienen una función.", r: "a", e: "Según la teoría de ampliar y construir de Barbara Fredrickson, amplían lo que podemos pensar y hacer y construyen recursos duraderos." },
+  { t: "En «Tres cosas buenas», preguntarse por qué pasó cada cosa es una parte clave del ejercicio.", r: "b", e: "La pregunta por el porqué lleva a notar qué parte tuviste vos, o quién te ayudó." },
+  { t: "Las tres cosas buenas tienen que ser extraordinarias para que el ejercicio funcione.", r: "a", e: "Pueden ser cosas chicas: un mensaje, una comida rica, un rato de sol." },
+  { t: "Según Bryant y Veroff, se puede saborear el presente, el pasado y el futuro.", r: "b", e: "Saborear es la capacidad de notar, apreciar y prolongar las experiencias positivas." },
+  { t: "Para que el ejercicio de saborear funcione, tenés que forzarte a sentir alegría aunque no la sientas.", r: "a", e: "El laboratorio dice lo contrario: no se trata de sentir algo que no sentís, sino de notar lo que ya está." },
+  { t: "Si hace semanas que no encontrás nada bueno en tus días, puede ser una señal de depresión y conviene hablarlo con un profesional.", r: "b", e: "Y no es tu culpa. El laboratorio sugiere consultar, no insistir solo con los ejercicios." }
+  ]);
+
+  LAB.quiz("psicologia-positiva-fortalezas-mitos", [
+  { t: "Peterson y Seligman describieron 24 fortalezas del carácter agrupadas en seis virtudes.", r: "b", e: "Investigaciones posteriores sugieren que la agrupación en seis no es tan nítida, pero las 24 fortalezas siguen siendo una herramienta útil." },
+  { t: "Reconocer una fortaleza es lo mismo que creérsela, y por eso conviene la falsa modestia.", r: "a", e: "El laboratorio propone lo contrario: reconocer una fortaleza no es creérsela." },
+  { t: "Las fortalezas distintivas son las que sentís como propias: te salen con naturalidad y te dan energía en lugar de cansarte.", r: "b", e: "Si dudás, podés pensar qué diría alguien que te conoce bien." },
+  { t: "Según Csikszentmihalyi, el fluir aparece cuando la tarea es lo más fácil posible.", r: "a", e: "Aparece cuando el desafío y tu habilidad están parejos y altos. Si es muy fácil, aparece el aburrimiento; si te supera, la ansiedad." },
+  { t: "El ejercicio de «mi mejor yo posible» de Laura King es una fantasía sin límites.", r: "a", e: "La palabra clave es «realista»: es una imagen de hacia dónde querés ir, que ayuda a ordenar las metas." },
+  { t: "Las fortalezas también tienen excesos: la perseverancia puede volverse terquedad.", r: "b", e: "Y la amabilidad puede volverse incapacidad de decir que no." }
+  ]);
+
+  LAB.quiz("recorrido-mindfulness-mitos", [
+  { t: "Kabat-Zinn definía mindfulness como prestar atención a propósito, en el momento presente y sin juzgar.", r: "b", e: "Es la definición con la que arranca el recorrido." },
+  { t: "Con la técnica correcta alcanza: la actitud con que practicás no importa.", r: "a", e: "Kabat-Zinn insistía en que la técnica no alcanza: lo que transforma es la actitud con que se practica." },
+  { t: "Aceptación significa resignarse a que las cosas no cambien.", r: "a", e: "No es resignación: es ver las cosas como son en este momento, y es el punto de partida de cualquier cambio." },
+  { t: "Cuanto más te esforzás por relajarte, menos lo lográs.", r: "b", e: "Es la paradoja de la actitud de no esforzarse: en lugar de «tengo que calmarme», probá «estoy notando cómo estoy»." },
+  { t: "El mindfulness ayuda a todas las personas de la misma forma.", r: "a", e: "Ayuda a muchas, pero no a todas igual. Con historias de trauma, disociación o una crisis intensa, quedarse quieto observando puede aumentar el malestar." },
+  { t: "Si quedarte quieto te hace mal, podés elegir prácticas con los ojos abiertos, en movimiento o más breves.", r: "b", e: "Y conviene consultarlo con un profesional." }
+  ]);
+
+  LAB.quiz("respirar-volver-al-presente-mitos", [
+  { t: "Una respiración «mejor» sirve para todas las personas, y hay que sostener el aire aunque incomode.", r: "a", e: "Ninguna técnica es obligatoria ni mejor. Si una pausa incomoda, se pone en cero." },
+  { t: "La respiración es una de las pocas funciones del cuerpo que ocurre sola y que, a la vez, podemos modular.", r: "b", e: "Por eso puede ser un puente para volver al presente." },
+  { t: "La respiración 4-7-8 tiene mucha investigación propia que la respalda.", r: "a", e: "Fue difundida por el médico Andrew Weil y tiene poca investigación propia. La retención larga se puede reducir o quitar." },
+  { t: "Una exhalación algo más larga que la inspiración, sin forzar el aire, es para muchas personas una forma cómoda de bajar el ritmo.", r: "b", e: "Es la idea de la exhalación prolongada: inspirar cuatro y exhalar seis, sin pausas." },
+  { t: "Respirar de determinada manera cura la ansiedad, el pánico y el insomnio.", r: "a", e: "Puede ser una herramienta de autorregulación útil, pero no es una cura ni reemplaza un tratamiento psicológico o médico." },
+  { t: "En algunas personas, por ejemplo con ataques de pánico, prestar atención a la respiración puede aumentar el malestar.", r: "b", e: "En ese caso conviene elegir otra vía para volver al presente, como llevar la atención a los pies o a los sonidos, y consultarlo." }
+  ]);
+
+  LAB.quiz("rueda-de-las-emociones-mitos", [
+  { t: "La rueda te dice qué sentís «en realidad».", r: "a", e: "Es una herramienta para explorar y poner palabras, no un test: no diagnostica ni dice qué sentís en realidad." },
+  { t: "El modelo de Plutchik organiza ocho emociones primarias en pares opuestos, con tres intensidades cada una.", r: "b", e: "Además, entre dos colores vecinos aparece la combinación que propone el modelo." },
+  { t: "Las palabras y los colores de la rueda son una clasificación universal de las emociones.", r: "a", e: "Provienen de un modelo teórico, el de Robert Plutchik, y no de una clasificación universal." },
+  { t: "James Russell propone ubicar lo que sentís según cuán agradable o desagradable es y cuánta activación trae.", r: "b", e: "Es el plano del modelo circumplejo: no pregunta qué emoción es, sino cómo se siente." },
+  { t: "Hace falta poder nombrar la emoción para empezar a explorarla.", r: "a", e: "A veces el cuerpo está muy activado y todavía no sabemos cómo nombrar lo que pasa. Por eso existe el plano de la estación 2, y en el recorrido podés elegir «No sé cómo nombrarlo»." },
+  { t: "Podés sentir una emoción y, al mismo tiempo, elegir qué hacer con ella.", r: "b", e: "Es una de las ideas del paso 7 del recorrido guiado." }
+  ]);
+
+  LAB.quiz("sistemico-mitos", [
+  { t: "Mirar el sistema familiar sirve para encontrar al culpable de lo que te pasa.", r: "a", e: "El laboratorio busca patrones, no responsables: mirar el sistema ayuda a entender lo que nos pasa." },
+  { t: "La terapia sistémica mira los problemas en su contexto, en los patrones de relación, y no solo «adentro» de una persona.", r: "b", e: "Nació a mediados del siglo XX con autores como Bateson, Satir, Minuchin y la escuela de Milán." },
+  { t: "En una discusión que se repite, hay un principio claro y un único culpable.", r: "a", e: "En los sistemas, las conductas se alimentan entre sí en círculos: no hay un principio claro ni un único culpable." },
+  { t: "Según Minuchin, los límites de una familia pueden ser difusos, claros o rígidos, y ninguna familia es pura.", r: "b", e: "Suelen combinarse. Los claros tienen intercambio y también privacidad." },
+  { t: "Una familia con límites rígidos es la que más se cuida, porque cada uno resuelve solo.", r: "a", e: "Los límites rígidos significan mucha distancia: se habla poco de lo que pasa y cuesta pedir apoyo. Los claros combinan cercanía y autonomía." },
+  { t: "Las familias transmiten mandatos, a veces explícitos y a veces silenciosos, como «de eso no se habla».", r: "b", e: "Boszormenyi-Nagy habló además de lealtades invisibles: compromisos inconscientes con la familia que pueden pesar en la vida de cada uno." }
+  ]);
 })();

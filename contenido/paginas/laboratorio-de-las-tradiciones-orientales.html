@@ -21,10 +21,7 @@
   "h1": "Laboratorio de las <em>tradiciones orientales</em>",
   "bajada": "Estos textos no se leen solo como teoría: se practican. El Buda propuso cuatro verdades para entender el sufrimiento, Lao Tse habló de no forzar, Patañjali de aquietar la mente y Suzuki de un koan que no se resuelve pensando. Cuatro prácticas para ponerlo en el cuerpo.",
   "respuesta": "El laboratorio de las tradiciones orientales propone cuatro prácticas inspiradas en el Buda, Lao Tse, Patañjali y D. T. Suzuki: aplicar las cuatro nobles verdades a un sufrimiento concreto, practicar el wu wei en algo que se fuerza, sostener la atención en un solo punto como describen los Yoga Sutras, y trabajar un koan del zen.",
-  "scripts": [
-    "lab-base.js",
-    "escenas.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de las tradiciones orientales",
   "articulos": [
     "buda",
@@ -47,7 +44,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#verdades">Cuatro verdades en mi día</a><a href="#wu-wei">No forzar</a><a href="#atencion">Una sola cosa</a><a href="#koan">Un koan</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#verdades">Cuatro verdades en mi día</a><a href="#wu-wei">No forzar</a><a href="#atencion">Una sola cosa</a><a href="#koan">Un koan</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="verdades" aria-labelledby="t-verdades">
       <p class="lab-estacion__num">01</p>
@@ -147,6 +144,19 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas frecuentes sobre las tradiciones orientales, a la luz del Buda, Lao Tse, Patañjali y Suzuki.</p>
+      <div class="lab-tarjeta" data-lab-quiz="tradiciones-orientales-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Las prácticas de atención pueden remover emociones o recuerdos. Si algo te desborda, dejalo y apoyate en el respiro. Leé <a href="/recursos/cuando-meditar-no-es-recomendable/">cuándo meditar no es recomendable</a>, y pedí ayuda si lo necesitás.</p>
     </aside>

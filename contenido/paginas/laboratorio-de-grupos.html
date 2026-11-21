@@ -22,7 +22,7 @@
   "bajada": "Pichon-Rivière pensó el grupo como un espacio con una tarea, que avanza entre información, emoción y producción. Yalom describió lo que cura en el grupo: sentir que otros comparten lo que sentimos. Cuatro prácticas para observar un grupo y para participar en él.",
   "respuesta": "El laboratorio de grupos propone cuatro ejercicios inspirados en Enrique Pichon-Rivière e Irvin Yalom: distinguir la tarea explícita y la implícita de un grupo, observar el ciclo de información, emoción y producción, reconocer la universalidad al compartir una emoción y registrar lo aprendido y la esperanza que deja la experiencia grupal.",
   "scripts": [
-    "lab-base.js",
+    "lab-base.js", "laboratorio-ampliados.js",
     "escenas.js"
   ],
   "wa_tema": "el laboratorio de grupos",
@@ -42,7 +42,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tarea">La tarea del grupo</a><a href="#ciclo">Información, emoción, producción</a><a href="#universalidad">Universalidad</a><a href="#esperanza">Esperanza y aprendizaje</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tarea">La tarea del grupo</a><a href="#ciclo">Información, emoción, producción</a><a href="#universalidad">Universalidad</a><a href="#esperanza">Esperanza y aprendizaje</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="tarea" aria-labelledby="t-tarea">
       <p class="lab-estacion__num">01</p>
@@ -135,6 +135,19 @@
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
+    </section>
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre los grupos: ¿mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="grupos-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
     </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Un grupo puede despertar emociones fuertes. Si en un grupo terapéutico surge algo que te desborda, llevalo a tu terapeuta; estos ejercicios no reemplazan un espacio de terapia. Si necesitás ayuda urgente, llamá al 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>

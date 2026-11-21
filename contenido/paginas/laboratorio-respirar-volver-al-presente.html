@@ -22,7 +22,7 @@
   "bajada": "Una figura que se expande cuando inspirás y se recoge cuando exhalás. Cinco maneras de acompañar la respiración, con el tiempo, el ritmo y el estilo que elijas.",
   "respuesta": "Respirar, volver al presente es un visualizador interactivo de respiración con cinco modalidades: respiración consciente libre, respiración cuadrada, 4-7-8, exhalación prolongada y ritmo personalizado. Muestra la fase, el tiempo restante, la duración y los ciclos, con tres estilos visuales y sonido opcional. Puede ayudar a autorregularse, pero no cura la ansiedad ni reemplaza un tratamiento; no conviene forzar el aire ni sostenerlo si resulta incómodo.",
   "scripts": [
-    "lab-base.js",
+    "lab-base.js", "laboratorio-ampliados.js",
     "respirar.js"
   ],
   "wa_tema": "el laboratorio de respiración",
@@ -50,7 +50,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#practicar">Practicar</a><a href="#tecnicas">Las técnicas</a><a href="#investigacion">Qué dice la investigación</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#practicar">Practicar</a><a href="#tecnicas">Las técnicas</a><a href="#investigacion">Qué dice la investigación</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="practicar" aria-labelledby="t-practicar">
       <p class="lab-estacion__num">01</p>
@@ -146,6 +146,19 @@
       </div>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas sobre la respiración, sus técnicas y sus límites.</p>
+      <div class="lab-tarjeta" data-lab-quiz="respirar-volver-al-presente-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Esta práctica es voluntaria. No fuerces la respiración ni sostengas el aire si te resulta incómodo. Si sentís mareo, falta de aire, angustia o malestar, detené el ejercicio y volvé a respirar naturalmente. Si la angustia es muy intensa o pensás en hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Si la ansiedad o el pánico se repiten, puede ayudarte una consulta: podés <a href="/contacto/">escribirme</a>.</p>
     </aside>

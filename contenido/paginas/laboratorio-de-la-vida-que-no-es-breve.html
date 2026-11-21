@@ -21,10 +21,7 @@
   "h1": "Laboratorio de la <em>vida que no es breve</em>",
   "bajada": "Séneca sostuvo que la vida no es corta por naturaleza, sino porque la malgastamos. Cuatro prácticas para vivirla con intensidad, conciencia y sentido.",
   "respuesta": "El laboratorio de la vida que no es breve propone cuatro ejercicios inspirados en Séneca: mirar en qué se fue el tiempo de un día, vivir una actividad cotidiana con plenitud, pensar la finitud como guía y no como amenaza, y elegir lo que queremos que quede en la vida de otras personas.",
-  "scripts": [
-    "lab-base.js",
-    "escenas.js"
-  ],
+  "scripts": ["lab-base.js", "laboratorio-ampliados.js", "escenas.js"],
   "wa_tema": "el laboratorio de la vida que no es breve",
   "articulos": [
     "seneca",
@@ -46,7 +43,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tiempo">Lo que es mío</a><a href="#plenitud">Un momento completo</a><a href="#finitud">Si esta semana fuera la última</a><a href="#quede">Lo que quiero que quede</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#tiempo">Lo que es mío</a><a href="#plenitud">Un momento completo</a><a href="#finitud">Si esta semana fuera la última</a><a href="#quede">Lo que quiero que quede</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="tiempo" aria-labelledby="t-tiempo">
       <p class="lab-estacion__num">01</p>
@@ -140,6 +137,19 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas frecuentes sobre el tiempo y la finitud, a la luz de Séneca.</p>
+      <div class="lab-tarjeta" data-lab-quiz="vida-breve-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+
     <aside class="lab-cuidado revelar" aria-label="Un cuidado">
       <p><strong>Un cuidado.</strong> Pensar en la finitud puede despertar angustia en algunas personas. Si la reflexión deriva en pensamientos de no querer vivir, llamá al 135 (CABA y GBA) o al 0800-345-1435 (todo el país). Más en <a href="/ayuda-urgente/">Ayuda urgente</a>.</p>
     </aside>

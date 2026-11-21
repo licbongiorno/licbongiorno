@@ -22,7 +22,7 @@
   "bajada": "Pávlov mostró que un estímulo neutro puede volverse señal. Skinner, que las consecuencias moldean lo que hacemos. Bandura, que creer que podemos cambia nuestra conducta. James, que el hábito puede educarse. Cuatro prácticas para probarlo.",
   "respuesta": "El laboratorio de aprendizaje y hábito propone cuatro ejercicios inspirados en Iván Pávlov, B. F. Skinner, Albert Bandura y William James: un registro de antecedente, conducta y consecuencia; el reconocimiento de asociaciones condicionadas; una tarea dividida en pasos para aumentar la autoeficacia, y el primer paso de un hábito nuevo.",
   "scripts": [
-    "lab-base.js",
+    "lab-base.js", "laboratorio-ampliados.js",
     "escenas.js"
   ],
   "wa_tema": "el laboratorio de aprendizaje y hábito",
@@ -48,7 +48,7 @@
       </ul>
     </div>
 
-    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#abc">Antecedente, conducta, consecuencia</a><a href="#asociacion">Lo que dispara una emoción</a><a href="#eficacia">Una tarea en pasos</a><a href="#habito">El primer paso de un hábito</a></nav>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio"><a href="#abc">Antecedente, conducta, consecuencia</a><a href="#asociacion">Lo que dispara una emoción</a><a href="#eficacia">Una tarea en pasos</a><a href="#habito">El primer paso de un hábito</a><a href="#mitos">Mitos y verdades</a></nav>
 
     <section class="lab-estacion revelar" id="abc" aria-labelledby="t-abc">
       <p class="lab-estacion__num">01</p>
@@ -155,6 +155,19 @@
       </form>
     </section>
 
+
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre aprender y formar hábitos: ¿mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="aprendizaje-habito-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
     <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
       <h2>Para seguir leyendo</h2>
       <ul><li>Pávlov, I. P. (1927). <em>Los reflejos condicionados</em>.</li><li>Skinner, B. F. (1953). <em>Ciencia y conducta humana</em>.</li><li>Bandura, A. (1977). «Self-efficacy: Toward a unifying theory of behavioral change». <em>Psychological Review</em>, 84(2).</li><li>James, W. (1890). <em>Principios de psicología</em>, capítulo sobre el hábito.</li></ul>
