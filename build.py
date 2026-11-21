@@ -190,8 +190,10 @@ FAQ = cargar_json("faq.json")
 RESENAS = cargar_json("resenas.json")
 GLOSARIO = cargar_json("glosario.json")
 GLOSARIO_FIORINI = cargar_json("glosario-fiorini.json")
+GLOSARIO_CLINICO = cargar_json("glosario-clinico.json")
 GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
-             (GLOSARIO_FIORINI, "/glosario-fiorini/", "Glosario de la psicoterapia breve focalizada de Héctor Fiorini")]
+             (GLOSARIO_FIORINI, "/glosario-fiorini/", "Glosario de la psicoterapia breve focalizada de Héctor Fiorini"),
+             (GLOSARIO_CLINICO, "/glosario-clinico/", "Glosario de psicología clínica y psicoterapia")]
 
 
 # --------------------------------------------------------------------------- Markdown mínimo
@@ -494,6 +496,7 @@ NAV = [
         ("Terapia junguiana", "/terapia-junguiana/", "Psicología analítica de C. G. Jung"),
         ("Mi enfoque integrativo", "/enfoque/", "Jung, psicoanálisis y otras corrientes"),
         ("Glosario junguiano", "/glosario-junguiano/", "Sombra, arquetipos, individuación…"),
+        ("Glosario de psicoterapia", "/glosario-clinico/", "Encuadre, transferencia, apego…"),
     ]),
     ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
@@ -1077,7 +1080,7 @@ GUIA_TESTS = {
     "trauma": [("Test de conciencia corporal", "/test-de-conciencia-corporal/")],
     "ansiedad": [("Escala de ansiedad GAD-7", "/escala-de-ansiedad-gad-7/")],
     "panico": [("Escala de ansiedad GAD-7", "/escala-de-ansiedad-gad-7/")],
-    "tristeza": [("Cuestionario de ánimo PHQ-9", "/escala-de-animo-phq-9/")],
+    "tristeza": [("Cuestionario de ánimo PHQ-9", "/escala-de-animo-phq-9/"), ("Índice de bienestar WHO-5", "/indice-de-bienestar-who-5/")],
     "vinculos": [("Test de estilos de apego", "/test-de-estilos-de-apego/")],
     "estres": [("Test de afrontamiento del estrés", "/test-de-afrontamiento-del-estres/")],
     "autoestima": [("Escala de autoestima de Rosenberg", "/escala-de-autoestima-rosenberg/")],
@@ -1185,6 +1188,7 @@ def pie():
           <li><a href="/motivos-de-consulta/">Motivos de consulta</a></li>
           <li><a href="/recursos/">Recursos</a></li>
           <li><a href="/glosario-junguiano/">Glosario junguiano</a></li>
+          <li><a href="/glosario-clinico/">Glosario de psicoterapia</a></li>
           <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
           <li><a href="/opiniones/">Opiniones de pacientes</a></li>
@@ -1555,31 +1559,56 @@ def extraer_faq(md):
 
 
 TERMINOS_GLOSARIO = [
-    ("psicologia-analitica", r"psicología analítica"),
-    ("inconsciente-colectivo", r"inconsciente colectivo"),
-    ("arquetipo", r"arquetipos?"),
-    ("sombra", r"(?<!dar )sombra"),
-    ("individuacion", r"individuación"),
-    ("proyeccion", r"proyecci(?:ón|ones)"),
-    ("sincronicidad", r"sincronicidad"),
-    ("anima-y-animus", r"ánima"),
-    ("si-mismo", r"sí-mismo"),
-    ("imaginacion-activa", r"imaginación activa"),
-    ("amplificacion", r"amplificación"),
-    ("mandala", r"mandalas?"),
-    ("tipos-psicologicos", r"tipos psicológicos"),
-    ("complejo", r"complejos"),
+    ("/glosario-junguiano/", "psicologia-analitica", r"psicología analítica"),
+    ("/glosario-junguiano/", "inconsciente-colectivo", r"inconsciente colectivo"),
+    ("/glosario-junguiano/", "arquetipo", r"arquetipos?"),
+    ("/glosario-junguiano/", "sombra", r"(?<!dar )sombra"),
+    ("/glosario-junguiano/", "individuacion", r"individuación"),
+    ("/glosario-junguiano/", "proyeccion", r"proyecci(?:ón|ones)"),
+    ("/glosario-junguiano/", "sincronicidad", r"sincronicidad"),
+    ("/glosario-junguiano/", "anima-y-animus", r"ánima"),
+    ("/glosario-junguiano/", "si-mismo", r"sí-mismo"),
+    ("/glosario-junguiano/", "imaginacion-activa", r"imaginación activa"),
+    ("/glosario-junguiano/", "amplificacion", r"amplificación"),
+    ("/glosario-junguiano/", "mandala", r"mandalas?"),
+    ("/glosario-junguiano/", "tipos-psicologicos", r"tipos psicológicos"),
+    ("/glosario-junguiano/", "complejo", r"complejos"),
+    ("/glosario-clinico/", "encuadre", r"encuadres?"),
+    ("/glosario-clinico/", "alianza-terapeutica", r"alianza terapéutica"),
+    ("/glosario-clinico/", "transferencia", r"transferencia"),
+    ("/glosario-clinico/", "contratransferencia", r"contratransferencia"),
+    ("/glosario-clinico/", "asociacion-libre", r"asociación libre"),
+    ("/glosario-clinico/", "atencion-flotante", r"atención (?:parejamente )?flotante"),
+    ("/glosario-clinico/", "compulsion-a-la-repeticion", r"compulsión a la repetición"),
+    ("/glosario-clinico/", "relaciones-de-objeto", r"relaciones de objeto"),
+    ("/glosario-clinico/", "objeto-transicional", r"objetos? transicional(?:es)?"),
+    ("/glosario-clinico/", "sosten", r"holding"),
+    ("/glosario-clinico/", "mentalizacion", r"mentalización"),
+    ("/glosario-clinico/", "regulacion-emocional", r"regulación emocional"),
+    ("/glosario-clinico/", "disociacion", r"disociación"),
+    ("/glosario-clinico/", "somatizacion", r"somatizaci(?:ón|ones)"),
+    ("/glosario-clinico/", "psicoeducacion", r"psicoeducación"),
+    ("/glosario-clinico/", "pensamientos-automaticos", r"pensamientos automáticos"),
+    ("/glosario-clinico/", "distorsiones-cognitivas", r"distorsi(?:ón|ones) cognitivas?"),
+    ("/glosario-clinico/", "reestructuracion-cognitiva", r"reestructuración cognitiva"),
+    ("/glosario-clinico/", "evitacion-experiencial", r"evitación experiencial"),
+    ("/glosario-clinico/", "defusion-cognitiva", r"defusión(?: cognitiva)?"),
+    ("/glosario-clinico/", "flexibilidad-psicologica", r"flexibilidad psicológica"),
+    ("/glosario-clinico/", "esquemas-desadaptativos-tempranos", r"esquemas? desadaptativos? tempranos?"),
+    ("/glosario-clinico/", "factores-comunes", r"factores comunes"),
+    ("/glosario-clinico/", "comorbilidad", r"comorbilidad(?:es)?"),
+    ("/glosario-clinico/", "insight", r"insight"),
 ]
 
 
 def enlazar_glosario(htm):
     """Enlaza la primera aparición de cada término del glosario dentro de párrafos, sin tocar enlaces existentes."""
-    usados = {t for t, _ in TERMINOS_GLOSARIO if f"/glosario-junguiano/#{t}" in htm}
+    usados = {(r, t) for r, t, _ in TERMINOS_GLOSARIO if f"{r}#{t}" in htm}
 
     def en_parrafo(mp):
         p = mp.group(0)
-        for ancla, patron in TERMINOS_GLOSARIO:
-            if ancla in usados:
+        for ruta_g, ancla, patron in TERMINOS_GLOSARIO:
+            if (ruta_g, ancla) in usados:
                 continue
             partes = re.split(r"(<a\b.*?</a>)", p, flags=re.S)
             hecho = False
@@ -1594,12 +1623,12 @@ def enlazar_glosario(htm):
                         continue
                     mm = rx.search(tr)
                     if mm:
-                        trozos[j] = tr[:mm.start()] + f'<a class="enlace-glosario" href="/glosario-junguiano/#{ancla}">{mm.group(1)}</a>' + tr[mm.end():]
+                        trozos[j] = tr[:mm.start()] + f'<a class="enlace-glosario" href="{ruta_g}#{ancla}">{mm.group(1)}</a>' + tr[mm.end():]
                         hecho = True
                         break
                 partes[i] = "".join(trozos)
             if hecho:
-                usados.add(ancla)
+                usados.add((ruta_g, ancla))
                 p = "".join(partes)
         return p
 
@@ -2150,6 +2179,7 @@ def reemplazos(cuerpo, ruta):
         "disponibilidad": lambda: ('<p class="disponibilidad entra"><span class="disponibilidad__punto" aria-hidden="true"></span>Recibiendo nuevas consultas · presencial y online</p>' if C.get("recibiendo_consultas") else ""),
         "glosario": bloque_glosario,
         "glosario_fiorini": lambda: bloque_glosario(GLOSARIO_FIORINI),
+        "glosario_clinico": lambda: bloque_glosario(GLOSARIO_CLINICO),
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
@@ -2297,7 +2327,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/test-de-fortalezas/", "/test-de-conciencia-corporal/", "/test-de-sentido-y-espiritualidad/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/test-de-fortalezas/", "/test-de-conciencia-corporal/", "/test-de-sentido-y-espiritualidad/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/indice-de-bienestar-who-5/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
         ("Voces que nos habitan", rutas_voces[2:]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
@@ -2418,7 +2448,7 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
     def tipo_de_ruta(ruta, rutas_lab):
         if ruta in rutas_lab:
             return "Laboratorio"
-        if ruta.startswith("/recursos/psicoquiz") or ruta.startswith("/escala-") or "/test" in ruta or ruta.startswith("/psicoquiz"):
+        if ruta.startswith("/recursos/psicoquiz") or ruta.startswith("/escala-") or ruta.startswith("/indice-de-bienestar") or "/test" in ruta or ruta.startswith("/psicoquiz"):
             return "Test"
         if ruta.startswith("/ejercicio-") or ruta.startswith("/recursos/ejercicio"):
             return "Ejercicio"
@@ -2431,11 +2461,15 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
     rutas_cat = {ruta_categoria(c) for c in CATEGORIAS}
     indice = []
     for ruta, _, _ in mapa:
-        if ruta in rutas_cat or ruta in ("/mapa-del-sitio/", "/privacidad/", "/buscar/"):
+        if ruta in ("/mapa-del-sitio/", "/privacidad/", "/buscar/"):
             continue
         f = SALIDA / ("index.html" if ruta == "/" else ruta.strip("/") + "/index.html")
         h = f.read_text(encoding="utf-8")
         desc = re.search(r'<meta name="description" content="([^"]*)"', h)
+        if ruta in rutas_cat:  # categorías: solo título y descripción (su texto es la lista de artículos)
+            indice.append({"t": html.unescape(nombres.get(ruta, ruta)), "k": "Página", "u": ruta,
+                           "d": html.unescape(desc.group(1)) if desc else "", "c": "", "x": ""})
+            continue
         cuerpo = re.search(r'<main id="contenido">(.*?)</main>', h, re.S).group(1)
         cuerpo = re.sub(r"<(svg|script|style|nav|button|form|aside)\b.*?</\1>", " ", cuerpo, flags=re.S)
         texto = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", cuerpo))).strip()
