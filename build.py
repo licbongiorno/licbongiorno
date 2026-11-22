@@ -1401,6 +1401,18 @@ def bloque_glosario(lista=None):
     return f'<ul class="indice-enfoques" aria-label="Términos">{indice}</ul><dl class="glosario">{"".join(out)}</dl>'
 
 
+def rutas_viejas_todas():
+    """Pares (ruta vieja, ruta actual) declarados en páginas (rutas_viejas: lista) y artículos (rutas_viejas: a, b)."""
+    pares = []
+    for f in sorted((CONTENIDO / "paginas").glob("*.html")):
+        meta, _ = leer_pagina(f)
+        pares += [(v, meta["ruta"]) for v in meta.get("rutas_viejas", [])]
+    for a in ARTICULOS:
+        if a["publicado"]:
+            pares += [(v.strip(), a["ruta"]) for v in a.get("rutas_viejas", "").split(",") if v.strip()]
+    return pares
+
+
 def glosario_schema(ruta="/glosario-junguiano/"):
     lista, _, nombre = next(g for g in GLOSARIOS if g[1] == ruta)
     return {"@type": "DefinedTermSet", "@id": f"{URL}{ruta}#glosario", "name": nombre,
@@ -2742,7 +2754,10 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
         "cleanUrls": True, "trailingSlash": True,
         # Las ramas de trabajo no generan publicaciones en Vercel (ahorra el cupo diario); solo main publica.
         "git": {"deploymentEnabled": {"claude/animaciones": False}},
-        "redirects": [{"source": "/:path*", "has": [{"type": "host", "value": h}], "destination": f"{URL}/:path*", "permanent": True} for h in otros],
+        "redirects": [{"source": "/:path*", "has": [{"type": "host", "value": h}], "destination": f"{URL}/:path*", "permanent": True} for h in otros]
+        # Rutas viejas (campo rutas_viejas de páginas y artículos): redirección 301 a la ruta actual.
+        + [{"source": vieja.rstrip("/"), "destination": nueva, "permanent": True} for vieja, nueva in rutas_viejas_todas()]
+        + [{"source": vieja, "destination": nueva, "permanent": True} for vieja, nueva in rutas_viejas_todas()],
         "headers": [
             {"source": "/(.*)", "headers": [{"key": k, "value": v} for k, v in seguridad.items()]},
             {"source": "/assets/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
