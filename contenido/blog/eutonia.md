@@ -51,4 +51,7 @@ Si una persona busca tratamiento para un trastorno, la eutonía no lo reemplaza.
 
 Para ver cómo se ubica entre otras propuestas, podés recorrer [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/). Y para comparar con el otro método que lleva el apellido Alexander, está el artículo sobre la [técnica Alexander](/recursos/tecnica-alexander/).
 
-Lecturas: Alexander, G., *La eutonía: un camino hacia la experiencia total del cuerpo*, Paidós. Vishnivetz, B. (1994), *Eutonía: la educación del cuerpo hacia el ser*, Paidós.
+## Para seguir leyendo
+
+- Alexander, G. (1997). *La eutonía: un camino hacia la experiencia total del cuerpo*. Barcelona: Paidós.
+- Vishnivetz, B. (1994). *Eutonía: la educación del cuerpo hacia el ser*. Buenos Aires: Paidós.

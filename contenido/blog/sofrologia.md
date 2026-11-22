@@ -55,4 +55,7 @@ Si querés ver dónde encaja la sofrología entre otras propuestas que trabajan 
 
 Si estás atravesando un momento de crisis o pensás en hacerte daño, hay ayuda inmediata en [ayuda urgente](/ayuda-urgente/), en el 911 o en el Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
-Lecturas: no hay referencias independientes concluyentes sobre la eficacia de la sofrología; conviene desconfiar de las que se presenten como tales.
+## Para seguir leyendo
+
+- Caycedo, A. (dir.) (1969). *Progresos en sofrología*. Barcelona: Scientia.
+- Nota: no hay revisiones independientes concluyentes sobre la eficacia de la sofrología como tratamiento; conviene desconfiar de los materiales que se presenten como tales.

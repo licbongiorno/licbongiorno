@@ -48,4 +48,8 @@ Tomar conceptos de una tradición religiosa y usarlos fuera de contexto, o conve
 
 Podés ubicar esta mirada en [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y seguir con [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
-Lecturas: Frager, R. (1999), *Heart, Self, and Soul: The Sufi Psychology of Growth, Balance, and Harmony*, Quest Books.
+## Para seguir leyendo
+
+- Frager, R. (1999). *Heart, Self, and Soul: The Sufi Psychology of Growth, Balance, and Harmony*. Wheaton: Quest Books.
+- Shah, I. (1964). *The Sufis*. Nueva York: Doubleday.
+- Al-Ghazali (siglo XI). *Ihya' 'ulum al-din* (Revivificación de las ciencias religiosas).

@@ -17,7 +17,7 @@ En una sala con colchonetas, telas y cajas, un nene de cuatro años arma una cas
 
 ## De dónde viene
 
-La psicomotricidad surge en Francia. El neurólogo Ernest Dupré introdujo el término en el discurso médico en 1905 (según Calmels, 2003), al estudiar las relaciones entre motricidad y psiquismo. Más tarde, en 1947, Julián de Ajuriaguerra creó un servicio de reeducación psicomotriz en el Hospital Henri Rousselle de París, con colaboradores como Zazzo, Diatkine y Stambak.
+La psicomotricidad surge en Francia. El neurólogo Ernest Dupré introdujo el término en el discurso médico en 1905, al estudiar las relaciones entre motricidad y psiquismo. Más tarde, en 1947, Julián de Ajuriaguerra creó un servicio de reeducación psicomotriz en el Hospital Henri Rousselle de París, con colaboradores como Zazzo, Diatkine y Stambak.
 
 Otra figura es Bernard Aucouturier, con una práctica psicomotriz de orientación educativa y preventiva, que tuvo más difusión fuera de Francia que dentro.
 
@@ -51,4 +51,8 @@ Si un niño tiene dificultades persistentes en el movimiento, el lenguaje, la at
 
 Para ubicarla entre otras propuestas que trabajan con el cuerpo, podés ver [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
 
-Lecturas: Calmels, D. (2003), obra que recoge la introducción del término por Dupré en 1905.
+## Para seguir leyendo
+
+- Lapierre, A. y Aucouturier, B. (1980). *El cuerpo y el inconsciente en educación y terapia*. Barcelona: Científico-Médica (orig. *La symbolique du mouvement*, 1975).
+- Calmels, D. (2018). *El juego corporal*. Buenos Aires: Paidós.
+- Calmels, D. (2021). *Psicomotricidad en la infancia*. Buenos Aires: Paidós.

@@ -56,3 +56,7 @@ Para ubicar el método dentro de un panorama más amplio, hay lecturas que ayuda
 - El [laboratorio de regulación](/laboratorio-de-regulacion/) propone prácticas breves para bajar la activación sin forzar nada.
 
 Si pensás en el TRE como complemento, sería mejor hablarlo con un psicólogo que conozca el trauma y pueda decir qué lugar tendría en tu proceso. Y si hay pensamientos de hacerte daño, la urgencia va primero: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
+
+## Para seguir leyendo
+
+- Berceli, D. (2008). *The Revolutionary Trauma Release Process: Transcend Your Toughest Times*. Vancouver: Namaste Publishing. Es la presentación del método por su creador, no una evaluación independiente.

@@ -53,4 +53,8 @@ Si querés ubicar la Biodanza entre otras propuestas que trabajan con el cuerpo,
 
 Si estás atravesando un momento de crisis o pensás en hacerte daño, hay ayuda inmediata en [ayuda urgente](/ayuda-urgente/), en el 911 o en el Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
-Lecturas: revisión sistemática narrativa sobre Biodanza (2021), revista *Movimento*.
+## Para seguir leyendo
+
+- Toro, R. (2008). *Biodanza*. Santiago de Chile: Cuarto Propio.
+- Ferraro, F. V., Aruta, L., Ambra, F. I., Distaso, M. e Iavarone, M. L. (2021). «Pedagogic intervention for health: a narrative systematic review on biodanza». *Movimento*, 27, e27069.
+- Altamirano Quevedo, E., Castillo Viera, E. y Rodríguez Pascual, C. (2021). «Biodanza: revisión sistemática sobre los beneficios de una práctica emergente en la promoción de la salud y el bienestar». *Retos*, 39, 844-848.

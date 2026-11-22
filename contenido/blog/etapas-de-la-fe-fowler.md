@@ -54,4 +54,6 @@ Las crisis de fe pueden doler, sobre todo cuando implican perder una comunidad. 
 
 Podés ampliar con [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
-Lecturas: Fowler, J. W. (1981), *Stages of Faith*.
+## Para seguir leyendo
+
+- Fowler, J. W. (1981). *Stages of Faith: The Psychology of Human Development and the Quest for Meaning*. San Francisco: Harper & Row.
