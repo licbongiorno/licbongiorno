@@ -51,6 +51,24 @@ Quien consulta puede aprender a frenar ante una certeza, a preguntarse qué esta
 
 Si los vínculos se viven con intensidad desbordante, hay autolesiones o pensamientos suicidas, la consulta debe ser con un profesional, idealmente con experiencia en el tema. Mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿Qué significa mentalizar?
+
+Es entender la conducta, la propia y la ajena, en términos de estados mentales: lo que alguien siente, piensa, desea o pretende. Implica curiosidad y saber que lo que uno piensa es una interpretación y no un hecho.
+
+### ¿Por qué a veces me cuesta mentalizar?
+
+Con estrés intenso, sobre todo en vínculos cercanos, la capacidad puede caerse y aparecen modos más primitivos de funcionamiento. Todos pasamos por eso en momentos de tensión, y lo central es cuánto cuesta volver a mentalizar.
+
+### ¿De dónde viene la capacidad de mentalizar?
+
+Sus raíces están en el apego. Según Fonagy y sus colegas, el niño aprende a entender su propia mente cuando un adulto lo piensa como alguien con una mente.
+
+### ¿Para qué sirve la terapia basada en la mentalización?
+
+Se pensó primero para el trastorno límite de la personalidad, donde tuvo ensayos favorables. Busca recuperar la capacidad de mentalizar en el presente, sobre todo dentro de la relación terapéutica.
+
 ## Para seguir
 
 - [Laboratorio de mentalización](/laboratorio-de-mentalizacion/)

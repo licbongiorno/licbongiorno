@@ -49,6 +49,24 @@ Cuando alguien convive con TOC, es común que la familia se adapte: responde las
 
 Si los rituales te ocupan mucho tiempo, te generan sufrimiento o te limitan el trabajo y los vínculos, consultá con un profesional de salud mental con formación en terapias cognitivo-conductuales. Si la angustia te desborda o aparecen pensamientos de hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿El TOC se cura?
+
+Con tratamiento, muchas personas logran que los síntomas pesen mucho menos y recuperan buena parte de su vida cotidiana. Cuánto se logra depende de cada caso, y la exposición con prevención de respuesta es el tratamiento psicológico con más respaldo.
+
+### ¿Ser ordenado o meticuloso es tener TOC?
+
+No. Quien disfruta del orden no sufre por eso y puede relajarse cuando no lo logra, mientras que en el TOC el ritual se hace porque no hacerlo se siente insoportable y ocupa mucho tiempo.
+
+### ¿Tener pensamientos intrusivos feos significa que soy una mala persona?
+
+No dice nada sobre vos. Casi todos tenemos pensamientos intrusivos de vez en cuando, y lo que marca la diferencia es cuánto se los teme y cuánto se intenta neutralizarlos.
+
+### ¿Cómo puede ayudar la familia?
+
+Acompañando con calidez y sin reproches, y evitando sumarse a los rituales, por ejemplo respondiendo la misma pregunta una y otra vez. Suele ayudar que los familiares participen de la consulta para aprender cómo hacerlo.
+
 ## Para seguir
 
 - [Laboratorio de conductas compulsivas](/laboratorio-de-conductas-compulsivas/)

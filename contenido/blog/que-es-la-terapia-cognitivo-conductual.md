@@ -54,6 +54,24 @@ Que tenga mucha evidencia no significa que sea la única que sirve ni que sirva 
 
 Una técnica aplicada sin una buena relación terapéutica pierde mucho valor. Si algo de lo que ensayás aumenta tu malestar, hablalo con tu terapeuta. Y si aparecen ideas de hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿Cómo es una sesión de terapia cognitivo-conductual?
+
+Es estructurada: se acuerda una agenda y se trabaja sobre problemas concretos, con psicoeducación y tareas entre sesiones. Los objetivos se revisan a lo largo del tratamiento.
+
+### ¿Cuánto dura una terapia cognitivo-conductual?
+
+Suele ser de duración acotada, con objetivos que se revisan. El tiempo concreto depende de cada persona y de lo que se trabaje.
+
+### ¿Para qué problemas tiene más respaldo?
+
+Sobre todo para los trastornos de ansiedad. En depresión resultó mejor que no tratar, y frente a otras psicoterapias los resultados fueron mixtos.
+
+### ¿Es la única terapia que funciona?
+
+No. Que tenga mucha evidencia no significa que sea la única que sirve ni que sirva para todas las personas. Hay quienes buscan comprender su historia o el sentido de lo que viven, y otros enfoques ponen el acento en eso.
+
 ## Para seguir
 
 - [Aaron T. Beck](/recursos/aaron-t-beck/)

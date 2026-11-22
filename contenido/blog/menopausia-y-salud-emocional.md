@@ -45,6 +45,24 @@ Se empieza por poner en palabras lo que pasa, sin patologizar la etapa. Se traba
 
 Consultá con ginecología para evaluar los síntomas físicos y descartar otras causas, como problemas de tiroides, y con un profesional de salud mental si el ánimo bajo, la ansiedad o el mal dormir se sostienen o te limitan. Si sentís que no vale la pena seguir o aparecen pensamientos de hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿Es normal sentirse más irritable o triste durante la perimenopausia?
+
+Es frecuente. Los estudios longitudinales señalan que esta transición es un período de mayor vulnerabilidad a los síntomas depresivos, aunque no todas las mujeres lo viven igual ni a todas les pasa.
+
+### ¿La menopausia causa depresión?
+
+Los estudios muestran una asociación y un período de más vulnerabilidad, pero no que la menopausia cause depresión por sí sola. Haber tenido depresión antes pesa mucho.
+
+### ¿Hay tratamiento psicológico para los sofocos?
+
+La terapia cognitivo-conductual tiene respaldo para ayudar a vivir mejor los sofocos y sudores nocturnos. Los tratamientos médicos, como la terapia hormonal, los decide ginecología.
+
+### ¿A quién consulto, a ginecología o a un profesional de salud mental?
+
+Conviene consultar a ambos. Ginecología evalúa los síntomas físicos y descarta otras causas, y un profesional de salud mental acompaña si el ánimo bajo, la ansiedad o el mal dormir se sostienen.
+
 ## Para seguir
 
 - [Crisis de la mitad de la vida](/recursos/crisis-de-la-mitad-de-la-vida/)

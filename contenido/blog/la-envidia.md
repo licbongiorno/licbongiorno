@@ -52,6 +52,24 @@ Para explorar la emoción con calma, podés usar el [laboratorio de emociones](/
 
 La envidia puntual es parte de la vida. Si te ocupa mucho espacio mental, te lleva a aislarte, a boicotear vínculos o se acompaña de una autoestima muy golpeada, vale la pena consultar. Y si aparecen ideas de hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿Sentir envidia me hace una mala persona?
+
+No. Es una emoción humana frecuente, y como toda emoción trae información. Lo que importa es qué hacés con ella.
+
+### ¿Qué diferencia hay entre envidia y celos?
+
+En la envidia hay dos personas y un bien deseado. En los celos suele haber tres personas y el miedo a perder un vínculo.
+
+### ¿Existe una envidia buena?
+
+La investigación distingue una envidia benigna, que impulsa a mejorar la propia posición, de una maligna, que lleva a querer bajar al otro de su lugar.
+
+### ¿Cómo manejo la envidia que me dan las redes sociales?
+
+Las redes muestran recortes ajenos muy editados, sin contexto ni costos. Si ciertas cuentas te dejan sistemáticamente peor, silenciarlas es una decisión razonable, y también ayuda revisar con quién te comparás.
+
 ## Para seguir
 
 - [Melanie Klein](/recursos/melanie-klein/)

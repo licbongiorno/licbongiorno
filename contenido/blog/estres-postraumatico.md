@@ -57,6 +57,24 @@ Antes y durante un tratamiento ayudan las cosas simples: mantener rutinas de sue
 
 Si hace más de un mes que los síntomas siguen y te afectan el sueño, el trabajo o los vínculos, consultá con un profesional con formación en trauma. Si tenés recuerdos que te desbordan, consumís alcohol u otras sustancias para soportarlos o aparecen pensamientos de hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿Cuánto tiempo después de un trauma puede aparecer el estrés postraumático?
+
+Las reacciones en los primeros días son esperables. Se piensa en un trastorno cuando los síntomas no ceden con el tiempo y siguen afectando la vida, y a veces eso se nota meses o incluso años después del hecho.
+
+### ¿Todas las personas que viven un trauma desarrollan TEPT?
+
+No. La mayoría de las personas expuestas a un trauma se recupera con el tiempo y con apoyo, sin llegar a un trastorno.
+
+### ¿Tener TEPT significa que soy débil?
+
+No. Influyen factores como la gravedad y repetición de lo vivido, la historia previa o la falta de apoyo, y no la fortaleza personal.
+
+### ¿Hace falta contar todo lo que pasó para mejorar?
+
+No. Un tratamiento centrado en el trauma primero construye seguridad y recursos, y recién después, a un ritmo acordado, se procesa el recuerdo. Tampoco hace falta forzarte a hablar si todavía no tenés ganas.
+
 ## Para seguir
 
 - [Trauma](/trauma/)

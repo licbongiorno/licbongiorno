@@ -55,6 +55,24 @@ Desde una mirada integrativa, interesa además qué función cumple la sensació
 
 Sentirse un impostor de vez en cuando es muy común. Si el malestar te quita el sueño, te hace evitar oportunidades o se mezcla con tristeza profunda, consultá con un profesional. Y si aparecen ideas de hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿El síndrome del impostor es un diagnóstico?
+
+No. Es un nombre popular para un patrón de pensamiento y de sentimiento, y no figura como diagnóstico en los manuales clínicos habituales.
+
+### ¿Le pasa solo a las mujeres?
+
+No. Clance e Imes lo describieron a partir de su trabajo con mujeres, pero con los años se vio que aparece en hombres y mujeres y en distintas profesiones.
+
+### ¿Sentirme impostor significa que no merezco mis logros?
+
+No. Es una sensación persistente que suele convivir con estándares muy altos y con la costumbre de atribuir los logros a la suerte y las fallas a uno mismo.
+
+### ¿Se resuelve repitiéndose que uno vale?
+
+No hay respaldo para eso. Suele ayudar más registrar los logros, revisar con qué vara te medís y tratarte con más amabilidad, y si el malestar es grande, consultar con un profesional.
+
 ## Para seguir
 
 - [Autoexigencia y perfeccionismo](/recursos/autoexigencia-y-perfeccionismo/)

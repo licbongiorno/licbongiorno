@@ -56,6 +56,24 @@ Antes de consultar, o mientras tanto, podés llevar un registro breve de tus pre
 
 Si la preocupación te acompaña casi todos los días, te quita el sueño o te limita en el trabajo o en tus vínculos, consultá con un profesional. A veces la ansiedad convive con una depresión o tiene causas médicas que conviene descartar. Si la angustia te desborda o aparecen pensamientos de hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿Preocuparse mucho es lo mismo que tener ansiedad generalizada?
+
+Preocuparse es normal y a veces útil. Se vuelve un problema cuando la preocupación es desproporcionada, difícil de controlar, ocupa mucho tiempo y hace sufrir.
+
+### ¿Por qué no puedo dejar de preocuparme aunque sé que casi nada de lo que temo pasa?
+
+Porque la preocupación suele funcionar como un intento de controlar lo incierto, y se sostiene porque a veces parece servir: lo temido no ocurre y la mente lo atribuye a haberse preocupado.
+
+### ¿Qué tratamiento psicológico tiene más respaldo?
+
+La terapia cognitivo-conductual es el más estudiado. Para medicación, la evaluación y la indicación corresponden a un médico psiquiatra.
+
+### ¿Sirve anotar las preocupaciones?
+
+Muchas personas lo encuentran útil: anotar qué te preocupa, si podés hacer algo hoy y qué pasó después ordena la mirada. No reemplaza un tratamiento cuando la preocupación es constante.
+
 ## Para seguir
 
 - [Escala de ansiedad GAD-7](/escala-de-ansiedad-gad-7/)

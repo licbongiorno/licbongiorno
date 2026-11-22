@@ -49,6 +49,24 @@ Para pensar la transición con más detalle, podés usar el [laboratorio de cris
 
 Si la tristeza se vuelve persistente, te cuesta funcionar, dejás de disfrutar casi todo o el vínculo de pareja entra en conflicto sostenido, conviene consultar. Y si aparecen ideas de hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
+## Preguntas frecuentes
+
+### ¿El síndrome del nido vacío es una enfermedad?
+
+No. Es una expresión popular que no figura como diagnóstico en los manuales clínicos, y nombra una experiencia posible y no algo que todos los padres vayan a atravesar.
+
+### ¿Es normal sentir tristeza cuando los hijos se van?
+
+Sí. Si gran parte de la vida giró alrededor de criar, puede abrirse un duelo por la cotidianidad y el rol que se pierden.
+
+### ¿Y si siento alivio?
+
+También es común, y las dos reacciones pueden convivir. Sentir alivio no habla mal de vos ni de tu cariño por tus hijos.
+
+### ¿El nido vacío afecta a la pareja?
+
+Depende. Hay parejas que se reencuentran y otras en las que se hace visible una distancia que venía de antes. Conversar sobre expectativas y planes para esta etapa suele ayudar.
+
 ## Para seguir
 
 - [Crisis vitales](/crisis-vitales/)

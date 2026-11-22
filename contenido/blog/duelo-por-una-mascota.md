@@ -43,6 +43,24 @@ A veces ayuda buscar a alguien que sí lo entienda: un amigo que también perdi�
 
 El duelo no tiene una duración fija, ni etapas que haya que cumplir. Consultá si pasan los meses y el dolor no cede, si no podés hacer tu vida cotidiana, si te encerrás o si aparecen ideas de que ya nada tiene sentido. Y si pensás en hacerte daño, mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). En terapia, el primer paso es reconocer la pérdida como lo que es.
 
+## Preguntas frecuentes
+
+### ¿Es normal sentir tanto dolor por la muerte de una mascota?
+
+Sí. Un animal de compañía comparte la rutina y los momentos más solitarios y más felices, así que su muerte es la pérdida de un vínculo cotidiano. Cuanto mayor el apego, más intenso suele ser el duelo.
+
+### ¿Es normal sentir más dolor por la muerte de una mascota que por la de una persona?
+
+Puede pasar, y no es una exageración. La intensidad depende del vínculo y de cuánto acompañamiento se tuvo, y muchas veces este duelo se vive a escondidas porque el entorno no lo reconoce.
+
+### ¿Por qué siento culpa después de la eutanasia?
+
+Es muy frecuente. La culpa suele traducir el amor y la responsabilidad que sentías, y ayuda pensar la decisión con la información que tenías en ese momento. A veces conviene hablarlo con el veterinario.
+
+### ¿Cómo le cuento a un chico que murió la mascota?
+
+Con palabras simples y verdaderas: que murió, que su cuerpo dejó de funcionar y que no va a volver. Conviene evitar frases como «se fue a dormir», y dejarlo preguntar, llorar y despedirse.
+
 ## Para seguir
 
 - [Duelo y pérdidas](/duelo-y-perdidas/)
