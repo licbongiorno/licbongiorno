@@ -48,6 +48,8 @@ La ACT cuenta con numerosos ensayos clínicos y metaanálisis. Muestra resultado
 
 La ACT pertenece a la familia de las terapias cognitivo-conductuales, de las que tomo algunos recursos en mi [enfoque integrativo](/enfoque/). Tiene puntos en común con la mirada junguiana: la idea de que no se trata de eliminar lo difícil, sino de integrarlo, y la importancia del sentido. Si querés trabajarlo, podés [escribirme](/contacto/).
 
+Casi un siglo antes, en Japón, la [terapia Morita](/recursos/terapia-morita/) propuso algo parecido: aceptar la emoción y hacer lo que hay que hacer.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la terapia de aceptación y compromiso?

@@ -61,4 +61,6 @@ Sentir que nada vale la pena durante semanas, con desgano, aislamiento o ideas d
 - Sobre el sentido en la obra de Frankl: [Viktor Frankl](/recursos/viktor-frankl/).
 - El mapa general: [mapa de la psicología positiva](/recursos/mapa-de-la-psicologia-positiva/).
 
+El ikigai es uno de varios conceptos japoneses que circulan hoy; para ubicarlo junto a los demás, mirá el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
+
 Lecturas: Kamiya, M. (1966), *Ikigai ni tsuite*. Sone, T. et al. (2008), «Sense of life worth living (ikigai) and mortality in Japan: Ohsaki Study», *Psychosomatic Medicine*, 70, 709–715. García, H. y Miralles, F. (2016), *Ikigai: los secretos de Japón para una vida larga y feliz*.

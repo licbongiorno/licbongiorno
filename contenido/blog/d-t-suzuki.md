@@ -43,6 +43,8 @@ De regreso en Japón, enseñó en la Universidad Otani, en Kioto, y publicó en 
 - **Erich Fromm** organizó con él el seminario de Cuernavaca de 1957 y publicó en 1960, junto con Suzuki y Richard De Martino, *Budismo zen y psicoanálisis*. Ver [Erich Fromm](/recursos/erich-fromm/).
 - Si querés conocer la práctica, podés leer sobre la [meditación zen](/recursos/meditacion-zen-zazen/) o sobre [Jung y la meditación](/recursos/jung-y-la-meditacion/).
 
+Sobre otras tradiciones japonesas que dialogan con la psicología, leé el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es un koan?

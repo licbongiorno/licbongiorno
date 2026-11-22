@@ -222,9 +222,11 @@ RESENAS = cargar_json("resenas.json")
 GLOSARIO = cargar_json("glosario.json")
 GLOSARIO_FIORINI = cargar_json("glosario-fiorini.json")
 GLOSARIO_CLINICO = cargar_json("glosario-clinico.json")
+GLOSARIO_JAPONES = cargar_json("glosario-japones.json")
 GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
              (GLOSARIO_FIORINI, "/glosario-fiorini/", "Glosario de la psicoterapia breve focalizada de Héctor Fiorini"),
-             (GLOSARIO_CLINICO, "/glosario-clinico/", "Glosario de psicología clínica y psicoterapia")]
+             (GLOSARIO_CLINICO, "/glosario-clinico/", "Glosario de psicología clínica y psicoterapia"),
+             (GLOSARIO_JAPONES, "/glosario-de-psicologia-japonesa/", "Glosario de psicología japonesa")]
 
 
 # --------------------------------------------------------------------------- Markdown mínimo
@@ -528,6 +530,7 @@ NAV = [
         ("Mi enfoque integrativo", "/enfoque/", "Jung, psicoanálisis y otras corrientes"),
         ("Glosario junguiano", "/glosario-junguiano/", "Sombra, arquetipos, individuación…"),
         ("Glosario de psicoterapia", "/glosario-clinico/", "Encuadre, transferencia, apego…"),
+        ("Glosario de psicología japonesa", "/glosario-de-psicologia-japonesa/", "Arugamama, amae, wabi-sabi…"),
     ]),
     ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
@@ -736,6 +739,12 @@ LABORATORIOS = [
      "descripcion": "Qué aportaba el trabajo, la semana con estructura, la identidad más allá del oficio, un proyecto propio y los vínculos."},
     {"titulo": "Laboratorio de burnout", "ruta": "/laboratorio-de-burnout/", "tipo": "Burnout",
      "descripcion": "Las tres dimensiones de Maslach, lo que depende de vos y lo que es de la organización, límites y recuperación."},
+    {"titulo": "Laboratorio de kaizen", "ruta": "/laboratorio-de-kaizen/", "tipo": "Kaizen",
+     "descripcion": "La pregunta de un minuto, el paso más pequeño posible, registrar avances mínimos y distinguir un paso kaizen de un salto."},
+    {"titulo": "Laboratorio Morita y Naikan", "ruta": "/laboratorio-morita-y-naikan/", "tipo": "Morita y Naikan",
+     "descripcion": "Arugamama de Morita para actuar con la emoción presente, las tres preguntas del Naikan, un plan de 7 días y mitos y verdades."},
+    {"titulo": "Laboratorio de wabi-sabi y kintsugi", "ruta": "/laboratorio-de-wabi-sabi-y-kintsugi/", "tipo": "Wabi-sabi y kintsugi",
+     "descripcion": "Escribir sobre una grieta propia, observar objetos gastados, distinguir perfeccionismo de cuidado y un plan de 7 días."},
     {"titulo": "Laboratorio de crianza", "ruta": "/laboratorio-de-crianza/", "tipo": "Crianza",
      "descripcion": "Afecto y exigencia, acompañar las emociones de los hijos, reparar después de un error y límites con cariño."},
     {"titulo": "Laboratorio para entender el trauma", "ruta": "/laboratorio-de-trauma/", "tipo": "Trauma",
@@ -881,7 +890,7 @@ TEMAS_LAB = {
     "/laboratorio-de-emociones/": "Emociones", "/laboratorio-de-la-sabiduria-de-las-emociones/": "Emociones", "/laboratorio-de-presencia/": "Cuerpo y respiración",
     "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
     "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones", "/laboratorio-de-pensamientos-repetitivos/": "Emociones",
-    "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones", "/laboratorio-de-ansiedad-social/": "Emociones", "/laboratorio-de-procrastinacion/": "Aprendizaje y cambio", "/laboratorio-de-culpa-y-verguenza/": "Emociones", "/laboratorio-de-perfeccionismo/": "Emociones", "/laboratorio-de-celos/": "Vínculos", "/laboratorio-de-soledad-y-conexion/": "Vínculos", "/laboratorio-de-jubilacion-y-nuevas-etapas/": "Psicología en práctica", "/laboratorio-de-burnout/": "Emociones", "/laboratorio-de-crianza/": "Vínculos", "/laboratorio-de-trauma/": "Emociones", "/laboratorio-de-dolor-cronico/": "Cuerpo y respiración", "/laboratorio-de-conductas-compulsivas/": "Aprendizaje y cambio", "/laboratorio-de-psicotanatologia/": "Emociones",
+    "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones", "/laboratorio-de-ansiedad-social/": "Emociones", "/laboratorio-de-procrastinacion/": "Aprendizaje y cambio", "/laboratorio-de-culpa-y-verguenza/": "Emociones", "/laboratorio-de-perfeccionismo/": "Emociones", "/laboratorio-de-celos/": "Vínculos", "/laboratorio-de-soledad-y-conexion/": "Vínculos", "/laboratorio-de-jubilacion-y-nuevas-etapas/": "Psicología en práctica", "/laboratorio-de-burnout/": "Emociones", "/laboratorio-de-kaizen/": "Aprendizaje y cambio", "/laboratorio-morita-y-naikan/": "Enfoques", "/laboratorio-de-wabi-sabi-y-kintsugi/": "Emociones", "/laboratorio-de-crianza/": "Vínculos", "/laboratorio-de-trauma/": "Emociones", "/laboratorio-de-dolor-cronico/": "Cuerpo y respiración", "/laboratorio-de-conductas-compulsivas/": "Aprendizaje y cambio", "/laboratorio-de-psicotanatologia/": "Emociones",
     "/laboratorio-de-no-violencia-interior/": "Emociones", "/laboratorio-de-buen-trato/": "Vínculos", "/laboratorio-de-violencia-en-el-vinculo/": "Vínculos", "/laboratorio-del-perdon/": "Emociones", "/laboratorio-del-jardinero-interior/": "Emociones", "/laboratorio-de-asertividad/": "Vínculos", "/laboratorio-de-higiene-sensorial/": "Cuerpo y respiración", "/laboratorio-de-flexibilidad-ante-expectativas/": "Enfoques", "/laboratorio-de-psicoterapia-breve-focalizada/": "Enfoques", "/laboratorio-fiorini-el-foco/": "Enfoques", "/laboratorio-fiorini-intervenciones/": "Enfoques", "/laboratorio-fiorini-psiquismo-creador/": "Enfoques", "/laboratorio-del-psicodiagnostico/": "Psicología en práctica", "/laboratorio-de-platon/": "Filosofía en práctica", "/laboratorio-de-wundt/": "Psicología en práctica", "/laboratorio-de-naturaleza-y-psique/": "Psicología en práctica", "/laboratorio-separarse-sin-perderse/": "Psicología en práctica", "/laboratorio-conflicto-alto-y-seguridad/": "Psicología en práctica", "/laboratorio-de-inteligencias-multiples/": "Aprendizaje y cambio", "/laboratorio-de-psicoterapia-integrativa/": "Enfoques", "/laboratorio-de-resolucion-de-problemas/": "Aprendizaje y cambio", "/laboratorio-plan-de-seguridad/": "Emociones", "/laboratorio-de-alcohol-y-consumos/": "Aprendizaje y cambio", "/laboratorio-de-ataques-de-panico/": "Emociones", "/laboratorio-de-insomnio/": "Cuerpo y respiración", "/laboratorio-meditaciones-del-corazon/": "Emociones", "/laboratorio-de-amor-bondadoso/": "Emociones", "/laboratorio-de-compasion-y-tonglen/": "Emociones", "/laboratorio-de-alegria-empatica/": "Emociones", "/laboratorio-de-ecuanimidad/": "Emociones", "/laboratorio-de-esquemas/": "Enfoques", "/laboratorio-compasion-tres-sistemas/": "Emociones", "/laboratorio-compasion-yo-compasivo/": "Emociones", "/laboratorio-compasion-tres-flujos/": "Emociones", "/laboratorio-de-mentalizacion/": "Vínculos", "/laboratorio-de-psicodrama/": "Enfoques", "/laboratorio-focalizado-en-las-emociones/": "Emociones",
     "/laboratorio-de-sombra-y-arquetipos/": "Jung y autoconocimiento", "/laboratorio-recorrido-junguiano/": "Jung y autoconocimiento", "/laboratorio-de-complejos-y-tipos/": "Jung y autoconocimiento", "/laboratorio-de-estres/": "Cuerpo y respiración", "/laboratorio-de-afrontamiento/": "Psicología en práctica", "/laboratorio-de-ikigai/": "Enfoques", "/laboratorio-de-decisiones/": "Aprendizaje y cambio", "/laboratorio-de-pantallas/": "Aprendizaje y cambio", "/laboratorio-de-miedos-y-fobias/": "Emociones", "/laboratorio-de-apuestas-y-juego/": "Aprendizaje y cambio", "/laboratorio-para-quien-cuida/": "Vínculos",
     "/laboratorio-de-descanso/": "Cuerpo y respiración", "/laboratorio-de-habitos/": "Aprendizaje y cambio",
@@ -1065,7 +1074,7 @@ def bloque_mapa_laboratorios():
 
 # Guía «¿Por dónde empiezo?»: tema → página de motivo, artículos y laboratorios sugeridos.
 GUIA = [
-    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "ansiedad-social", "respiracion-y-emociones", "ansiedad-por-la-salud", "fobias", "ansiedad-generalizada", "trastorno-obsesivo-compulsivo"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-respirar-volver-al-presente/", "/laboratorio-de-respiraciones/", "/laboratorio-de-miedos-y-fobias/"]),
+    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "ansiedad-social", "respiracion-y-emociones", "ansiedad-por-la-salud", "fobias", "ansiedad-generalizada", "trastorno-obsesivo-compulsivo"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-respirar-volver-al-presente/", "/laboratorio-de-respiraciones/", "/laboratorio-de-miedos-y-fobias/", "/laboratorio-morita-y-naikan/"]),
     ("panico", "Ataques de pánico", "/ansiedad-y-ataques-de-panico/", ["ataque-de-panico-que-hacer", "respiracion-y-emociones", "fobias"], ["/laboratorio-de-ataques-de-panico/", "/laboratorio-de-presencia/", "/laboratorio-de-miedos-y-fobias/"]),
     ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "psicologo-o-psiquiatra", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
     ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "apego-ansioso-y-evitativo", "terapia-de-pareja", "el-apego", "los-celos", "infidelidad", "narcisismo"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/", "/laboratorio-de-celos/"]),
@@ -1077,15 +1086,15 @@ GUIA = [
     ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "logoterapia-y-sentido", "ikigai"], ["/laboratorio-de-crisis-vitales/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-de-sentido/", "/laboratorio-de-valores/", "/laboratorio-de-ikigai/"]),
     ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-imaginacion-activa/", "/laboratorio-mito-personal/"]),
     ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "la-ventana-de-tolerancia", "trastorno-limite-de-la-personalidad"], ["/laboratorio-rueda-de-las-emociones/", "/laboratorio-de-regulacion/", "/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
-    ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["procrastinacion", "metahabilidades", "la-motivacion", "tomar-decisiones"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/", "/laboratorio-de-decisiones/"]),
+    ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["procrastinacion", "metahabilidades", "la-motivacion", "tomar-decisiones"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/", "/laboratorio-de-decisiones/", "/laboratorio-de-kaizen/"]),
     ("meditar", "Empezar a meditar o respirar mejor", "/terapia-junguiana/", ["que-es-la-meditacion", "cuando-meditar-no-es-recomendable"], ["/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/", "/laboratorio-de-respiraciones/"]),
     ("cuerpo", "Síntomas en el cuerpo o tensión", "/ansiedad-y-ataques-de-panico/", ["psicologia-corporal", "dolor-cronico-y-psicologia", "ansiedad-por-la-salud", "interocepcion", "mapa-de-las-psicoterapias-corporales"], ["/laboratorio-de-psicologia-corporal/", "/laboratorio-de-terapias-corporales/", "/laboratorio-de-regulacion/", "/laboratorio-de-tono-postura-y-movimiento/"]),
     ("trauma", "Después de algo traumático", "/trauma/", ["estres-postraumatico", "la-ventana-de-tolerancia", "emdr", "somatic-experiencing", "el-cuerpo-lleva-la-cuenta"], ["/laboratorio-de-trauma/", "/laboratorio-de-regulacion/", "/laboratorio-respirar-volver-al-presente/"]),
     ("separacion", "Una separación", "/separaciones-complicadas/", ["hijos-y-separacion", "la-culpa", "el-enojo", "la-resiliencia"], ["/laboratorio-separarse-sin-perderse/", "/laboratorio-conflicto-alto-y-seguridad/", "/laboratorio-de-duelo/"]),
     ("violencia", "Conflicto o violencia en un vínculo", "/dificultades-vinculares/", ["violencia-en-la-pareja", "los-celos", "el-enojo"], ["/laboratorio-de-violencia-en-el-vinculo/", "/laboratorio-conflicto-alto-y-seguridad/", "/laboratorio-plan-de-seguridad/", "/laboratorio-de-asertividad/"]),
-    ("soledad", "Soledad", "/dificultades-vinculares/", ["la-soledad", "pantallas-y-redes-sociales"], ["/laboratorio-de-vinculos/", "/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-soledad-y-conexion/"]),
+    ("soledad", "Soledad", "/dificultades-vinculares/", ["la-soledad", "hikikomori", "pantallas-y-redes-sociales"], ["/laboratorio-de-vinculos/", "/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-soledad-y-conexion/"]),
     ("enojo", "Enojo o bronca", "/dificultades-vinculares/", ["el-enojo", "la-culpa"], ["/laboratorio-de-emociones/", "/laboratorio-dbt-regulacion-emocional/", "/laboratorio-de-comunicacion-no-violenta/"]),
-    ("perfeccionismo", "Autoexigencia o perfeccionismo", "/autoestima/", ["autoexigencia-y-perfeccionismo", "mejor-version-posible", "la-verguenza"], ["/laboratorio-mi-mejor-version/", "/laboratorio-de-autocompasion/", "/laboratorio-de-valores/", "/laboratorio-de-perfeccionismo/"]),
+    ("perfeccionismo", "Autoexigencia o perfeccionismo", "/autoestima/", ["autoexigencia-y-perfeccionismo", "mejor-version-posible", "la-verguenza"], ["/laboratorio-mi-mejor-version/", "/laboratorio-de-autocompasion/", "/laboratorio-de-valores/", "/laboratorio-de-perfeccionismo/", "/laboratorio-de-wabi-sabi-y-kintsugi/"]),
     ("verguenza", "Vergüenza", "/autoestima/", ["la-verguenza", "la-culpa", "ansiedad-social"], ["/laboratorio-de-autocompasion/", "/laboratorio-compasion-tres-sistemas/", "/laboratorio-de-culpa-y-verguenza/"]),
     ("afrontar", "Afrontar algo difícil", "/estres-y-agotamiento/", ["estrategias-de-afrontamiento", "la-resiliencia", "burnout"], ["/laboratorio-de-afrontamiento/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-dbt-tolerancia-al-malestar/"]),
     ("decidir", "Tomar una decisión difícil", "/crisis-vitales/", ["tomar-decisiones", "autoexigencia-y-perfeccionismo"], ["/laboratorio-de-decisiones/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-de-valores/"]),
@@ -1234,6 +1243,7 @@ def pie():
           <li><a href="/recursos/">Recursos</a></li>
           <li><a href="/glosario-junguiano/">Glosario junguiano</a></li>
           <li><a href="/glosario-clinico/">Glosario de psicoterapia</a></li>
+          <li><a href="/glosario-de-psicologia-japonesa/">Glosario de psicología japonesa</a></li>
           <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
           <li><a href="/opiniones/">Opiniones de pacientes</a></li>
@@ -1643,6 +1653,22 @@ TERMINOS_GLOSARIO = [
     ("/glosario-junguiano/", "mandala", r"mandalas?"),
     ("/glosario-junguiano/", "tipos-psicologicos", r"tipos psicológicos"),
     ("/glosario-junguiano/", "complejo", r"complejos"),
+    ("/glosario-de-psicologia-japonesa/", "hikikomori", r"hikikomori"),
+    ("/glosario-de-psicologia-japonesa/", "taijin-kyofusho", r"taijin ky[oō]fush[oō]"),
+    ("/glosario-de-psicologia-japonesa/", "karoshi", r"kar[oō]shi"),
+    ("/glosario-de-psicologia-japonesa/", "honne-y-tatemae", r"honne"),
+    ("/glosario-de-psicologia-japonesa/", "moai", r"moai"),
+    ("/glosario-de-psicologia-japonesa/", "toraware", r"toraware"),
+    ("/glosario-de-psicologia-japonesa/", "arugamama", r"arugamama"),
+    ("/glosario-de-psicologia-japonesa/", "amae", r"amae"),
+    ("/glosario-de-psicologia-japonesa/", "wabi-sabi", r"wabi-sabi"),
+    ("/glosario-de-psicologia-japonesa/", "kintsugi", r"kintsugi"),
+    ("/glosario-de-psicologia-japonesa/", "mono-no-aware", r"mono no aware"),
+    ("/glosario-de-psicologia-japonesa/", "shoshin", r"shoshin"),
+    ("/glosario-de-psicologia-japonesa/", "mushin", r"mushin"),
+    ("/glosario-de-psicologia-japonesa/", "gaman", r"gaman"),
+    ("/glosario-de-psicologia-japonesa/", "omoiyari", r"omoiyari"),
+    ("/glosario-de-psicologia-japonesa/", "ichigo-ichie", r"ichigo ichie"),
     ("/glosario-clinico/", "exposicion-con-prevencion-de-respuesta", r"exposición con prevención de respuesta"),
     ("/glosario-clinico/", "intolerancia-a-la-incertidumbre", r"intolerancia a la incertidumbre"),
     ("/glosario-clinico/", "duelo-desautorizado", r"duelos? (?:desautorizados?|no reconocidos?)"),
@@ -2198,7 +2224,7 @@ CONSULTA_FIJA = {
     "insomnio": "/estres-y-agotamiento/", "pesadillas": "/trauma/", "dependencia-emocional": "/dificultades-vinculares/",
     "patrones-que-se-repiten-en-los-vinculos": "/dificultades-vinculares/", "la-culpa": "/autoestima/",
     "fauna-y-observacion": "/estres-y-agotamiento/", "flora-y-salud-mental": "/estres-y-agotamiento/",
-    "cuidar-a-un-familiar": "/terapia-para-adultos-mayores/", "pantallas-y-redes-sociales": "/psicologo-para-adolescentes/", "la-resiliencia": "/duelo-y-perdidas/", "sindrome-del-impostor": "/autoestima/", "la-envidia": "/autoestima/", "nido-vacio": "/crisis-vitales/", "menopausia-y-salud-emocional": "/crisis-vitales/", "trastorno-obsesivo-compulsivo": "/ansiedad-y-ataques-de-panico/", "psicologo-o-psiquiatra": "/primera-consulta/", "como-elegir-psicologo": "/primera-consulta/", "cuanto-dura-una-terapia": "/primera-consulta/", "terapia-de-pareja": "/dificultades-vinculares/", "violencia-en-la-pareja": None, "apego-ansioso-y-evitativo": "/dificultades-vinculares/", "dolor-cronico-y-psicologia": "/estres-y-agotamiento/", "acoso-escolar-y-laboral": "/trauma/",
+    "cuidar-a-un-familiar": "/terapia-para-adultos-mayores/", "pantallas-y-redes-sociales": "/psicologo-para-adolescentes/", "la-resiliencia": "/duelo-y-perdidas/", "sindrome-del-impostor": "/autoestima/", "la-envidia": "/autoestima/", "nido-vacio": "/crisis-vitales/", "menopausia-y-salud-emocional": "/crisis-vitales/", "trastorno-obsesivo-compulsivo": "/ansiedad-y-ataques-de-panico/", "psicologo-o-psiquiatra": "/primera-consulta/", "como-elegir-psicologo": "/primera-consulta/", "cuanto-dura-una-terapia": "/primera-consulta/", "terapia-de-pareja": "/dificultades-vinculares/", "violencia-en-la-pareja": None, "apego-ansioso-y-evitativo": "/dificultades-vinculares/", "dolor-cronico-y-psicologia": "/estres-y-agotamiento/", "terapia-morita": "/ansiedad-y-ataques-de-panico/", "kaizen": "/crisis-vitales/", "wabi-sabi-y-kintsugi": "/autoestima/", "amae": "/dificultades-vinculares/", "shinrin-yoku": "/estres-y-agotamiento/", "naikan": "/psicoterapia-para-adultos/", "hikikomori": "/psicologo-para-adolescentes/", "mapa-de-la-psicologia-japonesa": "/psicoterapia-para-adultos/", "acoso-escolar-y-laboral": "/trauma/",
     "apuestas-online": "/psicoterapia-para-adultos/", "trastorno-bipolar": "/depresion/",
 }
 CONSULTA_CATEGORIAS = {"Salud mental", "Ansiedad y emociones", "Vínculos y relaciones", "Desarrollo personal",
@@ -2355,6 +2381,7 @@ def reemplazos(cuerpo, ruta):
         "glosario": bloque_glosario,
         "glosario_fiorini": lambda: bloque_glosario(GLOSARIO_FIORINI),
         "glosario_clinico": lambda: bloque_glosario(GLOSARIO_CLINICO),
+        "glosario_japones": lambda: bloque_glosario(GLOSARIO_JAPONES),
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,

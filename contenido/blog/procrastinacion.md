@@ -43,6 +43,8 @@ Podés armar pasos pequeños en el [laboratorio de hábitos](/laboratorio-de-hab
 
 Cuando la procrastinación afecta tus estudios, tu trabajo o tus vínculos, cuando se mezcla con ansiedad o tristeza, o cuando sospechás que puede haber algo más, como dificultades de atención. En terapia miramos qué emoción estás evitando y por qué esa tarea en particular pesa tanto. A veces lo que postergamos es justamente lo que más nos importa.
 
+Si te cuesta empezar, la idea del [kaizen](/recursos/kaizen/) propone avanzar en pasos tan pequeños que no den miedo.
+
 ## Preguntas frecuentes
 
 ### ¿La procrastinación es pereza?
