@@ -2059,6 +2059,66 @@ def relacionados(a):
     return f'<nav class="relacionados" aria-label="Artículos relacionados"><h2>Seguí leyendo</h2><ul>{items}</ul></nav>'
 
 
+# Puente artículo → consulta: (patrón sobre slug, título y palabras clave, ruta, tema en minúscula).
+# El primero que coincide gana; un campo «motivo: /ruta/» en el frontmatter lo fuerza («motivo: no» lo apaga).
+CONSULTA_REGLAS = [
+    (r"adolescen", "/psicologo-para-adolescentes/", "la terapia con adolescentes"),
+    (r"vejez|jubila|envejec|adultos? mayores|tercera edad", "/terapia-para-adultos-mayores/", "la terapia con adultos mayores"),
+    (r"exterior|migra|expatri|vivir afuera", "/terapia-online-por-pais/", "la terapia online desde otros países"),
+    (r"separaci|divorci|separarse|ruptura", "/separaciones-complicadas/", "las separaciones"),
+    (r"duelo|pérdida|perdida|psicotanatolog|morir|la muerte", "/duelo-y-perdidas/", "el duelo y las pérdidas"),
+    (r"trauma|polivagal|disocia|ventana de tolerancia|somatic|el cuerpo lleva", "/trauma/", "el trauma"),
+    (r"pánico|panico|ansiedad|fobia|miedo|hipocondr|preocupaci|obsesi|compulsi", "/ansiedad-y-ataques-de-panico/", "la ansiedad y los ataques de pánico"),
+    (r"depresi|tristeza|ánimo|activación conductual|anhedon", "/depresion/", "la depresión"),
+    (r"estrés|estres|burnout|agotamiento|insomnio|descanso|cansancio", "/estres-y-agotamiento/", "el estrés y el agotamiento"),
+    (r"autoestima|vergüenza|verguenza|perfeccion|autoexigencia|autocompasi|autocrítica|narcis|mejor versión", "/autoestima/", "la autoestima"),
+    (r"pareja|vínculo|vinculo|apego|amor|celos|dependencia emocional|violencia|familia|crianza|soledad|asertiv", "/dificultades-vinculares/", "los vínculos"),
+    (r"crisis|mitad de la vida|transici|cambio de etapa|decisi|vocaci|ikigai|sentido de la vida|propósito", "/crisis-vitales/", "las crisis vitales y los cambios de etapa"),
+]
+CONSULTA_GENERAL = ("/psicoterapia-para-adultos/", "la psicoterapia con adultos")
+# Asignaciones fijas donde el nombre no alcanza (None = sin bloque: temas que requieren otra derivación).
+CONSULTA_FIJA = {
+    "prevencion-del-suicidio": None, "primer-episodio-psicotico": None, "autolesiones": None,
+    "trastornos-de-la-conducta-alimentaria": None, "mapa-de-la-psicologia-positiva": None,
+    "como-saber-si-necesito-terapia": "/primera-consulta/", "terapia-con-psicodelicos": None,
+    "insomnio": "/estres-y-agotamiento/", "pesadillas": "/trauma/", "dependencia-emocional": "/dificultades-vinculares/",
+    "patrones-que-se-repiten-en-los-vinculos": "/dificultades-vinculares/", "la-culpa": "/autoestima/",
+    "fauna-y-observacion": "/estres-y-agotamiento/", "flora-y-salud-mental": "/estres-y-agotamiento/",
+    "cuidar-a-un-familiar": "/estres-y-agotamiento/", "acoso-escolar-y-laboral": "/trauma/",
+    "apuestas-online": "/psicoterapia-para-adultos/", "trastorno-bipolar": "/depresion/",
+}
+CONSULTA_CATEGORIAS = {"Salud mental", "Ansiedad y emociones", "Vínculos y relaciones", "Desarrollo personal",
+                       "Psicología contemporánea", "Meditación y respiración", "Psicología básica"}
+
+
+def destino_consulta(a):
+    forzado = (a.get("motivo") or "").strip()
+    if forzado.lower() == "no":
+        return None
+    if forzado:
+        return next(((r, t) for _, r, t in CONSULTA_REGLAS if r == forzado), (forzado, "este tema"))
+    if a["categoria"] == "Jung y psicología analítica":
+        return ("/terapia-junguiana/", "la terapia junguiana")
+    if a["categoria"] not in CONSULTA_CATEGORIAS:
+        return None
+    s = a["archivo"][:-3]
+    if s in CONSULTA_FIJA:
+        r = CONSULTA_FIJA[s]
+        return None if r is None else next(((x, t) for _, x, t in CONSULTA_REGLAS if x == r), (r, CONSULTA_GENERAL[1]))
+    clave = (s.replace("-", " ") + " " + a["titulo"]).lower()
+    return next(((r, t) for patron, r, t in CONSULTA_REGLAS if re.search(patron, clave)), CONSULTA_GENERAL)
+
+
+def bloque_consulta(a):
+    d = destino_consulta(a)
+    if not d:
+        return ""
+    ruta, tema = d
+    return (f'<div class="destacado destacado--consulta"><p><strong>Si esto es parte de lo que estás atravesando:</strong> '
+            f'te cuento <a href="{ruta}">cómo trabajo {esc(tema)} en consulta</a>, presencial en Alta Gracia u online, '
+            f'y <a href="/primera-consulta/">qué esperar de una primera entrevista</a>.</p></div>')
+
+
 def render_articulo(a):
     migas = [("Recursos", "/recursos/"), (a["categoria"], ruta_categoria(a["categoria"])), (a["titulo"], a["ruta"])]
     md_sin_faq, faq_items = extraer_faq(a["md"])
@@ -2102,6 +2162,7 @@ def render_articulo(a):
   {indice_articulo(cuerpo_md)}
   {cuerpo_md}
   {faq_html(faq_items, "Preguntas frecuentes") if faq_items else ""}
+  {bloque_consulta(a)}
   <div class="destacado destacado--aviso"><p>Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).</p></div>
   {bloque_compartir(a["titulo"], a["ruta"])}
   {relacionados(a)}
