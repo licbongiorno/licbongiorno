@@ -79,6 +79,8 @@ No como tratamiento en sí. Algunas ideas inspiraron una psicoterapia en China, 
 - [Terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/)
 - [Laboratorio de tradiciones orientales](/laboratorio-de-las-tradiciones-orientales/)
 
+Para el lado más juguetón y paradójico del taoísmo, leé sobre [Zhuangzi](/recursos/zhuangzi/), y para practicarlo, el [laboratorio de Zhuangzi](/laboratorio-de-zhuangzi/).
+
 ## Para seguir leyendo
 
 - Wilhelm, R. y Jung, C. G. (1929). *Das Geheimnis der goldenen Blüte: ein chinesisches Lebensbuch*. Dornverlag.

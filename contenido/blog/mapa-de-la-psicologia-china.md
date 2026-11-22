@@ -79,6 +79,8 @@ Algunas, como el movimiento suave o la reflexión sobre tus vínculos, sí. Las 
 - [Laboratorio confuciano de vínculos](/laboratorio-confuciano-de-vinculos/)
 - [Laboratorio de qigong y tai chi](/laboratorio-de-qigong-y-tai-chi/)
 
+Esta serie sigue con tres pensadores ([Zhuangzi](/recursos/zhuangzi/), [Mencio y Xunzi](/recursos/mencio-y-xunzi/) y [Wang Yangming](/recursos/wang-yangming/)), con la [psicología cultural de Oriente y Occidente](/recursos/oriente-y-occidente-psicologia-cultural/), la [historia de la psicología en China](/recursos/la-psicologia-en-china/) y lo que dice la evidencia sobre la [acupuntura](/recursos/acupuntura-y-salud-mental/).
+
 ## Para seguir leyendo
 
 - Wilhelm, R. (trad.) (1950). *The I Ching or Book of Changes*, traducción al inglés de C. F. Baynes, prólogo de C. G. Jung. Pantheon Books (Bollingen Series XIX).

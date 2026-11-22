@@ -49,6 +49,8 @@ Desde la psicología analítica y el psicoanálisis, que trabajan con lo que no 
 
 Podés probar la autoobservación disciplinada en el [laboratorio de Wundt](/laboratorio-de-wundt/).
 
+Uno de los alumnos de Wundt en Leipzig fue Cai Yuanpei, figura clave de la [psicología en China](/recursos/la-psicologia-en-china/).
+
 ## Preguntas frecuentes
 
 ### ¿Por qué se considera a Wundt el padre de la psicología?

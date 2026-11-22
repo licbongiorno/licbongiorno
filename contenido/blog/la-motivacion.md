@@ -57,6 +57,8 @@ Exigirse más en esos casos suele empeorar las cosas. Si sentís que hace tiempo
 
 Si querés pensar qué te mueve de verdad, probá el [laboratorio de valores y sentido](/laboratorio-de-valores/), y para sostener cambios pequeños, el [laboratorio de hábitos](/laboratorio-de-habitos/).
 
+La distancia entre saber lo que conviene y hacerlo ya preocupaba a [Wang Yangming](/recursos/wang-yangming/) en el siglo XVI.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la motivación?

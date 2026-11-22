@@ -69,6 +69,8 @@ Se parecen, pero no son idénticos. Perder la cara es la pérdida del respeto an
 - [Confucio y la psicología](/recursos/confucio-y-la-psicologia/)
 - [Mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/)
 
+Para una mirada más amplia sobre cultura y mente, leé [Oriente y Occidente en la psicología cultural](/recursos/oriente-y-occidente-psicologia-cultural/).
+
 ## Para seguir leyendo
 
 - Hu, H. C. (1944). «The Chinese concepts of "face"». *American Anthropologist*, 46(1), 45-64.

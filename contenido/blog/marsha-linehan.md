@@ -45,6 +45,8 @@ La DBT es uno de los tratamientos con más evidencia para el trastorno límite d
 
 En la consulta, sus habilidades son herramientas muy concretas para los momentos de crisis. Podés practicar algunas en el [laboratorio de habilidades DBT](/laboratorio-de-habilidades-dbt/). Si estás atravesando una crisis, buscá ayuda: en [ayuda urgente](/ayuda-urgente/) están los teléfonos.
 
+Para practicar la dialéctica entre aceptación y cambio, está el [laboratorio de pensamiento dialéctico](/laboratorio-de-pensamiento-dialectico/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la terapia dialéctica conductual?
