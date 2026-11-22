@@ -1,0 +1,139 @@
+<!--{
+  "ruta": "/laboratorio-de-pensamiento-dialectico/",
+  "titulo": "Laboratorio de pensamiento dialéctico",
+  "descripcion": "Ejercicios para sostener contradicciones: pensamiento dialéctico, aceptación y cambio en DBT, todo o nada o ambas cosas, el «y» en lugar del «pero».",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Pensamiento dialéctico",
+      "/laboratorio-de-pensamiento-dialectico/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>pensamiento dialéctico</em>",
+  "bajada": "Pensar dialécticamente es sostener dos ideas que parecen opuestas sin descartar ninguna. Lo estudió la psicología cultural y es un eje de la terapia dialéctico conductual de Marsha Linehan. Ejercicios para ensayarlo con criterio.",
+  "respuesta": "El laboratorio de pensamiento dialéctico ofrece ejercicios para sostener contradicciones: un quiz para distinguir el pensamiento de todo o nada del de ambas cosas, el ejercicio de reemplazar el «pero» por el «y» y la escritura de tesis, antítesis y síntesis de un conflicto personal, más un plan de 7 días. Se apoya en el trabajo de Kaiping Peng y Richard Nisbett (1999) sobre razonamiento ante la contradicción y en la dialéctica de aceptación y cambio de la terapia dialéctico conductual de Marsha Linehan. No es un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-4.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de pensamiento dialéctico",
+  "articulos": [
+    "oriente-y-occidente-psicologia-cultural",
+    "marsha-linehan"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Cuando dos cosas parecen oponerse («lo quiero y me lastima», «estoy haciendo lo mejor que puedo y necesito cambiar»), la tentación es elegir una y descartar la otra. El <strong>pensamiento dialéctico</strong> propone otra salida: sostener ambas. Kaiping Peng y Richard Nisbett (1999) estudiaron cómo participantes chinos y estadounidenses razonaban ante contradicciones. Informaron que los primeros tendían más a buscar un «camino del medio» que conserva elementos de ambas posturas, y los segundos a polarizarlas. Son tendencias de grupo, no destinos individuales, y trabajos posteriores pusieron en duda algunos de los resultados con refranes, de modo que conviene leerlos con cautela.</p>
+        <p>La <strong>terapia dialéctico conductual</strong> (DBT) de Marsha Linehan (1993) hace de esta idea un eje: su dialéctica central es el equilibrio entre <strong>aceptación y cambio</strong>. Aceptarte tal como estás hoy y, a la vez, trabajar para que algo cambie. Este laboratorio no es una terapia ni un tratamiento: son ejercicios de escritura y de reflexión. Si algo te desborda, conviene hablarlo con un profesional.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin forzar la síntesis.</strong> A veces dos cosas quedan en tensión y está bien.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> Sostener contradicciones no es justificar un daño.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#quiz">¿Todo o nada, o ambas cosas?</a>
+      <a href="#y">«Y» en lugar de «pero»</a>
+      <a href="#sintesis">Tesis, antítesis y síntesis</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-quiz">¿Todo o nada, o ambas cosas?</h2>
+      <p class="lab-estacion__bajada">Cada frase expresa una forma de pensar una situación. ¿Es un pensamiento de todo o nada, o uno que admite ambas cosas a la vez?</p>
+      <div class="lab-tarjeta" data-lab-quiz="dialectico-todo-o-nada">
+        <p class="lab-tarjeta__titulo">¿Todo o nada, o ambas cosas?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="y" aria-labelledby="t-y">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-y">El «y» en lugar del «pero»</h2>
+      <p class="lab-estacion__bajada">El «pero» suele borrar lo que viene antes («te quiero, pero…»). Reemplazarlo por «y» es una práctica habitual en los materiales de DBT para mantener juntas las dos partes. Probalo con tres frases tuyas. Si el «y» te suena raro, notá qué cambia.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-y-en-lugar-de-pero" data-lab-form-titulo="Mis frases con «y»" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-y-1">Una frase mía con «pero»</label><input class="lab-campo" id="di-y-1" type="text" placeholder="Por ejemplo: «Quiero descansar, pero tengo mucho para hacer»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-y-2">La misma frase con «y»</label><input class="lab-campo" id="di-y-2" type="text" placeholder="«Quiero descansar y tengo mucho para hacer»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-y-3">Otra frase mía con «pero»</label><input class="lab-campo" id="di-y-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-y-4">La misma frase con «y»</label><input class="lab-campo" id="di-y-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-y-5">¿Qué cambió al leerlas? ¿Qué pasó con las dos partes de la frase?</label><textarea class="lab-texto" id="di-y-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-y-6">¿En qué frases el «pero» sí corresponde, porque una de las partes tiene que pesar más?</label><textarea class="lab-texto" id="di-y-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="sintesis" aria-labelledby="t-sintesis">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-sintesis">Tesis, antítesis y síntesis de un conflicto personal</h2>
+      <p class="lab-estacion__bajada">El esquema de tesis, antítesis y síntesis suele asociarse a Hegel, y la dialéctica de la DBT se inspira en esta forma de pensar. Elegí un conflicto interno, no el más grave de tu vida: dos partes tuyas que quieren cosas distintas. Escribí qué dice cada una y buscá una síntesis que las incluya a las dos. A veces no hay síntesis todavía, y eso también se anota.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-sintesis" data-lab-form-titulo="Mi tesis, antítesis y síntesis" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-sintesis-1">El conflicto, en una frase</label><input class="lab-campo" id="di-sintesis-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-sintesis-2">Tesis: lo que dice una parte mía, con su razón</label><textarea class="lab-texto" id="di-sintesis-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-sintesis-3">Antítesis: lo que dice la otra parte, con su razón</label><textarea class="lab-texto" id="di-sintesis-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-sintesis-4">¿Qué hay de cierto en cada una? ¿Qué necesita cada una?</label><textarea class="lab-texto" id="di-sintesis-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-sintesis-5">Síntesis posible: una forma de actuar o pensar que honre a las dos</label><textarea class="lab-texto" id="di-sintesis-5" rows="2" placeholder="Por ejemplo: un paso chico, una condición, un tiempo de prueba"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="di-sintesis-6">Un primer paso pequeño que parta de esa síntesis</label><input class="lab-campo" id="di-sintesis-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="dialectico">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar el todo o nada.</strong> Anotá una vez hoy en que pensaste en «siempre», «nunca», «todo» o «nada».</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Dos cosas ciertas.</strong> Escribí una situación y dos cosas que son verdad a la vez aunque parezcan opuestas.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. El «y».</strong> Reemplazá el «pero» por «y» en tres frases que digas o pienses.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Aceptar y cambiar.</strong> Elegí algo de vos y escribí qué aceptás hoy y qué querés cambiar, sin descartar ninguna parte.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Tesis y antítesis.</strong> Elegí un conflicto interno y escribí la voz de cada parte.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Síntesis.</strong> Buscá una forma de actuar que respete a las dos partes, o anotá que todavía no la encontrás.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Anotá qué te resultó útil, qué te costó y dónde el «pero» sí tenía razón.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el pensamiento dialéctico y la DBT. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="dialectico-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Sostener contradicciones no es una forma de justificar maltrato ni de quedarte donde te lastiman. Si los conflictos te desbordan, si las emociones te llevan a actuar de formas que te preocupan o si pensás en hacerte daño, no esperes: mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). También podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/oriente-y-occidente-psicologia-cultural/">Oriente y Occidente en la psicología cultural</a>, el de <a href="/recursos/marsha-linehan/">Marsha Linehan</a> y el <a href="/laboratorio-de-habilidades-dbt/">laboratorio de habilidades DBT</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Peng, K. y Nisbett, R. E. (1999). «Culture, dialectics, and reasoning about contradiction». <em>American Psychologist</em>, 54(9), 741-754.</li>
+        <li>Linehan, M. M. (1993). <em>Cognitive-Behavioral Treatment of Borderline Personality Disorder</em>. Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

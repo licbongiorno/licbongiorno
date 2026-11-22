@@ -72,6 +72,8 @@ Es una propuesta de Kwang-Kuo Hwang para entender a la persona china desde sus r
 - [Dificultades vinculares](/dificultades-vinculares/)
 - [Mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/)
 
+El debate confuciano sobre la naturaleza humana siguió con [Mencio y Xunzi](/recursos/mencio-y-xunzi/), y siglos después con [Wang Yangming](/recursos/wang-yangming/).
+
 ## Para seguir leyendo
 
 - Hwang, K.-K. (2012). *Foundations of Chinese Psychology: Confucian Social Relations*. Springer.

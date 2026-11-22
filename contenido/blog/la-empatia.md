@@ -52,6 +52,8 @@ La empatía se relaciona con la [inteligencia emocional](/recursos/inteligencia-
 
 Si sentís que cargás con lo de todos y ya no te queda energía, o al revés, si te cuesta conectar con lo que sienten los demás y eso trae problemas en tus vínculos, la terapia puede ayudarte a encontrar un equilibrio. Podés leer sobre [estrés y agotamiento](/estres-y-agotamiento/) o escribirme.
 
+La pregunta de si la compasión es innata tiene una larga historia en China: la desarrollo en [Mencio y Xunzi](/recursos/mencio-y-xunzi/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la empatía?

@@ -69,6 +69,8 @@ El tai chi tiene origen marcial y usa secuencias largas de movimientos encadenad
 - [Qué es la meditación](/recursos/que-es-la-meditacion/)
 - [Estrés y agotamiento](/estres-y-agotamiento/)
 
+Sobre otra práctica de la medicina tradicional china y lo que muestra la investigación, leé [acupuntura y salud mental](/recursos/acupuntura-y-salud-mental/).
+
 ## Para seguir leyendo
 
 - Wang, C., Bannuru, R., Ramel, J., Kupelnick, B., Scott, T. y Schmid, C. H. (2010). «Tai Chi on psychological well-being: systematic review and meta-analysis». *BMC Complementary and Alternative Medicine*, 10, 23.

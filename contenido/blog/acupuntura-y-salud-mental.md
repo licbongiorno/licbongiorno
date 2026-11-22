@@ -1,7 +1,7 @@
 ---
 titulo: Acupuntura y salud mental: qué dice la evidencia
 titulo_seo: Acupuntura y salud mental: qué dice la evidencia
-descripcion: Qué es la acupuntura, qué muestran las revisiones Cochrane sobre depresión e insomnio, el problema del placebo, su seguridad y sus límites como tratamiento.
+descripcion: Qué es la acupuntura, qué muestran las revisiones Cochrane sobre depresión e insomnio, el problema del placebo, su seguridad y sus límites.
 resumen: La acupuntura es una práctica de la medicina tradicional china. Qué se sabe de su efecto en depresión, ansiedad e insomnio, y por qué la calidad de la evidencia es baja.
 categoria: Salud mental
 palabras_clave: acupuntura, 针灸, salud mental, depresión, ansiedad, insomnio, revisión Cochrane, placebo, acupuntura simulada, medicina tradicional china

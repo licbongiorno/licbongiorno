@@ -1,4 +1,4 @@
-/* Laboratorios temáticos (4), serie psicología china: taoísta, confuciano de vínculos, qigong y tai chi.
+/* Laboratorios temáticos (4), serie psicología china: taoísta, confuciano de vínculos, qigong y tai chi, Zhuangzi y pensamiento dialéctico.
    Requiere lab-base.js. Nada se envía a ningún servidor. Los planes de 7 días y los formularios los maneja lab-base.js. */
 (function () {
   "use strict";
@@ -51,6 +51,44 @@
     {"t": "Una revisión de estudios encontró beneficios en el bienestar psicológico, pero con estudios de calidad dispareja.", "r": "b", "e": "Es lo que informan Wang y colaboradores (2010), que piden ensayos mejor controlados antes de sacar conclusiones firmes."},
     {"t": "Si duele o marea, hay que seguir hasta que se pase.", "r": "a", "e": "Al revés: si hay dolor o mareo se detiene la práctica, y si se repite conviene consultar."},
     {"t": "Estas prácticas alcanzan para tratar la ansiedad o la depresión.", "r": "a", "e": "Pueden acompañar, pero no sustituyen una evaluación ni un tratamiento cuando hay sufrimiento intenso."}
+  ]);
+
+  /* Zhuangzi */
+  var OPS_ZHUANGZI_INUTIL = ["Sostiene algo", "Sobra de verdad"];
+  LAB.quiz("zhuangzi-inutil", [
+    {"sinComillas": true, "t": "Un paseo de media hora sin destino ni objetivo, solo para caminar.", "ops": OPS_ZHUANGZI_INUTIL, "r": 0, "e": "No produce nada medible, pero suele darle aire a la jornada y ordenar la cabeza. Es lo que el relato del árbol invita a valorar."},
+    {"sinComillas": true, "t": "Seguir mirando por décima vez el chat de alguien que no te contesta.", "ops": OPS_ZHUANGZI_INUTIL, "r": 1, "e": "No sostiene nada: alimenta la espera y el malestar. Ser inútil no vuelve valioso a todo lo que no sirve."},
+    {"sinComillas": true, "t": "Una amistad con quien no «hacés» nada productivo: charlan, se ríen, se acompañan.", "ops": OPS_ZHUANGZI_INUTIL, "r": 0, "e": "No tiene meta ni rendimiento y sin embargo sostiene. Es un caso típico de utilidad escondida."},
+    {"sinComillas": true, "t": "Una suscripción que no usás hace meses y que seguís pagando por costumbre.", "ops": OPS_ZHUANGZI_INUTIL, "r": 1, "e": "Acá no hay sombra oculta: es un gasto que podés revisar. No toda cosa «inútil» merece defensa."},
+    {"sinComillas": true, "t": "Un rato por semana para dibujar, tocar un instrumento o armar algo, sin fines de lucro y sin público.", "ops": OPS_ZHUANGZI_INUTIL, "r": 0, "e": "Nadie lo necesita y aun así puede sostener el ánimo y la sensación de ser más que lo que producís."},
+    {"sinComillas": true, "t": "Un rencor que cultivás con detalle y que no te lleva a ninguna conversación ni decisión.", "ops": OPS_ZHUANGZI_INUTIL, "r": 1, "e": "Ocupa lugar y energía y no ofrece nada a cambio. Mirarlo con curiosidad puede ser un primer paso."}
+  ]);
+  LAB.quiz("zhuangzi-mitos", [
+    {"t": "El Zhuangzi es un manual de psicoterapia.", "r": "a", "e": "Es una obra filosófica y literaria de la tradición taoísta. Puede inspirar una mirada, pero no es un tratamiento ni tiene ensayos clínicos propios."},
+    {"t": "Se trata de un texto lleno de relatos, diálogos y paradojas, no de una exposición sistemática.", "r": "b", "e": "Es una de sus características más notorias y lo que lo diferencia de un tratado ordenado."},
+    {"t": "El sueño de la mariposa demuestra que nada es real.", "r": "a", "e": "El relato deja una pregunta abierta, pero no afirma que nada exista. Es una invitación a no aferrarse a una sola mirada."},
+    {"t": "Cambiar de perspectiva significa que lo que te pasa no importa.", "r": "a", "e": "Mirar desde otro lugar amplía la vista, pero no borra el dolor ni vuelve irreal lo que ocurrió."},
+    {"t": "Lo que no se puede medir o cobrar puede, aun así, sostener algo importante.", "r": "b", "e": "Es la idea central del relato del árbol inútil: no todo valor se ve a primera vista."},
+    {"t": "Si no puedo saber lo que siente el otro, no vale la pena preguntarle.", "r": "a", "e": "Al contrario. Reconocer que no lo sabés es lo que vuelve valiosa la pregunta."}
+  ]);
+
+  /* Pensamiento dialéctico */
+  var OPS_DIALECTICO_TODO_O_NADA = ["Todo o nada", "Ambas cosas"];
+  LAB.quiz("dialectico-todo-o-nada", [
+    {"sinComillas": true, "t": "«Si no lo hice perfecto, lo hice mal.»", "ops": OPS_DIALECTICO_TODO_O_NADA, "r": 0, "e": "Solo hay dos casillas: perfecto o un fracaso. Se pierde todo lo que hay en el medio."},
+    {"sinComillas": true, "t": "«Estoy haciendo lo que puedo con lo que tengo, y también me gustaría poder más.»", "ops": OPS_DIALECTICO_TODO_O_NADA, "r": 1, "e": "Sostiene aceptación y cambio a la vez. Es el tipo de equilibrio que propone la dialéctica de Linehan."},
+    {"sinComillas": true, "t": "«O me quiere o no me quiere, no hay otra.»", "ops": OPS_DIALECTICO_TODO_O_NADA, "r": 0, "e": "Reduce el vínculo a una sola alternativa. Alguien puede quererte y, a la vez, hacerte daño o fallarte."},
+    {"sinComillas": true, "t": "«Lo quiero mucho y hoy estoy enojado/a con él.»", "ops": OPS_DIALECTICO_TODO_O_NADA, "r": 1, "e": "Dos emociones que parecen opuestas conviven. No hace falta resolver cuál es la «verdadera»."},
+    {"sinComillas": true, "t": "«Me equivoqué, así que soy un desastre.»", "ops": OPS_DIALECTICO_TODO_O_NADA, "r": 0, "e": "Un error se convierte en un veredicto total. Es una generalización de todo o nada."},
+    {"sinComillas": true, "t": "«Me equivoqué, me hago cargo de la parte que me toca y sigo siendo alguien que vale.»", "ops": OPS_DIALECTICO_TODO_O_NADA, "r": 1, "e": "Reconoce el error sin que arrastre toda la identidad. Es posible hacer ambas cosas."}
+  ]);
+  LAB.quiz("dialectico-mitos", [
+    {"t": "Pensar dialécticamente es no tomar posición ante nada.", "r": "a", "e": "Es sostener dos perspectivas y, aun así, decidir y actuar. No es neutralidad ni indecisión."},
+    {"t": "Peng y Nisbett (1999) informaron que participantes chinos buscaban más el camino del medio ante una contradicción que los estadounidenses.", "r": "b", "e": "Es lo que describe ese trabajo, aunque son tendencias de grupo y estudios posteriores cuestionaron algunos de sus resultados."},
+    {"t": "Todas las personas de culturas orientales piensan de forma dialéctica.", "r": "a", "e": "Se trata de tendencias promedio entre grupos, con enorme variación entre personas. No sirve para predecir cómo piensa alguien."},
+    {"t": "La dialéctica central de la DBT es el equilibrio entre aceptación y cambio.", "r": "b", "e": "Es lo que sostiene Linehan desde su libro de 1993: aceptarse tal cual y trabajar para cambiar, a la vez."},
+    {"t": "Aceptar algo quiere decir que te resignás y que no vas a cambiarlo.", "r": "a", "e": "Aceptar es reconocer lo que hay. En la DBT va de la mano de cambiar lo que sí se puede cambiar."},
+    {"t": "Sostener dos ideas opuestas justifica quedarse en un vínculo que daña.", "r": "a", "e": "Podés entender a la otra persona y, a la vez, protegerte. Entender no obliga a quedarse."}
   ]);
 
 })();

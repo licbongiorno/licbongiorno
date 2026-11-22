@@ -1,0 +1,138 @@
+<!--{
+  "ruta": "/laboratorio-de-zhuangzi/",
+  "titulo": "Laboratorio de Zhuangzi: cambiar de perspectiva",
+  "descripcion": "Ejercicios inspirados en Zhuangzi: mirar una situación difícil desde tres lugares, la utilidad de lo inútil, no dar por sabido lo que siente el otro.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Zhuangzi",
+      "/laboratorio-de-zhuangzi/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>Zhuangzi</em>",
+  "bajada": "Zhuangzi es un texto taoísta chino lleno de relatos que invitan a mirar las cosas desde otro lugar. Inspira, pero no es una terapia. Ejercicios para ensayar el cambio de perspectiva, con paráfrasis claramente indicadas.",
+  "respuesta": "El laboratorio de Zhuangzi propone ejercicios inspirados en este texto taoísta chino: escribir una situación difícil desde tres miradas distintas a partir del sueño de la mariposa, un quiz sobre lo que parece inútil y sin embargo sostiene, un ejercicio para no dar por sabido lo que siente el otro a partir del relato de la alegría de los peces y un plan de 7 días. Los relatos se presentan en paráfrasis propia, basada en la traducción de James Legge (1891). No es una psicoterapia.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-4.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de Zhuangzi",
+  "articulos": [
+    "zhuangzi",
+    "taoismo-y-psicologia"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El <strong>Zhuangzi</strong> es un libro de la tradición taoísta china, atribuido en parte a Zhuang Zhou (Zhuangzi), que la tradición ubica hacia el siglo IV a. C. Está hecho de relatos breves, diálogos y paradojas que desafían las certezas del lector. Tres de esos relatos sirven de punto de partida a este laboratorio: el sueño de la mariposa, los árboles que no sirven para nada y la discusión sobre la alegría de los peces. James Legge los tradujo al inglés en <em>The Texts of Taoism</em> (1891), una traducción de dominio público. Acá aparecen en <strong>paráfrasis propia</strong>, no como cita textual.</p>
+        <p>Conviene ser claros con lo que es y con lo que no. El Zhuangzi es una obra filosófica y literaria, no una psicoterapia, y no tiene ensayos clínicos propios. Lo tomamos como una invitación a ensayar algo concreto: cambiar de perspectiva sin dejar de hacerse cargo de lo que te pasa. Mirar desde otro lugar no vuelve irreal lo que duele.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin idealizar.</strong> Cambiar de mirada no borra lo que duele.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con humor.</strong> El texto original juega. Podés jugar vos también.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mariposa">El sueño de la mariposa</a>
+      <a href="#quiz">La utilidad de lo inútil</a>
+      <a href="#peces">La alegría de los peces</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="mariposa" aria-labelledby="t-mariposa">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mariposa">El sueño de la mariposa: tres miradas</h2>
+      <p class="lab-estacion__bajada">Paráfrasis de un relato del capítulo II (Legge, 1891): Zhuangzi soñó que era una mariposa, feliz y libre, sin saber que era Zhuangzi. Al despertar, ya no supo si era un hombre que había soñado ser mariposa o una mariposa que soñaba ser un hombre. El relato no ofrece respuesta; deja la pregunta abierta. Usalo como ejercicio: elegí una situación difícil, pero no la más grave de tu vida, y escribila tres veces.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-sueno-de-la-mariposa" data-lab-form-titulo="Mi situación desde tres miradas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-mariposa-1">La situación, en una frase</label><input class="lab-campo" id="zz-mariposa-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-mariposa-2">Primera mirada, la mía: ¿qué veo, qué siento, qué temo?</label><textarea class="lab-texto" id="zz-mariposa-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-mariposa-3">Segunda mirada, la de otra persona implicada: ¿cómo lo vive, qué necesita, qué teme?</label><textarea class="lab-texto" id="zz-mariposa-3" rows="2" placeholder="Sin adivinar sus intenciones: solo lo que podría estar viviendo"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-mariposa-4">Tercera mirada, la de alguien que me mira desde lejos o dentro de diez años: ¿qué ve?</label><textarea class="lab-texto" id="zz-mariposa-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-mariposa-5">¿Qué cambió en mi forma de ver la situación al escribirla tres veces?</label><textarea class="lab-texto" id="zz-mariposa-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-mariposa-6">Una cosa que haría distinta después de este ejercicio</label><input class="lab-campo" id="zz-mariposa-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quiz">La utilidad de lo inútil</h2>
+      <p class="lab-estacion__bajada">En el capítulo I, Hui Shi le cuenta a Zhuangzi de un árbol enorme y retorcido que ningún carpintero quiere, porque su madera no sirve. Zhuangzi responde, en paráfrasis, que justamente por eso nadie lo corta, y que se puede descansar bajo su sombra. Algo parecido pasa con muchas cosas que hoy parecen improductivas. ¿Cuáles sostienen algo y cuáles sobran de verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="zhuangzi-inutil">
+        <p class="lab-tarjeta__titulo">¿Sostiene algo o sobra?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="peces" aria-labelledby="t-peces">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-peces">La alegría de los peces: no dar por sabido</h2>
+      <p class="lab-estacion__bajada">Paráfrasis de un relato del capítulo XVII (Legge, 1891): Zhuangzi y Hui Shi pasean por un puente sobre un río. Zhuangzi dice que los peces nadan contentos. Hui Shi le objeta que, como no es un pez, no puede saber si lo están. Zhuangzi le contesta que Hui Shi tampoco es Zhuangzi y no sabe lo que él sabe. Los estudiosos discuten qué quiere decir; lo tomamos como un recordatorio de lo difícil que es saber lo que siente otro. Elegí a alguien con quien tenés un malentendido o una distancia.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-alegria-de-los-peces" data-lab-form-titulo="Lo que no doy por sabido" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-peces-1">La persona en la que pienso</label><input class="lab-campo" id="zz-peces-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-peces-2">Lo que doy por sabido sobre lo que siente o quiere</label><textarea class="lab-texto" id="zz-peces-2" rows="2" placeholder="Por ejemplo: «seguro que le da lo mismo», «lo hace para molestarme»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-peces-3">¿Qué evidencia concreta tengo? ¿Qué es interpretación mía?</label><textarea class="lab-texto" id="zz-peces-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-peces-4">Tres explicaciones alternativas de lo que pasa, incluida una que me resulte incómoda</label><textarea class="lab-texto" id="zz-peces-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-peces-5">Una pregunta honesta que podría hacerle, sin acusar</label><textarea class="lab-texto" id="zz-peces-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zz-peces-6">Cuándo y cómo la haría</label><input class="lab-campo" id="zz-peces-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="zhuangzi">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Una duda saludable.</strong> Elegí una certeza que tenés sobre alguien y preguntate qué evidencia concreta tenés.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Tres miradas.</strong> Hacé el ejercicio del sueño de la mariposa con una situación que te preocupe.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Un paseo sin destino.</strong> Caminá diez o quince minutos sin objetivo ni medición. Dejá que el camino lo decida.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Algo inútil.</strong> Hacé algo que no sirva para nada productivo, solo porque te gusta.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. La pregunta.</strong> Hacele a alguien una pregunta honesta, en vez de suponer su respuesta.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Otro lugar.</strong> Describí en tu cuaderno un problema actual como si se lo contaras a alguien dentro de diez años.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Anotá qué cambió al mirar distinto y qué sigue pidiendo una acción concreta.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre Zhuangzi y el cambio de perspectiva. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="zhuangzi-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Cambiar de perspectiva no debería usarse para minimizar un daño real ni para aguantar algo que te lastima. Si vivís violencia, maltrato o una situación que te hace sufrir hace semanas, conviene consultarlo: podés <a href="/contacto/">escribirme</a>, y si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Para seguir: el artículo sobre <a href="/recursos/zhuangzi/">Zhuangzi</a>, el de <a href="/recursos/taoismo-y-psicologia/">taoísmo y psicología</a> y el <a href="/laboratorio-taoista/">laboratorio taoísta</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Legge, J. (trad.) (1891). <em>The Texts of Taoism</em> (Sacred Books of the East, vols. 39 y 40). Clarendon Press. Consultable en <em>sacred-texts.com</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

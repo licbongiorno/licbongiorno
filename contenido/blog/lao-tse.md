@@ -44,6 +44,8 @@ Los historiadores dudan de que haya existido como una sola persona. El *Tao Te K
 
 Para ver cómo dialoga el taoísmo con la psicología actual, leé [taoísmo y psicología](/recursos/taoismo-y-psicologia/) o recorré el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/).
 
+El otro gran nombre del taoísmo es [Zhuangzi](/recursos/zhuangzi/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el Tao Te King?
