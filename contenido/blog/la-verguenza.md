@@ -57,4 +57,6 @@ Si la vergüenza es tan intensa que lleva a aislarse por completo, a pensar que 
 - [Compasión y los tres sistemas](/laboratorio-compasion-tres-sistemas/)
 - [Ansiedad social](/recursos/ansiedad-social/)
 
+Para practicar la diferencia entre lo que hiciste y lo que sos, está el [laboratorio de culpa y vergüenza](/laboratorio-de-culpa-y-verguenza/).
+
 Lecturas: Lewis, H. B. (1971), *Shame and Guilt in Neurosis*, International Universities Press. Tangney, J. P. y Dearing, R. L. (2002), *Shame and Guilt*, Guilford.

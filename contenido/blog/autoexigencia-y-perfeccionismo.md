@@ -53,6 +53,8 @@ Podés practicarla en el [laboratorio de autocompasión](/laboratorio-de-autocom
 
 Cuando la exigencia te deja agotado, cuando no podés disfrutar de lo que lográs o cuando el miedo a equivocarte te paraliza. En terapia no se trata de dejar de exigirse, sino de que la exigencia deje de mandar. Muchas veces, detrás de esa voz hay alguien que necesitó ser perfecto para sentirse querido.
 
+Para probar estándares «suficientemente buenos» con pequeños experimentos, pasá por el [laboratorio de perfeccionismo](/laboratorio-de-perfeccionismo/). Y si sentís que tus logros no son mérito tuyo, puede interesarte el artículo sobre el [síndrome del impostor](/recursos/sindrome-del-impostor/).
+
 ## Preguntas frecuentes
 
 ### ¿Ser perfeccionista es malo?

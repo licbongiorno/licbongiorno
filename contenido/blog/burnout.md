@@ -60,6 +60,8 @@ Si el agotamiento viene con desesperanza o pensamientos de hacerte daño, no esp
 
 Si querés una medida orientativa de cómo estás, podés responder el [inventario de burnout de Copenhague](/escala-de-burnout-de-copenhague/), que mide el agotamiento físico y psicológico, y la [escala de estrés percibido PSS-10](/escala-de-estres-percibido/).
 
+Para revisar lo que depende de vos y lo que no, y armar límites y recuperación, está el [laboratorio de burnout](/laboratorio-de-burnout/).
+
 ## Preguntas frecuentes
 
 ### ¿El burnout es una enfermedad?

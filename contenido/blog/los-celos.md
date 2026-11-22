@@ -55,6 +55,8 @@ Podés practicar esas conversaciones en el [laboratorio de vínculos](/laborator
 
 Cuando los celos ocupan mucho lugar en tu cabeza, cuando aparecen la vigilancia o el control, o cuando se repiten en todas tus relaciones. También cuando estás del otro lado: si tu pareja controla con quién hablás, qué hacés o cómo te vestís, eso ya no son solo celos, y merece ayuda. En terapia buscamos entender qué viejo miedo se despierta en el presente.
 
+Para separar hechos de interpretaciones y preparar una conversación difícil, está el [laboratorio de celos](/laboratorio-de-celos/).
+
 ## Preguntas frecuentes
 
 ### ¿Es normal sentir celos?

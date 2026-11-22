@@ -54,4 +54,6 @@ Una lectura prudente, entonces, es que la interocepción es una puerta de entrad
 
 Para ver dónde entra el cuerpo en la psicoterapia, [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) ofrece un recorrido, y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/) permite seguir explorando.
 
+Cómo se relacionan la atención al cuerpo, el miedo y el dolor que persiste lo cuento en [dolor crónico y psicología](/recursos/dolor-cronico-y-psicologia/).
+
 Lecturas: Khalsa, S. S. y colaboradores (2018), «Interoception and Mental Health: A Roadmap», *Biological Psychiatry: Cognitive Neuroscience and Neuroimaging*, 3(6), 501–513. Craig, A. D. (2002), «How do you feel? Interoception: the sense of the physiological condition of the body», *Nature Reviews Neuroscience*, 3, 655–666. Mehling, W. E. y colaboradores (2012), «The Multidimensional Assessment of Interoceptive Awareness (MAIA)», *PLoS ONE*.

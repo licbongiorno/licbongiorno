@@ -56,4 +56,6 @@ Esta nota es información general y no reemplaza una consulta. Cada pareja tiene
 
 ## Para seguir
 
+Si están pensando en consultar juntos, en [terapia de pareja](/recursos/terapia-de-pareja/) cuento cuándo sirve y qué enfoques tienen respaldo.
+
 Lecturas: Gordon, K. C., Baucom, D. H. y Snyder, D. K. (2004), «An integrative intervention for promoting recovery from extramarital affairs», *Journal of Marital and Family Therapy*, 30(2), 213–231.

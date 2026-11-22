@@ -45,6 +45,8 @@ Junto con Aaron Beck, Ellis sentó las bases de la terapia cognitivo-conductual,
 
 En la consulta, distinguir entre lo que pasa y lo que me digo sobre lo que pasa es una herramienta simple y poderosa. Podés practicarla en el [laboratorio de diálogo socrático](/laboratorio-de-dialogo-socratico/) o leer sobre [el diálogo socrático](/recursos/el-dialogo-socratico/).
 
+Para ver cómo es hoy la terapia cognitivo-conductual en conjunto, mirá [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el modelo ABC de Ellis?

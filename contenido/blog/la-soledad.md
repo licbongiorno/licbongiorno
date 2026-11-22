@@ -48,6 +48,8 @@ Puede aparecer después de una mudanza, una separación, una migración, la jubi
 
 La terapia también es un vínculo: un lugar donde alguien te escucha con atención. A veces es el primer paso para volver a encontrarse con otros.
 
+Para mapear tu red y ensayar pequeños gestos de contacto, podés usar el [laboratorio de soledad y conexión](/laboratorio-de-soledad-y-conexion/).
+
 ## Preguntas frecuentes
 
 ### ¿Es malo estar solo?

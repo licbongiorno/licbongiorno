@@ -1,88 +1,302 @@
 [
-  {"termino": "Encuadre", "definicion": [
-    "El conjunto de constantes dentro de las cuales transcurre una psicoterapia: frecuencia y duración de las sesiones, lugar o modalidad, honorarios, roles y reglas del trabajo. Que esas condiciones se mantengan estables es lo que permite que lo variable, lo que la persona trae, se pueda observar.",
-    "José Bleger, en «Psicoanálisis del encuadre psicoanalítico» (1967), distinguió el proceso del encuadre, que funciona como un «no proceso». Señaló que ahí se depositan los aspectos más arcaicos e indiferenciados de la persona, que suelen hacerse visibles cuando el encuadre se altera. Ver [José Bleger](/recursos/jose-bleger/)."]},
-  {"termino": "Alianza terapéutica", "original": "working alliance", "definicion": [
-    "La colaboración entre paciente y terapeuta. Edward Bordin (1979) la describió con tres componentes: el acuerdo sobre los objetivos, el acuerdo sobre las tareas para alcanzarlos y el vínculo afectivo entre ambos.",
-    "La investigación en psicoterapia la muestra, en todos los enfoques, como uno de los predictores más consistentes de un buen resultado. Por eso los desacuerdos o tensiones con el terapeuta conviene hablarlos: repararlos es parte del trabajo."]},
-  {"termino": "Transferencia", "original": "Übertragung", "definicion": [
-    "Freud llamó transferencia a la repetición, dirigida al terapeuta, de sentimientos, expectativas y modos de vincularse que se formaron con figuras importantes de la propia historia. La describió en «Estudios sobre la histeria» (1895) y la desarrolló en «Sobre la dinámica de la transferencia» (1912).",
-    "Lo que al principio vio como un obstáculo pasó a ser una herramienta: en la relación con el terapeuta aparece en vivo lo que en otros vínculos se repite sin que la persona lo note."]},
-  {"termino": "Contratransferencia", "definicion": [
-    "Las reacciones emocionales del terapeuta frente al paciente. Freud la mencionó en 1910 como algo que el analista debía dominar. Paula Heimann (1950) y, en la Argentina, Heinrich Racker (*Estudios sobre técnica psicoanalítica*, 1960) mostraron que también es un instrumento para comprender lo que el paciente comunica sin palabras.",
-    "Para usarla así, el terapeuta necesita distinguir lo que le despierta el paciente de lo que proviene de su propia historia. De ahí la importancia del análisis personal y la supervisión."]},
-  {"termino": "Asociación libre", "definicion": [
-    "La «regla fundamental» del psicoanálisis: decir lo que viene a la mente sin seleccionarlo ni ordenarlo, aunque parezca irrelevante, absurdo o incómodo. Freud la adoptó en lugar de la hipnosis, porque los recuerdos y conexiones importantes suelen aparecer en lo que uno tiende a descartar."]},
-  {"termino": "Atención flotante", "definicion": [
-    "La contrapartida de la asociación libre del lado del terapeuta. En «Consejos al médico sobre el tratamiento psicoanalítico» (1912), Freud recomendó una atención «parejamente flotante»: escuchar sin privilegiar de antemano ningún elemento del relato, para que puedan aparecer las conexiones inesperadas."]},
-  {"termino": "Resistencia", "definicion": [
-    "Todo lo que, dentro del tratamiento, se opone al acceso a lo que duele o se teme: olvidos, silencios, cambios de tema, llegadas tarde, la sensación de que «no hay nada para decir». No es mala voluntad: es una forma de protección.",
-    "Desde el psicoanálisis, analizar las resistencias es parte central del trabajo. Otros enfoques hablan de ambivalencia ante el cambio y la abordan de distintas maneras, como la entrevista motivacional."]},
-  {"termino": "Mecanismos de defensa", "definicion": [
-    "Operaciones, en su mayoría inconscientes, con las que el yo se protege de la angustia: represión, negación, proyección, racionalización, desplazamiento y sublimación, entre otras. Freud las describió y Anna Freud las sistematizó en *El yo y los mecanismos de defensa* (1936).",
-    "No son patológicas en sí mismas: todas las personas las usan. El problema aparece cuando son rígidas o tienen un costo alto. Ver [mecanismos de defensa](/recursos/mecanismos-de-defensa/) y el [test de mecanismos de defensa](/test-de-mecanismos-de-defensa/)."]},
-  {"termino": "Insight", "definicion": [
-    "La comprensión que alguien alcanza sobre sí mismo cuando conecta algo que le pasa con sus causas o su sentido. En psicoterapia importa el insight que se siente y transforma, no la explicación puramente intelectual."]},
-  {"termino": "Compulsión a la repetición", "original": "Wiederholungszwang", "definicion": [
-    "La tendencia a repetir situaciones dolorosas, muchas veces sin advertirlo: elegir vínculos parecidos, terminar en el mismo lugar. Freud la planteó en «Recordar, repetir y reelaborar» (1914) y la retomó en *Más allá del principio de placer* (1920).",
-    "En el texto de 1914 señaló que lo que no se puede recordar se repite en actos, también dentro del tratamiento, y que el trabajo terapéutico consiste en ir de la repetición al recuerdo y a la reelaboración."]},
-  {"termino": "Relaciones de objeto", "definicion": [
-    "En psicoanálisis, «objeto» es la persona, o la representación interna de una persona, hacia la que se dirigen el deseo y el afecto. Las teorías de las relaciones de objeto, con Melanie Klein, Ronald Fairbairn y Donald Winnicott, entre otros, sostienen que la mente se arma a partir de los vínculos tempranos, que quedan como modelos internos de relación.",
-    "Fairbairn lo resumió diciendo que la libido no busca placer sino objetos. Ver [Ronald Fairbairn](/recursos/ronald-fairbairn/) y [Melanie Klein](/recursos/melanie-klein/)."]},
-  {"termino": "Sostén", "original": "holding", "definicion": [
-    "Para Donald Winnicott, el sostén es el conjunto de cuidados con que un ambiente suficientemente bueno acompaña al bebé: lo sostiene en sentido físico y emocional, se adapta a sus necesidades y lo protege de lo que todavía no puede tolerar.",
-    "Por analogía, se habla de la función de sostén del encuadre y del terapeuta: un marco confiable donde se pueda sentir y pensar lo que de otra manera desborda. Ver [Donald Winnicott](/recursos/donald-winnicott/)."]},
-  {"termino": "Objeto transicional", "definicion": [
-    "El primer objeto que el niño siente como propio y que no es ni del todo él ni del todo el mundo externo: la mantita, el peluche. Winnicott lo describió en «Objetos transicionales y fenómenos transicionales» (1953).",
-    "Ayuda a tolerar la separación y abre un espacio intermedio que, más adelante, ocupan el juego, la creatividad y la cultura."]},
-  {"termino": "Apego", "definicion": [
-    "El vínculo de protección que el bebé establece con quienes lo cuidan y que se activa ante el miedo o la amenaza. John Bowlby lo desarrolló en su trilogía *Apego y pérdida* (1969–1980), y Mary Ainsworth estudió sus variaciones con el procedimiento de la situación extraña.",
-    "Las experiencias de apego dejan modelos internos sobre cuánto se puede confiar en los otros y en uno mismo, que influyen en los vínculos adultos sin ser un destino. Ver [el apego](/recursos/el-apego/) y el [test de estilos de apego](/test-de-estilos-de-apego/)."]},
-  {"termino": "Mentalización", "definicion": [
-    "La capacidad de entender la conducta propia y ajena en términos de estados mentales: deseos, emociones, creencias, intenciones. Peter Fonagy y Anthony Bateman la pusieron en el centro de la terapia basada en la mentalización, pensada inicialmente para el trastorno límite de la personalidad.",
-    "Mentalizar tiende a fallar cuando la emoción es muy intensa, y se recupera con curiosidad, no con certezas. Ver el [laboratorio de mentalización](/laboratorio-de-mentalizacion/)."]},
-  {"termino": "Regulación emocional", "definicion": [
-    "Los procesos con los que una persona influye sobre qué emociones tiene, cuándo y cómo las vive y las expresa. James Gross (1998) la describió como un proceso con distintos momentos: elegir o modificar la situación, orientar la atención, cambiar la interpretación y modular la respuesta.",
-    "No se trata de no sentir, sino de poder atravesar la emoción sin quedar a merced de ella. Es un eje de la terapia dialéctico-conductual de Marsha Linehan. Ver el [laboratorio de regulación](/laboratorio-de-regulacion/) y el de [regulación emocional en DBT](/laboratorio-dbt-regulacion-emocional/)."]},
-  {"termino": "Ventana de tolerancia", "definicion": [
-    "Expresión propuesta por Daniel Siegel (1999) para el rango de activación dentro del cual una persona puede sentir, pensar y responder con flexibilidad. Por encima aparece la hiperactivación (ansiedad, pánico, enojo desbordado), y por debajo, la hipoactivación (embotamiento, desconexión).",
-    "Muy usada en el trabajo con trauma. Ver [la ventana de tolerancia](/recursos/la-ventana-de-tolerancia/)."]},
-  {"termino": "Disociación", "definicion": [
-    "Una interrupción en la integración habitual de la conciencia, la memoria, la identidad, la percepción o la vivencia del cuerpo: sentir que uno está fuera de sí, que el entorno es irreal, o tener huecos de memoria. Pierre Janet la estudió a fines del siglo XIX.",
-    "En formas leves es frecuente, por ejemplo al «desconectarse» manejando. Intensa o persistente, suele estar ligada a experiencias traumáticas y conviene consultarla."]},
-  {"termino": "Somatización", "definicion": [
-    "La expresión de un malestar psíquico a través de síntomas corporales: dolores, problemas digestivos, cansancio, tensión. Que un síntoma tenga un componente emocional no quiere decir que sea imaginario: el dolor es real, y siempre conviene descartar primero una causa médica."]},
-  {"termino": "Interocepción", "definicion": [
-    "La percepción de las señales internas del cuerpo: latidos, respiración, hambre, temperatura, tensión. Es la base para reconocer las emociones y se entrena en muchas terapias corporales y en la atención plena. Ver [interocepción](/recursos/interocepcion/)."]},
-  {"termino": "Psicoeducación", "definicion": [
-    "La información clara que el terapeuta da sobre lo que le pasa a la persona: cómo funciona la ansiedad, qué es un ataque de pánico, qué se sabe de un tratamiento. Entender el problema reduce el miedo y permite participar activamente en el proceso. Es parte de casi todos los tratamientos con evidencia."]},
-  {"termino": "Pensamientos automáticos", "definicion": [
-    "En la terapia cognitiva de Aaron Beck, los pensamientos breves y rápidos que aparecen solos ante una situación y que se toman por ciertos sin examinarlos («voy a quedar en ridículo», «no sirvo»). Influyen directamente en lo que sentimos y hacemos.",
-    "Detrás de ellos, Beck ubicó creencias más profundas sobre uno mismo, el mundo y el futuro. Ver [Aaron T. Beck](/recursos/aaron-t-beck/)."]},
-  {"termino": "Distorsiones cognitivas", "definicion": [
-    "Errores sistemáticos en la forma de interpretar lo que pasa, descriptos por Beck y difundidos por David Burns: pensar en términos de todo o nada, catastrofizar, leer la mente de los demás, generalizar a partir de un solo hecho, descartar lo positivo. Reconocerlas es el primer paso para cuestionarlas."]},
-  {"termino": "Reestructuración cognitiva", "definicion": [
-    "La técnica central de la terapia cognitiva: identificar un pensamiento automático, examinar la evidencia a favor y en contra y construir una interpretación más ajustada a la realidad. No busca pensar «en positivo», sino pensar con más precisión."]},
-  {"termino": "Exposición", "definicion": [
-    "Acercarse de manera gradual, planificada y sostenida a lo que se teme y se evita, hasta que el miedo deja de gobernar la conducta. Es el componente con más respaldo en el tratamiento de las fobias, el pánico y otros trastornos de ansiedad, y en el trastorno obsesivo-compulsivo se combina con la prevención de respuesta.",
-    "Suele organizarse con una jerarquía, de lo más fácil a lo más difícil. Ver [fobias](/recursos/fobias/) y el [laboratorio de miedos y fobias](/laboratorio-de-miedos-y-fobias/)."]},
-  {"termino": "Activación conductual", "definicion": [
-    "Un tratamiento para la depresión que parte de la conducta y no del pensamiento: registrar lo que uno hace y cómo se siente, y planificar actividades que den placer, logro o sentido, aunque todavía no haya ganas. Tiene raíces en los trabajos de Peter Lewinsohn y fue desarrollado como tratamiento propio por Neil Jacobson y colaboradores. Ver [activación conductual](/recursos/activacion-conductual/)."]},
-  {"termino": "Evitación experiencial", "definicion": [
-    "En la terapia de aceptación y compromiso (ACT), los intentos de evitar o controlar pensamientos, emociones, recuerdos o sensaciones incómodas aun cuando eso tiene un costo en la propia vida. A corto plazo alivia; a largo plazo suele agrandar el problema y achicar la vida."]},
-  {"termino": "Defusión cognitiva", "definicion": [
-    "Uno de los procesos de la ACT: tomar distancia de los pensamientos para verlos como lo que son, productos de la mente, y no como verdades u órdenes. El pensamiento no cambia, pero cambia la relación con él. Ver la [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/)."]},
-  {"termino": "Flexibilidad psicológica", "definicion": [
-    "El objetivo de la ACT según Steven C. Hayes: la capacidad de estar en contacto con el presente, con lo que uno siente y piensa, y de actuar de acuerdo con los propios valores aun en presencia de malestar. Se compone de seis procesos: aceptación, defusión, contacto con el presente, yo como contexto, valores y acción comprometida. Ver [Steven C. Hayes](/recursos/steven-c-hayes/) y el [laboratorio de ACT](/laboratorio-act/)."]},
-  {"termino": "Atención plena", "original": "mindfulness", "definicion": [
-    "Jon Kabat-Zinn la definió como prestar atención de una manera particular: a propósito, en el momento presente y sin juzgar. De origen budista, se incorporó a la clínica con el programa de reducción del estrés basado en mindfulness (MBSR) y la terapia cognitiva basada en mindfulness (MBCT). Ver [mindfulness](/recursos/mindfulness-atencion-plena/)."]},
-  {"termino": "Validación", "definicion": [
-    "En la terapia dialéctico-conductual de Marsha Linehan, comunicarle a alguien que su emoción o su conducta tienen sentido en su contexto. Validar no es estar de acuerdo ni aprobar todo: es reconocer lo comprensible de una experiencia antes de buscar un cambio. Ver [Marsha Linehan](/recursos/marsha-linehan/)."]},
-  {"termino": "Esquemas desadaptativos tempranos", "definicion": [
-    "En la terapia de esquemas de Jeffrey Young, patrones amplios de recuerdos, emociones, creencias y sensaciones que se forman en la infancia cuando necesidades básicas (seguridad, afecto, autonomía, límites) no fueron satisfechas, y que se repiten en la vida adulta. Young describió dieciocho, como el abandono, la desconfianza o la autoexigencia implacable. Ver el [laboratorio de esquemas](/laboratorio-de-esquemas/)."]},
-  {"termino": "Factores comunes", "definicion": [
-    "Los elementos compartidos por psicoterapias distintas que explicarían buena parte de su eficacia: la alianza terapéutica, la empatía, las expectativas, un marco que da sentido al malestar. Saul Rosenzweig lo planteó en 1936 con la imagen del pájaro Dodo de *Alicia en el país de las maravillas* («todos ganaron y todos deben tener premio»), y Jerome Frank lo desarrolló en *Persuasión y curación* (1961).",
-    "Es una de las bases de la [psicoterapia integrativa](/recursos/que-es-la-psicoterapia-integrativa/)."]},
-  {"termino": "Comorbilidad", "definicion": [
-    "La presencia de dos o más trastornos en la misma persona, como ansiedad y depresión, o depresión y consumo de alcohol. Es muy frecuente y cambia el tratamiento: conviene mirar el cuadro completo y no cada problema por separado."]}
+  {
+    "termino": "Encuadre",
+    "definicion": [
+      "El conjunto de constantes dentro de las cuales transcurre una psicoterapia: frecuencia y duración de las sesiones, lugar o modalidad, honorarios, roles y reglas del trabajo. Que esas condiciones se mantengan estables es lo que permite que lo variable, lo que la persona trae, se pueda observar.",
+      "José Bleger, en «Psicoanálisis del encuadre psicoanalítico» (1967), distinguió el proceso del encuadre, que funciona como un «no proceso». Señaló que ahí se depositan los aspectos más arcaicos e indiferenciados de la persona, que suelen hacerse visibles cuando el encuadre se altera. Ver [José Bleger](/recursos/jose-bleger/)."
+    ]
+  },
+  {
+    "termino": "Alianza terapéutica",
+    "original": "working alliance",
+    "definicion": [
+      "La colaboración entre paciente y terapeuta. Edward Bordin (1979) la describió con tres componentes: el acuerdo sobre los objetivos, el acuerdo sobre las tareas para alcanzarlos y el vínculo afectivo entre ambos.",
+      "La investigación en psicoterapia la muestra, en todos los enfoques, como uno de los predictores más consistentes de un buen resultado. Por eso los desacuerdos o tensiones con el terapeuta conviene hablarlos: repararlos es parte del trabajo."
+    ]
+  },
+  {
+    "termino": "Transferencia",
+    "original": "Übertragung",
+    "definicion": [
+      "Freud llamó transferencia a la repetición, dirigida al terapeuta, de sentimientos, expectativas y modos de vincularse que se formaron con figuras importantes de la propia historia. La describió en «Estudios sobre la histeria» (1895) y la desarrolló en «Sobre la dinámica de la transferencia» (1912).",
+      "Lo que al principio vio como un obstáculo pasó a ser una herramienta: en la relación con el terapeuta aparece en vivo lo que en otros vínculos se repite sin que la persona lo note."
+    ]
+  },
+  {
+    "termino": "Contratransferencia",
+    "definicion": [
+      "Las reacciones emocionales del terapeuta frente al paciente. Freud la mencionó en 1910 como algo que el analista debía dominar. Paula Heimann (1950) y, en la Argentina, Heinrich Racker (*Estudios sobre técnica psicoanalítica*, 1960) mostraron que también es un instrumento para comprender lo que el paciente comunica sin palabras.",
+      "Para usarla así, el terapeuta necesita distinguir lo que le despierta el paciente de lo que proviene de su propia historia. De ahí la importancia del análisis personal y la supervisión."
+    ]
+  },
+  {
+    "termino": "Asociación libre",
+    "definicion": [
+      "La «regla fundamental» del psicoanálisis: decir lo que viene a la mente sin seleccionarlo ni ordenarlo, aunque parezca irrelevante, absurdo o incómodo. Freud la adoptó en lugar de la hipnosis, porque los recuerdos y conexiones importantes suelen aparecer en lo que uno tiende a descartar."
+    ]
+  },
+  {
+    "termino": "Atención flotante",
+    "definicion": [
+      "La contrapartida de la asociación libre del lado del terapeuta. En «Consejos al médico sobre el tratamiento psicoanalítico» (1912), Freud recomendó una atención «parejamente flotante»: escuchar sin privilegiar de antemano ningún elemento del relato, para que puedan aparecer las conexiones inesperadas."
+    ]
+  },
+  {
+    "termino": "Resistencia",
+    "definicion": [
+      "Todo lo que, dentro del tratamiento, se opone al acceso a lo que duele o se teme: olvidos, silencios, cambios de tema, llegadas tarde, la sensación de que «no hay nada para decir». No es mala voluntad: es una forma de protección.",
+      "Desde el psicoanálisis, analizar las resistencias es parte central del trabajo. Otros enfoques hablan de ambivalencia ante el cambio y la abordan de distintas maneras, como la entrevista motivacional."
+    ]
+  },
+  {
+    "termino": "Mecanismos de defensa",
+    "definicion": [
+      "Operaciones, en su mayoría inconscientes, con las que el yo se protege de la angustia: represión, negación, proyección, racionalización, desplazamiento y sublimación, entre otras. Freud las describió y Anna Freud las sistematizó en *El yo y los mecanismos de defensa* (1936).",
+      "No son patológicas en sí mismas: todas las personas las usan. El problema aparece cuando son rígidas o tienen un costo alto. Ver [mecanismos de defensa](/recursos/mecanismos-de-defensa/) y el [test de mecanismos de defensa](/test-de-mecanismos-de-defensa/)."
+    ]
+  },
+  {
+    "termino": "Insight",
+    "definicion": [
+      "La comprensión que alguien alcanza sobre sí mismo cuando conecta algo que le pasa con sus causas o su sentido. En psicoterapia importa el insight que se siente y transforma, no la explicación puramente intelectual."
+    ]
+  },
+  {
+    "termino": "Compulsión a la repetición",
+    "original": "Wiederholungszwang",
+    "definicion": [
+      "La tendencia a repetir situaciones dolorosas, muchas veces sin advertirlo: elegir vínculos parecidos, terminar en el mismo lugar. Freud la planteó en «Recordar, repetir y reelaborar» (1914) y la retomó en *Más allá del principio de placer* (1920).",
+      "En el texto de 1914 señaló que lo que no se puede recordar se repite en actos, también dentro del tratamiento, y que el trabajo terapéutico consiste en ir de la repetición al recuerdo y a la reelaboración."
+    ]
+  },
+  {
+    "termino": "Relaciones de objeto",
+    "definicion": [
+      "En psicoanálisis, «objeto» es la persona, o la representación interna de una persona, hacia la que se dirigen el deseo y el afecto. Las teorías de las relaciones de objeto, con Melanie Klein, Ronald Fairbairn y Donald Winnicott, entre otros, sostienen que la mente se arma a partir de los vínculos tempranos, que quedan como modelos internos de relación.",
+      "Fairbairn lo resumió diciendo que la libido no busca placer sino objetos. Ver [Ronald Fairbairn](/recursos/ronald-fairbairn/) y [Melanie Klein](/recursos/melanie-klein/)."
+    ]
+  },
+  {
+    "termino": "Sostén",
+    "original": "holding",
+    "definicion": [
+      "Para Donald Winnicott, el sostén es el conjunto de cuidados con que un ambiente suficientemente bueno acompaña al bebé: lo sostiene en sentido físico y emocional, se adapta a sus necesidades y lo protege de lo que todavía no puede tolerar.",
+      "Por analogía, se habla de la función de sostén del encuadre y del terapeuta: un marco confiable donde se pueda sentir y pensar lo que de otra manera desborda. Ver [Donald Winnicott](/recursos/donald-winnicott/)."
+    ]
+  },
+  {
+    "termino": "Objeto transicional",
+    "definicion": [
+      "El primer objeto que el niño siente como propio y que no es ni del todo él ni del todo el mundo externo: la mantita, el peluche. Winnicott lo describió en «Objetos transicionales y fenómenos transicionales» (1953).",
+      "Ayuda a tolerar la separación y abre un espacio intermedio que, más adelante, ocupan el juego, la creatividad y la cultura."
+    ]
+  },
+  {
+    "termino": "Apego",
+    "definicion": [
+      "El vínculo de protección que el bebé establece con quienes lo cuidan y que se activa ante el miedo o la amenaza. John Bowlby lo desarrolló en su trilogía *Apego y pérdida* (1969–1980), y Mary Ainsworth estudió sus variaciones con el procedimiento de la situación extraña.",
+      "Las experiencias de apego dejan modelos internos sobre cuánto se puede confiar en los otros y en uno mismo, que influyen en los vínculos adultos sin ser un destino. Ver [el apego](/recursos/el-apego/) y el [test de estilos de apego](/test-de-estilos-de-apego/)."
+    ]
+  },
+  {
+    "termino": "Estilos de apego adulto",
+    "definicion": [
+      "Las formas características en que una persona adulta busca cercanía, reacciona a la distancia y regula la ansiedad en sus vínculos más importantes. Cindy Hazan y Phillip Shaver (1987) llevaron la teoría del apego de John Bowlby a las relaciones de pareja.",
+      "Kim Bartholomew y Leonard Horowitz (1991) propusieron cuatro estilos, según cómo se ve una persona a sí misma y a los demás: seguro, preocupado (lo que suele llamarse apego ansioso), temeroso y rechazante (una forma del apego evitativo). No son etiquetas fijas: pueden cambiar con vínculos y experiencias nuevas, también en una terapia."
+    ]
+  },
+  {
+    "termino": "Mentalización",
+    "definicion": [
+      "La capacidad de entender la conducta propia y ajena en términos de estados mentales: deseos, emociones, creencias, intenciones. Peter Fonagy y Anthony Bateman la pusieron en el centro de la terapia basada en la mentalización, pensada inicialmente para el trastorno límite de la personalidad.",
+      "Mentalizar tiende a fallar cuando la emoción es muy intensa, y se recupera con curiosidad, no con certezas. Ver el [laboratorio de mentalización](/laboratorio-de-mentalizacion/)."
+    ]
+  },
+  {
+    "termino": "Modos prementalizadores",
+    "definicion": [
+      "Formas de funcionar que aparecen cuando la capacidad de mentalizar se pierde, sobre todo bajo estrés o en vínculos muy cargados. Peter Fonagy y sus colaboradores describieron tres: la equivalencia psíquica, en la que lo que pienso o siento se vive como la realidad misma; el modo teleológico, en el que solo cuenta lo que se puede ver y hacer; y el modo simulado, en el que se habla de estados mentales sin conexión con la emoción.",
+      "Reconocerlos ayuda a entender por qué, en ciertos momentos, una conversación se vuelve imposible, y es una de las bases de la terapia basada en la mentalización."
+    ]
+  },
+  {
+    "termino": "Regulación emocional",
+    "definicion": [
+      "Los procesos con los que una persona influye sobre qué emociones tiene, cuándo y cómo las vive y las expresa. James Gross (1998) la describió como un proceso con distintos momentos: elegir o modificar la situación, orientar la atención, cambiar la interpretación y modular la respuesta.",
+      "No se trata de no sentir, sino de poder atravesar la emoción sin quedar a merced de ella. Es un eje de la terapia dialéctico-conductual de Marsha Linehan. Ver el [laboratorio de regulación](/laboratorio-de-regulacion/) y el de [regulación emocional en DBT](/laboratorio-dbt-regulacion-emocional/)."
+    ]
+  },
+  {
+    "termino": "Ventana de tolerancia",
+    "definicion": [
+      "Expresión propuesta por Daniel Siegel (1999) para el rango de activación dentro del cual una persona puede sentir, pensar y responder con flexibilidad. Por encima aparece la hiperactivación (ansiedad, pánico, enojo desbordado), y por debajo, la hipoactivación (embotamiento, desconexión).",
+      "Muy usada en el trabajo con trauma. Ver [la ventana de tolerancia](/recursos/la-ventana-de-tolerancia/)."
+    ]
+  },
+  {
+    "termino": "Disociación",
+    "definicion": [
+      "Una interrupción en la integración habitual de la conciencia, la memoria, la identidad, la percepción o la vivencia del cuerpo: sentir que uno está fuera de sí, que el entorno es irreal, o tener huecos de memoria. Pierre Janet la estudió a fines del siglo XIX.",
+      "En formas leves es frecuente, por ejemplo al «desconectarse» manejando. Intensa o persistente, suele estar ligada a experiencias traumáticas y conviene consultarla."
+    ]
+  },
+  {
+    "termino": "Somatización",
+    "definicion": [
+      "La expresión de un malestar psíquico a través de síntomas corporales: dolores, problemas digestivos, cansancio, tensión. Que un síntoma tenga un componente emocional no quiere decir que sea imaginario: el dolor es real, y siempre conviene descartar primero una causa médica."
+    ]
+  },
+  {
+    "termino": "Interocepción",
+    "definicion": [
+      "La percepción de las señales internas del cuerpo: latidos, respiración, hambre, temperatura, tensión. Es la base para reconocer las emociones y se entrena en muchas terapias corporales y en la atención plena. Ver [interocepción](/recursos/interocepcion/)."
+    ]
+  },
+  {
+    "termino": "Psicoeducación",
+    "definicion": [
+      "La información clara que el terapeuta da sobre lo que le pasa a la persona: cómo funciona la ansiedad, qué es un ataque de pánico, qué se sabe de un tratamiento. Entender el problema reduce el miedo y permite participar activamente en el proceso. Es parte de casi todos los tratamientos con evidencia."
+    ]
+  },
+  {
+    "termino": "Pensamientos automáticos",
+    "definicion": [
+      "En la terapia cognitiva de Aaron Beck, los pensamientos breves y rápidos que aparecen solos ante una situación y que se toman por ciertos sin examinarlos («voy a quedar en ridículo», «no sirvo»). Influyen directamente en lo que sentimos y hacemos.",
+      "Detrás de ellos, Beck ubicó creencias más profundas sobre uno mismo, el mundo y el futuro. Ver [Aaron T. Beck](/recursos/aaron-t-beck/)."
+    ]
+  },
+  {
+    "termino": "Distorsiones cognitivas",
+    "definicion": [
+      "Errores sistemáticos en la forma de interpretar lo que pasa, descriptos por Beck y difundidos por David Burns: pensar en términos de todo o nada, catastrofizar, leer la mente de los demás, generalizar a partir de un solo hecho, descartar lo positivo. Reconocerlas es el primer paso para cuestionarlas."
+    ]
+  },
+  {
+    "termino": "Reestructuración cognitiva",
+    "definicion": [
+      "La técnica central de la terapia cognitiva: identificar un pensamiento automático, examinar la evidencia a favor y en contra y construir una interpretación más ajustada a la realidad. No busca pensar «en positivo», sino pensar con más precisión."
+    ]
+  },
+  {
+    "termino": "Exposición",
+    "definicion": [
+      "Acercarse de manera gradual, planificada y sostenida a lo que se teme y se evita, hasta que el miedo deja de gobernar la conducta. Es el componente con más respaldo en el tratamiento de las fobias, el pánico y otros trastornos de ansiedad, y en el trastorno obsesivo-compulsivo se combina con la prevención de respuesta.",
+      "Suele organizarse con una jerarquía, de lo más fácil a lo más difícil. Ver [fobias](/recursos/fobias/) y el [laboratorio de miedos y fobias](/laboratorio-de-miedos-y-fobias/)."
+    ]
+  },
+  {
+    "termino": "Exposición con prevención de respuesta",
+    "original": "exposure and response prevention",
+    "definicion": [
+      "La forma de exposición específica para el trastorno obsesivo-compulsivo: acercarse de manera gradual y voluntaria a lo que dispara la obsesión y, al mismo tiempo, no realizar la compulsión o el ritual que la calmaría. Así la persona puede comprobar que la ansiedad baja sola y que lo temido no ocurre.",
+      "Victor Meyer (1966) describió los primeros casos tratados de este modo, y el equipo de Edna Foa la desarrolló y la puso a prueba en ensayos clínicos. Hoy es el tratamiento psicológico con más respaldo para el TOC."
+    ]
+  },
+  {
+    "termino": "Activación conductual",
+    "definicion": [
+      "Un tratamiento para la depresión que parte de la conducta y no del pensamiento: registrar lo que uno hace y cómo se siente, y planificar actividades que den placer, logro o sentido, aunque todavía no haya ganas. Tiene raíces en los trabajos de Peter Lewinsohn y fue desarrollado como tratamiento propio por Neil Jacobson y colaboradores. Ver [activación conductual](/recursos/activacion-conductual/)."
+    ]
+  },
+  {
+    "termino": "Evitación experiencial",
+    "definicion": [
+      "En la terapia de aceptación y compromiso (ACT), los intentos de evitar o controlar pensamientos, emociones, recuerdos o sensaciones incómodas aun cuando eso tiene un costo en la propia vida. A corto plazo alivia; a largo plazo suele agrandar el problema y achicar la vida."
+    ]
+  },
+  {
+    "termino": "Defusión cognitiva",
+    "definicion": [
+      "Uno de los procesos de la ACT: tomar distancia de los pensamientos para verlos como lo que son, productos de la mente, y no como verdades u órdenes. El pensamiento no cambia, pero cambia la relación con él. Ver la [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/)."
+    ]
+  },
+  {
+    "termino": "Flexibilidad psicológica",
+    "definicion": [
+      "El objetivo de la ACT según Steven C. Hayes: la capacidad de estar en contacto con el presente, con lo que uno siente y piensa, y de actuar de acuerdo con los propios valores aun en presencia de malestar. Se compone de seis procesos: aceptación, defusión, contacto con el presente, yo como contexto, valores y acción comprometida. Ver [Steven C. Hayes](/recursos/steven-c-hayes/) y el [laboratorio de ACT](/laboratorio-act/)."
+    ]
+  },
+  {
+    "termino": "Atención plena",
+    "original": "mindfulness",
+    "definicion": [
+      "Jon Kabat-Zinn la definió como prestar atención de una manera particular: a propósito, en el momento presente y sin juzgar. De origen budista, se incorporó a la clínica con el programa de reducción del estrés basado en mindfulness (MBSR) y la terapia cognitiva basada en mindfulness (MBCT). Ver [mindfulness](/recursos/mindfulness-atencion-plena/)."
+    ]
+  },
+  {
+    "termino": "Validación",
+    "definicion": [
+      "En la terapia dialéctico-conductual de Marsha Linehan, comunicarle a alguien que su emoción o su conducta tienen sentido en su contexto. Validar no es estar de acuerdo ni aprobar todo: es reconocer lo comprensible de una experiencia antes de buscar un cambio. Ver [Marsha Linehan](/recursos/marsha-linehan/)."
+    ]
+  },
+  {
+    "termino": "Esquemas desadaptativos tempranos",
+    "definicion": [
+      "En la terapia de esquemas de Jeffrey Young, patrones amplios de recuerdos, emociones, creencias y sensaciones que se forman en la infancia cuando necesidades básicas (seguridad, afecto, autonomía, límites) no fueron satisfechas, y que se repiten en la vida adulta. Young describió dieciocho, como el abandono, la desconfianza o la autoexigencia implacable. Ver el [laboratorio de esquemas](/laboratorio-de-esquemas/)."
+    ]
+  },
+  {
+    "termino": "Factores comunes",
+    "definicion": [
+      "Los elementos compartidos por psicoterapias distintas que explicarían buena parte de su eficacia: la alianza terapéutica, la empatía, las expectativas, un marco que da sentido al malestar. Saul Rosenzweig lo planteó en 1936 con la imagen del pájaro Dodo de *Alicia en el país de las maravillas* («todos ganaron y todos deben tener premio»), y Jerome Frank lo desarrolló en *Persuasión y curación* (1961).",
+      "Es una de las bases de la [psicoterapia integrativa](/recursos/que-es-la-psicoterapia-integrativa/)."
+    ]
+  },
+  {
+    "termino": "Intolerancia a la incertidumbre",
+    "definicion": [
+      "La tendencia a vivir lo incierto como inaceptable o amenazante, aunque lo más probable es que todo salga bien. Quien la tiene alta necesita certezas para estar tranquilo, y la preocupación aparece como un intento de anticipar y controlar.",
+      "Michel Dugas y sus colaboradores (1998) la propusieron como uno de los núcleos de la preocupación excesiva en el trastorno de ansiedad generalizada. El trabajo terapéutico apunta a tolerar la incertidumbre más que a eliminarla."
+    ]
+  },
+  {
+    "termino": "Duelo desautorizado",
+    "original": "disenfranchised grief",
+    "definicion": [
+      "Un duelo que el entorno no reconoce, no valida o no acompaña, aunque para quien lo vive sea una pérdida importante: la muerte de una mascota, un embarazo que se interrumpió, una ex pareja, un amante o alguien cuya relación no se conocía.",
+      "El concepto es de Kenneth Doka (1989). Cuando la pérdida no tiene lugar social, faltan los rituales y el apoyo, y el dolor tiende a vivirse a escondidas."
+    ]
+  },
+  {
+    "termino": "Fenómeno del impostor",
+    "definicion": [
+      "La sensación persistente de no merecer los propios logros, de haberlos obtenido por suerte o por error, y el miedo a ser «descubierto». Aparece a menudo en personas con buen desempeño y suele ir de la mano del perfeccionismo.",
+      "Lo describieron Pauline Clance y Suzanne Imes (1978). No es un diagnóstico clínico, sino una experiencia que puede generar mucho malestar."
+    ]
+  },
+  {
+    "termino": "Envidia",
+    "definicion": [
+      "El malestar ante lo bueno que tiene otro, unido al deseo de tenerlo o de que el otro no lo tenga. Melanie Klein, en «Envidia y gratitud» (1957), la ubicó en los orígenes de la vida psíquica y la distinguió de los celos, que involucran a tres personas.",
+      "La investigación actual distingue una envidia benigna, que empuja a mejorar, de una envidia maligna, que busca rebajar al otro (van de Ven, Zeelenberg y Pieters, 2009)."
+    ]
+  },
+  {
+    "termino": "Modelo biopsicosocial",
+    "definicion": [
+      "La idea de que la salud y la enfermedad resultan de la interacción entre factores biológicos, psicológicos y sociales, y no de uno solo. Lo propuso el psiquiatra George Engel en un artículo de 1977 en la revista Science.",
+      "Hoy es el marco de referencia para entender cuadros como el dolor crónico, en los que el cuerpo, las emociones, las creencias y el contexto se influyen entre sí."
+    ]
+  },
+  {
+    "termino": "Teoría de la compuerta",
+    "original": "gate control theory",
+    "definicion": [
+      "La propuesta de Ronald Melzack y Patrick Wall (1965) de que las señales de dolor no llegan al cerebro de manera directa: en la médula espinal habría un mecanismo que las deja pasar más o menos, y en él influyen también la atención, las emociones y las expectativas.",
+      "El circuito exacto que propusieron se considera hoy simplificado, pero la idea central se mantuvo: el dolor se modula, y por eso lo psicológico puede aumentarlo o aliviarlo."
+    ]
+  },
+  {
+    "termino": "Modelo de miedo-evitación",
+    "definicion": [
+      "Una explicación de por qué algunos dolores se vuelven crónicos: el miedo a que moverse cause daño lleva a evitar la actividad, y la evitación produce desacondicionamiento, más limitación y más atención al dolor, lo que a su vez alimenta el miedo.",
+      "Lo sistematizaron Johan Vlaeyen y Steven Linton (2000). Sostiene parte de los tratamientos psicológicos del dolor crónico, que apuntan a retomar gradualmente la actividad."
+    ]
+  },
+  {
+    "termino": "Comorbilidad",
+    "definicion": [
+      "La presencia de dos o más trastornos en la misma persona, como ansiedad y depresión, o depresión y consumo de alcohol. Es muy frecuente y cambia el tratamiento: conviene mirar el cuadro completo y no cada problema por separado."
+    ]
+  }
 ]

@@ -50,6 +50,8 @@ Romper un patrón lleva tiempo. Pero cada vez que lo reconocés, se abre la posi
 
 Para armar tu mapa de vínculos y reflexionar sobre tu forma de vincularte, te espera el [laboratorio de vínculos y límites](/laboratorio-de-vinculos/).
 
+Una de las repeticiones más frecuentes es la trampa entre un estilo ansioso y uno evitativo: la explico en [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/).
+
 ## Preguntas frecuentes
 
 ### ¿Por qué elijo siempre el mismo tipo de pareja?

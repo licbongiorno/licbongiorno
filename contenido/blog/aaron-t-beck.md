@@ -45,6 +45,8 @@ La terapia cognitivo-conductual es hoy uno de los enfoques con más evidencia de
 
 En la consulta, revisar los pensamientos automáticos me parece una herramienta muy valiosa, que integro con una mirada más amplia de la historia y los vínculos. Podés practicarla en el [laboratorio de diálogo socrático](/laboratorio-de-dialogo-socratico/) o en el [laboratorio de ánimo](/laboratorio-de-animo/).
 
+Para ver cómo es hoy la terapia que nació de su trabajo, mirá [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la terapia cognitiva de Beck?

@@ -41,6 +41,8 @@ Es esperable sentirse sensible o abrumado en las primeras semanas. Pero si la tr
 
 Para las madres, la [escala de Edimburgo](/escala-de-depresion-perinatal-edimburgo/) es la herramienta más usada para detectar a tiempo una depresión en el embarazo o después del parto.
 
+Y cuando los hijos crecen y se van, empieza otra etapa: la del [nido vacío](/recursos/nido-vacio/).
+
 ## Preguntas frecuentes
 
 ### ¿Es normal no disfrutar todo el tiempo de la maternidad o la paternidad?

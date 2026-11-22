@@ -46,6 +46,8 @@ En la Argentina, Lacan es una presencia enorme: en las universidades, en los hos
 
 Mi trabajo se apoya en la psicología analítica de Jung y en una base psicoanalítica. De Lacan tomo sobre todo esa atención a la palabra y la idea de que el deseo no se agota en ningún objeto. Podés leer también sobre [el inconsciente personal y colectivo](/recursos/inconsciente-personal-y-colectivo/), una mirada distinta sobre lo inconsciente.
 
+Para ubicar a Lacan entre las demás escuelas, mirá [qué es el psicoanálisis hoy](/recursos/que-es-el-psicoanalisis/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué significa que el inconsciente está estructurado como un lenguaje?

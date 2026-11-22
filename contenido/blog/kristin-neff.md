@@ -55,6 +55,8 @@ Lo que se discute, como suele ocurrir con los constructos psicológicos, es cóm
 
 Para quien lee desde la clínica o desde su propia experiencia, la enseñanza práctica es modesta y útil: preguntarse qué le diría a alguien querido en la misma situación, y probar decirse algo parecido. No reemplaza un tratamiento cuando hay un sufrimiento intenso, pero puede ser un buen primer paso.
 
+La autocompasión es también un buen antídoto para el [síndrome del impostor](/recursos/sindrome-del-impostor/).
+
 ## Para seguir leyendo
 
 - Neff, K. D. (2003). Development and validation of a scale to measure self-compassion. *Self and Identity*, 2, 223–250.
