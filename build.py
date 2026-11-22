@@ -40,6 +40,37 @@ NOMBRE_COMPLETO = f'{C["prefijo"]} {C["nombre"]}'
 WA_BASE = f'https://wa.me/{C["whatsapp_numero"]}'
 HOY = C.get("fecha_actualizacion") or date.today().isoformat()
 
+
+def _fechas_git():
+    """Última fecha de commit de cada archivo de contenido/ (una sola llamada a git)."""
+    import subprocess
+    try:
+        out = subprocess.run(["git", "log", "--format=@%cs", "--name-only", "--", "contenido"],
+                             cwd=RAIZ, capture_output=True, text=True, timeout=120).stdout
+    except Exception:
+        return {}
+    d, cur = {}, None
+    for l in out.splitlines():
+        if l.startswith("@"):
+            cur = l[1:]
+        elif l.strip() and l not in d:
+            d[l] = cur
+    return d
+
+
+FECHAS_GIT = _fechas_git()
+MESES_ES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+            "septiembre", "octubre", "noviembre", "diciembre"]
+
+
+def fecha_git(f):
+    return FECHAS_GIT.get(str(Path(f).resolve().relative_to(RAIZ)), HOY)
+
+
+def fecha_larga(iso):
+    a, m, d = iso.split("-")
+    return f"{int(d)} de {MESES_ES[int(m) - 1]} de {a}"
+
 REGLAS_ESPECULACION = json.dumps({"prerender": [{"source": "document", "where": {"and": [
     {"href_matches": "/*"}, {"not": {"href_matches": "/assets/*"}}, {"not": {"selector_matches": "[target=_blank]"}}]},
     "eagerness": "moderate"}]}, separators=(",", ":"))
@@ -2042,6 +2073,7 @@ def leer_articulos():
         meta["ruta"] = f'/recursos/{f.stem}/'
         meta["md"] = cuerpo
         meta["archivo"] = f.name
+        meta["modificado"] = max(meta.get("revision", meta.get("fecha", HOY)), fecha_git(f))
         arts.append(meta)
     arts.sort(key=lambda a: int(a.get("orden", 99)))
     return arts
@@ -2153,7 +2185,7 @@ def render_articulo(a):
     <p class="antetitulo"><a href="{ruta_categoria(a["categoria"])}">{esc(a["categoria"])}</a></p>
     <h1 style="view-transition-name: t-{a["archivo"][:-3]}">{esc(a["titulo"])}</h1>
     <p class="bajada">{esc(a["resumen"])}</p>
-    <p class="articulo__meta"><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><span>Publicado en <time datetime="{a.get("revision", a.get("fecha", HOY))}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></span></p>
+    <p class="articulo__meta"><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><span>Publicado en <time datetime="{a.get("revision", a.get("fecha", HOY))}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></span>{f'<span>Revisado el <time datetime="{a["modificado"]}">{fecha_larga(a["modificado"])}</time></span>' if a["modificado"] > a.get("fecha", HOY) else ""}</p>
   </div>
 </section>
 <div class="contenedor--texto prosa prosa--articulo" style="padding-bottom:var(--sec)">
@@ -2174,10 +2206,10 @@ def render_articulo(a):
         "titulo": a.get("titulo_seo", a["titulo"]) , "descripcion": a["descripcion"], "migas": migas,
         "noindex": not a["publicado"], "con_consultorio": False, "og": og, "faq_items": faq_items,
         "figuras": "figura-articulo" in cuerpo_md,
-        "articulo": {"fecha": a.get("fecha", HOY)},
+        "articulo": {"fecha": a.get("fecha", HOY)}, "modificado": a["modificado"],
         "schema_extra": [{
             "@type": "Article", "@id": f'{URL}{a["ruta"]}#articulo', "headline": a["titulo"], "description": a["descripcion"],
-            "inLanguage": C["idioma"], "datePublished": a.get("fecha", HOY), "dateModified": a.get("fecha", HOY),
+            "inLanguage": C["idioma"], "datePublished": a.get("fecha", HOY), "dateModified": a["modificado"],
             "publisher": {"@id": f"{URL}/#nicolas-bongiorno"},
             "mainEntityOfPage": f'{URL}{a["ruta"]}', "articleSection": a["categoria"],
             "image": f"{URL}/assets/img/{og}", "keywords": a.get("palabras_clave", ""),
@@ -2319,7 +2351,8 @@ def construir():
         if meta.get("articulos"):
             cuerpo += leer_mas(meta["articulos"])
         nombres[ruta] = re.sub(r"<[^>]+>", "", meta.get("h1", meta["titulo"]))
-        fechas[ruta] = meta.get("modificado", HOY)
+        meta.setdefault("modificado", fecha_git(f))
+        fechas[ruta] = meta["modificado"]
         imagenes[ruta] = meta.get("og", "og-inicio.jpg")
         if meta.get("portada", True) and "h1" in meta:
             cuerpo = portada(meta, meta.get("portada_extra", "")) + cuerpo
@@ -2350,7 +2383,7 @@ def construir():
         if a["publicado"]:
             mapa.append((a["ruta"], 0.6, "yearly"))
             nombres[a["ruta"]] = a["titulo"]
-            fechas[a["ruta"]] = a.get("revision", a.get("fecha", HOY))
+            fechas[a["ruta"]] = a["modificado"]
             imagenes[a["ruta"]] = meta["og"]
 
     # Voces que nos habitan: biblioteca de citas verificadas (voces_sitio.py)
@@ -2425,6 +2458,10 @@ def construir():
     publicados = [a for a in ARTICULOS if a["publicado"]]
     lineas_art = "\n".join(f'- [{a["titulo"]}]({URL}{a["ruta"]}): {a["resumen"]}' for a in publicados) or "- (Artículos en preparación.)"
     motivos_txt = ", ".join(m["titulo"].lower() for m in MOTIVOS)
+    lineas_lab = "\n".join(f'- [{l["titulo"]}]({URL}{l["ruta"]}): {l["descripcion"]}' for l in LABORATORIOS)
+    lineas_test = "\n".join(f'- [{nombres[r]}]({URL}{r})' for r in sorted(nombres)
+                             if re.match(r"/(test-|escala-|indice-|ejercicio-)", r))
+    lineas_glos = "\n".join(f'- [{t}]({URL}{r}): términos definidos con sus autores y obras de referencia.' for g, r, t in GLOSARIOS)
     (SALIDA / "llms.txt").write_text(f"""# {NOMBRE_COMPLETO} — Psicólogo clínico integrativo ({C["matricula"]})
 
 > Psicólogo clínico integrativo, egresado de la {C["facultad"]} de la {C["universidad"]}, con {C["anios_experiencia"]} de práctica clínica. Orientación junguiana (psicología analítica de C. G. Jung) con base psicoanalítica y perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores, de forma presencial en {D["localidad"]} ({D["provincia"]}, Argentina) y online por videollamada, en español.
@@ -2475,6 +2512,19 @@ El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orie
 - [Terapia online en español]({URL}/terapia-online/)
 - [Preguntas frecuentes]({URL}/preguntas-frecuentes/)
 - [Contacto]({URL}/contacto/)
+
+## Por dónde empezar
+- [¿Por dónde empiezo?]({URL}/por-donde-empezar/): guía que orienta, según lo que te pasa, hacia artículos, tests y laboratorios.
+- [Mapa de lo que me habita]({URL}/el-mapa-de-lo-que-me-habita/)
+
+## Tests, escalas y ejercicios (orientativos, no diagnósticos)
+{lineas_test}
+
+## Laboratorios (ejercicios guiados interactivos)
+{lineas_lab}
+
+## Glosarios
+{lineas_glos}
 
 ## Artículos
 {lineas_art}
