@@ -3,7 +3,7 @@ titulo: El coraje y sus fortalezas: valentía, perseverancia y más
 titulo_seo: Fortalezas del coraje: valentía, perseverancia e integridad
 descripcion: Valentía, perseverancia, integridad y vitalidad: las fortalezas del coraje según Peterson y Seligman, qué se investigó y cuándo se vuelven un problema.
 resumen: El coraje no es sólo animarse a lo peligroso. En la clasificación de Peterson y Seligman incluye sostener un esfuerzo, ser fiel a uno mismo y vivir con energía. Qué son estas cuatro fortalezas y qué se sabe de ellas.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: fortalezas del carácter, coraje, valentía, perseverancia, integridad, honestidad, vitalidad, entusiasmo, grit, Peterson y Seligman, psicología positiva
 fecha: 2026-11-17
 fecha_visible: noviembre de 2026

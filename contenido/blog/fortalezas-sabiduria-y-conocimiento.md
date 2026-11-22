@@ -3,7 +3,7 @@ titulo: Sabiduría y conocimiento: las fortalezas que miran el mundo
 titulo_seo: Fortalezas de sabiduría y conocimiento: qué son y qué se sabe
 descripcion: Creatividad, curiosidad, apertura mental, amor por el aprendizaje y perspectiva: las fortalezas de la sabiduría según Peterson y Seligman, con sus límites.
 resumen: La primera virtud de la clasificación de Peterson y Seligman reúne cinco fortalezas que tienen que ver con conocer y pensar. Qué son, cómo se ven en la vida diaria, qué se investigó y cuándo se vuelven un problema.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: fortalezas del carácter, sabiduría y conocimiento, creatividad, curiosidad, apertura mental, amor por el aprendizaje, perspectiva, Peterson y Seligman, psicología positiva, VIA
 fecha: 2026-11-17
 fecha_visible: noviembre de 2026

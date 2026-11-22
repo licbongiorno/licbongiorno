@@ -3,7 +3,7 @@ titulo: La soledad: entre el vacío y el encuentro con uno mismo
 titulo_seo: La soledad: cuándo duele y cuándo nutre | N. Bongiorno
 descripcion: La diferencia entre la soledad elegida y la que duele, qué dice la psicología sobre estar solo y qué hacer cuando el aislamiento se vuelve un problema.
 resumen: No es lo mismo estar solo que sentirse solo. Cuándo la soledad nutre, cuándo duele y qué hacer cuando el aislamiento pesa.
-categoria: Salud mental
+categoria: Vínculos y relaciones
 palabras_clave: soledad, sentirse solo, aislamiento, capacidad de estar solo, Winnicott
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026

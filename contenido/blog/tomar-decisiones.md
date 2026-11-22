@@ -3,7 +3,7 @@ titulo: Tomar decisiones: maximizar, satisfacer y el miedo a equivocarse
 titulo_seo: Cómo tomar decisiones: maximizar, satisfacer e indecisión
 descripcion: Por qué cuesta decidir, qué dice la investigación sobre maximizadores y satisfactores, si hay sobrecarga de opciones y cómo usar tus valores como criterio.
 resumen: Qué dice la psicología sobre decidir: maximizar o satisfacer, el mito de la sobrecarga de opciones, la indecisión y los valores como brújula.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: tomar decisiones, indecisión, maximizadores, satisfactores, sobrecarga de opciones, valores, ansiedad, arrepentimiento, Schwartz, Kahneman
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026

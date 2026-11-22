@@ -3,7 +3,7 @@ titulo: La vergüenza: cuando el problema parece ser uno mismo
 titulo_seo: La vergüenza: qué es, diferencia con la culpa y cómo trabajarla
 descripcion: Qué es la vergüenza, en qué se diferencia de la culpa según Lewis y Tangney, por qué lleva a esconderse y qué ayuda a trabajarla con compasión.
 resumen: La vergüenza evalúa a la persona entera, no solo una acción. Qué la distingue de la culpa, qué consecuencias tiene y qué enfoques ayudan.
-categoria: Salud mental
+categoria: Ansiedad y emociones
 palabras_clave: vergüenza, culpa, Helen Block Lewis, Tangney, autocompasión, Paul Gilbert, terapia centrada en la compasión, autoestima, ocultamiento
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026

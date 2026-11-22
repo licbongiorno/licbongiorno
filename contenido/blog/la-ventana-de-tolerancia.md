@@ -3,7 +3,7 @@ titulo: La ventana de tolerancia: cuánto podemos sentir sin desbordarnos
 titulo_seo: Ventana de tolerancia: qué es, hiperactivación e hipoactivación
 descripcion: Qué es la ventana de tolerancia de Daniel Siegel, qué pasa en la hiperactivación y la hipoactivación, cómo se relaciona con el trauma y cómo ampliarla.
 resumen: Una franja en la que podemos sentir y pensar a la vez. Qué es la ventana de tolerancia, qué pasa cuando salimos de ella y cómo volver.
-categoria: Psicología contemporánea
+categoria: Ansiedad y emociones
 palabras_clave: ventana de tolerancia, Daniel Siegel, hiperactivación, hipoactivación, regulación emocional, trauma, disociación
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026

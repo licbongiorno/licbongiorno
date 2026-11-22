@@ -3,7 +3,7 @@ titulo: Justicia: ciudadanía, equidad y liderazgo como fortalezas
 titulo_seo: Fortalezas de justicia: ciudadanía, equidad y liderazgo
 descripcion: Ciudadanía, equidad y liderazgo: las fortalezas de la justicia según Peterson y Seligman, cómo se ven en la vida diaria, qué se sabe y cuándo se desvían.
 resumen: La justicia es la virtud de la vida en común. En la clasificación de Peterson y Seligman reúne tres fortalezas: la ciudadanía o trabajo en equipo, la equidad y el liderazgo. Qué son, qué se investigó y cuándo se vuelven un problema.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: fortalezas del carácter, justicia, ciudadanía, trabajo en equipo, equidad, imparcialidad, liderazgo, desarrollo moral, Peterson y Seligman, psicología positiva
 fecha: 2026-11-17
 fecha_visible: noviembre de 2026

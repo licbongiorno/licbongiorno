@@ -1527,18 +1527,43 @@ WIKI = {
     "eneagrama": ("Eneagrama de la personalidad", "https://es.wikipedia.org/wiki/Eneagrama_de_la_personalidad"),
 }
 
+CATEGORIAS_INTRO = {
+    "Jung y psicología analítica": ["Carl Gustav Jung (1875-1961) se separó de Freud en 1913 y construyó la psicología analítica: una forma de entender la psique donde el inconsciente no es solo lo reprimido, sino también una fuente de imágenes, símbolos y posibilidades de desarrollo.",
+                                    "Acá vas a encontrar sus conceptos centrales (complejos, arquetipos, sombra, tipos psicológicos, individuación) y cómo se trabajan en una terapia de orientación junguiana, con los sueños y la imaginación activa como herramientas."],
+    "Ansiedad y emociones": ["La ansiedad es una respuesta normal ante la amenaza; se vuelve un problema cuando aparece sin peligro real, dura demasiado o empieza a decidir por vos. Las emociones difíciles, como la vergüenza o el miedo, también tienen una función y algo para decir.",
+                             "Los artículos combinan aportes de la terapia cognitivo-conductual, de la terapia de aceptación y compromiso, del psicoanálisis y de la neurobiología de la regulación emocional, con pautas para saber cuándo conviene consultar."],
+    "Vínculos y relaciones": ["Buena parte de lo que nos hace sufrir pasa en los vínculos: pareja, familia, amistades, cuidado de otros. La teoría del apego de John Bowlby y la terapia sistémica muestran cómo los modos de vincularnos se aprenden temprano y tienden a repetirse.",
+                              "Estos artículos tratan la dependencia emocional, la infidelidad, la soledad, las separaciones y lo que implica cuidar a un familiar, para entender qué se repite y qué se puede empezar a hacer distinto."],
+    "Salud mental": ["Información clara sobre cuadros y situaciones frecuentes en consulta (trastorno bipolar, TDAH en adultos, trastornos de la conducta alimentaria, autolesiones, consumo y apuestas), y sobre cómo acompañar a alguien que está pasando un mal momento.",
+                     "Ningún artículo reemplaza una evaluación profesional. Si estás en riesgo, la página de ayuda urgente tiene los teléfonos de asistencia en Argentina."],
+    "Psicología contemporánea": ["Las psicoterapias de las últimas décadas: los enfoques corporales y somáticos, la terapia de aceptación y compromiso, la terapia narrativa, la sistémica, la Gestalt, la logoterapia y los diálogos entre psicología y espiritualidad.",
+                                 "Cada artículo presenta de dónde viene el enfoque, sus autores de referencia, qué evidencia lo respalda y cuáles son sus límites, para que puedas orientarte entre tantas propuestas."],
+    "Psicología básica": ["Los conceptos que sostienen todo lo demás: personalidad, inteligencia, emociones, apego, memoria, aprendizaje y motivación, explicados con sus teorías y autores principales.",
+                          "Es un buen punto de partida si estudiás psicología o si querés entender mejor cómo funciona la mente antes de leer sobre enfoques terapéuticos."],
+    "Meditación y respiración": ["Las tradiciones contemplativas de Oriente y Occidente, y lo que la psicología investigó sobre ellas desde el programa de reducción del estrés de Jon Kabat-Zinn (1979) en adelante.",
+                                 "Vas a encontrar distintos tipos de meditación y de respiración, sus beneficios posibles y también sus contraindicaciones: hay momentos en que meditar no es lo más indicado."],
+    "Evaluación psicológica": ["Cómo evalúa la psicología: técnicas proyectivas como el HTP, el desiderativo o las frases incompletas, y técnicas psicométricas con escalas estandarizadas.",
+                               "También se explica qué es el apto psicológico para la licencia de conducir y qué se puede (y qué no) concluir de un test hecho en internet."],
+    "Eneagrama": ["El eneagrama de la personalidad describe nueve estilos a partir de sus motivaciones y miedos centrales. Llegó a la psicología por Oscar Ichazo y Claudio Naranjo, y tiene un respaldo empírico limitado.",
+                  "Estos artículos lo presentan como una herramienta de autoconocimiento, no como un diagnóstico, y lo comparan con modelos de personalidad más estudiados."],
+    "Historia de la psicología": ["La psicología tiene apenas un siglo y medio como disciplina, desde el laboratorio de Wilhelm Wundt en Leipzig (1879). En ese tiempo surgieron el psicoanálisis, el conductismo, la psicología humanista, la cognitiva y muchas escuelas más.",
+                                  "Esta serie recorre a sus autores: su vida, sus ideas principales, sus obras y lo que dejaron a la práctica clínica de hoy. El mapa de la psicología los ubica por escuela y por época."],
+    "Desarrollo personal": ["Crecer no es volverse otra persona sino poder ser más plenamente quien sos. Jung lo llamó individuación; Viktor Frankl puso el acento en el sentido, y la psicología positiva de Martin Seligman estudió las fortalezas del carácter.",
+                            "Acá vas a encontrar artículos sobre crisis vitales, decisiones, propósito, fortalezas y envejecimiento, con ejercicios para pensar tu propio recorrido."],
+}
+
 CATEGORIAS = {
     "Jung y psicología analítica": "Sueños, sombra, arquetipos e individuación: la psicología analítica de Carl Gustav Jung, explicada para la vida cotidiana.",
     "Ansiedad y emociones": "Ansiedad, ataques de pánico y emociones difíciles: qué nos dicen, por qué aparecen y cómo atravesarlas con ayuda.",
-    "Vínculos y relaciones": "Patrones que se repiten, dependencia emocional y la forma en que nos vinculamos con la pareja, la familia y los otros.",
-    "Salud mental": "Cuándo consultar a un psicólogo, cómo acompañar a alguien que sufre y cómo cuidar tu salud mental, con señales para orientarte.",
+    "Vínculos y relaciones": "Patrones que se repiten, dependencia emocional, infidelidad, soledad, separaciones y cuidado de familiares: cómo nos vinculamos con los otros.",
+    "Salud mental": "Cuándo consultar, cómo acompañar a alguien que sufre y qué saber sobre cuadros como el bipolar, el TDAH o los trastornos alimentarios.",
     "Psicología contemporánea": "Psicoterapia integrativa, terapia online, duelo migratorio y otros temas de la psicología de hoy, en lenguaje claro.",
     "Psicología básica": "Personalidad, inteligencia, emociones, apego, memoria y motivación: los conceptos básicos de la psicología, explicados en lenguaje claro.",
     "Meditación y respiración": "Tipos de meditación de Oriente y Occidente, técnicas de respiración y lo que dice la psicología sobre ellas: beneficios, límites y cuidados.",
     "Evaluación psicológica": "Apto psicológico para la licencia de conducir, técnicas proyectivas como el HTP y el desiderativo, y técnicas psicométricas: qué son y cómo se usan.",
     "Eneagrama": "El eneagrama de la personalidad y sus nueve eneatipos: motivaciones, miedos, alas y caminos de crecimiento, desde una mirada psicológica y crítica.",
     "Historia de la psicología": "Quiénes hicieron la psicología: la vida, las ideas y los conceptos fundamentales de sus autores, del psicoanálisis al presente.",
-    "Desarrollo personal": "Crisis vitales, la crisis de la mitad de la vida, búsqueda de sentido y autoconocimiento desde una mirada junguiana.",
+    "Desarrollo personal": "Crisis vitales, decisiones, sentido, fortalezas del carácter y envejecer: crecer desde la psicología junguiana, existencial y positiva.",
 }
 
 
@@ -2434,8 +2459,10 @@ def construir():
                 "migas": [("Recursos", "/recursos/"), (cat, ruta)], "tipo_pagina": "CollectionPage", "con_consultorio": False,
                 "antetitulo": "Recursos", "h1": esc(cat), "bajada": esc(CATEGORIAS[cat])}
         otras = "".join(f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in cats_con if c != cat)
+        intro = "".join(f"<p>{esc(x)}</p>" for x in CATEGORIAS_INTRO.get(cat, []))
+        intro = f'<div class="prosa contenedor--texto" style="margin:0 0 2.5rem;padding:0">{intro}</div>' if intro else ""
         cuerpo = portada(meta) + f'''<section class="seccion" style="padding-top:0"><div class="contenedor">
-<h2 class="visualmente-oculto">Artículos</h2>
+{intro}<h2 class="visualmente-oculto">Artículos</h2>
 {('<div class="descarga descarga--lab revelar" style="margin-bottom:2rem"><p><strong>El mapa de la psicología.</strong>Los autores de la serie ubicados por escuela y por época, con sus influencias, formaciones, rupturas y diálogos.</p><a class="boton boton--chico" href="' + MAPA_RUTA + '">Ver el mapa</a></div>') if cat == "Historia de la psicología" and MAPA else ""}
 {articulos_lista(categoria=cat)}
 <p style="margin-top:3rem;font-family:var(--f-sans);font-size:.9rem">Otras categorías:</p><ul class="indice-enfoques">{otras}<li><a href="/recursos/">Todos los artículos</a></li></ul>

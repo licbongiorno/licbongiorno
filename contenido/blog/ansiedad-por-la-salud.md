@@ -3,7 +3,7 @@ titulo: Ansiedad por la salud: cuando el miedo a enfermarse no afloja
 titulo_seo: Ansiedad por la salud (hipocondría): qué es y cómo se trata
 descripcion: Qué es la ansiedad por la salud, por qué el chequeo constante la mantiene y qué respaldo tiene la terapia cognitivo-conductual según el estudio CHAMP.
 resumen: Preocuparse mucho por tener una enfermedad grave es más común de lo que se cree. Cómo funciona el ciclo del chequeo y qué tratamiento tiene respaldo.
-categoria: Salud mental
+categoria: Ansiedad y emociones
 palabras_clave: ansiedad por la salud, hipocondría, trastorno de ansiedad por enfermedad, trastorno de síntomas somáticos, terapia cognitivo-conductual, estudio CHAMP, chequeo
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026

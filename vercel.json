@@ -12,16 +12,6 @@
   },
   "redirects": [
     {
-      "source": "/acompanamiento-en-separacion/",
-      "destination": "/separaciones-complicadas/",
-      "permanent": true
-    },
-    {
-      "source": "/recursos/steven-hayes/",
-      "destination": "/recursos/steven-c-hayes/",
-      "permanent": true
-    },
-    {
       "source": "/:path*",
       "has": [
         {

@@ -3,7 +3,7 @@ titulo: Estrategias de afrontamiento: cómo elegir la herramienta justa
 titulo_seo: Estrategias de afrontamiento del estrés: cómo elegir
 descripcion: Qué son las estrategias de afrontamiento, por qué ninguna sirve para todo y cómo elegir según la situación: problema, emoción, flexibilidad y trampas.
 resumen: Afrontar bien no es tener una receta, sino elegir según la situación y cambiar si no funciona. Problema y emoción, flexibilidad y trampas frecuentes.
-categoria: Salud mental
+categoria: Ansiedad y emociones
 palabras_clave: estrategias de afrontamiento, coping, estrés, Lazarus y Folkman, flexibilidad regulatoria, regulación emocional, rumiación, evitación
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026

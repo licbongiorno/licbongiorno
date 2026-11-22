@@ -3,7 +3,7 @@ titulo: Tu mejor versión posible: una dirección, no un destino
 titulo_seo: Tu mejor versión posible: dirección, no perfección
 descripcion: Qué son los yo posibles, cómo usar el ejercicio del mejor yo posible sin caer en el perfeccionismo y cómo saber cuál es tu mejor versión.
 resumen: La idea de «mejor versión» puede orientar o aplastar. Qué dice la psicología sobre los yo posibles, el perfeccionismo, los valores y la autocompasión.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: mejor versión, yo posible, mejor yo posible, perfeccionismo, valores, autocompasión, discrepancia del yo, ACT, escritura
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026

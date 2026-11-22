@@ -3,7 +3,7 @@ titulo: Vejez y jubilación: tiempo, vínculos y nuevos sentidos
 titulo_seo: Vejez y jubilación: qué dice la psicología sobre esta etapa
 descripcion: Qué cambia en la vejez y al jubilarse: prioridades, vínculos, pérdida de roles y edadismo. Qué dice la investigación y qué conviene cuidar.
 resumen: La jubilación y la vejez traen pérdidas de roles y rutinas, pero también un reordenamiento de prioridades. Qué dice la investigación sobre el tiempo, el edadismo y el sentido.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: vejez, jubilación, envejecimiento, edadismo, selectividad socioemocional, Erikson, sentido, adultos mayores
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026

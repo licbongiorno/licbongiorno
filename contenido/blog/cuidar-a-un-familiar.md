@@ -3,7 +3,7 @@ titulo: Cuidar a un familiar: sobrecarga, culpa y cómo no quedarte sola
 titulo_seo: Cuidar a un familiar: sobrecarga, culpa y cómo pedir ayuda
 descripcion: Qué dice la investigación sobre quienes cuidan a un familiar, por qué la culpa y el enojo son esperables y cómo repartir tareas y pedir ayuda.
 resumen: Cuidar a un familiar desgasta más el ánimo que el cuerpo. Qué dice la investigación, qué emociones son esperables y cómo pedir ayuda y descansar.
-categoria: Salud mental
+categoria: Vínculos y relaciones
 palabras_clave: cuidadores, cuidar a un familiar, sobrecarga del cuidador, culpa, duelo anticipado, burnout, adultos mayores, pedir ayuda
 fecha: 2026-11-21
 fecha_visible: noviembre de 2026
