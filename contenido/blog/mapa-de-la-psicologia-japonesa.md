@@ -28,6 +28,10 @@ La pregunta clave es qué tipo de cosa es cada una. Una psicoterapia tiene un au
 
 - **Amae.** El psicoanalista Takeo Doi lo propuso en *Amae no kōzō* (1971; en inglés, *The Anatomy of Dependence*, 1973). Alude al deseo de ser cuidado y aceptado en una relación cercana. Fue discutido por quienes lo ven como parte de las teorías de la singularidad japonesa. Ver [amae](/recursos/amae/).
 
+## Fenómenos que estudia la psiquiatría
+
+Japón también dio nombre a formas de sufrimiento que hoy se estudian en todo el mundo. El *hikikomori* es el retraimiento social prolongado, popularizado por el psiquiatra Saitō Tamaki en 1998; lo desarrollo en [hikikomori](/recursos/hikikomori/). El *taijin kyōfushō*, el miedo a incomodar u ofender a otros, figura en el glosario de conceptos culturales del DSM-5. Y el *karōshi*, la muerte por exceso de trabajo, puso sobre la mesa el costo de las jornadas extenuantes, algo cercano al [burnout](/recursos/burnout/). Estos y otros términos están en el [glosario de psicología japonesa](/glosario-de-psicologia-japonesa/).
+
 ## Conceptos culturales y estéticos
 
 Sirven como metáforas, no como tratamientos.
