@@ -1,0 +1,149 @@
+<!--{
+  "ruta": "/laboratorio-de-culpa-y-verguenza/",
+  "titulo": "Laboratorio de culpa y vergüenza: distinguirlas",
+  "descripcion": "Ejercicios para distinguir la culpa (sobre lo que hiciste) de la vergüenza (sobre quién sos), separar responsabilidad de autocastigo y reparar.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Culpa y vergüenza",
+      "/laboratorio-de-culpa-y-verguenza/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>culpa y vergüenza</em>",
+  "bajada": "«Hice algo mal» y «soy una mala persona» se sienten parecido, pero llevan a lugares muy distintos. Ejercicios para distinguirlas, hacerte cargo sin castigarte y reparar.",
+  "respuesta": "El laboratorio de culpa y vergüenza propone ejercicios basados en la distinción que estudiaron June Tangney y Ronda Dearing (2002): la culpa se refiere a una conducta concreta y suele impulsar la reparación, mientras que la vergüenza se refiere a todo el yo y suele llevar a ocultarse o a ponerse a la defensiva. Incluye una guía para separar responsabilidad de autocastigo, un ejercicio de reparación y un plan de 7 días.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-2.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de culpa y vergüenza",
+  "articulos": [
+    "la-culpa",
+    "la-verguenza"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>June Tangney y Ronda Dearing, en <em>Shame and Guilt</em> (2002), reunieron años de investigación sobre dos emociones que solemos confundir. La <strong>culpa</strong> mira una conducta: «hice algo que no está bien». La <strong>vergüenza</strong> mira a la persona entera: «soy alguien que no está bien». La diferencia parece sutil, pero cambia lo que sentimos que hay que hacer.</p>
+        <p>Según esa línea de trabajo, la culpa tiende a ir junto con la empatía y las ganas de reparar. La vergüenza, en cambio, suele empujar a esconderse, a ponerse a la defensiva o a echarle la culpa a otro, porque lo que está en juego se siente como el valor propio. Este laboratorio no busca que sientas menos: busca que puedas darte cuenta de cuál de las dos está hablando y qué hacer con eso.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin retarte.</strong> Mirar lo que hiciste no requiere maltratarte.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Un tema por vez.</strong> Elegí algo concreto, no toda tu historia.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#cual">¿Culpa o vergüenza?</a>
+      <a href="#pasado">Lo que pasó y lo que me digo</a>
+      <a href="#resp">Responsabilidad o autocastigo</a>
+      <a href="#reparar">La reparación</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="cual" aria-labelledby="t-cual">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-cual">¿Culpa o vergüenza?</h2>
+      <p class="lab-estacion__bajada">Leé cada situación y decidí qué emoción está hablando: la que mira lo que hiciste o la que mira quién sos.</p>
+      <div class="lab-tarjeta" data-lab-quiz="culpa-verguenza">
+        <p class="lab-tarjeta__titulo">¿Qué emoción habla?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="pasado" aria-labelledby="t-pasado">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-pasado">Lo que pasó y lo que me digo</h2>
+      <p class="lab-estacion__bajada">Elegí algo que te pesa. Separá los hechos de lo que te decís sobre vos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lo-que-paso-y-lo-que-me-digo" data-lab-form-titulo="Lo que pasó y lo que me digo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-pasado-1">¿Qué pasó? Describilo como lo vería una cámara.</label><input class="lab-campo" id="cv-pasado-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-pasado-2">¿Qué parte me corresponde a mí?</label><input class="lab-campo" id="cv-pasado-2" type="text" placeholder="Lo que hice o dejé de hacer, sin agregar ni sacar" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-pasado-3">¿Qué me digo sobre mí por esto?</label><textarea class="lab-texto" id="cv-pasado-3" rows="2" placeholder="Por ejemplo: «soy un desastre», «siempre arruino todo»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-pasado-4">¿Eso habla de lo que hice o de quién soy?</label><input class="lab-campo" id="cv-pasado-4" type="text" placeholder="Escribí «lo que hice» o «quién soy»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-pasado-5">Dicho de nuevo, solo sobre la conducta</label><textarea class="lab-texto" id="cv-pasado-5" rows="2" placeholder="Por ejemplo: «hice esto, me afectó así, puedo hacer esto otro»"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="resp" aria-labelledby="t-resp">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-resp">Responsabilidad o autocastigo</h2>
+      <p class="lab-estacion__bajada">Hacerse cargo y castigarse parecen lo mismo, pero no lo son. Una lleva a actuar, la otra a quedarse dando vueltas. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="culpa-responsabilidad">
+        <p class="lab-tarjeta__titulo">¿Responsabilidad o autocastigo?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="reparar" aria-labelledby="t-reparar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-reparar">La reparación</h2>
+      <p class="lab-estacion__bajada">Reparar es hacer algo concreto con el daño: reconocerlo, ofrecer lo que se pueda y cambiar lo que depende de uno. A veces la otra persona no quiere o no puede recibirlo, y eso también hay que tolerarlo. Armá tu propio paso.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-reparacion" data-lab-form-titulo="Mi reparación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-reparar-1">¿A quién o a qué afecté?</label><input class="lab-campo" id="cv-reparar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-reparar-2">¿Qué daño causé, dicho sin justificarme?</label><textarea class="lab-texto" id="cv-reparar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-reparar-3">¿Qué puedo ofrecer? (una disculpa concreta, arreglar algo, escuchar)</label><textarea class="lab-texto" id="cv-reparar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-reparar-4">¿Qué voy a hacer distinto la próxima vez?</label><input class="lab-campo" id="cv-reparar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cv-reparar-5">Si no puedo reparar directamente, ¿qué gesto sí puedo hacer?</label><input class="lab-campo" id="cv-reparar-5" type="text" placeholder="Una carta que no se envía, un cambio de conducta, una donación…" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="culpa-verguenza">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Distinguir.</strong> Anotá una situación y decidí si hablaba la culpa o la vergüenza.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Los hechos.</strong> Escribí qué pasó en tres frases, sin adjetivos sobre vos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Mi parte.</strong> Definí qué parte te corresponde y cuál no.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Hablarme distinto.</strong> Cambiá una frase sobre «lo que soy» por una sobre «lo que hice».</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. La reparación.</strong> Elegí un gesto concreto de reparación y fijá cuándo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Contarlo.</strong> Si algo te da vergüenza, contáselo a alguien de confianza.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Soltar.</strong> Reconocé qué ya hiciste y qué no podés controlar.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Algunas ideas comunes sobre la culpa y la vergüenza. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="culpa-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la culpa o la vergüenza son tan fuertes que sentís que no merecés estar o pensás en hacerte daño, no esperes: mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si viene de algo que viviste hace tiempo, también podés <a href="/contacto/">escribirme</a>. Para leer más: <a href="/recursos/la-culpa/">la culpa</a>, <a href="/recursos/la-verguenza/">la vergüenza</a> y el <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Tangney, J. P. y Dearing, R. L. (2002). <em>Shame and Guilt</em>. Guilford Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

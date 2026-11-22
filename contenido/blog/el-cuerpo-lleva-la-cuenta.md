@@ -53,4 +53,6 @@ Si vivís con síntomas de estrés postraumático, no dejes de consultar por tra
 
 Este tema se ubica dentro de [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Para probar ejercicios de atención al cuerpo con cuidado, está el [laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
+Qué es el trastorno de estrés postraumático y qué tratamientos recomiendan las guías lo cuento en [estrés postraumático](/recursos/estres-postraumatico/).
+
 Lecturas: van der Kolk, B. (2014), *The Body Keeps the Score* (en español, *El cuerpo lleva la cuenta*). Scheeringa, M. (2025), revisión de las afirmaciones del libro. McNally, R. (2005), crítica al artículo de van der Kolk de 1994. Organización Mundial de la Salud (2013), recomendaciones sobre estrés postraumático.

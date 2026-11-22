@@ -1,0 +1,148 @@
+<!--{
+  "ruta": "/laboratorio-de-perfeccionismo/",
+  "titulo": "Laboratorio de perfeccionismo: la vara alta y su costo",
+  "descripcion": "Ejercicios sobre perfeccionismo: el costo de la vara alta, el chequeo y la evitación, estándares suficientemente buenos y experimentos de conducta.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Perfeccionismo",
+      "/laboratorio-de-perfeccionismo/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>perfeccionismo</em>",
+  "bajada": "Querer hacer las cosas bien es una virtud. Cuando el propio valor depende de no fallar nunca, la vara alta pasa la cuenta. Ejercicios para medir ese costo y ensayar estándares más amables.",
+  "respuesta": "El laboratorio de perfeccionismo propone ejercicios basados en el modelo cognitivo-conductual de Roz Shafran, Sarah Egan y Tracey Wade (Overcoming Perfectionism, 2010): el costo de la vara alta, las conductas de chequeo y evitación que mantienen el problema, la elección de estándares suficientemente buenos y los experimentos conductuales para poner a prueba los miedos. Incluye un plan de 7 días.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-2.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de perfeccionismo",
+  "articulos": [
+    "autoexigencia-y-perfeccionismo"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>En <em>Overcoming Perfectionism</em> (2010), Roz Shafran, Sarah Egan y Tracey Wade proponen una guía cognitivo-conductual para lo que llaman perfeccionismo clínico. La idea de fondo, que ya habían formulado Shafran, Cooper y Fairburn (2002), es que el problema no está en tener estándares altos, sino en que el valor propio dependa casi por completo de alcanzarlos.</p>
+        <p>Cuando eso pasa, aparecen dos tipos de conducta que parecen ayudar y mantienen el problema: el <strong>chequeo</strong> (revisar, rehacer, pedir confirmación) y la <strong>evitación</strong> (postergar o no empezar para no fallar). Este laboratorio sirve para ver cuánto te cuesta tu vara, y para probar, con experimentos chicos, qué pasa si la bajás un poco.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin exigencia.</strong> Hacelo imperfecto a propósito: esa es la práctica.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Experimentos chicos.</strong> Elegí cosas de bajo riesgo para empezar.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#conductas">Chequeo, evitación y autocrítica</a>
+      <a href="#costo">El costo de la vara alta</a>
+      <a href="#suficiente">Suficientemente bueno</a>
+      <a href="#experimento">Experimento conductual</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="conductas" aria-labelledby="t-conductas">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-conductas">Chequeo, evitación y autocrítica</h2>
+      <p class="lab-estacion__bajada">Estas conductas mantienen el perfeccionismo. ¿Cuál aparece en cada situación? Una de ellas es un estándar razonable.</p>
+      <div class="lab-tarjeta" data-lab-quiz="perfeccionismo">
+        <p class="lab-tarjeta__titulo">¿Qué conducta aparece?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="costo" aria-labelledby="t-costo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-costo">El costo de la vara alta</h2>
+      <p class="lab-estacion__bajada">Elegí un área donde te exigís mucho y mirá, con honestidad, qué te da y qué te cuesta.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="el-costo-de-mi-vara" data-lab-form-titulo="El costo de mi vara alta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-costo-1">El área donde me exijo de más</label><input class="lab-campo" id="pf-costo-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-costo-2">Mi estándar hoy (qué tiene que pasar para que esté «bien»)</label><textarea class="lab-texto" id="pf-costo-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-costo-3">Lo que me da exigirme así</label><textarea class="lab-texto" id="pf-costo-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-costo-4">Lo que me cuesta (tiempo, energía, vínculos, salud, disfrute)</label><textarea class="lab-texto" id="pf-costo-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-costo-5">Un estándar suficientemente bueno para esta área</label><textarea class="lab-texto" id="pf-costo-5" rows="2" placeholder="Por ejemplo: «entregarlo revisado una sola vez»"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="suficiente" aria-labelledby="t-suficiente">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-suficiente">Elegir lo suficientemente bueno</h2>
+      <p class="lab-estacion__bajada">Winnicott habló de la madre «suficientemente buena»: no perfecta, sino la que alcanza. Con esa lógica, ¿qué estándar sería suficiente en cada caso?</p>
+      <div class="lab-tarjeta" data-lab-quiz="perfeccionismo-estandares">
+        <p class="lab-tarjeta__titulo">¿Cuál alcanza?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente caso</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="experimento" aria-labelledby="t-experimento">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-experimento">Un experimento conductual</h2>
+      <p class="lab-estacion__bajada">Un experimento conductual pone a prueba una predicción catastrófica: hacés algo un poco distinto de lo habitual y mirás qué pasa realmente. Empezá por algo de bajo riesgo, como enviar un mensaje sin revisarlo más de una vez.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-experimento" data-lab-form-titulo="Mi experimento conductual" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-experimento-1">Lo que voy a hacer distinto a propósito</label><input class="lab-campo" id="pf-experimento-1" type="text" placeholder="Por ejemplo: entregar un informe sin la tercera revisión" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-experimento-2">Lo que predigo que va a pasar (y cuánto lo creo, de 0 a 100)</label><textarea class="lab-texto" id="pf-experimento-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-experimento-3">Lo que pasó realmente</label><textarea class="lab-texto" id="pf-experimento-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-experimento-4">Lo que aprendo de esto</label><textarea class="lab-texto" id="pf-experimento-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="pf-experimento-5">El próximo experimento, un poco más difícil</label><input class="lab-campo" id="pf-experimento-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="perfeccionismo">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Observar.</strong> Anotá tres momentos en que te exigiste más de lo necesario.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. El costo.</strong> Completá «el costo de mi vara alta» en un área.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Una sola revisión.</strong> Revisá algo una sola vez y enviá.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Imperfecto a propósito.</strong> Hacé algo bien pero no perfecto, como un detalle sin pulir.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Evitación.</strong> Empezá algo que venías evitando, solo por diez minutos.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Hablarme distinto.</strong> Respondé a tu crítica interna como lo harías con un amigo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar lo logrado.</strong> Anotá tres cosas que hiciste bien esta semana, sin «pero».</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el perfeccionismo. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="perfeccionismo-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la autoexigencia viene con tristeza persistente, ataques de ansiedad, problemas con la comida o ideas de que no valés, conviene consultarlo; no es falta de voluntad. Podés <a href="/contacto/">escribirme</a>. Si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Para seguir: el artículo sobre <a href="/recursos/autoexigencia-y-perfeccionismo/">autoexigencia y perfeccionismo</a> y la <a href="/escala-de-autocompasion/">escala de autocompasión</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Shafran, R., Egan, S. y Wade, T. (2010). <em>Overcoming Perfectionism: A Self-Help Guide Using Cognitive Behavioural Techniques</em>. Robinson.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -40,6 +40,37 @@ NOMBRE_COMPLETO = f'{C["prefijo"]} {C["nombre"]}'
 WA_BASE = f'https://wa.me/{C["whatsapp_numero"]}'
 HOY = C.get("fecha_actualizacion") or date.today().isoformat()
 
+
+def _fechas_git():
+    """Última fecha de commit de cada archivo de contenido/ (una sola llamada a git)."""
+    import subprocess
+    try:
+        out = subprocess.run(["git", "log", "--format=@%cs", "--name-only", "--", "contenido"],
+                             cwd=RAIZ, capture_output=True, text=True, timeout=120).stdout
+    except Exception:
+        return {}
+    d, cur = {}, None
+    for l in out.splitlines():
+        if l.startswith("@"):
+            cur = l[1:]
+        elif l.strip() and l not in d:
+            d[l] = cur
+    return d
+
+
+FECHAS_GIT = _fechas_git()
+MESES_ES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+            "septiembre", "octubre", "noviembre", "diciembre"]
+
+
+def fecha_git(f):
+    return FECHAS_GIT.get(str(Path(f).resolve().relative_to(RAIZ)), HOY)
+
+
+def fecha_larga(iso):
+    a, m, d = iso.split("-")
+    return f"{int(d)} de {MESES_ES[int(m) - 1]} de {a}"
+
 REGLAS_ESPECULACION = json.dumps({"prerender": [{"source": "document", "where": {"and": [
     {"href_matches": "/*"}, {"not": {"href_matches": "/assets/*"}}, {"not": {"selector_matches": "[target=_blank]"}}]},
     "eagerness": "moderate"}]}, separators=(",", ":"))
@@ -693,6 +724,18 @@ LABORATORIOS = [
      "descripcion": "El círculo de la ansiedad social según Clark y Wells, conductas de seguridad, atención hacia afuera y experimentos."},
     {"titulo": "Laboratorio de procrastinación", "ruta": "/laboratorio-de-procrastinacion/", "tipo": "Procrastinación",
      "descripcion": "La emoción que se evita, el primer paso mínimo, el yo futuro y perdonarse para seguir."},
+    {"titulo": "Laboratorio de culpa y vergüenza", "ruta": "/laboratorio-de-culpa-y-verguenza/", "tipo": "Culpa y vergüenza",
+     "descripcion": "Distinguir la culpa de la vergüenza, separar responsabilidad de autocastigo y reparar el daño sin hundirse."},
+    {"titulo": "Laboratorio de perfeccionismo", "ruta": "/laboratorio-de-perfeccionismo/", "tipo": "Perfeccionismo",
+     "descripcion": "El costo de la vara alta, el chequeo y la evitación, estándares suficientemente buenos y experimentos conductuales."},
+    {"titulo": "Laboratorio de celos", "ruta": "/laboratorio-de-celos/", "tipo": "Celos",
+     "descripcion": "Qué dispara los celos, hechos frente a interpretaciones, conductas de chequeo y cómo preparar una conversación difícil."},
+    {"titulo": "Laboratorio de soledad y conexión", "ruta": "/laboratorio-de-soledad-y-conexion/", "tipo": "Soledad",
+     "descripcion": "Soledad elegida y no elegida, el mapa de tu red, los sesgos de la soledad y pequeños gestos de contacto."},
+    {"titulo": "Laboratorio de jubilación y nuevas etapas", "ruta": "/laboratorio-de-jubilacion-y-nuevas-etapas/", "tipo": "Jubilación",
+     "descripcion": "Qué aportaba el trabajo, la semana con estructura, la identidad más allá del oficio, un proyecto propio y los vínculos."},
+    {"titulo": "Laboratorio de burnout", "ruta": "/laboratorio-de-burnout/", "tipo": "Burnout",
+     "descripcion": "Las tres dimensiones de Maslach, lo que depende de vos y lo que es de la organización, límites y recuperación."},
     {"titulo": "Laboratorio de crianza", "ruta": "/laboratorio-de-crianza/", "tipo": "Crianza",
      "descripcion": "Afecto y exigencia, acompañar las emociones de los hijos, reparar después de un error y límites con cariño."},
     {"titulo": "Laboratorio para entender el trauma", "ruta": "/laboratorio-de-trauma/", "tipo": "Trauma",
@@ -838,7 +881,7 @@ TEMAS_LAB = {
     "/laboratorio-de-emociones/": "Emociones", "/laboratorio-de-la-sabiduria-de-las-emociones/": "Emociones", "/laboratorio-de-presencia/": "Cuerpo y respiración",
     "/laboratorio-de-suenos/": "Jung y autoconocimiento", "/laboratorio-de-valores/": "Jung y autoconocimiento",
     "/laboratorio-de-aprender-a-aprender/": "Aprendizaje y cambio", "/laboratorio-de-ansiedad/": "Emociones", "/laboratorio-de-pensamientos-repetitivos/": "Emociones",
-    "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones", "/laboratorio-de-ansiedad-social/": "Emociones", "/laboratorio-de-procrastinacion/": "Aprendizaje y cambio", "/laboratorio-de-crianza/": "Vínculos", "/laboratorio-de-trauma/": "Emociones", "/laboratorio-de-dolor-cronico/": "Cuerpo y respiración", "/laboratorio-de-conductas-compulsivas/": "Aprendizaje y cambio", "/laboratorio-de-psicotanatologia/": "Emociones",
+    "/laboratorio-de-autocompasion/": "Emociones", "/laboratorio-de-vinculos/": "Vínculos", "/laboratorio-de-duelo/": "Emociones", "/laboratorio-de-ansiedad-social/": "Emociones", "/laboratorio-de-procrastinacion/": "Aprendizaje y cambio", "/laboratorio-de-culpa-y-verguenza/": "Emociones", "/laboratorio-de-perfeccionismo/": "Emociones", "/laboratorio-de-celos/": "Vínculos", "/laboratorio-de-soledad-y-conexion/": "Vínculos", "/laboratorio-de-jubilacion-y-nuevas-etapas/": "Psicología en práctica", "/laboratorio-de-burnout/": "Emociones", "/laboratorio-de-crianza/": "Vínculos", "/laboratorio-de-trauma/": "Emociones", "/laboratorio-de-dolor-cronico/": "Cuerpo y respiración", "/laboratorio-de-conductas-compulsivas/": "Aprendizaje y cambio", "/laboratorio-de-psicotanatologia/": "Emociones",
     "/laboratorio-de-no-violencia-interior/": "Emociones", "/laboratorio-de-buen-trato/": "Vínculos", "/laboratorio-de-violencia-en-el-vinculo/": "Vínculos", "/laboratorio-del-perdon/": "Emociones", "/laboratorio-del-jardinero-interior/": "Emociones", "/laboratorio-de-asertividad/": "Vínculos", "/laboratorio-de-higiene-sensorial/": "Cuerpo y respiración", "/laboratorio-de-flexibilidad-ante-expectativas/": "Enfoques", "/laboratorio-de-psicoterapia-breve-focalizada/": "Enfoques", "/laboratorio-fiorini-el-foco/": "Enfoques", "/laboratorio-fiorini-intervenciones/": "Enfoques", "/laboratorio-fiorini-psiquismo-creador/": "Enfoques", "/laboratorio-del-psicodiagnostico/": "Psicología en práctica", "/laboratorio-de-platon/": "Filosofía en práctica", "/laboratorio-de-wundt/": "Psicología en práctica", "/laboratorio-de-naturaleza-y-psique/": "Psicología en práctica", "/laboratorio-separarse-sin-perderse/": "Psicología en práctica", "/laboratorio-conflicto-alto-y-seguridad/": "Psicología en práctica", "/laboratorio-de-inteligencias-multiples/": "Aprendizaje y cambio", "/laboratorio-de-psicoterapia-integrativa/": "Enfoques", "/laboratorio-de-resolucion-de-problemas/": "Aprendizaje y cambio", "/laboratorio-plan-de-seguridad/": "Emociones", "/laboratorio-de-alcohol-y-consumos/": "Aprendizaje y cambio", "/laboratorio-de-ataques-de-panico/": "Emociones", "/laboratorio-de-insomnio/": "Cuerpo y respiración", "/laboratorio-meditaciones-del-corazon/": "Emociones", "/laboratorio-de-amor-bondadoso/": "Emociones", "/laboratorio-de-compasion-y-tonglen/": "Emociones", "/laboratorio-de-alegria-empatica/": "Emociones", "/laboratorio-de-ecuanimidad/": "Emociones", "/laboratorio-de-esquemas/": "Enfoques", "/laboratorio-compasion-tres-sistemas/": "Emociones", "/laboratorio-compasion-yo-compasivo/": "Emociones", "/laboratorio-compasion-tres-flujos/": "Emociones", "/laboratorio-de-mentalizacion/": "Vínculos", "/laboratorio-de-psicodrama/": "Enfoques", "/laboratorio-focalizado-en-las-emociones/": "Emociones",
     "/laboratorio-de-sombra-y-arquetipos/": "Jung y autoconocimiento", "/laboratorio-recorrido-junguiano/": "Jung y autoconocimiento", "/laboratorio-de-complejos-y-tipos/": "Jung y autoconocimiento", "/laboratorio-de-estres/": "Cuerpo y respiración", "/laboratorio-de-afrontamiento/": "Psicología en práctica", "/laboratorio-de-ikigai/": "Enfoques", "/laboratorio-de-decisiones/": "Aprendizaje y cambio", "/laboratorio-de-pantallas/": "Aprendizaje y cambio", "/laboratorio-de-miedos-y-fobias/": "Emociones", "/laboratorio-de-apuestas-y-juego/": "Aprendizaje y cambio", "/laboratorio-para-quien-cuida/": "Vínculos",
     "/laboratorio-de-descanso/": "Cuerpo y respiración", "/laboratorio-de-habitos/": "Aprendizaje y cambio",
@@ -1022,28 +1065,28 @@ def bloque_mapa_laboratorios():
 
 # Guía «¿Por dónde empiezo?»: tema → página de motivo, artículos y laboratorios sugeridos.
 GUIA = [
-    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "ansiedad-social", "respiracion-y-emociones", "ansiedad-por-la-salud", "fobias"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-respirar-volver-al-presente/", "/laboratorio-de-respiraciones/", "/laboratorio-de-miedos-y-fobias/"]),
+    ("ansiedad", "Ansiedad o preocupación", "/ansiedad-y-ataques-de-panico/", ["ansiedad-cuando-el-cuerpo-habla", "ansiedad-social", "respiracion-y-emociones", "ansiedad-por-la-salud", "fobias", "ansiedad-generalizada", "trastorno-obsesivo-compulsivo"], ["/laboratorio-de-ansiedad/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-respirar-volver-al-presente/", "/laboratorio-de-respiraciones/", "/laboratorio-de-miedos-y-fobias/"]),
     ("panico", "Ataques de pánico", "/ansiedad-y-ataques-de-panico/", ["ataque-de-panico-que-hacer", "respiracion-y-emociones", "fobias"], ["/laboratorio-de-ataques-de-panico/", "/laboratorio-de-presencia/", "/laboratorio-de-miedos-y-fobias/"]),
-    ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
-    ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego", "los-celos", "infidelidad", "narcisismo"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
+    ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "psicologo-o-psiquiatra", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
+    ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "apego-ansioso-y-evitativo", "terapia-de-pareja", "el-apego", "los-celos", "infidelidad", "narcisismo"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/", "/laboratorio-de-celos/"]),
     ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma", "padres-de-adolescentes"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-sistemico/"]),
-    ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia", "duelo-perinatal"], ["/laboratorio-de-duelo/"]),
-    ("estres", "Estrés o agotamiento", "/estres-y-agotamiento/", ["burnout", "la-motivacion", "respiracion-y-emociones"], ["/laboratorio-de-estres/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/"]),
-    ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["autoexigencia-y-perfeccionismo", "la-culpa", "psicologia-humanista-carl-rogers", "la-verguenza", "mejor-version-posible"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/", "/laboratorio-mi-mejor-version/"]),
+    ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia", "duelo-perinatal"], ["/laboratorio-de-duelo/", "/laboratorio-de-psicotanatologia/"]),
+    ("estres", "Estrés o agotamiento", "/estres-y-agotamiento/", ["burnout", "la-motivacion", "respiracion-y-emociones"], ["/laboratorio-de-estres/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/", "/laboratorio-de-burnout/"]),
+    ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["autoexigencia-y-perfeccionismo", "la-culpa", "psicologia-humanista-carl-rogers", "la-verguenza", "mejor-version-posible"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/", "/laboratorio-mi-mejor-version/", "/laboratorio-de-culpa-y-verguenza/"]),
     ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["insomnio", "pesadillas", "respiracion-y-emociones"], ["/laboratorio-de-insomnio/", "/laboratorio-de-descanso/", "/laboratorio-de-suenos/"]),
     ("crisis", "Una crisis o un cambio de etapa", "/crisis-vitales/", ["crisis-de-la-mitad-de-la-vida", "logoterapia-y-sentido", "ikigai"], ["/laboratorio-de-crisis-vitales/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-de-sentido/", "/laboratorio-de-valores/", "/laboratorio-de-ikigai/"]),
     ("conocerme", "Conocerme más", "/terapia-junguiana/", ["la-sombra-segun-jung", "que-es-el-eneagrama", "tipos-psicologicos-jung"], ["/laboratorio-de-sombra-y-arquetipos/", "/laboratorio-de-imaginacion-activa/", "/laboratorio-mito-personal/"]),
     ("emociones", "Emociones que me desbordan", "/ansiedad-y-ataques-de-panico/", ["las-emociones-segun-jung", "la-ventana-de-tolerancia", "trastorno-limite-de-la-personalidad"], ["/laboratorio-rueda-de-las-emociones/", "/laboratorio-de-regulacion/", "/laboratorio-de-habilidades-dbt/", "/laboratorio-de-emociones/"]),
     ("cambio", "Cambiar hábitos o empezar algo", "/crisis-vitales/", ["procrastinacion", "metahabilidades", "la-motivacion", "tomar-decisiones"], ["/laboratorio-de-habitos/", "/laboratorio-de-creatividad/", "/laboratorio-de-decisiones/"]),
     ("meditar", "Empezar a meditar o respirar mejor", "/terapia-junguiana/", ["que-es-la-meditacion", "cuando-meditar-no-es-recomendable"], ["/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/", "/laboratorio-de-respiraciones/"]),
-    ("cuerpo", "Síntomas en el cuerpo o tensión", "/ansiedad-y-ataques-de-panico/", ["psicologia-corporal", "ansiedad-por-la-salud", "interocepcion", "mapa-de-las-psicoterapias-corporales"], ["/laboratorio-de-psicologia-corporal/", "/laboratorio-de-terapias-corporales/", "/laboratorio-de-regulacion/", "/laboratorio-de-tono-postura-y-movimiento/"]),
-    ("trauma", "Después de algo traumático", "/trauma/", ["la-ventana-de-tolerancia", "emdr", "somatic-experiencing", "el-cuerpo-lleva-la-cuenta"], ["/laboratorio-de-trauma/", "/laboratorio-de-regulacion/", "/laboratorio-respirar-volver-al-presente/"]),
+    ("cuerpo", "Síntomas en el cuerpo o tensión", "/ansiedad-y-ataques-de-panico/", ["psicologia-corporal", "dolor-cronico-y-psicologia", "ansiedad-por-la-salud", "interocepcion", "mapa-de-las-psicoterapias-corporales"], ["/laboratorio-de-psicologia-corporal/", "/laboratorio-de-terapias-corporales/", "/laboratorio-de-regulacion/", "/laboratorio-de-tono-postura-y-movimiento/"]),
+    ("trauma", "Después de algo traumático", "/trauma/", ["estres-postraumatico", "la-ventana-de-tolerancia", "emdr", "somatic-experiencing", "el-cuerpo-lleva-la-cuenta"], ["/laboratorio-de-trauma/", "/laboratorio-de-regulacion/", "/laboratorio-respirar-volver-al-presente/"]),
     ("separacion", "Una separación", "/separaciones-complicadas/", ["hijos-y-separacion", "la-culpa", "el-enojo", "la-resiliencia"], ["/laboratorio-separarse-sin-perderse/", "/laboratorio-conflicto-alto-y-seguridad/", "/laboratorio-de-duelo/"]),
-    ("violencia", "Conflicto o violencia en un vínculo", "/dificultades-vinculares/", ["los-celos", "el-enojo"], ["/laboratorio-de-violencia-en-el-vinculo/", "/laboratorio-conflicto-alto-y-seguridad/", "/laboratorio-plan-de-seguridad/", "/laboratorio-de-asertividad/"]),
-    ("soledad", "Soledad", "/dificultades-vinculares/", ["la-soledad", "pantallas-y-redes-sociales"], ["/laboratorio-de-vinculos/", "/laboratorio-mi-mapa-de-vinculos/"]),
+    ("violencia", "Conflicto o violencia en un vínculo", "/dificultades-vinculares/", ["violencia-en-la-pareja", "los-celos", "el-enojo"], ["/laboratorio-de-violencia-en-el-vinculo/", "/laboratorio-conflicto-alto-y-seguridad/", "/laboratorio-plan-de-seguridad/", "/laboratorio-de-asertividad/"]),
+    ("soledad", "Soledad", "/dificultades-vinculares/", ["la-soledad", "pantallas-y-redes-sociales"], ["/laboratorio-de-vinculos/", "/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-soledad-y-conexion/"]),
     ("enojo", "Enojo o bronca", "/dificultades-vinculares/", ["el-enojo", "la-culpa"], ["/laboratorio-de-emociones/", "/laboratorio-dbt-regulacion-emocional/", "/laboratorio-de-comunicacion-no-violenta/"]),
-    ("perfeccionismo", "Autoexigencia o perfeccionismo", "/autoestima/", ["autoexigencia-y-perfeccionismo", "mejor-version-posible", "la-verguenza"], ["/laboratorio-mi-mejor-version/", "/laboratorio-de-autocompasion/", "/laboratorio-de-valores/"]),
-    ("verguenza", "Vergüenza", "/autoestima/", ["la-verguenza", "la-culpa", "ansiedad-social"], ["/laboratorio-de-autocompasion/", "/laboratorio-compasion-tres-sistemas/"]),
+    ("perfeccionismo", "Autoexigencia o perfeccionismo", "/autoestima/", ["autoexigencia-y-perfeccionismo", "mejor-version-posible", "la-verguenza"], ["/laboratorio-mi-mejor-version/", "/laboratorio-de-autocompasion/", "/laboratorio-de-valores/", "/laboratorio-de-perfeccionismo/"]),
+    ("verguenza", "Vergüenza", "/autoestima/", ["la-verguenza", "la-culpa", "ansiedad-social"], ["/laboratorio-de-autocompasion/", "/laboratorio-compasion-tres-sistemas/", "/laboratorio-de-culpa-y-verguenza/"]),
     ("afrontar", "Afrontar algo difícil", "/estres-y-agotamiento/", ["estrategias-de-afrontamiento", "la-resiliencia", "burnout"], ["/laboratorio-de-afrontamiento/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-dbt-tolerancia-al-malestar/"]),
     ("decidir", "Tomar una decisión difícil", "/crisis-vitales/", ["tomar-decisiones", "autoexigencia-y-perfeccionismo"], ["/laboratorio-de-decisiones/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-de-valores/"]),
     ("proposito", "Propósito o vocación", "/crisis-vitales/", ["ikigai", "mejor-version-posible", "logoterapia-y-sentido"], ["/laboratorio-de-ikigai/", "/laboratorio-de-valores/", "/laboratorio-de-fortalezas-y-virtudes/"]),
@@ -1052,7 +1095,7 @@ GUIA = [
     ("pantallas", "Uso de pantallas o redes", "/motivos-de-consulta/", ["pantallas-y-redes-sociales", "la-soledad"], ["/laboratorio-de-pantallas/", "/laboratorio-de-habitos/"]),
     ("comida", "Mi relación con la comida o con el cuerpo", "/motivos-de-consulta/", ["trastornos-de-la-conducta-alimentaria", "autoexigencia-y-perfeccionismo"], ["/laboratorio-de-autocompasion/"]),
     ("concentracion", "Me cuesta concentrarme u organizarme", "/motivos-de-consulta/", ["tdah-en-adultos", "procrastinacion"], ["/laboratorio-de-habitos/", "/laboratorio-de-aprendizaje-y-habito/"]),
-    ("envejecer", "Envejecer o jubilarme", "/terapia-para-adultos-mayores/", ["vejez-y-jubilacion", "ikigai", "erik-erikson"], ["/laboratorio-de-crisis-vitales/", "/laboratorio-de-ikigai/", "/laboratorio-de-sentido/"]),
+    ("envejecer", "Envejecer o jubilarme", "/terapia-para-adultos-mayores/", ["vejez-y-jubilacion", "ikigai", "erik-erikson"], ["/laboratorio-de-crisis-vitales/", "/laboratorio-de-ikigai/", "/laboratorio-de-sentido/", "/laboratorio-de-jubilacion-y-nuevas-etapas/"]),
     ("sexualidad", "Sexualidad", "/dificultades-vinculares/", ["sexualidad", "la-verguenza"], ["/laboratorio-de-pareja/", "/laboratorio-de-vinculos/"]),
     ("riesgo", "Me preocupa que alguien se haga daño", "/motivos-de-consulta/", ["prevencion-del-suicidio", "autolesiones", "como-acompanar-a-alguien-con-depresion"], ["/laboratorio-plan-de-seguridad/", "/laboratorio-dbt-tolerancia-al-malestar/"]),
     ("apuestas", "Apuestas o juego", "/motivos-de-consulta/", ["apuestas-online", "pantallas-y-redes-sociales"], ["/laboratorio-de-apuestas-y-juego/", "/laboratorio-de-alcohol-y-consumos/", "/laboratorio-de-conductas-compulsivas/"]),
@@ -1076,14 +1119,16 @@ GUIA_TESTS = {
     "afrontar": [("Test de afrontamiento del estrés", "/test-de-afrontamiento-del-estres/")],
     "sentido": [("Test de sentido y espiritualidad", "/test-de-sentido-y-espiritualidad/")],
     "proposito": [("Test de fortalezas", "/test-de-fortalezas/"), ("Test de sentido y espiritualidad", "/test-de-sentido-y-espiritualidad/")],
-    "perfeccionismo": [("Test de fortalezas", "/test-de-fortalezas/")],
+    "perfeccionismo": [("Escala de autocompasión de Neff", "/escala-de-autocompasion/"), ("Test de fortalezas", "/test-de-fortalezas/")],
     "trauma": [("Test de conciencia corporal", "/test-de-conciencia-corporal/")],
     "ansiedad": [("Escala de ansiedad GAD-7", "/escala-de-ansiedad-gad-7/")],
     "panico": [("Escala de ansiedad GAD-7", "/escala-de-ansiedad-gad-7/")],
-    "tristeza": [("Cuestionario de ánimo PHQ-9", "/escala-de-animo-phq-9/"), ("Índice de bienestar WHO-5", "/indice-de-bienestar-who-5/")],
+    "tristeza": [("Cuestionario de ánimo PHQ-9", "/escala-de-animo-phq-9/"), ("Índice de bienestar WHO-5", "/indice-de-bienestar-who-5/"), ("Escala de Edimburgo (embarazo y posparto)", "/escala-de-depresion-perinatal-edimburgo/")],
     "vinculos": [("Test de estilos de apego", "/test-de-estilos-de-apego/")],
-    "estres": [("Test de afrontamiento del estrés", "/test-de-afrontamiento-del-estres/")],
-    "autoestima": [("Escala de autoestima de Rosenberg", "/escala-de-autoestima-rosenberg/")],
+    "estres": [("Escala de estrés percibido PSS-10", "/escala-de-estres-percibido/"), ("Inventario de burnout de Copenhague", "/escala-de-burnout-de-copenhague/"), ("Test de afrontamiento del estrés", "/test-de-afrontamiento-del-estres/")],
+    "consumos": [("Cuestionario de alcohol AUDIT (OMS)", "/escala-de-alcohol-audit/")],
+    "cuidar": [("Inventario de burnout de Copenhague", "/escala-de-burnout-de-copenhague/")],
+    "autoestima": [("Escala de autoestima de Rosenberg", "/escala-de-autoestima-rosenberg/"), ("Escala de autocompasión de Neff", "/escala-de-autocompasion/")],
     "conocerme": [("El mapa de lo que me habita", "/el-mapa-de-lo-que-me-habita/"), ("Test de eneagrama", "/test-de-eneagrama/"), ("Test de mecanismos de defensa", "/test-de-mecanismos-de-defensa/"), ("Si no fueras una persona, ¿qué serías?", "/ejercicio-desiderativo/")],
     "emociones": [("Test de mecanismos de defensa", "/test-de-mecanismos-de-defensa/")],
     "crisis": [("Una persona bajo la lluvia", "/ejercicio-persona-bajo-la-lluvia/")],
@@ -1496,18 +1541,43 @@ WIKI = {
     "eneagrama": ("Eneagrama de la personalidad", "https://es.wikipedia.org/wiki/Eneagrama_de_la_personalidad"),
 }
 
+CATEGORIAS_INTRO = {
+    "Jung y psicología analítica": ["Carl Gustav Jung (1875-1961) se separó de Freud en 1913 y construyó la psicología analítica: una forma de entender la psique donde el inconsciente no es solo lo reprimido, sino también una fuente de imágenes, símbolos y posibilidades de desarrollo.",
+                                    "Acá vas a encontrar sus conceptos centrales (complejos, arquetipos, sombra, tipos psicológicos, individuación) y cómo se trabajan en una terapia de orientación junguiana, con los sueños y la imaginación activa como herramientas."],
+    "Ansiedad y emociones": ["La ansiedad es una respuesta normal ante la amenaza; se vuelve un problema cuando aparece sin peligro real, dura demasiado o empieza a decidir por vos. Las emociones difíciles, como la vergüenza o el miedo, también tienen una función y algo para decir.",
+                             "Los artículos combinan aportes de la terapia cognitivo-conductual, de la terapia de aceptación y compromiso, del psicoanálisis y de la neurobiología de la regulación emocional, con pautas para saber cuándo conviene consultar."],
+    "Vínculos y relaciones": ["Buena parte de lo que nos hace sufrir pasa en los vínculos: pareja, familia, amistades, cuidado de otros. La teoría del apego de John Bowlby y la terapia sistémica muestran cómo los modos de vincularnos se aprenden temprano y tienden a repetirse.",
+                              "Estos artículos tratan la dependencia emocional, la infidelidad, la soledad, las separaciones y lo que implica cuidar a un familiar, para entender qué se repite y qué se puede empezar a hacer distinto."],
+    "Salud mental": ["Información clara sobre cuadros y situaciones frecuentes en consulta (trastorno bipolar, TDAH en adultos, trastornos de la conducta alimentaria, autolesiones, consumo y apuestas), y sobre cómo acompañar a alguien que está pasando un mal momento.",
+                     "Ningún artículo reemplaza una evaluación profesional. Si estás en riesgo, la página de ayuda urgente tiene los teléfonos de asistencia en Argentina."],
+    "Psicología contemporánea": ["Las psicoterapias de las últimas décadas: los enfoques corporales y somáticos, la terapia de aceptación y compromiso, la terapia narrativa, la sistémica, la Gestalt, la logoterapia y los diálogos entre psicología y espiritualidad.",
+                                 "Cada artículo presenta de dónde viene el enfoque, sus autores de referencia, qué evidencia lo respalda y cuáles son sus límites, para que puedas orientarte entre tantas propuestas."],
+    "Psicología básica": ["Los conceptos que sostienen todo lo demás: personalidad, inteligencia, emociones, apego, memoria, aprendizaje y motivación, explicados con sus teorías y autores principales.",
+                          "Es un buen punto de partida si estudiás psicología o si querés entender mejor cómo funciona la mente antes de leer sobre enfoques terapéuticos."],
+    "Meditación y respiración": ["Las tradiciones contemplativas de Oriente y Occidente, y lo que la psicología investigó sobre ellas desde el programa de reducción del estrés de Jon Kabat-Zinn (1979) en adelante.",
+                                 "Vas a encontrar distintos tipos de meditación y de respiración, sus beneficios posibles y también sus contraindicaciones: hay momentos en que meditar no es lo más indicado."],
+    "Evaluación psicológica": ["Cómo evalúa la psicología: técnicas proyectivas como el HTP, el desiderativo o las frases incompletas, y técnicas psicométricas con escalas estandarizadas.",
+                               "También se explica qué es el apto psicológico para la licencia de conducir y qué se puede (y qué no) concluir de un test hecho en internet."],
+    "Eneagrama": ["El eneagrama de la personalidad describe nueve estilos a partir de sus motivaciones y miedos centrales. Llegó a la psicología por Oscar Ichazo y Claudio Naranjo, y tiene un respaldo empírico limitado.",
+                  "Estos artículos lo presentan como una herramienta de autoconocimiento, no como un diagnóstico, y lo comparan con modelos de personalidad más estudiados."],
+    "Historia de la psicología": ["La psicología tiene apenas un siglo y medio como disciplina, desde el laboratorio de Wilhelm Wundt en Leipzig (1879). En ese tiempo surgieron el psicoanálisis, el conductismo, la psicología humanista, la cognitiva y muchas escuelas más.",
+                                  "Esta serie recorre a sus autores: su vida, sus ideas principales, sus obras y lo que dejaron a la práctica clínica de hoy. El mapa de la psicología los ubica por escuela y por época."],
+    "Desarrollo personal": ["Crecer no es volverse otra persona sino poder ser más plenamente quien sos. Jung lo llamó individuación; Viktor Frankl puso el acento en el sentido, y la psicología positiva de Martin Seligman estudió las fortalezas del carácter.",
+                            "Acá vas a encontrar artículos sobre crisis vitales, decisiones, propósito, fortalezas y envejecimiento, con ejercicios para pensar tu propio recorrido."],
+}
+
 CATEGORIAS = {
     "Jung y psicología analítica": "Sueños, sombra, arquetipos e individuación: la psicología analítica de Carl Gustav Jung, explicada para la vida cotidiana.",
     "Ansiedad y emociones": "Ansiedad, ataques de pánico y emociones difíciles: qué nos dicen, por qué aparecen y cómo atravesarlas con ayuda.",
-    "Vínculos y relaciones": "Patrones que se repiten, dependencia emocional y la forma en que nos vinculamos con la pareja, la familia y los otros.",
-    "Salud mental": "Cuándo consultar a un psicólogo, cómo acompañar a alguien que sufre y cómo cuidar tu salud mental, con señales para orientarte.",
+    "Vínculos y relaciones": "Patrones que se repiten, dependencia emocional, infidelidad, soledad, separaciones y cuidado de familiares: cómo nos vinculamos con los otros.",
+    "Salud mental": "Cuándo consultar, cómo acompañar a alguien que sufre y qué saber sobre cuadros como el bipolar, el TDAH o los trastornos alimentarios.",
     "Psicología contemporánea": "Psicoterapia integrativa, terapia online, duelo migratorio y otros temas de la psicología de hoy, en lenguaje claro.",
     "Psicología básica": "Personalidad, inteligencia, emociones, apego, memoria y motivación: los conceptos básicos de la psicología, explicados en lenguaje claro.",
     "Meditación y respiración": "Tipos de meditación de Oriente y Occidente, técnicas de respiración y lo que dice la psicología sobre ellas: beneficios, límites y cuidados.",
     "Evaluación psicológica": "Apto psicológico para la licencia de conducir, técnicas proyectivas como el HTP y el desiderativo, y técnicas psicométricas: qué son y cómo se usan.",
     "Eneagrama": "El eneagrama de la personalidad y sus nueve eneatipos: motivaciones, miedos, alas y caminos de crecimiento, desde una mirada psicológica y crítica.",
     "Historia de la psicología": "Quiénes hicieron la psicología: la vida, las ideas y los conceptos fundamentales de sus autores, del psicoanálisis al presente.",
-    "Desarrollo personal": "Crisis vitales, la crisis de la mitad de la vida, búsqueda de sentido y autoconocimiento desde una mirada junguiana.",
+    "Desarrollo personal": "Crisis vitales, decisiones, sentido, fortalezas del carácter y envejecer: crecer desde la psicología junguiana, existencial y positiva.",
 }
 
 
@@ -1573,6 +1643,15 @@ TERMINOS_GLOSARIO = [
     ("/glosario-junguiano/", "mandala", r"mandalas?"),
     ("/glosario-junguiano/", "tipos-psicologicos", r"tipos psicológicos"),
     ("/glosario-junguiano/", "complejo", r"complejos"),
+    ("/glosario-clinico/", "exposicion-con-prevencion-de-respuesta", r"exposición con prevención de respuesta"),
+    ("/glosario-clinico/", "intolerancia-a-la-incertidumbre", r"intolerancia a la incertidumbre"),
+    ("/glosario-clinico/", "duelo-desautorizado", r"duelos? (?:desautorizados?|no reconocidos?)"),
+    ("/glosario-clinico/", "fenomeno-del-impostor", r"(?:fenómeno|síndrome) del impostor"),
+    ("/glosario-clinico/", "modos-prementalizadores", r"modos? prementalizadores?"),
+    ("/glosario-clinico/", "modelo-biopsicosocial", r"modelo biopsicosocial"),
+    ("/glosario-clinico/", "teoria-de-la-compuerta", r"teoría de la compuerta"),
+    ("/glosario-clinico/", "modelo-de-miedo-evitacion", r"modelo de miedo[- ]evitación"),
+    ("/glosario-clinico/", "estilos-de-apego-adulto", r"apego (?:ansioso|evitativo)"),
     ("/glosario-clinico/", "encuadre", r"encuadres?"),
     ("/glosario-clinico/", "alianza-terapeutica", r"alianza terapéutica"),
     ("/glosario-clinico/", "transferencia", r"transferencia"),
@@ -1690,6 +1769,40 @@ def indice_articulo(html_md):
         return ""
     items = "".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in hs)
     return f'<details class="indice-articulo" open><summary class="indice-articulo__titulo">En este artículo</summary><ol>{items}</ol></details>'
+
+
+MOTIVOS_HUB = ["/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/",
+               "/crisis-vitales/", "/autoestima/", "/dificultades-vinculares/", "/trauma/"]
+
+
+def bloque_hub(ruta, ya):
+    """Página de motivo como centro temático: más lecturas, laboratorios y tests afines."""
+    nl = _nombre_lab()
+    labs, tests, slugs = [], [], []
+    for g in GUIA:
+        if g[2] != ruta:
+            continue
+        labs += [l for l in g[4] if l in nl and l not in labs]
+        tests += [t for t in GUIA_TESTS.get(g[0], []) if t not in tests]
+        slugs += [x for x in g[3] if x not in slugs]
+    slugs += [a["archivo"][:-3] for a in ARTICULOS if a["publicado"] and (destino_consulta(a) or ("",))[0] == ruta]
+    por_slug = {a["archivo"][:-3]: a for a in ARTICULOS if a["publicado"]}
+    arts = []
+    for x in slugs:
+        if x in por_slug and x not in ya and por_slug[x] not in arts:
+            arts.append(por_slug[x])
+    arts = arts[:6]
+    col = lambda t, items: (f'<div><h3>{t}</h3><ul>' + "".join(f'<li><a href="{r}">{esc(n)}</a></li>' for n, r in items) + "</ul></div>") if items else ""
+    cols = (col("Más lecturas", [(a["titulo"], a["ruta"]) for a in arts])
+            + col("Laboratorios para practicar", [(nl[l], l) for l in labs[:5]])
+            + col("Tests orientativos", tests[:3]))
+    if not cols:
+        return ""
+    return f'''<section class="seccion hub-motivo" aria-labelledby="titulo-hub"><div class="contenedor">
+  <div class="encabezado-seccion revelar"><p class="antetitulo">Entre sesiones</p><h2 id="titulo-hub">Para leer y <em>practicar</em></h2>
+  <p>Recursos del sitio sobre este tema. Sirven para pensar y ejercitar por tu cuenta; no reemplazan una consulta ni sirven para diagnosticar.</p></div>
+  <div class="hub-motivo__cols">{cols}</div>
+</div></section>'''
 
 
 def leer_mas(slugs):
@@ -2042,6 +2155,7 @@ def leer_articulos():
         meta["ruta"] = f'/recursos/{f.stem}/'
         meta["md"] = cuerpo
         meta["archivo"] = f.name
+        meta["modificado"] = max(meta.get("revision", meta.get("fecha", HOY)), fecha_git(f))
         arts.append(meta)
     arts.sort(key=lambda a: int(a.get("orden", 99)))
     return arts
@@ -2057,6 +2171,66 @@ def relacionados(a):
         return ""
     items = "".join(f'<li><a href="{x["ruta"]}"><span>{esc(x["categoria"])}</span>{esc(x["titulo"])}</a></li>' for x in otros[:3])
     return f'<nav class="relacionados" aria-label="Artículos relacionados"><h2>Seguí leyendo</h2><ul>{items}</ul></nav>'
+
+
+# Puente artículo → consulta: (patrón sobre slug, título y palabras clave, ruta, tema en minúscula).
+# El primero que coincide gana; un campo «motivo: /ruta/» en el frontmatter lo fuerza («motivo: no» lo apaga).
+CONSULTA_REGLAS = [
+    (r"adolescen", "/psicologo-para-adolescentes/", "la terapia con adolescentes"),
+    (r"vejez|jubila|envejec|adultos? mayores|tercera edad", "/terapia-para-adultos-mayores/", "la terapia con adultos mayores"),
+    (r"exterior|migra|expatri|vivir afuera", "/terapia-online-por-pais/", "la terapia online desde otros países"),
+    (r"separaci|divorci|separarse|ruptura", "/separaciones-complicadas/", "las separaciones"),
+    (r"duelo|pérdida|perdida|psicotanatolog|morir|la muerte", "/duelo-y-perdidas/", "el duelo y las pérdidas"),
+    (r"trauma|polivagal|disocia|ventana de tolerancia|somatic|el cuerpo lleva", "/trauma/", "el trauma"),
+    (r"pánico|panico|ansiedad|fobia|miedo|hipocondr|preocupaci|obsesi|compulsi", "/ansiedad-y-ataques-de-panico/", "la ansiedad y los ataques de pánico"),
+    (r"depresi|tristeza|ánimo|activación conductual|anhedon", "/depresion/", "la depresión"),
+    (r"estrés|estres|burnout|agotamiento|insomnio|descanso|cansancio", "/estres-y-agotamiento/", "el estrés y el agotamiento"),
+    (r"autoestima|vergüenza|verguenza|perfeccion|autoexigencia|autocompasi|autocrítica|narcis|mejor versión", "/autoestima/", "la autoestima"),
+    (r"pareja|vínculo|vinculo|apego|amor|celos|dependencia emocional|violencia|familia|crianza|soledad|asertiv", "/dificultades-vinculares/", "los vínculos"),
+    (r"crisis|mitad de la vida|transici|cambio de etapa|decisi|vocaci|ikigai|sentido de la vida|propósito", "/crisis-vitales/", "las crisis vitales y los cambios de etapa"),
+]
+CONSULTA_GENERAL = ("/psicoterapia-para-adultos/", "la psicoterapia con adultos")
+# Asignaciones fijas donde el nombre no alcanza (None = sin bloque: temas que requieren otra derivación).
+CONSULTA_FIJA = {
+    "prevencion-del-suicidio": None, "primer-episodio-psicotico": None, "autolesiones": None,
+    "trastornos-de-la-conducta-alimentaria": None, "mapa-de-la-psicologia-positiva": None,
+    "como-saber-si-necesito-terapia": "/primera-consulta/", "terapia-con-psicodelicos": None,
+    "insomnio": "/estres-y-agotamiento/", "pesadillas": "/trauma/", "dependencia-emocional": "/dificultades-vinculares/",
+    "patrones-que-se-repiten-en-los-vinculos": "/dificultades-vinculares/", "la-culpa": "/autoestima/",
+    "fauna-y-observacion": "/estres-y-agotamiento/", "flora-y-salud-mental": "/estres-y-agotamiento/",
+    "cuidar-a-un-familiar": "/terapia-para-adultos-mayores/", "pantallas-y-redes-sociales": "/psicologo-para-adolescentes/", "la-resiliencia": "/duelo-y-perdidas/", "sindrome-del-impostor": "/autoestima/", "la-envidia": "/autoestima/", "nido-vacio": "/crisis-vitales/", "menopausia-y-salud-emocional": "/crisis-vitales/", "trastorno-obsesivo-compulsivo": "/ansiedad-y-ataques-de-panico/", "psicologo-o-psiquiatra": "/primera-consulta/", "como-elegir-psicologo": "/primera-consulta/", "cuanto-dura-una-terapia": "/primera-consulta/", "terapia-de-pareja": "/dificultades-vinculares/", "violencia-en-la-pareja": None, "apego-ansioso-y-evitativo": "/dificultades-vinculares/", "dolor-cronico-y-psicologia": "/estres-y-agotamiento/", "acoso-escolar-y-laboral": "/trauma/",
+    "apuestas-online": "/psicoterapia-para-adultos/", "trastorno-bipolar": "/depresion/",
+}
+CONSULTA_CATEGORIAS = {"Salud mental", "Ansiedad y emociones", "Vínculos y relaciones", "Desarrollo personal",
+                       "Psicología contemporánea", "Meditación y respiración", "Psicología básica"}
+
+
+def destino_consulta(a):
+    forzado = (a.get("motivo") or "").strip()
+    if forzado.lower() == "no":
+        return None
+    if forzado:
+        return next(((r, t) for _, r, t in CONSULTA_REGLAS if r == forzado), (forzado, "este tema"))
+    if a["categoria"] == "Jung y psicología analítica":
+        return ("/terapia-junguiana/", "la terapia junguiana")
+    if a["categoria"] not in CONSULTA_CATEGORIAS:
+        return None
+    s = a["archivo"][:-3]
+    if s in CONSULTA_FIJA:
+        r = CONSULTA_FIJA[s]
+        return None if r is None else next(((x, t) for _, x, t in CONSULTA_REGLAS if x == r), (r, CONSULTA_GENERAL[1]))
+    clave = (s.replace("-", " ") + " " + a["titulo"]).lower()
+    return next(((r, t) for patron, r, t in CONSULTA_REGLAS if re.search(patron, clave)), CONSULTA_GENERAL)
+
+
+def bloque_consulta(a):
+    d = destino_consulta(a)
+    if not d:
+        return ""
+    ruta, tema = d
+    return (f'<div class="destacado destacado--consulta"><p><strong>Si esto es parte de lo que estás atravesando:</strong> '
+            f'te cuento <a href="{ruta}">cómo trabajo {esc(tema)} en consulta</a>, presencial en Alta Gracia u online, '
+            f'y <a href="/primera-consulta/">qué esperar de una primera entrevista</a>.</p></div>')
 
 
 def render_articulo(a):
@@ -2093,7 +2267,7 @@ def render_articulo(a):
     <p class="antetitulo"><a href="{ruta_categoria(a["categoria"])}">{esc(a["categoria"])}</a></p>
     <h1 style="view-transition-name: t-{a["archivo"][:-3]}">{esc(a["titulo"])}</h1>
     <p class="bajada">{esc(a["resumen"])}</p>
-    <p class="articulo__meta"><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><span>Publicado en <time datetime="{a.get("revision", a.get("fecha", HOY))}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></span></p>
+    <p class="articulo__meta"><span>Lectura de {esc(a.get("lectura", "6"))} minutos</span><span>Publicado en <time datetime="{a.get("revision", a.get("fecha", HOY))}">{esc(a.get("fecha_visible", a.get("fecha", HOY)))}</time></span>{f'<span>Revisado el <time datetime="{a["modificado"]}">{fecha_larga(a["modificado"])}</time></span>' if a["modificado"] > a.get("fecha", HOY) else ""}</p>
   </div>
 </section>
 <div class="contenedor--texto prosa prosa--articulo" style="padding-bottom:var(--sec)">
@@ -2102,6 +2276,7 @@ def render_articulo(a):
   {indice_articulo(cuerpo_md)}
   {cuerpo_md}
   {faq_html(faq_items, "Preguntas frecuentes") if faq_items else ""}
+  {bloque_consulta(a)}
   <div class="destacado destacado--aviso"><p>Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).</p></div>
   {bloque_compartir(a["titulo"], a["ruta"])}
   {relacionados(a)}
@@ -2113,10 +2288,10 @@ def render_articulo(a):
         "titulo": a.get("titulo_seo", a["titulo"]) , "descripcion": a["descripcion"], "migas": migas,
         "noindex": not a["publicado"], "con_consultorio": False, "og": og, "faq_items": faq_items,
         "figuras": "figura-articulo" in cuerpo_md,
-        "articulo": {"fecha": a.get("fecha", HOY)},
+        "articulo": {"fecha": a.get("fecha", HOY)}, "modificado": a["modificado"],
         "schema_extra": [{
             "@type": "Article", "@id": f'{URL}{a["ruta"]}#articulo', "headline": a["titulo"], "description": a["descripcion"],
-            "inLanguage": C["idioma"], "datePublished": a.get("fecha", HOY), "dateModified": a.get("fecha", HOY),
+            "inLanguage": C["idioma"], "datePublished": a.get("fecha", HOY), "dateModified": a["modificado"],
             "publisher": {"@id": f"{URL}/#nicolas-bongiorno"},
             "mainEntityOfPage": f'{URL}{a["ruta"]}', "articleSection": a["categoria"],
             "image": f"{URL}/assets/img/{og}", "keywords": a.get("palabras_clave", ""),
@@ -2257,8 +2432,11 @@ def construir():
             meta["og"] = og_pag
         if meta.get("articulos"):
             cuerpo += leer_mas(meta["articulos"])
+        if ruta in MOTIVOS_HUB:
+            cuerpo += bloque_hub(ruta, set(meta.get("articulos", [])))
         nombres[ruta] = re.sub(r"<[^>]+>", "", meta.get("h1", meta["titulo"]))
-        fechas[ruta] = meta.get("modificado", HOY)
+        meta.setdefault("modificado", fecha_git(f))
+        fechas[ruta] = meta["modificado"]
         imagenes[ruta] = meta.get("og", "og-inicio.jpg")
         if meta.get("portada", True) and "h1" in meta:
             cuerpo = portada(meta, meta.get("portada_extra", "")) + cuerpo
@@ -2289,7 +2467,7 @@ def construir():
         if a["publicado"]:
             mapa.append((a["ruta"], 0.6, "yearly"))
             nombres[a["ruta"]] = a["titulo"]
-            fechas[a["ruta"]] = a.get("revision", a.get("fecha", HOY))
+            fechas[a["ruta"]] = a["modificado"]
             imagenes[a["ruta"]] = meta["og"]
 
     # Voces que nos habitan: biblioteca de citas verificadas (voces_sitio.py)
@@ -2304,8 +2482,10 @@ def construir():
                 "migas": [("Recursos", "/recursos/"), (cat, ruta)], "tipo_pagina": "CollectionPage", "con_consultorio": False,
                 "antetitulo": "Recursos", "h1": esc(cat), "bajada": esc(CATEGORIAS[cat])}
         otras = "".join(f'<li><a href="{ruta_categoria(c)}">{esc(c)}</a></li>' for c in cats_con if c != cat)
+        intro = "".join(f"<p>{esc(x)}</p>" for x in CATEGORIAS_INTRO.get(cat, []))
+        intro = f'<div class="prosa contenedor--texto" style="margin:0 0 2.5rem;padding:0">{intro}</div>' if intro else ""
         cuerpo = portada(meta) + f'''<section class="seccion" style="padding-top:0"><div class="contenedor">
-<h2 class="visualmente-oculto">Artículos</h2>
+{intro}<h2 class="visualmente-oculto">Artículos</h2>
 {('<div class="descarga descarga--lab revelar" style="margin-bottom:2rem"><p><strong>El mapa de la psicología.</strong>Los autores de la serie ubicados por escuela y por época, con sus influencias, formaciones, rupturas y diálogos.</p><a class="boton boton--chico" href="' + MAPA_RUTA + '">Ver el mapa</a></div>') if cat == "Historia de la psicología" and MAPA else ""}
 {articulos_lista(categoria=cat)}
 <p style="margin-top:3rem;font-family:var(--f-sans);font-size:.9rem">Otras categorías:</p><ul class="indice-enfoques">{otras}<li><a href="/recursos/">Todos los artículos</a></li></ul>
@@ -2327,7 +2507,7 @@ def construir():
         ("Motivos de consulta", ["/motivos-de-consulta/"] + [r for r, _, _ in mapa if r in (
             "/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/", "/crisis-vitales/",
             "/autoestima/", "/dificultades-vinculares/", "/trauma/")]),
-        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/test-de-fortalezas/", "/test-de-conciencia-corporal/", "/test-de-sentido-y-espiritualidad/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/indice-de-bienestar-who-5/", "/escala-de-autoestima-rosenberg/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
+        ("Recursos", ["/recursos/", "/por-donde-empezar/", "/tests/", "/test-de-eneagrama/", "/test-de-tipos-psicologicos/", "/test-de-estilos-de-apego/", "/test-de-mecanismos-de-defensa/", "/test-de-afrontamiento-del-estres/", "/test-de-fortalezas/", "/test-de-conciencia-corporal/", "/test-de-sentido-y-espiritualidad/", "/escala-de-ansiedad-gad-7/", "/escala-de-animo-phq-9/", "/indice-de-bienestar-who-5/", "/escala-de-autoestima-rosenberg/", "/escala-de-estres-percibido/", "/escala-de-burnout-de-copenhague/", "/escala-de-autocompasion/", "/escala-de-alcohol-audit/", "/escala-de-depresion-perinatal-edimburgo/", "/ejercicio-desiderativo/", "/ejercicio-persona-bajo-la-lluvia/", "/ejercicio-frases-incompletas/", "/laboratorios/", "/separaciones-complicadas/"] + [l["ruta"] for l in LABORATORIOS] + [ruta_categoria(c) for c in cats_con] + rutas_voces[:2]),
         ("Voces que nos habitan", rutas_voces[2:]),
         ("Artículos", [a["ruta"] for a in ARTICULOS if a["publicado"] or BORRADORES]),
     ]
@@ -2364,6 +2544,10 @@ def construir():
     publicados = [a for a in ARTICULOS if a["publicado"]]
     lineas_art = "\n".join(f'- [{a["titulo"]}]({URL}{a["ruta"]}): {a["resumen"]}' for a in publicados) or "- (Artículos en preparación.)"
     motivos_txt = ", ".join(m["titulo"].lower() for m in MOTIVOS)
+    lineas_lab = "\n".join(f'- [{l["titulo"]}]({URL}{l["ruta"]}): {l["descripcion"]}' for l in LABORATORIOS)
+    lineas_test = "\n".join(f'- [{nombres[r]}]({URL}{r})' for r in sorted(nombres)
+                             if re.match(r"/(test-|escala-|indice-|ejercicio-)", r))
+    lineas_glos = "\n".join(f'- [{t}]({URL}{r}): términos definidos con sus autores y obras de referencia.' for g, r, t in GLOSARIOS)
     (SALIDA / "llms.txt").write_text(f"""# {NOMBRE_COMPLETO} — Psicólogo clínico integrativo ({C["matricula"]})
 
 > Psicólogo clínico integrativo, egresado de la {C["facultad"]} de la {C["universidad"]}, con {C["anios_experiencia"]} de práctica clínica. Orientación junguiana (psicología analítica de C. G. Jung) con base psicoanalítica y perspectiva integrativa. Atiende adolescentes, adultos y adultos mayores, de forma presencial en {D["localidad"]} ({D["provincia"]}, Argentina) y online por videollamada, en español.
@@ -2414,6 +2598,19 @@ El eje de su trabajo es la psicología analítica de C. G. Jung (terapia de orie
 - [Terapia online en español]({URL}/terapia-online/)
 - [Preguntas frecuentes]({URL}/preguntas-frecuentes/)
 - [Contacto]({URL}/contacto/)
+
+## Por dónde empezar
+- [¿Por dónde empiezo?]({URL}/por-donde-empezar/): guía que orienta, según lo que te pasa, hacia artículos, tests y laboratorios.
+- [Mapa de lo que me habita]({URL}/el-mapa-de-lo-que-me-habita/)
+
+## Tests, escalas y ejercicios (orientativos, no diagnósticos)
+{lineas_test}
+
+## Laboratorios (ejercicios guiados interactivos)
+{lineas_lab}
+
+## Glosarios
+{lineas_glos}
 
 ## Artículos
 {lineas_art}

@@ -3,7 +3,7 @@ titulo: Trascendencia: gratitud, esperanza, humor y otras fortalezas
 titulo_seo: Fortalezas de trascendencia: gratitud, esperanza y humor
 descripcion: Belleza, gratitud, esperanza, humor y espiritualidad: las fortalezas de la trascendencia según Peterson y Seligman, qué se investigó y sus límites.
 resumen: La última virtud de la clasificación de Peterson y Seligman reúne las fortalezas que nos conectan con algo más grande que uno mismo. Qué son, qué dice la investigación sobre la gratitud y la esperanza, y cuándo se vuelven un problema.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: fortalezas del carácter, trascendencia, apreciación de la belleza, asombro, gratitud, esperanza, optimismo, humor, espiritualidad, Peterson y Seligman, psicología positiva
 fecha: 2026-11-17
 fecha_visible: noviembre de 2026

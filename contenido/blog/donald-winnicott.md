@@ -46,6 +46,8 @@ Winnicott es uno de los autores más leídos por quienes trabajan con chicos, co
 
 En la consulta, su idea del sostén me orienta: un espacio confiable, con un encuadre claro, donde alguien pueda dejar de sostener un falso self y empezar a sentirse más real. Podés seguir con [el apego](/recursos/el-apego/) o con [maternidad y paternidad](/recursos/maternidad-y-paternidad/).
 
+Para ubicar a Winnicott entre las demás escuelas, mirá [qué es el psicoanálisis hoy](/recursos/que-es-el-psicoanalisis/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la madre suficientemente buena?

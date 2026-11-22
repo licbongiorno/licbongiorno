@@ -1,0 +1,60 @@
+<!--{
+  "titulo": "Escala de estrés percibido PSS-10: versión online",
+  "descripcion": "La escala de estrés percibido PSS-10 de Sheldon Cohen: diez preguntas sobre cuánto te desbordó la vida en el último mes. Orientativa, no diagnostica.",
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Estrés percibido (PSS-10)",
+      "/escala-de-estres-percibido/"
+    ]
+  ],
+  "antetitulo": "Escala breve validada",
+  "h1": "¿Cuánto estrés <em>sentís</em>?",
+  "bajada": "Diez preguntas sobre el último mes. No miden lo que te pasó, sino cuánto sentiste que la vida se te volvía impredecible, incontrolable o demasiado.",
+  "respuesta": "La escala de estrés percibido (Perceived Stress Scale, PSS) fue creada por Sheldon Cohen y sus colaboradores en 1983. Su versión de diez preguntas, la PSS-10, mide en qué grado una persona siente que su vida en el último mes fue impredecible, incontrolable o sobrecargada. La puntuación va de 0 a 40: cuanto más alta, más estrés percibido. No tiene puntos de corte diagnósticos. Es orientativa y no reemplaza una evaluación profesional.",
+  "wa_tema": "un tema de estrés",
+  "articulos": [
+    "burnout",
+    "estrategias-de-afrontamiento",
+    "respiracion-y-emociones"
+  ],
+  "ruta": "/escala-de-estres-percibido/",
+  "scripts": [
+    "test-motor.js"
+  ],
+  "prioridad": 0.6
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+        <p>Dos personas pueden atravesar lo mismo y vivirlo de manera muy distinta. Esta escala no cuenta cuántas cosas difíciles te pasaron: pregunta cómo las viviste. Para la psicología del estrés de Richard Lazarus, eso es lo que más pesa: la evaluación que hacemos de lo que nos pasa y de los recursos que tenemos para enfrentarlo.</p>
+        <p>Respondé pensando en <strong>el último mes</strong>. No hace falta contar las veces: elegí la respuesta que te parezca una estimación razonable.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Dos minutos.</strong> Diez preguntas.</li><li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo.</li><li><strong>Validada.</strong> Versión española de Remor (2006).</li></ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p>Esta escala mide estrés percibido, no diagnostica ningún trastorno. Si estás pensando en hacerte daño, no esperes al resultado: llamá al 911 o al 0800-345-1435, o mirá los <a href="/ayuda-urgente/">teléfonos de ayuda urgente</a>.</p></aside>
+
+    <div class="test" data-test-motor>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este cuestionario necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"id": "pss10", "nombre": "Escala de estrés percibido (PSS-10)", "modo": "suma", "min": 0, "max": 40, "porPagina": 5, "consigna": "En el último mes, ¿con qué frecuencia…", "opciones": [{"t": "Nunca", "v": 0}, {"t": "Casi nunca", "v": 1}, {"t": "De vez en cuando", "v": 2}, {"t": "A menudo", "v": 3}, {"t": "Muy a menudo", "v": 4}], "items": [{"t": "…estuviste afectado/a por algo que ocurrió inesperadamente?"}, {"t": "…te sentiste incapaz de controlar las cosas importantes de tu vida?"}, {"t": "…te sentiste nervioso/a o estresado/a?"}, {"t": "…estuviste seguro/a de tu capacidad para manejar tus problemas personales?", "inv": true}, {"t": "…sentiste que las cosas te iban bien?", "inv": true}, {"t": "…sentiste que no podías afrontar todas las cosas que tenías que hacer?"}, {"t": "…pudiste controlar las dificultades de tu vida?", "inv": true}, {"t": "…sentiste que tenías todo bajo control?", "inv": true}, {"t": "…estuviste enojado/a porque las cosas que te pasaron estaban fuera de tu control?"}, {"t": "…sentiste que las dificultades se acumulaban tanto que no podías superarlas?"}], "bandas": [{"hasta": 13, "nombre": "Estrés percibido bajo", "texto": "Tu puntaje está en la franja baja. La PSS-10 no tiene puntos de corte oficiales; como referencia orientativa se suele considerar bajo un puntaje de 0 a 13. En el último mes predominó la sensación de poder con lo que te tocó."}, {"hasta": 26, "nombre": "Estrés percibido moderado", "texto": "Tu puntaje está en la franja media (14 a 26, como referencia orientativa: la escala no tiene puntos de corte oficiales). Hubo momentos en que la vida se sintió impredecible o demasiado. Vale la pena mirar qué parte depende de vos y qué no. El <a href=\"/laboratorio-de-estres/\">laboratorio de estrés<\/a> propone ejercicios para eso."}, {"hasta": 40, "nombre": "Estrés percibido alto", "texto": "Tu puntaje está en la franja alta (27 a 40, como referencia orientativa: la escala no tiene puntos de corte oficiales). En el último mes predominó la sensación de desborde. Si se sostiene, el estrés alto afecta el sueño, el ánimo y la salud física. Hablarlo con un profesional puede ayudarte a ordenar lo que pasa y a recuperar margen."}], "enlaces": [["Laboratorio de estrés", "/laboratorio-de-estres/"], ["Test de afrontamiento del estrés", "/test-de-afrontamiento-del-estres/"], ["Burnout", "/recursos/burnout/"], ["Cómo trabajo el estrés y el agotamiento", "/estres-y-agotamiento/"]], "nota": "Mide estrés percibido: orienta, pero <strong>no es un diagnóstico<\/strong> y no tiene puntos de corte clínicos. Es más útil para comparar tu propio puntaje en distintos momentos. Tus respuestas no salen de este dispositivo. Cohen, S., Kamarck, T. y Mermelstein, R. (1983), «A global measure of perceived stress», <em>Journal of Health and Social Behavior<\/em>, 24, 385-396. Versión española: Remor, E. (2006), <em>The Spanish Journal of Psychology<\/em>, 9(1), 86-93. Las preguntas están adaptadas al tratamiento de «vos»."}</script>
+{{> cta}}

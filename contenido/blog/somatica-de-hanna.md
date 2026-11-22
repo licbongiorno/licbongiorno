@@ -47,4 +47,7 @@ Si querés acercarte a la idea con una práctica simple, probá moverte más len
 
 Para ver este enfoque junto a otras prácticas, recorré [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
-Lecturas: Hanna, T. (1988), *Somatics: Reawakening the Mind's Control of Movement, Flexibility, and Health*, Addison-Wesley.
+## Para seguir leyendo
+
+- Hanna, T. (1970). *Bodies in Revolt: A Primer in Somatic Thinking*. Nueva York: Holt, Rinehart and Winston.
+- Hanna, T. (1988). *Somatics: Reawakening the Mind's Control of Movement, Flexibility, and Health*. Reading: Addison-Wesley.

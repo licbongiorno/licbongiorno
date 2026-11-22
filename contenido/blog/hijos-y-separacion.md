@@ -3,7 +3,7 @@ titulo: Hijos y separación: cómo cuidarlos cuando los padres se separan
 titulo_seo: Hijos y separación: cómo acompañarlos y qué dice la evidencia
 descripcion: Qué dice la investigación sobre los chicos cuando sus padres se separan, qué los daña más, cómo contárselo y cómo sostener la coparentalidad.
 resumen: La mayoría de los hijos de padres separados se adapta bien. Qué pesa más que la separación misma, cómo contarla y cómo cooperar con el otro progenitor.
-categoria: Salud mental
+categoria: Vínculos y relaciones
 palabras_clave: separación, divorcio, hijos, coparentalidad, conflicto parental, resiliencia, crianza, comunicación con los chicos
 fecha: 2026-11-21
 fecha_visible: noviembre de 2026

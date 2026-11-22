@@ -47,4 +47,6 @@ Y si ya hiciste un tratamiento con un terapeuta y algo te desbordó, decíselo. 
 
 Si querés ubicar el EMDR entre otras formas de trabajar con el cuerpo y el trauma, podés mirar [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Y para explorar la relación entre tono, postura y movimiento desde la experiencia, está [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
 
+Para entender el cuadro para el que más se usa el EMDR, mirá [estrés postraumático](/recursos/estres-postraumatico/).
+
 Lecturas: Shapiro, F. (1989), «Efficacy of the eye movement desensitization procedure in the treatment of traumatic memories», *Journal of Traumatic Stress*, 2(2), 199–223. Organización Mundial de la Salud (2013), *Guidelines for the management of conditions specifically related to stress*. Lee, C. W. y Cuijpers, P. (2013), «A meta-analysis of the contribution of eye movements in processing emotional memories», *Journal of Behavior Therapy and Experimental Psychiatry*, 44(2), 231–239.

@@ -48,6 +48,8 @@ Muchas de las ideas de Freud fueron discutidas, corregidas o abandonadas, inclus
 
 En mi trabajo, el psicoanálisis es la base: escuchar lo que se repite, lo que no se dice y lo que aparece en los sueños. Desde ahí dialogo con la [psicología analítica de Jung](/terapia-junguiana/), que tomó otro camino a partir de Freud. Si te interesa cómo se defiende la mente, podés leer [los mecanismos de defensa](/recursos/mecanismos-de-defensa/).
 
+Para un panorama del psicoanálisis después de Freud, con sus escuelas y lo que dice la evidencia, mirá [qué es el psicoanálisis hoy](/recursos/que-es-el-psicoanalisis/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el psicoanálisis?

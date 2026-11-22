@@ -47,6 +47,8 @@ Perdonarse no es justificarse. Es, a veces, el acto más honesto que podemos hac
 
 Para practicar una forma más amable de hablarte, te espera el [laboratorio de autoestima y autocompasión](/laboratorio-de-autocompasion/).
 
+Para distinguir la culpa que repara de la que castiga, podés usar el [laboratorio de culpa y vergüenza](/laboratorio-de-culpa-y-verguenza/).
+
 ## Preguntas frecuentes
 
 ### ¿Es normal sentir culpa por todo?

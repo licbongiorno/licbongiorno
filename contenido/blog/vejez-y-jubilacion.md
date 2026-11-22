@@ -3,7 +3,7 @@ titulo: Vejez y jubilación: tiempo, vínculos y nuevos sentidos
 titulo_seo: Vejez y jubilación: qué dice la psicología sobre esta etapa
 descripcion: Qué cambia en la vejez y al jubilarse: prioridades, vínculos, pérdida de roles y edadismo. Qué dice la investigación y qué conviene cuidar.
 resumen: La jubilación y la vejez traen pérdidas de roles y rutinas, pero también un reordenamiento de prioridades. Qué dice la investigación sobre el tiempo, el edadismo y el sentido.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: vejez, jubilación, envejecimiento, edadismo, selectividad socioemocional, Erikson, sentido, adultos mayores
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026
@@ -53,5 +53,7 @@ Algunas tristezas de esta etapa son esperables: duelos, cambios de rol, nostalgi
 - Las transiciones de la vida: [el laboratorio de crisis vitales](/laboratorio-de-crisis-vitales/).
 - Acompañamiento psicológico en esta etapa: [terapia para adultos mayores](/terapia-para-adultos-mayores/).
 - La etapa final según Erikson: [Erik Erikson](/recursos/erik-erikson/).
+
+Para pensar el día sin estructura y un proyecto propio, está el [laboratorio de jubilación y nuevas etapas](/laboratorio-de-jubilacion-y-nuevas-etapas/). Si los hijos ya se fueron de casa, mirá también el artículo sobre el [nido vacío](/recursos/nido-vacio/).
 
 Lecturas: Carstensen, L. L., Isaacowitz, D. M. y Charles, S. T. (1999), «Taking time seriously: a theory of socioemotional selectivity», *American Psychologist*, 54(3), 165–181. Levy, B. R., Slade, M. D., Kunkel, S. R. y Kasl, S. V. (2002), «Longevity increased by positive self-perceptions of aging», *Journal of Personality and Social Psychology*, 83(2), 261–270. Organización Mundial de la Salud (2021), *Global report on ageism*.

@@ -50,6 +50,8 @@ Lo que no puede afirmarse es que haya una única causa ni que todo vínculo inte
 
 Las señales de arriba sirven para pensar, no para etiquetarte ni para etiquetar a otro. Si en tu relación hay maltrato, miedo o violencia, la prioridad es tu seguridad, y conviene hablarlo con un profesional cuanto antes. Y si estás atravesando una crisis muy fuerte, con desesperanza o pensamientos de hacerte daño, no esperes: [Ayuda urgente](/ayuda-urgente/) reúne teléfonos y pasos inmediatos.
 
+Muchas veces la dependencia emocional se entiende mejor desde el [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/) en la pareja adulta.
+
 ## Preguntas frecuentes
 
 ### ¿Cómo sé si tengo dependencia emocional?

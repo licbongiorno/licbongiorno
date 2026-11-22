@@ -3,7 +3,7 @@ titulo: Infidelidad: qué pasa después y cómo se transita
 titulo_seo: Infidelidad en la pareja: cómo se vive y cómo se trabaja
 descripcion: Qué le pasa a quien descubre una infidelidad, por qué el perdón no es obligatorio y cómo se aborda en terapia de pareja, en etapas y sin apuro.
 resumen: Descubrir una infidelidad sacude a quien la vive de un modo parecido al trauma. Qué se sabe del abordaje en etapas, qué no hay que apurar y cómo decidir.
-categoria: Salud mental
+categoria: Vínculos y relaciones
 palabras_clave: infidelidad, terapia de pareja, confianza, perdón, crisis de pareja, engaño, reparación del vínculo, Gordon Baucom Snyder
 fecha: 2026-11-21
 fecha_visible: noviembre de 2026
@@ -55,5 +55,7 @@ Conviene consultar si hay síntomas que no ceden, como insomnio sostenido, angus
 Esta nota es información general y no reemplaza una consulta. Cada pareja tiene su historia, y ningún artículo puede decirte si te conviene quedarte o irte. Lo que sí podés hacer es darte tiempo, buscar compañía profesional si la necesitás y evitar decisiones tomadas solo desde el dolor del primer momento.
 
 ## Para seguir
+
+Si están pensando en consultar juntos, en [terapia de pareja](/recursos/terapia-de-pareja/) cuento cuándo sirve y qué enfoques tienen respaldo.
 
 Lecturas: Gordon, K. C., Baucom, D. H. y Snyder, D. K. (2004), «An integrative intervention for promoting recovery from extramarital affairs», *Journal of Marital and Family Therapy*, 30(2), 213–231.

@@ -47,4 +47,8 @@ Si querés probar una versión mínima de esa observación, sentate unos minutos
 
 Para ubicar esta propuesta junto a otras, mirá [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
-Lecturas: Keleman, S. (1985), *Emotional Anatomy: The Structure of Experience*, Center Press, con ilustraciones de Vincent Perez.
+## Para seguir leyendo
+
+- Keleman, S. (1979). *Somatic Reality*. Berkeley: Center Press.
+- Keleman, S. (1985). *Emotional Anatomy: The Structure of Experience*. Berkeley: Center Press.
+- Keleman, S. (1987). *Embodying Experience: Forming a Personal Life*. Berkeley: Center Press.

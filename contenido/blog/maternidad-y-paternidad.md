@@ -39,6 +39,10 @@ Criar a un hijo despierta la propia infancia. Aparecen frases que juramos no rep
 
 Es esperable sentirse sensible o abrumado en las primeras semanas. Pero si la tristeza, la ansiedad o la sensación de desconexión se sostienen, si aparecen pensamientos que asustan o te cuesta cuidarte, es importante consultar: la depresión y la ansiedad después del nacimiento son frecuentes y tienen tratamiento. Hablarlo con tu médico, tu obstetra o un psicólogo es un acto de cuidado, para vos y para tu hijo.
 
+Para las madres, la [escala de Edimburgo](/escala-de-depresion-perinatal-edimburgo/) es la herramienta más usada para detectar a tiempo una depresión en el embarazo o después del parto.
+
+Y cuando los hijos crecen y se van, empieza otra etapa: la del [nido vacío](/recursos/nido-vacio/).
+
 ## Preguntas frecuentes
 
 ### ¿Es normal no disfrutar todo el tiempo de la maternidad o la paternidad?

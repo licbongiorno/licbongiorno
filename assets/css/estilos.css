@@ -1469,3 +1469,11 @@ a.lab-filtro { display: inline-flex; align-items: center; text-decoration: none;
   .lab-filtros .lab-filtros__fila::-webkit-scrollbar { display: none; }
   .lab-filtros .lab-filtro { flex: none; white-space: nowrap; }
 }
+
+/* Página de motivo como centro temático */
+.hub-motivo__cols { display: grid; gap: 1.5rem 2.5rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+.hub-motivo h3 { font-size: 1.05rem; margin: 0 0 .6rem; }
+.hub-motivo ul { list-style: none; margin: 0; padding: 0; }
+.hub-motivo li { padding: .45rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent); line-height: 1.4; }
+.hub-motivo li a { text-decoration: none; }
+.hub-motivo li a:hover { text-decoration: underline; }

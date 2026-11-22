@@ -1,0 +1,60 @@
+<!--{
+  "titulo": "Test de burnout: inventario de Copenhague (CBI) online",
+  "descripcion": "La escala de burnout personal del Inventario de Copenhague (CBI): seis preguntas sobre agotamiento físico y psicológico. Orientativa, no es un diagnóstico.",
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Burnout (CBI)",
+      "/escala-de-burnout-de-copenhague/"
+    ]
+  ],
+  "antetitulo": "Escala breve validada",
+  "h1": "¿Cuánto <em>agotamiento</em> cargás?",
+  "bajada": "Seis preguntas del Inventario de Burnout de Copenhague para medir el cansancio físico y psicológico que se acumula, venga del trabajo, de cuidar a alguien o de la vida en general.",
+  "respuesta": "El Inventario de Burnout de Copenhague (Copenhagen Burnout Inventory, CBI) fue desarrollado por Tage Kristensen y su equipo en el Instituto Nacional de Salud Ocupacional de Dinamarca y publicado en 2005. Define el burnout como fatiga y agotamiento físico y psicológico prolongados. Su escala de burnout personal tiene seis preguntas y da un puntaje de 0 a 100; muchos estudios consideran alto un puntaje de 50 o más. Es de dominio público y tiene versión validada en España. Es orientativo y no reemplaza una evaluación profesional.",
+  "wa_tema": "un tema de agotamiento o burnout",
+  "articulos": [
+    "burnout",
+    "cuidar-a-un-familiar",
+    "insomnio"
+  ],
+  "ruta": "/escala-de-burnout-de-copenhague/",
+  "scripts": [
+    "test-motor.js"
+  ],
+  "prioridad": 0.6
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+        <p>El burnout suele pensarse solo como algo del trabajo. El Inventario de Copenhague empieza por otro lado: el agotamiento personal, el que se siente en el cuerpo y en la cabeza, sin importar de dónde viene. Por eso sirve también si estás cuidando a un familiar, criando, estudiando o buscando trabajo.</p>
+        <p>Respondé pensando en cómo te sentís <strong>habitualmente</strong>, en las últimas semanas.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Un minuto.</strong> Seis preguntas.</li><li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo.</li><li><strong>Validado.</strong> Versión española de Molinero, Basart y Moncada (2013).</li></ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p>Este inventario mide agotamiento, no diagnostica. El cansancio persistente también puede tener causas médicas (anemia, tiroides, sueño): si es intenso, consultá a un médico. Si estás pensando en hacerte daño, no esperes al resultado: llamá al 911 o al 0800-345-1435, o mirá los <a href="/ayuda-urgente/">teléfonos de ayuda urgente</a>.</p></aside>
+
+    <div class="test" data-test-motor>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este cuestionario necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"id": "cbi", "nombre": "Inventario de Burnout de Copenhague (CBI): burnout personal", "modo": "suma", "promedio": true, "min": 0, "max": 100, "porPagina": 6, "consigna": "Elegí con qué frecuencia te pasa cada cosa.", "opciones": [{"t": "Nunca", "v": 0}, {"t": "Solo alguna vez", "v": 25}, {"t": "Algunas veces", "v": 50}, {"t": "Muchas veces", "v": 75}, {"t": "Siempre", "v": 100}], "items": [{"t": "¿Con qué frecuencia te sentís cansado/a?"}, {"t": "¿Con qué frecuencia estás físicamente agotado/a?"}, {"t": "¿Con qué frecuencia estás psicológicamente agotado/a?"}, {"t": "¿Con qué frecuencia pensás «no puedo más»?"}, {"t": "¿Con qué frecuencia te sentís agotado/a?"}, {"t": "¿Con qué frecuencia te sentís débil y con tendencia a enfermarte?"}], "bandas": [{"hasta": 49, "nombre": "Por debajo del nivel alto", "texto": "Tu puntaje es el promedio de tus respuestas, de 0 a 100, y está por debajo de 50, el valor que muchos estudios toman como nivel alto de burnout. Hay cansancio, como en cualquier vida, pero no predomina el agotamiento."}, {"hasta": 74, "nombre": "Burnout personal alto", "texto": "Tu puntaje está entre 50 y 74: según el criterio que usan muchos estudios, indica un nivel alto de agotamiento. Es una señal para revisar qué te está consumiendo energía y qué te la devuelve: descanso, límites, ayuda de otros. Hablarlo con un profesional puede ayudarte a ordenar prioridades."}, {"hasta": 100, "nombre": "Burnout personal muy alto", "texto": "Tu puntaje es de 75 o más: el agotamiento aparece casi siempre. Así no se puede sostener mucho tiempo. Te conviene consultar, primero a un médico para descartar causas físicas y también a un psicólogo, y buscar desde ya alguna forma de alivio concreto en tu semana."}], "enlaces": [["Burnout: cuando el trabajo te quema", "/recursos/burnout/"], ["Laboratorio de descanso", "/laboratorio-de-descanso/"], ["Para quien cuida a un familiar", "/laboratorio-para-quien-cuida/"], ["Cómo trabajo el estrés y el agotamiento", "/estres-y-agotamiento/"]], "nota": "Mide agotamiento: orienta, pero <strong>no es un diagnóstico<\/strong>. El puntaje es el promedio de las seis respuestas, convertidas a 0, 25, 50, 75 y 100. El corte de 50 no es un criterio clínico oficial, sino una referencia usada en investigación. Tus respuestas no salen de este dispositivo. Kristensen, T. S., Borritz, M., Villadsen, E. y Christensen, K. B. (2005), «The Copenhagen Burnout Inventory», <em>Work &amp; Stress<\/em>, 19(3), 192-207. Versión española: Molinero Ruiz, E., Basart Gómez-Quintero, H. y Moncada Lluis, S. (2013), <em>Revista Española de Salud Pública<\/em>, 87(2), 165-179. Las preguntas están adaptadas al tratamiento de «vos»."}</script>
+{{> cta}}

@@ -52,4 +52,8 @@ Ante un duelo reciente, una crisis o una emoción que desborda, la meditación p
 
 Una espiritualidad que no esquiva lo humano suele apoyarse en la idea de trascender sin dejar de sentir; sobre esa dimensión, mirá [las fortalezas de la trascendencia](/recursos/fortalezas-trascendencia/). También podés recorrer [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
-Lecturas: Welwood, J., *Toward a Psychology of Awakening*.
+## Para seguir leyendo
+
+- Welwood, J. (1984). «Principles of inner work: Psychological and spiritual». *The Journal of Transpersonal Psychology*, 16(1), 63-73. Es el artículo donde aparece el término.
+- Welwood, J. (2000). *Toward a Psychology of Awakening*. Boston: Shambhala.
+- Masters, R. A. (2010). *Spiritual Bypassing: When Spirituality Disconnects Us from What Really Matters*. Berkeley: North Atlantic Books.

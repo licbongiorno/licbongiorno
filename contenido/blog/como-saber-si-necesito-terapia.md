@@ -47,6 +47,7 @@ No es un compromiso: es un primer paso para pensar con otro algo que, solo, se v
 
 Si estás atravesando una crisis, sentís que no podés más o aparecen pensamientos de hacerte daño, no esperes a un turno: comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país). Pedir ayuda urgente también es cuidarte.
 
+Si ya decidiste consultar, pueden ayudarte estos artículos: [psicólogo o psiquiatra](/recursos/psicologo-o-psiquiatra/), [cómo elegir psicólogo](/recursos/como-elegir-psicologo/) y [cuánto dura una terapia](/recursos/cuanto-dura-una-terapia/).
 
 ## Preguntas frecuentes
 

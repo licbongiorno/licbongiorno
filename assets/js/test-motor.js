@@ -10,7 +10,7 @@
   var OPS = C.opciones, POR = C.porPagina || 8, CLAVE = "test-" + C.id + "-v1";
   var vals = OPS.map(function (o) { return o.v; });
   var VMIN = Math.min.apply(null, vals), VMAX = Math.max.apply(null, vals);
-  var preguntas = C.items.map(function (it, i) { return { id: "q" + i, i: i, txt: it.t, d: it.d, inv: !!it.inv }; });
+  var preguntas = C.items.map(function (it, i) { return { id: "q" + i, i: i, txt: it.t, d: it.d, inv: !!it.inv, o: it.o }; });
   var paginas = [];
   for (var p = 0; p < preguntas.length; p += POR) paginas.push(preguntas.slice(p, p + POR));
 
@@ -34,8 +34,8 @@
   var pintar = function () {
     var html = C.consigna && pag === 0 ? '<p class="test-subtitulo">' + esc(C.consigna) + "</p>" : "";
     paginas[pag].forEach(function (q) {
-      html += '<fieldset class="test-item"><legend><span class="test-item__num">' + (q.i + 1) + ".</span> " + esc(q.txt) + '</legend><div class="test-escala" style="grid-template-columns:repeat(' + OPS.length + ',minmax(0,1fr))">';
-      OPS.forEach(function (o, k) {
+      html += '<fieldset class="test-item"><legend><span class="test-item__num">' + (q.i + 1) + ".</span> " + esc(q.txt) + '</legend><div class="test-escala" style="grid-template-columns:repeat(' + (q.o || OPS).length + ',minmax(0,1fr))">';
+      (q.o || OPS).forEach(function (o, k) {
         var id = q.id + "-" + k;
         html += '<input type="radio" name="' + q.id + '" id="' + id + '" value="' + o.v + '"' + (tiene(q.id) && resp[q.id] === o.v ? " checked" : "") + '><label for="' + id + '">' + esc(o.t) + "</label>";
       });
@@ -75,7 +75,7 @@
   var calcular = function () {
     if (C.modo === "suma") {
       var s = 0; preguntas.forEach(function (q) { s += valor(q); });
-      return { total: s };
+      return { total: C.promedio ? Math.round(s / preguntas.length) : s };
     }
     var acc = {};
     preguntas.forEach(function (q) { var a = acc[q.d] || (acc[q.d] = { s: 0, n: 0 }); a.s += valor(q); a.n++; });

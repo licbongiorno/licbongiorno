@@ -53,4 +53,9 @@ Si estás en una situación de urgencia o de riesgo, llamá al 911 o al Centro d
 
 Para ubicar estas escuelas entre las demás, mirá [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Para probar en primera persona cómo se sienten el tono, la postura y el movimiento, pasá por [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
 
-Lecturas: Pierrakos, J., *Core Energetics*. Marcher, L. y Fich, S. (2010), *Body Encyclopedia: A Guide to the Psychological Functions of the Muscular System*, North Atlantic Books.
+## Para seguir leyendo
+
+- Boadella, D. (1973). *Wilhelm Reich: The Evolution of His Work*. Londres: Vision Press.
+- Lowen, A. (1975). *Bioenergetics*. Nueva York: Coward, McCann & Geoghegan.
+- Pierrakos, J. (1987). *Core Energetics: Developing the Capacity to Love and Heal*. Mendocino: LifeRhythm.
+- Marcher, L. y Fich, S. (2010). *Body Encyclopedia: A Guide to the Psychological Functions of the Muscular System*. Berkeley: North Atlantic Books.

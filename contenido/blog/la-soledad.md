@@ -3,7 +3,7 @@ titulo: La soledad: entre el vacío y el encuentro con uno mismo
 titulo_seo: La soledad: cuándo duele y cuándo nutre | N. Bongiorno
 descripcion: La diferencia entre la soledad elegida y la que duele, qué dice la psicología sobre estar solo y qué hacer cuando el aislamiento se vuelve un problema.
 resumen: No es lo mismo estar solo que sentirse solo. Cuándo la soledad nutre, cuándo duele y qué hacer cuando el aislamiento pesa.
-categoria: Salud mental
+categoria: Vínculos y relaciones
 palabras_clave: soledad, sentirse solo, aislamiento, capacidad de estar solo, Winnicott
 fecha: 2026-11-06
 fecha_visible: noviembre de 2026
@@ -47,6 +47,8 @@ Puede aparecer después de una mudanza, una separación, una migración, la jubi
 - Consultar si la soledad se volvió aislamiento o se mezcla con tristeza persistente. Leé también [Depresión](/depresion/).
 
 La terapia también es un vínculo: un lugar donde alguien te escucha con atención. A veces es el primer paso para volver a encontrarse con otros.
+
+Para mapear tu red y ensayar pequeños gestos de contacto, podés usar el [laboratorio de soledad y conexión](/laboratorio-de-soledad-y-conexion/).
 
 ## Preguntas frecuentes
 

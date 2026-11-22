@@ -3,7 +3,7 @@ titulo: Humanidad: amor, bondad e inteligencia social
 titulo_seo: Fortalezas de humanidad: amor, bondad e inteligencia social
 descripcion: Amor, bondad e inteligencia social: las fortalezas de la humanidad según Peterson y Seligman, qué muestra la investigación y cuándo se usan mal.
 resumen: La virtud de humanidad reúne las fortalezas que se juegan en los vínculos cercanos. Qué son el amor, la bondad y la inteligencia social en la clasificación de Peterson y Seligman, qué se investigó y cuáles son sus trampas.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: fortalezas del carácter, humanidad, amor, bondad, amabilidad, inteligencia social, inteligencia emocional, Peterson y Seligman, psicología positiva, VIA
 fecha: 2026-11-17
 fecha_visible: noviembre de 2026

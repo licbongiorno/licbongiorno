@@ -3,7 +3,7 @@ titulo: Fobias: por qué evitar mantiene el miedo y qué sí ayuda
 titulo_seo: Fobias específicas: qué son y cómo se tratan con exposición
 descripcion: Qué es una fobia específica, por qué la evitación la mantiene y qué respaldo tiene la exposición gradual según un metaanálisis de 33 ensayos.
 resumen: Una fobia es un miedo desproporcionado a algo concreto que lleva a evitarlo. Cómo se mantiene, qué tratamiento tiene respaldo y qué cuidados tener.
-categoria: Salud mental
+categoria: Ansiedad y emociones
 palabras_clave: fobias, fobia específica, exposición gradual, evitación, jerarquía de miedos, tratamiento de una sesión, fobia a la sangre, ansiedad
 fecha: 2026-11-20
 fecha_visible: noviembre de 2026

@@ -55,6 +55,8 @@ Si te reconocés en alguno de estos patrones, podés leer sobre [dificultades vi
 
 Para reflexionar sobre tu forma de vincularte (sin tests ni etiquetas), podés usar el [laboratorio de vínculos y límites](/laboratorio-de-vinculos/).
 
+Cómo se ve el apego en la pareja adulta, y por qué los estilos no son un destino, lo desarrollo en [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el apego en psicología?

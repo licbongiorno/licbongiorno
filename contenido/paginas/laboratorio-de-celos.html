@@ -1,0 +1,151 @@
+<!--{
+  "ruta": "/laboratorio-de-celos/",
+  "titulo": "Laboratorio de celos: hechos, ideas y conversaciones",
+  "descripcion": "Ejercicios sobre celos: qué los dispara, separar hechos de interpretaciones, las conductas de chequeo que los alimentan y cómo hablarlo con tu pareja.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Celos",
+      "/laboratorio-de-celos/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>celos</em>",
+  "bajada": "Los celos son una emoción humana y muy común. Lo que decidimos hacer con ellos puede cuidar el vínculo o desgastarlo. Ejercicios para entenderlos y hablarlos.",
+  "respuesta": "El laboratorio de celos propone ejercicios inspirados en el enfoque cognitivo de Aaron Beck (1976): identificar qué situación los dispara, distinguir los hechos de las interpretaciones, reconocer las conductas de chequeo que los alimentan y preparar una conversación difícil con la pareja. Incluye un aviso sobre las señales de control o violencia, que requieren otro abordaje, y un plan de 7 días.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-2.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de celos",
+  "articulos": [
+    "los-celos"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Los celos suelen aparecer cuando sentimos amenazado un vínculo que nos importa. En sí mismos no son una falla: son una señal. El problema empieza cuando la señal se interpreta como un hecho («me está engañando»), y cuando lo que hacemos para calmarla (revisar, preguntar, controlar) la termina agrandando.</p>
+        <p>El enfoque cognitivo, desde Aaron Beck (1976), propone separar lo que <strong>ocurrió</strong> de lo que <strong>nos contamos</strong> sobre lo ocurrido. Este laboratorio trabaja con esa distinción y con las conductas de chequeo. Hay un límite importante: si los celos aparecen junto con control, vigilancia, aislamiento o miedo, no es un tema de manejo emocional, y al final te dejo el camino.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin culpa.</strong> Sentir celos no te hace peor persona.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin acusar.</strong> Los ejercicios trabajan con lo tuyo, no con lo que hace el otro.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#hechos">Hechos o interpretaciones</a>
+      <a href="#disparador">Mi disparador</a>
+      <a href="#chequeo">Conductas de chequeo</a>
+      <a href="#conversar">Una conversación difícil</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="hechos" aria-labelledby="t-hechos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-hechos">Hechos o interpretaciones</h2>
+      <p class="lab-estacion__bajada">Un hecho lo vería cualquiera. Una interpretación es lo que nos contamos sobre ese hecho. ¿Qué es cada frase?</p>
+      <div class="lab-tarjeta" data-lab-quiz="celos-hechos">
+        <p class="lab-tarjeta__titulo">¿Hecho o interpretación?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="disparador" aria-labelledby="t-disparador">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-disparador">Qué me dispara los celos</h2>
+      <p class="lab-estacion__bajada">Elegí una situación reciente en la que sentiste celos y separá lo que pasó de lo que te contaste.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-disparador-de-celos" data-lab-form-titulo="Mi disparador de celos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-disparador-1">La situación (cuándo, dónde, con quién)</label><input class="lab-campo" id="ce-disparador-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-disparador-2">Lo que realmente vi o escuché (los hechos)</label><textarea class="lab-texto" id="ce-disparador-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-disparador-3">Lo que me conté sobre eso (mi interpretación)</label><textarea class="lab-texto" id="ce-disparador-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-disparador-4">Lo que sentí en el cuerpo y en las emociones</label><input class="lab-campo" id="ce-disparador-4" type="text" placeholder="Por ejemplo: nudo en el estómago, rabia, miedo, vergüenza" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-disparador-5">Lo que hice después</label><input class="lab-campo" id="ce-disparador-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-disparador-6">¿Qué otra explicación posible hay? Escribí al menos dos</label><textarea class="lab-texto" id="ce-disparador-6" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-disparador-7">¿Qué es lo que más temo perder o que pase?</label><input class="lab-campo" id="ce-disparador-7" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="chequeo" aria-labelledby="t-chequeo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-chequeo">Conductas de chequeo</h2>
+      <p class="lab-estacion__bajada">Revisar, preguntar y vigilar calman la duda un rato y la alimentan después, porque nunca llegan a ser suficientes. ¿Cuál de estas conductas alimenta los celos y cuál ayuda?</p>
+      <div class="lab-tarjeta" data-lab-quiz="celos-chequeo">
+        <p class="lab-tarjeta__titulo">¿Alimenta o ayuda?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente conducta</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="conversar" aria-labelledby="t-conversar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-conversar">Preparar una conversación difícil</h2>
+      <p class="lab-estacion__bajada">Hablar de los celos sin que suene a reproche ayuda a que el otro pueda escuchar. Probá un formato simple: describir un hecho, decir lo que sentís y pedir algo concreto.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-conversacion-sobre-celos" data-lab-form-titulo="Mi conversación sobre celos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-conversar-1">El momento y lugar (tranquilo, sin apuro)</label><input class="lab-campo" id="ce-conversar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-conversar-2">Cuando… (describo un hecho, sin juicio)</label><textarea class="lab-texto" id="ce-conversar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-conversar-3">Yo me siento… (una emoción mía)</label><textarea class="lab-texto" id="ce-conversar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-conversar-4">Lo que necesito o te pido… (algo concreto y posible)</label><textarea class="lab-texto" id="ce-conversar-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-conversar-5">Lo que voy a hacer yo para cuidar mi parte</label><textarea class="lab-texto" id="ce-conversar-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ce-conversar-6">Si el otro se pone a la defensiva, voy a…</label><input class="lab-campo" id="ce-conversar-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="celos">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Cuando aparezcan los celos, nombrá la emoción y qué temés.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Hechos.</strong> Escribí qué pasó y separalo de lo que te contaste.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Otra explicación.</strong> Buscá dos explicaciones alternativas para un mismo hecho.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Esperar.</strong> Cuando sientas el impulso de chequear, esperá diez minutos y hacé otra cosa.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Lo propio.</strong> Hacé algo que te guste y sea solo tuyo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Hablar.</strong> Si podés, conversá con tu pareja con el formato de la estación 4.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar el recorrido.</strong> Anotá qué cambió y qué te ayudó más.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre los celos. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="celos-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado importante.</strong> Si en el vínculo hay control del celular o del dinero, prohibiciones sobre con quién salir o qué ponerte, insultos, amenazas, empujones o miedo a la reacción del otro, no es un asunto de celos que se maneje con ejercicios. Quien pone los límites o controla, ya sea vos o tu pareja, necesita otro abordaje: mirá el <a href="/laboratorio-de-violencia-en-el-vinculo/">laboratorio de violencia en el vínculo</a> y <a href="/ayuda-urgente/">ayuda urgente</a>. En Argentina, la línea 144 atiende las 24 horas, gratis y de forma confidencial. Para seguir: <a href="/recursos/los-celos/">los celos</a>, o <a href="/contacto/">escribime</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Beck, A. T. (1976). <em>Cognitive Therapy and the Emotional Disorders</em>. International Universities Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

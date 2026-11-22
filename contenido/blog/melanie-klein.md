@@ -46,6 +46,8 @@ Klein amplió el psicoanálisis hacia los primeros meses de vida y hacia los pac
 
 En la consulta, la idea de las posiciones me resulta muy útil: ayuda a entender por qué, en momentos de mucha angustia, vemos al otro «todo bueno» o «todo malo», y que poder integrar las dos imágenes es parte del trabajo. Podés seguir con [los patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/).
 
+Para ubicar a Klein entre las demás escuelas, mirá [qué es el psicoanálisis hoy](/recursos/que-es-el-psicoanalisis/). Su idea de la envidia la desarrollo en [la envidia](/recursos/la-envidia/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la posición depresiva según Melanie Klein?

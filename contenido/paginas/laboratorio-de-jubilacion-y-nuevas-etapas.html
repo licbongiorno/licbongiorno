@@ -1,0 +1,150 @@
+<!--{
+  "ruta": "/laboratorio-de-jubilacion-y-nuevas-etapas/",
+  "titulo": "Laboratorio de jubilación y nuevas etapas",
+  "descripcion": "Ejercicios para la jubilación: qué aportaba el trabajo, armar una semana con estructura, tu identidad más allá del oficio, un proyecto propio y tus vínculos.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Jubilación",
+      "/laboratorio-de-jubilacion-y-nuevas-etapas/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>jubilación y nuevas etapas</em>",
+  "bajada": "Jubilarse es una conquista y también un cambio grande: de horarios, de roles, de identidad. Ejercicios para pensar la nueva etapa con calma y construir algo que te represente.",
+  "respuesta": "El laboratorio de jubilación y nuevas etapas propone ejercicios para reconocer qué aportaba el trabajo (estructura, identidad, vínculos, sentido), armar una semana con estructura, pensar quién sos más allá del oficio y definir un proyecto propio, con apoyo en la teoría de la continuidad de Robert Atchley (1989). Incluye un plan de 7 días.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-2.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de jubilación y nuevas etapas",
+  "articulos": [
+    "vejez-y-jubilacion"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El trabajo hace más que dar un ingreso. Ordena el día, da un lugar entre los demás, ofrece vínculos cotidianos y a menudo un sentido. Cuando termina, es común que aparezca, junto con el alivio, un vacío difícil de nombrar: la mañana sin horarios, el teléfono que no suena, la pregunta «¿y ahora qué soy?».</p>
+        <p>Robert Atchley, en su teoría de la continuidad (1989), propuso que las personas mayores tienden a adaptarse conservando lo que ya conocen: hábitos, roles, valores y relaciones. Aplicado a la jubilación, sugiere que lo que ayuda no es empezar de cero, sino ver qué de lo que ya sos y hacés puede seguir, y qué nuevo conviene sumar. Este laboratorio sirve como guía para esa pregunta.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin apuro.</strong> Adaptarse a una etapa nueva lleva tiempo.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin comparar.</strong> Cada jubilación es distinta.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#aportes">Lo que daba el trabajo</a>
+      <a href="#semana">Mi semana</a>
+      <a href="#identidad">Quién soy más allá del trabajo</a>
+      <a href="#proyecto">Mi proyecto y mis vínculos</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="aportes" aria-labelledby="t-aportes">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-aportes">Lo que daba el trabajo</h2>
+      <p class="lab-estacion__bajada">Reconocer qué nos daba el trabajo ayuda a pensar cómo cubrirlo después. ¿Qué aporte se extraña en cada caso?</p>
+      <div class="lab-tarjeta" data-lab-quiz="jubilacion-aportes">
+        <p class="lab-tarjeta__titulo">¿Qué se echa de menos?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="semana" aria-labelledby="t-semana">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-semana">Armar una semana con estructura</h2>
+      <p class="lab-estacion__bajada">No hace falta llenar cada hora. Alcanza con algunas anclas: movimiento, contacto, algo útil y algo que disfrutes.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-semana-sin-trabajo" data-lab-form-titulo="Mi semana en esta etapa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-semana-1">Dos o tres actividades fijas de cada semana (horario y día)</label><textarea class="lab-texto" id="ju-semana-1" rows="2" placeholder="Por ejemplo: caminata los lunes y jueves a las 9"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-semana-2">Una actividad de movimiento</label><input class="lab-campo" id="ju-semana-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-semana-3">Una actividad con otras personas</label><input class="lab-campo" id="ju-semana-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-semana-4">Una actividad que sea útil para alguien (voluntariado, ayuda a la familia, cuidar algo)</label><input class="lab-campo" id="ju-semana-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-semana-5">Una actividad solo para disfrutar</label><input class="lab-campo" id="ju-semana-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-semana-6">El momento del día que más me cuesta, y qué puedo poner ahí</label><textarea class="lab-texto" id="ju-semana-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="identidad" aria-labelledby="t-identidad">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-identidad">Quién soy más allá del trabajo</h2>
+      <p class="lab-estacion__bajada">Tu oficio es una parte importante de tu historia, y no es toda. Esta estación sirve para recordar el resto.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mas-alla-del-trabajo" data-lab-form-titulo="Quién soy más allá del trabajo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-identidad-1">Completá «soy…» con cosas que no sean tu oficio (rol familiar, gustos, valores, rasgos)</label><textarea class="lab-texto" id="ju-identidad-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-identidad-2">Qué valoraban los demás de mí además de mi trabajo</label><textarea class="lab-texto" id="ju-identidad-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-identidad-3">Qué parte de mí quedó postergada y quiero retomar</label><textarea class="lab-texto" id="ju-identidad-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-identidad-4">Algo que siempre quise probar y nunca tuve tiempo</label><input class="lab-campo" id="ju-identidad-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="proyecto" aria-labelledby="t-proyecto">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-proyecto">Un proyecto propio y mis vínculos</h2>
+      <p class="lab-estacion__bajada">Un proyecto no tiene que ser grande: puede ser aprender, cuidar un huerto, enseñar lo que sabés o armar encuentros. Elegí uno pequeño, probalo cuatro semanas y mirá cómo te queda.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-proyecto-nueva-etapa" data-lab-form-titulo="Mi proyecto y mis vínculos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-proyecto-1">Mi proyecto de las próximas cuatro semanas</label><input class="lab-campo" id="ju-proyecto-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-proyecto-2">El primer paso (algo para hacer esta semana)</label><textarea class="lab-texto" id="ju-proyecto-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-proyecto-3">¿Con quién puedo compartirlo o a quién puedo sumar?</label><textarea class="lab-texto" id="ju-proyecto-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-proyecto-4">Los vínculos que quiero cuidar en esta etapa, y qué haría para cuidarlos</label><textarea class="lab-texto" id="ju-proyecto-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ju-proyecto-5">¿Cómo voy a saber si me hace bien?</label><input class="lab-campo" id="ju-proyecto-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="jubilacion">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Reconocer.</strong> Anotá qué extrañás de la rutina laboral y qué no.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una ancla.</strong> Elegí una actividad fija para la semana y poné horario.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Moverme.</strong> Salí a caminar o hacé algún movimiento durante veinte minutos.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Contacto.</strong> Llamá a alguien con quien hace tiempo no hablás.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Mi historia.</strong> Escribí tres cosas de las que te sentís orgulloso, más allá del trabajo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Probar algo.</strong> Hacé una actividad nueva o retomá una vieja, por poco tiempo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar la semana.</strong> Anotá qué te hizo bien y qué mantener.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre jubilarse. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="jubilacion-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si desde que te jubilaste sentís tristeza que no cede, te aislás, dormís mal, tomás más alcohol que antes o pensás que ya no tiene sentido seguir, conviene consultarlo. Podés <a href="/contacto/">escribirme</a> o mirar <a href="/ayuda-urgente/">ayuda urgente</a> si necesitás ayuda ahora. Para seguir: <a href="/recursos/vejez-y-jubilacion/">vejez y jubilación</a> y <a href="/terapia-para-adultos-mayores/">terapia para adultos mayores</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Atchley, R. C. (1989). «A continuity theory of normal aging». <em>The Gerontologist</em>, 29(2), 183-190.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

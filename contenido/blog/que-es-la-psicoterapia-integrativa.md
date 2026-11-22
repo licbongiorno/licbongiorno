@@ -75,3 +75,9 @@ Preguntá cuál es su eje teórico y su formación. Integrar con criterio no es 
 - [Terapia sistémica](/recursos/terapia-sistemica/), [terapia Gestalt](/recursos/terapia-gestalt/) y [terapia narrativa](/recursos/terapia-narrativa/): tres de las miradas con las que dialogo.
 - [Cómo saber si necesito terapia](/recursos/como-saber-si-necesito-terapia/): si todavía estás evaluando si dar el paso.
 - [Laboratorio de psicoterapia integrativa](/laboratorio-de-psicoterapia-integrativa/): ejercicios y etapas del cambio.
+
+## Para seguir leyendo
+
+- Wachtel, P. L. (1977). *Psychoanalysis and Behavior Therapy: Toward an Integration*. Nueva York: Basic Books.
+- Fernández-Álvarez, H. (1992). *Fundamentos de un modelo integrativo en psicoterapia*. Buenos Aires: Paidós.
+- Norcross, J. C. y Goldfried, M. R. (eds.) (1992). *Handbook of Psychotherapy Integration*. Nueva York: Basic Books (ediciones posteriores en Oxford University Press).

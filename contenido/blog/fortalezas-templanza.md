@@ -3,7 +3,7 @@ titulo: Templanza: perdón, humildad, prudencia y autorregulación
 titulo_seo: Fortalezas de templanza: perdón, humildad, prudencia y más
 descripcion: Perdón, humildad, prudencia y autorregulación: las fortalezas de la templanza según Peterson y Seligman, con lo que muestra la investigación y sus límites.
 resumen: La templanza es la virtud que protege contra los excesos. En la clasificación de Peterson y Seligman reúne cuatro fortalezas: perdón, humildad, prudencia y autorregulación. Qué son, qué se sabe y cuándo se vuelven un problema.
-categoria: Salud mental
+categoria: Desarrollo personal
 palabras_clave: fortalezas del carácter, templanza, moderación, perdón, humildad, modestia, prudencia, autorregulación, autocontrol, Peterson y Seligman, psicología positiva
 fecha: 2026-11-17
 fecha_visible: noviembre de 2026
