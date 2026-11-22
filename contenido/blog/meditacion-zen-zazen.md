@@ -50,6 +50,8 @@ El zazen puede ayudar a tolerar la incomodidad, a observar los pensamientos sin 
 
 Podés probar «solo sentarse» y la meditación caminando en el [laboratorio de meditación](/laboratorio-de-meditacion/).
 
+Para ver el zen junto a las psicoterapias y los conceptos que nacieron en Japón, como la [terapia Morita](/recursos/terapia-morita/), mirá el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el zazen?

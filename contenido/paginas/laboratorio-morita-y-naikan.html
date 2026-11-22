@@ -1,0 +1,138 @@
+<!--{
+  "ruta": "/laboratorio-morita-y-naikan/",
+  "titulo": "Laboratorio Morita y Naikan: actuar y reflexionar",
+  "descripcion": "Ejercicios inspirados en dos psicoterapias japonesas: arugamama de Morita (actuar con la emoción presente) y las tres preguntas de la reflexión Naikan.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Morita y Naikan",
+      "/laboratorio-morita-y-naikan/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>Morita y Naikan</em>",
+  "bajada": "Dos prácticas japonesas, dos ideas distintas: con Morita se aprende a hacer lo que hay que hacer con la emoción presente; con Naikan se mira una relación a través de tres preguntas. Ejercicios para probarlas con cuidado.",
+  "respuesta": "El laboratorio Morita y Naikan ofrece ejercicios inspirados en dos psicoterapias japonesas. La terapia Morita, creada por Shoma Morita, propone aceptar las emociones tal como son (arugamama) y actuar según lo que la situación requiere. El Naikan, desarrollado por Ishin Yoshimoto en la década de 1940, es una reflexión guiada por tres preguntas: qué recibí, qué di y qué problemas causé. Son ejercicios de exploración, no un tratamiento, con un aviso importante para el Naikan.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-3.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio Morita y Naikan",
+  "articulos": [
+    "terapia-morita",
+    "naikan"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>A diferencia del kaizen o del wabi-sabi, que son conceptos culturales, <strong>Morita</strong> y <strong>Naikan</strong> son psicoterapias japonesas, con una técnica propia y una historia clínica. La terapia Morita nació con el psiquiatra Shoma Morita a comienzos del siglo XX; el Naikan fue desarrollado por Ishin Yoshimoto en la década de 1940. David K. Reynolds, que los dio a conocer en Occidente, escribió <em>Morita Psychotherapy</em> (1976); Gregg Krech describe la práctica del Naikan en <em>Naikan: Gratitude, Grace, and the Japanese Art of Self-Reflection</em> (2002).</p>
+        <p>Lo que se propone acá son ejercicios de exploración inspirados en ambas, no una versión de la terapia. En su forma original se trabajan con un terapeuta o en un marco guiado, y no conviene idealizarlas: son enfoques de otra cultura, con una mirada particular sobre el esfuerzo y la deuda hacia los demás, y no son para todas las personas ni para todos los momentos. Tomá lo que te sirva y dejá lo que no.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin forzar.</strong> Si algo te incomoda de más, parás.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con límite.</strong> El Naikan no se usa con alguien que te maltrató.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#controlar">¿Controlar o actuar?</a>
+      <a href="#arugamama">Practicar arugamama</a>
+      <a href="#naikan">Naikan: las tres preguntas</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="controlar" aria-labelledby="t-controlar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-controlar">¿Controlar la emoción o actuar con ella presente?</h2>
+      <p class="lab-estacion__bajada">En la perspectiva Morita, esperar a sentirse bien para hacer lo que hay que hacer suele atrapar. Cada situación tiene dos salidas posibles: ¿cuál es la que sigue el arugamama?</p>
+      <div class="lab-tarjeta" data-lab-quiz="morita-controlar-actuar">
+        <p class="lab-tarjeta__titulo">¿Controlar o actuar con ella presente?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="arugamama" aria-labelledby="t-arugamama">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-arugamama">Practicar arugamama</h2>
+      <p class="lab-estacion__bajada">Arugamama significa, más o menos, «tal como es». Se trata de notar lo que sentís sin sacarlo a la fuerza y de hacer igual lo que la situación pide. Probalo con algo concreto.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-arugamama" data-lab-form-titulo="Mi práctica de arugamama" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-arugamama-1">Algo que tengo que hacer hoy y vengo evitando</label><input class="lab-campo" id="mn-arugamama-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-arugamama-2">¿Qué emoción o sensación aparece cuando pienso en hacerlo?</label><textarea class="lab-texto" id="mn-arugamama-2" rows="2" placeholder="Nombrala simplemente: miedo, fastidio, pereza, vergüenza…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-arugamama-3">¿Qué hago habitualmente para sacármela de encima?</label><input class="lab-campo" id="mn-arugamama-3" type="text" placeholder="Esperar, distraerme, buscar calmarme primero" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-arugamama-4">Lo que la situación pide hacer, dicho como acción concreta</label><textarea class="lab-texto" id="mn-arugamama-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-arugamama-5">Después de hacerlo: ¿qué pasó con la emoción? ¿Y con lo que tenía que hacer?</label><textarea class="lab-texto" id="mn-arugamama-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="naikan" aria-labelledby="t-naikan">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-naikan">Naikan: las tres preguntas</h2>
+      <p class="lab-estacion__bajada"><strong>Antes de empezar.</strong> No hagas este ejercicio sobre alguien que te maltrató o te hizo daño: el Naikan puede llevar a asumir culpas que no te corresponden. Si sos muy autocrítico/a, hacelo con amabilidad, sin buscar «culpables», o salteá esta estación. Elegí una persona con quien tengas un vínculo corriente y escribí sobre un período acotado.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-naikan" data-lab-form-titulo="Mi reflexión Naikan" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-naikan-1">La persona elegida y el período</label><input class="lab-campo" id="mn-naikan-1" type="text" placeholder="Por ejemplo: mi hermana, esta última semana" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-naikan-2">1. ¿Qué recibí de esa persona? Hechos concretos, por chicos que sean</label><textarea class="lab-texto" id="mn-naikan-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-naikan-3">2. ¿Qué le di? Hechos concretos, sin juzgarlos</label><textarea class="lab-texto" id="mn-naikan-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-naikan-4">3. ¿Qué problemas o molestias le causé? Hechos concretos, sin castigarme</label><textarea class="lab-texto" id="mn-naikan-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-naikan-5">¿Qué noto al mirar las tres respuestas juntas?</label><textarea class="lab-texto" id="mn-naikan-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mn-naikan-6">Un gesto concreto que puedo tener con esa persona</label><input class="lab-campo" id="mn-naikan-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="morita-naikan">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar.</strong> Una vez por día, nombrá lo que sentís: «hay pereza», «hay miedo».</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Hacer igual.</strong> Elegí una tarea chica y hacela con la emoción presente.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. La tarea de siempre.</strong> Cumplí con algo cotidiano sin esperar tener ganas.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Prestar atención afuera.</strong> En una conversación o una tarea, llevá la atención a lo que tenés delante.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Qué recibí.</strong> Anotá tres cosas concretas que recibiste hoy de alguien.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Qué di y qué causé.</strong> Anotá una cosa que diste y una molestia que causaste, sin juzgarte.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Un gesto.</strong> Hacé un gesto concreto para alguien, sin esperar nada a cambio.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre Morita y Naikan. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="morita-naikan-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si usás el Naikan y aparece mucha culpa, tristeza o autocrítica, parate: no es el ejercicio para ese momento. Si hubo maltrato en la relación, mirá el <a href="/laboratorio-de-trauma/">laboratorio de trauma</a> y consultá a un profesional. Si estás en crisis o pensás en hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). También podés <a href="/contacto/">escribirme</a>. Para seguir: <a href="/recursos/terapia-morita/">terapia Morita</a>, <a href="/recursos/naikan/">Naikan</a> y el <a href="/laboratorio-act/">laboratorio de aceptación y compromiso</a>, que trabaja una idea cercana al arugamama.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Reynolds, D. K. (1976). <em>Morita Psychotherapy</em>. University of California Press.</li>
+        <li>Krech, G. (2002). <em>Naikan: Gratitude, Grace, and the Japanese Art of Self-Reflection</em>. Stone Bridge Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

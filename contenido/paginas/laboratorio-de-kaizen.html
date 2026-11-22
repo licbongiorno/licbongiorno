@@ -1,0 +1,150 @@
+<!--{
+  "ruta": "/laboratorio-de-kaizen/",
+  "titulo": "Laboratorio de kaizen: cambiar en pasos pequeños",
+  "descripcion": "Ejercicios para cambiar en pasos pequeños: la pregunta de un minuto, el paso más pequeño posible, registrar avances mínimos y distinguir paso de salto.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Kaizen",
+      "/laboratorio-de-kaizen/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>kaizen</em>",
+  "bajada": "Kaizen es una palabra japonesa que se traduce como «mejora continua». Aplicada al cambio personal, propone avanzar en pasos tan chicos que cuesten poco. Ejercicios para ensayarlo, con los pies en la tierra.",
+  "respuesta": "El laboratorio de kaizen propone ejercicios para cambiar en pasos pequeños: una pregunta de un minuto, el paso más pequeño posible, el registro de avances mínimos y un plan de 7 días. Kaizen es un concepto cultural y de gestión, no una psicoterapia; Robert Maurer (2004) lo trasladó al cambio personal. El respaldo empírico más sólido para repetir acciones chicas viene de la psicología de los hábitos, como el estudio de Lally y colaboradores (2010).",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-3.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de kaizen",
+  "articulos": [
+    "kaizen"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p><strong>Kaizen</strong> es un término japonés que suele traducirse como «mejora continua». Nació en el ámbito de la gestión y la producción, no de la psicología clínica. El psicólogo Robert Maurer lo llevó al cambio personal en <em>One Small Step Can Change Your Life: The Kaizen Way</em> (2004), con una idea simple: si un cambio te asusta o te cansa, hacelo tan chico que casi no dé resistencia.</p>
+        <p>Conviene decir con claridad de dónde viene el respaldo. Kaizen no es una terapia ni tiene ensayos clínicos propios. Lo que sí está estudiado es la psicología de los hábitos: Phillippa Lally y su equipo (2010) observaron que repetir una conducta en un contexto estable va aumentando su automaticidad, y que no hay un número mágico de días. Este laboratorio usa la mirada kaizen como una forma amable de aprovechar eso, sin prometer transformaciones.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin heroísmo.</strong> Si el paso te parece ridículo de tan chico, está bien.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Un solo cambio.</strong> Elegí una cosa por vez, no un plan de vida.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#pregunta">La pregunta de un minuto</a>
+      <a href="#paso">El paso más pequeño</a>
+      <a href="#quiz">¿Paso kaizen o salto?</a>
+      <a href="#registro">Registrar avances mínimos</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="pregunta" aria-labelledby="t-pregunta">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-pregunta">La pregunta de un minuto</h2>
+      <p class="lab-estacion__bajada">Maurer propone empezar con preguntas pequeñas, que no activen la resistencia. Dedicale un minuto a cada una, sin apuro por responder bien.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="la-pregunta-de-un-minuto" data-lab-form-titulo="La pregunta de un minuto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-pregunta-1">¿Qué cambio me gustaría hacer, dicho en una frase?</label><input class="lab-campo" id="kz-pregunta-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-pregunta-2">¿Qué es lo más chiquito que podría hacer hoy en esa dirección?</label><textarea class="lab-texto" id="kz-pregunta-2" rows="2" placeholder="Algo que lleve menos de un minuto"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-pregunta-3">¿Qué me gustaría que fuera un poquito mejor esta semana?</label><input class="lab-campo" id="kz-pregunta-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-pregunta-4">¿Qué me frenó otras veces y qué parte de eso se puede achicar?</label><textarea class="lab-texto" id="kz-pregunta-4" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="paso" aria-labelledby="t-paso">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-paso">El paso más pequeño posible</h2>
+      <p class="lab-estacion__bajada">Un paso kaizen es tan chico que cuesta poco empezarlo y casi no hay excusa. Armá el tuyo y atalo a algo que ya hacés.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-paso-mas-pequeno" data-lab-form-titulo="Mi paso más pequeño" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-1">El cambio que quiero</label><input class="lab-campo" id="kz-paso-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-2">La versión gigante (la que suelo intentar y abandono)</label><input class="lab-campo" id="kz-paso-2" type="text" placeholder="Por ejemplo: correr una hora todos los días" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-3">La versión mínima (la que casi no puede fallar)</label><input class="lab-campo" id="kz-paso-3" type="text" placeholder="Por ejemplo: ponerme las zapatillas y salir a la puerta" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-4">¿Después de qué hábito de todos los días lo hago?</label><input class="lab-campo" id="kz-paso-4" type="text" placeholder="Por ejemplo: después de tomar el primer café" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-5">Si un día no llego, el paso todavía más chico es</label><input class="lab-campo" id="kz-paso-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-quiz">¿Paso kaizen o salto?</h2>
+      <p class="lab-estacion__bajada">Un paso kaizen es mínimo, concreto y repetible. Un salto exige mucha motivación o muchos cambios juntos. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="kaizen-paso-salto">
+        <p class="lab-tarjeta__titulo">¿Paso kaizen o salto?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente propuesta</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-registro">Registrar avances mínimos</h2>
+      <p class="lab-estacion__bajada">Anotar lo hecho, por poco que sea, ayuda a ver el movimiento. Contá lo que hiciste, no lo que te faltó.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mis-avances-minimos" data-lab-form-titulo="Mis avances mínimos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-1">El paso que estoy practicando</label><input class="lab-campo" id="kz-registro-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-2">Lo que hice esta semana (aunque sea una vez)</label><textarea class="lab-texto" id="kz-registro-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-3">Lo que noté: cuándo me resultó fácil y cuándo no</label><textarea class="lab-texto" id="kz-registro-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-4">Un ajuste para la semana próxima</label><input class="lab-campo" id="kz-registro-4" type="text" placeholder="Hacerlo más chico, cambiar el momento, atarlo a otro hábito" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-5">Algo que me reconozco, sin «pero»</label><input class="lab-campo" id="kz-registro-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="kaizen">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Una pregunta.</strong> Respondé la pregunta de un minuto y elegí un solo cambio.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Achicar.</strong> Reducí ese cambio a una versión que lleve menos de dos minutos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Atarlo.</strong> Elegí un hábito de todos los días y hacé el paso justo después.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Hacerlo.</strong> Hacé el paso, aunque te parezca poco. Anotá que lo hiciste.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Preparar el terreno.</strong> Dejá a mano lo que necesitás para el paso de mañana.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Mirar qué pasó.</strong> Revisá tu registro: ¿cuándo fue fácil y cuándo no?</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Ajustar.</strong> Decidí si lo dejás igual, lo hacés más chico o sumás un escalón mínimo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el kaizen y los cambios chicos. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="kaizen-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Los pasos chicos ayudan a empezar, pero no reemplazan una consulta cuando algo pesa más de lo que un hábito puede resolver. Si hace semanas que te cuesta levantarte, disfrutar o hacer lo de siempre, conviene hablarlo: podés <a href="/contacto/">escribirme</a>, y si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Para seguir: el artículo sobre <a href="/recursos/kaizen/">kaizen</a>, el <a href="/laboratorio-de-habitos/">laboratorio de hábitos</a> y el <a href="/laboratorio-de-procrastinacion/">laboratorio de procrastinación</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Maurer, R. (2004). <em>One Small Step Can Change Your Life: The Kaizen Way</em>. Workman.</li>
+        <li>Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W. y Wardle, J. (2010). «How are habits formed: Modelling habit formation in the real world». <em>European Journal of Social Psychology</em>, 40(6), 998-1009.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

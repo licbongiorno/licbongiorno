@@ -55,6 +55,8 @@ Cuando la exigencia te deja agotado, cuando no podés disfrutar de lo que lográ
 
 Para probar estándares «suficientemente buenos» con pequeños experimentos, pasá por el [laboratorio de perfeccionismo](/laboratorio-de-perfeccionismo/). Y si sentís que tus logros no son mérito tuyo, puede interesarte el artículo sobre el [síndrome del impostor](/recursos/sindrome-del-impostor/).
 
+Una mirada distinta sobre lo imperfecto la proponen dos ideas estéticas japonesas: [wabi-sabi y kintsugi](/recursos/wabi-sabi-y-kintsugi/).
+
 ## Preguntas frecuentes
 
 ### ¿Ser perfeccionista es malo?

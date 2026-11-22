@@ -52,6 +52,8 @@ Las señales de arriba sirven para pensar, no para etiquetarte ni para etiquetar
 
 Muchas veces la dependencia emocional se entiende mejor desde el [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/) en la pareja adulta.
 
+El psiquiatra japonés Takeo Doi pensó una forma sana de depender del otro: el [amae](/recursos/amae/).
+
 ## Preguntas frecuentes
 
 ### ¿Cómo sé si tengo dependencia emocional?

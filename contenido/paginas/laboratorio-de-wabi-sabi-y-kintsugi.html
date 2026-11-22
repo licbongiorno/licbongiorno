@@ -1,0 +1,136 @@
+<!--{
+  "ruta": "/laboratorio-de-wabi-sabi-y-kintsugi/",
+  "titulo": "Laboratorio de wabi-sabi y kintsugi: lo imperfecto",
+  "descripcion": "Ejercicios con dos metáforas estéticas japonesas: escribir sobre una grieta propia, mirar lo gastado con atención y distinguir perfeccionismo de cuidado.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Wabi-sabi y kintsugi",
+      "/laboratorio-de-wabi-sabi-y-kintsugi/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>wabi-sabi y kintsugi</em>",
+  "bajada": "El wabi-sabi valora lo imperfecto y pasajero; el kintsugi repara lo roto con oro, sin esconder la fractura. Son metáforas bellas, no tratamientos. Ejercicios para jugar con ellas sin exigirte nada.",
+  "respuesta": "El laboratorio de wabi-sabi y kintsugi usa dos conceptos estéticos japoneses como metáforas: el wabi-sabi, una sensibilidad que encuentra belleza en lo imperfecto y lo pasajero, y el kintsugi, una técnica de reparación de cerámica con laca y oro. No son terapias, y conviene no idealizar el dolor. Incluye escritura sobre una grieta propia, un ejercicio de observación de objetos gastados, un quiz sobre perfeccionismo y cuidado, y un plan de 7 días.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-3.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de wabi-sabi y kintsugi",
+  "articulos": [
+    "wabi-sabi-y-kintsugi"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El <strong>wabi-sabi</strong> es una sensibilidad estética japonesa que encuentra valor en lo imperfecto, lo incompleto y lo pasajero. Leonard Koren la presentó a un público occidental de artistas y diseñadores en <em>Wabi-Sabi for Artists, Designers, Poets &amp; Philosophers</em> (1994). El <strong>kintsugi</strong> es una técnica artesanal para reparar cerámica rota con laca espolvoreada con oro, de modo que la fractura queda a la vista.</p>
+        <p>Ninguno de los dos es una psicoterapia, y por eso este laboratorio los usa como <strong>metáforas</strong>, no como método. Tienen un riesgo: idealizar el sufrimiento, como si cada daño se transformara en belleza o hubiera que agradecer lo que duele. No es así. Lo que se propone es más modesto: mirar con calma lo imperfecto, y preguntarte qué te ayudó a repararte, si es que algo lo hizo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin idealizar.</strong> No todo daño tiene que servir para algo.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu ritmo.</strong> Elegí una grieta que puedas mirar sin que te desborde.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#grieta">Una grieta propia</a>
+      <a href="#observacion">Belleza en lo gastado</a>
+      <a href="#quiz">¿Perfeccionismo o cuidado?</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="grieta" aria-labelledby="t-grieta">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-grieta">Escribir sobre una grieta propia</h2>
+      <p class="lab-estacion__bajada">Pensá en algo que se rompió o se lastimó en tu vida y hoy está más o menos reparado. Elegí algo que puedas mirar con calma, no lo más doloroso. Escribí lo que ocurrió y lo que ayudó.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-grieta" data-lab-form-titulo="Mi grieta y lo que la reparó" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-grieta-1">La grieta: ¿qué se rompió o se lastimó?</label><input class="lab-campo" id="ws-grieta-1" type="text" placeholder="Una ruptura, un error, una pérdida, una etapa" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-grieta-2">¿Cómo fue en ese momento? Contalo simple, sin adornos</label><textarea class="lab-texto" id="ws-grieta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-grieta-3">¿Qué me ayudó a repararme? Personas, tiempo, decisiones, apoyos</label><textarea class="lab-texto" id="ws-grieta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-grieta-4">¿Qué quedó distinto? Incluí lo que sigue doliendo, si hay algo</label><textarea class="lab-texto" id="ws-grieta-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-grieta-5">Si pudiera elegir qué parte de la reparación dejar a la vista, sería</label><input class="lab-campo" id="ws-grieta-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-grieta-6">Una frase honesta para esta grieta, que no la embellezca ni la niegue</label><textarea class="lab-texto" id="ws-grieta-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="observacion" aria-labelledby="t-observacion">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-observacion">Encontrar belleza en lo imperfecto</h2>
+      <p class="lab-estacion__bajada">Elegí un objeto gastado de tu casa: una taza con borde saltado, una silla con marcas, un libro muy leído. Mirálo cinco minutos con atención, como si fuera la primera vez, y después completá lo que notaste.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-observacion" data-lab-form-titulo="Mi observación de un objeto gastado" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-observacion-1">El objeto que elegí</label><input class="lab-campo" id="ws-observacion-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-observacion-2">Lo que veo: marcas, manchas, desgaste, texturas, colores</label><textarea class="lab-texto" id="ws-observacion-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-observacion-3">Lo que esas marcas cuentan sobre su historia</label><textarea class="lab-texto" id="ws-observacion-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-observacion-4">Lo que noto en mi cuerpo y en mi ánimo al mirarlo con atención</label><textarea class="lab-texto" id="ws-observacion-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ws-observacion-5">¿Hay algo en él que me resulte valioso justamente por estar gastado?</label><input class="lab-campo" id="ws-observacion-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-quiz">¿Perfeccionismo o cuidado?</h2>
+      <p class="lab-estacion__bajada">Aceptar lo imperfecto no significa dejar de cuidar las cosas. La diferencia está en el motivo: el perfeccionismo busca no fallar; el cuidado busca que algo sirva y dure. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="wabi-sabi-perfeccionismo-cuidado">
+        <p class="lab-tarjeta__titulo">¿Perfeccionismo o cuidado?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="wabi-sabi-kintsugi">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mirar un objeto.</strong> Elegí un objeto gastado y mirálo cinco minutos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una grieta.</strong> Escribí una frase sobre algo que se rompió y hoy está reparado.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Lo imperfecto a la vista.</strong> Dejá sin arreglar una imperfección chica por hoy y notá qué pasa.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Cuidar algo.</strong> Arreglá o cuidá algo que tengas, sin buscar que quede como nuevo.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Lo que me ayudó.</strong> Anotá quién o qué te ayudó a repararte en un momento difícil.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Una pausa.</strong> Hacé algo sin objetivo ni resultado, por diez minutos.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar sin pulir.</strong> Mostrale a alguien algo tuyo que no está del todo terminado.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el wabi-sabi y el kintsugi. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="wabi-sabi-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la «grieta» que elegiste todavía duele mucho, o si sentís que tenés que estar agradecido/a por lo que te pasó, dejá el ejercicio: no hay obligación de encontrarle un lado luminoso a todo. Si estás mal, <a href="/contacto/">escribime</a>, y si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Para seguir: el artículo sobre <a href="/recursos/wabi-sabi-y-kintsugi/">wabi-sabi y kintsugi</a>, el <a href="/laboratorio-de-perfeccionismo/">laboratorio de perfeccionismo</a> y el <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Koren, L. (1994). <em>Wabi-Sabi for Artists, Designers, Poets &amp; Philosophers</em>. Stone Bridge Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
