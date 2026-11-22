@@ -58,6 +58,8 @@ Cuando el agotamiento no se va con el descanso, cuando aparecen síntomas en el 
 Si el agotamiento viene con desesperanza o pensamientos de hacerte daño, no esperes: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Más teléfonos en [Ayuda urgente](/ayuda-urgente/).
 :::fin
 
+Si querés una medida orientativa de cómo estás, podés responder el [inventario de burnout de Copenhague](/escala-de-burnout-de-copenhague/), que mide el agotamiento físico y psicológico, y la [escala de estrés percibido PSS-10](/escala-de-estres-percibido/).
+
 ## Preguntas frecuentes
 
 ### ¿El burnout es una enfermedad?

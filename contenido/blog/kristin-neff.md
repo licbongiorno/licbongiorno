@@ -37,6 +37,8 @@ El instrumento que Neff desarrolló es la Escala de Autocompasión, de 26 ítems
 
 Si querés explorar cómo se vive esto en el día a día, probá el [laboratorio de autocompasión](/laboratorio-de-autocompasion/).
 
+Podés responder la versión breve de doce preguntas, validada en español, en la [escala de autocompasión](/escala-de-autocompasion/) del sitio.
+
 ## Autocompasión, autoestima y autoindulgencia
 
 Una de las aclaraciones más útiles de Neff es que la autocompasión no es lo mismo que la autoestima ni que la autoindulgencia.

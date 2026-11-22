@@ -53,6 +53,8 @@ Tiene respaldo que el duelo perinatal puede ser un duelo no reconocido y que pue
 
 Conviene consultar si el dolor te impide funcionar durante mucho tiempo, si aparecen pensamientos de hacerte daño o si sentís que no podés compartir esto con nadie. Si estás en riesgo, entrá a [ayuda urgente](/ayuda-urgente/), llamá al 911, al Centro de Asistencia al Suicida (135 en CABA y GBA, o 0800-345-1435) o a la Línea de Salud Mental 0800-999-0091.
 
+Si pasaron varias semanas y el ánimo no mejora, la [escala de Edimburgo](/escala-de-depresion-perinatal-edimburgo/) puede orientarte sobre si conviene consultar por una depresión.
+
 ## Un cuidado
 
 Nadie puede decirte cómo tenés que sentirte ni cuánto tiempo tenés para sentirlo. Lo que sí podés hacer es permitirte nombrar lo que pasó y dejar que te acompañen.
