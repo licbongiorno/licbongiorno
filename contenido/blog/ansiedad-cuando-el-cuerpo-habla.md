@@ -61,6 +61,8 @@ Si querés probar distintas técnicas de respiración y entender qué hace cada 
 
 Si la ansiedad toma la forma de una preocupación constante por todo, mirá [ansiedad generalizada](/recursos/ansiedad-generalizada/).
 
+Cómo la cultura moldea la forma en que el sufrimiento se expresa en el cuerpo lo muestra la historia de la [neurastenia en China](/recursos/neurastenia-y-somatizacion/).
+
 ## Preguntas frecuentes
 
 ### ¿La ansiedad se cura?

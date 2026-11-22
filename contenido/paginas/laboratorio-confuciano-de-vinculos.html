@@ -1,0 +1,152 @@
+<!--{
+  "ruta": "/laboratorio-confuciano-de-vinculos/",
+  "titulo": "Laboratorio confuciano de vínculos: ren, li y xiao",
+  "descripcion": "Ejercicios para pensar tus vínculos con ideas confucianas: mapa de deberes, respeto u obediencia, un ritual de cuidado y gratitud sin justificar maltrato.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Confuciano",
+      "/laboratorio-confuciano-de-vinculos/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>confuciano</em> de vínculos",
+  "bajada": "Ren, li y xiao son tres ideas del confucianismo sobre cómo cuidar los vínculos. Inspiran, pero no son una terapia, y vienen de un mundo con jerarquías que hoy conviene mirar con criterio. Ejercicios para ensayarlas.",
+  "respuesta": "El laboratorio confuciano de vínculos propone ejercicios con tres ideas del confucianismo: ren (humanidad, benevolencia), li (ritos y formas de conducta) y xiao (piedad filial). Incluye un mapa de vínculos y deberes, un quiz para distinguir respeto de obediencia, un ritual pequeño de cuidado y un ejercicio de gratitud hacia los mayores con un aviso: si hubo maltrato, no corresponde forzar gratitud. El confucianismo es una tradición filosófica, no una psicoterapia.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-4.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio confuciano de vínculos",
+  "articulos": [
+    "confucio-y-la-psicologia"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El <strong>confucianismo</strong> es una tradición filosófica y ética china que toma su nombre de Confucio (Kongzi), cuyas enseñanzas se recogen en los <em>Analectas</em>. Tres ideas sirven para pensar los vínculos: <strong>ren</strong> (humanidad, benevolencia hacia los demás), <strong>li</strong> (ritos y formas apropiadas de conducta, como saludar o agradecer) y <strong>xiao</strong> (piedad filial, la actitud de cuidado y respeto hacia los padres y los mayores).</p>
+        <p>Hay que usarlas con criterio. No son una psicoterapia, y nacieron en un mundo con jerarquías fuertes entre padres e hijos, hombres y mujeres, gobernantes y súbditos. En psicología, Yeh y Bedford (2003) distinguieron una piedad filial recíproca, basada en el afecto y la gratitud, de una autoritaria, basada en la obediencia y el deber. Este laboratorio toma de la tradición lo que cuida y deja afuera lo que somete.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin obligaciones forzadas.</strong> Ningún ejercicio te pide gratitud hacia quien te dañó.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> Tomá lo que cuida y dejá lo que somete.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mapa">Mapa de vínculos y deberes</a>
+      <a href="#quiz">¿Respeto u obediencia?</a>
+      <a href="#ritual">Un ritual pequeño de cuidado</a>
+      <a href="#gratitud">Gratitud hacia los mayores</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mapa">Mapa de tus vínculos y deberes</h2>
+      <p class="lab-estacion__bajada">La tradición clásica habla de cinco relaciones básicas, casi todas jerárquicas (entre ellas, padre e hijo y entre amigos). Acá ensayá un mapa propio: quiénes importan hoy, qué sentís que les debés y qué es razonable esperar de ellos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-mapa-de-deberes" data-lab-form-titulo="Mi mapa de vínculos y deberes" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-mapa-1">Las personas o grupos que más importan hoy (familia, amistades, trabajo, comunidad)</label><textarea class="lab-texto" id="cf-mapa-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-mapa-2">Lo que siento que les debo: cuidado, tiempo, respeto, ayuda</label><textarea class="lab-texto" id="cf-mapa-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-mapa-3">Lo que es razonable que esperen de mí y lo que no</label><textarea class="lab-texto" id="cf-mapa-3" rows="2" placeholder="Lo razonable y lo desmedido"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-mapa-4">Un deber que cumplo con gusto</label><input class="lab-campo" id="cf-mapa-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-mapa-5">Un deber que cumplo por miedo o por culpa</label><input class="lab-campo" id="cf-mapa-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-mapa-6">Un deber que me gustaría revisar o conversar con alguien</label><textarea class="lab-texto" id="cf-mapa-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quiz">¿Respeto u obediencia?</h2>
+      <p class="lab-estacion__bajada">Respetar a alguien no es obedecerlo. En los Analectas, Confucio dice que cuidar a los padres sin reverencia no distingue el cuidado humano del que se da a los animales: lo que cuenta es la actitud. La obediencia por miedo es otra cosa. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="confuciano-respeto-obediencia">
+        <p class="lab-tarjeta__titulo">¿Respeto u obediencia?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="ritual" aria-labelledby="t-ritual">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-ritual">Un ritual pequeño de cuidado</h2>
+      <p class="lab-estacion__bajada">Li alude a ritos y formas de conducta: saludar, agradecer, visitar. Un gesto chico y repetido puede sostener un vínculo mejor que una gran demostración ocasional. Elegí uno posible y que quieras hacer.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-ritual-de-cuidado" data-lab-form-titulo="Mi ritual de cuidado" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-ritual-1">¿Con quién?</label><input class="lab-campo" id="cf-ritual-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-ritual-2">El gesto (una llamada, un mensaje, un café, una visita, un saludo)</label><input class="lab-campo" id="cf-ritual-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-ritual-3">Cada cuánto y en qué momento lo haría</label><input class="lab-campo" id="cf-ritual-3" type="text" placeholder="Por ejemplo: los domingos después del almuerzo" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-ritual-4">¿Qué lo haría fácil? ¿Qué lo podría dificultar?</label><textarea class="lab-texto" id="cf-ritual-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-ritual-5">Después de probarlo: ¿cómo me sentí yo? ¿Cómo lo recibió la otra persona?</label><textarea class="lab-texto" id="cf-ritual-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="gratitud" aria-labelledby="t-gratitud">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-gratitud">Gratitud hacia los mayores</h2>
+      <p class="lab-estacion__bajada"><strong>Aviso importante.</strong> Si hubo maltrato, abuso o negligencia, no corresponde forzar gratitud ni «respeto» hacia quien lo ejerció, y esta tradición no debería usarse para justificarlo. En ese caso saltá la estación o elegí a otra persona: un abuelo, una maestra, un vecino que sí te cuidó. Si tu vínculo es mixto, podés agradecer una cosa y seguir enojado/a por otra.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-gratitud" data-lab-form-titulo="Mi gratitud hacia alguien mayor" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-gratitud-1">Una persona mayor con quien el vínculo me hizo bien</label><input class="lab-campo" id="cf-gratitud-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-gratitud-2">Algo concreto que recibí de ella</label><textarea class="lab-texto" id="cf-gratitud-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-gratitud-3">Lo que le agradezco, dicho con mis palabras</label><textarea class="lab-texto" id="cf-gratitud-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-gratitud-4">Algo de esa relación que no me gustó y que puedo reconocer sin que anule la gratitud</label><textarea class="lab-texto" id="cf-gratitud-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-gratitud-5">Qué gesto haría: decírselo, escribirle, o solo recordarlo</label><input class="lab-campo" id="cf-gratitud-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="confuciano">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. El mapa.</strong> Completá el mapa de tus vínculos y deberes.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Un saludo con atención.</strong> Saludá a alguien dándole un minuto completo, sin mirar el teléfono.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Escuchar sin obedecer.</strong> En una conversación, escuchá una opinión distinta a la tuya sin discutir ni ceder.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un ritual de cuidado.</strong> Hacé el gesto pequeño que elegiste.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Gratitud.</strong> Si tenés a alguien con quien corresponda, escribile o agradecele. Si no, salteá el día.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un deber para revisar.</strong> Elegí un deber que cumplís por culpa y pensá qué sería razonable hacer distinto.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar qué pasó.</strong> Anotá qué gestos te hicieron bien a vos y a los demás, y cuáles no.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el confucianismo y los vínculos. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="confuciano-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si alguna de estas estaciones te remueve recuerdos de maltrato, abuso o abandono, parate: no tenés que sentir gratitud por quien te dañó. Mirá el <a href="/laboratorio-de-trauma/">laboratorio de trauma</a> y consultá a un profesional. Si estás en crisis o pensás en hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). También podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/confucio-y-la-psicologia/">Confucio y la psicología</a>, el <a href="/laboratorio-mi-mapa-de-vinculos/">laboratorio de mi mapa de vínculos</a> y el <a href="/laboratorio-sistemico/">laboratorio sistémico</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Legge, J. (trad.) (1893). <em>The Chinese Classics, vol. 1: Confucian Analects, The Great Learning, and The Doctrine of the Mean</em> (2.ª ed.). Clarendon Press.</li>
+        <li>Yeh, K.-H. y Bedford, O. (2003). «A test of the dual filial piety model». <em>Asian Journal of Social Psychology</em>, 6(3), 215-228.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

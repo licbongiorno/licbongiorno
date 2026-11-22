@@ -52,6 +52,8 @@ La terapia familiar y de pareja tiene buena evidencia para problemas de conducta
 
 Aunque atiendo principalmente de forma individual, en mi [enfoque integrativo](/enfoque/) tomo la mirada sistémica para entender a cada persona en su contexto: su familia, sus vínculos, su historia. Para practicar, te espera el [laboratorio sistémico](/laboratorio-sistemico/), con un genograma que se dibuja en pantalla. Si lo que se repite son los [patrones en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/), también podés escribirme.
 
+Una tradición que pone los vínculos familiares en el centro, con sus luces y sus riesgos, es la de [Confucio](/recursos/confucio-y-la-psicologia/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la terapia sistémica?

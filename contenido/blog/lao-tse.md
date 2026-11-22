@@ -42,6 +42,8 @@ Los historiadores dudan de que haya existido como una sola persona. El *Tao Te K
 - **Jean Shinoda Bolen** escribió *El tao de la psicología* (1979), donde vincula el tao con la sincronicidad y el sí-mismo. Ver [Jean Shinoda Bolen](/recursos/jean-shinoda-bolen/).
 - La idea de no forzar los procesos, de acompañar en lugar de empujar, resuena con muchas formas de la psicoterapia y con la aceptación de las terapias actuales.
 
+Para ver cómo dialoga el taoísmo con la psicología actual, leé [taoísmo y psicología](/recursos/taoismo-y-psicologia/) o recorré el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el Tao Te King?

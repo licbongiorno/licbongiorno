@@ -1,0 +1,126 @@
+<!--{
+  "ruta": "/laboratorio-de-qigong-y-tai-chi/",
+  "titulo": "Laboratorio de qigong y tai chi: movimiento suave",
+  "descripcion": "Una práctica breve de movimiento suave y respiración, un registro de cómo te sentís antes y después, un quiz de mitos y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Qigong y tai chi",
+      "/laboratorio-de-qigong-y-tai-chi/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>qigong y tai chi</em>",
+  "bajada": "El qigong y el tai chi son prácticas chinas de movimiento lento y respiración. Se estudian como ejercicio suave, no como tratamiento, y no hace falta creer en el qi para probarlas. Una práctica breve, con sus cuidados.",
+  "respuesta": "El laboratorio de qigong y tai chi ofrece una práctica breve y guiada de movimiento suave y respiración, un registro de cómo te sentís antes y después en una escala de 0 a 10, un quiz de mitos y un plan de 7 días. Son prácticas de origen chino, no psicoterapias. Una revisión de Wang y colaboradores (2010) encontró beneficios en el bienestar psicológico, con estudios de calidad dispareja. El laboratorio no promete efectos sobre el qi ni reemplaza un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-4.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de qigong y tai chi",
+  "articulos": [
+    "qigong-y-tai-chi"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El <strong>qigong</strong> y el <strong>tai chi</strong> son prácticas de origen chino que combinan movimientos lentos y coordinados con la respiración y la atención. El tai chi nació como arte marcial y hoy se practica sobre todo como ejercicio suave. En la tradición se habla del <em>qi</em>, una noción que la ciencia no mide, y este laboratorio no hace ninguna afirmación sobre él.</p>
+        <p>Lo que sí se estudió es el efecto de estas prácticas como ejercicio y atención. Una revisión sistemática de Wang y colaboradores (2010) encontró beneficios en estrés, ansiedad, depresión y ánimo, aunque con estudios heterogéneos y de calidad dispareja. Peter Wayne y Ted Kaptchuk (2008) señalan además que el tai chi es una intervención compleja, difícil de aislar. <strong>No reemplaza un tratamiento.</strong> Si tenés problemas cardíacos, articulares o de equilibrio, o estás embarazada, consultá antes con tu médico. Detenete si sentís dolor o mareo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin forzar.</strong> Si hay dolor o mareo, parás.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>A tu medida.</strong> Podés hacerlo sentado/a y más lento.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#practica">Práctica breve guiada</a>
+      <a href="#registro">Antes y después</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="practica" aria-labelledby="t-practica">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-practica">Práctica breve de movimiento y respiración</h2>
+      <p class="lab-estacion__bajada">Unos cinco minutos, de pie o sentado/a. Con espacio libre y, si tu equilibrio te preocupa, junto a una silla o una pared. Activá el reloj para unos 45 segundos por paso. <strong>Detenete si sentís dolor o mareo</strong>, y consultá antes si tenés problemas cardíacos, articulares o de equilibrio, o estás embarazada.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="45">
+        <ol class="lab-pasos">
+          <li><strong>Prepararte.</strong> Pies al ancho de las caderas, rodillas apenas flexionadas y no bloqueadas, brazos sueltos. Si preferís o necesitás, sentate con la espalda cómoda.</li>
+          <li><strong>Llegar.</strong> Bajá la mirada o cerrá los ojos. Notá el peso en los pies o en la silla. Respirá tres veces de manera natural, sin cambiar nada.</li>
+          <li><strong>Respirar lento.</strong> Inhalá por la nariz sin forzar y exhalá más largo y suave. Si te mareás o te falta el aire, volvé a respirar como siempre.</li>
+          <li><strong>Subir y bajar los brazos.</strong> Al inhalar, subí los brazos hacia adelante hasta la altura de los hombros, con las palmas hacia abajo. Al exhalar, bajalos despacio. Seis veces, bien lento.</li>
+          <li><strong>Abrir y cerrar.</strong> Frente al pecho, con los brazos como si abrazaras una pelota grande: abrí al inhalar, acercá al exhalar. Seis veces, sin tensar los hombros.</li>
+          <li><strong>Pasar el peso.</strong> Con los dos pies apoyados, llevá el peso de un pie al otro, despacio. Seis veces. Si te sentís inestable, hacelo sentado/a o con una mano en la silla.</li>
+          <li><strong>Cerrar.</strong> Apoyá las manos sobre el abdomen, respirá dos veces y abrí los ojos. Notá cómo estás, sin evaluarlo.</li>
+        </ol>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="registro" aria-labelledby="t-registro">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-registro">Registro antes y después</h2>
+      <p class="lab-estacion__bajada">Anotá cómo estás antes de la práctica y después, en una escala de 0 a 10. No hace falta que mejore: puede quedar igual o sentirse distinto, y todo sirve de información.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-registro-antes-y-despues" data-lab-form-titulo="Mi registro antes y después" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qt-registro-1">Antes: tensión del cuerpo (0 a 10)</label><input class="lab-campo" id="qt-registro-1" type="text" inputmode="numeric" maxlength="2" placeholder="0 = ninguna, 10 = muchísima" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qt-registro-2">Antes: nivel de ánimo (0 a 10)</label><input class="lab-campo" id="qt-registro-2" type="text" inputmode="numeric" maxlength="2" placeholder="0 = muy bajo, 10 = muy bueno" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qt-registro-3">Después: tensión del cuerpo (0 a 10)</label><input class="lab-campo" id="qt-registro-3" type="text" inputmode="numeric" maxlength="2" placeholder="0 = ninguna, 10 = muchísima" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qt-registro-4">Después: nivel de ánimo (0 a 10)</label><input class="lab-campo" id="qt-registro-4" type="text" inputmode="numeric" maxlength="2" placeholder="0 = muy bajo, 10 = muy bueno" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qt-registro-5">Lo que noté en el cuerpo y en la respiración</label><textarea class="lab-texto" id="qt-registro-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="qt-registro-6">¿Hubo dolor, mareo o algo incómodo? ¿Qué ajusto la próxima vez?</label><textarea class="lab-texto" id="qt-registro-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="qigong-tai-chi">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Llegar al cuerpo.</strong> Parate o sentate dos minutos y notá el peso y la respiración, sin cambiar nada.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Respirar lento.</strong> Cinco respiraciones largas y suaves, sin forzar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Los brazos.</strong> Subí y bajá los brazos con la respiración, seis veces, muy despacio.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. La práctica completa.</strong> Hacé la práctica guiada de unos cinco minutos y completá tu registro antes y después.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Más lento.</strong> Repetí la práctica a la mitad de velocidad. Notá qué cambia.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Una pausa en el día.</strong> Hacé una versión de dos minutos, sentado/a si querés, en un momento de pausa.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar qué pasó.</strong> Revisá tu registro. ¿Cuándo fue cómodo? ¿Qué ajustás? Si hubo dolor o mareo, consultalo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el qigong y el tai chi. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="qigong-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Esta práctica no reemplaza ningún tratamiento médico ni psicológico. Con problemas cardíacos, articulares o de equilibrio, o si estás embarazada, consultá antes con tu médico. Detenete si sentís dolor o mareo. Si hace semanas que te cuesta funcionar o disfrutar, podés <a href="/contacto/">escribirme</a>, y si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Para seguir: el artículo sobre <a href="/recursos/qigong-y-tai-chi/">qigong y tai chi</a>, el <a href="/laboratorio-de-respiraciones/">laboratorio de respiraciones</a> y el <a href="/laboratorio-de-tono-postura-y-movimiento/">laboratorio de tono, postura y movimiento</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Wang, C., Bannuru, R., Ramel, J., Kupelnick, B., Scott, T. y Schmid, C. H. (2010). «Tai Chi on psychological well-being: systematic review and meta-analysis». <em>BMC Complementary and Alternative Medicine</em>, 10, 23.</li>
+        <li>Wayne, P. M. y Kaptchuk, T. J. (2008). «Challenges inherent to t'ai chi research: Part I—t'ai chi as a complex multicomponent intervention». <em>Journal of Alternative and Complementary Medicine</em>, 14(1), 95-102.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -50,6 +50,8 @@ La respiración regula, pero no resuelve. Puede bajar la intensidad de una emoci
 
 Para probar las técnicas, te espera el [laboratorio de respiraciones](/laboratorio-de-respiraciones/), con diez prácticas guiadas. Y si la ansiedad te desborda seguido, podés escribirme.
 
+Dos prácticas chinas que combinan respiración y movimiento suave tienen algo de investigación: el [qigong y el tai chi](/recursos/qigong-y-tai-chi/).
+
 ## Preguntas frecuentes
 
 ### ¿Por qué la respiración calma la ansiedad?

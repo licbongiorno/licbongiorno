@@ -59,4 +59,6 @@ Si la vergüenza es tan intensa que lleva a aislarse por completo, a pensar que 
 
 Para practicar la diferencia entre lo que hiciste y lo que sos, está el [laboratorio de culpa y vergüenza](/laboratorio-de-culpa-y-verguenza/).
 
+La psicología social china estudió con detalle la vergüenza y el respeto con los conceptos de [mianzi y guanxi](/recursos/mianzi-y-guanxi/).
+
 Lecturas: Lewis, H. B. (1971), *Shame and Guilt in Neurosis*, International Universities Press. Tangney, J. P. y Dearing, R. L. (2002), *Shame and Guilt*, Guilford.

@@ -45,4 +45,6 @@ La meditación no es para todos ni en todo momento. Sentarse a mirar la propia m
 
 Podés ubicar esta tradición dentro del conjunto en [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/), explorar [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/) y practicar en [el laboratorio de las tradiciones orientales](/laboratorio-de-las-tradiciones-orientales/).
 
+El budismo que llegó a Occidente como zen nació en China como [chan](/recursos/chan-el-budismo-chino/).
+
 Lecturas: Varela, F. J., Thompson, E. y Rosch, E. (1991), *The Embodied Mind: Cognitive Science and Human Experience*, MIT Press. Varela, F. J. (1996), «Neurophenomenology: a methodological remedy for the hard problem», *Journal of Consciousness Studies*, 3(4), 330–349.

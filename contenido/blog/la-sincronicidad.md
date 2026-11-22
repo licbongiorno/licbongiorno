@@ -45,6 +45,8 @@ Si alguien empieza a ver señales en todas partes, a sentir que todo está conec
 
 En terapia, cuando aparece una coincidencia significativa, se la trata como a un sueño: algo para explorar, no para obedecer. Si querés conversar sobre esto, podés leer sobre la [terapia junguiana](/terapia-junguiana/) o escribirme.
 
+Jung desarrolló esta idea en diálogo con el *I Ching*, el antiguo libro chino; lo cuento en el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la sincronicidad según Jung?
