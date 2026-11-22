@@ -1058,7 +1058,7 @@ GUIA = [
     ("tristeza", "Tristeza o desgano", "/depresion/", ["como-saber-si-necesito-terapia", "la-motivacion"], ["/laboratorio-de-animo/", "/laboratorio-de-pensamientos-repetitivos/", "/laboratorio-de-emociones/", "/laboratorio-de-autocompasion/"]),
     ("vinculos", "Vínculos o pareja", "/dificultades-vinculares/", ["patrones-que-se-repiten-en-los-vinculos", "el-apego", "los-celos", "infidelidad", "narcisismo"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-de-vinculos/", "/laboratorio-de-comunicacion-no-violenta/"]),
     ("familia", "Mi familia", "/dificultades-vinculares/", ["terapia-sistemica", "el-genograma", "padres-de-adolescentes"], ["/laboratorio-mi-mapa-de-vinculos/", "/laboratorio-sistemico/"]),
-    ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia", "duelo-perinatal"], ["/laboratorio-de-duelo/"]),
+    ("duelo", "Un duelo o una pérdida", "/duelo-y-perdidas/", ["duelo-migratorio", "la-resiliencia", "duelo-perinatal"], ["/laboratorio-de-duelo/", "/laboratorio-de-psicotanatologia/"]),
     ("estres", "Estrés o agotamiento", "/estres-y-agotamiento/", ["burnout", "la-motivacion", "respiracion-y-emociones"], ["/laboratorio-de-estres/", "/laboratorio-de-resolucion-de-problemas/", "/laboratorio-de-mindfulness/", "/laboratorio-de-meditacion/"]),
     ("autoestima", "Autoestima o autocrítica", "/autoestima/", ["autoexigencia-y-perfeccionismo", "la-culpa", "psicologia-humanista-carl-rogers", "la-verguenza", "mejor-version-posible"], ["/laboratorio-de-autocompasion/", "/laboratorio-humanista/", "/laboratorio-mi-mejor-version/"]),
     ("sueno", "Dormir mal", "/estres-y-agotamiento/", ["insomnio", "pesadillas", "respiracion-y-emociones"], ["/laboratorio-de-insomnio/", "/laboratorio-de-descanso/", "/laboratorio-de-suenos/"]),
@@ -1723,6 +1723,40 @@ def indice_articulo(html_md):
     return f'<details class="indice-articulo" open><summary class="indice-articulo__titulo">En este artículo</summary><ol>{items}</ol></details>'
 
 
+MOTIVOS_HUB = ["/ansiedad-y-ataques-de-panico/", "/depresion/", "/estres-y-agotamiento/", "/duelo-y-perdidas/",
+               "/crisis-vitales/", "/autoestima/", "/dificultades-vinculares/", "/trauma/"]
+
+
+def bloque_hub(ruta, ya):
+    """Página de motivo como centro temático: más lecturas, laboratorios y tests afines."""
+    nl = _nombre_lab()
+    labs, tests, slugs = [], [], []
+    for g in GUIA:
+        if g[2] != ruta:
+            continue
+        labs += [l for l in g[4] if l in nl and l not in labs]
+        tests += [t for t in GUIA_TESTS.get(g[0], []) if t not in tests]
+        slugs += [x for x in g[3] if x not in slugs]
+    slugs += [a["archivo"][:-3] for a in ARTICULOS if a["publicado"] and (destino_consulta(a) or ("",))[0] == ruta]
+    por_slug = {a["archivo"][:-3]: a for a in ARTICULOS if a["publicado"]}
+    arts = []
+    for x in slugs:
+        if x in por_slug and x not in ya and por_slug[x] not in arts:
+            arts.append(por_slug[x])
+    arts = arts[:6]
+    col = lambda t, items: (f'<div><h3>{t}</h3><ul>' + "".join(f'<li><a href="{r}">{esc(n)}</a></li>' for n, r in items) + "</ul></div>") if items else ""
+    cols = (col("Más lecturas", [(a["titulo"], a["ruta"]) for a in arts])
+            + col("Laboratorios para practicar", [(nl[l], l) for l in labs[:5]])
+            + col("Tests orientativos", tests[:3]))
+    if not cols:
+        return ""
+    return f'''<section class="seccion hub-motivo" aria-labelledby="titulo-hub"><div class="contenedor">
+  <div class="encabezado-seccion revelar"><p class="antetitulo">Entre sesiones</p><h2 id="titulo-hub">Para leer y <em>practicar</em></h2>
+  <p>Recursos del sitio sobre este tema. Sirven para pensar y ejercitar por tu cuenta; no reemplazan una consulta ni sirven para diagnosticar.</p></div>
+  <div class="hub-motivo__cols">{cols}</div>
+</div></section>'''
+
+
 def leer_mas(slugs):
     arts = [a for s_ in slugs for a in ARTICULOS if a["archivo"][:-3] == s_ and (a["publicado"] or BORRADORES)]
     if not arts:
@@ -2350,6 +2384,8 @@ def construir():
             meta["og"] = og_pag
         if meta.get("articulos"):
             cuerpo += leer_mas(meta["articulos"])
+        if ruta in MOTIVOS_HUB:
+            cuerpo += bloque_hub(ruta, set(meta.get("articulos", [])))
         nombres[ruta] = re.sub(r"<[^>]+>", "", meta.get("h1", meta["titulo"]))
         meta.setdefault("modificado", fecha_git(f))
         fechas[ruta] = meta["modificado"]
