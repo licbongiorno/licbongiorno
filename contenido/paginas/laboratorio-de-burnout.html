@@ -1,0 +1,150 @@
+<!--{
+  "ruta": "/laboratorio-de-burnout/",
+  "titulo": "Laboratorio de burnout: agotamiento, límites y recuperación",
+  "descripcion": "Ejercicios sobre burnout: las tres dimensiones de Maslach, qué depende de vos y qué de la organización, cómo poner límites y cómo recuperarte.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Burnout",
+      "/laboratorio-de-burnout/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>burnout</em>",
+  "bajada": "Cuando el trabajo te agota, te endurece y te hace sentir que ya nada alcanza, puede ser burnout. Ejercicios para reconocerlo, distinguir lo que podés cambiar y lo que no, y recuperarte.",
+  "respuesta": "El laboratorio de burnout propone ejercicios basados en el modelo de Christina Maslach (Maslach, Schaufeli y Leiter, 2001): agotamiento, cinismo o despersonalización e ineficacia, y en el planteo de Maslach y Leiter (1997) de que las condiciones del trabajo pesan tanto o más que la persona. Ayuda a distinguir lo que depende de vos de lo organizacional, a poner límites y a planear la recuperación. Incluye un plan de 7 días.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-2.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de burnout",
+  "articulos": [
+    "burnout"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Christina Maslach, con Wilmar Schaufeli y Michael Leiter (2001), describió el burnout como una respuesta prolongada al estrés crónico en el trabajo, con tres dimensiones: <strong>agotamiento</strong> (estar vaciado), <strong>cinismo o despersonalización</strong> (tomar distancia, volverse duro con el trabajo y con la gente) e <strong>ineficacia</strong> (sentir que ya no se rinde ni se logra nada). En 2019, la Organización Mundial de la Salud lo incluyó en la CIE-11 como «fenómeno ocupacional», no como enfermedad.</p>
+        <p>Maslach y Leiter (1997) insistieron en algo importante: el burnout no es solo cuestión de la persona. Pesan la sobrecarga, la falta de control, el poco reconocimiento, la falta de comunidad, la injusticia y los conflictos de valores. Por eso este laboratorio separa lo que podés trabajar vos de lo que corresponde a la organización, para que no te cargues con todo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin culpa.</strong> El agotamiento no es una debilidad.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Un cambio chico.</strong> Mejor un límite posible que cinco imposibles.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#dimensiones">Las tres dimensiones</a>
+      <a href="#mapa">Mi mapa de desgaste</a>
+      <a href="#depende">¿De quién depende?</a>
+      <a href="#limites">Límites y recuperación</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="dimensiones" aria-labelledby="t-dimensiones">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-dimensiones">Las tres dimensiones del burnout</h2>
+      <p class="lab-estacion__bajada">Leé cada situación y decidí a qué dimensión corresponde.</p>
+      <div class="lab-tarjeta" data-lab-quiz="burnout-dimensiones">
+        <p class="lab-tarjeta__titulo">¿Qué dimensión es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-mapa">Mi mapa de desgaste</h2>
+      <p class="lab-estacion__bajada">Mirá qué fuentes de desgaste hay en tu trabajo, sin evaluar todavía qué hacer.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-mapa-de-desgaste" data-lab-form-titulo="Mi mapa de desgaste" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-mapa-1">Cuándo me siento más agotado (días, tareas, personas)</label><textarea class="lab-texto" id="bu-mapa-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-mapa-2">Dónde noto cinismo o distancia</label><textarea class="lab-texto" id="bu-mapa-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-mapa-3">Dónde siento que no rindo o no logro nada</label><textarea class="lab-texto" id="bu-mapa-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-mapa-4">Qué señales veo en el cuerpo y en el sueño</label><textarea class="lab-texto" id="bu-mapa-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-mapa-5">Lo que sí me sigue importando de mi trabajo</label><input class="lab-campo" id="bu-mapa-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="depende" aria-labelledby="t-depende">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-depende">Lo que depende de vos y lo que no</h2>
+      <p class="lab-estacion__bajada">Parte del malestar se puede trabajar personalmente. Otra parte es de la organización y no se resuelve con mindfulness. ¿Dónde está cada cosa?</p>
+      <div class="lab-tarjeta" data-lab-quiz="burnout-responsabilidad">
+        <p class="lab-tarjeta__titulo">¿Depende de mí o de la organización?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="limites" aria-labelledby="t-limites">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-limites">Límites y recuperación</h2>
+      <p class="lab-estacion__bajada">Recuperarse necesita pausas reales y límites realistas. No se trata de hacer más, sino de decidir qué sacar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="limites-y-recuperacion" data-lab-form-titulo="Mis límites y mi recuperación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-limites-1">El límite más importante que necesito poner</label><input class="lab-campo" id="bu-limites-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-limites-2">Cómo lo voy a decir y a quién</label><textarea class="lab-texto" id="bu-limites-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-limites-3">Lo que temo que pase, y lo más probable</label><textarea class="lab-texto" id="bu-limites-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-limites-4">Dos formas de recuperarme que realmente me sirvan (sueño, movimiento, naturaleza, amigos, nada)</label><textarea class="lab-texto" id="bu-limites-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="bu-limites-5">Qué voy a dejar de hacer o delegar</label><input class="lab-campo" id="bu-limites-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="burnout">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mirar.</strong> Anotá cuándo te sentiste más agotado hoy y por qué.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. La pausa.</strong> Hacé un descanso real en la jornada, lejos de la pantalla.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. El corte.</strong> Elegí una hora a partir de la cual no contestás mensajes del trabajo.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Dormir.</strong> Cuidá un horario de sueño regular al menos tres noches.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Plantearlo.</strong> Escribí qué le pedirías a tu organización (carga, claridad, apoyo).</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Algo que alimente.</strong> Hacé algo que no sea productivo: un paseo, una charla, un hobby.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Evaluar.</strong> Mirá qué cambió y qué necesitás para sostenerlo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el burnout. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="burnout-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El burnout puede convivir con depresión, ansiedad o consumo de alcohol, y conviene que lo evalúe un profesional. Si sentís que no podés más o pensás en hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Para medir tu desgaste, podés hacer la <a href="/escala-de-burnout-de-copenhague/">escala de burnout de Copenhague</a>; para leer más, <a href="/recursos/burnout/">burnout</a>. También podés <a href="/contacto/">escribirme</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Maslach, C., Schaufeli, W. B. y Leiter, M. P. (2001). «Job burnout». <em>Annual Review of Psychology</em>, 52, 397-422.</li>
+        <li>Maslach, C. y Leiter, M. P. (1997). <em>The Truth About Burnout: How Organizations Cause Personal Stress and What to Do About It</em>. Jossey-Bass.</li>
+        <li>Organización Mundial de la Salud (2019). <em>Burn-out an «occupational phenomenon»: International Classification of Diseases</em>. who.int.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

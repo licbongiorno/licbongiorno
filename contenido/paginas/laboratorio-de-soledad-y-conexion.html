@@ -1,0 +1,149 @@
+<!--{
+  "ruta": "/laboratorio-de-soledad-y-conexion/",
+  "titulo": "Laboratorio de soledad y conexión: volver a los otros",
+  "descripcion": "Ejercicios sobre soledad: distinguir la elegida de la que duele, mapear tu red, reconocer los sesgos de la soledad y dar pequeños pasos de contacto.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Soledad",
+      "/laboratorio-de-soledad-y-conexion/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>soledad y conexión</em>",
+  "bajada": "Estar solo y sentirse solo no son lo mismo. Ejercicios para distinguir la soledad que se elige de la que duele, mirar tu red de vínculos y dar pasos chicos de contacto.",
+  "respuesta": "El laboratorio de soledad y conexión propone ejercicios basados en la investigación de John Cacioppo (Loneliness, 2008, con William Patrick; Hawkley y Cacioppo, 2010): la soledad como señal de que el vínculo con otros está insatisfecho, la diferencia entre estar solo y sentirse solo, los sesgos de la mirada social cuando uno se siente solo y los pequeños gestos de contacto. Incluye un mapa de la propia red y un plan de 7 días.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-2.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de soledad y conexión",
+  "articulos": [
+    "la-soledad"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>John Cacioppo y William Patrick, en <em>Loneliness</em> (2008), plantean que la soledad es una señal, parecida al hambre o a la sed: avisa que algo que necesitamos, el vínculo con otros, no está bien cubierto. Importa menos la cantidad de gente alrededor que la sensación de estar conectado. Por eso se puede estar solo y sentirse bien, o acompañado y sentirse solo.</p>
+        <p>Hawkley y Cacioppo (2010) describen además que, cuando nos sentimos solos, la mirada se vuelve más atenta a las amenazas sociales: tendemos a esperar rechazo y a leer en negativo lo que pasa. Eso nos aleja, y el alejamiento refuerza la soledad. Este laboratorio ayuda a reconocer ese círculo y a salir de él con pasos pequeños.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin presión.</strong> No hace falta una red enorme, sino algún lazo vivo.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Pasos chicos.</strong> Un mensaje alcanza para empezar.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#tipos">Elegida o no elegida</a>
+      <a href="#red">Mapa de mi red</a>
+      <a href="#sesgos">Los sesgos de la soledad</a>
+      <a href="#gestos">Pequeños gestos</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="tipos" aria-labelledby="t-tipos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tipos">Soledad elegida y soledad que duele</h2>
+      <p class="lab-estacion__bajada">Hay momentos de soledad que se buscan y se disfrutan, y otros que se sufren. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="soledad-tipos">
+        <p class="lab-tarjeta__titulo">¿Qué tipo de soledad es?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="red" aria-labelledby="t-red">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-red">El mapa de mi red</h2>
+      <p class="lab-estacion__bajada">Pensar quiénes están en tu vida, aunque sea de lejos, es el primer paso para ver con qué contás y qué te falta.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-mapa-de-conexion" data-lab-form-titulo="Mi mapa de conexión" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-red-1">Personas cercanas, con las que puedo hablar de lo importante</label><textarea class="lab-texto" id="so-red-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-red-2">Personas con las que me llevo bien pero hablo poco</label><textarea class="lab-texto" id="so-red-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-red-3">Personas con las que perdí contacto y me gustaría retomar</label><textarea class="lab-texto" id="so-red-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-red-4">Lugares o grupos donde ya voy o podría ir (club, taller, voluntariado, feria, culto)</label><textarea class="lab-texto" id="so-red-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-red-5">¿Qué me gustaría que hubiera más en mi red?</label><input class="lab-campo" id="so-red-5" type="text" placeholder="Compañía, conversación profunda, humor, planes, ayuda práctica…" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="sesgos" aria-labelledby="t-sesgos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-sesgos">Los sesgos de la soledad</h2>
+      <p class="lab-estacion__bajada">Cuando uno se siente solo, la mente tiende a leer lo social con más sospecha. Reconocerlo ayuda a no tomarlo como un hecho. ¿Qué aparece en cada caso?</p>
+      <div class="lab-tarjeta" data-lab-quiz="soledad-sesgos">
+        <p class="lab-tarjeta__titulo">¿Qué pasa en la mente?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="gestos" aria-labelledby="t-gestos">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-gestos">Pequeños gestos de contacto</h2>
+      <p class="lab-estacion__bajada">La conexión se reconstruye con gestos chicos y repetidos, más que con grandes cambios. Elegí uno para esta semana.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mis-gestos-de-contacto" data-lab-form-titulo="Mis gestos de contacto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-gestos-1">¿A quién le escribo o con quién me encuentro?</label><input class="lab-campo" id="so-gestos-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-gestos-2">El gesto de cinco minutos (un mensaje, un audio, un café, un saludo)</label><textarea class="lab-texto" id="so-gestos-2" rows="2" placeholder="Por ejemplo: «Pensé en vos, ¿cómo andás?»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-gestos-3">¿Cuándo lo hago? (día y hora)</label><input class="lab-campo" id="so-gestos-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-gestos-4">Lo que temo que pase</label><textarea class="lab-texto" id="so-gestos-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="so-gestos-5">Lo que pasó realmente (completalo después)</label><textarea class="lab-texto" id="so-gestos-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="soledad-conexion">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Ponerle nombre.</strong> Anotá cuándo te sentiste solo hoy y qué necesitabas.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Mi mapa.</strong> Completá el mapa de tu red, aunque sea de a poco.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Un mensaje.</strong> Escribile a alguien, sin pedir nada, solo para saludar.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un lugar.</strong> Salí a un sitio donde haya gente: plaza, café, club, biblioteca.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Mi lectura.</strong> Si leíste algo en negativo, escribí una explicación alternativa.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un plan.</strong> Proponé algo concreto a alguien (un café, una caminata).</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Mirar lo hecho.</strong> Anotá qué fue lo más fácil y cuál será tu próximo gesto.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre la soledad. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="soledad-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Si la soledad viene con tristeza que no se va, desgano, dormir mal o pensamientos de que no vale la pena seguir, conviene consultarlo. Podés <a href="/contacto/">escribirme</a>. Si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Para seguir: <a href="/recursos/la-soledad/">la soledad</a> y el <a href="/laboratorio-mi-mapa-de-vinculos/">laboratorio de mapa de vínculos</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Cacioppo, J. T. y Patrick, W. (2008). <em>Loneliness: Human Nature and the Need for Social Connection</em>. W. W. Norton.</li>
+        <li>Hawkley, L. C. y Cacioppo, J. T. (2010). «Loneliness matters: A theoretical and empirical review of consequences and mechanisms». <em>Annals of Behavioral Medicine</em>, 40(2), 218-227.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
