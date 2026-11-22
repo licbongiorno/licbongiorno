@@ -79,11 +79,35 @@
     ]
   },
   {
+    "termino": "Wu yong zhi yong",
+    "original": "无用之用",
+    "definicion": [
+      "«La utilidad de lo inútil»: una idea del *Zhuangzi*, ilustrada con el árbol torcido que nadie tala porque su madera no sirve, y que por eso llega a ser enorme y da sombra.",
+      "Es una imagen filosófica. Invita a revisar la exigencia de ser útil todo el tiempo, algo que en consulta aparece a menudo junto al agotamiento."
+    ]
+  },
+  {
+    "termino": "Sueño de la mariposa",
+    "original": "庄周梦蝶",
+    "definicion": [
+      "El pasaje del *Zhuangzi* en que el autor sueña que es una mariposa y, al despertar, ya no sabe si es Zhuangzi que soñó ser mariposa o una mariposa que sueña ser Zhuangzi.",
+      "Es una parábola filosófica sobre la identidad y las perspectivas. Tiene un aire de familia con la toma de distancia de los propios pensamientos que proponen las terapias contextuales."
+    ]
+  },
+  {
     "termino": "Wuxing",
     "original": "五行",
     "definicion": [
       "Las «cinco fases»: madera, fuego, tierra, metal y agua, que en la cosmología china tradicional se generan y se controlan entre sí. Es un esquema central de la medicina tradicional china.",
       "Es un sistema cosmológico, no un modelo con respaldo científico. Se menciona para entender textos y prácticas tradicionales."
+    ]
+  },
+  {
+    "termino": "Tian ren he yi",
+    "original": "天人合一",
+    "definicion": [
+      "«Unidad del cielo y el ser humano»: la idea de que la persona y el cosmos forman un todo, presente en el taoísmo y en el confucianismo.",
+      "Es un concepto filosófico."
     ]
   },
   {
@@ -140,6 +164,38 @@
     "definicion": [
       "La «reciprocidad»: no hacerle a otro lo que no querés que te hagan a vos. Confucio la propone como la regla para toda la vida.",
       "Es un principio ético."
+    ]
+  },
+  {
+    "termino": "Si duan",
+    "original": "四端",
+    "definicion": [
+      "Los «cuatro brotes» que, según Mencio, todo ser humano tiene por naturaleza: la compasión, la vergüenza ante lo indebido, la deferencia y el discernimiento entre lo correcto y lo incorrecto. Son brotes porque necesitan cultivarse para crecer.",
+      "Es un concepto de la ética confuciana. Dialoga con la investigación sobre empatía y conducta prosocial temprana, sin que esta lo confirme ni lo refute."
+    ]
+  },
+  {
+    "termino": "Xing shan y xing e",
+    "original": "性善 / 性恶",
+    "definicion": [
+      "Las dos respuestas clásicas a si la naturaleza humana es buena o mala. Mencio sostuvo que es buena (*xing shan*) y que el mal viene de no cultivarla; Xunzi, que tiende al egoísmo (*xing e*) y que la educación y el ritual la transforman.",
+      "Es un debate filosófico que la psicología del desarrollo moral sigue explorando con otros métodos."
+    ]
+  },
+  {
+    "termino": "Xin",
+    "original": "心",
+    "definicion": [
+      "El «corazón-mente»: en el pensamiento chino, una sola palabra para lo que en castellano separamos entre pensar y sentir. Es la sede del conocimiento, la emoción y el juicio moral.",
+      "Es un concepto filosófico central en Mencio y en Wang Yangming."
+    ]
+  },
+  {
+    "termino": "Zhi xing he yi",
+    "original": "知行合一",
+    "definicion": [
+      "«La unidad del conocimiento y la acción»: la enseñanza central del filósofo Wang Yangming (1472-1529). Saber de verdad algo es ya actuar en consecuencia; quien sabe y no hace, todavía no sabe.",
+      "Es un concepto filosófico. Tiene un parentesco con lo que la psicología estudia como la brecha entre intención y acción."
     ]
   },
   {
@@ -228,6 +284,22 @@
     "definicion": [
       "El tai chi: un arte marcial que se practica como una secuencia lenta de movimientos encadenados, con atención y respiración.",
       "Hay investigación sobre sus efectos en el equilibrio, el ánimo y el estrés, sobre todo en personas mayores, con limitaciones metodológicas. Es una práctica de bienestar, no un tratamiento."
+    ]
+  },
+  {
+    "termino": "Zhenjiu",
+    "original": "针灸",
+    "definicion": [
+      "La acupuntura y la moxibustión: la práctica de insertar agujas finas en puntos del cuerpo, propia de la medicina tradicional china.",
+      "Las revisiones de estudios sobre depresión, ansiedad o insomnio muestran resultados de calidad baja y efectos difíciles de separar del placebo. No reemplaza tratamientos con eficacia demostrada."
+    ]
+  },
+  {
+    "termino": "Zhongyi",
+    "original": "中医",
+    "definicion": [
+      "La medicina tradicional china: un sistema de diagnóstico y tratamiento basado en conceptos como el qi, el yin y el yang y las cinco fases, que incluye hierbas, acupuntura y prácticas corporales.",
+      "Es un sistema tradicional. Algunos de sus componentes se investigan con métodos científicos, pero sus fundamentos teóricos no tienen respaldo fisiológico."
     ]
   },
   {
