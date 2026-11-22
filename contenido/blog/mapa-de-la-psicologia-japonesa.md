@@ -78,6 +78,8 @@ Algunas, como los pasos pequeños o salir a un bosque, sí. Las terapias, mejor 
 - [Laboratorio Morita y Naikan](/laboratorio-morita-y-naikan/)
 - [Laboratorio de wabi-sabi y kintsugi](/laboratorio-de-wabi-sabi-y-kintsugi/)
 
+Para la tradición vecina, con el taoísmo, el confucianismo y el budismo chan, mirá el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/).
+
 ## Para seguir leyendo
 
 - Sugg, H. V. R., Richards, D. A. y Frost, J. (2020). «What is Morita therapy? The nature, origins, and cross-cultural application of a unique Japanese psychotherapy». *Journal of Contemporary Psychotherapy*, 50(4).

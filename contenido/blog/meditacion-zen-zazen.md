@@ -52,6 +52,8 @@ Podés probar «solo sentarse» y la meditación caminando en el [laboratorio de
 
 Para ver el zen junto a las psicoterapias y los conceptos que nacieron en Japón, como la [terapia Morita](/recursos/terapia-morita/), mirá el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
 
+Las raíces chinas del zen están en el [budismo chan](/recursos/chan-el-budismo-chino/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el zazen?

@@ -1,0 +1,138 @@
+<!--{
+  "ruta": "/laboratorio-taoista/",
+  "titulo": "Laboratorio taoísta: dejar de forzar (wu wei)",
+  "descripcion": "Ejercicios inspirados en el taoísmo: distinguir forzar de fluir, el yin y el yang de tu vida, una frase del Tao Te Ching y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Taoísta",
+      "/laboratorio-taoista/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>taoísta</em>",
+  "bajada": "El taoísmo es una tradición filosófica y religiosa china que habla de actuar sin forcejear (wu wei) y de los opuestos que se complementan. Inspira, pero no es un tratamiento. Ejercicios para ensayarlo con criterio.",
+  "respuesta": "El laboratorio taoísta ofrece ejercicios inspirados en el taoísmo: un quiz para distinguir forzar, fluir y abandonar, un ejercicio de yin y yang sobre lo que está en exceso y lo que falta, escritura con una frase del Tao Te Ching y un plan de 7 días. El taoísmo es una tradición filosófica y religiosa, no una psicoterapia. Wu wei suele traducirse como «no acción», pero Edward Slingerland (2003) sostiene que alude a actuar con soltura, sin esfuerzo forzado.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-4.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio taoísta",
+  "articulos": [
+    "taoismo-y-psicologia",
+    "lao-tse"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El <strong>taoísmo</strong> es una tradición filosófica y religiosa china, cuyo texto más conocido es el <em>Tao Te Ching</em>, atribuido por la tradición a Laozi (Lao Tse). Su autoría y su fecha son inciertas. Una de sus ideas centrales es el <strong>wu wei</strong>, que suele traducirse como «no acción» o «no hacer». Edward Slingerland, en <em>Effortless Action</em> (2003), sostiene que esa traducción confunde: se trata de una acción sin esfuerzo forzado, con soltura, y no de quedarse quieto.</p>
+        <p>Conviene ser claros con lo que es y con lo que no. El taoísmo es una fuente de ideas que puede inspirar una forma de mirar el esfuerzo y los extremos, pero no es una psicoterapia ni tiene ensayos clínicos propios. Este laboratorio lo toma como invitación a preguntarte dónde estás empujando de más, sin prometer nada y sin idealizar: hay cosas que sí requieren esfuerzo, y fluir no es dejar de hacerse cargo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin idealizar.</strong> Fluir no es resignarse ni evitar lo difícil.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> Si algo requiere esfuerzo real, se lo das.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#quiz">¿Forzar o fluir?</a>
+      <a href="#yin-yang">Yin y yang de tu vida</a>
+      <a href="#tao">Una frase del Tao Te Ching</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-quiz">¿Forzar o fluir?</h2>
+      <p class="lab-estacion__bajada">Hay tres respuestas posibles ante una situación: forzar (empujar contra lo que no cede), fluir (actuar con lo que la situación permite, sin forcejeo) o abandonar (dejar de actuar). Wu wei apunta a la segunda, no a la tercera. ¿Cuál es cuál?</p>
+      <div class="lab-tarjeta" data-lab-quiz="taoista-forzar-fluir">
+        <p class="lab-tarjeta__titulo">¿Forzar, fluir o abandonar?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="yin-yang" aria-labelledby="t-yin-yang">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-yin-yang">Yin y yang: lo que sobra y lo que falta</h2>
+      <p class="lab-estacion__bajada">En el pensamiento taoísta, el yin y el yang son opuestos que se complementan y se transforman, no uno bueno y otro malo. Usalos como metáfora para mirar tu vida: ¿qué hay de más y qué falta? No es un diagnóstico, es una forma de ordenar la mirada.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-yin-y-yang" data-lab-form-titulo="Mi yin y mi yang" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-yin-yang-1">Un área de mi vida que quiero mirar</label><input class="lab-campo" id="tz-yin-yang-1" type="text" placeholder="Trabajo, descanso, vínculos, cuerpo, tiempo propio…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-yin-yang-2">Lo que hay en exceso (actividad, exigencia, ruido, control, compromisos)</label><textarea class="lab-texto" id="tz-yin-yang-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-yin-yang-3">Lo que falta (pausa, quietud, juego, descanso, contacto, ayuda)</label><textarea class="lab-texto" id="tz-yin-yang-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-yin-yang-4">¿Cómo se alimentan entre sí el exceso y la falta?</label><textarea class="lab-texto" id="tz-yin-yang-4" rows="2" placeholder="Por ejemplo: como hago de más, me falta tiempo para descansar"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-yin-yang-5">Un movimiento pequeño hacia el otro lado esta semana</label><input class="lab-campo" id="tz-yin-yang-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-yin-yang-6">Algo que no tengo que cambiar porque ya está bien así</label><input class="lab-campo" id="tz-yin-yang-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="tao" aria-labelledby="t-tao">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-tao">Escritura guiada con una frase del Tao Te Ching</h2>
+      <p class="lab-estacion__bajada">Tres frases, en <strong>paráfrasis propia</strong> a partir de la traducción de James Legge (1891, de dominio público): «Lo mejor se parece al agua: beneficia a todas las cosas y ocupa, sin disputar, el lugar que nadie quiere» (cap. 8). «Es mejor dejar una vasija sin llenar del todo que intentar cargarla colmada» (cap. 9). «Un viaje de mil li empieza con un solo paso» (cap. 64). Elegí la que te toque y escribí.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-frase-del-tao" data-lab-form-titulo="Mi frase del Tao Te Ching" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-tao-1">La frase que elegí (agua, vasija o primer paso)</label><input class="lab-campo" id="tz-tao-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-tao-2">¿Qué me dice hoy, con mis palabras?</label><textarea class="lab-texto" id="tz-tao-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-tao-3">¿Dónde estoy forzando algo que quizá no se puede forzar?</label><textarea class="lab-texto" id="tz-tao-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-tao-4">¿Dónde sí corresponde que ponga esfuerzo, y cuánto?</label><textarea class="lab-texto" id="tz-tao-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="tz-tao-5">Un gesto concreto para esta semana, en la línea de la frase</label><input class="lab-campo" id="tz-tao-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="taoista">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar el forcejeo.</strong> Una vez hoy, notá cuándo estás empujando: mandíbula apretada, apuro, insistencia.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Menos esfuerzo.</strong> Hacé una tarea común con un poco menos de tensión, sin dejar de hacerla.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Una vasija sin llenar.</strong> Dejá un hueco libre en tu agenda de hoy y no lo rellenes.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Yin y yang.</strong> Completá el ejercicio de lo que sobra y lo que falta.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un solo paso.</strong> Elegí algo grande que venís postergando y dá solo el primer paso.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Caminar sin destino.</strong> Caminá diez minutos sin medir nada ni llegar a ningún lado.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Anotá dónde fluyó mejor y qué sigue pidiendo un esfuerzo legítimo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el taoísmo y el wu wei. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="taoista-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El taoísmo puede inspirar, pero no es un tratamiento, y «dejar de forzar» no debería usarse como razón para dejar de pedir ayuda o de atender lo que duele. Si hace semanas que te cuesta funcionar, disfrutar o dormir, conviene hablarlo: podés <a href="/contacto/">escribirme</a>, y si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Para seguir: el artículo sobre <a href="/recursos/taoismo-y-psicologia/">taoísmo y psicología</a>, el de <a href="/recursos/lao-tse/">Lao Tse</a> y el <a href="/laboratorio-act/">laboratorio de aceptación y compromiso</a>, que trabaja una idea cercana a dejar de pelear con lo que no se controla.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Legge, J. (trad.) (1891). <em>The Texts of Taoism</em> (Sacred Books of the East, vol. 39). Clarendon Press.</li>
+        <li>Slingerland, E. (2003). <em>Effortless Action: Wu-wei as Conceptual Metaphor and Spiritual Ideal in Early China</em>. Oxford University Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
