@@ -1,0 +1,61 @@
+<!--{
+  "titulo": "AUDIT: test de consumo de alcohol de la OMS online",
+  "descripcion": "El AUDIT de la OMS: diez preguntas para saber si tu consumo de alcohol es de bajo riesgo, de riesgo o perjudicial. Orientativo, no es un diagnóstico.",
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Alcohol (AUDIT)",
+      "/escala-de-alcohol-audit/"
+    ]
+  ],
+  "antetitulo": "Escala breve validada",
+  "h1": "Tu consumo de alcohol: <em>AUDIT</em>",
+  "bajada": "Diez preguntas de la Organización Mundial de la Salud para mirar con honestidad cuánto y cómo tomás, y si eso ya te está trayendo problemas.",
+  "respuesta": "El AUDIT (Alcohol Use Disorders Identification Test) es el cuestionario de diez preguntas que la Organización Mundial de la Salud desarrolló para detectar el consumo de riesgo, el consumo perjudicial y la posible dependencia del alcohol. La puntuación va de 0 a 40: de 0 a 7 corresponde a un consumo de bajo riesgo, de 8 a 15 a un consumo de riesgo, de 16 a 19 a un consumo perjudicial y de 20 en adelante a una posible dependencia. Es orientativo y no reemplaza una evaluación profesional.",
+  "wa_tema": "el consumo de alcohol",
+  "articulos": [
+    "apuestas-online",
+    "estrategias-de-afrontamiento",
+    "como-saber-si-necesito-terapia"
+  ],
+  "ruta": "/escala-de-alcohol-audit/",
+  "scripts": [
+    "test-motor.js"
+  ],
+  "prioridad": 0.6
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+        <p>El AUDIT no pregunta si sos alcohólico. Pregunta por tus hábitos concretos: con qué frecuencia tomás, cuánto, y si el alcohol ya tuvo consecuencias en tu vida. Por eso sirve también a quien nunca se planteó que podía tener un problema.</p>
+        <p>Una <strong>consumición</strong> o bebida estándar equivale a unos 10 gramos de alcohol puro: más o menos una lata chica de cerveza, una copa chica de vino o una medida de un destilado. Un litro de cerveza son unas cuatro consumiciones.</p>
+        <p>Las preguntas 4 a 8 hablan del <strong>último año</strong>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Tres minutos.</strong> Diez preguntas.</li><li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo.</li><li><strong>Validado.</strong> Cuestionario de la OMS, manual de 2001.</li></ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p>Este cuestionario orienta, no diagnostica. Si dejaste de tomar de golpe después de mucho tiempo y aparecen temblores, sudoración o confusión, consultá enseguida a un médico: la abstinencia de alcohol puede ser peligrosa. Si estás pensando en hacerte daño, no esperes al resultado: llamá al 911 o al 0800-345-1435, o mirá los <a href="/ayuda-urgente/">teléfonos de ayuda urgente</a>.</p></aside>
+
+    <div class="test" data-test-motor>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este cuestionario necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"id": "audit", "nombre": "AUDIT (OMS): consumo de alcohol", "modo": "suma", "min": 0, "max": 40, "porPagina": 5, "consigna": "Elegí la respuesta que mejor describa tu consumo.", "opciones": [{"t": "Nunca", "v": 0}, {"t": "Menos de una vez al mes", "v": 1}, {"t": "Mensualmente", "v": 2}, {"t": "Semanalmente", "v": 3}, {"t": "A diario o casi a diario", "v": 4}], "items": [{"t": "¿Con qué frecuencia tomás alguna bebida alcohólica?", "o": [{"t": "Nunca", "v": 0}, {"t": "Una vez al mes o menos", "v": 1}, {"t": "De 2 a 4 veces al mes", "v": 2}, {"t": "De 2 a 3 veces por semana", "v": 3}, {"t": "4 o más veces por semana", "v": 4}]}, {"t": "¿Cuántas consumiciones de bebidas alcohólicas solés tomar en un día de consumo normal?", "o": [{"t": "1 o 2", "v": 0}, {"t": "3 o 4", "v": 1}, {"t": "5 o 6", "v": 2}, {"t": "De 7 a 9", "v": 3}, {"t": "10 o más", "v": 4}]}, {"t": "¿Con qué frecuencia tomás 6 o más consumiciones en un solo día?"}, {"t": "¿Con qué frecuencia, en el último año, fuiste incapaz de parar de tomar una vez que habías empezado?"}, {"t": "¿Con qué frecuencia, en el último año, no pudiste hacer lo que se esperaba de vos porque habías tomado?"}, {"t": "¿Con qué frecuencia, en el último año, necesitaste tomar en ayunas para recuperarte después de haber tomado mucho el día anterior?"}, {"t": "¿Con qué frecuencia, en el último año, tuviste remordimientos o sentimientos de culpa después de haber tomado?"}, {"t": "¿Con qué frecuencia, en el último año, no pudiste recordar lo que pasó la noche anterior porque habías estado tomando?"}, {"t": "¿Vos o alguna otra persona resultaron heridos porque habías tomado?", "o": [{"t": "No", "v": 0}, {"t": "Sí, pero no en el último año", "v": 2}, {"t": "Sí, en el último año", "v": 4}]}, {"t": "¿Algún familiar, amigo, médico u otro profesional de la salud mostró preocupación por tu consumo de alcohol o te sugirió que lo dejes?", "o": [{"t": "No", "v": 0}, {"t": "Sí, pero no en el último año", "v": 2}, {"t": "Sí, en el último año", "v": 4}]}], "bandas": [{"hasta": 7, "nombre": "Zona I: consumo de bajo riesgo", "texto": "Tu puntaje está por debajo del punto de corte de 8 que recomienda la OMS. Corresponde a un consumo de bajo riesgo o a la abstinencia. Bajo riesgo no es riesgo cero: manejar después de tomar, el embarazo o algunas medicaciones cambian la cuenta."}, {"hasta": 15, "nombre": "Zona II: consumo de riesgo", "texto": "Tu puntaje está entre 8 y 15. Según la OMS, indica un consumo que aumenta el riesgo de consecuencias para tu salud o tu vida, aunque todavía no las haya. En esta zona la recomendación es reducir el consumo, y suele alcanzar con información y algunos cambios concretos. El <a href=\"/laboratorio-de-alcohol-y-consumos/\">laboratorio de alcohol y consumos<\/a> te puede ayudar a empezar."}, {"hasta": 19, "nombre": "Zona III: consumo perjudicial", "texto": "Tu puntaje está entre 16 y 19. Según la OMS, sugiere un consumo que probablemente ya esté dañando tu salud física o mental. En esta zona se recomienda una intervención breve con un profesional y un seguimiento. Vale la pena hablarlo con un médico o un psicólogo."}, {"hasta": 40, "nombre": "Zona IV: posible dependencia", "texto": "Tu puntaje es de 20 o más. Según la OMS, en esta zona se recomienda una evaluación diagnóstica con un especialista para valorar una posible dependencia del alcohol. No quiere decir que la tengas, pero sí que es momento de consultar. Si pensás dejar de tomar y venís tomando mucho, hacelo con acompañamiento médico: la abstinencia puede ser peligrosa."}], "enlaces": [["Laboratorio de alcohol y consumos", "/laboratorio-de-alcohol-y-consumos/"], ["Estrategias de afrontamiento", "/recursos/estrategias-de-afrontamiento/"], ["Cómo saber si necesito terapia", "/recursos/como-saber-si-necesito-terapia/"], ["Teléfonos de ayuda urgente", "/ayuda-urgente/"]], "nota": "Es un cuestionario de detección: orienta, pero <strong>no es un diagnóstico<\/strong>. Los puntos de corte son los que propone la OMS y pueden variar un poco según el país y el tipo de bebida habitual. Tus respuestas no salen de este dispositivo. AUDIT: Babor, Higgins-Biddle, Saunders y Monteiro, <em>Cuestionario de Identificación de los Trastornos debidos al Consumo de Alcohol. Pautas para su utilización en Atención Primaria<\/em>, Organización Mundial de la Salud, 2001. Las preguntas están adaptadas al tratamiento de «vos»."}</script>
+{{> cta}}

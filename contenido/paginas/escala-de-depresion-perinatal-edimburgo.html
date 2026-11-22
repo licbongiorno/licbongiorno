@@ -1,0 +1,61 @@
+<!--{
+  "titulo": "Escala de Edimburgo (EPDS): depresión en el embarazo y posparto",
+  "descripcion": "La escala de Edimburgo (EPDS): diez preguntas para detectar síntomas de depresión en el embarazo y después del parto. Orientativa, no es un diagnóstico.",
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Tests",
+      "/tests/"
+    ],
+    [
+      "Ánimo perinatal (EPDS)",
+      "/escala-de-depresion-perinatal-edimburgo/"
+    ]
+  ],
+  "antetitulo": "Escala breve validada",
+  "h1": "Tu ánimo en el embarazo y <em>después del parto</em>",
+  "bajada": "Diez preguntas sobre los últimos siete días. Es la escala más usada en el mundo para detectar a tiempo la depresión perinatal, que es frecuente y tiene tratamiento.",
+  "respuesta": "La Escala de Depresión Postnatal de Edimburgo (Edinburgh Postnatal Depression Scale, EPDS) fue creada por John Cox, Jenifer Holden y Ruth Sagovsky en 1987. Tiene diez preguntas sobre los últimos siete días y se usa durante el embarazo y después del parto. La puntuación va de 0 a 30: un valor de 10 o más indica probabilidad de depresión y uno de 12 o más, alta probabilidad de síntomas depresivos importantes. Cualquier respuesta distinta de cero en la pregunta sobre hacerse daño requiere evaluación inmediata. No reemplaza una evaluación profesional.",
+  "wa_tema": "un tema de ánimo en el embarazo o el posparto",
+  "articulos": [
+    "maternidad-y-paternidad",
+    "duelo-perinatal",
+    "como-acompanar-a-alguien-con-depresion"
+  ],
+  "ruta": "/escala-de-depresion-perinatal-edimburgo/",
+  "scripts": [
+    "test-motor.js"
+  ],
+  "prioridad": 0.6
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar" data-test-inicio>
+      <div class="prosa">
+        <p>Se espera que el embarazo y la llegada de un bebé sean momentos felices, y muchas veces lo son. Pero también son un cambio enorme, con poco sueño, cuerpo nuevo y rutina dada vuelta. Más o menos una de cada diez mujeres atraviesa una depresión en ese período, y muchas no lo dicen por culpa o vergüenza.</p>
+        <p>La tristeza pasajera de los primeros días después del parto es frecuente y se va sola en una o dos semanas. Cuando el malestar dura más o es intenso, merece atención.</p>
+        <p>Respondé pensando en <strong>los últimos siete días</strong>, no solo en cómo te sentís hoy. La escala está validada en mujeres adultas; si sos el otro progenitor o una adolescente, el resultado es solo una referencia.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona"><li><strong>Dos minutos.</strong> Diez preguntas.</li><li><strong>Sin registro.</strong> Tus respuestas quedan solo en este dispositivo.</li><li><strong>Validada.</strong> Versión publicada por la Sociedad Argentina de Pediatría (2024).</li></ul>
+    </div>
+
+    <aside class="lab-aviso revelar" aria-label="Antes de empezar"><p>Esta escala orienta, no diagnostica. Si pensás en hacerte daño o en hacerle daño a tu bebé, no esperes al resultado: llamá al 911 o al 0800-345-1435, o mirá los <a href="/ayuda-urgente/">teléfonos de ayuda urgente</a>. Pedir ayuda es una forma de cuidarlo.</p></aside>
+
+    <div class="test" data-test-motor>
+      <div class="test-progreso"><div class="test-progreso__pista" aria-hidden="true"><span data-test-barra></span></div><p class="test-progreso__texto" role="status" data-test-progreso></p></div>
+      <div data-test-cuerpo><noscript><p>Este cuestionario necesita JavaScript para funcionar.</p></noscript></div>
+      <p class="test-aviso" role="alert" data-test-aviso></p>
+      <div class="lab-acciones test-navegacion">
+        <button class="boton boton--secundario boton--chico" type="button" data-test-anterior>Anterior</button>
+        <button class="boton boton--chico" type="button" data-test-siguiente>Siguiente</button>
+        <button class="boton boton--secundario boton--chico test-borrar" type="button" data-test-borrar>Borrar mis respuestas</button>
+      </div>
+    </div>
+    <div class="test-resultado" data-test-resultado hidden></div>
+  </div>
+</section>
+<script type="application/json" id="test-config">{"id": "epds", "nombre": "Escala de Depresión Postnatal de Edimburgo (EPDS)", "modo": "suma", "min": 0, "max": 30, "porPagina": 5, "consigna": "En los últimos 7 días:", "opciones": [{"t": "—", "v": 0}], "items": [{"t": "He sido capaz de reír y ver el lado bueno de las cosas.", "o": [{"t": "Tanto como siempre", "v": 0}, {"t": "No tanto", "v": 1}, {"t": "Ahora mucho menos", "v": 2}, {"t": "No, no he podido", "v": 3}]}, {"t": "He mirado el futuro con placer.", "o": [{"t": "Tanto como siempre", "v": 0}, {"t": "Algo menos de lo que solía hacer", "v": 1}, {"t": "Definitivamente menos", "v": 2}, {"t": "No, nada", "v": 3}]}, {"t": "Me he culpado sin necesidad cuando las cosas no salían bien.", "o": [{"t": "Sí, la mayoría de las veces", "v": 3}, {"t": "Sí, algunas veces", "v": 2}, {"t": "No muy a menudo", "v": 1}, {"t": "No, nunca", "v": 0}]}, {"t": "He estado ansiosa y preocupada sin motivo.", "o": [{"t": "No, para nada", "v": 0}, {"t": "Casi nada", "v": 1}, {"t": "Sí, a veces", "v": 2}, {"t": "Sí, a menudo", "v": 3}]}, {"t": "He sentido miedo y pánico sin motivo alguno.", "o": [{"t": "Sí, bastante", "v": 3}, {"t": "Sí, a veces", "v": 2}, {"t": "No, no mucho", "v": 1}, {"t": "No, nada", "v": 0}]}, {"t": "Las cosas me oprimen o agobian.", "o": [{"t": "Sí, la mayor parte de las veces", "v": 3}, {"t": "Sí, a veces", "v": 2}, {"t": "No, casi nunca", "v": 1}, {"t": "No, nada", "v": 0}]}, {"t": "Me he sentido tan infeliz que he tenido dificultad para dormir.", "o": [{"t": "Sí, la mayoría de las veces", "v": 3}, {"t": "Sí, a veces", "v": 2}, {"t": "No muy a menudo", "v": 1}, {"t": "No, nada", "v": 0}]}, {"t": "Me he sentido triste y desgraciada.", "o": [{"t": "Sí, casi siempre", "v": 3}, {"t": "Sí, bastante a menudo", "v": 2}, {"t": "No muy a menudo", "v": 1}, {"t": "No, nada", "v": 0}]}, {"t": "He sido tan infeliz que he estado llorando.", "o": [{"t": "Sí, casi siempre", "v": 3}, {"t": "Sí, bastante a menudo", "v": 2}, {"t": "Solo en ocasiones", "v": 1}, {"t": "No, nunca", "v": 0}]}, {"t": "He pensado en hacerme daño a mí misma.", "o": [{"t": "Sí, bastante a menudo", "v": 3}, {"t": "A veces", "v": 2}, {"t": "Casi nunca", "v": 1}, {"t": "No, nunca", "v": 0}]}], "alerta": {"item": 9, "min": 1, "html": "<p><strong>Marcaste que pensaste en hacerte daño.<\/strong> Según las pautas de la escala, cualquier respuesta distinta de «No, nunca» en esa pregunta necesita una evaluación inmediata, más allá del puntaje total. Hablalo hoy con alguien de confianza y con un profesional. Si sentís que podés hacerlo, llamá ahora al 911 o al Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país). <a href=\"/ayuda-urgente/\">Más teléfonos de ayuda<\/a>.<\/p>"}, "bandas": [{"hasta": 9, "nombre": "Por debajo del punto de corte", "texto": "Tu puntaje es menor que 10, el valor a partir del cual la escala indica probabilidad de depresión. Si igual sentís que algo no está bien, confiá en eso y consultalo: ninguna escala ve todo. En casos dudosos se recomienda repetirla en dos semanas."}, {"hasta": 11, "nombre": "Probabilidad de depresión", "texto": "Tu puntaje está entre 10 y 11. Según las pautas de la escala, un valor de 10 o más muestra probabilidad de depresión, aunque no indica su gravedad. Te recomiendo hablarlo con tu obstetra, tu médica de cabecera o un psicólogo. La depresión perinatal es frecuente y tiene tratamiento."}, {"hasta": 30, "nombre": "Alta probabilidad de síntomas depresivos importantes", "texto": "Tu puntaje es de 12 o más. Según las pautas de la escala, indica una alta probabilidad de síntomas depresivos importantes, y se recomienda una evaluación clínica completa. No es tu culpa ni significa que seas mala madre: es un cuadro frecuente y tratable. Consultá pronto con tu equipo de salud o con un psicólogo."}], "enlaces": [["Maternidad y paternidad", "/recursos/maternidad-y-paternidad/"], ["Duelo perinatal", "/recursos/duelo-perinatal/"], ["Cómo trabajo la depresión", "/depresion/"], ["Teléfonos de ayuda urgente", "/ayuda-urgente/"]], "nota": "Es una escala de detección: orienta, pero <strong>no es un diagnóstico<\/strong> y está pensada para asistir al juicio clínico, no para reemplazarlo. Tus respuestas no salen de este dispositivo. Cox, J. L., Holden, J. M. y Sagovsky, R. (1987), «Detection of postnatal depression. Development of the 10-item Edinburgh Postnatal Depression Scale», <em>British Journal of Psychiatry<\/em>, 150, 782-786. Texto en español según el material suplementario de <em>Archivos Argentinos de Pediatría<\/em>, 2024, 122(3), e202310217."}</script>
+{{> cta}}
