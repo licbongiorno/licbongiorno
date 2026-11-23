@@ -51,6 +51,8 @@ En mi [enfoque integrativo](/enfoque/) tomo recursos de la terapia narrativa, so
 
 Para practicar, te espera el [laboratorio narrativo](/laboratorio-narrativo/), con un árbol de la vida que se dibuja con lo que escribís. Y si querés revisar tu historia en un espacio propio, podés escribirme.
 
+Una idea emparentada, la de que somos habitados por muchas voces, viene de [Mijaíl Bajtín y su teoría del diálogo](/recursos/bajtin-y-el-dialogo/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la terapia narrativa?

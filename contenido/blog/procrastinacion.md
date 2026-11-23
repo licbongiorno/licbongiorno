@@ -45,6 +45,8 @@ Cuando la procrastinación afecta tus estudios, tu trabajo o tus vínculos, cuan
 
 Si te cuesta empezar, la idea del [kaizen](/recursos/kaizen/) propone avanzar en pasos tan pequeños que no den miedo.
 
+Por qué los pendientes siguen ocupando la cabeza lo estudió [Bluma Zeigarnik](/recursos/bluma-zeigarnik/); para trabajarlo, está el [laboratorio de Zeigarnik](/laboratorio-de-zeigarnik/).
+
 ## Preguntas frecuentes
 
 ### ¿La procrastinación es pereza?

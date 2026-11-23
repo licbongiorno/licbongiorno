@@ -46,6 +46,8 @@ En *Así habló Zaratustra*, el espíritu primero se vuelve **camello**, que car
 - **Viktor Frankl** citaba su frase sobre el porqué para vivir. Ver [Viktor Frankl](/recursos/viktor-frankl/).
 - **Irvin Yalom** lo hizo protagonista de la novela *El día que Nietzsche lloró*. Ver [Irvin Yalom](/recursos/irvin-yalom/).
 
+Nietzsche dijo que Dostoievski fue el único psicólogo del que tuvo algo que aprender; lo cuento en [Dostoievski y la psicología](/recursos/dostoievski-y-la-psicologia/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la voluntad de poder?

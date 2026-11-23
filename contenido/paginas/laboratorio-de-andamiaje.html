@@ -1,0 +1,206 @@
+<!--{
+  "ruta": "/laboratorio-de-andamiaje/",
+  "titulo": "Laboratorio de andamiaje: aprender con andamios",
+  "descripcion": "Ejercicios para aprender con ayuda: la zona de desarrollo próximo de Vygotsky, el andamiaje, diseñar tus apoyos, retirarlos de a poco y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Andamiaje",
+      "/laboratorio-de-andamiaje/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>andamiaje</em>",
+  "bajada": "Lo que hoy hacés con ayuda puede ser lo que mañana hagas solo/a. Es la idea de la zona de desarrollo próximo de Vygotsky y del andamiaje que describieron Wood, Bruner y Ross. Ejercicios para aprender con apoyos y para saber cuándo sacarlos.",
+  "respuesta": "El laboratorio de andamiaje ofrece ejercicios para aprender algo con ayuda: elegir qué aprender, ubicar lo que podés hacer solo/a, lo que podés con ayuda y lo que todavía no, distinguir la ayuda que andamia de la que reemplaza, diseñar tus propios apoyos y retirarlos de a poco, más un plan de 7 días. Se basa en la zona de desarrollo próximo de Lev Vygotsky y en el andamiaje, término que usaron David Wood, Jerome Bruner y Gail Ross en 1976. No es un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-5.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de andamiaje",
+  "articulos": [
+    "lev-vygotsky",
+    "teoria-de-la-actividad"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Pensá en cómo aprendiste a andar en bicicleta, si aprendiste: alguien sostenía el asiento, corría al lado y en algún momento soltaba. Esa escena resume dos ideas de la psicología del aprendizaje. La primera es de <strong>Lev Vygotsky</strong> (1896-1934), psicólogo soviético: la <strong>zona de desarrollo próximo</strong>, la distancia entre lo que alguien puede hacer solo/a y lo que puede hacer con la guía de un adulto o en colaboración con compañeros más capaces. Para Vygotsky, lo que hoy se hace con ayuda anticipa lo que mañana se va a poder hacer sin ella. En inglés, estos textos se difundieron sobre todo con <em>Mind in Society</em> (1978), una compilación editada por Michael Cole y colaboradores.</p>
+        <p>La segunda idea viene de David Wood, Jerome Bruner y Gail Ross (1976), que observaron cómo una persona adulta, en el papel de tutor/a, ayudaba a treinta chicos de tres a cinco años a armar una pirámide de bloques. Usaron la palabra <strong>andamiaje</strong> (<em>scaffolding</em>) para nombrar ese tipo de ayuda y describieron seis funciones: despertar el interés por la tarea, simplificarla, mantener la dirección hacia la meta, señalar lo importante, manejar la frustración y mostrar cómo se hace. Su artículo no citaba a Vygotsky: la unión de las dos ideas se hizo después.</p>
+        <p>Una revisión de una década de investigación en el aula, de Janneke van de Pol, Monique Volman y Jos Beishuizen (2010), destacó tres rasgos del andamiaje: la <strong>contingencia</strong> (la ayuda se ajusta a lo que la persona necesita en ese momento), el <strong>retiro gradual</strong> y la <strong>transferencia de la responsabilidad</strong> hacia quien aprende. También señaló que el andamiaje es difícil de medir, de modo que conviene tomarlo como un marco útil para pensar la ayuda más que como una receta comprobada.</p>
+        <p>Aunque se estudió primero con chicos, la lógica vale a cualquier edad: aprender un oficio, un idioma, una tecnología nueva o a cocinar. Este laboratorio propone usarla con algo que quieras aprender vos, y también mirar cómo ayudás a otros. Son ejercicios de reflexión y de organización, no un tratamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin apuro.</strong> Cada aprendizaje tiene su ritmo.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> Pedir ayuda es parte de aprender, no una falla.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#elegir">Elegir qué aprender</a>
+      <a href="#mapa">Solo/a, con ayuda, todavía no</a>
+      <a href="#quiz">¿Andamia o reemplaza?</a>
+      <a href="#disenar">Diseñar tus andamios</a>
+      <a href="#retirar">Retirar el andamio</a>
+      <a href="#vineta">Viñeta: Elsa y el celular</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="elegir" aria-labelledby="t-elegir">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-elegir">Elegir algo que querés aprender</h2>
+      <p class="lab-estacion__bajada">Elegí algo concreto y a tu alcance en las próximas semanas. Mejor «hacer una videollamada» que «manejar la tecnología», y «preparar pan casero» que «cocinar bien». Cuanto más concreto, más fácil es ver dónde estás.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="andamiaje-elegir" data-lab-form-titulo="Lo que quiero aprender" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-elegir-1">Algo que quiero aprender</label><input class="lab-campo" id="anj-elegir-1" type="text" placeholder="Usar el home banking, hacer pan, hablar en una reunión, tocar un tema en la guitarra…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-elegir-2">Por qué me importa</label><textarea class="lab-texto" id="anj-elegir-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-elegir-3">Cuánto lo domino hoy (0 a 10)</label><input class="lab-campo" id="anj-elegir-3" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-elegir-4">Qué intenté hasta ahora y qué pasó</label><textarea class="lab-texto" id="anj-elegir-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-elegir-5">Cómo me voy a dar cuenta de que lo aprendí</label><input class="lab-campo" id="anj-elegir-5" type="text" placeholder="Lo hago sin ayuda, sin mirar el tutorial, sin trabarme…" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-mapa">El mapa de lo que podés solo/a, con ayuda y todavía no</h2>
+      <p class="lab-estacion__bajada">Vygotsky distinguía lo que alguien ya puede hacer solo/a de lo que puede hacer con ayuda. Esa franja intermedia es la zona de desarrollo próximo. Hay una tercera región: lo que todavía no sale ni siquiera con ayuda. Ubicar cada parte de lo que querés aprender en una de las tres zonas ayuda a elegir por dónde empezar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="andamiaje-mapa" data-lab-form-titulo="Mi mapa de tres zonas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-mapa-1">Lo que ya puedo hacer solo/a</label><textarea class="lab-texto" id="anj-mapa-1" rows="2" placeholder="Por ejemplo: prender el celular, abrir la aplicación"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-mapa-2">Lo que puedo hacer con ayuda (alguien al lado, una guía, un ejemplo)</label><textarea class="lab-texto" id="anj-mapa-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-mapa-3">Lo que todavía no, ni siquiera con ayuda</label><textarea class="lab-texto" id="anj-mapa-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-mapa-4">La parte que está en el borde: casi me sale, pero me falta un poco</label><input class="lab-campo" id="anj-mapa-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-mapa-5">Quién o qué podría ayudarme con esa parte</label><input class="lab-campo" id="anj-mapa-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-quiz">¿Ayuda que andamia o ayuda que reemplaza?</h2>
+      <p class="lab-estacion__bajada">Una ayuda andamia cuando sostiene el esfuerzo de quien aprende y deja que la tarea siga siendo suya. Reemplaza cuando la hace por la otra persona. Las dos pueden venir del cariño, y a veces reemplazar es lo que corresponde (hay apuro, o no hay nada que aprender). En cada caso, ¿cuál es?</p>
+      <div class="lab-tarjeta" data-lab-quiz="andamiaje-andamia-o-reemplaza">
+        <p class="lab-tarjeta__titulo">¿Andamia o reemplaza?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="disenar" aria-labelledby="t-disenar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-disenar">Diseñar tus propios andamios</h2>
+      <p class="lab-estacion__bajada">Un andamio puede ser una persona, un material o una forma de dividir la tarea. Pensá en los tuyos para la parte que quedó en el borde. Las seis funciones de Wood, Bruner y Ross pueden servir de guía: algo que te mantenga el interés, una tarea más simple, la meta a la vista, lo importante señalado, un recurso para la frustración y alguien o algo que te muestre cómo se hace.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="andamiaje-disenar" data-lab-form-titulo="Mis andamios" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-disenar-1">Personas que saben más y podrían guiarme (y a quién le voy a pedir)</label><input class="lab-campo" id="anj-disenar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-disenar-2">Guías y materiales: tutoriales, libros, listas, ejemplos</label><input class="lab-campo" id="anj-disenar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-disenar-3">La tarea dividida en pasos más chicos</label><textarea class="lab-texto" id="anj-disenar-3" rows="2" placeholder="1. … 2. … 3. …"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-disenar-4">Qué voy a hacer cuando algo no salga y me frustre</label><input class="lab-campo" id="anj-disenar-4" type="text" placeholder="Pausar, volver un paso atrás, preguntar…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-disenar-5">Cada cuánto practico, cuándo y dónde</label><input class="lab-campo" id="anj-disenar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="retirar" aria-labelledby="t-retirar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-retirar">Cómo retirar el andamio</h2>
+      <p class="lab-estacion__bajada">Un andamio que nunca se saca deja de cumplir su función. Retirarlo de a poco, a medida que aparece la autonomía, es parte del método. Una forma de pensarlo, que la revisión de van de Pol y colaboradores (2010) describe como traspaso gradual de la responsabilidad, tiene tres momentos: primero lo hace quien sabe y vos mirás; después lo hacen juntos/as; al final lo hacés vos y la otra persona mira, o ya no hace falta que esté.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="andamiaje-retirar" data-lab-form-titulo="Mi plan para retirar el andamio" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-retirar-1">Momento 1: qué hace la otra persona (o la guía) y qué miro yo</label><textarea class="lab-texto" id="anj-retirar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-retirar-2">Momento 2: qué hacemos juntos/as</label><textarea class="lab-texto" id="anj-retirar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-retirar-3">Momento 3: qué hago solo/a</label><textarea class="lab-texto" id="anj-retirar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-retirar-4">La señal de que estoy listo/a para pasar de un momento al siguiente</label><input class="lab-campo" id="anj-retirar-4" type="text" placeholder="Me sale dos veces seguidas sin mirar la guía…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-retirar-5">Qué hago si al retirar la ayuda me trabo</label><input class="lab-campo" id="anj-retirar-5" type="text" placeholder="Volver un paso atrás un rato también es parte de aprender" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-vineta">Viñeta para pensar: Elsa aprende a hacer videollamadas</h2>
+      <p class="lab-estacion__bajada">Una situación inventada sobre dos formas de ayudar. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Elsa tiene 74 años y quiere hacer videollamadas con su nieta, que vive lejos. Cada vez que lo intenta, su hijo Martín, apurado, le saca el celular, toca la pantalla un par de veces y se lo devuelve con la llamada en curso. Elsa habla con su nieta, pero al día siguiente no sabe cómo repetirlo y termina diciendo: «Yo no sirvo para esto».</p>
+        <p>Un fin de semana, la nieta le propone otra cosa. Juntas escriben en un cuaderno, con letra grande, los pasos para llamarla, y Elsa dibuja al lado cada ícono. La primera vez, la nieta la guía por teléfono mientras Elsa toca la pantalla. La segunda, Elsa la llama mirando el cuaderno. Al mes, abre el cuaderno solo cuando se traba.</p>
+        <p>Un día la aplicación se actualiza y el botón cambia de lugar. Elsa se traba, llama a su nieta por teléfono, entiende qué cambió y agrega un paso nuevo al cuaderno, con su dibujo.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="andamiaje-vineta-elsa" data-lab-form-titulo="Mis respuestas sobre Elsa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-vineta-1">¿Qué ayuda reemplazaba y cuál andamiaba? ¿Qué hacía cada una con la confianza de Elsa?</label><textarea class="lab-texto" id="anj-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-vineta-2">¿Cómo se fue retirando el andamio?</label><textarea class="lab-texto" id="anj-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-vineta-3">¿Qué pensás que pasó con el «yo no sirvo para esto» de Elsa?</label><textarea class="lab-texto" id="anj-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-vineta-4">¿Hay alguien a quien estés ayudando de una forma que reemplaza?</label><input class="lab-campo" id="anj-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="andamiaje-integrar" data-lab-form-titulo="Lo que integro sobre aprender con andamios" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-integrar-1">Lo que quiero aprender</label><input class="lab-campo" id="anj-integrar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-integrar-2">La parte que está en el borde de lo que puedo</label><textarea class="lab-texto" id="anj-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-integrar-3">Mis andamios: personas, guías y pasos</label><textarea class="lab-texto" id="anj-integrar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-integrar-4">Cómo y cuándo los voy a ir retirando</label><textarea class="lab-texto" id="anj-integrar-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="anj-integrar-5">Una persona a la que puedo andamiar en lugar de resolverle</label><input class="lab-campo" id="anj-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="andamiaje">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Elegir.</strong> Definí algo concreto que quieras aprender y por qué te importa.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Mapa.</strong> Separá lo que ya podés solo/a, lo que podés con ayuda y lo que todavía no.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. El borde.</strong> Elegí la parte que casi te sale y escribila como un paso chico.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Pedir ayuda.</strong> Pedile a alguien que sabe que te muestre esa parte una vez, o buscá una guía.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Con apoyo.</strong> Practicá ese paso con la guía a mano o con la persona al lado.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Sin apoyo.</strong> Intentá el mismo paso sin ayuda y anotá dónde te trabás.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Anotá qué andamio ya podés sacar y cuál es el próximo borde.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre la zona de desarrollo próximo y el andamiaje. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="andamiaje-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Aprender cuesta, y trabarse es parte del camino. Pero si las dificultades para aprender son persistentes, si te generan mucha angustia o si notás cambios en la memoria o en la atención que te preocupan, conviene consultar: una evaluación con un/a profesional (psicopedagogo/a, neuropsicólogo/a o psicólogo/a) puede ayudar a entender qué pasa. También podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/lev-vygotsky/">Lev Vygotsky</a>, el de <a href="/recursos/teoria-de-la-actividad/">teoría de la actividad</a> y el <a href="/laboratorio-de-aprender-a-aprender/">laboratorio de aprender a aprender</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Vygotsky, L. S. (1978). <em>Mind in Society: The Development of Higher Psychological Processes</em> (M. Cole, V. John-Steiner, S. Scribner y E. Souberman, eds.). Harvard University Press.</li>
+        <li>Wood, D., Bruner, J. S. y Ross, G. (1976). «The role of tutoring in problem solving». <em>Journal of Child Psychology and Psychiatry</em>, 17(2), 89-100.</li>
+        <li>van de Pol, J., Volman, M. y Beishuizen, J. (2010). «Scaffolding in teacher–student interaction: A decade of research». <em>Educational Psychology Review</em>, 22(3), 271-296.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
