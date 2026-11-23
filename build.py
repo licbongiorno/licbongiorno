@@ -225,12 +225,14 @@ GLOSARIO_CLINICO = cargar_json("glosario-clinico.json")
 GLOSARIO_JAPONES = cargar_json("glosario-japones.json")
 GLOSARIO_CHINO = cargar_json("glosario-chino.json")
 GLOSARIO_RUSO = cargar_json("glosario-ruso.json")
+GLOSARIO_COREANO = cargar_json("glosario-coreano.json")
 GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
              (GLOSARIO_FIORINI, "/glosario-fiorini/", "Glosario de la psicoterapia breve focalizada de Héctor Fiorini"),
              (GLOSARIO_CLINICO, "/glosario-clinico/", "Glosario de psicología clínica y psicoterapia"),
              (GLOSARIO_JAPONES, "/glosario-de-psicologia-japonesa/", "Glosario de psicología japonesa"),
              (GLOSARIO_CHINO, "/glosario-de-psicologia-china/", "Glosario de psicología china"),
-             (GLOSARIO_RUSO, "/glosario-de-psicologia-rusa/", "Glosario de psicología rusa")]
+             (GLOSARIO_RUSO, "/glosario-de-psicologia-rusa/", "Glosario de psicología rusa"),
+             (GLOSARIO_COREANO, "/glosario-de-psicologia-coreana/", "Glosario de psicología coreana")]
 
 
 # --------------------------------------------------------------------------- Markdown mínimo
@@ -537,6 +539,7 @@ NAV = [
         ("Glosario de psicología japonesa", "/glosario-de-psicologia-japonesa/", "Arugamama, amae, wabi-sabi…"),
         ("Glosario de psicología china", "/glosario-de-psicologia-china/", "Wu wei, mianzi, qi…"),
         ("Glosario de psicología rusa", "/glosario-de-psicologia-rusa/", "Vygotsky, Luria, Bajtín…"),
+        ("Glosario de psicología coreana", "/glosario-de-psicologia-coreana/", "Han, jeong, nunchi…"),
     ]),
     ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
@@ -1270,6 +1273,7 @@ def pie():
           <li><a href="/glosario-de-psicologia-japonesa/">Glosario de psicología japonesa</a></li>
           <li><a href="/glosario-de-psicologia-china/">Glosario de psicología china</a></li>
           <li><a href="/glosario-de-psicologia-rusa/">Glosario de psicología rusa</a></li>
+          <li><a href="/glosario-de-psicologia-coreana/">Glosario de psicología coreana</a></li>
           <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
           <li><a href="/opiniones/">Opiniones de pacientes</a></li>
@@ -1691,6 +1695,11 @@ TERMINOS_GLOSARIO = [
     ("/glosario-junguiano/", "mandala", r"mandalas?"),
     ("/glosario-junguiano/", "tipos-psicologicos", r"tipos psicológicos"),
     ("/glosario-junguiano/", "complejo", r"complejos"),
+    ("/glosario-de-psicologia-coreana/", "hwa-byung", r"hwa-byung"),
+    ("/glosario-de-psicologia-coreana/", "nunchi", r"nunchi"),
+    ("/glosario-de-psicologia-coreana/", "jeong", r"jeong"),
+    ("/glosario-de-psicologia-coreana/", "godoksa", r"godoksa"),
+    ("/glosario-de-psicologia-coreana/", "chemyeon", r"chemyeon"),
     ("/glosario-de-psicologia-rusa/", "zona-de-desarrollo-proximo", r"zona de desarrollo próximo"),
     ("/glosario-de-psicologia-rusa/", "efecto-zeigarnik", r"efecto Zeigarnik"),
     ("/glosario-de-psicologia-rusa/", "esquizofrenia-lenta", r"esquizofrenia lenta"),
@@ -2440,6 +2449,7 @@ def reemplazos(cuerpo, ruta):
         "glosario_japones": lambda: bloque_glosario(GLOSARIO_JAPONES),
         "glosario_chino": lambda: bloque_glosario(GLOSARIO_CHINO),
         "glosario_ruso": lambda: bloque_glosario(GLOSARIO_RUSO),
+        "glosario_coreano": lambda: bloque_glosario(GLOSARIO_COREANO),
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
