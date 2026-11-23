@@ -47,6 +47,8 @@ El condicionamiento clásico ayuda a entender por qué un lugar, un olor o una s
 
 En la consulta, esta idea ayuda a muchas personas a entender que su miedo no es «irracional» sin más: es un aprendizaje, y lo aprendido puede reaprenderse. Podés ver la escalera de exposición en el [laboratorio de ansiedad](/laboratorio-de-ansiedad/) o leer sobre [la ansiedad](/recursos/ansiedad-cuando-el-cuerpo-habla/).
 
+Para ubicar a Pávlov en la historia de la psicología rusa y soviética, mirá el [mapa de la psicología rusa](/recursos/mapa-de-la-psicologia-rusa/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el condicionamiento clásico?

@@ -49,6 +49,8 @@ Para practicar una forma más amable de hablarte, te espera el [laboratorio de a
 
 Para distinguir la culpa que repara de la que castiga, podés usar el [laboratorio de culpa y vergüenza](/laboratorio-de-culpa-y-verguenza/).
 
+Uno de los grandes retratos literarios de la culpa es *Crimen y castigo*; lo comento en [Dostoievski y la psicología](/recursos/dostoievski-y-la-psicologia/).
+
 ## Preguntas frecuentes
 
 ### ¿Es normal sentir culpa por todo?

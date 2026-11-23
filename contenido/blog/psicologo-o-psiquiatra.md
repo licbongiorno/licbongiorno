@@ -60,6 +60,8 @@ Sí, es una combinación frecuente. Cada profesional se ocupa de lo suyo y convi
 - [Primera consulta: qué esperar](/primera-consulta/)
 - [Cómo saber si necesito terapia](/recursos/como-saber-si-necesito-terapia/)
 
+Un capítulo oscuro de la historia muestra por qué la ética del diagnóstico importa: el [abuso político de la psiquiatría soviética](/recursos/psiquiatria-sovietica-y-abuso-politico/).
+
 ## Para seguir leyendo
 
 - Ley 23.277 (1985). *Ejercicio profesional de la psicología*. Boletín Oficial de la República Argentina, 15 de noviembre de 1985.

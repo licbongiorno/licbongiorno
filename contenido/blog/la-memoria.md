@@ -57,6 +57,8 @@ Los olvidos cotidianos son normales. Conviene consultar con un médico si los ol
 
 Para poner en práctica técnicas de estudio con respaldo científico, te espera el [laboratorio de aprender a aprender](/laboratorio-de-aprender-a-aprender/).
 
+Uno de los casos de memoria más famosos de la historia lo estudió [Alexander Luria](/recursos/alexander-luria/): el mnemonista que no podía olvidar.
+
 ## Preguntas frecuentes
 
 ### ¿Cuáles son los tipos de memoria?

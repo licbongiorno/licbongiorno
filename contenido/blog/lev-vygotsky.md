@@ -45,6 +45,8 @@ La obra de Vygotsky es una de las bases de la educación actual y de la psicolog
 
 En la consulta, la zona de desarrollo próximo me recuerda algo también válido para adultos: el cambio suele empezar acompañado, y la terapia puede ser ese lugar donde algo se hace primero con otro para después poder hacerlo solo. Podés seguir con el [laboratorio de aprender a aprender](/laboratorio-de-aprender-a-aprender/).
 
+La escuela que fundó con Luria y Leóntiev, y lo que vino después, está en el [mapa de la psicología rusa](/recursos/mapa-de-la-psicologia-rusa/). Para practicar la zona de desarrollo próximo, está el [laboratorio de andamiaje](/laboratorio-de-andamiaje/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la zona de desarrollo próximo?

@@ -59,6 +59,8 @@ Si querés pensar qué te mueve de verdad, probá el [laboratorio de valores y s
 
 La distancia entre saber lo que conviene y hacerlo ya preocupaba a [Wang Yangming](/recursos/wang-yangming/) en el siglo XVI.
 
+Cómo un mismo acto puede tener sentidos distintos según el motivo lo estudió la [teoría de la actividad](/recursos/teoria-de-la-actividad/) de Leóntiev.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la motivación?

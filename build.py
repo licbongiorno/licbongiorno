@@ -536,6 +536,7 @@ NAV = [
         ("Glosario de psicoterapia", "/glosario-clinico/", "Encuadre, transferencia, apego…"),
         ("Glosario de psicología japonesa", "/glosario-de-psicologia-japonesa/", "Arugamama, amae, wabi-sabi…"),
         ("Glosario de psicología china", "/glosario-de-psicologia-china/", "Wu wei, mianzi, qi…"),
+        ("Glosario de psicología rusa", "/glosario-de-psicologia-rusa/", "Vygotsky, Luria, Bajtín…"),
     ]),
     ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
@@ -1264,6 +1265,7 @@ def pie():
           <li><a href="/glosario-clinico/">Glosario de psicoterapia</a></li>
           <li><a href="/glosario-de-psicologia-japonesa/">Glosario de psicología japonesa</a></li>
           <li><a href="/glosario-de-psicologia-china/">Glosario de psicología china</a></li>
+          <li><a href="/glosario-de-psicologia-rusa/">Glosario de psicología rusa</a></li>
           <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
           <li><a href="/opiniones/">Opiniones de pacientes</a></li>
@@ -1685,6 +1687,14 @@ TERMINOS_GLOSARIO = [
     ("/glosario-junguiano/", "mandala", r"mandalas?"),
     ("/glosario-junguiano/", "tipos-psicologicos", r"tipos psicológicos"),
     ("/glosario-junguiano/", "complejo", r"complejos"),
+    ("/glosario-de-psicologia-rusa/", "zona-de-desarrollo-proximo", r"zona de desarrollo próximo"),
+    ("/glosario-de-psicologia-rusa/", "efecto-zeigarnik", r"efecto Zeigarnik"),
+    ("/glosario-de-psicologia-rusa/", "esquizofrenia-lenta", r"esquizofrenia lenta"),
+    ("/glosario-de-psicologia-rusa/", "dialogismo", r"dialogismo"),
+    ("/glosario-de-psicologia-rusa/", "polifonia", r"polifonía"),
+    ("/glosario-de-psicologia-rusa/", "ustanovka", r"ustanovka"),
+    ("/glosario-de-psicologia-rusa/", "patopsicologia", r"patopsicología"),
+    ("/glosario-de-psicologia-rusa/", "habla-interna", r"habla interna"),
     ("/glosario-de-psicologia-china/", "si-duan", r"cuatro brotes"),
     ("/glosario-de-psicologia-china/", "zhi-xing-he-yi", r"unidad (?:del|de) conocimiento y (?:la )?acción"),
     ("/glosario-de-psicologia-china/", "wu-yong-zhi-yong", r"utilidad de lo inútil"),
@@ -2266,7 +2276,7 @@ CONSULTA_FIJA = {
     "insomnio": "/estres-y-agotamiento/", "pesadillas": "/trauma/", "dependencia-emocional": "/dificultades-vinculares/",
     "patrones-que-se-repiten-en-los-vinculos": "/dificultades-vinculares/", "la-culpa": "/autoestima/",
     "fauna-y-observacion": "/estres-y-agotamiento/", "flora-y-salud-mental": "/estres-y-agotamiento/",
-    "cuidar-a-un-familiar": "/terapia-para-adultos-mayores/", "pantallas-y-redes-sociales": "/psicologo-para-adolescentes/", "la-resiliencia": "/duelo-y-perdidas/", "sindrome-del-impostor": "/autoestima/", "la-envidia": "/autoestima/", "nido-vacio": "/crisis-vitales/", "menopausia-y-salud-emocional": "/crisis-vitales/", "trastorno-obsesivo-compulsivo": "/ansiedad-y-ataques-de-panico/", "psicologo-o-psiquiatra": "/primera-consulta/", "como-elegir-psicologo": "/primera-consulta/", "cuanto-dura-una-terapia": "/primera-consulta/", "terapia-de-pareja": "/dificultades-vinculares/", "violencia-en-la-pareja": None, "apego-ansioso-y-evitativo": "/dificultades-vinculares/", "dolor-cronico-y-psicologia": "/estres-y-agotamiento/", "terapia-morita": "/ansiedad-y-ataques-de-panico/", "kaizen": "/crisis-vitales/", "wabi-sabi-y-kintsugi": "/autoestima/", "amae": "/dificultades-vinculares/", "shinrin-yoku": "/estres-y-agotamiento/", "naikan": "/psicoterapia-para-adultos/", "hikikomori": "/psicologo-para-adolescentes/", "taoismo-y-psicologia": "/ansiedad-y-ataques-de-panico/", "psicoterapia-taoista-cognitiva": "/ansiedad-y-ataques-de-panico/", "neurastenia-y-somatizacion": "/depresion/", "qigong-y-tai-chi": "/estres-y-agotamiento/", "confucio-y-la-psicologia": "/dificultades-vinculares/", "mianzi-y-guanxi": "/autoestima/", "chan-el-budismo-chino": "/psicoterapia-para-adultos/", "mapa-de-la-psicologia-china": "/psicoterapia-para-adultos/", "zhuangzi": None, "mencio-y-xunzi": None, "wang-yangming": None, "oriente-y-occidente-psicologia-cultural": "/psicoterapia-para-adultos/", "la-psicologia-en-china": None, "acupuntura-y-salud-mental": "/depresion/", "mapa-de-la-psicologia-japonesa": "/psicoterapia-para-adultos/", "acoso-escolar-y-laboral": "/trauma/",
+    "cuidar-a-un-familiar": "/terapia-para-adultos-mayores/", "pantallas-y-redes-sociales": "/psicologo-para-adolescentes/", "la-resiliencia": "/duelo-y-perdidas/", "sindrome-del-impostor": "/autoestima/", "la-envidia": "/autoestima/", "nido-vacio": "/crisis-vitales/", "menopausia-y-salud-emocional": "/crisis-vitales/", "trastorno-obsesivo-compulsivo": "/ansiedad-y-ataques-de-panico/", "psicologo-o-psiquiatra": "/primera-consulta/", "como-elegir-psicologo": "/primera-consulta/", "cuanto-dura-una-terapia": "/primera-consulta/", "terapia-de-pareja": "/dificultades-vinculares/", "violencia-en-la-pareja": None, "apego-ansioso-y-evitativo": "/dificultades-vinculares/", "dolor-cronico-y-psicologia": "/estres-y-agotamiento/", "terapia-morita": "/ansiedad-y-ataques-de-panico/", "kaizen": "/crisis-vitales/", "wabi-sabi-y-kintsugi": "/autoestima/", "amae": "/dificultades-vinculares/", "shinrin-yoku": "/estres-y-agotamiento/", "naikan": "/psicoterapia-para-adultos/", "hikikomori": "/psicologo-para-adolescentes/", "taoismo-y-psicologia": "/ansiedad-y-ataques-de-panico/", "psicoterapia-taoista-cognitiva": "/ansiedad-y-ataques-de-panico/", "neurastenia-y-somatizacion": "/depresion/", "qigong-y-tai-chi": "/estres-y-agotamiento/", "confucio-y-la-psicologia": "/dificultades-vinculares/", "mianzi-y-guanxi": "/autoestima/", "chan-el-budismo-chino": "/psicoterapia-para-adultos/", "mapa-de-la-psicologia-china": "/psicoterapia-para-adultos/", "zhuangzi": None, "mencio-y-xunzi": None, "wang-yangming": None, "oriente-y-occidente-psicologia-cultural": "/psicoterapia-para-adultos/", "la-psicologia-en-china": None, "acupuntura-y-salud-mental": "/depresion/", "teoria-de-la-actividad": "/psicoterapia-para-adultos/", "bajtin-y-el-dialogo": "/psicoterapia-para-adultos/", "mapa-de-la-psicologia-japonesa": "/psicoterapia-para-adultos/", "acoso-escolar-y-laboral": "/trauma/",
     "apuestas-online": "/psicoterapia-para-adultos/", "trastorno-bipolar": "/depresion/",
 }
 CONSULTA_CATEGORIAS = {"Salud mental", "Ansiedad y emociones", "Vínculos y relaciones", "Desarrollo personal",
