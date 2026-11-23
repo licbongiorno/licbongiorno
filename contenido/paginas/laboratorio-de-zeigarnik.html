@@ -1,0 +1,194 @@
+<!--{
+  "ruta": "/laboratorio-de-zeigarnik/",
+  "titulo": "Laboratorio de Zeigarnik: lo que queda pendiente",
+  "descripcion": "Ejercicios sobre los pendientes que ocupan la cabeza: el efecto Zeigarnik, cerrar ciclos con un plan, estacionar tareas antes de dormir y 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Pendientes",
+      "/laboratorio-de-zeigarnik/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>Zeigarnik</em>",
+  "bajada": "Lo que queda pendiente tiende a volver a la cabeza. Bluma Zeigarnik lo estudió en 1927 y la investigación posterior matizó sus resultados. Ejercicios para darles un lugar a tus pendientes, sin prometer magia.",
+  "respuesta": "El laboratorio de Zeigarnik ofrece ejercicios para los pendientes que ocupan la cabeza: un inventario, un quiz para decidir qué cerrar, qué posponer con un plan y qué soltar, una práctica para estacionar tareas antes de dormir y un plan de 7 días. Parte del trabajo de Bluma Zeigarnik (1927) sobre el recuerdo de las tareas interrumpidas, cuya replicación fue dispar, y del estudio de Masicampo y Baumeister (2011), según el cual armar un plan específico reduce la interferencia de las metas sin cumplir. No es un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-5.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de Zeigarnik",
+  "articulos": [
+    "bluma-zeigarnik",
+    "procrastinacion"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay tareas que se terminan y se olvidan, y otras que vuelven solas: el mensaje sin contestar que aparece mientras te bañás, el trámite que recordás justo cuando apagás la luz. En 1927, <strong>Bluma Zeigarnik</strong>, una psicóloga nacida en Prienai (en la actual Lituania) que hacía su doctorado en Berlín con Kurt Lewin, publicó un trabajo sobre este fenómeno. Pidió a los participantes una serie de tareas breves e interrumpió algunas antes de que las terminaran. Al preguntarles después qué recordaban, informó que las tareas interrumpidas se recordaban mejor que las completadas: según su resumen, casi el doble. A ese resultado se lo conoce como <strong>efecto Zeigarnik</strong>.</p>
+        <p>El grupo de Lewin lo explicaba con la idea de una tensión que queda activa mientras una intención no se cumple y que se descarga al terminarla. Maria Ovsiankina, otra investigadora vinculada a ese grupo, publicó en 1928 un estudio sobre un fenómeno vecino: la tendencia a retomar por iniciativa propia las tareas interrumpidas.</p>
+        <p>Conviene ser claros con lo que se sabe hoy. La replicación del efecto Zeigarnik fue dispar. El metaanálisis de Romain Ghibellini y Beat Meier (2025) concluyó que la tendencia a retomar lo interrumpido aparece de forma bastante general, mientras que la ventaja en el recuerdo no tiene validez universal y resultó difícil de replicar; los autores sugieren que depende de la situación y de diferencias individuales, como cuánto se involucra la persona en la tarea. Este laboratorio no parte de una ley de la memoria: parte de una experiencia frecuente, la de que lo abierto reclama atención, y de algunas formas de bajarle el volumen.</p>
+        <p>Dos estudios más recientes orientan los ejercicios. E. J. Masicampo y Roy Baumeister (2011) observaron que armar un plan específico para una meta pendiente reducía la interferencia que esa meta producía sobre otras tareas, aunque todavía no se hubiera cumplido. Michael Scullin y colaboradores (2018) encontraron que escribir la lista de pendientes antes de dormir se asociaba con dormirse más rápido que escribir lo ya hecho. Son hallazgos acotados, y este laboratorio es un conjunto de ejercicios de escritura y organización, no un tratamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin culpa.</strong> Tener pendientes es parte de tener una vida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> Si los pensamientos no paran aunque hagas un plan, conviene consultar.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#inventario">Inventario de pendientes</a>
+      <a href="#quiz">¿Cerrar, posponer o soltar?</a>
+      <a href="#plan">Cerrar ciclos con un plan</a>
+      <a href="#estacionar">Estacionar antes de dormir</a>
+      <a href="#vineta">Viñeta: Andrés y la madrugada</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="inventario" aria-labelledby="t-inventario">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-inventario">Inventario de pendientes que ocupan la cabeza</h2>
+      <p class="lab-estacion__bajada">Antes de decidir nada, mirá qué está abierto. Anotá los pendientes que te vuelven a la cabeza, sin ordenarlos todavía: tareas, llamadas, decisiones, conversaciones. Pasarlos al papel tiene una ventaja práctica: ya no hace falta sostenerlos de memoria.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="zeigarnik-inventario" data-lab-form-titulo="Mi inventario de pendientes" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-inventario-1">Los pendientes que más me vuelven a la cabeza (uno por línea)</label><textarea class="lab-texto" id="zgk-inventario-1" rows="2" placeholder="El turno con el médico, la llamada a mi hermana, el informe del trabajo…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-inventario-2">El que más aparece, y en qué momentos</label><input class="lab-campo" id="zgk-inventario-2" type="text" placeholder="Al acostarme, en el colectivo, cuando quiero concentrarme…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-inventario-3">Cuánto me pesan hoy, en conjunto (0 a 10)</label><input class="lab-campo" id="zgk-inventario-3" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-inventario-4">¿Qué tienen en común? ¿Son tareas chicas, decisiones, conversaciones, cosas que no dependen de mí?</label><textarea class="lab-texto" id="zgk-inventario-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-inventario-5">Uno que quizá ya no me corresponde o que podría soltar</label><input class="lab-campo" id="zgk-inventario-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quiz">¿Cerrar, posponer con un plan o soltar?</h2>
+      <p class="lab-estacion__bajada">Cada pendiente pide algo distinto. Algunos se resuelven en minutos y conviene cerrarlos; otros necesitan tiempo y alcanza con decidir cuándo y cómo; otros ya no dependen de vos o dejaron de tener sentido. En la vida real puede haber más de una respuesta: el quiz propone la más razonable para cada caso.</p>
+      <div class="lab-tarjeta" data-lab-quiz="zeigarnik-cerrar-posponer-soltar">
+        <p class="lab-tarjeta__titulo">¿Qué conviene con este pendiente?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente pendiente</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="plan" aria-labelledby="t-plan">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-plan">Cerrar ciclos con un plan</h2>
+      <p class="lab-estacion__bajada">En una serie de experimentos, Masicampo y Baumeister (2011) observaron que una meta sin cumplir se colaba en la mente y empeoraba el rendimiento en otra tarea, y que esa interferencia desaparecía cuando los participantes podían armar un plan específico para la meta pendiente. El plan no reemplaza hacer la tarea: le da un lugar para que no tenga que ocupar tu cabeza todo el tiempo. Elegí uno de tus pendientes «para posponer» y escribile su plan.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="zeigarnik-plan" data-lab-form-titulo="Mi plan para un pendiente" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-plan-1">El pendiente</label><input class="lab-campo" id="zgk-plan-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-plan-2">El próximo paso concreto, algo que se pueda hacer en una sentada</label><input class="lab-campo" id="zgk-plan-2" type="text" placeholder="No «ordenar la casa»: «vaciar el placard del pasillo»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-plan-3">Cuándo: día y hora</label><input class="lab-campo" id="zgk-plan-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-plan-4">Dónde, y qué necesito tener a mano</label><input class="lab-campo" id="zgk-plan-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-plan-5">Si… entonces…: qué hago si algo se interpone</label><input class="lab-campo" id="zgk-plan-5" type="text" placeholder="Si el sábado no puedo, entonces lo paso al lunes a las 19" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-plan-6">¿Cómo me siento después de escribirlo? ¿Baja un poco el ruido?</label><textarea class="lab-texto" id="zgk-plan-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="estacionar" aria-labelledby="t-estacionar">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-estacionar">Estacionar los pendientes antes de dormir</h2>
+      <p class="lab-estacion__bajada">Scullin y colaboradores (2018) pidieron a 57 adultos jóvenes, en un laboratorio de sueño, que escribieran cinco minutos antes de acostarse. Quienes anotaron lo que tenían que hacer en los días siguientes se durmieron más rápido que quienes anotaron lo que ya habían hecho, y cuanto más concreta era la lista, más rápido se dormían. Fue una sola noche y con personas sin insomnio, así que tomalo como una práctica para probar. Activá el reloj para unos 45 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="45">
+        <ol class="lab-pasos">
+          <li><strong>Un rato antes.</strong> Fuera de la cama, tené a mano una hoja y una birome. Si podés, usá papel, así no tenés que volver a la pantalla.</li>
+          <li><strong>Vaciar.</strong> Escribí lo que tenés que hacer mañana y en los próximos días. Cuanto más concreto, mejor: «llamar a la obra social a las nueve» en lugar de «obra social».</li>
+          <li><strong>Darle un lugar.</strong> Al lado de los más importantes, anotá cuándo los vas a hacer. Si todavía no lo sabés, escribí «decidir el miércoles».</li>
+          <li><strong>Lo que no depende de vos.</strong> Si aparece una preocupación sin acción posible, escribila aparte y anotá al lado: «esta noche no depende de mí».</li>
+          <li><strong>Cerrar la hoja.</strong> Dejala en un lugar fijo, lejos de la cama. Decite, con tus palabras, algo como «está anotado, mañana lo retomo».</li>
+          <li><strong>Si vuelve.</strong> Si en la cama aparece un pendiente nuevo, anotalo una sola vez en un papel de la mesa de luz. Si aparece uno que ya está escrito, recordá que tiene su lugar y volvé a la respiración.</li>
+        </ol>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-vineta">Viñeta para pensar: los pendientes de la madrugada</h2>
+      <p class="lab-estacion__bajada">Una situación inventada para mirar cómo se ordenan los pendientes, y qué pasa con los que no se resuelven con una lista. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Andrés tiene 42 años y es contador. Hace semanas que se acuesta y empieza a repasar: la canilla que gotea, la llamada a su madre, un balance que vence el viernes y una conversación pendiente con su socio sobre cómo se reparten las horas. Intenta recordar todo para que nada se le escape, y a las tres de la mañana sigue despierto.</p>
+        <p>Una noche prueba anotarlo todo en el celular, ya acostado, y queda más despierto que antes. La semana siguiente cambia el método: media hora antes de dormir, en la cocina, escribe en una hoja y separa en tres columnas. La canilla y la llamada las resuelve al día siguiente en diez minutos. Para el balance arma un plan: martes y miércoles de 9 a 11.</p>
+        <p>Algunas noches mejora mucho. Lo que sigue apareciendo es la conversación con su socio: está anotada, tiene día, y aun así vuelve. Andrés se da cuenta de que ahí hay algo más que una tarea: le da miedo cómo puede reaccionar el otro.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="zeigarnik-vineta-andres" data-lab-form-titulo="Mis respuestas sobre Andrés" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-vineta-1">¿Qué pendientes de Andrés convenía cerrar, cuáles posponer con un plan y alguno soltar?</label><textarea class="lab-texto" id="zgk-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-vineta-2">¿Por qué la conversación con el socio siguió apareciendo aunque estuviera anotada?</label><textarea class="lab-texto" id="zgk-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-vineta-3">¿Hay algún pendiente tuyo que necesita una acción, o una emoción atendida, y no solo un plan?</label><textarea class="lab-texto" id="zgk-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-vineta-4">Una cosa que podrías probar esta noche</label><input class="lab-campo" id="zgk-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="zeigarnik-integrar" data-lab-form-titulo="Lo que integro sobre mis pendientes" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-integrar-1">Los pendientes que voy a cerrar esta semana</label><textarea class="lab-texto" id="zgk-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-integrar-2">Los que pospongo con un plan (paso, día y lugar)</label><textarea class="lab-texto" id="zgk-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-integrar-3">Uno que decido soltar</label><input class="lab-campo" id="zgk-integrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-integrar-4">Mi forma de estacionar los pendientes antes de dormir</label><input class="lab-campo" id="zgk-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="zgk-integrar-5">Cómo me voy a dar cuenta de que un pendiente se volvió una vuelta de pensamiento que no lleva a ningún lado</label><textarea class="lab-texto" id="zgk-integrar-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="zeigarnik">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Inventario.</strong> Anotá todos los pendientes que te vuelven a la cabeza, sin ordenarlos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Tres columnas.</strong> Separá la lista en cerrar, posponer con un plan y soltar.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Cerrar lo chico.</strong> Resolvé hoy dos pendientes que lleven menos de cinco minutos.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un plan.</strong> Elegí un pendiente grande y escribí el próximo paso, el día, la hora y el lugar.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Estacionar.</strong> Antes de dormir, escribí cinco minutos lo que tenés para mañana, lo más concreto posible.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Soltar uno.</strong> Tachá un pendiente que ya no tiene sentido o que no depende de vos.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Anotá qué cambió en el ruido mental y qué pendientes siguen volviendo aunque tengan un plan.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el efecto Zeigarnik y los pendientes. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="zeigarnik-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Ordenar los pendientes ayuda con la carga cotidiana, pero no resuelve todo. Si las preocupaciones te ocupan buena parte del día, si hace semanas que dormís mal o si sentís que no podés parar de pensar, conviene hablarlo: podés <a href="/contacto/">escribirme</a>, y si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. Para seguir: el artículo sobre <a href="/recursos/bluma-zeigarnik/">Bluma Zeigarnik</a>, el de <a href="/recursos/procrastinacion/">procrastinación</a>, el <a href="/laboratorio-de-pensamientos-repetitivos/">laboratorio de pensamientos repetitivos</a> y el <a href="/laboratorio-de-insomnio/">laboratorio de insomnio</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Zeigarnik, B. (1927). «Das Behalten erledigter und unerledigter Handlungen». <em>Psychologische Forschung</em>, 9, 1-85.</li>
+        <li>Masicampo, E. J. y Baumeister, R. F. (2011). «Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals». <em>Journal of Personality and Social Psychology</em>, 101(4), 667-683.</li>
+        <li>Scullin, M. K., Krueger, M. L., Ballard, H. K., Pruett, N. y Bliwise, D. L. (2018). «The effects of bedtime writing on difficulty falling asleep: A polysomnographic study comparing to-do lists and completed activity lists». <em>Journal of Experimental Psychology: General</em>, 147(1), 139-146.</li>
+        <li>Ghibellini, R. y Meier, B. (2025). «Interruption, recall and resumption: a meta-analysis of the Zeigarnik and Ovsiankina effects». <em>Humanities and Social Sciences Communications</em>, 12, 962.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
