@@ -112,6 +112,8 @@ Hay cuadros actuales de fatiga persistente con síntomas parecidos, pero no hay 
 - [Depresión](/depresion/)
 - [Glosario clínico](/glosario-clinico/)
 
+Otro ejemplo de malestar que se expresa en el cuerpo es el [hwa-byung coreano](/recursos/han-y-hwa-byung/).
+
 ## Para seguir leyendo
 
 - Kleinman, A. (1986). *Social Origins of Distress and Disease: Depression, Neurasthenia, and Pain in Modern China*. Yale University Press.

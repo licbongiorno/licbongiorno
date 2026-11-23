@@ -54,6 +54,8 @@ Si sentís que cargás con lo de todos y ya no te queda energía, o al revés, s
 
 La pregunta de si la compasión es innata tiene una larga historia en China: la desarrollo en [Mencio y Xunzi](/recursos/mencio-y-xunzi/).
 
+La cultura coreana tiene una palabra para el arte de leer lo que el otro siente sin que lo diga: el [nunchi](/recursos/nunchi/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la empatía?

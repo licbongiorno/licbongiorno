@@ -121,6 +121,8 @@ Pregunta qué significa para la persona cumplir con su familia, incluye a los v�
 
 El debate confuciano sobre la naturaleza humana siguió con [Mencio y Xunzi](/recursos/mencio-y-xunzi/), y siglos después con [Wang Yangming](/recursos/wang-yangming/).
 
+Para ver cómo se desarrolló el confucianismo en Corea, con el debate de los cuatro brotes y las siete emociones, leé [confucianismo coreano](/recursos/confucianismo-coreano/).
+
 ## Para seguir leyendo
 
 - Hwang, K.-K. (2012). *Foundations of Chinese Psychology: Confucian Social Relations*. Springer.

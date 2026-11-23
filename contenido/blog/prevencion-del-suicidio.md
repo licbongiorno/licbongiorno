@@ -77,4 +77,6 @@ Acompañar a alguien en este estado cansa y asusta. No tenés que resolverlo sol
 - [Cómo acompañar a alguien con depresión](/recursos/como-acompanar-a-alguien-con-depresion/)
 - [Autolesiones](/recursos/autolesiones/)
 
+Un caso que muestra la importancia de las políticas públicas de prevención es el de [la salud mental en Corea](/recursos/salud-mental-en-corea/).
+
 Lecturas: Dazzi, T., Gribble, R., Wessely, S. y Fear, N. T. (2014), «Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?», *Psychological Medicine*. Stanley, B. y Brown, G. K. (2012), «Safety planning intervention: a brief intervention to mitigate suicide risk», *Cognitive and Behavioral Practice*, 19(2), 256–264.

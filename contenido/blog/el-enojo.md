@@ -48,6 +48,8 @@ Si el enojo se vuelve violencia hacia otros o hacia vos, pedí ayuda: ese es un 
 
 Para practicar cómo frenar antes de actuar, te puede servir el [laboratorio de habilidades para emociones intensas](/laboratorio-de-habilidades-dbt/).
 
+Cuando el enojo se calla durante años, puede expresarse en el cuerpo; la psiquiatría coreana lo describió como [hwa-byung](/recursos/han-y-hwa-byung/). Para trabajarlo, está el [laboratorio de pena y enojo](/laboratorio-de-pena-y-enojo/).
+
 ## Preguntas frecuentes
 
 ### ¿Está mal enojarse?
