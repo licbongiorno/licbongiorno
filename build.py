@@ -224,11 +224,13 @@ GLOSARIO_FIORINI = cargar_json("glosario-fiorini.json")
 GLOSARIO_CLINICO = cargar_json("glosario-clinico.json")
 GLOSARIO_JAPONES = cargar_json("glosario-japones.json")
 GLOSARIO_CHINO = cargar_json("glosario-chino.json")
+GLOSARIO_RUSO = cargar_json("glosario-ruso.json")
 GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
              (GLOSARIO_FIORINI, "/glosario-fiorini/", "Glosario de la psicoterapia breve focalizada de Héctor Fiorini"),
              (GLOSARIO_CLINICO, "/glosario-clinico/", "Glosario de psicología clínica y psicoterapia"),
              (GLOSARIO_JAPONES, "/glosario-de-psicologia-japonesa/", "Glosario de psicología japonesa"),
-             (GLOSARIO_CHINO, "/glosario-de-psicologia-china/", "Glosario de psicología china")]
+             (GLOSARIO_CHINO, "/glosario-de-psicologia-china/", "Glosario de psicología china"),
+             (GLOSARIO_RUSO, "/glosario-de-psicologia-rusa/", "Glosario de psicología rusa")]
 
 
 # --------------------------------------------------------------------------- Markdown mínimo
@@ -2419,6 +2421,7 @@ def reemplazos(cuerpo, ruta):
         "glosario_clinico": lambda: bloque_glosario(GLOSARIO_CLINICO),
         "glosario_japones": lambda: bloque_glosario(GLOSARIO_JAPONES),
         "glosario_chino": lambda: bloque_glosario(GLOSARIO_CHINO),
+        "glosario_ruso": lambda: bloque_glosario(GLOSARIO_RUSO),
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
