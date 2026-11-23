@@ -37,6 +37,9 @@
       <div class="prosa">
         <p><strong>Kaizen</strong> es un término japonés que suele traducirse como «mejora continua». Nació en el ámbito de la gestión y la producción, no de la psicología clínica. El psicólogo Robert Maurer lo llevó al cambio personal en <em>One Small Step Can Change Your Life: The Kaizen Way</em> (2004), con una idea simple: si un cambio te asusta o te cansa, hacelo tan chico que casi no dé resistencia.</p>
         <p>Conviene decir con claridad de dónde viene el respaldo. Kaizen no es una terapia ni tiene ensayos clínicos propios. Lo que sí está estudiado es la psicología de los hábitos: Phillippa Lally y su equipo (2010) observaron que repetir una conducta en un contexto estable va aumentando su automaticidad, y que no hay un número mágico de días. Este laboratorio usa la mirada kaizen como una forma amable de aprovechar eso, sin prometer transformaciones.</p>
+        <p>Una de las herramientas mejor estudiadas para pasar de la intención a la acción encaja bien con el espíritu kaizen. Peter Gollwitzer (1999) llamó <strong>intenciones de implementación</strong> a los planes con la forma «cuando ocurra tal situación, haré tal cosa». Atan una conducta a un momento concreto y evitan tener que decidir cada vez. Un metaanálisis posterior de Gollwitzer y Sheeran (2006), con 94 pruebas independientes, informó un efecto de mediano a grande (d = 0,65) sobre el logro de metas. Parten de una meta que ya sentís tuya: no sirven para sostener la de otra persona.</p>
+        <p>Sobre los tiempos, conviene bajar las expectativas. En el estudio de Lally y colaboradores (2010), 96 estudiantes eligieron una conducta diaria sencilla y la siguieron durante 84 días. El tiempo para alcanzar la máxima automaticidad fue, en promedio, de 66 días, con una variación enorme entre personas: de 18 días hasta una proyección de 254. La automaticidad se midió por autorreporte, una limitación que los propios autores reconocen. De ahí la idea de este laboratorio: no se trata de apurar el hábito, sino de hacerlo lo bastante liviano como para que puedas repetirlo en un día cualquiera, incluso en uno malo.</p>
+        <p>Una advertencia práctica: lo chico no es lo mismo que lo trivial. Un paso kaizen tiene que apuntar a algo que te importa, y achicarlo es una forma de hacerlo viable, no de renunciar a lo que querés. Tampoco sirve para todo. Si el malestar es intenso o lleva semanas, el obstáculo no es de tamaño sino de otro orden, y lo que corresponde es consultarlo. En las empresas, el kaizen se piensa en equipo y con metas de producción; acá se toma solo el gesto de mejorar de a poco, sin ninguna presión de rendimiento y sin compararte con nadie.</p>
       </div>
       <ul class="lab-reglas" aria-label="Cómo funciona">
         <li><strong>Sin heroísmo.</strong> Si el paso te parece ridículo de tan chico, está bien.</li>
@@ -49,6 +52,9 @@
       <a href="#paso">El paso más pequeño</a>
       <a href="#quiz">¿Paso kaizen o salto?</a>
       <a href="#registro">Registrar avances mínimos</a>
+      <a href="#si-entonces">Un plan «si… entonces…»</a>
+      <a href="#vineta">Viñeta: Marcos y la guitarra</a>
+      <a href="#integrar">Integrar lo practicado</a>
       <a href="#siete-dias">Plan de 7 días</a>
       <a href="#mitos">Mitos y verdades</a>
     </nav>
@@ -75,6 +81,7 @@
         <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-3">La versión mínima (la que casi no puede fallar)</label><input class="lab-campo" id="kz-paso-3" type="text" placeholder="Por ejemplo: ponerme las zapatillas y salir a la puerta" autocomplete="off"></div>
         <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-4">¿Después de qué hábito de todos los días lo hago?</label><input class="lab-campo" id="kz-paso-4" type="text" placeholder="Por ejemplo: después de tomar el primer café" autocomplete="off"></div>
         <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-5">Si un día no llego, el paso todavía más chico es</label><input class="lab-campo" id="kz-paso-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-paso-6">¿Qué tendría que pasar para que el paso me parezca demasiado grande, y cómo lo achicaría entonces?</label><textarea class="lab-texto" id="kz-paso-6" rows="2"></textarea></div>
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
@@ -101,12 +108,66 @@
         <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-3">Lo que noté: cuándo me resultó fácil y cuándo no</label><textarea class="lab-texto" id="kz-registro-3" rows="2"></textarea></div>
         <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-4">Un ajuste para la semana próxima</label><input class="lab-campo" id="kz-registro-4" type="text" placeholder="Hacerlo más chico, cambiar el momento, atarlo a otro hábito" autocomplete="off"></div>
         <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-5">Algo que me reconozco, sin «pero»</label><input class="lab-campo" id="kz-registro-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-registro-6">Una cosa que aprendí sobre mí al hacer este paso</label><input class="lab-campo" id="kz-registro-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="si-entonces" aria-labelledby="t-si-entonces">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-si-entonces">Un plan «si… entonces…»</h2>
+      <p class="lab-estacion__bajada">Un plan «cuando ocurra X, haré Y» ata tu paso a una situación concreta y le saca peso a la decisión del momento. Armá uno para tu paso más pequeño, con la situación lo más precisa posible, y pensá de antemano un obstáculo probable. Si el plan te suena a trámite, escribilo con tus palabras, como si se lo explicaras a un amigo. Lo importante es que la situación sea reconocible (un lugar, una hora, un hábito previo) y que el paso sea algo que puedas hacer incluso cansado/a.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="mi-plan-si-entonces" data-lab-form-titulo="Mi plan «si… entonces…»" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-si-entonces-1">Mi paso más pequeño</label><input class="lab-campo" id="kz-si-entonces-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-si-entonces-2">La situación que lo dispara: cuándo y dónde</label><input class="lab-campo" id="kz-si-entonces-2" type="text" placeholder="Por ejemplo: cuando termine de lavarme los dientes, en el baño" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-si-entonces-3">Mi plan completo: «Cuando…, entonces…»</label><input class="lab-campo" id="kz-si-entonces-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-si-entonces-4">Un obstáculo que puede aparecer (cansancio, olvido, otras personas, un mal día)</label><textarea class="lab-texto" id="kz-si-entonces-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-si-entonces-5">Mi plan para ese obstáculo: «Si pasa…, entonces…»</label><input class="lab-campo" id="kz-si-entonces-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-si-entonces-6">Lo ensayo con la imaginación, con los detalles de ese momento: ¿qué veo, qué hago primero?</label><textarea class="lab-texto" id="kz-si-entonces-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-vineta">Viñeta para pensar: un cambio que se estancó</h2>
+      <p class="lab-estacion__bajada">Una situación inventada para mirar cómo se arma un cambio chico. Leela y respondé las preguntas con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Marcos tiene 38 años y hace dos que quiere retomar la guitarra. Cada enero se propone practicar una hora por día. Los primeros cuatro días lo logra. El quinto llega agotado y no toca, el sexto tampoco, y a la semana guarda la guitarra en la funda y se dice: «no tengo disciplina».</p>
+        <p>Este año prueba otra cosa. Deja la guitarra apoyada en el sillón y, apenas termina de cenar, toca una sola canción, la que más le gusta. Algunas noches sigue veinte minutos; otras, toca la canción y nada más. Al cabo de un mes cuenta veintidós noches sobre treinta.</p>
+        <p>Marcos nota además que las noches más difíciles son las de más trabajo. Esas noches toca la canción de pie, sin sentarse, y la deja a medias si hace falta. Nadie lo ve ni lo felicita. A él le alcanza con haber tocado.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="vineta-marcos" data-lab-form-titulo="Mis respuestas sobre Marcos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-vineta-1">¿Qué cambió en el diseño del plan de este año respecto del de enero?</label><textarea class="lab-texto" id="kz-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-vineta-2">¿Qué se decía Marcos sobre sí mismo cuando fallaba? ¿Qué efecto puede tener esa frase en el intento siguiente?</label><textarea class="lab-texto" id="kz-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-vineta-3">¿Cómo mirarías vos esas veintidós noches sobre treinta, si fueran tuyas?</label><textarea class="lab-texto" id="kz-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-vineta-4">¿Qué sería «una sola canción» en el cambio que querés hacer vos?</label><input class="lab-campo" id="kz-vineta-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-vineta-5">¿Qué parte de la historia de Marcos se parece a la tuya, y qué parte no?</label><textarea class="lab-texto" id="kz-vineta-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-vineta-6">Si Marcos fuera tu amigo y te contara lo de las noches difíciles, ¿qué le dirías?</label><textarea class="lab-texto" id="kz-vineta-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que hiciste en las estaciones anteriores. Podés volver a este cuadro cada tanto.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="integrar-kaizen" data-lab-form-titulo="Lo que integro de kaizen" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-integrar-1">El cambio que elegí</label><input class="lab-campo" id="kz-integrar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-integrar-2">Mi paso más pequeño y el momento en que lo hago</label><input class="lab-campo" id="kz-integrar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-integrar-3">Lo que aprendí sobre cuándo me resulta fácil y cuándo no</label><textarea class="lab-texto" id="kz-integrar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-integrar-4">Cómo voy a tratarme cuando un día no lo haga</label><input class="lab-campo" id="kz-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-integrar-5">Lo que le diría a un amigo que empieza un cambio parecido, y si me lo diría también a mí</label><textarea class="lab-texto" id="kz-integrar-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-integrar-6">Algo que no se resuelve con un paso chico y para lo cual pediría ayuda: ¿a quién?</label><textarea class="lab-texto" id="kz-integrar-6" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="kz-integrar-7">Cuándo vuelvo a mirar este cuadro</label><input class="lab-campo" id="kz-integrar-7" type="text" placeholder="Por ejemplo: dentro de dos semanas" autocomplete="off"></div>
         <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
     <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
-      <p class="lab-estacion__num">05</p>
+      <p class="lab-estacion__num">08</p>
       <h2 id="t-siete">Plan de 7 días</h2>
       <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
       <div class="lab-tarjeta" data-lab-plan="kaizen">
@@ -124,7 +185,7 @@
       </div>
     </section>
     <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
-      <p class="lab-estacion__num">06</p>
+      <p class="lab-estacion__num">09</p>
       <h2 id="t-mitos">Mitos y verdades</h2>
       <p class="lab-estacion__bajada">Ideas habituales sobre el kaizen y los cambios chicos. ¿Mito o verdad?</p>
       <div class="lab-tarjeta" data-lab-quiz="kaizen-mitos">
@@ -143,6 +204,8 @@
       <ul>
         <li>Maurer, R. (2004). <em>One Small Step Can Change Your Life: The Kaizen Way</em>. Workman.</li>
         <li>Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W. y Wardle, J. (2010). «How are habits formed: Modelling habit formation in the real world». <em>European Journal of Social Psychology</em>, 40(6), 998-1009.</li>
+        <li>Gollwitzer, P. M. (1999). «Implementation intentions: Strong effects of simple plans». <em>American Psychologist</em>, 54(7), 493-503.</li>
+        <li>Gollwitzer, P. M. y Sheeran, P. (2006). «Implementation intentions and goal achievement: A meta-analysis of effects and processes». <em>Advances in Experimental Social Psychology</em>, 38, 69-119.</li>
       </ul>
     </div>
   </div>

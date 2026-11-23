@@ -37,6 +37,8 @@
       <div class="prosa">
         <p>El <strong>confucianismo</strong> es una tradición filosófica y ética china que toma su nombre de Confucio (Kongzi), cuyas enseñanzas se recogen en los <em>Analectas</em>. Tres ideas sirven para pensar los vínculos: <strong>ren</strong> (humanidad, benevolencia hacia los demás), <strong>li</strong> (ritos y formas apropiadas de conducta, como saludar o agradecer) y <strong>xiao</strong> (piedad filial, la actitud de cuidado y respeto hacia los padres y los mayores).</p>
         <p>Hay que usarlas con criterio. No son una psicoterapia, y nacieron en un mundo con jerarquías fuertes entre padres e hijos, hombres y mujeres, gobernantes y súbditos. En psicología, Yeh y Bedford (2003) distinguieron una piedad filial recíproca, basada en el afecto y la gratitud, de una autoritaria, basada en la obediencia y el deber. Este laboratorio toma de la tradición lo que cuida y deja afuera lo que somete.</p>
+        <p>La psicología social china estudió con detalle estos valores. Kwang-Kuo Hwang propuso entender el yo confuciano como un yo relacional, que se define por sus vínculos y por los deberes que cada vínculo trae. No se trata de una idea exótica: también en Argentina mucha gente se piensa primero como hija, padre, hermana o amigo, y después como individuo.</p>
+        <p>Kuang-Hui Yeh y Olwen Bedford (2003) distinguieron dos formas de piedad filial. La <strong>recíproca</strong> nace del afecto y de la gratitud por el cuidado recibido, y se asocia con vínculos más sanos. La <strong>autoritaria</strong> se apoya en la obediencia y la jerarquía, y puede generar más conflicto y malestar. Este laboratorio apuesta por la primera y pone límites claros a la segunda: el respeto no incluye aceptar el maltrato.</p>
       </div>
       <ul class="lab-reglas" aria-label="Cómo funciona">
         <li><strong>Sin obligaciones forzadas.</strong> Ningún ejercicio te pide gratitud hacia quien te dañó.</li>
@@ -49,6 +51,9 @@
       <a href="#quiz">¿Respeto u obediencia?</a>
       <a href="#ritual">Un ritual pequeño de cuidado</a>
       <a href="#gratitud">Gratitud hacia los mayores</a>
+      <a href="#reciproca">¿Recíproca o autoritaria?</a>
+      <a href="#vineta">Viñeta: Martín y su padre</a>
+      <a href="#integrar">Integrar lo practicado</a>
       <a href="#siete-dias">Plan de 7 días</a>
       <a href="#mitos">Mitos y verdades</a>
     </nav>
@@ -107,8 +112,54 @@
         <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
       </form>
     </section>
-    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+    <section class="lab-estacion revelar" id="reciproca" aria-labelledby="t-reciproca">
       <p class="lab-estacion__num">05</p>
+      <h2 id="t-reciproca">Piedad filial: ¿recíproca o autoritaria?</h2>
+      <p class="lab-estacion__bajada">Según Yeh y Bedford (2003), la piedad filial puede apoyarse en el afecto y la reciprocidad, o en la obediencia y la jerarquía. En cada situación, elegí cuál predomina.</p>
+      <div class="lab-tarjeta" data-lab-quiz="confuciano-reciproca-autoritaria">
+        <p class="lab-tarjeta__titulo">¿Recíproca o autoritaria?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente situación</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-vineta">Viñeta para pensar: deber, afecto y límites</h2>
+      <p class="lab-estacion__bajada">Una situación inventada sobre los deberes familiares. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Martín tiene 45 años y su padre, de 80, empezó a necesitar ayuda. Martín es el hijo mayor y siente que le corresponde ocuparse de todo. Va todos los días después del trabajo, resuelve los trámites y los remedios, y casi no ve a sus hijos. Sus dos hermanas viven cerca, pero nadie les pidió nada.</p>
+        <p>Una noche, agotado, le grita a su padre por una tontería y después llora en el auto. Al día siguiente llama a sus hermanas y les propone repartir los días. Una acepta enseguida; la otra se ofende y dice que él siempre quiere controlar todo.</p>
+        <p>Martín no sabe si hizo bien. Siente culpa por haber pedido ayuda y, a la vez, un alivio que no esperaba.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="vineta-martin" data-lab-form-titulo="Mis respuestas sobre Martín" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-vineta-1">¿Qué idea del deber sostenía Martín al principio? ¿Qué le costaba?</label><textarea class="lab-texto" id="cf-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-vineta-2">Pedir ayuda a sus hermanas, ¿lo aleja del cuidado de su padre o lo hace posible?</label><textarea class="lab-texto" id="cf-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-vineta-3">¿Qué parte de la historia de Martín se parece a algo de tu familia?</label><textarea class="lab-texto" id="cf-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-vineta-4">¿Qué deber podrías compartir o renegociar vos?</label><input class="lab-campo" id="cf-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="integrar-confuciano" data-lab-form-titulo="Lo que integro sobre mis vínculos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-integrar-1">Un vínculo que quiero cuidar más</label><textarea class="lab-texto" id="cf-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-integrar-2">Un deber que siento como propio, y otro que siento impuesto</label><textarea class="lab-texto" id="cf-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-integrar-3">Un límite que necesito poner, aunque cueste</label><input class="lab-campo" id="cf-integrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-integrar-4">Un ritual pequeño de cuidado que voy a sostener</label><input class="lab-campo" id="cf-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="cf-integrar-5">Si hay alguien de mi familia con quien no corresponde acercarme, cómo me cuido</label><textarea class="lab-texto" id="cf-integrar-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
       <h2 id="t-siete">Plan de 7 días</h2>
       <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
       <div class="lab-tarjeta" data-lab-plan="confuciano">
@@ -126,7 +177,7 @@
       </div>
     </section>
     <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
-      <p class="lab-estacion__num">06</p>
+      <p class="lab-estacion__num">09</p>
       <h2 id="t-mitos">Mitos y verdades</h2>
       <p class="lab-estacion__bajada">Ideas habituales sobre el confucianismo y los vínculos. ¿Mito o verdad?</p>
       <div class="lab-tarjeta" data-lab-quiz="confuciano-mitos">
@@ -145,6 +196,8 @@
       <ul>
         <li>Legge, J. (trad.) (1893). <em>The Chinese Classics, vol. 1: Confucian Analects, The Great Learning, and The Doctrine of the Mean</em> (2.ª ed.). Clarendon Press.</li>
         <li>Yeh, K.-H. y Bedford, O. (2003). «A test of the dual filial piety model». <em>Asian Journal of Social Psychology</em>, 6(3), 215-228.</li>
+        <li>Yeh, K.-H. y Bedford, O. (2003). «A test of the dual filial piety model». <em>Asian Journal of Social Psychology</em>, 6(3), 215-228.</li>
+        <li>Hwang, K.-K. (2012). <em>Foundations of Chinese Psychology: Confucian Social Relations</em>. Springer.</li>
       </ul>
     </div>
   </div>
