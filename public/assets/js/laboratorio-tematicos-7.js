@@ -3,6 +3,74 @@
 (function () {
   "use strict";
   var LAB = window.LAB;
+  /* Te Whare Tapa Whā */
+  var OPS_WHARE = ["Tinana (cuerpo)", "Hinengaro (mente y emociones)", "Whānau (vínculos)", "Wairua (sentido)"];
+  LAB.quiz("whare-paredes-floja", [
+    {"sinComillas": true, "t": "Hace tres semanas que duerme cuatro horas por noche y se enferma seguido, aunque en el trabajo y con sus amigos todo marcha bien.", "ops": OPS_WHARE, "r": 0, "e": "La pared más comprometida es el cuerpo. Dormir poco también pesa sobre el ánimo, lo que muestra cómo una pared floja carga a las otras."},
+    {"sinComillas": true, "t": "Se despierta con la cabeza llena de preocupaciones, se critica todo el día y le cuesta ponerle nombre a lo que siente.", "ops": OPS_WHARE, "r": 1, "e": "Tiene que ver sobre todo con el hinengaro: pensamientos y emociones. Si dura mucho o se intensifica, conviene consultar."},
+    {"sinComillas": true, "t": "Se mudó de ciudad hace un año, hace ejercicio y trabaja bien, pero no tiene a nadie a quien llamar un sábado a la noche.", "ops": OPS_WHARE, "r": 2, "e": "La pared floja es la whānau: familia y vínculos. Puede apuntalarse de a poco con pequeños contactos regulares."},
+    {"sinComillas": true, "t": "Tiene trabajo, salud y gente que lo quiere, pero siente que nada de lo que hace tiene sentido ni lo conecta con algo que le importe.", "ops": OPS_WHARE, "r": 3, "e": "Se parece a una pared wairua floja. Wairua es más amplio que religión: incluye valores, pertenencia y conexión con algo mayor. Si el vacío es muy fuerte o viene con tristeza profunda, conviene consultar."},
+    {"sinComillas": true, "t": "Después de un duelo, dejó de comer bien, no sale de casa y evita a su familia.", "ops": OPS_WHARE, "r": 2, "e": "Hay varias paredes tocadas. La más urgente de apuntalar suele ser la whānau: no quedarse solo. Un duelo prolongado merece acompañamiento profesional."},
+    {"sinComillas": true, "t": "Cuida a su padre enfermo, cumple con todo y se olvidó de ver a su médica, de caminar y de comer sentada.", "ops": OPS_WHARE, "r": 0, "e": "El cuidado de otros dejó floja la pared del cuerpo. Cuidar también requiere ser cuidado."}
+  ]);
+  LAB.quiz("whare-mitos", [
+    {"t": "Te Whare Tapa Whā es una escala validada que mide el bienestar con un puntaje.", "r": "a", "e": "Es un marco conceptual y de salud pública, no una escala. Ofrece un lenguaje y una lista de cosas para mirar."},
+    {"t": "El modelo lo propuso el psiquiatra maorí Mason Durie en 1984.", "r": "b", "e": "Durie lo presentó en 1984 y lo desarrolló en Whaiora: Māori Health Development (1998, 2.ª ed.)."},
+    {"t": "Wairua significa lo mismo que religión.", "r": "a", "e": "Es más amplio: el espíritu y la relación con lo que da sentido, incluida la naturaleza, los antepasados y los valores. Puede incluir una fe, pero no la exige."},
+    {"t": "Si una pared falla, las demás también se resienten.", "r": "b", "e": "Es la idea central del modelo: la casa se sostiene con todas sus paredes."},
+    {"t": "Cualquiera puede usar el modelo sin conocer su origen cultural.", "r": "a", "e": "Es un modelo maorí, creado dentro de una visión del mundo propia. Conviene usarlo con respeto, citar la fuente y no presentarlo como invención propia."},
+    {"t": "Las desigualdades de salud de la población maorí se explican por rasgos del pueblo.", "r": "a", "e": "Se vinculan con pobreza, discriminación y colonización, según los informes neozelandeses como He Ara Oranga (2018)."},
+    {"t": "Una de las paredes del modelo es la familia y los vínculos.", "r": "b", "e": "Es taha whānau, junto con taha tinana, taha hinengaro y taha wairua."},
+    {"t": "Apuntalar una pared reemplaza la consulta profesional cuando el sufrimiento es intenso.", "r": "a", "e": "Los puntales ayudan con lo cotidiano. Si el malestar es fuerte o dura, conviene consultar."}
+  ]);
+  LAB.quiz("musar-mitos", [
+    {"t": "El musar es una técnica psicológica con eficacia comprobada.", "r": "a", "e": "Es una práctica ética y religiosa de unos dos siglos como movimiento, con raíces más antiguas. No tiene ensayos clínicos propios que se conozcan con certeza y no corresponde presentarlo como terapia."},
+    {"t": "Hace falta ser religioso para probar un ejercicio de middá.", "r": "a", "e": "Quien lo practica dentro del judaísmo lo hace por convicción religiosa, y eso merece respeto. Pero la idea de elegir un rasgo, observarlo y registrarlo puede tomarse como reflexión ética sin adherir a la fe."},
+    {"t": "Estudiar sobre la humildad no vuelve humilde a nadie.", "r": "b", "e": "Es una observación central de Salanter: las pasiones pesan más sobre la conducta que el conocimiento. Por eso el musar insiste en la práctica, la repetición y el acompañamiento."},
+    {"t": "Maimónides decía que la virtud es el punto exacto en el medio, igual para todos.", "r": "a", "e": "Describió un camino medio que depende de la persona y la situación, y aclaró que a veces conviene inclinarse hacia el extremo opuesto un tiempo para corregirse, y que en el caso de la soberbia y la ira hay que alejarse más."},
+    {"t": "El jeshbon hanefesh es una lista de culpas.", "r": "a", "e": "Es una cuenta, un registro para ordenar y aprender. Si se vuelve una máquina de autoacusación deja de cumplir su fin, y la tradición misma advierte contra la tristeza que paraliza."},
+    {"t": "Llevar un registro y trabajar un rasgo por vez se parece a técnicas conocidas de la psicología.", "r": "b", "e": "Se parece al automonitoreo de las terapias conductuales y a la fijación de un objetivo único. Es una coincidencia de forma: no prueba que el musar funcione en términos clínicos."},
+    {"t": "Si tenés tendencia a la autoexigencia, este tipo de ejercicio te va a ayudar igual.", "r": "a", "e": "Puede empeorar las cosas, sobre todo con perfeccionismo, depresión o pensamientos obsesivos. En ese caso conviene hacerlo con acompañamiento, o no hacerlo."}
+  ]);
+  LAB.quiz("lojong-mitos", [
+    {"t": "«Echá todas las culpas a uno solo» significa que todo es culpa tuya.", "r": "a", "e": "Los comentarios lo leen como una invitación a soltar la actitud de defenderse siempre y mirar la propia reacción. No pretende que una persona herida se declare responsable de lo que otros le hicieron."},
+    {"t": "Hay que ser budista para probar el lojong.", "r": "a", "e": "Es una práctica religiosa dentro del budismo tibetano, y quien la vive así merece respeto. Algunas ideas, como la gratitud o la mirada sobre el apego a uno mismo, pueden tomarse como reflexión, sabiendo de dónde vienen."},
+    {"t": "Las 59 consignas tienen una única traducción correcta.", "r": "a", "e": "Las traducciones varían bastante y cada comentarista las interpreta a su modo, desde Jamgön Kongtrül hasta Trungpa o Pema Chödrön."},
+    {"t": "El objetivo del lojong es anularse o despreciarse.", "r": "a", "e": "Los maestros aclaran que la autoestima rota no es el objetivo. Se entrena una actitud que ponga a los demás al menos a la par."},
+    {"t": "Usar una consigna para no sentir algo es una forma de bypass espiritual.", "r": "b", "e": "John Welwood describió el bypass espiritual como usar lo espiritual para esquivar asuntos emocionales. Con el lojong, el riesgo es apurarse a agradecer o a estar alegre sin haber sentido primero."},
+    {"t": "Los programas de compasión inspirados en el lojong ya están firmemente probados.", "r": "a", "e": "Una revisión de 2017 (Kirby, Tellegen y Steindl) halló efectos moderados en algunas medidas, junto con muestras chicas y comparaciones débiles. El panorama es alentador y preliminar, y lo estudiado es la versión secular, no el lojong tradicional."},
+    {"t": "Si una consigna te hace sentir peor, la estás haciendo mal.", "r": "a", "e": "Puede ser una señal legítima de que no es el momento. Con duelo reciente, trauma o autoculpa intensa, conviene hacerlo con acompañamiento o dejarlo."}
+  ]);
+  LAB.quiz("epicureo-mitos", [
+    {"t": "El epicureísmo consiste en darse todos los gustos.", "r": "a", "e": "Epicuro hablaba de un placer que se alcanza con poco: la ausencia de dolor y de perturbación. Advertía que muchos placeres traen más pena que gozo. El uso moderno de «epicúreo» como sinónimo de glotón lo deformó."},
+    {"t": "Epicuro daba a la amistad un lugar central.", "r": "b", "e": "Entre sus Máximas capitales dice que, de todo lo que la sabiduría procura para la vida entera, lo más grande es la posesión de la amistad. El Jardín era una comunidad de amigos."},
+    {"t": "Todos los deseos son igual de peligrosos.", "r": "a", "e": "Distinguía tres clases. Los naturales y necesarios son sanos y fáciles de cubrir; los vanos, sin medida natural, son los que inquietan."},
+    {"t": "El tetrafármaco está comprobado como tratamiento de la ansiedad.", "r": "a", "e": "Es una fórmula filosófica antigua, conocida por un papiro de Filodemo. Se parece en la forma a técnicas de reestructuración de miedos, pero no se estudió como tratamiento y no reemplaza una consulta."},
+    {"t": "Según Epicuro, no hay razón para temerle a la muerte.", "r": "b", "e": "Es su argumento: cuando estamos nosotros no está ella, y cuando ella está ya no estamos. Es un argumento que se discute hasta hoy, y no todas las personas lo sienten consolador."},
+    {"t": "La ataraxia es no sentir nada.", "r": "a", "e": "Es sosiego, ausencia de perturbación evitable. No pide anular emociones ni negar el dolor, y no se alcanza de una vez para siempre."},
+    {"t": "Las relaciones cercanas se asocian con mejor salud y menor mortalidad.", "r": "b", "e": "El metaanálisis de Holt-Lunstad y colaboradores (2010) encontró asociación entre relaciones sociales sólidas y menor mortalidad. Es una asociación de estudios observacionales, y no demuestra que el Jardín funcionara."}
+  ]);
+  /* Ubuntu */
+  var OPS_UBUNTU = ["Apoyo mutuo", "Presión comunitaria", "Ninguno de los dos"];
+  LAB.quiz("ubuntu-apoyo-presion", [
+    {"sinComillas": true, "t": "Los vecinos de una cuadra se turnan para llevar comida a una familia cuyo hijo está internado.", "ops": OPS_UBUNTU, "r": 0, "e": "Es apoyo mutuo: se da hoy porque mañana puede tocar recibir. Reciprocidad que no es inmediata ni idéntica."},
+    {"sinComillas": true, "t": "Una joven quiere estudiar en otra ciudad y la familia le dice que si se va deja mal parados a todos.", "ops": OPS_UBUNTU, "r": 1, "e": "La pertenencia se usa para frenar una decisión propia. Es presión comunitaria, aunque venga con afecto."},
+    {"sinComillas": true, "t": "Un grupo de amigas organiza una colecta para pagar el tratamiento de una de ellas.", "ops": OPS_UBUNTU, "r": 0, "e": "Es apoyo mutuo, con una necesidad real y una respuesta compartida."},
+    {"sinComillas": true, "t": "Un dirigente pide a los vecinos aguantar los cortes de agua en nombre de «la unidad», sin dar explicaciones.", "ops": OPS_UBUNTU, "r": 1, "e": "Es el uso político que señalaron críticos como Matolino y Kwindingwi: invocar la armonía para pedir sacrificios sin rendir cuentas."},
+    {"sinComillas": true, "t": "Una persona decide mudarse sola a otro país después de hablarlo con su familia, que no está de acuerdo pero la acompaña.", "ops": OPS_UBUNTU, "r": 2, "e": "Hay una decisión propia y un vínculo que sigue. Ni presión ni apoyo pleno: pertenecer y elegir pueden convivir."},
+    {"sinComillas": true, "t": "En una familia, nadie habla del maltrato de un tío para no romper la unidad.", "ops": OPS_UBUNTU, "r": 1, "e": "La unidad se usa para tapar un daño. Pertenecer no obliga a callar el maltrato."},
+    {"sinComillas": true, "t": "Una mujer le pide a su hermana que la acompañe a un trámite difícil, y la hermana la acompaña sin hacer preguntas.", "ops": OPS_UBUNTU, "r": 0, "e": "Pedir y recibir ayuda es parte de la reciprocidad. Pedir también es una forma de pertenecer."}
+  ]);
+  LAB.quiz("ubuntu-mitos", [
+    {"t": "Ubuntu es un concepto de toda África.", "r": "a", "e": "Viene de las lenguas nguni del sur de África. El continente tiene más de cincuenta países y miles de lenguas, y hablar de «psicología africana» en singular es una simplificación."},
+    {"t": "El proverbio umuntu ngumuntu ngabantu se traduce como «una persona es persona a través de otras personas».", "r": "b", "e": "Es la traducción más citada, que Desmond Tutu popularizó en el mundo."},
+    {"t": "El ubuntu es una teoría psicológica con validación empírica.", "r": "a", "e": "Es una filosofía de la persona, con una larga discusión académica. Sirve como hipótesis, no como dato."},
+    {"t": "Para Ifeanyi Menkiti, la condición de persona se alcanza a lo largo de la vida.", "r": "b", "e": "Lo sostuvo en 1984, con la idea de que se llega a ser persona con ritos y con responsabilidades hacia la comunidad."},
+    {"t": "Pensadores africanos criticaron el uso del ubuntu como consigna.", "r": "b", "e": "Matolino y Kwindingwi (2013), entre otros, advirtieron que puede tapar desigualdades y pedir sacrificios injustos."},
+    {"t": "Vivir en comunidad garantiza que nadie quede solo ni sufra.", "r": "a", "e": "Ninguna comunidad es armoniosa por definición. Idealizar es otra forma de no escuchar."},
+    {"t": "Pertenecer a una comunidad obliga a aceptar cualquier cosa del grupo.", "r": "a", "e": "La pertenencia no obliga a callar el maltrato ni a anular lo propio. Gyekye propuso un comunitarismo moderado que conserva la capacidad de elegir."},
+    {"t": "Los lazos sociales importan para la salud.", "r": "b", "e": "Un metaanálisis de Holt-Lunstad y colegas (2010) vinculó las relaciones sociales con la supervivencia. No prueba el ubuntu, pero la pregunta por los lazos es seria."}
+  ]);
   if (!LAB) return;
 
   /* Jeong */
