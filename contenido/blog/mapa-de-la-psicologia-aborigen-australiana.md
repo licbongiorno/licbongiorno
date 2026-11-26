@@ -65,16 +65,7 @@ Un detalle de la práctica intercultural: lingüistas y antropólogos describier
 
 ## Quiénes escriben esta psicología
 
-**Pat Dudgeon**, del pueblo bardi, del norte de Australia Occidental, es profesora de la Universidad de Australia Occidental y se la reconoce como la primera psicóloga aborigen del país. Editó *Working Together* junto con Helen Milroy y Roz Walker, y participó en la fundación, en 2008, de la Asociación Australiana de Psicólogos Indígenas. Su trabajo une investigación sobre salud mental y suicidio con una pregunta de fondo: cómo formar más profesionales indígenas y cómo hacer que la profesión atienda con seguridad cultural. Durante mucho tiempo la psicología sobre los pueblos aborígenes la hicieron otros.
-
-## Un ejercicio para orientarte
-
-Si querés usar una palabra de esta tradición en algún texto o conversación, probá con estas preguntas:
-
-1. ¿De qué pueblo y de qué lugar viene? Si no lo sé, ¿estoy hablando de «los aborígenes» en general?
-2. ¿Quién la hizo pública y con qué autoridad? ¿Lo estoy citando con su nombre?
-3. ¿Es una cosmovisión, un marco de salud, un concepto clínico o un método?
-4. ¿Qué estoy prometiendo con ella, y qué evidencia lo sostiene?
+**Pat Dudgeon**, del pueblo bardi, del norte de Australia Occidental, es profesora de la Universidad de Australia Occidental y se la suele presentar como la primera psicóloga aborigen del país. Editó *Working Together* junto con Helen Milroy y Roz Walker, y participó en la fundación, en 2008, de la Asociación Australiana de Psicólogos Indígenas. Su trabajo une investigación sobre salud mental y suicidio con una pregunta de fondo: cómo formar más profesionales indígenas y cómo hacer que la profesión atienda con seguridad cultural. Durante mucho tiempo la psicología sobre los pueblos aborígenes la hicieron otros.
 
 ## Qué tiene respaldo y qué no
 
@@ -101,10 +92,6 @@ No. Es una forma de escucha y de espera propia de pueblos del río Daly, con un 
 ### ¿Los aborígenes y los isleños del Estrecho de Torres son el mismo pueblo?
 
 No. Los isleños del Estrecho de Torres tienen raíces melanesias, su propia historia y sus costumbres (*Ailan Kastom*). Los textos de salud los nombran juntos y por separado.
-
-### ¿Por dónde empiezo?
-
-Si te interesa la clínica, por el bienestar social y emocional y las Generaciones Robadas. Si te interesa la historia, por *Bringing Them Home* y por Pat Dudgeon. Si te interesan las ideas, por Country, con mucho cuidado.
 
 ## Para seguir
 

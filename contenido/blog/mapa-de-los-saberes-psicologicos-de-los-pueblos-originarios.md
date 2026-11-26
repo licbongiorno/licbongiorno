@@ -75,25 +75,16 @@ Esta parte es la que más investigación académica tiene, y está escrita en gr
 Los tres países ratificaron el Convenio 169 de la OIT, y en la práctica avanzaron de modos distintos.
 
 - **Bolivia** tiene la política de Salud Familiar Comunitaria Intercultural (SAFCI, desde 2008) y la Ley 459 de Medicina Tradicional Ancestral (2013), que reconoce a las y los médicos tradicionales, como los kallawaya.
-- **Chile** sancionó en 2012 la Ley 20.584, que reconoce el derecho de las personas indígenas a una atención con pertinencia cultural. Existe un programa de salud y pueblos indígenas desde fines de los años noventa, y el hospital Makewe-Pelale funciona en la Araucanía con participación mapuche.
+- **Chile** sancionó en 2012 la Ley 20.584, que reconoce el derecho de las personas indígenas a una atención con pertinencia cultural. Existe un programa de salud y pueblos indígenas desde mediados de los años noventa, y el hospital Makewe-Pelale funciona en la Araucanía con participación mapuche.
 - **Argentina** reconoció en 1994 la preexistencia de los pueblos indígenas, y hay experiencias locales en provincias con población indígena numerosa, con alcance desigual.
 
 Los balances críticos advierten que la interculturalidad se queda a veces en un adorno, sin cambiar quién decide. La pedagoga Catherine Walsh habla de una interculturalidad crítica, que cuestiona las desigualdades y no solo reconoce la diferencia.
 
 ## Qué hizo la psicología con todo esto
 
-La relación fue desigual. Georges Devereux, psicoanalista y antropólogo, estudió en el siglo XX el sufrimiento entre los mohave y otros pueblos, y mostró que las categorías diagnósticas están atravesadas por la cultura. Arthur Kleinman propuso en *Patients and Healers in the Context of Culture* (1980) los «modelos explicativos» de la enfermedad, que ayudan a un clínico a preguntar cómo entiende la persona lo que le pasa. En 1925, [Carl Gustav Jung](/recursos/carl-gustav-jung/) visitó el pueblo de Taos y conversó con Ochwiay Biano, un hombre del pueblo, un encuentro que cuenta en sus memorias y que la crítica leyó también como una proyección de sus propias ideas.
+La relación fue desigual. Georges Devereux, psicoanalista y antropólogo, estudió en el siglo XX el sufrimiento entre los mohave y otros pueblos, y mostró que las categorías diagnósticas están atravesadas por la cultura. Arthur Kleinman propuso en *Patients and Healers in the Context of Culture* (1980) los «modelos explicativos» de la enfermedad, que ayudan a un clínico a preguntar cómo entiende la persona lo que le pasa.
 
 Desde América Latina, [Ignacio Martín-Baró](/recursos/ignacio-martin-baro/) propuso una psicología de la liberación que parte de la realidad de las mayorías, y [Maritza Montero](/recursos/maritza-montero-y-la-psicologia-comunitaria/) desarrolló la psicología comunitaria. Ninguno hizo una psicología indígena, pero ambos abrieron un camino para escuchar sin imponer.
-
-## Un ejercicio para orientarte
-
-Pensá una palabra o práctica «ancestral» que te haya llegado (un ritual, un amuleto, una frase sobre la Madre Tierra) y respondé por escrito:
-
-1. ¿De qué pueblo viene, y quién la cuenta: una persona de ese pueblo o alguien ajeno?
-2. ¿Qué es: una cosmovisión, una ceremonia, un concepto de investigación, un producto?
-3. ¿Qué te prometen con ella, y qué evidencia sostendría esa promesa?
-4. ¿Qué pasaría si, en vez de usarla, escucharas a quienes la viven?
 
 ## Qué tiene respaldo y qué no
 
@@ -108,10 +99,6 @@ Si estás pasando por un momento difícil, ninguna tradición ni ninguna prácti
 ### ¿Existe una «psicología de los pueblos originarios»?
 
 No como una sola. Hay pueblos con sus propias formas de entender la persona, el sufrimiento y el cuidado, y también psicólogas y psicólogos indígenas que trabajan en la academia. Cada pueblo habla por sí mismo.
-
-### ¿El buen vivir es una teoría del bienestar?
-
-Es un principio de vida de algunos pueblos (sumak kawsay, suma qamaña, küme mongen, teko porã) y también una consigna política. No es una escala de bienestar ni un tratamiento.
 
 ### ¿El susto es una enfermedad?
 

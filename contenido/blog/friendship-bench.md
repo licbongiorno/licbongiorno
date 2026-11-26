@@ -47,7 +47,7 @@ El estudio previo del mismo grupo, un piloto de 2011 sobre terapia de resolució
 
 ## La expansión
 
-Desde entonces el programa creció en Zimbabue, donde atiende a un número grande de personas en muchos centros de salud. Se lo adaptó a otros países de África, como Malaui, y se probaron versiones para adolescentes y con apoyo digital, por mensajes de texto. En 2019 se llevó una adaptación a Nueva York, con abuelas entrenadas como consejeras en barrios de esa ciudad. Chibanda lo contó en una charla TED, que ayudó a que la historia se conociera mucho más allá del mundo académico.
+Desde entonces el programa creció en Zimbabue, donde atiende a un número grande de personas en muchos centros de salud. Se lo adaptó a otros países de África, como Malaui, y se probaron versiones para adolescentes y con apoyo digital, por mensajes de texto. Más tarde se llevó una adaptación a Nueva York, con abuelas entrenadas como consejeras en barrios de esa ciudad. Chibanda lo contó en una charla TED, que ayudó a que la historia se conociera mucho más allá del mundo académico.
 
 Con la fama aparecieron también preguntas serias. Una adaptación a otro país no trae necesariamente los mismos resultados: cambian el idioma, el estigma, la relación con la familia y con los servicios de salud. Los programas de este tipo dependen de que haya capacitación, supervisión y un sistema al que derivar, y esas condiciones cuestan. Y queda abierto un debate sobre el trabajo de las voluntarias: cuánto se les pide, qué se les paga y si es justo apoyar un sistema de salud sobre mujeres mayores con poca remuneración. Que el programa funcione no vuelve irrelevante esa pregunta.
 

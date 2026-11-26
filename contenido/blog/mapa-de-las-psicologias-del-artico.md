@@ -17,11 +17,9 @@ revision: 2026-11-27
 
 ## Un criterio para ordenar
 
-El Ártico reúne a pueblos con lenguas e historias muy distintas. Los **inuit** viven en Groenlandia, el norte de Canadá y Alaska. Los **sami** habitan Sápmi, la región del norte de Noruega, Suecia, Finlandia y la península de Kola, en Rusia. Los **yupik** viven en el suroeste de Alaska y en el extremo oriental de Rusia. Decir «psicología ártica» en singular es una comodidad y no una categoría.
+El Ártico reúne a pueblos con lenguas e historias muy distintas. Los **inuit** viven en Groenlandia, el norte de Canadá y Alaska. Los **sami** habitan Sápmi, la región del norte de Noruega, Suecia, Finlandia y la península de Kola, en Rusia. Los **yupik** viven en el suroeste de Alaska y en el extremo oriental de Rusia. 
 
-Ante cada idea conviene preguntar qué tipo de cosa es. Un **valor o concepto cultural** describe cómo un pueblo piensa la mente y la convivencia, y no fue diseñado como psicología. Una **etnografía** es la descripción de un observador externo, con sus límites. Un **cuadro clínico o cultural** es algo que médicos y psicólogos registraron, y hay que preguntar quién lo registró y cómo. Una **práctica religiosa o artística** tiene su propio sentido, que no es terapéutico. Y un **programa comunitario** puede evaluarse, aunque sea con métodos modestos.
-
-Mezclar los niveles produce dos errores: idealizar a los pueblos del Norte como depositarios de una armonía perdida, o tratar su sufrimiento como «cultural» y no como consecuencia de políticas concretas.
+Ante cada idea conviene preguntar qué tipo de cosa es. Un **valor o concepto cultural** describe cómo un pueblo piensa la mente y la convivencia, y no fue diseñado como psicología. Una **etnografía** es la descripción de un observador externo, con sus límites. Un **cuadro clínico o cultural** es algo que médicos y psicólogos registraron, y hay que preguntar quién lo registró y cómo. Y un **programa comunitario** puede evaluarse, aunque sea con métodos modestos.
 
 ## Los inuit: valores, mente y enojo
 
@@ -35,7 +33,7 @@ La antropóloga **Jean Briggs** pasó unos diecisiete meses entre 1963 y 1965 co
 
 A fines del siglo XIX, exploradores y médicos de expediciones occidentales describieron entre los inuit del noroeste de Groenlandia episodios breves de agitación o desorientación que llamaron *pibloktoq* o «histeria ártica». Durante décadas figuró en la literatura de síndromes ligados a la cultura, y se propusieron explicaciones tan diversas como un déficit de calcio o un exceso de vitamina A, ninguna establecida.
 
-En 1995, el historiador **Lyle Dick** revisó los registros y mostró que provenían casi todos de relatos de exploradores, con muy pocas observaciones médicas directas, y que el rótulo proyectaba prejuicios europeos sobre la «histeria». No prueba que esos episodios no hayan ocurrido, pero muestra que la categoría se construyó con fuentes frágiles y en una relación de poder. Es una buena lección para toda la serie: antes de aceptar un «síndrome cultural», conviene preguntar quién lo describió y desde dónde. Algo parecido pasa con otros cuadros de los viejos manuales, como el *kayak angst* groenlandés, hoy casi sin investigación. Para la discusión general sobre cuadros de este tipo, ver [ataque de nervios](/recursos/ataque-de-nervios/) y [dhat y síndromes culturales de la India](/recursos/dhat-y-sindromes-culturales-de-la-india/).
+En 1995, el historiador **Lyle Dick** revisó los registros y mostró que provenían casi todos de relatos de exploradores, con muy pocas observaciones médicas directas, y que el rótulo proyectaba prejuicios europeos sobre la «histeria». No prueba que esos episodios no hayan ocurrido, pero muestra que la categoría se construyó con fuentes frágiles y en una relación de poder. Algo parecido pasa con otros cuadros de los viejos manuales, como el *kayak angst* groenlandés, hoy casi sin investigación. Para la discusión general sobre cuadros de este tipo, ver [ataque de nervios](/recursos/ataque-de-nervios/) y [dhat y síndromes culturales de la India](/recursos/dhat-y-sindromes-culturales-de-la-india/).
 
 Hay también experiencias con investigación más actual. Law y Kirmayer (2005) estudiaron cómo inuit del Canadá ártico entienden la parálisis del sueño (*uqumangirniq*), y vieron que las explicaciones espirituales y las médicas convivían.
 
@@ -86,10 +84,6 @@ Ninguna tradición ni programa comunitario reemplaza una evaluación profesional
 ### ¿Existe una «psicología ártica»?
 
 No como un bloque. Existen valores y conceptos de los pueblos inuit, sami y yupik, etnografías, programas comunitarios de prevención y una historia de colonización que afectó la salud mental. Cada pueblo tiene su lengua y su historia.
-
-### ¿La «histeria ártica» fue real?
-
-Hubo episodios de agitación registrados por exploradores y médicos, pero la crítica de Lyle Dick (1995) mostró que las fuentes eran frágiles y que la categoría proyectaba prejuicios coloniales. Hoy se la usa con mucha cautela.
 
 ### ¿Qué es el Qungasvik?
 

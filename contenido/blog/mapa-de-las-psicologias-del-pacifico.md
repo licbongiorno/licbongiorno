@@ -17,9 +17,9 @@ Si buscás «hoʻoponopono» en internet, lo más probable es que aparezca una f
 
 ## Un criterio, y un aviso
 
-El Pacífico no es una cultura. Filipinas, Hawái, Aotearoa Nueva Zelanda, Samoa y Fiyi tienen lenguas, historias y religiones diferentes. Lo que las une, para este mapa, es una pregunta que se repite: cómo se piensa a la persona cuando no se la separa de su familia, su tierra y sus antepasados. Y un dato de historia que no se puede dejar afuera, la colonización, que moldeó tanto la salud de esos pueblos como la manera en que se estudió su mente.
+El Pacífico no es una cultura. Filipinas, Hawái, Aotearoa Nueva Zelanda, Samoa y Fiyi tienen lenguas, historias y religiones diferentes. Lo que las une, para este mapa, es una pregunta que se repite: cómo se piensa a la persona cuando no se la separa de su familia, su tierra y sus antepasados. A eso se suma la colonización, que moldeó tanto su salud como la manera en que se estudió su mente.
 
-Para no mezclar, conviene preguntar ante cada idea qué tipo de cosa es. Un **concepto cultural** nombra algo que la gente vive y dice en su lengua, como *kapwa* o *mana*. Un **modelo de salud** es un esquema para ordenar la evaluación y las políticas, como *Te Whare Tapa Whā*. Una **práctica tradicional** es un hacer con su propio contexto, como el hoʻoponopono familiar. Un **movimiento académico** propone teorías y métodos, como la psicología filipina o la investigación Kaupapa Māori. Y un **producto** es algo que viajó a otro mercado y cambió en el camino.
+Para no mezclar, conviene preguntar ante cada idea qué tipo de cosa es. Un **concepto cultural** nombra algo que la gente vive y dice en su lengua, como *kapwa* o *mana*. Un **modelo de salud** es un esquema para ordenar la evaluación y las políticas, como *Te Whare Tapa Whā*. Una **práctica tradicional** es un hacer con su contexto, como el hoʻoponopono familiar. Un **movimiento académico** propone teorías y métodos, como la psicología filipina. Y un **producto** viajó a otro mercado y cambió en el camino.
 
 ## Filipinas: la Sikolohiyang Pilipino
 
@@ -39,15 +39,15 @@ Algunas palabras: **aloha** (amor, compasión; también saludo), **lōkahi** (un
 
 Con el **hoʻoponopono** conviene separar tres cosas.
 
-1. **El tradicional.** Una reunión de familia para «poner en orden» una relación dañada. Un facilitador, a menudo un anciano, guía una secuencia de oración, planteo del problema, confesión, perdón recíproco y cierre, tras lo cual el tema no se vuelve a mencionar. Pukui y sus colegas lo documentaron como práctica comunitaria. Tiene elementos religiosos, entre ellos influencias cristianas, y no se hacía a solas.
-2. **El de Morrnah Simeona.** Simeona (1913-1992) lo adaptó en los años setenta a una práctica individual que llamó *Self I-Dentity Through Hoʻoponopono*. Es una creación personal con base en la tradición, y algunos hawaianos objetaron que la separara de la familia y del contexto.
+1. **El tradicional.** Una reunión de familia para «poner en orden» una relación dañada. Un facilitador, a menudo un anciano, guía una secuencia de oración, planteo del problema, confesión, perdón recíproco y cierre, tras lo cual el tema no se vuelve a mencionar. Pukui y sus colegas lo documentaron como práctica comunitaria, con elementos religiosos, y no se hacía a solas.
+2. **El de Morrnah Simeona.** Simeona (1913-1992) lo adaptó en los años setenta a una práctica individual que llamó *Self I-Dentity Through Hoʻoponopono*. Algunos hawaianos objetaron que la separara de la familia y del contexto.
 3. **El comercial de Hew Len.** Ihaleakala Hew Len, colaborador de Simeona, difundió con Joe Vitale en *Zero Limits* (2007) la repetición mental de cuatro frases. Esas frases no están en lo que registró Pukui. El libro cuenta además que Hew Len habría ayudado a pacientes de un pabellón psiquiátrico sin tratarlos, relato que nadie verificó de manera independiente. No hay ensayos clínicos de esta práctica.
 
-Si te interesa el perdón o la reconciliación, la versión tradicional ofrece algo que la de autoayuda no tiene: otras personas presentes, con nombre y apellido. Prometer con una frase repetida que se cura un trauma o una enfermedad es engañoso, y para el riesgo de usar prácticas espirituales para evitar lo difícil, ver [el bypass espiritual](/recursos/bypass-espiritual/).
+Si te interesa el perdón o la reconciliación, la versión tradicional ofrece algo que la de autoayuda no tiene: otras personas presentes, con nombre y apellido. Prometer con una frase repetida que se cura un trauma es engañoso; sobre el riesgo de evitar lo difícil con prácticas espirituales, ver [el bypass espiritual](/recursos/bypass-espiritual/).
 
 ## Maoríes: Te Whare Tapa Whā y Te Pae Mahutonga
 
-En Aotearoa Nueva Zelanda, el psiquiatra **Mason Durie**, de ascendencia Ngāti Kauwhata, Rangitāne y Ngāti Raukawa, propuso en 1984 el modelo **Te Whare Tapa Whā** («la casa de cuatro lados»), desarrollado luego en *Whaiora: Māori Health Development* (1994). La casa tiene cuatro paredes, *taha tinana* (cuerpo), *taha wairua* (espíritu), *taha hinengaro* (mente y emociones) y *taha whānau* (familia), y un suelo, la *whenua* (la tierra). Si una pared falla, la casa se resiente. En 1999 Durie sumó **Te Pae Mahutonga** («la Cruz del Sur»), un modelo de promoción de la salud con cuatro estrellas (identidad cultural, ambiente físico, estilos de vida y participación en la sociedad) y dos «guías» (autonomía y liderazgo).
+En Aotearoa Nueva Zelanda, el psiquiatra **Mason Durie**, de ascendencia Ngāti Kauwhata, Rangitāne y Ngāti Raukawa, propuso a comienzos de los años ochenta (suele citarse 1984) el modelo **Te Whare Tapa Whā** («la casa de cuatro lados»), desarrollado luego en *Whaiora: Māori Health Development* (1994). La casa tiene cuatro paredes, *taha tinana* (cuerpo), *taha wairua* (espíritu), *taha hinengaro* (mente y emociones) y *taha whānau* (familia), y un suelo, la *whenua* (la tierra). Si una pared falla, la casa se resiente. En 1999 Durie sumó **Te Pae Mahutonga** («la Cruz del Sur»), un modelo de promoción de la salud con cuatro estrellas (identidad cultural, ambiente físico, estilos de vida y participación en la sociedad) y dos «guías» (autonomía y liderazgo).
 
 Son marcos conceptuales de uso muy extendido en el sistema de salud neozelandés. Lo que ofrecen es un lenguaje propio y una lista de cosas que mirar, no una teoría validada con medidas sistemáticas, y conviene decirlo.
 
@@ -59,22 +59,13 @@ Sobre los datos: la encuesta nacional de salud mental *Te Rau Hinengaro* (2006) 
 
 ## Samoa y Fiyi: Fonofale, vā y vanua
 
-El modelo **Fonofale** lo creó Fuimaono Karl Pulotu-Endemann, profesional de salud mental samoano en Nueva Zelanda, y lo presentó a mediados de los años ochenta. Usa la casa samoana, *fale*: el suelo es la familia (*aiga*), el techo es la cultura, los cuatro pilares son lo espiritual, lo físico, lo mental y «otros» factores (género, orientación sexual, nivel socioeconómico), y alrededor están el ambiente, el tiempo y el contexto. Se usa en servicios para personas de las islas del Pacífico en Nueva Zelanda. Como *Te Whare Tapa Whā*, es una guía para ordenar la conversación y no una teoría probada.
+El modelo **Fonofale** lo creó Fuimaono Karl Pulotu-Endemann, profesional de salud mental samoano en Nueva Zelanda, y lo elaboró en 1984, aunque se publicó en documentos oficiales recién en los años noventa. Usa la casa samoana, *fale*: el suelo es la familia (*aiga*), el techo es la cultura, los cuatro pilares son lo espiritual, lo físico, lo mental y «otros» factores (género, orientación sexual, nivel socioeconómico), y alrededor están el ambiente, el tiempo y el contexto. Se usa en servicios para personas de las islas del Pacífico en Nueva Zelanda. Como *Te Whare Tapa Whā*, es una guía para ordenar la conversación y no una teoría probada.
 
 Dos conceptos acompañan: **vā**, el espacio de relación entre las personas, que hay que cuidar con respeto (Melani Anae lo tomó como principio de investigación), y **vanua**, en Fiyi, la unidad de tierra, gente y costumbres que Unaisi Nabobo-Baba desarrolló en *Knowing and Learning* (2006). Ayudan a entender por qué el desarraigo y el duelo por la tierra pesan tanto. Sobre ese tema, ver [el duelo migratorio](/recursos/duelo-migratorio/).
 
 ## Qué hay de común
 
-En todos estos proyectos aparecen tres movimientos. El primero es pensar a la persona en relación: *kapwa*, *ʻohana*, *whānau*, *vā*. El segundo es incluir lo espiritual y lo territorial dentro de la salud, y no como un agregado: *wairua*, *lōkahi*, *vanua*. El tercero es el reclamo de que la psicología se haga con la gente y no sobre ella. Es una discusión que también atraviesa a otras regiones; ver [oriente y occidente: psicología cultural](/recursos/oriente-y-occidente-psicologia-cultural/) y, en otro continente, el [mapa de la psicología coreana](/recursos/mapa-de-la-psicologia-coreana/), donde el *jeong* ocupa un lugar parecido al de *kapwa*.
-
-## Un ejercicio para orientarte
-
-Pensá un concepto de estas tradiciones que te haya llegado por una red social o un curso, y respondé por escrito:
-
-1. ¿Qué tipo de cosa es: un concepto cultural, un modelo de salud, una práctica tradicional, un producto?
-2. ¿De qué persona, pueblo y época viene? ¿Quién lo documentó?
-3. ¿Qué te prometen con él, y qué evidencia lo sostendría?
-4. ¿Qué parte de lo que recibiste conserva su contexto (familia, lengua, comunidad) y qué parte quedó reducida a una frase?
+En todos estos proyectos aparecen tres movimientos. El primero es pensar a la persona en relación: *kapwa*, *ʻohana*, *whānau*, *vā*. El segundo es incluir lo espiritual y lo territorial dentro de la salud, y no como un agregado: *wairua*, *lōkahi*, *vanua*. El tercero es el reclamo de que la psicología se haga con la gente y no sobre ella. Ver [oriente y occidente: psicología cultural](/recursos/oriente-y-occidente-psicologia-cultural/) y el [mapa de la psicología coreana](/recursos/mapa-de-la-psicologia-coreana/), donde el *jeong* ocupa un lugar parecido al de *kapwa*.
 
 ## Qué tiene respaldo y qué no
 
@@ -97,14 +88,6 @@ Como práctica familiar tradicional está documentada y sigue en uso en algunos 
 ### ¿Qué es Te Whare Tapa Whā?
 
 Un modelo de salud de Mason Durie con cuatro paredes (cuerpo, espíritu, mente y emociones, familia) sobre el suelo de la tierra. Sirve para pensar el bienestar de forma integral, pero es un marco conceptual y no un tratamiento.
-
-### ¿Puedo usar estos conceptos en terapia?
-
-Se pueden tomar como ideas para pensar la propia historia. Si pertenecen a una cultura que no es la tuya, conviene hacerlo con respeto y sin presentarlos como propios ni como técnicas milagrosas.
-
-### ¿Por dónde empiezo si no conozco nada?
-
-Si te interesa la clínica y la cultura, por *kapwa* y *hiya*. Si te interesa la salud integral, por *Te Whare Tapa Whā*. Si te atrajo el hoʻoponopono, por la versión de Pukui.
 
 ## Para seguir
 

@@ -2,14 +2,14 @@
 titulo: Te Whare Tapa Whā: la casa de cuatro paredes de Mason Durie
 titulo_seo: Te Whare Tapa Whā: el modelo de salud maorí de Durie
 descripcion: Qué es Te Whare Tapa Whā, el modelo maorí de Mason Durie: cuerpo, mente y emociones, familia y espíritu, su uso en Nueva Zelanda y sus límites.
-resumen: El modelo de salud maorí en forma de casa, propuesto por Mason Durie en 1984: sus cuatro paredes, la tierra como cimiento, su lugar en el sistema de salud de Nueva Zelanda y qué es (y qué no es) como evidencia.
+resumen: El modelo de salud maorí en forma de casa, propuesto por Mason Durie a comienzos de los años ochenta: sus cuatro paredes, la tierra como cimiento, su lugar en el sistema de salud de Nueva Zelanda y qué es (y qué no es) como evidencia.
 categoria: Psicología contemporánea
 palabras_clave: Te Whare Tapa Whā, Mason Durie, salud maorí, taha tinana, taha hinengaro, taha whānau, taha wairua, hauora, Nueva Zelanda, modelos de salud indígenas
 fecha: 2026-11-27
 fecha_visible: noviembre de 2026
 orden: 330
 estado: publicado
-respuesta: Te Whare Tapa Whā («la casa de cuatro lados») es un modelo de salud maorí que el psiquiatra Mason Durie propuso en 1984. Compara la salud con una casa de cuatro paredes: taha tinana (cuerpo), taha hinengaro (mente y emociones), taha whānau (familia) y taha wairua (espíritu), sobre el suelo de la whenua (la tierra). Se usa mucho en la salud y la educación de Nueva Zelanda, como guía conceptual más que como instrumento validado.
+respuesta: Te Whare Tapa Whā («la casa de cuatro lados») es un modelo de salud maorí que el psiquiatra Mason Durie propuso a comienzos de los años ochenta (la fecha que suele citarse es 1984). Compara la salud con una casa de cuatro paredes: taha tinana (cuerpo), taha hinengaro (mente y emociones), taha whānau (familia) y taha wairua (espíritu), sobre el suelo de la whenua (la tierra). Se usa mucho en la salud y la educación de Nueva Zelanda, como guía conceptual más que como instrumento validado.
 menciona:
 revision: 2026-11-27
 ---
@@ -17,7 +17,7 @@ Imaginá una casa con cuatro paredes. Si una se cae o se debilita, la casa enter
 
 ## Quién lo propuso y cuándo
 
-**Mason Durie** nació en 1938 y es psiquiatra, de ascendencia Ngāti Kauwhata, Rangitāne y Ngāti Raukawa (pueblos, o *iwi*, maoríes). Fue durante décadas profesor en la Universidad de Massey y una de las voces principales de la salud maorí en Aotearoa Nueva Zelanda. Presentó el modelo en 1984 y lo desarrolló en publicaciones posteriores, entre ellas un artículo de 1985 en la revista *Social Science & Medicine* («A Māori perspective of health») y el libro *Whaiora: Māori Health Development* (1994).
+**Mason Durie** nació en 1938 y es psiquiatra, de ascendencia Ngāti Kauwhata, Rangitāne y Ngāti Raukawa (pueblos, o *iwi*, maoríes). Fue durante décadas profesor en la Universidad de Massey y una de las voces principales de la salud maorí en Aotearoa Nueva Zelanda. Presentó el modelo a comienzos de los años ochenta (suele citarse 1984) y lo desarrolló en publicaciones posteriores, entre ellas un artículo de 1985 en la revista *Social Science & Medicine* («A Māori perspective of health») y el libro *Whaiora: Māori Health Development* (1994).
 
 El contexto importa. Los maoríes son el pueblo indígena de Nueva Zelanda; el Tratado de Waitangi (*Te Tiriti o Waitangi*, 1840) fijó una relación con la Corona que, en la práctica, fue incumplida durante mucho tiempo. La colonización produjo pérdida de tierras, de lengua y de autoridad sobre la salud. Las estadísticas sanitarias mostraron durante décadas peores resultados para la población maorí. En ese marco, el modelo de Durie funcionó como una manera de decirle al sistema de salud que sus categorías no alcanzaban.
 

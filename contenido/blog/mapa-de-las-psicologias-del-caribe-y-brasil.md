@@ -17,17 +17,13 @@ En 1946, en un hospital psiquiátrico de Engenho de Dentro, en las afueras de R�
 
 ## Un criterio para ordenar
 
-Hablar de «psicología del Caribe» o de «psicología brasileña» en singular es una simplificación: son regiones con idiomas, historias coloniales y religiones distintas. Para no perderse conviene preguntar, ante cada idea, qué tipo de cosa es.
-
 Una **religión viva** es una práctica de personas reales, con su comunidad, sus explicaciones del sufrimiento y sus reglas. No es un síntoma ni un tratamiento, y merece respeto. Un **idioma de malestar** es una manera culturalmente compartida de decir que algo pesa. Un **concepto cultural** es una idea de ensayo, de antropología o de sociología sobre cómo se vive en una sociedad. Y una **experiencia clínica o de salud pública** es una práctica de atención que puede evaluarse con datos, con sus resultados y sus fallas.
-
-Mezclar los niveles produce dos errores: exotizar (tratar estas religiones como magia o rarezas) e idealizar (suponer que toda práctica tradicional cura).
 
 ## Espiritismo en Puerto Rico y la colaboración con la salud mental
 
 El espiritismo de Allan Kardec, que se difundió a partir de *El libro de los espíritus* (1857), llegó a Puerto Rico en la segunda mitad del siglo XIX y echó raíces populares. Su idea central es que los espíritus de personas fallecidas influyen en la vida de los vivos y que algunas personas, los médiums, pueden comunicarse con ellos. En la isla y entre la población puertorriqueña de Estados Unidos hay centros y «mesas blancas» donde se reza, se recibe consejo y se trabaja con los espíritus. Existe también un espiritismo «cruzado», que mezcla elementos afrocaribeños.
 
-Lo interesante para la psicología es que la gente consultaba al espiritista y al médico a la vez. Rogler y Hollingshead lo describieron en un artículo de 1961 titulado «The Puerto Rican spiritualist as a psychiatrist», Alan Harwood estudió en 1977 a los espiritistas como un recurso de salud mental comunitaria en Nueva York, y la antropóloga Joan Koss-Chioino siguió esa línea durante décadas, hasta su libro *Women as Healers, Women as Patients* (1992). Describió, por ejemplo, cómo ciertos síntomas pueden leerse en el espiritismo como señal de «facultades» mediúmnicas por desarrollar, y cómo ese marco ofrece pertenencia, un rol y una explicación que no estigmatiza.
+Lo interesante para la psicología es que la gente consultaba al espiritista y al médico a la vez. Rogler y Hollingshead lo describieron en un artículo de 1961 titulado «The Puerto Rican spiritualist as a psychiatrist», Alan Harwood estudió en 1977 a los espiritistas como un recurso de salud mental comunitaria en Nueva York, y la antropóloga Joan Koss-Chioino siguió esa línea durante décadas, hasta su libro *Women as Healers, Women as Patients* (1992).
 
 Se propusieron formas de colaboración, como la derivación recíproca y el diálogo. Lo que hay son descripciones y experiencias acotadas, y no evidencia sólida de que una colaboración formal mejore los resultados. Las condiciones que se repiten son sencillas: respeto mutuo, no pedirle al espiritista que haga de clínico ni al clínico que adopte las creencias, y claridad sobre cuándo hace falta atención médica o psiquiátrica. Un cuadro cercano, el [ataque de nervios](/recursos/ataque-de-nervios/), está en el glosario latinoamericano. Ver también [psicología de la religión](/recursos/psicologia-de-la-religion/).
 
@@ -67,15 +63,15 @@ La psiquiatría de comienzos del siglo XX miró a estas religiones con prejuicio
 
 ## La reforma psiquiátrica brasileña, los CAPS y la ley Paulo Delgado
 
-A fines de los años setenta, trabajadores de la salud mental brasileños empezaron a denunciar las condiciones de los hospitales psiquiátricos. En 1978 se organizó el Movimiento de los Trabajadores de Salud Mental; en 1979 visitó el país Franco Basaglia, el psiquiatra italiano de la reforma de Trieste; en 1987, el congreso de Bauru adoptó el lema «por una sociedad sin manicomios». Ese mismo año se inauguró en São Paulo el primer Centro de Atención Psicosocial, **CAPS**, y en 1989 la intervención de un hospital privado en Santos fue un hito. Las denuncias sobre el hospital Colônia de Barbacena, que Daniela Arbex relató en *Holocausto brasileiro* (2013), mostraron hasta dónde podía llegar el encierro.
+A fines de los años setenta, trabajadores de la salud mental brasileños empezaron a denunciar las condiciones de los hospitales psiquiátricos. En 1978 se organizó el Movimiento de los Trabajadores de Salud Mental; en 1979 visitó el país Franco Basaglia, el psiquiatra italiano de la reforma de Trieste; en 1987, el congreso de Bauru adoptó el lema «por una sociedad sin manicomios». Ese mismo año se inauguró en São Paulo el primer Centro de Atención Psicosocial, **CAPS**, y en 1989 la intervención de un hospital privado en Santos fue un hito.
 
 El diputado Paulo Delgado presentó en 1989 un proyecto de ley que el Congreso discutió durante doce años. La **ley 10.216**, sancionada el 6 de abril de 2001 en una versión modificada, protege los derechos de las personas con trastornos mentales y dispone que la internación solo se indique cuando los recursos fuera del hospital resulten insuficientes. Los CAPS son hoy más de dos mil: servicios abiertos, de base territorial, que reciben a personas con sufrimiento intenso sin internarlas. Forman parte de una red que incluye residencias terapéuticas y el programa «De Volta para Casa».
 
-Es una política con logros reconocidos y con debates vigentes: la desigual disponibilidad entre regiones, el financiamiento, y las discusiones de los últimos años sobre el papel de las camas psiquiátricas. Para comparar con una experiencia comunitaria de otro continente, ver [Friendship Bench](/recursos/friendship-bench/); para el contexto latinoamericano, [Ignacio Martín-Baró](/recursos/ignacio-martin-baro/).
+Es una política con logros reconocidos y con debates vigentes: la desigual disponibilidad entre regiones, el financiamiento, y las discusiones de los últimos años sobre el papel de las camas psiquiátricas.
 
 ## Saudade, jeitinho y el hombre cordial
 
-Tres ideas brasileñas circulan mucho. La **saudade**, mezcla de nostalgia y añoranza, no es un trastorno; se parece a ciertos aspectos del duelo sin reducirse a ellos. El **jeitinho**, la salida informal a una regla, lo analizó Lívia Barbosa en 1992. El **hombre cordial** lo propuso Sérgio Buarque de Holanda en *Raízes do Brasil* (1936): «cordial» viene de *cor*, corazón, no de amabilidad. Son ensayos y ciencias sociales: usarlos para describir a cada brasileño sería un estereotipo. Ver [el duelo migratorio](/recursos/duelo-migratorio/).
+Tres ideas brasileñas circulan mucho. La **saudade**, mezcla de nostalgia y añoranza, no es un trastorno; se parece a ciertos aspectos del duelo sin reducirse a ellos. El **hombre cordial** lo propuso Sérgio Buarque de Holanda en *Raízes do Brasil* (1936): «cordial» viene de *cor*, corazón, no de amabilidad. Son ensayos y ciencias sociales: usarlos para describir a cada brasileño sería un estereotipo. Ver [el duelo migratorio](/recursos/duelo-migratorio/).
 
 ## Qué tiene respaldo y qué no
 
