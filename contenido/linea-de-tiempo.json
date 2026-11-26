@@ -1,0 +1,1856 @@
+{
+ "eras": [
+  {
+   "id": "antiguedad",
+   "nombre": "Filosofía antigua",
+   "desde": "c. 800 a. C.",
+   "hasta": "500",
+   "desc": "Oriente y Occidente piensan la mente desde la India, China y Grecia."
+  },
+  {
+   "id": "medieval",
+   "nombre": "Edad Media",
+   "desde": "500",
+   "hasta": "1500",
+   "desc": "Medicina y filosofía del alma en el islam, el judaísmo, el Tíbet y Europa."
+  },
+  {
+   "id": "modernidad",
+   "nombre": "Modernidad",
+   "desde": "1500",
+   "hasta": "1800",
+   "desc": "De Descartes a Kant: la razón, la conciencia y el cuerpo."
+  },
+  {
+   "id": "nacimiento",
+   "nombre": "Nace la psicología",
+   "desde": "1800",
+   "hasta": "1914",
+   "desc": "Laboratorios, histeria, tests y los comienzos en Argentina."
+  },
+  {
+   "id": "psicoanalisis",
+   "nombre": "Psicoanálisis y escuelas profundas",
+   "desde": "1895",
+   "hasta": "1961",
+   "desc": "Freud, Jung, Adler, Klein y los psicoanálisis que cruzaron el mundo."
+  },
+  {
+   "id": "conductismo-y-gestalt",
+   "nombre": "Conducta, forma y desarrollo",
+   "desde": "1904",
+   "hasta": "1938",
+   "desc": "Pavlov, Watson, Skinner, Gestalt, Vygotsky y Piaget."
+  },
+  {
+   "id": "humanismo",
+   "nombre": "Humanismo y existencia",
+   "desde": "1923",
+   "hasta": "1975",
+   "desc": "Rogers, Frankl, Maslow, la fenomenología y las psicologías sociales de América Latina."
+  },
+  {
+   "id": "cognitiva-y-sistemica",
+   "nombre": "Mente, familia y vínculo",
+   "desde": "1955",
+   "hasta": "1983",
+   "desc": "Terapia cognitiva, sistémica y teoría del apego."
+  },
+  {
+   "id": "contemporanea",
+   "nombre": "Psicología contemporánea",
+   "desde": "1979",
+   "hasta": "hoy",
+   "desc": "Mindfulness, ACT, DBT, trauma, psicología positiva y psicologías del mundo."
+  },
+  {
+   "id": "ia",
+   "nombre": "Inteligencia artificial",
+   "desde": "1950",
+   "hasta": "hoy",
+   "desc": "De ELIZA a los modelos de lenguaje: promesas y límites."
+  }
+ ],
+ "hitos": [
+  {
+   "anio": -800,
+   "fecha": "c. 800–500 a. C.",
+   "titulo": "Los Upanishads y la pregunta por el ser",
+   "texto": "En la India, los Upanishads distinguen vigilia, sueño y sueño profundo, y se preguntan quién es el que observa. Es una de las primeras cartografías de la conciencia.",
+   "era": "antiguedad",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Mapa de la psicología india",
+     "u": "/recursos/mapa-de-la-psicologia-india/"
+    },
+    {
+     "t": "Glosario",
+     "u": "/glosario-de-psicologia-india/"
+    }
+   ]
+  },
+  {
+   "anio": -500,
+   "fecha": "siglos VI–V a. C.",
+   "titulo": "Confucio y la persona en relación",
+   "texto": "Para Confucio, uno se vuelve persona a través de los vínculos y de la práctica de virtudes como la benevolencia y el respeto. La mirada psicológica es social desde el comienzo.",
+   "era": "antiguedad",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Confucio",
+     "u": "/recursos/confucio-y-la-psicologia/"
+    },
+    {
+     "t": "Laboratorio confuciano de vínculos",
+     "u": "/laboratorio-confuciano-de-vinculos/"
+    }
+   ]
+  },
+  {
+   "anio": -480,
+   "fecha": "siglo V a. C.",
+   "titulo": "Buda y el análisis del sufrimiento",
+   "texto": "Siddhartha Gautama enseña que el sufrimiento tiene causas que se pueden observar y trabajar, y propone un camino de atención y ética. De ahí sale una psicología contemplativa que sigue viva.",
+   "era": "antiguedad",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Buda",
+     "u": "/recursos/buda/"
+    },
+    {
+     "t": "Psicología budista",
+     "u": "/recursos/psicologia-budista/"
+    },
+    {
+     "t": "Laboratorio de meditación",
+     "u": "/laboratorio-de-meditacion/"
+    }
+   ]
+  },
+  {
+   "anio": -450,
+   "fecha": "siglos VI–IV a. C.",
+   "titulo": "El Tao Te Ching y el arte de no forzar",
+   "texto": "El taoísmo, atribuido a Lao Tse, propone fluir con lo que es en lugar de pelearse con ello. Su eco aparece en la terapia contemporánea bajo la forma de la aceptación.",
+   "era": "antiguedad",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Lao Tse",
+     "u": "/recursos/lao-tse/"
+    },
+    {
+     "t": "Taoísmo y psicología",
+     "u": "/recursos/taoismo-y-psicologia/"
+    },
+    {
+     "t": "Laboratorio taoísta",
+     "u": "/laboratorio-taoista/"
+    }
+   ]
+  },
+  {
+   "anio": -420,
+   "fecha": "c. 400 a. C.",
+   "titulo": "Hipócrates y los cuatro humores",
+   "texto": "La medicina hipocrática explica el carácter y la enfermedad por el equilibrio de cuatro humores. La teoría quedó superada, pero dejó la idea de que cuerpo y ánimo se influyen.",
+   "era": "antiguedad",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Hipócrates y Galeno",
+     "u": "/recursos/hipocrates-galeno-y-los-cuatro-humores/"
+    }
+   ]
+  },
+  {
+   "anio": -399,
+   "fecha": "399 a. C.",
+   "titulo": "Sócrates y el diálogo como método",
+   "texto": "Sócrates (muerto en 399 a. C.) investigaba con preguntas, sin dar respuestas hechas. El diálogo socrático es hoy una técnica de la terapia cognitiva.",
+   "era": "antiguedad",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "El diálogo socrático",
+     "u": "/recursos/el-dialogo-socratico/"
+    },
+    {
+     "t": "Laboratorio de diálogo socrático",
+     "u": "/laboratorio-de-dialogo-socratico/"
+    }
+   ]
+  },
+  {
+   "anio": -387,
+   "fecha": "c. 387 a. C.",
+   "titulo": "Platón funda la Academia",
+   "texto": "Platón describe el alma con razón, ánimo y deseo, y la imagina como un carro con dos caballos. Jung leerá en sus ideas un antecedente de los arquetipos.",
+   "era": "antiguedad",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Platón",
+     "u": "/recursos/platon/"
+    },
+    {
+     "t": "Laboratorio de Platón",
+     "u": "/laboratorio-de-platon/"
+    }
+   ]
+  },
+  {
+   "anio": -350,
+   "fecha": "c. 350 a. C.",
+   "titulo": "Aristóteles y «Sobre el alma»",
+   "texto": "Aristóteles estudia el alma como el principio de la vida y trata la memoria, la percepción y la imaginación. Es, en un sentido amplio, el primer tratado de psicología.",
+   "era": "antiguedad",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Aristóteles",
+     "u": "/recursos/aristoteles/"
+    }
+   ]
+  },
+  {
+   "anio": -300,
+   "fecha": "siglo IV a. C.",
+   "titulo": "Zhuangzi y la libertad de las categorías",
+   "texto": "Zhuangzi usa cuentos y paradojas para aflojar la rigidez del juicio. Su famoso sueño de la mariposa pone en duda quién sueña a quién.",
+   "era": "antiguedad",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Zhuangzi",
+     "u": "/recursos/zhuangzi/"
+    },
+    {
+     "t": "Laboratorio de Zhuangzi",
+     "u": "/laboratorio-de-zhuangzi/"
+    }
+   ]
+  },
+  {
+   "anio": -200,
+   "fecha": "siglos III–I a. C.",
+   "titulo": "El Neijing, la medicina china y las emociones",
+   "texto": "El clásico de la medicina china relaciona emociones y órganos, y entiende la salud como armonía entre cuerpo y entorno.",
+   "era": "antiguedad",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Acupuntura y salud mental",
+     "u": "/recursos/acupuntura-y-salud-mental/"
+    },
+    {
+     "t": "La psicología en China",
+     "u": "/recursos/la-psicologia-en-china/"
+    }
+   ]
+  },
+  {
+   "anio": -100,
+   "fecha": "entre el siglo II a. C. y el IV d. C. (fecha discutida)",
+   "titulo": "Patanjali y los Yoga Sutras",
+   "texto": "Los Yoga Sutras describen cómo la mente se agita y cómo se la puede aquietar con práctica y desapego. Es un tratado psicológico antes que un manual de posturas.",
+   "era": "antiguedad",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Patanjali",
+     "u": "/recursos/patanjali/"
+    },
+    {
+     "t": "Laboratorio de los Yoga Sutras",
+     "u": "/laboratorio-de-los-yoga-sutras/"
+    }
+   ]
+  },
+  {
+   "anio": 170,
+   "fecha": "c. 170",
+   "titulo": "Marco Aurelio, Epicteto, Séneca: el estoicismo romano",
+   "texto": "Los estoicos romanos dejaron cartas, discursos y notas personales para entrenar la atención y la serenidad. Marco Aurelio escribe sus Meditaciones hacia el 170.",
+   "era": "antiguedad",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Marco Aurelio",
+     "u": "/recursos/marco-aurelio/"
+    },
+    {
+     "t": "Séneca",
+     "u": "/recursos/seneca/"
+    },
+    {
+     "t": "Laboratorio de Marco Aurelio",
+     "u": "/laboratorio-de-marco-aurelio/"
+    }
+   ]
+  },
+  {
+   "anio": 1025,
+   "fecha": "1025",
+   "titulo": "Avicena y el Canon de medicina",
+   "texto": "Avicena termina el Canon, obra de referencia en Europa y Asia durante siglos, y describe la relación entre emociones y cuerpo.",
+   "era": "medieval",
+   "region": "medio-oriente",
+   "enlaces": [
+    {
+     "t": "Avicena",
+     "u": "/recursos/avicena-y-la-psicologia/"
+    }
+   ]
+  },
+  {
+   "anio": 1095,
+   "fecha": "1095",
+   "titulo": "Al-Ghazali y su crisis espiritual",
+   "texto": "Al-Ghazali, profesor célebre en Bagdad, atraviesa una crisis de sentido, deja su cátedra y relata la salida en un libro autobiográfico.",
+   "era": "medieval",
+   "region": "medio-oriente",
+   "enlaces": [
+    {
+     "t": "Al-Ghazali",
+     "u": "/recursos/al-ghazali-y-la-crisis-espiritual/"
+    },
+    {
+     "t": "Crisis espiritual",
+     "u": "/recursos/crisis-espiritual/"
+    }
+   ]
+  },
+  {
+   "anio": 1150,
+   "fecha": "siglo XII",
+   "titulo": "Lojong: entrenar la mente con compasión",
+   "texto": "En el Tíbet se difunden los lemas del lojong, frases breves para transformar la adversidad. Hoy inspiran prácticas como el tonglen.",
+   "era": "medieval",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Lojong",
+     "u": "/recursos/lojong-entrenamiento-mental-tibetano/"
+    },
+    {
+     "t": "Tonglen",
+     "u": "/recursos/tonglen/"
+    },
+    {
+     "t": "Laboratorio de lojong",
+     "u": "/laboratorio-de-lojong/"
+    }
+   ]
+  },
+  {
+   "anio": 1190,
+   "fecha": "c. 1190",
+   "titulo": "Maimónides, médico y filósofo",
+   "texto": "Maimónides, médico en El Cairo, escribe sobre la salud del cuerpo y del alma, y sobre el equilibrio de las emociones.",
+   "era": "medieval",
+   "region": "medio-oriente",
+   "enlaces": [
+    {
+     "t": "Maimónides",
+     "u": "/recursos/maimonides-y-la-medicina-del-alma/"
+    }
+   ]
+  },
+  {
+   "anio": 1273,
+   "fecha": "1273",
+   "titulo": "Rumi y la psicología sufí",
+   "texto": "Rumi (m. 1273) deja en el Masnavi cuentos sobre el yo (nafs), el corazón y la transformación. El sufismo ordena niveles del yo que recuerdan a los de la psicología moderna.",
+   "era": "medieval",
+   "region": "medio-oriente",
+   "enlaces": [
+    {
+     "t": "Rumi",
+     "u": "/recursos/rumi-y-la-psicologia/"
+    },
+    {
+     "t": "Psicología sufí",
+     "u": "/recursos/psicologia-sufi/"
+    },
+    {
+     "t": "Mapa de la psicología sufí",
+     "u": "/recursos/mapa-de-la-psicologia-sufi/"
+    }
+   ]
+  },
+  {
+   "anio": 1350,
+   "fecha": "siglo XIV",
+   "titulo": "El Libro tibetano de los muertos",
+   "texto": "El Bardo Thödol, revelado por Karma Lingpa, describe los estados de conciencia entre la muerte y el renacer. Jung escribió un comentario sobre él en el siglo XX.",
+   "era": "medieval",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "El Libro tibetano de los muertos",
+     "u": "/recursos/el-libro-tibetano-de-los-muertos/"
+    },
+    {
+     "t": "Mapa de la psicología budista tibetana",
+     "u": "/recursos/mapa-de-la-psicologia-budista-tibetana/"
+    }
+   ]
+  },
+  {
+   "anio": 1508,
+   "fecha": "1508",
+   "titulo": "Wang Yangming y la unidad de saber y hacer",
+   "texto": "Wang Yangming, filósofo confuciano, tiene una experiencia de comprensión en 1508 y enseña que el conocimiento moral nace del corazón-mente y se prueba en la acción.",
+   "era": "modernidad",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Wang Yangming",
+     "u": "/recursos/wang-yangming/"
+    }
+   ]
+  },
+  {
+   "anio": 1641,
+   "fecha": "1641",
+   "titulo": "Descartes y la separación entre mente y cuerpo",
+   "texto": "En las Meditaciones, Descartes plantea el dualismo mente-cuerpo, que marcó la psicología y la medicina de Occidente y todavía se discute.",
+   "era": "modernidad",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Descartes",
+     "u": "/recursos/rene-descartes/"
+    },
+    {
+     "t": "Laboratorio de la razón y la autonomía",
+     "u": "/laboratorio-de-la-razon-y-la-autonomia/"
+    }
+   ]
+  },
+  {
+   "anio": 1781,
+   "fecha": "1781",
+   "titulo": "Kant y la Crítica de la razón pura",
+   "texto": "Kant propone que la mente no copia el mundo sino que lo organiza con categorías propias, una idea que la psicología cognitiva retomará.",
+   "era": "modernidad",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Kant",
+     "u": "/recursos/immanuel-kant/"
+    }
+   ]
+  },
+  {
+   "anio": 1879,
+   "fecha": "1879",
+   "titulo": "Wundt funda el primer laboratorio de psicología",
+   "texto": "En Leipzig, Wilhelm Wundt abre un laboratorio dedicado a medir procesos mentales. Se suele tomar esta fecha como el nacimiento de la psicología como ciencia.",
+   "era": "nacimiento",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Wundt",
+     "u": "/recursos/wilhelm-wundt/"
+    },
+    {
+     "t": "Laboratorio de Wundt",
+     "u": "/laboratorio-de-wundt/"
+    },
+    {
+     "t": "¿Dónde nació la psicología?",
+     "u": "/recursos/donde-nacio-la-psicologia/"
+    }
+   ]
+  },
+  {
+   "anio": 1882,
+   "fecha": "1882",
+   "titulo": "Charcot en la Salpêtrière",
+   "texto": "Jean-Martin Charcot dirige en París la primera cátedra de enfermedades nerviosas y estudia la histeria. Allí se forman Janet y, brevemente, Freud.",
+   "era": "nacimiento",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Charcot y Janet",
+     "u": "/recursos/charcot-y-janet/"
+    }
+   ]
+  },
+  {
+   "anio": 1890,
+   "fecha": "1890",
+   "titulo": "William James y «Principios de psicología»",
+   "texto": "James publica un tratado sobre la corriente de la conciencia, el hábito y la emoción. Es la gran obra de la psicología estadounidense del comienzo.",
+   "era": "nacimiento",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "William James",
+     "u": "/recursos/william-james/"
+    }
+   ]
+  },
+  {
+   "anio": 1893,
+   "fecha": "1893",
+   "titulo": "Vivekananda lleva el yoga a Occidente",
+   "texto": "En el Parlamento de las Religiones de Chicago, el swami Vivekananda presenta el yoga y el vedanta. Desde entonces el encuentro entre Oriente y la psicología occidental no se detiene.",
+   "era": "nacimiento",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Yoga como psicología",
+     "u": "/recursos/yoga-como-psicologia/"
+    },
+    {
+     "t": "Mapa de la psicología india",
+     "u": "/recursos/mapa-de-la-psicologia-india/"
+    }
+   ]
+  },
+  {
+   "anio": 1895,
+   "fecha": "1895",
+   "titulo": "Estudios sobre la histeria",
+   "texto": "Josef Breuer y Sigmund Freud publican los casos que dan origen al psicoanálisis: la idea de que ciertos síntomas dicen algo que no se puede decir.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Freud",
+     "u": "/recursos/sigmund-freud/"
+    },
+    {
+     "t": "¿Qué es el psicoanálisis?",
+     "u": "/recursos/que-es-el-psicoanalisis/"
+    }
+   ]
+  },
+  {
+   "anio": 1898,
+   "fecha": "1898",
+   "titulo": "Horacio Piñero y el primer laboratorio en Buenos Aires",
+   "texto": "Piñero funda en Buenos Aires un laboratorio de psicología experimental, que luego se traslada a la Facultad de Filosofía y Letras de la UBA. Es un temprano paso de la disciplina en la Argentina.",
+   "era": "nacimiento",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Mapa de la psicología latinoamericana",
+     "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
+    },
+    {
+     "t": "Glosario",
+     "u": "/glosario-de-psicologia-latinoamericana/"
+    }
+   ]
+  },
+  {
+   "anio": 1899,
+   "fecha": "1899–1900",
+   "titulo": "«La interpretación de los sueños»",
+   "texto": "Freud propone que los sueños son un camino al inconsciente. Jung adoptará la idea y la ampliará con símbolos y arquetipos.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Freud",
+     "u": "/recursos/sigmund-freud/"
+    },
+    {
+     "t": "Los sueños según Jung",
+     "u": "/recursos/los-suenos-segun-jung/"
+    },
+    {
+     "t": "Laboratorio de Freud",
+     "u": "/laboratorio-psicoanalisis-freud/"
+    }
+   ]
+  },
+  {
+   "anio": 1904,
+   "fecha": "1904",
+   "titulo": "Pavlov y el Nobel",
+   "texto": "Ivan Pavlov recibe el Nobel de Fisiología o Medicina por sus trabajos sobre la digestión. De sus experimentos nace el condicionamiento clásico.",
+   "era": "conductismo-y-gestalt",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Pavlov",
+     "u": "/recursos/ivan-pavlov/"
+    }
+   ]
+  },
+  {
+   "anio": 1907,
+   "fecha": "1907",
+   "titulo": "Jung conoce a Freud",
+   "texto": "Carl Gustav Jung, psiquiatra en el Burghölzli de Zúrich, publica un estudio sobre la demencia precoz y se encuentra con Freud en Viena. Siguen trece horas de conversación.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Jung",
+     "u": "/recursos/carl-gustav-jung/"
+    },
+    {
+     "t": "Glosario junguiano",
+     "u": "/glosario-junguiano/"
+    }
+   ]
+  },
+  {
+   "anio": 1911,
+   "fecha": "1911",
+   "titulo": "José Ingenieros y la psicología genética",
+   "texto": "Ingenieros, médico y escritor, publica *Psicología genética*, reeditado después como *Principios de psicología*. Fue muy leído en la Argentina y en América Latina y representa el pensamiento científico de la época.",
+   "era": "nacimiento",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Mapa de la psicología latinoamericana",
+     "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
+    }
+   ]
+  },
+  {
+   "anio": 1913,
+   "fecha": "1913",
+   "titulo": "Jung se aparta de Freud",
+   "texto": "Tras «Transformaciones y símbolos de la libido», Jung rompe con Freud y atraviesa un período de confrontación con su inconsciente. Allí nace su psicología analítica.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Jung",
+     "u": "/recursos/carl-gustav-jung/"
+    },
+    {
+     "t": "Inconsciente personal y colectivo",
+     "u": "/recursos/inconsciente-personal-y-colectivo/"
+    }
+   ]
+  },
+  {
+   "anio": 1913,
+   "fecha": "1913–1930",
+   "titulo": "El Libro Rojo",
+   "texto": "Jung anota y dibuja sus experiencias de imaginación activa en un manuscrito ilustrado, que se publicó recién en 2009. Es el núcleo de su obra.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Imaginación activa",
+     "u": "/recursos/imaginacion-activa/"
+    },
+    {
+     "t": "Laboratorio de imaginación activa",
+     "u": "/laboratorio-de-imaginacion-activa/"
+    }
+   ]
+  },
+  {
+   "anio": 1913,
+   "fecha": "1913",
+   "titulo": "Watson y el manifiesto conductista",
+   "texto": "John B. Watson propone que la psicología estudie solo la conducta observable. Domina buena parte del siglo XX.",
+   "era": "conductismo-y-gestalt",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Watson",
+     "u": "/recursos/john-b-watson/"
+    }
+   ]
+  },
+  {
+   "anio": 1919,
+   "fecha": "1919",
+   "titulo": "Morita inicia su terapia en Tokio",
+   "texto": "El psiquiatra Shoma Morita desarrolla una terapia basada en aceptar la ansiedad y actuar igual. Es una de las primeras psicoterapias nacidas en Japón.",
+   "era": "psicoanalisis",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Terapia Morita",
+     "u": "/recursos/terapia-morita/"
+    },
+    {
+     "t": "Laboratorio Morita y Naikan",
+     "u": "/laboratorio-morita-y-naikan/"
+    },
+    {
+     "t": "Mapa de la psicología japonesa",
+     "u": "/recursos/mapa-de-la-psicologia-japonesa/"
+    }
+   ]
+  },
+  {
+   "anio": 1922,
+   "fecha": "1922",
+   "titulo": "Girindrasekhar Bose funda la Sociedad Psicoanalítica de la India",
+   "texto": "En Calcuta, Bose, que se había carteado con Freud, crea una de las primeras sociedades psicoanalíticas fuera de Europa y propone una lectura propia desde la cultura india.",
+   "era": "psicoanalisis",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Girindrasekhar Bose",
+     "u": "/recursos/girindrasekhar-bose/"
+    },
+    {
+     "t": "Sudhir Kakar",
+     "u": "/recursos/sudhir-kakar/"
+    }
+   ]
+  },
+  {
+   "anio": 1929,
+   "fecha": "1929",
+   "titulo": "Jung y «El secreto de la flor de oro»",
+   "texto": "Jung escribe el comentario psicológico a un texto taoísta traducido por Richard Wilhelm. Abre su diálogo con Oriente, que continuará con el yoga, el Zen y el I Ching.",
+   "era": "psicoanalisis",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Jung y la meditación",
+     "u": "/recursos/jung-y-la-meditacion/"
+    },
+    {
+     "t": "D. T. Suzuki",
+     "u": "/recursos/d-t-suzuki/"
+    }
+   ]
+  },
+  {
+   "anio": 1932,
+   "fecha": "1932",
+   "titulo": "Melanie Klein y el psicoanálisis de niños",
+   "texto": "Klein publica «El psicoanálisis de niños» y describe fantasías muy tempranas. Su obra tuvo gran peso en el psicoanálisis argentino.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Melanie Klein",
+     "u": "/recursos/melanie-klein/"
+    },
+    {
+     "t": "Laboratorio Klein y Winnicott",
+     "u": "/laboratorio-psicoanalisis-klein-winnicott/"
+    }
+   ]
+  },
+  {
+   "anio": 1934,
+   "fecha": "1934",
+   "titulo": "Vygotsky: «Pensamiento y lenguaje»",
+   "texto": "Lev Vygotsky sostiene que el pensamiento se forma en la relación con otros, mediante el lenguaje. Su zona de desarrollo próximo se usa mucho en educación.",
+   "era": "conductismo-y-gestalt",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Vygotsky",
+     "u": "/recursos/lev-vygotsky/"
+    },
+    {
+     "t": "Laboratorio de andamiaje",
+     "u": "/laboratorio-de-andamiaje/"
+    }
+   ]
+  },
+  {
+   "anio": 1938,
+   "fecha": "1938",
+   "titulo": "Skinner y el condicionamiento operante",
+   "texto": "B. F. Skinner publica «La conducta de los organismos» y describe cómo las consecuencias moldean la conducta.",
+   "era": "conductismo-y-gestalt",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Skinner",
+     "u": "/recursos/b-f-skinner/"
+    },
+    {
+     "t": "Laboratorio de aprendizaje y hábito",
+     "u": "/laboratorio-de-aprendizaje-y-habito/"
+    }
+   ]
+  },
+  {
+   "anio": 1942,
+   "fecha": "1942",
+   "titulo": "Se funda la Asociación Psicoanalítica Argentina",
+   "texto": "Pichon-Rivière, Marie Langer, Arminda Aberastury y otros crean la APA. Buenos Aires se vuelve uno de los centros del psicoanálisis en América Latina.",
+   "era": "psicoanalisis",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Pichon-Rivière",
+     "u": "/recursos/enrique-pichon-riviere/"
+    },
+    {
+     "t": "Marie Langer",
+     "u": "/recursos/marie-langer/"
+    },
+    {
+     "t": "Arminda Aberastury",
+     "u": "/recursos/arminda-aberastury/"
+    },
+    {
+     "t": "Recorrido psicoanalítico",
+     "u": "/laboratorio-recorrido-psicoanalitico/"
+    }
+   ]
+  },
+  {
+   "anio": 1944,
+   "fecha": "1944",
+   "titulo": "Jung: «Psicología y alquimia»",
+   "texto": "Jung lee los textos alquímicos como un mapa del proceso de transformación interior. Es una de las bases de su idea de individuación.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "El proceso de individuación",
+     "u": "/recursos/el-proceso-de-individuacion/"
+    },
+    {
+     "t": "Los símbolos",
+     "u": "/recursos/los-simbolos-segun-jung/"
+    }
+   ]
+  },
+  {
+   "anio": 1946,
+   "fecha": "1946",
+   "titulo": "Viktor Frankl y la búsqueda de sentido",
+   "texto": "Tras sobrevivir a los campos nazis, Frankl publica el libro que da origen a la logoterapia: aun en el sufrimiento se puede buscar sentido.",
+   "era": "humanismo",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Viktor Frankl",
+     "u": "/recursos/viktor-frankl/"
+    },
+    {
+     "t": "Logoterapia",
+     "u": "/recursos/logoterapia-y-sentido/"
+    },
+    {
+     "t": "Laboratorio de sentido",
+     "u": "/laboratorio-de-sentido/"
+    },
+    {
+     "t": "Trauma y Shoá",
+     "u": "/recursos/trauma-transgeneracional-y-la-shoa/"
+    }
+   ]
+  },
+  {
+   "anio": 1950,
+   "fecha": "1950",
+   "titulo": "Turing y la pregunta por las máquinas que piensan",
+   "texto": "Alan Turing publica «Computing Machinery and Intelligence» y propone el juego de imitación como forma de preguntar si una máquina puede pensar.",
+   "era": "ia",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "¿Qué es la inteligencia?",
+     "u": "/recursos/que-es-la-inteligencia/"
+    }
+   ]
+  },
+  {
+   "anio": 1951,
+   "fecha": "1951",
+   "titulo": "Rogers y la terapia centrada en el cliente",
+   "texto": "Carl Rogers publica su libro principal y propone que la empatía, la autenticidad y la aceptación son el centro del cambio.",
+   "era": "humanismo",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Carl Rogers",
+     "u": "/recursos/carl-rogers/"
+    },
+    {
+     "t": "Psicología humanista",
+     "u": "/recursos/psicologia-humanista-carl-rogers/"
+    },
+    {
+     "t": "Laboratorio de Rogers",
+     "u": "/laboratorio-humanista-rogers/"
+    }
+   ]
+  },
+  {
+   "anio": 1952,
+   "fecha": "1952",
+   "titulo": "Jung y la sincronicidad",
+   "texto": "Con el físico Wolfgang Pauli, Jung publica su ensayo sobre las coincidencias con sentido. Sigue siendo una idea discutida y poética.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "La sincronicidad",
+     "u": "/recursos/la-sincronicidad/"
+    }
+   ]
+  },
+  {
+   "anio": 1952,
+   "fecha": "1952",
+   "titulo": "Fanon: «Piel negra, máscaras blancas»",
+   "texto": "El psiquiatra Frantz Fanon, de Martinica, analiza el efecto psíquico del racismo y el colonialismo. Es una raíz de las psicologías descoloniales.",
+   "era": "humanismo",
+   "region": "africa",
+   "enlaces": [
+    {
+     "t": "Fanon",
+     "u": "/recursos/frantz-fanon-psiquiatra/"
+    }
+   ]
+  },
+  {
+   "anio": 1954,
+   "fecha": "1954",
+   "titulo": "Mary Ainsworth observa a madres y bebés en Uganda",
+   "texto": "Ainsworth registra cómo los bebés usan a su madre como base segura. De ahí saldrá su clasificación de estilos de apego.",
+   "era": "humanismo",
+   "region": "africa",
+   "enlaces": [
+    {
+     "t": "Mary Ainsworth",
+     "u": "/recursos/mary-ainsworth/"
+    },
+    {
+     "t": "Test de estilos de apego",
+     "u": "/test-de-estilos-de-apego/"
+    }
+   ]
+  },
+  {
+   "anio": 1955,
+   "fecha": "1955",
+   "titulo": "Albert Ellis y la terapia racional",
+   "texto": "Ellis propone que las creencias irracionales causan buena parte del malestar. Es un fundamento de la terapia cognitivo-conductual.",
+   "era": "cognitiva-y-sistemica",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Albert Ellis",
+     "u": "/recursos/albert-ellis/"
+    }
+   ]
+  },
+  {
+   "anio": 1956,
+   "fecha": "1956",
+   "titulo": "La revolución cognitiva y el doble vínculo",
+   "texto": "George Miller, Noam Chomsky y Herbert Simon impulsan el estudio de la mente como procesamiento de información; Bateson y su equipo proponen el doble vínculo.",
+   "era": "cognitiva-y-sistemica",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Gregory Bateson",
+     "u": "/recursos/gregory-bateson/"
+    },
+    {
+     "t": "La memoria",
+     "u": "/recursos/la-memoria/"
+    }
+   ]
+  },
+  {
+   "anio": 1957,
+   "fecha": "1957",
+   "titulo": "Se crea la carrera de Psicología en la UBA",
+   "texto": "El Consejo Superior de la Universidad de Buenos Aires aprueba la carrera de Psicología. Es el comienzo de la profesión universitaria en la Argentina.",
+   "era": "humanismo",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Mapa de la psicología latinoamericana",
+     "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
+    },
+    {
+     "t": "Psicoterapia para adultos",
+     "u": "/psicoterapia-para-adultos/"
+    }
+   ]
+  },
+  {
+   "anio": 1957,
+   "fecha": "1957",
+   "titulo": "Zen y psicoanálisis en Cuernavaca",
+   "texto": "En México, D. T. Suzuki y Erich Fromm organizan un seminario sobre Zen y psicoanálisis. Es un encuentro memorable entre Oriente y Occidente en América Latina.",
+   "era": "humanismo",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "D. T. Suzuki",
+     "u": "/recursos/d-t-suzuki/"
+    },
+    {
+     "t": "Erich Fromm",
+     "u": "/recursos/erich-fromm/"
+    },
+    {
+     "t": "Meditación en Occidente",
+     "u": "/recursos/meditacion-en-occidente/"
+    }
+   ]
+  },
+  {
+   "anio": 1958,
+   "fecha": "1958",
+   "titulo": "La Experiencia Rosario y el grupo operativo",
+   "texto": "Pichon-Rivière desarrolla en Rosario el grupo operativo, centrado en la tarea.",
+   "era": "humanismo",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Pichon-Rivière",
+     "u": "/recursos/enrique-pichon-riviere/"
+    },
+    {
+     "t": "Laboratorio de grupos",
+     "u": "/laboratorio-de-grupos/"
+    }
+   ]
+  },
+  {
+   "anio": 1960,
+   "fecha": "1960",
+   "titulo": "Laing y la antipsiquiatría",
+   "texto": "Ronald Laing publica «El yo dividido» y cuestiona cómo se define la locura. Con él y con Basaglia crece la crítica al manicomio.",
+   "era": "humanismo",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Laing",
+     "u": "/recursos/ronald-laing/"
+    },
+    {
+     "t": "Basaglia",
+     "u": "/recursos/franco-basaglia/"
+    }
+   ]
+  },
+  {
+   "anio": 1961,
+   "fecha": "1961",
+   "titulo": "Muere Jung",
+   "texto": "Jung muere en Küsnacht el 6 de junio. Poco antes empieza el libro «El hombre y sus símbolos», publicado en 1964, pensado para el público general.",
+   "era": "psicoanalisis",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Jung",
+     "u": "/recursos/carl-gustav-jung/"
+    },
+    {
+     "t": "Arquetipos en la vida cotidiana",
+     "u": "/recursos/arquetipos-en-la-vida-cotidiana/"
+    },
+    {
+     "t": "Recorrido junguiano",
+     "u": "/laboratorio-recorrido-junguiano/"
+    }
+   ]
+  },
+  {
+   "anio": 1966,
+   "fecha": "1966",
+   "titulo": "ELIZA, el primer chatbot",
+   "texto": "Joseph Weizenbaum, en el MIT, publica ELIZA, cuyo guion «DOCTOR» imitaba a un terapeuta rogeriano repitiendo lo que decía la persona. No entendía nada, y aun así muchos se sentían escuchados.",
+   "era": "ia",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Carl Rogers",
+     "u": "/recursos/carl-rogers/"
+    },
+    {
+     "t": "La empatía",
+     "u": "/recursos/la-empatia/"
+    }
+   ]
+  },
+  {
+   "anio": 1967,
+   "fecha": "1967",
+   "titulo": "Escuela de Psicología Social de Pichon-Rivière",
+   "texto": "Pichon-Rivière funda en Buenos Aires la escuela de psicología social. Ese mismo año José Bleger publica sus ideas sobre el encuadre.",
+   "era": "humanismo",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Pichon-Rivière",
+     "u": "/recursos/enrique-pichon-riviere/"
+    },
+    {
+     "t": "José Bleger",
+     "u": "/recursos/jose-bleger/"
+    }
+   ]
+  },
+  {
+   "anio": 1967,
+   "fecha": "1967",
+   "titulo": "Aaron Beck y la depresión",
+   "texto": "Beck publica sus estudios sobre los pensamientos automáticos en la depresión, que dan origen a la terapia cognitiva.",
+   "era": "cognitiva-y-sistemica",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Aaron Beck",
+     "u": "/recursos/aaron-t-beck/"
+    },
+    {
+     "t": "Escala PHQ-9",
+     "u": "/escala-de-animo-phq-9/"
+    }
+   ]
+  },
+  {
+   "anio": 1967,
+   "fecha": "1967",
+   "titulo": "La Escuela de Palo Alto",
+   "texto": "Paul Watzlawick, Beavin y Jackson publican «Teoría de la comunicación humana». No se puede no comunicar.",
+   "era": "cognitiva-y-sistemica",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Watzlawick",
+     "u": "/recursos/paul-watzlawick/"
+    },
+    {
+     "t": "Terapia sistémica",
+     "u": "/recursos/terapia-sistemica/"
+    },
+    {
+     "t": "Laboratorio de comunicación",
+     "u": "/laboratorio-sistemica-comunicacion/"
+    }
+   ]
+  },
+  {
+   "anio": 1969,
+   "fecha": "1969",
+   "titulo": "Bowlby y la teoría del apego",
+   "texto": "John Bowlby publica el primer volumen de «Apego y pérdida». Los vínculos tempranos importan para toda la vida.",
+   "era": "cognitiva-y-sistemica",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Bowlby",
+     "u": "/recursos/john-bowlby/"
+    },
+    {
+     "t": "El apego",
+     "u": "/recursos/el-apego/"
+    },
+    {
+     "t": "Laboratorio del apego",
+     "u": "/laboratorio-del-desarrollo-y-el-apego/"
+    }
+   ]
+  },
+  {
+   "anio": 1970,
+   "fecha": "1970",
+   "titulo": "Paulo Freire: «Pedagogía del oprimido»",
+   "texto": "Escrita en el exilio, la obra propone educar por el diálogo y la concientización. Marcó a la psicología comunitaria latinoamericana.",
+   "era": "humanismo",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Paulo Freire",
+     "u": "/recursos/paulo-freire-y-la-psicologia/"
+    }
+   ]
+  },
+  {
+   "anio": 1971,
+   "fecha": "1971",
+   "titulo": "Plataforma: psicoanalistas y compromiso social",
+   "texto": "Marie Langer y otros colegas se apartan de la APA por diferencias políticas y sociales. Langer se exilia en 1974.",
+   "era": "humanismo",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Marie Langer y Plataforma",
+     "u": "/recursos/marie-langer-y-plataforma/"
+    }
+   ]
+  },
+  {
+   "anio": 1971,
+   "fecha": "1971",
+   "titulo": "Takeo Doi y el amae",
+   "texto": "El psicoanalista japonés Doi publica «La anatomía de la dependencia» y describe el amae, un modo de depender del otro con confianza.",
+   "era": "humanismo",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Amae",
+     "u": "/recursos/amae/"
+    },
+    {
+     "t": "Mapa de la psicología japonesa",
+     "u": "/recursos/mapa-de-la-psicologia-japonesa/"
+    }
+   ]
+  },
+  {
+   "anio": 1973,
+   "fecha": "1973",
+   "titulo": "Se despatologiza la homosexualidad en el DSM",
+   "texto": "La APA retira la homosexualidad como trastorno del DSM. Es un hito de la historia entre ciencia y cultura.",
+   "era": "humanismo",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Diversidad sexual e identidad de género",
+     "u": "/recursos/diversidad-sexual-e-identidad-de-genero/"
+    }
+   ]
+  },
+  {
+   "anio": 1973,
+   "fecha": "1973",
+   "titulo": "Héctor Fiorini y la psicoterapia breve",
+   "texto": "Fiorini publica en Buenos Aires «Teoría y técnica de psicoterapias», con el concepto de foco y de psiquismo creador.",
+   "era": "humanismo",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Héctor Fiorini",
+     "u": "/recursos/hector-fiorini/"
+    },
+    {
+     "t": "Psicoterapia breve focalizada",
+     "u": "/recursos/psicoterapia-breve-focalizada/"
+    },
+    {
+     "t": "Glosario Fiorini",
+     "u": "/glosario-fiorini/"
+    }
+   ]
+  },
+  {
+   "anio": 1974,
+   "fecha": "1974",
+   "titulo": "Minuchin y la terapia familiar estructural",
+   "texto": "Salvador Minuchin publica «Familias y terapia familiar» y propone trabajar con la estructura del sistema familiar.",
+   "era": "cognitiva-y-sistemica",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Minuchin",
+     "u": "/recursos/salvador-minuchin/"
+    },
+    {
+     "t": "Murray Bowen",
+     "u": "/recursos/murray-bowen/"
+    }
+   ]
+  },
+  {
+   "anio": 1975,
+   "fecha": "1975",
+   "titulo": "Sikolohiyang Pilipino",
+   "texto": "Virgilio Enriquez impulsa en Filipinas una psicología desde la cultura propia y en su lengua.",
+   "era": "humanismo",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Sikolohiyang Pilipino",
+     "u": "/recursos/sikolohiyang-pilipino/"
+    },
+    {
+     "t": "Mapa del Sudeste asiático",
+     "u": "/recursos/mapa-de-las-psicologias-del-sudeste-asiatico/"
+    }
+   ]
+  },
+  {
+   "anio": 1975,
+   "fecha": "1975",
+   "titulo": "James Hillman y la psicología arquetípica",
+   "texto": "Con «Re-visioning Psychology», Hillman propone pensar el alma en imágenes y mitos.",
+   "era": "humanismo",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "James Hillman",
+     "u": "/recursos/james-hillman/"
+    },
+    {
+     "t": "Mitos y cuentos",
+     "u": "/recursos/mitos-y-cuentos-jung/"
+    }
+   ]
+  },
+  {
+   "anio": 1976,
+   "fecha": "1976",
+   "titulo": "Weizenbaum advierte",
+   "texto": "En «Computer Power and Human Reason», Weizenbaum critica que se ofrezcan máquinas como reemplazo de la comprensión humana.",
+   "era": "ia",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "La empatía",
+     "u": "/recursos/la-empatia/"
+    }
+   ]
+  },
+  {
+   "anio": 1978,
+   "fecha": "1978",
+   "titulo": "Basaglia y la ley 180 en Italia",
+   "texto": "Italia sanciona la ley que inicia el cierre de los manicomios. Inspira reformas en otros países, entre ellos la Argentina.",
+   "era": "cognitiva-y-sistemica",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Franco Basaglia",
+     "u": "/recursos/franco-basaglia/"
+    }
+   ]
+  },
+  {
+   "anio": 1978,
+   "fecha": "1978",
+   "titulo": "Sudhir Kakar y «El mundo interior»",
+   "texto": "El psicoanalista indio Sudhir Kakar estudia la infancia y la cultura de la India con una mirada psicoanalítica.",
+   "era": "cognitiva-y-sistemica",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Sudhir Kakar",
+     "u": "/recursos/sudhir-kakar/"
+    },
+    {
+     "t": "Glosario",
+     "u": "/glosario-de-psicologia-india/"
+    }
+   ]
+  },
+  {
+   "anio": 1979,
+   "fecha": "1979",
+   "titulo": "Kabat-Zinn y el mindfulness en el hospital",
+   "texto": "Jon Kabat-Zinn crea en Massachusetts el programa de reducción del estrés basado en mindfulness (MBSR). Es el comienzo del mindfulness clínico.",
+   "era": "contemporanea",
+   "region": "global",
+   "enlaces": [
+    {
+     "t": "Jon Kabat-Zinn",
+     "u": "/recursos/jon-kabat-zinn/"
+    },
+    {
+     "t": "Mindfulness",
+     "u": "/recursos/mindfulness-atencion-plena/"
+    },
+    {
+     "t": "Laboratorio de mindfulness",
+     "u": "/laboratorio-de-mindfulness/"
+    }
+   ]
+  },
+  {
+   "anio": 1984,
+   "fecha": "1984",
+   "titulo": "Silvia Bleichmar y los orígenes del sujeto psíquico",
+   "texto": "La psicoanalista argentina Silvia Bleichmar publica «En los orígenes del sujeto psíquico» y revisa la teoría de la sexualidad infantil.",
+   "era": "contemporanea",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Silvia Bleichmar",
+     "u": "/recursos/silvia-bleichmar/"
+    }
+   ]
+  },
+  {
+   "anio": 1984,
+   "fecha": "1984",
+   "titulo": "Te Whare Tapa Whā en Nueva Zelanda",
+   "texto": "Mason Durie presenta una casa de cuatro paredes (cuerpo, mente, familia y espíritu) para pensar la salud maorí.",
+   "era": "contemporanea",
+   "region": "oceania",
+   "enlaces": [
+    {
+     "t": "Te Whare Tapa Whā",
+     "u": "/recursos/te-whare-tapa-wha/"
+    },
+    {
+     "t": "Mapa de las psicologías del Pacífico",
+     "u": "/recursos/mapa-de-las-psicologias-del-pacifico/"
+    },
+    {
+     "t": "Laboratorio Te Whare Tapa Whā",
+     "u": "/laboratorio-te-whare-tapa-wha/"
+    }
+   ]
+  },
+  {
+   "anio": 1985,
+   "fecha": "1985",
+   "titulo": "Ley del ejercicio de la psicología y Facultad en la UBA",
+   "texto": "En la Argentina se sanciona la ley 23.277 del ejercicio profesional y se crea la Facultad de Psicología de la UBA.",
+   "era": "contemporanea",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Mapa de la psicología latinoamericana",
+     "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
+    },
+    {
+     "t": "Cómo elegir psicólogo",
+     "u": "/recursos/como-elegir-psicologo/"
+    }
+   ]
+  },
+  {
+   "anio": 1986,
+   "fecha": "1986",
+   "titulo": "Martín-Baró y la psicología de la liberación",
+   "texto": "Ignacio Martín-Baró propone en El Salvador una psicología desde las condiciones de los pueblos. Fue asesinado en 1989.",
+   "era": "contemporanea",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Martín-Baró",
+     "u": "/recursos/ignacio-martin-baro/"
+    },
+    {
+     "t": "Mapa de la psicología latinoamericana",
+     "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
+    }
+   ]
+  },
+  {
+   "anio": 1987,
+   "fecha": "1987",
+   "titulo": "Primer diálogo Mind & Life con el Dalai Lama",
+   "texto": "Científicos y monjes tibetanos comienzan un diálogo sobre la mente que dio origen al Mind & Life Institute. Francisco Varela fue una de sus figuras.",
+   "era": "contemporanea",
+   "region": "global",
+   "enlaces": [
+    {
+     "t": "Mind & Life",
+     "u": "/recursos/mind-and-life-y-la-neurociencia-de-la-meditacion/"
+    },
+    {
+     "t": "Francisco Varela",
+     "u": "/recursos/francisco-varela/"
+    }
+   ]
+  },
+  {
+   "anio": 1993,
+   "fecha": "1993",
+   "titulo": "Marsha Linehan y la terapia dialéctico-conductual",
+   "texto": "Linehan publica el tratamiento DBT para el trastorno límite de la personalidad, con aceptación y cambio a la vez.",
+   "era": "contemporanea",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Marsha Linehan",
+     "u": "/recursos/marsha-linehan/"
+    },
+    {
+     "t": "Trastorno límite",
+     "u": "/recursos/trastorno-limite-de-la-personalidad/"
+    },
+    {
+     "t": "Laboratorio de habilidades DBT",
+     "u": "/laboratorio-de-habilidades-dbt/"
+    }
+   ]
+  },
+  {
+   "anio": 1994,
+   "fecha": "1994",
+   "titulo": "Constitución argentina y pueblos indígenas",
+   "texto": "La reforma de 1994 reconoce la preexistencia étnica y cultural de los pueblos indígenas, base de la salud intercultural.",
+   "era": "contemporanea",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Salud intercultural",
+     "u": "/recursos/salud-intercultural-en-argentina/"
+    },
+    {
+     "t": "Mapa de la psicología latinoamericana",
+     "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
+    }
+   ]
+  },
+  {
+   "anio": 1994,
+   "fecha": "1994",
+   "titulo": "Porges y la teoría polivagal",
+   "texto": "Stephen Porges presenta su teoría sobre cómo el sistema nervioso evalúa la seguridad. Tiene gran difusión en trauma, aunque es discutida.",
+   "era": "contemporanea",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Teoría polivagal",
+     "u": "/recursos/teoria-polivagal/"
+    },
+    {
+     "t": "Ventana de tolerancia",
+     "u": "/recursos/la-ventana-de-tolerancia/"
+    }
+   ]
+  },
+  {
+   "anio": 1997,
+   "fecha": "1997",
+   "titulo": "Informe «Bringing Them Home» en Australia",
+   "texto": "Se publica el informe sobre la separación forzada de niños aborígenes. Instala el trauma histórico en la agenda de la salud mental.",
+   "era": "contemporanea",
+   "region": "oceania",
+   "enlaces": [
+    {
+     "t": "Psicología aborigen australiana",
+     "u": "/recursos/mapa-de-la-psicologia-aborigen-australiana/"
+    },
+    {
+     "t": "Trauma histórico",
+     "u": "/recursos/trauma-historico-de-los-pueblos-originarios/"
+    }
+   ]
+  },
+  {
+   "anio": 1998,
+   "fecha": "1998",
+   "titulo": "Seligman y la psicología positiva",
+   "texto": "Martin Seligman, presidente de la APA estadounidense, impulsa una psicología que estudie también las fortalezas.",
+   "era": "contemporanea",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Seligman",
+     "u": "/recursos/martin-seligman/"
+    },
+    {
+     "t": "Mapa de la psicología positiva",
+     "u": "/recursos/mapa-de-la-psicologia-positiva/"
+    },
+    {
+     "t": "Laboratorio de psicología positiva",
+     "u": "/laboratorio-de-psicologia-positiva/"
+    }
+   ]
+  },
+  {
+   "anio": 1999,
+   "fecha": "1999",
+   "titulo": "Hayes, Strosahl y Wilson: ACT",
+   "texto": "Se publica el libro de la Terapia de Aceptación y Compromiso, que combina aceptación, valores y acción.",
+   "era": "contemporanea",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "ACT",
+     "u": "/recursos/terapia-de-aceptacion-y-compromiso/"
+    },
+    {
+     "t": "Steven Hayes",
+     "u": "/recursos/steven-c-hayes/"
+    },
+    {
+     "t": "Laboratorio ACT",
+     "u": "/laboratorio-act/"
+    }
+   ]
+  },
+  {
+   "anio": 2003,
+   "fecha": "2003",
+   "titulo": "Kristin Neff y la autocompasión",
+   "texto": "Neff define la autocompasión con tres componentes y crea una escala para medirla.",
+   "era": "contemporanea",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Kristin Neff",
+     "u": "/recursos/kristin-neff/"
+    },
+    {
+     "t": "Escala de autocompasión",
+     "u": "/escala-de-autocompasion/"
+    },
+    {
+     "t": "Laboratorio de autocompasión",
+     "u": "/laboratorio-de-autocompasion/"
+    }
+   ]
+  },
+  {
+   "anio": 2006,
+   "fecha": "2006",
+   "titulo": "El Banco de la Amistad en Zimbabue",
+   "texto": "Dixon Chibanda inicia en Harare un programa donde abuelas entrenadas escuchan a personas con depresión en bancos de plaza.",
+   "era": "contemporanea",
+   "region": "africa",
+   "enlaces": [
+    {
+     "t": "Friendship Bench",
+     "u": "/recursos/friendship-bench/"
+    },
+    {
+     "t": "Mapa de la psicología africana",
+     "u": "/recursos/mapa-de-la-psicologia-africana/"
+    },
+    {
+     "t": "Glosario",
+     "u": "/glosario-de-psicologia-africana/"
+    }
+   ]
+  },
+  {
+   "anio": 2008,
+   "fecha": "2008",
+   "titulo": "Ecuador incorpora el Buen Vivir",
+   "texto": "La Constitución ecuatoriana adopta el sumak kawsay, idea andina de una vida en armonía con la comunidad y la naturaleza.",
+   "era": "contemporanea",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Sumak kawsay",
+     "u": "/recursos/sumak-kawsay-y-el-buen-vivir/"
+    },
+    {
+     "t": "Glosario",
+     "u": "/glosario-de-psicologia-de-los-pueblos-originarios/"
+    }
+   ]
+  },
+  {
+   "anio": 2010,
+   "fecha": "2010",
+   "titulo": "Ley nacional de Salud Mental 26.657",
+   "texto": "Argentina sanciona el 25 de noviembre la ley que reconoce derechos de las personas con padecimiento mental y promueve la atención comunitaria.",
+   "era": "contemporanea",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Mapa de la psicología latinoamericana",
+     "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
+    },
+    {
+     "t": "Ayuda urgente",
+     "u": "/ayuda-urgente/"
+    }
+   ]
+  },
+  {
+   "anio": 2010,
+   "fecha": "2010",
+   "titulo": "¿Las personas más raras del mundo?",
+   "texto": "Henrich, Heine y Norenzayan muestran que la mayoría de los estudios psicológicos se hacen con poblaciones occidentales. Impulsa mirar otras psicologías.",
+   "era": "contemporanea",
+   "region": "global",
+   "enlaces": [
+    {
+     "t": "Oriente y Occidente",
+     "u": "/recursos/oriente-y-occidente-psicologia-cultural/"
+    },
+    {
+     "t": "Mapa de psicologías del mundo",
+     "u": "/psicologias-del-mundo/"
+    }
+   ]
+  },
+  {
+   "anio": 2012,
+   "fecha": "2012",
+   "titulo": "Ley de Identidad de Género en la Argentina",
+   "texto": "La ley 26.743 reconoce el derecho a la identidad de género autopercibida.",
+   "era": "contemporanea",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Diversidad sexual e identidad de género",
+     "u": "/recursos/diversidad-sexual-e-identidad-de-genero/"
+    }
+   ]
+  },
+  {
+   "anio": 2017,
+   "fecha": "2017",
+   "titulo": "Woebot: primer ensayo aleatorizado de un chatbot",
+   "texto": "Fitzpatrick, Darcy y Vierhile publican un ensayo con 70 estudiantes durante dos semanas: Woebot, basado en TCC, redujo síntomas depresivos frente a un grupo que leyó un libro. Fue un estudio pequeño y preliminar.",
+   "era": "ia",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Terapia cognitivo-conductual",
+     "u": "/recursos/que-es-la-terapia-cognitivo-conductual/"
+    },
+    {
+     "t": "Escala PHQ-9",
+     "u": "/escala-de-animo-phq-9/"
+    }
+   ]
+  },
+  {
+   "anio": 2017,
+   "fecha": "2017",
+   "titulo": "Replika y la compañía artificial",
+   "texto": "Replika sale al público como compañía conversacional. Plantea preguntas sobre apego y soledad hacia una máquina.",
+   "era": "ia",
+   "region": "global",
+   "enlaces": [
+    {
+     "t": "La soledad",
+     "u": "/recursos/la-soledad/"
+    },
+    {
+     "t": "El apego",
+     "u": "/recursos/el-apego/"
+    },
+    {
+     "t": "Laboratorio de soledad y conexión",
+     "u": "/laboratorio-de-soledad-y-conexion/"
+    }
+   ]
+  },
+  {
+   "anio": 2020,
+   "fecha": "2020",
+   "titulo": "Pandemia y terapia online",
+   "texto": "El COVID-19 impulsa la psicoterapia por videollamada en todo el mundo.",
+   "era": "contemporanea",
+   "region": "global",
+   "enlaces": [
+    {
+     "t": "Terapia online",
+     "u": "/terapia-online/"
+    },
+    {
+     "t": "Terapia online desde el exterior",
+     "u": "/recursos/terapia-online-desde-el-exterior/"
+    }
+   ]
+  },
+  {
+   "anio": 2022,
+   "fecha": "2022",
+   "titulo": "ChatGPT y los modelos de lenguaje",
+   "texto": "El 30 de noviembre sale ChatGPT al público. Muchas personas empiezan a conversar con una máquina sobre lo que sienten.",
+   "era": "ia",
+   "region": "global",
+   "enlaces": [
+    {
+     "t": "Pantallas y redes sociales",
+     "u": "/recursos/pantallas-y-redes-sociales/"
+    },
+    {
+     "t": "Laboratorio de pantallas",
+     "u": "/laboratorio-de-pantallas/"
+    }
+   ]
+  },
+  {
+   "anio": 2023,
+   "fecha": "2023",
+   "titulo": "NEDA retira su chatbot Tessa",
+   "texto": "La asociación estadounidense de trastornos alimentarios desactiva a Tessa en mayo tras denuncias de que daba consejos de dieta inadecuados. Muestra el riesgo en poblaciones vulnerables.",
+   "era": "ia",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Trastornos de la conducta alimentaria",
+     "u": "/recursos/trastornos-de-la-conducta-alimentaria/"
+    }
+   ]
+  },
+  {
+   "anio": 2024,
+   "fecha": "2024",
+   "titulo": "Demandas y regulación",
+   "texto": "En octubre se presenta en Estados Unidos una demanda contra Character.AI por la muerte de un adolescente, que alega fallas del producto. En agosto entra en vigor la Ley de IA de la Unión Europea.",
+   "era": "ia",
+   "region": "global",
+   "enlaces": [
+    {
+     "t": "Prevención del suicidio",
+     "u": "/recursos/prevencion-del-suicidio/"
+    },
+    {
+     "t": "Ayuda urgente",
+     "u": "/ayuda-urgente/"
+    }
+   ]
+  },
+  {
+   "anio": 2025,
+   "fecha": "2025",
+   "titulo": "Therabot: primer ensayo clínico de un chatbot generativo",
+   "texto": "Un equipo de Dartmouth publica en NEJM AI (marzo) un ensayo aleatorizado con Therabot: mejoras en síntomas de depresión, ansiedad y alimentación frente a lista de espera, con supervisión humana. No es una comparación con terapeutas.",
+   "era": "ia",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Ansiedad generalizada",
+     "u": "/recursos/ansiedad-generalizada/"
+    },
+    {
+     "t": "Escala GAD-7",
+     "u": "/escala-de-ansiedad-gad-7/"
+    }
+   ]
+  },
+  {
+   "anio": 2025,
+   "fecha": "2025",
+   "titulo": "Woebot cierra y Illinois limita la IA terapéutica",
+   "texto": "Woebot Health retira su app el 30 de junio, citando costos regulatorios. En agosto, Illinois prohíbe que la IA brinde terapia.",
+   "era": "ia",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Psicólogo o psiquiatra",
+     "u": "/recursos/psicologo-o-psiquiatra/"
+    }
+   ]
+  },
+  {
+   "anio": 2026,
+   "fecha": "Hoy",
+   "titulo": "La relación terapéutica sigue siendo el centro",
+   "texto": "La IA puede ayudar a escribir, ordenar y practicar habilidades. No reemplaza el encuentro con otra persona que se compromete y responde por lo que dice.",
+   "era": "ia",
+   "region": "global",
+   "enlaces": [
+    {
+     "t": "Cómo elegir psicólogo",
+     "u": "/recursos/como-elegir-psicologo/"
+    },
+    {
+     "t": "La mentalización",
+     "u": "/recursos/la-mentalizacion/"
+    },
+    {
+     "t": "Primera consulta",
+     "u": "/primera-consulta/"
+    },
+    {
+     "t": "Mapa de psicologías del mundo",
+     "u": "/psicologias-del-mundo/"
+    }
+   ]
+  }
+ ]
+}
