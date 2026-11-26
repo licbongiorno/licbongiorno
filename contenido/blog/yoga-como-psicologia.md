@@ -113,6 +113,7 @@ Lo estudió con interés, dio un seminario sobre el yoga kundalini en 1932 y lo 
 - [Respiración y emociones](/recursos/respiracion-y-emociones/)
 - [Qué es la meditación](/recursos/que-es-la-meditacion/)
 - [Mapa de la psicología india](/recursos/mapa-de-la-psicologia-india/)
+- [Laboratorio de los Yoga Sutras](/laboratorio-de-los-yoga-sutras/)
 - [Glosario de psicología india](/glosario-de-psicologia-india/)
 
 ## Para seguir leyendo
