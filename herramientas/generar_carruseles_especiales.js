@@ -36,7 +36,13 @@ h2{font-family:PF;font-weight:400;font-size:64px;line-height:1.12;margin:36px 0 
 const mapa = fs.readFileSync(path.join(raiz, 'contenido/mapa-mundi.svg'), 'utf8')
   .replace('<svg ', '<svg style="width:100%;height:auto" ');
 const css = base + `
-.mapa{margin-top:50px;border-radius:24px;background:#EEF1E8;padding:14px}
+.mapa{margin:50px -60px 0;border-radius:28px;background:#EEF1E8;padding:18px}
+.nota{font-size:38px;line-height:1.45;margin-top:44px;color:#4D493F}
+.eje{position:relative;margin-top:auto;margin-bottom:60px;height:90px}
+.eje:before{content:'';position:absolute;left:0;right:0;top:44px;height:4px;background:#DDE3D2;border-radius:2px}
+.eje i{position:absolute;top:36px;width:20px;height:20px;border-radius:50%;background:#A3B18A;margin-left:-10px}
+.eje i.on{width:36px;height:36px;top:28px;margin-left:-18px;background:#F4A261;box-shadow:0 0 0 8px #F9D9BD}
+.eje span{position:absolute;top:84px;font-family:MS;font-size:22px;color:#6B6862;transform:translateX(-50%)}
 .mapa .mm-pais{fill:#ECE3D6;stroke:#FBF8F3;stroke-width:.5}.mapa .mm-activo{fill:#A3B18A}.mapa .mm-marca{fill:#4A5A3C}
 .mapa .hl{fill:#F4A261}
 .anio{font-family:PF;font-size:150px;line-height:1;color:#4A5A3C;margin-top:50px}
@@ -53,10 +59,10 @@ const piezas = {
   'psicologias-del-mundo': {
     url: '/psicologias-del-mundo/',
     placas: (pie) => [
-      `<div class="p claro"><div class="k">Psicologías del mundo</div><h1>Cada cultura pensó la mente a su manera</h1>${mapaCon([])}<div class="desliza">Deslizá →</div>${pie(1)}</div>`,
-      `<div class="p papel"><div class="k">Japón</div><h2>Morita, Naikan y el <em>arugamama</em>: aceptar lo que se siente y actuar igual</h2>${mapaCon(['Japan'])}${pie(2)}</div>`,
-      `<div class="p claro"><div class="k">Sudáfrica y el África subsahariana</div><h2><em>Ubuntu</em>: «soy porque somos». Y el Friendship Bench, la terapia en un banco de plaza</h2>${mapaCon(['South Africa','Zimbabwe'])}${pie(3)}</div>`,
-      `<div class="p papel"><div class="k">Argentina y América Latina</div><h2>Pichon-Rivière, Marie Langer, la psicología de la liberación y el buen vivir andino</h2>${mapaCon(['Argentina','Bolivia','Peru','El Salvador'])}${pie(4)}</div>`,
+      `<div class="p claro"><div class="k">Psicologías del mundo</div><h1>Cada cultura pensó la mente a su manera</h1>${mapaCon([])}<div class="nota">Un recorrido por más de 20 tradiciones: qué tiene investigación, qué es tradición y qué es metáfora.</div><div class="desliza">Deslizá →</div>${pie(1)}</div>`,
+      `<div class="p papel"><div class="k">Japón</div><h2>Morita, Naikan y el <em>arugamama</em>: aceptar lo que se siente y actuar igual</h2>${mapaCon(['Japan'])}<div class="nota">Dos psicoterapias con autor, técnica e investigación. Y conceptos culturales como ikigai o wabi-sabi, que son otra cosa.</div>${pie(2)}</div>`,
+      `<div class="p claro"><div class="k">Sudáfrica y el África subsahariana</div><h2><em>Ubuntu</em>: «soy porque somos». Y el Friendship Bench, la terapia en un banco de plaza</h2>${mapaCon(['South Africa','Zimbabwe'])}<div class="nota">En Zimbabue, abuelas entrenadas acompañan a personas con depresión. Un ensayo clínico publicado en 2016 mostró buenos resultados.</div>${pie(3)}</div>`,
+      `<div class="p papel"><div class="k">Argentina y América Latina</div><h2>Pichon-Rivière, Marie Langer, la psicología de la liberación y el buen vivir andino</h2>${mapaCon(['Argentina','Bolivia','Peru','El Salvador'])}<div class="nota">Una psicología pensada desde acá: el grupo, la comunidad y el contexto social del sufrimiento.</div>${pie(4)}</div>`,
       `<div class="p claro"><div class="k">Y muchas más</div><div class="lista"><p><b>India y Tíbet</b>Yoga Sutras, lojong, bardo</p><p><b>Medio Oriente</b>Avicena, el sufismo, Maimónides, Hafez</p><p><b>Oceanía</b>Te Whare Tapa Whā, dadirri, kapwa</p><p><b>Europa</b>Wundt, Freud, Jung, Klein</p></div>${pie(5)}</div>`,
       `<div class="p bosque"><div style="color:#A3B18A">${ENSO}</div><div class="k" style="margin-top:40px">Mapa interactivo</div><h2>Tocá un país y descubrí sus psicologías: <em>link en la bio</em></h2><div class="txt" style="color:#D6D3C8">${web}/psicologias-del-mundo/</div><div class="txt" style="color:#D6D3C8;font-size:36px">Lic. Nicolás Raúl Bongiorno · Psicólogo clínico · ${cfg.matricula}<br>Alta Gracia y online</div>${pie(6, true)}</div>`,
     ],
@@ -66,11 +72,11 @@ const piezas = {
     url: '/linea-de-tiempo-de-la-psicologia/',
     placas: (pie) => [
       `<div class="p claro"><div class="k">Historia de la psicología</div><h1>De la filosofía a la inteligencia artificial</h1><div class="sub">2500 años de preguntas sobre la mente, en una línea de tiempo</div><div class="desliza">Deslizá →</div><div class="arco"><img src="data:image/webp;base64,${foto}"></div>${pie(1)}</div>`,
-      `<div class="p papel"><div class="k">Antigüedad</div><div class="anio">c. 500 a. C.</div><h2>En la India, Grecia y China ya se preguntaban qué es el alma y por qué sufrimos</h2>${pie(2)}</div>`,
-      `<div class="p claro"><div class="k">Nace la psicología</div><div class="anio">1879</div><h2>Wilhelm Wundt abre en Leipzig el primer laboratorio de psicología experimental</h2>${pie(3)}</div>`,
-      `<div class="p papel"><div class="k">Las escuelas profundas</div><div class="anio">1907</div><h2>Jung conoce a Freud en Viena. Seis años después, sus caminos se separan</h2>${pie(4)}</div>`,
-      `<div class="p claro"><div class="k">Argentina</div><div class="anio">1942</div><h2>Se funda la Asociación Psicoanalítica Argentina. En 1957 nace la carrera de Psicología en la UBA</h2>${pie(5)}</div>`,
-      `<div class="p papel"><div class="k">Hoy</div><div class="anio">2025</div><h2>Primeros ensayos clínicos con chatbots de IA. Promesas, riesgos y una pregunta: ¿qué lugar queda para el vínculo?</h2>${pie(6)}</div>`,
+      `<div class="p papel"><div class="k">Antigüedad</div><div class="anio">c. 500 a. C.</div><h2>En la India, Grecia y China ya se preguntaban qué es el alma y por qué sufrimos</h2><div class="eje"><i class="on" style="left:8%"></i><i class="" style="left:62%"></i><i class="" style="left:70%"></i><i class="" style="left:80%"></i><i class="" style="left:96%"></i><span style="left:6%">Antigüedad</span><span style="left:94%">Hoy</span></div>${pie(2)}</div>`,
+      `<div class="p claro"><div class="k">Nace la psicología</div><div class="anio">1879</div><h2>Wilhelm Wundt abre en Leipzig el primer laboratorio de psicología experimental</h2><div class="eje"><i class="" style="left:8%"></i><i class="on" style="left:62%"></i><i class="" style="left:70%"></i><i class="" style="left:80%"></i><i class="" style="left:96%"></i><span style="left:6%">Antigüedad</span><span style="left:94%">Hoy</span></div>${pie(3)}</div>`,
+      `<div class="p papel"><div class="k">Las escuelas profundas</div><div class="anio">1907</div><h2>Jung conoce a Freud en Viena. Seis años después, sus caminos se separan</h2><div class="eje"><i class="" style="left:8%"></i><i class="" style="left:62%"></i><i class="on" style="left:70%"></i><i class="" style="left:80%"></i><i class="" style="left:96%"></i><span style="left:6%">Antigüedad</span><span style="left:94%">Hoy</span></div>${pie(4)}</div>`,
+      `<div class="p claro"><div class="k">Argentina</div><div class="anio">1942</div><h2>Se funda la Asociación Psicoanalítica Argentina. En 1957 nace la carrera de Psicología en la UBA</h2><div class="eje"><i class="" style="left:8%"></i><i class="" style="left:62%"></i><i class="" style="left:70%"></i><i class="on" style="left:80%"></i><i class="" style="left:96%"></i><span style="left:6%">Antigüedad</span><span style="left:94%">Hoy</span></div>${pie(5)}</div>`,
+      `<div class="p papel"><div class="k">Hoy</div><div class="anio">2025</div><h2>Primeros ensayos clínicos con chatbots de IA. Promesas, riesgos y una pregunta: ¿qué lugar queda para el vínculo?</h2><div class="eje"><i class="" style="left:8%"></i><i class="" style="left:62%"></i><i class="" style="left:70%"></i><i class="" style="left:80%"></i><i class="on" style="left:96%"></i><span style="left:6%">Antigüedad</span><span style="left:94%">Hoy</span></div>${pie(6)}</div>`,
       `<div class="p bosque"><div style="color:#A3B18A">${ENSO}</div><div class="k" style="margin-top:40px">Línea de tiempo interactiva</div><h2>98 hitos, de Buda a la IA: <em>link en la bio</em></h2><div class="txt" style="color:#D6D3C8">${web}/linea-de-tiempo-de-la-psicologia/</div><div class="txt" style="color:#D6D3C8;font-size:36px">Lic. Nicolás Raúl Bongiorno · Psicólogo clínico · ${cfg.matricula}<br>Alta Gracia y online</div>${pie(7, true)}</div>`,
     ],
     texto: `La psicología como ciencia tiene apenas 150 años, pero sus preguntas son tan viejas como la filosofía.\n\nArmé una línea de tiempo interactiva: de los Upanishads y Platón a Freud, Jung, la psicología argentina y la inteligencia artificial. Cada hito te lleva a un artículo, un laboratorio o un test para seguir explorando.\n\nEstá en mi web (link en la bio): ${web}/linea-de-tiempo-de-la-psicologia/\n\n#Psicología #HistoriaDeLaPsicología #Freud #Jung #SaludMental #Psicólogo #AltaGracia #Córdoba #PsicólogoOnline`,
