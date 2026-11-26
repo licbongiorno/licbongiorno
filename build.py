@@ -222,21 +222,20 @@ RESENAS = cargar_json("resenas.json")
 GLOSARIO = cargar_json("glosario.json")
 GLOSARIO_FIORINI = cargar_json("glosario-fiorini.json")
 GLOSARIO_CLINICO = cargar_json("glosario-clinico.json")
-GLOSARIO_JAPONES = cargar_json("glosario-japones.json")
-GLOSARIO_CHINO = cargar_json("glosario-chino.json")
-GLOSARIO_RUSO = cargar_json("glosario-ruso.json")
-GLOSARIO_COREANO = cargar_json("glosario-coreano.json")
-GLOSARIO_INDIO = cargar_json("glosario-indio.json")
-GLOSARIO_ISLAMICO = cargar_json("glosario-islamico.json")
+# Glosarios culturales: (archivo, ruta, nombre, teaser del menú, parcial). Sumar uno nuevo = una línea acá.
+GLOSARIOS_CULTURALES = [
+    ("glosario-japones.json", "/glosario-de-psicologia-japonesa/", "Glosario de psicología japonesa", "Arugamama, amae, wabi-sabi…", "glosario_japones"),
+    ("glosario-chino.json", "/glosario-de-psicologia-china/", "Glosario de psicología china", "Wu wei, mianzi, qi…", "glosario_chino"),
+    ("glosario-ruso.json", "/glosario-de-psicologia-rusa/", "Glosario de psicología rusa", "Vygotsky, Luria, Bajtín…", "glosario_ruso"),
+    ("glosario-coreano.json", "/glosario-de-psicologia-coreana/", "Glosario de psicología coreana", "Han, jeong, nunchi…", "glosario_coreano"),
+    ("glosario-indio.json", "/glosario-de-psicologia-india/", "Glosario de psicología india", "Citta, kleshas, gunas…", "glosario_indio"),
+    ("glosario-islamico.json", "/glosario-de-psicologia-islamica-medieval/", "Glosario de psicología islámica medieval", "Nafs, wahm, bimaristán…", "glosario_islamico"),
+]
+GLOSARIOS_CULTURALES = [(cargar_json(a), r, n, t, p) for a, r, n, t, p in GLOSARIOS_CULTURALES if (CONTENIDO / a).exists()]
 GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
              (GLOSARIO_FIORINI, "/glosario-fiorini/", "Glosario de la psicoterapia breve focalizada de Héctor Fiorini"),
-             (GLOSARIO_CLINICO, "/glosario-clinico/", "Glosario de psicología clínica y psicoterapia"),
-             (GLOSARIO_JAPONES, "/glosario-de-psicologia-japonesa/", "Glosario de psicología japonesa"),
-             (GLOSARIO_CHINO, "/glosario-de-psicologia-china/", "Glosario de psicología china"),
-             (GLOSARIO_RUSO, "/glosario-de-psicologia-rusa/", "Glosario de psicología rusa"),
-             (GLOSARIO_COREANO, "/glosario-de-psicologia-coreana/", "Glosario de psicología coreana"),
-             (GLOSARIO_INDIO, "/glosario-de-psicologia-india/", "Glosario de psicología india"),
-             (GLOSARIO_ISLAMICO, "/glosario-de-psicologia-islamica-medieval/", "Glosario de psicología islámica medieval")]
+             (GLOSARIO_CLINICO, "/glosario-clinico/", "Glosario de psicología clínica y psicoterapia")] + \
+            [(l, r, n) for l, r, n, _, _ in GLOSARIOS_CULTURALES]
 
 
 # --------------------------------------------------------------------------- Markdown mínimo
@@ -540,13 +539,7 @@ NAV = [
         ("Mi enfoque integrativo", "/enfoque/", "Jung, psicoanálisis y otras corrientes"),
         ("Glosario junguiano", "/glosario-junguiano/", "Sombra, arquetipos, individuación…"),
         ("Glosario de psicoterapia", "/glosario-clinico/", "Encuadre, transferencia, apego…"),
-        ("Glosario de psicología japonesa", "/glosario-de-psicologia-japonesa/", "Arugamama, amae, wabi-sabi…"),
-        ("Glosario de psicología china", "/glosario-de-psicologia-china/", "Wu wei, mianzi, qi…"),
-        ("Glosario de psicología rusa", "/glosario-de-psicologia-rusa/", "Vygotsky, Luria, Bajtín…"),
-        ("Glosario de psicología coreana", "/glosario-de-psicologia-coreana/", "Han, jeong, nunchi…"),
-        ("Glosario de psicología india", "/glosario-de-psicologia-india/", "Citta, kleshas, gunas…"),
-        ("Glosario de psicología islámica medieval", "/glosario-de-psicologia-islamica-medieval/", "Nafs, wahm, bimaristán…"),
-    ]),
+    ] + [(n, r, t) for _, r, n, t, _ in GLOSARIOS_CULTURALES]),
     ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
         ("Presencial en Alta Gracia", "/psicologo-alta-gracia/", f'Consultorio en {D["calle"]}'),
@@ -1284,13 +1277,7 @@ def pie():
           <li><a href="/recursos/">Recursos</a></li>
           <li><a href="/glosario-junguiano/">Glosario junguiano</a></li>
           <li><a href="/glosario-clinico/">Glosario de psicoterapia</a></li>
-          <li><a href="/glosario-de-psicologia-japonesa/">Glosario de psicología japonesa</a></li>
-          <li><a href="/glosario-de-psicologia-china/">Glosario de psicología china</a></li>
-          <li><a href="/glosario-de-psicologia-rusa/">Glosario de psicología rusa</a></li>
-          <li><a href="/glosario-de-psicologia-coreana/">Glosario de psicología coreana</a></li>
-          <li><a href="/glosario-de-psicologia-india/">Glosario de psicología india</a></li>
-          <li><a href="/glosario-de-psicologia-islamica-medieval/">Glosario de psicología islámica medieval</a></li>
-          <li><a href="/primera-consulta/">Tu primera consulta</a></li>
+{"".join(f'          <li><a href="{r}">{n}</a></li>\n' for _, r, n, _, _ in GLOSARIOS_CULTURALES)}          <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
           <li><a href="/opiniones/">Opiniones de pacientes</a></li>
         </ul>
@@ -2475,12 +2462,7 @@ def reemplazos(cuerpo, ruta):
         "glosario": bloque_glosario,
         "glosario_fiorini": lambda: bloque_glosario(GLOSARIO_FIORINI),
         "glosario_clinico": lambda: bloque_glosario(GLOSARIO_CLINICO),
-        "glosario_japones": lambda: bloque_glosario(GLOSARIO_JAPONES),
-        "glosario_chino": lambda: bloque_glosario(GLOSARIO_CHINO),
-        "glosario_ruso": lambda: bloque_glosario(GLOSARIO_RUSO),
-        "glosario_coreano": lambda: bloque_glosario(GLOSARIO_COREANO),
-        "glosario_indio": lambda: bloque_glosario(GLOSARIO_INDIO),
-        "glosario_islamico": lambda: bloque_glosario(GLOSARIO_ISLAMICO),
+        **{p: (lambda l=l: bloque_glosario(l)) for l, _, _, _, p in GLOSARIOS_CULTURALES},
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
