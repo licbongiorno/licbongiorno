@@ -1,4 +1,4 @@
-/* Laboratorios temáticos (7): jeong, habla interna (Vygotsky) y el yo y el nosotros (Markus y Kitayama).
+/* Laboratorios temáticos (7): jeong, habla interna (Vygotsky), el yo y el nosotros (Markus y Kitayama) y los Yoga Sutras.
    Requiere lab-base.js. Nada se envía a ningún servidor. Los planes de 7 días y los formularios los maneja lab-base.js. */
 (function () {
   "use strict";
@@ -72,6 +72,29 @@
     {"t": "Ser interdependiente es lo mismo que ser dependiente o sumiso.", "r": "a", "e": "El yo interdependiente pone el acento en los vínculos y el ajuste con los demás, lo cual no implica falta de criterio propio."},
     {"t": "En algunos estudios, en Japón el bienestar se asoció más con emociones de conexión y en Estados Unidos con emociones de logro.", "r": "b", "e": "Es lo que encontraron Kitayama, Markus y Kurokawa (2000)."},
     {"t": "Este autochequeo mide tu tipo de yo.", "r": "a", "e": "Es una guía de reflexión sin puntaje ni validación. Para medir estos conceptos en investigación se usan escalas como la de Singelis (1994), que también tiene sus críticas."}
+  ]);
+
+  /* Yoga Sutras */
+  var OPS_YSU_KLESHAS = ["Avidya", "Asmita", "Raga", "Dvesha", "Abhinivesha"];
+  LAB.quiz("ysu-kleshas", [
+    {"sinComillas": true, "t": "Una persona revisa el celular cada cinco minutos esperando otro mensaje de alguien que le gusta.", "ops": OPS_YSU_KLESHAS, "r": 2, "e": "Es el apego a lo que dio placer, que empuja a buscarlo de nuevo una y otra vez."},
+    {"sinComillas": true, "t": "Alguien no vuelve a manejar desde que tuvo un choque menor, hace años.", "ops": OPS_YSU_KLESHAS, "r": 3, "e": "Es la aversión a lo que dio dolor. La psicología la estudiaría como evitación, que mantiene el miedo."},
+    {"sinComillas": true, "t": "Un hombre se derrumba cuando lo jubilan porque sentía que él «era» su cargo.", "ops": OPS_YSU_KLESHAS, "r": 1, "e": "Es la identificación completa con una imagen de uno mismo. Cuando esa imagen se pierde, parece que se pierde todo."},
+    {"sinComillas": true, "t": "Una mujer vive como si su juventud y su salud fueran a durar para siempre, y cada señal del paso del tiempo la desespera.", "ops": OPS_YSU_KLESHAS, "r": 0, "e": "Es confundir lo pasajero con lo permanente, la ignorancia de fondo que Patañjali pone en la raíz de las demás."},
+    {"sinComillas": true, "t": "Alguien sano siente terror cada vez que piensa que algún día va a morir, y evita cualquier conversación sobre el tema.", "ops": OPS_YSU_KLESHAS, "r": 4, "e": "Es el aferrarse a la vida y el miedo a la muerte. Patañjali dice que afecta incluso a los sabios."},
+    {"sinComillas": true, "t": "Una persona no tolera que la critiquen porque siente que cualquier crítica la define entera.", "ops": OPS_YSU_KLESHAS, "r": 1, "e": "Otra forma de asmita: quedar pegado a una imagen de uno mismo que necesita ser protegida."},
+    {"sinComillas": true, "t": "Un chico come algo dulce cada vez que se aburre, aunque después se sienta mal.", "ops": OPS_YSU_KLESHAS, "r": 2, "e": "Es raga: buscar de nuevo algo que alguna vez trajo alivio o placer."},
+    {"sinComillas": true, "t": "Una mujer cambia de vereda cada vez que ve a una ex compañera con la que tuvo un conflicto.", "ops": OPS_YSU_KLESHAS, "r": 3, "e": "Es dvesha, la aversión. Evitar alivia en el momento, pero mantiene el malestar."}
+  ]);
+  LAB.quiz("ysu-mitos", [
+    {"t": "En los Yoga Sutras, el yoga se define como el aquietamiento de las fluctuaciones de la mente.", "r": "b", "e": "Es el segundo aforismo del texto: <em>yogas citta vritti nirodhah</em>."},
+    {"t": "Los Yoga Sutras dedican la mayor parte del texto a las posturas.", "r": "a", "e": "Las posturas ocupan muy poco. El texto trata sobre todo de la mente, el sufrimiento y la meditación."},
+    {"t": "El yoga de posturas que se practica hoy es en buena medida una creación moderna.", "r": "b", "e": "Mark Singleton lo documentó en <em>Yoga Body</em> (2010), al estudiar cómo se combinó con la gimnasia y la cultura física de los siglos XIX y XX."},
+    {"t": "Está demostrado que el yoga cura la depresión.", "r": "a", "e": "Las revisiones encontraron efectos moderados a corto plazo, con estudios de calidad variable, y una de 2024 no halló diferencias claras frente a otros ejercicios. Puede ser un complemento, no un reemplazo del tratamiento."},
+    {"t": "Para Patañjali, el apego y la aversión son dos de las causas del sufrimiento.", "r": "b", "e": "Son <em>raga</em> y <em>dvesha</em>, dos de las cinco aflicciones."},
+    {"t": "El desapego del yoga es lo mismo que la indiferencia.", "r": "a", "e": "<em>Vairagya</em> es no aferrarse al resultado. Se puede practicar con compromiso y con afecto."},
+    {"t": "Una exhalación un poco más larga que la inhalación suele ayudar a calmarse.", "r": "b", "e": "Es una práctica sencilla con cierto respaldo en la investigación sobre la respiración lenta, aunque los estudios son variados."},
+    {"t": "Cualquier técnica de respiración intensa es segura para cualquier persona.", "r": "a", "e": "Las respiraciones muy rápidas o con retenciones largas pueden marear o angustiar. Si tenés problemas de salud, consultá antes y practicá con guía."}
   ]);
 
 })();
