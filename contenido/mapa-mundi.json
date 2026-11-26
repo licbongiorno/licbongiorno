@@ -1070,6 +1070,173 @@
    [
     "occidental"
    ]
+  ],
+  "Bahamas": [
+   "Bahamas",
+   [
+    "caribe"
+   ]
+  ],
+  "Guyana": [
+   "Guyana",
+   [
+    "caribe",
+    "latinoamericana"
+   ]
+  ],
+  "Suriname": [
+   "Surinam",
+   [
+    "caribe",
+    "latinoamericana"
+   ]
+  ],
+  "Falkland Is.": [
+   "Islas Malvinas",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "W. Sahara": [
+   "Sahara Occidental",
+   [
+    "islamica",
+    "africana"
+   ]
+  ],
+  "Portugal": [
+   "Portugal",
+   [
+    "occidental",
+    "caribe"
+   ]
+  ],
+  "Ireland": [
+   "Irlanda",
+   [
+    "occidental"
+   ]
+  ],
+  "Belgium": [
+   "Bélgica",
+   [
+    "occidental"
+   ]
+  ],
+  "Luxembourg": [
+   "Luxemburgo",
+   [
+    "occidental"
+   ]
+  ],
+  "Netherlands": [
+   "Países Bajos",
+   [
+    "occidental",
+    "judia"
+   ]
+  ],
+  "Slovakia": [
+   "Eslovaquia",
+   [
+    "occidental"
+   ]
+  ],
+  "Croatia": [
+   "Croacia",
+   [
+    "occidental"
+   ]
+  ],
+  "Slovenia": [
+   "Eslovenia",
+   [
+    "occidental"
+   ]
+  ],
+  "Bosnia and Herz.": [
+   "Bosnia y Herzegovina",
+   [
+    "islamica",
+    "sufi"
+   ]
+  ],
+  "Albania": [
+   "Albania",
+   [
+    "islamica",
+    "sufi"
+   ]
+  ],
+  "Kosovo": [
+   "Kosovo",
+   [
+    "islamica",
+    "sufi"
+   ]
+  ],
+  "Macedonia": [
+   "Macedonia del Norte",
+   [
+    "islamica",
+    "sufi"
+   ]
+  ],
+  "Serbia": [
+   "Serbia",
+   [
+    "occidental"
+   ]
+  ],
+  "Montenegro": [
+   "Montenegro",
+   [
+    "occidental"
+   ]
+  ],
+  "Bulgaria": [
+   "Bulgaria",
+   [
+    "occidental"
+   ]
+  ],
+  "Moldova": [
+   "Moldavia",
+   [
+    "rusa"
+   ]
+  ],
+  "Latvia": [
+   "Letonia",
+   [
+    "rusa"
+   ]
+  ],
+  "Estonia": [
+   "Estonia",
+   [
+    "rusa"
+   ]
+  ],
+  "Cyprus": [
+   "Chipre",
+   [
+    "griega"
+   ]
+  ],
+  "N. Cyprus": [
+   "Chipre del Norte",
+   [
+    "griega",
+    "islamica"
+   ]
+  ],
+  "Azerbaijan": [
+   "Azerbaiyán",
+   [
+    "persa",
+    "islamica"
+   ]
   ]
  },
  "marcas": [
@@ -1154,6 +1321,10 @@
    [
     "hans-selye",
     "Hans Selye"
+   ],
+   [
+    "martin-buber",
+    "Martin Buber"
    ]
   ],
   "Hungary": [
@@ -1202,6 +1373,10 @@
    [
     "paul-gilbert",
     "Paul Gilbert"
+   ],
+   [
+    "john-locke",
+    "John Locke"
    ]
   ],
   "Germany": [
@@ -1236,6 +1411,30 @@
    [
     "bluma-zeigarnik",
     "Bluma Zeigarnik"
+   ],
+   [
+    "immanuel-kant",
+    "Immanuel Kant"
+   ],
+   [
+    "hegel",
+    "Hegel"
+   ],
+   [
+    "arthur-schopenhauer",
+    "Arthur Schopenhauer"
+   ],
+   [
+    "friedrich-nietzsche",
+    "Friedrich Nietzsche"
+   ],
+   [
+    "edmund-husserl",
+    "Edmund Husserl"
+   ],
+   [
+    "martin-heidegger",
+    "Martin Heidegger"
    ]
   ],
   "France": [
@@ -1250,6 +1449,18 @@
    [
     "francoise-dolto",
     "Françoise Dolto"
+   ],
+   [
+    "rene-descartes",
+    "René Descartes"
+   ],
+   [
+    "jean-paul-sartre",
+    "Jean-Paul Sartre"
+   ],
+   [
+    "maurice-merleau-ponty",
+    "Maurice Merleau-Ponty"
    ]
   ],
   "Italy": [
@@ -1432,6 +1643,40 @@
    [
     "bluma-zeigarnik",
     "Bluma Zeigarnik"
+   ]
+  ],
+  "Netherlands": [
+   [
+    "baruch-spinoza",
+    "Baruch Spinoza"
+   ],
+   [
+    "rene-descartes",
+    "René Descartes"
+   ]
+  ],
+  "Denmark": [
+   [
+    "soren-kierkegaard",
+    "Søren Kierkegaard"
+   ]
+  ],
+  "Israel": [
+   [
+    "martin-buber",
+    "Martin Buber"
+   ]
+  ],
+  "Slovakia": [
+   [
+    "hans-selye",
+    "Hans Selye"
+   ]
+  ],
+  "Croatia": [
+   [
+    "mihaly-csikszentmihalyi",
+    "Mihaly Csikszentmihalyi"
    ]
   ]
  }

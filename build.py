@@ -553,6 +553,7 @@ NAV = [
         ("Glosario junguiano", "/glosario-junguiano/", "Sombra, arquetipos, individuación…"),
         ("Glosario de psicoterapia", "/glosario-clinico/", "Encuadre, transferencia, apego…"),
         ("Psicologías del mundo", "/psicologias-del-mundo/", "Mapas y glosarios de tradiciones de todo el mundo"),
+        ("Línea de tiempo de la psicología", "/linea-de-tiempo-de-la-psicologia/", "De la filosofía antigua a la inteligencia artificial"),
     ]),
     ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
@@ -1303,6 +1304,7 @@ def pie():
           <li><a href="/glosario-junguiano/">Glosario junguiano</a></li>
           <li><a href="/glosario-clinico/">Glosario de psicoterapia</a></li>
           <li><a href="/psicologias-del-mundo/">Psicologías del mundo</a></li>
+          <li><a href="/linea-de-tiempo-de-la-psicologia/">Línea de tiempo de la psicología</a></li>
           <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
           <li><a href="/opiniones/">Opiniones de pacientes</a></li>
@@ -1492,6 +1494,37 @@ def datos_mapa_mundi():
     for m in d["marcas"]:
         m["series"] = [k for k in m["series"] if k in d["series"]]
     return d
+
+
+REGIONES_LT = {"occidente": "Occidente", "oriente": "Oriente", "medio-oriente": "Medio Oriente", "america": "América",
+               "africa": "África", "oceania": "Oceanía", "global": "Global"}
+
+
+def bloque_linea_de_tiempo():
+    """Línea de tiempo de la psicología (contenido/linea-de-tiempo.json), renderizada en HTML estático; el JS solo filtra."""
+    if not (CONTENIDO / "linea-de-tiempo.json").exists():
+        return ""
+    d = cargar_json("linea-de-tiempo.json")
+    hitos = sorted(d["hitos"], key=lambda h: h["anio"])
+    nav = "".join(f'<li><a href="#era-{e["id"]}">{esc(e["nombre"])}</a></li>' for e in d["eras"])
+    regiones = sorted({h.get("region", "global") for h in hitos}, key=list(REGIONES_LT).index)
+    filtro = ('<div class="lt-filtro" data-lt-filtro hidden><span>Mostrar:</span><button type="button" data-region="" aria-pressed="true">Todo</button>'
+              + "".join(f'<button type="button" data-region="{r}" aria-pressed="false">{REGIONES_LT[r]}</button>' for r in regiones) + "</div>")
+    out = []
+    for e in d["eras"]:
+        hs = [h for h in hitos if h["era"] == e["id"]]
+        if not hs:
+            continue
+        items = "".join(
+            f'<li class="lt-hito revelar" data-region="{h.get("region", "global")}"><p class="lt-fecha">{esc(h["fecha"])}</p>'
+            f'<div class="lt-cuerpo"><h3>{esc(h["titulo"])}</h3><p>{inline_md(h["texto"])}</p>'
+            + (('<ul class="lt-enlaces">' + "".join(f'<li><a href="{esc(l["u"])}">{esc(l["t"])}</a></li>' for l in h.get("enlaces", [])) + "</ul>") if h.get("enlaces") else "")
+            + "</div></li>" for h in hs)
+        out.append(f'<section class="lt-era" id="era-{e["id"]}" aria-labelledby="era-t-{e["id"]}"><header class="lt-era__cab">'
+                   f'<p class="lt-era__rango">{esc(e["desde"])} – {esc(e["hasta"])}</p><h2 id="era-t-{e["id"]}">{esc(e["nombre"])}</h2>'
+                   f'<p>{inline_md(e["desc"])}</p></header><ol class="lt-hitos">{items}</ol></section>')
+    return (f'<nav class="lt-nav" aria-label="Épocas"><ul>{nav}</ul></nav>{filtro}'
+            f'<div class="lt" data-linea-tiempo>{"".join(out)}</div>')
 
 def bloque_datos_clave():
     filas = [
@@ -2619,6 +2652,7 @@ def reemplazos(cuerpo, ruta):
             'o elegí una tradición abajo del mapa para ver dónde nació.</p></div></div>'
             '<script type="application/json" id="mapa-mundi-datos">'
             + json.dumps(datos_mapa_mundi(), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + '</script>'),
+        "linea_de_tiempo": bloque_linea_de_tiempo,
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
