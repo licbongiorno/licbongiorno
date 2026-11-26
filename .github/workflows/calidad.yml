@@ -16,6 +16,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # historial completo: build.py fecha cada página con git log
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
