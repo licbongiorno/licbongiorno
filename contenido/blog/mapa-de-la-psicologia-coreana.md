@@ -105,9 +105,13 @@ Por el glosario, para ubicar los términos, y después por el artículo que más
 - [Seon, el budismo coreano](/recursos/seon-el-budismo-coreano/)
 - [Confucianismo coreano](/recursos/confucianismo-coreano/)
 - [Salud mental en Corea](/recursos/salud-mental-en-corea/)
+- [Musok: el chamanismo coreano y el duelo](/recursos/musok-chamanismo-y-duelo/)
+- [La presión académica en Corea](/recursos/presion-academica-en-corea/)
+- [La cultura de la imagen en Corea](/recursos/cultura-de-la-imagen-en-corea/)
+- [La psicoterapia en Corea hoy](/recursos/psicoterapia-en-corea-hoy/)
 - [Glosario de psicología coreana](/glosario-de-psicologia-coreana/)
 
-Para las tradiciones vecinas, mirá el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/) y el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
+Para las tradiciones vecinas, mirá el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/) y el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/). Más lejos, también está el [mapa de la psicología india](/recursos/mapa-de-la-psicologia-india/). Para practicar, el [laboratorio de jeong](/laboratorio-de-jeong/) y el [laboratorio del yo y el nosotros](/laboratorio-del-yo-y-el-nosotros/).
 
 ## Para seguir leyendo
 

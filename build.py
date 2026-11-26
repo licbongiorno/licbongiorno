@@ -226,13 +226,15 @@ GLOSARIO_JAPONES = cargar_json("glosario-japones.json")
 GLOSARIO_CHINO = cargar_json("glosario-chino.json")
 GLOSARIO_RUSO = cargar_json("glosario-ruso.json")
 GLOSARIO_COREANO = cargar_json("glosario-coreano.json")
+GLOSARIO_INDIO = cargar_json("glosario-indio.json")
 GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
              (GLOSARIO_FIORINI, "/glosario-fiorini/", "Glosario de la psicoterapia breve focalizada de Héctor Fiorini"),
              (GLOSARIO_CLINICO, "/glosario-clinico/", "Glosario de psicología clínica y psicoterapia"),
              (GLOSARIO_JAPONES, "/glosario-de-psicologia-japonesa/", "Glosario de psicología japonesa"),
              (GLOSARIO_CHINO, "/glosario-de-psicologia-china/", "Glosario de psicología china"),
              (GLOSARIO_RUSO, "/glosario-de-psicologia-rusa/", "Glosario de psicología rusa"),
-             (GLOSARIO_COREANO, "/glosario-de-psicologia-coreana/", "Glosario de psicología coreana")]
+             (GLOSARIO_COREANO, "/glosario-de-psicologia-coreana/", "Glosario de psicología coreana"),
+             (GLOSARIO_INDIO, "/glosario-de-psicologia-india/", "Glosario de psicología india")]
 
 
 # --------------------------------------------------------------------------- Markdown mínimo
@@ -540,6 +542,7 @@ NAV = [
         ("Glosario de psicología china", "/glosario-de-psicologia-china/", "Wu wei, mianzi, qi…"),
         ("Glosario de psicología rusa", "/glosario-de-psicologia-rusa/", "Vygotsky, Luria, Bajtín…"),
         ("Glosario de psicología coreana", "/glosario-de-psicologia-coreana/", "Han, jeong, nunchi…"),
+        ("Glosario de psicología india", "/glosario-de-psicologia-india/", "Citta, kleshas, gunas…"),
     ]),
     ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
@@ -1280,6 +1283,7 @@ def pie():
           <li><a href="/glosario-de-psicologia-china/">Glosario de psicología china</a></li>
           <li><a href="/glosario-de-psicologia-rusa/">Glosario de psicología rusa</a></li>
           <li><a href="/glosario-de-psicologia-coreana/">Glosario de psicología coreana</a></li>
+          <li><a href="/glosario-de-psicologia-india/">Glosario de psicología india</a></li>
           <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
           <li><a href="/opiniones/">Opiniones de pacientes</a></li>
@@ -1702,6 +1706,14 @@ TERMINOS_GLOSARIO = [
     ("/glosario-junguiano/", "tipos-psicologicos", r"tipos psicológicos"),
     ("/glosario-junguiano/", "complejo", r"complejos"),
     ("/glosario-de-psicologia-coreana/", "hwa-byung", r"hwa-byung"),
+    ("/glosario-de-psicologia-coreana/", "mudang", r"mudang"),
+    ("/glosario-de-psicologia-coreana/", "oemo-jisang-juui", r"oemo jisang juui"),
+    ("/glosario-de-psicologia-india/", "sindrome-de-dhat", r"síndrome de dhat"),
+    ("/glosario-de-psicologia-india/", "klesha", r"kleshas?"),
+    ("/glosario-de-psicologia-india/", "gunas", r"gunas"),
+    ("/glosario-de-psicologia-india/", "doshas", r"doshas"),
+    ("/glosario-de-psicologia-india/", "samskara", r"samskaras?"),
+    ("/glosario-de-psicologia-india/", "teoria-de-los-deseos-opuestos", r"deseos opuestos"),
     ("/glosario-de-psicologia-coreana/", "nunchi", r"nunchi"),
     ("/glosario-de-psicologia-coreana/", "jeong", r"jeong"),
     ("/glosario-de-psicologia-coreana/", "godoksa", r"godoksa"),
@@ -2295,7 +2307,7 @@ CONSULTA_FIJA = {
     "insomnio": "/estres-y-agotamiento/", "pesadillas": "/trauma/", "dependencia-emocional": "/dificultades-vinculares/",
     "patrones-que-se-repiten-en-los-vinculos": "/dificultades-vinculares/", "la-culpa": "/autoestima/",
     "fauna-y-observacion": "/estres-y-agotamiento/", "flora-y-salud-mental": "/estres-y-agotamiento/",
-    "cuidar-a-un-familiar": "/terapia-para-adultos-mayores/", "pantallas-y-redes-sociales": "/psicologo-para-adolescentes/", "la-resiliencia": "/duelo-y-perdidas/", "sindrome-del-impostor": "/autoestima/", "la-envidia": "/autoestima/", "nido-vacio": "/crisis-vitales/", "menopausia-y-salud-emocional": "/crisis-vitales/", "trastorno-obsesivo-compulsivo": "/ansiedad-y-ataques-de-panico/", "psicologo-o-psiquiatra": "/primera-consulta/", "como-elegir-psicologo": "/primera-consulta/", "cuanto-dura-una-terapia": "/primera-consulta/", "terapia-de-pareja": "/dificultades-vinculares/", "violencia-en-la-pareja": None, "apego-ansioso-y-evitativo": "/dificultades-vinculares/", "dolor-cronico-y-psicologia": "/estres-y-agotamiento/", "terapia-morita": "/ansiedad-y-ataques-de-panico/", "kaizen": "/crisis-vitales/", "wabi-sabi-y-kintsugi": "/autoestima/", "amae": "/dificultades-vinculares/", "shinrin-yoku": "/estres-y-agotamiento/", "naikan": "/psicoterapia-para-adultos/", "hikikomori": "/psicologo-para-adolescentes/", "taoismo-y-psicologia": "/ansiedad-y-ataques-de-panico/", "psicoterapia-taoista-cognitiva": "/ansiedad-y-ataques-de-panico/", "neurastenia-y-somatizacion": "/depresion/", "qigong-y-tai-chi": "/estres-y-agotamiento/", "confucio-y-la-psicologia": "/dificultades-vinculares/", "mianzi-y-guanxi": "/autoestima/", "chan-el-budismo-chino": "/psicoterapia-para-adultos/", "mapa-de-la-psicologia-china": "/psicoterapia-para-adultos/", "zhuangzi": None, "mencio-y-xunzi": None, "wang-yangming": None, "oriente-y-occidente-psicologia-cultural": "/psicoterapia-para-adultos/", "la-psicologia-en-china": None, "acupuntura-y-salud-mental": "/depresion/", "teoria-de-la-actividad": "/psicoterapia-para-adultos/", "bajtin-y-el-dialogo": "/psicoterapia-para-adultos/", "mapa-de-la-psicologia-coreana": "/psicoterapia-para-adultos/", "han-y-hwa-byung": "/depresion/", "jeong": "/dificultades-vinculares/", "nunchi": "/ansiedad-y-ataques-de-panico/", "seon-el-budismo-coreano": "/psicoterapia-para-adultos/", "salud-mental-en-corea": None, "confucianismo-coreano": "/dificultades-vinculares/", "mapa-de-la-psicologia-japonesa": "/psicoterapia-para-adultos/", "acoso-escolar-y-laboral": "/trauma/",
+    "cuidar-a-un-familiar": "/terapia-para-adultos-mayores/", "pantallas-y-redes-sociales": "/psicologo-para-adolescentes/", "la-resiliencia": "/duelo-y-perdidas/", "sindrome-del-impostor": "/autoestima/", "la-envidia": "/autoestima/", "nido-vacio": "/crisis-vitales/", "menopausia-y-salud-emocional": "/crisis-vitales/", "trastorno-obsesivo-compulsivo": "/ansiedad-y-ataques-de-panico/", "psicologo-o-psiquiatra": "/primera-consulta/", "como-elegir-psicologo": "/primera-consulta/", "cuanto-dura-una-terapia": "/primera-consulta/", "terapia-de-pareja": "/dificultades-vinculares/", "violencia-en-la-pareja": None, "apego-ansioso-y-evitativo": "/dificultades-vinculares/", "dolor-cronico-y-psicologia": "/estres-y-agotamiento/", "terapia-morita": "/ansiedad-y-ataques-de-panico/", "kaizen": "/crisis-vitales/", "wabi-sabi-y-kintsugi": "/autoestima/", "amae": "/dificultades-vinculares/", "shinrin-yoku": "/estres-y-agotamiento/", "naikan": "/psicoterapia-para-adultos/", "hikikomori": "/psicologo-para-adolescentes/", "taoismo-y-psicologia": "/ansiedad-y-ataques-de-panico/", "psicoterapia-taoista-cognitiva": "/ansiedad-y-ataques-de-panico/", "neurastenia-y-somatizacion": "/depresion/", "qigong-y-tai-chi": "/estres-y-agotamiento/", "confucio-y-la-psicologia": "/dificultades-vinculares/", "mianzi-y-guanxi": "/autoestima/", "chan-el-budismo-chino": "/psicoterapia-para-adultos/", "mapa-de-la-psicologia-china": "/psicoterapia-para-adultos/", "zhuangzi": None, "mencio-y-xunzi": None, "wang-yangming": None, "oriente-y-occidente-psicologia-cultural": "/psicoterapia-para-adultos/", "la-psicologia-en-china": None, "acupuntura-y-salud-mental": "/depresion/", "teoria-de-la-actividad": "/psicoterapia-para-adultos/", "bajtin-y-el-dialogo": "/psicoterapia-para-adultos/", "mapa-de-la-psicologia-coreana": "/psicoterapia-para-adultos/", "han-y-hwa-byung": "/depresion/", "jeong": "/dificultades-vinculares/", "nunchi": "/ansiedad-y-ataques-de-panico/", "seon-el-budismo-coreano": "/psicoterapia-para-adultos/", "salud-mental-en-corea": None, "confucianismo-coreano": "/dificultades-vinculares/", "musok-chamanismo-y-duelo": "/duelo-y-perdidas/", "presion-academica-en-corea": "/psicologo-para-adolescentes/", "cultura-de-la-imagen-en-corea": "/autoestima/", "psicoterapia-en-corea-hoy": "/primera-consulta/", "mapa-de-la-psicologia-india": "/psicoterapia-para-adultos/", "yoga-como-psicologia": "/ansiedad-y-ataques-de-panico/", "ayurveda-y-salud-mental": None, "sudhir-kakar": None, "dhat-y-sindromes-culturales-de-la-india": "/ansiedad-y-ataques-de-panico/", "mapa-de-la-psicologia-japonesa": "/psicoterapia-para-adultos/", "acoso-escolar-y-laboral": "/trauma/",
     "apuestas-online": "/psicoterapia-para-adultos/", "trastorno-bipolar": "/depresion/",
 }
 CONSULTA_CATEGORIAS = {"Salud mental", "Ansiedad y emociones", "Vínculos y relaciones", "Desarrollo personal",
@@ -2456,6 +2468,7 @@ def reemplazos(cuerpo, ruta):
         "glosario_chino": lambda: bloque_glosario(GLOSARIO_CHINO),
         "glosario_ruso": lambda: bloque_glosario(GLOSARIO_RUSO),
         "glosario_coreano": lambda: bloque_glosario(GLOSARIO_COREANO),
+        "glosario_indio": lambda: bloque_glosario(GLOSARIO_INDIO),
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,

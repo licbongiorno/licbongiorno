@@ -112,7 +112,7 @@ Hay cuadros actuales de fatiga persistente con síntomas parecidos, pero no hay 
 - [Depresión](/depresion/)
 - [Glosario clínico](/glosario-clinico/)
 
-Otro ejemplo de malestar que se expresa en el cuerpo es el [hwa-byung coreano](/recursos/han-y-hwa-byung/).
+Otro ejemplo de malestar que se expresa en el cuerpo es el [hwa-byung coreano](/recursos/han-y-hwa-byung/), y en el sur de Asia, el [síndrome de dhat](/recursos/dhat-y-sindromes-culturales-de-la-india/).
 
 ## Para seguir leyendo
 
