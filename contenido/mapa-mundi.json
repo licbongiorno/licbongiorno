@@ -119,6 +119,12 @@
    "mapa": "/recursos/mapa-de-las-psicologias-del-pacifico/",
    "glosario": "/glosario-de-psicologias-del-pacifico/",
    "desc": "Kapwa filipino, hoʻoponopono y Te Whare Tapa Whā maorí."
+  },
+  "occidental": {
+   "nombre": "Dónde nació la psicología",
+   "mapa": "/recursos/donde-nacio-la-psicologia/",
+   "glosario": null,
+   "desc": "De Leipzig a Viena, Zúrich, Londres y Estados Unidos: los países de origen de la psicología occidental."
   }
  },
  "paises": {
@@ -435,12 +441,14 @@
   "Italy": [
    "Italia",
    [
+    "occidental",
     "griega"
    ]
   ],
   "Russia": [
    "Rusia",
    [
+    "occidental",
     "rusa"
    ]
   ],
@@ -523,6 +531,7 @@
   "Canada": [
    "Canadá",
    [
+    "occidental",
     "artico",
     "originarios"
    ]
@@ -530,6 +539,7 @@
   "United States of America": [
    "Estados Unidos",
    [
+    "occidental",
     "originarios",
     "artico",
     "pacifico",
@@ -1012,6 +1022,54 @@
    [
     "pacifico"
    ]
+  ],
+  "Switzerland": [
+   "Suiza",
+   [
+    "occidental"
+   ]
+  ],
+  "Austria": [
+   "Austria",
+   [
+    "occidental"
+   ]
+  ],
+  "Hungary": [
+   "Hungría",
+   [
+    "occidental"
+   ]
+  ],
+  "United Kingdom": [
+   "Reino Unido",
+   [
+    "occidental"
+   ]
+  ],
+  "Germany": [
+   "Alemania",
+   [
+    "occidental"
+   ]
+  ],
+  "France": [
+   "Francia",
+   [
+    "occidental"
+   ]
+  ],
+  "Romania": [
+   "Rumania",
+   [
+    "occidental"
+   ]
+  ],
+  "Czechia": [
+   "Chequia",
+   [
+    "occidental"
+   ]
   ]
  },
  "marcas": [
@@ -1048,5 +1106,333 @@
     "africana"
    ]
   }
- ]
+ ],
+ "autores": {
+  "Switzerland": [
+   [
+    "carl-gustav-jung",
+    "Carl Gustav Jung"
+   ],
+   [
+    "jean-piaget",
+    "Jean Piaget"
+   ],
+   [
+    "ludwig-binswanger",
+    "Ludwig Binswanger"
+   ]
+  ],
+  "Austria": [
+   [
+    "sigmund-freud",
+    "Sigmund Freud"
+   ],
+   [
+    "anna-freud",
+    "Anna Freud"
+   ],
+   [
+    "alfred-adler",
+    "Alfred Adler"
+   ],
+   [
+    "viktor-frankl",
+    "Viktor Frankl"
+   ],
+   [
+    "wilhelm-reich",
+    "Wilhelm Reich"
+   ],
+   [
+    "heinz-kohut",
+    "Heinz Kohut"
+   ],
+   [
+    "otto-kernberg",
+    "Otto Kernberg"
+   ],
+   [
+    "hans-selye",
+    "Hans Selye"
+   ]
+  ],
+  "Hungary": [
+   [
+    "sandor-ferenczi",
+    "Sándor Ferenczi"
+   ],
+   [
+    "margaret-mahler",
+    "Margaret Mahler"
+   ],
+   [
+    "mihaly-csikszentmihalyi",
+    "Mihaly Csikszentmihalyi"
+   ]
+  ],
+  "United Kingdom": [
+   [
+    "melanie-klein",
+    "Melanie Klein"
+   ],
+   [
+    "donald-winnicott",
+    "Donald Winnicott"
+   ],
+   [
+    "wilfred-bion",
+    "Wilfred Bion"
+   ],
+   [
+    "john-bowlby",
+    "John Bowlby"
+   ],
+   [
+    "anna-freud",
+    "Anna Freud"
+   ],
+   [
+    "ronald-laing",
+    "Ronald Laing"
+   ],
+   [
+    "gregory-bateson",
+    "Gregory Bateson"
+   ],
+   [
+    "paul-gilbert",
+    "Paul Gilbert"
+   ]
+  ],
+  "Germany": [
+   [
+    "wilhelm-wundt",
+    "Wilhelm Wundt"
+   ],
+   [
+    "terapia-gestalt",
+    "La terapia gestalt"
+   ],
+   [
+    "fritz-perls",
+    "Fritz Perls"
+   ],
+   [
+    "laura-perls",
+    "Laura Perls"
+   ],
+   [
+    "erich-fromm",
+    "Erich Fromm"
+   ],
+   [
+    "karen-horney",
+    "Karen Horney"
+   ],
+   [
+    "erik-erikson",
+    "Erik Erikson"
+   ],
+   [
+    "bluma-zeigarnik",
+    "Bluma Zeigarnik"
+   ]
+  ],
+  "France": [
+   [
+    "charcot-y-janet",
+    "Charcot y Janet"
+   ],
+   [
+    "jacques-lacan",
+    "Jacques Lacan"
+   ],
+   [
+    "francoise-dolto",
+    "Françoise Dolto"
+   ]
+  ],
+  "Italy": [
+   [
+    "roberto-assagioli",
+    "Roberto Assagioli"
+   ],
+   [
+    "franco-basaglia",
+    "Franco Basaglia"
+   ]
+  ],
+  "Romania": [
+   [
+    "jacob-levy-moreno",
+    "Jacob Levy Moreno"
+   ],
+   [
+    "psicodrama",
+    "El psicodrama"
+   ]
+  ],
+  "Czechia": [
+   [
+    "stanislav-grof",
+    "Stanislav Grof"
+   ]
+  ],
+  "Russia": [
+   [
+    "ivan-pavlov",
+    "Iván Pávlov"
+   ],
+   [
+    "lev-vygotsky",
+    "Lev Vygotsky"
+   ],
+   [
+    "alexander-luria",
+    "Alexander Luria"
+   ],
+   [
+    "bajtin-y-el-dialogo",
+    "Mijaíl Bajtín"
+   ]
+  ],
+  "Canada": [
+   [
+    "albert-bandura",
+    "Albert Bandura"
+   ],
+   [
+    "hans-selye",
+    "Hans Selye"
+   ],
+   [
+    "eric-berne",
+    "Eric Berne"
+   ]
+  ],
+  "United States of America": [
+   [
+    "william-james",
+    "William James"
+   ],
+   [
+    "john-b-watson",
+    "John B. Watson"
+   ],
+   [
+    "b-f-skinner",
+    "B. F. Skinner"
+   ],
+   [
+    "carl-rogers",
+    "Carl Rogers"
+   ],
+   [
+    "abraham-maslow",
+    "Abraham Maslow"
+   ],
+   [
+    "rollo-may",
+    "Rollo May"
+   ],
+   [
+    "aaron-t-beck",
+    "Aaron T. Beck"
+   ],
+   [
+    "albert-ellis",
+    "Albert Ellis"
+   ],
+   [
+    "martin-seligman",
+    "Martin Seligman"
+   ],
+   [
+    "daniel-kahneman",
+    "Daniel Kahneman"
+   ],
+   [
+    "virginia-satir",
+    "Virginia Satir"
+   ],
+   [
+    "murray-bowen",
+    "Murray Bowen"
+   ],
+   [
+    "mary-ainsworth",
+    "Mary Ainsworth"
+   ],
+   [
+    "irvin-yalom",
+    "Irvin Yalom"
+   ],
+   [
+    "james-hillman",
+    "James Hillman"
+   ],
+   [
+    "marsha-linehan",
+    "Marsha Linehan"
+   ],
+   [
+    "steven-c-hayes",
+    "Steven C. Hayes"
+   ],
+   [
+    "jon-kabat-zinn",
+    "Jon Kabat-Zinn"
+   ],
+   [
+    "eugene-gendlin",
+    "Eugene Gendlin"
+   ]
+  ],
+  "Argentina": [
+   [
+    "enrique-pichon-riviere",
+    "Enrique Pichon-Rivière"
+   ],
+   [
+    "jose-bleger",
+    "José Bleger"
+   ],
+   [
+    "marie-langer",
+    "Marie Langer"
+   ],
+   [
+    "arminda-aberastury",
+    "Arminda Aberastury"
+   ],
+   [
+    "fernando-ulloa",
+    "Fernando Ulloa"
+   ],
+   [
+    "silvia-bleichmar",
+    "Silvia Bleichmar"
+   ],
+   [
+    "hector-fiorini",
+    "Héctor Fiorini"
+   ],
+   [
+    "salvador-minuchin",
+    "Salvador Minuchin"
+   ]
+  ],
+  "Chile": [
+   [
+    "francisco-varela",
+    "Francisco Varela"
+   ]
+  ],
+  "Lithuania": [
+   [
+    "bluma-zeigarnik",
+    "Bluma Zeigarnik"
+   ]
+  ]
+ }
 }
