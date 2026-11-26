@@ -1627,3 +1627,7 @@ a.lab-tarjeta:hover { transform: translateY(-2px); }
 .mm-leyenda { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .75rem; }
 .mm-leyenda button { font: inherit; font-size: .85rem; padding: .3rem .7rem; border-radius: 999px; border: 1px solid var(--linea); background: var(--papel); color: var(--texto); cursor: pointer; }
 .mm-leyenda button[aria-pressed="true"] { background: var(--terracota-suave); border-color: var(--terracota); }
+.mm-subtitulo { margin: 1.25rem 0 .5rem; font-size: 1rem; font-family: var(--f-sans); font-weight: 600; letter-spacing: .04em; color: var(--piedra-oscura); }
+.mm-autores { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: .4rem; }
+.mm-autores a { display: inline-block; padding: .25rem .65rem; border-radius: 999px; border: 1px solid var(--linea); background: var(--papel); font-size: .9rem; text-decoration: none; }
+.mm-autores a:hover { border-color: var(--terracota); }

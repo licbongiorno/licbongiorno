@@ -1480,6 +1480,19 @@ def glosario_schema(ruta="/glosario-junguiano/"):
                                 "description": re.sub(r"\[(.+?)\]\(.+?\)", r"\1", " ".join(t["definicion"])).replace("*", "")} for t in lista]}
 
 
+
+def datos_mapa_mundi():
+    """mapa-mundi.json sin las series ni autores cuyo artículo todavía no existe (evita enlaces rotos)."""
+    d = cargar_json("mapa-mundi.json")
+    existe = lambda u: not u.startswith("/recursos/") or (CONTENIDO / "blog" / (u.strip("/").split("/")[-1] + ".md")).exists()
+    d["series"] = {k: v for k, v in d["series"].items() if existe(v["mapa"])}
+    d["autores"] = {p: [a for a in l if existe(f"/recursos/{a[0]}/")] for p, l in d.get("autores", {}).items()}
+    d["paises"] = {p: [v[0], [k for k in v[1] if k in d["series"]]] for p, v in d["paises"].items()
+                   if [k for k in v[1] if k in d["series"]] or d["autores"].get(p)}
+    for m in d["marcas"]:
+        m["series"] = [k for k in m["series"] if k in d["series"]]
+    return d
+
 def bloque_datos_clave():
     filas = [
         ("Nombre", NOMBRE_COMPLETO),
@@ -2605,7 +2618,7 @@ def reemplazos(cuerpo, ruta):
             '<p class="mm-intro">Tocá un país en verde para ver qué psicologías y tradiciones del sitio se relacionan con él, '
             'o elegí una tradición abajo del mapa para ver dónde nació.</p></div></div>'
             '<script type="application/json" id="mapa-mundi-datos">'
-            + json.dumps(cargar_json("mapa-mundi.json"), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + '</script>'),
+            + json.dumps(datos_mapa_mundi(), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + '</script>'),
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,

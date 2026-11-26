@@ -17,13 +17,21 @@
       (s.glosario ? '<p class="mm-glosario"><a href="' + s.glosario + '">Ver el glosario</a></p>' : "");
   }
 
-  function mostrar(nombre, series, el) {
+  function autores(clave) {
+    var l = (D.autores || {})[clave] || [];
+    if (!l.length) return "";
+    return '<h3 class="mm-subtitulo">Autores con artículo en el sitio</h3><ul class="mm-autores">' +
+      l.map(function (a) { return '<li><a href="/recursos/' + a[0] + '/">' + esc(a[1]) + "</a></li>"; }).join("") + "</ul>";
+  }
+
+  function mostrar(nombre, series, el, clave) {
     if (activo) activo.classList.remove("mm-sel");
     activo = el; if (el) el.classList.add("mm-sel");
     marcar(null);
     panel.innerHTML = '<h2 class="mm-titulo">' + esc(nombre) + "</h2>" +
-      '<p class="mm-intro">' + (series.length > 1 ? "Tradiciones relacionadas con este lugar:" : "Tradición relacionada con este lugar:") + "</p>" +
-      '<div class="mm-lista">' + series.map(function (k) { return '<div class="mm-item">' + tarjeta(k) + "</div>"; }).join("") + "</div>";
+      (series.length ? '<p class="mm-intro">' + (series.length > 1 ? "Tradiciones relacionadas con este lugar:" : "Tradición relacionada con este lugar:") + "</p>" +
+      '<div class="mm-lista">' + series.map(function (k) { return '<div class="mm-item">' + tarjeta(k) + "</div>"; }).join("") + "</div>" : "") +
+      autores(clave);
   }
 
   function marcar(k) {
@@ -31,7 +39,8 @@
     leyenda.querySelectorAll("button").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.serie === k ? "true" : "false"); });
     if (!k) return;
     raiz.querySelectorAll("[data-pais]").forEach(function (e) {
-      if (D.paises[e.dataset.pais][1].indexOf(k) > -1) e.classList.add("mm-resalta");
+      var p = D.paises[e.dataset.pais];
+      if (p && p[1].indexOf(k) > -1) e.classList.add("mm-resalta");
     });
     raiz.querySelectorAll("[data-marca]").forEach(function (e) {
       if (D.marcas[+e.dataset.marca].series.indexOf(k) > -1) e.classList.add("mm-resalta");
@@ -39,7 +48,7 @@
   }
 
   function elegir(el) {
-    if (el.dataset.pais) { var p = D.paises[el.dataset.pais]; mostrar(p[0], p[1], el); }
+    if (el.dataset.pais) { var p = D.paises[el.dataset.pais]; if (!p) return; mostrar(p[0], p[1], el, el.dataset.pais); }
     else if (el.dataset.marca) { var m = D.marcas[+el.dataset.marca]; mostrar(m.nombre, m.series, el); }
     panel.focus({ preventScroll: true });
     if (window.matchMedia("(max-width: 760px)").matches) panel.scrollIntoView({ behavior: "smooth", block: "start" });
