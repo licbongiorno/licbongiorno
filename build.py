@@ -547,7 +547,8 @@ NAV = [
         ("Mi enfoque integrativo", "/enfoque/", "Jung, psicoanálisis y otras corrientes"),
         ("Glosario junguiano", "/glosario-junguiano/", "Sombra, arquetipos, individuación…"),
         ("Glosario de psicoterapia", "/glosario-clinico/", "Encuadre, transferencia, apego…"),
-    ] + [(n, r, t) for _, r, n, t, _ in GLOSARIOS_CULTURALES]),
+        ("Psicologías del mundo", "/psicologias-del-mundo/", "Mapas y glosarios de 14 tradiciones"),
+    ]),
     ("Motivos", "/motivos-de-consulta/", None),
     ("Modalidades", None, [
         ("Presencial en Alta Gracia", "/psicologo-alta-gracia/", f'Consultorio en {D["calle"]}'),
@@ -1285,7 +1286,8 @@ def pie():
           <li><a href="/recursos/">Recursos</a></li>
           <li><a href="/glosario-junguiano/">Glosario junguiano</a></li>
           <li><a href="/glosario-clinico/">Glosario de psicoterapia</a></li>
-{"".join(f'          <li><a href="{r}">{n}</a></li>\n' for _, r, n, _, _ in GLOSARIOS_CULTURALES)}          <li><a href="/primera-consulta/">Tu primera consulta</a></li>
+          <li><a href="/psicologias-del-mundo/">Psicologías del mundo</a></li>
+          <li><a href="/primera-consulta/">Tu primera consulta</a></li>
           <li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li>
           <li><a href="/opiniones/">Opiniones de pacientes</a></li>
         </ul>
