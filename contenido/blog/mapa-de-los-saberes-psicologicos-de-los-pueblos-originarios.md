@@ -34,7 +34,7 @@ En la región andina de Argentina, Bolivia, Perú y Ecuador viven pueblos quechu
 - **Sumak kawsay** (quechua) y **suma qamaña** (aimara) suelen traducirse como «buen vivir» o «vivir bien». La Constitución de Ecuador de 2008 y la de Bolivia de 2009 las incorporaron. Son a la vez una forma propia de pensar la vida en comunidad y una consigna política que se usó de maneras muy distintas, y que se criticó por volverse eslogan.
 - **Ayni** es la reciprocidad: se ayuda y se espera ser ayudado. **Minka** es el trabajo colectivo para el bien común. Son normas sociales concretas, con obligaciones, y no «actitudes positivas».
 - **Pachamama** es la Madre Tierra, una realidad religiosa viva. No es una metáfora.
-- **Susto, mancharisqa y pérdida del ánima (ajayu).** Es la explicación de que un sobresalto, una caída o una pena pueden separar el alma de la persona. El DSM-5 incluye el susto entre los conceptos culturales de malestar. El estudio clásico de Rubel, O'Neil y Collado-Ardón (1984), hecho en comunidades mexicanas, encontró que suele acompañarse de depresión, ansiedad o enfermedades físicas. Es un modo de decir el sufrimiento y de tratarlo con rituales comunitarios, y lo atinado es escucharlo con respeto y, a la vez, evaluar lo que haya detrás.
+- **Susto, mancharisqa y pérdida del ánima (ajayu).** Es la explicación de que un sobresalto, una caída o una pena pueden separar el alma de la persona. El DSM-5 incluye el susto entre los conceptos culturales de malestar. El estudio clásico de Rubel, O'Nell y Collado-Ardón (1984), hecho en comunidades mexicanas, encontró que suele acompañarse de depresión, ansiedad o enfermedades físicas. Es un modo de decir el sufrimiento y de tratarlo con rituales comunitarios, y lo atinado es escucharlo con respeto y, a la vez, evaluar lo que haya detrás.
 
 Ver el [glosario de saberes psicológicos de los pueblos originarios](/glosario-de-psicologia-de-los-pueblos-originarios/).
 
@@ -141,7 +141,7 @@ Para otros mapas de la serie, mirá el [mapa de la psicología india](/recursos/
 
 - Brave Heart, M. Y. H. y DeBruyn, L. M. (1998). «The American Indian Holocaust: Healing historical unresolved grief». *American Indian and Alaska Native Mental Health Research*, 8(2), 56-78.
 - Gone, J. P. (2013). «Redressing First Nations historical trauma: Theorizing mechanisms for indigenous culture as mental health treatment». *Transcultural Psychiatry*, 50(5), 683-706.
-- Rubel, A. J., O'Neil, C. W. y Collado-Ardón, R. (1984). *Susto: A Folk Illness*. University of California Press.
+- Rubel, A. J., O'Nell, C. W. y Collado-Ardón, R. (1984). *Susto: A Folk Illness*. University of California Press.
 - Citarella, L. (ed.) (1995). *Medicinas y culturas en la Araucanía*. Editorial Sudamericana.
 - López Austin, A. (1980). *Cuerpo humano e ideología: las concepciones de los antiguos nahuas*. UNAM.
 - Cadogan, L. (1959). *Ayvu Rapyta: textos míticos de los Mbyá-Guaraní del Guairá*. Universidade de São Paulo.
