@@ -1,0 +1,212 @@
+<!--{
+  "ruta": "/laboratorio-del-yo-y-el-nosotros/",
+  "titulo": "Laboratorio del yo y el nosotros: culturas del yo",
+  "descripcion": "Ejercicios sobre el yo independiente e interdependiente de Markus y Kitayama: un autochequeo sin puntaje, situaciones, tu historia familiar y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Yo y nosotros",
+      "/laboratorio-del-yo-y-el-nosotros/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio del <em>yo y el nosotros</em>",
+  "bajada": "Hazel Markus y Shinobu Kitayama propusieron que las culturas modelan dos maneras de entender el yo: una más independiente y otra más ligada a los demás. Ejercicios para mirar cómo se combinan en vos, según la situación y tu historia, sin estereotipos.",
+  "respuesta": "El laboratorio del yo y el nosotros ofrece ejercicios sobre el yo independiente e interdependiente que describieron Hazel Markus y Shinobu Kitayama en 1991: un autochequeo reflexivo sin puntaje, un quiz con situaciones, una estación sobre cómo cambia el yo según el contexto, otra sobre la historia familiar, otra sobre los conflictos entre lo que uno quiere y lo que espera el grupo, una viñeta y un plan de 7 días. Conecta las series de psicología japonesa, china y coreana. No es un test psicológico ni un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio del yo y el nosotros",
+  "articulos": [
+    "oriente-y-occidente-psicologia-cultural",
+    "amae",
+    "mianzi-y-guanxi"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Si te piden que completes la frase «yo soy…» veinte veces, ¿qué escribís? Algunas personas empiezan por rasgos («soy curiosa, soy terco») y otras por vínculos y lugares («soy hija de…, soy de Alta Gracia, soy parte de este equipo»). En 1991, la psicóloga estadounidense <strong>Hazel Markus</strong> y el psicólogo japonés <strong>Shinobu Kitayama</strong> publicaron un artículo muy influyente en el que propusieron que las culturas modelan dos maneras de entender el yo.</p>
+        <p>En el <strong>yo independiente</strong>, más promovido en Estados Unidos y Europa occidental, la persona se piensa como un individuo con rasgos, deseos y opiniones propios que conviene expresar. En el <strong>yo interdependiente</strong>, más promovido en Japón, China o Corea, la persona se piensa sobre todo a partir de sus relaciones y de su lugar en un grupo, y el ajuste con los demás pesa tanto como la expresión de uno. Markus y Kitayama mostraron que esas diferencias cambian cómo se viven las emociones, la motivación y la autoestima. Más tarde, Kitayama, Markus y Kurokawa (2000) encontraron que en Japón el bienestar se asociaba más con emociones de conexión, como la cercanía, y en Estados Unidos con emociones de logro personal, como el orgullo.</p>
+        <p>La idea también recibió críticas importantes. El metaanálisis de Daphna Oyserman, Heather Coon y Markus Kemmelmeier (2002) encontró que las diferencias entre países en individualismo y colectivismo eran más pequeñas y menos consistentes de lo que se suponía. Y Vivian Vignoles y un equipo internacional (2016) mostraron que los modelos del yo varían en muchas dimensiones distintas y no se ordenan en una sola línea entre «Oriente» y «Occidente». Dentro de cada país, además, conviven personas, regiones, generaciones y familias muy distintas.</p>
+        <p>Por eso este laboratorio no busca clasificarte. Propone mirar cómo se combinan en vos lo independiente y lo interdependiente, cómo cambian según la situación y qué historia los formó. El autochequeo es una guía para reflexionar, sin puntaje ni valor diagnóstico.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin estereotipos.</strong> Ninguna cultura es una sola cosa.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin puntaje.</strong> El autochequeo es para pensar, no para medir.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#yo-soy">Veinte veces «yo soy»</a>
+      <a href="#autochequeo">Autochequeo sin puntaje</a>
+      <a href="#quiz">¿Independiente, interdependiente o ambas?</a>
+      <a href="#contexto">El yo según el contexto</a>
+      <a href="#historia">Mi historia familiar</a>
+      <a href="#conflicto">Cuando el yo y el nosotros chocan</a>
+      <a href="#vineta">Viñeta: Yuki en Córdoba</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="yo-soy" aria-labelledby="t-yo-soy">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-yo-soy">Veinte veces «yo soy»</h2>
+      <p class="lab-estacion__bajada">Este ejercicio se inspira en el test de las veinte frases que Manford Kuhn y Thomas McPartland propusieron en 1954, y que luego usó la psicología cultural para comparar cómo se describen las personas. Acá lo usamos solo para reflexionar. Escribí, sin pensarlo mucho, varias frases que empiecen con «yo soy».</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yyn-yo-soy" data-lab-form-titulo="Yo soy…" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-yo-soy-1">Mis frases «yo soy…», una por línea</label><textarea class="lab-texto" id="yyn-yo-soy-1" rows="2" placeholder="Soy curiosa. Soy hija de inmigrantes. Soy parte del coro…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-yo-soy-2">Cuántas hablan de rasgos o gustos personales</label><input class="lab-campo" id="yyn-yo-soy-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-yo-soy-3">Cuántas hablan de vínculos, grupos, lugares o roles</label><input class="lab-campo" id="yyn-yo-soy-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-yo-soy-4">Qué me sorprende de la lista</label><textarea class="lab-texto" id="yyn-yo-soy-4" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="autochequeo" aria-labelledby="t-autochequeo">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-autochequeo">Autochequeo: cómo se combinan en mí</h2>
+      <p class="lab-estacion__bajada">Para cada par de frases, anotá de 0 a 10 cuánto te representa cada una. No hay respuestas correctas ni un resultado: muchas personas puntúan alto en las dos. Este autochequeo es una guía de reflexión, no un test validado.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yyn-autochequeo" data-lab-form-titulo="Mi autochequeo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-1">«Me siento cómodo/a diciendo lo que pienso aunque el grupo opine distinto» (0 a 10)</label><input class="lab-campo" id="yyn-autochequeo-1" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-2">«Antes de opinar, me fijo en cómo puede afectar la armonía del grupo» (0 a 10)</label><input class="lab-campo" id="yyn-autochequeo-2" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-3">«Mis logros personales me hacen sentir bien conmigo» (0 a 10)</label><input class="lab-campo" id="yyn-autochequeo-3" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-4">«Me siento bien cuando las personas cercanas están bien conmigo» (0 a 10)</label><input class="lab-campo" id="yyn-autochequeo-4" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-5">«Soy la misma persona en cualquier contexto» (0 a 10)</label><input class="lab-campo" id="yyn-autochequeo-5" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-6">«Soy un poco distinto/a según con quién esté, y está bien» (0 a 10)</label><input class="lab-campo" id="yyn-autochequeo-6" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-7">«Las decisiones importantes las tomo yo» (0 a 10)</label><input class="lab-campo" id="yyn-autochequeo-7" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-8">«Las decisiones importantes las consulto con mi familia o mi gente» (0 a 10)</label><input class="lab-campo" id="yyn-autochequeo-8" type="text" inputmode="numeric" maxlength="2" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-autochequeo-9">Lo que noto al mirar mis respuestas juntas</label><textarea class="lab-texto" id="yyn-autochequeo-9" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-quiz">¿Independiente, interdependiente o ambas?</h2>
+      <p class="lab-estacion__bajada">Las situaciones de la vida cotidiana muestran el yo en acción. Para cada escena, elegí si se acerca más a una manera independiente de entender el yo, a una interdependiente o si combina las dos. Es una simplificación: en la vida real se mezclan.</p>
+      <div class="lab-tarjeta" data-lab-quiz="yyn-situaciones">
+        <p class="lab-tarjeta__titulo">¿Qué manera del yo se ve acá?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente escena</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="contexto" aria-labelledby="t-contexto">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-contexto">El yo según el contexto</h2>
+      <p class="lab-estacion__bajada">Una misma persona puede ser más independiente en el trabajo y más interdependiente con su familia, o al revés. La psicología cultural llama a esto la sensibilidad del yo al contexto. Pensá en tres lugares de tu vida y cómo sos en cada uno.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yyn-contexto" data-lab-form-titulo="Mi yo en distintos lugares" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-contexto-1">Con mi familia soy…</label><textarea class="lab-texto" id="yyn-contexto-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-contexto-2">En el trabajo o el estudio soy…</label><textarea class="lab-texto" id="yyn-contexto-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-contexto-3">Con mis amigos o mi pareja soy…</label><textarea class="lab-texto" id="yyn-contexto-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-contexto-4">Dónde me siento más «yo»</label><input class="lab-campo" id="yyn-contexto-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-contexto-5">Dónde me cuesta más ser como soy</label><input class="lab-campo" id="yyn-contexto-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="historia" aria-labelledby="t-historia">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-historia">Mi historia familiar del yo y el nosotros</h2>
+      <p class="lab-estacion__bajada">Las maneras de entender el yo se aprenden primero en la familia, que a su vez trae la historia de sus propias culturas, migraciones y generaciones. En Argentina, muchas familias combinan tradiciones muy distintas. Escribí qué recibiste.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yyn-historia" data-lab-form-titulo="Lo que recibí" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-historia-1">Frases de mi familia sobre la independencia o sobre la familia</label><textarea class="lab-texto" id="yyn-historia-1" rows="2" placeholder="«Hay que arreglárselas solo», «la familia es lo primero»…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-historia-2">Lo que se esperaba de mí como hijo/a</label><input class="lab-campo" id="yyn-historia-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-historia-3">Orígenes, migraciones o tradiciones que creo que influyeron</label><textarea class="lab-texto" id="yyn-historia-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-historia-4">Lo que quiero conservar y lo que quiero cambiar</label><textarea class="lab-texto" id="yyn-historia-4" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="conflicto" aria-labelledby="t-conflicto">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-conflicto">Cuando lo que quiero y lo que espera mi gente chocan</h2>
+      <p class="lab-estacion__bajada">Muchos conflictos personales tienen esta forma: una parte quiere algo para sí y otra no quiere decepcionar a la familia, a la pareja o al grupo. No se resuelven eligiendo un lado para siempre. Ayuda poner en palabras las dos posiciones y buscar una respuesta que las tenga en cuenta, como propone el pensamiento dialéctico.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yyn-conflicto" data-lab-form-titulo="Mi conflicto entre el yo y el nosotros" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-conflicto-1">El conflicto</label><input class="lab-campo" id="yyn-conflicto-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-conflicto-2">Lo que quiero yo, y por qué me importa</label><textarea class="lab-texto" id="yyn-conflicto-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-conflicto-3">Lo que espera mi gente, y por qué les importa</label><textarea class="lab-texto" id="yyn-conflicto-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-conflicto-4">Una respuesta posible que tenga en cuenta las dos cosas</label><textarea class="lab-texto" id="yyn-conflicto-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-conflicto-5">Con quién lo podría conversar</label><input class="lab-campo" id="yyn-conflicto-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-vineta">Viñeta para pensar: Yuki en Córdoba</h2>
+      <p class="lab-estacion__bajada">Una situación inventada para pensar cómo conviven dos maneras de entender el yo. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Yuki tiene 29 años. Nació en Córdoba, hija de una madre argentina y un padre japonés que llegó al país de joven. En su casa se hablaba poco de lo que cada uno sentía y mucho de lo que se debía a los demás: saludar a los mayores, no hacer escenas, agradecer.</p>
+        <p>En la facultad y después en el trabajo, Yuki notó que la valoraban por ser cuidadosa y confiable, pero también que le costaba decir que no o pedir un aumento. Un jefe le dijo que tenía que «venderse más». Ella sintió que le pedían ser otra persona.</p>
+        <p>En terapia, Yuki empezó a pensar que no tenía que elegir entre la hija respetuosa y la profesional que se hace valer. Probó pedir lo que necesitaba con la misma cortesía que aprendió en su casa. Le sorprendió que funcionara, y que a su papá, cuando se lo contó, le pareciera bien.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="yyn-vineta-yuki" data-lab-form-titulo="Mis respuestas sobre Yuki" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-vineta-1">¿Qué de lo que Yuki aprendió en su casa le sirve y qué le pesa?</label><textarea class="lab-texto" id="yyn-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-vineta-2">¿Por qué pensás que le dolió el consejo de «venderse más»?</label><textarea class="lab-texto" id="yyn-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-vineta-3">¿Cómo combinó al final las dos maneras de entender el yo?</label><textarea class="lab-texto" id="yyn-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="yyn-vineta-4">¿Te reconocés en algo de su historia?</label><input class="lab-campo" id="yyn-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="yo-nosotros">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Yo soy.</strong> Escribí diez frases «yo soy…» y mirá cuántas hablan de rasgos y cuántas de vínculos.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Contexto.</strong> Notá en qué momento del día sos más independiente y en cuál más atento/a al grupo.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Escuchar al otro.</strong> En una conversación, preguntá qué piensa la otra persona antes de decir lo tuyo.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Decir lo propio.</strong> Expresá una opinión o un pedido que solés callar, con cuidado y con claridad.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Historia.</strong> Preguntale a alguien de tu familia qué le enseñaron sobre la independencia y la familia.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Conflicto.</strong> Escribí las dos posiciones de un conflicto entre lo que querés y lo que espera tu gente.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Anotá qué combinación del yo y el nosotros te hace sentir más vos.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre la cultura y el yo. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="yyn-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios ayudan a pensar cómo te ubicás entre el yo y el nosotros, pero no reemplazan una consulta. Si un conflicto entre lo que querés y lo que espera tu familia te angustia mucho o te tiene trabado/a, podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/oriente-y-occidente-psicologia-cultural/">Oriente y Occidente en la psicología cultural</a>, el de <a href="/recursos/amae/">amae</a>, el de <a href="/recursos/mianzi-y-guanxi/">mianzi y guanxi</a> y el <a href="/laboratorio-de-pensamiento-dialectico/">laboratorio de pensamiento dialéctico</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Markus, H. R. y Kitayama, S. (1991). «Culture and the self: Implications for cognition, emotion, and motivation». <em>Psychological Review</em>, 98(2), 224-253.</li>
+        <li>Kitayama, S., Markus, H. R. y Kurokawa, M. (2000). «Culture, emotion, and well-being: Good feelings in Japan and the United States». <em>Cognition and Emotion</em>, 14(1), 93-124.</li>
+        <li>Oyserman, D., Coon, H. M. y Kemmelmeier, M. (2002). «Rethinking individualism and collectivism: Evaluation of theoretical assumptions and meta-analyses». <em>Psychological Bulletin</em>, 128(1), 3-72.</li>
+        <li>Vignoles, V. L. y colaboradores (2016). «Beyond the 'east-west' dichotomy: Global variation in cultural models of selfhood». <em>Journal of Experimental Psychology: General</em>, 145(8), 966-1000.</li>
+        <li>Singelis, T. M. (1994). «The measurement of independent and interdependent self-construals». <em>Personality and Social Psychology Bulletin</em>, 20(5), 580-591.</li>
+        <li>Kuhn, M. H. y McPartland, T. S. (1954). «An empirical investigation of self-attitudes». <em>American Sociological Review</em>, 19(1), 68-76.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

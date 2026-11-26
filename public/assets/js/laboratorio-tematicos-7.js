@@ -1,4 +1,4 @@
-/* Laboratorios temáticos (7): jeong (el lazo que forma el tiempo) y habla interna (Vygotsky).
+/* Laboratorios temáticos (7): jeong, habla interna (Vygotsky) y el yo y el nosotros (Markus y Kitayama).
    Requiere lab-base.js. Nada se envía a ningún servidor. Los planes de 7 días y los formularios los maneja lab-base.js. */
 (function () {
   "use strict";
@@ -49,6 +49,29 @@
     {"t": "Darse instrucciones paso a paso es una técnica usada en terapia.", "r": "b", "e": "Donald Meichenbaum desarrolló el entrenamiento en autoinstrucciones a comienzos de los años setenta."},
     {"t": "Una voz interna muy crítica ayuda a rendir más.", "r": "a", "e": "La autocrítica constante suele asociarse con más ansiedad y menos capacidad de resolver problemas. Una voz firme y amable puede exigir sin castigar."},
     {"t": "Nos hablamos, en parte, como nos hablaron.", "r": "b", "e": "Es una lectura posible de la idea de internalización de Vygotsky: lo que primero ocurre entre personas pasa luego a funcionar dentro de cada uno."}
+  ]);
+
+  /* Yo y nosotros */
+  var OPS_YYN_SITUACIONES = ["Más independiente", "Más interdependiente", "Ambas a la vez"];
+  LAB.quiz("yyn-situaciones", [
+    {"sinComillas": true, "t": "Una estudiante elige su carrera según lo que le apasiona, aunque su familia preferiría otra.", "ops": OPS_YYN_SITUACIONES, "r": 0, "e": "Pone en primer plano los deseos personales. Es una elección típica del yo independiente, que no significa desinterés por la familia."},
+    {"sinComillas": true, "t": "Un empleado no dice en la reunión que no está de acuerdo, para no dejar mal parado a su jefe delante de todos, y se lo plantea después en privado.", "ops": OPS_YYN_SITUACIONES, "r": 1, "e": "Cuida la cara del otro y la armonía del grupo. Se parece a lo que en China se llama mianzi y en Corea chemyeon."},
+    {"sinComillas": true, "t": "Una mujer decide mudarse a otra ciudad por trabajo y organiza con sus hermanos cómo van a cuidar a su madre.", "ops": OPS_YYN_SITUACIONES, "r": 2, "e": "Toma una decisión propia y, a la vez, se hace cargo de su lugar en la familia. Es una combinación frecuente."},
+    {"sinComillas": true, "t": "Al recibir un premio, un deportista agradece primero a su equipo, a su entrenador y a su familia.", "ops": OPS_YYN_SITUACIONES, "r": 1, "e": "Ubica el logro en una red de vínculos. También puede ser una costumbre social, por eso conviene no sacar conclusiones de una sola frase."},
+    {"sinComillas": true, "t": "Alguien se describe como «muy independiente» y dice que no le gusta pedir ayuda.", "ops": OPS_YYN_SITUACIONES, "r": 0, "e": "Valora la autonomía. Llevada al extremo, puede costar aceptar el apoyo de otros."},
+    {"sinComillas": true, "t": "Un chico consulta a sus padres antes de aceptar una beca, aunque la decisión final sea suya.", "ops": OPS_YYN_SITUACIONES, "r": 2, "e": "Incluye a la familia en el proceso sin renunciar a decidir. Muchas personas funcionan así."},
+    {"sinComillas": true, "t": "Una abuela dice «en nuestra casa hacemos así», cuando en realidad habla de lo que piensa ella.", "ops": OPS_YYN_SITUACIONES, "r": 1, "e": "Habla desde el «nosotros». Recuerda el uso coreano de <em>uri</em>, «nuestro», aun en singular."},
+    {"sinComillas": true, "t": "Una persona se siente orgullosa de sí misma cuando logra una meta que se propuso sola.", "ops": OPS_YYN_SITUACIONES, "r": 0, "e": "El bienestar ligado al logro personal es más típico del yo independiente, según Kitayama, Markus y Kurokawa (2000)."}
+  ]);
+  LAB.quiz("yyn-mitos", [
+    {"t": "Markus y Kitayama propusieron en 1991 la distinción entre un yo independiente y uno interdependiente.", "r": "b", "e": "Lo hicieron en un artículo publicado en <em>Psychological Review</em> que se volvió uno de los más citados de la psicología."},
+    {"t": "Todas las personas de Japón tienen un yo interdependiente y todas las de Estados Unidos uno independiente.", "r": "a", "e": "Son tendencias culturales promedio. Dentro de cada país hay muchísima variación entre personas, regiones y generaciones."},
+    {"t": "Las diferencias entre países en individualismo y colectivismo son menores y menos consistentes de lo que se creía.", "r": "b", "e": "Es lo que encontró el metaanálisis de Oyserman, Coon y Kemmelmeier (2002)."},
+    {"t": "Los modelos culturales del yo se ordenan en una sola línea entre Oriente y Occidente.", "r": "a", "e": "Vignoles y colaboradores (2016) encontraron que varían en muchas dimensiones distintas que no siguen esa división."},
+    {"t": "Una misma persona puede ser más independiente en un contexto y más interdependiente en otro.", "r": "b", "e": "El yo es sensible al contexto. Muchas personas combinan las dos maneras según la situación."},
+    {"t": "Ser interdependiente es lo mismo que ser dependiente o sumiso.", "r": "a", "e": "El yo interdependiente pone el acento en los vínculos y el ajuste con los demás, lo cual no implica falta de criterio propio."},
+    {"t": "En algunos estudios, en Japón el bienestar se asoció más con emociones de conexión y en Estados Unidos con emociones de logro.", "r": "b", "e": "Es lo que encontraron Kitayama, Markus y Kurokawa (2000)."},
+    {"t": "Este autochequeo mide tu tipo de yo.", "r": "a", "e": "Es una guía de reflexión sin puntaje ni validación. Para medir estos conceptos en investigación se usan escalas como la de Singelis (1994), que también tiene sus críticas."}
   ]);
 
 })();
