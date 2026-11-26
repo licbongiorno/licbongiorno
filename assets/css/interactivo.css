@@ -1600,3 +1600,30 @@ a.lab-tarjeta:hover { transform: translateY(-2px); }
 /* Tarjetas en listas: un poco más livianas */
 .vo-cita .vo-accion span { font-size: .78rem; }
 .vo-mazo__etiqueta { white-space: nowrap; flex: none; }
+
+/* ---------- Mapa de psicologías del mundo ---------- */
+.mm { display: grid; gap: 1.5rem; margin: 2rem 0 3rem; }
+@media (min-width: 900px) { .mm { grid-template-columns: minmax(0, 2.2fr) minmax(16rem, 1fr); align-items: start; } }
+.mm-lienzo { border-radius: var(--r-m); background: var(--salvia-bruma); border: 1px solid var(--linea); padding: .5rem; }
+.mm-svg { display: block; width: 100%; height: auto; }
+.mm-pais { fill: var(--arena); stroke: var(--papel); stroke-width: .5; }
+.mm-activo { fill: var(--salvia); cursor: pointer; transition: fill .15s; }
+.mm-activo:hover, .mm-activo:focus-visible { fill: var(--salvia-profunda); outline: none; }
+.mm-resalta { fill: var(--terracota); }
+.mm-sel, .mm-sel:hover { fill: var(--terracota-profunda); }
+.mm-marca { fill: var(--salvia-profunda); stroke: var(--papel); stroke-width: 1.5; cursor: pointer; }
+.mm-marca.mm-resalta { fill: var(--terracota); }
+.mm-marca.mm-sel { fill: var(--terracota-profunda); }
+.mm-marca:focus-visible { outline: none; stroke: var(--tinta); stroke-width: 2.5; }
+.mm-panel { outline: none; }
+.mm-panel:focus-visible { box-shadow: 0 0 0 3px var(--terracota-suave); border-radius: var(--r-m); }
+.mm-titulo { margin: 0 0 .25rem; font-size: clamp(1.5rem, 3vw, 2rem); }
+.mm-intro { margin: 0 0 1rem; color: var(--tinta-suave); }
+.mm-lista { display: grid; gap: .75rem; }
+.mm-serie { display: block; text-decoration: none; color: inherit; }
+.mm-serie h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+.mm-serie p { margin: 0; font-size: .95rem; }
+.mm-glosario { margin: .35rem 0 0 .25rem; font-size: .9rem; }
+.mm-leyenda { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .75rem; }
+.mm-leyenda button { font: inherit; font-size: .85rem; padding: .3rem .7rem; border-radius: 999px; border: 1px solid var(--linea); background: var(--papel); color: var(--texto); cursor: pointer; }
+.mm-leyenda button[aria-pressed="true"] { background: var(--terracota-suave); border-color: var(--terracota); }

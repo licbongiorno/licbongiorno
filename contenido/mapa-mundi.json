@@ -1,0 +1,1052 @@
+{
+ "series": {
+  "japonesa": {
+   "nombre": "Psicología japonesa",
+   "mapa": "/recursos/mapa-de-la-psicologia-japonesa/",
+   "glosario": "/glosario-de-psicologia-japonesa/",
+   "desc": "Morita, Naikan, amae, ikigai y wabi-sabi."
+  },
+  "china": {
+   "nombre": "Psicología china",
+   "mapa": "/recursos/mapa-de-la-psicologia-china/",
+   "glosario": "/glosario-de-psicologia-china/",
+   "desc": "Taoísmo, confucianismo, mianzi y la psicología cultural china."
+  },
+  "coreana": {
+   "nombre": "Psicología coreana",
+   "mapa": "/recursos/mapa-de-la-psicologia-coreana/",
+   "glosario": "/glosario-de-psicologia-coreana/",
+   "desc": "Han, jeong, nunchi y la salud mental en Corea hoy."
+  },
+  "india": {
+   "nombre": "Psicología india",
+   "mapa": "/recursos/mapa-de-la-psicologia-india/",
+   "glosario": "/glosario-de-psicologia-india/",
+   "desc": "Yoga Sutras, samkhya, ayurveda y el psicoanálisis de Calcuta."
+  },
+  "tibetana": {
+   "nombre": "Psicología budista tibetana",
+   "mapa": "/recursos/mapa-de-la-psicologia-budista-tibetana/",
+   "glosario": "/glosario-de-psicologia-budista-tibetana/",
+   "desc": "Abhidharma, lojong, bardo y el diálogo con la neurociencia."
+  },
+  "sudeste": {
+   "nombre": "Psicologías del Sudeste asiático",
+   "mapa": "/recursos/mapa-de-las-psicologias-del-sudeste-asiatico/",
+   "glosario": "/glosario-de-psicologias-del-sudeste-asiatico/",
+   "desc": "Thich Nhat Hanh, kreng jai, khyâl cap y la ola vipassana."
+  },
+  "islamica": {
+   "nombre": "Psicología islámica medieval",
+   "mapa": "/recursos/mapa-de-la-psicologia-islamica-medieval/",
+   "glosario": "/glosario-de-psicologia-islamica-medieval/",
+   "desc": "Avicena, Al-Razi, los sentidos internos y los bimaristanes."
+  },
+  "sufi": {
+   "nombre": "Psicología sufí",
+   "mapa": "/recursos/mapa-de-la-psicologia-sufi/",
+   "glosario": "/glosario-de-psicologia-sufi/",
+   "desc": "Los niveles del nafs, el corazón y las prácticas del camino."
+  },
+  "persa": {
+   "nombre": "Psicología persa",
+   "mapa": "/recursos/mapa-de-la-psicologia-persa/",
+   "glosario": "/glosario-de-psicologia-persa/",
+   "desc": "Hafez, ta'arof, la cultura de la tristeza y Peseschkian."
+  },
+  "judia": {
+   "nombre": "Psicología judía",
+   "mapa": "/recursos/mapa-de-la-psicologia-judia/",
+   "glosario": "/glosario-de-psicologia-judia/",
+   "desc": "Musar, teshuvá, Maimónides, Frankl y el trauma tras la Shoá."
+  },
+  "griega": {
+   "nombre": "Psicología griega y romana",
+   "mapa": "/recursos/mapa-de-la-psicologia-griega-antigua/",
+   "glosario": "/glosario-de-psicologia-griega-antigua/",
+   "desc": "Platón, Aristóteles, Epicuro, los estoicos y los humores."
+  },
+  "rusa": {
+   "nombre": "Psicología rusa",
+   "mapa": "/recursos/mapa-de-la-psicologia-rusa/",
+   "glosario": "/glosario-de-psicologia-rusa/",
+   "desc": "Vygotsky, Luria, la teoría de la actividad y Bajtín."
+  },
+  "nordica": {
+   "nombre": "Hygge, lagom y sisu",
+   "mapa": "/recursos/hygge-lagom-y-sisu/",
+   "glosario": null,
+   "desc": "Tres palabras nórdicas sobre el bienestar, con su respaldo y sus límites."
+  },
+  "latinoamericana": {
+   "nombre": "Psicología latinoamericana",
+   "mapa": "/recursos/mapa-de-la-psicologia-latinoamericana/",
+   "glosario": "/glosario-de-psicologia-latinoamericana/",
+   "desc": "Liberación, comunitaria, Pichon-Rivière y el psicoanálisis rioplatense."
+  },
+  "originarios": {
+   "nombre": "Pueblos originarios de América",
+   "mapa": "/recursos/mapa-de-los-saberes-psicologicos-de-los-pueblos-originarios/",
+   "glosario": "/glosario-de-psicologia-de-los-pueblos-originarios/",
+   "desc": "Buen vivir, ayni, küme mongen, susto y trauma histórico."
+  },
+  "caribe": {
+   "nombre": "Caribe y Brasil",
+   "mapa": "/recursos/mapa-de-las-psicologias-del-caribe-y-brasil/",
+   "glosario": "/glosario-de-psicologias-del-caribe-y-brasil/",
+   "desc": "Espiritismo, vodou, Nise da Silveira y la reforma psiquiátrica brasileña."
+  },
+  "artico": {
+   "nombre": "Pueblos del Ártico",
+   "mapa": "/recursos/mapa-de-las-psicologias-del-artico/",
+   "glosario": "/glosario-de-psicologias-del-artico/",
+   "desc": "Inuit, sami y yupik: isuma, joik y la prevención comunitaria."
+  },
+  "africana": {
+   "nombre": "Psicología africana",
+   "mapa": "/recursos/mapa-de-la-psicologia-africana/",
+   "glosario": "/glosario-de-psicologia-africana/",
+   "desc": "Ubuntu, Fanon, Aro y el Friendship Bench."
+  },
+  "aborigen": {
+   "nombre": "Pueblos aborígenes de Australia",
+   "mapa": "/recursos/mapa-de-la-psicologia-aborigen-australiana/",
+   "glosario": "/glosario-de-psicologia-aborigen-australiana/",
+   "desc": "Bienestar social y emocional, Country, dadirri y las Generaciones Robadas."
+  },
+  "pacifico": {
+   "nombre": "Psicologías del Pacífico",
+   "mapa": "/recursos/mapa-de-las-psicologias-del-pacifico/",
+   "glosario": "/glosario-de-psicologias-del-pacifico/",
+   "desc": "Kapwa filipino, hoʻoponopono y Te Whare Tapa Whā maorí."
+  }
+ },
+ "paises": {
+  "Japan": [
+   "Japón",
+   [
+    "japonesa"
+   ]
+  ],
+  "China": [
+   "China",
+   [
+    "china",
+    "tibetana"
+   ]
+  ],
+  "Taiwan": [
+   "Taiwán",
+   [
+    "china"
+   ]
+  ],
+  "South Korea": [
+   "Corea del Sur",
+   [
+    "coreana"
+   ]
+  ],
+  "North Korea": [
+   "Corea del Norte",
+   [
+    "coreana"
+   ]
+  ],
+  "India": [
+   "India",
+   [
+    "india",
+    "tibetana"
+   ]
+  ],
+  "Nepal": [
+   "Nepal",
+   [
+    "tibetana",
+    "india"
+   ]
+  ],
+  "Bhutan": [
+   "Bután",
+   [
+    "tibetana"
+   ]
+  ],
+  "Mongolia": [
+   "Mongolia",
+   [
+    "tibetana"
+   ]
+  ],
+  "Sri Lanka": [
+   "Sri Lanka",
+   [
+    "india",
+    "sudeste"
+   ]
+  ],
+  "Bangladesh": [
+   "Bangladés",
+   [
+    "india",
+    "islamica"
+   ]
+  ],
+  "Vietnam": [
+   "Vietnam",
+   [
+    "sudeste"
+   ]
+  ],
+  "Thailand": [
+   "Tailandia",
+   [
+    "sudeste"
+   ]
+  ],
+  "Cambodia": [
+   "Camboya",
+   [
+    "sudeste"
+   ]
+  ],
+  "Laos": [
+   "Laos",
+   [
+    "sudeste"
+   ]
+  ],
+  "Myanmar": [
+   "Myanmar",
+   [
+    "sudeste"
+   ]
+  ],
+  "Malaysia": [
+   "Malasia",
+   [
+    "sudeste"
+   ]
+  ],
+  "Indonesia": [
+   "Indonesia",
+   [
+    "sudeste"
+   ]
+  ],
+  "Brunei": [
+   "Brunéi",
+   [
+    "sudeste"
+   ]
+  ],
+  "Timor-Leste": [
+   "Timor Oriental",
+   [
+    "sudeste"
+   ]
+  ],
+  "Iran": [
+   "Irán",
+   [
+    "persa",
+    "islamica",
+    "sufi"
+   ]
+  ],
+  "Afghanistan": [
+   "Afganistán",
+   [
+    "persa",
+    "sufi"
+   ]
+  ],
+  "Tajikistan": [
+   "Tayikistán",
+   [
+    "persa",
+    "rusa"
+   ]
+  ],
+  "Turkey": [
+   "Turquía",
+   [
+    "sufi",
+    "islamica"
+   ]
+  ],
+  "Iraq": [
+   "Irak",
+   [
+    "islamica",
+    "sufi"
+   ]
+  ],
+  "Syria": [
+   "Siria",
+   [
+    "islamica",
+    "sufi"
+   ]
+  ],
+  "Egypt": [
+   "Egipto",
+   [
+    "islamica",
+    "sufi",
+    "judia"
+   ]
+  ],
+  "Pakistan": [
+   "Pakistán",
+   [
+    "islamica",
+    "sufi",
+    "india"
+   ]
+  ],
+  "Morocco": [
+   "Marruecos",
+   [
+    "islamica",
+    "sufi"
+   ]
+  ],
+  "Saudi Arabia": [
+   "Arabia Saudita",
+   [
+    "islamica"
+   ]
+  ],
+  "Jordan": [
+   "Jordania",
+   [
+    "islamica"
+   ]
+  ],
+  "Yemen": [
+   "Yemen",
+   [
+    "islamica"
+   ]
+  ],
+  "Oman": [
+   "Omán",
+   [
+    "islamica"
+   ]
+  ],
+  "United Arab Emirates": [
+   "Emiratos Árabes Unidos",
+   [
+    "islamica"
+   ]
+  ],
+  "Qatar": [
+   "Catar",
+   [
+    "islamica"
+   ]
+  ],
+  "Kuwait": [
+   "Kuwait",
+   [
+    "islamica"
+   ]
+  ],
+  "Lebanon": [
+   "Líbano",
+   [
+    "islamica"
+   ]
+  ],
+  "Tunisia": [
+   "Túnez",
+   [
+    "islamica"
+   ]
+  ],
+  "Libya": [
+   "Libia",
+   [
+    "islamica"
+   ]
+  ],
+  "Palestine": [
+   "Palestina",
+   [
+    "islamica"
+   ]
+  ],
+  "Algeria": [
+   "Argelia",
+   [
+    "islamica",
+    "africana"
+   ]
+  ],
+  "Uzbekistan": [
+   "Uzbekistán",
+   [
+    "islamica",
+    "rusa"
+   ]
+  ],
+  "Turkmenistan": [
+   "Turkmenistán",
+   [
+    "islamica",
+    "rusa"
+   ]
+  ],
+  "Israel": [
+   "Israel",
+   [
+    "judia"
+   ]
+  ],
+  "Spain": [
+   "España",
+   [
+    "islamica",
+    "judia",
+    "griega"
+   ]
+  ],
+  "Poland": [
+   "Polonia",
+   [
+    "judia"
+   ]
+  ],
+  "Lithuania": [
+   "Lituania",
+   [
+    "judia"
+   ]
+  ],
+  "Greece": [
+   "Grecia",
+   [
+    "griega"
+   ]
+  ],
+  "Italy": [
+   "Italia",
+   [
+    "griega"
+   ]
+  ],
+  "Russia": [
+   "Rusia",
+   [
+    "rusa"
+   ]
+  ],
+  "Belarus": [
+   "Bielorrusia",
+   [
+    "rusa"
+   ]
+  ],
+  "Ukraine": [
+   "Ucrania",
+   [
+    "rusa",
+    "judia"
+   ]
+  ],
+  "Kazakhstan": [
+   "Kazajistán",
+   [
+    "rusa"
+   ]
+  ],
+  "Kyrgyzstan": [
+   "Kirguistán",
+   [
+    "rusa"
+   ]
+  ],
+  "Georgia": [
+   "Georgia",
+   [
+    "rusa"
+   ]
+  ],
+  "Armenia": [
+   "Armenia",
+   [
+    "rusa"
+   ]
+  ],
+  "Denmark": [
+   "Dinamarca",
+   [
+    "nordica"
+   ]
+  ],
+  "Sweden": [
+   "Suecia",
+   [
+    "nordica",
+    "artico"
+   ]
+  ],
+  "Finland": [
+   "Finlandia",
+   [
+    "nordica",
+    "artico"
+   ]
+  ],
+  "Norway": [
+   "Noruega",
+   [
+    "nordica",
+    "artico"
+   ]
+  ],
+  "Greenland": [
+   "Groenlandia",
+   [
+    "artico"
+   ]
+  ],
+  "Iceland": [
+   "Islandia",
+   [
+    "nordica"
+   ]
+  ],
+  "Canada": [
+   "Canadá",
+   [
+    "artico",
+    "originarios"
+   ]
+  ],
+  "United States of America": [
+   "Estados Unidos",
+   [
+    "originarios",
+    "artico",
+    "pacifico",
+    "caribe"
+   ]
+  ],
+  "Mexico": [
+   "México",
+   [
+    "latinoamericana",
+    "originarios"
+   ]
+  ],
+  "Guatemala": [
+   "Guatemala",
+   [
+    "originarios",
+    "latinoamericana"
+   ]
+  ],
+  "Honduras": [
+   "Honduras",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "El Salvador": [
+   "El Salvador",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "Nicaragua": [
+   "Nicaragua",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "Costa Rica": [
+   "Costa Rica",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "Panama": [
+   "Panamá",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "Belize": [
+   "Belice",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "Uruguay": [
+   "Uruguay",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "Venezuela": [
+   "Venezuela",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "Colombia": [
+   "Colombia",
+   [
+    "latinoamericana"
+   ]
+  ],
+  "Argentina": [
+   "Argentina",
+   [
+    "latinoamericana",
+    "originarios"
+   ]
+  ],
+  "Chile": [
+   "Chile",
+   [
+    "latinoamericana",
+    "originarios"
+   ]
+  ],
+  "Bolivia": [
+   "Bolivia",
+   [
+    "latinoamericana",
+    "originarios"
+   ]
+  ],
+  "Peru": [
+   "Perú",
+   [
+    "latinoamericana",
+    "originarios"
+   ]
+  ],
+  "Ecuador": [
+   "Ecuador",
+   [
+    "latinoamericana",
+    "originarios"
+   ]
+  ],
+  "Paraguay": [
+   "Paraguay",
+   [
+    "latinoamericana",
+    "originarios"
+   ]
+  ],
+  "Brazil": [
+   "Brasil",
+   [
+    "caribe",
+    "latinoamericana",
+    "originarios"
+   ]
+  ],
+  "Cuba": [
+   "Cuba",
+   [
+    "caribe",
+    "latinoamericana"
+   ]
+  ],
+  "Haiti": [
+   "Haití",
+   [
+    "caribe"
+   ]
+  ],
+  "Dominican Rep.": [
+   "República Dominicana",
+   [
+    "caribe",
+    "latinoamericana"
+   ]
+  ],
+  "Puerto Rico": [
+   "Puerto Rico",
+   [
+    "caribe",
+    "latinoamericana"
+   ]
+  ],
+  "Jamaica": [
+   "Jamaica",
+   [
+    "caribe"
+   ]
+  ],
+  "Trinidad and Tobago": [
+   "Trinidad y Tobago",
+   [
+    "caribe"
+   ]
+  ],
+  "Angola": [
+   "Angola",
+   [
+    "africana"
+   ]
+  ],
+  "Benin": [
+   "Benín",
+   [
+    "africana"
+   ]
+  ],
+  "Botswana": [
+   "Botsuana",
+   [
+    "africana"
+   ]
+  ],
+  "Burkina Faso": [
+   "Burkina Faso",
+   [
+    "africana"
+   ]
+  ],
+  "Burundi": [
+   "Burundi",
+   [
+    "africana"
+   ]
+  ],
+  "Cameroon": [
+   "Camerún",
+   [
+    "africana"
+   ]
+  ],
+  "Central African Rep.": [
+   "República Centroafricana",
+   [
+    "africana"
+   ]
+  ],
+  "Chad": [
+   "Chad",
+   [
+    "africana"
+   ]
+  ],
+  "Congo": [
+   "Congo",
+   [
+    "africana"
+   ]
+  ],
+  "Côte d'Ivoire": [
+   "Costa de Marfil",
+   [
+    "africana"
+   ]
+  ],
+  "Dem. Rep. Congo": [
+   "República Democrática del Congo",
+   [
+    "africana"
+   ]
+  ],
+  "Djibouti": [
+   "Yibuti",
+   [
+    "africana"
+   ]
+  ],
+  "Eq. Guinea": [
+   "Guinea Ecuatorial",
+   [
+    "africana"
+   ]
+  ],
+  "Eritrea": [
+   "Eritrea",
+   [
+    "africana"
+   ]
+  ],
+  "Ethiopia": [
+   "Etiopía",
+   [
+    "africana"
+   ]
+  ],
+  "Gabon": [
+   "Gabón",
+   [
+    "africana"
+   ]
+  ],
+  "Gambia": [
+   "Gambia",
+   [
+    "africana"
+   ]
+  ],
+  "Ghana": [
+   "Ghana",
+   [
+    "africana"
+   ]
+  ],
+  "Guinea": [
+   "Guinea",
+   [
+    "africana"
+   ]
+  ],
+  "Guinea-Bissau": [
+   "Guinea-Bisáu",
+   [
+    "africana"
+   ]
+  ],
+  "Kenya": [
+   "Kenia",
+   [
+    "africana"
+   ]
+  ],
+  "Lesotho": [
+   "Lesoto",
+   [
+    "africana"
+   ]
+  ],
+  "Liberia": [
+   "Liberia",
+   [
+    "africana"
+   ]
+  ],
+  "Madagascar": [
+   "Madagascar",
+   [
+    "africana"
+   ]
+  ],
+  "Malawi": [
+   "Malaui",
+   [
+    "africana"
+   ]
+  ],
+  "Mali": [
+   "Malí",
+   [
+    "africana"
+   ]
+  ],
+  "Mauritania": [
+   "Mauritania",
+   [
+    "africana"
+   ]
+  ],
+  "Mozambique": [
+   "Mozambique",
+   [
+    "africana"
+   ]
+  ],
+  "Namibia": [
+   "Namibia",
+   [
+    "africana"
+   ]
+  ],
+  "Niger": [
+   "Níger",
+   [
+    "africana"
+   ]
+  ],
+  "Nigeria": [
+   "Nigeria",
+   [
+    "africana"
+   ]
+  ],
+  "Rwanda": [
+   "Ruanda",
+   [
+    "africana"
+   ]
+  ],
+  "S. Sudan": [
+   "Sudán del Sur",
+   [
+    "africana"
+   ]
+  ],
+  "Senegal": [
+   "Senegal",
+   [
+    "africana"
+   ]
+  ],
+  "Sierra Leone": [
+   "Sierra Leona",
+   [
+    "africana"
+   ]
+  ],
+  "Somaliland": [
+   "Somalilandia",
+   [
+    "africana"
+   ]
+  ],
+  "South Africa": [
+   "Sudáfrica",
+   [
+    "africana"
+   ]
+  ],
+  "Tanzania": [
+   "Tanzania",
+   [
+    "africana"
+   ]
+  ],
+  "Togo": [
+   "Togo",
+   [
+    "africana"
+   ]
+  ],
+  "Uganda": [
+   "Uganda",
+   [
+    "africana"
+   ]
+  ],
+  "Zambia": [
+   "Zambia",
+   [
+    "africana"
+   ]
+  ],
+  "Zimbabwe": [
+   "Zimbabue",
+   [
+    "africana"
+   ]
+  ],
+  "eSwatini": [
+   "Esuatini",
+   [
+    "africana"
+   ]
+  ],
+  "Sudan": [
+   "Sudán",
+   [
+    "africana",
+    "islamica"
+   ]
+  ],
+  "Somalia": [
+   "Somalia",
+   [
+    "africana",
+    "islamica"
+   ]
+  ],
+  "Australia": [
+   "Australia",
+   [
+    "aborigen"
+   ]
+  ],
+  "New Zealand": [
+   "Nueva Zelanda",
+   [
+    "pacifico"
+   ]
+  ],
+  "Philippines": [
+   "Filipinas",
+   [
+    "pacifico"
+   ]
+  ],
+  "Papua New Guinea": [
+   "Papúa Nueva Guinea",
+   [
+    "pacifico"
+   ]
+  ],
+  "Fiji": [
+   "Fiyi",
+   [
+    "pacifico"
+   ]
+  ],
+  "Solomon Is.": [
+   "Islas Salomón",
+   [
+    "pacifico"
+   ]
+  ],
+  "Vanuatu": [
+   "Vanuatu",
+   [
+    "pacifico"
+   ]
+  ],
+  "New Caledonia": [
+   "Nueva Caledonia",
+   [
+    "pacifico"
+   ]
+  ]
+ },
+ "marcas": [
+  {
+   "nombre": "Tíbet",
+   "lon": 88.0,
+   "lat": 31.5,
+   "series": [
+    "tibetana"
+   ]
+  },
+  {
+   "nombre": "Hawái",
+   "lon": -157.0,
+   "lat": 20.5,
+   "series": [
+    "pacifico"
+   ]
+  },
+  {
+   "nombre": "Samoa",
+   "lon": -172.1,
+   "lat": -13.8,
+   "series": [
+    "pacifico"
+   ]
+  },
+  {
+   "nombre": "Martinica",
+   "lon": -61.0,
+   "lat": 14.6,
+   "series": [
+    "caribe",
+    "africana"
+   ]
+  }
+ ]
+}

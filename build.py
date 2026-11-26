@@ -2598,6 +2598,14 @@ def reemplazos(cuerpo, ruta):
         "glosario_fiorini": lambda: bloque_glosario(GLOSARIO_FIORINI),
         "glosario_clinico": lambda: bloque_glosario(GLOSARIO_CLINICO),
         **{p: (lambda l=l: bloque_glosario(l)) for l, _, _, _, p in GLOSARIOS_CULTURALES},
+        "mapa_mundi": lambda: ('<div class="mm" data-mapa-mundi><div><div class="mm-lienzo">'
+            + (CONTENIDO / "mapa-mundi.svg").read_text(encoding="utf-8")
+            + '</div><div class="mm-leyenda" data-mm-leyenda hidden aria-label="Resaltar una tradición en el mapa"></div></div>'
+            '<div class="mm-panel" data-mm-panel tabindex="-1" aria-live="polite"><h2 class="mm-titulo">Elegí un lugar</h2>'
+            '<p class="mm-intro">Tocá un país en verde para ver qué psicologías y tradiciones del sitio se relacionan con él, '
+            'o elegí una tradición abajo del mapa para ver dónde nació.</p></div></div>'
+            '<script type="application/json" id="mapa-mundi-datos">'
+            + json.dumps(cargar_json("mapa-mundi.json"), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + '</script>'),
         "datos_clave": bloque_datos_clave,
         "avatar": lambda: (f'<img class="hero__avatar" src="/assets/img/nicolas-bongiorno-112.webp" alt="" width="56" height="70" decoding="async">' if C.get("foto_chica") else ""),
         "redes": redes_html,
