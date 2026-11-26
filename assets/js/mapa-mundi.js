@@ -20,7 +20,7 @@
   function autores(clave) {
     var l = (D.autores || {})[clave] || [];
     if (!l.length) return "";
-    return '<h3 class="mm-subtitulo">Autores con artículo en el sitio</h3><ul class="mm-autores">' +
+    return '<h3 class="mm-subtitulo">Autores y artículos de este lugar</h3><ul class="mm-autores">' +
       l.map(function (a) { return '<li><a href="/recursos/' + a[0] + '/">' + esc(a[1]) + "</a></li>"; }).join("") + "</ul>";
   }
 
@@ -68,6 +68,12 @@
     return '<button type="button" data-serie="' + k + '" aria-pressed="false">' + esc(D.series[k].nombre) + "</button>";
   }).join("");
   leyenda.hidden = false;
+
+  try {
+    var pre = new URLSearchParams(location.search).get("pais");
+    var elPre = pre && raiz.querySelector('[data-pais="' + pre.replace(/"/g, "") + '"]');
+    if (elPre && D.paises[pre]) { var pp = D.paises[pre]; mostrar(pp[0], pp[1], elPre, pre); }
+  } catch (e) {}
   leyenda.addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
     var k = b.dataset.serie, ya = b.getAttribute("aria-pressed") === "true";

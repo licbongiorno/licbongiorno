@@ -31,7 +31,7 @@ Desde ahí hizo un descubrimiento clínico: algunos actores empezaban a represen
 
 ## Estados Unidos
 
-En 1925 se instaló en Estados Unidos, y más tarde obtuvo la ciudadanía. Trabajó en Nueva York y, entre 1931 y 1932, hizo estudios sobre la organización de los grupos en la prisión de Sing Sing y en una escuela de niñas en Hudson. En 1936 abrió un sanatorio en Beacon, estado de Nueva York, con un teatro terapéutico propio; ese lugar fue durante décadas el centro de su trabajo y de su formación de discípulos. Fundó revistas y, en 1942, la sociedad que hoy conocemos como la American Society of Group Psychotherapy and Psychodrama. Murió en Beacon el 14 de mayo de 1974.
+En 1925 se instaló en Estados Unidos, y más tarde obtuvo la ciudadanía. Trabajó en Nueva York y, a comienzos de los años treinta, hizo estudios sobre la organización de los grupos en la prisión de Sing Sing y en una escuela de niñas en Hudson. En 1936 abrió un sanatorio en Beacon, estado de Nueva York, con un teatro terapéutico propio; ese lugar fue durante décadas el centro de su trabajo y de su formación de discípulos. Fundó revistas y, en 1942, la sociedad que hoy conocemos como la American Society of Group Psychotherapy and Psychodrama. Murió en Beacon el 14 de mayo de 1974.
 
 Su tercera esposa, Zerka Toeman Moreno (1917-2016), fue su colaboradora más importante: ayudó a sistematizar las técnicas y a difundir el método.
 

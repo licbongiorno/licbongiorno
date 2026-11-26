@@ -31,7 +31,7 @@ Silveira no veía las pinturas como pruebas de enfermedad. Creía que el trabajo
 
 ## Jung, las cartas y los mandalas
 
-Silveira encontró en las producciones de sus pacientes figuras circulares, mandalas y símbolos que recordaban los que Carl Jung había descrito en su psicología analítica. Le escribió, y se estableció una correspondencia a mediados de la década del cincuenta. En 1957, durante el Congreso Internacional de Psiquiatría de Zúrich, presentó una exposición con obras del taller, y allí conoció a Jung. Más tarde impulsó en Río un grupo de estudios sobre Jung.
+Silveira encontró en las producciones de sus pacientes figuras circulares, mandalas y símbolos que recordaban los que Carl Jung había descrito en su psicología analítica. Le escribió, y se estableció una correspondencia en la década del cincuenta. En 1957, durante el Congreso Internacional de Psiquiatría de Zúrich, presentó una exposición con obras del taller, y allí conoció a Jung. Más tarde impulsó en Río un grupo de estudios sobre Jung.
 
 Para los junguianos, el **mandala** es una imagen circular de orden y centro que aparece en muchas culturas y en los sueños y dibujos de ciertas personas. Para Silveira era una pista de cómo la psique intenta reorganizarse en momentos de desorden. Esa es una **lectura simbólica**, no un diagnóstico, y no se puede usar para decir qué le pasa a alguien. Para el marco teórico, ver [Carl Gustav Jung](/recursos/carl-gustav-jung/) y [los símbolos según Jung](/recursos/los-simbolos-segun-jung/); los [sueños](/recursos/los-suenos-segun-jung/) aportan material parecido.
 

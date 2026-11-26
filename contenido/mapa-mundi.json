@@ -1471,6 +1471,14 @@
    [
     "franco-basaglia",
     "Franco Basaglia"
+   ],
+   [
+    "seneca",
+    "Séneca"
+   ],
+   [
+    "marco-aurelio",
+    "Marco Aurelio"
    ]
   ],
   "Romania": [
@@ -1519,6 +1527,10 @@
    [
     "eric-berne",
     "Eric Berne"
+   ],
+   [
+    "never-in-anger-jean-briggs",
+    "Jean Briggs"
    ]
   ],
   "United States of America": [
@@ -1677,6 +1689,184 @@
    [
     "mihaly-csikszentmihalyi",
     "Mihaly Csikszentmihalyi"
+   ]
+  ],
+  "Brazil": [
+   [
+    "nise-da-silveira",
+    "Nise da Silveira"
+   ],
+   [
+    "paulo-freire-y-la-psicologia",
+    "Paulo Freire"
+   ],
+   [
+    "terapia-comunitaria-integrativa",
+    "Adalberto Barreto"
+   ]
+  ],
+  "Vietnam": [
+   [
+    "thich-nhat-hanh-y-el-interser",
+    "Thich Nhat Hanh"
+   ]
+  ],
+  "Iran": [
+   [
+    "hafez-y-la-lectura-del-alma",
+    "Hafez"
+   ],
+   [
+    "peseschkian-y-la-psicoterapia-positiva",
+    "Nossrat Peseschkian"
+   ],
+   [
+    "al-ghazali-y-la-crisis-espiritual",
+    "Al-Ghazali"
+   ],
+   [
+    "al-razi-y-la-medicina-del-alma",
+    "Al-Razi"
+   ]
+  ],
+  "Turkey": [
+   [
+    "rumi-y-la-psicologia",
+    "Rumi"
+   ]
+  ],
+  "Afghanistan": [
+   [
+    "rumi-y-la-psicologia",
+    "Rumi"
+   ]
+  ],
+  "Algeria": [
+   [
+    "frantz-fanon-psiquiatra",
+    "Frantz Fanon"
+   ]
+  ],
+  "El Salvador": [
+   [
+    "ignacio-martin-baro",
+    "Ignacio Martín-Baró"
+   ]
+  ],
+  "Venezuela": [
+   [
+    "maritza-montero-y-la-psicologia-comunitaria",
+    "Maritza Montero"
+   ]
+  ],
+  "Nigeria": [
+   [
+    "la-aldea-terapeutica-de-aro",
+    "Thomas Adeoye Lambo"
+   ]
+  ],
+  "Zimbabwe": [
+   [
+    "friendship-bench",
+    "Dixon Chibanda"
+   ]
+  ],
+  "Spain": [
+   [
+    "maimonides-y-la-medicina-del-alma",
+    "Maimónides"
+   ]
+  ],
+  "Egypt": [
+   [
+    "maimonides-y-la-medicina-del-alma",
+    "Maimónides"
+   ]
+  ],
+  "Greece": [
+   [
+    "epicuro-y-el-placer-sereno",
+    "Epicuro"
+   ],
+   [
+    "aristoteles",
+    "Aristóteles"
+   ],
+   [
+    "hipocrates-galeno-y-los-cuatro-humores",
+    "Hipócrates y Galeno"
+   ]
+  ],
+  "New Zealand": [
+   [
+    "te-whare-tapa-wha",
+    "Mason Durie"
+   ]
+  ],
+  "Philippines": [
+   [
+    "sikolohiyang-pilipino",
+    "Virgilio Enriquez"
+   ]
+  ],
+  "India": [
+   [
+    "sudhir-kakar",
+    "Sudhir Kakar"
+   ],
+   [
+    "girindrasekhar-bose",
+    "Girindrasekhar Bose"
+   ]
+  ],
+  "China": [
+   [
+    "zhuangzi",
+    "Zhuangzi"
+   ],
+   [
+    "wang-yangming",
+    "Wang Yangming"
+   ]
+  ],
+  "Puerto Rico": [
+   [
+    "espiritismo-y-salud-mental-en-puerto-rico",
+    "Espiritismo y salud mental"
+   ]
+  ],
+  "Cambodia": [
+   [
+    "khyal-cap-y-el-trauma-en-camboya",
+    "Khyâl cap y trauma"
+   ]
+  ],
+  "Thailand": [
+   [
+    "kreng-jai-y-la-cortesia-tailandesa",
+    "Kreng jai"
+   ]
+  ],
+  "Australia": [
+   [
+    "dadirri-escuchar-en-profundidad",
+    "Miriam-Rose Ungunmerr-Baumann"
+   ],
+   [
+    "generaciones-robadas-y-bringing-them-home",
+    "Las Generaciones Robadas"
+   ]
+  ],
+  "Greenland": [
+   [
+    "piblokto-y-la-histeria-artica",
+    "El piblokto"
+   ]
+  ],
+  "Norway": [
+   [
+    "joik-y-la-resiliencia-sami",
+    "El joik sami"
    ]
   ]
  }
