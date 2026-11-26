@@ -182,7 +182,8 @@
         "/laboratorio-de-pena-y-enojo/",
         "/laboratorio-de-jeong/",
         "/laboratorio-del-yo-y-el-nosotros/",
-        "/laboratorio-de-lojong/"
+        "/laboratorio-de-lojong/",
+        "/laboratorio-de-interser/"
       ]
     },
     {
@@ -209,7 +210,10 @@
       "descripcion": "Modelos de bienestar de otras culturas, como el maorí y el ubuntu africano, con su contexto y sus límites.",
       "rutas": [
         "/laboratorio-te-whare-tapa-wha/",
-        "/laboratorio-de-ubuntu/"
+        "/laboratorio-de-ubuntu/",
+        "/laboratorio-de-dadirri/",
+        "/laboratorio-isuma/",
+        "/laboratorio-de-saudade/"
       ]
     },
     {

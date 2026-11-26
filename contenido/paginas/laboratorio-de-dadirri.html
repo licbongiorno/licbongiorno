@@ -1,0 +1,186 @@
+<!--{
+  "ruta": "/laboratorio-de-dadirri/",
+  "titulo": "Laboratorio de dadirri: escucha profunda y silencio",
+  "descripcion": "Ejercicios inspirados en el dadirri aborigen: escuchar a alguien, a un lugar y a uno mismo, esperar sin apurar y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Dadirri",
+      "/laboratorio-de-dadirri/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>dadirri</em>",
+  "bajada": "Dadirri es una palabra de los pueblos del río Daly, en el norte de Australia, que la anciana Miriam-Rose Ungunmerr-Baumann ofreció para nombrar una escucha profunda y una espera tranquila. Ejercicios de escucha inspirados en lo que ella cuenta, sin hacerlos pasar por la práctica misma.",
+  "respuesta": "El laboratorio de dadirri ofrece ejercicios de escucha inspirados en el dadirri, la escucha profunda y la quietud atenta que Miriam-Rose Ungunmerr-Baumann, anciana de Nauiyu (pueblo ngan'gikurunggurr), compartió con un público amplio: escuchar a alguien sin preparar la respuesta, escuchar un lugar, escuchar lo propio, esperar sin apurar, un cuidado sobre cómo nombrarlo sin apropiarse, un quiz de mitos y verdades y un plan de 7 días. Dadirri es una práctica viva de un pueblo, no una técnica clínica ni un tratamiento; estos ejercicios son una inspiración y no la reproducen.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de dadirri",
+  "articulos": [
+    "dadirri-escuchar-en-profundidad",
+    "mapa-de-la-psicologia-aborigen-australiana",
+    "mindfulness-atencion-plena"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Casi todos conocemos la diferencia entre alguien que espera su turno para hablar y alguien que está del todo ahí. En la región del río Daly, en el Territorio del Norte de Australia, esa diferencia tiene un nombre: <strong>dadirri</strong>. <strong>Miriam-Rose Ungunmerr-Baumann</strong>, artista, educadora y anciana de la comunidad de Nauiyu, del pueblo <em>ngan'gikurunggurr</em>, decidió compartirlo con quienes no pertenecían a su gente. Lo describe como una escucha profunda y una quietud atenta: escuchar la tierra, el agua y a las demás personas, y esperar a que las cosas lleguen en su tiempo.</p>
+        <p>Antes de seguir, una aclaración que importa. El dadirri es una <strong>práctica viva de un pueblo</strong>, ligada a la comunidad, a los ancianos, al territorio (<em>Country</em>) y a una espiritualidad que este laboratorio no puede enseñar ni pretende reemplazar. Quienes lo explican cuentan que se aprende conviviendo, no con una lista de pasos. Por eso lo que sigue son ejercicios de escucha <strong>inspirados</strong> en lo que ella ofreció: sirven para pensar cómo escuchamos nosotros, y no son «dadirri». Para el contexto, leé el artículo sobre <a href="/recursos/dadirri-escuchar-en-profundidad/">dadirri</a> y el <a href="/recursos/mapa-de-la-psicologia-aborigen-australiana/">mapa de la psicología aborigen australiana</a>.</p>
+        <p>Sobre el respaldo: que Ungunmerr-Baumann compartió el concepto y que se lo cita en educación, salud y trabajo comunitario está documentado. Como forma de relación y de investigación tiene lugar en la investigación cualitativa indígena, junto al <em>yarning</em>. Como tratamiento no tiene estudios clínicos, y no se lo propone así. Tampoco es lo mismo que el <a href="/recursos/mindfulness-atencion-plena/">mindfulness</a>, aunque se parezcan en la atención y el silencio.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin apuro.</strong> Tomate el tiempo que cada ejercicio pida.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con respeto.</strong> Inspiración sí, apropiación no: nombrá siempre de dónde viene.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#alguien">Escuchar a alguien</a>
+      <a href="#lugar">Escuchar un lugar</a>
+      <a href="#uno-mismo">Escucharme</a>
+      <a href="#espera">Esperar sin apurar</a>
+      <a href="#nombrar">Nombrarlo con respeto</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="alguien" aria-labelledby="t-alguien">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-alguien">Escuchar a alguien</h2>
+      <p class="lab-estacion__bajada">Elegí una conversación de esta semana con una persona que te importe. La propuesta es una sola: escuchar sin preparar la respuesta, dejar que haya silencios y no llenarlos enseguida. Después, anotá qué notaste. Si el otro habla de algo doloroso, escuchar alcanza: no hace falta arreglar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dadirri-alguien" data-lab-form-titulo="Escuchar a alguien" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-alguien-1">La persona y el momento en que voy a escucharla</label><input class="lab-campo" id="dad-alguien-1" type="text" autocomplete="off" placeholder="Mi madre, el domingo después del almuerzo"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-alguien-2">Qué suelo hacer mientras el otro habla (preparar mi respuesta, mirar el teléfono, aconsejar)</label><textarea class="lab-texto" id="dad-alguien-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-alguien-3">Qué voy a hacer distinto esta vez</label><textarea class="lab-texto" id="dad-alguien-3" rows="2" placeholder="Dejar el teléfono lejos, esperar un respiro antes de contestar…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-alguien-4">Después: qué escuché que antes se me habría pasado</label><textarea class="lab-texto" id="dad-alguien-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-alguien-5">Después: qué pasó con los silencios</label><textarea class="lab-texto" id="dad-alguien-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="lugar" aria-labelledby="t-lugar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-lugar">Escuchar un lugar</h2>
+      <p class="lab-estacion__bajada">Ungunmerr-Baumann habla de escuchar la tierra y el agua, en un vínculo de su pueblo con su territorio que un laboratorio no puede reproducir. Lo que sí podés hacer es llevar esa pregunta a tu propio lugar: una plaza, un patio, la orilla del río, la ventana de tu casa. Quedate un rato en silencio y anotá lo que oís, lo que ves y lo que cambia mientras esperás.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dadirri-lugar" data-lab-form-titulo="Escuchar un lugar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-lugar-1">El lugar que elijo y por qué</label><input class="lab-campo" id="dad-lugar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-lugar-2">Cuánto tiempo me quedo, sin teléfono y sin hacer otra cosa (diez minutos alcanzan)</label><input class="lab-campo" id="dad-lugar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-lugar-3">Los sonidos que fui notando, de los más fuertes a los más tenues</label><textarea class="lab-texto" id="dad-lugar-3" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-lugar-4">Qué cambió en mí o en el lugar mientras esperaba</label><textarea class="lab-texto" id="dad-lugar-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-lugar-5">Qué sé de la historia de este lugar y de quiénes lo habitaron antes</label><textarea class="lab-texto" id="dad-lugar-5" rows="2" placeholder="Si no sé nada, anoto qué podría averiguar"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="uno-mismo" aria-labelledby="t-uno-mismo">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-uno-mismo">Escucharme</h2>
+      <p class="lab-estacion__bajada">La escucha profunda también puede dirigirse hacia adentro: sentarse un rato sin buscar una respuesta y ver qué aparece. No es lo mismo que meditar con un método, ni hace falta que salga algo. Si lo que aparece es muy doloroso o te desborda, frená y buscá compañía: escucharse no tiene que hacerse a la fuerza ni a solas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dadirri-uno-mismo" data-lab-form-titulo="Escucharme" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-yo-1">Cuándo y dónde me siento a escucharme (cinco a diez minutos)</label><input class="lab-campo" id="dad-yo-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-yo-2">Lo primero que apareció: sensaciones del cuerpo, imágenes, ganas, ruido mental</label><textarea class="lab-texto" id="dad-yo-2" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-yo-3">Qué quise hacer enseguida con eso (arreglarlo, taparlo, juzgarlo, distraerme)</label><textarea class="lab-texto" id="dad-yo-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-yo-4">Qué pasó cuando lo dejé estar un rato sin hacer nada</label><textarea class="lab-texto" id="dad-yo-4" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="espera" aria-labelledby="t-espera">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-espera">Esperar sin apurar</h2>
+      <p class="lab-estacion__bajada">Ungunmerr-Baumann habla de esperar con paciencia y de dejar que las cosas lleguen en su tiempo. En la vida de cada día solemos apurar: cerrar el tema, dar el consejo, resolver el problema ajeno. Esta estación te propone mirar dónde apurás y qué podría pasar si esperaras un poco más. A veces apurar es lo que corresponde (una urgencia no se espera); se trata de distinguir.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dadirri-espera" data-lab-form-titulo="Esperar sin apurar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-espera-1">Una situación en la que suelo apurar (a otros, a un proceso, a mí)</label><textarea class="lab-texto" id="dad-espera-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-espera-2">Qué me empuja a apurar: ansiedad, agenda, incomodidad con el silencio, ganas de resolver</label><textarea class="lab-texto" id="dad-espera-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-espera-3">¿Es una urgencia real o puedo esperar? ¿Cómo lo sé?</label><textarea class="lab-texto" id="dad-espera-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-espera-4">Una espera pequeña que voy a probar esta semana</label><input class="lab-campo" id="dad-espera-4" type="text" autocomplete="off" placeholder="Contar hasta cinco antes de responder, no opinar hasta que terminen"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-espera-5">Después: qué llegó en ese tiempo que, apurando, no habría llegado</label><textarea class="lab-texto" id="dad-espera-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="nombrar" aria-labelledby="t-nombrar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-nombrar">Nombrarlo con respeto</h2>
+      <p class="lab-estacion__bajada">Cuando una palabra de un pueblo pasa a un libro de autoayuda o a un curso, suele perder su contexto y a veces lo gana otro. Algunas pautas razonables: nombrar la fuente y el pueblo, no venderla como técnica, distinguir inspiración de práctica, leer a las voces aborígenes en primera persona y recordar que lo que un texto público puede decir es parcial. Probá aplicarlas a lo que vas a contar de este laboratorio.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dadirri-nombrar" data-lab-form-titulo="Cómo lo nombro" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-nombrar-1">Cómo le contaría a otra persona de dónde viene esto (quién, qué pueblo, qué lugar)</label><textarea class="lab-texto" id="dad-nombrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-nombrar-2">Cómo diría que lo que hice me inspiró, sin decir que «practico dadirri»</label><textarea class="lab-texto" id="dad-nombrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-nombrar-3">Qué voy a leer o escuchar de voces aborígenes, no solo de quienes escribimos desde afuera</label><input class="lab-campo" id="dad-nombrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-nombrar-4">Qué no sé y no me corresponde explicar</label><textarea class="lab-texto" id="dad-nombrar-4" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste notando en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="dadirri-integrar" data-lab-form-titulo="Lo que integro sobre escuchar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-integrar-1">Lo que descubrí sobre cómo escucho a los demás</label><textarea class="lab-texto" id="dad-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-integrar-2">Un lugar al que quiero volver a escuchar</label><input class="lab-campo" id="dad-integrar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-integrar-3">Lo que descubrí sobre mi apuro</label><textarea class="lab-texto" id="dad-integrar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-integrar-4">Un momento fijo de la semana para escuchar sin apuro</label><input class="lab-campo" id="dad-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="dad-integrar-5">Algo que voy a averiguar sobre el pueblo o la tradición que inspiró esto</label><input class="lab-campo" id="dad-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, de a poco. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="dadirri">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Leer de dónde viene.</strong> Leé el artículo sobre dadirri y anotá el nombre de quien lo compartió y de su pueblo.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Diez minutos de silencio.</strong> Sentate sin teléfono ni tarea y notá qué se oye, adentro y afuera.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Escuchar a alguien.</strong> En una conversación, esperá a que termine antes de pensar qué responder.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un lugar.</strong> Pasá un rato en un lugar cercano, en silencio, y escribí tres cosas que no habías notado.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Esperar.</strong> Elegí algo en lo que sueles apurar y dejalo llegar a su tiempo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Escucharme.</strong> Dedicá cinco minutos a ver qué aparece, sin arreglarlo ni juzgarlo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Agradecer y nombrar.</strong> Agradecé a alguien que te escuchó y, si lo contás, nombrá la fuente que te inspiró.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el dadirri y la escucha profunda. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="dadirri-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios de escucha no reemplazan una consulta cuando el sufrimiento es intenso, y el silencio no siempre es una buena compañía: si al quedarte quieta o quieto aparece angustia fuerte, recuerdos que te desbordan o pensamientos de hacerte daño, cortá el ejercicio y buscá apoyo. Mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país). También podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/dadirri-escuchar-en-profundidad/">dadirri</a>, el <a href="/recursos/mapa-de-la-psicologia-aborigen-australiana/">mapa de la psicología aborigen australiana</a>, el <a href="/glosario-de-psicologia-aborigen-australiana/">glosario</a> y el <a href="/laboratorio-de-mindfulness/">laboratorio de mindfulness</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Ungunmerr-Baumann, M.-R. <em>Dadirri: Inner Deep Listening and Quiet Still Awareness</em>. Fundación Miriam Rose (Nauiyu, Territorio del Norte).</li>
+        <li>Bessarab, D. y Ng'andu, B. (2010). «Yarning about yarning as a legitimate method in Indigenous research». <em>International Journal of Critical Indigenous Studies</em>, 3(1), 37-50.</li>
+        <li>Atkinson, J. (2002). <em>Trauma Trails, Recreating Song Lines</em>. Spinifex Press.</li>
+        <li>Dudgeon, P., Milroy, H. y Walker, R. (eds.) (2014). <em>Working Together: Aboriginal and Torres Strait Islander Mental Health and Wellbeing Principles and Practice</em> (2.ª ed.). Commonwealth of Australia.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

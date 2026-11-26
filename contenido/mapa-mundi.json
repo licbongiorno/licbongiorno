@@ -123,7 +123,7 @@
   "occidental": {
    "nombre": "Dónde nació la psicología",
    "mapa": "/recursos/donde-nacio-la-psicologia/",
-   "glosario": null,
+   "glosario": "/glosario-de-la-psicologia-occidental/",
    "desc": "De Leipzig a Viena, Zúrich, Londres y Estados Unidos: los países de origen de la psicología occidental."
   }
  },
@@ -1612,6 +1612,14 @@
    ]
   ],
   "Argentina": [
+   [
+    "horacio-pinero",
+    "Horacio Piñero"
+   ],
+   [
+    "jose-ingenieros",
+    "José Ingenieros"
+   ],
    [
     "enrique-pichon-riviere",
     "Enrique Pichon-Rivière"

@@ -1,0 +1,186 @@
+<!--{
+  "ruta": "/laboratorio-isuma/",
+  "titulo": "Laboratorio de isuma: manejar el enojo sin estallar",
+  "descripcion": "Manejar el enojo sin estallar, inspirado en los inuit según Jean Briggs: observar, responder con calma, jugar y preguntar, y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Isuma",
+      "/laboratorio-isuma/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>isuma</em>",
+  "bajada": "La antropóloga Jean Briggs describió entre una comunidad inuit del Ártico canadiense una idea: isuma, la capacidad de pensar con juicio y no actuar por impulso. Ejercicios para observar tu enojo y responder con más calma, sin idealizar ni reprimir.",
+  "respuesta": "El laboratorio de isuma ofrece ejercicios sobre el manejo del enojo inspirados en lo que Jean Briggs describió en «Never in Anger» (1970) sobre una pequeña comunidad utku, del pueblo inuit: observar el enojo antes de actuar, responder con calma, usar el juego y la pregunta como formas de educar, mirar los costos de contener, un quiz de situaciones, un plan de 7 días y un quiz de mitos y verdades. Es una etnografía de un grupo y una época, no un método terapéutico ni un retrato de todos los inuit.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de isuma",
+  "articulos": [
+    "never-in-anger-jean-briggs",
+    "mapa-de-las-psicologias-del-artico",
+    "el-enojo"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Entre 1963 y 1965, la antropóloga estadounidense <strong>Jean Briggs</strong> vivió cerca de un año y medio con una comunidad muy pequeña de familias utku (<em>utkuhiksalingmiut</em>), del pueblo inuit, en el Ártico canadiense. De esa estadía salió <em>Never in Anger</em> (1970), un libro sobre una vida en la que los adultos casi nunca mostraban enojo, ni siquiera ante provocaciones que a una persona occidental le parecerían graves. Briggs vio que esa calma no era frialdad: la gente se mostraba cariñosa, generosa y juguetona.</p>
+        <p>Una palabra central es <strong>isuma</strong> (<em>ihuma</em> en el dialecto que ella estudió): mente, pensamiento, razón, y también juicio o madurez. Según Briggs, tener isuma es poder pensar y no actuar con el impulso. Se va adquiriendo con los años: a los chicos chicos se les tolera que se enojen, lloren o peguen, y se los va guiando con preguntas, bromas y pequeñas escenas, no con gritos ni castigos. Es una idea de una cultura, no un concepto psicológico validado; sirve para pensar cómo se relacionan la emoción y el juicio.</p>
+        <p>Los matices importan. Es el retrato de unas pocas familias a mediados del siglo XX, no de «los inuit», que son muchos pueblos y hoy viven vidas muy cambiadas. Briggs no dijo que no hubiera enojo: dijo que existía, junto con celos y conflictos, y que lo esperable era no expresarlo contra otros. Y vio costos: cuando ella misma dejó ver su irritación, la comunidad la apartó durante un tiempo con un silencio que pesaba. Contener no es lo mismo que no sentir, y guardar el enojo también tiene precio. Para el contexto completo, el artículo sobre <a href="/recursos/never-in-anger-jean-briggs/">Never in Anger</a> y el <a href="/recursos/mapa-de-las-psicologias-del-artico/">mapa de las psicologías del Ártico</a>.</p>
+        <p>Estos ejercicios no copian nada: toman la pregunta de Briggs, qué se aprende de los mayores sobre cómo expresar lo que sentimos, y la llevan a tu vida. Son prácticas de reflexión, no un tratamiento, y no proponen reprimir.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin reprimir.</strong> Sentir el enojo es válido; se trabaja lo que hacemos con él.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con matices.</strong> Una etnografía de un grupo no es una receta universal.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#observar">Observar mi enojo</a>
+      <a href="#quiz">Quiz de situaciones</a>
+      <a href="#calma">Responder con calma</a>
+      <a href="#juego">El juego y la pregunta</a>
+      <a href="#costos">Lo que se guarda</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="observar" aria-labelledby="t-observar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-observar">Observar mi enojo antes de actuar</h2>
+      <p class="lab-estacion__bajada">Si isuma es pensar antes de actuar, el primer paso es darse cuenta de que el enojo está. Elegí un episodio reciente, chico o grande, y recorrelo con curiosidad, sin juzgarte. No hace falta que haya sido un estallido: un fastidio callado también cuenta.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="isuma-observar" data-lab-form-titulo="Observar mi enojo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-obs-1">Qué pasó, en dos líneas</label><textarea class="lab-texto" id="isu-obs-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-obs-2">Qué sentí en el cuerpo antes de reaccionar (calor, mandíbula, puños, respiración)</label><textarea class="lab-texto" id="isu-obs-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-obs-3">Qué pensé en ese momento («no me respeta», «siempre lo mismo»)</label><textarea class="lab-texto" id="isu-obs-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-obs-4">Qué había debajo del enojo: cansancio, miedo, dolor, sentirme ignorado</label><textarea class="lab-texto" id="isu-obs-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-obs-5">Qué hice, y qué pasó después</label><textarea class="lab-texto" id="isu-obs-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-obs-6">La primera señal que podría avisarme la próxima vez</label><input class="lab-campo" id="isu-obs-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quiz">¿Qué hace esta persona con su enojo?</h2>
+      <p class="lab-estacion__bajada">Contener, descargar y reprimir no son lo mismo. En cada escena, elegí la lectura más razonable. Son situaciones inventadas y en la vida real se mezclan; el quiz propone una lectura, no un veredicto.</p>
+      <div class="lab-tarjeta" data-lab-quiz="isuma-situaciones">
+        <p class="lab-tarjeta__titulo">¿Qué está haciendo con su enojo?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente escena</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="calma" aria-labelledby="t-calma">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-calma">Responder con calma</h2>
+      <p class="lab-estacion__bajada">Pensar antes de actuar no significa tragarse lo que pasó. Significa elegir cuándo y cómo decirlo. Pensá en una situación que suele sacarte de quicio y armá una respuesta con pausa: primero bajar el volumen del cuerpo, después decir lo que necesitás. Si tenés que irte un rato, avisá que volvés.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="isuma-calma" data-lab-form-titulo="Responder con calma" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-calma-1">La situación que suele sacarme de quicio</label><input class="lab-campo" id="isu-calma-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-calma-2">Qué hago con el cuerpo para ganar unos segundos (exhalar largo, apoyar los pies, tomar agua, salir de la habitación)</label><textarea class="lab-texto" id="isu-calma-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-calma-3">Qué me digo para pensar antes de contestar</label><input class="lab-campo" id="isu-calma-3" type="text" autocomplete="off" placeholder="«Esto me enoja, pero puedo esperar»"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-calma-4">Lo que necesito decir, sin acusar (qué pasó, cómo me afectó, qué pido)</label><textarea class="lab-texto" id="isu-calma-4" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-calma-5">Cuándo es mejor esperar para hablarlo, y cuándo no puede esperar</label><textarea class="lab-texto" id="isu-calma-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="juego" aria-labelledby="t-juego">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-juego">El juego y la pregunta como formas de educar</h2>
+      <p class="lab-estacion__bajada">En <em>Inuit Morality Play</em> (1998), Briggs siguió a una nena de tres años a la que sus allegados planteaban escenas dramatizadas y preguntas provocadoras sobre lo que sentía y hacía, para que fuera aprendiendo qué se espera de ella. Es el material de una familia concreta, no un manual de crianza, y algunas de esas pruebas podrían resultar duras para una criatura. Lo que sí se puede tomar como pregunta: ¿cómo enseñamos, con chicos o entre adultos, a manejar emociones intensas sin gritar ni humillar? Probá esta estación con una situación real.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="isuma-juego" data-lab-form-titulo="El juego y la pregunta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-juego-1">Una situación en la que alguien a mi cargo (o yo mismo) se enoja y suelo reaccionar con un reto o un grito</label><textarea class="lab-texto" id="isu-juego-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-juego-2">Una pregunta curiosa, no acusadora, que podría hacer en vez de retar</label><input class="lab-campo" id="isu-juego-2" type="text" autocomplete="off" placeholder="«¿Qué te pasó ahí?», «¿qué necesitabas?»"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-juego-3">Una forma de juego o de humor suave que podría aflojar la tensión, sin burlarme</label><textarea class="lab-texto" id="isu-juego-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-juego-4">Cuándo el humor o el juego no sirven, y hace falta un límite claro o una pausa</label><textarea class="lab-texto" id="isu-juego-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-juego-5">Qué aprendí de los mayores sobre cómo se expresa el enojo, para bien y para mal</label><textarea class="lab-texto" id="isu-juego-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="costos" aria-labelledby="t-costos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-costos">Lo que se guarda y lo que cuesta</h2>
+      <p class="lab-estacion__bajada">Idealizar la «calma inuit» sería quedarse con la mitad. Briggs vio que el enojo abierto amenazaba la convivencia en un lugar donde sobrevivir dependía de cooperar, y que apartar a quien se salía de lo esperado tenía un costo para esa persona. Contener sin procesar también pasa factura: tensión, resentimiento, cansancio. Esta estación te pide mirar lo que guardás.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="isuma-costos" data-lab-form-titulo="Lo que se guarda y lo que cuesta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-costos-1">Un enojo que vengo guardando</label><textarea class="lab-texto" id="isu-costos-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-costos-2">Qué gano al no decirlo (paz, evitar un conflicto, cuidar un vínculo)</label><textarea class="lab-texto" id="isu-costos-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-costos-3">Qué me cuesta (tensión en el cuerpo, resentimiento, distancia, no poder pedir lo que necesito)</label><textarea class="lab-texto" id="isu-costos-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-costos-4">Alguien con quien podría hablarlo, o una forma de expresarlo sin estallar (escribirlo, caminar, decirlo con calma)</label><textarea class="lab-texto" id="isu-costos-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-costos-5">¿Hay algo de esto que tiene que ver con maltrato, miedo o violencia, donde callar me pone en riesgo?</label><textarea class="lab-texto" id="isu-costos-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste notando en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="isuma-integrar" data-lab-form-titulo="Lo que integro sobre mi enojo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-integrar-1">Lo que descubrí sobre cómo se me presenta el enojo</label><textarea class="lab-texto" id="isu-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-integrar-2">Mi señal temprana y mi pausa</label><input class="lab-campo" id="isu-integrar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-integrar-3">Una forma de decir lo que necesito sin acusar</label><textarea class="lab-texto" id="isu-integrar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-integrar-4">Lo que no quiero seguir guardando</label><input class="lab-campo" id="isu-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="isu-integrar-5">Con quién puedo hablar de esto si me desborda</label><input class="lab-campo" id="isu-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="isuma">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Notar.</strong> Cada vez que aparezca fastidio o enojo, anotá en una línea qué lo disparó y qué sentiste en el cuerpo.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Una pausa.</strong> Antes de responder a algo que te irrita, tomate tres respiraciones largas.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Qué hay debajo.</strong> Preguntate si detrás del enojo hay cansancio, miedo o dolor, y anotá la respuesta.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Una pregunta.</strong> En vez de reprochar, hacé una pregunta curiosa a alguien con quien tuviste una fricción.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Decirlo con calma.</strong> Decí algo que necesitás pedir, sin acusar y sin tragártelo.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Humor sin burla.</strong> Buscá una forma de aflojar una tensión con humor suave, sin reírte de nadie.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Lo que se guarda.</strong> Revisá si hay un enojo que venís guardando y elegí cómo expresarlo o con quién hablarlo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre Briggs, los inuit y el enojo. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="isuma-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios ayudan a mirar el enojo, pero no reemplazan una consulta. Si tu enojo se te fue de las manos, lastimó a alguien o te cuesta pararlo, una consulta profesional puede ayudar a mirarlo sin condenarlo ni reprimirlo. Si hay violencia en tu casa, o riesgo para vos o para otros, mirá <a href="/ayuda-urgente/">ayuda urgente</a>: en Argentina podés llamar a la Línea 144, y si estás en peligro, al 911. Si pensás en hacerte daño, llamá al Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país). También podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/never-in-anger-jean-briggs/">Never in Anger</a>, el <a href="/recursos/mapa-de-las-psicologias-del-artico/">mapa de las psicologías del Ártico</a>, el de <a href="/recursos/el-enojo/">el enojo</a> y el <a href="/laboratorio-de-pena-y-enojo/">laboratorio de pena y enojo</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Briggs, J. L. (1970). <em>Never in Anger: Portrait of an Eskimo Family</em>. Harvard University Press.</li>
+        <li>Briggs, J. L. (1998). <em>Inuit Morality Play: The Emotional Education of a Three-Year-Old</em>. Yale University Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
