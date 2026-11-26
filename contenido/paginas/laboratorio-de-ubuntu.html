@@ -1,0 +1,199 @@
+<!--{
+  "ruta": "/laboratorio-de-ubuntu/",
+  "titulo": "Laboratorio de ubuntu: una persona es persona a través de otras",
+  "descripcion": "Ejercicios sobre el yo relacional del ubuntu: el mapa de quiénes te sostienen y a quiénes sostenés, la reciprocidad, las críticas a la idea y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Ubuntu",
+      "/laboratorio-de-ubuntu/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>ubuntu</em>",
+  "bajada": "Ubuntu, del sur de África, se resume en un proverbio: una persona es persona a través de otras personas. Ejercicios para mirar tu vida con esa lente: quiénes te sostienen, a quiénes sostenés vos, cómo circula lo que se da y se recibe, y cuándo la comunidad también pesa.",
+  "respuesta": "El laboratorio de ubuntu ofrece ejercicios sobre el yo relacional: un mapa de las personas que te sostienen y de las que sostenés, una estación sobre la reciprocidad, un quiz para distinguir el apoyo mutuo de la presión comunitaria, una estación sobre las críticas al ubuntu (presión del grupo, uso político del concepto), una viñeta y un plan de 7 días. El ubuntu es una filosofía de la persona de las lenguas nguni, con una larga discusión académica; no es un tratamiento ni una teoría psicológica validada.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de ubuntu",
+  "articulos": [
+    "mapa-de-la-psicologia-africana",
+    "oriente-y-occidente-psicologia-cultural",
+    "el-yo-y-el-si-mismo"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>«Yo soy porque nosotros somos.» La frase circula en tazas, en discursos de empresas y en redes, casi siempre sin autor y sin lugar. Detrás hay una palabra con historia: <strong>ubuntu</strong>, de las lenguas nguni del sur de África, resumida en el proverbio <em>umuntu ngumuntu ngabantu</em>, «una persona es persona a través de otras personas». El arzobispo Desmond Tutu la dio a conocer en el mundo, sobre todo en <em>No Future Without Forgiveness</em> (1999), cuando habló de la reconciliación después del apartheid. En 1995 la Corte Constitucional de Sudáfrica la citó en la sentencia <em>S. v. Makwanyane</em>.</p>
+        <p>La formulación filosófica más citada es la del nigeriano <strong>Ifeanyi Menkiti</strong>. En «Person and Community in African Traditional Thought» (1984) sostuvo que, en muchas sociedades africanas tradicionales, la condición de persona no se tiene de entrada: se alcanza a lo largo de la vida, con ritos de paso y con la asunción de responsabilidades hacia los demás. El ghanés Kwame Gyekye propuso una versión más moderada, en la que la comunidad es parte de la persona pero esta conserva su capacidad de elegir. Para la psicología, estas ideas funcionan como hipótesis sobre el yo y como una crítica de las teorías que suponen un individuo separado de todos. Conversan con lo que la psicología cultural describió, desde otro lado, como yo <em>interdependiente</em> (Markus y Kitayama, 1991). Pero son filosofía, no datos.</p>
+        <p>Y es una filosofía discutida por pensadores africanos. Bernard Matolino y Wenceslaus Kwindingwi, en «The End of Ubuntu» (2013), advirtieron que a veces se usa como consigna que tapa desigualdades reales o que pide a la gente más sacrificio del que corresponde. También se la critica por idealizar: ningún continente es una comunidad armoniosa, y «África» no es un solo pueblo. Por eso este laboratorio no te propone «vivir en ubuntu». Te propone usar la idea como una lente, con sus alcances y sus límites, para mirar de quiénes dependés y quiénes dependen de vos.</p>
+        <p>Algo del respaldo empírico, desde otro lugar: la investigación en psicología social encontró una y otra vez que los lazos sociales importan para la salud. Un metaanálisis de Holt-Lunstad y colegas (2010) vinculó las relaciones sociales con la supervivencia. Son resultados sobre muestras sobre todo occidentales y no prueban el ubuntu, pero muestran que la pregunta por los lazos es seria. Los ejercicios son prácticas de reflexión, no un tratamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con gratitud.</strong> Mucho de lo que sos te llegó de otras personas.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> Pertenecer no obliga a callarte ni a soportar el maltrato.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mapa">Quiénes me sostienen</a>
+      <a href="#reciprocidad">A quiénes sostengo yo</a>
+      <a href="#quiz">¿Apoyo mutuo o presión?</a>
+      <a href="#criticas">Cuando la comunidad pesa</a>
+      <a href="#vineta">Viñeta: Lerato y la reunión de familia</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mapa">El mapa de quiénes me sostienen</h2>
+      <p class="lab-estacion__bajada">Pensá en una semana cualquiera. ¿Quién te cocina, te escucha, te presta algo, te avisa de lo que no ves, te ayuda con lo práctico? El ubuntu sugiere que nadie se hace solo. Esta estación es un inventario de lo recibido, de las personas visibles y también de las que casi no se notan.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ubuntu-mapa" data-lab-form-titulo="Quiénes me sostienen" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-mapa-1">Personas que me sostienen en lo cotidiano: cuidados, comida, tareas, favores</label><textarea class="lab-texto" id="ubu-mapa-1" rows="2" placeholder="Mi vecina que me recibe los paquetes, mi hermano que me cubre los jueves…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-mapa-2">Personas que me sostienen en lo emocional: a quién llamo cuando estoy mal o cuando pasa algo bueno</label><textarea class="lab-texto" id="ubu-mapa-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-mapa-3">Personas que me enseñaron algo que hoy forma parte de mí</label><textarea class="lab-texto" id="ubu-mapa-3" rows="2" placeholder="Una abuela, una maestra, un jefe, un compañero de la cancha…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-mapa-4">Comunidades a las que pertenezco: familia, barrio, trabajo, club, grupo de fe o de militancia</label><textarea class="lab-texto" id="ubu-mapa-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-mapa-5">Alguien que me sostiene y a quien nunca se lo agradecí</label><input class="lab-campo" id="ubu-mapa-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-mapa-6">Un lugar de mi mapa que está vacío o frágil: una necesidad que hoy nadie cubre</label><textarea class="lab-texto" id="ubu-mapa-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="reciprocidad" aria-labelledby="t-reciprocidad">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-reciprocidad">A quiénes sostengo yo, y cómo circula lo que se da</h2>
+      <p class="lab-estacion__bajada">Si la persona se hace a través de otras, también otras se hacen a través de vos. El sociólogo Alvin Gouldner (1960) describió la <strong>norma de reciprocidad</strong>: en casi todas las sociedades se espera devolver lo que se recibe. La reciprocidad no tiene que ser inmediata ni idéntica: a veces se devuelve a otra persona, o más adelante. Mirá cómo circula en tu mapa y dónde se atasca, en cualquiera de las dos direcciones.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ubuntu-reciprocidad" data-lab-form-titulo="A quiénes sostengo yo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-recip-1">Personas a las que sostengo yo, y cómo</label><textarea class="lab-texto" id="ubu-recip-1" rows="2" placeholder="Mi mamá con las compras, un compañero con lo emocional, mis sobrinos con la tarea…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-recip-2">Una relación donde doy y recibo más o menos parejo</label><input class="lab-campo" id="ubu-recip-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-recip-3">Una donde doy mucho más de lo que recibo, y cómo me siento ahí</label><textarea class="lab-texto" id="ubu-recip-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-recip-4">Una donde recibo mucho más de lo que doy, y qué me impide devolver</label><textarea class="lab-texto" id="ubu-recip-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-recip-5">Algo que me cuesta pedir, y por qué</label><textarea class="lab-texto" id="ubu-recip-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-recip-6">Un gesto de devolución, grande o chico, que podría hacer esta semana</label><input class="lab-campo" id="ubu-recip-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-quiz">¿Apoyo mutuo, presión comunitaria o algo distinto?</h2>
+      <p class="lab-estacion__bajada">Ser parte de una comunidad puede sostener y puede asfixiar, y desde afuera cuesta distinguirlo. El quiz propone la lectura más razonable de cada escena; en la vida real se mezclan, y a veces el mismo gesto es una cosa u otra según quién lo recibe.</p>
+      <div class="lab-tarjeta" data-lab-quiz="ubuntu-apoyo-presion">
+        <p class="lab-tarjeta__titulo">¿Qué clase de escena es esta?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente escena</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="criticas" aria-labelledby="t-criticas">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-criticas">Cuando la comunidad también pesa</h2>
+      <p class="lab-estacion__bajada">Las críticas al ubuntu son parte de la discusión seria. Una es la <strong>presión comunitaria</strong>: «lo que pensarán los demás» puede acallar a quien piensa distinto, a las mujeres, a los jóvenes o a quien rompe con lo esperado. Otra es el <strong>uso político</strong>: invocar el ubuntu o la «armonía» para pedir sacrificios a los de abajo o para tapar un conflicto, como señalaron Matolino y Kwindingwi (2013). Y otra es la <strong>idealización</strong>: creer que en ciertos lugares todo el mundo se cuida. Esta estación te invita a revisar tus propias pertenencias con ese ojo crítico.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ubuntu-criticas" data-lab-form-titulo="Cuando la pertenencia pesa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-crit-1">Una comunidad mía donde me siento cuidado o cuidada, y qué la hace así</label><textarea class="lab-texto" id="ubu-crit-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-crit-2">Una expectativa de mi entorno que me pesa o que no elegí</label><textarea class="lab-texto" id="ubu-crit-2" rows="2" placeholder="Estar siempre disponible, no contradecir, casarme, quedarme en el pueblo…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-crit-3">Algo que me callo para no incomodar al grupo</label><textarea class="lab-texto" id="ubu-crit-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-crit-4">Una vez en que «la armonía», «la familia» o «la unidad» sirvió para tapar algo que debía hablarse</label><textarea class="lab-texto" id="ubu-crit-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-crit-5">Una forma de pertenecer sin dejar de ser yo: qué podría decir o hacer distinto</label><textarea class="lab-texto" id="ubu-crit-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-crit-6">Con quién podría hablar de esto, dentro o fuera de mi comunidad</label><input class="lab-campo" id="ubu-crit-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-vineta">Viñeta para pensar: Lerato y la reunión de familia</h2>
+      <p class="lab-estacion__bajada">Una situación inventada para pensar la tensión entre sostener y ser sostenido. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Lerato tiene 34 años, es contadora y vive en Johannesburgo, lejos del pueblo de su familia. Cada fin de mes manda dinero para la escuela de sus sobrinos y para los gastos de su madre. Lo hace con gusto: «Alguien me sostuvo a mí, ahora me toca a mí». Cuando la familia se reúne, todos la tratan como el pilar de la casa.</p>
+        <p>Este año perdió un cliente importante y no llega. Lo sabe solo su pareja. En la reunión, un tío le pregunta delante de todos cuánto va a aportar para el casamiento de una prima, y ella dice que sí sin pensarlo. De camino a casa se da cuenta de que no puede cumplir. Pedir ayuda le da vergüenza: en su familia, ella es la que ayuda.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real ni representa a ningún pueblo o familia africana en particular.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ubuntu-vineta-lerato" data-lab-form-titulo="Mis respuestas sobre Lerato" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-vineta-1">¿Qué hay de reciprocidad y de apoyo mutuo en lo que hace Lerato?</label><textarea class="lab-texto" id="ubu-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-vineta-2">¿Qué hay de presión en la reunión, aunque nadie se lo pida con mala intención?</label><textarea class="lab-texto" id="ubu-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-vineta-3">¿Cómo podría Lerato pedir apoyo sin dejar de ser parte de la familia?</label><textarea class="lab-texto" id="ubu-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-vineta-4">¿Tenés algún lugar parecido al de Lerato en tu familia o tu grupo?</label><input class="lab-campo" id="ubu-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="ubuntu-integrar" data-lab-form-titulo="Lo que integro sobre mis lazos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-integrar-1">Quién me sostiene y no estaba valorando</label><textarea class="lab-texto" id="ubu-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-integrar-2">A quién quiero sostener un poco mejor, y cómo</label><input class="lab-campo" id="ubu-integrar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-integrar-3">Algo que necesito pedir</label><input class="lab-campo" id="ubu-integrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-integrar-4">Un límite que cuidaría la relación y a mí</label><input class="lab-campo" id="ubu-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="ubu-integrar-5">A quién le quiero agradecer algo esta semana</label><input class="lab-campo" id="ubu-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="ubuntu">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Inventario de lo recibido.</strong> Anotá cinco personas que te sostuvieron esta semana, aunque sea en cosas mínimas.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Agradecer.</strong> Decile a alguien, con nombre y con un hecho concreto, qué hizo por vos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Sostener.</strong> Hacé algo por alguien sin que lo pida: llevarle algo, preguntarle cómo está, ofrecerle una mano.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Pedir.</strong> Pedí algo pequeño que sueles resolver solo: un favor, una opinión, compañía.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Reciprocidad.</strong> Mirá una relación donde das mucho más de lo que recibís, o al revés, y anotá un ajuste posible.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Ojo crítico.</strong> Anotá una expectativa de tu entorno que te pesa, y con quién podrías hablarla.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Una mesa compartida.</strong> Juntate con alguien o con un grupo a comer, tomar mate o caminar, sin pantallas.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el ubuntu y el yo relacional. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="ubuntu-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios ayudan a mirar tus vínculos, pero no reemplazan una consulta. Si en tu familia o tu grupo hay maltrato, amenazas o control, la pertenencia no es una razón para quedarte ni para callar: en Argentina podés llamar a la Línea 144, y si estás en peligro, al 911. Si sentís desesperanza o pensamientos de hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si te cuesta pedir ayuda o poner un límite, podés <a href="/contacto/">escribirme</a>. Para seguir: el <a href="/recursos/mapa-de-la-psicologia-africana/">mapa de la psicología africana</a>, el artículo sobre <a href="/recursos/oriente-y-occidente-psicologia-cultural/">psicología cultural</a>, el de <a href="/recursos/el-yo-y-el-si-mismo/">el yo y el sí mismo</a> y el <a href="/laboratorio-del-yo-y-el-nosotros/">laboratorio del yo y el nosotros</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Menkiti, I. A. (1984). «Person and Community in African Traditional Thought». En R. A. Wright (ed.), <em>African Philosophy: An Introduction</em> (3.ª ed., pp. 171-181). University Press of America.</li>
+        <li>Gyekye, K. (1997). <em>Tradition and Modernity: Philosophical Reflections on the African Experience</em>. Oxford University Press.</li>
+        <li>Tutu, D. (1999). <em>No Future Without Forgiveness</em>. Doubleday.</li>
+        <li>Matolino, B. y Kwindingwi, W. (2013). «The end of ubuntu». <em>South African Journal of Philosophy</em>, 32(2), 197-205.</li>
+        <li>Nobles, W. W. (1986). <em>African Psychology: Toward Its Reclamation, Reascension and Revitalization</em>. Black Family Institute.</li>
+        <li>Markus, H. R. y Kitayama, S. (1991). «Culture and the self: Implications for cognition, emotion, and motivation». <em>Psychological Review</em>, 98(2), 224-253.</li>
+        <li>Gouldner, A. W. (1960). «The norm of reciprocity: A preliminary statement». <em>American Sociological Review</em>, 25(2), 161-178.</li>
+        <li>Holt-Lunstad, J., Smith, T. B. y Layton, J. B. (2010). «Social relationships and mortality risk: A meta-analytic review». <em>PLoS Medicine</em>, 7(7), e1000316.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

@@ -1,0 +1,178 @@
+<!--{
+  "ruta": "/laboratorio-te-whare-tapa-wha/",
+  "titulo": "Laboratorio de Te Whare Tapa Whā: la casa de cuatro paredes",
+  "descripcion": "Ejercicios con el modelo maorí de Mason Durie: las cuatro paredes del bienestar, cuál está floja, apuntalamientos pequeños y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Te Whare Tapa Whā",
+      "/laboratorio-te-whare-tapa-wha/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>Te Whare Tapa Whā</em>",
+  "bajada": "Te Whare Tapa Whā («la casa de cuatro lados») es un modelo de salud maorí propuesto por Mason Durie. Imagina el bienestar como una casa con cuatro paredes: cuerpo, mente y emociones, familia y espíritu. Ejercicios para revisar cuál está firme y cuál necesita un apuntalamiento.",
+  "respuesta": "El laboratorio de Te Whare Tapa Whā ofrece ejercicios con el modelo de salud maorí que el psiquiatra Mason Durie propuso en 1984: una autoevaluación de las cuatro paredes (taha tinana, taha hinengaro, taha whānau y taha wairua), un quiz para identificar qué pared está floja en distintas situaciones, una estación para pensar apuntalamientos pequeños, otra para mirar el suelo y el contexto, y un plan de 7 días. Es un modelo cultural y de salud pública de uso real en Nueva Zelanda, no una escala validada ni un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de Te Whare Tapa Whā",
+  "articulos": [
+    "mapa-de-las-psicologias-del-pacifico",
+    "oriente-y-occidente-psicologia-cultural",
+    "bypass-espiritual"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Una casa se sostiene con todas sus paredes. Si una se debilita, las otras cargan con más peso y la casa entera se resiente. Con esa imagen, el psiquiatra maorí <strong>Mason Durie</strong> (de ascendencia Ngāti Kauwhata, Rangitāne y Ngāti Raukawa) propuso en 1984 el modelo <strong>Te Whare Tapa Whā</strong>, «la casa de cuatro lados», que desarrolló después en <em>Whaiora: Māori Health Development</em> (1994). Las cuatro paredes son <em>taha tinana</em> (el cuerpo), <em>taha hinengaro</em> (la mente y las emociones), <em>taha whānau</em> (la familia y los vínculos) y <em>taha wairua</em> (el espíritu). La casa se apoya en un suelo, la <em>whenua</em>: la tierra, el lugar de pertenencia.</p>
+        <p><strong>Un aviso de contexto.</strong> Este es un modelo maorí, creado por una persona maorí para describir la salud desde una visión del mundo maorí. Se usa en el sistema de salud de Aotearoa Nueva Zelanda y también por fuera, y muchas personas de otras culturas lo encuentran útil. Este laboratorio lo toma como inspiración para una reflexión personal. No lo enseña ni lo representa: no soy maorí ni hablo por esa tradición, y lo que acá aparece es una lectura simplificada. Si te interesa en serio, conviene ir a las fuentes de Durie y de autores y autoras maoríes.</p>
+        <p><strong>Wairua</strong> se traduce muchas veces como «espíritu», pero es más amplio que «religión»: tiene que ver con aquello que le da sentido a la vida, con la conexión con la naturaleza, con los antepasados, con los valores y con lo que se siente más grande que uno. Por eso en este laboratorio se pregunta por lo que te da sentido y te conecta con algo mayor, sin suponer ninguna creencia: puede ser una fe, la montaña, la música, la militancia o el ritual de los domingos.</p>
+        <p>Sobre el respaldo: Te Whare Tapa Whā es un marco conceptual de uso muy extendido, que ofrece un lenguaje propio y una lista de cosas para mirar. No es una teoría contrastada con medidas sistemáticas, y las preguntas de este laboratorio no son una escala ni dan un puntaje. Son ejercicios de reflexión, no un tratamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con respeto.</strong> Es un modelo de otra cultura. Se lo toma prestado con cuidado.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Sin puntaje.</strong> Los números son solo para ubicarte, no son un diagnóstico.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#paredes">Las cuatro paredes de mi casa</a>
+      <a href="#quiz">¿Qué pared está floja?</a>
+      <a href="#apuntalar">Apuntalar una pared</a>
+      <a href="#suelo">El suelo y el contexto</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="paredes" aria-labelledby="t-paredes">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-paredes">Las cuatro paredes de mi casa</h2>
+      <p class="lab-estacion__bajada">Para cada pared, anotá cómo la sentís hoy en una escala de 1 (muy floja) a 5 (muy firme) y qué la sostiene o la debilita. No es una medición: es una foto de este momento, que cambia con las semanas.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="whare-paredes" data-lab-form-titulo="Las cuatro paredes de mi casa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-1">Taha tinana (cuerpo): cómo la siento hoy, de 1 a 5</label><input class="lab-campo" id="whare-paredes-1" type="text" autocomplete="off" placeholder="Por ejemplo, 3"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-2">Qué la sostiene o la debilita: sueño, comida, movimiento, dolores, descanso</label><textarea class="lab-texto" id="whare-paredes-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-3">Taha hinengaro (mente y emociones): cómo la siento hoy, de 1 a 5</label><input class="lab-campo" id="whare-paredes-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-4">Qué la sostiene o la debilita: preocupaciones, ánimo, cómo me hablo, lo que me estimula</label><textarea class="lab-texto" id="whare-paredes-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-5">Taha whānau (familia y vínculos): cómo la siento hoy, de 1 a 5</label><input class="lab-campo" id="whare-paredes-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-6">Qué la sostiene o la debilita: familia, amistades, comunidad, a quién llamo cuando algo pasa</label><textarea class="lab-texto" id="whare-paredes-6" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-7">Taha wairua (espíritu, lo que da sentido): cómo la siento hoy, de 1 a 5</label><input class="lab-campo" id="whare-paredes-7" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-8">Qué la sostiene o la debilita: lo que me da sentido, me conecta con algo mayor o me hace sentir que pertenezco (puede ser una fe, la naturaleza, un oficio, un ritual, la música)</label><textarea class="lab-texto" id="whare-paredes-8" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-paredes-9">Mirando las cuatro, ¿cuál siento más floja hoy?</label><input class="lab-campo" id="whare-paredes-9" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quiz">¿Qué pared está floja?</h2>
+      <p class="lab-estacion__bajada">Una pared floja suele repercutir en las otras: el modelo invita a mirar la casa entera. En cada escena, elegí la pared que parece más comprometida. A veces hay más de una; el quiz propone la lectura más razonable.</p>
+      <div class="lab-tarjeta" data-lab-quiz="whare-paredes-floja">
+        <p class="lab-tarjeta__titulo">¿Qué pared parece más floja?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente escena</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="apuntalar" aria-labelledby="t-apuntalar">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-apuntalar">Apuntalar una pared</h2>
+      <p class="lab-estacion__bajada">Apuntalar es sostener una pared con un puntal, sin reconstruir la casa. Elegí la pared que sentís más floja y pensá apuntalamientos tan chicos que no den pereza: cinco minutos, un mensaje, un vaso de agua. Los cambios grandes se construyen con estos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="whare-apuntalar" data-lab-form-titulo="Apuntalar una pared" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-apuntalar-1">La pared que quiero apuntalar</label><input class="lab-campo" id="whare-apuntalar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-apuntalar-2">Cómo se nota que está floja: qué cambió en los últimos tiempos</label><textarea class="lab-texto" id="whare-apuntalar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-apuntalar-3">Un puntal de cinco minutos</label><input class="lab-campo" id="whare-apuntalar-3" type="text" autocomplete="off" placeholder="Salir a caminar una cuadra, escribirle a una amiga, sentarme sin pantalla…"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-apuntalar-4">Un puntal que involucre a otra persona</label><input class="lab-campo" id="whare-apuntalar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-apuntalar-5">Una pared firme que podría ayudar a sostener a la floja</label><textarea class="lab-texto" id="whare-apuntalar-5" rows="2" placeholder="Si mi vínculo con mi hermana está firme, puedo caminar con ella para ayudar al cuerpo…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-apuntalar-6">Qué me haría pensar que conviene consultar a un profesional y no resolverlo solo</label><textarea class="lab-texto" id="whare-apuntalar-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="suelo" aria-labelledby="t-suelo">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-suelo">El suelo y el contexto</h2>
+      <p class="lab-estacion__bajada">En el modelo, la casa se apoya en la whenua, la tierra y el lugar al que se pertenece. Una pared puede estar floja por razones que no dependen de tu esfuerzo: pobreza, discriminación, una vivienda precaria, un trabajo que desgasta, la distancia de tu gente o de tu lugar. Durie y otros autores maoríes insisten en que esas diferencias de salud se vinculan con la historia de colonización y con la desigualdad, no con rasgos de un pueblo. Esta estación te ayuda a distinguir lo que podés apuntalar vos de lo que tiene que cambiar en el entorno.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="whare-suelo" data-lab-form-titulo="El suelo de mi casa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-suelo-1">Los lugares y las personas que me dan pertenencia, como la tierra que me sostiene</label><textarea class="lab-texto" id="whare-suelo-1" rows="2" placeholder="Mi barrio, mi pueblo, el club, la lengua en que me crié…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-suelo-2">Algo de mi contexto que debilita una pared y que no depende solo de mí</label><textarea class="lab-texto" id="whare-suelo-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-suelo-3">Qué parte de eso podría pedir, compartir o reclamar junto con otras personas</label><textarea class="lab-texto" id="whare-suelo-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-suelo-4">Qué parte de mi historia familiar o de mi lugar quiero conocer mejor</label><input class="lab-campo" id="whare-suelo-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste viendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="whare-integrar" data-lab-form-titulo="Lo que integro sobre mi casa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-integrar-1">La pared más firme, y qué la sostiene</label><textarea class="lab-texto" id="whare-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-integrar-2">La pared más floja, y qué descubrí sobre ella</label><textarea class="lab-texto" id="whare-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-integrar-3">El puntal que voy a probar esta semana</label><input class="lab-campo" id="whare-integrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-integrar-4">La persona a la que le voy a contar lo que estoy haciendo</label><input class="lab-campo" id="whare-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="whare-integrar-5">Cuándo voy a volver a mirar mi casa</label><input class="lab-campo" id="whare-integrar-5" type="text" autocomplete="off" placeholder="Dentro de un mes, un domingo a la tarde"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, pensada para pasar por las cuatro paredes. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="te-whare-tapa-wha">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Mirar la casa.</strong> Hacé la autoevaluación de las cuatro paredes y anotá cuál sentís más floja.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Tinana.</strong> Elegí un gesto mínimo para el cuerpo: tomar agua, estirarte, acostarte quince minutos antes.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Hinengaro.</strong> Escribí durante cinco minutos lo que tenés en la cabeza o ponele nombre a una emoción del día.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Whānau.</strong> Escribile o llamá a alguien de tu gente, sin motivo especial, solo para preguntar cómo está.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Wairua.</strong> Dedicá un rato a algo que te dé sentido o te conecte con algo mayor: caminar entre árboles, escuchar música, un rito tuyo o de tu tradición.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Apuntalar.</strong> Repetí el puntal de la pared más floja y sumale a otra persona si se puede.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Volver a mirar.</strong> Repetí la autoevaluación, comparala con la del día 1 y anotá qué ajustarías. Si una pared sigue muy floja, pensá en consultar a un profesional.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre Te Whare Tapa Whā y sobre cómo usarlo. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="whare-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios ayudan a mirar tu bienestar, pero no reemplazan una consulta. Un modelo cultural no sustituye una evaluación profesional cuando el sufrimiento es intenso o dura mucho tiempo. Si sentís desesperanza o pensamientos de hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si te cuesta ver qué pared está floja, podés <a href="/contacto/">escribirme</a>. Para seguir: el <a href="/recursos/mapa-de-las-psicologias-del-pacifico/">mapa de las psicologías del Pacífico</a>, el artículo sobre <a href="/recursos/oriente-y-occidente-psicologia-cultural/">psicología cultural</a> y el de <a href="/recursos/bypass-espiritual/">bypass espiritual</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Durie, M. (1985). «A Māori perspective of health». <em>Social Science &amp; Medicine</em>, 20(5), 483-486.</li>
+        <li>Durie, M. (1998). <em>Whaiora: Māori Health Development</em> (2.ª ed.). Oxford University Press.</li>
+        <li>Durie, M. (1999). «Te Pae Mahutonga: a model for Māori health promotion». <em>Health Promotion Forum of New Zealand Newsletter</em>, 49.</li>
+        <li>Smith, L. T. (1999). <em>Decolonizing Methodologies: Research and Indigenous Peoples</em>. Zed Books.</li>
+        <li>Oakley Browne, M. A., Wells, J. E. y Scott, K. M. (eds.) (2006). <em>Te Rau Hinengaro: The New Zealand Mental Health Survey</em>. Ministry of Health.</li>
+        <li>Government Inquiry into Mental Health and Addiction (2018). <em>He Ara Oranga: Report of the Government Inquiry into Mental Health and Addiction</em>. Wellington.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

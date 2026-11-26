@@ -1,0 +1,187 @@
+<!--{
+  "ruta": "/laboratorio-de-musar/",
+  "titulo": "Laboratorio de musar: una middá por vez y la cuenta del alma",
+  "descripcion": "Ejercicios inspirados en el musar judío: elegir una middá, el justo medio de Maimónides, el registro nocturno y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Musar",
+      "/laboratorio-de-musar/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>musar</em>",
+  "bajada": "El musar es una tradición judía de trabajo ético sobre el carácter. Ejercicios para elegir un rasgo, buscar su justo medio y llevar un registro nocturno breve, tomados como práctica de reflexión y no como ensayo clínico.",
+  "respuesta": "El laboratorio de musar propone ejercicios inspirados en la tradición ética judía: elegir una middá (un rasgo del carácter, como la paciencia, el orden, la humildad o la generosidad), buscar su justo medio según Maimónides, hacer un registro nocturno al estilo del jeshbon hanefesh, leer una viñeta, integrar lo practicado y seguir un plan de 7 días, con mitos y verdades. El musar es una práctica ética y religiosa con raíz judía, accesible a cualquiera sin imponer fe; no es un tratamiento ni tiene ensayos clínicos propios.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de musar",
+  "articulos": [
+    "maimonides-y-la-medicina-del-alma",
+    "mapa-de-la-psicologia-judia",
+    "el-musar-trabajo-con-el-caracter",
+    "bypass-espiritual"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>¿Cuántas veces te prometiste ser menos impaciente y a la semana estabas igual? Saber qué querés cambiar y cambiarlo son dos tareas distintas. Una de las tradiciones que más se ocupó de esa distancia es el <strong>musar</strong>, un movimiento judío de trabajo ético sobre el carácter que impulsó en Lituania el rabino Israel Salanter (1809-1883).</p>
+        <p>Su unidad de trabajo es la <strong>middá</strong> (plural, <em>middot</em>): un rasgo del carácter, como la paciencia, el orden, la humildad o la generosidad. Se elige una por vez, se la observa en acción y se la registra por escrito. Ese registro tiene nombre propio, el <strong>jeshbon hanefesh</strong>, «cuenta del alma», título del libro que Menajem Mendel Lefin publicó en 1808 y que seguía un esquema parecido al de las trece virtudes de Benjamin Franklin.</p>
+        <p>Para encontrar el punto justo de cada rasgo, el laboratorio usa una idea de <strong>Maimónides</strong> (1138-1204): la mayoría de las cualidades tienen dos extremos viciosos y un camino medio. Se parece a la doctrina del término medio de Aristóteles, y no es un promedio: es lo que cada situación y cada persona piden.</p>
+        <p>El musar es una práctica ética y religiosa con raíz en la Torá y el Talmud. Acá se ofrece como práctica de reflexión, sin imponer fe y con respeto por quienes lo viven como parte de su religión. Algunos de sus componentes (un objetivo por vez, un registro diario, una revisión) se parecen a técnicas con respaldo en otros contextos, pero el musar mismo no tiene ensayos clínicos propios. Es tradición, no tratamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>De a una.</strong> Una sola middá por vez, no una reforma total.</li>
+        <li><strong>Sin castigo.</strong> El registro es para mirar, no para condenarte.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#middot">Elegir una middá</a>
+      <a href="#medio">El justo medio de Maimónides</a>
+      <a href="#jeshbon">Jeshbon hanefesh: el registro nocturno</a>
+      <a href="#vineta">Viñeta: Dani y la paciencia</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="middot" aria-labelledby="t-middot">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-middot">Elegir una middá: un rasgo por vez</h2>
+      <p class="lab-estacion__bajada">La tradición no tiene una lista única; se nombran humildad, paciencia, generosidad, gratitud, orden, silencio, moderación, confianza y muchas más. Elegí una que hoy te pida atención. Mejor una modesta y concreta que una que te suene ideal.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="musar-middot" data-lab-form-titulo="Mi middá de esta semana" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-middot-1">La middá que elijo (paciencia, orden, humildad, generosidad, otra)</label><input class="lab-campo" id="mus-middot-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-middot-2">Por qué esta y por qué ahora</label><textarea class="lab-texto" id="mus-middot-2" rows="2" placeholder="Una situación reciente donde la sentí en juego"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-middot-3">Dónde suele fallar: en qué momentos, con quién, en qué estado (cansancio, apuro, hambre)</label><textarea class="lab-texto" id="mus-middot-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-middot-4">Dónde ya la practico bien, aunque sea poco</label><textarea class="lab-texto" id="mus-middot-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-middot-5">Una frase corta para tenerla presente durante el día</label><input class="lab-campo" id="mus-middot-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="medio" aria-labelledby="t-medio">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-medio">El justo medio: ni exceso ni defecto</h2>
+      <p class="lab-estacion__bajada">En <em>Hiljot Deot</em> («Leyes de los rasgos de carácter»), Maimónides describe un camino medio entre dos extremos: la generosidad queda entre la tacañería y la prodigalidad; el orden, entre el descuido y la rigidez. Aclara que el medio no es igual para todos, y que a veces conviene inclinarse un tiempo hacia el extremo opuesto para corregirse, como se endereza una vara torcida. En un par de rasgos, como la soberbia y la ira, recomienda alejarse más de lo que sugiere un promedio. Probá con tu middá.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="musar-justo-medio" data-lab-form-titulo="El justo medio de mi middá" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-medio-1">La middá</label><input class="lab-campo" id="mus-medio-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-medio-2">El exceso: cómo se ve cuando me paso</label><textarea class="lab-texto" id="mus-medio-2" rows="2" placeholder="Paciencia: aguantar todo, no poner nunca un límite"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-medio-3">El defecto: cómo se ve cuando me falta</label><textarea class="lab-texto" id="mus-medio-3" rows="2" placeholder="Paciencia: saltar a la primera, cortar al otro"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-medio-4">El medio, en una situación concreta de mi semana</label><textarea class="lab-texto" id="mus-medio-4" rows="2" placeholder="Cómo se vería actuar con la medida justa"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-medio-5">Hacia qué lado tiendo yo, y qué me lleva ahí</label><textarea class="lab-texto" id="mus-medio-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-medio-6">Un gesto observable que marcaría el medio mañana</label><input class="lab-campo" id="mus-medio-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="jeshbon" aria-labelledby="t-jeshbon">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-jeshbon">Jeshbon hanefesh: la cuenta del alma</h2>
+      <p class="lab-estacion__bajada">Lefin proponía anotar cada noche los tropiezos con la virtud de la semana. Acá vas a hacer una versión más amable: cinco líneas, de noche, sobre una sola middá. Incluye lo que salió bien, porque una cuenta que solo registra faltas se vuelve una máquina de culpa. Si te empieza a pesar, pará: la propia tradición distingue la revisión que ordena de la tristeza que paraliza.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="musar-jeshbon" data-lab-form-titulo="Mi jeshbon hanefesh de esta noche" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-jeshbon-1">Fecha y middá de la semana</label><input class="lab-campo" id="mus-jeshbon-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-jeshbon-2">Un momento de hoy en que la practiqué, aunque sea chico</label><textarea class="lab-texto" id="mus-jeshbon-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-jeshbon-3">Un momento en que me costó, dicho como lo vería una cámara, sin adjetivos</label><textarea class="lab-texto" id="mus-jeshbon-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-jeshbon-4">Qué lo disparó: cansancio, apuro, alguien, un pensamiento</label><textarea class="lab-texto" id="mus-jeshbon-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-jeshbon-5">Cómo me hablo de eso ahora: ¿con exigencia o con ganas de aprender?</label><input class="lab-campo" id="mus-jeshbon-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-jeshbon-6">Qué intento mañana, en una sola línea</label><input class="lab-campo" id="mus-jeshbon-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-vineta">Viñeta: Dani y la reunión de los jueves</h2>
+      <p class="lab-estacion__bajada">Una situación inventada para pensar cómo se ve una middá en el día a día. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Dani trabaja en una oficina y eligió la paciencia como middá de la semana. El martes, su compañero Ramiro le explicó por tercera vez la misma planilla y Dani suspiró con fuerza y miró el reloj. Esa noche anotó: «Fallé. Soy un impaciente». Se fue a dormir con mal humor.</p>
+        <p>Al día siguiente releyó la nota y vio que había omitido algo: el lunes había escuchado diez minutos a una clienta enojada sin interrumpirla. También notó que el suspiro vino a las cinco de la tarde, sin almorzar.</p>
+        <p>Dani cambió el registro: una línea para lo que salió bien, una para lo que costó y otra con la condición («sin comer, a última hora»).</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="musar-vineta-dani" data-lab-form-titulo="Mis respuestas sobre Dani" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-vineta-1">¿Qué diferencia hay entre «fallé» y «me costó, y esto lo disparó»?</label><textarea class="lab-texto" id="mus-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-vineta-2">¿Cuál sería el justo medio de la paciencia para Dani con Ramiro?</label><textarea class="lab-texto" id="mus-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-vineta-3">¿Qué podría ajustar Dani además de esforzarse más?</label><textarea class="lab-texto" id="mus-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-vineta-4">¿Tu registro se parece más al primero o al segundo?</label><input class="lab-campo" id="mus-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="musar-integrar" data-lab-form-titulo="Lo que integro de mi trabajo con una middá" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-integrar-1">Mi middá y la frase que la acompaña</label><input class="lab-campo" id="mus-integrar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-integrar-2">El punto medio que voy a buscar, dicho en una situación concreta</label><textarea class="lab-texto" id="mus-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-integrar-3">Qué condiciones suelen hacerme fallar y cómo las puedo cuidar</label><textarea class="lab-texto" id="mus-integrar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-integrar-4">A quién puedo contarle lo que practico para no hacerlo en soledad</label><input class="lab-campo" id="mus-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="mus-integrar-5">Qué señal me dice que tengo que parar el registro y cuidarme</label><input class="lab-campo" id="mus-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="musar">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Elegir.</strong> Elegí una middá y anotá una frase corta para tenerla presente.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Observar.</strong> Sin intentar cambiar nada, fijate cuándo aparece hoy tu middá. Anotá tres momentos, aunque sean mínimos.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. El medio.</strong> Escribí cómo se ve el exceso, el defecto y el punto medio de tu middá en una situación de hoy.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un gesto.</strong> Elegí un gesto chico y concreto del punto medio y hacelo una vez.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Condiciones.</strong> Notá en qué estado te cuesta más (cansancio, hambre, apuro) y ajustá una cosa de esas condiciones.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Compañía.</strong> Contale a alguien de confianza qué middá estás probando. Nadie se ve del todo bien solo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Cuenta.</strong> Hacé el jeshbon hanefesh de la semana: qué salió bien, qué costó y qué seguís o cambiás. Cerrá con una línea amable.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el musar y el trabajo con el carácter. Tocá cada una para ver qué dicen la tradición y la investigación.</p>
+      <div class="faq">
+        <details><summary>El musar es una técnica psicológica con eficacia comprobada.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Es una práctica ética y religiosa de unos dos siglos como movimiento, con raíces más antiguas. No tiene ensayos clínicos propios que se conozcan con certeza y no corresponde presentarlo como terapia.</p></div></details>
+        <details><summary>Hace falta ser religioso para probar un ejercicio de middá.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Quien lo practica dentro del judaísmo lo hace por convicción religiosa, y eso merece respeto. Pero la idea de elegir un rasgo, observarlo y registrarlo puede tomarse como reflexión ética sin adherir a la fe.</p></div></details>
+        <details><summary>Estudiar sobre la humildad no vuelve humilde a nadie.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Verdad.</strong> Es una observación central de Salanter: las pasiones pesan más sobre la conducta que el conocimiento. Por eso el musar insiste en la práctica, la repetición y el acompañamiento.</p></div></details>
+        <details><summary>Maimónides decía que la virtud es el punto exacto en el medio, igual para todos.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Describió un camino medio que depende de la persona y la situación, y aclaró que a veces conviene inclinarse hacia el extremo opuesto un tiempo para corregirse, y que en el caso de la soberbia y la ira hay que alejarse más.</p></div></details>
+        <details><summary>El jeshbon hanefesh es una lista de culpas.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Es una cuenta, un registro para ordenar y aprender. Si se vuelve una máquina de autoacusación deja de cumplir su fin, y la tradición misma advierte contra la tristeza que paraliza.</p></div></details>
+        <details><summary>Llevar un registro y trabajar un rasgo por vez se parece a técnicas conocidas de la psicología.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Verdad.</strong> Se parece al automonitoreo de las terapias conductuales y a la fijación de un objetivo único. Es una coincidencia de forma: no prueba que el musar funcione en términos clínicos.</p></div></details>
+        <details><summary>Si tenés tendencia a la autoexigencia, este tipo de ejercicio te va a ayudar igual.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Puede empeorar las cosas, sobre todo con perfeccionismo, depresión o pensamientos obsesivos. En ese caso conviene hacerlo con acompañamiento, o no hacerlo.</p></div></details>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Una práctica de autoexamen diario puede volverse una máquina de culpa. Estos ejercicios ayudan a mirar el carácter, pero no reemplazan una consulta. Si notás que el registro te angustia, te enoja con vos o se vuelve obsesivo, dejalo y hablalo con un profesional. Si hay riesgo para vos o para otros, llamá al 911 o al Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si querés conversarlo, podés <a href="/contacto/">escribirme</a>. Para seguir: el <a href="/recursos/mapa-de-la-psicologia-judia/">mapa de la psicología judía</a>, el de <a href="/recursos/maimonides-y-la-medicina-del-alma/">Maimónides</a>, el artículo sobre <a href="/recursos/el-musar-trabajo-con-el-caracter/">el musar</a>, el de <a href="/recursos/bypass-espiritual/">bypass espiritual</a> y el <a href="/glosario-de-psicologia-judia/">glosario de psicología judía</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Etkes, I. (1993). <em>Rabbi Israel Salanter and the Mussar Movement</em>. Jewish Publication Society.</li>
+        <li>Maimónides. <em>Mishné Torá</em>, «Hiljot Deot» (Leyes de los rasgos de carácter), caps. 1-2; y <em>Shemoná Perakim</em> (Ocho capítulos), cap. 4.</li>
+        <li>Franklin, B. <em>Autobiografía</em> (escrita entre 1771 y 1790), sobre sus trece virtudes.</li>
+        <li>Luzzatto, M. J. (1740). <em>Mesilat Yesharim</em> («El sendero de los rectos»).</li>
+        <li>Morinis, A. (2007). <em>Everyday Holiness: The Spiritual Practice of Musar</em>. Trumpeter.</li>
+        <li>Peterson, C. y Seligman, M. (2004). <em>Character Strengths and Virtues</em>. Oxford University Press.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

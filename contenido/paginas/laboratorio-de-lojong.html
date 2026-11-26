@@ -1,0 +1,192 @@
+<!--{
+  "ruta": "/laboratorio-de-lojong/",
+  "titulo": "Laboratorio de lojong: tres consignas para una situación difícil",
+  "descripcion": "Tres consignas del lojong tibetano aplicadas a una situación difícil, con cuidado ante la autoculpa y el bypass espiritual, y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Lojong",
+      "/laboratorio-de-lojong/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>lojong</em>",
+  "bajada": "El lojong es un entrenamiento de la mente del budismo tibetano, hecho de consignas breves. Ejercicios para probar tres de ellas con una situación difícil, sin autoculpa y sin tapar lo que duele.",
+  "respuesta": "El laboratorio de lojong propone ejercicios con tres de las 59 consignas del entrenamiento de la mente del budismo tibetano («Echá todas las culpas a uno solo», «Sé agradecido con todos» y «Mantené siempre solo una mente alegre»): elegir una situación difícil, aplicar cada consigna con cuidado, distinguir el entrenamiento del bypass espiritual y la autoculpa, y seguir un plan de 7 días. El lojong es una práctica religiosa; los programas seculares inspirados en él tienen respaldo todavía preliminar, y este laboratorio no es un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de lojong",
+  "articulos": [
+    "mapa-de-la-psicologia-budista-tibetana",
+    "lojong-entrenamiento-mental-tibetano",
+    "bypass-espiritual",
+    "tonglen"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Alguien discute con un compañero de trabajo, vuelve a casa con la frase perfecta que no dijo y la repite durante horas. Del Tíbet viene una forma de trabajar eso con frases cortas para tener a mano en el momento: el <strong>lojong</strong>, «entrenamiento de la mente».</p>
+        <p>El texto clásico son los <em>Siete puntos del entrenamiento de la mente</em>, que ordenó Chekawa Yeshe Dorje (1101-1175) a partir de la línea del maestro Atisha, con 59 consignas breves. Su tema central es el <strong>apego a uno mismo</strong>: la tendencia a ponerse en el centro de toda experiencia. Se entrena de a poco, con compasión, y no se trata de anularse ni de despreciarse.</p>
+        <p>Acá se trabaja con tres consignas, en traducciones prudentes, porque cada comentarista las vierte a su modo: «Echá todas las culpas a uno solo», «Sé agradecido con todos» y «Mantené siempre solo una mente alegre». Se aplican a una situación difícil concreta, con atención a dos riesgos: usar la consigna para taparte lo que sentís (<em>bypass espiritual</em>) o para cargarte con culpas que no son tuyas.</p>
+        <p>El lojong es una práctica religiosa que se enseña dentro de un linaje, con un maestro. Se ofrece acá como reflexión, sin imponer creencias y con respeto por quienes lo viven como camino espiritual. Algunos programas seculares de compasión se inspiraron en él y tienen respaldo todavía preliminar; lo estudiado es esa versión estructurada, no el lojong tradicional. Para la práctica de dar y recibir, mirá el <a href="/laboratorio-de-compasion-y-tonglen/">laboratorio de compasión y tonglen</a>.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con cuidado.</strong> Si una consigna te hace peor, no es para vos ahora.</li>
+        <li><strong>Sin taparte nada.</strong> Primero se siente, después se entrena.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#situacion">Elegir la situación</a>
+      <a href="#culpar">Culpar de todo a uno solo</a>
+      <a href="#gratitud">Ser agradecido con todos</a>
+      <a href="#alegre">Una mente alegre</a>
+      <a href="#bypass">Bypass espiritual y autoculpa</a>
+      <a href="#integrar">Integrar</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="situacion" aria-labelledby="t-situacion">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-situacion">Elegir una situación difícil, de tamaño manejable</h2>
+      <p class="lab-estacion__bajada">Empezá por algo incómodo, pero no devastador: una discusión, un malentendido, una persona que te irrita. Evitá heridas muy graves o abusos; el lojong no está pensado para esos terrenos y ahí lo primero es el cuidado.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lojong-situacion" data-lab-form-titulo="Mi situación difícil" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-sit-1">Qué pasó, descripto como lo vería una cámara</label><textarea class="lab-texto" id="loj-sit-1" rows="2" placeholder="Hechos, sin interpretaciones"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-sit-2">Quién o qué está involucrado</label><input class="lab-campo" id="loj-sit-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-sit-3">Qué sentí y dónde lo siento en el cuerpo</label><textarea class="lab-texto" id="loj-sit-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-sit-4">Lo que me repito sobre esto una y otra vez</label><textarea class="lab-texto" id="loj-sit-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-sit-5">Del 0 al 10, cuánto me pesa hoy (si es más de 7, mejor elegir otra)</label><input class="lab-campo" id="loj-sit-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="culpar" aria-labelledby="t-culpar">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-culpar">«Echá todas las culpas a uno solo»</h2>
+      <p class="lab-estacion__bajada">Se lee de dos maneras opuestas, y solo una es la de la tradición. En el comentario habitual, ese «uno solo» es el apego a uno mismo: la actitud de defenderse, tener la razón y poner el foco en lo que el otro hizo mal. La consigna invita a mirar primero la propia reacción, no a declararte responsable de lo que otros te hicieron. Si vivís una situación de maltrato, o ya cargás con mucha culpa, dejá esta estación de lado.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lojong-culpar" data-lab-form-titulo="Mirar mi parte, sin cargarme lo ajeno" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-culpa-1">Lo que hizo la otra parte, que sí fue suyo</label><textarea class="lab-texto" id="loj-culpa-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-culpa-2">Mi reacción: qué hice o pensé para defenderme, para tener la razón o para que me vieran de cierta manera</label><textarea class="lab-texto" id="loj-culpa-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-culpa-3">De mi reacción, qué parte me hizo sufrir más de lo necesario</label><textarea class="lab-texto" id="loj-culpa-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-culpa-4">¿Qué me cuesta soltar: la razón, la imagen, la bronca?</label><input class="lab-campo" id="loj-culpa-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-culpa-5">Una frase para mí que no me acuse ni me justifique</label><input class="lab-campo" id="loj-culpa-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="gratitud" aria-labelledby="t-gratitud">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-gratitud">«Sé agradecido con todos»</h2>
+      <p class="lab-estacion__bajada">La consigna propone agradecer incluso a quien nos hace difícil la vida, porque nos pone ante lo que nos cuesta. No pide que te guste el trato, ni que lo toleres. Pide encontrar qué te enseña una situación, si hay algo, y sin negar que dolió. Si lo que sentís es bronca, anotá la bronca antes: la gratitud forzada tapa más de lo que enseña.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lojong-gratitud" data-lab-form-titulo="Gratitud sin forzarla" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-grat-1">Lo que me enoja o me duele de esta persona o situación, dicho sin filtros</label><textarea class="lab-texto" id="loj-grat-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-grat-2">Qué de mí quedó a la vista: un límite, un miedo, un valor que me importa</label><textarea class="lab-texto" id="loj-grat-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-grat-3">Si hay algo que esto me enseñó, aunque no lo hubiera querido</label><textarea class="lab-texto" id="loj-grat-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-grat-4">Algo, aunque sea mínimo, por lo que no sentiría rechazo al agradecer</label><input class="lab-campo" id="loj-grat-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-grat-5">Si hoy no me sale agradecer, qué sí me sale: entender, no dañar, tomar distancia</label><input class="lab-campo" id="loj-grat-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="alegre" aria-labelledby="t-alegre">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-alegre">«Mantené siempre solo una mente alegre»</h2>
+      <p class="lab-estacion__bajada">Es la consigna más fácil de malinterpretar. No pide estar contento a la fuerza ni negar la pena: habla de una disposición de fondo, una apertura que no se deja arrastrar del todo por el malestar. Chögyam Trungpa lo enmarcó como no volverse rígido ni solemne con el propio sufrimiento. Si «alegre» te suena a obligación, es la señal de que conviene traducirla a algo más modesto, como un poco de humor o de aire.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lojong-alegre" data-lab-form-titulo="Una mente alegre, sin obligación" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-alegre-1">Qué entiendo yo por una mente alegre, y qué me suena a exigencia</label><textarea class="lab-texto" id="loj-alegre-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-alegre-2">Un momento de esta situación en que apareció algo de humor, alivio o ternura</label><textarea class="lab-texto" id="loj-alegre-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-alegre-3">Una traducción modesta de la consigna, a mi medida</label><input class="lab-campo" id="loj-alegre-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-alegre-4">Una señal que me avisa que estoy fingiendo alegría para no sentir</label><input class="lab-campo" id="loj-alegre-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="bypass" aria-labelledby="t-bypass">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-bypass">Cuidado: bypass espiritual y autoculpa</h2>
+      <p class="lab-estacion__bajada">El psicoterapeuta John Welwood llamó <em>bypass espiritual</em> a usar ideas o prácticas espirituales para esquivar emociones y asuntos pendientes. Con el lojong aparece de dos modos: apurarse a agradecer o a estar alegre para no sentir, y usar la consigna de la culpa para castigarte. Ayuda un criterio: una buena práctica te deja con más espacio, no con más peso. Marcá si te reconocés en alguna.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lojong-bypass" data-lab-form-titulo="Chequeo de bypass y autoculpa" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-bypass-1">¿Estoy usando alguna consigna para no sentir algo que sí siento? ¿Cuál?</label><textarea class="lab-texto" id="loj-bypass-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-bypass-2">¿Me estoy acusando de más con la excusa de «mirar mi parte»?</label><textarea class="lab-texto" id="loj-bypass-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-bypass-3">¿Hay algo que necesita un límite o una conversación concreta, y no una reflexión?</label><textarea class="lab-texto" id="loj-bypass-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-bypass-4">Lo que sentiría si me permitiera sentir esto sin arreglarlo ya</label><input class="lab-campo" id="loj-bypass-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-bypass-5">A quién puedo contarle esto: una amistad, un maestro, un terapeuta</label><input class="lab-campo" id="loj-bypass-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="lojong-integrar" data-lab-form-titulo="Lo que integro del lojong" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-integrar-1">La consigna que más me sirvió, en mis palabras</label><input class="lab-campo" id="loj-integrar-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-integrar-2">Cómo la voy a recordar durante el día</label><textarea class="lab-texto" id="loj-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-integrar-3">Cuándo me hizo bien y cuándo me hizo peor</label><textarea class="lab-texto" id="loj-integrar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-integrar-4">Un límite o una conversación que no puedo reemplazar con la práctica</label><input class="lab-campo" id="loj-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="loj-integrar-5">Qué hago si una consigna me duele demasiado</label><input class="lab-campo" id="loj-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="lojong">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Una situación.</strong> Elegí una situación difícil de tamaño manejable y describila en tres líneas, sin interpretaciones.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Sentirla.</strong> Antes de aplicar nada, anotá qué sentís y dónde. Dejalo estar un minuto, sin arreglarlo.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Mi parte.</strong> Probá la consigna de la culpa en su versión cuidadosa: mirá tu reacción, no la responsabilidad ajena.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Gracias, sin forzar.</strong> Probá la consigna de la gratitud. Si no sale, anotá por qué y no la fuerces.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Un poco de aire.</strong> Buscá una pizca de humor o de alivio en la situación, sin negar lo que duele.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Chequeo.</strong> Revisá si usaste alguna consigna para taparte algo o para acusarte. Si fue así, volvé al día 2.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Compasión.</strong> Cerrá con una frase amable para vos y para la otra persona. Si querés profundizar, mirá el laboratorio de compasión y tonglen.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el lojong y sus consignas. Tocá cada una para ver qué dicen la tradición y la investigación.</p>
+      <div class="faq">
+        <details><summary>«Echá todas las culpas a uno solo» significa que todo es culpa tuya.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Los comentarios lo leen como una invitación a soltar la actitud de defenderse siempre y mirar la propia reacción. No pretende que una persona herida se declare responsable de lo que otros le hicieron.</p></div></details>
+        <details><summary>Hay que ser budista para probar el lojong.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Es una práctica religiosa dentro del budismo tibetano, y quien la vive así merece respeto. Algunas ideas, como la gratitud o la mirada sobre el apego a uno mismo, pueden tomarse como reflexión, sabiendo de dónde vienen.</p></div></details>
+        <details><summary>Las 59 consignas tienen una única traducción correcta.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Las traducciones varían bastante y cada comentarista las interpreta a su modo, desde Jamgön Kongtrül hasta Trungpa o Pema Chödrön.</p></div></details>
+        <details><summary>El objetivo del lojong es anularse o despreciarse.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Los maestros aclaran que la autoestima rota no es el objetivo. Se entrena una actitud que ponga a los demás al menos a la par.</p></div></details>
+        <details><summary>Usar una consigna para no sentir algo es una forma de bypass espiritual.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Verdad.</strong> John Welwood describió el bypass espiritual como usar lo espiritual para esquivar asuntos emocionales. Con el lojong, el riesgo es apurarse a agradecer o a estar alegre sin haber sentido primero.</p></div></details>
+        <details><summary>Los programas de compasión inspirados en el lojong ya están firmemente probados.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Una revisión de 2017 (Kirby, Tellegen y Steindl) halló efectos moderados en algunas medidas, junto con muestras chicas y comparaciones débiles. El panorama es alentador y preliminar, y lo estudiado es la versión secular, no el lojong tradicional.</p></div></details>
+        <details><summary>Si una consigna te hace sentir peor, la estás haciendo mal.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Puede ser una señal legítima de que no es el momento. Con duelo reciente, trauma o autoculpa intensa, conviene hacerlo con acompañamiento o dejarlo.</p></div></details>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El lojong no reemplaza una psicoterapia ni está pensado para tratar cuadros clínicos. Si una consigna te lleva a culparte, a minimizar un maltrato o a taparte el dolor, dejala y consultá con un profesional. Si hay riesgo para vos o para otros, llamá al 911 o al Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si querés conversarlo, podés <a href="/contacto/">escribirme</a>. Para seguir: el <a href="/recursos/mapa-de-la-psicologia-budista-tibetana/">mapa de la psicología budista tibetana</a>, el artículo sobre el <a href="/recursos/lojong-entrenamiento-mental-tibetano/">lojong</a>, el de <a href="/recursos/bypass-espiritual/">bypass espiritual</a>, el <a href="/recursos/tonglen/">tonglen</a> y el <a href="/laboratorio-de-compasion-y-tonglen/">laboratorio de compasión y tonglen</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Trungpa, C. (1993). <em>Training the Mind and Cultivating Loving-Kindness</em>. Shambhala.</li>
+        <li>Chödrön, P. (1994). <em>Start Where You Are: A Guide to Compassionate Living</em>. Shambhala.</li>
+        <li>Jamgön Kongtrül (siglo XIX). <em>The Great Path of Awakening</em>, trad. de B. A. Wallace y otras ediciones.</li>
+        <li>Welwood, J. (2000). <em>Toward a Psychology of Awakening</em>. Shambhala.</li>
+        <li>Kirby, J. N., Tellegen, C. L. y Steindl, S. R. (2017). «A meta-analysis of compassion-based interventions: Current state of knowledge and future directions». <em>Behavior Therapy</em>, 48(6), 778-792.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

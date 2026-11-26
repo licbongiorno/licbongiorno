@@ -181,7 +181,8 @@
         "/laboratorio-de-nunchi/",
         "/laboratorio-de-pena-y-enojo/",
         "/laboratorio-de-jeong/",
-        "/laboratorio-del-yo-y-el-nosotros/"
+        "/laboratorio-del-yo-y-el-nosotros/",
+        "/laboratorio-de-lojong/"
       ]
     },
     {
@@ -198,7 +199,17 @@
         "/laboratorio-de-la-libertad/",
         "/laboratorio-de-la-razon-y-la-autonomia/",
         "/laboratorio-del-encuentro/",
-        "/laboratorio-de-platon/"
+        "/laboratorio-de-platon/",
+        "/laboratorio-epicureo/",
+        "/laboratorio-de-musar/"
+      ]
+    },
+    {
+      "nombre": "Psicologías del mundo",
+      "descripcion": "Modelos de bienestar de otras culturas, como el maorí y el ubuntu africano, con su contexto y sus límites.",
+      "rutas": [
+        "/laboratorio-te-whare-tapa-wha/",
+        "/laboratorio-de-ubuntu/"
       ]
     },
     {

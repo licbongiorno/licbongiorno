@@ -1,0 +1,199 @@
+<!--{
+  "ruta": "/laboratorio-epicureo/",
+  "titulo": "Laboratorio epicúreo: deseos, amistad y placer sereno",
+  "descripcion": "Ejercicios inspirados en Epicuro: clasificar deseos, el tetrafármaco, la amistad y el placer sereno, y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Epicureo",
+      "/laboratorio-epicureo/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>epicureo</em>",
+  "bajada": "Epicuro fundó el Jardín en Atenas para vivir con poco, con amigos y sin sobresaltos. Ejercicios para ordenar tus deseos, mirar tus miedos con su fórmula de cuatro líneas y cuidar los placeres que dejan calma.",
+  "respuesta": "El laboratorio epicureo propone ejercicios inspirados en Epicuro (341-270 a. C.): clasificar los deseos en naturales y necesarios, naturales no necesarios y vanos; aplicar el tetrafármaco; cuidar la amistad y un placer sereno; acercarse a la ataraxia, la ausencia de perturbación; y seguir un plan de 7 días, con mitos y verdades. Es una filosofía antigua, no un tratamiento: su parentesco con técnicas actuales es de forma y no prueba eficacia clínica.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio epicureo",
+  "articulos": [
+    "epicuro-y-el-placer-sereno",
+    "mapa-de-la-psicologia-griega-antigua",
+    "seneca",
+    "aristoteles"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay dos imágenes del epicúreo: el que se da la gran vida y el que come pan con agua y le alcanza. Epicuro (341-270 a. C.) se parecía bastante más a la segunda. Fundó el Jardín en Atenas, una comunidad de amigos donde se vivía con poco, y sostuvo que el placer es el fin de la vida, pero entendiendo por placer sobre todo la ausencia de dolor del cuerpo y de perturbación del alma.</p>
+        <p>Esa ausencia de perturbación se llama <strong>ataraxia</strong>. Para llegar a ella ordenó los deseos en tres clases, según la <em>Carta a Meneceo</em>: <strong>naturales y necesarios</strong>, <strong>naturales pero no necesarios</strong> y <strong>vanos</strong>. Y resumió su medicina en cuatro líneas, el <strong>tetrafármaco</strong>, que se conoce por un papiro de Filodemo hallado en Herculano: no hay que temer a los dioses, no hay que temer a la muerte, el bien es fácil de conseguir y el mal es fácil de soportar.</p>
+        <p>Epicuro daba a la <strong>amistad</strong> un lugar central: en una de sus máximas dice que, de todo lo que la sabiduría procura para la vida entera, lo más grande es la posesión de la amistad. Hoy sabemos que las relaciones sociales importan: el metaanálisis de Holt-Lunstad (2010) encontró asociación entre vínculos sólidos y menor mortalidad. Es una coincidencia que conversa con la antigua idea, sin demostrar que el Jardín funcionara.</p>
+        <p>Es una filosofía antigua, no un tratamiento. Pierre Hadot y Martha Nussbaum estudiaron estas escuelas como «terapias del alma», y algunas técnicas se parecen a las de la psicología actual, pero ese parecido es de forma y no prueba eficacia. Los ejercicios son reflexión, con respeto por la tradición y sin promesas.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con poco.</strong> No se trata de privarte, sino de distinguir qué te hace falta.</li>
+        <li><strong>Con amigos.</strong> El placer más grande que nombra Epicuro es compartido.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#deseos">Clasificar deseos</a>
+      <a href="#tetrafarmaco">El tetrafármaco</a>
+      <a href="#amistad">Amistad y placer sereno</a>
+      <a href="#ataraxia">Ataraxia</a>
+      <a href="#vineta">Viñeta: Lucía y las ganas de más</a>
+      <a href="#integrar">Integrar</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="deseos" aria-labelledby="t-deseos">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-deseos">Clasificar deseos: necesarios, no necesarios y vanos</h2>
+      <p class="lab-estacion__bajada">Epicuro distinguía los deseos <strong>naturales y necesarios</strong> (comer lo básico, abrigo, descanso, la compañía de amigos), los <strong>naturales no necesarios</strong> (variar el placer: comidas refinadas, un viaje lindo) y los <strong>vanos</strong>, que no tienen medida natural (fama, poder, riquezas sin tope). Los primeros se satisfacen con poco; los vanos, nunca del todo. Clasificá los tuyos con honestidad: la frontera depende de cada vida.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="epicureo-deseos" data-lab-form-titulo="Mis deseos, clasificados" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-deseos-1">Deseos naturales y necesarios que hoy tengo cubiertos o no</label><textarea class="lab-texto" id="epi-deseos-1" rows="2" placeholder="Comida, techo, descanso, compañía, salud"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-deseos-2">Deseos naturales pero no necesarios que disfruto, sin que me falten</label><textarea class="lab-texto" id="epi-deseos-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-deseos-3">Deseos vanos: los que no tienen medida y me inquietan</label><textarea class="lab-texto" id="epi-deseos-3" rows="2" placeholder="Reconocimiento, un número de seguidores, ganar siempre"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-deseos-4">El deseo que más energía me saca, y a qué clase pertenece</label><textarea class="lab-texto" id="epi-deseos-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-deseos-5">Un deseo vano que podría aflojar sin perder nada importante</label><input class="lab-campo" id="epi-deseos-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="tetrafarmaco" aria-labelledby="t-tetrafarmaco">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-tetrafarmaco">El tetrafármaco, línea por línea</h2>
+      <p class="lab-estacion__bajada">Las cuatro líneas son una invitación a revisar miedos concretos. La tradición epicúrea las argumenta: de los dioses, que viven sin interesarse en castigar; de la muerte, porque cuando estamos no está ella y cuando está ya no estamos. Podés compartir o no esas premisas; el ejercicio sirve para ver cuánto de lo que te inquieta es miedo a algo que todavía no pasó. No reemplaza tratar un miedo que te desborda.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="epicureo-tetrafarmaco" data-lab-form-titulo="Mi tetrafármaco" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-tetra-1">Un miedo de hoy sobre un castigo o un juicio externo, y qué hay de real en él</label><textarea class="lab-texto" id="epi-tetra-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-tetra-2">Un miedo sobre mi finitud o la de alguien, dicho con calma</label><textarea class="lab-texto" id="epi-tetra-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-tetra-3">Lo bueno que está al alcance de la mano hoy, sin mucho esfuerzo</label><textarea class="lab-texto" id="epi-tetra-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-tetra-4">Un dolor o una dificultad actual que puedo soportar, y de qué manera</label><textarea class="lab-texto" id="epi-tetra-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-tetra-5">Cuál de las cuatro líneas me resulta más difícil de creer, y por qué</label><input class="lab-campo" id="epi-tetra-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="amistad" aria-labelledby="t-amistad">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-amistad">Amistad y placer sereno</h2>
+      <p class="lab-estacion__bajada">Para Epicuro, el placer estable (el de la calma) vale más que el placer en movimiento, el de la excitación y el atracón. Y la amistad es la fuente más segura de ese placer. Esta estación mira tu red de amistad y tus placeres más tranquilos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="epicureo-amistad" data-lab-form-titulo="Mi amistad y mi placer sereno" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-amistad-1">Las amistades con las que me siento en calma, no actuando ni compitiendo</label><textarea class="lab-texto" id="epi-amistad-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-amistad-2">Una amistad que quiero cuidar y qué gesto simple puedo tener</label><input class="lab-campo" id="epi-amistad-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-amistad-3">Los placeres tranquilos que me dejan bien al día siguiente</label><textarea class="lab-texto" id="epi-amistad-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-amistad-4">Un placer que me deja inquieto, culposo o con ganas de más</label><textarea class="lab-texto" id="epi-amistad-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-amistad-5">Un momento de esta semana para compartir una comida sencilla con alguien</label><input class="lab-campo" id="epi-amistad-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="ataraxia" aria-labelledby="t-ataraxia">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-ataraxia">Ataraxia: qué me perturba y qué me calma</h2>
+      <p class="lab-estacion__bajada">La ataraxia no es la ausencia de emociones ni una calma permanente: es un estado de sosiego que se cultiva quitando perturbaciones evitables. Epicuro la buscaba con cálculo de placeres, atendiendo a las consecuencias. Pensá en una decisión o un hábito de tu semana y evaluá qué te cuesta en tranquilidad.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="epicureo-ataraxia" data-lab-form-titulo="Mi mapa de perturbaciones" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-atarax-1">Tres cosas que me perturban y que son evitables o reducibles</label><textarea class="lab-texto" id="epi-atarax-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-atarax-2">Tres cosas que me perturban y que no puedo cambiar, y cómo las acompaño</label><textarea class="lab-texto" id="epi-atarax-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-atarax-3">Un placer que, mirado a largo plazo, me cuesta más tranquilidad de la que da</label><textarea class="lab-texto" id="epi-atarax-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-atarax-4">Una decisión que me ahorraría una perturbación esta semana</label><input class="lab-campo" id="epi-atarax-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-atarax-5">Qué cosa del Jardín (poco, amigos, charla, calma) puedo copiar a mi medida</label><input class="lab-campo" id="epi-atarax-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-vineta">Viñeta: Lucía y la lista de pendientes lindos</h2>
+      <p class="lab-estacion__bajada">Una situación inventada para pensar los deseos y el placer sereno. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Lucía trabaja en una oficina y gana bien. Su lista de deseos creció: la casa más grande, el curso caro, el ascenso, el auto nuevo. Cada vez que consigue uno, el siguiente aparece a las pocas semanas. Está cansada y duerme mal.</p>
+        <p>Un sábado cocinó fideos para dos amigas, sin plan. Se quedaron hasta las once, charlando. Al día siguiente notó que había dormido de un tirón y que no se acordaba de ninguna de sus listas.</p>
+        <p>Se pregunta si quiere cambiar la vida o si le alcanza con cambiar algunas prioridades.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="epicureo-vineta-lucia" data-lab-form-titulo="Mis respuestas sobre Lucía" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-vineta-1">¿Qué deseos de Lucía parecen vanos y cuáles naturales?</label><textarea class="lab-texto" id="epi-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-vineta-2">¿Qué le dio la noche de los fideos que no le dan sus listas?</label><textarea class="lab-texto" id="epi-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-vineta-3">¿Qué le diría un epicúreo a Lucía, y qué le diría alguien que cuestione al epicureísmo?</label><textarea class="lab-texto" id="epi-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-vineta-4">¿Tenés algún pendiente lindo que se renueva sin cesar?</label><input class="lab-campo" id="epi-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="epicureo-integrar" data-lab-form-titulo="Lo que integro del epicureísmo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-integrar-1">Los deseos que voy a cuidar y los que voy a aflojar</label><textarea class="lab-texto" id="epi-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-integrar-2">El miedo del tetrafármaco con el que quiero trabajar</label><input class="lab-campo" id="epi-integrar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-integrar-3">La amistad o la comida compartida que voy a cuidar</label><input class="lab-campo" id="epi-integrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-integrar-4">Una perturbación evitable que voy a quitar</label><input class="lab-campo" id="epi-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="epi-integrar-5">Un límite de esta filosofía que me importa recordar</label><input class="lab-campo" id="epi-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="epicureo">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Inventario.</strong> Anotá diez cosas que deseás y clasificalas: necesarias, no necesarias o vanas.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Lo necesario.</strong> Disfrutá una comida sencilla, con toda la atención, sin pantalla.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Aflojar un vano.</strong> Elegí un deseo vano y pasá el día sin ir detrás de él. Anotá qué pasó.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un miedo.</strong> Tomá un miedo y recorré las cuatro líneas del tetrafármaco. Anotá cuál te movió más.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Amistad.</strong> Escribile o llamá a un amigo, sin motivo especial, para compartir algo del día.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Placer sereno.</strong> Elegí un placer tranquilo que te deje bien al día siguiente y dedicale un rato.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Cuenta.</strong> Anotá qué te dio calma esta semana y qué te la quitó. Elegí una cosa para sostener.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre Epicuro y el epicureísmo. Tocá cada una para ver qué dicen las fuentes antiguas y la investigación.</p>
+      <div class="faq">
+        <details><summary>El epicureísmo consiste en darse todos los gustos.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Epicuro hablaba de un placer que se alcanza con poco: la ausencia de dolor y de perturbación. Advertía que muchos placeres traen más pena que gozo. El uso moderno de «epicúreo» como sinónimo de glotón lo deformó.</p></div></details>
+        <details><summary>Epicuro daba a la amistad un lugar central.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Verdad.</strong> Entre sus Máximas capitales dice que, de todo lo que la sabiduría procura para la vida entera, lo más grande es la posesión de la amistad. El Jardín era una comunidad de amigos.</p></div></details>
+        <details><summary>Todos los deseos son igual de peligrosos.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Distinguía tres clases. Los naturales y necesarios son sanos y fáciles de cubrir; los vanos, sin medida natural, son los que inquietan.</p></div></details>
+        <details><summary>El tetrafármaco está comprobado como tratamiento de la ansiedad.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Es una fórmula filosófica antigua, conocida por un papiro de Filodemo. Se parece en la forma a técnicas de reestructuración de miedos, pero no se estudió como tratamiento y no reemplaza una consulta.</p></div></details>
+        <details><summary>Según Epicuro, no hay razón para temerle a la muerte.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Verdad.</strong> Es su argumento: cuando estamos nosotros no está ella, y cuando ella está ya no estamos. Es un argumento que se discute hasta hoy, y no todas las personas lo sienten consolador.</p></div></details>
+        <details><summary>La ataraxia es no sentir nada.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Mito.</strong> Es sosiego, ausencia de perturbación evitable. No pide anular emociones ni negar el dolor, y no se alcanza de una vez para siempre.</p></div></details>
+        <details><summary>Las relaciones cercanas se asocian con mejor salud y menor mortalidad.<span class="faq__signo" aria-hidden="true"></span></summary><div class="faq__respuesta"><p><strong>Verdad.</strong> El metaanálisis de Holt-Lunstad y colaboradores (2010) encontró asociación entre relaciones sociales sólidas y menor mortalidad. Es una asociación de estudios observacionales, y no demuestra que el Jardín funcionara.</p></div></details>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> El epicureísmo es una filosofía antigua, no un tratamiento. Si un miedo, una tristeza o una preocupación te desbordan, estos ejercicios no alcanzan: conviene consultar. Si hay riesgo para vos o para otros, llamá al 911 o al Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si querés conversarlo, podés <a href="/contacto/">escribirme</a>. Para seguir: el <a href="/recursos/mapa-de-la-psicologia-griega-antigua/">mapa de la psicología griega antigua</a>, el <a href="/glosario-de-psicologia-griega-antigua/">glosario de psicología griega antigua</a>, el artículo sobre <a href="/recursos/epicuro-y-el-placer-sereno/">Epicuro</a>, y los de <a href="/recursos/seneca/">Séneca</a> y <a href="/recursos/aristoteles/">Aristóteles</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Epicuro. <em>Carta a Meneceo</em> y <em>Máximas capitales</em>, en Diógenes Laercio, <em>Vidas de los filósofos ilustres</em>, libro X.</li>
+        <li>Filodemo de Gádara. Papiro de Herculano (tetrafármaco), en ediciones críticas de los papiros herculanenses.</li>
+        <li>Hadot, P. (1995). <em>Philosophy as a Way of Life</em>. Blackwell.</li>
+        <li>Nussbaum, M. C. (1994). <em>The Therapy of Desire: Theory and Practice in Hellenistic Ethics</em>. Princeton University Press.</li>
+        <li>Holt-Lunstad, J., Smith, T. B. y Layton, J. B. (2010). «Social relationships and mortality risk: A meta-analytic review». <em>PLoS Medicine</em>, 7(7), e1000316.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
