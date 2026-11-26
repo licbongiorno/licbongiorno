@@ -1,0 +1,181 @@
+<!--{
+  "ruta": "/laboratorio-de-saudade/",
+  "titulo": "Laboratorio de saudade: extrañar sin quedarse en el hueco",
+  "descripcion": "Extrañar sin quedar atrapado: saudade, nostalgia y duelo, una carta a lo que se extraña, cuándo consultar y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Saudade",
+      "/laboratorio-de-saudade/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>saudade</em>",
+  "bajada": "En portugués, la saudade nombra la presencia de lo que falta: una persona, un lugar, un tiempo. Ejercicios para distinguirla de la nostalgia y del duelo, escribirle a lo que extrañás y saber cuándo la añoranza pide que consultes con alguien.",
+  "respuesta": "El laboratorio de saudade ofrece ejercicios sobre extrañar: un quiz para distinguir saudade, nostalgia y duelo, una carta a lo que se extraña, una estación sobre objetos y lugares que sostienen el recuerdo, otra sobre las señales de que la añoranza pide consulta (duelo prolongado, desarraigo), un plan de 7 días y un quiz de mitos y verdades. Se apoya en la saudade como idea cultural y en la investigación de Sedikides y Wildschut sobre la nostalgia; no es un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de saudade",
+  "articulos": [
+    "mapa-de-las-psicologias-del-caribe-y-brasil",
+    "duelo-migratorio",
+    "duelo-por-una-mascota"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay una canción que suena en un bar y, por tres minutos, estás en otra casa, con otra gente, en otro año. Después pasa, y la tarde sigue. En portugués, a ese sentimiento de falta que no se reduce a la pena se lo llama <strong>saudade</strong>. Suele describirse como una mezcla de añoranza, ternura y tristeza por algo o alguien ausente, y se la nombra para personas, lugares, épocas y también para cosas que quizá nunca volverán. Su origen etimológico se discute, y la idea de que no existe nada parecido en otras lenguas es exagerada: el español tiene <em>añoranza</em> y <em>morriña</em>, el galés <em>hiraeth</em>, el alemán <em>Sehnsucht</em>. Lo que sí hay es un uso cultural muy arraigado de la palabra en Portugal y Brasil.</p>
+        <p>La saudade no es un trastorno, y no es lo mismo que el duelo ni que la nostalgia, aunque comparte territorio con ambos. En la psicología hay una línea de trabajo sólida sobre la <strong>nostalgia</strong>. La palabra la acuñó el médico suizo Johannes Hofer en 1688 para nombrar una enfermedad de soldados lejos de casa. Hoy se la estudia de otro modo: Constantine Sedikides, Tim Wildschut y sus colegas la describen como una emoción agridulce, muy frecuente, que suele aparecer cuando estamos solos o de mal humor, y que en sus experimentos aumentó la sensación de conexión social y de que la vida tiene sentido (Wildschut y colegas, 2006; Routledge y colegas, 2011). Son estudios con matices: muchos se hicieron en laboratorio, con personas de países occidentales, y la nostalgia no le sienta igual a todo el mundo.</p>
+        <p>El <strong>duelo</strong>, en cambio, responde a una pérdida concreta, sobre todo una muerte, y tiene su propio recorrido. Y a veces la añoranza es de otra clase: el desarraigo de quien migró, lo que se perdió sin que nadie haya muerto. Para eso están las señales de la estación 04.</p>
+        <p>Los ejercicios son para mirar lo que extrañás con más cuidado. No son un tratamiento ni prometen que el hueco se llene.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con ternura.</strong> Extrañar es una forma de haber querido.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> Si el dolor te desborda o dura, consultá: no hay que atravesarlo solo.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#distinguir">¿Saudade, nostalgia o duelo?</a>
+      <a href="#carta">Una carta a lo que extraño</a>
+      <a href="#objetos">Objetos y lugares que guardan algo</a>
+      <a href="#consulta">Cuándo pide consulta</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="distinguir" aria-labelledby="t-distinguir">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-distinguir">¿Saudade, nostalgia, duelo o algo que pide consulta?</h2>
+      <p class="lab-estacion__bajada">Las fronteras son borrosas y en la vida real se mezclan. Una lectura orientativa: la <strong>nostalgia</strong> mira con calidez un pasado que ya no está; la <strong>saudade</strong> es la falta de algo o alguien que puede o no volver, y lo sentimos presente; el <strong>duelo</strong> es la respuesta a una pérdida concreta, que suele doler más hondo y de forma más aguda. Y a veces hay que consultar. El quiz propone la lectura más razonable para cada escena.</p>
+      <div class="lab-tarjeta" data-lab-quiz="saudade-distinguir">
+        <p class="lab-tarjeta__titulo">¿Qué es lo que más se parece a esto?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente escena</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="carta" aria-labelledby="t-carta">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-carta">Una carta a lo que extraño</h2>
+      <p class="lab-estacion__bajada">Escribirle a quien o a lo que ya no está al alcance es un recurso muy usado en el acompañamiento de duelos y despedidas. Puede ser una persona, un lugar, un animal, una etapa. No hace falta enviarla ni leerla a nadie. Si te sacude demasiado, pausá y volvé otro día.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="saudade-carta" data-lab-form-titulo="Mi carta a lo que extraño" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-carta-1">A quién o a qué le escribo</label><input class="lab-campo" id="sau-carta-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-carta-2">Lo que extraño, con detalles: un olor, una frase, un sonido, una hora del día</label><textarea class="lab-texto" id="sau-carta-2" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-carta-3">Algo que me llevé conmigo de eso y sigue en mí</label><textarea class="lab-texto" id="sau-carta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-carta-4">Algo que no llegué a decir, o que quiero volver a decir</label><textarea class="lab-texto" id="sau-carta-4" rows="3"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-carta-5">Cómo me quiero despedir hoy, aunque sea hasta la próxima carta</label><input class="lab-campo" id="sau-carta-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="objetos" aria-labelledby="t-objetos">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-objetos">Objetos y lugares que guardan algo</h2>
+      <p class="lab-estacion__bajada">La nostalgia suele ir pegada a cosas: un frasco de especias, una remera vieja, la esquina de la panadería. Los estudios de Sedikides y Wildschut muestran que los recuerdos nostálgicos suelen incluir a otras personas, lo que ayuda a sentirse acompañado. Hacé un inventario de lo que te conecta con lo ausente y de cómo podés tenerlo cerca sin que te lastime.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="saudade-objetos" data-lab-form-titulo="Mis objetos y lugares" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-objetos-1">Objetos que me conectan con lo que extraño</label><textarea class="lab-texto" id="sau-objetos-1" rows="2" placeholder="Una taza, una foto, un mate, un disco…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-objetos-2">Lugares a los que vuelvo con la memoria</label><textarea class="lab-texto" id="sau-objetos-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-objetos-3">Sensaciones que lo traen de golpe: olores, canciones, comidas, climas</label><textarea class="lab-texto" id="sau-objetos-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-objetos-4">Cuáles me hacen bien y cuáles hoy me duelen demasiado</label><textarea class="lab-texto" id="sau-objetos-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-objetos-5">Un rincón o un gesto para darle un lugar a este recuerdo en mi casa o mi día</label><input class="lab-campo" id="sau-objetos-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="consulta" aria-labelledby="t-consulta">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-consulta">Cuándo la añoranza pide consulta</h2>
+      <p class="lab-estacion__bajada">Extrañar es normal y, muchas veces, sano. Pero hay situaciones en las que conviene hablarlo con un profesional.</p>
+      <div class="lab-tarjeta">
+        <ul>
+          <li><strong>Duelo prolongado.</strong> Tras una muerte, el dolor intenso y la falta de la persona son esperables durante mucho tiempo. Se considera un trastorno del duelo prolongado cuando, pasados al menos 12 meses en adultos (6 según la CIE-11), el anhelo y la preocupación siguen siendo muy intensos y limitan el funcionamiento diario. No alcanza con que siga doliendo: lo que pesa es cuánto te impide vivir.</li>
+          <li><strong>Desarraigo y duelo migratorio.</strong> Dejar un país, una lengua, una red de gente es una pérdida aunque nadie haya muerto. La pérdida ambigua, de la que habló Pauline Boss, es la de quien está lejos o ausente sin cierre. Si se suman insomnio, tristeza persistente, aislamiento, sensación de no pertenecer a ningún lado o desesperanza, conviene consultar.</li>
+          <li><strong>Señales de alerta.</strong> Dejar de comer o dormir durante semanas, dejar de cumplir con lo básico, consumir alcohol u otras sustancias para aguantar, sentir que no vale la pena seguir o pensar en hacerte daño.</li>
+          <li><strong>Evitación total o fijación.</strong> Si evitás todo lo que recuerda a lo perdido, o si no podés pensar en otra cosa. El modelo del proceso dual (Stroebe y Schut, 1999) describe un duelo saludable como un vaivén entre mirar la pérdida y ocuparse de la vida.</li>
+        </ul>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="saudade-consulta" data-lab-form-titulo="Cómo estoy con esto" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-consulta-1">Desde cuándo extraño esto con esta intensidad</label><input class="lab-campo" id="sau-consulta-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-consulta-2">Cómo está hoy mi sueño, mi comida y mi día a día</label><textarea class="lab-texto" id="sau-consulta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-consulta-3">Con quién puedo hablar de esto, hoy o esta semana</label><input class="lab-campo" id="sau-consulta-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-consulta-4">¿Alguna de las señales de arriba me suena familiar? ¿Qué hago con eso?</label><textarea class="lab-texto" id="sau-consulta-4" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="saudade-integrar" data-lab-form-titulo="Lo que integro sobre extrañar" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-integrar-1">Lo que extraño y cómo lo nombraría: saudade, nostalgia, duelo u otra cosa</label><textarea class="lab-texto" id="sau-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-integrar-2">Lo que el recuerdo me da: compañía, sentido, ganas de volver a algo</label><textarea class="lab-texto" id="sau-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-integrar-3">Un objeto o lugar que quiero conservar cerca</label><input class="lab-campo" id="sau-integrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-integrar-4">Alguien con quien puedo compartir este recuerdo</label><input class="lab-campo" id="sau-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sau-integrar-5">Algo de hoy que también me importa y que no quiero perder de vista</label><textarea class="lab-texto" id="sau-integrar-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, de pocos minutos. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="saudade">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Nombrar.</strong> Escribí qué extrañás y ponele un nombre: saudade, nostalgia, duelo o el que te salga.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Un recuerdo con detalles.</strong> Anotá una escena concreta: dónde estabas, qué se oía, qué se olía.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. La carta.</strong> Escribile a lo que extrañás, sin corregir ni mandar.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un objeto.</strong> Buscá algo que te conecte con eso y dale un lugar visible, o mirá una foto con calma.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Compartir.</strong> Contale ese recuerdo a alguien, o escribile a una persona que también lo compartió.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Mirar el presente.</strong> Hacé algo chico hoy que sea tuyo y de ahora: una comida, una caminata, un encuentro.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Balance.</strong> Revisá cómo estás. Si el dolor te desborda o dura, anotá con quién lo vas a hablar y cuándo.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre la saudade, la nostalgia y el duelo. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="saudade-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios acompañan la añoranza, pero no reemplazan una consulta. Si perdiste a alguien y el dolor te desborda o no cede, si el desarraigo te aísla, o si sentís desesperanza o pensamientos de hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si querés pensar tu caso con alguien, podés <a href="/contacto/">escribirme</a>. Para seguir: el <a href="/recursos/mapa-de-las-psicologias-del-caribe-y-brasil/">mapa de las psicologías del Caribe y Brasil</a>, el artículo sobre el <a href="/recursos/duelo-migratorio/">duelo migratorio</a>, el de <a href="/recursos/duelo-por-una-mascota/">duelo por una mascota</a>, la página de <a href="/duelo-y-perdidas/">duelo y pérdidas</a> y el <a href="/laboratorio-de-duelo/">laboratorio de duelo</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Wildschut, T., Sedikides, C., Arndt, J. y Routledge, C. (2006). «Nostalgia: Content, triggers, functions». <em>Journal of Personality and Social Psychology</em>, 91(5), 975-993.</li>
+        <li>Routledge, C., Arndt, J., Wildschut, T., Sedikides, C., Hart, C. M., Juhl, J., Vingerhoets, A. J. J. M. y Schlotz, W. (2011). «The past makes the present meaningful: Nostalgia as an existential resource». <em>Journal of Personality and Social Psychology</em>, 101(3), 638-652.</li>
+        <li>Sedikides, C. y Wildschut, T. (2018). «Finding meaning in nostalgia». <em>Review of General Psychology</em>, 22(1), 48-61.</li>
+        <li>Stroebe, M. y Schut, H. (1999). «The dual process model of coping with bereavement: Rationale and description». <em>Death Studies</em>, 23(3), 197-224.</li>
+        <li>Boss, P. (1999). <em>Ambiguous Loss: Learning to Live with Unresolved Grief</em>. Harvard University Press.</li>
+        <li>American Psychiatric Association (2022). <em>Manual diagnóstico y estadístico de los trastornos mentales, 5.ª ed., texto revisado (DSM-5-TR)</em>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

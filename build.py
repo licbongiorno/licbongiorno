@@ -244,6 +244,7 @@ GLOSARIOS_CULTURALES = [
     ("glosario-sudeste-asiatico.json", "/glosario-de-psicologias-del-sudeste-asiatico/", "Glosario de psicologías del Sudeste asiático", "Khyâl cap, kreng jai, interser…", "glosario_sudeste"),
     ("glosario-artico.json", "/glosario-de-psicologias-del-artico/", "Glosario de psicologías del Ártico", "Isuma, joik, birget…", "glosario_artico"),
     ("glosario-caribe-brasil.json", "/glosario-de-psicologias-del-caribe-y-brasil/", "Glosario de psicologías del Caribe y Brasil", "Saudade, lwa, Nise…", "glosario_caribe"),
+    ("glosario-occidental.json", "/glosario-de-la-psicologia-occidental/", "Glosario de la psicología occidental", "Wundt, Fechner, Gestalt, apego…", "glosario_occidental"),
 ]
 GLOSARIOS_CULTURALES = [(cargar_json(a), r, n, t, p) for a, r, n, t, p in GLOSARIOS_CULTURALES if (CONTENIDO / a).exists()]
 GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
@@ -785,6 +786,14 @@ LABORATORIOS = [
      "descripcion": "Una situación difícil, tres consignas del lojong, chequeo de bypass espiritual y autoculpa, un plan de 7 días y mitos y verdades."},
     {"titulo": "Laboratorio epicúreo", "ruta": "/laboratorio-epicureo/", "tipo": "Epicureísmo",
      "descripcion": "Clasificar deseos, el tetrafármaco, amistad y placer sereno, un mapa de perturbaciones hacia la ataraxia, un plan de 7 días y mitos y verdades."},
+    {"titulo": "Laboratorio de dadirri", "ruta": "/laboratorio-de-dadirri/", "tipo": "Dadirri",
+     "descripcion": "Escucha atenta a alguien, a un lugar y a uno mismo, esperar sin apurar, cómo nombrarla con respeto, mitos y verdades y un plan de 7 días."},
+    {"titulo": "Laboratorio de isuma", "ruta": "/laboratorio-isuma/", "tipo": "Isuma",
+     "descripcion": "Observar el enojo, un quiz de situaciones, responder con calma, el juego y la pregunta, lo que se guarda, mitos y verdades y un plan de 7 días."},
+    {"titulo": "Laboratorio de interser", "ruta": "/laboratorio-de-interser/", "tipo": "Interser",
+     "descripcion": "Caminar consciente, rastrear lo que hace posible un objeto cotidiano, respirar con gathas, qué respaldo tiene el mindfulness, un plan de 7 días y mitos y verdades."},
+    {"titulo": "Laboratorio de saudade", "ruta": "/laboratorio-de-saudade/", "tipo": "Saudade",
+     "descripcion": "Distinguir saudade, nostalgia y duelo, una carta a lo que se extraña, objetos y lugares, cuándo consultar, un plan de 7 días y mitos y verdades."},
     {"titulo": "Laboratorio de Zhuangzi", "ruta": "/laboratorio-de-zhuangzi/", "tipo": "Zhuangzi",
      "descripcion": "El sueño de la mariposa como ejercicio de perspectivas, un quiz sobre lo que parece inútil y sostiene, «la alegría de los peces», un plan de 7 días y mitos y verdades."},
     {"titulo": "Laboratorio de pensamiento dialéctico", "ruta": "/laboratorio-de-pensamiento-dialectico/", "tipo": "Pensamiento dialéctico",
@@ -972,6 +981,10 @@ TEMAS_LAB = {
     "/laboratorio-de-psicologia-corporal/": "Cuerpo y respiración", "/laboratorio-de-terapias-corporales/": "Cuerpo y respiración", "/laboratorio-de-focusing/": "Cuerpo y respiración", "/laboratorio-de-tono-postura-y-movimiento/": "Cuerpo y respiración", "/laboratorio-de-psicologia-transpersonal/": "Enfoques", "/laboratorio-de-espiritualidad-y-psique/": "Enfoques", "/laboratorio-de-psicosintesis/": "Enfoques",
     "/laboratorio-del-amor-como-arte/": "Vínculos", "/laboratorio-de-los-lenguajes-del-amor/": "Vínculos", "/laboratorio-estoico/": "Filosofía en práctica", "/laboratorio-de-grupos/": "Vínculos",
     "/laboratorio-te-whare-tapa-wha/": "Psicología en práctica", "/laboratorio-de-ubuntu/": "Vínculos", "/laboratorio-de-musar/": "Filosofía en práctica", "/laboratorio-de-lojong/": "Filosofía en práctica", "/laboratorio-epicureo/": "Filosofía en práctica",
+    "/laboratorio-de-dadirri/": "Vínculos",
+    "/laboratorio-isuma/": "Emociones",
+    "/laboratorio-de-interser/": "Cuerpo y respiración",
+    "/laboratorio-de-saudade/": "Emociones",
     "/laboratorio-de-seneca/": "Filosofía en práctica", "/laboratorio-de-marco-aurelio/": "Filosofía en práctica",
     "/laboratorio-de-la-vida-que-no-es-breve/": "Filosofía en práctica",
     "/laboratorio-de-la-angustia/": "Filosofía en práctica", "/laboratorio-de-virtudes/": "Filosofía en práctica",
@@ -1997,6 +2010,14 @@ TERMINOS_GLOSARIO = [
     ("/glosario-de-psicologias-del-caribe-y-brasil/", "homem-cordial", r"\bhomem cordial\b"),
     ("/glosario-de-psicologias-del-caribe-y-brasil/", "terapia-comunitaria-integrativa", r"terapia comunitaria integrativa"),
     ("/glosario-de-psicologias-del-caribe-y-brasil/", "nise-da-silveira", r"nise da silveira"),
+    ("/glosario-de-la-psicologia-occidental/", "psicofisica", r"psicofísica"),
+    ("/glosario-de-la-psicologia-occidental/", "introspeccion-experimental", r"introspección experimental"),
+    ("/glosario-de-la-psicologia-occidental/", "figura-y-fondo", r"figura y fondo"),
+    ("/glosario-de-la-psicologia-occidental/", "pregnancia", r"pregnancia"),
+    ("/glosario-de-la-psicologia-occidental/", "reflejo-condicionado", r"reflejos? condicionados?"),
+    ("/glosario-de-la-psicologia-occidental/", "condicionamiento-operante", r"condicionamiento operante"),
+    ("/glosario-de-la-psicologia-occidental/", "epistemologia-genetica", r"epistemolog[ií]a gen[eé]tica"),
+    ("/glosario-de-la-psicologia-occidental/", "desinstitucionalizacion", r"desinstitucionalizaci(?:ón|ones)"),
 ]
 
 

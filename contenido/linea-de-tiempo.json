@@ -465,6 +465,10 @@
     {
      "t": "¿Dónde nació la psicología?",
      "u": "/recursos/donde-nacio-la-psicologia/"
+    },
+    {
+     "t": "Glosario de la psicología occidental",
+     "u": "/glosario-de-la-psicologia-occidental/"
     }
    ]
   },
@@ -541,6 +545,10 @@
    "region": "america",
    "enlaces": [
     {
+     "t": "Horacio Piñero",
+     "u": "/recursos/horacio-pinero/"
+    },
+    {
      "t": "Mapa de la psicología latinoamericana",
      "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
     },
@@ -612,6 +620,10 @@
    "era": "nacimiento",
    "region": "america",
    "enlaces": [
+    {
+     "t": "José Ingenieros",
+     "u": "/recursos/jose-ingenieros/"
+    },
     {
      "t": "Mapa de la psicología latinoamericana",
      "u": "/recursos/mapa-de-la-psicologia-latinoamericana/"
