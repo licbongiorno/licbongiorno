@@ -46,7 +46,7 @@ Tomar conceptos de una tradición religiosa y usarlos fuera de contexto, o conve
 
 ## Para seguir
 
-Podés ubicar esta mirada en [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y seguir con [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
+Podés ubicar esta mirada en [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y seguir con [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/). Para el contexto filosófico y médico en el que surgió, con al-Razi, Avicena y al-Ghazali, mirá el [mapa de la psicología islámica medieval](/recursos/mapa-de-la-psicologia-islamica-medieval/).
 
 ## Para seguir leyendo
 

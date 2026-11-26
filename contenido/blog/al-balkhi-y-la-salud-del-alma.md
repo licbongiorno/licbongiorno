@@ -1,7 +1,7 @@
 ---
 titulo: Al-Balkhi y la salud del alma: miedo, ira, tristeza y obsesiones en el siglo IX
 titulo_seo: Al-Balkhi: la salud del alma en el siglo IX
-descripcion: Qué escribió al-Balkhi en Sustento de los cuerpos y las almas sobre el miedo, la ira, la tristeza y las obsesiones, y qué hay de cierto en llamarlo terapia cognitiva.
+descripcion: Qué escribió al-Balkhi sobre el miedo, la ira, la tristeza y las obsesiones en el siglo IX, y qué hay de cierto en llamarlo terapia cognitiva.
 resumen: Un sabio de Balj escribió en el siglo IX un tratado que separa la medicina del cuerpo y la del alma, y describe el miedo, la ira, la tristeza y los pensamientos obsesivos. Qué dice el texto, cómo lo leyeron sus traductores y dónde conviene frenar las comparaciones con la psicología actual.
 categoria: Historia de la psicología
 palabras_clave: al-Balkhi, Sustento de los cuerpos y las almas, Masalih al-abdan wa al-anfus, Malik Badri, waswasa, obsesiones, depresión, miedo, historia de la psicología, anacronismo
@@ -110,6 +110,7 @@ Algunos, como no aislarse, ocuparse en algo y preparar en calma ideas que ayuden
 - [Trastorno obsesivo-compulsivo](/recursos/trastorno-obsesivo-compulsivo/)
 - [Laboratorio de pensamientos repetitivos](/laboratorio-de-pensamientos-repetitivos/)
 - [Laboratorio de miedos y fobias](/laboratorio-de-miedos-y-fobias/)
+- [Glosario de psicología islámica medieval](/glosario-de-psicologia-islamica-medieval/)
 
 ## Para seguir leyendo
 

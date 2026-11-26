@@ -1,7 +1,7 @@
 ---
 titulo: Avicena y la psicología: los sentidos internos, el hombre suspendido y el mal de amores
 titulo_seo: Avicena y la psicología: alma, mente y amor
-descripcion: Qué pensó Avicena sobre el alma: los sentidos internos, el experimento del hombre suspendido, la melancolía y el mal de amores en el Canon, y su huella en Europa.
+descripcion: Qué pensó Avicena sobre el alma: los sentidos internos, el hombre suspendido, la melancolía y el mal de amores en el Canon, y su huella en Europa.
 resumen: Ibn Sina, Avicena, organizó una de las teorías del alma más influyentes de la historia. Sus sentidos internos, su célebre experimento mental, lo que escribió sobre el amor como enfermedad y cómo llegó a Tomás de Aquino.
 categoria: Historia de la psicología
 palabras_clave: Avicena, Ibn Sina, sentidos internos, wahm, estimativa, hombre suspendido, Canon de medicina, mal de amores, melancolía, Tomás de Aquino
@@ -103,6 +103,7 @@ Tomás leyó el *Libro del alma* en su traducción latina y discutió explícita
 - [Aristóteles](/recursos/aristoteles/)
 - [René Descartes](/recursos/rene-descartes/)
 - [Duelo y pérdidas](/duelo-y-perdidas/)
+- [Glosario de psicología islámica medieval](/glosario-de-psicologia-islamica-medieval/)
 
 ## Para seguir leyendo
 

@@ -110,6 +110,7 @@ Fue uno de los pensadores más influyentes en la historia de las teorías sobre 
 - [Psicología sufí](/recursos/psicologia-sufi/)
 - [Aristóteles](/recursos/aristoteles/)
 - [El mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/)
+- [Glosario de psicología islámica medieval](/glosario-de-psicologia-islamica-medieval/)
 
 ## Para seguir leyendo
 
