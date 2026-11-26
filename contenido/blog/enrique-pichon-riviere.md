@@ -63,6 +63,8 @@ Para practicarlo, probá el [Laboratorio de grupos](/laboratorio-de-grupos/).
 
 ## La tradición que siguió
 
+En otros países de América Latina, por caminos paralelos, crecieron la psicología de la liberación de [Ignacio Martín-Baró](/recursos/ignacio-martin-baro/), la pedagogía de [Paulo Freire](/recursos/paulo-freire-y-la-psicologia/) y la psicología comunitaria de [Maritza Montero](/recursos/maritza-montero-y-la-psicologia-comunitaria/).
+
 Discípulos y continuadores llevaron sus ideas a otros terrenos: [José Bleger](/recursos/jose-bleger/) pensó el encuadre y la psicología institucional, [Fernando Ulloa](/recursos/fernando-ulloa/) estudió la crueldad y la ternura en las instituciones, y [Silvia Bleichmar](/recursos/silvia-bleichmar/) pensó el malestar social después de 2001. Si te interesa la psicología social experimental, que se desarrolló en paralelo en Estados Unidos, leé sobre [Leon Festinger](/recursos/leon-festinger/), [Solomon Asch](/recursos/solomon-asch/), [Stanley Milgram](/recursos/stanley-milgram/) y [el experimento de la prisión de Stanford](/recursos/experimento-de-la-prision-de-stanford/).
 
 ## Para seguir leyendo

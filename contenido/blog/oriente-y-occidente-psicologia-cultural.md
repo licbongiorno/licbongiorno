@@ -108,6 +108,7 @@ Occidental, educado, industrializado, rico y democrático, por sus siglas en ing
 - [Mianzi y guanxi](/recursos/mianzi-y-guanxi/)
 - [Confucio y la psicología](/recursos/confucio-y-la-psicologia/)
 - [Laboratorio de pensamiento dialéctico](/laboratorio-de-pensamiento-dialectico/)
+- [Laboratorio del yo y el nosotros](/laboratorio-del-yo-y-el-nosotros/)
 
 ## Para seguir leyendo
 

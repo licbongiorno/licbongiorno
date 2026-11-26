@@ -118,6 +118,8 @@ Según el *Sutra del estrado*, ambos escribieron un poema ante el quinto patriar
 - [Psicología budista](/recursos/psicologia-budista/)
 - [Mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/)
 
+El chan también llegó a Corea, donde se llamó [seon](/recursos/seon-el-budismo-coreano/).
+
 ## Para seguir leyendo
 
 - Yampolsky, P. B. (1967). *The Platform Sutra of the Sixth Patriarch: The Text of the Tun-huang Manuscript*. Columbia University Press.

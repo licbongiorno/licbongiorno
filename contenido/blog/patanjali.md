@@ -42,6 +42,8 @@ El camino empieza por la **ética** (*yama*, *niyama*), sigue por **el cuerpo** 
 - **Jon Kabat-Zinn** incluyó el yoga suave como una de las prácticas del programa MBSR, junto con la meditación sentada y el escaneo corporal. Ver [Jon Kabat-Zinn](/recursos/jon-kabat-zinn/).
 - El **pranayama**, el trabajo con el aliento, inspira muchas técnicas de regulación emocional que se usan hoy. Podés leer sobre la [respiración y las emociones](/recursos/respiracion-y-emociones/) o probar el [laboratorio de respiraciones](/laboratorio-de-respiraciones/).
 
+Para una lectura de los *Yoga Sutras* como teoría de la mente, con lo que dice la investigación sobre el yoga, mirá [el yoga como psicología](/recursos/yoga-como-psicologia/); para practicarlo, el [laboratorio de los Yoga Sutras](/laboratorio-de-los-yoga-sutras/), y para el panorama completo, el [mapa de la psicología india](/recursos/mapa-de-la-psicologia-india/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué son los Yoga Sutras?

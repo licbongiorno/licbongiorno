@@ -135,7 +135,7 @@ Mucho: la terapia de exposición le debe algo a Pávlov, la educación le debe l
 - [Teoría de la actividad](/recursos/teoria-de-la-actividad/)
 - [Glosario de psicología rusa](/glosario-de-psicologia-rusa/)
 
-La serie sigue con [Bluma Zeigarnik](/recursos/bluma-zeigarnik/), [Uznadze y la actitud](/recursos/uznadze-y-la-actitud/), [la psiquiatría soviética y su abuso político](/recursos/psiquiatria-sovietica-y-abuso-politico/), [Bajtín y el diálogo](/recursos/bajtin-y-el-dialogo/) y [Dostoievski y la psicología](/recursos/dostoievski-y-la-psicologia/).
+La serie sigue con [Bluma Zeigarnik](/recursos/bluma-zeigarnik/), [Uznadze y la actitud](/recursos/uznadze-y-la-actitud/), [la psiquiatría soviética y su abuso político](/recursos/psiquiatria-sovietica-y-abuso-politico/), [Bajtín y el diálogo](/recursos/bajtin-y-el-dialogo/) y [Dostoievski y la psicología](/recursos/dostoievski-y-la-psicologia/). Para los antecedentes y los desarrollos menos conocidos, están [Séchenov y Béjterev](/recursos/sechenov-y-bejterev/), [Galperin y las etapas del aprendizaje](/recursos/galperin-y-las-etapas-del-aprendizaje/), [Rubinstein y la conciencia](/recursos/rubinstein-y-la-conciencia/) y [la psicología del trabajo soviética](/recursos/psicologia-del-trabajo-sovietica/). Para practicar, el [laboratorio de habla interna](/laboratorio-de-habla-interna/).
 
 ## Para seguir leyendo
 

@@ -76,6 +76,8 @@ Las redes muestran recortes ajenos muy editados, sin contexto ni costos. Si cier
 - [Los celos](/recursos/los-celos/)
 - [Laboratorio de emociones](/laboratorio-de-emociones/)
 
+Una mirada de hace mil años sobre la envidia, con argumentos sorprendentemente actuales, está en [al-Razi y la medicina del alma](/recursos/al-razi-y-la-medicina-del-alma/).
+
 ## Para seguir leyendo
 
 - Klein, M. (1957). *Envy and gratitude: A study of unconscious sources*. Tavistock Publications.

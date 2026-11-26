@@ -102,6 +102,8 @@ Es el libro de 1986 en el que Doi amplía su análisis a pares como *omote* y *u
 - [Mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/)
 - [Glosario de psicología japonesa](/glosario-de-psicologia-japonesa/)
 
+Corea tiene su propio concepto del afecto que se acumula con la convivencia: el [jeong](/recursos/jeong/).
+
 ## Para seguir leyendo
 
 - Doi, T. (1973). *The Anatomy of Dependence* (J. Bester, trad.). Kodansha International. (Original: *Amae no kōzō*, 1971, Kodansha).

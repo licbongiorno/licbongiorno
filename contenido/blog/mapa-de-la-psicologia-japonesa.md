@@ -110,6 +110,8 @@ Por el glosario, para ubicar los términos, y después por el artículo del tema
 
 Para la tradición vecina, con el taoísmo, el confucianismo y el budismo chan, mirá el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/).
 
+Para la tradición vecina, con el han, el jeong y el nunchi, mirá el [mapa de la psicología coreana](/recursos/mapa-de-la-psicologia-coreana/).
+
 ## Para seguir leyendo
 
 - Sugg, H. V. R., Richards, D. A. y Frost, J. (2020). «What is Morita therapy? The nature, origins, and cross-cultural application of a unique Japanese psychotherapy». *Journal of Contemporary Psychotherapy*, 50(4).

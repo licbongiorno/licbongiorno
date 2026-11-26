@@ -46,7 +46,7 @@ Dicho de otro modo: el dato alentador no autoriza a prometer que el yoga cura el
 
 ## Para seguir
 
-Podés situar el yoga entre otras propuestas en [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y explorar más en [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
+Podés situar el yoga entre otras propuestas en [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y explorar más en [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/). Sobre las raíces del yoga en los *Yoga Sutras* y la diferencia con el yoga postural moderno, leé [el yoga como psicología](/recursos/yoga-como-psicologia/).
 
 Sobre el libro más conocido de van der Kolk y sus críticas, leé [«El cuerpo lleva la cuenta»](/recursos/el-cuerpo-lleva-la-cuenta/).
 

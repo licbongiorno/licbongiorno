@@ -126,6 +126,9 @@ Sí, es una de sus herencias directas. Leóntiev trabajó con Vygotsky, aunque p
 - [Lev Vygotsky](/recursos/lev-vygotsky/)
 - [La motivación](/recursos/la-motivacion/)
 - [Alexander Luria](/recursos/alexander-luria/)
+- [Rubinstein y la conciencia](/recursos/rubinstein-y-la-conciencia/)
+- [Galperin y las etapas del aprendizaje](/recursos/galperin-y-las-etapas-del-aprendizaje/)
+- [La psicología del trabajo soviética](/recursos/psicologia-del-trabajo-sovietica/)
 - [Mapa de la psicología rusa](/recursos/mapa-de-la-psicologia-rusa/)
 
 ## Para seguir leyendo
