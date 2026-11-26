@@ -1,0 +1,212 @@
+<!--{
+  "ruta": "/laboratorio-de-habla-interna/",
+  "titulo": "Laboratorio de habla interna: cómo te hablás",
+  "descripcion": "Ejercicios sobre el habla interna de Vygotsky: escuchar cómo te hablás, guiarte en voz alta, hablarte en segunda persona, la voz crítica y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Habla interna",
+      "/laboratorio-de-habla-interna/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>habla interna</em>",
+  "bajada": "Para Lev Vygotsky, el lenguaje con el que pensamos empezó siendo una conversación con otros. Ejercicios para escuchar cómo te hablás por dentro, usar esa voz para guiarte en tareas difíciles y aflojar la que solo critica.",
+  "respuesta": "El laboratorio de habla interna ofrece ejercicios sobre el diálogo interno: una práctica para escuchar cómo te hablás, un quiz para distinguir frases que instruyen, animan o critican, una estación para guiarte en voz alta en una tarea difícil, otra para hablarte en segunda persona como propone la investigación de Ethan Kross, otra para reescribir la voz crítica, una viñeta y un plan de 7 días. Parte de la teoría de Vygotsky y de la investigación actual sobre el habla interna. No es un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de habla interna",
+  "articulos": [
+    "lev-vygotsky",
+    "mapa-de-la-psicologia-rusa",
+    "kristin-neff"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Un chico de cuatro años arma una torre de bloques y va diciendo en voz alta: «ahora el rojo… no, ese no, el grande abajo». Nadie le preguntó nada; se está hablando a sí mismo. Jean Piaget había visto en ese «habla egocéntrica» un signo de inmadurez que desaparecía con la edad. <strong>Lev Vygotsky</strong> propuso otra lectura en <em>Pensamiento y lenguaje</em> (1934): ese habla no desaparece, sino que se vuelve hacia adentro y se transforma en el <strong>habla interna</strong> con la que los adultos pensamos, planificamos y nos regulamos.</p>
+        <p>Para Vygotsky, el habla interna es más abreviada y condensada que la que usamos en voz alta, y nace de las conversaciones con otros: primero un adulto nos guía con palabras y después aprendemos a guiarnos solos. Por eso decía que toda función psicológica aparece dos veces, primero entre personas y después dentro de una persona. Esa idea, la de la <strong>internalización</strong>, sigue siendo una de las más fértiles de la psicología del desarrollo.</p>
+        <p>La investigación actual le dio más contenido. Ben Alderson-Day y Charles Fernyhough (2015) revisaron lo que se sabe del habla interna: su desarrollo, sus funciones en la memoria, la planificación y la autorregulación, y su relación con algunas experiencias de oír voces. Russell Hurlburt, con su método de muestreo de la experiencia, mostró que las personas hablan consigo mismas mucho menos, o de maneras más variadas, de lo que creen. Y Ethan Kross y sus colegas (2014) encontraron que hablarse en segunda o tercera persona («vos podés», «Ana, respirá») ayuda a tomar distancia en situaciones de estrés.</p>
+        <p>En la clínica, Donald Meichenbaum desarrolló a partir de estas ideas el <strong>entrenamiento en autoinstrucciones</strong> (Meichenbaum y Goodman, 1971), y varias terapias trabajan con la voz autocrítica, como la terapia centrada en la compasión de Paul Gilbert. Los ejercicios de este laboratorio retoman esas líneas: escuchar cómo te hablás, usar las palabras para guiarte y cambiar el tono de la voz que solo castiga. Son prácticas de autoconocimiento, no un tratamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con curiosidad.</strong> No hay una forma correcta de pensar.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> Si las voces no se sienten tuyas, conviene consultar.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#escuchar">Escuchar cómo me hablo</a>
+      <a href="#quiz">¿Instrucción, ánimo o crítica?</a>
+      <a href="#guiarse">Guiarme en voz alta</a>
+      <a href="#distancia">Hablarme en segunda persona</a>
+      <a href="#voz-critica">La voz crítica y la voz amable</a>
+      <a href="#vineta">Viñeta: Tomás y el examen</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="escuchar" aria-labelledby="t-escuchar">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-escuchar">Escuchar cómo me hablo</h2>
+      <p class="lab-estacion__bajada">Una práctica breve de observación. Durante unos minutos vas a prestar atención a lo que pasa por tu mente sin cambiarlo, como quien escucha una radio de fondo. Activá el reloj para unos 40 segundos por paso.</p>
+      <div class="lab-tarjeta" data-lab-pasos data-lab-pasos-segundos="40">
+        <ol class="lab-pasos">
+          <li><strong>Llegar.</strong> Sentate cómodo/a y hacé dos o tres respiraciones tranquilas. No hace falta poner la mente en blanco.</li>
+          <li><strong>Esperar.</strong> Quedate atento/a a lo que aparece. Puede ser una frase, una imagen, un recuerdo, una sensación o nada en particular.</li>
+          <li><strong>¿Hay palabras?</strong> Si aparecen palabras, notá si son frases completas o fragmentos sueltos. Muchas veces el habla interna es muy abreviada, como decía Vygotsky.</li>
+          <li><strong>¿Quién habla?</strong> Notá con qué voz aparecen: la tuya, la de alguien conocido, un tono neutro. ¿Te hablás de «yo», de «vos», por tu nombre?</li>
+          <li><strong>El tono.</strong> Fijate en el tono: ¿es amable, exigente, apurado, burlón, neutro? No lo juzgues; solo registralo.</li>
+          <li><strong>Sin palabras.</strong> Notá también los momentos en que pensás sin palabras. Hurlburt encontró que son más frecuentes de lo que la gente cree.</li>
+          <li><strong>Cerrar.</strong> Volvé a la respiración y anotá, si querés, lo que observaste.</li>
+        </ol>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quiz">¿Instrucción, ánimo o crítica?</h2>
+      <p class="lab-estacion__bajada">El habla interna cumple funciones distintas. Una <strong>instrucción</strong> guía lo que hay que hacer, paso a paso. Una frase de <strong>ánimo</strong> sostiene el esfuerzo o calma. Una <strong>crítica</strong> juzga a la persona, y cuando es constante suele empeorar el rendimiento y el ánimo. El quiz propone la lectura más razonable para cada frase.</p>
+      <div class="lab-tarjeta" data-lab-quiz="habla-instruccion-animo-critica">
+        <p class="lab-tarjeta__titulo">¿Qué hace esta frase?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente frase</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="guiarse" aria-labelledby="t-guiarse">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-guiarse">Guiarme en voz alta en una tarea difícil</h2>
+      <p class="lab-estacion__bajada">Lo que Vygotsky vio en los chicos sigue funcionando en los adultos: cuando una tarea es difícil, hablar en voz alta o en voz baja ayuda a organizarla. Meichenbaum lo convirtió en una técnica, el entrenamiento en autoinstrucciones. Elegí una tarea que te cueste y escribí el guion que podrías decirte.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="habla-guiarse" data-lab-form-titulo="Mi guion de autoinstrucciones" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-guiarse-1">La tarea difícil</label><input class="lab-campo" id="hin-guiarse-1" type="text" placeholder="Un trámite, una conversación, aprender algo nuevo…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-guiarse-2">Qué tengo que hacer, dicho en pasos cortos</label><textarea class="lab-texto" id="hin-guiarse-2" rows="2" placeholder="Primero…, después…, al final…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-guiarse-3">Qué me digo si me equivoco o me trabo</label><input class="lab-campo" id="hin-guiarse-3" type="text" placeholder="«Bueno, paro, vuelvo al paso anterior»" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-guiarse-4">Qué me digo para sostener el esfuerzo</label><input class="lab-campo" id="hin-guiarse-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-guiarse-5">Después de probarlo: qué cambió al hablarme así</label><textarea class="lab-texto" id="hin-guiarse-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="distancia" aria-labelledby="t-distancia">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-distancia">Hablarme en segunda persona</h2>
+      <p class="lab-estacion__bajada">Ethan Kross y sus colegas (2014) encontraron que, en situaciones de estrés, hablarse a uno mismo en segunda persona o por el propio nombre («Laura, ¿qué necesitás ahora?») ayuda a tomar distancia y a pensar con más claridad que hablarse en primera persona. Es una práctica simple que podés probar con algo que te preocupe.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="habla-distancia" data-lab-form-titulo="Hablarme como a otra persona" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-distancia-1">Lo que me preocupa</label><input class="lab-campo" id="hin-distancia-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-distancia-2">Cómo me lo digo normalmente, en primera persona</label><textarea class="lab-texto" id="hin-distancia-2" rows="2" placeholder="«No sé qué voy a hacer, me va a salir mal»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-distancia-3">Cómo me lo diría usando «vos» o mi nombre</label><textarea class="lab-texto" id="hin-distancia-3" rows="2" placeholder="«Martín, ya pasaste por esto. ¿Qué es lo primero que podés hacer?»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-distancia-4">Qué noté en el cuerpo y en el ánimo con cada versión</label><input class="lab-campo" id="hin-distancia-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-distancia-5">Una situación en la que quiero probarlo esta semana</label><input class="lab-campo" id="hin-distancia-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="voz-critica" aria-labelledby="t-voz-critica">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-voz-critica">La voz crítica y la voz amable</h2>
+      <p class="lab-estacion__bajada">Muchas personas tienen una voz interna que castiga: repite frases que alguna vez escucharon de otros o que fueron armando para exigirse. Desde la idea de internalización de Vygotsky, tiene sentido que así sea: nos hablamos como nos hablaron. Paul Gilbert, en la terapia centrada en la compasión, y Kristin Neff, en su trabajo sobre autocompasión, proponen cultivar al lado otra voz, firme y amable a la vez. Escribí las dos.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="habla-voz-critica" data-lab-form-titulo="Mis dos voces" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-voz-critica-1">Una frase típica de mi voz crítica</label><textarea class="lab-texto" id="hin-voz-critica-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-voz-critica-2">A quién me recuerda esa voz, si me recuerda a alguien</label><input class="lab-campo" id="hin-voz-critica-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-voz-critica-3">Qué intenta lograr, aunque lo haga mal</label><input class="lab-campo" id="hin-voz-critica-3" type="text" placeholder="Que no me equivoque, que no me rechacen…" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-voz-critica-4">Lo mismo, dicho por una voz amable que también quiere que me vaya bien</label><textarea class="lab-texto" id="hin-voz-critica-4" rows="2" placeholder="«Te importa hacerlo bien. Revisemos qué faltó y lo corregimos.»"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-voz-critica-5">Cómo me siento al leer cada una</label><input class="lab-campo" id="hin-voz-critica-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-vineta">Viñeta para pensar: Tomás y el examen de manejo</h2>
+      <p class="lab-estacion__bajada">Una situación inventada para pensar cómo el habla interna puede ayudar o trabar. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Tomás tiene 38 años y está aprendiendo a manejar. En las clases le va bien: el instructor le va diciendo «mirá el espejo, poné el guiño, ahora girá», y él lo hace. El problema aparece cuando practica solo. Apenas se cala el auto, empieza a decirse: «sos un inútil, a tu edad y no podés».</p>
+        <p>La semana pasada se le paró el motor en una subida. La voz crítica se puso tan fuerte que no pudo pensar qué hacer, y terminó bajándose del auto para que manejara su hermana.</p>
+        <p>Su instructor le sugiere algo: que cuando practique solo se diga en voz alta las mismas indicaciones que le da él en las clases, y que se hable de «vos», como le hablaría a un alumno. Tomás se siente un poco ridículo al principio, pero en la siguiente subida se escucha decir: «tranquilo, freno de mano, embrague, primera, despacio». Y sale.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="habla-vineta-tomas" data-lab-form-titulo="Mis respuestas sobre Tomás" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-vineta-1">¿Qué diferencia hay entre la voz del instructor y la voz crítica de Tomás?</label><textarea class="lab-texto" id="hin-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-vineta-2">¿Por qué pensás que la voz crítica le impidió resolver la situación?</label><textarea class="lab-texto" id="hin-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-vineta-3">¿Cómo se relaciona lo que hizo Tomás con la idea de internalización de Vygotsky?</label><textarea class="lab-texto" id="hin-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-vineta-4">¿En qué situación te pasa algo parecido?</label><input class="lab-campo" id="hin-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="habla-integrar" data-lab-form-titulo="Lo que integro sobre cómo me hablo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-integrar-1">Cómo es mi habla interna, según lo que observé</label><textarea class="lab-texto" id="hin-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-integrar-2">La función que más uso: instruirme, animarme o criticarme</label><input class="lab-campo" id="hin-integrar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-integrar-3">Una situación en la que hablarme en voz alta o en segunda persona me puede ayudar</label><textarea class="lab-texto" id="hin-integrar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-integrar-4">Una frase amable que quiero tener a mano</label><textarea class="lab-texto" id="hin-integrar-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="hin-integrar-5">Algo que quiero hablar con alguien o en terapia</label><input class="lab-campo" id="hin-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="habla-interna">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Escuchar.</strong> Durante tres minutos, observá tu habla interna sin cambiarla y anotá qué tono tenía.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Contar.</strong> Registrá a lo largo del día cuántas frases críticas te dijiste. Solo contalas.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Guiarte.</strong> En una tarea difícil, decite los pasos en voz alta o en voz baja.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Segunda persona.</strong> Ante algo que te preocupe, hablate de «vos» o por tu nombre y notá la diferencia.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Reescribir.</strong> Tomá una frase crítica del día y reescribila con una voz firme y amable.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Sin palabras.</strong> Hacé un rato de actividad tranquila y notá cuánto pensás sin palabras.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Revisar.</strong> Anotá qué cambió en tu forma de hablarte durante la semana y qué querés seguir practicando.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">09</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el habla interna. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="habla-interna-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios ayudan a conocer tu diálogo interno, pero no reemplazan una consulta. Si escuchás voces que sentís ajenas, que te dan órdenes o te asustan, o si tu voz interna te empuja a hacerte daño, consultá con un profesional de salud mental, y si estás en crisis, mirá <a href="/ayuda-urgente/">ayuda urgente</a>. También podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/lev-vygotsky/">Vygotsky</a>, el de <a href="/recursos/kristin-neff/">Kristin Neff</a>, el <a href="/laboratorio-de-autocompasion/">laboratorio de autocompasión</a> y el <a href="/laboratorio-de-andamiaje/">laboratorio de andamiaje</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Vygotsky, L. S. (1934/1995). <em>Pensamiento y lenguaje</em>. Paidós.</li>
+        <li>Alderson-Day, B. y Fernyhough, C. (2015). «Inner speech: Development, cognitive functions, phenomenology, and neurobiology». <em>Psychological Bulletin</em>, 141(5), 931-965.</li>
+        <li>Kross, E., Bruehlman-Senecal, E., Park, J., Burson, A., Dougherty, A., Shablack, H., Bremner, R., Moser, J. y Ayduk, O. (2014). «Self-talk as a regulatory mechanism: How you do it matters». <em>Journal of Personality and Social Psychology</em>, 106(2), 304-324.</li>
+        <li>Meichenbaum, D. H. y Goodman, J. (1971). «Training impulsive children to talk to themselves: A means of developing self-control». <em>Journal of Abnormal Psychology</em>, 77(2), 115-126.</li>
+        <li>Hurlburt, R. T., Heavey, C. L. y Kelsey, J. M. (2013). «Toward a phenomenology of inner speaking». <em>Consciousness and Cognition</em>, 22(4), 1477-1494.</li>
+        <li>Fernyhough, C. (2016). <em>The Voices Within: The History and Science of How We Talk to Ourselves</em>. Basic Books.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

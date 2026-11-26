@@ -1,0 +1,196 @@
+<!--{
+  "ruta": "/laboratorio-de-jeong/",
+  "titulo": "Laboratorio de jeong: el lazo que forma el tiempo",
+  "descripcion": "Ejercicios sobre el jeong coreano: el mapa de tus lazos, el cariño que nace del roce, rituales pequeños, vínculos ambivalentes y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Jeong",
+      "/laboratorio-de-jeong/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>jeong</em>",
+  "bajada": "En Corea se llama jeong (정) al afecto que se acumula con el tiempo compartido, incluso con quien a veces nos irrita. Ejercicios para mirar tus lazos con esa lente: cuáles formó la historia, cómo se cuidan y cuándo conviene poner límites.",
+  "respuesta": "El laboratorio de jeong ofrece ejercicios sobre los lazos que se forman con el tiempo: un mapa de los vínculos que construyó la convivencia, un quiz para distinguir el cariño que nace de lo lindo compartido (goun jeong) del que nace incluso de los roces (miun jeong), una estación sobre los rituales pequeños que sostienen una relación, otra sobre los vínculos ambivalentes y sus límites, una viñeta y un plan de 7 días. El jeong es un concepto cultural coreano estudiado por la psicología cultural; no es un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de jeong",
+  "articulos": [
+    "jeong",
+    "el-apego",
+    "amae"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Hay personas que no elegiríamos como amigas y que, sin embargo, nos harían falta: el vecino con el que discutimos por la medianera, la compañera de trabajo de hace quince años, el tío que siempre dice algo fuera de lugar en las fiestas. En coreano, ese cariño que se fue pegando con el tiempo tiene nombre: <strong>jeong</strong> (정, 情). Se dice que el jeong «entra» o «se forma» entre dos personas, como algo que se deposita de a poco, con las comidas, los favores, las peleas y los años.</p>
+        <p>El psicólogo Choi Sang-chin y sus colaboradores estudiaron el jeong desde la psicología cultural coreana a fines de los años noventa. Describieron rasgos como el sentimiento de unidad, el cuidado mutuo, la aceptación sin condiciones y la confianza, y subrayaron que el jeong depende sobre todo de la <strong>historia compartida</strong>. Por eso existe la expresión <em>miun jeong goun jeong</em> (미운 정 고운 정): hay un jeong que nace de lo lindo (<em>goun</em>) y otro que nace incluso de lo que nos molesta (<em>miun</em>). Es un concepto cultural, no un diagnóstico ni una técnica.</p>
+        <p>La psicología social occidental tiene hallazgos que conversan con esa idea. Robert Zajonc (1968) mostró el <strong>efecto de mera exposición</strong>: tendemos a valorar mejor lo que vemos con frecuencia. Jeffrey Hall (2019) estimó que hacen falta muchas horas compartidas para que un conocido se vuelva amigo, y que no alcanza con cualquier tiempo, sino con tiempo de conversación y de actividades juntos. Y Kurt Lüscher y Karl Pillemer (1998) propusieron la noción de <strong>ambivalencia intergeneracional</strong> para describir algo muy cercano al miun jeong: que en los vínculos familiares el cariño y el fastidio conviven, y que eso es normal.</p>
+        <p>Los ejercicios proponen mirar tus lazos con esa lente: reconocer los que formó el tiempo, cuidarlos con gestos pequeños y distinguir la ambivalencia común de las relaciones que hacen daño, donde el jeong no debería ser una razón para quedarse. Son prácticas de reflexión, no un tratamiento.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con gratitud.</strong> Muchos lazos se sostienen sin que lo notemos.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+        <li><strong>Con criterio.</strong> El cariño acumulado no obliga a tolerar el maltrato.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#mapa">El mapa de mis lazos</a>
+      <a href="#quiz">¿Goun jeong o miun jeong?</a>
+      <a href="#rituales">Los rituales que sostienen un lazo</a>
+      <a href="#ambivalencia">Cariño y ambivalencia</a>
+      <a href="#vineta">Viñeta: Marta y la vecina</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="mapa" aria-labelledby="t-mapa">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-mapa">El mapa de los lazos que formó el tiempo</h2>
+      <p class="lab-estacion__bajada">Empezá por un inventario. Pensá en las personas, pero también en los lugares, los objetos o los animales con los que se te formó un lazo por la convivencia más que por una elección. No hace falta que sean vínculos fáciles: el jeong también aparece donde hubo roces.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="jeong-mapa" data-lab-form-titulo="Mi mapa de jeong" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-mapa-1">Personas con las que se me formó un lazo con los años, aunque no las haya elegido</label><textarea class="lab-texto" id="jeo-mapa-1" rows="2" placeholder="Una compañera de trabajo, un vecino, mi suegra…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-mapa-2">Lugares, objetos o animales a los que les tengo jeong</label><textarea class="lab-texto" id="jeo-mapa-2" rows="2" placeholder="El barrio, la casa de mi abuela, una taza vieja…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-mapa-3">El lazo más antiguo de la lista y cuántos años tiene</label><input class="lab-campo" id="jeo-mapa-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-mapa-4">Qué fue formando ese lazo: rutinas, favores, momentos difíciles, peleas</label><textarea class="lab-texto" id="jeo-mapa-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-mapa-5">Un lazo que se está formando ahora, casi sin darme cuenta</label><input class="lab-campo" id="jeo-mapa-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz" aria-labelledby="t-quiz">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quiz">¿Goun jeong, miun jeong o ninguno de los dos?</h2>
+      <p class="lab-estacion__bajada">La expresión coreana distingue el jeong que nace de lo lindo compartido (<strong>goun jeong</strong>) del que nace incluso de las peleas y los roces (<strong>miun jeong</strong>). Y no todo vínculo largo es jeong: a veces hay solo costumbre, dependencia o algo que hace daño. El quiz propone la lectura más razonable para cada escena; en la vida real se mezclan.</p>
+      <div class="lab-tarjeta" data-lab-quiz="jeong-goun-miun">
+        <p class="lab-tarjeta__titulo">¿Qué clase de lazo es este?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente escena</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="rituales" aria-labelledby="t-rituales">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-rituales">Los rituales pequeños que sostienen un lazo</h2>
+      <p class="lab-estacion__bajada">El jeong crece con lo repetido: el mate de la tarde, el mensaje de cumpleaños, el «¿llegaste bien?». John Gottman describió algo parecido en las parejas y las amistades: los pequeños intentos de conexión, que llamó <em>bids</em>, y la forma en que el otro responde a ellos, que con el tiempo construye o desgasta un vínculo. Elegí un lazo que quieras cuidar y pensá sus rituales.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="jeong-rituales" data-lab-form-titulo="Los rituales de un lazo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-rituales-1">El lazo que quiero cuidar</label><input class="lab-campo" id="jeo-rituales-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-rituales-2">Los rituales que ya tenemos, aunque sean mínimos</label><textarea class="lab-texto" id="jeo-rituales-2" rows="2" placeholder="Un mensaje los domingos, el café después de la reunión…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-rituales-3">Pequeños gestos del otro que suelo pasar por alto</label><textarea class="lab-texto" id="jeo-rituales-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-rituales-4">Un ritual nuevo, simple y realista, que podría proponer</label><textarea class="lab-texto" id="jeo-rituales-4" rows="2" placeholder="Una caminata una vez por mes, mandarle una foto cuando me acuerdo de algo"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-rituales-5">Cuándo lo voy a proponer</label><input class="lab-campo" id="jeo-rituales-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="ambivalencia" aria-labelledby="t-ambivalencia">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-ambivalencia">Cariño, ambivalencia y límites</h2>
+      <p class="lab-estacion__bajada">Lüscher y Pillemer (1998) llamaron <strong>ambivalencia</strong> a la convivencia de sentimientos opuestos en los vínculos familiares: querer a alguien y, a la vez, sentirse molesto, exigido o lastimado. Es algo frecuente y no significa que el vínculo esté mal. Pero hay un límite: el jeong acumulado no obliga a tolerar el maltrato. Esta estación ayuda a ubicar un vínculo ambivalente.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="jeong-ambivalencia" data-lab-form-titulo="Un vínculo con miun jeong" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-ambivalencia-1">El vínculo</label><input class="lab-campo" id="jeo-ambivalencia-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-ambivalencia-2">Lo que me molesta o me cuesta de esa persona</label><textarea class="lab-texto" id="jeo-ambivalencia-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-ambivalencia-3">Lo que, aun así, me une a ella</label><textarea class="lab-texto" id="jeo-ambivalencia-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-ambivalencia-4">Cuánto pesa cada lado hoy (por ejemplo, 60 a 40)</label><input class="lab-campo" id="jeo-ambivalencia-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-ambivalencia-5">¿Hay algo que me haga daño y que debería poner en palabras o limitar?</label><textarea class="lab-texto" id="jeo-ambivalencia-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-ambivalencia-6">Un límite que podría cuidar el vínculo y cuidarme a mí</label><input class="lab-campo" id="jeo-ambivalencia-6" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="vineta" aria-labelledby="t-vineta">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-vineta">Viñeta para pensar: Marta y la vecina del 4.º B</h2>
+      <p class="lab-estacion__bajada">Una situación inventada para pensar cómo se forma el jeong y qué pasa cuando se pierde. Leela y respondé con calma.</p>
+      <div class="lab-tarjeta">
+        <p class="lab-tarjeta__titulo">Viñeta para pensar</p>
+        <p>Marta tiene 67 años y hace veintidós que vive en el mismo edificio. Con Inés, la vecina del 4.º B, nunca se llevaron del todo bien: Inés es ruidosa, opina de todo y una vez le reclamó por las plantas del pasillo. Durante años se saludaron con lo justo.</p>
+        <p>Cuando Marta enviudó, Inés le dejó una tarta en la puerta sin decir nada. Desde entonces comparten el diario, se avisan cuando hay corte de luz y discuten por la reunión de consorcio. Marta dice que Inés «la saca de quicio» y, en la misma frase, que «es como de la familia».</p>
+        <p>Ahora Inés se va a vivir con su hija a otra provincia. Marta se sorprende de lo triste que está. Le cuesta explicarlo, porque siente que no puede extrañar a alguien con quien se peleaba tanto.</p>
+        <p class="lab-nota">Situación inventada, con fines ilustrativos: no describe a ninguna persona real.</p>
+      </div>
+      <form class="lab-tarjeta lab-armador" data-lab-form="jeong-vineta-marta" data-lab-form-titulo="Mis respuestas sobre Marta" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-vineta-1">¿Qué fue formando el lazo entre Marta e Inés?</label><textarea class="lab-texto" id="jeo-vineta-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-vineta-2">¿Por qué pensás que a Marta le cuesta reconocer su tristeza?</label><textarea class="lab-texto" id="jeo-vineta-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-vineta-3">¿Qué podría hacer Marta con esa despedida para cuidar lo que quedó?</label><textarea class="lab-texto" id="jeo-vineta-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-vineta-4">¿Tenés algún vínculo parecido al de Marta e Inés?</label><input class="lab-campo" id="jeo-vineta-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste descubriendo en las estaciones anteriores.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="jeong-integrar" data-lab-form-titulo="Lo que integro sobre mis lazos" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-integrar-1">Los lazos que formó el tiempo y que no valoraba del todo</label><textarea class="lab-texto" id="jeo-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-integrar-2">Un ritual que quiero sostener o empezar</label><input class="lab-campo" id="jeo-integrar-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-integrar-3">Un vínculo ambivalente que entiendo un poco mejor</label><textarea class="lab-texto" id="jeo-integrar-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-integrar-4">Un límite que necesito, aunque haya cariño</label><input class="lab-campo" id="jeo-integrar-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="jeo-integrar-5">A quién le quiero agradecer algo esta semana</label><input class="lab-campo" id="jeo-integrar-5" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="jeong">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Inventario.</strong> Anotá tres personas, lugares u objetos con los que se te formó un lazo con el tiempo.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Un gesto pequeño.</strong> Mandale un mensaje breve a alguien con quien tengas jeong, sin un motivo especial.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Notar.</strong> Registrá un pequeño intento de conexión de otra persona que antes habrías pasado por alto.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Un ritual.</strong> Proponé o sostené un ritual mínimo con alguien: un mate, una llamada, una caminata.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Miun jeong.</strong> Pensá en alguien que te irrita y que, aun así, te importa. Escribí qué te une a esa persona.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un límite.</strong> Si un vínculo te hace daño, anotá un límite que podrías poner, o con quién podrías hablarlo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Agradecer.</strong> Decile a alguien algo que valorás de la historia que comparten.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el jeong y los vínculos que forma el tiempo. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="jeong-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Estos ejercicios ayudan a mirar tus vínculos, pero no reemplazan una consulta. Si estás en una relación en la que hay maltrato, amenazas o control, el tiempo compartido no es una razón para quedarte: en Argentina podés llamar a la Línea 144, y si estás en peligro, al 911. Si te cuesta sostener o cortar un vínculo, podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre el <a href="/recursos/jeong/">jeong</a>, el de <a href="/recursos/el-apego/">apego</a>, el de <a href="/recursos/amae/">amae</a> y el <a href="/laboratorio-de-vinculos/">laboratorio de vínculos</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Choi, S.-C. y Lee, J.-J. (1999). «The psychological interior and social-cultural functions of Korean cheong (情)». <em>Korean Journal of Social and Personality Psychology</em>, 13(1), 219-234.</li>
+        <li>Zajonc, R. B. (1968). «Attitudinal effects of mere exposure». <em>Journal of Personality and Social Psychology</em>, 9(2, Pt. 2), 1-27.</li>
+        <li>Hall, J. A. (2019). «How many hours does it take to make a friend?». <em>Journal of Social and Personal Relationships</em>, 36(4), 1278-1296.</li>
+        <li>Lüscher, K. y Pillemer, K. (1998). «Intergenerational ambivalence: A new approach to the study of parent-child relations in later life». <em>Journal of Marriage and the Family</em>, 60(2), 413-425.</li>
+        <li>Gottman, J. M. y DeClaire, J. (2001). <em>The Relationship Cure</em>. Crown.</li>
+        <li>Kim, U., Yang, K.-S. y Hwang, K.-K. (eds.) (2006). <em>Indigenous and Cultural Psychology: Understanding People in Context</em>. Springer.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

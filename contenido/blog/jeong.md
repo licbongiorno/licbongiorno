@@ -109,6 +109,7 @@ El lazo en sí es comprensible: se forma con la historia compartida. Lo que conv
 - [Amae](/recursos/amae/)
 - [El apego](/recursos/el-apego/)
 - [Patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/)
+- [Laboratorio de jeong](/laboratorio-de-jeong/)
 - [Mapa de la psicología coreana](/recursos/mapa-de-la-psicologia-coreana/)
 - [Glosario de psicología coreana](/glosario-de-psicologia-coreana/)
 
