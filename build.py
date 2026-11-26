@@ -19,6 +19,7 @@ import base64
 import hashlib
 import html
 import json
+import urllib.parse
 import math
 import re
 import shutil
@@ -1516,7 +1517,7 @@ def bloque_linea_de_tiempo():
         if not hs:
             continue
         items = "".join(
-            f'<li class="lt-hito revelar" data-region="{h.get("region", "global")}"><p class="lt-fecha">{esc(h["fecha"])}</p>'
+            f'<li class="lt-hito revelar" id="{id_hito(h)}" data-region="{h.get("region", "global")}"><p class="lt-fecha">{esc(h["fecha"])}</p>'
             f'<div class="lt-cuerpo"><h3>{esc(h["titulo"])}</h3><p>{inline_md(h["texto"])}</p>'
             + (('<ul class="lt-enlaces">' + "".join(f'<li><a href="{esc(l["u"])}">{esc(l["t"])}</a></li>' for l in h.get("enlaces", [])) + "</ul>") if h.get("enlaces") else "")
             + "</div></li>" for h in hs)
@@ -1525,6 +1526,37 @@ def bloque_linea_de_tiempo():
                    f'<p>{inline_md(e["desc"])}</p></header><ol class="lt-hitos">{items}</ol></section>')
     return (f'<nav class="lt-nav" aria-label="Épocas"><ul>{nav}</ul></nav>{filtro}'
             f'<div class="lt" data-linea-tiempo>{"".join(out)}</div>')
+
+
+def id_hito(h):
+    return f'hito-{slug(h["titulo"])}'
+
+
+def bloque_ubicar_articulo(slug_art):
+    """Caja «Ubicalo en la historia y en el mapa»: hitos de la línea de tiempo y países del mapa que remiten al artículo."""
+    url = f"/recursos/{slug_art}/"
+    items = []
+    if (CONTENIDO / "linea-de-tiempo.json").exists():
+        lt = cargar_json("linea-de-tiempo.json")
+        for h in sorted(lt["hitos"], key=lambda h: h["anio"]):
+            if any(l["u"] == url for l in h.get("enlaces", [])):
+                items.append(f'<li><a href="/linea-de-tiempo-de-la-psicologia/#{id_hito(h)}">{esc(h["fecha"])}: {esc(h["titulo"])}</a> '
+                             f'<span class="mapa-nota">En la línea de tiempo de la psicología</span></li>')
+        items = items[:3]
+    if (CONTENIDO / "mapa-mundi.json").exists():
+        mm = datos_mapa_mundi()
+        series = {k for k, v in mm["series"].items() if v["mapa"] == url}
+        paises = [p for p, l in mm["autores"].items() if any(a[0] == slug_art for a in l)]
+        paises += [p for p, v in mm["paises"].items() if series & set(v[1]) and p not in paises] if len(series) and not paises else []
+        if paises:
+            nombres = [mm["paises"][p][0] for p in paises[:4] if p in mm["paises"]]
+            primero = paises[0]
+            items.append(f'<li><a href="/psicologias-del-mundo/?pais={urllib.parse.quote(primero)}#mapa">Ver en el mapa: {esc(", ".join(nombres))}</a> '
+                         f'<span class="mapa-nota">En el mapa de psicologías del mundo</span></li>')
+    if not items:
+        return ""
+    return (f'<aside class="mapa-caja" aria-label="Ubicalo en la historia y en el mapa"><p class="mapa-caja__titulo">Ubicalo en la historia y en el mapa</p>'
+            f'<ul>{"".join(items)}</ul></aside>')
 
 def bloque_datos_clave():
     filas = [
@@ -2535,6 +2567,10 @@ def render_articulo(a):
     if caja_labs:
         i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
         cuerpo_md = cuerpo_md + caja_labs if i_corte < 0 else cuerpo_md[:i_corte] + caja_labs + cuerpo_md[i_corte:]
+    caja_ubicar = bloque_ubicar_articulo(a["archivo"][:-3])
+    if caja_ubicar:
+        i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
+        cuerpo_md = cuerpo_md + caja_ubicar if i_corte < 0 else cuerpo_md[:i_corte] + caja_ubicar + cuerpo_md[i_corte:]
     caja_voces = voces_sitio.caja_articulo(sys.modules[__name__], VOCES, a["archivo"][:-3])
     if caja_voces:
         i_corte = cuerpo_md.find('<h2 id="para-seguir-leyendo">')
@@ -2644,7 +2680,7 @@ def reemplazos(cuerpo, ruta):
         "glosario_fiorini": lambda: bloque_glosario(GLOSARIO_FIORINI),
         "glosario_clinico": lambda: bloque_glosario(GLOSARIO_CLINICO),
         **{p: (lambda l=l: bloque_glosario(l)) for l, _, _, _, p in GLOSARIOS_CULTURALES},
-        "mapa_mundi": lambda: ('<div class="mm" data-mapa-mundi><div><div class="mm-lienzo">'
+        "mapa_mundi": lambda: ('<div class="mm" id="mapa" data-mapa-mundi><div><div class="mm-lienzo">'
             + (CONTENIDO / "mapa-mundi.svg").read_text(encoding="utf-8")
             + '</div><div class="mm-leyenda" data-mm-leyenda hidden aria-label="Resaltar una tradición en el mapa"></div></div>'
             '<div class="mm-panel" data-mm-panel tabindex="-1" aria-live="polite"><h2 class="mm-titulo">Elegí un lugar</h2>'
