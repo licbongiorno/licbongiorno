@@ -1,0 +1,24 @@
+{
+ "autor": "Piñero",
+ "preguntas": [
+  {
+   "enigma": "En 1879, un laboratorio de Leipzig empezó a medir cuánto tarda una persona en apretar un botón al escuchar un sonido.",
+   "p": "¿Cuándo creés que se hizo algo parecido por primera vez en Buenos Aires?",
+   "opciones": ["Recién en la década de 1930, con el psicoanálisis", "Recién en 1957, cuando se creó la carrera de Psicología", "Antes de 1900, con alumnos de un colegio"],
+   "r": "Hacia 1898 o 1899, Horacio Piñero instaló un laboratorio de psicología experimental en el Colegio Nacional de Buenos Aires. Antes del 1900 ya había en la ciudad un lugar con aparatos, protocolos y alumnos que se prestaban a ser estudiados, siguiendo el modelo de Wundt.",
+   "como": "Era médico y se había formado en fisiología, la disciplina que en esa época daba los métodos para estudiar la sensibilidad y las emociones con instrumentos. Su camino va del laboratorio de fisiología a la psicología.",
+   "debate": "Piñero suele figurar como el fundador de la psicología experimental en la Argentina, pero otras fuentes proponen precedentes, como un laboratorio de Víctor Mercante en San Juan hacia 1891. La discusión depende de qué se llame laboratorio y de qué se considere psicología experimental.",
+   "seccion": "El laboratorio del Colegio Nacional"
+  },
+  {
+   "enigma": "La carrera de Psicología en la UBA se creó recién en 1957. Sin embargo, a principios del siglo XX ya se hacía psicología en la Argentina.",
+   "p": "¿Quiénes la hacían?",
+   "opciones": ["Filósofos que escribían sobre el alma", "Psicoanalistas recién llegados de Europa", "Médicos, fisiólogos y pedagogos"],
+   "r": "La psicología argentina de principios del siglo XX la hacían médicos, fisiólogos y pedagogos con un lenguaje común: el positivismo, la fe en medir y en observar. Piñero era el fisiólogo del laboratorio, José Ingenieros el psiquiatra que escribió el manual y la divulgó, y Víctor Mercante y Rodolfo Senet, pedagogos.",
+   "como": "En 1908 se creó en Buenos Aires la Sociedad de Psicología, con Piñero, Ingenieros y Francisco de Veyga en su origen. A poco de empezar el siglo XX, la psicología argentina tenía laboratorio, cátedra y sociedad científica.",
+   "debate": "Los límites son los de su época: una psicología muy ligada a la fisiología y con poco espacio para la subjetividad y la clínica. Y el positivismo compartido incluyó ideas sobre razas y degeneración que hoy no se sostienen.",
+   "seccion": "El contexto: una psicología entre médicos y pedagogos"
+  }
+ ],
+ "abierta": "¿Qué cuenta como el comienzo de una disciplina: el primer aparato, la primera cátedra o la primera sociedad científica? ¿Y quién decide cuál fue el primero?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Séneca",
+ "preguntas": [
+  {
+   "enigma": "A las once de la noche te llega un mensaje de tu jefe, seco, sin saludo. En un segundo sentís que te sube la bronca y ya tenés la respuesta lista.",
+   "p": "¿Qué hacés entre la bronca y la respuesta?",
+   "opciones": ["Contesto enseguida: si espero, me lo guardo y me hace mal", "Me aguanto sin sentir nada, como si no me hubiera afectado", "Me doy un espacio para mirar lo que me dije sobre el mensaje antes de responder"],
+   "r": "Séneca observó que la ira empieza con una impresión que aparece sola, y que lo que viene después es darle o no nuestro asentimiento: «me falta el respeto» es un juicio que se puede mirar antes de contestar. Su consejo es esperar, pensar y no actuar en caliente, preguntándose qué busca la ira.",
+   "como": "Lo escribió en De ira. Contaba que el filósofo Sextio repasaba cada noche qué había pasado, en qué se había enojado y qué haría distinto, sin castigarse, y que él siguió el hábito. Se parece más a ordenar un cajón que a un ejercicio de culpa.",
+   "debate": "Séneca escribió filosofía práctica y no hizo experimentos: lo que hoy respalda técnicas como la reestructuración cognitiva pertenece a la terapia cognitiva, no al estoicismo antiguo, aunque el parentesco histórico es real.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Llega fin de año y sentís que el tiempo se te fue sin darte cuenta. Tenés la agenda llena, pero cuando mirás atrás no sabés bien en qué.",
+   "p": "¿La vida es corta, o somos nosotros los que la gastamos mal?",
+   "opciones": ["Es corta: no hay forma de que alcance para todo", "Depende de la suerte: algunos tienen más tiempo libre que otros", "No es corta por naturaleza: se malgasta en cosas que no importan"],
+   "r": "Séneca escribió que la vida es lo suficientemente larga si se sabe usarla. Para él no es corta por naturaleza: se malgasta en lo que no importa. Revisar cómo usamos el tiempo era una práctica estoica, y pensar en la finitud ayuda a elegir. No recomendaba angustiarse por la muerte, sino vivir cada día como si fuera completo.",
+   "como": "Lo trabajó en De brevitate vitae y en las Cartas a Lucilio, 124 cartas a un amigo en las que comenta cotidianidades, lecturas y dudas: escribir era para él una forma de pensar en voz alta.",
+   "debate": "Sus críticos le señalaron una contradicción: predicaba la sobriedad y vivía en la abundancia. Es una incoherencia real, y también una enseñanza: el estoicismo no pedía santos, pedía practicantes.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "Si en el fondo todo se reduce a elegir en qué gastamos el tiempo, ¿cuánto de esa elección depende realmente de nosotros y cuánto de las condiciones en que vivimos?"
+}

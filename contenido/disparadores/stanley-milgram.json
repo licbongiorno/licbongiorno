@@ -1,0 +1,24 @@
+{
+ "autor": "Milgram",
+ "preguntas": [
+  {
+   "enigma": "Una persona con guardapolvo te dice con tono tranquilo «el experimento requiere que continúe». Del otro lado alguien se queja cada vez que apretás un interruptor. No hay amenazas, solo una indicación.",
+   "p": "De cada 40 personas comunes, ¿cuántas creés que habrían llegado hasta el final?",
+   "opciones": ["Muy pocas: casi nadie haría daño a otro solo porque se lo piden", "Alrededor de la mitad, con mucha duda", "Más de la mitad, aunque no lo reconocerían de antemano"],
+   "r": "En el estudio de 1963, 26 de 40 participantes (65 %) llegaron al interruptor de 450 voltios, el máximo. Las descargas eran falsas, pero ellos no lo sabían. Milgram propuso el estado agéntico: la persona se vive como instrumento de otro, y la responsabilidad parece quedar del lado de quien da la orden.",
+   "como": "Hizo su experimento en Yale a partir de 1961, mientras se juzgaba a Eichmann en Jerusalén y la pregunta de cómo personas comunes colaboran con la violencia estaba en el aire. Resumió todo en el libro Obediencia a la autoridad (1974).",
+   "debate": "La réplica de Burger (2009) se detuvo en 150 voltios por razones éticas, así que se discute si es comparable. Que la gente obedezca es un dato; que lo haga por sentirse instrumento de otro es una hipótesis. Y la ética del engaño hoy no permitiría repetirlo igual.",
+   "seccion": "Qué encontró"
+  },
+  {
+   "enigma": "En una oficina, un superior pide «ajustar» un informe para que una cifra parezca mejor. Nadie amenaza a nadie: es un tono normal, con la frase «es lo que se espera».",
+   "p": "¿Qué podría hacer más probable que alguien se animara a decir que no?",
+   "opciones": ["Tener un carácter fuerte, y nada más", "Que el superior no esté presente cuando lo pide", "Ver a otra persona negarse primero"],
+   "r": "Milgram hizo muchas variantes y los resultados cambiaban bastante: la obediencia bajaba cuando la víctima estaba más cerca, cuando las órdenes se daban por teléfono y, sobre todo, cuando otros participantes, que eran cómplices, se negaban a continuar. Ver a alguien decir que no hacía mucho más probable que el participante también se negara.",
+   "como": "Variaba una sola cosa por vez, como la distancia o la compañía, y miraba cuánta gente seguía hasta el final. Así vio cómo el compromiso gradual y la autoridad con tono técnico empujaban a seguir paso a paso.",
+   "debate": "Haslam y Reicher sostienen que la gente no obedece a ciegas, sino que se identifica con una causa que cree valiosa, en este caso la ciencia. Y Gina Perry planteó dudas sobre cuánto creían los participantes que las descargas eran reales.",
+   "seccion": "El contexto de su obra"
+  }
+ ],
+ "abierta": "Si muchas personas obedecen pero muchas otras se niegan, ¿qué distingue a las que dicen que no? La pregunta sigue abierta, y es la que más ganas da de seguir investigando."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Mencio",
+ "preguntas": [
+  {
+   "enigma": "Un bebé de dieciocho meses ve a un adulto con las manos ocupadas que no puede abrir la puerta de un armario. Sin que nadie se lo pida, gatea hasta ahí y se la abre.",
+   "p": "¿Nacemos buenos o la bondad se aprende?",
+   "opciones": ["Nacemos buenos y la vida a veces nos corrompe", "Nacemos con deseos que chocan y la bondad se enseña", "Las dos cosas: una inclinación inicial que necesita educación"],
+   "r": "Mencio sostuvo que la naturaleza humana es buena y lo ilustró con alguien que ve a un niño a punto de caer a un pozo y siente alarma y compasión inmediata. Habló de cuatro brotes, como la compasión o la vergüenza ante lo indigno, que son comienzos y no virtudes terminadas: la educación y el entorno pueden regarlos o pisarlos.",
+   "como": "Lo argumentó con experimentos mentales y con imágenes, como la del agua que tiende a ir hacia abajo, y discutió con otro pensador, Gaozi, que veía la naturaleza humana como agua o madera que se moldea. Xunzi, un siglo después, respondió que la bondad se construye con aprendizaje, maestros y ritual.",
+   "debate": "Los estudios de Warneken y Tomasello (2006) y de Hamlin, Wynn y Bloom (2007) muestran tendencias prosociales tempranas, pero no demuestran que la naturaleza sea «buena», ni que Xunzi se equivoque. Algunos resultados con bebés fueron luego discutidos.",
+   "seccion": "Qué dice la psicología del desarrollo"
+  },
+  {
+   "enigma": "Un campesino impaciente porque sus brotes crecen lento los tira hacia arriba uno por uno. Vuelve agotado a casa. Al día siguiente, las plantas están marchitas.",
+   "p": "¿Qué enseña esto sobre cómo educar?",
+   "opciones": ["Que hay que ser muy paciente y no hacer nada", "Que forzar el crecimiento daña, pero cultivar sí requiere esfuerzo", "Que las plantas, como las personas, crecen solas si no se las toca"],
+   "r": "Es la parábola del labrador de Song, de Mencio: cultivar requiere esfuerzo, pero forzar el crecimiento lo daña. Aplicada a la crianza, previene contra exigir emociones «correctas», como obligar a decir «perdón» sin sentirlo, que puede enseñar una fórmula vacía.",
+   "como": "Mencio pensaba que la educación consiste en quitar obstáculos y sostener una dirección que ya está. Xunzi, en cambio, daba lugar central al ritual y a la música para dar forma a las emociones, como la madera torcida que necesita vapor y un molde.",
+   "debate": "Ambos escribieron para formar gobernantes y letrados de su época, no para familias de hoy, y no hay estudios que evalúen la crianza «a lo Mencio» o «a lo Xunzi». Trasladarlos a la crianza actual es una lectura nuestra.",
+   "seccion": "La pendiente: el agua y la madera"
+  }
+ ],
+ "abierta": "Una inclinación temprana a ayudar y una necesidad de educación conviven hoy en la psicología sin que una gane. ¿Cuánto de lo bueno que hacemos viene de adentro y cuánto de lo que aprendimos?"
+}

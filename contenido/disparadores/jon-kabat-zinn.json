@@ -1,0 +1,24 @@
+{
+ "autor": "Kabat-Zinn",
+ "preguntas": [
+  {
+   "enigma": "Lavás los platos mientras pensás en el mail que tenés que contestar. Cuando terminás, no te acordás de haber sentido el agua ni de haber mirado un solo plato.",
+   "p": "¿Dónde estuviste mientras tus manos hacían todo el trabajo?",
+   "opciones": ["Perdiendo el tiempo: hay que aprender a concentrarse mejor", "En el piloto automático, que a todos nos pasa gran parte del día", "Planificando, que es la mejor forma de aprovechar el rato"],
+   "r": "Kabat-Zinn llama piloto automático a ese modo en que vivimos sin darnos cuenta de lo que hacemos. Su definición de mindfulness es prestar atención, a propósito, al momento presente y sin juzgar. La invitación es sencilla: sentir el agua tibia, el peso del plato; cuando la mente se va, notarlo y volver sin retarse.",
+   "como": "Venía de la biología molecular y de años de práctica con maestros zen y de vipassana. En 1979 llevó la meditación a una clínica de la Universidad de Massachusetts para personas con dolor crónico y estrés, con lenguaje laico, y midió los resultados desde el comienzo.",
+   "debate": "Los efectos suelen ser moderados y se parecen a los de otros tratamientos reconocidos; en 2018 un artículo muy citado (Mind the Hype) advirtió sobre el entusiasmo desmedido y la calidad desigual de muchos estudios.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Tenés una lista de cosas por resolver y estás a mil. Cuando por fin te sentás a descansar, no podés: tu cabeza sigue buscando qué más hacer.",
+   "p": "¿Por qué cuesta tanto simplemente estar?",
+   "opciones": ["Porque estamos mal acostumbrados y falta disciplina", "Porque el descanso es una pérdida de tiempo si hay trabajo pendiente", "Porque casi solo conocemos el modo de hacer, y no el de ser"],
+   "r": "Kabat-Zinn distingue el modo de hacer, orientado a resolver y lograr, del modo de ser, en el que simplemente se está con la experiencia. El estrés crece cuando solo conocemos el primero. Por eso su programa incluye el escaneo corporal y el yoga suave: el cuerpo es una puerta al presente.",
+   "como": "Lo armó en ocho encuentros semanales con práctica diaria en casa. Un ejercicio muy conocido es el de la pasa de uva: comer una sola, con todos los sentidos, durante varios minutos.",
+   "debate": "No es para todos en todo momento: en personas con trauma, depresión grave o episodios psicóticos, la práctica intensiva puede ser contraproducente sin adaptación y sin acompañamiento. Y algunos critican que, sin contexto ético, quede reducido a una técnica de productividad.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si la atención se puede entrenar como un músculo, ¿para qué la usamos: para rendir mejor o para vivir de otra manera? La discusión sobre el sentido del mindfulness sigue abierta."
+}

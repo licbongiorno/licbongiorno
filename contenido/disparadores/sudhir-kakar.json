@@ -1,0 +1,24 @@
+{
+ "autor": "Kakar",
+ "preguntas": [
+  {
+   "enigma": "Un chico crece en una casa con abuela, tías, primos y hermanos mayores, además de sus padres. Alguien le pregunta quién lo crió.",
+   "p": "¿La psicología que describe la familia de papá, mamá e hijos sirve igual para esa casa?",
+   "opciones": ["Sí, la infancia funciona igual en todas partes", "No del todo: cambia a quién se vincula primero y cómo se forma la identidad", "Depende solo de cada chico, la cultura pesa poco"],
+   "r": "Kakar sostuvo que para entender la vida psíquica india hay que mirar menos a la pareja de padres de la familia nuclear europea y más a la red de abuelas, tías, primos y hermanos mayores que crían juntos. Subrayó la intensidad del vínculo temprano con la madre y un pasaje posterior, para los varones, al mundo de los hombres de la familia.",
+   "como": "Partió de una pregunta de Erik Erikson: cómo se forma la identidad en el cruce entre desarrollo psíquico y cultura. Lo desarrolló en *The Inner World* (1978), a partir de su clínica en la India, de textos y de mitos.",
+   "debate": "Se le reprochó hablar de «los indios» a partir de pacientes y textos hindúes, de clase media urbana y castas altas. Sus descripciones no se probaron con estudios representativos, y la India cambió mucho desde 1978.",
+   "seccion": "The Inner World: la infancia y la familia"
+  },
+  {
+   "enigma": "Una persona consulta a un psicólogo, y a la vez a un curandero, a un guía espiritual o a un familiar que «sabe de estas cosas».",
+   "p": "¿Esas formas de curar compiten con la terapia o hay algo que aprender de ellas?",
+   "opciones": ["Compiten: una de las dos tiene que estar equivocada", "Se pueden mirar con respeto sin idealizarlas ni descartarlas", "Solo sirven por efecto de la sugestión"],
+   "r": "Kakar observó a un *pir* musulmán, a un chamán de la comunidad oraon, a un lama tibetano y a un terapeuta tántrico, entre otros. Su lección es que un curador tradicional trabaja con símbolos que el paciente y su entorno comparten, y eso tiene efectos que un terapeuta no debería ignorar ni idealizar.",
+   "como": "En *Shamans, Mystics and Doctors* (1982) salió del consultorio: los observó trabajar con personas que sufrían y los leyó con herramientas psicoanalíticas. Preguntaba qué lenguaje le dan al sufrimiento y qué lugar le dan a la familia y a la comunidad, no si «funcionan» según la biomedicina.",
+   "debate": "Su obra es clínica e interpretativa, con valor de mirada profunda pero con la debilidad de generalizar desde pacientes de consultorio. Alan Roland criticó que algunas de sus lecturas reducían la experiencia espiritual a conflictos infantiles.",
+   "seccion": "Shamans, Mystics and Doctors: las tradiciones de curación"
+  }
+ ],
+ "abierta": "¿Cuánto de lo que damos por universal en la mente humana es en realidad de un lugar y de una época, y cómo saberlo sin esencializar a un pueblo?"
+}

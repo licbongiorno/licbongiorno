@@ -1,0 +1,24 @@
+{
+ "autor": "Laing",
+ "preguntas": [
+  {
+   "enigma": "Una madre le dice a su hijo «contame lo que sentís, yo siempre te escucho». Cuando él cuenta, ella se ofende y se retira.",
+   "p": "¿Qué aprende ese chico, si pasa muchas veces?",
+   "opciones": ["Que lo que siente no importa mucho", "Que decir lo que siente trae castigo, y que callarlo también", "Que su mamá es sensible y hay que cuidarla"],
+   "r": "Es un doble vínculo, en la línea de Gregory Bateson, y un ejemplo de lo que miraban Laing y Esterson: cómo en ciertos contextos una conducta rara adquiere sentido. No quiere decir que la familia cause una psicosis, sino que ver el contexto puede ayudar a escuchar.",
+   "como": "Con Aaron Esterson investigó a las familias de personas diagnosticadas, partiendo de que lo que dicen las personas con psicosis podía comprenderse. Se formó como psicoanalista en la Clínica Tavistock de Londres.",
+   "debate": "La investigación actual no sostiene que las familias causen la esquizofrenia, y se criticó el método y la selección de casos de esos estudios. La medicación y los tratamientos psicosociales tienen un papel importante.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Alguien se muestra siempre simpático y adaptado, pero por dentro se siente vacío y como si no fuera del todo real.",
+   "p": "¿Cómo se explica esa distancia entre lo que muestra y lo que siente?",
+   "opciones": ["Es timidez, hay que animarse a mostrarse más", "Es una defensa que protege, pero termina aislándolo", "Es una forma de manipular a los otros"],
+   "r": "Laing describió la inseguridad ontológica: la falta de una sensación firme de ser real y continuo. Para protegerse, la persona presenta un falso yo de fachada, mientras el yo íntimo queda aislado, y cuanto más se defiende, más se pierde el contacto.",
+   "como": "Lo desarrolló en *El yo dividido* (1960), un estudio de la experiencia de la esquizofrenia desde la fenomenología, a partir de escuchar a pacientes graves en hospitales de Glasgow.",
+   "debate": "Su visión de la psicosis como viaje de crecimiento fue idealizada, y muchas personas que la atraviesan y sus familias necesitan ayuda urgente. Lo que sigue en pie es el respeto: escuchar y no reducir a alguien a su diagnóstico.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "¿Cómo escuchar el sentido de lo que vive una persona en crisis sin dejar de ofrecerle la ayuda que necesita?"
+}

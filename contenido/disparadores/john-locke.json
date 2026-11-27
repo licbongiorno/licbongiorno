@@ -1,0 +1,24 @@
+{
+ "autor": "Locke",
+ "preguntas": [
+  {
+   "enigma": "Alguien se tensa apenas siente olor a hospital. Nadie nace con ese rechazo, y sin embargo está ahí.",
+   "p": "¿Cómo se arma un miedo que nadie te enseñó a propósito?",
+   "opciones": ["Es una tendencia con la que se nace, que algunos tienen y otros no", "Un olor quedó pegado a una situación dolorosa, y desde entonces uno trae al otro", "Es un recuerdo reprimido de la infancia"],
+   "r": "Locke llamó asociación de ideas a ese pegado por costumbre o por azar: algunas ideas quedan unidas y después aparecen juntas aunque no tengan relación lógica. Vio ahí el origen de muchos miedos, manías y prejuicios.",
+   "como": "Agregó un capítulo sobre el tema a la cuarta edición de su Ensayo (1700), con casos como el del joven que aprendió a bailar en un cuarto con un viejo baúl y después solo bailaba bien si el baúl estaba presente.",
+   "debate": "El aprendizaje por asociación está muy bien documentado, pero la investigación actual sostiene una postura intermedia entre lo innato y lo aprendido: los bebés llegan con predisposiciones.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Un bebé recién nacido todavía no sabe nada del mundo. Todo lo que va a pensar, imaginar o creer, ¿lo va a tener que aprender?",
+   "p": "¿Nacemos como una hoja en blanco?",
+   "opciones": ["Sí, todo se aprende con la experiencia", "No, venimos con ideas y estructuras ya armadas", "Venimos con capacidades y predisposiciones, pero no con ideas ya escritas"],
+   "r": "Locke sostuvo que no hay ideas innatas: la mente empieza vacía, la tabla rasa, y la experiencia la llena por dos vías, la sensación y la reflexión. Pero no pensaba en una mente literalmente vacía: hablaba de capacidades como percibir, recordar y comparar.",
+   "como": "Escribió contra la doctrina de las ideas innatas de la tradición racionalista de Descartes, y Leibniz le contestó que la mente aporta una estructura propia.",
+   "debate": "La tabla rasa, en su versión fuerte, no resiste los datos: hay predisposiciones, como la atención a la voz humana, y diferencias de temperamento con base genética. La idea de que la experiencia deja huellas profundas, sí.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "El problema de Molyneux, si un ciego de nacimiento que recupera la vista reconocería una esfera que antes conocía por el tacto, sigue estudiándose hoy. ¿Qué parte de lo que percibimos se aprende y cuál viene de fábrica?"
+}

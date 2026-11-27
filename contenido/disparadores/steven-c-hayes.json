@@ -1,0 +1,24 @@
+{
+ "autor": "Hayes",
+ "preguntas": [
+  {
+   "enigma": "Probá no pensar en un oso blanco durante un minuto. O acostate de noche decidido a dormirte a la fuerza.",
+   "p": "¿Por qué cuanto más tratamos de apagar un pensamiento, más aparece?",
+   "opciones": ["Porque no nos esforzamos lo suficiente", "Porque tratar de suprimirlo lo mantiene presente", "Porque es un pensamiento importante que pide atención"],
+   "r": "Para Hayes, el intento de no sentir ni pensar lo que duele, la evitación experiencial, alivia a corto plazo pero achica la vida. Su propuesta no es pelear mejor sino cambiar la pregunta: qué importa de verdad, con ese malestar a cuestas.",
+   "como": "Él mismo sufrió ataques de pánico durante años y vio que, cuanto más intentaba controlarlos, más espacio ocupaban. El cambio llegó cuando dejó de pelear con la ansiedad y empezó a preguntarse qué quería hacer con su vida.",
+   "debate": "Aceptar no es resignarse ni aguantar una situación injusta: se acepta la emoción, no el daño. Y hay personas que necesitan primero estabilizar una crisis antes de hacer este trabajo.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Pensás «soy un fracaso» tantas veces que ya no suena a pensamiento: suena a un hecho.",
+   "p": "¿Se puede tomar distancia de lo que pensamos sin tener que discutirlo?",
+   "opciones": ["No, hay que rebatirlo con argumentos para que se vaya", "Sí, mirándolo como una frase que pasa y no como una verdad", "Solo ignorándolo hasta que se canse"],
+   "r": "La ACT llama fusión cognitiva a quedar pegado a los pensamientos, y defusión a tomar distancia: verlos como palabras e imágenes que pasan, sin discutirlos ni obedecerlos. Un ejercicio es anteponer «estoy teniendo el pensamiento de que…».",
+   "como": "Hayes y colaboradores desarrollaron la terapia de aceptación y compromiso en la Universidad de Nevada, apoyada en la teoría de los marcos relacionales, una explicación conductual del lenguaje y el pensamiento.",
+   "debate": "La ACT tiene muchos ensayos con buenos resultados, en general comparables a otras terapias cognitivo-conductuales y no siempre superiores. La teoría de los marcos relacionales tiene un respaldo experimental menor y es discutida.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si lo que importa es actuar según los propios valores aun con malestar, ¿cómo se descubre qué es lo que de verdad nos importa?"
+}

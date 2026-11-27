@@ -1,0 +1,24 @@
+{
+ "autor": "Bandura",
+ "preguntas": [
+  {
+   "enigma": "Tu hijo de cuatro años te dice una mala palabra que jurás que nunca le enseñaste. Resulta que la escuchó una sola vez, en el auto, cuando alguien te cruzó.",
+   "p": "¿Cómo aprendió algo que nadie le explicó ni le premió?",
+   "opciones": ["Los chicos tienen una tendencia innata a decir malas palabras", "Aprendió mirando qué pasaba después de que la dijeron, sin haberla practicado", "Solo aprende lo que se le repite muchas veces o se le premia"],
+   "r": "Bandura sostuvo que aprendemos observando a otros, que funcionan como modelos, y mirando las consecuencias de lo que hacen. No hace falta vivir cada experiencia ni recibir un premio para incorporar una conducta. Lo llamó aprendizaje por observación.",
+   "como": "Lo puso a prueba a comienzos de los años sesenta con el famoso experimento del muñeco Bobo: chicos que veían a un adulto pegarle al muñeco tendían a imitarlo, incluso con las mismas palabras, y los que no lo veían mucho menos.",
+   "debate": "El muñeco Bobo se suele citar de más: mostró imitación en un laboratorio, con un muñeco hecho para recibir golpes, y no prueba por sí solo que las pantallas o los videojuegos causen violencia en la vida real. Ese debate sigue abierto.",
+   "seccion": "Sus conceptos fundamentales"
+  },
+  {
+   "enigma": "Hay una persona que lleva meses sin salir de su casa y todos le dicen «animate, salí». Cuanto más se lo dicen, menos puede.",
+   "p": "¿Qué haría falta para que se anime de verdad?",
+   "opciones": ["Que alguien le dé un buen empujón de motivación", "Que empiece por algo tan chico que pueda lograrlo, y así descubra que puede", "Que entienda por qué le pasa, y de ahí le sale solo"],
+   "r": "Para Bandura lo que creemos que podemos hacer, la autoeficacia, cambia lo que intentamos, cuánto aguantamos y cómo nos sentimos. Se construye con logros propios, viendo a otros parecidos lograrlo, con el aliento de otros y con cómo leemos las reacciones de nuestro cuerpo.",
+   "como": "Estudió a personas con fobia a las serpientes y vio que dividir la tarea en pasos graduales y acompañados aumentaba la confianza y reducía el miedo.",
+   "debate": "La autoeficacia tiene mucha investigación, pero es específica de cada tarea y no es lo mismo que autoestima u optimismo. Y creer que uno puede no alcanza si el contexto es injusto o faltan recursos.",
+   "seccion": "Un ejemplo de todos los días"
+  }
+ ],
+ "abierta": "Hoy los chicos tienen modelos en pantallas que nadie imaginaba en los años sesenta. ¿Cuánto de lo que ven se vuelve conducta y cuánto queda en la pantalla? La ciencia todavía no lo cerró."
+}

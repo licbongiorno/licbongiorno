@@ -1,0 +1,24 @@
+{
+ "autor": "Marco Aurelio",
+ "preguntas": [
+  {
+   "enigma": "Sabés que hoy te vas a cruzar con un compañero de trabajo que suele interrumpirte. Todavía no pasó, pero ya estás de mal humor.",
+   "p": "¿Qué podés hacer antes de que pase?",
+   "opciones": ["Nada, hay que ver cómo viene y reaccionar", "Prepararte de antemano, recordando qué querés hacer cuando pase", "Evitarlo todo lo posible"],
+   "r": "En las *Meditaciones* Marco Aurelio vuelve una y otra vez sobre unas pocas ideas, como quien practica un movimiento hasta que sale solo. Una es anticipar: no esperar que el otro cambie, sino prepararse y recordar qué quiere uno hacer cuando ocurra.",
+   "como": "Escribió para sí mismo, en griego y sin intención de publicar, durante campañas en la frontera del Danubio, entre las obligaciones del gobierno. Para un estoico la filosofía es una manera de vivir más que una doctrina para discutir.",
+   "debate": "Su relación con la terapia cognitiva es de afinidad e influencia, no de equivalencia. Los programas de estoicismo aplicado son más recientes y su respaldo es todavía preliminar; el estoicismo tampoco pide reprimir lo que se siente.",
+   "seccion": "Una práctica antes que una doctrina"
+  },
+  {
+   "enigma": "Un hecho te molesta, y cuando lo pensás bien notás que gran parte del malestar viene de la historia que le agregaste.",
+   "p": "¿Qué te perturba más, lo que pasó o lo que pensás de eso que pasó?",
+   "opciones": ["Lo que pasó, claramente", "Lo que pienso sobre lo que pasó", "Las dos cosas pesan igual y no se separan"],
+   "r": "Marco Aurelio proponía ver las cosas como son: un hecho es un dato, y el juicio y la historia que le agregamos son otra cosa. Separarlos cambia lo que sentimos.",
+   "como": "Había leído las *Disertaciones* de Epicteto, que le prestó su maestro Rústico, y lo cita en sus *Meditaciones*. Gobernó en tiempos de guerra y de peste, y esas ideas le servían como ejercicio privado para actuar mejor.",
+   "debate": "Los terapeutas cognitivos como Ellis y Beck reconocieron a los estoicos como antecedente. Usado como consigna para no quejarse de nada, puede volverse evitación emocional: cuando algo duele de verdad, hablarlo y pedir ayuda también es obrar bien.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "Es fácil nombrar el hecho sin el comentario cuando el problema es chico. ¿Se puede hacer lo mismo cuando lo que pasó duele de verdad?"
+}

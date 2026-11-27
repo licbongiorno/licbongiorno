@@ -1,0 +1,24 @@
+{
+ "autor": "Montero",
+ "preguntas": [
+  {
+   "enigma": "En un barrio, el agua llega dos veces por semana. Un grupo de vecinas se organiza: averiguan a quién reclamar, consiguen datos, negocian. El agua mejora un poco, y ellas cambian bastante más.",
+   "p": "¿Qué es más importante: que se solucione el problema o que la gente se transforme al solucionarlo?",
+   "opciones": ["Que se solucione el problema, lo demás es un extra", "Que la gente se transforme, porque eso queda para siempre", "Las dos cosas van juntas y una alimenta a la otra"],
+   "r": "Montero definió el fortalecimiento como el proceso mediante el cual los miembros de una comunidad desarrollan conjuntamente capacidades y recursos para controlar su situación de vida, transformando su entorno y transformándose a sí mismos. Para la psicología comunitaria latinoamericana ese segundo cambio es tan importante como el primero.",
+   "como": "Lo sistematizó a partir de notas de campo en comunidades de Caracas entre 1992 y 2000 y de una disciplina nacida en los años setenta, nutrida por la educación popular de Freire y la investigación acción participativa. Prefería «fortalecimiento» al anglicismo empowerment.",
+   "debate": "Los resultados de una intervención comunitaria son difíciles de medir y de comparar, porque cada comunidad es distinta y el cambio buscado incluye cosas como la conciencia o la organización. El propio Montero reconoce obstáculos y conflictos, lejos de una visión idealizada de «la comunidad».",
+   "seccion": "El fortalecimiento"
+  },
+  {
+   "enigma": "Un hombre desocupado llega a consulta con síntomas de depresión y una vergüenza enorme. Se aisló y ya casi no sale.",
+   "p": "¿Alcanza con tratar sus síntomas?",
+   "opciones": ["Sí, el tratamiento individual es lo central", "No: también habría que mirar si participar en algo colectivo le devolvería una experiencia de eficacia", "Depende de cuánto tiempo esté sin trabajo"],
+   "r": "La psicología comunitaria no se hace en el consultorio, pero deja preguntas útiles: tratar los síntomas es necesario, pero también lo es preguntarse si su aislamiento lo priva de redes, y si una cooperativa, un club o una organización barrial podrían devolverle una experiencia de eficacia que ningún ejercicio individual reemplaza. Es el fortalecimiento llevado a escala de una vida.",
+   "como": "Montero insistía en que la comunidad no es un objeto de intervención sino un actor, y el psicólogo, un agente externo que acompaña y aprende. La participación, decía, es lo que permite que una comunidad se fortalezca.",
+   "debate": "Participar puede ser fuente de conflicto, porque redistribuye poder. Y organizarse con otros puede hacer mucho bien, pero no reemplaza la atención cuando el sufrimiento es intenso.",
+   "seccion": "Qué queda para la clínica"
+  }
+ ],
+ "abierta": "¿Cómo se mide si una comunidad se fortaleció sin reducirlo a cifras? Es una pregunta abierta para la psicología comunitaria."
+}

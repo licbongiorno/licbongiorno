@@ -1,0 +1,24 @@
+{
+ "autor": "Uznadze",
+ "preguntas": [
+  {
+   "enigma": "Bajás una escalera a oscuras y creés que falta un escalón. El pie golpea el piso antes de lo previsto y te quedás con un sobresalto.",
+   "p": "¿Cómo supo tu cuerpo qué esperar sin que lo pensaras?",
+   "opciones": ["Fue un reflejo puramente físico, sin nada mental", "Se había preparado antes de que pensaras, y esa preparación tiñe lo que percibís", "Fue una distracción tuya, nada más"],
+   "r": "Uznadze llamó ustanovka (actitud o disposición) a un estado especial de preparación para una acción, que se forma antes de la conciencia. No es un pensamiento ni una emoción: es una orientación de la persona entera. Lo que percibimos depende de la disposición que traemos, y esa disposición se arma sin que nos demos cuenta.",
+   "como": "Con el experimento de las esferas: a una persona con los ojos tapados se le dan dos esferas del mismo peso pero de distinto tamaño, una en cada mano. Después se las cambian por dos idénticas de tamaño intermedio, y no las siente iguales: la mano «se preparó» para un tamaño y juzga lo nuevo desde ahí.",
+   "debate": "El fenómeno básico se replicó en distintos laboratorios y épocas. Más discutible es la teoría como explicación general de la psique: el concepto se volvió tan amplio que casi podía explicarlo todo, y es difícil de poner a prueba. No hay una «terapia de la actitud» con estudios clínicos.",
+   "seccion": "El experimento de las esferas"
+  },
+  {
+   "enigma": "Venís de una discusión y tu pareja te manda un «ok» seco. Lo leés como enojo. Otro día, el mismo «ok» sería solo un «ok».",
+   "p": "¿Dónde está el enojo: en el mensaje o en cómo lo recibís?",
+   "opciones": ["En el mensaje, que tiene un tono que se nota", "En cómo lo recibís, según la disposición con la que llegás", "En una mezcla imposible de separar"],
+   "r": "Para Uznadze la actitud se forma cuando una necesidad se encuentra con una situación concreta y se puede fijar si se repite. Muchas personas sufren también por la disposición con la que llegan a lo que les pasa, y esa disposición se arma con la repetición.",
+   "como": "Estudió esa capa previa a la palabra en el laboratorio, con experimentos de percepción. En la Unión Soviética, donde el psicoanálisis quedó prácticamente vedado, su teoría ofreció una forma de estudiar lo no consciente sin hablar de represión: un inconsciente sin conflicto, una preparación.",
+   "debate": "Hoy la idea de que percibimos según lo que esperamos es central en la psicología cognitiva, pero conviene hablar de parentesco y no de influencia: su obra estaba en georgiano y en ruso, y la mayor parte de esa investigación se hizo sin leerlo.",
+   "seccion": "Cómo se ve en la vida cotidiana"
+  }
+ ],
+ "abierta": "¿Cuánto de lo que percibimos es lo que está ahí y cuánto lo que esperábamos encontrar? La investigación sobre percepción y expectativas sigue abriendo esa pregunta."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Platón",
+ "preguntas": [
+  {
+   "enigma": "Son las dos de la mañana. Sabés que mañana hay que madrugar, querés ver un capítulo más, y una vocecita te reprocha que nunca tenés fuerza de voluntad.",
+   "p": "¿Quién está hablando adentro tuyo?",
+   "opciones": ["Una sola voz: la que realmente querés", "Varias partes de vos con intereses distintos", "Es un truco de la cabeza para justificar lo que ya decidiste"],
+   "r": "Platón describió el alma como un carro con un auriga, la razón, y dos caballos, el ánimo (la fuerza, el coraje, la indignación) y el deseo (los apetitos). Conducir el carro no es eliminar los caballos sino lograr que avancen juntos. Reconocer cuál de las tres partes habla es un primer paso para decidir con más libertad.",
+   "como": "Lo desarrolló en La república y en el Fedro, mirando cómo se organiza un alma y también una ciudad, y comparó las tres partes con las tres clases de una ciudad ideal.",
+   "debate": "Es filosofía, no psicología experimental: la división tripartita es una forma de pensar la vida interior, no un modelo comprobado. Y la razón como jefa es discutible, porque la investigación moderna muestra que sentir informa el decidir.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Alguien se anima a ver las cosas de otro modo, vuelve a contárselo a los suyos y no le creen. Hasta se incomodan con lo que dice.",
+   "p": "¿Por qué cambiar de mirada genera tanta resistencia?",
+   "opciones": ["Porque los demás no tienen interés en aprender", "Porque ver de otra manera es incómodo, en uno y en el entorno", "Porque quien cambió se cree superior"],
+   "r": "En el libro VII de La república, Platón cuenta de prisioneros encadenados en una caverna que toman las sombras de la pared por la realidad. Si alguien sale, el sol lo encandila al principio, y al volver sus compañeros no le creen. Es una imagen sobre el conocimiento y también sobre el cambio personal.",
+   "como": "Platón extrajo estas ideas de su propia experiencia: vio cómo Atenas condenaba a muerte a Sócrates, su maestro, y de esa decepción nació su pregunta política y psicológica.",
+   "debate": "No sabemos con precisión qué es de Sócrates y qué de Platón, porque Sócrates no escribió. Y la ciudad ideal de La república tiene rasgos autoritarios que hoy no suscribiría casi nadie.",
+   "seccion": "El mito de la caverna"
+  }
+ ],
+ "abierta": "Platón pensaba que el conocimiento se busca preguntando junto a otro. ¿Podemos cambiar de mirada solos, o siempre hace falta alguien que nos haga la pregunta?"
+}

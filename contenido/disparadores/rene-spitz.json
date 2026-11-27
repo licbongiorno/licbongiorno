@@ -1,0 +1,24 @@
+{
+ "autor": "Spitz",
+ "preguntas": [
+  {
+   "enigma": "Un bebé está limpio, alimentado y abrigado. Y aun así no prospera.",
+   "p": "¿Qué creés que le falta?",
+   "opciones": ["Más estimulación, juguetes y cosas para mirar", "Algo de su constitución que viene de nacimiento", "Un vínculo estable y presente con alguien que lo cuide"],
+   "r": "René Spitz describió el hospitalismo: bebés institucionalizados que no prosperaban pese a tener cuidados físicos. Lo llamativo era que la alimentación y la higiene estaban cubiertas y, sin embargo, faltaba algo esencial. De su trabajo se desprende que el contacto emocional no es un adorno que se agrega a los cuidados del cuerpo: forma parte de lo que un bebé necesita para desarrollarse.",
+   "como": "Observó bebés en hogares e instituciones, y los filmó. En 1947 presentó la película *Grief: A Peril in Infancy*, que mostraba la reacción de bebés separados de sus madres.",
+   "debate": "Los bebés que observó vivían además en condiciones precarias, con poca estimulación y poco personal, y es difícil separar el peso de cada factor. Eso no quita valor a su señal de alarma, pero obliga a no atribuir todo a una sola causa.",
+   "seccion": "Sus ideas centrales"
+  },
+  {
+   "enigma": "Una bebé de ocho meses que sonreía a cualquiera llora de pronto cuando una vecina se le acerca, y estira los brazos hacia su papá.",
+   "p": "¿Qué creés que significa?",
+   "opciones": ["Un retroceso: se volvió más miedosa", "Mal carácter o falta de costumbre con la gente", "Algo se organizó: ahora distingue a los suyos de los extraños"],
+   "r": "Para Spitz, la angustia ante el rostro de un extraño, hacia el octavo mes, es señal de que algo se organizó: el bebé distingue a quien lo cuida de quien no. La llamó uno de los organizadores del psiquismo, momentos de reorganización del desarrollo. No hay que forzarla a «ser sociable»: alcanza con acercarse de a poco y dejar que ella se acerque.",
+   "como": "Describió tres organizadores a lo largo del primer año y medio: la sonrisa ante un rostro humano hacia el tercer mes, la angustia ante el extraño hacia el octavo y el «no» hacia el año y medio.",
+   "debate": "Los estudios de la época trabajaron con muestras pequeñas y con métodos que hoy no serían los habituales, así que conviene leerlos como puntos de partida históricos y no como pruebas definitivas.",
+   "seccion": "Una escena cotidiana"
+  }
+ ],
+ "abierta": "Hoy sabemos que un bebé necesita un vínculo estable, pero las instituciones y los hospitales siguen discutiendo cómo organizarlo. ¿Cómo se sostiene ese vínculo cuando los cuidadores cambian de turno?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Pávlov",
+ "preguntas": [
+  {
+   "enigma": "Tuviste un accidente en una esquina. Meses después sabés que ya no hay peligro, y aun así el cuerpo se tensa cada vez que pasás por ahí o escuchás una frenada.",
+   "p": "¿Por qué el cuerpo reacciona como si el peligro siguiera ahí?",
+   "opciones": ["Porque no lo superaste del todo y te falta voluntad", "Porque la esquina y el sonido quedaron asociados al susto", "Porque en realidad una parte tuya sigue esperando que pase algo"],
+   "r": "El modelo de Pávlov da un lenguaje para entenderlo: un estímulo neutro que se presentó junto a algo amenazante termina provocando por sí solo la respuesta. Es el condicionamiento clásico. El organismo aprendió una asociación y responde como si el peligro siguiera presente.",
+   "como": "Investigaba la digestión de perros y notó que las secreciones aparecían antes de que llegara la comida. En vez de descartar esa «interferencia», la estudió durante treinta años. En los experimentos usó campanas, pero también metrónomos, timbres y luces.",
+   "debate": "Es un modelo de laboratorio: no alcanza con que dos cosas ocurran juntas, importa si una predice a la otra (Rescorla, 1967), y no todos los miedos se aprenden así, también hay miedos por observación o por lo que nos contaron.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Alguien que le tenía pánico a los ascensores hizo un tratamiento y ya no lo siente. Meses después, en un día de mucho estrés, el miedo reaparece.",
+   "p": "¿Si el miedo se había ido, por qué puede volver?",
+   "opciones": ["Porque el tratamiento no funcionó de verdad", "Porque lo aprendido no se borra: se aprende algo nuevo que compite con lo anterior", "Porque el estrés inventa miedos nuevos de la nada"],
+   "r": "Pávlov describió la extinción: si el estímulo condicionado deja de ir seguido de lo temido, la respuesta se debilita de a poco, pero no se borra del todo y puede reaparecer. Hoy se entiende que la extinción crea un aprendizaje nuevo («acá no pasa nada») que compite con el anterior.",
+   "como": "Lo observó en sus perros, y a partir de ahí las terapias de exposición, uno de los tratamientos más usados para fobias, pánico y estrés postraumático, se apoyan en este modelo.",
+   "debate": "La mayor parte de nuestra vida emocional incluye interpretaciones, memoria y contexto que no caben en una asociación simple. La explicación de Pávlov es una parte del cuadro, no el cuadro entero.",
+   "seccion": "Su influencia en la clínica"
+  }
+ ],
+ "abierta": "Si lo aprendido puede reaprenderse pero no borrarse, ¿cómo se hace para que lo nuevo dure en todos los contextos? Es una de las preguntas abiertas de las terapias de exposición."
+}

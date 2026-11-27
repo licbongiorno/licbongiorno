@@ -1,0 +1,24 @@
+{
+ "autor": "Beck",
+ "preguntas": [
+  {
+   "enigma": "Le escribiste a un amigo y hace dos días que no contesta. En tu cabeza ya se armó la película: «seguro que le molesté».",
+   "p": "¿Por qué ese pensamiento te suena a verdad y no a una simple sospecha?",
+   "opciones": ["Porque en el fondo uno sabe cuándo molesta a los demás", "Porque aparece tan rápido que ni lo revisamos antes de creerlo", "Porque la ansiedad nos hace ver todo peor de lo que es"],
+   "r": "Beck llamó pensamientos automáticos a esas frases rápidas, casi imperceptibles, que aparecen ante una situación y que solemos dar por ciertas sin examinarlas. Propuso tratarlas como hipótesis y no como hechos.",
+   "como": "Era psicoanalista y quiso comprobar con datos las ideas de su escuela sobre la depresión. Lo que encontró en sus pacientes fueron pensamientos negativos que aparecían solos y que ellos tomaban por ciertos.",
+   "debate": "No todo pensamiento negativo es una distorsión: a veces la situación es difícil de verdad. Además, hay críticas a que el modelo pone el foco en el pensamiento individual y puede pasar por alto contextos de injusticia o violencia.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Alguien está muy bajoneado y siente que no vale nada, que todo alrededor es hostil y que nada va a cambiar.",
+   "p": "¿Es un solo sentimiento o hay algo más armado ahí?",
+   "opciones": ["Es una tristeza general que lo tiñe todo por igual", "Son tres miradas distintas, sobre uno, sobre el mundo y sobre el futuro", "Es un problema de carácter que viene de siempre"],
+   "r": "Beck describió la tríada cognitiva: en la depresión el pensamiento se tiñe en tres direcciones, una visión negativa de uno mismo, del mundo y del futuro. Revisar cada eje es parte central del tratamiento.",
+   "como": "Lo fue armando observando y escuchando a pacientes con depresión, y creó escalas para medir síntomas, como el Inventario de Depresión de Beck, de 1961.",
+   "debate": "Un estudio de desmontaje de 1996 mostró que solo activar la conducta, sin trabajar los pensamientos, rendía tanto como la terapia cognitiva completa. Eso abrió la pregunta de cuánto hace falta discutir los pensamientos para mejorar.",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "¿Se mejora cambiando lo que uno piensa, o cambiando lo que uno hace, o las dos cosas se enredan tanto que no se pueden separar?"
+}

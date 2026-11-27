@@ -1,0 +1,24 @@
+{
+ "autor": "May",
+ "preguntas": [
+  {
+   "enigma": "Estás por hablar en una reunión importante y sentís nervios. Otra persona, para no sentir eso, dejó de ir a las reuniones, después a las salidas y después a cualquier lugar donde puedan mirarla.",
+   "p": "¿Son la misma ansiedad, solo que una más intensa?",
+   "opciones": ["Sí, es la misma y solo cambia la cantidad", "No: una acompaña lo que está en juego y la otra hace que la vida se achique", "La primera es normal y la segunda es una enfermedad"],
+   "r": "May distinguía la ansiedad normal, proporcional a la situación y afrontable, de la neurótica, desproporcionada, que se reprime y lleva a evitar. La segunda no es necesariamente más intensa: hace que la vida se achique. Elegir siempre implica renunciar a algo, y por eso trae ansiedad normal.",
+   "como": "Lo pensó desde adentro: en 1942 enfermó de tuberculosis y pasó cerca de dos años internado sin saber si iba a sobrevivir, y leyó a Kierkegaard. Su tesis se publicó como The Meaning of Anxiety (1950).",
+   "debate": "La distinción es una herramienta de comprensión, no una categoría diagnóstica, y no reemplaza una evaluación profesional. Tampoco hay que leerlo como un elogio de la ansiedad: cuando es intensa y sostenida, merece tratamiento.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Evitás algo que te da miedo y sentís alivio enseguida. Pasan los meses y el miedo no baja, sino que parece haber crecido.",
+   "p": "¿Por qué evitar alivia hoy y empeora mañana?",
+   "opciones": ["Porque cada evitación le enseña a tu cabeza que había un peligro real", "Porque el miedo se acumula como una presión que tarde o temprano explota", "Porque la ansiedad crece con el tiempo hagas lo que hagas"],
+   "r": "Para May hay dos caminos ante la ansiedad: afrontarla permite crecer aunque duela, y evitarla alivia en el momento pero con el tiempo achica el mundo en el que uno se mueve.",
+   "como": "Venía de la filosofía existencial europea, que presentó al público estadounidense, y de su propia experiencia de enfermedad. Escribió en la posguerra, con el miedo a la guerra y a la bomba atómica de fondo.",
+   "debate": "La terapia cognitivo-conductual muestra que la evitación mantiene la ansiedad, por eso la exposición gradual es uno de sus recursos más sólidos. Es un camino técnico distinto, pero coincide con May. Sus ideas de lo daimónico o el mito tienen poca investigación propia.",
+   "seccion": "En la práctica clínica hoy"
+  }
+ ],
+ "abierta": "May pensaba que la ansiedad es parte de estar vivo. ¿Dónde está el límite entre la ansiedad que acompaña a crecer y la que merece tratamiento? Todavía no hay una línea clara."
+}

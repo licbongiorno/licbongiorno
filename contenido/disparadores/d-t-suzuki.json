@@ -1,0 +1,24 @@
+{
+ "autor": "Suzuki",
+ "preguntas": [
+  {
+   "enigma": "Es de noche, estás repasando una conversación que salió mal y tu cabeza no para de armar réplicas que nunca vas a decir.",
+   "p": "¿Qué hace falta para que ese círculo se detenga?",
+   "opciones": ["Pensarlo mejor hasta encontrar la respuesta correcta", "Distraerte con otra cosa hasta que se te pase", "Notar un momento en que estás solo en lo que hacés, como lavar una taza, sin la voz que comenta"],
+   "r": "Suzuki explicaba el zen como una experiencia directa, más allá de las palabras. Para esa mirada, pensar en círculos es la mente dividida entre quien observa y lo observado. Su invitación no es analizar mejor sino notar los momentos en que esa división se afloja: comer, caminar, barrer.",
+   "como": "Se formó practicando en el templo Engaku-ji, en Kamakura, con el maestro Shaku Sōen, y escribió en inglés para lectores occidentales tratando de explicar lo que el zen presenta como más allá de las categorías.",
+   "debate": "El zen no es una psicoterapia, y su práctica intensiva no sirve para cualquiera en cualquier momento, sobre todo en una crisis. Hoy lo que se estudia con métodos científicos son prácticas de atención como la meditación, con resultados que varían.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "En 1957, cincuenta psicoanalistas y psiquiatras viajaron a Cuernavaca, en México, a escuchar durante días a un japonés de ochenta y seis años hablar de koans.",
+   "p": "¿Qué podían querer de él unos psicoanalistas?",
+   "opciones": ["Un método nuevo para tratar la ansiedad de sus pacientes", "Una forma distinta de pensar qué es despertar o hacer consciente algo", "Simple curiosidad exótica por Oriente"],
+   "r": "Fromm, Horney y Jung encontraron en el zen ideas cercanas a hacer consciente lo inconsciente. Jung comparó el satori, esa comprensión súbita, con procesos de transformación del inconsciente. Del seminario salió el libro Budismo zen y psicoanálisis (1960).",
+   "como": "Fromm lo invitó a su casa de Cuernavaca, y Horney ya había viajado con Suzuki a Japón en 1952 para visitar monasterios zen.",
+   "debate": "Los paralelos entre zen y psicoanálisis son analogías sugerentes, no equivalencias. Además, algunos historiadores criticaron la imagen idealizada del zen que Suzuki difundió y sus escritos de los años de guerra.",
+   "seccion": "Qué tomó la psicología"
+  }
+ ],
+ "abierta": "El satori es una experiencia que la tradición describe pero que no se puede medir. ¿Puede la ciencia estudiar algo que por definición se vive y no se piensa?"
+}

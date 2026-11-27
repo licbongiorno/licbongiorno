@@ -1,0 +1,24 @@
+{
+ "autor": "Varela",
+ "preguntas": [
+  {
+   "enigma": "Un neurocientífico estudia el cerebro de otros durante el día y a la noche se sienta a meditar. Se pregunta si lo que ve desde afuera puede dialogar con lo que ve en su propia experiencia.",
+   "p": "¿Puede la ciencia tomar en serio lo que alguien siente en primera persona?",
+   "opciones": ["No, lo subjetivo no es un dato científico", "Sí, si cada fuente informa a la otra", "Solo si se reduce a lo que se puede medir en el cerebro"],
+   "r": "Varela propuso la neurofenomenología: unir los relatos de experiencia en primera persona con los datos de la neurociencia, de modo que cada fuente informe a la otra. Es un programa metodológico para abordar el llamado problema difícil de la conciencia sin dejar afuera lo vivido.",
+   "como": "Lo planteó en 1996 en el Journal of Consciousness Studies, a partir de su doble recorrido de biólogo y de practicante de meditación, y del diálogo con el budismo que impulsó desde el Mind and Life Institute, fundado en 1987.",
+   "debate": "Es un marco de investigación, no una conclusión cerrada: no resuelve por sí solo el problema difícil de la conciencia. Y el modo en que cada lector valora el diálogo con el budismo no exige adherir a ninguna religión ni descartarla.",
+   "seccion": "Neurofenomenología"
+  },
+  {
+   "enigma": "Mirás una taza de café sobre la mesa. Parece que tu cerebro simplemente copia lo que hay afuera, como una cámara.",
+   "p": "¿Conocer es copiar el mundo?",
+   "opciones": ["Sí, el cerebro arma una representación fiel de lo de afuera", "No, es algo que surge de la interacción entre un cuerpo y su entorno", "Depende de la persona y de su cultura"],
+   "r": "En De cuerpo presente (1991), Varela, Thompson y Rosch propusieron una cognición encarnada y enactiva: conocer no sería representar un mundo ya dado, sino algo que surge de la interacción entre un organismo con cuerpo y su entorno.",
+   "como": "Partió de la idea de autopoiesis que desarrolló con su maestro Humberto Maturana: los seres vivos son sistemas que se producen y se mantienen a sí mismos.",
+   "debate": "La cognición enactiva es una propuesta teórica, no una conclusión cerrada, y la aplicación de la autopoiesis a la psicología o a lo social es materia de debate.",
+   "seccion": "De cuerpo presente"
+  }
+ ],
+ "abierta": "Si conocer surge de la interacción entre cuerpo y mundo, ¿qué pasa con una mente que estuviera en otro tipo de cuerpo, o sin cuerpo? Es una pregunta que la ciencia cognitiva sigue discutiendo."
+}

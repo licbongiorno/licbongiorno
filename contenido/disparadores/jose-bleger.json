@@ -1,0 +1,24 @@
+{
+ "autor": "Bleger",
+ "preguntas": [
+  {
+   "enigma": "En la primera sesión casi todos preguntan cosas prácticas: cuándo, dónde, cuánto dura, cuánto cuesta. Parecen detalles de organización.",
+   "p": "¿Son solo trámites, o esas condiciones tienen más peso del que parece?",
+   "opciones": ["Son solo trámites, lo importante es lo que se habla", "Son la base estable que hace posible todo lo demás", "Son una manera de poner límites al terapeuta"],
+   "r": "Bleger llamó encuadre al conjunto de constantes del tratamiento: espacio, tiempo, horarios, honorarios, roles. Distinguió el proceso, que cambia, del encuadre, que permanece, y señaló que el encuadre hace posible el proceso justamente porque no varía.",
+   "como": "Lo planteó en «Psicoanálisis del encuadre psicoanalítico», su trabajo más difundido en la clínica, con versión en inglés de 1967. Partió de observar qué pasaba en los tratamientos cuando esas condiciones se modificaban.",
+   "debate": "Es una idea muy aceptada en la formación clínica, pero no es una hipótesis que se mida con facilidad: es un marco para pensar. Un profesional que cuida el encuadre no está siendo rígido, pero tampoco hay que convertirlo en dogma.",
+   "seccion": "Sus tres aportes"
+  },
+  {
+   "enigma": "Avisan de un cambio de horario a último momento y alguien reacciona con una bronca o una angustia desproporcionada.",
+   "p": "¿Qué dice esa reacción exagerada?",
+   "opciones": ["Que la persona es rígida y poco flexible", "Que algo más primitivo apoyado en ese horario se movió", "Que tuvo un mal día y nada más"],
+   "r": "Para Bleger, las constantes del encuadre pueden alojar aspectos muy primitivos de la persona. Mientras no cambia, ese fondo queda en silencio; cuando algo lo altera, puede aparecer con fuerza lo que estaba depositado ahí.",
+   "como": "Su teoría se apoya en *Simbiosis y ambigüedad* (1967): en el origen de la vida psíquica hay un estado de indiferenciación entre la persona y su entorno que no desaparece del todo con el crecimiento.",
+   "debate": "Es una lectura psicoanalítica: algunas reacciones también se explican de maneras más simples, por ejemplo un contratiempo real. Por eso conviene conversar sobre lo que se sintió en vez de dar por hecho el sentido.",
+   "seccion": "Qué quedó en pie"
+  }
+ ],
+ "abierta": "¿Cuánto de lo que damos por sentado en una relación, en un trabajo o en una rutina funciona como un fondo silencioso que nos sostiene sin que lo notemos?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Bateson",
+ "preguntas": [
+  {
+   "enigma": "Una pareja discute siempre igual. Ella dice «te vas porque me quejo». Él dice «me quejo yo porque te vas».",
+   "p": "¿Quién empezó?",
+   "opciones": ["Ella, porque el reclamo es lo que enciende todo", "Él, porque su distancia es lo que genera el reclamo", "Ninguno en particular: cada cual cree que el otro empieza"],
+   "r": "Bateson describiría un circuito donde cada conducta es causa y efecto de la otra y nadie es el culpable. Esta forma de mirar ayuda a cambiar la pregunta de «quién empezó» a «cómo se arma este baile».",
+   "como": "Venía de la zoología, la antropología y la cibernética: el estudio de cómo se regulan los sistemas con información que vuelve. Aplicó esa idea a la comunicación humana en un proyecto de investigación en Palo Alto.",
+   "debate": "Él nunca fue terapeuta y sus textos son difíciles. Conviene leerlos como ideas para pensar y no como técnicas, y sirven menos cuando hay violencia real, donde sí hay un responsable.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Alguien te dice «acercate» con la boca, pero con el cuerpo se aleja. No podés irte ni preguntarle qué quiso decir.",
+   "p": "¿Qué hacés con dos mensajes que se contradicen?",
+   "opciones": ["Le hacés caso a las palabras, que son lo explícito", "Le hacés caso al cuerpo, que no miente", "Quedás atrapado, porque cualquier respuesta parece un error"],
+   "r": "Es el doble vínculo: dos mensajes contradictorios, en niveles distintos, en una relación importante de la que no se puede salir y sin poder señalar la contradicción. Cualquier respuesta resulta un error.",
+   "como": "El concepto lo presentó en 1956 el grupo de Palo Alto, con Bateson, Jay Haley, John Weakland y Don Jackson, en un proyecto sobre comunicación.",
+   "debate": "La hipótesis del doble vínculo como causa de la esquizofrenia no se confirmó, y llevó a culpar injustamente a familias, sobre todo a madres. Hoy se usa solo para describir mensajes contradictorios en un vínculo.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si la mente no está solo dentro de la cabeza sino en las relaciones, ¿dónde empieza y dónde termina un problema que parece de una sola persona?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Hipócrates",
+ "preguntas": [
+  {
+   "enigma": "La palabra «melancolía» quiere decir, literalmente, «bilis negra». Hoy nadie piensa que la tristeza prolongada venga de un líquido oscuro en el cuerpo.",
+   "p": "¿Por qué los griegos explicaban el ánimo con líquidos del cuerpo?",
+   "opciones": ["Porque no tenían otra forma de pensar y era pura superstición", "Porque buscaban explicar por causas naturales por qué cada persona siente distinto", "Porque lo habían comprobado midiendo esos líquidos"],
+   "r": "El tratado «Sobre la naturaleza del hombre» propuso cuatro humores: sangre, flema, bilis amarilla y bilis negra. La salud sería su buena mezcla, y la enfermedad el exceso, la falta o la separación de alguno. La bilis negra se asoció con el abatimiento prolongado.",
+   "como": "El Corpus hipocrático, de los siglos V y IV a. C., tuvo un mérito histórico: intentó explicar las enfermedades por causas naturales y no por castigos divinos. Es obra de varios autores, no solo de Hipócrates. Nadie midió los humores: la teoría no tenía forma de ponerse a prueba.",
+   "debate": "No existen los cuatro humores ni una bilis negra que cause la melancolía. Hoy la palabra sobrevive en psiquiatría con otro sentido: un especificador de «características melancólicas» en la depresión, que describe síntomas.",
+   "seccion": "La melancolía"
+  },
+  {
+   "enigma": "Alguien dice que es «sanguíneo», otra persona que es «flemática» o «melancólica». Estas etiquetas siguen circulando como si describieran el carácter.",
+   "p": "¿De dónde vienen los cuatro temperamentos y qué quedó de ellos?",
+   "opciones": ["Son una clasificación científica vigente de los tipos de personalidad", "Surgieron de la medicina antigua y después se desprendieron del cuerpo", "Son un invento reciente de los tests de internet"],
+   "r": "Galeno describió mezclas de caliente, frío, húmedo y seco que explicarían el cuerpo y el carácter de cada persona; el esquema de cuatro temperamentos se consolidó más adelante. Cuando la medicina abandonó la teoría, los temperamentos se desprendieron del cuerpo y quedaron como una manera de hablar del carácter.",
+   "como": "Kant los trató como disposiciones del carácter, Wundt los reordenó en dos dimensiones y Eysenck los convirtió en un modelo de extraversión y neuroticismo cuyos cuadrantes se parecían a los cuatro clásicos.",
+   "debate": "La psicología actual conserva extraversión y neuroticismo en el modelo de los cinco grandes factores, pero es continuidad de preguntas, no de teoría: los rasgos se miden con cuestionarios y los humores nunca se midieron. Clasificar a alguien en uno de cuatro tipos no tiene respaldo.",
+   "seccion": "Una herencia larguísima"
+  }
+ ],
+ "abierta": "¿Por qué cada persona siente y reacciona distinto? La respuesta de los humores quedó atrás, pero la pregunta de cuánto es cuerpo, cuánto vida y cuánto azar sigue abierta."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Mannoni",
+ "preguntas": [
+  {
+   "enigma": "En la escuela le dicen a un chico «este no puede». La maestra baja sus expectativas, los compañeros lo tratan como el que no puede y en su casa empiezan a esperar poco.",
+   "p": "¿Qué hace esa frase, además de describirlo?",
+   "opciones": ["Nada: simplemente describe una dificultad real", "Lo ubica en un lugar que puede volverse el único que tenga", "Lo protege de exigencias que no podría cumplir"],
+   "r": "Mannoni pensaba que lo que se dice de un niño, y lo que no se dice, forma parte de su historia. Una etiqueta puede ordenar la vida de una familia y reducir lo que se le ofrece al chico. Su invitación no era negar las dificultades sino no dejar que tapen al niño.",
+   "como": "Lo pensó trabajando como psicoanalista en París, en el hospital Trousseau junto a Françoise Dolto, y en 1964 publicó El niño retardado y su madre, donde no mira al niño aislado sino en su vínculo con quien lo cría.",
+   "debate": "Poner el foco en el vínculo con la madre puede leerse, mal, como una forma de culpar a las familias, y hoy se sabe que muchas dificultades tienen causas que ninguna crianza explica. Mirar el vínculo no es atribuirle la causa de todo.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Una escuela para chicos con graves dificultades puede ser un lugar cerrado donde se los aparta del mundo, o un lugar abierto donde la vida cotidiana y la palabra tienen peso.",
+   "p": "¿Una institución es parte del problema o de la solución?",
+   "opciones": ["Solo es un lugar neutro donde se aplica un tratamiento", "Puede reproducir la exclusión o abrir otras posibilidades", "Lo mejor es que la institución sea lo más cerrada y protegida posible"],
+   "r": "Para Mannoni, una escuela, un hospital o un servicio pueden reproducir la exclusión o abrir otras posibilidades. En Bonneuil la apuesta era que los chicos con graves dificultades no fueran apartados sino que tuvieran un lugar para vivir.",
+   "como": "En 1969 fundó y dirigió la Escuela Experimental de Bonneuil, que cuestionaba la segregación, por lo que se la vincula con la antipsiquiatría. Escribió en una época en que a estos chicos se los solía alojar en instituciones cerradas, lejos de sus familias.",
+   "debate": "Su enfoque psicoanalítico convive hoy con otras herramientas de evaluación e intervención, y conviene no ver oposición donde puede haber complemento. La discusión sobre el lugar de estos chicos en la escuela y la comunidad sigue abierta.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "Hoy hablamos de inclusión escolar y derechos de las personas con discapacidad. ¿Alcanza con abrir las puertas, o hace falta cambiar también lo que esperamos de cada chico?"
+}

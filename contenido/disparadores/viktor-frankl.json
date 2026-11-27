@@ -1,0 +1,24 @@
+{
+ "autor": "Frankl",
+ "preguntas": [
+  {
+   "enigma": "Hay jubilados que, el día que dejan de trabajar, sienten que se les apagó la luz. No les falta dinero ni salud.",
+   "p": "¿Qué creés que les falta?",
+   "opciones": ["Más compañía y vida social", "Distracciones para llenar el tiempo", "Algo para lo cual levantarse"],
+   "r": "Frankl lo llamaba vacío existencial y creía que se parece más al aburrimiento que a la tristeza. Para él, lo que más nos mueve no es el placer ni el poder, sino encontrar un sentido: la voluntad de sentido. Una pregunta de logoterapia no apunta a una causa del pasado sino a lo que la vida pide hoy: ¿a quién necesita alguien de mí?, ¿qué tarea me espera?",
+   "como": "Lo desarrolló en Viena, desde sus años de consejería a jóvenes y su práctica como neurólogo y psiquiatra, y lo puso a prueba en su propia vida durante los campos de concentración.",
+   "debate": "Buscar sentido no reemplaza el tratamiento de una depresión, y exigirle sentido a alguien en pleno duelo puede resultar cruel. La logoterapia funciona mejor como una invitación que como una tarea.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "A veces la vida te pone frente a algo que no tiene remedio: una pérdida, una enfermedad, una situación que no vas a poder cambiar.",
+   "p": "Si no podés cambiar la situación, ¿qué te queda?",
+   "opciones": ["Nada: solo resignarte", "Distraerte para no sentirlo", "La libertad de elegir la actitud con la que la afrontás"],
+   "r": "Frankl distinguió el sufrimiento que se puede evitar, y que hay que evitar, del que no tiene remedio. Sobre este último dijo que no somos libres de las circunstancias, pero sí de tomar una posición frente a ellas: incluso en un campo de concentración queda la libertad de elegir la actitud.",
+   "como": "Lo dijo alguien que lo había vivido: deportado en 1942, pasó por Theresienstadt, Auschwitz y campos que dependían de Dachau, y perdió a su padre, su madre, su hermano y su esposa. En pocos días dictó *El hombre en busca de sentido* al ser liberado.",
+   "debate": "Frankl contó su experiencia, no hizo un estudio: de su testimonio no se puede deducir que «quien tiene un sentido sobrevive», y él mismo reconoció el papel del azar. Pensar eso sería injusto con quienes murieron.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Hay buena evidencia de que tener sentido en la vida se asocia con bienestar, pero menos sobre la logoterapia clásica como método completo. ¿Se puede enseñar a encontrar sentido, o solo acompañar a que cada uno lo encuentre?"
+}

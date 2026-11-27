@@ -1,0 +1,24 @@
+{
+ "autor": "Bajtín",
+ "preguntas": [
+  {
+   "enigma": "Tenés que decidir si aceptás un trabajo en otra ciudad. Cuando lo pensás a solas, la cabeza se llena de voces: una te dice que no te arriesgues, otra que es ahora o nunca, y otra, que no sabés de quién es, te recuerda la última vez que te fuiste.",
+   "p": "¿Esas voces son «una sola vos» que duda, o son otra cosa?",
+   "opciones": ["Soy una sola persona con ideas encontradas", "Son distintas partes mías que pelean, y una tiene que ganar", "Son voces, algunas heredadas de otros, que conviven y dialogan dentro mío"],
+   "r": "Para Bajtín, la conciencia no es un recinto cerrado: se forma y se sostiene en relación, y la palabra que usamos llega «habitada», cargada de intenciones ajenas. Hubert Hermans tomó esa idea y propuso el yo dialógico: un conjunto de posiciones del yo («yo como hija», «yo como profesional») que cooperan, discuten o quedan silenciadas.",
+   "como": "Bajtín lo describió leyendo a Dostoievski, en cuyas novelas conviven voces y conciencias independientes que no se reducen a la del autor, algo que llamó polifonía. Hermans lo combinó con el pragmatismo de William James en un artículo de 1992 en American Psychologist.",
+   "debate": "Bajtín no fue psicólogo ni hizo investigación empírica: sus ideas son filosóficas y literarias. El yo dialógico tiene investigación propia, pero es un marco amplio más que un tratamiento con eficacia probada.",
+   "seccion": "La huella de Bajtín en la psicología"
+  },
+  {
+   "enigma": "Alguien te dice «vos siempre fuiste así» y te resume en una sola palabra: el que se enoja, la que se retrae, el que no cambia.",
+   "p": "¿Qué se pierde cuando alguien nos reduce a una definición cerrada?",
+   "opciones": ["Nada: a veces las definiciones aciertan", "Un poco de orgullo, pero se pasa", "La posibilidad de responder: nadie dijo todavía la última palabra sobre nadie"],
+   "r": "Bajtín hablaba de la inconclusividad de la persona: nadie dijo todavía la última palabra sobre nadie. Reducir a alguien a un objeto, a una definición cerrada, es para él una forma de violencia, porque le quita la posibilidad de responder. Un enfoque como el Diálogo Abierto finlandés intenta que todas las voces presentes sean escuchadas, sin imponer una sola versión de lo que pasa.",
+   "como": "Lo pensó desde la literatura, con novelas que dejan a sus personajes abiertos, y desde su propia vida, marcada por la enfermedad, la detención y el destierro. El Diálogo Abierto, con Seikkula y su equipo, toma explícitamente su dialogismo y su polifonía.",
+   "debate": "El Diálogo Abierto tiene resultados alentadores en estudios finlandeses, pero una revisión de 2019 de 33 estudios concluyó que la mayoría eran pequeños, cualitativos o de diseño débil, y que muchos los habían hecho los propios creadores. Faltan ensayos más rigurosos.",
+   "seccion": "Los conceptos clave"
+  }
+ ],
+ "abierta": "Si el yo es un coro de voces y no una unidad, ¿qué hace que sintamos que seguimos siendo la misma persona? La pregunta sigue abierta entre la filosofía, la literatura y la psicología."
+}

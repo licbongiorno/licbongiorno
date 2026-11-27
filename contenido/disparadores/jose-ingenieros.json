@@ -1,0 +1,24 @@
+{
+ "autor": "Ingenieros",
+ "preguntas": [
+  {
+   "enigma": "Un chico aprende a distinguir colores, después a nombrar cosas, después a razonar. Es como si algo en su cabeza creciera, se complejizara y se ordenara con los años.",
+   "p": "¿La mente se puede estudiar como se estudia el crecimiento de un ser vivo?",
+   "opciones": ["No: la mente es del orden del espíritu y de la filosofía", "Solo en parte: hay cosas que se miden y otras que no", "Sí: como una historia natural, que nace, se desarrolla y se complejiza"],
+   "r": "Ingenieros sostuvo, en su tratado de 1911, que las funciones psíquicas, desde la sensación hasta el pensamiento, se pueden estudiar como una historia natural: nacen, se desarrollan y se complejizan según leyes biológicas, como cualquier proceso de los seres vivos. La psicología, decía, es una ciencia natural y no un capítulo de la filosofía.",
+   "como": "Era médico, especializado en psiquiatría y criminología, y leía a los europeos, incluido el laboratorio de Wundt. Dictó cursos de psicología en la UBA desde 1908 y escribió un manual sistemático para el público de habla hispana, cuando la carrera argentina no se crearía hasta 1957.",
+   "debate": "Su obra cargaba con el positivismo de su época, con jerarquías entre grupos humanos y una criminología de la «degeneración» que hoy se leen como un capítulo de la historia de la psiquiatría que no se quiere repetir. La investigación posterior refutó esas ideas.",
+   "seccion": "Psicología genética y Principios de psicología"
+  },
+  {
+   "enigma": "Conocés gente que hace siempre lo que se espera, que repite las opiniones de su entorno y que evita cualquier idea propia que la distinga del resto.",
+   "p": "¿Es una cuestión de carácter, de educación, o de otra cosa?",
+   "opciones": ["De carácter: así nacen algunas personas", "De la sociedad en que vivimos, que premia la obediencia", "Una pregunta que se presta a juzgar a las personas más que a entenderlas"],
+   "r": "En El hombre mediocre (1913), Ingenieros contrasta a quienes viven repitiendo lo que se espera de ellos, el «hombre mediocre» o gregario, con quienes se animan a pensar, crear y tener ideales. No es un libro de psicología sino un ensayo moral, escrito con el entusiasmo de la juventud y muy leído entre estudiantes de toda América Latina.",
+   "como": "Lo escribió con las ideas de su época y con mucha psicología popular de entonces, más como literatura de ideas con juicios de valor marcados que como investigación.",
+   "debate": "La división del mundo entre mediocres y superiores se parece demasiado a una jerarquía de personas, y en otras obras Ingenieros sostuvo ideas racistas habituales entre los intelectuales de su tiempo. Eso no se justifica porque fuera común: causó daño. Por eso su lugar en la historia es doble.",
+   "seccion": "El hombre mediocre"
+  }
+ ],
+ "abierta": "¿Cómo leer a una figura fundadora de nuestra psicología sin idealizarla y sin descartarla? Es una pregunta que la historia de las ideas todavía nos hace, en la Argentina y en cualquier lugar."
+}

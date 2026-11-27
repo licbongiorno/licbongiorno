@@ -1,0 +1,24 @@
+{
+ "autor": "Lowen",
+ "preguntas": [
+  {
+   "enigma": "Alguien dice «estoy bien» con los hombros levantados, la respiración cortita y la mandíbula apretada.",
+   "p": "¿Qué dice realmente esa persona?",
+   "opciones": ["Lo que dice con palabras, el cuerpo es solo un hábito", "El cuerpo cuenta algo que la persona todavía no puede decir", "Está nerviosa por la situación del momento, nada más"],
+   "r": "Para Lowen el cuerpo no acompaña a la mente: la expresa. Las emociones y los conflictos se muestran en la tensión muscular, la postura y la forma de respirar, y esas tensiones crónicas funcionan como una coraza.",
+   "como": "Estudió con Wilhelm Reich en los años cuarenta y, tras separarse de él, fundó con John Pierrakos un instituto de bioenergética en 1956. Su método se basa en observar respiración, postura y movimiento en la clínica.",
+   "debate": "Sus tipos de carácter son históricos: sirven para pensar, pero no están probados como teoría de la personalidad. Las escuelas que salieron de Reich y de Lowen tienen escasa investigación controlada.",
+   "seccion": "De Reich a la bioenergética"
+  },
+  {
+   "enigma": "Parate un segundo y fijate en tus rodillas: muchas personas las tienen trabadas, como listas para irse.",
+   "p": "¿Qué tendrá que ver cómo apoyás los pies con cómo vivís lo que sentís?",
+   "opciones": ["Nada, es solo una cuestión de postura", "Estar firme en el suelo ayuda a sentirse en contacto con uno mismo", "Es una manera de estar siempre en alerta"],
+   "r": "Lowen decía que el primer paso es sentirse firme. Sin apoyo la persona vive como flotando; con él puede contactar lo que siente y la realidad.",
+   "como": "En sus clases combinaba respiración profunda, ejercicios para sentir los pies y posiciones para sostener la postura, y observaba qué pasaba en el cuerpo cuando aparecía un tema difícil.",
+   "debate": "La idea de una energía que se acumula y se descarga es una metáfora de trabajo, no un hallazgo medido. La psicoterapia corporal en general muestra resultados prometedores pero dispares.",
+   "seccion": "Cómo se trabaja en la práctica"
+  }
+ ],
+ "abierta": "Hoy se estudia la interocepción, la percepción de las señales internas del cuerpo. ¿Hasta qué punto lo que sentimos por dentro moldea lo que sentimos y pensamos?"
+}

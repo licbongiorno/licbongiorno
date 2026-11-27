@@ -1,0 +1,24 @@
+{
+ "autor": "Hafez",
+ "preguntas": [
+  {
+   "enigma": "En la noche más larga del año, alguien piensa en algo que lo preocupa, abre un libro sin mirar y lee en voz alta el poema que le tocó. Todos lo comentan, y de pronto el poema parece hablar justo de eso.",
+   "p": "¿Por qué un verso abierto al azar puede sentirse tan personal?",
+   "opciones": ["Porque el poema realmente anticipa lo que va a pasar", "Es pura casualidad: no significa nada", "Porque un texto ambiguo funciona como una pantalla donde proyectamos nuestra pregunta"],
+   "r": "Desde la psicología, un poema abierto al azar es como un espejo: lo que la persona interpreta dice más de su situación que del texto, y a veces ve algo que estaba ahí y no se había dicho. No hay evidencia de que anticipe el futuro, y el fal-e Hafez tiene valor propio como costumbre familiar que reúne generaciones.",
+   "como": "El fal-e Hafez es una forma de bibliomancia: se formula una intención, se abre el Divan y se lee. Se practica en Yalda, la noche del solsticio de invierno, en Nowruz y cuando alguien debe decidir algo. El ghazal, de versos casi independientes, se presta a esa consulta.",
+   "debate": "Esta es una lectura moderna, no una teoría de Hafez ni de la tradición: quienes lo practican no lo hacen para «proyectar» y no deberían tomar decisiones importantes apoyándose en el poema. Tampoco hay investigación sobre el fal-e Hafez como técnica.",
+   "seccion": "La poesía como espejo"
+  },
+  {
+   "enigma": "Un poema habla de vino, de una taberna y de la persona amada. Una persona lo lee como poesía de amor; otra, como un lenguaje de la experiencia mística, donde el vino es éxtasis y el amado es lo divino.",
+   "p": "¿Cuál de las dos lecturas creés que es la correcta?",
+   "opciones": ["La literal: habla del amor y del vino y nada más", "La mística: todo es una alegoría religiosa", "Las dos: la ambigüedad es parte de la obra"],
+   "r": "Los poemas de Hafez pueden leerse en sentido llano, como poesía amorosa y bebedora, o como lenguaje de la experiencia mística. Los estudiosos discuten desde hace siglos cuánto hay de cada cosa, y esa ambigüedad es parte de la obra, no un defecto que haya que resolver. Una figura recurrente es el rend, un libertino lúcido que desconfía de los que se hacen los santos.",
+   "como": "Del hombre se conoce poco con certeza: nació en Shiraz hacia 1325 y murió allí hacia 1390. Sus ghazal fueron reunidos después de su muerte y se copiaron y se aprendieron de memoria en el mundo persa. Goethe, que lo leyó en traducción, respondió con su Diván de Oriente y Occidente (1819).",
+   "debate": "Abundan las atribuciones falsas de versos que circulan en redes como «de Hafez», y no todas las personas iraníes lo leen o lo consultan; hablar de «el alma persa» como una sola cosa borra esas diferencias.",
+   "seccion": "Una poesía que se deja leer de varias maneras"
+  }
+ ],
+ "abierta": "¿Puede un poema acompañar a alguien en un momento difícil aunque no haya investigación que pruebe que trata algo? La pregunta sigue abierta, entre la experiencia de quienes lo viven y lo que la ciencia puede medir."
+}

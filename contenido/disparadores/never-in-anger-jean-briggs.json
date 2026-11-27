@@ -1,0 +1,24 @@
+{
+ "autor": "Briggs",
+ "preguntas": [
+  {
+   "enigma": "Una antropóloga pasa un invierno tras otro en una carpa y un iglú junto a una familia del Ártico que casi nunca levanta la voz, ni siquiera ante provocaciones que para otros serían graves.",
+   "p": "¿Qué creés que hay detrás de esa calma?",
+   "opciones": ["Frialdad: no se involucran afectivamente", "Reprimen el enojo hasta que explota", "Es algo que se aprende y se valora como señal de madurez"],
+   "r": "Jean Briggs vio que esa contención no era frialdad: la gente se mostraba cariñosa, generosa y juguetona. Una de las ideas centrales de su libro es que esa calma se aprende y se valora como señal de madurez, en un lugar donde la supervivencia dependía de la cooperación.",
+   "como": "Entre 1963 y 1965 vivió alrededor de un año y medio con los utku, en el Ártico canadiense, acogida como una especie de hija adoptiva. Ella misma dejó ver una vez su irritación y la comunidad la apartó un tiempo, con un silencio que le mostró cuánto amenazaba el enojo abierto la convivencia.",
+   "debate": "Briggs no afirmó que no hubiera enojo: subrayó que existía, y lo que cambiaba era cómo se expresaba. Idealizar la «calma inuit» tiene un costo, porque contener no es lo mismo que no sentir.",
+   "seccion": "El título y la tesis"
+  },
+  {
+   "enigma": "Un bebé o un chico chiquito se enoja, llora o pega. Alguien tiene que decidir cómo responder.",
+   "p": "¿Qué creés que hacían los utku?",
+   "opciones": ["Lo castigaban para que aprendiera a controlarse", "Lo ignoraban hasta que se le pasara", "Le tenían mucha paciencia, porque todavía no tenía *isuma*"],
+   "r": "Según Briggs, tener *isuma* es poder pensar, y por tanto no actuar con el impulso. Se adquiere con los años: los bebés y los niños pequeños todavía no la tienen y por eso se los trata con mucha paciencia. Después se los iba guiando con preguntas, bromas y pequeñas pruebas emocionales, no con castigos físicos ni gritos.",
+   "como": "Lo observó en una familia concreta y, en su segundo libro, *Inuit Morality Play* (1998), siguió durante un tiempo a una niña de tres años a quien le planteaban situaciones dramatizadas para que aprendiera a manejar emociones intensas.",
+   "debate": "Es una idea de una cultura, no un concepto psicológico validado. Además retrató a unas pocas familias utku de mediados del siglo XX, no a «los inuit», y esa cultura cambió mucho desde los años sesenta.",
+   "seccion": "Isuma: pensar con juicio"
+  }
+ ],
+ "abierta": "¿Qué aprendemos de los mayores sobre cómo expresar lo que sentimos? ¿Y qué diferencia hay entre expresar un enojo y descargarlo sobre otros?"
+}

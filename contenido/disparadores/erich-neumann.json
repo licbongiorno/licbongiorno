@@ -1,0 +1,24 @@
+{
+ "autor": "Neumann",
+ "preguntas": [
+  {
+   "enigma": "Alguien está por irse de la casa de sus padres. La casa es cálida, cuidada, previsible. Y justamente por eso cuesta tanto dejarla.",
+   "p": "¿Qué creés que hace tan difícil irse?",
+   "opciones": ["Falta de madurez o de ganas de arreglárselas solo", "Miedo a lo que viene, como a cualquier cambio", "Lo mismo que protege también retiene, y irse implica atravesar culpa y miedo"],
+   "r": "Neumann hablaba de la Gran Madre, el arquetipo que da vida, nutre y protege, pero también retiene y devora. Irse implica lo que llamó el combate con el dragón: la culpa, el miedo, la sensación de dejar algo atrás. Mucha gente lo vive sin saberlo en mudanzas, separaciones o en la decisión de no seguir el mandato familiar.",
+   "como": "Reunió imágenes de la Gran Madre de muchas culturas y las leyó con Jung como símbolos de procesos de la psique, además de su trabajo con pacientes como analista en Tel Aviv.",
+   "debate": "La generalización de la Gran Madre a todas las culturas se discute. Su valor es el de un mapa metafórico, no una descripción literal del desarrollo.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "En mitos de muchas culturas aparecen una y otra vez una serpiente que se muerde la cola, una gran madre y un héroe que se va de casa, lucha con un dragón y conquista un tesoro.",
+   "p": "¿Por qué creés que esas historias se repiten tanto?",
+   "opciones": ["Eran formas de entretener y de explicar fenómenos de la naturaleza", "Se copiaron de un pueblo a otro a lo largo de los siglos", "Cuentan, en imágenes, cómo se forma la conciencia"],
+   "r": "Neumann leyó la secuencia de los mitos como un mapa del desarrollo de la conciencia: del uróboros, donde todo está unido, a la Gran Madre, de ahí al héroe que se separa y se afirma, hasta una conciencia capaz de volver a vincularse con lo inconsciente sin perderse.",
+   "como": "Comparó mitos de muchas culturas, con la mirada de la psicología analítica de Jung, para trazar una historia del origen de la conciencia.",
+   "debate": "Se apoya en la idea, hoy abandonada por la biología, de que el desarrollo del individuo repite el de la especie. Además, toma al héroe masculino como modelo de la conciencia, lo que se criticó desde miradas feministas.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Se puede leer un mito como un mapa de la vida interior sin tomarlo como una cronología literal? ¿Qué modelos distintos del héroe harían falta?"
+}

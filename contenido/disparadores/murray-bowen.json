@@ -1,0 +1,24 @@
+{
+ "autor": "Bowen",
+ "preguntas": [
+  {
+   "enigma": "Te mudás lejos de tu familia y cortás el contacto para estar en paz. Pasan los años y cualquier comentario parecido al de ellos te sigue sacando de quicio.",
+   "p": "¿Por qué la distancia no resuelve lo que pasaba?",
+   "opciones": ["Porque no cortaste lo suficiente", "Porque cortar alivia en lo inmediato pero no resuelve la fusión emocional", "Porque la familia es así y no hay forma de cambiar nada"],
+   "r": "Bowen llamó corte emocional a manejar conflictos no resueltos cortando el contacto: alivia en lo inmediato pero no resuelve la fusión. Muchas personas que cortan siguen reaccionando con la misma intensidad, solo que a distancia. Su alternativa era diferenciarse: mantener una posición propia sin cortar el vínculo.",
+   "como": "Lo observó internando durante meses a familias completas en las que un miembro tenía esquizofrenia, en el Instituto Nacional de Salud Mental, y vio que la ansiedad de un miembro se contagiaba al resto. También trabajó sobre su propia familia de origen.",
+   "debate": "Cortar no siempre es patológico: en situaciones de abuso o violencia, tomar distancia puede ser necesario y sano. Además, algunas críticas señalaron que valorar la autonomía puede reflejar un ideal occidental, y que en otras culturas la interdependencia es una fortaleza.",
+   "seccion": "Sus conceptos fundamentales"
+  },
+  {
+   "enigma": "La cena de fin de año. Tu madre hace el mismo comentario sobre tu trabajo que hace diez años, y vos contestás igual que a los quince, con sarcasmo o yéndote.",
+   "p": "¿Qué sería responder distinto sin pelearte ni irte?",
+   "opciones": ["Decirle que se calle de una vez", "Escuchar, decidir qué querés contestar y quedarte en la mesa sin entrar en la pelea", "Ignorarla y cambiar de tema siempre"],
+   "r": "Bowen hablaba de diferenciación del self: distinguir entre lo que uno piensa y lo que siente y mantener una posición propia sin cortar el vínculo. No se trata de ganar, sino de cambiar tu parte del baile, y no suele salir la primera vez.",
+   "como": "Partió de la idea de que la familia funciona como una unidad emocional, y para ver patrones promovió el genograma, un mapa de la familia a lo largo de tres o más generaciones.",
+   "debate": "Existen escalas para medir la diferenciación y varios estudios la asocian con menos ansiedad, pero son sobre todo de correlación. Eso no prueba que su terapia funcione mejor que otras.",
+   "seccion": "Un ejemplo cotidiano"
+  }
+ ],
+ "abierta": "¿Cuánto de lo que repetimos con nuestra familia viene de generaciones anteriores y cuánto lo estamos armando hoy? Es una pregunta que la terapia familiar todavía discute."
+}

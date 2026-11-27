@@ -1,0 +1,24 @@
+{
+ "autor": "Yang",
+ "preguntas": [
+  {
+   "enigma": "Un test de personalidad nacido en Estados Unidos se traduce y se aplica en Pekín, y los resultados no terminan de encajar con cómo las personas se entienden a sí mismas y a sus vínculos.",
+   "p": "¿Una teoría pensada en un lugar sirve igual en otro?",
+   "opciones": ["Sí, la mente humana es la misma en todos lados y solo hay que traducir bien", "Sirve en parte, pero hay que revisar sus conceptos con el contexto local", "No, cada cultura necesita su propia psicología desde cero"],
+   "r": "El psicólogo taiwanés Kuo-Shu Yang (1932-2018) es reconocido como fundador del movimiento de psicología indígena china, que desde los años setenta busca estudiar la mente con conceptos y métodos pertinentes al contexto local, en lugar de aplicar sin más instrumentos importados. En 2000 sostuvo que la psicología cultural y la transcultural son casos particulares de una psicología indígena, si hay compatibilidad entre teoría, método y fenómeno.",
+   "como": "Partió de una pregunta incómoda: si las teorías formadas en Occidente alcanzan para entender a las personas en sociedades chinas. Se conecta con temas locales como la «cara» y los vínculos.",
+   "debate": "El movimiento recibió críticas, por ejemplo la de que podría reproducir un nacionalismo académico.",
+   "seccion": "La psicología indígena"
+  },
+  {
+   "enigma": "En mayo de 2008 un terremoto sacudió Wenchuan, en China. Poco después, la atención a la salud mental del Estado alcanzó un nivel que nunca había tenido.",
+   "p": "¿Por qué una catástrofe habría abierto la puerta a la psicoterapia?",
+   "opciones": ["Porque el sufrimiento masivo hizo evidente una necesidad que ya estaba", "Porque llegaron profesionales extranjeros con otras ideas", "Porque hablar del trauma pasó a verse como una respuesta apropiada"],
+   "r": "Hsuan-Ying Huang describe un «psycho boom» en el que 2008 fue informalmente el «primer año» de la psicoterapia en China. Tras el terremoto, el trauma se pensó en términos de estrés postraumático y la «terapia de la palabra» como respuesta apropiada; la formación y la práctica crecieron, sobre todo en Pekín y Shanghái.",
+   "como": "El dato viene de un ensayo de antropología de Huang (2017), no de un censo: refleja la interpretación de su autor.",
+   "debate": "El boom dejó un panorama fragmentado: se certificó a más de un millón de consejeros en quince años, la certificación se anunció que terminaba en 2018, y los cursos cortos y comerciales produjeron confusión entre quienes buscaban ayuda.",
+   "seccion": "La psicoterapia hoy: de los puentes con Alemania al «boom»"
+  }
+ ],
+ "abierta": "En China conviven el psicoanálisis, la terapia cognitivo-conductual y prácticas locales como la psicoterapia taoísta cognitiva. ¿Qué pasa cuando una persona puede elegir entre tradiciones tan distintas, y cómo se sabe cuál le conviene?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Maimónides",
+ "preguntas": [
+  {
+   "enigma": "Alguien se enoja con una facilidad que ya le pesa. Sabe que tendría que ser más tranquilo, pero cuando intenta «quedarse en el medio» vuelve a explotar.",
+   "p": "¿Cómo se cambia un rasgo de carácter que parece de toda la vida?",
+   "opciones": ["Se cambia con fuerza de voluntad en el momento", "Se cambia repitiendo conductas hasta que se vuelvan hábito", "No se cambia, solo se aprende a convivir con él"],
+   "r": "Maimónides, siguiendo a Aristóteles, propuso el camino intermedio: las virtudes son posiciones entre dos extremos. Su novedad práctica fue el método: si alguien se inclina a un extremo, conviene llevarse un tiempo hacia el opuesto, como se endereza una vara curvada doblándola hacia el otro lado, hasta que el hábito se estabilice.",
+   "como": "Lo desarrolló en los *Ocho capítulos* y en las *Hiljot Deot*, desde una formación que unía el Talmud con Aristóteles y con la medicina de Galeno. Pensaba al sabio como médico del alma, con diagnóstico, régimen y remedio.",
+   "debate": "Aplicar sin criterio la idea de ir al extremo opuesto puede ser dañino, por ejemplo con una persona con ansiedad o depresión. Para Maimónides el carácter se forma para cumplir la ley, no solo para vivir bien, y no es una psicoterapia ni tiene ensayos.",
+   "seccion": "El justo medio"
+  },
+  {
+   "enigma": "Un príncipe con problemas digestivos y una tristeza que no cede le pide consejo a su médico, y este le escribe un tratado sobre cómo vivir.",
+   "p": "¿Qué tendrán que ver la tristeza y la digestión con cómo vivimos cada día?",
+   "opciones": ["Nada, son problemas distintos", "Mucho: cuerpo y ánimo se influyen mutuamente", "Solo la tristeza es de origen psíquico"],
+   "r": "En el *Régimen de salud* Maimónides sostuvo que los afectos del alma, como la ira, la tristeza, el miedo y la alegría, influyen sobre el cuerpo, y que el equilibrio de uno depende del otro. Para el ánimo recomendaba paseos, compañía agradable, música y jardines, y evitar la soledad prolongada.",
+   "como": "Lo escribió hacia 1198, en árabe, para al-Afdal, hijo de Saladino. Es un tratado práctico sobre alimentación, ejercicio, aire, sueño y emociones.",
+   "debate": "Hoy suena razonable, pero hay que tomar esa semejanza con los factores de estilo de vida como curiosidad histórica y no como validación. Parte de lo que dice pertenece a la teoría de los humores de Galeno, que la medicina abandonó hace siglos.",
+   "seccion": "El Régimen de salud"
+  }
+ ],
+ "abierta": "Si el carácter se puede trabajar con método y con un maestro, ¿quién puede hoy ocupar ese lugar de acompañante sin convertirlo en reproche?"
+}

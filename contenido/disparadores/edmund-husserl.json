@@ -1,0 +1,24 @@
+{
+ "autor": "Husserl",
+ "preguntas": [
+  {
+   "enigma": "Alguien te dice: «Mi pareja no me escucha».",
+   "p": "¿Qué sería lo primero que harías?",
+   "opciones": ["Evaluar si tiene razón o no", "Buscar de dónde viene, en su historia o en su infancia", "Preguntarle qué pasó exactamente, qué vio y qué sintió en el cuerpo"],
+   "r": "Husserl propuso describir la experiencia tal como se vive antes de explicarla con teorías. Para eso hay que poner entre paréntesis, por un rato, lo que damos por sentado, un gesto que llamó epojé. No pide dejar de creer lo que uno cree, sino dejarlo a un costado para ver qué hay debajo.",
+   "como": "Venía de las matemáticas y de la lógica. Su lema fue «volver a las cosas mismas», y lo pensó como un ejercicio de rigor: describir con paciencia, sin apurarse a explicar.",
+   "debate": "El propio método fue discutido: Merleau-Ponty escribió que la lección de la reducción es la imposibilidad de una reducción completa, porque nunca suspendemos del todo lo que damos por sentado.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Sentís algo que parece una niebla: una angustia o una tristeza que no sabés bien qué es.",
+   "p": "¿Puede una emoción estar «suelta», sin dirigirse a nada?",
+   "opciones": ["Sí, a veces es solo un estado del cuerpo", "Sí, hay emociones que no tienen sentido ni objeto", "Casi nunca: suele ser miedo a algo o tristeza por alguien"],
+   "r": "Husserl llamó intencionalidad a la idea de que la conciencia siempre es conciencia de algo: está dirigida hacia un objeto, un recuerdo, una persona. Casi nunca tenemos un miedo suelto, y preguntarse hacia qué está dirigido lo que sentimos suele ordenar una emoción que parecía una niebla.",
+   "como": "Heredó la idea de su maestro Franz Brentano, para quien los actos psíquicos se dirigen siempre a un objeto, y la desarrolló como método para describir lo vivido.",
+   "debate": "Husserl fue un filósofo: sus ideas no son una técnica terapéutica con protocolo ni ensayos clínicos. Lo que tiene respaldo de investigación son sus derivados, como la entrevista centrada en la experiencia.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "Nunca logramos suspender del todo lo que damos por sentado. ¿Hasta qué punto podemos mirar la experiencia de otra persona, o la propia, sin mezclarle nuestras ideas?"
+}

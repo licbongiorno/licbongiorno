@@ -1,0 +1,24 @@
+{
+ "autor": "Yalom",
+ "preguntas": [
+  {
+   "enigma": "Una persona llega a un grupo convencida de que lo que le pasa es raro y vergonzoso. Cuenta por fin lo que nunca había dicho, y varios asienten.",
+   "p": "¿Por qué ese «a mí también» alivia tanto?",
+   "opciones": ["Porque se siente acompañada y menos rara", "Porque recibe buenos consejos de los otros", "Porque contarlo en voz alta ya es la cura"],
+   "r": "Yalom llamó universalidad a descubrir que otros sufren lo mismo, y la puso entre los factores terapéuticos del grupo que más alivian, junto con la esperanza, el aprendizaje interpersonal y la cohesión.",
+   "como": "Estudió grupos terapéuticos en Stanford, incluidos grupos de personas con enfermedades terminales, y publicó en 1970 el manual de referencia del campo. Le interesaba averiguar qué ayuda de verdad y no solo teorizar.",
+   "debate": "La terapia de grupo tiene respaldo en metaanálisis, con resultados comparables a los de la terapia individual en varios problemas. En un estudio de 1973 sobre grupos de encuentro, Yalom mismo mostró que algunos participantes salían peor y que el estilo del coordinador pesaba mucho.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Un domingo a la noche te cae una angustia sin motivo claro. O no podés decidir algo por miedo a equivocarte.",
+   "p": "¿Qué hay detrás de esas sensaciones que parecen de todos los días?",
+   "opciones": ["Cansancio y estrés acumulados", "Preguntas más grandes que no solemos mirar de frente", "Pensamientos negativos que se pueden corregir"],
+   "r": "Yalom sostenía que detrás de muchos síntomas están cuatro preocupaciones últimas: la muerte, la libertad con su responsabilidad, el aislamiento y la falta de un sentido dado. No se resuelven, pero cómo las enfrentamos cambia cómo vivimos.",
+   "como": "Lo desarrolló en su práctica con grupos y con pacientes, y en *Psicoterapia existencial* (1980). Después lo llevó a novelas y relatos, que son ficción o casos con datos cambiados.",
+   "debate": "La terapia existencial tiene menos ensayos que otros enfoques; un metaanálisis de 2015 encontró efectos moderados, sobre todo en enfermedades graves, con calidad despareja. Hablar de la muerte tampoco es para todos los momentos.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Se puede vivir mejor sin dejar de mirar que somos finitos? Es una pregunta que cada persona responde a su modo."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Laura Perls",
+ "preguntas": [
+  {
+   "enigma": "Tenés que decirle a un familiar algo que venís callando hace años. Si te lanzás sin más, o sale un grito o no sale nada.",
+   "p": "¿Qué te falta antes de poder hacerlo bien?",
+   "opciones": ["Más valentía y decisión", "Elegir las palabras justas", "Algo donde apoyarte para sostener ese momento"],
+   "r": "Laura Perls decía que el contacto con otro solo es posible en la medida en que hay apoyo suficiente. Antes de pedirle a alguien que haga contacto, hay que preguntarse si tiene apoyo para hacerlo.",
+   "como": "Lo desarrolló en la clínica y en la formación de terapeutas, durante décadas al frente del Instituto de Terapia Gestalt de Nueva York. Para ella el apoyo no es solo lo que dan los otros: es también la respiración, la postura, el lenguaje y lo ya vivido.",
+   "debate": "Contacto y apoyo es sobre todo un marco clínico, una manera de pensar el trabajo, y no una hipótesis comprobada. «Apoyo» es un concepto amplio, útil en la consulta pero difícil de medir.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Alguien siempre dice que sí para evitar el conflicto, y otra persona se traga la bronca en lugar de decirla.",
+   "p": "¿Son defectos que conviene corregir?",
+   "opciones": ["Sí, hay que aprender a decir lo que uno piensa", "No, protegen algo y conviene entender qué", "Depende de si el otro lo merece"],
+   "r": "La Gestalt llama confluencia a fundirse con el otro para evitar el conflicto, y retroflexión a volver contra uno lo que iba hacia afuera. Laura Perls pedía no corregirlas como errores sino reconocer qué protegen y construir primero el apoyo que permita prescindir de ellas.",
+   "como": "Venía de la psicología de la Gestalt y de la filosofía, con influencias como Kurt Goldstein, Paul Tillich y Martin Buber. Su estilo era sereno y relacional y cuidaba el ritmo de cada persona.",
+   "debate": "La investigación sobre la terapia Gestalt es menor que la de otros enfoques: hay estudios favorables, pero no tantos ni tan sólidos.",
+   "seccion": "Cómo se usa hoy"
+  }
+ ],
+ "abierta": "¿Cuánto apoyo hace falta antes de animarse al contacto, y cómo sabe cada uno que ya lo tiene?"
+}

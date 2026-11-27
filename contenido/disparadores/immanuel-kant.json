@@ -1,0 +1,24 @@
+{
+ "autor": "Kant",
+ "preguntas": [
+  {
+   "enigma": "Ves caer una taza y romperse contra el piso. Sin pensarlo, decís «se rompió porque se cayó». Te parece que simplemente anotaste lo que pasó.",
+   "p": "¿Esa relación de causa la viste en el mundo, o la pusiste vos?",
+   "opciones": ["La vi: está en las cosas y mis sentidos la registran", "La aprendí de chico, de tanto ver cosas que se rompen", "La puso en parte mi mente, que organiza lo que le llega"],
+   "r": "Kant propuso un giro copernicano: en lugar de suponer que el conocimiento se adapta a los objetos, sostuvo que los objetos, tal como los conocemos, se adaptan a las formas de nuestra mente. La causalidad sería una de las categorías con las que el entendimiento ordena la experiencia: sin sentidos no hay contenido, y sin formas no hay orden.",
+   "como": "Contó que leer a Hume lo despertó de su «sueño dogmático». Entre empiristas, que decían que todo viene de la experiencia, y racionalistas, que decían que la razón trae ideas propias, propuso una síntesis, tras una década de silencio antes de publicar la Crítica de la razón pura (1781).",
+   "debate": "Sus tesis son filosóficas y no se comprueban como una hipótesis de laboratorio. Cuando Piaget las llevó a la investigación, el resultado fue fértil pero discutido: estudios con bebés sugieren expectativas sobre los objetos más tempranas de lo que él suponía.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Tu jefe te pide algo que te conviene hacer, pero implica engañar un poco a un cliente. Nadie se va a enterar y te traería un beneficio concreto.",
+   "p": "¿Qué hace que una acción sea moralmente buena?",
+   "opciones": ["Que sus consecuencias sean buenas para la mayoría", "Que no te descubran ni te castiguen", "Que puedas darte a vos mismo una regla racional que trate a las personas como fines y no solo como medios"],
+   "r": "Para Kant, actuar moralmente es darse a uno mismo una ley racional, no obedecer por miedo o por conveniencia. De ahí su idea de tratar a las personas siempre como fines y nunca solo como medios, que está en la base del respeto a la autonomía del paciente: informar, pedir consentimiento, no decidir por el otro lo que le corresponde.",
+   "como": "Lo desarrolló en la Crítica de la razón práctica (1788). En 1784, en el texto sobre la Ilustración, invitó con la expresión sapere aude, «atrevete a saber», a pensar por cuenta propia.",
+   "debate": "No viene solo de Kant, y su rigor ha sido discutido por filósofos que ponen el acento en las consecuencias o en los vínculos. Tampoco es una teoría empírica: es una propuesta filosófica sobre cómo deberíamos obrar.",
+   "seccion": "La autonomía en la práctica"
+  }
+ ],
+ "abierta": "Si la mente organiza lo que percibimos, ¿cómo sería el mundo tal como es en sí mismo, sin nuestro marco? Es una pregunta que Kant dejó planteada y que la filosofía y las ciencias de la mente siguen discutiendo."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Shpilrein",
+ "preguntas": [
+  {
+   "enigma": "En una empresa se presentan cien candidatos para manejar tranvías. Alguien propone medir con aparatos cuánto tardan en reaccionar y cuántos errores cometen cuando las señales se aceleran.",
+   "p": "¿Qué creés que puede aportar ese tipo de evaluación, y qué riesgos tiene?",
+   "opciones": ["Ayuda a elegir mejor, sin ningún riesgo", "Es injusto: los tests nunca miden bien a las personas", "Puede ayudar a seleccionar y a diseñar mejor el puesto, pero también puede usarse para justificar decisiones injustas"],
+   "r": "En la Rusia soviética de los años veinte floreció la psicotécnica: psicología aplicada al trabajo que no solo seleccionaba personas, sino que estudiaba la formación profesional, la fatiga, la orientación vocacional y el diseño de los puestos. Su figura central, Isaak Shpilrein, investigó la aptitud de los conductores de tranvía de Moscú.",
+   "como": "Venía del programa de psicología aplicada de Münsterberg, de la psicología diferencial de Stern y de la organización científica del trabajo de Taylor. Según el historiador Munipov, la sociedad de psicotécnica pasó de unos 100 miembros en 1927 a 1020 en 1931.",
+   "debate": "Algunas críticas a los tests tenían fundamento, porque en todo el mundo se usaron a veces para justificar decisiones injustas. Pero en 1936 la respuesta soviética fue una prohibición política que cerró un campo entero durante dos décadas, no un debate científico.",
+   "seccion": "La psicotécnica: un movimiento de los años veinte"
+  },
+  {
+   "enigma": "En una guardia hospitalaria, las enfermeras dicen que el sistema nuevo de registro les quita tiempo con los pacientes. La dirección responde con una capacitación sobre cómo usar el programa, y las quejas siguen.",
+   "p": "¿Dónde buscarías el problema?",
+   "opciones": ["En las enfermeras: les falta práctica con el sistema", "En la dirección: eligió mal el programa", "En el diseño del trabajo: el sistema choca con el motivo de la tarea, que es cuidar"],
+   "r": "La teoría de la actividad de Leóntiev distingue la actividad (movida por un motivo), las acciones (dirigidas a metas conscientes) y las operaciones (que dependen de las condiciones). Con ese esquema se puede ver qué exige atención consciente y qué se automatizó, y qué contradicción hay entre las reglas y el motivo. A veces el problema no está en las personas sino en el diseño del trabajo.",
+   "como": "Yrjö Engeström, en Finlandia, propuso que los propios trabajadores analicen su actividad junto con los investigadores, detecten sus contradicciones y diseñen formas nuevas de trabajar: la investigación del trabajo orientada al desarrollo.",
+   "debate": "La teoría de la actividad es un marco teórico y metodológico que ordena el análisis pero no se confirma con un solo experimento, y las intervenciones de Engeström son sobre todo estudios de caso, valiosos y difíciles de comparar entre sí.",
+   "seccion": "Cómo se ve en la vida cotidiana"
+  }
+ ],
+ "abierta": "Cuando un trabajo desgasta a las personas, ¿cuánto hay que atribuir a cada persona y cuánto al diseño del trabajo? La pregunta sigue abierta en la ergonomía y en la psicología del trabajo."
+}

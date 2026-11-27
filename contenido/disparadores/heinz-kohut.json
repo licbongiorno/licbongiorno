@@ -1,0 +1,24 @@
+{
+ "autor": "Kohut",
+ "preguntas": [
+  {
+   "enigma": "Conocés a alguien que necesita muchísimo reconocimiento y se desmorona con una sola crítica. Desde afuera parece soberbio.",
+   "p": "¿Qué puede haber detrás de tanta necesidad de ser admirado?",
+   "opciones": ["Un ego inflado que hay que bajar a tierra", "Una forma de taparse una inseguridad que no se ve", "Una persona que no recibió suficiente brillo en los ojos de quien lo miraba cuando era chico"],
+   "r": "Kohut pensaba que el self, el centro de la experiencia de uno mismo, se sostiene en tres experiencias con los otros: ser reflejado, idealizar y sentirse par. Cuando eso falta, el self queda frágil, y lo que parece soberbia muchas veces es una forma de sostenerse. Por eso entendía el narcisismo patológico como una detención del desarrollo y no solo como un exceso.",
+   "como": "Lo fue construyendo a partir de su trabajo como analista en Chicago, observando sesiones, en las que notó que el paciente buscaba en el analista un espejo, alguien a quien admirar o alguien parecido a él.",
+   "debate": "Su principal contrincante, Otto Kernberg, entendía el narcisismo patológico como una defensa contra la agresión. Los críticos de Kohut le objetan que subestima el conflicto y la agresión.",
+   "seccion": "Sus conceptos fundamentales"
+  },
+  {
+   "enigma": "Un nene corre hacia su papá con un dibujo y grita «¡mirá!». A veces el papá lo mira con entusiasmo y a veces lo despacha sin levantar la vista.",
+   "p": "¿Cuánto importa cada una de esas veces?",
+   "opciones": ["Cada vez que falla el padre, el chico queda marcado", "No importa mientras el chico tenga todo lo material", "Lo que importa es que, en general, alguien lo mire, y las fallas chicas hasta ayudan"],
+   "r": "Para Kohut todos los padres fallan, y esas pequeñas frustraciones tolerables, que llamó «óptimas», ayudan a crecer, porque la persona va incorporando funciones que antes dependían del otro. El problema aparece cuando las fallas son constantes.",
+   "como": "Lo conceptualizó como internalización transmutadora, a partir de lo que veía en el análisis de sus pacientes.",
+   "debate": "La psicología del self es una teoría clínica que se apoya en observaciones de sesiones más que en estudios controlados, y la idea de que el análisis «cura» por empatía es una hipótesis, no un resultado probado.",
+   "seccion": "Un ejemplo de todos los días"
+  }
+ ],
+ "abierta": "Kohut dejó una pregunta que sigue abierta: ¿qué necesita una persona para sentirse real y sostenida, y cuánto de eso podemos darnos solos?"
+}

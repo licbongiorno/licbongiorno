@@ -1,0 +1,24 @@
+{
+ "autor": "Festinger",
+ "preguntas": [
+  {
+   "enigma": "Te pagan muy poco, casi nada, por una tarea aburrida y encima te piden que le digas a otra persona que es interesante. Lo hacés.",
+   "p": "¿Después de eso, te va a parecer más aburrida o más interesante?",
+   "opciones": ["Igual de aburrida: mentir no cambia lo que pienso", "Más aburrida, porque encima me pagaron mal", "Un poco más interesante de lo que pensaba"],
+   "r": "En el experimento de Festinger y Carlsmith (1959), quienes cobraron 1 dólar valoraron la tarea como más agradable que quienes cobraron 20. Con 20 dólares había una justificación externa suficiente, con 1 no, y la forma de reducir la disonancia fue cambiar la opinión: si dije que era interesante, quizás no era tan aburrida.",
+   "como": "Participaron 71 estudiantes varones de Stanford que primero hicieron una tarea aburrida y después cobraron 1 o 20 dólares por decirle a otro participante que era interesante.",
+   "debate": "Es una muestra chica y de estudiantes varones de una misma universidad, en una situación artificial. Tampoco se mide la disonancia misma, solo el cambio de opinión: que venga de una incomodidad interna es una interpretación.",
+   "seccion": "El experimento de 1 o 20 dólares"
+  },
+  {
+   "enigma": "Compraste algo más caro de lo que pensabas gastar. A los pocos días ya tenés una lista de razones de por qué valió la pena.",
+   "p": "¿Esas razones son lo que pensabas antes de comprar?",
+   "opciones": ["Sí, las tenía y no las había dicho en voz alta", "No, aparecieron después para que todo cuadre", "Un poco de cada, según el caso"],
+   "r": "Festinger propuso que buscamos coherencia entre lo que creemos, sentimos y hacemos, y que cuando no van juntos aparece la disonancia, un estado incómodo que nos empuja a reducirla. Por eso, después de elegir, tendemos a encontrar más motivos a favor de lo elegido, y lo que nos costó mucho nos parece más valioso.",
+   "como": "Lo planteó en «A Theory of Cognitive Dissonance» (1957) y lo puso a prueba en el laboratorio, usando experimentos con situaciones controladas.",
+   "debate": "La teoría se usa mejor como una manera de pensar cuándo y por qué cambiamos de parecer que como una ley que se cumple siempre. A veces defendemos algo porque tenemos razones y a la vez porque nos incomoda haberlo hecho.",
+   "seccion": "Dónde la ves en la vida cotidiana"
+  }
+ ],
+ "abierta": "Cuando te escuchás defendiendo una decisión con mucha energía, ¿es porque tenés razones o porque te incomoda haberla tomado? Medir eso desde afuera sigue siendo difícil."
+}

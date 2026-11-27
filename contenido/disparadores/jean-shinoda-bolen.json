@@ -1,0 +1,24 @@
+{
+ "autor": "Bolen",
+ "preguntas": [
+  {
+   "enigma": "Una mujer dirige un equipo con claridad estratégica en el trabajo y, al llegar a casa, cuida con paciencia a su madre mayor. Termina el día agotada sin saber bien por qué.",
+   "p": "¿Por qué cansa tanto ser dos personas distintas en un mismo día?",
+   "opciones": ["Simplemente por la cantidad de tareas que acumula", "Porque cada rol pide una fuerza interior distinta y alguna quizás no está nombrada", "Porque debería elegir uno de los dos roles y dejar el otro"],
+   "r": "Bolen tomó de Jung la idea de arquetipos, patrones universales de la psique, y los vio en los dioses y diosas griegos. Quizás en el trabajo actúa como Atenea y en la familia como Deméter, y el cansancio viene de que una de las dos no está nombrada. Ponerles nombre no explica nada por sí solo, pero ayuda a preguntarse qué parte quedó sin voz.",
+   "como": "Es psiquiatra y analista junguiana. En 1984 publicó «Las diosas de cada mujer», en pleno auge del feminismo, y usó la mitología griega como un espejo para mostrar que hay muchas maneras de ser mujer.",
+   "debate": "Es divulgación junguiana: no tiene validación empírica ni hay pruebas de que las siete diosas existan como categorías psicológicas. Se corre el riesgo de encasillar o sostener estereotipos, y la base es solo una mitología, la griega.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Alguien pasó años entregado a su pareja y, de pronto, ya separado, descubre que disfruta de la soledad, la naturaleza y hacer lo suyo sin dar explicaciones.",
+   "p": "¿Es que cambió su forma de ser o apareció algo que ya estaba?",
+   "opciones": ["Cambió por completo, es otra persona ahora", "Apareció algo que estaba dormido y que la etapa de vida volvió a activar", "Era un escape pasajero, que se va a pasar"],
+   "r": "Bolen sostenía que las diosas se activan y se apagan según la etapa de la vida, y que una persona puede tener varias activas. Una etapa de entrega a una pareja, como Hera, puede dar lugar a un costado Artemisa, de independencia, que no depende de un vínculo para sentirse completo.",
+   "como": "Agrupó a las diosas según cómo se vinculan: vírgenes (autónomas), vulnerables (centradas en los vínculos) y Afrodita, la alquímica. Lo hizo desde su clínica y su lectura de Jung.",
+   "debate": "Como toda tipología, conviene tomarla como un mapa para pensar, no como test de personalidad ni como diagnóstico. Sirve como puerta a la imaginación y para nombrar conflictos internos.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Alcanza un mito, de una sola cultura, para nombrar lo que nos pasa a todos? Los arquetipos siguen siendo una idea querida y discutida."
+}

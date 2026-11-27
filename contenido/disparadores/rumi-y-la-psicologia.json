@@ -1,0 +1,24 @@
+{
+ "autor": "Rumi",
+ "preguntas": [
+  {
+   "enigma": "Ves una frase famosa en un posteo, una taza o una sala de espera, firmada por Rumi. Está en miles de lugares y suena a refrán.",
+   "p": "¿Cómo averiguarías si realmente es de Rumi, y qué te dice eso sobre lo que leés?",
+   "opciones": ["Si todo el mundo la cita, seguro que es suya", "No importa de quién sea, importa lo que te dice", "Hay que ver qué traducción es y si hay una fuente verificable"],
+   "r": "Buena parte de lo que se cita como Rumi no está tal cual en sus textos, y casi nunca se aclara a quién le hablaba ni en nombre de qué fe. El éxito popular vino de las versiones de Coleman Barks, que no leía persa: trabajó a partir de traducciones literales y las convirtió en poemas en verso libre, a menudo eliminando las menciones a Dios, al Corán y al Profeta.",
+   "como": "Para comparar hay traducciones académicas, como las de Nicholson y Arberry, y estudios como los de Annemarie Schimmel y Franklin Lewis. Rozina Ali planteó en The New Yorker, en 2017, cómo se borra el islam del Rumi más leído en Estados Unidos.",
+   "debate": "Una adaptación poética es legítima y Barks la declara, pero el resultado se aleja del original y lleva a pensar que Rumi era «espiritual pero no religioso», cuando era un musulmán practicante. Se sigue discutiendo cuánto de la tradición se puede separar de su fe.",
+   "seccion": "Cómo llegó a Occidente y qué se perdió"
+  },
+  {
+   "enigma": "Una mañana te despertás con tristeza, otro día con miedo, otro con vergüenza. Tu primer impulso es que se vayan cuanto antes, como visitas molestas.",
+   "p": "¿Qué pasaría si las recibieras como a invitados en lugar de echarlas?",
+   "opciones": ["Se instalarían y no se irían nunca", "No cambiaría nada: da igual cómo las trate", "Probablemente me relacionaría distinto con ellas, y quizás me enseñen algo"],
+   "r": "Un poema muy difundido atribuido a Rumi, «La casa de huéspedes», propone recibir cada emoción como a un invitado. Esa imagen comparte espíritu con las prácticas de aceptación y de atención plena, y por eso se lee en cursos de mindfulness. Su poesía también conecta la pérdida con la transformación: el duelo por Shams marcó su obra.",
+   "como": "Rumi usaba historias, cuentos y fábulas en lugar de teorías, y escribía desde la tradición islámica y sufí. Su encuentro con el derviche Shams-i Tabrizi hacia 1244 lo transformó en poeta, y la desaparición de Shams, probablemente asesinado, fue un duelo que atravesó su obra.",
+   "debate": "No existe investigación que respalde la poesía de Rumi como tratamiento psicológico: que alguien la encuentre consoladora es valioso para esa persona, pero no es evidencia clínica. Y convertir el sema o la poesía en técnica de bienestar es otra cosa que el camino religioso del que forman parte.",
+   "seccion": "Por qué atrae a la psicología"
+  }
+ ],
+ "abierta": "¿Se puede aprovechar la sabiduría de una tradición religiosa sin quitarle la fe que le da sentido? Es una pregunta abierta, y quizás la más honesta para quien lee a Rumi hoy."
+}

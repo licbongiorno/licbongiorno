@@ -1,0 +1,24 @@
+{
+ "autor": "Selye",
+ "preguntas": [
+  {
+   "enigma": "Una semana de mucho trabajo y poco sueño te deja agotado, aunque nada «grave» haya pasado. Otra persona con el mismo ritmo, en cambio, se siente enérgica.",
+   "p": "¿Por qué la misma exigencia desgasta a unos y activa a otros?",
+   "opciones": ["Porque algunos tienen más resistencia física", "Porque depende de cómo se vive la exigencia y de cuánto dura", "Porque algunos no registran el estrés"],
+   "r": "Selye distinguió el eustrés, la activación que acompaña a un desafío que nos entusiasma, del distrés, la que nos desgasta. Lo que importa es qué hacemos con la energía que el estrés moviliza.",
+   "como": "Buscaba una hormona nueva inyectando extractos a ratas y vio siempre los mismos cambios, fuera cual fuera la sustancia. Concluyó que era una respuesta general del organismo y la describió en tres fases: alarma, resistencia y agotamiento.",
+   "debate": "No hay un punto exacto donde el eustrés se convierte en distrés: depende de cuánto control sentimos, de cuánto dura y de con qué apoyos contamos. Richard Lazarus mostró que la evaluación que hacemos de la situación cambia la respuesta.",
+   "seccion": "Eustrés y distrés"
+  },
+  {
+   "enigma": "Una investigación muy citada fue financiada, sin decirlo, por una industria a la que le convenía su conclusión.",
+   "p": "¿Cambia eso lo que vale la investigación?",
+   "opciones": ["No, los datos son los datos", "Sí, invalida todo lo que hizo", "Obliga a leerla con más cuidado, pero no la vuelve falsa"],
+   "r": "En 2011, Petticrew y Lee analizaron documentos internos de la industria tabacalera y concluyeron que Selye recibió financiamiento extenso de esas empresas, y que su trabajo sobre el estrés se usó en litigios para defender sus intereses, sin que se declarara públicamente.",
+   "como": "Los documentos son hoy públicos por acuerdos judiciales. El argumento que servía a la industria era que el estrés, y no el cigarrillo, explicaba buena parte de las enfermedades.",
+   "debate": "No convierte en falso todo lo que Selye observó, pero obliga a leer con cuidado el relato del «padre del estrés». Además, varios de sus supuestos no resistieron el tiempo, como que la respuesta fuera la misma ante cualquier agente.",
+   "seccion": "El capítulo de la industria tabacalera"
+  }
+ ],
+ "abierta": "Hoy se habla de carga alostática, el desgaste acumulado por activar el sistema de estrés una y otra vez. ¿Cuánto estrés puede sostener un cuerpo antes de pasar factura, y cuánto depende de cada vida?"
+}

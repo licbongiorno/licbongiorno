@@ -1,0 +1,24 @@
+{
+ "autor": "Rank",
+ "preguntas": [
+  {
+   "enigma": "Alguien está por mudarse de ciudad, o un hijo está por irse de la casa de sus padres. Quiere irse y a la vez no quiere.",
+   "p": "¿Por qué una misma decisión da tanto miedo hacia los dos lados?",
+   "opciones": ["Porque no está seguro de lo que quiere", "Porque tiene miedo a lo desconocido, nada más", "Porque separarse y quedar fundido en el grupo asustan por igual"],
+   "r": "Rank pensó la vida como un movimiento entre dos miedos: el miedo a separarse y quedar solo, y el miedo a fundirse con otros y perder la propia individualidad. La voluntad es lo que permite ser uno mismo sin romper el vínculo.",
+   "como": "Fue colaborador de Freud durante unos veinte años, sin formación médica, lo que lo acercó al arte, la literatura y el mito. Sus ideas tomaron forma propia después de la ruptura con él.",
+   "debate": "Es una lectura sobre la vida y no una hipótesis medida. Se lo valora como pensador original, no como teoría validada.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Cada vez que algo se termina, una mudanza, una relación o un trabajo, aparece una angustia que parece desproporcionada.",
+   "p": "¿Podría ser el eco de una primera separación?",
+   "opciones": ["Sí, todo viene de nuestros primeros momentos de vida", "Es una exageración, la angustia viene de cosas actuales", "Es una metáfora de cómo vivimos las separaciones"],
+   "r": "En *El trauma del nacimiento* (1924), Rank propuso que la separación del nacimiento es el modelo de toda angustia posterior. Freud lo recibió primero con interés y después con críticas, y el vínculo se rompió.",
+   "como": "Lo planteó en un libro de 1924 desde su lugar de colaborador cercano de Freud en la Viena de comienzos del siglo XX.",
+   "debate": "Esa tesis central no tiene respaldo empírico: no hay evidencia de que el parto deje una huella que origine la angustia posterior. Hoy se valora más como metáfora de la separación que como explicación causal.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si el final de una terapia, de un trabajo o de un vínculo también es parte del proceso, ¿cómo se aprende a terminar bien las cosas?"
+}

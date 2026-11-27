@@ -1,0 +1,24 @@
+{
+ "autor": "Kernberg",
+ "preguntas": [
+  {
+   "enigma": "Una persona pasa de decir que alguien es lo mejor que le pasó en la vida a decir, a los pocos días, que es lo peor. Y lo siente de verdad, en las dos versiones.",
+   "p": "¿Qué creés que hay detrás de estas oscilaciones tan fuertes en un vínculo?",
+   "opciones": ["Es simplemente un mal carácter o falta de control", "Depende de cómo se porte el otro en cada momento", "Una manera de funcionar de la personalidad, y no solo un síntoma suelto"],
+   "r": "Kernberg propuso pensar esto como una organización límite de la personalidad: no una conducta aislada sino una estructura de funcionamiento, que se reconoce en la manera de vincularse. Dos personas pueden comportarse parecido en una situación puntual y tener modos de funcionamiento muy distintos.",
+   "como": "Escribió dentro de la tradición de las relaciones de objeto, la de Klein y Fairbairn, mirando cómo una persona representa a los otros y a sí misma. Desarrolló su obra como psicoanalista, tras un camino de exilio entre Viena, Chile y Estados Unidos, y la reunió en Borderline Conditions and Pathological Narcissism (1975).",
+   "debate": "Las categorías diagnósticas actuales no coinciden con la noción de «organización», que es psicoanalítica y estructural, así que conviene no confundir los dos planos ni tomar sus conceptos como etiquetas de manual.",
+   "seccion": "Qué quiere decir «organización»"
+  },
+  {
+   "enigma": "Alguien va a terapia y, sin darse cuenta, empieza a tratar al terapeuta como trata a todos: desconfía, o se aferra, o espera que lo abandone.",
+   "p": "¿Esa repetición es un obstáculo o puede ser una pista?",
+   "opciones": ["Un obstáculo: la terapia empieza cuando se supera eso", "Una señal de que la terapia no está funcionando", "Una pista: lo que se repite muestra cómo se vincula la persona"],
+   "r": "Kernberg creó la psicoterapia focalizada en la transferencia (TFP): lo que la persona trae de sus vínculos pasados y presentes aparece en la relación con quien la trata, y en lugar de dejarlo de lado, la TFP lo toma como material de trabajo. A medida que se entiende qué se repite, se puede elegir otra cosa fuera del consultorio.",
+   "como": "Partió de la clínica con pacientes que durante mucho tiempo se consideraron difíciles de abordar, y diseñó un tratamiento específico para ellos con método propio en lugar de adaptar uno existente.",
+   "debate": "Las teorías de Kernberg y las de Kohut sobre el narcisismo son distintas y, en muchos puntos, opuestas, de modo que leerlo hoy implica saber en qué marco habla.",
+   "seccion": "La TFP en la práctica"
+  }
+ ],
+ "abierta": "¿Hasta qué punto los modos de vincularnos que aprendimos de chicos pueden cambiar de verdad en la adultez? Es una pregunta que las distintas terapias todavía intentan responder."
+}

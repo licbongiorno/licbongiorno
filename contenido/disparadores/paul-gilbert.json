@@ -1,0 +1,24 @@
+{
+ "autor": "Gilbert",
+ "preguntas": [
+  {
+   "enigma": "Hay quien se trata con una dureza que no usaría con nadie más. Sabe que no le sirve, entiende que esas ideas no son razonables, y aun así la voz interna sigue.",
+   "p": "¿Qué te parece que ayudaría?",
+   "opciones": ["Más fuerza de voluntad para callar esa voz", "Convencerse con buenos argumentos de que no es razonable", "Aprender a activar otro sistema emocional, el de la calma y el cuidado"],
+   "r": "Paul Gilbert respondió que la autocrítica y la vergüenza no se resuelven a fuerza de voluntad, sino aprendiendo a activar otro sistema emocional, el de la calma y el cuidado. Según su modelo, muchas personas con autocrítica viven con el sistema de amenaza muy activo y el de calma poco desarrollado, y la terapia busca equilibrar los tres sistemas.",
+   "como": "Lo vio en su trabajo clínico con personas con mucha vergüenza y autocrítica feroz: las técnicas habituales de reestructuración de pensamientos a veces no alcanzaban, porque podían entender que su pensamiento no era razonable y seguir sintiéndose amenazadas por su propia voz interna.",
+   "debate": "Se discute hasta dónde la división en tres sistemas describe con precisión la biología y hasta dónde funciona como metáfora útil. Tampoco es una receta universal: hay personas para quienes recibir calidez al principio genera miedo o incomodidad.",
+   "seccion": "Quién es"
+  },
+  {
+   "enigma": "Alguien te aconseja: «tenete compasión». Y vos pensás que eso es ablandarse, consentirse o resignarse.",
+   "p": "¿Compasión con uno mismo es ser blando?",
+   "opciones": ["Sí, es consentirse y perder exigencia", "Sí, es resignarse a no mejorar", "No: es la motivación a cuidar y aliviar el sufrimiento, y a veces exige coraje"],
+   "r": "Para Gilbert, compasión no significa blandura ni resignación. Es una motivación a cuidar y aliviar el sufrimiento, que a veces exige coraje: mirar de frente lo que duele en lugar de evitarlo. Por eso su terapia no busca eliminar la autocrítica a la fuerza, sino transformar su tono.",
+   "como": "En la práctica, su terapia incluye ejercicios para desarrollar un yo compasivo, una perspectiva interna desde la cual uno puede mirar sus dificultades con calidez y sabiduría.",
+   "debate": "Su modelo habla de «al menos» tres sistemas, lo que deja abierta la puerta a otras descripciones. Conviene tomarlo como un mapa para pensar la propia experiencia, no como una verdad cerrada.",
+   "seccion": "Vergüenza, autocrítica y compasión"
+  }
+ ],
+ "abierta": "¿Se puede ser exigente con uno mismo y a la vez amable? ¿Qué cambiaría en tu vida si la voz que te habla por dentro tuviera otro tono?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Sullivan",
+ "preguntas": [
+  {
+   "enigma": "Alguien es chistoso y firme con sus amigos, pero cada vez que habla con su jefe se vuelve callado y obediente, aunque el jefe sea amable.",
+   "p": "¿Por qué somos tan distintos según con quién estemos?",
+   "opciones": ["Porque cada situación exige una máscara diferente y es normal", "Porque está respondiendo a una imagen de otra persona de su historia, más que al jefe real", "Porque en el fondo es inseguro y lo disimula con amigos"],
+   "r": "Sullivan diría que, sin darse cuenta, la persona responde a una imagen de otro, quizá una figura de autoridad de su historia, más que al jefe real. A eso lo llamó distorsión paratáxica. Y el sistema del yo funciona como un guardaespaldas: nos protege de la ansiedad en los vínculos, pero también nos limita.",
+   "como": "Trabajó con jóvenes con esquizofrenia en el hospital Sheppard Pratt, en una sala con personal elegido por su calidez, y convencido de que el sufrimiento de esos pacientes tenía sentido y se podía entender. También dialogó con sociólogos y antropólogos.",
+   "debate": "Sus conceptos propios, como las personificaciones, son teoría clínica con poca investigación directa. Su obra se publicó sobre todo a partir de notas de clases y su lenguaje es denso, así que hoy se lo lee como un pionero que abrió una pregunta, no como una teoría cerrada.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Un bebé se pone inquieto cuando quien lo cuida está tenso, aunque esa persona no diga una palabra ni lo demuestre.",
+   "p": "¿Cómo se puede contagiar algo que nadie dijo?",
+   "opciones": ["El bebé percibe el tono y los gestos, aunque no entienda nada", "Es casualidad, los bebés se inquietan por muchas razones", "Es algo innato: nacemos ya con nuestro propio nivel de ansiedad"],
+   "r": "Para Sullivan la ansiedad se transmite en los vínculos: un bebé siente la ansiedad de quien lo cuida, aunque nadie diga nada. La personalidad no está adentro de una persona aislada, sino que se forma y se expresa en las relaciones reales o imaginadas con otros.",
+   "como": "Lo desarrolló como psiquiatra y como observador de los vínculos, en diálogo con la sociología y la antropología. Describió además etapas del desarrollo, cada una con una necesidad interpersonal nueva, de la ternura a la intimidad con un amigo.",
+   "debate": "Su mirada se acerca a lo que después estudió la teoría del apego, y sus ideas inspiraron la terapia interpersonal para la depresión, que sí tiene ensayos clínicos. Pero esos son desarrollos posteriores y distintos.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si lo que pasa entre dos personas en una sesión ya es información, ¿cómo se estudia eso con rigor sin quitarle lo vivo? Es una pregunta que la psicoterapia sigue discutiendo."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Pichon-Rivière",
+ "preguntas": [
+  {
+   "enigma": "En una familia hay un hijo al que todos señalan como «el problema». Dicen que si él se arregla, la casa vuelve a andar.",
+   "p": "¿Y si el que parece enfermo estuviera diciendo algo que es de todos?",
+   "opciones": ["Es el que tiene el problema y los demás lo sufren", "Los demás exageran para no mirarse a sí mismos", "Puede estar mostrando un conflicto que es de la familia entera"],
+   "r": "Pichon-Rivière pensaba la enfermedad como emergente: el paciente puede ser el portavoz de un conflicto de su familia o su grupo. Y cuando el grupo deposita en alguien todo lo malo y lo aparta, aparece el chivo emisario. Para él, nadie se enferma ni se cura solo.",
+   "como": "Como psiquiatra en el Hospicio de las Mercedes, hoy Hospital Borda, notó que los pacientes mejoraban cuando se trabajaba con sus vínculos y con los grupos de enfermeros que los cuidaban.",
+   "debate": "Pensar el sufrimiento en su contexto vincular fue una idea fértil, pero no resuelve por sí sola cuánto de un malestar se explica por el grupo y cuánto por la historia de cada persona. Es una pregunta que sigue abierta.",
+   "seccion": "Sus conceptos fundamentales"
+  },
+  {
+   "enigma": "Un equipo se reúne para una tarea clara, pero cada vez que se acerca a hacerla aparece una discusión, un olvido, una demora.",
+   "p": "¿Qué es lo que realmente traba al grupo?",
+   "opciones": ["Falta de organización o de un buen líder", "Miedos básicos: a perder lo que se tiene y a lo nuevo", "Una persona conflictiva que hay que sacar"],
+   "r": "Pichon-Rivière llamó grupo operativo a un grupo reunido en torno a una tarea explícita, con un coordinador que ayuda a ver los obstáculos. Lo que traba la tarea suelen ser miedos básicos: el miedo a perder lo que se tiene y el miedo a lo nuevo.",
+   "como": "Lo desarrolló trabajando con grupos, y en 1958 encabezó la Experiencia Rosario, un trabajo con grupos a gran escala en esa ciudad.",
+   "debate": "Con el tiempo se alejó del psicoanálisis institucional y fundó su propia escuela de psicología social. Su mirada formó a generaciones en América Latina, aunque hoy convive con otros enfoques sobre grupos.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Pichon dibujó un cono invertido para ver lo explícito y lo implícito de un grupo. ¿Cuánto de lo que realmente pasa en un grupo nuestro, la familia o el trabajo, circula sin decirse?"
+}

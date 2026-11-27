@@ -1,0 +1,24 @@
+{
+ "autor": "Winnicott",
+ "preguntas": [
+  {
+   "enigma": "Una mamá o un papá primerizo se angustia porque a veces no llega a tiempo, se enoja o se equivoca con su bebé.",
+   "p": "¿Qué necesita un chico de quien lo cuida: que nunca falle o algo distinto?",
+   "opciones": ["Que nunca falle, para que se sienta siempre seguro", "Que falle poco y de a poco, en dosis que pueda tolerar", "Que sea cariñoso, los errores no importan"],
+   "r": "Winnicott habló de la madre suficientemente buena: al principio se adapta casi por completo al bebé, y después falla de a poco, en dosis tolerables. Así el chico descubre que el mundo es real y que él también lo es. La función puede cumplirla cualquiera que cuide.",
+   "como": "Fue pediatra y trabajó unos cuarenta años en un hospital de niños de Londres, donde vio a miles de chicos con sus familias. También dio charlas por radio en la BBC dirigidas a madres y padres.",
+   "debate": "Es una idea que alivia, pero se la puede usar mal, como si todo dependiera de la madre. Por eso hoy se subraya que la función de cuidar puede ser de cualquiera y que el contexto social también pesa.",
+   "seccion": "Sus conceptos fundamentales"
+  },
+  {
+   "enigma": "Un nene de tres años no suelta su osito rotosito y lo reclama en todos lados, hasta para dormir.",
+   "p": "¿Es un capricho o está pasando algo importante?",
+   "opciones": ["Es un hábito que se le puede ir cortando de a poco", "Es su forma de calmarse cuando está solo", "Es un puente entre su mundo interior y el de afuera"],
+   "r": "Para Winnicott, el osito o la mantita es un objeto transicional: el primer objeto que no es del todo «yo» ni del todo «el mundo». Ocupa una zona intermedia entre el adentro y el afuera, y en esa zona viven después el juego, el arte y la cultura.",
+   "como": "Lo describió en 1953 observando a chicos y a sus familias en la práctica pediátrica, sin recurrir a experimentos.",
+   "debate": "Es una observación clínica muy valorada, pero no una teoría que se mida con facilidad. La investigación posterior sobre el apego le dio otras herramientas para pensar lo mismo.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si de a poco necesitamos fallarle al otro para que crezca, ¿cuánto es suficiente y cuánto ya es demasiado? Quizás cada chico y cada familia tengan su propia medida."
+}

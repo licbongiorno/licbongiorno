@@ -1,0 +1,24 @@
+{
+ "autor": "Berne",
+ "preguntas": [
+  {
+   "enigma": "Le pedís un consejo a un amigo. Cada sugerencia que te da, la contestás con un «sí, pero…». Terminan los dos agotados.",
+   "p": "¿Qué está pasando realmente en esa conversación?",
+   "opciones": ["Que el amigo da malos consejos", "Que vos en el fondo no querés resolverlo", "Que ambos repiten sin querer un libreto conocido"],
+   "r": "Berne llamó juegos psicológicos a esas secuencias repetitivas de intercambios con un mensaje oculto y un final previsible, en el que alguien termina con un sentimiento conocido. «Sí, pero…» es uno de los juegos que catalogó.",
+   "como": "Venía del psicoanálisis y de atender a muchos soldados como psiquiatra del ejército. Reunió colegas en seminarios de San Francisco y armó un vocabulario deliberadamente llano, que un paciente pudiera usar.",
+   "debate": "Los juegos son un modelo para pensar, no algo medible, y algunos de su catálogo reflejan estereotipos de su época. Además, acusar al otro de «estar jugando» se vuelve un nuevo juego.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Preguntás con tono tranquilo «¿sabés dónde están las llaves?» y te contestan «¡siempre me preguntás a mí!».",
+   "p": "¿Por qué una pregunta simple se convirtió en un reproche?",
+   "opciones": ["La otra persona venía de mal humor", "Respondió desde un lugar distinto del que vos le hablaste", "Vos preguntaste de una manera que sonó a reclamo"],
+   "r": "Berne describió tres estados del yo, Padre, Adulto y Niño, y llamó transacciones a los intercambios entre ellos. Acá la pregunta de Adulto recibió una respuesta de Padre crítico: una transacción cruzada, que corta el diálogo.",
+   "como": "Lo fue armando a partir de la observación clínica y de grupos, y lo presentó en *Análisis transaccional en psicoterapia* (1961).",
+   "debate": "Los estados del yo son un modelo útil, no entidades que se midan en el cerebro. La investigación sobre la eficacia del análisis transaccional es más escasa y despareja que la de otros enfoques.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si muchos guiones se deciden en la infancia, ¿hasta dónde se pueden revisar de grande, y qué hace falta para que ese cambio dure?"
+}

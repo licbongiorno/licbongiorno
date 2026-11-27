@@ -1,0 +1,24 @@
+{
+ "autor": "Charcot y Janet",
+ "preguntas": [
+  {
+   "enigma": "Alguien queda con un brazo paralizado, pero ningún estudio muestra lesión alguna. Y a veces, con una sugerencia, el brazo se mueve.",
+   "p": "¿Cómo puede el cuerpo enfermar sin una lesión que se vea?",
+   "opciones": ["La persona lo está inventando", "Hay algo del orden psíquico que se expresa en el cuerpo", "Hay una lesión muy pequeña que todavía no se detecta"],
+   "r": "Charcot sostuvo que la histeria era un trastorno real del sistema nervioso, que también afectaba a los varones, y no una simulación. Usó la hipnosis para reproducir síntomas y mostrar que eran de origen psíquico: la parálisis aparecía y desaparecía bajo sugestión.",
+   "como": "Cada martes presentaba pacientes ante estudiantes y médicos en el hospital de la Salpêtrière, de París, y organizó fotografías, dibujos y clasificaciones de las «fases» del ataque histérico.",
+   "debate": "La escuela de Nancy, con Bernheim, sostuvo que muchas manifestaciones eran producto de la sugestión, y la historia le dio buena parte de razón. Las pacientes posiblemente aprendían qué se esperaba de ellas, y había un fuerte desequilibrio de poder.",
+   "seccion": "Lo que hoy se critica"
+  },
+  {
+   "enigma": "Alguien que vivió algo abrumador no recuerda ciertos momentos, pero hay sensaciones, imágenes o reacciones que le vuelven sin aviso.",
+   "p": "¿Dónde queda guardado lo que no se puede integrar?",
+   "opciones": ["Se borra solo con el tiempo", "Queda separado del resto de la vida mental y sigue actuando", "Se guarda en el cuerpo y no en la mente"],
+   "r": "Pierre Janet llamó disociación a esa separación: ante emociones muy intensas, algunas experiencias no se integran con el resto de la vida mental y pueden seguir actuando fuera de la conciencia, como «ideas fijas subconscientes». Propuso tratar por fases: primero estabilizar, luego trabajar los recuerdos y por último reintegrar.",
+   "como": "Estudió pacientes con hipnosis, a distancia incluso, y se formó con Charcot. Publicó su tesis *L'automatisme psychologique* en 1889.",
+   "debate": "La disociación como idea es discutida: no hay un solo modelo y hay debates sobre cómo se forma y se mide. Janet es una fuente histórica y conceptual, no una prueba de eficacia: los tratamientos actuales se evalúan con sus propios estudios.",
+   "seccion": "Por qué Janet vuelve"
+  }
+ ],
+ "abierta": "Su esquema por fases reaparece hoy en los tratamientos de trauma. ¿Qué hace falta para que alguien pueda recordar sin que el recuerdo lo desborde?"
+}

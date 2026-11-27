@@ -1,0 +1,24 @@
+{
+ "autor": "Nietzsche",
+ "preguntas": [
+  {
+   "enigma": "Un lunes cualquiera, alguien te pregunta: si tuvieras que vivir este día igual, otra vez y para siempre, ¿lo aceptarías?",
+   "p": "¿Qué creés que buscaba con esa pregunta?",
+   "opciones": ["Saber si creemos en la reencarnación", "Comprobar si tenemos una vida perfecta", "Que veas qué elegirías conservar y qué ya no querés seguir cargando"],
+   "r": "Es el eterno retorno de Nietzsche, que lo planteó como un experimento de pensamiento y no como una teoría del cosmos. La pregunta no busca una vida perfecta, sino que veas qué elegirías conservar y qué no estás dispuesto a seguir cargando.",
+   "como": "Lo escribió durante los años en que, con la salud frágil y ya sin cátedra, viajaba por Suiza, Italia y el sur de Francia escribiendo sin descanso.",
+   "debate": "Sus ideas son filosofía y no resultados de investigación, y se prestan a lecturas muy distintas. Conviene desconfiar de las frases sacadas de contexto.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Hay gente que atraviesa épocas durísimas y sigue en pie, y otra que se quiebra ante dificultades que parecían menores.",
+   "p": "¿Qué creés que marca la diferencia?",
+   "opciones": ["La fuerza de voluntad", "El carácter con el que se nace o la suerte", "Tener un porqué para vivir"],
+   "r": "Nietzsche escribió que quien tiene un porqué para vivir puede soportar casi cualquier cómo. Viktor Frankl citaba esa frase para explicar qué había sostenido a algunos prisioneros en los campos de concentración, y de ahí parte buena parte de la pregunta por el sentido en la clínica.",
+   "como": "Se llamaba a sí mismo psicólogo: mostraba que detrás de muchos valores morales hay resentimiento, miedo o deseos que no se admiten.",
+   "debate": "No es un manual de autoayuda: su elogio del sufrimiento como motor no debe leerse como una indicación para quien sufre hoy. Ante un malestar real, lo que ayuda es consultar, no citarlo.",
+   "seccion": "Qué tomó la psicología"
+  }
+ ],
+ "abierta": "¿Los valores que guían tu vida los elegiste o los recibiste hechos? ¿Y cómo se distingue una culpa propia de una heredada?"
+}

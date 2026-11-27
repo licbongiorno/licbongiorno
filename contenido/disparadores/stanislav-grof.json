@@ -1,0 +1,24 @@
+{
+ "autor": "Grof",
+ "preguntas": [
+  {
+   "enigma": "Cada vez que alguien queda atrapado en un ascensor o en un lugar sin salida siente una opresión que no guarda proporción con el peligro.",
+   "p": "¿De dónde puede venir una reacción tan fuerte?",
+   "opciones": ["De algún episodio de la infancia que se olvidó", "De una predisposición genética a la claustrofobia", "De huellas mucho más tempranas, ligadas a la experiencia del nacimiento"],
+   "r": "Grof describió un nivel perinatal de la experiencia, asociado al nacimiento y la muerte, con cuatro matrices ligadas a las etapas del parto. Propuso que esas vivencias podían reaparecer de forma simbólica en adultos y que influirían en cómo se viven las crisis y los finales. Retomó la teoría del trauma del nacimiento de Otto Rank.",
+   "como": "Observó que, en sus investigaciones con LSD y luego con la respiración holotrópica, muchas personas describían experiencias de nacimiento, de muerte y de unidad que no siempre se explicaban por su biografía.",
+   "debate": "Es una hipótesis sugerente, pero no una explicación comprobada: las críticas señalan que los recuerdos del parto no son accesibles de forma fiable. Tiene respaldo la pregunta, no el mapa.",
+   "seccion": "Las matrices perinatales"
+  },
+  {
+   "enigma": "Una persona atraviesa una experiencia muy intensa de apertura, de unidad, y la vive como un desborde. No sabe si lo que le pasa es una crisis, un despertar o una enfermedad.",
+   "p": "¿Cómo se distingue entre una cosa y otra?",
+   "opciones": ["Es siempre una enfermedad, hay que medicar", "Es siempre una experiencia espiritual, hay que acompañar", "Es difícil distinguirlo, y por eso conviene que lo evalúe un profesional"],
+   "r": "Con su esposa Christina, Grof acuñó la expresión «emergencia espiritual» para nombrar crisis en las que una experiencia intensa de apertura se vive como desborde. En 1980 se creó en California la Spiritual Emergence Network para orientar a quienes pasaban por eso.",
+   "como": "Surgió de su trabajo con estados no ordinarios de conciencia y de su participación en la psicología transpersonal, cuyo nombre se propuso en 1967 con Maslow y Sutich.",
+   "debate": "La distinción con un cuadro psiquiátrico es difícil, y por eso importa que cada caso sea evaluado por profesionales. Hoy la investigación con psilocibina y MDMA reabrió preguntas de Grof, pero con otros protocolos y sin validar su mapa.",
+   "seccion": "Emergencia espiritual"
+  }
+ ],
+ "abierta": "Hoy se investiga de nuevo con sustancias psicodélicas bajo supervisión clínica. ¿Qué dice eso sobre los estados de conciencia que se cerraron a la ciencia durante décadas?"
+}

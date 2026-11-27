@@ -1,0 +1,24 @@
+{
+ "autor": "Freud",
+ "preguntas": [
+  {
+   "enigma": "Hace años que terminaste la secundaria y seguís soñando que llegás tarde a un examen que no preparaste.",
+   "p": "¿Por qué tu cabeza vuelve ahí?",
+   "opciones": ["Es un resto de estrés que se quedó pegado", "Es solo basura mental de la noche, sin sentido", "Dice algo disfrazado de un deseo o de una preocupación de hoy"],
+   "r": "Freud propuso en *La interpretación de los sueños* (1900) que los sueños son la realización disfrazada de un deseo, y que interpretarlos es «la vía regia» hacia el inconsciente. Hay deseos, recuerdos y conflictos que siguen actuando sin que lo sepamos y se dejan ver de forma indirecta.",
+   "como": "Primero estudió en París con Charcot a pacientes con histeria y vio que síntomas sin causa orgánica respondían a ideas y recuerdos. Después, en su consultorio, empezó a callarse y escuchar, y le pedía a cada paciente que dijera todo lo que se le ocurriera, sin censura.",
+   "debate": "Muchas de sus ideas fueron discutidas, corregidas o abandonadas, incluso por sus propios seguidores. Lo que perdura es que los síntomas tienen un sentido y que el pasado sigue presente en cómo nos vinculamos.",
+   "seccion": "Sus conceptos fundamentales"
+  },
+  {
+   "enigma": "Alguien repite con cada pareja la misma historia de rivalidad o de desencuentro, aunque jura que esta vez va a ser distinto.",
+   "p": "¿Por qué se repite sin que lo busquemos?",
+   "opciones": ["Mala suerte en elegir parejas", "Porque revivimos modos de vincularnos que vienen de nuestra historia", "Porque no aprendió de sus errores"],
+   "r": "Freud llamó transferencia a ese revivir con otros, y con el analista, modos de vincularse que vienen de la historia. Al principio la vio como un obstáculo; después entendió que era el motor del tratamiento.",
+   "como": "Lo observó en sus pacientes, en la relación con él mismo. Con Josef Breuer había publicado en 1895 los *Estudios sobre la histeria*, donde aparece «Anna O.», que llamó a ese tratamiento «la cura por la palabra».",
+   "debate": "Algunas de sus teorías, como la pulsión de muerte o la centralidad del complejo de Edipo, siguen muy discutidas. Hay escuelas que se separaron del psicoanálisis desde el principio, como las de Jung y Adler.",
+   "seccion": "Por qué sigue importando"
+  }
+ ],
+ "abierta": "¿Hasta qué punto podemos conocer lo que nos mueve, si una parte de eso actúa sin que lo sepamos?"
+}

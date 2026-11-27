@@ -1,0 +1,24 @@
+{
+ "autor": "Séchenov",
+ "preguntas": [
+  {
+   "enigma": "En una reunión sentís el impulso de decir algo, preparás la frase y te callás. Lo hacés varias veces. Al salir estás agotada, aunque «no hiciste nada».",
+   "p": "¿Callarse es no hacer, o es hacer algo?",
+   "opciones": ["Es no hacer nada: el cansancio viene de los nervios", "Frenar una acción también es actividad del sistema nervioso, y cuesta", "Es un problema de personalidad y no de cuerpo"],
+   "r": "Séchenov mostró en 1862 la inhibición central: estimulando ciertas zonas del encéfalo de la rana, los reflejos de la médula se debilitaban o se detenían. Hasta entonces se pensaba el sistema nervioso como un aparato que excita; él mostró que parte de su trabajo es frenar. Y propuso que pensar sería algo así como preparar una acción y frenarla antes de que salga al exterior.",
+   "como": "Lo descubrió en el laboratorio de Claude Bernard, en París, trabajando con ranas. Publicó el resultado en 1863 y ese mismo año escribió Reflejos del cerebro, que en 1866 como libro generó acciones legales por parte del comité de censura.",
+   "debate": "La inhibición central es un hallazgo sólido. Pero la idea de que todo el pensamiento es un reflejo inhibido no se sostiene tal cual: la psicología posterior mostró el papel del lenguaje, de la cultura y de procesos que no se reducen a estímulo y respuesta.",
+   "seccion": "«Reflejos del cerebro» (1863)"
+  },
+  {
+   "enigma": "Si le preguntás a alguien qué siente o qué piensa, te cuenta lo que cree que le pasa. Pero ¿cuánto de eso es fiable como dato de ciencia?",
+   "p": "¿Se puede estudiar la mente sin preguntarle a la persona?",
+   "opciones": ["No, lo único que sabe de su mente es ella misma", "Sí, estudiando lo observable: cómo responde a los estímulos", "Hay que combinar ambas cosas y desconfiar de cada una por separado"],
+   "r": "Béjterev desconfiaba de la introspección, que le parecía demasiado subjetiva, y propuso estudiar solo lo observable: las respuestas del organismo a los estímulos. Propuso reemplazar la palabra psicología por reflexología, y su concepto central era el reflejo de asociación, una respuesta aprendida porque un estímulo aparece junto con otro.",
+   "como": "Fundó en 1886, en Kazán, el primer laboratorio de psicología experimental de Rusia y después el Instituto Psiconeurológico de San Petersburgo. Prefería respuestas motoras leves, como retirar la mano, porque se podían estudiar mejor en personas que la salivación de los perros de Pávlov.",
+   "debate": "La vieja querella entre los dos dejó opacada su obra fuera de Rusia, aunque John B. Watson, el fundador del conductismo, leyó su Psicología objetiva. Y la reflexología como sistema completo quedó como antecedente histórico: Vygotsky discutió la idea de explicar toda la mente con reflejos.",
+   "seccion": "Vladímir Béjterev: el neurólogo que quería una psicología objetiva"
+  }
+ ],
+ "abierta": "Hoy entendemos el aprendizaje por asociación y la inhibición con mucho respaldo, pero no sabemos cómo se arma la experiencia consciente a partir de ellos. ¿Alcanzará algún día con los reflejos para explicarla?"
+}

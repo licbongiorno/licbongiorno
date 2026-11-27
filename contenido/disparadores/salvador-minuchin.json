@@ -1,0 +1,24 @@
+{
+ "autor": "Minuchin",
+ "preguntas": [
+  {
+   "enigma": "En la primera sesión, la madre habla por su hija de catorce años: «Ella no quiere comer, lo hace por llamar la atención». La hija mira el piso. El padre mira el celular.",
+   "p": "Si fueras el terapeuta, ¿qué harías?",
+   "opciones": ["Seguir preguntándole a la madre, que parece la que más sabe", "Pedirle a la hija que explique por qué no come", "Dirigirte a la hija y pedirles a los padres que hablen entre ellos delante de ella"],
+   "r": "Minuchin se dirigiría a la hija: «¿vos qué pensás?». Después les pediría a los padres que hablen entre ellos de lo que les preocupa, delante de ella. La técnica se llama escenificación: en vez de que la familia cuente cómo es, se la invita a mostrarlo ahí, en la sesión, y el terapeuta interviene sobre lo que ve.",
+   "como": "Aprendió a atender a las familias completas y no solo a los chicos trabajando en la Wiltwyck School, una institución para varones de barrios pobres, y después dirigió la Philadelphia Child Guidance Clinic.",
+   "debate": "La investigación sobre terapia familiar en adolescentes con anorexia respalda el trabajo con la familia, pero no valida cada una de sus ideas estructurales.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "En muchas familias hay un hijo que carga con la etiqueta de «el problema».",
+   "p": "¿Qué creés que dice el síntoma de ese hijo?",
+   "opciones": ["Algo del hijo y de su personalidad, nada más", "Que los padres hicieron algo mal", "Algo de cómo está organizada la familia entera"],
+   "r": "Minuchin enseñó que muchas veces el síntoma de un hijo dice algo sobre cómo está organizada la familia: quién manda, quién se alía con quién, qué límites se borraron. Cambiar esa organización puede hacer que el síntoma deje de ser necesario.",
+   "como": "Con su equipo estudió familias de chicos con enfermedades psicosomáticas y familias de barrios pobres, y dibujaba mapas de la familia con sus subsistemas y límites.",
+   "debate": "Su énfasis en la jerarquía recibió críticas, en particular desde enfoques feministas, porque puede reforzar roles tradicionales o pasar por alto el poder desigual dentro de una familia. Y en casos de violencia, intervenir sobre la estructura no alcanza ni es adecuado: primero está la seguridad.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Lo que es «un límite sano» entre padres e hijos cambia según la cultura. ¿Cómo se distingue una familia unida de una aglutinada?"
+}

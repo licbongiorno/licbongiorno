@@ -1,0 +1,24 @@
+{
+ "autor": "Merleau-Ponty",
+ "preguntas": [
+  {
+   "enigma": "Juntá las manos: la derecha toca a la izquierda. Ahora fijate que en cualquier momento eso se puede invertir, y la que era tocada empieza a tocar.",
+   "p": "¿Tu cuerpo es algo que usás, o algo que sos?",
+   "opciones": ["Es una máquina que la mente maneja", "Es solo un objeto biológico, como cualquier otro", "Es a la vez el que toca y lo tocado: sujeto y objeto"],
+   "r": "Merleau-Ponty usó esta experiencia mínima para mostrar que el cuerpo es, a la vez, sujeto y objeto. Habló del cuerpo vivido, distinto del cuerpo que estudia la anatomía: el lugar desde el cual tenemos un mundo. Antes de pensar el mundo, lo percibimos.",
+   "como": "Tomó de Husserl el método fenomenológico, describir la experiencia tal como se vive, y le agregó el cuerpo. Para discutir con la psicología de su época revisó casos clínicos, entre ellos los de soldados con lesiones cerebrales estudiados por Kurt Goldstein.",
+   "debate": "Hizo filosofía, no investigación experimental: sus descripciones son agudas y útiles para pensar, pero no son hallazgos medidos. La investigación sobre cognición encarnada, que sí produce datos, es posterior y de otros autores.",
+   "seccion": "Sus ideas centrales"
+  },
+  {
+   "enigma": "Entrás a tu casa a oscuras y tu mano encuentra el interruptor sin que nadie le diga dónde está. O alguien amputado sigue sintiendo el brazo que ya no tiene.",
+   "p": "¿Dónde está el saber que guía a ese cuerpo?",
+   "opciones": ["En la memoria: la cabeza se acuerda y la mano obedece", "Es solo un reflejo mecánico, sin ningún saber", "En el propio cuerpo, que tiene un saber práctico que no pasa por la reflexión"],
+   "r": "Para Merleau-Ponty el cuerpo tiene un esquema propio, un saber práctico: sabemos dónde están nuestras manos sin mirarlas. El miembro fantasma le servía para mostrar que el cuerpo vivido no se reduce a la anatomía, sino que es un modo de estar orientado hacia el mundo, y puede seguir orientado hacia algo que ya no está.",
+   "como": "Tomaba ejemplos de la vida diaria: el mecanógrafo que no busca las letras, o la persona ciega cuyo bastón deja de ser un objeto y pasa a ser una prolongación de su mano.",
+   "debate": "Conviene leerlo como una mirada que ordena la experiencia y no como prueba de que una técnica corporal funcione; la investigación posterior sobre cognición encarnada y terapias corporales sigue discutiéndose.",
+   "seccion": "Un ejemplo cotidiano"
+  }
+ ],
+ "abierta": "Cuando alguien dice «tengo un nudo en el estómago», ¿describe una metáfora o cómo vive realmente la situación? La relación entre cuerpo, emoción y pensamiento sigue siendo un territorio abierto."
+}

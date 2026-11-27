@@ -1,0 +1,24 @@
+{
+ "autor": "Patañjali",
+ "preguntas": [
+  {
+   "enigma": "Te acostás y la cabeza repasa la discusión de la tarde, la lista de pendientes y lo que dijiste hace tres años. Cuanto más querés que pare, más se acelera.",
+   "p": "¿Qué hacer con una mente que no se calla?",
+   "opciones": ["Forzarla a quedarse en blanco hasta que se canse", "Combinar práctica repetida con un desapego amable", "Distraerla con otra cosa hasta dormirte"],
+   "r": "Patañjali define el yoga como el aquietamiento de los movimientos de la mente. No propone forzar la mente a quedarse en blanco, sino combinar abhyasa, la práctica repetida, con vairagya, un desapego amable. Cinco minutos diarios de atención a la respiración, sin pretender nada, son una versión doméstica.",
+   "como": "Los Yoga Sutras reúnen en menos de doscientos aforismos prácticas que ya existían. Casi no sabemos nada de Patañjali, ni siquiera la fecha exacta: se la ubica alrededor del año 400, aunque algunos proponen siglos antes.",
+   "debate": "Hay revisiones que encontraron mejoras moderadas en depresión y ansiedad con yoga, pero con estudios pequeños y de calidad despareja: sirve como recurso, no como reemplazo de la psicoterapia.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Te enojás con una demora, querés otra porción de algo, y por debajo de todo hay un miedo a perder lo que tenés.",
+   "p": "¿Qué tienen en común esas reacciones tan distintas?",
+   "opciones": ["Nada, son reacciones separadas", "Todas son formas de querer y no querer que alimentan el sufrimiento", "Todas vienen de una mala crianza"],
+   "r": "Patañjali habló de cinco kleshas o aflicciones: la ignorancia, el sentido rígido del yo, la atracción, el rechazo y el miedo a la muerte. Esa lista, escrita hace siglos, se parece sorprendentemente a una descripción de cómo el sufrimiento se alimenta de querer y no querer.",
+   "como": "Es parte de una de las seis grandes escuelas filosóficas de la India clásica, el yoga, que comparte con el samkhya una visión del ser humano como conciencia y materia entrelazadas.",
+   "debate": "Los Yoga Sutras no son un texto de bienestar: su meta es la liberación, un fin espiritual que no coincide con «sentirse mejor». Y el yoga moderno de posturas tiene poco que ver con el texto, que dedica a las posturas apenas unos pocos aforismos.",
+   "seccion": "El contexto de su obra"
+  }
+ ],
+ "abierta": "¿Qué parte de las prácticas contemplativas antiguas se puede traducir a la psicología de hoy sin perder lo que querían decir? Sigue en discusión."
+}

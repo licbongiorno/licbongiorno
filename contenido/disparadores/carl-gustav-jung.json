@@ -1,0 +1,24 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Alguien te nombra una palabra cualquiera y, sin querer, te quedás un segundo de más antes de contestar.",
+   "p": "¿Qué puede estar pasando en esa pausa?",
+   "opciones": ["Simple distracción, no significa nada", "Esa palabra toca algo con carga emocional que no tenías presente", "Estás midiendo qué conviene responder"],
+   "r": "Jung encontró que ciertas palabras demoraban o alteraban las respuestas porque detrás había núcleos cargados de emoción, a los que llamó complejos. Actúan con cierta autonomía, aunque no nos demos cuenta.",
+   "como": "Lo descubrió en el hospital Burghölzli de Zúrich, con el experimento de asociación de palabras. Fue un trabajo experimental de psiquiatra, y fue lo que lo acercó a Freud.",
+   "debate": "Su obra se apoya en observación clínica, simbolismo y comparación cultural, y mucho de ella no se presta a la comprobación experimental. Por eso hay quienes la valoran como mapa para pensar y no como ciencia en sentido estricto.",
+   "seccion": "Quién fue"
+  },
+  {
+   "enigma": "Soñás con una figura que no conocés, un sabio, un héroe o una madre enorme, y encima tiene algo de las historias que leíste de chico.",
+   "p": "¿De dónde vienen esas imágenes que parecen tan antiguas?",
+   "opciones": ["De películas y cuentos que vimos y olvidamos", "De algo común a todos los seres humanos, más profundo que lo personal", "De lo que nos pasó en la infancia con nuestros padres"],
+   "r": "Para Jung, además del inconsciente personal hay una capa común a toda la humanidad. Allí viven los arquetipos, patrones universales como la madre, el héroe o el sabio, que organizan la experiencia y aparecen en mitos, sueños y vidas.",
+   "como": "Después de separarse de Freud se internó en una confrontación con sus propias imágenes interiores, que registró en el Libro Rojo, publicado recién en 2009. También viajó a África, la India y Estados Unidos, y estudió la alquimia como espejo de procesos psíquicos.",
+   "debate": "El inconsciente colectivo es una hipótesis difícil de poner a prueba, y se discute si esas semejanzas se explican por algo heredado o por experiencias humanas compartidas.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Hay imágenes y relatos que todos los humanos compartimos por algo común en nuestra mente, o solo porque vivimos situaciones parecidas?"
+}

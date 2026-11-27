@@ -1,0 +1,24 @@
+{
+ "autor": "Buda",
+ "preguntas": [
+  {
+   "enigma": "Te duele una muela. Además del dolor, te encontrás pensando «¿por qué no fui antes al dentista?», «seguro es algo grave», «esto no se termina más».",
+   "p": "¿Cuánto de tu malestar es el dolor, y cuánto es lo que le agregás?",
+   "opciones": ["Todo es el dolor: lo demás es solo una consecuencia natural", "La mayor parte es lo que le agregamos con los pensamientos", "Hay una parte inevitable y otra que se suma con la reacción, y esa segunda tiene algo de margen"],
+   "r": "Un texto budista, el Sallatha Sutta, habla de dos flechas. La primera es el dolor que no se elige; la segunda es la que uno agrega con la reacción: «no debería pasarme», «soy un desastre». La primera no se evita, pero sobre la segunda, con práctica, hay algo de margen.",
+   "como": "Según la tradición, el Buda llegó a esto tras años de buscar una salida al sufrimiento, primero entre lujos, luego en ayunos extremos, hasta proponer un camino intermedio basado en observar con atención el cuerpo, las sensaciones y la mente.",
+   "debate": "Su biografía llegó a nosotros por textos escritos siglos después, que mezclan memoria y leyenda. Y el mindfulness clínico es una adaptación que recortó el marco ético y religioso, algo que críticos como Ronald Purser cuestionan.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Una relación, un trabajo, una etapa de la vida que querías que durara para siempre cambió, y no podés dejar de pensar en cómo era antes.",
+   "p": "¿Por qué nos cuesta tanto aceptar que las cosas cambian?",
+   "opciones": ["Porque a veces las cosas cambian para peor y es lógico resistirse", "Porque nos aferramos a lo que creemos que tendría que durar", "Porque no nos animamos a empezar algo nuevo"],
+   "r": "Para el Buda, todo es impermanente: los objetos, las relaciones, los estados de ánimo y hasta el propio yo. Una de las cuatro nobles verdades dice que el sufrimiento nace del apego y del deseo insaciable, es decir, de aferrarse a lo que no puede durar.",
+   "como": "La tradición cuenta que lo descubrió al ver por primera vez la vejez, la enfermedad y la muerte, y que lo comprobó meditando bajo un árbol en Bodh Gaya. Más que un dogma, propuso una práctica de observación directa.",
+   "debate": "Hablar de «el budismo» como una sola cosa es una simplificación: hay tradiciones muy distintas. Y la investigación sobre meditación muestra efectos moderados, similares a los de otros tratamientos, y no es para todas las personas ni momentos.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "Si el «yo» es un proceso que cambia y no una cosa sólida, ¿qué es lo que queda cuando todo cambia? La pregunta sigue abierta tanto para la filosofía como para la neurociencia."
+}
