@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Imaginá una casa con cuatro paredes. Si una se cae o se debilita, la casa entera se resiente, aunque las otras tres estén firmes.",
+   "p": "¿Qué creés que representa esa casa en la salud maorí?",
+   "opciones": ["Solo la salud del cuerpo", "Cuatro dimensiones de una misma vida que se sostienen entre sí", "Cuatro especialistas distintos que atienden por separado"],
+   "r": "Te Whare Tapa Whā describe dimensiones de una misma vida que se sostienen entre sí, no partes separadas. La salud en esta mirada es hauora, una palabra maorí que suele traducirse como «bienestar» y se vincula con el aliento. No es solo ausencia de enfermedad. Debajo de la casa está el suelo, la whenua: tierra y placenta, de dónde viene uno y a dónde pertenece.",
+   "como": "Lo presentó el psiquiatra Mason Durie, de ascendencia maorí, a comienzos de los años ochenta (suele citarse 1984), en un contexto de colonización con pérdida de tierras, de lengua y de autoridad sobre la salud.",
+   "debate": "Es un marco conceptual, no una teoría con hipótesis medibles, ni un test ni un tratamiento. Hay evaluaciones de programas que lo usan, con resultados dispares, y la investigación sobre sus efectos es mucho menor que su difusión.",
+   "seccion": "Las cuatro paredes"
+  },
+  {
+   "enigma": "En 1977 George Engel propuso el modelo biopsicosocial, que pide mirar más allá del cuerpo. El modelo maorí también lo pide.",
+   "p": "¿Son lo mismo?",
+   "opciones": ["Sí, son versiones de una misma idea", "No: el maorí incluye lo espiritual y la familia como dimensiones básicas y se ancla en una visión del mundo propia", "Sí, pero el de Engel es más antiguo"],
+   "r": "Hay un parecido real, pero no son equivalentes. El de Engel integra lo biológico, lo psicológico y lo social desde la medicina occidental; el de Durie incluye el wairua y el whānau como dimensiones básicas y está anclado en una visión del mundo maorí. Es un lenguaje propio para el pueblo que lo creó, en lugar de uno prestado.",
+   "como": "Se compara con lo que cada modelo incluye y desde dónde surgió. Hay además otros modelos hermanos, como Te Wheke o el Fonofale samoano, que usan otras imágenes.",
+   "debate": "Para quien no es maorí hay una cautela: aplicarlo a otras personas como modelo universal puede ser apropiación. Puede tomarse como inspiración para preguntarse qué dimensiones de la propia vida están descuidadas.",
+   "seccion": "Qué aporta y qué no"
+  }
+ ],
+ "abierta": "Si un modelo nace de una cultura, ¿cuánto puede viajar a otras sin perder su sentido? Es algo que los propios maoríes y los equipos de salud siguen discutiendo."
+}

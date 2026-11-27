@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te descubrís furioso por algo mínimo, como que alguien se te adelantó en la fila. En vez de justificarte, por un instante te preguntás de dónde sale tanta fuerza.",
+   "p": "¿Qué conviene hacer con ese impulso que parece tener vida propia?",
+   "opciones": ["Eliminarlo del todo, porque el yo es el problema", "Conocerlo y educarlo, sin pelearse con uno mismo", "Dejar que mande, porque es lo más auténtico que hay"],
+   "r": "La psicología sufí, tal como la ordena Robert Frager, piensa el yo (el nafs) en niveles, desde formas ligadas al impulso hasta formas más armónicas. El nivel más bajo es el yo tiránico, que empuja a satisfacer deseos sin freno. La idea de fondo es trabajar con el yo, conocerlo y educarlo, no eliminarlo.",
+   "como": "No nació como disciplina académica sino dentro de un camino espiritual del islam, con maestros y prácticas. Frager, psicólogo social y sheij sufí, publicó en 1999 «Heart, Self, and Soul» para ordenar esas ideas para un lector contemporáneo, y se apoya en una historia larga, con figuras como Al-Ghazali (1058-1111).",
+   "debate": "Es una propuesta espiritual y filosófica, no ciencia: no hay estudios controlados que se conozcan con certeza que midan esos niveles o prueben resultados. Y no corresponde usarla para diagnosticar ni como reproche hacia uno mismo.",
+   "seccion": "Nafs, qalb y espíritu"
+  },
+  {
+   "enigma": "Sabés qué sería razonable hacer y lo sentís en el cuerpo, pero las dos cosas no coinciden. Muchas culturas dicen que algo en el medio las comunica.",
+   "p": "¿Qué lugar le darías a ese «algo en el medio»?",
+   "opciones": ["Es simplemente la emoción del momento", "Es el órgano del corazón y su ritmo", "Un centro interior que media entre el yo y lo más hondo"],
+   "r": "En la psicología sufí ese lugar se llama qalb, el corazón espiritual. Funciona como mediador entre el nafs y el espíritu, y no se reduce a la emoción ni al órgano.",
+   "como": "Viene de siglos de reflexión de pensadores creyentes del sufismo, la dimensión mística del islam, mucho antes de la psicología moderna. Frager lo recoge desde su doble condición de psicólogo y maestro sufí.",
+   "debate": "Su validez es de otro orden: describe una vía de transformación dentro de una fe, no un hallazgo medido. Merece respeto como tradición, sin presentarla como tratamiento, y quien no cree también ocupa una posición legítima.",
+   "seccion": "Qué es propuesta espiritual y qué no tiene investigación"
+  }
+ ],
+ "abierta": "¿Se puede aprender de una tradición espiritual sin tomarla fuera de contexto? Es una pregunta que sigue abierta entre quienes la practican y quienes la estudian."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un empleado de cuarenta años duerme mal hace meses y anda irritable con todos. Por fin pide un turno, pero elige un consultorio lejos de su casa, paga en efectivo y no se lo cuenta a nadie. Teme que su jefe se entere o que su familia piense que «se volvió loco».",
+   "p": "En una encuesta nacional, de quienes dijeron haber tenido algún problema de salud mental en el último año, ¿cuántos hablaron con alguien o consultaron?",
+   "opciones": ["Más de la mitad", "Alrededor de uno de cada tres", "Casi nadie, menos de uno de cada diez"],
+   "r": "En la encuesta coreana el 70,1 % dijo haber tenido algún problema de salud mental en el último año, en sentido amplio (estrés intenso, ánimo bajo, ansiedad). Solo el 30,4 % habló con alguien o consultó a un profesional. Pesan la vergüenza ante la familia, el valor de aguantar en silencio y el miedo a las consecuencias en el trabajo o el matrimonio.",
+   "como": "Se sabe por la encuesta nacional de conocimiento y actitudes sobre salud mental que encarga el Centro Nacional de Salud Mental, con una muestra grande de 5.100 personas de 15 a 69 años. La edición de 2024 mostró además que el 64,6 % creía que las personas con un trastorno mental son más peligrosas.",
+   "debate": "El estigma no depende solo de la cantidad de servicios: si la gente teme las consecuencias de consultar, no consulta. Y en Corea mucha gente llega primero al clínico con dolores o palpitaciones, lo que complica ver el malestar emocional.",
+   "seccion": "El estigma ante la consulta"
+  },
+  {
+   "enigma": "Un psiquiatra coreano que estudió en Estados Unidos vuelve a su país y, en vez de copiar lo que aprendió, se pregunta si el zen, el confucianismo y los textos de Laozi y Zhuangzi apuntan a lo mismo que la psicoterapia occidental.",
+   "p": "¿Qué creés que concluyó?",
+   "opciones": ["Que son incompatibles y no se pueden combinar", "Que buscaban la misma meta con distintos nombres", "Que lo oriental debía reemplazar por completo a lo occidental"],
+   "r": "Rhee Dongshick (1920-2014) comparó la meta de las prácticas del Tao con la del psicoanálisis, la psicología humanista y la transpersonal, y concluyó que eran la misma con distintos nombres. Desarrolló la psicoterapia del Tao y el concepto de «sentimiento nuclear», la emoción dominante que se forma sobre todo cuando se frustra el deseo de ser querido y reconocido.",
+   "como": "Lo planteó en un artículo de 1990, «The Tao, psychoanalysis and existential thought». Después Erik Craig presentó la corriente en inglés en 2007 en una revista de psicología humanista.",
+   "debate": "Es una propuesta clínica y teórica con una comunidad de práctica en Corea, pero sin ensayos controlados que muestren su eficacia frente a otras terapias. Tampoco debe confundirse con la psicoterapia taoísta cognitiva china.",
+   "seccion": "Rhee Dongshick y la psicoterapia del Tao"
+  }
+ ],
+ "abierta": "Si el malestar entra por el cuerpo y la consulta se posterga por vergüenza, ¿cómo diseñar servicios que la gente de verdad se anime a usar? Corea sigue buscando respuestas."
+}

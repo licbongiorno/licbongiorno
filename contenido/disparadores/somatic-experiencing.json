@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona atravesó una situación difícil hace años. Hoy está bien, trabaja, se ríe, pero cuando alguien se le acerca por detrás siente el pecho apretado, las manos frías y ganas de irse. No hay una historia nueva que contar: hay una sensación que sigue ahí.",
+   "p": "¿Por dónde empezarías a trabajar?",
+   "opciones": ["Por la historia: contarla otra vez y ponerle palabras", "Por la sensación en el cuerpo, y recién después el sentido si aparece", "Por convencerla de que ya pasó y no hay motivo para sentir eso"],
+   "r": "Somatic Experiencing propone una puerta de entrada distinta: notar con atención lo que ocurre en el cuerpo (tensión, temperatura, impulsos de moverse o quedarse quieto) y trabajar desde ahí. No reemplaza la palabra, pero cambia el punto de partida. Para quien siente que ya lo contó mil veces sin que cambie nada, puede resultar interesante.",
+   "como": "Peter Levine lo presentó en su libro «Waking the Tiger» (1997), poniendo el foco en las sensaciones corporales como camino para trabajar con el trauma.",
+   "debate": "Que sea otra puerta de entrada no la vuelve mejor que otros caminos: es una opción más dentro de las terapias del trauma.",
+   "seccion": "Qué lo distingue"
+  },
+  {
+   "enigma": "Se hizo un ensayo con asignación al azar para ver si un método que parte del cuerpo ayudaba a personas con estrés postraumático.",
+   "p": "¿Cómo lo describirías hoy, con lo que se publicó?",
+   "opciones": ["Un método comprobado en todos los casos", "Un enfoque con respaldo inicial y señales alentadoras", "Un enfoque que se demostró inútil"],
+   "r": "El ensayo aleatorizado de Brom y colaboradores (2017) tuvo resultados positivos, aunque los autores aclaran que hace falta más investigación para saber quiénes se benefician más. Una revisión de 2021 halló evidencia inicial de impacto positivo en síntomas afectivos y somáticos y en el bienestar.",
+   "como": "Con un ensayo controlado aleatorizado en el Journal of Traumatic Stress y una revisión de alcance (Kuhfuß y colaboradores, 2021): encontraron 83 artículos y analizaron 16.",
+   "debate": "La calidad de los estudios fue mixta y se piden más ensayos aleatorizados sin sesgo. Hay señales alentadoras que no equivalen a una base sólida y amplia: es un enfoque con respaldo inicial, no un método cerrado.",
+   "seccion": "Qué evidencia tiene"
+  }
+ ],
+ "abierta": "¿Quiénes se benefician más de empezar por el cuerpo y quiénes de empezar por la palabra? Los propios investigadores dicen que aún no lo saben."
+}

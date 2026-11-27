@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una sala con colchonetas, telas y cajas, un nene de cuatro años arma una casa, se esconde adentro y espera que lo busquen. La profesional no le corrige nada: juega con él y mira.",
+   "p": "¿Qué creés que está observando?",
+   "opciones": ["Si el nene tiene buena fuerza muscular", "Cómo se mueve, cómo se acerca a los otros y cómo tolera esperar", "Si sigue bien las consignas de un juego"],
+   "r": "En psicomotricidad el modo en que un niño se mueve y juega dice algo de cómo se vincula y de cómo se desarrolla. El cuerpo no es un instrumento aparte de la mente sino el lugar donde se juega el desarrollo, y el juego es el material de trabajo.",
+   "como": "Surgió en Francia: Ernest Dupré introdujo el término en 1905 al estudiar la relación entre motricidad y psiquismo, y en 1947 Julián de Ajuriaguerra creó un servicio de reeducación psicomotriz en París. Wallon y Piaget figuran entre sus bases teóricas.",
+   "debate": "Tiene larga tradición teórica y formación universitaria, pero eso no equivale a ensayos controlados sobre cada intervención. Conviene presentarla como disciplina con sustento teórico y respaldo en la práctica.",
+   "seccion": "Con qué trabaja"
+  },
+  {
+   "enigma": "Un niño tiene dificultades para moverse, atender o vincularse. La familia se pregunta a quién consultar: ¿al que trabaja el cuerpo, al que trabaja la palabra o a otro?",
+   "p": "¿Cuál te parece la mejor respuesta?",
+   "opciones": ["A uno solo, para no confundir al niño", "Siempre primero a quien trabaja el cuerpo", "Pueden intervenir varios, en comunicación entre sí"],
+   "r": "La psicomotricidad no es terapia física, que trabaja la función motriz con otros fines, ni psicoterapia, que trabaja sobre todo con la palabra. Se articula con ambas, y lo razonable es que los profesionales se comuniquen. No reemplaza una evaluación médica y psicológica completa.",
+   "como": "En Argentina es carrera universitaria, por ejemplo en la Universidad Nacional de Tres de Febrero, y Daniel Calmels es un autor de referencia. La formación combina neurología, psicología del desarrollo y práctica con niños en sala.",
+   "debate": "Es clínica y educativa a la vez, y su alcance preciso frente a otras disciplinas se sigue discutiendo. No es un método para corregir a un niño ni un entrenamiento como en un deporte.",
+   "seccion": "En qué se diferencia"
+  }
+ ],
+ "abierta": "Si el cuerpo y la mente no se pueden separar tan fácil, ¿cómo saber qué intervención ayuda a cada niño? Todavía hay pocas respuestas basadas en ensayos controlados."
+}

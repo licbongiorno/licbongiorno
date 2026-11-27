@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un terapeuta te dice que trabaja «de forma integrativa». Vos imaginás un menú: hoy un poco de esto, mañana un poco de aquello.",
+   "p": "¿Qué distingue a una terapia integrativa seria de una mezcla sin criterio?",
+   "opciones": ["Que use la mayor cantidad posible de técnicas", "Que tenga un eje, formación y criterio para elegir cada recurso", "Que cambie de enfoque cada vez que algo no funciona"],
+   "r": "Integrar no es mezclar. Una terapia integrativa seria tiene un oficio que domina y sabe cuándo conviene usar otra herramienta, y la técnica nunca va sola: responde a una comprensión de lo que le pasa a esa persona. La caja de herramientas sirve si se sabe para qué es cada una.",
+   "como": "Durante buena parte del siglo XX las escuelas (psicoanálisis, conductismo, humanismo, sistémica) se desarrollaron enfrentadas. Con el tiempo la investigación mostró que hay factores comunes que influyen mucho en los resultados, como la calidad del vínculo terapéutico.",
+   "debate": "No puede afirmarse que integrar garantice mejores resultados: la palabra «integrativa» no certifica nada. Lo que importa es el eje, la formación y el criterio detrás.",
+   "seccion": "Integrar no es mezclar"
+  },
+  {
+   "enigma": "Escuelas muy distintas, como el psicoanálisis, la Gestalt o la cognitivo-conductual, parecían rivales. Sin embargo, al comparar resultados, algo parecía repetirse en todas.",
+   "p": "¿Qué creés que se repetía?",
+   "opciones": ["Siempre funcionaba mejor la técnica más nueva", "La calidad del vínculo entre terapeuta y paciente", "El número de sesiones, sin importar qué se hiciera en ellas"],
+   "r": "La investigación mostró factores comunes que influyen mucho en los resultados, como la calidad del vínculo terapéutico. Eso sostiene que importa tanto cómo se trabaja y con quién como la técnica elegida.",
+   "como": "A partir de estudios que comparaban resultados entre enfoques y encontraban esos factores compartidos. Eso abrió el camino a enfoques que integran miradas en vez de competir.",
+   "debate": "Que haya factores comunes no resuelve cuándo conviene sumar una técnica específica. Una etiqueta no reemplaza la pregunta de si ese modo de trabajar te sirve a vos.",
+   "seccion": "Un poco de historia"
+  }
+ ],
+ "abierta": "Si el vínculo pesa tanto, ¿cuánto le agrega cada técnica en particular? Es una pregunta que la investigación todavía está tratando de responder."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un domingo, alguien camina por un monte sin auriculares, sin contar pasos y sin llegar a ningún lado. Se detiene a mirar la luz entre las hojas, huele la tierra húmeda y, sin proponérselo, nota que los hombros bajaron.",
+   "p": "¿Qué creés que mostraron los estudios que midieron cosas como el cortisol o la presión arterial?",
+   "opciones": ["Que el cuerpo mostraba signos de estar menos en alerta en el bosque que en entornos urbanos", "Que no había ninguna diferencia medible", "Que el bosque aumentaba el estrés"],
+   "r": "Park y colaboradores (2010) reunieron datos de 24 bosques de Japón. En promedio, los entornos forestales se asociaron con menor cortisol, pulso y presión arterial, más actividad parasimpática y menos simpática que los urbanos. El cuerpo muestra signos de estar menos en alerta.",
+   "como": "Con un diseño típico: grupos pequeños de adultos caminan o miran un paisaje en un bosque y otro día en un entorno urbano, y se comparan indicadores fisiológicos. Yoshifumi Miyazaki empezó estos experimentos en 1990.",
+   "debate": "Una revisión de 28 estudios (2019) encontró limitaciones: varios con menos de 20 participantes, 11 no aleatorizados y 12 de baja calidad. Los resultados son consistentes en dirección, pero la calidad es baja a moderada.",
+   "seccion": "Lo que midieron los estudios fisiológicos"
+  },
+  {
+   "enigma": "Alguien que vive en una ciudad no tiene un bosque cerca. Solo una plaza con árboles y una vereda arbolada.",
+   "p": "¿Servirá de algo caminar ahí?",
+   "opciones": ["No, sin bosque no hay efecto", "Algo puede servir: caminar por entornos naturales se asoció con menos rumiación", "Es igual caminar por cualquier lado"],
+   "r": "La investigación sugiere que no hace falta un bosque grande. Bratman y colaboradores (2015) asignaron al azar a 38 adultos jóvenes a una caminata de 90 minutos por un entorno natural o urbano, y quienes caminaron por la naturaleza informaron menos rumiación.",
+   "como": "Con un diseño aleatorizado en el que se comparó dónde caminaba cada grupo. Probablemente el efecto sea menor que el de un día entero en un monte, pero es más sostenible.",
+   "debate": "Quedan preguntas abiertas: qué parte del efecto es del bosque y qué parte de caminar, alejarse de pantallas o simplemente descansar, y cuánto pesa la expectativa, porque nadie puede cegarse a estar en un bosque.",
+   "seccion": "La versión urbana: parques, plazas, arbolado"
+  }
+ ],
+ "abierta": "¿Qué tiene exactamente un lugar con árboles que ayuda, y para quién? Todavía no se sabe separar el efecto del bosque del de caminar, descansar o esperar sentirse mejor."
+}

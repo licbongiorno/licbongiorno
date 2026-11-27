@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Corrés todas las mañanas y un día, en lo alto de una loma, el cansancio, el viento y el cielo te parecen parte de una sola cosa. Después te quedás pensando qué fue eso.",
+   "p": "¿Qué haría una psicología que se tome en serio esa vivencia?",
+   "opciones": ["Averiguar si prueba algo sobre el universo", "Explicarla como un simple efecto del cansancio", "Preguntarse qué significa para la persona y cómo se integra en su vida"],
+   "r": "La psicología transpersonal estudia experiencias de unidad, trascendencia y sentido que van más allá del yo personal. No pregunta si la vivencia «prueba» algo, sino qué significa y cómo se integra en la vida de quien la tuvo.",
+   "como": "En 1967 Maslow, Sutich y Grof propusieron el nombre de la corriente. Maslow ya había escrito sobre experiencias cumbre, y Grof aportó investigaciones sobre estados no ordinarios de conciencia. Hoy esas experiencias se estudian, por ejemplo, con cuestionarios como la Escala de Misticismo de Hood.",
+   "debate": "Los niveles de Ken Wilber son un modelo filosófico, no derivan de datos empíricos y se critican por especulativos. Tampoco hay acuerdo sobre qué cuenta exactamente como experiencia transpersonal.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Una persona que no es religiosa tiene en el funeral de su padre un momento de calma extraña, como si el dolor y el paisaje fueran una sola cosa. Después se asusta y se pregunta si algo anda mal.",
+   "p": "¿Cómo conviene acercarse a esa vivencia?",
+   "opciones": ["Rotularla enseguida como una experiencia espiritual", "Rotularla como una disociación y cerrar el tema", "Preguntarle cómo la vivió, qué cambió y qué quiere conservar"],
+   "r": "Desde este enfoque se escucha sin reducirla a síntoma y sin idealizarla. Importa cómo está la persona (sueño, ánimo, funcionamiento), qué significa en su historia y cómo se integra. La actitud pesa más que el rótulo.",
+   "como": "La clínica lo fue construyendo con la práctica: en el DSM-IV existió la categoría «Problema religioso o espiritual», un motivo de atención clínica, no un trastorno. Los Grof describieron en 1989 la «emergencia espiritual», una crisis en que el crecimiento se vuelve caótico.",
+   "debate": "Esa categoría no se basó en datos empíricos y la emergencia espiritual no es un diagnóstico establecido. Hay que descartar episodios maníacos, psicóticos o disociativos y causas médicas o por sustancias. Una crisis no es normal ni patológica por definición.",
+   "seccion": "Cómo se trabaja en terapia"
+  }
+ ],
+ "abierta": "¿Dónde termina una experiencia que amplía a la persona y dónde empieza una que la desorganiza? Distinguirlo con rigor en un caso concreto sigue siendo difícil."
+}

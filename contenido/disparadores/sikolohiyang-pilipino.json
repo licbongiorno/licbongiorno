@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Imaginá estudiar psicología durante décadas con libros, tests y ejemplos pensados para otra gente, en otro idioma, como si describieran a cualquier persona del mundo.",
+   "p": "¿Qué te parece que haría falta cambiar?",
+   "opciones": ["Nada, la psicología es universal", "Traducir los instrumentos al idioma local", "Empezar por la lengua, la historia y las categorías de la propia cultura"],
+   "r": "En Filipinas esa pregunta se hizo política. Virgilio Enriquez (1942-1994) propuso la «indigenización desde adentro»: no solo traducir o adaptar un instrumento extranjero, sino empezar por la lengua, la historia y las categorías de la propia cultura y construir teoría desde ahí.",
+   "como": "La psicología académica llegó con la colonización estadounidense, desde 1898, con el inglés en la universidad y manuales e instrumentos importados. Enriquez, formado en Estados Unidos, volvió a Manila en los años setenta y en 1975 se fundó la Asociación Nacional de Psicología Filipina.",
+   "debate": "Enriquez no rechazaba toda psicología extranjera. La idea circuló más allá de Filipinas y tiene parientes en otros lugares, como el trabajo de Ignacio Martín-Baró en El Salvador.",
+   "seccion": "Una psicología que llegó importada"
+  },
+  {
+   "enigma": "En tagalo, la palabra *kapwa* suele traducirse como «el otro» o «prójimo». Pero quien la propuso insistía en que no significa «otro distinto de mí».",
+   "p": "¿Qué creés que quería decir?",
+   "opciones": ["Que el otro es un extraño al que hay que respetar", "Que el otro y yo compartimos una identidad", "Que cada persona debe ser independiente de los demás"],
+   "r": "Para Enriquez, kapwa nombra una identidad compartida: el otro y yo somos, en cierto modo, lo mismo. Distinguió entre quien es ibang-tao, afuera del círculo, y quien es hindi ibang-tao, adentro del círculo.",
+   "como": "Lo desarrolló con métodos de investigación acordes, que respetan el ritmo y el vínculo con la gente. Pe-Pua y Protacio-Marcelino revisaron este legado en 2000, en una revista de psicología social asiática.",
+   "debate": "Esos métodos son más difíciles de replicar y comparar que un cuestionario estandarizado, y dependen mucho de la relación entre quien investiga y quien participa. Los conceptos no son un instrumento de diagnóstico.",
+   "seccion": "Kapwa, el concepto central"
+  }
+ ],
+ "abierta": "¿Hay una psicología universal con variantes culturales, o varias psicologías que se tienen que entender desde adentro? El movimiento filipino sigue en esa discusión."
+}

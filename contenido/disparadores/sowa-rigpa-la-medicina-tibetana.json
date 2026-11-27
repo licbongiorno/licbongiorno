@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer tibetana en el exilio le cuenta a un médico que tiene el pecho apretado, no duerme y se sobresalta por todo. Dice que «se le movió el lung».",
+   "p": "¿Cómo conviene que la escuche un profesional de salud mental?",
+   "opciones": ["Corrigiéndola enseguida: eso no existe, es ansiedad", "Aceptando el lung como diagnóstico y listo", "Preguntándole qué quiere decir para ella, mientras evalúa lo que ve"],
+   "r": "Lo útil no es discutir si el lung «existe» sino qué significa para esa persona. Es un lenguaje que organiza la experiencia, y el profesional puede escucharlo mientras evalúa si hay depresión, ansiedad, duelo o estrés postraumático. Entre personas refugiadas, las vivencias de violencia y pérdida merecen atención específica.",
+   "como": "El DSM-5 (2013) reconoce estos «conceptos culturales de malestar», siguiendo el trabajo de Arthur Kleinman. El psicólogo Terry Clifford discutió el modelo en un libro de 1984.",
+   "debate": "El lung no es un diagnóstico. La teoría de los tres humores y del lung no tiene respaldo científico como explicación de la ansiedad, el insomnio o la depresión, aunque puedan existir efectos inespecíficos del cuidado y la atención.",
+   "seccion": "Cómo escucharlo en consulta"
+  },
+  {
+   "enigma": "Un sistema médico tradicional del Tíbet piensa la salud como equilibrio entre tres principios que varían según la constitución, la estación, la edad y la dieta.",
+   "p": "¿Qué creés que pueden enseñarle a la clínica occidental?",
+   "opciones": ["Su explicación del cuerpo, que debería adoptarse", "Su atención a lo que se come, cómo se duerme, el ritmo del día y el miedo sin nombre", "Nada, es solo superstición"],
+   "r": "Lo más valioso que puede mostrar no es su explicación sino su atención: la comida, el sueño, el ritmo del día, la respiración, el miedo que no tiene nombre. Son preguntas que la psicología también hace, con sus propias herramientas.",
+   "como": "El Sowa Rigpa, «ciencia de curar», tiene como texto central los Cuatro Tantras y sus propias instituciones de formación. Es un sistema médico en uso, con practicantes y pacientes.",
+   "debate": "Tiene un aspecto de seguridad: algunos preparados tradicionales incluyen minerales y metales procesados, y su composición y calidad varían, por lo que conviene avisar al médico y al terapeuta qué se toma.",
+   "seccion": "Una idea para llevarse"
+  }
+ ],
+ "abierta": "¿Se puede aprender de la atención de una medicina sin avalar su explicación? Es una pregunta que sigue abierta al dialogar entre sistemas."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien se sienta en silencio al final del día, sin pedir nada ni repetir una fórmula. Un psicólogo lo mira desde afuera.",
+   "p": "¿Qué crees que se propone averiguar la psicología de la religión?",
+   "opciones": ["Si lo que cree esa persona es verdadero", "Qué hace la gente con su fe: cómo reza y cómo afronta las dificultades", "Cómo convencerla de que deje de rezar"],
+   "r": "La psicología de la religión no discute si una creencia es verdadera. Estudia qué hace la gente con su fe: cómo reza, cómo afronta las dificultades, qué lugar tiene la práctica en su vida. La contemplación cristiana es una práctica humana más que observa con respeto.",
+   "como": "Hay décadas de investigación sobre espiritualidad y afrontamiento religioso, como la de Pargament. Paul Pruyser, psicólogo clínico de la Clínica Menninger, propuso en 1976 que la evaluación pastoral tuviera su propio lenguaje y no solo el psiquiátrico.",
+   "debate": "Los resultados son mixtos: la fe puede ser un recurso o, cuando el dolor se vive como castigo divino, sumar sufrimiento. Y sobre la oración centrante hay pocos estudios formales, así que no corresponde presentarla como tratamiento.",
+   "seccion": "Qué mira la psicología"
+  },
+  {
+   "enigma": "Alguien que reza en silencio hace años atraviesa una separación y un día cuenta que ya no siente nada al rezar. Teme haber perdido la fe.",
+   "p": "¿Qué puede estar pasando?",
+   "opciones": ["Seguro perdió la fe y no hay más que decir", "Es solo cansancio y no tiene nada que ver con la práctica", "Puede haber aridez espiritual, tristeza o ambas cosas a la vez"],
+   "r": "Muchas veces conviven la aridez espiritual y el ánimo bajo. Distinguirlas con ayuda profesional permite no cargar a la fe con lo que es del ánimo, ni al ánimo con lo que es del camino interior. Acompañamiento espiritual y psicoterapia son cosas distintas y pueden complementarse.",
+   "como": "Los místicos lo describieron por escrito: Teresa de Ávila y Juan de la Cruz hablaron de la «noche oscura», períodos de aridez en la oración, y hoy se los lee también como descripciones de procesos psicológicos. La escena del artículo es ilustrativa, no un caso real.",
+   "debate": "Esos textos son una fuente valiosa pero no datos controlados. Y no hay base para afirmar que la contemplación cure trastornos ni que reemplace un tratamiento; tampoco para descartarla por ser religiosa.",
+   "seccion": "Un poco de historia"
+  }
+ ],
+ "abierta": "Si el silencio puede ser a la vez oración y alivio psicológico, ¿cómo se estudia sin reducir una a la otra? Es una pregunta que la psicología de la religión todavía discute."
+}

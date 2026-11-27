@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona de cuarenta y pico se agota intentando que todo salga como lo planeó, que nada se le escape y que no haya imprevistos. Cuanto más controla, peor duerme.",
+   "p": "¿Cómo la ayudarías?",
+   "opciones": ["Discutiendo cada pensamiento ansioso uno por uno", "Trabajando sobre su creencia de que la vida es predecible y controlable", "Diciéndole que se relaje y deje de pensar"],
+   "r": "La terapia taoísta cognitiva china apunta a esa creencia de fondo, en lugar de discutir pensamientos uno por uno. Usa principios del taoísmo como nueva habilidad de afrontamiento: actuar sin forzar, moderación, humildad y quietud.",
+   "como": "La desarrollaron en China los psiquiatras Zhang Yalin y Yang Desen. El formato clásico tiene cinco entrevistas con el esquema ABCDE: estrés actual, creencias, conflicto y afrontamiento, dirección doctrinal y evaluación del efecto. Un equipo lo adaptó después para inmigrantes chinos en Estados Unidos.",
+   "debate": "Hay discrepancias hasta en la fecha de origen (años ochenta o 1998) y en la grafía de los nombres. Es un enfoque con su propia lógica cultural, no una influencia documentada sobre las terapias occidentales que también trabajan el control, como la de aceptación y compromiso.",
+   "seccion": "El método paso a paso"
+  },
+  {
+   "enigma": "Se asigna al azar a 143 pacientes chinos con ansiedad generalizada a tres tratamientos: una psicoterapia sola, benzodiacepinas solas o ambas combinadas.",
+   "p": "¿Qué esperarías de un ensayo así sobre cómo se comparan?",
+   "opciones": ["Que la psicoterapia sea más lenta pero resulte más eficaz que la medicación sola", "Que la medicación gane siempre", "Que no haya ninguna diferencia"],
+   "r": "Los autores del ensayo de 2002 concluyeron que la terapia taoísta cognitiva, sola o con medicación, era un método más lento pero más eficaz que las benzodiacepinas para estos pacientes en ciudades chinas.",
+   "como": "Se llegó a eso con un ensayo aleatorizado publicado en 2002 en Transcultural Psychiatry (Zhang, Young, Lee y colaboradores), que asignó a los 143 pacientes al azar a los tres grupos.",
+   "debate": "Una revisión con metaanálisis de 2020 (ocho estudios, 580 participantes) fue más cautelosa: el efecto sobre la depresión fue pequeño, con un intervalo de confianza que incluía el cero y una heterogeneidad muy alta. Lo honesto es leerla como prometedora, no como probada.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "¿Qué es lo que realmente cambia cuando alguien aprende a soltar el control? Todavía no sabemos si es la doctrina, la relación terapéutica o ambas."
+}

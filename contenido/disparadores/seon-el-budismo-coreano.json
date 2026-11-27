@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer está sentada de cara a la pared. El maestro le dio una sola indicación: preguntarse una y otra vez «¿qué es esto?», sin buscar la respuesta en un libro. A la media hora, la pregunta se mezcla con la lista del supermercado.",
+   "p": "¿Qué creés que se busca con esa práctica?",
+   "opciones": ["Encontrar por fin la respuesta correcta", "Sostener la pregunta sin analizarla, hasta que se vuelva viva", "Vaciar la mente de todo pensamiento a la fuerza"],
+   "r": "En el seon coreano el método principal se llama ganhwa seon: el practicante sostiene un hwadu, una frase o pregunta, sin analizarla ni buscarle un sentido simbólico. Según la tradición, eso va generando una «gran duda» que deja de ser un ejercicio intelectual.",
+   "como": "Lo incorporó el monje Jinul (1158-1210) y lo impulsó su discípulo Hyesim, que reunió 1.125 casos en una colección de 1226. Es un método de una tradición religiosa, transmitido de maestro a discípulo.",
+   "debate": "No hay estudios que muestren que la meditación con hwadu, como tal, trate la ansiedad o la depresión: lo que tiene investigación son los programas de atención plena, que quitaron el marco religioso.",
+   "seccion": "El ganhwa seon: meditar con un hwadu"
+  },
+  {
+   "enigma": "Alguien comprende de golpe algo hondo sobre sí mismo, pero al día siguiente siguen sus viejos hábitos. ¿Entonces el despertar fue real?",
+   "p": "¿Qué te parece más razonable?",
+   "opciones": ["Que el cambio verdadero debe ser total e inmediato", "Que comprender de golpe no borra los hábitos y hace falta cultivar con el tiempo", "Que nada cambia nunca realmente"],
+   "r": "Jinul respondió con la fórmula «iluminación súbita, cultivo gradual»: primero se comprende de golpe, pero eso no borra los hábitos acumulados y hay que seguir practicando. Seongcheol (1912-1993) lo criticó con dureza: defendía «iluminación súbita, cultivo súbito», porque si después hace falta cultivarse, no hubo despertar completo.",
+   "como": "Es un debate dentro de la tradición, entre dos maestros de épocas distintas. Jinul tomó ideas de dos autores chinos, Zongmi y Dahui Zonggao.",
+   "debate": "Tiene un eco curioso en el psicoanálisis: Freud (1914) observó que el insight no alcanza y que hace falta un tiempo de reelaboración. Es un parentesco, no una equivalencia.",
+   "seccion": "Seongcheol y el debate sobre lo súbito"
+  }
+ ],
+ "abierta": "¿El cambio profundo llega de golpe o se va construyendo de a poco? Lo discutieron monjes en el siglo XX y lo siguen discutiendo los terapeutas."
+}

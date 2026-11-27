@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un invitado llega a una casa iraní. El anfitrión le ofrece té. El invitado dice que no, que por favor no se moleste. El anfitrión insiste. El invitado se niega otra vez. Recién a la tercera o cuarta, a veces, el té aparece.",
+   "p": "¿Quién está mintiendo?",
+   "opciones": ["El invitado, que en verdad quería té", "El anfitrión, que no quería ofrecerlo", "Ninguno: los dos conocen el código del intercambio"],
+   "r": "Nadie miente: es el ta'arof, el sistema de cortesía ritual persa. Incluye ofrecer varias veces lo que el otro va a rechazar varias veces, rebajar lo propio y elevar al interlocutor. Para quienes lo practican no es hipocresía sino un lenguaje compartido.",
+   "como": "El antropólogo William Beeman lo analizó en 1986 como parte de un código de jerarquía y respeto, y la lingüista Sofia Koutlaki, en 2002, como una manera de cuidar la imagen de los otros.",
+   "debate": "Tampoco es cierto que los iraníes siempre digan lo contrario de lo que piensan: el ta'arof tiene contextos y grados, y la comunidad iraní es muy diversa, por lo que hablar de «la persona iraní» es una simplificación.",
+   "seccion": "Qué es el ta'arof"
+  },
+  {
+   "enigma": "Una persona dice que está bien, que no necesita nada y que no quiere molestar. En su cultura es lo esperable, y a la vez puede estar atravesando algo difícil.",
+   "p": "¿Qué cambia esto para quien quiere ayudar?",
+   "opciones": ["Nada, hay que tomar lo que dice al pie de la letra", "Hay que entender que cuesta pedir ayuda por temor a exponer a la familia", "Hay que asumir que siempre oculta algo"],
+   "r": "El ta'arof protege el aberu, el «agua del rostro» o honor propio y ajeno: no poner al otro en evidencia ni exponer la necesidad. Por eso puede costar pedir ayuda. Un código de cortesía no es una represión de las emociones: quienes lo practican sienten, y tienen otros lugares para expresarlo, como la intimidad, los amigos, la poesía o el humor.",
+   "como": "El antropólogo médico Byron Good estudió en Maragheh, en Irán, expresiones como «narahati-e qalb» (malestar del corazón), que aparecen en lugar de nombres de diagnósticos.",
+   "debate": "No hay datos que permitan afirmar que el ta'arof, por sí mismo, enferma o protege: es un rasgo cultural que puede interactuar con la salud mental.",
+   "seccion": "Cara pública y emociones"
+  }
+ ],
+ "abierta": "Cuando dos códigos de cortesía se encuentran, como en la migración, ¿cómo se hace para entenderse sin que ninguno parezca brusco o reservado? Es una pregunta cotidiana y todavía sin una receta."
+}

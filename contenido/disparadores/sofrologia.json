@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te pide que cierres los ojos, respires lento y recorras el cuerpo: hombros, manos, mandíbula. Después te invita a imaginar un lugar tranquilo, con detalle. Al terminar, abrís los ojos despacio y notás cómo quedó todo por dentro.",
+   "p": "¿Qué te parece que se sabe sobre si este método funciona mejor que otras formas de relajarse?",
+   "opciones": ["Está comprobado que funciona mejor que cualquier otra", "Está comprobado que no sirve", "No está probado ni una cosa ni la otra"],
+   "r": "Sobre la sofrología como método completo, se criticó la falta de calidad metodológica de las investigaciones hechas en su nombre y no hay revisiones sistemáticas independientes que permitan una conclusión firme. No está probado que funcione mejor que otras formas de relajarse, ni que no sirva.",
+   "como": "Fue creada por el neuropsiquiatra colombiano Alfonso Caycedo, que acuñó el término en 1960 en Madrid, primero a partir de la hipnosis y luego con elementos de prácticas orientales. Combina respiración, relajación muscular y visualización.",
+   "debate": "Sus ingredientes, como la respiración lenta y la relajación, se parecen a técnicas que sí se estudiaron, y eso la vuelve plausible. Pero la plausibilidad de los ingredientes no equivale a evidencia del método completo ni de las promesas que a veces se le atribuyen.",
+   "seccion": "Qué tiene respaldo y qué no"
+  },
+  {
+   "enigma": "Una práctica de relajación te promete bajar la tensión. Después de varias sesiones notás que dormís mejor, o que no notás nada.",
+   "p": "¿Cómo conviene tomar ese resultado?",
+   "opciones": ["Como prueba de que el método es superior a todos", "Como un resultado personal y concreto, sin esperar más de lo que ofrece", "Como una señal de que hacés algo mal si no notás nada"],
+   "r": "Una forma sensata es probarla con curiosidad, ver qué efecto tiene en vos y no esperar más de lo que ofrece. Si dormís mejor, es un resultado concreto y personal; si no notás nada, no hay nada que forzar y existen otras formas de relajación.",
+   "como": "Así se piensa cualquier práctica de relajación que no tiene estudios sólidos propios: se prueba y se observa. También ayuda preguntar cómo se formó quien conduce, qué promete y qué no.",
+   "debate": "Un efecto personal no equivale a una demostración. Convendría que quien conduce trabaje en coordinación con profesionales de la salud cuando alguien lo necesita.",
+   "seccion": "Cómo pensarla"
+  }
+ ],
+ "abierta": "Si lo que ayuda es la respiración, la relajación o simplemente dedicarse un rato, ¿importa cuál es el ingrediente? Es difícil separarlos en un estudio."
+}

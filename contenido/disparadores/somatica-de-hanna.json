@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Sentate un momento y tratá de subir y bajar un solo hombro, despacio, sin mover el otro. Puede que un lado responda con más claridad, como si el otro estuviera menos «presente».",
+   "p": "¿Por qué creés que después de años de encorvarse o apretar la mandíbula cuesta tanto aflojar?",
+   "opciones": ["Porque esos músculos se debilitaron y hay que fortalecerlos", "Porque el cuerpo contraído muchas veces puede dejar de registrar que está tenso", "Porque es solo cuestión de voluntad"],
+   "r": "Thomas Hanna propuso la «amnesia sensoriomotriz»: la pérdida de percepción y control de ciertos músculos después de reflejos de contracción repetidos ante el estrés. El cuerpo «olvida» cómo soltar, y la persona ya no registra que está tenso. Para revertirlo ofrecía una reeducación lenta del movimiento basada en la atención.",
+   "como": "Hanna, profesor de filosofía y teórico del movimiento, acuñó el término «somática» en 1976 y publicó su libro en 1988. Partió de una experiencia cotidiana y ofreció un nombre y una explicación.",
+   "debate": "«Amnesia sensoriomotriz» es un término de Hanna, no un diagnóstico clínico, y no tiene validación empírica independiente. Que muchas personas la describan como útil es una observación valiosa, pero distinta de una demostración.",
+   "seccion": "La amnesia sensoriomotriz"
+  },
+  {
+   "enigma": "Alguien que trabaja con el movimiento te dice que moverte muy despacio y notar qué cambia puede modificar viejos hábitos del cuerpo.",
+   "p": "¿Esto es una psicoterapia?",
+   "opciones": ["Sí, porque trabaja con el cuerpo y las emociones", "No: es reeducación del movimiento, que puede dialogar con la terapia sin sustituirla", "Sí, es lo mismo que el psicoanálisis"],
+   "r": "La somática de Hanna no es psicoterapia. Es un trabajo de reeducación del movimiento, emparentado con Feldenkrais, que comparte la idea de que el aprendizaje lento y atento puede modificar hábitos motores. La psicoterapia trabaja con el sentido, la historia y los vínculos; esta propuesta se concentra en la percepción y el control del movimiento.",
+   "como": "Es una propuesta que se apoya en la atención: moverse despacio y notar qué cambia. Puede encontrarse en ella un complemento, con claridad sobre lo que ofrece.",
+   "debate": "No hay estudios ajenos al enfoque que hayan puesto a prueba el mecanismo propuesto, así que su respaldo es una descripción coherente y una práctica valorada, no una demostración.",
+   "seccion": "Qué es y qué no es"
+  }
+ ],
+ "abierta": "Si moverse despacio y con atención ayuda a tanta gente, ¿qué es lo que cambia exactamente: el músculo, la percepción o el ánimo? Todavía no hay respuesta."
+}

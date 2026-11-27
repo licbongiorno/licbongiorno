@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En un salón con luces bajas y música que sube de a poco, la gente respira rápido y profundo durante un buen rato. Alguien llora, alguien se ríe, alguien queda con las manos rígidas.",
+   "p": "¿Qué parte de esas vivencias creés que podría explicarse por el cuerpo?",
+   "opciones": ["Ninguna: son todas experiencias espirituales", "Algunas, por los cambios de la respiración prolongada", "Todas, y por eso no significan nada"],
+   "r": "Respirar rápido y profundo por mucho tiempo baja el dióxido de carbono en sangre y puede dar mareo, hormigueo, calambres y sensación de falta de aire. Algunas vivencias intensas pueden relacionarse con esos cambios, además de con la música, el grupo y las expectativas de cada persona. Eso no quita que la vivencia sea real y significativa para quien la tuvo.",
+   "como": "Es fisiología general y conocida. Stanislav y Christina Grof crearon la técnica en los años setenta, en el Instituto Esalen, buscando un método sin fármacos para acceder a estados no ordinarios de conciencia.",
+   "debate": "Se discute si los cambios que la gente refiere se deben a la respiración, al grupo, a la música o a la expectativa. Las «matrices perinatales» de Grof, que proponen que se revive el nacimiento, son una hipótesis sin apoyo empírico sólido.",
+   "seccion": "Qué le pasa al cuerpo"
+  },
+  {
+   "enigma": "Alguien hace un taller de fin de semana, llora durante horas, siente una opresión en el pecho parecida a un recuerdo de la infancia y desde entonces duerme mal. No sabe si «se abrió algo» o si le hizo mal.",
+   "p": "¿Qué conviene hacer primero?",
+   "opciones": ["Volver a repetir la experiencia para completar el proceso", "Ordenar y calmar: revisar el sueño, el cuerpo y la ansiedad", "Interpretar enseguida qué significa lo que vivió"],
+   "r": "Se prioriza la regulación y la seguridad antes de explorar lo vivido. Una experiencia intensa, venga de donde venga, se escucha con curiosidad y prudencia. Sentirse mejor después de una sesión no prueba que haya sido terapéutica, y sentirse peor no prueba que «haya que atravesarlo».",
+   "como": "Es lo que se hace en el trabajo clínico con trauma: estabilizar primero. La escena del artículo es ilustrativa, no un caso real.",
+   "debate": "Hay una revisión de 2007 que plantea el posible papel de la hiperventilación voluntaria prolongada como complemento de la psicoterapia, pero es una hipótesis para investigar, no evidencia de eficacia. Puede movilizar material traumático y requiere facilitación formada y seguimiento.",
+   "seccion": "Una viñeta"
+  }
+ ],
+ "abierta": "Si mucha gente la valora pero no hay respaldo para recomendarla como terapia, ¿cómo se estudia una experiencia que depende tanto del contexto? Sigue abierto."
+}
