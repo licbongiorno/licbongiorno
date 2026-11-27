@@ -11,7 +11,7 @@ orden: 60
 estado: publicado
 respuesta: La psicoterapia breve focalizada es un tratamiento con un tiempo acotado y un foco de trabajo acordado entre paciente y terapeuta, que surge del motivo de consulta y del conflicto que lo sostiene. El terapeuta tiene un rol activo y se trabaja sobre la situación actual, sin perder de vista la historia. En la Argentina la desarrolló, desde el psicoanálisis, el psiquiatra Héctor Fiorini. Suele ser útil en crisis, duelos, cambios de etapa y problemas bien delimitados.
 menciona: psicoanalisis
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 No, una terapia breve no es «una terapia a medias». Es un encuadre distinto, que elige un foco y trabaja sobre él con intensidad. Para muchas consultas, sobre todo cuando algo se desordenó en un momento puntual de la vida, puede ser justo lo que hace falta.
 
@@ -50,6 +50,20 @@ Puede no ser el encuadre adecuado cuando los problemas son muy extendidos o de l
 Tengo formación en psicoterapia breve focalizada en la línea de Fiorini, y la uso cuando lo que trae la persona se presta a un foco claro, en diálogo con la mirada [junguiana](/terapia-junguiana/) y [psicoanalítica](/enfoque/) que es la base de mi trabajo. Lo conversamos en la primera entrevista.
 
 Si querés explorar las ideas de Fiorini por tu cuenta, probá el [laboratorio de psicoterapia breve focalizada](/laboratorio-de-psicoterapia-breve-focalizada/) o mirá el [glosario de sus conceptos](/glosario-fiorini/).
+
+## Una escena posible
+
+Una persona llega diciendo que desde que cambió de trabajo no duerme bien y está irritable en casa. No quiere «hacer una terapia de años», pero tampoco quiere seguir así. En las primeras entrevistas aparece algo que ella no había conectado: el nuevo puesto la puso en el lugar de jefa de quien fue su par, y reaparece una vieja dificultad para sostener la autoridad sin sentirse culpable. Ese es el foco: no todo lo que le pasa, sino el punto donde lo actual y lo histórico se tocan. A partir de ahí, el trabajo se ordena.
+
+## Cómo se trabaja
+
+La estructura suele tener tres momentos. En el **inicio**, las entrevistas para conocerse, delimitar el motivo de consulta, formular el foco y acordar el encuadre. En el **desarrollo**, el trabajo semanal sobre ese foco, con el terapeuta activo: señala, relaciona, propone tareas entre sesiones, ayuda a distinguir lo que depende de la persona de lo que no. En el **cierre**, se revisa lo logrado, lo que quedó pendiente y cómo seguir sin el espacio. El final no es una pérdida sino parte del proceso, y se trabaja desde el principio.
+
+Fiorini subrayó que el foco es una hipótesis de trabajo, no un diagnóstico cerrado, y que se revisa. Esa flexibilidad es una de las virtudes del método. En mi práctica, el foco dialoga con una lectura más amplia de la historia de la persona: lo que ahora aparece como «el problema» suele tener raíces conocidas, y a veces simbólicas ([el proceso de individuación](/recursos/el-proceso-de-individuacion/), [los complejos](/recursos/los-complejos-segun-jung/)). También se puede combinar con otras terapias focalizadas, como [la activación conductual](/recursos/activacion-conductual/).
+
+## Matices y límites
+
+La psicoterapia breve, en sus distintas orientaciones, tiene investigación de apoyo para problemas acotados (por ejemplo, ciertos cuadros depresivos y de ansiedad); en cambio, el modelo de Fiorini se apoya sobre todo en la experiencia clínica y en la teoría psicoanalítica, con menos ensayos controlados. No es lo más indicado cuando hay un trastorno grave, riesgo, o un deseo de explorar la propia vida más a fondo. «Breve» tampoco significa «rápida»: el cambio lleva el tiempo que lleva, y el tiempo acordado es un marco para trabajar, no una promesa de resultados. Ver también [cuánto dura una terapia](/recursos/cuanto-dura-una-terapia/).
 
 ## Preguntas frecuentes
 

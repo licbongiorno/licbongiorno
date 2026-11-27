@@ -11,7 +11,7 @@ orden: 58
 estado: publicado
 respuesta: El genograma es una representación gráfica de la familia, de al menos tres generaciones, que muestra no solo quién es quién sino también cómo son los vínculos (cercanos, conflictivos, distantes), las pérdidas y los acontecimientos importantes. Se usa en terapia familiar e individual para ver patrones que se repiten a lo largo de las generaciones. Fue sistematizado por Monica McGoldrick y Randy Gerson.
 menciona: genograma, sistemica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Dibujando a tu familia en un papel, de pronto lo notás: la abuela, tu mamá y vos se casaron a la misma edad. En cada generación hubo un hermano que se fue lejos y no volvió. Nadie habla del tío que murió joven. Eso es un genograma, algo bastante más que un árbol genealógico: una forma de hacer visible lo que de otro modo pasa de largo.
 
@@ -58,6 +58,22 @@ Si querés, podés hacer una versión simplificada en el [laboratorio sistémico
 ## Un cuidado
 
 Armar un genograma puede remover pérdidas, secretos o vínculos dolorosos. Si algo te angustia, frená y retomalo con acompañamiento. En terapia, el genograma no es un fin en sí mismo, sino una herramienta para conversar. Ver también [terapia sistémica](/recursos/terapia-sistemica/) y [patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/), o escribime si querés trabajarlo.
+
+## Contexto histórico
+
+La idea de dibujar la familia como herramienta clínica viene de la terapia familiar sistémica. Murray Bowen, psiquiatra estadounidense, desarrolló desde los años sesenta una teoría sobre cómo se transmiten entre generaciones la ansiedad, los roles y las formas de relacionarse, y empezó a usar «diagramas familiares» en sus entrevistas ([Murray Bowen](/recursos/murray-bowen/)). Monica McGoldrick y Randy Gerson los sistematizaron, con una simbología común, en *Genogramas en la evaluación familiar* (1985). Con los años, el genograma pasó de la terapia familiar a la medicina de familia, el trabajo social y la enfermería, donde sirve para registrar antecedentes de salud, cuidadores y redes de apoyo.
+
+## Una viñeta
+
+Una mujer de cuarenta años consulta por una angustia difusa tras la muerte de su madre. Al dibujar el genograma, nota algo que nunca había visto: su abuela perdió a un hijo pequeño, del que no se habló nunca, y su madre y ella tuvieron el mismo temor intenso a perder a sus hijos. No es una explicación cerrada ni una causa demostrada, pero le da un marco: su miedo ya no es «mío y raro», sino parte de una historia que otros también cargaron. Con ese marco, se puede conversar sobre el duelo propio y el heredado ([el duelo y sus tiempos](/recursos/el-duelo-y-sus-tiempos/)).
+
+## Cómo se usa en terapia
+
+El genograma no se llena de una vez ni como un formulario. Se dibuja con la persona, en varias sesiones, y cada dato abre una conversación: ¿cómo era la relación con ese abuelo?, ¿quién consolaba a quién?, ¿de qué no se hablaba? Desde un enfoque integrativo, con base junguiana y psicoanalítica, lo que importa es la resonancia emocional de la historia y también lo que se sabe y lo que se calla. Lo simbólico entra con las figuras que cada uno lleva dentro, que no siempre coinciden con las personas reales ([arquetipos en la vida cotidiana](/recursos/arquetipos-en-la-vida-cotidiana/)). Para pensar lo que se transmite sin palabras, ver [trauma transgeneracional y la Shoá](/recursos/trauma-transgeneracional-y-la-shoa/), y para los conflictos actuales, [conflictos familiares](/recursos/conflictos-familiares/). La versión interactiva está en el [laboratorio de Bowen](/laboratorio-sistemica-bowen/).
+
+## Matices y límites
+
+El genograma es una herramienta clínica ampliamente usada, pero hay poca investigación que mida si mejorarlo cambia los resultados de un tratamiento; su valor se apoya sobre todo en la experiencia profesional y en su utilidad para organizar información. La teoría de Bowen sobre la transmisión multigeneracional es una teoría; no hay una prueba de que un patrón familiar «cause» lo que le pasa a la persona. Los parecidos entre generaciones pueden deberse a la genética, a la cultura, a las circunstancias o a la casualidad, y conviene no leerlos como destino. Hay además un riesgo: las familias tienen secretos y versiones distintas, y un genograma mal acompañado puede activar conflictos. No es un test ni un diagnóstico, y se hace mejor con alguien que ayude a sostener lo que aparece.
 
 ## Preguntas frecuentes
 

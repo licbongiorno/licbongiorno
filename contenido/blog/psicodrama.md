@@ -61,6 +61,25 @@ Si estás atravesando un momento de crisis o pensás en hacerte daño, hay ayuda
 
 Lecturas: Moreno, J. L. (1934), *Who Shall Survive?*. Kipper, D. A. y Ritchie, T. D. (2003), «The effectiveness of psychodramatic techniques: a meta-analysis», *Group Dynamics*.
 
+## Contexto histórico
+
+Moreno comenzó en Viena, en los años veinte, con el Teatro de la Espontaneidad (1921), donde el público improvisaba escenas sobre sus propias vidas. Se mudó a Estados Unidos en 1925 y en 1936 abrió en Beacon, Nueva York, un sanatorio que incluía un teatro terapéutico. Además del psicodrama desarrolló el sociodrama, que trabaja con situaciones colectivas, y la sociometría, que mide las preferencias y vínculos dentro de un grupo. Su influencia llegó a la terapia Gestalt: [Fritz Perls](/recursos/fritz-perls/) conoció el trabajo de Moreno, y la técnica de la silla vacía se vincula con esa tradición. En la Argentina, el psicodrama se desarrolló con figuras como Jaime Rojas-Bermúdez, que propuso conceptos como el núcleo del yo, y Eduardo Pavlovsky, que lo unió al teatro y a la clínica. Para otra tradición rioplatense de trabajo con grupos, ver [Enrique Pichon-Rivière](/recursos/enrique-pichon-riviere/).
+
+## Una viñeta
+
+En un grupo, un hombre trabaja una despedida que nunca pudo hacer con su padre. Elige a alguien para representarlo y, tras decir lo que traía, invierte roles: ahora es el padre y responde. De golpe se queda sin palabras. El director no interpreta; le pide que vuelva a su lugar y diga lo primero que le salga. Después, en el compartir, otros participantes cuentan sus propias escenas. Lo que se llevó no fue una conclusión sino una voz nueva para ese vínculo. (Escena genérica, ilustrativa.)
+
+## Cómo se integra con una terapia individual
+
+El psicodrama es grupal por esencia, pero sus recursos se usan también en sesiones individuales, con sillas, objetos o simplemente imaginando la escena. Desde el psicoanálisis, la dramatización se parece a lo que ocurre con la transferencia: en la escena se hacen presentes vínculos antiguos. Desde Jung, la acción permite encarnar figuras internas, como la sombra o las imágenes parentales, que de otro modo quedan como ideas. Se puede ver el trabajo con las figuras internas en [la sombra](/recursos/la-sombra-segun-jung/).
+
+## Matices y límites
+
+- **Con investigación:** el metaanálisis de Kipper y Ritchie (2003) y otros más recientes apuntan a efectos favorables, aunque con limitaciones metodológicas y poblaciones diversas. No hay evidencia de que sea superior a otras terapias de grupo.
+- **Teoría:** muchas ideas de Moreno, como la espontaneidad y la creatividad como fuerzas centrales, son principios filosóficos más que hipótesis puestas a prueba.
+- **Un límite práctico:** requiere un grupo contenedor y un director formado. No siempre es indicado para personas en crisis aguda o con trauma sin elaborar.
+- Moreno tuvo una personalidad polémica y escribió con un estilo grandilocuente; conviene leer sus textos con distancia crítica.
+
 ## Preguntas frecuentes
 
 ### ¿Cómo es una sesión de psicodrama?

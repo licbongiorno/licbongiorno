@@ -11,7 +11,7 @@ fecha_visible: noviembre de 2026
 orden: 8
 estado: publicado
 respuesta: El duelo migratorio es el proceso emocional que implica dejar el propio país: familia, idioma, cultura, paisaje y pertenencia. Puede aparecer aunque la migración haya sido elegida. Es un duelo parcial y recurrente, que se reactiva con cada viaje o fecha especial.
-revision: 2026-11-05
+revision: 2026-11-27
 menciona: duelo
 ---
 Te fuiste con una valija y volviste a armar una vida. Pero hay cosas que no entraron en ninguna valija: el mate de los domingos, el humor que no hay que explicar, la voz de tu vieja a diez cuadras y no a diez horas de avión.
@@ -47,6 +47,24 @@ A diferencia de otros duelos, lo perdido sigue existiendo: se puede volver de vi
 Hacer terapia en español, con alguien que comparte tus códigos culturales, puede facilitar mucho este proceso. La [terapia online](/terapia-online/) permite sostener ese espacio desde cualquier país, con el mismo cuidado que en un consultorio. Porque migrar no es arrancar raíces: es aprender a que crezcan en dos tierras a la vez.
 
 Para acompañar una pérdida con ejercicios suaves, te espera el [laboratorio de duelo](/laboratorio-de-duelo/).
+
+## Una escena posible
+
+Una mujer lleva tres años en otro país y le va bien: trabajo estable, amistades, un departamento lindo. Un domingo cualquiera, al escuchar una canción en la radio, llora sin poder parar. No extraña un lugar en particular; extraña que alguien la llame por el diminutivo de la infancia. Más tarde cuenta que cuando vuelve de visita se siente extranjera, y cuando regresa, también. Le cuesta explicarlo, porque no hay nada «mal» que señalar. Lo que duele es la suma de pequeñas ausencias.
+
+## Cómo se trabaja en terapia
+
+Lo primero es legitimar: el duelo migratorio no es una debilidad ni un arrepentimiento. Desde un enfoque integrativo, con base junguiana y psicoanalítica, se recorre cada una de las pérdidas, una por una, y se escucha qué lugar tenían en la vida de la persona: no es lo mismo dejar una casa que dejar un rol social o un idioma. Se trabaja la ambivalencia, que es central: la alegría y la pena conviven, y la culpa (por los que se quedaron, por la propia decisión) suele pesar tanto como la nostalgia. También se piensa la identidad: quién soy aquí, quién era allá, qué parte de mí viaja conmigo. Para quienes viven fuera, ver [terapia online desde el exterior](/recursos/terapia-online-desde-el-exterior/).
+
+Ayudan los rituales y los símbolos: una comida, una foto, una carta. Desde Jung, los símbolos sostienen lo que las palabras no alcanzan ([los símbolos según Jung](/recursos/los-simbolos-segun-jung/)). Y ayuda ponerlo en un marco más amplio: [el duelo y sus tiempos](/recursos/el-duelo-y-sus-tiempos/) y [transiciones vitales](/recursos/transiciones-vitales/).
+
+## Un matiz sobre las condiciones de migrar
+
+No todas las migraciones son iguales. Achotegui distinguió el duelo migratorio «simple» del vivido en condiciones extremas, sin papeles, con soledad forzada, con miedo y con lucha por sobrevivir: el síndrome de Ulises. Y no es lo mismo irse por elección que por obligación, por persecución o por pobreza. Grinberg y Grinberg, en *Psicoanálisis de la migración y del exilio* (1984), describieron desde el psicoanálisis la vivencia de la persona migrante y exiliada. Ambos aportes enriquecen la comprensión, pero describen experiencias muy distintas.
+
+## Matices y límites
+
+El concepto de duelo migratorio es una construcción clínica útil; las investigaciones sobre salud mental de personas migrantes muestran resultados variados según el país, las condiciones de llegada, el apoyo social y la discriminación que enfrentan. Lo que sí se repite es que las condiciones del nuevo lugar (trabajo, vivienda, trato) pesan tanto como la historia personal, y que el aislamiento es un factor de riesgo. Si la tristeza se vuelve persistente, aparecen insomnio, desesperanza o pensamientos de no querer vivir, no es «solo duelo»: conviene consultar, y ante una urgencia, ver [Ayuda urgente](/ayuda-urgente/).
 
 ## Preguntas frecuentes
 

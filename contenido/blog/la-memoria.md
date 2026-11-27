@@ -11,7 +11,7 @@ orden: 39
 estado: publicado
 respuesta: La memoria es la capacidad de registrar, guardar y recuperar información y experiencias. Se distinguen la memoria de trabajo, de corto plazo, y la memoria de largo plazo, que incluye recuerdos de hechos, de vivencias y de habilidades. Recordar no es reproducir una grabación: cada vez que recordamos, reconstruimos. Las emociones intensas fijan los recuerdos con más fuerza, y el estrés y la angustia afectan la memoria cotidiana.
 menciona: memoria
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es que te estés poniendo viejo. Es entrar a la cocina y no acordarte a qué ibas. Es acordarte de la letra completa de una canción de hace treinta años y no del nombre de la persona que te presentaron recién. Es ese olor que de golpe te devuelve a la casa de tu abuela. La memoria no es un archivo ordenado: es algo mucho más vivo, y bastante más caprichoso.
 
@@ -58,6 +58,25 @@ Los olvidos cotidianos son normales. Conviene consultar con un médico si los ol
 Para poner en práctica técnicas de estudio con respaldo científico, te espera el [laboratorio de aprender a aprender](/laboratorio-de-aprender-a-aprender/).
 
 Uno de los casos de memoria más famosos de la historia lo estudió [Alexander Luria](/recursos/alexander-luria/): el mnemonista que no podía olvidar.
+
+## Cómo se estudió la memoria
+
+La psicología científica de la memoria empieza en 1885, cuando Hermann Ebbinghaus se tomó a sí mismo como sujeto: memorizó listas de sílabas sin sentido y midió cuánto retenía con el paso del tiempo. De ahí sale la conocida curva del olvido. En 1932, Frederic Bartlett mostró con cuentos que la gente no repite lo que escuchó: lo reconstruye según sus esquemas. En 1968, Atkinson y Shiffrin propusieron el modelo de almacenes (sensorial, corto y largo plazo), y en 1974 Baddeley y Hitch precisaron la memoria de trabajo. El caso de Henry Molaison, el paciente H. M., a quien se le extirparon partes del lóbulo temporal medial en 1953, enseñó que el hipocampo es clave para formar recuerdos nuevos, mientras que se conserva la memoria de habilidades.
+
+## Una viñeta
+
+Una mujer consulta porque, desde un cambio de trabajo, «se me va todo». Olvida reuniones, repite preguntas, se desorienta en cosas simples. Antes de hablar de memoria, en la entrevista se asoman el insomnio, la preocupación constante y una sobrecarga de tareas. La atención está tan ocupada en sostener la tensión que casi no queda para registrar. Cuando el sueño y la angustia mejoran, la memoria deja de ser tema. (Escena genérica, ilustrativa.)
+
+## La memoria en la clínica
+
+En terapia, la memoria importa de otro modo. Freud notó que lo que cuenta un paciente de su infancia no es una película: los «recuerdos encubridores» condensan escenas y las hacen servir a otros fines. Jung sumó que los recuerdos se agrupan alrededor de núcleos emocionales, los [complejos](/recursos/los-complejos-segun-jung/): un olor o una frase alcanzan para activar un tono afectivo antiguo. En los trastornos por trauma, los recuerdos pueden volver como sensaciones, imágenes o reacciones corporales más que como relato; de eso se ocupan abordajes como [EMDR](/recursos/emdr/) y las lecturas sobre [el cuerpo y el trauma](/recursos/el-cuerpo-lleva-la-cuenta/).
+
+## Matices y límites
+
+- **Con investigación:** la reconstrucción de los recuerdos y su susceptibilidad a la sugestión están bien documentadas. Por eso, en un contexto clínico o judicial, un recuerdo vívido no garantiza que sea exacto.
+- **En discusión:** la idea de que un recuerdo puede «reconsolidarse» y modificarse cada vez que se evoca es una línea de investigación activa en animales y en humanos, con resultados todavía mixtos. No conviene prometer que se «borra» un recuerdo.
+- **Teoría clínica:** la represión es un concepto central del psicoanálisis, pero su demostración experimental es controvertida.
+- Un tema aparte: la tendencia a recordar mejor lo inconcluso se asocia con [Bluma Zeigarnik](/recursos/bluma-zeigarnik/), aunque las réplicas dieron resultados variables.
 
 ## Preguntas frecuentes
 

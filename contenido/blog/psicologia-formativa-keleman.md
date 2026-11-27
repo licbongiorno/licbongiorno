@@ -47,6 +47,28 @@ Si querés probar una versión mínima de esa observación, sentate unos minutos
 
 Para ubicar esta propuesta junto a otras, mirá [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
+## Contexto
+
+Keleman trabajó en la costa oeste de Estados Unidos, en Berkeley, en la segunda mitad del siglo XX, en un clima de efervescencia de las terapias corporales y humanistas. Se lo suele ubicar dentro de la tradición que viene de Reich y de la bioenergética, aunque su propuesta se fue separando de ellas al poner la atención en el proceso de dar forma más que en la liberación de una energía bloqueada ([escuelas posreichianas](/recursos/escuelas-posreichianas/)). En su obra recurre mucho a la descripción de procesos de «formación»: cómo un cuerpo se contrae y se expande, se organiza y se reorganiza a lo largo de la vida.
+
+## La idea con un ejemplo cotidiano
+
+Pensá en cómo te parás después de recibir una noticia que te asusta, y en cómo te parás cuando estás tranquilo. Son dos formas. Keleman diría que esas formas no son un accidente: son maneras de organizarte que aprendiste y que podés ir conociendo. La propuesta no es corregirlas desde un ideal sino notar cómo las hacés y probar variaciones, con la idea de que uno participa en darse forma. Es una invitación a tomar parte en un proceso, en lugar de ser su espectador.
+
+## Una viñeta
+
+Una persona que se describe como «dura» cuenta que, al enojarse, se pone rígida y deja de respirar. En lugar de pedirle que se relaje, el trabajo parte de notar cómo se pone rígida: qué músculos, qué ritmo. Después puede probar hacerlo un poco más o un poco menos y observar qué cambia en el ánimo. Si aparece un recuerdo, se conversa. Lo que cambia es la relación con el propio modo de reaccionar, no necesariamente la reacción. (Escena genérica, ilustrativa.)
+
+## Cómo puede integrarse
+
+En una terapia integrativa, esta mirada ayuda a quienes viven su cuerpo como algo ajeno: invita a una participación activa. Se puede combinar con la conversación, y con prácticas de atención al movimiento y la postura, como las que ofrecen [Feldenkrais](/recursos/feldenkrais/), la [técnica Alexander](/recursos/tecnica-alexander/) o la [eutonía](/recursos/eutonia/). Desde Jung, la idea de que la psique se encarna en una forma es afín a la de que lo simbólico se expresa en lo corporal; aun así, son modelos distintos y no conviene mezclarlos sin cuidado.
+
+## Matices y límites
+
+- **Con investigación:** no hay estudios controlados de la psicología formativa como método. Sí hay investigación sobre intervenciones de atención al movimiento y la postura en general, con resultados variables.
+- **Teoría:** el lenguaje de Keleman es en buena medida propio y descriptivo; sirve para pensar, no para demostrar. Algunas formulaciones, como que la forma «expresa» una historia emocional, son hipótesis.
+- Ante dolor persistente, limitaciones del movimiento o una lesión, la consulta médica va primero. El trabajo de este enfoque, si se lo hace, es complementario y no un sustituto.
+
 ## Preguntas frecuentes
 
 ### ¿Qué propone la psicología formativa de Stanley Keleman?

@@ -11,7 +11,7 @@ orden: 36
 estado: publicado
 respuesta: La teoría de las inteligencias múltiples, propuesta por Howard Gardner en 1983, sostiene que no hay una sola inteligencia sino varias relativamente independientes: lingüística, lógico-matemática, espacial, musical, corporal, interpersonal, intrapersonal y naturalista. Es muy influyente en educación, aunque tiene poco respaldo empírico. Su mayor aporte es ampliar la mirada sobre los distintos talentos.
 menciona: inteligencias-multiples, inteligencia
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Está la que escribe una carta que te hace llorar y no puede con una regla de tres. El que arma un mueble sin mirar el instructivo. La que sabe exactamente qué decir en un velorio. El que escucha una canción una vez y la toca en la guitarra. Si la escuela solo hubiera medido una de esas cosas, ¿cuántos talentos se hubieran perdido?
 
@@ -50,6 +50,31 @@ Aun con esas críticas, la idea dejó algo valioso: la invitación a mirar a las
 Muchas personas llegan a la adultez convencidas de que «no son inteligentes» porque les costó la escuela, cuando en realidad tienen capacidades que nadie les ayudó a reconocer. Revisar esas creencias es parte del trabajo sobre la [autoestima](/autoestima/). Si querés pensarlo en un espacio propio, podés escribirme.
 
 Para recorrer la teoría con la evidencia a la vista, está el [laboratorio de inteligencias múltiples](/laboratorio-de-inteligencias-multiples/).
+
+## Contexto: de dónde viene la discusión
+
+A principios del siglo XX, Alfred Binet y Théodore Simon construyeron en Francia, en 1905, la primera escala práctica para identificar niños que necesitaban apoyo escolar. Casi al mismo tiempo, Charles Spearman proponía la existencia de un factor general, la *g*, que explicaría por qué quienes rinden bien en una prueba cognitiva suelen rendir bien en otras. De esa tradición nació el coeficiente intelectual. Gardner, desde Harvard y con el Proyecto Zero, discutió esa idea: dijo que medir una sola dimensión dejaba afuera demasiado.
+
+## Cómo llegó a su lista
+
+Gardner no la armó con tests. Miró casos de personas con lesiones cerebrales que perdían una capacidad y conservaban otras, a los prodigios y a las personas con talentos extraordinarios en un área, y revisó cómo distintas culturas valoran distintas destrezas. Con esos criterios propuso las inteligencias. A fines de los años noventa sumó la naturalista y discutió una posible inteligencia existencial, que no incorporó formalmente a la lista.
+
+## Un ejemplo cotidiano
+
+Un chico que en matemática anda flojo pero arma y desarma una bicicleta, la entiende, la arregla y se la explica a otros con gestos. La escuela lo anota como «le cuesta». Gardner diría: mirá cuánta inteligencia corporal y espacial hay ahí. La crítica diría: sí, es una habilidad real, pero llamarla «inteligencia» no agrega información, y quizás no hace falta ponerle ese nombre para valorarla.
+
+## Dónde resuena hoy
+
+La teoría influyó en la educación: propuso presentar un mismo contenido por varias vías y valorar productos distintos a un examen escrito. Esa idea general, la de diversificar las formas de enseñar y evaluar, tiene sentido pedagógico aunque no dependa de la teoría. Se acerca a lo que Lev Vygotsky planteaba con la [zona de desarrollo próximo](/recursos/lev-vygotsky/) y a la mirada de Jean Piaget sobre cómo se construye el pensamiento ([Jean Piaget](/recursos/jean-piaget/)).
+
+En clínica, aparece como un recordatorio: antes de decirle a alguien que «no sirve para estudiar», conviene preguntar de qué modo aprende. Con adultos que cargan una etiqueta escolar, parte del trabajo es revisar esa historia sin idealizar tampoco sus talentos.
+
+## Matices y límites
+
+- **Con investigación:** hay evidencia de un factor general de inteligencia y de que varias capacidades cognitivas se correlacionan. Eso va en contra de la independencia total que propone la teoría.
+- **Teoría sin respaldo directo:** no hay un test validado de «las ocho inteligencias» ni estudios que muestren que enseñar según el «estilo» de cada alumno mejore los resultados.
+- **Lo que no es:** no son «estilos de aprendizaje» (otra idea muy difundida y poco respaldada). Gardner mismo ha tomado distancia de esa lectura.
+- Las propuestas de Sternberg, por su parte, tienen más apoyo empírico en el aspecto práctico, aunque también reciben críticas.
 
 ## Preguntas frecuentes
 

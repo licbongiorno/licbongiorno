@@ -49,6 +49,25 @@ Si querés ver dónde cae este enfoque entre otras prácticas, recorré [el mapa
 
 Lecturas: Boyesen, G. (1996), *Entre psyché et soma*.
 
+## Contexto histórico
+
+Gerda Boyesen se formó en Oslo, donde trabajó con terapeutas de la tradición de Reich, entre ellos Ola Raknes, y también estudió fisioterapia. A partir de esa base desarrolló un método propio, y desde los años sesenta lo enseñó en Londres, donde se creó el instituto que lleva su nombre. Su aporte más reconocido es haber vinculado la tensión muscular con el sistema vegetativo y con la digestión de la emoción, una idea que la distingue de otros posreichianos ([escuelas posreichianas](/recursos/escuelas-posreichianas/)).
+
+## Una viñeta
+
+Una mujer con dolor de espalda y mucha dificultad para descansar llega a una sesión corporal. A lo largo de unas semanas, el trabajo se parece más a aprender a bajar el ritmo que a «liberar» algo: respira más profundo, nota que aprieta el abdomen al hablar de su trabajo, y se permite parar. En una sesión se emociona sin saber bien por qué, y lo conversa después. No hubo revelación: hubo más contacto con su propio cuerpo y más margen para decir que no. (Escena genérica, ilustrativa.)
+
+## Cómo puede integrarse en una terapia
+
+En una psicoterapia de base psicoanalítica y junguiana, el trabajo biodinámico se entiende como un complemento: un camino hacia el cuerpo mientras la palabra sigue el suyo. Ayuda a quienes se manejan mucho desde lo intelectual y sienten poco, algo que en la psicología corporal se relaciona con lo que Reich llamó coraza ([Wilhelm Reich](/recursos/wilhelm-reich/)). También se relaciona con la [interocepción](/recursos/interocepcion/), la percepción de las señales internas del cuerpo. Quien lo practica debería poder explicar con claridad qué hace y cómo cuida el contacto.
+
+## Matices y límites
+
+- **Con investigación:** prácticamente no hay ensayos controlados. Lo que se sabe de la eficacia de las intervenciones corporales en general (masaje, relajación, atención corporal) tiene resultados modestos y variables, y no se puede extrapolar a esta escuela en particular.
+- **Hipótesis de la escuela:** el psicoperistaltismo y la noción de «digestión emocional» son modelos propios, útiles como metáfora, no confirmados como mecanismo.
+- **Lo que sí se puede decir:** el masaje y la atención al cuerpo pueden producir relajación y sensación de bienestar, y eso por sí solo ya es valioso, aunque no pruebe la teoría que lo explica.
+- El contacto físico en psicoterapia es un tema delicado y no todos los enfoques lo usan. Conviene que haya acuerdo explícito, y que la persona pueda elegir. Para comparar con otros métodos, mirá [la psicología corporal](/recursos/psicologia-corporal/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el masaje biodinámico?

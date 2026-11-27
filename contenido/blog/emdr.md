@@ -51,6 +51,22 @@ Para entender el cuadro para el que más se usa el EMDR, mirá [estrés postraum
 
 Lecturas: Shapiro, F. (1989), «Efficacy of the eye movement desensitization procedure in the treatment of traumatic memories», *Journal of Traumatic Stress*, 2(2), 199–223. Organización Mundial de la Salud (2013), *Guidelines for the management of conditions specifically related to stress*. Lee, C. W. y Cuijpers, P. (2013), «A meta-analysis of the contribution of eye movements in processing emotional memories», *Journal of Behavior Therapy and Experimental Psychiatry*, 44(2), 231–239.
 
+## Contexto histórico
+
+Francine Shapiro contó que, en 1987, caminando por un parque, notó que unos pensamientos perturbadores perdían intensidad mientras movía los ojos de un lado a otro. A partir de esa observación desarrolló un procedimiento y lo estudió. En los años noventa lo rebautizó, ampliado, como EMDR y propuso una explicación teórica, el modelo de procesamiento adaptativo de la información: según él, los recuerdos traumáticos quedan almacenados de manera «sin procesar» y el tratamiento ayuda a integrarlos. Ese modelo es una hipótesis. El método tuvo, desde el principio, tanto entusiasmo como críticas, porque su origen era anecdótico y porque algunas explicaciones iniciales no resistieron el examen. Con el tiempo se hicieron más ensayos con otros equipos, y la discusión se volvió más matizada.
+
+## Una escena posible
+
+Una persona que sufrió un accidente de tránsito cuenta que, meses después, sigue sin poder viajar en auto sin tensarse entera. En un tratamiento con EMDR, se empieza por una historia clínica y una preparación: se acuerda cómo se va a trabajar, se aprenden recursos para calmarse y se elige un recuerdo concreto. Recién entonces se trabaja con ese recuerdo, de a poco, mientras el terapeuta guía una estimulación bilateral (por ejemplo, movimientos oculares). Después se evalúa cómo quedó, y si hace falta, se ajusta el ritmo. El cuidado por la estabilidad es parte del método, no un trámite.
+
+## Cómo se integra con un enfoque más amplio
+
+El EMDR trabaja sobre recuerdos específicos, pero una persona no es solo un recuerdo. En un enfoque integrativo, con base junguiana y psicoanalítica, se piensa también qué significado tuvo lo vivido, cómo cambió la imagen de sí y del mundo, qué dificultades preexistían y qué apoyos hay. Puede ocurrir que alguien con trauma complejo necesite mucho trabajo previo de estabilización antes de tocar los recuerdos ([trauma complejo](/recursos/trauma-complejo/), [la ventana de tolerancia](/recursos/la-ventana-de-tolerancia/), [la disociación](/recursos/la-disociacion/)). Y el EMDR convive, como una herramienta posible, con otras terapias del trauma, como [Somatic Experiencing](/recursos/somatic-experiencing/) o la terapia cognitivo-conductual centrada en el trauma. Quien lo aplique debe tener formación específica,; si no la tiene, la derivación honesta forma parte del cuidado. Para ver cómo se vive el cuerpo en estos cuadros, [el cuerpo lleva la cuenta](/recursos/el-cuerpo-lleva-la-cuenta/).
+
+## Matices y límites
+
+Además de las guías de la OMS, otras guías internacionales incluyen el EMDR entre los tratamientos recomendados para el TEPT, con distintos grados de recomendación. Eso no significa que sirva para todo ni para todas las personas: no hay evidencia equivalente para otros cuadros, y los estudios en problemas distintos del trauma son menos sólidos. Muchas de sus afirmaciones más entusiastas (por ejemplo, que procesa traumas «en pocas sesiones» en cualquier caso) no se sostienen de modo general. También hay personas que no responden o que se desbordan, y para eso existe la evaluación previa. Si estás pensando en probarlo, preguntá por la formación del terapeuta, cómo va a ser el ritmo y qué se hace si algo se pone difícil. Si en algún momento aparecen ideas de hacerte daño, ver [Ayuda urgente](/ayuda-urgente/).
+
 ## Preguntas frecuentes
 
 ### ¿Para qué se usa el EMDR?

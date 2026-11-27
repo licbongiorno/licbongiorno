@@ -11,7 +11,7 @@ orden: 192
 estado: publicado
 respuesta: La psicología corporal sostiene que las emociones y los conflictos se expresan en el cuerpo: en la tensión muscular, la respiración, la postura y la sensación. Sus raíces están en Wilhelm Reich, que trabajó con la coraza muscular, y en Alexander Lowen, que creó la bioenergética. Eugene Gendlin aportó el focusing, un método para escuchar la sensación sentida. Hoy sus ideas se integran a muchas psicoterapias, sobre todo en el trabajo con el trauma y el estrés.
 menciona: reich
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Cuando estamos tristes, muchas veces lo primero que cambia es el cuerpo: se cierra el pecho, se cae la mirada, se respira más corto. La psicología corporal toma esa observación en serio y la convierte en una forma de trabajar.
 
@@ -60,6 +60,24 @@ Si querés ordenar el panorama, el [mapa de las psicoterapias corporales](/recur
 - El [laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/), que trabaja con eutonía, técnica Alexander y psicomotricidad.
 
 Y si querés saber cómo notás y escuchás tu cuerpo hoy, el [test de conciencia corporal](/test-de-conciencia-corporal/) lo explora en ocho dimensiones. Detrás de todo esto está la [interocepción](/recursos/interocepcion/): la percepción de las señales del interior del cuerpo. Notar más no siempre es mejor; lo que cuenta es cómo te relacionás con lo que notás.
+
+## Contexto histórico
+
+La psicología corporal tiene raíces en el psicoanálisis temprano. Freud decía que el yo es, ante todo, un yo corporal. Sándor Ferenczi exploró la relajación y el contacto en la clínica ([Sándor Ferenczi](/recursos/sandor-ferenczi/)), y Wilhelm Reich, discípulo de Freud, llevó la observación al cuerpo del paciente en los años treinta. Después de Reich se abrieron varias ramas: la bioenergética de Lowen, el trabajo biodinámico de Boyesen, la formativa de Keleman, el focusing de Gendlin, y otras que toman distancia de su origen ([escuelas posreichianas](/recursos/escuelas-posreichianas/)). En paralelo, tradiciones no clínicas, como la técnica Alexander, la eutonía y el método Feldenkrais, aportaron formas de atención al movimiento ([Feldenkrais](/recursos/feldenkrais/)).
+
+## Una viñeta
+
+Un hombre llega con migrañas frecuentes y con una vida muy ordenada. Cuenta que pasa el día frente a la computadora sin levantarse, apretando los dientes. En terapia no se empieza por interpretarlo, sino por notarlo: ¿cuándo aprieta?, ¿qué hace la respiración mientras habla de su jefe? Con el tiempo aparece algo de su historia, la costumbre de «no hacer ruido» desde chico, y también cambios simples: levantarse, soltar el cuello, pedir una pausa. Las migrañas no desaparecieron por arte de magia; el médico siguió siendo parte del cuidado. (Escena genérica, ilustrativa.)
+
+## Cómo se integra en una terapia con base junguiana y psicoanalítica
+
+Para el psicoanálisis, el cuerpo es el origen de la vida pulsional; para Jung, es el lugar donde se encarna la psique y donde los complejos dejan huella. Desde esas lecturas, trabajar con el cuerpo no es un desvío de la terapia: es otra puerta a lo mismo. En la práctica, se puede alternar: un momento de atención corporal, otro de conversación, otro de imagen. Lo que importa es que quien consulta sienta que decide el ritmo, y que se recuerde que el cuerpo no es solo un depósito de síntomas, sino también de recursos: el apoyo, la respiración, la capacidad de calmarse. Para el trabajo con el trauma, ver [el cuerpo lleva la cuenta](/recursos/el-cuerpo-lleva-la-cuenta/).
+
+## Matices y límites
+
+- Existen revisiones sobre intervenciones corporales en depresión, ansiedad y trauma con resultados prometedores pero heterogéneos; la calidad de los estudios suele ser baja o moderada. Los enfoques basados en mindfulness y movimiento tienen más respaldo que las escuelas más tradicionales.
+- Cuando se habla del cuerpo, conviene no caer en un «todo es psicosomático»: muchas dolencias tienen causas médicas que hay que descartar primero.
+- La psicología corporal no es un solo método, y la calidad de la formación varía mucho. Vale preguntar a quien la ofrece cómo se formó y cómo trabaja el consentimiento.
 
 ## Preguntas frecuentes
 

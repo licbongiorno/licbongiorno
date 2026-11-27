@@ -11,7 +11,7 @@ orden: 186
 estado: publicado
 respuesta: Las pesadillas son sueños angustiantes que suelen despertar a la persona y que se recuerdan con claridad. Son más frecuentes en épocas de estrés y después de experiencias traumáticas. El ensayo en imaginación, que consiste en cambiar el final de la pesadilla y ensayarlo de día, mostró buenos resultados en estudios como el de Barry Krakow y su equipo (2001). Desde la mirada de Jung, una pesadilla también puede leerse como un mensaje.
 menciona: ansiedad
-revision: 2026-11-10
+revision: 2026-11-27
 ---
 Una pesadilla es un sueño con emociones intensas —miedo, angustia, vergüenza, tristeza— que suele despertarnos y que recordamos con detalle. Casi todos las tuvimos alguna vez. Pero cuando se repiten, pueden convertir la noche en algo que se teme.
 
@@ -58,6 +58,20 @@ Cuando las pesadillas se repiten varias veces por semana, cuando te da miedo dor
 :::aviso
 Si las pesadillas están ligadas a una situación de violencia actual, o vienen con pensamientos de hacerte daño, no esperes: llamá al 911, a la Línea 144 (violencia de género) o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Más teléfonos en [Ayuda urgente](/ayuda-urgente/).
 :::fin
+
+## Una escena posible
+
+Una persona cuenta que, desde hace meses, sueña casi todas las semanas que lo persiguen por una casa que conoce y no reconoce. Se despierta agitada, con el corazón rápido, y le cuesta volver a dormir. Con el tiempo, empieza a posponer la hora de acostarse. Ese rodeo es importante: el miedo a la noche termina acortando y fragmentando el sueño, y un sueño más frágil favorece, a su vez, más pesadillas. Entender ese círculo ya alivia, porque saca a la pesadilla del lugar de «algo que me está pasando» y la ubica como algo con lógica.
+
+## Cómo se trabaja en terapia
+
+Con las pesadillas se trabaja en dos planos que no se excluyen. En el primero, el **síntoma**: dormir mejor, bajar el miedo a acostarse, ordenar rutinas de sueño y, cuando corresponde, usar técnicas como el ensayo en imaginación. En el segundo, el **sentido**: qué escena, qué personaje o qué emoción de la pesadilla dialoga con la vida despierta. Desde la base junguiana y psicoanalítica, se anotan los sueños, se asocia libremente a sus imágenes y se escucha qué figuras aparecen: perseguidores, hundimientos, caídas. Cada imagen se piensa con la persona, no se «traduce» con un diccionario ([los símbolos según Jung](/recursos/los-simbolos-segun-jung/)). A veces el perseguidor es algo propio que se evita mirar ([la sombra](/recursos/la-sombra-segun-jung/)).
+
+Cuando las pesadillas aparecen después de un hecho traumático, el trabajo se ordena de otra forma, con más cuidado en el ritmo; ver [estrés postraumático](/recursos/estres-postraumatico/) y el [laboratorio de trauma](/laboratorio-de-trauma/). Si el insomnio es parte del cuadro, ver [insomnio](/recursos/insomnio/).
+
+## Matices y límites
+
+El estudio de Krakow y colaboradores (2001) fue con mujeres sobrevivientes de agresión sexual con pesadillas crónicas; los resultados fueron alentadores, pero es una población específica y no alcanza para generalizar a todos los casos. Desde entonces, se ha investigado la técnica en otras poblaciones, y hoy se la considera una de las intervenciones con mejor respaldo para pesadillas, aunque no funciona igual en todas las personas. En cambio, la lectura simbólica de las pesadillas es una teoría clínica, no un hecho medido: sirve cuando hace sentido para la persona, no como verdad objetiva. Por último, ciertos medicamentos y algunas condiciones médicas pueden provocar pesadillas, por lo que conviene consultarlo con el médico antes de atribuirlo todo a lo emocional. No se debe suspender ninguna medicación por cuenta propia.
 
 ## Preguntas frecuentes
 

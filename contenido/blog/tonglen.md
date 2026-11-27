@@ -11,7 +11,7 @@ orden: 50
 estado: publicado
 respuesta: El tonglen es una práctica de meditación del budismo tibetano cuyo nombre significa «dar y tomar». Al inhalar, se imagina que se recibe el sufrimiento propio o ajeno, y al exhalar se envía alivio, espacio y bienestar. Viene de las enseñanzas del entrenamiento de la mente (lojong), atribuidas al maestro indio Atisha, y la difundió en Occidente la monja Pema Chödrön. Cultiva la compasión invirtiendo el hábito de rechazar lo doloroso. No se recomienda en crisis ni con un trauma reciente.
 menciona: meditacion
-revision: 2026-11-16
+revision: 2026-11-27
 ---
 No, no se trata de cargar con el dolor de nadie ni de enfermarte con el sufrimiento ajeno. Es casi lo contrario: una práctica para dejar de huir. Cuando algo duele, el reflejo es cerrarse, mirar para otro lado, defenderse. El tonglen propone un movimiento inverso: abrirse a eso que duele y responder con alivio.
 
@@ -48,6 +48,22 @@ El tonglen entrena justamente ese pasaje: no evitar el dolor, pero tampoco queda
 - **Empezá por la textura** o por un malestar chico, antes de traer situaciones intensas.
 - **Si la angustia crece, pará.** Respirá normal, sentí los pies en el suelo. Leé [cuándo meditar no es recomendable](/recursos/cuando-meditar-no-es-recomendable/).
 - **No es magia.** No se «absorbe» el dolor de nadie: se cultiva una actitud.
+
+## Una escena posible
+
+Alguien que cuida a un padre enfermo cuenta que está agotado y, a la vez, avergonzado de su cansancio. En una práctica de tonglen, en lugar de empujar ese malestar, prueba algo distinto: al inhalar, reconoce «esto pesa»; al exhalar, se desea un poco de descanso. Después amplía: hay mucha gente cuidando a alguien en este momento, con el mismo cansancio. No le quita la tarea ni la pena, pero cambia algo: deja de sentirse solo y deja de pelearse con lo que siente. Esa es la intención de la práctica.
+
+## Contexto de la práctica
+
+El tonglen pertenece a una tradición de entrenamiento de la mente que, en el budismo tibetano, se transmitía con una enseñanza gradual y con un maestro. Su traslado a Occidente lo adaptó para personas laicas, en formatos breves. Esa adaptación tiene ventajas (la hace accesible) y riesgos (puede perder el marco que la contenía). Por eso conviene practicarla como una práctica entre otras y no como un método de «sanación». Para ubicarla en su linaje, ver [lojong, el entrenamiento mental tibetano](/recursos/lojong-entrenamiento-mental-tibetano/) y el [laboratorio de lojong](/laboratorio-de-lojong/); para la compasión en general, [meditación de metta y compasión](/recursos/meditacion-metta-compasion/).
+
+## Cómo se la usa en terapia
+
+En un enfoque integrativo, con base junguiana y psicoanalítica, no se indica el tonglen como un tratamiento. A veces, cuando alguien ya tiene una práctica contemplativa, se conversa qué le genera: si le abre o lo desborda, si lo usa para acercarse al dolor o para disolverse en el ajeno. Esa pregunta importa: hay quien, con una historia de mucho cuidar a otros, usa la práctica para seguir poniéndose último. En ese caso, el trabajo puede ser el contrario: aprender a recibir y a ponerse límites ([límites sanos en los vínculos](/recursos/limites-sanos-en-los-vinculos/)). Y hay quien necesita, antes que dar compasión, poder darse a sí mismo ([Kristin Neff](/recursos/kristin-neff/) y el [laboratorio de autocompasión](/laboratorio-de-autocompasion/)).
+
+## Matices y límites
+
+El tonglen en sí tiene muy poca investigación propia. Lo que está estudiado es el entrenamiento en compasión en general: por ejemplo, un estudio de Klimecki y colaboradores (2013) mostró cambios en la actividad cerebral y en el afecto positivo tras un entrenamiento de compasión breve, aunque con muestras pequeñas y sin que sea específico de esta práctica. La distinción entre malestar empático y compasión es un aporte interesante, pero todavía se discute cómo medirla. También conviene decir que la imagen de «tomar» el sufrimiento ajeno es simbólica y no tiene ningún efecto sobre la otra persona: es una práctica sobre la propia actitud. Si te angustia, no la fuerces; si la angustia es intensa o sostenida, pedí ayuda profesional.
 
 ## Preguntas frecuentes
 
