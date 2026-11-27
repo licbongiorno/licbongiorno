@@ -1,0 +1,24 @@
+{
+ "autor": "Edinger",
+ "preguntas": [
+  {
+   "enigma": "Recibís un ascenso y por unas semanas te sentís imparable: dormís poco, prometés de más, no escuchás consejos. Después cometés un error grande y el ánimo se hunde: «soy un fraude».",
+   "p": "¿Por qué después de la euforia suele venir la caída?",
+   "opciones": ["Es casualidad: los buenos y malos momentos se alternan al azar", "Porque nos pasamos de confianza y la realidad nos pone límites", "Porque nunca merecimos el éxito"],
+   "r": "Edinger llamó inflación al estado en que el yo se cree omnipotente, y alienación al golpe posterior en que se siente sin valor. Para él, ese ciclo no es solo un problema: es parte del camino de la individuación.",
+   "como": "Fue psiquiatra y analista junguiano; ordenó el pensamiento de Jung en seminarios, apoyándose en Erich Neumann, y puso nombre a un patrón que veía en sus pacientes.",
+   "debate": "Es teoría clínica y simbólica, no investigación empírica: son modelos de lectura que valen si le sirven a alguien para entenderse, y una depresión intensa requiere atención clínica.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "Hay caídas, como un fracaso, un duelo o una depresión después de un logro, que se sienten como si nada tuviera sentido.",
+   "p": "¿Una caída puede ser algo más que un problema para resolver?",
+   "opciones": ["No, es solo sufrimiento que hay que superar cuanto antes", "Sí, puede ser un punto de un proceso donde algo se reordena", "Solo si uno la interpreta de forma positiva"],
+   "r": "Edinger propuso que la alienación, aunque dolorosa, abre la posibilidad de un vínculo más maduro con el sí-mismo. Ese ciclo se repite a lo largo de la vida y con cada vuelta el eje yo–sí-mismo se vuelve más consciente.",
+   "como": "Leyó en la alquimia, que Jung había estudiado, un lenguaje simbólico de procesos de transformación psíquica y lo desarrolló en Anatomía de la psique.",
+   "debate": "Las lecturas alquímicas pueden volverse muy interpretativas y es fácil encontrar en cualquier símbolo lo que ya se quería ver; conviene usarlo como brújula y no como diagnóstico.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Cómo distinguir una caída que reordena de una que necesita ayuda clínica concreta? La pregunta sigue abierta para quienes trabajan con crisis."
+}

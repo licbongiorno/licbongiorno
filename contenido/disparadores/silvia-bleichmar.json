@@ -1,0 +1,24 @@
+{
+ "autor": "Bleichmar",
+ "preguntas": [
+  {
+   "enigma": "Alguien lleva meses sin trabajo estable y se siente roto. Se pregunta si le pasa porque es débil o porque algo, en la situación que lo rodea, lo supera.",
+   "p": "¿Todo el sufrimiento es una cuestión personal?",
+   "opciones": ["Sí, siempre depende de cómo cada uno lo procese", "No, una parte viene de condiciones sociales que podrían ser distintas", "Depende, pero hay un dolor que es parte de vivir y otro que sobra"],
+   "r": "Bleichmar propuso el concepto de malestar sobrante. Parte de que la vida en cultura implica renuncias y cierto malestar propio de la condición humana, y distingue de eso el sufrimiento que se agrega por condiciones sociales concretas, como la represión, la corrupción o la precarización. Hay un dolor que es parte de vivir y otro que sobra.",
+   "como": "Se formó en París con Jean Laplanche, que repensó cómo el psiquismo se constituye en el encuentro con el otro adulto. Si el psiquismo se forma con otros, las condiciones de vida de esos otros no son un decorado. Escribió «Dolor país» (2002) tras la crisis argentina de 2001.",
+   "debate": "Su planteo no promete que lo social lo explique todo: el malestar propio de la cultura sigue existiendo y la clínica sigue siendo necesaria. Ofrece un criterio para no confundir ambos planos.",
+   "seccion": "Qué quedó en pie"
+  },
+  {
+   "enigma": "Un bebé crece rodeado de adultos que lo cuidan, y esos adultos, sin saberlo, le transmiten cosas: sus miedos, sus silencios, sus deseos.",
+   "p": "¿Nos formamos solos o con lo que otros nos dejan?",
+   "opciones": ["Nos formamos sobre todo solos, con nuestro temperamento", "Nadie se constituye solo: lo que los adultos transmiten deja marcas", "Es una mezcla donde pesa más lo que heredamos"],
+   "r": "En «La fundación de lo inconsciente», Bleichmar discute cómo se origina el inconsciente en cada persona desde la perspectiva de Laplanche. El punto de partida es sencillo de enunciar: nadie se constituye solo, y lo que los otros adultos transmiten, incluso sin saberlo, deja marcas en el comienzo de la vida psíquica.",
+   "como": "Retomó y puso en tensión la tradición freudiana con un trabajo teórico exigente, y de ahí pasó a preguntarse qué le pasa a una sociedad concreta, la argentina, y qué consecuencias tiene sobre la vida psíquica de quienes la habitan.",
+   "debate": "Es una teoría psicoanalítica: se discute con argumentos clínicos y filosóficos, no se mide con instrumentos. Es una forma de pensar más que un hallazgo experimental.",
+   "seccion": "Sus obras y sus ideas"
+  }
+ ],
+ "abierta": "Cuando una sociedad entera atraviesa una crisis, ¿cuánto de lo que sentimos es nuestro y cuánto es de todos? Pensarlo sin diluirlo ni individualizarlo sigue siendo un desafío."
+}

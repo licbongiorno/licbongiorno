@@ -1,0 +1,24 @@
+{
+ "autor": "Skinner",
+ "preguntas": [
+  {
+   "enigma": "En el supermercado, un nene de tres años llora porque quiere un chocolate. Los padres, agotados, se lo dan y el llanto se corta. A la semana siguiente, otra vez.",
+   "p": "¿Por qué lo vuelve a hacer?",
+   "opciones": ["Es caprichoso, viene así de carácter", "Está probando los límites de sus padres", "Aprendió que llorar funciona, y los padres aprendieron que ceder termina el llanto"],
+   "r": "Skinner mostró que lo que hacemos cambia según sus consecuencias. Acá hay dos refuerzos: el nene aprendió que llorar funciona y los padres que ceder pone fin al llanto, lo que se llama refuerzo negativo. La próxima vez, ambos tenderán a repetir su parte.",
+   "como": "Lo estudió en el laboratorio, con la «caja de Skinner»: un animal podía accionar una palanca y recibir comida, y él registraba cómo cambiaba la frecuencia de la conducta según sus consecuencias.",
+   "debate": "Su enfoque dejó fuera lo que pasa dentro de la persona como explicación. Albert Bandura mostró que también se aprende observando, y la psicología cognitiva recuperó el papel del pensamiento.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "Sabés que no hay nada importante, pero igual revisás el celular una vez más. Y otra.",
+   "p": "¿Por qué cuesta tanto soltarlo?",
+   "opciones": ["Falta de voluntad", "Aburrimiento: no sabemos estar sin hacer nada", "Las notificaciones llegan a veces y sin aviso, y esa intermitencia sostiene la conducta"],
+   "r": "Skinner descubrió que no da lo mismo cómo llega el refuerzo. Cuando es intermitente e impredecible, la conducta se vuelve muy persistente. Así funcionan las máquinas tragamonedas y muchas aplicaciones.",
+   "como": "Comparó distintos programas de refuerzo en sus experimentos, midiendo cuánto persistía una conducta cuando el premio llegaba siempre, a veces o nunca.",
+   "debate": "Su propuesta de rediseñar la sociedad con principios conductuales abrió un debate ético que sigue vivo: ¿quién decide qué conductas se refuerzan?",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si el ambiente moldea tanto lo que hacemos, ¿cuánto margen de decisión nos queda? ¿Y quién debería diseñar los entornos que nos moldean?"
+}

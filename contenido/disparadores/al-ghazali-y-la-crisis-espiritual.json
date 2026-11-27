@@ -1,0 +1,24 @@
+{
+ "autor": "Al-Ghazali",
+ "preguntas": [
+  {
+   "enigma": "Una persona en la cima de su profesión, con el cargo que todos envidian, una mañana quiere dar su clase y no le salen las palabras. Los médicos no encuentran nada en el cuerpo.",
+   "p": "¿Qué le está pasando?",
+   "opciones": ["Un problema físico que todavía no se detectó", "Un agotamiento o una depresión de manual", "Una crisis de sentido que involucra a la vez cuerpo, mente y propósito"],
+   "r": "Así cuenta Al-Ghazali, hacia 1095, el comienzo de la crisis que cambió su vida: la lengua se le trabó, dejó de digerir la comida y los médicos le dijeron que el mal estaba en el corazón. Había empezado a sospechar que su trabajo estaba movido más por la fama que por Dios. Dejó Bagdad, repartió sus bienes y viajó unos diez años.",
+   "como": "Está en su autobiografía intelectual, Al-Munqidh min al-dalal, escrita años después. Hizo vida de retiro y de práctica sufí, y enseñó brevemente en Nishapur en 1106.",
+   "debate": "Es tentador poner etiquetas como depresión o crisis de la mitad de la vida, pero el texto es tardío, literario y religioso, no un diario clínico. El diagnóstico retroactivo es especulación, y reducirlo a un cuadro psiquiátrico borra la dimensión que para él era central.",
+   "seccion": "Una lectura psicológica, con límites"
+  },
+  {
+   "enigma": "Alguien duda de todo: de lo que ve, de lo que razona. Durante semanas no encuentra un argumento que lo saque de ahí.",
+   "p": "¿Cómo se sale de una duda así?",
+   "opciones": ["Con un argumento más fuerte que todos los anteriores", "Dejando de pensar y volviendo a lo cotidiano", "Con un reconocimiento directo, que no es una demostración"],
+   "r": "Al-Ghazali cuenta que atravesó una duda radical, incluso sobre los datos de los sentidos y de la razón, durante unos dos meses. Su salida, dice, no vino de un argumento sino de «una luz que Dios arrojó en mi pecho». Para él, ese reconocimiento directo, y no la demostración, era la base de la certeza.",
+   "como": "Había revisado los caminos que ofrecían certeza, los teólogos, los ismailíes, los filósofos y los sufíes, antes de llegar a esa duda.",
+   "debate": "Se parece, de lejos, a otros relatos de crisis y conversión que estudió la psicología de la religión, pero la comparación debe hacerse con precaución. Imitar el desenlace de otro no resuelve una crisis de sentido.",
+   "seccion": "Qué dice sobre la duda"
+  }
+ ],
+ "abierta": "Al-Ghazali distinguía crisis de fe de enfermedad del cuerpo, pero la vivió con las dos. Hoy, ¿cómo diferenciar una búsqueda de sentido de un cuadro clínico, si pueden ir juntos?"
+}

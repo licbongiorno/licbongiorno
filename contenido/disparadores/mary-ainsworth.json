@@ -1,0 +1,24 @@
+{
+ "autor": "Ainsworth",
+ "preguntas": [
+  {
+   "enigma": "El primer día de jardín, un nene casi no reacciona cuando la mamá se va, y al reencontrarse sigue con sus juguetes sin mirarla.",
+   "p": "¿Ese nene es más independiente que el que llora?",
+   "opciones": ["Sí, porque tolera mejor la separación", "No: puede estar protegiéndose de lo que siente", "No se puede saber con un solo episodio"],
+   "r": "Ainsworth descubrió que algunos bebés que parecían tranquilos ante la separación tenían el corazón acelerado y evitaban a su madre al volver: la calma aparente era una forma de protegerse. Enseñó a mirar el reencuentro más que la despedida.",
+   "como": "Creó la situación extraña, un procedimiento de unos veinte minutos con breves separaciones y reencuentros, tras observar durante muchas horas a bebés en sus casas, en Uganda y en Baltimore.",
+   "debate": "Un episodio aislado no dice nada: los estilos describen patrones en una relación concreta, no un rasgo fijo, y la situación extraña se diseñó con familias de clase media occidental.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Dos madres atienden a sus bebés con todo el cariño, pero una nota enseguida lo que su bebé necesita y responde a tiempo, y la otra a veces se pierde las señales.",
+   "p": "¿Qué marca la diferencia en cómo crece el vínculo?",
+   "opciones": ["Cuánto amor sienten", "Cuántas horas pasan juntos", "Cuánto notan las señales del bebé y responden a tiempo"],
+   "r": "Ainsworth llamó sensibilidad materna a la capacidad de notar las señales del bebé, interpretarlas bien y responder a tiempo. Es uno de los factores que más favorecen un apego seguro.",
+   "como": "La observó en los hogares y la contrastó con lo que veía después en el laboratorio, lo que le dio a sus conclusiones una solidez poco común.",
+   "debate": "La relación entre sensibilidad y apego seguro existe, pero es moderada: el temperamento del bebé, el contexto y otros cuidadores también cuentan, y no solo importa la madre.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Cuánto cambian los estilos de apego a lo largo de la vida y con nuevas relaciones? La investigación todavía no lo tiene del todo claro."
+}

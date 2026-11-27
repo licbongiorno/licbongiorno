@@ -1,0 +1,24 @@
+{
+ "autor": "Watzlawick",
+ "preguntas": [
+  {
+   "enigma": "Llevás una hora tratando de dormir. Cuanto más te esforzás, más despierto estás: mirás el reloj, calculás cuántas horas te quedan, te enojás.",
+   "p": "¿Por qué esforzarse más a veces empeora el problema?",
+   "opciones": ["Porque no nos esforzamos lo suficiente", "Porque lo que intentamos para resolverlo puede ser lo que lo mantiene", "Porque el insomnio no tiene solución"],
+   "r": "Watzlawick y sus colegas del MRI sostuvieron que muchas veces la solución intentada es el problema: insistir con más de lo mismo lo agranda. Hablaron de un cambio de segundo orden, que no hace más de lo mismo sino que cambia las reglas del juego, por ejemplo dejando de pelear contra el insomnio.",
+   "como": "En el Mental Research Institute de Palo Alto, en lugar de buscar por qué empezó un problema, se preguntaron qué se hace hoy que lo mantiene.",
+   "debate": "Hay estudios y reportes de casos, pero menos ensayos controlados que para otras terapias, y las intervenciones paradójicas generaron debate por posible manipulación.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Una pareja discute por cómo se cargó el lavavajillas, y la pelea se vuelve enorme y no termina.",
+   "p": "¿Sobre qué están discutiendo en realidad?",
+   "opciones": ["Sobre el lavavajillas, porque cada uno cree tener razón", "Sobre cómo se tratan al decirlo", "Sobre quién tiene más poder en la casa"],
+   "r": "Todo mensaje tiene un contenido y, a la vez, dice algo sobre la relación entre quienes hablan. Muchos conflictos se pelean en el contenido cuando lo que duele está en la relación. Además, cada uno ordena la secuencia a su manera («me encierro porque me criticás» y «te critico porque te encerrás»), y así la discusión no termina.",
+   "como": "Lo formuló con Janet Beavin y Don Jackson en Teoría de la comunicación humana (1967), a partir de su trabajo en Palo Alto.",
+   "debate": "Sus axiomas son un marco descriptivo útil, no leyes demostradas como las de la física, y la investigación posterior los ha matizado.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Cómo salir de un patrón de comunicación que ya se volvió rutina, sin que el intento de salir se convierta en otra rutina? Sigue siendo una pregunta abierta para las terapias de pareja y de familia."
+}

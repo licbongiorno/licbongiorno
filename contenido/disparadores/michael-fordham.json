@@ -1,0 +1,24 @@
+{
+ "autor": "Fordham",
+ "preguntas": [
+  {
+   "enigma": "Después de una conversación muy íntima, en la que te abriste más de lo habitual, necesitás un rato a solas.",
+   "p": "¿Qué creés que estás haciendo en ese rato?",
+   "opciones": ["Retraerte porque te arrepentís de lo que dijiste", "Descansar de tanto estímulo social", "Reunir lo que viviste para poder integrarlo"],
+   "r": "Fordham lo vería como reintegración. Para él, el self se abre para encontrarse con el mundo, lo que llamó deintegración, y después la experiencia vivida se reúne de nuevo. No es retraimiento: es parte de un ritmo, como un self que respira.",
+   "como": "Era psiquiatra de niños y trabajó años en clínicas de orientación infantil. Pensó este ritmo mirando bebés, por ejemplo uno que llora de hambre, se agita con todo el cuerpo y se aquieta cuando lo alzan y lo alimentan.",
+   "debate": "Es una hipótesis clínica, no algo que se pueda observar directamente, y no hay estudios que comparen el enfoque evolutivo con otros en resultados terapéuticos. Es una forma de pensar con valor clínico, no un protocolo con eficacia demostrada.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Un bebé recién nacido: ¿qué hay «adentro» de él?",
+   "p": "¿Nace en blanco, o ya trae algo?",
+   "opciones": ["Nace en blanco y todo se escribe después con la experiencia", "Nace fusionado con la madre, sin ser todavía alguien", "Nace con una totalidad propia que contiene en potencia todo lo que se va a desarrollar"],
+   "r": "Fordham propuso que el bebé no nace en blanco ni fusionado sin más con la madre, sino con una totalidad propia, un self primario, que contiene en potencia todo lo que se va a desarrollar. Tomó la idea de Jung de un sí-mismo que ordena la psique y la llevó a los primeros meses de vida.",
+   "como": "Combinó la teoría de Jung con ideas de Melanie Klein y con la observación de bebés, desde su práctica como psiquiatra infantil.",
+   "debate": "La investigación posterior sobre bebés, como la de Daniel Stern, mostró que desde muy temprano son activos y sensibles a los vínculos, lo que coincide con la intuición de Fordham, pero eso no prueba la teoría completa.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Qué trae cada persona al nacer y qué le agrega el ambiente? ¿Se puede probar algo así sobre los primeros meses de vida, cuando el bebé no puede contarnos nada?"
+}

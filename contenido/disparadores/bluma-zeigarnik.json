@@ -1,0 +1,24 @@
+{
+ "autor": "Zeigarnik",
+ "preguntas": [
+  {
+   "enigma": "Son las once de la noche, apagaste la luz y tu cabeza vuelve sola al mail que no contestaste y a la conversación que quedó cortada. Lo que terminaste durante el día no aparece.",
+   "p": "¿Por qué lo pendiente se queda y lo terminado se va?",
+   "opciones": ["Porque lo inconcluso genera una tensión que mantiene la tarea activa en la mente", "Porque lo pendiente es lo que más nos importa", "Porque lo terminado, en realidad, también se recuerda igual, pero no nos molesta"],
+   "r": "Zeigarnik, siguiendo la teoría de Lewin, propuso que empezar una tarea crea una tensión psicológica que busca descargarse. Mientras la tarea sigue abierta, el objetivo queda activo y más accesible a la memoria. En su artículo de 1927 informó que las tareas interrumpidas se recordaban casi el doble que las terminadas.",
+   "como": "Les pedía a los participantes que hicieran tareas breves, como ensartar cuentas o resolver rompecabezas, dejaba terminar algunas e interrumpía otras con una excusa, y al final preguntaba qué recordaban.",
+   "debate": "Un metaanálisis de 2025 (Ghibellini y Meier) no encontró una ventaja general de memoria para lo interrumpido. Sí encontró una tendencia robusta a retomar lo interrumpido, el efecto Ovsiankina. La historia del mozo del café que originó todo es una anécdota difícil de documentar.",
+   "seccion": "Qué se replicó y qué no"
+  },
+  {
+   "enigma": "Tenés veinte pendientes dando vueltas en la cabeza y a la noche vuelven en desorden. Un día te sentás, los anotás y a cada uno le ponés un paso y un día. Siguen ahí, pero dejan de golpear la puerta.",
+   "p": "¿Qué cambió, si no hiciste ninguno todavía?",
+   "opciones": ["Te engañaste a vos mismo con una lista", "La mente descansa cuando sabe cómo y cuándo va a seguir, no solo cuando termina", "Ahora los pendientes te importan menos"],
+   "r": "Masicampo y Baumeister (2011) mostraron que los objetivos pendientes generan pensamientos intrusivos e interfieren con otras tareas, y que hacer un plan concreto eliminaba esa interferencia aun sin haber cumplido el objetivo. La mente parece pedir menos terminar que saber cómo y cuándo seguir.",
+   "como": "Lo mostraron en una serie de experimentos que comparaban objetivos pendientes con y sin plan concreto.",
+   "debate": "Anotar no resuelve todo cuando lo que pesa es un conflicto emocional o una decisión difícil. Y las aplicaciones a la productividad y al marketing suelen exagerar el efecto.",
+   "seccion": "Cómo se ve en la vida cotidiana"
+  }
+ ],
+ "abierta": "Cuando postergamos algo, la tarea no desaparece: vuelve. ¿Cuánto de ese volver es una tensión que pide descargarse y cuánto es simplemente que nos importa? Es algo que la psicología todavía no termina de separar."
+}

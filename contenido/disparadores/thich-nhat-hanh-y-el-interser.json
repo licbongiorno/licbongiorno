@@ -1,0 +1,24 @@
+{
+ "autor": "Thich Nhat Hanh",
+ "preguntas": [
+  {
+   "enigma": "Tenés en la mano una hoja de papel. Parece una cosa simple y separada de todo lo demás.",
+   "p": "¿Qué hay realmente en esa hoja?",
+   "opciones": ["Solo papel, hecho de pulpa de madera", "La hoja y nada más: lo demás es una forma poética de hablar", "También la nube, la lluvia, el árbol y quien lo cortó"],
+   "r": "Thich Nhat Hanh llamó interser a la idea budista de que nada existe por sí mismo y todo existe en relación con lo demás. En la hoja se puede ver la nube que dio la lluvia, el árbol, el leñador que lo cortó, y hasta el trigo del pan que comió el leñador. Si quitás uno de esos elementos, la hoja desaparece.",
+   "como": "Es su traducción de un término vietnamita para una enseñanza tradicional budista, la originación dependiente. Nació monje zen y, durante la guerra de Vietnam, insistió en que los monjes no debían encerrarse en los templos mientras la gente sufría: así surgió el budismo comprometido.",
+   "debate": "Es una idea filosófica y espiritual, no una hipótesis psicológica ni algo que se pueda medir, y conviene no presentarla como tal. Sí puede leerse como una invitación a pensar el sufrimiento más allá del yo aislado.",
+   "seccion": "Qué es el interser"
+  },
+  {
+   "enigma": "Lavás los platos pensando en otra cosa, con apuro, para terminar. Otro día los lavás con la atención puesta en el agua tibia y en cada plato.",
+   "p": "¿Puede cambiar algo en vos una tarea tan simple hecha con atención?",
+   "opciones": ["No, es lo mismo, los platos se lavan igual", "Sí, quizá cambia el estado con que la vivís", "Solo si la sostenés muchos años como práctica"],
+   "r": "En «El milagro de mindfulness» (1975) Thich Nhat Hanh sugiere hacer con atención cosas como lavar los platos o tomar el té, y enseñó el caminar consciente: acompañar cada paso con la respiración, sin apuro y sin meta, llegando a cada paso. Su lenguaje es llano: sonreír al respirar, reconocer lo que sentimos, saludar al enojo como a un huésped.",
+   "como": "Esas imágenes surgen de la práctica de su comunidad, Plum Village, fundada en Francia en 1982, y no de ensayos clínicos. Su influencia en el mindfulness que se enseña en hospitales y escuelas es real pero indirecta: él no diseñó un programa clínico.",
+   "debate": "Hay estudios con resultados modestos o mixtos sobre mindfulness en estrés y ánimo, con muestras pequeñas, y sobre el método de Plum Village la investigación es escasa. Ronald Purser, en «McMindfulness», critica que se vendió como herramienta de productividad, despegada de la ética.",
+   "seccion": "Caminar consciente y respirar"
+  }
+ ],
+ "abierta": "¿Se puede separar una práctica contemplativa de la tradición y la ética que la vio nacer sin perder algo esencial? El debate sigue abierto."
+}

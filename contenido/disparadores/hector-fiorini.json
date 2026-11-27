@@ -1,0 +1,24 @@
+{
+ "autor": "Fiorini",
+ "preguntas": [
+  {
+   "enigma": "Alguien consulta con ataques de angustia desde que lo despidieron del trabajo. Tiene poco tiempo y pocas sesiones disponibles.",
+   "p": "¿Por dónde empezarías a trabajar?",
+   "opciones": ["Por su infancia, para encontrar el origen de todo", "Por calmar los síntomas lo antes posible", "Por la situación actual: la pérdida del empleo y el conflicto que reactivó"],
+   "r": "Fiorini propuso empezar por un foco: un eje que ordena el tratamiento y se arma a partir del motivo de consulta y del conflicto que lo sostiene, inscriptos en una situación concreta. Acá sería la pérdida del empleo, el lugar que ese trabajo ocupaba en su identidad y el conflicto que se reactivó. Desde ahí se trabaja en pocas sesiones, y el resto queda para otros momentos si la persona lo desea.",
+   "como": "Lo pensó en el Servicio de Psicopatología del Hospital Policlínico de Lanús, donde había mucha gente para atender y poco tiempo, y se preguntó cómo usar las herramientas del psicoanálisis en tratamientos más breves sin perder profundidad.",
+   "debate": "No sirve para todos los casos: requiere que el motivo de consulta pueda delimitarse y que la persona tenga recursos para trabajar en pocas sesiones. Los cuadros graves o muy complejos pueden necesitar procesos más largos.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Escuchás decir que una terapia breve es «un psicoanálisis apurado», una versión recortada de lo verdadero.",
+   "p": "¿Puede una terapia corta ser profunda?",
+   "opciones": ["No, la profundidad lleva años", "Sí, pero solo trabaja síntomas, nunca el fondo del problema", "Sí, si tiene una técnica propia pensada para ese tiempo"],
+   "r": "Fiorini sostuvo durante cincuenta años que una terapia acotada en el tiempo puede ser profunda si tiene técnica propia: un terapeuta activo, un foco, objetivos escalonados y trabajo sobre las áreas sanas del yo. Insistía en que acortar el tiempo exige más técnica, no menos.",
+   "como": "Partió de la psicología del yo y de los pioneros de la terapia breve, y sistematizó en *Teoría y técnica de psicoterapias* (1973) lo que se estaba haciendo en la práctica de los hospitales argentinos.",
+   "debate": "La eficacia de las terapias breves psicodinámicas cuenta con estudios, con resultados que varían según el cuadro. En cambio, su teoría del psiquismo creador es una propuesta teórica y clínica con poca investigación empírica propia.",
+   "seccion": "La psicoterapia breve focalizada"
+  }
+ ],
+ "abierta": "Fiorini decía que en la clínica somos convocados a crear algo diferente con lo que nos pasa, y no solo a entenderlo. ¿Qué cambia en una terapia cuando el objetivo es crear y no únicamente explicar?"
+}

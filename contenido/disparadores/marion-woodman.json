@@ -1,0 +1,24 @@
+{
+ "autor": "Woodman",
+ "preguntas": [
+  {
+   "enigma": "Te mirás al espejo por la mañana y lo primero que pensás es qué hay que corregir. Planificás la comida, te exigís rendir, y nada alcanza.",
+   "p": "¿Quién habla en esa voz que nunca queda conforme?",
+   "opciones": ["Es simple disciplina y ganas de superarte", "Un ideal heredado de la familia o de la cultura que no tolera lo imperfecto", "Es una falta de autoestima que se arregla pensando en positivo"],
+   "r": "Woodman la llamó adicción a la perfección: vivir al servicio de una imagen ideal, de cuerpo, de rendimiento o de bondad, que nunca alcanza. Detrás suele haber una herida temprana y una exigencia heredada, muchas veces del padre o de la cultura. Retomó de Jung una distinción: la perfección es una forma cerrada que deja afuera lo que no encaja, la totalidad incluye lo imperfecto y está viva.",
+   "como": "Parte de una experiencia personal: ella misma tuvo una relación difícil con la comida y buscó respuestas en Jung, y se formó en el Instituto C. G. Jung de Zúrich. Después escribió desde su clínica en Toronto.",
+   "debate": "Sus ideas son teoría e interpretación, no resultados de estudios controlados. Los tratamientos con más evidencia para los trastornos alimentarios hoy son otros, como la terapia familiar y la terapia cognitivo-conductual específica.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Cansancio que no se va, un nudo en el pecho, hambre a deshoras. Todo eso suele leerse como síntoma que hay que callar.",
+   "p": "¿Y si el cuerpo estuviera diciendo algo?",
+   "opciones": ["Son solo fallas del cuerpo que hay que tratar médicamente", "El cuerpo guarda lo que la conciencia no puede sostener, y puede leerse como un mensaje", "Es estrés y se resuelve con descanso"],
+   "r": "Para Woodman el cuerpo guarda lo que la conciencia no puede sostener: los síntomas físicos y las compulsiones pueden leerse como mensajes, y el trabajo psicológico también pasa por habitarlo. Fue una de las primeras en pensar los trastornos alimentarios desde la psicología analítica, como intento de llenar un vacío o controlar lo que no se puede controlar.",
+   "como": "Creó con Ann Skinner y Mary Hamilton los talleres BodySoul, que unían el trabajo con los sueños, la voz y el movimiento.",
+   "debate": "Los talleres BodySoul no tienen investigación que los respalde como tratamiento. Los trastornos alimentarios son cuadros serios, con riesgos médicos, y leerla no reemplaza la atención médica y psicológica.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "En una época obsesionada con la imagen y el rendimiento, ¿cómo se diferencia exigirse para crecer de exigirse para ser perfecta? Es una pregunta que sigue sin respuesta simple."
+}

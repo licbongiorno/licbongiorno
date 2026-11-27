@@ -1,0 +1,24 @@
+{
+ "autor": "Asch",
+ "preguntas": [
+  {
+   "enigma": "Estás en una reunión y todos están de acuerdo con una propuesta que a vos te parece floja. Vas a decir algo, pero el silencio de los demás pesa.",
+   "p": "¿Qué te haría más fácil decir lo que pensás?",
+   "opciones": ["Tener más argumentos preparados", "Ser una persona de carácter fuerte", "Que una sola persona más dijera lo que piensa"],
+   "r": "Es el escenario de Asch. Las variaciones de su estudio mostraron que un solo aliado, alguien que no coincidía con el grupo, reducía mucho la conformidad. No hace falta mucho para romper la unanimidad: una sola persona que se anima a disentir cambia el escenario para los demás.",
+   "como": "Armó un experimento en el que un participante comparaba líneas dentro de un grupo de cómplices del investigador, que a veces daban todos una misma respuesta errónea y evidente. Después fue variando las condiciones.",
+   "debate": "La situación era artificial: un cuarto con desconocidos y una tarea sin ambigüedad. Que alguien se ajuste al grupo ahí no dice por sí solo qué haría en una discusión familiar o ante una decisión de peso.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Tenés que decir cuál de tres líneas mide lo mismo que otra de referencia. La respuesta es evidente. Pero los demás, uno tras otro, dan una respuesta equivocada.",
+   "p": "¿Cuánta gente creés que se sumó al error al menos una vez?",
+   "opciones": ["Casi nadie: la tarea era demasiado obvia", "Alrededor de uno de cada diez", "Alrededor de tres de cada cuatro"],
+   "r": "Aproximadamente tres de cada cuatro participantes se ajustaron al menos una vez al error del grupo, y alrededor de un tercio de todas las respuestas siguió ese error. Pero muchos también se mantuvieron independientes aun frente a un grupo unánime: la conformidad apareció con fuerza, pero no fue universal.",
+   "como": "Publicó estos estudios en la década de 1950 (Asch, 1956), con grupos en los que, sin que el participante lo supiera, los demás eran cómplices del investigador.",
+   "debate": "Las cifras valen como orden de magnitud: con un tercio de respuestas ajustadas al error, dos tercios no lo estaban. No se pueden tomar como una regla de la naturaleza humana, sino como un resultado acotado de una tarea concreta.",
+   "seccion": "Qué encontró"
+  }
+ ],
+ "abierta": "Hoy los grupos se forman en reuniones, en chats y en redes. ¿Cambia la presión de ajustarse cuando no vemos las caras de los demás?"
+}

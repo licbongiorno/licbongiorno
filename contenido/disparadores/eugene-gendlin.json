@@ -1,0 +1,24 @@
+{
+ "autor": "Gendlin",
+ "preguntas": [
+  {
+   "enigma": "Tenés que responderle un mensaje a un amigo con quien te distanciaste. Ninguna frase te cae bien y notás algo vago en el pecho.",
+   "p": "¿Ese algo vago te está diciendo algo, o es puro ruido?",
+   "opciones": ["Es ansiedad, hay que calmarla y listo", "Es un saber del cuerpo que todavía no tiene palabras", "Es una distracción que hay que ignorar para poder pensar"],
+   "r": "Gendlin lo llamó sensación sentida: un saber corporal difuso sobre una situación, que está antes de tener nombre y puede explorarse. Cuando aparece una palabra o imagen que encaja con exactitud, algo se mueve por dentro y la sensación cambia o se aligera.",
+   "como": "Estudió transcripciones de sesiones con Rogers para ver qué separa la terapia que cambia a las personas de la que no, y encontró que los clientes que avanzaban hablaban desde algo que sentían en el cuerpo, no solo desde lo que pensaban.",
+   "debate": "El respaldo viene sobre todo de la psicoterapia experiencial y de la Escala de Experiencing, que mide cuánto una persona se refiere a su experiencia sentida. No prueba que cada práctica de focusing por sí sola produzca un resultado determinado.",
+   "seccion": "Sus ideas centrales"
+  },
+  {
+   "enigma": "Hay momentos en que probás una palabra para lo que te pasa, «culpa», «deuda», y ninguna encaja del todo. Hasta que una sí, y sentís un pequeño alivio.",
+   "p": "¿Por qué la palabra correcta se siente en el cuerpo?",
+   "opciones": ["Porque nombrar las cosas ordena el pensamiento", "Porque la palabra encaja con algo que el cuerpo ya sabía", "Es pura sugestión: cualquier palabra aliviaría"],
+   "r": "Para Gendlin el paso decisivo es un modo de atención receptiva y sin apuro: darle espacio a la sensación, preguntarle y esperar la palabra que encaja. En su libro de 1978 propuso seis movimientos, que él mismo decía que se adaptan a cada persona.",
+   "como": "Partió de la idea de Rogers de que el cambio ocurre cuando la persona se siente escuchada, y le agregó la dimensión del cuerpo. Participó en el proyecto de Wisconsin, que estudió la terapia con personas diagnosticadas con esquizofrenia.",
+   "debate": "Prestar atención a una sensación puede abrir material difícil. Cuando hay mucha angustia o disociación puede aumentar el malestar, y conviene ir de a poco y con apoyo profesional.",
+   "seccion": "Los pasos, a grandes rasgos"
+  }
+ ],
+ "abierta": "El focusing se parece a otras prácticas de atención al cuerpo, pero tiene su propio sello. ¿Qué es exactamente lo que cambia cuando una palabra encaja? Todavía no hay una respuesta cerrada."
+}

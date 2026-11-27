@@ -1,0 +1,24 @@
+{
+ "autor": "Langer",
+ "preguntas": [
+  {
+   "enigma": "Una mujer recién madre siente cansancio y angustia, y además culpa por no sentirse plena como «se supone».",
+   "p": "¿De dónde creés que viene ese malestar?",
+   "opciones": ["De su historia personal, de cómo fue su relación con su propia madre", "Del mandato cultural de que la maternidad es pura felicidad", "De las dos cosas a la vez"],
+   "r": "Marie Langer diría que ese malestar tiene una parte personal, su historia con su propia madre, y otra social: el mandato cultural de que la maternidad es pura felicidad. Escuchar solo una de las dos deja la mitad afuera.",
+   "como": "Lo estudió desde el psicoanálisis en *Maternidad y sexo* (1951), donde trabajó con la esterilidad sin causa orgánica, los trastornos del embarazo, el parto y la lactancia, y su relación con los conflictos de la mujer con su madre y con el lugar que le asignaba la cultura.",
+   "debate": "El libro refleja el psicoanálisis de mediados del siglo XX. Algunas de sus hipótesis, como el origen psíquico de ciertas dificultades de fertilidad, no son hoy la explicación general: ante una esterilidad se estudian primero las causas médicas.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Alguien llega a terapia agotado por un trabajo inestable y un contexto económico que no da respiro.",
+   "p": "¿Esto se explica por su infancia, o por la economía?",
+   "opciones": ["Por su infancia: el contexto es solo la excusa", "Por la economía: lo psicológico no tiene nada que ver", "Por ninguna de las dos sola: lo psíquico y lo social se cruzan"],
+   "r": "Langer insistió en que el sufrimiento de una persona no se entiende solo desde adentro: lo psíquico y lo social se cruzan, y el sujeto está siempre en ese cruce. Sostuvo que el psicoanálisis no podía pensar al sujeto separado de su clase, su género y su época, y que el analista tampoco es neutral frente a la sociedad.",
+   "como": "Lo vivió en carne propia: el ascenso del nazismo, la Guerra Civil Española como médica de las brigadas internacionales, la dictadura argentina y el exilio, donde trabajó con víctimas de violencia política.",
+   "debate": "No hay investigación que compare su enfoque con otros en resultados, y su compromiso político, que hizo a su obra más amplia, también generó discusiones dentro del psicoanálisis.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Hasta dónde llega la responsabilidad de cada persona sobre su sufrimiento y dónde empieza la del contexto? ¿Cómo se escucha a alguien sin dejar ninguna de las dos mitades afuera?"
+}

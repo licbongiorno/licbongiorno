@@ -1,0 +1,24 @@
+{
+ "autor": "Descartes",
+ "preguntas": [
+  {
+   "enigma": "Es la mañana de un examen. Sentís el corazón rápido y un nudo en la panza. Alguien te dice: «Son solo nervios, está todo en tu cabeza».",
+   "p": "¿Esto que sentís es mental o es del cuerpo?",
+   "opciones": ["Es mental: el cuerpo solo reacciona a lo que pensás", "Es del cuerpo: tenés que calmar primero el cuerpo", "Las dos cosas están tan mezcladas que no se pueden separar"],
+   "r": "Descartes propuso un dualismo: la mente, que piensa, y el cuerpo, que ocupa lugar en el espacio, serían dos sustancias distintas. Si lo pensás dividido, parece que tenés que elegir entre calmar la mente o calmar el cuerpo. En la práctica, respirar más lento cambia lo que pensás, y pensar distinto cambia la respiración.",
+   "como": "Llegó ahí dudando de todo, de los sentidos, de los sueños y hasta de las matemáticas, hasta quedarse con lo único indudable: que estaba dudando. Respondió que mente y cuerpo se comunicaban en la glándula pineal, una respuesta que no convenció a casi nadie.",
+   "debate": "El dualismo es una idea filosófica, no un dato científico. La neurociencia suele trabajar con la hipótesis contraria, que la mente depende del cerebro y del cuerpo, aunque la discusión de fondo sobre la conciencia sigue abierta. Damasio le dedicó «El error de Descartes» (1994).",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Acercás sin querer el pie al fuego y lo retirás antes de decidir nada. Fue más rápido que tu voluntad.",
+   "p": "¿Quién movió tu pie si vos no lo decidiste?",
+   "opciones": ["El cuerpo, como un mecanismo que responde a estímulos", "La mente, aunque demasiado rápido para notarlo", "Un instinto que no tiene nada que ver con pensar"],
+   "r": "Descartes describió el cuerpo como una máquina: los movimientos pueden explicarse como los de un mecanismo, sin necesidad del alma. Un estímulo, como el fuego cerca del pie, produce un movimiento automático. Es una de las primeras ideas de lo que luego se llamó reflejo.",
+   "como": "Fue un filósofo, no un fisiólogo: su descripción era un modelo teórico, que vivió en plena revolución científica de Galileo. Pávlov lo reconoció como el primero en pensar el reflejo.",
+   "debate": "El concepto de reflejo se desarrolló después, con aportes de muchos otros, y recién con Pávlov tuvo estudio experimental sistemático. Su visión de los animales como máquinas es una de las partes de su legado que hoy se discuten con más dureza.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "¿Cómo es que algo físico como el cerebro produce algo como una experiencia en primera persona? Es el problema de la conciencia, y sigue sin resolverse."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Lao Tse",
+ "preguntas": [
+  {
+   "enigma": "Es de noche y tenés que dormir porque mañana te espera un día pesado. Cuanto más te esforzás por dormirte, más despierto quedás.",
+   "p": "¿Por qué el esfuerzo trabaja en contra?",
+   "opciones": ["Porque no te esforzás lo suficiente", "Porque hay cosas que no se logran forzándolas", "Porque tu cuerpo está acostumbrado a la vigilia"],
+   "r": "Eso es lo opuesto al wu wei, la idea taoísta de actuar sin forzar, acompañando el movimiento de las cosas. El Tao Te King lo ilustra con el agua: no empuja, rodea la piedra, y por eso llega. Quien no fuerza igual actúa, pero a tiempo y con economía.",
+   "como": "El libro se formó a lo largo de generaciones, en un tiempo de guerras y de crisis de los valores antiguos. Mientras Confucio proponía reformar la sociedad con rituales y deberes, esta tradición invitaba a soltar el afán de control.",
+   "debate": "El wu wei se malentiende fácilmente como pasividad o resignación. Además, lo que el libro ofrece es una sensibilidad y no un método con eficacia probada: lo que se investiga hoy son las prácticas contemplativas y corporales, no el tao.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Hay días en que sentís una cosa y su contrario a la vez: querés ir y querés quedarte, querés hablar y querés callar. Te parece que algo tiene que ganar.",
+   "p": "¿Los opuestos son enemigos que hay que ordenar, o pueden ser otra cosa?",
+   "opciones": ["Enemigos: hay que elegir uno y dejar el otro", "Un problema de indecisión que se resuelve con carácter", "Partes de un mismo movimiento que se necesitan y se transforman una en otra"],
+   "r": "Para la tradición taoísta, el yin y el yang, lo receptivo y lo activo, lo oscuro y lo luminoso, no se excluyen: se necesitan y se transforman uno en otro. Cada uno lleva en su centro una semilla del otro. Jung vio en esta imagen algo parecido a la unión de los opuestos que buscaba en la individuación.",
+   "como": "El texto no argumenta: usa imágenes como el agua, que es blanda y sin embargo desgasta la piedra, y frases breves que invitan a mirar. Jung trabajó con Richard Wilhelm, que había traducido el libro al alemán.",
+   "debate": "La autoría y la fecha del Tao Te King son inciertas: hay quienes dudan de que Lao Tse haya existido como una sola persona, y hay cientos de traducciones que dicen cosas distintas.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "Si lo más importante se resiste a ser dicho, como advierte la primera línea del libro, ¿cómo se transmite entonces una sabiduría? La pregunta atraviesa hasta hoy a la filosofía y a la psicología."
+}

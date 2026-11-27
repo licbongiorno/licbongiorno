@@ -1,0 +1,24 @@
+{
+ "autor": "Galperin",
+ "preguntas": [
+  {
+   "enigma": "Un chico de segundo grado aprende a restar con palitos, después con una tarjeta de pasos, después diciéndolo en voz alta. Una semana más tarde la resta «le sale» sin mover nada.",
+   "p": "¿Cómo pasa una acción de afuera a adentro de la cabeza?",
+   "opciones": ["De golpe, un día simplemente lo entiende", "Con mucha repetición hasta que se automatiza", "Atravesando etapas: de los objetos al habla en voz alta, al habla para sí y al pensamiento"],
+   "r": "Galperin describió la formación de una acción mental por etapas: orientarse con un esquema, hacerla con objetos o representaciones, pasarla al habla en voz alta, luego al habla para sí y por último al pensamiento abreviado y automático. En cada forma nueva la acción empieza completa, con todos sus pasos.",
+   "como": "Partió de la idea de Vygotsky de que lo psicológico primero ocurre entre personas y después se internaliza, y quiso describir el proceso paso a paso. En 1952 presentó su hipótesis y la fue precisando con su equipo durante dos décadas.",
+   "debate": "Buena parte de los estudios son intervenciones de pequeña escala, difíciles de comparar con los ensayos controlados actuales. Dentro de la misma tradición se discutió si la internalización explica realmente el paso de lo externo a lo interno.",
+   "seccion": "Las etapas"
+  },
+  {
+   "enigma": "Entendiste en sesión una técnica de respiración, la anotaste en una ficha, pero en el momento difícil no te sale.",
+   "p": "¿Por qué entender cómo se hace no alcanza para poder hacerlo?",
+   "opciones": ["Falta de voluntad o de práctica suficiente", "Entender y hacer son cosas distintas: la acción todavía no se formó", "La técnica no sirve para vos"],
+   "r": "Para Galperin la base orientadora, por buena que sea, es solo el sistema de indicaciones de cómo hacer la acción y no la acción misma: sin realizarla no se aprende. Quizás la habilidad está en la etapa de la ficha y todavía no llegó al habla para sí.",
+   "como": "Con su colaboradora Talízina desarrolló un método de enseñanza en el que se forma una acción bajo condiciones controladas, y si el alumno no puede en un plano se baja a uno más concreto para ver desde dónde hay que enseñar.",
+   "debate": "Su parentesco con el andamiaje o con el entrenamiento en habilidades terapéuticas, como el de la terapia dialéctico-conductual, es conceptual, no una influencia documentada. La teoría no es un recetario de entrenamiento.",
+   "seccion": "La base orientadora de la acción"
+  }
+ ],
+ "abierta": "Cuando una habilidad ya es automática, casi no podemos observar cómo la hacemos. ¿Cómo estudiar un pensamiento que, de tanto practicarlo, dejó de ser visible incluso para quien lo piensa?"
+}

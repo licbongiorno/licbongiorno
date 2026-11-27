@@ -1,0 +1,24 @@
+{
+ "autor": "Ferenczi",
+ "preguntas": [
+  {
+   "enigma": "Un chico cuenta algo que le pasó y un adulto le responde: «eso no pasó, no inventes».",
+   "p": "¿Qué le deja eso al chico, además de lo que vivió?",
+   "opciones": ["Nada especial, los chicos lo olvidan rápido", "Que aprenda a no contar cosas que no importan", "Una segunda soledad: la duda de si puede creerse a sí mismo"],
+   "r": "Ferenczi vio, en la clínica, que la reacción del entorno podía pesar tanto como el hecho inicial: que no le crean al chico agravaba el daño. Insistió en que muchos sufrimientos eran heridas reales y no solo fantasías.",
+   "como": "Trabajó con pacientes que nadie más quería atender y se animó a contradecir a Freud, su amigo más cercano, que había pasado a ver en esos relatos fantasías infantiles.",
+   "debate": "La memoria es compleja y no siempre exacta: la clínica actual combina el creer a quien sufre con el cuidado de no sugerir contenidos.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Ante un adulto que lo asusta o lo daña, un chico se vuelve sumiso, adivina lo que el otro quiere y termina sintiéndose culpable de lo que pasó.",
+   "p": "¿Por qué un chico carga con una culpa que no le corresponde?",
+   "opciones": ["Porque tiene una tendencia natural a sentirse culpable", "Porque los adultos le dicen que es su culpa", "Porque, asustado, se identifica con el agresor y siente como propia su culpa"],
+   "r": "Ferenczi llamó identificación con el agresor a ese proceso. En La confusión de lenguas describió dos lenguajes: el de la ternura del niño y el de la pasión del adulto que abusa; cuando el adulto responde con el suyo, el niño queda sin palabras y con una culpa ajena.",
+   "como": "Lo observó en la clínica y lo presentó en un congreso en 1932, donde generó un fuerte rechazo.",
+   "debate": "No hay que idealizarlo: sus experimentos, como el análisis mutuo, borraron límites que hoy se consideran esenciales para proteger a quien consulta.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Cómo se escucha el relato de un daño sin sugerir nada y sin dudar de quien lo cuenta? La clínica actual todavía busca ese equilibrio."
+}

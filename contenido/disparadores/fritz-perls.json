@@ -1,0 +1,24 @@
+{
+ "autor": "Perls",
+ "preguntas": [
+  {
+   "enigma": "Alguien cuenta que no se anima a decirle a su jefe que está sobrecargado, y mientras habla aprieta el puño sin darse cuenta.",
+   "p": "¿Por dónde conviene empezar a entender lo que le pasa?",
+   "opciones": ["Por su infancia, de donde viene el problema", "Por buscar la explicación racional de por qué no se anima", "Por lo que está haciendo y sintiendo en este momento, como esa mano"],
+   "r": "Perls sostenía que importa lo que pasa ahora: cómo hablo, qué siento, qué hace mi cuerpo. Su herramienta central era el darse cuenta, que por sí mismo puede ser curativo.",
+   "como": "Se formó como psicoanalista y se analizó con Karen Horney y Wilhelm Reich, de quien tomó la atención al cuerpo; trabajó con Kurt Goldstein, que estudiaba a soldados con lesiones cerebrales con una mirada holística.",
+   "debate": "La Gestalt tiene menos investigación sistemática que otros enfoques, aunque ha crecido, y el estilo confrontativo de Perls no es el de la Gestalt actual.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Hay algo que nunca le dijiste a alguien, o un duelo que no pudiste cerrar, y todavía vuelve de golpe cuando menos lo esperás.",
+   "p": "¿Por qué lo que quedó sin decir sigue dando vueltas?",
+   "opciones": ["Porque no nos esforzamos lo suficiente en olvidarlo", "Porque lo que no se cierra sigue pidiendo atención", "Porque estamos acostumbrados a darle vueltas a todo"],
+   "r": "Perls llamó asuntos inconclusos a las situaciones que no se cerraron y siguen tironeando. Tomó de la psicología de la Gestalt la idea de que una necesidad surge del fondo como figura y, cuando no puede cerrarse, se repite.",
+   "como": "Llevó una idea perceptiva a la vida y creó técnicas como la silla vacía, que hace vivir lo que se cuenta: se habla a una silla donde «está» la persona ausente.",
+   "debate": "El vínculo con el efecto Zeigarnik, que muestra que recordamos mejor lo interrumpido, es una analogía: se estudió en tareas de laboratorio y sus réplicas dieron resultados dispares. La silla vacía sí tiene estudios favorables en la terapia de Greenberg.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Cuánto de lo que cambia en una terapia viene de darse cuenta y cuánto de la relación con quien acompaña? La investigación todavía lo explora."
+}

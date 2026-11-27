@@ -1,0 +1,24 @@
+{
+ "autor": "Maslow",
+ "preguntas": [
+  {
+   "enigma": "Un mes complicado: el alquiler se te vino encima y no llegás a fin de mes. Alguien te pregunta qué querrías hacer de tu vida y te sale una risa corta, casi un resoplido.",
+   "p": "¿Por qué cuesta tanto pensar en la vocación cuando la urgencia aprieta?",
+   "opciones": ["Porque la vocación es un lujo que solo importa cuando uno está aburrido", "Porque la preocupación urgente ocupa todo el lugar disponible en la cabeza", "Porque quien tiene problemas concretos en realidad no tiene vocación"],
+   "r": "Maslow propuso una jerarquía de necesidades: fisiológicas, de seguridad, de pertenencia, de estima y de autorrealización. Cuando las más básicas están muy insatisfechas, suelen ocupar todo el lugar. No dijo que la vocación no importe, sino que la urgencia pasa primero.",
+   "como": "Lo fue armando a partir de su trabajo como psicólogo y de su contacto en Nueva York con intelectuales europeos como Adler, Fromm y Horney, a quienes admiraba. En 1943 publicó «Una teoría de la motivación humana».",
+   "debate": "Un estudio con datos de más de cien países (2011) encontró que esas necesidades aparecen en todas partes, pero que no hace falta cubrirlas en orden para sentirse bien. La famosa pirámide, además, la dibujaron otros después.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Alguna vez estuviste frente a un paisaje, una canción o una persona, y por unos minutos sentiste que todo encajaba. Después volviste a la rutina, pero algo de eso se quedó.",
+   "p": "¿Qué pasó en ese momento y por qué deja huella?",
+   "opciones": ["Fue solo un estado de ánimo pasajero, sin mayor importancia", "Fue un instante de plenitud que dice algo de lo que podemos llegar a ser", "Fue un efecto de la emoción que se desinfla enseguida y no sirve de nada"],
+   "r": "Maslow llamó experiencias cumbre a esos momentos de plenitud, asombro o unidad ante la naturaleza, el arte, el amor o la creación. Para él dejan una huella duradera y apuntan a la autorrealización: llegar a ser plenamente lo que uno puede ser.",
+   "como": "En lugar de estudiar solo lo que falla, analizó biografías de figuras históricas y de personas que consideraba plenas, como Lincoln, Einstein y Eleanor Roosevelt, y buscó qué rasgos tenían en común.",
+   "debate": "Él mismo reconoció que eligió a esas personas según su criterio, con una muestra pequeña y sesgada hacia figuras occidentales y notables. Por eso su lista de rasgos es una descripción sugerente y no un hallazgo sólido.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "¿Se puede estudiar científicamente la plenitud sin quedar atrapados en la idea de plenitud de una sola cultura? Hoy el bienestar se sigue investigando, y la pregunta sigue abierta."
+}

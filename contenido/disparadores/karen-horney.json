@@ -1,0 +1,24 @@
+{
+ "autor": "Horney",
+ "preguntas": [
+  {
+   "enigma": "Alguien dice que sí a todo: cubrir un turno, un favor, una reunión que no quería. Cuando por fin dice que no a algo mínimo, se siente culpable por días.",
+   "p": "¿Por qué decir que no cuesta tanto?",
+   "opciones": ["Porque es una persona débil de carácter", "Porque necesita agradar para sentirse a salvo", "Porque en el fondo no sabe lo que quiere"],
+   "r": "Horney lo vería como un movimiento hacia los otros que se volvió rígido: la persona necesita agradar para sentirse a salvo y pierde contacto con lo que quiere. Describió además dos movimientos más, contra los otros y lejos de los otros. Todos usamos los tres, el problema es la rigidez.",
+   "como": "Lo construyó desde su experiencia en la consulta, como psicoanalista, y desde su mirada sobre cómo la cultura moldea la neurosis. Pensaba que la salida no es volverse frío, sino ganar flexibilidad.",
+   "debate": "Es teoría clínica, no investigación experimental. Sus tendencias no son tres tipos de personas, y lo que describió para la clase media urbana de Estados Unidos de los años treinta y cuarenta no se aplica sin más a otros contextos.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "«Debería ser más productiva». «Debería no necesitar a nadie». «Debería poder con todo». Son frases que muchos nos decimos, y que nunca parecen alcanzar.",
+   "p": "¿De dónde vienen esas exigencias que nunca se cumplen del todo?",
+   "opciones": ["Son consejos razonables que nos dimos y que hay que cumplir mejor", "Salen de la imagen perfecta que armamos de nosotros mismos", "Las trajo la crianza y no tienen nada que ver con nosotros hoy"],
+   "r": "Horney llamó a esto la tiranía de los debería: exigencias del yo idealizado, esa imagen perfecta de uno mismo que se construye para compensar la angustia. No se discuten, se obedecen, y nunca alcanzan. Cuanto más alto el ideal, más lejos queda el yo real.",
+   "como": "Lo describió a partir de lo que veía en la consulta, hace más de setenta años. Sostuvo que la angustia básica nace de vínculos tempranos fríos, inconsistentes o invasivos.",
+   "debate": "Albert Ellis la reconoció como antecedente de su trabajo sobre los «debería», y hoy una pregunta útil es de dónde viene cada uno y a quién sirve. Pero su descripción de «tipos» neuróticos es una guía para pensar, no una clasificación para encasillar.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Qué parte de nuestras exigencias es nuestra y cuál es de la cultura en la que crecimos? Horney se lo preguntó y la pregunta sigue abierta."
+}

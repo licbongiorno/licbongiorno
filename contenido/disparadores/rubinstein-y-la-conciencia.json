@@ -1,0 +1,24 @@
+{
+ "autor": "Rubinstein",
+ "preguntas": [
+  {
+   "enigma": "Una mujer «ya sabe» por qué se enoja con su hermano: lo entendió hace años y lo habló mil veces. Sin embargo, en cada cumpleaños familiar vuelve a pasar lo mismo.",
+   "p": "¿Por qué entender no alcanza para cambiar?",
+   "opciones": ["Porque en realidad no entendió del todo", "Porque la conciencia también se forma haciendo, no solo pensando", "Porque hay hábitos que son más fuertes que cualquier comprensión"],
+   "r": "Rubinstein sostuvo la unidad de la conciencia y la actividad: la conciencia no es un espectador de la conducta, se forma y se manifiesta en lo que hacemos. Saber «por qué» es una parte, pero la otra se juega en la actividad. Un cambio pequeño en lo que hace, como llegar más tarde o proponerse una conversación concreta, puede cambiar lo que siente y piensa.",
+   "como": "Se formó como filósofo, en Alemania, y de joven escribió un ensayo según el cual en lo que hacemos, nos hacemos. En 1934 releyó a Marx buscando una psicología implícita: el ser humano se transforma a sí mismo al transformar el mundo con su trabajo.",
+   "debate": "Es un principio teórico y metodológico, no una hipótesis que se confirme con un experimento. Orienta la investigación y evita dos reduccionismos: conciencia sin conducta y conducta sin conciencia.",
+   "seccion": "Cómo se ve en la vida cotidiana"
+  },
+  {
+   "enigma": "Dos personas reciben el mismo consejo, o viven la misma situación dolorosa. Una se fortalece y la otra se hunde.",
+   "p": "¿Por qué lo mismo de afuera produce efectos tan distintos?",
+   "opciones": ["Porque una de las dos es más fuerte", "Porque cada influencia externa se refracta en lo que la persona ya es", "Porque todo depende del contexto y no de la persona"],
+   "r": "Rubinstein formuló el principio del determinismo: las causas externas actúan a través de las condiciones internas. Cualquier influencia de afuera se refracta en lo que el sujeto ya es: su historia, su organismo, su manera de estar en el mundo. Una intervención no produce el mismo efecto en dos personas.",
+   "como": "Lo discutió con Leóntiev, que ponía el acento en la internalización de prácticas sociales. En 1959 Rubinstein criticó esa teoría porque, a su juicio, convertía el desarrollo en una determinación desde afuera y perdía de vista al sujeto.",
+   "debate": "El debate no tiene un ganador claro. Leóntiev subraya cuánto de nuestra mente viene de las prácticas compartidas. Rubinstein recuerda que esas prácticas nunca llegan a una persona vacía. Hay quienes los leen como complementarios y quienes ven sus bases como incompatibles.",
+   "seccion": "El debate con Leóntiev"
+  }
+ ],
+ "abierta": "¿Cuánto de lo que somos viene de las prácticas que compartimos y cuánto de cómo cada uno las recibe? Sigue siendo un debate abierto."
+}

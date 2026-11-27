@@ -1,0 +1,24 @@
+{
+ "autor": "Sartre",
+ "preguntas": [
+  {
+   "enigma": "Alguien lleva años en un trabajo que lo agota y dice: «Yo no puedo irme, tengo responsabilidades». O decís vos «yo soy así, tímido de toda la vida».",
+   "p": "¿Qué hay detrás de frases como «no puedo» o «yo soy así»?",
+   "opciones": ["La pura verdad: hay cosas que uno no puede cambiar", "Falta de ganas o de voluntad", "A veces un papel al que nos aferramos para no sentir el vértigo de elegir"],
+   "r": "Sartre llamó mala fe al modo en que nos engañamos para no hacernos cargo de nuestra libertad. Lo ilustró con un mozo de café que juega a ser mozo como si eso fuera lo único que es. No dice que renunciar sea lo correcto, sino que, hagamos lo que hagamos, lo estamos eligiendo.",
+   "como": "Lo pensó en El ser y la nada (1943), durante la ocupación alemana de París, desde la fenomenología de Husserl y de Heidegger. Discutió con Freud: en vez de un inconsciente que oculta contenidos, propuso una conciencia que sabe y no quiere saber.",
+   "debate": "Sartre fue filósofo y no clínico: sus descripciones son agudas pero no son hipótesis puestas a prueba. Y «condenados a ser libres» no significa que todo dependa de la voluntad: con depresión grave, pobreza extrema o violencia, decirle a alguien que «elija» sería injusto.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "Estás tranquilo, mirando algo en el celular, hasta que sentís que alguien te mira. De golpe te volvés consciente de cómo te ven: el cuerpo se pone rígido y aparece algo parecido a la vergüenza.",
+   "p": "¿Qué cambia cuando otra persona nos mira?",
+   "opciones": ["Nada importante: es solo un reflejo de timidez", "Nos preocupa lo que piense de nosotros", "Pasamos de ser quien mira a ser un objeto para el otro"],
+   "r": "Para Sartre, cuando otro nos mira nos convertimos en objeto para él, y gran parte de la vergüenza y del conflicto con los demás nace ahí. Es una de sus ideas centrales, junto con que la existencia precede a la esencia: no nacemos con una naturaleza definida, nos hacemos con lo que elegimos.",
+   "como": "Lo describió a partir de la experiencia en primera persona, con el método de la fenomenología: observar con cuidado cómo se vive algo, en vez de explicarlo desde afuera.",
+   "debate": "La mirada y la mala fe son descripciones de la experiencia, útiles para pensar, pero no se han puesto a prueba como las hipótesis de la psicología experimental. Autores existenciales como Laing y Yalom las retomaron en la clínica.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "¿Hasta dónde llega nuestra libertad cuando la historia, el cuerpo y las condiciones pesan tanto? Sartre habló de situaciones, y la pregunta por el equilibrio sigue abierta."
+}

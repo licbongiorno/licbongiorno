@@ -1,0 +1,24 @@
+{
+ "autor": "Al-Balkhi",
+ "preguntas": [
+  {
+   "enigma": "Son las tres de la mañana y un pensamiento temible vuelve una y otra vez. Cuanto más silencio hay alrededor, más fuerte suena.",
+   "p": "¿Qué te ayudaría más a frenarlo?",
+   "opciones": ["Quedarte a solas y pensarlo hasta encontrar la respuesta", "Cambiar de tema a la fuerza y no darle lugar", "Salir de la soledad, ocuparte de algo y hablarlo con alguien de confianza"],
+   "r": "Al-Balkhi, un sabio del siglo IX, describió esos «susurros» (la *waswasa*) como una conversación interior que se repite y deja a la persona sin poder concentrarse ni disfrutar. Aconsejaba evitar la soledad y la ociosidad, ocuparse en algo y hablar con amigos de confianza que muestren el error de esos pensamientos.",
+   "como": "Lo escribió observando el sufrimiento de su época, en la segunda parte de un tratado sobre la salud de los cuerpos y de las almas. Sus explicaciones de las causas pertenecen a la medicina de los humores, pero sus descripciones clínicas siguen sonando familiares.",
+   "debate": "Llamarla TOC agrupa bajo una etiqueta moderna algo más amplio, y algunos consejos suyos, como buscar que otros desmientan el pensamiento, se parecen a lo que hoy se considera parte del problema, porque la tranquilización repetida funciona como una compulsión más.",
+   "seccion": "Los susurros obsesivos"
+  },
+  {
+   "enigma": "Un caballo se espanta ante un objeto cualquiera. Y vos conocés a alguien que le tiene terror a algo que, mirado de afuera, es inofensivo.",
+   "p": "¿Qué ayuda más a perderle el miedo?",
+   "opciones": ["Evitarlo todo lo posible hasta que se le pase solo", "Repetirse que no hay motivo para temer", "Informarse sobre lo que teme y acercarse una y otra vez, de a poco"],
+   "r": "Al-Balkhi observó que el caballo asustado puede curarse si se lo acerca al objeto una y otra vez hasta que se acostumbra. De ahí dedujo que lo mejor contra el miedo es informarse sobre lo que se teme y exponerse repetidamente, aunque desagrade, hasta que los sentidos se familiaricen.",
+   "como": "Partió de mirar cómo reaccionan los niños y los animales ante cosas inofensivas, y de preguntarse por qué se espantan y cómo se aquietan.",
+   "debate": "Malik Badri ve en este pasaje un anticipo de la terapia de exposición, pero otros advierten que la exposición moderna se apoya en una teoría del aprendizaje que al-Balkhi no tenía. Hay un aire de familia, no una identidad de técnica.",
+   "seccion": "El miedo, la ira y la tristeza"
+  }
+ ],
+ "abierta": "Cuando una idea parece reaparecer mil años después, ¿es un descubrimiento nuevo, un redescubrimiento o dos formas distintas de nombrar lo mismo? ¿Y qué cosas de nuestro sufrimiento siguen igual a través de los siglos?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Dolto",
+ "preguntas": [
+  {
+   "enigma": "Una familia va a mudarse de ciudad y su hija de cuatro años todavía no lo sabe. Los padres dudan: ¿para qué contárselo si no va a entender?",
+   "p": "¿Es mejor decírselo o dejarla tranquila hasta último momento?",
+   "opciones": ["Dejarla tranquila, para no preocuparla de antemano", "Decírselo con palabras simples, aunque no lo entienda todo", "Decírselo recién cuando ya esté todo resuelto, para que no haya dudas"],
+   "r": "Dolto sostenía que a un niño hay que decirle lo que le pasa y lo que pasa a su alrededor, con palabras simples: adónde van, quién viene, qué se queda. No hace falta que lo entienda todo, hace falta que no lo dejen solo con lo que intuye y no puede nombrar.",
+   "como": "Era pediatra y psicoanalista, y trabajó en el hospital Trousseau. Desde ahí partía de que el niño que llega a la consulta no es solo un cuerpo con un problema: es alguien que tiene algo para decir.",
+   "debate": "Decir la verdad no equivale a decirlo todo ni de cualquier manera: cada edad pide un modo. Además, no hay estudios que evalúen sus propuestas como método, así que conviene tomarlas como ideas para pensar y no como normas.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Un bebé todavía no habla, pero pasa el día rodeado de voces que le hablan, lo nombran y comentan lo que le pasa.",
+   "p": "¿Tiene sentido hablarle a quien todavía no puede entender?",
+   "opciones": ["Sí, pero sobre todo por el tono, no por las palabras", "Sí, porque desde el comienzo es alguien con quien se conversa", "No mucho: recién importa cuando empieza a hablar él"],
+   "r": "Para Dolto el niño es sujeto de lenguaje desde el comienzo: aun antes de hablar está inmerso en palabras, y esas palabras lo constituyen. No es un objeto de cuidados que recién empieza a ser alguien cuando domina el idioma.",
+   "como": "Lo sostuvo desde su práctica con niños y familias, y lo llevó a la radio y a las Casas Verdes, espacios de encuentro para chicos pequeños con sus padres, antes de la escuela.",
+   "debate": "La fuerza de su figura hizo que a veces sus frases se repitan como dogma, y la psicología del desarrollo posterior, con su observación, aporta matices. Se la lee mejor como alguien que abrió una conversación y no como alguien que la cerró.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "¿Cómo se le dice la verdad a un chico de cada edad, sin mentirle y sin abrumarlo? Todavía no hay una fórmula única, y cada familia la va encontrando."
+}

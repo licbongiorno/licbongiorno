@@ -1,0 +1,24 @@
+{
+ "autor": "Bion",
+ "preguntas": [
+  {
+   "enigma": "Un bebé llora desesperado y alguien lo alza, lo mira, le habla bajito. A los pocos minutos el llanto cede. Años después, ese chico aprende a calmarse solo.",
+   "p": "¿De dónde creés que sale la capacidad de pensar lo que sentimos?",
+   "opciones": ["Es algo con lo que se nace, que se desarrolla con la edad", "Se aprende con explicaciones y con ejemplos", "Nace cuando alguien recibe lo que sentimos, y nos lo devuelve más tolerable"],
+   "r": "Bion propuso que no nacemos sabiendo pensar lo que sentimos: al principio la angustia es algo que se descarga. Cuando alguien la recibe y la devuelve transformada, el chico incorpora esa función. Lo llamó función alfa: transformar impresiones crudas (elementos beta) en elementos alfa, que se pueden recordar, soñar y pensar. La madre receptiva, en rêverie, es el modelo.",
+   "como": "Venía de combatir como comandante de tanques en la Primera Guerra Mundial, de trabajar con soldados en el hospital militar de Northfield y de analizarse con Melanie Klein. Lo formuló en Aprendiendo de la experiencia (1962).",
+   "debate": "Son teorías clínicas con poco respaldo experimental directo: la función alfa y el continente son modelos para pensar el vínculo, no medidas verificables, aunque la investigación sobre cómo los cuidadores ayudan a regular emociones apoya la idea general. Y «contener» no significa callar ni aguantar.",
+   "seccion": "Sus conceptos fundamentales"
+  },
+  {
+   "enigma": "En una reunión de trabajo, el equipo deriva en quejas. Todos parecen esperar que el jefe resuelva, o buscan un culpable en otra área, o creen que un cambio de sistema lo va a salvar todo. Nadie lo dice en voz alta.",
+   "p": "¿Qué creés que le pasa al grupo?",
+   "opciones": ["Falta de organización: se arregla con una buena agenda", "Algunas personas son más conflictivas que otras", "El grupo se mueve como si compartiera creencias inconscientes que lo desvían de su tarea"],
+   "r": "Bion describió los supuestos básicos: un grupo se reúne para una tarea, pero a la vez funciona como si compartiera creencias inconscientes que lo desvían. Son tres: la dependencia (esperar que un líder resuelva todo), el ataque y fuga (pelear contra un enemigo o escapar) y el emparejamiento (esperar que una pareja o un cambio traiga la salvación). Reconocerlo ayuda a volver a la tarea.",
+   "como": "Lo observó coordinando grupos en la Clínica Tavistock, después de la experiencia de Northfield en 1942, donde alentó a los soldados a ocuparse de su propia tarea. Lo reunió en Experiencias en grupos (1961).",
+   "debate": "Los supuestos básicos son una lectura: sirven como hipótesis para entender un grupo, pero no todo conflicto de equipo es un supuesto básico.",
+   "seccion": "Un ejemplo cotidiano"
+  }
+ ],
+ "abierta": "¿Qué necesita una mente, de un bebé, de un adulto o de un grupo, para poder pensar lo que todavía no puede pensar sola? Es una pregunta que Bion dejó planteada y que sigue abierta."
+}

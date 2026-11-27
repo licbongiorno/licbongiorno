@@ -1,0 +1,24 @@
+{
+ "autor": "Aberastury",
+ "preguntas": [
+  {
+   "enigma": "Tu hija de catorce años hasta hace poco se sentaba pegada a vos en el sillón. Ahora cierra la puerta, contesta cortante y se enoja por todo.",
+   "p": "¿Qué le está pasando?",
+   "opciones": ["Está rechazando a su familia, y es una cuestión de carácter", "Son las hormonas: se le va a pasar sola", "Está atravesando pérdidas, y el enojo es parte de despedirse de algo"],
+   "r": "Para Aberastury, adolescer es hacer tres duelos: por el cuerpo infantil, por el rol y la identidad de la infancia, y por los padres de la niñez, a los que ya no se puede ver como protectores perfectos. Los padres, a su vez, hacen el duelo por el hijo pequeño que ya no está.",
+   "como": "Venía de años de clínica con chicos y adolescentes en Buenos Aires, de leer y traducir a Melanie Klein, y de entrevistar a los padres para conocer la historia familiar. Con Mauricio Knobel describió la adolescencia como una crisis esperable y no como una enfermedad.",
+   "debate": "El «síndrome de la adolescencia normal» fue criticado por normalizar rasgos que a veces son sufrimiento y por describir una adolescencia occidental, urbana y de clase media; la investigación muestra que no todos los adolescentes atraviesan una crisis intensa.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Un nene de cinco años no sabe explicar qué le pasa, pero en el consultorio pasa la hora acomodando muñecos, haciéndolos chocar y después guardándolos con cuidado en una caja.",
+   "p": "¿Qué puede decir un chico a través de lo que juega?",
+   "opciones": ["Nada especial: jugar es solo entretenerse y gastar energía", "Algo, pero solo si lo traduce a palabras un adulto después", "Mucho: el juego es su manera de contar lo que siente y lo que lo preocupa"],
+   "r": "Siguiendo a Klein, Aberastury pensaba que el juego es el lenguaje del chico y que se lo puede escuchar como se escuchan las palabras de un adulto. Por eso usaba la hora de juego diagnóstica: el chico juega libremente con materiales simples y así se conocen sus fantasías, sus conflictos y su forma de vincularse.",
+   "como": "Fue de las primeras en dedicarse al análisis de niños en la Argentina. Observaba a los chicos jugar, trabajaba también con los padres y adaptó a la clínica local lo que leía y traducía de Klein.",
+   "debate": "La base teórica kleiniana es una construcción clínica sin ensayos controlados propios, aunque la terapia de juego en general sí tiene estudios favorables y se sigue usando en distintos enfoques.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Cómo distinguir una crisis adolescente esperable de un sufrimiento que merece ayuda? Es una pregunta que cada familia, y cada profesional, todavía tiene que contestar caso por caso."
+}

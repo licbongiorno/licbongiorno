@@ -1,0 +1,24 @@
+{
+ "autor": "Assagioli",
+ "preguntas": [
+  {
+   "enigma": "Tenés que decidir si aceptar un trabajo nuevo. Una parte tuya quiere la seguridad de lo conocido, otra el desafío y otra teme que te juzguen si fracasás.",
+   "p": "¿Cómo se decide cuando una parte tira para un lado y otra para el otro?",
+   "opciones": ["Hay que hacer callar a las partes más inseguras", "Dejar que mande la que grita más fuerte", "Reconocer a todas y escucharlas sin que ninguna gobierne"],
+   "r": "Assagioli propuso que la personalidad tiene un centro, el yo, y muchas subpersonalidades, cada una con su necesidad. Si te identificás con una sola, las otras te boicotean después; si las reconocés y las escuchás, la decisión se toma desde un lugar más amplio.",
+   "como": "Como psiquiatra creó la psicosíntesis, que va más allá de explorar el inconsciente y busca fortalecer el centro desde el cual se elige. Su ejercicio clave es la desidentificación: pasar de «tengo miedo» a «hay una parte de mí que tiene miedo».",
+   "debate": "La desidentificación no es negar lo que sentís: si se usa para esquivar lo emocional se parece al bypass espiritual. La evidencia empírica de la psicosíntesis es limitada y el «yo superior» es lo menos fácil de poner a prueba.",
+   "seccion": "Sus ideas centrales"
+  },
+  {
+   "enigma": "Querés dejar de postergar un trabajo. Una parte quiere terminar, otra quiere descansar y otra tiene miedo de no estar a la altura.",
+   "p": "¿La fuerza de voluntad es apretar los dientes?",
+   "opciones": ["Sí: se trata de imponerse con firmeza", "No: es que el yo elija con claridad, escuche a las partes y sostenga una dirección", "No existe: depende de las ganas del momento"],
+   "r": "En El acto de la voluntad, Assagioli la describió como un proceso con etapas: tener un propósito, deliberar, decidir, afirmar la decisión, planificar y dirigir la ejecución. Es una idea práctica y nada punitiva.",
+   "como": "Partió de la psicología profunda pero la completó con lo que llamó el inconsciente superior, de donde surgen la intuición, la creatividad y los valores, y lo ubicó en su diagrama del huevo.",
+   "debate": "El diagrama es un modelo y no una descripción anatómica. Enfoques afines, como la terapia de sistemas familiares internos de Schwartz, tienen investigación inicial, aunque no derivan directamente de la psicosíntesis.",
+   "seccion": "La voluntad"
+  }
+ ],
+ "abierta": "¿La mente es de verdad un conjunto de partes con un centro que observa, o es solo una buena metáfora? La pregunta sigue abierta."
+}

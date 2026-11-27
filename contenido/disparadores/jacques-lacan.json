@@ -1,0 +1,24 @@
+{
+ "autor": "Lacan",
+ "preguntas": [
+  {
+   "enigma": "Un bebé de unos ocho meses se mira en el espejo y se ríe con un júbilo enorme.",
+   "p": "¿Qué creés que está pasando ahí?",
+   "opciones": ["Se reconoce a sí mismo, algo que ya sabía de antes", "Juega con una imagen sin entender nada todavía", "Encuentra una unidad que le llega desde afuera"],
+   "r": "Es el estadio del espejo de Lacan. Entre los seis y los dieciocho meses, el bebé se reconoce con júbilo en su imagen. Esa imagen completa, que viene de afuera, le da una primera unidad, pero también funda el yo como algo armado con lo que otros le devuelven.",
+   "como": "Lo presentó en un congreso en 1936 y lo reescribió en 1949, a partir de su formación como psiquiatra y de su cercanía con los surrealistas y los filósofos de su época.",
+   "debate": "Lacan es famoso por lo difícil, y sus ideas se discuten como teoría clínica y filosófica. Sus innovaciones técnicas, como las sesiones de duración variable, lo enfrentaron con la Asociación Psicoanalítica Internacional, que en 1963 lo excluyó como formador.",
+   "seccion": "Sus conceptos fundamentales"
+  },
+  {
+   "enigma": "Conseguís eso que tanto querías y a los pocos días ya estás pensando en otra cosa.",
+   "p": "¿Por qué el deseo no se queda quieto?",
+   "opciones": ["Somos insaciables por naturaleza", "En el fondo no era lo que de verdad queríamos", "El deseo no se satisface del todo: siempre falta algo, y eso nos mantiene deseando"],
+   "r": "Para Lacan, el deseo no se satisface del todo: siempre queda algo que falta, y eso es lo que nos mantiene deseando. Llamó objeto a a la causa del deseo, que no es lo que deseamos sino lo que hace que deseemos.",
+   "como": "Lo desarrolló a lo largo de casi treinta años de Seminario, releyendo a Freud desde la palabra y el lenguaje, y atendiendo a lo que cada persona dice con sus repeticiones y sus tropiezos.",
+   "debate": "Es una idea clínica y filosófica difícil de contrastar con métodos empíricos, y su estilo deliberadamente complejo hace que se lea de maneras muy distintas.",
+   "seccion": "Por qué sigue importando"
+  }
+ ],
+ "abierta": "Si el deseo nunca termina de encontrar lo que busca, ¿es una condena o es lo que mantiene viva a una persona?"
+}

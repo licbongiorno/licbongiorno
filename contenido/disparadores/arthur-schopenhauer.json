@@ -1,0 +1,24 @@
+{
+ "autor": "Schopenhauer",
+ "preguntas": [
+  {
+   "enigma": "Esperaste todo el fin de semana largo. Llegó, lo disfrutaste un rato y el domingo a la tarde ya estás pensando en el próximo plan.",
+   "p": "¿Por qué lo que deseamos se apaga tan rápido apenas lo conseguimos?",
+   "opciones": ["Porque nunca elegimos lo que realmente queremos", "Porque el deseo es como un motor que no se detiene, no importa qué consiga", "Porque nos acostumbramos a todo con facilidad"],
+   "r": "Schopenhauer pensaba que debajo de todo lo que hacemos hay una voluntad ciega, un impulso sin fin ni razón que en nosotros se siente como deseo. Como nunca se satisface del todo, la vida oscila entre el dolor del deseo insatisfecho y el aburrimiento cuando se cumple.",
+   "como": "Partió de Kant, para quien el mundo que conocemos es una representación de nuestra mente, y se preguntó qué había por debajo. Su respuesta, que publicó en 1819, la apoyó también en lo que leyó de los textos de la India.",
+   "debate": "Su «voluntad» es una tesis metafísica, no un concepto clínico, y su pesimismo es una postura filosófica que no debe confundirse con una depresión. La investigación actual encuentra momentos de bienestar sostenido en muchas vidas.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Hay gente a la que querés, pero cuando está muy cerca algo se pincha, y cuando se aleja sentís frío.",
+   "p": "¿Existe una distancia justa para los vínculos?",
+   "opciones": ["Sí, y cada uno la va encontrando a prueba y error", "No, si querés a alguien tenés que poder estar cerca sin lastimarte", "Depende solo de la confianza que haya"],
+   "r": "Schopenhauer lo contó con la imagen de los erizos que en una noche fría se juntan para darse calor, se pinchan, se separan, sienten frío y se acercan de nuevo hasta encontrar una distancia soportable. Sirve para pensar cuánta cercanía tolera cada uno.",
+   "como": "La imagen aparece en los *Parerga y paralipómena* (1851), la colección de ensayos accesibles que por fin le dio reconocimiento después de años de vivir casi sin lectores y solo con sus perros.",
+   "debate": "Es una metáfora literaria, no un resultado de investigación. Freud dijo que Schopenhauer se le había adelantado en la idea de la represión, pero describió un inconsciente con historia y contenidos, cosa que el filósofo no hizo.",
+   "seccion": "Un ejemplo cotidiano"
+  }
+ ],
+ "abierta": "Si buena parte de lo que hacemos tiene motivos que no vemos, ¿cuánto de lo que llamamos elegir es realmente elegir?"
+}

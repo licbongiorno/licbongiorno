@@ -1,0 +1,24 @@
+{
+ "autor": "Nise da Silveira",
+ "preguntas": [
+  {
+   "enigma": "Un hospital psiquiátrico de las afueras de Río de Janeiro, en los años cuarenta. Los tratamientos disponibles son el electroshock, el coma insulínico y la lobotomía. Una psiquiatra pide pinceles, tintas y arcilla.",
+   "p": "¿Para qué creés que los quería?",
+   "opciones": ["Para que los internados se entretuvieran y estuvieran tranquilos", "Para usar las obras como prueba de la enfermedad de cada uno", "Para dar una vía de expresión y de relación, con el vínculo afectivo en el centro"],
+   "r": "Nise da Silveira no veía las pinturas como pruebas de enfermedad. Creía que el trabajo con imágenes ofrecía una vía de expresión y de relación con personas que hablaban poco, y que lo central era el vínculo afectivo con cada paciente. Con las obras se creó en 1952 el Museo de Imágenes del Inconsciente.",
+   "como": "Se negó a aplicar los tratamientos de choque y la destinaron a terapia ocupacional, un sector de poco prestigio. Hizo de ese lugar un espacio propio y en 1946 organizó talleres de pintura y modelado.",
+   "debate": "No hay estudios que permitan presentar su método como un tratamiento con eficacia demostrada. Los talleres de arte tienen alguna investigación como complemento, pero eso no valida cada lectura simbólica.",
+   "seccion": "El taller y el Museo de Imágenes del Inconsciente"
+  },
+  {
+   "enigma": "En las pinturas de sus pacientes aparecían una y otra vez figuras circulares, con un centro y un orden.",
+   "p": "¿Qué creés que podían significar?",
+   "opciones": ["Nada: pura casualidad de la forma de dibujar", "Un síntoma de la enfermedad de cada uno", "Un intento de la psique de reorganizarse en momentos de desorden"],
+   "r": "Silveira vio en esas figuras mandalas, como los que Carl Jung había descrito. Para ella eran una pista de cómo la psique intenta reorganizarse en momentos de desorden. Le escribió a Jung, mantuvieron correspondencia en los años cincuenta y lo conoció en el Congreso de Zúrich de 1957.",
+   "como": "Encontró esas imágenes en las producciones de sus pacientes, y en 1957 presentó en Zúrich una exposición con obras del taller.",
+   "debate": "Es una lectura simbólica, no un diagnóstico, y no se puede usar para decir qué le pasa a alguien. Fue una mujer de su época, con una teoría que se puede discutir.",
+   "seccion": "Jung, las cartas y los mandalas"
+  }
+ ],
+ "abierta": "¿Qué pasa cuando alguien tiene un espacio, un material y un vínculo para expresarse sin ser evaluado? ¿Y cómo se reconoce la autoría de quienes pintaron en un hospital?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Wang Yangming",
+ "preguntas": [
+  {
+   "enigma": "Es lunes y decidís que esta vez sí vas a caminar por las mañanas. Lo dijiste en voz alta, tenés las zapatillas listas. El jueves ya no salís, aunque seguís pensando que te haría bien.",
+   "p": "Si de verdad lo sabés, ¿por qué no lo hacés?",
+   "opciones": ["Porque te falta fuerza de voluntad", "Porque en el fondo todavía no lo sabés del todo", "Porque saber y hacer son cosas distintas que no tienen por qué ir juntas"],
+   "r": "Wang Yangming sostuvo la unidad de conocimiento y acción: quien sabe de verdad que debe ayudar y no ayuda, en rigor todavía no sabe. Como ejemplo decía que ver un color hermoso y amarlo, u oler algo feo y rechazarlo, ocurren juntos, no primero uno y después el otro. Para él no existiría un saber pleno que la acción no acompañe.",
+   "como": "Su idea nació de un fracaso y una crisis: de joven se enfermó tratando de «investigar» bambúes, y en 1506 fue azotado y desterrado a Longchang, donde en 1508 alcanzó la «iluminación» de que el principio moral estaba en su propio corazón-mente.",
+   "debate": "Es una tesis filosófica con una larga historia de interpretación y críticas de otros pensadores chinos, no un hallazgo, y no fue evaluada como tratamiento. Además, «si no lo hacés es que no lo sabés» puede volverse un reproche cruel cuando hay depresión, agotamiento o miedo detrás.",
+   "seccion": "La unidad de conocimiento y acción"
+  },
+  {
+   "enigma": "Escribís un plan: «si termino el desayuno, entonces me calzo las zapatillas y salgo diez minutos». De repente, con ese mini plan, caminar se vuelve más fácil.",
+   "p": "¿Por qué un plan tan chico ayuda tanto?",
+   "opciones": ["Porque le da a la meta un gesto concreto al cual engancharse", "Porque comprometerse por escrito genera culpa si no lo cumplís", "No ayuda: es pura sugestión"],
+   "r": "Gollwitzer (1999) propuso las intenciones de implementación, planes con la forma «si se da la situación X, entonces hago Y», que ayudan a pasar de la meta a la acción. Se parecen a lo que Wang pedía: que el saber se encarne en un gesto.",
+   "como": "Sheeran (2002) revisó la literatura y describió la brecha entre intención y conducta: las intenciones predicen la conducta, pero dejan una parte considerable sin explicar.",
+   "debate": "Tienen respaldo la brecha y la utilidad de estos planes, con tamaños de efecto que varían. Pero para Wang la brecha es síntoma de un saber no auténtico, y para la psicología es un problema práctico con causas variadas como cansancio, contexto o hábitos.",
+   "seccion": "Qué se parece en la psicología"
+  }
+ ],
+ "abierta": "¿Por qué sabemos tantas cosas que nos harían bien y no las hacemos? La psicología ofrece herramientas, pero la brecha entre saber y hacer sigue sin explicarse del todo."
+}

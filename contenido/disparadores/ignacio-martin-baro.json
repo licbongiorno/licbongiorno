@@ -1,0 +1,24 @@
+{
+ "autor": "Martín-Baró",
+ "preguntas": [
+  {
+   "enigma": "En un pueblo salvadoreño, en plena guerra, una mujer dice que lo que le pasa a su familia es la voluntad de Dios y que no hay nada que hacer.",
+   "p": "¿Esa resignación es un rasgo de su carácter o tiene otra explicación?",
+   "opciones": ["Es parte de la cultura religiosa de la zona", "Es un rasgo de personalidad de ella", "Es una respuesta aprendida a condiciones de opresión muy reales"],
+   "r": "Martín-Baró analizó el fatalismo latinoamericano como una respuesta aprendida a condiciones de opresión, y no como un rasgo del supuesto carácter latino. Si nada de lo que hacés cambia nada, la resignación es casi razonable, pero convertida en visión del mundo ayuda a que esas condiciones se mantengan.",
+   "como": "Lo pensó desde El Salvador, siendo jesuita y psicólogo formado en Chicago, y fundó en 1986 un instituto de opinión pública para registrar con datos la voz de la población durante la guerra.",
+   "debate": "Algunas versiones de la psicología de la liberación se volvieron más declarativas que empíricas, y existe el riesgo de que el profesional decida desde afuera qué es lo «liberador» para una comunidad.",
+   "seccion": "Tres conceptos para entenderlo"
+  },
+  {
+   "enigma": "Una persona llega convencida de que su agotamiento es un defecto propio, cuando trabaja doce horas diarias en condiciones precarias para sostener a su familia.",
+   "p": "¿Cómo conviene escuchar un malestar así?",
+   "opciones": ["Como una falla individual que hay que corregir", "Como un problema político que hay que debatir en la sesión", "Sin desestimarlo ni politizarlo: ayudando a ver qué está a su alcance cambiar y qué no"],
+   "r": "Martín-Baró no escribió un manual de psicoterapia, pero dejó una forma de escuchar: no atribuir como falla individual lo que también tiene causas sociales. Habló también de trauma psicosocial: la guerra no solo produce víctimas con síntomas, daña las relaciones sociales mismas.",
+   "como": "Tomó de Paulo Freire la concientización y de la teología de la liberación la opción por los pobres, y fue asesinado en 1989 junto a otros jesuitas de la UCA.",
+   "debate": "Su obra no es un tratamiento ni se evaluó como tal; la idea de trauma psicosocial anticipó discusiones sobre los límites del diagnóstico de estrés postraumático para la violencia colectiva.",
+   "seccion": "Qué queda para la clínica"
+  }
+ ],
+ "abierta": "¿Qué parte del malestar de una persona es suya y qué parte es de su contexto? La psicología de la liberación dejó esa pregunta sin cerrar."
+}

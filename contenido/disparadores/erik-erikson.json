@@ -1,0 +1,24 @@
+{
+ "autor": "Erikson",
+ "preguntas": [
+  {
+   "enigma": "Una chica de diecisiete años prueba ropa, grupos y planes: un año quiere ser música, al siguiente veterinaria.",
+   "p": "¿Es indecisión o es otra cosa?",
+   "opciones": ["Es falta de madurez y conviene que se defina ya", "Es un trabajo necesario para saber quién es", "Es influencia de las amigas y las modas"],
+   "r": "Erikson dijo que la tarea de la adolescencia es construir una identidad propia, y acuñó la expresión «crisis de identidad». Para él, probar es parte del trabajo, y las sociedades conceden a los jóvenes un tiempo de exploración antes del compromiso.",
+   "como": "Él mismo no supo con certeza quién era su padre biológico, viajó por Europa como artista y se formó con Anna Freud; además estudió la crianza en comunidades sioux y yurok.",
+   "debate": "Sus etapas salieron de la observación clínica y de la cultura estadounidense de mediados del siglo XX: no hay edades exactas ni un orden igual para todos.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Alguien de cincuenta años se dedica a formar a los más jóvenes en su oficio, o cuida a sus nietos, y siente que eso es lo que más le importa ahora.",
+   "p": "¿Qué pregunta nos hace cada edad?",
+   "opciones": ["Siempre la misma: quién soy", "Cada etapa trae la suya: quién soy, con quién me comprometo, qué dejo", "Después de la juventud ya no hay preguntas nuevas"],
+   "r": "Erikson describió ocho etapas de la vida, cada una con su tensión. En la adultez la pregunta es qué dejamos: hijos, obras, cuidado de los demás, lo que llamó generatividad, frente al estancamiento.",
+   "como": "Observó el desarrollo hasta la vejez y lo pensó en relación con la sociedad, en el cruce entre el psicoanálisis y la antropología.",
+   "debate": "Es un mapa orientador, no un baremo: hay quienes revisan su identidad a los cuarenta o transitan la intimidad antes de resolver la identidad.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Seguimos haciéndonos preguntas de identidad toda la vida, o hay un punto en que quedan resueltas? Es un tema que la investigación todavía discute."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Piaget",
+ "preguntas": [
+  {
+   "enigma": "A un nene de cinco años le dan una galletita entera y a su hermano la misma partida en cuatro pedazos. Protesta: «¡él tiene más!».",
+   "p": "¿Por qué insiste, si ve claramente que es la misma galletita?",
+   "opciones": ["Es un capricho, quiere más para él", "Todavía no le explicaron bien cómo funciona", "Para él, más pedazos son más galletita"],
+   "r": "Piaget mostró que ese «error» no es falta de información: el chico piensa con una lógica propia. En la etapa preoperacional todavía no tiene la conservación, es decir, no entiende que la cantidad se mantiene aunque cambie la forma.",
+   "como": "Trabajó en París aplicando pruebas de inteligencia y notó que chicos de la misma edad se equivocaban de la misma manera. Dejó los tests y se puso a conversar con ellos, preguntando una y otra vez «¿por qué?».",
+   "debate": "Con métodos más sensibles se mostró que los bebés tienen expectativas sobre los objetos antes de lo que él pensaba. Las edades de las etapas varían según la tarea y la cultura.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "Explicarle a un chico chiquito la misma cosa diez veces suele servir poco. Pero un día lo entiende y no vuelve atrás.",
+   "p": "¿Qué cambió entre la explicación número uno y el día en que lo entendió?",
+   "opciones": ["Que finalmente maduró su cerebro y ya pudo", "Que la repetición terminó por grabarse", "Que lo vivió y fue armando la idea por su cuenta"],
+   "r": "Para Piaget el conocimiento no se copia del mundo ni se transmite como un dato: el chico lo construye actuando sobre las cosas y reflexionando sobre esas acciones. Es el constructivismo.",
+   "como": "Observó con su esposa el desarrollo de sus tres hijos, y esas observaciones fueron la base de *El nacimiento de la inteligencia en el niño* (1936). Más tarde diseñó con Bärbel Inhelder tareas clásicas, como la de las tres montañas.",
+   "debate": "Otros autores, como Vygotsky, pusieron el acento en el aprendizaje con otros. El pensamiento formal, además, no se da en todas las personas ni en todos los contextos por igual.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si cada chico va construyendo su propia manera de entender el mundo, ¿cuánto puede ayudar un adulto sin interrumpir ese proceso?"
+}

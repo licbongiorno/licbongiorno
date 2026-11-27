@@ -1,0 +1,24 @@
+{
+ "autor": "Csikszentmihalyi",
+ "preguntas": [
+  {
+   "enigma": "Estás tocando la guitarra, escribiendo o armando algo y, cuando levantás la vista, pasaron tres horas que sentiste como veinte minutos.",
+   "p": "¿Qué hace que a veces el tiempo se nos escape así?",
+   "opciones": ["Estamos haciendo algo muy fácil que no requiere pensar", "Estamos distraídos y no nos damos cuenta", "La tarea nos exige justo lo que podemos dar, con metas claras y respuesta inmediata"],
+   "r": "Csikszentmihalyi llamó flujo a ese estado de absorción total. Aparece cuando el desafío se ajusta a las habilidades (si es muy fácil hay aburrimiento, si es muy difícil, ansiedad), hay metas claras y se recibe información inmediata de cómo vamos.",
+   "como": "Con Reed Larson creó el muestreo de experiencia: los participantes llevaban un aparato que sonaba varias veces al día y anotaban qué hacían y cómo se sentían. También entrevistó a escaladores, ajedrecistas, bailarines y cirujanos.",
+   "debate": "Se estudió sobre todo con autorreportes y la evidencia es en buena parte correlacional: se asocia con bienestar y rendimiento, pero eso no prueba que lo cause.",
+   "seccion": "Qué es el flujo"
+  },
+  {
+   "enigma": "Una persona pasa horas absorta en un juego de apuestas online y siente que el tiempo desaparece.",
+   "p": "¿Esa absorción es lo mismo que el flujo, y es buena?",
+   "opciones": ["Sí, si se siente así, es flujo y es sano", "Puede parecerse al flujo, pero eso no la hace buena", "No tiene nada que ver con el flujo"],
+   "r": "Csikszentmihalyi describió una forma de experiencia, no un valor moral. El flujo puede darse en actividades dañinas como las apuestas, donde el desafío y la respuesta inmediata atrapan. La pregunta útil es qué lugar ocupa en la vida: si suma o si desplaza lo importante.",
+   "como": "Llegó al flujo comparando lo que describían personas con actividades muy distintas, empujado por la pregunta de cómo hay quienes siguen encontrando algo que vale la pena aun tras perderlo todo.",
+   "debate": "Pretender inducir flujo todo el tiempo puede volverse otra exigencia, y no toda satisfacción pasa por la absorción: también cuentan el descanso, el vínculo y el sentido.",
+   "seccion": "Cuidado: el flujo no es una virtud en sí mismo"
+  }
+ ],
+ "abierta": "¿Se puede buscar el flujo a propósito sin que se desvanezca? Es una de las preguntas que la psicología positiva todavía discute."
+}

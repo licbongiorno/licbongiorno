@@ -1,0 +1,24 @@
+{
+ "autor": "James",
+ "preguntas": [
+  {
+   "enigma": "Te cruzás con un oso en el bosque. Tu corazón late fuerte y salís corriendo.",
+   "p": "¿Corrés porque tenés miedo, o tenés miedo porque corrés?",
+   "opciones": ["Primero siento miedo y después corro", "Las dos cosas pasan a la vez y no se pueden separar", "Primero reacciona el cuerpo, y de esa reacción nace el miedo"],
+   "r": "William James propuso, al mismo tiempo que el danés Carl Lange, que la emoción es la percepción de los cambios del cuerpo. Según él es al revés de lo que parece: el cuerpo reacciona y de esa reacción nace el miedo. No lloramos porque estamos tristes, sino que nos sentimos tristes al percibir que lloramos.",
+   "como": "Lo planteó en *Principios de psicología* (1890), un libro que tardó doce años en escribir, con una prosa tan clara que muchos lo leían como a un novelista.",
+   "debate": "Walter Cannon lo criticó en la década de 1920 y la discusión sigue abierta. La investigación sobre si hacer una mueca o sonreír modifica lo que sentimos dio resultados mezclados, así que el efecto, si existe, es pequeño.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Cada enero te prometés cambiar un hábito, y cada febrero ya lo abandonaste.",
+   "p": "¿Qué ayudaría más a sostener un cambio?",
+   "opciones": ["Una gran promesa solemne, bien convencida", "Esperar a tener más motivación", "Empezar con decisión, con pasos concretos y repetidos, sin permitirse excepciones al principio"],
+   "r": "James llamó al hábito el «enorme volante de la sociedad»: nos ahorra esfuerzo, pero también nos ata. Proponía empezar los cambios con decisión y no permitirse excepciones al principio. Un cambio se sostiene más con pasos concretos y repetidos que con grandes promesas.",
+   "como": "Lo pensó como médico y psicólogo, y también desde su propia vida: de joven atravesó una crisis depresiva profunda, de la que dijo haber salido en parte gracias a una decisión, la de creer en su propia libertad.",
+   "debate": "Su consejo es sensato, pero las investigaciones modernas sobre cuánto tarda en formarse un hábito muestran una variación grande entre personas y conductas. Además, *Principios* es más ensayo que experimentación sistemática.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "James escribió que entrenar la atención voluntaria sería la base de una buena educación. Hoy que la atención compite con tantas pantallas, ¿se puede entrenar o hay que protegerla?"
+}

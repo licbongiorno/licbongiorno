@@ -1,0 +1,24 @@
+{
+ "autor": "Fanon",
+ "preguntas": [
+  {
+   "enigma": "En un hospital psiquiátrico de Argelia, a principios de los años cincuenta, un tratamiento de grupo que daba buenos resultados en un pabellón no funciona en otro, donde los pacientes son varones musulmanes.",
+   "p": "¿Por qué una misma técnica funciona con unos pacientes y con otros no?",
+   "opciones": ["Los pacientes no colaboran lo suficiente", "El problema no está en los pacientes sino en que el tratamiento fue pensado para otros", "Los casos de cada pabellón son clínicamente muy distintos"],
+   "r": "Fanon, jefe de servicio en Blida-Joinville, vio que las actividades de la socioterapia eran las de la vida europea, con códigos y valores que los pacientes no reconocían. Cuando las adaptó a su vida cultural, con espacios de reunión como el café, fiestas propias y su lengua, la sala empezó a responder.",
+   "como": "Se formó con François Tosquelles en Saint-Alban, donde aprendió que el hospital mismo puede enfermar, y analizó el fracaso en un artículo de 1954 con Jacques Azoulay.",
+   "debate": "Sus obras son análisis clínico, filosófico y político basados en su experiencia, no estudios con método cuantitativo. Su aporte se lee como antecedente y provocación, y no como evidencia.",
+   "seccion": "Blida-Joinville y la socioterapia"
+  },
+  {
+   "enigma": "Un niño blanco lo señala en un tren y dice «mirá, un negro». Quien lo recibe siente que, antes de ser persona, es un cuerpo mirado.",
+   "p": "¿El racismo es solo un hecho exterior o llega a la vida interior de las personas?",
+   "opciones": ["Es un hecho externo que no cambia cómo uno se ve", "Se instala también en la vida psíquica y marca la identidad", "Depende solo de la fortaleza personal de cada uno"],
+   "r": "En Piel negra, máscaras blancas (1952), Fanon sostuvo que el racismo se instala en la vida psíquica de las personas negras. Habló de una epidermización de la inferioridad: la marca de la piel se vuelve una identidad impuesta. Rechazó que el sufrimiento fuera un rasgo del colonizado y lo atribuyó al sistema colonial.",
+   "como": "Mezcló análisis clínico, fenomenología, literatura y autobiografía, desde su experiencia como soldado en la Francia Libre y estudiante de psiquiatría en Lyon.",
+   "debate": "Sus páginas sobre las mujeres fueron criticadas desde perspectivas feministas, y sus generalizaciones parten de un contexto antillano y francés puntual: hay que leerlo como un texto de su época.",
+   "seccion": "Piel negra, máscaras blancas (1952)"
+  }
+ ],
+ "abierta": "¿Cuánto de un sufrimiento viene del contexto social y cuánto de la historia personal? Es una pregunta que la salud mental comunitaria todavía discute."
+}

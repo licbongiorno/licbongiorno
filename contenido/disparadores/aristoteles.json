@@ -1,0 +1,24 @@
+{
+ "autor": "Aristóteles",
+ "preguntas": [
+  {
+   "enigma": "Terminás de ver una película muy triste, llorás un buen rato y salís del cine raro, pero más liviano que cuando entraste.",
+   "p": "¿Por qué llorar con algo que no es tuyo te alivia?",
+   "opciones": ["Porque sacás afuera una tristeza propia que tenías guardada", "Porque llorar siempre descarga, venga de donde venga", "Porque la historia te hizo sentir compasión y miedo en un lugar seguro, y eso ordena algo"],
+   "r": "Aristóteles llamó catarsis a lo que produce la tragedia: al despertar compasión y temor en el público, lo purifica o descarga de esas emociones. De ahí viene la palabra que Breuer y Freud usaron para su primer método terapéutico.",
+   "como": "Lo observó pensando por qué los griegos iban al teatro a ver tragedias, en la Poética. Su método era mirar, clasificar y comparar.",
+   "debate": "Los especialistas todavía discuten si catarsis significa purificación, purga o clarificación. Y de ahí no se deduce que gritar o golpear una almohada calme la bronca: un experimento de Bushman (2002) encontró que quedaban más agresivos.",
+   "seccion": "Matices y límites"
+  },
+  {
+   "enigma": "Querés ser más valiente para hablar en las reuniones del trabajo, pero cada vez que lo pensás se te cierra la garganta.",
+   "p": "¿Cómo se llega a ser alguien que se anima?",
+   "opciones": ["Hay que nacer con carácter, el resto es maquillaje", "Hay que entender primero de dónde viene el miedo", "Animándose en cosas chicas hasta que el coraje se vuelve costumbre"],
+   "r": "Para Aristóteles las virtudes no se tienen de nacimiento: se forman practicándolas, uno se vuelve valiente haciendo actos valientes. Y cada virtud es un término medio entre dos extremos, que se ajusta a cada persona con prudencia.",
+   "como": "Lo desarrolló en la Ética a Nicómaco, mirando cómo viven y se forman las personas en la ciudad, más que construyendo un sistema desde cero.",
+   "debate": "La investigación moderna sobre hábitos le da la razón a medias: en un estudio de Lally (2010) la conducta tardó entre 18 y 254 días en volverse automática. No hay plazo mágico. Además, varias ideas de Aristóteles, como su defensa de la esclavitud, son inaceptables hoy.",
+   "seccion": "Un ejemplo de todos los días"
+  }
+ ],
+ "abierta": "Aristóteles hablaba de eudaimonía, una vida plena y no solo placentera. Hoy se sigue investigando qué distingue el bienestar del placer del bienestar con sentido. ¿Cuál de los dos elegirías cuando no se pueden tener los dos?"
+}

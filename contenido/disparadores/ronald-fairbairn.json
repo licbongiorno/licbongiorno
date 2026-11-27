@@ -1,0 +1,24 @@
+{
+ "autor": "Fairbairn",
+ "preguntas": [
+  {
+   "enigma": "Un bebé llora y, cuando lo alzan, se calma. Un adulto, después de un día difícil, escribe a alguien solo para saber que está ahí.",
+   "p": "¿Qué creés que busca, en el fondo, una persona: placer, o a otra persona?",
+   "opciones": ["Placer y descarga: los demás son un medio para conseguirlo", "Seguridad: evitar el peligro antes que cualquier otra cosa", "A otras personas: el placer es una señal de que el vínculo funciona"],
+   "r": "Fairbairn invirtió la fórmula de Freud: la libido no busca placer sino objetos, es decir, vínculos. El placer es una señal de que la relación funciona, no la meta final. En psicoanálisis, «objeto» casi siempre es una persona, o la representación interna de una persona.",
+   "como": "Reunió trabajos de varios años en Psychoanalytic Studies of the Personality (1952), una teoría de la personalidad construida desde las relaciones. Rechazó el ello como reservorio de impulsos impersonales: para él, desde el principio hay un yo que busca relación.",
+   "debate": "Para algunos, su rechazo del ello deja afuera la dimensión del cuerpo y de la pulsión, que la clínica sigue encontrando. Otros señalan que su teoría es más conceptual que empírica: un marco potente para pensar, no un conjunto de hipótesis puestas a prueba.",
+   "seccion": "Sus ideas centrales"
+  },
+  {
+   "enigma": "Alguien creció en una casa donde los cuidados no eran confiables. Hoy, de grande, espera lo peor de los demás, o corta el contacto, o se aferra, aunque nadie le dé motivos.",
+   "p": "¿Por qué ese modo de vincularse sigue vigente cuando la situación ya cambió?",
+   "opciones": ["Es falta de madurez: ya debería haberlo superado", "Es un rasgo de carácter con el que se nace", "Aprendió a vincularse así, y ese mundo interno sigue funcionando"],
+   "r": "Para Fairbairn, la mente se arma con experiencias reales de relación, y lo que pasa afuera se vuelve un escenario interior que sigue modulando lo que sentimos y hacemos. No se trata de pulsiones que buscan salida sino de un modo de vincularse aprendido en relación, que se repite. Por eso la cura también pasa por una relación: la que se establece con el terapeuta.",
+   "como": "Lo pensó desde la clínica, atendiendo a cómo partes del yo y de los objetos quedaban escindidas o disociadas como respuesta a vínculos difíciles. Fue una influencia para quienes pensaron la clínica como un encuentro entre dos personas.",
+   "debate": "Su teoría dialoga con la del apego y con las líneas que ponen el cuidado temprano en el centro, pero no es un conjunto de hipótesis puestas a prueba, y conviene leerla con esa salvedad.",
+   "seccion": "Cómo se entiende todo esto"
+  }
+ ],
+ "abierta": "Si los vínculos tempranos dejan una huella tan fuerte, ¿qué hace falta para que una relación nueva, como la terapéutica, pueda ofrecer algo distinto? Es una pregunta que sigue abierta."
+}

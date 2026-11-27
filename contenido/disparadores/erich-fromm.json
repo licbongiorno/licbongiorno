@@ -1,0 +1,24 @@
+{
+ "autor": "Fromm",
+ "preguntas": [
+  {
+   "enigma": "Alguien pasa la tarde mirando cuántos «me gusta» tiene su última foto. Si salió bien, se siente valioso; si no, se apaga.",
+   "p": "¿Por qué nuestro valor parece depender de cuánto nos «cotizan»?",
+   "opciones": ["Porque somos seres sociales y necesitamos aprobación", "Porque cada sociedad moldea el tipo de carácter que necesita, y la nuestra premia lo que se vende", "Porque es una debilidad personal que cada uno debería superar"],
+   "r": "Fromm hablaba de carácter social: cada sociedad moldea un tipo de carácter que la mayoría comparte porque es el que necesita, así lo social se vuelve íntimo. Describió una orientación mercantil, en la que uno se siente una mercancía que vale según se cotice.",
+   "como": "Combinó el psicoanálisis, que mira lo íntimo, con el pensamiento de Marx, que mira las condiciones sociales. Trabajó en el Instituto de Fráncfort y, ya en México, hizo un estudio de campo sobre el carácter social en una aldea.",
+   "debate": "Sus tipologías de carácter no se validaron con instrumentos y son difíciles de poner a prueba: es teoría social y psicológica, no hallazgo medido. Se lo criticó además por un optimismo sobre la naturaleza humana que otros consideran ingenuo.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Mucha gente espera «encontrar a la persona indicada» y que el amor, cuando llegue, se encargue solo de todo.",
+   "p": "¿El amor es algo que nos pasa o algo que se hace?",
+   "opciones": ["Es algo que pasa o no pasa, y no se puede forzar", "Es una actividad que se aprende y se practica", "Es una mezcla: la química importa primero y el resto viene solo"],
+   "r": "Para Fromm, en «El arte de amar» (1956), amar es un arte y, como todo arte, requiere conocimiento, práctica y dedicación. Tiene cuatro elementos: cuidado, responsabilidad, respeto y conocimiento del otro. Sin ellos, lo que llamamos amor puede ser dependencia o posesión.",
+   "como": "Lo pensó como psicoanalista y como crítico de la sociedad, preguntándose qué hace una cultura de consumo con nuestros vínculos. Su libro se sigue editando en todo el mundo.",
+   "debate": "A veces se lo leyó como un libro de autoayuda, cuando es un ensayo con ambición filosófica. Conviene tomarlo como un mirador y no como una guía de conducta.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Cuánto de lo que sentimos como propio es, en realidad, lo que el entorno nos pide. Fromm se lo preguntó hace décadas y sigue sin cerrarse."
+}

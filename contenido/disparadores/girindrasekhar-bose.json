@@ -1,0 +1,24 @@
+{
+ "autor": "Bose",
+ "preguntas": [
+  {
+   "enigma": "Querés pegarle a alguien, o querés que te miren, y al mismo tiempo, en el fondo, aparece el impulso contrario: que te peguen, o mirar vos. Te quedás con una sensación confusa, como de ir de un lado al otro.",
+   "p": "¿Por qué un mismo deseo parece traer adentro a su contrario?",
+   "opciones": ["Porque la mente es inconstante y cambia de idea todo el tiempo", "Porque hay deseos buenos y malos que pelean entre sí", "Porque cada deseo tiene una cara activa y otra pasiva, y una queda inconsciente"],
+   "r": "Bose propuso la teoría de los deseos opuestos: todo deseo tiene dos caras, una activa (actuar sobre el mundo) y otra pasiva (recibir la acción). El deseo de pegar va unido al de ser golpeado; el de mirar, al de ser mirado. Para él, el malestar surge del conflicto entre esos opuestos.",
+   "como": "Lo desarrolló en su tesis de 1921 y en A New Theory of Mental Life (1933), a partir de lo que veía en el tratamiento de sus pacientes: algo así como un péndulo, donde el deseo dominante se debilitaba y aparecía su contrario. Combinó conceptos freudianos con ideas del pensamiento hindú sobre los pares de opuestos.",
+   "debate": "Es una propuesta clínica y especulativa, como buena parte del psicoanálisis de su época: nunca se puso a prueba empíricamente y tuvo poca circulación fuera de la India.",
+   "seccion": "La teoría de los deseos opuestos"
+  },
+  {
+   "enigma": "Una teoría psicológica nació en Viena, con familias europeas de principios del siglo XX. Un médico de Calcuta la usa con sus pacientes y nota que algo no cuadra.",
+   "p": "Si una teoría describe la mente humana, ¿debería funcionar igual en cualquier lugar?",
+   "opciones": ["Sí: la mente humana es la misma en todas partes", "Casi todo sí, y las diferencias son detalles sin importancia", "Algunas piezas pueden depender de la crianza y de la cultura"],
+   "r": "Bose observó que en sus pacientes indios el miedo a la castración tenía mucho menos peso del que Freud le daba en Europa. Propuso una explicación social: en la India los chicos andaban desnudos hasta una edad más avanzada y veían desde pronto los cuerpos de ambos sexos. Y puso a la madre en el centro del Edipo.",
+   "como": "Comparó lo que veía en su consultorio de Calcuta con lo que decía la teoría, y le escribió a Freud sobre esas diferencias durante años, sin conocerlo nunca en persona.",
+   "debate": "La psicología cultural y la antropología médica actuales le dan la razón en el planteo general, aunque no necesariamente en sus explicaciones concretas, que se basaban en sus pacientes y no en estudios sistemáticos.",
+   "seccion": "Un desacuerdo con Freud: la castración"
+  }
+ ],
+ "abierta": "¿Qué partes del psicoanálisis, o de cualquier teoría psicológica, son realmente universales y cuáles dependen del lugar donde nacieron? Es una pregunta que Bose dejó planteada y que todavía no está cerrada."
+}

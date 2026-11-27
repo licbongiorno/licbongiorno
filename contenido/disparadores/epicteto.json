@@ -1,0 +1,24 @@
+{
+ "autor": "Epicteto",
+ "preguntas": [
+  {
+   "enigma": "Estás atrapado en un tráfico que no avanza y llegás tarde a una cita importante. A tu alrededor, la gente toca bocina y se enoja; vos sentís que te sube la rabia.",
+   "p": "¿Qué parte de esta situación está realmente en tus manos?",
+   "opciones": ["Casi nada: el tráfico manda y solo queda esperar", "Todo, si me organizo mejor la próxima vez", "Mi llamada para avisar y mi manera de tomarlo, pero no los autos de adelante"],
+   "r": "Epicteto trazó una línea entre lo que depende de mí, que son mis juicios, deseos y acciones, y lo que no depende de mí: el cuerpo, la reputación, los bienes y lo que hacen los demás. Gran parte del sufrimiento, decía, viene de querer controlar lo segundo y descuidar lo primero.",
+   "como": "Fue esclavo en Roma, luego liberto y maestro. No escribió nada: su alumno Arriano anotó sus clases. Hablaba de libertad interior desde una vida que había conocido la falta de libertad, y proponía un ejercicio diario de distinguir una y otra vez qué está en nuestro poder.",
+   "debate": "No hay investigación que pruebe el estoicismo antiguo como terapia; lo que se estudió son las técnicas cognitivas modernas, que sí tienen respaldo en depresión y ansiedad. Y no sirve para pedirle a alguien que sufre abuso o pérdida que simplemente piense distinto.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Dos personas reciben exactamente la misma crítica de su jefe. Una se hunde durante días. La otra la anota, la piensa y sigue adelante.",
+   "p": "¿Qué creés que hace la diferencia entre ellas?",
+   "opciones": ["Una es más sensible que la otra, y eso es innato", "El jefe habló distinto con cada una, aunque parezca igual", "Cada una interpretó la crítica de manera distinta"],
+   "r": "Para Epicteto, lo que nos perturba no son los hechos sino los juicios que hacemos sobre ellos: es la frase del Enquiridión que Albert Ellis citaba para explicar su terapia. Por eso el trabajo del estoico está en revisar sus propios juicios, no en cambiar el mundo.",
+   "como": "El estoicismo era una práctica de vida más que una teoría: examinarse cada día, anticipar dificultades y entrenar la atención. La filosofía se entendía como una forma de medicina del alma.",
+   "debate": "Su idea fue discutida desde siempre. El ideal estoico de no dejarse mover por las pasiones choca con la psicología actual, que no pide suprimir las emociones sino entenderlas.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "Si la libertad interior es posible hasta en un esclavo, ¿qué lugar queda entonces para cambiar las condiciones injustas en lugar de solo soportarlas? Es un debate que el estoicismo todavía no cierra."
+}

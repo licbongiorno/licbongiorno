@@ -1,0 +1,24 @@
+{
+ "autor": "Adler",
+ "preguntas": [
+  {
+   "enigma": "Conocés a alguien que de chico fue «el más torpe» del grupo, el último elegido en el recreo. Hoy es muy exigente consigo mismo y no se permite ningún error.",
+   "p": "¿Qué creés que busca con tanta exigencia?",
+   "opciones": ["Es simplemente su carácter, nació perfeccionista", "Quiere la aprobación que no tuvo de chico", "Está compensando una herida: quiere pertenecer, evitar el rechazo o demostrar algo"],
+   "r": "Para Adler, todos empezamos la vida pequeños y dependientes, y ese sentimiento de inferioridad nos impulsa a crecer y a compensar. A veces la compensación da capacidades; otras, una exigencia rígida. Por eso prefería preguntar «¿para qué?» antes que «¿por qué?».",
+   "como": "Primero lo observó en el cuerpo: en 1907 notó que una debilidad física puede empujar a desarrollar otras capacidades, y de a poco amplió la idea a lo psicológico y lo social. Su propia infancia de enfermedades también marcó su rumbo.",
+   "debate": "Muchas de sus ideas, como el estilo de vida o la superioridad como máscara de la inferioridad, son interpretaciones clínicas útiles pero difíciles de medir.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "En tu familia hay un hermano mayor «responsable» y uno menor «mimado», y todos juran que son así desde siempre.",
+   "p": "¿El lugar entre los hermanos te marca la personalidad?",
+   "opciones": ["Sí, el orden de nacimiento define cómo somos", "No, es puro azar y cada uno sale como sale", "Influye en cómo nos movemos en la vida, pero sin reglas fijas"],
+   "r": "Adler se interesó en cómo el lugar entre los hermanos influye en el estilo de vida, la manera propia que cada uno arma de moverse entre los demás. Lo planteaba como una pista, sin reglas fijas.",
+   "como": "Lo pensó mirando familias, escuelas y consultorios de orientación que su círculo abrió en la Viena de los años veinte.",
+   "debate": "Un estudio grande de 2015, con datos de Estados Unidos, el Reino Unido y Alemania, no encontró efectos relevantes del orden de nacimiento sobre los grandes rasgos de personalidad. Conviene tomarlo como excusa para conversar sobre la historia familiar, no como regla.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Adler decía que la medida de la salud psíquica es el sentimiento de comunidad, el interés genuino por los otros. ¿Es un dato sobre la mente o una posición de valores que nos parece sensata?"
+}

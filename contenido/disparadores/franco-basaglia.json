@@ -1,0 +1,24 @@
+{
+ "autor": "Basaglia",
+ "preguntas": [
+  {
+   "enigma": "Imaginá una persona que lleva años en un hospital donde no decide cuándo come, cuándo sale ni con quién habla.",
+   "p": "¿Cuánto de lo que se ve como enfermedad puede ser efecto del propio lugar?",
+   "opciones": ["Nada: lo que se ve es la enfermedad que traía", "Un poco, pero lo esencial es la enfermedad", "Mucho: parte de lo que se ve como enfermedad es efecto de la institución"],
+   "r": "Franco Basaglia llegó en 1961 a dirigir un manicomio y, en lugar de preguntar cómo curar mejor a los internados, preguntó cuánto de lo que se veía como enfermedad era efecto de la propia institución. De esa pregunta salió una de las reformas más estudiadas de la salud mental.",
+   "como": "Lo que encontró en el hospital de Gorizia le resultó insoportable: personas atadas, aisladas, sin ropa propia. Empezó a cambiar el funcionamiento por dentro: abrió puertas, organizó asambleas de internados y personal y suprimió los métodos de contención más violentos.",
+   "debate": "Cerrar el manicomio sin construir servicios deja a las personas y a sus familias solas. La evidencia sobre modelos comunitarios es favorable en varios aspectos, pero depende de que haya equipos, viviendas, apoyo y financiamiento.",
+   "seccion": "Quién fue"
+  },
+  {
+   "enigma": "Alguien propone cerrar los manicomios y que las personas internadas vuelvan a la comunidad.",
+   "p": "¿Alcanza con cerrar los edificios?",
+   "opciones": ["Sí: sin manicomio no hay encierro", "Sí, pero hay que hacerlo muy gradualmente", "No: importa más lo que lo reemplaza, como vivienda, trabajo y servicios en el barrio"],
+   "r": "Para Basaglia, la desinstitucionalización no consiste solo en cerrar edificios, sino en desmontar la lógica que convierte a la persona en un paciente sin derechos. Importa más lo que reemplaza al manicomio que su demolición: vivienda, trabajo y participación como parte del tratamiento.",
+   "como": "En Trieste, con su equipo, abrió los pabellones, creó cooperativas de trabajo para los internados y puso en marcha centros de salud mental en los barrios. Su trabajo inspiró la ley italiana 180 de 1978.",
+   "debate": "El cierre llevó años y no todas las regiones de Italia avanzaron al mismo ritmo. Hoy se discuten las desigualdades entre regiones, los recursos de los servicios territoriales y el papel de las familias. En Argentina, la aplicación de la ley 26.657 también ha sido desigual.",
+   "seccion": "Sus ideas"
+  }
+ ],
+ "abierta": "¿Qué necesita una comunidad para sostener a quien atraviesa una crisis psíquica grave? ¿Y quién se hace cargo cuando las familias no pueden?"
+}

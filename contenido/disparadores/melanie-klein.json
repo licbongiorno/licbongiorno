@@ -1,0 +1,24 @@
+{
+ "autor": "Klein",
+ "preguntas": [
+  {
+   "enigma": "Un chico abraza a su mamá y, en el mismo minuto, le pega.",
+   "p": "¿Cómo puede querer y odiar a la misma persona a la vez?",
+   "opciones": ["Está confundido, todavía no sabe lo que siente", "Está probando los límites de su mamá", "Son dos sentimientos que conviven desde muy temprano"],
+   "r": "Klein observó que el amor y el odio aparecen juntos, muy temprano y con mucha fuerza. Propuso que madurar no es dejar de odiar, sino poder sostener las dos cosas hacia la misma persona, algo que describió como el paso a la posición depresiva.",
+   "como": "Desarrolló una técnica de juego: le daba a cada niño una caja con juguetes simples, solo para él, y leía lo que hacía como se leen las asociaciones libres de un adulto.",
+   "debate": "Sus ideas generaron fuertes debates, sobre todo con Anna Freud, que culminaron en las «Discusiones controversiales» de 1942 a 1944. Fueron tan intensos que la Sociedad Británica de Psicoanálisis terminó dividida en tres grupos.",
+   "seccion": "Quién fue"
+  },
+  {
+   "enigma": "En un momento de mucha angustia, a alguien le pasa que ve a una persona como «todo bueno» y a otra como «todo malo». Al rato cambia de opinión.",
+   "p": "¿Por qué la cabeza parte a los otros en dos bandos cuando estamos mal?",
+   "opciones": ["Porque falta información sobre cómo son realmente", "Porque es una forma de protegerse de la angustia", "Porque así es el carácter de algunas personas"],
+   "r": "Klein habló de posiciones, maneras de organizar la experiencia a las que se vuelve una y otra vez. En la esquizo-paranoide el otro aparece partido, bueno o malo, y la angustia es persecutoria; en la depresiva se puede ver que la persona amada y la que frustra son la misma.",
+   "como": "Lo pensó a partir de su trabajo con niños muy pequeños y con pacientes graves, ampliando el psicoanálisis hacia los primeros meses de vida.",
+   "debate": "Es una teoría muy influyente en el Reino Unido y en el Río de la Plata, pero sobre los primeros meses de vida se apoya en la interpretación clínica y no en observación directa, y otros autores la discutieron.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si integrar lo bueno y lo malo de una misma persona es parte de madurar, ¿se termina alguna vez de hacerlo?"
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Epicuro",
+ "preguntas": [
+  {
+   "enigma": "Mucha gente quiere más: más plata, más reconocimiento, más cosas. Cada vez que lo consigue, a los pocos días ya está mirando lo siguiente.",
+   "p": "¿Por qué lo que conseguimos nunca termina de alcanzar?",
+   "opciones": ["Porque no supimos elegir bien lo que queríamos", "Porque hay deseos que no tienen límite y no existe cantidad que los sacie", "Porque en el fondo somos insaciables y no hay nada para hacer"],
+   "r": "Epicuro dividió los deseos en tres: los naturales y necesarios (alimento simple, abrigo, techo), los naturales pero no necesarios, y los que no son ni naturales ni necesarios, como la fama, el poder o la riqueza sin tope. Estos últimos son los que más inquietud producen, porque no hay cantidad que los sacie.",
+   "como": "No hizo experimentos: observó y propuso una forma de vivir en el Jardín, una comunidad de amigos que comía con sencillez y estudiaba. Casi todo lo que escribió se perdió, y su doctrina se conserva en tres cartas, las Máximas capitales y poemas de seguidores como Lucrecio.",
+   "debate": "Se parece a lo que la psicología estudia como adaptación hedónica, pero Epicuro no es un precursor de esa investigación. Sus ideas son filosofía y arte de vivir, sin ensayos clínicos.",
+   "seccion": "La clasificación de los deseos"
+  },
+  {
+   "enigma": "Alguien se queda despierto de noche pensando en la muerte, la propia y la de los que quiere. El miedo le aprieta el pecho.",
+   "p": "¿Se puede razonar el miedo a morir?",
+   "opciones": ["Sí, con buenos argumentos el miedo se disuelve", "No, el miedo es un sentimiento que ningún argumento toca", "Un argumento puede ayudar, pero no alcanza solo"],
+   "r": "Epicuro razonó que la muerte no es nada para nosotros: mientras existimos, la muerte no está presente, y cuando está presente, ya no existimos. Si no hay sensación, no hay nada que temer. Es parte del tetrafármaco, el remedio de cuatro partes: no temer a los dioses, ni a la muerte, el bien es fácil de conseguir y el mal es fácil de soportar.",
+   "como": "La fórmula se conoce por un papiro de Filodemo hallado en Herculano, entre los restos de una biblioteca enterrada por el Vesubio en el año 79. Los propios epicúreos sabían que el argumento no alcanzaba solo, y lo acompañaban de práctica y de comunidad.",
+   "debate": "Es un argumento, no un consuelo garantizado: no resuelve el duelo ni la angustia de quien se está muriendo. Que el dolor intenso es breve y el largo es leve fue discutido desde la antigüedad, y quien vive con dolor crónico lo sabe.",
+   "seccion": "El tetrafármaco"
+  }
+ ],
+ "abierta": "¿Puede la razón sola calmar el miedo a la muerte, o hace falta siempre compañía y práctica? Los filósofos y los psicólogos lo siguen discutiendo."
+}

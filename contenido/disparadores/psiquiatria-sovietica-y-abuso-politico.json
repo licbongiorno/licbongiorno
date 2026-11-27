@@ -1,0 +1,24 @@
+{
+ "autor": "Snezhnevski",
+ "preguntas": [
+  {
+   "enigma": "Alguien escribe cartas a las autoridades denunciando abusos. Lo detienen y una comisión de médicos dice que su insistencia en la «lucha por la verdad» es un síntoma.",
+   "p": "¿Puede una forma de pensar distinta, o la terquedad en una causa, ser tratada como enfermedad?",
+   "opciones": ["No, pensar distinto no es un síntoma por sí mismo", "Depende de lo que diga el especialista", "Sí, si la persona está obsesionada y no puede dejarlo"],
+   "r": "En la Unión Soviética se amplió la categoría de «esquizofrenia lenta», que describía síntomas leves y evolución gradual, con rasgos como los «delirios de reforma» y la «lucha por la verdad». Con criterios tan elásticos, la disidencia podía leerse como enfermedad y llevar a una internación sin plazo.",
+   "como": "El término tenía antecedentes en los años treinta y fue la escuela de Andréi Snezhnevski la que lo amplió desde los sesenta. El caso del general Piotr Grigorenko y el del escritor Vladímir Bukovski están documentados con informes médicos, testimonios y documentos de la época.",
+   "debate": "Se discute el número de personas internadas, el grado de responsabilidad de cada figura, incluido Snezhnevski, y cuánto fue orden directa y cuánto una cultura profesional que lo naturalizó. Lo que no se discute es que hubo internaciones por motivos políticos.",
+   "seccion": "Snezhnevski y la «esquizofrenia lenta»"
+  },
+  {
+   "enigma": "En una institución, un profesional recibe presión para firmar algo que no cree. Algunos firman por convicción, otros por miedo y unos pocos se niegan.",
+   "p": "¿Qué evita que un diagnóstico se use para otra cosa?",
+   "opciones": ["La buena fe de cada profesional", "Criterios claros, garantías legales y mirada externa", "Que no existan diagnósticos demasiado amplios"],
+   "r": "El caso soviético muestra que un diagnóstico es una herramienta poderosa: nombra un sufrimiento, pero también define quién es razonable. Cuanto más vagos son sus criterios, más fácil es usarlo para otra cosa. Por eso importan la ética profesional y la supervisión independiente.",
+   "como": "La documentación llegó a Occidente por vías clandestinas, y en 1977 la Asociación Mundial de Psiquiatría adoptó la Declaración de Hawái, su primer código ético internacional. La sociedad soviética se retiró de la asociación en 1983 ante una posible expulsión.",
+   "debate": "El abuso político de la psiquiatría no se limitó a la Unión Soviética, y siguió denunciándose en algunos países. Usar esta historia para desacreditar a toda la psiquiatría tampoco tiene fundamento: la lección es el valor de los criterios claros.",
+   "seccion": "La lección que deja"
+  }
+ ],
+ "abierta": "Cuando un diagnóstico es útil para quien sufre y a la vez puede ser usado como poder, ¿cómo se equilibra el cuidado con la protección de los derechos de cada persona?"
+}

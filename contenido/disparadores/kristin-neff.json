@@ -1,0 +1,24 @@
+{
+ "autor": "Neff",
+ "preguntas": [
+  {
+   "enigma": "A un amigo le sale mal algo importante y le decís que no es el fin del mundo. Cuando te pasa a vos, aparece el reproche: «¿cómo pudiste ser tan inútil?».",
+   "p": "¿Por qué somos más duros con nosotros que con alguien querido?",
+   "opciones": ["Porque nos conocemos mejor y sabemos cuánto podíamos dar", "Porque sentimos que, si no nos exigimos, nos aflojamos", "Porque nos parece que solo nos pasa a nosotros"],
+   "r": "Kristin Neff propuso que la autocompasión tiene tres componentes: amabilidad con uno mismo, humanidad compartida (fallar es parte de lo humano, no una falla solo nuestra) y atención plena para registrar lo que duele sin exagerarlo ni taparlo.",
+   "como": "En 2003 definió la autocompasión de manera precisa y creó la Escala de Autocompasión, de 26 ítems, que permitió convertir una idea difusa en objeto de estudio.",
+   "debate": "Hay un debate abierto sobre si la escala mide una sola cosa o varias, y si la autocompasión funciona igual en todas las personas, o resulta incómoda para algunas al comienzo.",
+   "seccion": "Los tres componentes de la autocompasión"
+  },
+  {
+   "enigma": "Pensás que si te tratás con amabilidad después de un error, te vas a volver flojo y no vas a mejorar nunca.",
+   "p": "¿Ser amable con uno mismo es lo mismo que darse el gusto?",
+   "opciones": ["Sí, es una excusa para no esforzarse", "No, cuidarse a veces implica mirar el error con honestidad y hacer lo difícil", "Depende de cuánto se lo practique"],
+   "r": "Neff distingue la autocompasión de la autoindulgencia y de la autoestima. La autoestima depende de cómo nos va y cae si fracasamos; la autocompasión no depende de compararnos ni de que nos vaya bien: está disponible justamente cuando fallamos.",
+   "como": "Lo planteó contrastando la autocompasión con la autoestima y la autoindulgencia, y lo midió con la escala en distintos grupos y en el tiempo.",
+   "debate": "Mucha gente teme que ser amable consigo misma la vuelva floja, y esa idea es una de las que este enfoque pone en discusión. No reemplaza un tratamiento cuando hay un sufrimiento intenso.",
+   "seccion": "Autocompasión, autoestima y autoindulgencia"
+  }
+ ],
+ "abierta": "¿Para quiénes resulta más difícil tratarse con amabilidad, y por qué? Todavía se investiga cómo funciona la autocompasión en distintas personas y contextos."
+}

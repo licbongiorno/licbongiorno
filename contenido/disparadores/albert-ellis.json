@@ -1,0 +1,24 @@
+{
+ "autor": "Ellis",
+ "preguntas": [
+  {
+   "enigma": "Mañana tenés que exponer delante de todo tu equipo. Es la misma presentación, la misma sala y la misma gente que tu colega, y sin embargo él duerme tranquilo y vos das vueltas en la cama.",
+   "p": "¿Qué hace que dos personas sientan algo tan distinto ante la misma situación?",
+   "opciones": ["Algunas personas nacen con más nervios y otras con menos, y no hay mucho más que decir", "Depende de cuánta experiencia previa tenga cada una exponiendo", "Depende de lo que cada uno se dice por dentro sobre lo que va a pasar"],
+   "r": "Ellis propuso que no es el acontecimiento (A) lo que genera la emoción (C), sino lo que creemos sobre él (B): el famoso modelo ABC. Si pensás «tengo que hacerlo perfecto y caerle bien a todos», aparece el pánico; si pensás «me gustaría hacerlo bien y, si sale mal, lo voy a poder bancar», el nerviosismo queda manejable.",
+   "como": "Era psicoanalista y le parecía que el método avanzaba lento; notó que sus pacientes mejoraban más cuando él intervenía de forma activa y discutía sus ideas. También se apoyó en los estoicos, sobre todo en Epicteto, y en su propia timidez juvenil.",
+   "debate": "El modelo ABC es una manera didáctica de ordenar la experiencia, no un esquema exacto: las emociones también vienen del cuerpo, de la historia y del contexto, no solo de las creencias.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Te sale mal algo que te importaba y la voz interna aparece enseguida: «no debería haberme pasado», «tengo que ser mejor que esto». Pasan las horas y lo que más pesa no es el error sino esa voz.",
+   "p": "¿Por qué los «tengo que» y los «debería» nos hacen tanto ruido?",
+   "opciones": ["Porque nos motivan: sin exigirnos no mejoraríamos nunca", "Porque nos recuerdan los errores y eso nos duele", "Porque convierten un deseo en una obligación absoluta, y entonces cualquier falla se siente como una catástrofe"],
+   "r": "Para Ellis, el sufrimiento aparece cuando transformamos las preferencias en exigencias absolutas: «tengo que», «no soporto», «es terrible». Proponía pasar del «tengo que» al «me gustaría», y distinguir entre evaluar un acto y evaluar a toda la persona.",
+   "como": "Lo observó en sus consultas, donde veía repetirse los mismos «debo» y «tengo que» en pacientes muy distintos, y lo conectó con la «tiranía de los debería» de Karen Horney y con la filosofía estoica.",
+   "debate": "Hoy se habla más de creencias rígidas o poco útiles que de «irracionales», y se las discute con tacto: a quien atraviesa un duelo o una depresión severa, decirle que su dolor viene de una creencia puede sonar a invalidación.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si es cierto que lo que nos decimos pesa tanto, ¿cuánto de lo que sentimos nace de las ideas y cuánto del cuerpo y de la historia? Todavía no hay una respuesta que conforme a todos."
+}

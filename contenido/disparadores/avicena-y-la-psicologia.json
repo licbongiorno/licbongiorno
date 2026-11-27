@@ -1,0 +1,24 @@
+{
+ "autor": "Avicena",
+ "preguntas": [
+  {
+   "enigma": "Cerrás los ojos en una habitación en silencio y tratás de no sentir tu cuerpo. Aun así, hay algo que no podés dejar de saber: que estás ahí.",
+   "p": "¿Qué es eso que sabe que existe aunque no sienta nada?",
+   "opciones": ["Es el propio cuerpo, que se hace notar aunque no lo atiendas", "Es la memoria, que te recuerda quién sos", "Es un yo distinto del cuerpo"],
+   "r": "Avicena imaginó a un hombre creado de golpe, adulto, suspendido en el vacío sin sentir nada de su cuerpo ni del mundo. Sostuvo que igual sabría que existe, y concluyó que el yo que se conoce así es distinto del cuerpo. Se lo llama el «hombre suspendido».",
+   "como": "No lo probó con nadie: es un experimento mental que propone en su Libro del alma, hace mil años, imaginando una situación de privación sensorial total.",
+   "debate": "Su sentido exacto se discute. Y buena parte de la investigación actual sostiene que el sentido de uno mismo está hecho también de sensaciones del cuerpo, como la respiración, el latido o la postura. Se lo compara con el «pienso, luego existo» de Descartes, aunque el método es distinto.",
+   "seccion": "El hombre suspendido"
+  },
+  {
+   "enigma": "Una oveja ve a un lobo por primera vez y sale corriendo. No le importó su color ni su forma, simplemente supo que era peligroso.",
+   "p": "¿Cómo sabe la oveja que el lobo es peligroso sin pensarlo?",
+   "opciones": ["Lo razona rápido, aunque no lo notemos", "Capta algo más allá de lo que ven los ojos, una especie de «intención» hostil", "Es puro reflejo del cuerpo, sin nada mental de por medio"],
+   "r": "Avicena describió la estimativa (wahm): una facultad interna que capta lo que los sentidos no ven pero importa para la vida, como la hostilidad del lobo. Es una evaluación rápida, previa al razonamiento, que le dice a un ser vivo qué buscar y qué evitar.",
+   "como": "Partió de Aristóteles y organizó cinco sentidos internos que trabajan con lo que traen los sentidos externos. El ejemplo de la oveja y el lobo es el clásico que usó para explicarla.",
+   "debate": "Los parecidos con la psicología de las emociones son analogías nuestras: él no hablaba de emociones ni de fobias, y su ubicación de las facultades en los ventrículos del cerebro no coincide con lo que hoy sabemos.",
+   "seccion": "Los cinco sentidos internos"
+  }
+ ],
+ "abierta": "Cuánto de lo que llamamos «yo» es cuerpo y cuánto es otra cosa sigue siendo una pregunta abierta, mil años después del hombre suspendido."
+}

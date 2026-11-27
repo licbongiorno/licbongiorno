@@ -1,0 +1,24 @@
+{
+ "autor": "Bowlby",
+ "preguntas": [
+  {
+   "enigma": "Alguien te dice, al verte alzar a tu bebé que llora: «no lo alces tanto, que se acostumbra».",
+   "p": "¿Buscar consuelo cuando tenemos miedo es un capricho que se malcría, o es otra cosa?",
+   "opciones": ["Es un hábito que se refuerza si se atiende siempre", "Es una necesidad básica con la que nacemos", "Depende del carácter de cada bebé"],
+   "r": "Bowlby mostró que buscar a quien nos cuida cuando tenemos miedo es una necesidad básica, tan importante como comer, y que la forma en que fue respondida deja una huella en cómo amamos de grandes. Llamó base segura a la figura disponible que permite explorar.",
+   "como": "Observó con James Robertson a chicos internados sin sus padres, que primero protestan, luego caen en la desesperanza y, si se prolonga, se desapegan, y tomó ideas de la etología.",
+   "debate": "El apego no es destino: los estilos cambian con nuevas relaciones y pesan el temperamento y la cultura; no sirve para culpar a madres y padres, porque no hace falta perfección sino una respuesta suficientemente sensible.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Después de una discusión, hay quien necesita cercanía enseguida y quien se aleja y se pone a trabajar.",
+   "p": "¿De dónde vienen esas formas tan distintas de manejar la distancia?",
+   "opciones": ["Del carácter con el que cada uno nació", "De lo que aprendió del cuidado que recibió de chico", "De cómo cada uno lee la pelea en ese momento"],
+   "r": "Bowlby propuso que, a partir de las experiencias con sus cuidadores, el chico forma modelos operativos internos de sí mismo y de los otros, y estos guían sus vínculos posteriores. Ninguno de los dos estilos está «mal»: son maneras aprendidas.",
+   "como": "Trabajó con Mary Ainsworth, que diseñó la situación extraña para observar la reacción de los bebés ante la separación y el reencuentro.",
+   "debate": "Bowlby fue criticado por mirar casi solo a la madre, cuando los bebés se apegan a varias figuras, y medir el apego en adultos es más discutido que en bebés.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Cuánto puede cambiar nuestra forma de vincularnos con nuevas relaciones en la adultez? La investigación sigue buscando la respuesta."
+}

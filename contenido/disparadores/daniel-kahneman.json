@@ -1,0 +1,24 @@
+{
+ "autor": "Kahneman",
+ "preguntas": [
+  {
+   "enigma": "Te proponen una apuesta justa: con una moneda, ganás o perdés exactamente el mismo monto. Hacés la cuenta, da parejo, y aun así tu primer impulso es decir que no.",
+   "p": "Si el cálculo es igual, ¿por qué algo adentro tuyo se resiste?",
+   "opciones": ["Porque en el fondo somos prudentes y preferimos no arriesgar nada", "Porque no nos gusta jugar con plata, sea cual sea la cuenta", "Porque perder una suma duele más de lo que alegra ganar la misma"],
+   "r": "Kahneman y Tversky mostraron en su teoría prospectiva (1979) que las pérdidas pesan más que las ganancias equivalentes. Eso ayuda a entender por qué rechazamos apuestas parejas, nos aferramos a lo que ya tenemos y por qué cambiar la presentación de una opción, como ganancia o como pérdida, puede cambiar lo que elegimos.",
+   "como": "Junto con Amos Tversky, planteó problemas de decisión a mucha gente y comparó lo que las personas realmente elegían con lo que predecía la teoría económica clásica, que suponía un calculador perfecto.",
+   "debate": "Como en cualquier programa de investigación amplio, se discute cuánto de cada hallazgo se sostiene en todos los contextos y cuánto cambia según la situación.",
+   "seccion": "La teoría prospectiva"
+  },
+  {
+   "enigma": "Alguien te hace una pregunta y la respuesta te sale al instante, con total seguridad. Más tarde, cuando lo pensás con calma, ya no estás tan seguro.",
+   "p": "¿De dónde sale esa primera certeza tan rápida?",
+   "opciones": ["De la experiencia acumulada: la intuición casi siempre acierta", "De un atajo mental que ahorra esfuerzo, pero que a veces se desvía de manera predecible", "Del azar: es una corazonada sin ningún criterio detrás"],
+   "r": "Kahneman describió, junto con Tversky, heurísticas: reglas simples que nos ahorran tiempo y que producen sesgos. Lo importante es que el error no es caótico sino predecible, y por eso se lo puede estudiar y, en parte, diseñar contextos que ayuden a decidir mejor. En su libro lo resumió en dos modos de pensar: uno rápido e intuitivo y otro lento y deliberado.",
+   "como": "Observó en experimentos que las personas se equivocaban en las mismas direcciones, lo que sugería que había una regla detrás y no un descuido al azar.",
+   "debate": "Muchos consideran la división en «dos modos» una metáfora útil más que una descripción literal de dos sistemas del cerebro, y se discute cuánto puede corregir los sesgos alguien solo por conocerlos.",
+   "seccion": "Heurísticas y sesgos"
+  }
+ ],
+ "abierta": "Si conocer nuestros sesgos no nos vuelve inmunes a ellos, ¿qué hace falta para decidir mejor: más información, más tiempo, o que otros nos miren la decisión?"
+}

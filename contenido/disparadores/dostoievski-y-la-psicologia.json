@@ -1,0 +1,24 @@
+{
+ "autor": "Dostoievski",
+ "preguntas": [
+  {
+   "enigma": "Alguien cometió una falta que nadie vio. No hay denuncia ni testigos, nadie lo va a castigar. Y sin embargo no duerme, repasa la escena y a veces siente un impulso raro de contarlo, aunque lo perjudique.",
+   "p": "¿Por qué la culpa castiga aunque nadie lo sepa?",
+   "opciones": ["Porque uno teme que lo descubran y la culpa es en realidad miedo", "Porque la culpa es una señal interna de que dañamos algo que valoramos", "Porque es una costumbre aprendida de chicos que se dispara sola"],
+   "r": "En «Crimen y castigo» Dostoievski cuenta muy poco del crimen de Raskólnikov y muchísimo de lo que viene después: la fiebre, el aislamiento, la necesidad de acercarse a la policía. Muestra la culpa como una fuerza que trabaja por dentro, desorganiza el cuerpo y el pensamiento y empuja a la confesión.",
+   "como": "No fue psicólogo: lo escribió como novelista, y vivió situaciones extremas, como un simulacro de fusilamiento en 1849 y cuatro años de trabajos forzados en Siberia, donde convivió con presos.",
+   "debate": "Para la clínica la novela ilustra que la culpa puede abrir la puerta a reparar o volverse un tormento que no lleva a nada. Es una valoración literaria compartida, no un hallazgo empírico.",
+   "seccion": "La culpa en Crimen y castigo"
+  },
+  {
+   "enigma": "Alguien sabe perfectamente lo que le conviene y aun así elige lo contrario, y después se arrepiente. Se pregunta si lo hizo adrede.",
+   "p": "¿Por qué haríamos algo contra nuestro propio interés?",
+   "opciones": ["Por falta de información o de autocontrol en ese momento", "Para afirmar que somos libres y no una máquina que calcula lo que le conviene", "Por un impulso inconsciente de castigarnos, como diría el psicoanálisis"],
+   "r": "El narrador de «Memorias del subsuelo» sostiene que el ser humano, aun sabiendo lo que le conviene, puede elegir lo contrario solo para afirmar que es libre. Es un hombre hiperconsciente y rencoroso que desconfía de cualquier explicación racional de la conducta.",
+   "como": "Dostoievski lo construyó como personaje y no como teoría. Bajtín lo analizó como «palabra con escapatoria»: cada frase trae una salida para desdecirse, pendiente de lo que el otro va a pensar.",
+   "debate": "Freud, en 1928, leyó el juego del propio Dostoievski como autocastigo, pero sus afirmaciones biográficas no resistieron bien: por ejemplo, la investigación posterior rechazó que su epilepsia fuera histérica. Conviene leer ese ensayo como una forma de leer literatura, no como diagnóstico.",
+   "seccion": "El subsuelo: una conciencia que se vuelve contra sí"
+  }
+ ],
+ "abierta": "Una novela puede describir desde adentro la culpa o la compulsión mejor que muchos manuales. ¿Qué le puede aprender la psicología a la literatura, y hasta dónde llega esa lectura?"
+}

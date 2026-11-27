@@ -1,0 +1,24 @@
+{
+ "autor": "Peseschkian",
+ "preguntas": [
+  {
+   "enigma": "Una pareja discute otra vez. Uno valora llegar siempre a horario y el otro prefiere improvisar. Cada uno siente que el otro le falta el respeto.",
+   "p": "¿Es una pelea por algo grande o por otra cosa?",
+   "opciones": ["Por una falta de amor o de compromiso", "Por un choque entre capacidades aprendidas, como puntualidad y espontaneidad", "Por diferencias de personalidad que no se pueden cambiar"],
+   "r": "Peseschkian propuso el concepto de capacidades actuales, disposiciones que se aprenden en la familia y la cultura. Muchas peleas de pareja o de trabajo no son por «grandes cosas» sino por choques entre capacidades secundarias, como la puntualidad o el orden. Nombrarlas ayuda a hablar del conflicto sin acusar.",
+   "como": "Las dividió en primarias, ligadas a la emoción y la relación (amor, paciencia, confianza), y secundarias, ligadas a normas y rendimiento (puntualidad, orden, honestidad), y partió de lo que la persona tiene en lugar de empezar por lo que le falta.",
+   "debate": "Es una herramienta descriptiva: no es una prueba psicológica ni mide algo. La investigación sobre su eficacia es mucho menor que la de terapias con más respaldo, y buena parte viene de la propia comunidad.",
+   "seccion": "Las capacidades actuales"
+  },
+  {
+   "enigma": "En vez de decirte qué estás haciendo mal, un terapeuta te cuenta un cuento de un mercader y un loro. Cada uno se lleva del cuento lo que puede.",
+   "p": "¿Por qué una historia llega donde un reproche no llega?",
+   "opciones": ["Porque nos entretiene y baja la guardia", "Porque permite hablar de un conflicto con distancia, sin acusar a nadie", "Porque contiene una enseñanza universal que sirve para todos"],
+   "r": "Peseschkian usaba cuentos y parábolas de Oriente como recurso: una historia permite hablar de un conflicto con distancia, sin acusar a nadie, y cada persona saca de ella lo que puede. Los reunió en Oriental Stories as Tools in Psychotherapy: The Merchant and the Parrot.",
+   "como": "Nació en Kashan, Irán, y vivió en Alemania desde mediados de los cincuenta, entre dos culturas. Combinó su formación médica con la tradición narrativa de su lugar de origen.",
+   "debate": "Presentar estos relatos como «sabiduría oriental» en abstracto empobrece su sentido, porque vienen de tradiciones concretas. En la consulta sirven cuando la persona se interesa, no como lección impuesta.",
+   "seccion": "Relatos orientales"
+  }
+ ],
+ "abierta": "Hay dos «psicoterapias positivas» con la misma sigla, la de Peseschkian y la de Seligman y Rashid. ¿Qué significa realmente mirar lo que funciona sin exigirle a nadie estar bien?"
+}

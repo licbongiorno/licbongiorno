@@ -1,0 +1,24 @@
+{
+ "autor": "Zimbardo",
+ "preguntas": [
+  {
+   "enigma": "Te cuentan que unos estudiantes comunes, puestos como guardias de una cárcel simulada, se volvieron crueles en pocos días. Es una historia que se contó en libros, documentales y películas durante décadas.",
+   "p": "¿Creés que la situación y el rol alcanzan para volver cruel a cualquiera?",
+   "opciones": ["Sí: cualquiera, en el rol equivocado, se puede transformar", "Depende mucho de la persona y de lo que traiga consigo", "Depende también de lo que le dijeron que tenía que hacer en ese rol"],
+   "r": "Una revisión de archivo de Le Texier (2019) mostró que a los guardias se les indicó cómo comportarse, en apoyo de la hipótesis de los experimentadores, y que al menos un preso habría fingido su crisis. Por eso el estudio no puede mostrar lo que se le atribuyó.",
+   "como": "El autor de la revisión volvió sobre el episodio con material de archivo, en lugar de repetir el relato que circulaba, y comparó lo que se contó con lo que realmente había pasado.",
+   "debate": "Hoy se lo considera un experimento con fallas graves. Eso no significa que el contexto no influya en el comportamiento, sino que este estudio no es la evidencia para sostenerlo. Zimbardo respondió a las críticas y hay detalles que siguen en discusión.",
+   "seccion": "Qué mostró la revisión"
+  },
+  {
+   "enigma": "Una empresa publica un aviso que dice «buscamos voluntarios para un estudio sobre la vida en prisión». Otra publica uno sin esa frase, solo «estudio psicológico». Se anotan personas distintas.",
+   "p": "¿Quiénes se anotarían en cada caso, y qué cambia eso?",
+   "opciones": ["Se anotaría gente parecida: el aviso no influye", "Se anotaría gente con más curiosidad en el segundo aviso, nada más", "En el primer aviso se anotaría gente con rasgos distintos, que ya empuja el resultado"],
+   "r": "Carnahan y McFarland (2007) mostraron que un aviso con la frase «vida en prisión» atraía a personas con puntajes más altos en agresividad, autoritarismo y dominancia social, y más bajos en empatía. La selección de los participantes podía explicar parte de lo que se vio.",
+   "como": "Compararon avisos distintos con la misma lógica de un experimento: cambiar una sola cosa y ver qué cambia. Por su parte, en el estudio de la BBC, Reicher y Haslam (2006) vieron que la tiranía no aparecía de manera automática.",
+   "debate": "Reicher y Haslam lo leen en términos de identificación con un grupo: el comportamiento cambia cuando las personas adhieren a un proyecto colectivo, no por el mero hecho de recibir un rol. La pregunta de fondo sigue abierta.",
+   "seccion": "Otras investigaciones sobre el tema"
+  }
+ ],
+ "abierta": "Si el rol por sí solo no explica la crueldad, ¿qué sí lo hace: la identificación con un grupo, las órdenes, o quiénes somos antes de entrar? La psicología social todavía lo discute."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Wundt",
+ "preguntas": [
+  {
+   "enigma": "Un semáforo cambia a verde y vos tardás una fracción de segundo en arrancar. Parece instantáneo, pero no lo es.",
+   "p": "¿Se puede medir lo que pasa en la cabeza en esa fracción de segundo?",
+   "opciones": ["No, lo que pasa en la mente es privado y no se puede medir", "Sí, se puede medir cuánto tarda la respuesta y compararla según la tarea", "Solo se puede medir con aparatos modernos del cerebro"],
+   "r": "Wundt midió el tiempo de reacción: cuánto tarda una persona en responder a un sonido o una luz, y cómo cambia según la tarea. Ese intervalo permitía comparar cuánto lleva percibir y cuánto decidir. Era una forma de llevar lo que pasa adentro de la mente al terreno de lo que se puede repetir y comparar.",
+   "como": "Venía de la fisiología, como asistente de Helmholtz, y en 1879 abrió en Leipzig el primer laboratorio dedicado a la psicología. Su método tenía un estímulo controlado, un observador entrenado que describía su experiencia y una medida. Los tiempos de reacción ya tenían antecedentes, como los de Donders.",
+   "debate": "El 1879 es una fecha convencional: otros ya experimentaban, y James tenía un laboratorio de demostración en Harvard desde 1875. Cada vez que hoy se evalúa la atención o la velocidad de respuesta se usa un descendiente de ese método.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Alguien te pide que cierres los ojos y describas con cuidado qué experimentás cuando suena un sonido, sin interpretar, solo lo que te llega.",
+   "p": "¿Mirarse hacia adentro así sirve como ciencia?",
+   "opciones": ["Sí, si se hace bien entrenado y en condiciones repetibles", "No, cada uno vería algo distinto y no habría forma de comprobar", "Sirve para el arte, no para la ciencia"],
+   "r": "Wundt usó una introspección experimental: no se trataba de mirarse libremente para adentro, sino de que observadores entrenados describieran su experiencia inmediata ante un estímulo controlado, en condiciones repetibles. Pensaba que la experiencia consciente era el objeto propio de la psicología.",
+   "como": "Hizo experimentos con aparatos para producir sonidos y luces, y relojes de precisión. Para los procesos superiores, como el lenguaje o la moral, pensaba que se entendían mejor estudiando la cultura, y por eso escribió la «Psicología de los pueblos».",
+   "debate": "La introspección fue criticada por falta de acuerdo entre observadores y, más tarde, por Watson, que propuso estudiar solo la conducta observable. Sin embargo, Wundt dejó vigente la idea de que la experiencia humana se puede investigar con rigor y de más de una manera.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Se puede estudiar con rigor lo que solo la persona que lo vive puede contar? La psicología sigue buscando cómo."
+}

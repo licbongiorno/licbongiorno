@@ -1,0 +1,24 @@
+{
+ "autor": "Reich",
+ "preguntas": [
+  {
+   "enigma": "Fijate cómo respirás cuando alguien te critica: muchas personas contienen el aire y aprietan la mandíbula, y a los minutos dicen «no pasa nada».",
+   "p": "¿Qué dice ese cuerpo que las palabras no dicen?",
+   "opciones": ["Nada, son reflejos sin significado", "Muestra una defensa que la persona aprendió para protegerse", "Simplemente que está incómoda en ese momento"],
+   "r": "Reich propuso analizar no solo lo que el paciente dice sino cómo lo dice. Las defensas se expresan en el carácter y también en el cuerpo, como tensiones crónicas en la mandíbula, el cuello, el pecho o el diafragma: la coraza muscular.",
+   "como": "Era un analista brillante de la Viena de Freud, dirigió el seminario técnico de la clínica psicoanalítica y analizó a muchos colegas. En lugar de interpretar directo los contenidos, propuso trabajar primero con la resistencia, la manera en que el paciente se protege en la sesión.",
+   "debate": "El modelo de la coraza es una manera de pensar la clínica, no un hecho comprobado. La investigación sobre terapias corporales es variable, y hoy el contacto físico en terapia exige consentimiento claro y un marco muy cuidado.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Un pensador brillante hace aportes valiosos, y después construye aparatos que vende como curativos.",
+   "p": "¿Cómo separamos lo que sirve de lo que no en una misma persona?",
+   "opciones": ["No se puede, hay que aceptar o rechazar todo junto", "Por la evidencia que sostiene cada idea", "Por si las ideas tienen buena intención"],
+   "r": "El análisis del carácter y la atención al cuerpo son aportes reconocidos. En cambio, su teoría de una energía vital, el orgón, y los acumuladores que construyó no tienen respaldo científico.",
+   "como": "En Estados Unidos desarrolló esa teoría. En 1954 un tribunal prohibió comercializar los aparatos y en 1956 se ordenó destruirlos junto con parte de sus publicaciones. Reich desobedeció una orden judicial, fue condenado y murió en prisión en 1957.",
+   "debate": "Su historia es también una advertencia sobre los riesgos de una idea sin control. Aun lo valioso no debe confundirse con una prueba: sus primeros trabajos inspiraron la bioenergética de Lowen y otras terapias corporales.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Hoy se estudia cuánto se guarda en el cuerpo lo que vivimos. ¿Cuánto de lo emocional se puede leer en la postura y la respiración?"
+}

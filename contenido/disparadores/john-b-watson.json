@@ -1,0 +1,24 @@
+{
+ "autor": "Watson",
+ "preguntas": [
+  {
+   "enigma": "Una persona tuvo una mala experiencia en el dentista, con dolor y sensación de ahogo. Años después le da sudor frío con solo escuchar el ruido de un torno, o incluso al pasar por la puerta de un consultorio.",
+   "p": "¿Cómo se explica ese miedo?",
+   "opciones": ["Es una persona miedosa por naturaleza", "Algo en su historia familiar la hizo más sensible", "Lo aprendió por asociación, sin decidirlo"],
+   "r": "Watson buscaba explicar justamente esto: las emociones como respuestas aprendidas por condicionamiento. Nunca decidió tener miedo: lo aprendió por asociación. Y evitar lo que da miedo lo mantiene, porque cada vez que se evita no hay oportunidad de aprender que no pasó nada.",
+   "como": "Venía de investigar el aprendizaje en ratas y de estudiar el condicionamiento de Pávlov, y pensaba que la psicología debía basarse en lo que se puede observar y medir.",
+   "debate": "Su postura de excluir la conciencia de la ciencia fue abandonada: hoy se estudian pensamientos y emociones con métodos rigurosos. Su legado es un método, no una teoría completa.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "En 1920, un bebé de unos nueve meses al que llamaron «Albert» jugaba sin miedo con una rata blanca. Detrás de él, los investigadores hacían un ruido fuerte cada vez que la tocaba.",
+   "p": "¿Qué creés que pasó después de varias repeticiones?",
+   "opciones": ["Solo lloraba por el ruido, la rata le seguía dando igual", "Aprendió a temerle a esa rata y a nada más", "Lloraba al ver la rata, y el miedo se extendió a otros objetos peludos"],
+   "r": "Después de varias repeticiones, el bebé lloraba al ver la rata, y el miedo se extendía a otros objetos peludos. Watson y Rayner quisieron mostrar que el miedo puede ser una respuesta aprendida.",
+   "como": "Watson y su asistente Rosalie Rayner hicieron el experimento con un solo bebé, asociando la rata blanca con un ruido fuerte.",
+   "debate": "Hoy es un ejemplo de lo que no se debe hacer: no hubo consentimiento informado, se provocó sufrimiento y no se le quitó el miedo. Además fue un solo caso, con diseño poco controlado, y se discuten sus datos y hasta la identidad real del bebé.",
+   "seccion": "El caso del «pequeño Albert»"
+  }
+ ],
+ "abierta": "Watson creía que casi todo lo que somos se aprende, pero hoy se sabe que la herencia y el ambiente interactúan. ¿Cuánto de lo que tememos, y de lo que somos, viene de cada lado?"
+}

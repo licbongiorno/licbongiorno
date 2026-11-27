@@ -1,0 +1,24 @@
+{
+ "autor": "Wilber",
+ "preguntas": [
+  {
+   "enigma": "Una persona cuenta que hace unos meses «dejó de pelear con todo» y que se siente en paz.",
+   "p": "¿Cómo sabrías si eso es paz de verdad?",
+   "opciones": ["Si ella dice que se siente en paz, alcanza", "Probablemente sea resignación disfrazada", "Mirando si hay más o menos capacidad de estar con lo que pasa, y si esa quietud incluye a los demás"],
+   "r": "Wilber distinguió lo prepersonal de lo transpersonal: desde afuera ambos parecen «sin ego», pero el primero es una falta de desarrollo y el segundo es una integración que incluye al yo. Por eso sugiere preguntar si hay más capacidad de estar con lo que pasa o menos, y si la quietud incluye al yo y a los demás o los deja afuera.",
+   "como": "Intentó ordenar en un solo mapa lo que decían la psicología occidental, el psicoanálisis y las tradiciones contemplativas de Oriente, y lo presentó en *El espectro de la conciencia* (1977).",
+   "debate": "Gran parte de su propuesta es teórica y no se puede contrastar con los métodos habituales de investigación. Que la conciencia se ordene en niveles sucesivos son afirmaciones filosóficas.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "Alguien con poca firmeza en sí mismo empieza a practicar meditación intensa para «disolver el ego».",
+   "p": "¿Le va a servir?",
+   "opciones": ["Sí, más que a nadie: cuanto menos yo, mejor", "Sí, cualquier práctica de meditación ayuda a todos por igual", "Probablemente no: antes de trascender el yo hay que haberlo construido"],
+   "r": "Para Wilber, antes de trascender el yo hay que haberlo construido: una persona sin un yo suficientemente firme no suele beneficiarse de prácticas que disuelven los límites. Por eso también hay que pensar con cuidado las experiencias intensas, místicas o no.",
+   "como": "Lo dedujo de su mapa de niveles prepersonal, personal y transpersonal, que sirve en la clínica para diferenciar la regresión de la trascendencia.",
+   "debate": "Los modelos de etapas tienden a presentar como universal lo que puede ser propio de una cultura o de una época, y su obra recibió críticas dentro del propio campo transpersonal por su pretensión de síntesis total.",
+   "seccion": "Cómo resuena en la práctica"
+  }
+ ],
+ "abierta": "¿Existen realmente niveles de conciencia más altos que otros, o es una forma de ordenar experiencias que cada tradición cuenta a su manera?"
+}

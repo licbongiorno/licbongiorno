@@ -1,0 +1,24 @@
+{
+ "autor": "Avicena",
+ "preguntas": [
+  {
+   "enigma": "En Damasco, en 1154, un sultán funda un gran hospital. Entre sus salas hay una para los «locos».",
+   "p": "¿Cómo imaginás que se trataba la locura en ese hospital hace casi mil años?",
+   "opciones": ["Se encerraba a las personas lejos de la ciudad, sin tratamiento", "Se la consideraba una enfermedad más, con médicos y registros", "Se la atribuía por completo a un castigo o a la posesión"],
+   "r": "Los bimaristanes, los grandes hospitales del mundo islámico medieval, incluían de forma habitual espacios para hombres y mujeres con enfermedades mentales. La locura se consideraba una enfermedad que el hospital debía atender, con médicos y registros, junto con otras explicaciones que circulaban en la sociedad, como los yinn o el mal de ojo.",
+   "como": "Hay fuentes bien documentadas: el biógrafo de médicos Ibn Abi Usaybi'a cuenta tratamientos con fármacos en el hospital de Nur al-Din, y el acta de fundación y los planos del hospital Mansuri de El Cairo (1284) muestran celdas para ambos sexos y conciertos de música con fines terapéuticos.",
+   "debate": "Conviene no idealizar: el viajero Ibn Jubayr contó en 1185 que los internados estaban encadenados. El historiador Michael Dols discute que se equiparen esas cadenas con el «gran encierro» que Foucault describió para Europa.",
+   "seccion": "Los bimaristanes: hospitales con salas para la locura"
+  },
+  {
+   "enigma": "En las redes circula la frase «la terapia cognitiva se inventó en Bagdad hace mil años». Detrás hay un texto real de un médico del siglo IX.",
+   "p": "¿Es cierto que al-Balkhi fue el primer terapeuta cognitivo?",
+   "opciones": ["Sí, describió lo mismo que Beck mil años antes", "Hay un parecido real, pero eso no prueba que descubriera una terapia moderna", "No, no tiene nada que ver con la terapia cognitiva"],
+   "r": "Abu Zayd al-Balkhi (849-934) dedicó la segunda parte de su Sustento de los cuerpos y las almas al cuidado del alma, y clasificó el miedo, la ira, la tristeza y los pensamientos obsesivos. Es el autor más citado en las afirmaciones de «primera terapia cognitiva». El parecido es real, pero tomarlo como origen es presentismo.",
+   "como": "Para evaluar estas afirmaciones, el mapa propone cuatro preguntas: qué texto se cita y quién lo tradujo, de qué plano habla el autor (filosofía del alma, medicina o ética), si se afirma parecido o influencia, y quién la difunde y con qué propósito.",
+   "debate": "El presentismo, leer el pasado con las categorías del presente, tiene un error simétrico: negarles originalidad por haber partido de los griegos. Estos médicos trabajaban con la teoría de los humores, que la medicina abandonó, pero al-Balkhi defendió que el alma necesita una medicina específica.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "¿Cuánto de lo que hoy llamamos psicología tiene raíces en tradiciones que pensaban la mente con otras categorías? ¿Y cómo aprender de ellas sin imponerles las nuestras?"
+}

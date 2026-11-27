@@ -1,0 +1,24 @@
+{
+ "autor": "Vygotsky",
+ "preguntas": [
+  {
+   "enigma": "Una maestra de segundo grado tiene un alumno que no logra leer de corrido. Probó repetir ejercicios y no pasó nada, hasta que un día se sienta al lado y lo ayuda a leer de a poco, retirando su ayuda de a poco.",
+   "p": "¿Qué creés que explica que con ayuda el chico pueda lo que solo no puede?",
+   "opciones": ["Es cuestión de práctica repetida hasta que se forme el hábito", "Ya sabía leer, pero necesitaba un empujón de confianza", "Lo que hoy hace con ayuda es lo que mañana va a poder hacer solo"],
+   "r": "Vygotsky sostuvo que las funciones psicológicas superiores, como la memoria voluntaria, la atención o el razonamiento, tienen un origen social y están mediadas por herramientas culturales, sobre todo el lenguaje. Lo que primero ocurre entre personas se internaliza después. De ahí sale la zona de desarrollo próximo: lo que alguien logra con ayuda.",
+   "como": "En 1924, un joven profesor de Gómel presentó una ponencia en un congreso en Leningrado que impresionó a Alexander Luria, y de ahí nació la colaboración con él y con Alexéi Leóntiev, la «troika» de la escuela histórico-cultural.",
+   "debate": "La zona de desarrollo próximo es un marco teórico muy fértil en educación más que una hipótesis medida con precisión, y el término andamiaje es de Bruner, Wood y Ross (1976): Vygotsky no usó esa palabra.",
+   "seccion": "La escuela histórico-cultural"
+  },
+  {
+   "enigma": "En los años treinta, en la Unión Soviética, un chico recibe una etiqueta después de un test: «difícil» o «con retraso». Años después, el sistema que usaba esos tests es prohibido por decreto.",
+   "p": "¿Una prohibición política es la manera de resolver un problema científico?",
+   "opciones": ["Sí, si el uso de los tests estaba etiquetando chicos injustamente", "No: un problema científico se discute con evidencia, no con decretos", "Depende: la crítica podía tener fundamento, pero la respuesta fue política"],
+   "r": "El 4 de julio de 1936 un decreto del Comité Central acusó a los pedólogos de haber clasificado a muchos chicos como «difíciles» o con retraso, y prohibió los tests en las escuelas. Algunas críticas tenían fundamento, porque en todas partes los tests se usaron para etiquetar chicos de forma injusta, pero la respuesta fue una prohibición política y no un debate científico.",
+   "como": "El historiador E. Thomas Ewing (2001) lo estudió y mostró que el decreto tuvo un costado presentado como defensa de los docentes frente a los especialistas y otro, más duradero, de subordinación de la investigación a la política. La obra de Vygotsky, muerto dos años antes, quedó años fuera de circulación.",
+   "debate": "Hay que separar los aportes científicos de su uso ideológico: una teoría puede ser valiosa aunque haya nacido bajo un régimen autoritario, y idealizar o descartar en bloque la «psicología soviética» son errores simétricos.",
+   "seccion": "La pedología y su prohibición en 1936"
+  }
+ ],
+ "abierta": "¿Cómo se evalúa a un chico sin ponerle una etiqueta que lo acompañe de por vida? Es una pregunta que la psicología y la escuela todavía tienen abierta en cualquier país."
+}

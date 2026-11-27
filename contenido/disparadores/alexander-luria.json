@@ -1,0 +1,24 @@
+{
+ "autor": "Luria",
+ "preguntas": [
+  {
+   "enigma": "Alguien te pregunta: «En el lejano norte, donde hay nieve, todos los osos son blancos. Nueva Zembla está en el lejano norte. ¿De qué color son los osos allí?». Y vos nunca fuiste al norte.",
+   "p": "Si respondés «no sé, nunca estuve ahí», ¿estás razonando mal?",
+   "opciones": ["Sí, es un fallo lógico: la pregunta trae todos los datos necesarios", "No, es una respuesta sensata: uno no afirma lo que no vio", "Depende de cuánta escuela se haya tenido"],
+   "r": "Luria encontró que muchos campesinos sin escolarización se negaban a responder sobre algo que no habían visto, mientras que quienes habían ido a la escuela resolvían el silogismo. Concluyó que el pensamiento abstracto y la clasificación por categorías son productos del entorno sociocultural, en especial de la escuela.",
+   "como": "En 1931 y 1932 dirigió expediciones a Uzbekistán, y entrevistó a campesinos analfabetos y a otros que habían empezado a estudiar o a trabajar en granjas colectivas. Quería probar una idea de Vygotsky: si el pensamiento depende de la cultura, debería cambiar cuando cambian las condiciones de vida.",
+   "debate": "Hoy se lee con dos ojos: fue pionera en mostrar que la cultura moldea la mente, pero se le critica tratar como «inferior» un razonamiento con su propia lógica. Lo que medía era menos la capacidad de pensar que la familiaridad con un juego verbal escolar.",
+   "seccion": "La expedición a Uzbekistán"
+  },
+  {
+   "enigma": "Ernesto tuvo un accidente cerebrovascular leve. Puede leer, pero empieza tareas y no las termina, y se le pierden pasos en el medio del día.",
+   "p": "¿Alcanza con decir que «tiene mala memoria»?",
+   "opciones": ["Sí, es un problema de memoria y hay que entrenarla", "No hay mucho para hacer, hay que aceptar que se perdió algo", "Quizá falla un eslabón distinto y se puede rodear con apoyos externos"],
+   "r": "Luria propuso que ninguna función compleja vive en un solo punto del cerebro: es un sistema funcional, una constelación de zonas que trabajan juntas. Dos lesiones distintas pueden alterar la misma conducta por razones diferentes, y el trabajo es descubrir qué eslabón falla y rehabilitar con rodeos, como una lista escrita o una rutina dicha en voz alta.",
+   "como": "En la Segunda Guerra organizó un hospital de rehabilitación en los Urales para soldados con heridas cerebrales, y estudió qué se perdía según la zona lesionada. De ahí nació la neuropsicología.",
+   "debate": "Su evaluación y la idea de sistemas distribuidos tienen buen respaldo, incluso con neuroimágenes. Los tres bloques son una simplificación útil y no una descripción anatómica precisa: hoy se sabe mucho más de redes cerebrales.",
+   "seccion": "Los tres bloques funcionales"
+  }
+ ],
+ "abierta": "Luria quería unir la ciencia que mide con la que describe a la persona entera. ¿Cómo se cuenta hoy un caso individual sin perder el rigor ni la humanidad?"
+}

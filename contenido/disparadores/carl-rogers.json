@@ -1,0 +1,24 @@
+{
+ "autor": "Rogers",
+ "preguntas": [
+  {
+   "enigma": "Un amigo te cuenta que lo echaron del trabajo. Vos querés ayudar y tenés a mano dos respuestas: darle un consejo concreto o devolverle lo que le escuchaste.",
+   "p": "¿Qué ayuda más de las dos?",
+   "opciones": ["El consejo, porque lo práctico lo pone en marcha cuanto antes", "Distraerlo con otro tema para que no se hunda en el problema", "Quedarse un rato en lo que está viviendo, sin apurarse a arreglarlo"],
+   "r": "Rogers sostenía que casi nunca recibimos que alguien se quede en nuestra experiencia sin apurarse a arreglarla. Propuso que quien escucha sea genuino (congruente), ofrezca aceptación positiva incondicional y comprenda empáticamente. No son técnicas, sino actitudes.",
+   "como": "Trabajó doce años con niños y familias en Rochester y aprendió que muchas veces es el propio paciente quien sabe qué le duele y hacia dónde ir. Después grabó sesiones para investigarlas, algo pionero.",
+   "debate": "En 1957 dijo que esas condiciones eran necesarias y suficientes, y eso no se sostuvo bien: se las considera importantes, pero no siempre alcanzan, por ejemplo en trauma o trastorno obsesivo-compulsivo.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "De chico aprendiste que te querían más si te portabas bien, sacabas buenas notas o no hacías escándalo. Hoy, de grande, a veces no sabés qué sentís de verdad.",
+   "p": "¿Cómo puede ser que uno se pierda de lo que siente?",
+   "opciones": ["Porque se tiene poca fuerza de voluntad para escuchar los propios deseos", "Porque aprendimos a sentir lo que nos hacía recibir aprobación", "Porque en realidad las emociones no son una guía confiable"],
+   "r": "Rogers llamó condiciones de valía a esas reglas aprendidas de que somos queridos «si» nos portamos de cierta manera. Nos alejan de lo que sentimos y generan incongruencia entre la imagen que tenemos de nosotros y lo que vivimos, y con ella angustia.",
+   "como": "Lo observó en la terapia y lo comprobó investigando sus propias sesiones grabadas. Creía que la tendencia a desarrollar las posibilidades propias puede quedar bloqueada, pero no desaparece.",
+   "debate": "Se lo ha criticado por un enfoque muy individualista, poco atento a los contextos sociales y culturales. Y conviene no confundir aceptación incondicional con aprobar toda conducta.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si el vínculo con quien escucha pesa tanto en cualquier terapia, ¿qué es exactamente lo que ocurre entre dos personas que hace que alguien cambie? Todavía se investiga."
+}

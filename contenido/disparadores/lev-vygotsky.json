@@ -1,0 +1,24 @@
+{
+ "autor": "Vygotsky",
+ "preguntas": [
+  {
+   "enigma": "Una nena aprende a andar en bicicleta. Alguien corre a su lado sosteniendo el asiento y le dice «mirá adelante, pedaleá». Un día la suelta, y ella sigue sola.",
+   "p": "¿Qué pasó con esa voz que la guiaba?",
+   "opciones": ["Se olvidó: ya no la necesita", "Se volvió un hábito automático del cuerpo", "Pasó a ser su propia voz interna"],
+   "r": "Para Vygotsky, lo que primero fue una conversación con otro se vuelve con el tiempo una conversación con uno mismo. Ese pasaje, de la voz externa a la interna, es el corazón del desarrollo. A la ayuda que se va retirando a medida que la persona gana competencia se la llamó después andamiaje.",
+   "como": "Observó cómo los chicos hablan en voz alta mientras juegan o resuelven problemas, y concluyó que ese habla es el camino hacia el pensamiento verbal interno. El término andamiaje lo introdujeron más tarde Wood, Bruner y Ross, en 1976.",
+   "debate": "Murió a los 37 años y su obra quedó inconclusa: la zona de desarrollo próximo tiene definiciones algo distintas según el texto y es difícil de medir con precisión.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Los chicos chiquitos hablan solos en voz alta mientras dibujan o arman algo, como si nadie los escuchara.",
+   "p": "¿Para qué creés que lo hacen?",
+   "opciones": ["Todavía no distinguen sus pensamientos de lo que dicen en voz alta", "Imitan a los adultos que hablan con ellos", "Es su manera de pensar, antes de poder hacerlo en silencio"],
+   "r": "Vygotsky sostuvo que ese habla no es egocéntrica: es el camino hacia el pensamiento verbal interno. Las funciones superiores, como la atención voluntaria o el razonamiento, aparecen primero entre personas y después dentro de cada una.",
+   "como": "Trabajó durante diez años con Luria y Leóntiev, estudiando el desarrollo de la mente y la educación de chicos con discapacidades.",
+   "debate": "Hay problemas de traducción y edición: parte de lo que se le atribuyó en Occidente depende de versiones recortadas. Tampoco se opone del todo a Piaget: hoy se los suele pensar como complementarios más que como rivales.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "Si pensar empieza como una conversación con otros, ¿qué le pasa al pensamiento de alguien que creció con pocas conversaciones? ¿Y cuánto de lo que llamamos «mi voz interior» es en realidad la voz de otros?"
+}
