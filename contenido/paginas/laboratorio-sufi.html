@@ -1,0 +1,178 @@
+<!--{
+  "ruta": "/laboratorio-sufi/",
+  "titulo": "Laboratorio sufí: revisar el día y observar el nafs",
+  "descripcion": "Ejercicios inspirados en prácticas sufíes: la muhasaba, observar el nafs, sabr y shukr, un cuento de Nasrudín, un quiz de mitos y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Sufí",
+      "/laboratorio-sufi/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio <em>sufí</em>",
+  "bajada": "Ejercicios inspirados en prácticas reflexivas del sufismo, una tradición religiosa viva: la revisión del día, la observación de los impulsos, la paciencia, la gratitud y los cuentos de Nasrudín. Con respeto y sin imponer fe.",
+  "respuesta": "El laboratorio sufí propone ejercicios inspirados en prácticas reflexivas del sufismo, la dimensión mística del islam: la muhasaba (revisión del día), la observación del nafs (los impulsos), el sabr (paciencia) y el shukr (gratitud), y los cuentos de Nasrudín como espejo, con una integración final, un plan de 7 días y un quiz de mitos que incluye el origen discutido del eneagrama. Se presentan con respeto como parte de una tradición religiosa viva y adaptadas sin imponer fe; no son una terapia ni tienen estudios que prueben efectos.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio sufí",
+  "articulos": [
+    "psicologia-sufi",
+    "mapa-de-la-psicologia-sufi",
+    "rumi-y-la-psicologia",
+    "al-ghazali-y-la-crisis-espiritual",
+    "bypass-espiritual"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>El <strong>sufismo</strong> (<em>tasawwuf</em>) es la dimensión mística del islam: una tradición religiosa viva, con órdenes, maestros y siglos de práctica en muchas partes del mundo. Este laboratorio no la enseña ni habla en su nombre. Toma algunas de sus ideas, con respeto y sabiendo de dónde vienen, como inspiración para una reflexión personal que no exige ninguna fe.</p>
+        <p>Las prácticas que se recorren son cuatro. La <strong>muhasaba</strong>, el examen de uno mismo al final del día, asociada a maestros como al-Muhasibi (m. 857) y desarrollada por Al-Ghazali. La observación del <strong>nafs</strong>, el yo con sus impulsos. El <strong>sabr</strong> (paciencia) y el <strong>shukr</strong> (gratitud), dos virtudes muy trabajadas en la tradición. Y los cuentos de <strong>Nasrudín</strong>, relatos populares que hacen reír y dejan una pregunta.</p>
+        <p><strong>Sobre el respaldo.</strong> El sufismo es una tradición religiosa y espiritual, no una psicología con investigación propia. Las ideas de Robert Frager sobre los niveles del nafs, por ejemplo, son una propuesta espiritual, sin estudios psicológicos controlados que las midan. Algunas formas parecidas, como llevar un registro del día o practicar la gratitud, tienen estudios en versiones seculares, pero eso no prueba que el sufismo funcione como terapia. Tampoco se lo usa para diagnosticar a nadie. Por último, el eneagrama no es una enseñanza sufí: su origen se discute y la historia documentada no lo ubica ahí (hay un quiz sobre eso).</p>
+        <p>Si sos musulmán o practicás sufismo, es probable que veas estos ejercicios como una versión corta de algo que para vos es mucho más grande, y tenés razón. Si no, tomalos como lo que son: una invitación a revisar tu día con honestidad y sin látigo.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Con respeto.</strong> Es una tradición religiosa viva. Se la toma prestada con cuidado.</li>
+        <li><strong>Sin látigo.</strong> La revisión es para mirar, no para castigarte.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#muhasaba">Revisión del día</a>
+      <a href="#nafs">Observar el nafs</a>
+      <a href="#sabr-shukr">Paciencia y gratitud</a>
+      <a href="#nasrudin">Nasrudín</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="muhasaba" aria-labelledby="t-muhasaba">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-muhasaba">Muhasaba: la revisión del día</h2>
+      <p class="lab-estacion__bajada">La muhasaba (en árabe, «pedirse cuentas») es el examen de uno mismo que se hace al final del día. En la tradición se hace con atención, con la intención de ver qué se hizo bien, en qué se falló y qué se quiere corregir, y no para castigarse. Se ofrece acá como reflexión. Hacela de noche, en cinco minutos, y sin pelearte con lo que encuentres.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sufi-muhasaba" data-lab-form-titulo="Revisión del día (muhasaba)" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-muhasaba-1">Qué hice hoy que me dejó tranquilidad o que me gustaría repetir</label><textarea class="lab-texto" id="sufi-muhasaba-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-muhasaba-2">Dónde me quedé corto o actué de una forma que no me gustó, dicho con calma y con hechos</label><textarea class="lab-texto" id="sufi-muhasaba-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-muhasaba-3">Si hay alguien a quien le debo una disculpa, un agradecimiento o una aclaración</label><textarea class="lab-texto" id="sufi-muhasaba-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-muhasaba-4">Una cosa que quiero hacer distinto mañana</label><input class="lab-campo" id="sufi-muhasaba-4" type="text" autocomplete="off" placeholder="Una sola, chica y concreta"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-muhasaba-5">Cómo me hablé mientras hacía esta revisión: ¿con respeto o con dureza? Si fue con dureza, cómo se lo diría a una persona querida</label><textarea class="lab-texto" id="sufi-muhasaba-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="nafs" aria-labelledby="t-nafs">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-nafs">Observar el nafs: el impulso antes del acto</h2>
+      <p class="lab-estacion__bajada">En la tradición sufí, el nafs es el yo con sus deseos e impulsos, y se lo observa para no obrar por reflejo. Desde esa idea, este ejercicio propone una pausa entre el impulso y la respuesta. No se trata de eliminarlo ni de juzgarlo: se trata de verlo cuando aparece. Pensá en un momento reciente en que reaccionaste rápido.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sufi-nafs" data-lab-form-titulo="Observar un impulso" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nafs-1">El impulso: qué quería hacer o decir en ese momento (enojarme, pedir, huir, comer, comprar, contestar)</label><textarea class="lab-texto" id="sufi-nafs-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nafs-2">Qué sentí en el cuerpo justo antes</label><textarea class="lab-texto" id="sufi-nafs-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nafs-3">Qué quería de fondo ese impulso: ser visto, estar a salvo, ganar, descansar, no perder</label><textarea class="lab-texto" id="sufi-nafs-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nafs-4">Qué hice, y qué habría pasado con una pausa de diez segundos</label><textarea class="lab-texto" id="sufi-nafs-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nafs-5">Una señal del cuerpo que me puede avisar la próxima vez</label><input class="lab-campo" id="sufi-nafs-5" type="text" autocomplete="off" placeholder="Calor en la cara, mandíbula apretada…"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="sabr-shukr" aria-labelledby="t-sabr-shukr">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-sabr-shukr">Sabr y shukr: paciencia y gratitud</h2>
+      <p class="lab-estacion__bajada">El sabr (paciencia, constancia) y el shukr (gratitud) son dos virtudes muy trabajadas en la tradición, y Al-Ghazali les dedicó un libro de su obra mayor. Acá se toman como dos preguntas para el día: qué estoy sosteniendo con paciencia y qué ya tengo que merece un gracias. Ninguna obliga a sentirse bien ni a quedarse en una situación que te hace mal.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sufi-sabr-shukr" data-lab-form-titulo="Paciencia y gratitud" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-sabr-shukr-1">Algo que estoy esperando o sosteniendo con paciencia, y cuánto cuesta</label><textarea class="lab-texto" id="sufi-sabr-shukr-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-sabr-shukr-2">Qué puedo hacer yo mientras espero y qué no depende de mí</label><textarea class="lab-texto" id="sufi-sabr-shukr-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-sabr-shukr-3">Una situación en la que la paciencia ya no me hace bien y necesito pedir ayuda o poner un límite</label><textarea class="lab-texto" id="sufi-sabr-shukr-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-sabr-shukr-4">Tres cosas por las que hoy puedo agradecer, incluidas las muy chicas</label><textarea class="lab-texto" id="sufi-sabr-shukr-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-sabr-shukr-5">A quién le podría decir gracias, de palabra o por mensaje</label><input class="lab-campo" id="sufi-sabr-shukr-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-sabr-shukr-6">Algo doloroso que hoy no quiero tapar con un agradecimiento, y que merece su lugar</label><textarea class="lab-texto" id="sufi-sabr-shukr-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="nasrudin" aria-labelledby="t-nasrudin">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-nasrudin">Nasrudín como espejo</h2>
+      <p class="lab-estacion__bajada">Los cuentos de Nasrudín (o Nasreddin Hodja) son una figura del folclore de Turquía y de muchos otros países. En uno, Nasrudín busca su llave en la calle, bajo un farol. Alguien le pregunta dónde la perdió y responde: «En casa, pero acá hay más luz». En otro, tira migas de pan por el jardín. «¿Para qué?», le preguntan. «Para espantar tigres». «Pero acá no hay tigres». «¿Ves? Funciona». Los cuentos hacen reír y dejan una pregunta. Leelos como espejos: no hay una moraleja oficial.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sufi-nasrudin" data-lab-form-titulo="Un cuento como espejo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nasrudin-1">Qué estoy buscando bajo la luz, en el lugar más fácil, y no donde se perdió</label><textarea class="lab-texto" id="sufi-nasrudin-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nasrudin-2">Qué hago a diario para espantar un tigre que quizá no existe, y por qué «funciona»</label><textarea class="lab-texto" id="sufi-nasrudin-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nasrudin-3">Qué parte de mí se parece a Nasrudín: la que se ríe de sí o la que defiende lo indefendible</label><textarea class="lab-texto" id="sufi-nasrudin-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-nasrudin-4">Una pregunta que me dejó el cuento y que no quiero cerrar rápido</label><input class="lab-campo" id="sufi-nasrudin-4" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste viendo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="sufi-integrar" data-lab-form-titulo="Lo que integro de estas prácticas" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-integrar-1">Lo que descubrí en la revisión del día</label><textarea class="lab-texto" id="sufi-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-integrar-2">El impulso que más se repite y lo que parece querer</label><textarea class="lab-texto" id="sufi-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-integrar-3">La virtud que más necesito hoy: paciencia o gratitud</label><input class="lab-campo" id="sufi-integrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-integrar-4">La práctica que sí vale la pena sostener, y a qué hora</label><input class="lab-campo" id="sufi-integrar-4" type="text" autocomplete="off" placeholder="Cinco minutos antes de dormir"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="sufi-integrar-5">Qué me haría pensar que conviene hablarlo con alguien de confianza o con un profesional</label><textarea class="lab-texto" id="sufi-integrar-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día, de cinco a diez minutos. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="sufi">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Revisión.</strong> Al final del día, repasá en cinco minutos lo que hiciste, sin juzgarte, y elegí una sola cosa para mañana.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Pausa.</strong> Cuando notes un impulso, esperá diez segundos antes de actuar y anotá qué querías.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Gratitud.</strong> Anotá tres cosas por las que agradecés. Una puede ser muy chica.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Paciencia.</strong> Elegí algo que te impacienta y preguntate qué parte depende de vos y cuál no.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Cuento.</strong> Leé un cuento de Nasrudín y dejá que te haga una pregunta sin apurarte a responderla.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Reparar.</strong> Si hay alguien a quien le debés una disculpa o un gracias, hacelo hoy o planeá cómo.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Volver a mirar.</strong> Repasá la semana, anotá qué práctica te sirvió y cuál no, y decidí si seguís con alguna. Si la revisión te angustia, dejala.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre el sufismo, sus prácticas y el eneagrama, incluido su origen discutido. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="sufi-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Una práctica de examen diario puede volverse una máquina de culpa, y la gratitud o la paciencia, un modo de aguantar lo que no se debería aguantar. Estos ejercicios no reemplazan una consulta. Si la revisión te angustia, te enoja con vos o se vuelve obsesiva, dejala y hablalo con un profesional. Si sentís desesperanza o pensamientos de hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si querés conversarlo, podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/psicologia-sufi/">psicología sufí</a>, el <a href="/recursos/mapa-de-la-psicologia-sufi/">mapa de la psicología sufí</a>, <a href="/recursos/rumi-y-la-psicologia/">Rumi y la psicología</a>, <a href="/recursos/al-ghazali-y-la-crisis-espiritual/">Al-Ghazali y la crisis espiritual</a>, el de <a href="/recursos/bypass-espiritual/">bypass espiritual</a> y el <a href="/glosario-de-psicologia-sufi/">glosario de psicología sufí</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Frager, R. (1999). <em>Heart, Self, &amp; Soul: The Sufi Psychology of Growth, Balance, and Harmony</em>. Quest Books.</li>
+        <li>Al-Ghazali. <em>Ihya ulum al-din</em> (Revivificación de las ciencias religiosas), en especial el libro sobre la paciencia y la gratitud; ed. inglesa: <em>Patience and Gratitude</em> (trad. H. T. Littlejohn, 2011), Islamic Texts Society.</li>
+        <li>Smith, M. (1935). <em>An Early Mystic of Baghdad: A Study of the Life and Teaching of Harith b. Asad al-Muhasibi</em>. Sheldon Press.</li>
+        <li>Chittick, W. C. (1983). <em>The Sufi Path of Love: The Spiritual Teachings of Rumi</em>. SUNY Press.</li>
+        <li>Lewis, F. (2000). <em>Rumi: Past and Present, East and West</em>. Oneworld.</li>
+        <li>Webb, J. (1980). <em>The Harmonious Circle</em>. Putnam.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}

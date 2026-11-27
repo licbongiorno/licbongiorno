@@ -1,0 +1,193 @@
+<!--{
+  "ruta": "/laboratorio-grupo-operativo/",
+  "titulo": "Laboratorio de grupo operativo: la tarea y los roles",
+  "descripcion": "Ejercicios con las ideas de Pichon-Rivière: tarea explícita e implícita, roles, cono invertido, miedos ante el cambio, quizzes y un plan de 7 días.",
+  "prioridad": 0.6,
+  "migas": [
+    [
+      "Recursos",
+      "/recursos/"
+    ],
+    [
+      "Laboratorios",
+      "/laboratorios/"
+    ],
+    [
+      "Grupo operativo",
+      "/laboratorio-grupo-operativo/"
+    ]
+  ],
+  "antetitulo": "Laboratorio",
+  "h1": "Laboratorio de <em>grupo operativo</em>",
+  "bajada": "Enrique Pichon-Rivière pensó los grupos como algo que trabaja en dos planos a la vez: lo que dice hacer y lo que hace en realidad. Ejercicios para mirar un grupo propio, con sus roles, sus miedos ante el cambio y un plan de 7 días.",
+  "respuesta": "El laboratorio de grupo operativo ofrece ejercicios inspirados en la psicología social de Enrique Pichon-Rivière: identificar la tarea explícita y la implícita de un grupo propio, un quiz de roles (portavoz, chivo emisario, saboteador, líder), el cono invertido con sus seis vectores, los miedos básicos ante el cambio y el ECRO, una integración final, un plan de 7 días y un quiz de mitos. Es una teoría clínica y social de uso extendido en Argentina y América Latina, no una escala validada ni un tratamiento.",
+  "scripts": [
+    "lab-base.js",
+    "laboratorio-tematicos-7.js",
+    "escenas.js"
+  ],
+  "wa_tema": "el laboratorio de grupo operativo",
+  "articulos": [
+    "enrique-pichon-riviere",
+    "mapa-de-la-psicologia-latinoamericana",
+    "terapia-sistemica"
+  ]
+}-->
+<section class="seccion" style="padding-top:0">
+  <div class="contenedor">
+    <div class="lab-intro revelar">
+      <div class="prosa">
+        <p>Todos los grupos dicen hacer algo, y casi todos hacen además otra cosa. Una familia que se reúne «para almorzar» y discute por la silla de siempre. Un equipo que «planifica» y evita hablar del que se va. El psiquiatra y psicoanalista <strong>Enrique Pichon-Rivière</strong> (1907-1977), nacido en Ginebra y criado en el nordeste argentino, uno de los fundadores de la Asociación Psicoanalítica Argentina en 1942, dedicó buena parte de su obra a mirar eso: lo que un grupo hace en dos planos a la vez.</p>
+        <p>Sus ideas más conocidas para leer un grupo son la <strong>tarea explícita</strong> (lo que se propone) y la <strong>tarea implícita</strong> (lo que sostiene por debajo), los <strong>roles</strong> como funciones del grupo (portavoz, chivo emisario, saboteador, líder), el <strong>cono invertido</strong> con sus seis vectores (pertenencia, cooperación, pertinencia, comunicación, aprendizaje y telé), los dos <strong>miedos básicos</strong> ante el cambio (a la pérdida y al ataque) y el <strong>ECRO</strong>, el esquema conceptual, referencial y operativo desde el que cada persona interpreta la realidad.</p>
+        <p><strong>Sobre el respaldo.</strong> Esta es una teoría clínica y social que nació en el trabajo con grupos, con mucha influencia en la psicología argentina y latinoamericana. Se usa para formar coordinadores, para educación y para trabajo comunitario. No es una escala ni se contrastó con medidas sistemáticas en el sentido de la investigación experimental, y los vectores del cono sirven para observar y conversar, no para puntuar. Tampoco corresponde usar los roles para etiquetar a una persona: un rol es una función del grupo, no un rasgo de carácter.</p>
+        <p>Los ejercicios sirven para pensar un grupo propio, sea la familia, el trabajo o un equipo. Son para mirar con curiosidad y sin culpables, y pueden hacerse solo o para llevar una pregunta a un encuentro real.</p>
+      </div>
+      <ul class="lab-reglas" aria-label="Cómo funciona">
+        <li><strong>Sin culpables.</strong> Los roles son funciones del grupo, no defectos de las personas.</li>
+        <li><strong>Hipótesis.</strong> Lo que anotes son conjeturas para conversar, no verdades.</li>
+        <li><strong>Sin registro.</strong> Lo que escribas queda en tu dispositivo.</li>
+      </ul>
+    </div>
+    <nav class="lab-estaciones revelar" aria-label="Estaciones del laboratorio">
+      <a href="#tarea">Tarea explícita e implícita</a>
+      <a href="#quiz-roles">Quiz de roles</a>
+      <a href="#roles">Roles en mi grupo</a>
+      <a href="#cono">El cono invertido</a>
+      <a href="#miedos">Miedos y ECRO</a>
+      <a href="#integrar">Integrar lo practicado</a>
+      <a href="#siete-dias">Plan de 7 días</a>
+      <a href="#mitos">Mitos y verdades</a>
+    </nav>
+    <section class="lab-estacion revelar" id="tarea" aria-labelledby="t-tarea">
+      <p class="lab-estacion__num">01</p>
+      <h2 id="t-tarea">La tarea explícita y la implícita</h2>
+      <p class="lab-estacion__bajada">Elegí un grupo real: tu familia, tu trabajo, un equipo del club, un grupo de amigos. Anotá qué dice que hace y qué parece hacer además. No hace falta que tengas razón: es una hipótesis para conversar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="grupo-tarea" data-lab-form-titulo="Tarea explícita e implícita de mi grupo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-tarea-1">El grupo que elijo mirar (sin nombres si preferís)</label><input class="lab-campo" id="grupo-tarea-1" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-tarea-2">Su tarea explícita: lo que el grupo dice que hace o quiere lograr</label><textarea class="lab-texto" id="grupo-tarea-2" rows="2" placeholder="Organizar la cena de fin de año, sacar el proyecto adelante…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-tarea-3">Lo que se repite y traba esa tarea: demoras, discusiones, silencios, chistes</label><textarea class="lab-texto" id="grupo-tarea-3" rows="2" placeholder="Siempre se discute el mismo tema antes de decidir…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-tarea-4">Una tarea implícita posible: qué podría estar haciendo el grupo además, o en vez de, lo que dice (cuidarse, evitar un conflicto, proteger a alguien, no perder lo que hay)</label><textarea class="lab-texto" id="grupo-tarea-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-tarea-5">Qué cambiaría si esa tarea implícita se pudiera decir en voz alta</label><textarea class="lab-texto" id="grupo-tarea-5" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-tarea-6">Una pregunta que podría hacerle al grupo en la próxima reunión</label><input class="lab-campo" id="grupo-tarea-6" type="text" autocomplete="off" placeholder="¿Qué estamos evitando hablar?"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="quiz-roles" aria-labelledby="t-quiz-roles">
+      <p class="lab-estacion__num">02</p>
+      <h2 id="t-quiz-roles">Quiz: ¿qué rol aparece?</h2>
+      <p class="lab-estacion__bajada">En cada escena, elegí el rol que se parece más a lo que está pasando. Son funciones que aparecen en los grupos, no etiquetas para personas: la misma persona puede ocupar uno hoy y otro mañana.</p>
+      <div class="lab-tarjeta" data-lab-quiz="grupo-roles">
+        <p class="lab-tarjeta__titulo">¿Qué rol aparece?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones lab-quiz__opciones--columna" role="group" aria-label="Elegí una respuesta"></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente escena</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="roles" aria-labelledby="t-roles">
+      <p class="lab-estacion__num">03</p>
+      <h2 id="t-roles">Los roles en mi grupo</h2>
+      <p class="lab-estacion__bajada">Ahora, con el grupo que elegiste. Pichon-Rivière hablaba de portavoz, chivo emisario, saboteador y líder, entre otros. Probá verlos como funciones del grupo y preguntate quién los ocupa hoy, por cuánto tiempo y qué dicen del grupo entero.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="grupo-roles-mios" data-lab-form-titulo="Los roles en mi grupo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-roles-mios-1">Portavoz: quién dice en voz alta lo que otros sienten, y qué dice últimamente</label><textarea class="lab-texto" id="grupo-roles-mios-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-roles-mios-2">Chivo emisario: a quién se le carga lo que sale mal, y qué podría estar evitando mirar el grupo</label><textarea class="lab-texto" id="grupo-roles-mios-2" rows="2" placeholder="Lo digo como pregunta, no como sentencia."></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-roles-mios-3">Saboteador: qué se resiste al cambio, y qué miedo podría expresar</label><textarea class="lab-texto" id="grupo-roles-mios-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-roles-mios-4">Líder: quién sostiene la tarea, y si esa función rota o está concentrada</label><textarea class="lab-texto" id="grupo-roles-mios-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-roles-mios-5">El rol que suelo ocupar yo en este grupo</label><input class="lab-campo" id="grupo-roles-mios-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-roles-mios-6">Qué me da y qué me cuesta ocupar ese rol, y qué rol me gustaría probar alguna vez</label><textarea class="lab-texto" id="grupo-roles-mios-6" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="cono" aria-labelledby="t-cono">
+      <p class="lab-estacion__num">04</p>
+      <h2 id="t-cono">El cono invertido</h2>
+      <p class="lab-estacion__bajada">Pichon-Rivière propuso seis vectores para leer cómo funciona un grupo: pertenencia (sentirse parte), cooperación (hacer con otros), pertinencia (centrarse en la tarea), comunicación (que lo dicho llegue), aprendizaje (lo que el grupo va incorporando) y telé (la disposición afectiva entre las personas, de acercamiento o rechazo). Anotá de 1 a 5 cómo ves cada uno hoy. No es un test: es una foto para conversar.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="grupo-cono" data-lab-form-titulo="El cono invertido de mi grupo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-cono-1">Pertenencia, de 1 a 5: ¿las personas sienten que forman parte?</label><input class="lab-campo" id="grupo-cono-1" type="text" autocomplete="off" placeholder="Por ejemplo, 3"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-cono-2">Cooperación, de 1 a 5: ¿se hace con otros o cada uno por su lado?</label><input class="lab-campo" id="grupo-cono-2" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-cono-3">Pertinencia, de 1 a 5: ¿el grupo se mantiene en su tarea?</label><input class="lab-campo" id="grupo-cono-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-cono-4">Comunicación, de 1 a 5: ¿lo que se dice se entiende y llega?</label><input class="lab-campo" id="grupo-cono-4" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-cono-5">Aprendizaje, de 1 a 5: ¿el grupo incorpora lo que le pasa y cambia?</label><input class="lab-campo" id="grupo-cono-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-cono-6">Telé, de 1 a 5: ¿cómo es el clima afectivo entre las personas?</label><input class="lab-campo" id="grupo-cono-6" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-cono-7">El vector más flojo y un ejemplo concreto de cuándo se nota</label><textarea class="lab-texto" id="grupo-cono-7" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-cono-8">Un gesto pequeño que podría fortalecerlo esta semana</label><input class="lab-campo" id="grupo-cono-8" type="text" autocomplete="off"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="miedos" aria-labelledby="t-miedos">
+      <p class="lab-estacion__num">05</p>
+      <h2 id="t-miedos">Los miedos ante el cambio y mi ECRO</h2>
+      <p class="lab-estacion__bajada">Según Pichon-Rivière, cuando un grupo enfrenta un cambio aparecen dos miedos básicos: el miedo a la pérdida (de lo que se tiene, de lo conocido) y el miedo al ataque (a lo nuevo, a no estar a la altura). Además, cada persona mira el grupo desde su ECRO, su esquema conceptual, referencial y operativo: el conjunto de ideas, experiencias y actitudes con las que interpreta y actúa. Probá preguntarte qué pierdo, qué temo y desde dónde miro.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="grupo-miedos" data-lab-form-titulo="Miedos ante el cambio y mi ECRO" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-miedos-1">Un cambio que el grupo enfrenta o evita: qué se está por modificar</label><textarea class="lab-texto" id="grupo-miedos-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-miedos-2">Miedo a la pérdida: qué se perdería con este cambio, aunque no se diga</label><textarea class="lab-texto" id="grupo-miedos-2" rows="2" placeholder="Una costumbre, un lugar, un lazo, una forma de ser reconocido…"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-miedos-3">Miedo al ataque: qué de lo nuevo podría resultar amenazante o expuesto</label><textarea class="lab-texto" id="grupo-miedos-3" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-miedos-4">Mi ECRO: desde qué ideas, experiencias y costumbres miro este grupo (mi historia, mi oficio, mi familia de origen)</label><textarea class="lab-texto" id="grupo-miedos-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-miedos-5">Qué ve otra persona del grupo que yo, con mi ECRO, podría no estar viendo</label><textarea class="lab-texto" id="grupo-miedos-5" rows="2"></textarea></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="integrar" aria-labelledby="t-integrar">
+      <p class="lab-estacion__num">06</p>
+      <h2 id="t-integrar">Integrar lo practicado</h2>
+      <p class="lab-estacion__bajada">Antes del plan de 7 días, juntá lo que fuiste viendo.</p>
+      <form class="lab-tarjeta lab-armador" data-lab-form="grupo-integrar" data-lab-form-titulo="Lo que integro sobre mi grupo" novalidate>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-integrar-1">La tarea implícita que me llamó la atención</label><textarea class="lab-texto" id="grupo-integrar-1" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-integrar-2">Un rol que ahora veo como función del grupo y no como defecto de alguien</label><textarea class="lab-texto" id="grupo-integrar-2" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-integrar-3">El vector del cono que quiero cuidar</label><input class="lab-campo" id="grupo-integrar-3" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-integrar-4">El miedo que creo que está detrás de la resistencia al cambio</label><textarea class="lab-texto" id="grupo-integrar-4" rows="2"></textarea></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-integrar-5">La primera conversación que voy a proponer, y con quién</label><input class="lab-campo" id="grupo-integrar-5" type="text" autocomplete="off"></div>
+        <div class="lab-paso"><label class="lab-paso__titulo" for="grupo-integrar-6">Cuándo voy a volver a mirar al grupo</label><input class="lab-campo" id="grupo-integrar-6" type="text" autocomplete="off" placeholder="Dentro de un mes"></div>
+        <p class="lab-paso__ayuda" role="status" data-lab-form-estado></p>
+        <div class="lab-acciones"><button class="boton boton--chico" type="button" data-lab-form-bajar>Guardar en mi dispositivo</button><button class="boton boton--secundario boton--chico" type="button" data-lab-form-copiar>Copiar</button></div>
+      </form>
+    </section>
+    <section class="lab-estacion revelar" id="siete-dias" aria-labelledby="t-siete-dias">
+      <p class="lab-estacion__num">07</p>
+      <h2 id="t-siete-dias">Plan de 7 días</h2>
+      <p class="lab-estacion__bajada">Una práctica por día para observar un grupo propio. Marcá las que vayas haciendo; queda guardado solo en este navegador.</p>
+      <div class="lab-tarjeta" data-lab-plan="grupo-operativo">
+        <ol class="lab-plan">
+          <li><label><input type="checkbox" value="1"> <span><strong>Día 1. Elegir el grupo.</strong> Elegí el grupo que vas a mirar y anotá su tarea explícita en una frase.</span></label></li>
+          <li><label><input type="checkbox" value="2"> <span><strong>Día 2. Observar.</strong> En un encuentro del grupo, escuchá sin intervenir y anotá qué se dice y qué se evita.</span></label></li>
+          <li><label><input type="checkbox" value="3"> <span><strong>Día 3. Tarea implícita.</strong> Formulá una hipótesis sobre lo que el grupo hace además de su tarea explícita.</span></label></li>
+          <li><label><input type="checkbox" value="4"> <span><strong>Día 4. Roles.</strong> Identificá quién ocupa cada función (portavoz, líder, resistencia) y preguntate qué dice de todo el grupo.</span></label></li>
+          <li><label><input type="checkbox" value="5"> <span><strong>Día 5. Mi lugar.</strong> Mirá qué rol tendés a ocupar vos y probá una vez una conducta distinta, chica.</span></label></li>
+          <li><label><input type="checkbox" value="6"> <span><strong>Día 6. Un miedo.</strong> Pensá qué miedo, a perder o a lo nuevo, puede estar frenando un cambio en el grupo. Si se puede, nombralo con respeto.</span></label></li>
+          <li><label><input type="checkbox" value="7"> <span><strong>Día 7. Volver a mirar.</strong> Repetí el cono invertido, comparalo con el de la estación 4 y decidí un gesto para sostener.</span></label></li>
+        </ol>
+        <p class="lab-plan__progreso" data-lab-plan-progreso aria-live="polite">0 de 7 días</p>
+        <div class="lab-acciones"><button class="boton boton--secundario boton--chico" type="button" data-lab-plan-reiniciar>Empezar de nuevo</button></div>
+      </div>
+    </section>
+    <section class="lab-estacion revelar" id="mitos" aria-labelledby="t-mitos">
+      <p class="lab-estacion__num">08</p>
+      <h2 id="t-mitos">Mitos y verdades</h2>
+      <p class="lab-estacion__bajada">Ideas habituales sobre los roles, el grupo operativo y Pichon-Rivière. ¿Mito o verdad?</p>
+      <div class="lab-tarjeta" data-lab-quiz="grupo-mitos">
+        <p class="lab-tarjeta__titulo">¿Mito o verdad?</p>
+        <p class="lab-quiz__frase" data-lab-quiz-frase aria-live="polite"></p>
+        <div class="lab-quiz__opciones" role="group" aria-label="Elegí una respuesta"><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="a" aria-pressed="false">Mito</button><button class="lab-quiz__opcion" type="button" data-lab-quiz-opcion="b" aria-pressed="false">Verdad</button></div>
+        <p class="lab-quiz__resultado" role="status" data-lab-quiz-resultado></p>
+        <div class="lab-quiz__pie"><span>Aciertos: <span data-lab-quiz-marcador>0 de 0</span></span><button class="boton boton--chico" type="button" data-lab-quiz-siguiente hidden>Siguiente idea</button></div>
+      </div>
+    </section>
+    <aside class="lab-cuidado revelar" aria-label="Un cuidado">
+      <p><strong>Un cuidado.</strong> Pensar un grupo ayuda a ver patrones, pero no reemplaza una consulta. Si el grupo es tu familia y hay violencia, maltrato o un lugar de «chivo» que te hace mal, el ejercicio no alcanza: buscá apoyo profesional. Si sentís desesperanza o pensamientos de hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a> o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Si querés conversarlo, podés <a href="/contacto/">escribirme</a>. Para seguir: el artículo sobre <a href="/recursos/enrique-pichon-riviere/">Enrique Pichon-Rivière</a>, el <a href="/recursos/mapa-de-la-psicologia-latinoamericana/">mapa de la psicología latinoamericana</a>, la <a href="/recursos/terapia-sistemica/">terapia sistémica</a> y el <a href="/glosario-de-psicologia-latinoamericana/">glosario de psicología latinoamericana</a>.</p>
+    </aside>
+    <div class="prosa revelar" style="margin-top:2.5rem;max-width:46rem">
+      <h2>Para seguir leyendo</h2>
+      <ul>
+        <li>Pichon-Rivière, E. (1971). <em>Del psicoanálisis a la psicología social</em> (2 tomos). Galerna.</li>
+        <li>Pichon-Rivière, E. (1975). <em>El proceso grupal: del psicoanálisis a la psicología social</em>. Nueva Visión.</li>
+        <li>Pichon-Rivière, E. (1985). <em>Teoría del vínculo</em>. Nueva Visión.</li>
+        <li>Zito Lema, V. (1976). <em>Conversaciones con Enrique Pichon Rivière sobre el arte y la locura</em>. Timerman Editores.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{> cta}}
