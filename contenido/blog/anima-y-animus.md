@@ -11,7 +11,7 @@ orden: 24
 estado: publicado
 respuesta: Para Carl Gustav Jung, el ánima y el ánimus son imágenes arquetípicas de «lo otro» dentro de cada persona: la figura interior que compensa la actitud consciente y funciona como puente hacia el inconsciente. Suelen proyectarse en el enamoramiento. Muchos autores junguianos actuales las entienden más allá del género: todos tenemos esa otra mitad.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es que te hayas enamorado de la persona equivocada. Es esa fascinación que aparece de golpe, como si conocieras a alguien de toda la vida aunque lo viste dos veces. Es el personaje de una novela que no te podés sacar de la cabeza, la figura que vuelve en los sueños con otra cara pero la misma presencia. Algo en el otro nos llama. Y muchas veces, lo que nos llama es algo nuestro.
 
@@ -41,6 +41,22 @@ Quedarnos con esa idea de fondo es lo que vuelve útil el concepto en la clínic
 Para Jung, retirar poco a poco esas proyecciones y reconocer la figura interior como propia es una etapa central del [proceso de individuación](/recursos/el-proceso-de-individuacion/). No significa dejar de enamorarse, sino amar con más conciencia: ver al otro un poco más como es y a uno mismo un poco más entero.
 
 En terapia, este trabajo aparece en los vínculos que se repiten, en los sueños y en esas fascinaciones que no se explican. Si te pasa que siempre te enamorás «del mismo tipo de persona», podés leer sobre [patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/) o escribirme.
+
+## Una viñeta de consultorio
+
+Imaginemos a un hombre de cuarenta y pico que se enamora, una y otra vez, de mujeres «intensas, misteriosas, imposibles». Cada relación empieza con una fascinación que lo desvela y termina en un desencanto que lo deja vacío. En terapia, de a poco, aparece algo: esas mujeres tienen en común una sensibilidad, una forma de hablar de lo que sienten, que él nunca se permitió. Lo que buscaba afuera era una parte de su propia vida afectiva. No es un caso real, sino una escena que se parece a muchas. Y vale también al revés: una mujer que se deslumbra con hombres «decididos» puede estar buscando una autoridad propia que todavía no se concede.
+
+## Cómo se trabaja en terapia
+
+No se busca «descubrir» el ánima o el ánimus como quien encuentra un objeto, sino seguir sus huellas: qué cualidades nos fascinan, qué figuras de los sueños nos acompañan, qué estados de ánimo nos arrastran. Se pregunta cómo es esa figura, qué dice, qué quiere. A veces se la dibuja o se dialoga con ella a través de la [imaginación activa](/recursos/imaginacion-activa/). Otras veces alcanza con notar la fascinación y preguntarse qué hay del otro y qué es mío, lo que conecta con el trabajo sobre [la proyección](/recursos/la-proyeccion-segun-jung/) y con la [sombra](/recursos/la-sombra-segun-jung/), porque la figura del otro sexo suele estar más lejos aún de la conciencia que la sombra.
+
+## Matices y límites
+
+Conviene ser claros sobre qué tipo de idea es esta. El ánima y el ánimus son **teoría clínica y simbólica**, no hallazgos de laboratorio: no hay estudios que midan «cuánto ánimus» tiene una persona. Lo que sí tiene respaldo en la investigación psicológica general es que idealizamos a quienes recién conocemos y que ese idealizado suele chocar con la persona real, algo que la teoría junguiana describe a su manera.
+
+Además, la formulación original de Jung asocia lo femenino con ciertas cualidades (sentimiento, receptividad) y lo masculino con otras (razón, decisión). Esa asociación responde a su época y hoy se la cuestiona con justicia. Por eso en la consulta se usa el concepto como **pregunta**, no como definición de lo que una persona «debería» ser. No se trata de decidir qué es femenino o masculino, sino de dejar de proyectar lo que todavía no reconocemos como propio.
+
+Si una fascinación se vuelve obsesiva, o si un vínculo se sostiene con sufrimiento, el trabajo incluye mirar también la [dependencia emocional](/recursos/dependencia-emocional/) y no solo lo simbólico.
 
 ## Preguntas frecuentes
 
