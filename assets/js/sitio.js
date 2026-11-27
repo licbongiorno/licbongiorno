@@ -869,3 +869,17 @@
     }
   }
 })();
+
+/* Disparador «Antes de leer»: guarda las respuestas solo en este navegador. */
+(function () {
+  "use strict";
+  var campos = document.querySelectorAll("textarea[data-disparador]");
+  if (!campos.length) return;
+  campos.forEach(function (t) {
+    var k = "nb-disp-" + t.getAttribute("data-disparador");
+    try { var v = localStorage.getItem(k); if (v) t.value = v; } catch (e) {}
+    t.addEventListener("input", function () {
+      try { if (t.value) localStorage.setItem(k, t.value); else localStorage.removeItem(k); } catch (e) {}
+    });
+  });
+})();
