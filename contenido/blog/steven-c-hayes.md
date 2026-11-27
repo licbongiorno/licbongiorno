@@ -12,7 +12,7 @@ estado: publicado
 respuesta: Steven C. Hayes, nacido en 1948, es un psicólogo estadounidense, profesor de la Universidad de Nevada en Reno y creador de la terapia de aceptación y compromiso (ACT). La ACT busca aumentar la flexibilidad psicológica: abrirse a los pensamientos y emociones difíciles sin pelear con ellos, tomar distancia de los pensamientos y actuar según los propios valores. Hayes desarrolló también la teoría de los marcos relacionales, sobre el lenguaje y la cognición.
 menciona: steven-hayes
 rutas_viejas: /recursos/steven-hayes/
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que aceptar sea resignarse. Steven Hayes lo aprendió en carne propia: durante años sufrió ataques de pánico, y cuanto más intentaba controlarlos, más espacio ocupaban en su vida. El cambio llegó cuando dejó de pelear con la ansiedad y empezó a preguntarse qué quería hacer con su vida, con la ansiedad a cuestas.
 
@@ -45,6 +45,22 @@ La ACT trabaja seis procesos que juntos forman la **flexibilidad psicológica**:
 La ACT tiene evidencia de eficacia para la ansiedad, la depresión, el dolor crónico y muchos otros problemas, y su lenguaje —valores, aceptación, defusión— se volvió parte de la psicoterapia contemporánea. Su mirada se acerca, desde la ciencia de la conducta, a ideas que también aparecen en el mindfulness y en algunas tradiciones contemplativas.
 
 En la consulta, la pregunta por los valores y la idea de hacer lugar a lo difícil en vez de pelear con ello me resultan muy útiles. Podés practicar en el [laboratorio ACT](/laboratorio-act/), en el de [pensamientos que se repiten](/laboratorio-de-pensamientos-repetitivos/), donde está la metáfora de los pasajeros del colectivo, o en el de [flexibilidad](/laboratorio-de-flexibilidad-yoica/).
+
+## Un cambio de ola
+
+Hayes pertenece a lo que se llamó la tercera ola de las terapias cognitivo-conductuales. La primera fue conductual; la segunda, cognitiva, con Ellis y Beck; la tercera, desde fines de los años ochenta, puso el foco en el contexto y en la relación con los pensamientos, no tanto en su contenido. Es contemporánea de la terapia dialéctica de Linehan, del programa de reducción del estrés de Kabat-Zinn y de la terapia cognitiva basada en mindfulness para la depresión. La ACT se apoya en una teoría del lenguaje, la de los marcos relacionales, que explica por qué las palabras pueden volverse tan pesadas como los hechos.
+
+## Un ejemplo de todos los días
+
+Probá no pensar en un oso blanco durante un minuto. El psicólogo Daniel Wegner lo estudió en los años ochenta: suprimir un pensamiento tiende a hacerlo más presente. Es el mismo mecanismo de quien, de noche, trata de dormirse a la fuerza y se despierta más. En ACT, la salida no es pelear mejor sino cambiar la pregunta: ¿qué importa esta noche, además de dormir? Tal vez descansar el cuerpo, cuidar el vínculo, no hacerse más daño. Un ejercicio clásico: ponerle a un pensamiento la frase «estoy teniendo el pensamiento de que…». La diferencia es pequeña, pero cambia desde dónde se lo mira.
+
+## Cómo resuena hoy en la clínica
+
+La ACT se aplica en ansiedad, depresión, dolor crónico, consumo de sustancias y duelo, entre otros, de manera individual y grupal. Un terapeuta ACT suele preguntar por valores y proponer pasos pequeños de acción comprometida, con ejercicios de atención al presente y de defusión. En el sitio podés practicar en el [Laboratorio ACT](/laboratorio-act/), en el de [valores](/laboratorio-de-valores/) y en el de [pensamientos repetitivos](/laboratorio-de-pensamientos-repetitivos/). También ver [pensamientos intrusivos](/recursos/pensamientos-intrusivos/) y [mindfulness](/recursos/mindfulness-atencion-plena/).
+
+## Matices y límites
+
+La ACT tiene muchos ensayos y metaanálisis que muestran buenos resultados, en general comparables a otras terapias cognitivo-conductuales; no siempre superiores, y parte de los estudios es de calidad variable. La teoría de los marcos relacionales, en cambio, tiene un respaldo experimental menor y es discutida dentro de la psicología. Aceptar no es resignarse ni aguantar una situación injusta: se acepta la emoción, no el daño. Y no es un método para todos: hay personas que necesitan primero estabilizar la crisis, y en cuadros graves conviene un acompañamiento profesional, no solo ejercicios.
 
 ## Preguntas frecuentes
 

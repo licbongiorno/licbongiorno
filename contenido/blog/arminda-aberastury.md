@@ -11,7 +11,7 @@ orden: 108
 estado: publicado
 respuesta: Arminda Aberastury (1910-1972) fue una psicoanalista argentina, pionera del psicoanálisis de niños y adolescentes en el país. Difundió la obra de Melanie Klein, sistematizó la técnica de juego y la hora de juego diagnóstica, y propuso, junto con Mauricio Knobel, que la adolescencia implica tres duelos: por el cuerpo infantil, por el rol y la identidad infantiles, y por los padres de la infancia.
 menciona: aberastury, melanie-klein, pichon-riviere, psicoanalisis
-revision: 2026-11-07
+revision: 2026-11-27
 ---
 Un portazo, una respuesta cortante, horas encerrado en la pieza. Muchas familias viven así la adolescencia de un hijo. Arminda Aberastury propuso una forma de mirarlo que todavía hoy alivia: adolescer es despedirse. Del cuerpo de niño, de un lugar en la familia y de los padres que uno tenía de chico. Y los duelos, aunque sean normales, duelen.
 
@@ -43,6 +43,22 @@ Para Aberastury, adolescer es atravesar tres duelos. Por el **cuerpo infantil**,
 Sus libros siguen en las bibliografías de las carreras de psicología del país, y la idea de los duelos adolescentes es una de las más citadas en la clínica con jóvenes. Su mirada sobre el juego y sobre el lugar de los padres marcó la forma en que se atiende a los chicos en la Argentina.
 
 En la consulta con adolescentes, pensar en duelos ayuda a acompañar lo que a veces se vive solo como rebeldía o conflicto. Podés leer más sobre [el duelo y las pérdidas](/duelo-y-perdidas/) o sobre [maternidad y paternidad](/recursos/maternidad-y-paternidad/).
+
+## El psicoanálisis de niños en Buenos Aires
+
+Cuando Aberastury empezó, el psicoanálisis con chicos era un territorio disputado. En Londres, Anna Freud y Melanie Klein sostenían visiones distintas: para la primera, había que preparar al niño y trabajar con los padres; para la segunda, el juego permitía interpretar desde el comienzo. Aberastury eligió el camino kleiniano, lo difundió en español con sus traducciones y lo adaptó a la clínica argentina, en una época en que Buenos Aires se volvía una capital del psicoanálisis en América Latina. Trabajó también en un tema que entonces pocos tocaban: el lugar del padre en la crianza.
+
+## Un ejemplo de todos los días
+
+Una chica de catorce años que hasta hace poco se sentaba al lado de su mamá en el sillón ahora cierra la puerta. Habla de otra manera, se viste distinto, se enoja por todo. Los padres lo viven como un rechazo. Para Aberastury es, entre otras cosas, un trabajo de duelo: la chica deja atrás un cuerpo, un lugar y unos padres que ya no son los de la infancia, y todavía no sabe qué hay del otro lado. Los padres también despiden algo: al hijo chico que los necesitaba para todo. Ver la escena así no resuelve el conflicto, pero lo vuelve más acompañable.
+
+## Cómo resuena hoy en la clínica
+
+La hora de juego sigue siendo una herramienta de evaluación en muchos consultorios y la terapia de juego se usa en distintos enfoques. La idea de que adolescer implica pérdidas aparece en el trabajo con familias, con escuelas y en psicoterapia de adolescentes. Podés explorar el artículo sobre [padres de adolescentes](/recursos/padres-de-adolescentes/), el [Laboratorio de adolescentes](/laboratorio-de-adolescentes/), y leer sobre [Melanie Klein](/recursos/melanie-klein/) y [Donald Winnicott](/recursos/donald-winnicott/).
+
+## Matices y límites
+
+Hay que leer a Aberastury en su contexto. El «síndrome de la adolescencia normal» fue criticado por normalizar rasgos que a veces son signos de sufrimiento, y por describir una adolescencia occidental, urbana y de clase media. La investigación posterior muestra mucha variedad: no todos los adolescentes atraviesan una crisis intensa, y distinguir lo esperable de lo preocupante requiere mirar cada caso. La teoría kleiniana de base es una construcción clínica sin ensayos controlados propios; la terapia de juego, en general, sí cuenta con estudios favorables. Los duelos de Aberastury sirven como mapa, no como regla.
 
 ## Preguntas frecuentes
 

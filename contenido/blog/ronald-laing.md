@@ -11,7 +11,7 @@ orden: 157
 estado: publicado
 respuesta: Ronald David Laing (1927-1989) fue un psiquiatra escocés que buscó comprender la experiencia de la psicosis desde la fenomenología y el existencialismo. En El yo dividido (1960) describió la inseguridad ontológica y el falso yo. Estudió las familias de personas con esquizofrenia, creó la comunidad de Kingsley Hall y se lo asocia con la antipsiquiatría, aunque él rechazaba ese rótulo.
 menciona: laing, bateson
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 ¿Y si lo que dice una persona con psicosis tuviera sentido, aunque sea difícil de escuchar? R. D. Laing, un joven psiquiatra de Glasgow, se tomó en serio esa pregunta en los años cincuenta, cuando la respuesta habitual era el encierro y el electroshock. Lo que encontró lo volvió famoso y también muy discutido.
 
@@ -43,6 +43,22 @@ En *El yo dividido*, Laing describió cómo una persona muy insegura puede prote
 Laing ayudó a humanizar el trato a las personas con psicosis y abrió el debate sobre el lugar de la familia y del contexto. Algunas de sus ideas fueron muy criticadas —por ejemplo, la tendencia a idealizar la locura o a culpar a las familias—, y la investigación posterior mostró que la esquizofrenia tiene bases biológicas además de sociales. Conviene leerlo con esa doble mirada.
 
 En la consulta, su insistencia en escuchar el sentido de lo que alguien vive, por extraño que parezca, sigue siendo valiosa. Podés seguir con [Gregory Bateson](/recursos/gregory-bateson/) o con [Donald Winnicott](/recursos/donald-winnicott/).
+
+## Los hospitales de los años cincuenta y sesenta
+
+Cuando Laing empezó a trabajar, los grandes hospitales psiquiátricos eran lugares de encierro, y los tratamientos disponibles incluían el electroshock y la lobotomía. En la misma época otros pensadores cuestionaban esas instituciones: Erving Goffman publicó *Internados* en 1961, Thomas Szasz *El mito de la enfermedad mental* ese mismo año, y en Italia Franco Basaglia empezó una reforma que llevó al cierre de los manicomios. Laing es parte de ese clima. En 1965 fundó con otros colegas la Philadelphia Association, que sostuvo Kingsley Hall y otras casas comunitarias. Su libro *Nudos* (1970) muestra, en forma de poemas breves, los dobles mensajes que a veces se tejen entre personas.
+
+## Un ejemplo de todos los días
+
+Una madre le dice a su hijo: «Contame lo que sentís, yo siempre te escucho», y cuando él lo cuenta, ella se ofende y se retira. Si se repite, el chico aprende que decir lo que siente trae castigo y que callarlo también. Eso es un doble vínculo, en la línea de Bateson, y es un ejemplo de lo que Laing y Esterson miraban: cómo en ciertos contextos una conducta rara adquiere un sentido. No quiere decir que la familia «cause» una psicosis; sí que ver el contexto puede ayudar a escuchar.
+
+## Cómo resuena hoy en la clínica
+
+Algunas ideas de Laing reaparecen en prácticas actuales: el Diálogo Abierto (*Open Dialogue*) de Finlandia, que trabaja con la familia y la red de la persona en crisis, y el movimiento de Escuchadores de Voces, que propone dar sentido a las voces en lugar de tratarlas solo como un síntoma. Ambos son herederos, entre otros, de este espíritu. Sobre el primer episodio de psicosis, ver [primer episodio psicótico](/recursos/primer-episodio-psicotico/); sobre la reforma de los manicomios, [Franco Basaglia](/recursos/franco-basaglia/); y sobre la comunicación familiar, [Paul Watzlawick](/recursos/paul-watzlawick/).
+
+## Matices y límites
+
+Hay que separar lo valioso de lo discutible. La investigación actual no sostiene que las familias causen la esquizofrenia, y la medicación y los tratamientos psicosociales tienen un papel importante; los estudios de Laing y Esterson se criticaron por su método y por la selección de los casos. Su visión de la psicosis como viaje de crecimiento fue idealizada, y muchas personas que la atraviesan y sus familias necesitan ayuda urgente. Lo que sigue en pie es el respeto: escuchar, preguntar y no reducir a una persona a su diagnóstico.
 
 ## Preguntas frecuentes
 

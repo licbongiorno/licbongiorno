@@ -11,7 +11,7 @@ orden: 122
 estado: publicado
 respuesta: Viktor Frankl (1905-1997) fue un neurólogo y psiquiatra austríaco, creador de la logoterapia. Sobrevivió a varios campos de concentración nazis, experiencia que relató en El hombre en busca de sentido. Propuso que la principal motivación humana es la voluntad de sentido y que la persona tiene, además del cuerpo y la psique, una dimensión noética o espiritual, la de la libertad y la responsabilidad.
 menciona: viktor-frankl
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Frankl distinguió con cuidado dos tipos de sufrimiento: el que se puede evitar, y que hay que evitar, y el que no tiene remedio. Sobre este último se animó a decir algo que solo podía decir alguien que lo había vivido en los campos de concentración: que incluso ahí queda una libertad, la de elegir la actitud.
 
@@ -46,6 +46,22 @@ Frankl pensó a la persona en tres dimensiones: la del **cuerpo**, la de la **ps
 *El hombre en busca de sentido* fue traducido a decenas de idiomas y vendió millones de ejemplares. La logoterapia sigue viva en institutos de todo el mundo, incluida una importante tradición en América Latina.
 
 En la consulta, Frankl me recuerda preguntar no solo qué le pasa a alguien, sino para qué y para quién vive. Podés seguir con [la logoterapia](/recursos/logoterapia-y-sentido/) o con el [laboratorio de sentido](/laboratorio-de-sentido/).
+
+## La tercera escuela vienesa
+
+Viena, a comienzos del siglo XX, fue la cuna del psicoanálisis de Freud y de la psicología individual de Adler. Frankl, que conoció a ambos, desarrolló en los años treinta lo que se llamó la tercera escuela vienesa de psicoterapia: la logoterapia y el análisis existencial. Cuando fue deportado en 1942, tenía un manuscrito listo; lo perdió al llegar a Auschwitz y, ya liberado, lo reconstruyó a partir de notas. Esa tarea fue una de las razones, contó, que lo mantuvo en pie. El libro que nació de aquella experiencia, *El hombre en busca de sentido*, es un testimonio y a la vez una breve exposición de su teoría.
+
+## Un ejemplo de todos los días
+
+Hay jubilados que, el día que dejan de trabajar, sienten que se les apagó la luz. No les falta dinero ni salud: les falta algo para lo cual levantarse. Frankl lo llamaba vacío existencial, y creía que se parece al aburrimiento más que a la tristeza. Una pregunta de logoterapia no apunta a una causa del pasado, sino a lo que la vida pide hoy: ¿a quién necesita alguien de mí?, ¿qué tarea me espera? A veces la respuesta es chica, como cuidar a un nieto, retomar un oficio o sostener a un amigo.
+
+## Cómo resuena hoy en la clínica
+
+La logoterapia usa técnicas como la intención paradójica, en la que se invita al paciente a desear aquello que teme, con humor, y la derreflexión, que desvía la atención excesiva de uno mismo. La investigación sobre sentido en la vida creció mucho; y la psicoterapia centrada en el sentido, desarrollada por William Breitbart para personas con cáncer avanzado, cuenta con ensayos clínicos que mostraron mejoras en el bienestar espiritual. Mirá [la logoterapia](/recursos/logoterapia-y-sentido/), [Rollo May](/recursos/rollo-may/), [Irvin Yalom](/recursos/irvin-yalom/) y el [Laboratorio de logoterapia: técnicas](/laboratorio-logoterapia-tecnicas/).
+
+## Matices y límites
+
+Frankl contó su experiencia, no hizo un estudio: de su testimonio no se puede deducir que «quien tiene un sentido sobrevive», y él mismo reconoció el papel del azar. Pensar eso sería injusto con quienes murieron. La noción de una dimensión noética que no se enferma es una afirmación filosófica, no un dato. Además, buscar sentido no reemplaza el tratamiento de una depresión o de un cuadro clínico, y exigirle sentido a alguien en pleno duelo puede resultar cruel. La logoterapia funciona mejor como una invitación que como una tarea. Hay buena evidencia de que el sentido se asocia con bienestar, y evidencia menos firme sobre la logoterapia clásica como método completo.
 
 ## Preguntas frecuentes
 

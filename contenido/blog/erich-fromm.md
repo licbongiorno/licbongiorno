@@ -11,7 +11,7 @@ orden: 121
 estado: publicado
 respuesta: Erich Fromm (1900-1980) fue un psicoanalista, sociólogo y filósofo alemán. Unió el psicoanálisis con el estudio de la sociedad y propuso el concepto de carácter social. En El miedo a la libertad analizó por qué las personas buscan someterse, en El arte de amar describió el amor como una capacidad que se aprende, y en ¿Tener o ser? contrapuso dos modos de existencia. Vivió muchos años en México, donde formó a psicoanalistas.
 menciona: fromm, psicoanalisis, humanista
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que el amor sea cuestión de encontrar a la persona indicada. Erich Fromm lo dijo con claridad en 1956: amar es un arte, y como todo arte requiere conocimiento, práctica y dedicación. Esa idea, que todavía incomoda, es apenas una parte de una obra que se preguntó qué hace la sociedad con nuestra forma de ser.
 
@@ -44,6 +44,22 @@ Para Fromm, el amor no es un sentimiento que simplemente nos pasa, sino una acti
 *El arte de amar* y *El miedo a la libertad* siguen editándose en todo el mundo. En tiempos de redes sociales, consumo y nuevas formas de autoritarismo, sus preguntas sobre la conformidad y sobre el modo de tener tienen una vigencia inquietante.
 
 En la consulta, Fromm me ayuda a pensar los vínculos como algo que se construye y se cuida, y a no perder de vista el contexto social de lo que alguien sufre. Podés seguir con [los patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/) o con [las dificultades vinculares](/dificultades-vinculares/).
+
+## Entre Freud y Marx
+
+Fromm combinó dos tradiciones que en su época parecían opuestas: el psicoanálisis, que mira lo íntimo, y el pensamiento de Marx, que mira las condiciones sociales. En el Instituto de Fráncfort trabajó con Max Horkheimer y otros pensadores críticos; más tarde se distanció del grupo, y en los años cincuenta mantuvo con Herbert Marcuse una discusión pública sobre el rumbo del psicoanálisis. En *Psicoanálisis de la sociedad contemporánea* (1955) se preguntó si una sociedad entera podía estar enferma sin saberlo. Su aporte clave es el concepto de carácter social: lo que una sociedad necesita de sus miembros termina pareciéndose a su manera de ser.
+
+## Un ejemplo de todos los días
+
+Alguien pasa la tarde mirando cuántos «me gusta» tiene una foto. Si salió bien, se siente valioso; si no, se apaga. Fromm hablaba de la orientación mercantil: sentirse una mercancía que vale según se cotice. Frente a eso, el modo de ser se parece a una charla en la que nadie mira el reloj, a cocinar para otros por el gusto de hacerlo, a mirar un paisaje sin sacarle una foto. No es una cuestión de pureza: casi todos oscilamos entre tener y ser. Lo que propone Fromm es notar en qué modo estamos.
+
+## Cómo resuena hoy en la clínica
+
+Su mirada se nota en la terapia de pareja y de familia: preguntar si el amor es una actividad, si hay cuidado, respeto y responsabilidad, o si se volvió dependencia o posesión. También en el trabajo con la soledad y el miedo a decidir. En México dejó discípulos y un estudio de campo sobre el carácter social en una aldea (1970, con Michael Maccoby). Para seguir: [dependencia emocional](/recursos/dependencia-emocional/), [Karen Horney](/recursos/karen-horney/), [pantallas y redes sociales](/recursos/pantallas-y-redes-sociales/) y el [Laboratorio del amor como arte](/laboratorio-del-amor-como-arte/).
+
+## Matices y límites
+
+Las ideas de Fromm son teoría social y psicológica, no hallazgos medidos: su tipología de caracteres no se validó con instrumentos y es difícil de poner a prueba. Fue criticado por un optimismo sobre la naturaleza humana que otros consideran ingenuo, y *El arte de amar* se leyó, a veces, como un libro de autoayuda, cuando es un ensayo con ambición filosófica. Aun así, su pregunta sigue siendo útil: cuánto de lo que sentimos como «propio» es, en realidad, lo que el entorno nos pide. Conviene leerlo como un mirador, no como una guía de conducta.
 
 ## Preguntas frecuentes
 

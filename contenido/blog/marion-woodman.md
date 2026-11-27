@@ -11,7 +11,7 @@ orden: 115
 estado: publicado
 respuesta: Marion Woodman (1928-2018) fue una analista junguiana canadiense. Pionera en aplicar la psicología analítica a los trastornos alimentarios, las adicciones y el cuerpo, describió la adicción a la perfección como una forma de vivir al servicio de un ideal rígido que deja afuera el cuerpo y lo imperfecto. Propuso un camino hacia lo femenino consciente y trabajó con el cuerpo, la voz y el movimiento.
 menciona: woodman, jung, psicologia-analitica
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que el cuerpo sea solo el lugar donde aparecen los síntomas. Marion Woodman pensaba que el cuerpo también sueña, recuerda y habla, y que muchas de nuestras luchas —con la comida, con la imagen, con la exigencia de ser perfectos— son intentos desesperados de escucharlo.
 
@@ -44,6 +44,22 @@ Woodman retomó una distinción de Jung: la **perfección** es una forma cerrada
 En una época obsesionada con la imagen y el rendimiento, la obra de Woodman tiene una actualidad enorme. Abrió el camino para el trabajo corporal dentro de la psicología analítica y para pensar las adicciones más allá de la sustancia.
 
 En la consulta, su mirada me recuerda preguntar también por el cuerpo: dónde se siente lo que se cuenta, qué dice el cansancio, qué busca la compulsión. Si la exigencia te resulta familiar, podés seguir con [la autoestima](/autoestima/) o con [la sombra](/recursos/la-sombra-segun-jung/).
+
+## Una analista que vino de la docencia
+
+Woodman llegó a la psicología junguiana desde la literatura y la enseñanza, y desde una experiencia propia con el cuerpo. Sus libros salieron en Inner City Books, la editorial de Toronto dedicada a la psicología analítica. En los años setenta y ochenta, los trastornos alimentarios empezaban a hacerse visibles; otras autoras, como Susie Orbach en *Fat is a Feminist Issue* (1978), los leían desde el feminismo. Woodman los pensó desde Jung, el cuerpo y los sueños. A comienzos de los años noventa publicó *The Ravaged Bridegroom* (1990) y, tras enfrentar un cáncer, escribió también sobre la muerte y el vivir: *Bone: Dying into Life* (2000).
+
+## Un ejemplo de todos los días
+
+Una persona se mira al espejo por la mañana y lo primero que piensa es qué hay que corregir. Planifica la comida, pesa cada porción, se exige un rendimiento que le sale caro en descanso y en amistades. Lo que Woodman observaba en situaciones así es una voz interna que no tolera lo imperfecto y que habla en nombre de un ideal, a veces heredado del padre, de la familia o de la cultura. Su pregunta era qué le dice el cuerpo a esa voz: cansancio, tensión, hambre, un nudo en el pecho. El trabajo consiste en escucharlo, no en callarlo.
+
+## Cómo resuena hoy en la clínica
+
+Su mirada se aplica al trabajo con perfeccionismo, autoexigencia y con la relación con la imagen corporal. En consulta, preguntar dónde se siente algo en el cuerpo, o qué hace la persona con la respiración cuando habla de eso, puede abrir un camino. Se combina con técnicas de movimiento, voz y escritura. Para seguir: [trastornos de la conducta alimentaria](/recursos/trastornos-de-la-conducta-alimentaria/), [autoexigencia y perfeccionismo](/recursos/autoexigencia-y-perfeccionismo/), [la sombra según Jung](/recursos/la-sombra-segun-jung/) y el [Laboratorio de perfeccionismo](/laboratorio-de-perfeccionismo/).
+
+## Matices y límites
+
+Woodman escribió desde la psicología analítica y desde su clínica: sus ideas son teoría e interpretación, no resultados de estudios controlados, y los talleres BodySoul no tienen investigación que los respalde como tratamiento. Los trastornos alimentarios son cuadros serios, con riesgos médicos, y los tratamientos con más evidencia hoy son otros, como la terapia familiar y la terapia cognitivo-conductual específica. Leerla puede enriquecer el proceso, pero no reemplaza la atención médica y psicológica cuando hay pérdida de peso importante, atracones o conductas compensatorias. Su lenguaje sobre «lo femenino» es, además, una metáfora que no todo el mundo comparte.
 
 ## Preguntas frecuentes
 

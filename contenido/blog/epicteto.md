@@ -11,7 +11,7 @@ orden: 161
 estado: publicado
 respuesta: Epicteto (c. 50-135) fue un filósofo estoico griego, nacido esclavo, que enseñó en Nicópolis. Su enseñanza, reunida por su discípulo Arriano en el Enquiridión, distingue lo que depende de nosotros de lo que no, y sostiene que no nos perturban las cosas, sino las opiniones que tenemos sobre ellas. Albert Ellis y Aaron Beck reconocieron en esa idea un antecedente directo de la terapia cognitiva.
 menciona: epicteto, ellis, aaron-beck
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 «No nos perturban las cosas, sino las opiniones que tenemos sobre las cosas». La frase tiene casi dos mil años y está en el *Enquiridión*, un manual breve con las enseñanzas de Epicteto. Albert Ellis la citaba para explicar su terapia, y es una de las raíces de la terapia cognitiva.
 
@@ -41,6 +41,22 @@ Epicteto dibujó una línea entre lo que **depende de mí** —mis **juicios**, 
 - **Albert Ellis** reconoció a Epicteto como un antecedente directo del modelo ABC: no es el acontecimiento, sino la creencia, lo que genera la emoción. Ver [Albert Ellis](/recursos/albert-ellis/).
 - **Aaron Beck** también señaló las raíces estoicas de la terapia cognitiva. Ver [Aaron T. Beck](/recursos/aaron-t-beck/).
 - La distinción entre lo que se puede cambiar y lo que no reaparece en muchas terapias actuales, incluida la [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/).
+
+## Un maestro que no escribió
+
+Epicteto fue esclavo de Epafrodito, un liberto que trabajaba para Nerón. Eso importa para leerlo: cuando habla de libertad interior no lo hace desde un escritorio. Sus alumnos lo escuchaban en Nicópolis y Arriano, que había asistido a sus clases, anotó lo que oyó. De los ocho libros de *Disertaciones* se conservan cuatro. El *Enquiridión* es una selección breve pensada para tener a mano, casi un manual de bolsillo. En el mundo romano, la filosofía se entendía como una forma de vida y el maestro era algo parecido a un médico del alma.
+
+## Un ejemplo de todos los días
+
+Estás en un tráfico que no se mueve y llegás tarde a una cita. Podés hacer algo con la llamada que avisa y con la ruta alternativa; no podés hacer nada con los autos de adelante. Epicteto proponía separar eso en el momento, casi como una pregunta práctica: «¿esto depende de mí?». Lo que sigue importa más: la respuesta no te manda a la resignación, te devuelve la energía a donde sí rinde. Una anécdota conocida: el militar estadounidense James Stockdale, prisionero en Vietnam, contó que había recurrido a Epicteto en esos años para sostenerse. Es un testimonio personal, no un estudio, pero muestra para qué se usa este texto cuando la situación aprieta.
+
+## Cómo resuena hoy en la clínica
+
+La distinción entre lo que se puede y lo que no se puede cambiar aparece, con otras palabras, en la terapia cognitivo-conductual, en la [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/) y en la oración de la serenidad que se usa en muchos grupos. Albert Ellis fundó su terapia racional emotiva sobre la idea de que las emociones nacen de las creencias. Si querés ver cómo se ejercita, el [Laboratorio estoico](/laboratorio-estoico/) propone ejercicios concretos, y [Séneca](/recursos/seneca/) y [Marco Aurelio](/recursos/marco-aurelio/) cuentan la misma tradición con otras voces.
+
+## Matices y límites
+
+Hay que leer a Epicteto con cuidado. Su frase sobre las opiniones no dice que lo que nos pasa sea «solo cosa de la cabeza». No sirve para pedirle a alguien que sufre abuso, pérdida o enfermedad que simplemente piense distinto. Tampoco hay investigación que pruebe el estoicismo antiguo como terapia: lo que se estudió son las técnicas cognitivas modernas, que sí tienen respaldo en depresión y ansiedad. Y el ideal de apatheia, de no dejarse mover por las pasiones, fue discutido desde siempre; la psicología actual no pide suprimir las emociones sino entenderlas. Epicteto es una buena brújula, no un tratamiento.
 
 ## Preguntas frecuentes
 

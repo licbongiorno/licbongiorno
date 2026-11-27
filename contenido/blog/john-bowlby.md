@@ -11,7 +11,7 @@ orden: 146
 estado: publicado
 respuesta: John Bowlby (1907-1990) fue un psiquiatra y psicoanalista británico, creador de la teoría del apego. Propuso que los chicos nacen con una necesidad básica de vincularse con un cuidador que les dé protección, que ese vínculo funciona como una base segura desde la cual explorar, y que las experiencias tempranas forman modelos internos que influyen en los vínculos posteriores. Estudió también la separación, la pérdida y el duelo.
 menciona: bowlby, apego, duelo
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 «No lo alces tanto, que se acostumbra». Muchas madres y padres escucharon ese consejo. John Bowlby mostró que buscar a quien nos cuida cuando tenemos miedo no es un capricho ni una malcrianza: es una necesidad básica, tan importante como comer. Y que la forma en que esa necesidad fue respondida deja una huella en cómo amamos de grandes.
 
@@ -46,6 +46,22 @@ Con James Robertson, Bowlby observó cómo reaccionaban los chicos pequeños sep
 La teoría del apego es hoy una de las más investigadas de la psicología, con aplicaciones en la crianza, la adopción, la terapia de pareja y la psicoterapia de adultos. Bowlby fue, además, un puente entre el psicoanálisis y la investigación empírica.
 
 En la consulta, el apego me ayuda a entender cómo alguien busca o evita la cercanía, y cómo eso aparece también en la relación terapéutica. Podés hacer el [test de estilos de apego](/test-de-estilos-de-apego/) o leer sobre [el duelo y las pérdidas](/duelo-y-perdidas/).
+
+## Un psicoanalista que miró a los chicos
+
+Bowlby trabajó en la Gran Bretaña de la posguerra, donde miles de chicos habían quedado separados de sus familias por los bombardeos y la evacuación. Su informe de 1951 para la Organización Mundial de la Salud, sobre los cuidados maternos y la salud mental, tuvo gran repercusión. Al mismo tiempo, los experimentos de Harry Harlow con monos, que en 1958 mostraron que las crías buscaban contacto y consuelo antes que alimento, dieron apoyo desde otro lado a la idea de que el vínculo no se reduce a la comida. En los años setenta, Mary Ainsworth diseñó la «situación extraña», un procedimiento para observar cómo reaccionan los bebés a la separación y al reencuentro con su cuidador.
+
+## Un ejemplo de todos los días
+
+En una plaza, un nene de dos años se aleja hacia el tobogán, mira hacia atrás, vuelve un momento a su papá y sale otra vez. Esa danza de ida y vuelta es la base segura en acción: sin la presencia disponible, explorar da miedo; con ella, se puede. De adultos pasa algo parecido. Hay quien, después de una discusión, necesita cercanía enseguida; y quien se aleja y se pone a trabajar. Ninguno está «mal»: son maneras aprendidas de manejar la distancia.
+
+## Cómo resuena hoy en la clínica
+
+La teoría del apego influye en el trabajo con bebés y familias, en la adopción y el acogimiento, y en la terapia de pareja y de adultos. Programas como el Círculo de Seguridad ayudan a madres y padres a leer las señales de sus hijos; la terapia basada en la mentalización de Peter Fonagy y colegas conecta el apego con la capacidad de pensar los estados mentales propios y ajenos. Un seguimiento de niños criados en instituciones rumanas mostró que el pasaje a familias de acogida mejoró su desarrollo, sobre todo cuando fue temprano. Podés leer sobre [el apego](/recursos/el-apego/), [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/), [la mentalización](/recursos/la-mentalizacion/) y [terapia de pareja](/recursos/terapia-de-pareja/).
+
+## Matices y límites
+
+El apego tiene mucha investigación, pero no es destino. Los estilos pueden cambiar con nuevas relaciones, y el temperamento, la cultura y las circunstancias también pesan. Bowlby fue criticado por poner el foco casi exclusivamente en la madre, cuando después se vio que los bebés se apegan a varias figuras; y la medición del apego en adultos es más discutida que la de los bebés. No conviene usar la teoría para culpar a madres y padres: criar bien no exige perfección sino una respuesta suficientemente sensible, algo que Winnicott llamaba «suficientemente buena». Y los estilos de apego son tendencias, no diagnósticos.
 
 ## Preguntas frecuentes
 
