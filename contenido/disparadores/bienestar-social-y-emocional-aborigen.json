@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona llega a un servicio de salud con insomnio y tristeza. Un cuestionario le pregunta por el sueño, el ánimo y los pensamientos. Pero lo que más pesa quizás es que murió un tío en otra comunidad y no pudo viajar al funeral, o que hace años no vuelve a su territorio.",
+   "p": "¿Cómo conviene entender lo que le pasa?",
+   "opciones": ["Como un problema individual de su mente que hay que medir", "Como algo ligado a sus conexiones con la familia, la comunidad y el territorio, además del cuerpo y la mente", "Como un detalle personal que no cambia el tratamiento"],
+   "r": "En Australia, el marco del bienestar social y emocional entiende la salud como un conjunto de siete conexiones: cuerpo, mente y emociones, familia y parentesco, comunidad, cultura, Country (el territorio) y espiritualidad y ancestros.",
+   "como": "Nació de los propios pueblos y organizaciones comunitarias, y se sistematizó en un capítulo de 2014 de Gee, Dudgeon, Schultz, Hart y Kelly, en el libro Working Together. Pat Dudgeon, del pueblo bardi, es considerada la primera psicóloga aborigen de Australia.",
+   "debate": "Es un marco conceptual y de políticas de salud, no una teoría que se mida con un puntaje único. Complementa la clínica occidental, no la reemplaza, y no significa que todas las personas aborígenes e isleñas prioricen los siete dominios del mismo modo.",
+   "seccion": "Los siete dominios"
+  },
+  {
+   "enigma": "En 1989, la Estrategia Nacional de Salud Aborigen de Australia definió la salud de una manera que sorprende a quien está acostumbrado a pensarla como algo individual.",
+   "p": "¿Cómo te parece que la definió?",
+   "opciones": ["Como la ausencia de enfermedad física en cada persona", "Como el bienestar social, emocional y cultural de toda la comunidad", "Como el equilibrio entre cuerpo y mente de cada individuo"],
+   "r": "La definió no como el bienestar físico de una persona sino como el bienestar social, emocional y cultural de toda la comunidad. Esa idea está en la base del modelo que vino después.",
+   "como": "Los propios pueblos y organizaciones comunitarias, como el sector de salud controlado por comunidades aborígenes, empujaron esa idea durante años. El capítulo de 2014 sistematizó lo que la experiencia comunitaria ya decía y lo volvió utilizable por profesionales de salud mental.",
+   "debate": "El modelo no descarta la psicoterapia occidental, como la cognitivo-conductual: la pone en contexto y pide usarla con seguridad cultural. Incluye además la historia colonial como determinante central, algo que otros modelos tratan de otro modo.",
+   "seccion": "De dónde viene"
+  }
+ ],
+ "abierta": "Si el bienestar depende tanto de las conexiones con otros y con el territorio, ¿cómo se evalúa y se acompaña a alguien sin dejar afuera lo que más le pesa? Es una discusión abierta en la salud mental."
+}

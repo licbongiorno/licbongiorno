@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien llega a un retiro esperando una experiencia que le cambie la vida. Le dicen que se siente, que mire la pared y que no haga nada especial. A las dos horas le duelen las rodillas y se aburre.",
+   "p": "¿Qué te parece que propone la práctica del chan?",
+   "opciones": ["Alcanzar rápido un estado de calma profunda", "Notar que la mente se fue y volver, sin retarse", "Vaciar la mente de todo pensamiento"],
+   "r": "En su versión más simple, la práctica consiste en notar que la mente se fue y volver, sin retarse. No promete iluminación ni calma inmediata. El chan es una escuela del budismo desarrollada en China; cuando llegó a Japón se llamó zen.",
+   "como": "El chan se formó en el encuentro del budismo indio con la cultura china. Sus textos, como el Sutra del estrado, se conservan en manuscritos de Dunhuang, y la traducción de Philip Yampolsky (1967) los difundió en inglés.",
+   "debate": "El chan no es una psicoterapia ni se evaluó como tratamiento. La investigación clínica sobre meditación se hizo con protocolos pensados para eso, y sus resultados no se pueden trasladar tal cual al chan histórico.",
+   "seccion": "Qué es el chan"
+  },
+  {
+   "enigma": "Según el relato, el monje más instruido escribió que la mente es un espejo que hay que pulir para que no se acumule el polvo. Un leñador que trabajaba en la cocina del monasterio respondió que el espejo no tiene soporte y que no hay dónde se pose el polvo.",
+   "p": "¿Cuál de las dos ideas se parece más a la del despertar súbito?",
+   "opciones": ["La del que pule el espejo con esfuerzo constante", "La del que dice que no hay polvo ni espejo que limpiar", "Las dos por igual"],
+   "r": "El poema de Shenxiu habla de una mente que se cultiva y se limpia con esfuerzo; el de Huineng, de una mente que no tiene nada que limpiar. Esa tensión sirve para entender la idea de iluminación súbita frente a la gradual.",
+   "como": "Aparece en el Sutra del estrado, en la versión del manuscrito de Dunhuang. Las versiones varían entre los textos y los especialistas consideran que el episodio es probablemente una construcción posterior.",
+   "debate": "Historiadores como McRae advirtieron que la oposición entre una escuela del sur, súbita, y una del norte, gradual, fue en buena medida un relato armado después. Algo parecido pasa con Bodhidharma, a quien los historiadores consideran una figura semilegendaria.",
+   "seccion": "El poema de Shenxiu y la respuesta de Huineng"
+  }
+ ],
+ "abierta": "Si las prácticas de atención plena se estudiaron en psicoterapia despojadas de su marco religioso, ¿qué se conserva y qué se pierde en ese traslado? Todavía se discute."
+}

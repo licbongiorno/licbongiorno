@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En muchos hogares tibetanos, cuando alguien muere, un lama o un familiar se sienta cerca y lee en voz alta. Le habla al difunto por su nombre, le recuerda qué le espera y le pide que no se aterre ante lo que vea.",
+   "p": "¿Qué creés que es ese texto?",
+   "opciones": ["Un manual de duelo para quienes quedan", "Un texto ritual y de práctica que se lee junto al difunto", "Un libro de filosofía para estudiar en vida"],
+   "r": "Es el Bardo Thödol, un texto ritual y de práctica que se lee junto al moribundo o al difunto durante un período que la tradición fija en torno a cuarenta y nueve días. Describe las visiones que, según esa doctrina, aparecen después de la muerte, y enseña a reconocerlas.",
+   "como": "En 1927, la editorial de la Universidad de Oxford publicó The Tibetan Book of the Dead, con la edición de Walter Y. Evans-Wentz y una traducción de base del lama Kazi Dawa Samdup. El título fue una elección de Evans-Wentz.",
+   "debate": "No es un manual de duelo ni una terapia. Y la doctrina del karma y el renacimiento, aplicada sin cuidado, puede volverse un reproche que daña a quien sufre. Ante una pérdida reciente, lo que más ayuda suele ser compañía y tiempo.",
+   "seccion": "Qué es el Bardo Thödol"
+  },
+  {
+   "enigma": "Carl Jung leyó este texto como la descripción de un recorrido interior: las visiones serían proyecciones de la propia mente.",
+   "p": "¿Qué problema le ves a esa lectura?",
+   "opciones": ["Ninguno: Jung conocía a fondo la tradición tibetana", "Es una lectura inteligente pero occidental, que reinterpreta el texto con categorías propias", "Que la psicología nunca puede decir nada de textos religiosos"],
+   "r": "Es una lectura inteligente y es una lectura occidental. Los estudiosos del budismo tibetano suelen señalar que, para la tradición, lo descripto no es solo psicología: hay un marco de karma y renacimiento.",
+   "como": "Jung escribió un comentario psicológico para la edición alemana de 1935, incluido después en la tercera edición inglesa (1957). No sabía tibetano y trabajó sobre una traducción.",
+   "debate": "El texto fue tomado también por la contracultura: Leary, Metzner y Alpert publicaron en 1964 The Psychedelic Experience, modelada sobre él, un uso muy ajeno al original. Se discute cuánto de estas lecturas respeta lo que el texto era para quienes lo practicaban.",
+   "seccion": "El comentario psicológico de Jung"
+  }
+ ],
+ "abierta": "¿Qué puede aprender de este texto quien acompaña una muerte sin compartir su doctrina? Es una pregunta que cada tradición responde a su manera."
+}

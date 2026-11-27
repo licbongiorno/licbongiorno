@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un hijo adulto llama a su madre «solo para charlar» y, sin decirlo, espera que ella note que estuvo mal. Si ella lo nota, se siente cálido. Si no, le duele más de lo que parece.",
+   "p": "¿Qué se frustró ahí?",
+   "opciones": ["Una norma de cortesía que el otro incumplió", "Una expectativa de ser acogido sin tener que pedirlo", "Una falta de claridad que se arregla hablando más fuerte"],
+   "r": "Takeo Doi llamó amae (甘え) a depender y presumir de la benevolencia del otro, con confianza. Cuando el otro no responde, lo frustrado no es una norma sino una expectativa de acogida, y de ahí puede nacer un resentimiento que el japonés nombra como uramu.",
+   "como": "Doi, psiquiatra y psicoanalista, llegó al concepto desde la clínica y desde la lengua: partió de una palabra cotidiana del japonés. Lo desarrolló en Amae no kōzō (1971), traducido al inglés como The Anatomy of Dependence.",
+   "debate": "Es un concepto interpretativo, no una teoría puesta a prueba con estudios controlados. Se apoya en anécdotas y en el análisis de palabras.",
+   "seccion": "Qué es el amae"
+  },
+  {
+   "enigma": "Hay una palabra japonesa para la dulce presunción de que el otro nos va a entender sin que lo digamos. En español no tenemos una igual.",
+   "p": "¿Creés que esa experiencia es propia de Japón?",
+   "opciones": ["Sí, es un rasgo exclusivo de su cultura", "No, pasa en todas partes aunque no siempre tenga nombre", "Solo pasa en culturas donde la familia es muy unida"],
+   "r": "Doi lo presentó como un rasgo especialmente japonés, pero muchos críticos señalan que dinámicas parecidas existen en otras culturas: la palabra es japonesa, el fenómeno probablemente no.",
+   "como": "Peter Dale, en The Myth of Japanese Uniqueness (1986), le dedica un capítulo crítico a Doi. En el año 2000, Rothbaum, Weisz, Pott, Miyake y Morelli publicaron en American Psychologist un artículo que discute si los supuestos universales de la teoría del apego valen igual en Estados Unidos y en Japón.",
+   "debate": "Las críticas vienen de los estudios sobre el nihonjinron, las teorías de la singularidad japonesa, donde suele ubicarse su obra. Con todo, el concepto sirve como lente para mirar la intimidad, no como explicación del carácter nacional.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Entre adultos, ¿cómo se pide cuidado sin exigir que el otro adivine, y sin vivir el apoyo como debilidad? Es una pregunta que muchas consultas ponen sobre la mesa."
+}

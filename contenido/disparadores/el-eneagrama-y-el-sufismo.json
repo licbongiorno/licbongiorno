@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Es una antigua enseñanza sufí, transmitida de maestro a discípulo durante siglos.» Se lee en libros, talleres y redes. La frase suena a verdad.",
+   "p": "¿Qué pregunta harías antes de creerla?",
+   "opciones": ["Ninguna, si tanta gente lo repite, será verdad", "Si alguien puede mostrar cómo llegó hasta nosotros", "Cuántos tipos de personalidad tiene"],
+   "r": "Casi toda la confusión nace de que «eneagrama» nombra dos cosas: una figura geométrica y un modelo de nueve tipos de personalidad. La figura la presentó Gurdjieff como símbolo de procesos; los nueve tipos vienen después. La atribución sufí no se puede documentar.",
+   "como": "Gurdjieff presentó el eneagrama hacia 1916, según su discípulo Ouspensky. Hablaba de fuentes orientales y de una hermandad llamada Sarmoung, de la que los historiadores no han encontrado documentación independiente. Los nueve tipos salen de los cursos de Oscar Ichazo desde fines de los años sesenta y de la versión de Claudio Naranjo.",
+   "debate": "Ichazo negó que sus enseñanzas derivaran del sufismo o de Gurdjieff. Atribuirle al sufismo una paternidad que no se puede demostrar convierte una tradición religiosa viva en un sello de antigüedad para un producto del siglo XX.",
+   "seccion": "Dos cosas con el mismo nombre"
+  },
+  {
+   "enigma": "Un modelo puede tener un origen glorioso y no ser útil, o un origen dudoso y funcionar. El eneagrama de nueve tipos se usa hoy en consulta y empresas.",
+   "p": "¿Qué creés que dice la investigación sobre su validez?",
+   "opciones": ["Que está muy validado por décadas de estudios", "Que la evidencia es limitada y escasa", "Que fue refutado de forma definitiva"],
+   "r": "La evidencia es limitada. Una revisión sistemática publicada en 2021 en el Journal of Clinical Psychology (Hook y colegas) concluyó que la investigación es escasa. Hay que separar el origen de la validez.",
+   "como": "Es una revisión sistemática de los estudios disponibles. Antes, el modelo circuló por libros como The Enneagram de Helen Palmer (1988) y Personality Types de Don Riso (1987), un linaje del siglo XX.",
+   "debate": "Si alguien te dice que tu tipo explica por qué no podés cambiar, o que el de tu pareja justifica su conducta, conviene desconfiar. Puede servir como lenguaje para pensarse, no como diagnóstico.",
+   "seccion": "Qué respaldo científico tiene"
+  }
+ ],
+ "abierta": "Si un modelo ayuda a muchas personas a pensarse aunque no esté validado, ¿cómo se aprovecha lo útil sin tomarlo por una verdad antigua? Es una discusión abierta."
+}

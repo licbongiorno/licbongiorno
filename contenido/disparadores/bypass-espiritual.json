@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien perdió a su padre hace dos meses. Cuando una amiga le pregunta cómo está, contesta con calma: «Todo pasa por algo, ya lo solté». Esa noche medita media hora y no vuelve a hablar del tema. Meditó, confió, aceptó.",
+   "p": "¿Qué te parece que hay que mirar para entender si hizo bien?",
+   "opciones": ["Si la práctica que eligió es buena o mala en sí misma", "Qué función cumple esa práctica para él en este momento", "Cuánto tiempo pasó desde la pérdida"],
+   "r": "El bypass espiritual depende de la función que cumple la práctica, no de la práctica en sí: aparece cuando una idea o práctica espiritual sirve para no tocar algo que sigue vivo. Se puede meditar o rezar y, a la vez, llorar una pérdida.",
+   "como": "El psicoterapeuta John Welwood acuñó la expresión «bypass espiritual» en 1984. Lo observó en la comunidad budista en la que participaba y también en sí mismo: no lo describió como un defecto de otros sino como una tentación que conocía por dentro.",
+   "debate": "El concepto nació de la observación clínica y personal. Es una propuesta descriptiva útil para pensar, pero no un diagnóstico ni un conjunto de signos medidos en estudios, y nadie puede decidir desde afuera que lo de otra persona es bypass.",
+   "seccion": "Qué es el bypass espiritual"
+  },
+  {
+   "enigma": "Una persona nota que su calma aparece enseguida y no se siente del todo propia. El enojo, en cambio, vuelve una y otra vez sin resolverse.",
+   "p": "¿Cómo podría leerse eso?",
+   "opciones": ["Como señal de que la espiritualidad no sirve", "Como una invitación a mirar con amabilidad lo que quedó sin sentir", "Como prueba de que esa persona está haciendo algo mal"],
+   "r": "Esas señales, siempre personales, pueden ser una invitación a mirar con más amabilidad lo que quedó sin sentir, y no un motivo de culpa. En terapia se le da lugar a lo no sentido, sin cuestionar las creencias, para que la práctica acompañe en lugar de tapar.",
+   "como": "Surge de la observación clínica. Una pregunta útil, ante una práctica o una frase, es qué está haciendo por mí en este momento.",
+   "debate": "No es una crítica a ninguna tradición: puede darse dentro de cualquier religión o fuera de todas, y el optimismo obligatorio hace algo parecido. Ante un duelo reciente o una crisis, la meditación puede no ser lo indicado en ese momento.",
+   "seccion": "Cómo darse cuenta"
+  }
+ ],
+ "abierta": "¿Cómo se distingue, desde adentro, una espiritualidad que integra lo emocional de una que sirve de salida de emergencia? Quizás solo se aprende con el tiempo."
+}

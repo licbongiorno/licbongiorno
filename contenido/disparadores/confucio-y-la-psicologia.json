@@ -1,0 +1,24 @@
+{
+ "autor": "Confucio",
+ "preguntas": [
+  {
+   "enigma": "Una mujer de cuarenta años vive lejos de sus padres y cada domingo siente que tiene que llamar. No es solo cariño: hay una especie de deuda, y también orgullo de poder cumplirla. Un domingo no llama y se pregunta si es mala hija.",
+   "p": "¿Qué hay detrás de esa llamada del domingo?",
+   "opciones": ["Una obligación que solo existe por presión de la familia", "Un modo de ser persona en los vínculos: nos hacemos en los roles que ocupamos", "Una costumbre sin ningún sentido emocional"],
+   "r": "Para la tradición confuciana, uno es hijo, madre, vecino o maestro, y se hace persona en esos roles. Es lo contrario de pensar al individuo como alguien que primero existe solo y después se vincula. Los rituales, como una llamada o una comida, dan forma compartida a emociones que de otro modo quedarían sin cauce.",
+   "como": "Las enseñanzas de Confucio, que vivió en China entre los siglos VI y V antes de nuestra era, llegan en buena parte por las Analectas, un libro de dichos reunidos por discípulos. La psicología actual retomó la idea: Kwang-Kuo Hwang la desarrolló como relacionismo confuciano, y Markus y Kitayama (1991) hablaron de un yo interdependiente.",
+   "debate": "La distinción entre yo interdependiente e independiente es influyente y también discutida: conviene usarla como una lente y no como una etiqueta para cada persona. Además, el confucianismo no se evaluó como tratamiento.",
+   "seccion": "El yo relacional"
+  },
+  {
+   "enigma": "Cuidar a los padres puede ser un acto de afecto y gratitud, o puede vivirse como obediencia y sacrificio por mandato. Por fuera se ven igual.",
+   "p": "¿Creés que son lo mismo?",
+   "opciones": ["Sí, es el mismo deber con distinto nombre", "No: cambian el sentido y el costo emocional para quien cuida", "Solo importa lo que hace la persona, no por qué lo hace"],
+   "r": "La psicología distingue una piedad filial recíproca, que implica apoyo y cuidado por afecto y gratitud, y una autoritaria, que implica obediencia y sacrificio por la autoridad paterna o por normas prescriptas.",
+   "como": "Yeh y Bedford (2003) propusieron este modelo de doble piedad filial. Es un ejemplo de cómo la psicología estudió el respeto filial con más matices que la imagen de la simple obediencia.",
+   "debate": "Una ética que pone la obediencia a los mayores en el centro puede volverse una carga si la familia es abusiva o controladora, y las jerarquías de edad y género pueden silenciar a quien tiene menos poder. Las lecturas feministas actuales no son unánimes: algunos autores ven puntos en común con la ética del cuidado y otros lo discuten.",
+   "seccion": "La piedad filial, de la obligación al cuidado"
+  }
+ ],
+ "abierta": "¿Qué se le debe a quienes nos criaron, y cómo cumplirlo sin que la culpa gobierne? Cada familia y cada cultura lo responde distinto."
+}

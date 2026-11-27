@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un hombre empieza a meditar varias horas por día. A las dos semanas casi no duerme, siente que tiene una misión que nadie más entiende y deja de ocuparse de su casa. Su familia no sabe si está viviendo una transformación o si se enfermó.",
+   "p": "¿Cuál te parece la respuesta más prudente?",
+   "opciones": ["Que es un despertar y no hace falta tratarlo", "Que es una enfermedad y hay que tratarlo sin más", "Que no hay que decidirlo de entrada: lo primero es cuidar su estabilidad y evaluar con cuidado"],
+   "r": "Una crisis espiritual no debe confundirse ni con normalidad automática ni con patología automática. Decir «es un despertar» puede dejar sola a una persona que lo necesita; decir «es un brote» sin explorar puede borrar el sentido que la vivencia tiene para ella. Lo urgente es la seguridad de la persona.",
+   "como": "Stanislav y Christina Grof editaron en 1989 Spiritual Emergency, que describe crisis donde el crecimiento se vuelve caótico y abrumador. David Lukoff, Francis Lu y Robert Turner propusieron en 1992 una categoría para el DSM-IV, aceptada como «Problema religioso o espiritual».",
+   "debate": "La emergencia espiritual es una propuesta teórica y clínica, no un diagnóstico con criterios validados. La categoría del DSM-IV visibilizó el tema, pero no surgió de datos empíricos.",
+   "seccion": "Ni normalidad ni patología automática"
+  },
+  {
+   "enigma": "Cuando alguien atraviesa una vivencia espiritual muy intensa, a veces sus cercanos sienten que tienen que decidir enseguida qué nombre ponerle.",
+   "p": "¿Qué ayuda más a quien la atraviesa?",
+   "opciones": ["Que le expliquen qué le pasa con total seguridad", "Un entorno estable, dormir, comer, no estar solo y alguien que escuche sin burlarse ni dar por cierta cualquier interpretación", "Que lo dejen solo hasta que pase"],
+   "r": "Ayuda un entorno estable: dormir, comer, no estar solo y poder hablar con alguien que escuche sin burlarse ni dar por cierta cualquier interpretación. Un profesional con apertura hacia lo espiritual puede evaluar con cuidado y, si hace falta, trabajar con la familia.",
+   "como": "Es conocimiento clínico general: evaluar con cuidado y acompañar sin imponer. La discusión sobre el sentido de lo vivido puede esperar a que la persona esté a salvo.",
+   "debate": "Prácticas intensas como la meditación no son para todos ni en todo momento. Sigue abierta la discusión sobre cómo distinguir una crisis de crecimiento de un cuadro que necesita tratamiento.",
+   "seccion": "Acompañar sin imponer"
+  }
+ ],
+ "abierta": "¿Cómo se distingue una vivencia que transforma de una que desorganiza, y quién tiene que decirlo? Es un límite que la psicología todavía no resolvió del todo."
+}

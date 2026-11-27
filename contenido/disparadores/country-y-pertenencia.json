@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En español decimos «extraño mi casa». Muchas personas aborígenes de Australia, al hablar de su territorio, dicen algo más parecido a «mi casa me extraña».",
+   "p": "¿Qué creés que expresa esa segunda frase?",
+   "opciones": ["Una manera poética de hablar, sin consecuencias para la salud", "Que el lugar es como un pariente: la persona lo necesita y también lo cuida", "Que extrañar el hogar es algo que se supera con el tiempo"],
+   "r": "En el inglés aborigen, Country nombra el territorio con el que una persona o grupo tiene lazos de pertenencia: tierra, aguas, cielo, animales, plantas, ancestros e historias. No equivale a paisaje ni a propiedad: se habla de Country como de un pariente, con obligaciones en ambos sentidos.",
+   "como": "En 2009, Burgess y colegas publicaron en el Medical Journal of Australia un estudio con 298 adultos indígenas de una comunidad de Arnhem Land. Kingsley y colaboradores (2013) entrevistaron a personas aborígenes de Victoria, y Country apareció como componente de base del bienestar.",
+   "debate": "Australia tiene más de doscientas lenguas aborígenes, y cada pueblo tiene su propio Country, sus leyes y sus historias: hablar de «el Country aborigen» es una simplificación. Hay menos sustento para afirmar mecanismos precisos, porque la mayoría de los estudios son transversales o cualitativos.",
+   "seccion": "Qué es Country"
+  },
+  {
+   "enigma": "Alguien vive lejos de su territorio, por traslados forzados, por la separación de familias o por trabajo. No tiene un síntoma que pueda listarse, pero cuenta que algo le falta.",
+   "p": "¿Cómo conviene entender ese sufrimiento?",
+   "opciones": ["Como un trastorno con criterios diagnósticos propios", "Como una manera, nombrada por las propias personas, de decir un sufrimiento con historia", "Como nostalgia pasajera"],
+   "r": "En la literatura sobre salud indígena aparece la expresión longing for Country, el anhelo del territorio. No es un diagnóstico ni una escala validada: es una forma de decir un sufrimiento que tiene historia, porque el despojo de tierras fue una política colonial y no un accidente.",
+   "como": "Nace de los relatos de las propias comunidades. Fuera de Australia, la psicología ambiental estudia cosas cercanas: el apego al lugar y la solastalgia, término propuesto por Glenn Albrecht en 2005 para el malestar por perder un entorno querido.",
+   "debate": "Los paralelos con la psicología ambiental sirven para entender que perder un lugar puede doler de verdad, pero tienen un límite: no equivalen a la relación de parentesco y obligación que describe Country. Para quien no pertenece a esos pueblos, lo más honesto es aprender con respeto y no tomar palabras prestadas sin permiso.",
+   "seccion": "«Longing for Country»"
+  }
+ ],
+ "abierta": "Si el vínculo con un lugar importa tanto para la salud, ¿qué se pierde cuando alguien es separado de él, y qué haría falta para repararlo? Es una pregunta que se está investigando."
+}

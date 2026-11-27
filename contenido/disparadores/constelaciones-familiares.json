@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una sala con quince personas en círculo. Alguien cuenta que se siente aparte de su familia desde siempre. Elige entre los presentes a quienes representarán a su madre, a su padre y a ella misma, y los ubica donde le parece. Los representantes dicen lo que sienten en ese lugar: tensión, distancia, ganas de irse.",
+   "p": "¿De dónde creés que vienen esas sensaciones?",
+   "opciones": ["De que perciben algo real de personas que no conocen", "De su imaginación, su propia historia y la sugestión del grupo", "De que el coordinador les dice qué sentir"],
+   "r": "La idea central, que los representantes perciban algo real de personas que no conocen, no tiene sustento científico. Lo que dicen puede venir de la imaginación, de la propia historia, de la sugestión del grupo y de lo que esperan que se diga. Aun así, mucha gente describe la experiencia como conmovedora: ver una escena familiar puesta en el espacio puede ordenar emociones y abrir preguntas.",
+   "como": "El método lo creó Bert Hellinger (1925-2019), alemán y ex sacerdote católico. Se difundió en muchos países, entre ellos la Argentina, en talleres grupales y consultas individuales.",
+   "debate": "Distinguir entre lo que puede ser una experiencia valiosa y lo que se afirma sobre cómo funciona es parte del debate. La figura del creador es controvertida, y por eso muchos profesionales piden cautela.",
+   "seccion": "Cómo es un encuentro"
+  },
+  {
+   "enigma": "Un equipo de la Universidad de Heidelberg hizo un ensayo aleatorizado con seminarios de constelaciones y encontró mejoras. Sin embargo, no alcanza para decir que cualquier taller que lleve ese nombre sirve.",
+   "p": "¿Qué te parece que hay que mirar antes de sacar conclusiones?",
+   "opciones": ["Quién condujo los seminarios y qué problemas se trabajaban", "Solo si los participantes dijeron sentirse mejor", "Si el método tiene muchos años de existencia"],
+   "r": "Los seminarios del estudio estaban inspirados en Hellinger, pero los conducían psicoterapeutas formados y se centraban en problemas de relación, no en «sanar». Los resultados no se pueden extender a cualquier taller con el mismo nombre.",
+   "como": "Weinhold, Hunger, Bornhäuser y Schweitzer (2013) publicaron el ensayo en el Journal of Counseling Psychology, con mejoras en el funcionamiento psicológico; los seguimientos a 8 y 12 meses salieron en Family Process (2015).",
+   "debate": "La evidencia general sigue en discusión: Konkolÿ Thege y colaboradores publicaron en 2021 una revisión sistemática actualizada. Una señal de alarma señalada es que se sugiera a quien sufrió abuso o violencia que debe «honrar» o reconciliarse con quien lo dañó, porque puede revictimizar.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si ver una escena familiar desde afuera puede ordenar emociones, ¿qué es exactamente lo que ayuda y qué se podría conservar sin las ideas que no tienen respaldo?"
+}

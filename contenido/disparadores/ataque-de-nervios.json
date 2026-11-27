@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En un velorio, tras una noticia que nadie esperaba, una mujer grita, le tiemblan las manos, siente un calor que le sube del pecho y cae. Los demás la sostienen y la acompañan. Nadie dice «ataque de pánico»: dicen «le dio un ataque de nervios».",
+   "p": "¿Qué creés que es lo que le pasó?",
+   "opciones": ["Una forma de expresar un sufrimiento que tiene nombre propio en su comunidad", "Un ataque de pánico al que simplemente le dieron otro nombre", "Un exceso de dramatismo para llamar la atención"],
+   "r": "Es un concepto cultural de malestar: una forma en que ciertos grupos, sobre todo latinos del Caribe, expresan, explican y nombran el sufrimiento. Suele surgir tras un hecho estresante del entorno familiar, con gritos o llanto, temblores, calor en el pecho y vivencia de perder el control.",
+   "como": "Guarnaccia y Lewis-Fernández lo investigaron en poblaciones latinas. La investigación respalda que es una experiencia frecuente, que se asocia con malestar psíquico y que no se explica del todo por otro diagnóstico.",
+   "debate": "No muestra que sea una enfermedad con causa única ni que se trate como cualquier otro cuadro. Y no todos los latinos viven así el sufrimiento: es una categoría útil cuando la persona se reconoce en ella, no una etiqueta según el origen.",
+   "seccion": "Qué se describe"
+  },
+  {
+   "enigma": "Durante décadas la psiquiatría llamó «síndromes ligados a la cultura» a cuadros como este y los miraba como rarezas exóticas. En 2013 cambió la forma de nombrarlos.",
+   "p": "¿Qué cambio te parece que hizo?",
+   "opciones": ["Los eliminó por no ser enfermedades reales", "Pasó a verlos como formas culturales de expresar y explicar el sufrimiento, que dan pistas para preguntar mejor", "Los reunió en un único diagnóstico universal"],
+   "r": "El DSM-5 (2013) dejó de hablar de síndromes ligados a la cultura y propuso conceptos culturales de malestar. No son un diagnóstico propio sino una pista sobre cómo vive la persona lo que le pasa. Sumó además una Entrevista de Formulación Cultural.",
+   "como": "El DSM-IV (1994) había incluido un glosario de síndromes ligados a la cultura. El cambio recoge la investigación en psiquiatría cultural, que propone primero escuchar qué pasó antes, quién estaba y cómo respondió la familia.",
+   "debate": "Se superpone en parte con la crisis de angustia, pero se encontraron casos de uno sin el otro. Por eso conviene que lo evalúe un profesional, sin traducirlo enseguida a otra etiqueta ni descartarlo como «teatro».",
+   "seccion": "Del «síndrome ligado a la cultura» al concepto cultural de malestar"
+  }
+ ],
+ "abierta": "Si el modo de expresar el sufrimiento es en parte social, porque los demás lo ven, lo nombran y responden, ¿cuánto de lo que sentimos depende de cómo nos acompañan? Todavía se discute."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien atraviesa una época de mucho estrés, duerme mal y anda irritable. Una amiga le dice que es «puro vata» y le recomienda un frasco que compró por internet. Suena antiguo, natural y, por lo tanto, inofensivo.",
+   "p": "¿Qué te parece que conviene pensar de un preparado así?",
+   "opciones": ["Que si es natural y milenario, no puede hacer daño", "Que una planta con efectos sobre el ánimo es una sustancia activa y puede interactuar con otros medicamentos", "Que si lo vende una tienda es porque pasó controles de calidad"],
+   "r": "Una planta que actúa sobre el ánimo es una sustancia activa, y puede interactuar con un antidepresivo, un ansiolítico o un anticoagulante. Además, el contenido real de un frasco comprado por internet puede no coincidir con su etiqueta.",
+   "como": "El equipo del médico Robert Saper, en Boston, analizó 70 preparados ayurvédicos comprados en negocios (JAMA, 2004) y encontró que 14, uno de cada cinco, contenían plomo, mercurio o arsénico. En 2008 repitió el estudio con 193 productos comprados por internet y el 20,7 % tenía metales detectables.",
+   "debate": "No todos los preparados son peligrosos, y algunas recomendaciones del ayurveda, como rutinas de sueño regulares o comidas a horario, coinciden con lo que la investigación respalda por otras vías. Eso no prueba la teoría de los doshas.",
+   "seccion": "Un riesgo documentado: los metales pesados"
+  },
+  {
+   "enigma": "La ashwagandha es hoy el producto ayurvédico más vendido para el estrés y el sueño. Muchas personas dicen que les sirvió.",
+   "p": "¿Qué creés que muestra la investigación?",
+   "opciones": ["Que está probado que cura la ansiedad", "Que hay algunos resultados alentadores, pero con evidencia de baja certeza y con riesgos a considerar", "Que los estudios demostraron que no tiene ningún efecto"],
+   "r": "Una revisión de doce ensayos con unas mil personas encontró que reducía la ansiedad y el estrés autoinformados frente a un placebo, pero los propios autores calificaron la certeza como baja: pocos ensayos, muestras chicas, extractos y dosis distintos.",
+   "como": "La revisión es de Akhgarjand y colaboradores (2022). Del lado de los riesgos, en 2020 se describieron cinco casos de daño hepático atribuido a la ashwagandha, que se recuperaron al dejarla.",
+   "debate": "El NCCIH de Estados Unidos resume que la evidencia sobre ansiedad no es clara, desaconseja usarla en el embarazo y la lactancia, y advierte de interacciones con varios medicamentos. No se conoce su seguridad a largo plazo. La decisión conviene conversarla con un médico.",
+   "seccion": "La ashwagandha: lo que se sabe y lo que no"
+  }
+ ],
+ "abierta": "Hace siglos distintas tradiciones, como la griega con sus humores, ordenaron el carácter en pocos tipos. ¿Qué haría falta para saber si una clasificación así describe algo real de las personas?"
+}

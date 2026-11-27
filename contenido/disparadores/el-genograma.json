@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dibujás a tu familia en un papel y de pronto lo notás: la abuela, tu mamá y vos se casaron a la misma edad. En cada generación hubo un hermano que se fue lejos y no volvió. Nadie habla del tío que murió joven.",
+   "p": "¿Qué creés que muestra un dibujo así?",
+   "opciones": ["Casualidades que no significan nada", "Patrones que se repiten entre generaciones y que conviene empezar a hablar", "Una herencia genética de la conducta"],
+   "r": "Un genograma es una representación gráfica de la familia, de al menos tres generaciones. Hace visible lo que de otro modo no se ve, como lo que se repite o lo que no se habla. Es más que un árbol genealógico.",
+   "como": "Las terapeutas Monica McGoldrick y Randy Gerson lo sistematizaron en los años ochenta, a partir del trabajo de Murray Bowen sobre la transmisión de patrones entre generaciones.",
+   "debate": "Ver una repetición no prueba que una generación cause la siguiente: es una pista para conversar, no una explicación. Lo que se infiere del dibujo conviene explorarlo con las personas involucradas.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Cuando miramos el dibujo de nuestra familia, aparecen vacíos: personas de las que casi no se habla o preguntas que nadie hizo.",
+   "p": "¿Qué te sugiere que conviene preguntarse?",
+   "opciones": ["Qué se repite, qué me llama la atención y de quién no se habla", "Quién tiene la culpa de lo que se repite", "Cómo borrar lo que molesta"],
+   "r": "Las preguntas que propone el trabajo con un genograma son qué se repite, qué llama la atención y de quién no se habla. Lo que no se habla en una generación muchas veces se repite en la siguiente, y dibujarlo es una forma de empezar a hablarlo.",
+   "como": "En terapia se usan símbolos para marcar quién falleció, las parejas, las separaciones y, con líneas de colores, cómo son los vínculos. Se parte de una persona en el centro, con sus hermanos, sus padres y sus abuelos.",
+   "debate": "Es una herramienta clínica de la terapia sistémica, con algo de investigación, pero se usa sobre todo como una forma de organizar y hacer visible la información de la familia, no como una prueba.",
+   "seccion": "Para qué sirve"
+  }
+ ],
+ "abierta": "Si lo que no se habla en una familia suele repetirse, ¿qué hace falta para que decirlo cambie algo? Todavía se estudia."
+}

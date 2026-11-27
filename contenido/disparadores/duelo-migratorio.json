@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te fuiste a vivir a otro país porque quisiste. Te va bien: trabajo estable, amistades. Un domingo cualquiera suena una canción y llorás sin parar. No extrañás un lugar en particular: extrañás que alguien te llame por el diminutivo de la infancia.",
+   "p": "¿Cómo se explica esa tristeza si fue una elección?",
+   "opciones": ["Es un arrepentimiento que todavía no se admite", "Es un duelo por muchas pérdidas a la vez, aunque la decisión haya sido propia", "Es una debilidad que desaparece con el tiempo"],
+   "r": "Es un duelo migratorio: no es debilidad ni arrepentimiento. Al irse se dejan muchas cosas al mismo tiempo, y por eso el psiquiatra Joseba Achotegui lo describió como un duelo múltiple.",
+   "como": "Nace de la clínica con personas migrantes. En la práctica se recorren las pérdidas una por una y se escucha qué lugar tenía cada una en la vida de la persona: no es lo mismo dejar una casa que dejar un rol social.",
+   "debate": "Es una construcción clínica útil, pero las investigaciones sobre salud mental de personas migrantes muestran resultados variados según el país, las condiciones de llegada, el apoyo social y la discriminación que enfrentan.",
+   "seccion": "Qué se pierde al migrar"
+  },
+  {
+   "enigma": "A diferencia de otros duelos, lo que se perdió sigue existiendo: se puede volver de visita o hablar por videollamada.",
+   "p": "¿Eso hace el duelo más fácil o más difícil?",
+   "opciones": ["Más fácil, porque nunca es definitivo", "Distinto: se vuelve parcial y se reactiva con cada viaje, fecha especial o noticia de allá", "No cambia nada"],
+   "r": "Es un duelo parcial y recurrente. Puede reactivarse con cada viaje o fecha especial, y puede aparecer culpa por los que quedaron o la sensación de no pertenecer del todo a ningún lado.",
+   "como": "Achotegui distinguió el duelo migratorio simple del vivido en condiciones extremas, sin papeles, con soledad forzada, miedo y lucha por sobrevivir, al que llamó síndrome de Ulises.",
+   "debate": "No todas las migraciones son iguales: no es lo mismo irse por elección que por obligación, persecución o pobreza. Lo que se repite es que las condiciones del nuevo lugar pesan mucho en cómo se atraviesa.",
+   "seccion": "Un duelo particular"
+  }
+ ],
+ "abierta": "Si uno puede pertenecer a dos lugares y a la vez sentir que no pertenece del todo a ninguno, ¿qué ayuda a que las raíces crezcan en dos tierras? Es una pregunta abierta."
+}
