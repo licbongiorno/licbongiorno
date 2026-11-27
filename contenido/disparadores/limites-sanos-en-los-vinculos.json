@@ -2,7 +2,7 @@
  "preguntas": [
   {
    "enigma": "«Sí, dale, no hay problema». Lo dijiste de nuevo, y mientras lo decías ya sabías que sí había un problema. Después vienen el cansancio y la bronca con vos mismo por no haber dicho lo que pensabas.",
-   "p": "¿Por qué crees que a mucha gente le cuesta tanto decir que no?",
+   "p": "¿Por qué creés que a mucha gente le cuesta tanto decir que no?",
    "opciones": ["Porque son demasiado buenas personas", "Porque les falta carácter y no se pueden cambiar", "Porque suele mezclarse con culpa, miedo al rechazo o aprendizajes de la infancia"],
    "r": "Poner un límite no es solo técnica. Intervienen la culpa (sentirla no significa estar haciendo algo mal), el miedo al rechazo o al conflicto, los roles aprendidos y una identidad construida sobre ser útil. La mirada psicoanalítica agrega que el «sí» automático puede proteger de una angustia más antigua, la de quedar solo o dejar de ser querido.",
    "como": "Surge de la clínica y de una larga tradición de terapia familiar. Si en la infancia desacordar traía enojo, silencio o castigo, el cuerpo aprende que decir que no es peligroso.",
@@ -11,7 +11,7 @@
   },
   {
    "enigma": "Una persona no puede decir que no y siente que todo lo que le pasa al otro le pasa a ella. Otra nunca pide ayuda y se aleja cuando alguien se acerca demasiado. Parecen opuestas.",
-   "p": "¿Qué crees que tienen en común?",
+   "p": "¿Qué creés que tienen en común?",
    "opciones": ["Nada: una es muy débil y la otra muy fuerte", "Las dos tienen dificultades con los límites, uno demasiado difuso y otro demasiado rígido", "Las dos tienen exceso de límites"],
    "r": "Hay un continuo: límites difusos (se mezclan los espacios, el desacuerdo se vive como amenaza), rígidos (muros altos, la distancia se confunde con independencia) y claros (permeables y firmes a la vez). Casi nadie vive en un solo lugar: hay quien es flexible en el trabajo y rígido en la pareja, o al revés.",
    "como": "Salvador Minuchin, creador de la terapia familiar estructural, describió ese continuo en 1974 con los términos aglutinamiento y desligamiento, para pensar a las familias, y sirve también para las relaciones individuales.",

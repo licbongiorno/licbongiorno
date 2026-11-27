@@ -2,7 +2,7 @@
  "preguntas": [
   {
    "enigma": "Alguien se equivoca con un nombre en una reunión. Horas después sigue repasando la escena. No piensa «dije algo incorrecto», sino «soy un desastre», y decide no hablar más en las próximas reuniones.",
-   "p": "¿Qué crees que cambia entre pensar «hice algo malo» y «soy malo»?",
+   "p": "¿Qué creés que cambia entre pensar «hice algo malo» y «soy malo»?",
    "opciones": ["Nada: son dos formas de decir lo mismo", "Lo primero permite reparar; lo segundo empuja a esconderse", "Lo segundo es más sano porque es más honesto"],
    "r": "En la vergüenza, la evaluación negativa recae sobre el sí mismo («soy malo»); en la culpa, sobre una acción («hice algo malo»). Parece un matiz, pero cambia lo que la persona hace después: si el problema es una acción, se puede enmendar; si es quién soy, solo queda esconderse.",
    "como": "Helen Block Lewis propuso la distinción en 1971 y Tangney y Dearing (2002) la confirmaron empíricamente: la vergüenza se asoció con consecuencias más negativas, y la culpa, con reparar.",
@@ -11,7 +11,7 @@
   },
   {
    "enigma": "Algo dispara la vergüenza y la persona se aísla o se ataca a sí misma. Como no cuenta nada, nadie puede desmentir lo que piensa de sí. Y el aislamiento le confirma que algo anda mal en ella.",
-   "p": "¿Qué crees que ayuda a salir de ese círculo?",
+   "p": "¿Qué creés que ayuda a salir de ese círculo?",
    "opciones": ["Esforzarse por no sentirla", "Ponerle nombre y contárselo a alguien que no juzgue", "Esperar a que se pase sola mientras se evita a los demás"],
    "r": "La vergüenza suele vivirse como un deseo de achicarse, de no ser visto. Es una emoción social, frecuente en la ansiedad social, y a veces se esconde detrás de irritabilidad, crítica o perfeccionismo. Pierde fuerza cuando se comparte y encuentra una respuesta que no juzga. Ponerle nombre y separar el hecho de la identidad ayuda.",
    "como": "Paul Gilbert y la terapia centrada en la compasión la trabajan de manera directa, desarrollando una relación más amable con la propia experiencia. Lo demás surge de la práctica clínica general.",

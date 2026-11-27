@@ -2,7 +2,7 @@
  "preguntas": [
   {
    "enigma": "Dos personas faltan a una promesa importante con un amigo. Una se queda pensando «hice algo malo». La otra, «soy una mala persona».",
-   "p": "¿Cuál de las dos crees que es más probable que llame al amigo para reparar?",
+   "p": "¿Cuál de las dos creés que es más probable que llame al amigo para reparar?",
    "opciones": ["La segunda, porque se siente peor y eso la empuja a actuar", "Las dos por igual: lo que piensen no cambia lo que hacen", "La primera, porque su malestar apunta a lo que hizo y no a lo que es"],
    "r": "La investigación distingue culpa («hice algo malo») de vergüenza («soy algo malo»). La culpa proporcionada tiende a llevar a reparar; la vergüenza, a esconderse o a atacar.",
    "como": "June Tangney y Ronda Dearing (2002) estudiaron esas dos emociones y sus consecuencias en la conducta y las relaciones.",
@@ -11,7 +11,7 @@
   },
   {
    "enigma": "Un hombre cuida a su madre mayor. Se siente culpable si sale con amigos, culpable si se queda, culpable por impacientarse, y cada gesto de cuidado le parece insuficiente.",
-   "p": "¿De dónde crees que viene una culpa así de constante?",
+   "p": "¿De dónde creés que viene una culpa así de constante?",
    "opciones": ["De que en realidad está haciendo las cosas mal", "De una voz interna muy exigente que se formó con normas y mandatos recibidos", "De que no tiene suficiente fuerza de voluntad"],
    "r": "Freud describió el superyó, la internalización de las normas y exigencias de quienes nos criaron y de la cultura. Es necesario para vivir con otros, pero cuando es muy severo se vuelve un juez que no admite errores. Muchas veces repite frases escuchadas de chico.",
    "como": "Surge de la clínica psicoanalítica. Melanie Klein pensó la culpa como parte de la capacidad de reparar, y en terapia se distingue la responsabilidad real de la culpa heredada o difusa.",

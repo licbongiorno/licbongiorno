@@ -1,0 +1,24 @@
+{
+ "autor": "Rogers",
+ "preguntas": [
+  {
+   "enigma": "Un terapeuta no usa ninguna técnica sofisticada: escucha, acepta y devuelve lo que entiende. Otro maneja un método muy elaborado de otra escuela. Se compara a quienes terminan mejor en cada caso.",
+   "p": "¿Qué factor se asocia de forma más consistente con buenos resultados, más allá del enfoque?",
+   "opciones": ["La técnica específica que usa cada escuela", "La empatía del terapeuta y la alianza terapéutica", "La cantidad de sesiones, sin importar cómo sean"],
+   "r": "La investigación muestra que la alianza terapéutica y la empatía del terapeuta están entre los factores que más se asocian con buenos resultados, más allá del enfoque, como en los trabajos de John Norcross y Bruce Wampold. Un metaanálisis de Elliott, Bohart, Watson y Murphy (2018) encontró una asociación moderada entre empatía y resultado.",
+   "como": "Con metaanálisis que reúnen muchos estudios y comparan la empatía y la alianza con los resultados. Rogers ya había grabado sesiones en su época, algo novedoso, para estudiar qué pasaba en ellas.",
+   "debate": "La asociación es moderada, no total. La tendencia actualizante es una teoría, no un hecho medido. Y la aceptación incondicional no significa aprobar todo ni dejar de poner límites: se acepta a la persona, no las conductas que dañan.",
+   "seccion": "Matices y límites"
+  },
+  {
+   "enigma": "Una persona se exige ser como cree que debería ser: más calmada, más exitosa, más fuerte. Cuanto más se esfuerza por acercarse a ese ideal, peor se siente consigo misma.",
+   "p": "¿Cómo lo entendía Rogers?",
+   "opciones": ["Hay que esforzarse más hasta alcanzar el ideal", "El sufrimiento viene en parte de la distancia entre cómo somos y cómo creemos que deberíamos ser", "Hay que dejar de tener ideales por completo"],
+   "r": "Para Rogers, mucho sufrimiento viene de la distancia entre cómo somos y cómo creemos que deberíamos ser, una imagen armada muchas veces con las condiciones que otros pusieron para querernos («te quiero si…»). La terapia busca acortar esa distancia no convirtiéndonos en el ideal, sino aceptando más lo que somos.",
+   "como": "Lo formuló a partir de su experiencia clínica y de grabar y estudiar sesiones. En 1957 propuso que el cambio se favorece cuando el terapeuta ofrece empatía, consideración positiva incondicional y congruencia.",
+   "debate": "Se ha criticado su enfoque por ser muy individualista y poco atento a los contextos sociales. Y la idea de que el cambio nace de la aceptación es una teoría que invita a investigar más que una verdad cerrada.",
+   "seccion": "Yo real y yo ideal"
+  }
+ ],
+ "abierta": "Si aceptarse es lo que permite cambiar, ¿cómo se acompaña a alguien a aceptarse sin dejarlo conformarse con lo que le hace mal?"
+}

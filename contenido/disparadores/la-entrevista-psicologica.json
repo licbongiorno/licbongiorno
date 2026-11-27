@@ -2,7 +2,7 @@
  "preguntas": [
   {
    "enigma": "Alguien llega a su primera sesión y dice: «No sé bien por qué vine, mi hermana me insistió». Parece un mal comienzo.",
-   "p": "¿Qué crees que hace un buen profesional ante eso?",
+   "p": "¿Qué creés que hace un buen profesional ante eso?",
    "opciones": ["Le pide que vuelva cuando tenga claro su motivo", "Le hace un cuestionario con preguntas fijas para sacar datos", "Pregunta qué lo hizo decir que sí, qué esperaba encontrar y qué temía"],
    "r": "No se le exige un motivo claro: eso también es material. La entrevista no obtiene datos como quien llena un formulario, sino que va armando de a poco un lugar donde algo pueda decirse. Suele incluir qué te trae, por qué ahora y qué esperás.",
    "como": "José Bleger, en «La entrevista psicológica» (1964), la pensó como un campo: no se trata solo de reunir datos, sino de observar lo que ocurre entre las dos personas mientras se habla.",
@@ -11,7 +11,7 @@
   },
   {
    "enigma": "Dos personas cuentan la misma historia a dos entrevistadores distintos. Uno pregunta con preguntas abiertas y tolera los silencios; el otro sigue una lista de preguntas fijas.",
-   "p": "¿Qué crees que cambia según cómo se entrevista?",
+   "p": "¿Qué creés que cambia según cómo se entrevista?",
    "opciones": ["Nada: la información que sale es siempre la misma", "El entrevistador forma parte del campo: su manera de preguntar y de callar modifica lo que se puede contar", "Solo importa el tipo de preguntas, no quién las hace"],
    "r": "Bleger insistía en que el entrevistador es parte del campo: su manera de preguntar, de callar y de recibir modifica lo que la persona puede contar. Una buena entrevista tiene algo de arte y algo de oficio, con preguntas abiertas, silencios tolerados y atención a lo que se repite o se evita.",
    "como": "Proviene de la tradición clínica argentina y del psicoanálisis, que considera información también lo que ocurre entre las dos personas: cómo se entra, se espera, se despide.",

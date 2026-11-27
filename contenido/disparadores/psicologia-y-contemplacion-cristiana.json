@@ -2,7 +2,7 @@
  "preguntas": [
   {
    "enigma": "Alguien se sienta en silencio al final del día, sin pedir nada ni repetir una fórmula. Un psicólogo lo mira desde afuera.",
-   "p": "¿Qué crees que se propone averiguar la psicología de la religión?",
+   "p": "¿Qué creés que se propone averiguar la psicología de la religión?",
    "opciones": ["Si lo que cree esa persona es verdadero", "Qué hace la gente con su fe: cómo reza y cómo afronta las dificultades", "Cómo convencerla de que deje de rezar"],
    "r": "La psicología de la religión no discute si una creencia es verdadera. Estudia qué hace la gente con su fe: cómo reza, cómo afronta las dificultades, qué lugar tiene la práctica en su vida. La contemplación cristiana es una práctica humana más que observa con respeto.",
    "como": "Hay décadas de investigación sobre espiritualidad y afrontamiento religioso, como la de Pargament. Paul Pruyser, psicólogo clínico de la Clínica Menninger, propuso en 1976 que la evaluación pastoral tuviera su propio lenguaje y no solo el psiquiátrico.",

@@ -3,7 +3,7 @@
  "preguntas": [
   {
    "enigma": "Un semáforo en rojo significa «pare», y una vez que lo sabés no hay más misterio. Pero la casa de tu infancia que aparece en un sueño, o el río que no te animás a cruzar, te quedan dando vueltas todo el día sin que sepas por qué.",
-   "p": "¿Qué crees que distingue a una imagen así de un semáforo?",
+   "p": "¿Qué creés que distingue a una imagen así de un semáforo?",
    "opciones": ["Nada: las dos tienen un significado fijo que se puede buscar", "La imagen simbólica dice más de lo que muestra y nunca se agota", "La imagen simbólica es solo un adorno de la mente, sin sentido"],
    "r": "Jung distinguió signo y símbolo. El signo remite a algo ya conocido. El símbolo es la mejor expresión posible de algo que todavía no conocemos del todo: dice más de lo que muestra y cada vez que lo mirás aparece algo nuevo. Funciona como un puente entre lo que sabemos y lo que todavía no sabemos de nosotros.",
    "como": "Es una idea que Jung formuló desde su psicología analítica y su práctica clínica. Para él, el inconsciente piensa con imágenes cargadas de emoción y no con conceptos.",
@@ -12,7 +12,7 @@
   },
   {
    "enigma": "«Soñar con dientes es perder plata». Los diccionarios de sueños prometen un significado fijo para cada imagen.",
-   "p": "¿Crees que un mismo símbolo significa lo mismo para todas las personas?",
+   "p": "¿Creés que un mismo símbolo significa lo mismo para todas las personas?",
    "opciones": ["Sí, por eso funcionan los diccionarios de sueños", "No: puede querer decir cosas distintas para dos personas, o para la misma en dos momentos de su vida", "Sí, pero solo para los sueños de la misma cultura"],
    "r": "Jung trataba a los símbolos al revés que los diccionarios: en lugar de traducir, propuso explorar. Qué te evoca la imagen, cómo es exactamente, qué historias o mitos conocés que la tengan (la amplificación) y qué pasa hoy en tu vida que ella podría estar mostrando. Un símbolo no se descifra como un código: se escucha como a una persona.",
    "como": "El método surge de su experiencia clínica. Aunque algunos símbolos, como el agua, el árbol o la casa, aparecen en muchas culturas, su significado cambia mucho, y Jung insistía en el contexto personal y cultural.",
