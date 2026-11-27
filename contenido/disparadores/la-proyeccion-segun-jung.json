@@ -1,0 +1,24 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Ese compañero de trabajo que te saca de quicio con solo abrir la boca. O la persona que admirás tanto que no le ves ningún defecto.",
+   "p": "Cuando alguien nos mueve mucho más de lo que justifica la realidad, ¿qué crees que puede estar pasando?",
+   "opciones": ["Esa persona es objetivamente insoportable o perfecta", "Estamos viendo afuera algo propio que no reconocemos", "Es solo mal humor del día"],
+   "r": "Para Jung la proyección es un proceso inconsciente: vemos en otros una cualidad, emoción o conflicto que está adentro y que no reconocemos como propio. No la consideraba un defecto, sino algo inevitable: la forma en que el inconsciente se hace visible, como en un espejo. Lo rechazado (la sombra) y también lo valioso pueden proyectarse.",
+   "como": "Es una idea que Jung y Marie-Louise von Franz desarrollaron desde la clínica. Hablaban de retirar o recoger las proyecciones, reconociendo como propio lo que veíamos en el otro.",
+   "debate": "La psicología social estudió fenómenos cercanos, como juzgar con más dureza en otros lo que no toleramos en uno. Pero que todo lo inconsciente se perciba primero afuera es teoría junguiana: una forma útil de leer, no una ley.",
+   "seccion": "Qué es la proyección"
+  },
+  {
+   "enigma": "Un hombre llega indignado con una compañera de trabajo: «es una arrogante». Habla con tanta fuerza que alguien le pregunta cuánto tiempo hace que lo escuchan a él con esa misma atención.",
+   "p": "¿Cómo crees que se distingue una proyección de un conflicto real con el otro?",
+   "opciones": ["Cuando el otro no tiene nada que ver con lo que nos molesta", "Cuando la reacción es desproporcionada, el conflicto se repite con personas distintas o decimos «yo jamás»", "Nunca se puede distinguir"],
+   "r": "Algunas señales son una reacción emocional desproporcionada, la sensación de que «esa persona es así» sin matices, el mismo conflicto con personas distintas o una fuerza especial al decir «yo jamás». Jung decía que la proyección necesita un gancho: algo real en el otro donde engancharse.",
+   "como": "Se aprende en la clínica, acompañando a la persona a mirar qué le toca. El trabajo está en separar qué parte es del otro y qué parte es nuestra.",
+   "debate": "No todo lo que molesta es proyección: a veces la otra persona realmente se comporta mal, y decir «es tu proyección» puede invalidar. En situaciones de maltrato el foco es la seguridad, no el análisis de lo que uno proyecta.",
+   "seccion": "Cómo reconocerla"
+  }
+ ],
+ "abierta": "Si la intensidad es nuestra pero el gancho es real, ¿cómo se retira una proyección sin culparse y sin dejar de ver lo ajeno? Es una pregunta que el trabajo clínico sigue explorando."
+}

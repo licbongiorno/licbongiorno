@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un chico dibuja todas las tardes porque le encanta. Un día alguien empieza a prometerle un premio por cada dibujo.",
+   "p": "¿Qué crees que pasa con sus ganas de dibujar?",
+   "opciones": ["Aumentan: un premio siempre suma", "Pueden disminuir: el dibujo deja de ser por gusto y pasa a ser por el premio", "No cambian: las ganas son un rasgo fijo"],
+   "r": "En algunas situaciones, premiar algo que ya hacíamos por gusto puede disminuir el interés propio. Por eso se distingue la motivación intrínseca, por interés o sentido, de la extrínseca, por lo que viene después. Las dos son necesarias, pero la intrínseca suele ser más estable y satisfactoria.",
+   "como": "Lepper, Greene y Nisbett (1973) lo estudiaron en experimentos con niños y dibujos.",
+   "debate": "El efecto depende del tipo de recompensa. La motivación, además, no es un rasgo fijo: cambia con el contexto, el cansancio y el ánimo.",
+   "seccion": "Intrínseca y extrínseca"
+  },
+  {
+   "enigma": "Alguien empieza un proyecto con entusiasmo, pero en un trabajo donde no decide nada, con tareas que lo superan y en soledad. En marzo ya no tiene ganas.",
+   "p": "¿Qué crees que se apagó?",
+   "opciones": ["Su fuerza de voluntad, que se gastó", "Se fueron cubriendo mal necesidades básicas como elegir, sentirse capaz y estar con otros", "Nada: el entusiasmo siempre dura poco"],
+   "r": "La teoría de la autodeterminación sostiene que la motivación se sostiene mejor cuando se cubren tres necesidades: autonomía (sentir que elegimos), competencia (sentirnos capaces) y vínculo (sentirnos conectados). Cuando alguna falta, la motivación se apaga. Las ganas no se fabrican a fuerza de exigencia.",
+   "como": "Edward Deci y Ryan desarrollaron la teoría, que dio forma a su libro de 1985 sobre motivación intrínseca. Tiene muchos estudios en educación, trabajo y salud, en distintas culturas.",
+   "debate": "La pirámide de Maslow es muy conocida, pero la idea de completar un escalón para pasar al siguiente tiene poco respaldo. Y a veces el desgano es otra cosa: agotamiento, depresión o miedo, y exigirse más suele empeorarlo.",
+   "seccion": "Qué la alimenta"
+  }
+ ],
+ "abierta": "Si saber qué nos conviene no alcanza para hacerlo, ¿qué es lo que realmente nos pone en movimiento? Es una pregunta que sigue atrayendo investigación."
+}

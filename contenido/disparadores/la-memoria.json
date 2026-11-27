@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te acordás con total claridad de una escena de tu infancia: dónde estabas, qué se dijo, cómo era la luz. Tan nítida que jurarías que es una película guardada.",
+   "p": "¿Qué crees que hace tu mente cada vez que lo recordás?",
+   "opciones": ["Reproduce la escena tal como se guardó, sin cambios", "La reconstruye de nuevo, completando huecos y sumando lo que sabés ahora", "La inventa por completo"],
+   "r": "Recordar no es reproducir una grabación. Cada vez que traemos un recuerdo lo reconstruimos: completamos huecos, mezclamos detalles, sumamos lo que sabemos ahora. Eso no significa que los recuerdos sean falsos, sino que son vivos y cambian con nosotros.",
+   "como": "En 1932, Frederic Bartlett mostró con cuentos que la gente no repite lo que escuchó, sino que lo reconstruye según sus esquemas. Elizabeth Loftus mostró en numerosos estudios cuánto pueden modificarse los recuerdos según cómo se pregunta o lo que se escucha después.",
+   "debate": "Por eso, en un contexto clínico o judicial, un recuerdo vívido no garantiza que sea exacto. Y la idea de que un recuerdo puede reconsolidarse y modificarse cada vez que se evoca es una línea activa con resultados todavía mixtos: no conviene prometer que se «borra».",
+   "seccion": "Recordar es reconstruir"
+  },
+  {
+   "enigma": "Una mujer consulta porque, desde un cambio de trabajo, «se le va todo»: olvida reuniones, repite preguntas, se desorienta en cosas simples. También duerme mal y vive preocupada.",
+   "p": "¿Qué crees que está pasando con su memoria?",
+   "opciones": ["Es el comienzo de una enfermedad grave, seguro", "La atención está tan ocupada en sostener la tensión que casi no queda para registrar", "Es la edad: la memoria se desgasta y nada se puede hacer"],
+   "r": "El estrés sostenido y la angustia dificultan la memoria cotidiana: cuesta concentrarse, retener y recordar. Mucha gente que consulta por problemas de memoria está atravesando ansiedad, depresión o agotamiento. Las experiencias cargadas de emoción, en cambio, se recuerdan con más fuerza.",
+   "como": "Es una observación frecuente en la clínica. La psicología científica de la memoria empezó en 1885, cuando Ebbinghaus se tomó a sí mismo como sujeto y midió cuánto retenía de listas de sílabas sin sentido con el paso del tiempo.",
+   "debate": "Los olvidos cotidianos son normales, pero conviene consultar con un médico si son frecuentes, van en aumento o afectan la vida diaria. Y la represión, central en el psicoanálisis, tiene una demostración experimental controvertida.",
+   "seccion": "Memoria y emociones"
+  }
+ ],
+ "abierta": "Si recordar es reconstruir y olvidar también es una función, ¿cuánto de lo que sabemos de nuestra propia historia es registro y cuánto es reconstrucción? Es una pregunta que sigue abierta."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer, cada vez que su pareja sale con compañeros de trabajo, se queda mirando la última conexión en el teléfono. Sabe que no tiene pruebas y que se hace daño, pero no puede parar.",
+   "p": "¿De dónde crees que pueden venir celos así?",
+   "opciones": ["Siempre de algo que hizo la pareja", "Muchas veces de un miedo viejo de la propia historia, como el apego ansioso o la baja autoestima", "De un defecto de carácter que no cambia"],
+   "r": "Los celos pueden venir de la historia personal (una infidelidad vivida, una separación de los padres, no haberse sentido elegido), del estilo de apego, de la autoestima o del vínculo actual. A veces señalan algo real, como falta de cuidado o acuerdos poco claros.",
+   "como": "Hay estudios que asocian los celos intensos con el apego ansioso y la baja autoestima. David Buss propuso una explicación evolutiva, con diferencias entre varones y mujeres. Freud, en 1922, distinguió celos normales, proyectados y delirantes.",
+   "debate": "Son correlaciones, no prueban que una cosa cause la otra. La explicación evolutiva sigue discutida y no explica las experiencias individuales, y la lectura freudiana es una teoría clínica, no un hecho comprobado.",
+   "seccion": "De dónde vienen"
+  },
+  {
+   "enigma": "Alguien siente un nudo en el estómago cuando su pareja habla con entusiasmo de una persona que no conoce. Algunos lo dicen y se aclara. Otros empiezan a buscar señales, a hacer preguntas que son acusaciones.",
+   "p": "¿Cuándo crees que los celos pasan a hacer daño?",
+   "opciones": ["Apenas se sienten: son siempre dañinos", "Cuando pasan de una inquietud que se puede hablar a la vigilancia y el control", "Nunca: son una prueba de amor"],
+   "r": "Los celos se pueden pensar como una escala: inquietud (se puede decir y aclarar), sospecha (se buscan señales) y control (revisar, pedir explicaciones constantes, limitar con quién se ve el otro). Cuanto más avanzan hacia el control, más daño hacen: al otro, que se siente vigilado, y a quien los siente, que vive en alerta.",
+   "como": "La escala surge de la observación clínica. Sentir celos es humano y frecuente: mezclan miedo a perder, enojo, tristeza, vergüenza y, muchas veces, una pregunta sobre el propio valor.",
+   "debate": "Hay que separarlos de otras cosas: ante una infidelidad real, la desconfianza es una respuesta comprensible, y la convicción fija de ser engañado que no cede ante ninguna evidencia puede requerir evaluación psiquiátrica. Si la pareja controla con quién hablás, qué hacés o cómo te vestís, ya no son solo celos y conviene buscar ayuda.",
+   "seccion": "De la inquietud al control"
+  }
+ ],
+ "abierta": "Si el celo de hoy puede llevar puesto un miedo viejo, ¿cómo se distingue lo que señala algo real del vínculo de lo que viene de la propia historia? Cada historia tiene su propia letra, y eso sigue siendo difícil de estudiar."
+}
