@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te tragás un enojo o una tristeza para no hacer olas. Parece que se fue, pero días después te duele el cuerpo o explotás por algo mínimo.",
+   "p": "¿Qué pasa con lo que no se expresa?",
+   "opciones": [
+    "Desaparece solo si uno se distrae lo suficiente",
+    "A veces se acumula y aparece de otra forma",
+    "Siempre conviene descargarlo gritando para sacarlo"
+   ],
+   "r": "El laboratorio toma los conceptos coreanos de han y hwa-byung como punto de partida para pensar en emociones acumuladas, sin usarlos para diagnosticar. Propone distinguir cuándo expresar, cuándo contener con criterio y cuándo se está tragando lo que se siente.",
+   "como": "La escritura expresiva breve y las formas asertivas de decir el enojo tienen estudios propios. Los conceptos culturales, en cambio, vienen de la observación clínica y antropológica.",
+   "debate": "Se discute si descargar enojo sirve: hay trabajos que sugieren que gritar o golpear no lo reduce. No es un tratamiento."
+  }
+ ],
+ "abierta": "Si ni tragar ni explotar parecen buenas salidas, ¿cuál es el término medio y cómo se aprende? Esa pregunta sigue abierta."
+}

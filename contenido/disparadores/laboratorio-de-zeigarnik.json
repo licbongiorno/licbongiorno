@@ -1,0 +1,18 @@
+{
+ "autor": "Zeigarnik",
+ "preguntas": [
+  {
+   "enigma": "El mensaje sin contestar que aparece mientras te bañás, el trámite que recordás justo cuando apagás la luz. Las tareas terminadas se olvidan, las pendientes vuelven solas.",
+   "p": "¿Por qué pasará?",
+   "opciones": [
+    "Porque nuestra memoria es mala para lo importante",
+    "Porque las tareas interrumpidas o inconclusas tienden a quedar más presentes",
+    "Porque solo recordamos lo que nos da culpa"
+   ],
+   "r": "En 1927 Bluma Zeigarnik, que hacía su doctorado en Berlín con Kurt Lewin, publicó un trabajo en el que informó que las tareas interrumpidas se recordaban mejor que las completadas.",
+   "como": "Pidió a los participantes una serie de tareas breves e interrumpió algunas antes de que las terminaran, y luego les preguntó qué recordaban. Masicampo y Baumeister (2011) mostraron después que armar un plan específico reduce la interferencia de las metas sin cumplir.",
+   "debate": "La replicación del efecto original fue dispar, así que conviene no tomarlo como una ley. Lo que parece más sólido es que un plan concreto ayuda a que el pendiente deje de ocupar la cabeza."
+  }
+ ],
+ "abierta": "Si no hace falta terminar una tarea para dejar de pensar en ella, ¿qué es exactamente lo que la mente necesita para soltarla? Todavía se investiga."
+}

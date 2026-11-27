@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te enamorás siempre de personas parecidas, aunque jurás que esta vez será distinto. O sueños, olvidos y síntomas parecen repetir una historia que no elegiste.",
+   "p": "¿De dónde te parece que podría venir esa repetición?",
+   "opciones": [
+    "De la mala suerte",
+    "De deseos, recuerdos y conflictos que no conocemos pero se expresan igual",
+    "De no haberlo pensado bien"
+   ],
+   "r": "A fines del siglo XIX, Sigmund Freud propuso que una parte de la vida psíquica es inconsciente: deseos, recuerdos y conflictos que no conocemos, pero que se expresan en sueños, síntomas, olvidos y en la forma en que nos vinculamos. Desde entonces el psicoanálisis se desarrolló en muchas corrientes: unas se centraron en el yo y sus defensas, otras en los vínculos tempranos, otras en el lenguaje.",
+   "como": "Se llegó a esto sobre todo por la práctica clínica: escuchar a las personas durante años y generar teorías a partir de lo que aparecía.",
+   "debate": "Freud sostenía que el psicoanálisis es ante todo una práctica entre dos personas, y estos ejercicios son una puerta, no un análisis. Además, abre más preguntas que respuestas, y sus teorías se discuten hasta hoy."
+  }
+ ],
+ "abierta": "Si hay cosas que nos mueven sin que lo sepamos, ¿qué lugar le damos a lo que no podemos ver de nosotros mismos?"
+}

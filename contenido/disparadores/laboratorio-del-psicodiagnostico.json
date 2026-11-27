@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te citan a una evaluación psicológica, por la escuela, un trabajo o la licencia de conducir. Te imaginás que alguien va a mirarte unas manchas de tinta y descubrir tus secretos.",
+   "p": "¿Cómo creés que se llega a una conclusión en una evaluación?",
+   "opciones": [
+    "Con una sola prueba, que revela la personalidad",
+    "Con la intuición experta del psicólogo después de charlar un rato",
+    "Integrando entrevista, pruebas, observación y el contexto de la consulta"
+   ],
+   "r": "Un psicodiagnóstico es un proceso para responder una pregunta concreta. Suele combinar entrevista, técnicas psicométricas y proyectivas y una devolución, y ningún dato aislado decide por sí solo. Además, la persona evaluada tiene derechos, como saber para qué se hace.",
+   "como": "Las pruebas psicométricas se construyen y se ajustan con muestras grandes, para saber qué es esperable en cada edad o población. Las técnicas proyectivas, como el test de manchas que Hermann Rorschach publicó en 1921, se apoyan más en la experiencia clínica.",
+   "debate": "La validez de varias técnicas proyectivas se discute desde hace décadas. Por eso se insiste en no apoyarse en una sola prueba y en que el profesional explique sus límites."
+  }
+ ],
+ "abierta": "Si ninguna prueba alcanza por sí sola, ¿cómo se mejora la manera de integrar datos de tantos tipos? Es un terreno todavía en discusión."
+}

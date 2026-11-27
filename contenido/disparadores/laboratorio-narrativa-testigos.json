@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te propusiste un cambio y lo anotaste en un cuaderno, pero se te escapó a las pocas semanas. Otra vez, se lo contaste a alguien que te escuchó de verdad, y esa vez algo quedó.",
+   "p": "¿Qué te parece que le da firmeza a una historia preferida sobre uno mismo?",
+   "opciones": [
+    "La fuerza de voluntad de quien la sostiene",
+    "Que otros la escuchen y la reconozcan, y que quede por escrito",
+    "Repetirla mentalmente todos los días"
+   ],
+   "r": "Michael White y David Epston sostenían que las identidades se construyen ante otros. Por eso crearon las ceremonias de definición, en las que testigos externos escuchan y responden cuatro preguntas (expresión, imagen, resonancia y transporte), y los documentos terapéuticos: cartas y certificados que dejan la historia por escrito.",
+   "como": "Epston observó, en su práctica, que una carta después de una sesión podía valer para muchas personas tanto como varias sesiones. Sus ideas aparecen en Narrative Means to Therapeutic Ends (1990).",
+   "debate": "Es una observación clínica de sus autores, no una regla probada para todos los casos. Y conviene elegir con cuidado a quién se le muestra la propia historia: no cualquier audiencia ayuda. No reemplaza una terapia."
+  }
+ ],
+ "abierta": "Si necesitamos testigos para sostener quiénes queremos ser, ¿qué cambia en una persona que nunca encontró quién la escuchara así?"
+}

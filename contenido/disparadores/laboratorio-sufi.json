@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Al final del día repasás qué hiciste bien y qué no, o pensás en lo que te impulsó a reaccionar como reaccionaste. Mucha gente hace esto sin darle nombre.",
+   "p": "¿Qué tradición te parece que ya practicaba hace siglos una revisión del día así?",
+   "opciones": [
+    "Ninguna, es un invento de la psicología moderna",
+    "El sufismo, con la muhasaba o examen de uno mismo al final del día",
+    "Solo las terapias de este siglo"
+   ],
+   "r": "El sufismo (tasawwuf) es la dimensión mística del islam, una tradición religiosa viva. La muhasaba, el examen de uno mismo al final del día, se asocia a maestros como al-Muhasibi (m. 857) y fue desarrollada por Al-Ghazali. La tradición también trabaja el nafs (el yo con sus impulsos), el sabr (paciencia), el shukr (gratitud) y los cuentos de Nasrudín.",
+   "como": "Se conoce por textos y la práctica de maestros durante siglos. Hay formas parecidas, como llevar un registro del día o practicar la gratitud, con estudios en versiones seculares.",
+   "debate": "El sufismo es una tradición espiritual, no una psicología con investigación propia: las ideas de Robert Frager sobre los niveles del nafs, por ejemplo, no tienen estudios controlados. Y el eneagrama no es una enseñanza sufí: su origen es discutido."
+  }
+ ],
+ "abierta": "Si prácticas tan antiguas se parecen a lo que hoy hacemos, ¿qué podemos tomar de una tradición sin quitarle su sentido?"
+}

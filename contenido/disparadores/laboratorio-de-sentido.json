@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos personas viven una situación muy dura. Una se hunde y la otra, sin que desaparezca el dolor, encuentra algo que la sostiene: alguien, una tarea, una forma de enfrentarla.",
+   "p": "¿Qué puede marcar esa diferencia?",
+   "opciones": [
+    "La suerte o el carácter con el que se nace",
+    "Tener algo por qué vivir, aunque no se pueda cambiar lo que pasó",
+    "Tener un buen plan para evitar que vuelva a pasar"
+   ],
+   "r": "Viktor Frankl, psiquiatra vienés que sobrevivió a los campos de concentración, observó que quienes conservaban algo por qué vivir (una persona, una tarea, una actitud) resistían de otro modo. Para él, el sentido no se inventa ni se recibe hecho: se descubre en cada situación concreta.",
+   "como": "Frankl lo propuso desde su experiencia y su trabajo clínico, y desarrolló la logoterapia, que distingue tres vías: lo que creamos o damos, lo que vivimos y recibimos, y la actitud frente a lo que no se puede cambiar.",
+   "debate": "Es una propuesta con mucha influencia, pero sus afirmaciones tienen respaldo investigativo desparejo. Y si el dolor es muy reciente, quizás no sea el momento de buscar un sentido: primero está el tiempo de sentirlo."
+  }
+ ],
+ "abierta": "Si el sentido no se inventa sino que se descubre, ¿cómo sabemos cuándo lo encontramos? Es una pregunta que cada vida responde a su manera."
+}

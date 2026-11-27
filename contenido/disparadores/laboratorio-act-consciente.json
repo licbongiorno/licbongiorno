@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te ves reaccionando como siempre en una discusión y pensás «soy así, no cambio». Pero a la vez hay una parte tuya que se está dando cuenta de que lo pensás.",
+   "p": "¿Quién es esa parte que se da cuenta?",
+   "opciones": [
+    "Otro pensamiento más, solo que más inteligente",
+    "Un truco de la imaginación sin utilidad práctica",
+    "El lugar desde donde observás pensamientos y emociones, que no se reduce a ellos"
+   ],
+   "r": "La terapia de aceptación y compromiso llama «yo como contexto» (o yo observador) a esa perspectiva desde la que notamos lo que pasa. Metáforas como el cielo y el clima, o el tablero de ajedrez, ayudan a verla: los pensamientos y emociones son el clima, o las piezas, y vos sos más amplio que ellos.",
+   "como": "Es un recurso que se practica: ejercicios como «notar que notás» entrenan el contacto con el presente y esa perspectiva. Las metáforas vienen de la práctica clínica del modelo más que de un experimento puntual.",
+   "debate": "Es una idea difícil de medir y de separar de las prácticas de atención plena en general. Algunas personas la sienten muy útil y otras la encuentran abstracta."
+  }
+ ],
+ "abierta": "¿Hay algo en vos que no cambia mientras cambian los pensamientos y los climas emocionales?"
+}

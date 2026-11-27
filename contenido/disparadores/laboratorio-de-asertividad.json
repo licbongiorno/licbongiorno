@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un compañero te pide un favor por quinta vez esta semana. Querés decir que no, pero terminás diciendo que sí y llegás a casa enojado con vos y con él.",
+   "p": "¿Cómo se dice que no sin atacar ni someterse?",
+   "opciones": [
+    "Con un sí amable, para evitar el conflicto",
+    "Con claridad y respeto: lo que pasa, lo que sentís y lo que pedís",
+    "Con firmeza agresiva, así no te vuelven a pedir"
+   ],
+   "r": "El entrenamiento asertivo distingue conductas pasiva, asertiva y agresiva, y propone armar un mensaje en tres partes. Incluye técnicas como el disco rayado y el banco de niebla, además del lenguaje no verbal. Se parte de tus derechos asertivos.",
+   "como": "Proviene de la terapia conductual: Joseph Wolpe (1958), Robert Alberti y Michael Emmons (Your Perfect Right, 1970) y Manuel J. Smith (When I Say No, I Feel Guilty, 1975). Se practica con una escalera de situaciones de menor a mayor dificultad y ensayos.",
+   "debate": "Lo asertivo depende de la cultura y del contexto, y no siempre se espera lo mismo de cada persona. Complementa la pauta DEAR MAN de la DBT. No reemplaza el acompañamiento profesional."
+  }
+ ],
+ "abierta": "¿Con quién te cuesta más ser asertivo y qué creés que pasaría si lo fueras?"
+}

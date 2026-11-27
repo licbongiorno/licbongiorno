@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Comés mirando el celular y, de repente, el plato está vacío. No recordás ni el gusto de lo que comiste.",
+   "p": "¿Qué creés que se perdió ahí?",
+   "opciones": [
+    "Nada importante: comer es solo un trámite",
+    "La experiencia de estar presente en lo que hacías",
+    "El control de cuánto comés, que se mide con una balanza"
+   ],
+   "r": "El darse cuenta es notar lo que pasa mientras pasa. La Gestalt lo propone como punto de partida: antes de explicar o juzgar, registrar. Fritz Perls y otros sostenían que el cambio ocurre más al aceptar lo que está que al forzarlo, algo que Arnold Beisser llamó en 1970 la teoría paradójica del cambio.",
+   "como": "Perls, Hefferline y Goodman lo plantearon en 1951 y John Stevens lo reunió en ejercicios en 1971. En 2010 Killingsworth y Gilbert siguieron a miles de personas con una aplicación de celular y vieron que la mente divagaba cerca de la mitad del tiempo.",
+   "debate": "La Gestalt no se apoya tanto en ensayos controlados. Y aunque se parece al mindfulness, no son idénticos: la Gestalt trabaja más el contacto y la expresión."
+  }
+ ],
+ "abierta": "Si la mente divaga casi la mitad del tiempo, ¿qué perdemos y qué ganamos al hacerlo? No hay una respuesta única."
+}

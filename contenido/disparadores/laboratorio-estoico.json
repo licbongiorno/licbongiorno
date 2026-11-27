@@ -1,0 +1,18 @@
+{
+ "autor": "Epicteto",
+ "preguntas": [
+  {
+   "enigma": "Estás en un embotellamiento y llegás tarde. Te hierve la sangre. El tránsito no se mueve ni un metro más rápido por tu enojo, pero igual te enojás.",
+   "p": "¿Qué creés que hace que algo nos moleste tanto?",
+   "opciones": [
+    "El hecho mismo: el tránsito es insoportable para cualquiera",
+    "Lo que pensamos del hecho: «esto no debería pasarme a mí»",
+    "El carácter: hay gente nerviosa y gente tranquila, y no cambia"
+   ],
+   "r": "Epicteto enseñó que no nos perturban las cosas, sino los juicios que hacemos sobre ellas. Propuso distinguir lo que depende de nosotros de lo que no, y por eso el estoicismo no pide reprimir lo que sentimos, sino revisar lo que pensamos.",
+   "como": "Epicteto fue esclavo y luego liberto en Roma, y enseñó oralmente: lo que conocemos lo anotó su alumno Arriano. Sus ideas inspiraron a Albert Ellis y Aaron Beck, que lo reconocieron al crear las terapias cognitivas.",
+   "debate": "El estoicismo popular de hoy a veces se confunde con aguantar sin sentir, algo que los textos antiguos no piden. También se lo critica por poner el cambio solo en uno mismo cuando el problema está en el contexto."
+  }
+ ],
+ "abierta": "¿Hasta dónde sirve cambiar lo que pensamos y desde dónde conviene cambiar el mundo? Seguimos discutiéndolo."
+}

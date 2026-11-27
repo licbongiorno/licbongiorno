@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay personas que, tiempo después de vivir algo muy difícil, siguen sintiendo alerta, tienen recuerdos que se les imponen o evitan ciertos lugares, aunque ya pasó.",
+   "p": "¿Qué puede estar pasando?",
+   "opciones": [
+    "Que no han hecho el esfuerzo de dejarlo atrás",
+    "Que una experiencia superó la capacidad de procesarla y el cuerpo y la mente siguen en alerta",
+    "Que simplemente es cuestión de tiempo y no hay nada que hacer"
+   ],
+   "r": "Una experiencia es traumática cuando supera la capacidad de la persona para procesarla. Puede manifestarse en recuerdos intrusivos, evitación, hiperalerta y cambios en el ánimo. No es debilidad ni falta de voluntad.",
+   "como": "Judith Herman, en Trauma and Recovery (1992), describió tres etapas de la recuperación: seguridad, recuerdo y duelo, y reconexión, a partir de su trabajo clínico y del estudio de relatos de sobrevivientes.",
+   "debate": "Las reacciones y los tratamientos se siguen investigando, y cada persona es distinta. Este laboratorio es informativo: trabajar los recuerdos traumáticos es tarea de un tratamiento especializado con acompañamiento."
+  }
+ ],
+ "abierta": "Si el cuerpo y la mente pueden quedar en alerta mucho después, ¿qué ayuda a que vuelvan a sentirse seguros? Se sigue investigando."
+}

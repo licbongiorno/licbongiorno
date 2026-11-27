@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una reunión querés hablar, pero te quedás pendiente de cómo te ven, de si se nota que estás nervioso. Salís agotado y sin haber dicho lo que querías.",
+   "p": "¿Qué mantiene ese miedo?",
+   "opciones": [
+    "Que realmente quedamos en ridículo con frecuencia",
+    "Poner la atención en uno mismo y usar conductas de seguridad",
+    "La falta de simpatía"
+   ],
+   "r": "David Clark y Adrian Wells (1995) propusieron un modelo cognitivo: ante una situación social se activan creencias sobre cómo te ven, la atención se vuelca hacia vos y se usan conductas de seguridad (como ensayar frases o evitar la mirada). Eso impide comprobar que lo temido no pasa.",
+   "como": "El modelo salió de la investigación clínica y llevó a tratamientos que incluyen experimentos conductuales, para poner a prueba las predicciones, y entrenar la atención hacia afuera.",
+   "debate": "No todas las conductas de seguridad son perjudiciales en todos los casos y los resultados dependen de la persona. Este laboratorio no reemplaza el tratamiento de un trastorno de ansiedad social."
+  }
+ ],
+ "abierta": "¿Qué te predecís que pasaría si dejaras una de tus conductas de seguridad por una vez?"
+}

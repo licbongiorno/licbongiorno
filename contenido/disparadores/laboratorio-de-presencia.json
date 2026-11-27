@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás en medio de una crisis de ansiedad y alguien te dice «respirá hondo». A veces ayuda y a veces parece que empeora.",
+   "p": "¿Cómo puede ser?",
+   "opciones": [
+    "Porque respirar no tiene relación con la ansiedad",
+    "Porque el modo de respirar y a qué prestás atención hacen diferencia",
+    "Porque solo funciona si uno cree que funciona"
+   ],
+   "r": "Prácticas como la respiración guiada, el anclaje 5-4-3-2-1 o el escaneo corporal ayudan a traer la atención al presente. El laboratorio las ofrece como práctica guiada y gratuita, sin guardar datos.",
+   "como": "Vienen de la tradición del mindfulness y de técnicas de grounding de la clínica de la ansiedad. Cada una se evaluó de manera distinta.",
+   "debate": "Se discute qué mecanismo explica el efecto y para quién conviene cada una. En algunas personas, enfocar la respiración puede incomodar."
+  }
+ ],
+ "abierta": "Si la atención al presente calma a unos y molesta a otros, ¿de qué depende? Todavía se estudia."
+}

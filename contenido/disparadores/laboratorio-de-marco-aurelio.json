@@ -1,0 +1,18 @@
+{
+ "autor": "Marco Aurelio",
+ "preguntas": [
+  {
+   "enigma": "Un emperador romano escribía, de madrugada, recordatorios para sí mismo sobre cómo actuar bien durante el día.",
+   "p": "¿Por qué eso puede ayudar hoy?",
+   "opciones": [
+    "Porque ordena las expectativas del día, como saber con quiénes voy a tratar",
+    "Porque el poder da una sabiduría especial",
+    "No ayuda: son frases de otra época"
+   ],
+   "r": "Marco Aurelio gobernó el imperio y escribió para sí mismo, sin intención de publicar, lo que hoy conocemos como Meditaciones. Se recordaba al empezar la jornada con quiénes iba a tratar, qué iba a encontrar y cómo quería actuar.",
+   "como": "Es un texto de la filosofía estoica, escrito como práctica personal. La psicología cognitiva reconoció después afinidades con los estoicos.",
+   "debate": "Son prácticas breves de reflexión y ninguna sustituye una terapia. Hay poca investigación directa sobre ejercicios estoicos, y varias de sus ideas fueron leídas de modos muy distintos."
+  }
+ ],
+ "abierta": "¿Escribir para uno mismo es una forma de conocerse o de ordenarse? Sigue en discusión."
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tenés un problema (una deuda, un conflicto, una decisión) y llevás semanas dándole vueltas de noche y de día. Pensaste muchísimo, pero seguís en el mismo lugar.",
+   "p": "¿Por qué pensar tanto no te acerca a la solución?",
+   "opciones": [
+    "Porque dar vueltas con la preocupación no es lo mismo que resolver, que requiere pasos concretos",
+    "Porque no se pensó con suficiente intensidad",
+    "Porque algunos problemas no tienen solución y es mejor no pensarlos"
+   ],
+   "r": "Thomas D'Zurilla y Marvin Goldfried propusieron a comienzos de los años setenta que resolver problemas es una habilidad que se puede aprender. Con Arthur Nezu desarrollaron una terapia de resolución de problemas: definir el problema, generar alternativas, evaluarlas, elegir un plan y revisarlo.",
+   "como": "La terapia se evaluó en investigaciones. Un metaanálisis de Pim Cuijpers y su equipo (2018) encontró que es eficaz para la depresión, con resultados comparables a los de otras psicoterapias, y la Organización Mundial de la Salud la incluyó en su programa Problem Management Plus.",
+   "debate": "No todos los problemas tienen solución y a veces lo que ayuda es aceptar eso. Además, el método ordena, pero no reemplaza el acompañamiento cuando hay un malestar intenso."
+  }
+ ],
+ "abierta": "Si resolver problemas se aprende, ¿por qué casi nadie nos lo enseña de manera explícita? Es una pregunta que todavía vale la pena hacerse."
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás con hambre y cansado, y todo te parece un drama. Después de comer y dormir, el mismo problema pesa mucho menos.",
+   "p": "¿Qué creés que muestra esto sobre lo que nos motiva?",
+   "opciones": [
+    "Que los problemas son siempre producto del cansancio",
+    "Que hay necesidades básicas que, si faltan, pasan primero",
+    "Que lo emocional depende solo del cuerpo"
+   ],
+   "r": "Abraham Maslow propuso en 1943 que las necesidades tienen una cierta prioridad: cuando faltan las básicas, ocupan el primer plano. Después habló de una motivación por crecimiento. Nunca dibujó la pirámide rígida que se le atribuye. Eugene Gendlin sumó el focusing, que sigue una sensación corporal difusa.",
+   "como": "Maslow lo planteó en 1943 desde la observación clínica. Gendlin estudió psicoterapias grabadas en Chicago y vio que quienes mejoraban solían detenerse en una sensación corporal aún poco clara, que llamó «felt sense».",
+   "debate": "En 2011, Tay y Diener estudiaron datos de más de cien países y vieron que las necesidades parecen universales, pero no se cumplen en un orden estricto. La pirámide, tal como se enseña, no tiene respaldo sólido."
+  }
+ ],
+ "abierta": "Si las necesidades no siguen un orden fijo, ¿qué determina cuál pesa más en cada momento de la vida? Todavía se investiga."
+}

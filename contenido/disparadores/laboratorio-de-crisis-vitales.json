@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tu hijo menor se va a vivir solo. Estás contenta por él, pero la casa se siente rara y no sabés qué sos ahora que no hay tanto que hacer.",
+   "p": "¿Cómo se atraviesa ese tipo de momento?",
+   "opciones": [
+    "Con rapidez: cuanto antes uno se pone a hacer algo nuevo, mejor",
+    "Dándole tiempo a lo que termina antes de lo que empieza",
+    "No hay nada que hacer, solo esperar a que pase"
+   ],
+   "r": "William Bridges distinguió en las transiciones tres momentos: un final, una zona neutral en el medio y un nuevo comienzo. Mucha gente intenta saltar la zona neutral, pero ahí suele estar el trabajo importante. Arnold van Gennep, un siglo antes, había mostrado que muchas culturas marcan los cambios de etapa con rituales de separación, margen y agregación.",
+   "como": "Van Gennep lo observó en ritos de pasaje de distintas sociedades y publicó su estudio en 1909. Bridges lo trasladó a las transiciones de la vida actual a partir de su trabajo con personas en cambios.",
+   "debate": "Los modelos por etapas son útiles como mapa, pero no todos pasamos por los mismos momentos ni en el mismo orden. Y la idea de la «crisis de la mitad de la vida» como algo universal no se sostiene bien en la investigación."
+  }
+ ],
+ "abierta": "Nuestra cultura tiene pocos rituales para los pasajes. ¿Qué perdemos y qué podríamos inventar para marcar los finales?"
+}

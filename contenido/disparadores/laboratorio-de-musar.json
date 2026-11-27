@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Sabés que querés ser más paciente, pero cada noche repasás el día y descubrís que volviste a perder la paciencia en lo mismo de siempre.",
+   "p": "¿Cómo se trabaja un rasgo del carácter?",
+   "opciones": [
+    "Con fuerza de voluntad el día que uno decide cambiar",
+    "Eligiendo un rasgo, observándose cada noche y buscando el equilibrio",
+    "Aceptando que el carácter ya viene fijo y no cambia"
+   ],
+   "r": "El musar es una tradición ética judía que propone elegir una middá, un rasgo como la paciencia o la humildad, y trabajarla con práctica diaria y un registro nocturno, el jeshbon hanefesh. Maimónides hablaba de buscar el justo medio entre los extremos.",
+   "como": "No se llegó a esto con ensayos clínicos: es una práctica ética y religiosa que se transmitió de generación en generación, y el laboratorio lo dice. Se la compara por afinidad con otras tradiciones de examen de uno mismo.",
+   "debate": "Es una práctica de raíz religiosa y no tiene estudios propios de eficacia, aunque se la lee como una forma de trabajo sobre el carácter. No es un tratamiento."
+  }
+ ],
+ "abierta": "Si un examen de conciencia nocturno sostenido en el tiempo cambia a la persona, ¿cambia por el contenido o por la constancia de mirarse? No hay una respuesta cerrada."
+}

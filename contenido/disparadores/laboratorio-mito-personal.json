@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cuando le contás tu vida a alguien, la contás de una manera: tal capítulo es el que importa, tal momento fue el quiebre. Si se la contaras a otra persona o dentro de diez años, quizás sería otra.",
+   "p": "¿Qué creés que hace que una historia de vida tenga sentido?",
+   "opciones": [
+    "Que sea exacta, con todos los hechos tal como pasaron",
+    "Cómo la organizamos: qué elegimos destacar y cómo la conectamos",
+    "Que termine bien, con un final feliz"
+   ],
+   "r": "La psicología narrativa dice que armamos la identidad contando nuestra vida. Joseph Campbell describió el viaje del héroe, con partida, iniciación y regreso, y Jung vio en esos relatos imágenes con las que las personas pueden pensar su momento.",
+   "como": "Campbell comparó mitos de muchas culturas en «El héroe de las mil caras», de 1949. Dan McAdams entrevistó a muchas personas sobre sus historias de vida y estudió la identidad narrativa.",
+   "debate": "El esquema de Campbell se critica por simplificar mitos muy distintos. Y ver la vida como relato no la vuelve ficción, pero conviene no forzarla a encajar en un molde."
+  }
+ ],
+ "abierta": "¿Elegimos el relato de nuestra vida o el relato nos elige a nosotros? Es una pregunta que sigue abierta."
+}

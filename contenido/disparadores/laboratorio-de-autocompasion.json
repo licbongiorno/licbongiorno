@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cometés un error en el trabajo. Mientras volvés a casa, una voz interna te dice cosas que jamás le dirías a una amiga en tu misma situación.",
+   "p": "¿Qué pasa si en lugar de esa voz probás hablarte con la amabilidad que le darías a alguien que querés?",
+   "opciones": [
+    "Te volvés blando y perdés las ganas de mejorar",
+    "Seguramente te sentís mejor un rato, pero cambia poco más",
+    "Te cuesta menos reconocer el error y hacerte cargo"
+   ],
+   "r": "Kristin Neff propone que la autocompasión tiene tres componentes: ser amable con uno mismo, reconocer que el sufrimiento y los errores son parte de lo humano, y mirar lo que duele con atención plena, sin negarlo ni agrandarlo. Las personas más autocompasivas suelen mostrar menos ansiedad y depresión, y no necesariamente menos motivación.",
+   "como": "Neff construyó una escala para medirla y desde entonces se hicieron muchos estudios, sobre todo con cuestionarios. También se probaron programas de entrenamiento en autocompasión y se compararon antes y después.",
+   "debate": "Se discute si la escala mide realmente tres cosas distintas o una sola, y cuánto de lo que se encuentra se debe a que quien se trata bien también está menos angustiado. La idea de que la autocompasión te hace conformista no se sostuvo bien en los estudios, pero no está todo resuelto."
+  }
+ ],
+ "abierta": "Si hablarnos con amabilidad parece tan razonable, ¿por qué tantos creemos que la dureza con uno mismo es lo que nos hace avanzar? Todavía se investiga de dónde viene esa creencia."
+}

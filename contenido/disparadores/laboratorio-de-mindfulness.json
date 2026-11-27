@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Comés una comida que te gusta mientras mirás el celular. Al terminar, no podés decir a qué sabía ni cuándo se acabó.",
+   "p": "¿Por qué pasa esto tan seguido?",
+   "opciones": [
+    "Porque la mente suele funcionar en piloto automático cuando la tarea es conocida",
+    "Porque esa comida en realidad no era tan rica",
+    "Porque hay gente que no tiene capacidad de atención"
+   ],
+   "r": "Gran parte de lo cotidiano se hace sin atención plena. El mindfulness entrena a notar la experiencia del momento con curiosidad, por ejemplo comiendo una pasa despacio o con el espacio de respiración de tres minutos de la terapia cognitiva basada en mindfulness (MBCT).",
+   "como": "Los programas de mindfulness se evaluaron en ensayos con distintos grupos, sobre todo en estrés y prevención de recaídas depresivas. Los ejercicios del laboratorio vienen de esos programas y de prácticas como RAIN, de Tara Brach.",
+   "debate": "Se discute qué mide cada estudio, cuánto pesa el entusiasmo del que enseña y quién no debería practicarlo sin acompañamiento. No reemplaza un tratamiento."
+  }
+ ],
+ "abierta": "Si prestar atención ya cambia la experiencia, ¿qué es lo que cambia exactamente en el cerebro y en el ánimo? La investigación sigue abierta."
+}

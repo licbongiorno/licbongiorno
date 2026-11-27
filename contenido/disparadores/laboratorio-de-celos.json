@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tu pareja se ríe mirando el celular y, en un segundo, tu cabeza arma una historia entera. No pasó nada que puedas señalar, pero el estómago se te cierra.",
+   "p": "¿Qué es lo que más alimenta esa sensación?",
+   "opciones": [
+    "Lo que de verdad ocurrió en ese momento",
+    "La interpretación que le damos a lo que vimos y lo que hacemos después para chequearla",
+    "Un rasgo de carácter que no cambia"
+   ],
+   "r": "Desde el enfoque cognitivo de Aaron Beck, lo que sentimos depende mucho de cómo interpretamos una situación. En los celos ayuda separar los hechos de las historias que armamos, y notar que revisar mensajes o pedir explicaciones suele darnos un alivio breve que mantiene la inquietud.",
+   "como": "Beck observó en la clínica que ciertos pensamientos automáticos aparecían entre una situación y la emoción, y los convirtió en objeto de trabajo. Su idea fue que podían examinarse como hipótesis.",
+   "debate": "Los celos se estudiaron también desde la psicología evolucionista, pero las explicaciones sobre diferencias entre hombres y mujeres son muy discutidas. Y es importante distinguirlos de las conductas de control: ahí hace falta otro abordaje."
+  }
+ ],
+ "abierta": "Los celos aparecen en casi todas las culturas, pero no en todas se viven igual. ¿Cuánto de lo que sentimos es la emoción y cuánto lo que aprendimos que debería significar?"
+}

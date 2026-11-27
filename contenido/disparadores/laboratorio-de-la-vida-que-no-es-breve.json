@@ -1,0 +1,18 @@
+{
+ "autor": "Séneca",
+ "preguntas": [
+  {
+   "enigma": "Cuando llega fin de año, mucha gente se pregunta adónde se fue el tiempo.",
+   "p": "¿Es la vida corta o la usamos mal?",
+   "opciones": [
+    "Es corta por naturaleza y no hay mucho para hacer",
+    "Es suficientemente larga si se usa bien",
+    "El tiempo pasa igual, no importa cómo se use"
+   ],
+   "r": "Séneca escribió que la vida es suficientemente larga si se la usa bien. No niega la muerte: sostiene que pensarla puede ayudarnos a elegir mejor, y que mucho del tiempo se nos va en lo que no elegimos.",
+   "como": "Lo planteó en una carta-ensayo, Sobre la brevedad de la vida, desde la filosofía estoica, a partir de la observación de la vida romana de su época. Es reflexión filosófica, no un hallazgo experimental.",
+   "debate": "Los estudios sobre pensar en la propia finitud dan resultados mixtos: a algunas personas las ordena y a otras las angustia. Si te genera angustia o desesperanza, dejá el ejercicio y buscá acompañamiento."
+  }
+ ],
+ "abierta": "¿Pensar en el final nos hace vivir mejor o es una carga? Todavía no hay una respuesta única."
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Después de un día de mucha exigencia llegás a casa y no podés frenar: mirás el celular, revisás pendientes, te cuesta calmarte aunque no haya nada urgente.",
+   "p": "¿Qué le pasa al cerebro en esa situación?",
+   "opciones": [
+    "Está fallando, porque lo normal sería relajarse enseguida",
+    "Predomina un sistema de amenaza o de logro y el de calma está bajo",
+    "Es pura falta de disciplina para descansar"
+   ],
+   "r": "Paul Gilbert propone que regulamos las emociones con tres sistemas: amenaza (protegernos), logro (conseguir) y calma (sentir seguridad y conexión). Cuando el de calma está poco desarrollado, cuesta bajar el ritmo. Se lo entrena con ejercicios como la respiración de ritmo calmante o el lugar seguro.",
+   "como": "El modelo se formuló en The Compassionate Mind (2009) a partir de la práctica clínica y de la investigación sobre apego y emociones. En el laboratorio se usa un medidor para ver cómo está tu equilibrio.",
+   "debate": "Es un modelo simplificado de algo mucho más complejo: los «sistemas» no son estructuras exactas del cerebro sino una forma útil de entender y explicar. No reemplaza una terapia."
+  }
+ ],
+ "abierta": "¿Cuándo fue la última vez que tu sistema de calma tuvo espacio de verdad?"
+}

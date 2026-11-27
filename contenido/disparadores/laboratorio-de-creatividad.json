@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un chico agarra una caja de cartón vacía y en cinco minutos la convierte en nave, en casa y en tren. Un adulto la mira y piensa que sirve para guardar cosas.",
+   "p": "¿Qué creés que cambia entre el chico y el adulto?",
+   "opciones": [
+    "Se pierde la imaginación con la edad, y es irreversible",
+    "Aprendemos a buscar la respuesta correcta y dejamos de jugar con las ideas",
+    "Solo algunas personas nacen creativas"
+   ],
+   "r": "La creatividad se entrena, y el juego tiene un papel central. Donald Winnicott sostenía que es en el jugar donde una persona descubre su propio modo de crear. Por eso se proponen ejercicios como combinar cosas al azar, buscar usos imposibles para un objeto o continuar un garabato que otro empezó.",
+   "como": "Winnicott desarrolló el «juego del garabato» en su trabajo clínico con niños: dibujaba una línea, el niño la completaba y viceversa, y así se abría una conversación.",
+   "debate": "Se discute cómo medir la creatividad. Los tests de pensamiento divergente, como los de Torrance, se usan mucho, pero no está claro cuánto predicen el logro creativo real. Y también se debate cuánto depende de la práctica y cuánto de las condiciones del entorno."
+  }
+ ],
+ "abierta": "Si la creatividad se puede entrenar, ¿por qué algunos ambientes la apagan tan rápido? Es una pregunta abierta."
+}

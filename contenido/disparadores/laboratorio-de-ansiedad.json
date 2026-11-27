@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tenés una presentación el jueves y desde el domingo imaginás todo lo que puede salir mal. Das vueltas y vueltas y no llegás a ninguna solución.",
+   "p": "¿Qué distingue a la preocupación útil de la que no sirve?",
+   "opciones": [
+    "La útil termina en un paso concreto; la otra da vueltas sobre lo mismo",
+    "Ninguna sirve: hay que dejar de preocuparse",
+    "La útil es la que más angustia da"
+   ],
+   "r": "La terapia cognitiva distingue la preocupación útil, que lleva a un plan, de la rumiación, que repite. Propone descatastrofizar (lo peor, lo mejor y lo más probable), registrar pensamientos automáticos, reservar un tiempo para preocuparse y armar una escalera de exposición gradual.",
+   "como": "Son técnicas de la terapia cognitivo-conductual que se evaluaron en ensayos clínicos para trastornos de ansiedad. Se practican con papel y lápiz, observando los propios pensamientos.",
+   "debate": "Estos ejercicios no reemplazan un tratamiento. Y no todo lo que se anticipa es catastrófico: a veces la preocupación señala algo real que merece atención."
+  }
+ ],
+ "abierta": "¿De qué te estás preocupando hoy que podrías convertir en un pequeño paso?"
+}

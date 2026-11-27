@@ -1,0 +1,18 @@
+{
+ "autor": "Yalom",
+ "preguntas": [
+  {
+   "enigma": "Una noticia, un cumpleaños redondo o una pérdida te hacen pensar de golpe que no tenés todo el tiempo del mundo. Y esa idea, incómoda, termina cambiando lo que te importa.",
+   "p": "¿Qué creés que hace en nosotros la conciencia de que la vida es finita?",
+   "opciones": [
+    "Solo angustia: conviene evitar pensar en eso",
+    "Puede ser una fuente de cambio y de prioridades más claras",
+    "No cambia nada: seguimos igual que antes"
+   ],
+   "r": "Irvin Yalom describió cuatro preocupaciones últimas de la existencia: la muerte, la libertad con su responsabilidad, el aislamiento y la falta de sentido. No tienen solución, pero verlas de frente puede llevar a vivir de una manera más honesta.",
+   "como": "Lo presentó en 1980 en «Existential Psychotherapy», a partir de su clínica y de sus grupos de apoyo con pacientes con cáncer avanzado, donde observó cómo cambiaban sus prioridades.",
+   "debate": "Son un marco clínico, difícil de medir. Los estudios sobre psicoterapia existencial muestran beneficios, pero con resultados diversos según el problema y el método."
+  }
+ ],
+ "abierta": "¿Es mejor pensar en lo finito o vivir como si no existiera? Es una pregunta que cada uno responde a su manera."
+}

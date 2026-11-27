@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Suena una canción en un bar y por tres minutos estás en otra casa, con otra gente, en otro año. Después pasa y la tarde sigue.",
+   "p": "¿Eso es lo mismo que la nostalgia, el duelo o la tristeza?",
+   "opciones": [
+    "Sí, son nombres distintos de lo mismo",
+    "No exactamente: la saudade mezcla añoranza, ternura y tristeza por algo ausente, sin ser necesariamente un duelo",
+    "Es siempre un signo de que algo no se superó"
+   ],
+   "r": "En portugués se llama saudade a un sentimiento de falta que no se reduce a la pena: una mezcla de añoranza, ternura y tristeza por algo o alguien ausente. La nostalgia, en cambio, se ha estudiado en psicología.",
+   "como": "Constantine Sedikides y Tim Wildschut investigaron la nostalgia con experimentos en los que se pedía a las personas evocar recuerdos y se medían sus efectos, por ejemplo en el sentido de conexión.",
+   "debate": "Se discute el origen de la palabra, y la idea de que no hay nada parecido en otras lenguas es exagerada: el español tiene añoranza y morriña, el galés hiraeth, el alemán Sehnsucht. Y cuando la añoranza se vuelve un dolor que no cede conviene consultar."
+  }
+ ],
+ "abierta": "Si cada cultura nombra la falta a su manera, ¿cambia lo que sentimos según cómo lo nombramos? Es una pregunta abierta."
+}

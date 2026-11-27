@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás aprendiendo a usar una herramienta nueva. Solo te trabás, y con alguien al lado salís. Pero si te lo hace todo, nunca aprendés.",
+   "p": "¿Cuándo la ayuda ayuda de verdad?",
+   "opciones": [
+    "Cuanto más ayuda, mejor se aprende",
+    "Cuando sostiene lo que todavía no podés y se retira de a poco",
+    "Nunca: aprender solo es siempre mejor"
+   ],
+   "r": "Vygotsky llamó zona de desarrollo próximo a lo que alguien puede hacer con ayuda y todavía no solo. David Wood, Jerome Bruner y Gail Ross (1976) llamaron andamiaje a la ayuda que sostiene y se va retirando, a diferencia de la que reemplaza.",
+   "como": "Wood, Bruner y Ross lo describieron observando a adultos que enseñaban a niños pequeños a armar una tarea de bloques. En el laboratorio se mapea qué podés solo, con ayuda y qué todavía no, y se diseña cómo retirar los apoyos.",
+   "debate": "Los términos se usan de maneras algo distintas según el autor y el contexto, y definir cuánta ayuda dar es una decisión práctica sin fórmula exacta. No es un tratamiento."
+  }
+ ],
+ "abierta": "¿En qué estás recibiendo ayuda que ya podrías ir retirando, o en qué te falta?"
+}

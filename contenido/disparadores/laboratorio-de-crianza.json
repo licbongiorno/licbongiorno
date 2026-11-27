@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tu hijo se tira al piso del súper llorando porque no le compraste lo que quería. Te mirás con la gente alrededor y no sabés si ponerle un límite o abrazarlo.",
+   "p": "¿Qué le sirve más a un chico en ese momento?",
+   "opciones": [
+    "Un límite firme sin dar explicaciones",
+    "Que le dejen hacer lo que pide para que se calme",
+    "Que lo acompañen en lo que siente y que el límite se mantenga"
+   ],
+   "r": "Diana Baumrind describió estilos de crianza según dos ejes, afecto y exigencia. El estilo que combina ambos, con calidez y límites claros, suele asociarse con mejores resultados. John Gottman habló de entrenamiento emocional: nombrar la emoción y acompañarla, sin ceder en el límite. Y Winnicott dijo que alcanza con ser un padre o madre «suficientemente bueno».",
+   "como": "Edward Tronick filmó interacciones entre madres y bebés: cuando la madre ponía cara inmóvil, el bebé se descolocaba, pero cuando volvía a responder, la relación se reparaba. Mostró que las rupturas y reparaciones son parte normal del vínculo.",
+   "debate": "Los estilos de crianza se estudiaron sobre todo en ciertos países y culturas, y se discute cuánto se generalizan. También cuesta separar qué parte del resultado en los hijos viene de la crianza y cuál de otros factores, como lo genético o el contexto."
+  }
+ ],
+ "abierta": "Si equivocarse y reparar es parte normal de criar, ¿qué hace que tantas madres y padres sientan culpa por no ser perfectos?"
+}

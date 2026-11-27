@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te llega un elogio enorme, y una semana después una crítica dura. Notás que tu ánimo se fue arriba y abajo como en una montaña rusa.",
+   "p": "¿Se puede estar en paz sin dejar de querer lo que pasa?",
+   "opciones": [
+    "No: para estar en paz hay que dejar de importarse",
+    "Sí, es posible sostener el afecto sin que cada vaivén te arrastre",
+    "Solo con mucha experiencia o años de meditación"
+   ],
+   "r": "La tradición budista llama upekkha a la ecuanimidad, una de las cuatro moradas sublimes. No es indiferencia: se trata de una estabilidad que sostiene el afecto. Habla de ocho «vientos» del mundo, como ganancia y pérdida, elogio y crítica, placer y dolor, que nos mueven a todos.",
+   "como": "Gaëlle Desbordes y colaboradores (2015) propusieron cómo definirla y medirla en investigación, y se la estudió en personas que practican meditación. Buena parte de lo que se sabe viene de textos como los de Buddhaghosa.",
+   "debate": "Se discute si la ecuanimidad aprendida en la meditación se mantiene en la vida cotidiana, y hay que distinguirla de la indiferencia, su «enemigo cercano», que se parece pero cierra el corazón."
+  }
+ ],
+ "abierta": "¿Cómo se distingue estar sereno de estar desconectado? Es algo que se sigue investigando."
+}

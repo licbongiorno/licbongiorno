@@ -1,0 +1,18 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Hay alguien en tu trabajo que te saca de quicio con su soberbia, y te preguntás por qué te molesta tanto. Y hay una amiga que admirás por animarse a todo.",
+   "p": "¿Qué podría decir de vos lo que más te mueve en los otros?",
+   "opciones": [
+    "Nada: simplemente la otra persona es así",
+    "Que podría haber algo tuyo en lo que te molesta o admirás",
+    "Que hay que alejarse de esa gente"
+   ],
+   "r": "Jung llamó sombra a lo que no aceptamos de nosotros mismos, y propuso que lo que más nos mueve en los demás suele hablar también de nosotros. Los arquetipos serían las grandes figuras que se repiten en mitos, cuentos y vidas.",
+   "como": "Lo planteó a partir de su práctica clínica, el análisis de sueños y el estudio de mitos y símbolos de distintas culturas. Es observación interpretativa, no experimento.",
+   "debate": "La psicología analítica es muy influyente en la clínica y la cultura, pero sus conceptos son difíciles de comprobar con métodos experimentales. Por eso los ejercicios son una puerta de entrada y no un diagnóstico."
+  }
+ ],
+ "abierta": "Si lo que rechazamos y lo que admiramos de otros dice algo de nosotros, ¿cómo distinguir una intuición valiosa de una simple interpretación? Es una pregunta abierta."
+}

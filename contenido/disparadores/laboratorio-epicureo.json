@@ -1,0 +1,18 @@
+{
+ "autor": "Epicuro",
+ "preguntas": [
+  {
+   "enigma": "Te dan a elegir: un sueldo el doble de grande, con más cosas que querer y menos tiempo libre, o un ingreso parecido al de hoy, con tiempo para tus amigos y pocas exigencias.",
+   "p": "¿Con cuál creés que se calma más el deseo?",
+   "opciones": [
+    "Con el sueldo mayor, porque permite cumplir más deseos",
+    "Con el ingreso actual, porque tener menos que querer da calma",
+    "Con ninguno, porque el deseo nunca se aquieta"
+   ],
+   "r": "Epicuro sostenía que el placer principal es la ausencia de dolor y de perturbación, la ataraxia. Para llegar ahí ordenó los deseos en naturales y necesarios, naturales no necesarios y vanos, y recomendaba cultivar la amistad y los placeres sencillos.",
+   "como": "Fundó su escuela, el Jardín, en Atenas hacia el 306 a. C. Su pensamiento llega en pocas cartas, como la dirigida a Meneceo, y en lo que contó Diógenes Laercio, porque casi toda su obra se perdió.",
+   "debate": "Se lo confunde con alguien que buscaba el placer sin freno, y fue justo al revés. Hoy la psicología describió la adaptación hedónica: nos acostumbramos a lo que logramos y el deseo vuelve, lo que da algo de razón a su idea."
+  }
+ ],
+ "abierta": "Si pudiéramos ordenar nuestros deseos como proponía Epicuro, ¿alcanzaría para vivir con calma? Es una vieja pregunta que sigue abierta."
+}

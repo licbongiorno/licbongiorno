@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una pareja discute siempre por lo mismo. Con los años, el tema casi no cambió y ninguno de los dos logra convencer al otro.",
+   "p": "¿Qué anticipa mejor cómo le va a una pareja?",
+   "opciones": [
+    "Que casi no discutan nunca",
+    "Cómo se tratan cuando discuten, y si logran reparar después",
+    "Cuánto se parecen en gustos e intereses"
+   ],
+   "r": "John Gottman describió cuatro jinetes (crítica, desprecio, actitud defensiva y evasión) y sus antídotos. Además, notó que muchos problemas son perpetuos y se pueden conversar sin resolver. Sue Johnson, con la terapia focalizada en las emociones, mira el ciclo de persecución y retirada.",
+   "como": "Gottman observó parejas en su laboratorio, filmó sus conversaciones y las siguió en el tiempo. Johnson llevó la teoría del apego a la terapia de pareja.",
+   "debate": "Se discute cuánto se puede predecir de una pareja a partir de una conversación, y las ideas de Esther Perel sobre la paradoja entre seguridad y deseo. No reemplaza una terapia de pareja."
+  }
+ ],
+ "abierta": "Si la reparación pesa más que evitar el conflicto, ¿qué hace que algunas parejas puedan reparar y otras no? Todavía se investiga."
+}

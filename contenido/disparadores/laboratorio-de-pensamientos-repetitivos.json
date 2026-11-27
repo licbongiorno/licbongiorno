@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Das vueltas a algo que dijiste hace tres días. Cuanto más pensás en eso, más seguro estás de que lo vas a resolver, pero no avanzás.",
+   "p": "¿Por qué insistir no resuelve el problema?",
+   "opciones": [
+    "Porque pensar demasiado agota las neuronas",
+    "Porque dar vueltas se siente como resolver, pero suele quedar en un bucle",
+    "Porque el problema no tiene solución nunca"
+   ],
+   "r": "La rumiación y la preocupación son pensamientos repetitivos. Dar vueltas se parece a resolver, pero suele mantener el malestar. Pasar del por qué al cómo, ver el pensamiento como pensamiento o usar la metáfora de los pasajeros del colectivo ayudan a soltar el bucle.",
+   "como": "Los ejercicios vienen de la terapia cognitivo-conductual, de la terapia de aceptación y compromiso y del mindfulness, evaluados en distintos estudios sobre rumiación y preocupación.",
+   "debate": "Se discute qué técnica funciona para quién, y no reemplaza un tratamiento cuando el malestar es grande."
+  }
+ ],
+ "abierta": "Si pensar de más es tan común, ¿en qué momento deja de ayudar y empieza a dañar? No se sabe con precisión."
+}

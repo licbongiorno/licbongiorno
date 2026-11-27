@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Escuchás una canción y de golpe te invade una emoción que no esperabas. O querés empezar un hábito y nunca arrancás. Parecen cosas distintas, pero tienen algo en común.",
+   "p": "¿Cómo se aprende lo que sentimos y hacemos?",
+   "opciones": [
+    "Por asociaciones y consecuencias que se van repitiendo",
+    "Solo por decisiones conscientes",
+    "Se hereda y no cambia"
+   ],
+   "r": "Pávlov mostró que un estímulo neutro puede volverse señal por asociación. Skinner, que las consecuencias moldean la conducta. Bandura, que creer que podés influye en lo que hacés (autoeficacia), y William James, que los hábitos se forman por repetición.",
+   "como": "Pávlov lo vio en experimentos con perros, Skinner con animales y condicionamiento, y Bandura con estudios sobre autoeficacia. El laboratorio propone registrar antecedente, conducta y consecuencia, y dividir tareas en pasos.",
+   "debate": "Estos modelos explican mucho pero no todo: las personas también interpretamos, elegimos y nos damos significados. Hoy se los integra con otros enfoques."
+  }
+ ],
+ "abierta": "¿Qué señal en tu día dispara algo que te gustaría cambiar?"
+}

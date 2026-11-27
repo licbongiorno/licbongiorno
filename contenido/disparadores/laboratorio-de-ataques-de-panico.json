@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "De golpe, el corazón se dispara, falta el aire y aparece la idea de que algo terrible va a pasar. Pasa y quedás con miedo de que vuelva.",
+   "p": "¿Qué hace que el miedo vuelva a aparecer?",
+   "opciones": [
+    "Que el cuerpo está enfermo y no se lo trata",
+    "Interpretar las sensaciones como un peligro y evitar lo que las provoca",
+    "Que el ataque se acumula si no se lo reprime"
+   ],
+   "r": "El modelo cognitivo de David Clark (1986) describe un círculo: una sensación corporal se interpreta como catastrófica, aumenta el miedo y empeoran las sensaciones. Las conductas de seguridad (Salkovskis) mantienen el círculo. Conviene descartar una causa médica una vez.",
+   "como": "Se llegó a este modelo estudiando cómo interpretan los pacientes sus sensaciones y probando tratamientos. La terapia cognitivo-conductual, con exposición a las sensaciones (interoceptiva), es el tratamiento con más respaldo para el trastorno de pánico.",
+   "debate": "Hay debate sobre el papel de las conductas de seguridad y sobre cuánto pesa lo biológico. Este laboratorio no reemplaza un tratamiento y si las sensaciones son nuevas conviene una consulta médica."
+  }
+ ],
+ "abierta": "Si las sensaciones fueran solo sensaciones, ¿qué harías distinto la próxima vez que aparezcan?"
+}

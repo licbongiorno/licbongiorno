@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un amigo te cuenta que lo ascendieron. Decís «¡qué bueno!» y sonreís, pero por dentro algo se aprieta. Después te sentís mal por no haberte alegrado más.",
+   "p": "¿Qué es esa sensación?",
+   "opciones": [
+    "Prueba de que sos mala persona",
+    "Envidia, que puede ser benigna (te mueve) o maligna (te corroe)",
+    "Una señal de que no querés a tu amigo"
+   ],
+   "r": "Mudita es la alegría por el bien ajeno, una de las cuatro moradas de la tradición budista. Niels van de Ven y colaboradores (2009) distinguieron envidia benigna y maligna, y Shelly Gable (2004) mostró que la forma de responder a las buenas noticias de otros afecta la relación.",
+   "como": "Los estudios de van de Ven se hicieron con experimentos y cuestionarios sobre envidia. Gable observó cómo reaccionan las parejas a las buenas noticias y vio que la respuesta activa y entusiasta fortalece el vínculo. El laboratorio suma saborear (Bryant y Veroff) y una meditación guiada.",
+   "debate": "Se discute cuánto de estas distinciones es universal o depende de la cultura, y no todo el mundo siente la práctica de mudita como natural. No es un tratamiento."
+  }
+ ],
+ "abierta": "¿Cómo respondés hoy cuando a alguien cercano le va muy bien?"
+}

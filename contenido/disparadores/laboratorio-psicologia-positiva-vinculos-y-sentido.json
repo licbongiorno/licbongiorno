@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un amigo te cuenta que lo ascendieron. Podés decir «qué bueno», mirar el celular, o preguntarle cómo fue. Parece un detalle, pero algo en la relación cambia según lo que hagas.",
+   "p": "¿Cuándo te parece que se pone más a prueba un vínculo?",
+   "opciones": [
+    "Solo en las malas, cuando hay que acompañar",
+    "En las buenas también: en cómo respondemos cuando el otro nos cuenta algo bueno",
+    "Cuando hay que resolver un conflicto"
+   ],
+   "r": "Shelly Gable y sus colegas (2004) mostraron que los vínculos también se juegan en las buenas noticias, y distinguieron distintas formas de responder, entre ellas la activa y constructiva. Christopher Peterson solía resumir sus hallazgos en una frase: «los otros importan». El modelo PERMA suma además el sentido y la esperanza (C. R. Snyder, 2002: metas, caminos y agencia).",
+   "como": "Lyubomirsky, Sheldon y Schkade (2005) estudiaron actos de bondad concentrados en un día. Las investigaciones comparan a personas que hacen la práctica con otras que no, y miden su bienestar.",
+   "debate": "El sentido y los vínculos son difíciles de trabajar a solas y se construyen con el tiempo; los resultados de estas prácticas suelen ser moderados. No reemplaza el acompañamiento profesional."
+  }
+ ],
+ "abierta": "Si lo que más nos sostiene son los otros y el sentido, ¿qué nos impide cuidarlos más seguido?"
+}

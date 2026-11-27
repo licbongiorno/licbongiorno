@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Ves a un grupo moviéndose muy lento en una plaza, con los ojos casi cerrados. Parece que no están haciendo nada, y sin embargo salen con otra cara.",
+   "p": "¿Para qué sirve moverse así?",
+   "opciones": [
+    "Para nada, porque sin esfuerzo no hay efecto",
+    "Como ejercicio suave y atento, puede ayudar al bienestar",
+    "Solo para quienes creen en el qi"
+   ],
+   "r": "El qigong y el tai chi son prácticas chinas que combinan movimiento lento, respiración y atención. Se estudian como ejercicio suave, y no hace falta creer en el qi para probarlas.",
+   "como": "Una revisión de Wang y colaboradores (2010) encontró beneficios en el bienestar psicológico, con estudios de calidad dispareja.",
+   "debate": "Se discute cuánto del efecto viene del movimiento, de la atención o del grupo. No son psicoterapias y el laboratorio no promete efectos sobre el qi."
+  }
+ ],
+ "abierta": "Si moverse despacio y con atención ayuda, ¿qué parte pesa más: el cuerpo, la respiración o la calma? Se sigue investigando."
+}

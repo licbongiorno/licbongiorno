@@ -1,0 +1,18 @@
+{
+ "autor": "Frankl",
+ "preguntas": [
+  {
+   "enigma": "Es de noche y querés dormir. Cuanto más lo intentás, más despierto te sentís. Con otras cosas pasa igual: cuanto más querés que te salga bien, peor te sale.",
+   "p": "¿Qué creés que ayuda a salir de ese círculo?",
+   "opciones": [
+    "Esforzarse más, con más control",
+    "Dejar de pelear con eso, incluso con humor, o poner la atención en otra cosa",
+    "Evitar las situaciones que lo disparan"
+   ],
+   "r": "Frankl describió dos técnicas. La intención paradójica desarma la ansiedad anticipatoria deseando, con humor, lo que se teme. La derreflexión saca la atención de uno mismo, la hiperreflexión, y la lleva hacia el sentido.",
+   "como": "Frankl empezó a usar la intención paradójica en su práctica clínica en Viena. Después se la estudió en insomnio y en fobias, con resultados favorables en varios ensayos, aunque con muestras chicas.",
+   "debate": "La evidencia es variada y no sirve igual para todos. El humor tampoco es para cualquiera ni para cualquier momento, y no reemplaza un tratamiento."
+  }
+ ],
+ "abierta": "¿Por qué querer controlar algo a veces lo empeora? Es una pregunta que sigue abierta."
+}

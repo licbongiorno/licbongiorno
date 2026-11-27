@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás en una reunión y de golpe el corazón te late fuerte, las manos se ponen frías y la cabeza no logra seguir lo que dicen. Te repetís «tranquilizate» y no pasa nada.",
+   "p": "¿Por qué no alcanza con decirse que uno se calme?",
+   "opciones": [
+    "Porque falta fuerza de voluntad para controlar los pensamientos",
+    "Porque el cuerpo reacciona antes que el pensamiento y a veces hay que hablarle a él primero",
+    "Porque calmarse es algo que solo se logra con ayuda de un profesional"
+   ],
+   "r": "Daniel Siegel describió una ventana de tolerancia: la zona donde podemos sentir y pensar a la vez. Cuando algo nos supera podemos salir por arriba (acelerados) o por abajo (apagados). Ahí el razonamiento llega tarde y ayudan más recursos del cuerpo y del presente, como apoyar los pies o mirar el entorno.",
+   "como": "Surge de la clínica con personas que atravesaron estrés intenso y trauma. Peter Levine, observando cómo se activa y se descarga el cuerpo, propuso ir y volver de a poco entre una sensación agradable y otra apenas incómoda (pendulación), y Pat Ogden trabajó con la postura y el movimiento.",
+   "debate": "Varios de estos enfoques corporales tienen respaldos desiguales en investigación, y los ejercicios de regulación ayudan pero no reemplazan un tratamiento, sobre todo si hubo situaciones traumáticas importantes."
+  }
+ ],
+ "abierta": "Si el cuerpo y la mente se influyen en los dos sentidos, ¿hasta dónde puede cambiar lo que sentimos algo tan simple como la forma en que apoyamos los pies? Se sigue investigando."
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Si te piden tus defectos, los tenés listos en segundos. Si te piden tus fortalezas, te da vergüenza o te quedás en blanco.",
+   "p": "¿Por qué creés que conocemos mejor lo que nos falta?",
+   "opciones": [
+    "Porque en verdad no tenemos fortalezas que valga la pena nombrar",
+    "Porque solemos mirar más lo que falta y poco lo que ya tenemos como punto de apoyo",
+    "Porque nombrar fortalezas es de soberbios"
+   ],
+   "r": "La psicología positiva propone invertir la mirada, sin ignorar lo que falta. Christopher Peterson y Martin Seligman (Character Strengths and Virtues, 2004) describieron 24 fortalezas del carácter, y Mihaly Csikszentmihalyi (1990) estudió la experiencia de fluir, ese estar absorbido en lo que se hace cuando el desafío y la habilidad se acompañan.",
+   "como": "Peterson y Seligman revisaron tradiciones filosóficas y religiosas de distintas culturas. Seligman y otros (2005) evaluaron el ejercicio de usar una fortaleza de una manera nueva, y Laura King (2001) el del mejor yo posible.",
+   "debate": "Investigaciones posteriores sugieren que la agrupación de las 24 fortalezas en seis virtudes no es tan nítida, aunque la lista sigue siendo útil para conocerse. Reconocer una fortaleza tampoco es creérsela: no reemplaza el acompañamiento profesional."
+  }
+ ],
+ "abierta": "Si una fortaleza se conoce usándola, ¿cuántas tenemos sin usar solo porque nunca nos las nombraron?"
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Después de una discusión de pareja, uno dice «siempre hacés lo mismo» y el otro se va a otra habitación sin contestar. Al rato, ninguno sabe cómo empezó.",
+   "p": "¿Qué creés que desgasta más una relación a lo largo del tiempo?",
+   "opciones": [
+    "Que discutan seguido",
+    "Que se critiquen y se desprecien cuando discuten",
+    "Que tengan gustos muy distintos"
+   ],
+   "r": "John Gottman describió cuatro patrones que dañan los vínculos: la crítica a la persona entera, el desprecio, la actitud defensiva y el cerrarse en silencio. Cada uno tiene su antídoto, como plantear la queja sobre una situación concreta, expresar aprecio o asumir una parte de la responsabilidad. Y propuso que lo que más pesa es cómo se repara después del conflicto.",
+   "como": "Gottman y su equipo observaron parejas conversando en un laboratorio, registraron sus gestos y su tono, y las siguieron durante años para ver cuáles se separaban y cuáles no.",
+   "debate": "Las cifras de predicción que se difundieron fueron criticadas por optimistas, y se discute cuánto se generaliza lo hallado en parejas observadas en un laboratorio. El ejercicio sirve como mapa, no como sentencia sobre una relación."
+  }
+ ],
+ "abierta": "Si reparar importa más que no pelear, ¿qué hace que a algunas personas les cueste tanto dar el primer paso después de un conflicto?"
+}

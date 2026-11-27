@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Todos conocemos a alguien que empezó el gimnasio con ganas, fue una semana y dejó. Después se dice que un hábito tarda 21 días en formarse.",
+   "p": "¿Cuánto tarda de verdad en formarse un hábito?",
+   "opciones": [
+    "Unos 21 días, como se dice siempre",
+    "Depende de la persona y de la conducta, y suele llevar bastante más",
+    "Se forma al instante si hay suficiente motivación"
+   ],
+   "r": "En un estudio de Phillippa Lally y colaboradores (2010) el tiempo para que una conducta se volviera automática tuvo una mediana de 66 días, con un rango enorme entre personas y conductas. Lo que ayuda es repetirla en un contexto estable, y planes del tipo «cuando pase X, voy a hacer Y».",
+   "como": "Siguieron a unas 96 personas durante varios meses, que registraban cada día qué tan automática les resultaba una conducta elegida. Los planes «cuando… voy a…» los estudió Peter Gollwitzer como intenciones de implementación.",
+   "debate": "Fue un estudio con pocas personas y conductas simples (comer, beber, moverse). Los 21 días vienen de una idea popular sin respaldo en investigación."
+  }
+ ],
+ "abierta": "¿Por qué a algunas personas un hábito se les pega rápido y a otras les cuesta meses? Todavía no está claro."
+}

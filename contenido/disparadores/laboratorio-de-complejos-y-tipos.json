@@ -1,0 +1,18 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Alguien te dice una palabra suelta, inocente, y de pronto te quedás en blanco o contestás distinto de lo que querías. No sabés bien por qué.",
+   "p": "¿Qué creés que está pasando cuando una palabra «te pega» así?",
+   "opciones": [
+    "Es una distracción sin significado",
+    "Esa palabra toca algo con carga emocional que todavía no tiene nombre",
+    "Es cansancio y nada más"
+   ],
+   "r": "Jung observó que ciertas palabras producían demoras, errores o respuestas raras, y llamó complejos a esos conjuntos de recuerdos e ideas con carga afectiva. Años después propuso en Tipos psicológicos (1921) que además tenemos preferencias de percepción: introversión o extraversión, y pensamiento, sentimiento, sensación o intuición.",
+   "como": "A principios del siglo XX, en el hospital Burghölzli de Zúrich, Jung usó un experimento de asociación de palabras: leía palabras y medía el tiempo y el tipo de respuesta. Las demoras y los cambios se repetían alrededor de ciertos temas.",
+   "debate": "Los tipos de Jung, y los tests derivados de ellos, no se sostienen bien científicamente: la investigación de la personalidad prefiere modelos como los Cinco Grandes. Los complejos siguen siendo una idea útil en la clínica, pero no un diagnóstico."
+  }
+ ],
+ "abierta": "Si una palabra puede mover tanto sin que lo sepamos, ¿qué otras cosas nos están tocando sin que lo notemos?"
+}

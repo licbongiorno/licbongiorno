@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te piden que desees el bien a una persona que te cae mal. Pensás «no me sale» y te sentís un hipócrita por intentarlo.",
+   "p": "¿Es raro que cueste?",
+   "opciones": [
+    "Sí, quiere decir que la práctica no es para vos",
+    "No: cuesta, y la práctica incluye qué hacer cuando cuesta",
+    "Hay que forzar las frases hasta creerlas"
+   ],
+   "r": "Metta es amor bondadoso, el deseo de bien sin pedir nada. En el Metta Sutta y en Buddhaghosa se describen sus enemigos (el apego y la mala voluntad). La práctica empieza por uno mismo o alguien que nos cuidó, y llega de a poco a una persona difícil.",
+   "como": "Barbara Fredrickson (2008) encontró que practicar meditación de amor bondadoso aumentaba emociones positivas y, con el tiempo, recursos personales. Cendri Hutcherson (2008) halló que pocos minutos de práctica aumentaban la sensación de conexión con desconocidos.",
+   "debate": "Son estudios pequeños y no todas las personas sienten lo mismo. Algunas encuentran emociones difíciles al practicar y conviene hacerlo con acompañamiento si aparece algo intenso."
+  }
+ ],
+ "abierta": "¿A quién le costaría más desear bien hoy y qué te dice eso de vos?"
+}

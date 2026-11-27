@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay momentos en que el dolor es tan fuerte que no hay nada para resolver ya: solo hay que pasarlo. Y las ganas de hacer algo que después empeore todo se vuelven muy fuertes.",
+   "p": "¿Qué puede ayudar en un momento así?",
+   "opciones": [
+    "Pensar más para encontrar la causa y resolverla ahora",
+    "Distraerte con sabiduría, calmarte con los sentidos o mejorar el momento",
+    "Aguantar sin hacer nada y esperar"
+   ],
+   "r": "La DBT de Marsha Linehan propone habilidades de supervivencia a crisis (distraerse con sabiduría, autocalmarse con los sentidos, mejorar el momento) y de aceptación de la realidad (aceptación radical, girar la mente, disposición). Sirven para atravesar el momento sin empeorarlo.",
+   "como": "Surgieron de la práctica con personas que vivían crisis muy intensas, y por eso son concretas. En el laboratorio se arma un kit sensorial y se practican ejercicios guiados.",
+   "debate": "Aceptación radical no significa estar de acuerdo con lo que pasó ni que no duela. Y estas habilidades no sustituyen resolver el problema cuando se puede. Es un recurso de práctica y no reemplaza un tratamiento DBT. Si estás en peligro, buscá ayuda profesional o de emergencia."
+  }
+ ],
+ "abierta": "¿Qué cosas te ayudan hoy a pasar un momento duro sin empeorarlo, y cuáles creés que no?"
+}

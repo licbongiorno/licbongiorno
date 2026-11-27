@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cuando tu mamá se preocupa, tu papá se aleja, y cuando él se aleja, ella se preocupa más. Vos, en medio, ya sabés cuál es tu papel.",
+   "p": "¿Qué te parece que le pasa a una familia así?",
+   "opciones": [
+    "Cada uno tiene un carácter fijo que explica lo que hace",
+    "La ansiedad circula entre sus miembros y lo que le pasa a uno repercute en todos",
+    "Alguien tiene la culpa y hay que encontrarlo"
+   ],
+   "r": "Murray Bowen, psiquiatra estadounidense y fundador de la terapia familiar, veía a la familia como una unidad emocional: lo que le pasa a uno repercute en todos y la ansiedad circula entre sus miembros. Su concepto central es la diferenciación del self: distinguir lo que uno piensa de lo que siente y sostener la propia posición sin dejar de estar en contacto con los demás. Con poca diferenciación aparecen la fusión o el corte emocional.",
+   "como": "Bowen lo desarrolló observando familias en su práctica clínica y describió ideas como los triángulos y la transmisión multigeneracional.",
+   "debate": "Nadie está del todo diferenciado: es una escala, y todos nos volvemos más reactivos bajo estrés. Además, el foco está en las pautas y no en las culpas. No reemplaza una terapia."
+  }
+ ],
+ "abierta": "Si cambiar uno mismo mueve a todo el sistema, ¿cuánto puede cambiar una persona en una familia que no cambia?"
+}

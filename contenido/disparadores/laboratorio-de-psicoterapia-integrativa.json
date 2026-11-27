@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos terapeutas de corrientes distintas atienden a una misma persona y ambas logran mejoras. Nadie sabe bien por qué funcionan las dos.",
+   "p": "¿Qué puede explicarlo?",
+   "opciones": [
+    "Que una de las dos corrientes está equivocada",
+    "Que hay factores comunes como la alianza, las expectativas y la empatía",
+    "Que el paciente se hubiera curado solo"
+   ],
+   "r": "La psicoterapia integrativa combina aportes de distintas corrientes según cada persona: eclecticismo técnico, integración teórica, factores comunes e integración asimilativa. El modelo transteórico de Prochaska y DiClemente aporta las etapas del cambio.",
+   "como": "Se llegó a esto comparando tratamientos en la investigación sobre psicoterapia y viendo que los factores comunes pesan mucho en los resultados.",
+   "debate": "Se discute cuánto pesan los factores comunes frente a las técnicas específicas, y cómo integrar sin mezclar sin criterio. No reemplaza una consulta."
+  }
+ ],
+ "abierta": "Si distintas terapias llegan a resultados parecidos, ¿qué hace que una funcione mejor para cada persona? Todavía se investiga."
+}

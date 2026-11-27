@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien es muy sincero y se enorgullece de decir siempre lo que piensa. Un día lastima a un amigo sin querer, justo con eso que lo hace tan genuino.",
+   "p": "¿Puede una fortaleza volverse un problema?",
+   "opciones": [
+    "No: si es una fortaleza, siempre es buena",
+    "Sí, cuando se usa de más o sin mirar el contexto",
+    "Solo si en realidad era un defecto disfrazado"
+   ],
+   "r": "Christopher Peterson y Martin Seligman ordenaron en 2004 veinticuatro fortalezas del carácter en seis virtudes. La idea es que conocer las propias y practicarlas puede aportar bienestar. También se describe el uso excesivo: una fortaleza que se aplica sin medida pierde su beneficio.",
+   "como": "Revisaron tradiciones filosóficas y religiosas de distintas culturas para ver qué virtudes aparecían una y otra vez, y con eso armaron la clasificación. Después se la puso a prueba con cuestionarios y análisis estadísticos.",
+   "debate": "Es una propuesta teórica: los seis agrupamientos no se reproducen del todo en los análisis estadísticos, y los ejercicios para usar las fortalezas muestran efectos modestos."
+  }
+ ],
+ "abierta": "Si las fortalezas dependen tanto del contexto, ¿tiene sentido hablar de rasgos estables del carácter? La psicología sigue discutiéndolo."
+}

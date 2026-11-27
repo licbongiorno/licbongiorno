@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te define con una frase: «vos sos así, siempre lo mismo». Pero vos recordás una vez en que hiciste algo muy distinto, y casi nadie, ni vos, le da importancia.",
+   "p": "¿Por qué ese recuerdo distinto suele perderse?",
+   "opciones": [
+    "Porque en realidad fue casualidad y no dice nada de vos",
+    "Porque la historia dominante no puede explicarlo y se olvida fácil si no se lo trabaja",
+    "Porque solo recordamos lo que nos conviene"
+   ],
+   "r": "Michael White llamaba a esos momentos acontecimientos extraordinarios: la historia dominante no puede explicarlos. Por sí solos son frágiles y se olvidan rápido. Las conversaciones de reautoría los engrosan, yendo y viniendo entre el paisaje de la acción (qué pasó, con quiénes) y el paisaje de la identidad (qué dice eso de lo que valoro), hasta formar una historia alternativa con peso propio.",
+   "como": "White desarrolló estas ideas en la práctica clínica de la terapia narrativa y las sistematizó en Maps of Narrative Practice (2007). Tomó de Jerome Bruner la idea de que toda historia transcurre en dos paisajes.",
+   "debate": "No se trata de inventar una historia más linda: la alternativa se rescata de momentos reales que la historia dominante deja afuera. Y estos ejercicios no reemplazan una terapia."
+  }
+ ],
+ "abierta": "Si las historias que contamos de nosotros mismos moldean lo que hacemos después, ¿cuánto de quienes somos depende de qué recuerdos decidimos engrosar?"
+}

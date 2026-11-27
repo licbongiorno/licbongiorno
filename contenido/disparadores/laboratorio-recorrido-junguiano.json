@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Todos mostramos una cara en el trabajo y otra en casa. Y hay cosas que nos molestan en los demás con una intensidad que no se explica del todo.",
+   "p": "¿Por qué creés que nos irritan tanto ciertos rasgos ajenos?",
+   "opciones": [
+    "Porque esa gente es objetivamente insoportable",
+    "A veces porque tocan algo nuestro que dejamos afuera de la conciencia",
+    "Porque no tenemos paciencia"
+   ],
+   "r": "Carl Gustav Jung pensaba la vida psíquica como un proceso de individuación: llegar a ser plenamente quien uno es, integrando lo que quedó afuera de la conciencia. Un orden habitual: darse cuenta de la máscara (persona) y de la sombra, reconocer los complejos y los tipos psicológicos, aprender el lenguaje de lo inconsciente, que habla en imágenes, y por último integrar todo en una vida con sentido.",
+   "como": "Jung lo planteó a partir de su práctica clínica y de su propio recorrido. Este es un camino de toda la vida, que no es lineal.",
+   "debate": "Las ideas de Jung son una teoría clínica y simbólica de gran influencia, pero sin la validación empírica de otros enfoques, y se discute su alcance. Estos ejercicios no reemplazan una terapia."
+  }
+ ],
+ "abierta": "Si cada uno carga con partes que no mira, ¿cómo saber cuándo algo que vemos en otro es realmente del otro? Es difícil de responder solo."
+}

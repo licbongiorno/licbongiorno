@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Después del trabajo, una cerveza «para bajar un cambio». Después son dos, y el fin de semana alguna más. Nada grave, pero a veces te preguntás cuánto tomás en realidad.",
+   "p": "¿Cómo se puede mirar el propio consumo sin etiquetarse?",
+   "opciones": [
+    "Esperando a que otros lo señalen",
+    "Con preguntas concretas: cuánto tomo, qué me da y qué me quita",
+    "Negando el tema para no ponerse mal"
+   ],
+   "r": "El laboratorio propone revisar el consumo con herramientas basadas en evidencia: el autochequeo AUDIT-C de la OMS, el cálculo de unidades, las etapas del cambio de Prochaska y DiClemente y el balance de la entrevista motivacional de Miller y Rollnick. Sin sermones y sin etiquetas.",
+   "como": "Estos instrumentos se desarrollaron y probaron en investigación y práctica clínica. Marlatt propuso «surfear el impulso», y el enfoque CRAFT ayuda a acompañar a alguien cercano.",
+   "debate": "Los puntos de corte de un autochequeo orientan y no diagnostican. Hay debate sobre reducir daños versus abstinencia, y dejar de golpe puede ser riesgoso en algunos casos, por lo que conviene consultar. En Argentina, la línea 141 de SEDRONAR orienta de forma gratuita."
+  }
+ ],
+ "abierta": "¿Qué te da hoy el consumo que no sabrías cómo conseguir de otra manera?"
+}

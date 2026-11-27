@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tu pareja llega tarde y no avisa. En segundos ya sabés exactamente lo que piensa de vos y por qué lo hizo, con una seguridad total.",
+   "p": "¿Qué le pasó a tu mente en esos segundos?",
+   "opciones": [
+    "Leyó bien la situación, porque la intuición rara vez falla",
+    "Se dejó llevar por el enojo y dejó de pensar del todo",
+    "Tomó una suposición como si fuera un hecho, y dejó de preguntarse qué le pasaba al otro"
+   ],
+   "r": "Fonagy y Bateman llaman mentalizar a entender la conducta, propia y ajena, en términos de estados mentales: deseos, creencias, emociones. Cuando se pierde, aparecen modos como la equivalencia psíquica, donde lo que pienso se vuelve realidad, y el modo teleológico, donde solo cuentan los hechos visibles.",
+   "como": "El concepto nació de la clínica con personas con dificultades graves en sus vínculos y se conectó con la teoría del apego y con estudios sobre cómo los niños aprenden a pensar la mente de otros. De ahí se armó un tratamiento específico, la terapia basada en la mentalización.",
+   "debate": "Se discute qué tan bien delimitado está el concepto y cuánto aporta sobre otras terapias. Es un campo activo de investigación, no una respuesta cerrada."
+  }
+ ],
+ "abierta": "Si mentalizar se aprende en los primeros vínculos, ¿se puede reaprender de grande y cuánto tarda? Todavía se estudia."
+}

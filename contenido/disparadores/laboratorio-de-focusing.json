@@ -1,0 +1,18 @@
+{
+ "autor": "Gendlin",
+ "preguntas": [
+  {
+   "enigma": "Estás por tomar una decisión y, en lo racional, todo cierra. Pero hay algo en el pecho o en la panza que no te deja tranquilo, y no sabés ponerle palabras.",
+   "p": "¿Qué hacés con esa sensación?",
+   "opciones": [
+    "La ignorás: si los argumentos cierran, lo demás es ruido",
+    "La tomás como una señal que vale la pena escuchar con calma",
+    "Esperás a que se pase sola para decidir sin interferencias"
+   ],
+   "r": "Eugene Gendlin llamó sensación sentida a esa impresión corporal difusa de una situación, todavía sin palabras. Propuso escucharla con un método, el focusing, que se describe en seis pasos: hacer espacio, encontrar la sensación, darle un asidero (una palabra o imagen), resonar, preguntar y recibir.",
+   "como": "Gendlin trabajó con Carl Rogers en Chicago y se preguntó por qué algunas personas se beneficiaban de la terapia y otras no. Observó que a quienes les iba mejor solían hablar de un modo particular, refiriéndose a lo que sentían en el cuerpo mientras hablaban. De ahí armó los pasos, que publicó en Focusing (1978).",
+   "debate": "Los seis pasos son un andamiaje, no un procedimiento rígido, y el propio Gendlin lo planteaba así. La evidencia sobre el focusing viene en buena parte de estudios chicos, y no reemplaza una terapia."
+  }
+ ],
+ "abierta": "Si el cuerpo registra algo antes de que podamos decirlo, ¿qué es exactamente lo que registra, y por qué ponerle una palabra a veces alivia? Todavía no se sabe del todo."
+}

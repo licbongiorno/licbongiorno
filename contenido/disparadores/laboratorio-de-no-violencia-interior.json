@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cuando te equivocás, una voz interna te dice cosas que jamás le dirías a un amigo. Sin embargo, jurás que es lo que necesitás para mejorar.",
+   "p": "¿Esa voz te ayuda a cambiar?",
+   "opciones": [
+    "Sí, sin dureza interna uno se relaja y no mejora",
+    "Muchas veces no: la dureza suele paralizar más que mover",
+    "Depende solo de cuánta razón tenga lo que dice"
+   ],
+   "r": "El laboratorio distingue la autocrítica que ayuda de la autoagresión. Freud habló del superyó, y Ferenczi de la identificación con el agresor, para explicar cómo la voz crítica puede venir de afuera. La terapia dialéctico-conductual de Marsha Linehan propone un trato validante y a la vez firme.",
+   "como": "El origen de la voz crítica se estudió desde la clínica psicoanalítica, observando cómo se internalizan las voces del entorno. Linehan lo llevó a una práctica concreta en la DBT.",
+   "debate": "Se discute cuánto de la crítica interna es heredada y cuánto aprendida, y dónde termina la exigencia sana. No reemplaza el acompañamiento profesional."
+  }
+ ],
+ "abierta": "Si se puede aprender a hablarse con firmeza y sin agresión, ¿qué cambia primero: lo que uno se dice o cómo se siente al decírselo? No hay una respuesta cerrada."
+}

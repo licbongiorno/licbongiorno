@@ -1,0 +1,18 @@
+{
+ "autor": "Vygotsky",
+ "preguntas": [
+  {
+   "enigma": "Un chico de cuatro años arma una torre de bloques y va diciendo en voz alta: «ahora el rojo, no, el grande abajo». Nadie le preguntó nada.",
+   "p": "¿Para qué habla solo?",
+   "opciones": [
+    "Todavía no aprendió a callarse",
+    "Se está ayudando a pensar y a guiar lo que hace",
+    "Es una señal de inmadurez que va a desaparecer"
+   ],
+   "r": "Piaget lo había interpretado como inmadurez. Lev Vygotsky propuso lo contrario: el habla del niño para sí es una herramienta para pensar y organizar la acción que, con el tiempo, se hace silenciosa y se vuelve habla interna.",
+   "como": "Lo sostuvo observando niños y poniéndolos ante tareas difíciles: hablaban más cuando algo se complicaba. Investigaciones posteriores encontraron que el habla para uno mismo aumenta con la dificultad. Ethan Kross sumó que hablarse en segunda persona o por el propio nombre puede ayudar a regular emociones.",
+   "debate": "Las investigaciones sobre cómo piensa cada persona muestran que no todos tienen un monólogo interno constante. Y la mayor parte de los resultados sobre hablarse a uno mismo vienen de estudios chicos que siguen discutiéndose."
+  }
+ ],
+ "abierta": "Si la voz con la que pensamos empezó siendo la de otros, ¿hasta qué punto es realmente propia? Es una pregunta abierta."
+}

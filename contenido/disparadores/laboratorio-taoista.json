@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay días en que todo sale sin esfuerzo: la conversación fluye, el trabajo avanza. Y otros en que cuanto más empujás, peor va.",
+   "p": "¿Qué te parece que significa wu wei, concepto central del taoísmo?",
+   "opciones": [
+    "No hacer nada y esperar",
+    "Actuar con soltura, sin esfuerzo forzado",
+    "Evitar cualquier compromiso"
+   ],
+   "r": "El taoísmo es una tradición filosófica y religiosa china, cuyo texto más conocido es el Tao Te Ching, atribuido por la tradición a Laozi. Wu wei suele traducirse como «no acción», pero Edward Slingerland (Effortless Action, 2003) sostiene que alude a una acción sin esfuerzo forzado, con soltura, y no a quedarse quieto.",
+   "como": "Llegó a la psicología occidental sobre todo de la mano de Carl Jung, que en 1929 publicó con el sinólogo Richard Wilhelm El secreto de la flor de oro, con un comentario suyo. Jung también advirtió contra imitar las prácticas orientales sin comprenderlas.",
+   "debate": "La autoría y la fecha del Tao Te Ching son inciertas, y el taoísmo no es una psicoterapia ni tiene ensayos clínicos propios. Hay cosas que sí requieren esfuerzo, y fluir no es dejar de hacerse cargo."
+  }
+ ],
+ "abierta": "Si a veces empujamos de más y otras nos quedamos quietos de más, ¿cómo saber en qué momento está cada cosa?"
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hiciste la lista de todo lo que te hace mal y fuiste sacándolo de tu vida: ese grupo, esa costumbre, esa exigencia. Quedó más limpio, pero igual te sentís seco por dentro.",
+   "p": "¿Qué creés que falta?",
+   "opciones": [
+    "Seguir sacando cosas, porque todavía queda algo tóxico escondido",
+    "Sembrar y regar lo que te nutre, no solo podar lo que te daña",
+    "Nada: es cuestión de esperar a que pase el cansancio"
+   ],
+   "r": "Para Carl Rogers, las personas tienden a crecer cuando hay condiciones que lo permiten, como una planta con luz y agua. Donald Winnicott habló de un ambiente «suficientemente bueno»: no perfecto, pero que sostiene. Cuidarse sería quitar lo que daña y también poner lo que alimenta.",
+   "como": "Rogers lo fue formulando a partir de su trabajo clínico y de sus sesiones grabadas. Winnicott lo pensó observando durante años a madres y bebés como pediatra y psicoanalista.",
+   "debate": "La «tendencia actualizante» de Rogers es difícil de medir y se la critica por optimista. Y las ideas de Winnicott salen de la clínica, no de experimentos controlados."
+  }
+ ],
+ "abierta": "¿Cuánto de lo que te nutre lo elegís vos y cuánto depende del terreno en el que te tocó vivir? Es una pregunta que sigue abierta."
+}

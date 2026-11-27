@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una hija de quince años pasó de contarte todo a encerrarse en su cuarto. A veces sentís que ya no la conocés, y ella siente que no la entendés.",
+   "p": "¿Qué le puede estar pasando?",
+   "opciones": [
+    "Es una etapa de capricho que pasa sola",
+    "Está atravesando cambios profundos: del cuerpo, de la identidad y del lugar en la familia",
+    "Algo grave en la relación con vos, siempre"
+   ],
+   "r": "Arminda Aberastury y Mauricio Knobel describieron tres duelos de la adolescencia: por el cuerpo infantil, por el rol y la identidad de la infancia y por los padres de la infancia. Entenderlo ayuda a acompañar con escucha, límites claros y conversaciones sin pelea.",
+   "como": "Aberastury y Knobel lo formularon desde el psicoanálisis y la clínica con adolescentes en Argentina. El laboratorio tiene una parte para adolescentes (quién soy, pantallas y ánimo, pedir ayuda) y otra para adultos que los acompañan.",
+   "debate": "No todos los adolescentes viven esta etapa como crisis, y la mirada actual la ve más variable según contexto y cultura. Si preocupa un cambio grande o sostenido, conviene consultar."
+  }
+ ],
+ "abierta": "¿Qué necesita un adolescente de un adulto cuando todo lo demás se mueve?"
+}

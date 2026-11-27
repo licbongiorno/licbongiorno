@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay una persona con la que te sentís capaz de todo y otra con la que, sin que te diga nada feo, volvés a casa sintiéndote chiquito.",
+   "p": "¿De dónde puede venir esa diferencia?",
+   "opciones": [
+    "De que algunas personas son simplemente más simpáticas que otras",
+    "De cómo nos sentimos parte, mirados y valorados en ese vínculo",
+    "De que con unas personas nos exigimos menos y con otras más, sin ninguna razón"
+   ],
+   "r": "Alfred Adler pensó que sentirnos parte de algo, lo que llamó sentimiento comunitario, es fuente de fuerza. Karen Horney describió cómo un ideal de perfección puede volverse exigente y Harry Stack Sullivan, cómo aprendemos a vernos como buenos o malos según la mirada de los otros.",
+   "como": "Los tres lo propusieron a partir de su trabajo clínico, observando cómo las personas se describían en relación con los demás. No son experimentos controlados: son lecturas de la clínica que cada lector puede contrastar con sus propios vínculos.",
+   "debate": "Son teorías clásicas que hoy se usan como mapas para pensar, no como diagnósticos. Algunas de sus ideas se discuten o se han reformulado con la investigación posterior."
+  }
+ ],
+ "abierta": "Si nuestra imagen de nosotros se arma en buena medida con la mirada de los otros, ¿cuánto de lo que creemos «ser» es realmente propio? Es una pregunta que sigue abierta."
+}

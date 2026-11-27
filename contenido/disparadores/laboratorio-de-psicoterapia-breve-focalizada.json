@@ -1,0 +1,18 @@
+{
+ "autor": "Fiorini",
+ "preguntas": [
+  {
+   "enigma": "Alguien llega a una consulta con muchas cosas para contar y poco tiempo para trabajarlas. Cada sesión se va por un tema distinto.",
+   "p": "¿Cómo se puede trabajar en pocas sesiones?",
+   "opciones": [
+    "Hay que elegir un solo tema y no tocar nada más",
+    "Armando un foco, un punto de partida desde el que organizar el trabajo",
+    "No se puede: lo importante lleva años"
+   ],
+   "r": "Héctor Fiorini (1931-2023) desarrolló una psicoterapia psicoanalítica breve, publicada en Teoría y técnica de psicoterapias (1973). Se basa en la activación de las funciones del yo, la elaboración de un foco y la relación de trabajo.",
+   "como": "Se desarrolló desde el Servicio de Psicopatología del Hospital de Lanús, con una práctica clínica pensada para ofrecer tratamientos de duración limitada.",
+   "debate": "Se discute qué se puede lograr en tratamientos cortos y para quién. Los ejercicios son una introducción, no reemplazan una terapia."
+  }
+ ],
+ "abierta": "Si un foco bien elegido ordena el trabajo, ¿cómo se descubre cuál es? Es una pregunta abierta."
+}

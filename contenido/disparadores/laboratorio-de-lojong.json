@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Discutís con un compañero de trabajo y volvés a casa con la frase perfecta que no dijiste, que repetís durante horas.",
+   "p": "¿Qué te ayudaría a soltarlo?",
+   "opciones": [
+    "Ganar mentalmente la discusión hasta que cierre",
+    "Ver qué parte de eso es mi propio apego a tener razón",
+    "Culpar al otro para sacármelo de encima"
+   ],
+   "r": "Del Tíbet viene el lojong, «entrenamiento de la mente»: 59 consignas breves para tener a mano en el momento. Su tema central es el apego a uno mismo, la tendencia a ponerse en el centro de toda experiencia, que se entrena de a poco y con compasión.",
+   "como": "El texto clásico son los Siete puntos del entrenamiento de la mente, que ordenó Chekawa Yeshe Dorje (1101-1175) a partir de la línea del maestro Atisha. Es una práctica religiosa que se transmite en la tradición.",
+   "debate": "Los programas seculares inspirados en el lojong tienen respaldo todavía preliminar. Y hay riesgos: confundir el entrenamiento con el bypass espiritual o con la autoculpa."
+  }
+ ],
+ "abierta": "¿Se puede entrenar la compasión como se entrena un músculo? La investigación recién empieza."
+}

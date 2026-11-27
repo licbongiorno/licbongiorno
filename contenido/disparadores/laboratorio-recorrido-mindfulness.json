@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Llegás a destino manejando y no recordás el camino. O comés mirando el celular y al final no registraste el sabor. Estabas ahí, pero no del todo.",
+   "p": "¿Qué te parece que es mindfulness?",
+   "opciones": [
+    "Poner la mente en blanco",
+    "Prestar atención a propósito, al momento presente y sin juzgar",
+    "Relajarse hasta no sentir nada"
+   ],
+   "r": "En 1979, el biólogo molecular Jon Kabat-Zinn creó en la Universidad de Massachusetts el programa de reducción del estrés basada en mindfulness (MBSR), que llevó prácticas de origen budista a un formato laico. Lo definía como prestar atención de un modo particular: a propósito, en el momento presente y sin juzgar. En Full Catastrophe Living (1990) propuso siete actitudes que sostienen la práctica.",
+   "como": "De ahí surgieron otros programas, como la terapia cognitiva basada en mindfulness para prevenir recaídas en la depresión, y la atención plena se integró a terapias como la DBT y la ACT.",
+   "debate": "Al ser un formato laico de prácticas de origen budista, se discute qué se pierde y qué se gana al separarlas de su contexto. Y no es la solución para todo ni para todas las personas. No reemplaza una terapia."
+  }
+ ],
+ "abierta": "Si prestar atención cambia tanto la experiencia, ¿cuánto de nuestra vida pasamos en piloto automático sin darnos cuenta?"
+}

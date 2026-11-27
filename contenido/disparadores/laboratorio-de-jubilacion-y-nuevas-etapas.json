@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien se jubila después de cuarenta años de trabajo. Al principio descansa, pero a los pocos meses siente un vacío que no esperaba.",
+   "p": "¿Por qué puede pasar eso?",
+   "opciones": [
+    "Porque no supo disfrutar del tiempo libre",
+    "Porque el trabajo daba más que dinero: horarios, un lugar, vínculos y sentido",
+    "Porque es una señal de que se jubiló demasiado pronto"
+   ],
+   "r": "El trabajo ordena el día, da identidad, ofrece vínculos y muchas veces sentido. Robert Atchley, en su teoría de la continuidad (1989), propuso que al mayor adaptarse suele conservar hábitos, roles, valores y relaciones, y que ayuda ver qué de eso puede seguir y qué conviene sumar.",
+   "como": "Atchley lo propuso a partir del estudio de personas mayores a lo largo del tiempo, observando cómo atravesaban esta etapa.",
+   "debate": "Cada jubilación es distinta: a algunas personas les mejora el ánimo y a otras les baja. La continuidad es una forma de mirar la adaptación, no una receta, y a veces la ruptura también es sana."
+  }
+ ],
+ "abierta": "¿Qué hace que algunas personas encuentren enseguida un nuevo sentido y otras tarden más? No hay una respuesta única."
+}

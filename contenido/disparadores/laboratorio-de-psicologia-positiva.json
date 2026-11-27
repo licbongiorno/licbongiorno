@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te dice «pensá en positivo» cuando pasás por un mal momento. Sentís que te pide que te calles.",
+   "p": "¿Qué distingue a la psicología positiva de eso?",
+   "opciones": [
+    "Que propone sonreír y evitar lo malo",
+    "Que estudia qué ayuda a florecer, sin negar el dolor",
+    "Que dice que los problemas no existen"
+   ],
+   "r": "Seligman propuso el modelo PERMA (Flourish, 2011): emociones positivas, compromiso, relaciones, sentido y logro. El laboratorio también diferencia la psicología positiva de la positividad tóxica, que exige estar bien siempre.",
+   "como": "Se llegó a ella estudiando qué hace bien a las personas, con encuestas y ensayos de intervenciones como escribir gratitud.",
+   "debate": "Se discute qué tan sólidos son los efectos, que a veces son chicos, y cuánto se aplican a otras culturas. No reemplaza el acompañamiento profesional."
+  }
+ ],
+ "abierta": "Si florecer no es evitar el dolor, ¿cuál es el papel de lo difícil en una vida buena? No hay una respuesta cerrada."
+}
