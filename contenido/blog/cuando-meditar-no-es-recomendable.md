@@ -11,7 +11,7 @@ orden: 53
 estado: publicado
 respuesta: La meditación es segura para la mayoría de las personas, pero no para todas ni en cualquier momento. La investigación describió efectos adversos como ansiedad, recuerdos traumáticos, sensación de irrealidad o, en casos raros, episodios psicóticos, sobre todo en prácticas intensivas. Conviene tener cuidado en personas con trauma, psicosis, trastorno bipolar o en crisis, y meditar con acompañamiento.
 menciona: meditacion, mindfulness
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Alguien cierra los ojos para relajarse y se encuentra con un recuerdo que no quería ver. Otro sale de un retiro de diez días sintiendo que el mundo es irreal. Otra persona siente que, cuanto más presta atención a su respiración, más se ahoga. Se habla mucho de los beneficios de meditar. Mucho menos de que, a veces, no es lo que hace falta, y de que eso no significa que lo estés haciendo mal.
 
@@ -51,6 +51,32 @@ Durante años esto se habló poco. Hoy hay investigación específica.
 Si después de meditar aparecen ansiedad persistente, sensación de irrealidad, recuerdos intrusivos, insomnio o cambios en el estado de ánimo que no ceden, conviene consultar con un profesional de la salud mental, y contarle sobre la práctica. No es un fracaso: es información para cuidarte. Podés [escribirme](/contacto/). Si estás en riesgo, mirá [ayuda urgente](/ayuda-urgente/).
 
 Para practicar con cuidado, en el [laboratorio de meditación](/laboratorio-de-meditacion/) las prácticas son cortas y con posibilidad de frenar. Ver también [qué es la meditación](/recursos/que-es-la-meditacion/).
+
+## Una práctica breve para ir con cuidado
+
+Si querés probar y tenés dudas, una versión de tres minutos con salida siempre abierta:
+
+1. Sentate con los ojos abiertos, la mirada apoyada en un punto del piso o en una ventana.
+2. Elegí un ancla externa: el sonido más lejano que escuches o el contacto de los pies en el suelo.
+3. Llevá la atención ahí durante unos respiros. No hace falta cerrar los ojos ni mirar adentro.
+4. Antes de empezar, decidí una señal de salida: si algo se pone demasiado intenso, abrís los ojos, te movés, tomás agua, nombrás cinco objetos que ves.
+5. Terminá con un movimiento: estirar los brazos, caminar un poco.
+
+Cortar a tiempo no es fracasar: es una parte de la práctica que casi nunca se enseña.
+
+## En terapia
+
+Es frecuente que alguien consulte porque «meditar me hizo peor»: la ansiedad creció, aparecieron imágenes que no pedía o una sensación de irrealidad. Primero se escucha lo que pasó, sin juzgar ni a la persona ni a la práctica. A menudo la meditación abrió una puerta que todavía no había con qué sostener.
+
+Desde una mirada integrativa con base psicoanalítica y junguiana, lo que emerge es material psíquico que pide un contexto seguro y un ritmo propio. El trabajo suele empezar por estabilizar: construir recursos, anclas, una relación terapéutica confiable, y sólo después, si hace falta, volver a mirar de a poco lo que apareció. A veces la meditación se retoma con adaptaciones (ojos abiertos, sesiones cortas, movimiento), y a veces se deja de lado una temporada o para siempre. No hay una sola respuesta.
+
+## Qué dice la investigación y cuáles son sus límites
+
+El trabajo de Lindahl y colaboradores (2017) es cualitativo: se basa en relatos de practicantes y en las categorías que organizan sus experiencias. Sirve para mostrar que las dificultades existen y cómo se viven, pero no permite decir con qué frecuencia ocurren. La revisión de Farias y colaboradores (2020) trató de estimarla, con la cifra cercana al 8 % que ya mencioné, pero reúne estudios muy distintos, muchos de los cuales no preguntaban por efectos adversos de manera sistemática.
+
+Tampoco sabemos bien por qué pasa: puede depender de la persona, del tipo de práctica, de la intensidad, del contexto y del acompañamiento. Lo que sí hay es un contrapeso importante: los beneficios son menos grandes de lo que a veces se dice. La revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) encontró efectos modestos sobre ansiedad, depresión y dolor, y no mejores que los de otros tratamientos activos. Y Van Dam y colaboradores (2018) pidieron que se hablara tanto de los riesgos como de los beneficios.
+
+Dicho de otro modo: la meditación no es peligrosa por naturaleza ni milagrosa. Es una práctica con efectos reales, que conviene dosificar. Si estás evaluando si meditar, qué tipo y cuánto, el [laboratorio de meditación](/laboratorio-de-meditacion/), el [laboratorio de mindfulness](/laboratorio-de-mindfulness/) y el [de respiraciones](/laboratorio-de-respiraciones/) proponen prácticas cortas y con salida. Si el cuerpo es el lugar difícil, mirá [el cuerpo lleva la cuenta](/recursos/el-cuerpo-lleva-la-cuenta/) y [yoga sensible al trauma](/recursos/yoga-sensible-al-trauma/). Y para pensar en vínculo y no sólo en técnica, el [laboratorio de interser](/laboratorio-de-interser/).
 
 ## Preguntas frecuentes
 

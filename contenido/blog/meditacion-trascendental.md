@@ -11,7 +11,7 @@ orden: 49
 estado: publicado
 respuesta: La meditación trascendental es una técnica de meditación con mantra difundida desde los años cincuenta por Maharishi Mahesh Yogi. Se practica unos veinte minutos dos veces por día, repitiendo mentalmente un mantra asignado por un instructor. Hay estudios que muestran beneficios en estrés y presión arterial, aunque la calidad de la evidencia es discutida. Se enseña de forma estandarizada y paga.
 menciona: meditacion-trascendental, meditacion
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Una palabra suave, repetida en silencio, y la atención que se asienta sola, sin pelearse con los pensamientos. Veinte minutos a la mañana, veinte a la tarde. Lejos de dejar la mente en blanco o de concentrarse con esfuerzo, esa es la propuesta de la meditación trascendental, una de las primeras en volverse masivas en Occidente, de la mano de los Beatles y de las universidades.
 
@@ -44,6 +44,32 @@ En los años setenta, el cardiólogo **Herbert Benson**, de la Universidad de Ha
 ## Cuándo conviene y cuándo no
 
 Es una práctica en general bien tolerada y fácil de sostener. Como cualquier meditación, conviene consultar si se atraviesa una crisis o hay antecedentes de trauma o psicosis. Antes de pagar un curso, vale la pena informarse bien y saber que hay alternativas gratuitas. Ver también [qué es la meditación](/recursos/que-es-la-meditacion/) y [cuándo meditar no es recomendable](/recursos/cuando-meditar-no-es-recomendable/).
+
+## Una práctica breve: la respuesta de relajación
+
+Esto no es meditación trascendental, que se aprende con un instructor, sino la versión laica que propuso Herbert Benson:
+
+1. Elegí un lugar tranquilo y sentate cómodo, con los ojos cerrados.
+2. Relajá los músculos, de los pies hacia arriba, sin apuro.
+3. Respirá por la nariz. Cada vez que exhalás, repetí mentalmente una palabra neutra que elijas (por ejemplo «uno» o «calma»).
+4. Cuando aparezcan pensamientos, no los pelees: decí «bueno» y volvé a la palabra.
+5. Seguí diez o quince minutos. Antes de abrir los ojos, quedate un minuto más en silencio.
+
+No hace falta que la mente se quede quieta. La actitud es la que importa: pasiva, sin exigencia.
+
+## En terapia
+
+Alguien llega con la cabeza a mil, hiperexigente, y pide una técnica que lo «apague». Una práctica con una palabra puede servir como primer escalón: es simple, medible y no exige creer nada. Pero desde una mirada integrativa con base psicoanalítica y junguiana, lo interesante es lo que pasa después: ¿qué aparece cuando la cabeza baja el ritmo? ¿Alivio, aburrimiento, miedo, tristeza? Esa reacción dice mucho sobre cómo la persona se relaciona con el descanso y con el silencio.
+
+Y hay otra pregunta que importa en la clínica: qué lugar tiene el mantra. Para algunos es una herramienta; para otros, un ritual con sentido espiritual. Y cuando hay una organización con un curso pago, vale la pena hablar de las expectativas, del dinero y de la idea de que «hay que hacerlo de una única manera».
+
+## Qué dice la investigación y cuáles son sus límites
+
+Los resultados sobre presión arterial son los más citados, y la Asociación Americana del Corazón (Levine y colaboradores, 2017) los consideró un posible beneficio, con calidad de evidencia modesta. Muchos estudios fueron realizados por investigadores vinculados a la organización, hay grupos de comparación poco comparables y los seguimientos suelen ser cortos. Cuando se compara con otras técnicas de relajación, las diferencias son pequeñas.
+
+En el panorama amplio de la meditación, la revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) encontró efectos modestos sobre ansiedad, depresión y dolor, sin superioridad frente a otros tratamientos activos. Y como cualquier práctica, puede traer experiencias difíciles: Lindahl y colaboradores (2017) documentaron entre ellas ansiedad, desrealización y recuerdos intrusivos, incluso en quienes meditaron sin problema durante años. Con prácticas de repetición y de ojos cerrados, conviene prestar atención a quienes tienen historia de trauma.
+
+Para practicar sin costo, el [laboratorio de meditación](/laboratorio-de-meditacion/), el [laboratorio de mindfulness](/laboratorio-de-mindfulness/) y el [de respiraciones](/laboratorio-de-respiraciones/). Para pensar la práctica en relación con otros, el [laboratorio de interser](/laboratorio-de-interser/). Más en [qué es la meditación](/recursos/que-es-la-meditacion/) y en [la meditación en Occidente](/recursos/meditacion-en-occidente/).
 
 ## Preguntas frecuentes
 

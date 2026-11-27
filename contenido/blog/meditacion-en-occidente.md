@@ -11,7 +11,7 @@ orden: 51
 estado: publicado
 respuesta: Occidente tiene sus propias tradiciones meditativas: la oración contemplativa cristiana, el hesicasmo y la oración de Jesús, la lectio divina y la oración centrante. En el siglo XX, la medicina y la psicología crearon técnicas con un espíritu parecido, como la relajación muscular progresiva de Edmund Jacobson y el entrenamiento autógeno de Johannes Schultz.
 menciona: meditacion
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Un monje que repite una sola frase al ritmo de la respiración en un monasterio del monte Athos. La lectura lenta de un texto, palabra por palabra, hasta que una resuena. Un médico que en Berlín les enseña a sus pacientes a sentir el peso y el calor de sus brazos. La meditación no vino solo de Oriente: Occidente también tiene una larga historia de silencio, atención y contemplación.
 
@@ -44,6 +44,30 @@ La relajación progresiva y el entrenamiento autógeno tienen evidencia para red
 ## Cuándo conviene
 
 Para quienes sienten lejanas las tradiciones orientales, estas prácticas pueden ser una puerta de entrada más cercana. La relajación progresiva es especialmente útil para quienes cargan mucha tensión en el cuerpo. Podés probarla en el [laboratorio de meditación](/laboratorio-de-meditacion/). Para otras tradiciones, ver [qué es la meditación](/recursos/que-es-la-meditacion/), y para la mirada de Jung sobre Oriente y Occidente, [Jung y la meditación](/recursos/jung-y-la-meditacion/).
+
+## Una práctica breve: relajación progresiva en cinco pasos
+
+1. Acostate o sentate cómodo. Respirá unas veces con naturalidad.
+2. Empezá por las manos: cerrá los puños con fuerza moderada durante unos cinco segundos, sin dolor.
+3. Soltá de golpe y notá la diferencia: el calor, el hormigueo, el peso. Quedate diez o quince segundos en ese contraste.
+4. Repetí con otros grupos, en orden: brazos, hombros, frente, mandíbula, abdomen, piernas, pies.
+5. Al final, recorré el cuerpo entero con la atención y quedate un minuto en silencio.
+
+Si tensar algún lugar duele o hay una lesión, saltealo o solo imaginá el gesto. La idea es aprender a distinguir tensión y soltura, no forzar.
+
+## En terapia
+
+Cuando alguien llega con ansiedad, insomnio o mucha tensión muscular, y se siente lejos de las tradiciones orientales, estas técnicas son una buena puerta. Desde una mirada integrativa con base psicoanalítica y junguiana, no se las ofrece como fórmula, sino como una forma de empezar a registrar el cuerpo: dónde se acumula la tensión, qué la dispara, en qué momentos del día aparece. Esa información abre preguntas que después se conversan: por qué el hombro se tensa justo en ciertas reuniones, qué recuerda esa mandíbula apretada. Para quienes tienen fe, la oración contemplativa puede ser un recurso valioso, y se respeta su sentido religioso sin reducirlo a técnica.
+
+## Qué tiene investigación y qué no
+
+La relajación muscular progresiva y el entrenamiento autógeno tienen un cuerpo de estudios más amplio que las prácticas contemplativas religiosas, con resultados favorables en ansiedad, tensión y algunos síntomas físicos. Aun así, la calidad de los estudios varía y muchos son chicos.
+
+Sobre las prácticas contemplativas cristianas, la investigación es escasa: casi no hay ensayos controlados sobre la oración centrante o la lectio divina, y sus beneficios para quien las practica no se pueden separar de su dimensión de fe, que no se mide con las mismas herramientas. Sobre meditación en general, la revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) mostró efectos modestos sobre ansiedad, depresión y dolor, sin ventajas sobre otros tratamientos activos.
+
+También hay cuidados. Lindahl y colaboradores (2017) describieron experiencias difíciles en practicantes de meditación, y la relajación puede producir paradójicamente ansiedad en algunas personas: lo que se llama ansiedad inducida por la relajación, cuando soltar el control se siente como peligroso. En ese caso se puede acortar la práctica, hacerla con los ojos abiertos o suspenderla y consultar.
+
+Para probar, el [laboratorio de meditación](/laboratorio-de-meditacion/), el [laboratorio de mindfulness](/laboratorio-de-mindfulness/) y el [de respiraciones](/laboratorio-de-respiraciones/). Para pensar la contemplación como forma de vínculo con lo que nos rodea, el [laboratorio de interser](/laboratorio-de-interser/). Y sobre cuerpo y estrés, [estrés crónico y cuerpo](/recursos/estres-cronico-y-cuerpo/).
 
 ## Preguntas frecuentes
 

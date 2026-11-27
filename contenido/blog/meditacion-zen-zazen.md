@@ -11,7 +11,7 @@ orden: 47
 estado: publicado
 respuesta: El zen es una escuela del budismo que nació en China y se desarrolló en Japón. Su práctica central es el zazen, la meditación sentada, en la que se adopta una postura estable, se respira con naturalidad y se deja pasar lo que aparece. Incluye el shikantaza («solo sentarse»), el kinhin (meditación caminando) y, en algunas escuelas, los koan. Interesó a psicólogos como Erich Fromm.
 menciona: zen, meditacion
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Una pared blanca, la espalda derecha, y quedarte ahí. Sin objetivos, sin mantras, sin música. Al principio la cabeza protesta, se aburre, se impacienta, inventa urgencias. Y de a poco, en algún momento, algo se acomoda. El zen tiene fama de misterioso, pero su práctica central es de una simpleza casi desconcertante.
 
@@ -53,6 +53,33 @@ Podés probar «solo sentarse» y la meditación caminando en el [laboratorio de
 Para ver el zen junto a las psicoterapias y los conceptos que nacieron en Japón, como la [terapia Morita](/recursos/terapia-morita/), mirá el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
 
 Las raíces chinas del zen están en el [budismo chan](/recursos/chan-el-budismo-chino/).
+
+## Una práctica breve: diez minutos de zazen
+
+1. Sentate en una silla o sobre un almohadón, con la columna erguida y el mentón apenas recogido. Apoyá las manos una sobre otra, con los pulgares tocándose levemente.
+2. Dejá los ojos entreabiertos, con la mirada suave apoyada en el piso a un metro.
+3. Respirá por la nariz con naturalidad. Durante los primeros minutos podés contar las exhalaciones de uno a diez y volver a uno.
+4. Cuando te des cuenta de que te fuiste en un pensamiento, no te reprendas: volvé al conteo o a la respiración.
+5. Pasados unos minutos, soltá el conteo y quedate solo sentado, atento a lo que hay.
+6. Terminá moviendo el cuerpo con calma. Si querés, hacé unos pasos lentos de kinhin.
+
+Si el silencio se vuelve muy intenso, abrí los ojos del todo, mirá el entorno y respirá más hondo. Cortar no es un fracaso.
+
+## En terapia
+
+Alguien llega diciendo «hace años que hago zazen y sigo igual de ansioso» o, al contrario, «el zazen me calma pero en casa explota todo». Las dos frases son útiles. Una práctica diaria puede dar una estabilidad real, y al mismo tiempo no alcanzar para lo que está en la historia de esa persona: un duelo, un vínculo, una forma de defenderse.
+
+Desde una mirada integrativa con base psicoanalítica y junguiana, no se opone la meditación a la terapia: se pregunta qué hace cada una. El zazen entrena a estar con lo que hay; el análisis pregunta qué significa y de dónde viene. Hay personas a quienes sentarse en silencio les devuelve el cuerpo; a otras les aparece lo que venían evitando. En los dos casos se conversa sobre lo que pasa, sin idealizar la práctica ni la quietud.
+
+## Qué dice la investigación y cuáles son sus límites
+
+Sobre el zazen en particular hay pocos estudios controlados; la mayor parte de la investigación en meditación se hizo con mindfulness y con meditación trascendental. Los trabajos con practicantes zen suelen ser pequeños y comparan a monjes o practicantes de muchos años con personas sin experiencia, de modo que no se puede saber si las diferencias vienen de la práctica o de otras características.
+
+En el panorama general, la revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) mostró efectos modestos sobre ansiedad, depresión y dolor, similares a los de otros tratamientos activos. Y en cuanto a riesgos, Lindahl y colaboradores (2017) describieron entre practicantes occidentales del budismo experiencias difíciles, desde miedo y despersonalización hasta recuerdos traumáticos. En un retiro zen tradicional (sesshin), con muchas horas de zazen por día, esos riesgos son mayores que en una práctica diaria corta.
+
+También cabe una nota cultural: el zen tiene formas, jerarquías y un contexto religioso que no se reducen a una técnica. Practicarlo sin conocerlo es posible, pero respetar el origen enriquece la experiencia.
+
+Para empezar de a poco, el [laboratorio de meditación](/laboratorio-de-meditacion/), el [laboratorio de mindfulness](/laboratorio-de-mindfulness/) y el [de respiraciones](/laboratorio-de-respiraciones/). Y para pensar la práctica como relación con lo que nos rodea, el [laboratorio de interser](/laboratorio-de-interser/), ligado a [Thich Nhat Hanh](/recursos/thich-nhat-hanh-y-el-interser/), maestro zen vietnamita.
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 46
 estado: publicado
 respuesta: El mindfulness o atención plena es la capacidad de prestar atención al momento presente, de forma intencional y sin juzgar. Jon Kabat-Zinn la llevó a la medicina en 1979 con el programa MBSR, y luego surgió la terapia cognitiva basada en mindfulness (MBCT), que tiene buena evidencia para prevenir recaídas en la depresión recurrente. No es una solución para todo y no reemplaza un tratamiento.
 menciona: mindfulness, meditacion
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es estar siempre relajado ni pensar en positivo. Es darte cuenta de que comiste el almuerzo entero mirando el celular y no sabés qué gusto tenía. Es notar que llevás diez minutos discutiendo mentalmente con alguien que no está. Vivimos buena parte del día en piloto automático. El mindfulness propone, simplemente, despertarse un poco más seguido.
 
@@ -46,6 +46,34 @@ Años después, los psicólogos Zindel Segal, Mark Williams y John Teasdale lo c
 Muchas terapias actuales integran la atención plena: la terapia dialéctico conductual (DBT), la terapia de aceptación y compromiso (ACT) y la propia MBCT. Desde la mirada junguiana, observar lo que aparece sin juzgarlo tiene mucho en común con la actitud receptiva hacia el inconsciente. Lo cuento en [Jung y la meditación](/recursos/jung-y-la-meditacion/).
 
 Para empezar a practicar, el [laboratorio de mindfulness](/laboratorio-de-mindfulness/) reúne diez ejercicios de la vida diaria, del espacio de respiración de tres minutos a surfear un impulso. También te esperan el [laboratorio de presencia](/laboratorio-de-presencia/) y el [laboratorio de meditación](/laboratorio-de-meditacion/). Y si querés integrarlo a un proceso terapéutico, podés escribirme.
+
+## Una práctica breve: el espacio de respiración de tres minutos
+
+Es una de las prácticas centrales de la MBCT, pensada para la vida diaria:
+
+1. **Darse cuenta (un minuto).** Sentate o quedate de pie. Preguntate: ¿qué estoy pensando?, ¿qué siento en el cuerpo?, ¿qué emociones hay? Registrá sin cambiar nada.
+2. **Reunir la atención (un minuto).** Llevá la atención a la respiración: el abdomen que se mueve, el aire que entra y sale. Quedate ahí.
+3. **Expandir (un minuto).** Ampliá la atención al cuerpo entero, la postura, la cara, el espacio alrededor. Si hay una zona incómoda, respirá hacia ella con curiosidad.
+4. Volvé a lo que estabas haciendo, con un gesto lento.
+
+Podés usarlo antes de una reunión, después de una discusión o cuando notes que estás en piloto automático.
+
+## En terapia
+
+Una viñeta típica: alguien llega con una cabeza que no para, con pensamientos repetitivos antes de dormir y una autocrítica constante. Le recomendaron mindfulness, lo probó con una aplicación y se frustró: «me pidieron que no piense y no puedo». Ahí hay un malentendido para aclarar: no se trata de no pensar, sino de darse cuenta de que se piensa.
+
+Desde una mirada integrativa con base psicoanalítica y junguiana, la atención plena aparece como una herramienta entre otras. Puede ayudar a bajar la intensidad y a ganar distancia, y la terapia se ocupa del sentido: por qué esos pensamientos, qué miedo sostienen, qué historia los alimenta. Cuando se enseña, se hace en dosis pequeñas, con elección y sin presión. A quien tiene un trauma se le propone anclar la atención en lo externo, con los ojos abiertos, antes que en el cuerpo.
+
+## Qué dice la evidencia y cuáles son sus límites
+
+- **Efectos modestos.** La revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*), con 47 ensayos, encontró evidencia moderada de mejoras en ansiedad, depresión y dolor, y evidencia baja para el estrés y la calidad de vida; no encontró ventajas frente a otros tratamientos activos, como medicación, ejercicio o terapias conductuales.
+- **MBCT en depresión recurrente.** Es el uso más sólido (Kuyken y colaboradores, 2016), sobre todo en personas con tres o más episodios.
+- **Efectos adversos.** Lindahl y colaboradores (2017) describieron experiencias difíciles en practicantes; Farias y colaboradores (2020), en una revisión, estimaron cerca de 8 % de efectos adversos, con gran variación. Pueden aparecer ansiedad, recuerdos intensos o sensación de irrealidad.
+- **Exageración.** Van Dam y colaboradores (2018) criticaron las definiciones imprecisas, los estudios chicos y la tendencia a prometer de más.
+
+Todo esto no invalida la práctica: invita a usarla con criterio, sin esperar que cure todo.
+
+Para practicar, el [laboratorio de mindfulness](/laboratorio-de-mindfulness/), el [de meditación](/laboratorio-de-meditacion/) y el [de respiraciones](/laboratorio-de-respiraciones/). Para el vínculo con lo que nos rodea, el [laboratorio de interser](/laboratorio-de-interser/). Más en [pensamientos intrusivos](/recursos/pensamientos-intrusivos/), [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/) y [Mind and Life](/recursos/mind-and-life-y-la-neurociencia-de-la-meditacion/).
 
 ## Preguntas frecuentes
 

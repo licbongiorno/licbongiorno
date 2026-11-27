@@ -11,7 +11,7 @@ orden: 45
 estado: publicado
 respuesta: La respiración es la única función automática del cuerpo que también podemos controlar a voluntad, y está conectada con el sistema nervioso autónomo. Respirar lento y con exhalaciones largas tiende a activar los mecanismos de calma y a aumentar la variabilidad de la frecuencia cardíaca; respirar rápido tiende a activar. Por eso las técnicas de respiración ayudan a regular las emociones, aunque no reemplazan un tratamiento.
 menciona: pranayama, ansiedad
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 «Me quedé sin aire». «Respiré aliviado». Es el suspiro que se escapa después de llorar, el aire que se corta cuando nos asustamos, el resoplido del enojo, la respiración lenta de quien duerme tranquilo. Cada emoción tiene su respiración. Y lo más interesante es que el camino también funciona al revés.
 
@@ -51,6 +51,31 @@ La respiración regula, pero no resuelve. Puede bajar la intensidad de una emoci
 Para probar las técnicas, te espera el [laboratorio de respiraciones](/laboratorio-de-respiraciones/), con diez prácticas guiadas. Y si la ansiedad te desborda seguido, podés escribirme.
 
 Dos prácticas chinas que combinan respiración y movimiento suave tienen algo de investigación: el [qigong y el tai chi](/recursos/qigong-y-tai-chi/).
+
+## Una práctica breve: exhalar largo durante tres minutos
+
+1. Sentate o acostate cómodo. Apoyá una mano en el abdomen y otra en el pecho.
+2. Inhalá por la nariz, de forma natural, contando mentalmente hasta cuatro.
+3. Exhalá por la nariz o por la boca entreabierta, despacio, contando hasta seis.
+4. Si te mareás o te cuesta, acortá los números: lo importante es que la exhalación sea un poco más larga que la inhalación.
+5. Repetí durante tres minutos. Notá cómo cambia el cuerpo: los hombros, la mandíbula, el ritmo del corazón.
+6. Terminá con unas respiraciones naturales y volvé al entorno.
+
+Si en algún momento sentís hormigueo, mareo o más angustia, pará, respirá con naturalidad y mirá a tu alrededor. En personas con asma, problemas cardíacos o embarazo, conviene consultar antes de hacer prácticas de retención.
+
+## En terapia
+
+Una escena frecuente: alguien describe que «cuando me angustio, me falta el aire» y que, cuanto más intenta respirar hondo, peor se siente. Se trata de un círculo conocido: la alarma acelera la respiración, el exceso de aire produce síntomas, y los síntomas confirman la alarma.
+
+Desde una mirada integrativa con base psicoanalítica y junguiana, la respiración es una puerta de entrada al cuerpo y al afecto. Se la enseña como recurso para bajar la intensidad en el momento, pero también se pregunta: ¿cuándo se corta el aire?, ¿en qué situaciones?, ¿con quién? Esos momentos suelen decir mucho de lo que no se puede decir. Aprender a respirar no reemplaza elaborar lo que genera la angustia; lo hace más abordable.
+
+## Qué dice la investigación y cuáles son sus límites
+
+La revisión de Zaccaro y colaboradores (2018) sugiere que respirar lento se asocia con más calma, mayor variabilidad cardíaca y menos ansiedad, pero reúne estudios pequeños y heterogéneos, muchos con medidas de corto plazo. Los trabajos de Lehrer sobre biofeedback de variabilidad cardíaca son más sólidos en la medición del efecto fisiológico que en la mejoría clínica sostenida. El modelo de estimulación vagal respiratoria de Gerritsen y Band es una hipótesis para explicar la relación, no una verdad cerrada, y la teoría polivagal, muy popular, es discutida (ver [la teoría polivagal](/recursos/teoria-polivagal/)).
+
+Respecto de la meditación y las prácticas contemplativas en general, la revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) mostró efectos modestos y sin ventaja sobre otros tratamientos activos. Y existen efectos adversos: Lindahl y colaboradores (2017) documentaron ansiedad, pánico y desrealización en practicantes. Con las técnicas respiratorias intensas, como la hiperventilación sostenida, hay además riesgos físicos (mareo, desmayo, convulsiones en personas predispuestas), y conviene evitarlas sin supervisión. Sobre la respiración holotrópica, ver [respiración holotrópica](/recursos/respiracion-holotropica/).
+
+Para seguir, el [laboratorio de respiraciones](/laboratorio-de-respiraciones/), el [laboratorio de meditación](/laboratorio-de-meditacion/), el [de mindfulness](/laboratorio-de-mindfulness/) y el [de interser](/laboratorio-de-interser/), que propone respirar como un acto compartido con el entorno. Más en [ansiedad: cuando el cuerpo habla](/recursos/ansiedad-cuando-el-cuerpo-habla/).
 
 ## Preguntas frecuentes
 
