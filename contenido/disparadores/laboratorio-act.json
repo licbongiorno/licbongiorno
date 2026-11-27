@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Son las tres de la mañana y un pensamiento te da vueltas: «no voy a poder con esto». Probás convencerte de lo contrario, pero cuanto más lo discutís, más fuerte suena.",
+   "p": "¿Qué ayuda más con un pensamiento así?",
+   "opciones": [
+    "Rebatirlo con argumentos hasta que se calle",
+    "Distraerte con algo hasta que se vaya solo",
+    "Mirarlo como un pensamiento más, a distancia, y seguir con lo que te importa"
+   ],
+   "r": "La terapia de aceptación y compromiso, de Steven Hayes, propone la defusión cognitiva: en vez de pelear con el pensamiento, notarlo como lo que es, un pensamiento («estoy teniendo el pensamiento de que…»). Así deja de mandar sobre lo que hacés, aunque siga apareciendo.",
+   "como": "Surgió de la investigación de Hayes sobre cómo el lenguaje nos enreda con lo que pensamos, y se fue probando en ensayos clínicos con distintos problemas. Ejercicios como las hojas en el río o soltar la cuerda son formas de practicar esa distancia.",
+   "debate": "Es una terapia relativamente nueva y se discute cuánto aporta cada componente por separado y cuánto se diferencia de otras terapias cognitivo-conductuales. Tampoco reemplaza un tratamiento cuando hace falta."
+  }
+ ],
+ "abierta": "Si un pensamiento no necesita desaparecer para que actúes distinto, ¿qué es lo que realmente te frena: el pensamiento o la lucha contra él?"
+}

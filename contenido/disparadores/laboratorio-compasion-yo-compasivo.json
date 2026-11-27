@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cometés un error en el trabajo y una voz interna te dice: «sos un desastre, siempre lo mismo». Creés que si fueras más amable con vos te relajarías y dejarías de esforzarte.",
+   "p": "¿La autocrítica dura es lo que te hace mejorar?",
+   "opciones": [
+    "Sí, sin esa voz dura no habría motivación",
+    "No siempre: puede generar miedo y bloqueo, y se puede corregir con calidez",
+    "Da lo mismo cómo te hables, lo que cuenta es el resultado"
+   ],
+   "r": "La terapia focalizada en la compasión de Paul Gilbert distingue entre atacar y corregir: la autocorrección compasiva quiere que mejores sin humillarte. Describe un yo compasivo con sabiduría, fortaleza y compromiso, y propone entender que la voz crítica suele estar tratando de protegerte.",
+   "como": "Es un enfoque clínico que usa ejercicios de imaginería: imaginar al yo compasivo y escribir o hablarse desde ahí. Parte de observar que las personas muy autocríticas muchas veces tienen mucho miedo al fracaso.",
+   "debate": "A muchas personas les cuesta creer que ser amable con uno mismo no es indulgencia, y algunas lo viven con incomodidad al principio. No reemplaza una terapia."
+  }
+ ],
+ "abierta": "¿De qué te está intentando cuidar tu voz crítica, y qué le dirías si quisiera de verdad ayudarte?"
+}

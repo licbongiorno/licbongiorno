@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cuando el ánimo está bajo, te decís «cuando tenga ganas, lo hago». Pasan los días y las ganas no vienen; mientras tanto, hacés cada vez menos.",
+   "p": "¿Qué suele pasar si esperás a tener ganas?",
+   "opciones": [
+    "Las ganas llegan solas si descansás lo suficiente",
+    "Suele ser al revés: la actividad ayuda a que lleguen",
+    "Es mejor no hacer nada para no gastar energía"
+   ],
+   "r": "La activación conductual, un tratamiento con buen respaldo para la depresión, parte de un círculo: el desánimo lleva a hacer menos, hacer menos reduce el placer y el logro, y eso baja más el ánimo. Se rompe con actividades pequeñas y una agenda amable.",
+   "como": "Se probó en ensayos clínicos con personas con depresión y mostró resultados comparables a otras terapias. Se trabaja con un registro de placer y logro para ver qué actividades mueven el ánimo.",
+   "debate": "No reemplaza un tratamiento, y cuando la depresión es intensa conviene consultar a un profesional. Empezar por poco no quiere decir que sea fácil."
+  }
+ ],
+ "abierta": "¿Qué actividad pequeña, de cinco minutos, podrías hacer hoy aunque no tengas ganas?"
+}

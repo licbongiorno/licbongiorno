@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos personas viven la misma situación de estrés: una se aísla, otra sale a buscar ayuda. Después de un tiempo una queda peor que la otra, y no siempre la que parecía más fuerte.",
+   "p": "¿Qué hace que una forma de afrontar sirva más que otra?",
+   "opciones": [
+    "Existe una estrategia universal, que sirve siempre",
+    "Depende del contexto y de poder ajustar la estrategia según lo que funciona",
+    "Lo único que importa es el carácter de la persona"
+   ],
+   "r": "Lazarus y Folkman (1984) mostraron que el estrés depende de cómo evaluamos la situación y de los recursos que creemos tener. Bonanno y Burton (2013) proponen la flexibilidad: leer el contexto, tener varias estrategias y ajustar según el resultado.",
+   "como": "Surge de investigación sobre estrés y afrontamiento en el que se estudió cómo las personas evalúan una situación y qué hacen con ella. El laboratorio ayuda a armar una caja de herramientas y un plan para la próxima vez.",
+   "debate": "Ninguna estrategia es buena o mala en abstracto: evitar puede servir un rato y perjudicar después. Es un ejercicio de autoobservación que no reemplaza una terapia."
+  }
+ ],
+ "abierta": "¿Cuál es tu estrategia de siempre y en qué situación te dejó de servir?"
+}

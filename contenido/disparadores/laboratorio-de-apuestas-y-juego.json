@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Empezaste a apostar por diversión, ganaste un poco, y ahora pensás que «la próxima» te va a recuperar lo que perdiste. Siempre hay una próxima.",
+   "p": "¿Por qué engancha tanto?",
+   "opciones": [
+    "Porque ganar siempre es seguro si uno sabe cómo",
+    "Por mecanismos como el refuerzo intermitente, la inmediatez y perseguir pérdidas",
+    "Solo les pasa a personas sin criterio"
+   ],
+   "r": "Entre lo que hace que el juego enganche están el refuerzo intermitente (premios impredecibles), la inmediatez, perseguir pérdidas y la ilusión de control. Mirar qué te da y qué te cuesta ayuda a decidir qué hacer.",
+   "como": "Son mecanismos de aprendizaje descritos desde la psicología conductual y la clínica de las adicciones. El laboratorio propone ejercicios de autoobservación y un plan de cambio.",
+   "debate": "No diagnostica ni reemplaza una consulta. No es solo cuestión de «fuerza de voluntad»: el diseño de estos juegos aprovecha esos mecanismos. La línea 141 de SEDRONAR atiende las 24 horas."
+  }
+ ],
+ "abierta": "¿Qué te da el juego que hoy no encontrás en otro lugar?"
+}

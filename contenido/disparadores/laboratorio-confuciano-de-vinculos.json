@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un hijo adulto va a ver a su madre cada domingo aunque le pesa. No lo hace por miedo a que lo critiquen sino porque siente que corresponde. Otro lo haría solo por no escuchar reproches.",
+   "p": "¿Se puede cuidar un vínculo sin obedecer?",
+   "opciones": [
+    "No: respetar es hacer lo que el mayor dice",
+    "Sí: el respeto puede ser cuidado y reciprocidad, distinto de la obediencia",
+    "Los deberes familiares son cosa del pasado"
+   ],
+   "r": "En el confucianismo, ren es humanidad y benevolencia, li son las formas y ritos que dan cuerpo al cuidado, y xiao es la piedad filial. Hoy se lo lee como una invitación a pensar el respeto como reciprocidad, y no como sumisión.",
+   "como": "Son ideas de una tradición filosófica de la antigua China que el laboratorio usa como inspiración para pensar vínculos, no como terapia. Se proponen ejercicios como un mapa de deberes y un ritual pequeño de cuidado.",
+   "debate": "Estas ideas vienen de un mundo con jerarquías muy distintas, y la piedad filial puede usarse para justificar autoritarismo. Si hubo maltrato, no corresponde forzar gratitud ni cumplir deberes que te dañan."
+  }
+ ],
+ "abierta": "¿Qué sería para vos cuidar a alguien sin dejar de cuidarte?"
+}

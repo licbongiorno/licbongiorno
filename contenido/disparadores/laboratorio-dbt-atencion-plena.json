@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás en una conversación y de golpe te das cuenta de que no escuchaste nada: tu cabeza estaba rumiando algo de ayer. Te pasa seguido y después te criticás por eso.",
+   "p": "¿Qué es prestar atención de verdad?",
+   "opciones": [
+    "Forzarse a no pensar en nada",
+    "Notar adónde se fue la mente y volver, sin juzgarse",
+    "Hacer varias cosas a la vez para aprovechar mejor"
+   ],
+   "r": "En la DBT de Marsha Linehan, la atención plena es la base de las demás habilidades. Se practican habilidades «qué» (observar, describir, participar) y «cómo» (sin juzgar, una cosa a la vez, con efectividad), para poder habitar la «mente sabia» entre la emocional y la razonable.",
+   "como": "La DBT surgió en los años ochenta, cuando Linehan trabajó con personas con intensa desregulación emocional y sumó prácticas contemplativas a la terapia conductual. En el laboratorio se practican con ejercicios cortos, como observar un minuto o convertir juicios en descripciones.",
+   "debate": "La atención plena se enseña de muchas maneras y no sirve igual a todas las personas. Este laboratorio es un recurso de práctica y no reemplaza un tratamiento DBT."
+  }
+ ],
+ "abierta": "¿Qué cambiaría en tu día si pudieras notar el juicio sin tener que creerle?"
+}

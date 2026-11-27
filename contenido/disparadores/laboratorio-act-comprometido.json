@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Sabés que te importa estar cerca de tu familia o estudiar eso que dejaste, pero cada vez que te acercás aparece el miedo y volvés a lo de siempre.",
+   "p": "¿Cómo se puede avanzar hacia lo que importa si el miedo viene en el viaje?",
+   "opciones": [
+    "Esperar a que el miedo se vaya y recién entonces empezar",
+    "Hacerlo a puro empuje, ignorando lo que sentís",
+    "Elegir la dirección y dar un paso con el miedo a bordo"
+   ],
+   "r": "En la terapia de aceptación y compromiso, los valores son direcciones elegidas, no metas que se tachan. La metáfora de los pasajeros del colectivo muestra que los pensamientos y miedos pueden viajar con vos sin que los dejes manejar. Russ Harris lo resume en pasar de FEAR (fusión, metas excesivas, evitación, lejanía de los valores) a DARE (defusión, aceptación, metas realistas, abrazar los valores).",
+   "como": "Son recursos clínicos ideados para que la gente pueda practicarlos entre sesiones: se define un valor por área de la vida y se pasa a una acción pequeña y concreta. El modelo general se evaluó en ensayos clínicos.",
+   "debate": "Se discute cuánto del efecto viene de trabajar valores y cuánto de otros componentes comunes a las terapias. Y elegir valores propios no es fácil si venimos de mandatos de otros."
+  }
+ ],
+ "abierta": "Si nadie te pidiera cuentas, ¿qué dirección elegirías hoy y qué pequeño paso la haría real?"
+}

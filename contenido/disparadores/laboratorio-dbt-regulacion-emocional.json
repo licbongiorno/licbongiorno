@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te levantás de mal humor sin razón clara, y justo ese día te dicen algo menor que te desborda. Después te preguntás por qué reaccionaste así.",
+   "p": "¿Por qué algunos días nos pasa más?",
+   "opciones": [
+    "Porque hay días en que somos más vulnerables: poco sueño, hambre o estrés acumulado",
+    "Porque cada emoción llega al azar",
+    "Porque los otros siempre exageran"
+   ],
+   "r": "En la DBT de Marsha Linehan, las emociones tienen una función y se pueden describir paso a paso: disparador, interpretación, sensaciones, impulso, expresión y consecuencias. Las habilidades ABC (acumular emociones positivas, construir maestría y anticiparse) reducen la vulnerabilidad emocional.",
+   "como": "Es un modelo clínico desarrollado por Linehan para personas con emociones muy intensas. El módulo propone ejercicios para describir una emoción, planificar actividades que dan sentido y anticipar situaciones difíciles.",
+   "debate": "El modelo es una guía práctica y no una explicación completa de las emociones. Es un recurso de práctica y no reemplaza un tratamiento DBT."
+  }
+ ],
+ "abierta": "Si pudieras cuidar una sola cosa para ser menos vulnerable mañana, ¿cuál elegirías?"
+}

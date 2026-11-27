@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Le das una mano a cualquiera que la necesita. Pero cuando alguien te dice algo amable, lo desviás con un chiste, y a vos mismo te hablás con una dureza que no usarías con nadie.",
+   "p": "¿Por qué puede costar más recibir o darse compasión que darla a otros?",
+   "opciones": [
+    "Porque en el fondo no la necesitamos",
+    "Porque aparecen miedos a la compasión que se aprendieron",
+    "Porque es un rasgo de carácter fijo que no se entrena"
+   ],
+   "r": "Paul Gilbert, creador de la terapia focalizada en la compasión, distingue tres flujos: hacia otros, desde otros hacia uno y hacia uno mismo. En muchas personas alguno está bloqueado, y suele haber miedos y resistencias, como pensar que ser compasivo con uno es debilidad o que no se lo merece.",
+   "como": "Surge de la práctica clínica con personas muy autocríticas y de investigación sobre el sistema de apego y de calma. Con un medidor de los tres flujos se puede ver cuál fluye y cuál está trabado, y practicar cada uno por separado.",
+   "debate": "La compasión es un concepto que cuesta definir y medir, y se discute cuánto de la terapia es propio y cuánto se superpone con otras intervenciones. No reemplaza una terapia."
+  }
+ ],
+ "abierta": "Si pudieras destrabar uno solo de los tres flujos, ¿cuál sería el que más cambiaría tu día a día?"
+}

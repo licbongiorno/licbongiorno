@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Querés pedirle algo a un compañero o decir que no a un pedido. Antes de hablar ya tenés tres finales posibles y terminás callándote o saltando de golpe.",
+   "p": "¿Cómo se ordena una conversación difícil?",
+   "opciones": [
+    "Poniendo en palabras solo lo que querés, sin importar el vínculo",
+    "Decidiendo qué es más importante: lo que querés, la relación y el respeto por vos",
+    "Esperando el momento justo para que el otro lo adivine"
+   ],
+   "r": "La DBT de Marsha Linehan habla de tres objetivos en toda conversación: conseguir lo que querés, cuidar la relación y mantener el respeto propio. Saber cuál pesa más ahora ayuda a decidir cuánto pedir o decir que no, y a validarse a uno mismo.",
+   "como": "Son habilidades que Linehan fue armando para personas con mucha dificultad en sus vínculos y que se enseñan por pasos, con práctica. Este módulo trabaja el orden de prioridades, lo que se interpone y el camino del medio.",
+   "debate": "Priorizar no es mecánico: depende de la persona y del contexto, y a veces los objetivos chocan. Es un recurso de práctica y no reemplaza un tratamiento DBT."
+  }
+ ],
+ "abierta": "En tu última conversación difícil, ¿qué objetivo quedó sacrificado sin que lo decidieras?"
+}

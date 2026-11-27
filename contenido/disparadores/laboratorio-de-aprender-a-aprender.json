@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Subrayás, releés y resumís durante horas. Al día siguiente del examen sentís que te acordás de poco. Tu compañero estudia menos tiempo y le va mejor.",
+   "p": "¿Qué técnica de estudio tiene más respaldo?",
+   "opciones": [
+    "Releer varias veces y subrayar",
+    "Tratar de recordar sin mirar y repasar espaciado en el tiempo",
+    "Estudiar todo la noche anterior, bien concentrado"
+   ],
+   "r": "La investigación sobre aprendizaje muestra que la práctica de evocación (intentar recordar sin mirar) y la práctica espaciada funcionan mejor que releer. Intercalar temas, explicarse lo estudiado y usar ejemplos concretos y representaciones también ayudan.",
+   "como": "Se comprobó en experimentos de laboratorio y de aula, comparando grupos que estudiaban de distintas formas. En el laboratorio podés practicar evocación con reloj y armar un planificador de repasos espaciados.",
+   "debate": "Los resultados de laboratorio no siempre se trasladan igual a cada materia o persona, y las técnicas más eficaces suelen sentirse más difíciles. Se usa también la metacognición para evaluar cómo estudiás."
+  }
+ ],
+ "abierta": "¿Qué estás haciendo hoy para estudiar que se siente productivo y quizás no lo es?"
+}
