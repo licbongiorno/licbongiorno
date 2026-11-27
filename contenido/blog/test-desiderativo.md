@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 80
 estado: publicado
 respuesta: El cuestionario desiderativo es una técnica proyectiva verbal en la que se pregunta qué le gustaría ser a la persona si no pudiera ser una persona, y qué no le gustaría ser, en los reinos animal, vegetal y de los objetos, explicando por qué. Fue propuesto por Pigem y Córdoba en España en 1946 y desarrollado en Argentina por Jaime Bernstein. Explora deseos, temores, valores y recursos defensivos.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 «Si no pudieras ser una persona, ¿qué te gustaría ser?». Parece una pregunta de sobremesa. Alguien dice «un águila, porque vuela alto y nadie la alcanza». Otro, «un árbol, porque da sombra y está siempre en el mismo lugar». Ninguna respuesta es mejor que otra. Pero en el porqué de cada elección aparece algo muy personal.
 
@@ -52,6 +52,30 @@ La forma de responder (la rapidez, las dudas, las explicaciones) importa tanto c
 Como otras técnicas proyectivas, el desiderativo tiene **respaldo empírico limitado** si se lo interpreta de forma aislada. Es valioso dentro de una evaluación integral, junto con la entrevista y otras pruebas, incluidas las [psicométricas](/recursos/tecnicas-psicometricas/). Y siempre requiere un profesional formado para interpretarlo con cuidado.
 
 Si necesitás una evaluación psicológica, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Alguien responde, sin dudar, que le gustaría ser un árbol «porque está quieto y nadie le pide nada». En la parte negativa dice que no querría ser un perro «porque depende de otro». Esas dos frases no son un diagnóstico, pero dibujan una tensión: el deseo de calma y la incomodidad frente a la dependencia. En la conversación posterior, aparece una historia de cuidados excesivos hacia familiares y mucho cansancio. El desiderativo no «descubrió» eso: abrió un camino hacia un tema que la persona ya sentía.
+
+## Cómo se administra, a grandes rasgos
+
+La técnica sigue el esquema descrito: elecciones y rechazos, cada uno con sus motivos. En la práctica clínica argentina, siguiendo a Jaime Bernstein y a otros autores, el profesional suele prestar especial atención a **cómo se tolera la consigna** y a la secuencia de las respuestas. Los criterios de lectura son material profesional y no se detallan acá: su difusión afectaría las evaluaciones reales y, además, la técnica no se puede interpretar «con una tabla».
+
+## Qué tiene investigación y qué es teoría
+
+- La técnica se apoya en una **base teórica psicoanalítica** (defensas, angustia, identidad). Es una teoría clínica coherente, pero **no un sistema empíricamente validado** con la solidez de una prueba psicométrica.
+- En la línea de la revisión de Lilienfeld, Wood y Garb (2000), las técnicas verbales y gráficas que carecen de normas y sistemas de puntuación estandarizados tienen **respaldo limitado**. El desiderativo comparte esa condición.
+- Su valor reside en que genera **hipótesis clínicas** que se contrastan con la entrevista y otras pruebas, no en que permita «leer» a alguien.
+
+## Matices y límites
+
+- No hay respuestas «normales» ni «patológicas» por sí mismas: un animal, una planta o un objeto no significan lo mismo para todos.
+- Los resultados deben ser interpretados únicamente por un profesional, y siempre dentro de un [psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/).
+- La técnica puede resultar movilizadora: imaginar dejar de ser uno mismo no es neutro. Por eso se administra con cuidado y se conversa después.
+
+## En terapia
+
+Fuera de la evaluación, la pregunta desiderativa se puede usar como un **juego reflexivo**: ¿qué elegirías y qué rechazarías?, ¿qué cualidades te atraen de eso?, ¿qué te asusta? En un trabajo integrativo, con base junguiana y psicoanalítica, esas imágenes pueden relacionarse con la sombra, con lo que admiramos y con lo que no toleramos en nosotros. Si querés probarlo por tu cuenta, hay un [ejercicio desiderativo](/ejercicio-desiderativo/) pensado solo para reflexionar, sin evaluación ni interpretación. Y para ver el panorama completo de las pruebas, el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/) y [la proyección según Jung](/recursos/la-proyeccion-segun-jung/) pueden ampliar la mirada.
 
 ## Preguntas frecuentes
 

@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 84
 estado: publicado
 respuesta: El test de la figura humana es una técnica proyectiva gráfica en la que se pide dibujar una persona y, a veces, otra del sexo opuesto, y luego conversar sobre ellas. Fue sistematizado por la psicóloga Karen Machover en 1949. Se observan aspectos formales y de contenido, y se interpreta dentro de una evaluación más amplia, porque los rasgos aislados tienen poca validez.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 «Dibujá una persona». Parece la consigna más obvia del mundo, y sin embargo cada uno la resuelve de una manera propia: de frente o de perfil, grande o chiquita, con detalles o apenas con líneas. Lo que interesa no es si sale linda, sino cómo cada uno se las arregla con la tarea de dibujar a alguien.
 
@@ -45,6 +45,31 @@ Antes, Florence Goodenough había usado el dibujo de la figura humana para estim
 Las listas de «signos» de Machover (por ejemplo, que unos ojos grandes indican desconfianza) **no se sostuvieron** cuando se estudiaron de forma sistemática. Las revisiones, como la de Lilienfeld, Wood y Garb (2000), muestran que los rasgos sueltos tienen poca validez. Por eso hoy se usa sobre todo como apoyo para la conversación y en conjunto con otras pruebas, incluidas las [psicométricas](/recursos/tecnicas-psicometricas/).
 
 Si necesitás una evaluación, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Un adolescente dibuja una figura muy pequeña, de perfil, en el borde de la hoja, y cuando se le pide que cuente algo, dice: «Es un chico que espera a alguien». Un lector rápido concluiría «inseguridad». Pero en la conversación aparece que acaba de mudarse de ciudad y que, de hecho, espera a un amigo que prometió visitarlo. El mismo dibujo puede surgir de muchas historias. Lo que cuenta, el contexto y la mirada integrada son los que le dan sentido; el trazo, solo, no alcanza.
+
+## Cómo se administra, a grandes rasgos
+
+La administración sigue el esquema descrito: se pide dibujar una persona, a veces otra del sexo opuesto, y luego se conversa. Se observa el procedimiento (cómo empieza, qué borra, cuánto tarda) además del resultado. Las listas de indicadores y sus supuestos significados no se reproducen acá, por una razón de fondo: **no se sostienen** como claves de lectura, y difundirlas favorece interpretaciones caseras equivocadas.
+
+## Qué tiene investigación y qué es teoría
+
+- La revisión de Lilienfeld, Wood y Garb (2000) concluyó que los **signos específicos** de los dibujos de la figura humana (tamaño de los ojos, sombreados, omisiones) tienen **poca validez** para inferir rasgos de personalidad o psicopatología.
+- Tiene mejor sustento el uso del dibujo de la figura humana para estimar **madurez evolutiva** en niños, siguiendo la línea de Goodenough, con limitaciones culturales.
+- Algunos sistemas más recientes, con criterios puntuables y normas, muestran resultados más razonables para fines específicos (por ejemplo, el estudio de indicadores emocionales en niños), aunque con poca capacidad individual de predicción.
+- La **conversación posterior al dibujo** sigue siendo la parte más rica, y se apoya en una tradición clínica, no en una validación estadística.
+
+## Matices y límites
+
+- Dibujar bien o mal no es el punto. Un dibujo «tosco» no habla de inteligencia ni de salud mental.
+- Los resultados solo los interpreta un profesional, y nunca solos. Esto vale incluso más para los dibujos que para otras técnicas, porque son los más tentadores de leer «a ojo».
+- Un dibujo aislado no sirve para sospechar maltrato, abuso ni trastornos graves. En esos casos hace falta una evaluación completa.
+
+## En terapia
+
+En un proceso terapéutico, dibujar una figura humana puede servir para hablar de la imagen del cuerpo, de cómo uno se percibe y de cómo se siente mirado. Desde una mirada integrativa con base psicoanalítica y junguiana, la figura se trata como una **imagen para conversar**: qué siente, qué necesita, qué le falta. Es una puerta hacia el esquema corporal y el sentido de sí. Podés profundizar con [psicología corporal](/recursos/psicologia-corporal/), [técnicas proyectivas](/recursos/tecnicas-proyectivas/) y el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/).
 
 ## Preguntas frecuentes
 

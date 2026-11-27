@@ -11,7 +11,7 @@ orden: 66
 estado: publicado
 respuesta: El eneatipo 7 del eneagrama, el entusiasta, se organiza alrededor del deseo de estar satisfecho y libre y del miedo a sufrir, quedar atrapado en el dolor o la privación. Su pasión dominante es la gula. Pertenece al centro mental. En crecimiento toma rasgos del eneatipo 5 y en estrés, del 1.
 menciona: eneagrama
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Ya estás pensando en el próximo viaje antes de terminar este. Tenés diez proyectos abiertos y el chiste justo cuando la conversación se pone seria. Es una alegría verdadera y contagiosa. Y, a veces, una forma muy elegante de no quedarse con lo que duele.
 
@@ -47,15 +47,39 @@ Puede dispersarse, no terminar lo que empieza y huir de las emociones difíciles
 
 Según el eneagrama, su camino de crecimiento lleva hacia la **sobriedad**: la plenitud de lo simple.
 
+Según el modelo, bajo estrés el 7 se parece al 1: se vuelve crítico, rígido, con un «tendría que» que no conocía, y se castiga por la dispersión. En crecimiento toma del 5: más profundidad, más capacidad de detenerse, estudiar un tema a fondo, estar solo sin sentir que se pierde algo. Para muchos 7, la primera experiencia de silencio sostenido es incómoda y después reveladora.
+
+Sobre las alas: Con el ala 6, el 7 es más leal, simpático y ansioso por dentro; con el ala 8, más audaz, directo y de apetitos fuertes.
+
 ## En los vínculos
 
 Es una compañía estimulante, pero le cuesta comprometerse y quedarse cuando el vínculo se pone difícil. Su aprendizaje es la profundidad.
+
+El 7 trae ligereza y curiosidad: arma planes, abre conversaciones, contagia ganas. Con una pareja o amigos puede ser una fiesta. Lo difícil llega cuando el vínculo pide quedarse en lo incómodo: una conversación pesada, un duelo del otro, una crisis. Ahí puede cambiar de tema, proponer algo o desaparecer un rato. Aprender a decir «me asusta esto, pero me quedo» es mucho más amoroso que cualquier plan.
+
+## En el trabajo
+
+En el trabajo, el 7 genera ideas, conecta personas y se anima a empezar. Rinde en ambientes dinámicos, creativos o de ventas. Le pesa la repetición, el detalle final y las tareas que tardan en dar frutos. Tiende a comprometerse con demasiadas cosas a la vez. Las listas con un solo foco, los plazos externos y un compañero que cierre lo suyo lo ayudan a terminar lo que empieza.
 
 ## En terapia
 
 En terapia, el trabajo suele ser quedarse con lo que duele sin escaparse, y descubrir que la alegría más profunda viene de habitar el presente, no de multiplicar opciones. Ver [los mecanismos de defensa](/recursos/mecanismos-de-defensa/).
 
-Recordá que el eneagrama es un mapa para pensarte, no una etiqueta ni un diagnóstico, y que su respaldo científico es limitado. Si querés explorar tu eneatipo, podés hacer el [test de eneagrama](/test-de-eneagrama/). Y si algo de esto te movió, podés escribirme.
+El 7 llega, muchas veces, con ansiedad o con una pérdida que no registra. Desde lo psicoanalítico, se habla de defensas maníacas: acelerar para no sentir la caída. Desde lo junguiano, se piensa en el eterno joven (puer aeternus), la figura que no quiere comprometerse con lo finito. Ver [mecanismos de defensa](/recursos/mecanismos-de-defensa/). El trabajo es lento: permitir que el dolor tenga lugar, con apoyo, y descubrir que no destruye. Prácticas como la atención plena, en dosis breves, sirven mucho.
+
+## Una viñeta
+
+Una persona consulta después de una separación que, según dice, «ya superó». Cuenta con humor que se anotó en tres cursos y planeó dos viajes en un mes. En una sesión, hablando de otra cosa, se queda en silencio y dice: «no sé por qué me dan ganas de llorar». No se la apura ni a consolar ni a explicar. Esa tarde, por primera vez, el relato no tuvo chiste final. Fue el inicio del duelo que no había hecho.
+
+## Para probar esta semana
+
+No son una receta ni un tratamiento, apenas pequeños experimentos que se pueden ensayar. Terminá una cosa abierta antes de empezar otra. Cuando surja un plan nuevo, esperá veinticuatro horas. Quedate cinco minutos con una emoción incómoda antes de buscar distracción. Y preguntale a alguien cercano qué cosa tuya le gustaría ver más a fondo.
+
+## Matices y límites
+
+El gusto por la novedad y la búsqueda de sensaciones están estudiados como rasgos, y no son un defecto. Sin embargo, conviene no confundir al 7 con el TDAH ni con un episodio de hipomanía: son cuadros distintos, con evaluación y tratamiento propios. Que el eneagrama describa a un 7 como alguien que evita el dolor es una hipótesis útil, no un dato; hay personas muy alegres que no huyen de nada.
+
+Para ser honestos con el modelo: el eneagrama no cuenta con un respaldo psicométrico sólido. Es una tradición de autoconocimiento nacida con Óscar Ichazo y desarrollada por Claudio Naranjo. Sirve para pensarte, no para clasificarte ni para diagnosticar. Si querés explorar tu eneatipo, podés hacer el [test de eneagrama](/test-de-eneagrama/). Si algo de esto te movió, podés escribirme.
 
 ## Preguntas frecuentes
 

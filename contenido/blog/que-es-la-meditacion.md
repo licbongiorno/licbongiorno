@@ -11,7 +11,7 @@ orden: 44
 estado: publicado
 respuesta: Meditar es entrenar de forma intencional la atención y la conciencia, por ejemplo sosteniéndola en un objeto como la respiración o observando lo que aparece sin engancharse. La investigación distingue la atención focalizada y el monitoreo abierto. Hay evidencia moderada de que ayuda con la ansiedad, la depresión y el dolor, aunque no es una solución para todo ni reemplaza un tratamiento.
 menciona: meditacion, mindfulness
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es dejar la mente en blanco. Es sentarte cinco minutos y descubrir que tu cabeza ya planificó la cena, repasó una discusión de hace tres años y se preguntó si cerraste la puerta. Y volver. Y volver otra vez. Muchos abandonan porque creen que «no les sale». Pero darse cuenta de que la mente se fue, y traerla de vuelta, no es el error: es exactamente la práctica.
 
@@ -63,6 +63,34 @@ En las últimas décadas se publicaron miles de estudios sobre meditación. Algu
 La meditación puede ser una gran aliada para la [ansiedad](/recursos/ansiedad-cuando-el-cuerpo-habla/), el estrés o el autoconocimiento. Pero no es inocua para todos: en algunas personas, sobre todo con historias de trauma o en momentos de mucha fragilidad, puede traer malestar. Lo explico en [cuándo meditar no es recomendable](/recursos/cuando-meditar-no-es-recomendable/).
 
 Si querés empezar, te esperan el [laboratorio de meditación](/laboratorio-de-meditacion/) y el [laboratorio de respiraciones](/laboratorio-de-respiraciones/). Y si querés pensar cómo integrarla con un proceso terapéutico, podés escribirme.
+
+## Una práctica breve para empezar: cinco minutos con la respiración
+
+1. Elegí un momento y un lugar sin urgencias. Sentate con la espalda cómoda y los pies apoyados.
+2. Poné un temporizador de cinco minutos para no mirar la hora.
+3. Llevá la atención a una sola sensación de la respiración: el aire en la nariz o el movimiento del abdomen.
+4. Cuando la mente se vaya, y se va, notalo con una palabra suave («pensando») y volvé a la respiración.
+5. Cada vuelta cuenta como una repetición, como una flexión de brazo. No hay que lograr que no se vaya.
+6. Al terminar, abrí los ojos despacio y mirá el entorno antes de levantarte.
+
+Si cinco minutos te parecen mucho, empezá con tres. Y si cerrar los ojos te incomoda, dejalos abiertos.
+
+## En terapia
+
+Es habitual que alguien llegue diciendo «quiero aprender a meditar para calmarme». El pedido tiene sentido y a la vez admite una pregunta: ¿calmarme de qué? A veces el malestar que se quiere apagar es información valiosa.
+
+Desde una mirada integrativa con base psicoanalítica y junguiana, la meditación es una práctica que puede acompañar el trabajo terapéutico, no sustituirlo. Se mira con la persona qué tipo de práctica le conviene (más de cuerpo, de atención, de actitud), en qué momento, cuánto, y qué hace con lo que aparece. Algunas personas se benefician de meditar sentadas; otras, de caminar, de dibujar o de escribir. Lo importante es que la práctica abra algo y no se transforme en una nueva obligación o en una forma de huir.
+
+## Qué dice la investigación y cuáles son sus límites
+
+- **Efectos modestos.** La revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) integró 47 ensayos y encontró evidencia moderada de mejoras en ansiedad, depresión y dolor, y evidencia baja o ninguna para otros resultados como la atención, el sueño o el consumo de sustancias. Los efectos fueron modestos y no superiores a los de otros tratamientos activos.
+- **Efectos adversos posibles.** Lindahl y colaboradores (2017) describieron, en practicantes occidentales del budismo, experiencias difíciles que incluyeron miedo, ansiedad, recuerdos traumáticos, sensación de irrealidad y alteraciones del sueño. Farias y colaboradores (2020) hallaron aproximadamente un 8 % de efectos adversos, con gran variabilidad entre estudios. Pueden ser más probables en prácticas intensivas o con antecedentes de trauma o psicosis.
+- **Calidad de la investigación.** Van Dam y colaboradores (2018) señalaron problemas de definición, estudios con pocos participantes, falta de grupos de control activos y expectativas infladas.
+- **Lo que no se sabe.** Cuánta práctica hace falta, qué tipo conviene a quién y qué efectos duran en el tiempo todavía están abiertos.
+
+Es decir: meditar puede ser útil, no es inocuo para todos y no reemplaza un tratamiento.
+
+Para seguir, el [laboratorio de meditación](/laboratorio-de-meditacion/), el [de mindfulness](/laboratorio-de-mindfulness/), el [de respiraciones](/laboratorio-de-respiraciones/) y el [de interser](/laboratorio-de-interser/), que ubica la práctica en una trama de vínculos. Más en [Mind and Life y la neurociencia de la meditación](/recursos/mind-and-life-y-la-neurociencia-de-la-meditacion/) y [psicología budista](/recursos/psicologia-budista/).
 
 ## Preguntas frecuentes
 

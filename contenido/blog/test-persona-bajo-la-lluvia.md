@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 83
 estado: publicado
 respuesta: El test de la persona bajo la lluvia es una técnica proyectiva gráfica en la que se pide dibujar a una persona bajo la lluvia. Explora cómo alguien se representa frente a una situación de presión o de estrés, y con qué recursos cuenta para protegerse. En Argentina la desarrollaron Silvia Querol y María Chaves Paz. Se interpreta dentro de una evaluación más amplia, nunca por un detalle aislado.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es una pregunta sobre si llevás paraguas. Es una consigna breve: «dibujá una persona bajo la lluvia». Algunos dibujan alguien con botas, piloto y paraguas. Otros, una figura chiquita en medio de un aguacero. Otros, alguien que baila. Nadie dibuja la lluvia igual, porque nadie atraviesa los días difíciles igual.
 
@@ -49,6 +49,31 @@ También importan los aspectos formales, como el tamaño, la ubicación en la ho
 Como el resto de las técnicas gráficas, tiene **respaldo científico limitado** cuando se interpretan rasgos sueltos. Un paraguas roto no «significa» nada solo. Su valor está en integrarla con la entrevista y con otras pruebas, incluidas las [psicométricas](/recursos/tecnicas-psicometricas/).
 
 Si querés hacer un ejercicio inspirado en esta consigna, para pensarte y no para evaluarte, podés probar [la persona bajo la lluvia para dibujar en pantalla](/ejercicio-persona-bajo-la-lluvia/). Y si necesitás una evaluación, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Alguien dibuja una persona con un paraguas enorme, que casi tapa la hoja, y apenas unas gotas. Cuando se le pregunta qué siente esa persona, responde: «Está tranquila, pero no ve nada alrededor». La respuesta abre una conversación sobre cómo suele protegerse cuando se siente presionado: mucha previsión y poca exposición. No es un rasgo fijo ni un defecto; es una manera conocida de afrontar, con costos y con ventajas, y ahora tiene una imagen que puede mirarse con curiosidad.
+
+## Cómo se administra, a grandes rasgos
+
+Se entrega una hoja y se pide dibujar a una persona bajo la lluvia. Después se conversa sobre el dibujo: cómo se siente, qué hace, qué necesita, cómo termina. El profesional observa el procedimiento además del producto. En Argentina existen sistemas de lectura desarrollados por autores locales, que forman parte del saber profesional y no se reproducen acá; su conocimiento previo alteraría la prueba en una evaluación real.
+
+## Qué tiene investigación y qué es teoría
+
+- La idea de que la lluvia representa una **situación de presión o de estrés** y que el dibujo muestra la manera de afrontarla es una **hipótesis clínica razonable**, pero con **poca investigación empírica** sobre su validez.
+- Como el resto de los dibujos proyectivos, los indicadores aislados (la cantidad de lluvia, el tipo de paraguas) **no han mostrado** buena capacidad para predecir conductas o diagnósticos (Lilienfeld, Wood y Garb, 2000).
+- Su mayor valor es **cualitativo**: ofrece una situación imaginaria sobre la que se puede hablar de estrategias de afrontamiento, recursos y soportes.
+
+## Matices y límites
+
+- Un dibujo depende del **momento**: alguien que acaba de salir de un día difícil puede dibujar una tormenta que no refleja su vida en general.
+- No se debe inferir nada de un detalle suelto. Un paraguas grande o chico no «significa» seguridad o fragilidad por sí mismo.
+- Los resultados solo los interpreta un profesional, integrándolos con el resto de la evaluación: ver [técnicas proyectivas](/recursos/tecnicas-proyectivas/) y [qué es un psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/).
+- No es un instrumento para evaluar a otras personas sin su conocimiento, ni un test de «resiliencia».
+
+## En terapia
+
+En terapia, la consigna se transforma en una pregunta amable: ¿cómo te sentís cuando llueve fuerte en tu vida?, ¿qué tenés a mano?, ¿quién podría acompañarte? Desde un enfoque integrativo, con base psicoanalítica y junguiana, la lluvia puede leerse como una imagen de lo que cae y moja: lo que no controlamos y a lo que hay que responder. Se trabaja sobre los recursos que ya existen (el paraguas, la casa, otra persona) y sobre lo que podría sumarse, sin dar consejos de manual. Para probarlo por tu cuenta y sin evaluación, hay un [ejercicio de la persona bajo la lluvia](/ejercicio-persona-bajo-la-lluvia/); para pensar el afrontamiento, [estrategias de afrontamiento](/recursos/estrategias-de-afrontamiento/) y el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/).
 
 ## Preguntas frecuentes
 

@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 90
 estado: publicado
 respuesta: La entrevista psicológica es una conversación con un objetivo y un encuadre, en la que el profesional busca comprender a la persona: su motivo de consulta, su historia y su forma de vincularse. Puede ser abierta, semidirigida o estructurada. José Bleger la definió como un campo de trabajo en el que importa tanto lo que se dice como lo que ocurre en el vínculo. Es la base de toda evaluación y de toda terapia.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Ni un interrogatorio ni una charla de café: algo intermedio y muy particular. Una conversación en la que vos hablás de lo que te pasa y alguien escucha con atención, pregunta lo necesario y presta atención también a lo que no se dice. Es el primer instrumento de cualquier psicólogo, y muchas veces el más importante.
 
@@ -49,6 +49,33 @@ Si querés pensar qué contar antes de empezar, puede servirte la guía [¿Por d
 En un [psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/), las entrevistas enmarcan las técnicas: se hacen antes, para entender la pregunta, y al final, para la devolución. En la terapia, cada sesión es, de algún modo, una entrevista que continúa.
 
 Si querés coordinar una primera entrevista, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Alguien llega y dice: «No sé bien por qué vine, mi hermana me insistió». Podría parecer un mal comienzo, y sin embargo es un excelente material. El profesional no le exige un motivo claro: pregunta qué hizo que dijera que sí a la sugerencia, qué esperaba encontrar, qué temía. A los veinte minutos, aparece lo que sí lo trajo: un cansancio que no se explica y una sensación de estar «haciendo todo bien» sin sentir nada. La entrevista no obtuvo datos como quien llena un formulario: fue armando, de a poco, un lugar donde algo pudo decirse.
+
+## La escucha como herramienta
+
+Bleger insistía en que el entrevistador es parte del campo: su manera de preguntar, de callar y de recibir modifica lo que la persona puede contar. Por eso una buena entrevista tiene algo de arte y algo de oficio:
+
+- **Preguntas abiertas** que invitan a contar («¿cómo fue eso para vos?») antes que preguntas cerradas.
+- **Silencios que se toleran**, porque muchas veces lo importante llega después de una pausa.
+- **Atención a lo que se repite**, a lo que se evita y a lo que se dice con una emoción distinta de la que corresponde.
+- **Encuadre claro**: duración, frecuencia, honorarios y confidencialidad se acuerdan al principio.
+
+Desde la tradición psicoanalítica se agrega una idea útil: lo que ocurre entre las dos personas (cómo se entra, cómo se espera, cómo se despide) es también información. Y desde una mirada junguiana, el encuentro es un espacio donde algo de la persona puede aparecer sin ser forzado.
+
+## Cómo se trabaja en terapia
+
+En un proceso terapéutico la entrevista inicial no se «cierra»: se transforma. Las primeras sesiones sirven para entender el motivo de consulta, la historia y los recursos de cada uno, y para acordar objetivos. Con el tiempo, la conversación se vuelve más libre y más profunda. En un enfoque [integrativo](/recursos/que-es-la-psicoterapia-integrativa/) se puede combinar la palabra con otros recursos (imágenes, trabajo con el cuerpo, ejercicios entre sesiones) según lo que cada persona necesite.
+
+## Matices y límites
+
+- La entrevista no es una técnica «neutral»: depende de quién la hace. Por eso se complementa con otras fuentes cuando el fin es evaluar.
+- Las **entrevistas estructuradas** tienen mejor acuerdo entre evaluadores en la investigación, sobre todo para diagnóstico psiquiátrico; las abiertas ofrecen más riqueza y menos comparabilidad. Cada una sirve para algo distinto.
+- Una sola entrevista no alcanza para comprender a una persona. Lo que se obtiene es una primera aproximación, que se revisa a medida que se avanza.
+
+Si no sabés cuál elegir al buscar profesional, puede ayudarte [cómo elegir psicólogo](/recursos/como-elegir-psicologo/).
 
 ## Preguntas frecuentes
 

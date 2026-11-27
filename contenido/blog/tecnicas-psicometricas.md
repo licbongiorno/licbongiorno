@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 82
 estado: publicado
 respuesta: Las técnicas psicométricas son tests psicológicos estandarizados que miden de forma cuantitativa aspectos como la inteligencia, la personalidad, la atención o los síntomas. Se aplican y puntúan siempre del mismo modo y se comparan con normas o baremos de una población. Su calidad se evalúa por su confiabilidad y su validez. Ejemplos son el WAIS, el MMPI y el 16PF.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Un termómetro no explica por qué tenés fiebre, pero te dice con bastante precisión cuánta. Las técnicas psicométricas intentan algo parecido con aspectos que no se ven a simple vista, como la atención, la memoria o ciertos rasgos de personalidad. Ningún número dice quién sos, y, como cualquier instrumento de medida, sirven si están bien construidas y bien usadas.
 
@@ -51,6 +51,35 @@ Los tests que circulan en redes, e incluso los [tests de autoconocimiento](/test
 ## En la consulta
 
 Las técnicas psicométricas se usan en evaluaciones clínicas, educativas, laborales, forenses y en algunos aptos, como el [apto para la licencia de conducir](/recursos/apto-psicologico-licencia-de-conducir/). Siempre deben ser administradas e interpretadas por un profesional, y sus resultados se comunican con cuidado. Si necesitás una evaluación, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Un adolescente rinde mal en la escuela y su familia teme que «no le da». Se le toma una escala de inteligencia y los resultados muestran un desempeño promedio-alto, con una diferencia llamativa entre tareas verbales y de velocidad de procesamiento. La conclusión no es «es inteligente» ni «es vago»: es una pista concreta de dónde se traba (por ejemplo, en el ritmo y no en la comprensión) y de qué ajustes escolares podrían ayudar. Un número solo no habría dicho nada; interpretado dentro de una entrevista y una historia, orienta.
+
+## Cómo se administran, a grandes rasgos
+
+Lo propio de las psicométricas es la **estandarización**: consignas fijas, tiempos controlados, condiciones similares para todos. Por eso la administración la hace un profesional capacitado, que además cuida detalles como la ventilación, las pausas o el estado de la persona. Los manuales, los cuadernillos y las claves de corrección son material protegido: no se publican ni se difunden, porque conocerlos de antemano **invalida la prueba** y puede perjudicar a otros. Es una norma ética de la profesión.
+
+## Qué tiene respaldo
+
+La psicometría es la parte de la psicología con más tradición cuantitativa. Algunos puntos sólidos:
+
+- Las escalas de inteligencia bien construidas muestran buena confiabilidad y predicen razonablemente el rendimiento académico y laboral.
+- Los inventarios de personalidad de rasgos amplios (por ejemplo, los cinco grandes) tienen una base de investigación extensa.
+- Las escalas breves de síntomas (PHQ-9, GAD-7) funcionan como **tamizaje**: sirven para detectar y seguir un cuadro, no para diagnosticarlo.
+
+Aun así, ninguna es perfecta. Un puntaje tiene un **margen de error**, y puede verse afectado por el cansancio, la motivación, el idioma o la cultura.
+
+## Matices y límites
+
+- **Los baremos importan.** Un test con normas de otro país o de otra época puede dar resultados engañosos. Hay que preguntarse siempre si fue adaptado y validado para la población local.
+- **Medir no es explicar.** Un puntaje describe, pero no dice por qué. La explicación viene de la entrevista, de la historia y de la clínica.
+- **No se interpreta solo.** El resultado de un test lo interpreta un profesional, no la persona ni un programa que lo calcula, y menos si lo encontró en una página web.
+- **Cuidado con la sobreinterpretación.** Diferencias pequeñas entre puntajes suelen no significar nada.
+
+## En terapia
+
+En un proceso terapéutico integrativo, con base psicoanalítica y junguiana, los tests no son el centro: son una herramienta puntual para aclarar una pregunta (por ejemplo, si hay un problema atencional o cuánto pesa la ansiedad). La vida de una persona no cabe en un puntaje, pero a veces un puntaje bien ubicado ayuda a dejar de pelearse con uno mismo. Para ver cómo se combinan estas técnicas con las proyectivas, mirá [qué es un psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/) y el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/).
 
 ## Preguntas frecuentes
 

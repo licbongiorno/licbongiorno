@@ -11,7 +11,7 @@ orden: 50
 estado: publicado
 respuesta: La ecuanimidad, upekkha en pali, es una estabilidad serena que permite recibir lo agradable y lo desagradable sin ser arrastrado, sin dejar de sentir ni de querer. Es la cuarta de las cuatro moradas sublimes del budismo. Su enemigo cercano es la indiferencia, que parece calma pero es desconexión. La psicología la estudia como una disposición equilibrada hacia todas las experiencias, sin apego ni rechazo.
 menciona: meditacion
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 No, no es no sentir. Tampoco es «me da igual», ni poner cara de póker. La ecuanimidad es otra cosa, más difícil y más valiosa: poder estar en paz en medio de lo que cambia, sin dejar de querer, sin dejar de sentir.
 
@@ -52,6 +52,31 @@ Hay una forma falsa de ecuanimidad: la que se usa para no sentir. Si «estar en 
 ## Cómo se cultiva
 
 En el [laboratorio de ecuanimidad](/laboratorio-de-ecuanimidad/) hay una meditación de la montaña, frases de ecuanimidad guiadas, un ejercicio con los ocho vientos y otro para distinguir lo que depende de vos.
+
+## Una práctica breve: la montaña
+
+1. Sentate con la espalda cómoda y respirá unas veces. Imaginá una montaña grande, con la base firme en la tierra.
+2. Dejá que la imagen se vuelva cuerpo: tu pelvis y tus piernas, el peso, la quietud de la base.
+3. Pensá que sobre la montaña pasan estaciones: sol, lluvia, tormenta, nieve, niebla. Ella no se va ni se defiende. Todo pasa.
+4. Traé a la mente algo pequeño que hoy te movió, como un comentario o una demora. Mirá cómo viene como un clima.
+5. Repetí con calma frases honestas: «todo cambia», «hago lo que puedo y el resto no depende de mí», «que pueda estar en paz con las cosas como son».
+6. Cerrá abriendo los ojos y mirando algo del entorno.
+
+Importante: si al decirlas sentís que te estás obligando a no sentir, parás. Esa no es ecuanimidad.
+
+## En terapia
+
+Una escena habitual: una persona que cuida a un familiar enfermo, o que trabaja en salud, llega agotada, dividida entre «no puedo desconectar» y «ya no siento nada». Las dos son versiones de la misma dificultad: no hay un punto medio entre implicarse y quedar arrasado.
+
+Desde una mirada integrativa con base psicoanalítica y junguiana, se trabaja con los opuestos: apego y distancia, entrega y límite, querer salvar y aceptar los límites de lo que se puede. Jung hablaba de sostener la tensión de los opuestos hasta que surge una tercera posición. La ecuanimidad, en este sentido, no es la ausencia de tensión sino una forma de sostenerla. En sesión suele aparecer también el duelo por la omnipotencia: aceptar que no todo depende de uno puede doler antes de aliviar.
+
+## Más sobre sus límites
+
+La ecuanimidad es el concepto más difícil de investigar de las cuatro moradas. Desbordes y colaboradores (2015) la propusieron como resultado a medir, pero todavía no hay un acuerdo sobre cómo hacerlo, y los instrumentos existentes son recientes. Hay estudios que sugieren que ciertas prácticas se relacionan con menor reactividad emocional, pero con muestras pequeñas y mucha heterogeneidad.
+
+Sobre la meditación en general, la revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) encontró efectos modestos sobre ansiedad, depresión y dolor, sin ventajas frente a otros tratamientos activos. Y las experiencias difíciles existen: Lindahl y colaboradores (2017) las documentaron en practicantes occidentales del budismo, y en el caso de la ecuanimidad un riesgo particular es el *bypass*: usar la calma como forma de no tocar lo que duele.
+
+Para practicar, el [laboratorio de meditación](/laboratorio-de-meditacion/), el [laboratorio de mindfulness](/laboratorio-de-mindfulness/) y el [de respiraciones](/laboratorio-de-respiraciones/) tienen prácticas cortas. El [laboratorio de interser](/laboratorio-de-interser/) ayuda a ver la ecuanimidad como parte de un tejido de relaciones y no de una fortaleza individual. Sobre el cuidado, ver [burnout](/recursos/burnout/) y [mindfulness](/recursos/mindfulness-atencion-plena/).
 
 ## Preguntas frecuentes
 

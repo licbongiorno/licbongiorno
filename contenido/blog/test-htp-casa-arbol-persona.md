@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 79
 estado: publicado
 respuesta: El HTP (House-Tree-Person, casa-árbol-persona) es una técnica proyectiva gráfica creada por John N. Buck en 1948. Se le pide a la persona que dibuje una casa, un árbol y una persona, y luego se conversa sobre los dibujos. Se observan aspectos formales, como el tamaño, la ubicación y el trazo, y de contenido. Se interpreta dentro de una evaluación más amplia, nunca por un detalle aislado.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es un concurso de dibujo. Es una hoja en blanco, un lápiz y una consigna sencilla: «dibujá una casa». Después, un árbol. Después, una persona. Mucha gente se preocupa porque «dibuja mal», pero eso no importa en absoluto. Lo que interesa es otra cosa: cómo cada uno resuelve, a su manera, algo que todos conocemos.
 
@@ -51,6 +51,32 @@ Tradicionalmente, la casa se asocia con la vida familiar y el hogar, el árbol c
 Como muchas técnicas gráficas, el HTP tiene un **respaldo científico limitado** cuando se interpretan rasgos aislados. Su valor está en integrarlo con la entrevista y con otras pruebas, incluidas las [psicométricas](/recursos/tecnicas-psicometricas/). Desconfiá de las listas de internet del tipo «si dibujaste humo en la chimenea, significa…»: un detalle suelto no dice nada sobre una persona.
 
 Si necesitás una evaluación o un apto, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Una mujer dibuja un árbol con un tronco ancho y pocas hojas, y cuando se le pregunta cómo está ese árbol, responde: «Aguantó muchos inviernos». Un manual de signos diría algo sobre el tronco o sobre las hojas. En la conversación, ella habla de un período de cuidados a un familiar enfermo que terminó hace poco. El dibujo no «diagnosticó» agotamiento: le dio una imagen para decirlo. Lo valioso no fue el trazo sino la frase y la historia que se abrió después.
+
+## Cómo se administra, a grandes rasgos
+
+Como se describió, se piden los tres dibujos y se conversa sobre ellos. En algunas versiones se dibuja primero a lápiz y después con crayones, y existe una variante que pide dibujar los tres elementos en una sola hoja. El profesional observa el proceso además del resultado. Los sistemas de puntuación y las listas de interpretación forman parte del saber profesional y no se reproducen acá.
+
+## Qué tiene investigación y qué es teoría
+
+- La asociación tradicional (casa = familia, árbol = desarrollo, persona = imagen de sí) es una **hipótesis clínica**, no un hallazgo empírico firme.
+- Las revisiones sobre dibujos proyectivos (Lilienfeld, Wood y Garb, 2000) encontraron que los indicadores individuales del HTP tienen **poca capacidad** para distinguir entre grupos clínicos y no clínicos.
+- Hay investigaciones que usan sistemas de puntuación más estructurados con resultados algo mejores, sobre todo para estimar aspectos del desarrollo, pero no alcanzan para fundar conclusiones diagnósticas individuales.
+- Donde la técnica **sí aporta** es en facilitar el rapport y en dar material para conversar, algo que la investigación sobre validez no mide bien.
+
+## Matices y límites
+
+- Un dibujo puede variar según el **día, el cansancio, la consigna, la edad y la cultura**. Lo que se ve es una muestra, no un rasgo permanente.
+- Es una técnica muy usada en [aptos](/recursos/apto-psicologico-licencia-de-conducir/) como una muestra breve de organización y adecuación; no se pretende, ahí, «analizar» la personalidad.
+- Sus resultados solo los interpreta un profesional formado, y jamás con una lista suelta de significados.
+- Sacar conclusiones de un dibujo ajeno, o del propio, a partir de lo que circula por internet suele confundir y angustiar sin motivo.
+
+## En terapia
+
+En un proceso terapéutico, la casa, el árbol y la persona son figuras que dialogan muy bien con la psicología junguiana: la casa como espacio interior, el árbol como crecimiento y raíces, la persona como identidad. No se trata de aplicar un diccionario de símbolos, sino de **preguntarle al dibujo** (¿qué necesita este árbol?, ¿quién vive en esa casa?) y escuchar lo que se responde. Un enfoque integrativo, con base psicoanalítica y junguiana, toma ese material como un puente hacia lo que todavía no tiene nombre. Para ampliar, mirá [técnicas proyectivas](/recursos/tecnicas-proyectivas/), [los símbolos según Jung](/recursos/los-simbolos-segun-jung/) y el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/).
 
 ## Preguntas frecuentes
 

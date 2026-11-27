@@ -11,7 +11,7 @@ orden: 52
 estado: publicado
 respuesta: Carl Gustav Jung estudió con interés el yoga, el budismo y el taoísmo, y escribió en 1929 un comentario psicológico a El secreto de la flor de oro, un texto chino de meditación. Valoraba esas prácticas, pero advirtió que los occidentales no deberían imitarlas sin más, sino encontrar un camino propio. Para él, ese camino era el diálogo con el inconsciente a través de la imaginación activa, los sueños y los mandalas.
 menciona: jung, psicologia-analitica, meditacion
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es que Jung «meditaba» como un maestro zen. Es algo más interesante: un psiquiatra suizo que, en plena Europa de entreguerras, se sentaba a dibujar círculos cada mañana sin saber por qué, y años después encontró en un viejo texto chino de meditación las mismas imágenes. A partir de ahí, dedicó buena parte de su obra a tender un puente entre Oriente y la psicología occidental. Con entusiasmo, y también con advertencias.
 
@@ -46,6 +46,31 @@ Los sueños, el dibujo de mandalas y la imaginación activa son, en la [terapia 
 Jung anticipó muchas discusiones actuales sobre la meditación: su valor, sus riesgos cuando se usa para evadir, la importancia del contexto cultural. Desde esta mirada, meditar puede ser una gran herramienta si no se convierte en una forma de esquivar lo que necesitamos mirar.
 
 Podés contemplar un mandala con preguntas inspiradas en Jung en el [laboratorio de meditación](/laboratorio-de-meditacion/). Ver también [qué es la meditación](/recursos/que-es-la-meditacion/).
+
+## Una práctica breve inspirada en Jung: contemplar un círculo
+
+1. Tomá una hoja y un lápiz, o un papel y colores. Sentate con la respiración tranquila.
+2. Dibujá un círculo, sin pensar mucho en cómo. Dentro, dejá que la mano agregue lo que quiera: formas, colores, un centro, líneas.
+3. No busques que quede lindo ni que tenga sentido. Es un registro de cómo estás hoy.
+4. Cuando termines, mirá el dibujo en silencio unos minutos. Preguntate: ¿qué hay en el centro?, ¿qué queda en los bordes?, ¿qué color predomina?
+5. Escribí dos o tres frases sobre lo que notás, sin interpretar de más.
+6. Guardalo con la fecha. Dentro de unas semanas, mirá la serie.
+
+No es un test ni un método de interpretación: es una forma de dar lugar a lo que todavía no tiene palabras.
+
+## En terapia
+
+En la clínica es común que alguien llegue con un malestar que no logra contar: «me siento raro», «hay algo que no entiendo». A veces la palabra no alcanza y conviene probar otro lenguaje: un dibujo, una escena soñada, un movimiento. La imaginación activa y el trabajo con imágenes no reemplazan la conversación, la amplían.
+
+Desde una mirada integrativa con base junguiana y psicoanalítica, el material se acompaña con una actitud doble: receptiva, para dejar que algo se muestre, y reflexiva, para no quedar fascinado ni abrumado por la imagen. Además se cuida el ritmo: no se pide más contacto con lo inconsciente del que la persona puede integrar. Cuando alguien viene de una práctica meditativa intensa, también se mira cómo la usa: si le sirve para acercarse a lo que siente o para alejarse.
+
+## Qué es teoría y qué tiene investigación
+
+La mayor parte de lo que cuenta este texto es **pensamiento clínico y teórico**, no resultados experimentales. Las ideas de Jung sobre el mandala, el sí-mismo y la imaginación activa se apoyan en su observación clínica y en su comparación de símbolos entre culturas; son fecundas, pero la psicología experimental no las confirmó de manera general. Algunas lecturas de Jung sobre Oriente fueron además criticadas por proyectar categorías occidentales sobre prácticas orientales.
+
+Sobre meditación en general, sí hay investigación. La revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) encontró efectos modestos sobre ansiedad, depresión y dolor, similares a los de otros tratamientos activos. Y el estudio de Lindahl y colaboradores (2017) mostró que meditar puede traer experiencias difíciles a algunas personas, lo que coincide con la preocupación de Jung por no usar la práctica para evadirse. Que Jung lo haya dicho no prueba que las prácticas funcionen o fallen: es una hipótesis para tener presente, que hoy se discute con datos.
+
+Para seguir, el [laboratorio de imaginación activa](/laboratorio-de-imaginacion-activa/), el [de sombra y arquetipos](/laboratorio-de-sombra-y-arquetipos/) y el [recorrido junguiano](/laboratorio-recorrido-junguiano/). Para la práctica meditativa, el [laboratorio de mindfulness](/laboratorio-de-mindfulness/), el [de respiraciones](/laboratorio-de-respiraciones/) y el [de interser](/laboratorio-de-interser/). Y sobre la sombra, mirá [la sombra según Jung](/recursos/la-sombra-segun-jung/).
 
 ## Preguntas frecuentes
 

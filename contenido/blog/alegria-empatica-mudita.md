@@ -11,7 +11,7 @@ orden: 50
 estado: publicado
 respuesta: Mudita es una palabra pali que significa alegría por el bien ajeno o alegría empática: alegrarse genuinamente por el éxito y la felicidad de los demás. Es la tercera de las cuatro moradas sublimes del budismo y se considera el antídoto de la envidia. La psicología estudió cómo respondemos a las buenas noticias de otros: Shelly Gable encontró que responder con entusiasmo y curiosidad se asocia con vínculos más satisfechos.
 menciona: meditacion
-revision: 2026-11-16
+revision: 2026-11-27
 ---
 Un amigo te cuenta que consiguió el trabajo que vos también querías. Y antes de que puedas decir «qué bueno», sentís un pinchazo. No es que no lo quieras. Es que su alegría, de algún modo, te recordó lo que te falta. Esto es humano, y tiene nombre: envidia. Lo contrario también tiene nombre, aunque se nombre mucho menos: *mudita*.
 
@@ -51,6 +51,33 @@ Solo la primera se asoció con vínculos más satisfechos y de más confianza. E
 - Una meditación guiada, de lo fácil a lo difícil.
 
 Todo eso está en el [laboratorio de alegría empática](/laboratorio-de-alegria-empatica/).
+
+## Una práctica breve de cinco minutos
+
+1. Sentate cómodo y respirá unas veces con naturalidad, apoyando los pies en el piso.
+2. Pensá en alguien a quien le fue bien hace poco y por quien se te hace fácil alegrarte: un chico, un amigo querido, una vecina que se recibió.
+3. Imaginá su cara en ese momento. Dejá que aparezca el gesto, la voz, lo que habrá sentido.
+4. Notá en el cuerpo qué pasa con esa alegría: calor, ligereza, una sonrisa. Quedate ahí unos respiros.
+5. Repetí en silencio, sin forzar: «qué tu alegría continúe», «me alegro de que te haya ido bien».
+6. Si querés, ampliá de a poco a alguien neutro. Dejá para más adelante a quien te despierta envidia.
+
+Si aparece el pinchazo de siempre, no lo combatas: notalo, nombralo («envidia») y volvé a la persona fácil. Esa vuelta también es la práctica.
+
+## En terapia
+
+Es habitual que alguien llegue contando que se siente «mala persona» porque no puede festejar el embarazo de una amiga, el ascenso de un hermano o el viaje de un compañero. Debajo de la envidia suele haber un deseo propio que todavía no tiene nombre, o una herida antigua de comparación, a veces del lugar que cada uno ocupaba en su familia.
+
+Desde una mirada integrativa con base junguiana y psicoanalítica, la envidia no se erradica: se escucha. Puede señalar lo que Jung llamaría un contenido de la sombra, algo valioso que desconocemos en nosotros y que vemos afuera. El trabajo consiste en preguntarse qué quiere ese deseo, qué parte de la historia lo vuelve tan doloroso y qué se puede hacer con él, además de practicar la alegría ajena. Cuando la envidia se entiende, suele aflojar, y la alegría deja de ser una obligación para volverse posible.
+
+## Qué dice la investigación y cuáles son sus límites
+
+Lo más sólido es lo que vimos sobre la envidia (Smith y Kim; Van de Ven) y sobre las respuestas a las buenas noticias (Gable y colaboradores, 2004): son estudios de psicología social, con muestras de personas que contestan cuestionarios o cuentan situaciones. Muestran asociaciones, no que cierta respuesta *cause* mejores vínculos.
+
+Sobre la práctica meditativa de mudita en sí hay muy poca investigación específica: casi siempre se estudia dentro de paquetes de bondad amorosa o de las cuatro moradas sublimes, lo que impide saber qué aporta cada componente. Además, la investigación en meditación en general muestra efectos modestos: la revisión de Goyal y colaboradores (2014, *JAMA Internal Medicine*) encontró mejoras moderadas en ansiedad, depresión y dolor, sin ventajas sobre otros tratamientos activos. Y no todo es inocuo: Lindahl y colaboradores (2017) documentaron experiencias difíciles en practicantes, aunque en este tipo de práctica suave son menos frecuentes.
+
+Un cuidado propio de mudita: no usarla para taparse. Alegrarse por otro no te obliga a callar un dolor legítimo ni a seguir cerca de quien te daña.
+
+Para seguir practicando, mirá el [laboratorio de meditación](/laboratorio-de-meditacion/), el [laboratorio de mindfulness](/laboratorio-de-mindfulness/) y el [de respiraciones](/laboratorio-de-respiraciones/). Y para pensar la alegría ajena como parte de una trama de vínculos, el [laboratorio de interser](/laboratorio-de-interser/). Sobre la bondad amorosa, ver [meditación metta](/recursos/meditacion-metta-compasion/) y [ecuanimidad](/recursos/ecuanimidad/).
 
 ## Preguntas frecuentes
 
