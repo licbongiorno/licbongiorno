@@ -11,7 +11,7 @@ orden: 138
 estado: publicado
 respuesta: Jon Kabat-Zinn, nacido en 1944, es un biólogo molecular y profesor estadounidense que en 1979 fundó la Clínica de Reducción del Estrés en la Facultad de Medicina de la Universidad de Massachusetts. Allí creó el programa de reducción del estrés basado en mindfulness (MBSR), de ocho semanas, que llevó la atención plena al ámbito médico sin un marco religioso. Definió el mindfulness como prestar atención, a propósito, al momento presente y sin juzgar.
 menciona: kabat-zinn, mindfulness, meditacion
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Prestar atención, a propósito, al momento presente y sin juzgar. Así de simple definió Jon Kabat-Zinn el mindfulness. Lo nuevo no fue la práctica, que tiene miles de años, sino dónde la llevó: a un hospital, para personas con dolor crónico y estrés a las que la medicina ya no sabía qué ofrecer.
 
@@ -44,6 +44,29 @@ Kabat-Zinn describió siete actitudes que sostienen la práctica: **no juzgar**,
 El MBSR se ofrece hoy en hospitales, universidades y empresas de todo el mundo, y es uno de los programas de mindfulness con más investigación. También recibió críticas: por su difusión masiva, que a veces lo reduce a una técnica de rendimiento, y porque no es adecuado para todas las personas ni en todos los momentos.
 
 En el sitio hay un [laboratorio de mindfulness](/laboratorio-de-mindfulness/) con diez prácticas del MBSR y el MBCT, y un artículo sobre [mindfulness](/recursos/mindfulness-atencion-plena/). Antes de practicar, vale la pena leer [cuándo meditar no es recomendable](/recursos/cuando-meditar-no-es-recomendable/).
+
+## De dónde viene su propuesta
+
+Kabat-Zinn conoció la meditación en los años sesenta y setenta, en contacto con maestros zen y con la tradición de vipassana, además de con Thich Nhat Hanh. Lo que hizo fue una traducción cuidadosa: sacó la práctica del templo y la ubicó en una sala de hospital, con un lenguaje laico y con la pregunta de si ayudaba a las personas con enfermedades crónicas. Desde el comienzo medía resultados. Esa decisión de medir fue una de las razones por las que el mindfulness llegó a la medicina.
+
+## Cómo es el programa
+
+El MBSR se organiza en ocho encuentros semanales de unas dos horas y media, con una jornada de práctica más larga hacia el final. Entre sesiones se pide practicar en casa alrededor de cuarenta y cinco minutos por día, con grabaciones guiadas. Las prácticas incluyen el escaneo corporal, la meditación sentada, el yoga suave y la atención a actividades cotidianas. Un ejercicio muy conocido es el de la pasa de uva: comer una sola, con todos los sentidos, durante varios minutos.
+
+## Un ejemplo cotidiano
+
+Lavar los platos pensando en el mail que tenés que contestar es la forma más común del piloto automático. La invitación del MBSR es sencilla: sentir el agua tibia, el peso del plato, el sonido. Cuando la mente se va, y se va, notarlo y volver, sin retarse. No se trata de pensar en nada, sino de notar adónde se fue la atención y traerla de vuelta con amabilidad. Esa vuelta, repetida, es el entrenamiento.
+
+## Su influencia hoy
+
+Del MBSR salió la terapia cognitiva basada en mindfulness (MBCT), desarrollada por Segal, Williams y Teasdale para personas que ya tuvieron varios episodios de depresión y quieren prevenir recaídas. Una revisión publicada en 2014 en *JAMA Internal Medicine* (Goyal y colegas) encontró evidencia moderada de que estos programas mejoran la ansiedad, la depresión y el dolor. Ver también el artículo sobre [Thich Nhat Hanh y el interser](/recursos/thich-nhat-hanh-y-el-interser/), una de las fuentes de su práctica, y [mindfulness en el laboratorio](/laboratorio-recorrido-mindfulness/).
+
+## Matices y límites
+
+- **La evidencia es alentadora, pero no ilimitada.** Los efectos suelen ser moderados y se parecen a los de otros tratamientos reconocidos. En 2018, un grupo de investigadores publicó un artículo muy citado («Mind the Hype») que advertía sobre el entusiasmo desmedido y sobre la calidad desigual de muchos estudios.
+- **No es para todos en todo momento.** En personas con trauma, depresión grave o episodios psicóticos, la práctica intensiva puede ser contraproducente si no se adapta y no tiene acompañamiento. Leé [cuándo meditar no es recomendable](/recursos/cuando-meditar-no-es-recomendable/).
+- **No reemplaza el tratamiento médico ni psicológico.** El MBSR se pensó como complemento para el dolor o el estrés crónicos.
+- **Críticas a su uso comercial.** Hay quienes señalan que la versión sin contexto ético ni comunitario puede quedar reducida a una técnica de productividad.
 
 ## Preguntas frecuentes
 

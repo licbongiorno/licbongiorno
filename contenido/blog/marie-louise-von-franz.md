@@ -11,7 +11,7 @@ orden: 110
 estado: publicado
 respuesta: Marie-Louise von Franz (1915-1998) fue una analista junguiana suiza nacida en Alemania, la colaboradora más cercana de Jung. Doctora en filología clásica, trabajó con él en la investigación sobre la alquimia y desarrolló un método para interpretar los cuentos de hadas como expresiones de la psique colectiva. También es conocida por su estudio del puer aeternus, el eterno adolescente, y por sus trabajos sobre los sueños y la muerte.
 menciona: von-franz, jung, psicologia-analitica
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 «Blancanieves», «La bella durmiente», un cuento que te contaba tu abuela y que nadie sabe de dónde salió. Marie-Louise von Franz pasó la vida mostrando que esas historias, lejos de ser cosa de chicos, son como sueños colectivos, y que en ellas se ve, con una claridad que pocas teorías alcanzan, cómo funciona la psique.
 
@@ -44,6 +44,22 @@ Jung había observado que muchos sueños tienen la forma de un drama en cuatro t
 La obra de von Franz es una de las puertas más claras a la psicología analítica: sus libros nacieron como clases y se leen con facilidad. Su método para los cuentos se usa en psicoterapia, en educación y en el trabajo con narrativas.
 
 En la consulta, sus ideas me ayudan a escuchar los sueños como relatos, con su escena, su conflicto y su salida, y a reconocer el patrón del puer cuando la vida parece estar siempre por empezar. Podés seguir con [mitos y cuentos según Jung](/recursos/mitos-y-cuentos-jung/) o con [los sueños según Jung](/recursos/los-suenos-segun-jung/).
+
+## Una discípula de Jung
+
+Von Franz fue una de las pocas personas que trabajaron codo a codo con Jung durante décadas. Con su formación en filología clásica, tradujo los textos de alquimia con los que él buscaba entender la transformación psíquica. De ese trabajo salieron libros propios, como *Alquimia: una introducción al simbolismo y la psicología* (1980), y el estudio de la sincronicidad en *Sobre la adivinación y la sincronicidad* (1980). En *Número y tiempo* (1970) exploró la idea de que los números tienen una dimensión arquetípica. Escribió además un capítulo de *El hombre y sus símbolos* (1964), el último libro en el que trabajó Jung.
+
+## Un ejemplo de todos los días
+
+Alguien sueña que está en una casa conocida y descubre una habitación que nunca había visto. Un lobo mira desde la puerta. Von Franz, en lugar de ofrecer «el significado» del lobo, preguntaría primero: ¿cómo es esa casa?, ¿qué pasa con el lobo en los cuentos que conocés? Rodeaba la imagen con historias, mitos y asociaciones personales, y recién después buscaba un sentido provisional. Con los cuentos hacía algo parecido: leía la escena inicial, el problema y la salida, como se lee un sueño. Su idea era que un buen relato no se explica del todo, se escucha.
+
+## Cómo resuena hoy en la clínica
+
+El enfoque de von Franz alimenta el trabajo con sueños, las prácticas con cuentos y mitos, y la mirada narrativa en psicoterapia. Los terapeutas que trabajan con imágenes suelen preguntar qué cuento o qué personaje de ficción se parece a lo que alguien vive. Mirá [los sueños según Jung](/recursos/los-suenos-segun-jung/), [mitos y cuentos según Jung](/recursos/mitos-y-cuentos-jung/), [la sombra](/recursos/la-sombra-segun-jung/), la [imaginación activa](/recursos/imaginacion-activa/) y el [Laboratorio de sueños](/laboratorio-de-suenos/).
+
+## Matices y límites
+
+Sus interpretaciones de cuentos son lecturas de una analista, hechas en general con relatos europeos recogidos en colecciones como la de los hermanos Grimm, y no hay estudios controlados que muestren que revelen procesos psíquicos universales. Que un cuento sea «un sueño colectivo» es una hipótesis de la psicología analítica. El puer aeternus es una descripción útil, pero no un diagnóstico, y conviene no aplicarlo como etiqueta a quien tiene dificultades para comprometerse por otras razones, como la ansiedad o la depresión. La amplificación, por último, puede volverse una erudición sin vínculo con la persona: lo que cuenta es lo que resuena en quien sueña.
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 187
 estado: publicado
 respuesta: Alexander Lowen (1910-2008) fue un psicoterapeuta estadounidense, alumno de Wilhelm Reich en los años cuarenta. Junto con John Pierrakos creó la bioenergética, una terapia que trabaja con la tensión muscular, la respiración y el contacto con el suelo. Sostuvo que la personalidad se expresa en el cuerpo, y publicó El lenguaje del cuerpo (1958) y Bioenergética (1975). Es una de las raíces de la psicología corporal.
 menciona: reich
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Imaginá a alguien que dice «estoy bien» con los hombros levantados, la respiración corta y la mandíbula apretada. Para Lowen, esa contradicción no es un detalle: el cuerpo también está diciendo algo. Esa idea, que el cuerpo no acompaña a la mente sino que la expresa, fue central en su trabajo.
 
@@ -53,6 +53,18 @@ Lo que perdura es la observación de que la respiración, la postura y la tensi�
 ## Un cuidado
 
 Los ejercicios bioenergéticos movilizan la respiración y la expresión emocional, y pueden despertar emociones fuertes. Si algo te desborda, detenete, volvé a apoyar los pies y respirá con calma. Conviene hacerlo con un profesional formado, y no esperar de la descarga una cura rápida.
+
+## De Reich a la bioenergética
+
+Wilhelm Reich había cambiado la psicoterapia al afirmar que el carácter se expresa en el cuerpo. Sus ideas posteriores, sobre una energía vital llamada orgón, fueron muy discutidas y lo llevaron a un conflicto con las autoridades de Estados Unidos; murió en prisión en 1957. Lowen tomó lo que consideró valioso de Reich, la atención a la respiración y a la tensión, y construyó su propio camino. Publicó *El amor y el orgasmo* (1965) y *La depresión y el cuerpo* (1972) antes de *Bioenergética*. Describió además tipos de carácter, como el esquizoide, el oral o el rígido, que asociaba a formas de tensión corporal.
+
+## Cómo se trabaja en la práctica
+
+Una clase de bioenergética combina observación y movimiento: respiración profunda, ejercicios para sentir los pies, posiciones de arqueo o de sostén de la postura, ejercicios de voz. La idea no es «sacar» una emoción, sino notar qué pasa cuando el cuerpo se afloja o se sostiene. Un terapeuta atento mira, por ejemplo, cuánto aire entra cuando alguien habla de algo difícil, o si los hombros suben cuando aparece cierto tema. Esa observación se convierte en una pregunta para la persona, no en una interpretación impuesta.
+
+## Cómo resuena hoy
+
+La psicología corporal actual, con la atención a la respiración, a la postura y a las sensaciones, tiene un linaje que pasa por Lowen. Hoy la investigación sobre la interocepción, la percepción de las señales internas del cuerpo, y las terapias para el trauma que trabajan con el cuerpo retoman la intuición de que lo emocional también se siente por dentro. Algunos ensayos sobre psicoterapia corporal en general muestran resultados prometedores pero heterogéneos, sin que alcancen para respaldar específicamente la bioenergética. Podés ampliar con [respiración y emociones](/recursos/respiracion-y-emociones/), [el cuerpo lleva la cuenta](/recursos/el-cuerpo-lleva-la-cuenta/) y [psicología corporal](/recursos/psicologia-corporal/).
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 169
 estado: publicado
 respuesta: René Descartes (1596-1650) fue un filósofo y matemático francés, autor del Discurso del método (1637) y de Las pasiones del alma (1649). Separó la mente, que piensa, del cuerpo, que funciona como una máquina. Ese dualismo marcó el debate sobre la relación entre mente y cuerpo, y su descripción mecánica de los movimientos del cuerpo es un antecedente de la idea de reflejo, que Pávlov reconoció.
 menciona: descartes, pavlov
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 «Pienso, luego existo». La frase está en el *Discurso del método*, de 1637, y es probablemente la más citada de la filosofía moderna. Descartes llegó a ella dudando de todo: de los sentidos, de los sueños, incluso de las matemáticas. Lo único que no podía poner en duda era que estaba dudando.
 
@@ -43,6 +43,27 @@ Si la **mente** y el **cuerpo** son tan distintos, ¿cómo se comunican? Descart
 - **Iván Pávlov** reconoció a Descartes como el primero en pensar el reflejo: una respuesta automática del cuerpo a un estímulo, sin intervención de la voluntad. Ver [Iván Pávlov](/recursos/ivan-pavlov/).
 - La pregunta por cómo se relacionan la mente y el cuerpo sigue viva en la medicina psicosomática, en la neurociencia y en terapias que trabajan con el cuerpo, como las de [Wilhelm Reich](/recursos/wilhelm-reich/) o la [Gestalt](/recursos/fritz-perls/).
 - Buena parte de la psicología del siglo XX se definió contra el dualismo: [Spinoza](/recursos/baruch-spinoza/) ya lo había discutido, y más tarde [Merleau-Ponty](/recursos/maurice-merleau-ponty/) propuso pensar el cuerpo como el lugar mismo de la experiencia.
+
+## El contexto de su pensamiento
+
+Descartes vivió en plena Guerra de los Treinta Años y en medio de un cambio de época: la ciencia de Galileo estaba reemplazando a la física de Aristóteles, y se buscaba un método que diera certezas. Él mismo contó que, en noviembre de 1619, una noche de sueños intensos le mostró el camino para fundar un saber nuevo. Más allá de la anécdota, el proyecto era claro: construir el conocimiento desde una base firme, empezando de cero.
+
+Otro dato importante es su correspondencia con la princesa Isabel de Bohemia, que a partir de 1643 le hizo una pregunta incómoda: si la mente no ocupa espacio, ¿cómo puede mover un cuerpo? Descartes no tuvo una respuesta del todo convincente, y de ese intercambio salió en buena parte el material de *Las pasiones del alma*, donde habló de las emociones como una zona donde el cuerpo y el alma se tocan.
+
+## Un ejemplo cotidiano
+
+Pensá en la mañana de un examen. Sentís el corazón rápido y un nudo en la panza. ¿Es «solo nervios», es decir, algo mental, o es el cuerpo reaccionando? Si lo pensás dividido, parece que tenés que elegir entre «calmar la mente» o «calmar el cuerpo». En la práctica, respirar más lento cambia lo que pensás, y pensar distinto cambia la respiración. El dualismo de Descartes ayuda a ordenar la pregunta, pero la experiencia le queda chica.
+
+## Su influencia hoy
+
+El dualismo dejó marcas que todavía se notan, por ejemplo cuando se dice «es psicológico, no es real», como si lo mental no ocurriera en el cuerpo. El neurocientífico Antonio Damasio le dedicó un libro, *El error de Descartes* (1994), donde sostiene que la emoción es parte del razonar y no un estorbo. En la clínica, enfoques como la medicina psicosomática, el trabajo con el dolor crónico y la atención a las sensaciones corporales parten de una mirada que no separa mente y cuerpo. Podés profundizar en [interocepción](/recursos/interocepcion/), en [dolor crónico y psicología](/recursos/dolor-cronico-y-psicologia/) y en [El cuerpo lleva la cuenta](/recursos/el-cuerpo-lleva-la-cuenta/).
+
+## Matices y límites
+
+- **Fue un filósofo, no un fisiólogo.** Su descripción del cuerpo como máquina era un modelo teórico. El concepto de reflejo se desarrolló después, con aportes de muchos otros investigadores, y recién con Pávlov alcanzó un estudio experimental sistemático.
+- **La glándula pineal no es el lugar de unión.** Es una propuesta sin respaldo. Interesa hoy como muestra del problema, no como solución.
+- **El dualismo es una idea filosófica, no un dato científico.** La neurociencia actual suele trabajar con la hipótesis contraria, la de que la mente depende del cerebro y del cuerpo, aunque la discusión de fondo sobre la conciencia sigue abierta.
+- **Su visión de los animales como máquinas** es una de las partes de su legado que hoy se discuten con más dureza.
 
 ## Preguntas frecuentes
 

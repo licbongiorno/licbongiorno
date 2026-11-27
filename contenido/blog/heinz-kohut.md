@@ -11,7 +11,7 @@ orden: 106
 estado: publicado
 respuesta: Heinz Kohut (1913-1981) fue un psicoanalista nacido en Viena que desarrolló su obra en Chicago. Creó la psicología del self, que pone en el centro la empatía y la cohesión del sí-mismo. Propuso que el narcisismo tiene una línea de desarrollo sana y que el self se sostiene en tres necesidades con los otros: ser reflejado, poder idealizar y sentirse parecido a otros.
 menciona: kohut, freud, psicoanalisis
-revision: 2026-11-07
+revision: 2026-11-27
 ---
 Todos necesitamos que alguien nos mire con entusiasmo, tener a quién admirar y sentirnos parte de algo. Esa idea, simple en apariencia, cambió muchas consultas cuando Heinz Kohut la puso en el centro. Cuando eso falta, el self queda frágil, y lo que desde afuera parece soberbia muchas veces es una forma de sostenerse.
 
@@ -24,6 +24,10 @@ Allí se formó como neurólogo y después como psicoanalista en el Instituto de
 En 1959 publicó un trabajo sobre la introspección y la empatía como forma de conocer en psicoanálisis. Desde allí fue construyendo una mirada propia: en 1971 apareció *El análisis del self* y en 1977 *La restauración del sí-mismo*, donde presentó la psicología del self como un enfoque nuevo. Murió en Chicago en 1981; su último libro, *¿Cómo cura el análisis?*, se publicó en 1984.
 
 {{figura:vida-kohut}}
+
+## El contexto de su obra
+
+Cuando Kohut llegó a Chicago, el psicoanálisis estadounidense estaba dominado por la psicología del yo, centrada en los conflictos y las defensas. En 1966 publicó «Formas y transformaciones del narcisismo», donde empezó a separarse de esa línea. Su alejamiento no fue sencillo: pasó de ser una figura central de la corriente clásica a ser criticado por ella. Su principal contrincante fue Otto Kernberg, que entendía el narcisismo patológico como una defensa contra la agresión, mientras Kohut lo entendía como una detención del desarrollo. Ver [Otto Kernberg](/recursos/otto-kernberg/).
 
 ## Sus conceptos fundamentales
 
@@ -45,6 +49,18 @@ Según Kohut, el self se sostiene en tres experiencias con los otros. **Ser refl
 La psicología del self influyó en el psicoanálisis relacional e intersubjetivo, y en muchas formas actuales de psicoterapia que ponen la empatía en el centro. También cambió la manera de entender los trastornos narcisistas: no solo como un exceso, sino como una herida.
 
 En la consulta, Kohut me recuerda que muchas veces lo que la persona necesita primero no es una interpretación, sino sentirse comprendida. Podés seguir con [la autoestima](/autoestima/), un tema muy cercano a sus ideas.
+
+## Un ejemplo de todos los días
+
+Un nene corre hacia su papá con un dibujo: «¡mirá!». Si el papá levanta la vista con interés, el chico recibe algo parecido a lo que Kohut llamaba el brillo en los ojos de quien nos mira. Si lo despacha sin mirar, no pasa nada grave: todos los padres fallan, y Kohut pensaba que esas pequeñas frustraciones tolerables, que llamó «óptimas», ayudan a crecer. El problema aparece cuando las fallas son constantes. De adultos, esa historia puede verse en alguien que necesita mucho reconocimiento y se desmorona con una crítica, o que se aísla para no depender de nadie.
+
+## En la práctica clínica hoy
+
+La empatía como forma de conocimiento atraviesa buena parte de la psicoterapia actual. Un metaanálisis (Elliott y colaboradores, 2018) encontró una asociación moderada y consistente entre la empatía del terapeuta y los resultados. Y la lectura de Kohut ayuda a ver detrás de una conducta que parece arrogante una persona que necesita sostén; ver [narcisismo](/recursos/narcisismo/). También dialoga con el trabajo de mentalización y con la [empatía](/recursos/la-empatia/) como capacidad cotidiana, no solo clínica.
+
+## Matices y límites
+
+La psicología del self es una teoría clínica: se apoya en observaciones de sesiones más que en estudios controlados. Sus críticos le objetan que subestima el papel de la agresión y del conflicto, y que la empatía sola no alcanza para todo. Tampoco hay que usar «narcisista» como un insulto: Kohut buscaba justamente lo contrario. Y la idea de que el análisis «cura» por empatía es una hipótesis, no un resultado probado. Su aporte más duradero es la pregunta que dejó abierta: qué necesita una persona para sentirse real y sostenida.
 
 ## Preguntas frecuentes
 

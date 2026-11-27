@@ -11,7 +11,7 @@ orden: 124
 estado: publicado
 respuesta: Irvin Yalom, nacido en 1931, es un psiquiatra estadounidense, profesor emérito de la Universidad de Stanford. Escribió un texto de referencia sobre la terapia de grupo y otro sobre la psicoterapia existencial, donde describió cuatro preocupaciones últimas: la muerte, la libertad, el aislamiento y la falta de sentido. También es autor de relatos y novelas sobre la psicoterapia, como El día que Nietzsche lloró.
 menciona: yalom, humanista
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 La muerte, la libertad, la soledad, la pregunta por el sentido. Muchos terapeutas prefieren no tocar esos temas en la consulta. Irvin Yalom pasó la vida sosteniendo lo contrario: que están detrás de muchos síntomas y que una terapia puede hablar de ellos sin volverse filosofía abstracta. Su forma de hacerlo fue contar historias.
 
@@ -24,6 +24,12 @@ En 1962 entró a la Universidad de Stanford, donde desarrolló toda su carrera c
 Después empezó a escribir para un público más amplio: los relatos de *El verdugo del amor* (1989), las novelas *El día que Nietzsche lloró* (1992) y *El problema de Spinoza* (2012), y *El don de la terapia* (2002), una serie de consejos a jóvenes terapeutas. En *Mirar al sol* (2008) escribió sobre el miedo a la muerte, y junto a su esposa, Marilyn Yalom, sobre la enfermedad y el final de la vida de ella.
 
 {{figura:vida-yalom}}
+
+## El contexto de su obra
+
+Yalom se formó en una psiquiatría estadounidense que mezclaba psicoanálisis y medicina, y en Johns Hopkins trabajó con Jerome Frank, un investigador de los factores comunes de la psicoterapia. De ahí le quedó el interés por estudiar qué ayuda de verdad, además de teorizar. También recibió la influencia de Sullivan y de la mirada interpersonal; ver [Harry Stack Sullivan](/recursos/harry-stack-sullivan/).
+
+En los años setenta participó en uno de los estudios más amplios sobre grupos de encuentro, *Encounter Groups: First Facts* (1973), con Lieberman y Miles. Mostró que algunos participantes salían peor de lo que habían entrado y que el estilo del coordinador pesaba mucho. Es una muestra de que Yalom combinaba la sensibilidad clínica con el escepticismo del investigador.
 
 ## Sus conceptos fundamentales
 
@@ -44,6 +50,22 @@ Yalom ordenó la psicoterapia existencial alrededor de cuatro temas: **la muerte
 Sus manuales se usan en la formación de terapeutas de todo el mundo, y sus libros de divulgación acercaron la psicoterapia a lectores que nunca habían pensado en consultar. Mostró que se puede hablar de lo existencial con calidez, humor y honestidad.
 
 En la consulta, su idea de que la relación terapéutica es un lugar donde algo se repite y algo nuevo puede pasar me acompaña siempre. Podés seguir con [la soledad](/recursos/la-soledad/) o con [la logoterapia](/recursos/logoterapia-y-sentido/).
+
+## Un ejemplo de todos los días
+
+Una persona llega a un grupo convencida de que lo que le pasa es raro y vergonzoso. En algún momento cuenta eso que nunca había dicho, y alrededor varias personas asienten: a ellas también les pasa. Yalom llamaba a esto universalidad, y la ponía entre los factores que más alivian. Fuera de un grupo, algo parecido sucede cuando alguien confiesa un miedo a un amigo y el amigo responde «yo también».
+
+Las preocupaciones últimas también aparecen sin disfraz: en la persona que no puede decidir por miedo a equivocarse (libertad), en el domingo a la noche (soledad), o después de un duelo (muerte).
+
+## En la práctica clínica hoy
+
+La terapia de grupo tiene respaldo en metaanálisis, con resultados comparables a los de la terapia individual en varios problemas. Los factores terapéuticos de Yalom siguen siendo una guía para coordinar grupos. En medicina, junto con Greaves publicó en 1977 un trabajo sobre grupos con personas con enfermedades terminales, y las intervenciones centradas en el sentido y en la finitud se usan hoy en cuidados paliativos. Para explorar el trabajo en grupo, probá el [Laboratorio de grupos](/laboratorio-de-grupos/). Sobre la logoterapia, que comparte parte de sus preguntas, ver [Viktor Frankl](/recursos/viktor-frankl/) y [el laboratorio de sentido](/laboratorio-de-sentido/).
+
+## Matices y límites
+
+La terapia existencial tiene menos ensayos que otros enfoques. Un metaanálisis (Vos, Craig y Cooper, 2015) encontró efectos moderados, sobre todo en personas con enfermedades graves, pero con estudios de calidad despareja. La teoría del manejo del terror, que puso a prueba en laboratorio ideas sobre la ansiedad ante la muerte, tuvo intentos de réplica con resultados dispares.
+
+Sus novelas y relatos son ficción o casos con datos cambiados, y no deberían leerse como historias clínicas ni como un manual. Por último, hablar de la muerte en terapia no es para todos los momentos: se hace al ritmo de cada persona.
 
 ## Preguntas frecuentes
 

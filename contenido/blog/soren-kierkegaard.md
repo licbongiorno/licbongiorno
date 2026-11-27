@@ -11,7 +11,7 @@ orden: 166
 estado: publicado
 respuesta: Søren Kierkegaard (1813-1855) fue un filósofo y teólogo danés, considerado el padre del existencialismo. En El concepto de la angustia (1844) describió la angustia como el vértigo de la libertad, y en La enfermedad mortal estudió la desesperación. Distinguió tres estadios de la existencia: estético, ético y religioso. Su obra influyó en Rollo May y en toda la psicología existencial.
 menciona: kierkegaard, rollo-may
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 En 1841, un joven danés rompió su compromiso con Regine Olsen, la mujer a la que amaba. Nunca explicó del todo por qué, y pasó el resto de su vida escribiendo, en buena parte, sobre esa decisión: sobre elegir, sobre la angustia que eso produce y sobre lo que significa ser uno mismo.
 
@@ -42,6 +42,22 @@ Kierkegaard describió el camino de la existencia en tres estadios: el **estéti
 - **Rollo May** leyó a Kierkegaard mientras estaba internado con tuberculosis, y su distinción entre ansiedad normal y neurótica le debe mucho. Ver [Rollo May](/recursos/rollo-may/).
 - La psicoterapia existencial, de Binswanger a Yalom, retoma su idea de que la angustia es parte de la libertad y no solo un síntoma. Ver [Ludwig Binswanger](/recursos/ludwig-binswanger/) e [Irvin Yalom](/recursos/irvin-yalom/).
 - Su descripción de la desesperación como no querer ser uno mismo anticipa temas que la psicología del self y la psicología humanista desarrollaron después.
+
+## Copenhague, entre Hegel y la Iglesia
+
+Kierkegaard escribía en la Dinamarca de la llamada Edad de Oro, una ciudad pequeña, culta y luterana, donde todos se conocían. En 1846 el semanario satírico *El Corsario* lo ridiculizó con caricaturas, y él, que había provocado la polémica, quedó marcado por la burla pública; lo cuenta como una herida. Al final de su vida atacó a la Iglesia oficial por convertir la fe en una costumbre social. Murió en 1855, después de desvanecerse en la calle y ser internado. Muchas de sus obras las firmó con seudónimos, como si cada voz fuera un personaje que piensa distinto: es parte del mensaje, porque nadie puede elegir por el lector.
+
+## Un ejemplo de todos los días
+
+Una persona de treinta y pico recibe una oferta de trabajo en otra ciudad. Tiene razones a favor y en contra, ya hizo la lista, preguntó a todos. Sigue sin saber qué hacer. Lo que siente en el estómago es, para Kierkegaard, la angustia: darse cuenta de que ninguna lista elige por uno. Usó una imagen que lo explica: quien mira hacia abajo desde un borde siente vértigo, y no solo por el precipicio, sino por la posibilidad de tirarse. La angustia es el vértigo de poder. Y por eso, decía, se parece a la libertad más que a la enfermedad.
+
+## Cómo resuena hoy en la clínica
+
+La clínica existencial, de [Rollo May](/recursos/rollo-may/) a [Irvin Yalom](/recursos/irvin-yalom/), toma de él la idea de que ciertas angustias no se resuelven eliminándolas sino atravesándolas. También lo siguieron [Jean-Paul Sartre](/recursos/jean-paul-sartre/) y la filosofía existencial. En terapia, preguntas como «¿qué estás evitando elegir?» o «¿qué parte de vos no querés ser?» vienen de ahí. Para explorarlo, el [Laboratorio de la libertad](/laboratorio-de-la-libertad/) y el [de la angustia](/laboratorio-de-la-angustia/) ofrecen ejercicios.
+
+## Matices y límites
+
+Kierkegaard era un filósofo y un teólogo, no un clínico, y escribía desde una fe cristiana que atraviesa todas sus categorías, incluida la de «desesperación». Sus ideas son una mirada para pensar, no un modelo con pruebas. Además, hay que distinguir su angustia filosófica de los trastornos de ansiedad: los ataques de pánico, la ansiedad generalizada y las fobias tienen tratamientos con respaldo y no conviene confundirlos con «el vértigo de la libertad». Podés leerlo como una compañía para pensar la vida, sin dejar de consultar si la angustia es intensa o te limita en el día a día; ver [ansiedad generalizada](/recursos/ansiedad-generalizada/).
 
 ## Preguntas frecuentes
 

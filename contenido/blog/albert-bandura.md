@@ -11,7 +11,7 @@ orden: 132
 estado: publicado
 respuesta: Albert Bandura (1925-2021) fue un psicólogo canadiense que desarrolló su carrera en la Universidad de Stanford. Demostró que aprendemos observando a otros, con los experimentos del muñeco Bobo, y creó la teoría social cognitiva. Su concepto más influyente es la autoeficacia: la creencia en la propia capacidad para lograr algo, que influye en lo que intentamos, en cuánto persistimos y en cómo nos sentimos.
 menciona: bandura, motivacion
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Cualquier madre o padre lo sospecha: los chicos hacen lo que ven, mucho más que lo que se les dice. Albert Bandura lo demostró en el laboratorio y agregó una idea que hoy usan desde los entrenadores hasta los terapeutas: lo que creemos que podemos hacer cambia lo que efectivamente hacemos.
 
@@ -44,6 +44,22 @@ Para Bandura, no somos simples productos del ambiente: **la persona** (con sus c
 La autoeficacia es uno de los conceptos más estudiados de la psicología, con aplicaciones en educación, salud, deporte y psicoterapia. La idea de aprender por observación cambió la forma de pensar la influencia de los modelos, los medios y las pantallas.
 
 En la consulta, la autoeficacia aparece todo el tiempo: muchas veces el primer paso no es grande, sino uno lo bastante chico como para poder lograrlo y empezar a creer que se puede. Podés seguir con [la motivación](/recursos/la-motivacion/) o con el [laboratorio de hábitos](/laboratorio-de-habitos/).
+
+## Una psicología que se animó a mirar adentro
+
+Cuando Bandura empezó a investigar, el conductismo de Skinner dominaba la psicología académica: se estudiaba lo observable y se desconfiaba de lo mental. Bandura aceptó el método experimental pero insistió en que los pensamientos, las expectativas y la autoevaluación también cuentan. Con Richard Walters publicó en 1963 *Aprendizaje social y desarrollo de la personalidad*, y en 1973 *Agresión: un análisis desde el aprendizaje social*. En los años ochenta su teoría pasó a llamarse social cognitiva, justo cuando la psicología se volvía cognitiva.
+
+## Un ejemplo de todos los días
+
+Un chico mira cómo su hermana mayor se tira a la pileta y mira, sobre todo, qué le pasa después: si se ríe o si se queja. Esa información le sirve para decidir si se tira. Un adulto que le teme a hablar en público aprende algo parecido al ver a un compañero con el mismo temor que sale bien. Y una paciente que lleva meses sin salir de su casa puede empezar por bajar a la vereda cinco minutos: cada logro chico es evidencia propia de que puede. Bandura estudió justamente esto en personas con fobia a las serpientes: dividir la tarea en pasos graduales, acompañados, aumentaba la confianza y reducía el miedo.
+
+## Cómo resuena hoy en la clínica
+
+La autoeficacia atraviesa la terapia cognitivo-conductual y la activación conductual: se pacta una tarea pequeña, se cumple, se registra, y se sube un escalón. También orienta el trabajo en educación, rehabilitación y promoción de la salud, donde el sentido de eficacia predice cuánto se sostiene un cambio. Podés ver [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/), [pantallas y redes sociales](/recursos/pantallas-y-redes-sociales/) y el [Laboratorio de hábitos](/laboratorio-de-habitos/).
+
+## Matices y límites
+
+La autoeficacia tiene mucha investigación, con numerosos metaanálisis que la vinculan con el desempeño y con la salud, pero conviene distinguirla de la autoestima y del optimismo general: es específica de cada tarea. El muñeco Bobo, en cambio, se suele citar de más. Mostró que los chicos imitan conductas agresivas en un entorno de laboratorio, con un muñeco hecho para recibir golpes, y no demuestra por sí solo que los medios o los videojuegos causen violencia en la vida real; ese debate sigue abierto. Por último, creer que uno puede no alcanza: si la tarea es objetivamente imposible o el contexto es injusto, la autoeficacia no reemplaza los recursos ni las oportunidades.
 
 ## Preguntas frecuentes
 

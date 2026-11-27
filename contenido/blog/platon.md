@@ -11,7 +11,7 @@ orden: 159
 estado: publicado
 respuesta: Platón (c. 428-348 a. C.) fue un filósofo griego, discípulo de Sócrates y fundador de la Academia de Atenas. Describió el alma con tres partes —razón, ánimo y deseo— y la comparó con un carro alado. Su teoría de las ideas, formas eternas de las que las cosas son copias, fue vinculada por Jung con los arquetipos, y el método de preguntas de sus diálogos inspira el diálogo socrático de la terapia cognitiva.
 menciona: platon, socrates, jung
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 Un auriga intenta conducir un carro tirado por dos caballos: uno noble, que obedece, y otro rebelde, que tira hacia donde quiere. Con esa imagen, Platón describió el alma humana hace casi veinticuatro siglos. Cualquiera que haya querido algo y a la vez sabido que no le convenía reconoce la escena.
 
@@ -45,6 +45,31 @@ En el *Fedro*, la **razón** es el auriga; el **ánimo**, un caballo noble; el *
 - El método de preguntas de los diálogos —la **mayéutica** de Sócrates— inspira el [diálogo socrático](/recursos/el-dialogo-socratico/) que usan Aaron Beck y la terapia cognitiva.
 
 Llevá estas ideas a la práctica en el [laboratorio de Platón](/laboratorio-de-platon/): la caverna, el carro alado y el diálogo como ejercicios.
+
+## El contexto de su obra
+
+Platón creció en la Atenas de la guerra del Peloponeso y vio cómo la ciudad condenaba a Sócrates en el 399 a. C. De esa experiencia sacó una pregunta política y psicológica a la vez: ¿cómo debe organizarse un alma, y una ciudad, para que gobierne lo mejor y no lo más ruidoso? *La república* compara las tres partes del alma con las tres clases de una ciudad ideal, lo que muestra que para él la salud personal y la vida común iban juntas. Esa ciudad ideal, hay que decirlo, tiene rasgos autoritarios que hoy no suscribiría casi nadie.
+
+También viajó a Sicilia en varias ocasiones, con resultados poco felices en su intento de influir en el gobierno de Siracusa. Su filosofía no nació en una torre: nació de la decepción con la política.
+
+## Un ejemplo cotidiano
+
+Son las dos de la mañana. La **razón** dice que mañana hay que madrugar. El **deseo** quiere ver un capítulo más. El **ánimo** se indigna: «¡siempre me pasa lo mismo, no tengo fuerza de voluntad!». Esa tercera voz, que reprocha, es la que Platón veía como aliada posible de la razón, pero que también puede volverse severa. Reconocer cuál de las tres está hablando es un primer paso para decidir con más libertad.
+
+## El mito de la caverna
+
+En el libro VII de *La república*, Platón cuenta que unos prisioneros están encadenados en una caverna, mirando una pared donde se proyectan sombras. Para ellos, las sombras son la realidad. Si alguien se libera y sale, el sol lo encandila al principio, y al volver a contar lo que vio, sus compañeros no le creen. Es una imagen sobre el conocimiento y también sobre el cambio personal: ver de otra manera puede ser incómodo y generar resistencia, tanto en uno como en el entorno.
+
+## Su influencia hoy
+
+Freud reconoció a Platón en el prólogo a la cuarta edición de sus *Tres ensayos de teoría sexual* (1920), donde compara el concepto psicoanalítico de sexualidad con el Eros de *El banquete*. Jung, por su parte, retomó el mundo de las ideas para hablar de los arquetipos. En la clínica actual, la idea de que hay partes en tensión dentro de una misma persona se encuentra, con otros fundamentos, en enfoques que trabajan con «partes» o subpersonalidades. No son herederos directos de Platón, pero dialogan con su imagen. Además, el [diálogo socrático](/recursos/el-dialogo-socratico/) forma parte de la terapia cognitiva de [Aaron T. Beck](/recursos/aaron-t-beck/). Para pensar la relación entre razón y emoción desde otro ángulo, mirá el [laboratorio de la sabiduría de las emociones](/laboratorio-de-la-sabiduria-de-las-emociones/).
+
+## Matices y límites
+
+- **Es filosofía, no psicología experimental.** La división tripartita es una forma de pensar la vida interior, no un modelo que se haya comprobado con estudios.
+- **La razón como jefa es discutible.** La investigación moderna sobre emociones muestra que sentir informa el decidir. Aristóteles, su discípulo, ya matizó esta jerarquía.
+- **No sabemos con precisión qué es de Sócrates y qué de Platón.** Como Sócrates no escribió, lo conocemos a través de los diálogos platónicos, y es difícil separar a uno del otro.
+- **El paralelo con Freud y con Jung es una conversación, no una filiación.** Cada uno usó a Platón a su manera.
 
 ## Preguntas frecuentes
 
