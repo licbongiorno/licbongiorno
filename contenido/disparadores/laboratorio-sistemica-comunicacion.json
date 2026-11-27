@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tu hijo no contesta, así que le insistís más. Y cuanto más le insistís, menos contesta. Probaste de todo, menos dejar de insistir.",
+   "p": "¿Qué creés que mantiene un problema así?",
+   "opciones": [
+    "Que hace falta insistir todavía más",
+    "Las propias soluciones intentadas: hacer más de lo mismo",
+    "La personalidad del otro, que no cambia"
+   ],
+   "r": "En el Mental Research Institute de Palo Alto, Paul Watzlawick, John Weakland y Richard Fisch propusieron en Cambio (1974) que muchas veces el problema se mantiene por las soluciones intentadas. Distinguieron un cambio 1, dentro de las mismas reglas, de un cambio 2, que cambia las reglas del juego.",
+   "como": "Estaban influidos por Gregory Bateson y Milton Erickson, y estudiaron cómo se forman y se mantienen los problemas en la comunicación humana, mirando lo que se hace más que el porqué.",
+   "debate": "Es una propuesta clínica y no todos los problemas se mantienen así. Un cambio pequeño puede mover todo el circuito, pero no hay garantías. No reemplaza una terapia."
+  }
+ ],
+ "abierta": "Si a veces el problema es el intento de resolverlo, ¿cómo notamos cuándo estamos haciendo más de lo mismo?"
+}

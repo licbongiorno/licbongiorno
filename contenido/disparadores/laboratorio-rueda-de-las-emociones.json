@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te pregunta cómo estás y respondés «mal» o «bien», aunque por dentro hay una mezcla que no sabés nombrar.",
+   "p": "¿Por qué creés que ponerle nombre a lo que sentimos puede ayudar?",
+   "opciones": [
+    "Porque ya con eso la emoción desaparece",
+    "Porque nos permite comprender mejor lo que estamos viviendo",
+    "Porque solo hay unas pocas emociones y hay que elegir una"
+   ],
+   "r": "Ponerle nombre a una emoción puede ayudarnos a comprender mejor lo que vivimos, aunque ninguna rueda explica por completo la experiencia. Robert Plutchik propuso ocho emociones primarias en pares opuestos, con tres intensidades y combinaciones entre vecinas. James Russell, en cambio, pregunta cuán agradable o desagradable se siente y cuánta activación trae.",
+   "como": "Son modelos teóricos: Plutchik desde una mirada psicoevolutiva, Russell con un plano de valencia y activación. La teoría de la valoración de Richard Lazarus agrega que la emoción depende de cómo evaluamos la situación.",
+   "debate": "Las palabras y los colores de la rueda vienen de un modelo, no de una clasificación universal; los investigadores discuten cuántas emociones básicas hay y si existen. Es una herramienta para explorar, no un test ni un diagnóstico."
+  }
+ ],
+ "abierta": "Si distintos modelos recortan las emociones de maneras distintas, ¿qué sentimos realmente antes de ponerle nombre?"
+}

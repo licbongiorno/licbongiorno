@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Decís «soy ansioso» o «soy un fracaso» con tanta naturalidad que parece un dato de tu documento de identidad. Sin embargo, hubo días en que no fue así.",
+   "p": "¿Por qué ayudaría ponerle un nombre al problema, separado de vos?",
+   "opciones": [
+    "Porque así se lo ignora y se achica solo",
+    "Porque deja de ser tu identidad y se puede mirar cómo opera y elegir otra relación con él",
+    "Porque nombrar algo siempre lo resuelve"
+   ],
+   "r": "Michael White y David Epston desarrollaron la terapia narrativa en los años ochenta, en Australia y Nueva Zelanda. Una de sus ideas centrales: la persona no es el problema, el problema es el problema. Separarlo de uno, ponerle nombre y mirar cómo actúa abre espacio para elegir otra relación con él.",
+   "como": "Lo desarrollaron trabajando con personas y familias, atentos a las historias que se cuentan y a lo que dejan afuera, como las veces que se pudo, esas excepciones que hoy llaman acontecimientos extraordinarios.",
+   "debate": "La terapia narrativa es una de las corrientes que se pueden combinar con otras, y no hay una única forma de aplicarla. Ponerle nombre al problema no lo hace desaparecer. Estos ejercicios no reemplazan una terapia."
+  }
+ ],
+ "abierta": "Si las historias nos dan forma y también pueden cambiarse, ¿quién decide cuál es la verdadera? Es una pregunta que sigue abierta."
+}

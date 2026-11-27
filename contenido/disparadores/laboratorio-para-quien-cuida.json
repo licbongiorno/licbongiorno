@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Empezó acompañando a tu mamá al médico. Después fueron los remedios, las comidas, las noches. Un día te das cuenta de que tu vida giró alrededor de otra persona y casi nadie te pregunta cómo estás.",
+   "p": "¿Cómo creés que les va, en promedio, a quienes cuidan a un familiar?",
+   "opciones": [
+    "Igual que al resto: cuidar da sentido y compensa el cansancio",
+    "Mejor, porque se sienten útiles y acompañados",
+    "Con más estrés y depresión y menos bienestar que quienes no cuidan"
+   ],
+   "r": "Una revisión de 84 estudios (Pinquart y Sörensen, 2003) encontró que quienes cuidan muestran, en promedio, más estrés y depresión y menos bienestar que quienes no cuidan. Sentirse cansado, culpable o enojado no significa cuidar mal: es esperable.",
+   "como": "Se llegó a esto reuniendo y comparando muchas investigaciones en un metaanálisis, es decir, un estudio de estudios, en lugar de mirar un solo caso.",
+   "debate": "Es un promedio: no todas las personas que cuidan lo viven igual, y cuidar también puede traer sentido y cercanía. Lo que se discute es cómo apoyar mejor a quien cuida. Este espacio no reemplaza una consulta."
+  }
+ ],
+ "abierta": "Si cuidar cansa tanto, ¿por qué es tan difícil pedir ayuda y tomarse un descanso sin culpa?"
+}

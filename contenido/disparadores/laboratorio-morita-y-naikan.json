@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una noche no podés dormir y cuanto más te esforzás por dormirte, más despierto estás. Con la ansiedad pasa algo parecido: cuanto más la peleás, más se agranda.",
+   "p": "¿Qué te parece que ayudaría más frente a una emoción que no se va?",
+   "opciones": [
+    "Concentrarte con todas tus fuerzas en hacerla desaparecer",
+    "Aceptar que está y hacer igual lo que la situación pide",
+    "Distraerte hasta que se vaya sola"
+   ],
+   "r": "La terapia Morita, creada por el psiquiatra Shoma Morita a comienzos del siglo XX, propone no pelear con los síntomas ni esperar a que desaparezcan: aceptar la emoción tal como es (arugamama) y actuar según lo que la situación requiere. El Naikan, desarrollado por Ishin Yoshimoto en la década de 1940, va por otro lado: mirar una relación con tres preguntas, qué recibí, qué di y qué problemas causé.",
+   "como": "Son psicoterapias con una técnica y una historia clínica propias. En Occidente las dio a conocer David K. Reynolds, que escribió Morita Psychotherapy (1976), y Gregg Krech describe la práctica del Naikan en un libro de 2002. En su forma original se trabajan con un terapeuta o en un marco guiado.",
+   "debate": "Son enfoques de otra cultura, con una mirada particular sobre el esfuerzo y la deuda hacia los demás, y no conviene idealizarlos: no son para todas las personas ni para todos los momentos. Por eso el laboratorio ofrece ejercicios de exploración, no una versión de la terapia."
+  }
+ ],
+ "abierta": "Si aceptar lo que sentimos y mirar lo que recibimos de otros cambia algo, ¿qué es exactamente lo que cambia? Es una pregunta que cada uno puede probar con cuidado en su propia vida."
+}

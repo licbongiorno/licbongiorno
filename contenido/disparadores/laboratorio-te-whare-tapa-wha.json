@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una casa se sostiene con todas sus paredes. Si una se debilita, las otras cargan con más peso. A veces estás agotado y no sabés de dónde viene: ¿será el cuerpo, la cabeza, la gente o algo más?",
+   "p": "¿Cuántas dimensiones te parece que componen la salud, según el pueblo maorí?",
+   "opciones": [
+    "Dos: cuerpo y mente",
+    "Cuatro: cuerpo, mente y emociones, familia y vínculos, y espíritu",
+    "Una sola: la ausencia de enfermedad"
+   ],
+   "r": "El psiquiatra maorí Mason Durie propuso a comienzos de los años ochenta (suele citarse 1984) el modelo Te Whare Tapa Whā, «la casa de cuatro lados». Las paredes son taha tinana (el cuerpo), taha hinengaro (la mente y las emociones), taha whānau (la familia y los vínculos) y taha wairua (el espíritu), apoyadas en la whenua, la tierra y el lugar de pertenencia.",
+   "como": "Lo desarrolló después en Whaiora: Māori Health Development (1994). Se usa en el sistema de salud de Aotearoa Nueva Zelanda y también por fuera.",
+   "debate": "Es un modelo cultural y de salud pública, no una escala validada ni un tratamiento. Fue creado por una persona maorí desde una visión del mundo maorí, y el laboratorio lo toma como inspiración, con una lectura simplificada: conviene ir a las fuentes de Durie y de autores maoríes."
+  }
+ ],
+ "abierta": "Si la salud es una casa con varias paredes, ¿cuál sostenés con más cuidado y cuál dejaste para después?"
+}

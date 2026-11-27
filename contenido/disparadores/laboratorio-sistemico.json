@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Mirás a tu familia y notás que la abuela, tu tía y vos tienen la misma forma de no pedir ayuda. Y el lugar de «la que arregla todo» no lo elegiste del todo.",
+   "p": "¿Dónde te parece que conviene buscar la explicación de un problema?",
+   "opciones": [
+    "Solo adentro de la persona que lo tiene",
+    "En los patrones de relación y en el contexto, no solo adentro de una persona",
+    "En quien tuvo la culpa"
+   ],
+   "r": "La terapia sistémica nació a mediados del siglo XX con autores como Gregory Bateson, Virginia Satir, Salvador Minuchin y la escuela de Milán. Mira los problemas en su contexto: no como algo solo «adentro» de una persona sino en los patrones de relación. Para eso usa herramientas como el genograma, las preguntas circulares y la reflexión sobre mandatos y lealtades.",
+   "como": "Salió de observar familias, y de ahí surgió la idea de que los síntomas pueden tener una función en el sistema.",
+   "debate": "Mirar el sistema no es buscar culpables, y la mirada sistémica no explica todo: conviene combinarla con otras. Estos ejercicios no reemplazan una terapia individual ni familiar."
+  }
+ ],
+ "abierta": "Si somos parte de un sistema que nos moldea, ¿hasta dónde llega nuestra elección y dónde empieza el guion familiar?"
+}

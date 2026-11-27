@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás a punto de rendir o de entrar a una reunión difícil y alguien te dice «respirá hondo». Lo hacés, y algo cambia un poquito.",
+   "p": "¿Por qué creés que la respiración puede ayudar a regularse?",
+   "opciones": [
+    "Porque nos distrae con algo para contar",
+    "Porque es de las pocas funciones del cuerpo que ocurre sola y que podemos modular",
+    "Porque entra más oxígeno y eso calma todo"
+   ],
+   "r": "La respiración es una de las pocas funciones del cuerpo que ocurre sola y que, a la vez, podemos modular, y por eso puede ser un puente para volver al presente. Puede ayudar a autorregularse, pero no cura la ansiedad ni reemplaza un tratamiento.",
+   "como": "El laboratorio ofrece cinco modalidades, de observar sin intervenir hasta ritmos con tiempos definidos, como la respiración cuadrada o la 4-7-8. Ninguna es obligatoria ni «mejor»: se prueba la que resulte cómoda.",
+   "debate": "No conviene forzar el aire ni sostenerlo si resulta incómodo. Si hay una enfermedad respiratoria o cardíaca, embarazo, o retener el aire genera angustia, es preferible usar técnicas sin pausas y consultar al médico."
+  }
+ ],
+ "abierta": "Si el cuerpo puede calmar a la mente, ¿qué otras puertas de entrada tenemos para regularnos que casi nunca usamos?"
+}

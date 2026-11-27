@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te olvidás justo el nombre de alguien con quien estás enojado. O decís «abrimos la reunión» cuando querías decir «la cerramos». Después te reís, pero queda la duda.",
+   "p": "¿Qué te parece que son esos tropiezos?",
+   "opciones": [
+    "Pura distracción, sin ningún sentido",
+    "Siempre revelan un deseo oculto",
+    "A veces son cansancio y a veces pueden decir algo que no queremos saber"
+   ],
+   "r": "Sigmund Freud propuso que una parte importante de la vida psíquica ocurre fuera de la conciencia y que no aparece solo en síntomas o sueños, también en lo cotidiano. En Psicopatología de la vida cotidiana (1901) estudió olvidos, lapsus y torpezas, y mostró que a veces dicen algo. No todos tienen un sentido oculto: algunos son simple cansancio.",
+   "como": "Lo observó en su práctica clínica y en situaciones de la vida diaria. Anna Freud, en El yo y los mecanismos de defensa (1936), sistematizó cómo nos protegemos de lo que duele, y en 1914 Freud describió la compulsión a repetir en Recordar, repetir y reelaborar.",
+   "debate": "El sentido de un acto fallido no lo da un manual: lo descubre cada persona, y buena parte de la interpretación pertenece a un análisis. Por eso el laboratorio propone notar, no interpretar."
+  }
+ ],
+ "abierta": "Si no todo tropiezo significa algo, ¿cómo distinguir cuándo lo dice y cuándo es solo cansancio? Es una discusión que el psicoanálisis sigue teniendo."
+}
