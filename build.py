@@ -1589,7 +1589,9 @@ def bloque_disparador(slug_art, cuerpo):
     if not d:
         return ""
     ids = {html.unescape(re.sub(r"<[^>]+>", "", t)).strip(): i for i, t in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', cuerpo)}
-    autor = esc(d["autor"])
+    autor = esc(d["autor"]) if d.get("autor") else ""
+    boton = f"Ver qué respondió {autor}" if autor else "Ver qué dice la psicología"
+    l_r, l_c = ("Qué respondió.", "Cómo llegó a eso.") if autor else ("Qué dice la psicología.", "Cómo se sabe.")
     items = []
     for n, q in enumerate(d["preguntas"], 1):
         k = f"{slug_art}-{n}"
@@ -1603,16 +1605,16 @@ def bloque_disparador(slug_art, cuerpo):
             f'<fieldset class="disparador__ops"><legend class="visualmente-oculto">Tu hipótesis</legend>{ops}'
             f'<label class="disparador__otra"><span>Otra idea:</span> <textarea data-disparador="{k}" rows="1" '
             f'placeholder="Escribila con tus palabras"></textarea></label></fieldset>'
-            f'<button type="button" class="disparador__ver" aria-expanded="false" aria-controls="disp-r-{k}">Ver qué respondió {autor}</button>'
+            f'<button type="button" class="disparador__ver" aria-expanded="false" aria-controls="disp-r-{k}">{boton}</button>'
             f'<div class="disparador__r" id="disp-r-{k}">'
-            f'<p><strong>Qué respondió.</strong> {inline_md(q["r"])}</p>'
-            + (f'<p><strong>Cómo llegó a eso.</strong> {inline_md(q["como"])}</p>' if q.get("como") else "")
+            f'<p><strong>{l_r}</strong> {inline_md(q["r"])}</p>'
+            + (f'<p><strong>{l_c}</strong> {inline_md(q["como"])}</p>' if q.get("como") else "")
             + (f'<p><strong>Qué se discute hoy.</strong> {inline_md(q["debate"])}</p>' if q.get("debate") else "")
             + f'{mas}</div></li>')
     return (f'<section class="disparador" aria-labelledby="disp-titulo"><p class="disparador__titulo" id="disp-titulo">Antes de leer: ¿vos qué pensás?</p>'
             f'<p class="disparador__intro">Elegí la idea que más te convenza o escribí la tuya. No hay respuestas incorrectas: '
-            f'muchas personas pensaron lo mismo que vos antes de {autor}.</p>'
-            f'<ol>{"".join(items)}</ol></section>')
+            + (f'muchas personas pensaron lo mismo que vos antes de {autor}.</p>' if autor else 'son las mismas preguntas que se hizo la psicología.</p>')
+            + f'<ol>{"".join(items)}</ol></section>')
 
 
 def bloque_disparador_cierre(slug_art):
@@ -2852,6 +2854,9 @@ def construir():
         meta.setdefault("modificado", fecha_git(f))
         fechas[ruta] = meta["modificado"]
         imagenes[ruta] = meta.get("og", "og-inicio.jpg")
+        disp = bloque_disparador(f.stem, "")
+        if disp:
+            cuerpo = f'<div class="contenedor--texto" style="padding-top:.5rem">{disp}</div>' + cuerpo
         if meta.get("portada", True) and "h1" in meta:
             cuerpo = portada(meta, meta.get("portada_extra", "")) + cuerpo
         html_final = pagina(meta, reemplazos(cuerpo, ruta), ruta)
