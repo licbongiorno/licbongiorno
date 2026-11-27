@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un ejercicio hace temblar las piernas, con las rodillas flexionadas y el cuerpo apoyado en el suelo. Quien lo practica dice que sentir el temblor libera tensión, y el alivio que siente es real.",
+   "p": "¿Alcanza ese alivio para saber que el temblor es lo que libera el trauma?",
+   "opciones": ["Sí: si alguien se siente mejor, el mecanismo queda confirmado", "No: sentirse aliviado no prueba por qué ni que sea el temblor lo que actúa", "Sí, porque los estudios ya demostraron el mecanismo"],
+   "r": "David Berceli propuso los TRE (ejercicios de liberación de tensión y trauma) y sostiene que el temblor libera la tensión y descarga experiencias traumáticas que el sistema nervioso no procesó. Esas afirmaciones se basan sobre todo en hipótesis del propio autor, y el mecanismo de los temblores no está establecido.",
+   "como": "Los estudios disponibles son pequeños, exploratorios y de diseño limitado. Algunos encontraron menos estrés tras un curso breve, pero sus autores advirtieron sobre la calidad de la evidencia. Tampoco hay evidencia clara de que se relacione de manera específica con la teoría polivagal, aunque a menudo se lo presente así.",
+   "debate": "La evidencia no permite afirmar que los temblores sean el mecanismo activo, ni que el método trate el trauma. El trauma suele requerir un tratamiento psicológico con formación específica.",
+   "seccion": "Qué se afirma y qué no está probado"
+  },
+  {
+   "enigma": "Un estudio compara a un grupo que hace ejercicios de temblor con otro que hace conversación, y los dos mejoran parecido.",
+   "p": "¿Qué se puede concluir de eso?",
+   "opciones": ["Que el ejercicio de temblor es la causa de la mejora", "Que el efecto específico no se puede separar de la atención recibida", "Que conversar es siempre mejor que hacer ejercicio"],
+   "r": "Cuando un grupo de ejercicio rinde parecido a un grupo de conversación, el efecto específico no se puede separar de la atención recibida. Alguien puede encontrar en el ejercicio un rato de calma, pero no corresponde presentar el temblor como tratamiento del trauma.",
+   "como": "Con tres preguntas útiles ante cualquier método que promete liberar el trauma: quién lo afirma (en este caso sobre todo el propio autor), qué comparó el estudio y qué promete. Una buena propuesta corporal no debería prometer descargas ni curaciones rápidas.",
+   "debate": "Se discute si hay algo específico en el temblor o si el beneficio viene de factores generales como la atención y la práctica. Si el ejercicio genera malestar intenso, conviene detenerse y consultar a un profesional que conozca el trauma.",
+   "seccion": "Cómo leerlo con criterio"
+  }
+ ],
+ "abierta": "Si un ejercicio da calma sin que sepamos por qué, ¿qué hace falta para distinguir un alivio real de un mecanismo comprobado? La investigación todavía está en pañales."
+}

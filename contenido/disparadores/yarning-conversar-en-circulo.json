@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una enfermera llega a la casa de una comunidad con un cuestionario y empieza por la pregunta uno: en diez minutos tiene casilleros completos y casi nada de lo que importaba. Otra enfermera llega y pregunta cómo está la familia, de dónde es la persona, qué pasó con el partido del fin de semana.",
+   "p": "¿Cuál de las dos se entera más de lo que importa?",
+   "opciones": ["La del cuestionario, porque es ordenada y objetiva", "La que conversa primero, porque la relación abre lo que el formulario no alcanza", "Da lo mismo: la información es la misma"],
+   "r": "La segunda escena es, a grandes rasgos, lo que se llama yarning. «To yarn», en el inglés de Australia, es conversar, contar historias. En los pueblos aborígenes y de las islas del Estrecho de Torres es también una forma de transmitir conocimiento y de ponerse en relación. Sirve para crear relación antes de que cuenten su historia, no solo para recoger datos.",
+   "como": "En 2010, Dawn Bessarab, trabajadora social e investigadora aborigen, y Bridget Ng'andu publicaron «Yarning about yarning as a legitimate method in Indigenous research». Argumentaron que es un método creíble y riguroso, y desde entonces se describieron tipos de conversación: social, sobre el tema, colaborativo y terapéutico.",
+   "debate": "Una revisión de 2022 encontró que es el método indígena más usado en investigación cualitativa en salud, pero que muchos artículos describen vagamente cómo lo hicieron. El término se popularizó más rápido que su rigor.",
+   "seccion": "Bessarab y Ng'andu (2010)"
+  },
+  {
+   "enigma": "Hay quienes proponen usar el yarning, esa conversación larga y sin interrogatorio, en consultas de salud y en el trabajo social, para empezar sin el cuestionario.",
+   "p": "¿Podría ser simplemente una técnica de entrevista cálida para exportar a cualquier lado?",
+   "opciones": ["Sí, es un truco que sirve para obtener confianza rápido", "No: supone una relación real y cada comunidad define quién conversa con quién", "Sí, siempre que el entrevistador sea simpático"],
+   "r": "No es un truco para obtener confianza: la conversación relacional lleva tiempo y supone obligaciones que no terminan cuando termina el proyecto. Quién conversa con quién, en qué lugar y con qué permisos depende de cada comunidad, y los datos pertenecen a las personas.",
+   "como": "Como método de investigación cualitativa tiene bibliografía amplia y revisada por pares. Otros trabajos, como el de Walker y colegas (2014) con mujeres indígenas de Brisbane, describieron también el yarning de familia y entre culturas.",
+   "debate": "Como forma de cuidado hay experiencias y recomendaciones de servicios, pero no hay ensayos que prueben su eficacia clínica frente a otras formas de entrevista, y no corresponde pedírselo así: es una práctica cultural y relacional, no un tratamiento con protocolo.",
+   "seccion": "Qué cuidar"
+  }
+ ],
+ "abierta": "Si conversar con tiempo y sin interrogatorio transforma lo que se llega a saber, ¿cómo se estudia con rigor algo que es una relación y no un protocolo? Todavía se discute."
+}

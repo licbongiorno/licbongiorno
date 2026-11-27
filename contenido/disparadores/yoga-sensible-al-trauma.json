@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una clase de yoga, la profesora pasa entre las colchonetas y corrige una postura apoyando la mano en la espalda de alguien. Para la mayoría es un gesto neutro.",
+   "p": "¿Qué puede significar ese mismo gesto para una persona con historia de violencia?",
+   "opciones": ["Lo mismo: un gesto de ayuda", "Un contacto que no pidió, de alguien que no vio venir", "Algo que no registra, porque no mira"],
+   "r": "Para una persona con historia de violencia puede ser lo contrario de neutro. Por eso el yoga sensible al trauma cuida el lenguaje y el ambiente tanto como las posturas: se invita en vez de mandar, la persona elige qué hacer, cómo y cuándo (incluso no hacer nada), sigue su ritmo y no hay contacto físico sin consentimiento.",
+   "como": "David Emerson desarrolló el programa en el Trauma Center (Justice Resource Institute). La idea de fondo es que el cuerpo, que en el trauma fue un lugar de amenaza, pueda volver a ser un lugar donde se decide, dentro de lo que se llama la ventana de tolerancia.",
+   "debate": "Es un complemento del tratamiento, no un reemplazo. Conviene que quien conduce la clase tenga formación específica, y quien está en psicoterapia o con medicación no debería abandonarlas por empezar yoga.",
+   "seccion": "Qué cambia respecto de una clase común"
+  },
+  {
+   "enigma": "Un ensayo aleatorizado con 64 mujeres con estrés postraumático crónico, que no habían mejorado con otros tratamientos, comparó diez semanas de yoga informado por el trauma con educación en salud para mujeres.",
+   "p": "¿Qué creés que pasó con el grupo de yoga al final?",
+   "opciones": ["Ninguna diferencia con el otro grupo", "Algo más de la mitad ya no cumplía criterios de estrés postraumático, frente a una de cada cinco en el grupo control", "Todas se curaron por completo"],
+   "r": "Al final, 16 de 31 mujeres del grupo de yoga (52 %) ya no cumplían criterios de TEPT, frente a 6 de 29 (21 %) del grupo control. En ese grupo concreto, con un cuadro difícil, el yoga sumado al tratamiento se asoció con una mejora que la educación en salud no tuvo en la misma medida.",
+   "como": "Fue el estudio de van der Kolk, Stone, West, Rhodes, Emerson, Suvak y Spinazzola (2014), publicado en el Journal of Clinical Psychiatry, donde las participantes se asignaron al azar a uno de los dos grupos.",
+   "debate": "Es un ensayo chico, con un solo grupo comparador, y según un trabajo de 2020 era el único ensayo aleatorizado de yoga sensible al trauma. Son resultados prometedores que necesitan réplicas, y no autorizan a prometer que el yoga cura el trauma.",
+   "seccion": "Qué evidencia tiene"
+  }
+ ],
+ "abierta": "Si recuperar la sensación de elegir sobre el propio cuerpo ayuda a quienes vivieron un trauma, ¿qué parte de esa mejora viene de la práctica y qué parte de sentirse segura? Se necesita más investigación."
+}

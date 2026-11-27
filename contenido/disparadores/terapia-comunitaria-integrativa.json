@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En un patio hay una ronda de sillas. Los vecinos eligen el tema entre todos, y circula una pregunta: «¿quién ya pasó por algo parecido y qué hizo?». Hay una regla: nadie aconseja ni juzga.",
+   "p": "¿Por qué una ronda sin consejos podría ayudar?",
+   "opciones": ["Porque sin consejos nadie se siente presionado a hacer nada", "Porque escuchar lo que otros hicieron ante algo parecido da apoyo y reconoce el saber de cada uno", "Porque en realidad lo único que ayuda es que un profesional conduzca todo"],
+   "r": "La terapia comunitaria integrativa se apoya en que cada persona tiene un saber propio y se aprende en diálogo, no desde arriba. Quienes participan suelen contar que se sintieron escuchados y menos solos. Se la entiende mejor como una estrategia de apoyo comunitario que como una psicoterapia.",
+   "como": "Adalberto Barreto, psiquiatra y antropólogo, empezó a reunir vecinos en 1987 en Pirambu, un barrio popular de Fortaleza, en Brasil, convencido de que los problemas de la gente no podían atenderse solo con consultas individuales. Se apoya en cinco ejes: pensamiento sistémico, teoría de la comunicación, antropología cultural, la pedagogía de Paulo Freire y la resiliencia.",
+   "debate": "La producción es abundante pero sobre todo descriptiva y cualitativa: relatos, estudios de caso y evaluaciones de satisfacción. Hay pocos ensayos controlados, de escala modesta.",
+   "seccion": "Cómo es una rueda"
+  },
+  {
+   "enigma": "En 2017 el Ministerio de Salud de Brasil incorporó esta práctica, junto con otras trece, al sistema público de salud. Eso la dejó disponible en servicios como la atención primaria.",
+   "p": "¿Qué significa que una práctica entre al sistema público?",
+   "opciones": ["Que está demostrado con ensayos controlados que funciona", "Que puede ofrecerse en servicios públicos, aunque su evidencia sea todavía sobre todo descriptiva", "Que reemplaza a los tratamientos psicológicos tradicionales"],
+   "r": "Entrar al sistema público (por la Portaria 849, del 27 de marzo de 2017) significa que puede ofrecerse en servicios públicos, no que esté probada con ensayos. Puede aportar un espacio gratuito y cercano, una red que sigue más allá de la rueda y, a veces, una puerta de entrada a consultar a un profesional.",
+   "como": "Para ubicar su valor se la compara con programas parecidos, como el Friendship Bench de Zimbabue, que llevó la atención al barrio con personas no profesionales y sí tiene evidencia más sólida, porque fue evaluado con ensayos controlados.",
+   "debate": "Se discute cuánto de lo que se cuenta es efecto de la rueda y cuánto del contexto. Tiene límites claros: no está pensada para crisis agudas, violencia en curso o trastornos graves, y un grupo mal conducido también puede exponer o lastimar a alguien.",
+   "seccion": "Qué puede aportar y qué no"
+  }
+ ],
+ "abierta": "Si compartir lo vivido con vecinos ayuda a muchos, ¿qué hace falta para saber con rigor qué parte de esa ayuda viene de la ronda misma? Todavía hay poca investigación."
+}

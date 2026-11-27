@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer de cuarenta años empieza yoga porque le duele la espalda. A los pocos meses nota que algo cambió en otro lado: duerme mejor, se enoja menos en el tráfico, aprendió a quedarse quieta con una incomodidad sin salir corriendo.",
+   "p": "¿Dónde crees que nació el yoga de posturas que se practica hoy?",
+   "opciones": ["En un texto antiguo de la India, igual que hoy", "En una combinación de influencias que se formó entre fines del siglo XIX y la Segunda Guerra Mundial", "En los gimnasios de Estados Unidos de los años noventa"],
+   "r": "Los Yoga Sutras, atribuidos a Patañjali (alrededor del año 400, según muchos estudiosos), dedican a la postura apenas tres aforismos y la definen como una posición «firme y cómoda» para sentarse a meditar, sin secuencias. El yoga postural moderno, con saludos al sol y clases de una hora, tiene un origen mucho más reciente.",
+   "como": "El investigador Mark Singleton lo estudió en Yoga Body (2010) y concluyó, con aceptación de buena parte de los especialistas, que el yoga postural moderno se formó entre fines del siglo XIX y la Segunda Guerra Mundial. Esto no le quita valor a la práctica actual.",
+   "debate": "Obliga a ser preciso: cuando un estudio dice que «el yoga» redujo la ansiedad, casi siempre se refiere a un programa de posturas, respiración y relajación de pocas semanas, y no al camino de los Yoga Sutras.",
+   "seccion": "El yoga que se practica hoy"
+  },
+  {
+   "enigma": "Patañjali definió el yoga como el aquietamiento de las fluctuaciones de la mente. Es una frase muy breve, de un texto de unos doscientos aforismos, que explica el sufrimiento a partir de cinco aflicciones.",
+   "p": "¿Qué hace el yoga con el sufrimiento según esa teoría?",
+   "opciones": ["Lo elimina por completo con posturas físicas", "Lo atribuye a la ignorancia de fondo, al apego, a la aversión y a identificarse con lo que uno piensa y siente", "Lo considera una ilusión sin importancia"],
+   "r": "Patañjali nombra cinco kleshas: la ignorancia de fondo, la identificación con la mente, el apego a lo que dio placer, la aversión a lo que dio dolor y el aferrarse a la vida. Agrega que cada acción deja huellas (samskaras) que predisponen a repetirla, algo que quien trabaja en clínica reconoce en los patrones aprendidos y la evitación.",
+   "como": "Es un texto antiguo, leído hoy con ojos modernos. La terapia cognitiva distingue entre lo que pasó y la interpretación que hacemos, y las terapias de tercera generación practican algo parecido al aquietar la reacción frente a lo que atrae o lo que rechaza.",
+   "debate": "La investigación sobre el yoga es de calidad limitada: Cramer y colaboradores (2013) encontraron evidencia moderada de efecto a corto plazo frente a la atención habitual en depresión. En 2024, con 24 ensayos y 1.395 participantes, hubo diferencia frente a controles pasivos pero no frente a controles activos como otros ejercicios.",
+   "seccion": "Las cinco aflicciones"
+  }
+ ],
+ "abierta": "Si el yoga ayuda pero no se sabe bien si es por el movimiento, la respiración, el grupo o la expectativa, ¿cómo se separa cada ingrediente? Todavía se investiga."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien pasa horas frente a la computadora y termina el día con la espalda dolorida. Lo primero que piensa es que le tocó una mala silla. Sin darse cuenta, mientras escribía, se fue encogiendo hacia la pantalla, apretó el cuello y contuvo la respiración.",
+   "p": "¿Dónde conviene buscar la causa de ese dolor?",
+   "opciones": ["En la silla: con un mueble mejor se resuelve", "En lo que la persona hace con su cuerpo cada vez que se sienta", "En una postura correcta que hay que mantener fija todo el día"],
+   "r": "La técnica Alexander propone mirar la manera en que uno organiza su cuerpo en lo que hace, a la que llama «uso». No es una postura fija para la foto, sino una forma de hacer que se repite. Es un método de educación del movimiento, no una psicoterapia.",
+   "como": "Nació de la observación de un solo hombre. F. M. Alexander, un actor australiano, perdía la voz en pleno espectáculo y los médicos no encontraban causa orgánica. Se observó durante años frente a espejos, notó que al declamar echaba la cabeza hacia atrás y comprimía el cuello, y al cambiarlo la voz mejoró.",
+   "debate": "La idea de que el «uso» de uno mismo condiciona el funcionamiento general es una hipótesis del método y está lejos de estar demostrada. Tampoco conviene prometerse una «postura correcta» definitiva.",
+   "seccion": "De dónde viene"
+  },
+  {
+   "enigma": "Una persona con dolor de espalda crónico prueba una serie de lecciones donde alguien le enseña a notar cómo se sienta, se para y camina. Se pregunta cuántas hacen falta para notar algo.",
+   "p": "¿Qué pasó en un ensayo grande que comparó pocas lecciones con muchas?",
+   "opciones": ["Hacían falta muchas lecciones, las pocas no servían", "Seis lecciones seguidas de ejercicio resultaron casi tan eficaces como veinticuatro", "No hubo ninguna diferencia respecto de no hacer nada"],
+   "r": "En un ensayo con 579 pacientes con dolor de espalda crónico o recurrente, seis lecciones seguidas de ejercicio resultaron casi tan eficaces como 24 lecciones. Hay además un ensayo sobre dolor cervical. Son estudios sobre dolor de espalda y de cuello, no sobre problemas psicológicos.",
+   "como": "Little y colaboradores lo publicaron en el BMJ en 2008, con pacientes de 64 consultorios de Inglaterra. MacPherson y colaboradores (2015) hicieron un ensayo aleatorizado con 517 personas con dolor cervical crónico, que comparó lecciones con sesiones de acupuntura.",
+   "debate": "Se discute qué parte del beneficio se debe a aprender hábitos de movimiento y qué parte a factores generales, como el contacto con un docente y la atención sostenida. Y no permite extrapolar a otros problemas.",
+   "seccion": "Qué evidencia tiene"
+  }
+ ],
+ "abierta": "Si frenar un instante antes de actuar abre la posibilidad de elegir otra respuesta, ¿cuántos de nuestros patrones de tensión del cuerpo son también patrones emocionales? Es una pregunta que sigue abierta."
+}

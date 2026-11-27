@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Soy un desastre.» Parece un hecho, pero quizás es una historia que empezó con un comentario en la escuela, se repitió en casa y terminó pareciendo una identidad. Como toda historia, deja cosas afuera: las veces que pudiste, que te animaste, que alguien te vio de otra manera.",
+   "p": "¿Cómo se puede ayudar a alguien atrapado en una historia así?",
+   "opciones": ["Decirle que piense en positivo y listo", "Hablar del problema como algo separado de la persona, y buscar lo que no encaja con esa historia", "Analizar con detalle todos los fracasos del pasado"],
+   "r": "La terapia narrativa propone externalizar: «la persona no es el problema; el problema es el problema». En vez de «soy ansioso» se habla de «la Ansiedad» como algo que aparece y tiene efectos. Esto no minimiza lo que pasa: permite verlo desde afuera, reduce la culpa y la vergüenza.",
+   "como": "La desarrollaron en los años ochenta Michael White, trabajador social australiano, y David Epston, terapeuta neozelandés. Nació en la terapia familiar y se nutrió de la antropología y la filosofía, y publicaron en 1990 «Narrative Means to Therapeutic Ends». White hablaba de acontecimientos extraordinarios: momentos que no encajan con la historia dominante.",
+   "debate": "Externalizar no significa eximir de responsabilidad: en situaciones de violencia, White insistía en que quien daña debe hacerse cargo de sus actos. Y una historia alternativa no es un relato positivo forzado: tiene que ser verosímil para quien la cuenta.",
+   "seccion": "Externalizar el problema"
+  },
+  {
+   "enigma": "Alguien dice «soy impuntual», una frase corta que resume décadas de reproches. Pero también llegó a tiempo a un examen, a un vuelo, al nacimiento de un hijo.",
+   "p": "¿Qué dicen esos momentos en que sí llegó?",
+   "opciones": ["Nada: fueron casualidades", "Algo sobre lo que valora y las habilidades que ya tiene", "Que la impuntualidad es solo un mito"],
+   "r": "Para la terapia narrativa esos momentos no son un accidente: dicen algo sobre lo que la persona valora y sobre sus habilidades. Rastrearlos permite construir una historia alternativa, no un relato positivo inventado.",
+   "como": "Con preguntas: sobre el efecto del problema en la vida de la persona, sobre sus excepciones, sobre los valores que esas excepciones revelan y sobre quiénes fueron testigos o aliados. Hay estudios con resultados favorables, como el de Vromans y Schweitzer (2011) en adultos con depresión mayor.",
+   "debate": "Los estudios son pocos y a veces pequeños, así que la evidencia es limitada. Y la idea de que las historias «constituyen» la identidad es una posición filosófica, el construccionismo social, no un hallazgo empírico.",
+   "seccion": "Historias dominantes y alternativas"
+  }
+ ],
+ "abierta": "Si las historias que nos cuentan moldean quiénes creemos ser, ¿cuánto de nuestra identidad es relato y cuánto algo más? Es una pregunta filosófica que la investigación todavía no zanja."
+}

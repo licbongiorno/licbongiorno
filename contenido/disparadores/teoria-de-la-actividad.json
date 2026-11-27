@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos empleados del mismo hospital completan el mismo formulario cada mañana, con exactamente los mismos movimientos. Para uno es un trámite absurdo que le roba tiempo con los pacientes. Para el otro es una forma de cuidar que nadie reciba una medicación equivocada.",
+   "p": "¿Están haciendo lo mismo?",
+   "opciones": ["Sí, hacen lo mismo y solo cambia su humor", "No: lo que se hace y el sentido que tiene para quien lo hace son cosas distintas", "Depende solo de quién cumple mejor las reglas"],
+   "r": "La teoría de la actividad, de Alexéi Leóntiev, distingue el significado de algo, que es social y compartido, del sentido personal, que depende de la relación entre esa acción y los motivos de cada uno. El significado del formulario es el mismo; el sentido, no.",
+   "como": "Nació en la psicología soviética de los años treinta, heredera de Vygotsky. Leóntiev lo ilustró con una cacería colectiva: el batidor espanta a los animales, algo que parece contrario a su necesidad de comer, y solo se entiende viendo la actividad compartida completa. Es sobre todo un marco teórico, no un experimento.",
+   "debate": "Fue durante décadas, en parte, la psicología oficial soviética, y eso la ató a una ortodoxia. Además, los límites entre actividad, acción y operación son difusos en la práctica.",
+   "seccion": "Motivo y sentido personal"
+  },
+  {
+   "enigma": "Cuando aprendiste a manejar, cambiar de marcha te exigía toda la atención. Hoy lo hacés sin pensar. Un día se rompe la palanca y, de golpe, volvés a tener que prestarle atención.",
+   "p": "¿Qué pasó con ese gesto a lo largo del tiempo?",
+   "opciones": ["Se volvió un reflejo innato que siempre estuvo ahí", "Pasó de ser una acción consciente a una operación automática, y volvió a ser acción", "Se olvidó y hubo que aprenderlo de cero"],
+   "r": "Leóntiev propuso tres niveles. La actividad responde a un motivo; la acción, a una meta consciente; la operación, a las condiciones y herramientas disponibles, y se hace sin pensar. Los niveles se mueven: una operación vuelve a ser acción si cambian las condiciones.",
+   "como": "Es una distinción construida a partir de la observación de la actividad humana y muy usada en educación y trabajo. Yrjö Engeström la amplió a sistemas colectivos y al aprendizaje de grupos que cambian su práctica, en estudios de caso como uno en un hospital de Finlandia.",
+   "debate": "No es una hipótesis que se confirme con un experimento: su valor está en ordenar la observación. Los estudios del Laboratorio de Cambio son sobre todo casos e intervenciones, difíciles de comparar entre sí.",
+   "seccion": "Actividad, acción y operación"
+  }
+ ],
+ "abierta": "Si una parte de lo que hacemos pierde conexión con cualquier motivo propio, ¿alcanza con pensarlo o hace falta cambiar algo de lo que se hace? Es una pregunta que esta tradición todavía discute."
+}

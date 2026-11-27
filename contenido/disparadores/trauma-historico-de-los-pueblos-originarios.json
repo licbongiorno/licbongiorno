@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En 2015, una comisión de Canadá presentó su informe final sobre los internados residenciales: un sistema por el que niñas y niños indígenas fueron separados de sus familias y llevados a escuelas donde se les prohibía su lengua. La comisión habló de un «genocidio cultural».",
+   "p": "¿Puede una historia colectiva así dejar huellas psicológicas que lleguen a generaciones posteriores?",
+   "opciones": ["No, el sufrimiento es siempre individual y termina con quien lo vivió", "Una psicóloga indígena propuso que sí, como un duelo histórico no resuelto", "Sí, y está plenamente demostrado que se transmite por la biología"],
+   "r": "Maria Yellow Horse Brave Heart, psicóloga y trabajadora social de origen lakota, propuso con Lemyra DeBruyn el concepto de duelo histórico no resuelto (1998): la conquista, el despojo y la prohibición de lenguas y ceremonias dejaron una herida colectiva. No es un diagnóstico del DSM-5, sino una forma de entender el contexto del sufrimiento.",
+   "como": "El concepto surge de una experiencia vivida y de una comunidad, no de un laboratorio: Brave Heart escribe como parte del pueblo del que habla. En 2008 Teresa Evans-Campbell ordenó el debate proponiendo mirar el trauma histórico en tres niveles: individual, familiar y comunitario.",
+   "debate": "La idea de que el trauma se transmite por vía biológica, por la epigenética, tiene evidencia preliminar en humanos y no permite afirmarlo. Es más prudente hablar de transmisión por la crianza, los relatos, los silencios y las condiciones de vida.",
+   "seccion": "Qué propuso Brave Heart"
+  },
+  {
+   "enigma": "La palabra «trauma» viene de la clínica de una persona, por ejemplo del estrés postraumático. Pero a veces se la usa para hablar de un pueblo entero.",
+   "p": "¿Qué problema puede traer extender esa palabra a todo un pueblo?",
+   "opciones": ["Ninguno: un pueblo se puede traumatizar igual que una persona", "Es una metáfora poderosa pero difícil de medir, y puede reforzar un estereotipo de fragilidad", "Que solo sirve para describir pueblos del pasado"],
+   "r": "Joseph P. Gone, psicólogo de origen gros ventre y profesor en Harvard, señala que es una metáfora poderosa pero difícil de medir, que la evidencia es desigual y que hablar de pueblos «traumatizados» puede borrar su resiliencia y continuidad cultural. También advierte cuánto cuesta separar la transmisión entre generaciones de la pobreza y la violencia actuales.",
+   "como": "Con estudios que asocian la exposición a esa historia con malestar, y con discusión crítica. En 2014 Gone y colegas publicaron un número dedicado a «repensar» el trauma histórico en la revista Transcultural Psychiatry.",
+   "debate": "En América Latina hay hechos históricos documentados de violencia contra pueblos originarios, como la masacre de Napalpí de 1924, pero falta investigación empírica sistemática. Si se usa el concepto, conviene hacerlo con las propias comunidades y preguntar qué palabras usan ellas.",
+   "seccion": "Las críticas de Gone"
+  }
+ ],
+ "abierta": "Si el sufrimiento de un pueblo es real pero difícil de medir con las herramientas de la psicología, ¿qué palabras y qué métodos hacen falta para estudiarlo con respeto? Se sigue discutiendo."
+}
