@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien dice que las personas de la región son «fatalistas»: se resignan, no se organizan, esperan que las cosas pasen.",
+   "p": "¿Eso es un rasgo del carácter latinoamericano?",
+   "opciones": [
+    "Sí, viene de la cultura y la historia de la región",
+    "No: es una actitud que se produce bajo condiciones de opresión",
+    "No existe: es solo un estereotipo sin ninguna base"
+   ],
+   "r": "Ignacio Martín-Baró no leyó el fatalismo como un rasgo del carácter latinoamericano sino como una actitud que se produce bajo la opresión. Propuso en 1986 una psicología de la liberación y habló de trauma psicosocial: el daño no se agota en cada víctima, porque lo producen relaciones sociales que siguen vigentes.",
+   "como": "Lo planteó desde su trabajo como psicólogo social en El Salvador, en su libro Acción e ideología (1983) y en el artículo «Hacia una psicología de la liberación» (1986).",
+   "debate": "Son ideas que siguen discutiéndose. La psicología de la liberación es una corriente de pensamiento, no se pensó como tratamiento ni se evaluó como tal.",
+   "seccion": "La psicología de la liberación"
+  },
+  {
+   "enigma": "Un hombre llega a la guardia con el pecho caliente, las manos temblando y la sensación de que se va a desmayar. Dice que le dio un ataque de nervios después de una discusión en la familia.",
+   "p": "¿Qué es lo más útil para quien lo atiende?",
+   "opciones": [
+    "Decirle que lo que tuvo no existe en los manuales",
+    "Rotularlo de entrada como crisis de angustia",
+    "Escuchar qué quiere decir con «nervios» y evaluarlo clínicamente"
+   ],
+   "r": "El DSM-5 incluye el ataque de nervios entre los conceptos culturales de malestar: un episodio de gritos, llanto, temblor, calor en el pecho y sensación de perder el control, frecuente tras un hecho estresante familiar. Se parece a una crisis de angustia pero no equivale a ella.",
+   "como": "Surge de la antropología médica y la psiquiatría cultural. La antropóloga Setha Low investigó los «nervios» en Costa Rica.",
+   "debate": "Ninguno es una enfermedad única, y ninguno reemplaza una evaluación clínica. Sirven, sobre todo, para escuchar bien.",
+   "seccion": "Síndromes culturales y modos de decir el malestar"
+  }
+ ],
+ "abierta": "Si el malestar psíquico tiene tanto de social, ¿dónde termina lo que le pasa a una persona y empieza lo que le pasa a su comunidad? Es una discusión que sigue abierta."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una librería, la sección de espiritualidad ofrece el Tao para fluir, un I Ching para decidir, un tai chi para el estrés y una frase de Confucio para cada ocasión. Todo viene de China y todo parece «lo mismo».",
+   "p": "¿Es lo mismo?",
+   "opciones": [
+    "Sí: todo es sabiduría china sobre la mente",
+    "No: hay filosofías, psicoterapias, conceptos sociales y prácticas, y cada tipo tiene un respaldo distinto",
+    "Sí, y todo tiene el mismo respaldo científico"
+   ],
+   "r": "No es lo mismo. Las tradiciones filosóficas (taoísmo, confucianismo, chan) inspiran pero no se evaluaron como tratamientos. Las psicoterapias de origen chino tienen método e investigación propios. Los conceptos como mianzi o guanxi son marcos teóricos.",
+   "como": "Se distingue por el tipo de cosa que es cada una: por ejemplo, la psicoterapia taoísta cognitiva tiene un ensayo aleatorizado de 2002 y evidencia global de calidad baja, y Markus y Kitayama (1991) distinguieron un yo independiente de uno interdependiente.",
+   "debate": "Idealizar «la sabiduría oriental» no ayuda, pero tampoco despreciarla. Y cada traducción al español de estos textos ya es una interpretación.",
+   "seccion": "Un criterio para ordenar"
+  },
+  {
+   "enigma": "El tai chi, el qigong y la acupuntura se practican hace siglos y mucha gente jura que le hacen bien.",
+   "p": "¿Qué dice la investigación?",
+   "opciones": [
+    "Que está demostrado que tratan la depresión y la ansiedad",
+    "Que no sirven para nada",
+    "Que la evidencia es desigual o de calidad baja, según la condición y el estudio"
+   ],
+   "r": "El qigong y el tai chi son prácticas de movimiento lento, respiración y atención, y son las que más investigación recibieron, con evidencia desigual. La acupuntura se evaluó en depresión, ansiedad e insomnio, con calidad de evidencia baja.",
+   "como": "Se sabe por estudios clínicos de esas prácticas, cuyos resultados dependen de la condición y del diseño del estudio.",
+   "debate": "Que haya evidencia baja no equivale a que no sirvan: significa que no sabemos con certeza cuánto aportan. Tampoco se evaluó el I Ching como método de decisión, ni la sincronicidad de Jung tiene respaldo empírico como mecanismo.",
+   "seccion": "Prácticas"
+  }
+ ],
+ "abierta": "Si una práctica ayuda a mucha gente pero la evidencia es floja, ¿cómo se estudia lo que importa sin vaciarla de lo que la hace valiosa? Todavía se investiga."
+}

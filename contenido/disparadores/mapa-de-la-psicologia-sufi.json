@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En las redes circulan versos de Rumi sobre el amor y la herida, con una foto de atardecer. Rumi fue un predicador y jurista del siglo XIII que escribió en persa y cuya poesía estaba dirigida a Dios.",
+   "p": "Cuando se citan esos versos como psicología, ¿qué se pierde?",
+   "opciones": [
+    "Nada: el amor humano y el divino son lo mismo",
+    "El marco religioso y comunitario desde el cual fueron escritos",
+    "Solo la métrica del original"
+   ],
+   "r": "El sufismo, o tasawwuf, es la dimensión mística del islam, con órdenes, maestros y prácticas de más de mil años. Sus conceptos, como el nafs (el yo) en niveles o el qalb (el corazón), describen el mundo interior desde la fe y no son una escala psicológica.",
+   "como": "Los niveles del nafs parten de tres expresiones del Corán (12:53, 75:2 y 89:27). Robert Frager los ordenó en siete en su libro de 1999.",
+   "debate": "Ningún estudio controlado conocido con certeza mide esos niveles ni prueba que recorrerlos produzca determinados resultados. Son un mapa espiritual.",
+   "seccion": "El yo y sus niveles"
+  },
+  {
+   "enigma": "El eneagrama suele presentarse como «antigua sabiduría sufí».",
+   "p": "¿Qué dice la historia documentada?",
+   "opciones": [
+    "Que es sufí, transmitido por maestros durante siglos",
+    "Que Gurdjieff difundió la figura de nueve puntos a comienzos del siglo XX y dijo que venía de una fuente oriental",
+    "Que nació en un laboratorio de psicología en el siglo XXI"
+   ],
+   "r": "Gurdjieff difundió la figura de nueve puntos en las primeras décadas del siglo XX y dijo que venía de una fuente oriental. La historia documentada no lo ubica como una enseñanza sufí.",
+   "como": "Se reconstruye con documentos históricos sobre la difusión de la figura, en vez de aceptar el relato de origen que acompaña a la mayoría de los libros populares.",
+   "debate": "Atribuir el eneagrama al sufismo tiene un costo doble: le da una autoridad que no tiene y le pone a una tradición viva algo que no reconoce como propio.",
+   "seccion": "El eneagrama y su origen discutido"
+  }
+ ],
+ "abierta": "Cuando una idea viaja de una tradición a otra, ¿cómo distinguimos lo que se hereda de lo que se atribuye por prestigio? Es una pregunta abierta."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En 1946, en un hospital psiquiátrico en las afueras de Río de Janeiro, una psiquiatra abrió un taller donde los internos podían pintar y modelar con arcilla. Era Nise da Silveira.",
+   "p": "¿Qué te parece que descubrió en esas pinturas?",
+   "opciones": [
+    "Que mostraban el diagnóstico exacto de cada paciente",
+    "Que expresaban figuras circulares, mandalas y símbolos que la psicología analítica describía",
+    "Que no tenían ningún valor"
+   ],
+   "r": "Nise da Silveira encontraba en las pinturas de sus pacientes figuras circulares, mandalas y símbolos que describía la psicología analítica. Le escribió a Jung a mediados de los años cincuenta, y en 1957 se encontró con él en Zúrich.",
+   "como": "Estuvo presa más de un año desde 1936 durante el gobierno de Vargas, y volvió a trabajar en el hospital de Engenho de Dentro en 1944. Es una experiencia histórica bien documentada.",
+   "debate": "No es un método con evidencia de eficacia en sí mismo, y las lecturas simbólicas de las imágenes pueden ser discutibles. Su valor está en la crítica a la psiquiatría de encierro.",
+   "seccion": "Brasil: Nise da Silveira, el Museo de Imágenes del Inconsciente y Jung"
+  },
+  {
+   "enigma": "En Puerto Rico, mucha gente consultaba al espiritista y al médico a la vez, sin ver contradicción.",
+   "p": "¿Qué se puede decir sobre una colaboración formal entre ambos?",
+   "opciones": [
+    "Que mejora siempre los resultados",
+    "Que se propusieron formas de colaborar, pero no hay evidencia sólida de que mejoren los resultados",
+    "Que es peligrosa y debe evitarse"
+   ],
+   "r": "El espiritismo de Allan Kardec llegó a Puerto Rico en la segunda mitad del siglo XIX y echó raíces populares. Se propusieron formas de colaboración, como la derivación recíproca y el diálogo.",
+   "como": "Rogler y Hollingshead lo describieron en 1961 («The Puerto Rican spiritualist as a psychiatrist») y Alan Harwood estudió el tema en 1977.",
+   "debate": "Lo que hay son descripciones y experiencias acotadas, y no evidencia sólida de que una colaboración formal mejore los resultados.",
+   "seccion": "Espiritismo en Puerto Rico y la colaboración con la salud mental"
+  }
+ ],
+ "abierta": "Cuando una persona recurre a más de un sistema de explicación para su sufrimiento, ¿cómo pueden trabajar juntos sin que uno anule al otro? Todavía se discute."
+}

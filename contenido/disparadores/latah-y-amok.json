@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona se sobresalta ante un ruido y repite sin querer lo que oye o imita los gestos de quien tiene enfrente. Los vecinos lo conocen, se ríen y la cuidan. Para un médico europeo del siglo XIX, eso mismo era un trastorno mental exótico.",
+   "p": "¿Quién tenía razón?",
+   "opciones": [
+    "El médico europeo: era un cuadro psiquiátrico y había que tratarlo",
+    "Los vecinos: era algo normal de ese lugar y no tenía nada de enfermedad",
+    "Ninguno del todo: lo que cada uno veía dependía de quién miraba y desde dónde"
+   ],
+   "r": "Eso es el latah, descripto sobre todo en mujeres de Malasia e Indonesia. Hoy hay poco acuerdo sobre qué es: un reflejo de sobresalto moldeado por la cultura, un rol social, un cuadro psiquiátrico o nada de eso.",
+   "como": "Historiadores y antropólogos revisaron la literatura desde los años setenta: Ronald Simons lo estudió como reflejo de sobresalto (Boo!, 1996) y Robert Winzeler reunió historia y trabajo de campo en Malasia y Borneo (Latah in Southeast Asia, 1995).",
+   "debate": "No corresponde usar latah ni amok como etiquetas diagnósticas actuales ni para describir a las personas de esa región. Ninguno parece ser una sola cosa estable, igual en todas partes y en todas las épocas.",
+   "seccion": "Qué mostró la crítica histórica"
+  },
+  {
+   "enigma": "Durante años los manuales de psiquiatría tuvieron una lista de «síndromes ligados a la cultura», cuadros que se pensaban propios de una región. En 2013 el DSM-5 abandonó esa etiqueta.",
+   "p": "¿Qué problema podía tener decir que ciertos trastornos están «ligados a la cultura»?",
+   "opciones": [
+    "Que daba a entender que los demás trastornos no lo están",
+    "Que esos cuadros en realidad no existían",
+    "Que a nadie le interesaba estudiarlos"
+   ],
+   "r": "El DSM-5 reemplazó la etiqueta por síndromes culturales, idiomas del malestar y explicaciones culturales, y sostiene que todas las formas de malestar están moldeadas localmente, incluidos los trastornos del propio manual.",
+   "como": "El historiador John Spores (Running Amok, 1988) mostró que la imagen del amok mezcló hechos con construcciones coloniales: la idea de un «salvaje» peligroso convenía a la administración.",
+   "debate": "Se discute qué son hoy esas categorías. Lo que enseñan es que los diagnósticos tienen historia, que describir no es explicar y que una persona vale más que su rótulo.",
+   "seccion": "De los síndromes ligados a la cultura a los conceptos de malestar"
+  }
+ ],
+ "abierta": "Si todo malestar está moldeado por su cultura, ¿cuánto de lo que hoy llamamos diagnósticos también se verá, dentro de cien años, como una forma de mirar de nuestra época? Es una pregunta abierta."
+}

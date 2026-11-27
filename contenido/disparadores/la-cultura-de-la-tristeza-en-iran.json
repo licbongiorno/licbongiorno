@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te dice «me duele el corazón». En español puede ser una cuestión de coronarias o de una pérdida, y quien escucha con atención pregunta. En persa hay una expresión parecida: narahati-e qalb.",
+   "p": "¿Qué te parece que es un «malestar del corazón» para quien lo dice?",
+   "opciones": [
+    "Una forma imprecisa de nombrar la depresión",
+    "Un síntoma del cuerpo que no tiene nada que ver con lo emocional",
+    "Una manera de nombrar a la vez lo que se siente en el cuerpo y lo que pasa en la vida"
+   ],
+   "r": "Byron Good mostró que narahati-e qalb forma una red de significados que se conecta con palpitaciones, opresión, angustia, preocupación y tristeza, y también con problemas familiares y pérdidas. Cuerpo y emoción no se viven como cosas separadas.",
+   "como": "Salió de trabajo de campo y entrevistas en Irán, para una tesis doctoral defendida en 1976, y se publicó en 1977 en Culture, Medicine and Psychiatry.",
+   "debate": "Son estudios cualitativos, hechos hace décadas en contextos específicos: describen significados, no frecuencias. No dicen cuánta gente padece depresión en Irán.",
+   "seccion": "El artículo de 1977"
+  },
+  {
+   "enigma": "En Argentina decimos «estoy con los nervios de punta» o «me cayó pesado». Cualquiera de acá lo entiende, y ningún manual diagnóstico lo incluye.",
+   "p": "Cuando alguien en otra cultura nombra su malestar con sus propias palabras, ¿qué conviene hacer?",
+   "opciones": [
+    "Traducirlo cuanto antes a un diagnóstico conocido",
+    "Pensar que, como lo dice distinto, esa cultura no tiene depresión",
+    "Preguntarle cómo lo llama y qué cree que lo causa, sin dejar de evaluar"
+   ],
+   "r": "Se llama idioma del malestar a una manera culturalmente compartida de comunicar que algo anda mal. Conviene no reducirlo a un diagnóstico ni negar que existan cuadros depresivos graves que necesitan evaluación.",
+   "como": "La psiquiatría cultural, con Arthur Kleinman y con Good y Good, propuso la idea de error de categoría. El DSM-5 (2013) incluyó una Entrevista de Formulación Cultural que pregunta justamente por las palabras propias.",
+   "debate": "Que exista un idioma cultural no significa que cada persona lo use: la edad, la religiosidad, la clase social, la migración y la educación cambian cómo se habla del malestar.",
+   "seccion": "Qué es un idioma del malestar"
+  }
+ ],
+ "abierta": "Si cada cultura tiene sus palabras para el dolor, ¿cómo hacemos para comparar el sufrimiento entre lugares sin perder lo que cada expresión dice? Es una pregunta abierta de la psiquiatría cultural."
+}

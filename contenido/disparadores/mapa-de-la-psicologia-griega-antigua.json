@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«No nos perturban las cosas, sino lo que pensamos de ellas.» La frase es de Epicteto y hoy aparece en afiches, libros de autoayuda y consultorios de terapia cognitiva.",
+   "p": "¿Qué relación te parece que hay entre los estoicos y la terapia cognitiva?",
+   "opciones": [
+    "Ninguna: son mundos sin conexión",
+    "Los terapeutas cognitivos reconocieron a los estoicos como fuente e inspiración",
+    "Es una copia exacta, con otros nombres"
+   ],
+   "r": "Los estoicos sostenían que las pasiones son juicios errados sobre lo bueno y lo malo, y que la tarea es educar esos juicios. Las escuelas helenísticas eran comunidades con maestros y ejercicios para vivir con menos sufrimiento.",
+   "como": "Albert Ellis reconoció a Epicteto como fuente de su terapia racional emotiva, y Aaron Beck citó a los estoicos entre sus antecedentes. Pierre Hadot propuso leer la filosofía antigua como ejercicios espirituales.",
+   "debate": "Idealizar a los antiguos, como si ya hubieran resuelto todo, es tan problemático como despreciarlos. Era filosofía como arte de vivir, no terapia evaluada.",
+   "seccion": "Las escuelas helenísticas: la filosofía como cura"
+  },
+  {
+   "enigma": "Los médicos griegos describían la salud como el equilibrio de cuatro humores: sangre, flema, bilis amarilla y bilis negra. A la melancolía, literalmente «bilis negra», la entendían como un abatimiento prolongado con miedo.",
+   "p": "¿Qué se puede decir hoy de esa teoría?",
+   "opciones": [
+    "Que se comprobó y sigue vigente",
+    "Que fue abandonada por la medicina, pero influyó mucho en la historia",
+    "Que nunca tuvo influencia"
+   ],
+   "r": "La teoría de los humores fue abandonada por la medicina, y no hay evidencia de que los humores existan ni de que los temperamentos describan la personalidad.",
+   "como": "Se la conoce por los escritos del Corpus hipocrático (siglos V y IV a. C.) y por el Problema XXX, atribuido a la escuela de Aristóteles, que se preguntaba por qué tantos hombres brillantes eran melancólicos.",
+   "debate": "Conviene conocerla por su influencia histórica y no como explicación. Fue una teoría con enorme alcance, recibida y comentada durante siglos.",
+   "seccion": "La medicina: humores y melancolía"
+  }
+ ],
+ "abierta": "Si los griegos ya trataban a las pasiones como algo que se podía educar, ¿qué ha aprendido la psicología desde entonces que ellos no sabían? Es una pregunta abierta."
+}

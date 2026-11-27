@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Yo soy porque nosotros somos.» La frase circula en tazas y discursos de empresas, casi siempre sin autor y sin lugar.",
+   "p": "¿Qué tipo de cosa te parece que es?",
+   "opciones": [
+    "Un dato comprobado sobre cómo viven todos los africanos",
+    "Una idea filosófica sobre qué es ser persona, discutida por los propios pensadores africanos",
+    "Un eslogan sin ninguna base"
+   ],
+   "r": "Viene de ubuntu, de las lenguas nguni del sur de África: una persona es persona a través de otras. Ifeanyi Menkiti sostuvo, en 1984, que en muchas sociedades tradicionales la condición de persona no se tiene de entrada, se alcanza a lo largo de la vida en comunidad.",
+   "como": "Es una formulación filosófica, que a la psicología le sirve como hipótesis sobre el yo y como crítica de teorías que suponen un individuo separado.",
+   "debate": "Son filosofía, no datos. Y varios pensadores africanos la criticaron, como Bernard Matolino en Sudáfrica. Además, hablar de «psicología africana» en singular es una simplificación de un continente de más de cincuenta países.",
+   "seccion": "La persona en relación: ubuntu, ukama y Menkiti"
+  },
+  {
+   "enigma": "En Harare, Zimbabue, había muy pocos psiquiatras para una población muy grande. Un psiquiatra, Dixon Chibanda, tuvo una idea: que mujeres mayores de la comunidad recibieran en un banco a personas con malestar.",
+   "p": "¿Te parece que eso funcionó?",
+   "opciones": [
+    "No: sin profesionales de la salud mental no hay mejora posible",
+    "Sí: quienes lo recibieron tuvieron menos síntomas de ansiedad y depresión que el grupo de comparación",
+    "Mejoró lo emocional, pero empeoró el funcionamiento diario"
+   ],
+   "r": "Es el Friendship Bench. Desde 2006 puso a «abuelas» a escuchar y a acompañar con una terapia de resolución de problemas. A los seis meses, quienes lo recibieron tenían menos síntomas de ansiedad y depresión.",
+   "como": "En 2016, Chibanda y su equipo publicaron en JAMA un ensayo aleatorizado por conglomerados en 24 centros de atención primaria de Harare, con 573 participantes.",
+   "debate": "Es el caso mejor respaldado de este mapa, pero otras ideas, como las de Fanon o Aro, son análisis y testimonios históricos, no datos de eficacia.",
+   "seccion": "El Friendship Bench"
+  }
+ ],
+ "abierta": "Si una intervención nacida en un lugar funciona, ¿cuánto puede viajar a otros contextos sin perder lo que la hace funcionar? Todavía se investiga."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien no contesta un mensaje y la mente arma una certeza: «me está ignorando». Otro, en una discusión, siente que si grita lo suficiente lo van a entender.",
+   "p": "¿Qué se detuvo en esos momentos?",
+   "opciones": [
+    "La paciencia, que se agotó",
+    "La capacidad de pensar los estados mentales, los propios y los del otro",
+    "La memoria, que borró lo que sabíamos de la otra persona"
+   ],
+   "r": "La mentalización es entender la conducta en términos de estados mentales: lo que alguien siente, piensa, desea o pretende. Con estrés intenso, sobre todo en vínculos cercanos, puede caerse y aparecen modos más primitivos. Todos pasamos por eso.",
+   "como": "Lo desarrollaron Peter Fonagy y Anthony Bateman con colegas. Describieron modos como la equivalencia psíquica (lo que pienso se vive como la realidad), el teleológico y el simulado.",
+   "debate": "No son patologías en sí: lo central es cuánto cuesta volver a mentalizar. Tampoco hay evidencia de que mentalizar «cure» por sí solo cualquier dificultad.",
+   "seccion": "Cuando se pierde: modos prementalizadores"
+  },
+  {
+   "enigma": "Un bebé llora y un adulto le dice, con la cara y la voz, algo así como «¡qué susto te llevaste!». El bebé todavía no entiende de palabras.",
+   "p": "¿Qué estará aprendiendo?",
+   "opciones": [
+    "A que llorar sirve para conseguir lo que quiere",
+    "A reconocer lo que le pasa, porque alguien lo piensa como alguien con una mente",
+    "Nada, porque a esa edad todavía no hay mente"
+   ],
+   "r": "Según Fonagy y sus colegas, el niño aprende a entender su propia mente cuando un adulto lo piensa como alguien con una mente y le devuelve sus emociones de forma comprensible. Las raíces están en el apego.",
+   "como": "Se apoya en la teoría del apego de John Bowlby y en la elaboración de Fonagy, Gergely, Jurist y Target (2002).",
+   "debate": "La terapia basada en la mentalización tuvo ensayos favorables en el trastorno límite, pero en el segundo ensayo (2009) ambos grupos mejoraron, y no queda claro cuánto aporta lo específico de la MBT frente a un manejo estructurado.",
+   "seccion": "De dónde viene"
+  }
+ ],
+ "abierta": "Si la capacidad de entender mentes se aprende en los vínculos, ¿qué se puede recuperar de adulto y cómo? Todavía se investiga."
+}

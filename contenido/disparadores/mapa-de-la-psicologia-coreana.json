@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Series, música y comida de Corea llegaron a todas partes, y con ellas algunas palabras: han, jeong, nunchi. Se las presenta como «el secreto» de una psicología distinta.",
+   "p": "Si una palabra no existe en nuestro idioma, ¿qué nos dice?",
+   "opciones": [
+    "Que el fenómeno es exclusivo de quienes hablan ese idioma",
+    "Que nos falta un nombre, aunque casi seguro conocemos la experiencia",
+    "Que los hablantes de ese idioma son siempre así"
+   ],
+   "r": "Han es una mezcla de pena, resentimiento y anhelo; jeong, el lazo que se acumula con el tiempo compartido, incluso con alguien que no nos cae bien; nunchi, la habilidad de leer el ambiente. Que una palabra exista en un idioma no prueba que el fenómeno sea exclusivo.",
+   "como": "El jeong lo estudió empíricamente el psicólogo Choi Sang-chin y sus colaboradores a fines de los noventa. El nunchi lo popularizó en inglés Euny Hong con The Power of Nunchi (2019).",
+   "debate": "Tienen estudios de psicología cultural con muestras chicas y casi siempre de estudiantes. El han es sobre todo un concepto literario, histórico y teológico, y su uso como rasgo nacional fue criticado con buenos argumentos.",
+   "seccion": "Emociones y habilidades culturales"
+  },
+  {
+   "enigma": "Alguien lleva años tragándose la bronca. No grita, no discute, pero sube un calor por el pecho, siente opresión y una especie de bulto en la boca del estómago.",
+   "p": "¿Qué te parece que es?",
+   "opciones": [
+    "Solo un problema físico, sin relación con las emociones",
+    "Una forma de expresar en el cuerpo una ira contenida durante mucho tiempo",
+    "Un invento cultural que no existe en la clínica"
+   ],
+   "r": "En Corea se lo llama hwa-byung, «enfermedad del fuego»: ira crónica contenida con síntomas corporales característicos. Es lo más estudiado desde la clínica de este mapa, con escalas, criterios de investigación y estudios de prevalencia.",
+   "como": "El psiquiatra Sung Kil Min, de la Universidad Yonsei, le dedicó décadas de investigación y propuso criterios y una escala. Figuró en el apéndice de síndromes ligados a la cultura del DSM-IV (1994).",
+   "debate": "Se discute si es un cuadro propio o una forma cultural de expresar la depresión y la ira. La ira suprimida es un tema que la psicología occidental tardó en tomar en serio.",
+   "seccion": "Clínica: el hwa-byung y la salud mental en la Corea actual"
+  }
+ ],
+ "abierta": "Si guardar la ira puede doler en el cuerpo, ¿qué diferencia hay entre contenerla y procesarla? Todavía se investiga."
+}

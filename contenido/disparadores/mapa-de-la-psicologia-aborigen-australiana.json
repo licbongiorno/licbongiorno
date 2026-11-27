@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En 1997 un informe presentado al Parlamento de Australia reunió cientos de testimonios de personas a las que, de chicas, se llevaron de sus familias por una ley. Muchas historias empezaban igual: un auto, una despedida que no se pudo dar, un nombre cambiado.",
+   "p": "Para quien trabaja en salud mental con estas comunidades, ¿qué papel debería tener esa historia?",
+   "opciones": [
+    "Ninguno: la clínica se ocupa de cada persona en el presente",
+    "Es un dato de contexto, útil pero no imprescindible",
+    "Es parte de lo que la clínica no puede saltear, porque marca el clima de varias generaciones"
+   ],
+   "r": "Esos niños son las Generaciones Robadas. Judy Atkinson propuso la idea de trauma intergeneracional: lo que sufre una generación marca el clima de las siguientes. Una lectura solo individual del estrés postraumático puede quedarse corta ante sufrimientos colectivos.",
+   "como": "La historia de la separación de los niños está documentada por una investigación oficial (Bringing Them Home, 1997), por archivos y por cientos de testimonios.",
+   "debate": "El trauma intergeneracional tiene respaldo parcial y sigue en discusión. Y lo que un texto de afuera puede decir es siempre parcial, porque parte del conocimiento aborigen es restringido.",
+   "seccion": "La historia que la clínica no puede saltear"
+  },
+  {
+   "enigma": "Dos personas conversan sin apuro, dando vueltas, contando historias. No parece una entrevista, pero al final hay mucha más confianza que si hubiera habido un cuestionario.",
+   "p": "¿Podría eso ser un método de trabajo legítimo?",
+   "opciones": [
+    "No, porque sin preguntas directas no se obtiene información confiable",
+    "Sí: en muchas comunidades aborígenes conversar así es una manera de construir confianza",
+    "Solo sirve para charlar, no para investigar"
+   ],
+   "r": "Es el yarning, conversar en el inglés aborigen. En 2010 Dawn Bessarab y Bridget Ng'andu lo describieron como método legítimo de investigación con pueblos indígenas. En la consulta, es una manera de construir confianza.",
+   "como": "Lo describieron investigadoras a partir de su trabajo con comunidades. También hay descripciones de que una pregunta directa puede recibir un «sí» de cortesía (Kenneth Liberman, 1981).",
+   "debate": "El modelo de bienestar social y emocional es un marco sensato y muy usado, pero no una teoría contrastada como un todo. Y los ngangkari, sanadores del desierto central, tienen investigación sobre todo cualitativa.",
+   "seccion": "Métodos propios: yarning y sanadores"
+  }
+ ],
+ "abierta": "¿Cómo puede escuchar una psicología que viene de afuera sin traducir todo a sus propias categorías? Los servicios australianos siguen trabajando en eso."
+}

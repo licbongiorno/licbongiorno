@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En muchas casas iraníes hay un libro de poemas que no se lee de corrido. Se abre al azar, la noche más larga del año, después de pensar una pregunta, y el poema que sale se toma como respuesta.",
+   "p": "¿Qué tipo de cosa es ese libro?",
+   "opciones": [
+    "Un manual de psicología aplicada",
+    "Poesía de gran valor, con ambigüedad deliberada, que nunca se evaluó como terapia",
+    "Un tratado médico de la Antigüedad"
+   ],
+   "r": "Es el Divan de Hafez (c. 1325-1390), de poemas ghazal deliberadamente ambiguos: el vino y el amor pueden leerse literalmente o como imágenes de la experiencia mística. La costumbre del fal-e Hafez se hace sobre todo en Shab-e Yalda, la noche del solsticio de invierno.",
+   "como": "Es una tradición cultural y literaria que Goethe leyó en traducción y a la que respondió con el Diván de Oriente y Occidente (1819).",
+   "debate": "Ninguna de estas obras fue sometida a investigación psicológica, y usarlas como terapia es una decisión moderna que nada tiene que ver con lo que sus autores buscaban. Idealizar a Hafez o a Rumi como terapeutas es un error.",
+   "seccion": "La herencia poética y filosófica"
+  },
+  {
+   "enigma": "Te ofrecen un té. Dices que no, ellos insisten, vos rechazás de nuevo, y así varias veces, hasta que alguien termina cediendo. Todos saben cómo sigue el juego.",
+   "p": "¿Es hipocresía?",
+   "opciones": [
+    "Sí: nadie dice lo que realmente quiere",
+    "No: es un código compartido que cuida la imagen de los demás",
+    "Es una forma de manipulación"
+   ],
+   "r": "Es el ta'arof, el sistema de cortesía ritual persa: ofrecer varias veces lo que el otro va a rechazar, negarse a cobrar, rebajar lo propio y elevar al interlocutor. No es hipocresía: todos conocen el código.",
+   "como": "El antropólogo William Beeman lo analizó en Language, Status, and Power in Iran (1986), y la lingüista Sofia Koutlaki lo estudió en 2002 como una manera de cuidar la imagen de los otros.",
+   "debate": "Puede ser un cuidado y también un cansancio, cuando no se puede decir lo que se quiere.",
+   "seccion": "Conceptos culturales: ta'arof y aberu"
+  }
+ ],
+ "abierta": "Si cada cultura tiene sus códigos para cuidar al otro, ¿cómo sabemos cuándo cuidar es también callar? Es una pregunta abierta."
+}
