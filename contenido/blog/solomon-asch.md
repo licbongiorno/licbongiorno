@@ -11,9 +11,15 @@ orden: 201
 estado: publicado
 respuesta: En los estudios de conformidad de Solomon Asch (década de 1950; Asch, 1956), un grupo de cómplices daba respuestas erróneas evidentes sobre líneas. Aproximadamente un tercio de las respuestas de los participantes se ajustó al error del grupo, y alrededor de tres de cada cuatro se ajustaron al menos una vez. Muchos se mantuvieron independientes.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Es una pregunta tan simple que da vergüenza equivocarse: ¿cuál de estas líneas es igual a la de referencia? Solomon Asch la usó en la década de 1950 para estudiar algo muy distinto de la geometría: cuánto de lo que decimos depende de lo que dicen los demás.
+
+## Quién fue
+
+Solomon Asch nació en 1907 en Varsovia y emigró de niño a Estados Unidos. Estudió psicología y se formó dentro de la tradición de la Gestalt, en contacto con Max Wertheimer. Dio clases durante años en el Swarthmore College, y su libro *Psicología social* (1952) fue un texto de referencia. Murió en 1996.
+
+Su mirada era gestáltica: pensaba que las personas percibimos totalidades con sentido, también en lo social. Antes de los experimentos de las líneas estudió cómo formamos impresiones de otras personas: en un trabajo de 1946 mostró que ciertos rasgos, como «cálido» o «frío», organizan toda la impresión. Stanley Milgram trabajó con él en Princeton, y su investigación sobre obediencia nació en ese ambiente.
 
 ## Qué hizo Asch
 
@@ -48,6 +54,14 @@ Por último, un estudio de esta época no se puede tomar como una descripción d
 Asch suele aparecer junto a otros dos clásicos que conviene no mezclar. [Stanley Milgram](/recursos/stanley-milgram/) estudió la obediencia a una autoridad, no la influencia de un grupo de pares. Y el [Experimento de la prisión de Stanford](/recursos/experimento-de-la-prision-de-stanford/) se enseña hoy más bien como ejemplo de lo que no se puede concluir. Asch queda en un lugar más sobrio: un resultado acotado, con matices dentro del propio estudio, y una lección sobre el valor de un aliado.
 
 Para ver cómo se juegan estas dinámicas en la práctica, está el [Laboratorio de grupos](/laboratorio-de-grupos/).
+
+## Un ejemplo cotidiano
+
+Estás en una reunión y todos están de acuerdo con una propuesta que a vos te parece floja. Vas a decir algo, pero el silencio de los demás pesa. Ese momento, que casi todos conocemos, es el escenario de Asch. Lo útil del estudio es que mostró que alcanza con que una persona más diga lo que piensa para que a los otros les resulte más fácil.
+
+## Cómo se usa hoy
+
+Se usa para pensar la dinámica de los grupos de trabajo, de los equipos de salud y de los espacios de terapia grupal. En ese terreno aparece el concepto de pensamiento de grupo, que Irving Janis describió en 1972 para analizar decisiones colectivas fallidas. En la consulta, el estudio ayuda a mirar sin culpa una situación frecuente: callar para no desentonar. La idea de la presión social para ajustarse se relaciona con [la persona o máscara social](/recursos/la-persona-mascara-social/) y con lo que [Leon Festinger](/recursos/leon-festinger/) describió sobre la disonancia entre lo que se piensa y se dice. También ayuda a entender la presión de [pantallas y redes sociales](/recursos/pantallas-y-redes-sociales/), aunque eso Asch no lo estudió.
 
 ## Preguntas frecuentes
 

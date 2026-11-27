@@ -11,7 +11,7 @@ orden: 215
 estado: publicado
 respuesta: Françoise Dolto (París, 1908-1988) fue una psicoanalista y pediatra francesa. Sostuvo que el niño es sujeto de lenguaje desde el comienzo y que hay que hablarle con verdad. Ideó las Maisons Vertes (Casas Verdes), que abrieron en 1979 como espacios de encuentro para niños pequeños y sus padres antes de la escuela, y escribió La causa de los niños.
 menciona: 
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 No, no fue solo una voz famosa de la divulgación. Françoise Dolto fue una médica que se hizo psicoanalista y que cambió una pregunta de fondo: ¿con quién estamos hablando cuando hablamos con un bebé? Su respuesta, que hoy suena casi obvia, fue en su momento una provocación: con una persona.
 
@@ -46,9 +46,39 @@ Lo que se discute es otra cosa. Decir la verdad no equivale a decirlo todo ni de
 
 En la consulta, su mirada me recuerda algo sencillo: antes de explicarle a una familia qué le pasa a su hijo, vale la pena preguntarse qué le dijeron al chico. Si te interesa llevarlo a la práctica cotidiana, el [Laboratorio de crianza](/laboratorio-de-crianza/) propone ejercicios para pensar cómo hablamos con los chicos.
 
+## Un ejemplo cotidiano
+
+Una familia va a mudarse de ciudad y no sabe cómo decírselo a su hija de cuatro años. Dolto aconsejaría decirle lo que va a pasar con palabras simples: adónde van, quién viene, qué se queda. No hace falta que lo entienda todo; hace falta que no la dejen sola con lo que intuye. Lo mismo ante una separación de los padres, que podés ver en [hijos y separación](/recursos/hijos-y-separacion/).
+
+## Contexto histórico
+
+Dolto nació con el apellido Marette en una familia católica y burguesa. Estudió medicina y presentó en 1939 su tesis *Psicoanálisis y pediatría*. Se analizó con René Laforgue. En 1942 se casó con Boris Dolto. Su popularidad creció con un programa de radio, *Cuando aparece el niño*, que se emitió en France Inter en 1976, donde respondía cartas de padres. En 1984 publicó *La imagen inconsciente del cuerpo*, su aporte más teórico: la idea de que el niño construye una imagen de su cuerpo, hecha de sensaciones y de palabras, que no coincide con el cuerpo anatómico.
+
+## Cómo resuena en la práctica actual
+
+Las Casas Verdes se multiplicaron en Francia y en otros países, y la actitud de hablarle al niño con la verdad se incorporó a la atención pediátrica y al trabajo con familias. Para pensar la crianza hoy, ver [padres de adolescentes](/recursos/padres-de-adolescentes/) y [el apego](/recursos/el-apego/).
+
+## Matices y límites
+
+Dolto fue muy influyente, pero no hay estudios que evalúen sus propuestas como método ni que comparen sus resultados con los de otros enfoques. Algunas de sus frases fueron objeto de debate, y conviene tomarlas como ideas para pensar y no como normas. Su estilo, a veces muy afirmativo, no reemplaza el criterio de cada profesional con cada familia.
+
 ## Un camino compartido
 
 Dolto no estuvo sola en el psicoanálisis de niños. En la Argentina, [Arminda Aberastury](/recursos/arminda-aberastury/) fue una figura central de esa misma preocupación por tomar en serio el mundo infantil. Y en Francia, el trabajo de [Maud Mannoni](/recursos/maud-mannoni/) llevó algunas de estas preguntas a instituciones para niños con graves dificultades.
+
+## Preguntas frecuentes
+
+### ¿Qué son las Casas Verdes?
+
+Son espacios de encuentro para niños pequeños acompañados por adultos, que Dolto impulsó en París en 1979. No son una guardería ni un consultorio.
+
+### ¿Hay que decirle siempre la verdad a un niño?
+
+Dolto proponía no mentirle sobre lo que le atañe, pero cada edad requiere un modo de decir. Decir la verdad no es decirlo todo, sino nombrar lo importante con palabras que pueda entender.
+
+### ¿Qué relación tiene Dolto con Lacan?
+
+Ambos pertenecieron al movimiento psicoanalítico francés y se conocieron, pero Dolto desarrolló su obra en la clínica con niños. Para la parte lacaniana, ver [Jacques Lacan](/recursos/jacques-lacan/).
 
 ## Para seguir leyendo
 

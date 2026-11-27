@@ -11,7 +11,7 @@ orden: 148
 estado: publicado
 respuesta: Erik Erikson (1902-1994) fue un psicoanalista nacido en Alemania que desarrolló su obra en Estados Unidos. Propuso que el desarrollo continúa durante toda la vida, en ocho etapas psicosociales, cada una con una tensión entre dos polos, como confianza y desconfianza en la infancia, identidad y confusión en la adolescencia, o integridad y desesperación en la vejez. Acuñó la expresión «crisis de identidad».
 menciona: erikson, psicoanalisis
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 ¿Quién soy? Erik Erikson conocía bien esa pregunta: nunca supo con certeza quién era su padre biológico. Formado con Anna Freud, se animó a ampliar el psicoanálisis: siguió el desarrollo hasta la vejez y lo pensó en relación con la sociedad. Cada etapa de la vida, decía, trae su propia pregunta.
 
@@ -45,6 +45,22 @@ Erikson describió ocho etapas, cada una con su tensión: **confianza** o descon
 Las etapas de Erikson se enseñan en todas las carreras de psicología y educación, y la idea de que el desarrollo no termina en la infancia es hoy un punto de partida. Su concepto de identidad sigue siendo central para pensar la adolescencia.
 
 En la consulta, me ayuda a ubicar qué pregunta vital está en juego para cada persona según su momento de la vida. Podés seguir con [las crisis vitales](/crisis-vitales/), con [Arminda Aberastury](/recursos/arminda-aberastury/) y los duelos de la adolescencia, o con [James Hollis](/recursos/james-hollis/) y la mitad de la vida.
+
+## Un ejemplo cotidiano
+
+Una chica de diecisiete años prueba ropa, grupos y planes: un año quiere ser música, al siguiente veterinaria. Desde afuera parece indecisión; para Erikson es un trabajo necesario. Y en el otro extremo, alguien de cincuenta que forma a los más jóvenes en su oficio o cuida a los nietos está en plena generatividad. Cada edad hace su pregunta: quién soy, con quién me comprometo, qué dejo.
+
+## Contexto histórico
+
+Erikson se formó entre Viena y Estados Unidos, en el cruce entre el psicoanálisis y la antropología. Sus estudios con comunidades originarias lo llevaron a pensar que cada cultura ofrece a sus jóvenes caminos distintos para construir una identidad. Aplicó la mirada a figuras históricas: *El joven Lutero* (1958) y *La verdad de Gandhi* (1969), que le valió el Pulitzer. Con el tiempo, otros investigadores pusieron a prueba sus ideas, como James Marcia, que en 1966 describió cuatro «estatus de identidad» según haya exploración y compromiso.
+
+## Cómo resuena en la práctica actual
+
+En la clínica con adolescentes y adultos jóvenes, la pregunta por la identidad sigue organizando el trabajo. La investigación sobre generatividad, como la de Dan McAdams, la estudió con cuestionarios, y se asocia con bienestar en la adultez. También orienta la mirada sobre [la crisis de la mitad de la vida](/recursos/crisis-de-la-mitad-de-la-vida/), [la crisis de los treinta](/recursos/la-crisis-de-los-treinta/) y las [transiciones vitales](/recursos/transiciones-vitales/). Para pensar los cambios del ciclo vital de forma práctica, está el [laboratorio de crisis vitales](/laboratorio-de-crisis-vitales/).
+
+## Matices y límites
+
+Las etapas de Erikson salieron de la observación clínica y de la cultura de Estados Unidos de mediados del siglo XX. No son pasos que se superan de una vez y para siempre ni siguen el mismo orden en todos: hay personas que revisan su identidad a los cuarenta o que transitan la intimidad antes de resolver la identidad. Tampoco hay edades exactas. Es un mapa orientador, no un baremo para evaluar si alguien «va bien». Comparalo con las etapas de [Jean Piaget](/recursos/jean-piaget/), que describen otro aspecto del desarrollo, el cognitivo.
 
 ## Preguntas frecuentes
 

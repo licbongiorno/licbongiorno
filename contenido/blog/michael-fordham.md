@@ -11,7 +11,7 @@ orden: 112
 estado: publicado
 respuesta: Michael Fordham (1905-1995) fue un psiquiatra infantil y analista junguiano inglés. Aplicó la psicología analítica a la infancia y propuso que el bebé nace con un self primario que se abre al mundo y vuelve a integrarse, en un ritmo de deintegración y reintegración. Fue cofundador de la Society of Analytical Psychology de Londres y coeditor de la obra completa de Jung en inglés.
 menciona: fordham, jung, psicologia-analitica
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Durante mucho tiempo, la psicología de Jung tuvo fama de servir sobre todo para adultos en la mitad de la vida. Jung mismo escribió poco sobre los primeros años. Michael Fordham, psiquiatra de niños, se preguntó qué pasa con el sí-mismo desde el nacimiento, y su respuesta abrió una escuela entera.
 
@@ -43,6 +43,22 @@ La imagen de Fordham es la de un self que respira: sale al encuentro del mundo y
 El analista Andrew Samuels, al ordenar las corrientes posjunguianas, distinguió una escuela clásica, una arquetipal y una evolutiva, que tiene en Fordham a su fundador. Gracias a él, la psicología analítica tiene hoy una teoría del desarrollo infantil y un diálogo fluido con el psicoanálisis.
 
 En mi trabajo, que une la psicología analítica con una base psicoanalítica, Fordham es una referencia directa: muestra que se puede pensar el sí-mismo y, a la vez, la historia temprana y el vínculo terapéutico. Podés seguir con [el yo y el sí-mismo](/recursos/el-yo-y-el-si-mismo/) o con [el apego](/recursos/el-apego/).
+
+## Un ejemplo cotidiano
+
+Un bebé llora de hambre, se agita con todo el cuerpo y, cuando lo alzan y lo alimentan, se aquieta. Para Fordham ahí hay un movimiento completo: el self se abrió hacia el mundo y la experiencia volvió a reunirse. Lo mismo se ve en adultos. Alguien se abre en una conversación íntima y después necesita un rato a solas para acomodar lo que sintió. No es retraimiento: es reintegración.
+
+## Contexto histórico
+
+Cuando Fordham empezó, en la década de 1930, el psicoanálisis de niños estaba en plena discusión entre [Anna Freud](/recursos/anna-freud/) y [Melanie Klein](/recursos/melanie-klein/), y la psicología analítica casi no había mirado a la infancia. Fordham tendió un puente: tomó la idea de Jung de un sí-mismo que ordena la psique y la llevó a los primeros meses de vida. Con el tiempo escribió también sobre lo que llamó las **defensas del self**: formas en que la persona se protege cuando el ambiente temprano falló.
+
+## Cómo resuena en la práctica actual
+
+La escuela de Londres formó a muchos analistas junguianos y es una de las bases del trabajo clínico que combina la psicología analítica con el psicoanálisis. Su atención a la transferencia y a la historia temprana dialoga con enfoques como los de [Donald Winnicott](/recursos/donald-winnicott/) y con la teoría del [apego](/recursos/el-apego/). Quien quiera practicar esa mirada puede recorrer el [recorrido junguiano](/laboratorio-recorrido-junguiano/).
+
+## Matices y límites
+
+El self primario es una hipótesis clínica, no algo que se pueda observar directamente. La investigación posterior sobre bebés, como la de Daniel Stern, mostró que desde muy temprano son activos y sensibles a los vínculos, lo que coincide con la intuición de Fordham, pero eso no prueba la teoría completa. Tampoco hay estudios que comparen el enfoque evolutivo con otros en resultados terapéuticos. Es una forma de pensar con valor clínico, no un protocolo con eficacia demostrada.
 
 ## Preguntas frecuentes
 

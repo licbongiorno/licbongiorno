@@ -11,7 +11,7 @@ orden: 158
 estado: publicado
 respuesta: Marie Langer (1910-1987) fue una médica y psicoanalista nacida en Viena que desarrolló su obra en la Argentina. Cofundó en 1942 la Asociación Psicoanalítica Argentina, escribió Maternidad y sexo (1951), un estudio pionero sobre la sexualidad femenina y los trastornos ligados a la maternidad, y sostuvo que el psicoanálisis debía pensar al sujeto en su contexto social. Exiliada en México desde 1974, trabajó también en salud mental en Nicaragua.
 menciona: langer, pichon-riviere, psicoanalisis
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 Viena, Madrid, Montevideo, Buenos Aires, Ciudad de México, Managua. La vida de Marie Langer, a quien todos llamaban Mimí, se puede contar por las ciudades a las que la llevaron el psicoanálisis, la política y el exilio. Y en cada una sostuvo la misma pregunta: cómo se cruzan el sufrimiento de una persona y la historia de su tiempo.
 
@@ -44,6 +44,22 @@ Langer insistió en que el sufrimiento de una persona no se entiende solo desde 
 Marie Langer es una de las fundadoras del psicoanálisis argentino y una pionera en pensar la mujer, el cuerpo y la maternidad desde una mirada que hoy llamaríamos de género. Su compromiso con la salud mental pública marcó a muchas generaciones de profesionales en América Latina.
 
 En la consulta, su idea de que el contexto también forma parte de lo que alguien trae ayuda a no reducir todo a lo individual. Podés seguir con [Enrique Pichon-Rivière](/recursos/enrique-pichon-riviere/) o con [maternidad y paternidad](/recursos/maternidad-y-paternidad/).
+
+## Un ejemplo cotidiano
+
+Una mujer recién madre siente cansancio y angustia, y además culpa por no sentirse plena como «se supone». Langer diría que ese malestar tiene una parte personal, su historia con su propia madre, y otra social: el mandato cultural de que la maternidad es pura felicidad. Escuchar solo una de las dos deja la mitad afuera. Lo mismo vale para alguien agotado por un trabajo inestable: no todo se explica por su infancia ni todo por la economía.
+
+## Contexto histórico
+
+Langer vivió el ascenso del nazismo, la Guerra Civil Española, la dictadura militar argentina y las guerras de Centroamérica. En 1971, con otros analistas, se alejó de la APA y formó el grupo Plataforma; ese recorrido está en [Marie Langer y Plataforma](/recursos/marie-langer-y-plataforma/). Su trayectoria es parte de la historia del psicoanálisis argentino, junto con [Enrique Pichon-Rivière](/recursos/enrique-pichon-riviere/), y se conecta con el trabajo grupal del [grupo operativo](/laboratorio-grupo-operativo/).
+
+## Cómo resuena en la práctica actual
+
+La idea de que el contexto forma parte de lo que alguien trae es hoy un lugar común en la salud mental comunitaria, en los enfoques con perspectiva de género y en la atención de personas afectadas por violencia política. Su trabajo sobre maternidad dialoga con lo que hoy se estudia en [duelo perinatal](/recursos/duelo-perinatal/) y en el acompañamiento del embarazo y el puerperio. Y [Silvia Bleichmar](/recursos/silvia-bleichmar/) retomó después la pregunta por la subjetividad y la historia.
+
+## Matices y límites
+
+*Maternidad y sexo* refleja el psicoanálisis de mediados del siglo XX. Algunas de sus hipótesis, como el origen psíquico de ciertas dificultades de fertilidad, no son hoy la explicación general: ante una esterilidad se estudian primero las causas médicas. Su valor está en la mirada, no en cada conclusión. Tampoco hay investigación que compare su enfoque con otros en resultados, y su compromiso político, que hizo a su obra más amplia, también generó discusiones dentro del psicoanálisis.
 
 ## Preguntas frecuentes
 
