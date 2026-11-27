@@ -11,7 +11,7 @@ orden: 132
 estado: publicado
 respuesta: La psicoterapia sensoriomotriz, creada por Pat Ogden, trabaja con el trauma y el apego a través del cuerpo. Entiende que las experiencias difíciles dejan patrones de movimiento y postura que funcionan como defensas, y busca ampliarlos de forma gradual. Integra neurobiología interpersonal y psicoterapia. Su investigación es todavía incipiente.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una persona que, cuando habla de algo doloroso, se encoge un poco los hombros. Otra que se queda muy quieta cuando alguien se acerca. Otra que mueve los pies sin parar mientras cuenta una historia que dice ya haber superado. La psicoterapia sensoriomotriz mira esos detalles como parte de la historia, y no sólo como síntomas que acompañan el relato.
 
@@ -44,3 +44,14 @@ Algunas de sus ideas, como la importancia de la regulación y del vínculo para 
 El trabajo con el trauma en el cuerpo puede activar recuerdos y emociones intensas. Es un abordaje que requiere formación y que conviene hacer con alguien que sepa cuándo pausar. Si la experiencia se vuelve abrumadora, se vuelve al apoyo, a la respiración y al contacto con el presente. Si hay riesgo, hay que buscar ayuda urgente, sin esperar a la siguiente sesión.
 
 Lecturas: Ogden, P., Minton, K. y Pain, C. (2006), *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*, W. W. Norton. Ogden, P. y Fisher, J. (2015), *Sensorimotor Psychotherapy: Interventions for Trauma and Attachment*, W. W. Norton.
+
+## Preguntas frecuentes
+
+### ¿Qué es la psicoterapia sensoriomotriz?
+Es un enfoque de Pat Ogden que incorpora el trabajo con el cuerpo a la psicoterapia del trauma. Parte de que las experiencias de amenaza, desamparo o vínculos inseguros no quedan solo en la memoria narrativa, sino también en patrones de movimiento y postura que funcionan como defensas.
+
+### ¿Cómo se trabaja en terapia?
+El terapeuta observa la respiración, la postura, el tono de voz y los pequeños movimientos, y propone explorarlos despacio. Primero se establece seguridad, después se contacta con la sensación y, cuando la persona lo tolera, se acompaña un movimiento que quedó interrumpido. La persona puede detenerse cuando lo necesite.
+
+### ¿Qué respaldo tiene?
+Hay descripciones clínicas, estudios de caso y algunos trabajos de investigación, pero todavía no hay suficientes ensayos controlados para compararla con otros tratamientos del trauma. Conviene leerla como un marco clínico prometedor y en desarrollo, no como una técnica validada.

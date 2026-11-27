@@ -79,6 +79,17 @@ Si leés estas consignas en un momento de mucho dolor y te hacen peor, es una se
 - [Meditación metta y compasión](/recursos/meditacion-metta-compasion/)
 - [Psicología budista](/recursos/psicologia-budista/)
 
+## Preguntas frecuentes
+
+### ¿Qué es el lojong?
+Es el «entrenamiento de la mente» del budismo tibetano: una práctica religiosa y ética con 59 consignas breves, organizadas en siete puntos, para tener presentes en la vida diaria. Se enseña dentro de un linaje, con un maestro, y apunta a aflojar el apego a uno mismo sin anularse.
+
+### ¿Es lo mismo que las terapias de compasión?
+No, la relación es de inspiración. Programas como CBCT (Universidad Emory) y CCT (Stanford) parten de la tradición con formato secular, y la terapia centrada en la compasión de Paul Gilbert o la autocompasión de Kristin Neff son desarrollos de la psicología con teorías propias. Una revisión de 2017 halló efectos moderados en intervenciones basadas en compasión, con limitaciones.
+
+### ¿Puede hacer daño alguna consigna?
+Sí, en ciertos casos. Una consigna como «echá todas las culpas a uno solo» puede ser dañina para alguien que ya carga con culpa excesiva o vive maltrato. Si algo te hace peor, es una señal legítima de que no es para vos ahora. El lojong no reemplaza una psicoterapia.
+
 ## Para seguir leyendo
 
 - Chödrön, P. (1994). *Start Where You Are: A Guide to Compassionate Living*. Shambhala.

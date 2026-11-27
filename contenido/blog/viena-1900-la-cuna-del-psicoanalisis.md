@@ -55,6 +55,17 @@ Hablar de «la cuna del psicoanálisis» no es decir que el psicoanálisis sea v
 
 La serie sigue en el [mapa de dónde nació la psicología](/recursos/donde-nacio-la-psicologia/), y los términos están en el [glosario de la psicología occidental](/glosario-de-la-psicologia-occidental/).
 
+## Preguntas frecuentes
+
+### ¿Por qué se dice que el psicoanálisis nació en Viena?
+Porque allí vivió y trabajó Freud durante casi cinco décadas, y en Viena se formó la Sociedad de los Miércoles (1902), luego Sociedad Psicoanalítica de Viena. Pero la teoría no nació solo allí: se nutrió de la neurología y la hipnosis francesas, la fisiología alemana y la discusión europea sobre la histeria.
+
+### ¿Qué fue la Sociedad de los Miércoles?
+Fue un grupo pequeño de médicos, entre ellos Stekel, Adler, Kahane y Reitler, que Freud invitó a su casa en 1902 para reunirse los miércoles por la noche. En 1908 se reorganizó como Sociedad Psicoanalítica de Viena, y en 1910 se fundó la Asociación Psicoanalítica Internacional.
+
+### ¿Qué pasó con el psicoanálisis vienés después de 1938?
+Con el Anschluss de marzo de 1938, la Gestapo allanó la casa de Freud y la Sociedad se disolvió. La mayor parte de sus miembros, judíos en su mayoría, se exilió, a Londres, Nueva York y otros lugares. Que la corriente tenga una historia rica no dice cuánto respaldo empírico tiene su teoría.
+
 ## Para seguir leyendo
 
 - Freud, S. (1895, con J. Breuer). *Estudios sobre la histeria*. Viena.

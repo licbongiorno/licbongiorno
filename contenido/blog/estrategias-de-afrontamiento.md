@@ -11,7 +11,7 @@ orden: 121
 estado: publicado
 respuesta: Afrontar es lo que hacemos para manejar una situación que nos exige o nos desborda. Según Lazarus y Folkman, se puede actuar sobre el problema o regular la emoción, y ambos son necesarios. Ninguna estrategia sirve para todo: lo que ayuda es leer la situación, tener varias herramientas y cambiar si una no funciona.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Un martes a la noche llega un mensaje de tu jefa: la entrega que esperabas para fin de mes se adelanta a este viernes. Se te cierra el pecho. A los diez minutos ya revisaste el celular cuatro veces, abriste una serie para no pensar y, en el medio, repasaste mentalmente lo que dijiste en la última reunión. Nada de eso resolvió la entrega, pero cada cosa fue un intento de manejar lo que te pasaba.
 
@@ -79,3 +79,14 @@ Si hay un consumo que te preocupa, el [laboratorio de alcohol y consumos](/labor
 - [Burnout](/recursos/burnout/) y [La resiliencia](/recursos/la-resiliencia/): dos artículos relacionados.
 
 Lecturas: Lazarus, R. S. y Folkman, S. (1984), *Stress, Appraisal, and Coping*, Springer. Folkman, S. y Moskowitz, J. T. (2004), «Coping: pitfalls and promise», *Annual Review of Psychology*, 55, 745–774. Bonanno, G. A. y Burton, C. L. (2013), «Regulatory flexibility: an individual differences perspective on coping and emotion regulation», *Perspectives on Psychological Science*, 8(6), 591–612. Aldao, A., Nolen-Hoeksema, S. y Schweizer, S. (2010), «Emotion regulation strategies across psychopathology: a meta-analysis», *Clinical Psychology Review*, 30, 217–237.
+
+## Preguntas frecuentes
+
+### ¿Cuál es la mejor estrategia de afrontamiento?
+No hay una mejor para todo. Lo que importa es la flexibilidad: leer la situación, tener varias estrategias disponibles y cambiar si la que usás no funciona. Distraerse puede servir en una espera y ser poco útil si se vuelve la respuesta a todo.
+
+### ¿Cuál es la diferencia entre afrontar el problema y afrontar la emoción?
+El afrontamiento centrado en el problema actúa sobre la situación, por ejemplo negociando un plazo o pidiendo ayuda. El centrado en la emoción regula lo que se siente, sobre todo cuando la situación no se puede cambiar. Se necesitan los dos y la clave es saber cuál pide el momento.
+
+### ¿Qué estrategias suelen empeorar las cosas?
+La rumiación, la evitación y la supresión se asociaron con más síntomas en un metaanálisis, aunque es una asociación y depende del contexto. Suelen aliviar al principio y empeorar después, igual que aislarse, tapar con alcohol o hacer de más hasta agotarse.

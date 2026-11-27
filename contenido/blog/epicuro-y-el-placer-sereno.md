@@ -81,6 +81,20 @@ Estas ideas no tratan la ansiedad, la depresión ni el duelo complicado. El argu
 
 Este artículo forma parte de la serie de psicología griega antigua: el [mapa de la psicología griega antigua](/recursos/mapa-de-la-psicologia-griega-antigua/) y el [glosario de psicología griega antigua](/glosario-de-psicologia-griega-antigua/) ordenan las escuelas. Para el contraste, mirá [los escépticos y la suspensión del juicio](/recursos/los-escepticos-y-la-suspension-del-juicio/), [Epicteto](/recursos/epicteto/) y el [laboratorio estoico](/laboratorio-estoico/).
 
+## Preguntas frecuentes
+
+### ¿Epicuro defendía una vida de excesos?
+
+No. Para él el placer más alto era la ausencia de dolor en el cuerpo y de perturbación en el alma, la ataraxia, y no los banquetes ni las fiestas. Según las fuentes, vivía de pan, agua y queso. El uso actual de «epicúreo» para hablar del que disfruta sin privarse de nada no refleja lo que enseñó.
+
+### ¿Qué es el tetrafármaco epicúreo?
+
+Es el «remedio de cuatro partes» de la escuela: no hay que temer a los dioses, no hay que preocuparse por la muerte, el bien es fácil de conseguir y el mal es fácil de soportar. Son ideas para pensar y practicar, no un tratamiento evaluado, y algunas, como la última, se discuten desde la antigüedad.
+
+### ¿Sirve la clasificación de los deseos para el malestar de hoy?
+
+Puede servir como ejercicio de reflexión: distingue deseos naturales y necesarios, naturales y no necesarios, y los vacíos, que no tienen límite. Coincide con la idea de que perseguir metas sin tope genera insatisfacción, pero no trata la ansiedad ni la depresión. Si el malestar dura o te impide vivir, consultá a un profesional.
+
 ## Para seguir leyendo
 
 - Diógenes Laercio. *Vidas y opiniones de los filósofos ilustres*, libro X (Epicuro).

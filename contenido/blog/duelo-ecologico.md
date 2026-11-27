@@ -11,7 +11,7 @@ orden: 111
 estado: publicado
 respuesta: El duelo ecológico es el dolor por pérdidas ecológicas experimentadas o anticipadas, como especies, ecosistemas o paisajes. Lo definieron Ashlee Cunsolo y Neville Ellis en 2018, en la revista Nature Climate Change. Se diferencia de la solastalgia, que es el malestar por el cambio del propio lugar, y de la ecoansiedad, que es una preocupación por el futuro; ninguno es un diagnóstico, y conviene consultar si interfiere con la vida diaria.
 menciona:
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 Un monte que se quemó, un arroyo que cambió de color, una especie que ya no se ve en el lugar de siempre. Hay pérdidas ambientales que duelen como una pérdida personal, aunque no tengan velorio ni nadie que las reconozca. En las sierras de Córdoba, quien vio arder un cerro que conocía desde chico sabe de qué se trata. La psicología empezó a nombrar estas experiencias como duelo ecológico, y a distinguirlas de otras cercanas, como la solastalgia y la ecoansiedad.
 
@@ -72,3 +72,17 @@ Si la pena o la angustia por el ambiente te impide trabajar, dormir o disfrutar 
 El [laboratorio de naturaleza y psique](/laboratorio-de-naturaleza-y-psique/) tiene una estación para distinguir duelo, solastalgia y ecoansiedad, escribir una pérdida ecológica concreta, y otra para pensar una acción proporcionada. También podés leer [Psicología y naturaleza](/recursos/psicologia-de-la-naturaleza/).
 
 Lecturas: Cunsolo, A. y Ellis, N. R. (2018), «Ecological grief as a mental health response to climate change-related loss», *Nature Climate Change*, 8, 275–281. Freud, S. (1917), «Duelo y melancolía». Doka, K. J. (ed.) (1989), *Disenfranchised Grief*, Lexington Books. Boss, P. (1999), *Ambiguous Loss*, Harvard University Press. Albrecht, G. y colaboradores (2007), «Solastalgia: the distress caused by environmental change», *Australasian Psychiatry*, 15(supl. 1), S95–S98. Clayton, S. (2020), «Climate anxiety: Psychological responses to climate change», *Journal of Anxiety Disorders*, 74, 102263. Hickman, C. y colaboradores (2021), «Climate anxiety in children and young people and their beliefs about government responses to climate change: a global survey», *The Lancet Planetary Health*, 5, e863–e873. Ojala, M. (2012), «Hope and climate change: the importance of hope for environmental engagement among young people», *Environmental Education Research*, 18(5), 625–642. Neff, K. D. (2003), *Self and Identity*, 2(2), 85–101.
+
+## Preguntas frecuentes
+
+### ¿Es normal sentir tristeza por la pérdida de un paisaje o una especie?
+
+Sí. Los investigadores describen el duelo ecológico como una respuesta esperable ante pérdidas ambientales vividas o anticipadas, aunque no tengan rito ni reconocimiento social. No es un diagnóstico. Conviene consultar si el malestar impide dormir, trabajar o disfrutar, o si aparece desesperanza.
+
+### ¿En qué se diferencian duelo ecológico, solastalgia y ecoansiedad?
+
+El duelo ecológico mira lo que ya se perdió o se anticipa perder. La solastalgia es el malestar por el cambio del propio lugar mientras uno sigue viviendo en él. La ecoansiedad es más amplia: la preocupación por el estado del ambiente y el futuro. Sus caminos de cuidado pueden ser distintos.
+
+### ¿Qué ayuda a transitar este duelo?
+
+No hay un protocolo validado, pero se mencionan algunas orientaciones: nombrar concretamente qué se perdió, compartirlo con otros, hacer un gesto o ritual propio, buscar una acción proporcionada a lo que uno puede sostener y cuidar el cuerpo. Si el malestar se vuelve intenso o persistente, corresponde consultar a un profesional.

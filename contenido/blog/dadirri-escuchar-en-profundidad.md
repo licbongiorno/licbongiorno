@@ -67,6 +67,17 @@ Escuchar con calma ayuda a muchas personas, pero no reemplaza una consulta cuand
 
 Este texto es parte de la serie sobre la psicología aborigen australiana. Empezá por [el mapa de la psicología aborigen australiana](/recursos/mapa-de-la-psicologia-aborigen-australiana/) y mirá el [glosario de psicología aborigen australiana](/glosario-de-psicologia-aborigen-australiana/). Seguí con [las Generaciones Robadas y Bringing Them Home](/recursos/generaciones-robadas-y-bringing-them-home/) y [el bienestar social y emocional aborigen](/recursos/bienestar-social-y-emocional-aborigen/). Para la comparación con otras tradiciones: [el mapa de los saberes psicológicos de los pueblos originarios](/recursos/mapa-de-los-saberes-psicologicos-de-los-pueblos-originarios/).
 
+## Preguntas frecuentes
+
+### ¿Qué significa dadirri?
+Es el nombre que Miriam-Rose Ungunmerr-Baumann, anciana de la comunidad de Nauiyu (Daly River, Australia), da a una escucha profunda y una quietud atenta: escuchar la tierra, el agua y a las demás personas, esperando con paciencia. Se vive en comunidad y se aprende conviviendo, más que con pasos.
+
+### ¿Dadirri es lo mismo que el mindfulness?
+No. Se parecen en la atención y el silencio, pero tienen otro origen, otra lengua y otro sentido comunitario y espiritual. El mindfulness clínico viene de la tradición budista y tiene mucha investigación; dadirri no tiene ensayos clínicos y no se propone como tratamiento.
+
+### ¿Puedo usar dadirri en mi práctica o mis talleres?
+Se puede mencionar como inspiración, nombrando la fuente (Ungunmerr-Baumann, su pueblo y lugar) y priorizando las voces aborígenes. Conviene no venderlo como técnica ni ofrecer «talleres de dadirri» sin vínculo con la comunidad.
+
 ## Para seguir leyendo
 
 - Ungunmerr-Baumann, M.-R. *Dadirri: Inner Deep Listening and Quiet Still Awareness*. Fundación Miriam Rose (Nauiyu, Territorio del Norte).

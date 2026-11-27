@@ -11,7 +11,7 @@ orden: 140
 estado: publicado
 respuesta: El yoga sensible al trauma adapta la práctica para que la persona elija, vaya a su ritmo y no reciba contacto físico sin consentimiento. Un ensayo aleatorizado de 2014 con 64 mujeres con TEPT crónico mostró que, tras 10 semanas, 52 % del grupo de yoga ya no cumplía criterios de TEPT, frente a 21 % del control. Es un complemento del tratamiento, no un reemplazo.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una clase de yoga, la profesora pasa entre las colchonetas y corrige una postura apoyando la mano en la espalda de alguien. Para la mayoría es un gesto neutro. Para una persona con una historia de violencia puede ser lo contrario: un contacto que no pidió, de alguien que no vio venir. El yoga sensible al trauma nace de tomar en serio esa diferencia.
 
@@ -51,3 +51,17 @@ Podés situar el yoga entre otras propuestas en [el mapa de las psicoterapias co
 Sobre el libro más conocido de van der Kolk y sus críticas, leé [«El cuerpo lleva la cuenta»](/recursos/el-cuerpo-lleva-la-cuenta/).
 
 Lecturas: van der Kolk, B. A., Stone, L., West, J., Rhodes, A., Emerson, D., Suvak, M. y Spinazzola, J. (2014), «Yoga as an adjunctive treatment for posttraumatic stress disorder: a randomized controlled trial», *Journal of Clinical Psychiatry*, 75(6), e559–e565.
+
+## Preguntas frecuentes
+
+### ¿Qué diferencia al yoga sensible al trauma de una clase común?
+
+Se cuida el lenguaje y el ambiente tanto como las posturas: se invita en lugar de mandar, la persona elige qué hacer, cómo y cuándo (incluso no hacer nada), sigue su ritmo y no hay contacto físico sin consentimiento. La idea es que el cuerpo vuelva a ser un lugar donde se decide.
+
+### ¿Sirve para el estrés postraumático?
+
+Un ensayo aleatorizado con 64 mujeres con TEPT crónico resistente al tratamiento encontró que 52 % del grupo de yoga ya no cumplía criterios, frente a 21 % del control. Es un ensayo chico y, hasta donde se sabe, el único de su tipo, así que son resultados prometedores que necesitan réplicas.
+
+### ¿Reemplaza a la psicoterapia o la medicación?
+
+No. Es un complemento del tratamiento, y así se evaluó en el ensayo. Quien está en psicoterapia o con medicación no debería abandonarlas por empezar yoga, y conviene que quien conduce la clase tenga formación específica en trauma.

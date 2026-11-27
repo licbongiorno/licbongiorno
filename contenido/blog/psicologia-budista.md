@@ -11,7 +11,7 @@ orden: 158
 estado: publicado
 respuesta: La psicología budista es el conjunto de ideas del budismo sobre la mente, el sufrimiento y su alivio: las cuatro nobles verdades, las tres características de la existencia, el apego como fuente de malestar y el análisis de los estados mentales. En Occidente llegó sobre todo a través del mindfulness y la compasión. La meditación no es para todos ni en todo momento.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien se sienta en una sala silenciosa y se propone seguir la respiración. A los diez segundos ya está repasando una discusión de ayer, y a los veinte se da cuenta de que se fue. Ese pequeño vaivén, notar que la mente se distrajo y volver, es una de las prácticas más antiguas de la psicología budista, y también una de las que más se estudian hoy.
 
@@ -48,3 +48,14 @@ Podés ubicar esta tradición dentro del conjunto en [el mapa de las psicología
 El budismo que llegó a Occidente como zen nació en China como [chan](/recursos/chan-el-budismo-chino/).
 
 Lecturas: Varela, F. J., Thompson, E. y Rosch, E. (1991), *The Embodied Mind: Cognitive Science and Human Experience*, MIT Press. Varela, F. J. (1996), «Neurophenomenology: a methodological remedy for the hard problem», *Journal of Consciousness Studies*, 3(4), 330–349.
+
+## Preguntas frecuentes
+
+### ¿Qué es la psicología budista?
+Es el conjunto de enseñanzas budistas que describen cómo funciona la mente, como las cuatro nobles verdades, la impermanencia, el apego y el análisis de estados mentales del Abhidhamma. Nació como camino religioso y filosófico para aliviar el sufrimiento, no como disciplina científica.
+
+### ¿Qué relación tiene con el mindfulness?
+El mindfulness occidental, impulsado por figuras como Jon Kabat-Zinn, toma de la tradición budista el entrenamiento de la atención al momento presente, por ejemplo en la meditación vipassana. Francisco Varela fue otro puente, con el Mind and Life Institute y la neurofenomenología.
+
+### ¿Tiene respaldo científico?
+Depende del plano. La idea de no-yo o el sentido de las cuatro nobles verdades son una visión del mundo y no se comprueban con un experimento; la neurofenomenología es un método en desarrollo; y la evidencia empírica depende de cada práctica y cada problema. Además, la meditación no es recomendable para todas las personas en todo momento, por ejemplo durante una crisis.

@@ -59,6 +59,20 @@ Si te sentís mal, consultá con un profesional. Ante riesgo para vos o para otr
 - [Mapa de la psicología islámica medieval](/recursos/mapa-de-la-psicologia-islamica-medieval/)
 - [Crisis espiritual](/recursos/crisis-espiritual/)
 
+## Preguntas frecuentes
+
+### ¿Al-Ghazali tuvo una depresión?
+
+No se puede afirmar. Los síntomas que describe (afonía, problemas digestivos, desgano) pueden tener muchos orígenes, y el relato lo escribió él años después, con intención religiosa y ejemplar. Aplicar un diagnóstico actual a un hombre del siglo XI es especular; él mismo lo vivió como una crisis de fe y de sinceridad.
+
+### ¿Qué dice Al-Ghazali sobre la duda y la certeza?
+
+En «El liberador del error» cuenta que atravesó una duda radical, incluso sobre los sentidos y la razón, durante unos dos meses. Dice que la salida no vino de un argumento sino de «una luz» que sintió en el pecho. Para él, ese reconocimiento directo, y no la demostración, era la base de la certeza.
+
+### ¿Sirve su historia para quien está en una crisis de sentido?
+
+Puede resonar con quien siente que su rol exitoso perdió significado, pero no funciona como modelo a imitar. Su decisión de dejarlo todo respondió a medios y circunstancias muy particulares, y tuvo costos para otros. Si el malestar es intenso, con insomnio, falta de apetito o desesperanza, conviene consultar a un profesional.
+
 ## Para seguir leyendo
 
 - Al-Ghazali. *Al-Munqidh min al-dalal*. Trad. inglesa de W. M. Watt (1953), *The Faith and Practice of Al-Ghazali*. George Allen & Unwin.

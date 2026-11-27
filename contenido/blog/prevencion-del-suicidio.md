@@ -11,7 +11,7 @@ orden: 181
 estado: publicado
 respuesta: Si te preocupa una persona o tenés pensamientos de morir, preguntar directamente y escuchar sin juzgar ayuda y no instala la idea. Un plan de seguridad escrito y el acompañamiento profesional reducen el riesgo. En Argentina podés llamar al 135 (CABA y GBA) o al 0800-345-1435; si el riesgo es inmediato, al 911.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Un amigo que hace semanas contesta con monosílabos escribe un mensaje a la madrugada: «A veces pienso que sería mejor para todos si yo no estuviera». Quien lo lee queda con el celular en la mano, con miedo de decir algo que empeore las cosas. Esa duda es muy común, y tiene una respuesta bastante clara: hablar con la persona, con calma y con franqueza, es una de las formas de ayuda con más respaldo.
 
@@ -80,3 +80,14 @@ Acompañar a alguien en este estado cansa y asusta. No tenés que resolverlo sol
 Un caso que muestra la importancia de las políticas públicas de prevención es el de [la salud mental en Corea](/recursos/salud-mental-en-corea/).
 
 Lecturas: Dazzi, T., Gribble, R., Wessely, S. y Fear, N. T. (2014), «Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?», *Psychological Medicine*. Stanley, B. y Brown, G. K. (2012), «Safety planning intervention: a brief intervention to mitigate suicide risk», *Cognitive and Behavioral Practice*, 19(2), 256–264.
+
+## Preguntas frecuentes
+
+### ¿Preguntarle a alguien si piensa en suicidarse puede empeorar las cosas?
+No. Una revisión de la evidencia (Dazzi y colaboradores, 2014) encontró que, en los estudios revisados, preguntar por pensamientos suicidas no aumentó la ideación suicida. Conviene preguntar de forma directa y sin rodeos, y después escuchar sin interrumpir, sin discutir y sin minimizar.
+
+### ¿Cuáles son las señales de alarma?
+Hablar de querer morir o de ser una carga, despedirse de manera inusual, aislarse, tener cambios bruscos de ánimo o de conducta, o aumentar el consumo de alcohol u otras sustancias. Ninguna prueba nada por sí sola, pero justifican una pregunta. Si el riesgo es inmediato, llamá al 911 o al Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435.
+
+### ¿Qué es un plan de seguridad?
+Es un documento breve, escrito por la persona con ayuda de un profesional, para tener a mano en una crisis: incluye sus señales de alarma, estrategias propias, personas de contacto y recursos de ayuda. Un estudio de 2018 en *JAMA Psychiatry* lo asoció con menos conductas suicidas cuando se combinaba con seguimiento telefónico.

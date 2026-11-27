@@ -11,7 +11,7 @@ orden: 120
 estado: publicado
 respuesta: Tu mejor versión no es la más exigente ni la que cumple con todo. Es la más fiel a lo que te importa, más amable con vos y sostenible en el tiempo. Si la imagen que tenés en mente te angustia más de lo que te orienta, probablemente no sea tuya o se haya vuelto perfeccionismo.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Es domingo a la noche y abrís una lista que empezaste en enero: levantarte temprano, leer más, hacer ejercicio, ser más paciente, ahorrar. Ya es noviembre. Mirás la lista y no sentís ganas de cambiar, sentís cansancio y algo parecido a la culpa. La idea de «ser tu mejor versión» estaba pensada para orientarte, pero esa noche pesa como una sentencia.
 
@@ -82,3 +82,14 @@ Si la autoexigencia te produce mucho malestar, ansiedad, dificultades con la com
 - [Test de fortalezas](/test-de-fortalezas/)
 
 Lecturas: Markus, H. y Nurius, P. (1986), «Possible selves», *American Psychologist*, 41(9), 954–969. Higgins, E. T. (1987), «Self-discrepancy: a theory relating self and affect», *Psychological Review*, 94(3), 319–340. King, L. A. (2001), «The health benefits of writing about life goals», *Personality and Social Psychology Bulletin*, 27(7), 798–807. Carrillo, A. y colaboradores (2019), «Effects of the Best Possible Self intervention: A systematic review and meta-analysis», *PLoS ONE*. Hewitt, P. L. y Flett, G. L. (1991), «Perfectionism in the self and social contexts», *Journal of Personality and Social Psychology*, 60(3), 456–470. Curran, T. y Hill, A. P. (2019), «Perfectionism is increasing over time», *Psychological Bulletin*, 145(4), 410–429. Neff, K. D. (2003), «Self-compassion: an alternative conceptualization of a healthy attitude toward oneself», *Self and Identity*, 2(2), 85–101. Hayes, S. C., Strosahl, K. D. y Wilson, K. G. (1999), *Acceptance and Commitment Therapy*, Guilford.
+
+## Preguntas frecuentes
+
+### ¿Qué son los «yo posibles»?
+Es un concepto que Hazel Markus y Paula Nurius propusieron en 1986: versiones imaginadas de uno mismo que expresan valores, metas y esperanzas, pero también miedos, como el yo que uno teme llegar a ser. Matiza la idea de una única «mejor versión»: lo que existe es un conjunto de posibilidades entre las que la persona elige.
+
+### ¿Cuándo la búsqueda de la mejor versión se vuelve perfeccionismo?
+Cuando nunca alcanza porque cada logro sube la vara, el error se vive como prueba de no valer, se posterga por miedo a no hacerlo perfecto o la «mejor versión» suena a la voz de otro. Imaginar una versión mejor puede servir de brújula; exigirse una versión perfecta no tiene final y desgasta.
+
+### ¿Sirve el ejercicio de escribir sobre el mejor yo posible?
+Hay respaldo modesto. Un metaanálisis de 2019 con 29 estudios encontró efectos pequeños a moderados en optimismo, bienestar y afecto positivo frente a grupos control. No es una solución para el malestar intenso, y si la autoexigencia te produce mucha ansiedad conviene consultar con un profesional.

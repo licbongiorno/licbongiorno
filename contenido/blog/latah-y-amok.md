@@ -62,6 +62,17 @@ Si una reacción de sobresalto, una crisis de enojo o un episodio de violencia t
 - [Dhat y síndromes culturales de la India](/recursos/dhat-y-sindromes-culturales-de-la-india/)
 - [Oriente y Occidente: psicología cultural](/recursos/oriente-y-occidente-psicologia-cultural/)
 
+## Preguntas frecuentes
+
+### ¿Qué son el latah y el amok?
+El latah es una reacción de sobresalto exagerada, a veces con repetición de lo que dice otro o imitación de sus gestos, descrita sobre todo en Malasia e Indonesia. El amok es un episodio de violencia súbita, casi siempre en varones, tras un período de aislamiento. Entraron a la psiquiatría occidental como «síndromes ligados a la cultura».
+
+### ¿Siguen siendo diagnósticos actuales?
+No. El DSM-5 abandonó la etiqueta de síndromes ligados a la cultura y ni el latah ni el amok aparecen en su glosario de conceptos culturales de malestar. La psiquiatría contemporánea evalúa cada situación de violencia o de sobresalto por sus factores individuales, sociales y de salud.
+
+### ¿Qué muestra la crítica histórica sobre estas categorías?
+Que las descripciones coloniales eran parciales: historiadores como John Spores mostraron que la imagen del amok mezcló hechos reales con construcciones útiles a la administración colonial. No se sabe con acuerdo qué son hoy: un reflejo, un rol social, un cuadro psiquiátrico o nada de eso.
+
 ## Para seguir leyendo
 
 - Spores, J. C. (1988). *Running Amok: An Historical Inquiry*. Athens: Ohio University Press.

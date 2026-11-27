@@ -11,7 +11,7 @@ orden: 118
 estado: publicado
 respuesta: En la clasificación de Peterson y Seligman (2004), la templanza agrupa cuatro fortalezas que protegen contra los excesos: perdón, humildad, prudencia y autorregulación. Hay investigación relevante sobre el perdón y el autocontrol, con efectos reales pero moderados. Son también las fortalezas que menos personas reconocen como propias en los estudios internacionales.
 menciona: seligman, maslow, humanista
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 La palabra templanza suena antigua, casi de sermón. Pero lo que nombra es muy actual: la capacidad de no dejarse arrastrar por el enojo, por la propia imagen, por el impulso del momento. En la consulta aparece todo el tiempo, aunque nadie la llame así. Alguien que no puede dejar de pensar en una ofensa, alguien que no tolera equivocarse, alguien que gasta lo que no tiene. La psicología positiva reunió bajo esta virtud cuatro fortalezas que, cada una a su modo, ponen un freno.
 
@@ -82,6 +82,17 @@ El [test de fortalezas](/test-de-fortalezas/) del sitio es un autorreporte de el
 ## Para probarlo
 
 En el [laboratorio de fortalezas de la psicología positiva](/laboratorio-psicologia-positiva-fortalezas/) hay ejercicios para identificar tus fortalezas y usarlas de otra manera, y en el [laboratorio de fortalezas y virtudes](/laboratorio-de-fortalezas-y-virtudes/) se recorren las seis virtudes. La serie incluye la [sabiduría y el conocimiento](/recursos/fortalezas-sabiduria-y-conocimiento/), el [coraje](/recursos/fortalezas-coraje/), la [humanidad](/recursos/fortalezas-humanidad/), la [justicia](/recursos/fortalezas-justicia/) y la [trascendencia](/recursos/fortalezas-trascendencia/).
+
+## Preguntas frecuentes
+
+### ¿Qué fortalezas forman parte de la templanza?
+En el marco de Peterson y Seligman (2004), la templanza incluye perdón, humildad, prudencia y autorregulación.
+
+### ¿Perdonar significa reconciliarse u olvidar?
+No. El perdón no obliga a volver a un vínculo ni a olvidar, y nadie está obligado a perdonar. Exigirle perdón a una víctima, o usarlo para que el daño continúe, lo vuelve una exigencia dañina y no una fortaleza.
+
+### ¿La humildad es tener baja autoestima?
+No. Tangney (2000) la entiende como una visión ajustada de uno mismo: reconocer las propias limitaciones y también lo que uno hace bien. Se confunde con desvalorización cuando alguien no puede reconocer sus logros.
 
 ## Para seguir leyendo
 

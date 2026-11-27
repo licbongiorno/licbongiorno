@@ -11,7 +11,7 @@ orden: 172
 estado: publicado
 respuesta: Los trastornos de la conducta alimentaria (anorexia nerviosa, bulimia nerviosa y trastorno por atracón) son problemas de salud serios, no una elección ni una cuestión de voluntad. Tienen tratamientos con respaldo, que requieren un equipo de psicología, medicina y nutrición. Cuanto antes se consulta, mejores son las posibilidades.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una familia que, en las cenas, empieza a notar que todo gira alrededor de la comida: las conversaciones se tensan, alguien se levanta de la mesa, los comentarios bienintencionados caen mal. Nadie sabe bien qué está pasando ni qué decir. Detrás de escenas así suele haber algo más profundo que una dificultad con la alimentación, y vale la pena entenderlo antes de intervenir.
 
@@ -67,3 +67,14 @@ Si hay pensamientos de hacerse daño o riesgo para la vida, no esperes: mirá [a
 - [Ayuda urgente](/ayuda-urgente/)
 
 Lecturas: Arcelus, J., Mitchell, A. J., Wales, J. y Nielsen, S. (2011), «Mortality rates in patients with anorexia nervosa and other eating disorders: a meta-analysis of 36 studies», *Archives of General Psychiatry*, 68(7), 724–731. Fairburn, C. G. (2008), *Cognitive Behavior Therapy and Eating Disorders*, Guilford. Lock, J. y Le Grange, D., *Treatment Manual for Anorexia Nervosa: A Family-Based Approach*, Guilford.
+
+## Preguntas frecuentes
+
+### ¿Los trastornos de la conducta alimentaria son una cuestión de voluntad o de vanidad?
+No. Son cuadros complejos en los que se combinan factores biológicos, psicológicos, familiares y sociales, y en los que la persona suele sentir que no puede hacer otra cosa. La perfección, la autoexigencia y la dificultad para tolerar emociones intensas aparecen con frecuencia.
+
+### ¿Qué tratamientos tienen respaldo?
+En adultos, la terapia cognitivo-conductual mejorada (CBT-E) de Fairburn; en adolescentes con anorexia, el tratamiento basado en la familia de Lock y Le Grange, donde la familia es parte activa de la recuperación y no la culpable. En ambos casos se necesita un equipo de psicología, medicina y nutrición. La recuperación es posible, aunque no suele ser lineal.
+
+### ¿Cómo acompañar a alguien que podría tener un TCA?
+Hablá a solas, con calma y desde la preocupación por la persona, no desde la comida. No comentes su cuerpo ni lo que come, ni para bien ni para mal, y evitá el control y los ultimátums. Escuchá y ofrecé ayuda concreta para buscar un profesional. No hace falta esperar a que sea «lo bastante grave».

@@ -11,7 +11,7 @@ orden: 207
 estado: publicado
 respuesta: La infidelidad es un motivo frecuente de consulta en terapia de pareja. Quien la descubre suele reaccionar de un modo parecido al trauma, con shock, pensamientos repetitivos y desconfianza. Gordon, Baucom y Snyder proponen un abordaje en etapas: impacto, comprensión de cómo ocurrió y seguir adelante, juntos o separados. El perdón no es obligatorio ni inmediato, y no hace falta decidir con apuro.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Un mensaje que se ve por casualidad en una pantalla. Una explicación que no cierra. Una pregunta que se hace y una respuesta que llega demasiado tarde. Para muchas personas, el momento en que descubren una infidelidad queda dividido en un antes y un después: lo que creían saber de su historia, de su pareja y de sí mismas deja de ser firme de un día para el otro.
 
@@ -59,3 +59,17 @@ Esta nota es información general y no reemplaza una consulta. Cada pareja tiene
 Si están pensando en consultar juntos, en [terapia de pareja](/recursos/terapia-de-pareja/) cuento cuándo sirve y qué enfoques tienen respaldo.
 
 Lecturas: Gordon, K. C., Baucom, D. H. y Snyder, D. K. (2004), «An integrative intervention for promoting recovery from extramarital affairs», *Journal of Marital and Family Therapy*, 30(2), 213–231.
+
+## Preguntas frecuentes
+
+### ¿Es normal sentirse como después de un golpe al descubrir una infidelidad?
+
+Sí. Muchas personas describen shock, dificultad para dormir o concentrarse, pensamientos que vuelven a la misma escena y alternancia entre furia y tristeza. La reacción puede parecerse a la de un trauma y es comprensible ante la ruptura de una confianza. Si los síntomas no ceden, conviene consultar.
+
+### ¿Hay que perdonar para poder seguir?
+
+No. El perdón puede llegar o no, y si llega, lleva tiempo. Perdonar y volver a convivir son cosas distintas: hay parejas que se reconstruyen sin una gran escena de perdón y personas que perdonan y aun así se separan. Presionar para que «ya lo supere» suele sumar una segunda herida.
+
+### ¿Cómo se trabaja una infidelidad en terapia de pareja?
+
+Hay abordajes estructurados en etapas, como el de Gordon, Baucom y Snyder: primero se trabaja el impacto y se evitan decisiones precipitadas, luego se busca comprender cómo ocurrió sin justificar ni repartir culpas, y por último se define cómo seguir, juntos o separados. No hay una fórmula que garantice que la pareja se salve ni que deba terminar.

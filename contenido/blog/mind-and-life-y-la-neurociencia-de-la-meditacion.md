@@ -67,6 +67,17 @@ Mind & Life sigue siendo un caso interesante de diálogo respetuoso entre una tr
 - [Qué es la meditación](/recursos/que-es-la-meditacion/)
 - [Meditación en Occidente](/recursos/meditacion-en-occidente/)
 
+## Preguntas frecuentes
+
+### ¿Qué es el Mind & Life Institute?
+Es una organización que nació de las reuniones del Dalái Lama con el neurobiólogo Francisco Varela y otros científicos desde 1987, y se formalizó en 1991. Propone un diálogo entre la ciencia y el budismo, no que los dos digan lo mismo.
+
+### ¿Es verdad que los monjes tienen un cerebro distinto?
+Hay estudios que encontraron diferencias, como el de Lutz y colegas (2004) sobre actividad gamma, pero con muestras chicas y comparando personas distintas de entrada, así que no se sabe si la práctica produjo esa diferencia. Los resultados de meditadores con decenas de miles de horas tampoco se pueden extrapolar a quien medita veinte minutos por día.
+
+### ¿Qué críticas tiene esta línea de investigación?
+Muestras pequeñas, pocas réplicas grandes, efectos de expectativa e interpretaciones técnicas discutidas. Las críticas vienen también desde dentro del campo, como el artículo de Davidson y Kaszniak (2015) o la revisión «Mind the hype» (2018). Mind & Life es un caso de diálogo respetuoso, no un sello de garantía para la meditación.
+
 ## Para seguir leyendo
 
 - Lutz, A., Greischar, L. L., Rawlings, N. B., Ricard, M. y Davidson, R. J. (2004). «Long-term meditators self-induce high-amplitude gamma synchrony during mental practice». *PNAS*, 101(46), 16369-16373.

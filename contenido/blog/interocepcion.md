@@ -11,7 +11,7 @@ orden: 141
 estado: publicado
 respuesta: La interocepción es el proceso por el que el sistema nervioso percibe, interpreta e integra señales que vienen del interior del cuerpo. Su alteración se reconoce cada vez más en trastornos de ansiedad, del ánimo, de la conducta alimentaria, adicciones y síntomas somáticos. Notar más no siempre es mejor: en el pánico, la atención ansiosa a las sensaciones puede empeorar el cuadro.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Antes de una exposición oral el corazón late más fuerte, la boca se seca y el estómago se aprieta. Una persona lo registra y piensa «estoy nerviosa, es normal». Otra siente lo mismo y concluye «me pasa algo grave». Las señales son parecidas; lo que cambia es cómo se perciben y se interpretan. De eso se ocupa la interocepción.
 
@@ -57,3 +57,14 @@ Para ver dónde entra el cuerpo en la psicoterapia, [el mapa de las psicoterapia
 Cómo se relacionan la atención al cuerpo, el miedo y el dolor que persiste lo cuento en [dolor crónico y psicología](/recursos/dolor-cronico-y-psicologia/).
 
 Lecturas: Khalsa, S. S. y colaboradores (2018), «Interoception and Mental Health: A Roadmap», *Biological Psychiatry: Cognitive Neuroscience and Neuroimaging*, 3(6), 501–513. Craig, A. D. (2002), «How do you feel? Interoception: the sense of the physiological condition of the body», *Nature Reviews Neuroscience*, 3, 655–666. Mehling, W. E. y colaboradores (2012), «The Multidimensional Assessment of Interoceptive Awareness (MAIA)», *PLoS ONE*.
+
+## Preguntas frecuentes
+
+### ¿Qué es la interocepción?
+Es el proceso por el que el sistema nervioso percibe, interpreta e integra señales del interior del cuerpo, como el hambre, el latido o la respiración. No es solo recibir la señal, sino también cómo se la interpreta: dos personas con el mismo latido pueden vivirlo de manera muy distinta.
+
+### ¿Prestar más atención al cuerpo es siempre mejor?
+No. En el pánico, la atención ansiosa a las sensaciones puede empeorar el cuadro, porque cada latido se vuelve una señal de peligro. Lo que se busca es una relación flexible con las señales internas, que permita registrarlas sin quedar atrapado en ellas.
+
+### ¿Cómo se mide la interocepción?
+Con cuestionarios como el MAIA, de 32 ítems y ocho escalas, y su versión MAIA-2, de 37 ítems. El test de conciencia corporal del sitio es propio e inspirado en esas dimensiones, pero no es el MAIA. Hay un marco compartido y herramientas de medición, pero todavía no está resuelto qué intervenciones mejoran la interocepción para cada cuadro.

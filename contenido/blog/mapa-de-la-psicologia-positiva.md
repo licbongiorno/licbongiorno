@@ -11,7 +11,7 @@ orden: 171
 estado: publicado
 respuesta: La psicología positiva estudia lo que funciona bien en las personas (fortalezas, sentido, vínculos), sin negar el sufrimiento. Peterson y Seligman (2004) clasificaron 24 fortalezas en 6 virtudes, y Wong (2011) propuso una versión 2.0 que integra el dolor y el sentido. Su riesgo es la positividad forzada, que convierte el bienestar en obligación.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 En una cena, alguien cuenta que perdió el trabajo y otra persona le responde: «Pensá en positivo, todo pasa por algo». La frase pretende ayudar y deja a quien la recibe más solo. Ese malentendido es el que conviene despejar primero: la psicología positiva, en su versión seria, no pide estar bien. Estudia qué funciona bien en las personas y qué ayuda a sostenerlo, incluso cuando hay dolor.
 
@@ -75,3 +75,14 @@ Para llevar estos temas a la práctica:
 - El [índice de bienestar WHO-5](/indice-de-bienestar-who-5/) de la OMS mide en cinco preguntas cuánto bienestar hubo en tus últimas dos semanas.
 
 Lecturas: Peterson, C. y Seligman, M. E. P. (2004), *Character Strengths and Virtues*, Oxford University Press. Wong, P. T. P. (2011), «Positive psychology 2.0: towards a balanced interactive model of the good life», *Canadian Psychology*. Carrillo, A. et al. (2019), metaanálisis sobre el ejercicio del mejor yo posible. Curran, T. y Hill, A. P. (2019), «Perfectionism is increasing over time», *Psychological Bulletin*.
+
+## Preguntas frecuentes
+
+### ¿La psicología positiva es pensar en positivo?
+No. Es un campo que investiga fortalezas, emociones agradables, vínculos, sentido y compromiso, además de lo que falla. Ninguna investigación seria afirma que pensar en positivo cura ni que haya que estar bien todo el tiempo.
+
+### ¿Qué respaldo tiene?
+Hay evidencia de que algunas intervenciones sencillas ayudan con efectos modestos; por ejemplo, el ejercicio del mejor yo posible mostró efectos entre pequeños y moderados. Las clasificaciones de fortalezas son marcos para pensar y no demuestran por sí solas que trabajar una fortaleza mejore la vida de cualquiera.
+
+### ¿Sirve si estoy deprimido o sin ganas hace semanas?
+No es un problema de actitud ni de falta de ejercicios: puede ser depresión y merece una consulta profesional. Usada con criterio, la psicología positiva deja lugar a la tristeza, el enojo y la duda.

@@ -61,6 +61,17 @@ Si tenés ataques de falta de aire, mareo intenso o palpitaciones, consultá pri
 
 Este texto es parte de la serie sobre las psicologías del sudeste asiático. Empezá por [el mapa de las psicologías del sudeste asiático](/recursos/mapa-de-las-psicologias-del-sudeste-asiatico/) y consultá el [glosario de psicologías del sudeste asiático](/glosario-de-psicologias-del-sudeste-asiatico/). Seguí con [Thich Nhat Hanh y el interser](/recursos/thich-nhat-hanh-y-el-interser/) y [kreng jai y la cortesía tailandesa](/recursos/kreng-jai-y-la-cortesia-tailandesa/). Para una lectura más amplia de cómo la cultura moldea el malestar, [Oriente y Occidente: psicología cultural](/recursos/oriente-y-occidente-psicologia-cultural/).
 
+## Preguntas frecuentes
+
+### ¿Qué es un khyâl cap?
+Es el «ataque de viento» descripto por Devon Hinton y su equipo: según la explicación tradicional jemer, un viento que circula con la sangre se descontrola y sube por el cuello y la cabeza. Se parece a un ataque de pánico, pero la explicación cambia lo que la persona teme y cómo reacciona. Figura en el DSM-5 entre los conceptos culturales de malestar.
+
+### ¿Cómo se trata?
+Con una terapia cognitivo-conductual adaptada culturalmente (CA-CBT), que parte de la explicación de la propia persona en lugar de corregirla, practica las sensaciones temidas en un entorno seguro e incluye regulación emocional y trabajo con los recuerdos traumáticos. Tiene ensayos controlados pequeños con resultados alentadores, que requieren réplicas.
+
+### ¿Los síntomas físicos siempre son psicológicos?
+No. Ante falta de aire, mareo intenso o palpitaciones conviene consultar primero con un médico para descartar causas físicas. El texto además advierte contra generalizar: los camboyanos son millones, con historias muy distintas.
+
 ## Para seguir leyendo
 
 - Hinton, D. E., Pich, V., Safren, S. A., Pollack, M. H. y McNally, R. J. (2005). «Cognitive behavior therapy for Cambodian refugees with treatment-resistant PTSD and panic attacks: a cross-over design». *Behaviour Research and Therapy*, 43.

@@ -70,6 +70,17 @@ Si meditar te trae recuerdos, angustia o sensaciones que te desbordan, parar es 
 - [Laboratorio de interser](/laboratorio-de-interser/)
 - [Thich Nhat Hanh y el interser](/recursos/thich-nhat-hanh-y-el-interser/)
 
+## Preguntas frecuentes
+
+### ¿En qué consiste el método de anotar de Mahasi Sayadaw?
+Se observa el movimiento del abdomen al respirar y se pone una palabra mental breve a cada experiencia: «subiendo», «bajando», «oyendo», «dudando». Se alterna la meditación sentada con la caminata y se practica de manera intensiva en retiros, con un maestro que escucha informes regulares.
+
+### ¿El mindfulness es lo mismo que la meditación vipassana?
+No. Es una de las vías por las que la vipassana llegó a Occidente, pero cambió el marco, el objetivo y el formato: sin contexto religioso, orientado a reducir estrés o rumiación, y con cursos de ocho semanas en lugar de retiros de diez días en silencio. Conviene no presentarlo como «la meditación budista» sin más.
+
+### ¿Son seguros los retiros intensivos de meditación?
+No para todas las personas ni en todo momento. Un estudio cualitativo de 2017 documentó que los retiros intensivos pueden provocar ansiedad, pánico o disociación en algunas personas. No se recomiendan en momentos de fragilidad psíquica ni como sustituto de un tratamiento, y parar es siempre una opción válida.
+
 ## Para seguir leyendo
 
 - Braun, E. (2013). *The Birth of Insight: Meditation, Modern Buddhism, and the Burmese Monk Ledi Sayadaw*. University of Chicago Press.

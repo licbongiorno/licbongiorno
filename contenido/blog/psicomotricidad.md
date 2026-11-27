@@ -11,7 +11,7 @@ orden: 147
 estado: publicado
 respuesta: La psicomotricidad es una disciplina que estudia y trabaja las relaciones entre el movimiento y el psiquismo, sobre todo con niños, a través del cuerpo, el juego y el vínculo con otros. Nació en Francia con Dupré y Ajuriaguerra. En Argentina es carrera universitaria. Se distingue de la terapia física y de la psicoterapia.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 En una sala con colchonetas, telas y cajas, un nene de cuatro años arma una casa, se esconde adentro y espera que lo busquen. La psicomotricista no le explica nada ni le corrige el movimiento: lo acompaña, juega con él, observa cómo se mueve, cómo se acerca a los otros, cómo tolera esperar. Ese juego es el material de trabajo.
 
@@ -50,6 +50,17 @@ Si un niño tiene dificultades persistentes en el movimiento, el lenguaje, la at
 ## Para seguir
 
 Para ubicarla entre otras propuestas que trabajan con el cuerpo, podés ver [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
+
+## Preguntas frecuentes
+
+### ¿Qué es la psicomotricidad?
+Es una disciplina clínica y educativa, con origen en Francia, que trabaja sobre todo con niños a través del cuerpo, el juego, el movimiento y la relación con otros. El cuerpo no se considera un instrumento aparte de la mente sino el lugar donde se juega el desarrollo.
+
+### ¿En qué se diferencia de la psicoterapia o de la kinesiología?
+No es terapia física, que trabaja la función motriz con otros objetivos, ni psicoterapia, que trabaja principalmente con la palabra y la elaboración psíquica. Se articula con ambas: en un mismo caso pueden intervenir varios profesionales.
+
+### ¿Cuándo conviene consultar a un psicomotricista?
+Cuando un niño tiene dificultades en el movimiento, el juego o el vínculo, o para una mirada preventiva en la escuela. No reemplaza una evaluación médica y psicológica completa: funciona mejor como parte de un abordaje conjunto. Su sustento es teórico y de formación universitaria, no de ensayos controlados sobre cada intervención.
 
 ## Para seguir leyendo
 

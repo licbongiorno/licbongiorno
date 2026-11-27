@@ -68,6 +68,17 @@ Si en tu familia hay una historia de persecución, guerra o exilio y sentís que
 
 Este texto es parte de la serie sobre psicología judía: mirá el [mapa de la psicología judía](/recursos/mapa-de-la-psicologia-judia/) y el [glosario de psicología judía](/glosario-de-psicologia-judia/). Para la mirada de un sobreviviente sobre el sentido, [Viktor Frankl](/recursos/viktor-frankl/). Para otros contextos donde la violencia colectiva marca la salud mental, [Ignacio Martín-Baró](/recursos/ignacio-martin-baro/).
 
+## Preguntas frecuentes
+
+### ¿Se hereda el trauma de los sobrevivientes del Holocausto?
+No hay una respuesta firme. Un metaanálisis de 2003 con 32 muestras encontró que, en muestras no clínicas, los hijos de sobrevivientes no mostraban más problemas de adaptación que grupos de comparación, aunque quienes consultan existen y merecen atención. Puede haber transmisión por la crianza, el clima emocional y el relato familiar, y quizá por vías biológicas que se conocen poco.
+
+### ¿Qué es la conspiración del silencio?
+Es un concepto de la psicóloga Yael Danieli para un acuerdo tácito entre sobrevivientes que no podían hablar, familiares que temían lastimarlos y una sociedad que no quería escuchar. Corre la mirada de los síntomas individuales hacia lo que pasa entre las personas: lo transmitido serían modos de vincularse, de callar y de hablar, que se pueden observar y transformar.
+
+### ¿La epigenética prueba que el trauma pasa en los genes?
+No. Un estudio de 2016 con unas treinta familias encontró diferencias en la metilación de un gen vinculado al estrés, pero con muestra pequeña, sin poder separar genes de crianza y vida en el útero, y medida en sangre. Hay discusión de fondo sobre si la herencia epigenética existe en humanos. Evitá las propuestas que prometan «cortar la herencia del trauma» en pocas sesiones.
+
 ## Para seguir leyendo
 
 - Epstein, H. (1979). *Children of the Holocaust*. Nueva York: Putnam.

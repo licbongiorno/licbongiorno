@@ -11,7 +11,7 @@ orden: 159
 estado: publicado
 respuesta: La psicología sufí es una lectura del mundo interior que parte del sufismo, la dimensión mística del islam. Robert Frager la presentó a un público de habla inglesa en 1999, con el nafs (el yo) en niveles y el qalb como corazón espiritual. Es una propuesta espiritual, no una teoría con investigación psicológica.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una persona se descubre enojada por algo mínimo y, en vez de justificarse, se pregunta de dónde viene esa fuerza. Esa pregunta sobre el propio yo, hecha con honestidad y sin pelearse con uno mismo, está en el centro de lo que se llama psicología sufí.
 
@@ -47,6 +47,17 @@ Tomar conceptos de una tradición religiosa y usarlos fuera de contexto, o conve
 ## Para seguir
 
 Podés ubicar esta mirada en [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y seguir con [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/). Para el contexto filosófico y médico en el que surgió, con al-Razi, Avicena y al-Ghazali, mirá el [mapa de la psicología islámica medieval](/recursos/mapa-de-la-psicologia-islamica-medieval/).
+
+## Preguntas frecuentes
+
+### ¿Qué son el nafs y el qalb?
+El nafs es el yo o ego, pensado en niveles que van desde formas ligadas al impulso hasta formas más armónicas; el más bajo es el *nafs al-ammara*, el yo tiránico. El qalb es el corazón espiritual, mediador entre el nafs y el espíritu, que no se reduce a la emoción ni al órgano.
+
+### ¿La psicología sufí tiene respaldo científico?
+Es una propuesta espiritual y filosófica dentro de una fe, no una disciplina académica. No hay estudios psicológicos controlados que se conozcan con certeza sobre sus niveles del nafs. Merece respeto como tradición, sin presentarla como tratamiento.
+
+### ¿Se puede usar fuera de su contexto religioso?
+Conviene tener cuidado. Tomar conceptos de una tradición religiosa fuera de contexto, o convertir el «yo tiránico» en un reproche hacia otros o hacia uno mismo, puede hacer daño. También hay que evitar el bypass espiritual.
 
 ## Para seguir leyendo
 

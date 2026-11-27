@@ -11,7 +11,7 @@ orden: 148
 estado: publicado
 respuesta: Las escuelas posreichianas son las psicoterapias corporales que nacieron de la obra de Wilhelm Reich, como la bioenergética, Core Energetics de John Pierrakos, la biosíntesis de David Boadella y el análisis Bodynamic de Lisbeth Marcher. Cada una reformuló a su manera la relación entre cuerpo y psique. Hay poca investigación controlada y su respaldo es sobre todo clínico.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien termina de leer a Wilhelm Reich o a Alexander Lowen y hace la pregunta obvia: ¿y después qué? ¿Quedó todo en esos libros o hay gente que siguió trabajando con el cuerpo en terapia? La respuesta es que hay una familia entera de escuelas, que parten de Reich y se separaron de él en direcciones distintas. Esta nota recorre tres.
 
@@ -52,6 +52,17 @@ Si estás en una situación de urgencia o de riesgo, llamá al 911 o al Centro d
 ## Para seguir
 
 Para ubicar estas escuelas entre las demás, mirá [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Para probar en primera persona cómo se sienten el tono, la postura y el movimiento, pasá por [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
+
+## Preguntas frecuentes
+
+### ¿Qué son las escuelas posreichianas?
+Son las psicoterapias corporales que heredan de Wilhelm Reich la idea de que la historia de una persona queda inscripta en su forma de moverse, de respirar y de sostener el cuerpo. Cada autor tomó esa herencia en una dirección distinta, como Pierrakos con Core Energetics, Boadella con la biosíntesis y Marcher con el análisis Bodynamic.
+
+### ¿Tienen evidencia científica?
+La investigación controlada es escasa. Lo que hay es sobre todo respaldo clínico: terapeutas formados que describen lo que observan y personas que cuentan que les sirvió. Eso tiene valor, pero no alcanza para decir que una escuela funcione mejor que otra ni que una psicoterapia sin trabajo corporal.
+
+### ¿Un músculo tensado tiene un significado emocional específico?
+Es una hipótesis de trabajo de cada escuela, no un dato de la fisiología. Si un terapeuta te dice con total seguridad qué significa tu hombro, conviene preguntarle en qué se apoya. Una buena práctica corporal te deja más curiosidad y más registro propio, no una interpretación cerrada de tu vida.
 
 ## Para seguir leyendo
 

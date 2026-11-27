@@ -65,6 +65,17 @@ Leer a Fanon como si diera instrucciones sobre cómo tratar a una persona concre
 
 Este texto es parte de la serie de psicología africana: [mapa de la psicología africana](/recursos/mapa-de-la-psicologia-africana/) y [glosario de psicología africana](/glosario-de-psicologia-africana/). Para otra experiencia clínica del continente, mirá [la aldea terapéutica de Aro](/recursos/la-aldea-terapeutica-de-aro/) y el [Friendship Bench](/recursos/friendship-bench/).
 
+## Preguntas frecuentes
+
+### ¿Quién fue Frantz Fanon y por qué importa en psicología?
+Fue un psiquiatra nacido en Martinica en 1925, formado en Lyon, que trabajó en Francia y en Argelia y murió a los 36 años. Importa porque describió cómo el racismo y el orden colonial afectan el sufrimiento psíquico y el diagnóstico, y mostró que una técnica clínica pensada para unos no es neutral cuando se aplica a otros.
+
+### ¿Qué es la socioterapia que aplicó en Blida?
+Es un método de la psicoterapia institucional, que Fanon conoció con Tosquelles, y que trata primero la institución con asambleas, talleres y tareas compartidas. En Blida funcionó en el pabellón de mujeres europeas pero fracasó con hombres musulmanes, hasta que adaptó las actividades a la vida cultural de los pacientes.
+
+### ¿Su obra tiene respaldo científico?
+No es una teoría con estudios cuantitativos ni una técnica evaluada en ensayos: es un análisis clínico, filosófico y político basado en su experiencia. Hoy existe investigación extensa sobre racismo y salud mental con otros métodos, y Fanon puede leerse como un antecedente. Sus libros también tienen límites y debates, por ejemplo sobre su defensa de la violencia política y sus páginas sobre las mujeres.
+
 ## Para seguir leyendo
 
 - Fanon, F. (1952). *Peau noire, masques blancs*. París: Éditions du Seuil.

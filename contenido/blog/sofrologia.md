@@ -11,7 +11,7 @@ orden: 164
 estado: publicado
 respuesta: La sofrología es un método de relajación dinámica que combina respiración, relajación muscular y visualización. Lo creó el neuropsiquiatra colombiano Alfonso Caycedo, que acuñó el término en 1960 en Madrid. Se criticó la calidad metodológica de sus investigaciones y no hay revisiones independientes concluyentes. No reemplaza un tratamiento.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien te pide que cierres los ojos, que respires lento y que vayas recorriendo el cuerpo: los hombros, las manos, la mandíbula. Después te invita a imaginar un lugar tranquilo, con detalle. Al terminar, te propone abrir los ojos despacio y notar cómo quedó todo por dentro. Esa secuencia, con variantes, resume bastante bien una sesión de sofrología.
 
@@ -54,6 +54,17 @@ Conviene estar atento cuando alguien la presenta como una cura: de enfermedades,
 Si querés ver dónde encaja la sofrología entre otras propuestas que trabajan con el cuerpo, podés recorrer [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Para probar ejercicios por tu cuenta, está el [laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
 Si estás atravesando un momento de crisis o pensás en hacerte daño, hay ayuda inmediata en [ayuda urgente](/ayuda-urgente/), en el 911 o en el Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país).
+
+## Preguntas frecuentes
+
+### ¿Qué es la sofrología?
+Un método de relajación dinámica creado por el neuropsiquiatra colombiano Alfonso Caycedo, que acuñó el término en 1960. Combina respiración, relajación muscular y visualización guiada por la voz de un facilitador.
+
+### ¿Tiene evidencia científica?
+Como método con nombre propio, no: se criticó la calidad metodológica de las investigaciones hechas en su nombre y no hay revisiones sistemáticas independientes que permitan una conclusión firme. Sus componentes, como la respiración lenta y la relajación, se parecen a técnicas que sí se estudiaron, lo que le da cierta plausibilidad.
+
+### ¿Sirve para la ansiedad o el insomnio?
+Puede ayudar a bajar la tensión o a descansar mejor, como cualquier práctica de relajación, pero no reemplaza un tratamiento. Ante ansiedad que limita, insomnio persistente o depresión conviene consultar a un profesional, y desconfiar de quien la presenta como cura.
 
 ## Para seguir leyendo
 

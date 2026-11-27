@@ -11,7 +11,7 @@ orden: 133
 estado: publicado
 respuesta: El método Feldenkrais es una práctica de movimiento lento y atento, creada por Moshe Feldenkrais, para ampliar la conciencia del cuerpo y las posibilidades de acción. No es una psicoterapia, aunque se usa como complemento. Una revisión sistemática de 2015 encontró ensayos heterogéneos y de calidad metodológica variable, con resultados positivos en el equilibrio de personas mayores.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Imaginá mover el brazo lentamente, sin meta, prestando atención a qué parte del cuerpo se mueve primero y cuál queda quieta. Después lo repetís de otra manera. Esa es la lógica de muchas lecciones del método Feldenkrais: no se trata de hacer bien un ejercicio, sino de notar mejor cómo uno se mueve.
 
@@ -58,3 +58,14 @@ Aunque los movimientos sean suaves, el cuerpo no es el mismo todos los días. Si
 - El [mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) ubica a cada abordaje y aclara cuáles no son psicoterapia.
 
 Lecturas: Feldenkrais, M. (1972), *Awareness Through Movement*, Harper & Row. Hillier, S. y Worley, A. (2015), «The effectiveness of the Feldenkrais method: a systematic review of the evidence», *Evidence-Based Complementary and Alternative Medicine*.
+
+## Preguntas frecuentes
+
+### ¿El método Feldenkrais es una terapia psicológica?
+No. No interpreta conflictos ni trabaja con la historia personal: su foco está en el movimiento, la atención y el aprendizaje motor. Se lo usa como complemento de la fisioterapia, el entrenamiento o la rehabilitación.
+
+### ¿Qué evidencia tiene?
+Una revisión sistemática (Hillier y Worley, 2015) encontró resultados alentadores en el equilibrio de personas mayores, pero con estudios muy desparejos y riesgo de sesgo alto en muchos. No alcanza para afirmar que trate una enfermedad en particular.
+
+### ¿Cómo es una lección?
+En las lecciones grupales se guían movimientos suaves y lentos con la voz, atendiendo a las sensaciones y a las diferencias entre un movimiento y otro. En las sesiones individuales, el practicante guía el cuerpo con las manos. Si hay dolor, una lesión o una condición médica, conviene consultar antes.

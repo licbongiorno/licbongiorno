@@ -11,7 +11,7 @@ orden: 176
 estado: publicado
 respuesta: Decidir cuesta más cuando se busca la mejor opción posible: los maximizadores informaron más arrepentimiento y menos satisfacción que quienes eligen algo suficientemente bueno. La idea de que más opciones siempre paralizan resultó exagerada. Ayuda decidir con información suficiente, distinguir decisiones reversibles de irreversibles y apoyarse en los valores propios.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Hace tres semanas que alguien tiene abiertas catorce pestañas para elegir un lavarropas. Leyó reseñas, comparó consumos, miró videos. Cada vez que está por comprar, aparece una duda nueva. No es por el lavarropas: es por el miedo a elegir mal y tener que cargar con ese error. Hay personas a las que esa escena les resulta cómica y otras a las que les resulta conocida, sobre todo cuando lo que está en juego es un trabajo, una mudanza o una relación.
 
@@ -63,3 +63,14 @@ Sobre los dos modos de pensamiento y la teoría prospectiva, leé [Daniel Kahnem
 - [Autoexigencia y perfeccionismo](/recursos/autoexigencia-y-perfeccionismo/)
 
 Lecturas: Schwartz, B., Ward, A., Monterosso, J., Lyubomirsky, S., White, K. y Lehman, D. R. (2002), «Maximizing versus satisficing: happiness is a matter of choice», *Journal of Personality and Social Psychology*, 83(5), 1178–1197. Scheibehenne, B., Greifeneder, R. y Todd, P. M. (2010), «Can there ever be too many options? A meta-analytic review of choice overload», *Journal of Consumer Research*. Kahneman, D. (2011), *Thinking, Fast and Slow*.
+
+## Preguntas frecuentes
+
+### ¿Por qué me cuesta tanto decidir?
+Puede deberse a un estilo maximizador, que busca la mejor opción posible y suele traer más arrepentimiento, o a ansiedad: miedo a equivocarse, a decepcionar o a perderse algo. Postergar alivia un rato y mantiene el miedo, porque nunca se comprueba que se podían tolerar las consecuencias.
+
+### ¿Demasiadas opciones paralizan?
+Es una idea popular exagerada. Un metaanálisis de 2010 encontró que el efecto de la sobrecarga de opciones fue, en promedio, cercano a cero, con mucha variación según las condiciones. Suele ayudar más preguntarse qué es lo que realmente importa.
+
+### ¿Qué estrategias ayudan a decidir?
+Distinguir entre decisiones reversibles e irreversibles, decidir con información suficiente y no total, usar los valores como criterio y poner un plazo con un punto de revisión. Aceptar que toda elección deja algo afuera no prueba que se haya elegido mal. Si la indecisión te paraliza durante mucho tiempo, conviene consultar.

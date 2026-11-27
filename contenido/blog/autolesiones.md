@@ -11,7 +11,7 @@ orden: 182
 estado: publicado
 respuesta: La autolesión no suicida es hacerse daño a propósito sin intención de morir, y suele mantenerse porque cumple funciones: regular emociones intensas o comunicar malestar. No es lo mismo que un intento de suicidio, pero se asocia con mayor riesgo y siempre merece consulta. Si alguien te lo cuenta, lo más útil es la calma, la escucha y ayudarle a consultar.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Una madre se entera, por casualidad, de que su hija de dieciséis años se hace daño a escondidas. Siente miedo, enojo, culpa, y una urgencia enorme por hacer algo ya. Lo que haga en esa primera conversación importa mucho: puede abrir la puerta a la ayuda o cerrarla. Este texto no describe métodos, objetos ni heridas. Habla de por qué ocurre y de cómo responder.
 
@@ -77,3 +77,14 @@ Quien se lastima no necesita que lo «arreglen», sino que lo escuchen y lo acom
 - [Ayuda urgente](/ayuda-urgente/)
 
 Lecturas: Nock, M. K. (2010), «Self-injury», *Annual Review of Clinical Psychology*, 6, 339–363. American Psychiatric Association (2013), *DSM-5*, Sección III.
+
+## Preguntas frecuentes
+
+### ¿Autolesionarse es lo mismo que querer morir?
+No necesariamente. En la autolesión no suicida la intención no es morir sino aliviar o expresar algo. Aun así se asocia con mayor riesgo, también de pensamientos suicidas con el tiempo, por lo que siempre merece una consulta profesional y conviene preguntar directamente por la idea de morir.
+
+### ¿Lo hacen para llamar la atención?
+Es una lectura injusta que suele alejar a la persona de la ayuda. Lo más habitual es que se oculte por vergüenza. Si la conducta comunica algo, es un malestar que merece respuesta y no un reproche.
+
+### ¿Qué hago si alguien me cuenta que se lastima?
+Mantené la calma, escuchá sin interrogar ni castigar y agradecé la confianza. Preguntá por pensamientos de morir y ofrecé acompañar a pedir un turno con un profesional de salud mental. Evitá los ultimátums y las promesas arrancadas a presión, que suelen aumentar el ocultamiento.

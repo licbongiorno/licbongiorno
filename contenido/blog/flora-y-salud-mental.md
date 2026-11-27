@@ -11,7 +11,7 @@ orden: 112
 estado: publicado
 respuesta: Un metaanálisis de Soga, Gaston y Yamaura (2017) con 22 estudios asoció la jardinería, incluida la hortoterapia, con menos síntomas de depresión y ansiedad y más satisfacción con la vida. Con las plantas de interior la evidencia es más mixta (Bringslimark, Hartig y Patil, 2009). Son asociaciones prometedoras que no reemplazan un tratamiento.
 menciona:
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 Hay personas que en los peores momentos se sostienen regando una maceta. Otras encuentran en la huerta del fondo un rato en que la cabeza se calla. Y hay quien cuenta que dejar morir una planta le confirmó que no puede cuidar nada. La relación con la flora, con las plantas que tenemos cerca, tiene más psicología de lo que parece. Este artículo repasa qué se estudió sobre jardinería, hortoterapia y plantas de interior, qué podría explicar sus efectos y qué límites tiene esa evidencia.
 
@@ -72,3 +72,17 @@ Los estudios de hortoterapia están entre los que reunió el metaanálisis de So
 Si querés probar, empezá chico: una sola planta fácil, una aromática en una maceta o un gajo en un frasco con agua. Averiguá qué necesita, mirala un minuto por día sin hacer nada y anotá una línea por semana sobre lo que cambia. El [laboratorio de naturaleza y psique](/laboratorio-de-naturaleza-y-psique/) tiene una estación con esos pasos y un registro para observar qué te pasa cuando la cuidás. Para seguir leyendo, mirá [Psicología y naturaleza](/recursos/psicologia-de-la-naturaleza/) y [Fauna cercana y observación](/recursos/fauna-y-observacion/).
 
 Lecturas: Soga, M., Gaston, K. J. y Yamaura, Y. (2017), «Gardening is beneficial for health: A meta-analysis», *Preventive Medicine Reports*, 5, 92–99. Bringslimark, T., Hartig, T. y Patil, G. G. (2009), «The psychological benefits of indoor plants: A critical review of the experimental literature», *Journal of Environmental Psychology*, 29(4), 422–433. Kaplan, R. y Kaplan, S. (1989), *The Experience of Nature: A Psychological Perspective*, Cambridge University Press. Ulrich, R. S. (1984), «View through a window may influence recovery from surgery», *Science*, 224(4647), 420–421. Ulrich, R. S. y colaboradores (1991), «Stress recovery during exposure to natural and urban environments», *Journal of Environmental Psychology*, 11(3), 201–230. Hartig, T. y colaboradores (2014), «Nature and Health», *Annual Review of Public Health*, 35, 207–228. Neff, K. D. (2003), *Self and Identity*, 2(2), 85–101.
+
+## Preguntas frecuentes
+
+### ¿La jardinería sirve para la depresión o la ansiedad?
+
+Un metaanálisis de 2017 encontró una asociación entre jardinería y menos síntomas de depresión y ansiedad, además de más satisfacción con la vida. Pero los estudios eran muy distintos entre sí y muchos pequeños, así que es una evidencia alentadora, no una prueba de que trate esos cuadros. Puede acompañar un tratamiento, no reemplazarlo.
+
+### ¿Tener plantas en casa o en la oficina reduce el estrés?
+
+La evidencia es más modesta de lo que se dice. Una revisión de experimentos sobre plantas de interior dio resultados mixtos, con estudios muy variados en lo que medían y cómo. Una planta puede hacer un lugar más agradable, pero no hay base para prometer que baje el estrés de todo un equipo.
+
+### ¿Qué es la hortoterapia y en qué se diferencia de tener una huerta?
+
+Es el uso de la jardinería dentro de un programa terapéutico, con objetivos definidos y acompañamiento profesional, en hospitales, residencias o centros de salud mental. Tener plantas en casa comparte algunos ingredientes, pero no es lo mismo. La hortoterapia funciona como complemento de otros tratamientos.

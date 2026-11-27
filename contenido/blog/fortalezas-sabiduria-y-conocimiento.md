@@ -11,7 +11,7 @@ orden: 114
 estado: publicado
 respuesta: En la clasificación de Peterson y Seligman (2004), la virtud de sabiduría y conocimiento agrupa cinco fortalezas: creatividad, curiosidad, apertura mental, amor por el aprendizaje y perspectiva. Son formas de adquirir y usar el conocimiento. La investigación sobre ellas se basa sobre todo en cuestionarios de autorreporte y estudios correlacionales, así que describen tendencias, no destinos.
 menciona: seligman, maslow, humanista, creatividad
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 Hay personas que no pueden pasar al lado de un aparato roto sin desarmarlo, otras que leen tres diarios para entender una misma noticia y otras a las que los amigos llaman cuando tienen que tomar una decisión difícil. Son maneras distintas de relacionarse con el conocimiento. La psicología positiva las agrupó bajo una misma virtud: sabiduría y conocimiento. Este artículo recorre las cinco fortalezas que la componen, lo que se sabe de ellas y, sobre todo, lo que no.
 
@@ -94,6 +94,17 @@ En el sitio hay un [test de fortalezas](/test-de-fortalezas/) de elaboración pr
 ## Para probarlo
 
 En el [laboratorio de fortalezas de la psicología positiva](/laboratorio-psicologia-positiva-fortalezas/) hay ejercicios para identificar las tuyas y usarlas de otra manera. En el [laboratorio de fortalezas y virtudes](/laboratorio-de-fortalezas-y-virtudes/) se recorren las seis virtudes. La serie sigue con las fortalezas del [coraje](/recursos/fortalezas-coraje/), la [humanidad](/recursos/fortalezas-humanidad/), la [justicia](/recursos/fortalezas-justicia/), la [templanza](/recursos/fortalezas-templanza/) y la [trascendencia](/recursos/fortalezas-trascendencia/).
+
+## Preguntas frecuentes
+
+### ¿Qué fortalezas incluye la virtud de sabiduría y conocimiento?
+Cinco: creatividad, curiosidad, apertura mental, amor por el aprendizaje y perspectiva. Son las fortalezas cognitivas, las que tienen que ver con adquirir y usar lo que sabemos, dentro de la clasificación de 24 fortalezas de Peterson y Seligman (2004).
+
+### ¿Tener estas fortalezas significa ser más inteligente?
+No. Son formas de relacionarse con el conocimiento, no medidas de capacidad. Tampoco son un diagnóstico ni una promesa de bienestar: las asociaciones con la satisfacción vital son correlacionales y de tamaño moderado.
+
+### ¿Cómo se miden las fortalezas del carácter?
+El instrumento más conocido es el VIA Inventory of Strengths, un cuestionario de autorreporte. Mide cómo se ve cada persona y no lo que hace, con límites como el deseo de dar buena imagen. El test de este sitio es de elaboración propia: sirve para reflexionar, pero no reemplaza al VIA-IS.
 
 ## Para seguir leyendo
 

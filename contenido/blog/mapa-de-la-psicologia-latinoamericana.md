@@ -11,7 +11,7 @@ orden: 300
 estado: publicado
 respuesta: La psicología latinoamericana reúne corrientes de naturaleza distinta: la psicología de la liberación de Ignacio Martín-Baró, la psicología social comunitaria de Maritza Montero, la pedagogía de Paulo Freire que las inspiró, la psicología social de Enrique Pichon-Rivière, un psicoanálisis rioplatense con figuras como José Bleger, Marie Langer y Silvia Bleichmar, y una clínica que estudia cuadros culturales como el ataque de nervios o el susto. Su respaldo empírico es muy desigual, y ninguna de ellas resume «lo latinoamericano».
 menciona: pichon-riviere, langer, psicoanalisis, freud
-revision: 2026-11-26
+revision: 2026-11-27
 ---
 Un hombre llega a la guardia con el pecho caliente, las manos temblando y la sensación de que se va a desmayar. Dice que le dio un ataque de nervios después de una discusión en la familia. Otra persona cuenta que desde aquel accidente «no es la misma»: el susto le sacó algo de adentro. Un tercero, en un barrio de Rosario o de Caracas, participa de una reunión donde la tarea no es curarse sino juntarse a pensar un problema de la cuadra. Son escenas muy distintas, y las tres caben en el rótulo «psicología latinoamericana». Este mapa las ordena y te manda a cada artículo de la serie.
 
@@ -95,6 +95,17 @@ Si hoy estás sufriendo, leer una tradición no reemplaza una consulta. Una psic
 - [Duelo migratorio](/recursos/duelo-migratorio/)
 
 Para las tradiciones de otras regiones, mirá el [mapa de la psicología india](/recursos/mapa-de-la-psicologia-india/), el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/) y el [mapa de la psicología rusa](/recursos/mapa-de-la-psicologia-rusa/).
+
+## Preguntas frecuentes
+
+### ¿Existe una sola psicología latinoamericana?
+No. La región tiene decenas de países, cientos de lenguas indígenas y grandes desigualdades, así que hablar de una sola psicología es una simplificación. El mapa ordena corrientes de pensamiento, escuelas clínicas, conceptos culturales de malestar y valores culturales, que son tipos de cosas distintas y conviene no mezclar.
+
+### ¿Qué es la psicología de la liberación?
+Es una orientación ética y teórica que propuso Ignacio Martín-Baró en 1986: una psicología que parte de las condiciones reales de los pueblos y no copia modelos de otros países. No es un tratamiento con evidencia de eficacia propia.
+
+### ¿Qué es un ataque de nervios o un susto?
+Son modos culturales de nombrar el malestar. El ataque de nervios es un episodio de gritos, llanto, temblor y sensación de perder el control, parecido a una crisis de angustia pero no equivalente. El susto es una explicación popular según la cual un sobresalto saca el alma del cuerpo. Ninguno es una enfermedad única ni reemplaza una evaluación clínica.
 
 ## Para seguir leyendo
 

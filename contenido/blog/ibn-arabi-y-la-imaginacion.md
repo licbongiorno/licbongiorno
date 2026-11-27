@@ -53,6 +53,17 @@ Tampoco conviene usar el «mundo imaginal» para explicar una experiencia de psi
 
 Los términos de esta tradición están en el [glosario de psicología sufí](/glosario-de-psicologia-sufi/). Para otro poeta de ese mundo cultural, con las mismas advertencias sobre traducciones, está [Rumi y la psicología](/recursos/rumi-y-la-psicologia/). Y para quien se pregunte cómo se cruzan estas ideas con lo espiritual en general, el [mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/).
 
+## Preguntas frecuentes
+
+### ¿Quién fue Ibn Arabi?
+Fue un místico y teólogo nacido en Murcia en 1165 que murió en Damasco en 1240. Escribió una obra enorme, con títulos como *Las revelaciones de La Meca*, y la tradición sufí lo llama «el maestro mayor». No fue un psicólogo ni un autor de autoayuda.
+
+### ¿Qué es el mundo imaginal?
+Es el término que acuñó Henry Corbin para el mundo intermedio de las imágenes que Ibn Arabi describe, un orden de realidad con consistencia propia, accesible por la imaginación. Se distingue de lo imaginario, que en el habla común es lo irreal. Otros especialistas discuten cuánto de esa idea es de Ibn Arabi y cuánto una reconstrucción de Corbin.
+
+### ¿Qué tiene que ver con la psicología de Jung y Hillman?
+Corbin coincidió con Jung en las conferencias de Eranos, y James Hillman retomó lo imaginal para su psicología arquetipal, que propone quedarse con las imágenes y no traducirlas a conceptos. No hay estudios clínicos controlados que muestren que trabajar así mejore la salud mental, y no sirve para explicar una psicosis: ante experiencias que asustan hace falta evaluación profesional.
+
 ## Para seguir leyendo
 
 - Corbin, H. (1958). *L'imagination créatrice dans le soufisme d'Ibn 'Arabî*. París: Flammarion. En inglés: *Creative Imagination in the Sufism of Ibn 'Arabi* (1969), Princeton University Press.

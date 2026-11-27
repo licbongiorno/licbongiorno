@@ -68,6 +68,17 @@ Si sentís una tristeza que no se va, desesperanza o pensamientos de hacerte da�
 
 Este artículo amplía una sección del [mapa de la psicología persa e iraní](/recursos/mapa-de-la-psicologia-persa/). Para el lado poético de la pena en la misma cultura, está [Hafez y la lectura del alma](/recursos/hafez-y-la-lectura-del-alma/). Para las experiencias de quienes dejaron el país, [duelo migratorio](/recursos/duelo-migratorio/).
 
+## Preguntas frecuentes
+
+### ¿Qué es un idioma del malestar?
+Es una manera culturalmente compartida de comunicar que algo anda mal. No es una enfermedad nueva ni un diagnóstico. En Argentina, decir «estoy con los nervios de punta» cumple una función parecida a la de *narahati-e qalb* («malestar del corazón») en persa.
+
+### ¿Narahati-e qalb es lo mismo que depresión?
+No conviene tratarlo como sinónimo exacto, ni de depresión ni de un problema cardíaco. Tampoco hay que concluir que la depresión clínica no existe en esa cultura: hay personas en Irán con cuadros depresivos graves que merecen evaluación. Ante dolor en el pecho, además, hay que descartar causas médicas.
+
+### ¿Qué respaldo tienen estos trabajos?
+Son estudios cualitativos de antropología médica, basados en trabajo de campo y entrevistas. Describen significados, no frecuencias: no dicen cuánta gente padece depresión en Irán ni cuánta usa estas expresiones. Tampoco todas las personas iraníes usan estos idiomas.
+
 ## Para seguir leyendo
 
 - Good, B. J. (1977). «The heart of what's the matter: The semantics of illness in Iran». *Culture, Medicine and Psychiatry*, 1(1), 25-58.

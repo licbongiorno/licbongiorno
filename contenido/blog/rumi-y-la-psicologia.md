@@ -64,6 +64,20 @@ Los usos que se hagan de su poesía en una consulta son decisión de cada profes
 - [Al-Ghazali y la crisis espiritual](/recursos/al-ghazali-y-la-crisis-espiritual/)
 - [Mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/)
 
+## Preguntas frecuentes
+
+### ¿Rumi escribió «la herida es el lugar por donde entra la luz»?
+
+Esa frase circula con su firma, pero buena parte de lo que se cita como Rumi no está, tal cual, en sus textos. Muchas versiones populares son adaptaciones libres. Conviene preguntar qué traducción es y no atribuir una frase sin fuente.
+
+### ¿Rumi era «espiritual pero no religioso»?
+
+No: era un musulmán practicante, predicador y jurista, que citaba el Corán y los dichos del Profeta. Las versiones occidentales más difundidas, como las de Coleman Barks, que no leía persa, tienden a quitar ese marco. Se puede leerlo sin ser creyente, pero sin despojarlo de su fe.
+
+### ¿Sirve su poesía como tratamiento psicológico?
+
+No existe investigación que respalde su uso como tratamiento. Que alguien la encuentre consoladora es un dato valioso para esa persona, y un profesional puede usarla como acompañamiento, pero no reemplaza una evaluación ni un tratamiento. Si pasás por un momento difícil, consultá.
+
 ## Para seguir leyendo
 
 - Nicholson, R. A. (trad.) (1925-1940). *The Mathnawí of Jalálu'ddín Rúmí*. Luzac.

@@ -11,7 +11,7 @@ orden: 117
 estado: publicado
 respuesta: En la clasificación de Peterson y Seligman (2004), la virtud de justicia agrupa tres fortalezas cívicas: ciudadanía o trabajo en equipo, equidad y liderazgo. Son las que sostienen una vida comunitaria sana. La equidad está entre las fortalezas que más personas reconocen como propias en muchos países, pero la investigación específica sobre estas tres dentro del marco es más escasa que sobre otras.
 menciona: seligman, maslow, humanista
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 Un equipo de fútbol del barrio, una cooperadora escolar, un grupo de vecinos que se organiza para pedir una cuadra iluminada. Ninguna de estas cosas funciona sin personas que pongan el bien del grupo por delante, que traten a todos con el mismo criterio y que sepan coordinar sin aplastar. La psicología positiva agrupó esas capacidades bajo la virtud de justicia. Es quizás la virtud más política de la clasificación, en el sentido amplio de la palabra: la que tiene que ver con cómo vivimos juntos.
 
@@ -70,6 +70,17 @@ El [test de fortalezas](/test-de-fortalezas/) del sitio es también un autorrepo
 ## Para probarlo
 
 En el [laboratorio de fortalezas de la psicología positiva](/laboratorio-psicologia-positiva-fortalezas/) hay ejercicios para identificar tus fortalezas y usarlas de otra manera, y en el [laboratorio de fortalezas y virtudes](/laboratorio-de-fortalezas-y-virtudes/) se recorren las seis virtudes. La serie incluye la [sabiduría y el conocimiento](/recursos/fortalezas-sabiduria-y-conocimiento/), el [coraje](/recursos/fortalezas-coraje/), la [humanidad](/recursos/fortalezas-humanidad/), la [templanza](/recursos/fortalezas-templanza/) y la [trascendencia](/recursos/fortalezas-trascendencia/).
+
+## Preguntas frecuentes
+
+### ¿Qué fortalezas incluye la virtud de justicia?
+Según la clasificación de Peterson y Seligman (2004), incluye tres: ciudadanía (trabajar bien como miembro de un grupo), equidad (tratar a todos con imparcialidad y darles una oportunidad justa) y liderazgo (animar a un grupo y cuidar sus relaciones). Es la cuarta de las seis virtudes.
+
+### ¿Se puede medir la justicia como fortaleza?
+Se mide con autorreportes como el VIA Inventory of Strengths, de 240 frases. Como en las fortalezas cívicas pesa el deseo de dar buena imagen, conviene tomar los puntajes como autoimagen y no como descripción de la conducta real. El test del sitio es de elaboración propia y no reemplaza al VIA-IS.
+
+### ¿Un puntaje bajo en liderazgo es un problema?
+No. Las fortalezas no son un diagnóstico ni una medida de valor moral: muchas personas valiosas prefieren no coordinar. Tampoco son una promesa de bienestar, y la justicia no depende solo del carácter individual sino también de las instituciones y las condiciones sociales.
 
 ## Para seguir leyendo
 

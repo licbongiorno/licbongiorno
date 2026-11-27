@@ -11,7 +11,7 @@ orden: 150
 estado: publicado
 respuesta: Las psicologías espirituales son un conjunto de corrientes que estudian el sentido, la trascendencia y la vida interior, con o sin religión. Conviene distinguir tres niveles: lo que tiene evidencia empírica, lo que es propuesta teórica y lo que pertenece al ámbito filosófico o espiritual. En la clínica, hay que diferenciar una crisis espiritual de una manía, una psicosis o una disociación.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien llega a consulta y dice: «No sé si creo en algo, pero desde que murió mi papá todo me parece sin sentido». No pide una religión ni la rechaza. Pide un lugar donde esa pregunta pueda pensarse. Para eso existen, en parte, las psicologías espirituales: un campo amplio, heterogéneo y con niveles muy distintos de respaldo.
 
@@ -74,3 +74,14 @@ Para llevar estos temas a la práctica:
 Sobre la historia de la contemplación en Occidente, de los místicos a hoy, leé [meditación en Occidente](/recursos/meditacion-en-occidente/).
 
 Lecturas: James, W. (1902), *The Varieties of Religious Experience*. Pargament, K. I., Smith, B. W., Koenig, H. G. y Perez, L. (1998), «Patterns of positive and negative religious coping with major life stressors», *Journal for the Scientific Study of Religion*, 37(4), 710–724. Bonelli, R., Dew, R. E., Koenig, H. G., Rosmarin, D. H. y Vasegh, S. (2012), «Religious and spiritual factors in depression», *Depression Research and Treatment*.
+
+## Preguntas frecuentes
+
+### ¿Espiritualidad y religión son lo mismo?
+No. La religión suele ser una tradición compartida con creencias, rituales y comunidad; la espiritualidad es una búsqueda más amplia de sentido, conexión o trascendencia. Se puede tener vida espiritual sin religión y ser religioso sin que eso toque la vida interior.
+
+### ¿Qué respaldo tienen las psicologías espirituales?
+Depende del nivel. Hay investigación empírica sobre el afrontamiento religioso; los modelos de desarrollo y niveles de conciencia son propuestas teóricas, y las preguntas sobre lo trascendente son filosóficas o espirituales que la psicología no puede resolver.
+
+### ¿Una crisis espiritual es una enfermedad?
+No es normalidad ni patología automática. En la clínica conviene descartar episodios maníacos, psicóticos o disociativos, y causas médicas o por sustancias. Si hay señales de urgencia, hay que consultar de inmediato.

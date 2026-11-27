@@ -64,6 +64,17 @@ Una práctica de autoexamen diario puede volverse una máquina de culpa. Para al
 
 Podés ubicar el musar en el [mapa de la psicología judía](/recursos/mapa-de-la-psicologia-judia/) y buscar los términos en el [glosario de psicología judía](/glosario-de-psicologia-judia/). Para otras tradiciones que trabajan el carácter, mirá [la psicología sufí](/recursos/psicologia-sufi/) y [Confucio y la psicología](/recursos/confucio-y-la-psicologia/).
 
+## Preguntas frecuentes
+
+### ¿Qué es el musar?
+Es un movimiento del judaísmo, con raíces en la Torá y el Talmud, dedicado a la formación del carácter y la ética. Trabaja con las *middot*, cualidades como la humildad, la paciencia o la gratitud, mediante estudio, repetición y registro. Es una tradición religiosa y no una técnica psicológica.
+
+### ¿Cómo se practica el musar?
+Se elige una *middá* por vez, se la observa en la vida cotidiana y se anotan los tropiezos. Se suman la lectura de textos con emoción, frases breves repetidas durante el día y el acompañamiento de un maestro o de compañeros.
+
+### ¿Tiene respaldo científico?
+No tiene ensayos clínicos propios que se conozcan con certeza y no corresponde presentarlo como terapia. Algunos componentes, como fijarse un objetivo único y registrar la conducta, se parecen a técnicas usadas en otros contextos, pero eso da una intuición y no una prueba. Para quien tiende a la autoexigencia, llevar la cuenta de las faltas puede aumentar la culpa.
+
 ## Para seguir leyendo
 
 - Etkes, I. (1993). *Rabbi Israel Salanter and the Mussar Movement*. Filadelfia: Jewish Publication Society.

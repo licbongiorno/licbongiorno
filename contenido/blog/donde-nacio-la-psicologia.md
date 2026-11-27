@@ -101,6 +101,17 @@ Este mapa tiene límites que conviene decir:
 - [Hans Selye](/recursos/hans-selye/), el médico que difundió el estrés desde Montreal
 - [Oriente y Occidente: psicología cultural](/recursos/oriente-y-occidente-psicologia-cultural/)
 
+## Preguntas frecuentes
+
+### ¿Quién fundó la psicología como ciencia?
+Se suele fechar su nacimiento como ciencia independiente en 1879, cuando Wilhelm Wundt abrió un laboratorio en la Universidad de Leipzig para estudiar la experiencia consciente con métodos experimentales. Pero la psicología es un conjunto de corrientes que surgieron en distintos lugares, como Viena, Zúrich, París, Londres o Estados Unidos.
+
+### ¿Esta historia es la de toda la psicología?
+No. Es la mirada occidental, la que se enseña en la mayoría de las universidades argentinas, y es una entre muchas psicologías del mundo. Además, los países son una simplificación, porque casi todos los autores se movieron, y los manuales suelen omitir a muchas mujeres.
+
+### ¿Que una corriente tenga una gran historia significa que funciona?
+No. Nacer no es validar: la historia de una escuela no dice cuánto respaldo empírico tiene. Con el psicoanálisis, la Gestalt o la psicología analítica el debate científico sigue abierto, y las terapias cognitivo-conductuales tienen más investigación detrás.
+
 ## Para seguir leyendo
 
 - Boring, E. G. (1950). *A History of Experimental Psychology*. Appleton-Century-Crofts.

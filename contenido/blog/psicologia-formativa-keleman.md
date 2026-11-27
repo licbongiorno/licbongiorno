@@ -11,7 +11,7 @@ orden: 137
 estado: publicado
 respuesta: La psicología formativa es el nombre que Stanley Keleman, director del Center for Energetic Studies de Berkeley, dio a su enfoque. Su idea central es que la forma del cuerpo y la experiencia emocional están interrelacionadas, y que la experiencia se encarna en patrones de organización muscular y postural. No tiene evaluación empírica revisada por pares: es un marco descriptivo.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Pensá en alguien que, cada vez que lo interrumpen, se queda con los hombros levantados y la mandíbula apretada, y que después no recuerda haberlo hecho. Para Stanley Keleman, eso no es un detalle menor: es una forma. Y su pregunta es cómo esa forma se arma, se sostiene y podría cambiar.
 
@@ -46,6 +46,17 @@ Si querés probar una versión mínima de esa observación, sentate unos minutos
 ## Para seguir
 
 Para ubicar esta propuesta junto a otras, mirá [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
+
+## Preguntas frecuentes
+
+### ¿Qué propone la psicología formativa de Stanley Keleman?
+Sostiene que la forma del cuerpo y la experiencia emocional están interrelacionadas: la experiencia se encarna en patrones de organización muscular y postural, como el modo habitual de pararse, respirar o sostener el cuello. Invita a observar esos patrones, notar cómo se producen y probar cómo sería organizarlos de otro modo.
+
+### ¿Se trata de corregir la postura?
+No. No propone ajustar el cuerpo a un modelo ideal: lo que interesa es la organización propia de cada persona y la experiencia que sostiene. Se presenta más como una manera de observar y describir que como una técnica para corregir.
+
+### ¿Tiene respaldo científico?
+No hay evaluación empírica revisada por pares de sus afirmaciones. Es un marco descriptivo que ofrece un vocabulario y una guía de observación, no hipótesis puestas a prueba. Además, leer una postura como una biografía es riesgoso: un patrón muscular puede tener causas médicas, laborales o de simple hábito.
 
 ## Para seguir leyendo
 

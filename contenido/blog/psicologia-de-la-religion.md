@@ -11,7 +11,7 @@ orden: 151
 estado: publicado
 respuesta: La psicología de la religión estudia cómo viven, usan y se ven afectadas las personas por sus creencias y prácticas, sin juzgar si son verdaderas. Sus aportes clásicos van de James y Freud a Allport y Pargament. La evidencia muestra asociaciones, no recetas: el afrontamiento religioso puede ayudar o dañar según cómo se use.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Dos personas atraviesan la misma enfermedad grave. Una dice que reza y se siente acompañada. La otra siente que le toca un castigo y se pregunta qué hizo mal. La religión es la misma palabra, pero la experiencia psicológica es muy distinta. De esa diferencia se ocupa la psicología de la religión: no de decidir si una creencia es verdadera, sino de entender qué hace en la vida de quien la tiene.
 
@@ -51,3 +51,17 @@ No se trata de recomendar una religión ni de descalificarla. Si alguien siente 
 Sumá estas lecturas al [mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y explorá el [laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
 Lecturas: James, W. (1902), *The Varieties of Religious Experience*. Freud, S. (1927), *El porvenir de una ilusión*. Allport, G. W. y Ross, J. M. (1967), «Personal religious orientation and prejudice», *Journal of Personality and Social Psychology*, 5(4), 432–443. Pargament, K. I., Smith, B. W., Koenig, H. G. y Perez, L. (1998), «Patterns of positive and negative religious coping with major life stressors», *Journal for the Scientific Study of Religion*, 37(4), 710–724. Koenig, H. G. (2012), «Religion, spirituality, and health: the research and clinical implications», *ISRN Psychiatry*. Bonelli, R., Dew, R. E., Koenig, H. G., Rosmarin, D. H. y Vasegh, S. (2012), «Religious and spiritual factors in depression», *Depression Research and Treatment*.
+
+## Preguntas frecuentes
+
+### ¿Qué estudia la psicología de la religión?
+
+No discute si una creencia es verdadera, sino qué hace la gente con su fe: cómo reza, cómo afronta las dificultades y qué lugar tiene la práctica en su vida. Dos personas ante la misma enfermedad pueden vivir la religión de maneras muy distintas, y de esa diferencia se ocupa.
+
+### ¿La religión es buena o mala para la salud mental?
+
+Los estudios muestran asociaciones, no una respuesta única. En muchas muestras ciertas formas de vivir la religión se vinculan con mejor adaptación y otras con peor. El afrontamiento religioso positivo (apoyo espiritual) y el negativo (sentirse castigado o abandonado por Dios) se asocian de manera distinta con la salud.
+
+### ¿Qué hacer si mi fe me genera culpa o miedo?
+
+Si sentís que tu fe te castiga o te abandona, eso merece ser escuchado con respeto en terapia, sin que nadie te empuje a creer más ni a creer menos. Un profesional de salud mental puede acompañarte junto con quien te acompañe espiritualmente.

@@ -11,7 +11,7 @@ orden: 219
 estado: publicado
 respuesta: Kristin Neff es una psicóloga estadounidense que definió la autocompasión con tres componentes: amabilidad con uno mismo, humanidad compartida y atención plena. En 2003 publicó la definición y una escala de 26 ítems con seis subescalas para medirla. Distingue la autocompasión de la autoestima y de la autoindulgencia. Su libro es Self-Compassion (2011; Sé amable contigo mismo).
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Cuando a un amigo le sale mal algo importante, solemos escucharlo y decirle que no es el fin del mundo. Cuando nos pasa a nosotros, aparece el reproche. Kristin Neff le puso nombre y método de estudio a esa diferencia: la autocompasión, o la capacidad de tratarnos como trataríamos a alguien que queremos.
 
@@ -56,6 +56,17 @@ Lo que se discute, como suele ocurrir con los constructos psicológicos, es cóm
 Para quien lee desde la clínica o desde su propia experiencia, la enseñanza práctica es modesta y útil: preguntarse qué le diría a alguien querido en la misma situación, y probar decirse algo parecido. No reemplaza un tratamiento cuando hay un sufrimiento intenso, pero puede ser un buen primer paso.
 
 La autocompasión es también un buen antídoto para el [síndrome del impostor](/recursos/sindrome-del-impostor/).
+
+## Preguntas frecuentes
+
+### ¿Qué es la autocompasión según Kristin Neff?
+Es la capacidad de tratarnos como trataríamos a alguien que queremos cuando nos va mal. Neff la define con tres componentes: amabilidad con uno mismo, humanidad compartida (reconocer que fallar es parte de la experiencia humana) y atención plena frente al propio dolor.
+
+### ¿La autocompasión es lo mismo que la autoestima o la autoindulgencia?
+No. La autoestima es una evaluación de cuánto valemos y suele caer cuando fracasamos; la autocompasión está disponible justamente cuando fallamos. Tampoco es autoindulgencia: cuidarse implica a veces hacer lo difícil y mirar el propio error con honestidad.
+
+### ¿Cómo se mide la autocompasión?
+Con la Escala de Autocompasión de Neff, de 26 ítems y seis subescalas: los tres componentes y sus tres opuestos. En el sitio podés responder la versión breve de doce preguntas, validada en español. Cómo se mide sigue siendo un debate abierto, porque se discute si la escala mide una sola cosa o varias.
 
 ## Para seguir leyendo
 

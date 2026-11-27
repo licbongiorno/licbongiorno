@@ -11,7 +11,7 @@ orden: 203
 estado: publicado
 respuesta: El trastorno bipolar es una condición del ánimo con períodos de manía o hipomanía y períodos de depresión. No equivale a cambiar de humor rápido. El tratamiento combina medicación indicada por psiquiatría, psicoterapia y psicoeducación, y se apoya en reconocer señales tempranas, cuidar el sueño y sostener rutinas.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Una persona duerme tres horas por noche durante una semana y se siente más lúcida que nunca. Tiene ideas a toda velocidad, habla sin parar, empieza cinco proyectos y gasta de más. Semanas después no puede levantarse de la cama. Ese vaivén, con períodos bien definidos y que dura días o semanas, se parece poco a lo que en la calle se llama «ser bipolar» para describir a alguien que se enoja y se calma en la misma tarde.
 
@@ -64,3 +64,14 @@ Si hay pensamientos de hacerte daño o de quitarte la vida, o si ves que alguien
 Si te reconocés en estas descripciones, una consulta con psiquiatría y con psicología es un buen primer paso.
 
 Lecturas: Merikangas, K. R. y colaboradores (2011), estudio de prevalencia del espectro bipolar en la Encuesta Mundial de Salud Mental, *Archives of General Psychiatry*. Cipriani, A. y colaboradores (2013), «Lithium in the prevention of suicide in mood disorders: updated systematic review and meta-analysis», *BMJ*.
+
+## Preguntas frecuentes
+
+### ¿Cuál es la diferencia entre el trastorno bipolar y los cambios de humor comunes?
+El trastorno bipolar se caracteriza por episodios sostenidos de manía o hipomanía y de depresión, con un cambio claro respecto de la manera habitual de ser. No se trata de cambiar de humor rápido ni de ser caprichoso.
+
+### ¿Cómo se trata?
+El tratamiento con mayor respaldo es combinado: medicación indicada por psiquiatría, psicoterapia y psicoeducación, sin que ninguna reemplace a las otras. No tiene respaldo la idea de que alcance con voluntad o con «pensar en positivo», ni que quien lo tiene no pueda trabajar, estudiar o sostener vínculos.
+
+### ¿Qué ayuda en el día a día y cómo acompañar?
+Reconocer las señales tempranas de un episodio, cuidar el sueño, mantener rutinas estables y acordar de antemano un plan. Desde la familia ayuda informarse con el equipo tratante, hablar en un momento de calma y preguntar con respeto en lugar de corregir. Si hay riesgo de suicidio, no hay que esperar a la próxima consulta.

@@ -11,7 +11,7 @@ orden: 165
 estado: publicado
 respuesta: El psicodrama es una psicoterapia de grupo creada por Jacob Levy Moreno, que dramatiza escenas de la vida de una persona con técnicas como la inversión de roles, el doble y el espejo. Un metaanálisis de 25 estudios experimentales encontró un efecto global grande, con limitaciones. Está muy presente en Argentina.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una mujer cuenta que no puede hablar con su madre sin terminar callándose. El director del grupo le pregunta dónde pasa eso, y ella señala una silla vacía en el escenario: la cocina de su infancia. Elige a alguien del grupo para ocupar el lugar de la madre, y la escena empieza. Más tarde le pedirán que se ponga en el lugar de la madre y responda desde ahí. Eso, en esencia, es el psicodrama: en vez de contar la escena, se la actúa.
 
@@ -60,3 +60,17 @@ Para ubicar el psicodrama entre otras propuestas que trabajan con el cuerpo y la
 Si estás atravesando un momento de crisis o pensás en hacerte daño, hay ayuda inmediata en [ayuda urgente](/ayuda-urgente/), en el 911 o en el Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país).
 
 Lecturas: Moreno, J. L. (1934), *Who Shall Survive?*. Kipper, D. A. y Ritchie, T. D. (2003), «The effectiveness of psychodramatic techniques: a meta-analysis», *Group Dynamics*.
+
+## Preguntas frecuentes
+
+### ¿Cómo es una sesión de psicodrama?
+
+Reúne a un protagonista, cuya escena se trabaja, un director que conduce, yos auxiliares que representan a otras personas, un escenario y el público del grupo. Suele pasar por tres momentos: el caldeamiento, la dramatización y el compartir, donde los participantes cuentan lo que les resonó sin interpretar al protagonista.
+
+### ¿Hay que saber actuar o exponerse delante de todos?
+
+No hace falta saber actuar: la escena parte de algo real de la persona, no de un guion. Un buen director cuida el ritmo y no empuja al protagonista más allá de lo que quiere mostrar. Si trabajás con violencia o trauma, conviene preguntar por la formación de quien dirige.
+
+### ¿Tiene respaldo científico?
+
+Hay evidencia favorable: un metaanálisis de 25 estudios encontró un efecto global grande, y otro de 2024 con ensayos aleatorizados en muestras chinas también halló efectos positivos. Pero tienen límites metodológicos y de contexto cultural, por lo que piden cautela.

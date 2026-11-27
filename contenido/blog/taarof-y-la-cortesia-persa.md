@@ -63,6 +63,17 @@ Este texto describe una costumbre, no un diagnóstico. No sirve para clasificar 
 
 Los términos persas están en el [glosario de psicología persa](/glosario-de-psicologia-persa/). Para comparar con otros códigos de cortesía, están [kreng jai y la cortesía tailandesa](/recursos/kreng-jai-y-la-cortesia-tailandesa/) y la [cultura de la imagen en Corea](/recursos/cultura-de-la-imagen-en-corea/).
 
+## Preguntas frecuentes
+
+### ¿El ta'arof es hipocresía?
+No, para quienes lo practican. Es un lenguaje compartido de cortesía ritual, y quien lo domina sabe leer qué se pide y qué se ofrece de verdad. Está ligado al *aberu* («agua del rostro»), el honor y la reputación que se cuidan en el trato.
+
+### ¿Cómo influye en la consulta psicológica?
+Un «estoy bien» puede ser ta'arof, una verdad o ambas, y declinar un ofrecimiento no siempre es un no. Ayuda preguntar de varias maneras y con tiempo, y explicar con claridad la confidencialidad. Nadie es «el ta'arof»: una persona iraní en consulta es, antes que nada, una persona.
+
+### ¿El ta'arof enferma o protege?
+No hay datos que permitan afirmarlo. Es un rasgo cultural que puede interactuar con la salud mental, por ejemplo cuando cuesta pedir ayuda por temor a exponer a la familia. Este texto describe una costumbre, no un diagnóstico.
+
 ## Para seguir leyendo
 
 - Beeman, W. O. (1986). *Language, Status, and Power in Iran*. Bloomington: Indiana University Press.

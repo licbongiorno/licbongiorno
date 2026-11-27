@@ -70,6 +70,17 @@ Si estas fechas te traen un malestar que se sostiene, consultá con un profesion
 
 Los términos persas están en el [glosario de psicología persa](/glosario-de-psicologia-persa/). Para otros ciclos del año con función de duelo y comunidad, está [Musok, chamanismo y duelo](/recursos/musok-chamanismo-y-duelo/).
 
+## Preguntas frecuentes
+
+### ¿Qué es Nowruz y cuándo se celebra?
+Nowruz («día nuevo») es el año nuevo persa, ligado al equinoccio de primavera. Se prepara con la limpieza profunda de la casa, ropa nueva y la mesa del haft-sin, con siete elementos cuyo nombre empieza con la letra *sin*. La UNESCO lo inscribió como patrimonio cultural inmaterial en 2009.
+
+### ¿Qué se hace en la noche de Yalda?
+Es la noche del solsticio de invierno, la más larga del año. Se pasa en familia comiendo granadas, sandía y frutos secos, recitando poesía y contando historias, a menudo con el *fal-e Hafez*. La imagen que la ordena es que la oscuridad más larga se atraviesa juntos y a partir de ahí la luz vuelve.
+
+### ¿Tienen estos rituales respaldo psicológico?
+No se conocen estudios que hayan evaluado específicamente Nowruz o Yalda. Hay investigación general sobre rituales, que sugiere que pueden ayudar a regular emociones y fortalecer vínculos, pero son hipótesis razonables y no resultados medidos sobre estas fiestas. Tampoco son una terapia ni todas las personas las viven con alegría.
+
 ## Para seguir leyendo
 
 - Norton, M. I. y Gino, F. (2014). «Rituals alleviate grieving for loved ones, lovers, and lotteries». *Journal of Experimental Psychology: General*, 143(1).

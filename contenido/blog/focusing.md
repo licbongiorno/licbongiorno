@@ -11,7 +11,7 @@ orden: 135
 estado: publicado
 respuesta: El focusing es un método creado por Eugene Gendlin para prestar atención a la sensación corporal global de una situación, todavía sin palabras, y encontrarle un asidero. Se enseña con seis pasos que el propio Gendlin presentaba como andamiaje, no como procedimiento rígido. La investigación existe sobre todo en torno a la psicoterapia experiencial.
 menciona: eugene-gendlin
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien llega a una conversación pendiente con su hermana. Sabe qué argumentos tiene, los repasó veinte veces, pero algo no cierra. Si se queda un momento en silencio y se pregunta cómo le cae todo ese asunto, quizás note algo en el pecho o en el estómago: una presión vaga, difícil de nombrar. Esa sensación todavía no es una emoción con nombre ni una idea. El focusing se ocupa justamente de ese punto.
 
@@ -48,3 +48,14 @@ Prestar atención a una sensación corporal puede abrir material difícil. Si lo
 Si te interesa ubicar el focusing entre otras prácticas, mirá [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
 Lecturas: Gendlin, E. (1978), *Focusing*. Hendricks, M., en Cain, D. y Seeman, J. (eds.) (2002), *Humanistic Psychotherapies: Handbook of Research and Practice*, APA. Elliott, R., Greenberg, L. y Lietaer, G. (2004), en el *Handbook* de Bergin y Garfield.
+
+## Preguntas frecuentes
+
+### ¿Qué es la sensación sentida?
+Es la sensación corporal global de una situación, todavía sin palabras. No es una emoción puntual como el enojo, sino el modo en que el cuerpo «tiene» un asunto completo, con sus matices, antes de que sepamos decirlo.
+
+### ¿Cómo se practica el focusing?
+El método clásico tiene seis pasos: hacer espacio, dejar que se forme la sensación de un asunto, encontrar un asidero (una palabra o imagen), resonar con él, preguntar y recibir lo que aparece. Los pasos son un andamiaje que cada persona adapta, y se puede practicar a solas, en pareja o dentro de una psicoterapia.
+
+### ¿Qué respaldo tiene?
+La investigación se apoya en la Escala de Experiencing y en revisiones sobre terapias experienciales. Son revisiones sobre una familia de terapias, no una prueba de que cada práctica de focusing produzca por sí sola un resultado determinado. Para temas muy dolorosos o traumáticos conviene hacerlo con un terapeuta que conozca el método.

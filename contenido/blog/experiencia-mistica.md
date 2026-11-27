@@ -11,7 +11,7 @@ orden: 152
 estado: publicado
 respuesta: Una experiencia mística es un momento, a menudo breve, que se vive como unidad, misterio o contacto con algo mayor. James propuso cuatro rasgos, Otto habló de lo numinoso y Stace distinguió formas extrovertidas e introvertidas. Ni conviene idealizarla como prueba de algo, ni patologizarla por sí sola.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una persona camina por la costa al amanecer y, por unos minutos, siente que no hay frontera entre ella y el mar. Después no encuentra palabras para contarlo, pero tampoco puede olvidarlo. Experiencias así se describen en todas las épocas y culturas, con o sin religión. La psicología intentó ponerles nombre y orden.
 
@@ -57,3 +57,14 @@ Cuando la vivencia llega con varias noches sin dormir, voces que otros no oyen, 
 Seguí con [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y el [laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
 Lecturas: James, W. (1902), *The Varieties of Religious Experience*. Otto, R. (1917), *Das Heilige* (*Lo santo*). Stace, W. (1960), *Mysticism and Philosophy*.
+
+## Preguntas frecuentes
+
+### ¿Cuáles son las características de una experiencia mística según William James?
+James describió cuatro rasgos: inefabilidad (no se puede decir del todo con palabras), cualidad noética (se vive como conocimiento), transitoriedad (suele durar poco) y pasividad (se vive como algo que le sucede a uno). Muchos autores posteriores consideran la lista incompleta o imprecisa.
+
+### ¿La psicología puede decir si una experiencia mística es real?
+No. Puede estudiar las condiciones que rodean estas experiencias, cómo las describen las personas y qué efectos tienen en su vida. Si lo vivido revela algo sobre la realidad o solo sobre la mente es una pregunta de la filosofía y de cada tradición espiritual, y es sano que quede abierta.
+
+### ¿Una experiencia mística es señal de enfermedad mental?
+No necesariamente. Mucha gente las vive sin daño y con sentido. La pregunta útil no es «¿es mística o es enfermedad?» sino qué efecto tiene en la vida: si ordena o desorganiza, si la persona puede cuidarse, dormir y trabajar. Si hay varias noches sin dormir, voces o riesgo, conviene consultar de inmediato.

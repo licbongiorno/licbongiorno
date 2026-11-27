@@ -11,7 +11,7 @@ orden: 175
 estado: publicado
 respuesta: La evidencia sobre pantallas y bienestar es mixta. Un estudio con más de 355.000 adolescentes encontró una asociación negativa pero chica, y otro mostró que limitar las redes redujo la soledad y la depresión en estudiantes. El debate sobre si las redes causan el aumento de problemas de salud mental sigue abierto.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Son las dos de la mañana y la pantalla del celular ilumina una cara cansada. Alguien dijo que iba a mirar un minuto la hora y lleva cuarenta recorriendo fotos de gente que parece estar de vacaciones. No pasó nada grave, pero a la mañana siguiente el humor es peor y el sueño, corto. Esa escena es familiar para muchísimas personas, y alcanza para ver que la pregunta no es solo cuántas horas, sino qué se hizo con ellas y qué se dejó de hacer.
 
@@ -64,3 +64,14 @@ Si el uso de pantallas viene acompañado de tristeza persistente, aislamiento, p
 - [Laboratorio de crianza](/laboratorio-de-crianza/)
 
 Lecturas: Orben, A. y Przybylski, A. K. (2019), «The association between adolescent well-being and digital technology use», *Nature Human Behaviour*, 3, 173–182. Hunt, M. G., Marx, R., Lipson, C. y Young, J. (2018), «No more FOMO: limiting social media decreases loneliness and depression», *Journal of Social and Clinical Psychology*, 37(10), 751–768. Haidt, J. (2024), *The Anxious Generation*. Odgers, C. (2024), «The great rewiring: is social media really behind an epidemic of teenage mental illness?», *Nature*.
+
+## Preguntas frecuentes
+
+### ¿Las pantallas y las redes sociales dañan la salud mental?
+En promedio, la asociación entre uso de tecnología y bienestar es negativa pero chica: un análisis de más de 355.000 adolescentes encontró que explica como máximo el 0,4 % de la variación. Los estudios grandes describen tendencias y no dicen qué le pasa a una persona en particular. Si las redes causaron el aumento de problemas en adolescentes es un debate abierto.
+
+### ¿Sirve limitar el uso de redes?
+En un experimento con estudiantes, limitar las redes a unos 30 minutos por día durante tres semanas redujo la soledad y la depresión frente a un grupo control. Fue un estudio corto y con estudiantes, así que conviene tomarlo como una pista y no como una regla.
+
+### ¿Qué hago si mi hijo adolescente pasa demasiado tiempo en el celular?
+Prohibir de golpe suele generar conflicto sin resolver lo de fondo. Suele ayudar más conversar sobre lo que hace, acordar horarios que protejan el sueño y mostrar interés genuino. Importan más los cambios sostenidos en el ánimo, el sueño o los vínculos que el tiempo de uso.

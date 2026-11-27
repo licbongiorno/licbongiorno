@@ -11,7 +11,7 @@ orden: 173
 estado: publicado
 respuesta: La ansiedad por la salud es una preocupación persistente por tener o contraer una enfermedad grave, aun con estudios normales. El DSM-5 reemplazó la hipocondría por el trastorno de síntomas somáticos y el trastorno de ansiedad por enfermedad. La terapia cognitivo-conductual redujo esta ansiedad con beneficios sostenidos a dos años en un ensayo grande.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Son las dos de la mañana y una molestia en el pecho, que ayer no estaba, no te deja dormir. Buscás en internet, aparece una enfermedad grave, el corazón se acelera y la molestia parece más fuerte. A la mañana, un estudio sale normal y sentís alivio, pero a los pocos días aparece otra sensación y todo vuelve a empezar. Si te pasa, no estás exagerando ni inventando: hay un patrón conocido, y tiene tratamiento.
 
@@ -66,3 +66,14 @@ Que haya ansiedad no significa que cualquier síntoma sea ansiedad. Ante algo nu
 - [Escala de ansiedad GAD-7](/escala-de-ansiedad-gad-7/)
 
 Lecturas: Tyrer, P. y colaboradores (2014), «Clinical and cost-effectiveness of cognitive behaviour therapy for health anxiety in medical patients: a multicentre randomised controlled trial», *The Lancet*, 383, 219–225.
+
+## Preguntas frecuentes
+
+### ¿Es lo mismo que hipocondría?
+En gran parte sí: el DSM-5 eliminó el diagnóstico de hipocondría y repartió los casos en dos categorías, el trastorno de síntomas somáticos y el trastorno de ansiedad por enfermedad. Se cambió el nombre en parte porque se percibía como peyorativo. Lo que se describe es una preocupación real y persistente, no una exageración.
+
+### ¿Por qué me tranquilizo con un estudio normal y a los pocos días vuelvo a preocuparme?
+Porque el alivio de cada chequeo dura poco y funciona como una pequeña recompensa que mantiene la alarma encendida. Al buscar certeza una y otra vez, el cerebro aprende que la preocupación era necesaria. Por eso repetir estudios o pedir que otros te tranquilicen rara vez resuelve el problema.
+
+### ¿Sirve la terapia para la ansiedad por la salud?
+Sí, es uno de los respaldos más sólidos que tiene este problema. En el estudio CHAMP, la terapia cognitivo-conductual redujo la ansiedad por la salud, con beneficio sostenido a dos años. En terapia se trabaja el ciclo, se reduce de a poco el chequeo y se aprende a tolerar la incertidumbre, siempre tras descartar con un médico lo que corresponda.

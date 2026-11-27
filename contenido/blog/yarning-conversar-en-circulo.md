@@ -75,6 +75,17 @@ Si hablar de algo doloroso te deja mal o con pensamientos de hacerte daño, busc
 - [Bienestar social y emocional aborigen](/recursos/bienestar-social-y-emocional-aborigen/)
 - [Country y pertenencia](/recursos/country-y-pertenencia/)
 
+## Preguntas frecuentes
+
+### ¿Qué es el yarning?
+Es conversar, contar historias y charlar largo, en el inglés de Australia. En los pueblos aborígenes y de las islas del Estrecho de Torres es también una forma de transmitir conocimiento y de ponerse en relación. Como método de investigación lo presentaron Bessarab y Ng'andu en 2010.
+
+### ¿Cuáles son los tipos de yarning?
+La tipología más citada incluye el yarning social, el que trata el tema de investigación, el colaborativo y el terapéutico o de apoyo. No es una norma: otros trabajos describen también el yarning de familia y el yarning entre culturas.
+
+### ¿Se puede usar como técnica de entrevista?
+No como un truco para ganar confianza. Supone una relación real, con obligaciones que no terminan con el proyecto, y quién conversa con quién depende de cada comunidad. Como método cualitativo tiene bibliografía amplia; como forma de cuidado no hay ensayos que prueben su eficacia clínica, y no reemplaza una evaluación profesional.
+
 ## Para seguir leyendo
 
 - Bessarab, D. y Ng'andu, B. (2010). «Yarning about yarning as a legitimate method in Indigenous research». *International Journal of Critical Indigenous Studies*, 3(1), 37-50.

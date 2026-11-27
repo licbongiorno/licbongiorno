@@ -70,6 +70,20 @@ Si estás atravesando un malestar intenso, consultá con un profesional. Si sent
 
 Este texto es parte de la serie sobre la psicología aborigen australiana. Empezá por [el mapa de la psicología aborigen australiana](/recursos/mapa-de-la-psicologia-aborigen-australiana/) y consultá el [glosario de psicología aborigen australiana](/glosario-de-psicologia-aborigen-australiana/). También podés ver [el duelo ecológico](/recursos/duelo-ecologico/), que toca el vínculo con el territorio desde otro lugar, y [el trauma histórico de los pueblos originarios](/recursos/trauma-historico-de-los-pueblos-originarios/).
 
+## Preguntas frecuentes
+
+### ¿Cuáles son los siete dominios del bienestar social y emocional?
+
+Son conexiones: con el cuerpo, con la mente y las emociones, con la familia y el parentesco, con la comunidad, con la cultura, con Country (el territorio) y con la espiritualidad y los ancestros. Se entienden dentro de un contexto histórico, político y social más amplio, que puede fortalecerlas o dañarlas.
+
+### ¿En qué se diferencia del modelo biopsicosocial?
+
+Los dos amplían la mirada más allá del síntoma. Pero el bienestar social y emocional parte de lo colectivo y no de lo individual, incluye el territorio y lo espiritual como dominios propios y reconoce la historia colonial como un determinante central.
+
+### ¿Tiene respaldo científico?
+
+Es un marco conceptual y de políticas de salud, construido con participación de comunidades aborígenes y muy usado en Australia. No es una teoría que se mida con un puntaje único, aunque hay instrumentos que evalúan algunos aspectos con validación parcial. Complementa la atención clínica, no la reemplaza.
+
 ## Para seguir leyendo
 
 - Dudgeon, P., Milroy, H. y Walker, R. (eds.) (2014). *Working Together: Aboriginal and Torres Strait Islander Mental Health and Wellbeing Principles and Practice* (2.ª ed.). Canberra: Commonwealth of Australia.

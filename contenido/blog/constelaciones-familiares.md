@@ -11,7 +11,7 @@ orden: 160
 estado: publicado
 respuesta: Las constelaciones familiares son un método grupal creado por Bert Hellinger, en el que una persona elige a otros participantes para representar a su familia y se interpreta lo que ellos sienten. Hay un ensayo aleatorizado con resultados favorables, pero conducido por psicoterapeutas formados y centrado en problemas de relación. La idea de que los representantes perciben algo real de personas que no conocen no tiene respaldo científico.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una sala con quince personas sentadas en círculo. Alguien cuenta, en pocas palabras, que se siente aparte de su familia desde siempre. El coordinador le pide que elija entre los presentes a quienes representarán a su madre, a su padre y a ella misma, y que los ubique donde le parezca. Después, todos esperan en silencio a ver qué pasa. Así empieza, a grandes rasgos, un encuentro de constelaciones familiares.
 
@@ -55,3 +55,14 @@ Si después de un encuentro sentís angustia que no cede o pensamientos de hacer
 Si te interesa ubicar este método entre otras propuestas, podés recorrer [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/), donde también aparecen la terapia con psicodélicos, la respiración holotrópica y la contemplación cristiana. Y si preferís explorar por tu cuenta, está el [laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
 Lecturas: Weinhold, J., Hunger, C., Bornhäuser, A. y Schweitzer, J. (2013), «Family constellation seminars improve psychological functioning in a general population sample: results of a randomized controlled trial», *Journal of Counseling Psychology*, 60(4), 601–609. Konkolÿ Thege y colaboradores (2021), revisión sistemática sobre la efectividad de las constelaciones familiares.
+
+## Preguntas frecuentes
+
+### ¿Las constelaciones familiares tienen base científica?
+La idea central, que los representantes perciban algo real de personas que no conocen, no tiene sustento científico. Hay un ensayo aleatorizado con resultados favorables (Weinhold y colaboradores, 2013), pero con seminarios conducidos por psicoterapeutas formados, y la evidencia general sigue en discusión.
+
+### ¿Reemplazan a una psicoterapia?
+No. Es una experiencia grupal intensa con desconocidos y, en general, sin seguimiento posterior. Si estás en terapia o con medicación, no la dejes por un taller.
+
+### ¿Qué conviene mirar antes de participar?
+La formación de quien coordina, su experiencia con situaciones de trauma y cómo acompaña después. Una interpretación tomala como hipótesis para pensar, no como veredicto. Si te sugieren «honrar» o reconciliarte con quien te dañó, tenés derecho a frenar y consultar con un profesional de confianza.

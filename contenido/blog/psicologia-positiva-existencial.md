@@ -11,7 +11,7 @@ orden: 156
 estado: publicado
 respuesta: La psicología positiva existencial, o PP 2.0, es una propuesta de Paul T. P. Wong (2011) que integra el sufrimiento, el sentido y la autotrascendencia en el estudio de la buena vida. Se diferencia de la psicología positiva de Seligman, centrada en la felicidad, y se apoya en Frankl.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una persona atraviesa una enfermedad larga y alguien le dice, con la mejor intención, que piense en positivo. Ella contesta que no quiere pensar en positivo: quiere que lo que le pasa tenga algún sentido. Esa diferencia entre sentirse bien y encontrarle sentido a lo vivido es el punto de partida de una corriente que hoy se conoce como psicología positiva existencial.
 
@@ -48,3 +48,14 @@ Buscarle sentido al dolor no es obligación ni exigencia de agradecer lo que pas
 Podés seguir con [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
 Lecturas: Wong, P. T. P. (2011), «Positive psychology 2.0: Towards a balanced interactive model of good life», *Canadian Psychology*, 52(2), 69–81.
+
+## Preguntas frecuentes
+
+### ¿Qué es la psicología positiva existencial?
+También llamada PP 2.0, la propuso Paul Wong en 2011. Sostiene que una buena vida no se agota en emociones agradables: integra el sufrimiento, el sentido y la autotrascendencia, es decir, la orientación hacia algo más grande que uno mismo.
+
+### ¿En qué se diferencia de la psicología positiva de Seligman?
+La psicología positiva clásica se centró sobre todo en la felicidad y en lo que funciona bien. Wong no la desecha, pero objeta que deja poco espacio para el dolor. Para PP 2.0, el sufrimiento es parte de la condición humana y, bien acompañado, puede abrir camino al sentido.
+
+### ¿Tengo que encontrarle sentido a todo lo que me duele?
+No. Buscarle sentido al dolor no es una obligación ni una exigencia de agradecer lo que pasó, y hay dolores que no tienen sentido evidente. Es un marco teórico que invita a investigar y que ofrece preguntas, no recetas, y no reemplaza un tratamiento cuando hay un sufrimiento clínico.

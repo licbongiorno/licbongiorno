@@ -11,7 +11,7 @@ orden: 155
 estado: publicado
 respuesta: James W. Fowler propuso en 1981 seis etapas de la fe, entendida como estructura de sentido y no como contenido de una religión. Se inspira en Piaget y Kohlberg. Recibió críticas empíricas, y las etapas no deben usarse como ranking de personas.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una mujer cuenta que de chica rezaba con total seguridad y que, de adolescente, dejó de ir a misa porque nadie en su casa se animaba a responderle sus dudas. Años después, volvió a preguntarse por el sentido, pero de otra manera. Se pregunta si cambió de religión o si dejó de creer. Quizás cambió algo más profundo: la forma en que sostiene lo que cree.
 
@@ -53,6 +53,17 @@ Las crisis de fe pueden doler, sobre todo cuando implican perder una comunidad. 
 ## Para seguir
 
 Podés ampliar con [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
+
+## Preguntas frecuentes
+
+### ¿Las etapas de la fe son etapas religiosas?
+No necesariamente. Fowler describe la fe como la manera en que una persona construye sentido y confía, así que las etapas hablan de cómo se sostienen las creencias y no de cuáles. Dos personas con la misma religión pueden estar en etapas distintas.
+
+### ¿Quien está en una etapa más alta tiene una fe mejor?
+No. El modelo no propone un ranking de valor personal: alguien con una fe sintético-convencional puede ser generoso y estar en paz, y alguien en la etapa cuarta puede sentirse solo con sus dudas. No todas las personas atraviesan todas las etapas.
+
+### ¿Qué respaldo tiene la teoría?
+Es una propuesta teórica útil, no una ley del desarrollo. La idea de que la manera de creer cambia a lo largo de la vida es razonable, pero la evidencia no siempre respalda una secuencia tan ordenada y las etapas altas son difíciles de medir.
 
 ## Para seguir leyendo
 

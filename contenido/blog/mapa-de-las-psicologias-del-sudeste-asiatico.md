@@ -88,6 +88,17 @@ Si te interesa la práctica, por la [meditación vipassana](/recursos/meditacion
 
 Para las tradiciones vecinas, mirá el [mapa de la psicología india](/recursos/mapa-de-la-psicologia-india/), el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/), el [mapa de la psicología budista tibetana](/recursos/mapa-de-la-psicologia-budista-tibetana/) y el [mapa de las psicologías del Pacífico](/recursos/mapa-de-las-psicologias-del-pacifico/).
 
+## Preguntas frecuentes
+
+### ¿Qué aporta el sudeste asiático a la psicología y a la meditación?
+Aporta enseñanzas contemplativas como el budismo comprometido de Thich Nhat Hanh, la tradición vipassana de Myanmar (Ledi Sayadaw, Mahasi, U Ba Khin, Goenka), valores cotidianos como los de Tailandia, conceptos clínicos como el khyâl cap camboyano y categorías históricas como el latah y el amok. Son tipos de cosas distintas y el mapa propone no mezclarlos.
+
+### ¿Qué es el khyâl cap?
+Es el «ataque de viento» descrito por Devon Hinton y colegas en población camboyana: mareo, palpitaciones, falta de aire y miedo a morir, que la persona atribuye a que el viento del cuerpo sube de golpe por el cuello. Se parece a un ataque de pánico, pero la explicación cultural cambia lo que la persona teme y, por eso, cómo conviene abordarlo.
+
+### ¿Es seguro hacer un retiro de meditación vipassana?
+No para todas las personas ni en cualquier momento. Un estudio cualitativo de 2017 documentó experiencias difíciles, como ansiedad, pánico o disociación, en algunos practicantes de retiros intensivos. No se recomiendan en momentos de fragilidad psíquica ni como sustituto de un tratamiento.
+
 ## Para seguir leyendo
 
 - Hinton, D. E. y Good, B. J. (eds.) (2009). *Culture and Panic Disorder*. Stanford University Press.

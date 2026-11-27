@@ -55,6 +55,17 @@ La meditación no es adecuada para todas las personas en todos los momentos: en 
 
 Este texto es parte de la serie sobre las psicologías del sudeste asiático. Empezá por [el mapa de las psicologías del sudeste asiático](/recursos/mapa-de-las-psicologias-del-sudeste-asiatico/) y consultá el [glosario de psicologías del sudeste asiático](/glosario-de-psicologias-del-sudeste-asiatico/). Seguí con [el khyâl cap y el trauma en Camboya](/recursos/khyal-cap-y-el-trauma-en-camboya/) y [kreng jai y la cortesía tailandesa](/recursos/kreng-jai-y-la-cortesia-tailandesa/). Para el contexto de la práctica, [meditación vipassana](/recursos/meditacion-vipassana/).
 
+## Preguntas frecuentes
+
+### ¿Qué significa «interser»?
+Es la traducción de Thich Nhat Hanh de un término vietnamita para decir que nada existe por sí mismo y todo existe en relación con lo demás. Su ejemplo más repetido es el de una hoja de papel, en la que están las nubes, la lluvia y el árbol. Es una idea filosófica y espiritual, no una hipótesis psicológica medible.
+
+### ¿Cómo se practica el caminar consciente?
+Se acompaña cada paso con la respiración, sin apuro y sin meta: se llega a cada paso. Es una técnica sencilla, compartida con otras formas de meditación. Hay estudios con resultados modestos o mixtos en estrés y ánimo, con muestras pequeñas.
+
+### ¿Es seguro meditar para todas las personas?
+No para todas ni en todo momento: sobre todo con trauma, la meditación puede aumentar la angustia. Si sentís malestar intenso o sostenido, conviene consultar con un profesional y parar si algo te desborda.
+
 ## Para seguir leyendo
 
 - Nhat Hanh, T. (1975). *The Miracle of Mindfulness*. Boston: Beacon Press. (En español: *El milagro de mindfulness*.)

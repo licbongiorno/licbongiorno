@@ -11,7 +11,7 @@ orden: 161
 estado: publicado
 respuesta: La terapia asistida con psicodélicos combina una sustancia, como la psilocibina o el MDMA, con psicoterapia en un marco clínico controlado. Los ensayos son prometedores pero mixtos: en 2021 la psilocibina no fue mejor que el escitalopram en el resultado principal, y en 2024 la FDA rechazó aprobar el MDMA. En Argentina no están aprobadas para uso terapéutico.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una sala tranquila, una cama o un sillón, música suave y dos terapeutas presentes. La persona tomó una dosis de psilocibina y pasará varias horas con los ojos cubiertos, acompañada. No es una escena de fiesta ni de retiro espiritual: es el formato de un ensayo clínico. Conviene empezar por ahí, porque casi todo lo que se sabe sobre estas sustancias en psicoterapia viene de contextos muy distintos de los que circulan en redes.
 
@@ -55,3 +55,17 @@ Si pasaste por una experiencia que te dejó desorganizado, con miedo o sin poder
 Este tema se cruza con otros recorridos en [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/), junto con las constelaciones, la respiración holotrópica y la contemplación cristiana. Para explorar con ejercicios, está el [laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
 Lecturas: Griffiths, R. R. y colaboradores (2006), «Psilocybin can occasion mystical-type experiences having substantial and sustained personal meaning and spiritual significance», *Psychopharmacology*, 187(3), 268–283. Carhart-Harris, R. y colaboradores (2021), «Trial of psilocybin versus escitalopram for depression», *New England Journal of Medicine*. Goodwin, G. M. y colaboradores (2022), *New England Journal of Medicine*, 387(18), 1637–1648.
+
+## Preguntas frecuentes
+
+### ¿La terapia con psicodélicos está aprobada?
+
+En la Argentina no está aprobada para uso terapéutico. En Australia, desde julio de 2023, psiquiatras autorizados pueden prescribir MDMA para estrés postraumático y psilocibina para depresión resistente, en un régimen restringido. En 2024 la FDA de Estados Unidos rechazó aprobar el MDMA para estrés postraumático.
+
+### ¿Funciona mejor que los antidepresivos?
+
+Los resultados son prometedores pero no tan limpios como suele contarse. En un ensayo muy citado, la psilocibina con apoyo psicoterapéutico no fue mejor que el escitalopram en el resultado principal. La evidencia está en construcción y la cobertura mediática suele exagerarla.
+
+### ¿Es lo mismo que una ceremonia o una microdosis?
+
+No. Los ensayos clínicos incluyen evaluación previa, preparación, acompañamiento de terapeutas durante la sesión e integración posterior. Las ceremonias sin control médico o la microdosis casera no ofrecen ese marco ni manejo de una crisis. Hay riesgos concretos, como crisis de angustia, episodios psicóticos en personas vulnerables e interacciones con medicación.

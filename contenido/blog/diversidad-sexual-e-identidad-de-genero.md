@@ -11,7 +11,7 @@ orden: 210
 estado: publicado
 respuesta: La diversidad sexual y de género no es un trastorno mental. En Argentina, la Ley 26.618 (2010) estableció el matrimonio igualitario y la Ley 26.743 (2012) reconoce la identidad de género sin exigir diagnósticos ni cirugías. La OMS, en la CIE-11, sacó la incongruencia de género de los trastornos mentales. El malestar suele venir del rechazo y la discriminación, y las terapias de conversión no tienen respaldo.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Un adolescente que, después de semanas de dar vueltas, le dice a su madre que le gustan los varones. Una persona adulta que cuenta en terapia, por primera vez, que desde chica siente que el género que le asignaron al nacer no le corresponde. Una abuela que no sabe bien qué decir pero quiere seguir viendo a su nieto. En todas esas escenas hay una pregunta parecida: cómo acompañar sin juzgar y sin hacer daño.
 
@@ -69,3 +69,14 @@ Esta nota es general. Cada persona tiene su propio recorrido y su propio ritmo, 
 ## Para seguir
 
 Lecturas: Ley 26.618 de matrimonio igualitario (2010). Ley 26.743 de identidad de género (sancionada el 9 de mayo de 2012). Organización Mundial de la Salud, Clasificación Internacional de Enfermedades, 11.ª revisión (CIE-11, aprobada en 2019).
+
+## Preguntas frecuentes
+
+### ¿Ser LGBTIQ+ es un trastorno?
+No. La posición actual de la psicología y de la OMS es que la diversidad sexual y de género no es una enfermedad. Cuando hay sufrimiento, suele explicarse más por el rechazo, el ocultamiento y la discriminación que por la identidad misma.
+
+### ¿Qué dice la ley argentina sobre la identidad de género?
+La Ley 26.743, de 2012, reconoce el derecho a ser tratada según la identidad de género vivida y no exige diagnósticos médicos o psiquiátricos ni cirugías. El reconocimiento se apoya en la autopercepción de la persona.
+
+### ¿Cómo acompañar a un hijo o hija que cuenta su orientación o identidad?
+Agradecer la confianza, escuchar antes de opinar y no exigir definiciones cerradas. Que la persona decida a quién se lo cuenta y cuándo. Los adultos pueden necesitar su propio espacio para procesar sus emociones sin cargárselas a quien acaba de confiar.

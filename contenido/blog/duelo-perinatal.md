@@ -11,7 +11,7 @@ orden: 208
 estado: publicado
 respuesta: El duelo perinatal es el que sigue a una pérdida durante el embarazo o alrededor del nacimiento. Con frecuencia es un duelo no reconocido, como lo describió Doka en 1989: el entorno no lo valida y quienes lo viven quedan sin lugar para expresarlo. Afecta a ambos progenitores y también a los hermanos. Rituales, palabras propias y acompañamiento ayudan, y un embarazo posterior puede traer ansiedad.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Una ecografía en la que ya no se escucha el latido. Un parto que termina en silencio. Una cuna armada que nadie sabe cómo guardar. Después, las visitas que no saben qué decir y un entorno que, con la mejor intención, cambia de tema. Quien pasó por una pérdida durante el embarazo o alrededor del nacimiento suele sentir que perdió a alguien muy importante, y a la vez que el mundo no lo reconoce.
 
@@ -62,3 +62,14 @@ Nadie puede decirte cómo tenés que sentirte ni cuánto tiempo tenés para sent
 ## Para seguir
 
 Lecturas: Doka, K. J. (1989), concepto de duelo no reconocido. Kersting, A. y Wagner, B. (2012), «Complicated grief after perinatal loss», *Dialogues in Clinical Neuroscience*, 14(2), 187–194.
+
+## Preguntas frecuentes
+
+### ¿Qué es el duelo perinatal?
+Es el duelo que sigue a una pérdida durante el embarazo o en torno al nacimiento. Se llora a una persona a la que casi no se pudo conocer y también a todo lo que se había imaginado con ella. A menudo es un duelo no reconocido, porque el entorno no lo valida con los gestos habituales.
+
+### ¿Qué se le puede decir a alguien que sufrió una pérdida perinatal?
+Suele ayudar lo simple: «lo lamento mucho», «estoy acá», «¿querés hablar de él o de ella?». Frases como «ya vas a tener otro» o «fue mejor así», aunque se digan con cariño, pueden doler porque dejan de lado el vínculo que ya existía. A veces alcanza con estar presente.
+
+### ¿Cuándo conviene pedir ayuda profesional?
+Cuando el dolor te impide funcionar durante mucho tiempo, aparecen pensamientos de hacerte daño o sentís que no podés compartirlo con nadie. No hay un tiempo fijo para un duelo «correcto», y pedir ayuda no es una exageración.

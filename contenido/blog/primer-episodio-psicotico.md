@@ -11,7 +11,7 @@ orden: 204
 estado: publicado
 respuesta: La psicosis es una pérdida de contacto con la realidad compartida, con alucinaciones, delirios o desorganización. Puede tener muchas causas, incluidas sustancias o problemas médicos. Consultar pronto mejora el pronóstico: los servicios de intervención temprana mostraron mejores resultados que la atención habitual. La recuperación es posible.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Una madre nota que su hijo de veinte años dejó de ir a la facultad. Habla poco, duerme de día, tapa la ventana de su cuarto. Una noche le dice, con total convicción, que lo siguen y que escucha voces que comentan lo que hace. Ella no sabe si discutirle, si llamarlo a la calma o si esperar a que pase. Esa duda es muy frecuente, y la respuesta tiene que ver con algo simple: pedir ayuda pronto cambia el rumbo de las cosas.
 
@@ -59,3 +59,14 @@ Hay situaciones en que no se puede esperar. Si la persona está en riesgo de hac
 Este artículo es informativo y no reemplaza una evaluación profesional. Si te preocupa alguien cercano, o te preocupa lo que vivís vos, una consulta temprana con psiquiatría y con psicología es una buena decisión.
 
 Lecturas: Correll, C. U. y colaboradores (2018), «Comparison of early intervention services vs treatment as usual for early-phase psychosis», *JAMA Psychiatry*, 75(6), 555-565.
+
+## Preguntas frecuentes
+
+### ¿Qué es un episodio psicótico?
+Es una pérdida de contacto con la realidad compartida, que puede aparecer como alucinaciones, delirios o desorganización del pensamiento y la conducta, solas o combinadas. Puede tener muchos orígenes, como condiciones de salud mental, consumo de sustancias o causas médicas, por lo que hace falta una evaluación profesional.
+
+### ¿Hay recuperación después de un primer episodio?
+Sí. Muchas personas atraviesan un episodio, reciben tratamiento y retoman sus estudios, trabajo y vínculos; otras necesitan un acompañamiento más prolongado, que también es parte de la recuperación. Consultar pronto mejora las perspectivas: los servicios de intervención temprana mostraron mejores resultados que la atención habitual (Correll y colaboradores, 2018).
+
+### ¿Cómo acompañar a alguien que está convencido de algo irreal?
+Escuchá con calma y validá la emoción, no el contenido: el miedo es real aunque lo que lo provoca no lo sea. Discutir el delirio suele empeorar las cosas. Proponé una consulta como cuidado, y si hay riesgo para la persona o para otros, o ideas de quitarse la vida, pedí ayuda de inmediato.

@@ -11,7 +11,7 @@ orden: 166
 estado: publicado
 respuesta: El cuerpo lleva la cuenta (2014), de Bessel van der Kolk, propone que el trauma deja huellas en el cuerpo y el cerebro y valora tratamientos corporales. Una revisión de 2025 señaló que sus afirmaciones centrales rara vez se evaluaron formalmente. Sigue en pie que el trauma tiene expresiones corporales, aunque los tratamientos psicológicos centrados en el trauma son los de mejor evidencia.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien termina el libro y, por primera vez, siente que le ponen palabras a algo que le pasa desde hace años: el sobresalto ante un ruido, la tensión que no afloja, el sueño que no repara. Cierra la tapa con alivio. Esa escena se repite en mucha gente, y explica por qué *El cuerpo lleva la cuenta* es el libro más leído sobre trauma y cuerpo.
 
@@ -56,3 +56,14 @@ Este tema se ubica dentro de [el mapa de las psicoterapias corporales](/recursos
 Qué es el trastorno de estrés postraumático y qué tratamientos recomiendan las guías lo cuento en [estrés postraumático](/recursos/estres-postraumatico/).
 
 Lecturas: van der Kolk, B. (2014), *The Body Keeps the Score* (en español, *El cuerpo lleva la cuenta*). Scheeringa, M. (2025), revisión de las afirmaciones del libro. McNally, R. (2005), crítica al artículo de van der Kolk de 1994. Organización Mundial de la Salud (2013), recomendaciones sobre estrés postraumático.
+
+## Preguntas frecuentes
+
+### ¿Qué dice El cuerpo lleva la cuenta?
+Su autor, Bessel van der Kolk, propone que el trauma deja huellas en el cuerpo y en el cerebro, y que por eso no alcanza con hablar: conviene sumar abordajes que trabajen con la experiencia corporal, como el yoga, el EMDR, el neurofeedback o el teatro.
+
+### ¿Qué está cuestionado del libro?
+Una revisión de Scheeringa (2025) analizó 122 afirmaciones y concluyó que las centrales, como el daño neurobiológico duradero y la superioridad de los tratamientos corporales, rara vez se evaluaron formalmente. No dice que el trauma no duela ni que el cuerpo no importe, sino que algunas ideas se presentaron con más certeza de la que la evidencia permitía.
+
+### ¿Sirven las terapias corporales para el trauma?
+Pueden acompañar un tratamiento, y que el trauma tenga expresiones corporales sí está reconocido. Pero los tratamientos con mejor evidencia para el estrés postraumático siguen siendo los psicológicos centrados en el trauma, y la OMS recomienda la terapia cognitivo-conductual centrada en el trauma y el EMDR. Las prácticas corporales no deberían presentarse como reemplazo.
