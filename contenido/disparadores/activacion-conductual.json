@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace meses que una persona llega del trabajo y se acuesta en el sillón. Antes caminaba, veía a un amigo los viernes, cocinaba. Dice: «No tengo ganas de nada», y espera que las ganas vuelvan para retomar todo eso.",
+  "p": "¿Qué creés que pasa con las ganas?",
+   "opciones": ["Primero tienen que volver las ganas y recién después se puede hacer algo", "Suelen llegar después de empezar, aunque sea con un paso chiquito", "Si no vuelven solas, es señal de que la persona no quiere salir adelante"],
+   "r": "Con el ánimo bajo, las ganas casi nunca llegan antes de hacer: suelen llegar después. La activación conductual propone elegir una actividad pequeña y planificada, y registrar luego cómo estuvo el ánimo.",
+   "como": "En 1996, Neil Jacobson y sus colegas compararon la terapia cognitiva completa de Aaron Beck con uno solo de sus componentes, el de activar a la persona. La activación sola funcionó tan bien como el tratamiento completo, y de ahí se desarrolló como tratamiento propio.",
+   "debate": "No es «hacé cosas y se te pasa». En depresiones moderadas o graves conviene hacerla acompañado, y a veces con otros tratamientos. Tampoco alcanza con agendar actividades si no se entiende qué se perdió.",
+   "seccion": "Una escena posible"
+  },
+  {
+   "enigma": "Cuando el ánimo baja, uno deja de ver gente, de salir, de hacer lo que le gustaba. En el momento alivia, porque cuesta menos. Pero al día siguiente el ánimo suele estar peor.",
+   "p": "¿Por qué retirarse alivia hoy y empeora mañana?",
+   "opciones": ["Porque el descanso prolongado agota el cuerpo", "Porque al hacer menos también se recibe menos de lo bueno: encuentros, logros, disfrute", "Porque la persona se concentra demasiado en sus problemas"],
+   "r": "Al hacer menos, también recibimos menos cosas buenas, y el ánimo baja todavía más. Es un círculo entre el desánimo y la inactividad, y la activación conductual propone cortarlo desde la acción, sin esperar a sentirse mejor.",
+   "como": "Se empieza por un registro de actividades: qué se hace cada día, con quién, cuánto placer y cuánto logro da. De ahí aparecen patrones, como el aislamiento que alivia en el momento y empeora después. Un ensayo de Dimidjian y colaboradores (2006) encontró resultados comparables a la medicación en depresión moderada a grave.",
+   "debate": "Un ensayo grande en el Reino Unido (Richards y colaboradores, 2016) mostró que aplicada por profesionales con poca formación fue no inferior a la terapia cognitivo-conductual. Aun así, no todos responden igual, y con depresión grave o ideas de muerte hace falta evaluación clínica.",
+   "seccion": "El círculo del desánimo"
+  }
+ ],
+ "abierta": "Si actuar ayuda a salir del pozo, ¿qué hace falta comprender para no volver a caer? Qué se perdió y por qué bajó el ánimo sigue siendo parte del trabajo."
+}

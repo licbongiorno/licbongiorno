@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una sala tranquila, un sillón, música suave y dos terapeutas presentes. La persona tomó una dosis de psilocibina y pasará varias horas acompañada, con los ojos cubiertos. No es una fiesta ni un retiro: es el formato de un ensayo clínico.",
+   "p": "¿Qué creés que mide un ensayo así?",
+   "opciones": ["El efecto de la sustancia sola, tomada de cualquier manera", "El efecto de la sustancia junto con la preparación, el acompañamiento y la integración con terapeutas", "Solo cuántas personas dicen haber tenido una experiencia especial"],
+   "r": "Los ensayos administran la sustancia en pocas sesiones, rodeadas de preparación y de integración con un terapeuta. El efecto que se observa va acompañado de psicoterapia: no se evalúa la sustancia suelta. Por eso lo que se aprende no se traslada a la microdosis casera ni a ceremonias sin control médico.",
+   "como": "Casi todo lo que se sabe viene de ensayos clínicos. Un trabajo muy citado, el de Griffiths y colaboradores (2006), mostró que en condiciones controladas la psilocibina produjo experiencias de tipo místico que los participantes valoraron como de significado personal y espiritual sostenido.",
+   "debate": "Se discute cuánto del efecto es de la sustancia y cuánto del marco terapéutico. Además es difícil que el participante no note si recibió la sustancia, lo que complica los ensayos.",
+   "seccion": "Qué estudian los ensayos"
+  },
+  {
+   "enigma": "Se suele contar que estas sustancias son una revolución para la depresión. Un gran ensayo comparó psilocibina con apoyo psicoterapéutico contra un antidepresivo conocido, el escitalopram.",
+   "p": "¿Qué pasó en el resultado principal?",
+   "opciones": ["La psilocibina fue claramente mejor que el antidepresivo", "No fue mejor que el escitalopram en el resultado principal", "Fue claramente peor y se abandonó el estudio"],
+   "r": "En el ensayo de Carhart-Harris y colaboradores (2021), en el New England Journal of Medicine, la psilocibina no fue mejor que el escitalopram en el resultado principal. Los resultados son prometedores pero no tan limpios como suele contarse. En Argentina no están aprobadas para uso terapéutico.",
+   "como": "Con ensayos comparativos: uno como ese, otro grande en depresión resistente (Goodwin y colaboradores, 2022) que comparó 25 mg y 10 mg de psilocibina con 1 mg. En junio de 2024 la FDA rechazó aprobar el MDMA para estrés postraumático, con preocupaciones sobre el rigor de los estudios del patrocinador.",
+   "debate": "Estos datos no dicen que no sirvan, sino que la evidencia está en construcción y que la cobertura mediática suele exagerar. Hay riesgos concretos: crisis de angustia, episodios psicóticos en personas vulnerables e interacciones con medicación.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si el marco terapéutico pesa tanto como la sustancia, ¿cómo se separan los dos efectos para saber qué hace cada uno? Es una de las preguntas que la investigación todavía no resolvió."
+}

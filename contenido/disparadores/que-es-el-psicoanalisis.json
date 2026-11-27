@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En Argentina se dice «voy al psicólogo» y «hago psicoanálisis» como si fueran lo mismo. Hay chistes sobre «lo que dirá mi analista» en cualquier café.",
+   "p": "¿Cuál sería la diferencia entre psicoanálisis clásico y psicoterapia psicoanalítica?",
+   "opciones": ["No hay ninguna, son dos nombres para lo mismo", "Cambia el encuadre: frecuencia, diván, duración y objetivos", "Una es para adultos y la otra solo para niños"],
+   "r": "Se suelen distinguir por el encuadre. El psicoanálisis clásico implica alta frecuencia semanal, diván y un proceso de duración abierta y larga. La psicoterapia psicoanalítica usa los mismos conceptos, con menos sesiones por semana, cara a cara y objetivos más acotados. En la práctica la frontera es porosa.",
+   "como": "Viene de la obra de Sigmund Freud desde fines del siglo XIX, que luego se diversificó en muchas escuelas. En Argentina tiene una presencia muy fuerte en la cultura, en la formación universitaria y en la clínica.",
+   "debate": "Cada escuela traza la frontera a su manera. Que una terapia sea psicoanalítica no la hace mejor ni peor por sí misma: importa la formación del profesional y que puedas hablar con él.",
+   "seccion": "Psicoanálisis y psicoterapia psicoanalítica"
+  },
+  {
+   "enigma": "Una terapia basada en hablar, con una teoría del inconsciente nacida hace más de un siglo, ¿puede estudiarse con los mismos métodos con que se prueba cualquier tratamiento?",
+   "p": "¿Qué te parece que mostraron las revisiones de estudios?",
+   "opciones": ["Que no tiene ningún respaldo empírico", "Que hay respaldo para la psicoterapia psicodinámica, con efectos comparables a otras terapias", "Que es claramente superior a todas las demás"],
+   "r": "Jonathan Shedler (2010) revisó metaanálisis y concluyó que la evidencia respalda la eficacia de la psicoterapia psicodinámica, con tamaños de efecto comparables a los de otras terapias basadas en la evidencia. Respaldo no significa superioridad ni que sirva igual para todo.",
+   "como": "Con metaanálisis: Shedler en American Psychologist (2010), y Leichsenring y Rabung (2008) en JAMA sobre terapia psicodinámica de largo plazo.",
+   "debate": "Esos estudios evalúan sobre todo la psicoterapia psicodinámica, más acotada que el psicoanálisis clásico de varias sesiones semanales. Para fobias específicas, por ejemplo, la exposición tiene más respaldo, y varias formulaciones teóricas son difíciles de contrastar.",
+   "seccion": "Qué dice la evidencia"
+  }
+ ],
+ "abierta": "¿Qué parte del psicoanálisis clásico se puede evaluar con ensayos y qué parte queda fuera de lo que esos métodos alcanzan a medir? Sigue en discusión."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Desde que se asustó, no es la misma». En muchos pueblos de América Latina se dice esto de alguien que, después de una caída, una pelea o una pérdida, quedó sin apetito, sin sueño y sin ganas.",
+   "p": "¿Qué creés que está nombrando esa frase?",
+   "opciones": ["Una superstición sin relación con lo que le pasa a la persona", "Un malestar real que cada cultura explica a su manera, en este caso con el alma que se separó", "Un trastorno que la psiquiatría define con criterios propios"],
+   "r": "El susto es un concepto cultural de malestar: la explicación tradicional dice que el alma, o una parte, se desprendió y quedó atrás. Se describe en México, Centroamérica y los Andes, con nombres como espanto, pérdida del ánima o, en quechua, «mancharisqa». El DSM-5 (2013) lo incluye entre los conceptos culturales de malestar, sin considerarlo un trastorno con criterios propios.",
+   "como": "La obra de referencia es «Susto: A Folk Illness» (1984), de Rubel, O'Nell y Collado-Ardón, que combinó observación antropológica con evaluación médica en comunidades de México.",
+   "debate": "Hay que distinguir tres planos: la explicación tradicional (una cosmovisión que se respeta), el fenómeno estudiado y los rituales de curación, cuya eficacia como tratamiento no está establecida con estudios controlados, aunque pueden dar sostén y compañía.",
+   "seccion": "Una idea con muchos nombres"
+  },
+  {
+   "enigma": "Una persona llega a la consulta y dice «tengo susto». Lleva semanas sin dormir bien, con poco apetito y sin ganas. A la vez, su familia llamó a una curandera.",
+   "p": "¿Cómo debería responder quien la atiende en el sistema de salud?",
+   "opciones": ["Explicarle que es una superstición y que lo que tiene es depresión", "Preguntar qué pasó y qué ayudó, y evaluar sueño, ánimo, ansiedad, trauma y salud física junto con ella", "Aceptar la explicación tradicional y no evaluar nada más"],
+   "r": "Se puede preguntar qué pasó, cuándo y qué ayudó, en la línea de los «modelos explicativos» del psiquiatra y antropólogo Arthur Kleinman, y después evaluar la salud de la persona y decidir con ella. No hace falta oponerse a la curandera, salvo que lo indicado sea riesgoso, como abandonar un medicamento o demorar una atención urgente.",
+   "como": "Surge de la antropología médica y del trabajo intercultural, que muestra que una explicación cultural, un correlato social y uno corporal no se contradicen.",
+   "debate": "Hay dos errores opuestos: usar «susto» como explicación para cualquier malestar, o descartar la explicación de la persona. Los resultados del trabajo intercultural dependen de la confianza y de que haya un diálogo real.",
+   "seccion": "Cómo se puede acompañar"
+  }
+ ],
+ "abierta": "¿Cuánto del alivio que algunas personas encuentran en estos rituales viene del sentido, la compañía y el sostén de la comunidad? Todavía no se sabe bien cómo estudiarlo."
+}

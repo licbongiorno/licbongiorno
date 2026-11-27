@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer camboyana, que de joven sobrevivió a los campos de trabajo forzado, se levanta de golpe de la silla. Siente mareo, el corazón se le acelera y está convencida de que un viento que recorre su cuerpo va a subirle por el cuello. Un profesional occidental podría llamarlo ataque de pánico. Ella dice «khyâl cap», un ataque de viento.",
+   "p": "¿Quién describe mejor lo que le pasa?",
+   "opciones": ["El profesional: el viento es solo una creencia equivocada", "Ella: la medicina occidental no entiende estas cosas", "Las dos apuntan a un mismo cuerpo, y la diferencia está en lo que la persona teme y cómo reacciona"],
+   "r": "El psiquiatra y antropólogo Devon Hinton describió el khyâl cap: la explicación jemer es que el khyâl es un viento que circula por el cuerpo con la sangre y, si se descontrola, sube por el cuello y la cabeza. Se parece a un ataque de pánico, pero la explicación cambia lo que se teme y cómo se reacciona, por ejemplo masajear el cuello o frotarlo con una moneda.",
+   "como": "Por la investigación clínica y antropológica de Hinton y su equipo, que mostró que suele aparecer ligado a un pasado traumático y que el mareo real al ponerse de pie puede disparar la alarma. El DSM-5 (2013) lo incluye entre los conceptos culturales del malestar.",
+   "debate": "La explicación tradicional del viento pertenece a la medicina tradicional jemer: se la respeta como sistema de significados, no como una explicación fisiológica verificada. Y conviene evitar el exotismo y la generalización: los camboyanos son millones, con historias muy distintas.",
+   "seccion": "Qué es un khyâl cap"
+  },
+  {
+   "enigma": "Para tratar a refugiados camboyanos con estrés postraumático y ataques de pánico se probó un tratamiento que no le dice a la persona que su «viento» en realidad es pánico, sino que parte de su propia explicación.",
+   "p": "¿Qué creés que significa «adaptar» un tratamiento a una cultura?",
+   "opciones": ["Traducir el manual al idioma de la persona", "Entender el sistema de significados desde el que vive su síntoma y trabajar con él", "Cambiar los nombres de los síntomas"],
+   "r": "La terapia cognitivo-conductual adaptada culturalmente (CA-CBT) de Hinton y su equipo parte del significado: se trabaja con la propia explicación de la persona, se practican con cuidado las situaciones que provocan el mareo en un entorno seguro, se enseñan habilidades de regulación y atención plena inspiradas en prácticas que muchos refugiados ya conocían, y se trabaja con los recuerdos con ritmo y cuidado.",
+   "como": "Un ensayo controlado de 2005 (Hinton, Pich, Safren, Pollack y McNally), con 40 refugiados camboyanos con estrés postraumático resistente a la medicación, comparó el tratamiento con una lista de espera y halló mejoras.",
+   "debate": "Son estudios pequeños, realizados en su mayoría por el propio equipo que desarrolló el tratamiento, así que se los toma como evidencia prometedora y no definitiva, y hacen falta réplicas independientes.",
+   "seccion": "La terapia CA-CBT"
+  }
+ ],
+ "abierta": "Si el mismo cuerpo puede decir el sufrimiento en distintos «idiomas», ¿cuánto de lo que llamamos síntoma es cultura y cuánto es biología? Todavía se investiga."
+}

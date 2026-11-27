@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En muchas casas, después de la Segunda Guerra, había una pregunta que nadie hacía: qué pasó con tu familia, de dónde venís, por qué tu abuela no habla de su infancia. A veces el silencio era un modo de proteger a los hijos, y a veces era lo único posible para quien había sobrevivido.",
+   "p": "¿Cómo podría llegar a los hijos algo que nunca se les contó?",
+   "opciones": ["No puede llegar: lo que no se cuenta no se transmite", "A través de modos de vincularse, de callar y de hablar que se aprenden en la crianza", "Solo por vía genética, sin que importe cómo se los críe"],
+   "r": "La psicóloga Yael Danieli propuso el concepto de «conspiración del silencio»: un acuerdo tácito sostenido por varios actores a la vez, no solo los sobrevivientes. Lo que se transmitiría no sería un daño que pasa de padres a hijos como un contagio, sino modos de vincularse, de callar y de hablar, que se pueden observar y también transformar.",
+   "como": "Danieli trabajó durante décadas con sobrevivientes y sus familias. A fines de los años cincuenta y sesenta, psiquiatras notaron entre sus consultantes una proporción llamativa de hijos de sobrevivientes, pero eso salía de la práctica clínica y no de muestras representativas. La historiadora Marianne Hirsch, hija de sobrevivientes, propuso el término posmemoria.",
+   "debate": "Lo que describe la clínica sale de entrevistas y de quienes consultan, no de muestras representativas. Cómo se transmite exactamente sigue en discusión.",
+   "seccion": "La conspiración del silencio"
+  },
+  {
+   "enigma": "Se dice a menudo que el trauma de los sobrevivientes de la Shoá «se hereda en los genes». Un metaanálisis de 2003 reunió 32 muestras de hijos de sobrevivientes.",
+   "p": "¿Qué encontró en las personas que no habían consultado?",
+   "opciones": ["Que casi todos los hijos de sobrevivientes estaban traumatizados", "Que no halló señales de traumatización secundaria en muestras no clínicas", "Que los hijos estaban mejor que el resto de la población"],
+   "r": "El metaanálisis de van IJzendoorn, Bakermans-Kranenburg y Sagi-Schwartz (2003) no halló señales de traumatización secundaria en muestras no clínicas. Eso no invalida la experiencia de quienes la vivieron: dice que la mayoría de los hijos de sobrevivientes se adaptan bien, y que los casos que sufren existen y merecen atención.",
+   "como": "Con un metaanálisis publicado en el Journal of Traumatic Stress. Por otro lado, Rachel Yehuda estudió en hijos de sobrevivientes la vulnerabilidad al estrés postraumático, y en 2016 su equipo publicó diferencias de metilación del gen FKBP5 en unas treinta familias, que la prensa presentó como prueba de herencia genética.",
+   "debate": "El propio estudio no autoriza esa lectura: la muestra es pequeña, no distingue entre genes, crianza, relato familiar o vida en el útero, y se midió en sangre. Hay una discusión de fondo sobre si la herencia epigenética existe en humanos. Hoy hay hallazgos interesantes y todavía no hay una explicación firme.",
+   "seccion": "La epigenética de Yehuda"
+  }
+ ],
+ "abierta": "Si la transmisión puede pasar por el silencio, el relato y el clima de la casa, ¿qué parte es huella y qué parte es resiliencia que también se hereda? Todavía se investiga."
+}

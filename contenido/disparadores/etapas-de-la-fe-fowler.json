@@ -1,0 +1,24 @@
+{
+ "autor": "Fowler",
+ "preguntas": [
+  {
+   "enigma": "Una mujer cuenta que de chica rezaba con total seguridad y que, de adolescente, dejó de ir a misa porque nadie en su casa se animaba a responderle sus dudas. Años después volvió a preguntarse por el sentido, pero de otra manera.",
+   "p": "¿Qué creés que le pasó?",
+   "opciones": ["Dejó de creer y después cambió de religión", "Perdió la fe y la recuperó por una crisis personal", "Cambió la manera en que sostiene lo que cree, más que lo que cree"],
+   "r": "Fowler sostuvo que la fe no es lo mismo que una religión: es la manera en que una persona construye sentido, confía y se orienta en la vida. Por eso sus etapas describen una estructura, el cómo, y no el contenido. Dos personas con la misma religión pueden estar en etapas distintas.",
+   "como": "En 1981 publicó «Stages of Faith», inspirándose en la psicología del desarrollo: en Piaget (desarrollo cognitivo) y en Kohlberg (desarrollo moral). Propuso seis etapas, de la fe hecha de imágenes y relatos a una orientada a un bien que trasciende al grupo.",
+   "debate": "La evidencia no siempre respalda una secuencia tan ordenada, y las etapas más altas son difíciles de medir. Tampoco hay acuerdo en si la fe se desarrolla igual en distintas culturas, géneros y trayectorias.",
+   "seccion": "Fe como estructura, no como contenido"
+  },
+  {
+   "enigma": "Hay quienes cuestionan todo lo que heredaron y se hacen cargo de sus creencias. Otros apoyan su fe en el grupo y en lo que esperan los demás, y viven en paz con eso.",
+   "p": "¿Quién está más «avanzado» en su vida espiritual?",
+   "opciones": ["Quien cuestiona y asume sus creencias como propias", "Quien las apoya en su comunidad, porque lo sostiene", "Ninguna de las dos posiciones sirve para ordenarlas en un ranking"],
+   "r": "Leer las etapas como una escalera de valor personal es un riesgo real, y el modelo no lo propone. Una persona con una fe apoyada en el grupo puede ser generosa, honesta y estar en paz; alguien que cuestiona todo puede sentirse solo con sus dudas. Las etapas describen cómo se organiza el sentido, no cuánto vale quien lo organiza.",
+   "como": "Es una propuesta teórica: lo que tiene respaldo es la idea razonable de que la manera de creer cambia a lo largo de la vida. La secuencia exacta de seis etapas es una hipótesis.",
+   "debate": "Decidir qué lugar ocupa la fe en la propia vida, o si hay que tenerla, pertenece al terreno filosófico o espiritual y no a la psicología.",
+   "seccion": "No es un ranking"
+  }
+ ],
+ "abierta": "Si la manera de creer cambia con los años y las crisis, ¿esos cambios siguen un camino parecido para todos o dependen de cada cultura y de cada historia? Todavía se discute."
+}

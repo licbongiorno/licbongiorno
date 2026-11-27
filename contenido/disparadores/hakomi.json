@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un gesto que se repite cada vez que alguien se sienta a hablar de su pareja. Una postura que se cierra al hablar de dinero. Una mirada que se aparta sin que la persona lo note.",
+   "p": "¿Qué podrían ser esos detalles del cuerpo?",
+   "opciones": ["Ruido sin importancia, tics sin significado", "Pistas de creencias que la persona nunca formuló como tales", "Señales claras de un diagnóstico que un terapeuta puede leer desde afuera"],
+   "r": "Hakomi parte de la idea de que esos detalles corporales no son ruido: pueden expresar creencias que la persona no formuló y que organizan cómo se relaciona con los demás, por ejemplo «no puedo pedir ayuda». El terapeuta observa algo concreto y propone un experimento: ampliar ese movimiento y notar qué aparece.",
+   "como": "Ron Kurtz desarrolló el método y lo expuso en «Body-Centered Psychotherapy: The Hakomi Method» (1990), combinando atención plena con psicoterapia corporal. La idea es que la persona descubra el sentido del gesto y lo ponga en palabras propias, no que el terapeuta lo interprete desde afuera.",
+   "debate": "La creencia que aparece en un experimento no es necesariamente la verdad sobre la persona: es una hipótesis que hay que contrastar con su historia. No conviene confundir la curiosidad por un gesto con una interpretación cerrada de la vida de alguien.",
+   "seccion": "Cómo se trabaja"
+  },
+  {
+   "enigma": "Una terapia asegura trabajar con el cuerpo y la atención plena, con una lógica clara y mucha práctica en la formación de terapeutas. Quienes la hacen cuentan que les sirve.",
+   "p": "¿Alcanza eso para decir que es más eficaz que otras terapias?",
+   "opciones": ["Sí, porque mucha gente lo cuenta", "No: sin estudios controlados no se puede afirmar ni que sea más ni que sea menos eficaz", "No, porque seguramente no sirve"],
+   "r": "La investigación controlada sobre Hakomi es escasa: hay descripciones clínicas, estudios de caso y algunos trabajos pequeños. Eso no permite afirmar que sea más eficaz que otras terapias, ni menos. Sí permite decir que es una propuesta con una lógica clara y con una práctica extendida.",
+   "como": "Por eso se distingue entre lo que sostiene la práctica clínica y lo que mostraría un ensayo controlado, que en este caso casi no existe.",
+   "debate": "La exploración corporal puede movilizar emociones fuertes. Si algo desborda, se vuelve a la respiración, al apoyo y a la presencia del terapeuta.",
+   "seccion": "Qué evidencia tiene"
+  }
+ ],
+ "abierta": "¿Se puede estudiar con rigor algo tan fino como un gesto y la creencia que lo acompaña? Cómo investigarlo es una pregunta abierta."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien tiene ataques de pánico en el subte y deja de tomarlo. Primero viaja en colectivo, después en taxi, y al final deja de ir a ciertos lugares. Cada vez que evita, siente un alivio inmediato.",
+   "p": "¿Qué pasa con la vida de esa persona a medida que evita?",
+   "opciones": ["Se va tranquilizando de a poco, porque se expone a menos miedo", "Se va achicando, aunque cada evitación alivie en el momento", "Nada cambia: el miedo y la vida siguen igual"],
+   "r": "La terapia de aceptación y compromiso (ACT) plantea que a veces la pelea contra lo que sentimos se vuelve el problema principal. No propone «vencer el miedo» antes de actuar, sino elegir un valor y dar pasos hacia él, con el miedo a cuestas. Su meta es la flexibilidad psicológica.",
+   "como": "Steven Hayes cuenta que en 1978, siendo estudiante de posgrado, tuvo su primer ataque de pánico y que sus intentos de controlarlo lo empeoraron. Esa experiencia, narrada en su libro A Liberated Mind (2019), influyó en un modelo donde el problema no es la emoción sino la lucha por eliminarla. Hacia los ochenta desarrolló la terapia con Kirk Strosahl y Kelly Wilson.",
+   "debate": "No es resignarse: aceptar no implica tolerar situaciones dañinas ni dejar de cambiar lo que se puede cambiar. Se discute si aporta algo distinto de la terapia cognitivo-conductual tradicional.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Una persona llega con insomnio y un pensamiento que se repite: «si no duermo, mañana voy a fracasar». Cuanto más intenta no pensarlo, más aparece.",
+   "p": "¿Qué podría ayudar con ese pensamiento?",
+   "opciones": ["Empujarlo más fuerte hasta que desaparezca", "Tomar distancia y verlo como un pensamiento, no como una verdad", "Convencerse de que es falso con argumentos"],
+   "r": "Una de las seis habilidades de la ACT es la defusión cognitiva: ver los pensamientos como pensamientos y no como verdades, por ejemplo anteponiendo «estoy teniendo el pensamiento de que…». Después se pregunta qué le importa a la persona de dormir bien, y se acuerdan acciones en esa dirección.",
+   "como": "Hay numerosos ensayos clínicos y metaanálisis. El de A-Tjak y colaboradores (2015) encontró que la ACT fue superior a las listas de espera y al tratamiento habitual, y de eficacia similar a otros tratamientos, aunque sin superar de modo claro a la terapia cognitivo-conductual tradicional.",
+   "debate": "Los resultados favorables en ansiedad, depresión, dolor crónico y algunas adicciones son comparables a otros tratamientos establecidos, y como en cualquier terapia dependen mucho de la persona y del vínculo terapéutico.",
+   "seccion": "Los seis procesos"
+  }
+ ],
+ "abierta": "Si dejar de pelear contra lo que sentimos libera energía para lo que importa, ¿es esa aceptación un ingrediente único de esta terapia o algo que ya hacían otras sin nombrarlo? La discusión sigue."
+}

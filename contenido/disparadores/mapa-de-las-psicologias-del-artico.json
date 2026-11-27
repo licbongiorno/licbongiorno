@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "A fines del siglo XIX, exploradores y médicos de expediciones occidentales describieron entre los inuit del noroeste de Groenlandia episodios breves de agitación que llamaron «histeria ártica».",
+   "p": "¿Qué pasó cuando un historiador revisó, un siglo después, esos registros?",
+   "opciones": [
+    "Se confirmó que era un cuadro psiquiátrico propio del Ártico",
+    "Se vio que provenían casi todos de relatos de exploradores, con muy pocas observaciones médicas directas",
+    "Se comprobó que se había inventado por completo"
+   ],
+   "r": "En 1995, Lyle Dick mostró que los registros provenían casi todos de relatos de exploradores, con pocas observaciones médicas directas, y que el rótulo proyectaba prejuicios europeos sobre la «histeria». Durante décadas figuró en la literatura psiquiátrica.",
+   "como": "Dick revisó los registros históricos originales. Hay también investigación más actual: Law y Kirmayer (2005) estudiaron cómo inuit entienden la parálisis del sueño (uqumangirniq).",
+   "debate": "No se prueba que esos episodios nunca ocurrieran, pero la categoría llegó cargada de prejuicio. Las explicaciones espirituales y médicas conviven.",
+   "seccion": "El piblokto y la crítica a la «histeria ártica»"
+  },
+  {
+   "enigma": "En el norte de Europa, hay un canto tradicional que no cuenta algo «sobre» una persona, un animal o un lugar. Quien canta no dice «de alguien», sino que lo hace presente.",
+   "p": "¿Cómo lo describirían los sami?",
+   "opciones": [
+    "Como una canción narrativa que cuenta historias",
+    "Como un canto que evoca: se joika a alguien, no de alguien",
+    "Como un himno religioso al sol"
+   ],
+   "r": "Es el joik (luohti en sami del norte), un canto tradicional que evoca a una persona, un animal o un lugar. Fue condenado por parte de las misiones cristianas y del movimiento laestadiano.",
+   "como": "Se conoce por la tradición viva del pueblo sami, el pueblo indígena de Sápmi, y por los estudios que lo describen.",
+   "debate": "Es una tradición cultural y no un tratamiento. Además, la noruegización desalentó el sami y muchos mayores ocultaron su origen, con costos de identidad que la investigación recién empieza a describir.",
+   "seccion": "Los sami: joik, siida y birget"
+  }
+ ],
+ "abierta": "Si una lengua o un canto se silencian durante generaciones, ¿qué se pierde de la manera de entender la mente? Es algo que todavía se investiga."
+}

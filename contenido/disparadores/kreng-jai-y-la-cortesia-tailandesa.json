@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«¿Querés que te ayude?», le pregunta alguien a un visitante tailandés. «No, gracias, estoy bien», responde con una sonrisa, aunque no está bien.",
+   "p": "¿Qué creés que está pasando?",
+   "opciones": ["Miente porque no confía en quien le ofrece", "Es orgulloso y le cuesta aceptar ayuda", "Puede ser una forma de cuidar al otro: no molestarlo ni cargarlo con un problema propio"],
+   "r": "Esa actitud tiene nombre, kreng jai, que no tiene un equivalente exacto: una mezcla de consideración, deferencia y reticencia a imponerse. Lleva a no pedir un favor que incomodaría, a no contradecir abiertamente a un superior o a aceptar algo para no desairar a quien lo ofrece, y es más marcada frente a personas mayores o con más jerarquía.",
+   "como": "Lo describen la lingüística, la antropología y la psicología social: Suntaree Komin publicó en 1990 un estudio con encuestas a miles de personas, y Brett Wyatt (2012) analizó el concepto con 471 hablantes tailandeses.",
+   "debate": "Son valores culturales y no conceptos clínicos ni rasgos de personalidad fijos; su peso varía con la edad, la región, la clase social y la situación. Pensarlos como un «carácter nacional» es un estereotipo.",
+   "seccion": "Tres expresiones que conviene conocer"
+  },
+  {
+   "enigma": "En una cultura donde se valora no mostrar emociones intensas y no molestar, alguien sufre en silencio. Hay quien dice que eso demora la consulta por problemas de salud mental. Otros dicen que ese mismo «no molestar» sostiene una vida social con poco conflicto abierto.",
+   "p": "¿Cuánto creés que se sabe de ese efecto?",
+   "opciones": ["Está comprobado con estudios amplios", "Es una hipótesis razonable, sobre todo apoyada en la experiencia clínica", "Está descartado: no tiene ninguna relación"],
+   "r": "Es una observación habitual de algunos profesionales y periodistas, basada sobre todo en la experiencia clínica y en notas de opinión. Hay poca investigación sistemática que mida cuánto pesa ese factor frente a otros, como el costo de la atención, el estigma o la falta de servicios.",
+   "como": "Se apoya en relatos clínicos y observaciones, no en estudios que comparen factores. Y se puede mirar del lado contrario: no pedir ayuda puede ser, a veces, una forma de cuidar.",
+   "debate": "La serenidad puede ser calma real o represión, y un «mai pen rai» («no pasa nada») puede ser una aceptación sana o una forma de esquivar un reclamo legítimo. Es la misma ambigüedad de otros estoicismos, como el «aguantar» rioplatense.",
+   "seccion": "Expresión emocional y pedido de ayuda"
+  }
+ ],
+ "abierta": "¿Cómo se podría separar el efecto de un valor cultural como la deferencia del de otros obstáculos, como el costo o el estigma, para entender por qué se demora una consulta? Falta investigación."
+}

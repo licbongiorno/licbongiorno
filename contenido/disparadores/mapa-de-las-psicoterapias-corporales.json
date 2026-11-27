@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Después de una situación muy fuerte, a mucha gente le queda el cuerpo en alerta: el corazón que se acelera, los hombros duros, la respiración corta. Se dice mucho que «el cuerpo guarda los recuerdos».",
+   "p": "¿El cuerpo almacena los recuerdos como si fuera un archivo?",
+   "opciones": ["Sí, cada tensión es un recuerdo guardado que hay que liberar", "No exactamente: el cuerpo participa de la experiencia, pero no los archiva así", "No participa en absoluto: todo ocurre en el cerebro"],
+   "r": "Que el cuerpo participe de la experiencia traumática no significa que guarde recuerdos como si fuera un archivo. Esa idea, popularizada por algunos libros, hoy está cuestionada. Lo que sí se trabaja es la percepción de las señales internas y la regulación de la activación.",
+   "como": "El campo se ordena según el respaldo: el EMDR, que trabaja con la memoria traumática, es el abordaje con más respaldo y la OMS lo recomienda para el estrés postraumático. Otras escuelas tienen evidencia incipiente, con estudios de caso y ensayos pequeños.",
+   "debate": "Se discuten varias afirmaciones del libro más leído sobre el tema, «El cuerpo lleva la cuenta». Y las hipótesis de Reich sobre una «energía orgónica» no tienen respaldo científico, aunque su aporte clínico sobre la coraza muscular se valora por separado.",
+   "seccion": "Trauma: EMDR y una teoría discutida"
+  },
+  {
+   "enigma": "Hay quienes viven pendientes de cada latido, cada tensión, cada cosquilleo en el estómago. Y hay quienes casi no notan lo que pasa dentro de su cuerpo.",
+   "p": "¿Cuál de las dos personas está mejor?",
+   "opciones": ["La que nota más, porque tiene más información", "La que nota menos, porque no se alarma por nada", "Ninguna por sí sola: importa cómo se relaciona con lo que nota"],
+   "r": "Casi todas las escuelas corporales trabajan con la interocepción, la percepción de las señales del interior del cuerpo. La investigación actual la relaciona con la ansiedad, el ánimo y otras dificultades, y muestra que notar más no siempre es mejor.",
+   "como": "Es un campo de investigación que mide qué tan bien percibimos y cómo interpretamos esas señales, y lo relaciona con la experiencia emocional.",
+   "debate": "Los resultados varían según los estudios, y todavía se discute cómo medir bien la percepción interna y qué hacer con eso en la clínica.",
+   "seccion": "La base común: la interocepción"
+  }
+ ],
+ "abierta": "Si el cuerpo importa tanto en la experiencia emocional, ¿por qué tantas terapias siguen trabajando solo con palabras? Todavía hay mucho por investigar."
+}

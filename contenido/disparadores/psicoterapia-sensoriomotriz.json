@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien cuenta con voz firme una discusión con su jefe. Mientras habla, los pies se le van hacia la puerta del consultorio, como si quisieran irse.",
+   "p": "¿Qué te parece que hace un terapeuta con ese detalle?",
+   "opciones": ["Lo ignora, porque lo importante es lo que la persona dice", "Se lo interpreta enseguida como señal de que quiere huir", "Lo nota en voz alta y propone explorarlo despacio"],
+   "r": "La psicoterapia sensoriomotriz propone que las experiencias de amenaza o de vínculos inseguros no quedan solo en la memoria narrativa: también se organizan en patrones de movimiento y postura que funcionan como defensas. El terapeuta observa y pregunta, no interpreta.",
+   "como": "Pat Ogden se formó en el enfoque Hakomi y notó que muchas personas con trauma se bloqueaban al hablar, pero algo se movía cuando se atendía a la postura, la respiración o un gesto interrumpido. En 2006 publicó con Minton y Pain «Trauma and the Body», y en 2015 con Janina Fisher otro libro del enfoque.",
+   "debate": "Algunas ideas, como el peso de la regulación y del vínculo en el trauma, coinciden con investigación amplia. Pero leer los movimientos como defensas es una hipótesis clínica a contrastar: no todo gesto es un mensaje, a veces el cuerpo está cansado.",
+   "seccion": "Una viñeta"
+  },
+  {
+   "enigma": "Alguien con una historia difícil se bloquea cada vez que le piden que hable del trauma. En cambio, cuando se le propone notar cómo apoya los pies en el piso, algo se afloja.",
+   "p": "¿Por dónde conviene empezar el trabajo?",
+   "opciones": ["Por reconstruir el recuerdo completo cuanto antes", "Por crear primero seguridad y recursos", "Por no tocar nunca el cuerpo ni la sensación"],
+   "r": "Ogden usa un modelo por fases, parecido al de Judith Herman (1992): primero estabilización, después procesamiento y al final integración. Se prepara el terreno con respiración, apoyo y orientación en el espacio, y recién después se acompaña lo que aparece, pudiendo detenerse cuando la persona lo necesite.",
+   "como": "El modelo de fases viene de la clínica del trauma, y el enfoque se apoya en la psicoterapia corporal (Reich, Lowen) y en ideas de la neurobiología interpersonal.",
+   "debate": "Hay descripciones clínicas, estudios de caso y algunos trabajos pequeños, pero no suficientes ensayos controlados para compararla con tratamientos con más respaldo, como la terapia cognitivo-conductual focalizada en el trauma o el EMDR. Requiere formación porque puede activar recuerdos intensos.",
+   "seccion": "Cómo se integra en un trabajo más amplio"
+  }
+ ],
+ "abierta": "¿Cuánto del trauma queda guardado en el cuerpo y cuánto en el relato? Todavía no hay estudios suficientes para saber qué parte de cada uno hay que tocar."
+}

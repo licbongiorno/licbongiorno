@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un grupo se para en círculo en una sala sin música. Alguien da un paso hacia adentro, otra persona lo repite, un tercero lo cambia por un gesto con los brazos. Nadie baila para que lo miren. Quien coordina observa qué se imita, qué se evita y quién queda afuera.",
+   "p": "¿Qué creés que se está haciendo ahí?",
+   "opciones": ["Una clase de baile con consignas libres", "Trabajar con el movimiento como material para decir lo que todavía no tiene palabras", "Un ejercicio físico para descargar tensión"],
+   "r": "En la danza movimiento terapia el movimiento no es un adorno de la sesión sino el material con el que se trabaja: lo que alguien hace con el cuerpo en el espacio, con el ritmo y con la distancia hacia otros puede decir algo que todavía no encontró palabras. Después, si hace falta, se lo conversa.",
+   "como": "Marian Chace (1896-1970) es considerada una de las fundadoras de la disciplina. En 1966 se fundó la American Dance Therapy Association y Chace fue su primera presidenta, de 1966 a 1968.",
+   "debate": "Hay que distinguir terapia y danza: la danza movimiento terapia tiene encuadre terapéutico, un profesional formado, un motivo de consulta y objetivos. La danza, en cambio, es una actividad que puede hacer bien sin ser terapia.",
+   "seccion": "Terapia y danza no son lo mismo"
+  },
+  {
+   "enigma": "Cuando se estudia si la danza ayuda a la salud mental, aparece un problema: algunos estudios miden danza terapéutica y otros simplemente actividades de baile, y a veces se mezclan.",
+   "p": "¿Qué creés que muestra la investigación hasta hoy?",
+   "opciones": ["Que está probado que funciona mejor que cualquier otro tratamiento", "Que hay señales favorables, pero con fallas de método y sin prueba cerrada", "Que no hay ningún estudio serio"],
+   "r": "Hay señales favorables, pero no una prueba cerrada. Los propios autores del trabajo de referencia advierten fallas metodológicas en muchos de los estudios.",
+   "como": "El trabajo de referencia es el de Koch, Riege, Tisborn, Biondo, Martin y Beelmann (2019), actualización de un metaanálisis de 2014. Reunió 41 estudios controlados con 2.374 participantes: 21 de danza movimiento terapia y 20 de danza.",
+   "debate": "Las medidas observacionales daban efectos mayores, lo que puede ser un sesgo. Por eso se discute cuánto de lo observado se debe a la intervención y cuánto a cómo se la midió.",
+   "seccion": "Qué evidencia tiene"
+  }
+ ],
+ "abierta": "Si el cuerpo dice cosas que aún no tienen palabras, ¿cómo se estudia eso sin quitarle lo que tiene de propio? Los investigadores todavía buscan la manera."
+}

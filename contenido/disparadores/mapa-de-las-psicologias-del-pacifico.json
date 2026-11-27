@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Si buscás «hoʻoponopono» en internet, lo más probable es que aparezca una frase de cuatro partes («lo siento, perdóname, te amo, gracias») que promete limpiar recuerdos y sanar relaciones.",
+   "p": "¿Qué te parece que era originalmente?",
+   "opciones": [
+    "Un mantra de meditación individual",
+    "Una reunión de familia para poner en orden una relación dañada",
+    "Una oración que se repite sola frente al mar"
+   ],
+   "r": "Originalmente era una reunión de familia guiada por un facilitador, a menudo un anciano: oración, planteo del problema, confesión, perdón recíproco y cierre. Mary Kawena Pukui lo registró. La frase de cuatro partes no está en lo que ella registró.",
+   "como": "Se distinguen tres versiones: la tradicional, la individual que adaptó Morrnah Simeona en los años setenta y la comercial que difundió Hew Len en Zero Limits (2007).",
+   "debate": "Prometer con una frase repetida que se cura un trauma es engañoso. Si te interesa el perdón o la reconciliación, la versión tradicional ofrece algo que la de autoayuda no tiene: otras personas presentes.",
+   "seccion": "Hawái: aloha, ʻohana y los tres hoʻoponopono"
+  },
+  {
+   "enigma": "Una forma de entender la salud es la casa: cada lado la sostiene, y si uno falla, toda la casa se tambalea.",
+   "p": "¿Por qué una imagen así puede servir en un servicio de salud?",
+   "opciones": [
+    "Porque se ha demostrado con medidas que predice la recuperación",
+    "Porque da un lenguaje propio y una lista de cosas que mirar, sin separar a la persona de su familia y su espíritu",
+    "Porque reemplaza el tratamiento clínico"
+   ],
+   "r": "Mason Durie propuso a comienzos de los años ochenta (suele citarse 1984) el modelo Te Whare Tapa Whā, «la casa de cuatro lados». Es de uso muy extendido en el sistema de salud neozelandés.",
+   "como": "Lo elaboró el psiquiatra maorí Mason Durie. Existen otros modelos, como el Fonofale, creado por el samoano Fuimaono Karl Pulotu-Endemann en 1984, que usa la casa samoana.",
+   "debate": "Son marcos conceptuales y no una teoría validada con medidas sistemáticas. Ofrecen un lenguaje propio y una lista de cosas que mirar.",
+   "seccion": "Maoríes: Te Whare Tapa Whā y Te Pae Mahutonga"
+  }
+ ],
+ "abierta": "Si pensar a la persona en relación con su familia, su tierra y su espíritu cambia lo que se mira en la consulta, ¿cómo se evalúa si también cambia los resultados? Todavía se investiga."
+}

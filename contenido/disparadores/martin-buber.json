@@ -5,16 +5,16 @@
    "enigma": "Un padre escucha a su hijo con el celular en la mano y le dice «sí, sí» sin mirarlo. Después apoya el teléfono, lo mira y se queda un minuto con lo que le cuenta.",
    "p": "¿Qué cambió entre una escena y la otra?",
    "opciones": ["Solo la atención, el resto es igual", "Cambió la relación: pasó de usar al otro a encontrarlo", "Cambió el tiempo que le dedica, nada más"],
-   "r": "Buber distinguió el Yo-Ello, la relación con algo que se usa o se conoce, del Yo-Tú, el encuentro con el otro presente como persona entera. Las dos son necesarias, pero solo la segunda es encuentro, y no se puede mantener todo el tiempo.",
-   "como": "Lo escribió en *Yo y tú* (1923), un texto breve y poético, después de años de recopilar relatos del jasidismo, historias de maestros que enseñaban con anécdotas más que con doctrina.",
-   "debate": "Es filosofía, no un método: querer aplicar el Yo-Tú como receta contradice su espíritu. Además, idealizar que toda relación debería ser así lleva a la frustración.",
+   "r": "Buber distinguió el Yo-Ello, la relación con algo que se usa o se conoce, del Yo-Vos, el encuentro con el otro presente como persona entera. Las dos son necesarias, pero solo la segunda es encuentro, y no se puede mantener todo el tiempo.",
+   "como": "Lo escribió en *Yo y vos* (1923), un texto breve y poético, después de años de recopilar relatos del jasidismo, historias de maestros que enseñaban con anécdotas más que con doctrina.",
+   "debate": "Es filosofía, no un método: querer aplicar el Yo-Vos como receta contradice su espíritu. Además, idealizar que toda relación debería ser así lleva a la frustración.",
    "seccion": "Un ejemplo cotidiano"
   },
   {
    "enigma": "En una consulta, el terapeuta y quien consulta conversan de igual a igual. Pero uno pide ayuda y el otro la da.",
    "p": "¿Puede haber un verdadero encuentro entre dos personas que no están en el mismo lugar?",
    "opciones": ["Sí, si el terapeuta se muestra cálido y cercano", "No, la asimetría lo impide siempre", "A veces, aunque la asimetría de fondo se mantenga"],
-   "r": "En 1957 Buber conversó en público con Carl Rogers. Rogers creía que en terapia puede haber momentos de encuentro Yo-Tú; Buber subrayaba que la relación es asimétrica y habló de la inclusión: sentir lo que pasa del lado del paciente sin perder el propio lugar.",
+   "r": "En 1957 Buber conversó en público con Carl Rogers. Rogers creía que en terapia puede haber momentos de encuentro Yo-Vos; Buber subrayaba que la relación es asimétrica y habló de la inclusión: sentir lo que pasa del lado del paciente sin perder el propio lugar.",
    "como": "El diálogo se dio en la Universidad de Michigan y fue luego publicado. Buber pensó el encuentro desde su filosofía del diálogo, sin experimentos.",
    "debate": "La investigación muestra que la calidad de la relación terapéutica es uno de los factores que más pesan en los resultados, pero eso no confirma el concepto de Buber en particular.",
    "seccion": "En la práctica clínica"

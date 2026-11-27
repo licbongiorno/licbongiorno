@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En el Menón, un joven esclavo que nunca estudió geometría llega a descubrir cómo duplicar un cuadrado. Nadie le explicó nada: Sócrates solo le hizo preguntas.",
+   "p": "¿Cómo creés que lo logró?",
+   "opciones": ["En realidad Sócrates le fue pasando la respuesta en cada pregunta", "Las buenas preguntas abren el lugar donde la respuesta puede aparecer en quien la busca", "Era un joven con talento excepcional para la geometría"],
+   "r": "El diálogo socrático es una forma de conversar en la que, mediante preguntas abiertas, se ayuda a examinar las propias ideas, ver en qué se apoyan y llegar a conclusiones propias. La escena del Menón muestra la idea: el conocimiento no se transmite, se descubre.",
+   "como": "Sócrates, filósofo ateniense del siglo V a. C., no dejó nada escrito: lo conocemos por los diálogos de su discípulo Platón. Richard Paul y Linda Elder, del pensamiento crítico, ordenaron las preguntas en seis familias: clarificación, supuestos, evidencia, perspectivas, consecuencias y la pregunta sobre la pregunta.",
+   "debate": "No es un interrogatorio ni una catarata de preguntas, y puede volverse invasivo si se usa para «corregir» al otro. En una crisis aguda o un duelo reciente, primero hace falta contención.",
+   "seccion": "Seis tipos de preguntas"
+  },
+  {
+   "enigma": "En terapia cognitiva para la depresión, algunos terapeutas hacen más preguntas que otros en las primeras sesiones. Un grupo de investigadores se preguntó si eso importaba.",
+   "p": "¿Qué te parece que encontraron?",
+   "opciones": ["Que no tenía ninguna relación con cómo evolucionaban los pacientes", "Que más preguntas socráticas predecían mejoría de los síntomas de una sesión a la siguiente", "Que las preguntas empeoraban el ánimo al principio"],
+   "r": "En un estudio con 55 adultos en terapia cognitiva para la depresión, el uso de preguntas socráticas en las primeras sesiones predijo una mejoría de los síntomas de una sesión a la siguiente, incluso teniendo en cuenta la calidad de la alianza terapéutica.",
+   "como": "Es el estudio de Braun, Strunk, Sasso y Cooper (2015). Muchas corrientes de psicoterapia tomaron algo de este método.",
+   "debate": "Es un estudio acotado, y que algo prediga mejoría no prueba que la pregunta sea la causa. Sigue abierta la discusión sobre qué parte del efecto se debe a las preguntas y qué parte a la relación con quien las hace.",
+   "seccion": "Qué dice la investigación"
+  }
+ ],
+ "abierta": "Si una buena pregunta abre el lugar donde aparece la respuesta, ¿qué diferencia a una pregunta que ayuda de una que presiona? Quizás solo se aprende preguntando."
+}

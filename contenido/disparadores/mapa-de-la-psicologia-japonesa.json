@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una librería, la sección de autoayuda ofrece un ikigai para encontrar tu propósito, un kintsugi para abrazar tus grietas, un kaizen para mejorar un poquito por día y un baño de bosque para bajar el estrés. Todo viene de Japón.",
+   "p": "¿Son todas el mismo tipo de cosa?",
+   "opciones": [
+    "Sí: son psicoterapias japonesas",
+    "No: algunas son psicoterapias, otras conceptos, metáforas o prácticas, y cada una tiene un respaldo distinto",
+    "Sí: son todas técnicas con la misma evidencia"
+   ],
+   "r": "No. Las psicoterapias, como la terapia Morita y el Naikan, tienen un autor, una técnica descripta y alguna investigación. Ikigai, kintsugi o wabi-sabi sirven como metáforas, no como tratamientos.",
+   "como": "La terapia Morita nació del psiquiatra Shoma Morita (1874-1938). El Naikan, de Ishin Yoshimoto (1916-1988). Llegaron a Occidente de la mano de David K. Reynolds, en Morita Psychotherapy (1976).",
+   "debate": "El kaizen es un método de gestión industrial de posguerra que Robert Maurer trasladó al cambio personal en 2004. Kintsugi y wabi-sabi son útiles frente al perfeccionismo, con el riesgo de idealizar el sufrimiento.",
+   "seccion": "Un criterio para ordenar"
+  },
+  {
+   "enigma": "Una búsqueda de «tu propósito» suele mostrar un diagrama de cuatro círculos que se cruzan, con un centro mágico donde está tu ikigai.",
+   "p": "¿De dónde viene eso?",
+   "opciones": [
+    "De una antigua tradición japonesa tal cual",
+    "De un esquema de origen occidental, mientras que en Japón la palabra alude a cosas cotidianas",
+    "De un estudio clínico sobre longevidad"
+   ],
+   "r": "Ikigai es lo que hace que la vida valga la pena. La psiquiatra Mieko Kamiya lo popularizó en 1966 a partir de su trabajo con pacientes de un sanatorio. En Japón suele aludir a cosas cotidianas, y no a una gran misión.",
+   "como": "Kamiya lo planteó desde su trabajo clínico en un sanatorio, y los famosos cuatro círculos son un esquema de origen occidental.",
+   "debate": "Funciona como metáfora para pensar, no como tratamiento. Convertirlo en una fórmula de productividad lo aleja de lo que Kamiya describía.",
+   "seccion": "Conceptos culturales y estéticos"
+  }
+ ],
+ "abierta": "Cuando una palabra viaja a otra cultura, ¿qué se traduce y qué se pierde por el camino? Es una pregunta abierta."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En el idioma sami del norte se dice que uno no joika sobre alguien: lo joika. La diferencia parece de gramática y es de mundo.",
+   "p": "¿Qué creés que es un joik?",
+   "opciones": ["Una canción que describe a una persona, un animal o un paisaje", "Un canto que hace presente a quien o a lo que se joika, y cada quien tiene el suyo", "Una técnica para calmar el estrés"],
+   "r": "El joik es un canto tradicional del pueblo sami, con melodía y ritmo propios, muchas veces sin letra o con pocas palabras. Se joika a una persona, a un animal o a un lugar: no es una canción sobre alguien, es una evocación. Para muchos sami toca una dimensión espiritual y de relación.",
+   "como": "Lo describen la literatura y los propios artistas. Hubo un renacer desde los años setenta de la mano de artistas como Nils-Aslak Valkeapää, cuya obra «Beaivi, áhčážan» obtuvo el Premio de Literatura del Consejo Nórdico en 1991, y de cantantes como Mari Boine.",
+   "debate": "No hay investigación que permita presentar el joik como un tratamiento. Es razonable pensar que cantar, pertenecer y recuperar una lengua propia tengan efectos sobre el bienestar, pero es una hipótesis. Convertirlo en una «técnica» para el consumo de afuera sería un error y una falta de respeto.",
+   "seccion": "El joik"
+  },
+  {
+   "enigma": "Durante más de un siglo, un Estado desalentó o prohibió una lengua en las escuelas, creó internados y condicionó el acceso a la tierra a hablar la lengua oficial. Muchas personas dejaron de cantar sus cantos o lo hicieron a escondidas.",
+   "p": "¿Qué creés que puede dejar una política así, décadas después?",
+   "opciones": ["Nada: pasó hace mucho y ya no influye", "Daños que continúan, que un país terminó reconociendo oficialmente", "Un beneficio, porque integró a la población"],
+   "r": "Desde mediados del siglo XIX y hasta bien entrado el XX, el Estado noruego aplicó una política de noruegización. Noruega creó una Comisión de la Verdad y la Reconciliación para investigarla, y su informe de 2023 concluyó que dejó daños que continúan. En Suecia se nombró también una comisión de la verdad para el pueblo sami.",
+   "como": "Henry Minde (2003) la documentó como proceso histórico. En salud, los estudios poblacionales SAMINOR encontraron que experiencias de discriminación étnica se asocian con peor salud autopercibida y más malestar.",
+   "debate": "La investigación disponible viene sobre todo de Noruega y los resultados varían según la región, la edad y el género, por lo que conviene no repetir una cifra suelta. Y hay que evitar tanto hablar de un «destino sami» como idealizar una «resiliencia» que haría innecesaria la atención.",
+   "seccion": "La noruegización"
+  }
+ ],
+ "abierta": "Si una cultura conserva una lengua y un canto propios, ¿cuánto de lo que sostiene a las personas viene de ahí y cómo se lo podría estudiar sin reducirlo? Todavía no se sabe."
+}

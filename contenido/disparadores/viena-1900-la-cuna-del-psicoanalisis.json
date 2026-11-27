@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una casa en el número 19 de la Berggasse, en Viena. Un consultorio con un diván, una colección de antigüedades y un hombre que escucha. Desde allí, durante casi cinco décadas, Sigmund Freud pensó una teoría de la mente.",
+   "p": "¿Por qué el psicoanálisis habría nacido en esa ciudad y no en otra?",
+   "opciones": ["Porque Viena era una ciudad tranquila y sin conflictos", "Porque en esa ciudad de gran vida intelectual convivían la innovación, la rigidez de las normas y la censura", "Porque ahí nadie había estudiado antes la mente"],
+   "r": "Viena era la capital del Imperio austrohúngaro, un centro de la música, de la medicina y las artes, con una sociedad muy jerárquica y convencional donde las normas sobre el cuerpo y la sexualidad pesaban especialmente sobre las mujeres. Pero la teoría no nació solo allí: se nutrió también de la neurología y la hipnosis francesas, la fisiología alemana y la discusión europea sobre la histeria.",
+   "como": "Con historia: Freud estudió en París con Charcot y publicó con Josef Breuer «Estudios sobre la histeria» (1895). En 1902 invitó a un grupo pequeño de médicos, entre ellos Stekel y Adler, a reunirse en su casa los miércoles, y de allí salió la Sociedad Psicoanalítica de Viena.",
+   "debate": "«Viena 1900» se ha vuelto casi un género de la historia cultural, con su brillo y sus omisiones. En la misma ciudad convivían la pobreza y el lujo, la innovación y la censura, y no conviene idealizarla.",
+   "seccion": "Una ciudad en el cruce"
+  },
+  {
+   "enigma": "En marzo de 1938, Alemania anexó Austria. En pocas semanas, la Gestapo allanó la casa de Freud, y la sociedad de psicoanalistas de Viena se disolvió.",
+   "p": "¿Qué creés que pasó con el movimiento psicoanalítico?",
+   "opciones": ["Se quedó en Viena y siguió igual", "La mayor parte de sus miembros, judíos en su mayoría, tuvo que irse a Londres, Nueva York y otros lugares", "Desapareció por completo en pocos años"],
+   "r": "Freud pudo partir en junio de 1938. La Sociedad Psicoanalítica de Viena se disolvió y la mayor parte de sus miembros tuvo que exiliarse. Algunos, como Viktor Frankl, formado en ese ambiente, sobrevivieron a los campos; otros no sobrevivieron.",
+   "como": "Con la historia documentada de esa época. Pasó algo parecido con otras escuelas de lengua alemana, como la de la Gestalt.",
+   "debate": "Hablar de «la cuna del psicoanálisis» no es decir que el psicoanálisis sea verdadero: que una corriente tenga una historia rica no dice cuánto respaldo empírico tiene. El debate científico sigue abierto, con evidencia más sólida para algunas formas de psicoterapia psicodinámica.",
+   "seccion": "Qué decir con cuidado"
+  }
+ ],
+ "abierta": "Si el lugar y la época moldean las ideas sobre la mente, ¿cuánto de lo que creemos hoy sobre la psicología depende de dónde y cuándo nació? Es una pregunta que la historia de la psicología sigue discutiendo."
+}

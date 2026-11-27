@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien limpia a fondo la casa, estrena ropa y arma una mesa con siete elementos antes del año nuevo. Otras familias pasan la noche más larga del invierno despiertas, comiendo granadas y leyendo poesía. Parecen costumbres simpáticas, sin mayor efecto.",
+   "p": "¿Qué dice la investigación sobre los rituales de este tipo?",
+   "opciones": ["Que no sirven para nada, son solo folklore", "Que pueden ayudar a regular emociones y fortalecer vínculos, aunque falta investigación", "Que curan el duelo y la depresión"],
+   "r": "No hay estudios psicológicos que hayan evaluado específicamente Nowruz o Yalda, pero sí investigación general sobre rituales. Michael Norton y Francesca Gino (2014) encontraron en experimentos que hacer rituales después de una pérdida se asociaba con menos sensación de falta de control y menos duelo. Una revisión de Hobson y colegas (2018) propuso que pueden ayudar a regular emociones y fortalecer los vínculos del grupo.",
+   "como": "Son experimentos de laboratorio y una revisión de la literatura, no estudios sobre estas fiestas puntuales.",
+   "debate": "Los propios autores destacan que falta investigación y que los efectos dependen del contexto. Renovación, comunidad y continuidad entre generaciones son hipótesis razonables, no resultados medidos sobre estas fiestas. Y un ritual no es una terapia: no trata una depresión ni un duelo complicado.",
+   "seccion": "Qué dice la psicología de los rituales"
+  },
+  {
+   "enigma": "Se acerca una fiesta pensada para juntar a la familia en la mesa. Para muchos es el momento más lindo del año.",
+   "p": "¿Es así para todos?",
+   "opciones": ["Sí, estar acompañado siempre mejora el ánimo", "No: para quien perdió a alguien o vive lejos, una fiesta de reunión puede doler", "Solo duele a quienes no tienen ninguna tradición"],
+   "r": "No todas las personas las viven con alegría. Para quien perdió a alguien, para quien está lejos de su familia o tiene un vínculo difícil con ella, una fiesta de reunión puede doler: la noche de Yalda sin la persona que antes estaba en la mesa puede ser un duelo. Para quienes migraron, abrir una mesa sin los suyos también puede pesar.",
+   "como": "Es una observación sobre cómo se viven estas fechas en la diáspora y en las familias, descrita con cuidado de no idealizar la tradición.",
+   "debate": "Tampoco son sinónimo de «Irán» ni de una esencia: se viven distinto según la región, la religión, la clase y la generación, y en algunos lugares estuvieron sujetas a tensiones políticas o religiosas.",
+   "seccion": "No idealizar"
+  }
+ ],
+ "abierta": "Si un ritual puede consolar a unos y doler a otros, ¿qué lo hace funcionar para alguien? La investigación todavía no lo sabe del todo."
+}

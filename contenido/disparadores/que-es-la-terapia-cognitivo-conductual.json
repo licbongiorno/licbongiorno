@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos personas mandan un mensaje y no les contestan. Una piensa «está ocupado» y sigue con su día. La otra piensa «me dejó de querer» y pasa la noche mal.",
+   "p": "¿Qué explicación te parece más cercana a lo que pasó?",
+   "opciones": ["El mensaje tiene un significado oculto que solo una percibe", "Lo que nos afecta no es solo el hecho sino cómo lo interpretamos", "Una de las dos es simplemente más sensible por naturaleza"],
+   "r": "La terapia cognitivo-conductual parte de que no nos afectan solo los hechos, sino cómo los interpretamos. El esquema habitual es situación, pensamiento, emoción, conducta. La terapia busca identificar esas interpretaciones y ponerlas a prueba.",
+   "como": "Reúne dos tradiciones: el conductismo, que estudió cómo el aprendizaje y el entorno moldean la conducta, y la revolución cognitiva. Albert Ellis desarrolló desde los años cincuenta una terapia racional-emotiva y Aaron Beck formuló la terapia cognitiva.",
+   "debate": "Es una forma de mirar, no la única válida. Algunas personas buscan comprender su historia o el sentido de lo que viven, algo en lo que otros enfoques ponen más el acento.",
+   "seccion": "El modelo cognitivo"
+  },
+  {
+   "enigma": "Una persona espera «hablar de la infancia» en su primera sesión. En cambio le piden describir una situación reciente, qué pensó, qué sintió y qué hizo. Se va con una tarea para la semana.",
+   "p": "¿Cómo creés que se llegó a saber si este tipo de terapia funciona?",
+   "opciones": ["Por la opinión de los terapeutas que la usan", "Con muchos estudios comparados, reunidos luego en revisiones de metaanálisis", "No hay forma de saberlo, es solo una cuestión de fe"],
+   "r": "Es una de las terapias con más investigación. Hofmann y colaboradores (2012) revisaron 106 metaanálisis y hallaron el apoyo más fuerte para trastornos de ansiedad, bulimia, control de la ira y estrés general. En depresión fue mejor que no tratar, con resultados mixtos frente a otras psicoterapias.",
+   "como": "Con revisiones de metaanálisis como esa, de 269 identificados. Medir es más fácil cuando el protocolo es explícito, y eso influye en cuánta investigación tiene.",
+   "debate": "Mucha evidencia no significa que sea la única que sirve ni que sirva para todas las personas. Y una técnica aplicada sin buena relación terapéutica pierde mucho valor.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Las llamadas terceras olas proponen cambiar la relación con los pensamientos en vez de discutirlos. ¿Funcionan por eso o por otra razón? Todavía se investiga."
+}

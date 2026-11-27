@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer wichí llega a un hospital del norte argentino. Habla su lengua y poco castellano. La enfermera le hace preguntas rápidas, ella responde que sí a todo para no molestar y se va con una indicación que no entendió del todo. Nadie fue maleducado.",
+   "p": "¿Por qué creés que, aun así, algo falló?",
+   "opciones": ["Porque la paciente no se esforzó en entender", "Porque faltó una atención que pueda dialogar con su lengua y su manera de explicar la enfermedad", "Porque la enfermera estaba apurada y nada más"],
+   "r": "Una consulta sin comprensión mutua puede ser peor que la falta de consulta. La atención intercultural busca que las personas de pueblos indígenas usen el sistema de salud sin dejar su lengua, su explicación de la enfermedad y sus formas de cuidado en la puerta, y que ambas medicinas dialoguen con la persona decidiendo.",
+   "como": "Escenas como esta, repetidas en muchos lugares, dieron origen a la idea. Una herramienta clínica básica es la de Arthur Kleinman (1980): los «modelos explicativos», preguntarle a cada paciente qué cree que le pasa, por qué y qué necesita.",
+   "debate": "No se trata de reemplazar la medicina occidental ni de «incorporar» sin más la tradicional. Y el campo cambia con las gestiones y varía mucho según la provincia, así que conviene verificar datos en fuentes oficiales.",
+   "seccion": "Qué quiere decir intercultural"
+  },
+  {
+   "enigma": "Para acortar la distancia entre el hospital y la comunidad aparecen figuras como agentes sanitarios y facilitadores que hablan la lengua de los pacientes.",
+   "p": "¿Resuelve eso por sí solo el problema?",
+   "opciones": ["Sí, con alguien que hable la lengua alcanza", "No: hablar la lengua no hace a alguien la voz de toda su comunidad", "No sirve de nada, mejor que cada uno se arregle"],
+   "r": "Estas figuras responden a un problema real, pero no son una solución mágica. Que una persona hable la lengua no la convierte en la voz de toda su comunidad, y cargar toda la interculturalidad en una sola persona suele agotarla.",
+   "como": "Lo señalan informes y balances críticos de antropólogos, trabajadores de salud y organizaciones indígenas, que coinciden en varios puntos sin cifras fijas porque cambian de una experiencia a otra.",
+   "debate": "Desde la psicología se discute cómo participar sin «aplicar» una técnica: preguntar, escuchar, trabajar con intérpretes cuidando la confidencialidad y reconocer los límites de la propia formación.",
+   "seccion": "Las figuras: agentes sanitarios y facilitadores"
+  }
+ ],
+ "abierta": "¿Cómo lograr que la interculturalidad sea una responsabilidad de todo el sistema y no de una sola persona? Es una pregunta que las comunidades y los equipos de salud siguen discutiendo."
+}

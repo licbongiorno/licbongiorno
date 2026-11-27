@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien tiene una presentación importante y desde la noche anterior intenta, con todas sus fuerzas, no estar nervioso. Cuanto más se lo ordena, más le late el corazón y más atento está a cada señal de su cuerpo.",
+   "p": "¿Qué conviene hacer con esos nervios?",
+   "opciones": ["Seguir intentando calmarse hasta que desaparezcan", "Reconocer que están ahí, como algo natural, y hacer lo que corresponde igual", "Evitar la presentación hasta sentirse tranquilo"],
+   "r": "Shōma Morita observó que estas personas no sufrían solo por lo que sentían, sino por la lucha contra la sensación. Propuso el arugamama, «tal como es»: reconocer que la ansiedad es un sentimiento natural que no se controla a voluntad, y hacer lo que corresponde aunque esté presente. No es resignarse ni dejar que el malestar mande.",
+   "como": "Fue una observación clínica. Morita, psiquiatra japonés (1874-1938), empezó hacia 1919 a internar pacientes en su propia casa, y su obra principal sobre la shinkeishitsu, un término antiguo para cuadros de ansiedad, se publicó en Japón en 1928. Recién en 1998 apareció una traducción al inglés.",
+   "debate": "La ACT, que tiene un aire de familia, no tiene una fuente que establezca una influencia directa. Y lo que se sabe de la eficacia de Morita es muy poco, como se ve en la siguiente pregunta.",
+   "seccion": "Qué es la shinkeishitsu y qué propuso"
+  },
+  {
+   "enigma": "Una revisión de la organización Cochrane, que juntó los ensayos aleatorizados de la terapia Morita para trastornos de ansiedad en adultos, intentó saber si funciona.",
+   "p": "¿Qué pudo concluir esa revisión?",
+   "opciones": ["Que funciona mejor que cualquier medicación", "Que no funciona en absoluto", "Que no se puede concluir, porque los estudios eran pocos, chicos y de calidad muy baja"],
+   "r": "La revisión Cochrane de Wu y colaboradores (2015) no pudo concluir si la terapia Morita es eficaz. Encontró siete estudios con 449 participantes, todos realizados en China. En dos estudios pequeños de fobia social hubo mejor mejoría global que con medicación a corto plazo, pero la calidad de la evidencia era muy baja.",
+   "como": "Buscando ensayos aleatorizados y evaluando su riesgo de sesgo: aleatorización poco clara, falta de enmascaramiento y mala información de los resultados. Así funciona una revisión Cochrane, que reúne los estudios y los califica con rigor.",
+   "debate": "Que no se pueda concluir no significa que no sirva, sino que falta mejor investigación. El tratamiento clásico de internación fue perdiendo lugar y hoy existen versiones ambulatorias, lo que vuelve más difícil comparar.",
+   "seccion": "Qué quedó hoy: la terapia Morita ambulatoria"
+  }
+ ],
+ "abierta": "Si pelear contra la ansiedad parece empeorarla, ¿por qué una idea tan antigua tiene tan pocos ensayos buenos? La investigación todavía tiene que responder."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien dice «no me importa» y, mientras lo dice, aprieta el puño. Habla de su tristeza en tercera persona. Cada vez que nombra a su hermano, cambia de tema.",
+   "p": "¿Qué puede decir más: lo que se dice o cómo se lo dice?",
+   "opciones": ["Solo cuentan las palabras, lo demás es casual", "El cuerpo, los gestos y la forma de hablar también dicen mucho", "Hay que analizar el pasado para entenderlo"],
+   "r": "La terapia Gestalt confía en que el cuerpo, los gestos y la forma de hablar dicen mucho, y que darse cuenta de eso ya es empezar a cambiar. Pone el foco en el aquí y ahora: no tanto por qué pasó algo, sino cómo se lo está viviendo en este momento.",
+   "como": "La crearon en los años cincuenta Fritz Perls, psiquiatra de formación psicoanalítica, junto con Laura Perls y el escritor Paul Goodman. El texto fundacional se publicó en 1951. Perls había trabajado con el neurólogo Kurt Goldstein, que le transmitió una mirada del organismo como totalidad.",
+   "debate": "Las terapias humanistas y experienciales tienen menos estudios que otras. Los metaanálisis disponibles (como los de Robert Elliott) muestran efectos comparables a otros tratamientos, pero la Gestalt como escuela tiene pocos ensayos propios.",
+   "seccion": "Sus ideas centrales"
+  },
+  {
+   "enigma": "Alguien perdió a su madre sin haber podido despedirse. Años después dice «ya lo superé» con la mandíbula tensa. En sesión le proponen imaginar a su madre sentada en una silla vacía y contarle lo que no pudo decirle.",
+   "p": "¿Para qué serviría hablarle a una silla vacía?",
+   "opciones": ["Para que la persona se convenza de que la madre la escucha", "Para dar lugar a lo que quedó sin decir, hablándole a quien falta y respondiendo desde su lugar", "Para distraerla del dolor con un juego"],
+   "r": "La silla vacía sirve para asuntos inconclusos, duelos o conflictos internos: se le habla directamente a la persona o a una parte propia, y luego se cambia de lugar para responder desde ella. A veces aparece llanto, a veces enojo. Es una propuesta que se hace con permiso, no una obligación.",
+   "como": "La técnica se estudió especialmente en la terapia focalizada en la emoción, donde tiene respaldo. Se vincula con la idea de lo inconcluso: la psicóloga Bluma Zeigarnik observó que se recuerdan mejor las tareas interrumpidas que las terminadas, aunque ese hallazgo no se traslada sin más a los duelos.",
+   "debate": "El ciclo de la experiencia y la teoría del campo son marcos conceptuales útiles, no leyes demostradas. Las versiones más teatrales del método se discuten, y el respaldo de la silla vacía no es lo mismo que el de la Gestalt como escuela.",
+   "seccion": "La silla vacía y otras técnicas"
+  }
+ ],
+ "abierta": "Si darse cuenta de lo que hacemos ya es empezar a cambiar, ¿cuánto del cambio viene del darse cuenta y cuánto de la relación con quien nos acompaña? Todavía se investiga."
+}

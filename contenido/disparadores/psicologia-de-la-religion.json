@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos personas van todas las semanas a la misma iglesia. Una dice que su fe es lo más importante de su vida. La otra reconoce que va sobre todo por los contactos y por la buena imagen.",
+   "p": "¿Cuál de las dos orientaciones se asoció con más prejuicio en los datos de los años sesenta?",
+   "opciones": ["La de quien vive la religión como un fin en sí misma", "La de quien la usa como un medio para otra cosa", "Ninguna, no hubo diferencias"],
+   "r": "Allport y Ross (1967) distinguieron una religiosidad intrínseca, donde la religión es un fin en sí misma, y una extrínseca, donde es un medio para otra cosa. En sus datos, la extrínseca se asoció con prejuicio y la intrínseca no.",
+   "como": "Con escalas que midieron esas dos orientaciones y cuestionarios sobre actitudes hacia otros grupos.",
+   "debate": "La validez de esas escalas fue discutida después, de modo que conviene leer el resultado como un punto de partida y no como una verdad cerrada.",
+   "seccion": "Religiosidad intrínseca y extrínseca"
+  },
+  {
+   "enigma": "Se dice a veces que la gente religiosa se deprime menos. Otras veces, que la religión carga de culpa y enferma.",
+   "p": "¿Qué muestra la investigación?",
+   "opciones": ["Que la religión siempre protege", "Que la religión siempre perjudica", "Asociaciones que dependen de cómo se la vive, sin resolver si es recurso o carga para cada persona"],
+   "r": "Bonelli, Dew, Koenig, Rosmarin y Vasegh (2012) analizaron los 178 estudios sobre depresión metodológicamente más rigurosos: 119 (67 %) encontraron una relación inversa entre religiosidad o espiritualidad y depresión. Koenig (2012) revisó la investigación sobre religión y salud publicada entre 1872 y 2010.",
+   "como": "Con revisiones de cientos de estudios cuantitativos, sobre todo asociaciones entre medidas de religiosidad y de salud.",
+   "debate": "Son asociaciones, no causas. Según los propios autores, no está resuelto si para cada paciente la religión funciona como recurso o como carga. Y hay quienes cuestionan a la religión como ilusión, como hizo Freud en 1927, una interpretación teórica y no un hallazgo empírico.",
+   "seccion": "Religión, salud y depresión"
+  }
+ ],
+ "abierta": "Si la misma fe puede acompañar a uno y pesarle a otro, ¿qué hace la diferencia? La investigación todavía lo discute."
+}

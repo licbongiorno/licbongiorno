@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En 1808 se publicó un libro que proponía trabajar trece virtudes, una por vez, anotando cada día en un cuaderno cómo había salido. Parece de autoayuda actual, pero es una obra de la ilustración judía.",
+   "p": "¿Alcanza con estudiar los textos para cambiar el carácter?",
+   "opciones": [
+    "Sí: leer y comprender produce cambio",
+    "No: hace falta un trabajo constante, con práctica y emoción",
+    "Solo con meditación silenciosa"
+   ],
+   "r": "Menachem Mendel Lefin publicó el Sefer Jeshbon Hanefesh, «Cuenta del alma», con registro escrito de las virtudes. El rabino Israel Salanter convirtió esa tradición ética en el movimiento Musar, y sostenía que estudiar textos no alcanza para cambiar el carácter.",
+   "como": "Lefin se basó en la lista de virtudes de Benjamin Franklin. Es un ejemplo temprano de autoobservación escrita, con un fin religioso.",
+   "debate": "El Musar y el jeshbon hanefesh son métodos de práctica ética con larga historia, pero no se evalúan como un tratamiento.",
+   "seccion": "El musar y el balance del alma"
+  },
+  {
+   "enigma": "Después de la Shoá, los psiquiatras empezaron a preguntarse qué les pasaba a los hijos de sobrevivientes de los campos. Se hablaba mucho de «segunda generación».",
+   "p": "¿Qué muestra la investigación?",
+   "opciones": [
+    "Que el trauma siempre se transmite a los hijos",
+    "Que no hay ninguna transmisión",
+    "Que la evidencia es mixta: aparecen señales en muestras clínicas, pero muchos hijos no tienen problemas particulares"
+   ],
+   "r": "Un metaanálisis de 2003 no encontró señales de traumatización secundaria en hijos de sobrevivientes de muestras no clínicas, aunque sí en muestras clínicas. Rachel Yehuda halló mayor vulnerabilidad en algunos hijos.",
+   "como": "Helen Epstein publicó Children of the Holocaust en 1979, y la clínica habló de la «segunda generación». Yehuda publicó en 2016 un estudio epigenético con muestra pequeña.",
+   "debate": "Ni los hallazgos biológicos ni los clínicos justifican pensar el trauma como destino: muchos hijos de sobrevivientes no presentan problemas particulares, y los que sí los tienen pueden tratarse.",
+   "seccion": "La Shoá y la psicología del trauma"
+  }
+ ],
+ "abierta": "Si el sufrimiento de una generación deja marcas en la siguiente, ¿qué ayuda a que esas marcas se transformen? Todavía se investiga."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una sesión, el terapeuta dice: «tu sistema nervioso está registrando que acá estás a salvo». La persona respira distinto, como si algo en esa frase ordenara lo que sentía.",
+   "p": "Si unas palabras ayudan tanto, ¿qué dice eso sobre si son verdaderas?",
+   "opciones": ["Que son verdaderas: si algo ayuda, es porque describe bien lo que pasa", "Que ayudar y ser verdadero son cosas distintas: una metáfora puede servir y no ser anatomía", "Que no importa si son verdaderas mientras la persona se sienta mejor"],
+   "r": "Conviene separar dos preguntas: si la teoría polivagal es útil como lenguaje clínico, y si su base neurofisiológica es correcta. Puede servir para hablar de seguridad, activación y apagamiento sin que las ramas del nervio vago que propone existan como las describe.",
+   "como": "Stephen Porges la presentó en 1995, en un artículo de la revista Psychophysiology. Propone que el nervio vago tiene dos ramas con orígenes evolutivos distintos, que organizan tres estados: conexión social, movilización e inmovilización. Se difundió mucho entre terapeutas del trauma porque da un marco simple y fácil de explicar.",
+   "debate": "Es muy discutida. Paul Grossman (2023) sostiene que cada una de sus cinco premisas básicas es insostenible o muy improbable, y en 2026 publicó con 38 coautores «Why the Polyvagal Theory Is Untenable». Porges respondió y el debate sigue abierto.",
+   "seccion": "Cómo leer esto sin tomar partido a ciegas"
+  },
+  {
+   "enigma": "Antes de una reunión, alguien siente el corazón acelerado y las manos frías. Otra persona, en una situación parecida, se queda en blanco, con la voz apagada. Una tercera, tras charlar con alguien de confianza, nota que respira más lento y se le relaja la cara.",
+   "p": "¿Cómo se explica que el cuerpo reaccione antes de que podamos decir por qué?",
+   "opciones": ["Porque lo pensamos mal y hay que corregir el pensamiento", "Porque el cuerpo puede detectar seguridad o peligro sin que lo advirtamos", "Porque son reacciones al azar, sin relación con la situación"],
+   "r": "Porges propuso la idea de neurocepción: la detección no consciente de seguridad o peligro. A muchos terapeutas les resulta intuitiva porque nombra algo que se vive. Un fenómeno real y medible es la variabilidad del ritmo cardíaco ligada a la respiración, y el nervio vago participa en regular el corazón.",
+   "como": "Se apoya en la fisiología del nervio vago y en la observación clínica de momentos de apertura, de defensa activa y de colapso. Esa utilidad práctica explica buena parte de su éxito, pero no prueba el mecanismo que propone.",
+   "debate": "Lo muy discutido es que existan dos circuitos vagales con el origen evolutivo y las funciones que plantea la teoría. Por eso conviene preguntarle a un profesional en qué se apoya y desconfiar de quien la presente como verdad cerrada.",
+   "seccion": "Qué propone"
+  }
+ ],
+ "abierta": "Si una teoría puede ser muy cuestionada y aun así dar palabras que alivian, ¿cómo separamos lo que ayuda de lo que es cierto? La ciencia todavía lo discute."
+}

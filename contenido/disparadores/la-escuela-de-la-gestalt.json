@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos luces se encienden una después de la otra, en puntos distintos de una pared oscura, con un intervalo muy corto. Lo que ves es una luz que se mueve.",
+   "p": "¿Dónde está ese movimiento?",
+   "opciones": [
+    "En la pared: algo se movió de verdad",
+    "En el ojo, que se cansa y se engaña",
+    "En quien mira: la mente organiza lo que ve como un todo"
+   ],
+   "r": "Ese fenómeno phi, descripto en 1912, mostró que el movimiento percibido no está en los estímulos por separado. Nació así la psicología de la Gestalt: la mente organiza la experiencia en totalidades, y no solo suma sensaciones.",
+   "como": "Max Wertheimer lo estudió en el Instituto de Psicología de Frankfurt, con Wolfgang Köhler y Kurt Koffka como sujetos de experimento, y publicó los resultados en 1912.",
+   "debate": "Las leyes de la percepción (proximidad, semejanza, cierre, buena continuidad) tienen amplio respaldo, pero la explicación neurológica de Köhler, un isomorfismo entre cerebro y percepción, fue superada.",
+   "seccion": "Frankfurt, 1912"
+  },
+  {
+   "enigma": "Una melodía sigue siendo la misma si la tocás en otra tonalidad, aunque no quede ninguna nota igual.",
+   "p": "¿Qué tendría que explicar una psicología de la melodía?",
+   "opciones": [
+    "Cada nota por separado, y después sumarlas",
+    "Cómo se percibe el conjunto con sus relaciones internas",
+    "Solamente lo que se puede medir en el oído"
+   ],
+   "r": "Ya en 1890 Christian von Ehrenfels planteó ese problema frente a una psicología que descomponía la conciencia en sensaciones simples. La palabra Gestalt nombra la totalidad con sus relaciones internas.",
+   "como": "Köhler estudió a chimpancés en Tenerife entre 1913 y 1920 y describió que resolvían problemas reorganizando de golpe la situación, en vez de ensayo y error.",
+   "debate": "Hay que separar tres usos de la palabra: la escuela experimental, la terapia gestalt de Fritz y Laura Perls y Paul Goodman, que tomó el nombre y algunas ideas pero es otra cosa, y los principios gestálticos del diseño. La evidencia de cada una es distinta.",
+   "seccion": "El problema de partida"
+  }
+ ],
+ "abierta": "Si la mente organiza lo que percibe, ¿hasta qué punto vemos el mundo y hasta qué punto vemos nuestra manera de organizarlo? Sigue abierto."
+}

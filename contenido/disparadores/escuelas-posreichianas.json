@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay personas que, cuando están angustiadas, se quedan con los hombros hacia arriba y respiran apenas. Una idea muy vieja en la psicoterapia dice que la historia de una persona queda inscripta en cómo se mueve, respira y sostiene el cuerpo.",
+   "p": "¿Qué creés que hicieron los discípulos de Wilhelm Reich con esa idea?",
+   "opciones": ["La abandonaron cuando se demostró falsa", "La tomaron cada uno en una dirección distinta y formaron una familia de escuelas", "La fusionaron en una única escuela oficial"],
+   "r": "Se llama posreichianas a las psicoterapias corporales que heredan algo de Reich. Cada autor la llevó a otro lugar: John Pierrakos creó Core Energetics, David Boadella la biosíntesis y Lisbeth Marcher el análisis Bodynamic.",
+   "como": "Es una genealogía de escuelas, con sus institutos de formación y sus libros, reconstruida a partir de los textos de cada autor. No es un hallazgo de laboratorio.",
+   "debate": "No es un catálogo completo, y cada escuela tiene su propio vocabulario y su propia formación.",
+   "seccion": "Una familia, no una sola escuela"
+  },
+  {
+   "enigma": "Una escuela publica una enciclopedia que asocia funciones psicológicas a más de 150 músculos. Suena preciso, casi como un mapa del cuerpo.",
+   "p": "¿Cómo lo leerías?",
+   "opciones": ["Como un hallazgo comprobado de la fisiología", "Como una hipótesis de trabajo de esa escuela, para ordenar la experiencia clínica", "Como un invento sin ningún valor"],
+   "r": "Es una propuesta de la escuela, no un dato de la fisiología. La investigación controlada sobre estas escuelas es escasa: lo que hay es sobre todo respaldo clínico, de terapeutas que describen lo que observan y de personas que cuentan que les sirvió.",
+   "como": "El libro es «Body Encyclopedia» (2010), de Lisbeth Marcher y Sonja Fich. Se apoya en la experiencia clínica de la escuela, y esa observación todavía no pasó por pruebas rigurosas.",
+   "debate": "Eso tiene valor, pero no alcanza para decir que una escuela funcione mejor que otra ni que una psicoterapia sin trabajo corporal. Si alguien te dice con total seguridad qué significa tu hombro, conviene preguntarle en qué se apoya.",
+   "seccion": "Qué evidencia tienen"
+  }
+ ],
+ "abierta": "¿Se puede estudiar con rigor si una tensión del cuerpo guarda un significado emocional, o habría que inventar otra forma de investigarlo? La pregunta sigue abierta."
+}

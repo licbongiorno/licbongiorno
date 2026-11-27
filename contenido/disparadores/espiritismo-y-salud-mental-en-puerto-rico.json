@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En muchos barrios de Puerto Rico, una persona con un dolor que no cede puede ir al médico, al pastor, a la psicóloga o a una sesión de espiritismo. En más de un caso va a más de uno.",
+   "p": "¿Cómo se entiende, desde el espiritismo, un malestar como el insomnio o la angustia?",
+   "opciones": ["Como un síntoma de un trastorno que hay que tratar con medicación", "Como algo que puede tener que ver con la influencia de espíritus o con asuntos pendientes", "Como una falta de fe o de voluntad de la persona"],
+   "r": "Para el espiritismo, muchos malestares (angustia, insomnio, pesadillas, conflictos familiares) pueden tener que ver con la influencia de espíritus o con asuntos pendientes. El médium identifica el origen, aconseja y propone prácticas como oraciones o reconciliaciones familiares. Para quien lo practica es un marco de sentido y, a menudo, un grupo que acompaña.",
+   "como": "Antropólogos y psiquiatras lo estudiaron desde mediados del siglo XX: Joan Koss publicó en 1975 sobre los aspectos terapéuticos de estas prácticas y Alan Harwood estudió en 1977 el espiritismo como recurso comunitario de salud mental en Nueva York.",
+   "debate": "Conviene evitar dos tentaciones: patologizar a quien consulta a un espiritista o exotizar la práctica. Es una religión popular con personas que la sostienen con convicción, y la no creencia es igual de legítima.",
+   "seccion": "Cómo se entiende el sufrimiento"
+  },
+  {
+   "enigma": "En un centro espiritista, una persona «se incorpora» a un espíritu y recibe mensajes para otros. Quienes están alrededor lo viven como algo esperado, con reglas y un lugar propio.",
+   "p": "¿Esa experiencia es un síntoma de enfermedad?",
+   "opciones": ["Sí, siempre que alguien oiga voces o actúe como otra persona", "No necesariamente: importa el contexto cultural y si hay malestar", "Nunca: lo espiritual queda fuera de la mirada clínica"],
+   "r": "El DSM-5 distingue el trance que forma parte de una práctica cultural o religiosa aceptada del que irrumpe sin ese marco y con malestar. Para el caso brasileño, el equipo de Alexander Moreira-Almeida estudió la mediumnidad espiritista y encontró diferencias importantes con los trastornos disociativos.",
+   "como": "Comparando a personas que practican la mediumnidad con cuadros disociativos, en un contexto religioso distinto del puertorriqueño.",
+   "debate": "No hay que extrapolar ese hallazgo mecánicamente a Puerto Rico, pero ayuda a no confundir práctica religiosa con enfermedad.",
+   "seccion": "Trance, mediumnidad y trastorno"
+  }
+ ],
+ "abierta": "Si espiritistas y terapeutas ordenan de manera parecida lo que consideran salud y enfermedad, ¿qué podría aportar cada uno al otro sin que ninguno pierda su marco? Las experiencias descritas son acotadas y la pregunta sigue abierta."
+}

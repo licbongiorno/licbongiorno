@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En las afueras de Seúl, una familia encarga un rito para el padre que murió de golpe hace unos meses. La chamana canta, cambia la voz y habla como si fuera el muerto: se queja de lo que quedó pendiente.",
+   "p": "¿Qué puede estar pasando ahí para quienes lo viven como duelo?",
+   "opciones": ["Nada más que un espectáculo para engañar a gente vulnerable", "Se nombra la pérdida, se habla con el muerto y se marca un final, cosas que un terapeuta de duelo reconocería", "Es exactamente lo mismo que una sesión de psicoterapia"],
+   "r": "En un gut por un muerto se nombra la pérdida, se habla con el muerto en lugar de hablar solo sobre él, se expresan emociones mezcladas (amor, bronca, culpa), se cuenta lo que quedó pendiente y se marca un final. Un terapeuta de duelo reconocería esos elementos.",
+   "como": "Lo describen décadas de trabajo de campo etnográfico, como el de la antropóloga Laurel Kendall, y el psiquiatra junguiano Rhi Bou-Yong lo leyó como imágenes de contenidos psíquicos, por ejemplo la culpa o el reproche, que toman figura.",
+   "debate": "Las diferencias son grandes: el rito supone que el muerto existe como espíritu, el problema se pone en una red de relaciones y no en el psiquismo de una persona, y no se evaluó como tratamiento. El antropólogo Chongho Kim discutió además que se lo trate sin más como «medicina tradicional».",
+   "seccion": "Qué se parece y qué no a una psicoterapia"
+  },
+  {
+   "enigma": "En Corea, según la tradición, una persona empieza a sufrir: pierde el apetito, no duerme, tiene dolores que los médicos no explican. Para su comunidad, no es una enfermedad común sino el llamado de los dioses a ser chamana.",
+   "p": "¿Cómo lo miró la psiquiatría?",
+   "opciones": ["Como un cuadro psiquiátrico idéntico en todos los casos", "Como un concepto cultural, con parte de los casos que coinciden con cuadros clínicos", "Como un fraude, sin ningún sufrimiento real"],
+   "r": "Se lo llama shin-byung, «enfermedad de los espíritus». Es un concepto cultural para un sufrimiento que se interpreta como vocación. Figuró en el DSM-IV como síndrome ligado a la cultura, y algunos casos coinciden con cuadros clínicos, pero no es una enfermedad con entidad propia.",
+   "como": "Un estudio coreano de 1996 con 99 chamanes de Seúl encontró que alrededor del 87 % de los relatos de shin-byung correspondían, con los criterios del DSM-III-R, a trastornos del ánimo, y el resto a cuadros disociativos.",
+   "debate": "Los estudios clínicos son pocos y con muestras chicas. Se discute cuánto de la experiencia se pierde al traducirla a categorías diagnósticas occidentales.",
+   "seccion": "Shin-byung: la enfermedad que anuncia la vocación"
+  }
+ ],
+ "abierta": "Si un mismo sufrimiento puede ser una enfermedad en un lugar y una vocación en otro, ¿qué cambia en la persona cuando su comunidad le da un sentido?"
+}

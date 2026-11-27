@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En Zimbabue hay millones de personas y muy pocos psiquiatras. Casi nadie con depresión o ansiedad llega a un especialista, por la distancia, el costo y el estigma. En el patio de algunos centros de salud de Harare, en cambio, hay bancos de madera donde una mujer mayor escucha.",
+   "p": "¿Una conversación con una vecina entrenada puede aliviar la depresión y la ansiedad?",
+   "opciones": ["No: eso requiere un profesional con título", "Sí, si se la entrena en un método simple y alguien la supervisa", "Solo sirve como compañía, sin efecto sobre los síntomas"],
+   "r": "El Friendship Bench, creado por el psiquiatra Dixon Chibanda, entrena a «abuelas» de la comunidad en una adaptación de la terapia de resolución de problemas: se nombra el problema con palabras de la persona, se elige uno concreto, se planifica una acción pequeña y se revisa en la visita siguiente. Si hay señales de gravedad, la abuela deriva al centro de salud.",
+   "como": "En 2016 se publicó en JAMA un ensayo aleatorizado en 24 centros de atención primaria de Harare, con 573 participantes: a los seis meses, quienes recibieron la intervención tenían menos síntomas de ansiedad y depresión que los del grupo control.",
+   "debate": "Es evidencia a favor de una intervención concreta, con personas entrenadas y supervisadas. Se comparó con atención habitual mejorada, no con psicoterapia hecha por profesionales, y se midió a seis meses con escalas de autorreporte.",
+   "seccion": "El ensayo de 2016"
+  },
+  {
+   "enigma": "En shona existe la expresión «kufungisisa», «pensar demasiado». Los equipos de salud de Harare descubrieron que, si en vez de decir «depresión» usaban esa palabra, las personas se acercaban más fácil a hablar.",
+   "p": "¿Por qué creés que cambia tanto cómo se nombra el malestar?",
+   "opciones": ["Porque la gente no entiende los términos médicos", "Porque el lenguaje con que se nombra el sufrimiento abre o cierra la puerta para pedir ayuda", "Porque en ese país nadie sufre depresión"],
+   "r": "En el Friendship Bench el primer paso es nombrar el problema con las palabras de la persona, y «kufungisisa» sirve como puerta de entrada porque atraviesa la ansiedad y la depresión. El lenguaje con que la gente nombra su sufrimiento importa más de lo que se suele pensar.",
+   "como": "Es parte del diseño del programa, que se apoya en la idea de delegación de tareas (task-shifting) de la salud mental global: pasar parte del trabajo a personas de la comunidad entrenadas y supervisadas.",
+   "debate": "Una adaptación a otro país no trae necesariamente los mismos resultados: cambian el idioma, el estigma y la relación con los servicios. Y queda abierto el debate sobre el trabajo de las voluntarias, cuánto se les pide y qué se les paga.",
+   "seccion": "Cómo trabaja: la terapia de resolución de problemas"
+  }
+ ],
+ "abierta": "El programa llegó a otros países e incluso a Nueva York. ¿Qué hace falta para que un tratamiento nacido en un lugar funcione igual en otro? Todavía se está aprendiendo."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Mover el brazo lentamente, sin meta, prestando atención a qué parte del cuerpo se mueve primero y cuál queda quieta. Después repetirlo de otra manera. Muchas personas se levantan de la silla empujando con la espalda sin darse cuenta.",
+   "p": "¿Qué se busca en una lección así?",
+   "opciones": ["Aprender la manera correcta de hacer el movimiento", "Fortalecer el músculo que trabaja de menos", "Notar mejor cómo uno se mueve, y que el cuerpo encuentre solo un camino más cómodo"],
+   "r": "En el método Feldenkrais no hay una forma correcta que memorizar. Se busca que el sistema nervioso encuentre formas más eficientes y cómodas de moverse, sin esfuerzo ni forzamiento, notando dónde se apoya el peso y qué parte trabaja de más. La palabra clave es «atención», y la lentitud permite sentir lo que a velocidad normal pasa desapercibido.",
+   "como": "Moshe Feldenkrais desarrolló el método y lo expuso en «Awareness Through Movement» (1972). Tiene dos modalidades: lecciones grupales guiadas por la voz y un trabajo individual con las manos del practicante.",
+   "debate": "No es una psicoterapia: no interpreta conflictos ni trabaja con la historia personal. Se lo usa como complemento de la fisioterapia, del entrenamiento o de la rehabilitación.",
+   "seccion": "Dos formas de trabajar"
+  },
+  {
+   "enigma": "Una persona mayor hace durante semanas lecciones de movimiento lento y atento. Algunos estudios midieron después su equilibrio.",
+   "p": "¿Qué creés que mostró la investigación?",
+   "opciones": ["Que el método cura enfermedades específicas", "Que no sirve para nada", "Resultados alentadores en equilibrio, pero con estudios muy desparejos"],
+   "r": "Hillier y Worley (2015) hicieron una revisión sistemática: en algunos estudios el método mostró mejoras en el equilibrio de personas mayores. Pero hubo gran heterogeneidad en poblaciones, resultados y medidas, y el riesgo de sesgo de muchos trabajos era alto, por lo que conviene leerlos con cautela.",
+   "como": "Con una revisión sistemática que reunió ensayos aleatorizados de distintos equipos y los comparó.",
+   "debate": "Los efectos parecían generales, lo que sugiere un mecanismo de aprendizaje más que un efecto específico para una enfermedad. Lo honesto es decir que no alcanza para afirmar que el método trate una enfermedad en particular.",
+   "seccion": "Qué dice la evidencia"
+  }
+ ],
+ "abierta": "Si mejorar el equilibrio tiene que ver con aprender a moverse mejor, ¿qué parte de ese aprendizaje es del cuerpo y qué parte de la atención? Todavía se investiga."
+}

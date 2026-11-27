@@ -1,0 +1,24 @@
+{
+ "autor": "Moreno",
+ "preguntas": [
+  {
+   "enigma": "Una mujer cuenta que no puede hablar con su madre sin terminar callándose. En vez de seguir contándolo, le proponen señalar una silla vacía como la cocina de su infancia, elegir a alguien del grupo que haga de su madre y empezar la escena.",
+   "p": "¿Por qué actuarlo en lugar de seguir hablándolo?",
+   "opciones": ["Porque hablar nunca sirve para entender nada", "Porque muchas dificultades se entienden mejor cuando se ponen en acción, con otras personas presentes", "Porque actuar es más entretenido para el grupo"],
+   "r": "Jacob Levy Moreno, psiquiatra nacido en Bucarest y formado en Viena, creó el psicodrama y la sociometría. Su idea de fondo es que muchas dificultades se entienden mejor cuando se ponen en acción, con otras personas presentes, que cuando solo se las describe.",
+   "como": "Lo propuso como método: una sesión reúne al protagonista, al director, a los yo auxiliares, el escenario y el público, y pasa por caldeamiento, dramatización y compartir. Su libro «Who Shall Survive?» es de 1934.",
+   "debate": "Revivir una escena dolorosa frente a un grupo puede movilizar mucho. Un buen director cuida el ritmo y no empuja al protagonista más allá de lo que quiere mostrar. Con situaciones de violencia o trauma conviene preguntar por la formación de quien dirige.",
+   "seccion": "Quién lo creó"
+  },
+  {
+   "enigma": "En esa escena, más tarde le piden a la mujer que se ponga en el lugar de su madre y responda desde ahí. También puede haber alguien a su lado que diga en voz alta lo que ella siente y no se anima a decir.",
+   "p": "¿Esas técnicas, la inversión de roles y el doble, tienen respaldo en la investigación?",
+   "opciones": ["Ninguno, nunca se estudiaron", "Algo favorable, con límites metodológicos que piden cautela", "Un respaldo total, sin ninguna objeción"],
+   "r": "Kipper y Ritchie (2003) publicaron en Group Dynamics un metaanálisis de 25 estudios experimentales. Encontraron un efecto global grande, comparable o mejor que el promedio de la psicoterapia de grupo, y la inversión de roles y el doble fueron las técnicas más eficaces.",
+   "como": "Con un metaanálisis, que reúne y combina los resultados de muchos estudios. Un metaanálisis de 2024 con ensayos aleatorizados en muestras chinas también encontró efectos favorables.",
+   "debate": "Una crítica posterior señaló que el trabajo de 2003 no detallaba sus términos de búsqueda, lo que limita replicarlo. Y el de 2024 corresponde a un contexto cultural específico. En síntesis: evidencia favorable con límites metodológicos.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si ponerse en el lugar del otro dentro de una escena puede cambiar algo, ¿qué es exactamente lo que cambia? Todavía se investiga qué técnicas actúan y por qué."
+}

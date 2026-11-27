@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En Nunavut, el territorio inuit del norte de Canadá, el gobierno decidió que su manera de trabajar se base en una palabra larga que se suele traducir como «lo que los inuit han sabido desde hace mucho». No es un método ni un test.",
+   "p": "¿Qué creés que es un saber así, que se vuelve política pública?",
+   "opciones": ["Un manual cerrado con un único texto autorizado", "Un conjunto de saberes, valores y maneras de vivir transmitidos de generación en generación, que los propios inuit actualizan", "Una técnica psicológica para aplicar en cualquier lugar"],
+   "r": "El Inuit Qaujimajatuqangit (IQ) abarca conocimiento ecológico (la nieve, el hielo, los animales), conocimiento social (parentesco, crianza, resolución de conflictos) y valores. No hay un IQ cerrado: hay tradiciones vivas que los propios inuit actualizan, discuten y enseñan. El gobierno de Nunavut lo organiza en principios rectores, como decidir conversando hasta llegar a un consenso (Aajiiqatigiinniq) o respetar a los demás y cuidar las relaciones (Inuuqatigiitsiarniq).",
+   "como": "Está documentado por comunidades, mayores e investigadores, y en documentos oficiales del gobierno de Nunavut, aunque las fuentes no coinciden del todo en el número y la denominación de los principios.",
+   "debate": "No es un modelo psicológico validado ni una intervención con evaluación de resultados. Decir que «el IQ mejora la salud mental» sería una afirmación sin evidencia directa.",
+   "seccion": "Los principios"
+  },
+  {
+   "enigma": "Un saber tradicional pasa a ser parte de la política de un gobierno. Alguien dice que así se lo preserva. Otra persona dice que se lo congela y se lo usa para llenar vacíos de la ciencia.",
+   "p": "¿Quién creés que tiene razón?",
+   "opciones": ["Solo la primera: oficializarlo siempre lo protege", "Solo la segunda: toda institucionalización lo traiciona", "Hay un debate real: ambas preocupaciones son señaladas por quienes lo estudian"],
+   "r": "Hay un debate. El antropólogo George Wenzel (2004) discutió cómo el IQ se relacionaba con el «conocimiento ecológico tradicional» usado en la gestión de fauna, y Tester e Irniq (2008) sostuvieron que muchas definiciones lo alejan de su dimensión cosmológica y lo vuelven una herramienta para llenar vacíos del conocimiento científico.",
+   "como": "A partir del análisis de cómo se definió y se usó el IQ en la administración pública y en la investigación.",
+   "debate": "Otras críticas señalan el riesgo de presentarlo como un saber «de antes», cuando para muchos inuit es un saber que cambia; que declarar un principio en una política no garantiza que se cumpla; y que hay diferencias entre regiones, dialectos y generaciones.",
+   "seccion": "Críticas y debates"
+  }
+ ],
+ "abierta": "¿Cómo puede una institución del Estado incorporar un saber vivo sin quitarle lo que lo hace vivo? Son los propios inuit quienes siguen respondiendo."
+}

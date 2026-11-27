@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "¿Qué es vivir bien? Parece una pregunta de autoayuda, pero en los Andes dos países la escribieron en sus constituciones: Ecuador en 2008 y Bolivia en 2009.",
+   "p": "Cuando una idea de pueblos originarios se vuelve consigna de Estado, ¿sigue siendo la misma idea?",
+   "opciones": ["Sí, siempre, porque la palabra es la misma", "No, se pierde por completo", "Depende: para algunos fue un reconocimiento y para otros una apropiación"],
+   "r": "Las dos lecturas conviven. Para los pueblos originarios, ver sus conceptos en una Constitución fue un reconocimiento; para otros fue una apropiación. Las críticas más conocidas vienen de quienes defienden la idea y sienten que se la vació.",
+   "como": "Se conoce por los textos constitucionales: la de Ecuador habla del buen vivir (sumak kawsay) y reconoce derechos de la naturaleza, y la de Bolivia enumera en su artículo 8 principios como suma qamaña, vivir bien. Cada pueblo e intelectual las explica a su manera.",
+   "debate": "Hay discusión sobre qué tan antiguo es el término como categoría política y cuánto de su formulación actual viene de intelectuales indígenas y cuánto de académicos y gobiernos. No son un método de bienestar.",
+   "seccion": "Las constituciones de Ecuador y Bolivia"
+  },
+  {
+   "enigma": "Una idea andina plantea que el bienestar no es algo que una persona alcance sola: se es en relación con otros y con el lugar.",
+   "p": "¿Se puede medir ese «buen vivir» como se mide la felicidad en una encuesta?",
+   "opciones": ["Sí, con una escala de bienestar subjetivo", "No de forma comparable: no es una teoría psicológica ni una intervención validada", "Sí, y ya hay una prueba oficial"],
+   "r": "El buen vivir dialoga con lo que la psicología comunitaria latinoamericana dice sobre lo colectivo, pero no es una teoría psicológica ni se mide como una escala de bienestar. Tampoco está validado como intervención. Traducirlo a «calidad de vida» lo achica.",
+   "como": "Hay quienes proponen indicadores de buen vivir para políticas públicas, pero los resultados dependen de cada propuesta y no son comparables con los estudios sobre bienestar subjetivo.",
+   "debate": "Se discute si un concepto vivido por un pueblo puede traducirse a indicadores sin perder lo que significa. Una pregunta útil: ¿quién la dice, una comunidad que la practica o una institución que la adopta?",
+   "seccion": "Qué tiene que ver con la psicología"
+  }
+ ],
+ "abierta": "¿Qué cambiaría si en vez de «aplicar» el buen vivir le preguntáramos a quienes lo viven qué significa para ellos? Es una pregunta que sigue abierta."
+}

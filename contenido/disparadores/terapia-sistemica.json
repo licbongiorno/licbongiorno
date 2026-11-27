@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una cena, una madre le dice a su hijo «contame lo que quieras», pero con la cara dice otra cosa: «estoy preocupada». El hijo responde con monosílabos. Ella interpreta que no confía y pregunta más; él se cierra más.",
+   "p": "¿Quién tiene la culpa de que no puedan hablar?",
+   "opciones": ["La madre, por preguntar de más", "El hijo, por cerrarse", "Ninguno en particular: cada conducta alimenta a la siguiente en un círculo"],
+   "r": "La terapia sistémica no busca un culpable. Observa el círculo en que cada conducta responde a la anterior y provoca la siguiente (circularidad), y pregunta qué podría cambiar si alguien lo interrumpe. Entiende que las personas formamos parte de sistemas, como la familia o la pareja, y que lo que le pasa a una afecta a las demás.",
+   "como": "Nació a mediados del siglo XX de un cruce de disciplinas: la teoría general de sistemas, la cibernética y la observación de familias. Gregory Bateson y su equipo en Palo Alto publicaron en 1956 «Hacia una teoría de la esquizofrenia», y después surgieron escuelas como la estructural de Minuchin y la de Milán.",
+   "debate": "Desde los años ochenta, críticas feministas como las de Virginia Goldner señalaron que la circularidad puede esconder desigualdades de poder. En la violencia en la pareja no hay «responsabilidad compartida» por el maltrato.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "El síntoma de un hijo a veces aparece justo cuando los padres están por separarse. Mientras todos se ocupan de él, la pareja no discute.",
+   "p": "¿Cómo puede ser que un síntoma cumpla una función en la familia?",
+   "opciones": ["Porque el hijo lo hace a propósito para evitar la separación", "Porque los sistemas tienden a mantener su equilibrio, incluso con un síntoma adentro", "Porque en realidad no existe tal relación y es una casualidad"],
+   "r": "La terapia sistémica habla de homeostasis: los sistemas tienden a mantener su equilibrio, incluso cuando ese equilibrio incluye un síntoma. Hay evidencia de que la terapia familiar y de pareja ayuda en problemas de conducta de niños y adolescentes, trastornos alimentarios, consumo de sustancias y conflictos de pareja.",
+   "como": "Con observación clínica de familias y con revisiones de ensayos, como las de Alan Carr. Salvador Minuchin describió familias con límites difusos o rígidos, e Iván Boszormenyi-Nagy habló de lealtades invisibles que nos atan a la historia familiar.",
+   "debate": "La homeostasis familiar y la función del síntoma son hipótesis explicativas, útiles pero no siempre demostrables. Y no toda crisis familiar es «del sistema»: hay trastornos individuales que requieren su propio tratamiento.",
+   "seccion": "Algunas ideas clave"
+  }
+ ],
+ "abierta": "Si cambiar una sola pieza puede mover todo el sistema, ¿cuánto puede cambiar una persona sola dentro de su familia? Todavía se estudia."
+}

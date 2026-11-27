@@ -2,7 +2,7 @@
  "preguntas": [
   {
    "enigma": "Manejás por un camino que conocés y, de golpe, llegás a destino sin recordar el trayecto. O estás en una reunión y por un momento sentís que te ves desde afuera.",
-   "p": "¿Qué crees que son esas experiencias?",
+   "p": "¿Qué creés que son esas experiencias?",
    "opciones": ["Una señal de que algo anda muy mal en la cabeza", "Algo que casi todas las personas viven alguna vez, en un continuo de leve a intenso", "Algo que solo les pasa a quienes sufrieron mucho"],
    "r": "La disociación es una desconexión entre cosas que normalmente van juntas: pensamientos, recuerdos, emociones, sensaciones del cuerpo, percepción del entorno. Funciona como un continuo, desde lo cotidiano (quedar absorto en un libro, el piloto automático) hasta formas intensas y persistentes.",
    "como": "El médico y psicólogo francés Pierre Janet la describió en 1889 al observar que experiencias muy intensas podían quedar separadas del resto de la conciencia. Las clasificaciones actuales incluyen trastornos disociativos, que requieren una evaluación clínica cuidadosa.",
@@ -11,7 +11,7 @@
   },
   {
    "enigma": "Alguien te habla de algo doloroso y te quedás en blanco: la cara tranquila, el cuerpo lejos. No elegiste hacerlo y no sabés por qué pasó.",
-   "p": "¿Qué crees que está haciendo tu mente?",
+   "p": "¿Qué creés que está haciendo tu mente?",
    "opciones": ["Se está desinteresando de la otra persona", "Se está rompiendo de forma permanente", "Baja la intensidad de algo que siente demasiado grande"],
    "r": "Dicho llanamente, la mente baja la intensidad de una experiencia que no puede tolerar. Puede ser una reacción del sistema nervioso ante algo que percibe como demasiado, aun cuando hoy no haya peligro. El costo es que, si se vuelve el modo habitual de protegerse, uno se pierde de su propia vida.",
    "como": "Janet y, desde el psicoanálisis, la lectura de la disociación como una defensa que protegió en su momento. Volvió a ocupar un lugar importante desde los años ochenta, con el reconocimiento del TEPT y el estudio del trauma infantil.",

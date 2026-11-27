@@ -1,0 +1,32 @@
+{
+ "autor": "Frankl",
+ "preguntas": [
+  {
+   "enigma": "Un hombre se jubila después de décadas de trabajo y dice que se siente «sobrante». No tiene una depresión grave, pero hay un vacío en sus días.",
+   "p": "¿Qué le ayudaría más?",
+   "opciones": [
+    "Buscarle rápidamente un pasatiempo para llenar el tiempo",
+    "Explorar qué le importaba de su trabajo, como ser útil o enseñar, y dónde podría vivirse hoy",
+    "Convencerlo de que todo pasa por algo"
+   ],
+   "r": "Para Frankl, además del placer (Freud) y del poder (Adler), nos mueve una voluntad de sentido. Cuando no encuentra respuesta aparece el vacío existencial. El sentido no se inventa, se descubre: en lo que damos, en lo que recibimos y en la actitud frente a lo que no se puede cambiar.",
+   "como": "Frankl desarrolló la logoterapia en Viena desde los años treinta y la pensó también desde su experiencia en campos de concentración. Después surgieron escalas para medir el sentido de vida, como el Purpose in Life Test (1964) y el Meaning in Life Questionnaire (2006).",
+   "debate": "Tener sentido de vida se asocia con mejor salud y bienestar, pero son estudios correlacionales y no prueban que buscarlo cause esa mejora. La logoterapia como método tiene pocos ensayos propios.",
+   "seccion": "Las ideas, con un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Alguien teme ponerse colorado delante de otros. Cuanto más lo teme, más se le nota, y cada vez evita más situaciones.",
+   "p": "¿Qué técnica de Frankl te parece que propone para esto?",
+   "opciones": [
+    "Tratar de no pensar en ello con todas las fuerzas",
+    "Proponerse, a propósito, ponerse lo más colorado posible",
+    "Evitar siempre esas situaciones hasta que el miedo pase solo"
+   ],
+   "r": "Es la intención paradójica: desear o exagerar a propósito lo que se teme, para desarmar el círculo de la ansiedad anticipatoria. Se complementa con la derreflexión, que saca la atención del síntoma.",
+   "como": "Surgió de la práctica clínica de Frankl. Sus técnicas, como la intención paradójica, tienen apoyo para algunas fobias y ansiedades, pero con estudios pequeños.",
+   "debate": "La dimensión noética y la voluntad de sentido son conceptos filosóficos, no hallazgos empíricos. Y hay un riesgo: usar la palabra «sentido» para silenciar el dolor o apurar un duelo.",
+   "seccion": "Algunas técnicas"
+  }
+ ],
+ "abierta": "Si el sentido se descubre y no se fabrica, ¿cómo se hace para buscarlo sin forzarlo? Es una pregunta que la investigación todavía explora."
+}

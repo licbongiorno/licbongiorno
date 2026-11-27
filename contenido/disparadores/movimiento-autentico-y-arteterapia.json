@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona se mueve con los ojos cerrados en una sala. A un costado, otra la mira sin corregir, sin interpretar y sin decir nada.",
+   "p": "¿Qué cambia en quien se mueve por saber que alguien lo está mirando así?",
+   "opciones": ["Nada: da lo mismo moverse solo o acompañado", "Se siente evaluado y se mueve peor", "Cambia la experiencia de moverse: ser visto con atención es parte del método"],
+   "r": "En el Movimiento Auténtico el testigo es lo más característico: no dirige, no evalúa y no interpreta, acompaña con atención. Janet Adler desarrolló la práctica como un vínculo entre quien se mueve y quien atestigua, y quien se mueve sabe que está siendo visto, lo que cambia la experiencia.",
+   "como": "Surgió de la práctica de Mary Starks Whitehouse, que lo llamó «movimiento en profundidad». Adler se formó en danza movimiento terapia y en 1981 fundó la primera escuela de Movimiento Auténtico.",
+   "debate": "Hay poca investigación controlada: lo que existe es sobre todo la descripción de quienes lo practican y lo enseñan. Y moverse así puede movilizar emociones intensas, por eso conviene hacerlo con alguien formado.",
+   "seccion": "Janet Adler y el testigo"
+  },
+  {
+   "enigma": "En un taller, alguien pinta una imagen que no sabía que tenía adentro. Al terminar se siente distinto, y no está claro si fue por lo que pintó o por el hecho de haber pintado.",
+   "p": "¿Qué es lo que ayuda: la imagen o el acto de crearla?",
+   "opciones": ["Solo la imagen, porque se la puede analizar después", "Solo el acto de crear, porque la imagen no importa", "Las dos respuestas fueron defendidas por las fundadoras de la arteterapia"],
+   "r": "La arteterapia tiene dos figuras fundadoras con enfoques distintos. Margaret Naumburg propuso el arte en terapia: la imagen sirve como material para el proceso. Edith Kramer propuso el arte como terapia: el propio acto de crear tiene valor terapéutico. Para una la imagen es una vía hacia lo que se habla, para la otra hacer ya es parte de lo que sana.",
+   "como": "Son dos tradiciones clínicas que surgieron de la práctica: Naumburg desde la educación progresista y Kramer, pintora de orientación psicoanalítica, en su trabajo con niños en una comunidad.",
+   "debate": "La diferencia es de énfasis y sigue vigente. Lo prudente es tomar la arteterapia como una propuesta con larga tradición clínica, sin prometer resultados concretos.",
+   "seccion": "La arteterapia: dos orígenes"
+  }
+ ],
+ "abierta": "Si ser visto con atención o crear una imagen puede movilizar algo, ¿qué es exactamente lo que cambia? Todavía se investiga poco."
+}

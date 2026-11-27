@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Si le preguntás a alguien dónde nació la psicología, probablemente te hable de Freud y de Viena. Una psicóloga experimental quizá te nombre a Wundt y Leipzig. Un conductista, laboratorios en Rusia y en Estados Unidos.",
+   "p": "¿Quién creés que tiene razón?",
+   "opciones": ["Freud, porque abrió la puerta a la mente profunda", "Wundt, porque abrió el primer laboratorio", "Todos tienen algo de razón: la psicología tuvo varias cunas"],
+   "r": "Lo que hoy llamamos psicología es un conjunto de tradiciones que nacieron en distintos lugares. Se suele fechar en 1879, con el laboratorio de Wilhelm Wundt en Leipzig, el nacimiento de la psicología como ciencia independiente de la filosofía y la fisiología, aunque había antecedentes y otros laboratorios casi a la vez.",
+   "como": "Del mismo país salió la Gestalt hacia 1910-1920; en Viena, el psicoanálisis; en Rusia, Pávlov y Vygotsky; en Estados Unidos, William James (1890) y el manifiesto conductista de Watson (1913). Es una historia que se reconstruye con laboratorios, libros, clínicas y escuelas.",
+   "debate": "Esta es la mirada occidental, la que se enseña en la mayoría de las universidades argentinas: es una de las muchas psicologías del mundo, no la psicología. Otras, como la india, la africana o la de los pueblos originarios, tienen sus propios orígenes.",
+   "seccion": "Alemania: el laboratorio y la forma"
+  },
+  {
+   "enigma": "En 1905 en París, Alfred Binet y Théodore Simon crearon una escala. No estaba pensada para clasificar a todos, sino para detectar qué chicos necesitaban apoyo en la escuela.",
+   "p": "¿Qué creés que se hizo con ella después?",
+   "opciones": ["Quedó olvidada porque era poco precisa", "Fue el antecedente de los tests de inteligencia que se usan hasta hoy", "Se usó solo en el ámbito militar"],
+   "r": "Fue la primera escala de inteligencia y un antecedente de los tests que se usan hasta hoy. Muestra cómo la psicología creció respondiendo a preguntas concretas: educación, hospitales, trabajo.",
+   "como": "En la misma época, en el hospital de la Salpêtrière, en París, Charcot y Janet estudiaban la histeria y la disociación, y Freud asistió a las clases de Charcot en 1885-1886.",
+   "debate": "El mapa tiene límites: deja afuera a muchas figuras y lugares, y priorizar países y varones occidentales es una decisión que se discute. En la Argentina, la carrera de Psicología se creó en la UBA en 1957 y conviven corrientes muy distintas.",
+   "seccion": "Qué mirar con cuidado"
+  }
+ ],
+ "abierta": "Si la psicología tiene tantos orígenes, ¿qué se pierde cuando se cuenta una sola historia? Es una pregunta que la historia de la psicología sigue abriendo."
+}

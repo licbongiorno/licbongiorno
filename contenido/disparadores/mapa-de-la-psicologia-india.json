@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En casi cualquier ciudad argentina hay un estudio de yoga a pocas cuadras, una dietética que vende ashwagandha y algún curso que promete «la sabiduría milenaria de la India» para dormir mejor.",
+   "p": "¿Qué tiene mejor respaldo en la investigación?",
+   "opciones": [
+    "El ayurveda, por su antigüedad",
+    "El yoga: tiene ensayos y metaanálisis con efectos modestos en ansiedad y depresión",
+    "Todo por igual, porque viene de la misma tradición"
+   ],
+   "r": "El yoga tiene ensayos clínicos y metaanálisis para ansiedad y depresión, con efectos modestos y calidad desigual, y lo evaluado es casi siempre yoga postural moderno. El ayurveda tiene poca evidencia de calidad y riesgos documentados por metales pesados en algunos preparados.",
+   "como": "Se distingue qué tipo de cosa es cada idea: tradición, disciplina académica o práctica. Los textos filosóficos ofrecen hipótesis, pero sus teorías no se pusieron a prueba como se prueba un tratamiento.",
+   "debate": "Idealizar a la India como un depósito de sabiduría interior es tan problemático como tratar con desprecio todo lo que no viene de Europa o Estados Unidos.",
+   "seccion": "Un criterio para ordenar"
+  },
+  {
+   "enigma": "Un hombre joven consulta con una angustia intensa: está convencido de que pierde semen en la orina, y siente cansancio, debilidad y ánimo bajo.",
+   "p": "¿Cómo conviene entenderlo?",
+   "opciones": [
+    "Como una confusión sin importancia que se corrige explicando anatomía",
+    "Como una forma de decir el malestar que tiene su propio sentido y merece evaluación",
+    "Como una enfermedad que solo existe en la India"
+   ],
+   "r": "Es el síndrome de dhat, nombrado por el psiquiatra N. N. Wig en 1960. El DSM-5 (2013) lo incluye en su glosario de conceptos culturales del malestar. Tiene décadas de estudios clínicos en la India y países vecinos.",
+   "como": "Surgió de la observación clínica de la psiquiatría india, que aportó a la discusión mundial sobre cultura y síntomas.",
+   "debate": "La psiquiatría cultural discute si estos cuadros son entidades propias o formas locales de expresar ansiedad y depresión. Lo central es escuchar cómo la persona explica su sufrimiento.",
+   "seccion": "Síndromes culturales y modos de decir el malestar"
+  }
+ ],
+ "abierta": "Si la psicología académica nació en la India enseñando teorías de otros lugares, ¿qué psicología saldría si partiera de la vida y los textos de cada lugar? Sigue siendo una discusión abierta."
+}

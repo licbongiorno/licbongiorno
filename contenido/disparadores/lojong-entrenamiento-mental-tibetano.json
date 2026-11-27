@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Discutiste con un compañero de trabajo, volviste a casa con la frase perfecta que no dijiste y la repetís durante horas. Desde los monasterios del Tíbet hay una manera de abordar eso con frases cortas, una para cada momento.",
+   "p": "¿Qué te parece que haría una frase como «sé agradecido con todos» en medio del conflicto?",
+   "opciones": [
+    "Obligarte a sentir algo que no sentís",
+    "Mostrarte que quien te incomoda también te pone a prueba, y aflojar la reacción habitual",
+    "Anularte para que los demás nunca se enojen"
+   ],
+   "r": "El lojong es el «entrenamiento de la mente» del budismo tibetano. Propone entrenar de a poco una actitud que ponga a los demás al menos a la par de uno, sin anularse ni despreciarse. Es una práctica religiosa y ética, no un tratamiento.",
+   "como": "La tradición cuenta que Atisha (c. 982-1054) llevó estas enseñanzas al Tíbet y que Chekawa Yeshe Dorje (1101-1175) las ordenó en los Siete puntos del entrenamiento de la mente. Esos detalles vienen de la propia tradición, no de documentación independiente.",
+   "debate": "Una consigna como «echá todas las culpas a uno solo» puede dañar a quien ya carga con culpa excesiva o vive maltrato. La tradición la formula para disolver la actitud de defenderse siempre.",
+   "seccion": "Las 59 consignas"
+  },
+  {
+   "enigma": "Hay programas de entrenamiento en compasión en universidades como Emory y Stanford, sin marco religioso, que se inspiran en esa tradición tibetana.",
+   "p": "¿Qué te parece que muestra la investigación sobre ellos?",
+   "opciones": [
+    "Que curan la depresión y la ansiedad",
+    "Que tienen efectos moderados sobre algunas medidas de bienestar, con limitaciones",
+    "Que no producen ningún efecto"
+   ],
+   "r": "Una revisión de 2017 (Kirby, Tellegen y Steindl) halló efectos de tamaño moderado sobre algunas medidas de bienestar y malestar en intervenciones basadas en compasión.",
+   "como": "Esa revisión también señaló muestras chicas, grupos de comparación débiles y diferencias entre programas. El CBCT (Emory) y el CCT (Stanford) parten de la tradición con formato secular.",
+   "debate": "La relación con la terapia centrada en la compasión de Paul Gilbert o la autocompasión de Kristin Neff es de inspiración, no de equivalencia: tienen teorías y programas propios. Lo prudente es decir que el panorama es alentador pero provisorio.",
+   "seccion": "Qué relación tiene con las terapias de compasión"
+  }
+ ],
+ "abierta": "Si una práctica pensada para la vida religiosa se separa de su marco, ¿qué se conserva y qué se pierde? Es algo que todavía se discute."
+}

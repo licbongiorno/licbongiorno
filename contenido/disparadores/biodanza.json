@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una sala con el piso despejado, luces bajas y una música suave. Alguien propone caminar, cruzarse con otros, mirarse. Nadie evalúa cómo baila.",
+   "p": "¿Qué creés que se propone en un encuentro así?",
+   "opciones": ["Aprender coreografías para soltar el cuerpo", "Vivir el movimiento y el encuentro con otros, registrando qué pasa en el cuerpo", "Hacer un ejercicio físico intenso"],
+   "r": "La Biodanza propone moverse en grupo, con consignas simples, y registrar qué pasa en el cuerpo y en el encuentro con otras personas. Fue creada en la década de 1960 por Rolando Toro Araneda, antropólogo y psicólogo chileno.",
+   "como": "Se practica en encuentros grupales que combinan música, movimiento y contacto. Cada grupo y cada facilitador tienen su estilo.",
+   "debate": "Mucha gente la elige como espacio de soltura, juego y compañía, más cerca de una práctica de bienestar que de un tratamiento. No es psicoterapia, y tampoco es lo mismo que la danza movimiento terapia.",
+   "seccion": "Cómo se vive un encuentro"
+  },
+  {
+   "enigma": "Muchas personas que hacen Biodanza dicen sentirse mejor, más acompañadas y más conectadas con su cuerpo.",
+   "p": "¿Eso alcanza para decir que funciona como tratamiento?",
+   "opciones": ["Sí, si tanta gente lo cuenta, la eficacia está demostrada", "No necesariamente: hace falta estudiar si el efecto se debe a la práctica y no a otra cosa", "No, porque las prácticas grupales nunca producen bienestar"],
+   "r": "Una experiencia valorada no equivale a una eficacia demostrada. Hay experiencias valoradas por quienes participan y algunos resultados alentadores, pero la base científica es débil y heterogénea.",
+   "como": "Una revisión sistemática narrativa de 2021 en Movimento analizó más de 200 documentos en cuatro idiomas y concluyó que hay poca evidencia de efectos en salud y educación. Otra revisión en español informó resultados positivos en fibromialgia e inteligencia emocional.",
+   "debate": "Esos resultados positivos se leen como asociación con el bienestar, no como prueba de que la Biodanza los cause. Además, las intervenciones no están estandarizadas y la mayoría de los trabajos son descriptivos. Eso no la invalida como práctica grupal.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si algo hace bien a quien lo practica pero es difícil de medir, ¿cómo se diseña un estudio que respete la experiencia y a la vez distinga qué la produce?"
+}

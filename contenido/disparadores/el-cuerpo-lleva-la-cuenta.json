@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien termina un libro y, por primera vez, siente que le ponen palabras a algo que le pasa desde hace años: el sobresalto ante un ruido, la tensión que no afloja, el sueño que no repara. Cierra la tapa con alivio.",
+   "p": "¿Cómo se explica que un libro sobre el trauma haya llegado a tanta gente?",
+   "opciones": ["Porque demostró científicamente cómo el trauma daña el cerebro", "Porque puso en palabras que el sufrimiento traumático no es debilidad y tiene expresiones físicas reales", "Porque ofreció un tratamiento rápido"],
+   "r": "El cuerpo lleva la cuenta puso en la conversación pública que el sufrimiento traumático no es debilidad ni exageración y que tiene expresiones físicas reales. También acercó a muchas personas a la terapia. Tiene respaldo la idea general de que el trauma se vive también en el cuerpo y que prestarle atención puede ser parte del trabajo.",
+   "como": "Bessel van der Kolk lo publicó en 2014. Su tesis es que el trauma deja huellas en el cuerpo y el cerebro, y que por eso no alcanza con hablar: hay que sumar abordajes que trabajen con la experiencia corporal.",
+   "debate": "Varias afirmaciones se presentaron con más certeza de la que la evidencia permitía. Eso no dice que el trauma no duela ni que el cuerpo no importe.",
+   "seccion": "Qué aportó"
+  },
+  {
+   "enigma": "Un libro muy difundido afirma que los abordajes corporales superan a los demás tratamientos del trauma. Un investigador revisó una por una las afirmaciones del libro.",
+   "p": "¿Qué te parece que encontró?",
+   "opciones": ["Que todas las afirmaciones estaban bien respaldadas", "Que las afirmaciones centrales no tenían el respaldo sólido que se les atribuía", "Que el libro no contenía ninguna afirmación científica"],
+   "r": "Según la revisión de Michael Scheeringa (2025), las afirmaciones centrales del libro, la del daño neurobiológico duradero y la de la superioridad de los tratamientos corporales, no tienen respaldo sólido.",
+   "como": "Scheeringa revisó 122 afirmaciones del libro: 42 sobre neurobiología, 51 sobre la eficacia de tratamientos y 29 sobre otros temas. Richard McNally ya había cuestionado en 2005 el razonamiento de un artículo de van der Kolk de 1994.",
+   "debate": "Un artículo de 2026 en Frontiers in Systems Neuroscience propuso entender el cuerpo «como mensajero, no como archivo». Más que refutar el libro, lo reformula, y sigue apoyando varias intervenciones corporales.",
+   "seccion": "Qué está cuestionado"
+  }
+ ],
+ "abierta": "Si el cuerpo no es un archivo donde se guarda el pasado, ¿qué papel tiene en cómo vivimos lo que nos pasó? Es una pregunta que la neurociencia sigue explorando."
+}

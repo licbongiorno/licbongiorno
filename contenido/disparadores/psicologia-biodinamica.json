@@ -1,0 +1,24 @@
+{
+ "autor": "Boyesen",
+ "preguntas": [
+  {
+   "enigma": "Una persona está recostada en una camilla mientras le masajean la espalda con mucha lentitud. De pronto se oye un ruido de su propio abdomen, y quien la atiende no se sorprende: para su escuela, ese sonido puede significar algo.",
+   "p": "¿Un ruido abdominal puede indicar que el cuerpo está procesando una emoción?",
+   "opciones": ["Sí, está comprobado que indica descarga emocional", "Es una hipótesis de la escuela, sin confirmación científica", "No tiene absolutamente ninguna explicación posible"],
+   "r": "Gerda Boyesen, psicóloga clínica noruega, llamó psicoperistaltismo a esos ruidos intestinales y propuso que acompañan una «digestión» de la tensión emocional, así como el intestino procesa el alimento. Es una hipótesis de la escuela y no tiene confirmación científica.",
+   "como": "Nació de una intuición clínica, desarrollando ideas de Wilhelm Reich sobre la relación entre tensión corporal y vida emocional, y formulada como teoría del funcionamiento del organismo.",
+   "debate": "Un ruido abdominal tiene explicaciones fisiológicas ordinarias, y con lo que se conoce nada permite afirmar que indique descarga emocional. Una idea elegante no se puede dar por cierta solo por eso.",
+   "seccion": "El psicoperistaltismo"
+  },
+  {
+   "enigma": "Un enfoque terapéutico lleva décadas de trayectoria, tiene formación en varios países y muchos profesionales que cuentan su experiencia con él.",
+   "p": "¿Eso alcanza para decir que está comprobado que funciona?",
+   "opciones": ["Sí, tantos años de práctica lo demuestran", "No: su respaldo es clínico y formativo, no hay ensayos controlados conocidos", "Sí, siempre que lo avalen las instituciones de formación"],
+   "r": "No se conocen ensayos controlados sobre la eficacia de la psicología biodinámica. Su respaldo es clínico y formativo: descripciones de profesionales, experiencia acumulada y una tradición de formación. Es una propuesta con coherencia interna y trayectoria, pero no un tratamiento comprobado.",
+   "como": "Para saber si algo funciona hace falta compararlo con otras opciones en ensayos controlados; la experiencia acumulada no reemplaza eso.",
+   "debate": "Conviene preguntarse qué se espera: si se busca un espacio de contacto, lentitud y atención al cuerpo, puede ofrecerlo; si se espera una cura demostrada o una explicación fisiológica de las emociones, hay que moderar la expectativa.",
+   "seccion": "Qué evidencia tiene"
+  }
+ ],
+ "abierta": "Si la experiencia clínica de tantos profesionales apunta a que el cuerpo y las emociones se relacionan, ¿cómo diseñar estudios que lo midan sin perder lo que esas prácticas ofrecen?"
+}

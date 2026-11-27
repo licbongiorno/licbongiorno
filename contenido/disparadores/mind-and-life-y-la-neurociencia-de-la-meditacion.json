@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Se dice que los monjes tibetanos con décadas de práctica tienen un «cerebro distinto». En 2004 un equipo les puso electrodos mientras meditaban, y comparó su actividad con la de personas sin experiencia.",
+   "p": "¿Qué se puede concluir de un estudio así?",
+   "opciones": ["Que meditar produce cambios cerebrales en cualquiera que lo intente", "Que hubo una diferencia llamativa, pero con muestra chica y sin saber si la causó la práctica", "Que el estudio no sirve para nada y no vale la pena leerlo"],
+   "r": "Lutz, Greischar, Rawlings, Ricard y Davidson publicaron en 2004 en PNAS un trabajo que comparó a ocho practicantes budistas con muchos años de práctica y diez novatos. Se volvió célebre porque era un dato concreto y medible sobre meditación.",
+   "como": "Midieron la actividad eléctrica del cerebro durante la práctica mental. Pero con ocho expertos y diez novatos se ve una diferencia, no se pueden sacar conclusiones generales.",
+   "debate": "Quedan abiertas varias preguntas: si la práctica produjo esa actividad o si quienes meditan décadas ya eran distintos de antemano, qué significa técnicamente esa señal y por qué faltan réplicas grandes. Las críticas vienen del propio campo, por ejemplo de Davidson y Kaszniak (2015).",
+   "seccion": "El estudio de Lutz y colegas (2004)"
+  },
+  {
+   "enigma": "Leés un titular: «Meditar cambia el cerebro». Vos meditás veinte minutos por día y te preguntás si te pasa lo mismo que a los monjes de los estudios.",
+   "p": "¿Esos resultados se aplican a vos?",
+   "opciones": ["Sí, el efecto es el mismo aunque dure menos", "No necesariamente: quienes acumulan decenas de miles de horas no representan a quien practica poco", "Solo se aplican si meditás con un maestro tibetano"],
+   "r": "Los meditadores con decenas de miles de horas no representan a quien medita veinte minutos por día; lo que se encuentre en los primeros no se puede extrapolar a los segundos. Y «meditar cambia el cerebro» es cierto en un sentido trivial, porque todo lo que se aprende lo cambia.",
+   "como": "El campo nació del diálogo entre el Dalái Lama y científicos como el neurobiólogo Francisco Varela desde 1987, y dio lugar al Mind & Life Institute en 1991, con una condición: si la ciencia demuestra que una afirmación budista es falsa, debe revisarse.",
+   "debate": "La revisión «Mind the hype» (2018) criticó la calidad de buena parte de la investigación. Además, la meditación no es inocua para todos: un estudio de Lindahl y colegas (2017) documentó experiencias difíciles en practicantes.",
+   "seccion": "Lo que el campo no dice"
+  }
+ ],
+ "abierta": "¿Cuánta práctica hace falta, y de qué tipo, para que haya un efecto que valga la pena? Falta investigación con muestras grandes para saberlo."
+}

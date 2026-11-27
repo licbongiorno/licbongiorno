@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Casi todos conocemos la diferencia entre alguien que espera su turno para hablar y alguien que está del todo ahí. En una comunidad del río Daly, en el norte de Australia, esa diferencia tiene un nombre propio.",
+   "p": "¿Qué creés que implica escuchar así?",
+   "opciones": ["Una técnica de atención de pocos minutos", "Una quietud atenta que se vive en comunidad, con la tierra, el agua y las personas", "Un modo de callarse para no molestar"],
+   "r": "Dadirri es, según la describe Miriam-Rose Ungunmerr-Baumann, una escucha profunda y una quietud atenta: escuchar la tierra, el agua y a las demás personas, esperar con paciencia y dejar que las cosas lleguen en su tiempo. Es una forma de relación y no un procedimiento.",
+   "como": "Ungunmerr-Baumann nació en la comunidad de Nauiyu (Daly River), en el Territorio del Norte, y en 1975 se la reconoce como la primera maestra aborigen plenamente titulada del Territorio. Su escrito sobre dadirri circula desde fines de los años ochenta y lo ofreció como un regalo. Quienes lo explican cuentan que se aprende conviviendo y pasando tiempo en Country.",
+   "debate": "Escuchar con calma ayuda a muchas personas, pero no reemplaza una consulta cuando el sufrimiento es intenso.",
+   "seccion": "Qué es dadirri"
+  },
+  {
+   "enigma": "Alguien lee sobre dadirri y piensa: «Es como el mindfulness, así que puedo ofrecer talleres de dadirri de cinco minutos».",
+   "p": "¿Qué problema tiene esa idea?",
+   "opciones": ["Ninguno, son lo mismo con otro nombre", "Que tienen orígenes y sentidos distintos, y convertirlo en técnica lo saca de su contexto", "Que el mindfulness no tiene investigación"],
+   "r": "No son lo mismo, aunque se las compare. El mindfulness de los programas clínicos viene de la tradición budista a través de adaptaciones occidentales, se practica de a una persona y tiene un cuerpo importante de investigación. Dadirri tiene otro origen, otra lengua y un sentido comunitario.",
+   "como": "Las pautas para citarlo sin apropiarse incluyen nombrar la fuente, no venderlo como técnica, distinguir inspiración de práctica y priorizar las voces aborígenes.",
+   "debate": "La apropiación cultural no es asunto de buenas intenciones: cuando una palabra de un pueblo pasa a un curso o libro de autoayuda, pierde el contexto y a veces lo gana otro. Además, parte del conocimiento es restringido y lo que un texto público dice es siempre parcial.",
+   "seccion": "¿Es lo mismo que el mindfulness?"
+  }
+ ],
+ "abierta": "¿Se puede aprender de una forma de escuchar sin quitársela a quien la creó? Es una pregunta que cada uno puede llevarse a su manera de escuchar."
+}

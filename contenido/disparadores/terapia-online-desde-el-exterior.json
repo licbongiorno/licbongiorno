@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien vive hace años en otro país, habla perfecto el idioma local y trabaja en él. Pero cuando algo le duele de verdad, nota que las palabras no le salen en esa lengua, y que el dolor vuelve a hablar en castellano.",
+   "p": "¿Por qué le pasa eso?",
+   "opciones": ["Porque nunca dominó realmente el otro idioma", "Porque algunas emociones y recuerdos tienen pleno sentido solo en el idioma en que se vivieron", "Porque en otro idioma no se pueden sentir emociones"],
+   "r": "Hablar de lo que nos pasa en una segunda lengua puede agregar una distancia: algunas emociones, recuerdos o expresiones solo tienen sentido pleno en el idioma en que se vivieron. Para algunas personas esa distancia ayuda a hablar de temas difíciles; para otras impide llegar a lo que importa.",
+   "como": "La lingüista Aneta Pavlenko estudió el vínculo entre emoción y multilingüismo en su libro Emotions and Multilingualism (2005). Muestra que muchas personas bilingües sienten que las palabras de una segunda lengua «pesan menos» en lo afectivo.",
+   "debate": "Que la lengua materna dé acceso a capas emocionales más profundas es una hipótesis razonable, apoyada en estudios cualitativos, pero no una ley. Por eso hay quienes eligen una lengua para ciertos temas y otra para los demás.",
+   "seccion": "Hablar en la lengua materna: algo más que comodidad"
+  },
+  {
+   "enigma": "Una persona que vive lejos de su país duda de si una terapia por videollamada puede ser tan buena como ir a un consultorio: no comparte el espacio, no se ve el cuerpo entero, hay una pantalla en el medio.",
+   "p": "¿Qué dicen las investigaciones?",
+   "opciones": ["Que por video es claramente peor, sin excepción", "Que para varios trastornos los resultados son similares a los de la terapia presencial", "Que no hay ninguna investigación"],
+   "r": "Las revisiones disponibles son en general alentadoras: encontraron resultados similares a los de la terapia presencial para varios trastornos, y la alianza terapéutica parece poder construirse por video. No es idéntica, y hay situaciones en las que la presencialidad es más recomendable.",
+   "como": "Carlbring y colaboradores (2018) revisaron estudios de terapia por internet en la revista Cognitive Behaviour Therapy. La alianza terapéutica es de lo que más se asocia con los resultados en los estudios.",
+   "debate": "En su mayor parte esos estudios fueron de terapias cognitivo-conductuales estructuradas, y esa evidencia no se aplica automáticamente a todos los enfoques ni a todas las personas. Para un trabajo psicoanalítico o junguiano hay menos investigación específica.",
+   "seccion": "Lo que dice la investigación sobre la terapia por video"
+  }
+ ],
+ "abierta": "Si la alianza con quien nos escucha se puede formar a distancia, ¿qué es lo que sí cambia cuando falta el mismo espacio físico? Todavía hay mucho para investigar."
+}

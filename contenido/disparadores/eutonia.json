@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona se acuesta boca arriba en el piso y la consigna es simple: notar dónde su cuerpo toca el suelo. La espalda, la nuca, los talones. No hay que relajarse a la fuerza ni corregir nada.",
+   "p": "¿Qué creés que puede cambiar solo con registrar el apoyo?",
+   "opciones": ["Nada: sin hacer un esfuerzo concreto no hay efecto", "El tono muscular, que puede ajustarse cuando la persona nota dónde se apoya y deja de sostenerse de más", "La memoria de recuerdos olvidados"],
+   "r": "En la eutonía el tono, esa tensión de base de los músculos, puede cambiar cuando la persona registra el contacto y deja de sostenerse de más. La idea no es estar siempre blando ni firme, sino que el tono se adapte a lo que se hace. El nombre une «eu» (bueno, armonioso) y «tonía» (tono).",
+   "como": "La creó Gerda Alexander (1908–1994), docente de rítmica Dalcroze, y abrió una escuela en Copenhague en 1939. Su método es una educación de la atención al cuerpo, no un experimento clínico.",
+   "debate": "No hay ensayos controlados conocidos que evalúen sus efectos. Su respaldo es pedagógico y de práctica sostenida, y no equivale a demostrar que trate un problema determinado.",
+   "seccion": "Qué quiere decir eutonía"
+  },
+  {
+   "enigma": "Dos métodos de educación corporal llevan el mismo apellido: Alexander. Mucha gente los confunde y supone que uno es continuación del otro.",
+   "p": "¿Qué relación creés que hay entre la eutonía y la técnica Alexander?",
+   "opciones": ["Son el mismo método con distinto nombre", "Gerda Alexander era hija del creador de la otra técnica", "Son dos métodos distintos, de creadores sin parentesco"],
+   "r": "Gerda Alexander, creadora de la eutonía, no era pariente de F. M. Alexander, creador de la técnica Alexander. Comparten el apellido y el interés por la educación del cuerpo, nada más: son dos métodos con orígenes distintos.",
+   "como": "Se aclara por la biografía de cada uno: ella fue docente alemana-danesa de rítmica Dalcroze, y su escuela abrió en Copenhague en 1939.",
+   "debate": "La eutonía es una educación corporal, no una psicoterapia, y no reemplaza un tratamiento. Puede ser un complemento para ganar conciencia corporal, siempre que no se la presente como cura.",
+   "seccion": "Quién fue Gerda Alexander"
+  }
+ ],
+ "abierta": "¿Aprender a notar el propio tono y los propios apoyos cambia algo en cómo vivimos las emociones y las relaciones? Es una pregunta que casi no se ha estudiado."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Wong",
+ "preguntas": [
+  {
+   "enigma": "Una persona atraviesa una enfermedad larga y alguien le dice, con la mejor intención, que piense en positivo. Ella contesta que no quiere pensar en positivo: quiere que lo que le pasa tenga algún sentido.",
+   "p": "¿Sentirse bien y encontrarle sentido a lo vivido son lo mismo?",
+   "opciones": ["Sí, si te sentís bien es porque le encontraste sentido", "No: una buena vida no se agota en emociones agradables, también integra el sufrimiento y el sentido", "Sí, y el sufrimiento siempre es un error que hay que corregir"],
+   "r": "Paul T. P. Wong propuso en 2011 la psicología positiva existencial, o PP 2.0: una buena vida no se agota en emociones agradables, e integra el sufrimiento, el sentido y la autotrascendencia. Objeta a la psicología positiva clásica una mirada que deja poco espacio para el dolor.",
+   "como": "Lo planteó en un artículo publicado en una revista académica, «Positive psychology 2.0», con una lógica clara y apoyada en la logoterapia.",
+   "debate": "La idea de que integrar sufrimiento, sentido y autotrascendencia produce una vida mejor es una propuesta teórica: un marco que invita a investigar más que una conclusión probada.",
+   "seccion": "La diferencia con Seligman"
+  },
+  {
+   "enigma": "Hay dolores que no se pueden evitar. Y aun así, hay quienes encuentran en ellos algo por lo cual seguir adelante.",
+   "p": "¿Se puede encontrar sentido en un sufrimiento inevitable?",
+   "opciones": ["No, el sufrimiento nunca tiene sentido", "Sí, y es obligación encontrarlo", "Frankl sostenía que sí se puede, pero no es una exigencia ni una obligación"],
+   "r": "PP 2.0 se apoya en Viktor Frankl, creador de la logoterapia, que ubicó la búsqueda de sentido en el centro de la vida humana y sostenía que el sentido se puede encontrar incluso en circunstancias de sufrimiento inevitable.",
+   "como": "Frankl lo formuló desde su experiencia clínica y personal, y Wong lo retomó para plantear una psicología positiva que incluya el dolor.",
+   "debate": "Buscarle sentido al dolor no es obligación ni exigencia de agradecer lo que pasó. Hay dolores que no tienen sentido evidente, y está bien decirlo.",
+   "seccion": "El suelo de Frankl"
+  }
+ ],
+ "abierta": "Si el sentido y el bienestar son cosas distintas, ¿cómo se estudian juntos y en su relación? Es lo que PP 2.0 propone investigar."
+}

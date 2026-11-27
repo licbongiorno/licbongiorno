@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una chica termina la facultad y prepara su currículum. El estudio de fotos le retoca la piel y le afina un poco el mentón. Sus amigas le dicen que todas lo hacen. Esa noche mira las historias de sus compañeras y se siente un poco menos.",
+   "p": "¿Qué mecanismo psicológico creés que está en juego?",
+   "opciones": ["La vanidad individual", "Que nos evaluamos comparándonos con otros, sobre todo con quienes nos parecen mejor", "El simple deseo de imitar a Occidente"],
+   "r": "Leon Festinger propuso en 1954 que, cuando no hay un criterio objetivo, las personas se evalúan comparándose con los demás. En la apariencia la comparación hacia arriba es la más frecuente, y puede motivar pero muchas veces deja una sensación de inferioridad.",
+   "como": "Un experimento de Jasmine Fardouly y colegas (2015) asignó al azar a 112 mujeres jóvenes a mirar una página de redes sociales o una de control durante diez minutos. Sugiere que, además del tiempo en redes, importa cuánto nos comparamos mientras las usamos.",
+   "debate": "Es un estudio chico y de efectos a corto plazo, y la investigación sobre redes y salud mental está lejos de ser concluyente. Hablar de la «obsesión coreana por la belleza» es tentador y engañoso, porque la apariencia pesa en muchos lugares.",
+   "seccion": "La comparación social: lo que vio Festinger"
+  },
+  {
+   "enigma": "En los medios occidentales se repite que las coreanas se operan para parecer «occidentales». Dos investigadoras lo pusieron en duda tras estudiar el tema.",
+   "p": "¿Qué te parece que encontraron?",
+   "opciones": ["Que esa explicación es correcta y alcanza", "Que la transformación se enmarca como un deber de autodisciplina y presentarse bien, y que la presión incluye a los varones", "Que no existe ninguna presión por la apariencia"],
+   "r": "Ruth Holliday y Joanna Elfving-Hwang discutieron esa idea en un artículo de 2012 en Body & Society. En otro trabajo, Elfving-Hwang mostró que un programa de televisión de cambios de imagen presentaba la transformación como un acto moral, de autodisciplina y deber. Mirar solo a las mujeres impide entender un fenómeno que también atraviesa a los varones.",
+   "como": "Los datos de Gallup Corea, de 2015, con 1.500 adultos, indicaron que el 14 % de las mujeres y el 1 % de los varones se había hecho alguna cirugía estética, con un 31 % entre las mujeres de 20 a 29 años. En 2019 entró en vigencia una reforma de contratación «a ciegas».",
+   "debate": "Esas encuestas ya tienen una década. Además, la presión encontró resistencia: en 2018 el movimiento tal-korset, «escapar del corsé», mostró que en Corea también hay crítica, humor y debate público.",
+   "seccion": "Cómo lo explican los investigadores"
+  }
+ ],
+ "abierta": "Si compararnos es casi inevitable, ¿qué puede cambiar para que mirar a otros no nos quite valor? La investigación sobre imagen corporal positiva apenas empieza a responderlo."
+}

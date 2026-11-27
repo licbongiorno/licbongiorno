@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona camina por la costa al amanecer y, por unos minutos, siente que no hay frontera entre ella y el mar. Después no encuentra palabras para contarlo, pero tampoco puede olvidarlo.",
+   "p": "¿Cómo podría la psicología estudiar algo así?",
+   "opciones": ["No puede: es demasiado subjetivo para estudiarse", "Describiendo con sistema cómo lo cuentan las personas y qué efectos tiene en su vida", "Decidiendo si lo vivido revela algo real sobre el universo"],
+   "r": "La psicología puede preguntar qué condiciones rodean estas experiencias, cómo las describen las personas y qué efectos tienen en su vida después. No puede decidir si lo vivido es contacto con algo real más allá de la mente: esa pregunta pertenece a la filosofía y a cada tradición espiritual.",
+   "como": "William James, en «Las variedades de la experiencia religiosa» (1902), describió rasgos como la inefabilidad y la cualidad noética. Después Walter Stace distinguió una experiencia extrovertida de una introvertida, y Ralph Hood construyó una Escala de Misticismo para medirlas.",
+   "debate": "Las categorías de James, Otto y Stace son propuestas teóricas útiles para ordenar relatos, no leyes establecidas, y muchos filósofos consideran la lista de James incompleta o imprecisa.",
+   "seccion": "Los cuatro rasgos de James"
+  },
+  {
+   "enigma": "Dos personas tienen una vivencia parecida, de una intensidad que no se parece a nada cotidiano. Una la cuenta como lo más valioso que le pasó. Otra se asusta y se pregunta si se enfermó.",
+   "p": "¿Cómo se podría distinguir una experiencia mística de una enfermedad?",
+   "opciones": ["Por si es religiosa o no", "Por el efecto que tiene en la vida de la persona: si la ordena o la desorganiza", "Por lo intensa que sea"],
+   "r": "Una buena pregunta clínica no es «¿es mística o es enfermedad?», sino qué efecto tiene en la vida de la persona: si la ordena o la desorganiza, si puede cuidarse, dormir, trabajar y vincularse. Mirar lo que queda después orienta qué ayuda puede hacer falta, aunque no prueba nada sobre el origen de la experiencia.",
+   "como": "Es un criterio práctico de la clínica. Cuando la vivencia llega con varias noches sin dormir, voces que otros no oyen o ideas de grandeza que desorganizan la vida, conviene consultar de inmediato.",
+   "debate": "Idealizarla lleva a perseguir experiencias como trofeos; patologizarla lleva a tratar como síntoma algo que mucha gente vive sin daño y con sentido.",
+   "seccion": "Ni idealizarla ni patologizarla"
+  }
+ ],
+ "abierta": "Si la psicología puede describir estas experiencias pero no decir qué son, ¿qué más hace falta para entenderlas sin reducirlas ni idealizarlas? La pregunta sigue abierta."
+}

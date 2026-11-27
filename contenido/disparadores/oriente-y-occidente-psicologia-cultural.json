@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Les muestran a un grupo de estudiantes una escena animada bajo el agua: un pez grande bien visible en primer plano y un fondo lleno de detalles. Después les piden que cuenten lo que vieron.",
+   "p": "¿Qué creés que cambió según la cultura de origen de cada grupo?",
+   "opciones": ["Nada: todos ven exactamente lo mismo", "Qué mencionan primero: el pez o el contexto que lo rodea", "Solo cuántos peces recuerdan"],
+   "r": "Takahiko Masuda y Richard Nisbett (2001) hicieron este estudio con estudiantes japoneses y estadounidenses. Concluyeron que los japoneses eran más sensibles al contexto y los estadounidenses se enfocaban más en el objeto. Nisbett lo vincula con un estilo más holístico frente a uno más analítico.",
+   "como": "Con un experimento comparando dos grupos ante el mismo estímulo. Se volvió un emblema de la psicología cultural.",
+   "debate": "Son diferencias de promedio, con enorme variación dentro de cada cultura. No todo se replicó: un intento de replicar el trabajo sobre contradicción con participantes chinos y franceses no encontró las diferencias originales.",
+   "seccion": "Atención holística y analítica: el experimento de los peces"
+  },
+  {
+   "enigma": "Muchos de los experimentos que aprendemos en psicología se hicieron con estudiantes universitarios de Estados Unidos o Europa. Y de ahí se concluye cómo funciona «la mente humana».",
+   "p": "¿Se puede generalizar así a toda la humanidad?",
+   "opciones": ["Sí, la mente funciona igual en todas partes", "No se puede dar por sentado: esas poblaciones no representan a toda la humanidad", "Solo falta repetirlos con más estudiantes"],
+   "r": "En 2010, Joseph Henrich, Steven Heine y Ara Norenzayan publicaron «The weirdest people in the world?». WEIRD designa a sociedades occidentales, educadas, industrializadas, ricas y democráticas, y señala que gran parte de la investigación se hizo con esas poblaciones, que no representan a toda la humanidad.",
+   "como": "Revisaron estudios de distintas partes del mundo y vieron que los resultados obtenidos con poblaciones WEIRD no siempre se repetían en otras.",
+   "debate": "Lo que se probó con universitarios de Estados Unidos o Europa no se puede presuponer válido para cualquier persona. Y las comparaciones «Oriente y Occidente» suelen enfrentar a dos extremos y dejar casi fuera a América Latina, África o Medio Oriente.",
+   "seccion": "El problema WEIRD"
+  }
+ ],
+ "abierta": "Si la cultura moldea hasta lo que miramos primero, ¿cómo saber qué de lo que sabemos sobre la mente es realmente humano y qué es de un lugar?"
+}

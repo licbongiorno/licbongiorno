@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Es domingo a la noche y alguien lleva horas intentando dormirse. Mira el reloj, calcula cuánto le queda, se ordena relajarse. Cuanto más empuja, más despierto está.",
+   "p": "¿Qué te parece que diría una de las ideas más antiguas del taoísmo sobre esto?",
+   "opciones": [
+    "Que hay que empujar más fuerte hasta lograrlo",
+    "Que hay cosas que no se logran por esfuerzo directo, y conviene distinguir qué depende de uno",
+    "Que hay que rendirse y no hacer nada"
+   ],
+   "r": "El taoísmo observó hace más de dos mil años que el exceso de control es parte del problema. Un malentendido frecuente es leer el wu wei como pasividad: un nadador que se deja llevar por la corriente para salir por un costado hace algo muy activo. Cambia la calidad del esfuerzo, no su existencia.",
+   "como": "Viene de textos fundamentales como el Tao Te Ching, de autoría tradicional atribuida a Lao Tse, y el Zhuangzi, más narrativo y humorístico. Es una tradición filosófica y no un tratamiento.",
+   "debate": "No hay investigación que muestre que estudiar el Tao Te Ching o «vivir con wu wei» trate la ansiedad o la depresión. Lo que se evaluó son tratamientos que tomaron ideas de esta tradición, por separado.",
+   "seccion": "Algunas ideas centrales"
+  },
+  {
+   "enigma": "Carl Jung leyó un texto chino de meditación que le acercó el sinólogo Richard Wilhelm y escribió un comentario. Se publicó en 1929 con el título «El secreto de la flor de oro».",
+   "p": "¿Qué creés que vio Jung en ese texto?",
+   "opciones": [
+    "Una descripción exacta de cómo vivían el texto quienes lo practicaban",
+    "Una imagen de lo que veía en sus pacientes: mandalas en momentos de reorganización",
+    "Una prueba de que Oriente tenía la verdad que Occidente había perdido"
+   ],
+   "r": "Jung leyó la «flor de oro» como una imagen de lo que veía en sus pacientes: figuras circulares, mandalas, que aparecían en momentos de reorganización de la psique y que relacionaba con el Sí-mismo. Su lectura es psicológica, hecha desde Europa, y no una descripción de cómo vivían el texto quienes lo practicaban.",
+   "como": "Está documentado en la edición de 1929 en alemán, con la traducción de Wilhelm y el comentario de Jung. En sus memorias cuenta que la alquimia europea se le empezó a aclarar después de leerlo.",
+   "debate": "Hablar de «influencia del Tao en Jung» pide cuidado, y el propio Jung advertía contra la ingenuidad de los occidentales que adoptan sin más la «sabiduría oriental». Además se discute la división entre taoísmo «filosófico» y «religioso».",
+   "seccion": "Jung y la flor de oro"
+  }
+ ],
+ "abierta": "¿Qué parte del esfuerzo depende de uno y cuál no? Es una pregunta antigua que la psicología sigue formulando con otras palabras."
+}

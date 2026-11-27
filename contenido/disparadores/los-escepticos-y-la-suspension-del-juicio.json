@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cuenta Sexto Empírico que el pintor Apeles no lograba pintar la espuma de la boca de un caballo. Cansado, tiró la esponja contra el cuadro, y la esponja dejó justo la marca que buscaba.",
+   "p": "Según los escépticos, ¿cómo se llega a la tranquilidad?",
+   "opciones": [
+    "Venciendo en la discusión sobre quién tiene razón",
+    "Encontrando por fin la creencia correcta sobre las cosas",
+    "Dejando de intentar decidir: suspender el juicio y la tranquilidad llega después"
+   ],
+   "r": "Los pirrónicos llamaban epojé a retener el asentimiento, ni afirmar ni negar. Ante argumentos igual de fuertes a favor y en contra, suspendían el juicio, y según Sexto la tranquilidad (ataraxia) les siguió «como la sombra al cuerpo».",
+   "como": "Se conoce por los textos de Sexto Empírico (Esbozos pirrónicos) y los relatos de Diógenes Laercio. Pirrón no escribió nada, y su vida se conoce por fuentes tardías.",
+   "debate": "La epojé es filosofía y arte de vivir, sin ensayos clínicos: no es un tratamiento ni garantiza tranquilidad. Y quien ya duda demasiado, como en la ansiedad o la rumiación, no se alivia dudando más.",
+   "seccion": "La ataraxia como consecuencia"
+  },
+  {
+   "enigma": "Si suspendieras el juicio sobre todo, ¿cómo harías para vivir? Para cruzar la calle o comer tendrías que creer en algo.",
+   "p": "¿Cómo respondían los escépticos a esa objeción?",
+   "opciones": [
+    "Reconocían que no podían actuar y se retiraban de la vida",
+    "Aceptaban lo que se les aparece, como tener frío o que algo es dulce, y suspendían el juicio sobre cómo son las cosas en sí",
+    "Decían que nada se puede saber, y actuaban según esa certeza"
+   ],
+   "r": "El escéptico no niega los fenómenos, lo que se le aparece. Suspende el juicio sobre cómo son las cosas en sí mismas, y para vivir se guía por la naturaleza, la necesidad y las costumbres.",
+   "como": "Es la respuesta de Sexto a la objeción clásica. No es la duda metódica de Descartes ni la epojé de Husserl: comparten la palabra, no el proyecto.",
+   "debate": "Hay un parecido con la defusión cognitiva de la terapia de aceptación y compromiso, pero tienen origen, meta y evidencia distintos. No hay una línea histórica de Pirrón a Hayes.",
+   "seccion": "¿Se puede vivir sin creer nada?"
+  }
+ ],
+ "abierta": "Si parte de lo que nos perturba es la convicción de que las cosas son buenas o malas por naturaleza, ¿cuánta de esa convicción podemos soltar sin perder el rumbo? Sigue siendo una pregunta abierta."
+}
