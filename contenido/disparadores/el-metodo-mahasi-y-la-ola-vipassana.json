@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona se sienta, cierra los ojos y, en vez de concentrarse en un punto fijo, le va poniendo una palabra mental a todo lo que pasa: «sube», «baja», «oyendo», «dudando». Es una práctica sencilla, y sin embargo cruzó medio mundo en pocas décadas.",
+   "p": "¿De dónde creés que viene la meditación que hoy se enseña como «vipassana»?",
+   "opciones": ["De una tradición milenaria que se transmitió casi igual hasta hoy", "De un movimiento de laicos que cobró forma en la Birmania del siglo XX", "De psicólogos occidentales que la armaron a partir de textos antiguos"],
+   "r": "La vipassana de hoy es, en buena parte, un movimiento de laicos nacido en la Birmania colonial y de la independencia. A comienzos del siglo XX el monje Ledi Sayadaw escribió para el público general y promovió que los laicos meditaran, y después maestros como Mahasi Sayadaw, U Ba Khin y Goenka sistematizaron métodos distintos.",
+   "como": "Lo reconstruyeron historiadores y antropólogos: Erik Braun estudió ese movimiento en «The Birth of Insight» y Ingrid Jordt analizó su dimensión política. Los maestros, los centros y sus fechas principales están documentados.",
+   "debate": "No hay evidencia de que un método sea mejor que otro ni de que haga falta un retiro intensivo para beneficiarse. Tampoco conviene presentar el mindfulness como «la meditación budista» sin más.",
+   "seccion": "Una práctica que se hizo laica"
+  },
+  {
+   "enigma": "Un joven estadounidense viaja a Asia en los años setenta, aprende a meditar con maestros birmanos, tailandeses e indios y vuelve a su país. Pocos años después, una versión de esa práctica empieza a usarse en hospitales para reducir el estrés.",
+   "p": "Cuando una práctica pasa de un monasterio a un hospital, ¿qué creés que cambia?",
+   "opciones": ["Nada importante: es la misma práctica con otro nombre", "El marco, el objetivo y el formato: ya no es religiosa y busca aliviar el estrés", "Solo la duración, que se acorta para que entre en la agenda"],
+   "r": "Cambiaron el marco (sin contexto religioso), el objetivo (reducir estrés o rumiación) y el formato (cursos de ocho semanas en lugar de retiros de diez días en silencio). Una de las vías fue Jon Kabat-Zinn, creador de la reducción del estrés basada en mindfulness, que practicó en Barre, Massachusetts.",
+   "como": "Se sigue la cadena de maestros y centros: Goldstein, Salzberg y Kornfield fundaron la Insight Meditation Society en Barre, y de esa corriente salió parte de lo que hoy se enseña como mindfulness.",
+   "debate": "Hay evidencia para programas breves de mindfulness en algunos problemas, con resultados modestos y variables. Y un estudio cualitativo de 2017 documentó que los retiros intensivos pueden provocar ansiedad, pánico o disociación en algunas personas, por lo que no se recomiendan en momentos de fragilidad psíquica.",
+   "seccion": "Lo que cambió en el camino"
+  }
+ ],
+ "abierta": "Si el mindfulness de hoy y la vipassana birmana son tan distintos, ¿qué se conserva de la práctica original cuando cambia el marco y el objetivo, y qué se pierde o se gana? Es una pregunta que sigue abierta."
+}

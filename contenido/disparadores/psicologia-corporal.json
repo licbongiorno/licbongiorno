@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Antes de una conversación difícil, alguien nota que está apretando la mandíbula y que casi no respira.",
+   "p": "¿Qué propone hacer la psicología corporal en ese momento?",
+   "opciones": ["Ignorar el cuerpo y concentrarse en lo que va a decir", "Detenerse ahí: notar la mandíbula, soltarla un poco y dejar que el aire baje", "Resolver el conflicto antes de entrar a la conversación"],
+   "r": "La psicología corporal considera el cuerpo parte de la experiencia psicológica y no solo su soporte. Propone detenerse en la mandíbula, soltarla un poco y dejar que el aire baje. Esa pausa no resuelve el conflicto, pero permite llegar a la conversación sabiendo qué se siente.",
+   "como": "Sus raíces están en el psicoanálisis temprano: Wilhelm Reich describió la coraza muscular, Alexander Lowen creó la bioenergética y Eugene Gendlin, que trabajó con Carl Rogers, descubrió la sensación sentida a partir de estudiar qué pasaba en las sesiones que producían cambios.",
+   "debate": "Trabajar con el cuerpo puede movilizar emociones fuertes. Y la energía orgónica de Reich no tiene respaldo científico, ni la idea de que el cuerpo «almacena» recuerdos como un archivo.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Se ofrecen terapias que trabajan con el movimiento, la respiración y las sensaciones para la depresión, la ansiedad y el trauma. Muchas personas las prueban.",
+   "p": "¿Qué dicen las revisiones sobre ellas?",
+   "opciones": ["Que son el tratamiento más eficaz que existe", "Resultados prometedores pero heterogéneos, con estudios de calidad baja o moderada", "Que no tienen ningún efecto"],
+   "r": "Existen revisiones sobre intervenciones corporales en depresión, ansiedad y trauma con resultados prometedores pero heterogéneos. Los enfoques basados en mindfulness y movimiento tienen más respaldo que las escuelas más tradicionales.",
+   "como": "Con revisiones que reúnen muchos estudios y evalúan su calidad, que suele ser baja o moderada.",
+   "debate": "Conviene no caer en un «todo es psicosomático»: muchas dolencias tienen causas médicas que hay que descartar primero. Y la psicología corporal no es un solo método: la calidad de la formación varía mucho.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si el cuerpo participa de lo que sentimos, ¿cuál es la mejor forma de aprovecharlo en terapia y cómo medimos si funciona?"
+}

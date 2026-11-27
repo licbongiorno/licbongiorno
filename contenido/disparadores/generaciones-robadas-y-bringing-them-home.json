@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Muchos testimonios de un informe nacional australiano empiezan igual: un día común, una visita de alguien con autoridad, y un niño o una niña que no volvió a la casa de su familia. Durante décadas casi nadie nombró esa pérdida en voz alta.",
+   "p": "Cuando una sociedad por fin escucha esas historias, ¿qué creés que hace falta además de una disculpa?",
+   "opciones": ["Nada más: pedir perdón alcanza para cerrar el tema", "Que se documente, se escuchen los testimonios y se repare: apoyo para reencontrar familias, salud mental, recuperación de la lengua y la cultura", "Que se olvide, para no reabrir el dolor"],
+   "r": "El informe «Bringing Them Home» (1997) escuchó cientos de testimonios de personas separadas, familiares y funcionarios, y reunió 54 recomendaciones: una disculpa, reparaciones, servicios para reencontrar familias y programas de salud mental y de recuperación de la lengua y la cultura. La disculpa nacional llegó el 13 de febrero de 2008, y para algunas personas fue muy importante y para otras insuficiente.",
+   "como": "Una investigación oficial de la Comisión de Derechos Humanos, dirigida por Ronald Wilson y Mick Dodson, recogió testimonios por todo el país. La separación está documentada además por archivos oficiales.",
+   "debate": "El informe estimó que entre 1910 y 1970 entre uno de cada diez y uno de cada tres niños indígenas fueron separados de sus familias, una cifra que se discutió. Y sin reparaciones económicas a nivel nacional, la palabra por sí sola dejó preguntas abiertas.",
+   "seccion": "El informe de 1997"
+  },
+  {
+   "enigma": "Una persona fue separada de su familia de chica. Décadas después, sus hijos y nietos también tienen más dificultades emocionales, aunque ellos nunca vivieron esa separación.",
+   "p": "¿Cómo creés que puede pasar eso entre generaciones?",
+   "opciones": ["Se hereda por los genes", "Pasa por la crianza, los vínculos, el silencio y las condiciones de vida que siguen vigentes", "No pasa: son casualidades sin relación"],
+   "r": "La académica Judy Atkinson propuso la idea de trauma intergeneracional: lo que sufre una generación marca el clima de las siguientes a través de la crianza, de los vínculos, del silencio y de condiciones sociales como la pobreza o el contacto desigual con la policía y los servicios. Lo más prudente es decir que el trauma colectivo se hereda sobre todo como historia y como condiciones de vida, y que eso se puede trabajar.",
+   "como": "Atkinson lo planteó en «Trauma Trails, Recreating Song Lines» (2002). Hay estudios y mucha experiencia comunitaria que apoyan que los descendientes de personas separadas tienen, en promedio, más dificultades de salud emocional.",
+   "debate": "Hay discusión sobre los mecanismos. La hipótesis de una transmisión biológica, vinculada a la epigenética, está lejos de estar probada en seres humanos. Y junto al daño hay fortaleza: las propuestas de sanación pasan por reconstruir comunidad, lengua y vínculo con Country, conducidas por los propios pueblos.",
+   "seccion": "Trauma intergeneracional"
+  }
+ ],
+ "abierta": "Si el trauma colectivo se transmite sobre todo por la historia y las condiciones de vida, ¿qué puede hacer una comunidad para cortar esa cadena? Es una pregunta que las propias comunidades siguen respondiendo."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Langer",
+ "preguntas": [
+  {
+   "enigma": "Un terapeuta atiende en su consultorio y dice que no se mete en política ni toma posición: solo escucha. Parece lo más prudente y profesional.",
+   "p": "¿Declararse neutral es no tomar posición?",
+   "opciones": ["Sí: la neutralidad es justamente no tomar posición", "No: el analista está dentro de la sociedad, y declararse neutral también es una posición", "Depende solo de la escuela terapéutica a la que pertenezca"],
+   "r": "En 1971 dos grupos de psicoanalistas, Plataforma y Documento, se retiraron de la Asociación Psicoanalítica Argentina. Entre sus críticas, tal como las formularon sus protagonistas, sostenían que el analista no está fuera de la sociedad y que declararse neutral también es tomar posición. Langer fue una de sus figuras más conocidas.",
+   "como": "Es una crítica formulada por analistas desde adentro de su propia institución. Marie Langer compiló en 1971 el libro «Cuestionamos», que recoge el clima de esos debates.",
+   "debate": "Hay quienes sostienen que mezclar clínica y militancia puede forzar al paciente a una agenda que no es la suya, y quienes dicen que irse de la institución debilitó la discusión desde adentro. No tienen una respuesta única.",
+   "seccion": "Plataforma y Documento"
+  },
+  {
+   "enigma": "Dos personas llegan a consulta con una angustia parecida. Una vive en un barrio tranquilo y con trabajo estable. La otra vive entre la pobreza y la violencia.",
+   "p": "¿Para entender su sufrimiento alcanza con mirar solo su historia personal?",
+   "opciones": ["Sí: el sufrimiento depende solo de la historia individual", "No: también cuentan su clase, su género y su momento político", "Solo importa el contexto, la historia personal no cuenta"],
+   "r": "Langer pensaba que el sufrimiento de una persona se entiende mejor cuando se mira también su clase, su género, su historia y su momento político. No pedía abandonar el psicoanálisis, sino que no se convirtiera en un refugio.",
+   "como": "Hoy hay mucho respaldo en la investigación a que el contexto social forma parte del malestar, por ejemplo en los estudios sobre pobreza, violencia o discriminación y salud mental.",
+   "debate": "Una cosa es la posición ética y otra la teoría contrastada: qué hace exactamente un analista con esa información en la sesión sigue siendo materia de discusión.",
+   "seccion": "La mirada de Langer"
+  }
+ ],
+ "abierta": "Si el contexto importa tanto, ¿hasta dónde puede o debe llegar un terapeuta sin imponerle su postura a quien consulta?"
+}

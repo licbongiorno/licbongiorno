@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien llega a una conversación pendiente con su hermana. Tiene sus argumentos y los repasó veinte veces, pero algo no cierra. Si se queda un momento en silencio, quizás note algo en el pecho o en el estómago: una presión vaga, difícil de nombrar.",
+   "p": "¿Qué creés que es esa sensación?",
+   "opciones": ["Una emoción como el enojo o la tristeza", "Una idea que todavía no pudo pensar con claridad", "El modo en que el cuerpo «tiene» toda la situación, antes de que sepamos decirla"],
+   "r": "Eugene Gendlin la llamó sensación sentida (felt sense): la sensación corporal global de una situación, todavía sin palabras. No es lo mismo que una emoción puntual. En el método se busca un asidero, una palabra o imagen, y se comprueba si encaja con la sensación, lo que suele sentirse como un alivio sutil.",
+   "como": "Gendlin trabajó con Carl Rogers y se preguntó qué tienen en común las personas que cambian en terapia. Su respuesta apuntó a un modo de relacionarse con la propia experiencia, que expuso en «Focusing» (1978).",
+   "debate": "La sensación sentida no es un veredicto sobre lo que «de verdad» pasa: es un punto de partida para explorar. Y para temas muy dolorosos o traumáticos es más prudente hacerlo con un terapeuta que conozca el método.",
+   "seccion": "La sensación sentida"
+  },
+  {
+   "enigma": "Dos personas atraviesan un tratamiento. Una habla de su problema desde afuera, como si contara una noticia. La otra va notando cómo lo siente mientras habla.",
+   "p": "¿Cómo se podría medir esa diferencia?",
+   "opciones": ["Es imposible: lo que alguien siente no se puede medir", "Pidiéndole que califique su malestar del uno al diez", "Con una escala que evalúa en qué grado la persona se refiere a su experiencia sentida mientras habla"],
+   "r": "La investigación ligada al método usa la Escala de Experiencing, desarrollada por Klein, Gendlin y colaboradores, que mide en qué grado una persona se refiere a su experiencia sentida mientras habla.",
+   "como": "Hendricks revisó la investigación sobre la psicoterapia experiencial orientada al focusing en un manual de 2002, y Elliott, Greenberg y Lietaer (2004) revisaron la de las terapias experienciales en el Handbook de Bergin y Garfield.",
+   "debate": "Son revisiones sobre una familia de terapias experienciales, no una prueba de que cada práctica de focusing por sí sola produzca un resultado determinado.",
+   "seccion": "Qué dice la evidencia"
+  }
+ ],
+ "abierta": "¿Aprender a escuchar esa sensación vaga del cuerpo es la causa de que algunas terapias funcionen, o solo una señal de que ya están funcionando? Todavía se investiga."
+}

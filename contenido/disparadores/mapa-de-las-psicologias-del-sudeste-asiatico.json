@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hacés un retiro de meditación y te piden que observes la respiración y «anotes» mentalmente lo que aparece: pensamiento, ruido, picazón. Parece una técnica milenaria, de un monasterio perdido en alguna montaña.",
+   "p": "¿De dónde salió buena parte de lo que hoy se enseña como mindfulness?",
+   "opciones": ["De monasterios tibetanos, que la trajeron directo a los consultorios", "De Myanmar, donde monjes empezaron a enseñarle a laicos a meditar", "Del zen japonés, que la adaptó a la vida urbana moderna"],
+   "r": "Gran parte de esa ola viene de Myanmar (antes Birmania). A comienzos del siglo XX, el monje Ledi Sayadaw escribió en birmano para el público general y promovió que los laicos meditaran, algo poco habitual. Su línea siguió con U Ba Khin y su alumno S. N. Goenka, y en 1975 tres practicantes que habían aprendido vipassana en Asia fundaron en Massachusetts la Insight Meditation Society.",
+   "como": "Se reconstruyó con historia de las tradiciones: quiénes enseñaron a quiénes, qué textos escribieron y dónde se abrieron los centros. Historiadores como Erik Braun estudiaron la obra de Ledi Sayadaw.",
+   "debate": "La imagen de una meditación antigua e intacta se discute: parte de lo que hoy conocemos es una forma moderna, de hace poco más de un siglo. Y los retiros intensivos pueden provocar ansiedad o disociación en algunas personas, como documentó un estudio cualitativo de 2017.",
+   "seccion": "Myanmar: el origen de la ola vipassana"
+  },
+  {
+   "enigma": "Una persona en Tailandia dice «estoy bien» con una sonrisa, aunque lo está pasando mal. No pide ayuda, no muestra enojo, y todos alrededor parecen creerle.",
+   "p": "¿Qué puede haber detrás de ese «estoy bien»?",
+   "opciones": ["Una falta de conciencia de lo que le pasa", "Una forma de cuidar al otro, evitando cargarlo con el propio malestar", "Una enfermedad que impide expresar emociones"],
+   "r": "Los antropólogos y lingüistas describen en Tailandia un vocabulario del «corazón» (jai): jai yen, «corazón fresco», es mantener la calma y no mostrar enojo en público. Con ese marco, no pedir ayuda puede ser una forma de cuidar al otro.",
+   "como": "Son valores descritos por antropólogos y lingüistas a partir de cómo la gente habla y se comporta, no conceptos clínicos medidos en estudios.",
+   "debate": "Conviene no convertirlos en estereotipos: no todas las personas de un país viven igual esos valores, y pedirle a alguien que sea «jai yen» puede ser una forma de presión.",
+   "seccion": "Tailandia: valores cotidianos y budismo theravada"
+  }
+ ],
+ "abierta": "Si cada cultura nombra y vive el malestar a su manera, ¿hasta dónde sirven nuestras categorías para entender lo que le pasa a alguien de otro lugar?"
+}

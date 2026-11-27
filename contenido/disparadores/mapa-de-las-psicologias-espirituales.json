@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien llega a consulta y dice: «No sé si creo en algo, pero desde que murió mi papá todo me parece sin sentido». No pide una religión ni la rechaza.",
+   "p": "¿Esa búsqueda de sentido es lo mismo que una necesidad religiosa?",
+   "opciones": ["Sí: toda búsqueda de sentido es religiosa aunque no se reconozca", "No: se puede buscar sentido sin religión, y ser religioso sin que eso toque la vida interior", "Solo les pasa a quienes fueron criados en una religión"],
+   "r": "Se distingue religión, una tradición compartida con creencias, rituales y comunidad, de espiritualidad, una búsqueda más amplia de sentido, conexión o trascendencia. Se puede tener vida espiritual sin religión, y se puede ser religioso sin que eso toque la vida interior.",
+   "como": "El campo reúne a autores que lo pensaron desde distintos lugares: Jung tomó en serio la dimensión religiosa de la psique, Frankl puso el sentido en el centro y William James inauguró el estudio psicológico de la religión.",
+   "debate": "El campo es heterogéneo y con niveles muy distintos de respaldo. Hay quienes piden más rigor empírico y quienes advierten que reducirlo todo a lo medible deja afuera lo que la persona vive.",
+   "seccion": "Espiritualidad y religión no son sinónimos"
+  },
+  {
+   "enigma": "Dos personas creyentes atraviesan una enfermedad grave. Una siente que Dios la acompaña y busca apoyo en su comunidad. La otra siente que la está castigando o que la abandonó.",
+   "p": "¿Esas dos maneras de vivir la fe se relacionan igual con cómo les va?",
+   "opciones": ["Sí: creer en algo siempre protege, sin importar cómo se lo viva", "No: se asocian de forma distinta con la salud y la adaptación", "Es imposible medirlo, la fe no se puede estudiar"],
+   "r": "Pargament y colegas (1998) distinguieron un afrontamiento religioso positivo, como buscar apoyo espiritual, y uno negativo, como sentirse castigado o abandonado por Dios. Ambos se asocian de forma distinta con la salud y la adaptación.",
+   "como": "Es investigación empírica sobre cómo las personas usan su fe para hacer frente a situaciones difíciles, y se la distingue de las propuestas teóricas y de las preguntas filosóficas.",
+   "debate": "El artículo separa tres niveles: lo que tiene evidencia, lo que es propuesta teórica (etapas de la fe, niveles de conciencia) y lo filosófico o espiritual, como si hay algo después de la muerte, que la psicología no puede resolver.",
+   "seccion": "Tres niveles: qué respaldo tiene cada cosa"
+  }
+ ],
+ "abierta": "Si la psicología no puede decir si existe lo trascendente, ¿cómo acompañar a alguien en una experiencia que para él es profundamente real?"
+}

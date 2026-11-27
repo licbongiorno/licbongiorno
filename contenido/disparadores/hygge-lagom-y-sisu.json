@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Finlandia encabezó el informe mundial de felicidad año tras año desde 2018, y Dinamarca y los demás países nórdicos suelen estar entre los primeros. Los libros de divulgación lo atribuyen a palabras como hygge, lagom o sisu.",
+   "p": "¿Qué creés que explica el puesto de esos países?",
+   "opciones": ["Esas costumbres cotidianas, como el hygge", "Confianza social, instituciones que funcionan, protección social, baja corrupción y libertad para decidir", "Que el clima frío une a la gente"],
+   "r": "Los autores de esos informes señalan otros factores: confianza social, instituciones que funcionan, protección social, baja corrupción y libertad para decidir. Las palabras son parte de una cultura, no una explicación causal.",
+   "como": "El World Happiness Report se basa en una sola pregunta de autoevaluación de la propia vida, y sus autores analizan qué factores acompañan los puestos más altos.",
+   "debate": "Ni el hygge ni el lagom tienen investigación propia: se apoyan en libros de divulgación. No hay evidencia de que adoptar estas palabras o sus objetos haga más feliz a nadie.",
+   "seccion": "¿Por qué los países nórdicos puntúan tan alto?"
+  },
+  {
+   "enigma": "En Finlandia hay una palabra, «sisu», para seguir actuando cuando todo indica que ya no se puede, con una mezcla de coraje y resistencia. Se volvió símbolo nacional durante la Guerra de Invierno (1939-1940).",
+   "p": "¿Y si esa palabra, a diferencia de otras de moda, pudiera estudiarse?",
+   "opciones": ["Es imposible: una palabra cultural no se puede medir", "Ya se la estudia como un «modo de acción» para enfrentar desafíos, con escalas en validación", "Es lo mismo que la perseverancia de siempre, con otro nombre"],
+   "r": "Emilia Lahti, que trabajó en el programa de psicología positiva de la Universidad de Pensilvania y lo investigó en la Universidad de Aalto, lo propone como un «modo de acción»: una disposición a enfrentar un desafío con una reserva de energía que uno no sabía que tenía. Desarrolló escalas para medirlo.",
+   "como": "A través de una investigadora que lo definió y creó escalas, a diferencia del hygge y el lagom, que son sobre todo divulgación.",
+   "debate": "Es un campo joven, con escalas en proceso de validación, y los resultados son preliminares. Se lo compara con el «grit» de Angela Duckworth (perseverancia y pasión por metas a largo plazo): Lahti lo ve más ligado a actuar en la adversidad extrema, pero esa diferencia es una propuesta teórica en discusión.",
+   "seccion": "Sisu: la perseverancia que se estudia"
+  }
+ ],
+ "abierta": "Si las palabras de una cultura dicen algo de cómo se afronta la vida, ¿se puede aprender de ellas sin convertirlas en un producto? Todavía no se sabe."
+}

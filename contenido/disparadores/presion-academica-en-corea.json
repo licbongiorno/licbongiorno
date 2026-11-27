@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Ji-woo tiene dieciséis años y vive en Seúl. Sale del colegio, va a una academia de matemática y después a una de inglés. Vuelve a su casa pasadas las diez, y su madre la espera despierta.",
+   "p": "Si las encuestas muestran mucho estrés entre los adolescentes coreanos, ¿se puede concluir que la presión académica es la causa?",
+   "opciones": ["Sí, es la única explicación posible", "No: las cifras no lo prueban, el estrés tiene muchas fuentes, aunque hay investigación que muestra cómo la rutina de estudio puede pesar", "No, la presión académica no tiene nada que ver con el bienestar"],
+   "r": "En la evaluación PISA 2015, los adolescentes coreanos calificaron su satisfacción con la vida con un promedio de 6,4 sobre 10, frente a 7,3 de la OCDE. Una encuesta nacional con más de 54.000 estudiantes encontró en 2025 que el 50,3 % de las chicas y el 32,9 % de los varones percibían mucho estrés.",
+   "como": "Son datos de fuentes oficiales y de la OCDE. Además, en un estudio clásico Meery Lee y Reed Larson (2000) mostraron que la rutina de estudio y la falta de ocio activo se asociaban con peor ánimo.",
+   "debate": "Ninguna de estas cifras prueba que la presión académica sea la causa del malestar: influyen los vínculos, las redes, la familia, el cuerpo y el futuro. Los estudios son en su mayoría correlacionales, y las comparaciones entre países son difíciles porque cada uno mide distinto.",
+   "seccion": "Qué dicen los datos sobre el bienestar adolescente"
+  },
+  {
+   "enigma": "En Corea del Sur hay una palabra de uso común para el enorme valor que se le da a estudiar: «fiebre educativa». Parece un exceso de las familias de hoy.",
+   "p": "¿De dónde viene?",
+   "opciones": ["Es una moda reciente, nacida con las redes sociales", "Tiene raíces históricas: tras la guerra, estudiar fue la vía principal de ascenso social", "Viene de una ley que obliga a estudiar muchas horas"],
+   "r": "Se llama gyoyungnyeol. El historiador Michael Seth, en «Education Fever» (2002), muestra que no es una moda reciente: después de 1945 y de la guerra, en un país pobre, la educación fue la vía de ascenso. El antropólogo Clark Sorensen (1994) subrayó que el éxito escolar de un hijo trae prestigio a toda la familia extensa.",
+   "como": "Con historia y antropología: Seth reconstruyó el proceso desde la posguerra y Sorensen estudió cómo la educación se relaciona con el reconocimiento social.",
+   "debate": "Leerlo solo como exceso sería injusto: también es una historia de sacrificio y de amor. El problema aparece cuando una sola medida, el rendimiento en un examen, se vuelve la vara con la que se mide a una persona.",
+   "seccion": "«Fiebre educativa»: de dónde viene"
+  }
+ ],
+ "abierta": "Si estudiar fue durante décadas el camino de ascenso, ¿cómo se cuida a los chicos sin quitarle a las familias algo que les dio tanto? Es un debate abierto en Corea."
+}

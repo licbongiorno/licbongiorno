@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Durante buena parte del siglo XX los manuales enseñaron el piblokto, o «histeria ártica», como un cuadro típico de los inuit. Se lo describía con detalle y tenía nombre propio.",
+   "p": "¿De dónde salía casi toda esa información?",
+   "opciones": ["De estudios médicos hechos por clínicos en las comunidades", "De relatos de exploradores y miembros de expediciones, con poquísimas observaciones médicas directas", "De textos tradicionales inuit que describían la enfermedad"],
+   "r": "En 1995 el historiador Lyle Dick revisó los registros y planteó que la gran mayoría de los relatos provenía de exploradores y de miembros de expediciones, con poquísimas observaciones médicas directas, y que la discusión se había construido sobre muy pocos casos descritos con algún detalle. Incluso el término parecía un error de transcripción o de traducción.",
+   "como": "Con una revisión histórica de los documentos: quién escribió cada relato, en qué contexto y con qué relación de poder entre los visitantes y la gente que trabajaba para ellos.",
+   "debate": "Dick no sostuvo que nadie haya sufrido nunca: personas reales pasaron por momentos de desborde, miedo o agitación, como en cualquier lugar. Lo que discute es la categoría, un síndrome atribuido a un pueblo entero por observadores externos. Se propusieron muchas explicaciones médicas y ninguna quedó establecida.",
+   "seccion": "La crítica de Lyle Dick (1995)"
+  },
+  {
+   "enigma": "Un manual describe un «síndrome» que supuestamente sufre un pueblo entero. El nombre es vistoso, la descripción es detallada, pero el pueblo mismo no usa esa palabra.",
+   "p": "¿Qué conviene preguntarse antes de creerle?",
+   "opciones": ["Nada: si está en un manual, es porque está comprobado", "Quién nombró el cuadro: la comunidad o alguien desde afuera", "Cuántos años tiene el manual"],
+   "r": "El caso del piblokto enseña a preguntar quién nombró el cuadro: no es lo mismo un malestar que una comunidad reconoce con sus palabras que una categoría fabricada desde afuera. También a distinguir idiomas de malestar bien documentados por quienes los viven, como el ataque de nervios en América Latina.",
+   "como": "Surge de comparar cómo se construyeron distintas categorías y quién las describió, con herramientas de la historia y la antropología.",
+   "debate": "Hay que desconfiar de la exotización, que piensa a otros pueblos como «raros», y mirar el poder: la historia de la psiquiatría tiene capítulos en los que describir al otro fue una forma de justificar su sometimiento.",
+   "seccion": "La lección sobre los síndromes culturales"
+  }
+ ],
+ "abierta": "Si las categorías de la psiquiatría también tienen historia y autores, ¿cuáles de las que usamos hoy habrá que revisar dentro de cien años?"
+}

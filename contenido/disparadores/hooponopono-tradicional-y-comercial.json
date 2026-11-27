@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Lo siento. Perdóname. Te amo. Gracias.» Esas cuatro frases circulan en libros, videos y tazas, presentadas como una práctica ancestral de Hawái.",
+   "p": "¿Cómo creés que se hacía el hoʻoponopono tradicional?",
+   "opciones": ["Repitiendo mentalmente las cuatro frases, a solas", "En una reunión de la familia extendida, con un facilitador, oración, discusión ordenada, pedido de perdón y cierre", "Con un curandero que limpiaba los recuerdos de cada persona"],
+   "r": "Según el registro de Mary Kawena Pukui y sus colegas, era una reunión de la familia extendida (la ʻohana) cuando había un conflicto o una ruptura. La conducía un facilitador y tenía oración de apertura, planteo del problema, discusión ordenada, confesión y pedido de perdón, liberación y un cierre, a veces con una comida compartida. Era una práctica colectiva y con marco religioso.",
+   "como": "Pukui nació en Hawái, fue lexicógrafa de la lengua y trabajó con profesionales de salud mental en Honolulu. Con Haertig y Lee publicó «Nānā i ke Kumu» (1972), que describe prácticas de crianza y de familia.",
+   "debate": "Es un registro de cómo lo hacían ciertas familias en cierta época, no un manual para aplicar en cualquier lugar. Las cuatro frases tampoco figuran en lo que documentó Pukui.",
+   "seccion": "1. La práctica familiar documentada por Pukui"
+  },
+  {
+   "enigma": "Un libro de autoayuda cuenta que un terapeuta hawaiano logró que mejoraran pacientes psiquiátricos con delitos graves sin siquiera verlos, solo «limpiando» sus propios recuerdos mientras leía sus legajos.",
+   "p": "¿Cuánto crédito le darías a esa historia?",
+   "opciones": ["Total: está publicada en un libro que vendió mucho", "Ninguno: seguro es una mentira", "Es un relato inspirador, pero sin verificación independiente no se puede usar como prueba"],
+   "r": "Sobre esa historia no hay verificación independiente conocida: no hay estudios ni registros accesibles que permitan comprobar las mejoras ni su relación con la práctica. Se la puede leer como un relato dentro de un libro de autoayuda, no como prueba.",
+   "como": "El libro «Zero Limits» (2007), de Joe Vitale con Ihaleakala Hew Len, popularizó las cuatro frases y el relato del pabellón. Para evaluar una afirmación así se buscarían estudios controlados o registros comprobables, y no aparecen.",
+   "debate": "Ninguna de las versiones individuales o comerciales se evaluó con ensayos clínicos que se conozcan con certeza. Repetir frases puede acompañar a alguien, pero no debería reemplazar una conversación necesaria ni sostener que lo que le pasó es «responsabilidad suya», sobre todo en situaciones de violencia.",
+   "seccion": "4. La autoayuda de Joe Vitale"
+  }
+ ],
+ "abierta": "Cuando una práctica de una cultura se separa de su familia, su lugar y su marco, ¿qué se pierde y qué puede quedar? Incluso entre hawaianos, esa pregunta no tiene una sola respuesta."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En un centro de salud del norte argentino, una mujer cuenta que desde que se asustó «le quedó el ánima en el aire». A pocas cuadras, otras familias le ofrecen comida y hojas de coca a la Pachamama.",
+   "p": "¿Cómo tomar esa expresión de la mujer?",
+   "opciones": ["Como una superstición sin importancia, que hay que corregir", "Como un modo cultural de nombrar un sufrimiento real, que conviene escuchar", "Como un diagnóstico médico idéntico a cualquiera de los occidentales"],
+   "r": "En los Andes se habla de susto o pérdida del ánima (ajayu): la explicación de que un sobresalto, una caída o una pena pueden separar el alma de la persona. El DSM-5 lo incluye entre los conceptos culturales de malestar. Expresa sufrimiento real, con frecuencia relacionado con depresión, ansiedad o pérdidas, y conviene escucharlo y evaluar lo que haya detrás.",
+   "como": "Tiene estudios antropológicos y epidemiológicos. Un trabajo clásico de Rubel, O'Nell y Collado-Ardón (1984) lo estudió en comunidades mexicanas.",
+   "debate": "Las cosmovisiones no se evalúan con ensayos clínicos, porque no son tratamientos: se entienden y se respetan. Y conviene no idealizarlas ni apropiarse de ellas, sino aprender por invitación de quienes las practican.",
+   "seccion": "Los Andes: quechuas y aimaras"
+  },
+  {
+   "enigma": "Una comunidad vivió durante generaciones el despojo de sus tierras, la prohibición de su lengua y de sus ceremonias. Los jóvenes de hoy no vivieron esos hechos, pero muchos sienten una tristeza que parece venir de más atrás.",
+   "p": "¿Puede el dolor de una comunidad transmitirse entre generaciones?",
+   "opciones": ["No: solo sufre quien vivió el hecho en carne propia", "Sí: se propuso que el duelo se acumula y pasa de generación en generación", "Sí, pero solo por herencia biológica, nunca por lo cultural o social"],
+   "r": "Maria Yellow Horse Brave Heart, psicóloga y trabajadora social de origen lakota, formuló junto con Lemyra DeBruyn (1998) el concepto de duelo histórico no resuelto: el efecto acumulado y transmitido entre generaciones de la conquista, el despojo, la prohibición de lenguas y ceremonias.",
+   "como": "Es la parte con más investigación académica, escrita en gran medida por investigadores indígenas, a partir de trabajo con comunidades de América del Norte.",
+   "debate": "El trauma histórico tiene investigación, pero con medición difícil y críticas. Cómo se transmite exactamente y cuánto pesa cada factor sigue en discusión.",
+   "seccion": "América del Norte: trauma histórico, rueda de la medicina y dos espíritus"
+  }
+ ],
+ "abierta": "Si cada pueblo entiende el sufrimiento a su manera, ¿cómo puede un sistema de salud acompañar sin imponer su mirada y sin dejar de cuidar?"
+}

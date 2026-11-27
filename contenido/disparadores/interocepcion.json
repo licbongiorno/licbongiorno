@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Antes de una exposición oral, a dos personas les late más fuerte el corazón, se les seca la boca y se les aprieta el estómago. Una piensa «estoy nerviosa, es normal». La otra concluye «me pasa algo grave».",
+   "p": "Si las señales del cuerpo son parecidas, ¿qué hace que cambie la vivencia?",
+   "opciones": ["Que una de las dos tiene realmente más latidos", "Cómo se perciben y se interpretan esas señales", "Que una de las dos es más débil"],
+   "r": "De eso se ocupa la interocepción: el proceso por el que el sistema nervioso percibe, interpreta e integra señales que vienen del interior del cuerpo. No es solo recibir la señal, también es cómo se la interpreta y qué se hace con ella. Dos personas con el mismo latido pueden vivirlo de maneras muy distintas.",
+   "como": "Craig la planteó en 2002 como el sentido de la condición fisiológica del cuerpo. Khalsa y colaboradores (2018), en «Interoception and Mental Health: A Roadmap», la definieron así, a partir de la primera Interoception Summit (2016).",
+   "debate": "Su alteración se reconoce cada vez más en la ansiedad, el ánimo, la conducta alimentaria, las adicciones y los síntomas somáticos. Es un marco de investigación en desarrollo, no un diagnóstico ni una explicación única de esos cuadros.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Un equipo de investigación arma un cuestionario para medir cuánto registra una persona su cuerpo. Entre las escalas hay «notar», pero también «no preocuparse» y «no distraerse».",
+   "p": "¿Mirar más al cuerpo siempre es mejor para la salud?",
+   "opciones": ["Sí: cuanta más atención, mejor", "No: más atención al cuerpo no equivale a mejor salud", "No importa, porque no se puede medir"],
+   "r": "Mehling y colaboradores (2012) publicaron el MAIA, un cuestionario de 32 ítems con ocho escalas que incluye «no preocuparse» y «no distraerse», no solo «notar». Eso refleja que más atención al cuerpo no equivale a mejor salud: importa también cómo se atiende.",
+   "como": "Con un instrumento que mide distintas facetas de la conciencia interoceptiva; en 2018 el mismo grupo publicó una versión de 37 ítems, el MAIA-2.",
+   "debate": "La evidencia es sobre todo de marco y de medición. Que la interocepción se asocie con ciertos trastornos no dice que cambiarla los cure, y todavía no está resuelto qué intervenciones la mejoran de modo útil para cada cuadro.",
+   "seccion": "Cómo se evalúa"
+  }
+ ],
+ "abierta": "¿Se puede entrenar la interocepción para vivir mejor con las propias señales del cuerpo, o es una característica que cada persona trae? Todavía se investiga."
+}

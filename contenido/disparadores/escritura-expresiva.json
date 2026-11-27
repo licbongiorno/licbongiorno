@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En 1986 se les pidió a estudiantes universitarios que escribieran 15 minutos por noche, cuatro noches seguidas, sobre lo más difícil que habían vivido. Otro grupo escribió sobre cosas triviales. Justo después de escribir, el primer grupo se sentía peor.",
+   "p": "¿Qué pasó con su salud en los meses siguientes?",
+   "opciones": ["Siguieron peor, porque revolver lo doloroso hace daño", "No hubo ninguna diferencia con el otro grupo", "Consultaron menos al servicio de salud de la universidad"],
+   "r": "Quienes escribieron sobre sus emociones consultaron menos al servicio de salud de la universidad en los meses siguientes. Lo llamativo es que el beneficio aparecía después, no en el momento: justo tras escribir se sentían peor.",
+   "como": "Fue un experimento de James Pennebaker y Sandra Beall (1986) con dos grupos que escribían sobre temas distintos. Desde entonces, cientos de estudios exploraron el efecto en duelos, despidos, enfermedades y estrés.",
+   "debate": "Los metaanálisis, como el de Frattaroli (2006), con más de cien estudios, encuentran efectos positivos pero modestos. No funciona igual para todos ni reemplaza un tratamiento cuando hay un malestar importante.",
+   "seccion": "De dónde viene"
+  },
+  {
+   "enigma": "Pennebaker pensó al principio que escribir ayudaba porque dejaba de callarse lo que dolía. Pero al mirar con lupa los textos de quienes más se beneficiaban, notó algo en cómo cambiaba su lenguaje de un día al otro.",
+   "p": "¿Qué creés que tenían en común los textos de quienes más se beneficiaban?",
+   "opciones": ["Usaban cada vez más palabras de emoción intensa", "Pasaban de contar lo ocurrido a entenderlo, con palabras como «porque» o «me doy cuenta»", "Repetían una y otra vez la misma queja"],
+   "r": "A quienes más les servía era a quienes, a lo largo de los días, pasaban de contar a entender, usando cada vez más palabras como «porque», «me doy cuenta» o «entiendo». Ordenar la experiencia en un relato parece ayudar a digerirla.",
+   "como": "Surgió de analizar el lenguaje de los textos de los participantes a lo largo de los días de escritura.",
+   "debate": "La explicación original era la inhibición: contener emociones cansa. Esa idea sola no alcanzó. Y escribir tampoco es «descargarse» una y otra vez: repetir la misma queja sin ordenarla puede alimentar la rumiación en vez de aliviarla.",
+   "seccion": "Por qué podría ayudar"
+  }
+ ],
+ "abierta": "Si poner en palabras ordena lo vivido, ¿qué tiene de particular escribir frente a hablar, dibujar o caminar? Todavía no está claro para quién funciona mejor cada forma."
+}

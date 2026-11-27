@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te cuenta que, después de un accidente, cada vez que escucha un frenazo el cuerpo se le dispara antes de que pueda pensar. Sabe que ya pasó, lo sabe perfectamente, pero la alarma no le hace caso.",
+   "p": "Si un tratamiento para el trauma funciona, ¿qué parte creés que es la que hace la diferencia?",
+   "opciones": ["Los movimientos de los ojos, que serían el ingrediente activo", "El tratamiento completo: preparación, trabajo con el recuerdo guiado por un terapeuta y cuidado del ritmo", "Solo el hecho de hablar con alguien que escucha"],
+   "r": "La eficacia del tratamiento completo tiene respaldo: la OMS, en sus guías de 2013, recomienda para el trastorno de estrés postraumático en adultos la terapia cognitivo-conductual centrada en el trauma y el EMDR. Si los movimientos oculares son un ingrediente activo es otra pregunta, y sigue en discusión.",
+   "como": "Lee y Cuijpers (2013) hicieron un metaanálisis de 15 ensayos que compararon EMDR con y sin movimientos oculares y encontraron un efecto adicional moderado, aunque la calidad de los estudios no era óptima.",
+   "debate": "Un metaanálisis de 2020 no pudo confirmar ese resultado. Las dos afirmaciones conviven: el tratamiento completo tiene respaldo y el mecanismo sigue discutido. Además, no es una técnica para hacer por cuenta propia.",
+   "seccion": "Qué evidencia tiene"
+  },
+  {
+   "enigma": "Una psicóloga caminaba por un parque en 1987 y notó que unos pensamientos que la perturbaban perdían intensidad mientras movía los ojos de un lado a otro. A partir de esa observación armó un procedimiento.",
+   "p": "¿Qué te parece que hay que hacer con una idea que nace de una observación personal así?",
+   "opciones": ["Aceptarla, porque a quien la tuvo le funcionó", "Descartarla, porque una anécdota no vale como ciencia", "Ponerla a prueba con estudios, incluso de otros equipos"],
+   "r": "Francine Shapiro desarrolló el procedimiento a partir de esa observación y lo estudió. En 1989 publicó en el Journal of Traumatic Stress lo que se considera el primer ensayo controlado del método, hecho por ella misma, algo que la investigación posterior tuvo que poner a prueba con otros equipos.",
+   "como": "Con el tiempo se hicieron más ensayos con otros equipos y la discusión se volvió más matizada. Shapiro propuso además una explicación teórica, el modelo de procesamiento adaptativo de la información.",
+   "debate": "Ese modelo es una hipótesis. El método tuvo desde el principio entusiasmo y críticas, porque su origen era anecdótico y porque algunas explicaciones iniciales no resistieron el examen.",
+   "seccion": "Contexto histórico"
+  }
+ ],
+ "abierta": "Un tratamiento puede funcionar sin que sepamos del todo por qué. ¿Qué pasa en el cerebro y en la persona cuando un recuerdo doloroso deja de disparar la alarma? Todavía se investiga."
+}

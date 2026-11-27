@@ -1,0 +1,24 @@
+{
+ "autor": "Ibn Arabi",
+ "preguntas": [
+  {
+   "enigma": "Quien sueña sabe algo raro: lo que ve no es real como una mesa, pero tampoco es una nada. Tiene peso, produce emoción y deja un resto al despertar.",
+   "p": "¿Qué lugar le darías a lo que vemos en sueños y visiones?",
+   "opciones": ["Es pura fantasía que hay que corregir con la razón", "Es un residuo del día sin ningún significado", "Es una manera de conocer con su propia verdad, en un territorio intermedio"],
+   "r": "Para Ibn Arabi la imaginación (khayal) no es fantasía ni adorno: es una facultad que une y también un ámbito del cosmos. Entre el mundo de los cuerpos y el de los espíritus puros hay un mundo intermedio, un barzakh, donde las realidades espirituales toman forma. Los sueños y las visiones pertenecen a esa región, y la imagen es una manera de conocer con su propia verdad.",
+   "como": "Nació en Murcia en 1165 y murió en Damasco en 1240; viajó por el Magreb, Egipto, La Meca y Anatolia. Lo escribió en obras teológicas como «Las revelaciones de La Meca» y «Engarces de la sabiduría», en el marco de una vida de fe, no de una investigación psicológica.",
+   "debate": "Fue un teólogo y un místico, no un psicólogo, y su recepción dentro del islam fue discutida: algunos lo veneraron y otros lo criticaron con dureza. Sus textos sobre la imaginación que obra no describen una técnica para «manifestar» nada.",
+   "seccion": "La imaginación como lugar"
+  },
+  {
+   "enigma": "Una mística andalusí del siglo XIII, leída por un filósofo francés en el siglo XX, termina alimentando a un psicólogo estadounidense. En el camino, cada traducción cambió algo.",
+   "p": "¿Qué creés que significa que una imagen sea «imaginal» y no solo «imaginaria»?",
+   "opciones": ["Que es una fantasía más elaborada", "Que pertenece a un mundo intermedio con realidad propia, accesible por la imaginación", "Que es una imagen que se explica en conceptos"],
+   "r": "Henry Corbin propuso esa distinción: lo imaginario, en el habla común, es lo irreal; lo imaginal es un mundo intermedio con consistencia propia, accesible por la imaginación como órgano de percepción. James Hillman retomó la noción para su psicología arquetipal y propuso quedarse con los sueños y síntomas y preguntarles qué quieren, en vez de traducirlos a conceptos.",
+   "como": "Corbin la desarrolló en «L'imagination créatrice dans le soufisme d'Ibn 'Arabî» (1958) y acuñó «mundus imaginalis». Su cruce con Jung y otros en las conferencias de Eranos alimentó la pregunta por el estatuto de las imágenes.",
+   "debate": "Otros especialistas discuten cuánto de «lo imaginal» es de Ibn Arabi y cuánto es una reconstrucción de Corbin, que trabajó sobre todo con la tradición persa e iraní. Y no hay estudios clínicos controlados que muestren que trabajar con imágenes así mejore la salud mental.",
+   "seccion": "Henry Corbin y el mundo imaginal"
+  }
+ ],
+ "abierta": "Si las imágenes tienen una verdad propia, ¿cómo se distingue entre una imagen que ilumina y una que confunde? Es una pregunta que la psicología y la mística todavía se hacen."
+}

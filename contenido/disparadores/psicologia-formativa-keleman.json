@@ -1,0 +1,24 @@
+{
+ "autor": "Keleman",
+ "preguntas": [
+  {
+   "enigma": "Alguien levanta los hombros y aprieta la mandíbula cada vez que lo interrumpen, y después no recuerda haberlo hecho.",
+   "p": "¿Cómo lo miraría Stanley Keleman?",
+   "opciones": ["Como un defecto de postura que hay que corregir según un modelo ideal", "Como una forma que se arma, se sostiene y podría organizarse de otro modo", "Como un detalle sin importancia"],
+   "r": "Keleman, que dirigió el Center for Energetic Studies en Berkeley, llamó psicología formativa a su enfoque. Sostiene que la forma del cuerpo y la experiencia emocional están interrelacionadas: el modo habitual de pararse, respirar o sostener el cuello sería la huella corporal de maneras de vivir y sentir.",
+   "como": "Lo propuso desde la observación clínica, y su libro más citado, «Emotional Anatomy» (1985), combina descripción del cuerpo y lectura de su relación con la experiencia, con ilustraciones de Vincent Perez.",
+   "debate": "No propone corregir la postura según un ideal, sino observar la organización propia de cada persona. Se presenta más como una manera de observar y describir que como una técnica con pasos fijos.",
+   "seccion": "La idea central"
+  },
+  {
+   "enigma": "Alguien lleva los hombros elevados desde hace años. Es tentador pensar que eso cuenta algo de lo que le pasó.",
+   "p": "¿Se puede leer una postura como si fuera una biografía?",
+   "opciones": ["Sí, cada postura tiene una historia emocional clara", "No por sí sola: puede tener causas médicas, laborales o de hábito", "Nunca, el cuerpo no tiene relación con la experiencia"],
+   "r": "Que alguien tenga los hombros elevados no dice por sí solo qué le pasó, y un patrón muscular también puede tener causas médicas, laborales o simplemente hábitos. Conviene tomar esas lecturas como preguntas abiertas y no como conclusiones.",
+   "como": "No hay evaluación empírica revisada por pares de las afirmaciones de la psicología formativa. Es un marco descriptivo, un vocabulario para pensar la relación entre cuerpo y experiencia.",
+   "debate": "Que no esté puesto a prueba no lo invalida como forma de mirar, pero pide cautela. Su valor está en la pregunta que instala: si la experiencia tiene forma corporal, observar esa forma puede ser una vía para entenderla.",
+   "seccion": "Un cuidado"
+  }
+ ],
+ "abierta": "Si la experiencia deja huella en la forma del cuerpo, ¿se podría estudiar esa relación con métodos que la pongan a prueba? Por ahora es una pregunta abierta."
+}

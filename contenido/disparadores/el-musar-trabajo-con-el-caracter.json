@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te prometiste ser menos impaciente y, a la semana, estabas igual. Sabías perfectamente qué querías cambiar.",
+   "p": "¿Por qué cuesta tanto cambiar algo que ya sabemos que hay que cambiar?",
+   "opciones": ["Porque falta fuerza de voluntad", "Porque saber qué cambiar y cambiarlo son tareas distintas, y lo que sentimos pesa más que lo que sabemos", "Porque el carácter viene fijo de nacimiento y no se modifica"],
+   "r": "Israel Salanter, rabino lituano del siglo XIX, sostuvo que estudiar un texto sobre la humildad no vuelve humilde a nadie, y que las pasiones y los impulsos pesan más sobre la conducta que el conocimiento intelectual. De ahí nació el musar, un movimiento del judaísmo dedicado a la formación del carácter.",
+   "como": "Salanter lo escribió en la «Iggeret haMusar» (hacia 1858) y organizó prácticas distintivas para trabajar sobre lo que se siente y no solo sobre lo que se sabe. Es una tradición religiosa con su propio marco, no un experimento psicológico.",
+   "debate": "Algunos estudiosos leen en Salanter una intuición de fuerzas inconscientes anterior a Freud; otros piden prudencia, porque su marco era religioso y proyectarle ideas posteriores puede deformarlo.",
+   "seccion": "Israel Salanter y el movimiento"
+  },
+  {
+   "enigma": "Alguien decide mejorar una cualidad por vez: elige una, la observa durante la semana y anota cada tropiezo en un cuaderno. No es un manual de autoayuda moderno, es un método de 1808.",
+   "p": "¿Qué elemento de ese método creés que más se parece a lo que hoy usan las terapias conductuales?",
+   "opciones": ["Trabajar un solo objetivo por vez con un registro escrito y una revisión periódica", "Prometerse metas cada vez más ambiciosas", "Evitar pensar en los errores para no desanimarse"],
+   "r": "Un objetivo único por vez, un registro diario y una revisión periódica son componentes que reconocemos en el automonitoreo de las terapias conductuales. El «Sefer Jeshbon Hanefesh» (Lvov, 1808), de Mendel Lefin, proponía trabajar trece virtudes de a una llevando un registro de los tropiezos.",
+   "como": "Es una coincidencia de forma, hallada comparando textos: Lefin conocía la lista de virtudes de Benjamin Franklin y la adaptó a la tradición judía. No tenía datos de eficacia ni pretendía tenerlos.",
+   "debate": "El musar no tiene ensayos clínicos propios que se conozcan con certeza y no corresponde presentarlo como terapia. Además, una práctica de autoexamen diario puede volverse una máquina de culpa en personas con autoexigencia, depresión o pensamientos obsesivos.",
+   "seccion": "Mendel Lefin y la cuenta del alma"
+  }
+ ],
+ "abierta": "Medir una virtud con un cuestionario y practicarla como camino religioso, ¿son dos formas de mirar lo mismo o dos cosas distintas? La psicología del carácter todavía lo discute."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En algunas regiones del Ártico, las familias y comunidades de jóvenes indígenas viven con un problema de salud pública muy real. Alguien, desde afuera, explica que «es parte de su cultura».",
+   "p": "¿Qué dice la investigación sobre esa explicación?",
+   "opciones": ["Que tiene sentido: cada cultura tiene sus propios riesgos", "Que es falsa: no hay tal «cultura del suicidio», las causas son múltiples", "Que no se puede investigar, es un tema demasiado delicado"],
+   "r": "No existe una «cultura del suicidio». El suicidio siempre tiene causas múltiples, y las tasas de una población no explican la situación de una persona. El problema se relaciona con la historia colonial y las condiciones sociales. Investigadores que trabajaron en el terreno, como Michael Kral en Nunavut, lo muestran así.",
+   "como": "Con investigación de terreno junto a las propias comunidades y estudios que relacionan las tasas con condiciones sociales e históricas.",
+   "debate": "Lo que sí se discute es qué hacer: ninguna idea de «cultura» reemplaza la atención profesional, el acceso a servicios, la vivienda, la seguridad y el trabajo. Si estás pasando por un momento difícil, mirá la sección de ayuda urgente del sitio.",
+   "seccion": "Un dato duro, una explicación equivocada"
+  },
+  {
+   "enigma": "Algunas comunidades indígenas lograron mantener el control de su tierra, el autogobierno, los servicios de salud y educación y sus espacios culturales. Otras, no.",
+   "p": "¿Esa diferencia se relaciona con el bienestar de sus jóvenes?",
+   "opciones": ["No, son cosas sin relación", "Sí: se encontró una asociación entre más continuidad cultural y menores tasas", "Sí, y está probado que una causa a la otra"],
+   "r": "En 1998, Michael Chandler y Christopher Lalonde estudiaron 196 bandas de First Nations en Columbia Británica, Canadá. Las comunidades con más indicadores de «continuidad cultural» tenían tasas más bajas. Orienta una idea: fortalecer la lengua, la autonomía y los lazos de las comunidades puede ser una forma de cuidar a los jóvenes.",
+   "como": "Con un estudio de comunidades que comparó indicadores como el control de la tierra y el autogobierno con las tasas de cada una.",
+   "debate": "Es un estudio de comunidades, no de personas: dice algo sobre las tasas, no sobre qué le pasa a alguien. Y es una asociación, no una prueba de causa. Que existan factores protectores no impide que una persona sufra.",
+   "seccion": "La idea de continuidad cultural"
+  }
+ ],
+ "abierta": "Si fortalecer la cultura y la autonomía protege, ¿qué más hace falta para cuidar a cada joven? Los programas hechos con las comunidades todavía se están evaluando."
+}

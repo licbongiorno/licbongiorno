@@ -1,0 +1,22 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien se sienta en silencio y se propone seguir la respiración. A los diez segundos ya está repasando una discusión de ayer, y a los veinte se da cuenta de que se fue.",
+   "p": "¿Eso es fracasar en la práctica?",
+   "opciones": ["Sí: la meta es no distraerse nunca", "No: notar que la mente se distrajo y volver es parte central de la práctica", "Sí, hasta que se logre una mente en blanco"],
+   "r": "Ese pequeño vaivén, notar que la mente se distrajo y volver, es una de las prácticas más antiguas de la psicología budista, y también una de las más estudiadas hoy. La atención plena se entrena en la meditación vipassana y la compasión, en la meditación metta.",
+   "como": "El budismo nació como un camino para comprender y aliviar el sufrimiento, y sus enseñanzas, como el análisis de estados mentales del Abhidhamma, describen la mente con detalle. Llegó a la psicología occidental a través de figuras como Jon Kabat-Zinn y Francisco Varela.",
+   "debate": "La meditación no es para todos ni en todo momento: mirar la propia mente puede remover recuerdos o emociones intensas, sobre todo en períodos de mucho dolor."
+  },
+  {
+   "enigma": "La psicología budista habla de impermanencia, de apego y de un «no-yo»: la idea de un yo fijo e independiente se pone en cuestión. Y hoy hay laboratorios que investigan la meditación.",
+   "p": "¿Un experimento puede comprobar si esas ideas son verdaderas?",
+   "opciones": ["Sí, todo lo que dice el budismo se puede medir", "No todo: hay ideas que son una visión del mundo, otras teorías y otras que sí se estudian", "No, la ciencia no puede estudiar nada de la meditación"],
+   "r": "Hay que separar tres planos. Lo filosófico y espiritual, como el no-yo o las cuatro nobles verdades, es una visión del mundo: no se comprueba con un experimento. Lo que es propuesta teórica, como la neurofenomenología de Varela, es un método de investigación en desarrollo. Y hay prácticas concretas que sí pueden estudiarse.",
+   "como": "Francisco Varela, con Thompson y Rosch, publicó en 1991 «De cuerpo presente», que propone una cognición encarnada en diálogo con el budismo, y cofundó el Mind and Life Institute en 1987.",
+   "debate": "Hay quienes ven en este diálogo una oportunidad y quienes temen que mezcle ciencia y religión. Conviene no usar la tradición como un sello de garantía.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si el budismo describe la mente desde adentro y la ciencia desde afuera, ¿pueden llegar a entenderse sin que una reduzca a la otra?"
+}

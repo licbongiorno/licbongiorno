@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tenés el cuerpo en alarma: el pecho cerrado, la respiración corta. Un consejo es quedarte quieto con esa sensación hasta que pase. Otro es ir hacia ella apenas un poquito y volver a un lugar del cuerpo donde hay calma.",
+   "p": "¿Qué propone la pendulación?",
+   "opciones": ["Aguantar la sensación desagradable hasta que desaparezca", "Distraerse para no sentirla", "Ir y volver entre un poco de incomodidad y un lugar de calma, como un péndulo"],
+   "r": "Peter Levine, creador del Somatic Experiencing, llamó pendulación al ritmo natural del organismo entre la contracción y la expansión. Cuando alguien está atrapado en el malestar, siente que la contracción no va a terminar nunca. La pendulación ayuda a recuperar la experiencia de que las sensaciones se mueven y cambian.",
+   "como": "Levine lo observó primero en animales salvajes: tras escapar de un depredador, tiemblan, se sacuden y vuelven a pastar. A partir de ahí, desde los años setenta, formuló un abordaje que trabaja desde el cuerpo más que desde el relato del recuerdo.",
+   "debate": "La comparación con los animales y la idea de «descarga» de una energía atrapada son modelos explicativos, no hechos comprobados en personas. Con experiencias difíciles importantes, conviene hacerlo con un profesional formado.",
+   "seccion": "Qué es la pendulación"
+  },
+  {
+   "enigma": "Un método propone trabajar con sensaciones del cuerpo en el presente, en dosis muy pequeñas, y muchos de quienes lo practican cuentan que les hace bien.",
+   "p": "¿Cuánto respaldo de investigación tiene?",
+   "opciones": ["Mucho: es el tratamiento de referencia", "Todavía limitado, aunque con algún resultado alentador", "Ninguno: nunca se estudió"],
+   "r": "El Somatic Experiencing tiene evidencia todavía limitada. Un ensayo controlado de Brom y colaboradores (2017), con 63 personas con estrés postraumático, encontró mejorías en el grupo que recibió SE frente a un grupo en lista de espera.",
+   "como": "Con ensayos aleatorizados pequeños que comparan a quienes reciben el método con quienes esperan. Las revisiones sistemáticas señalan que la calidad de la evidencia es todavía limitada.",
+   "debate": "Para el estrés postraumático los tratamientos con más respaldo son otros. Y la teoría polivagal, que a veces se invoca para justificar el método, tiene críticas serias en la literatura. La pendulación puede acompañar otros tratamientos, pero no los reemplaza cuando hay síntomas graves.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si el cuerpo puede aprender que una sensación no es lo único que hay, ¿qué mecanismo lo explica? Todavía no se sabe con certeza."
+}
