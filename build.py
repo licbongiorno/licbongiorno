@@ -1593,7 +1593,8 @@ def bloque_disparador(slug_art, cuerpo):
                      f'<label class="visualmente-oculto" for="disp-{slug_art}-{n}">Tu respuesta</label>'
                      f'<textarea id="disp-{slug_art}-{n}" data-disparador="{slug_art}-{n}" rows="2" '
                      f'placeholder="Escribí lo que pensás. Queda guardado solo en tu navegador."></textarea>'
-                     f'<details><summary>Ver qué respondió {esc(d["autor"])}</summary><p>{inline_md(q["r"])}{mas}</p></details></li>')
+                     f'<button type="button" class="disparador__ver" aria-expanded="false" aria-controls="disp-r-{slug_art}-{n}">Ver qué respondió {esc(d["autor"])}</button>'
+                     f'<p class="disparador__r" id="disp-r-{slug_art}-{n}">{inline_md(q["r"])}{mas}</p></li>')
     return (f'<section class="disparador" aria-labelledby="disp-titulo"><p class="disparador__titulo" id="disp-titulo">Antes de leer: ¿vos qué responderías?</p>'
             f'<p class="disparador__intro">Las preguntas que se hizo {esc(d["autor"])}. Pensá tu respuesta y después compará con la suya.</p>'
             f'<ol>{"".join(items)}</ol></section>')
