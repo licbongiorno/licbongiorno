@@ -11,7 +11,7 @@ orden: 147
 estado: publicado
 respuesta: Mary Ainsworth (1913-1999) fue una psicóloga estadounidense-canadiense que dio base empírica a la teoría del apego. Observó a madres y bebés en Uganda y en Baltimore, y creó la situación extraña, un procedimiento de laboratorio que permitió describir tres estilos de apego: seguro, evitativo y ambivalente. También mostró la importancia de la sensibilidad de quien cuida para un apego seguro.
 menciona: ainsworth, bowlby, apego
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que un bebé que no llora cuando su madre se va sea «más independiente». Mary Ainsworth descubrió algo que sorprendió a muchos: algunos bebés que parecían tranquilos ante la separación tenían el corazón acelerado y evitaban a su madre cuando volvía. La calma aparente era, en realidad, una forma de protegerse.
 
@@ -24,6 +24,12 @@ En 1950 se casó con Leonard Ainsworth y se mudaron a Londres. Allí respondió 
 Ya en la Universidad Johns Hopkins, en Baltimore, hizo un estudio minucioso de la interacción entre madres y bebés en el hogar, y creó la **situación extraña**. En 1978 publicó con colaboradores *Patrones de apego*. Trabajó después en la Universidad de Virginia. Murió en Charlottesville en 1999.
 
 {{figura:vida-ainsworth}}
+
+## El contexto de su obra
+
+En los años cincuenta, Bowlby venía mostrando que la separación de los chicos de sus cuidadores tenía consecuencias, pero le faltaban formas de observarlo y medirlo. En ese mismo clima, los experimentos de Harry Harlow con monos (1958) habían puesto en duda que el vínculo se redujera a la alimentación. Ainsworth aportó el método: primero, la observación larga en el hogar; después, un procedimiento breve y estandarizado, que podía repetirse en distintos laboratorios.
+
+Más tarde, Mary Main y sus colaboradores crearon la Entrevista de Apego Adulto, y Hazan y Shaver (1987) aplicaron la idea de los estilos al amor de pareja, lo que dio lugar al vocabulario con el que hoy se habla de apego en adultos.
 
 ## Sus conceptos fundamentales
 
@@ -44,6 +50,18 @@ Lo más revelador de la situación extraña no es la separación, sino el **reen
 La situación extraña sigue siendo uno de los procedimientos más usados en la investigación sobre el desarrollo, y los estilos de apego se volvieron un lenguaje común para pensar los vínculos, también en la vida adulta. Ainsworth fue una de las psicólogas más citadas del siglo XX.
 
 En la consulta, sus estilos me ayudan a entender patrones de vínculo, siempre recordando que no son etiquetas fijas: el apego puede cambiar. Podés hacer el [test de estilos de apego](/test-de-estilos-de-apego/) o leer sobre [el apego](/recursos/el-apego/).
+
+## Un ejemplo de todos los días
+
+El primer día de jardín, un nene llora cuando la mamá se va, y cuando vuelve la busca, se deja abrazar y a los pocos minutos vuelve a jugar. Otro casi no reacciona al despedirse y, al reencontrarse, sigue con sus juguetes sin mirarla. Otro llora mucho, la busca, pero también la empuja, y le cuesta calmarse. Ainsworth enseñó a mirar el reencuentro más que la despedida. Pero un episodio aislado no dice nada: lo que describe son patrones que se repiten.
+
+## En la práctica clínica hoy
+
+Los hallazgos de Ainsworth sostienen programas para madres, padres y cuidadores, como el Círculo de Seguridad y las intervenciones con video-feedback, que ayudan a mirar y leer mejor las señales del bebé. Para adultos, la noción de estilos ayuda a pensar por qué ciertos vínculos se repiten; ver [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/). En la consulta, sirve como mapa para entender, nunca como etiqueta.
+
+## Matices y límites
+
+Hay varios para tener presentes. La situación extraña se diseñó con familias de clase media occidental, y la distribución de los estilos varía entre culturas, como mostró un metaanálisis de van IJzendoorn y Kroonenberg (1988). La relación entre sensibilidad materna y apego seguro existe, pero es moderada, según otro metaanálisis (De Wolff y van IJzendoorn, 1997): el temperamento del bebé, el contexto y los demás cuidadores también cuentan. Los estilos describen un patrón en una relación concreta, no un rasgo fijo de la persona, y pueden cambiar con nuevas experiencias. Y hablar de «la madre» deja afuera a los padres y a otras figuras de cuidado, que también construyen apego. Un test de estilos de apego para adultos no es lo mismo que la situación extraña, y no sirve para diagnosticar. Ver [John Bowlby](/recursos/john-bowlby/).
 
 ## Preguntas frecuentes
 

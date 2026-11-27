@@ -11,7 +11,7 @@ orden: 123
 estado: publicado
 respuesta: Rollo May (1909-1994) fue un psicólogo estadounidense, principal introductor de la psicología existencial en Estados Unidos. Distinguió la ansiedad normal, que acompaña a toda libertad y toda elección, de la ansiedad neurótica, que lleva a evitar y a achicar la vida. Escribió sobre el amor, la voluntad, lo daimónico, el coraje de crear y la necesidad humana de mitos.
 menciona: rollo-may, humanista, ansiedad
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que la ansiedad sea siempre un síntoma a eliminar. Rollo May sostuvo que hay una ansiedad que es parte de estar vivo: la que aparece cada vez que elegimos, que nos arriesgamos, que crecemos. El problema empieza cuando, para no sentirla, dejamos de elegir.
 
@@ -24,6 +24,12 @@ De regreso estudió en el Union Theological Seminary de Nueva York, donde se hiz
 En 1949 se doctoró en psicología clínica en la Universidad de Columbia, con la tesis que se publicó como *The Meaning of Anxiety* (1950). En 1958 coeditó con Ernest Angel y Henri Ellenberger *Existence*, que presentó la psiquiatría existencial europea al público estadounidense. Después escribió *Amor y voluntad* (1969), *La valentía de crear* (1975) y *La necesidad del mito* (1991). Murió en California en 1994.
 
 {{figura:vida-may}}
+
+## El contexto de su obra
+
+En 1947, el poeta W. H. Auden publicó *La edad de la ansiedad*, un poema largo que nombró el clima de la posguerra, y May escribió su libro sobre el tema en ese clima, con el miedo a la guerra y a la bomba atómica en el fondo. En esos años la psicología estadounidense estaba dividida entre el psicoanálisis y el conductismo, y May se sumó a quienes buscaban una tercera vía. Participó en la conferencia de Old Saybrook (1964), con Maslow, Rogers y otros, que ayudó a dar forma a la psicología humanista.
+
+Con Carl Rogers mantuvo una discusión conocida, con una diferencia de fondo: May pensaba que lo daimónico exigía una visión más trágica de la naturaleza humana que la de Rogers. Ver [Carl Rogers](/recursos/carl-rogers/).
 
 ## Sus conceptos fundamentales
 
@@ -45,6 +51,18 @@ Frente a la ansiedad hay dos caminos. **Afrontarla** permite crecer, aunque duel
 May fue el puente entre la filosofía existencial europea y la psicoterapia estadounidense, y su obra influyó en Irvin Yalom y en muchos terapeutas humanistas. Su idea de una ansiedad normal ayuda a no patologizar todo malestar.
 
 En la consulta, distinguir la ansiedad que acompaña a una decisión de la que paraliza me resulta muy útil. Podés seguir con [la ansiedad: cuando el cuerpo habla](/recursos/ansiedad-cuando-el-cuerpo-habla/) o con [ansiedad y ataques de pánico](/ansiedad-y-ataques-de-panico/).
+
+## Un ejemplo de todos los días
+
+Estás por hablar en una reunión importante y sentís nervios: es una ansiedad proporcional a lo que está en juego, y hasta puede afinarte la atención. Otra cosa ocurre si, para no sentirla, dejás de ir a las reuniones, y después de a las salidas, y después de a cualquier lugar donde puedan mirarte. La segunda es la que May llamaba neurótica: no es más intensa, sino que hace que la vida se achique. Pensar un cambio de trabajo, una mudanza o un compromiso trae ansiedad normal, porque elegir siempre implica renunciar a algo.
+
+## En la práctica clínica hoy
+
+La investigación en terapia cognitivo-conductual muestra que la evitación mantiene la ansiedad, y por eso la exposición gradual es uno de sus recursos más sólidos. Es un camino técnico muy distinto, pero coincide con May en que afrontar achica el problema y evitar lo agranda. También resuena con la [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/), que invita a avanzar hacia lo que importa con la ansiedad a cuestas. Para explorar la ansiedad que acompaña a las decisiones, probá el [Laboratorio de la angustia](/laboratorio-de-la-angustia/).
+
+## Matices y límites
+
+La distinción entre ansiedad normal y neurótica es una herramienta de comprensión, no una categoría diagnóstica: no equivale a los criterios de un trastorno de ansiedad, y no reemplaza una evaluación profesional. Las ideas de May, como lo daimónico o la necesidad del mito, vienen de la filosofía existencial y de su experiencia clínica, y tienen poca investigación propia. Tampoco hay que leerlo como un elogio de la ansiedad: cuando es intensa y sostenida, merece tratamiento. Por último, su influencia llegó antes por los libros que por protocolos de tratamiento. Ver [Søren Kierkegaard](/recursos/soren-kierkegaard/), a quien leyó durante la enfermedad y que fue una de sus fuentes.
 
 ## Preguntas frecuentes
 

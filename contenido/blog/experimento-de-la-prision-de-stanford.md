@@ -11,7 +11,7 @@ orden: 202
 estado: publicado
 respuesta: Philip Zimbardo dirigió en 1971 en Stanford una simulación de prisión con estudiantes como guardias y presos, interrumpida antes de lo previsto. Se difundió como prueba de que la situación vuelve cruel a cualquiera, pero Le Texier (2019), con material de archivo, mostró que a los guardias se les indicó cómo comportarse y que al menos un preso habría fingido su crisis.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Pocas historias de la psicología se contaron tantas veces como esta: unos estudiantes comunes, una cárcel simulada y una transformación en cuestión de días. Hoy su valor está en otro lado. El experimento de la prisión de Stanford sirve, sobre todo, para entender qué no se puede concluir de un estudio.
 
@@ -20,6 +20,12 @@ Pocas historias de la psicología se contaron tantas veces como esta: unos estud
 En 1971, Philip Zimbardo dirigió en Stanford una simulación de prisión. Había estudiantes en el rol de guardias y estudiantes en el rol de presos. El estudio se interrumpió antes de lo previsto.
 
 Durante décadas se lo difundió como una demostración contundente: la situación, el rol y el entorno bastarían para convertir a cualquiera en cruel. Era una conclusión llamativa, fácil de contar y muy citada.
+
+## Cómo se armó y cómo se difundió
+
+El estudio se hizo en agosto de 1971, en el sótano del edificio de psicología de Stanford, con jóvenes que respondieron a un aviso de diario y cobraban una suma diaria. Estaba pensado para durar dos semanas y se cortó a los seis días. Christina Maslach, que había visitado la simulación, fue una de las voces que pidieron frenarlo. Contaba con financiamiento de la Marina de los Estados Unidos, lo que explica en parte el interés por el tema de las prisiones.
+
+Después vinieron los documentales, el libro de Zimbardo *El efecto Lucifer* (2007) y una película de 2015. También se lo invocó en discusiones públicas sobre los abusos de la prisión de Abu Ghraib, donde Zimbardo actuó como perito de la defensa de uno de los soldados juzgados. Un trabajo de Griggs y Whitehead (2014) mostró que durante años los manuales de introducción a la psicología lo presentaron sin críticas.
 
 ## Qué mostró la revisión
 
@@ -57,6 +63,18 @@ Enseñar con este experimento es útil precisamente por lo que no se puede concl
 Para ver la diferencia sirve mirar a otros dos clásicos. [Stanley Milgram](/recursos/stanley-milgram/) tiene también discusiones abiertas, éticas y de interpretación, pero cuenta con una réplica parcial posterior que no encontró diferencia significativa en el tramo comparado. [Solomon Asch](/recursos/solomon-asch/) arroja un resultado más acotado, con cifras aproximadas y con variaciones internas, como el efecto de un aliado. Cada uno tiene límites, pero ninguno depende de que se haya indicado al participante cómo comportarse.
 
 Para practicar la mirada sobre dinámicas de grupo en la vida real, probá el [Laboratorio de grupos](/laboratorio-de-grupos/).
+
+## Otras investigaciones sobre el tema
+
+La pregunta de fondo sigue siendo interesante, y otros equipos la abordaron con más cuidado. Carnahan y McFarland (2007) mostraron que un aviso que hablaba de «un estudio sobre la vida en prisión» atraía a personas con puntajes más altos en agresividad, autoritarismo y dominancia social, y más bajos en empatía, que un aviso neutro. Es decir, la selección de los participantes podía explicar parte de lo que se vio.
+
+En el estudio de la BBC, conducido por Reicher y Haslam (2006), la tiranía no apareció de manera automática. Los autores la leyeron en términos de identificación con un grupo: el comportamiento cambia cuando las personas se sienten parte de un colectivo y adhieren a su proyecto, no por el mero hecho de recibir un rol.
+
+## Una lección para la clínica y la ética
+
+Aunque no tenga que ver con un consultorio, este episodio dejó una enseñanza que sí importa a quien trabaja con personas: lo que un investigador espera puede moldear lo que encuentra. En la clínica pasa lo mismo si uno interpreta todo en función de su teoría. La psicología aprendió también de estos estudios sobre ética de la investigación: hoy los trabajos con personas pasan por comités de ética, y el consentimiento informado y el derecho a retirarse son condiciones básicas.
+
+Zimbardo respondió públicamente a las críticas, y hay detalles que siguen en discusión. Lo que sí parece claro es que el estudio, por sí solo, no alcanza para sostener la tesis fuerte con la que se difundió. Para entrenar el ojo crítico sobre otros relatos atractivos, puede servir leer sobre [Daniel Kahneman](/recursos/daniel-kahneman/) y los sesgos de la intuición.
 
 ## Preguntas frecuentes
 

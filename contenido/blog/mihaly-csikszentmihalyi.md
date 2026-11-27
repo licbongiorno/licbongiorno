@@ -11,7 +11,7 @@ orden: 220
 estado: publicado
 respuesta: Mihaly Csikszentmihalyi (1934–2021) fue un psicólogo de origen húngaro que trabajó en Estados Unidos y es uno de los referentes de la psicología positiva. En Flow: The Psychology of Optimal Experience (1990; Fluir) describió el estado de flujo: absorción total en una actividad con desafío ajustado a las habilidades, metas claras y retroalimentación.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Hay momentos en que estamos tan metidos en lo que hacemos que no sentimos pasar las horas: tocar un instrumento, escribir, resolver un problema, jugar un deporte. Mihaly Csikszentmihalyi dedicó su carrera a estudiar esos momentos y los llamó flujo.
 
@@ -22,6 +22,12 @@ Mihaly Csikszentmihalyi nació en Fiume, hoy Rijeka, en 1934, y murió en 2021. 
 Su obra más conocida es *Flow: The Psychology of Optimal Experience* (1990), publicada en español como *Fluir*. Allí reunió su investigación sobre qué experiencias de la vida cotidiana las personas describen como las más plenas.
 
 {{figura:vida-csikszentmihalyi}}
+
+## Cómo llegó a estudiar el flujo
+
+Csikszentmihalyi contó en entrevistas que, de chico, la Segunda Guerra Mundial le mostró adultos que lo habían perdido todo y se habían quebrado, mientras otros seguían encontrando algo que valía la pena. Esa pregunta lo acompañó. Se mudó a Estados Unidos a los veintidós años, se doctoró en la Universidad de Chicago y trabajó después en Claremont, en California.
+
+Para investigar la experiencia cotidiana desarrolló, con Reed Larson, el método de muestreo de experiencia: los participantes llevaban un aparato que sonaba varias veces al día en momentos al azar, y en cada aviso anotaban qué estaban haciendo y cómo se sentían. También entrevistó a escaladores, jugadores de ajedrez, bailarines, músicos y cirujanos. El flujo surgió de comparar lo que todos describían, aunque sus actividades fueran muy distintas. En el año 2000 firmó con Seligman la introducción a un número especial sobre psicología positiva, una especie de acta de nacimiento del campo.
 
 ## Qué es el flujo
 
@@ -52,6 +58,30 @@ Como lector, una forma sencilla de usar esta idea es registrar en qué actividad
 Otro punto para tener en cuenta es que el flujo suele reconocerse a posteriori. Mientras estamos dentro, la atención está tan ocupada que no nos observamos a nosotros mismos; solo después notamos que algo especial ocurrió. Por eso el flujo se estudia pidiendo a las personas que cuenten sus experiencias, y por eso conviene tomar esos relatos con la prudencia de cualquier testimonio personal.
 
 También ayuda pensar el flujo como una invitación a ajustar las tareas y no a forzar el ánimo. Si una actividad aburre, quizá falte desafío; si angustia, quizá falten herramientas o un paso intermedio. Ese ajuste fino entre lo que se pide y lo que se puede es, en el fondo, la contribución más práctica de este autor. Pensado así, el flujo deja de ser un premio reservado a artistas o deportistas y pasa a ser algo que se puede buscar en tareas comunes.
+
+## En la práctica clínica hoy
+
+Una de las aplicaciones más claras está en la [activación conductual](/recursos/activacion-conductual/): cuando alguien está deprimido, volver a actividades que absorben y desafían un poco funciona mejor que esperar a tener ganas. También se usa en educación y en el trabajo, para ajustar tareas al nivel de cada persona. Y sirve para pensar la [motivación](/recursos/la-motivacion/): él hablaba de actividades «autotélicas», que se hacen por sí mismas, y no solo por un premio.
+
+Conviene distinguirlo de otras formas de absorción. Las pantallas y los videojuegos pueden producir una captura de la atención que se parece al flujo desde afuera pero que no siempre deja a la persona mejor; ver [pantallas y redes sociales](/recursos/pantallas-y-redes-sociales/).
+
+## Matices sobre la investigación
+
+El flujo se estudió sobre todo con autorreportes y cuestionarios, como la Escala de Estado de Flujo de Jackson y Marsh (1996), y la evidencia es en buena parte correlacional: sabemos que se asocia con bienestar y rendimiento, pero eso no prueba que lo cause. Además, distintos autores lo definen y miden de maneras diferentes. Es una descripción útil, no una receta con efectos garantizados. Para explorarlo en tu vida, el [Laboratorio de psicología positiva](/laboratorio-de-psicologia-positiva/) ofrece ejercicios.
+
+## Preguntas frecuentes
+
+### ¿Qué es el flujo según Csikszentmihalyi?
+
+Es un estado de absorción total en una actividad, que aparece cuando el desafío está ajustado a las habilidades, las metas son claras y hay retroalimentación inmediata.
+
+### ¿Cómo se puede lograr el flujo?
+
+No hay un método infalible. Ayuda elegir actividades que exijan lo suficiente sin desbordar, dividirlas en metas claras y reducir interrupciones. Si algo aburre, quizás falte desafío; si angustia, quizás falten herramientas.
+
+### ¿El flujo siempre es bueno?
+
+No. Puede aparecer en actividades dañinas, como el juego de apuestas. Que algo se sienta como flujo no quiere decir que sea bueno para la persona.
 
 ## Para seguir leyendo
 
