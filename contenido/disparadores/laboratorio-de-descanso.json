@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Es de noche, estás agotado y la cabeza no se apaga. Mirás el reloj y calculás cuántas horas te quedan. Cuanto más querés dormirte, menos lo conseguís.",
+   "p": "¿Qué empeora más una noche así?",
+   "opciones": [
+    "Hacer fuerza para dormirse y controlar el reloj",
+    "Acostarse más temprano para compensar",
+    "Tomar un respiro de la cama si pasa un buen rato sin sueño"
+   ],
+   "r": "La terapia cognitivo-conductual para el insomnio plantea que esforzarse por dormir y vigilar el reloj aumentan la alerta. Se trabaja con hábitos regulares, asociar la cama con el sueño (y no con la preocupación) y un diario de sueño que muestre cuánto se pasa en la cama y cuánto se duerme.",
+   "como": "Se evaluó en ensayos clínicos comparando a personas con insomnio que recibían este tratamiento con otras en lista de espera o con otros tratamientos. Hoy las guías de varios países lo recomiendan como primera opción para el insomnio crónico.",
+   "debate": "Se discute cuántas personas logran mejoras duraderas, y cómo llega el tratamiento a quienes lo necesitan. Además, la preocupación por dormir bien puede volverse en sí misma un problema, y no reemplaza una consulta médica."
+  }
+ ],
+ "abierta": "Si dormir es algo natural, ¿por qué se nos complica cuando más lo queremos? Todavía hay mucho por entender del sueño."
+}

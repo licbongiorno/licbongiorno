@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona que amaba su trabajo empieza a sentirse vacía, a contestar con fastidio a los clientes y a pensar que nada de lo que hace sirve. Duerme y descansa el fin de semana, pero el lunes vuelve igual.",
+   "p": "¿De dónde viene sobre todo ese agotamiento?",
+   "opciones": [
+    "De que esa persona es poco resistente a la presión",
+    "De unas condiciones de trabajo que se sostienen mucho tiempo sin recursos ni reconocimiento",
+    "De que eligió mal su profesión"
+   ],
+   "r": "Christina Maslach describió el burnout con tres rasgos: agotamiento, cinismo o distanciamiento y sensación de ineficacia. Junto con Michael Leiter planteó que pesan tanto o más las condiciones del trabajo (carga, control, reconocimiento, equidad, valores) que las características de la persona.",
+   "como": "Maslach empezó en los años setenta entrevistando a trabajadores de profesiones de ayuda, y luego se desarrolló un cuestionario que se usó en miles de estudios.",
+   "debate": "Se discute si el burnout es distinto de la depresión. La OMS lo incluyó en su clasificación como fenómeno ligado al trabajo y no como una enfermedad médica. Y hay una tensión entre pedirle a la persona que se cuide y cambiar lo que ocurre en la organización."
+  }
+ ],
+ "abierta": "Si buena parte del desgaste viene del entorno, ¿qué podría cambiar una persona sola y qué requiere cambios de otros? Es una pregunta que todavía se discute."
+}

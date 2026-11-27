@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Ves a alguien sufrir, por ejemplo a un amigo que perdió algo importante. Te quedás con el pecho apretado y las ganas de irte para no sentirlo más.",
+   "p": "¿Qué diferencia a la empatía de la compasión?",
+   "opciones": [
+    "Son lo mismo con otro nombre",
+    "La empatía es sentir con el otro, la compasión suma el deseo de aliviar su sufrimiento",
+    "La compasión es sentir menos que la empatía"
+   ],
+   "r": "Tania Singer y Olga Klimecki propusieron que sentir el dolor del otro puede agotar (malestar empático), mientras que la compasión, con su cuidado y deseo de ayudar, se vive de otra manera y se asocia con más bienestar. En la tradición budista, la compasión (karuna) se cultiva con prácticas como el tonglen.",
+   "como": "Compararon con imágenes cerebrales y con entrenamientos breves cómo cambiaba la respuesta de las personas ante el sufrimiento ajeno, según practicaran empatía o compasión.",
+   "debate": "Los estudios de neuroimagen suelen tener pocas personas y se discute cuánto se puede concluir de ellos. Además, hay que no confundir la compasión con la lástima, que pone al otro por debajo, ni con la crueldad disfrazada de firmeza."
+  }
+ ],
+ "abierta": "Si la compasión se puede entrenar, ¿qué es lo que realmente cambia en una persona después de practicarla? Es una pregunta abierta."
+}

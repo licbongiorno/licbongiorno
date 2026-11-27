@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Esperabas que el encuentro saliera perfecto y no fue así. No fue un desastre, pero te quedaste con la sensación de que «no debería haber sido así».",
+   "p": "¿Qué lleva más al sufrimiento: querer que salga bien o exigir que salga bien?",
+   "opciones": [
+    "Querer que salga bien",
+    "Exigir que salga bien, como si fuera una regla",
+    "Es lo mismo"
+   ],
+   "r": "Albert Ellis distinguió entre preferencias, que se pueden frustrar sin quebrarnos, y exigencias rígidas del tipo «debería». Propuso el modelo ABC: lo que ocurre (A), lo que pensamos (B) y lo que sentimos (C), y discutir las exigencias. La terapia de aceptación y compromiso (ACT) agrega la idea de flexibilidad psicológica.",
+   "como": "Ellis lo desarrolló en los años cincuenta a partir de su práctica clínica y lo publicó en 1962. Después se hicieron muchos estudios de terapias cognitivo-conductuales que incorporaron versiones de estas ideas.",
+   "debate": "Se discute cuánto del efecto se debe a cambiar las creencias y cuánto a otros factores. También se critica que la palabra «irracional» pueda sonar a descalificación."
+  }
+ ],
+ "abierta": "¿Dónde termina querer algo con ganas y empieza exigirlo? Esa frontera todavía se estudia."
+}

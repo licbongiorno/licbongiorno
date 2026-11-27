@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te pregunta «¿cómo estás?» y contestás «mal». Cuando intentás precisar, te das cuenta de que no sabés si es tristeza, enojo, cansancio o miedo.",
+   "p": "¿Qué pasa cuando ponemos nombre preciso a lo que sentimos?",
+   "opciones": [
+    "Nos hundimos más porque lo pensamos más",
+    "Suele bajar un poco la intensidad de la emoción",
+    "No cambia nada, solo es una etiqueta"
+   ],
+   "r": "En un estudio de 2007, Matthew Lieberman y colaboradores mostraron que poner palabras a una emoción se asociaba con menos activación de la amígdala, una zona vinculada a la alarma. Nombrar con precisión ayuda a entender qué nos dice cada emoción y qué necesitamos.",
+   "como": "Lo observaron con resonancia magnética, mientras las personas miraban rostros emocionales y los etiquetaban con palabras. Es una línea de investigación que se llama etiquetado afectivo.",
+   "debate": "Se discute qué es una emoción. Paul Ekman defiende un conjunto de emociones básicas universales, y Lisa Feldman Barrett plantea que las emociones se construyen con el contexto y las palabras que tenemos. También se debate cuánto sirve nombrar en todos los casos."
+  }
+ ],
+ "abierta": "Si no todas las culturas tienen las mismas palabras para sentir, ¿sentimos distinto? Es una pregunta abierta."
+}

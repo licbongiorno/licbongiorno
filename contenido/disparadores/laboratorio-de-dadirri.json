@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás con alguien que te cuenta algo difícil y, mientras habla, vas preparando qué le vas a responder. Cuando termina, te das cuenta de que no lo escuchaste del todo.",
+   "p": "¿Qué cambiaría si escucharas sin preparar nada?",
+   "opciones": [
+    "Quedaría en silencio incómodo y no ayudaría",
+    "La otra persona se sentiría escuchada de verdad",
+    "Perderías información útil para responder bien"
+   ],
+   "r": "Dadirri es una palabra del pueblo ngan'gikurunggurr, del río Daly en el norte de Australia. Miriam-Rose Ungunmerr-Baumann, anciana de Nauiyu, la ofreció como nombre de una escucha profunda y una espera tranquila, que ella describe como parte de la vida de su pueblo.",
+   "como": "No viene de un experimento sino de la palabra de quien la comparte: Miriam-Rose lo contó en textos y charlas para un público amplio. Por eso conviene escucharla a ella y no suponer que los ejercicios del laboratorio son la práctica misma.",
+   "debate": "Una pregunta abierta es cómo acercarse a una práctica de otro pueblo con respeto, sin vaciarla ni apropiársela. Los ejercicios del laboratorio están inspirados en lo que ella cuenta, no la reemplazan."
+  }
+ ],
+ "abierta": "¿Qué podemos aprender de una forma de escuchar que nació en otro lugar y otra historia, sin convertirla en una técnica más?"
+}

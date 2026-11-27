@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te olvidaste el cumpleaños de alguien importante. Un día pensás «qué mal que hice» y otro día pensás «soy un desastre de persona». Se sienten parecidos, pero no lo son.",
+   "p": "¿Cuál de las dos reacciones te hace más probable pedir perdón y reparar?",
+   "opciones": [
+    "La de «soy un desastre de persona»",
+    "La de «hice algo mal»",
+    "Las dos por igual"
+   ],
+   "r": "June Tangney y Ronda Dearing mostraron que la culpa se refiere a una conducta concreta y suele impulsar a reparar, mientras que la vergüenza apunta a todo el yo y suele llevar a esconderse o a ponerse a la defensiva. Hacerse cargo no exige castigarse.",
+   "como": "Lo estudiaron con cuestionarios en miles de personas, incluidos estudiantes y adultos en prisión, y encontraron que la tendencia a la vergüenza se asociaba con más problemas psicológicos y la tendencia a la culpa con más empatía.",
+   "debate": "Algunos investigadores señalan que la culpa excesiva también puede hacer daño, y que la frontera entre culpa y vergüenza no siempre es nítida en la vida real. También se discute cuánto cambia de una cultura a otra."
+  }
+ ],
+ "abierta": "Si la vergüenza nos aleja de reparar, ¿qué ayuda a pasar de «soy malo» a «hice algo y puedo arreglarlo»? Todavía se estudia."
+}

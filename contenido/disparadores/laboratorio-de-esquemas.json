@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Siempre terminás haciendo de más por los demás y sin pedir nada, aunque estés agotado. Sabés que no hace falta, pero se siente casi como una obligación.",
+   "p": "¿De dónde puede venir un patrón así?",
+   "opciones": [
+    "De una mala decisión reciente",
+    "De algo aprendido temprano que se siguió repitiendo",
+    "De un rasgo de carácter fijo e inmodificable"
+   ],
+   "r": "Jeffrey Young propuso que cuando algunas necesidades de la infancia no se cubren (seguridad, afecto, límites, autonomía) se forman esquemas: patrones de pensar, sentir y relacionarse que se repiten en la vida adulta, como abandono, vergüenza o sacrificio. Distinguió modos, como el niño vulnerable, el crítico y el adulto sano.",
+   "como": "Young los describió a partir de su trabajo clínico con pacientes que no mejoraban con la terapia cognitiva tradicional, y los reunió en su libro de 2003 con Klosko y Weishaar.",
+   "debate": "Hay ensayos clínicos prometedores en el trastorno límite de la personalidad, pero la evidencia para otros usos es menor. Se discute si son realmente 18 esquemas distintos. No es un test ni reemplaza una terapia."
+  }
+ ],
+ "abierta": "Si algo aprendido de chicos puede seguir guiándonos de grandes, ¿cómo se aprende algo nuevo en su lugar? Es una pregunta abierta."
+}

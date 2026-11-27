@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un amigo te cuenta que está convencido de que «no sirve para nada». Vos podés decirle que no es cierto, darle un consejo o hacerle una pregunta.",
+   "p": "¿Qué suele ayudar más a que alguien revise lo que piensa?",
+   "opciones": [
+    "Darle la razón para que se sienta acompañado",
+    "Contradecirlo con argumentos",
+    "Hacerle preguntas que lo inviten a mirar su idea desde otro ángulo"
+   ],
+   "r": "El diálogo socrático usa preguntas para que la persona examine sus propias creencias. Christine Padesky lo describió como descubrimiento guiado: preguntar por la experiencia, resumir lo que surge y volver a la creencia original. Paul y Elder clasificaron seis tipos de preguntas, como aclarar, pedir pruebas o explorar consecuencias.",
+   "como": "Surgió de la práctica clínica de la terapia cognitiva y de la tradición filosófica de Sócrates, que enseñaba preguntando.",
+   "debate": "Se discute cuánto aporta el método por sí solo a los resultados de una terapia, y es difícil distinguir una buena pregunta de una pregunta que empuja a la respuesta que quiere quien pregunta."
+  }
+ ],
+ "abierta": "Si una buena pregunta puede mover más que una respuesta, ¿cómo se aprende a preguntar sin empujar? Es una cuestión abierta."
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Querés decirle a alguien que te molestó algo. Practicás lo que vas a decir y, cuando abrís la boca, sale «sos un desconsiderado». Después viene el portazo.",
+   "p": "¿Qué cambia si en lugar de eso describís lo que pasó y decís cómo te sentiste y qué necesitás?",
+   "opciones": [
+    "Nada, porque el otro igual se va a ofender",
+    "El otro tiene más chances de escuchar, porque no se siente atacado",
+    "Suena a técnica y se nota enseguida, así que empeora"
+   ],
+   "r": "Marshall Rosenberg propuso un modelo de cuatro pasos: observar sin juzgar, nombrar el sentimiento, reconocer la necesidad detrás y hacer un pedido concreto, no una exigencia. La idea es que detrás de cada reproche hay una necesidad sin decir.",
+   "como": "Rosenberg lo desarrolló a partir de su experiencia como psicólogo clínico y mediador en conflictos, y lo enseñó en comunidades y escuelas.",
+   "debate": "Hay pocos estudios controlados sobre la comunicación no violenta, y sus resultados todavía son limitados. También se la critica porque, usada como fórmula, puede sonar artificial o usarse para manipular. Y no reemplaza poner límites cuando hay violencia."
+  }
+ ],
+ "abierta": "Si decir lo que sentimos con claridad es tan útil, ¿por qué nos cuesta tanto a casi todos? Es algo que sigue sin tener una respuesta única."
+}

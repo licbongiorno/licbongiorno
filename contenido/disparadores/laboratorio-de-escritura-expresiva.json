@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Algo te dolió hace tiempo y nunca lo contaste del todo. Cuando alguien te sugiere escribirlo, pensás que va a ser peor: vas a revolver lo que ya pasó.",
+   "p": "¿Qué suele ocurrir con quienes lo hacen?",
+   "opciones": [
+    "Se sienten peor a largo plazo",
+    "A corto plazo se sienten peor, pero con los días muchos refieren alivio",
+    "No cambia nada"
+   ],
+   "r": "James Pennebaker propuso escribir 15 a 20 minutos durante cuatro días seguidos sobre una experiencia difícil, con pensamientos y emociones. Al comienzo puede dar tristeza, y en varios estudios las personas después reportaron más bienestar y mejor salud.",
+   "como": "Pennebaker empezó en los años ochenta comparando a personas que escribían sobre experiencias dolorosas con otras que escribían sobre temas neutros, y siguió su salud en los meses siguientes.",
+   "debate": "Los metaanálisis encontraron efectos pequeños, y no para todas las personas ni todos los temas. No sustituye una terapia, y quien está en un momento muy frágil puede necesitar más apoyo."
+  }
+ ],
+ "abierta": "Si escribir ayuda a algunos, ¿qué es lo que hace la escritura que no hace el pensamiento? Todavía no hay una única respuesta."
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona tiene un dolor que no se va hace meses. Los estudios muestran poco, pero el dolor es real. Algunos días se anima a hacer de más y al día siguiente queda inmovilizada.",
+   "p": "¿Cómo puede ser que el dolor no coincida con lo que se ve en los estudios?",
+   "opciones": [
+    "Seguramente exagera",
+    "El dolor lo construye el sistema nervioso y la atención y las emociones lo modulan",
+    "Si no se ve en los estudios, entonces no existe"
+   ],
+   "r": "En 1965 Ronald Melzack y Patrick Wall propusieron la teoría de la compuerta: el cerebro y la médula regulan cuánto dolor se siente, y la atención, el ánimo y las emociones influyen. Eso no significa que el dolor sea imaginario. Cicely Saunders habló de «dolor total»: físico, emocional, social y espiritual. Dosificar la actividad ayuda a salir del ciclo de hacer de más y colapsar.",
+   "como": "Melzack y Wall partieron de observaciones clínicas, como personas con lesiones graves que casi no sentían dolor, y de experimentos sobre la médula. Saunders lo observó trabajando con pacientes en cuidados paliativos.",
+   "debate": "La teoría de la compuerta fue refinada y en parte superada por modelos posteriores. Mirar los factores psicológicos puede malinterpretarse como «está en la cabeza», y por eso se insiste en que complementan el tratamiento médico y no lo reemplazan."
+  }
+ ],
+ "abierta": "Si el dolor es real y a la vez lo modulan la atención y las emociones, ¿cómo se acompaña sin minimizarlo? Todavía se investiga."
+}

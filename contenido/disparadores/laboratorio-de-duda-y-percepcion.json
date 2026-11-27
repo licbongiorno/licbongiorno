@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Mirás una ilusión óptica: dos líneas que parecen de distinto largo y no lo son. Aun sabiendo la respuesta, tus ojos siguen viéndolas distinto.",
+   "p": "¿Qué te dice eso de lo que creés ver y saber?",
+   "opciones": [
+    "Que en general la percepción es confiable, y estas son raras excepciones",
+    "Que lo que vemos pasa por filtros de los que no solemos darnos cuenta",
+    "Que nada de lo que vemos es real"
+   ],
+   "r": "Descartes propuso en 1641 dudar de todo lo dudable para llegar a algo seguro. Locke pensó la mente al nacer como una hoja en blanco, y rastreó de dónde vienen nuestras ideas. Husserl propuso la epojé: poner entre paréntesis las explicaciones y describir la experiencia tal como se da.",
+   "como": "Fue a través de la reflexión filosófica y de pruebas mentales, no de laboratorios. Más tarde la psicología de la percepción confirmó con experimentos que la experiencia está construida en parte por el cerebro.",
+   "debate": "Se discute si la mente nace tan en blanco como pensaba Locke: la investigación con bebés sugiere que traemos algunas predisposiciones. Y muchos consideran que la duda total de Descartes no se puede sostener en la vida real."
+  }
+ ],
+ "abierta": "Si nuestras creencias vienen de la experiencia y la experiencia nos engaña a veces, ¿en qué podemos apoyarnos? Es una pregunta que sigue abierta."
+}

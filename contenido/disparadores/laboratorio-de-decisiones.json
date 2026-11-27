@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tenés que elegir entre dos trabajos, o entre quedarte y mudarte. Pasás semanas comparando, hacés listas, preguntás a todos y, al final, elegís y seguís dudando.",
+   "p": "¿Qué le pasa en promedio a quien busca siempre la mejor opción posible?",
+   "opciones": [
+    "Queda más satisfecho porque eligió lo óptimo",
+    "Suele quedar menos satisfecho y con más arrepentimiento",
+    "No hay diferencia con quien elige algo suficientemente bueno"
+   ],
+   "r": "Barry Schwartz y colaboradores (2002) distinguieron a quienes buscan «lo mejor» (maximizadores) de quienes se conforman con algo suficientemente bueno. Los primeros solían reportar menos satisfacción y más arrepentimiento. También ayuda saber si una decisión es reversible y usar los propios valores como criterio.",
+   "como": "Lo estudiaron con cuestionarios y experimentos en los que las personas elegían entre muchas o pocas opciones y después contaban cómo se sentían.",
+   "debate": "No todo se confirmó: otras investigaciones encontraron que tener muchas opciones no siempre perjudica, y se discute cuánto de lo observado depende de la persona y cuánto del tipo de decisión. Este laboratorio no reemplaza una consulta."
+  }
+ ],
+ "abierta": "Si elegir bien no depende solo de elegir lo mejor, ¿qué hace que una decisión se sienta «nuestra» una vez tomada?"
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una semana de mucha presión: dormís mal, comés mal y, el viernes, apenas bajás el ritmo, te enfermás. Es muy común que el cuerpo «espere» a que termine lo difícil.",
+   "p": "¿Qué hace que algo nos estrese?",
+   "opciones": [
+    "Solo la cantidad de cosas que hay para hacer",
+    "Cómo evaluamos lo que ocurre y los recursos que creemos tener",
+    "Depende solo del tipo de persona"
+   ],
+   "r": "Hans Selye describió el síndrome general de adaptación: alarma, resistencia y agotamiento. Richard Lazarus y Susan Folkman agregaron que importa cómo evaluamos la situación (amenaza, pérdida o desafío) y si creemos que tenemos recursos para afrontarla. La recuperación también cuenta: pausas, desconexión, descanso.",
+   "como": "Selye lo observó en animales de laboratorio: sometidos a distintas agresiones, mostraban respuestas parecidas. Lazarus y Folkman lo estudiaron con personas ante situaciones reales de la vida.",
+   "debate": "Se discute si la respuesta al estrés es tan general como creía Selye y cuánto influye la percepción. Hay una tensión entre trabajar sobre cómo afrontamos y cambiar las cargas que lo producen."
+  }
+ ],
+ "abierta": "Si el mismo trabajo puede ser desafío para uno y amenaza para otro, ¿qué hace que lo vivamos de manera distinta?"
+}
