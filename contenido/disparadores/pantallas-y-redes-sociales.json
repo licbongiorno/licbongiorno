@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Son las dos de la mañana y alguien que iba a mirar la hora lleva cuarenta minutos recorriendo fotos de gente que parece estar de vacaciones. A la mañana siguiente el humor es peor y el sueño, corto.",
+   "p": "Entre cientos de miles de adolescentes estudiados, ¿cuánto pesa el uso de tecnología en su bienestar?",
+   "opciones": ["Muchísimo: es una de las causas principales del malestar", "Muy poco, aunque la asociación es negativa", "Nada: no hay ninguna relación"],
+   "r": "Orben y Przybylski analizaron datos de más de 355.000 adolescentes: la asociación fue negativa pero chica, y el uso de tecnología explicó como máximo el 0,4 % de la variación en el bienestar. Pesa menos de lo que suele suponerse en el debate público, aunque no significa que no importe.",
+   "como": "Es un estudio de 2019 que comparó el uso de tecnología digital con medidas de bienestar en muestras enormes.",
+   "debate": "Un promedio puede esconder diferencias: para algunas personas las redes son un problema serio y para otras una fuente de compañía. Los estudios grandes describen tendencias, no lo que le pasa a una persona.",
+   "seccion": "Qué dice la investigación a gran escala"
+  },
+  {
+   "enigma": "A un grupo de estudiantes le pidieron limitar las redes a unos treinta minutos por día durante tres semanas. Otro grupo siguió como siempre.",
+   "p": "¿Qué creés que pasó con la soledad y el ánimo del grupo que las limitó?",
+   "opciones": ["Se sintieron más solos al perder contacto", "Informaron menos soledad y menos depresión", "No cambió nada"],
+   "r": "El grupo que limitó informó menos soledad y menos depresión que el grupo control. Es un resultado interesante porque no solo correlaciona: asignó la condición.",
+   "como": "Hunt, Marx, Lipson y Young (2018) hicieron un experimento con estudiantes asignando cada condición al azar.",
+   "debate": "Fue un estudio corto y con estudiantes, así que conviene tomarlo como una pista. Y el debate de fondo sigue abierto: Haidt sostiene que los smartphones causaron un aumento de problemas de salud mental adolescente, y Odgers objeta que eso confunde correlación con causa.",
+   "seccion": "Qué pasa cuando se limita el uso"
+  }
+ ],
+ "abierta": "Si importa más el cómo y el para qué que las horas, ¿qué preguntas te harías sobre tu propio uso? Dos personas pueden pasar el mismo tiempo frente a una pantalla con efectos muy distintos."
+}

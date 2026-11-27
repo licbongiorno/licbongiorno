@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te dan un ascenso o aprobás el examen final, y en lugar de alegría aparece una idea: «tuve suerte», «se equivocaron conmigo», «cuando se den cuenta, se acaba». Cuanto más te va bien, más crece esa sensación.",
+   "p": "¿Cómo puede ser que el éxito aumente la sensación de fraude?",
+   "opciones": ["Porque en el fondo uno sabe que no merece lo que logró", "Porque se atribuyen los logros a factores externos y las fallas a uno mismo, y la vara siempre queda más arriba", "Porque quien sufre esto simplemente es poco inteligente"],
+   "r": "El fenómeno del impostor suele combinar atribuir los logros a la suerte o a un error ajeno, miedo anticipado a ser descubierto, preparación excesiva o postergación, y dificultad para registrar los elogios. Convive muchas veces con estándares muy altos: si la vara está siempre más arriba de lo que se alcanza, cualquier logro queda «por debajo».",
+   "como": "Pauline Clance y Suzanne Imes lo describieron en 1978 a partir de su trabajo clínico con mujeres de alto rendimiento que, pese a logros objetivos, sentían una falsedad intelectual interna. Con los años se vio que no se limita a las mujeres ni a una profesión.",
+   "debate": "«Síndrome del impostor» es un nombre popular: no figura como diagnóstico en los manuales clínicos habituales. La explicación original, ligada a dinámicas familiares y estereotipos de género, es una hipótesis clínica y no un modelo causal comprobado.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Una revisión sistemática de la literatura encontró que entre 9 % y 82 % de las personas estudiadas sentían el fenómeno del impostor, según el estudio.",
+   "p": "¿Por qué habrá una diferencia tan enorme?",
+   "opciones": ["Porque depende de cómo se lo mide: el instrumento y el punto de corte", "Porque en unos países hay mucha más gente impostora que en otros", "Porque casi todos los estudios están mal hechos"],
+   "r": "Las cifras dependen de cómo se mida. La revisión de Bravata y colaboradores (2020) encontró que el fenómeno aparece en hombres y mujeres y se asocia con ansiedad, depresión, menor satisfacción laboral y agotamiento.",
+   "como": "Se llegó a esto juntando y comparando sistemáticamente la literatura disponible, lo que muestra la variación según instrumento y punto de corte.",
+   "debate": "Sobre el tratamiento, los autores no hallaron ensayos aleatorizados: la evidencia sobre qué funciona es todavía escasa. Tampoco hay respaldo de que se resuelva «pensando en positivo» o repitiéndose que uno vale.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si todavía no sabemos bien qué ayuda a quienes se sienten impostores, ¿qué tendría que mostrar un buen estudio para decirnos qué funciona? La pregunta sigue abierta."
+}

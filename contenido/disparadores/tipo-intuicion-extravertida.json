@@ -1,0 +1,24 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Una mujer consulta porque «empiezo todo y no termino nada». Tiene tres proyectos abiertos, una idea nueva por semana, duerme mal, le duele la espalda y no registra cuándo come. Cada vez que un proyecto se vuelve rutina siente un vacío, y la idea nueva llega justo a tiempo para taparlo.",
+   "p": "¿Qué parte suya podría estar esperando turno?",
+   "opciones": ["Su falta de disciplina, que habría que corregir", "Lo que su entusiasmo deja afuera: el cuerpo, el ritmo, lo cotidiano", "Su creatividad, que hay que apagar"],
+   "r": "Para Jung, el tipo de intuición extravertida se orienta hacia las posibilidades del mundo exterior, y su función inferior es la sensación introvertida: el cuerpo, los detalles y lo cotidiano pueden quedar descuidados. Jung observó que lo corporal reprimido puede aparecer como síntomas físicos o agotamiento. La función inferior no se «corrige»: se la reconoce y se la trata con respeto, porque es por donde la psique pide ampliarse.",
+   "como": "Jung describió ocho tipos en 1921, combinando dos actitudes (introversión y extraversión) con cuatro funciones, a partir de su clínica y de su lectura de la historia de las ideas. Para él la función inferior es la puerta hacia el inconsciente y hacia la sombra, y integrarla es parte del proceso de individuación.",
+   "debate": "La investigación empírica sobre los tipos puros de Jung es escasa y mucho más discreta de lo que su fama sugiere. Que alguien «sea» de este tipo no explica por qué no termina lo que empieza: puede haber otras causas, del estrés al TDAH, que requieren su propia evaluación.",
+   "seccion": "Su función inferior"
+  },
+  {
+   "enigma": "Alguien llega a estos textos con un resultado de cuatro letras, como ENTP o ENFP, y cree que es lo mismo que lo que describió Jung.",
+   "p": "¿Son lo mismo?",
+   "opciones": ["Sí, es la misma teoría con otra notación", "No: el código de cuatro letras proviene de un cuestionario posterior, inspirado en Jung pero distinto", "Sí, y además está comprobado científicamente"],
+   "r": "La tipología de Jung describe ocho tipos como orientaciones de la conciencia, pensadas como una brújula y no como un casillero. El MBTI, en cambio, es un cuestionario desarrollado por Isabel Briggs Myers y Katharine Briggs a mediados del siglo XX, inspirado en Jung pero que no es de Jung: agrega una dimensión propia (juicio/percepción) y organiza dieciséis tipos.",
+   "como": "Desde la psicometría, el MBTI recibió críticas serias: las dimensiones se tratan como categorías cuando los puntajes suelen distribuirse de forma continua, una proporción considerable de personas obtiene otro tipo al repetir la prueba semanas después, y su capacidad para predecir el desempeño laboral es limitada.",
+   "debate": "Los modelos de rasgos, como el de los cinco grandes, tienen mucho mejor respaldo empírico. Por eso el código de cuatro letras sirve, como mucho, de referencia aproximada, no de diagnóstico ni de etiqueta.",
+   "seccion": "Jung y el MBTI: no es lo mismo"
+  }
+ ],
+ "abierta": "Si las personas reales mezclan funciones y cambian con la edad y el contexto, ¿qué tan útil es pensar en «tipos»? Es una pregunta que la psicología de la personalidad sigue discutiendo."
+}

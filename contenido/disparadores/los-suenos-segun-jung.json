@@ -1,0 +1,24 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Una casa que no conocés, una persona que ya no está, una escalera que sube a ninguna parte. Hay quien dice que un sueño es una máscara que esconde un deseo prohibido, y quien dice que es otra cosa.",
+   "p": "¿Qué crees que hace el sueño: esconde o muestra?",
+   "opciones": ["Esconde un deseo reprimido que hay que descifrar", "Muestra, en su propio lenguaje de imágenes, algo que nos pasa y que a veces compensa lo que vivimos despiertos", "No muestra nada: es ruido del cerebro sin relación con nosotros"],
+   "r": "Para Freud, el sueño disfrazaba un deseo reprimido y había que descifrarlo. Jung propuso que el sueño no esconde sino que muestra, en su lenguaje simbólico. Muchas veces compensa una actitud consciente demasiado unilateral: si de día nos mostramos siempre fuertes, de noche puede aparecer nuestra fragilidad.",
+   "como": "Jung lo propuso desde su trabajo clínico. Para explorar un sueño se parte de las asociaciones de quien sueña, y de la amplificación con mitos y cuentos, no de diccionarios. Algunas imágenes remiten a la historia personal y otras se parecen a las de los mitos, que él relacionó con los arquetipos.",
+   "debate": "La idea de que los sueños compensan la actitud consciente es una hipótesis clínica: no hay pruebas experimentales que la confirmen o refuten de manera general.",
+   "seccion": "Jung y Freud: dos miradas"
+  },
+  {
+   "enigma": "Soñás casi todas las noches y, al despertar, a veces te queda una emoción fuerte y ninguna trama. Hay quien toma los sueños como profecías y quien los descarta del todo.",
+   "p": "¿Qué crees que se sabe con más certeza sobre los sueños?",
+   "opciones": ["Que predicen el futuro", "Que los más vívidos ocurren sobre todo en fase REM y que los recuerdos del día influyen en su contenido", "Que cada símbolo tiene un significado fijo universal"],
+   "r": "La investigación muestra cosas bien establecidas: los sueños más vívidos ocurren sobre todo en la fase REM, los recuerdos del día influyen en su contenido y hay relaciones entre sueños, estado emocional y sueño reparador. Que un sueño tenga significado simbólico para quien lo sueña es una hipótesis que se trabaja con la persona, no una verdad que se lea desde afuera.",
+   "como": "Viene de la investigación del sueño y de la clínica. En terapia lo que importa no es acertar un significado, sino que la imagen abra una pregunta propia que se pueda llevar a la vida despierta.",
+   "debate": "No hace falta creer en la teoría de Jung para beneficiarse de registrar y conversar los sueños. Tampoco conviene tomarlos como profecías ni diagnósticos, y si las pesadillas son frecuentes o aparecen tras una situación traumática, es otro tema que merece consulta.",
+   "seccion": "Lo que tiene respaldo y lo que es teoría"
+  }
+ ],
+ "abierta": "Si la ciencia explica cuándo soñamos pero no qué significa soñar con algo, ¿qué lugar tiene el sentido personal que le damos a un sueño? Es una pregunta que sigue abierta."
+}

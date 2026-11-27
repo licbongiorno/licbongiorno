@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En el subte, de golpe, el corazón galopa, el aire no alcanza y aparece la certeza de que algo gravísimo está pasando. A los diez minutos todo cede, y lo que más asusta es que vuelva.",
+   "p": "¿Qué hace que el miedo se sostenga aunque el ataque ya pasó?",
+   "opciones": ["Que la persona interpreta una sensación normal del cuerpo de forma catastrófica, y eso la aumenta", "Que en realidad hay una enfermedad grave que no se detectó", "Que la persona no se esfuerza lo suficiente en relajarse"],
+   "r": "David Clark propuso un modelo cognitivo del pánico: una sensación corporal normal, como el corazón acelerado, se interpreta de manera catastrófica («me da un infarto»), eso aumenta el miedo y el miedo aumenta la sensación. El círculo se cierra solo. Los síntomas son muy intensos pero suelen alcanzar su pico en pocos minutos y luego ceder.",
+   "como": "Clark lo propuso en 1986 desde la psicología clínica. Por eso se busca entender que las sensaciones, aunque feroces, no son peligrosas en sí mismas. La primera vez conviene una consulta médica para descartar otras causas.",
+   "debate": "Los consejos de respiración y anclaje ayudan a muchas personas, pero la investigación sugiere que lo central a largo plazo es dejar de evitar y de pelear con las sensaciones. Respirar bien no es un truco para que «no pase».",
+   "seccion": "Por qué se mantiene"
+  },
+  {
+   "enigma": "Después de un ataque, alguien deja de tomar el subte. Dos semanas después también evita el centro, y más tarde salir. Los estudios médicos salieron bien.",
+   "p": "¿Qué ayuda a que la vida no se achique?",
+   "opciones": ["Evitar todo lo que pueda disparar otro ataque", "Acercarse gradualmente a las sensaciones y a las situaciones evitadas", "Esperar a ver si no vuelve a pasar"],
+   "r": "El tratamiento con más respaldo es la terapia cognitivo-conductual centrada en el pánico: se explica el mecanismo, se revisan las interpretaciones catastróficas y se practica la exposición, gradual, a las sensaciones y a las situaciones evitadas. Conviene consultar después del primer ataque, sin esperar a que se repita.",
+   "como": "Es el enfoque más estudiado para este problema. Desde una mirada integrativa se suma la pregunta por el momento de vida, porque muchos primeros ataques aparecen tras una pérdida, una sobrecarga o un cambio que no pudo ser pensado.",
+   "debate": "Un ataque aislado no significa un trastorno de pánico: se habla de trastorno cuando hay ataques repetidos y miedo persistente a que se repitan. Algunas condiciones médicas dan síntomas parecidos.",
+   "seccion": "Cómo se trabaja en terapia"
+  }
+ ],
+ "abierta": "Si el miedo al próximo ataque pesa más que el ataque mismo, ¿qué es lo que realmente enseña a un cuerpo alarmado que puede estar tranquilo? Todavía se estudia."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un chico que antes iba contento a la escuela empieza a quejarse de dolor de panza todos los lunes. En otra escena, dos compañeros de fuerza parecida se pelean un recreo y al rato juegan juntos de nuevo.",
+   "p": "¿Qué distingue al acoso de una pelea o un conflicto común?",
+   "opciones": ["Que haya golpes o agresión física de por medio", "Que el chico acosado sea más sensible que el resto", "Que el maltrato se repita, sea a propósito y quien lo recibe no pueda frenarlo"],
+   "r": "El psicólogo Dan Olweus definió el acoso escolar como una agresión repetida, intencional y con desequilibrio de poder. No hace falta que haya golpes ni que deje marcas visibles: puede ser verbal, de exclusión o por medios digitales. Y no depende de que la víctima sea «sensible».",
+   "como": "Olweus lo planteó en su libro Bullying at School (1993), ordenando un campo donde se mezclaba todo. Esas tres notas permiten separar un conflicto entre pares de un maltrato sostenido.",
+   "debate": "Las tres notas ayudan, pero en la vida real no siempre es fácil ver el desequilibrio de poder. Ante la duda, conviene registrar fechas y hechos y consultar.",
+   "seccion": "Qué es el acoso"
+  },
+  {
+   "enigma": "Una trabajadora que antes hablaba en las reuniones ahora se queda callada, porque cada vez que lo hace la interrumpen o la ignoran. Un compañero le dice que descanse el fin de semana y que lo tome con otra actitud.",
+   "p": "¿Alcanza con descansar y cambiar de actitud?",
+   "opciones": ["Sí, el problema suele estar en cómo uno lo vive", "Alcanza con descansar, pero no con la actitud", "No: si es un hostigamiento sostenido, hay que responder sobre la situación"],
+   "r": "Cuando lo que hay es hostigamiento sostenido de personas concretas, el descanso puede aliviar el desgaste pero no lo resuelve. Hace falta una respuesta sobre la situación: recursos humanos, una instancia gremial o asesoramiento legal. Y no es tarea de quien lo sufre «tomarlo con otra actitud».",
+   "como": "Heinz Leymann describió en 1990 el acoso psicológico en el trabajo, al que llamó mobbing: un patrón que se mantiene en el tiempo, no un desacuerdo puntual con un jefe o un colega.",
+   "debate": "El acoso laboral y el desgaste crónico (burnout) no son lo mismo, pero pueden convivir y confundirse, y eso complica reconocer cuál es el problema.",
+   "seccion": "En el trabajo: el mobbing"
+  }
+ ],
+ "abierta": "Si el acoso suele sostenerse en silencio, ¿qué hace falta para que quien lo ve, o quien lo sufre, se anime a hablar a tiempo? Es una pregunta que escuelas y trabajos todavía se hacen."
+}

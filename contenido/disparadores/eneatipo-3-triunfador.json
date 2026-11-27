@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien ascendió, se mudó y cumplió todo lo que se había propuesto. Al terminar un proyecto no festeja: abre el siguiente. Un domingo sin planes se pregunta quién es cuando no está logrando nada.",
+   "p": "¿Qué puede haber detrás de esa energía incansable?",
+   "opciones": [
+    "Una simple preferencia por trabajar mucho, sin mayor significado",
+    "Valerse a través de los resultados: confundir quién se es con lo que se hace",
+    "Falta de ambición para disfrutar"
+   ],
+   "r": "El eneagrama describe al 3 como alguien que puede confundir quién es con lo que hace, y que deja de lado las emociones que «no sirven» para rendir. Cuando la imagen pesa más que lo que siente, puede aparecer el vacío. Ser ambicioso no es un problema en sí: importa si esa energía le sirve a uno o lo maneja.",
+   "como": "Se parece a lo que la psicología llama motivación de logro, un constructo estudiado hace décadas, y a la contingencia de la autoestima: valerse a través de resultados. El eneagrama, en cambio, nació de la enseñanza de Óscar Ichazo y de Claudio Naranjo.",
+   "debate": "Que se parezca a esos constructos no prueba que exista un «tipo 3» como categoría cerrada: la mayoría de los investigadores describe la personalidad mejor en dimensiones.",
+   "seccion": "Su sombra"
+  },
+  {
+   "enigma": "En pareja, alguien encantador, atento a la imagen del vínculo, no logra decir «hoy no estoy bien» porque eso le suena a fracasar.",
+   "p": "¿Por qué le cuesta tanto mostrarse sin brillo?",
+   "opciones": [
+    "Porque la intimidad pide lo contrario del desempeño: mostrarse sin tener una respuesta lista",
+    "Porque no le importa la otra persona",
+    "Porque estar mal no es algo que le pase"
+   ],
+   "r": "La intimidad pide lo contrario del desempeño: mostrarse sin brillo y sin tener una respuesta lista. Si querer se vive como rendir, aceptar que lo quieran en un día sin logros es un aprendizaje.",
+   "como": "Es una lectura del eneagrama y de la clínica de orientación psicoanalítica y junguiana, que ve en la persona muy bien construida un costo: el cansancio, la envidia y el miedo a no ser querido sin brillo.",
+   "debate": "Es una hipótesis para explorar en terapia, no un dato de estudios controlados. El eneagrama es un mapa de autoconocimiento, no un test con respaldo psicométrico sólido.",
+   "seccion": "En los vínculos"
+  }
+ ],
+ "abierta": "Si el valor propio parece depender de lo que se logra, ¿qué haría falta para sentir que uno vale incluso en un día sin logros? Es una pregunta que cada uno responde a su manera."
+}

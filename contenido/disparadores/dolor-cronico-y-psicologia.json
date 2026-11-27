@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace dos años que le duele la espalda. Se hizo resonancias, análisis y consultó a tres especialistas, y le dijeron que «no hay nada grave». El dolor sigue.",
+   "p": "¿Puede doler de verdad si no se ve la lesión?",
+   "opciones": [
+    "No: si los estudios no muestran nada, es imaginación",
+    "Sí: el dolor crónico es real, y lo sentimos con el tejido, el sueño, el ánimo y el estrés",
+    "Solo duele si hay una lesión que lo explique"
+   ],
+   "r": "El dolor crónico es real, haya o no una lesión visible. Lo que sentimos depende del tejido, pero también del sueño, el ánimo, lo que creemos sobre el dolor, el estrés, el trabajo y los vínculos. Que la psicología se ocupe de él no lo vuelve imaginario.",
+   "como": "George Engel (1977) propuso el modelo biopsicosocial. Antes, Melzack y Wall (1965) plantearon la teoría de la compuerta: el sistema nervioso modula las señales de dolor y esa modulación puede ser influida por la atención y la emoción.",
+   "debate": "El circuito exacto de la compuerta no resultó del todo correcto, pero la idea de que el cerebro regula el dolor, y no solo lo recibe, sigue siendo importante.",
+   "seccion": "El modelo biopsicosocial"
+  },
+  {
+   "enigma": "Para no sentir dolor, alguien deja de agacharse, de caminar largo y de levantar cosas. Al tiempo está más rígido, más desanimado y se mueve todavía menos.",
+   "p": "¿Por qué evitar el movimiento puede empeorar las cosas?",
+   "opciones": [
+    "Porque el reposo debilita los huesos de inmediato",
+    "Porque la evitación puede mantener el miedo y la inactividad, y con ellos la discapacidad",
+    "No empeora: evitar siempre es lo más seguro"
+   ],
+   "r": "Ante el dolor, interpretarlo como amenaza lleva a evitar movimientos; la evitación puede mantener el miedo, la rigidez y el desánimo. Volver gradualmente a la actividad tiende a reducir el miedo, siempre con acuerdo del equipo médico.",
+   "como": "Vlaeyen y Linton (2000) describieron el modelo de miedo-evitación en el dolor musculoesquelético crónico. Una revisión Cochrane (Williams y colaboradores, 2020), con 75 estudios, evaluó las terapias psicológicas para el dolor crónico.",
+   "debate": "Esa revisión halló efectos pequeños o muy pequeños de la terapia cognitivo-conductual, y evidencia de calidad baja para otros enfoques. La psicología no hace desaparecer el dolor, pero para muchas personas mejora cómo se vive con él.",
+   "seccion": "El círculo del miedo y la evitación"
+  }
+ ],
+ "abierta": "Si el cerebro participa en regular el dolor, ¿qué es exactamente lo que cambia cuando alguien aprende a vivir con él sin que ocupe toda su vida? Todavía no se sabe del todo."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Murió la perra que acompañó a Laura catorce años. Pidió un día en el trabajo y dijo «tuve un problema familiar» porque le dio vergüenza. Alguien le comentó: «podés tener otra».",
+   "p": "¿Es una exageración sufrir tanto por una mascota?",
+   "opciones": [
+    "Sí, no se puede comparar con perder a una persona",
+    "No: es la pérdida de un vínculo cotidiano, y el dolor se relaciona con el apego",
+    "Depende de si la mascota era de raza"
+   ],
+   "r": "Un animal de compañía comparte rutina, cuerpo, horarios y a veces los momentos más solitarios y más felices, así que su muerte es una pérdida real. Que el dolor sea intenso no es una exageración.",
+   "como": "Wrobel y Dye (2003) estudiaron a 174 adultos que perdieron a un perro o un gato y encontraron que el grado de apego se relacionaba con la intensidad y la duración de los síntomas de duelo.",
+   "debate": "El tamaño del dolor varía entre personas, y no hay una medida correcta de cuánto tiene que doler. Lo que se discute es cómo darle reconocimiento social a un duelo que casi no lo tiene.",
+   "seccion": "Un duelo real"
+  },
+  {
+   "enigma": "Después de elegir junto con el veterinario poner fin al sufrimiento de su animal, alguien se pregunta una y otra vez: «¿lo hice demasiado pronto?».",
+   "p": "¿Qué significa esa culpa?",
+   "opciones": [
+    "Que decidió mal y debería haber esperado",
+    "Que suele traducir el amor y la responsabilidad que sentía",
+    "Que no estaba preparado para tener un animal"
+   ],
+   "r": "La culpa en el duelo suele traducir el amor y la responsabilidad sentida. Ayuda juzgar la decisión con la información que se tenía en ese momento, no con la de hoy, y a veces hablar con el veterinario.",
+   "como": "Kenneth Doka (1989) llamó duelo desautorizado al que el entorno no legitima, algo muy frecuente con los animales. Packman, Carmack y Ronen (2011-2012) discutieron las implicancias terapéuticas de los vínculos continuos, como hablar del animal o conservar sus cosas.",
+   "debate": "Seguir conectado de manera simbólica con quien murió no es un fracaso del duelo. No hay etapas que haya que cumplir ni duración fija.",
+   "seccion": "La decisión de la eutanasia y la culpa"
+  }
+ ],
+ "abierta": "Si el dolor por un animal se vuelve más pesado cuando falta compañía para atravesarlo, ¿qué haría falta para que estos duelos tuvieran su lugar, como los de otras pérdidas?"
+}

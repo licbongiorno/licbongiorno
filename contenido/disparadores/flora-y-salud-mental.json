@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay quien se sostiene en los peores momentos regando una maceta o cuidando la huerta del fondo.",
+   "p": "¿Hacer jardinería hace bien a la salud mental?",
+   "opciones": [
+    "No, es solo una distracción sin efectos",
+    "Sí: se la asoció con menos depresión y ansiedad y más satisfacción con la vida",
+    "Solo ayuda a quienes ya les gustaban las plantas"
+   ],
+   "r": "Soga y colaboradores encontraron una asociación positiva entre la jardinería y varios indicadores de salud: menos síntomas de depresión y de ansiedad, más satisfacción con la vida y mejor calidad de vida.",
+   "como": "Es un metaanálisis publicado en 2017 que reunió 22 estudios, y por eso permite estimar un efecto conjunto.",
+   "debate": "Los estudios eran muy distintos entre sí, muchos eran chicos y no todos tenían grupos de comparación. Hubo indicios de sesgo de publicación, aunque al corregirlo el efecto se sostuvo.",
+   "seccion": "Lo que dicen los estudios sobre jardinería"
+  },
+  {
+   "enigma": "En la oficina alguien puso una planta en cada escritorio, convencido de que baja el estrés y mejora la concentración.",
+   "p": "¿Qué dice la investigación sobre las plantas de interior?",
+   "opciones": [
+    "Que bajan claramente el estrés de todo un equipo",
+    "Que los resultados son mixtos y no permiten sacar conclusiones generales",
+    "Que no tienen ningún efecto de ningún tipo"
+   ],
+   "r": "La evidencia es más modesta de lo que se dice. Una planta puede hacer el lugar más agradable y para algunas personas eso cuenta, pero no hay base para prometer que baje el estrés de todos.",
+   "como": "Bringslimark, Hartig y Patil (2009) hicieron una revisión crítica de los experimentos sobre plantas en espacios cerrados.",
+   "debate": "Los estudios variaban mucho en lo que manipulaban, en los lugares, en las muestras y en las medidas. Algunos hallazgos se repetían, como una mejor tolerancia al dolor ante las plantas, pero los resultados fueron mixtos.",
+   "seccion": "Las plantas de interior: menos claro de lo que se dice"
+  }
+ ],
+ "abierta": "Si todavía no sabemos si lo que ayuda es la planta, el aire libre o el rato de cuidado, ¿cómo separar esas cosas? Se sigue investigando."
+}

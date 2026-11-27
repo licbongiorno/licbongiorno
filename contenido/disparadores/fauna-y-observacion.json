@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay barrios con más pájaros que otros: horneros, benteveos, palomas. Alguien se pregunta si eso tiene algo que ver con cómo se sienten sus habitantes.",
+   "p": "¿Vivir donde se ven más pájaros se relaciona con la salud mental?",
+   "opciones": [
+    "No, no hay ninguna relación",
+    "Sí: se asoció con menos depresión, ansiedad y estrés",
+    "Solo pasa en el campo, no en las ciudades"
+   ],
+   "r": "En un estudio con vecinos de barrios urbanos, la cobertura de vegetación y la cantidad de pájaros visibles por la tarde se asociaron con menor prevalencia de depresión, ansiedad y estrés, aun tras tener en cuenta ingresos, edad y nivel de privación del barrio.",
+   "como": "Daniel Cox y colaboradores (2017, BioScience) trabajaron con más de 270 personas de barrios del Reino Unido y midieron varias formas de naturaleza cercana.",
+   "debate": "El estudio es correlacional: muestra que dos cosas aparecen juntas, no que una cause la otra. Puede ser que los barrios con más pájaros tengan otras ventajas, o que quienes tienen mejor salud elijan vivir en ellos.",
+   "seccion": "Pájaros en el barrio"
+  },
+  {
+   "enigma": "Te quedás un rato mirando una fila de hormigas o un pájaro que no se va. Y al rato, sin darte cuenta, la cabeza descansó.",
+   "p": "¿Por qué mirar animales puede aliviar la cabeza?",
+   "opciones": [
+    "Porque no pensamos en absolutamente nada",
+    "Porque atrae una atención suave, sin esfuerzo, que deja espacio para pensar",
+    "Porque nos distrae de lo que nos preocupa"
+   ],
+   "r": "Los Kaplan distinguieron la atención dirigida, que exige esfuerzo y se cansa, de una atención fascinada que llega sin esfuerzo. Un pájaro que se posa o una fila de hormigas la despiertan, y eso permitiría que la primera descanse.",
+   "como": "La propuesta de Rachel y Stephen Kaplan es de 1989 (The Experience of Nature). La observación paciente de animales también tiene una tradición propia: la etología de Konrad Lorenz, que influyó en Bowlby y en la teoría del apego.",
+   "debate": "La hipótesis de la biofilia de Edward Wilson es debatida, y para muchas personas la fauna cercana asusta en lugar de calmar. No hay que prometer que mirar pájaros cure nada.",
+   "seccion": "Observar como práctica de atención"
+  }
+ ],
+ "abierta": "Si no sabemos todavía si los pájaros nos hacen bien o si buscamos barrios donde ya estamos mejor, ¿cómo se podría averiguar? Es una pregunta abierta."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Seguís mirando la última conversación en el celular. Cambiás de vereda para no pasar por donde ibas con esa persona. Alrededor te dicen que ya va a pasar. Nadie murió.",
+   "p": "¿Por qué una separación puede doler tanto como una muerte?",
+   "opciones": [
+    "No duele igual: es exagerar, porque la persona está viva",
+    "Porque se pierde mucho más que una persona: rutina, proyecto, lugar social y una versión de uno mismo",
+    "Porque quien se separa casi siempre estaba demasiado apegado"
+   ],
+   "r": "Es un duelo poco reconocido, sin rito ni consenso sobre cuánto tiempo se puede estar mal. Se pierde la rutina, el proyecto y el futuro imaginado, el lugar social (amigos, familia política, el «nosotros») y una versión de uno mismo.",
+   "como": "Slotter, Gardner y Finkel (2010) estudiaron cómo una ruptura afecta la imagen de sí y vieron que muchas personas quedan con menos claridad sobre quiénes son, y que eso se relaciona con más malestar. Bowlby (1980) describió fases ante una pérdida: protesta y búsqueda, desorganización y desesperanza, y reorganización.",
+   "debate": "Las fases de Bowlby no son un orden fijo ni una receta. Y no hay respaldo para la idea de que hay que «dar vuelta la página» en un plazo, ni de que un nuevo vínculo borre el anterior.",
+   "seccion": "La identidad también se mueve"
+  },
+  {
+   "enigma": "Alguien acaba de ser rechazado por su pareja. Aunque sabe que terminó, no puede dejar de buscar, de pensar en esa persona y de querer escribirle.",
+   "p": "¿Qué está pasando por dentro?",
+   "opciones": [
+    "Falta de voluntad: si quisiera, ya habría soltado",
+    "Es esperable: el apego a una pareja no se corta con la decisión",
+    "Solo le pasa a quien tiene un trastorno obsesivo"
+   ],
+   "r": "El apego a una pareja no se corta con la decisión, y la ansiedad, la búsqueda y los pensamientos obsesivos son esperables en los primeros tiempos.",
+   "como": "Fisher y colaboradores (2010) usaron resonancia magnética funcional en personas recién rechazadas y vieron actividad en regiones ligadas a la recompensa, la motivación y la regulación emocional al mirar fotos de la persona amada.",
+   "debate": "Fue un estudio con pocas personas y conviene no sacar conclusiones grandes. Acompaña lo que ya sabemos por la experiencia, pero no explica por sí solo cada caso.",
+   "seccion": "El dolor es real, y tiene una base afectiva"
+  }
+ ],
+ "abierta": "Si dos personas pueden separarse y seguir cruzándose por los hijos, los amigos o la ciudad, ¿cómo se hace un duelo cuando el otro sigue ahí? Es una pregunta abierta."
+}

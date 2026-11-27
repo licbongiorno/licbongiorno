@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien sueña casi todas las semanas que lo persiguen por una casa que conoce y no reconoce. Se despierta agitado y le cuesta volver a dormir. Con el tiempo empieza a posponer la hora de acostarse.",
+   "p": "¿Qué creés que pasa con ese rodeo?",
+   "opciones": ["Ayuda: dormir menos evita las pesadillas", "El miedo a la noche fragmenta el sueño, y un sueño más frágil favorece más pesadillas", "No tiene ninguna relación con las pesadillas"],
+   "r": "El miedo a volver a soñarla hace que la persona se acueste en alerta, y eso la vuelve más probable: una pesadilla recurrente funciona, muchas veces, como un guion aprendido. Entender ese círculo ya alivia, porque la saca del lugar de «algo que me está pasando» y la ubica como algo con lógica.",
+   "como": "Se observa en la clínica del sueño. Entre las causas frecuentes están el estrés, el trauma, algunos medicamentos, el alcohol y la falta de sueño.",
+   "debate": "Es una escena posible, no un caso real. Si las pesadillas se repiten varias veces por semana o están ligadas a un trauma, conviene consultar y hacerlo con acompañamiento.",
+   "seccion": "Cuando la pesadilla se repite"
+  },
+  {
+   "enigma": "Hay una técnica para las pesadillas que consiste en recordarlas, cambiarles algo (el final, un personaje, el lugar) y ensayar de día, unos minutos, la versión nueva.",
+   "p": "¿Creés que cambiar un sueño imaginándolo despierto puede funcionar?",
+   "opciones": ["No: los sueños no se pueden modificar", "Sí, y tiene buen respaldo", "Solo funciona si se interpreta el sueño primero"],
+   "r": "Se llama ensayo en imaginación y hoy se considera una de las intervenciones con mejor respaldo para las pesadillas, aunque no funciona igual en todas las personas. Si las pesadillas tienen que ver con un trauma, conviene hacerlo con acompañamiento profesional.",
+   "como": "Barry Krakow y su equipo publicaron en 2001 un estudio con mujeres con pesadillas crónicas tras una agresión: con solo tres sesiones, las pesadillas y los síntomas de estrés postraumático disminuyeron en la mayoría.",
+   "debate": "Esa población era específica y no alcanza para generalizar. La lectura simbólica de las pesadillas, en cambio, es una teoría clínica, no un hecho medido: sirve cuando hace sentido para la persona.",
+   "seccion": "Cuando la pesadilla se repite"
+  }
+ ],
+ "abierta": "Si una pesadilla puede calmarse y también tener algo para decirnos, ¿conviene primero apagarla o escucharla? Es una pregunta que se resuelve caso por caso."
+}

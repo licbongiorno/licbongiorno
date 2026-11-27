@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien se sienta cinco minutos a meditar. Su cabeza planifica la cena, repasa una discusión de hace tres años y se pregunta si cerró la puerta. Piensa: «a mí no me sale».",
+   "p": "¿Qué te parece que está pasando?",
+   "opciones": ["Está fallando: meditar es dejar la mente en blanco", "Es lo esperable, y notar que la mente se fue y volver es justamente la práctica", "Hay personas a las que simplemente no les sirve meditar"],
+   "r": "Meditar es entrenar de forma intencional la atención y la conciencia. Que la mente se vaya es parte del proceso: cada vuelta cuenta como una repetición, como una flexión de brazo. No hay que lograr que no se vaya.",
+   "como": "Los investigadores Antoine Lutz, Richard Davidson y colaboradores propusieron una distinción útil: la atención focalizada, que sostiene la atención en un objeto y vuelve a él cada vez que se va, y el monitoreo abierto, que observa todo lo que aparece sin engancharse.",
+   "debate": "Cuánta práctica hace falta y qué tipo conviene a quién todavía está abierto.",
+   "seccion": "Dos grandes familias"
+  },
+  {
+   "enigma": "En las últimas décadas se publicaron miles de estudios sobre meditación, y en los medios abundan las promesas. Aun así, un grupo de investigadores advirtió sobre el «hype» alrededor del tema.",
+   "p": "¿Qué creés que encontró la investigación cuando se la mira con cuidado?",
+   "opciones": ["Que cura la ansiedad y la depresión mejor que cualquier otro tratamiento", "Efectos modestos, parecidos a otros tratamientos activos, y no inocuos para todos", "Que no tiene ningún efecto"],
+   "r": "La revisión de Goyal y colaboradores (2014, JAMA Internal Medicine) integró 47 ensayos y encontró evidencia moderada de mejoras en ansiedad, depresión y dolor, con efectos modestos y no superiores a otros tratamientos activos. No reemplaza un tratamiento, pero puede complementarlo.",
+   "como": "Se llegó a esto juntando y comparando muchos ensayos. Van Dam y colaboradores (2018) señalaron estudios chicos, definiciones confusas y falta de grupos de control activos. Otros trabajos (Lindahl, 2017; Farias, 2020) describieron efectos adversos posibles, como ansiedad, recuerdos traumáticos o sensación de irrealidad, con gran variabilidad entre estudios.",
+   "debate": "Los efectos adversos pueden ser más probables en prácticas intensivas o con antecedentes de trauma o psicosis. Cuánto duran los efectos en el tiempo también está abierto.",
+   "seccion": "Qué dice la investigación y cuáles son sus límites"
+  }
+ ],
+ "abierta": "Si meditar entrena la atención pero no es igual para todos, ¿cómo saber qué práctica le conviene a cada persona y en qué momento? Es algo que aún se estudia."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Tenés el trabajo que buscabas, una familia, una rutina que funciona. Subiste la escalera que te dijeron que había que subir. Y un día, arriba de todo, te preguntás si era esta la pared donde querías apoyarla.",
+   "p": "¿Qué puede estar pasando?",
+   "opciones": ["Ingratitud o capricho", "Un cambio de etapa: la vida tendría dos mitades con tareas distintas", "Cansancio pasajero que siempre se resuelve con vacaciones"],
+   "r": "Jung atendió a muchas personas de mediana edad que, habiendo cumplido lo esperado, sentían que su vida había perdido sentido. Propuso que la vida tiene dos mitades: en la primera la energía va hacia afuera (formarse, trabajar, armar vínculos) y en la segunda la invitación es mirar hacia adentro, preguntarse por el sentido e integrar lo relegado.",
+   "como": "Jung lo escribió en 1931 a partir de su práctica clínica. La expresión «crisis de la mitad de la vida» se hizo popular con el psicoanalista Elliott Jaques, que la usó en 1965.",
+   "debate": "Es una lectura simbólica muy fértil, pero no una fase evolutiva comprobada que todos atraviesan a una edad fija. Conviene distinguir una crisis de sentido de una depresión, que necesita tratamiento.",
+   "seccion": "Lo que observó Jung"
+  },
+  {
+   "enigma": "Se habla de la crisis de los cuarenta como si todos la sufrieran. Pero hay muchas personas de esa edad que se sienten estables y satisfechas.",
+   "p": "¿Qué encontraron los estudios que siguieron a muchas personas?",
+   "opciones": ["Que casi todos atraviesan una crisis marcada", "Que solo una parte de las personas de mediana edad vive una crisis marcada", "Que nadie la vive"],
+   "r": "Estudios longitudinales amplios, como el proyecto MIDUS, encontraron que solo una parte de las personas de mediana edad vive una crisis marcada. No es un destino universal, y para muchos esta etapa es de estabilidad y satisfacción.",
+   "como": "Son estudios que siguen a las mismas personas durante años, con cuestionarios y entrevistas, lo que permite ver cuántas atraviesan realmente una crisis.",
+   "debate": "La idea junguiana de las dos mitades es una lectura simbólica, no un hallazgo de esos estudios. La palabra crisis, además, viene del griego y significa «decisión»: no es solo un derrumbe, sino un momento en que algo tiene que cambiar.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si no a todos les llega una crisis, ¿qué hace que unos se pregunten por el sentido a esta edad y otros no? Es una pregunta que sigue abierta."
+}

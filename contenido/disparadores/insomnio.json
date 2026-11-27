@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Después de algunas malas noches te acostás más temprano y te quedás en la cama hasta tarde, para compensar.",
+   "p": "¿Quedarse más horas en la cama ayuda a dormir mejor?",
+   "opciones": [
+    "Sí, así se recupera el sueño perdido",
+    "No: el sueño se vuelve más liviano y entrecortado",
+    "Da igual cuánto tiempo se esté en la cama"
+   ],
+   "r": "Es parte de un círculo: preocuparse por dormir activa el cuerpo, la persona pasa más horas en la cama y el cerebro aprende que la cama es un lugar para estar despierto. Reducir el tiempo en cama al que realmente se duerme puede hacer el sueño más profundo.",
+   "como": "La terapia cognitivo-conductual del insomnio (TCC-I) trabaja sobre estos factores, y es el tratamiento que recomiendan en primera línea las guías, como la europea de 2017 (Riemann y otros).",
+   "debate": "La restricción del tiempo en cama no es para cualquiera: conviene hacerla con un profesional, sobre todo si hay trastorno bipolar, epilepsia o somnolencia al manejar.",
+   "seccion": "El círculo del insomnio"
+  },
+  {
+   "enigma": "Son las tres de la mañana y cuanto más intentás dormir, más despierto estás. Alguien te dice que lo mejor es una pastilla.",
+   "p": "¿Qué recomiendan primero las guías clínicas para el insomnio?",
+   "opciones": [
+    "Medicación desde el principio",
+    "Terapia cognitivo-conductual, antes que los medicamentos",
+    "Esperar a que pase solo"
+   ],
+   "r": "La terapia cognitivo-conductual del insomnio es el tratamiento recomendado en primer lugar por las guías clínicas. Los hipnóticos se recomiendan por períodos cortos.",
+   "como": "Se apoya en ensayos y en guías de práctica clínica, como la europea de 2017.",
+   "debate": "El insomnio puede ser parte de una depresión, de la ansiedad, del dolor crónico o de problemas como la apnea, por lo que a veces hace falta evaluación médica. Y las aplicaciones de seguimiento del sueño pueden aumentar la ansiedad por dormir.",
+   "seccion": "Qué ayuda de verdad"
+  }
+ ],
+ "abierta": "Si el sueño no se puede forzar, ¿cómo se aprende a dejar de intentarlo? Es una pregunta que sigue abierta."
+}

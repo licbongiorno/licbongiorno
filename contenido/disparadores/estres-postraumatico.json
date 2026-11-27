@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Pasaron dos años de un accidente. La persona maneja de nuevo, trabaja, hace su vida. Pero cuando escucha un frenazo, el cuerpo se le dispara antes de que pueda pensar nada.",
+   "p": "¿Cómo puede el cuerpo reaccionar así mucho tiempo después?",
+   "opciones": [
+    "Es una exageración que se corrige con fuerza de voluntad",
+    "El cuerpo sigue en estado de alerta, como si el peligro fuera actual",
+    "Es señal de que la persona es débil"
+   ],
+   "r": "Cuando las reacciones que son esperables tras un hecho muy duro no ceden y siguen, puede tratarse de un trastorno de estrés postraumático. Los síntomas suelen agruparse en cuatro conjuntos: reexperimentación, evitación, cambios negativos en el ánimo y el pensamiento, e hiperactivación.",
+   "como": "La clínica los describió y los agrupó; el diagnóstico lo hace un profesional con una evaluación completa.",
+   "debate": "Que aparezcan algunos de estos rasgos no alcanza para ponerse una etiqueta. No es exageración ni debilidad.",
+   "seccion": "Cómo se reconoce"
+  },
+  {
+   "enigma": "Dos personas atraviesan un mismo hecho muy duro. Años después, una sigue sufriendo. La otra retomó su vida con tristeza pero sin quedar atrapada.",
+   "p": "¿Qué es más común después de un hecho así?",
+   "opciones": [
+    "Que la mayoría desarrolle estrés postraumático",
+    "Que la mayoría se recupere con el tiempo",
+    "Que se reparta mitad y mitad"
+   ],
+   "r": "La resiliencia, entendida como mantener un funcionamiento estable tras un hecho muy adverso, es más común de lo que se suele creer: la mayoría de las personas expuestas a un trauma se recupera.",
+   "como": "George Bonanno (2004) revisó la evidencia sobre cómo responden las personas ante hechos muy adversos y sostuvo esa idea.",
+   "debate": "Esto tranquiliza, pero no minimiza a quienes sí desarrollan el cuadro. Y no tiene respaldo la idea de que el tiempo lo cura solo cuando los síntomas persisten: para eso hay tratamientos centrados en el trauma.",
+   "seccion": "No todos quienes viven un trauma desarrollan TEPT"
+  }
+ ],
+ "abierta": "Si algunas personas se recuperan solas y otras no, ¿qué hace la diferencia? Todavía se investiga."
+}

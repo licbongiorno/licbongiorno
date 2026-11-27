@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hoy wabi-sabi suena a belleza serena y a objetos imperfectos y lindos. Pero wabi y sabi son palabras muy antiguas que, en su origen, no sonaban tan bien.",
+   "p": "¿Qué significaban al principio?",
+   "opciones": [
+    "Lujo y abundancia, lo contrario de lo que hoy evocan",
+    "Cosas más bien negativas: la pobreza y soledad de quien vive apartado, y el deterioro y la vejez de las cosas",
+    "Nombres de técnicas de cerámica"
+   ],
+   "r": "Wabi se asociaba a la pobreza y a la soledad de quien vive apartado, y sabi al deterioro y la vejez. Con el tiempo, sobre todo en el mundo del té, esos sentidos se fueron revirtiendo y pasaron a nombrar una belleza serena de lo humilde.",
+   "como": "Se reconoce un linaje de maestros del té: Murata Jukō, Takeno Jōō y Sen no Rikyū, a quien se atribuye haber llevado el té de lo austero a su forma más acabada. Leonard Koren le dedicó en 1994 un libro que fue la puerta de entrada a Occidente.",
+   "debate": "Los historiadores discuten los detalles y conviene desconfiar de las versiones demasiado limpias. Tampoco son psicoterapias: no tienen técnica terapéutica ni investigación que evalúe resultados, y la versión de las redes suele ser decoración con barniz de espiritualidad.",
+   "seccion": "Contexto histórico: el té y la estética de lo austero"
+  },
+  {
+   "enigma": "Alguien que perdió a un ser querido escucha de un conocido: «las grietas son oro». La imagen del kintsugi, la taza reparada con oro, se volvió muy popular.",
+   "p": "¿Es una buena frase para decirle a alguien que sufre?",
+   "opciones": [
+    "Sí, siempre consuela",
+    "No necesariamente: puede lastimar si se usa como mandato, porque el duelo no tiene una moraleja obligatoria",
+    "Solo si la persona conoce la tradición japonesa"
+   ],
+   "r": "La imagen de lo roto que se repara puede consolar, pero también suena a que uno debería estar agradecido por lo que pasó. Hay un uso respetuoso: una taza reparada nunca vuelve a ser la misma, y eso se parece a lo que muchos duelos enseñan, se sigue con la marca.",
+   "como": "Hay parentescos simbólicos: Jung retomó del mito la figura del «sanador herido», y Winnicott propuso la madre «suficientemente buena». Son paralelos, no influencias documentadas.",
+   "debate": "Es un parentesco simbólico, no una prueba de que sufrir mejore a nadie. Y a veces conviene dejar la imagen de lado, sobre todo si quien consulta está en pleno dolor y necesita ser escuchado antes que reencuadrado.",
+   "seccion": "El kintsugi como metáfora del duelo y del trauma, con cuidado"
+  }
+ ],
+ "abierta": "Si una metáfora puede consolar a unos y lastimar a otros, ¿cómo se elige la palabra justa para cada persona? Es una pregunta abierta."
+}

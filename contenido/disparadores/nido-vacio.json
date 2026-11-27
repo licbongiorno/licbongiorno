@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "La habitación del fondo quedó ordenada por primera vez en años. A la cena hay dos platos en lugar de cuatro. Uno se descubre llorando frente a una cama vacía, y otra persona, con un poco de culpa, disfruta la tranquilidad.",
+   "p": "¿Qué pasa en general con las parejas cuando los hijos se van?",
+   "opciones": ["Casi siempre entran en crisis o depresión", "Las respuestas son muy distintas: algunos sienten pérdida y otros alivio o mejoras", "Siempre mejora todo porque hay más tiempo libre"],
+   "r": "La idea de que el nido vacío provoca inevitablemente depresión o crisis no tiene respaldo sólido. En la consulta se ven respuestas muy distintas, y pesan factores como la calidad del vínculo de pareja, las redes de apoyo y los otros roles de la persona. El «síndrome del nido vacío» no es un diagnóstico.",
+   "como": "Gorchoff, John y Helson siguieron durante 18 años a un grupo de mujeres, desde alrededor de los cuarenta hasta los sesenta. La satisfacción con la pareja aumentó en la mediana edad y se ligó a la transición al nido vacío; la satisfacción general con la vida no cambió por eso.",
+   "debate": "Es un estudio con mujeres de un contexto particular, así que no permite generalizar. Hay quienes tienen un malestar real por la pérdida del rol, y eso también es válido.",
+   "seccion": "Qué tiene respaldo y qué no"
+  },
+  {
+   "enigma": "Alguien dedicó buena parte de la vida a criar, y cuando los hijos se van se pregunta quién es ahora. Es un duelo por algo que se buscó y salió bien, y por eso cuesta reconocerlo.",
+   "p": "¿Cómo se puede mirar esta etapa?",
+   "opciones": ["Como el final de lo importante de la vida", "Como una invitación a preguntarse qué falta desplegar en la segunda mitad", "Como algo que no merece mayor atención"],
+   "r": "Jung propuso en 1931 pensar la vida como el recorrido del sol: la primera mitad se dedica a afirmarse en el mundo (familia, oficio, lugar) y la segunda tiene tareas y sentidos propios. Desde ahí, el nido vacío puede leerse como una pregunta por lo que falta desplegar.",
+   "como": "Es un ensayo de Jung sobre las etapas de la vida. En terapia se da lugar al duelo, se exploran las partes postergadas durante la crianza y se conversa en pareja sobre expectativas y planes.",
+   "debate": "Es una mirada filosófica y clínica, no una ley comprobada del desarrollo. Llevar a la segunda mitad los criterios de la primera trae problemas, según Jung, pero no es una regla general.",
+   "seccion": "La mitad de la vida en Jung"
+  }
+ ],
+ "abierta": "Si criar fue una parte tan grande de la identidad, ¿quiénes somos cuando los hijos siguen su camino, y quiénes somos como pareja? Cada vínculo lo responde a su manera."
+}

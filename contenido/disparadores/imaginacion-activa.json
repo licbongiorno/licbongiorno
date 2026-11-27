@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Estás tironeado entre quedarte o irte, cuidar o cuidarte. El yo elige una opción y suprime la otra. Pero la otra insiste: aparece como insomnio o angustia.",
+   "p": "¿Qué pasa con la opción que se deja de lado?",
+   "opciones": [
+    "Desaparece cuando uno decide",
+    "Insiste de otra forma, como síntoma",
+    "Se vuelve más débil con el tiempo"
+   ],
+   "r": "Para Jung, la psique tiene una capacidad que llamó función trascendente: unir los opuestos en algo nuevo, una tercera posibilidad que antes no se veía. «Trascendente» no tiene un sentido místico: significa que permite pasar de un estado a otro.",
+   "como": "Jung lo observó en la clínica y en sí mismo. Practicó la imaginación activa durante años, tras separarse de Freud, y registró sus diálogos e imágenes en El Libro Rojo, publicado recién en 2009.",
+   "debate": "Que la imaginación activa active específicamente una función trascendente no está probado en estudios controlados: se apoya en la experiencia de Jung y de generaciones de analistas.",
+   "seccion": "Cuando los opuestos no se ponen de acuerdo"
+  },
+  {
+   "enigma": "Hay una imagen de un sueño que no se va, o una tristeza que no se deja nombrar.",
+   "p": "¿Qué se puede hacer con una imagen que insiste?",
+   "opciones": [
+    "Olvidarla hasta que se vaya",
+    "Dejarla aparecer, dialogar con ella y darle forma escribiendo, dibujando o moviéndose",
+    "Analizarla como un acertijo, sin involucrarse"
+   ],
+   "r": "La imaginación activa es un método con pasos: dejar surgir la imagen, prestarle atención, entrar en diálogo, darle forma y reflexionar después. La diferencia con fantasear es que el yo está presente y responde.",
+   "como": "Lo desarrolló Jung a partir de su propia experiencia. Hay investigación sólida sobre técnicas cercanas, como poner en palabras las emociones o escribir sobre experiencias difíciles, que suelen reducir la intensidad del malestar.",
+   "debate": "No se recomienda en estados de desorganización, psicosis o crisis aguda, ni cuando las imágenes se imponen. Un primer episodio psicótico requiere atención psiquiátrica, no ejercicios de imaginación.",
+   "seccion": "Qué es la imaginación activa"
+  }
+ ],
+ "abierta": "Si dar forma a lo que sentimos alivia, ¿qué es exactamente lo que cambia cuando una emoción se dibuja o se escribe? Todavía se investiga."
+}

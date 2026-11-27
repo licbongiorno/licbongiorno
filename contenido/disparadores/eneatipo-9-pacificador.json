@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En un grupo de amigos alguien pregunta dónde comer. Una persona contesta siempre «me da igual, elegí vos». Después, en el auto, se la nota un poco fastidiosa.",
+   "p": "¿Por qué alguien dice «lo que sea» aun cuando sí tiene una preferencia?",
+   "opciones": [
+    "Porque en verdad no le importa nada de lo que pase",
+    "Porque el conflicto le resulta más amenazante que renunciar a lo suyo",
+    "Porque es una persona perezosa y prefiere que otros decidan"
+   ],
+   "r": "Según el eneagrama, el eneatipo 9 desea paz interior y exterior y teme el conflicto y la separación. Su «pereza» no es de hacer cosas sino hacia uno mismo: olvidarse de los propios deseos y prioridades para que todo siga tranquilo.",
+   "como": "El eneagrama viene de Óscar Ichazo y de Claudio Naranjo, y se apoya en la observación y en la clínica, no en experimentos. Es un mapa de autoconocimiento más que una medición.",
+   "debate": "No tiene respaldo psicométrico sólido y no hay que tomarlo como una categoría cerrada. Tampoco conviene confundir esta calma con una depresión, que puede verse como apatía y falta de deseo y necesita evaluación.",
+   "seccion": "Lo que lo mueve"
+  },
+  {
+   "enigma": "Alguien dice que sí cuando piensa que no. Nadie se pelea. Semanas después aparecen olvidos, silencios y una terquedad que nadie entiende.",
+   "p": "¿Qué puede pasar con el enojo que no se dice?",
+   "opciones": [
+    "Se disuelve solo, porque al final no era importante",
+    "Encuentra otra salida: silencio, olvidos, resistencia callada",
+    "Se transforma en más cariño hacia los demás"
+   ],
+   "r": "Según la teoría, el enojo tragado en el 9 puede salir como terquedad pasiva. En terapia se trabaja reconocerlo, nombrar pequeñas preferencias y animarse a ocupar un lugar, sin apurar.",
+   "como": "Surge de la observación clínica. Desde lo psicoanalítico se explora cómo esa persona aprendió que su deseo molestaba o no contaba; desde lo junguiano, se invita a los símbolos del despertar: sueños, imágenes, el cuerpo.",
+   "debate": "Los estudios sobre amabilidad y evitación del conflicto son reales, pero no confirman un «tipo 9». La calma y la capacidad de mediar son virtudes, no síntomas.",
+   "seccion": "Su sombra"
+  }
+ ],
+ "abierta": "Si un mapa tan popular no se sostiene en las mediciones, ¿por qué tanta gente se reconoce en él? Es una pregunta que sigue abierta."
+}

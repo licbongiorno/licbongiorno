@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un mensaje visto por casualidad. Una explicación que no cierra. Para muchos, el descubrimiento divide la vida en un antes y un después. Después aparecen el insomnio, la dificultad para concentrarse y pensamientos que vuelven a la misma escena.",
+   "p": "¿Qué reacción es esperable al descubrir una infidelidad?",
+   "opciones": [
+    "Un enojo pasajero que se va rápido",
+    "Algo que se parece a una reacción traumática",
+    "Indiferencia, si la relación ya estaba mal"
+   ],
+   "r": "Quien descubre una infidelidad suele describir algo muy parecido a lo que se ve tras un golpe fuerte: shock, dificultad para dormir o concentrarse, necesidad de revisar y preguntar. Del otro lado, también puede haber vergüenza, culpa y miedo a perder a la familia.",
+   "como": "Surge de la observación clínica. Gordon, Baucom y Snyder (2004) partieron de que las infidelidades son un motivo frecuente de consulta y propusieron una intervención por etapas que empieza por el impacto.",
+   "debate": "Generalizar sobre las causas o los motivos suele ser un error. No hay una fórmula que garantice que la pareja se salve ni una que garantice que deba terminar.",
+   "seccion": "Una reacción que se parece al trauma"
+  },
+  {
+   "enigma": "Alguien dice: «Tenés que perdonar para poder seguir».",
+   "p": "¿Hay que perdonar para seguir adelante?",
+   "opciones": [
+    "Sí, sin perdón no se puede avanzar",
+    "No: el perdón puede llegar o no, y lleva tiempo",
+    "Sí, pero tiene que ser enseguida"
+   ],
+   "r": "El perdón no es obligatorio ni inmediato. Hay parejas que se reconstruyen sin una gran escena de perdón, y personas que perdonan y aun así deciden separarse.",
+   "como": "Lo muestra la clínica con parejas; el abordaje de Gordon, Baucom y Snyder separa etapas (impacto, comprensión, y luego decisiones) para evitar decidir en el pico del dolor.",
+   "debate": "Presionar a alguien para que «ya lo supere» suele agregar una segunda herida. Entender cómo ocurrió no es justificar.",
+   "seccion": "El perdón: ni obligatorio ni inmediato"
+  }
+ ],
+ "abierta": "Si no hay una receta, ¿qué hace que algunas parejas se reconstruyan y otras no? Todavía se investiga."
+}

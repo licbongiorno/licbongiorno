@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Yo soy así, siempre fui medio apagado». Hay personas que llevan años con un ánimo bajo y parejo, sin grandes caídas pero sin alegría sostenida, y piensan que es su forma de ser.",
+   "p": "¿Cómo saber si es carácter o algo que tiene nombre y tratamiento?",
+   "opciones": [
+    "Si se puede trabajar y cumplir, entonces no hay problema",
+    "Mirando si ese ánimo limita, quita energía o hace sentir que la vida pasa de largo",
+    "Es siempre carácter: la tristeza parejita no puede ser un trastorno"
+   ],
+   "r": "Hay personas serias o reservadas sin ningún trastorno. La diferencia está en el sufrimiento y en lo que se pierde. La distimia (trastorno depresivo persistente en el DSM-5) implica ánimo bajo la mayor parte de los días durante al menos dos años en adultos.",
+   "como": "Es una definición diagnóstica de los manuales, que exigen además dos o más síntomas como cambios en el apetito o el sueño, poca energía, baja autoestima o desesperanza. El diagnóstico lo hace un profesional.",
+   "debate": "Justamente por ser menos intensa que una depresión mayor y no tener un quiebre que invite a consultar, pasa desapercibida. Y puede coexistir con episodios más profundos.",
+   "seccion": "Por qué cuesta reconocerla"
+  },
+  {
+   "enigma": "Alguien que trabaja y cumple con todo lleva años haciéndolo con muy poca energía. De afuera parece responsable. Por dentro, cada día es un esfuerzo.",
+   "p": "¿Con qué se la trata?",
+   "opciones": [
+    "Solo hay que esperar: con el tiempo el ánimo cambia solo",
+    "Con psicoterapia y, a veces, medicación; suele necesitar más tiempo y constancia",
+    "No tiene tratamiento porque es parte de la personalidad"
+   ],
+   "r": "Es tratable, aunque suele necesitar más tiempo y constancia que otros cuadros. Esperar que el ánimo cambie solo porque pase el tiempo no tiene respaldo.",
+   "como": "Un metaanálisis de Cuijpers y colaboradores (2010) sobre psicoterapia en depresión crónica y distimia encontró efectos positivos. James McCullough desarrolló además un modelo pensado para la depresión crónica, el CBASP.",
+   "debate": "Los resultados fueron menos claros al comparar unas psicoterapias con otras, y la medicación se decide en cada caso con un psiquiatra.",
+   "seccion": "Qué ayuda y qué tiene respaldo"
+  }
+ ],
+ "abierta": "Si alguien se acostumbró desde adolescente a vivir con poca energía y no tiene con qué compararse, ¿cómo notarlo? Las preguntas que ayudan a detectarla todavía se afinan."
+}

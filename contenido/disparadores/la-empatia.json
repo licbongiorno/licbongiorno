@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona siempre fue la que escucha a todos: familia, amigos, compañeros. Últimamente vuelve a casa agotada, irritable, con la sensación de no tener nada más para dar.",
+   "p": "¿Qué crees que le pasa?",
+   "opciones": ["Se le acabó el amor por los demás", "Tiene demasiada empatía y se quedó sin reservas", "Es una exageración: escuchar no cansa"],
+   "r": "Quienes cuidan a otros pueden sentir fatiga por compasión o desgaste empático. No es falta de amor: la empatía sin límites se vacía. Ponerse en el lugar del otro no significa irse del propio.",
+   "como": "Se describió en personas que cuidan, como familiares de alguien enfermo, docentes, personal de salud, madres y padres, y también en quienes nunca tuvieron un lugar donde ser escuchados.",
+   "debate": "Más empatía no siempre es mejor. Algunos autores, como Paul Bloom, advierten que decidir según la empatía puede sesgar, porque sentimos más por una persona concreta que por muchas anónimas.",
+   "seccion": "Cuando la empatía cansa"
+  },
+  {
+   "enigma": "Un amigo llora y vos querés ayudarlo. Podés sentir lo mismo que él, hasta contagiarte del dolor, o sentir con él y a la vez desear aliviarlo, manteniendo cierta distancia.",
+   "p": "¿Cuál de las dos te parece que deja más disposición para ayudar?",
+   "opciones": ["Sentir exactamente lo mismo que él", "Ninguna: lo que ayuda es dar consejos", "Sentir con él y querer aliviarlo, sin quedar desbordado"],
+   "r": "Algunos investigadores, como Tania Singer, distinguen la empatía emocional de la compasión. Sus estudios sugieren que la empatía emocional sin límites puede generar angustia y desgaste, mientras que la compasión se asocia con más calma y disposición a ayudar.",
+   "como": "Singer y Klimecki (2014) sostienen que entrenar la compasión se asocia con más afecto positivo que entrenar la empatía emocional sola.",
+   "debate": "Las neuronas espejo se citaron mucho como base de la empatía, pero su rol en humanos es discutido. Conviene desconfiar de las explicaciones simples.",
+   "seccion": "Empatía y compasión"
+  }
+ ],
+ "abierta": "Carl Rogers pensaba que comprender el mundo del otro «como si» fuera propio era condición del cambio. ¿Cómo se sostiene ese «como si» sin perderse en el otro? Es algo que se sigue investigando."
+}

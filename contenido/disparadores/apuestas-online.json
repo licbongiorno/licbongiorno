@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un chico de 16 años abre una apuesta chica en dos toques durante el recreo. Pierde y piensa que la próxima va a recuperar. A la noche vuelve a abrir la aplicación.",
+   "p": "¿Por qué las apuestas online enganchan tanto?",
+   "opciones": ["Porque quienes quedan atrapados tienen alguna debilidad de carácter", "Porque combinan premios impredecibles, resultado inmediato y acceso constante desde el celular", "Porque apostar es siempre cuestión de mala suerte"],
+   "r": "No hace falta una debilidad especial. El juego online combina refuerzo intermitente (se gana a veces y de manera impredecible), inmediatez, celular siempre a mano, publicidad que lo presenta como algo cotidiano y falsas sensaciones de control. Además, después de perder, la idea de «recuperar» empuja a apostar más.",
+   "como": "Son mecanismos que la psicología del aprendizaje describe bien. El DSM-5 (2013) pasó el juego patológico a los trastornos adictivos con el nombre de «trastorno por juego», la primera adicción sin sustancia reconocida como tal. Se requieren 4 de 9 síntomas.",
+   "debate": "Que exista el diagnóstico no significa que cualquiera que apueste lo tenga: es una consulta profesional, no un autodiagnóstico. Tampoco se sostiene que alguien «aprenda» a ganar con constancia: el azar no se entrena.",
+   "seccion": "Por qué engancha"
+  },
+  {
+   "enigma": "En Argentina el juego online está prohibido para menores de 18 años. Aun así, varias encuestas de 2024 muestran que muchos adolescentes tienen contacto con las apuestas.",
+   "p": "¿Cuántos adolescentes dirías que accedieron o conocen a alguien que lo hizo?",
+   "opciones": ["Muy pocos, uno de cada veinte", "Una minoría chica, alrededor de uno de cada diez", "Una proporción grande: en una encuesta de UNICEF, 8 de cada 10"],
+   "r": "Una encuesta de UNICEF Argentina a unos 600 adolescentes y jóvenes halló que 8 de cada 10 accedieron o conocen a alguien que entró a aplicaciones o páginas de apuestas en el último año. En la provincia de Buenos Aires, el 34 % de 434 estudiantes secundarios apostó online al menos una vez, y en CABA uno de cada cuatro de 2.765 adolescentes participó.",
+   "como": "Son encuestas de 2024 hechas por UNICEF Argentina, la provincia de Buenos Aires y la Defensoría del Pueblo de CABA.",
+   "debate": "Esas encuestas no son comparables entre sí ni representativas de toda la población, y miden uso, no adicción. Que un chico haya apostado una vez no quiere decir que tenga un problema, pero sí que conviene hablarlo.",
+   "seccion": "Qué dicen las encuestas en Argentina"
+  }
+ ],
+ "abierta": "Si el celular volvió la apuesta tan accesible, ¿qué puede hacer una familia, una escuela o una sociedad para cuidar a los más jóvenes sin humillarlos? Todavía se está pensando."
+}

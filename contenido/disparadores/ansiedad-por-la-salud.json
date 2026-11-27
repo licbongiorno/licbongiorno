@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una molestia nueva no te deja dormir. Buscás en internet, el corazón se acelera y la molestia parece más fuerte. A la mañana, un estudio sale normal y sentís alivio. A los pocos días, aparece otra sensación y todo vuelve a empezar.",
+   "p": "¿Por qué el alivio dura tan poco?",
+   "opciones": ["Porque cada chequeo funciona como recompensa y mantiene la alarma encendida", "Porque los estudios no son confiables", "Porque la persona exagera lo que siente a propósito"],
+   "r": "El problema no es cuidar la salud: cada chequeo, búsqueda o consulta alivia un poco y enseña que la preocupación era necesaria, y la próxima vez el ciclo es más fuerte. Además los síntomas son reales: el cuerpo da señales todo el tiempo y la ansiedad las amplifica.",
+   "como": "Se lo conoce por la observación clínica del ciclo: sensación, interpretación catastrófica, ansiedad que genera más sensaciones, búsqueda de alivio. Tranquilizar repetidamente, ya sea con estudios o con palabras de otros, no tiende a ayudar.",
+   "debate": "Que haya ansiedad no significa que cualquier síntoma sea ansiedad: ante algo nuevo o persistente, se consulta a un médico. Primero se descarta lo que corresponda.",
+   "seccion": "El ciclo que mantiene el problema"
+  },
+  {
+   "enigma": "Durante años a esta preocupación se la llamó hipocondría. En 2013, el manual diagnóstico DSM-5 eliminó ese nombre y repartió los casos en dos categorías.",
+   "p": "¿Por qué quitaron ese nombre?",
+   "opciones": ["Porque se descubrió que no existe el problema", "Porque se percibía como peyorativo", "Porque ahora se cura con un solo tratamiento"],
+   "r": "El nombre se percibía como peyorativo, y los casos pasaron al trastorno de síntomas somáticos, cuando hay síntomas físicos que preocupan mucho, y al trastorno de ansiedad por enfermedad, cuando hay mucha preocupación con pocos síntomas o ninguno.",
+   "como": "En el estudio CHAMP (Tyrer y colaboradores, 2014), 444 adultos de clínicas médicas con ansiedad por la salud fueron asignados al azar. La terapia cognitivo-conductual redujo la ansiedad, con beneficio sostenido a dos años y sin aumentar los costos totales de atención.",
+   "debate": "Es uno de los respaldos más sólidos de este problema, pero no alcanza con repetir estudios hasta quedarse tranquilo: el alivio de cada resultado normal tiende a ser breve.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si el alivio de cada chequeo es breve, ¿cómo se aprende a convivir con la incertidumbre sin descuidar la salud de verdad? Es un equilibrio que cada persona va encontrando."
+}

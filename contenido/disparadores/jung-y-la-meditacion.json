@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Un psiquiatra suizo, en plena Europa de entreguerras, se sentaba cada mañana a dibujar círculos sin saber por qué. Años después encontró en un viejo texto chino de meditación imágenes muy parecidas.",
+   "p": "¿Cómo se explica la coincidencia?",
+   "opciones": [
+    "Fue pura casualidad",
+    "Para Jung, los círculos con un centro aparecen espontáneamente cuando la psique busca orden",
+    "Jung copió las imágenes de ese texto"
+   ],
+   "r": "Para Jung, el mandala, un círculo con un centro, es un símbolo del sí-mismo, de la totalidad psíquica, y aparece espontáneamente cuando la psique busca orden y centro. Descubrió que aparecía en tradiciones de todo el mundo.",
+   "como": "En 1928 el sinólogo Richard Wilhelm le envió la traducción de El secreto de la flor de oro, que describía procesos muy parecidos a los que Jung observaba en sus pacientes y en sí mismo. En 1929 publicó un comentario.",
+   "debate": "Esto es sobre todo pensamiento clínico y teórico, no resultados experimentales. Algunas lecturas de Jung sobre Oriente fueron criticadas por proyectar categorías occidentales sobre prácticas orientales.",
+   "seccion": "Los mandalas"
+  },
+  {
+   "enigma": "Alguien empieza a meditar para calmarse y se encuentra con recuerdos o sensaciones que lo desbordan.",
+   "p": "¿Meditar siempre trae calma?",
+   "opciones": [
+    "Sí, a todas las personas",
+    "No: a algunas personas puede traerles experiencias difíciles",
+    "Solo a quienes lo hacen mal"
+   ],
+   "r": "Jung no decía «no medites»; decía que no se use la meditación para escaparse de lo que nos habita. Sobre la meditación hay investigación: efectos modestos sobre ansiedad, depresión y dolor.",
+   "como": "Goyal y colaboradores (2014, JAMA Internal Medicine) encontraron efectos modestos, similares a los de otros tratamientos activos. Lindahl y colaboradores (2017) mostraron que meditar puede traer experiencias difíciles a algunas personas.",
+   "debate": "Que Jung lo haya dicho no prueba que las prácticas funcionen o fallen: es una hipótesis para tener presente, que hoy se discute con datos.",
+   "seccion": "Qué es teoría y qué tiene investigación"
+  }
+ ],
+ "abierta": "Si la meditación puede ayudar y también desbordar, ¿cómo saber para quién y cuándo? Todavía se investiga."
+}

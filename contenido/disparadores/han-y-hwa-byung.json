@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer de cincuenta y pico consulta por un calor que le sube del pecho a la cara, palpitaciones y un bulto en la boca del estómago. Los estudios dan normales. Cuando le preguntan por su vida, aparecen años de callar enojos por no romper la armonía de la familia.",
+   "p": "¿Puede el enojo guardado durante años expresarse en el cuerpo?",
+   "opciones": [
+    "No: el enojo es una emoción y el cuerpo es otra cosa",
+    "Sí: en la cultura coreana se lo nombra como una «enfermedad del fuego»",
+    "Solo en quienes inventan los síntomas"
+   ],
+   "r": "Hwa-byung significa «enfermedad del fuego» o «enfermedad de la ira». En el habla coreana es una forma de explicar un malestar sentido en el cuerpo y atribuido a la ira acumulada. Aparece sobre todo en mujeres de mediana edad tras años de conflictos familiares contenidos.",
+   "como": "Desde los años setenta la psiquiatría coreana lo estudia como cuadro clínico. Keh-Ming Lin lo describió en 1983 con tres casos, y Sung Kil Min y colaboradores (2009) propusieron catorce síntomas como base para criterios diagnósticos.",
+   "debate": "Casi toda la investigación viene de Corea, con muestras mayormente femeninas y de mediana edad. No hay acuerdo sobre si es un cuadro propio, una forma cultural de expresar la depresión o un trastorno de la ira más general, y los tratamientos específicos tienen poca evidencia.",
+   "seccion": "Qué es el hwa-byung"
+  },
+  {
+   "enigma": "En los folletos turísticos y en la cultura popular se dice que el han, una mezcla de pena, resentimiento, impotencia y anhelo, es un sentimiento exclusivo de los coreanos.",
+   "p": "¿Es el han algo que solo sienten los coreanos?",
+   "opciones": [
+    "Sí, es un rasgo heredado del pueblo coreano",
+    "No: esa idea se formó históricamente y fue muy criticada",
+    "Sí, pero solo en las generaciones mayores"
+   ],
+   "r": "El han es un concepto cultural, literario e histórico que nombra lo que se sedimenta cuando una injusticia no pudo repararse. No es un diagnóstico, y no es un rasgo racial.",
+   "como": "La investigadora Sandra So Hee Chi Kim (2017) rastreó cómo se formó ese sentido «racial» del han: parte del crítico japonés Yanagi Muneyoshi, que en 1922 describió el arte coreano como una «belleza de la tristeza».",
+   "debate": "La advertencia es doble: no repetir «los coreanos tienen han» como si fuera un dato, y tampoco descartar la palabra, que nombra con precisión algo que también existe acá, en historias familiares de pérdidas o injusticias nunca reparadas.",
+   "seccion": "Las críticas al han como «esencia nacional»"
+  }
+ ],
+ "abierta": "Si las palabras de una cultura entran en la clínica y la moldean, ¿cómo cuidar que no se vuelvan etiquetas para todo un pueblo? Es una pregunta abierta."
+}

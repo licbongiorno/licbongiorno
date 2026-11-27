@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien de confianza te cuenta que a veces se hace daño sin querer morir. Sentís miedo, enojo, culpa y una urgencia enorme por hacer algo ya. En esa primera conversación hay una pregunta que podrías hacer.",
+   "p": "¿Cuál sería la pregunta más útil?",
+   "opciones": ["¿Por qué hacés esto?", "¿Qué te ayuda a pasar o a decir cuando lo hacés?", "¿Cómo podés hacerle esto a tu familia?"],
+   "r": "Entender la función cambia la pregunta. «¿Por qué lo hacés?» suele sonar a reproche. Según el modelo integrado de Matthew Nock, la conducta se mantiene porque cumple funciones: intrapersonales, como regular emociones intensas, o interpersonales, como comunicar algo que no se logra decir con palabras.",
+   "como": "Nock lo propuso en 2010 en una revisión de la investigación sobre autolesión. Para el DSM-5 (2013), la autolesión no suicida está en la Sección III, como condición que requiere más estudio: no es un diagnóstico oficial.",
+   "debate": "Los castigos, los ultimátums o las promesas arrancadas a presión no tienen respaldo: suelen aumentar la vergüenza y el ocultamiento. Hay herramientas de regulación emocional que sí se trabajan en terapia.",
+   "seccion": "Por qué se sostiene: las funciones"
+  },
+  {
+   "enigma": "Muchas personas dicen que quien se hace daño «lo hace para llamar la atención». Sin embargo, lo más habitual es ocultarlo.",
+   "p": "¿Qué lectura se acerca más a lo que se sabe?",
+   "opciones": ["Es una forma de comunicar un malestar, y la vergüenza suele pesar más que querer que otros se enteren", "Es un capricho que se pasa solo", "Es siempre un intento de morir"],
+   "r": "Leerlo como «llamar la atención» es injusto y suele alejar a la persona de la ayuda. Si la conducta comunica algo, es malestar, y un malestar que se busca comunicar merece respuesta. Ocultarlo es lo más habitual.",
+   "como": "Es lo que surge de la clínica y de modelos como el de Nock. La intención es distinta a la de un intento de suicidio: no se busca morir sino aliviar o expresar algo.",
+   "debate": "Aun así, se asocia con mayor riesgo, también de pensamientos suicidas con el tiempo. Por eso siempre merece consulta profesional y no conviene darla por «una etapa». Si hay riesgo inmediato, pedí ayuda ahora: 911 o Centro de Asistencia al Suicida, 135.",
+   "seccion": "«Lo hace para llamar la atención»"
+  }
+ ],
+ "abierta": "Si cada persona que se lastima lo hace por razones propias, ¿cómo se acompaña sin apurar a que pare y sin dejarla sola? Es una pregunta que sigue guiando la investigación y la clínica."
+}

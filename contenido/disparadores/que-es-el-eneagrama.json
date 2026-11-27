@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien hace un test y le sale «soy un 6». Lee la descripción y siente alivio, como si lo hubieran descripto con precisión. Con otro número, otra persona siente lo mismo.",
+   "p": "¿Por qué una descripción puede resultar tan reconocible?",
+   "opciones": ["Porque el modelo mide con exactitud nueve tipos de personas", "Porque funciona como mapa de patrones, miedos y estrategias que muchos reconocemos, más que como instrumento de medición", "Porque las descripciones son tan generales que le calzan a cualquiera"],
+   "r": "El eneagrama describe nueve tipos de carácter, cada uno organizado alrededor de un deseo básico, un miedo básico y una pasión. Muchas personas lo encuentran útil como mapa de autoconocimiento: un lenguaje para pensar patrones y vínculos. Su respaldo científico es limitado y no sirve para diagnosticar ni seleccionar personal.",
+   "como": "Nació en una tradición de enseñanza espiritual: el símbolo lo difundió Gurdjieff, Óscar Ichazo lo vinculó con tipos de carácter y el psiquiatra Claudio Naranjo le dio vocabulario psicológico en su libro «Carácter y neurosis» (1994). Una revisión sistemática de Hook y colaboradores (2021) halló apoyo mixto para su confiabilidad y validez.",
+   "debate": "Algunas escalas se correlacionan con los Cinco Grandes, pero no hay evidencia sólida de que existan exactamente nueve tipos discretos, de que uno sea fijo de por vida, de que las flechas predigan conductas ni de los 27 subtipos.",
+   "seccion": "Qué dice la psicología"
+  },
+  {
+   "enigma": "Alguien llega a terapia con el resultado de un test y dice «soy un 6, ya está». En lugar de confirmarlo, se le pregunta cuándo se siente más seguro y cuándo menos. A los pocos minutos habla de una casa donde había que estar atento al humor de los adultos.",
+   "p": "¿Para qué sirvió, entonces, la etiqueta?",
+   "opciones": ["Para explicar de una vez quién es esa persona", "Como puerta de entrada a una historia: lo que importó fue el recuerdo, no el número", "Para nada: las etiquetas no tienen ningún uso"],
+   "r": "En terapia, el eneagrama se escucha como una hipótesis: qué parte de la descripción resonó y cuál incomodó. Cada tipo puede leerse como una estrategia que alguien desarrolló temprano para sentirse a salvo y querido, que sirvió, pero con el tiempo se vuelve automática y limita.",
+   "como": "Es una viñeta compuesta y genérica, no un caso real. Lo valioso suele aparecer al preguntar para qué sirvió, en algún momento, esa estrategia, algo que se observa en la clínica más que en estudios controlados.",
+   "debate": "Se lo usa bien como pregunta y no como etiqueta, y sin encasillar a otros. La mayoría de las investigaciones sobre personalidad describe rasgos continuos, no categorías cerradas.",
+   "seccion": "Cómo se trabaja en terapia"
+  }
+ ],
+ "abierta": "Si la personalidad parece más un continuo de rasgos que nueve cajas, ¿por qué las categorías nos resultan tan atractivas para entendernos? Es una pregunta abierta."
+}

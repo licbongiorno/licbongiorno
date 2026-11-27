@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien se propone ir al gimnasio una hora por día, cinco veces por semana: cumple una semana, falta dos días en la segunda y abandona en la tercera. Otra persona decide hacer dos sentadillas después de cepillarse los dientes. Seis meses después sigue, y ya hace más.",
+   "p": "¿Por qué crees que funciona mejor lo mínimo que lo ambicioso?",
+   "opciones": ["Porque la segunda persona tiene más fuerza de voluntad", "Porque un paso tan chico se repite en el mismo momento del día y se vuelve costumbre", "En realidad no hay diferencia: es cuestión de suerte y de ganas"],
+   "r": "La psicología de los hábitos muestra que se sostienen más por el contexto y la repetición que por la fuerza de voluntad: una conducta anclada a algo que ya hacés, y con poca fricción, se repite más fácil. También ayuda decidir de antemano cuándo y dónde se hace algo.",
+   "como": "Lally y colaboradores (2010) siguieron a 96 voluntarios durante 12 semanas mientras repetían una conducta elegida en el mismo contexto. Tardaron en promedio 66 días en volverla automática, con diferencias enormes entre personas, y olvidarse un día no afectó de forma importante el proceso.",
+   "debate": "Ese 66 es un promedio, no un plazo, y la cifra de los «21 días» no sale de investigación sobre hábitos. Además, los pasos chicos no alcanzan para un duelo, una depresión o un trauma, ni cuando el problema está en el contexto.",
+   "seccion": "Qué tiene respaldo y qué no"
+  },
+  {
+   "enigma": "Se suele contar que el kaizen, la idea de mejorar de a poquito, es una sabiduría milenaria de los monasterios zen japoneses.",
+   "p": "¿De dónde venía en realidad esta idea?",
+   "opciones": ["De la tradición espiritual zen, transmitida por maestros durante siglos", "De la gestión de las fábricas japonesas de posguerra", "De una antigua técnica de la medicina oriental"],
+   "r": "Kaizen significa «mejora» y es un término de la gestión industrial japonesa, ligado a la posguerra y a la idea de mejorar los procesos de forma continua con participación de quienes hacen el trabajo. Toyota es el ejemplo más citado. No es una psicoterapia ni una sabiduría zen.",
+   "como": "En Occidente se conoció por Masaaki Imai, que publicó en 1986 un libro sobre el tema. En 2004 el psicólogo Robert Maurer lo trasladó al cambio personal en otro libro de divulgación, con ejemplos clínicos y cotidianos.",
+   "debate": "La hipótesis de Maurer, que los pasos mínimos pasan por debajo del radar del miedo al cambio, es plausible pero no se probó en un ensayo clínico. Lo que respalda a los pasos chicos viene de la psicología del aprendizaje, no del kaizen como tradición.",
+   "seccion": "Contexto histórico: de las fábricas de posguerra a los libros de autoayuda"
+  }
+ ],
+ "abierta": "Si los pasos chicos ayudan tanto con las rutinas, ¿qué hace falta para cambiar lo que está sostenido por algo más profundo, como un miedo o un vínculo que se repite? Es una pregunta que sigue abierta."
+}

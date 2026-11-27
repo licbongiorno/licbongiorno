@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En casa de los padres, una mujer que en su vida es decidida y segura vuelve a sentirse de once años: la que cuida, la que se calla, la que siempre molesta. Un comentario inocente en la mesa le toca una herida vieja.",
+   "p": "¿Por qué los conflictos familiares duelen distinto?",
+   "opciones": ["Porque la familia no se eligió y hay una historia larga que se reactiva", "Porque las familias son siempre más conflictivas que otros grupos", "Porque los adultos no maduran frente a sus padres"],
+   "r": "A la familia, en general, no se la puede dejar sin un costo grande. Hay una historia larga, lo que se dice hoy se escucha con el eco de lo que pasó hace veinte años, se reactivan lugares viejos y se mezclan afecto, lealtad y dinero: la pelea parece práctica pero suele llevar debajo preguntas como «¿a quién quisieron más?».",
+   "como": "Es lo que describe la terapia familiar sistémica, que mira a la familia como un sistema: lo que hace cada uno afecta al resto. Murray Bowen describió la triangulación y la reactividad, y Salvador Minuchin habló de familias muy fusionadas o muy desligadas.",
+   "debate": "Sobre el conflicto cotidiano entre adultos de una familia la investigación específica es más escasa, y gran parte proviene de la experiencia clínica. No tiene respaldo que toda familia pueda reconciliarse si todos se esfuerzan, ni que perdonar sea siempre lo mejor.",
+   "seccion": "Por qué la familia duele distinto"
+  },
+  {
+   "enigma": "En una familia, cuando dos personas tienen tensión, una madre le cuenta al hijo lo que le molesta del padre. La tensión de la pareja baja, pero el hijo queda en el medio.",
+   "p": "¿Qué patrón es?",
+   "opciones": ["Triangulación: suman a un tercero para aliviar la tensión", "Un hábito sin consecuencias", "Una forma de mediación sana"],
+   "r": "Murray Bowen lo llamó triangulación: ante la tensión entre dos, suele sumarse un tercero, y se alivia la tensión de la pareja pero el tercero queda atrapado. Hay también roles fijos (la oveja negra, el responsable, el que media) que ayudan al sistema a mantenerse como está.",
+   "como": "Bowen lo describió a partir de su trabajo clínico con familias. Un genograma, que mapea la historia familiar en el papel, ayuda a ver esos patrones.",
+   "debate": "Cuando alguien cambia su forma de participar en un patrón, a menudo el resto se mueve, aunque no siempre ni de inmediato. Y cuando hay maltrato, desprecio sostenido o abuso, cuidarse es prioridad y no hay obligación de reconciliarse.",
+   "seccion": "Patrones que se repiten"
+  }
+ ],
+ "abierta": "Si cuando una persona cambia su manera de participar el sistema se mueve, ¿cuánto puede cambiar un patrón familiar con una sola persona dispuesta? Todavía se discute."
+}

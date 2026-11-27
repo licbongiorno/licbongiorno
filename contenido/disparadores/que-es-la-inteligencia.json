@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay gente que lee el clima de una reunión en dos segundos, que arregla cualquier cosa con las manos o entiende a un bebé sin palabras. Y sin embargo, de chicos, a muchos les pusieron la etiqueta de «burro para las matemáticas».",
+   "p": "¿Un número, como el coeficiente intelectual, puede decir cuán inteligente es alguien?",
+   "opciones": ["Sí: resume toda la capacidad de una persona", "Solo describe algunas capacidades y cómo le fue en una prueba", "No, no sirve para nada"],
+   "r": "El CI mide algunas capacidades (razonamiento, comprensión verbal, memoria de trabajo) y compara con personas de la misma edad. Es útil para detectar dificultades de aprendizaje y orientar apoyos, pero no mide la creatividad, la sabiduría práctica ni el talento artístico, y puede verse afectado por la ansiedad, el cansancio, el idioma o las oportunidades educativas.",
+   "como": "A principios del siglo XX, Alfred Binet diseñó en Francia una prueba para identificar a los chicos que necesitaban más apoyo en la escuela, pensada para ayudar y no para clasificar. Charles Spearman observó que a quienes les iba bien en un tipo de prueba solía irles bien en otras, y propuso un factor general, el factor g.",
+   "debate": "Howard Gardner propuso inteligencias múltiples, muy popular en educación pero criticada en psicología por no tener respaldo empírico firme. Si existen «inteligencias» separadas más allá del factor general sigue siendo un debate abierto.",
+   "seccion": "Qué mide y qué no"
+  },
+  {
+   "enigma": "Durante el siglo XX, los puntajes promedio de CI subieron en muchos países, de una generación a otra. Algo así no puede explicarse porque los genes cambien en pocas décadas.",
+   "p": "¿Qué te parece que lo explica?",
+   "opciones": ["Los cambios en las condiciones de vida: alimentación, educación, estimulación", "Los tests se fueron haciendo más fáciles", "Es solo casualidad estadística"],
+   "r": "Es el efecto Flynn, de unos tres puntos por década en el siglo XX, y muestra que las condiciones de vida influyen en cómo pensamos. La inteligencia tiene un componente heredado, pero el ambiente pesa mucho: alimentación, estimulación en la infancia, educación y afecto.",
+   "como": "Se sabe porque se compararon los puntajes de distintas generaciones con pruebas comparables. Algunos estudios en países nórdicos muestran un estancamiento o una reversión reciente (Bratsberg y Rogeberg, 2018), lo que refuerza que el ambiente cuenta.",
+   "debate": "Cuánto explican los genes es discutido: las estimaciones de heredabilidad varían con la edad y el contexto. Y las causas exactas del efecto Flynn siguen en estudio.",
+   "seccion": "Genes y ambiente"
+  }
+ ],
+ "abierta": "Si el ambiente puede mover los puntajes de toda una generación, ¿qué condiciones de la infancia ayudan más a pensar mejor? Todavía se investiga."
+}

@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Alguien escucha un problema ajeno y en dos minutos ofrece cinco soluciones. Su pareja le dice: «me hablás como si fuera una reunión». Él no entiende por qué eso molesta.",
+   "p": "¿Por qué una ayuda tan eficaz puede caer mal?",
+   "opciones": [
+    "Porque en el fondo no le importa lo que le pasa al otro",
+    "Porque ordena y resuelve con criterios objetivos, y se le pasa lo que el otro siente",
+    "Porque habla demasiado rápido y no se lo entiende"
+   ],
+   "r": "Para Jung, el pensamiento extravertido se orienta por hechos, reglas y principios que valen para todos. Busca ordenar el mundo de forma lógica y eficaz. Es confiable y comprometido, pero puede imponer su lógica y descuidar lo que el otro siente. Su aprendizaje es escuchar antes de resolver.",
+   "como": "Jung lo planteó en 1921, en Tipos psicológicos, a partir de su práctica clínica y de preguntarse por qué personas igual de inteligentes miraban los mismos hechos y llegaban a conclusiones distintas.",
+   "debate": "No hay que confundir el tipo con el estereotipo del «jefe frío»: una persona con este estilo puede ser cálida y generosa, y alguien con otro tipo puede ser muy mandón. La capacidad de organizar y decidir mejora con la experiencia.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Ese mismo gerente tan seguro de sí mismo se queda en silencio cuando se le llenan los ojos de lágrimas en una película. No sabe qué hacer con eso.",
+   "p": "¿Cómo puede ser que alguien tan firme para decidir se descoloque con lo que siente?",
+   "opciones": [
+    "Porque los sentimientos le son indiferentes y le sorprende tenerlos",
+    "Porque su función menos desarrollada es el sentimiento propio, y a veces aparece torpe o desbordado",
+    "Porque decidir con la cabeza siempre apaga la emoción"
+   ],
+   "r": "Jung observó que en este tipo la función inferior es el sentimiento introvertido: los valores propios y las emociones profundas quedan postergados. Cuando aparecen, pueden hacerlo de forma torpe o desbordada, y lo personal suele sacrificarse en nombre de lo que «corresponde».",
+   "como": "Es una observación de la clínica junguiana: lo menos usado es lo que más pesa cuando se desborda.",
+   "debate": "Algunos rasgos que se solapan con este estilo, como la orientación a la tarea o la escrupulosidad, se estudian en el modelo de los cinco factores con buena base empírica. Pero eso no vuelve científicos los ocho tipos de Jung.",
+   "seccion": "Su función inferior"
+  }
+ ],
+ "abierta": "Si lo que no usamos es lo que se desborda cuando estamos bajo presión, ¿se puede desarrollar esa parte sin perder lo que uno hace bien? Es una pregunta abierta."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Después de una pérdida en el embarazo, las visitas no saben qué decir y el entorno cambia de tema con la mejor intención. Quien lo vivió siente que perdió a alguien muy importante y que el mundo no lo reconoce.",
+   "p": "¿Por qué ese dolor puede sentirse tan solitario?",
+   "opciones": [
+    "Porque la pérdida fue pequeña y el dolor es exagerado",
+    "Porque es un duelo que el entorno no suele validar ni acompañar con sus gestos habituales",
+    "Porque quienes lo viven en general no quieren hablar"
+   ],
+   "r": "Es un duelo no reconocido: una pérdida que la persona vive como real, pero que el entorno no acompaña con velatorio, condolencias o licencias. Se llora a alguien a quien casi no se pudo conocer y a todo lo que se había imaginado con él o ella.",
+   "como": "Kenneth Doka lo describió en 1989 al hablar de duelos no reconocidos. Kersting y Wagner (2012) abordaron, en Dialogues in Clinical Neuroscience, el duelo complicado que puede seguir a una pérdida perinatal.",
+   "debate": "No todas las personas lo atraviesan como duelo complicado, y el sufrimiento intenso no es por sí solo señal de enfermedad. No hay un tiempo fijo ni un duelo «correcto».",
+   "seccion": "Un duelo de la familia entera"
+  },
+  {
+   "enigma": "Un amigo cercano dice «ya vas a tener otro» con todo su cariño. A quien lo escucha le duele mucho, aunque sabe que no hubo mala intención.",
+   "p": "¿Qué suele ayudar más a quien está de duelo?",
+   "opciones": [
+    "Una frase que consuele y mire hacia adelante",
+    "Algo simple: «lo lamento», «estoy acá», preguntar cómo se llamaba",
+    "Evitar el tema para no hacerlo sufrir"
+   ],
+   "r": "Frases como «ya vas a tener otro», «fue mejor así» o «al menos no llegaste a conocerlo» lastiman porque dejan de lado el vínculo que ya existía. Suele ayudar lo simple: acompañar, nombrar al bebé y escuchar.",
+   "como": "Se desprende de lo que cuentan quienes lo vivieron y del trabajo clínico con duelos no reconocidos. Muchas personas encuentran alivio en rituales propios: un nombre, una carta, plantar algo, una despedida.",
+   "debate": "No hay un ritual correcto ni una frase que sirva para todos: lo que consuela a una persona puede no consolar a otra. Lo importante es que la pérdida tenga un lugar.",
+   "seccion": "Frases que duelen"
+  }
+ ],
+ "abierta": "Si cada persona y cada pareja duelan a su manera y a su ritmo, ¿cómo acompañar a quien pasó por una pérdida sin saber qué necesita? Es una pregunta que la clínica todavía explora."
+}

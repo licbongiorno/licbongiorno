@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un cuadro torcido que no te deja concentrarte. Una frase con un error que releés diez veces. Una voz adentro que corrige todo, empezando por vos.",
+   "p": "¿Esa exigencia es siempre buena para uno?",
+   "opciones": [
+    "Sí: apuntar alto garantiza más bienestar",
+    "No: distinguen aspirar alto de la autocrítica severa, y esta se asocia con más malestar",
+    "Da lo mismo, es solo una cuestión de carácter"
+   ],
+   "r": "La investigación sobre perfeccionismo distingue las aspiraciones altas de la autocrítica severa, y esta última se asocia con más malestar, ansiedad y depresión. Que eso coincida con el eneatipo 1 es una lectura, no una prueba.",
+   "como": "El perfeccionismo como rasgo tiene investigación propia. El eneagrama, en cambio, nació de la enseñanza de Óscar Ichazo y de la lectura psicológica de Claudio Naranjo, y las revisiones encuentran evidencia mixta de su respaldo psicométrico.",
+   "debate": "Conviene no confundir al 1 con el trastorno obsesivo-compulsivo ni con la personalidad anancástica: son cosas distintas y el diagnóstico lo hace un profesional.",
+   "seccion": "Matices y límites"
+  },
+  {
+   "enigma": "Una persona que no puede relajarse ni los fines de semana recuerda una frase de la infancia: «las cosas se hacen bien o no se hacen». Se enoja con sus hijos «por nada».",
+   "p": "¿Qué puede haber detrás de tanta exigencia?",
+   "opciones": [
+    "Un carácter sin remedio que no admite cambio",
+    "Una historia en la que ser correcto fue la manera de ser querido o de estar a salvo",
+    "Falta de voluntad para dejar de preocuparse"
+   ],
+   "r": "Según la lectura clínica integrativa, suele haber una historia donde ser correcto fue la manera de ser querido o de estar a salvo, y un enojo que no se permite expresar y se vuelve rigidez, crítica o irritación. Se trabaja la crítica interna como una figura con nombre y edad.",
+   "como": "Es una lectura desde la clínica de orientación psicoanalítica y junguiana, que ve en la sombra del perfeccionista el deseo, el juego y lo «incorrecto». No es una conclusión de estudios controlados.",
+   "debate": "Esa lectura es una hipótesis para explorar, no una explicación para todos los casos. El eneagrama es un mapa de autoconocimiento, no una prueba psicológica.",
+   "seccion": "En terapia"
+  }
+ ],
+ "abierta": "Si apuntar alto puede ser una virtud o una carga según cómo se viva, ¿qué hace que la misma exigencia ayude a una persona y enferme a otra?"
+}

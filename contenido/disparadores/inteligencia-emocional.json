@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Le diste una respuesta seca a tu pareja, y no fue por los platos sin lavar sino por el día horrible en el trabajo. Alguien dice que eso es falta de inteligencia emocional.",
+   "p": "¿Ser emocionalmente inteligente es no mostrar nunca las emociones?",
+   "opciones": [
+    "Sí, es mantener siempre la calma",
+    "No: es poder sentirlas y expresarlas sin dañar ni dañarse",
+    "Sí, es no dejarse llevar por lo que sentimos"
+   ],
+   "r": "La inteligencia emocional es percibir, comprender y manejar las emociones, propias y ajenas. No es reprimirlas: es expresarlas de un modo que no nos dañe ni dañe a otros.",
+   "como": "Peter Salovey y John Mayer la propusieron en 1990 y describieron cuatro habilidades. Se volvió masiva en 1995 con el libro de Daniel Goleman.",
+   "debate": "Los tests de habilidad tienen una validez discutida. Que sea más importante que el coeficiente intelectual no tiene respaldo tan tajante, y una persona con mucha habilidad emocional puede usarla para manipular.",
+   "seccion": "Algunos mitos"
+  },
+  {
+   "enigma": "Tu amigo dice «estoy bien» con voz de quien no lo está. Vos tampoco sabés bien qué sentís: ¿enojo, tristeza, cansancio?",
+   "p": "¿Por qué ayuda ponerle nombre a lo que sentimos?",
+   "opciones": [
+    "No ayuda: solo da más vueltas a lo mismo",
+    "Porque nombrar ya ayuda a regular la emoción",
+    "Porque la emoción se va sola"
+   ],
+   "r": "Ponerle nombre a lo que sentimos, no solo «bien» o «mal» sino frustrado, avergonzado o aliviado, ya regula. Es parte de cómo se desarrolla esta capacidad, junto con escuchar el cuerpo y hacer una pausa.",
+   "como": "Hay investigación sólida sobre el etiquetado afectivo, que suele reducir la intensidad del malestar.",
+   "debate": "Los programas escolares de aprendizaje socioemocional tienen resultados favorables que varían mucho según cómo se apliquen. Y no es una virtud que se pueda exigir: quien atraviesa un duelo o una depresión no está fallando en su inteligencia emocional.",
+   "seccion": "Cómo se desarrolla"
+  }
+ ],
+ "abierta": "Si las emociones se pueden aprender a manejar, ¿cuánto viene del temperamento y cuánto de lo que vivimos? Todavía se investiga."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "De golpe te cruza una idea absurda o desagradable que sentís ajena a lo que querés. Te quedás helado y enseguida te preguntás: «¿qué clase de persona piensa esto?».",
+   "p": "¿Cuántas personas creés que tienen ocurrencias así alguna vez?",
+   "opciones": ["Muy pocas: solo quienes tienen un problema psicológico", "Una minoría, quizás una de cada cinco", "Casi todas, más del 90 %"],
+   "r": "Son muy comunes: un estudio internacional halló que más del 90 % de las personas había tenido alguna. La mente produce ocurrencias de todo tipo, también las absurdas o desagradables, y la mayoría pasa sin dejar rastro. Lo que las distingue en quienes sufren es la frecuencia, la duración y el malestar.",
+   "como": "En 1978, Rachman y de Silva compararon las intrusiones de personas sin diagnóstico con las obsesiones de personas con TOC y encontraron contenidos muy parecidos. Décadas después, Radomsky y colaboradores (2014) lo replicaron en numerosos países.",
+   "debate": "Cuando los pensamientos ocupan buena parte del día o llevan a rituales y evitaciones, conviene consultar: ahí hay tratamientos específicos y eficaces.",
+   "seccion": "Casi todos los tenemos"
+  },
+  {
+   "enigma": "Si casi todos tenemos esos pensamientos, en algunas personas se quedan y se vuelven un tormento. Intentan no pensarlos, buscan que otros las tranquilicen, revisan o evitan.",
+   "p": "¿Qué creés que mantiene el problema?",
+   "opciones": ["Que la idea aparezca, sin más", "La conclusión que se saca de la idea, como creer que significa algo peligroso, y las maniobras para neutralizarla", "La falta de voluntad para pensar en otra cosa"],
+   "r": "Paul Salkovskis propuso que el problema no es que el pensamiento aparezca sino lo que se concluye de él: «tener esta idea significa que soy peligroso». Las maniobras (suprimir, buscar tranquilidad, revisar) alivian en el momento pero mantienen el problema, porque enseñan a la mente que había un peligro real.",
+   "como": "En 1987, Wegner y su equipo publicaron el experimento del «oso blanco»: a quienes se les pedía no pensar en un oso blanco les costaba, y a veces el pensamiento volvía con más fuerza.",
+   "debate": "Los resultados sobre supresión de pensamientos son variados según los estudios, así que conviene no tomarlos como ley. No tiene respaldo la idea de que alcance con pensar en otra cosa.",
+   "seccion": "Por qué algunos pensamientos se quedan"
+  }
+ ],
+ "abierta": "Si pelear contra una idea suele darle más lugar, ¿cómo se aprende a dejar pasar un pensamiento sin obedecerlo ni combatirlo? Todavía se investigan los mejores caminos."
+}

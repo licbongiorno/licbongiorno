@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona se peleó con su hermano y con su socio en la misma semana. Dice que no tiene problema, que «los demás se sienten intimidados». Aparece una escena en la que sintió que lo dejaban afuera.",
+   "p": "¿Qué puede haber debajo de tanto volumen?",
+   "opciones": [
+    "Pura agresividad sin otra causa",
+    "Una herida que nadie había visto, detrás de una coraza",
+    "Falta de educación"
+   ],
+   "r": "Desde la clínica de orientación psicoanalítica se mira cómo se armó la coraza: a veces una infancia en la que mostrarse blando era peligroso. Detrás suele haber una ternura bien guardada.",
+   "como": "Es una lectura clínica, con la mirada junguiana de la sombra de lo tierno y lo dependiente. La investigación, por su parte, distingue el enojo como emoción de la agresión como conducta.",
+   "debate": "Ser «8» o «protector» no alcanza para explicar toda conducta dominante ni justifica el maltrato. Y la agresión sí es motivo de atención clínica.",
+   "seccion": "En terapia"
+  },
+  {
+   "enigma": "El 8 defiende a quienes considera más débiles y no le teme al conflicto. Con quien no confía es directo hasta lo brusco, y confunde el desacuerdo con una amenaza.",
+   "p": "¿Cuál suele ser lo más difícil para alguien así?",
+   "opciones": [
+    "Defender una causa ante un jefe",
+    "Mostrar lo blando: pedir perdón, decir «me dolió», aceptar ayuda",
+    "Ganar una discusión"
+   ],
+   "r": "Para el eneagrama, lo más difícil del 8 es mostrar lo blando: pedir perdón, decir «me dolió», aceptar ayuda. Lo acerca la franqueza sin manipulación y dejar que alguien vea su lado blando sin sentir que pierde poder.",
+   "como": "Es una descripción del eneagrama, que viene de Óscar Ichazo y de Claudio Naranjo, y de la clínica que lo usa como mapa.",
+   "debate": "La asertividad y el liderazgo no son problemas, y la ira tiene funciones útiles. El eneagrama carece de respaldo psicométrico sólido y nunca debería usarse para justificar una conducta.",
+   "seccion": "En los vínculos"
+  }
+ ],
+ "abierta": "Si la fuerza más grande puede ser mostrarse frágil, ¿qué hace falta para que alguien se anime a hacerlo sin sentir que pierde? La psicología todavía lo explora."
+}

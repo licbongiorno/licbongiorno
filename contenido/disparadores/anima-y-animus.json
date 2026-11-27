@@ -1,0 +1,24 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Conocés a alguien y, aunque lo viste dos veces, sentís que lo conocés de toda la vida. Te fascina. Con el tiempo, cuando la persona real empieza a asomar, el encanto se afloja.",
+   "p": "¿Qué pasó?",
+   "opciones": ["Te enamoraste de la persona equivocada", "Fue pura química pasajera, sin nada más detrás", "Pusiste en el otro algo tuyo que todavía no reconocías"],
+   "r": "Para Jung, en la psique hay una figura interior que compensa la actitud consciente: el ánima en el hombre, el ánimus en la mujer. En el enamoramiento solemos proyectarla en el otro, y por eso la fascinación es tan intensa y el desencanto llega cuando asoma la persona real.",
+   "como": "Jung lo formuló a partir de la clínica y del trabajo con sueños y símbolos. Es teoría clínica y simbólica, no un hallazgo de laboratorio: no hay estudios que midan cuánto ánimus tiene alguien.",
+   "debate": "Sí tiene apoyo en la investigación general que idealizamos a quienes recién conocemos y que esa imagen choca con la persona real. La explicación junguiana de por qué ocurre es una lectura, no una prueba.",
+   "seccion": "Dónde aparece"
+  },
+  {
+   "enigma": "Jung escribió que el ánima es «lo femenino» interior del hombre y el ánimus «lo masculino» interior de la mujer. Hoy muchas personas sienten que esa mirada quedó atada a otra época.",
+   "p": "¿Qué sentido le queda al concepto?",
+   "opciones": ["Ninguno: hay que descartarlo por completo", "Aplica solo a hombres y mujeres, según la definición original", "Nombra lo otro dentro de cada uno, más allá del género"],
+   "r": "Muchos autores junguianos actuales lo leen de forma más amplia: el ánima y el ánimus nombran lo otro dentro de cada persona, lo que nos completa y todavía no reconocemos como propio, sea cual sea el género o la orientación.",
+   "como": "Es una relectura posterior a Jung, que escribió en la primera mitad del siglo XX y describió lo femenino y lo masculino con los roles de género de su momento.",
+   "debate": "Esa asociación de cualidades con cada género se cuestiona con justicia. Por eso en la consulta el concepto se usa como pregunta, no como definición de lo que alguien debería ser.",
+   "seccion": "Una lectura de hoy"
+  }
+ ],
+ "abierta": "Si buscamos afuera partes que no nos dejamos habitar, ¿cómo se distingue amar a alguien de amar lo que proyectamos en esa persona? Es una pregunta que sigue abierta."
+}

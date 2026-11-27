@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una cena, alguien cuenta que perdió el trabajo y otra persona le responde: «Pensá en positivo, todo pasa por algo». Pretende ayudar, y quien la recibe se siente más solo.",
+   "p": "¿Qué crees que propone la psicología positiva seria frente a ese dolor?",
+   "opciones": ["Que pensar en positivo cura el malestar", "Que hay que estar bien todo el tiempo", "Dar lugar a la tristeza y al enojo, y preguntar qué te sostiene"],
+   "r": "En su versión seria, la psicología positiva no pide estar bien: estudia qué funciona bien en las personas y qué ayuda a sostenerlo, incluso con dolor. Ninguna investigación seria afirma que pensar en positivo cura o que el malestar sea una falla de actitud.",
+   "como": "Martin Seligman impulsó el movimiento a fines de los noventa. Wong (2011) propuso una versión 2.0 que integra el sufrimiento y el sentido: el crecimiento muchas veces pasa por atravesar lo difícil.",
+   "debate": "Cuando el bienestar se vuelve obligación aparece un reproche nuevo: si no estás feliz, algo hacés mal. Curran y Hill (2019) mostraron que el perfeccionismo aumentó entre 1989 y 2016, y una cultura que premia la mejora constante puede alimentar la autoexigencia que pretendía aliviar.",
+   "seccion": "El riesgo: la positividad forzada"
+  },
+  {
+   "enigma": "Alguien dedica unos minutos a imaginar cómo sería su mejor versión posible dentro de unos años. Es un ejercicio simple y se promociona mucho.",
+   "p": "¿Cuánto crees que cambia la vida de una persona con un ejercicio así?",
+   "opciones": ["Mucho: es transformador", "Nada: es pura autoayuda", "Algo, con efectos entre pequeños y moderados"],
+   "r": "Hay evidencia de que algunas intervenciones sencillas ayudan, con efectos modestos. Pequeño no es inútil, pero tampoco transformador: es una herramienta más, no un tratamiento.",
+   "como": "El metaanálisis de Carrillo y colaboradores (2019) encontró que el ejercicio del mejor yo posible tiene efectos entre pequeños y moderados.",
+   "debate": "Las clasificaciones de fortalezas, como la de Peterson y Seligman (2004) de 24 fortalezas en 6 virtudes, son marcos para pensar: ordenan el lenguaje, pero no demuestran por sí solas que trabajar una fortaleza mejore la vida de cualquiera.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si las intervenciones sencillas tienen efectos modestos, ¿qué es lo que realmente sostiene el bienestar a lo largo de una vida? Es una pregunta que el campo sigue investigando."
+}

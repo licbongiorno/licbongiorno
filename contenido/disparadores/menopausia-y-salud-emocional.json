@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "A los cuarenta y ocho años, una mujer duerme peor, se irrita por cosas que antes dejaba pasar y se despierta empapada de sudor a la madrugada. Piensa: «me estoy volviendo ansiosa».",
+   "p": "¿Qué creés que puede estar influyendo en cómo se siente?",
+   "opciones": ["Solo cuestiones psicológicas: es cosa de la cabeza", "Solo las hormonas, y por lo tanto no hay nada más que mirar", "Una etapa de transición donde confluyen cambios del cuerpo y de la vida, sin una única explicación"],
+   "r": "La perimenopausia es la transición hacia la menopausia, con ciclos irregulares y hormonas que fluctúan durante años. Muchas mujeres describen cambios en el ánimo, el sueño, la ansiedad y la concentración, aunque no todas la viven igual. No tiene respaldo atribuir todo malestar a las hormonas ni pensar que es solo cosa de la cabeza.",
+   "como": "El Harvard Study of Moods and Cycles siguió a 460 mujeres y encontró que quienes entraron en la perimenopausia tuvieron casi el doble de probabilidad de síntomas depresivos significativos. El estudio SWAN halló algo parecido.",
+   "debate": "Son estudios observacionales: muestran un período de mayor vulnerabilidad, pero no que la menopausia cause depresión por sí sola ni que toda mujer vaya a pasar por eso.",
+   "seccion": "Qué dicen los estudios sobre el ánimo"
+  },
+  {
+   "enigma": "Una mujer en la mitad de la vida tiene sofocos y sudores nocturnos que le dan vergüenza. Se pregunta si hay algo para hacer, además de esperar.",
+   "p": "¿Qué creés que puede ayudar, además de los tratamientos médicos?",
+   "opciones": ["Nada: solo queda aguantar", "Una forma de terapia que ayude a vivir mejor los síntomas", "Evitar hablar del tema para no empeorarlo"],
+   "r": "La terapia cognitivo-conductual tiene respaldo en ensayos para los sofocos y sudores nocturnos: ayudó sobre todo a vivir mejor los síntomas, no necesariamente a que fueran menos frecuentes. Mejoró también el ánimo y la calidad de vida.",
+   "como": "En el ensayo MENOS 2, Ayers y colaboradores asignaron al azar a 140 mujeres a TCC grupal, autoguiada o ningún tratamiento, y ambas formas de TCC redujeron cuánto molestaban los sofocos a las seis semanas.",
+   "debate": "La guía NICE incluye la TCC como opción, pero señala que la evidencia para el ánimo bajo y la ansiedad vinculados a la menopausia proviene de pocos estudios. La terapia hormonal es una decisión médica de ginecología.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si en esta etapa confluyen el cuerpo, los hijos que crecen, los padres que envejecen y el balance de la vida, ¿cuánto de lo que se siente es hormonal y cuánto es vital? Separarlos quizá no siempre sea posible."
+}

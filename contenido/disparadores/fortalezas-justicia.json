@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una docente corrige igual al alumno que le cae bien y al que no. Otra da más apoyo al que está pasando un mal momento.",
+   "p": "¿Tratar a todos exactamente igual es siempre lo más justo?",
+   "opciones": [
+    "Sí, ese es el único criterio posible",
+    "No siempre: a veces quien tiene menos necesita más",
+    "No: la justicia depende solo de cada situación"
+   ],
+   "r": "La equidad es tratar a las personas según nociones de justicia e imparcialidad, sin que los sentimientos personales sesguen las decisiones. Pero cuando se vuelve rigidez, o contabilidad de quién dio qué, deja de ser una fortaleza.",
+   "como": "En el estudio de Park, Peterson y Seligman (2006), con más de cien mil personas de 54 países, la equidad estuvo entre las fortalezas que más personas reconocían como propias en la mayoría de los países.",
+   "debate": "Tratar a todos igual no siempre es justo: a veces quien tiene menos necesita más. Y la indignación frente a lo injusto puede usarse para atacar.",
+   "seccion": "Equidad"
+  },
+  {
+   "enigma": "Un grupo muy unido: todos leales, todos remando para el mismo lado. Hasta que ese «nosotros» empieza a callar abusos.",
+   "p": "¿Ser leal al grupo es siempre una virtud?",
+   "opciones": [
+    "Sí: la lealtad es la base de cualquier grupo",
+    "No: puede volverse un modo de callar lo que daña",
+    "Solo importa en equipos deportivos"
+   ],
+   "r": "La ciudadanía es trabajar bien como miembro de un grupo y hacer la parte que a uno le toca. El manual aclara que no es obediencia ciega: incluye también la responsabilidad de pensar qué está bien para el grupo.",
+   "como": "Robert McGrath (2015) analizó más de un millón de respuestas a cuestionarios de fortalezas y encontró que el trabajo en equipo se agrupaba con otras fortalezas del cuidado, como la bondad, la equidad y el perdón.",
+   "debate": "La lealtad puede justificar callar abusos, y la historia tiene ejemplos de grupos muy cohesionados que hicieron daño. Esa evidencia sale sobre todo de cuestionarios, que tienen límites.",
+   "seccion": "Ciudadanía"
+  }
+ ],
+ "abierta": "Si la lealtad y la justicia pueden chocar, ¿cómo se decide cuál pesa más en cada caso? Es una pregunta que sigue abierta."
+}

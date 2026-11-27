@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una noche, a las tres de la mañana, el pecho apretado, la cabeza que no para y una alarma que suena aunque no haya ningún incendio a la vista.",
+   "p": "¿Para qué sirve la ansiedad, si es que sirve?",
+   "opciones": ["Para nada: es una falla del sistema nervioso", "Es una respuesta natural ante algo percibido como amenaza, útil en su justa medida", "Solo aparece cuando hay un peligro real"],
+   "r": "La ansiedad es una respuesta natural del organismo ante lo que percibimos como amenaza: en su justa medida nos pone en alerta y nos prepara para actuar. El problema aparece cuando se vuelve constante, desproporcionada o se dispara sin un peligro real a la vista.",
+   "como": "Es una descripción clínica muy extendida, apoyada en lo que cuentan las personas en consulta: se manifiesta en el cuerpo (palpitaciones, tensión, insomnio), en el pensamiento (anticipar lo peor) y en la conducta (evitar, controlar).",
+   "debate": "Antes de atribuirlo a ansiedad, conviene descartar causas médicas con un profesional de la salud, sobre todo si hay síntomas físicos intensos.",
+   "seccion": "Qué es la ansiedad"
+  },
+  {
+   "enigma": "Hay quienes aprenden a respirar mejor y a registrar sus pensamientos, y les ayuda. Pero a veces el síntoma vuelve bajo otra forma, como si algo no se hubiera escuchado.",
+   "p": "¿Qué podría estar pasando?",
+   "opciones": ["Que no practicaron lo suficiente", "Que la ansiedad también puede señalar algo de la vida que pide atención", "Que la respiración no sirve para nada"],
+   "r": "Desde una mirada psicodinámica, además de ser un síntoma la ansiedad puede ser un mensaje: aparece cuando un conflicto no enfrentado, un deseo no permitido, una pérdida sin elaborar o una exigencia insostenible piden lugar. Las herramientas de respiración y exposición gradual son valiosas como primer paso.",
+   "como": "Es una lectura que viene de la clínica psicodinámica, donde se pregunta qué está diciendo el síntoma, además de aliviarlo. Comprender su sentido busca que no vuelva una y otra vez bajo otra forma.",
+   "debate": "Es una forma de entender la ansiedad entre otras: los enfoques cognitivo-conductuales ponen el acento en el aprendizaje y las respuestas, y no siempre buscan un sentido oculto. Ambas miradas pueden convivir en la consulta.",
+   "seccion": "Una señal, no solo un síntoma"
+  }
+ ],
+ "abierta": "Si un mismo malestar se puede leer como alarma que se calma o como mensaje que se escucha, ¿cuándo conviene una cosa y cuándo la otra? La respuesta depende de cada persona."
+}

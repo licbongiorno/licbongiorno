@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un amigo que hace semanas contesta con monosílabos te escribe de madrugada algo que te preocupa mucho. Te quedás con el celular en la mano, con miedo de decir algo que empeore las cosas.",
+   "p": "¿Qué creés que pasa si le preguntás de forma directa si piensa en quitarse la vida?",
+   "opciones": ["Le ponés la idea en la cabeza y puede empeorar", "No aumenta la idea, y hablarlo puede aliviarlo porque deja de cargarlo en soledad", "Mejor esperar a que él lo diga solo"],
+   "r": "Preguntar de forma directa y sin rodeos es una de las formas de ayuda con más respaldo. Hablar del tema puede incluso reducir la ideación, porque la persona deja de cargarlo sola. Después de la pregunta lo central es escuchar sin interrumpir, sin discutir y sin minimizar.",
+   "como": "Una revisión de la evidencia (Dazzi, Gribble, Wessely y Fear, 2014) encontró que, en los estudios revisados, preguntar por pensamientos suicidas no aumentó la ideación suicida.",
+   "debate": "No tiene respaldo evitar el tema por miedo a empeorarlo, ni creer que quien habla de morir solo quiere llamar la atención. Si hay un riesgo inmediato, hay que pedir ayuda ya: 911 o el Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435.",
+   "seccion": "Preguntar no instala la idea"
+  },
+  {
+   "enigma": "Una persona que atravesó una crisis arma, junto con un profesional, un papel breve con sus señales de alarma, personas a quienes llamar, lugares que la distraen y teléfonos de ayuda, para tener a mano en un momento difícil.",
+   "p": "¿Creés que una herramienta tan simple puede hacer diferencia?",
+   "opciones": ["No: una crisis así requiere mucho más que un papel", "Sí, tiene respaldo y se asoció con menos conductas suicidas", "Solo sirve si la persona nunca más tiene una crisis"],
+   "r": "Se llama plan de seguridad: un documento breve, escrito por la persona con ayuda de un profesional, que incluye señales de alarma propias, estrategias que puede hacer sola, personas y lugares que acompañan, líneas de ayuda y pasos para hacer más seguro el entorno. Las crisis suelen ser intensas pero transitorias, y la ayuda funciona.",
+   "como": "Stanley y Brown describieron la intervención en 2012. Un estudio de 2018 en JAMA Psychiatry encontró que el plan de seguridad con seguimiento telefónico se asoció con menos conductas suicidas que la atención habitual.",
+   "debate": "Es una herramienta complementaria, que no reemplaza el tratamiento profesional. Acompañar a alguien en este estado cansa y asusta: no hace falta resolverlo solo, y cuidarse también cuenta.",
+   "seccion": "El plan de seguridad"
+  }
+ ],
+ "abierta": "Si hablar con franqueza protege y el silencio muchas veces pesa, ¿cómo podemos como comunidad animarnos a preguntar y a escuchar sin miedo? Es algo que cada uno puede empezar a practicar."
+}

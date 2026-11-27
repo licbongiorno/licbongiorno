@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien lleva meses evitando a su pareja por las noches: se acuesta más tarde, se queda con el celular, y cuando piensa en la intimidad aparece una mezcla de culpa, presión y vergüenza. «Debe pasarme algo raro», dice. Lo que más lo preocupa es que no le aparecen ganas «de la nada».",
+   "p": "¿Qué te parece que significa no sentir deseo espontáneo?",
+   "opciones": ["Que algo anda mal con la persona o con la pareja", "Que el deseo siempre tiene que aparecer primero, y si no, no hay nada que hacer", "Que en muchas personas el deseo puede surgir después de la cercanía y la excitación"],
+   "r": "No tener ganas «de la nada» no implica que algo ande mal. El deseo varía entre personas y en una misma persona a lo largo del tiempo, según el estrés, el cansancio, el ánimo y la calidad del vínculo. No hay una frecuencia correcta con la que comparar.",
+   "como": "Masters y Johnson (1966) propusieron un modelo lineal de cuatro fases (excitación, meseta, orgasmo y resolución) que llevó la sexualidad al terreno científico. Rosemary Basson (2000), a partir de la clínica con mujeres, planteó uno circular: el deseo puede aparecer después de la excitación y la motivación incluye la intimidad emocional.",
+   "debate": "El modelo de Masters y Johnson se considera hoy incompleto porque supone un único recorrido. El de Basson es útil pero no describe a todas las personas ni reemplaza una evaluación individual.",
+   "seccion": "Cómo se ha descrito la respuesta sexual"
+  },
+  {
+   "enigma": "Una pareja de mediana edad consulta porque «ya no hay deseo». Al conversar surge que llevan años sin hablar del tema: ella lo vive como presión y él como rechazo.",
+   "p": "¿Cuál creés que era el problema de fondo?",
+   "opciones": ["La falta de deseo en sí", "El silencio acumulado sobre el tema", "Que la pareja no era compatible"],
+   "r": "En muchas consultas lo que se llama «problema sexual» es un problema de comunicación o de cansancio. Al empezar a nombrar lo que cada uno sentía, bajó la tensión y apareció espacio para otros encuentros. Las dificultades sexuales son frecuentes, tienen tratamiento y el primer paso suele ser hablarlo.",
+   "como": "Es un ejemplo anónimo, compuesto, de la clínica. En otras consultas hay una dimensión médica (hormonal, farmacológica, de dolor) que requiere trabajar junto con médicos. La ansiedad de desempeño merece mención aparte: la preocupación por «rendir» desvía la atención de la experiencia y tiende a alimentar el problema que se teme.",
+   "debate": "La investigación sobre sexualidad tiene sesgos conocidos: muestras pequeñas, de países occidentales y autoinformadas, con reticencia a reportar lo íntimo. Por eso conviene desconfiar de cifras de «lo normal» y de recetas universales.",
+   "seccion": "Dificultades frecuentes"
+  }
+ ],
+ "abierta": "Si la sexualidad está atravesada por el cuerpo, la historia, los vínculos y la cultura, ¿cómo se puede investigar de manera confiable algo de lo que tan poco se habla? Es un desafío abierto."
+}

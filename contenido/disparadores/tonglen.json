@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un amigo sufre mucho y, mientras lo escuchás, sentís su dolor tan fuerte que te desbordás y no podés ayudarlo. Otra persona, ante el mismo sufrimiento, logra acompañar con calidez sin hundirse.",
+   "p": "¿Qué diferencia a una reacción de la otra?",
+   "opciones": [
+    "La segunda persona siente menos, es más fría",
+    "Una se queda en el malestar compartido y la otra agrega calidez y ganas de ayudar",
+    "La primera tiene un problema que necesita tratamiento"
+   ],
+   "r": "Los estudios de Tania Singer y Olga Klimecki distinguieron el malestar empático, que es sentir el dolor del otro hasta desbordarse, de la compasión, que suma calidez y deseo de ayudar. El primero se asoció con emociones negativas y desgaste; la segunda, con emociones positivas, incluso frente al sufrimiento ajeno.",
+   "como": "Surge de estudios de psicología y neurociencia sobre empatía y compasión. Un estudio de Klimecki y colaboradores (2013) mostró cambios en la actividad cerebral y en el afecto positivo tras un entrenamiento breve en compasión.",
+   "debate": "Ese estudio tiene muestras pequeñas y no es específico del tonglen, una práctica tibetana que casi no tiene investigación propia. Todavía se discute cómo medir bien la distinción entre empatía y compasión.",
+   "seccion": "Qué dice la psicología"
+  },
+  {
+   "enigma": "Hay una práctica en la que, al inhalar, uno imagina recibir el sufrimiento propio o ajeno, y al exhalar envía alivio. Suena a cargar con el dolor de los demás.",
+   "p": "¿Es eso lo que se hace?",
+   "opciones": [
+    "Sí, se absorbe el dolor del otro para aliviarlo",
+    "No: se cultiva una actitud hacia el dolor, y lo que se envía es simbólico",
+    "Es una técnica de relajación sin relación con el sufrimiento"
+   ],
+   "r": "El tonglen («dar y tomar», en tibetano) no saca el dolor a nadie ni enferma a quien lo practica: es una práctica sobre la propia actitud. La idea de «tomar» el sufrimiento ajeno es simbólica y no tiene ningún efecto sobre la otra persona.",
+   "como": "Viene del entrenamiento de la mente (lojong) del budismo tibetano, asociado al maestro Atisha (siglo XI) y puesto por escrito en el siglo XII por Geshe Chekawa. En Occidente la hizo conocida la monja Pema Chödrön.",
+   "debate": "Su traslado a Occidente en formatos breves la hizo accesible, pero puede perder el marco de enseñanza gradual con un maestro que la contenía. Por eso conviene practicarla con cuidado, y no como un método de sanación.",
+   "seccion": "Qué es"
+  }
+ ],
+ "abierta": "Si la compasión se puede entrenar, ¿qué cambia exactamente en nosotros cuando eso pasa? Es una pregunta que se sigue investigando."
+}

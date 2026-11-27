@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona duerme tres horas por noche durante una semana y se siente más lúcida que nunca: ideas a toda velocidad, cinco proyectos a la vez. Semanas después no puede levantarse de la cama. En la calle, a alguien que se enoja y se calma en la misma tarde también se le dice «bipolar».",
+   "p": "¿Qué diferencia a una cosa de la otra?",
+   "opciones": [
+    "La intensidad del enojo",
+    "La duración y el contraste: episodios sostenidos de días o semanas, distintos de la manera habitual de estar",
+    "Que ocurre solo en personas muy creativas"
+   ],
+   "r": "El trastorno bipolar es una condición del estado de ánimo con episodios de manía o hipomanía y episodios de depresión. No es cambiar de humor rápido ni ser caprichoso: son episodios sostenidos que la persona y su entorno perciben como un cambio claro.",
+   "como": "Merikangas y colaboradores (2011), con datos de la Encuesta Mundial de Salud Mental, estimaron que la prevalencia de vida del espectro bipolar fue de 2,4 %, con una gama amplia de intensidades.",
+   "debate": "Decir «está bipolar» como insulto o chiste confunde una condición de salud con un rasgo de carácter y desalienta a quienes necesitan pedir ayuda. Una persona con este diagnóstico no está definida por él.",
+   "seccion": "Qué es y qué no es"
+  },
+  {
+   "enigma": "Alguien piensa que con voluntad, pensando en positivo o evitando el estrés alcanzaría para manejar estos vaivenes.",
+   "p": "¿Qué tiene mayor respaldo para el tratamiento?",
+   "opciones": [
+    "La fuerza de voluntad y los hábitos saludables, por sí solos",
+    "Una combinación de medicación indicada por psiquiatría, psicoterapia y psicoeducación",
+    "La psicoterapia sola, sin intervención médica"
+   ],
+   "r": "El tratamiento con mayor respaldo es combinado, y ninguna de las tres partes reemplaza a las otras. La psicoterapia y la psicoeducación apuntan a que la persona conozca su propio patrón: señales tempranas, sueño, rutinas, un plan acordado.",
+   "como": "El respaldo viene de la investigación sobre el tratamiento combinado y de la clínica, que suma herramientas concretas, como aprender a reconocer los primeros indicios de un episodio.",
+   "debate": "La elección de fármacos y dosis es una decisión médica personalizada, que no corresponde a un artículo ni a la experiencia de otra persona. No tiene respaldo que alcance con voluntad, ni tampoco el mito de que quien lo tiene no puede trabajar, estudiar o sostener vínculos.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si las señales tempranas ayudan tanto, ¿cómo se hace para reconocerlas a tiempo en uno mismo? Es una pregunta abierta."
+}

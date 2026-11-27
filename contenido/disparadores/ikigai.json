@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien de treinta y ocho años abre una pantalla con cuatro círculos superpuestos: lo que amás, en qué sos bueno, lo que el mundo necesita y por lo que te pagan. No encuentra el punto donde se cruzan y concluye que su vida está mal armada.",
+   "p": "¿Ese diagrama viene de la tradición japonesa del ikigai?",
+   "opciones": [
+    "Sí, es un esquema milenario de Japón",
+    "No: se armó en Occidente hace pocos años a partir de otro diagrama",
+    "Lo inventó el psiquiatra japonés que escribió sobre el tema"
+   ],
+   "r": "El esquema de cuatro círculos no viene de Japón. Surge del diagrama del propósito de Andrés Zuzunaga, difundido hacia 2011-2012, y Marc Winn lo adaptó en un blog en 2014.",
+   "como": "Se rastreó el origen de la imagen. El concepto japonés lo popularizó la psiquiatra Mieko Kamiya en 1966, a partir de su trabajo con pacientes de un sanatorio.",
+   "debate": "Sirve como herramienta de reflexión sobre trabajo y vocación, pero convierte la pregunta por lo que da sentido en una tarea de optimización. No hay evidencia de que prediga bienestar ni de que exista un único ikigai por persona.",
+   "seccion": "El diagrama que no es japonés"
+  },
+  {
+   "enigma": "En un estudio japonés, a más de cuarenta mil personas se les preguntó si tenían algo que hiciera valer la pena vivir.",
+   "p": "¿Qué se vio en quienes dijeron que no?",
+   "opciones": [
+    "Nada especial",
+    "Un riesgo de muerte mayor durante el seguimiento",
+    "Un riesgo menor, porque vivían sin presiones"
+   ],
+   "r": "Quienes respondieron que no tenían ikigai mostraron un riesgo de muerte por cualquier causa 1,5 veces mayor (ajustado por otras variables), sobre todo por causas cardiovasculares.",
+   "como": "Sone y colaboradores (2008), en el Estudio Ohsaki, siguieron a 43.391 adultos japoneses.",
+   "debate": "Se midió con una sola pregunta, y es una asociación, no una prueba de causa: una persona enferma o deprimida puede declarar menos ikigai. No dice que buscar un propósito alargue la vida.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si el sentido de la vida parece estar ligado a la salud, ¿qué viene primero: el sentido o el bienestar? Es una pregunta que sigue abierta."
+}

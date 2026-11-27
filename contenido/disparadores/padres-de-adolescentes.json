@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una hija de quince años cierra la puerta de un golpe después de una pregunta inocente. Dos días después, se sienta en la cama de su padre a la medianoche y le cuenta algo importante, sin que él pregunte.",
+   "p": "¿Qué le está pasando a un adolescente que oscila así entre alejarse y acercarse?",
+   "opciones": ["Está manipulando a sus padres", "Atraviesa una etapa de duelos y cambios en la que necesita diferenciarse sin perder el vínculo", "Tiene un problema que hay que corregir cuanto antes"],
+   "r": "Aberastury y Knobel describieron la adolescencia como una etapa de duelo: se pierde el cuerpo infantil, la identidad infantil y los padres de la infancia. Para construir una identidad propia el adolescente necesita diferenciarse, y la manera más directa es oponerse. Los padres también hacen su duelo por el hijo chico que ya no está.",
+   "como": "Es una teoría psicoanalítica expuesta en el libro «La adolescencia normal» (1971). Winnicott decía que la tarea de los adultos es sobrevivir a esa confrontación, y Erikson llamó a esta etapa la crisis de identidad.",
+   "debate": "Los tres duelos son una forma de pensar, no un hallazgo de laboratorio. La investigación muestra que la mayoría de los adolescentes no atraviesa una tormenta devastadora: la idea de una adolescencia necesariamente rebelde es en parte un mito cultural.",
+   "seccion": "Qué está pasando del otro lado"
+  },
+  {
+   "enigma": "Muchos padres cuentan que las conversaciones importantes con sus hijos adolescentes aparecen en el auto, en la cocina o a la noche, cuando nadie las busca. Y que si cada charla termina en un sermón, dejan de contar.",
+   "p": "¿Qué creés que ayuda más a los padres?",
+   "opciones": ["Estar disponibles sin perseguir y escuchar antes de corregir", "Controlar todo para evitar problemas", "Esperar a que la etapa pase sin intervenir"],
+   "r": "Ayuda estar disponible sin perseguir, escuchar antes de corregir, sostener pocos límites claros y firmes y no tomarse todo como algo personal. Cuando consultan padres, el trabajo suele empezar por ellos: qué les pasa con esta etapa y cómo fue su propia adolescencia.",
+   "como": "Surge de la práctica clínica con familias y de los aportes de autores como Winnicott y Aberastury. A veces se trabaja con toda la familia, desde una mirada sistémica.",
+   "debate": "Hay señales que piden consulta, como aislamiento sostenido, tristeza persistente o conductas de riesgo, y que no se resuelven esperando a que pase la edad. Hoy se suma la vida social en pantallas, algo que las generaciones anteriores no tuvieron.",
+   "seccion": "Qué puede ayudar"
+  }
+ ],
+ "abierta": "Si la adolescencia es a la vez un duelo y un comienzo, ¿cómo acompañar a un hijo sin invadirlo ni dejarlo solo? Cada familia encuentra su equilibrio."
+}

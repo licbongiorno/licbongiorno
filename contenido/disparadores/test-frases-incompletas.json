@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Cuando estoy solo…», «Mi madre…», «Lo que más me cuesta…». Son comienzos de frases, y la consigna es completarlas con lo primero que aparezca. Algunas respuestas salen rápido. Otras se resisten, o quedan en blanco.",
+   "p": "¿Qué te parece que informa más?",
+   "opciones": ["Solo lo que se escribe", "También cómo se responde: lo que queda en blanco, las evasivas, lo que se repite", "Solo las frases sobre la familia"],
+   "r": "Importa también la forma: las frases que quedan en blanco, las que se contestan con evasivas, las que se repiten. Una respuesta aislada no significa nada: importan las repeticiones, los temas y las omisiones, dentro de un conjunto.",
+   "como": "La técnica tiene antecedentes en la asociación de palabras que usaron Francis Galton y Carl Jung. Los dos modelos más conocidos se publicaron en 1950: el de Joseph Sacks y Sidney Levy, organizado en áreas como la familia, los vínculos y el concepto de sí, y el de Julian Rotter, que propuso además una forma de puntuar el ajuste general.",
+   "debate": "Al ser una técnica directa, la persona puede controlar bastante lo que responde y decir lo que cree que se espera. Es una limitación, pero también una información.",
+   "seccion": "Qué explora"
+  },
+  {
+   "enigma": "Alguien completa «Mi padre…» con «hizo lo que pudo» y «Cuando me enojo…» con «me quedo callado». Más adelante, ante «Lo que más me cuesta…», escribe «pedir ayuda».",
+   "p": "¿Qué hizo la técnica?",
+   "opciones": ["Diagnosticó un trastorno", "Puso en palabras algo que ya latía, y juntas las respuestas armaron un hilo", "No sirvió porque son respuestas sueltas"],
+   "r": "Ninguna de esas respuestas es un diagnóstico, pero juntas armaron un hilo: el esfuerzo por no molestar y la dificultad de decir lo que siente. En la conversación posterior, la persona reconoce que eso le pasa también en el trabajo. La técnica no «descubrió» nada nuevo: puso en palabras algo que ya latía. Es una viñeta compuesta.",
+   "como": "Algunos inventarios, como el de Rotter, cuentan con sistemas de puntuación estandarizados y se han usado en investigación como medida de ajuste emocional. Esa versión tiene más respaldo que las lecturas libres.",
+   "debate": "El uso clínico habitual, sin puntuación formal, tiene respaldo limitado, en línea con lo que señalaron Lilienfeld, Wood y Garb (2000). Completar frases en una evaluación no es lo mismo que hacerlo en casa, con tiempo y sin sentirse observado.",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "Si lo que escribimos depende tanto del contexto en que lo hacemos, ¿cómo saber cuándo una frase refleja algo estable de nosotros? Es una pregunta abierta."
+}

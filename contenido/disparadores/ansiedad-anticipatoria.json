@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Faltan tres días para una reunión y el cuerpo ya está ahí: estómago cerrado, mente armando escenas, sueño cortado. Cuando el día llega, resulta más llevadero que la espera.",
+   "p": "¿Por qué se sufre más esperando que viviéndolo?",
+   "opciones": ["Porque la imaginación siempre exagera y uno es exagerado", "Porque no saber qué pasa ni cuándo mantiene la alarma encendida", "Porque en realidad uno ya sabe que va a salir mal"],
+   "r": "Grupe y Nitschke señalan que anticipar amenazas inciertas tiene un papel central en la ansiedad: cuando no sabemos qué va a pasar ni cuándo, el sistema de alerta sigue encendido. Para muchas personas el «no saber» es más difícil de soportar que una mala noticia concreta.",
+   "como": "Lo plantearon en 2013 en una revisión que integra datos psicológicos y neurobiológicos. La ansiedad anticipatoria no es un diagnóstico, sino una forma de vivir la ansiedad que aparece en distintos cuadros.",
+   "debate": "Anticipar es una capacidad útil, porque permite prepararse. La discusión clínica es cuándo deja de serlo: cuando ocupa más lugar que la situación o lleva a evitarla.",
+   "seccion": "Por qué se sostiene"
+  },
+  {
+   "enigma": "Alguien siente tanta ansiedad antes de un evento que decide faltar. Siente un alivio enorme, pero la próxima vez el miedo es más grande.",
+   "p": "¿Qué pasó en el medio?",
+   "opciones": ["Se acostumbró a evitar y nunca comprobó que podía atravesarlo", "Perdió fuerza de voluntad con el tiempo", "El evento realmente era más peligroso cada vez"],
+   "r": "Si evitar calma la ansiedad, la mente aprende que evitar funciona. El alivio es real, pero la persona nunca comprueba que podía atravesar la situación y el miedo crece. Por eso la terapia cognitivo-conductual usa exposición gradual y revisión de las predicciones catastróficas.",
+   "como": "Es el tratamiento psicológico para ansiedad con más investigación. Goldstein y Chambless (1978) describieron además el «miedo al miedo» en la agorafobia: se teme a las propias sensaciones del cuerpo y a cómo se las interpreta.",
+   "debate": "La voluntad y el pensamiento positivo solos no alcanzan. Y aunque la exposición tiene respaldo, otras vías, como la terapia de aceptación y compromiso o la atención plena, tienen respaldo que varía según el problema.",
+   "seccion": "Qué ayuda y qué tiene respaldo"
+  }
+ ],
+ "abierta": "Si la situación anticipada suele tocar algo más antiguo, como el miedo a decepcionar o a perder el control, ¿cuánto del trabajo es entrenar respuestas y cuánto entender qué representa lo que se teme? Se discute."
+}

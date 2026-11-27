@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un jueves de noviembre, en Corea del Sur, los aviones dejan de despegar y aterrizar durante treinta y cinco minutos para que más de medio millón de estudiantes pueda escuchar la parte de inglés de un examen de ingreso a la universidad.",
+   "p": "¿Qué dice esa escena sobre ese país?",
+   "opciones": ["Que la educación es una curiosidad cultural sin consecuencias", "Que el resultado de un solo examen se vive como un veredicto sobre años de esfuerzo", "Que el país exagera y en realidad la presión es igual a la de otros"],
+   "r": "El suneung es un examen anual que pesa mucho en el acceso a universidades prestigiosas y, a través de ellas, a ciertos empleos. A eso se suma la educación privada complementaria (hagwon). Pero leerlo solo como exigencia excesiva simplifica: para muchas familias la educación es también una forma de amor y de proyecto compartido. El problema aparece cuando el valor de una persona queda atado a un único resultado.",
+   "como": "El historiador Michael Seth (2002) llamó a este fenómeno «fiebre educativa» y mostró que tiene raíces históricas profundas: después de 1945, la educación fue la vía de ascenso social por excelencia.",
+   "debate": "Hay mucha investigación que asocia la presión académica, el trabajo extenuante y el aislamiento con el malestar, pero las relaciones de causa son complejas y ningún factor, por sí solo, explica las cifras de sufrimiento del país.",
+   "seccion": "La presión académica: suneung y hagwon"
+  },
+  {
+   "enigma": "Una encuesta nacional con más de cinco mil adultos coreanos encontró que alrededor de un 28 % había tenido algún trastorno mental a lo largo de su vida. Pero entre quienes lo habían tenido en el último año, solo un 7,2 % había consultado a un profesional.",
+   "p": "¿Qué puede explicar esa distancia entre el sufrimiento y la consulta?",
+   "opciones": ["Que en realidad casi nadie necesita ayuda", "El estigma, la vergüenza ante la familia y la idea de que pedir ayuda es una debilidad", "Que no hay profesionales en el país"],
+   "r": "Entre los factores que se estudian está el estigma: en un análisis de esa misma encuesta, en personas con problemas de alcohol, el estigma percibido se asoció con una menor consulta. Suelen mencionarse también la vergüenza ante la familia y la idea de que pedir ayuda es una debilidad.",
+   "como": "Los datos vienen de la Encuesta Nacional de Salud Mental de 2021 (Rim y colaboradores, 2023), cuyos autores califican las tasas de tratamiento de «sustancialmente bajas». Corea tiene incluso un nombre tradicional, hwabyeong, para un malestar que se expresa en el cuerpo, un ejemplo de cómo el sufrimiento toma la forma que su cultura le permite.",
+   "debate": "Conviene evitar dos estereotipos opuestos: idealizar a Corea como el país del éxito o dramatizarlo como una sociedad enferma. Las cifras hablan de sufrimiento real, no de un carácter nacional, y es pronto para saber qué eficacia tienen las políticas recientes.",
+   "seccion": "Lo que no conviene concluir"
+  }
+ ],
+ "abierta": "Si un país puede lograr gran prosperidad y aun así tener a tanta gente sin pedir ayuda, ¿qué haría falta para que los servicios lleguen a quienes no consultan? Argentina también se hace esa pregunta."
+}

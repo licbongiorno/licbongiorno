@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Entrás a una cena familiar y, antes de saludar, ya sabés que algo pasó: tu tía sonríe demasiado, tu primo mira el celular, nadie se sirve todavía. Bajás la voz y dejás para otro día la noticia que traías.",
+   "p": "¿Cómo sabés que algo pasó, si nadie dijo nada?",
+   "opciones": ["Es pura intuición mágica que solo algunos tienen", "Leés señales mínimas, como gestos, silencios y tonos, que nadie dice en voz alta", "Lo adivinás por suerte"],
+   "r": "En coreano esa habilidad se llama nunchi, algo como «medida del ojo»: leer una situación y a las personas que están en ella a partir de señales que no se dicen. La psicología no usa la palabra, pero estudia capacidades parecidas, como la percepción social, la precisión empática y la mentalización, que varían mucho entre personas.",
+   "como": "William Ickes y colegas estudiaron en los años noventa cuán bien adivina una persona lo que otra siente, comparando su inferencia con lo que la otra reporta. En Corea, Heo y Park desarrollaron en 2013 una escala para medir el nunchi.",
+   "debate": "La divulgación lo presenta como «el secreto de la felicidad y el éxito», pero no hay estudios que muestren que entrenarlo con un libro mejore la vida. Sentirse muy perceptivo tampoco garantiza acertar.",
+   "seccion": "Lo que sabe la psicología"
+  },
+  {
+   "enigma": "Alguien lee muy bien lo que los demás quieren y siempre se los da, antes incluso de que lo pidan. Otra persona está constantemente escaneando caras, sin poder relajarse en ninguna reunión.",
+   "p": "¿Qué creés que puede pasar cuando esa capacidad de leer a los demás se lleva al extremo?",
+   "opciones": ["Se vuelve un superpoder sin costos", "Puede volverse hipervigilancia o complacencia que borra lo propio", "Desaparece con la edad"],
+   "r": "Llevada al extremo, puede convertirse en hipervigilancia (frecuente en quienes crecieron en hogares impredecibles), en complacencia o en ansiedad social. La diferencia entre un buen nunchi y uno que lastima no está en cuánto se percibe, sino en qué se hace con eso: elegir con libertad o acomodarse siempre.",
+   "como": "En el trabajo clínico se observa que quienes aprendieron a leer el humor de un adulto como forma de protegerse siguen vigilantes de adultos. Los investigadores de la mentalización hablan de hipermentalización: atribuir al otro intenciones con demasiada seguridad.",
+   "debate": "Se discute si el nunchi es un rasgo coreano o una habilidad que cada contexto exige en distinta medida. Gelfand y colaboradores (2011) compararon 33 países y Corea del Sur figuró entre los más estrictos en normas, pero no está demostrado que eso explique el nunchi.",
+   "seccion": "El lado riesgoso"
+  }
+ ],
+ "abierta": "Si leer el ambiente sirve para cuidar los vínculos pero también puede hacernos desaparecer, ¿cómo se aprende a percibir al otro sin perder la propia voz?"
+}

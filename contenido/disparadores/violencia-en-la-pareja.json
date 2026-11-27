@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Empezó con comentarios que parecían cuidado: «¿con quién estabas?», «esa ropa no te queda bien». Con el tiempo ella dejó de ver amigas, de manejar su plata y de decir lo que pensaba. Nadie la golpeó, o todavía no.",
+   "p": "¿Eso es violencia?",
+   "opciones": [
+    "No: sin golpes no hay violencia",
+    "Sí: la violencia psicológica, económica o digital también lo es, aunque no deje marcas",
+    "Depende de cuánto dure cada episodio"
+   ],
+   "r": "La violencia en la pareja es un conjunto de conductas con las que una persona busca controlar, someter o dañar a la otra. Puede ser física, psicológica, económica, sexual o digital, y las formas suelen combinarse. Muchas personas tardan en nombrarla porque no hay marcas visibles.",
+   "como": "También hay varones que la sufren y ocurre en parejas del mismo sexo; las señales y la necesidad de protegerse son las mismas.",
+   "debate": "La terapia de pareja no es el abordaje indicado cuando hay violencia, porque exige un piso de seguridad que ahí no existe. Corresponde el acompañamiento individual y la planificación de la seguridad.",
+   "seccion": "Qué es y qué formas toma"
+  },
+  {
+   "enigma": "Después de una pelea, la pareja pide perdón y promete cambiar. Hay un tiempo de calma, de afecto, de esperanza. Hasta la próxima vez.",
+   "p": "Quien no lo vivió suele preguntar por qué cuesta tanto irse. ¿Qué hay detrás?",
+   "opciones": [
+    "Falta de decisión de quien la sufre",
+    "Razones concretas que se suman: miedo a represalias, dependencia económica, hijos, vergüenza, aislamiento y esperanza",
+    "Que no se da cuenta de lo que pasa"
+   ],
+   "r": "Las razones son concretas y se combinan, y el desgaste psicológico erosiona la confianza en una misma. Nada de esto es debilidad ni responsabilidad por lo que pasa: la responsabilidad de la violencia es siempre de quien la ejerce.",
+   "como": "Lenore Walker (1979), a partir de entrevistas con mujeres golpeadas, describió un ciclo de tres fases: acumulación de tensión, episodio agudo y reconciliación. La descripción ayudó a muchas personas a entender lo que vivían.",
+   "debate": "No todas las relaciones violentas siguen ese esquema: a veces no hay fase de reconciliación, o la violencia es constante. Sirve como idea orientadora, no como regla.",
+   "seccion": "Por qué cuesta irse"
+  }
+ ],
+ "abierta": "Si la violencia suele empezar con señales que parecen cuidado, ¿cómo se hace para reconocerla a tiempo, en uno mismo o en alguien cercano? Es una pregunta abierta."
+}

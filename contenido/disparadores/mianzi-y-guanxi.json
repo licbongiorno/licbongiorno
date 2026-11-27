@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una cena de negocios, alguien le corrige un dato a su jefe delante de todos. El dato era cierto, pero el clima se enfría y esa persona queda marcada por la corrección.",
+   "p": "¿Por qué tener razón puede costar tan caro?",
+   "opciones": ["Porque los jefes nunca aceptan que se equivocan", "Porque en la vida social cuidamos la imagen propia y la ajena, y exponer a alguien tiene un costo", "Porque corregir en público es siempre una falta de educación"],
+   "r": "La tradición china tiene un vocabulario para eso: la «cara». Distingue el mianzi, el prestigio que se gana, se pierde o se da, del lian, la integridad moral que la comunidad respeta. Perder lian es mucho más grave que perder prestigio.",
+   "como": "En 1944 la antropóloga Hsien Chin Hu publicó un trabajo pionero que distinguió esas dos palabras, y en 1976 el psicólogo David Yau-fai Ho aclaró el concepto. En Occidente, Erving Goffman escribió sobre la cara en un ensayo de 1955.",
+   "debate": "Para Goffman la cara es situacional, se gana y se pierde en cada encuentro. En la tradición china que describen Hu y Ho está además anclada en la comunidad y en la moral. No conviene exagerar la diferencia entre culturas.",
+   "seccion": "La cara: mianzi y lian"
+  },
+  {
+   "enigma": "Dos colegas preparan una presentación. Uno detecta un error en las cifras del otro y, en vez de señalarlo en la reunión, le escribe antes. Después recibe una invitación a almorzar.",
+   "p": "¿Qué creés que se puso en juego en ese gesto?",
+   "opciones": ["Nada especial: fue una simple cortesía", "Se cuidó la cara del otro, se hizo un favor y quedó una deuda de gratitud", "Una estrategia para quedar mejor ante el jefe"],
+   "r": "Ahí hay cara cuidada, favor hecho y deuda de gratitud, todo en un solo gesto. El guanxi son las redes de relaciones personales por donde circulan favores y confianza, y el renqing, lo que se da y se debe en ellas. El guanxi también nombra la calidad del vínculo en sí, no solo lo que se puede obtener de él.",
+   "como": "La antropóloga Mayfair Yang estudió en 1994 estas redes de regalos, favores y banquetes. Kwang-Kuo Hwang propuso en 1987 un modelo en el que la cara y el favor organizan el intercambio según el tipo de relación.",
+   "debate": "Idealizar estas redes como pura calidez es tan engañoso como reducirlas a corrupción: también pueden ser terreno de desigualdad y favoritismo. Estos trabajos son marcos conceptuales, no pruebas clínicas.",
+   "seccion": "Guanxi y renqing"
+  }
+ ],
+ "abierta": "Si pedir ayuda puede vivirse como perder la cara, ¿cuántas consultas se postergan por el miedo a quedar mal? Es una pregunta que cada cultura, y cada persona, responde a su modo."
+}

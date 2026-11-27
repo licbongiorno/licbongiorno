@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Julián dice que su relación «está bien», pero está agotado. Mira si su pareja vio el mensaje, interpreta cada demora en responder y pide perdón antes de que haga falta.",
+   "p": "¿Eso es amor de más?",
+   "opciones": [
+    "Sí, ama con demasiada intensidad y habría que enfriarlo",
+    "No necesariamente: puede ser miedo a perder el vínculo con forma de amor",
+    "Es lo normal de toda pareja al principio"
+   ],
+   "r": "En la dependencia emocional el bienestar propio queda en manos de otra persona: miedo intenso al abandono, tolerar lo que duele para no perder el vínculo y dejar de lado los propios deseos. El amor, en cambio, puede convivir con la libertad y el cuidado de uno mismo.",
+   "como": "John Bowlby, con su teoría del apego, mostró cómo las primeras experiencias con quienes nos cuidan moldean lo que esperamos de los vínculos adultos. En la clínica se ve además que comprender el patrón ayuda a cambiarlo.",
+   "debate": "«Dependencia emocional» es una forma de nombrar una experiencia, no un diagnóstico que alguien pueda hacer con una lista de señales. Y necesitar a otros es sano: no todo vínculo intenso es dependencia.",
+   "seccion": "Una escena del consultorio"
+  },
+  {
+   "enigma": "Alguien deja de ver a sus amigos de siempre porque a su pareja le molesta, cancela un plan para no discutir y ya no recuerda cuándo eligió algo solo por gusto propio.",
+   "p": "¿Cómo puede ser que cada renuncia parezca razonable y, sumadas, dejen un mundo cada vez más chico?",
+   "opciones": [
+    "Porque la persona es débil de carácter",
+    "Porque cuanto más se achica el mundo, más aterra perder la única relación que queda",
+    "Porque en pareja siempre hay que renunciar a todo lo anterior"
+   ],
+   "r": "Cada renuncia parece pequeña, pero sumadas dejan una vida donde casi todo el valor depende de una sola relación. Y cuanto más chico es el mundo, más aterrador resulta perderla.",
+   "como": "Se describe en la clínica y en la investigación sobre apego: suele tener raíces en vínculos tempranos donde el afecto fue inestable o condicionado, en experiencias de abandono y en una autoestima frágil.",
+   "debate": "No se puede señalar una única causa. Desde la mirada junguiana se habla de proyección (depositar en el otro aspectos propios), una hipótesis útil dentro de una tradición, no una verdad demostrada.",
+   "seccion": "Algunas señales"
+  }
+ ],
+ "abierta": "Si los vínculos tempranos moldean lo que esperamos del amor, ¿cuánto de lo que hoy sentimos como «necesidad» es historia, y cuánto se puede reescribir de adultos?"
+}

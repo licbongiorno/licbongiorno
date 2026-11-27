@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona estudia diez horas y no retiene nada. Otra estudia dos y entiende. No se diferencian en inteligencia ni en cuánto se esfuerzan.",
+   "p": "¿Qué creés que hace la diferencia?",
+   "opciones": ["Que una nació con más memoria", "Que una se da cuenta de cómo aprende: qué entendió, qué no, y cuándo cambiar de estrategia", "Que una tiene más tiempo libre"],
+   "r": "Es lo que se llama metacognición: la capacidad de darse cuenta de cómo pensamos y aprendemos. Quien aprende a aprender depende menos de lo que le enseñaron, porque puede seguir aprendiendo solo. Es tan importante que la Unión Europea incluye «aprender a aprender» entre sus competencias clave.",
+   "como": "El psicólogo John Flavell fue quien describió la metacognición. La idea de metahabilidades se popularizó con el libro «Metaskills» (2013) de Marty Neumeier.",
+   "debate": "Se habló mucho de la «mentalidad de crecimiento» de Carol Dweck, pero investigaciones recientes muestran que sus efectos son más modestos de lo que se difundió. Ninguna frase motivadora reemplaza la práctica.",
+   "seccion": "Aprender a aprender"
+  },
+  {
+   "enigma": "Si te preguntan de cuántas maneras se puede usar un ladrillo, al principio se te ocurren dos o tres. En la escuela casi siempre te pedían la única respuesta correcta.",
+   "p": "¿Qué creés que pasa con la creatividad cuando se entrena sobre todo una respuesta única?",
+   "opciones": ["Se desarrolla igual, porque es un talento innato", "Se entrena menos el pensamiento que abre muchas posibilidades", "No se ve afectada porque solo depende de la inspiración"],
+   "r": "J. P. Guilford distinguió el pensamiento divergente, que abre muchas posibilidades, del convergente, que busca la única respuesta correcta. La escuela entrena mucho más el segundo. La creatividad no es solo pintar o escribir: es producir algo nuevo y valioso, como una idea o una solución.",
+   "como": "Mihaly Csikszentmihalyi estudió a personas muy creativas y encontró algo en común: curiosidad, capacidad de jugar y de concentrarse profundamente. Winnicott sostuvo desde la clínica que el juego y la creatividad son la base de sentirse vivo y real.",
+   "debate": "Que la creatividad sea una capacidad entrenable es una idea valiosa, pero no es un talento de pocos ni se reduce a una técnica: se discute cuánto depende de la persona y cuánto del contexto.",
+   "seccion": "La creatividad"
+  }
+ ],
+ "abierta": "Si la curiosidad y la tolerancia a no saber todavía sostienen todos los demás aprendizajes, ¿cómo se cultivan en un mundo que premia las respuestas rápidas? Todavía se investiga."
+}

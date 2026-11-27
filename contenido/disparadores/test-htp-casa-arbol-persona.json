@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una hoja en blanco, un lápiz y una consigna sencilla: «dibujá una casa». Después, un árbol. Después, una persona. Mucha gente se preocupa porque «dibuja mal».",
+   "p": "¿Importa que dibujes bien?",
+   "opciones": ["Sí, un buen dibujo indica una buena salud mental", "No: interesa cómo cada uno resuelve algo familiar y lo que cuenta después", "Sí, porque se puntúa la prolijidad"],
+   "r": "No es un concurso de dibujo: lo que interesa es cómo cada uno resuelve a su manera algo que todos conocemos, y la conversación posterior (quién vive en la casa, qué edad tiene el árbol, qué hace la persona) es tan importante como el dibujo. Tradicionalmente la casa se asocia con el hogar, el árbol con el desarrollo y la persona con la imagen de sí, pero son hipótesis de trabajo, no traducciones.",
+   "como": "El HTP (casa-árbol-persona) lo creó el psicólogo John N. Buck en 1948 y lo desarrollaron otros autores como Emanuel Hammer. Se eligieron esos tres elementos porque son familiares para todos, de cualquier edad y cultura.",
+   "debate": "Un dibujo varía según el día, el cansancio, la consigna, la edad y la cultura: es una muestra y no un rasgo permanente. Desconfiá de las listas de internet del tipo «si dibujaste humo en la chimenea, significa…».",
+   "seccion": "Qué se observa"
+  },
+  {
+   "enigma": "Una mujer dibuja un árbol de tronco ancho y pocas hojas. Cuando se le pregunta cómo está ese árbol, responde: «Aguantó muchos inviernos».",
+   "p": "¿De dónde sale lo valioso de esa escena?",
+   "opciones": ["Del tronco y de las hojas, según un manual de signos", "De la frase y de la historia que se abrió después", "De ninguna parte: un árbol es un árbol"],
+   "r": "En la conversación, ella habla de un período de cuidados a un familiar enfermo que terminó hace poco. El dibujo no «diagnosticó» agotamiento: le dio una imagen para decirlo. Lo valioso no fue el trazo sino la frase y la historia que se abrió después. Es una viñeta compuesta.",
+   "como": "Donde la técnica sí aporta es en facilitar el rapport y dar material para conversar, algo que la investigación sobre validez no mide bien. Las revisiones sobre dibujos proyectivos (Lilienfeld, Wood y Garb, 2000) encontraron que los indicadores individuales del HTP tienen poca capacidad para distinguir entre grupos clínicos y no clínicos.",
+   "debate": "La asociación tradicional (casa = familia, árbol = desarrollo, persona = imagen de sí) es una hipótesis clínica, no un hallazgo empírico firme. Los sistemas de puntuación más estructurados dan resultados algo mejores, pero no alcanzan para conclusiones diagnósticas individuales.",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "Si el dibujo vale más como puente para conversar que como prueba, ¿cómo se podría estudiar con rigor ese efecto de «abrir» la conversación? Todavía es una pregunta sin cerrar."
+}

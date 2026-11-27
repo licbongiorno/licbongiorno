@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te toca presentarte en una reunión. Faltan tres personas para tu turno y sentís la cara caliente y la cabeza en blanco. Al hablar, casi no escuchás lo que decís: estás pendiente de si se nota. Al salir, repasás cada palabra durante horas.",
+   "p": "¿Qué mantiene ese miedo, en vez de apagarlo?",
+   "opciones": ["Que la persona se vea a sí misma por dentro y se proteja, y así no comprueba que podía salir bien", "Que los demás de verdad la juzguen siempre con dureza", "Que no se prepare lo suficiente antes de hablar"],
+   "r": "Clark y Wells describieron un círculo: aparece el miedo, la atención se vuelve hacia adentro, la persona se imagina cómo la ven (casi siempre peor de lo que es), se protege con conductas de seguridad que la hacen verse más tensa, y el recuerdo queda teñido de esa imagen negativa.",
+   "como": "El modelo lo propusieron los psicólogos David Clark y Adrian Wells en 1995, a partir de investigación clínica. La terapia cognitivo-conductual, con exposición gradual, es lo que más investigación tiene.",
+   "debate": "La hipótesis de que el miedo a la mirada ajena se arma en vínculos tempranos o en humillaciones es una lectura clínica útil, no una causa demostrada para todos.",
+   "seccion": "Por qué se sostiene"
+  },
+  {
+   "enigma": "Hay personas muy reservadas que disfrutan de su tranquilidad. Y hay otras que dejan de opinar, de ir a lugares o de buscar un trabajo para no pasar por ese malestar.",
+   "p": "¿Es lo mismo timidez que ansiedad social?",
+   "opciones": ["Sí, son nombres distintos de lo mismo", "No: la timidez es un rasgo y la ansiedad social organiza la vida alrededor de evitar", "La ansiedad social es solo timidez muy fuerte"],
+   "r": "La timidez es un rasgo de temperamento: hay personas más reservadas que tardan en entrar en confianza. La ansiedad social es un sufrimiento sostenido que hace que la persona organice su vida alrededor de evitarlo. Todos sentimos nervios; la diferencia está en la intensidad y en cuánto limita.",
+   "como": "Es una distinción clínica entre un rasgo y un cuadro que limita la vida. No toda persona reservada tiene ansiedad social, y no todo nerviosismo antes de hablar en público es un trastorno.",
+   "debate": "Entre lo que tiene más investigación (el modelo de Clark y Wells y la exposición gradual) y las lecturas psicoanalíticas y junguianas sobre la vergüenza y la máscara social, hay diferencias de enfoque que conviven en la consulta.",
+   "seccion": "Qué es la ansiedad social"
+  }
+ ],
+ "abierta": "Si cada vez que evitamos sentimos alivio, ¿cómo se da el primer paso hacia lo temido sin que parezca una amenaza? Se sigue investigando cómo graduar esa escalera."
+}

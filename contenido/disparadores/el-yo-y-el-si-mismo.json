@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una joven profesional, muy organizada, consigue por fin el ascenso que buscó durante años y «no siente nada». En un sueño está en una casa grande y ordenada, y abajo se oye una música que no puede ubicar.",
+   "p": "¿Por qué puede haber vacío cuando todo salió bien?",
+   "opciones": [
+    "Porque no se esforzó lo suficiente",
+    "Porque el yo puede conducir muy bien sin saber adónde va",
+    "Porque los ascensos nunca satisfacen"
+   ],
+   "r": "Jung distinguía el yo, centro de la conciencia que decide y organiza, del sí-mismo: la totalidad de la psique, consciente e inconsciente, y su centro organizador. A veces el yo maneja bien el auto, pero el mapa lo tiene otro. No todo lo que pasa es un error del yo: a veces es la vida pidiendo más espacio.",
+   "como": "Es un concepto teórico de Jung, apoyado en la clínica, en los sueños y en símbolos de totalidad como círculos o mandalas. No hay estudios que midan «el sí-mismo».",
+   "debate": "Lo que la investigación sí respalda, en otros términos, es que una identidad flexible y un yo con capacidad de reflexión se asocian con más bienestar y mejor manejo de las crisis.",
+   "seccion": "El sí-mismo: la totalidad"
+  },
+  {
+   "enigma": "Un hombre se identifica tanto con lo «trascendente» que se siente por encima de los demás y pierde contacto con ellos.",
+   "p": "¿Qué advertía Jung de eso?",
+   "opciones": [
+    "Que es la meta final del camino",
+    "Que es un riesgo, la inflación: el yo se hincha y pierde contacto",
+    "Que es señal de un yo débil"
+   ],
+   "r": "Jung advertía que identificarse con el sí-mismo es un riesgo, la inflación: el yo se hincha y se aleja de los demás. Por eso la relación entre yo y sí-mismo no es un estado final: se renueva toda la vida.",
+   "como": "Surge de su obra y de la experiencia clínica junguiana. En la consulta se lo trabaja con cercanía y humor.",
+   "debate": "Jung usó «sí-mismo» como concepto psicológico, no religioso, aunque reconoció que muchas tradiciones lo expresaron con lenguaje de lo sagrado. Otras corrientes, como la psicología transpersonal, abordan temas parecidos con otras palabras.",
+   "seccion": "Cómo se relacionan"
+  }
+ ],
+ "abierta": "Si el sí-mismo no se «consigue» ni se interpreta desde fuera, ¿qué experiencias lo hacen intuir? Es una pregunta que la tradición junguiana todavía explora."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Marta cuida a su mamá desde hace dos años. Todos le dicen que es un ejemplo de amor, y ella a veces se queda mirando la taza con un cansancio que no sabe nombrar.",
+   "p": "¿Qué pesa más en quienes cuidan a un familiar, el desgaste del cuerpo o el del ánimo?",
+   "opciones": [
+    "El del cuerpo: cargar, levantarse de noche y no parar",
+    "El del ánimo: el estrés y la tristeza se sienten más que lo físico",
+    "Pesan igual, y quien cuida con cariño no se desgasta"
+   ],
+   "r": "Cuando se compara a quienes cuidan con quienes no cuidan, los cuidadores muestran en promedio más estrés y depresión y menos bienestar. La diferencia es mayor en lo psicológico que en la salud física.",
+   "como": "Pinquart y Sörensen (2003) reunieron 84 artículos que hacían esa comparación en un metaanálisis. Antes, Zarit y sus colegas (1980) habían empezado a estudiar la «carga» que sentían los familiares de adultos mayores con deterioro.",
+   "debate": "Son promedios: no todos los cuidadores se deprimen y muchos encuentran sentido y cercanía en cuidar. Lo que no se sostiene es que cansarse sea falta de cariño.",
+   "seccion": "Qué dice la investigación"
+  },
+  {
+   "enigma": "Alguien cuida a su padre enfermo y, cada tanto, se descubre enojado con él, con sus hermanos que ayudan poco y con sí mismo. Después le cae encima la culpa.",
+   "p": "¿Qué dice ese enojo mezclado con cariño?",
+   "opciones": [
+    "Que en el fondo no quiere lo suficiente a su padre",
+    "Que es esperable en una situación exigente sostenida en el tiempo",
+    "Que está cansado de más y debería poder controlarlo con voluntad"
+   ],
+   "r": "La culpa, el enojo y la ambivalencia (querer a alguien y desear a la vez un respiro) son esperables en quien cuida. No hablan de falta de cariño sino de una situación exigente que se prolonga.",
+   "como": "Surge de lo que se describe al estudiar la sobrecarga del cuidador y de lo que cuentan quienes cuidan. También se habla de un duelo anticipado: despedirse de a poco de la persona que era, mientras todavía está.",
+   "debate": "Ponerle nombre a esas emociones alivia a muchos, pero no hay una receta única: cada familia reparte el cuidado de manera distinta, y lo que descansa a uno no necesariamente descansa a otro.",
+   "seccion": "Lo que se siente y a veces no se dice"
+  }
+ ],
+ "abierta": "Si el cuidado es un trabajo que casi nunca se cuenta ni se paga, ¿cómo podría repartirse mejor entre una familia, y qué haría falta para que pedir ayuda dejara de sentirse como una falta?"
+}

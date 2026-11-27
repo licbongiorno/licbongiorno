@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Es domingo a la noche y la cabeza ya está en el lunes. Alguien dice: «Me pasa porque no sé manejar la presión».",
+   "p": "¿De dónde viene sobre todo el desgaste del estrés laboral?",
+   "opciones": [
+    "De que la persona no sabe manejar la presión",
+    "De cuánta exigencia hay y de cuánto margen se tiene para decidir cómo trabajar",
+    "De que hoy la gente aguanta menos que antes"
+   ],
+   "r": "La investigación en salud ocupacional muestra que pesan mucho las características del trabajo: alta demanda con poco control, y un desequilibrio entre el esfuerzo que se pone y lo que se recibe a cambio.",
+   "como": "El sociólogo Robert Karasek (1979) propuso que lo más desgastante es combinar mucha exigencia con poco margen de decisión. Johannes Siegrist (1996) mostró que el riesgo para la salud sube cuando el esfuerzo es alto y la recompensa (salario, reconocimiento, estabilidad) es baja.",
+   "debate": "Los factores personales también cuentan, como la autoexigencia o la dificultad para poner límites. Las intervenciones individuales reducen el estrés de forma modesta; los cambios en la organización del trabajo se estudiaron menos, pero pueden ser más duraderos.",
+   "seccion": "Qué lo produce"
+  },
+  {
+   "enigma": "Dos compañeros están mal con el trabajo. Uno dice: «estoy a mil, no doy abasto». El otro: «ya nada me importa».",
+   "p": "¿Es lo mismo estrés laboral que burnout?",
+   "opciones": [
+    "Sí, el burnout es simplemente más estrés",
+    "No: en el estrés se siente «demasiado»; en el burnout, vacío",
+    "No: el burnout es una forma de desgano o pereza"
+   ],
+   "r": "El estrés laboral es una exigencia que supera lo que podés manejar, pero con energía todavía para pelear. El burnout puede venir si se sostiene sin poder manejarlo: agotamiento, distancia mental o cinismo y sensación de ineficacia.",
+   "como": "Esas tres dimensiones son las que usa la Organización Mundial de la Salud para definir el burnout.",
+   "debate": "Estrés, ansiedad y depresión pueden superponerse y la ansiedad o la depresión pueden existir sin relación con el trabajo, por lo que distinguirlas requiere evaluación. Y no tiene respaldo que el estrés sea siempre dañino ni que «el que no aguanta es débil».",
+   "seccion": "Qué es"
+  }
+ ],
+ "abierta": "Si cambiar el trabajo ayuda tanto como aprender a manejar la presión, ¿cómo se logra que las organizaciones cambien? Todavía se investiga."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay quienes repiten en silencio una palabra veinte minutos a la mañana y veinte a la tarde, con una técnica que solo se aprende con un instructor y un mantra asignado. Otros dicen que da lo mismo cuál palabra se repita.",
+   "p": "¿Qué creés que importa más para que la práctica haga efecto?",
+   "opciones": ["La palabra exacta, que tiene que ser la correcta para cada persona", "La actitud de dejar de pelearse con la mente, más que la palabra", "El lugar donde se medita"],
+   "r": "Herbert Benson propuso que el efecto no dependía de un mantra específico, sino de algo más general que llamó respuesta de relajación: lo opuesto a la reacción de estrés. Se logra con cualquier palabra repetida, una actitud pasiva frente a los pensamientos y un lugar tranquilo.",
+   "como": "En los años setenta, Benson, cardiólogo de Harvard, estudió a practicantes de meditación trascendental, una técnica difundida desde mediados de los cincuenta por Maharishi Mahesh Yogi, y propuso que su efecto se debía a esa respuesta general.",
+   "debate": "La organización sostiene que la forma de enseñanza oficial es necesaria para hacerlo correctamente. Benson, en cambio, mostró que se puede lograr algo parecido sin curso ni mantra asignado.",
+   "seccion": "La respuesta de relajación"
+  },
+  {
+   "enigma": "La meditación trascendental es una de las más estudiadas del mundo, y muchas investigaciones muestran que baja la presión arterial. Sin embargo, algunos especialistas piden leer esos estudios con cautela.",
+   "p": "¿Por qué creés que habría que leerlos con cuidado?",
+   "opciones": ["Porque muchos fueron hechos por investigadores vinculados a la propia organización", "Porque nadie logró medir la presión arterial con precisión", "Porque los estudios son siempre demasiado largos"],
+   "r": "Varias revisiones señalaron que muchos estudios fueron hechos por investigadores vinculados a la organización. Además, cuando se la compara con otras técnicas de relajación o meditación, las diferencias suelen ser pequeñas.",
+   "como": "La Asociación Americana del Corazón, en una declaración científica de 2017 (Levine y colaboradores), consideró un posible beneficio cardiovascular, con evidencia de calidad modesta.",
+   "debate": "Hay grupos de comparación poco comparables y seguimientos cortos. En el panorama amplio de la meditación, la revisión de Goyal (2014) halló efectos modestos, sin ventaja sobre otros tratamientos activos.",
+   "seccion": "Qué dice la investigación"
+  }
+ ],
+ "abierta": "Si bastara con repetir una palabra con la actitud justa, ¿por qué hay quienes sienten que necesitan un método exclusivo para lograrlo? Es una pregunta que todavía se discute."
+}

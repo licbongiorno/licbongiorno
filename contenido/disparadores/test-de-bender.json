@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Son nueve tarjetas con figuras simples: puntos, líneas, rombos, curvas. La consigna es copiarlas en una hoja. Parece fácil, y para la mayoría lo es.",
+   "p": "Si copiar es fácil, ¿qué podría interesarle a un profesional de esa tarea?",
+   "opciones": ["Si la copia es idéntica al modelo, porque se aprueba o se desaprueba", "Cómo se copia: el orden, el uso del espacio, el tiempo, los cambios", "Qué tan bien dibuja la persona"],
+   "r": "En el Bender no se aprueba ni se desaprueba: se observa cómo alguien organiza lo que ve. Evalúa la integración visomotora, la maduración en niños y la forma de trabajo: planificación, uso del espacio, prolijidad y tolerancia a la tarea.",
+   "como": "Lo creó en 1938 la psiquiatra Lauretta Bender, a partir de figuras que había usado Max Wertheimer, uno de los fundadores de la Gestalt, para estudiar la percepción. Para niños hay sistemas de puntuación como el de Elizabeth Koppitz (1963), que describe la maduración visomotriz según la edad.",
+   "debate": "No alcanza por sí solo para diagnosticar un problema neurológico, de aprendizaje o emocional: es una prueba de detección y observación, y sus resultados se integran con la entrevista y otras pruebas.",
+   "seccion": "Qué evalúa"
+  },
+  {
+   "enigma": "Una maestra deriva a un niño de siete años que «escribe bien pero se cansa enseguida y da vuelta las letras». En la evaluación copia las figuras con mucho esfuerzo, gira la hoja a mitad de camino y dice que le duelen los ojos.",
+   "p": "¿Qué se puede concluir?",
+   "opciones": ["Que tiene daño cerebral", "Que es una observación que se suma a otras y ayuda a formular mejor la pregunta", "Que simplemente no se esfuerza"],
+   "r": "Eso no es un diagnóstico: quizás haga falta un control oftalmológico, una evaluación de la lectoescritura o más tiempo de maduración. El Bender no responde, pero ayuda a formular mejor la pregunta. Es una escena compuesta, no un caso real.",
+   "como": "Hay respaldo para usarlo como prueba de detección de dificultades visomotrices, sobre todo en niños, y como complemento de otras evaluaciones del desarrollo.",
+   "debate": "El respaldo es limitado cuando se pretende usarlo como prueba de «daño cerebral» o para diagnosticar por sí solo: las revisiones muestran resultados mixtos y hoy se prefieren pruebas más específicas. La lectura emocional del trazo es teoría clínica, una hipótesis a conversar y no una regla.",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "Si copiar unas figuras dice algo de cómo alguien organiza lo que ve, ¿qué otras tareas cotidianas muestran esa organización? Es una pregunta que sigue abierta en la evaluación del desarrollo."
+}

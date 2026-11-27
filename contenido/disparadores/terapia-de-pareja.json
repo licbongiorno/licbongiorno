@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace meses que una pareja discute por lo mismo. Ella dice que él no escucha; él dice que cualquier cosa que diga termina en reproche. Ya probaron hablar «con calma», y a los diez minutos están otra vez en el mismo lugar.",
+   "p": "¿Qué creés que mantiene viva la pelea?",
+   "opciones": ["Que uno de los dos tiene razón y el otro no quiere reconocerlo", "Un ciclo que se repite entre los dos, donde cada uno protesta o se retira por una necesidad que no logra decir", "Que son incompatibles y no hay nada por hacer"],
+   "r": "En la terapia de pareja el paciente es, en cierto modo, la relación: se miran los ciclos que se repiten entre los dos más que quién tiene la culpa. Un enfoque, la terapia focalizada en las emociones, entiende estos conflictos como ciclos en los que cada uno protesta o se retira por una necesidad de cercanía que no logra expresar, y busca que pueda decirse y escucharse.",
+   "como": "Sue Johnson desarrolló ese enfoque apoyándose en la teoría del apego, y lo presentó para un público general en «Hold Me Tight» (2008). John Gottman, por su parte, estudió parejas durante años y trabajó sobre la amistad, la gestión del conflicto y los hábitos cotidianos (Gottman y Silver, 1999).",
+   "debate": "Ningún enfoque es el único válido: con frecuencia el terapeuta integra elementos de varios, como el sistémico, que mira reglas, roles y mandatos de las familias de origen.",
+   "seccion": "Enfoques principales"
+  },
+  {
+   "enigma": "Un día alguno propone ir a terapia de pareja y el otro responde: «¿Eso sirve?».",
+   "p": "¿Qué te parece que dice la investigación?",
+   "opciones": ["Que casi nunca sirve y las parejas terminan separándose igual", "Que tiene un efecto positivo en buena parte de las parejas, aunque no garantiza que sigan juntas", "Que siempre salva la relación"],
+   "r": "La revisión de Lebow, Chambers, Christensen y Johnson (2012) indica que la terapia de pareja tiene un efecto positivo en alrededor del 70 % de las parejas que la reciben, con efectividad comparable a la de las terapias individuales y superior a la de no recibir tratamiento.",
+   "como": "Se sabe por una revisión de la investigación de una década sobre el tratamiento del malestar de pareja.",
+   "debate": "Es un promedio y no dice nada sobre cada pareja en particular. No hay evidencia de que garantice que la pareja siga junta: a veces el resultado es una separación más clara y menos hostil, y eso también puede ser un buen resultado.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si el ciclo entre dos personas pesa más que la culpa de cada una, ¿qué hace falta para que puedan cambiarlo? Todavía se investiga qué ingredientes de la terapia de pareja son los que más importan."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Después de una reunión, aunque la pasó bien, necesita irse a su cuarto. Una persona sabe todo sobre un tema que a nadie le interesa, y necesita dos días de silencio después de cada fin de semana con la familia.",
+   "p": "¿Eso es frialdad?",
+   "opciones": [
+    "Sí, es falta de cariño",
+    "No necesariamente: la introversión y la necesidad de privacidad son rasgos estudiados y no son un problema",
+    "Es siempre señal de depresión"
+   ],
+   "r": "La introversión y la necesidad de privacidad tienen buena investigación como rasgos y no son un problema. Observar mucho no es lo mismo que no sentir: muchos 5 sienten intensamente, pero lo procesan lejos del público.",
+   "como": "El eneagrama, que viene de Óscar Ichazo y Claudio Naranjo, describe al 5 como alguien que necesita entender para sentirse seguro. La investigación sobre introversión es otra cosa y tiene mejor respaldo.",
+   "debate": "Conviene no confundir al 5 con el espectro autista, la fobia social ni la depresión, que se evalúan clínicamente. El eneagrama es una herramienta de autoconocimiento, no una medición científica.",
+   "seccion": "En los vínculos"
+  },
+  {
+   "enigma": "En una discusión, alguien queda mudo y recién al día siguiente sabe qué sentía. Su pareja lo toma como indiferencia.",
+   "p": "¿Qué ayuda en esos casos?",
+   "opciones": [
+    "Acordar de antemano algo como «necesito pensarlo y vuelvo»",
+    "Que la otra persona insista hasta que hable",
+    "Evitar cualquier discusión"
+   ],
+   "r": "Procesar las emociones después, a solas, puede leerse como frialdad. Acordar de antemano «necesito pensarlo y vuelvo» evita que el silencio se tome como rechazo.",
+   "como": "Es una pauta práctica de la clínica con este patrón. Desde lo junguiano, el pensamiento como función dominante deja en sombra al sentimiento y al cuerpo, y la interocepción ayuda a llevar lo entendido a lo vivido.",
+   "debate": "Es una lectura para pensarse, no una regla. Cada persona procesa distinto, y que se parezca al apego evitativo no significa que sea lo mismo.",
+   "seccion": "En terapia"
+  }
+ ],
+ "abierta": "Si entender puede ser una forma de vivir y también de no vivir, ¿cómo saber cuándo una persona está cuidando su energía y cuándo se está protegiendo de más?"
+}

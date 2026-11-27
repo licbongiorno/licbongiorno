@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay mañanas en que levantarse cuesta como si el cuerpo pesara el doble, y lo que antes gustaba ya no dice nada. Un amigo te dice: «Estás triste, ya se te va a pasar».",
+   "p": "¿La depresión es lo mismo que estar muy triste?",
+   "opciones": [
+    "Sí, es tristeza más intensa y bastaría con ponerle ganas",
+    "No: suele ser más persistente y global, y a veces ni se siente como tristeza",
+    "Sí, pero solo aparece cuando hay un motivo claro"
+   ],
+   "r": "La tristeza es una emoción con razones, va y viene y deja momentos de alivio. La depresión suele sostenerse casi todo el día, casi todos los días, se extiende a lo que antes daba placer y a veces se siente como vacío, apatía o irritabilidad.",
+   "como": "Los manuales diagnósticos la definen por síntomas que duran al menos dos semanas y afectan la vida diaria. El diagnóstico lo hace un profesional de la salud: no se puede hacer con un test.",
+   "debate": "Hay situaciones en que ambas se superponen, como en un duelo, y no siempre es fácil trazar la frontera. Por eso, ante la duda, conviene consultar.",
+   "seccion": "Cómo se diferencia de la tristeza"
+  },
+  {
+   "enigma": "Dos personas con depresión empiezan tratamiento: una elige psicoterapia, otra medicación. Una tercera prefiere esperar «a que se le pase con ganas».",
+   "p": "¿Qué tiene respaldo en la investigación?",
+   "opciones": [
+    "Solo la medicación, porque la depresión es biológica",
+    "La psicoterapia y, cuando corresponde, la medicación; el esfuerzo solitario no alcanza",
+    "Lo único que funciona es ponerle ganas y pensar en positivo"
+   ],
+   "r": "Tienen respaldo la psicoterapia (la cognitivo-conductual es la más estudiada) y, cuando corresponde, los antidepresivos indicados por un médico. Ponerle ganas o pensar en positivo no tiene respaldo como única respuesta.",
+   "como": "Un metaanálisis de Cuijpers y colaboradores (2013) encontró un efecto claro de la terapia cognitivo-conductual frente a no recibir tratamiento. Otro, de Cipriani y colaboradores (2018), reunió 522 estudios con 21 antidepresivos y halló que todos superaron al placebo en adultos con depresión mayor.",
+   "debate": "Las diferencias entre antidepresivos fueron de tamaño modesto, y no siempre hacen falta: en cuadros leves suele empezarse por psicoterapia. La decisión es individual y no conviene suspender un tratamiento por cuenta propia.",
+   "seccion": "Qué tratamientos tienen evidencia"
+  }
+ ],
+ "abierta": "Si hay tratamientos que funcionan para muchos pero no para todos, ¿por qué una misma depresión responde distinto en cada persona? Es una de las preguntas que más se investiga hoy."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Está la que escribe una carta que te hace llorar y no puede con una regla de tres. El que arma un mueble sin mirar el instructivo. El que escucha una canción una vez y la toca.",
+   "p": "¿La inteligencia es una sola capacidad general o varias independientes?",
+   "opciones": [
+    "Una sola, que se ve en todo lo que hacemos",
+    "Varias, relativamente independientes entre sí",
+    "Es muy difícil de decir y nadie la estudió"
+   ],
+   "r": "Howard Gardner propuso que la inteligencia no es una sola capacidad sino un conjunto de inteligencias relativamente independientes: lingüística, lógico-matemática, espacial, musical, corporal, interpersonal, intrapersonal y naturalista.",
+   "como": "Lo planteó en 1983 en Estructuras de la mente. Otros autores propusieron alternativas, como la teoría triárquica de Sternberg y la distinción de Cattell entre inteligencia fluida y cristalizada.",
+   "debate": "La teoría es muy popular en las escuelas pero tiene poco respaldo empírico: muchas de esas inteligencias parecen talentos o habilidades, y las capacidades cognitivas suelen estar más relacionadas entre sí de lo que supone.",
+   "seccion": "La teoría de Howard Gardner"
+  },
+  {
+   "enigma": "En una escuela se decide enseñar a cada alumno según su «tipo de inteligencia»: al musical, con canciones; al corporal, con movimiento.",
+   "p": "¿Aprenden mejor así?",
+   "opciones": [
+    "Sí, aprenden mucho mejor",
+    "No hay evidencia de que mejore el aprendizaje",
+    "Solo en matemática"
+   ],
+   "r": "No hay evidencia de que enseñar según el «tipo de inteligencia» de cada alumno mejore el aprendizaje.",
+   "como": "Muchos investigadores lo señalan al revisar la evidencia empírica.",
+   "debate": "Aun con las críticas, la idea dejó algo valioso: mirar a las personas de forma más amplia, y no reducir su valor a las notas. Muchas personas llegan a la adultez convencidas de que «no son inteligentes» porque les costó la escuela.",
+   "seccion": "Lo que se le critica"
+  }
+ ],
+ "abierta": "Si la escuela mide solo una parte de lo que sabemos hacer, ¿qué más habría que mirar para reconocer los talentos de cada uno? Es una pregunta abierta."
+}

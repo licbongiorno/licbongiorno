@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te felicita por un trabajo y respondés «no fue nada». De noche repasás el día y encontrás, con precisión asombrosa, cada cosa en la que fallaste. Es como si un contador llevara solo los números en rojo.",
+   "p": "¿Qué conviene hacer para mejorar la autoestima?",
+   "opciones": ["Repetirte frases positivas frente al espejo", "Revisar las reglas rígidas de fondo y probar conductas nuevas, en pequeño", "Buscar que los demás te aprueben para sentirte valioso"],
+   "r": "Melanie Fennell, desde la terapia cognitiva, describió que la autoestima baja suele sostenerse en reglas rígidas («si no soy perfecto, no valgo») y en atención selectiva a lo negativo. Se revisan esas reglas, se registran evidencias a favor y en contra y se prueban conductas nuevas. Hacer en pequeño cosas que se alinean con lo que valorás suele cambiar más que esperar a «sentirte seguro».",
+   "como": "Fennell propuso en 1997 un modelo cognitivo de la autoestima baja con estrategias para trabajarlo. Neff (2003) planteó la autocompasión como alternativa a la autoestima basada en el rendimiento, con evidencia de que se asocia con menos malestar.",
+   "debate": "Repetir frases positivas que uno no cree a veces empeora el ánimo. Y Baumeister y colaboradores (2003) concluyeron que elevar la autoestima por sí misma no mejora de forma confiable el rendimiento, y que la autoestima alta puede ser frágil o defensiva.",
+   "seccion": "Qué ayuda"
+  },
+  {
+   "enigma": "Hay quien piensa que la autoestima es un rasgo fijo, algo con lo que se nace. Otros creen que cambia con los años.",
+   "p": "¿Qué muestran los estudios que siguieron a personas durante años?",
+   "opciones": ["Que no cambia nunca", "Que en promedio tiende a subir de la adolescencia a la adultez y a bajar en la vejez, con grandes diferencias individuales", "Que siempre va bajando con la edad"],
+   "r": "Orth y Robins (2014) describieron que, en promedio, la autoestima tiende a subir de la adolescencia a la adultez y a bajar en la vejez, con grandes diferencias individuales: no es un rasgo fijo. Orth, Robins y Roberts (2008) hallaron además que la autoestima baja predecía más depresión, aun controlando la depresión previa.",
+   "como": "Son estudios longitudinales que siguieron a las mismas personas durante años. Orth, Robins y Widaman (2012) hallaron que la autoestima se asocia con resultados en relaciones, trabajo y salud, con efectos moderados.",
+   "debate": "Eso sugiere una relación, no necesariamente una causa única. Más que «sentirse muy bien», importa tener una relación estable y realista con uno mismo.",
+   "seccion": "Qué dice la investigación"
+  }
+ ],
+ "abierta": "Si la autoestima se forma y se repara en relación con otros, ¿qué tipo de vínculos la cambian de verdad y por qué? Es algo que la investigación sigue explorando."
+}

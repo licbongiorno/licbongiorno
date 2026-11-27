@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Desde que cambió de trabajo, una persona duerme mal y está irritable en casa. No quiere «hacer una terapia de años», pero tampoco quiere seguir así. Dispone de unos pocos meses para trabajar.",
+   "p": "¿Cómo conviene usar ese tiempo corto?",
+   "opciones": ["Repasar toda su historia de vida, desde la infancia, para no dejar nada afuera", "Elegir un punto concreto donde lo actual y lo histórico se tocan, y trabajar sobre él", "Concentrarse solo en dormir mejor, sin preguntarse qué cambió"],
+   "r": "La psicoterapia breve focalizada propone acordar un foco: un eje que surge del motivo de consulta y del conflicto que lo sostiene. En el ejemplo, el nuevo puesto la puso en el lugar de jefa de quien fue su par y reapareció una vieja dificultad para sostener la autoridad sin culpa. El terapeuta es activo y el tiempo se acuerda desde el principio.",
+   "como": "En la Argentina la desarrolló desde el psicoanálisis el psiquiatra Héctor Fiorini, a partir de su trabajo clínico, y la expuso en «Teoría y técnica de psicoterapias» (1973). Existen también terapias breves de otras orientaciones, como la cognitivo-conductual o la sistémica.",
+   "debate": "El foco es una hipótesis de trabajo que se revisa, no un diagnóstico cerrado. No es lo más indicado cuando hay un trastorno grave, riesgo o un deseo de explorar la propia vida más a fondo.",
+   "seccion": "Cómo se trabaja"
+  },
+  {
+   "enigma": "Se dice que una terapia breve es «una terapia a medias». Pensá en alguien que termina en pocos meses y sale con algo que antes no tenía.",
+   "p": "¿Qué creés que cambia en una terapia breve respecto de una larga?",
+   "opciones": ["Es menos profunda y más superficial, porque hay menos tiempo", "Es igual de seria pero con un alcance más acotado: elige por dónde empezar", "Es lo mismo que una larga, solo que con sesiones más cortas"],
+   "r": "No necesariamente es menos profunda: trabaja sobre un foco con intensidad y puede producir cambios estables. Lo que cambia es el alcance, no la seriedad. La idea es que la persona salga con más recursos (percibir, pensar, anticipar, decidir) para lo que viene, y no solo con un síntoma aliviado.",
+   "como": "Fiorini habló de «funciones del yo» como esas capacidades sobre las que se apoya el trabajo. Para las terapias breves en general hay investigación de apoyo en problemas acotados, como ciertos cuadros depresivos y de ansiedad.",
+   "debate": "El modelo de Fiorini se apoya sobre todo en la experiencia clínica y en la teoría psicoanalítica, con menos ensayos controlados. Y «breve» no significa «rápida»: el cambio lleva el tiempo que lleva.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si un foco bien elegido puede ordenar tanto en pocos meses, ¿cómo se sabe cuál es el foco correcto para cada persona? Es una de las preguntas que más se discuten en las terapias breves."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un hombre de cincuenta años, con trabajo, familia y reconocimiento, consulta por «un cansancio raro». Todo funciona. Pero cuando le preguntan qué querría, se queda en silencio.",
+   "p": "¿Qué puede estar queriendo decir ese malestar?",
+   "opciones": [
+    "Que se equivocó de vida y tiene que dejarlo todo",
+    "Que algo de lo que fue quedó sin lugar y pide uno en la vida que ya tiene",
+    "Que es una fase pasajera sin ningún significado"
+   ],
+   "r": "Jung llamó individuación al proceso por el cual una persona llega a ser cada vez más quien es, distinta de las expectativas y mandatos que la rodean. Pensaba que ese malestar, muchas veces, es el comienzo de algo. No se trata de dejar todo, sino de dar lugar a lo que quedó afuera.",
+   "como": "Se apoya sobre todo en la experiencia clínica y en la tradición junguiana. Jung pensaba que la primera mitad de la vida se dedica a adaptarse al mundo y la segunda a buscarle un sentido propio.",
+   "debate": "Es una de las ideas centrales de Jung y de las menos medibles: no hay una escala validada de individuación ni estudios que prueben una secuencia de etapas. Si el malestar es intenso (insomnio, pérdida de interés en todo), merece consulta por sí mismo y no leerse solo como «proceso».",
+   "seccion": "Cuándo se hace más visible"
+  },
+  {
+   "enigma": "Alguien escucha que «individuarse» es ser la mejor versión de uno mismo y alejarse de todos para encontrarse.",
+   "p": "¿Eso es lo que proponía Jung?",
+   "opciones": [
+    "Sí: se trata de perfeccionarse y de dar prioridad a uno mismo",
+    "No: es una versión más completa, con luces y sombras, y no aleja del mundo",
+    "No: es adaptarse mejor a lo que otros esperan"
+   ],
+   "r": "Individuarse no es aislarse ni perfeccionarse. Jung insistía en la totalidad antes que en la perfección, y en que una persona más entera puede vincularse mejor porque proyecta menos y elige más.",
+   "como": "Es la lectura de Jung y de sus continuadores. En la investigación sobre desarrollo adulto, las transiciones hacia la mitad de la vida suelen reabrir preguntas de identidad y sentido, algo que Jung describió con una mirada propia.",
+   "debate": "Hay un riesgo señalado: convertir la individuación en un ideal de perfección personal. Y los conceptos específicos de Jung tienen menos respaldo de investigación que la psicoterapia de orientación psicodinámica en general.",
+   "seccion": "No es individualismo"
+  }
+ ],
+ "abierta": "Si llegar a ser quien uno es no es una meta sino un camino, ¿cómo se reconoce que se está avanzando? Todavía no hay una forma de medirlo."
+}

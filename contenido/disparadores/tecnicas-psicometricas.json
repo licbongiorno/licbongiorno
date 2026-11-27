@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un termómetro no explica por qué tenés fiebre, pero te dice con bastante precisión cuánta. Las técnicas psicométricas intentan algo parecido con la atención, la memoria o ciertos rasgos de personalidad.",
+   "p": "¿Qué hace falta para que un test psicológico sea confiable?",
+   "opciones": ["Que tenga muchas preguntas", "Que mida de forma consistente lo que dice medir y tenga normas para comparar a la persona con otras de su edad y país", "Que lo haya hecho mucha gente en internet"],
+   "r": "Los tres conceptos clave son la confiabilidad (medir de forma consistente), la validez (medir realmente lo que dice medir) y los baremos o normas (tablas para comparar un puntaje con el de personas de la misma edad y, idealmente, del mismo país). Un test construido en otro país necesita adaptación local.",
+   "como": "La psicometría es la disciplina que estudia cómo construir y evaluar estas mediciones, y es la parte de la psicología con más tradición cuantitativa. Las escalas de inteligencia bien construidas muestran buena confiabilidad y predicen razonablemente el rendimiento académico y laboral.",
+   "debate": "Ninguna es perfecta: un puntaje tiene margen de error y puede verse afectado por el cansancio, la motivación, el idioma o la cultura. Medir no es explicar, y los tests de internet no son técnicas psicométricas en sentido estricto.",
+   "seccion": "Tres conceptos clave"
+  },
+  {
+   "enigma": "Un adolescente rinde mal en la escuela y su familia teme que «no le da». Una escala de inteligencia muestra un desempeño promedio-alto, con una diferencia llamativa entre las tareas verbales y la velocidad de procesamiento.",
+   "p": "¿Qué dice ese resultado?",
+   "opciones": ["Que es inteligente y por eso rinde mal por vago", "Que no tiene capacidad", "Que da una pista de dónde se traba, para interpretar dentro de una entrevista y una historia"],
+   "r": "La conclusión no es «es inteligente» ni «es vago»: es una pista concreta de dónde se traba (por ejemplo, en el ritmo y no en la comprensión) y de qué ajustes escolares podrían ayudar. Un número solo no habría dicho nada; interpretado en una entrevista y una historia, orienta.",
+   "como": "Es una viñeta compuesta, no un caso real. Los tests se usan así: estandarizados, con las mismas consignas y criterios de puntuación para todos, y comparados con una población de referencia.",
+   "debate": "Las diferencias pequeñas entre puntajes suelen no significar nada, y el resultado lo interpreta un profesional, no un programa que lo calcula. Las escalas breves de síntomas como el PHQ-9 y el GAD-7 sirven para detectar y seguir un cuadro, no para diagnosticarlo.",
+   "seccion": "Una viñeta"
+  }
+ ],
+ "abierta": "Si un puntaje bien ubicado puede ayudar a dejar de pelearse con uno mismo, ¿cómo se hace para que un número oriente sin encasillar? Es una discusión abierta en la práctica profesional."
+}

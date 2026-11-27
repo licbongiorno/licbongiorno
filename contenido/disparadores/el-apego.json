@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una nena de dos años juega en la plaza, se aleja unos metros y mira hacia atrás para chequear que su papá sigue ahí. Si se asusta, corre hacia él, se calma y vuelve a jugar.",
+   "p": "¿Qué dice esa escena de cómo nos vinculamos?",
+   "opciones": [
+    "Que está muy pegada al padre y habrá que acostumbrarla a la distancia",
+    "Que la presencia confiable de alguien es lo que permite alejarse a explorar",
+    "Que a esa edad todo es juego sin mayor significado"
+   ],
+   "r": "Es el apego en acción: el cuidador funciona como base segura, desde la cual el chico explora y a la que vuelve cuando tiene miedo. Bowlby propuso que esa necesidad de vincularse es tan básica como alimentarse.",
+   "como": "Bowlby tomó ideas de la etología y de las observaciones de niños en instituciones. Los experimentos de Harry Harlow con monos mostraron que las crías preferían una figura blanda que no les daba leche a una de alambre que sí.",
+   "debate": "Hay críticas a tomar un único modelo de cuidado como medida: el temperamento del bebé también influye, y los patrones varían entre culturas.",
+   "seccion": "Contexto histórico"
+  },
+  {
+   "enigma": "Hay quien se angustia cuando el otro tarda en contestar un mensaje, y quien siente ganas de irse justo cuando alguien se acerca demasiado.",
+   "p": "¿De dónde vendrán esas reacciones tan distintas?",
+   "opciones": [
+    "Del carácter con el que cada uno nace, que no cambia",
+    "De lo que aprendimos de muy chicos sobre si el otro viene cuando lloramos",
+    "De haber elegido mal a la pareja"
+   ],
+   "r": "Se describieron cuatro estilos de apego (seguro, ansioso, evitativo y desorganizado) como formas de adaptarse al cuidado recibido. Tienden a reaparecer en la pareja y en otros vínculos, pero el estilo no es un destino.",
+   "como": "Mary Ainsworth observó cómo reaccionaban los bebés cuando su madre se iba y volvía en la «situación extraña». Main y Solomon propusieron en 1986 el apego desorganizado, y Hazan y Shaver (1987) llevaron la idea a las parejas adultas.",
+   "debate": "La estabilidad entre infancia y adultez existe pero es moderada. Las categorías simplifican algo que en adultos se mide mejor como dimensiones, y la «situación extraña» se diseñó para bebés de una cultura y una época.",
+   "seccion": "Los estilos de apego"
+  }
+ ],
+ "abierta": "Si el estilo de apego puede cambiar con vínculos reparadores, ¿qué es lo que hace que una relación nueva alcance a reescribir lo aprendido tan temprano? Todavía se estudia."
+}

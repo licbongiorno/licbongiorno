@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Querés a alguien que está pasando por una depresión. Ya probaste varias frases: «arriba ese ánimo», «salí un poco», «mirá todo lo que tenés». Y sigue ahí, del otro lado de un vidrio.",
+   "p": "¿Qué se acerca más a lo que ayuda?",
+   "opciones": ["Insistir con planes para distraerla", "Estar presente, escuchar sin juzgar y validar lo que siente", "Recordarle todo lo bueno que tiene"],
+   "r": "Estar presente, aunque no sepas qué decir; escuchar sin apurarte a dar soluciones y validar lo que siente, con frases como «acá estoy» o «me importa cómo estás». Las frases del tipo «poné de tu parte» o «hay gente que está peor» suelen caer mal. La depresión no es falta de voluntad.",
+   "como": "Es lo que surge de la clínica y de lo que cuentan las personas y sus familias. La investigación muestra que el apoyo social es un factor protector.",
+   "debate": "El apoyo no cura la depresión por sí solo ni reemplaza el tratamiento, y no hay una frase o gesto garantizados: lo que sirve para una persona puede no servir para otra.",
+   "seccion": "Lo que ayuda"
+  },
+  {
+   "enigma": "Un amigo no contesta los mensajes durante días y cancela por tercera vez. Es fácil leerlo como desinterés.",
+   "p": "¿Qué mensaje lo ayudaría más?",
+   "opciones": ["«Estoy cansado de que nunca contestes»", "«Pensé en vos, no hace falta que contestes»", "No escribirle más para no presionarlo"],
+   "r": "Mandar un mensaje que no exija respuesta permite seguir presente sin pedirle un esfuerzo que hoy no tiene. Acompañar no es presionar ni desaparecer: es sostener un contacto liviano y constante, de baja exigencia. Y cuidarte vos también, porque acompañar desgasta.",
+   "como": "Es una orientación práctica de la clínica, no el resultado de un ensayo controlado. La depresión puede tratarse y la ayuda profesional hace una gran diferencia: podés ofrecerte a buscar juntos un profesional o a acompañar a la primera consulta.",
+   "debate": "Cuando hay dudas sobre si lo que pasa es depresión o una tristeza intensa o un duelo, no siempre conviene etiquetar. Si la persona se despide o habla de quitarse la vida, ya es una urgencia: no la dejes sola.",
+   "seccion": "Lo que conviene evitar"
+  }
+ ],
+ "abierta": "Si acompañar ayuda pero no reemplaza el tratamiento, ¿cómo se encuentra el punto justo entre estar cerca y no cargar con todo? Es una pregunta que familias y profesionales se siguen haciendo."
+}

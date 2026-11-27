@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Hay quien disfruta una comida, un paisaje o una canción como si fuera la primera vez, reacciona rápido ante lo que pasa y no se pierde en especulaciones. Algunos lo llaman superficial.",
+   "p": "¿Es superficialidad o es otra cosa?",
+   "opciones": [
+    "Es falta de profundidad, no sabe mirar más allá",
+    "Es una forma intensa de estar en el presente, orientada a lo concreto del mundo exterior",
+    "Es una manera de evitar los problemas"
+   ],
+   "r": "Para Jung, la sensación extravertida se orienta por los hechos concretos y las sensaciones del mundo exterior. Es realista, práctica, observadora de los detalles y muy presente en el aquí y ahora.",
+   "como": "Jung lo planteó en 1921, en Tipos psicológicos, a partir de su práctica clínica y de preguntarse por qué personas igual de inteligentes miraban los mismos hechos y llegaban a conclusiones distintas.",
+   "debate": "Hay que evitar confundir este tipo con impulsividad o falta de profundidad: muchas personas con sensación extravertida tienen una enorme sensibilidad para lo que pasa en una sala. La búsqueda de sensaciones se estudia en la psicología de la personalidad, pero su relación con el tipo junguiano no está demostrada.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Un joven que siempre está en movimiento se queda sin palabras cuando le preguntan qué siente un domingo a la tarde solo. Otro día cuenta un sueño con un viejo en una biblioteca y se despierta inquieto sin saber por qué.",
+   "p": "¿De dónde puede venir esa inquietud?",
+   "opciones": [
+    "De algo que le pasó durante el día y no recuerda",
+    "De la parte menos desarrollada: el mundo de los presentimientos y el sentido, que aparece como inquietud",
+    "De que la vida activa nunca satisface"
+   ],
+   "r": "La función inferior de este tipo es la intuición introvertida. Jung observó que la intuición reprimida puede aparecer como presentimientos oscuros o temores sin fundamento. En terapia, el camino suele partir de lo concreto y avanzar de a poco hacia las preguntas de sentido.",
+   "como": "Surge de la clínica de Jung: la función que menos se usa no desaparece, se manifiesta de forma indirecta.",
+   "debate": "La tipología de Jung es una construcción teórica que no fue validada empíricamente tal como la formuló, y no hay pruebas de que existan ocho tipos discretos.",
+   "seccion": "Su función inferior"
+  }
+ ],
+ "abierta": "Si una parte nuestra queda sin desarrollar, ¿cómo sabemos cuándo nos está hablando? Es una pregunta que sigue abierta."
+}

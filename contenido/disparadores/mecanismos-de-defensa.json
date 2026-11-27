@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien que está pasando un mal momento dice «no pasa nada», con la voz temblando. Otra persona hace un chiste justo cuando la conversación se pone seria.",
+   "p": "¿Qué creés que están haciendo, sin darse cuenta?",
+   "opciones": ["Mintiendo a propósito para no preocupar a los demás", "Protegiéndose de algo que en ese momento les duele demasiado", "Evitando hacerse cargo de lo que les pasa por falta de carácter"],
+   "r": "Para el psicoanálisis son mecanismos de defensa: procesos en su mayoría inconscientes con los que la mente se protege de emociones, recuerdos o deseos que no puede tolerar en ese momento. No son mentiras ni defectos: nos permiten seguir funcionando después de una pérdida o en una crisis.",
+   "como": "Freud usó la palabra «defensa» por primera vez en 1894, para hablar de la lucha del yo contra ideas penosas. En 1936 su hija Anna Freud los ordenó en el libro «El yo y los mecanismos de defensa».",
+   "debate": "Que sean inconscientes y que se puedan inferir desde afuera es una hipótesis clínica del psicoanálisis, y no todas las corrientes la aceptan. Tampoco hay acuerdo sobre cuántos mecanismos existen.",
+   "seccion": "No son malas: son necesarias"
+  },
+  {
+   "enigma": "Dos personas atraviesan una situación muy dura. Una se ríe de lo que le pasa sin negarlo, y la otra se convence de que no pasó nada grave. Años después, a una le va mejor que a la otra.",
+   "p": "¿Todas las formas de defenderse son igual de útiles?",
+   "opciones": ["Sí, mientras alivien en el momento, da lo mismo cuál se use", "No: algunas, como el humor, tienden a ser más sanas que otras, como negar hechos graves", "No hay forma de saberlo, porque son procesos inconscientes"],
+   "r": "La investigación clínica distingue defensas más adaptativas (el humor, la sublimación, la anticipación) de otras más rígidas o costosas (la negación de hechos graves, la proyección constante). Se vuelven un problema cuando se usan siempre igual o cuando sostenerlas cuesta más que el dolor que evitan.",
+   "como": "El psiquiatra George Vaillant, a partir de un seguimiento de décadas de varones de Harvard (el Grant Study), propuso ordenar las defensas en niveles de madurez. Encontró que las más maduras se asocian con mejor salud y adaptación.",
+   "debate": "Hay consenso razonable en esa tendencia, pero se discute cómo clasificar las defensas y si se pueden medir de forma confiable: distintos autores y manuales dan listas diferentes.",
+   "seccion": "Un poco de historia"
+  }
+ ],
+ "abierta": "Si una defensa puede ser necesaria hoy y un obstáculo mañana, ¿cómo se sabe cuándo ya cumplió su función y es momento de soltarla? Es una pregunta que cada persona responde a su ritmo."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una pared blanca, la espalda derecha, y quedarte ahí sin objetivo, sin mantra y sin música. Al principio la cabeza protesta, se aburre e inventa urgencias.",
+   "p": "¿Qué creés que se propone el zazen con esa quietud?",
+   "opciones": ["Dejar la mente en blanco, sin ningún pensamiento", "Estar con plena atención sin elegir un objeto, dejando que todo aparezca y se vaya", "Concentrarse a la fuerza en un solo punto"],
+   "r": "El shikantaza, «solo sentarse», no tiene objeto de concentración: se trata de estar con plena atención dejando que pensamientos y sensaciones aparezcan y se vayan. La psicología lo ubica como un ejemplo claro de monitoreo abierto. No pide dejar de pensar, sino no creerse todo lo que se piensa.",
+   "como": "Lo enseñó el maestro japonés Dogen en el siglo XIII. Sobre el zazen hay pocos estudios controlados, y los que hay suelen comparar monjes de muchos años con personas sin experiencia.",
+   "debate": "Con esa clase de comparación no se puede saber si las diferencias vienen de la práctica o de otras características de los practicantes.",
+   "seccion": "Shikantaza, kinhin y koan"
+  },
+  {
+   "enigma": "En 1957, en un seminario en México, un psicoanalista y un estudioso japonés del zen se sentaron a conversar sobre cómo curarse de la alienación.",
+   "p": "¿Qué creés que podía interesarle del zen a un psicoanalista?",
+   "opciones": ["Que ofrecía una técnica rápida para tratar síntomas", "Un camino para despertar de la alienación y acercarse a lo inconsciente", "Que permitía abandonar la terapia por completo"],
+   "r": "Erich Fromm veía en el zen un camino para despertar de la alienación y acercarse a lo inconsciente. De ese encuentro con D. T. Suzuki salió el libro «Budismo zen y psicoanálisis». Desde la clínica actual, no se opone la meditación a la terapia: el zazen entrena a estar con lo que hay y el análisis pregunta qué significa y de dónde viene.",
+   "como": "Suzuki difundió el zen en Occidente durante el siglo XX, y Fromm participó del seminario de 1957 en México. Jung escribió además el prólogo a un libro de Suzuki.",
+   "debate": "El zen tiene formas, jerarquías y un contexto religioso que no se reducen a una técnica. Y una práctica diaria puede dar estabilidad real sin alcanzar para lo que está en la historia de cada persona.",
+   "seccion": "El zen y la psicología occidental"
+  }
+ ],
+ "abierta": "Si sentarse en silencio puede devolverle el cuerpo a unas personas y hacerles aparecer lo evitado a otras, ¿de qué depende que la quietud ayude o abrume? Todavía no hay una respuesta clara."
+}

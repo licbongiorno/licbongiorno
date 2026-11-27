@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Si se le pregunta a alguien qué le dio sentido a su vida, rara vez habla de un logro individual. Casi siempre aparece una persona: un hijo, una amiga, un maestro.",
+   "p": "¿Qué fortaleza se asocia más con sentirse satisfecho con la vida?",
+   "opciones": [
+    "Solo las que tienen que ver con el trabajo y el logro",
+    "El amor, junto con la esperanza, la vitalidad, la gratitud y la curiosidad",
+    "La inteligencia y el conocimiento"
+   ],
+   "r": "El amor, entendido como valorar las relaciones cercanas en las que el cuidado es recíproco, es de las fortalezas más ligadas a la satisfacción vital. Incluye dar y también poder recibir.",
+   "como": "Nansook Park, Christopher Peterson y Martin Seligman (2004) encuestaron por internet a más de cinco mil adultos. Peterson y colaboradores (2007) encontraron algo parecido en muestras de Estados Unidos y Suiza.",
+   "debate": "Es una asociación: no sabemos si estas fortalezas producen satisfacción o si quienes están más satisfechos las desarrollan más. Y el amor puede confundirse con fusión o control.",
+   "seccion": "Amor"
+  },
+  {
+   "enigma": "Un vecino se ofrece a ayudarte en todo, a toda hora, aunque no se lo hayas pedido. Está agotado y a veces se lo nota resentido.",
+   "p": "¿Ayudar a otros siempre hace bien, a quien ayuda y a quien recibe?",
+   "opciones": [
+    "Sí, siempre, y cuanto más mejor",
+    "Suele hacer bien, pero tiene límites y puede volverse un problema",
+    "No, ayudar hace sentir peor"
+   ],
+   "r": "Ayudar a otros mejora el bienestar de quien ayuda, aunque el efecto es modesto: hace bien, pero no es una cura. La bondad sin límites puede terminar en resentimiento o desgaste.",
+   "como": "Oliver Scott Curry y colaboradores (2018) hicieron un metaanálisis de 27 estudios sobre actos de bondad y encontraron un efecto de tamaño pequeño a mediano sobre el bienestar de quien los hacía.",
+   "debate": "La ayuda no pedida puede no respetar la autonomía del otro, o servir para sentirse indispensable o superior. Hay quien se agota cuidando a todos y nunca a sí mismo.",
+   "seccion": "Bondad"
+  }
+ ],
+ "abierta": "Si dar y recibir cuidado es tan importante, ¿cómo aprende una persona a recibir? Es una pregunta que sigue abierta."
+}

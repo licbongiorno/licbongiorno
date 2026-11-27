@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te sentás a mirar lo que pasa: un picor que aparece, crece y se va, un recuerdo que llega con un nudo en la garganta y después se disuelve. No intentás cambiar nada, solo anotar mentalmente «picor», «tristeza».",
+   "p": "¿Qué efecto creés que tiene ponerle una palabra a lo que sentís?",
+   "opciones": ["Lo hace más intenso, porque le prestás más atención", "Baja su intensidad", "No cambia nada, es solo un ejercicio mental"],
+   "r": "Poner en palabras una emoción baja su intensidad. En la vipassana, anotar lo que aparece con una etiqueta breve y suave y volver al cuerpo o a la respiración tiene algo en común con lo que la psicología llama etiquetar el afecto.",
+   "como": "El psicólogo Matthew Lieberman y colaboradores lo estudiaron en 2007 en un experimento de laboratorio con imágenes de emociones. No fue con practicantes de vipassana, así que es una pista útil pero no demuestra el efecto en la vida cotidiana.",
+   "debate": "Se discute si lo que ocurre en un experimento corto se parece a lo que pasa con la práctica intensiva. Y en general, la revisión de Goyal (2014) halló efectos modestos de la meditación, sin ventaja sobre otros tratamientos.",
+   "seccion": "Cómo se practica"
+  },
+  {
+   "enigma": "Mucha gente conoce la vipassana por los retiros de diez días en silencio. Algunos salen con una claridad nueva, y otros salen movilizados, con recuerdos, llanto o miedo que no esperaban.",
+   "p": "¿Por qué creés que pasa algo así en un retiro?",
+   "opciones": ["Porque pasar tantas horas frente a la propia mente puede hacer aparecer lo que se venía evitando", "Porque quienes lo viven no practicaron bien la técnica", "Porque el silencio siempre es relajante y nunca perturba"],
+   "r": "Los retiros son muy exigentes: aislamiento, silencio, poco sueño y mucho tiempo frente a la propia mente. En personas con antecedentes de psicosis, trauma, depresión grave o en momentos de crisis, puede desencadenar malestares importantes. Por eso conviene empezar con retiros cortos y elegir equipos que pregunten por salud mental.",
+   "como": "Lindahl y colaboradores (2017) estudiaron practicantes del budismo occidental y registraron experiencias difíciles, como miedo, desrealización y problemas de sueño, a veces durante meses.",
+   "debate": "No se sabe qué proporción de personas las vive. Por eso se discute cómo informar los riesgos sin quitarle valor a una práctica que para muchos es profunda.",
+   "seccion": "Los retiros"
+  }
+ ],
+ "abierta": "Si observar la propia mente puede servir tanto para comprender como para alejarse de lo que se siente, ¿cómo distinguir una cosa de la otra? Es una pregunta que sigue abierta."
+}

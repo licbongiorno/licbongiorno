@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En un hospital de Pennsylvania, algunos pacientes operados tenían una ventana con árboles y otros, una pared de ladrillos. Por lo demás eran parecidos.",
+   "p": "¿Qué creés que se encontró al comparar su recuperación?",
+   "opciones": ["No hubo ninguna diferencia", "Quienes veían árboles tuvieron estadías más cortas y necesitaron menos analgésicos potentes", "Quienes veían la pared se recuperaron más rápido por no distraerse"],
+   "r": "Quienes veían árboles tuvieron estadías postoperatorias más cortas, menos comentarios negativos en las notas de enfermería y necesitaron menos analgésicos potentes. Fue uno de los primeros trabajos en mostrar que el entorno físico puede tener efectos medibles sobre la recuperación.",
+   "como": "Roger Ulrich publicó el trabajo en la revista Science en 1984: comparó 23 pacientes operados de la vesícula con ventana al paisaje con 23 emparejados con ventana a una pared.",
+   "debate": "Analizó registros de una institución real y no hizo un ensayo al azar, y otras diferencias entre las habitaciones podían influir. Es un estudio sugerente, no una prueba de que el paisaje cura.",
+   "seccion": "Una ventana con árboles"
+  },
+  {
+   "enigma": "Después de una jornada de concentración y filtro de distracciones, te sentás a mirar las nubes, el agua o el movimiento de las hojas. No hacés ningún esfuerzo, y algo se acomoda.",
+   "p": "¿Cómo se explica ese descanso?",
+   "opciones": ["Porque no pensás en nada en absoluto", "Porque hay una atención fascinada que no requiere esfuerzo y deja descansar a la atención dirigida", "Porque estar afuera siempre mejora el humor"],
+   "r": "Rachel y Stephen Kaplan propusieron que el trabajo y la vida urbana exigen atención dirigida, que se cansa, y que ciertos entornos naturales ofrecen una atención fascinada que no requiere esfuerzo, de modo que la primera puede descansar. Es la teoría de la restauración de la atención.",
+   "como": "En 2008, Berman, Jonides y Kaplan mostraron que, después de caminar por un parque, los participantes rendían mejor en una tarea de memoria de trabajo que después de caminar por calles de la ciudad.",
+   "debate": "Una revisión de Ohly y colaboradores (2016) reunió 31 estudios y encontró efectos positivos en tres medidas de atención, pero no en las demás. La conclusión fue prudente: hay apoyo, y también incertidumbre.",
+   "seccion": "Atención dirigida, atención fascinada"
+  }
+ ],
+ "abierta": "Si la naturaleza ayuda a unas personas y a otras no, ¿cuánto depende del lugar, de la persona y de cómo se vive la experiencia? Todavía hay mucho por investigar."
+}

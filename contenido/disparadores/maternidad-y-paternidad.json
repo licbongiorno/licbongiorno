@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una madre reciente ama a su hijo con una intensidad que a veces la asusta. Y a la vez siente cansancio, enojo, aburrimiento y ganas de escaparse un rato. Después se pregunta en voz baja si lo está haciendo bien.",
+   "p": "¿Qué crees que dice esa mezcla de sentimientos?",
+   "opciones": ["Que no ama lo suficiente a su hijo", "Que es ambivalencia, parte de cualquier vínculo intenso", "Que está fallando y debería esforzarse más"],
+   "r": "Amar a un hijo no impide sentir, a la vez, cansancio, enojo, aburrimiento o ganas de huir por un rato. Esa mezcla se llama ambivalencia y es parte de cualquier vínculo intenso: reconocerla no es fallar, es ser honesto. Winnicott habló de la madre suficientemente buena: no la perfecta, sino la que está disponible lo suficiente y también falla.",
+   "como": "La idea de Winnicott surge de su observación clínica como pediatra y psicoanalista. En esas fallas, decía, el hijo aprende que el mundo no gira solo a su alrededor.",
+   "debate": "La «madre suficientemente buena» es una teoría clínica, útil como orientación y no un criterio medible. No existe un único modo correcto de criar: lo que se sabe es que el cuidado sensible, previsible y razonablemente constante favorece el desarrollo, y que los adultos cansados, solos y sin apoyo lo tienen más difícil.",
+   "seccion": "La ambivalencia también es parte"
+  },
+  {
+   "enigma": "Pasan los primeros días después del nacimiento y la madre se siente muy sensible, llora fácil, duerme a pedazos. Un padre, a su lado, se siente afuera de la escena, sin saber qué lugar ocupar.",
+   "p": "¿Qué crees que es esperable y cuándo conviene consultar?",
+   "opciones": ["Que sea pasajero al principio, y consultar si la tristeza o la ansiedad se sostienen", "Que todo malestar es normal y nunca hace falta consultar", "Que el malestar solo les pasa a las madres"],
+   "r": "Las primeras semanas mezclan cambios hormonales, sueño fragmentado y una exigencia nueva. Muchas personas atraviesan un estado de sensibilidad conocido como «baby blues», que suele ser pasajero. Si la tristeza, la ansiedad o la irritabilidad se sostienen, puede tratarse de una depresión o un cuadro de ansiedad perinatal, que son frecuentes y tienen tratamiento.",
+   "como": "Hay buena investigación sobre la depresión posparto y sobre el valor de detectarla a tiempo con instrumentos como la escala de Edimburgo, la más usada. También los padres pueden deprimirse.",
+   "debate": "La investigación sobre depresión paterna posparto existe, pero está menos desarrollada que la de las madres. Pedir ayuda concreta, como descanso, comida o alguien que sostenga, es tan terapéutico como cualquier conversación.",
+   "seccion": "Qué pasa en el cuerpo y en la vida"
+  }
+ ],
+ "abierta": "Criar despierta la propia infancia: frases que juramos no repetir, deseos de hacerlo distinto. ¿Cómo se elige qué transmitir y qué no? Es una pregunta que cada madre y cada padre se hace."
+}
