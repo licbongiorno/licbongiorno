@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien te lastimó hace años. Ya no hablan, pero todavía te acordás de la escena cuando menos lo esperás. Todos te dicen: «Perdonalo y listo».",
+   "p": "¿Qué creés que es, en el fondo, perdonar?",
+   "opciones": [
+    "Olvidar lo que pasó, para que deje de doler",
+    "Volver a confiar y retomar la relación como estaba",
+    "Un proceso propio de soltar el rencor, que no obliga a justificar ni a reconciliarse"
+   ],
+   "r": "La psicología del perdón distingue perdonar de olvidar, de justificar y de reconciliarse. Se puede perdonar y no volver con esa persona. Es algo que sucede en quien fue dañado, a su ritmo, y no una obligación.",
+   "como": "Robert Enright y Richard Fitzgibbons describieron un modelo de proceso en 2000 y Everett Worthington propuso el modelo REACH en 2003. Ambos se probaron en intervenciones con grupos, comparando a quienes las hicieron con quienes no. Melanie Klein, por su parte, habló en 1937 de la reparación cuando el daño lo causamos nosotros.",
+   "debate": "Los estudios muestran beneficios moderados y se discute cuánto dura el efecto. También se cuestiona presionar a perdonar, sobre todo ante violencia o abuso, donde protegerse puede ser lo primero."
+  }
+ ],
+ "abierta": "Si perdonar no es olvidar ni reconciliarse, ¿qué es lo que realmente cambia en una persona cuando logra soltar? Todavía se investiga."
+}

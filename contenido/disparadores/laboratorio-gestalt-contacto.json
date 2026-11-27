@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una discusión te quedás callado, te tragás lo que querías decir y sentís el cuerpo tenso. O al revés: decís que sí a todo lo que te piden para no generar conflicto.",
+   "p": "¿Qué creés que está pasando ahí?",
+   "opciones": [
+    "Falta de carácter: hay que aprender a decir lo que uno piensa",
+    "Una manera automática de protegerte, que alguna vez sirvió",
+    "Es la forma natural de ser de algunas personas y no se puede cambiar"
+   ],
+   "r": "La Gestalt llama interrupciones del contacto a esos modos automáticos de evitar el encuentro: la confluencia, la introyección, la proyección, la retroflexión y el egotismo. Cada una tuvo una función sana en su origen, y se puede explorar con pequeños experimentos.",
+   "como": "Las describieron Perls, Hefferline y Goodman a partir de su práctica clínica en 1951, y luego Erving y Miriam Polster agregaron la deflexión en 1973.",
+   "debate": "Son categorías clínicas útiles, pero no fueron validadas con estudios sistemáticos, y distintos autores las cuentan de maneras distintas."
+  }
+ ],
+ "abierta": "¿Cuándo una forma de protegerse deja de ayudar y empieza a limitar? Cada persona lo descubre a su manera."
+}

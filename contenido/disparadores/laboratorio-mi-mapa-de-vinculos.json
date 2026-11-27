@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dibujás en círculos a las personas importantes de tu vida: las más cercanas adentro, las más lejanas afuera. Y alguien que creías cerca queda en un borde, y otra persona, a la que nunca le diste importancia, aparece más adentro.",
+   "p": "¿Qué creés que muestra ese mapa?",
+   "opciones": [
+    "Quién te quiere más, de manera objetiva",
+    "Cómo vivís hoy tus vínculos, que puede cambiar",
+    "Nada: es un dibujo sin relación con la vida real"
+   ],
+   "r": "La mirada sistémica entiende a cada persona dentro de una red de vínculos. Mapas como el de círculos de cercanía y el genograma familiar ayudan a ver cercanías, distancias, límites y repeticiones que se pasan de generación en generación.",
+   "como": "Murray Bowen trabajó con familias y desarrolló ideas que Monica McGoldrick y Randy Gerson sistematizaron en 1985 en el genograma. El estudio de círculos de cercanía lo propusieron Kahn y Antonucci en los años ochenta.",
+   "debate": "Un mapa es subjetivo: muestra tu mirada de hoy, no la verdad de los vínculos. Y que algo se repita en una familia no prueba por sí solo que una cosa cause la otra."
+  }
+ ],
+ "abierta": "¿Cuánto de lo que repetimos en los vínculos elegimos y cuánto heredamos? Es una pregunta que sigue abierta."
+}

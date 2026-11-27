@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te ofrecen un trabajo soñado en otra ciudad, lejos de tu familia. Un amigo dice «es tu vida, decidí vos». Otro dice «¿y tus viejos?». Los dos hablan con total convicción.",
+   "p": "¿De qué creés que depende que una persona pese más una cosa u otra?",
+   "opciones": [
+    "De la personalidad: hay gente más egoísta y gente más generosa",
+    "De la cultura en la que se crió y de su historia, además de la situación",
+    "De la edad: con los años todos pasan a pensar en los demás"
+   ],
+   "r": "En 1991 Hazel Markus y Shinobu Kitayama propusieron que las culturas modelan dos maneras de entender el yo: una más independiente, que se define por lo propio, y otra más interdependiente, que se define por los vínculos. Cada persona suele combinarlas según la situación.",
+   "como": "Se apoyaron en comparaciones entre personas de distintos países, sobre todo Estados Unidos y Japón, en cómo se describen a sí mismas y cómo explican la conducta.",
+   "debate": "Se critica el riesgo de estereotipar: dentro de cada cultura hay mucha variación, y las culturas cambian. Muchos estudios usaron estudiantes universitarios, que no representan a toda la población."
+  }
+ ],
+ "abierta": "¿Hasta qué punto elegimos cómo nos pensamos a nosotros mismos y hasta qué punto lo recibimos de afuera? Todavía no hay una respuesta cerrada."
+}

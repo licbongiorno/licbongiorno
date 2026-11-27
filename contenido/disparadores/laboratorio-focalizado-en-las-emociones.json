@@ -1,0 +1,18 @@
+{
+ "autor": "Greenberg",
+ "preguntas": [
+  {
+   "enigma": "Discutís con tu pareja y te sale un enojo enorme. Cuando se calma el ambiente, te das cuenta de que debajo lo que había era tristeza, o miedo a que te dejen de lado.",
+   "p": "¿Qué creés que pasó con el enojo?",
+   "opciones": [
+    "Era falso: en realidad no estabas enojado",
+    "Tapaba otra emoción más profunda que costaba mostrar",
+    "Es lo mismo: enojo y tristeza son parte de la misma emoción"
+   ],
+   "r": "Leslie Greenberg distingue emociones primarias, que son la respuesta directa, de las secundarias, que aparecen sobre otras y las tapan. Llegar a la emoción de fondo y a la necesidad que trae es un paso central para transformarla.",
+   "como": "Greenberg y sus colegas estudiaron sesiones de psicoterapia y probaron técnicas como el diálogo de dos sillas, comparando resultados en ensayos clínicos, en particular con depresión.",
+   "debate": "La evidencia es más sólida en depresión y algunos problemas puntuales. También es difícil, en la práctica, separar con claridad qué emoción es primaria y cuál secundaria."
+  }
+ ],
+ "abierta": "¿Cómo distinguimos lo que sentimos de lo que aprendimos a sentir? Todavía se discute."
+}

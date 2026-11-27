@@ -1,0 +1,18 @@
+{
+ "autor": "Frankl",
+ "preguntas": [
+  {
+   "enigma": "Es domingo, no tenés obligaciones y tenés todo para disfrutar. Pero te cae encima un vacío que no sabés explicar.",
+   "p": "¿Qué creés que está pasando?",
+   "opciones": [
+    "Es aburrimiento común, se arregla con otra actividad",
+    "Falta algo que le dé sentido a lo que hacés, más allá del placer",
+    "Es mala suerte del día y ya pasa"
+   ],
+   "r": "Para Viktor Frankl, lo que más mueve a una persona no es el placer ni el poder, sino encontrar un sentido: la voluntad de sentido. Cuando se frustra aparece el vacío existencial. Las capacidades de autodistanciamiento y autotrascendencia ayudan a salir.",
+   "como": "Lo planteó a partir de su práctica clínica en Viena. Años después, Crumbaugh y Maholick diseñaron en 1964 una prueba para medir el propósito en la vida y estudiar esa idea.",
+   "debate": "Tener sentido y sentirse bien van juntos, pero eso no prueba cuál causa a cuál. Y la logoterapia es más una propuesta filosófica y clínica que un método con respaldo experimental amplio."
+  }
+ ],
+ "abierta": "¿El sentido se descubre o se construye? Es una pregunta que sigue abierta."
+}

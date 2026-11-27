@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás en una charla con alguien que querés y, de pronto, te das cuenta de que hace un rato no escuchás nada. Tu cabeza estaba en otra cosa y no sabés bien cuándo te fuiste.",
+   "p": "¿Qué creés que ayuda a volver al presente?",
+   "opciones": [
+    "Esforzarse más por prestar atención, a pura voluntad",
+    "Notar qué estás sintiendo y pensando ahora mismo, sin juzgarlo",
+    "Evitar las charlas largas hasta estar más descansado"
+   ],
+   "r": "La terapia Gestalt, de Fritz y Laura Perls, propone el darse cuenta: registrar lo que pasa ahora en el cuerpo, en las emociones y en los pensamientos. También trabaja con lo inconcluso, lo que queda abierto y sigue llamando la atención.",
+   "como": "La propuesta se formuló en 1951 en el libro de Perls, Hefferline y Goodman, a partir de la práctica clínica. Bluma Zeigarnik mostró en el laboratorio que recordamos mejor las tareas interrumpidas que las terminadas, algo cercano a la idea de lo inconcluso.",
+   "debate": "La Gestalt se apoya más en la experiencia clínica que en ensayos controlados. La técnica de la silla vacía sí fue estudiada, pero no todo el enfoque tiene el mismo respaldo."
+  }
+ ],
+ "abierta": "¿Hasta qué punto registrar lo que nos pasa cambia lo que nos pasa? Es una pregunta abierta."
+}

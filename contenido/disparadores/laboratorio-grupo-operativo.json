@@ -1,0 +1,18 @@
+{
+ "autor": "Pichon-Rivière",
+ "preguntas": [
+  {
+   "enigma": "En una reunión de consorcio o de equipo, el tema es el presupuesto. Pero la discusión se pone cada vez más tensa, y alguien termina en el centro del enojo de todos.",
+   "p": "¿Qué creés que está pasando ahí?",
+   "opciones": [
+    "Hay gente conflictiva: con otra gente, el tema se resolvería sin problemas",
+    "El grupo evita una tarea de fondo, y los miedos aparecen en lo que se dice",
+    "Es un problema de organización: falta una mejor agenda"
+   ],
+   "r": "Enrique Pichon-Rivière pensó los grupos en dos planos: la tarea explícita, lo que dicen hacer, y la implícita, lo que sucede. Lo que traba suelen ser miedos básicos, a perder lo que se tiene y a lo nuevo, y alguien puede quedar como portavoz o como chivo emisario.",
+   "como": "Trabajó como psiquiatra en el Hospicio de las Mercedes, donde vio que los pacientes mejoraban al trabajar con sus vínculos y con los grupos de enfermeros. En 1958 condujo la Experiencia Rosario, un trabajo con grupos a gran escala.",
+   "debate": "Es una teoría clínica y social, nacida de la experiencia, con poco respaldo experimental formal. Se usa mucho en la práctica, pero comprobar sus conceptos es difícil."
+  }
+ ],
+ "abierta": "¿Cómo hacemos para que un grupo piense sus miedos sin que alguien cargue con ellos? Es una pregunta que sigue abierta."
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay gente que dice que la bondad y la compasión se pueden entrenar, como se entrena un músculo. A vos te suena a frase de calendario.",
+   "p": "¿Qué creés que dice la investigación?",
+   "opciones": [
+    "Nada: la bondad es un rasgo con el que se nace",
+    "Que practicarla puede cambiar emociones y conducta, aunque con efectos modestos",
+    "Que sirve para cualquier problema, sin excepción"
+   ],
+   "r": "El budismo enseña cuatro actitudes, las moradas sublimes: amor bondadoso, compasión, alegría por el bien ajeno y ecuanimidad. La psicología empezó a estudiarlas como prácticas que se pueden entrenar.",
+   "como": "Barbara Fredrickson y su equipo mostraron en 2008 que unas semanas de meditación de amor bondadoso aumentaron las emociones positivas. En 2013, Weng y colegas vieron que un entrenamiento en compasión aumentaba la conducta de ayuda.",
+   "debate": "Los estudios suelen ser pequeños y los efectos, modestos. Además, la meditación no es para todos y puede traer efectos adversos en algunas personas."
+  }
+ ],
+ "abierta": "¿Hasta dónde se puede entrenar el cuidado por los demás? Es una pregunta que sigue abierta."
+}
