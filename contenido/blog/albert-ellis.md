@@ -11,7 +11,7 @@ orden: 133
 estado: publicado
 respuesta: Albert Ellis (1913-2007) fue un psicólogo estadounidense, creador en 1955 de la terapia racional, después llamada terapia racional emotiva conductual (TREC). Propuso el modelo ABC: no son los acontecimientos los que generan las emociones, sino las creencias sobre ellos. Identificó creencias irracionales, como los «debería» absolutos, y enseñó a discutirlas. Es considerado, junto con Aaron Beck, uno de los fundadores de la terapia cognitivo-conductual.
 menciona: ellis
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que haya que «pensar positivo». Albert Ellis era alérgico a eso. Lo que proponía era pensar con más realismo: notar las exigencias absolutas que nos hacemos —«tengo que», «no soporto», «es terrible»— y cambiarlas por preferencias. Lo decía con un humor directo que a veces escandalizaba.
 
@@ -46,6 +46,24 @@ Junto con Aaron Beck, Ellis sentó las bases de la terapia cognitivo-conductual,
 En la consulta, distinguir entre lo que pasa y lo que me digo sobre lo que pasa es una herramienta simple y poderosa. Podés practicarla en el [laboratorio de diálogo socrático](/laboratorio-de-dialogo-socratico/) o leer sobre [el diálogo socrático](/recursos/el-dialogo-socratico/).
 
 Para ver cómo es hoy la terapia cognitivo-conductual en conjunto, mirá [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/).
+
+## Un ejemplo de todos los días
+
+Tenés una presentación importante. A: el acontecimiento, tener que exponer. Si en B aparece «tengo que hacerlo perfecto y caerle bien a todos», en C vas a sentir pánico, o vas a postergar. Si en B dice «me gustaría hacerlo bien, y si algo sale mal, lo voy a poder bancar», el nerviosismo sigue, pero es manejable. La situación es la misma; lo que cambió es la exigencia. Ese cambio de «tengo que» a «me gustaría» es el núcleo de la propuesta de Ellis.
+
+## Raíces e influencias
+
+Ellis reconocía como fuentes a los filósofos estoicos. Se inspiró en Epicteto, para quien lo que nos perturba no son las cosas sino la opinión que tenemos de ellas. Ver [Epicteto](/recursos/epicteto/) y [Marco Aurelio](/recursos/marco-aurelio/). También reconoció su deuda con Karen Horney, que habló de la «tiranía de los debería»: la presión de las exigencias absolutas que uno se impone. Ver [Karen Horney](/recursos/karen-horney/). Ese cruce entre filosofía antigua y psicoanálisis disidente le dio a su método un sabor propio.
+
+## Qué tiene investigación y qué es teoría
+
+La terapia racional emotiva conductual cuenta con estudios y metaanálisis con resultados favorables para varios problemas, aunque el volumen de investigación es menor que el de la terapia cognitiva de Beck y la calidad es dispar. El modelo ABC es una manera didáctica de pensar la relación entre pensamiento y emoción, y no un esquema exacto de cómo se produce: las emociones también surgen del cuerpo, de la historia y del contexto, no solo de las creencias.
+
+## Matices y límites
+
+El estilo de Ellis era frontal y provocador, y funcionó con mucha gente, pero no con todos. Para quien atraviesa un duelo, un trauma o una depresión severa, decirle que su sufrimiento viene de «creencias irracionales» puede sonar a invalidación. Hoy se suele hablar de creencias rígidas o poco útiles, más que de «irracionales», y se las discute con tacto, sin apurar.
+
+También hay que cuidar lo contrario: hay situaciones en las que el malestar es proporcional a lo que pasa, y no se trata de pensarlo distinto sino de cambiarlo, o de pedir ayuda. Sin embargo, su idea de aceptación incondicional sigue siendo valiosa, especialmente para quienes se juzgan con dureza: ver [la crítica interna](/recursos/la-critica-interna/), [el enojo](/recursos/el-enojo/) y el [Laboratorio de autocompasión](/laboratorio-de-autocompasion/).
 
 ## Preguntas frecuentes
 

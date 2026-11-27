@@ -11,7 +11,7 @@ orden: 134
 estado: publicado
 respuesta: Aaron T. Beck (1921-2021) fue un psiquiatra estadounidense, creador de la terapia cognitiva y una de las figuras centrales de la terapia cognitivo-conductual. Observó que las personas con depresión tienen pensamientos automáticos negativos sobre sí mismas, el mundo y el futuro, lo que llamó tríada cognitiva. Desarrolló instrumentos como el Inventario de Depresión de Beck y un método colaborativo para revisar esos pensamientos.
 menciona: aaron-beck, depresion
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 ¿Y si los pensamientos fueran hipótesis y no hechos? Aaron Beck propuso tratarlos así, e investigarlos junto con el paciente, como dos científicos. Ese espíritu colaborativo, más que la idea de corregir lo que alguien piensa, es lo que volvió tan útil a la terapia cognitiva.
 
@@ -46,6 +46,24 @@ La terapia cognitivo-conductual es hoy uno de los enfoques con más evidencia de
 En la consulta, revisar los pensamientos automáticos me parece una herramienta muy valiosa, que integro con una mirada más amplia de la historia y los vínculos. Podés practicarla en el [laboratorio de diálogo socrático](/laboratorio-de-dialogo-socratico/) o en el [laboratorio de ánimo](/laboratorio-de-animo/).
 
 Para ver cómo es hoy la terapia que nació de su trabajo, mirá [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/).
+
+## Un ejemplo de todos los días
+
+Le escribiste a un amigo y no contesta hace dos días. Aparece el pensamiento: «me está ignorando, seguro que le molesté». En terapia cognitiva se lo mira como una hipótesis. ¿Qué evidencia hay a favor? ¿Y en contra? Quizás está de viaje, o con mucho trabajo, o se olvidó. ¿Qué le diría a un amigo que pensara así? Con un registro de pensamientos, una herramienta clásica de la terapia, se anota la situación, el pensamiento, la emoción, la evidencia en un sentido y en otro, y una forma más equilibrada de verlo. No se trata de pensar «positivo», sino de pensar con más precisión.
+
+## Alcance de su obra
+
+Además del inventario de depresión, Beck desarrolló escalas de desesperanza (1974) y de ideación suicida, y adaptó la terapia cognitiva a la ansiedad, los trastornos de personalidad y el riesgo suicida. En 2006 recibió el premio Lasker de investigación médica clínica, uno de los más prestigiosos del mundo. Con los años su equipo exploró también la terapia cognitiva para personas con esquizofrenia, siempre con el mismo espíritu de tratar de entender cómo ve el mundo cada persona.
+
+## Qué tiene investigación y qué es teoría
+
+La terapia cognitivo-conductual tiene un respaldo amplio para la depresión y los trastornos de ansiedad, con efectos moderados a grandes en muchos estudios. Es una de las razones por las que se ofrece tanto.
+
+Hay también preguntas abiertas. En un estudio clásico de desmontaje, publicado en 1996 por Jacobson y colaboradores, la sola activación conductual, sin trabajo directo sobre los pensamientos, resultó tan efectiva como la terapia cognitiva completa. Eso sugiere que no siempre es necesario cuestionar pensamientos para mejorar, y dio impulso a la [activación conductual](/recursos/activacion-conductual/). Otra crítica es que el modelo pone el foco en el pensamiento individual y puede pasar por alto contextos reales de injusticia, pobreza o violencia, en los que pensar de otro modo no alcanza. Y no todo pensamiento negativo es una distorsión: a veces la situación es difícil de verdad, y el trabajo es acompañarla.
+
+## En la práctica
+
+Hoy la terapia cognitiva suele combinarse con otras miradas. Con un pensamiento muy repetitivo, como en la [crítica interna](/recursos/la-critica-interna/) o en los [pensamientos intrusivos](/recursos/pensamientos-intrusivos/), puede ayudar a tomar distancia. En la [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/), en cambio, el énfasis pasa de discutir el pensamiento a cambiar la relación con él. Ninguna reemplaza a la otra: depende de la persona y del momento.
 
 ## Preguntas frecuentes
 

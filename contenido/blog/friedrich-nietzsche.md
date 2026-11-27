@@ -11,7 +11,7 @@ orden: 167
 estado: publicado
 respuesta: Friedrich Nietzsche (1844-1900) fue un filósofo alemán, autor de Así habló Zaratustra. Criticó la moral tradicional, describió la voluntad de poder y propuso la transformación del espíritu en camello, león y niño. Anticipó ideas sobre el inconsciente y el autoengaño que Freud reconoció; Jung le dedicó un seminario sobre Zaratustra; Adler tomó la voluntad de poder; Frankl citó su frase sobre tener un porqué para vivir, e Irvin Yalom lo hizo personaje de una novela.
 menciona: nietzsche, freud, jung, adler, viktor-frankl, yalom
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 «Quien tiene un porqué para vivir puede soportar casi cualquier cómo». Viktor Frankl citaba esta frase de Nietzsche para explicar qué había sostenido a algunos prisioneros en los campos de concentración. No es la única huella del filósofo en la psicología: Freud, Jung y Adler también lo leyeron de cerca.
 
@@ -47,6 +47,22 @@ En *Así habló Zaratustra*, el espíritu primero se vuelve **camello**, que car
 - **Irvin Yalom** lo hizo protagonista de la novela *El día que Nietzsche lloró*. Ver [Irvin Yalom](/recursos/irvin-yalom/).
 
 Nietzsche dijo que Dostoievski fue el único psicólogo del que tuvo algo que aprender; lo cuento en [Dostoievski y la psicología](/recursos/dostoievski-y-la-psicologia/).
+
+## Un ejemplo cotidiano
+
+Imaginá un lunes cualquiera de tu vida y preguntate: si tuviera que repetirlo igual, otra vez y para siempre, ¿lo aceptaría? Nietzsche planteó el eterno retorno como un experimento de pensamiento, no como una teoría del cosmos. La pregunta no busca una vida perfecta, sino que veas qué elegirías conservar y qué no estás dispuesto a seguir cargando.
+
+## Contexto histórico
+
+Escribió en la Europa de fines del siglo XIX, con la ciencia en ascenso y la religión en retroceso. En 1882 conoció a Lou Salomé, que años después publicó un libro sobre su obra (1894) y terminó siendo discípula y colega de Freud. Sus escritos casi no se vendieron en vida; su fama creció después de 1890. Su hermana Elisabeth Förster-Nietzsche controló sus papeles y armó con apuntes *La voluntad de poder*, un libro que él no publicó. Su apropiación por parte del nazismo fue una distorsión que la edición crítica posterior permitió desmontar. Las causas de su colapso de 1889 se siguen discutiendo.
+
+## Cómo resuena en la práctica actual
+
+Nietzsche no fundó una terapia, pero su pregunta por qué valores vivimos aparece en la clínica. [Viktor Frankl](/recursos/viktor-frankl/) y la [logoterapia](/recursos/logoterapia-y-sentido/) trabajan con el sentido. La [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/) pide identificar qué valores guían una vida. Su crítica de la moral ayuda a preguntarse qué hay detrás de una culpa que alguien arrastra: si es propia o heredada. Ver también [la culpa](/recursos/la-culpa/).
+
+## Matices y límites
+
+Nietzsche escribe con aforismos, ironía y excesos retóricos, y admite lecturas muy distintas; conviene desconfiar de las frases sacadas de contexto. Sus ideas son filosofía y no resultados de investigación. Tampoco es un manual de autoayuda: el «superhombre» no es un ideal de éxito individual, y su elogio del sufrimiento como motor no debe leerse como una indicación para quien sufre hoy. Ante un malestar real, lo que ayuda es consultar, no citarlo.
 
 ## Preguntas frecuentes
 

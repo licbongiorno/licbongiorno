@@ -11,7 +11,7 @@ orden: 139
 estado: publicado
 respuesta: Gregory Bateson (1904-1980) fue un antropólogo y pensador inglés que aplicó la cibernética y la teoría de sistemas a la comunicación humana. Dirigió en Palo Alto el proyecto que en 1956 formuló la teoría del doble vínculo: una situación en la que alguien recibe mensajes contradictorios, no puede salir de la relación y tampoco puede hablar de la contradicción. Sus ideas son la base de la terapia familiar sistémica.
 menciona: bateson, sistemica
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que el problema esté siempre «adentro» de una persona. Gregory Bateson propuso mirar entre las personas: en los mensajes que se cruzan, en las reglas que nadie dice y en los circuitos que se repiten. Esa forma de mirar cambió la psicoterapia, aunque él nunca fue terapeuta.
 
@@ -46,6 +46,22 @@ Un ejemplo clásico: alguien dice «acercate» con las palabras mientras el cuer
 Las ideas de Bateson dieron origen a la terapia familiar sistémica y a la terapia breve de Palo Alto, y siguen influyendo en la comunicación, la ecología y la educación.
 
 En la consulta, su mirada me ayuda a preguntar no solo qué le pasa a alguien, sino qué lugar ocupa eso en sus vínculos. Podés seguir con [la terapia sistémica](/recursos/terapia-sistemica/) o con el [laboratorio sistémico](/laboratorio-sistemico/).
+
+## Un ejemplo cotidiano
+
+Una pareja discute siempre igual. Ella dice: «Te vas porque me quejo». Él dice: «Me quejo yo porque te vas». Cada uno cree que el otro empieza. Bateson describiría un circuito en el que cada conducta es causa y efecto de la otra, y donde nadie es el culpable. Esta forma de mirar, que otros llamaron puntuación de la secuencia, ayuda a cambiar la pregunta: de «quién empezó» a «cómo se arma este baile». Podés practicarla en el [laboratorio de comunicación sistémica](/laboratorio-sistemica-comunicacion/).
+
+## Contexto histórico
+
+Bateson fue un pensador de fronteras: antropología, biología, cibernética y psiquiatría. Definía la información como «una diferencia que hace una diferencia». En Palo Alto su equipo estudió a Milton Erickson, el hipnoterapeuta, y de ese cruce surgieron ideas de la terapia breve. Don Jackson fundó en 1959 el Mental Research Institute, que se volvió un centro de terapia familiar. A partir de ahí se desarrollaron [Paul Watzlawick](/recursos/paul-watzlawick/), la escuela de Milán y otras corrientes. Ver también a [Murray Bowen](/recursos/murray-bowen/) y [Salvador Minuchin](/recursos/salvador-minuchin/).
+
+## Cómo resuena en la práctica actual
+
+La terapia familiar y de pareja sistémica pregunta por pautas, reglas y circuitos. Sus herramientas, como las preguntas circulares y el replanteo del problema, vienen de esta tradición. Fuera de la clínica, el pensamiento de Bateson aparece en la ecología, la educación y el estudio de las organizaciones.
+
+## Matices y límites
+
+La hipótesis del doble vínculo como causa de la esquizofrenia no se confirmó. La investigación actual apunta a una combinación de factores biológicos, del desarrollo y del ambiente, y esa hipótesis llevó a culpar injustamente a familias, en particular a las madres. Hoy el concepto se usa para describir mensajes contradictorios en un vínculo, nunca para explicar esa condición. Bateson tampoco fue terapeuta, y sus textos son difíciles: conviene leerlos como ideas para pensar, no como técnicas.
 
 ## Preguntas frecuentes
 

@@ -11,9 +11,9 @@ orden: 131
 estado: publicado
 respuesta: B. F. Skinner (1904-1990) fue un psicólogo estadounidense, el principal representante del conductismo radical. Describió el condicionamiento operante: las conductas que van seguidas de consecuencias favorables tienden a repetirse, y las que van seguidas de consecuencias desfavorables tienden a disminuir. Estudió los programas de refuerzo y aplicó sus ideas a la educación y a la sociedad, por ejemplo en su novela Walden Dos.
 menciona: skinner
-revision: 2026-11-08
+revision: 2026-11-27
 ---
-No, no es que Skinner pensara que las personas son ratas. Pensaba que la conducta, la de cualquier ser vivo, sigue reglas que se pueden estudiar, y que conocerlas permite cambiarla. Sus ideas están en lugares que no imaginamos: en cómo se enseña, en los programas de puntos de un supermercado y en las notificaciones de un celular.
+Para Skinner, la conducta de cualquier ser vivo sigue reglas que se pueden estudiar, y que conocerlas permite cambiarla. Sus ideas están en lugares que no imaginamos: en cómo se enseña, en los programas de puntos de un supermercado y en las notificaciones de un celular.
 
 ## Quién fue
 
@@ -45,6 +45,28 @@ Lo que hacemos tiene consecuencias, y las consecuencias cambian lo que hacemos. 
 El análisis de la conducta se usa en educación, en el tratamiento de las adicciones, en la crianza y en el diseño de hábitos. La **activación conductual** para la depresión, por ejemplo, parte de una idea operante: con el ánimo bajo dejamos de hacer cosas que nos daban satisfacción, y eso empeora el ánimo.
 
 En la consulta, mirar qué refuerza un hábito o una evitación me ayuda a entender por qué cuesta tanto cambiarlo. Podés seguir con [la activación conductual](/recursos/activacion-conductual/) o con el [laboratorio de hábitos](/laboratorio-de-habitos/).
+
+## El contexto de su obra
+
+Skinner heredó una idea que venía de lejos: Edward Thorndike había descrito a comienzos del siglo XX la «ley del efecto», según la cual las conductas seguidas de consecuencias satisfactorias tienden a repetirse. Pávlov había estudiado el condicionamiento clásico y Watson había propuesto una psicología de la conducta observable. Skinner le dio al conjunto una forma sistemática y un método: registrar la frecuencia de una conducta a lo largo del tiempo y ver cómo cambia con sus consecuencias. Ver [Iván Pávlov](/recursos/ivan-pavlov/) y [John B. Watson](/recursos/john-b-watson/).
+
+Su posición se llama conductismo radical: sostiene que los pensamientos y los sentimientos también son conductas, y que no son la causa de lo que hacemos. En 1957 aplicó su enfoque al lenguaje en *Conducta verbal*, y el lingüista Noam Chomsky publicó en 1959 una crítica muy influyente de ese libro, que fue una de las puertas por las que se abrió la revolución cognitiva.
+
+## Una escena cotidiana
+
+En el supermercado, un nene de tres años llora porque quiere un chocolate. Los padres, agotados, se lo dan, y el llanto se corta. Hay dos refuerzos: el nene aprendió que llorar funciona, y los padres aprendieron que ceder pone fin al llanto, que es un refuerzo negativo para ellos. La próxima vez, ambos tenderán a repetir su parte. Ver el circuito no es culpar a nadie: permite ver dónde se puede cambiar, por ejemplo reforzando otras conductas y sosteniendo con calma la extinción de la que no se quiere.
+
+La misma lógica explica por qué cuesta tanto soltar el celular. Las notificaciones llegan a veces y sin aviso, y esa intermitencia mantiene la conducta de revisarlo. Ver [pantallas y redes sociales](/recursos/pantallas-y-redes-sociales/).
+
+## Cómo resuena en la práctica
+
+El análisis de la conducta dio lugar a técnicas que se usan hoy con resultados bien estudiados: la [activación conductual](/recursos/activacion-conductual/) para la depresión, el manejo de contingencias en el tratamiento de adicciones y las intervenciones conductuales en la crianza y en la escuela. También es la base, junto con otros desarrollos, de la [terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/). Los mecanismos de refuerzo intermitente son parte de por qué enganchan las [apuestas online](/recursos/apuestas-online/).
+
+## Matices y límites
+
+El enfoque de Skinner dejó fuera lo que sucede dentro de la persona como explicación, y esa fue su mayor limitación: [Albert Bandura](/recursos/albert-bandura/) mostró que se aprende también observando, y la psicología cognitiva recuperó el papel del pensamiento. Su propuesta de rediseñar la sociedad con principios conductuales, en *Walden Dos* y *Más allá de la libertad y la dignidad*, generó un debate ético que sigue vivo: ¿quién decide qué conductas se refuerzan?
+
+Las aplicaciones también se discuten. Los programas conductuales intensivos para el autismo, por ejemplo, tienen defensores y críticos, y parte de la comunidad autista cuestiona sus objetivos. Lo que queda es una herramienta poderosa para entender cómo el ambiente moldea la conducta, que conviene usar con respeto por la persona.
 
 ## Preguntas frecuentes
 

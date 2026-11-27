@@ -11,7 +11,7 @@ orden: 149
 estado: publicado
 respuesta: Wilhelm Wundt (1832-1920) fue un médico, fisiólogo y filósofo alemán, considerado el fundador de la psicología como disciplina científica. En 1879 creó en la Universidad de Leipzig el primer laboratorio dedicado a la investigación psicológica, donde estudió la experiencia consciente con métodos experimentales, como la introspección entrenada y la medición de tiempos de reacción. También escribió una extensa Psicología de los pueblos sobre el lenguaje, los mitos y las costumbres.
 menciona: wundt
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 Leipzig, 1879. En una sala de la universidad, un profesor de filosofía de cuarenta y siete años instala relojes de precisión, aparatos para producir sonidos y luces, y pide a sus estudiantes que describan con cuidado qué experimentan. Esa escena suele contarse como el nacimiento de la psicología científica.
 
@@ -50,6 +50,22 @@ Desde la psicología analítica y el psicoanálisis, que trabajan con lo que no 
 Podés probar la autoobservación disciplinada en el [laboratorio de Wundt](/laboratorio-de-wundt/).
 
 Uno de los alumnos de Wundt en Leipzig fue Cai Yuanpei, figura clave de la [psicología en China](/recursos/la-psicologia-en-china/).
+
+## Un ejemplo cotidiano
+
+Cuando un semáforo cambia a verde y tardás una fracción de segundo en arrancar, estás frente a lo que Wundt medía: el tiempo de reacción. En su laboratorio, ese intervalo permitía comparar cuánto lleva percibir y cuánto decidir. Una prueba simple: contá los golpes de un metrónomo, o de una gota que cae, y notá cómo la atención se acomoda al ritmo. Wundt estudió esa percepción de ritmos y la atención con aparatos que hoy parecen artesanales.
+
+## Contexto histórico
+
+Wundt venía de la fisiología y de Helmholtz, y heredó el afán de medir. El estudio de los tiempos de reacción ya tenía antecedentes, como los del holandés Franciscus Donders hacia 1868, y Wundt los extendió a la psicología. Por su laboratorio pasaron James McKeen Cattell, que llevó la psicología experimental a Estados Unidos, y Emil Kraepelin, que después sería una figura de la psiquiatría. También propuso una teoría de los sentimientos con tres ejes: agrado y desagrado, excitación y calma, tensión y relajación. Hoy esas dimensiones resuenan en modelos que describen las emociones con pocas variables.
+
+## Cómo resuena en la práctica actual
+
+Cada vez que se evalúa la atención o la velocidad de respuesta de una persona, se usa un descendiente de ese método, como en las [técnicas psicométricas](/recursos/tecnicas-psicometricas/). La pregunta por los procesos que no se ven en el laboratorio sigue abierta, y es donde entran el psicoanálisis y la psicología analítica.
+
+## Matices y límites
+
+El 1879 es una fecha convencional: otros ya hacían experimentos, y James tenía un laboratorio de demostración en Harvard desde 1875. La introspección de Wundt fue criticada por falta de acuerdo entre observadores y, más tarde, por [John B. Watson](/recursos/john-b-watson/), que propuso estudiar solo la conducta observable. Tampoco hay que pensar que Wundt se limitó al laboratorio: su *Psicología de los pueblos* muestra que consideraba la cultura indispensable.
 
 ## Preguntas frecuentes
 

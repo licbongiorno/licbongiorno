@@ -11,7 +11,7 @@ orden: 216
 estado: publicado
 respuesta: Maud Mannoni (23 de octubre de 1923 - 15 de marzo de 1998) fue una psicoanalista de origen belga radicada en París desde 1949. Trabajó con Françoise Dolto en el hospital Trousseau, publicó L'enfant arriéré et sa mère en 1964 y en 1969 fundó y dirigió la Escuela Experimental de Bonneuil, una institución para niños con graves dificultades que cuestionaba la segregación.
 menciona: 
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 No, no fue solo la colega de otra figura más conocida. Maud Mannoni se hizo una pregunta incómoda: cuando un niño es calificado como «retardado», ¿qué se está diciendo del niño y qué se está diciendo de quienes lo rodean? Su obra y su institución intentaron responderla en la práctica.
 
@@ -49,6 +49,32 @@ En la consulta, su mirada me ayuda a hacerme una pregunta antes de acomodar a un
 ## Líneas cercanas
 
 La crítica a la segregación y a las lógicas de encierro conecta con la obra de [Ronald Laing](/recursos/ronald-laing/), otra figura asociada a la antipsiquiatría. Y en el psicoanálisis de niños, su recorrido se cruza con el de [Françoise Dolto](/recursos/francoise-dolto/), con quien trabajó en el hospital Trousseau.
+
+## Otras obras
+
+Mannoni siguió escribiendo sobre estos temas. Entre sus libros están *La primera entrevista con el psicoanalista* (1965), *El psiquiatra, su «loco» y el psicoanálisis* (1970), *La educación imposible* (1973) y *Un lugar para vivir* (1976). El título de este último resume la apuesta de Bonneuil: no se trataba solo de tratar a un niño, sino de ofrecerle un lugar donde vivir. Estuvo cerca de Jacques Lacan y de su escuela. Para ubicar esa tradición, mirá [Jacques Lacan](/recursos/jacques-lacan/).
+
+## Un ejemplo de todos los días
+
+Pensá en un chico al que en la escuela le dicen «este no puede». La frase parece describirlo, pero también lo ubica: la maestra baja sus expectativas, los compañeros lo tratan como el que no puede, la familia empieza a esperar poco. Con los años, ese lugar puede volverse su único lugar. Mannoni invitaba a preguntarse qué papel cumple la etiqueta en la vida de todos los que rodean al chico. No para negar sus dificultades, sino para no dejarlas tapar al niño.
+
+## En la práctica actual
+
+Hoy hay equipos de salud mental infantil, de integración escolar y de acompañamiento a familias que trabajan con una idea parecida: no mirar solo el déficit sino también el contexto, los apoyos y las expectativas. Esto convive con herramientas de evaluación y de intervención que Mannoni no tenía, y con un reconocimiento más amplio de los derechos de las personas con discapacidad. No hay contradicción: se trata de sumar. Para ver más de la lectura psicoanalítica con niños, mirá [Arminda Aberastury](/recursos/arminda-aberastury/) y [el psicoanálisis](/recursos/que-es-el-psicoanalisis/).
+
+## Preguntas frecuentes
+
+### ¿Quién fue Maud Mannoni?
+
+Fue una psicoanalista de origen belga, radicada en París, que se ocupó de niños con graves dificultades. Fundó en 1969 la Escuela Experimental de Bonneuil y publicó, en 1964, *El niño retardado y su madre*.
+
+### ¿Qué era la Escuela de Bonneuil?
+
+Una institución abierta, pensada para niños con graves dificultades, que cuestionaba la segregación y apostaba a la vida cotidiana y a la palabra como parte del trabajo.
+
+### ¿Mannoni culpaba a las madres?
+
+No es una lectura justa de su obra. Ella propuso mirar el vínculo y el lugar del niño en su familia, pero hoy sabemos que muchas dificultades no se explican por la crianza. Conviene distinguir mirar el vínculo de atribuirle toda la causa.
 
 ## Para seguir leyendo
 

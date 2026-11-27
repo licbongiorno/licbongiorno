@@ -11,7 +11,7 @@ orden: 176
 estado: publicado
 respuesta: Lao Tse es el nombre tradicional del autor del Tao Te King, el texto fundador del taoísmo; su existencia histórica es incierta y el libro probablemente se formó entre los siglos VI y IV a. C. Habla del tao, el curso de las cosas, de los opuestos complementarios, el yin y el yang, y del wu wei, actuar sin forzar. Jung vio en el tao una imagen de la unión de los opuestos, y Jean Shinoda Bolen escribió El tao de la psicología (1979).
 menciona: lao-tse, jung, bolen
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 «El tao que puede ser nombrado no es el tao eterno». Así empieza el *Tao Te King*, uno de los libros más traducidos del mundo. En pocas líneas advierte algo que cualquier persona que haya intentado poner en palabras una experiencia profunda conoce bien: lo más importante se resiste a ser dicho.
 
@@ -45,6 +45,22 @@ Los historiadores dudan de que haya existido como una sola persona. El *Tao Te K
 Para ver cómo dialoga el taoísmo con la psicología actual, leé [taoísmo y psicología](/recursos/taoismo-y-psicologia/) o recorré el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/).
 
 El otro gran nombre del taoísmo es [Zhuangzi](/recursos/zhuangzi/).
+
+## Un ejemplo cotidiano
+
+Hay noches en que cuanto más te esforzás por dormirte, más despierto quedás. Ese esfuerzo es lo opuesto al wu wei. El libro lo ilustra con el agua: no empuja, rodea la piedra, y por eso llega. En el capítulo 8 dice que lo mejor es como el agua, que beneficia a todos sin competir. Y en el 64 recuerda que un viaje de mil millas empieza con un paso, una idea que cualquiera aplica a un cambio de hábito.
+
+## Contexto histórico
+
+El *Tao Te King* se formó en torno al período de los Reinos Combatientes, un tiempo de guerras y de crisis de los valores antiguos. En ese clima, mientras Confucio proponía reformar la sociedad con rituales y deberes, esta tradición invitaba a soltar el afán de control. Además de los bambúes de Guodian, en 1973 se hallaron en Mawangdui, en la provincia de Hunan, copias en seda que aportaron versiones tempranas del texto completo. Hay cientos de traducciones, y por eso cada una dice algo distinto.
+
+## Cómo resuena en la práctica actual
+
+Ninguna terapia se basa solo en Lao Tse, pero varias se le parecen. La aceptación de las terapias contemporáneas, el mindfulness y las prácticas como el [qigong y el tai chi](/recursos/qigong-y-tai-chi/) tienen en común la actitud de acompañar lo que ocurre antes que pelearlo. En China existe además una [psicoterapia taoísta cognitiva](/recursos/psicoterapia-taoista-cognitiva/), que adapta ideas taoístas a la clínica.
+
+## Matices y límites
+
+El wu wei se malentiende fácilmente como pasividad o resignación. En el texto, quien no fuerza igual actúa, pero a tiempo y con economía. Tampoco hay que idealizar: lo que el libro ofrece es una sensibilidad, no un método con eficacia probada. Su autoría y su fecha son inciertas, y parte de lo que se dice sobre él en la divulgación es más leyenda que dato. Lo que se investiga hoy en psicología son las prácticas contemplativas y corporales, no el tao.
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 127
 estado: publicado
 respuesta: Claudio Naranjo (1932-2019) fue un psiquiatra chileno, discípulo de Fritz Perls y uno de los principales referentes de la terapia Gestalt. Desarrolló el eneagrama de la personalidad como una tipología psicológica, que expuso en Carácter y neurosis, y creó el programa SAT de autoconocimiento. En sus últimos años se dedicó a promover una transformación de la educación.
 menciona: naranjo, gestalt, eneagrama
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que el eneagrama sea un test para saber «qué número sos». Claudio Naranjo, que fue quien lo convirtió en una herramienta psicológica, lo pensaba como un mapa de las formas en que cada uno se defiende y se pierde de sí mismo. Y lo usaba dentro de algo más amplio: un trabajo de autoconocimiento que unía la psicoterapia con las tradiciones espirituales.
 
@@ -44,6 +44,22 @@ Naranjo resumió la Gestalt en tres valores: vivir en el **aquí y ahora**, **da
 Naranjo es una figura muy presente en el mundo de habla hispana, sobre todo en la Gestalt y en el eneagrama. Su obra conviene leerla con criterio: el eneagrama es una tipología sin el respaldo empírico de otros modelos de personalidad, y él mismo lo pensaba como una herramienta de trabajo interior, no como un diagnóstico.
 
 En el sitio hay una [sección dedicada al eneagrama](/recursos/eneagrama/) y un [test orientativo](/test-de-eneagrama/), con esa misma advertencia. Podés seguir también con [la terapia Gestalt](/recursos/terapia-gestalt/).
+
+## Un ejemplo cotidiano
+
+Alguien da siempre, está disponible para todos, y le cuesta pedir. Desde el eneagrama de Naranjo, ese patrón puede leerse como el carácter del ayudador, cuya pasión sería el orgullo disfrazado de generosidad. No se trata de ponerle una etiqueta, sino de ver qué defiende ese modo de ser y qué se pierde. Podés ver ese tipo en [Eneatipo 2: el ayudador](/recursos/eneatipo-2-ayudador/). Y el «darse cuenta» gestáltico es el paso siguiente: notar cuándo uno da para ser querido y no porque quiere dar.
+
+## Contexto histórico
+
+Naranjo estudió con Perls en Esalen en los años sesenta, la época del movimiento del potencial humano. En esa misma década investigó sustancias psicoactivas en terapia; su libro *The Healing Journey* (1973) recoge esa experiencia. Hoy hay estudios nuevos sobre el tema, que se resumen en [terapia con psicodélicos](/recursos/terapia-con-psicodelicos/). El origen histórico del eneagrama es debatido: sus raíces se atribuyen a fuentes diversas, entre ellas las ideas de Gurdjieff y las tradiciones místicas, y hay discusión sobre qué es antiguo y qué se formuló en el siglo XX.
+
+## Cómo resuena en la práctica actual
+
+El eneagrama se usa en psicoterapia, coaching y educación, a menudo sin la formación que Naranjo pedía. Su programa SAT sigue activo en varios países. La Gestalt que enseñó es una de las corrientes más extendidas en Latinoamérica; ver [Fritz Perls](/recursos/fritz-perls/) y el [laboratorio Gestalt](/laboratorio-gestalt/). Su vínculo entre carácter y defensas dialoga con los [mecanismos de defensa](/recursos/mecanismos-de-defensa/) del psicoanálisis.
+
+## Matices y límites
+
+La investigación sobre el eneagrama es escasa y sus resultados no alcanzan el nivel de otros modelos de personalidad. Por eso es una herramienta para reflexionar, no para predecir conductas ni para decidir sobre una persona. Los textos de Naranjo mezclan observación clínica, teoría e intuición, y no siempre se distingue una cosa de otra. También hay quienes cuestionan la dimensión espiritual de su propuesta por falta de verificación. Un test en internet no reemplaza un proceso de autoconocimiento.
 
 ## Preguntas frecuentes
 

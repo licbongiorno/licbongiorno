@@ -11,7 +11,7 @@ orden: 191
 estado: publicado
 respuesta: Roberto Assagioli (1888-1974) fue un psiquiatra italiano, nacido en Venecia, creador de la psicosíntesis. Propuso que la personalidad está formada por subpersonalidades, partes semiautónomas con sus propias necesidades y miradas, y que el yo puede reconocerlas mediante la desidentificación: observar una parte sin confundirse con ella. Su manual Psicosíntesis (1965) organiza sus técnicas, y su enfoque se considera uno de los antecedentes de la psicología transpersonal.
 menciona: jung
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Hay una parte de vos que quiere controlar todo, otra que se preocupa por los demás, otra que necesita que la aprueben y otra que simplemente quiere jugar. Roberto Assagioli propuso que todas esas voces son partes de una misma persona, y que el trabajo no es eliminarlas, sino dejar de confundirse con ninguna de ellas.
 
@@ -52,6 +52,24 @@ Cada **subpersonalidad** tiene su voz y su **necesidad**. El **yo** que observa 
 ## Un cuidado
 
 La desidentificación no es negar lo que sentís ni tomar distancia para no sufrir. Decir «hay una parte de mí que tiene miedo» no reemplaza sentir el miedo: lo vuelve más manejable porque dejás de ser el miedo. Si usás el ejercicio para esquivar lo emocional, se parece al [bypass espiritual](/recursos/bypass-espiritual/). Y si las partes aparecen como voces que no podés controlar, o el trabajo te desborda, es mejor hacerlo acompañado por un profesional.
+
+## El mapa de la psique
+
+Assagioli dibujó un esquema, conocido como el diagrama del huevo, para ubicar las regiones de la psique: un inconsciente inferior, donde están los impulsos y las heridas más antiguas; un inconsciente medio, donde ordenamos lo que podemos recordar con facilidad; y un inconsciente superior, de donde surgen la intuición, la creatividad y los valores más altos. En el centro del campo de la conciencia ubicó al yo. Es un modelo, una manera de pensar, y no una descripción anatómica. Lo que lo distingue de otros mapas es que le da lugar a lo más alto de lo humano y no solo a lo que duele. Assagioli fue, además, de los primeros en Italia en interesarse por el psicoanálisis, y desde el comienzo lo consideró valioso pero incompleto.
+
+## La voluntad
+
+Una parte menos conocida de su obra es la voluntad. En *El acto de la voluntad* (1973) la describió como un proceso con etapas: tener un propósito, deliberar, decidir, afirmar la decisión, planificar y dirigir la ejecución. Pensá en alguien que quiere dejar de postergar un trabajo. Una parte quiere terminar, otra quiere descansar y otra tiene miedo de no estar a la altura. Desde esta mirada, la voluntad no es apretar los dientes, sino que el yo elija con claridad, escuche a las partes y sostenga una dirección. Es una idea práctica y nada punitiva.
+
+## Qué tiene investigación y qué es teoría
+
+El trabajo con partes tiene hoy muchas variantes, y algunas han empezado a estudiarse. Un ejemplo es la terapia de sistemas familiares internos (IFS) de Richard Schwartz, que también propone dialogar con las partes desde un centro sereno y tiene investigación inicial. Es un enfoque afín, no una derivación directa de la psicosíntesis.
+
+Para la psicosíntesis en sí, la evidencia empírica es limitada: es sobre todo una tradición clínica y formativa. Y el concepto de «yo superior» es el menos fácil de poner a prueba, porque pertenece más a una visión espiritual que a una hipótesis medible. Cada persona puede usarlo como metáfora útil o dejarlo de lado sin perder el resto del método.
+
+## En la práctica
+
+En la consulta, el ejercicio de la desidentificación sirve como un primer paso: darle nombre y lugar a una parte, preguntarle qué teme y qué cuida. Se puede combinar con la [imaginación activa](/recursos/imaginacion-activa/), que también dialoga con figuras internas, y con la mirada sobre [el yo y el sí-mismo](/recursos/el-yo-y-el-si-mismo/). Y si encontrás que una de esas voces es una [crítica interna](/recursos/la-critica-interna/) muy dura, conviene empezar por reconocer que busca protegerte, aunque lo haga mal.
 
 ## Preguntas frecuentes
 

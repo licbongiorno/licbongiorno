@@ -11,7 +11,7 @@ orden: 142
 estado: publicado
 respuesta: Salvador Minuchin (1921-2017) fue un médico y terapeuta familiar argentino, nacido en Entre Ríos y formado en la Universidad Nacional de Córdoba, que desarrolló su obra en Estados Unidos. Creó la terapia familiar estructural, que ve a la familia como una estructura organizada en subsistemas separados por límites, y busca modificar esa organización para que los síntomas pierdan su función. Su libro más conocido es Familias y terapia familiar (1974).
 menciona: minuchin, sistemica
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 En muchas familias hay un hijo que carga con la etiqueta de «el problema». Salvador Minuchin enseñó a mirar de otra manera: muchas veces el síntoma de un hijo dice algo sobre cómo está organizada la familia entera —quién manda, quién se alía con quién, qué límites se borraron—. Y cambiar esa organización puede hacer que el síntoma deje de ser necesario.
 
@@ -45,6 +45,24 @@ Minuchin dibujaba mapas de las familias: los padres en un subsistema, los hijos 
 La terapia familiar estructural es uno de los enfoques sistémicos más influyentes, y sus conceptos —límites, subsistemas, jerarquía— se usan hoy en la clínica con familias, en escuelas y en servicios sociales. Para quienes trabajamos en la Argentina, es además el recorrido de alguien que salió de nuestras universidades.
 
 En la consulta, mirar la estructura de la familia ayuda a entender por qué un síntoma aparece en una persona y no en otra. Podés seguir con [la terapia sistémica](/recursos/terapia-sistemica/), que tiene una figura sobre los límites, o con el [laboratorio sistémico](/laboratorio-sistemico/).
+
+## El contexto de su obra
+
+La terapia familiar nació en las décadas de 1950 y 1960, cuando varios grupos en Estados Unidos, que no se conocían entre sí, empezaron a ver que el síntoma de una persona podía tener sentido dentro de su familia. Estaban Bateson y el grupo de Palo Alto, [Murray Bowen](/recursos/murray-bowen/) en Washington, [Virginia Satir](/recursos/virginia-satir/) en California, y Minuchin en Nueva York y Filadelfia. En la Philadelphia Child Guidance Clinic se sumó a su equipo Jay Haley, y juntos formaron a una generación de terapeutas. Ver [terapia sistémica](/recursos/terapia-sistemica/).
+
+Lo particular de Minuchin fue su estilo: activo, directo, con una gran confianza en que la familia, si se la reorganiza, puede cambiar. Él mismo se describía como un terapeuta que se ubica dentro del sistema familiar para moverlo, en lugar de observarlo desde afuera. Su experiencia con familias de barrios pobres lo llevó además a atender las condiciones sociales en las que esas familias vivían, y no solo a sus dinámicas internas.
+
+## Una escena cotidiana
+
+En la primera sesión, la madre habla por su hija de catorce años: «ella no quiere comer, lo hace por llamar la atención». La hija mira el piso. El padre mira el celular. Minuchin, en lugar de preguntarle a la madre, se dirigiría a la hija: «¿vos qué pensás?». Y después le pediría a los padres que hablen entre ellos de lo que les preocupa, delante de la hija. Esa técnica se llama escenificación: en vez de que la familia cuente cómo es, se la invita a mostrarlo ahí, en la sesión, y el terapeuta interviene sobre lo que ve.
+
+## Cómo resuena en la práctica
+
+La mirada estructural se sigue usando con familias de adolescentes, con familias ensambladas y ante situaciones de duelo o de cambios grandes. Sirve para preguntarse cosas concretas: ¿los padres actúan como equipo?, ¿hay un hijo que cumple una función de adulto?, ¿hay un límite claro entre la pareja y los hijos? Ver [padres de adolescentes](/recursos/padres-de-adolescentes/), [conflictos familiares](/recursos/conflictos-familiares/) y [hijos y separación](/recursos/hijos-y-separacion/). Sus ideas también influyeron en terapias familiares para los [trastornos de la conducta alimentaria](/recursos/trastornos-de-la-conducta-alimentaria/) en la adolescencia. Para un recorrido práctico, el [laboratorio sistémico](/laboratorio-sistemico/).
+
+## Matices y límites
+
+Los conceptos de Minuchin son modelos clínicos; no todos fueron puestos a prueba por separado. La investigación sobre terapia familiar en adolescentes con anorexia respalda el trabajo con la familia, pero no valida cada una de sus ideas estructurales. Además, su énfasis en la jerarquía recibió críticas, en particular desde enfoques feministas, porque puede reforzar roles tradicionales o pasar por alto el poder desigual dentro de una familia. Lo que es «un límite sano» también varía según la cultura. Y en casos de violencia, la intervención sobre la estructura no alcanza ni es adecuada: primero está la seguridad.
 
 ## Preguntas frecuentes
 

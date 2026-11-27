@@ -11,7 +11,7 @@ orden: 165
 estado: publicado
 respuesta: Arthur Schopenhauer (1788-1860) fue un filósofo alemán, autor de El mundo como voluntad y representación (1819). Sostuvo que el mundo que percibimos es representación y que, por debajo, hay una voluntad ciega, un impulso que nos mueve sin que lo sepamos. Freud reconoció en sus ideas un antecedente de la represión y el inconsciente, y su obra influyó en Nietzsche y en el joven Jung.
 menciona: schopenhauer, freud, jung, nietzsche
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 ¿Elegimos lo que deseamos, o el deseo nos elige a nosotros? Schopenhauer, un filósofo famoso por su mal carácter y su pesimismo, respondió sin rodeos: detrás de todo lo que pensamos y hacemos hay una voluntad ciega que nos empuja, y la mayor parte del tiempo ni siquiera nos damos cuenta.
 
@@ -42,6 +42,24 @@ Lo que vemos es la **representación**, la superficie. Por debajo, enorme y ocul
 - **Sigmund Freud** reconoció que Schopenhauer se le había adelantado en la idea de la represión, aunque dijo haber llegado a ella por su cuenta. La voluntad ciega y el lugar de la sexualidad tienen ecos claros en el psicoanálisis. Ver [Sigmund Freud](/recursos/sigmund-freud/).
 - **Friedrich Nietzsche** se volvió filósofo leyéndolo, aunque después tomó otro camino. Ver [Friedrich Nietzsche](/recursos/friedrich-nietzsche/).
 - **Carl Gustav Jung** lo leyó de joven y contó en sus memorias el impacto que le produjo. Ver [Carl Gustav Jung](/recursos/carl-gustav-jung/).
+
+## Un ejemplo cotidiano
+
+Pensá en el fin de semana que esperaste toda la semana. Cuando llega, el deseo se apaga rápido y aparece otro. Schopenhauer decía algo parecido: conseguir lo que queremos nos da un alivio breve, y después vuelve la falta o el aburrimiento. Hoy la psicología describe un fenómeno cercano con el nombre de adaptación hedónica.
+
+Otra imagen suya es la de los erizos que, en una noche fría, se juntan para darse calor y se pinchan; se separan, sienten frío y se acercan de nuevo, hasta encontrar una distancia soportable. Está en los *Parerga y paralipómena* y sirve para pensar los vínculos: cuánta cercanía tolera cada uno.
+
+## Contexto histórico
+
+Schopenhauer escribió en la Alemania de Hegel y del idealismo, y se opuso a ellos. Sostenía que Kant había mostrado los límites de la razón y que sus sucesores los habían olvidado. Fue de los primeros filósofos europeos en leer con atención textos de la India: conoció una traducción de los Upanishad y se interesó por el budismo, y por eso su idea de que el deseo causa sufrimiento tiene parecido con la primera de las cuatro nobles verdades. Ver [el Buda](/recursos/buda/).
+
+## Cómo resuena en la práctica actual
+
+No hay una terapia schopenhaueriana. Pero su mirada reaparece en lo que la clínica llama [mecanismos de defensa](/recursos/mecanismos-de-defensa/), en el reconocimiento de que mucho de lo que hacemos tiene motivos que no vemos, y en la importancia de distinguir lo que deseamos de lo que nos conviene. Irvin Yalom lo convirtió en personaje de su novela *Y Schopenhauer lloró* (2005), que muestra un grupo terapéutico dialogando con sus ideas. Ver [Irvin Yalom](/recursos/irvin-yalom/).
+
+## Matices y límites
+
+La «voluntad» de Schopenhauer es una tesis metafísica sobre toda la realidad, no un concepto clínico. Se parece al inconsciente freudiano en que opera sin que lo sepamos, pero Freud describió un inconsciente con contenidos, historia y lenguaje propios, algo que Schopenhauer no hizo. Su pesimismo es una postura filosófica; no se debe confundir con un cuadro depresivo ni usar para explicarlo. Y la idea de que la felicidad es imposible no tiene respaldo en la investigación actual, que encuentra momentos de bienestar sostenido en muchas vidas.
 
 ## Preguntas frecuentes
 
