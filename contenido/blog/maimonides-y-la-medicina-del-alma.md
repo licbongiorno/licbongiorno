@@ -66,6 +66,17 @@ La idea de corregir el carácter yendo hacia el extremo opuesto puede volverse d
 
 Este texto es parte de la serie de psicología judía: [mapa de la psicología judía](/recursos/mapa-de-la-psicologia-judia/) y [glosario de psicología judía](/glosario-de-psicologia-judia/). Para el contexto médico y filosófico compartido, mirá el [mapa de la psicología islámica medieval](/recursos/mapa-de-la-psicologia-islamica-medieval/) y [Al-Balkhi y la salud del alma](/recursos/al-balkhi-y-la-salud-del-alma/).
 
+## Preguntas frecuentes
+
+### ¿Qué es el «justo medio» de Maimónides?
+Es la idea, tomada de Aristóteles, de que las virtudes son posiciones intermedias entre dos extremos defectuosos: la generosidad entre la avaricia y el derroche, el valor entre la cobardía y la temeridad. Maimónides lo llama *derej beinonit*, el camino intermedio, y agrega que en la soberbia y la ira recomienda ir al extremo opuesto.
+
+### ¿Qué son los Ocho capítulos (Shemoná Perakim)?
+Son la introducción que Maimónides escribió a su comentario al tratado *Avot* de la Mishná. Tratan las facultades del alma, las enfermedades del carácter, su curación y el libre albedrío. Es literatura ética, religiosa y filosófica, no un texto clínico.
+
+### ¿Se puede usar a Maimónides como psicoterapia?
+No. Es una ética y una medicina histórica, sin ensayos, y mezcla observaciones valiosas con teoría de los humores que la medicina abandonó hace siglos. Aplicar sin criterio la idea de corregir el carácter yendo al extremo opuesto puede ser dañino, por ejemplo con una persona con ansiedad o depresión.
+
 ## Para seguir leyendo
 
 - Maimónides. *Shemoná Perakim* (Ocho capítulos), introducción al comentario a *Avot*. Traducción inglesa de J. I. Gorfinkle (1912), *The Eight Chapters of Maimonides on Ethics*.

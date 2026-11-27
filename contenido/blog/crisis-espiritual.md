@@ -11,7 +11,7 @@ orden: 153
 estado: publicado
 respuesta: Una crisis espiritual es un momento en que un proceso de transformación personal se vuelve caótico y abrumador. Grof y Grof la llamaron emergencia espiritual, y el DSM-IV incluyó la categoría Problema religioso o espiritual, que no es un trastorno sino un motivo de atención clínica. Hay que descartar manía, psicosis, disociación y causas médicas, y consultar de urgencia ante ciertas señales.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Un hombre empieza a meditar varias horas por día. A las dos semanas casi no duerme, siente que tiene una misión que nadie más entiende y deja de ocuparse de su casa. Su familia no sabe si está viviendo una transformación o si se enfermó. La pregunta es legítima, y la respuesta no es automática en ninguna de las dos direcciones.
 
@@ -71,3 +71,14 @@ Prácticas intensas como la meditación no son para todos ni en todo momento. Ve
 Volvé al [mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y explorá el [laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
 Lecturas: Grof, S. y Grof, C. (eds.) (1989), *Spiritual Emergency: When Personal Transformation Becomes a Crisis*, Tarcher. Lukoff, D., Lu, F. y Turner, R. (1992), «Toward a more culturally sensitive DSM-IV: psychoreligious and psychospiritual problems», *Journal of Nervous and Mental Disease*, 180(11), 673–682.
+
+## Preguntas frecuentes
+
+### ¿Una crisis espiritual es una enfermedad mental?
+No necesariamente, y tampoco se puede dar por sentado que no lo sea. La categoría «Problema religioso o espiritual» del DSM-IV no es un trastorno sino un motivo de atención clínica. Cada caso requiere una evaluación cuidadosa.
+
+### ¿Cómo se distingue una crisis espiritual de un episodio psicótico o maníaco?
+No se resuelve con una teoría: lo define una evaluación profesional que descarte episodios maníacos o psicóticos, cuadros disociativos y causas médicas o por sustancias. A veces la vivencia es una apertura, a veces una descompensación y a veces ambas cosas a la vez.
+
+### ¿Cómo acompañar a alguien que está atravesando algo así?
+Ayuda un entorno estable: que duerma, coma, no esté sola y pueda hablar con alguien que escuche sin burlarse ni dar por cierta cualquier interpretación. Si hay varias noches sin dormir, voces, ideas que desorganizan la vida o riesgo, hay que consultar sin demora.

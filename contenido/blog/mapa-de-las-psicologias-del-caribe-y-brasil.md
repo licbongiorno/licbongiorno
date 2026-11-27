@@ -81,6 +81,17 @@ Tres ideas brasileñas circulan mucho. La **saudade**, mezcla de nostalgia y añ
 
 Si tu fe o tu comunidad es parte de lo que te sostiene, eso puede conversarse en la consulta. Ante una crisis o riesgo para tu vida, ver la página de [ayuda urgente](/ayuda-urgente/).
 
+## Preguntas frecuentes
+
+### ¿Quién fue Nise da Silveira?
+Fue una psiquiatra brasileña (1905-1999) que se opuso a las terapias de choque y a la lobotomía, y abrió talleres de pintura y modelado para internos en el hospital de Engenho de Dentro. De ahí surgió el Museo de Imágenes del Inconsciente. Mantuvo contacto con Jung por carta. Es una experiencia histórica de gran valor, no un método con eficacia demostrada.
+
+### ¿Qué es la Terapia Comunitaria Integrativa?
+Es una ronda de vecinos creada en 1987 por Adalberto Barreto en una favela de Fortaleza: se elige un tema de vida, se comparten experiencias y se cierra con reconocimiento mutuo. Brasil la incluyó entre sus prácticas integrativas en 2017. La investigación es sobre todo descriptiva y cualitativa, y se la entiende mejor como apoyo comunitario que como psicoterapia.
+
+### ¿Cómo se relacionan el espiritismo, la santería o el vodou con la atención en salud mental?
+Son religiones vivas que muchas personas usan para entender su malestar, y a menudo conviven con la consulta médica o psicológica. Para quien atiende, son contexto: la actitud útil es preguntar con curiosidad y sin juicio. No hay evidencia sólida de que una colaboración formal con sanadores mejore los resultados.
+
 ## Para seguir leyendo
 
 - Koss-Chioino, J. D. (1992). *Women as Healers, Women as Patients: Mental Health Care and Traditional Healing in Puerto Rico*. Westview Press.

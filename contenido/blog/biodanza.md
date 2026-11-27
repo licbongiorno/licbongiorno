@@ -11,7 +11,7 @@ orden: 163
 estado: publicado
 respuesta: La Biodanza es una práctica grupal de música, movimiento y contacto creada en la década de 1960 por el chileno Rolando Toro Araneda. Está muy difundida en América Latina y en Argentina. Tiene poca evidencia científica sólida y no es psicoterapia, aunque puede ser una práctica de bienestar y de encuentro.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una sala con el piso despejado, luces bajas y una música que empieza suave. Alguien propone caminar, primero cada uno a su ritmo, después cruzándose con otros, mirándose. Más tarde habrá un ejercicio de a dos, una ronda, un momento de contacto. Nadie está evaluando cómo baila: lo que se propone es la vivencia. Así suele describirse un encuentro de Biodanza, una práctica muy difundida en América Latina y también en Argentina.
 
@@ -52,6 +52,17 @@ El contacto físico es parte de la propuesta, y por eso mismo el consentimiento 
 Si querés ubicar la Biodanza entre otras propuestas que trabajan con el cuerpo, podés recorrer [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Y si te interesa explorar prácticas por tu cuenta, está el [laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
 Si estás atravesando un momento de crisis o pensás en hacerte daño, hay ayuda inmediata en [ayuda urgente](/ayuda-urgente/), en el 911 o en el Centro de Asistencia al Suicida: 135 (CABA y GBA) o 0800-345-1435 (todo el país).
+
+## Preguntas frecuentes
+
+### ¿Hace falta saber bailar para hacer Biodanza?
+No. No se aprenden coreografías ni se evalúa cómo bailás: las consignas son simples y lo que se propone es la vivencia. Se trata de moverse en grupo y registrar qué pasa en el cuerpo y en el encuentro con otras personas.
+
+### ¿La Biodanza es una terapia?
+No es psicoterapia. Puede ser una práctica grupal de bienestar, pero si hay depresión, duelo complicado, trauma o angustia sostenida, hace falta un abordaje clínico. Tampoco es lo mismo que la danza movimiento terapia, que es una disciplina terapéutica distinta.
+
+### ¿Qué respaldo científico tiene?
+Es débil y heterogéneo. Una revisión de 2021 encontró poca evidencia de efectos en salud y educación, y otra revisión en español informó resultados positivos en fibromialgia e inteligencia emocional, que se leen como asociación y no como prueba de causa. Eso no invalida la práctica como espacio grupal, pero impide presentarla como tratamiento con eficacia demostrada.
 
 ## Para seguir leyendo
 

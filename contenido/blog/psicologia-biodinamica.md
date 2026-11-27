@@ -11,7 +11,7 @@ orden: 136
 estado: publicado
 respuesta: La psicología biodinámica fue fundada por la psicóloga clínica noruega Gerda Boyesen y desarrolla ideas de Wilhelm Reich. Propone que ciertos ruidos intestinales durante el trabajo corporal, el psicoperistaltismo, acompañan una digestión de la tensión emocional, algo que es una hipótesis de la escuela sin confirmación científica. No se conocen ensayos controlados sobre su eficacia.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una persona está recostada en una camilla, con los ojos entrecerrados, mientras alguien le masajea la espalda con mucha lentitud. De pronto se oye un borborigmo, un ruido de su propio abdomen, y el terapeuta no se sorprende: para esta escuela, ese sonido puede significar algo. Es una de las imágenes más características de la psicología biodinámica.
 
@@ -48,3 +48,14 @@ Una buena pregunta para cualquier persona que esté pensando en probar este trab
 Si querés ver dónde cae este enfoque entre otras prácticas, recorré [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
 Lecturas: Boyesen, G. (1996), *Entre psyché et soma*.
+
+## Preguntas frecuentes
+
+### ¿Qué es el masaje biodinámico?
+Es un trabajo con las manos sobre la tensión corporal, acompañado por la atención del terapeuta a lo que el cuerpo va mostrando. Se integra con conversación y, según la formación de cada profesional, con otras técnicas psicoterapéuticas. Requiere consentimiento explícito y la posibilidad de frenar en cualquier momento.
+
+### ¿Qué es el psicoperistaltismo?
+Es el nombre que Gerda Boyesen dio a los ruidos intestinales que aparecen durante el trabajo corporal, que según su escuela acompañarían una «digestión» de la tensión emocional. Es una hipótesis de la escuela sin confirmación científica: un ruido abdominal tiene explicaciones fisiológicas ordinarias.
+
+### ¿Tiene respaldo científico la psicología biodinámica?
+No se conocen ensayos controlados sobre su eficacia. Su respaldo es clínico y formativo: descripciones de profesionales, experiencia acumulada y una tradición de formación en varios países. Si esperás una cura demostrada o una explicación fisiológica de tus emociones, no es lo que ofrece; si buscás un espacio de contacto y atención al cuerpo, puede ofrecerlo.

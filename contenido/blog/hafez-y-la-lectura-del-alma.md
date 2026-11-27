@@ -67,6 +67,17 @@ Un poema puede acompañar, pero no reemplaza una consulta cuando la tristeza, la
 
 Hafez es una de las puertas de entrada del [mapa de la psicología persa e iraní](/recursos/mapa-de-la-psicologia-persa/), donde se ordena qué es poesía, qué es costumbre, qué es clínica y qué es método. Para otro poeta del mismo mundo cultural, con las mismas advertencias sobre traducciones y atribuciones, está [Rumi y la psicología](/recursos/rumi-y-la-psicologia/). Para la escritura como apoyo emocional, ver [escritura expresiva](/recursos/escritura-expresiva/). Los términos persas están en el [glosario de psicología persa](/glosario-de-psicologia-persa/).
 
+## Preguntas frecuentes
+
+### ¿Qué es el fal-e Hafez?
+Es una costumbre iraní de consulta: se formula una intención, se abre el *Divan* de Hafez sin mirar y se lee el poema que toca. Se hace en *Yalda*, en *Nowruz* y cuando alguien tiene que decidir algo. Funciona como ritual familiar y social, y no hay evidencia de que sirva para predecir el futuro.
+
+### ¿Quién fue Hafez?
+Fue un poeta de Shiraz, que vivió aproximadamente entre 1325 y 1390. De su vida se conoce poco con certeza, pero se conserva su obra: poemas líricos llamados *ghazal*, reunidos en el *Divan*. Sus versos hablan de vino, amor y jardines, y pueden leerse en sentido llano o como lenguaje místico.
+
+### ¿Leer poesía sirve como apoyo terapéutico?
+Hay una práctica reconocida de leer y escribir poesía con fines de acompañamiento, a veces llamada biblioterapia, y a mucha gente le hace bien. Pero no hay investigación sólida que muestre que leer a Hafez trate un trastorno concreto, y no reemplaza una consulta si el malestar es intenso o dura semanas.
+
 ## Para seguir leyendo
 
 - Goethe, J. W. von (1819). *West-östlicher Divan*. Stuttgart: Cotta.

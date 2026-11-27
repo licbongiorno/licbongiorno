@@ -11,7 +11,7 @@ orden: 138
 estado: publicado
 respuesta: Thomas Hanna, profesor de filosofía y teórico del movimiento, acuñó el término somática en 1976. Propuso la amnesia sensoriomotriz: una pérdida de percepción y control de ciertos músculos tras reflejos de contracción repetidos ante el estrés, que según él podía revertirse con reeducación lenta. Es un término suyo, no un diagnóstico clínico, y no tiene validación empírica independiente.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Sentate un momento y tratá de subir y bajar un solo hombro, despacio, sin mover el otro. Puede que notes que un lado responde con más claridad que el otro, como si estuviera menos «presente». Esa sensación de un músculo que ya no sentimos ni manejamos del todo es, a grandes rasgos, el fenómeno que Thomas Hanna quiso nombrar.
 
@@ -46,6 +46,17 @@ Si querés acercarte a la idea con una práctica simple, probá moverte más len
 ## Para seguir
 
 Para ver este enfoque junto a otras prácticas, recorré [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
+
+## Preguntas frecuentes
+
+### ¿Qué es la amnesia sensoriomotriz?
+Es un término de Thomas Hanna para la pérdida de percepción y control de ciertos músculos después de reflejos de contracción repetidos ante el estrés. Según su planteo, se revierte con una reeducación lenta del movimiento. No es un diagnóstico clínico y carece de validación empírica independiente.
+
+### ¿La somática de Hanna es una psicoterapia?
+No. Es un trabajo de reeducación del movimiento, emparentado con Feldenkrais, que se concentra en la percepción y el control del movimiento y no en el sentido, la historia o los vínculos de la persona. Puede dialogar con una terapia psicológica como complemento.
+
+### ¿Qué hago si tengo dolor, debilidad o pérdida de sensibilidad?
+El primer paso es la consulta médica. Esos síntomas pueden tener causas neurológicas o musculoesqueléticas concretas, y atribuirlos a una «amnesia» por estrés podría retrasar un diagnóstico necesario.
 
 ## Para seguir leyendo
 

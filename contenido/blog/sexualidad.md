@@ -11,7 +11,7 @@ orden: 180
 estado: publicado
 respuesta: La sexualidad es parte de la salud y cambia a lo largo de la vida. Existen modelos que describen la respuesta sexual de forma lineal o circular, y en este último el deseo puede aparecer después de la cercanía. Las dificultades sexuales son frecuentes, tienen tratamiento y pueden consultarse con profesionales de la salud.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 En el consultorio, una persona cuenta que lleva meses evitando a su pareja por las noches. Se acuesta más tarde, se queda con el celular, y cada vez que piensa en la intimidad le aparece una mezcla de culpa, presión y vergüenza. «Debe pasarme algo raro», dice. Casi nunca lo que pasa es raro. Es una de las dificultades más comunes, y una de las que menos se habla.
 
@@ -52,3 +52,14 @@ Si hay dolor, cambios bruscos, malestar persistente, conflictos que no se resuel
 - Cuando la culpa y la vergüenza interfieren: [la culpa](/recursos/la-culpa/) y [la vergüenza](/recursos/la-verguenza/).
 
 Lecturas: Masters, W. H. y Johnson, V. E. (1966), *Human Sexual Response*. Basson, R. (2000), «The female sexual response: a different model», *Journal of Sex & Marital Therapy*, 26(1), 51–65.
+
+## Preguntas frecuentes
+
+### ¿Existe una frecuencia «normal» de deseo sexual?
+No. El deseo varía entre personas y en una misma persona a lo largo del tiempo, según el estrés, el cansancio, el ánimo, los cambios del cuerpo y la calidad del vínculo. No tiene respaldo la idea de una sexualidad «normal» universal ni de que el deseo deba ser constante.
+
+### ¿El deseo siempre aparece primero?
+No. Basson (2000) propuso un modelo circular en el que el deseo puede surgir después de la excitación, y la motivación para el encuentro incluye la intimidad y la cercanía emocional. Esto cuestiona el modelo lineal de Masters y Johnson, que supone un recorrido único.
+
+### ¿Cuándo conviene consultar por dificultades sexuales?
+Las dificultades son frecuentes y se pueden tratar. Conviene consultar si hay dolor, cambios bruscos, malestar persistente, conflictos que no se resuelven o secuelas de experiencias no consentidas, con un médico, psicólogo o sexólogo.

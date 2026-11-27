@@ -11,7 +11,7 @@ orden: 139
 estado: publicado
 respuesta: La danza movimiento terapia (DMT) es una psicoterapia que usa el movimiento como vía de expresión y de trabajo dentro de un encuadre terapéutico. Marian Chace fue una de sus fundadoras y la primera presidenta de la American Dance Therapy Association. Un metaanálisis de 2019 encontró efectos pequeños pero consistentes en depresión, ansiedad y calidad de vida, con fallas metodológicas que piden cautela.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Un grupo se para en círculo en una sala sin música. Alguien da un paso hacia adentro, otra persona lo repite, un tercero lo cambia por un gesto con los brazos. Nadie baila para que lo miren. La persona que coordina observa cómo se mueve el grupo, qué se imita, qué se evita, quién queda afuera, y a partir de eso propone, nombra y acompaña. Eso es, a grandes rasgos, una sesión de danza movimiento terapia.
 
@@ -51,3 +51,14 @@ En términos prácticos, entonces, la DMT se parece más a una psicoterapia que 
 Si querés ubicar la DMT entre otras propuestas, mirá [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Y para explorar cómo se vive el cuerpo en terapia, pasá por [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
 Lecturas: Koch, S. C., Riege, R. F. F., Tisborn, K., Biondo, J., Martin, L. y Beelmann, A. (2019), «Effects of Dance Movement Therapy and Dance on Health-Related Psychological Outcomes. A Meta-Analysis Update», *Frontiers in Psychology*, 10, 1806.
+
+## Preguntas frecuentes
+
+### ¿Cuál es la diferencia entre danza movimiento terapia y una clase de danza?
+La DMT tiene encuadre terapéutico: un profesional formado, un motivo de consulta, objetivos y una forma de pensar lo que ocurre en el movimiento. La danza es una actividad que puede dar placer y sostener vínculos, pero no se propone tratar algo ni cuenta con alguien que trabaje con lo que aparece.
+
+### ¿Hay que saber bailar para hacer DMT?
+No. El movimiento es el material de trabajo, no una exhibición: nadie baila para que lo miren. Se observa cómo se mueve el grupo, qué se imita o se evita, y a partir de eso el profesional propone y acompaña.
+
+### ¿Qué evidencia tiene la danza movimiento terapia?
+Un metaanálisis de 2019 con 41 estudios controlados encontró que la DMT se asocia con menos depresión y ansiedad y con mejor calidad de vida y habilidades interpersonales, con un efecto pequeño y consistente. Los propios autores advierten fallas metodológicas en muchos estudios, así que hay señales favorables pero no una prueba cerrada.

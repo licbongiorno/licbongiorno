@@ -11,7 +11,7 @@ orden: 177
 estado: publicado
 respuesta: La vergüenza es una evaluación negativa del sí mismo («soy malo»), mientras que la culpa recae sobre una acción («hice algo malo»). Tangney y Dearing confirmaron la distinción y hallaron que la vergüenza se asocia con consecuencias más negativas, y la culpa, con reparar. La terapia centrada en la compasión de Paul Gilbert la trabaja directamente.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien se equivoca con un nombre en una reunión y, horas después, sigue repasando la escena. No piensa «dije algo incorrecto»: piensa «soy un desastre». Siente calor en la cara, ganas de desaparecer, y a la noche decide no hablar más en las próximas reuniones. Esa diferencia entre lo que se hizo y lo que uno cree ser es el centro de lo que la psicología llama vergüenza.
 
@@ -62,3 +62,14 @@ Para practicar la diferencia entre lo que hiciste y lo que sos, está el [labora
 La psicología social china estudió con detalle la vergüenza y el respeto con los conceptos de [mianzi y guanxi](/recursos/mianzi-y-guanxi/).
 
 Lecturas: Lewis, H. B. (1971), *Shame and Guilt in Neurosis*, International Universities Press. Tangney, J. P. y Dearing, R. L. (2002), *Shame and Guilt*, Guilford.
+
+## Preguntas frecuentes
+
+### ¿Cuál es la diferencia entre vergüenza y culpa?
+En la vergüenza la evaluación negativa recae sobre el sí mismo («soy malo»); en la culpa recae sobre una acción («hice algo malo»). Tangney y Dearing (2002) confirmaron empíricamente la distinción: la vergüenza se asoció con consecuencias más negativas y la culpa con reparar.
+
+### ¿Cómo se trabaja la vergüenza?
+Algunas pautas útiles son ponerle nombre, separar el hecho de la identidad («cometí un error» en lugar de «soy un desastre»), contarlo a alguien de confianza y practicar autocompasión. La terapia centrada en la compasión de Paul Gilbert la trabaja de manera directa.
+
+### ¿Sentir vergüenza es señal de debilidad?
+No tiene respaldo esa idea, ni la de que haya que sentir vergüenza para corregirse. La vergüenza suele empujar a ocultarse, mientras que la culpa puede motivar a reparar. Cuando viene de humillaciones, abusos o discriminación, es una huella y no un defecto de carácter, y suele requerir un espacio terapéutico seguro.

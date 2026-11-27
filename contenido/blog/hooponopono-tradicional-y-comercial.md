@@ -75,6 +75,17 @@ Si hay violencia, abuso o amenazas en una relación, la reconciliación no es un
 
 Este artículo forma parte del [mapa de las psicologías del Pacífico](/recursos/mapa-de-las-psicologias-del-pacifico/); las definiciones breves están en el [glosario de psicologías del Pacífico](/glosario-de-psicologias-del-pacifico/). Para otra práctica que mezcla tradición, familia y espiritualidad con sus límites, mirá las [constelaciones familiares](/recursos/constelaciones-familiares/), y para otra psicología con raíces en el Pacífico, [Sikolohiyang Pilipino](/recursos/sikolohiyang-pilipino/) y [Te Whare Tapa Whā](/recursos/te-whare-tapa-wha/).
 
+## Preguntas frecuentes
+
+### ¿Qué es el hoʻoponopono tradicional?
+Según lo documentado por Mary Kawena Pukui, era una reunión de la familia extendida para resolver un conflicto, con un facilitador, oración, discusión ordenada, confesión, perdón y cierre. Es una práctica colectiva y con marco religioso, no algo que se hiciera a solas ni con el pensamiento.
+
+### ¿Las frases «lo siento, perdóname, te amo, gracias» forman parte de la práctica original?
+No figuran en lo que documentó Pukui. Se popularizaron con el libro *Zero Limits* (2007), de Joe Vitale e Ihaleakala Hew Len. Repetirlas puede resultar reconfortante, como repetir una oración, pero eso no equivale a un método probado.
+
+### ¿Hay evidencia de que el hoʻoponopono cure enfermedades o traumas?
+No. Ninguna de las versiones individuales o comerciales se evaluó con ensayos clínicos que se conozcan con certeza, y el relato del pabellón psiquiátrico no tiene verificación independiente. No conviene usarlo para reemplazar un tratamiento ni para empujar a alguien a perdonar a quien le hizo daño.
+
 ## Para seguir leyendo
 
 - Pukui, M. K., Haertig, E. W. y Lee, C. A. (1972). *Nānā i ke Kumu (Look to the Source)*, vol. 1. Honolulu: Hui Hānai.

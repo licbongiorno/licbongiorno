@@ -11,7 +11,7 @@ orden: 174
 estado: publicado
 respuesta: Una fobia específica es un miedo intenso y desproporcionado a algo concreto, como animales, alturas, sangre o volar, que lleva a evitarlo. La evitación alivia a corto plazo y mantiene el miedo. La exposición gradual y voluntaria es el tratamiento con más respaldo: un metaanálisis de 33 ensayos mostró efectos grandes.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien planifica sus viajes de modo que nunca haya que tomar un avión. Otra persona rodea la cuadra para no cruzar frente a un perro. Un tercero sube por la escalera, siempre, aunque sean quince pisos. Cada rodeo parece razonable por separado; juntos, van achicando la vida. Eso es lo que suele pasar con una fobia.
 
@@ -53,3 +53,14 @@ La fobia a la sangre o a las inyecciones puede producir desmayo, porque la presi
 - [Ansiedad social](/recursos/ansiedad-social/)
 
 Lecturas: Wolitzky-Taylor, K. B., Horowitz, J. D., Powers, M. B. y Telch, M. J. (2008), «Psychological approaches in the treatment of specific phobias: a meta-analysis», *Clinical Psychology Review*, 28, 1021–1037. Öst, L.-G. (1989), «One-session treatment for specific phobias», *Behaviour Research and Therapy*, 27, 1–7.
+
+## Preguntas frecuentes
+
+### ¿Cuál es la diferencia entre miedo y fobia?
+El miedo común es útil y proporcional. La fobia específica es un miedo intenso y desproporcionado a algo concreto, con evitación o mucho malestar al enfrentarlo, que provoca sufrimiento o limita la vida cotidiana. Muchas veces la persona sabe que el miedo es exagerado y aun así no puede controlarlo.
+
+### ¿Por qué la evitación mantiene la fobia?
+Porque al evitar, la ansiedad baja enseguida y eso funciona como alivio: el cerebro aprende «me salvé». Cada evitación confirma que el peligro era real y vuelve más difícil el próximo encuentro. El miedo no se apaga porque nunca es puesto a prueba.
+
+### ¿Cómo se trabaja una fobia en terapia?
+Con exposición gradual y voluntaria: se arma junto con un profesional una lista de situaciones temidas de menor a mayor, se empieza por la más baja y se avanza paso a paso, registrando lo que pasó realmente. Un metaanálisis de 2008 mostró efectos grandes de la exposición frente a no recibir tratamiento. No se trata de enfrentar el miedo «de golpe».

@@ -11,7 +11,7 @@ orden: 157
 estado: publicado
 respuesta: Francisco Varela (1946–2001) fue un biólogo, filósofo y neurocientífico chileno. Con Humberto Maturana introdujo el concepto de autopoiesis, cofundó el Mind and Life Institute en 1987 y propuso una ciencia de la mente que dialoga con la experiencia en primera persona y con el budismo.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Imaginá a un científico en un laboratorio de neurociencia que, al terminar el día, se sienta a meditar. Y que se pregunta si lo que observa en el cerebro de otros puede dialogar con lo que él observa en su propia experiencia. Esa pregunta atravesó la obra de Francisco Varela, y la convirtió en método.
 
@@ -54,3 +54,14 @@ El diálogo entre ciencia y tradiciones contemplativas es interesante, pero la m
 Podés continuar con [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
 
 Lecturas: Varela, F. J., Thompson, E. y Rosch, E. (1991), *The Embodied Mind: Cognitive Science and Human Experience*, MIT Press. Varela, F. J. (1996), «Neurophenomenology: a methodological remedy for the hard problem», *Journal of Consciousness Studies*, 3(4), 330–349.
+
+## Preguntas frecuentes
+
+### ¿Qué es la autopoiesis?
+Es un concepto que Varela introdujo con su maestro Humberto Maturana para designar la organización propia de los seres vivos: sistemas que se producen y se mantienen a sí mismos. Es una idea de la biología teórica, no un enunciado clínico, y su aplicación a la psicología o a lo social es materia de debate.
+
+### ¿Qué propone la neurofenomenología?
+Propone unir los relatos de experiencia en primera persona con los datos de la neurociencia, de modo que cada fuente informe a la otra. Varela la presentó en 1996 como un programa metodológico. No resuelve el problema de la conciencia, sino que ofrece una forma de investigarlo.
+
+### ¿Qué fue el Mind and Life Institute?
+Es un espacio de diálogo entre ciencia y budismo que Varela cofundó en 1987. No buscaba mezclar ambos campos ni subordinar uno al otro, sino abrir un intercambio serio sobre qué puede aportar la tradición contemplativa a quienes estudian la mente con métodos científicos.

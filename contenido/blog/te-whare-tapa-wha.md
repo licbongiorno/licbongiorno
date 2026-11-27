@@ -74,6 +74,17 @@ Un modelo de cuatro paredes no sustituye la atención clínica. Si sentís un ma
 
 Este modelo se ubica dentro del [mapa de las psicologías del Pacífico](/recursos/mapa-de-las-psicologias-del-pacifico/), y las palabras maoríes están definidas en el [glosario de psicologías del Pacífico](/glosario-de-psicologias-del-pacifico/). Para otros marcos de salud con raíces en la comunidad, mirá el [mapa de los saberes psicológicos de los pueblos originarios](/recursos/mapa-de-los-saberes-psicologicos-de-los-pueblos-originarios/), [Sikolohiyang Pilipino](/recursos/sikolohiyang-pilipino/) y, sobre la discusión entre práctica tradicional y producto de mercado, [el hoʻoponopono tradicional y el comercial](/recursos/hooponopono-tradicional-y-comercial/).
 
+## Preguntas frecuentes
+
+### ¿Cuáles son las cuatro paredes de Te Whare Tapa Whā?
+Son cuatro dimensiones de una misma vida que se sostienen entre sí: *taha tinana* (el cuerpo), *taha hinengaro* (la mente y las emociones), *taha whānau* (la familia extendida) y *taha wairua* (el espíritu). Debajo está el suelo, la *whenua*, que une el territorio con el origen. Si una pared se debilita, la casa entera se resiente.
+
+### ¿Es lo mismo que el modelo biopsicosocial?
+Se parecen porque ambos piden mirar más allá del cuerpo, pero no son equivalentes. El de Engel (1977) integra lo biológico, lo psicológico y lo social desde la medicina occidental; el de Durie surge de la cultura maorí y pone lo familiar y lo espiritual en el centro.
+
+### ¿Puede usarlo cualquier persona o es solo para maoríes?
+Es un marco conceptual creado por Mason Durie y propio de la cultura maorí. Se puede tomar como inspiración para preguntarse qué dimensiones de la propia vida están descuidadas, pero presentarlo como un modelo universal probado o como un tratamiento no tiene respaldo y puede ser una forma de apropiación.
+
 ## Para seguir leyendo
 
 - Durie, M. (1985). «A Māori perspective of health». *Social Science & Medicine*, 20(5), 483-486.
