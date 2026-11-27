@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien repite que después de una pérdida tiene que pasar por cinco etapas, y que si no las cumple algo anda mal en su duelo.",
+   "p": "¿Es así el duelo?",
+   "opciones": [
+    "Sí, todos pasan por las mismas etapas en orden",
+    "No: las etapas de Kübler-Ross no son una secuencia fija",
+    "El duelo siempre se supera en seis meses"
+   ],
+   "r": "Kübler-Ross (1969) describió etapas en personas que enfrentaban su propia muerte, y se las generalizó al duelo. Worden habló de tareas del duelo, Klass, Silverman y Nickman de vínculos continuos con quien murió, y Doka de duelos desautorizados.",
+   "como": "Se llegó a esto escuchando a personas en duelo y revisando los modelos. Cicely Saunders describió el dolor total y contribuyó a los cuidados paliativos.",
+   "debate": "Se discute qué es un duelo normal y cuánto tarda. En Argentina, la Ley 26.529 regula las directivas anticipadas. No reemplaza el acompañamiento profesional."
+  }
+ ],
+ "abierta": "Si cada duelo es distinto, ¿cómo acompañar sin imponer un camino? Todavía se investiga."
+}

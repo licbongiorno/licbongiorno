@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien le tiene tanto miedo a un animal inofensivo que cambia de vereda cada vez que ve uno. Sabe que es exagerado, y aun así no puede evitarlo.",
+   "p": "¿Qué hace que el miedo se mantenga con los años?",
+   "opciones": [
+    "Que la persona es débil de carácter y no se anima a enfrentarlo",
+    "Que evitar alivia en el momento y así nunca descubre que podía soportarlo",
+    "Que el objeto temido es realmente peligroso y el cuerpo lo sabe"
+   ],
+   "r": "En las fobias específicas, evitar baja la ansiedad en el momento y por eso se refuerza: la persona nunca comprueba que el miedo cede solo. La exposición gradual, planificada paso a paso, es el tratamiento con más respaldo.",
+   "como": "El metaanálisis de Wolitzky-Taylor y colaboradores (2008), con 33 ensayos, mostró efectos grandes de la exposición frente a no tratar. Se llegó a eso comparando grupos tratados con grupos en lista de espera.",
+   "debate": "No siempre conviene hacerla sola: con problemas cardíacos, embarazo, fobia a la sangre con desmayos o miedo muy intenso, se recomienda hacerla con un profesional. Y se discute cómo explicar mejor por qué funciona."
+  }
+ ],
+ "abierta": "Si exponerse enseña que el miedo baja, ¿qué es exactamente lo que se aprende: que no pasa nada, o que se puede tolerar? Los investigadores todavía lo debaten."
+}

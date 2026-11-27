@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una reunión notás que el ambiente se puso raro, aunque nadie dijo nada. Algunas personas lo captan al instante y otras no se enteran.",
+   "p": "¿Qué hay detrás de esa habilidad?",
+   "opciones": [
+    "Un don con el que se nace y que no se puede entrenar",
+    "Atención a señales no verbales, y también la tendencia a suponer cosas",
+    "Pura timidez que hace que uno se fije en todo"
+   ],
+   "r": "El nunchi es un concepto cultural coreano: la capacidad de leer el ambiente. La psicología lo estudia bajo otros nombres, como percepción social y mentalización. También advierte sobre los límites: suponer sin chequear puede volverse proyección o hipervigilancia.",
+   "como": "El nunchi en sí no tiene investigación propia; lo que sí tiene estudios es la percepción social y la mentalización. Por eso el laboratorio separa percepción, suposición y proyección.",
+   "debate": "Se discute qué tan universal es y dónde termina la empatía y empieza la complacencia. No es un tratamiento."
+  }
+ ],
+ "abierta": "Si leer el ambiente puede ayudar y también agotar, ¿cuánto de eso conviene chequear preguntando? Es una pregunta que sigue abierta."
+}

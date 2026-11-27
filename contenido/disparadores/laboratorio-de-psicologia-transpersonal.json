@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay momentos de la vida, mirando un paisaje o al nacer un hijo, en los que sentís algo más grande que vos. No sabés cómo llamarlo.",
+   "p": "¿Cómo lo estudia la psicología?",
+   "opciones": [
+    "Como algo que no le corresponde estudiar",
+    "Como experiencias que se pueden describir y ubicar en un mapa",
+    "Solo como un síntoma"
+   ],
+   "r": "La psicología transpersonal estudia experiencias de plenitud o trascendencia. Maslow habló de experiencias cumbre, Assagioli de las subpersonalidades, Wilber propuso niveles prepersonal, personal y transpersonal, y Grof estudió estados no ordinarios.",
+   "como": "Surgió de la psicología humanista y de la observación clínica, con relatos de experiencias y modelos teóricos.",
+   "debate": "Se discute cuánto es ciencia y cuánto filosofía, y se cuestiona confundir lo prepersonal con lo transpersonal. Los ejercicios no son un tratamiento."
+  }
+ ],
+ "abierta": "Si esas experiencias son tan frecuentes, ¿qué lugar les damos en una vida sana? Es una pregunta abierta."
+}

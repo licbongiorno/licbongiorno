@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un niño no puede dormir sin su osito de peluche, y se enoja si se lo lavan. Los adultos se ríen, pero para él es importante de verdad.",
+   "p": "¿Qué cumple ese objeto?",
+   "opciones": [
+    "Es un simple capricho que conviene sacar",
+    "Lo ayuda a atravesar la separación y a calmarse solo",
+    "Muestra que el chico es demasiado dependiente"
+   ],
+   "r": "Winnicott llamó objeto transicional a ese objeto que ayuda a pasar de la dependencia total a la autonomía. El laboratorio también trabaja con la asociación libre de Freud, la función contenedora de Bion y la experiencia de ser comprendido de Kohut.",
+   "como": "Estas ideas nacieron de la observación clínica, con niños y con adultos en tratamiento, más que de experimentos controlados.",
+   "debate": "Se discute qué evidencia tienen y cómo se las pone a prueba, porque nacieron de la clínica. Los ejercicios son una introducción, no un tratamiento."
+  }
+ ],
+ "abierta": "Si un objeto puede sostener a un niño en un momento difícil, ¿qué cumple ese papel en la vida adulta? Es una pregunta abierta."
+}

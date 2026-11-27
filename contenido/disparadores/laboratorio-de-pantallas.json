@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tu hijo adolescente pasa horas en redes y se lo ve de mal humor. La explicación parece obvia: las pantallas le hacen mal.",
+   "p": "¿Qué dice la investigación?",
+   "opciones": [
+    "Que las pantallas dañan fuerte el bienestar de todos los jóvenes",
+    "Que hay asociaciones pequeñas con el bienestar y las causas siguen en debate",
+    "Que no tienen ningún efecto sobre el ánimo"
+   ],
+   "r": "Orben y Przybylski (2019) analizaron grandes bases de datos y encontraron asociaciones muy pequeñas entre el uso de tecnología y el bienestar de adolescentes. Importa qué se hace con la pantalla y qué se deja de hacer: dormir, moverse, encontrarse.",
+   "como": "Hunt y colaboradores (2018) hicieron un experimento en el que un grupo limitó el uso de redes a unos minutos por día durante varias semanas, y observaron menos soledad y depresión. El laboratorio propone un experimento personal de una semana inspirado en ese trabajo.",
+   "debate": "Hay un debate abierto sobre las causas: puede que el mal ánimo lleve a usar más las redes, y no al revés. Varios estudios son correlacionales."
+  }
+ ],
+ "abierta": "Si los efectos medios son chicos pero algunas personas sufren mucho, ¿quiénes son las más vulnerables y por qué? Todavía se investiga."
+}

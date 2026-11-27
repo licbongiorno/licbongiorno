@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una amiga te dice que te quiere mucho y que por eso te cuenta algo que te va a doler. Tenés que sostener las dos cosas a la vez.",
+   "p": "¿Es lo mismo en todas las culturas?",
+   "opciones": [
+    "Sí, todos razonamos igual frente a las contradicciones",
+    "No: algunas culturas toleran mejor que ambas cosas sean ciertas",
+    "Solo cambia en personas muy cultas"
+   ],
+   "r": "Peng y Nisbett (1999) mostraron que personas de China y de Estados Unidos razonaban distinto frente a la contradicción: las primeras tendían a buscar lo válido en ambas posturas. Y la terapia dialéctico-conductual de Linehan trabaja con la aceptación y el cambio a la vez.",
+   "como": "Se llegó a eso con estudios comparativos entre culturas, usando proverbios y argumentos enfrentados. Linehan lo llevó a la clínica.",
+   "debate": "Se discute cuánto de esas diferencias es cultura y cuánto contexto, y no hay que tomarlas como estereotipos. No es un tratamiento."
+  }
+ ],
+ "abierta": "Si sostener una contradicción cuesta, ¿cuánto se puede entrenar? Todavía se investiga."
+}

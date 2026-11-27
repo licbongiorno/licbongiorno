@@ -1,0 +1,18 @@
+{
+ "autor": "Moreno",
+ "preguntas": [
+  {
+   "enigma": "Estás por tener una conversación difícil con alguien. La ensayás mentalmente, pero cuando llega el momento te trabás.",
+   "p": "¿Por qué ayuda ponerse en escena?",
+   "opciones": [
+    "Porque actuar siempre sale mejor que pensar",
+    "Porque actuar permite probar roles y ver la situación desde afuera",
+    "Porque solo funciona en grupo con público"
+   ],
+   "r": "Jacob Levy Moreno creó el psicodrama: se representa una escena con un protagonista, un director, yos auxiliares, un escenario y un auditorio, en tres fases (caldeamiento, dramatización y compartir). Técnicas como la inversión de roles permiten ponerse en el lugar del otro.",
+   "como": "Moreno lo desarrolló a partir del teatro de la espontaneidad y de su práctica clínica con grupos.",
+   "debate": "Se practica en grupo con un director formado. Los ejercicios del laboratorio son una introducción escrita, y la evidencia de eficacia varía según el formato y los grupos."
+  }
+ ],
+ "abierta": "Si ponerse en el lugar del otro en escena cambia cómo lo vemos, ¿cuánto de eso se mantiene después? Todavía se estudia."
+}

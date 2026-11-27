@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Sabés que dejar el trámite para mañana te va a perjudicar, y aun así lo dejás. Te prometés que mañana sí.",
+   "p": "¿Por qué postergamos aun sabiéndolo?",
+   "opciones": [
+    "Por pura falta de organización",
+    "Porque nos alivia el ánimo en el momento aunque cueste después",
+    "Porque somos vagos de nacimiento"
+   ],
+   "r": "Piers Steel (2007) definió la procrastinación como el retraso voluntario de algo que pensamos hacer aun sabiendo que nos va a perjudicar. Sirois y Pychyl (2013) propusieron que es una forma de reparar el ánimo a corto plazo: se evita la emoción incómoda de la tarea.",
+   "como": "Se llegó a esto con encuestas y estudios longitudinales sobre procrastinación, y relacionándola con la regulación emocional.",
+   "debate": "Se discute cuánto es problema de tiempo y cuánto de emociones, y cuánto pesa la impulsividad. El perdón a uno mismo se estudió como un posible aliado."
+  }
+ ],
+ "abierta": "Si postergar alivia hoy y cuesta mañana, ¿qué ayuda más a cuidar al yo futuro? Todavía se investiga."
+}

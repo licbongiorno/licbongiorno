@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien tiene una pesadilla repetida desde hace meses. Cada noche teme dormirse, y cada vez que despierta se queda en alerta.",
+   "p": "¿Se puede cambiar una pesadilla que se repite?",
+   "opciones": [
+    "No, los sueños no se pueden tocar",
+    "Sí: ensayando despierto un final distinto y practicándolo",
+    "Solo si se la evita con pastillas"
+   ],
+   "r": "El ensayo en imaginación consiste en reescribir el final de una pesadilla repetida y ensayar la nueva versión despierto. Se complementa con un anclaje para volver al presente al despertar y con un registro de la preocupación antes de dormir.",
+   "como": "Krakow y su equipo (2001) probaron el ensayo en imaginación con personas con pesadillas crónicas y observaron menos pesadillas y mejor sueño en el grupo tratado.",
+   "debate": "Se discute por qué funciona y para quién. Si las pesadillas se vinculan a un trauma, conviene acompañamiento profesional."
+  }
+ ],
+ "abierta": "Si cambiar el final despierto modifica lo que sueña la mente dormida, ¿cómo ocurre eso? Todavía se investiga."
+}

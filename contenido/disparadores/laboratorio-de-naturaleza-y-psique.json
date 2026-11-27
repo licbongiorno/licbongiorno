@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos pacientes se recuperan de la misma operación. A uno le tocó una habitación con ventana a un árbol, y al otro una con vista a una pared.",
+   "p": "¿Qué diferencia creés que hubo?",
+   "opciones": [
+    "Ninguna, porque el paisaje no puede influir en la recuperación",
+    "El de la ventana al árbol tuvo una recuperación algo mejor",
+    "El de la pared se recuperó mejor porque se distrajo menos"
+   ],
+   "r": "Ulrich (1984) comparó pacientes de cirugía con vista a un árbol y a una pared, y los del árbol tuvieron estadías algo más cortas y usaron menos analgésicos. Los Kaplan propusieron que la naturaleza descansa la atención.",
+   "como": "Se llegó a eso comparando grupos en un hospital real. Hoy se suman estudios sobre caminar en entornos verdes (Bratman) y sobre vínculos con animales y duelo ecológico.",
+   "debate": "La evidencia es prometedora pero mayormente chica, de corto plazo u observacional, y el laboratorio lo aclara en cada estación. Cuesta separar el efecto de la naturaleza del de moverse o estar acompañado."
+  }
+ ],
+ "abierta": "Si la naturaleza hace bien, ¿es por el verde, por el silencio, por el movimiento o por lo que significa para cada uno? Se sigue estudiando."
+}
