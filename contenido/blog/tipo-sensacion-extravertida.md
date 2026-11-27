@@ -11,7 +11,7 @@ orden: 73
 estado: publicado
 respuesta: En la tipología de Carl Gustav Jung, el tipo sensación extravertida es aquel cuya función principal es sensación con una actitud extravertida. Su función inferior, la menos desarrollada, es intuición introvertida. En la notación popular de cuatro letras, se asocia con ESTP y ESFP, aunque esa notación no es de Jung.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Disfruta una comida, un paisaje o una canción como si fuera la primera vez. Reacciona rápido cuando pasa algo, tiene los pies en la tierra y no pierde el tiempo con especulaciones. Lo que otros llaman superficialidad es, muchas veces, una forma intensa de estar en el presente. Y, a veces, le cuesta quedarse con lo que no se ve.
 
@@ -52,6 +52,26 @@ En terapia, el trabajo suele ser abrirse al mundo interior, a los sueños y a la
 
 Si querés explorar tu tipo, podés hacer el [test de tipos psicológicos](/test-de-tipos-psicologicos/). Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
 
+## Una escena que se repite
+
+Un joven de unos veintiocho años llega derivado por su familia: «vive a mil». Disfruta del deporte, de las salidas, de armar cosas con las manos, y es el primero en resolver una urgencia. Cuando se le pregunta por lo que busca, o por lo que siente cuando se queda solo un domingo a la tarde, se queda sin palabras y cambia de tema. Un día cuenta que soñó con un viejo en una biblioteca y que se despertó inquieto sin saber por qué. La viñeta es genérica y reúne rasgos frecuentes.
+
+## Cómo se trabaja en terapia junguiana e integrativa
+
+En este caso la puerta de entrada es lo concreto. Se parte de lo que el cuerpo hace y siente y, desde ahí, se avanza de a poco hacia las preguntas de sentido. Un sueño, una imagen o un objeto que significa algo pueden funcionar mejor que una conversación abstracta. La función inferior, intuición introvertida, tiende a llegar como una sensación vaga de inquietud o de vacío, y se la va escuchando sin apuro. Cuando hay consumo o conductas de riesgo, se evalúan aparte; el [laboratorio de alcohol y consumos](/laboratorio-de-alcohol-y-consumos/) puede acompañar esa reflexión.
+
+La idea de fondo es la de Jung: la función inferior no se «corrige», se la reconoce y se la trata con respeto, porque es por donde la psique pide ampliarse. Para ubicar el recorrido completo, podés mirar el [laboratorio de complejos y tipos](/laboratorio-de-complejos-y-tipos/) y el [proceso de individuación](/recursos/el-proceso-de-individuacion/).
+
+## Matices y límites
+
+Es importante no confundir este tipo con impulsividad o con falta de profundidad: muchas personas con sensación extravertida tienen una enorme sensibilidad para lo que pasa en una sala. Del mismo modo, una conducta de riesgo sostenida no se explica por una tipología y merece una mirada clínica propia. En cuanto a la evidencia, la búsqueda de sensaciones es un rasgo estudiado en psicología de la personalidad, pero su relación con el tipo junguiano no está demostrada.
+
+## Jung y el MBTI: no es lo mismo
+
+Es frecuente que alguien llegue a estos textos desde un resultado de cuatro letras, como ESTP y ESFP. Conviene distinguir dos cosas. La tipología de Jung (1921) describe ocho tipos como orientaciones de la conciencia, surgidas de su práctica clínica y pensadas como una brújula, no como un casillero. El MBTI, en cambio, es un cuestionario desarrollado por Isabel Briggs Myers y Katharine Briggs a mediados del siglo XX, inspirado en Jung, pero que no es de Jung: agrega una dimensión propia (juicio/percepción), organiza dieciséis tipos y los mide con preguntas de autoinforme.
+
+Desde la psicometría, el MBTI recibió críticas serias: las dimensiones se tratan como categorías cuando los puntajes suelen distribuirse de forma continua, una proporción considerable de personas obtiene otro tipo al repetir la prueba semanas después, y su capacidad para predecir el desempeño laboral o el éxito en una carrera es limitada. Los modelos de rasgos, como el de los cinco grandes, tienen mucho mejor respaldo empírico. Por eso el código de cuatro letras sirve, como mucho, de referencia aproximada; no de diagnóstico ni de etiqueta.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el tipo sensación extravertida según Jung?
@@ -65,6 +85,10 @@ Es intuición introvertida: la función menos desarrollada, por donde suele desb
 ### ¿A qué tipo de cuatro letras corresponde el sensación extravertida?
 
 Se asocia con ESTP y ESFP en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+
+### ¿El MBTI sirve para saber mi tipo junguiano?
+
+Solo como una aproximación. El MBTI no es de Jung y tiene limitaciones psicométricas conocidas. Si te interesa la mirada de Jung, es más útil leer las descripciones, preguntarte cuál te resuena y conversarlo, que fiarte del resultado de un cuestionario.
 
 ## Para seguir leyendo
 

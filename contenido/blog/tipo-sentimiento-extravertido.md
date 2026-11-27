@@ -11,7 +11,7 @@ orden: 71
 estado: publicado
 respuesta: En la tipología de Carl Gustav Jung, el tipo sentimiento extravertido es aquel cuya función principal es sentimiento con una actitud extravertida. Su función inferior, la menos desarrollada, es pensamiento introvertido. En la notación popular de cuatro letras, se asocia con ESFJ y ENFJ, aunque esa notación no es de Jung.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Se da cuenta enseguida de que alguien está incómodo en una reunión y lo hace sentir parte. Se acuerda de los cumpleaños de todos, sabe qué decir en un velorio, sostiene el clima de un grupo. Hay quien lo confunde con ser complaciente. Y, a veces, se pierde un poco en lo que los demás esperan.
 
@@ -52,6 +52,26 @@ En terapia, el trabajo suele ser distinguir lo propio de lo que el entorno esper
 
 Si querés explorar tu tipo, podés hacer el [test de tipos psicológicos](/test-de-tipos-psicologicos/). Recordá que es una herramienta de autoconocimiento, no un diagnóstico ni una etiqueta. Y si algo de esto te resonó, podés escribirme.
 
+## Una escena que se repite
+
+Una mujer de cuarenta años consulta por cansancio. Es la que organiza los cumpleaños, la que sabe quién está pasando un mal momento y la que atiende todos los llamados. Cuando le preguntan qué opina de algo, contesta lo que cree que el otro necesita escuchar. Un día, en sesión, dice: «no sé qué pienso yo». La viñeta es genérica y reúne rasgos habituales.
+
+## Cómo se trabaja en terapia junguiana e integrativa
+
+La terapia no pide que deje de cuidar. Pide que aparezca su propia voz en el medio. Se trabaja con preguntas simples («¿qué me parece a mí?») y con pequeñas pruebas de decir que no. Se reconocen los límites y el cansancio como información. La función inferior, pensamiento introvertido, suele aparecer como una crítica interna dura o como ideas fijas que no se animan a decirse. El [laboratorio de asertividad](/laboratorio-de-asertividad/) acompaña ese camino, y el de [vínculos](/laboratorio-de-vinculos/) también.
+
+La idea de fondo es la de Jung: la función inferior no se «corrige», se la reconoce y se la trata con respeto, porque es por donde la psique pide ampliarse. Para ubicar el recorrido completo, podés mirar el [laboratorio de complejos y tipos](/laboratorio-de-complejos-y-tipos/) y el [proceso de individuación](/recursos/el-proceso-de-individuacion/).
+
+## Matices y límites
+
+Hay que evitar leer este tipo como «el que siempre ayuda». Para Jung, el sentimiento es una función de juicio, no una emoción desbordada, y puede ser muy discriminado. Además, complacer en exceso puede relacionarse con [dependencia emocional](/recursos/dependencia-emocional/) o con experiencias tempranas, y en ese caso la tipología solo sirve de contexto, no de explicación. No hay investigación que valide el tipo tal como lo describió Jung.
+
+## Jung y el MBTI: no es lo mismo
+
+Es frecuente que alguien llegue a estos textos desde un resultado de cuatro letras, como ESFJ y ENFJ. Conviene distinguir dos cosas. La tipología de Jung (1921) describe ocho tipos como orientaciones de la conciencia, surgidas de su práctica clínica y pensadas como una brújula, no como un casillero. El MBTI, en cambio, es un cuestionario desarrollado por Isabel Briggs Myers y Katharine Briggs a mediados del siglo XX, inspirado en Jung, pero que no es de Jung: agrega una dimensión propia (juicio/percepción), organiza dieciséis tipos y los mide con preguntas de autoinforme.
+
+Desde la psicometría, el MBTI recibió críticas serias: las dimensiones se tratan como categorías cuando los puntajes suelen distribuirse de forma continua, una proporción considerable de personas obtiene otro tipo al repetir la prueba semanas después, y su capacidad para predecir el desempeño laboral o el éxito en una carrera es limitada. Los modelos de rasgos, como el de los cinco grandes, tienen mucho mejor respaldo empírico. Por eso el código de cuatro letras sirve, como mucho, de referencia aproximada; no de diagnóstico ni de etiqueta.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es el tipo sentimiento extravertido según Jung?
@@ -65,6 +85,10 @@ Es pensamiento introvertido: la función menos desarrollada, por donde suele des
 ### ¿A qué tipo de cuatro letras corresponde el sentimiento extravertido?
 
 Se asocia con ESFJ y ENFJ en la notación popular de cuatro letras, que proviene del modelo de Myers-Briggs y no de Jung.
+
+### ¿El MBTI sirve para saber mi tipo junguiano?
+
+Solo como una aproximación. El MBTI no es de Jung y tiene limitaciones psicométricas conocidas. Si te interesa la mirada de Jung, es más útil leer las descripciones, preguntarte cuál te resuena y conversarlo, que fiarte del resultado de un cuestionario.
 
 ## Para seguir leyendo
 
