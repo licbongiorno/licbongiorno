@@ -11,7 +11,7 @@ orden: 188
 estado: publicado
 respuesta: Eugene Gendlin (1926-2017) fue un filósofo y psicólogo que trabajó con Carl Rogers. Llamó sensación sentida a un saber corporal, difuso, que aparece antes de tener palabras, y creó el focusing, un método para escucharla y dejar que la palabra o la imagen adecuada aparezca. Publicó Focusing en 1978, y su aporte forma parte de la psicoterapia centrada en el cliente y de la psicología corporal.
 menciona: rogers
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Hay momentos en que sabemos que algo nos pesa, pero no sabemos qué es. Sentimos un nudo en el estómago, una presión en el pecho, y la mente da vueltas sin encontrar la palabra. Eugene Gendlin estudió qué pasaba en esos momentos en la terapia, y descubrió algo que cambió la manera de trabajar: las personas que mejor cambiaban eran las que se detenían a sentir el cuerpo antes de hablar.
 
@@ -53,6 +53,26 @@ El respaldo viene sobre todo de la psicoterapia experiencial y de la Escala de E
 ## Un cuidado
 
 Prestar atención a una sensación corporal puede abrir material difícil. Si lo que aparece desborda, no hace falta seguir: se puede volver a notar los pies en el suelo, la respiración y el entorno. Para temas muy dolorosos o traumáticos, es más prudente hacerlo con un terapeuta que conozca el método.
+
+## De la filosofía a la psicoterapia
+
+Gendlin nació en Viena en 1926, y su familia huyó del nazismo cuando él era chico. Se formó en filosofía en la Universidad de Chicago, donde enseñó durante décadas, y a la vez se interesó por la psicoterapia. En los años sesenta participó, junto a Rogers, del proyecto de Wisconsin, que estudió la terapia con personas diagnosticadas con esquizofrenia. De esos años salió la Escala de Experiencing, que permite medir cuánto se refiere una persona a su experiencia sentida mientras habla.
+
+En 1996 publicó *Focusing-Oriented Psychotherapy*, donde propuso cómo llevar la sensación sentida al corazón de cualquier terapia, sin necesidad de aplicar el focusing como técnica aislada. Siguió además una línea filosófica propia, sobre cómo el cuerpo y el lenguaje se involucran en el pensar.
+
+## Los pasos, a grandes rasgos
+
+El libro de 1978 propone una secuencia de seis movimientos: despejar un espacio, formarse una sensación sentida sobre una situación, encontrar un «asidero» (una palabra o imagen), resonar con él para ver si encaja, preguntarle a la sensación qué es lo que necesita y recibir con amabilidad lo que surja. No es una receta rígida: el propio Gendlin insistía en que se adapta a cada persona, y que el paso decisivo es un cierto modo de atención, receptiva y sin apuro.
+
+## Su influencia hoy
+
+El focusing se enseña en todo el mundo, con una comunidad internacional de formadores, y su idea de la sensación sentida atraviesa muchas terapias. Se parece en algunos aspectos a prácticas de mindfulness y de interocepción, aunque tiene su propio sello: no se trata solo de observar el cuerpo, sino de dialogar con lo que aparece hasta que la palabra encaja. Para relacionarlo con lo que se investiga hoy, leé [interocepción](/recursos/interocepcion/) y [escritura expresiva](/recursos/escritura-expresiva/).
+
+## Matices y límites
+
+- **Hay que distinguir la práctica de la teoría filosófica.** La obra filosófica de Gendlin, sobre el cuerpo y el lenguaje, es compleja y tiene su propio recorrido, que no hace falta conocer para practicar focusing.
+- **No es la única forma de sentir el cuerpo.** Hay personas que, por trauma o por estilo, se sienten mejor con otras entradas, como el movimiento o el contacto con el entorno.
+- **Puede no encajar en un momento.** Cuando hay mucha angustia o disociación, la atención interna puede aumentar el malestar. Ahí conviene ir de a poco y con apoyo profesional. Para más sobre este punto, leé [El cuerpo lleva la cuenta](/recursos/el-cuerpo-lleva-la-cuenta/).
 
 ## Preguntas frecuentes
 

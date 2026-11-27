@@ -11,7 +11,7 @@ orden: 129
 estado: publicado
 respuesta: Iván Pávlov (1849-1936) fue un fisiólogo ruso, premio Nobel de Medicina en 1904 por sus estudios sobre la digestión. Al investigar la salivación de los perros descubrió el condicionamiento clásico: un estímulo neutro, como un sonido, que se presenta repetidamente antes de la comida termina provocando por sí solo la respuesta. Su trabajo es una de las bases de la psicología del aprendizaje y de las terapias para los miedos.
 menciona: pavlov, ansiedad
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 No, no es que Pávlov haya querido estudiar la mente. Era fisiólogo, investigaba cómo funciona la digestión, y lo que descubrió fue casi un accidente: sus perros empezaban a salivar antes de recibir la comida, apenas oían los pasos de quien se la traía. Pávlov no descartó esa «interferencia». La estudió durante treinta años.
 
@@ -48,6 +48,29 @@ El condicionamiento clásico ayuda a entender por qué un lugar, un olor o una s
 En la consulta, esta idea ayuda a muchas personas a entender que su miedo no es «irracional» sin más: es un aprendizaje, y lo aprendido puede reaprenderse. Podés ver la escalera de exposición en el [laboratorio de ansiedad](/laboratorio-de-ansiedad/) o leer sobre [la ansiedad](/recursos/ansiedad-cuando-el-cuerpo-habla/).
 
 Para ubicar a Pávlov en la historia de la psicología rusa y soviética, mirá el [mapa de la psicología rusa](/recursos/mapa-de-la-psicologia-rusa/). Sus antecedentes y su rival contemporáneo están en [Séchenov y Béjterev](/recursos/sechenov-y-bejterev/).
+
+## Cómo hizo su descubrimiento
+
+Pávlov trabajaba con perros a los que se les hacía una pequeña abertura quirúrgica para medir con precisión la saliva y los jugos gástricos, y poder estudiar la digestión sin sacrificar al animal. Sus asistentes notaron que las secreciones aparecían antes de que la comida llegara, y las llamaron «secreciones psíquicas». Pávlov entendió que ahí había un fenómeno digno de estudio. A partir de 1901 empezó a investigarlo de forma sistemática.
+
+Un detalle: la imagen de la campana es la que quedó en la cultura popular, pero en los experimentos usó también metrónomos, timbres, luces y otros estímulos.
+
+## Un ejemplo cotidiano
+
+Alguien tuvo un accidente de tránsito en una esquina. Meses después, aun sabiendo que ahora no hay peligro, el cuerpo se tensa cada vez que pasa por ahí o escucha una frenada. Pávlov no habló de esto, pero su modelo da un lenguaje para entenderlo: la esquina y el sonido se asociaron con el susto, y el cuerpo responde a la asociación como si el peligro siguiera ahí. Otro ejemplo, más liviano: el sonido de una notificación que te da un pequeño salto de ansiedad aunque no sepas todavía de quién es.
+
+## Su influencia en la clínica
+
+Las terapias de exposición, que son parte de los tratamientos más usados para fobias, trastorno de pánico y estrés postraumático, se apoyan en este modelo. Hoy se entiende que la extinción no borra lo aprendido, sino que crea un aprendizaje nuevo («acá no pasa nada») que compite con el anterior, y por eso las respuestas pueden volver bajo estrés o en otros contextos. Esa idea ayuda a explicar las recaídas y a planear la exposición con variedad de situaciones.
+
+Pávlov también propuso que el lenguaje funciona como un «segundo sistema de señales»: una palabra puede disparar respuestas del organismo como lo hacía la campana. Es una intuición que conecta con lo que después estudió la psicología cognitiva. Para seguir, leé sobre [las fobias](/recursos/fobias/), la [terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/) y a [B. F. Skinner](/recursos/b-f-skinner/), que estudió el otro gran tipo de condicionamiento.
+
+## Matices y límites
+
+- **Es un modelo de laboratorio.** Explica bien algunos aprendizajes, pero la mayor parte de nuestra vida emocional incluye interpretaciones, memoria y contexto que no caben en la asociación simple.
+- **No alcanza con que dos cosas ocurran juntas.** Desde los trabajos de Robert Rescorla, en 1967, se sabe que importa si un estímulo *predice* al otro, no solo si coinciden en el tiempo.
+- **No todos los miedos se aprenden así.** Hay miedos por observación, por lo que nos contaron o por predisposiciones. La explicación de Pávlov es una parte del cuadro.
+- **No hay que confundirlo con el conductismo posterior.** Pávlov era fisiólogo y pensaba en el cerebro. Su trabajo fue luego adoptado por otras escuelas con fines distintos.
 
 ## Preguntas frecuentes
 

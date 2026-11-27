@@ -11,7 +11,7 @@ orden: 114
 estado: publicado
 respuesta: James Hillman (1926-2011) fue un psicólogo y analista junguiano estadounidense, creador de la psicología arquetipal. Propuso volver a poner el alma en el centro de la psicología, trabajar con las imágenes tal como aparecen, sin traducirlas a conceptos, y entender los síntomas como expresiones del alma. En El código del alma presentó la teoría de la bellota: cada vida trae una imagen propia que pide ser vivida.
 menciona: hillman, jung, psicologia-analitica
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Curar, adaptar, normalizar: así resume buena parte de la psicología moderna su objetivo. James Hillman se animó a discutirlo. Para él, la depresión, la fantasía o el fracaso también son formas en que el alma se expresa, y antes de corregirlas vale la pena escucharlas.
 
@@ -44,6 +44,25 @@ En *El código del alma*, Hillman propuso que cada persona trae al nacer una ima
 Hillman influyó en la psicología, pero también en la literatura, el arte y la ecología. Su crítica a una psicoterapia centrada solo en el individuo y en la adaptación sigue siendo una pregunta abierta.
 
 En la consulta, su consejo de quedarse con la imagen me resulta muy valioso: antes de explicar un sueño, recorrerlo, verlo, sentir su atmósfera. Y su idea de vocación ayuda a pensar qué pide ser vivido en cada historia. Podés seguir con [los símbolos según Jung](/recursos/los-simbolos-segun-jung/) o con [la imaginación activa](/recursos/imaginacion-activa/).
+
+## Una psicología que discute con la psicología
+
+Hillman llegó al análisis junguiano desde dentro y, ya director de estudios en Zúrich, sintió que parte de la tradición se estaba volviendo demasiado centrada en el yo, el desarrollo y la «salud». En los años setenta, con *Re-imaginar la psicología*, propuso mirar al revés: no preguntarse cómo hacer para que la imagen sirva al yo, sino qué pide la imagen. Participó de las conferencias de Eranos, en Suiza, donde se reunían pensadores de la psicología y de la historia de las religiones, y escribió sobre mito, ciudad, belleza y trabajo. Su idea de que el alma está también en el mundo influyó en la ecopsicología, una corriente que cuestiona la separación entre la salud de la persona y la salud del entorno.
+
+## Un ejemplo cotidiano
+
+Una persona sueña, una y otra vez, con una casa que tiene una habitación cerrada. La reacción más frecuente es preguntar «¿qué significa?». Hillman proponía hacer una pausa antes de la interpretación: ¿cómo es esa habitación?, ¿qué luz tiene?, ¿qué se siente en la puerta? Si uno se queda un rato con la imagen, a veces surge algo que ninguna explicación habría dado. Esa actitud, que él llamaba «quedarse con la imagen», es útil más allá de los sueños: con un recuerdo, con un síntoma, con una escena que vuelve.
+
+## Su influencia hoy
+
+Su mirada alimentó el trabajo con sueños, imágenes y relatos en terapias de orientación junguiana y en terapias expresivas. Desde la lectura de la vocación, ayudó a muchas personas a mirar su vida como algo que tiene un sentido singular y no solo como una serie de síntomas a resolver. También influyó en la manera de hablar de la depresión y de la crisis como momentos en los que algo se está pidiendo. Para seguir esa línea, leé [los sueños según Jung](/recursos/los-suenos-segun-jung/), [mitos y cuentos en Jung](/recursos/mitos-y-cuentos-jung/) y [psicología de la naturaleza](/recursos/psicologia-de-la-naturaleza/).
+
+## Matices y límites
+
+- **Es una propuesta filosófica y clínica, no un método con evidencia.** La psicología arquetipal no se estudió con ensayos controlados ni pretende hacerlo. Es una manera de leer la experiencia, y su valor se juzga por lo que abre en cada caso.
+- **No hay que romantizar el sufrimiento.** Que un síntoma «tenga algo que mostrar» no significa que no haya que tratarlo. Una depresión grave, pensamientos suicidas o un cuadro psiquiátrico requieren atención profesional. Leé [depresión: señales y tratamiento](/recursos/depresion-senales-y-tratamiento/) y [prevención del suicidio](/recursos/prevencion-del-suicidio/).
+- **La teoría de la bellota puede leerse como destino.** Hillman habla de un llamado, no de un guion fijo, pero tomada de forma literal puede llevar a creer que todo estaba escrito. Es mejor entenderla como una imagen para pensar la vocación.
+- **Sus críticas a la psicoterapia no son una invitación a abandonarla.** Cuestionaba sus supuestos, no su valor.
 
 ## Preguntas frecuentes
 

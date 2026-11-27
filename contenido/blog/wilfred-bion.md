@@ -11,7 +11,7 @@ orden: 104
 estado: publicado
 respuesta: Wilfred Bion (1897-1979) fue un psicoanalista británico nacido en la India. Estudió los grupos y describió los supuestos básicos que los desvían de su tarea: dependencia, ataque y fuga, y emparejamiento. Después desarrolló una teoría del pensamiento: las experiencias emocionales crudas necesitan una mente que las contenga y las transforme, lo que llamó relación continente-contenido y función alfa.
 menciona: bion, melanie-klein, psicoanalisis
-revision: 2026-11-07
+revision: 2026-11-27
 ---
 ¿Qué pasa con lo que sentimos y todavía no podemos pensar? Bion tiene fama de autor difícil, pero se hizo esa pregunta tan concreta, y su respuesta tiene algo de cotidiano. Un bebé que llora de angustia necesita a alguien que reciba ese llanto, lo entienda y se lo devuelva más tolerable. De ahí, según Bion, nace la capacidad de pensar.
 
@@ -44,6 +44,27 @@ La idea de fondo es sencilla y potente: no nacemos sabiendo pensar lo que sentim
 Las ideas de Bion se usan hoy en la clínica individual, en el trabajo con grupos e instituciones y en la formación de terapeutas. Los supuestos básicos ayudan a entender por qué un equipo de trabajo o una familia a veces se traba aunque todos quieran lo mismo.
 
 En la consulta, pensar la terapia como un espacio que contiene me resulta central: muchas veces lo primero no es interpretar, sino ayudar a que lo que se siente encuentre palabras. Podés seguir con [las emociones según Jung](/recursos/las-emociones-segun-jung/), que pensó algo parecido desde otro lugar.
+
+## Los grupos, desde Northfield hasta hoy
+
+Bion y su colega John Rickman fueron los responsables del primer experimento de Northfield, en 1942: un pabellón de rehabilitación para soldados en el que, en lugar de la disciplina militar habitual, se alentaba al grupo a ocuparse de su propia tarea. Duró poco, pero abrió una línea de trabajo grupal que continuó en la Clínica Tavistock, en Londres. Ahí, en la posguerra, Bion coordinó grupos de estudio y describió los supuestos básicos que después reunió en *Experiencias en grupos* (1961).
+
+Su influencia fue grande en América Latina. En la Argentina se estudió con mucha atención, y se vincula con la tradición de los grupos operativos de Enrique Pichon-Rivière. Bion dio seminarios en Buenos Aires y en San Pablo. Para ver esa conversación, mirá [Enrique Pichon-Rivière](/recursos/enrique-pichon-riviere/) y el [laboratorio de grupo operativo](/laboratorio-grupo-operativo/).
+
+## Un ejemplo cotidiano
+
+Una reunión de trabajo en la que el equipo deriva en quejas: todos esperan que el jefe resuelva (dependencia), o se arma un enemigo en otra área (ataque y fuga), o hay una expectativa mágica de que un cambio de sistema o una nueva persona salvará todo (emparejamiento). Nadie lo propone en voz alta, pero el grupo se mueve como si lo creyera. Reconocerlo ayuda a volver a la tarea. En la vida privada, la idea de continente se ve cuando alguien, tras una mala noticia, necesita que otro simplemente lo escuche sin apurarse a dar soluciones.
+
+## Su influencia hoy
+
+La idea de que una mente puede ayudar a otra a pensar lo que no puede pensar sola está detrás de buena parte de la psicoterapia psicoanalítica actual, del trabajo con bebés y familias y de la supervisión en equipos. El concepto de continente se usa en la crianza y en la educación, a veces de forma muy libre. Tiene afinidad con lo que la psicología del desarrollo estudia como [mentalización](/recursos/la-mentalizacion/), con una base de investigación más amplia. También hay que leer a [Melanie Klein](/recursos/melanie-klein/), de quien Bion tomó, entre otras, la idea de identificación proyectiva.
+
+## Matices y límites
+
+- **Es un autor exigente.** Su escritura se volvió cada vez más abstracta y con vocación filosófica, y se leen interpretaciones diversas. Conviene empezar por los textos introductorios, como el libro de Grinberg, Sor y Tabak de Bianchedi.
+- **Son teorías clínicas, con poco respaldo experimental directo.** La función alfa y el continente son modelos para pensar lo que pasa en el vínculo, no medidas verificables. La investigación sobre cómo los cuidadores ayudan a regular y a pensar las emociones de un bebé sí apoya la idea general.
+- **«Contener» no significa callar o aguantar.** A veces el término se usa de forma laxa. Para Bion, el continente transforma lo que recibe: no es un tacho donde se guarda.
+- **Los supuestos básicos son una lectura.** Sirven como hipótesis para entender un grupo, pero no todo conflicto de equipo es un supuesto básico.
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 154
 estado: publicado
 respuesta: Karen Horney (1885-1952) fue una psiquiatra y psicoanalista alemana que trabajó en Berlín y en Estados Unidos. Discutió las ideas de Freud sobre la psicología femenina, puso el acento en la cultura y los vínculos, y describió la angustia básica, tres tendencias neuróticas —hacia, contra y lejos de los otros— y la «tiranía de los debería» que impone un yo idealizado.
 menciona: horney, freud, fromm
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 «Debería ser más productiva». «Debería no necesitar a nadie». «Debería poder con todo». Karen Horney llamó a esto la tiranía de los debería, y la describió hace más de setenta años con una precisión que todavía incomoda. También fue una de las primeras en decirle a Freud que se equivocaba sobre las mujeres.
 
@@ -44,6 +44,27 @@ Ante la angustia, Horney observó tres movimientos: ir **hacia los otros** para 
 Horney es una de las figuras que abrieron el psicoanálisis a la cultura y una precursora de la psicología feminista. Su descripción del perfeccionismo y de la autoexigencia es de las más claras que existen, y sus ideas influyeron en Albert Ellis, que la reconocía como antecedente de su trabajo sobre los «debería».
 
 En la consulta, la pregunta por los «debería» —de dónde vienen, a quién sirven— suele abrir mucho. Podés seguir con [la autoestima](/autoestima/) o con [el eneatipo 1](/recursos/eneatipo-1-perfeccionista/), muy cercano a lo que ella describió.
+
+## Un contexto de mujeres que cuestionaron
+
+Horney estudió medicina en una Alemania donde las mujeres acababan de ser admitidas en las universidades. Se formó en un ambiente psicoanalítico dominado por hombres, y empezó a escribir sus críticas a la teoría freudiana de la sexualidad femenina cuando el psicoanálisis todavía las trataba como herejías. Su argumento era que lo que Freud describía como «naturaleza femenina» reflejaba, en buena parte, cómo una sociedad patriarcal ubicaba a las mujeres. Esa mirada anticipó discusiones que después retomaron las psicólogas feministas.
+
+En Estados Unidos, en 1941, fundó la Asociación para el Avance del Psicoanálisis y un instituto propio. Escribió también un libro de autoanálisis (1942), pensado para que las personas pudieran trabajar sobre sí mismas con herramientas psicológicas, algo muy poco habitual entonces.
+
+## Un ejemplo cotidiano
+
+Alguien dice que sí a todo: a cubrir un turno, a un favor, a una reunión que no quería. Cuando por fin dice que no a algo mínimo, se siente culpable por días. Horney lo vería como un movimiento *hacia los otros* que se volvió rígido: la persona necesita agradar para sentirse a salvo, y el costo es que pierde contacto con lo que quiere. La salida no es pasar al extremo opuesto y volverse frío, sino ganar flexibilidad: poder acercarse, poder poner un límite, poder estar a solas, según lo que pida la situación.
+
+## Su influencia hoy
+
+Los «debería» de Horney reaparecen en muchas terapias contemporáneas. Albert Ellis, creador de la terapia racional emotiva, escribió sobre la «tiranía» de los «tengo que» y reconoció a Horney como antecedente. En la terapia centrada en la compasión y en la autocompasión de [Kristin Neff](/recursos/kristin-neff/), el diálogo con una voz interna exigente ocupa un lugar central. En la consulta, un buen punto de partida es preguntarse de dónde viene cada «debería» y a quién sirve. Para seguir esa línea leé sobre [la crítica interna](/recursos/la-critica-interna/), [autoexigencia y perfeccionismo](/recursos/autoexigencia-y-perfeccionismo/) y el [laboratorio de perfeccionismo](/laboratorio-de-perfeccionismo/).
+
+## Matices y límites
+
+- **Es teoría clínica, no investigación experimental.** Horney se basó en su experiencia en la consulta. Sus conceptos tienen valor descriptivo y han inspirado estudios, pero no son un modelo probado en conjunto.
+- **Algunas ideas son hijas de su tiempo.** Su descripción de «tipos» neuróticos es una guía para pensar, no una clasificación para encasillar a nadie.
+- **Las tres tendencias no son tres tipos de personas.** Casi todos nos movemos de las tres maneras según el vínculo y el momento.
+- **Una teoría de la cultura necesita seguir mirándose.** Lo que ella describió para la clase media urbana de Estados Unidos de los años treinta y cuarenta no se aplica sin más a otros contextos.
 
 ## Preguntas frecuentes
 
