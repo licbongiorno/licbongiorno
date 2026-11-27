@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "En culturas que nunca se cruzaron aparecen historias de diluvios, de héroes que bajan al infierno y de madres que protegen y devoran.",
+   "p": "¿Cómo se explican tantas historias parecidas?",
+   "opciones": [
+    "Por casualidad",
+    "Porque la psique humana comparte formas básicas de vivir ciertas experiencias",
+    "Porque todas las culturas se copiaron entre sí"
+   ],
+   "r": "Jung propuso que, debajo del inconsciente personal, hay una capa común a todos los seres humanos: el inconsciente colectivo. No es una mente compartida ni algo místico, sino predisposiciones, los arquetipos, a vivir ciertas experiencias de maneras típicas.",
+   "como": "Lo planteó a partir de la observación clínica y de la comparación de símbolos, mitos y sueños entre culturas.",
+   "debate": "Es una hipótesis teórica: la psicología experimental no la confirmó de manera general.",
+   "seccion": "El inconsciente colectivo"
+  },
+  {
+   "enigma": "Tu relación con tu mamá real es una. Pero lo que sentís a veces parece más grande que lo que pasó.",
+   "p": "¿Por qué una emoción puede ser más grande que su historia?",
+   "opciones": [
+    "Porque exageramos nuestros recuerdos",
+    "Porque lo personal se mezcla con una imagen más antigua y compartida de «la madre»",
+    "Porque en realidad no tiene nada que ver con la historia"
+   ],
+   "r": "En la vida real, las dos capas están entrelazadas: lo personal le da el nombre propio y lo colectivo, la música de fondo. Por eso a veces sentimos algo desproporcionado respecto de lo vivido.",
+   "como": "Surge de la clínica junguiana, que ayuda a distinguir cuánto de lo que sentimos es biográfico y cuánto es más amplio.",
+   "debate": "Es una forma de pensar la experiencia más que una medición: no hay estudios controlados que midan estas capas.",
+   "seccion": "Cómo distinguirlos"
+  }
+ ],
+ "abierta": "Si no podemos medir esas capas, ¿cómo saber qué parte de lo que sentimos es biográfica y qué parte compartida? Es una pregunta abierta."
+}

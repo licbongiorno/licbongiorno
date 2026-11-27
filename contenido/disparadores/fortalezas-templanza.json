@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te hicieron daño hace veinte años. Todos te dicen que hay que perdonar para sanar. Pero seguís en contacto con la persona.",
+   "p": "¿Perdonar es lo mismo que volver a confiar?",
+   "opciones": [
+    "Sí, perdonar implica reconciliarse",
+    "No: el perdón no es reconciliación ni olvido, y no obliga a volver a un vínculo",
+    "Perdonar siempre es lo mejor para uno"
+   ],
+   "r": "El perdón es dejar de ser vengativo y dar una segunda oportunidad, pero no es reconciliación ni olvido. Puede ser un proceso valioso para uno mismo, y no se le puede exigir a una víctima.",
+   "como": "Nathaniel Wade y colaboradores (2014) hicieron un metaanálisis de intervenciones para promover el perdón y vieron que las personas que las recibían perdonaban más, con un efecto moderado.",
+   "debate": "James McNulty (2011) siguió a recién casados durante cuatro años y encontró que, en quienes tendían a perdonar más, las agresiones de la pareja se mantenían, mientras que en quienes perdonaban menos tendían a disminuir.",
+   "seccion": "Perdón"
+  },
+  {
+   "enigma": "Alguien dice «soy muy humilde, no valgo mucho». Otro reconoce lo que sabe y también sus errores y límites.",
+   "p": "¿Humildad es pensar poco de uno mismo?",
+   "opciones": [
+    "Sí, es tener baja autoestima",
+    "No: es una visión ajustada de uno mismo, con apertura a otros puntos de vista",
+    "Sí, pero solo si no se nota"
+   ],
+   "r": "Tangney propuso entender la humildad no como baja autoestima sino como una visión ajustada de uno mismo: reconocer capacidades, y también errores y límites.",
+   "como": "June Price Tangney lo propuso en el año 2000. Es difícil medirla por autorreporte, porque describirse como muy humilde es poco humilde.",
+   "debate": "En el estudio de Park, Peterson y Seligman (2006), con más de cien mil personas de 54 países, la modestia, la prudencia y la autorregulación estuvieron entre las fortalezas que menos personas se atribuían: puede ser que sean más escasas, o que cueste más atribuírselas.",
+   "seccion": "Humildad"
+  }
+ ],
+ "abierta": "Si perdonar puede ayudar a uno y a la vez no cambiar la conducta del otro, ¿cuándo conviene y cuándo no? Todavía se discute."
+}

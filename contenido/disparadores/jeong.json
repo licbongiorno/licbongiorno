@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos compañeros de oficina se pasaron diez años discutiendo por todo. Él es desordenado; ella, puntillosa. Cuando a él lo trasladan, ella se sorprende llorando en el baño el último día.",
+   "p": "¿Por qué puede doler que se vaya alguien con quien nos llevábamos mal?",
+   "opciones": [
+    "Es un error: en realidad no lo quería",
+    "Porque el lazo se acumula con el tiempo compartido, más allá de que fuera bueno o malo",
+    "Es solo costumbre sin importancia"
+   ],
+   "r": "En la tradición coreana el jeong es un lazo que no aparece de golpe, sino que se acumula con el tiempo compartido. Una expresión, miun jeong, goun jeong, nombra el jeong de lo que se detesta y de lo que se quiere.",
+   "como": "Choi Sang-chin y Lee Jang-ju (1999) analizaron relatos escritos por 74 estudiantes universitarios sobre sus relaciones de jeong, y describieron relaciones de ida y vuelta y tres dimensiones de la experiencia.",
+   "debate": "Esos estudios usaron sobre todo muestras de estudiantes y están casi todos escritos en coreano. El jeong no es un concepto clínico y no se lo comparó sistemáticamente con el apego.",
+   "seccion": "El jeong de lo que se odia"
+  },
+  {
+   "enigma": "Alguien sigue en una relación que lo daña «por jeong»: lleva demasiado tiempo para dejarla.",
+   "p": "¿Un lazo largo es siempre una razón para quedarse?",
+   "opciones": [
+    "Sí, la historia compartida es lo más importante",
+    "No: el lazo acumulado no basta como razón para quedarse donde nos hacen daño",
+    "Sí, porque cortar es siempre peor"
+   ],
+   "r": "El jeong tiene riesgos: la obligación, la frontera del «nosotros» y la repetición de un patrón conocido. El lazo acumulado no es, por sí solo, una razón para quedarse donde alguien nos hace daño.",
+   "como": "Los estudios de Choi ubicaban el jeong dentro de relaciones de «nosotridad», y de ahí se desprende que todo nosotros deja a alguien afuera.",
+   "debate": "Es falso que el jeong sea un sentimiento «intraducible» que solo los coreanos pueden vivir: la palabra es coreana, pero la experiencia de quererse a fuerza de convivencia es humana.",
+   "seccion": "El lado difícil del jeong"
+  }
+ ],
+ "abierta": "Si querer por convivencia es algo humano y no solo coreano, ¿qué otras palabras de otros idiomas nombran lo mismo? Es una pregunta abierta."
+}

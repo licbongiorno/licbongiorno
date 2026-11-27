@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un chico de diecisiete años dejó de ir al colegio en marzo. Primero fueron las mañanas en la cama, después las comidas en su cuarto. Hoy hace meses que no sale, y en casa nadie sabe qué decirle.",
+   "p": "¿Qué hay detrás de que alguien se retraiga así durante tanto tiempo?",
+   "opciones": [
+    "Vagancia o falta de voluntad",
+    "Una única enfermedad con causa conocida",
+    "Un patrón que puede tener causas muy distintas y conviene evaluar una por una"
+   ],
+   "r": "El hikikomori es un patrón de conducta, no un diagnóstico: permanecer en casa la mayor parte del día y evitar la participación social durante al menos seis meses. Suele coexistir con otros cuadros, como depresión o ansiedad social.",
+   "como": "Saitō Tamaki popularizó la expresión en un libro publicado en Japón en 1998, y el Ministerio de Salud de Japón adoptó una definición en 2010.",
+   "debate": "Hay descripciones clínicas y estudios de casos, pero casi no hay ensayos controlados de tratamientos. Las cifras varían según el criterio que se use y en Argentina hay poca investigación específica.",
+   "seccion": "Por qué no es un diagnóstico"
+  },
+  {
+   "enigma": "Una chica empieza a faltar a clase después de una burla del grupo. Al principio inventa dolores. Después deja de contestar mensajes. Cada falta alivia hoy y vuelve más difícil volver mañana.",
+   "p": "¿Qué hace tan difícil volver a salir?",
+   "opciones": [
+    "La falta de ganas de hacer cosas",
+    "Una cadena de pequeñas evitaciones que se refuerzan, con mucha vergüenza",
+    "Que le gusta estar sola"
+   ],
+   "r": "El retraimiento no suele ser una decisión sino una cadena de pequeñas evitaciones que se refuerzan. La vergüenza ocupa un lugar central: la culpa dice «hice algo mal», la vergüenza dice «soy algo mal» y empuja a esconderse.",
+   "como": "Se ha descripto en la clínica y en estudios de casos. Kato, Kanba y Teo (2019) lo plantearon como una cuestión de salud mental de alcance internacional.",
+   "debate": "Muchas personas mejoran con acompañamiento sostenido, pero no hay una receta ni plazos previsibles, y lo que se sabe de las intervenciones, incluida la familiar, es preliminar.",
+   "seccion": "El rol de la vergüenza"
+  }
+ ],
+ "abierta": "Si cada familia es distinta y no hay una receta, ¿cómo se acompaña a quien no sale sin presionarlo ni dejarlo solo? Todavía se investiga."
+}

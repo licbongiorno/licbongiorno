@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos personas reciben el mismo mensaje de su jefa: la entrega se adelanta al viernes. Una siente que su puesto corre peligro. La otra lo ve como una oportunidad de lucirse.",
+   "p": "¿Por qué un mismo hecho pesa tan distinto?",
+   "opciones": [
+    "Porque una es más fuerte de carácter que la otra",
+    "Porque cada una evalúa qué está en juego y con qué recursos cree contar",
+    "Porque una de las dos exagera lo que le pasa"
+   ],
+   "r": "Lazarus y Folkman propusieron que el estrés no depende solo de lo que ocurre sino de cómo lo evalúa la persona: primero, qué está en juego; después, qué recursos tiene para enfrentarlo. El estrés se mueve en la distancia entre ambas cosas.",
+   "como": "Lo plantearon en 1984 a partir de la idea de que entre el hecho y la reacción hay una evaluación, y describieron dos momentos: la evaluación primaria y la secundaria.",
+   "debate": "Folkman y Moskowitz (2004) señalan que sigue siendo difícil medir el afrontamiento, nombrarlo y juzgar su eficacia.",
+   "seccion": "Cómo evaluamos lo que nos pasa"
+  },
+  {
+   "enigma": "Después de un día pesado ponés una serie para no pensar en nada. Un amigo dice que es evitar; otro, que es cuidarte.",
+   "p": "¿Distraerse es una mala o una buena forma de lidiar con lo que nos desborda?",
+   "opciones": [
+    "Es siempre una mala estrategia, porque evita el problema",
+    "Es siempre una buena estrategia, porque baja la tensión",
+    "Depende de la situación y de si se vuelve la respuesta a todo"
+   ],
+   "r": "Bonanno y Burton llaman «falacia de la eficacia uniforme» a suponer que una estrategia es siempre buena o siempre mala. Lo que importa es la flexibilidad: leer el contexto, tener un repertorio y cambiar si lo que hacés no funciona.",
+   "como": "Aldao, Nolen-Hoeksema y Schweizer (2010) reunieron estudios en un metaanálisis: la rumiación, la evitación y la supresión se asociaron con más síntomas; la reevaluación, la resolución de problemas y la aceptación, con menos.",
+   "debate": "Es una asociación, no una causa, y según Bonanno y Burton el efecto depende del contexto. Distraerse puede ser sensato durante una espera y poco útil si se vuelve la respuesta a todo.",
+   "seccion": "Ninguna estrategia sirve para todo"
+  }
+ ],
+ "abierta": "Si no hay una estrategia buena para todo, ¿cómo se aprende a darse cuenta, en el momento, de cuál conviene? Todavía se investiga."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te pasó alguna vez: la semana infernal por fin termina y justo ahí te agarra el resfrío.",
+   "p": "¿Puede el estrés tener algo que ver con que nos enfermemos más fácil?",
+   "opciones": [
+    "No: un resfrío depende solo de si el virus llegó o no",
+    "Sí: con la misma exposición al virus, quienes tienen más estrés enferman con más probabilidad",
+    "Sí: el estrés produce el virus dentro del cuerpo"
+   ],
+   "r": "Con el estrés sostenido se han visto cambios en la respuesta inmunitaria y mayor riesgo de algunas enfermedades. Es una asociación, no una condena: muchos factores influyen.",
+   "como": "Sheldon Cohen y colaboradores (1991) expusieron a voluntarios a un virus del resfrío y observaron que quienes reportaban más estrés psicológico tenían mayor probabilidad de enfermar. Una revisión posterior (2007) llegó a conclusiones parecidas.",
+   "debate": "Gran parte de la evidencia sobre estrés y salud es observacional, y puede mezclarse con pobreza, condiciones de trabajo o hábitos. Además, los síntomas físicos tienen muchas causas y no se atribuyen al estrés sin antes descartar causas médicas.",
+   "seccion": "Cómo puede manifestarse en el cuerpo"
+  },
+  {
+   "enigma": "Delante de un peligro, el cuerpo se prepara en segundos para huir o pelear. Ese sistema está pensado para durar poco. Pero hoy las exigencias son cuentas, cuidados, trabajo, duelos, y no se terminan en cinco minutos.",
+   "p": "¿Qué pasa cuando la alarma del cuerpo no encuentra cuándo apagarse?",
+   "opciones": [
+    "Nada: el cuerpo se acostumbra y deja de reaccionar",
+    "El cuerpo se mantiene en alerta y ese sostén tiene un costo acumulado",
+    "Se fortalece, como un músculo que se entrena"
+   ],
+   "r": "Cuando la exigencia no cesa, el sistema de respuesta al estrés no encuentra cuándo apagarse: eso es el estrés crónico. Lo que protege a corto plazo cobra su precio a largo plazo.",
+   "como": "Hans Selye describió en 1936 un «síndrome general de adaptación» ante agentes muy diversos. En 1998, el neurocientífico Bruce McEwen propuso el concepto de carga alostática para nombrar el desgaste acumulado de mantener el organismo en alerta.",
+   "debate": "La relación entre estrés, trauma y enfermedad se sigue investigando; «el cuerpo lleva la cuenta» es útil como imagen, pero no explica todo. Y no tiene respaldo pensar que quien se enferma «no supo manejar sus emociones».",
+   "seccion": "Qué es el estrés, y cuándo se vuelve crónico"
+  }
+ ],
+ "abierta": "Si el cuerpo avisa antes que la cabeza, ¿qué hace falta para aprender a escucharlo a tiempo? Es una pregunta que todavía se investiga."
+}

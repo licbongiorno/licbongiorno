@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cuando pensamos en coraje, imaginamos a alguien que entra a un edificio en llamas. Pero muchas veces el coraje es pedir ayuda después de años de callar.",
+   "p": "¿Ser valiente es no tener miedo?",
+   "opciones": [
+    "Sí: quien siente miedo no puede actuar con valentía",
+    "No: es actuar a pesar del miedo",
+    "Solo lo es cuando hay un riesgo físico"
+   ],
+   "r": "En el marco de Peterson y Seligman, la valentía es no retroceder ante la amenaza, el desafío o el dolor; no es ausencia de miedo sino actuar a pesar de él. Incluye una valentía física, una moral y una psicológica, como enfrentar una enfermedad o un duelo.",
+   "como": "Christopher Peterson y Martin Seligman publicaron en 2004 un manual que clasificó 24 fortalezas del carácter en seis virtudes.",
+   "debate": "Es de las fortalezas menos estudiadas con métodos propios, y no está claro si puede medirse bien por autorreporte: muchas personas valientes no se describen así.",
+   "seccion": "Valentía"
+  },
+  {
+   "enigma": "Alguien rinde una materia por cuarta vez. Otro insiste en un proyecto que ya no tiene sentido. Desde afuera, los dos «perseveran».",
+   "p": "¿Insistir siempre es la clave para llegar lejos?",
+   "opciones": [
+    "Sí, quien persiste siempre termina logrando lo que se propone",
+    "Persistir ayuda, pero también hay que poder soltar lo que ya no tiene sentido",
+    "No ayuda en absoluto"
+   ],
+   "r": "La perseverancia es terminar lo que se empieza a pesar de los obstáculos. Pero cuando se persiste por orgullo o por miedo a reconocer un error, deja de ser una fortaleza: saber soltar una meta también es una capacidad.",
+   "como": "Angela Duckworth popularizó el grit, mezcla de pasión y perseverancia. Credé, Tynan y Harms (2017) hicieron un metaanálisis con 88 muestras y más de 66.000 personas.",
+   "debate": "Encontraron que el grit se relacionaba solo moderadamente con el rendimiento y que era difícil de distinguir de la responsabilidad, un rasgo conocido hace décadas. Y exigir perseverancia a quien no tiene recursos puede volverse una forma de culpar a las personas.",
+   "seccion": "Perseverancia"
+  }
+ ],
+ "abierta": "Si el coraje se ve en lo que alguien hace y no en lo que dice de sí, ¿cómo se estudia sin depender de cuestionarios? Es una pregunta abierta."
+}

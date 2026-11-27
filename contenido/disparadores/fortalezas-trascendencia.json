@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay quien anota cada noche tres cosas que agradece. Se dice que esto mejora el ánimo.",
+   "p": "¿Agradecer de manera regular mejora el bienestar?",
+   "opciones": [
+    "Sí, siempre y de forma enorme",
+    "Mejora algo, sobre todo las emociones positivas, pero el efecto es modesto",
+    "No tiene ningún efecto"
+   ],
+   "r": "La gratitud es darse cuenta de lo bueno que pasa y agradecerlo. Los estudios encuentran efectos, sobre todo sobre las emociones positivas, aunque pequeños.",
+   "como": "Emmons y McCullough (2003) pidieron a grupos que anotaran motivos de agradecimiento, molestias o hechos neutros. Wood, Froh y Geraghty (2010) revisaron el campo, y Davis y colaboradores (2016) hicieron un metaanálisis.",
+   "debate": "Davis y colaboradores encontraron efectos pequeños sobre el bienestar y ninguno sobre la ansiedad, y recomendaron moderar el entusiasmo. Y exigir gratitud a quien sufre («tenés que agradecer lo que tenés») no es gratitud.",
+   "seccion": "Gratitud"
+  },
+  {
+   "enigma": "Te quedás parado frente a un cielo de tormenta o una pieza de música, sin poder explicarlo. Algo es más grande que vos.",
+   "p": "¿Qué hace falta para sentir asombro ante la belleza?",
+   "opciones": [
+    "Tener conocimientos de arte",
+    "Percibir algo vasto y necesitar acomodar lo que ya sabíamos",
+    "Estar en un estado de ánimo alegre"
+   ],
+   "r": "La apreciación de la belleza sería la disposición a tener esas experiencias con frecuencia. Incluye admirar lo que otros hacen bien.",
+   "como": "Dacher Keltner y Jonathan Haidt (2003) propusieron un modelo del asombro con dos rasgos: la percepción de algo vasto y la necesidad de acomodar la experiencia porque no entra en lo que ya se sabía.",
+   "debate": "Puede volverse esnobismo o desprecio por lo que no alcanza cierto estándar, o transformar la admiración en comparación y desvalorización propia.",
+   "seccion": "Apreciación de la belleza y la excelencia"
+  }
+ ],
+ "abierta": "Si estas fortalezas se asocian con una vida con sentido, ¿se pueden entrenar sin que resulten impuestas? Es una pregunta abierta."
+}

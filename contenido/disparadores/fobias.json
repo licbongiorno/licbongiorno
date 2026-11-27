@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien rodea la cuadra para no cruzar frente a un perro. Otra persona planifica sus viajes para no subir nunca a un avión. Cada rodeo parece razonable. El alivio es inmediato.",
+   "p": "¿Qué le pasa al miedo cuando lo evitamos siempre?",
+   "opciones": [
+    "Se va apagando con el tiempo",
+    "Se mantiene o crece, porque cada evitación parece confirmar el peligro",
+    "Desaparece, pero aparece un miedo nuevo"
+   ],
+   "r": "El mecanismo central es la evitación: la ansiedad baja enseguida y el cerebro aprende «me salvé». Así el miedo no se apaga: se alimenta, y cada encuentro posterior se vuelve más difícil.",
+   "como": "Lo describió la clínica y lo confirman los tratamientos que lo contrarrestan, basados en acercarse de a poco a lo temido.",
+   "debate": "Freud analizó en 1909 el caso del pequeño Hans y propuso que la fobia desplaza una angustia más profunda; es una lectura histórica interesante, pero no es lo que más respaldo tiene hoy para tratar una fobia específica.",
+   "seccion": "Por qué se mantiene"
+  },
+  {
+   "enigma": "Alguien con miedo a los aviones quiere resolverlo. Un amigo le dice que entender de dónde viene alcanza. Otro, que se suba de golpe y listo.",
+   "p": "¿Qué tiene más respaldo para tratar una fobia?",
+   "opciones": [
+    "Entender de dónde viene el miedo, sin enfrentarlo",
+    "Enfrentarlo de golpe y a la fuerza",
+    "Acercarse a lo temido de forma gradual y voluntaria"
+   ],
+   "r": "La exposición gradual, armada con una escalera de situaciones de menor a mayor, tuvo efectos grandes frente a no recibir tratamiento, y superó al placebo y a otras psicoterapias.",
+   "como": "Wolitzky-Taylor, Horowitz, Powers y Telch (2008) analizaron 33 ensayos aleatorizados. Öst (1989) describió además un tratamiento de una sola sesión intensiva.",
+   "debate": "No tiene respaldo que el miedo se venza de golpe y a la fuerza, ni que baste con entender por qué se tiene. Y en la fobia a la sangre o a las inyecciones hay que tener cuidado, porque puede haber desmayo: conviene hacerlo con un profesional.",
+   "seccion": "Qué tiene respaldo y qué no"
+  }
+ ],
+ "abierta": "Si el miedo desaparece al acercarse de a poco, ¿qué cambia exactamente en el cerebro? Es una pregunta que todavía se investiga."
+}

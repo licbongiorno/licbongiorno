@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay quien improvisa una cena con lo que quedó en la heladera y quien inventa un juego para enseñar fracciones. Y alguien dice: «yo no soy creativo».",
+   "p": "¿La creatividad es solo cosa de artistas y genios?",
+   "opciones": [
+    "Sí, es un don que muy pocos tienen",
+    "No: también aparece en lo cotidiano y en lo que cada uno construye para sí",
+    "Solo se desarrolla con estudios formales"
+   ],
+   "r": "La creatividad es pensar formas nuevas y útiles de hacer las cosas. No se limita al arte: incluye resolver un problema doméstico con lo que hay a mano.",
+   "como": "James Kaufman y Ronald Beghetto (2009) propusieron el modelo de las «cuatro C»: creatividad eminente, profesional, cotidiana y la mini-c, la comprensión nueva que alguien construye para sí mismo.",
+   "debate": "Ayuda a sacar la creatividad del pedestal, pero buscar siempre lo original puede despreciar lo que ya funciona o ser una forma de no terminar nada.",
+   "seccion": "Creatividad"
+  },
+  {
+   "enigma": "Alguien pregunta al mecánico qué le pasa al auto, en vez de solo pagar. Otro viaja y se pierde a propósito en un barrio desconocido.",
+   "p": "¿Qué se ha visto sobre la curiosidad y cómo se vive la vida?",
+   "opciones": [
+    "Que la curiosidad es una pérdida de tiempo",
+    "Que se asocia con mayor satisfacción vital, aunque no sabemos cuál causa a cuál",
+    "Que solo se tiene en la infancia"
+   ],
+   "r": "La curiosidad es interés por la experiencia en curso, por explorar y hacer preguntas. Se asoció con la satisfacción vital, junto con la esperanza, la vitalidad, la gratitud y el amor.",
+   "como": "Kashdan, Rose y Fincham (2004) construyeron un inventario que distingue dos componentes: buscar lo nuevo y dejarse absorber por una actividad. El estudio de Park, Peterson y Seligman (2004) la relacionó con la satisfacción.",
+   "debate": "Es una asociación: no sabemos si la curiosidad produce satisfacción o si las personas más satisfechas tienen más margen para explorar.",
+   "seccion": "Curiosidad"
+  }
+ ],
+ "abierta": "Si la curiosidad se asocia con vivir mejor, ¿se puede cultivar a propósito o aparece sola? Todavía se investiga."
+}
