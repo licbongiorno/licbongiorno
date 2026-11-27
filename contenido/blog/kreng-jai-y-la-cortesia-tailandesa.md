@@ -64,6 +64,20 @@ Si sentís un malestar intenso que no podés compartir, no hace falta que te que
 
 Este texto es parte de la serie sobre las psicologías del sudeste asiático. Empezá por [el mapa de las psicologías del sudeste asiático](/recursos/mapa-de-las-psicologias-del-sudeste-asiatico/) y consultá el [glosario de psicologías del sudeste asiático](/glosario-de-psicologias-del-sudeste-asiatico/). Seguí con [Thich Nhat Hanh y el interser](/recursos/thich-nhat-hanh-y-el-interser/) y [el khyâl cap y el trauma en Camboya](/recursos/khyal-cap-y-el-trauma-en-camboya/). Para una mirada general, [Oriente y Occidente: psicología cultural](/recursos/oriente-y-occidente-psicologia-cultural/) y [psicología budista](/recursos/psicologia-budista/).
 
+## Preguntas frecuentes
+
+### ¿Qué significa kreng jai?
+
+No tiene un equivalente exacto: se traduce como una mezcla de consideración, deferencia y reticencia a imponerse. Lleva a no pedir un favor que incomodaría, a no contradecir abiertamente a un superior o a aceptar algo para no desairar a quien lo ofrece. Es un valor cultural, no un concepto clínico.
+
+### ¿Los tailandeses piden menos ayuda en salud mental por kreng jai?
+
+Es una hipótesis razonable que apoyan sobre todo la experiencia clínica y notas de opinión, pero falta investigación sistemática. También se puede mirar al revés: estos valores sostienen una vida social con poco conflicto abierto. Y hay mucha variación entre personas, por ejemplo entre un joven de Bangkok y una abuela de un pueblo del norte.
+
+### ¿Cómo conviene trabajar en consulta con alguien para quien la cortesía pesa mucho?
+
+No tomar un «estoy bien» como dato, preguntar de varias formas y sin apuro, preferir preguntas abiertas a las de sí o no, y aclarar que en la consulta se puede incomodar. Sobre todo, preguntar cómo vive cada persona estos valores en lugar de suponerlo, porque tratarla como prototipo de su cultura es otra forma de no escucharla.
+
 ## Para seguir leyendo
 
 - Komin, S. (1990). *Psychology of the Thai People: Values and Behavioral Patterns*. Bangkok: Research Center, National Institute of Development Administration (NIDA).

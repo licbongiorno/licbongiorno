@@ -11,7 +11,7 @@ orden: 209
 estado: publicado
 respuesta: El acoso es una agresión repetida, intencional y con desequilibrio de poder, según la definición de Dan Olweus para el ámbito escolar. Heinz Leymann describió en 1990 el equivalente en el trabajo, el mobbing. En Argentina, la Ley 26.892 promueve la convivencia en las escuelas. Frente al acoso conviene escuchar, registrar, involucrar a la institución y no culpar a quien lo sufre.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Un chico que de golpe no quiere ir a la escuela y se queja de dolor de panza los lunes. Una trabajadora que antes hablaba en las reuniones y ahora se queda callada, porque cada vez que habla la interrumpen o la ignoran. Son escenas distintas, en lugares distintos, pero con algo en común: una persona expuesta una y otra vez a un trato que la daña, sin poder defenderse en igualdad de condiciones.
 
@@ -62,3 +62,14 @@ Una situación de acoso no es una prueba de carácter. Nadie tiene que soportarl
 ## Para seguir
 
 Lecturas: Olweus, D. (1993), *Bullying at School: What We Know and What We Can Do*. Leymann, H. (1990), «Mobbing and psychological terror at workplaces», *Violence and Victims*. Ley 26.892, de promoción de la convivencia y abordaje de la conflictividad social en las instituciones educativas (sancionada el 11 de septiembre de 2013).
+
+## Preguntas frecuentes
+
+### ¿Cuál es la diferencia entre acoso y una pelea o un conflicto común?
+En el acoso hay tres notas: la agresión se repite, es intencional y existe un desequilibrio de poder, de modo que quien la recibe no puede frenarla por sus propios medios. Una pelea aislada o un desacuerdo entre personas de fuerza similar no cumplen esas condiciones. Ante la duda, conviene registrar lo que pasa y consultar.
+
+### ¿Qué puedo hacer si mi hijo o hija sufre acoso en la escuela?
+Escucharlo sin minimizar, anotar fechas y hechos, y hablar con docentes, equipo de orientación o dirección pidiendo una respuesta concreta. En la Argentina, la Ley 26.892 plantea un marco de convivencia que las escuelas deben tener en cuenta. También ayuda una consulta con un profesional de salud mental.
+
+### ¿Sirve el descanso o un cambio de actitud frente al acoso laboral?
+El descanso puede aliviar el desgaste, pero no resuelve un hostigamiento sostenido de personas concretas, que requiere una respuesta sobre la situación: recursos humanos, una instancia gremial o asesoramiento legal. Tampoco es responsabilidad de quien lo sufre «tomarlo con otra actitud». Pedir ayuda a tiempo no es exagerar.

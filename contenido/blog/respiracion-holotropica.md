@@ -11,7 +11,7 @@ orden: 162
 estado: publicado
 respuesta: La respiración holotrópica, creada por Stanislav y Christina Grof, consiste en respirar rápido y profundo durante un tiempo prolongado, con música evocadora y en grupo, para inducir estados no ordinarios de conciencia. Una revisión de 2007 planteó su posible papel como complemento de la psicoterapia, pero es una hipótesis, no evidencia de eficacia. Tiene contraindicaciones médicas y psiquiátricas importantes.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Un salón con colchonetas en el piso, luces bajas y música que sube de a poco. La gente está acostada de a pares: una persona respira y la otra, su acompañante, cuida. Pasada la primera media hora, alguien llora, alguien se ríe, alguien se queda quieto con las manos rígidas. Es una sesión de respiración holotrópica, una de las prácticas más intensas del campo de las psicologías espirituales.
 
@@ -57,3 +57,14 @@ Conviene no mezclar esta práctica con las respiraciones lentas de regulación, 
 La respiración holotrópica aparece en dos mapas: [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/), donde se ubica junto a las constelaciones, la terapia con psicodélicos y la contemplación cristiana. Para explorar con ejercicios guiados, podés pasar por el [laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
 Lecturas: Rhinewine, J. P. y Williams, O. J. (2007), «Holotropic Breathwork: the potential role of a prolonged, voluntary hyperventilation procedure as an adjunct to psychotherapy», *Journal of Alternative and Complementary Medicine*, 13(7), 771–776.
+
+## Preguntas frecuentes
+
+### ¿Qué es la respiración holotrópica?
+Es una práctica creada por Stanislav y Christina Grof: respiración rápida y profunda, con música, en parejas donde una persona respira y la otra acompaña. Quienes la practican la describen como un camino de autoexploración.
+
+### ¿Tiene respaldo como terapia?
+No lo suficiente para recomendarla como tal. Existen planteos sobre su posible papel como complemento de la psicoterapia (Rhinewine y Williams, 2007), pero hoy no hay respaldo que permita recomendarla como terapia. Mucha gente la valora como experiencia.
+
+### ¿Quién no debería hacerla?
+Está contraindicada o desaconsejada en embarazo, enfermedad cardiovascular e hipertensión, epilepsia, glaucoma, antecedentes de psicosis, trastorno bipolar o crisis de pánico, y lesiones recientes. Además puede movilizar material traumático intenso, por lo que requiere facilitación formada y seguimiento posterior.

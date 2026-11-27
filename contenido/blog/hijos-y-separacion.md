@@ -11,7 +11,7 @@ orden: 184
 estado: publicado
 respuesta: La separación en sí no condena a los hijos: las diferencias promedio con los hijos de parejas que siguen juntas son pequeñas y la mayoría no está en riesgo. Lo que más pesa es el conflicto entre los padres y los procesos familiares posteriores. Ayuda contarles la verdad según su edad, sostener rutinas y no ponerlos en medio.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Una nena de ocho años lleva en la mochila el cuaderno de comunicaciones y un mensaje de su mamá para su papá, con una frase que sabe que no le va a gustar. Al entregarlo, observa la cara de él. Nadie le pidió que fuera mensajera, pero lo es desde hace meses. Cuando una pareja se separa, mucha gente teme el divorcio en sí. La investigación sugiere mirar otro lado: lo que le pasa a los chicos depende sobre todo de cómo se transita la separación.
 
@@ -72,3 +72,14 @@ Conviene también consultar si un chico muestra cambios que se sostienen en el t
 - [Padres de adolescentes](/recursos/padres-de-adolescentes/)
 
 Lecturas: Amato, P. R. (2001), «Children of divorce in the 1990s: an update of the Amato and Keith (1991) meta-analysis», *Journal of Family Psychology*, 15(3), 355-370. Kelly, J. B. y Emery, R. E. (2003), «Children's adjustment following divorce: risk and resilience perspectives», *Family Relations*, 52, 352-362.
+
+## Preguntas frecuentes
+
+### ¿La separación de los padres daña a los hijos?
+Los estudios muestran que, en promedio, los efectos son pequeños y la mayoría de los chicos se adapta. Un promedio no describe a cada chico, y algunos necesitan acompañamiento. Lo que más pesa es el clima familiar posterior, sobre todo el conflicto entre los adultos.
+
+### ¿Cómo les cuento a mis hijos que nos separamos?
+Juntos, si se puede, con el mismo mensaje y sin reproches. Con verdad adaptada a la edad, dejando claro que no es su culpa, qué va a cambiar y qué sigue igual, y con lugar para las preguntas y las emociones.
+
+### ¿Qué conviene evitar durante y después de la separación?
+Que los chicos queden en medio del conflicto: como mensajeros, aliados o testigos de discusiones. Tampoco conviene hablar mal del otro progenitor delante de ellos. Si hay violencia, la seguridad va primero y la comunicación debe pensarse con apoyo profesional y legal.

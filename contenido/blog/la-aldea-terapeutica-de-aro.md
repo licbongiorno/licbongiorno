@@ -61,6 +61,17 @@ Esto es historia y debate científico, y no una guía de tratamiento. Una psicos
 
 Este texto es parte de la serie de psicología africana: [mapa de la psicología africana](/recursos/mapa-de-la-psicologia-africana/) y [glosario de psicología africana](/glosario-de-psicologia-africana/).
 
+## Preguntas frecuentes
+
+### ¿Qué fue la aldea terapéutica de Aro?
+Fue un modelo de atención psiquiátrica creado por Thomas Adeoye Lambo en Abeokuta, Nigeria, desde 1954. Los pacientes vivían en aldeas cercanas al hospital, acompañados por un familiar, y participaban en la vida comunitaria, con un equipo médico que colaboraba con los sanadores tradicionales de la zona.
+
+### ¿Hay pruebas de que funcionaba mejor que la internación?
+No hay pruebas sólidas. La información sobre sus resultados venía en gran medida de la propia institución y de su director, sin ensayos comparativos con otros modos de atención. Es un testimonio histórico valioso, no una prueba de eficacia.
+
+### ¿Es cierto que la esquizofrenia evoluciona mejor en países en desarrollo?
+Es una discusión abierta. Un estudio de la OMS lo sugirió, pero una revisión de 2008 («Questioning an axiom») objetó la selección de casos, la pérdida de seguimiento y las diferencias de diagnóstico, y concluyó que la evidencia no alcanza para darlo por hecho. Ante una psicosis hace falta evaluación médica y psiquiátrica.
+
 ## Para seguir leyendo
 
 - Leighton, A. H., Lambo, T. A., Hughes, C. C., Leighton, D. C., Murphy, J. M. y Macklin, D. B. (1963). *Psychiatric Disorder among the Yoruba*. Ithaca: Cornell University Press.

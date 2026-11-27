@@ -11,7 +11,7 @@ orden: 170
 estado: publicado
 respuesta: En Japón, ikigai alude a lo que hace que la vida valga la pena, muchas veces en lo cotidiano (vínculos, roles, pequeñas alegrías), y no necesariamente a una gran misión ni al trabajo. El diagrama de cuatro círculos que circula por internet no es japonés: es una adaptación occidental, útil como ejercicio de reflexión pero ajena al concepto original.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien de 38 años abre una pantalla con cuatro círculos superpuestos y una pregunta: «¿Qué amás, en qué sos bueno, qué necesita el mundo, por qué te pagan?». Pasa una hora y no encuentra el punto donde se cruzan. Concluye que le falta algo, o que su vida está mal armada. Lo que le falta, en realidad, es un diagrama que no tiene nada que ver con lo que la palabra significa en Japón.
 
@@ -64,3 +64,14 @@ Sentir que nada vale la pena durante semanas, con desgano, aislamiento o ideas d
 El ikigai es uno de varios conceptos japoneses que circulan hoy; para ubicarlo junto a los demás, mirá el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
 
 Lecturas: Kamiya, M. (1966), *Ikigai ni tsuite*. Sone, T. et al. (2008), «Sense of life worth living (ikigai) and mortality in Japan: Ohsaki Study», *Psychosomatic Medicine*, 70, 709–715. García, H. y Miralles, F. (2016), *Ikigai: los secretos de Japón para una vida larga y feliz*.
+
+## Preguntas frecuentes
+
+### ¿Qué significa ikigai?
+En Japón alude a lo que hace que la vida valga la pena. Suele ser algo cotidiano, como un vínculo, un rol o una pequeña alegría, y no exige una gran misión ni coincide necesariamente con el trabajo. Lo popularizó la psiquiatra Mieko Kamiya en 1966.
+
+### ¿El diagrama de cuatro círculos es japonés?
+No. Surge del diagrama del propósito de Andrés Zuzunaga y fue adaptado en un blog de 2014 por Marc Winn. Sirve como herramienta de reflexión sobre trabajo y vocación, pero no es el concepto japonés ni predice bienestar.
+
+### ¿Tener ikigai alarga la vida?
+Un estudio japonés con más de 43.000 adultos (Sone y colaboradores, 2008) encontró que quienes decían no tener ikigai tenían mayor riesgo de muerte. Es una asociación medida con una sola pregunta, no una prueba de causa, y no dice que buscar un propósito alargue la vida.

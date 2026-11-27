@@ -70,6 +70,17 @@ Ninguna tradición ni política reemplaza una evaluación profesional cuando el 
 - [Prevención del suicidio en el Ártico](/recursos/prevencion-del-suicidio-en-el-artico/)
 - [El enojo](/recursos/el-enojo/)
 
+## Preguntas frecuentes
+
+### ¿Qué significa Inuit Qaujimajatuqangit?
+Se traduce a menudo como «lo que los inuit han sabido desde hace mucho». Es un conjunto de saberes, valores y maneras de vivir que incluye conocimiento ecológico, social y de crianza, y que el gobierno de Nunavut adoptó como base de su política. No es un método ni un test.
+
+### ¿Cuáles son sus principios?
+Los documentos oficiales mencionan principios como respetar a los demás (*Inuuqatigiitsiarniq*), ser abierto e inclusivo (*Tunnganarniq*), servir a la comunidad (*Pijitsirniq*), decidir por consenso (*Aajiiqatigiinniq*) y cuidar la tierra y los animales. Las fuentes no coinciden del todo en el número y la ortografía, así que conviene consultar los documentos del gobierno de Nunavut.
+
+### ¿Mejora la salud mental?
+No hay evidencia directa para decir eso: no es un modelo psicológico validado ni una intervención evaluada. Lo que se puede decir es que fortalecer la lengua, la cultura y el control comunitario son objetivos que piden las propias comunidades, y que estudios como los de Chandler y Lalonde con First Nations los asocian con menores tasas de suicidio.
+
 ## Para seguir leyendo
 
 - Wenzel, G. W. (2004). «From TEK to IQ: Inuit Qaujimajatuqangit and Inuit cultural ecology». *Arctic Anthropology*, 41(2), 238-250.

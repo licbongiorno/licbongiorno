@@ -11,7 +11,7 @@ orden: 144
 estado: publicado
 respuesta: La teoría polivagal, propuesta por Stephen Porges en 1995, plantea que el nervio vago tiene dos ramas con funciones y orígenes evolutivos distintos, que organizan estados de conexión social, movilización e inmovilización. Es muy usada en psicoterapias corporales y del trauma, pero su base neurofisiológica está fuertemente cuestionada, y el debate sigue abierto.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 En una sesión, el terapeuta dice: «tu sistema nervioso está registrando que acá estás a salvo». La persona respira distinto. Algo en esa frase ordena lo que sentía. Ese es el atractivo de la teoría polivagal: ofrece palabras para hablar de seguridad, de activación y de apagamiento. La pregunta incómoda es otra: ¿que las palabras sirvan significa que la teoría sea verdadera?
 
@@ -55,3 +55,14 @@ Si estás atravesando una crisis o pensás en hacerte daño, pedí ayuda ahora: 
 Para ubicar estas ideas entre otras propuestas, podés mirar [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Y para explorar tono, postura y movimiento desde la experiencia, [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
 
 Lecturas: Porges, S. W. (1995), «Orienting in a defensive world: Mammalian modifications of our evolutionary heritage. A Polyvagal Theory», *Psychophysiology*, 32(4), 301–318. Grossman, P. (2023), «Fundamental challenges and likely refutations of the five basic premises of the polyvagal theory», *Biological Psychology*, 180, 108589.
+
+## Preguntas frecuentes
+
+### ¿Qué dice la teoría polivagal?
+Stephen Porges la presentó en 1995: propone que el nervio vago tiene dos ramas con funciones y orígenes evolutivos distintos, que organizan tres estados (conexión social, movilización y desconexión). También introduce la neurocepción, la detección no consciente de seguridad o peligro.
+
+### ¿Está comprobada?
+No, y es muy discutida. Paul Grossman (2023) cuestiona sus cinco premisas básicas, y en 2026 publicó con otros coautores «Why the Polyvagal Theory Is Untenable»; Porges respondió, y el debate sigue abierto.
+
+### ¿Sirve como lenguaje en terapia aunque esté cuestionada?
+Puede servir: da palabras para hablar de seguridad y activación y normaliza reacciones que asustan. Pero que un lenguaje ayude no prueba que la explicación biológica sea cierta. Está bien preguntarle al profesional en qué se apoya y desconfiar de quien la presente como verdad cerrada.

@@ -11,7 +11,7 @@ orden: 154
 estado: publicado
 respuesta: El bypass espiritual, término de John Welwood de 1984, es el uso de ideas y prácticas espirituales para esquivar asuntos emocionales y personales pendientes. No es la espiritualidad en sí, sino una manera de usarla como evitación. Es una propuesta clínica descriptiva, no un diagnóstico.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien perdió a su padre hace dos meses. Cuando una amiga le pregunta cómo está, contesta con calma: «Todo pasa por algo, ya lo solté». Esa noche medita media hora, se levanta liviano y no vuelve a hablar del tema. Nadie diría que hizo algo mal: meditó, confió, aceptó. Pero queda una pregunta abierta: ¿soltó el duelo o lo guardó en un cajón?
 
@@ -51,6 +51,17 @@ Ante un duelo reciente, una crisis o una emoción que desborda, la meditación p
 ## Para seguir
 
 Una espiritualidad que no esquiva lo humano suele apoyarse en la idea de trascender sin dejar de sentir; sobre esa dimensión, mirá [las fortalezas de la trascendencia](/recursos/fortalezas-trascendencia/). También podés recorrer [el mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/) y [el laboratorio de espiritualidad y psique](/laboratorio-de-espiritualidad-y-psique/).
+
+## Preguntas frecuentes
+
+### ¿Meditar o tener una práctica espiritual es bypass espiritual?
+No. El bypass depende de la función que cumple la práctica, no de la práctica en sí. Se puede meditar o rezar y, a la vez, llorar una pérdida o poner un límite; el bypass aparece cuando la práctica sirve para no tocar algo que sigue vivo.
+
+### ¿Cómo sé si lo estoy haciendo yo?
+Algunas señales posibles son una calma que llega enseguida y no se siente propia, un enojo que vuelve una y otra vez sin resolverse o la sensación de estar actuando serenidad. Ayuda preguntarse qué está haciendo por mí esa práctica o esa frase en este momento. Nadie puede decidir desde afuera que lo de otra persona es bypass.
+
+### ¿Cómo se trabaja en terapia?
+Sin cuestionar las creencias de la persona, se busca darle lugar a lo que quedó sin sentir, como el duelo, el enojo o la tristeza, para que la práctica espiritual acompañe en lugar de tapar. El ritmo lo marca cada persona, con más cuidado si hay un duelo reciente o una crisis.
 
 ## Para seguir leyendo
 

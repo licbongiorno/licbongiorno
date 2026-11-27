@@ -11,7 +11,7 @@ orden: 221
 estado: publicado
 respuesta: Daniel Kahneman (1934–2024) fue un psicólogo israelí-estadounidense. Con Amos Tversky formuló en 1979 la teoría prospectiva, que critica la utilidad esperada como descripción de cómo decidimos bajo riesgo y muestra que las pérdidas pesan más que las ganancias equivalentes. Recibió el Premio Nobel de Economía en 2002 y publicó Thinking, Fast and Slow (2011).
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 ¿Aceptarías una apuesta en la que ganás o perdés el mismo monto con igual probabilidad? Muchas personas dicen que no, aunque el cálculo sea parejo. Daniel Kahneman pasó su carrera estudiando por qué, y concluyó que nuestra manera de decidir se aparta de lo que la teoría económica clásica suponía.
 
@@ -52,6 +52,20 @@ Una enseñanza práctica y modesta: ante una decisión importante, conviene fren
 Un detalle que vale la pena destacar es el tono de su obra. Kahneman insistía en que mostrar los límites del juicio humano no equivale a decir que las personas sean tontas: la mayoría de las veces las intuiciones funcionan bien, y los sesgos aparecen en situaciones específicas, como las que implican incertidumbre, riesgo o información incompleta. Su propuesta es entender esos límites con curiosidad, no con desdén.
 
 En la vida cotidiana, esto invita a una actitud más humilde frente a las propias certezas. Cuando algo nos parece evidente, puede valer la pena preguntarse en qué se apoya esa sensación. Y cuando una decisión es importante, darle tiempo, pedir otras miradas y comparar alternativas por escrito son maneras sencillas de darle más lugar al pensamiento lento.
+
+## Preguntas frecuentes
+
+### ¿Qué es la aversión a las pérdidas?
+
+Es la idea, central en la teoría prospectiva, de que una pérdida pesa más que una ganancia equivalente: perder una suma duele más de lo que alegra ganar la misma. Ayuda a entender por qué muchas personas rechazan apuestas parejas o se aferran a lo que ya tienen.
+
+### ¿Sirve conocer los sesgos para decidir mejor?
+
+Ayuda, pero no es una vacuna. Reconocer que existen permite frenar ante decisiones importantes, preguntarse cómo se presentó la opción y pedir otras miradas. Aun así, los sesgos siguen actuando aunque los conozcamos, por eso conviene darle tiempo y comparar alternativas.
+
+### ¿Hay que tomar al pie de la letra los «dos modos de pensamiento»?
+
+No. Muchos consideran la división entre pensamiento rápido y lento una metáfora útil para nombrar algo que todos vivimos, más que una descripción literal de dos sistemas separados en el cerebro. Lo que se sostiene es que respondemos a veces por impresión inmediata y solo después revisamos.
 
 ## Para seguir leyendo
 

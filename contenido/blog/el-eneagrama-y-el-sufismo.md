@@ -59,6 +59,17 @@ Si alguien te dice que tu tipo explica por qué no podés cambiar, o que el de t
 
 Los términos de la tradición sufí están en el [glosario de psicología sufí](/glosario-de-psicologia-sufi/). Para la vinculación entre espiritualidad y psique, el [mapa de las psicologías espirituales](/recursos/mapa-de-las-psicologias-espirituales/), y para una crítica de usar ideas espirituales para esquivar lo pendiente, el [bypass espiritual](/recursos/bypass-espiritual/).
 
+## Preguntas frecuentes
+
+### ¿El eneagrama es una enseñanza sufí antigua?
+No hay prueba de eso. Ningún texto sufí clásico contiene el modelo de nueve tipos, y las fuentes que se citan son relatos sin verificar. Lo que se puede documentar es un linaje del siglo XX: Gurdjieff como símbolo, Ichazo y Naranjo como creadores del modelo de tipos.
+
+### ¿Hay alguna relación entre el eneagrama y el sufismo?
+Hay conexiones biográficas y de ambiente, porque Gurdjieff y buscadores de la época se movieron en un mundo con referencias sufíes, y semejanzas temáticas, como la psicología sufí del yo (*nafs*). Pero son semejanzas, no una genealogía demostrada.
+
+### ¿Tiene respaldo científico el eneagrama?
+La evidencia es limitada. Hay que separar el origen de la validez: un modelo puede tener origen dudoso y ser útil. Conviene desconfiar si alguien usa el tipo para afirmar que no podés cambiar o para justificar una conducta, y consultar con un profesional ante un malestar que dura.
+
 ## Para seguir leyendo
 
 - Ouspensky, P. D. (1949). *In Search of the Miraculous: Fragments of an Unknown Teaching*. Nueva York: Harcourt, Brace.

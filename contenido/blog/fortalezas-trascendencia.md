@@ -11,7 +11,7 @@ orden: 119
 estado: publicado
 respuesta: En la clasificación de Peterson y Seligman (2004), la trascendencia agrupa cinco fortalezas: apreciación de la belleza y la excelencia, gratitud, esperanza, humor y espiritualidad. Son las que conectan a la persona con algo más amplio y le dan sentido. La gratitud y la esperanza están entre las más asociadas con la satisfacción vital, pero los ejercicios de gratitud muestran efectos pequeños.
 menciona: seligman, maslow, humanista
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 Detenerse frente a un atardecer en las sierras, agradecerle a alguien que nos ayudó hace años, imaginar que el año que viene puede ser mejor, reírse de uno mismo en medio de un mal día, sentir que la propia vida forma parte de algo más grande. Son experiencias muy distintas, pero tienen algo en común: nos sacan del centro. La psicología positiva las agrupó en la sexta y última virtud de su clasificación, la trascendencia.
 
@@ -90,6 +90,20 @@ El [test de fortalezas](/test-de-fortalezas/) del sitio es un autorreporte de el
 ## Para probarlo
 
 En el [laboratorio de fortalezas de la psicología positiva](/laboratorio-psicologia-positiva-fortalezas/) hay ejercicios para identificar tus fortalezas y usarlas de otra manera, y en el [laboratorio de fortalezas y virtudes](/laboratorio-de-fortalezas-y-virtudes/) se recorren las seis virtudes. La serie incluye la [sabiduría y el conocimiento](/recursos/fortalezas-sabiduria-y-conocimiento/), el [coraje](/recursos/fortalezas-coraje/), la [humanidad](/recursos/fortalezas-humanidad/), la [justicia](/recursos/fortalezas-justicia/) y la [templanza](/recursos/fortalezas-templanza/).
+
+## Preguntas frecuentes
+
+### ¿Qué fortalezas forman la virtud de trascendencia?
+
+En la clasificación de Peterson y Seligman son cinco: apreciación de la belleza y la excelencia, gratitud, esperanza, humor y espiritualidad. Tienen en común que sacan a la persona del centro y la vinculan con algo más amplio que ella misma.
+
+### ¿Escribir un diario de gratitud mejora el bienestar?
+
+Hay estudios que encontraron más emociones positivas en quienes anotan motivos de agradecimiento, pero los efectos de los metaanálisis son pequeños y no se observaron sobre la ansiedad. Puede ser un ejercicio agradable, no un tratamiento. Y la gratitud impuesta a quien está sufriendo («tenés que agradecer») no es gratitud.
+
+### ¿Hay que ser espiritual o esperanzado para tener bienestar?
+
+No. Las fortalezas no son una obligación ni una condición del bienestar: hay vidas plenas sin espiritualidad religiosa. Lo que muestra la investigación es que importa más cómo se vive la espiritualidad que si se tiene. Si sentís que no hay futuro posible, conviene consultar a un profesional.
 
 ## Para seguir leyendo
 

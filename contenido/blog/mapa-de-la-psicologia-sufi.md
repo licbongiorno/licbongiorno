@@ -11,7 +11,7 @@ orden: 302
 estado: publicado
 respuesta: La psicología sufí es la lectura del mundo interior que surge del sufismo, la dimensión mística del islam: un yo (nafs) que atraviesa niveles, un corazón (qalb) como centro espiritual, prácticas como el dhikr y el examen de uno mismo (muhasaba), y un camino de estaciones (maqamat) y estados (ahwal). Se apoya en autores como Al-Ghazali, Rumi e Ibn Arabi, y Robert Frager la presentó en 1999 a lectores de habla inglesa. Es una tradición religiosa y espiritual, sin investigación psicológica que la respalde como teoría, y el supuesto origen sufí del eneagrama no tiene base documental.
 menciona: jung, platon
-revision: 2026-11-26
+revision: 2026-11-27
 ---
 En las redes circulan versos de Rumi sobre el amor y la herida, con una foto de atardecer. Poca gente sabe que fue un predicador y jurista del siglo XIII que escribió en persa, que vivió en la actual Turquía y que su poesía estaba dirigida a Dios. Esa distancia entre lo que se cita y lo que se dijo es el motivo de este mapa: ordenar lo que llamamos psicología sufí, con sus palabras originales, y marcar con honestidad qué es tradición religiosa, qué es una lectura moderna y qué tiene (o no tiene) investigación.
 
@@ -97,6 +97,20 @@ Si te interesa la tradición, por el artículo sobre [la psicología sufí](/rec
 - [Glosario de psicología sufí](/glosario-de-psicologia-sufi/)
 
 Para las tradiciones vecinas, mirá el [mapa de la psicología india](/recursos/mapa-de-la-psicologia-india/), el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/) y el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
+
+## Preguntas frecuentes
+
+### ¿Es lo mismo la psicología sufí que la meditación o el mindfulness?
+
+No. Hay parecidos formales entre prácticas como el dhikr o la muraqaba y la meditación o la atención plena, pero la investigación que existe estudió las versiones laicas. Las prácticas sufíes tienen un objeto religioso, se hacen dentro de una comunidad y de una fe, y no se las puede dar por equivalentes.
+
+### ¿Qué son los niveles del nafs?
+
+El nafs es el yo o el alma. La tradición lo piensa en niveles a partir de tres expresiones coránicas: el que empuja al impulso, el que se reprocha y el sereno. Robert Frager los ordena en siete. Son un mapa espiritual, no una escala psicológica medida, y el crecimiento consiste en educar al yo, no en eliminarlo.
+
+### ¿El eneagrama es una sabiduría sufí antigua?
+
+No está documentado así. Gurdjieff difundió la figura de nueve puntos en las primeras décadas del siglo XX y dijo que venía de una fuente oriental, y la clasificación en nueve tipos de personalidad se desarrolló en los años sesenta. Atribuirlo al sufismo le da una autoridad que no tiene y le pone a una tradición viva algo que no reconoce como propio.
 
 ## Para seguir leyendo
 

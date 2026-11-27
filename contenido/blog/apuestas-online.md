@@ -11,7 +11,7 @@ orden: 183
 estado: publicado
 respuesta: El juego online puede volverse un problema cuando se pierde el control sobre cuánto, cuándo y con qué plata se apuesta. El DSM-5 lo reconoce como trastorno por juego, la primera adicción sin sustancia. Engancha por el refuerzo intermitente, la inmediatez y el celular siempre a mano. Se puede pedir ayuda, por ejemplo en la línea 141 de SEDRONAR.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Un chico de 16 años mira una pantalla en el recreo. No es un video ni un juego de estrategia: es una apuesta chica, de las que se hacen en dos toques. Pierde, y piensa que la próxima va a recuperar. A la noche, en la cama, vuelve a abrir la aplicación. Nadie en su casa lo sabe. Esta escena, con edades y montos distintos, se repite en adultos y en adolescentes, y tiene una lógica psicológica bastante clara.
 
@@ -74,3 +74,14 @@ Dejar de apostar de golpe, solo y sin apoyo, suele ser difícil, y las deudas pu
 - [Laboratorio de adolescentes](/laboratorio-de-adolescentes/)
 
 Lecturas: American Psychiatric Association (2013), *Diagnostic and Statistical Manual of Mental Disorders* (5.ª ed.), APA. UNICEF Argentina (2024), encuesta sobre adolescentes y apuestas online. Defensoría del Pueblo de la Ciudad de Buenos Aires (2024), encuesta a adolescentes de 13 a 19 años sobre apuestas.
+
+## Preguntas frecuentes
+
+### ¿Cuándo se considera que jugar es un problema?
+Cuando se pierde el control sobre cuánto, cuándo y con qué plata se apuesta, y aun así se sigue. El DSM-5 lo llama trastorno por juego y exige 4 de 9 síntomas, como apostar cada vez más, intentar dejar sin lograrlo, perseguir las pérdidas o mentir para ocultarlo. El diagnóstico lo hace un profesional; no es algo para autodiagnosticarse.
+
+### ¿Por qué las apuestas online enganchan tanto?
+Porque combinan varios mecanismos: el refuerzo intermitente (se gana a veces y sin poder predecirlo), el resultado inmediato, el celular siempre a mano y la publicidad que las presenta como algo cotidiano. No hace falta ninguna debilidad especial para quedar atrapado.
+
+### ¿Qué puedo hacer si mi hijo o hija apuesta?
+Conversar sin humillar, preguntar con curiosidad y evitar el sermón, porque quien se siente juzgado esconde más. Después conviene poner límites concretos con tarjetas, billeteras virtuales y aplicaciones, y pedir ayuda profesional sin esperar a que se desborde. La línea 141 de SEDRONAR atiende las 24 horas.

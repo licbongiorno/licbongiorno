@@ -11,7 +11,7 @@ orden: 115
 estado: publicado
 respuesta: En la clasificación de Peterson y Seligman (2004), el coraje agrupa cuatro fortalezas: valentía, perseverancia, integridad y vitalidad. Son formas de sostener la voluntad frente a obstáculos externos o internos. La evidencia sobre ellas viene sobre todo de cuestionarios y estudios correlacionales, y en el caso de la perseverancia hay críticas serias a cómo se la popularizó.
 menciona: seligman, maslow, humanista, rogers
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 Cuando pensamos en coraje, la imagen que aparece suele ser heroica: alguien que entra a un edificio en llamas. Pero la mayor parte del coraje que vemos en la consulta es más silenciosa. Es pedir ayuda después de años de callar, decirle a la familia algo que no quiere escuchar o volver a levantarse cada mañana durante una depresión. La psicología positiva reunió esas formas bajo una misma virtud y las dividió en cuatro fortalezas.
 
@@ -80,6 +80,17 @@ El [test de fortalezas](/test-de-fortalezas/) del sitio es un autorreporte de el
 ## Para probarlo
 
 En el [laboratorio de fortalezas de la psicología positiva](/laboratorio-psicologia-positiva-fortalezas/) hay ejercicios para identificar tus fortalezas y usarlas de otra manera, y en el [laboratorio de fortalezas y virtudes](/laboratorio-de-fortalezas-y-virtudes/) se recorren las seis virtudes. La serie empieza con la [sabiduría y el conocimiento](/recursos/fortalezas-sabiduria-y-conocimiento/) y sigue con la [humanidad](/recursos/fortalezas-humanidad/), la [justicia](/recursos/fortalezas-justicia/), la [templanza](/recursos/fortalezas-templanza/) y la [trascendencia](/recursos/fortalezas-trascendencia/).
+
+## Preguntas frecuentes
+
+### ¿Qué fortalezas forman parte del coraje?
+En la clasificación de Peterson y Seligman (2004), el coraje incluye valentía, perseverancia, integridad y vitalidad. La valentía no es ausencia de miedo sino actuar a pesar de él.
+
+### ¿El test de fortalezas del sitio es el VIA?
+No. El instrumento de referencia es el VIA Inventory of Strengths, un autorreporte con estudios de validación. El test del sitio es de elaboración propia y sirve para empezar a pensar el tema, sin reemplazar al VIA ni a una evaluación profesional.
+
+### ¿Tener poca valentía o perseverancia es un problema?
+No. Las fortalezas no son un diagnóstico ni una vara moral. Una persona deprimida puede perder vitalidad y perseverancia sin que eso diga nada de su carácter. Y si estás sufriendo, consultar a un profesional también es un acto de coraje.
 
 ## Para seguir leyendo
 

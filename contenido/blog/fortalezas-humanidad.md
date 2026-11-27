@@ -11,7 +11,7 @@ orden: 116
 estado: publicado
 respuesta: En la clasificación de Peterson y Seligman (2004), la virtud de humanidad agrupa tres fortalezas interpersonales: amor, bondad e inteligencia social. Son las que se ponen en juego al cuidar y entablar vínculos con otros. El amor está entre las fortalezas más asociadas con la satisfacción vital, aunque esa evidencia es correlacional y basada en autorreportes.
 menciona: seligman, maslow, humanista, empatia, apego
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 Si se le pregunta a alguien qué le dio sentido a su vida, es raro que hable de un logro individual. Casi siempre aparece una persona: un hijo, una pareja, una amiga, un maestro. Christopher Peterson, uno de los fundadores de la psicología positiva, solía resumir su campo en la idea de que los otros importan. La virtud de humanidad trata exactamente de eso: de las fortalezas que se juegan en el cuidado y en los vínculos cercanos.
 
@@ -70,6 +70,20 @@ El [test de fortalezas](/test-de-fortalezas/) del sitio es un autorreporte de el
 ## Para probarlo
 
 En el [laboratorio de fortalezas de la psicología positiva](/laboratorio-psicologia-positiva-fortalezas/) hay ejercicios para identificar tus fortalezas y usarlas de otra manera, y en el [laboratorio de fortalezas y virtudes](/laboratorio-de-fortalezas-y-virtudes/) se recorren las seis virtudes. La serie incluye la [sabiduría y el conocimiento](/recursos/fortalezas-sabiduria-y-conocimiento/), el [coraje](/recursos/fortalezas-coraje/), la [justicia](/recursos/fortalezas-justicia/), la [templanza](/recursos/fortalezas-templanza/) y la [trascendencia](/recursos/fortalezas-trascendencia/).
+
+## Preguntas frecuentes
+
+### ¿Qué fortalezas incluye la virtud de humanidad?
+
+En la clasificación de Peterson y Seligman reúne tres fortalezas interpersonales: amor, bondad e inteligencia social. Se juegan sobre todo en las relaciones cercanas, uno a uno, a diferencia de la justicia, que mira la vida en comunidad.
+
+### ¿Cómo se miden estas fortalezas?
+
+El cuestionario de referencia es el VIA Inventory of Strengths, un autorreporte de 240 frases en su versión original. En Argentina se desarrolló el Inventario de Virtudes y Fortalezas. Como son autorreportes, tienen límites, sobre todo en lo social: uno puede creerse muy sensible a los demás y que los demás no lo vivan así.
+
+### ¿Un puntaje bajo en inteligencia social indica algún problema?
+
+No. Las fortalezas no son un diagnóstico: un puntaje bajo no indica autismo ni otra condición, y uno alto no garantiza vínculos sanos. Tampoco son una promesa de bienestar. Si un vínculo te hace daño o la soledad te pesa, el problema no es la falta de una fortaleza, y vale la pena consultar.
 
 ## Para seguir leyendo
 

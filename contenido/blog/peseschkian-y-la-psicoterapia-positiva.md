@@ -75,6 +75,20 @@ Un método que insiste en lo «positivo» no tiene que convertirse en una exigen
 
 Peseschkian es uno de los cierres del [mapa de la psicología persa e iraní](/recursos/mapa-de-la-psicologia-persa/). Para el contexto y los términos, está el [glosario de psicología persa](/glosario-de-psicologia-persa/). También se vincula con la [psicología positiva existencial](/recursos/psicologia-positiva-existencial/).
 
+## Preguntas frecuentes
+
+### ¿La psicoterapia positiva de Peseschkian es lo mismo que la psicología positiva de Seligman?
+
+No. Comparten una palabra y la intención de mirar lo que funciona, pero la de Peseschkian es un método psicoterapéutico alemán de los años setenta, y la de Seligman es un campo de investigación sobre bienestar nacido en Estados Unidos. Seligman y Rashid también desarrollaron una «psicoterapia positiva» distinta, así que conviene preguntar de cuál se habla.
+
+### ¿Qué son las capacidades actuales?
+
+Son disposiciones que se aprenden en la familia y la cultura. Las primarias se ligan a la emoción y la relación (amor, paciencia, confianza) y las secundarias a las normas y al rendimiento (puntualidad, orden, honestidad). Muchas peleas serían choques entre capacidades secundarias, y nombrarlas permite hablar del conflicto sin acusar.
+
+### ¿Qué evidencia tiene?
+
+Tiene una comunidad profesional activa, formación y publicaciones, incluidos estudios clínicos que son en su mayoría pequeños. Su evidencia de eficacia es mucho menor que la de terapias con más respaldo, como la cognitivo-conductual. Ofrece sobre todo un lenguaje claro para conflictos cotidianos y respeto por la cultura de quien consulta.
+
 ## Para seguir leyendo
 
 - Peseschkian, N. (1986). *Positive Psychotherapy: Theory and Practice of a New Method*. Berlín: Springer.

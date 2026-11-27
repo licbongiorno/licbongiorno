@@ -64,6 +64,20 @@ Si esta lectura te trae a la memoria una separación o una pérdida propia, es r
 
 Este texto forma parte de la serie sobre la psicología aborigen australiana. Podés empezar por [el mapa de la psicología aborigen australiana](/recursos/mapa-de-la-psicologia-aborigen-australiana/) y consultar el [glosario de psicología aborigen australiana](/glosario-de-psicologia-aborigen-australiana/). Sigue con [el bienestar social y emocional aborigen](/recursos/bienestar-social-y-emocional-aborigen/) y [dadirri, la escucha en profundidad](/recursos/dadirri-escuchar-en-profundidad/). Otros textos cercanos: [el trauma histórico de los pueblos originarios](/recursos/trauma-historico-de-los-pueblos-originarios/) y [la salud intercultural en Argentina](/recursos/salud-intercultural-en-argentina/).
 
+## Preguntas frecuentes
+
+### ¿Qué fueron las Generaciones Robadas?
+
+Son los niños aborígenes y de las islas del Estrecho de Torres que fueron separados de sus familias y comunidades por decisión de los estados, las iglesias u organismos oficiales, desde fines del siglo XIX hasta los años setenta. Muchos perdieron el contacto con su lengua, su parentesco y su territorio. El informe Bringing Them Home de 1997 lo documentó.
+
+### ¿Qué es el trauma intergeneracional?
+
+Es la idea, propuesta por Judy Atkinson, de que lo que sufre una generación marca el clima de las siguientes: a través de la crianza, los vínculos, el silencio y las condiciones sociales que siguen vigentes. Tiene respaldo clínico y comunitario, pero los mecanismos están en discusión y la transmisión biológica no está probada en seres humanos.
+
+### ¿Cómo trabaja la clínica con estas historias?
+
+Una lectura puramente individual del estrés postraumático se queda corta: el sufrimiento incluye la ruptura de vínculos con la familia, la lengua y el territorio. Los servicios australianos hablan de atención con conocimiento del trauma y seguridad cultural, que significa preguntar qué necesita la persona y su familia antes de aplicar un protocolo.
+
 ## Para seguir leyendo
 
 - Human Rights and Equal Opportunity Commission (1997). *Bringing Them Home: Report of the National Inquiry into the Separation of Aboriginal and Torres Strait Islander Children from Their Families*. Sídney.

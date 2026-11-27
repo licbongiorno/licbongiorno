@@ -58,6 +58,20 @@ El aporte de la escuela está en haber puesto en el centro la idea de que la men
 
 La escuela de la Gestalt tiene su lugar en el [mapa de dónde nació la psicología](/recursos/donde-nacio-la-psicologia/), y sus términos están en el [glosario de la psicología occidental](/glosario-de-la-psicologia-occidental/).
 
+## Preguntas frecuentes
+
+### ¿Qué significa «Gestalt»?
+
+Es una palabra alemana difícil de traducir: se suele verter como forma, configuración o estructura organizada. No se refiere al contorno sino a la totalidad con sus relaciones internas, que no equivale a la suma de las partes, como una melodía que sigue siendo la misma en otra tonalidad.
+
+### ¿La psicología de la Gestalt es lo mismo que la terapia gestalt?
+
+No. La psicología de la Gestalt es la escuela experimental de Wertheimer, Köhler y Koffka sobre percepción y pensamiento. La terapia gestalt la crearon después Fritz y Laura Perls y Paul Goodman, tomando el nombre y algunas ideas pero combinándolas con otras fuentes. Su respaldo científico también es distinto.
+
+### ¿Qué son las leyes de la organización perceptiva?
+
+Son principios que describen cómo agrupamos lo que vemos: proximidad, semejanza, cierre, buena continuidad y la tendencia a la «buena forma». Tienen respaldo experimental amplio y se usan en cursos de percepción y en diseño gráfico, aunque algunas explicaciones neurológicas de la escuela fueron superadas.
+
 ## Para seguir leyendo
 
 - Wertheimer, M. (1912). «Experimentelle Studien über das Sehen von Bewegung». *Zeitschrift für Psychologie*, 61.

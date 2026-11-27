@@ -11,7 +11,7 @@ orden: 149
 estado: publicado
 respuesta: El Movimiento Auténtico es una práctica en la que una persona se mueve con los ojos cerrados mientras otra la acompaña como testigo, descripta primero por Mary Starks Whitehouse y desarrollada por Janet Adler. La arteterapia usa la creación de imágenes como vía terapéutica, con Margaret Naumburg y Edith Kramer como figuras fundacionales. En Movimiento Auténtico hay poca investigación controlada.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una sala con poca gente. Una persona se mueve y otra, sentada a un costado, la mira sin corregir ni interpretar nada. Después, quien se movió cuenta lo que vivió, y quien miró cuenta lo que le pasó a ella mientras miraba. Así, a grandes rasgos, funciona una sesión de Movimiento Auténtico. Más adelante, el otro lado de esta nota: la arteterapia, que pone una imagen en el lugar del movimiento.
 
@@ -55,3 +55,14 @@ Si estás en una situación de urgencia o de riesgo, llamá al 911 o al Centro d
 Para ubicar estas prácticas entre las demás, mirá [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Para explorar en primera persona el tono, la postura y el movimiento, pasá por [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
 
 Lecturas: Pallaro, P. (ed.) (1999), *Authentic Movement: Essays by Mary Starks Whitehouse, Janet Adler and Joan Chodorow*. Kramer, E. (1958), *Art Therapy in a Children's Community*.
+
+## Preguntas frecuentes
+
+### ¿Qué hace el testigo en el Movimiento Auténtico?
+Acompaña con atención a quien se mueve, sin dirigir, evaluar ni interpretar. Es lo más característico del método, desarrollado por Janet Adler: quien se mueve sabe que está siendo visto, y eso cambia la experiencia de moverse.
+
+### ¿Qué diferencia hay entre «arte en terapia» y «arte como terapia»?
+Es una diferencia de énfasis entre Margaret Naumburg y Edith Kramer. Para Naumburg, la imagen es una vía hacia lo que se habla en la sesión; para Kramer, el propio acto de crear ya tiene valor terapéutico.
+
+### ¿Qué evidencia tienen y qué cuidados hay que tener?
+En Movimiento Auténtico hay poca investigación controlada, y en arteterapia lo prudente es no prometer resultados. Moverse con los ojos cerrados frente a otra persona o crear una imagen inesperada puede movilizar emociones intensas, por lo que conviene hacerlo con alguien formado y con libertad para parar.

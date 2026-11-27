@@ -11,7 +11,7 @@ orden: 205
 estado: publicado
 respuesta: El trastorno límite de la personalidad se caracteriza por inestabilidad emocional, vínculos intensos, miedo al abandono, impulsividad y, a veces, autolesiones. Las psicoterapias tienen respaldo: una revisión Cochrane con 75 ensayos mostró efectos beneficiosos frente a la atención habitual. Con los años, la mayoría deja de cumplir criterios.
 menciona: marsha-linehan
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Una joven le escribe a una amiga a las tres de la mañana: «sentí que ya no te importo». La amiga había tardado unas horas en responder un mensaje. Para ella, un retraso normal. Para quien escribe, una señal de que la van a abandonar, con una intensidad que le recorre todo el cuerpo. Horas después puede sentir una calma enorme, o culpa por haber escrito de esa manera. Esa montaña rusa emocional es una parte central de lo que se llama trastorno límite de la personalidad.
 
@@ -64,3 +64,17 @@ Desde el psicoanálisis, [Otto Kernberg](/recursos/otto-kernberg/) describió la
 Este artículo es informativo y no reemplaza un diagnóstico. Solo un profesional que te conozca puede evaluarlo. Si te reconocés en lo que describe, consultar con psicología o psiquiatría es un buen primer paso.
 
 Lecturas: Storebø, O. J. y colaboradores (2020), «Psychological therapies for people with borderline personality disorder», *Cochrane Database of Systematic Reviews*. Gunderson, J. G. y colaboradores (2011), seguimiento longitudinal del trastorno límite de la personalidad.
+
+## Preguntas frecuentes
+
+### ¿El trastorno límite de la personalidad tiene cura?
+
+El pronóstico es mejor de lo que se cree. En estudios de seguimiento a diez años, alrededor del 85 % de las personas dejó de cumplir los criterios del trastorno. Existen psicoterapias con respaldo, como la terapia dialéctico-conductual, que trabaja habilidades para tolerar el malestar, regular emociones y cuidar los vínculos.
+
+### ¿Cómo acompañar a alguien con estas dificultades?
+
+Ayuda validar la emoción sin necesariamente acordar con todo, poner límites con calma y sin castigar, responder con previsibilidad y animar el tratamiento como una forma de cuidado, sin ultimátums. Acompañar cansa, así que pedir apoyo para uno mismo también es parte de hacerlo.
+
+### ¿Las personas con este diagnóstico son manipuladoras?
+
+No. Lo que a veces se describe como manipulación suele ser un modo desesperado de pedir ayuda ante un dolor muy grande. La etiqueta «es una borderline» se usó como rechazo, incluso en ámbitos de salud, y eso es estigma. Quien lo vive no elige sentir así y suele ser la primera en agotarse.

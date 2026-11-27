@@ -55,6 +55,20 @@ Si estás atravesando una pérdida y sentís que no podés más, consultá con u
 - [Psicología budista](/recursos/psicologia-budista/)
 - [Experiencia mística](/recursos/experiencia-mistica/)
 
+## Preguntas frecuentes
+
+### ¿Qué significa realmente «Libro tibetano de los muertos»?
+
+Es un título que puso el editor Evans-Wentz en 1927, por analogía con el libro egipcio. El nombre tibetano, Bardo Thödol, significa algo cercano a «gran liberación por escucha en el estado intermedio». Es un texto ritual que se lee junto al moribundo o al difunto, y que también se dirige a los vivos.
+
+### ¿Cómo lo leyó Jung?
+
+Jung escribió un comentario psicológico donde interpretó las visiones del bardo como proyecciones de contenidos de la propia mente, una especie de mapa del encuentro con el inconsciente. Es una lectura occidental y creativa: los especialistas señalan que deja de lado el marco de karma y renacimiento que el texto tiene para quienes lo practican.
+
+### ¿Puede servir a quien acompaña una pérdida?
+
+Sin necesidad de creer en el renacimiento, algunas ideas pueden resonar: hablarle a quien muere, darle a la despedida un ritual con tiempo y asumir que el vínculo con quien se fue continúa de algún modo. No es un manual de duelo ni una terapia. Ante un dolor que no cede, conviene consultar a un profesional.
+
 ## Para seguir leyendo
 
 - Evans-Wentz, W. Y. (ed.) (1927). *The Tibetan Book of the Dead*. Oxford University Press.

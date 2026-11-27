@@ -83,6 +83,17 @@ Una psicología culturalmente atenta no reemplaza la atención clínica. Si sent
 
 Ubicá este movimiento junto a los demás en el [mapa de las psicologías del Pacífico](/recursos/mapa-de-las-psicologias-del-pacifico/). Para otros caminos hacia una psicología con raíces locales, mirá el [mapa de los saberes psicológicos de los pueblos originarios](/recursos/mapa-de-los-saberes-psicologicos-de-los-pueblos-originarios/) y el [mapa de la psicología africana](/recursos/mapa-de-la-psicologia-africana/).
 
+## Preguntas frecuentes
+
+### ¿Qué es la Sikolohiyang Pilipino?
+Es la psicología filipina, un movimiento impulsado por Virgilio Enriquez desde los años setenta. Critica que se usaran como universales instrumentos y teorías de Estados Unidos, y propone construir teoría desde la lengua, la historia y las categorías de la propia cultura.
+
+### ¿Qué significa kapwa?
+Se traduce como «el otro» o «prójimo», pero Enriquez insistía en que nombra una identidad compartida: el otro y yo somos, en cierto modo, lo mismo. Alrededor aparecen conceptos como *loób* (el interior de la persona), *pakikiramdam* (captar lo que siente el otro) y *hiya* (pudor y sentido del lugar propio en el grupo).
+
+### ¿Estos conceptos sirven para describir a «el filipino»?
+No. Describen tendencias, no a cada persona, y Filipinas tiene más de cien lenguas, islas y clases distintas. Tienen investigación acotada y no son un instrumento de diagnóstico: usarlos para etiquetar a alguien sería esencializar.
+
 ## Para seguir leyendo
 
 - Enriquez, V. G. (1992). *From Colonial to Liberation Psychology: The Philippine Experience*. Quezon City: University of the Philippines Press.

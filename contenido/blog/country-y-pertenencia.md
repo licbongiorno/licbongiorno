@@ -63,6 +63,20 @@ Si el desarraigo, un duelo o la distancia de un lugar querido te dejan sin ganas
 - [Laboratorio de dadirri](/laboratorio-de-dadirri/)
 - [Salud intercultural en Argentina](/recursos/salud-intercultural-en-argentina/)
 
+## Preguntas frecuentes
+
+### ¿Country es lo mismo que «conexión con la naturaleza»?
+
+No. Para los pueblos aborígenes de Australia, Country es un territorio con el que se tiene un vínculo de parentesco y obligación: incluye tierra, aguas, animales, ancestros y leyes. Traducirlo a «conexión con la naturaleza» lo vacía de lo que tiene de más fuerte, y cada pueblo tiene además su propio Country.
+
+### ¿Qué es el «longing for Country»?
+
+Es la expresión con que muchas personas describen la añoranza del territorio cuando viven lejos de él, por traslados forzados, separación familiar o vida en la ciudad. No es un diagnóstico ni una escala validada: es una forma, nombrada por las propias personas, de decir un sufrimiento que tiene historia.
+
+### ¿Qué dice la investigación sobre cuidar Country y la salud?
+
+Hay estudios que asocian una mayor participación en el cuidado del territorio con mejores indicadores de salud, y relatos cualitativos que lo ubican como base del bienestar. Pero la mayoría son transversales o cualitativos, así que no permiten saber en qué dirección va la relación ni probar efectos de un programa concreto.
+
 ## Para seguir leyendo
 
 - Rose, D. B. (1996). *Nourishing Terrains: Australian Aboriginal Views of Landscape and Wilderness*. Canberra: Australian Heritage Commission.

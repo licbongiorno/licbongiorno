@@ -11,7 +11,7 @@ orden: 179
 estado: publicado
 respuesta: El TDAH en adultos es un trastorno del neurodesarrollo cuyos síntomas empezaron en la infancia y que debe ser diagnosticado por un profesional. Un metaanálisis estimó que lo tiene persistente un 2,58 % de los adultos. No todo despiste o dificultad para concentrarse es TDAH, y los videos de redes no sirven para autodiagnosticarse.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Lucía mira un video de treinta segundos que dice: «Si te cuesta empezar tareas, si perdés las llaves, si te distraés en las reuniones, tenés TDAH». Se reconoce en todo. Le manda el video a una amiga, que también se reconoce. Esa noche duerme cuatro horas, tiene un trabajo exigente, viene con un año de mucha ansiedad, y se queda con una certeza que nadie evaluó.
 
@@ -52,3 +52,17 @@ Si te reconocés en lo que leíste, el paso sensato es una consulta con un profe
 - El sueño y la atención: [el laboratorio de insomnio](/laboratorio-de-insomnio/).
 
 Lecturas: Song, P. y colaboradores (2021), «The prevalence of adult attention-deficit hyperactivity disorder: a global systematic review and meta-analysis», *Journal of Global Health*, 11, 04009. Safren, S. A. y colaboradores (2010), «Cognitive behavioral therapy vs relaxation with educational support for medication-treated adults with ADHD and persistent symptoms: a randomized controlled trial», *JAMA*.
+
+## Preguntas frecuentes
+
+### ¿Cómo sé si tengo TDAH o si es estrés, ansiedad o falta de sueño?
+
+No se puede saber con un video o un listado de conductas. Las dificultades de atención aparecen también en la ansiedad, la depresión, el sueño insuficiente, el estrés sostenido y algunas condiciones médicas. El diagnóstico lo hace un profesional, con una evaluación que incluye el inicio en la infancia.
+
+### ¿Qué tratamientos hay para el TDAH en adultos?
+
+El abordaje suele combinar psicoeducación, herramientas de organización, ajustes del entorno y, cuando el médico lo indica, medicación, que se evalúa caso por caso. Un ensayo pequeño en adultos que ya tomaban medicación mostró que la terapia cognitivo-conductual ayudó más que la relajación con apoyo educativo.
+
+### ¿Se puede tener TDAH sin haberlo notado de chico?
+
+Sí, hay personas que pasaron la vida pensando que eran «vagas» o «desorganizadas» y sí tenían un trastorno sin diagnosticar. Pero el diagnóstico requiere que los síntomas hayan empezado en la infancia, aunque se hayan notado tarde. Una consulta con datos concretos de desde cuándo y en qué situaciones te pasa ayuda a evaluarlo.

@@ -11,7 +11,7 @@ orden: 218
 estado: publicado
 respuesta: Paul Gilbert es un psicólogo clínico británico, creador de la terapia centrada en la compasión (CFT). Su modelo propone al menos tres sistemas de regulación emocional: amenaza y protección, logro y búsqueda de recursos, y calma o afiliación. Trabajó en especial con la vergüenza y la autocrítica, y expuso su enfoque en el libro The Compassionate Mind (2009; La mente compasiva).
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 ¿Qué pasa cuando alguien se trata con dureza y, aun sabiendo que no le sirve, no puede parar? Paul Gilbert construyó una terapia entera alrededor de esa pregunta. Su respuesta: la autocrítica y la vergüenza no se resuelven a fuerza de voluntad, sino aprendiendo a activar otro sistema emocional, el de la calma y el cuidado.
 
@@ -48,6 +48,17 @@ Lo que quedó en pie es la utilidad clínica de una pregunta simple: ¿desde qu�
 Lo que se discute es, como en toda propuesta amplia, hasta dónde la división en tres sistemas describe con precisión la biología y hasta dónde funciona como metáfora útil. El propio planteo habla de «al menos» tres sistemas, lo que deja abierta la puerta a otras descripciones. Tampoco conviene tomar la compasión como una receta universal: hay personas para quienes recibir calidez al principio genera miedo o incomodidad, y ese dato clínico merece paciencia y acompañamiento profesional.
 
 Como lector, lo más sensato es tomar el modelo como un mapa para pensar la propia experiencia, no como una verdad cerrada. Si algo de esto te resuena, probablemente valga la pena conversarlo con un profesional.
+
+## Preguntas frecuentes
+
+### ¿Qué es la terapia centrada en la compasión?
+Es la terapia creada por el psicólogo clínico británico Paul Gilbert (CFT, por sus siglas en inglés). Parte de la idea de que la autocrítica y la vergüenza no se resuelven a fuerza de voluntad y trabaja para cultivar una motivación a cuidar y aliviar el sufrimiento.
+
+### ¿Cuáles son los tres sistemas de regulación emocional?
+Amenaza y protección, logro y búsqueda de recursos, y calma o afiliación. Según el modelo, muchas personas con vergüenza y autocrítica tienen muy activo el sistema de amenaza y poco desarrollado el de calma, y la terapia busca equilibrarlos.
+
+### ¿Compasión significa ser blando con uno mismo?
+No. Se trata de una motivación a cuidar y aliviar el sufrimiento que a veces exige coraje, como mirar de frente lo que duele en lugar de evitarlo. Y el modelo de los tres sistemas conviene tomarlo como un mapa para pensar, no como una verdad cerrada.
 
 ## Para seguir leyendo
 

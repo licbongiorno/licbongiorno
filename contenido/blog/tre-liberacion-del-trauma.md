@@ -11,7 +11,7 @@ orden: 134
 estado: publicado
 respuesta: Los TRE, ejercicios de David Berceli, buscan inducir temblores para liberar tensión y trauma. El mecanismo de los temblores neurogénicos se basa sobre todo en hipótesis del autor y no está establecido. Los estudios disponibles son pequeños, exploratorios y con resultados mixtos. No reemplazan una psicoterapia para el trauma.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Un ejercicio que hace temblar las piernas, con las rodillas flexionadas y el cuerpo apoyado en el suelo. Quien lo practica dice que sentir el temblor libera tensión. Esa promesa es lo que atrae de los ejercicios TRE. Vale la pena mirarla de cerca, porque en este caso lo que se afirma va bastante más allá de lo que hoy se puede sostener.
 
@@ -56,6 +56,17 @@ Para ubicar el método dentro de un panorama más amplio, hay lecturas que ayuda
 - El [laboratorio de regulación](/laboratorio-de-regulacion/) propone prácticas breves para bajar la activación sin forzar nada.
 
 Si pensás en el TRE como complemento, sería mejor hablarlo con un psicólogo que conozca el trauma y pueda decir qué lugar tendría en tu proceso. Y si hay pensamientos de hacerte daño, la urgencia va primero: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
+
+## Preguntas frecuentes
+
+### ¿Qué son los ejercicios TRE?
+Son los Tension and Trauma Releasing Exercises, propuestos por David Berceli: una serie de ejercicios que fatigan las piernas hasta que aparece un temblor que se presenta como liberador de tensión. El alivio que algunas personas sienten es real, pero eso no prueba la explicación del método.
+
+### ¿Tratan el trauma?
+La evidencia no permite afirmarlo. Los estudios son pequeños, exploratorios y con diseños limitados, y no se puede decir que los temblores sean el mecanismo activo. La explicación proviene sobre todo del propio autor del método.
+
+### ¿Se pueden usar como complemento?
+Alguien puede encontrar en el ejercicio un rato de calma. Si lo pensás como complemento, conviene hablarlo con un psicólogo que conozca el trauma, y si genera malestar intenso, recuerdos que irrumpen o sensación de desborde, hay que detenerse y apoyarse en la respiración y en el entorno.
 
 ## Para seguir leyendo
 

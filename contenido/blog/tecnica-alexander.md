@@ -11,7 +11,7 @@ orden: 145
 estado: publicado
 respuesta: La técnica Alexander es un método de educación del movimiento y la postura creado por F. M. Alexander, un actor australiano. Trabaja con tres ideas: el uso del cuerpo, la inhibición de la reacción habitual y la dirección. No es una psicoterapia. Tiene ensayos controlados en dolor de espalda y de cuello.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien se sienta a escribir y, sin darse cuenta, se encoge hacia la pantalla, aprieta el cuello y contiene la respiración. Se levanta con la espalda dolorida y piensa que le tocó una mala silla. La técnica Alexander propone mirar otra cosa: no la silla, sino lo que esa persona hace con su cuerpo cada vez que se sienta.
 
@@ -48,3 +48,14 @@ Si el cuerpo que se observa trae recuerdos o emociones difíciles, vale la pena 
 Hay otro método de educación corporal con un nombre parecido, la [eutonía](/recursos/eutonia/), que no tiene relación con esta técnica ni con su creador. Para ubicar a ambos entre las demás propuestas, podés ver [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
 
 Lecturas: Little, P. y colaboradores (2008), «Randomised controlled trial of Alexander technique lessons, exercise, and massage (ATEAM) for chronic and recurrent back pain», *BMJ*, 337, a884. MacPherson, H. y colaboradores (2015), «Alexander Technique Lessons or Acupuncture Sessions for Persons With Chronic Neck Pain: A Randomized Trial», *Annals of Internal Medicine*, 163, 653–662.
+
+## Preguntas frecuentes
+
+### ¿Qué es la técnica Alexander?
+Es un método de educación del movimiento y la postura creado por F. M. Alexander. Propone observar cómo se usa el cuerpo al sentarse, caminar o hablar, con ideas como el uso, la inhibición (la pausa antes de reaccionar) y la dirección. No es psicoterapia ni un tratamiento.
+
+### ¿Sirve para el dolor de espalda?
+Hay ensayos controlados que lo apoyan: uno de 2008 con 579 pacientes mostró que seis lecciones seguidas de ejercicio fueron casi tan eficaces como 24 lecciones para el dolor de espalda crónico o recurrente. También hay un ensayo sobre dolor cervical. Esos estudios no permiten extrapolar a otros problemas, y menos a los psicológicos.
+
+### ¿Cómo es una lección?
+Es individual. El docente observa cómo la persona se sienta, se para o camina, y la guía con indicaciones verbales y con las manos para que note lo que hace por costumbre. No hay ejercicios que se hagan «bien» o «mal», y no apunta a fijar una postura correcta definitiva. Un dolor persistente necesita evaluación médica.

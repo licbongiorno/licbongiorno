@@ -11,7 +11,7 @@ orden: 185
 estado: publicado
 respuesta: Quienes cuidan a un familiar muestran, en promedio, más estrés y depresión y menos bienestar que quienes no cuidan, sobre todo en lo psicológico. La sobrecarga, la culpa, el enojo y la ambivalencia son esperables. Ayudan repartir las tareas, pedir y aceptar ayuda, hacer descansos y consultar cuando el desgaste se sostiene.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 Son las seis de la mañana y Marta ya está despierta. Prepara los remedios de su mamá, ordena los turnos de la semana, piensa en qué cocinar. Su hermano la llama para preguntar cómo anda todo y ella responde «bien». Después se queda un rato mirando la taza, con un cansancio que no sabe nombrar y una culpa por sentirlo. Cuidar a un familiar es un acto de amor, y también puede ser un trabajo agotador. Las dos cosas pueden ser ciertas al mismo tiempo.
 
@@ -69,3 +69,14 @@ Si el agotamiento viene con desesperanza o con pensamientos de hacerte daño, no
 - [Vejez y jubilación](/recursos/vejez-y-jubilacion/)
 
 Lecturas: Pinquart, M. y Sörensen, S. (2003), «Differences between caregivers and noncaregivers in psychological health and physical health: a meta-analysis», *Psychology and Aging*, 18(2), 250-267. Zarit, S. H., Reever, K. E. y Bach-Peterson, J. (1980), «Relatives of the impaired elderly: correlates of feelings of burden», *The Gerontologist*, 20(6), 649-655.
+
+## Preguntas frecuentes
+
+### ¿Es normal sentir enojo o cansancio al cuidar a un familiar?
+Sí, es esperable y no habla de falta de cariño. Habla de una situación exigente sostenida en el tiempo. La investigación muestra que, en promedio, quienes cuidan tienen más estrés y peor ánimo, aunque no a todos les pasa lo mismo y muchos también encuentran sentido y cercanía.
+
+### ¿Cómo pido ayuda sin sentir culpa?
+Ayuda anotar todas las tareas, incluidas las invisibles, y repartirlas en la familia por nombre y con tiempos definidos, en lugar de esperar a que alguien se ofrezca. También sirve aceptar que otro lo haga distinto y sumar apoyos externos. Los descansos forman parte del cuidado.
+
+### ¿Qué es el duelo anticipado?
+Es la tristeza por lo que se va perdiendo de la persona cuidada, como una conversación o un rol, mientras todavía está presente. Muchas veces no se reconoce como duelo. Ponerle nombre y contarlo en una consulta o a alguien de confianza suele aliviar.

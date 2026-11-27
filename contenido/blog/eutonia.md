@@ -11,7 +11,7 @@ orden: 146
 estado: publicado
 respuesta: La eutonía es una educación corporal creada por Gerda Alexander (1908–1994), docente de rítmica Dalcroze. Trabaja con el tono, el contacto y la conciencia de la piel y del apoyo. No es psicoterapia y no hay ensayos controlados conocidos. Gerda Alexander no era pariente de F. M. Alexander.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una persona se acuesta en el piso, boca arriba, y la consigna es simple: notar dónde su cuerpo toca el suelo. La espalda, la nuca, los talones. No se trata de relajarse a la fuerza ni de corregir nada. Se trata de registrar el apoyo, y de ver si algo cambia cuando la atención se queda ahí un rato. Ese tipo de escena es habitual en una clase de eutonía.
 
@@ -50,6 +50,20 @@ Si una persona busca tratamiento para un trastorno, la eutonía no lo reemplaza.
 ## Para seguir
 
 Para ver cómo se ubica entre otras propuestas, podés recorrer [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/). Y para comparar con el otro método que lleva el apellido Alexander, está el artículo sobre la [técnica Alexander](/recursos/tecnica-alexander/).
+
+## Preguntas frecuentes
+
+### ¿Es lo mismo la eutonía que la técnica Alexander?
+
+No. Gerda Alexander, creadora de la eutonía, no era pariente de F. M. Alexander, creador de la técnica Alexander. Comparten el apellido y el interés por la educación del cuerpo, pero son dos métodos distintos y con orígenes distintos.
+
+### ¿Cómo es una clase de eutonía?
+
+Suele proponer registrar el cuerpo con la atención, por ejemplo notar dónde toca el suelo la espalda, la nuca o los talones, o percibir la piel y el contacto con objetos y otras personas. No se trata de relajarse a la fuerza ni de corregir nada, sino de percibir cómo cambia el tono sin que nadie diga qué se debería sentir.
+
+### ¿Sirve para tratar un trastorno?
+
+No es una psicoterapia ni un tratamiento: es una educación corporal. No hay ensayos controlados conocidos que evalúen sus efectos, y su respaldo es pedagógico y de práctica sostenida. Puede ser un complemento para ganar conciencia corporal. Si al registrar el cuerpo aparecen emociones que abruman, conviene llevarlo a una consulta psicológica.
 
 ## Para seguir leyendo
 

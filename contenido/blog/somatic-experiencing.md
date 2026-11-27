@@ -11,7 +11,7 @@ orden: 143
 estado: publicado
 respuesta: Somatic Experiencing es un enfoque corporal del trauma creado por Peter Levine, expuesto en Waking the Tiger (1997). Hay un ensayo aleatorizado con resultados positivos en TEPT y una revisión de alcance con evidencia inicial favorable, aunque de calidad mixta. Los autores coinciden en que hace falta más investigación.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Una persona sobrevivió a un episodio de violencia hace años. Hoy está bien, trabaja, se ríe, pero cuando alguien se le acerca por detrás siente el pecho apretado, las manos frías, las ganas de irse. No hay una historia nueva que contar: hay una sensación que sigue ahí. Somatic Experiencing parte de ese punto, de lo que el cuerpo registra, más que de lo que la persona puede relatar.
 
@@ -57,3 +57,17 @@ Si estás en un momento de mucho sufrimiento o pensás en hacerte daño, pedí a
 Para ver dónde se ubica Somatic Experiencing entre otras propuestas, está [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/). Y para explorar la relación entre tono, postura y movimiento desde la propia experiencia, [el laboratorio de tono, postura y movimiento](/laboratorio-de-tono-postura-y-movimiento/).
 
 Lecturas: Levine, P. (1997), *Waking the Tiger*. Brom, D. y colaboradores (2017), «Somatic Experiencing for posttraumatic stress disorder: a randomized controlled outcome study», *Journal of Traumatic Stress*, 30(3), 304–312. Kuhfuß, M., Maldei, T., Hetmanek, A. y Baumann, N. (2021), «Somatic experiencing – effectiveness and key factors of a body-oriented trauma therapy: a scoping literature review», *European Journal of Psychotraumatology*, 12(1), 1929023.
+
+## Preguntas frecuentes
+
+### ¿En qué se diferencia Somatic Experiencing de otras terapias del trauma?
+
+Muchas parten de la narración: contar lo que pasó y ponerle palabras. Somatic Experiencing propone notar con atención lo que ocurre en el cuerpo, como tensión, temperatura o impulsos de moverse, y trabajar desde ahí. Puede interesar a quien le cuesta hablar de lo vivido, pero no es mejor que otros caminos.
+
+### ¿Tiene respaldo científico?
+
+Tiene respaldo inicial: un ensayo controlado aleatorizado con resultados positivos en estrés postraumático y una revisión de alcance que halló evidencia inicial de impacto en síntomas y bienestar. Los propios autores piden más investigación, así que no es un método cerrado ni comprobado en todos los casos.
+
+### ¿Puedo practicarlo por mi cuenta?
+
+No se recomienda forzarlo solo. Trabajar con sensaciones ligadas al trauma puede mover cosas intensas, y conviene hacerlo con un profesional formado y sin llevar al cuerpo más lejos de lo que tolera. Si algo te desborda, frená y consultá.

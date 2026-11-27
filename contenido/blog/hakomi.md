@@ -11,7 +11,7 @@ orden: 131
 estado: publicado
 respuesta: Hakomi es una psicoterapia corporal creada por Ron Kurtz, que trabaja con la atención plena, los gestos y la postura para acceder a creencias inconscientes sobre uno mismo y los vínculos. Se apoya en cinco principios: atención plena, no violencia, organicidad, unidad y holismo mente-cuerpo. Su evidencia es todavía escasa y en su mayoría clínica.
 menciona: eugene-gendlin
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Un gesto que se repite cada vez que alguien se sienta a hablar de su pareja. Una postura que se cierra al hablar de dinero. Una mirada que se aparta sin que la persona lo note. Hakomi parte de la idea de que esos detalles corporales no son ruido: pueden expresar creencias que la persona no formuló como tales, y que organizan cómo se relaciona con los demás.
 
@@ -48,3 +48,14 @@ Hay dos cuidados que conviene tener presentes. Primero, la creencia que aparece 
 Hakomi puede ser útil para quien siente que sabe lo que le pasa, pero no logra cambiarlo, porque el problema vive en lo que hace su cuerpo sin que lo registre. También puede ser un buen complemento de otras terapias. Lo que no conviene es confundir la curiosidad por un gesto con una interpretación cerrada de la vida de alguien.
 
 Lecturas: Kurtz, R. (1990), *Body-Centered Psychotherapy: The Hakomi Method*, LifeRhythm. Weiss, H., Johanson, G. y Monda, L. (eds.) (2015), *Hakomi Mindfulness-Centered Somatic Psychotherapy: A Comprehensive Guide to Theory and Practice*, W. W. Norton.
+
+## Preguntas frecuentes
+
+### ¿Qué es Hakomi?
+Es una psicoterapia corporal desarrollada por Ron Kurtz que combina atención plena con el trabajo sobre gestos, posturas y respiración. Parte de la idea de que esos detalles corporales pueden expresar creencias que la persona no formuló.
+
+### ¿Cómo se trabaja en una sesión de Hakomi?
+El terapeuta observa algo concreto, como un gesto o un cambio de tono, y propone un experimento: ampliar ese movimiento y notar qué aparece. La persona descubre el sentido con la guía del terapeuta y lo pone en sus propias palabras, sin interpretación desde afuera.
+
+### ¿Qué evidencia tiene?
+La investigación controlada es escasa: hay descripciones clínicas, estudios de caso y algunos trabajos pequeños. Eso no permite decir que sea más o menos eficaz que otras terapias. Si la exploración corporal desborda, se vuelve a la respiración y al apoyo del terapeuta.

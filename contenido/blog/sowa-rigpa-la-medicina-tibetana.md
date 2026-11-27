@@ -63,6 +63,17 @@ Si el malestar es intenso o prolongado, consultá a un profesional de la salud. 
 - [Acupuntura y salud mental](/recursos/acupuntura-y-salud-mental/)
 - [Psicología budista](/recursos/psicologia-budista/)
 
+## Preguntas frecuentes
+
+### ¿Qué es el Sowa Rigpa?
+Significa «ciencia de curar» y es el sistema médico tradicional del Tíbet, practicado también en el Himalaya. Su texto central son los *Cuatro Tantras* y se organiza alrededor de tres humores: *lung* (viento), *tripa* (bilis) y *béken* (flema). Es un sistema en uso, con practicantes y pacientes.
+
+### ¿Qué es el lung y qué relación tiene con la ansiedad?
+En la tradición, un desequilibrio del *lung* se asocia con inquietud, palpitaciones, insomnio, opresión en el pecho y angustia. El DSM-5 lo ubica entre los conceptos culturales de malestar: es un lenguaje que organiza la experiencia y no un diagnóstico, así que el profesional puede escucharlo mientras evalúa si hay ansiedad, depresión, duelo o estrés postraumático.
+
+### ¿Tiene respaldo científico?
+La teoría de los tres humores y del *lung* no cuenta con respaldo científico como explicación de la ansiedad, el insomnio o la depresión. Algunos preparados tradicionales incluyen minerales y metales procesados cuya composición varía, por lo que conviene contarle al médico y al profesional de salud mental qué se toma, sobre todo si hay medicación.
+
 ## Para seguir leyendo
 
 - Clifford, T. L. (1984). *Tibetan Buddhist Medicine and Psychiatry: The Diamond Healing*. Samuel Weiser.

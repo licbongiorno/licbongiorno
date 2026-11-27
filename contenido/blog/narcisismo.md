@@ -11,7 +11,7 @@ orden: 206
 estado: publicado
 respuesta: En redes, narcisista se usa como insulto para cualquier persona difícil. El trastorno narcisista de la personalidad, en cambio, es un diagnóstico del DSM-5 que solo puede hacer un profesional. Pincus y Lukowitsky (2010) describieron dos expresiones del narcisismo patológico: grandiosa y vulnerable, esta última con fragilidad, vergüenza e hipersensibilidad a la crítica.
 menciona: heinz-kohut
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 En una conversación de grupo alguien cuenta que su ex nunca pidió disculpas. Pasan tres minutos y ya hay un veredicto unánime: «es un narcisista». La palabra circula en redes como etiqueta para el jefe prepotente, la pareja que se fue mal, el amigo que habla solo de sí mismo. Sirve para ordenar el enojo y, al mismo tiempo, borra casi todo lo que la psicología tiene para decir sobre el tema.
 
@@ -66,3 +66,17 @@ Otto Kernberg también estudió la patología narcisista: ver [Otto Kernberg](/r
 Este artículo es informativo y no reemplaza una evaluación profesional.
 
 Lecturas: Pincus, A. L. y Lukowitsky, M. R. (2010), «Pathological narcissism and narcissistic personality disorder», *Annual Review of Clinical Psychology*, 6, 421-446.
+
+## Preguntas frecuentes
+
+### ¿Es lo mismo ser narcisista que tener trastorno narcisista de la personalidad?
+
+No. Todos tenemos momentos de egocentrismo o de necesitar reconocimiento, y eso no es un trastorno. El trastorno es un diagnóstico del DSM-5 que describe un patrón persistente y de larga data que afecta la identidad, la autoestima y los vínculos, y solo puede evaluarlo un profesional tras conocer a la persona.
+
+### ¿Qué diferencia hay entre narcisismo grandioso y vulnerable?
+
+El grandioso es el más conocido: seguridad exhibida, sensación de superioridad y necesidad de admiración. El vulnerable es menos visible: fragilidad, vergüenza e hipersensibilidad a la crítica, y puede parecer retraído o ansioso. En ambos casos la autoestima puede ser muy frágil por dentro.
+
+### ¿Puedo saber si mi ex o mi jefe es narcisista por una lista de señales?
+
+No de forma confiable. Diagnosticar a distancia, a partir de un relato o de un video, es injusto, y las listas virales no tienen respaldo. Sea cual sea el nombre, si en un vínculo sentís miedo, descalificación constante, control o aislamiento, tu malestar importa y conviene consultar.

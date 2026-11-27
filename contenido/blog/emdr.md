@@ -11,7 +11,7 @@ orden: 142
 estado: publicado
 respuesta: El EMDR (desensibilización y reprocesamiento por movimientos oculares) es un tratamiento para el trauma creado por Francine Shapiro. La OMS lo recomienda para el TEPT en adultos, junto con la terapia cognitivo-conductual centrada en el trauma. Se hace con un terapeuta formado; no es un ejercicio para practicar solo. Sigue en discusión si los movimientos oculares son el ingrediente activo.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguien te cuenta que, después de un accidente, cada vez que escucha un frenazo el cuerpo se le dispara antes de que pueda pensar. Sabe que ya pasó, lo sabe perfectamente, pero la alarma no le hace caso. Para situaciones así se desarrolló el EMDR, una de las terapias del trauma más conocidas y también una de las más discutidas en cuanto a cómo funciona.
 
@@ -50,3 +50,14 @@ Si querés ubicar el EMDR entre otras formas de trabajar con el cuerpo y el trau
 Para entender el cuadro para el que más se usa el EMDR, mirá [estrés postraumático](/recursos/estres-postraumatico/).
 
 Lecturas: Shapiro, F. (1989), «Efficacy of the eye movement desensitization procedure in the treatment of traumatic memories», *Journal of Traumatic Stress*, 2(2), 199–223. Organización Mundial de la Salud (2013), *Guidelines for the management of conditions specifically related to stress*. Lee, C. W. y Cuijpers, P. (2013), «A meta-analysis of the contribution of eye movements in processing emotional memories», *Journal of Behavior Therapy and Experimental Psychiatry*, 44(2), 231–239.
+
+## Preguntas frecuentes
+
+### ¿Para qué se usa el EMDR?
+Sobre todo para el trauma. La OMS (2013) lo recomienda para el trastorno de estrés postraumático en adultos, junto con la terapia cognitivo-conductual centrada en el trauma.
+
+### ¿Los movimientos oculares son lo que hace funcionar el tratamiento?
+Sigue en discusión. La eficacia del tratamiento completo tiene respaldo, pero un metaanálisis de 2013 encontró un efecto adicional moderado de los movimientos oculares con estudios de calidad no óptima, y otro de 2020 no pudo confirmarlo.
+
+### ¿Puedo hacer EMDR por mi cuenta con un video o una app?
+No. Trabaja con recuerdos dolorosos y requiere un terapeuta formado que sostenga el proceso, dentro de un encuadre por fases. Hacerlo solo puede movilizar más de lo que podés manejar.

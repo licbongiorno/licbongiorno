@@ -78,6 +78,17 @@ Si vos o alguien que conocés está pensando en hacerse daño, no esperes: llam�
 - [Laboratorio de isuma](/laboratorio-isuma/)
 - [Inuit Qaujimajatuqangit](/recursos/inuit-qaujimajatuqangit/)
 
+## Preguntas frecuentes
+
+### ¿Por qué son tan altas las tasas de suicidio juvenil en algunas regiones del Ártico?
+Porque se combinan causas múltiples ligadas a la historia colonial y a las condiciones sociales. No existe una «cultura del suicidio»: investigadores como Michael Kral señalan que era poco frecuente antes de los años sesenta y que aumentó desde los setenta. Las tasas de una población, además, no explican la situación de una persona.
+
+### ¿Qué es la continuidad cultural y por qué se asocia a la prevención?
+Es el conjunto de condiciones como el control sobre la tierra, el autogobierno, la lengua y los servicios propios. Un estudio de 1998 con 196 bandas de First Nations de Columbia Británica encontró que las comunidades con más de estos indicadores tenían tasas de suicidio juvenil mucho más bajas. Es una asociación a nivel de comunidades, no una prueba de causa.
+
+### ¿Qué respaldo tiene el Qungasvik?
+Es una intervención de prevención hecha con comunidades yup'ik de Alaska, con módulos de actividades de su cultura. Un estudio no aleatorizado de 2018 dio resultados prometedores, pero no concluyentes, y no es un tratamiento para quien está en crisis. Si vos o alguien está pensando en hacerse daño, llamá al 911 o al 135 (CABA y GBA) o 0800-345-1435.
+
 ## Para seguir leyendo
 
 - Chandler, M. J. y Lalonde, C. (1998). «Cultural continuity as a hedge against suicide in Canada's First Nations». *Transcultural Psychiatry*, 35(2), 191-219.

@@ -75,6 +75,20 @@ Si te reconocés en una descripción de «temperamento melancólico» y llevás 
 
 Este artículo es parte de la serie de psicología griega antigua. En el [glosario de psicología griega antigua](/glosario-de-psicologia-griega-antigua/) están los términos *melancolía* y *los cuatro humores*. Para las escuelas que trataron el alma con la palabra, mirá [Epicuro y el placer sereno](/recursos/epicuro-y-el-placer-sereno/) y [los escépticos y la suspensión del juicio](/recursos/los-escepticos-y-la-suspension-del-juicio/).
 
+## Preguntas frecuentes
+
+### ¿Qué eran los cuatro humores?
+
+Según el tratado hipocrático «Sobre la naturaleza del hombre», el cuerpo contiene sangre, flema, bilis amarilla y bilis negra. La salud sería su buena mezcla y la enfermedad el exceso, la falta o la separación de alguno. No hay respaldo para esta teoría como fisiología: nadie midió humores, y las sangrías y purgas dañaron a muchos.
+
+### ¿Sirven hoy los cuatro temperamentos para conocer la personalidad?
+
+No como clasificación. La psicología actual estudia la personalidad con rasgos medidos con cuestionarios, como la extraversión y el neuroticismo. Eysenck notó que sus dimensiones se parecían a los temperamentos clásicos, pero es una continuidad de preguntas, no de teoría. Los tests de internet que te ubican en uno de cuatro tipos no tienen respaldo.
+
+### ¿Ser «melancólico» es un rasgo de carácter o una depresión?
+
+La palabra viene de «bilis negra» y hoy se usa de dos modos. En el lenguaje cotidiano describe un temperamento; en psiquiatría existe un especificador de «características melancólicas» para ciertos episodios depresivos, sin relación con la bilis. Si llevás semanas con tristeza y falta de energía, puede ser una depresión y tiene tratamiento.
+
 ## Para seguir leyendo
 
 - *Tratados hipocráticos* (varios volúmenes). Madrid: Gredos (Biblioteca Clásica).

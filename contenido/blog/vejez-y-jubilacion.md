@@ -11,7 +11,7 @@ orden: 178
 estado: publicado
 respuesta: La vejez y la jubilación implican cambios de roles, rutinas y vínculos, y también un reordenamiento de prioridades hacia lo emocionalmente significativo. La visión que cada persona tiene de su propio envejecimiento se asocia con su salud y su longevidad, y el edadismo es un problema extendido. Si el malestar se vuelve persistente, conviene consultar.
 menciona:
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Un lunes de marzo, Ernesto se despierta a la misma hora de siempre. Hace cuarenta años que suena esa alarma. Pero hoy no hay oficina, no hay reunión de las diez, no hay nadie esperando su firma. Desayuna despacio, mira el reloj, y a media mañana se descubre pensando algo que no se anima a decir en voz alta: «¿Y ahora, qué soy?».
 
@@ -57,3 +57,17 @@ Algunas tristezas de esta etapa son esperables: duelos, cambios de rol, nostalgi
 Para pensar el día sin estructura y un proyecto propio, está el [laboratorio de jubilación y nuevas etapas](/laboratorio-de-jubilacion-y-nuevas-etapas/). Si los hijos ya se fueron de casa, mirá también el artículo sobre el [nido vacío](/recursos/nido-vacio/).
 
 Lecturas: Carstensen, L. L., Isaacowitz, D. M. y Charles, S. T. (1999), «Taking time seriously: a theory of socioemotional selectivity», *American Psychologist*, 54(3), 165–181. Levy, B. R., Slade, M. D., Kunkel, S. R. y Kasl, S. V. (2002), «Longevity increased by positive self-perceptions of aging», *Journal of Personality and Social Psychology*, 83(2), 261–270. Organización Mundial de la Salud (2021), *Global report on ageism*.
+
+## Preguntas frecuentes
+
+### ¿Es normal sentirse perdido o triste al jubilarse?
+
+Es frecuente: se pierde a la vez una rutina, un lugar de pertenencia, un sentimiento de utilidad y el contacto con colegas, y eso no se resuelve con «disfrutá tu tiempo libre». Si el ánimo bajo se sostiene durante semanas, aparece desinterés por todo, aislamiento, problemas de sueño o pensamientos de no querer vivir, conviene consultar.
+
+### ¿Por qué las personas mayores suelen tener menos amistades pero estar conformes?
+
+La teoría de la selectividad socioemocional propone que, cuando el tiempo por delante se percibe como más limitado, se priorizan los vínculos significativos y las metas emocionales. Reducir el círculo social no es necesariamente aislamiento: puede ser una elección cuidadosa de con quién estar.
+
+### ¿Pensar positivamente sobre el envejecer alarga la vida?
+
+Un estudio con 660 personas encontró que quienes tenían una visión más positiva de su envejecimiento vivieron en promedio unos 7,5 años más, aun controlando edad y salud. Es una asociación, no una prueba de causa. Y esas creencias se forman en una cultura con edadismo, que la OMS describe como muy extendido.

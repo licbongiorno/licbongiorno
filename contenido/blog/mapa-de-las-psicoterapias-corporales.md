@@ -11,7 +11,7 @@ orden: 130
 estado: publicado
 respuesta: Las psicoterapias corporales trabajan con la postura, la respiración, el movimiento y la sensación además de la palabra. Hay escuelas clásicas, como la vegetoterapia de Reich y la bioenergética de Lowen, y abordajes contemporáneos, como el Somatic Experiencing, la psicoterapia sensoriomotriz y Hakomi. Sus ideas tienen distinto respaldo: algunas tienen líneas de investigación activas y otras se apoyan sobre todo en la clínica y en hipótesis que la ciencia aún no confirmó.
 menciona: wilhelm-reich, alexander-lowen, fritz-perls, eugene-gendlin
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Hay una cantidad de psicoterapias que parten de una idea parecida: la experiencia psíquica no se expresa sólo con palabras. Aparece también en la postura, en la respiración, en el tono muscular, en el movimiento y en la sensación. Se las suele agrupar como psicoterapias corporales, psicología somática o abordajes psicocorporales. Son un conjunto heterogéneo, así que conviene mirarlas una por una.
 
@@ -79,3 +79,17 @@ Si recién empezás, la [introducción a la psicología corporal](/recursos/psic
 Si pensás en una de estas terapias, preguntá qué formación tiene quien la ofrece, si trabaja con el trauma con criterios de regulación, cómo maneja las emociones intensas y si puede articularse con otros tratamientos. Una buena terapia corporal no debería prometer descargas ni curaciones rápidas.
 
 Lecturas: Reich, W. (1933), *Charakteranalyse*. Lowen, A. (1975), *Bioenergetics*. Gendlin, E. T. (1978), *Focusing*. Levine, P. (1997), *Waking the Tiger*. Ogden, P., Minton, K. y Pain, C. (2006), *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*, W. W. Norton. Kurtz, R. (1990), *Body-Centered Psychotherapy: The Hakomi Method*, LifeRhythm.
+
+## Preguntas frecuentes
+
+### ¿Qué terapias corporales tienen más respaldo?
+
+El EMDR es el abordaje de este campo con más respaldo en trauma, y la OMS lo recomienda para el estrés postraumático, aunque no es corporal en sentido estricto. El focusing tiene una línea de investigación activa. La psicoterapia sensoriomotriz, el Somatic Experiencing y Hakomi tienen evidencia incipiente: estudios de caso y ensayos pequeños.
+
+### ¿El cuerpo guarda los recuerdos del trauma?
+
+Que el cuerpo participe de la experiencia traumática no significa que almacene recuerdos como si fuera un archivo. Esa idea, popularizada por algunos libros, hoy está cuestionada. Lo que sí se trabaja es la percepción de las señales internas y la regulación de la activación.
+
+### ¿Cómo elegir una terapia corporal?
+
+Conviene preguntar qué formación tiene quien la ofrece, si trabaja el trauma con criterios de regulación, cómo maneja las emociones intensas y si puede articularse con otros tratamientos. Una buena terapia corporal no debería prometer descargas ni curaciones rápidas.

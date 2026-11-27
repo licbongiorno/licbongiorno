@@ -11,7 +11,7 @@ orden: 109
 estado: publicado
 respuesta: Estar en la naturaleza se asocia con menos rumiación, mejor atención y mejor ánimo, en estudios en su mayoría chicos, de corto plazo u observacionales. La evidencia es prometedora, pero no reemplaza un tratamiento. Los trabajos más citados son Ulrich (1984 y 1991), los Kaplan (1989), Bratman y colaboradores (2015) y la hipótesis de la biofilia de Edward O. Wilson (1984).
 menciona:
-revision: 2026-11-17
+revision: 2026-11-27
 ---
 Hay una experiencia que casi todos conocemos: salir a caminar por un parque, o por el borde de un arroyo, y volver con la cabeza más despejada. Durante mucho tiempo fue una impresión o un consejo de sentido común. Desde los años ochenta, la psicología ambiental empezó a estudiarla con métodos propios: registros de hospitales, experimentos de laboratorio, caminatas controladas y grandes encuestas. Los resultados son interesantes, pero también más modestos de lo que a veces se cuenta. Este artículo repasa los trabajos más citados, las dos teorías que intentan explicarlos y lo que esos estudios no dicen.
 
@@ -88,3 +88,14 @@ En el [laboratorio de naturaleza y psique](/laboratorio-de-naturaleza-y-psique/)
 Lecturas: Ulrich, R. S. (1984), «View through a window may influence recovery from surgery», *Science*, 224(4647), 420–421. Ulrich, R. S. y colaboradores (1991), «Stress recovery during exposure to natural and urban environments», *Journal of Environmental Psychology*, 11(3), 201–230. Kaplan, R. y Kaplan, S. (1989), *The Experience of Nature: A Psychological Perspective*, Cambridge University Press. Berman, M. G., Jonides, J. y Kaplan, S. (2008), «The cognitive benefits of interacting with nature», *Psychological Science*, 19(12), 1207–1212. Ohly, H. y colaboradores (2016), «Attention Restoration Theory: A systematic review of the attention restoration potential of exposure to natural environments», *Journal of Toxicology and Environmental Health, Part B*. Bratman, G. N. y colaboradores (2015), «Nature experience reduces rumination and subgenual prefrontal cortex activation», *PNAS*, 112(28), 8567–8572. White, M. P. y colaboradores (2019), «Spending at least 120 minutes a week in nature is associated with good health and wellbeing», *Scientific Reports*, 9. Hartig, T., Mitchell, R., de Vries, S. y Frumkin, H. (2014), «Nature and Health», *Annual Review of Public Health*, 35, 207–228. Fromm, E. (1964), *El corazón del hombre*. Wilson, E. O. (1984), *Biophilia*, Harvard University Press. Kellert, S. R. y Wilson, E. O. (eds.) (1993), *The Biophilia Hypothesis*, Island Press. Mayer, F. S. y Frantz, C. M. (2004), «The connectedness to nature scale», *Journal of Environmental Psychology*, 24(4), 503–515. Kahn, P. H. (1999), *The Human Relationship with Nature*, MIT Press. Louv, R. (2005), *Last Child in the Woods*. Roszak, T. (1992), *The Voice of the Earth*.
 
 Una de las prácticas de naturaleza más estudiadas nació en Japón: el [shinrin-yoku o baño de bosque](/recursos/shinrin-yoku/).
+
+## Preguntas frecuentes
+
+### ¿Pasar tiempo en la naturaleza mejora la salud mental?
+Hay estudios sugerentes sobre estrés y atención, como el de Ulrich (1984) o el de Bratman (2015), pero con límites: muchos son pequeños, de corto plazo u observacionales. No prueban que la naturaleza cure la depresión, la ansiedad o el trauma, y si estás sufriendo la prioridad es consultar a un profesional.
+
+### ¿Cuánto tiempo hay que estar en la naturaleza?
+No hay una dosis demostrada. Un estudio inglés (White y colaboradores, 2019) encontró más bienestar en quienes pasaban 120 minutos o más por semana, pero es observacional y sus propios autores advierten que no es un umbral. Pueden ser formas simples: mirar por la ventana, caminar por un lugar con árboles o tener una planta.
+
+### ¿Qué es la biofilia?
+Es la hipótesis de Edward O. Wilson (1984) de que los humanos tenemos una tendencia innata a interesarnos por la vida y sus procesos. Es una hipótesis, no un hecho demostrado, con defensores y críticos; su valor es que ordena preguntas sobre por qué nos calma un paisaje con agua.

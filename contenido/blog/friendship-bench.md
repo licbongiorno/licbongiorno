@@ -69,6 +69,17 @@ Este texto describe un programa y su evidencia, y no reemplaza un tratamiento. S
 
 Este texto es parte de la serie de psicología africana: [mapa de la psicología africana](/recursos/mapa-de-la-psicologia-africana/) y [glosario de psicología africana](/glosario-de-psicologia-africana/). Para una experiencia anterior de integración entre salud mental y comunidad en Nigeria, mirá [la aldea terapéutica de Aro](/recursos/la-aldea-terapeutica-de-aro/).
 
+## Preguntas frecuentes
+
+### ¿Quién atiende en el Friendship Bench?
+Mujeres mayores de la comunidad, llamadas «abuelas», entrenadas y supervisadas en un método concreto. Son figuras de confianza en sus barrios y, cuando detectan señales de gravedad, como ideas de suicidio, derivan a la persona al centro de salud.
+
+### ¿Qué método usan y qué evidencia tiene?
+Una adaptación de la terapia de resolución de problemas: se nombra el problema, se elige uno concreto, se planifica una acción pequeña y se revisa en la visita siguiente. Un ensayo de 2016 en *JAMA* mostró mejoras en síntomas a seis meses frente a la atención habitual mejorada, pero no dice si es mejor que una psicoterapia hecha por profesionales.
+
+### ¿Se puede copiar el modelo en otro lugar?
+No como receta. Cambian el idioma, el estigma y los servicios de salud, y estos programas dependen de capacitación, supervisión y un sistema de derivación. Lo que enseña el caso es que escuchar con un método simple puede aliviar el malestar común cuando hay pocos recursos.
+
 ## Para seguir leyendo
 
 - Chibanda, D. et al. (2016). «Effect of a primary care-based psychological intervention on symptoms of common mental disorders in Zimbabwe: A randomized clinical trial». *JAMA*, 316(24), 2618-2626.

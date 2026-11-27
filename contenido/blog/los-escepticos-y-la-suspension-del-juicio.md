@@ -71,6 +71,20 @@ Estas ideas no tratan la ansiedad, el trastorno obsesivo ni la depresión. Si el
 
 Este artículo cierra, por ahora, la serie de escuelas helenísticas junto con [Epicuro y el placer sereno](/recursos/epicuro-y-el-placer-sereno/) y los estoicos ([Epicteto](/recursos/epicteto/), [Séneca](/recursos/seneca/), [Marco Aurelio](/recursos/marco-aurelio/)). Para el cuadro general, el [mapa de la psicología griega antigua](/recursos/mapa-de-la-psicologia-griega-antigua/) y el [glosario de psicología griega antigua](/glosario-de-psicologia-griega-antigua/), donde está la entrada *epojé*. Sobre cómo Sócrates usaba la pregunta, ver [el diálogo socrático](/recursos/el-dialogo-socratico/). Sobre la medicina de los humores, que Sexto conocía bien por su oficio, mirá [Hipócrates, Galeno y los cuatro humores](/recursos/hipocrates-galeno-y-los-cuatro-humores/).
 
+## Preguntas frecuentes
+
+### ¿Qué es la epojé o suspensión del juicio?
+
+Es retener el asentimiento: no afirmar ni negar cuando hay argumentos igual de fuertes a favor y en contra. El escéptico pirrónico no decía que nada puede saberse, sino que seguía investigando. Según Sexto Empírico, la tranquilidad (ataraxia) le llegó como consecuencia, no como meta buscada directamente.
+
+### ¿Es lo mismo que la defusión de la terapia de aceptación y compromiso?
+
+No. Se parecen en aflojar la identificación con lo que la mente dice, pero tienen origen, alcance y evidencia distintos: la defusión se aplica a pensamientos concretos, busca libertad para actuar según valores y tiene estudios clínicos; la epojé es una propuesta filosófica sin evaluación clínica. No hay una línea histórica de Pirrón a la ACT.
+
+### ¿Sirve para la ansiedad o la rumiación?
+
+No como tratamiento. Una persona con ansiedad intensa o pensamientos obsesivos suele tener ya demasiada duda, y dudar de todo la agrava. Suspender el juicio tampoco significa no decidir ni minimizar lo que alguien cuenta haber vivido. Si el pensamiento no te deja en paz, conviene consultar a un profesional.
+
 ## Para seguir leyendo
 
 - Sexto Empírico. *Esbozos pirrónicos*. Madrid: Gredos (trad. de T. Muñoz Diego y P. Gómez Cardó).
