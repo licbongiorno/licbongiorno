@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 86
 estado: publicado
 respuesta: El test de Rorschach es una técnica de evaluación de la personalidad creada por el psiquiatra suizo Hermann Rorschach en 1921. Consiste en diez láminas con manchas de tinta, frente a las que la persona dice qué podrían ser. Las respuestas se codifican según qué se ve, dónde y por qué. Hoy se usan sistemas estandarizados como el de John Exner y el R-PAS, y algunos de sus índices tienen buen respaldo empírico.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Frente a una mancha de tinta, alguien ve la mancha entera y otro se detiene en un detalle mínimo. Uno se fija en la forma; otro, en el color o en el movimiento. No hay una respuesta correcta escondida ni el psicólogo va a saber todo de vos por lo que veas. Lo que importa es más sutil: cómo cada uno organiza la percepción frente a algo ambiguo.
 
@@ -57,6 +57,31 @@ En resumen: bien administrado, codificado con un sistema estandarizado y combina
 - En la evaluación de las alteraciones del pensamiento y la percepción.
 
 Requiere una formación específica y extensa. Si necesitás una evaluación, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Una persona adulta consulta por episodios en los que siente que «las cosas no son del todo reales». En el Rorschach, la mayoría de sus respuestas se ajusta a la forma de la mancha y es convencional, pero en algunas aparecen asociaciones muy particulares, difíciles de seguir. Ese dato, por sí solo, no dice nada concluyente. Se lo pone en diálogo con la entrevista, con la historia, con otras pruebas y con una evaluación psiquiátrica si hace falta. La técnica aporta una mirada sobre cómo se organiza el pensamiento bajo ambigüedad; no un veredicto.
+
+## Cómo se administra, a grandes rasgos
+
+La administración se divide en dos etapas, como se describió: una de asociación libre y otra de indagación. Lo que no se publica acá son las láminas, las tablas de respuestas frecuentes ni los criterios de codificación: son material protegido, y su difusión compromete la validez de la prueba para quienes tienen que hacerla. Tampoco existen «claves» de internet que valgan: la codificación exige un entrenamiento específico y supervisión.
+
+## Qué dice la investigación, con más detalle
+
+El debate fue largo. En el **sistema comprehensivo** de Exner (años setenta) se buscó dar normas y reglas claras; sin embargo, críticas posteriores (entre ellas la de Wood, Nezworski, Lilienfeld y Garb, 2003, en su libro *What's Wrong with the Rorschach?*) señalaron que algunas normas de ese sistema tendían a **patologizar** a personas sanas. El **R-PAS** (Meyer, Viglione, Mihura, Erard y Erdberg, 2011) respondió con otro enfoque: incorporó nuevas normas internacionales, cuidó la cantidad de respuestas para que las comparaciones fueran más justas y se concentró en las variables con mejor respaldo.
+
+El metaanálisis de Mihura y colaboradores (2013) examinó variables individuales y encontró buen respaldo para varias, sobre todo las vinculadas con el pensamiento y la percepción. Otras mostraron poco. Es un panorama **matizado**: no es la prueba «mágica» que se imagina ni un fraude.
+
+## Matices y límites
+
+- El Rorschach **no sirve** para leer «lo que alguien esconde» ni para detectar mentiras o experiencias específicas (abuso, por ejemplo). Prometer eso es mal uso.
+- Los resultados dependen de la **normativa** que se use: normas locales, cuando existen, son preferibles.
+- Su interpretación solo es válida si la hace un profesional capacitado y se integra con otras fuentes: las respuestas aisladas se pueden malinterpretar con facilidad.
+- En el ámbito forense, su uso es discutido y requiere especial prudencia.
+
+## En terapia
+
+Más allá de la evaluación, la manera en que alguien se relaciona con una mancha (la mira con curiosidad, se asusta, quiere «acertar») ilustra algo del vínculo con lo desconocido. La psicología junguiana tiene un lugar especial para la imagen ambigua como puerta al inconsciente; la tradición psicoanalítica ve en la ambigüedad una invitación a proyectar. En terapia integrativa, esa idea se aprovecha con otros materiales (sueños, dibujos, imaginación activa) y no con manchas de tinta. Si querés explorar sobre cómo se evalúa, mirá el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/) y [qué es un psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/).
 
 ## Preguntas frecuentes
 

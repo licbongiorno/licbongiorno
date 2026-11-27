@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 87
 estado: publicado
 respuesta: El TAT, o test de apercepción temática, es una técnica proyectiva creada por Henry Murray y Christiana Morgan en la Universidad de Harvard, publicada en 1943. Se muestran láminas con escenas ambiguas y se pide inventar una historia: qué pasó antes, qué pasa ahora, qué sienten los personajes y cómo termina. Explora necesidades, vínculos y formas de resolver conflictos.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es un concurso de cuentos. Es una lámina en blanco y negro: una persona mirando por una ventana, alguien sentado junto a una figura que no se distingue bien. Y una consigna: «contame una historia». Algunos inventan finales felices, otros tragedias, otros dejan todo en suspenso. En esas historias aparecen, sin querer, nuestros temas.
 
@@ -52,6 +52,31 @@ Murray lo pensó a partir de su teoría de las **necesidades** (de logro, de afi
 No existe un sistema de puntuación único y muy extendido, y muchas interpretaciones dependen de la formación del profesional. Por eso, como otras proyectivas, se usa integrado con la entrevista y con otras pruebas, incluidas las [psicométricas](/recursos/tecnicas-psicometricas/).
 
 Si necesitás una evaluación, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Un hombre de mediana edad inventa, frente a varias láminas, historias en que alguien se esfuerza mucho y el reconocimiento llega tarde o no llega. En otra lámina, una escena entre dos personajes termina con uno que se va sin despedirse. No se le dice que «tiene tal conflicto»: se le pregunta cómo imagina que se sintió cada personaje y qué habría necesitado. Al conversarlo, él relaciona esos finales con una historia familiar y con su dificultad para pedir lo que necesita. El TAT no lo diagnosticó: le devolvió, narrado, algo propio.
+
+## Cómo se administra, a grandes rasgos
+
+Como se describió, se presentan láminas de a una y se pide una historia. Las láminas y las pautas de análisis se tratan como material profesional y **no se reproducen** en este sitio: conocerlas de antemano permite preparar historias y vuelve la prueba inservible. Tampoco se publican «ejemplos de respuestas» ni listas de temas con su significado, porque inducen a lecturas simplistas.
+
+## Qué tiene investigación y qué es teoría
+
+- El TAT tiene una **línea de investigación seria** en el estudio de la **motivación**: los trabajos de David McClelland y colaboradores con codificación sistemática de historias (necesidad de logro, afiliación y poder) mostraron relaciones con conductas observables.
+- Para el uso clínico habitual, sin sistema de puntuación común, el respaldo es **limitado**, como señalaron Lilienfeld, Wood y Garb (2000) para las técnicas proyectivas sin estandarización.
+- Existen sistemas de codificación más recientes, como el SCORS para relaciones objetales y el sistema de Westen, que muestran mejor consistencia entre evaluadores que las lecturas libres.
+- Lo que se interpreta (vínculos, conflictos, desenlaces) tiene sustento **teórico** en psicoanálisis y en psicología de la motivación, no una validación uniforme.
+
+## Matices y límites
+
+- Las historias dependen de **qué láminas** se usan, del clima de la evaluación y del lenguaje. Dos profesionales pueden destacar cosas distintas si no usan un sistema común.
+- No es un «detector» de traumas, de deseos ocultos ni de verdades. Una historia sombría puede reflejar una película que se vio ayer.
+- Los resultados los interpreta solo un profesional formado, integrándolos con la entrevista y con otras pruebas, entre ellas las [psicométricas](/recursos/tecnicas-psicometricas/).
+
+## En terapia
+
+Contar historias es una de las formas más antiguas de elaborar la experiencia. En terapia, esa capacidad se trabaja de otras maneras (relatos, sueños, mitos, imaginación activa) y no con láminas de evaluación. Un enfoque integrativo con base psicoanalítica y junguiana presta atención a **lo que se repite**: el mismo desenlace, el mismo tipo de personaje. Eso, hablado con tiempo, ayuda a cambiar el libreto. Para seguir, podés mirar [los mitos y cuentos en Jung](/recursos/mitos-y-cuentos-jung/), [terapia narrativa](/recursos/terapia-narrativa/) y el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/).
 
 ## Preguntas frecuentes
 

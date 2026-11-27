@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 78
 estado: publicado
 respuesta: Las técnicas proyectivas son herramientas de evaluación psicológica que presentan estímulos ambiguos o consignas abiertas (un dibujo, una mancha, una historia, una elección) para que la persona responda libremente. Se basan en la idea de que, al hacerlo, proyecta aspectos de su mundo interno. Ejemplos son el Rorschach, el HTP, el test desiderativo y el TAT. Se interpretan dentro de una evaluación más amplia y su respaldo científico es variable.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Cuando nadie te dice cómo hacer algo, lo hacés a tu manera. Dónde ubicás la casa en la hoja, qué historia inventás frente a una imagen, qué animal elegirías ser. En esas elecciones aparece algo tuyo, aunque no lo sepas decir con palabras. En eso se basan las técnicas proyectivas, mucho más que en la idea de que el psicólogo «te lee la mente» con un dibujo.
 
@@ -53,6 +53,39 @@ Por eso, un buen uso de estas técnicas implica:
 En el trabajo clínico, más que para «medir», las técnicas proyectivas sirven para **abrir conversación**: un dibujo o una respuesta al desiderativo pueden ser una puerta de entrada a temas que cuesta poner en palabras. Desde la mirada junguiana, tienen mucho en común con el trabajo con [símbolos](/recursos/los-simbolos-segun-jung/) e imágenes.
 
 Si necesitás una evaluación psicológica o un apto, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Dos personas dibujan una casa. Una la hace grande, con puerta abierta y camino hasta ella; la otra la dibuja pequeña, en una esquina, sin puerta. Un lector apurado diría que lo primero es «sano» y lo segundo «problemático». Pero quizás la segunda persona simplemente se sintió expuesta frente a la tarea, o dibuja así desde siempre, o venía de una mudanza. Lo valioso no está en el dibujo solo: está en lo que la persona cuenta, en cómo lo resolvió y en cómo encaja con el resto de la evaluación. Por eso las proyectivas no se leen como un horóscopo.
+
+## Cómo se administran, a grandes rasgos
+
+Cada técnica tiene su procedimiento. En términos generales:
+
+- Se da una **consigna abierta** (dibujar, contar una historia, completar una frase, decir qué se ve).
+- Se registra **qué se hace y cómo**: tiempos, dudas, comentarios, orden de las tareas.
+- Suele haber una **conversación posterior** donde la persona explica lo que hizo.
+
+Las láminas, las claves de corrección y los criterios de puntuación **no se publican** en este sitio: conocerlos de antemano invalida la prueba y perjudica a quien después tiene que ser evaluado. Su protección es parte de la ética profesional.
+
+## Qué tiene investigación y qué es teoría
+
+Conviene separar tres niveles:
+
+- **Hay respaldo** para algunos índices del [Rorschach](/recursos/test-de-rorschach/) en sistemas estandarizados (sistema comprehensivo de Exner, R-PAS), según el metaanálisis de Mihura y colaboradores (2013).
+- **Hay respaldo limitado** para la mayoría de los dibujos y técnicas verbales cuando se interpretan signos aislados; la revisión de Lilienfeld, Wood y Garb (2000) lo señaló con claridad.
+- **Es teoría clínica**, útil para generar hipótesis, la idea de que lo ambiguo invita a proyectar. Eso no equivale a que cada detalle tenga un significado fijo.
+
+## En terapia
+
+Fuera del ámbito del diagnóstico, algunas consignas proyectivas se usan como **disparadores de conversación**: un dibujo, una imagen o una historia pueden abrir un camino hacia lo que todavía no tiene palabras. Esta idea tiene afinidad con la psicología junguiana, que valora la imagen como lenguaje del inconsciente, y con la tradición psicoanalítica, que escucha lo que aparece sin intención. Para un acercamiento lúdico y sin pretensión de evaluación, el sitio ofrece ejercicios inspirados en estas técnicas, como el [desiderativo](/ejercicio-desiderativo/), las [frases incompletas](/ejercicio-frases-incompletas/) y la [persona bajo la lluvia](/ejercicio-persona-bajo-la-lluvia/). Son para pensarte, no para evaluarte, y no reemplazan una consulta.
+
+## Matices y límites
+
+- Los resultados de una técnica proyectiva **solo los interpreta un profesional** formado, y siempre integrados con otras fuentes.
+- No existen «claves» universales (el color rojo, el tamaño de los ojos, el paraguas). Quien promete lo contrario simplifica de más.
+- Aun con un uso cuidadoso, no deberían usarse para decisiones de alto impacto (judiciales, laborales) por sí solas.
+- Ver también el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/).
 
 ## Preguntas frecuentes
 

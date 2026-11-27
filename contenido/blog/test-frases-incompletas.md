@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 88
 estado: publicado
 respuesta: El test de frases incompletas es una técnica proyectiva verbal en la que se presentan comienzos de frases, como «Mi padre…» o «Lo que más temo…», para que la persona las complete con lo primero que le surja. Los modelos más conocidos son el de Joseph Sacks y el de Julian Rotter, de 1950. Explora áreas como la familia, los vínculos, la imagen de sí y el futuro.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 «Cuando estoy solo…», «Mi madre…», «Lo que más me cuesta…». Son comienzos de frases, y la consigna es completarlas con lo primero que aparezca. Algunas respuestas salen rápido y sin pensar. Otras se resisten. En las dos cosas hay información.
 
@@ -54,6 +54,31 @@ También importa la **forma**: las frases que quedan en blanco, las que se conte
 Al ser una técnica más directa que otras proyectivas, la persona puede **controlar bastante** lo que responde. Por eso se interpreta junto con la entrevista y otras pruebas, como el [desiderativo](/recursos/test-desiderativo/) o las [psicométricas](/recursos/tecnicas-psicometricas/).
 
 Si querés un ejercicio inspirado en esta técnica, con frases originales y solo para pensarte, podés probar las [frases incompletas para pensarte](/ejercicio-frases-incompletas/). Si necesitás una evaluación, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Alguien completa «Mi padre…» con «hizo lo que pudo» y «Cuando me enojo…» con «me quedo callado». Más adelante, ante «Lo que más me cuesta…», escribe «pedir ayuda». Ninguna de esas respuestas es un diagnóstico, pero juntas armaron un hilo: el esfuerzo por no molestar y la dificultad de decir lo que siente. En la conversación posterior, la persona reconoce que eso le pasa también en el trabajo. La técnica no «descubrió» nada nuevo: puso en palabras algo que ya latía.
+
+## Cómo se administra, a grandes rasgos
+
+Se entrega una lista de comienzos de frases y se pide completarlas con lo primero que surja. Puede hacerse por escrito o de forma oral. Se registran las respuestas, el tiempo y los silencios. Las **frases concretas** de los inventarios publicados y sus sistemas de puntuación son material profesional y no se reproducen acá; las del ejercicio del sitio son originales y están pensadas solo para reflexionar.
+
+## Qué tiene investigación y qué es teoría
+
+- Algunos inventarios, como el de **Rotter**, cuentan con **sistemas de puntuación estandarizados** y han sido usados en investigación, por ejemplo como medida de ajuste emocional. Esa versión tiene más respaldo que las lecturas libres.
+- El uso clínico habitual, sin puntuación formal, tiene **respaldo limitado**, en línea con lo que señalaron Lilienfeld, Wood y Garb (2000) sobre las técnicas proyectivas no estandarizadas.
+- Por ser una técnica muy **directa**, es más fácil de controlar y de «actuar»: la persona puede decir lo que cree que se espera. Eso es una limitación, pero también una información.
+
+## Matices y límites
+
+- Una respuesta aislada no significa nada. Importan las **repeticiones**, los temas y las omisiones, dentro de un conjunto.
+- La interpretación corresponde a un profesional, que la contrasta con la entrevista y con otras pruebas ([qué es un psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/)).
+- Completar frases en un entorno de evaluación no es lo mismo que hacerlo en casa, con tiempo y sin sentirse observado. Los contextos cambian lo que se escribe.
+- No es una herramienta para «leer» a otra persona sin su conocimiento.
+
+## En terapia
+
+En terapia, las frases incompletas funcionan muy bien como **tarea de escritura**: un comienzo que invita a decir algo que no se había pensado. Se las relaciona con la escritura expresiva y con la asociación libre del psicoanálisis, y se trabajan con calma, releyendo lo escrito y dejando que surjan nuevas preguntas. En un enfoque integrativo con base psicoanalítica y junguiana, lo que se completa se ve como un material que se conversa, no como un resultado que se corrige. Para jugarlo por tu cuenta, tenés las [frases incompletas para pensarte](/ejercicio-frases-incompletas/), y para ver cómo encajan en una evaluación, el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/) y [escritura expresiva](/recursos/escritura-expresiva/).
 
 ## Preguntas frecuentes
 

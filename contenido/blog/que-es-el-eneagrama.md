@@ -11,7 +11,7 @@ orden: 59
 estado: publicado
 respuesta: El eneagrama de la personalidad es un modelo que describe nueve tipos de carácter o eneatipos, cada uno organizado alrededor de una motivación central, un miedo básico y una pasión dominante. Fue desarrollado en el siglo XX por Óscar Ichazo y el psiquiatra chileno Claudio Naranjo, entre otros. Es una herramienta popular de autoconocimiento, aunque su respaldo científico todavía es limitado.
 menciona: eneagrama
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es un horóscopo ni una caja para meterte. Es más parecido a un espejo con nueve caras: en una te reconocés de golpe, con una mezcla de alivio y vergüenza, como cuando alguien describe con precisión eso que hacés sin darte cuenta. El eneagrama no dice quién sos. Dice desde dónde solés mirar, qué buscás sin saberlo y en qué tropezás una y otra vez.
 
@@ -50,6 +50,8 @@ La idea de fondo es que cada uno desarrolló, temprano en la vida, una estrategi
 
 El símbolo del eneagrama fue difundido en Occidente a principios del siglo XX por el místico **G. I. Gurdjieff**. En los años sesenta y setenta, el boliviano **Óscar Ichazo** lo vinculó con tipos de carácter, y el psiquiatra chileno **Claudio Naranjo** lo desarrolló desde la psicología y lo llevó a Estados Unidos. Después lo difundieron autores como Helen Palmer, Don Riso y Russ Hudson.
 
+Conviene precisar un par de cosas. Ichazo presentaba el modelo dentro de una escuela de enseñanza espiritual, la de Arica, y Naranjo participó de uno de esos grupos en Chile hacia 1970. Fue él quien le dio un vocabulario psicológico (carácter, defensas, neurosis) y lo puso a dialogar con el psicoanálisis y la Gestalt, como se ve en su libro *Carácter y neurosis* (1994). Ichazo y Naranjo, además, no siempre coincidieron en los detalles, y de hecho hay varias versiones del modelo en circulación. Más sobre su historia en el artículo sobre [Claudio Naranjo](/recursos/claudio-naranjo/).
+
 > El eneagrama no te dice quién sos. Te muestra la jaula en la que te acostumbraste a vivir, y por dónde está la puerta.
 
 ## Qué dice la psicología
@@ -57,6 +59,16 @@ El símbolo del eneagrama fue difundido en Occidente a principios del siglo XX p
 Hay que decirlo con honestidad: el eneagrama tiene **respaldo científico limitado**. Una revisión sistemática de Joshua Hook y colaboradores (2021) encontró apoyo mixto para su confiabilidad y validez, y señaló que hace falta más investigación. No es un instrumento diagnóstico ni reemplaza una evaluación psicológica.
 
 Aun así, muchas personas lo encuentran útil como **mapa de autoconocimiento**: un lenguaje para pensar sus patrones, sus miedos y su forma de vincularse. Desde la mirada de Jung, cada eneatipo podría pensarse como una forma particular de [persona](/recursos/la-persona-mascara-social/) y de [sombra](/recursos/la-sombra-segun-jung/).
+
+## Cómo se trabaja en terapia
+
+En el consultorio, el eneagrama no se usa para etiquetar. Si alguien lo trae, se lo escucha como una hipótesis: ¿qué parte de la descripción te quedó resonando y cuál te incomodó? Desde un enfoque integrativo, con base junguiana y psicoanalítica, cada eneatipo se puede leer como una forma de organizar defensas ([mecanismos de defensa](/recursos/mecanismos-de-defensa/)) y de construir una [persona](/recursos/la-persona-mascara-social/), con su sombra correspondiente. Lo más valioso suele ser la historia que aparece al preguntar para qué sirvió, en algún momento, esa estrategia.
+
+Una viñeta, compuesta y genérica: alguien llega con el resultado de un test y dice «soy un 6, ya está». En lugar de confirmarlo, se le pregunta cuándo se siente más seguro y cuándo menos. A los pocos minutos está hablando de una casa en la que había que estar atento al humor de los adultos. El número quedó atrás; lo que importó fue el recuerdo y lo que pudo hacer con él. Si querés ver otra mirada sobre qué es el carácter, podés leer sobre [qué es la personalidad](/recursos/que-es-la-personalidad/).
+
+## Qué tiene respaldo y qué es teoría
+
+Tiene respaldo, aunque parcial, que algunas escalas del eneagrama se correlacionan con dimensiones conocidas como los Cinco Grandes. Es teoría, sin evidencia sólida, que existan exactamente nueve tipos discretos, que cada persona tenga uno fijo de por vida, que las flechas predigan lo que hacemos bajo estrés o en crecimiento, y que haya 27 subtipos. La mayoría de las investigaciones sobre personalidad describe rasgos continuos, no categorías cerradas. En síntesis: el eneagrama es un mapa de autoconocimiento nacido en la tradición de Ichazo y Naranjo, sin respaldo psicométrico sólido, y por eso no sirve para seleccionar personal, diagnosticar ni definir a nadie.
 
 ## Cómo usarlo bien
 

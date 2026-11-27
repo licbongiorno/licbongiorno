@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 77
 estado: publicado
 respuesta: El apto psicológico para la licencia de conducir es una evaluación breve que forma parte del examen psicofísico. Un psicólogo evalúa, mediante una entrevista y algunas pruebas, aspectos como la atención, la percepción, la coordinación, el control de los impulsos y la estabilidad emocional necesarios para conducir con seguridad. No es un examen de inteligencia ni un tratamiento. Los requisitos concretos dependen de cada municipio.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es un examen para «ver si estás loco». Es esa parte del trámite del carnet que a muchos les genera nervios sin saber muy bien por qué: unos dibujos, algunas preguntas, una charla breve. La mayoría sale pensando «era esto nada más». Y tiene sentido que exista: manejar es una de las actividades más riesgosas que hacemos todos los días.
 
@@ -57,6 +57,27 @@ En la gran mayoría de los casos, el resultado es apto. Si aparece algo que nece
 ## Dónde hacerlo
 
 En mi consultorio de Alta Gracia **realizo evaluaciones psicológicas para el apto de la licencia de conducir**. Antes de venir, confirmá con el área de tránsito de tu municipio qué formulario y qué requisitos te piden, y [escribime](/contacto/) para coordinar un turno y contarte cómo es el proceso.
+
+## Una escena posible
+
+Imaginemos a alguien que llega a renovar el carnet después de un año difícil. Viene tenso, se disculpa por todo y pregunta tres veces si «se puede reprobar». En la entrevista cuenta, casi de pasada, que duerme mal desde hace meses y que tuvo un susto en la ruta. Nada de eso lo inhabilita: es información que ayuda a entender cómo está hoy. Lo habitual es que la charla le baje los nervios, que las pruebas se resuelvan sin dramatismo y que salga con su apto. A veces, además, se va con una idea clara: quizás convenga consultar por el sueño, ahora que alguien lo preguntó.
+
+## Qué es y qué no es esta evaluación
+
+Conviene distinguir bien los planos. El apto es una **evaluación breve con un fin específico**: decidir si hay impedimentos psíquicos para conducir con seguridad. No es un [psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/) completo ni una psicoterapia, aunque a veces la conversación abra una puerta hacia ellas. Tampoco busca «descubrir» tu personalidad: las pruebas que se usan, como las [técnicas gráficas](/recursos/tecnicas-proyectivas/) o el [Bender](/recursos/test-de-bender/), funcionan como una muestra de cómo atendés, coordinás y organizás una tarea simple.
+
+Sus resultados los interpreta únicamente el profesional que los toma. Un dibujo o una copia no se leen «sueltos», y por eso no tiene sentido buscar en internet qué significa cada trazo: sin la entrevista y sin el contexto, esas lecturas confunden más que ayudan.
+
+## Matices y límites
+
+- Un apto es una **fotografía del momento**: dice que hoy no se encuentran impedimentos, no garantiza nada hacia adelante.
+- Los criterios exactos los fija la normativa de cada jurisdicción y pueden diferir entre municipios.
+- La investigación sobre seguridad vial muestra que lo que más pesa en los siniestros son factores como el sueño insuficiente, el alcohol, el uso del celular y la velocidad. Una evaluación psicológica breve no detecta todo eso; por eso la responsabilidad al volante sigue siendo, sobre todo, de quien maneja.
+- Si aparecen indicadores de un cuadro que afecta la atención o los impulsos, lo más respetuoso es **derivar y evaluar con más tiempo**, no resolver en veinte minutos.
+
+## Si la evaluación abre preguntas
+
+Muchas veces el apto funciona, sin proponérselo, como una pequeña pausa: alguien se detiene a hablar de cómo duerme, de cómo maneja cuando está enojado, de cuánto toma. Desde un enfoque integrativo, con base psicoanalítica y junguiana, esas pausas importan: el cuerpo y la mente no se separan, y el cansancio, la irritabilidad o la distracción suelen tener una historia detrás. Si eso te pasa, en terapia se puede trabajar con calma lo que apareció, sin ninguna relación con el trámite.
 
 ## Preguntas frecuentes
 

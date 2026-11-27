@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 81
 estado: publicado
 respuesta: El dibujo libre es una técnica proyectiva gráfica en la que se le pide a la persona que dibuje lo que quiera, sin una consigna temática. Al ser la consigna más abierta, permite observar qué elige representar, cómo organiza el espacio y cómo se relaciona con la tarea. Se usa sobre todo con niños, también con adultos, y se interpreta dentro de una evaluación más amplia.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es un rato para entretenerse mientras el psicólogo hace otra cosa. «Dibujá lo que quieras» parece la consigna más fácil, y para muchos es la más difícil. Algunos chicos llenan la hoja en dos minutos con colores y personajes. Otros se quedan mirando el papel en blanco, preguntan «¿qué dibujo?», borran, empiezan de nuevo. Todo eso ya dice algo.
 
@@ -47,6 +47,31 @@ Además del dibujo libre, en la evaluación psicológica se usan otras consignas
 El dibujo libre no tiene un sistema de puntuación estandarizado, y su interpretación depende mucho del contexto y de la formación del profesional. No hay que leerlo como un diccionario de símbolos («el sol es el padre», «el negro es tristeza»): esas equivalencias fijas no tienen respaldo. Su valor está en lo que abre para conversar y en su integración con otras herramientas, incluidas las [psicométricas](/recursos/tecnicas-psicometricas/).
 
 Si querés consultar por una evaluación, para vos o para tu hijo, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Una niña de ocho años, que atraviesa la separación de sus padres, dibuja una casa con dos puertas y un camino que no llega a ninguna. Cuando se le pregunta, dice: «Es una casa donde vive una familia que viaja mucho». No se le dice qué significa su dibujo; se escucha lo que cuenta, se observa cómo lo hace y se la invita a seguir. A lo largo de varias sesiones, la historia de esa casa va cambiando, y con ella algo de cómo se acomoda a lo nuevo. El dibujo funcionó menos como prueba y más como un lugar para jugar lo que dolía.
+
+## Cómo se administra, a grandes rasgos
+
+Se ofrece papel y lápices, y se dice algo como «dibujá lo que quieras». Se registra el tiempo, el orden, los comentarios y la conversación posterior. Con niños suele hacerse en un clima de juego. No hay láminas ni claves que proteger, pero los criterios de lectura clínica sí forman parte del saber profesional, y no se aplican sueltos.
+
+## Qué tiene investigación y qué es teoría
+
+- **Hay respaldo** para el uso del dibujo como una vía de **comunicación** de niños, en especial cuando son pequeños o les cuesta hablar. Es un recurso clínico bien establecido.
+- **No hay respaldo** para leer significados fijos en colores, tamaños o ausencias. Las revisiones sobre dibujos proyectivos (como la de Lilienfeld, Wood y Garb, 2000) mostraron que los «indicadores» aislados no discriminan bien entre grupos.
+- Los indicadores del **desarrollo madurativo** en el dibujo infantil (por ejemplo, la evolución de la figura humana con la edad) tienen mejor sustento que los indicadores emocionales.
+
+## Matices y límites
+
+- Lo que se dibuja depende del **contexto**: del día, del humor, de lo que se vio antes, de si estaba cansado. Un dibujo no es un retrato del alma.
+- Un dibujo llamativo (muy oscuro, con un tema violento) no «prueba» nada: es una invitación a preguntar con cuidado, no a sacar conclusiones.
+- Su interpretación corresponde a un profesional. Si te preocupa un dibujo de tu hijo, lo más útil es **conversar con él** y, si la preocupación persiste, consultar.
+- Ver también [técnicas proyectivas](/recursos/tecnicas-proyectivas/) y [qué es un psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/).
+
+## En terapia
+
+En terapia, el dibujo libre se usa sobre todo como **lenguaje compartido**. Con niños, desde Klein y Winnicott, el garabato y el juego son maneras de simbolizar; con adultos, la imagen puede ser un puente hacia lo que cuesta nombrar, en una línea cercana a la imaginación activa junguiana. Un enfoque integrativo toma ese material con curiosidad y sin apuro: el dibujo se mira juntos y se deja que diga lo que tenga para decir. Para seguir explorando estas ideas, mirá el [laboratorio de la psique y la imagen](/laboratorio-de-la-psique-y-la-imagen/) y el [laboratorio del psicodiagnóstico](/laboratorio-del-psicodiagnostico/).
 
 ## Preguntas frecuentes
 
