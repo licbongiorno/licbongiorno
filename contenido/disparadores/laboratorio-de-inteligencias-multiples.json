@@ -1,0 +1,18 @@
+{
+ "autor": "Gardner",
+ "preguntas": [
+  {
+   "enigma": "Hay quien escribe una carta que emociona y no puede con una regla de tres, y quien arma un mueble sin leer las instrucciones.",
+   "p": "¿Cómo se explica tanta variedad de talentos?",
+   "opciones": [
+    "Hay un solo tipo de inteligencia y algunas personas la tienen más",
+    "Hay varias inteligencias independientes, cada persona con la suya",
+    "Los talentos son más bien práctica y gusto, y a veces conviven con la inteligencia general"
+   ],
+   "r": "Howard Gardner propuso en 1983 ocho inteligencias: lingüística, lógico-matemática, espacial, musical, corporal-cinestésica, interpersonal, intrapersonal y naturalista. Su teoría influyó mucho en la educación, al invitar a ver más talentos que los escolares.",
+   "como": "Gardner la construyó a partir de lo que se sabe de lesiones cerebrales, de personas con talentos excepcionales y de distintas culturas.",
+   "debate": "Tiene poco respaldo empírico como inteligencias independientes: las capacidades mentales suelen correlacionar entre sí. Y los estilos de aprendizaje tampoco tienen respaldo. Por eso no hay un test que te diga qué inteligencia tenés."
+  }
+ ],
+ "abierta": "¿Dónde termina la inteligencia y empiezan el talento, la práctica y el interés? Es un debate abierto."
+}

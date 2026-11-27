@@ -1,0 +1,18 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Una imagen te vuelve a la cabeza varias veces, un lugar, una figura o una escena de un sueño. No sabés qué significa.",
+   "p": "¿Qué hacer con una imagen que insiste?",
+   "opciones": [
+    "Descartarla: es solo ruido mental",
+    "Buscarle una explicación racional lo antes posible",
+    "Observarla con atención y dejar que se desarrolle, sin apurarte"
+   ],
+   "r": "Jung propuso la imaginación activa: dejar aparecer una imagen, dialogar con ella, tomar posición y darle forma. La entendía como una manera de acercar a la conciencia contenidos que no se alcanzan de otro modo.",
+   "como": "Jung la desarrolló a partir de su propia experiencia, en los años posteriores a 1913, cuando se dedicó a dialogar con las imágenes que le aparecían y a anotarlas. Luego la usó con sus pacientes.",
+   "debate": "Se apoya en la experiencia clínica y no en ensayos controlados. No se recomienda en momentos de crisis ni con experiencias de desconexión de la realidad: en esos casos se trabaja acompañado."
+  }
+ ],
+ "abierta": "¿De dónde vienen las imágenes que aparecen sin que las llamemos, y por qué tienen tanta fuerza? Es una pregunta sin cerrar."
+}

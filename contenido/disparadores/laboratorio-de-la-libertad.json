@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«No tenía otra opción». «Yo soy así». «Es lo que me tocó». Son frases cómodas y muchas veces ciertas en parte.",
+   "p": "¿Hay algo que se esconde detrás de ellas?",
+   "opciones": [
+    "Nada, describen la realidad tal cual es",
+    "A veces, una manera de evitar asumir lo que elegimos",
+    "Siempre son una excusa"
+   ],
+   "r": "Jean-Paul Sartre llamó mala fe al modo en que nos escondemos de nuestra propia libertad, usando una identidad o una excusa para no asumir lo que elegimos. Describió a un mozo de café que actúa como si ser mozo fuera todo lo que es.",
+   "como": "Lo planteó en El ser y la nada (1943), por observación fenomenológica de la experiencia cotidiana, no por experimentos. Heidegger y Kierkegaard sumaron otras miradas sobre el estar en el mundo.",
+   "debate": "Se le ha criticado a Sartre sobreestimar la libertad, porque las condiciones sociales, económicas y psíquicas limitan lo que se puede elegir. Se trata de ver qué parte sí podemos elegir, sin culparnos."
+  }
+ ],
+ "abierta": "¿Cuánto de lo que somos lo elegimos y cuánto nos viene dado? Es un viejo debate abierto."
+}

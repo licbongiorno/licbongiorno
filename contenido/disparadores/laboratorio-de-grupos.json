@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una reunión de trabajo tiene un orden del día claro, pero sale tensa y no se resuelve nada. Cuando terminan, en el pasillo, todos dicen lo que de verdad pensaban.",
+   "p": "¿Qué estaba pasando en esa reunión?",
+   "opciones": [
+    "Faltó un mejor orden del día",
+    "Había algo más en juego que la tarea escrita, que nadie decía",
+    "Algunas personas simplemente no saben trabajar en equipo"
+   ],
+   "r": "Enrique Pichon-Rivière distinguió en todo grupo una tarea explícita, la que se declara, y una implícita, lo que ocurre entre las personas y cuesta nombrar. Irvin Yalom describió, además, que en los grupos terapéuticos mucho alivio viene de descubrir que otros sienten algo parecido: lo llamó universalidad.",
+   "como": "Pichon-Rivière lo fue elaborando observando y coordinando grupos de trabajo y aprendizaje en Argentina. Yalom lo describió a partir de su práctica con grupos y de preguntarles a los propios pacientes qué los había ayudado.",
+   "debate": "Estos son marcos para observar, no leyes. Cada grupo tiene su historia, y lo que sirve en un espacio de apoyo puede no aplicarse igual a una reunión de oficina."
+  }
+ ],
+ "abierta": "¿Por qué escuchar a otros decir lo que sentimos alivia tanto, si la situación objetiva no cambia? Es una pregunta abierta."
+}

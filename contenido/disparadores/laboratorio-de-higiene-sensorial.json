@@ -1,0 +1,18 @@
+{
+ "autor": "Beck",
+ "preguntas": [
+  {
+   "enigma": "Pasás una hora mirando noticias o redes y terminás irritable, sin que haya pasado nada en tu día.",
+   "p": "¿De dónde sale ese malestar?",
+   "opciones": [
+    "De lo que pasó en el mundo, sin más",
+    "De lo que vi y de cómo lo interpreté",
+    "Del cansancio, que no tiene relación con lo que miré"
+   ],
+   "r": "Aaron Beck sostuvo que no nos afecta el hecho en sí, sino cómo lo interpretamos. A eso se suma el sesgo de negatividad, que describieron Roy Baumeister y colegas (2001): lo malo pesa más en la mente que lo bueno. Notar qué entra por los sentidos permite hacer pequeños experimentos.",
+   "como": "Beck lo observó en la clínica, escuchando los pensamientos automáticos de sus pacientes, y lo formuló en Cognitive Therapy and the Emotional Disorders (1976). Baumeister revisó muchos estudios para mostrar el patrón.",
+   "debate": "Es un recurso de autoobservación. La relación entre pantallas y ánimo es difícil de estudiar: muchos hallazgos son correlaciones, y no sabemos bien qué causa qué."
+  }
+ ],
+ "abierta": "¿Cuánto de lo que sentimos nos llega del mundo y cuánto de cómo lo miramos? Sigue siendo difícil de separar."
+}

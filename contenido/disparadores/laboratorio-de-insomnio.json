@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Son las tres de la mañana y llevás horas en la cama. Lo racional sería quedarse acostado para al menos descansar el cuerpo.",
+   "p": "¿Qué conviene más cuando no podés dormir?",
+   "opciones": [
+    "Quedarse en la cama aunque no se duerma, porque igual descansa",
+    "Levantarse un rato y volver cuando haya sueño",
+    "Tomar algo que dé sueño sin esperar nada más"
+   ],
+   "r": "El tratamiento de primera elección para el insomnio crónico es la terapia cognitivo-conductual para el insomnio (TCC-I), según las guías de la Academia Estadounidense de Medicina del Sueño (2021) y del Colegio Estadounidense de Médicos (2016). Incluye el control de estímulos de Richard Bootzin: usar la cama solo para dormir y levantarse si no viene el sueño.",
+   "como": "Bootzin propuso el control de estímulos en 1972, pensando que la cama puede asociarse con la vigilia. Arthur Spielman sumó en 1987 la restricción del sueño. Los componentes se evaluaron después en ensayos clínicos.",
+   "debate": "La restricción del sueño tiene precauciones y a veces el sueño empeora un poco al principio. Los consejos de higiene del sueño, solos, no alcanzan. Esto no reemplaza una consulta."
+  }
+ ],
+ "abierta": "¿Por qué un cuerpo que necesita dormir puede quedar «alerta» justo en la cama? Todavía se investiga."
+}

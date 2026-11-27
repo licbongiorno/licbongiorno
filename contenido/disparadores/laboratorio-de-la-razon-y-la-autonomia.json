@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hoy una situación te molestó. Antes de juzgarla, podrías preguntarte qué pasó y qué le agregaste vos.",
+   "p": "¿Se pueden separar?",
+   "opciones": [
+    "No: lo que ocurre y cómo lo vivimos es lo mismo",
+    "Sí, y hacerlo cambia cómo reaccionamos",
+    "Se pueden separar, pero no sirve de nada"
+   ],
+   "r": "Kant sostuvo que la experiencia surge de dos cosas: lo que llega por los sentidos y las formas que pone la mente. Epicteto distinguía lo que depende de nosotros de lo que no. Separar lo recibido de lo agregado es un ejercicio de lucidez.",
+   "como": "Son argumentos filosóficos: Kant lo desarrolló en la Crítica de la razón pura y Epicteto lo enseñó a sus alumnos. Esa distinción de los estoicos inspiró más tarde a terapeutas cognitivos como Albert Ellis y Aaron Beck.",
+   "debate": "Es reflexión filosófica, no un resultado experimental. Y a veces lo que nos molesta sí depende de nosotros y no todo es interpretación: hay situaciones realmente injustas."
+  }
+ ],
+ "abierta": "¿Hasta dónde llega nuestra libertad para decidir cómo vivir lo que nos pasa? Sigue en discusión."
+}

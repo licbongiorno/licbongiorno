@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "A veces hay una inquietud sin objeto: no sabés qué te pasa, pero algo pesa, y suele aparecer cuando se acerca una decisión importante.",
+   "p": "¿Es lo mismo que el miedo?",
+   "opciones": [
+    "Sí, son dos nombres para lo mismo",
+    "No: el miedo tiene un objeto, la angustia no",
+    "No: la angustia es solo un miedo más fuerte"
+   ],
+   "r": "Søren Kierkegaard distinguió el miedo, que tiene un objeto concreto, de la angustia, que no lo tiene, y la relacionó con la libertad: el vértigo de que pueda elegir. Heidegger mostró que puede abrir el mundo en su totalidad, y Yalom la trabajó como parte de la vida humana.",
+   "como": "Surge del análisis filosófico (Kierkegaard escribió sobre esto en 1844) y de la observación clínica de la terapia existencial de Yalom, no de experimentos.",
+   "debate": "Una cosa es la angustia existencial y otra la ansiedad clínica, que conviene tratar con ayuda profesional. Si es intensa o dura varios días, buscá acompañamiento."
+  }
+ ],
+ "abierta": "¿Es la angustia una molestia a eliminar o una señal de algo importante? Las miradas siguen divididas."
+}

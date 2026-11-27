@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un príncipe que deja el palacio, un maestro que aconseja no forzar, un libro de aforismos sobre la mente, un monje que responde con silencio.",
+   "p": "¿Qué tienen en común?",
+   "opciones": [
+    "Son ideas para entender el mundo, sin más",
+    "Proponen algo que se hace con el cuerpo y la atención, no solo con las ideas",
+    "Son solo religiones, sin relación con la psicología"
+   ],
+   "r": "Las prácticas de tradiciones distintas, como las cuatro nobles verdades del Buda, el wu wei de Lao Tse, la atención sostenida de los Yoga Sutras de Patañjali y los koan del zen, comparten algo: se prueban con la experiencia, no solo se piensan.",
+   "como": "Estos caminos se transmitieron durante siglos de maestro a discípulo y se ponen a prueba en la práctica. Hoy la psicología estudia varias de estas prácticas con métodos científicos.",
+   "debate": "Son tradiciones religiosas y filosóficas vivas, y no se pueden reducir a técnicas. Las traducciones varían, y la investigación sobre meditación es seria pero con matices."
+  }
+ ],
+ "abierta": "¿Qué se pierde y qué se gana al llevar estas prácticas a un contexto laico? Todavía se discute."
+}

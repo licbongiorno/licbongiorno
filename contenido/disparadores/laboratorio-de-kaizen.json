@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Querés cambiar algo, por ejemplo moverte más, y cada vez que lo pensás en grande te agotás antes de empezar.",
+   "p": "¿Qué te ayudaría más?",
+   "opciones": [
+    "Una gran decisión de cambio total desde el lunes",
+    "Un paso tan chico que casi no dé resistencia",
+    "Esperar a tener más tiempo y más ganas"
+   ],
+   "r": "Kaizen es un término japonés que suele traducirse como «mejora continua». El psicólogo Robert Maurer lo llevó al cambio personal con una idea simple: si un cambio te asusta o te cansa, hacelo tan chico que casi no dé resistencia.",
+   "como": "Maurer lo planteó en One Small Step Can Change Your Life (2004). El respaldo más firme para repetir acciones chicas viene de la psicología de los hábitos: Phillippa Lally y su equipo (2010) observaron que repetir una conducta en un contexto estable va aumentando su automaticidad.",
+   "debate": "Kaizen nació en la gestión y la producción, no en la psicología clínica, y no tiene ensayos clínicos propios. Tampoco hay un número mágico de días ni promesas de transformación."
+  }
+ ],
+ "abierta": "¿Hasta dónde llegan los pasos chicos cuando lo que hay que cambiar es grande? Todavía se estudia."
+}

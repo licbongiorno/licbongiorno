@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Le preguntan a alguien qué le da sentido a su vida y no menciona una gran vocación: dice que es el café de la mañana con su vecina.",
+   "p": "¿Eso puede ser un sentido de vida?",
+   "opciones": [
+    "No, el sentido tiene que ser una gran misión",
+    "Sí, a veces está en lo cotidiano",
+    "Solo si además se relaciona con el trabajo"
+   ],
+   "r": "La psiquiatra japonesa Mieko Kamiya popularizó la palabra ikigai en 1966 para nombrar aquello que hace que la vida valga la pena. En Japón suele aludir a cosas de todos los días: un vínculo, un rol, una pequeña alegría, sin que haga falta una gran misión.",
+   "como": "Kamiya trabajó con pacientes con lepra en un sanatorio y en muchos notó una sensación de falta de sentido. A partir de esa observación clínica y de lo que ellos le contaban, escribió sobre el ikigai.",
+   "debate": "El diagrama de los cuatro círculos que circula por internet es de origen occidental, no japonés. Sirve como herramienta de reflexión, no como definición del concepto."
+  }
+ ],
+ "abierta": "¿Se descubre el sentido o se construye? La psicología todavía no lo resuelve."
+}

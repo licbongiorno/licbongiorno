@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay imágenes que vuelven: un sueño, una figura, un paisaje que aparece sin razón.",
+   "p": "¿Conviene explicarlas?",
+   "opciones": [
+    "Sí: una imagen se entiende cuando se la traduce a conceptos",
+    "Se puede empezar describiéndola con atención, sin apurar la explicación",
+    "No: las imágenes no significan nada"
+   ],
+   "r": "Jung enseñó a escuchar las imágenes. James Hillman sostuvo que las imágenes del alma no necesitan ser traducidas a una explicación: piden ser vistas con atención. Una imagen que vuelve merece ser descripta, no interpretada de inmediato.",
+   "como": "Surge de la práctica clínica y de la experiencia de la psicología analítica con sueños e imágenes, de Jung en adelante. Erich Neumann, James Hollis y Marion Woodman la desarrollaron con otras preguntas.",
+   "debate": "Son miradas de la psicología analítica, apoyadas en la experiencia clínica más que en ensayos controlados. Son ejercicios para acercarse a la propia psique, no para diagnosticarla."
+  }
+ ],
+ "abierta": "¿Qué es lo que hace que una imagen tenga tanta fuerza y vuelva? Es una pregunta sin respuesta cerrada."
+}

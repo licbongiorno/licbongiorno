@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Mucha gente cree que meditar es dejar la mente en blanco, y se frustra a los dos minutos porque se distrae.",
+   "p": "¿Qué es entonces lo que se entrena?",
+   "opciones": [
+    "Lograr que no aparezcan pensamientos",
+    "Darse cuenta de que uno se fue a otro lado, y volver",
+    "Relajarse profundamente a la fuerza"
+   ],
+   "r": "En muchas tradiciones se entrena justo eso: notar la distracción y volver, una y otra vez. Hay prácticas de distinto origen, como la atención a la respiración, el zazen, la bondad amorosa (metta), la respuesta de relajación de Benson y la relajación muscular progresiva de Jacobson.",
+   "como": "Algunas vienen de tradiciones contemplativas con siglos de práctica. Otras nacieron en la medicina occidental: Herbert Benson estudió la respuesta de relajación en los años setenta y Edmund Jacobson la relajación progresiva desde los años veinte.",
+   "debate": "La investigación sobre meditación es seria pero con matices, y algunas personas tienen experiencias incómodas. Siempre podés frenar, abrir los ojos y moverte."
+  }
+ ],
+ "abierta": "¿Por qué distintas tradiciones, tan separadas, llegaron a prácticas parecidas? Es una pregunta abierta."
+}
