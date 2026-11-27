@@ -11,7 +11,7 @@ orden: 151
 estado: publicado
 respuesta: Alfred Adler (1870-1937) fue un médico y psicoterapeuta austríaco, creador de la psicología individual. Formó parte del primer grupo de Freud hasta 1911, cuando se separó. Propuso que todos partimos de un sentimiento de inferioridad que impulsa a superarnos, que cada persona construye un estilo de vida propio y que la salud psíquica depende del sentimiento de comunidad, el interés por los demás.
 menciona: adler, freud
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 «Complejo de inferioridad». La expresión se volvió tan común que casi nadie recuerda de dónde viene. Viene de Alfred Adler, un médico vienés que fue de los primeros en discutirle a Freud y que pensaba que lo que más nos mueve no es el deseo sexual, sino la necesidad de sentirnos capaces y de pertenecer.
 
@@ -45,6 +45,26 @@ Del sentimiento de **inferioridad** surge un **afán de superación**. Si ese af
 Las ideas de Adler influyeron en Viktor Frankl, que formó parte de su círculo antes de crear la logoterapia; en Rollo May, que asistió a sus seminarios; y en Abraham Maslow, que lo trató en Nueva York. Muchas terapias actuales retoman su atención a las metas, los vínculos y la comunidad.
 
 En la consulta, su pregunta por el «para qué» de un síntoma, y no solo por su «por qué», sigue siendo muy fértil. Podés seguir con [Viktor Frankl](/recursos/viktor-frankl/) o con [la autoestima](/autoestima/).
+
+## Un ejemplo de todos los días
+
+Pensá en alguien que de chico fue «el más torpe» del grupo: el último en ser elegido en el recreo, el que no entendía a la primera. De grande, es muy exigente consigo mismo y no se permite errores. Adler vería ahí una compensación: la herida de inferioridad empujó hacia el esfuerzo, y eso puede dar un trabajador admirable o a alguien que no se perdona nada. Lo interesante es el «para qué»: ¿qué busca esa exigencia? ¿Pertenecer, evitar el rechazo, demostrar algo? Preguntárselo cambia la conversación con uno mismo. Mirá también [la autoexigencia y el perfeccionismo](/recursos/autoexigencia-y-perfeccionismo/) y [el síndrome del impostor](/recursos/sindrome-del-impostor/).
+
+## Contexto y recorrido
+
+En 1907 Adler publicó *Estudio sobre la inferioridad de los órganos*, donde observaba que una debilidad física puede empujar a desarrollar otras capacidades. De a poco amplió la idea a lo psicológico y lo social. Tomó del filósofo Hans Vaihinger la noción del «como si»: cada uno vive guiado por ficciones orientadoras, por ejemplo «solo valgo si rindo» o «tengo que caer bien a todos», que no son verdades pero ordenan la conducta.
+
+En la Viena de los años veinte, Adler y su círculo abrieron consultorios de orientación para familias y escuelas. Su discípulo Rudolf Dreikurs llevó estas ideas a Estados Unidos y las desarrolló en la educación de los hijos: desaliento, pertenencia y cooperación son temas adlerianos que siguen presentes en muchos programas de crianza.
+
+## Matices y límites
+
+Algunas partes de la teoría resistieron mejor que otras. El orden de nacimiento, por ejemplo, fascinó a mucha gente, pero un estudio grande publicado en 2015, con datos de Estados Unidos, el Reino Unido y Alemania, no encontró efectos relevantes sobre los grandes rasgos de personalidad. Conviene tomarlo como una pista para conversar sobre la historia familiar, y no como una regla.
+
+Otras ideas, como el estilo de vida o la superioridad como máscara de la inferioridad, son interpretaciones clínicas útiles pero difíciles de medir. Y la afirmación de que el sentimiento de comunidad es la medida de la salud psíquica es una posición de valores, sensata y atractiva, pero no un dato. Lo que sí tiene respaldo más amplio es lo que Adler intuyó sobre el peso del desaliento y la pertenencia en el desarrollo de los chicos.
+
+## En la práctica
+
+En la consulta, su gesto distintivo es pasar de la pregunta por la causa a la pregunta por la dirección: hacia dónde va esta persona, qué lugar quiere ocupar entre los otros. Es una pregunta amable que ayuda a ver patrones sin juzgar. Para ver cómo se lleva a la vida de los vínculos, probá el [Laboratorio de relaciones y poder personal](/laboratorio-de-relaciones-y-poder-personal/).
 
 ## Preguntas frecuentes
 

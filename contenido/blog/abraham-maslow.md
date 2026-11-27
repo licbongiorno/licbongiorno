@@ -11,7 +11,7 @@ orden: 120
 estado: publicado
 respuesta: Abraham Maslow (1908-1970) fue un psicólogo estadounidense, uno de los fundadores de la psicología humanista. Es conocido por su teoría de la jerarquía de necesidades, que va de las necesidades fisiológicas a la autorrealización, aunque él nunca la dibujó como una pirámide. Estudió a personas autorrealizadas, describió las experiencias cumbre y propuso una psicología centrada en la salud y el crecimiento.
 menciona: maslow, humanista, motivacion
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 La famosa «pirámide de Maslow» aparece en manuales de todo tipo, siempre con la misma forma de escalera rígida. Maslow nunca la dibujó así, y él mismo aclaró que las necesidades se mezclan. Lo que de verdad quería saber era otra cosa: qué hace que algunas personas vivan con plenitud.
 
@@ -44,6 +44,26 @@ La imagen de la pirámide la hicieron otros, años después. Maslow habló de un
 La teoría de Maslow tuvo críticas —por ejemplo, por el número reducido de casos que estudió y por su sesgo cultural—, pero abrió un campo enorme: el estudio del bienestar y de las fortalezas humanas, del que surgió después la psicología positiva.
 
 En la consulta, su mirada me recuerda no quedarme solo con lo que falla, sino preguntar también por lo que una persona desea desplegar. Podés seguir con [la motivación](/recursos/la-motivacion/) o con [la psicología humanista](/recursos/psicologia-humanista-carl-rogers/).
+
+## Un ejemplo de todos los días
+
+Si estás angustiado por no llegar a fin de mes, probablemente no tengas cabeza para preguntarte cuál es tu vocación. Eso no significa que la vocación no importe: significa que la urgencia ocupa el lugar. Maslow lo notó en su jerarquía, y es una observación muy práctica. Cuando alguien consulta en medio de una crisis de vivienda, de salud o de seguridad, lo primero es ayudar a ordenar eso, antes de ir a preguntas más amplias. Y cuando lo básico está más o menos cubierto, aparece otra pregunta: ¿esto que hago, tiene sentido para mí?
+
+## Un movimiento nuevo
+
+Maslow fue una figura central en el nacimiento de la psicología humanista. En 1961 se fundó la revista *Journal of Humanistic Psychology*, y en 1969, con otros, el *Journal of Transpersonal Psychology*, lo que muestra hacia dónde iba su interés al final de su vida: lo que va más allá del yo. Ver [la psicología transpersonal](/recursos/psicologia-transpersonal/).
+
+Para estudiar la autorrealización, Maslow analizó biografías de figuras históricas y personas que consideraba plenas, entre ellas Abraham Lincoln, Albert Einstein y Eleanor Roosevelt. También habló de «valores del ser», como la verdad, la belleza y la justicia, que las personas autorrealizadas buscan por sí mismos.
+
+## Matices y límites
+
+El método de Maslow tiene debilidades que él mismo reconoció: eligió a las personas según su propio criterio, con una muestra pequeña y sesgada hacia figuras occidentales y notables. Por eso la lista de rasgos de la autorrealización es una descripción sugerente y no un hallazgo sólido.
+
+La jerarquía se puso a prueba. Un estudio con datos de más de cien países, publicado en 2011, encontró que las necesidades que Maslow describió aparecen en todas partes y se relacionan con el bienestar, pero que no hace falta satisfacerlas en orden para sentirse bien: hay personas que cultivan vínculos y sentido en condiciones materiales muy duras. Y la mirada centrada en el desarrollo individual es muy occidental: en muchas culturas, la plenitud se piensa más en términos de pertenencia que de realización personal. Podés ver otras miradas en [la psicología positiva](/recursos/mapa-de-la-psicologia-positiva/) y en [Martin Seligman](/recursos/martin-seligman/).
+
+## En la práctica
+
+La mirada de Maslow ayuda a formular un caso con generosidad: ¿qué necesita esta persona hoy?, ¿qué parte está sosteniendo?, ¿qué quisiera desplegar? Es también un antídoto contra la idea de que la terapia solo sirve para arreglar lo que falla. Para ver cómo funciona el impulso de hacer, leé sobre [la motivación](/recursos/la-motivacion/).
 
 ## Preguntas frecuentes
 

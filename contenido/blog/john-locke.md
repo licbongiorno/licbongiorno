@@ -11,7 +11,7 @@ orden: 170
 estado: publicado
 respuesta: John Locke (1632-1704) fue un filósofo y médico inglés, autor del Ensayo sobre el entendimiento humano (1690). Sostuvo que la mente empieza como una tabla rasa y que todas las ideas vienen de la experiencia, por la sensación o la reflexión. También describió la asociación de ideas. Su empirismo es un antecedente de la psicología asociacionista y del ambientalismo del conductismo de John B. Watson.
 menciona: locke, watson
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 Una hoja en blanco, sin nada escrito. Así imaginó John Locke la mente de una persona al nacer. Todo lo que después sepa, piense o imagine, decía, va a llegar por la experiencia. La imagen es simple y tuvo consecuencias enormes: si somos lo que vivimos, la educación y el ambiente lo son casi todo.
 
@@ -41,6 +41,26 @@ Para Locke, la **sensación** y la **reflexión** escriben sobre la **tabla rasa
 - La **asociación de ideas** fue el punto de partida del asociacionismo inglés, una de las raíces de la psicología experimental del siglo XIX.
 - **John B. Watson** llevó al extremo la idea de que el ambiente forma a la persona: su famosa promesa de convertir a cualquier niño en lo que quisiera es un eco radical de la tabla rasa. Ver [John B. Watson](/recursos/john-b-watson/).
 - El debate entre lo innato y lo aprendido, que hoy se piensa más como una interacción entre los dos, empezó en gran parte con Locke y su discusión con Descartes.
+
+## Un ejemplo de todos los días
+
+Pensá en alguien que se tensa apenas siente olor a hospital. Nadie nace con ese rechazo: en algún momento un olor quedó pegado a una situación dolorosa, y desde entonces uno trae al otro sin pedir permiso. Locke llamó la atención sobre fenómenos así en un capítulo sobre la asociación de ideas que agregó a la cuarta edición del *Ensayo* (1700). Contaba el caso de un joven que aprendió a bailar en un cuarto donde había un viejo baúl, y que después solo bailaba bien si el baúl estaba presente. Para Locke, muchas de nuestras manías, antipatías y miedos se arman de esa manera, por costumbre y no por razón.
+
+## Una discusión de época
+
+Locke escribió contra la doctrina de las ideas innatas, defendida por la tradición racionalista a la que pertenecía Descartes. Le contestó Leibniz en sus *Nuevos ensayos sobre el entendimiento humano*, escritos hacia 1704 y publicados recién en 1765: aceptaba que el conocimiento empieza en los sentidos, pero sostenía que la mente aporta una estructura propia. Esa disputa entre empiristas y racionalistas es la que Kant intentó ordenar casi un siglo después. Ver [Immanuel Kant](/recursos/immanuel-kant/).
+
+Otro episodio famoso es el problema de Molyneux. Un amigo de Locke le preguntó si un ciego de nacimiento que recuperara la vista reconocería a primera vista una esfera que antes solo conocía por el tacto. Locke incluyó la pregunta en la segunda edición del *Ensayo* (1694) y respondió que no. Hoy se estudia con personas que recuperaron la vista tras una ceguera de origen, y sigue enseñando algo: ver, tocar y entender no se conectan solos.
+
+## Matices y límites
+
+Locke no pensaba en una mente literalmente vacía. Hablaba de capacidades como percibir, recordar, comparar y combinar ideas, y en sus textos sobre educación reconocía que los chicos nacen con temperamentos distintos. Lo que negaba era que hubiera ideas o principios ya escritos de antemano.
+
+La investigación posterior sostiene una postura intermedia. Los bebés llegan con predisposiciones, por ejemplo una atención especial a la voz humana, y una parte importante de las diferencias de temperamento tiene base genética. Al mismo tiempo, el aprendizaje por asociación está muy bien documentado: es el terreno que estudió [Iván Pavlov](/recursos/ivan-pavlov/). La tabla rasa, en su versión fuerte, no resiste los datos; la idea de que la experiencia deja huellas profundas, sí.
+
+## Lo que queda en la práctica
+
+En la clínica, reconocer que una reacción se aprendió por asociación abre una puerta: lo aprendido puede volver a aprenderse de otra manera. Es la lógica con la que se trabajan muchas [fobias](/recursos/fobias/) y miedos: ir deshaciendo, de a poco y con apoyo, el vínculo entre una señal inofensiva y la alarma. Y es también una invitación a la humildad con la propia historia: parte de lo que creemos nuestro «carácter» es costumbre, y las costumbres se pueden revisar. Sobre cómo se guardan esas huellas, podés leer [la memoria](/recursos/la-memoria/).
 
 ## Preguntas frecuentes
 

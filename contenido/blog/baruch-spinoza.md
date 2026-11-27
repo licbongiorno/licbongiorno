@@ -11,7 +11,7 @@ orden: 162
 estado: publicado
 respuesta: Baruch Spinoza (1632-1677) fue un filósofo neerlandés de origen judío sefardí. En su Ética sostuvo que mente y cuerpo son dos aspectos de una misma realidad, que todo ser tiende a perseverar en su ser (el conatus) y que los afectos básicos son el deseo, la alegría y la tristeza. Propuso que la libertad consiste en comprender las causas de lo que sentimos. Irvin Yalom le dedicó una novela.
 menciona: spinoza, yalom
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 En 1656, la comunidad judía de Ámsterdam expulsó a un joven de veintitrés años con una de las condenas más duras de su historia. Se llamaba Baruch Spinoza. Vivió el resto de su vida con modestia, puliendo lentes para microscopios y telescopios, y escribiendo una obra que todavía hoy sorprende por su manera de pensar las emociones.
 
@@ -42,6 +42,26 @@ En el centro está el **conatus**, el esfuerzo por seguir siendo. De él surgen 
 - Su idea de que comprender un afecto lo transforma resuena con la psicoterapia en general: ponerle nombre y entender lo que sentimos cambia nuestra relación con eso.
 - La unidad de mente y cuerpo anticipa la mirada de la medicina psicosomática y de muchas investigaciones actuales sobre la emoción.
 - **Irvin Yalom** le dedicó una novela, *El problema de Spinoza* (2012), donde imagina su vida y la pone en diálogo con la historia del siglo XX. Ver [Irvin Yalom](/recursos/irvin-yalom/).
+
+## Un ejemplo de todos los días
+
+Te llega un mensaje de alguien con quien estás peleado y, antes de abrirlo, el cuerpo ya reaccionó: el estómago cerrado, la mandíbula dura. Para Spinoza, mientras no sepas de dónde viene esa reacción, el afecto te maneja a vos. Si en cambio te preguntás qué te achica y qué te agranda en ese vínculo, empezás a entender sus causas. Y una pregunta simple se vuelve una brújula: ¿esto aumenta mi capacidad de actuar o la reduce? Ojo: la alegría de Spinoza no es euforia, sino el pasaje a una mayor potencia; la tristeza, el pasaje a una menor.
+
+## Una época y una discusión
+
+Spinoza escribió en los Países Bajos del siglo XVII, un lugar de tolerancia relativa donde circulaban libros prohibidos en otras partes de Europa. Discutió con Descartes: para este, alma y cuerpo eran dos sustancias separadas, y propuso que se comunicaban en la glándula pineal. Spinoza criticó esa explicación sin vueltas en la *Ética* y sostuvo que mente y cuerpo son la misma cosa vista desde dos lados. Ver [René Descartes](/recursos/rene-descartes/). En 1673 rechazó una cátedra en la Universidad de Heidelberg para no arriesgar su libertad de pensar. Siglos después, Nietzsche lo llamó su precursor en una postal a un amigo. Ver [Friedrich Nietzsche](/recursos/friedrich-nietzsche/).
+
+## Qué resuena hoy
+
+El neurocientífico Antonio Damasio retomó a Spinoza en *En busca de Spinoza* (2003) para pensar la emoción como parte de la regulación del cuerpo vivo. Es una lectura personal, y los especialistas en Spinoza discuten cuánto tiene de fiel.
+
+Otro eco es un hallazgo de laboratorio: en estudios de neuroimagen, poner en palabras una emoción (lo que se llama etiquetado afectivo) se asoció con menor respuesta de la amígdala. No prueba la teoría de Spinoza, pero va en una dirección parecida a su intuición. En la consulta se ve a diario: cuando alguien pasa de «estoy mal» a «estoy triste porque me sentí desplazado», se abre espacio para decidir qué hacer. Podés explorarlo en [la inteligencia emocional](/recursos/inteligencia-emocional/) y en [la interocepción](/recursos/interocepcion/).
+
+## Matices y límites
+
+Spinoza no fue un clínico ni un investigador: su método era geométrico, con definiciones y demostraciones, y su filosofía es determinista: negaba el libre albedrío tal como suele entenderse. Sus tesis sobre mente y cuerpo son filosofía, no hipótesis puestas a prueba en su forma original.
+
+Tampoco conviene exagerar que entender alcanza. El propio Spinoza señalaba que un afecto solo se frena con otro más fuerte, y no con una idea fría. Entender por qué sentís celos no los apaga automáticamente: ayuda, pero casi siempre hace falta además cuerpo, vínculo y tiempo. Para trabajarlo en la práctica, probá el [Laboratorio de emociones](/laboratorio-de-emociones/).
 
 ## Preguntas frecuentes
 

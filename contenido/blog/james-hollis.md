@@ -11,7 +11,7 @@ orden: 118
 estado: publicado
 respuesta: James Hollis es un analista junguiano estadounidense que se formó en el Instituto C. G. Jung de Zúrich. Retomando a Jung, describe la crisis de la mitad de la vida como un paso intermedio entre una primera adultez dedicada a adaptarse a lo que otros esperan y una segunda mitad en la que la pregunta pasa a ser por el sentido. También escribió sobre los estados de ánimo difíciles como lugares donde el alma pide atención.
 menciona: hollis, jung, psicologia-analitica
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Un trabajo que antes entusiasmaba y ahora pesa, una casa armada que de golpe parece ajena, la pregunta que aparece un domingo a la tarde: ¿esto era todo? Lo que suele llamarse crisis de la mitad de la vida, para James Hollis, es una convocatoria: el momento en que la forma de vivir que armamos para cumplir con lo que se esperaba de nosotros deja de alcanzar, y la vida empieza a preguntar otra cosa.
 
@@ -44,6 +44,20 @@ Jung comparó la vida con el recorrido del sol: sube durante la mañana y, despu
 Hollis escribe con claridad y sin promesas fáciles, y sus libros acompañan a muchas personas que sienten que algo de su vida ya no encaja. Su obra es una de las traducciones más útiles de las ideas de Jung sobre las etapas de la vida.
 
 En la consulta, esta mirada es central en mi trabajo con adultos: una crisis en la mitad de la vida puede ser el comienzo de una etapa más propia, no solo un problema a resolver. Podés seguir con [las crisis vitales](/crisis-vitales/) o con [el proceso de individuación](/recursos/el-proceso-de-individuacion/).
+
+## Un ejemplo de todos los días
+
+Alguien de cuarenta y pico tiene una carrera sólida, una familia, una casa. Desde afuera, todo bien. Pero un domingo a la tarde aparece un cansancio que no es de cuerpo, y una pregunta: ¿esto lo elegí yo o lo elegí quien yo tenía que ser? Hollis diría que esa pregunta no es una falla del sistema, sino la forma en que la vida llama a revisar el contrato. Lo que sigue puede ser una crisis o un comienzo, según cómo se la atraviese.
+
+## Otros libros, otras preguntas
+
+Además de los ya nombrados, Hollis escribió sobre las relaciones y las proyecciones. En *The Eden Project* (1998) sostiene que muchas veces esperamos que la pareja nos devuelva un paraíso perdido, y que esa expectativa, cargada de infancia, termina por defraudar a los dos. En *Hauntings* (2013) habla de los «fantasmas» de la historia familiar que siguen actuando en el presente, y en *Why Good People Do Bad Things* (2007), de la sombra y de cómo todos tenemos capacidades que preferimos no ver. Son temas muy junguianos: ver [la sombra según Jung](/recursos/la-sombra-segun-jung/) y [la proyección según Jung](/recursos/la-proyeccion-segun-jung/).
+
+## Matices y límites
+
+Hollis escribe como analista y como ensayista, no como investigador. Sus libros son reflexiones basadas en años de consulta y no estudios con muestras o comparaciones, y conviene leerlos como una guía para pensar y no como evidencia.
+
+Además, la «crisis de la mitad de la vida» no es universal. En los estudios disponibles, solo una parte de las personas dice haber vivido algo así; para muchas, la mediana edad es un tiempo de estabilidad o incluso de bienestar. Por otro lado, el cansancio, la tristeza o la desesperanza persistentes pueden ser una depresión que merece evaluación profesional: no todo malestar es una convocatoria del alma, y a veces necesita atención clínica. Podés leer sobre [las señales de la depresión](/recursos/depresion-senales-y-tratamiento/), [la crisis de la mitad de la vida](/recursos/crisis-de-la-mitad-de-la-vida/) y [las transiciones vitales](/recursos/transiciones-vitales/), y practicar con el [Laboratorio de crisis vitales](/laboratorio-de-crisis-vitales/).
 
 ## Preguntas frecuentes
 

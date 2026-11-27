@@ -11,7 +11,7 @@ orden: 100
 estado: publicado
 respuesta: Sándor Ferenczi (1873-1933) fue un psicoanalista húngaro, uno de los colaboradores más cercanos de Freud y fundador de la Sociedad Psicoanalítica de Budapest. Se lo recuerda por haber vuelto a poner en el centro el trauma real, en especial el abuso en la infancia, por su concepto de confusión de lenguas entre el adulto y el niño y por su interés en la actitud cálida y honesta del analista.
 menciona: ferenczi, freud, psicoanalisis
-revision: 2026-11-07
+revision: 2026-11-27
 ---
 Durante décadas, su nombre apareció en la historia del psicoanálisis casi como una nota al pie. Ferenczi fue el amigo más cercano de Freud y el analista de pacientes que nadie más quería atender. Se animó a decir algo incómodo para su época: que muchos de los sufrimientos que llegaban a la consulta no eran fantasías, sino heridas que los adultos les habían hecho a los chicos.
 
@@ -43,6 +43,26 @@ En su último gran trabajo, Ferenczi describió dos lenguajes. El del niño es e
 Durante años, Ferenczi fue leído con desconfianza. Hoy se lo considera un precursor de muchas cosas: la teoría del trauma, el psicoanálisis relacional y la atención a lo que el analista siente y hace en la sesión. La idea de que el vínculo terapéutico tiene que ser un lugar confiable, y no una repetición del daño, le debe mucho.
 
 En la consulta, su legado me recuerda algo simple y exigente a la vez: creerle a quien cuenta lo que le pasó y cuidar la forma en que se escucha. Si te interesa el tema, podés leer sobre [los mecanismos de defensa](/recursos/mecanismos-de-defensa/), entre ellos la identificación con el agresor.
+
+## Un ejemplo de todos los días
+
+Un chico cuenta algo que le pasó y un adulto le responde «eso no pasó, no inventes». El chico queda dos veces solo: con lo que vivió y con la duda de si puede creerse a sí mismo. Ferenczi vio, en la clínica, cómo esa segunda soledad podía pesar tanto como el hecho inicial. Por eso le daba tanta importancia a la reacción del entorno: ser creído, o no, cambia lo que el trauma deja.
+
+## El camino técnico
+
+En la década de 1920 Ferenczi ensayó la llamada técnica activa, y con Otto Rank publicó *Perspectivas del psicoanálisis* (1924), donde ponían el acento en la experiencia vivida en la sesión por encima de la reconstrucción intelectual. Después fue más lejos: buscó relajar la rigidez del encuadre, probó con la calidez y con una mayor flexibilidad, y llegó al análisis mutuo con una paciente, Elizabeth Severn. En 1931 Freud le escribió preocupado porque Ferenczi daba muestras de afecto físico a sus pacientes, como besos, y temía las consecuencias.
+
+La conferencia de 1932 sobre la confusión de lenguas se recibió mal, y el trabajo no se publicó en inglés hasta 1949. Ernest Jones, biógrafo oficial de Freud, afirmó que Ferenczi había terminado con un trastorno mental, versión que historiadores posteriores discutieron y consideran sesgada.
+
+## Qué retomamos hoy
+
+Muchas ideas de Ferenczi volvieron con fuerza. El psicoanálisis relacional, con autores como Stephen Mitchell y Lewis Aron, lo reconoce como antecedente. Michael Balint, que fue su discípulo, desarrolló en *La falta básica* (1968) la idea de una falla temprana en el vínculo. Y la atención contemporánea al trauma, a la [disociación](/recursos/la-disociacion/) y al [trauma complejo](/recursos/trauma-complejo/) tiene en él un antecedente claro, junto con la relevancia de [la memoria](/recursos/la-memoria/) en lo que se cuenta y se cree.
+
+## Matices y límites
+
+No hay que idealizarlo. Sus experimentos, como el análisis mutuo, borraron límites que hoy se consideran esenciales para proteger a quien consulta: la asimetría del vínculo terapéutico es una garantía, no un obstáculo. Tampoco significa que todo relato deba tomarse como un hecho literal: la memoria es compleja y no siempre exacta, y la clínica actual combina el creer a quien sufre con el cuidado de no sugerir contenidos.
+
+De Ferenczi nos queda la actitud: tomar en serio la experiencia del paciente, ser honesto con los propios errores y cuidar la forma en que se escucha. Sobre cómo los vínculos tempranos marcan los posteriores, mirá [el apego](/recursos/el-apego/).
 
 ## Preguntas frecuentes
 

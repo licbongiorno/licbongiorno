@@ -11,7 +11,7 @@ orden: 212
 estado: publicado
 respuesta: Margaret Mahler (1897-1985) fue una psicoanalista nacida en Hungría que trabajó en Estados Unidos. Con Pine y Bergman publicó en 1975 The Psychological Birth of the Human Infant, donde sostiene que el nacimiento biológico y el psicológico no coinciden. Describió la separación-individuación: salir de la fusión simbiótica con la madre y adquirir características propias.
 menciona:
-revision: 2026-11-21
+revision: 2026-11-27
 ---
 El día en que un bebé nace es una fecha clara. El día en que empieza a ser alguien distinto de su madre no lo es tanto. Mahler dedicó su obra a mirar ese segundo nacimiento, más lento y menos visible que el primero.
 
@@ -41,6 +41,25 @@ Desde esa lectura, ciertas dificultades de la vida adulta pueden entenderse como
 Lo que quedó en pie es la idea de que ser una persona separada es un logro del desarrollo y no un dato de partida, y que ese logro se construye en una relación. Esa intuición dialoga con la teoría del apego de [John Bowlby](/recursos/john-bowlby/), que también puso la relación temprana con quien cuida en el centro de la explicación, y con el pensamiento de [Donald Winnicott](/recursos/donald-winnicott/) sobre el bebé y su ambiente. Si querés ver cómo se estudia hoy ese vínculo, podés pasar por el [Laboratorio del desarrollo y el apego](/laboratorio-del-desarrollo-y-el-apego/).
 
 Lo que se discute es otra cosa. Parte de la investigación posterior sobre bebés cuestionó la idea de una fase inicial de fusión total, porque los bebés muestran desde muy temprano capacidades para distinguir a las personas y responder a ellas. Y, como en todo modelo de etapas, conviene recordar que los niños no recorren el camino de manera idéntica ni en los mismos tiempos. Leer a Mahler hoy es leer una descripción valiosa del proceso de diferenciarse, no un calendario.
+
+## Las fases que describió
+
+Mahler propuso una secuencia, de la que conviene tener presente que las edades son aproximadas y varían mucho de un niño a otro. Después de la fusión simbiótica del comienzo, describió la **separación-individuación** en subfases:
+
+- **Diferenciación** (hacia los 5 a 9 meses): el bebé empieza a mirar el mundo más allá de quien lo cuida, y a distinguir lo propio de lo ajeno.
+- **Práctica** (de los 10 a los 16 meses, más o menos): con el gateo y los primeros pasos, el niño se aleja, explora y disfruta de su capacidad de moverse.
+- **Acercamiento** (hacia el segundo año): descubre que es pequeño y que el mundo es grande; vuelve a buscar a su madre, a veces con ambivalencia: quiere irse y quiere quedarse.
+- **Constancia objetal** (a partir de los dos o tres años): puede llevar adentro una imagen estable de quien lo cuida, y tolerar la ausencia sin que se derrumbe lo que siente.
+
+## Un ejemplo con chicos de dos años
+
+El acercamiento se reconoce fácil: el chico que dice «no» a todo y a los diez segundos pide upa. Esa oscilación entre el «yo solo» y el «no te vayas» no es un capricho, es un trabajo. Cuando quien lo cuida puede tolerar las dos cosas sin enojarse ni asustarse, el chico puede ir ganando la confianza de que separarse no es perder.
+
+## Qué influencia tuvo
+
+Las ideas de Mahler fueron muy usadas para pensar problemas de la vida adulta ligados a la distancia en los vínculos. Otto Kernberg y otros autores recurrieron a ellas para formular la organización límite de la personalidad, con su oscilación entre el miedo a ser absorbido y el miedo al abandono. Para ver ese cuadro hoy, mirá [Otto Kernberg](/recursos/otto-kernberg/) y [el trastorno límite de la personalidad](/recursos/trastorno-limite-de-la-personalidad/). También se cruza con [René Spitz](/recursos/rene-spitz/), que observó bebés separados de sus cuidadores, y con [Mary Ainsworth](/recursos/mary-ainsworth/), cuya «situación extraña» estudia justamente el vaivén entre explorar y volver.
+
+Una advertencia: la lectura de Mahler no debería usarse para culpar a las madres. Describe un proceso que se da en la relación y que depende de muchos factores, entre ellos el entorno, los apoyos y el temperamento del niño. Y, como dijimos, la «fase de fusión» fue cuestionada, de modo que sus subfases se leen mejor como un mapa orientador que como una norma de desarrollo.
 
 ## Preguntas frecuentes
 

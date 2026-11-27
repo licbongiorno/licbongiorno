@@ -11,7 +11,7 @@ orden: 175
 estado: publicado
 respuesta: Siddhartha Gautama, el Buda, fue un maestro espiritual de la India antigua; sus fechas se discuten y suelen ubicarse entre los siglos VI y IV a. C. Enseñó las cuatro nobles verdades: existe el sufrimiento, tiene un origen en el apego, puede cesar y hay un camino para que cese. Sus prácticas de atención plena inspiraron el programa de reducción del estrés de Jon Kabat-Zinn y los módulos de mindfulness de la terapia dialéctica de Marsha Linehan.
 menciona: buda, kabat-zinn, linehan, mindfulness
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 Cuenta la tradición que un joven príncipe, criado entre lujos y lejos de todo dolor, salió un día del palacio y vio, por primera vez, a un anciano, a un enfermo y a un muerto. Después vio a un asceta que buscaba una salida. Esa escena, más leyenda que historia, resume la pregunta que movió la vida del Buda: ¿por qué sufrimos y qué podemos hacer con eso?
 
@@ -44,6 +44,26 @@ Según esos relatos, era hijo de un jefe del clan de los Shakya. En su juventud 
 - **Marsha Linehan**, que practicó zen durante años, incorporó la atención plena y la aceptación radical a la terapia dialéctica conductual. Ver [Marsha Linehan](/recursos/marsha-linehan/).
 - La idea de observar los pensamientos sin identificarse con ellos está en la base de las terapias de tercera generación, como la [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/).
 - Si querés conocer la práctica, podés leer sobre la [meditación vipassana](/recursos/meditacion-vipassana/) o probar el [laboratorio de mindfulness](/laboratorio-de-mindfulness/).
+
+## Un ejemplo de todos los días
+
+Hay un texto budista, el *Sallatha Sutta*, que habla de dos flechas. La primera es el dolor que no se elige: una pérdida, una enfermedad, un mal día. La segunda es la que uno agrega con la reacción: «no debería pasarme», «soy un desastre», «esto no se termina más». Pensá en una muela que duele. La primera flecha es el dolor. La segunda es reprocharte por no haber ido antes al dentista y anticipar lo peor. No se puede evitar la primera; sobre la segunda, con práctica, hay algo de margen. Buena parte de lo que hoy llamamos ansiedad anticipatoria vive en esa segunda flecha.
+
+## El camino, más allá de la meditación
+
+La cuarta noble verdad se despliega en el llamado óctuple sendero: comprensión, intención, palabra, acción, medio de vida, esfuerzo, atención y concentración, cada uno acompañado del adjetivo «recto» o «correcto». Es decir que el camino no es solo sentarse a meditar: incluye una ética, un modo de hablar y de ganarse la vida, además del cultivo de la mente.
+
+Las enseñanzas suelen resumirse en tres rasgos de la existencia: la impermanencia, la insatisfacción que acompaña al aferrarse, y la ausencia de un yo fijo y separado. Este último punto se malentiende mucho: no dice que no existas, sino que lo que llamás «yo» es un proceso que cambia y depende de causas, y no una cosa sólida.
+
+## Del templo al consultorio
+
+Después de Kabat-Zinn, Mark Williams, Zindel Segal y John Teasdale desarrollaron la terapia cognitiva basada en mindfulness (MBCT, publicada en 2002), pensada para prevenir recaídas en personas con depresión recurrente. Algunas guías clínicas, como las del NICE del Reino Unido, la incluyen entre las opciones recomendadas. Con otros nombres, la atención al momento presente también aparece en la [terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/) y en la DBT. Para leer cómo se estudia la meditación con instrumentos científicos, mirá [Mind and Life y la neurociencia de la meditación](/recursos/mind-and-life-y-la-neurociencia-de-la-meditacion/).
+
+## Matices y límites
+
+Hablar de «el budismo» como una sola cosa es una simplificación: hay tradiciones muy distintas (theravada, mahayana, vajrayana), con prácticas y textos propios. Como dijimos, la biografía del Buda llegó a nosotros a través de relatos tardíos.
+
+El mindfulness clínico es una adaptación: recortó el marco ético y religioso y dejó la práctica de atención. Algunos críticos, como Ronald Purser en *McMindfulness* (2019), advierten sobre un uso que convierte la meditación en una herramienta para tolerar condiciones laborales injustas. En cuanto a la investigación, hay resultados favorables para varios problemas, pero los efectos suelen ser moderados y similares a los de otros tratamientos, y no es para todas las personas ni para todos los momentos: leé [cuándo meditar no es recomendable](/recursos/cuando-meditar-no-es-recomendable/). Para una introducción a la práctica, [qué es la meditación](/recursos/que-es-la-meditacion/) y [la ecuanimidad](/recursos/ecuanimidad/).
 
 ## Preguntas frecuentes
 
