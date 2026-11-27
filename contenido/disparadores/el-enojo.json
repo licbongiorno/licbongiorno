@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer cuenta que nunca se enoja: «no vale la pena». Dice sí a todo. Un día, por un vaso mal puesto, le grita a su hijo con una fuerza que la asusta y pasa tres días pidiendo disculpas.",
+   "p": "¿Qué pasó con el enojo que nunca apareció?",
+   "opciones": [
+    "Se disolvió solo, por no hacerle caso",
+    "No desaparece: se transforma y puede salir en otro momento y de otra forma",
+    "Era un enojo falso, que se inventó ese día"
+   ],
+   "r": "El enojo que no se expresa suele transformarse: tristeza, cansancio, tensión en el cuerpo, ironía o un estallido desproporcionado. El enojo reprimido y el desbordado suelen ser dos caras de lo mismo. En sí mismo es una emoción necesaria: avisa que algo importa y que se cruzó un límite.",
+   "como": "Surge de la observación clínica, y desde la mirada junguiana lo que rechazamos de nosotros pasa a formar parte de la sombra. No es una explicación única: a veces el enojo tapa tristeza o miedo.",
+   "debate": "No todo enojo es un mensaje certero: hay enojos con motivos reales y otros que vienen de una lectura errónea de la situación.",
+   "seccion": "Cuando se traga"
+  },
+  {
+   "enigma": "Alguien llega furioso del trabajo y descarga la bronca golpeando una almohada, convencido de que así se le va a pasar.",
+   "p": "¿Descargarse así ayuda a que baje?",
+   "opciones": [
+    "Sí, soltarlo físicamente es lo que más calma",
+    "No: puede dejar más agresividad, y conviene bajar la activación del cuerpo",
+    "Da igual qué se haga: el enojo baja solo con el tiempo"
+   ],
+   "r": "En un estudio, quienes se descargaban no se sintieron mejor y mostraron más agresividad después. Lo que tiene respaldo es bajar la activación del cuerpo (respirar, caminar, esperar) y después decir con claridad lo que pasó y lo que se necesita.",
+   "como": "Bushman (2002) publicó un estudio en el que quienes se descargaban mostraron más agresividad después. Estos resultados llevaron a desconfiar de la catarsis como método.",
+   "debate": "Es un estudio, y las situaciones reales son más complejas que las de laboratorio. Si el enojo es frecuente e intenso, o viene con alcohol, conviene consultar.",
+   "seccion": "Qué dice la investigación sobre «descargarse»"
+  }
+ ],
+ "abierta": "Si el enojo suele avisar que se cruzó un límite, ¿cómo saber cuándo ese aviso es certero y cuándo es una lectura equivocada de lo que pasó?"
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien se da cuenta de lo que otros necesitan antes de que lo digan, dice «no hace falta» cuando le ofrecen ayuda, y siente un dolor sordo cuando nadie le pregunta cómo está.",
+   "p": "¿Dar tanto siempre es puro desinterés?",
+   "opciones": [
+    "Sí: es generosidad sin más",
+    "No siempre: detrás puede haber una necesidad de ser querido que no se reconoce",
+    "Nunca: toda ayuda esconde interés"
+   ],
+   "r": "El eneagrama describe al 2 como alguien cálido y generoso, pero detrás de tanto dar puede haber una necesidad de ser querido que no se reconoce. Cuando no llega el agradecimiento, aparecen el reproche o la sensación de víctima.",
+   "como": "Es una lectura del eneagrama, que viene de Óscar Ichazo y de Claudio Naranjo, quien lo tradujo a lenguaje psicológico. Su base psicométrica es débil.",
+   "debate": "La generosidad del 2 es real: no todo dar esconde una necesidad. Lo que describe el eneagrama es un patrón posible, no una sospecha sobre las buenas acciones.",
+   "seccion": "Su sombra"
+  },
+  {
+   "enigma": "En muchos contextos se espera que las mujeres cuiden, atiendan y organicen a los demás, y a veces eso se toma como un rasgo de carácter.",
+   "p": "¿Qué pesa más: la personalidad o el mandato cultural?",
+   "opciones": [
+    "Solo la personalidad: nacemos así",
+    "Ambos influyen, y es difícil separarlos",
+    "Solo la cultura: la personalidad no existe"
+   ],
+   "r": "Hay una dimensión cultural y de género: lo que parece rasgo puede ser en parte un mandato. La psicología estudió por separado la empatía y la conducta prosocial, con resultados sólidos.",
+   "como": "Esos estudios no confirmaron que ese conjunto forme un «tipo 2». En terapia, desde lo psicoanalítico, se explora qué lugar ocupó el cuidado en la historia familiar: a veces cuidar fue la forma de tener un lugar.",
+   "debate": "No está confirmado que exista un «tipo» ayudador como categoría; el eneagrama no es un instrumento validado y sirve como mapa para pensarse, no para diagnosticar.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si cuidar puede ser amor y también una forma de buscar un lugar, ¿cómo distinguir una cosa de la otra en uno mismo? Es una pregunta abierta."
+}

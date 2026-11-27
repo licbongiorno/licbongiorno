@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un muchacho de veintidós años llega a un médico de una ciudad de la India. Se siente débil, duerme mal y no puede concentrarse. Está convencido de que pierde fuerza por la orina turbia. Los análisis dan normales.",
+   "p": "¿Qué puede estar pasando?",
+   "opciones": [
+    "Es un invento: el cuerpo está sano y no hay nada que explicar",
+    "Una creencia cultural da forma a un malestar que suele incluir ansiedad o ánimo bajo",
+    "Es una enfermedad física rara que los análisis no detectan"
+   ],
+   "r": "Es el síndrome de dhat, un cuadro descrito en la India y países vecinos en el que síntomas de debilidad, ansiedad y culpa se atribuyen a la pérdida de semen. Con frecuencia aparece junto con depresión o ansiedad. La creencia de que esa pérdida debilita el cuerpo no tiene respaldo médico.",
+   "como": "En 1975, Wig y Malhotra interrogaron a 107 personas de la población general con una viñeta y vieron que gran parte, de todas las clases sociales, compartía la creencia. Décadas después, una revisión de Rao (2021) recordó estudios clínicos donde cerca de la mitad de los pacientes tenía depresión.",
+   "debate": "Se discute si la creencia causa el ánimo bajo o si la persona deprimida encuentra en ella una explicación disponible; probablemente ambas cosas se alimentan. Y conviene evitar el error opuesto: no todo lo que trae un paciente se explica por la cultura.",
+   "seccion": "Dhat, depresión y ansiedad"
+  },
+  {
+   "enigma": "En el siglo XIX, médicos europeos escribían tratados sobre la «espermatorrea», una supuesta enfermedad que debilitaba. Hoy se la asocia sobre todo con Asia.",
+   "p": "¿Es una creencia exclusiva de la India?",
+   "opciones": [
+    "Sí, está ligada solo a la medicina ayurvédica",
+    "No: se la describió también en Gran Bretaña, Estados Unidos y Australia",
+    "Solo existe donde se enseña la medicina tradicional"
+   ],
+   "r": "No es tan exclusiva como se creyó. La angustia por la pérdida de semen fue descrita históricamente también en países occidentales, y hay presentaciones parecidas en Sri Lanka, Pakistán, Nepal, Bangladés, China y Taiwán.",
+   "como": "En 2004, Sumathipala, Siribaddana y Bhugra revisaron la literatura en el British Journal of Psychiatry. Encontraron que los estudios empíricos venían casi todos de Asia, pero que la idea había existido antes en Occidente.",
+   "debate": "Lo que varía es cuánto sostiene la cultura esa creencia y cuánto se vuelve motivo frecuente de consulta. Si es un «síndrome ligado a la cultura» o un modo de hablar del malestar sigue debatiéndose.",
+   "seccion": "¿Es solo de la India?"
+  }
+ ],
+ "abierta": "En la Argentina también hablamos de «nervios» o de algo que «cae mal» al estómago. ¿Qué frase usaba tu familia para decir que alguien estaba mal sin decirlo, y en qué parte del cuerpo la ubicaba?"
+}

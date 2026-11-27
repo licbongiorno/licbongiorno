@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien tiene un plan B, C y D por si acaso, pregunta a tres personas antes de decidir y relee un mensaje buscando el doble sentido. Es leal con los suyos y no se queda en paz con sus propias decisiones.",
+   "p": "¿Eso es ansiedad?",
+   "opciones": [
+    "Sí, ser así equivale a tener un trastorno de ansiedad",
+    "No necesariamente: ser un «6» no equivale a un trastorno, pero una ansiedad intensa merece evaluación",
+    "Nunca: es solo un rasgo de personalidad"
+   ],
+   "r": "Ser un «6» en el eneagrama no equivale a tener un trastorno de ansiedad. A la inversa, una ansiedad intensa merece evaluación aunque no encaje con ningún tipo.",
+   "como": "La ansiedad es un tema muy estudiado, y existen tratamientos con buena evidencia, como la terapia cognitivo-conductual. El eneagrama proviene de Óscar Ichazo y fue desarrollado psicológicamente por Claudio Naranjo.",
+   "debate": "La figura del «contrafóbico», quien enfrenta el miedo yendo de frente, es una idea del modelo, útil para pensar pero sin validación empírica contundente.",
+   "seccion": "Su sombra"
+  },
+  {
+   "enigma": "Alguien consulta porque no puede decidir si aceptar un trabajo nuevo. Pidió opinión a cinco personas y cada respuesta lo confundió más. Lleva semanas con un nudo en el estómago.",
+   "p": "¿Qué puede ayudarlo?",
+   "opciones": [
+    "Pedir una sexta opinión, la definitiva",
+    "Anotar qué siente que sabe él, aparte de lo que le dijeron",
+    "Decidir al azar para sacarse el problema de encima"
+   ],
+   "r": "En terapia se trabaja con lo concreto: qué pensamiento aparece, qué siente el cuerpo y qué historia de seguridad e inseguridad hubo en la familia. El cambio de preguntar afuera a escuchar adentro suele ser el comienzo.",
+   "como": "Es una pauta de la clínica integrativa, con herramientas de regulación como la respiración, la ventana de tolerancia y la exposición gradual. El vínculo estable con el terapeuta funciona como laboratorio de confianza.",
+   "debate": "Es una lectura para pensarse, no una receta. El eneagrama no reemplaza una evaluación profesional ni sirve para explicar un cuadro de ansiedad.",
+   "seccion": "En terapia"
+  }
+ ],
+ "abierta": "Si lo que se teme es en parte real y en parte anticipación, ¿cómo saber qué parte es cada una? Es una pregunta que la clínica de la ansiedad sigue explorando."
+}

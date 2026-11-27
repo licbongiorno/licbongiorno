@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una madre pide un informe para la escuela de su hijo, que viene con dificultades para sostener la atención. Teme que sea una etiqueta que lo acompañe toda la vida.",
+   "p": "¿Qué hace que un informe psicológico sea bueno?",
+   "opciones": [
+    "Que tenga muchos puntajes y siglas, así parece más serio",
+    "Que responda la pregunta que se hizo, describa antes que etiquete y se pueda leer",
+    "Que cuente todo lo que apareció en la evaluación"
+   ],
+   "r": "Un buen informe responde una pregunta concreta, describe antes que etiquetar, distingue lo observado de lo inferido y usa un lenguaje que la persona pueda leer. No incluye información íntima que no sirva para responder.",
+   "como": "Es una guía de buena práctica de la profesión: el informe se escribe según quién lo va a leer y para qué, y se conversa en la devolución para aclarar dudas y corregir errores de hecho.",
+   "debate": "Un informe es una fotografía de un momento y una situación. Las pruebas proyectivas tienen respaldo variable y las psicométricas dependen de que haya normas adecuadas, por lo que un buen informe dice con qué seguridad afirma cada cosa.",
+   "seccion": "Cómo se escribe un buen informe"
+  },
+  {
+   "enigma": "Alguien hace una evaluación psicológica y se pregunta quién va a leer lo que contó y si puede negarse a que se envíe.",
+   "p": "¿Qué protege lo que se dice en una evaluación?",
+   "opciones": [
+    "Nada: el informe es del profesional y lo envía a quien quiera",
+    "El secreto profesional y el consentimiento de la persona, con pocas excepciones",
+    "Solo se protege si la evaluación fue pedida por la propia persona"
+   ],
+   "r": "Lo que se dice está protegido por el secreto profesional. El informe se entrega a quien corresponde y con consentimiento, y la persona puede preguntar qué va a decir y a quién se enviará. Las excepciones son pocas y están definidas por ley.",
+   "como": "La Ley Nacional de Salud Mental 26.657 reconoce la confidencialidad y el acceso a la propia información, y los códigos de ética de la psicología incluyen el secreto profesional.",
+   "debate": "Los plazos de conservación, los derechos de acceso y las excepciones dependen de la legislación vigente en cada lugar.",
+   "seccion": "Confidencialidad y secreto profesional"
+  }
+ ],
+ "abierta": "Si un informe es la foto de un momento, ¿cómo lograr que lo escrito hoy no pese como una etiqueta años después? Es una pregunta que la profesión todavía discute."
+}

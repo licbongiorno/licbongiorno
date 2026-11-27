@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona se separó y dice que ya lo superó. Se anotó en tres cursos y planeó dos viajes en un mes. Un día, hablando de otra cosa, se queda en silencio y dice: «no sé por qué me dan ganas de llorar».",
+   "p": "¿Qué puede estar pasando?",
+   "opciones": [
+    "Que realmente lo superó y es una tontería",
+    "Que el dolor que se esquiva no desaparece: espera",
+    "Que está cansada de tanto plan"
+   ],
+   "r": "El eneagrama describe al 7 como alguien cuya alegría es verdadera, pero que a veces es una manera elegante de no quedarse con lo que duele. El dolor que se esquiva no desaparece. En terapia el trabajo es permitir que el dolor tenga lugar, con apoyo, y descubrir que no destruye.",
+   "como": "Desde lo psicoanalítico se habla de defensas maníacas: acelerar para no sentir la caída. Es una lectura de la clínica, no un resultado de estudios sobre «tipos».",
+   "debate": "Que el eneagrama describa al 7 como alguien que evita el dolor es una hipótesis útil, no un dato: hay personas muy alegres que no huyen de nada.",
+   "seccion": "En terapia"
+  },
+  {
+   "enigma": "Alguien con muchas ganas de novedades, y siempre con diez proyectos abiertos, se pregunta si tiene TDAH o si está «maníaco».",
+   "p": "¿Alcanza con eso para pensarlo?",
+   "opciones": [
+    "Sí: tantos proyectos son señal clara de TDAH",
+    "No: el gusto por la novedad es un rasgo estudiado y esos cuadros se evalúan por separado",
+    "Sí: es hipomanía casi seguro"
+   ],
+   "r": "El gusto por la novedad y la búsqueda de sensaciones están estudiados como rasgos y no son un defecto. Conviene no confundir al 7 con el TDAH ni con un episodio de hipomanía, cuadros con evaluación y tratamiento propios.",
+   "como": "Son cuadros que evalúa un profesional. El eneagrama es una tradición de autoconocimiento nacida con Óscar Ichazo y desarrollada por Claudio Naranjo.",
+   "debate": "El eneagrama no cuenta con respaldo psicométrico sólido: sirve para pensarse, no para clasificar ni diagnosticar.",
+   "seccion": "Su sombra"
+  }
+ ],
+ "abierta": "Si hay personas alegres que no huyen de nada y otras que usan la alegría para no sentir, ¿cómo se distingue desde afuera? Probablemente ni siquiera uno mismo lo sabe siempre."
+}

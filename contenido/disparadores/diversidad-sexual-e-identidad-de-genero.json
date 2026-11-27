@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona adulta cuenta en terapia, por primera vez, que desde chica siente que el género asignado al nacer no le corresponde. Su familia se pregunta si es una enfermedad.",
+   "p": "¿Qué dice hoy la psicología sobre la diversidad sexual y de género?",
+   "opciones": [
+    "Que es un trastorno que conviene corregir cuanto antes",
+    "Que no es una enfermedad: el sufrimiento suele venir del rechazo y la discriminación",
+    "Que depende de cuánta presión se ejerza sobre la persona"
+   ],
+   "r": "Ser lesbiana, gay, bisexual, trans, no binarie o de cualquier otra orientación o identidad no es una enfermedad. Cuando hay sufrimiento, lo explica con más frecuencia el rechazo, el ocultamiento y la violencia que lo rodean.",
+   "como": "La OMS, en la CIE-11 (aprobada en 2019), sacó la «incongruencia de género» de los trastornos mentales y la ubicó entre las condiciones de salud sexual. En Argentina, la ley 26.743 (2012) reconoce la identidad según la autopercepción, sin exigir diagnósticos ni cirugías.",
+   "debate": "El cambio de la OMS apunta a reducir el estigma sin perder el acceso a la atención de salud. Cómo equilibrar ambas cosas se sigue discutiendo.",
+   "seccion": "Lo que dicen las leyes en Argentina"
+  },
+  {
+   "enigma": "Algunas instituciones ofrecen «terapias» para cambiar la orientación sexual o la identidad de una persona, con promesas de que funcionan.",
+   "p": "¿Funcionan?",
+   "opciones": [
+    "Sí, si la persona se compromete lo suficiente",
+    "No tienen respaldo y pueden dañar",
+    "Funcionan solo en la adolescencia"
+   ],
+   "r": "Los intentos de cambiar la orientación o la identidad, las llamadas terapias de «conversión», no tienen respaldo. Las asociaciones de psicología sostienen que no funcionan y que pueden dañar, con culpa, vergüenza, ansiedad y depresión.",
+   "como": "Es la posición de las asociaciones profesionales de psicología. Muchas personas diversas relatan un recorrido de miedo a ser descubiertas, rechazo y burlas, que deja huellas como la vergüenza o el aislamiento.",
+   "debate": "Trabajar en terapia sobre esas huellas no es lo mismo que «tratar la identidad»: se ayuda a vivir con más libertad y menos miedo.",
+   "seccion": "Las terapias de «conversión»"
+  }
+ ],
+ "abierta": "La identidad se vive, se nombra y se acompaña en contextos que cambian. ¿Cómo se construye un entorno donde una persona no tenga que justificar quién es?"
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace seis meses murió su padre y todavía llora. Se pregunta si ya pasó la negación, si está en la ira, y sus amigos dicen que «ya tendría que estar mejor».",
+   "p": "¿El duelo avanza por etapas en un orden fijo?",
+   "opciones": [
+    "Sí: negación, ira, negociación, depresión y aceptación, en ese orden",
+    "No: la investigación no confirmó ese orden y las reacciones son muy variadas",
+    "Sí, pero solo en los duelos por una muerte repentina"
+   ],
+   "r": "Las cinco etapas no se confirmaron como un camino obligatorio. No hay un orden único, no todos pasan por todas y presentarlas como receta puede hacer que alguien piense que su duelo es anormal. Ira, tristeza o incredulidad son comunes, pero no una medida de cómo debería ir.",
+   "como": "Las etapas vienen de On Death and Dying (1969), de Elisabeth Kübler-Ross, y describían la experiencia de personas que estaban muriendo, no de quienes perdieron a alguien. Stroebe, Schut y Boerner (2017) revisaron la evidencia, y Bonanno (2004) mostró trayectorias muy distintas ante la pérdida.",
+   "debate": "Se discute cómo usarlas: como descripción posible de lo que algunos sienten pueden servir, pero no como guion de lo que corresponde sentir.",
+   "seccion": "Por qué no sirven como receta"
+  },
+  {
+   "enigma": "Un día una viuda llora mirando fotos. Al siguiente se ocupa de trámites y sale a almorzar con amigas. Se pregunta si no estará evitando el dolor.",
+   "p": "¿Ir y venir así es evitar el duelo?",
+   "opciones": [
+    "Sí, hay que quedarse en el dolor hasta atravesarlo",
+    "No: ese vaivén es parte de cómo muchas personas transitan un duelo",
+    "Es señal de que no quería a la persona"
+   ],
+   "r": "Ese ir y venir, llamado oscilación, es parte del proceso: se alterna entre tareas orientadas a la pérdida (llorar, recordar) y a la restauración (lo práctico, reorganizar la vida, descansar del dolor). Lo problemático puede ser quedar fijado en un solo polo.",
+   "como": "Es el modelo de doble proceso de Stroebe y Schut (1999). Klass, Silverman y Nickman (1996) agregaron que muchas personas no cortan el vínculo con quien murió: lo transforman, conversan con él, conservan objetos.",
+   "debate": "Para algunos casos, cuando el dolor queda detenido, el DSM-5-TR (2022) incluyó el trastorno de duelo prolongado, con un tratamiento específico (Shear y colaboradores, 2005). Qué cuenta como duelo «demasiado largo» sigue siendo discutible, porque depende de la cultura.",
+   "seccion": "El modelo de doble proceso"
+  }
+ ],
+ "abierta": "Si no hay una manera única de hacer un duelo, ¿cómo distinguir un dolor largo pero sano de uno que necesita ayuda? Es una frontera que se sigue estudiando."
+}

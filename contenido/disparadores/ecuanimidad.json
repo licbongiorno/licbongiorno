@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te llega una crítica injusta en el trabajo. Podés defenderte con rabia o hundirte en la tristeza. Una tercera posibilidad es quedarte tranquilo.",
+   "p": "¿Estar en paz ante eso es no sentir nada?",
+   "opciones": [
+    "Sí: la paz es no dejarse tocar por nada",
+    "No: se siente el golpe, pero se responde desde un lugar menos reactivo",
+    "Sí, pero solo lo logran los monjes"
+   ],
+   "r": "La ecuanimidad (upekkha, en pali) no pide no sentir: permite notar el golpe, dejar que pase por el cuerpo y responder sin ser arrastrado. La tradición budista distingue de la indiferencia, que es desconexión, y llama a esa confusión el enemigo cercano de la ecuanimidad.",
+   "como": "Viene de la tradición budista, que la ubica como la cuarta de las moradas sublimes. Gaëlle Desbordes y su equipo propusieron en 2015 estudiarla como resultado de la meditación, como una disposición equilibrada hacia lo agradable, lo desagradable y lo neutro.",
+   "debate": "Es el concepto más difícil de investigar de las cuatro moradas: no hay acuerdo sobre cómo medirla y los instrumentos son recientes. Hay estudios con menor reactividad emocional, pero con muestras pequeñas.",
+   "seccion": "No es indiferencia"
+  },
+  {
+   "enigma": "Un texto antiguo nombra ocho «vientos» que soplan sobre cualquier vida, en pares: ganancia y pérdida, fama y descrédito, elogio y crítica, placer y dolor.",
+   "p": "¿Se puede quedar solo con la mitad agradable?",
+   "opciones": [
+    "Sí, si uno se esfuerza por buscar siempre ganancia y elogio",
+    "No: los pares son la forma normal de una vida, y todos cambian",
+    "Sí, evitando el dolor y la crítica"
+   ],
+   "r": "Nadie puede quedarse solo con la mitad agradable. Quien apuesta su tranquilidad a lo que no controla queda a merced de los opuestos, que cambian. La ecuanimidad es recibirlos todos sin perder el centro.",
+   "como": "Es una enseñanza del Lokavipatti Sutta, un texto antiguo. Los estoicos llegaron a algo parecido por otro camino: Epicteto empieza su Manual distinguiendo lo que depende de nosotros de lo que no.",
+   "debate": "Son ideas de una tradición que las usa como guía práctica, no como hallazgos de laboratorio. Y la meditación en general muestra efectos modestos (Goyal y colaboradores, 2014), sin ventajas frente a otros tratamientos activos.",
+   "seccion": "Los ocho vientos"
+  }
+ ],
+ "abierta": "Si hay una forma falsa de ecuanimidad que sirve para no sentir, ¿cómo distinguir la paz de la anestesia? Es algo que quienes practican todavía discuten."
+}

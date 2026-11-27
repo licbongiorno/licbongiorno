@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un cerro que se quemó, un arroyo donde uno aprendió a nadar que cambió de color. Alguien llora por eso y después se pregunta si tiene derecho, porque «no se murió nadie».",
+   "p": "¿Se puede hacer duelo por un lugar o por una especie?",
+   "opciones": [
+    "No, el duelo es solo por personas",
+    "Sí: hay pérdidas ecológicas que duelen como una pérdida personal",
+    "Sí, pero solo les pasa a quienes viven cerca de la naturaleza"
+   ],
+   "r": "Se lo llama duelo ecológico: el dolor ante pérdidas ecológicas vividas o anticipadas, de especies, ecosistemas o paisajes. Muchas veces no tiene rito, reconocimiento social ni palabras para nombrarlo.",
+   "como": "Cunsolo y Ellis (2018) lo propusieron en Nature Climate Change a partir de investigaciones con comunidades del norte de Canadá, ligadas al hielo y la caza, y con agricultores del Wheatbelt australiano que veían cómo la sequía transformaba su tierra. Kenneth Doka (1989) había hablado de duelo no reconocido.",
+   "debate": "Es un artículo de perspectiva: propone una idea y líneas de investigación, pero no mide cuántas personas lo sufren ni propone un tratamiento validado.",
+   "seccion": "Un duelo sin ritual"
+  },
+  {
+   "enigma": "Una persona sigue viviendo en el mismo lugar de siempre, pero con la sequía o la minería ya no lo reconoce. Siente algo parecido a la nostalgia, aunque no se fue a ningún lado.",
+   "p": "¿Cómo se llama extrañar el propio lugar estando en él?",
+   "opciones": [
+    "Nostalgia, igual que cuando uno está lejos",
+    "Solastalgia, un malestar por el cambio ambiental mientras uno sigue ahí",
+    "Ecoansiedad, que es lo mismo que el duelo ecológico"
+   ],
+   "r": "Esa experiencia se llama solastalgia. Se toca con el duelo ecológico pero no es lo mismo: el duelo mira lo que se perdió, la solastalgia el lugar propio que se vuelve irreconocible. La ecoansiedad es más amplia: preocupación por el futuro del ambiente.",
+   "como": "Glenn Albrecht y colaboradores (2007) la describieron en Australasian Psychiatry a partir de dos situaciones en Nueva Gales del Sur: una sequía persistente y la minería a cielo abierto.",
+   "debate": "Preocuparse por el clima no es patológico: Susan Clayton (2020) señala que puede ser una respuesta proporcionada a una amenaza real, y no figura como diagnóstico. El punto de atención es cuando paraliza o se acompaña de insomnio o desesperanza.",
+   "seccion": "La solastalgia: extrañar el lugar estando en él"
+  }
+ ],
+ "abierta": "Si la pérdida de un paisaje no termina en un momento claro, sino que ocurre de a poco, ¿cómo se hace un duelo que no tiene final? Todavía se está investigando qué ayuda."
+}
