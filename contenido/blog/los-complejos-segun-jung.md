@@ -11,7 +11,7 @@ orden: 20
 estado: publicado
 respuesta: Para Carl Gustav Jung, un complejo es un conjunto de recuerdos, imágenes e ideas unidos por una misma carga emocional, que funciona con cierta autonomía dentro de la psique. Se nota cuando algo «nos toca» y reaccionamos de una forma desproporcionada. Todos tenemos complejos; el trabajo terapéutico consiste en hacerlos conscientes para que dejen de manejarnos.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es que seas exagerado. Es ese comentario de tu jefe que te arruina la semana, el tono de tu madre que en dos segundos te devuelve a los doce años, la crítica mínima que se te queda dando vueltas toda la noche. Sabés que no es para tanto. Y aun así, el cuerpo se pone en marcha antes de que puedas pensar. Algo te tocó. Jung tenía un nombre para eso.
 
@@ -52,6 +52,28 @@ Tener complejos no significa estar enfermo. Son parte de la estructura normal de
 En psicoterapia junguiana, el trabajo con los complejos no busca «eliminarlos», sino **conocerlos**: reconocer cuándo se activan, de dónde vienen, qué imágenes y emociones traen y qué necesitan. Los sueños, las [proyecciones](/glosario-junguiano/#proyeccion) y los [patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/) son puertas de entrada. Con el tiempo, aquello que nos dominaba pasa a ser algo con lo que podemos dialogar.
 
 Si sentís que hay temas que te desbordan siempre de la misma manera, podés leer sobre la [terapia junguiana](/terapia-junguiana/) o escribirme. A veces alcanza con empezar a nombrarlo.
+
+## Una viñeta de consultorio
+
+Una mujer cuenta que cada vez que su pareja llega tarde, «se le cierra la garganta» y empieza a pensar que no le importa. Sabe que hay tráfico, que es un hombre responsable. Pero el cuerpo no escucha. Al explorar, recuerda las tardes de su infancia esperando en la puerta del colegio. El complejo no es «el abandono» en abstracto, sino ese conjunto preciso: la puerta, el frío, la espera, la idea de que nadie viene. Cuando puede decir «esto me pasa a mí, ahora, con una historia detrás», la reacción baja de intensidad. Es una escena genérica, no un caso real.
+
+## Cómo se trabaja en terapia
+
+El trabajo suele seguir cuatro pasos, no siempre en este orden:
+
+1. **Detectar** cuándo se activa: situaciones, personas, frases que lo disparan.
+2. **Reconocer** el patrón corporal y emocional: qué se siente y dónde.
+3. **Rastrear** el origen: recuerdos, familias, mandatos. Sin culpar a nadie, pero sin negar lo que pasó.
+4. **Dialogar**: en lugar de ser el complejo, poder observarlo y elegir qué hacer. Ahí ayudan la [imaginación activa](/recursos/imaginacion-activa/) y los sueños.
+
+También es útil mirar cómo el complejo organiza los vínculos, porque tiende a repetirse en [patrones que se repiten](/recursos/patrones-que-se-repiten-en-los-vinculos/). Para jugar con estas ideas hay ejercicios en el [laboratorio de complejos y tipos](/laboratorio-de-complejos-y-tipos/).
+
+## Matices y límites
+
+- **Qué tiene respaldo:** el experimento de asociación de palabras fue un trabajo empírico real de Jung y sus colaboradores en la Clínica Burghölzli (alrededor de 1904-1910), y fue pionero en usar tiempos de reacción y mediciones fisiológicas. La idea de que hay esquemas emocionales formados en la infancia que se activan en el presente tiene hoy mucho respaldo, con otros nombres: esquemas, modelos operantes internos del [apego](/recursos/el-apego/), memorias emocionales.
+- **Qué es más teoría:** la idea de que el complejo tiene una autonomía casi de «personalidad parcial» es una metáfora fértil, no un hallazgo de laboratorio. Y la vinculación de cada complejo con un arquetipo es una hipótesis.
+- **Una advertencia:** en el habla cotidiana, «complejo» se volvió sinónimo de inseguridad («tiene complejo de...»). En Jung es algo más amplio y neutral: no solo hay complejos «negativos».
+- **No reemplaza otros abordajes.** Cuando hay [estrés postraumático](/recursos/estres-postraumatico/) o síntomas intensos, conviene un trabajo específico con enfoque en trauma.
 
 ## Preguntas frecuentes
 

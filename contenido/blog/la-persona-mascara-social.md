@@ -11,7 +11,7 @@ orden: 19
 estado: publicado
 respuesta: Para Carl Gustav Jung, la «persona» es la máscara social: la forma en que nos presentamos ante los demás según el rol que ocupamos. Es necesaria para vivir en sociedad, pero se vuelve un problema cuando nos identificamos por completo con ella y perdemos contacto con lo que sentimos y deseamos de verdad.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 El guardapolvo, la sonrisa de atención al público, la voz que usamos en una reunión de trabajo, el «todo bien» que respondemos sin pensar. Todos usamos máscaras, y no es hipocresía: sin ellas, la vida en sociedad sería imposible. El problema empieza el día en que nos sacamos la máscara frente al espejo y no reconocemos lo que hay debajo.
 
@@ -40,6 +40,27 @@ Jung observó que cuanto más rígida es la persona, más crece del otro lado aq
 ## Recuperar lo propio
 
 En terapia, el trabajo no consiste en arrancar la máscara, sino en aflojarla: reconocer qué parte de lo que mostramos nos representa y qué parte es solo adaptación, y recuperar aquello de nosotros que quedó en silencio. Para Jung, ese es uno de los primeros pasos del [proceso de individuación](/glosario-junguiano/#individuacion): llegar a ser, cada vez más, quien uno es. Leé también [Crisis vitales](/crisis-vitales/).
+
+## Una viñeta de consultorio
+
+Una mujer, docente desde hace veinte años, llega con una sensación que le cuesta nombrar: «me siento una actriz». En el aula es cálida, firme, querida. En casa, apagada. En terapia cuenta que aprendió pronto que mostrar cansancio «no era profesional». Lo que fue una protección se volvió una armadura. Con el tiempo, empieza a permitirse pequeñas cosas: decir «hoy no puedo» en la sala de profesores, llorar en una sesión sin pedir disculpas. La máscara no se cae: se vuelve más liviana. Es una escena genérica, no un caso real, y se parece a muchas.
+
+## Cómo se trabaja en terapia
+
+No se arranca la persona. Se mira cuánto tiempo y con qué costo la sostenemos. Preguntas útiles son: ¿qué máscaras uso y con quién?, ¿cuál me cuesta más sacarme?, ¿qué temo que pase si me ven sin ella? Se trabaja con la historia (¿qué se premiaba o se castigaba en mi familia?), con los sueños donde aparecen ropas, disfraces, desnudez o vergüenza, y con el cuerpo, que suele avisar con tensión y cansancio. El [laboratorio recorrido junguiano](/laboratorio-recorrido-junguiano/) incluye ejercicios para pensar la propia persona. Cuando la máscara se sostiene por vergüenza, es útil leer también sobre [la vergüenza](/recursos/la-verguenza/).
+
+## Matices y límites
+
+Hay que tener en cuenta algunas cosas para no confundirse:
+
+- **La persona no es falsedad.** Jung la consideraba un compromiso necesario entre el individuo y la sociedad. Cambiar el tono según el contexto es salud social, no hipocresía.
+- **Es un concepto clínico, no medible.** Lo que sí está estudiado, con otros nombres, es la **autenticidad** y el costo de sostener una imagen: en el trabajo, la llamada «labor emocional» (mostrar emociones que no se sienten) se asocia con agotamiento. Esto conecta con el [burnout](/recursos/burnout/).
+- **Cuidado con la presión de «ser auténtico».** A veces no corresponde mostrar todo en todos lados, y hay contextos donde mostrarse vulnerable no es seguro. Aflojar la máscara se hace con criterio y con elección.
+- **No todo es persona.** La sensación de ser un fraude puede tener otras raíces, como el [síndrome del impostor](/recursos/sindrome-del-impostor/) o la [autoexigencia](/recursos/autoexigencia-y-perfeccionismo/).
+
+## Una pregunta para llevarte
+
+Probá un ejercicio sencillo: al final del día, anotá en qué momento sentiste que «actuabas» y en cuál te sentiste vos, sin esfuerzo. No hace falta sacar conclusiones. Con el tiempo, el mapa muestra qué contextos piden más máscara y cuáles dejan respirar. A veces el cambio es mínimo: una frase más sincera con alguien de confianza, un «no sé» donde antes ibas a improvisar una respuesta. La máscara se afloja así, de a poco, sin escándalo y sin perder lo que sirve de ella. Si descubrís que casi todo el día es actuación, puede valer la pena conversarlo con alguien.
 
 ## Preguntas frecuentes
 

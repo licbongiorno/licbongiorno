@@ -11,7 +11,7 @@ orden: 22
 estado: publicado
 respuesta: Para Carl Gustav Jung, las emociones son expresiones de la energía psíquica que nos atraviesan y se manifiestan también en el cuerpo. Están ligadas a los complejos: cuando uno se activa, aparece una emoción intensa. Jung las consideraba una fuente principal de toma de conciencia: sin emoción, difícilmente algo cambia.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es que seas «muy emocional». Es el nudo en la garganta en medio de una película, la bronca que sube antes de que puedas contar hasta diez, la alegría que te hace hablar más rápido, el llanto que aparece justo cuando creías que ya estaba todo bien. Nos enseñaron a controlar las emociones como si fueran un perro sin correa. Jung proponía otra cosa: escucharlas.
 
@@ -49,6 +49,21 @@ Jung no proponía descargar todo ni reprimirlo todo, sino algo intermedio: darle
 Si querés profundizar en algunas emociones en particular, podés leer sobre [el enojo](/recursos/el-enojo/), [la culpa](/recursos/la-culpa/) o [la ansiedad](/recursos/ansiedad-cuando-el-cuerpo-habla/). Y si sentís que tus emociones te desbordan con frecuencia, la terapia es un buen lugar para empezar a entenderlas. Podés [escribirme](/contacto/).
 
 Si querés practicar, en el [laboratorio de emociones](/laboratorio-de-emociones/) hay un mapa para ponerle nombre a lo que sentís y un diario emocional.
+
+## Una viñeta de consultorio
+
+Un hombre consulta porque «explota» en reuniones familiares y después se siente avergonzado. Cuando hablan de la última escena, descubre que no fue el comentario de su hermano lo que lo desbordó, sino el tono, igual al de su padre cuando él era chico. Primero aparece la bronca; debajo, algo parecido a la tristeza. En lugar de pedirle que se controle, se lo invita a prestarle atención al cuerpo en el momento previo: un calor en el pecho, la mandíbula apretada. Con el tiempo, logra frenar a tiempo. No es un caso real, es una escena posible.
+
+## Cómo se trabaja en terapia
+
+Se trabaja en tres movimientos. Primero, **reconocer**: sentir qué pasa en el cuerpo y ponerle nombre, con matices (no «mal», sino «humillado», «desconcertado», «solo»). Segundo, **comprender**: ¿qué situación la despertó?, ¿con qué historia se conecta?, ¿qué complejo toca? Tercero, **darle forma**: escribirle, dibujarla, bailarla, dialogar con ella con [imaginación activa](/recursos/imaginacion-activa/). Estos pasos se adaptan: cuando una emoción es muy intensa, primero se busca estabilizar el cuerpo y la respiración, tema que también trabajan la [ventana de tolerancia](/recursos/la-ventana-de-tolerancia/) y la regulación emocional. El [laboratorio de emociones](/laboratorio-de-emociones/) ofrece un mapa para empezar.
+
+## Matices y límites
+
+- **Qué tiene respaldo:** la investigación en psicología confirma que poner en palabras una emoción («etiquetado afectivo») suele reducir su intensidad, y que reprimirla de forma sostenida tiene costos. Escribir sobre vivencias difíciles también ha mostrado beneficios en varios estudios. Todo esto apoya, con otro vocabulario, la idea junguiana de no ignorar ni descargar.
+- **Qué es más teoría:** la lectura de la emoción como señal de un complejo, y la idea de la emoción como motor de transformación, vienen de la experiencia clínica y de la teoría de Jung. Son hipótesis útiles, no resultados experimentales.
+- **Lo que Jung no desarrolló:** no tenía una teoría de las emociones como la de hoy, con aportes de la neurociencia y de la psicología del desarrollo. Conviene complementarla con enfoques actuales, como el de la [teoría polivagal](/recursos/teoria-polivagal/) o la [inteligencia emocional](/recursos/inteligencia-emocional/), con sus propios debates.
+- **No toda emoción es una pista simbólica.** A veces es cansancio, hambre o falta de sueño. Y cuando una emoción persiste e interfiere con la vida, puede ser depresión o ansiedad y merece evaluación profesional.
 
 ## Preguntas frecuentes
 

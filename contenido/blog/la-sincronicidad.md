@@ -11,7 +11,7 @@ orden: 30
 estado: publicado
 respuesta: Sincronicidad es el nombre que Carl Gustav Jung le dio a las coincidencias significativas: un hecho interno, como un sueño o un pensamiento, y un hecho externo que coinciden sin relación causal y se viven cargados de sentido. Jung la propuso como hipótesis, no como ley comprobada. Puede tener valor psicológico, pero conviene tomarla con cuidado y no leer señales en todo.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Pensás en alguien que no ves hace años y justo ese día te escribe. Soñás con una casa y la encontrás al otro día en una foto. Abrís un libro al azar en la frase que necesitabas leer. Todos tuvimos alguna. Y todos sentimos lo mismo: un pequeño escalofrío, como si el mundo nos estuviera guiñando un ojo.
 
@@ -46,6 +46,25 @@ Si alguien empieza a ver señales en todas partes, a sentir que todo está conec
 En terapia, cuando aparece una coincidencia significativa, se la trata como a un sueño: algo para explorar, no para obedecer. Si querés conversar sobre esto, podés leer sobre la [terapia junguiana](/terapia-junguiana/) o escribirme.
 
 Jung desarrolló esta idea en diálogo con el *I Ching*, el antiguo libro chino; lo cuento en el [mapa de la psicología china](/recursos/mapa-de-la-psicologia-china/).
+
+## Una viñeta de consultorio
+
+Una mujer en pleno duelo por su padre llega a sesión con una historia: el día que dudaba si ir a una reunión familiar, abrió un libro de poemas al azar y encontró una línea sobre «volver a la mesa». Fue. No dice que el libro «supiera» algo. Dice que esa frase le dio el empujón que ya estaba buscando. El terapeuta no le confirma que haya sido una señal ni se la desmiente: pregunta qué despertó en ella y qué quería de esa reunión. Es una escena genérica, no un caso real. La coincidencia fue una puerta de entrada, no una respuesta.
+
+## Cómo se trabaja en terapia
+
+Se escucha la coincidencia como se escucha un sueño: con curiosidad, sin apuro y sin convertirla en mandato. Algunas preguntas: ¿en qué momento de mi vida apareció?, ¿qué emoción trajo?, ¿qué estaba pensando o sintiendo justo antes? A veces la coincidencia le da nombre a algo que ya se sabía. Otras, no dice nada y se la deja pasar, y eso también está bien. Si las coincidencias se vuelven el centro de las decisiones, se trabaja la ansiedad o la inseguridad que hay detrás. Conecta con [los sueños según Jung](/recursos/los-suenos-segun-jung/) y con [los símbolos](/recursos/los-simbolos-segun-jung/).
+
+## Matices y límites
+
+Este es uno de los conceptos de Jung más controvertidos, y hay que decirlo sin vueltas:
+
+- **Lo que la ciencia dice:** no hay evidencia de conexiones acausales entre lo psíquico y lo físico. La psicología estudia por qué percibimos coincidencias: tendemos a ver patrones (apofenia), a recordar los aciertos y olvidar los fallos (sesgo de confirmación) y a subestimar cuántas coincidencias son estadísticamente esperables.
+- **Lo que Jung ofrece:** una forma de pensar el sentido que damos a ciertas experiencias, no una explicación del mundo. Él mismo la planteó como hipótesis.
+- **Lo que preocupa:** cuando las coincidencias se experimentan como mensajes personales urgentes, o aparecen con insomnio, ideas de grandeza o miedo, conviene consultar. Puede ser una señal de ansiedad intensa o de un episodio que requiere atención profesional ([primer episodio psicótico](/recursos/primer-episodio-psicotico/)).
+- **El riesgo de tomar decisiones importantes por «señales»:** una renuncia, una separación o un tratamiento no se deciden por una coincidencia. Se piensan con otras personas.
+
+Podés ubicar la idea dentro del conjunto de la obra de Jung en [Carl Gustav Jung](/recursos/carl-gustav-jung/).
 
 ## Preguntas frecuentes
 

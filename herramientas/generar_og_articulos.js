@@ -1,5 +1,6 @@
 /* Genera una imagen para compartir (1200×630) por artículo: assets/img/og/<artículo>.jpg
-   Uso (desde la carpeta del proyecto): node herramientas/generar_og_articulos.js
+   Uso (desde la carpeta del proyecto): node herramientas/generar_og_articulos.js [--todo]
+   Sin --todo solo genera las que faltan.
    Requiere Playwright. Después, correr python3 build.py (la usa automáticamente si existe). */
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -24,6 +25,7 @@ function leer(md) {
   const p = await b.newPage({ viewport: { width: 1200, height: 630 } });
   const dir = path.join(raiz, 'contenido/blog');
   for (const archivo of fs.readdirSync(dir).filter((x) => x.endsWith('.md'))) {
+    if (!process.argv.includes('--todo') && fs.existsSync(path.join(raiz, 'assets/img/og', archivo.replace(/\.md$/, '.jpg')))) continue;
     const m = leer(fs.readFileSync(path.join(dir, archivo), 'utf8'));
     const [titulo, ...resto] = m.titulo.split(':');
     const sub = resto.join(':').trim();

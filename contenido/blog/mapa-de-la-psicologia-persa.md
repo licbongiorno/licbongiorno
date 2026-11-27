@@ -120,6 +120,7 @@ Para las tradiciones vecinas, mirá el [mapa de la psicología india](/recursos/
 
 ## Para seguir leyendo
 
+- [La cultura de la tristeza en Irán](/recursos/la-cultura-de-la-tristeza-en-iran/), [Hafez y la lectura del alma](/recursos/hafez-y-la-lectura-del-alma/) y [Peseschkian y la psicoterapia positiva](/recursos/peseschkian-y-la-psicoterapia-positiva/)
 - Good, B. J. (1977). «The heart of what's the matter: The semantics of illness in Iran». *Culture, Medicine and Psychiatry*, 1(1), 25-58.
 - Good, B. J., Good, M.-J. D. y Moradi, R. (1985). «The interpretation of Iranian depressive illness and dysphoric affect». En A. Kleinman y B. Good (eds.), *Culture and Depression*. University of California Press.
 - Beeman, W. O. (1986). *Language, Status, and Power in Iran*. Indiana University Press.

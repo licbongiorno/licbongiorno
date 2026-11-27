@@ -11,7 +11,7 @@ orden: 31
 estado: publicado
 respuesta: La función trascendente es, para Jung, la capacidad de la psique de unir opuestos —lo consciente y lo inconsciente— y dar lugar a una actitud nueva. La imaginación activa es el método que propuso para favorecerla: dejar surgir una imagen interior y dialogar con ella de manera consciente, por escrito, dibujando o en movimiento. Conviene hacerlo con acompañamiento profesional.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es fantasear ni meditar. Es más parecido a una conversación. Es quedarte con esa imagen del sueño en vez de olvidarla al lavarte los dientes, preguntarle a esa tristeza qué cara tiene, escribirle a la parte tuya que siempre se calla y esperar a ver qué contesta. Jung no solo interpretaba lo inconsciente: aprendió a hablar con él.
 
@@ -46,6 +46,30 @@ La imaginación activa es una herramienta potente, y por eso no conviene usarla 
 En la [terapia junguiana](/terapia-junguiana/) puede aparecer de muchas formas: continuar un [sueño](/recursos/los-suenos-segun-jung/) con los ojos cerrados, escribirle una carta a una emoción, dibujar una imagen que insiste. Se relaciona también con el trabajo con [las emociones](/recursos/las-emociones-segun-jung/) y con [los símbolos](/recursos/los-simbolos-segun-jung/). Si te interesa trabajar de este modo, podés escribirme.
 
 Sobre la relación de Jung con la meditación oriental y el mandala, leé [Jung y la meditación](/recursos/jung-y-la-meditacion/).
+
+## Una viñeta de consultorio
+
+Una mujer cuenta que, desde hace semanas, sueña con una puerta cerrada en el fondo de un pasillo. En sesión, con los ojos cerrados y a su ritmo, vuelve al pasillo. Le cuesta: dice que «no ve nada». El terapeuta no le pide que la abra, sino que cuente qué siente al estar parada ahí. Sale la palabra «miedo» y, después, un recuerdo de infancia. Más tarde escribe, en casa, un breve diálogo con esa puerta. No es un caso real, es una escena posible. Lo importante no es que se «resuelva» el sueño, sino que ella pueda estar presente, responder, y que algo de lo que antes no tenía palabras empiece a tenerlas.
+
+## Cómo se trabaja en terapia
+
+La imaginación activa se introduce de a poco, y casi siempre después de haber construido confianza. Algunas formas frecuentes:
+
+- **A partir de un sueño:** retomar una imagen y dejarla continuar, con la persona consciente de que es una imagen y no la realidad.
+- **A partir de una emoción:** preguntarle a la tristeza o a la bronca qué forma tienen, dónde están en el cuerpo, qué piden.
+- **Con expresión plástica o escrita:** dibujar, modelar, escribir un diálogo. Es un trabajo cercano a la [escritura expresiva](/recursos/escritura-expresiva/).
+
+Se acompaña de una regla simple: el yo no desaparece. Si en algún momento la persona se siente confundida o desbordada, se vuelve al presente con la respiración, el contacto con el cuerpo y la conversación. Podés practicar con guía en el [laboratorio de imaginación activa](/laboratorio-de-imaginacion-activa/).
+
+## Matices y límites
+
+Conviene distinguir qué se sabe y qué es tradición clínica:
+
+- **Qué tiene respaldo:** hay investigación sólida sobre técnicas cercanas, como poner en palabras las emociones («etiquetado afectivo») o escribir sobre experiencias difíciles, que suelen reducir la intensidad del malestar. Eso apoya, por analogía, el valor de dar forma a lo que sentimos.
+- **Qué es más teoría:** que la imaginación activa active específicamente una «función trascendente» no está probado en estudios controlados. Se apoya en la experiencia de Jung y de generaciones de analistas.
+- **Cuándo no:** no se recomienda en estados de desorganización, psicosis o crisis aguda. Tampoco para quien siente que las imágenes se imponen. Un [primer episodio psicótico](/recursos/primer-episodio-psicotico/) requiere atención psiquiátrica, no ejercicios de imaginación.
+
+Es una práctica distinta de la meditación. La meditación suele buscar observar sin intervenir; la imaginación activa pide participar. Ambas pueden convivir, y [Jung y la meditación](/recursos/jung-y-la-meditacion/) cuenta esa relación.
 
 ## Preguntas frecuentes
 

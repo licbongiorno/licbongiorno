@@ -11,7 +11,7 @@ orden: 28
 estado: publicado
 respuesta: La proyección es un proceso inconsciente por el cual vemos en otras personas cualidades, emociones o conflictos que son propios y no reconocemos. Para Jung no es un defecto sino algo inevitable: es la forma en que el inconsciente se hace visible. Se nota cuando alguien nos irrita o nos fascina de manera desproporcionada. Retirar una proyección es reconocer lo propio.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Ese compañero de trabajo que te saca de quicio con solo abrir la boca. La persona que admirás tanto que no le ves ningún defecto. El «yo nunca haría eso» que decís con demasiada fuerza. Cuando alguien nos mueve mucho más de lo que justifica la realidad, vale la pena una pregunta incómoda: ¿qué de esto es mío?
 
@@ -48,6 +48,21 @@ Jung y Marie-Louise von Franz hablaban de **retirar** o **recoger** las proyecci
 Es una parte central del [proceso de individuación](/recursos/el-proceso-de-individuacion/). Y es una de las cosas que más se trabajan en terapia, sobre todo cuando hay [patrones que se repiten en los vínculos](/recursos/patrones-que-se-repiten-en-los-vinculos/). Si sentís que te pasa, podés escribirme.
 
 Para llevar un diario de tus proyecciones, probá el [laboratorio de sombra y arquetipos](/laboratorio-de-sombra-y-arquetipos/).
+
+## Una viñeta de consultorio
+
+Un hombre llega indignado con una compañera de trabajo: «es una arrogante, se cree superior a todos». Habla con tanta fuerza que el terapeuta pregunta, sin juicio, cuánto tiempo hace que alguien lo escucha a él con esa misma atención. Hay una pausa. De a poco, aparece un deseo propio de ser reconocido, que nunca se animó a mostrar. La compañera tiene sus rasgos y no es un invento, pero la intensidad es suya. No hubo que «convencerlo» de nada: solo acompañarlo a mirar qué le tocaba. Es una escena genérica, no un caso real.
+
+## Cómo se trabaja en terapia
+
+Se parte de una regla amable: no se acusa a nadie de proyectar. Se acompaña a notar la intensidad de una reacción y a preguntarse qué hay en ella de uno. Preguntas útiles: ¿qué es exactamente lo que me molesta (o lo que admiro)?, ¿dónde lo vi antes?, ¿qué haría si me permitiera algo de eso? También se usa el diario, el trabajo con sueños y la reflexión sobre vínculos que se repiten. La relación terapéutica misma es un lugar donde aparecen proyecciones, y trabajarlas ahí, con cuidado, suele ser transformador. Hay ejercicios en el [laboratorio de sombra y arquetipos](/laboratorio-de-sombra-y-arquetipos/) y, para pensar los vínculos, en [la terapia de pareja](/recursos/terapia-de-pareja/).
+
+## Matices y límites
+
+- **Qué tiene respaldo:** la psicología social estudió fenómenos cercanos, como atribuir a otros rasgos propios o juzgar con más dureza en los demás lo que no toleramos en uno. El concepto psicoanalítico general de proyección figura entre los [mecanismos de defensa](/recursos/mecanismos-de-defensa/) y tiene larga trayectoria clínica.
+- **Qué es más teoría junguiana:** que *todo* lo inconsciente se perciba primero afuera, o que proyectemos sobre todo arquetipos como el ánima. Es una forma útil de leer, no una ley.
+- **No todo lo que molesta es proyección.** A veces la otra persona realmente se comporta mal, y decir «es tu proyección» puede ser una forma de invalidar. Esto es especialmente delicado en situaciones de maltrato o [violencia en la pareja](/recursos/violencia-en-la-pareja/): ahí el foco es la seguridad, no el análisis de lo que uno proyecta.
+- **Retirar la proyección no es culparse.** Es reconocer lo propio sin dejar de ver lo ajeno.
 
 ## Preguntas frecuentes
 

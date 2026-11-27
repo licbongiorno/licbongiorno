@@ -116,6 +116,7 @@ Para las tradiciones vecinas, mirá el [mapa de la psicología india](/recursos/
 
 ## Para seguir leyendo
 
+- [Sowa rigpa, la medicina tibetana](/recursos/sowa-rigpa-la-medicina-tibetana/), [el lojong](/recursos/lojong-entrenamiento-mental-tibetano/) y [el Libro tibetano de los muertos](/recursos/el-libro-tibetano-de-los-muertos/)
 - Varela, F. J., Thompson, E. y Rosch, E. (1991). *The Embodied Mind*. MIT Press.
 - Clifford, T. L. (1984). *Tibetan Buddhist Medicine and Psychiatry*. Samuel Weiser.
 - Lutz, A. et al. (2004). «Long-term meditators self-induce high-amplitude gamma synchrony during mental practice». *PNAS*, 101(46), 16369-16373.

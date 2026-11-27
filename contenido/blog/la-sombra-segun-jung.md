@@ -11,7 +11,7 @@ fecha_visible: noviembre de 2026
 orden: 3
 estado: publicado
 respuesta: Para Carl Gustav Jung, la sombra es el conjunto de aspectos de la personalidad que no reconocemos como propios: rasgos rechazados, pero también capacidades no desarrolladas. Suele aparecer proyectada en otras personas. Integrarla nos vuelve más completos.
-revision: 2026-11-05
+revision: 2026-11-27
 menciona: jung, psicologia-analitica
 ---
 No, no es tu peor parte. Es la parte que dejaste afuera. Ese enojo que aprendiste a tragar, esa ambición que te dio vergüenza, esa ternura que nunca supiste dónde poner. Todo eso no se fue: se mudó al sótano. Y tiene la costumbre de aparecer justo en las personas que más nos irritan.
@@ -48,6 +48,28 @@ En el espacio terapéutico, la sombra suele aparecer de a poco: en lo que cuesta
 Integrar la sombra no nos hace peores personas. Nos hace más completos, más compasivos con nosotros mismos y, en consecuencia, con los demás. Bajar al sótano da miedo, pero ahí abajo, entre lo que escondimos, suele estar también lo que nos falta para estar enteros.
 
 Para empezar a explorar tu sombra con ejercicios, probá el [laboratorio de sombra y arquetipos](/laboratorio-de-sombra-y-arquetipos/).
+
+## Una viñeta de consultorio
+
+Una mujer que se define como «la buena de la familia» consulta por un enojo que no entiende: le molestan de forma intensa los que «se hacen valer». Le cuesta decir que no, y detesta a los que lo hacen sin culpa. En el trabajo terapéutico, el enojo se vuelve información: había un permiso que ella nunca se dio. No se trata de volverse agresiva, sino de reconocer su derecho a poner límites. Con eso, la irritación hacia los otros baja y algo de su propia fuerza empieza a tener lugar. Es una escena genérica, no un caso real.
+
+## Cómo se trabaja en terapia
+
+La sombra no se «ataca». Se la va conociendo en el ritmo de cada persona. Algunas puertas de entrada:
+
+- **Las reacciones desproporcionadas** hacia otros (de rechazo o de admiración).
+- **Los sueños** con figuras amenazantes o del mismo género que quien sueña.
+- **Los vínculos repetidos** y los [patrones que se repiten](/recursos/patrones-que-se-repiten-en-los-vinculos/).
+- **Lo que nos da vergüenza** ([la vergüenza](/recursos/la-verguenza/) suele custodiar la sombra).
+
+El trabajo incluye diálogo, [imaginación activa](/recursos/imaginacion-activa/) y, sobre todo, una actitud de respeto. Si la sombra se aborda con juicio, se esconde más. Hay un criterio práctico: integrar no es actuar sin filtro. Una persona puede reconocer su enojo sin descargarlo sobre otros.
+
+## Matices y límites
+
+- **Qué tiene respaldo:** hay investigación sobre la supresión de pensamientos y emociones, que muestra que intentar no sentir algo suele aumentar su presencia. También sobre la tendencia a ver en otros lo que negamos en nosotros. Esto apoya la idea general, aunque no use el término «sombra».
+- **Qué es teoría:** la sombra como estructura psíquica diferenciada es un concepto junguiano que no se puede medir directamente. Se sostiene en la experiencia clínica.
+- **Qué no es:** una excusa. «Es mi sombra» no justifica dañar a otros. Tampoco es sinónimo de trauma: si hay experiencias traumáticas ([estrés postraumático](/recursos/estres-postraumatico/)), el trabajo debe ir con más cuidado y a otro ritmo.
+- **Cuidado con la sombra colectiva:** Jung también habló de ella (lo que un grupo o una cultura niega). Es una idea fértil para pensar prejuicios, pero que exige humildad al aplicarla.
 
 ## Preguntas frecuentes
 

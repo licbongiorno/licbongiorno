@@ -60,4 +60,5 @@ Conviene no apurarse. Antes de cambiar lo de afuera, ayuda comprender lo que la 
 
 ## Para seguir leyendo
 
+- [Menopausia y salud emocional](/recursos/menopausia-y-salud-emocional/): los cambios del cuerpo y del ánimo en esta etapa
 - Jung, C. G. (1931). *Las etapas de la vida*. Breve ensayo donde desarrolla la idea de las dos mitades de la vida; en castellano, incluido en *La dinámica de lo inconsciente* (Obra completa, vol. 8).
