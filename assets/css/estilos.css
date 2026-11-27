@@ -1477,3 +1477,22 @@ a.lab-filtro { display: inline-flex; align-items: center; text-decoration: none;
 .hub-motivo li { padding: .45rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent); line-height: 1.4; }
 .hub-motivo li a { text-decoration: none; }
 .hub-motivo li a:hover { text-decoration: underline; }
+
+/* ---------- Disparador «Antes de leer» ---------- */
+.disparador { margin: 1.75rem 0 0; padding: 1.25rem 1.4rem 1.4rem; border-radius: var(--r-m); background: var(--salvia-bruma); border: 1px solid rgba(74,90,60,.2); max-width: 46rem; }
+.disparador__titulo { margin: 0 0 .3rem !important; font-family: var(--f-sans); font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--salvia-profunda); }
+.disparador__intro { margin: 0 0 1rem !important; font-size: var(--t-sm); color: var(--tinta-suave); }
+.disparador ol { margin: 0; padding: 0; list-style: none; counter-reset: disp; }
+.disparador__item { counter-increment: disp; margin: 0 0 1.1rem; }
+.disparador__item:last-child { margin-bottom: 0; }
+.disparador__p { margin: 0 0 .45rem !important; font-family: var(--f-serif, inherit); font-size: 1.12rem; line-height: 1.4; color: var(--tinta); }
+.disparador__p::before { content: counter(disp) ". "; color: var(--terracota-profunda); }
+.disparador textarea { display: block; width: 100%; box-sizing: border-box; min-height: 3.2rem; padding: .6rem .75rem; border-radius: var(--r-s); border: 1px solid var(--linea); background: var(--papel); color: var(--texto); font: inherit; font-size: var(--t-sm); resize: vertical; }
+.disparador textarea:focus { outline: 2px solid var(--salvia); outline-offset: 1px; }
+.disparador__ver { display: none; margin-top: .45rem; padding: 0; border: 0; background: none; cursor: pointer; font-family: var(--f-sans); font-size: .85rem; font-weight: 600; color: var(--terracota-profunda); }
+.disparador__ver::before { content: "▸ "; }
+.disparador__ver[aria-expanded="true"]::before { content: "▾ "; }
+.js .disparador__ver { display: inline-block; }
+.js .disparador__r:not(.abierta) { display: none; }
+.disparador .disparador__r { margin: .5rem 0 0 !important; padding: .75rem .9rem; border-left: 3px solid var(--salvia-profunda); background: var(--papel); border-radius: 0 var(--r-s) var(--r-s) 0; font-size: var(--t-sm); line-height: 1.6; }
+.disparador__r a { white-space: nowrap; }

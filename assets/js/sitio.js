@@ -869,3 +869,24 @@
     }
   }
 })();
+
+/* Disparador «Antes de leer»: guarda las respuestas solo en este navegador. */
+(function () {
+  "use strict";
+  document.querySelectorAll(".disparador__ver").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var r = document.getElementById(b.getAttribute("aria-controls"));
+      var abierta = r.classList.toggle("abierta");
+      b.setAttribute("aria-expanded", abierta ? "true" : "false");
+    });
+  });
+  var campos = document.querySelectorAll("textarea[data-disparador]");
+  if (!campos.length) return;
+  campos.forEach(function (t) {
+    var k = "nb-disp-" + t.getAttribute("data-disparador");
+    try { var v = localStorage.getItem(k); if (v) t.value = v; } catch (e) {}
+    t.addEventListener("input", function () {
+      try { if (t.value) localStorage.setItem(k, t.value); else localStorage.removeItem(k); } catch (e) {}
+    });
+  });
+})();

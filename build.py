@@ -1577,6 +1577,28 @@ def bloque_ubicar_articulo(slug_art):
     return (f'<aside class="mapa-caja" aria-label="Ubicalo en la historia y en el mapa"><p class="mapa-caja__titulo">Ubicalo en la historia y en el mapa</p>'
             f'<ul>{"".join(items)}</ul></aside>')
 
+
+def bloque_disparador(slug_art, cuerpo):
+    """«Antes de leer: ¿vos qué responderías?»: preguntas del autor, espacio para responder y la respuesta del autor."""
+    if not (CONTENIDO / "disparadores.json").exists():
+        return ""
+    d = cargar_json("disparadores.json").get(slug_art)
+    if not d:
+        return ""
+    ids = {html.unescape(re.sub(r"<[^>]+>", "", t)).strip(): i for i, t in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', cuerpo)}
+    items = []
+    for n, q in enumerate(d["preguntas"], 1):
+        mas = f' <a href="#{ids[q["seccion"]]}">Leer más</a>' if q.get("seccion") in ids else ""
+        items.append(f'<li class="disparador__item"><p class="disparador__p">{inline_md(q["p"])}</p>'
+                     f'<label class="visualmente-oculto" for="disp-{slug_art}-{n}">Tu respuesta</label>'
+                     f'<textarea id="disp-{slug_art}-{n}" data-disparador="{slug_art}-{n}" rows="2" '
+                     f'placeholder="Escribí lo que pensás. Queda guardado solo en tu navegador."></textarea>'
+                     f'<button type="button" class="disparador__ver" aria-expanded="false" aria-controls="disp-r-{slug_art}-{n}">Ver qué respondió {esc(d["autor"])}</button>'
+                     f'<p class="disparador__r" id="disp-r-{slug_art}-{n}">{inline_md(q["r"])}{mas}</p></li>')
+    return (f'<section class="disparador" aria-labelledby="disp-titulo"><p class="disparador__titulo" id="disp-titulo">Antes de leer: ¿vos qué responderías?</p>'
+            f'<p class="disparador__intro">Las preguntas que se hizo {esc(d["autor"])}. Pensá tu respuesta y después compará con la suya.</p>'
+            f'<ol>{"".join(items)}</ol></section>')
+
 def bloque_datos_clave():
     filas = [
         ("Nombre", NOMBRE_COMPLETO),
@@ -2624,6 +2646,7 @@ def render_articulo(a):
 <div class="contenedor--texto prosa prosa--articulo" style="padding-bottom:var(--sec)">
   {aviso}
   {respuesta_breve(a.get("respuesta"))}
+  {bloque_disparador(a["archivo"][:-3], cuerpo_md)}
   {indice_articulo(cuerpo_md)}
   {cuerpo_md}
   {faq_html(faq_items, "Preguntas frecuentes") if faq_items else ""}
