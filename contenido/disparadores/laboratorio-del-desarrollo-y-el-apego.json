@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un bebé juega lejos de su mamá, mira hacia atrás de vez en cuando para chequear que esté ahí, y vuelve corriendo si se asusta.",
+   "p": "¿Qué estará haciendo con esa mirada?",
+   "opciones": [
+    "Simplemente buscando atención",
+    "Usando a su cuidadora como una base segura desde la que explorar",
+    "Controlando que no se vaya"
+   ],
+   "r": "John Bowlby propuso que el vínculo con quien cuida funciona como base segura para explorar el mundo. Mary Ainsworth la estudió observando a niños pequeños en la situación extraña, y de ahí surgieron distintos patrones de apego.",
+   "como": "Ainsworth observó cómo reaccionaban los niños ante una breve separación y el reencuentro. Más tarde Mary Main sumó el estudio del apego adulto a través de la coherencia del relato.",
+   "debate": "El apego se describe hoy en dos dimensiones (ansiedad y evitación) y se discute cuánto se mantiene estable a lo largo de la vida: se habla de la seguridad ganada. Los modelos no deben usarse para etiquetarse."
+  }
+ ],
+ "abierta": "Si el vínculo temprano deja huella pero puede reescribirse, ¿qué experiencias de la adultez lo cambian de verdad? Todavía se investiga."
+}

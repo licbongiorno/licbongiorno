@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Yo soy porque nosotros somos». La frase circula en tazas, discursos de empresas y redes, casi siempre sin autor y sin lugar.",
+   "p": "¿De dónde viene esta idea?",
+   "opciones": [
+    "De una antigua filosofía griega sobre la comunidad",
+    "De una palabra de lenguas del sur de África, ubuntu, que dice que una persona es persona a través de otras",
+    "De un eslogan moderno de autoayuda"
+   ],
+   "r": "Ubuntu es una palabra de las lenguas nguni del sur de África, resumida en el proverbio umuntu ngumuntu ngabantu: «una persona es persona a través de otras personas». El arzobispo Desmond Tutu la dio a conocer, sobre todo en No Future Without Forgiveness (1999).",
+   "como": "En 1995 la Corte Constitucional de Sudáfrica la citó en la sentencia S. v. Makwanyane, y desde entonces la filosofía africana la discute en profundidad.",
+   "debate": "Hay una larga discusión académica: algunas críticas señalan que puede usarse para presionar al individuo en nombre del grupo o con fines políticos. Es una filosofía de la persona, no una teoría psicológica ni un tratamiento."
+  }
+ ],
+ "abierta": "Si somos personas a través de otros, ¿hasta dónde llega la responsabilidad hacia el grupo sin perder lo propio? Es un debate que sigue abierto."
+}

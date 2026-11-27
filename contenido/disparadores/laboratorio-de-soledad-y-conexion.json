@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay gente que vive sola y está bien, y gente rodeada de personas que se siente profundamente sola.",
+   "p": "¿Cómo puede ser?",
+   "opciones": [
+    "La soledad depende de cuánta gente tenés alrededor",
+    "Importa más la sensación de estar conectado que la cantidad de gente",
+    "Es una cuestión de personalidad: algunos nacen solitarios"
+   ],
+   "r": "John Cacioppo y William Patrick, en Loneliness (2008), plantean que la soledad es una señal, parecida al hambre o a la sed: avisa que algo que necesitamos, el vínculo con otros, no está bien cubierto. Importa menos la cantidad de gente que la sensación de conexión.",
+   "como": "Hawkley y Cacioppo (2010) describieron que, cuando nos sentimos solos, la mirada se vuelve más atenta a las amenazas sociales: esperamos rechazo y leemos en negativo lo que pasa. Eso nos aleja y el alejamiento refuerza la soledad.",
+   "debate": "Se discute cuánto de esto es rasgo y cuánto situación, y si la soledad es un problema en sí o una señal de otra cosa. En cualquier caso, cuando pesa mucho tiempo conviene hablarlo con alguien."
+  }
+ ],
+ "abierta": "Si la soledad es una señal, ¿qué es lo que realmente nos pide? Se sigue investigando cómo responderle mejor."
+}

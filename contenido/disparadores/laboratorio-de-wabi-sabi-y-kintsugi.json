@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una taza se rompe y, en vez de tirarla, alguien une los pedazos con laca y polvo de oro, de modo que la rotura queda a la vista.",
+   "p": "¿Qué puede enseñarnos esa taza sobre lo que nos pasa?",
+   "opciones": [
+    "Que todo daño termina transformándose en algo bello",
+    "Que lo imperfecto puede tener valor, aunque no hay que idealizar el dolor",
+    "Que lo roto vale menos y conviene esconder las grietas"
+   ],
+   "r": "El wabi-sabi es una sensibilidad estética japonesa que encuentra valor en lo imperfecto, lo incompleto y lo pasajero. El kintsugi es una técnica artesanal de reparar cerámica con laca espolvoreada con oro, que deja la fractura a la vista.",
+   "como": "Leonard Koren presentó el wabi-sabi a un público occidental en Wabi-Sabi for Artists, Designers, Poets & Philosophers (1994). Ninguno de los dos nació como psicoterapia.",
+   "debate": "Por eso el laboratorio los usa como metáforas, no como método, y advierte un riesgo: idealizar el sufrimiento, como si cada daño se transformara en belleza o hubiera que agradecerlo."
+  }
+ ],
+ "abierta": "Si aceptar lo imperfecto puede aliviar pero también puede volverse una exigencia más, ¿dónde está el límite entre aceptar y resignarse? Es una pregunta abierta."
+}

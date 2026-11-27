@@ -1,0 +1,18 @@
+{
+ "autor": "Zhuangzi",
+ "preguntas": [
+  {
+   "enigma": "Zhuangzi cuenta que soñó que era una mariposa, y al despertar no supo si era un hombre que había soñado con ser mariposa o una mariposa soñando que era un hombre.",
+   "p": "¿Para qué contaría un relato así?",
+   "opciones": [
+    "Para explicar cómo funcionan los sueños",
+    "Para sacudir la certeza de que nuestra mirada es la única posible",
+    "Para demostrar que la realidad no existe"
+   ],
+   "r": "El Zhuangzi es un libro de la tradición taoísta china, atribuido en parte a Zhuang Zhou, que la tradición ubica hacia el siglo IV a. C. Está hecho de relatos breves, diálogos y paradojas que desafían las certezas del lector.",
+   "como": "Lo conocemos por textos transmitidos durante siglos. El laboratorio usa paráfrasis propia basada en la traducción de James Legge (1891), The Texts of Taoism, que es de dominio público.",
+   "debate": "Cómo leerlo se discute entre especialistas: hay lecturas escépticas, místicas y literarias, y no es una psicoterapia. Los ejercicios lo toman como invitación a cambiar de perspectiva, no como doctrina."
+  }
+ ],
+ "abierta": "Si nuestra manera de ver es una entre muchas, ¿cómo saber cuándo una mirada distinta nos acerca más a lo que pasa? Es una pregunta que el texto deja abierta."
+}

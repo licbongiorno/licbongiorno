@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Querés ser valiente, pero no querés ser temerario. Querés ser generoso, pero no que se aprovechen de vos. Cada vez hay que encontrar el punto justo.",
+   "p": "¿Cómo pensaba Aristóteles esa búsqueda del punto justo?",
+   "opciones": [
+    "Como una regla fija que se aplica igual en cualquier situación",
+    "Como un término medio entre un exceso y un defecto que se aprende practicando",
+    "Como un don con el que se nace o no"
+   ],
+   "r": "Aristóteles no pensaba la virtud como una regla, sino como una manera de ser que se forma con la práctica. Como la valentía: ni huir de todo ni arriesgarse sin medida. El término medio no es un promedio sino lo adecuado a cada situación.",
+   "como": "Lo desarrolló en la Ética a Nicómaco a partir de observar cómo las personas actúan y cómo se forma el carácter por el hábito.",
+   "debate": "Se discute cómo definir ese término medio en cada caso y hasta dónde sirve una ética del carácter hoy. Los ejercicios son para pensar y no son una prescripción ni reemplazan la terapia."
+  }
+ ],
+ "abierta": "Si la virtud se aprende practicando, ¿cómo empezamos a practicarla antes de ser virtuosos? Es un enigma que se discute desde hace siglos."
+}

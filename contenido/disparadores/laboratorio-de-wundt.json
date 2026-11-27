@@ -1,0 +1,18 @@
+{
+ "autor": "Wundt",
+ "preguntas": [
+  {
+   "enigma": "Alguien te pide que cierres los ojos y describas, sin interpretar, qué sentís al oír un sonido: no qué es, sino cómo lo vivís. Cuesta más de lo que parece.",
+   "p": "¿Se puede estudiar con rigor lo que vivimos por dentro?",
+   "opciones": [
+    "No: la experiencia interna es demasiado personal para estudiarla",
+    "Sí, con estímulos controlados, observadores entrenados y mediciones repetibles",
+    "Sí, simplemente mirándose hacia adentro libremente"
+   ],
+   "r": "Wilhelm Wundt pensaba que la experiencia consciente podía estudiarse con rigor. En 1879 abrió en la Universidad de Leipzig el primer laboratorio de psicología. Había que describir la experiencia inmediata ante un estímulo controlado, en condiciones repetibles y con observadores entrenados.",
+   "como": "Medía, por ejemplo, tiempos de reacción, y propuso tres dimensiones del sentimiento: placer-displacer, excitación-calma y tensión-relajación.",
+   "debate": "La introspección como método fue muy discutida y hoy no se usa como Wundt la usaba. Pero la idea de observar con cuidado lo que uno vive, sin apurarse a interpretarlo, sigue siendo una buena práctica."
+  }
+ ],
+ "abierta": "Si cada uno solo tiene acceso directo a su propia experiencia, ¿cómo se puede estudiarla científicamente? Es un problema que la psicología sigue discutiendo."
+}

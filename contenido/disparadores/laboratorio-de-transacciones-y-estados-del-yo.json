@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Le decís a tu pareja lo mismo que ayer, con las mismas palabras, y la conversación termina en un portazo igual que la última vez. Sentís que hablás con un guion ya escrito.",
+   "p": "¿Por qué puede pasar eso?",
+   "opciones": [
+    "Porque cada uno habla desde un lugar distinto, a veces el que manda o el que siente, sin darse cuenta",
+    "Porque el otro no te escucha y no hay nada más que hacer",
+    "Porque las discusiones repetidas son siempre una cuestión de carácter"
+   ],
+   "r": "Eric Berne propuso que hablamos desde tres estados del yo: el padre que manda o cuida, el adulto que evalúa y el niño que siente. Según desde cuál hablemos, la conversación (la transacción) fluye o se cruza, y algunos intercambios se repiten como juegos.",
+   "como": "Lo desarrolló como psiquiatra observando cómo se hablan las personas en terapia de grupo, y lo llamó análisis transaccional. Laura Perls, desde la Gestalt, aportó la idea de estar en contacto con el otro sin perderse.",
+   "debate": "Es un modelo muy usado como herramienta práctica, pero los estados del yo son una forma de describir, no entidades comprobadas, y no se pretende analizar al otro."
+  }
+ ],
+ "abierta": "Si hablamos desde guiones que aprendimos hace años, ¿cuánto de una conversación es realmente nuestro? Es una pregunta que sigue abierta."
+}

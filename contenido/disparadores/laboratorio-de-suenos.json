@@ -1,0 +1,18 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Anoche soñaste con una persona que no ves hace años, o con una casa con una habitación que no conocías. Si no lo escribís, en un rato se borra.",
+   "p": "¿Qué puede ser un sueño así?",
+   "opciones": [
+    "Un puñado de imágenes sin sentido producidas por el cerebro",
+    "Una forma en que el inconsciente muestra, con imágenes, algo que la conciencia no está viendo",
+    "Un mensaje con un significado fijo que se busca en un diccionario"
+   ],
+   "r": "Para Jung, los sueños son cartas que el inconsciente nos escribe: no esconden un significado fijo, sino que muestran con imágenes algo que la conciencia no ve. Por eso el laboratorio no interpreta por vos y propone acompañarte a mirarlos, sin diccionarios.",
+   "como": "Jung lo propuso desde su trabajo clínico con sueños y series de sueños, y desde su comparación con mitos y cuentos. Freud, en cambio, los leyó como cumplimiento de deseos reprimidos.",
+   "debate": "Qué son los sueños y para qué sirven se discute: hay teorías neurocientíficas que los ligan a la memoria y la emoción, y las interpretaciones psicoanalíticas no se pueden comprobar fácilmente."
+  }
+ ],
+ "abierta": "Si soñamos todas las noches durante toda la vida, ¿para qué sirve exactamente soñar? La ciencia todavía no lo sabe del todo."
+}

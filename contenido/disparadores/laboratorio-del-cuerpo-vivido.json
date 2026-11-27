@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Juntá las manos y tocá una con la otra. Mientras una toca, la otra siente. Y en cualquier momento puede invertirse.",
+   "p": "¿Qué muestra esta experiencia mínima sobre el cuerpo?",
+   "opciones": [
+    "Que el cuerpo es solo una máquina que se maneja desde la cabeza",
+    "Que el cuerpo es a la vez el que siente y lo que es sentido",
+    "Que es una ilusión de la percepción"
+   ],
+   "r": "Maurice Merleau-Ponty usó esa experiencia para mostrar que el cuerpo es, a la vez, sujeto y objeto: no solo lo tenemos, lo vivimos. Baruch Spinoza, por su parte, pensó los afectos como lo que aumenta o disminuye nuestra capacidad de actuar.",
+   "como": "Merleau-Ponty lo propuso desde la fenomenología, describiendo cuidadosamente cómo se vive la experiencia del cuerpo. Spinoza lo desarrolló en su Ética con un razonamiento de tipo geométrico.",
+   "debate": "Son filosofías, no psicoterapias, y se las puede leer de maneras distintas. Los ejercicios son prácticas cortas para ensayar esas ideas, y si algo incomoda, se puede cambiar de práctica."
+  }
+ ],
+ "abierta": "Si el cuerpo es a la vez lo que siente y lo sentido, ¿dónde termina «yo» y empieza «mi cuerpo»? Es una pregunta que la filosofía y la ciencia siguen discutiendo."
+}

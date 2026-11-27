@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cuando algo te asusta, el aire se corta. Cuando te relajás, suspirás. Respiramos unas veinte mil veces por día sin darnos cuenta.",
+   "p": "¿Podrá la respiración funcionar también al revés, es decir, cambiar lo que sentimos?",
+   "opciones": [
+    "No: la respiración solo refleja la emoción, no la modifica",
+    "Sí, en parte: alargar la exhalación tiende a calmar y respirar rápido tiende a activar",
+    "Sí, y cualquier técnica de respiración funciona igual de bien para todo"
+   ],
+   "r": "Cada emoción tiene su forma de respirar, y el camino también parece funcionar al revés. La regla general es simple: las exhalaciones largas tienden a calmar y las respiraciones rápidas tienden a activar.",
+   "como": "Muchas técnicas vienen del yoga y de las tradiciones meditativas, y hoy se estudian en psicología y fisiología, midiendo, por ejemplo, la frecuencia cardíaca y la sensación de calma.",
+   "debate": "Los resultados varían entre técnicas y personas, y no todas son para cualquiera: las más activadoras tienen precauciones (mareos, embarazo, problemas cardíacos o respiratorios) y conviene consultar ante dudas."
+  }
+ ],
+ "abierta": "Si respirar es a la vez involuntario y voluntario, ¿qué lugar ocupa en el puente entre cuerpo y mente? Todavía hay mucho por estudiar."
+}

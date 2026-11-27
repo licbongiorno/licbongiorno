@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una charla con alguien que querés puede ser un encuentro, donde el otro aparece entero, o apenas un intercambio en el que se resuelve algo. Desde afuera se ven iguales.",
+   "p": "¿Cómo se distinguen?",
+   "opciones": [
+    "Por cuánto tiempo dura la conversación",
+    "Por si el otro es tratado como una persona o como un medio para algo",
+    "Por cuántos temas profundos se tocan"
+   ],
+   "r": "Martin Buber distinguió dos maneras de estar con otros: Yo-Tú, en la que el otro aparece como persona entera, y Yo-Ello, en la que se lo usa o se lo trata como objeto. Hegel mostró que necesitamos ser reconocidos y que las tensiones entre dos verdades pueden llevar a algo nuevo.",
+   "como": "Buber lo desarrolló en Yo y Tú (1923), un texto filosófico, y Hegel en su análisis de la lucha por el reconocimiento. Son argumentos filosóficos, no hallazgos experimentales.",
+   "debate": "No hay una manera de comprobar un encuentro Yo-Tú desde afuera, y se discute si es posible sostenerlo siempre: las dos formas de relación conviven en la vida cotidiana."
+  }
+ ],
+ "abierta": "Si necesitamos ser reconocidos para ser quienes somos, ¿qué le debemos a quien tenemos enfrente? Es una pregunta que sigue abierta."
+}

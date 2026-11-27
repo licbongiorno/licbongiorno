@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Llegás a fin de año y sentís que estuviste ocupado todo el tiempo en cosas que no te importan tanto. Decís que la familia es lo primero y la ves los domingos un rato.",
+   "p": "¿Por qué puede doler esa distancia?",
+   "opciones": [
+    "Porque no cumpliste las metas que te propusiste",
+    "Porque a veces el malestar viene de lo lejos que estamos de lo que valoramos",
+    "Porque estamos mal organizados con el tiempo"
+   ],
+   "r": "El psiquiatra Viktor Frankl sostuvo que lo que más nos sostiene es el sentido. Y las terapias de aceptación y compromiso trabajan los valores como una brújula: no un lugar al que se llega, sino una dirección que se elige cada día.",
+   "como": "Frankl lo planteó desde su experiencia clínica y personal. Las terapias de aceptación y compromiso lo incorporaron en sus intervenciones, que se evalúan en investigaciones clínicas.",
+   "debate": "Se debate qué tan bien se puede medir cuánto vivimos nuestros valores y si el trabajo con valores explica por sí solo la mejoría. Los ejercicios son para pensar y no reemplazan una terapia."
+  }
+ ],
+ "abierta": "Si los valores son una dirección y no una meta, ¿cómo sabemos que estamos caminando hacia ellos? Es una pregunta que cada uno responde con su vida."
+}
