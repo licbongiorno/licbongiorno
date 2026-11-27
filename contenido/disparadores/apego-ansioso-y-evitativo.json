@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Ella manda un mensaje y mira el celular cada cinco minutos. Él responde horas después, sin mala intención: necesitaba un rato para sí. Cuanto más reclama ella, más se aleja él.",
+   "p": "¿Por qué la escena se repite aunque ninguno quiera hacerle daño al otro?",
+   "opciones": ["Porque uno de los dos no quiere de verdad", "Porque cada uno lee la conducta del otro como confirmación de su miedo", "Porque son demasiado distintos y nunca podrían entenderse"],
+   "r": "Cuando una persona de tendencia ansiosa se vincula con una evitativa puede armarse un círculo: el ansioso piensa «no me quiere» y el evitativo, «me asfixia». Son tendencias, no etiquetas, y cada persona puede reconocerse en un poco de cada una.",
+   "como": "Bowlby planteó que las experiencias tempranas dejan modelos sobre qué esperar de los demás. Hazan y Shaver (1987) propusieron que el amor adulto es también un proceso de apego, y en dos estudios con cuestionarios hallaron tres estilos: seguro, ansioso y evitativo.",
+   "debate": "Casi toda la investigación usa cuestionarios de autoinforme, que miden cómo la persona se percibe. Conviene desconfiar de las versiones simplificadas de redes, como «sos ansioso, así que vas a elegir siempre un evitativo».",
+   "seccion": "La trampa ansioso-evitativo"
+  },
+  {
+   "enigma": "Alguien creció con un modo de vincularse que hoy le hace sufrir en pareja. Se pregunta si es su condena para siempre.",
+   "p": "¿Los estilos de apego son destino?",
+   "opciones": ["Sí, quedan fijados en la infancia", "No: pueden cambiar con relaciones reparadoras o con trabajo personal", "Solo cambian con medicación"],
+   "r": "Los estilos de apego no son sentencias. La investigación habla de «seguridad adquirida» o apego «ganado» para personas con historias difíciles que, con relaciones reparadoras, terapia o trabajo personal, lograron vincularse de modo más seguro. También puede variar según la pareja y el momento de vida.",
+   "como": "Bartholomew y Horowitz (1991) propusieron cuatro estilos según la imagen de sí y de los otros, y Mikulincer y Shaver (2007) reunieron décadas de estudios sobre apego adulto en un libro de referencia.",
+   "debate": "No hay que tomar el estilo como un diagnóstico, y los cuestionarios online solo ofrecen orientación. Si en la relación hay miedo o control, ya no se trata de estilos de apego sino de otra cosa que conviene mirar.",
+   "seccion": "Los estilos no son destino"
+  }
+ ],
+ "abierta": "Si el vínculo con quien nos acompaña puede reparar un modo de relacionarse, ¿qué es exactamente lo que cambia, en la persona y en la relación? Todavía se estudia."
+}

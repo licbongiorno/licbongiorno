@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Me quedé sin aire». «Respiré aliviado». El suspiro después de llorar, el aire que se corta cuando nos asustamos, el resoplido del enojo. Cada emoción parece tener su respiración.",
+   "p": "¿Podrá funcionar también al revés: que cambiar la respiración cambie la emoción?",
+   "opciones": ["No: la respiración es solo un efecto de la emoción", "Sí, en parte, porque es la única función automática que podemos dirigir a voluntad", "Solo funciona si uno cree en ello"],
+   "r": "La respiración es la única función automática del cuerpo sobre la que tenemos control directo. Está conectada con el sistema nervioso autónomo: respirar lento y alargar la exhalación activa los mecanismos de calma, mediados en gran parte por el nervio vago. Puede bajar la intensidad de una emoción para poder pensar, pero no resuelve lo que la causa.",
+   "como": "Al inhalar el corazón se acelera un poco y al exhalar se desacelera (arritmia sinusal respiratoria). Paul Lehrer y otros mostraron que respirar a unas cinco o seis respiraciones por minuto aumenta la variabilidad cardíaca en muchas personas, y una revisión de Zaccaro y colaboradores (2018) asoció la respiración lenta con más calma y menos ansiedad.",
+   "debate": "Esas revisiones reúnen estudios pequeños y heterogéneos, muchos con medidas de corto plazo. Y la teoría polivagal, muy difundida, es discutida en la comunidad científica.",
+   "seccion": "El sistema nervioso autónomo"
+  },
+  {
+   "enigma": "Alguien siente que le falta el aire cuando se angustia. Cuanto más intenta respirar hondo, peor se siente.",
+   "p": "¿Por qué le pasará eso?",
+   "opciones": ["Porque no sabe respirar bien", "Porque respira de más: el exceso de aire produce mareo y hormigueo, y eso alimenta el miedo", "Porque tiene poco aire en los pulmones"],
+   "r": "En la ansiedad y el pánico es frecuente respirar de más (hiperventilar), lo que produce mareo, hormigueo y sensación de ahogo, y esos síntomas confirman la alarma. Por eso «respirá hondo» no siempre ayuda: lo que suele ayudar es exhalar largo y despacio.",
+   "como": "Es un círculo descripto en la clínica y la fisiología: la alarma acelera la respiración, el exceso de aire genera síntomas y los síntomas confirman la alarma. Las respiraciones lentas que alargan la exhalación (diafragmática, coherente) rompen ese círculo en muchas personas.",
+   "debate": "Algunas respiraciones rápidas e intensas pueden aumentar la alarma en una persona ansiosa y tienen riesgos físicos. Y la respiración no reemplaza entender qué nos pasa ni un tratamiento cuando hace falta.",
+   "seccion": "Respiraciones que calman y respiraciones que activan"
+  }
+ ],
+ "abierta": "Si respirar de otro modo ayuda a bajar la alarma, ¿qué dicen los momentos en que se nos corta el aire sobre aquello que no podemos decir? Es una pregunta que la clínica sigue explorando."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona sabe que la mayoría de las cosas que le preocupan no pasan, y aun así no puede apagar la cabeza: se resuelve una preocupación y casi enseguida aparece otra en su lugar.",
+   "p": "¿Por qué la preocupación se mantiene aunque casi nunca se cumpla lo temido?",
+   "opciones": ["Porque quien se preocupa no es capaz de razonar", "Porque a veces «funciona»: lo que se teme no ocurre y la mente lo atribuye a haberse preocupado", "Porque en realidad hay más peligros de los que uno cree"],
+   "r": "La preocupación es un intento de control. Se sostiene porque casi todo lo que se teme no ocurre y la mente lo atribuye a haberse preocupado. Dugas y colaboradores proponen además que pesa la intolerancia a la incertidumbre, y Borkovec y colaboradores, que preocuparse sirve como evitación cognitiva: pensar en palabras esquiva la imagen más vívida del peligro.",
+   "como": "Son modelos propuestos por investigadores clínicos: Dugas, Gagnon, Ladouceur y Freeston en 1998, y Borkovec, Alcaine y Behar en 2004.",
+   "debate": "Son modelos que ayudan a entender por qué persiste, no explicaciones definitivas. Y no alcanza con pensar en positivo ni con fuerza de voluntad.",
+   "seccion": "Por qué se mantiene"
+  },
+  {
+   "enigma": "A alguien se le sugiere reservar un horario fijo del día, por ejemplo veinte minutos en un lugar determinado, solo para preocuparse. Y postergar las preocupaciones que aparezcan fuera de ese momento.",
+   "p": "¿Qué pasa con esas preocupaciones cuando llega la hora?",
+   "opciones": ["Se acumulan y la persona queda peor", "Muchas ya no parecen tan urgentes", "Siempre conviene resolverlas todas en ese momento"],
+   "r": "Muchas personas notan que, llegada la hora elegida, varias de esas preocupaciones ya no les parecen tan urgentes. La técnica se llama tiempo de preocupación y se usa dentro de la terapia cognitivo-conductual, que es el tratamiento psicológico más estudiado para el trastorno de ansiedad generalizada.",
+   "como": "Borkovec, Wilkinson, Folensbee y Lerman probaron en 1983 instrucciones de control de estímulos. Una revisión de Cuijpers y colaboradores (2014, 41 estudios, 2132 adultos) halló un efecto grande de las psicoterapias frente a grupos control.",
+   "debate": "Muchos de esos estudios compararon contra lista de espera, y faltan estudios directos entre tratamientos para saber cuál es mejor. Existe también tratamiento farmacológico, que decide un psiquiatra.",
+   "seccion": "Cómo se trabaja en terapia"
+  }
+ ],
+ "abierta": "Si preocuparse es un intento de sentirse preparado, ¿cómo se aprende a tolerar no saber cómo van a salir las cosas? Es una de las preguntas centrales que se siguen investigando."
+}

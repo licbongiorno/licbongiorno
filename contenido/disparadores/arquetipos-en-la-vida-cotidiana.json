@@ -1,0 +1,24 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Las mismas historias se repiten en culturas que nunca tuvieron contacto entre sí: el que se va de casa y vuelve cambiado, la que cuida a todos, el sabio, el niño que empieza de nuevo.",
+   "p": "¿Cómo puede ser?",
+   "opciones": ["Es pura casualidad", "Son experiencias humanas compartidas, y Jung propuso patrones universales: los arquetipos", "Todas esas historias nacieron en un mismo lugar y se difundieron"],
+   "r": "Jung propuso que los arquetipos son patrones universales de experiencia, parte de lo que llamó inconsciente colectivo. No son imágenes fijas, sino disposiciones a vivir de manera similar nacer, crecer, enamorarse o enfrentar la muerte. Lo que vemos son sus imágenes, teñidas por la cultura y la historia.",
+   "como": "Es una idea que Jung formuló desde la clínica, mirando sueños, mitos y relatos. Que los relatos se parezcan entre culturas es un dato observable, aunque también puede explicarse por contacto histórico y por experiencias humanas compartidas.",
+   "debate": "Que exista una herencia psíquica específica, el inconsciente colectivo, es una hipótesis de Jung que no se pudo comprobar de modo directo. Él mismo aclaró que lo heredado no son imágenes sino disposiciones.",
+   "seccion": "Matices y límites"
+  },
+  {
+   "enigma": "Una mujer llega agotada: es «la que resuelve» en la familia, en el trabajo, con las amigas. Repite una frase: «si yo no lo hago, nadie lo hace».",
+   "p": "¿Qué cambia cuando reconoce que ese papel tiene un guion?",
+   "opciones": ["Nada: el papel desaparece de inmediato", "Pasa de «así soy» a «hay un guion que estoy actuando» y puede elegir qué seguir", "Queda atada a la etiqueta de «la Madre» para siempre"],
+   "r": "Nombrar el patrón no lo hace desaparecer, pero cambia algo: de «así soy» a «hay un guion que estoy actuando». Desde ahí se puede preguntar qué parte de ese guion se quiere seguir y cuál no. En terapia junguiana ese reconocimiento es parte del camino de la individuación.",
+   "como": "El trabajo suele combinar la historia personal (¿de dónde aprendí este papel?) con el material simbólico (¿qué cuentos, películas o mitos se parecen a esto?). La viñeta es una escena frecuente, no un caso real.",
+   "debate": "Usar los arquetipos como etiquetas («soy la Madre, vos sos el Héroe») empobrece a las personas: nunca se agotan en una figura. Por eso se los usa como lentes provisorios, que se dejan si encierran.",
+   "seccion": "Una viñeta de consultorio"
+  }
+ ],
+ "abierta": "Si algunos temas humanos aparecen en todas partes, ¿se explican por una herencia compartida, por experiencias parecidas o por culturas que se tocaron? La discusión sigue abierta."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Dibujá lo que quieras» parece la consigna más fácil. Algunos chicos llenan la hoja en dos minutos con colores y personajes. Otros se quedan mirando el papel en blanco, preguntan «¿qué dibujo?», borran, empiezan de nuevo.",
+   "p": "¿Qué te parece que le interesa observar al profesional?",
+   "opciones": ["Qué tan bien dibuja cada uno", "Qué elige dibujar, cómo usa el espacio y cómo se maneja con la tarea, además de lo que cuenta sobre su dibujo", "Qué colores usa, porque cada color tiene un significado fijo"],
+   "r": "Se observa qué elige dibujar, cómo usa el espacio (tamaño, ubicación), el trazo y el color, la actitud frente a la tarea (entusiasmo, duda, pedido de ayuda, perfeccionismo) y, sobre todo, lo que la persona cuenta sobre el dibujo. Con niños es muy valioso porque muchas veces expresan con un dibujo lo que todavía no pueden decir con palabras.",
+   "como": "Desde Melanie Klein y Donald Winnicott, el dibujo y el juego son el lenguaje de la clínica infantil. Winnicott, por ejemplo, usaba el «juego del garabato». Es un recurso clínico bien establecido para la comunicación de los niños, en especial los pequeños.",
+   "debate": "No hay respaldo para leer significados fijos en colores, tamaños o ausencias («el sol es el padre», «el negro es tristeza»). Las revisiones, como la de Lilienfeld, Wood y Garb (2000), mostraron que los indicadores aislados no discriminan bien entre grupos.",
+   "seccion": "Qué se observa"
+  },
+  {
+   "enigma": "Una niña de ocho años que atraviesa la separación de sus padres dibuja una casa con dos puertas y un camino que no llega a ninguna. Cuando se le pregunta, dice: «Es una casa donde vive una familia que viaja mucho».",
+   "p": "¿Qué conviene hacer con ese dibujo?",
+   "opciones": ["Decirle qué significa su dibujo", "Escuchar lo que cuenta, observar cómo lo hace e invitarla a seguir", "Ignorarlo, porque un dibujo no tiene importancia"],
+   "r": "No se le dice qué significa: se escucha lo que cuenta y se la invita a seguir. A lo largo de varias sesiones, la historia de esa casa va cambiando, y con ella algo de cómo se acomoda a lo nuevo. El dibujo funcionó menos como prueba y más como un lugar para jugar lo que dolía. Es una viñeta compuesta.",
+   "como": "En la clínica infantil el dibujo se usa como lenguaje compartido y no como radiografía. Tienen mejor sustento los indicadores del desarrollo madurativo en el dibujo infantil, como la evolución de la figura humana con la edad, que los indicadores emocionales.",
+   "debate": "Lo que se dibuja depende del contexto: el día, el humor, el cansancio. Un dibujo llamativo no prueba nada: invita a preguntar con cuidado, no a sacar conclusiones.",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "Si el dibujo y el juego permiten que los chicos digan lo que no pueden decir con palabras, ¿qué cambia en ellos cuando alguien los escucha? Es algo que la clínica infantil sigue investigando."
+}

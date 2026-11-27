@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«No sé si lo mío es para tanto.» «Hay gente que está peor.» «Debería poder resolverlo solo.» Son frases que se escuchan en las primeras entrevistas, casi siempre después de meses o años de postergar.",
+   "p": "¿Hace falta estar muy mal para consultar?",
+   "opciones": ["Sí, solo cuando uno ya no puede más", "No: el sufrimiento no se mide en comparación y la terapia también es un lugar para comprenderse", "Solo si alguien cercano lo indica"],
+   "r": "No hace falta una situación extrema. La terapia no es solo una guardia de emergencias: también es un lugar para comprenderte y ordenar lo que sentís antes de que el cuerpo o la vida te obliguen. Algunas señales: sufrimiento que no cede, situaciones que se repiten, el cuerpo que habla, pérdida de interés o un cambio importante.",
+   "como": "Son orientaciones surgidas de la práctica clínica, no un test. En términos generales, la psicoterapia ayuda a la mayoría de quienes la hacen, y la calidad del vínculo con el terapeuta es de los factores mejor estudiados.",
+   "debate": "No existe una lista de síntomas que diga con certeza «necesitás terapia». No todo malestar la requiere: a veces ayudan el descanso o una conversación franca, y a veces hace falta una consulta médica, porque algunos síntomas tienen causas orgánicas.",
+   "seccion": "«¿Y si no es para tanto?»"
+  },
+  {
+   "enigma": "Alguien llega a la primera entrevista diciendo «no sé bien por qué vine, a lo mejor es una pavada». A los quince minutos habla de una separación que no terminó de procesar.",
+   "p": "¿Qué suele pasar con el motivo de consulta?",
+   "opciones": ["Casi siempre coincide con lo que se dice al llegar", "A menudo el motivo real no coincide con la excusa con que se llega", "Nunca aparece nada nuevo"],
+   "r": "El motivo real casi nunca coincide con la excusa con la que se llega: a veces es algo sin nombre que ocupa mucho lugar. La primera entrevista es una conversación para conocerse: no hace falta traer nada preparado ni tener claro qué te pasa.",
+   "como": "Es una escena genérica, muy frecuente en consulta, no un caso real. Contás lo que te trae, el profesional explica cómo trabaja y juntos evalúan si ese espacio es adecuado.",
+   "debate": "No es un compromiso: es un primer paso. Las escalas como el PHQ-9 o el GAD-7 dan una medida orientativa, pero no reemplazan una entrevista.",
+   "seccion": "Qué pasa en una primera entrevista"
+  }
+ ],
+ "abierta": "Si tantas personas postergan pedir ayuda por pensar que no es para tanto, ¿qué haría falta para que consultar a tiempo se sintiera tan natural como ir al médico? Es una pregunta abierta."
+}

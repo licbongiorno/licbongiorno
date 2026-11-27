@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Almorzaste entero mirando el celular y no sabés qué gusto tenía. Otra vez, llevás diez minutos discutiendo mentalmente con alguien que ni está.",
+   "p": "¿Qué creés que propone el mindfulness frente a eso?",
+   "opciones": ["Vaciar la mente y no pensar en nada", "Sentirse siempre relajado y pensar en positivo", "Darse cuenta, a propósito y sin juzgar, de lo que está pasando, incluso lo incómodo"],
+   "r": "Jon Kabat-Zinn lo definió como prestar atención de una manera particular: a propósito, en el momento presente y sin juzgar. No se trata de vaciar la mente ni de sentir solo cosas agradables, sino de registrar lo que pasa con curiosidad. Por eso no es una técnica de relajación, aunque a veces relaje.",
+   "como": "En 1979, Kabat-Zinn creó en la Universidad de Massachusetts el programa MBSR, de ocho semanas, para personas con dolor crónico y enfermedades. Tomó prácticas budistas y las presentó en un lenguaje laico.",
+   "debate": "Van Dam y colaboradores (2018) criticaron las definiciones imprecisas, los estudios chicos y la tendencia a prometer de más.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Una persona que tuvo varias veces depresión aprende en ocho semanas a observar sus pensamientos sin engancharse. Años después, recae menos que otras.",
+   "p": "¿Cuánto creés que respalda la investigación el uso del mindfulness?",
+   "opciones": ["Muy bien para todo: ansiedad, estrés, dolor y todo lo demás", "Bien para algunos usos puntuales, y poco para muchos otros que se difunden", "No tiene ningún respaldo"],
+   "r": "La terapia cognitiva basada en mindfulness (MBCT) es uno de los usos mejor respaldados: en personas con varios episodios de depresión reduce el riesgo de recaída. Hay evidencia moderada para ansiedad, estrés y dolor, y para muchos otros usos es débil o preliminar.",
+   "como": "La MBCT la crearon Zindel Segal, Mark Williams y John Teasdale. La revisión de Goyal y colaboradores (2014), con 47 ensayos, halló efectos modestos y no encontró ventajas frente a otros tratamientos activos.",
+   "debate": "Hay efectos adversos: Farias y colaboradores (2020) estimaron cerca de 8 %, con gran variación, como ansiedad o recuerdos intensos. No invalida la práctica, pero invita a usarla con criterio.",
+   "seccion": "Qué dice la evidencia"
+  }
+ ],
+ "abierta": "Si el mindfulness ayuda a unos y a otros les trae malestar, ¿de qué depende que le haga bien a una persona en un momento dado? Es algo que se sigue estudiando."
+}

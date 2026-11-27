@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Lucía mira un video de treinta segundos que dice: «Si te cuesta empezar tareas, si perdés las llaves, si te distraés en las reuniones, tenés TDAH». Se reconoce en todo. Le manda el video a una amiga, que también se reconoce. Lucía duerme cuatro horas por noche, tiene un trabajo exigente y viene de un año de mucha ansiedad.",
+   "p": "¿Alcanza ese listado para saber si tiene TDAH?",
+   "opciones": ["Sí: si se reconoce en todo, es TDAH", "No: esas dificultades aparecen también con ansiedad, poco sueño o estrés, y el diagnóstico requiere una evaluación", "No: el TDAH no existe en adultos"],
+   "r": "Las dificultades de atención son un síntoma inespecífico: aparecen también en la ansiedad, la depresión, el sueño insuficiente, el estrés sostenido, el consumo de ciertas sustancias y algunas condiciones médicas. El diagnóstico lo hace un profesional, con una entrevista que incluye la historia desde la infancia y a veces información de personas cercanas.",
+   "como": "Según el DSM-5, los síntomas tienen que haber empezado en la infancia y causar un perjuicio real en más de un ámbito de la vida. Un video enumera conductas que describen a mucha gente, sin preguntar desde cuándo, con qué intensidad ni en qué contexto.",
+   "debate": "Autodiagnosticarse tiene dos riesgos: quedarse con una etiqueta equivocada y no tratar lo que realmente pasa, o descartar la posibilidad por desconfianza y no consultar cuando sí corresponde. Y el metaanálisis de Song y colaboradores (2021) estimó 2,58 % de TDAH persistente en adultos y 6,76 % de sintomático, promedios de estudios con criterios distintos.",
+   "seccion": "Por qué no alcanza con un video"
+  },
+  {
+   "enigma": "Un grupo de 86 adultos ya tomaba medicación para el TDAH y seguía con síntomas. A algunos se les ofrecieron doce sesiones de terapia con estrategias concretas de organización; a otros, relajación con apoyo educativo.",
+   "p": "¿Qué te parece que se encontró?",
+   "opciones": ["Que la relajación funcionó igual o mejor", "Que las estrategias concretas lograron más respuesta, aun con medicación", "Que ninguna de las dos hizo diferencia"],
+   "r": "Las estrategias concretas de organización, planificación y manejo de la distracción se pueden aprender, incluso con medicación. En la práctica el abordaje suele combinar psicoeducación, herramientas de organización, ajustes del entorno y, cuando el médico lo indica, medicación.",
+   "como": "Safren y colaboradores (2010) hicieron un ensayo aleatorizado con 86 adultos: doce sesiones de terapia cognitivo-conductual lograron más respuesta que la relajación con apoyo educativo.",
+   "debate": "El estudio es chico. La medicación es una decisión médica que se evalúa caso por caso. Ponerle nombre a las dificultades tampoco alcanza por sí solo para resolverlas.",
+   "seccion": "Qué ayuda"
+  }
+ ],
+ "abierta": "Si tantas personas se reconocen en los rasgos de la atención dispersa, ¿dónde termina la variación normal y empieza un trastorno? Los especialistas todavía lo discuten."
+}

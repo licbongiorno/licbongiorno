@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una persona con meses de mal dormir y ánimo bajo piensa en probar acupuntura. Un familiar le jura que a él le sirvió; otro dice que es puro efecto placebo.",
+   "p": "¿Quién tiene razón?",
+   "opciones": ["El primero: si le sirvió a alguien, funciona", "El segundo: no hay nada más que placebo", "Ninguno del todo: la evidencia es más matizada y de calidad baja"],
+   "r": "Para la depresión, una revisión Cochrane de 2018 (64 ensayos, 7104 participantes) encontró evidencia de baja calidad de que la acupuntura podría reducir moderadamente la gravedad frente a no recibir tratamiento, con un efecto menor frente a una acupuntura de control. Para el insomnio, la evidencia no alcanzó para apoyarla ni refutarla.",
+   "como": "Se sabe por revisiones Cochrane que reúnen muchos ensayos clínicos: Smith y colaboradores en depresión y Cheuk y colaboradores en insomnio. Los autores señalaron riesgo de sesgo en la mayoría de los estudios y pidieron ensayos de mayor calidad.",
+   "debate": "Para la ansiedad no hay una revisión Cochrane específica, y los metaanálisis más recientes tienen pocos estudios y calidad variable. La acupuntura no reemplaza tratamientos con eficacia demostrada.",
+   "seccion": "Qué tiene respaldo y qué no"
+  },
+  {
+   "enigma": "Para probar un fármaco se da una pastilla idéntica sin principio activo. Con la acupuntura, quien pone las agujas sabe lo que hace, y la «acupuntura simulada» también toca la piel dentro de un ámbito de cuidado.",
+   "p": "¿Por qué es tan difícil saber cuánto hace la acupuntura en sí?",
+   "opciones": ["Porque nadie quiso investigarla en serio", "Porque el control simulado puede tener efectos por sí mismo", "Porque los resultados siempre son iguales con cualquier control"],
+   "r": "La acupuntura simulada puede producir algún alivio, porque la expectativa y el contexto de cuidado también cuentan. Por eso, cuando la real supera poco a la simulada, o el efecto específico es pequeño, o el control no es un placebo puro. Hoy no permite una conclusión firme.",
+   "como": "Se diseñaron agujas de placebo romas que se retraen sin penetrar la piel, como la de Streitberger y Kleinhenz (1998, The Lancet). Un metaanálisis en dolor crónico (Vickers y colaboradores, 2018) mostró que la respuesta cambia según el control: unos 0,5 desvíos estándar frente a no recibir acupuntura y unos 0,2 frente a la simulada.",
+   "debate": "Revisiones posteriores cuestionaron que alguna aguja placebo sea totalmente inerte, y los estudios de validación son pequeños. El efecto de la expectativa y del vínculo no es «falso», pero es distinto de demostrar que las agujas hacen lo que la teoría tradicional dice.",
+   "seccion": "El problema del placebo y de los controles simulados"
+  }
+ ],
+ "abierta": "Si parte del alivio viene de ser atendido con cuidado, ¿cómo se separa lo que aportan las agujas de lo que aporta el vínculo y la expectativa? Los ensayos todavía no lo resuelven."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien decide, por fin, pedir ayuda, y se encuentra con una pregunta que no esperaba: ¿a quién llamo? En la guía de la prepaga aparecen psicólogos, psiquiatras y psicoanalistas, y todos parecen ocuparse de lo mismo.",
+   "p": "¿Cuál es la diferencia principal entre un psicólogo y un psiquiatra?",
+   "opciones": ["Ninguna: son nombres distintos de la misma profesión", "El psiquiatra es médico y puede recetar medicamentos; el psicólogo hace psicoterapia y no receta", "El psicólogo atiende casos leves y el psiquiatra los graves"],
+   "r": "El psicólogo cursa una licenciatura en Psicología y su herramienta principal es la psicoterapia, además de la evaluación psicológica: no receta medicamentos. El psiquiatra es médico con especialización en psiquiatría, por lo que puede evaluar cuerpo y mente, diagnosticar e indicar tratamiento farmacológico. El psicoanalista nombra una orientación, no una carrera.",
+   "como": "En Argentina, la Ley 23.277 (1985) regula el ejercicio de la psicología, y para ejercer hace falta la matrícula. Conviene preguntar siempre por la formación de base y la matrícula.",
+   "debate": "Algunos psiquiatras también hacen psicoterapia, pero no todos. Y hay otras denominaciones sin regulación común: conviene desconfiar de quien promete curas rápidas o pide dejar un tratamiento médico.",
+   "seccion": "Tres figuras, tres formaciones"
+  },
+  {
+   "enigma": "Alguien cuenta: «Dormí mal durante meses, estoy irritable y sin ganas de nada. No sé si necesito hablar con alguien o tomar algo».",
+   "p": "¿Creés que hay que elegir entre hablar y medicarse?",
+   "opciones": ["Sí: son caminos que se excluyen", "No: muchas veces las dos cosas se complementan y trabajan en paralelo", "Siempre alcanza con una sola"],
+   "r": "Es frecuente, y bueno, que un psicólogo y un psiquiatra trabajen en paralelo: el psiquiatra evalúa y, si corresponde, indica y ajusta la medicación; el psicólogo acompaña el proceso de comprensión y cambio. Tomar medicación no impide hacer terapia, ni hacer terapia obliga a medicarse.",
+   "como": "La Ley Nacional de Salud Mental 26.657 (2010) promueve que la atención esté a cargo de equipos interdisciplinarios. Para algunos cuadros, como la depresión moderada a grave, la combinación tiene mejor respaldo que una sola vía.",
+   "debate": "Para otros, como ciertas ansiedades leves o problemas de pareja, la psicoterapia sola suele alcanzar. Es orientativo: la decisión se toma con los profesionales caso por caso, y lo que se medica lo decide el médico, nunca el propio criterio.",
+   "seccion": "El trabajo conjunto"
+  }
+ ],
+ "abierta": "Si pedir ayuda ya es un paso difícil, ¿cómo podría ser más claro el camino para quien llega por primera vez? Es una pregunta que el sistema de salud todavía se hace."
+}

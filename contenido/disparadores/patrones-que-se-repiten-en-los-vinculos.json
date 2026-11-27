@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Siempre me pasa lo mismo.» Cambia la cara, el nombre, la ciudad, pero la escena de la relación es idéntica: el que no está disponible, la que da hasta quedarse vacía.",
+   "p": "¿Por qué creés que repetimos situaciones que nos hacen sufrir?",
+   "opciones": ["Porque en el fondo queremos sufrir", "Porque lo conocido, aunque duela, es familiar, y a veces es un intento de resolver algo pendiente", "Por mala suerte con las parejas"],
+   "r": "Freud llamó compulsión a la repetición a la tendencia a repetir, sin darnos cuenta, experiencias de nuestra historia, incluso las que dolieron. No repetimos para sufrir: lo conocido tiene algo de familiar y previsible, y muchas veces es un intento de resolver algo que quedó pendiente, como volver a la escena esperando un final distinto.",
+   "como": "Lo observó en la clínica y lo formuló en 1920. Nuestras primeras relaciones funcionan como molde: allí aprendemos qué esperar de los otros y cuánto valemos.",
+   "debate": "Es un concepto de la teoría freudiana, discutido incluso dentro del psicoanálisis, y no un mecanismo medido en laboratorio. Lo que sí tiene respaldo es que los estilos de apego muestran cierta continuidad, aunque no son un destino.",
+   "seccion": "La repetición"
+  },
+  {
+   "enigma": "Un hombre llega después de su tercera separación. Las tres parejas eran muy distintas, pero él describe las tres rupturas con casi las mismas palabras.",
+   "p": "¿Dónde creés que puede estar lo que se repite?",
+   "opciones": ["En que eligió siempre mal a sus parejas", "En cómo aprendió a defenderse de la cercanía, más que en las parejas", "En que las relaciones simplemente no duran"],
+   "r": "El patrón no estaba en las parejas sino en cómo él aprendió a defenderse de la cercanía, a partir de una infancia en la que cerca de los adultos solía haber reproches. En terapia se mira qué se repite, qué se espera del otro y qué hacemos nosotros, sin darnos cuenta, para que ocurra lo temido.",
+   "como": "Es una escena genérica, armada con rasgos que se repiten en la consulta. Esas primeras relaciones, con quienes nos cuidaron, orientan sin que lo sepamos nuestras elecciones y reacciones.",
+   "debate": "No todo lo que se repite es un patrón patológico: a veces elegimos parecido porque nos gusta cierto tipo de persona, o la repetición es del contexto y no nuestra. Y si hay violencia, no es un patrón a trabajar en la pareja sino un riesgo.",
+   "seccion": "De dónde vienen los patrones"
+  }
+ ],
+ "abierta": "Si reconocer un patrón abre la posibilidad de elegir otra cosa, ¿cuánto de lo que repetimos es historia y cuánto es elección de hoy? Es una pregunta que se explora con tiempo."
+}

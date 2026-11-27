@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Frente a una mancha de tinta, alguien ve la mancha entera y otro se detiene en un detalle mínimo. Uno se fija en la forma; otro, en el color o en el movimiento.",
+   "p": "¿Qué creés que le interesa al profesional?",
+   "opciones": ["Qué es lo que ves, porque cada cosa tiene un significado secreto", "Cómo llegás a verlo: dónde mirás y en qué te basás", "Si acertás lo que la mancha «realmente» es"],
+   "r": "No hay una respuesta correcta escondida, ni el psicólogo va a saber todo de la persona por lo que vea. Lo que importa es cómo cada uno organiza la percepción frente a algo ambiguo. Cada respuesta se codifica según la localización (mancha entera o parte), los determinantes (forma, color, sombreado, movimiento), el contenido y la calidad formal.",
+   "como": "Lo creó el psiquiatra suizo Hermann Rorschach, que lo publicó en 1921 en «Psicodiagnóstico», con diez láminas de manchas de tinta. Él lo pensaba sobre todo como una prueba de percepción. Después John Exner desarrolló el Sistema Comprehensivo, y más tarde se creó el R-PAS (2011).",
+   "debate": "Las láminas no se publican a propósito: conocerlas antes puede afectar una evaluación real. Y no sirve para leer «lo que alguien esconde» ni para detectar mentiras o experiencias específicas.",
+   "seccion": "Qué se codifica"
+  },
+  {
+   "enigma": "El Rorschach generó mucho debate: para algunos es una prueba «mágica», para otros un fraude.",
+   "p": "¿Qué dice la investigación cuando se la mira con cuidado?",
+   "opciones": ["Que está totalmente validado", "Que no tiene ningún respaldo", "Que varias variables tienen buen respaldo y otras poco, y depende de cómo se use"],
+   "r": "Es un panorama matizado. Bien administrado, codificado con un sistema estandarizado y combinado con otras pruebas, el Rorschach puede aportar información valiosa. Usado de forma libre o intuitiva, mucho menos.",
+   "como": "Las revisiones críticas, como la de Lilienfeld, Wood y Garb (2000), señalaron problemas en algunas normas e índices; Wood y colaboradores (2003) sostuvieron que algunas normas del sistema de Exner tendían a patologizar a personas sanas. Un metaanálisis amplio de Mihura y colaboradores (2013) encontró buen respaldo para varias variables, en especial las ligadas a alteraciones del pensamiento y la percepción.",
+   "debate": "En el ámbito forense su uso es discutido y requiere especial prudencia. Sus resultados dependen de la normativa que se use, y solo vale la interpretación de un profesional capacitado, integrada con otras fuentes.",
+   "seccion": "Qué dice la investigación"
+  }
+ ],
+ "abierta": "Si el modo de ver una mancha ambigua dice algo de cómo organizamos la percepción, ¿qué hace falta para medirlo sin sobreinterpretar? Es una pregunta que la investigación sigue discutiendo."
+}

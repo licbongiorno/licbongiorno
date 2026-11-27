@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una charla de grupo alguien cuenta que su ex nunca pidió disculpas, y en tres minutos hay un veredicto unánime: «es un narcisista». La palabra se usa para el jefe prepotente, la pareja que se fue mal, el amigo que habla solo de sí.",
+   "p": "¿Cuándo una persona tiene un trastorno narcisista de la personalidad?",
+   "opciones": ["Cuando muestra algún rasgo, como vanidad o egocentrismo", "Cuando hay un patrón persistente y rígido que afecta la identidad, la autoestima y los vínculos, y lo evalúa un profesional", "Cuando alguien nos hizo daño en un vínculo"],
+   "r": "Hay que separar el uso coloquial, como insulto, del trastorno, un diagnóstico del DSM-5 que describe un patrón persistente y de larga data. Solo lo evalúa un profesional de salud mental, tras conocer a la persona. Todos tenemos momentos de egocentrismo o de necesitar reconocimiento: eso es humano.",
+   "como": "El diagnóstico se apoya en observar un patrón estable, rígido, que genera sufrimiento o deterioro, y no se deduce de un mal vínculo ni de una conducta aislada.",
+   "debate": "Las listas virales que prometen detectar un narcisista en cinco minutos no tienen respaldo: suelen mezclar conductas cotidianas con cuadros clínicos. Diagnosticar a distancia es injusto y poco confiable.",
+   "seccion": "Dos cosas distintas con el mismo nombre"
+  },
+  {
+   "enigma": "Imaginá a alguien que se muestra seguro, superior, que necesita admiración. Y a otro que parece retraído, ansioso y muy sensible a la crítica. Resulta que los dos pueden compartir algo de fondo.",
+   "p": "¿Qué creés que puede haber debajo de esas dos formas de presentarse?",
+   "opciones": ["En ambos casos, pura arrogancia", "Una autoestima frágil que se sostiene de maneras distintas", "Nada en común: son personalidades opuestas"],
+   "r": "Pincus y Lukowitsky describieron dos expresiones del narcisismo patológico: la grandiosa (seguridad exhibida, superioridad) y la vulnerable (fragilidad, vergüenza, hipersensibilidad a la crítica). Muchas veces la grandiosidad cubre una herida de valor personal, y la vulnerabilidad se vive en silencio.",
+   "como": "El trabajo es de 2010, en la revista Annual Review of Clinical Psychology. Dentro del psicoanálisis, Heinz Kohut propuso mirar lo que parece pura vanidad como un modo de sostener una autoestima frágil.",
+   "debate": "El trastorno no es una sentencia: personas con rasgos narcisistas intensos también pueden sufrir, pedir ayuda y trabajar en psicoterapia, aunque requiera tiempo y paciencia.",
+   "seccion": "Dos caras del narcisismo patológico"
+  }
+ ],
+ "abierta": "Si detrás de una etiqueta suele haber una persona con dificultades, ¿cómo cuidar nuestro propio malestar en un vínculo sin reducir al otro a un insulto? Es una pregunta que sigue abierta."
+}

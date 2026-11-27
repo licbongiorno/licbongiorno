@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una lámina en blanco y negro: una persona mirando por una ventana, alguien sentado junto a una figura que no se distingue bien. Y una consigna: «contame una historia». Algunos inventan finales felices, otros tragedias, otros dejan todo en suspenso.",
+   "p": "¿Qué te parece que revela más: una historia sola o varias?",
+   "opciones": ["Una sola historia, si es muy vívida", "Lo que se repite en varias historias: temas, personajes, desenlaces", "Ninguna, porque son solo cuentos inventados"],
+   "r": "Lo que se repite en las historias suele decir más que cualquier historia sola. Se observan el héroe (con quién parece identificarse quien cuenta), las necesidades y conflictos que reaparecen, los vínculos entre los personajes, los desenlaces y la estructura.",
+   "como": "El TAT lo crearon Henry Murray y Christiana Morgan en Harvard, y se publicó en su forma definitiva en 1943. Murray lo pensó desde su teoría de las necesidades (logro, afiliación, poder) y de las presiones del ambiente. «Apercepción» alude a que no solo percibimos una imagen: la interpretamos desde nuestra experiencia.",
+   "debate": "Las historias dependen de qué láminas se usan, del clima de la evaluación y del lenguaje. No es un detector de traumas ni de deseos ocultos: una historia sombría puede reflejar una película que se vio ayer.",
+   "seccion": "Qué se observa"
+  },
+  {
+   "enigma": "Un hombre inventa, frente a varias láminas, historias en que alguien se esfuerza mucho y el reconocimiento llega tarde o no llega. En otra, una escena entre dos personajes termina con uno que se va sin despedirse.",
+   "p": "¿Qué se hace con esas historias?",
+   "opciones": ["Se le dice qué conflicto tiene", "Se le pregunta cómo imagina que se sintió cada personaje y qué habría necesitado, y se conversa", "Se las descarta, porque son inventadas"],
+   "r": "No se le dice que «tiene tal conflicto»: al conversarlo, él relaciona esos finales con una historia familiar y con su dificultad para pedir lo que necesita. El TAT no lo diagnosticó: le devolvió, narrado, algo propio. Es una viñeta compuesta.",
+   "como": "Hay una línea de investigación seria en el estudio de la motivación: David McClelland y colaboradores codificaron sistemáticamente historias (necesidad de logro, afiliación y poder) y hallaron relaciones con conductas observables. Hay también sistemas de codificación más recientes, como el SCORS, con mejor consistencia entre evaluadores.",
+   "debate": "Para el uso clínico habitual, sin sistema de puntuación común, el respaldo es limitado (Lilienfeld, Wood y Garb, 2000). Dos profesionales pueden destacar cosas distintas si no usan un sistema común.",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "Si las historias que inventamos muestran los temas que nos habitan, ¿cómo distinguir lo que es propio de una persona de lo que viene de la lámina o del momento? Es un desafío que las técnicas temáticas aún enfrentan."
+}

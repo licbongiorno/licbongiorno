@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una mujer va al médico por cansancio, dolor de cabeza y mal dormir. Los estudios salen bien. Nadie le pregunta cómo está en su casa ni qué le pasó este año.",
+   "p": "¿Qué pasa cuando el malestar emocional no tiene palabras?",
+   "opciones": ["Los síntomas son imaginarios o exagerados", "Puede expresarse a través del cuerpo, con síntomas que son reales", "Solo les ocurre a personas de ciertas culturas"],
+   "r": "Se llama somatización a la expresión de un malestar psicológico o social a través de síntomas físicos. Los síntomas son reales, ocurre en todas las culturas (cambian las formas: «nervios», «debilidad», el hígado) y no excluye que haya también una enfermedad física, por lo que una buena evaluación mira las dos cosas.",
+   "como": "Kirmayer y Young revisaron la literatura en 1998 y concluyeron que la somatización es común en todos los grupos y sociedades estudiados.",
+   "debate": "No tiene respaldo pensar que somatizar es una característica de «otras culturas» y no de la nuestra. Y los síntomas persistentes necesitan siempre evaluación médica antes de atribuirlos a lo emocional.",
+   "seccion": "Somatización: de qué hablamos"
+  },
+  {
+   "enigma": "En China, durante décadas, mucha gente decía tener «debilidad de los nervios» (shenjing shuairuo), un diagnóstico aceptado en la familia, el trabajo y el médico. Decir «estoy triste» o «tengo miedo» era más difícil.",
+   "p": "¿Qué función social creés que cumplía ese diagnóstico?",
+   "opciones": ["Era solo un error de los médicos de la época", "Permitía hablar del sufrimiento con un lenguaje físico y sin el estigma de un trastorno mental", "Servía para ocultar enfermedades graves"],
+   "r": "Una forma útil de pensarlo es como categoría puente entre el cuerpo y la psiquiatría: permitía recibir atención y licencias sin tener que decir en voz alta que se estaba triste o asustado. Esa palabra, «puente», es una descripción interpretativa y no un término técnico.",
+   "como": "El psiquiatra y antropólogo Arthur Kleinman lo estudió con trabajo clínico y de campo en el Colegio Médico de Hunan. En su libro de 1986 mostró que el contexto social influye en qué se vive como enfermedad y cómo se cuenta.",
+   "debate": "Se discute si la neurastenia china «era en realidad depresión»: Kleinman la relacionó con depresión en parte de los casos, pero también con dolor crónico y otras causas. Tampoco se sabe si fue lo mismo que la neurastenia de Beard.",
+   "seccion": "Una categoría puente"
+  }
+ ],
+ "abierta": "Si cada cultura tiene sus maneras de decir el sufrimiento, ¿cuáles son las nuestras y qué cosas todavía no tenemos cómo nombrar?"
+}

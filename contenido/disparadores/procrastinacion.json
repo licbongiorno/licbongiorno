@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una pestaña abierta con el trabajo que hay que entregar y otras veinte al lado: noticias, redes, una receta que nunca vas a hacer. La tarea sigue ahí y cada hora que pasa pesa un poco más.",
+   "p": "¿Por qué creés que postergamos cosas que sabemos que nos conviene hacer?",
+   "opciones": ["Por pereza o falta de voluntad", "Para sentirnos mejor ahora, porque la tarea despierta algo incómodo", "Porque en el fondo no nos importa esa tarea"],
+   "r": "Sirois y Pychyl propusieron que procrastinamos para sentirnos mejor ahora: la tarea despierta aburrimiento, miedo a hacerlo mal o inseguridad, y postergarla da un alivio inmediato. El costo lo paga el yo del futuro. Después el malestar vuelve con culpa y menos tiempo, y la tarea cuesta más.",
+   "como": "Steel, en un metaanálisis de 2007 que reunió muchos estudios, mostró que la procrastinación se relaciona con la impulsividad, con cuán lejana se siente la recompensa y con cuán desagradable es la tarea. Sirois y Pychyl sumaron en 2013 el papel de la regulación emocional.",
+   "debate": "Esa explicación no cubre todos los casos: hay quien posterga por sobrecarga real, por problemas de salud o por una tarea mal definida. También puede haber depresión, ansiedad o dificultades de atención detrás.",
+   "seccion": "No es pereza"
+  },
+  {
+   "enigma": "Una estudiante lleva semanas sin empezar su trabajo final. Limpió la casa, ordenó el escritorio, hizo planillas de organización: todo menos escribir la primera línea. Al abrir el documento aparece una frase: «si sale mal, se confirma que no soy tan capaz».",
+   "p": "¿Qué creés que protege esa postergación?",
+   "opciones": ["Nada: es solo mala organización", "La duda sobre la propia capacidad, que queda en suspenso mientras no entregue", "Su tiempo libre"],
+   "r": "Postergar, a veces, protege algo: mientras no se entrega, la duda sobre la propia capacidad queda en suspenso. Por eso una agenda mejor no siempre resuelve nada. En terapia se mira qué función cumple la demora: qué emoción evita, qué temor protege.",
+   "como": "Es una escena del consultorio, genérica. Se combina con herramientas de buen respaldo, como fraccionar la tarea, tolerar el malestar sin escapar y tratarse con amabilidad.",
+   "debate": "Las técnicas de productividad pueden ayudar, pero no alcanzan cuando lo que se posterga es perfeccionismo o miedo al juicio. Y distinguir una postergación ocasional de un patrón que afecta la vida entera importa.",
+   "seccion": "Qué puede ayudar"
+  }
+ ],
+ "abierta": "Si a veces lo que postergamos es justamente lo que más nos importa, ¿qué nos estará diciendo la demora sobre lo que esa tarea significa para nosotros?"
+}

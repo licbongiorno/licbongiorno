@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una enfermera trabaja hace años en un servicio saturado. Antes volvía a casa cansada pero contenta; ahora vuelve vacía. Le irrita que un paciente pida algo y después se siente culpable. El domingo a la tarde se le aprieta el pecho pensando en el lunes.",
+   "p": "¿Es falta de ganas o de resistencia?",
+   "opciones": ["Sí: es pereza o debilidad personal", "No: influyen sobre todo las condiciones del trabajo", "Es siempre una depresión"],
+   "r": "El burnout no es falta de voluntad ni debilidad personal. Influyen sobre todo las condiciones de trabajo: demasiada carga, poco control, falta de reconocimiento, conflicto de valores y falta de apoyo. Y suele afectar a quienes más se entregaron, sobre todo en profesiones de cuidado.",
+   "como": "Maslach y Leiter propusieron en 1997 que aparece cuando hay un desajuste sostenido entre la persona y su trabajo en seis áreas: carga, control, recompensa, comunidad, justicia y valores. Esta mirada pone el foco en el ambiente, no solo en la persona.",
+   "debate": "Ninguna técnica personal compensa un trabajo con condiciones que enferman. La terapia ayuda a decidir qué cambiar, pero no reemplaza cambios en la organización.",
+   "seccion": "Por qué aparece"
+  },
+  {
+   "enigma": "En 2019 la Organización Mundial de la Salud incluyó el burnout en su clasificación internacional, pero aclaró que no es una enfermedad.",
+   "p": "¿Cómo lo define?",
+   "opciones": ["Como un fenómeno ocupacional por estrés laboral crónico que no se manejó", "Como un tipo de depresión", "Como un trastorno de personalidad"],
+   "r": "La CIE-11 lo define como un fenómeno ocupacional, resultado de un estrés laboral crónico no manejado, con tres dimensiones: agotamiento, distancia o cinismo frente al trabajo y sensación de ineficacia. Aunque comparte síntomas con la depresión, la OMS lo limita al ámbito laboral.",
+   "como": "Herbert Freudenberger lo describió en 1974 al observar el agotamiento en trabajadores de una clínica comunitaria. Después Christina Maslach lo estudió durante décadas y definió esas tres dimensiones.",
+   "debate": "El burnout no figura como trastorno en el DSM, y algunos investigadores señalan que se superpone con la depresión. Por eso conviene que alguien evalúe cada caso con cuidado, sin autodiagnosticarse.",
+   "seccion": "Qué se sabe y qué se discute"
+  }
+ ],
+ "abierta": "Si el desgaste nace en la organización pero lo sufre cada persona, ¿dónde debería ponerse el cambio: en quien trabaja o en cómo se trabaja? Es una discusión que sigue abierta."
+}

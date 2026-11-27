@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Vas a renovar el carnet. Te piden hacer unos dibujos, contestar algunas preguntas y charlar un rato con un psicólogo. Mucha gente llega pensando que lo van a juzgar.",
+   "p": "¿Qué se evalúa en el apto psicológico?",
+   "opciones": ["Si tenés una personalidad normal o «rara»", "Cuánta inteligencia tenés", "Capacidades que influyen en manejar: atención, coordinación, control de impulsos"],
+   "r": "No se evalúa la inteligencia ni la personalidad en profundidad, sino capacidades relacionadas con la conducción: atención y concentración sostenidas, percepción y orientación, coordinación entre lo que se ve y lo que se hace, control de impulsos y estabilidad emocional.",
+   "como": "La normativa de tránsito exige un examen psicofísico, y la parte psicológica la realiza un psicólogo con una entrevista breve y algunas pruebas, como técnicas gráficas, pruebas visomotoras o de atención, o cuestionarios. Los requisitos concretos dependen de cada municipio.",
+   "debate": "Es una evaluación breve con un fin específico, no un psicodiagnóstico completo ni una psicoterapia. Sus resultados los interpreta solo el profesional que los toma, y buscar en internet qué significa cada trazo confunde más que ayuda.",
+   "seccion": "Qué se evalúa"
+  },
+  {
+   "enigma": "Un apto dice que hoy no se encuentran impedimentos para conducir. Pero en la ruta, lo que más choca es otra cosa.",
+   "p": "¿Qué pesa más en los siniestros viales?",
+   "opciones": ["El estado de ánimo de quien maneja ese día", "Factores como el sueño insuficiente, el alcohol, el celular y la velocidad", "La edad de la licencia"],
+   "r": "Según la investigación en seguridad vial, lo que más pesa en los siniestros son factores como el sueño insuficiente, el alcohol, el uso del celular y la velocidad. Una evaluación psicológica breve no detecta todo eso, y por eso la responsabilidad al volante sigue siendo, sobre todo, de quien maneja.",
+   "como": "Es lo que surge de la investigación sobre seguridad vial. El apto es solo una fotografía del momento: dice que hoy no se encuentran impedimentos, no garantiza nada hacia adelante.",
+   "debate": "Los criterios exactos los fija la normativa de cada jurisdicción y pueden diferir entre municipios. Si aparecen indicadores de un cuadro que afecta la atención o los impulsos, lo respetuoso es derivar y evaluar con más tiempo.",
+   "seccion": "Matices y límites"
+  }
+ ],
+ "abierta": "Si un examen breve solo muestra una fotografía del momento, ¿cómo se puede cuidar de forma más continua la seguridad de quien maneja? Es una discusión abierta en seguridad vial."
+}

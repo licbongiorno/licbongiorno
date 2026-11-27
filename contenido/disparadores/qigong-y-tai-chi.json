@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "A las siete de la mañana, en una plaza, un grupo se mueve despacio, con los brazos como si empujaran agua, y respira al ritmo del gesto. Quienes lo practican cuentan que es el primer momento tranquilo del día.",
+   "p": "¿A qué se debe esa calma?",
+   "opciones": ["A una energía vital, el qi, que circula por el cuerpo", "A que es ejercicio suave, con respiración lenta y atención en el cuerpo, muchas veces en grupo", "Es pura sugestión: no hay nada real detrás"],
+   "r": "El qi es el modo en que la tradición describe la práctica, pero no tiene respaldo fisiológico: no se identificó esa energía en el cuerpo. Los beneficios observados se pueden explicar con mecanismos conocidos: movimiento suave y sostenido, respiración lenta y regular, atención dirigida al cuerpo y el componente social del grupo.",
+   "como": "Hay revisiones sistemáticas que reunieron estudios: la de Wang y colaboradores (2010) sobre tai chi incluyó 40 estudios con 3817 participantes, y la de 2013 sobre qigong, 12 ensayos aleatorizados con 936 participantes. Una revisión de 2018 propone que el movimiento lento con respiración lenta podría actuar sobre el sistema nervioso autónomo, pero son mecanismos propuestos, no demostrados.",
+   "debate": "No hace falta descartar la práctica: se puede disfrutar el lenguaje del qi como metáfora, sin esperar efectos que la ciencia no respalda.",
+   "seccion": "El qi y lo que sí explica los beneficios"
+  },
+  {
+   "enigma": "Si se juntan decenas de estudios sobre tai chi y estado de ánimo, casi todos los realizados en China continental, Hong Kong y Taiwán informan resultados positivos.",
+   "p": "¿Qué debería hacernos pensar eso?",
+   "opciones": ["Que está probado: si casi todos dan bien, no hay dudas", "Que quizás se publican sobre todo los estudios favorables, y conviene ser prudentes", "Que los estudios de otros países no sirven"],
+   "r": "Las revisiones encuentran asociación con menos estrés, ansiedad y síntomas depresivos, y mayor autoestima, pero los autores advirtieron que no pudieron sacar conclusiones definitivas. Los estudios eran heterogéneos, muchos pequeños o no aleatorizados, y que todos informaran resultados positivos es una señal posible de sesgo de publicación.",
+   "como": "Se sabe porque equipos independientes juntaron y compararon los estudios disponibles (revisiones sistemáticas y metaanálisis), y revisaron su calidad. En el caso del qigong, frente a la terapia cognitivo conductual no hubo diferencia significativa y la mayoría de los participantes tenía síntomas depresivos asociados a una enfermedad crónica.",
+   "debate": "Tampoco queda claro si el tai chi supera a otros ejercicios de intensidad moderada. En conjunto hay indicios favorables, sobre todo para el ánimo, el estrés y el equilibrio, y hace falta más investigación de mejor calidad. No reemplazan un tratamiento.",
+   "seccion": "Qué dice la evidencia"
+  }
+ ],
+ "abierta": "Si el movimiento lento, la respiración y la atención parecen sumar, ¿cuánto aporta cada ingrediente por separado, y cuánto el estar con otros? Todavía no se sabe."
+}

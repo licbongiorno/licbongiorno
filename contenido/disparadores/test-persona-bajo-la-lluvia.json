@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "La consigna es breve: «dibujá una persona bajo la lluvia». Algunos dibujan a alguien con botas, piloto y paraguas. Otros, una figura chiquita en medio de un aguacero. Otros, alguien que baila.",
+   "p": "¿Por qué crees que nadie dibuja la lluvia igual?",
+   "opciones": ["Porque cada uno atraviesa los días difíciles a su manera y con sus propios recursos", "Porque algunos saben dibujar mejor que otros", "Porque la lluvia solo representa el clima de ese día"],
+   "r": "La idea es que la lluvia representa una situación desagradable o de presión, y la persona dibujada muestra algo de cómo uno se ve cuando las cosas se complican. Se miran la presión (cuánta lluvia, charcos, rayos) y las defensas (paraguas, ropa, un techo, otra persona) y cómo se usan, además de lo que la persona cuenta.",
+   "como": "Suele atribuirse a Arnold Abrams y Abraham Amchin, y Emanuel Hammer la difundió. En la Argentina, Silvia Querol y María Chaves Paz la adaptaron y desarrollaron un modo de análisis hoy muy usado.",
+   "debate": "Un dibujo depende del momento: alguien que acaba de salir de un día difícil puede dibujar una tormenta que no refleja su vida en general. No se debe inferir nada de un detalle suelto, como un paraguas grande o chico.",
+   "seccion": "Qué se observa"
+  },
+  {
+   "enigma": "Alguien dibuja una persona con un paraguas enorme, que casi tapa la hoja, y apenas unas gotas. Cuando se le pregunta qué siente, responde: «Está tranquila, pero no ve nada alrededor».",
+   "p": "¿Qué abre esa respuesta?",
+   "opciones": ["Un diagnóstico", "Una conversación sobre cómo suele protegerse cuando se siente presionada, con costos y ventajas", "Nada, porque es un dibujo"],
+   "r": "Abre una conversación sobre cómo suele protegerse la persona cuando se siente presionada: mucha previsión y poca exposición. No es un rasgo fijo ni un defecto: es una manera conocida de afrontar, con costos y ventajas, y ahora tiene una imagen que puede mirarse con curiosidad. Es una viñeta compuesta.",
+   "como": "La técnica ofrece una situación imaginaria sobre la que se puede hablar de estrategias de afrontamiento, recursos y soportes: ese es su mayor valor, y es cualitativo.",
+   "debate": "Que la lluvia represente presión y que el dibujo muestre la manera de afrontarla es una hipótesis clínica razonable, pero con poca investigación empírica sobre su validez. Los indicadores aislados no han mostrado buena capacidad para predecir conductas o diagnósticos (Lilienfeld, Wood y Garb, 2000).",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "Si imaginar una lluvia puede mostrar cómo nos protegemos, ¿cuánto de eso es propio de cada persona y cuánto depende del día en que dibuja? Todavía se discute."
+}

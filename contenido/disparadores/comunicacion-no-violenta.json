@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Ibas a decir «vos nunca me escuchás» y te frenaste. Escribiste un mensaje con bronca y lo borraste. Volvió la discusión de siempre, con las mismas palabras, y terminó en el mismo lugar.",
+   "p": "¿Qué hay detrás de un reproche, según la comunicación no violenta?",
+   "opciones": ["Una intención de herir al otro", "Una necesidad que no está siendo atendida", "Un defecto del carácter de quien reprocha"],
+   "r": "Marshall Rosenberg propuso que detrás de cada queja, reproche o ataque hay una necesidad insatisfecha. Su método tiene cuatro pasos: observar sin interpretar, decir lo que se siente, nombrar la necesidad y hacer una petición concreta que el otro pueda rechazar.",
+   "como": "Rosenberg lo desarrolló desde la década de 1960 a partir de su práctica de mediación y de enseñanza, y fundó el Center for Nonviolent Communication en 1984.",
+   "debate": "Usada de manera mecánica suena falsa, y no reemplaza la terapia cuando los conflictos se repiten por algo más profundo. Y no sirve frente a la violencia: si hay maltrato o amenazas, la prioridad es la seguridad (línea 144).",
+   "seccion": "Los cuatro pasos"
+  },
+  {
+   "enigma": "La comunicación no violenta se usa en escuelas, empresas y talleres. Mucha gente cree que es un método con eficacia demostrada.",
+   "p": "¿Qué dice la investigación?",
+   "opciones": ["Tiene una base amplia de ensayos controlados", "Hay estudios pequeños y alentadores, pero no la base de otras terapias", "Se demostró que no funciona"],
+   "r": "La investigación controlada sobre la CNV es limitada: hay estudios pequeños y trabajos de capacitación con resultados alentadores, pero no la base de ensayos que tienen otras terapias. Conviene presentarla como una herramienta práctica inspirada en principios humanistas, no como un tratamiento con eficacia demostrada.",
+   "como": "Surge de la práctica de mediación y enseñanza de Rosenberg más que de ensayos clínicos. Coincide con ideas de otras tradiciones, como la escucha activa de Carl Rogers.",
+   "debate": "Su utilidad práctica es valorada, pero la discusión es cuánto de lo que funciona viene del método y cuánto de la actitud de escucha de quien lo usa.",
+   "seccion": "Qué sabemos de su eficacia"
+  }
+ ],
+ "abierta": "Si decir la necesidad abre más la conversación que acusar, ¿por qué nos sale tan natural lo segundo? Es una pregunta que la psicología de los vínculos todavía explora."
+}

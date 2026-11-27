@@ -1,0 +1,24 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "En plena crisis, a alguien le vuelve un cuento que escuchó de chico: el de la que duerme cien años, o el del que regresa a casa y nadie lo reconoce. No lo pensó, simplemente apareció.",
+   "p": "¿Por qué creés que esas historias vuelven justo en esos momentos?",
+   "opciones": ["Porque la memoria funciona de manera azarosa", "Porque cuentan experiencias humanas que se repiten, como separarse, perder o volver", "Porque son historias pensadas para chicos y por eso se recuerdan más"],
+   "r": "Jung sostenía que los mitos expresan arquetipos, patrones universales del inconsciente colectivo. Las experiencias que se repiten en toda vida humana (nacer, separarse, enamorarse, perder, envejecer, morir) quedaron contadas en historias que sobrevivieron porque siguen siendo verdad. Dicho de forma simple: los mitos son los sueños de la humanidad.",
+   "como": "Notó que en los sueños y fantasías de sus pacientes aparecían imágenes muy parecidas a las de mitos que esas personas no conocían. De ahí surgió su idea de los arquetipos.",
+   "debate": "La antropología y los estudios del folclore señalan que los mitos son muy sensibles a su cultura y que las similitudes pueden deberse al contacto entre pueblos y no a un inconsciente compartido.",
+   "seccion": "Por qué Jung miraba los mitos"
+  },
+  {
+   "enigma": "En un cuento de hadas aparecen la madrastra, el bosque, el lobo, el anciano sabio y una prueba que hay que pasar. Se puede leer como una historia de personajes ajenos. O de otra manera.",
+   "p": "¿Cómo se podría leer, desde la mirada junguiana, a cada uno de esos personajes?",
+   "opciones": ["Como personas reales que existieron", "Como partes de uno mismo, de la propia psique", "Como simples adornos sin significado"],
+   "r": "Cada personaje puede leerse también como una parte de uno mismo. Marie-Louise von Franz, colaboradora de Jung, sostenía que los cuentos de hadas son la expresión más simple y pura de los procesos del inconsciente colectivo: menos teñidos por una cultura en particular que los grandes mitos.",
+   "como": "Von Franz dedicó gran parte de su obra a estudiar los cuentos de hadas. En terapia se usan para ampliar el sentido de un sueño, lo que Jung llamó amplificación, sin imponer una lectura.",
+   "debate": "Los mitos no son recetas sino mapas. Hay que cuidarse de la lectura única, que cierra lo que debería abrirse, y de la psicologización excesiva. Campbell popularizó el viaje del héroe como molde universal, pero sus críticos lo ven como una simplificación.",
+   "seccion": "Los cuentos de hadas"
+  }
+ ],
+ "abierta": "Si una historia antigua puede decirnos algo de nuestra vida, ¿hasta dónde esas historias muestran algo universal y hasta dónde reflejan solo su cultura? Es una discusión abierta."
+}

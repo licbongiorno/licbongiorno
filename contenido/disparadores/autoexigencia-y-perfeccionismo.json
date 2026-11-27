@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien entrega siempre a tiempo y siempre siente que «no está a la altura». Cuando le dicen que quedó muy bien, piensa que no se dieron cuenta de los errores. Y los domingos se siente culpable por no estar adelantando trabajo.",
+   "p": "¿Por qué no se siente satisfecho cuando llega a la meta?",
+   "opciones": ["Porque la vara sube cada vez que la alcanza", "Porque nunca se esforzó lo suficiente", "Porque sus metas son demasiado fáciles"],
+   "r": "Shafran, Cooper y Fairburn describieron el perfeccionismo clínico como una autoevaluación que depende casi por completo de alcanzar metas exigentes, y que se sostiene aunque cueste cada vez más. La persona no se siente satisfecha al llegar: sube la vara.",
+   "como": "Lo propusieron en 2002 desde la psicología clínica. Hoy se lo estudia como un proceso presente en distintos cuadros, como la ansiedad, la depresión o los trastornos alimentarios, más que como un diagnóstico propio.",
+   "debate": "Hay un perfeccionismo adaptativo: ponerse estándares altos y disfrutar de lograrlos. La investigación asocia el malestar sobre todo con la preocupación excesiva por los errores y con sentir que los demás exigen perfección.",
+   "seccion": "Lo que dice la investigación"
+  },
+  {
+   "enigma": "Del lado de los «debería» están rendir siempre, no fallar, no necesitar a nadie. Del otro lado, lo que uno necesita: descansar, equivocarse, pedir ayuda.",
+   "p": "¿Qué pasa cuando los «debería» gobiernan?",
+   "opciones": ["Las necesidades se viven como debilidades", "Se logra más sin esfuerzo", "Desaparece la exigencia por completo"],
+   "r": "Karen Horney habló de la tiranía de los «debería»: exigencias internas que no admiten excepciones y que se oponen a lo que la persona realmente necesita. Cuando gobiernan, descansar, equivocarse o pedir ayuda se viven como debilidades. A veces la autoexigencia protegió: si hacía todo bien, nadie podía criticar.",
+   "como": "Horney lo planteó en Neurosis y madurez (1950), desde la clínica psicoanalítica. Hewitt y Flett (1991) mostraron que el perfeccionismo tiene varias caras: dirigido a uno mismo, a los otros, o el que sentimos que los demás nos exigen, este último muy ligado a ansiedad y depresión.",
+   "debate": "La lectura de Horney es una teoría clínica influyente, no un hallazgo experimental. Y los datos sobre autocompasión de Kristin Neff son prometedores, pero no hay que presentarla como remedio mágico.",
+   "seccion": "La tiranía de los «debería»"
+  }
+ ],
+ "abierta": "Si la autoexigencia alguna vez protegió, ¿cómo se distingue cuándo sigue siendo útil y cuándo ya solo manda? Es una pregunta que cada persona se hace a su manera."
+}

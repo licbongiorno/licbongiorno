@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Dos personas dibujan una casa. Una la hace grande, con puerta abierta y camino hasta ella. La otra la dibuja pequeña, en una esquina, sin puerta.",
+   "p": "¿Qué se puede concluir de esos dibujos?",
+   "opciones": ["Que la primera persona está sana y la segunda tiene un problema", "Que se necesita saber qué cuenta cada persona, cómo lo resolvió y qué dicen las demás pruebas", "Que el dibujo no dice absolutamente nada"],
+   "r": "Un dibujo no dice nada solo. Quizás la segunda persona se sintió expuesta frente a la tarea, o dibuja así desde siempre, o venía de una mudanza. Lo valioso está en lo que la persona cuenta, en cómo lo resolvió y en cómo encaja con el resto de la evaluación. Por eso no se leen como un horóscopo.",
+   "como": "Las técnicas proyectivas presentan un estímulo poco estructurado o una consigna abierta. El psicólogo Lawrence K. Frank propuso el término en 1939, a partir de una idea del psicoanálisis: cuando la situación es ambigua, cada uno la completa con lo propio.",
+   "debate": "No existen claves universales (el color rojo, el tamaño de los ojos, el paraguas). Quien promete lo contrario simplifica de más, y no deberían usarse solas para decisiones de alto impacto.",
+   "seccion": "Una viñeta"
+  },
+  {
+   "enigma": "Algunas pruebas muestran manchas de tinta, otras piden dibujar o inventar una historia. Se las usa desde hace casi un siglo, y a la vez se las critica.",
+   "p": "¿Qué dice la investigación sobre su confiabilidad?",
+   "opciones": ["Que todas están comprobadas y son infalibles", "Que el respaldo es variable: algunos índices tienen apoyo y muchas interpretaciones de dibujos aislados, poco", "Que ninguna sirve para nada"],
+   "r": "El respaldo científico es variable. Hay apoyo razonable para algunos índices del Rorschach en sistemas estandarizados, y respaldo limitado para la mayoría de los dibujos y técnicas verbales cuando se interpretan signos aislados. Por eso se las integra con la entrevista y con otras pruebas, y se las usa como hipótesis para conversar.",
+   "como": "Una revisión muy citada de Scott Lilienfeld, James Wood y Howard Garb (2000) lo señaló con claridad, y el metaanálisis de Mihura y colaboradores (2013) encontró respaldo para algunos índices del Rorschach, con el sistema de Exner o el R-PAS.",
+   "debate": "Que lo ambiguo invite a proyectar es teoría clínica útil para generar hipótesis, pero no equivale a que cada detalle tenga un significado fijo.",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "Si un dibujo aislado dice tan poco, ¿qué es exactamente lo que aporta cuando se lo integra con una entrevista? Los especialistas todavía discuten cuánto."
+}

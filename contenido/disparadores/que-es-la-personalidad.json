@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay algo tuyo que se reconoce desde chico: la forma de reírte, de enojarte o de esconderte cuando hay mucha gente. Pero a la vez no sos la misma persona que a los quince.",
+   "p": "¿La personalidad puede cambiar?",
+   "opciones": ["No: se nace así y se muere así", "Sí, bastante estable pero no fija: cambia a lo largo de la vida", "Cambia por completo cada pocos años"],
+   "r": "La personalidad es bastante estable pero no fija. En promedio, con los años solemos volvernos más responsables, más amables y emocionalmente más estables. El cambio no es convertirse en otro, sino tener más margen: que el miedo, la vergüenza o el enojo no decidan siempre por uno.",
+   "como": "Se sabe por estudios que siguieron a las mismas personas durante décadas. Una revisión de Roberts y colaboradores (2017) encontró que las intervenciones, incluida la psicoterapia, se asocian con cambios en rasgos, sobre todo en estabilidad emocional, en el corto plazo.",
+   "debate": "Todavía se sabe poco sobre cuánto duran esos cambios producidos por intervenciones.",
+   "seccion": "¿La personalidad puede cambiar?"
+  },
+  {
+   "enigma": "Alguien es tímido en una fiesta y firme en una asamblea. Dice «con mis amigos soy otro».",
+   "p": "¿Qué dice eso de su personalidad?",
+   "opciones": ["Que no tiene una personalidad real", "Que lo que hace depende solo de la situación", "Que hay una estabilidad real que se expresa distinto según el contexto"],
+   "r": "Hoy se acepta una mirada intermedia: hay una estabilidad real, pero se expresa de manera distinta según el contexto.",
+   "como": "Gordon Allport propuso en 1937 describir la personalidad en términos de rasgos. Décadas después, Walter Mischel (1968) objetó que la conducta cambia mucho según la situación. Del choque entre ambas posturas surgió la mirada actual.",
+   "debate": "Ningún modelo lo explica todo: los cinco grandes rasgos tienen buen respaldo, mientras que los tipos junguianos o el eneagrama son marcos de reflexión con evidencia limitada. Y los estudios con gemelos estiman alrededor de un 40 % de variación asociada a lo genético, una estimación poblacional que no dice qué porcentaje de tu personalidad es heredado.",
+   "seccion": "Un debate de fondo: ¿rasgo o situación?"
+  }
+ ],
+ "abierta": "Si la herencia explica solo una parte y buena parte del resto parece ser el ambiente no compartido, vivencias propias y azar, ¿qué es lo que hace que dos hermanos criados juntos sean tan distintos? Todavía se investiga."
+}

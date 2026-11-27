@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un amigo te cuenta que consiguió el trabajo que vos también querías. Antes de poder decir «qué bueno», sentís un pinchazo. No es que no lo quieras.",
+   "p": "¿Qué dice eso de vos?",
+   "opciones": ["Que en el fondo no sos buena persona", "Que sentís una emoción humana y frecuente: la envidia", "Que en realidad no es tan amigo tuyo"],
+   "r": "La psicología no considera la envidia una falla moral, sino una emoción dolorosa y frecuente. Richard Smith y Sung Hee Kim la describen como mezcla de sensación de inferioridad y de injusticia. La tradición budista le puso un contrapeso: mudita, la alegría por el bien ajeno.",
+   "como": "Niels van de Ven y su equipo distinguieron dos tipos: la envidia benigna, que impulsa a mejorar, y la maligna, que impulsa a que el otro pierda. Son estudios de psicología social con personas que cuentan situaciones o contestan cuestionarios.",
+   "debate": "Esos estudios muestran asociaciones, no causas. Y sobre cultivar mudita en sí hay muy poca investigación específica: casi siempre se estudia dentro de paquetes de bondad amorosa.",
+   "seccion": "Por qué cuesta tanto"
+  },
+  {
+   "enigma": "Alguien te cuenta algo bueno que le pasó. Podés responder con un «qué bien» y seguir, buscarle el lado complicado, hablar de otra cosa, o preguntarle con ganas cómo fue.",
+   "p": "¿Qué forma de responder se asocia con vínculos más cercanos?",
+   "opciones": ["Un «qué bien» tranquilo, sin hacer olas", "Marcarle los riesgos para que no se ilusione de más", "Mostrar entusiasmo y hacerle preguntas"],
+   "r": "Shelly Gable encontró cuatro formas de responder a una buena noticia. Solo la activa y constructiva, con entusiasmo genuino y preguntas, se asoció con vínculos más satisfechos y de más confianza.",
+   "como": "Gable y colaboradores publicaron el estudio en 2004, con personas que contaban situaciones de sus relaciones y respondían cuestionarios.",
+   "debate": "Es una asociación, no prueba que responder así cause mejores vínculos. Y alegrarse por otro no obliga a callar un dolor propio ni a seguir cerca de quien nos daña.",
+   "seccion": "Las buenas noticias de otros"
+  }
+ ],
+ "abierta": "Si alegrarse por el otro se puede practicar, ¿qué parte del efecto viene de la práctica en sí y qué parte del resto de lo que se hace en esas prácticas? Todavía no se sabe."
+}

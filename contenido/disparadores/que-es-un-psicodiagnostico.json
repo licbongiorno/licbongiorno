@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una joven consulta porque no sabe si lo que le pasa es ansiedad, desánimo o «su carácter». En lugar de recibir un rótulo, durante varios encuentros conversa, dibuja, cuenta historias y completa frases.",
+   "p": "¿Qué te parece que se lleva al final de ese proceso?",
+   "opciones": ["Una etiqueta con el nombre de lo que tiene", "Un mapa: cómo se organiza bajo presión, qué recursos tiene y dónde se traba", "Un puntaje que la compara con los demás"],
+   "r": "Un psicodiagnóstico es un proceso de evaluación que busca comprender cómo funciona una persona: sus recursos, sus dificultades y sus formas de vincularse. No termina con un resultado sino con una conversación, la devolución, en la que se comparte lo comprendido con palabras claras y la persona puede preguntar.",
+   "como": "En la Argentina el modelo más influyente es el de María Luisa Siquier de Ocampo, María Esther García Arzeno y Elsa Grassano, que lo pensaron como un proceso con etapas y un encuadre claro: entrevista inicial, aplicación de técnicas, análisis, devolución e informe si hace falta.",
+   "debate": "Un diagnóstico describe un funcionamiento en un momento, no una esencia: las personas cambian y la evaluación se puede repetir. Y no es terapia, aunque puede ser terapéutico.",
+   "seccion": "Las etapas"
+  },
+  {
+   "enigma": "En internet circulan láminas y dibujos con sus supuestas interpretaciones. Alguien piensa: «los miro y me autointerpreto».",
+   "p": "¿Por qué no tiene mucho sentido hacerlo?",
+   "opciones": ["Porque las pruebas se leen una por una y cada dibujo tiene un significado fijo", "Porque los resultados de cada prueba se leen en conjunto con la historia y la entrevista, y los interpreta un profesional con formación", "Porque las pruebas psicológicas no sirven para nada"],
+   "r": "No todos los psicodiagnósticos usan las mismas pruebas: se arma una batería según la pregunta, la edad y el contexto, combinando entrevistas, técnicas psicométricas y proyectivas. Los resultados se leen en conjunto y los interpreta solo un profesional con formación específica.",
+   "como": "Se sabe, por ejemplo, que los instrumentos psicométricos bien construidos tienen respaldo sólido, mientras que el de las proyectivas es variable (Lilienfeld, Wood y Garb, 2000). Un buen psicodiagnóstico lo reconoce y no sobreestima ninguna técnica.",
+   "debate": "La discusión sobre cuánto valor tiene cada tipo de técnica sigue abierta, y es una razón más para integrar varias fuentes de información.",
+   "seccion": "Cómo se arma la evaluación"
+  }
+ ],
+ "abierta": "Si una evaluación puede ayudar a alguien a entenderse mejor, ¿cómo se logra que la persona sienta que el trabajo se hizo con ella y no sobre ella? Es una pregunta que los profesionales siguen discutiendo."
+}

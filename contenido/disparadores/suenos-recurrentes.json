@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Es la misma escalera que no termina, el examen para el que nunca estudiaste, el tren que se va justo cuando llegás. Pasan los meses, a veces los años, y el sueño vuelve.",
+   "p": "¿Por qué creés que un sueño se repite?",
+   "opciones": ["Porque algo de lo que señala sigue sin ser reconocido", "Es pura casualidad del cerebro mientras duerme", "Porque tiene un significado universal, igual para todos"],
+   "r": "Jung observó que los sueños suelen compensar la actitud consciente: muestran lo que de día dejamos afuera. Cuando un sueño insiste, es razonable pensar que lo que señala sigue sin ser reconocido. Algunos aparecen en momentos de presión o de cambio y se van cuando la situación se resuelve.",
+   "como": "Es una idea que surgió de la clínica y de la teoría de Jung, y en la práctica terapéutica se sigue el hilo: anotar cada aparición con fecha, contexto y emoción. A menudo el patrón aparece solo, por ejemplo cuando el sueño viene antes de ciertos hechos o en ciertas épocas.",
+   "debate": "La idea de que un sueño recurrente señala un conflicto sin reconocer es una hipótesis clínica, no una ley. No hay evidencia de que un tema específico, como caer o perder los dientes, tenga un significado universal.",
+   "seccion": "Por qué un sueño se repite"
+  },
+  {
+   "enigma": "Un hombre de unos cuarenta años sueña desde hace años con un examen de una materia que no estudió, en una facultad que ya no existe. Anota el sueño cada vez y descubre que aparece los días previos a presentaciones importantes. Cuando se anima a pedir ayuda en el trabajo, cambia un detalle: ahora alguien le alcanza una hoja.",
+   "p": "¿Qué te parece que pasó?",
+   "opciones": ["Que alguien interpretó el sueño y listo", "Que siguiendo un hilo se fue entendiendo qué situación actual lo despertaba", "Que fue una coincidencia sin relación con su vida"],
+   "r": "No se «interpretó» nada de golpe: se fue siguiendo un hilo, conectando el sueño con la vida. En la experiencia clínica, el sueño suele modificarse o espaciarse cuando la persona se ocupa de lo que él le señala. Es una escena genérica, compuesta con rasgos que se repiten en muchos relatos.",
+   "como": "Se trabaja en tres movimientos: recolectar cada aparición, explorar con asociación libre qué evoca cada imagen, y conectar con la vida actual. Es un hallazgo de la práctica clínica, no un resultado experimental.",
+   "debate": "La investigación muestra que los sueños recurrentes son frecuentes y suelen asociarse con mayor malestar psicológico, estrés y a veces experiencias traumáticas, caso en que la repetición se parece más a una reexperimentación que a un mensaje. No hay pruebas de que comprender el sueño lo haga desaparecer.",
+   "seccion": "Qué sabemos y qué es hipótesis"
+  }
+ ],
+ "abierta": "Si en la clínica un sueño que insiste suele cambiar cuando la persona actúa sobre lo que señala, ¿qué ocurre en el cerebro para que eso suceda? Todavía no lo sabemos."
+}

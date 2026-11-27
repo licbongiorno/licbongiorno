@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay quien pasa meses con el teléfono de un terapeuta anotado y no llama, por miedo a elegir mal. Y hay quien llama al primero que le recomiendan y después duda si era la persona indicada.",
+   "p": "¿Qué pesa más en que una terapia funcione: el enfoque o el vínculo?",
+   "opciones": ["Solo el enfoque teórico del terapeuta", "El vínculo con el terapeuta, que suele importar más de lo que se piensa", "Solo la experiencia en años"],
+   "r": "Un metaanálisis de Flückiger y colaboradores (2018) halló una asociación moderada y consistente entre la calidad de la alianza terapéutica y los resultados, de alrededor de r = .28, con distintos enfoques. Sentirte escuchado y poder trabajar juntos importa, a veces más que la etiqueta del enfoque.",
+   "como": "Edward Bordin propuso en 1979 que la alianza tiene tres componentes: acuerdo sobre los objetivos, acuerdo sobre las tareas y un lazo afectivo. Desde entonces se la estudió mucho.",
+   "debate": "Es una asociación, no prueba que una buena alianza cause la mejoría: puede ser también que quien mejora se sienta más conectado. Algunas terapias tienen más respaldo para ciertos cuadros, como la exposición para las fobias.",
+   "seccion": "El vínculo importa"
+  },
+  {
+   "enigma": "Un profesional te promete una cura rápida y te dice que no hace falta consultar a un médico. Además, no tiene claros los horarios ni los honorarios.",
+   "p": "¿Qué señales son de alerta?",
+   "opciones": ["Ninguna: es solo un estilo de trabajo", "Las promesas mágicas, la falta de encuadre y descalificar a otros profesionales", "Solo que no tenga mucha experiencia"],
+   "r": "Son señales de alerta las promesas mágicas, ya que nadie puede garantizar resultados; la falta de encuadre, como horarios cambiantes u honorarios sin acuerdo previo; los vínculos duales (amigo, socio, pareja o jefe); la presión o el juicio; y descalificar a otros profesionales sin fundamento.",
+   "como": "Son criterios de buena práctica profesional. Para ejercer en Argentina hace falta título universitario y matrícula, y es normal pedir el número y verificarlo con el colegio profesional.",
+   "debate": "No existe una fórmula para elegir. Y está bien cambiar: si pasadas algunas sesiones no sentís conexión, podés decírselo al terapeuta, y si no cambia, buscar a otro no es un fracaso.",
+   "seccion": "Señales de alerta"
+  }
+ ],
+ "abierta": "Si el vínculo importa tanto en cualquier enfoque, ¿qué ocurre exactamente entre dos personas para que alguien mejore? Es una pregunta que la investigación todavía no responde del todo."
+}

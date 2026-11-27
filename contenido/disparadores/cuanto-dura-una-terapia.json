@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«¿Voy a tener que venir años?» Es una de las primeras preguntas en la consulta, y una de las que más frenan: empezar algo sin fin visible, sin saber hasta cuándo.",
+   "p": "¿Cómo se reparte la mejoría a lo largo de las sesiones?",
+   "opciones": ["En partes iguales, sesión tras sesión", "Los mayores avances tienden a ocurrir al comienzo, y después sigue más lento", "Solo se nota al final del proceso"],
+   "r": "Un estudio clásico de Howard, Kopta, Krause y Orlinsky (1986) encontró que la probabilidad de mejorar aumenta con el número de sesiones, pero con rendimientos decrecientes: los mayores avances tienden a ocurrir al principio y después la mejoría continúa más despacio.",
+   "como": "Se publicó en American Psychologist y relacionó la cantidad de sesiones con la mejoría, lo que se conoce como dosis-respuesta.",
+   "debate": "Estudios posteriores discutieron ese modelo, y no todas las personas siguen la misma curva. Son promedios, un panorama general, no una norma para cada persona.",
+   "seccion": "Qué dice la investigación"
+  },
+  {
+   "enigma": "Una persona consulta por un miedo concreto a hablar en reuniones y cierra en pocas semanas. Otra viene sin síntoma claro, quiere entender por qué repite el mismo tipo de pareja, y su proceso dura años.",
+   "p": "¿Quién tardó más por hacerlo peor?",
+   "opciones": ["La primera, porque necesitó práctica", "La segunda, porque necesitó más ayuda", "Ninguna: la tarea es distinta"],
+   "r": "Ninguna. Una terapia breve y focalizada funciona bien cuando lo que trae es específico y puede definirse. Otros procesos buscan comprender qué mueve a la persona, y se miden en años no porque algo esté mal, sino porque la tarea es otra.",
+   "como": "Son dos escenas genéricas, no casos reales. Lo que influye en la duración: el motivo de consulta, el enfoque, lo que se busca y el momento de vida.",
+   "debate": "Las terapias breves tienen buen respaldo para problemas acotados; para patrones profundos la investigación es menos concluyente. Una terapia larga no es mejor, ni una corta superficial: importan los objetivos revisables y la relación de trabajo.",
+   "seccion": "Terapias breves y focalizadas"
+  }
+ ],
+ "abierta": "Si la mejoría rápida y la comprensión profunda son tareas distintas, ¿cómo se sabe cuándo alguien necesita una y cuándo la otra? Es una pregunta que cada proceso responde a su manera."
+}

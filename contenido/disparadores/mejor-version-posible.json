@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Es domingo a la noche y abrís una lista que empezaste en enero: levantarte temprano, leer más, ser más paciente. Ya es noviembre. No sentís ganas de cambiar: sentís cansancio y algo parecido a la culpa.",
+   "p": "¿Por qué una lista pensada para orientarte puede terminar pesando tanto?",
+   "opciones": ["Porque no tenés suficiente fuerza de voluntad", "Porque imaginar una versión mejor sirve de brújula, pero exigirse una versión perfecta no tiene final", "Porque las metas escritas siempre desaniman"],
+   "r": "Conviene separar imaginar una versión mejor de uno mismo, que puede servir como brújula, de exigirse una versión perfecta, que no tiene final y desgasta. Un metaanálisis de Curran y Hill con más de 41.000 estudiantes mostró que el perfeccionismo, en especial el socialmente prescrito, creció entre 1989 y 2016.",
+   "como": "Hewitt y Flett describieron en 1991 tres dimensiones del perfeccionismo: exigirse perfección, exigírsela a otros y creer que los otros la esperan. Esta última es la más asociada con malestar.",
+   "debate": "Los autores del metaanálisis lo vinculan con cambios culturales, pero ese mecanismo no fue probado.",
+   "seccion": "Cuando la mejor versión se vuelve perfeccionismo"
+  },
+  {
+   "enigma": "Un grupo de estudiantes escribió durante veinte minutos, cuatro días seguidos, cómo sería su futuro si todo saliera tan bien como pudiera. Cinco meses después, esas personas consultaron menos por enfermedades que quienes no escribieron.",
+   "p": "¿Qué efecto creés que tiene un ejercicio así a largo plazo?",
+   "opciones": ["Uno enorme, que puede transformar la vida", "Uno pequeño o moderado, que ayuda pero no cambia todo", "Ninguno, es pura ilusión"],
+   "r": "El ejercicio del mejor yo posible se asoció con más bienestar. Un metaanálisis de 29 estudios con 2.909 personas encontró efectos pequeños a moderados en optimismo, bienestar y afecto positivo: el ejercicio ayuda, pero no transforma una vida.",
+   "como": "Laura King lo probó en 2001 con 81 estudiantes y comparó con un grupo control. Carrillo y colaboradores reunieron después los estudios en una revisión de 2019.",
+   "debate": "Son efectos modestos. Y la idea de un único «mejor yo» se matiza con el concepto de yo posibles de Markus y Nurius (1986): hay un conjunto de posibilidades, deseadas y temidas, y una persona que elige hacia cuál inclinarse.",
+   "seccion": "El ejercicio del mejor yo posible"
+  }
+ ],
+ "abierta": "Si la «mejor versión» a veces tiene la voz de un padre, de un jefe o de una red social, ¿cómo saber cuál es realmente la tuya? Es una pregunta que cada uno responde a su manera."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "«Si no pudieras ser una persona, ¿qué te gustaría ser?». Parece una pregunta de sobremesa. Alguien dice «un árbol, porque está quieto y nadie le pide nada». Otro, «un águila, porque vuela alto y nadie la alcanza».",
+   "p": "¿Dónde crees que está la información más interesante?",
+   "opciones": ["En el animal, planta u objeto que elige", "En el porqué de la elección y en cómo tolera la consigna", "En si la elección es original"],
+   "r": "No importa tanto qué se elige sino por qué: en ese porqué aparece algo muy personal. La técnica permite explorar los deseos y los valores, los temores (en las elecciones negativas), los recursos defensivos frente a la angustia de imaginar dejar de ser uno mismo y la identidad.",
+   "como": "El cuestionario desiderativo lo propusieron los psiquiatras españoles J. M. Pigem y J. Córdoba en 1946 y lo desarrolló en la Argentina el psicólogo Jaime Bernstein. Se piden elecciones positivas y negativas, con sus justificaciones, en los reinos animal, vegetal y objeto.",
+   "debate": "No hay respuestas «normales» ni «patológicas» por sí mismas: un animal, una planta o un objeto no significan lo mismo para todos. Imaginar dejar de ser uno mismo no es neutro, por eso se administra con cuidado y se conversa después.",
+   "seccion": "Qué explora"
+  },
+  {
+   "enigma": "Alguien responde que le gustaría ser un árbol «porque está quieto y nadie le pide nada», y que no querría ser un perro «porque depende de otro». En la conversación posterior aparece una historia de cuidados excesivos hacia familiares y mucho cansancio.",
+   "p": "¿Qué te parece que hizo la técnica?",
+   "opciones": ["Descubrió un secreto que la persona no sabía", "Abrió un camino hacia un tema que la persona ya sentía", "Diagnosticó un trastorno"],
+   "r": "Esas dos frases no son un diagnóstico, pero dibujan una tensión: el deseo de calma y la incomodidad frente a la dependencia. El desiderativo no «descubrió» eso: abrió un camino hacia un tema que la persona ya sentía. Es una viñeta compuesta.",
+   "como": "La técnica se apoya en una base teórica psicoanalítica (defensas, angustia, identidad). Genera hipótesis clínicas que se contrastan con la entrevista y otras pruebas.",
+   "debate": "No es un sistema empíricamente validado con la solidez de una prueba psicométrica. En la línea de la revisión de Lilienfeld, Wood y Garb (2000), las técnicas sin normas ni puntuación estandarizadas tienen respaldo limitado. Su valor está en generar hipótesis, no en «leer» a alguien.",
+   "seccion": "Qué tiene investigación y qué es teoría"
+  }
+ ],
+ "abierta": "Si lo que elegimos ser dice algo de lo que deseamos y tememos, ¿cómo se podría poner a prueba esa idea con rigor? Es una pregunta abierta para las técnicas proyectivas."
+}

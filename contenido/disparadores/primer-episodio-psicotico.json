@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una madre nota que su hijo de veinte años dejó de ir a la facultad, habla poco y duerme de día. Una noche le dice, con total convicción, que lo siguen. Ella no sabe si discutirle, si calmarlo o si esperar a que pase.",
+   "p": "¿Qué creés que conviene hacer?",
+   "opciones": ["Esperar un tiempo a ver si se le pasa solo", "Demostrarle con argumentos que lo que dice no es real", "Escuchar con calma, sin discutir el contenido, y proponer una consulta como cuidado"],
+   "r": "Discutir el delirio suele empeorar las cosas: la persona se siente desmentida, se aísla y desconfía de quien quiere ayudarla. Conviene escuchar con calma, validar la emoción (el miedo es real) aunque no el contenido, hablar de lo concreto y proponer una consulta con psiquiatría o una guardia sin presentarla como castigo.",
+   "como": "Son pautas generales que surgen de la práctica clínica con personas y familias. La evaluación profesional es el primer paso, porque un episodio puede tener muchos orígenes, como condiciones de salud mental, consumo de sustancias o causas médicas.",
+   "debate": "Hay situaciones en que no se puede esperar: riesgo de hacerse daño o de dañar a otros, dejar de comer o beber, o un gran desborde. Ahí hay que pedir ayuda ya: 911 o una guardia.",
+   "seccion": "Cómo acompañar sin discutir el delirio"
+  },
+  {
+   "enigma": "Hay familias que esperan, esconden o se avergüenzan ante un primer episodio. Otras consultan enseguida a un equipo que ofrece seguimiento, tratamiento y trabajo con la familia.",
+   "p": "¿Qué diferencia creés que hace consultar pronto?",
+   "opciones": ["Ninguna: el desenlace ya está decidido", "Los servicios de intervención temprana obtienen mejores resultados que la atención habitual", "Solo cambia la rapidez con que baja la medicación"],
+   "r": "Los servicios de intervención temprana resultaron mejores que la atención habitual en psicosis de fase inicial. Un primer episodio atendido a tiempo tiene mejores perspectivas que uno que se demora o se oculta. La recuperación es posible: muchas personas retoman estudios, trabajo y vínculos, y otras necesitan acompañamiento más prolongado.",
+   "como": "Correll y colaboradores (2018) reunieron 10 ensayos con 2.176 pacientes en JAMA Psychiatry, y la intervención temprana fue mejor en los 13 resultados medidos al final del tratamiento.",
+   "debate": "La decisión sobre qué tratamiento corresponde, incluida la medicación, es de psiquiatría, tras evaluar a cada persona. El estigma, que usa «psicótico» como insulto, además retrasa la consulta.",
+   "seccion": "Por qué conviene consultar pronto"
+  }
+ ],
+ "abierta": "Si pedir ayuda pronto cambia el rumbo, ¿qué haría falta para hablar de psicosis con la misma naturalidad con que se habla de cualquier otra condición de salud?"
+}
