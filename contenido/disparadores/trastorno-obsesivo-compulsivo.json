@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Antes de salir, alguien vuelve tres veces a comprobar que la llave del gas está cerrada. Sabe que la cerró, lo sabe de verdad, y aun así la duda se le clava. Cada vez que vuelve a mirar, se siente aliviado.",
+   "p": "¿Por qué ese alivio termina empeorando las cosas?",
+   "opciones": [
+    "Porque cada comprobación cansa más que la anterior",
+    "Porque el alivio le enseña al cerebro que el ritual era necesario, y la próxima urgencia será mayor",
+    "Porque la duda crece cuanto más se piensa en ella"
+   ],
+   "r": "El ciclo es: aparece la obsesión, sube la ansiedad, se hace la compulsión y la ansiedad baja. Ese alivio refuerza el ritual a largo plazo, porque impide descubrir que la angustia baja sola y que lo temido no ocurre.",
+   "como": "Meyer (1966) publicó los primeros casos tratados con exposición prolongada a lo temido y prevención del ritual, y de ahí nace el método. Foa y Kozak (1986) ofrecieron una explicación: la exposición reduce el miedo cuando aporta información que lo contradice.",
+   "debate": "No tiene respaldo la idea de que alcance con «dejar de pensar en eso». Tampoco ayuda tranquilizar una y otra vez: la tranquilización es, en sí, una compulsión.",
+   "seccion": "El ciclo que lo mantiene"
+  },
+  {
+   "enigma": "Hay gente a la que le encanta tener la casa en orden. Otra persona necesita ordenar, lavar o chequear porque no hacerlo se siente insoportable.",
+   "p": "¿Qué las diferencia?",
+   "opciones": [
+    "La cantidad de orden que logran",
+    "El ritual no da placer: se hace porque no hacerlo es insoportable, ocupa mucho tiempo y desordena la vida",
+    "El tipo de cosas que ordenan"
+   ],
+   "r": "Ser ordenado, prolijo o perfeccionista no es TOC. Casi todos tenemos pensamientos intrusivos; la diferencia está en cuánto se los teme, se los interpreta como peligrosos y se intenta neutralizarlos con rituales.",
+   "como": "Foa y colaboradores (2005), en un ensayo doble ciego con adultos, compararon exposición con prevención de respuesta, clomipramina, ambas y placebo. Los tres tratamientos activos superaron al placebo, y la exposición, sola o combinada, superó a la clomipramina sola.",
+   "debate": "Una mirada de orientación dinámica puede sumar sentido sobre lo que la obsesión representa en la historia de cada uno, pero no reemplaza el trabajo con los rituales. La medicación la define un psiquiatra, caso por caso.",
+   "seccion": "Qué no es"
+  }
+ ],
+ "abierta": "Si enfrentar lo temido sin hacer el ritual es lo que funciona, ¿por qué cuesta tanto animarse? Es una pregunta abierta."
+}

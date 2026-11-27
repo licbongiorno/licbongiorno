@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Hay personas a las que una explicación que todos aceptan les suena incoherente, y no pueden soltar la pregunta hasta que encaja. Pueden pasar días con una sola idea y sentirse cómodas así.",
+   "p": "¿Qué las mueve?",
+   "opciones": [
+    "Las ganas de llevar la contraria",
+    "Comprender en profundidad, según criterios propios y por la coherencia interna de las ideas",
+    "La necesidad de que otros aprueben lo que piensan"
+   ],
+   "r": "Para Jung, el pensamiento introvertido no busca ordenar el mundo exterior sino comprender. Le importa la coherencia interna de las ideas más que su aplicación práctica o la aprobación ajena.",
+   "como": "Jung lo planteó en 1921, en Tipos psicológicos, a partir de su práctica clínica y de preguntarse por qué personas igual de inteligentes miraban los mismos hechos y llegaban a conclusiones distintas.",
+   "debate": "Es fácil de confundir con otras cosas: un estilo reservado y analítico no es timidez ni un rasgo del espectro autista, y la tipología no debería usarse para descartar una evaluación cuando hay dudas.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Una investigadora siente muchísimo, pero cuando intenta decirlo le sale una explicación. En una discusión gana los argumentos y pierde al otro.",
+   "p": "¿Por qué le cuesta tanto mostrar el afecto?",
+   "opciones": [
+    "Porque en realidad siente poco",
+    "Porque su función menos desarrollada es la de las relaciones y la expresión de afecto, y ahí se pone torpe",
+    "Porque nadie le enseñó a razonar bien"
+   ],
+   "r": "Su función inferior es el sentimiento extravertido: el mundo de las relaciones, las normas sociales y el afecto compartido le resulta difícil. Puede ser muy sensible a la opinión ajena sin mostrarlo, o reaccionar de forma torpe en lo emocional. Su aprendizaje es mostrar el afecto, no solo pensarlo.",
+   "como": "Surge de lo que Jung observó en su práctica clínica, donde la función poco desarrollada era la más difícil de integrar.",
+   "debate": "No hay que idealizar la profundidad: la lógica interna de alguien puede ser muy coherente y estar lejos de los hechos. El propio Jung consideraba que cada tipo tiene su forma de ceguera.",
+   "seccion": "Su función inferior"
+  }
+ ],
+ "abierta": "¿Se puede entender algo con la cabeza y a la vez sentirlo? Qué lugar tiene cada una en las relaciones es una pregunta que sigue abierta."
+}

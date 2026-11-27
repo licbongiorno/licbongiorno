@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Alguien lleva tres semanas con catorce pestañas abiertas para elegir un lavarropas. Cada vez que está por comprar, aparece una duda nueva. Otra persona, ante lo mismo, compra el primero que le parece bien y se olvida.",
+   "p": "¿Quién se va a sentir mejor con lo que eligió?",
+   "opciones": [
+    "El que comparó todo: tuvo más información",
+    "El que eligió algo suficientemente bueno y siguió adelante",
+    "Da lo mismo: la satisfacción depende solo del producto"
+   ],
+   "r": "Schwartz y colaboradores distinguieron entre «maximizadores», que buscan la mejor opción posible, y «satisfactores», que eligen una opción suficientemente buena. Los maximizadores informaron más arrepentimiento y menos satisfacción: si el criterio es lo mejor de todo lo existente, siempre queda algo por revisar.",
+   "como": "Schwartz, Ward, Monterosso, Lyubomirsky, White y Lehman (2002) compararon a personas de ambos estilos y midieron lo que decían sentir sobre sus elecciones.",
+   "debate": "No es un defecto moral ni un diagnóstico: es un estilo, y tiene un lado valioso, la exigencia de calidad. El problema aparece cuando se aplica a todo, incluso a decisiones donde la diferencia es mínima.",
+   "seccion": "Dos estilos de elegir"
+  },
+  {
+   "enigma": "Se repite que cuantas más opciones hay, más nos paralizamos: una góndola enorme, un menú infinito, cientos de series.",
+   "p": "¿Es verdad que más opciones siempre paralizan?",
+   "opciones": [
+    "Sí, es un efecto muy robusto y se repite en todos los estudios",
+    "No, en promedio el efecto es cercano a cero y varía según las condiciones",
+    "Solo paraliza a los maximizadores"
+   ],
+   "r": "Scheibehenne, Greifeneder y Todd (2010) revisaron los estudios sobre «sobrecarga de opciones» y hallaron que, en promedio, el efecto fue cercano a cero, con mucha variación. La idea popular es exagerada.",
+   "como": "Reunieron los estudios en un metaanálisis, que permite ver qué pasa en promedio y no solo en un experimento.",
+   "debate": "Hay situaciones en las que elegir entre muchas alternativas agobia y otras en las que no. Depende de factores como la dificultad de comparar o la claridad de lo que uno quiere. Quizá la pregunta útil sea otra: ¿tengo claro qué me importa?",
+   "seccion": "¿Demasiadas opciones paralizan?"
+  }
+ ],
+ "abierta": "Si ningún método garantiza la decisión perfecta, ¿cómo sabemos cuándo ya sabemos lo suficiente para decidir? Es una pregunta abierta."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Imaginá a una cría de mono con dos madres de mentira: una de alambre con mamadera, otra cubierta de tela que no da alimento.",
+   "p": "¿Con cuál va a pasar más tiempo?",
+   "opciones": [
+    "Con la de alambre, porque es la que le da de comer",
+    "Con la de tela, a la que busca para el contacto y el consuelo",
+    "Mitad y mitad, sin preferencia"
+   ],
+   "r": "En los experimentos de Harry Harlow con crías de macaco rhesus, las crías pasaron mucho más tiempo con la madre de tela y la buscaban sobre todo ante la amenaza. El resultado cuestionó las teorías que explicaban el apego solo por la alimentación.",
+   "como": "Harlow lo publicó en 1958 en «The Nature of Love». John Bowlby, que se formó en diálogo con la etología de Lorenz y con estos trabajos, construyó después la teoría del apego.",
+   "debate": "Esos experimentos no se harían hoy: separaban a las crías de sus madres y les causaban un sufrimiento que los estándares éticos actuales no aceptarían. Lo que sigue vigente es la pregunta: qué necesitamos de un vínculo además de que nos alimenten.",
+   "seccion": "El consuelo que no se reduce a la comida"
+  },
+  {
+   "enigma": "Mucha gente dice que su perro la entiende mejor que nadie, o que el gato la sostuvo en un invierno difícil.",
+   "p": "¿Está demostrado que tener un animal de compañía mejora la salud mental?",
+   "opciones": [
+    "Sí, es uno de los efectos mejor demostrados",
+    "No: la existencia de un efecto general es, por ahora, una hipótesis no demostrada",
+    "No, al contrario: suele empeorarla"
+   ],
+   "r": "Para muchas personas el vínculo con un animal es valioso, y para algunas es un apoyo importante. Pero Herzog (2011) concluyó que un «efecto mascota» general sobre la salud es una hipótesis y no un hecho.",
+   "como": "Herzog revisó la literatura y señaló problemas de método frecuentes: muestras chicas y parecidas, falta de grupos de comparación, dependencia de lo que la gente informa y pocos estudios experimentales. Brooks y colaboradoras (2018) reunieron 17 estudios con personas con problemas de salud mental: resultados cuantitativos mixtos, y relatos cualitativos de conexiones intensas.",
+   "debate": "Los efectos varían según la persona, el animal, el momento de vida y las condiciones para cuidarlo. Lo que no está probado es que convenga indicar un animal como tratamiento.",
+   "seccion": "Qué dice la investigación hoy"
+  }
+ ],
+ "abierta": "Si el vínculo con un animal es real para quien lo vive pero difícil de medir, ¿qué es lo que estamos tratando de medir? Es una pregunta abierta."
+}

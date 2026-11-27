@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Tu amiga necesita contar lo que le pasa para entenderlo. Vos necesitás tres días de silencio para saber qué sentís. Tu pareja decide con una planilla; vos, con una corazonada.",
+   "p": "¿Quién lo está haciendo bien?",
+   "opciones": [
+    "La que se ordena hablando, porque compartir es más sano",
+    "El que se ordena en silencio, porque pensar a solas da más claridad",
+    "Ninguno está mal: son orientaciones distintas de la energía, no virtudes ni defectos"
+   ],
+   "r": "Jung describió dos actitudes: la extraversión orienta la energía hacia afuera y la introversión hacia adentro. Son direcciones de la energía, no virtudes ni defectos, y nadie es puramente una cosa. Introvertido no es tímido, y extravertido no es superficial.",
+   "como": "Publicó Tipos psicológicos en 1921. Lo escribió en parte para entender por qué personas igual de inteligentes, como él mismo, Freud y Adler, miraban los mismos hechos y llegaban a conclusiones tan distintas.",
+   "debate": "La tipología de Jung es una construcción teórica que no fue validada empíricamente tal como la formuló, y no hay pruebas de que existan ocho tipos discretos. Lo que la investigación sí sostiene es que las personas difieren de manera estable en extraversión y otras dimensiones.",
+   "seccion": "Dos actitudes: introversión y extraversión"
+  },
+  {
+   "enigma": "Hiciste una prueba de personalidad de cuatro letras y te dio un resultado. Mucha gente cree que ese test lo creó Jung.",
+   "p": "¿Quién lo armó?",
+   "opciones": [
+    "Jung, como parte de su libro de 1921",
+    "Isabel Briggs Myers y su madre Katharine Briggs, décadas después, inspiradas en Jung",
+    "Un grupo de investigadores que validó los ocho tipos de Jung"
+   ],
+   "r": "Jung no creó ningún cuestionario y advirtió contra usar los tipos para clasificar personas: para él eran una brújula para orientarse, no un casillero. El MBTI nació después y agrega una dimensión que Jung no proponía.",
+   "como": "Myers y Briggs tomaron las ideas de Jung y armaron un instrumento de autoinforme con dieciséis tipos, expresados en cuatro letras.",
+   "debate": "Sobre el MBTI pesan críticas psicométricas: se mide en puntajes continuos pero se informa en categorías, en estudios de repetición una proporción importante de personas recibe un tipo distinto semanas después, y su validez para predecir desempeño es limitada. Los modelos de rasgos como los cinco factores tienen mucha más evidencia.",
+   "seccion": "Jung no es el MBTI"
+  }
+ ],
+ "abierta": "Si ninguna tipología alcanza, ¿cómo describir mejor lo que nos hace diferentes? La pregunta sigue abierta."
+}

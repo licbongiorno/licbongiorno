@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una joven le escribe a una amiga de madrugada: «sentí que ya no te importo». La amiga había tardado unas horas en responder. Para ella, un retraso normal. Para quien escribe, una señal de abandono que le recorre todo el cuerpo.",
+   "p": "¿Qué puede estar pasando?",
+   "opciones": [
+    "Es una manera de llamar la atención",
+    "Una sensibilidad muy alta al abandono y emociones que suben muy rápido y cuesta calmar",
+    "Una mala interpretación fácil de corregir con un argumento"
+   ],
+   "r": "El trastorno límite se caracteriza por un conjunto de rasgos que suelen presentarse juntos: inestabilidad emocional, vínculos intensos, miedo al abandono e impulsividad. Detrás suele haber mucho sufrimiento, y quien lo vive no elige sentir de esta manera.",
+   "como": "Se lo describió a partir de la clínica. Desde el psicoanálisis, Otto Kernberg describió la organización límite de la personalidad, y Marsha Linehan desarrolló la terapia dialéctico-conductual para trabajar con él.",
+   "debate": "Durante años el diagnóstico se usó como etiqueta de rechazo. Lo que a veces se describe como manipulación suele ser un modo desesperado de pedir contención, y el estigma agrava el aislamiento.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Una idea muy extendida dice que este diagnóstico es «para toda la vida».",
+   "p": "Cuando se sigue a las personas durante años, ¿qué pasa en general?",
+   "opciones": [
+    "Casi nadie mejora de forma sostenida",
+    "La mayoría deja de cumplir los criterios del diagnóstico",
+    "Mejora la mitad, y el resto empeora"
+   ],
+   "r": "En estudios de seguimiento a diez años, como los de Gunderson y colaboradores (2011), alrededor del 85 % de las personas dejó de cumplir los criterios del trastorno. El cambio es posible y frecuente.",
+   "como": "Surge de seguimientos longitudinales. Además, Storebø y colaboradores (2020), en una revisión Cochrane de 75 ensayos con 4.507 participantes, encontraron que las psicoterapias fueron beneficiosas frente a la atención habitual.",
+   "debate": "No significa que todo se resuelva sin esfuerzo ni que no queden dificultades. Significa que vale la pena sostener el tratamiento aun cuando el comienzo es difícil.",
+   "seccion": "El pronóstico es mejor de lo que se cree"
+  }
+ ],
+ "abierta": "Si la mayoría mejora, ¿qué es lo que más ayuda a que ese cambio ocurra? Se sigue investigando."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una familia, las cenas se vuelven tensas: las conversaciones giran alrededor de la comida, alguien se levanta de la mesa y los comentarios bienintencionados caen mal. Nadie sabe qué decir.",
+   "p": "¿Qué puede haber detrás?",
+   "opciones": [
+    "Capricho o vanidad que se corrige con firmeza",
+    "Un problema de salud mental complejo en el que se combinan factores biológicos, psicológicos, familiares y sociales",
+    "Un mal hábito aprendido en la casa"
+   ],
+   "r": "Los trastornos de la conducta alimentaria son cuadros complejos, no una elección. La persona suele sentir que no puede hacer otra cosa, y decirle «comé» o «dejá de hacerlo» no funciona: suma culpa y vergüenza.",
+   "como": "El DSM-5 describe tres cuadros principales, y los límites entre ellos pueden ser borrosos. Arcelus y colaboradores (2011) reunieron 36 estudios y encontraron una mortalidad elevada, lo que subraya que merecen atención profesional temprana.",
+   "debate": "Los cuadros no son compartimentos cerrados: una misma persona puede pasar de uno a otro a lo largo del tiempo. Por eso el abordaje requiere un equipo y una mirada que no se quede en una etiqueta.",
+   "seccion": "No es una elección"
+  },
+  {
+   "enigma": "Alguien quiere ayudar a una persona querida que atraviesa esto. Se le ocurre decirle «te ves mejor» o sugerirle cómo comer.",
+   "p": "¿Qué ayuda más?",
+   "opciones": [
+    "Elogiar los cambios que se noten, para animarla",
+    "Hablar a solas, desde la preocupación por la persona y sin comentar el cuerpo ni la comida",
+    "Acompañarla a la mesa para vigilar que coma"
+   ],
+   "r": "Conviene no comentar el cuerpo ni la comida, ni para bien ni para mal: un «te ves mejor» también puede doler. Evitar el control y los ultimátums, escuchar sin querer resolver, y ofrecer ayuda concreta para buscar un profesional.",
+   "como": "Entre los tratamientos con respaldo están la terapia cognitivo-conductual mejorada (CBT-E), de Fairburn (2008), reconocida por las guías NICE, y el tratamiento basado en la familia, de Lock y Le Grange, para adolescentes con anorexia, donde la familia es parte activa y no la culpable.",
+   "debate": "La recuperación es posible, pero no suele ser lineal. Las recaídas no significan que el tratamiento haya fracasado.",
+   "seccion": "Cómo acompañar"
+  }
+ ],
+ "abierta": "Si la recuperación no es una línea recta, ¿cómo se acompaña bien a alguien en los altibajos? Es una pregunta abierta."
+}

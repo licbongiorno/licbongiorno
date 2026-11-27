@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hay personas que llegan a terapia sin poder señalar «el» hecho traumático. No hubo un accidente ni una única noche terrible: hubo años de miedo o de humillación en un lugar del que no se podía salir. Hoy les cuesta calmarse, confiar y sentirse dignas de algo.",
+   "p": "¿Cómo se llama lo que les pasa, y es lo mismo que el estrés postraumático?",
+   "opciones": [
+    "Es lo mismo, solo que más intenso",
+    "Es un cuadro con rasgos propios: además de revivir y sentirse en peligro, afecta la regulación emocional, la imagen de uno mismo y los vínculos",
+    "Es una forma de depresión crónica"
+   ],
+   "r": "La CIE-11 incluye el TEPT complejo como diagnóstico independiente. Pide los tres síntomas del TEPT (revivir, evitar, sentirse en amenaza) y además alteraciones en la organización del self: dificultad para regular emociones, una imagen negativa persistente de uno mismo y dificultad para sostener relaciones.",
+   "como": "En 1992, la psiquiatra Judith Herman propuso en Trauma and Recovery que el diagnóstico de TEPT, pensado a partir de veteranos de guerra, no capturaba lo que mostraban sobrevivientes de violencia prolongada en la consulta.",
+   "debate": "Se discutió durante décadas si era un diagnóstico propio. El DSM-5 (2013) no lo incluyó como categoría separada; la CIE-11, vigente desde enero de 2022, sí.",
+   "seccion": "De dónde viene la idea"
+  },
+  {
+   "enigma": "Dos hermanos crecen en la misma casa difícil. Años después, uno consulta porque no logra calmarse y el otro dice que está bien.",
+   "p": "¿Todas las personas que viven situaciones prolongadas desarrollan estos síntomas?",
+   "opciones": [
+    "Sí, es inevitable si el hecho es lo bastante largo",
+    "No: influyen la edad en que ocurrió, si hubo alguien protector, los recursos propios y el apoyo posterior",
+    "Solo les pasa a quienes ya tenían alguna fragilidad"
+   ],
+   "r": "No todas las personas lo desarrollan. Un vínculo seguro, aunque sea uno solo, protege, lo cual es coherente con lo que se sabe del apego. Además, es posible haber vivido un trauma largo sin cumplir criterios de ninguno de los dos diagnósticos.",
+   "como": "El diagnóstico es reciente y la investigación está en desarrollo. Marylene Cloitre y colaboradores desarrollaron el Cuestionario Internacional de Trauma (2018) para evaluarlo según la CIE-11, y ya se probaron tratamientos como la STAIR seguida de un trabajo con el recuerdo, con resultados favorables (Cloitre y col., 2002).",
+   "debate": "Hoy se debate si conviene siempre trabajar por fases (primero estabilización, luego procesamiento) o si se puede procesar antes, con apoyo. Probablemente dependa de la persona. Para el TEPT complejo hay menos estudios que para el TEPT.",
+   "seccion": "Diferencias con el TEPT"
+  }
+ ],
+ "abierta": "Si el cuerpo y los vínculos también guardan lo vivido, ¿qué es lo que realmente ayuda a que el pasado deje de gobernar el presente? Se sigue investigando."
+}

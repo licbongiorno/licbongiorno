@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te mudaste a una casa más linda y extrañás el departamento chico. Conseguiste el trabajo que querías y volvés agotado, con la sensación de no saber nada. Todo salió bien, y sin embargo cuesta.",
+   "p": "¿Por qué duele lo que uno eligió?",
+   "opciones": [
+    "Porque en el fondo no era lo que uno quería",
+    "Porque aun lo elegido implica un final y un período intermedio incómodo, y se pierden referencias",
+    "Porque falta agradecer lo que se consiguió"
+   ],
+   "r": "El consultor William Bridges distinguió el cambio, que es externo y puntual, de la transición, que es el proceso interno de adaptarse. Describió tres momentos que no son lineales: un final, una zona intermedia de «ni lo uno ni lo otro», y un nuevo comienzo. Aunque se haya elegido, algo se pierde.",
+   "como": "Bridges lo propuso en Transitions (1980). Antes, Holmes y Rahe (1967) publicaron una escala de eventos vitales que ya sugería que tanto los cambios dolorosos como los deseados demandan reajuste.",
+   "debate": "Es un modelo descriptivo, útil como mapa, no una norma que todos sigan en ese orden ni con un tiempo «correcto». Hoy se discute la precisión del enfoque de Holmes y Rahe, aunque su aporte de fondo se mantiene: cambiar cuesta.",
+   "seccion": "Tres tiempos de una transición"
+  },
+  {
+   "enigma": "Cuando alguien nace, se casa o muere, hay fiestas, ceremonias o velorios. Cuando alguien se muda de país o cambia de equipo de trabajo, casi nadie lo festeja ni lo consuela.",
+   "p": "¿Importa que las transiciones tengan un ritual?",
+   "opciones": [
+    "No, son costumbres sin efecto real",
+    "Sí: los ritos marcan que algo terminó, sostienen mientras tanto y reciben del otro lado",
+    "Solo importan en sociedades tradicionales"
+   ],
+   "r": "El antropólogo Arnold van Gennep describió que muchas sociedades acompañan los cambios importantes con rituales de tres momentos: separación, período intermedio e incorporación. En muchas vidas actuales esos rituales se debilitaron y las transiciones se atraviesan sin ceremonia, a veces sin que nadie las reconozca.",
+   "como": "Van Gennep lo planteó en Les rites de passage (1909), a partir de lo que observó en distintas sociedades.",
+   "debate": "Los modelos por fases, como los de ritos de paso o el de Bridges, son aportes descriptivos y clínicos: ayudan a pensar, pero no se probaron como tratamiento ni se cumplen igual para todos.",
+   "seccion": "Un poco de historia: los ritos de paso"
+  }
+ ],
+ "abierta": "Si ya casi no hay rituales para las transiciones, ¿cómo se los puede inventar de modo que sirvan? Es una pregunta abierta."
+}

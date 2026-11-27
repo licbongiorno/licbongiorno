@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Hay quien nota enseguida que alguien está incómodo en una reunión y lo hace sentir parte. Se acuerda de los cumpleaños, sabe qué decir en un velorio y sostiene el clima del grupo. Algunos piensan que es complaciente.",
+   "p": "¿Qué lo mueve?",
+   "opciones": [
+    "Quiere caer bien y evitar el conflicto",
+    "Una valoración fina de lo apropiado y lo armonioso en su entorno",
+    "Una necesidad de controlar lo que piensan los demás"
+   ],
+   "r": "Para Jung, el sentimiento extravertido orienta sus valoraciones según lo que es apropiado, valioso y armonioso en su entorno. Es una función de juicio, no una emoción desbordada, y puede ser muy discriminado.",
+   "como": "Jung lo planteó en 1921, en Tipos psicológicos, a partir de su práctica clínica y de preguntarse por qué personas igual de inteligentes miraban los mismos hechos y llegaban a conclusiones distintas.",
+   "debate": "Conviene no leerlo como «el que siempre ayuda». Complacer en exceso puede relacionarse con dependencia emocional o con experiencias tempranas, y entonces la tipología solo sirve de contexto, no de explicación.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Una mujer que organiza todo y atiende a todos dice un día en sesión: «no sé qué pienso yo». Cuando le preguntan su opinión, contesta lo que cree que el otro necesita escuchar.",
+   "p": "¿Cómo se pierde la propia voz?",
+   "opciones": [
+    "Por falta de convicciones",
+    "Porque la reflexión propia y crítica, su función menos desarrollada, quedó relegada",
+    "Porque pensar en uno mismo es egoísta"
+   ],
+   "r": "La función inferior de este tipo es el pensamiento introvertido. Jung señaló que los pensamientos propios pueden aparecer de forma negativa, rígida o desvalorizante, como críticas que no se dicen. Su aprendizaje es preguntarse qué piensa realmente, aunque no coincida con los demás.",
+   "como": "Surge de la observación clínica de Jung sobre cómo reaparece lo que no se desarrolla.",
+   "debate": "No hay investigación que valide el tipo tal como lo describió Jung.",
+   "seccion": "Su función inferior"
+  }
+ ],
+ "abierta": "¿Es posible cuidar a los demás sin perder la propia voz? Es una pregunta que sigue abierta."
+}

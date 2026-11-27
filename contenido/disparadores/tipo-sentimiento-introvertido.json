@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Un joven callado, que observa mucho, renuncia a un trabajo bien pago porque «no estaba bien» y no logra justificarlo ante su familia. Tiene valores firmes que casi nunca menciona.",
+   "p": "¿Qué hay detrás de esa decisión?",
+   "opciones": [
+    "Inmadurez o dificultad para comprometerse",
+    "Una brújula de valores íntima, que no negocia y que no siempre se explica hacia afuera",
+    "Un cuadro de depresión"
+   ],
+   "r": "Para Jung, el sentimiento introvertido valora desde adentro, según un sentido íntimo de lo que importa. Sus sentimientos son intensos y profundos, pero muchas veces no se expresan. Jung lo describía con un refrán: «las aguas tranquilas son profundas».",
+   "como": "Jung lo planteó en 1921, en Tipos psicológicos, a partir de su práctica clínica y de preguntarse por qué personas igual de inteligentes miraban los mismos hechos y llegaban a conclusiones distintas.",
+   "debate": "No hay que confundir este tipo con depresión o inhibición social. Un estilo reservado puede ser sano; el retraimiento con tristeza persistente merece una evaluación propia. Y que alguien tenga valores firmes no implica que sean siempre acertados o flexibles.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Esa misma persona, bajo presión, puede volverse rígidamente crítica consigo misma o sentirse incapaz de organizarse: «soy inútil».",
+   "p": "¿De dónde sale esa dureza?",
+   "opciones": [
+    "De una autoestima baja de origen",
+    "De la función menos desarrollada, el pensamiento extravertido: la lógica y la organización práctica le son ajenas",
+    "De que los valores firmes no dejan lugar a la duda"
+   ],
+   "r": "Su función inferior es el pensamiento extravertido: la organización práctica, las reglas y la lógica impersonal le resultan ajenas. Bajo presión puede volverse rígidamente crítico o controlador.",
+   "como": "Surge de la observación clínica de Jung sobre lo que pasa con la función poco desarrollada cuando hay tensión.",
+   "debate": "A nivel empírico, la tipología de Jung es una propuesta clínica, no una teoría con respaldo experimental.",
+   "seccion": "Su función inferior"
+  }
+ ],
+ "abierta": "Si el mundo interior es tan rico y tan poco visible, ¿cómo se hace para que el otro lo conozca sin perder su ritmo? Es una pregunta abierta."
+}

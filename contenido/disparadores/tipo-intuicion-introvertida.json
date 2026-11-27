@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Algunas personas tienen una certeza que aparece sin saber de dónde: ven hacia dónde van las cosas antes que los demás, o una imagen de un sueño las acompaña días enteros. Después no pueden explicarlo y los otros las miran con perplejidad.",
+   "p": "¿Qué estará pasando ahí adentro?",
+   "opciones": [
+    "Es pura imaginación, sin relación con lo que perciben de verdad",
+    "Perciben imágenes y posibilidades del mundo interior, de lo que todavía no tiene forma",
+    "Están muy atentas a los detalles concretos del entorno, aunque no lo noten"
+   ],
+   "r": "Para Jung, la intuición introvertida es una forma de percibir orientada a las imágenes y posibilidades del inconsciente. Por eso la asociaba con el visionario, el artista y el místico: alguien que capta lo que aún no tiene forma.",
+   "como": "Jung lo planteó en 1921, en Tipos psicológicos, a partir de su práctica clínica y de preguntarse por qué personas igual de inteligentes miraban los mismos hechos y llegaban a conclusiones distintas.",
+   "debate": "Es una categoría teórica de Jung. La psicología cognitiva estudia fenómenos relacionados, como el pensamiento rápido de Kahneman, pero eso no valida la tipología. Y una intuición no es un hecho: necesita contrastarse con la realidad.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Una persona con un mundo interior riquísimo se descubre torpe con lo cotidiano: el cuerpo, lo práctico, lo que hay que resolver hoy. Cuando se estresa, eso se le desordena todavía más.",
+   "p": "¿Por qué justo ahí?",
+   "opciones": [
+    "Porque ese tipo de personas no tiene interés en lo práctico",
+    "Porque es lo que menos desarrolló, y por ahí se desborda cuando hay presión",
+    "Porque la imaginación consume toda la energía mental disponible"
+   ],
+   "r": "Jung llamó función inferior a la menos desarrollada: la más lenta, torpe y cargada de emoción. En este tipo es la sensación extravertida, es decir, lo concreto, el cuerpo y el presente. Por ahí nos desbordamos, pero también por ahí suele llegar lo nuevo.",
+   "como": "Surge de lo que Jung observó en la consulta: la función poco desarrollada queda cerca de la sombra, y la persona la vive con más intensidad y menos control.",
+   "debate": "La tipología de Jung es una construcción teórica que no fue validada empíricamente tal como la formuló, y no hay pruebas de que existan ocho tipos discretos. Jung mismo la presentó como una brújula para orientarse, no como un casillero.",
+   "seccion": "Su función inferior"
+  }
+ ],
+ "abierta": "Si los tipos de Jung no están probados, pero tanta gente se reconoce en ellos, ¿qué es lo que están describiendo realmente? Es una pregunta que sigue abierta."
+}

@@ -1,0 +1,32 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Un hombre hizo el mismo trabajo, de la misma manera, durante veinte años. Lo reubican y su familia lo ve «terco». Él dice que no se trata de eso: necesita entender, probar y tener una base antes de moverse.",
+   "p": "¿Terquedad o algo más?",
+   "opciones": [
+    "Terquedad, simplemente: le cuesta aceptar que otros decidan",
+    "Una percepción profunda de lo conocido, que se vuelve memoria y seguridad, y el cambio inquieta",
+    "Miedo a no ser capaz de aprender cosas nuevas"
+   ],
+   "r": "Para Jung, la sensación introvertida percibe a través de la impresión subjetiva y profunda de lo sensorial. Lo vivido deja una huella interna muy precisa que se vuelve memoria, costumbre y referencia. Por eso es confiable y constante, y lo nuevo puede generarle más inquietud de lo que muestra.",
+   "como": "Jung lo planteó en 1921, en Tipos psicológicos, a partir de su práctica clínica y de preguntarse por qué personas igual de inteligentes miraban los mismos hechos y llegaban a conclusiones distintas.",
+   "debate": "Su estabilidad es un valor, no un déficit. Pero cuando se vuelve rigidez puede costar mucho, sobre todo en las crisis. Y la tipología no debería usarse para decir «es así y no cambia»: las funciones se desarrollan a lo largo de la vida.",
+   "seccion": "Qué es"
+  },
+  {
+   "enigma": "Alguien muy prolijo y estable, ante un cambio, se llena de escenarios catastróficos: «¿y si todo sale mal?». También le pueden llegar ideas súbitas que no sabe de dónde vienen.",
+   "p": "¿Qué hay detrás de ese catastrofismo?",
+   "opciones": [
+    "Falta de confianza en sí mismo",
+    "La función menos desarrollada, la intuición extravertida, que bajo presión se llena de imágenes de lo que podría salir mal",
+    "Un exceso de información sobre lo que puede fallar"
+   ],
+   "r": "La función inferior es la intuición extravertida: las posibilidades nuevas y el cambio se viven con inquietud. Para Jung no se «corrige»: se la reconoce y se la trata con respeto, porque es por donde la psique pide ampliarse.",
+   "como": "Surge de la observación clínica de Jung sobre cómo se manifiesta la función poco desarrollada cuando hay presión.",
+   "debate": "La tipología de Jung no está validada experimentalmente: es una herramienta de reflexión clínica y de autoconocimiento.",
+   "seccion": "Su función inferior"
+  }
+ ],
+ "abierta": "Si lo conocido nos da seguridad y lo nuevo nos inquieta, ¿cuánto de cada uno hace falta para crecer? Es una pregunta abierta."
+}

@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un lunes de marzo, después de cuarenta años, suena la misma alarma de siempre. Pero hoy no hay oficina, ni reunión de las diez, ni nadie esperando una firma. A media mañana aparece una pregunta que cuesta decir en voz alta: «¿y ahora, qué soy?».",
+   "p": "¿Qué se pierde al jubilarse, además del trabajo?",
+   "opciones": [
+    "Solo el sueldo y las tareas",
+    "Varias cosas a la vez: la rutina, un lugar de pertenencia, el sentimiento de utilidad y el contacto cotidiano",
+    "Nada importante: es puro tiempo libre ganado"
+   ],
+   "r": "La jubilación suele ser el final de un rol que ordenó el día, los vínculos y buena parte de la identidad. El tiempo libre sin estructura puede sentirse como un vacío más que como un premio. Al mismo tiempo, la etapa abre posibilidades que antes no había.",
+   "como": "Erik Erikson describió la última etapa del ciclo vital como una tensión entre integridad y desesperación: la posibilidad de mirar la propia vida con cierta aceptación o de quedar atrapado en el lamento por lo que no fue.",
+   "debate": "No hay un modelo único de buen envejecer ni una fórmula para jubilarse bien. Lo que cada quien haga con esta etapa depende de su historia, de su salud y de sus recursos.",
+   "seccion": "Qué se pierde y qué se reordena"
+  },
+  {
+   "enigma": "Algunas personas se imaginan la vejez como un tiempo de decadencia inevitable. Otras la ven con más confianza.",
+   "p": "¿Importa lo que uno cree sobre envejecer?",
+   "opciones": [
+    "No: las creencias no cambian lo que pasa con el cuerpo",
+    "Se asoció una visión más positiva del propio envejecimiento con una vida más larga, aunque no prueba una causa",
+    "Sí, y está demostrado que pensar bien alarga la vida"
+   ],
+   "r": "Levy, Slade, Kunkel y Kasl (2002) siguieron a 660 personas y encontraron que quienes tenían una visión más positiva de su envejecimiento vivieron en promedio unos 7,5 años más, aun controlando edad, salud y otros factores.",
+   "como": "Es un estudio de seguimiento. La Organización Mundial de la Salud (2021) señaló además que una de cada dos personas en el mundo tiene actitudes edadistas hacia las personas mayores.",
+   "debate": "Es una asociación: no demuestra que pensar bien alargue la vida y no autoriza a culpar a nadie por enfermarse. Pero sugiere que las creencias sobre la vejez no son un detalle menor.",
+   "seccion": "Cómo pensamos el envejecer importa"
+  }
+ ],
+ "abierta": "Si tanto de cómo envejecemos se forma en la cultura, ¿cómo se hace para cambiar la mirada sobre la vejez? Es una pregunta abierta."
+}
