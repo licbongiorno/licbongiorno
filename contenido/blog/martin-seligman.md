@@ -11,9 +11,9 @@ orden: 135
 estado: publicado
 respuesta: Martin Seligman, nacido en 1942, es un psicólogo estadounidense, profesor de la Universidad de Pensilvania. Describió la indefensión aprendida, un estado de pasividad que aparece cuando se aprende que nada de lo que uno hace cambia las cosas, y la relacionó con la depresión. Después estudió el optimismo aprendido y los estilos explicativos, y en 1998, como presidente de la Asociación Estadounidense de Psicología, impulsó la psicología positiva.
 menciona: seligman, depresion, resiliencia
-revision: 2026-11-08
+revision: 2026-11-27
 ---
-No, no es que la psicología positiva diga que hay que estar contento todo el tiempo. Martin Seligman llegó a ella después de pasar décadas estudiando lo contrario: por qué algunas personas, después de muchos golpes, dejan de intentar. Y descubrió que una parte de la respuesta está en cómo nos explicamos lo que nos pasa.
+Martin Seligman llegó a la psicología positiva después de pasar décadas estudiando lo contrario: por qué algunas personas, después de muchos golpes, dejan de intentar. Y descubrió que una parte de la respuesta está en cómo nos explicamos lo que nos pasa. Su psicología positiva nunca pidió estar contento todo el tiempo.
 
 ## Su recorrido
 
@@ -44,6 +44,26 @@ No es lo mismo pensar «me fue mal porque soy un desastre, siempre me pasa y en 
 La indefensión aprendida es uno de los conceptos más influyentes en la comprensión de la depresión. La psicología positiva amplió el campo, aunque también recibió críticas: por su difusión comercial, por la solidez de algunos estudios y por el riesgo de convertir el bienestar en una obligación más. Conviene tomarla con esa mirada crítica.
 
 En la consulta, prestar atención a cómo alguien se explica sus fracasos me dice mucho, y revisar esas explicaciones puede abrir caminos. Podés seguir con [la resiliencia](/recursos/la-resiliencia/) o con [la depresión](/depresion/).
+
+## El contexto de su obra
+
+Los primeros experimentos sobre indefensión aprendida se hicieron con perros, a mediados de los años sesenta, y se publicaron en 1967. Los animales expuestos a descargas que no podían evitar tendían, después, a quedarse pasivos incluso cuando en una situación nueva podían escapar. Seligman encontró en eso un paralelo con la desesperanza de algunas personas deprimidas. El hallazgo cuestionaba el conductismo dominante, porque mostraba que los organismos aprenden algo sobre el control, y no solo asociaciones. Ver [Aaron T. Beck](/recursos/aaron-t-beck/), cuyo modelo cognitivo de la depresión es contemporáneo.
+
+En 1998, como presidente de la Asociación Estadounidense de Psicología, propuso reorientar la disciplina hacia lo que funciona bien en las personas. En 2000 publicó, con Mihály Csikszentmihalyi, un número especial de *American Psychologist* que dio forma a la psicología positiva. Con Christopher Peterson desarrolló después una clasificación de fortalezas del carácter y virtudes, publicada en 2004. Ver [Mihaly Csikszentmihalyi](/recursos/mihaly-csikszentmihalyi/) y [fortalezas: sabiduría y conocimiento](/recursos/fortalezas-sabiduria-y-conocimiento/).
+
+## Una escena cotidiana
+
+Dos personas desaprueban el mismo examen. La primera piensa: «Soy mala para esto, siempre me va igual, no sirvo para estudiar». La segunda: «Estudié mal este tema, me faltó tiempo, la próxima organizo mejor». Mismo hecho, distinta explicación, y una probabilidad muy distinta de volver a intentarlo. Eso es lo que Seligman llamó estilo explicativo, y la propuesta cognitiva es detectar la frase automática, discutirla con evidencia y buscar una explicación más ajustada. No es pensar en positivo a la fuerza: es pensar con más precisión. Un trabajo parecido hace la [crítica interna](/recursos/la-critica-interna/).
+
+## Cómo resuena en la práctica
+
+Algunas intervenciones de la psicología positiva, como escribir cada noche tres cosas que salieron bien o hacer un ejercicio de gratitud, se estudiaron en ensayos con resultados favorables. Las revisiones de conjunto muestran, sin embargo, efectos modestos y que varían entre personas. Se usan como complemento y no como reemplazo de un tratamiento. Para probarlas, están el [laboratorio de psicología positiva](/laboratorio-de-psicologia-positiva/) y el de [fortalezas](/laboratorio-psicologia-positiva-fortalezas/). Para la depresión en sí, ver [depresión: señales y tratamiento](/recursos/depresion-senales-y-tratamiento/).
+
+## Matices y límites
+
+La indefensión aprendida se estudió sobre todo en animales, y trasladarla a la depresión humana es una analogía parcial: la depresión tiene muchos factores. Su teoría fue revisada por el propio Seligman, como se explicó. El modelo PERMA es una propuesta, y las medidas de bienestar tienen sus propios problemas, entre ellos que se apoyan en lo que la persona declara.
+
+Por último, el optimismo no es siempre una virtud. Ante un peligro real o una injusticia, un pesimismo realista puede ser lo más sensato. El objetivo de revisar el estilo explicativo es ganar flexibilidad, no negar lo difícil. Algo de eso aparece en la [resiliencia](/recursos/la-resiliencia/).
 
 ## Preguntas frecuentes
 

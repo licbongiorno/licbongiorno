@@ -11,9 +11,9 @@ orden: 141
 estado: publicado
 respuesta: Virginia Satir (1916-1988) fue una trabajadora social y terapeuta estadounidense, una de las pioneras de la terapia familiar y cofundadora del Mental Research Institute de Palo Alto. Puso en el centro la autoestima y la comunicación, y describió cuatro posturas que adoptamos bajo estrés —aplacar, culpar, superrazonar y distraer—, frente a una comunicación congruente que incluye al otro, a uno mismo y al contexto.
 menciona: satir, sistemica
-revision: 2026-11-08
+revision: 2026-11-27
 ---
-No, no es que en las familias haya «culpables» y «víctimas». Virginia Satir prefería otra pregunta: cómo se comunican las personas cuando tienen miedo, y qué parte de sí mismas dejan afuera para sobrevivir. Su calidez era famosa, y su confianza en que cada familia tiene recursos para cambiar, también.
+En las familias, Virginia Satir no buscaba «culpables» ni «víctimas». Prefería otra pregunta: cómo se comunican las personas cuando tienen miedo, y qué parte de sí mismas dejan afuera para sobrevivir. Su calidez era famosa, y su confianza en que cada familia tiene recursos para cambiar, también.
 
 ## Quién fue
 
@@ -44,6 +44,28 @@ Cuando nos sentimos amenazados, solemos **aplacar**, **culpar**, **superrazonar*
 Satir aportó a la terapia familiar una mirada cálida y centrada en el crecimiento, y sus posturas de comunicación se enseñan hoy en terapia, educación y organizaciones. Algunos teóricos la criticaron por su falta de rigor conceptual, pero su influencia en la práctica es enorme.
 
 En la consulta, sus posturas ayudan a muchas personas a reconocer cómo reaccionan cuando discuten, sin juzgarse. Podés seguir con [la autoestima](/autoestima/) o con el [laboratorio de vínculos](/laboratorio-de-vinculos/).
+
+## El contexto de su obra
+
+Cuando Satir empezó a trabajar con familias en Chicago, en los años cincuenta, lo habitual era atender al «paciente identificado» por separado. Recibir a todos juntos, y mirar cómo se hablaban, fue una apuesta nueva. Pronto su camino se cruzó con el de otros pioneros de la terapia familiar, como [Gregory Bateson](/recursos/gregory-bateson/) y [Paul Watzlawick](/recursos/paul-watzlawick/), que desde Palo Alto estudiaban la comunicación como un sistema. Ver [terapia sistémica](/recursos/terapia-sistemica/).
+
+Con el tiempo, Satir se distinguió de ellos por su estilo. Mientras otros hablaban de reglas y de circuitos, ella hablaba de sentimientos, de expectativas y de lo que cada persona necesita para sentirse valiosa. Su modelo suele representarse con la imagen de un iceberg: arriba, la conducta que se ve; abajo, los sentimientos, las expectativas y los anhelos que la sostienen. También describió el proceso de cambio como una secuencia en la que, tras un elemento nuevo que sacude el equilibrio, suele venir un período de caos antes de integrar algo nuevo.
+
+## Una escena cotidiana
+
+En una cena, un hijo adolescente contesta mal. El padre, que está cansado, grita: culpa. La madre dice «no pasa nada, dejalo»: aplaca. El otro hermano cuenta un chiste fuera de lugar: distrae. Alguien explica con tono de conferencia que «los adolescentes pasan por una etapa»: superrazona. Nadie dijo lo que sentía, que era algo parecido a miedo de que la familia se desarmara.
+
+Lo que Satir propone es detenerse en eso que quedó abajo. Una respuesta congruente suena, por ejemplo: «Me dolió cómo me hablaste, quiero entender qué te pasa, y también necesito que nos tratemos con respeto». Es difícil, y requiere practicarla.
+
+## Cómo resuena en la práctica
+
+En la consulta con familias y parejas, las posturas funcionan como un lenguaje compartido para hablar de lo que pasa sin acusar. Cada quien puede reconocer la suya, y entender que no es «su carácter» sino una forma de protegerse que aprendió. El [genograma](/recursos/el-genograma/) y la mirada de [Murray Bowen](/recursos/murray-bowen/) permiten además ubicar de dónde vienen esas reglas. Para trabajar la autoestima, ver [autoestima baja: señales y caminos](/recursos/autoestima-baja-senales-y-caminos/), y para un recorrido práctico, el [laboratorio de comunicación sistémica](/laboratorio-sistemica-comunicacion/).
+
+## Matices y límites
+
+Satir fue sobre todo una clínica y una docente extraordinaria, y su modelo nació de la práctica y no de estudios controlados. Hay poca investigación que compare su método con otros, así que sus herramientas conviene tomarlas como recursos útiles de la clínica y no como un tratamiento con evidencia propia. Lo mismo vale para las posturas: son una manera de ordenar la observación, no categorías diagnósticas.
+
+También hay que cuidar el uso. La calidez y el énfasis en los recursos de cada familia no sirven cuando hay violencia: en esos casos, primero va la seguridad. Ver [violencia en la pareja](/recursos/violencia-en-la-pareja/).
 
 ## Preguntas frecuentes
 

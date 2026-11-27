@@ -11,7 +11,7 @@ orden: 130
 estado: publicado
 respuesta: John B. Watson (1878-1958) fue un psicólogo estadounidense, fundador del conductismo. En 1913 propuso que la psicología debía estudiar solo la conducta observable, dejando de lado la conciencia. Es conocido también por el experimento del «pequeño Albert», en el que condicionó el miedo en un bebé, hoy considerado éticamente inaceptable. Tras dejar la universidad trabajó en publicidad.
 menciona: watson
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Si la psicología quería ser una ciencia, tenía que estudiar lo que se puede observar y medir. Esa fue la apuesta de John B. Watson, y ordenó la investigación durante décadas. Su historia muestra también otra cosa: hasta dónde puede llegar una ciencia sin límites éticos.
 
@@ -49,6 +49,26 @@ Hoy ese experimento es un ejemplo de lo que no se debe hacer: no hubo un consent
 El conductismo dio a la psicología métodos rigurosos y abrió el camino a terapias basadas en el aprendizaje, como la exposición para las fobias. Sus límites —dejar afuera el pensamiento, la emoción y la experiencia subjetiva— llevaron después a la revolución cognitiva y a enfoques más integrados.
 
 En la consulta, su legado está en algo simple: mirar también lo que hacemos y lo que pasa a nuestro alrededor, no solo lo que pensamos de eso. Podés seguir con [la activación conductual](/recursos/activacion-conductual/).
+
+## El contexto de su obra
+
+A comienzos del siglo XX, la psicología académica se basaba en gran medida en la introspección: personas entrenadas informaban qué experimentaban ante un estímulo, como en el laboratorio de [Wilhelm Wundt](/recursos/wilhelm-wundt/). Watson, que venía de estudiar animales, pensaba que ese método no producía datos que otros pudieran comprobar. Se inspiró también en los trabajos de [Iván Pávlov](/recursos/ivan-pavlov/) sobre el condicionamiento. Su manifiesto de 1913 fue una declaración de principios más que un resultado de laboratorio, y tuvo un efecto enorme.
+
+En los años veinte difundió sus ideas en libros para el gran público. En *Psychological Care of Infant and Child* (1928), escrito con Rosalie Rayner, recomendaba tratar a los chicos con distancia afectiva para no «malcriarlos». Ese consejo fue luego duramente criticado, a la luz de lo que se aprendió sobre el apego. Ver [el apego](/recursos/el-apego/).
+
+## Una escena cotidiana
+
+Una persona tuvo una mala experiencia en el consultorio de un dentista, con dolor y sensación de ahogo. Años después, tiene un sudor frío con solo escuchar el ruido del torno, o incluso al pasar por la puerta. Nunca decidió tener miedo: lo aprendió por asociación. Es el tipo de aprendizaje que Watson quería explicar. Y también el que ayuda a entender por qué evitar lo que da miedo lo mantiene: cada vez que se evita, no hay oportunidad de aprender que no pasó nada.
+
+## Cómo resuena en la práctica
+
+El camino inverso lo dio una colaboradora de Watson, Mary Cover Jones, que en 1924 publicó el caso de un niño, Peter, cuyo miedo a los conejos disminuyó al acercarlos poco a poco mientras comía. Décadas después, Joseph Wolpe desarrolló la desensibilización sistemática. Esa línea llegó a las terapias de exposición, que son hoy el tratamiento de elección para varias [fobias](/recursos/fobias/), el trastorno obsesivo-compulsivo y el estrés postraumático. Ver [trastorno obsesivo-compulsivo](/recursos/trastorno-obsesivo-compulsivo/) y el [laboratorio de miedos y fobias](/laboratorio-de-miedos-y-fobias/). La terapia cognitivo-conductual es heredera de esa tradición: [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/).
+
+## Matices y límites
+
+El experimento del pequeño Albert tiene limitaciones más allá de lo ético: fue un solo caso, con un diseño poco controlado, y los intentos de reproducirlo fueron escasos y discutidos. También se discutió cuál era la identidad real del bebé, y no hay acuerdo definitivo entre los historiadores. Por eso se lo suele citar con más cautela de la que aparece en muchos manuales. Ver también el caso de [Stanley Milgram](/recursos/stanley-milgram/) para otros debates sobre ética en investigación.
+
+La postura de Watson de excluir la conciencia de la ciencia fue abandonada: hoy se estudian los pensamientos y las emociones con métodos rigurosos. Y su ambientalismo extremo tampoco se sostiene, porque la investigación actual muestra que la herencia y el ambiente interactúan. Su legado es un método, no una teoría completa.
 
 ## Preguntas frecuentes
 

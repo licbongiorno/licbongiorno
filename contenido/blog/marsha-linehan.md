@@ -11,7 +11,7 @@ orden: 136
 estado: publicado
 respuesta: Marsha Linehan, nacida en 1943, es una psicóloga estadounidense, profesora de la Universidad de Washington y creadora de la terapia dialéctica conductual (DBT). Diseñada al principio para personas con conductas suicidas y desregulación emocional intensa, la DBT combina estrategias de cambio de la terapia conductual con la aceptación y el mindfulness, y enseña habilidades en cuatro áreas: mindfulness, tolerancia al malestar, regulación emocional y eficacia interpersonal.
 menciona: linehan, mindfulness
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Aceptarse o cambiar: parece que hubiera que elegir. Marsha Linehan construyó un tratamiento entero sobre esa tensión. Las personas que más sufren necesitan sentirse aceptadas tal como son y, a la vez, aprender a vivir de otra manera. Sostener las dos cosas a la vez es lo que ella llamó dialéctica.
 
@@ -46,6 +46,26 @@ La DBT es uno de los tratamientos con más evidencia para el trastorno límite d
 En la consulta, sus habilidades son herramientas muy concretas para los momentos de crisis. Podés practicar algunas en el [laboratorio de habilidades DBT](/laboratorio-de-habilidades-dbt/). Si estás atravesando una crisis, buscá ayuda: en [ayuda urgente](/ayuda-urgente/) están los teléfonos.
 
 Para practicar la dialéctica entre aceptación y cambio, está el [laboratorio de pensamiento dialéctico](/laboratorio-de-pensamiento-dialectico/).
+
+## El contexto de su obra
+
+Cuando Linehan empezó, en las décadas de 1970 y 1980, no existía un tratamiento con respaldo para personas con intentos de suicidio repetidos y un sufrimiento emocional muy intenso. Muchas eran consideradas «difíciles» y los tratamientos disponibles se abandonaban con frecuencia. La terapia cognitivo-conductual de la época, centrada en el cambio, les resultaba invalidante. Su solución fue crear una terapia con estructura propia: terapia individual semanal, un grupo para aprender habilidades, consulta telefónica entre sesiones para aplicarlas en el momento de la crisis, y un equipo de consulta para los propios terapeutas, que también necesitan sostén. Ver [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/).
+
+Los primeros ensayos clínicos controlados se publicaron a comienzos de la década de 1990 y mostraron menos conductas suicidas y menos internaciones. Desde entonces se hicieron muchos más estudios en distintos países.
+
+## Una escena cotidiana
+
+Son las dos de la mañana, hubo una discusión por mensaje y la angustia sube como una ola. Lo que le hacía alivio —gritar, tomar de más, lastimarse— deja un costo después. La DBT enseña, en lugar de pelear contra la ola, a bajar primero su intensidad con el cuerpo: por ejemplo, usar agua fría en la cara o respirar de manera pausada para calmar el sistema nervioso. Con la ola ya más baja, se puede pensar qué hacer, a quién llamar y cómo decirlo. No es magia: es una secuencia que se ensaya cuando uno está bien para poder usarla cuando está mal.
+
+## Cómo resuena en la práctica
+
+La DBT es hoy una referencia para trabajar [el trastorno límite de la personalidad](/recursos/trastorno-limite-de-la-personalidad/), las [autolesiones](/recursos/autolesiones/) y la [prevención del suicidio](/recursos/prevencion-del-suicidio/). Muchas de sus habilidades se enseñan por separado, y se pueden practicar en los laboratorios de [atención plena](/laboratorio-dbt-atencion-plena/), [tolerancia al malestar](/laboratorio-dbt-tolerancia-al-malestar/), [regulación emocional](/laboratorio-dbt-regulacion-emocional/) y [efectividad interpersonal](/laboratorio-dbt-efectividad-interpersonal/). La idea de la [ventana de tolerancia](/recursos/la-ventana-de-tolerancia/) dialoga bien con ese trabajo.
+
+## Matices y límites
+
+La evidencia más sólida de la DBT es para el trastorno límite de la personalidad y para las conductas suicidas y autolesivas. Para otros problemas, como los trastornos alimentarios o las adicciones, hay adaptaciones con resultados alentadores, pero el cuerpo de investigación es menor. Y aprender habilidades en un artículo o un laboratorio no equivale a hacer el tratamiento: la DBT completa requiere un equipo entrenado.
+
+Tampoco es una terapia para todos. Hay personas a las que les sirve más otro abordaje, y la calidad de la relación con quien trata pesa mucho. Si el sufrimiento es muy intenso o aparecen ideas de hacerse daño, lo indicado es consultar con un profesional y buscar ayuda sin demora.
 
 ## Preguntas frecuentes
 

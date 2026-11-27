@@ -11,7 +11,7 @@ orden: 144
 estado: publicado
 respuesta: Jean Piaget (1896-1980) fue un biólogo y psicólogo suizo, creador de la epistemología genética. Estudió cómo se construye el conocimiento en los chicos y describió cuatro grandes etapas del desarrollo cognitivo: sensoriomotora, preoperacional, de las operaciones concretas y de las operaciones formales. Propuso que los chicos construyen activamente su comprensión del mundo mediante la asimilación y la acomodación.
 menciona: piaget, inteligencia
-revision: 2026-11-08
+revision: 2026-11-27
 ---
 Un chico de cinco años jura que en el vaso alto hay más agua que en el ancho, aunque acaba de ver cómo la pasaban de uno a otro. Jean Piaget mostró que ese «error» no es falta de información: los chicos piensan de otra manera, con una lógica propia que va cambiando a medida que crecen.
 
@@ -45,6 +45,26 @@ Piaget describió cuatro grandes etapas: la **sensoriomotora** (de 0 a 2 años, 
 La obra de Piaget transformó la educación y la psicología del desarrollo. Algunas de sus ideas fueron revisadas —los bebés saben más de lo que él pensaba y las etapas son menos rígidas—, pero su imagen del chico como constructor activo del conocimiento sigue siendo central.
 
 En la consulta con chicos y con madres y padres, entender cómo piensa un chico a cada edad evita pedirle cosas que todavía no puede hacer. Podés seguir con [las inteligencias múltiples](/recursos/inteligencias-multiples/) o con [maternidad y paternidad](/recursos/maternidad-y-paternidad/).
+
+## El contexto de su obra
+
+El trabajo de Piaget empezó, en parte, con un problema práctico. En París colaboró en la estandarización de pruebas de inteligencia en el laboratorio fundado por Alfred Binet, y notó algo que no estaba en el plan: los errores de los chicos tenían un patrón. Esa observación lo llevó a dejar los tests y a conversar con ellos, preguntando una y otra vez «¿por qué?», método que llamó clínico. Sus primeros libros sobre el lenguaje y el razonamiento infantil salieron en la década de 1920, y *El juicio moral en el niño* es de 1932.
+
+Más tarde sumó el estudio de los bebés con sus propios hijos, y con Bärbel Inhelder diseñó tareas que se hicieron clásicas. En una de ellas, la de las tres montañas, un chico que mira una maqueta debía decir qué vería otra persona ubicada del otro lado. Los más chicos describen lo que ven ellos: es el egocentrismo del que habla Piaget.
+
+## Una escena cotidiana
+
+Un nene de cinco años recibe una galletita entera y su hermano, la misma partida en cuatro pedazos. Protesta: «¡él tiene más!». Un adulto pensará que es un capricho, pero para el chico, en ese momento, más pedazos son más galletita. Explicarle con paciencia que es la misma cantidad suele servir poco. Hace falta que lo viva: juntar los pedazos, volver a separarlos, contar. Un día lo entiende, y ya no vuelve atrás. Eso es lo que Piaget quiso mostrar: el pensamiento se construye con la experiencia, y no se transmite como un dato.
+
+## Cómo resuena en la práctica
+
+Saber cómo piensa un chico a cada edad cambia la forma de hablarle. Cuando se trata de explicarle una separación, una enfermedad o la muerte de alguien, un chico pequeño necesita explicaciones concretas y breves, con ejemplos que pueda tocar, y repetidas más de una vez. Ver [hijos y separación](/recursos/hijos-y-separacion/) y [maternidad y paternidad](/recursos/maternidad-y-paternidad/). Su mirada dialoga con la de [Lev Vygotsky](/recursos/lev-vygotsky/), que puso el acento en el aprendizaje con otros, y con la teoría del [apego](/recursos/el-apego/) de [John Bowlby](/recursos/john-bowlby/). Para pensar la ayuda de un adulto en el aprendizaje, está el [laboratorio de andamiaje](/laboratorio-de-andamiaje/).
+
+## Matices y límites
+
+La investigación posterior corrigió parte de su obra. Con métodos más sensibles, se mostró que los bebés tienen expectativas sobre los objetos antes de lo que Piaget había estimado, y que las edades de cada etapa varían según la tarea y la cultura. El pensamiento formal, además, no se da en todas las personas ni en todos los contextos por igual. Además, el modelo de etapas describe un orden general y no un calendario: un chico puede estar en distinto punto según el tema.
+
+Con todo, su aporte duradero no depende de las edades exactas: es la imagen de un chico activo, que piensa a su manera y merece que se lo escuche. Se complementa con [las inteligencias múltiples](/recursos/inteligencias-multiples/) y con el trabajo de [Galperin](/recursos/galperin-y-las-etapas-del-aprendizaje/) sobre las etapas del aprendizaje.
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 178
 estado: publicado
 respuesta: Daisetsu Teitaro Suzuki (1870-1966) fue un estudioso japonés del budismo y el principal divulgador del zen en Occidente. Escribió sobre el koan y el satori, la comprensión súbita. Jung prologó la edición alemana de su Introducción al budismo zen (1939), Karen Horney viajó con él a Japón en 1952 y Erich Fromm organizó con él un seminario en Cuernavaca en 1957, que dio origen al libro Budismo zen y psicoanálisis (1960).
 menciona: suzuki, jung, horney, fromm, zen
-revision: 2026-11-09
+revision: 2026-11-27
 ---
 En 1957, en su casa nueva de Cuernavaca, en México, Erich Fromm reunió a unos cincuenta psicoanalistas y psiquiatras para escuchar a un estudioso japonés de ochenta y seis años. Se llamaba Daisetsu Teitaro Suzuki y venía a hablarles del zen. De ese encuentro salió un libro, *Budismo zen y psicoanálisis*.
 
@@ -44,6 +44,28 @@ De regreso en Japón, enseñó en la Universidad Otani, en Kioto, y publicó en 
 - Si querés conocer la práctica, podés leer sobre la [meditación zen](/recursos/meditacion-zen-zazen/) o sobre [Jung y la meditación](/recursos/jung-y-la-meditacion/).
 
 Sobre otras tradiciones japonesas que dialogan con la psicología, leé el [mapa de la psicología japonesa](/recursos/mapa-de-la-psicologia-japonesa/).
+
+## El contexto de su obra
+
+Suzuki creció en la época Meiji, cuando Japón se abrió a Occidente y se preguntaba qué conservar de su propia tradición. Su maestro, Shaku Sōen, había participado en 1893 del Parlamento Mundial de las Religiones de Chicago, y fue él quien lo vinculó con el editor estadounidense para quien Suzuki tradujo durante años. Esa doble pertenencia explica su estilo: escribía en inglés para lectores occidentales y trataba de explicar en categorías que ellos pudieran seguir una experiencia que el zen presenta como más allá de las categorías.
+
+Su influencia llegó a las artes y la literatura: el compositor John Cage asistió a sus clases en Columbia y los poetas de la generación beat lo leyeron con entusiasmo. El diálogo con el psicoanálisis fue otra de las puertas por las que el zen entró a la cultura occidental.
+
+## Una escena cotidiana
+
+Es de noche, estás repasando una conversación que salió mal, y la cabeza no para de armar réplicas. Para el zen, ese pensar en círculos es el modo en que la mente se divide entre quien observa y lo observado. La invitación de Suzuki no es analizarlo mejor, sino notar cuándo, por un momento, uno está simplemente lavando una taza, escuchando la lluvia o caminando, y ahí no hay división. No lo presentaba como un truco, sino como un modo de estar que se cultiva.
+
+## Cómo resuena en la práctica
+
+De la mano de Suzuki y de otros maestros, las prácticas contemplativas orientales fueron ganando lugar en Occidente. Con el tiempo esas prácticas se separaron de su contexto religioso y se volvieron programas de salud, como los de [Jon Kabat-Zinn](/recursos/jon-kabat-zinn/), que se formó con maestros zen. Hoy el [mindfulness](/recursos/mindfulness-atencion-plena/) se usa en terapias para la depresión recurrente, la ansiedad y el dolor crónico.
+
+El zen también dialoga con terapias japonesas como la [terapia Morita](/recursos/terapia-morita/) y el [Naikan](/recursos/naikan/), que comparten con él la atención a la vida cotidiana. Para recorrerlas, está el [laboratorio Morita y Naikan](/laboratorio-morita-y-naikan/).
+
+## Matices y límites
+
+El satori es una experiencia descrita por la tradición, y no se puede comprobar ni medir con los métodos de la psicología. Lo que sí se estudia hoy son prácticas de atención como la meditación, con resultados que varían según la práctica y la población. Ver [qué es la meditación](/recursos/que-es-la-meditacion/).
+
+Los paralelos entre el zen y el psicoanálisis, como hacer consciente lo inconsciente, son analogías sugerentes y no equivalencias. El zen no es una psicoterapia, y su práctica intensiva no es adecuada para cualquier persona en cualquier momento, sobre todo en una crisis. Además, como se dijo, la imagen del zen que Suzuki difundió fue criticada por idealizada. Conviene leerlo como un puente cultural valioso y no como el zen mismo.
 
 ## Preguntas frecuentes
 
