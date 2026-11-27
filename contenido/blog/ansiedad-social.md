@@ -11,7 +11,7 @@ orden: 179
 estado: publicado
 respuesta: La ansiedad social es un miedo intenso y persistente a ser evaluado o juzgado por otros, que lleva a evitar situaciones sociales o a vivirlas con mucho malestar. Se diferencia de la timidez por su intensidad y por cuánto limita la vida. Se sostiene en un círculo de autoobservación, conductas de protección y evitación, y responde bien a la psicoterapia, en especial a la terapia cognitivo-conductual.
 menciona: ansiedad
-revision: 2026-11-10
+revision: 2026-11-27
 ---
 Te toca presentarte en una reunión. Faltan tres personas para tu turno y ya sentís la cara caliente, el corazón acelerado y la cabeza en blanco. Cuando por fin hablás, casi no escuchás lo que decís: estás pendiente de si se nota que estás nervioso. Al salir, repasás cada palabra durante horas.
 
@@ -58,6 +58,22 @@ Podés practicar la regulación del cuerpo en el [laboratorio de ansiedad](/labo
 ## Cuándo consultar
 
 Cuando el miedo empieza a decidir por vos: qué trabajo buscar, a qué reunión ir, con quién hablar. En terapia trabajamos las dos cosas: el círculo que mantiene la ansiedad hoy y la historia que hizo que la mirada de los otros pese tanto. Muchas veces, detrás del miedo a ser juzgado hay una voz propia muy exigente que vale la pena escuchar.
+
+## Una escena del consultorio
+
+Imaginá a alguien, llamémoslo Martín, que evita las reuniones de equipo desde hace dos años. No es que no tenga ideas: las ensaya en la cabeza durante días y, cuando llega el momento, dice «nada, está bien así». Cada vez que se calla, siente alivio; y cada alivio le confirma que hablar era peligroso. Es un cuadro genérico, pero muy frecuente: el costo no está en la reunión, sino en todo lo que se deja de intentar.
+
+## Cómo se trabaja en terapia
+
+Desde un enfoque integrativo, se trabajan varios planos a la vez. Uno es el de la **conducta**: armar con calma una escalera de situaciones, de menos a más temidas, y probar cada escalón sin las conductas de protección. Otro es el de la **atención**: aprender a notar cuándo se mira hacia adentro y volver a lo que está pasando afuera. Y otro es el de la **historia**: preguntarse cuándo y con quién aprendió esa persona que ser visto era riesgoso. Desde la mirada psicoanalítica y junguiana, la [vergüenza](/recursos/la-verguenza/) y la [persona o máscara social](/recursos/la-persona-mascara-social/) suelen ser claves: cuanto más rígida la máscara, más amenaza siente cualquier grieta.
+
+## Matices y límites
+
+- Lo que **tiene más investigación** es la terapia cognitivo-conductual, en especial el modelo de Clark y Wells y la exposición gradual. También hay medicación que un psiquiatra puede evaluar en algunos casos.
+- Lo que es **teoría o lectura clínica** es la hipótesis de que el miedo a la mirada ajena se arma en vínculos tempranos o en experiencias de humillación. Es una hipótesis útil, no una causa demostrada para todos.
+- No toda persona reservada tiene ansiedad social, y no todo nerviosismo antes de hablar en público es un trastorno.
+
+Si el miedo a ser juzgado se mezcla con muchos ataques de angustia, puede ayudarte leer [ataque de pánico: qué hacer](/recursos/ataque-de-panico-que-hacer/), y para practicar a tu ritmo está el [laboratorio de ansiedad social](/laboratorio-de-ansiedad-social/).
 
 ## Preguntas frecuentes
 

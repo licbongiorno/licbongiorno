@@ -56,6 +56,26 @@ Para ubicar estas prácticas entre las demás, mirá [el mapa de las psicoterapi
 
 Lecturas: Pallaro, P. (ed.) (1999), *Authentic Movement: Essays by Mary Starks Whitehouse, Janet Adler and Joan Chodorow*. Kramer, E. (1958), *Art Therapy in a Children's Community*.
 
+## Una viñeta
+
+Una mujer que consulta por una sensación de estar «tiesa» en todos lados prueba, con los ojos cerrados y otra persona presente, mover lo que le pida el cuerpo. Al principio no pasa nada; después, un brazo se levanta con una lentitud que la sorprende. Al contarlo, dice que recordó a su abuela cuando la abrazaba. No hubo interpretación: lo que apareció se pudo decir, y eso fue suficiente por ese día. (Escena genérica, ilustrativa.)
+
+## Cómo se integra a un enfoque integrativo
+
+En una psicoterapia con base psicoanalítica y junguiana, ni el movimiento ni la imagen reemplazan la conversación: le abren camino. Jung propuso que lo inconsciente se expresa en imágenes y que la persona puede dialogar con ellas de manera activa ([imaginación activa](/recursos/imaginacion-activa/)). Moverse o dibujar son dos formas de hacer visible algo que todavía no tiene palabras, y después se conversa sobre eso, con preguntas abiertas y sin forzar una lectura. La mirada junguiana a los [símbolos](/recursos/los-simbolos-segun-jung/) suma una idea útil: una imagen no tiene un significado fijo, y el que le da su autor es el que cuenta. Por eso, un dibujo o un gesto no se «descifran» desde afuera.
+
+También se pueden usar como práctica personal, a modo de ensayo: el [laboratorio de imaginación activa](/laboratorio-de-imaginacion-activa/) y el [laboratorio de la psique y la imagen](/laboratorio-de-la-psique-y-la-imagen/) ofrecen formas de empezar, y la [escritura expresiva](/recursos/escritura-expresiva/) funciona como un puente hacia la palabra.
+
+## Contexto histórico
+
+Whitehouse se formó como bailarina y trabajó desde los años cuarenta y cincuenta en Estados Unidos, donde se acercó a la psicología de Jung; esa mezcla de danza y análisis dio origen a la práctica. La arteterapia, por su lado, crece a mediados del siglo XX con Naumburg y Kramer, en un contexto de escuelas, hospitales y comunidades. Hoy ambas se enseñan en formaciones específicas, y existen asociaciones profesionales que regulan la práctica en varios países.
+
+## Matices y límites
+
+- **Con investigación:** para arteterapia hay revisiones con resultados prometedores en ansiedad, estrés y bienestar, pero con estudios pequeños y diseños variables. Para Movimiento Auténtico, casi todo el conocimiento viene de la clínica y del relato de quienes lo practican.
+- **Teoría:** la idea de que el cuerpo o la imagen «dicen la verdad» que la palabra oculta es una hipótesis atractiva, no una demostración. Un movimiento o un dibujo también están influidos por el ánimo del día, el entorno y la consigna.
+- No se usa para diagnosticar: el dibujo o el movimiento no revelan un trastorno. Para ese fin hay otras herramientas ([psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/)).
+
 ## Preguntas frecuentes
 
 ### ¿Qué hace el testigo en el Movimiento Auténtico?

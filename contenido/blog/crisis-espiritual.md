@@ -72,6 +72,24 @@ Volvé al [mapa de las psicologías espirituales](/recursos/mapa-de-las-psicolog
 
 Lecturas: Grof, S. y Grof, C. (eds.) (1989), *Spiritual Emergency: When Personal Transformation Becomes a Crisis*, Tarcher. Lukoff, D., Lu, F. y Turner, R. (1992), «Toward a more culturally sensitive DSM-IV: psychoreligious and psychospiritual problems», *Journal of Nervous and Mental Disease*, 180(11), 673–682.
 
+## Contexto histórico
+
+El debate sobre dónde termina una experiencia espiritual intensa y dónde empieza una descompensación es antiguo. William James, en *Las variedades de la experiencia religiosa* (1902), ya distinguía la mirada sobre el origen de una experiencia de la mirada sobre su valor, y advertía que los estados excepcionales pueden tener explicaciones médicas sin que por eso pierdan sentido para quien los vive ([William James](/recursos/william-james/), [experiencia mística](/recursos/experiencia-mistica/)). A lo largo del siglo XX, la psiquiatría tendió a leer estas vivencias como síntoma; la psicología transpersonal, a leerlas como crecimiento. La propuesta de Grof y de Lukoff buscó un lugar intermedio.
+
+## Cómo se trabaja en terapia
+
+Quien consulta por una vivencia así suele llegar con miedo a ser tomado por loco, o con miedo a que se le quite valor a lo vivido. Lo primero es crear un clima de escucha sin burla ni adhesión automática. Desde un enfoque integrativo, con base junguiana y psicoanalítica, se pregunta por el contexto: qué cambios, pérdidas o prácticas precedieron a la crisis, qué se durmió y se comió, qué dicen las personas cercanas, si hubo consumo de sustancias. Se registra el nivel de funcionamiento y el riesgo. Si el cuadro es compatible con un episodio que requiere atención psiquiátrica, se deriva sin demora y se trabaja en conjunto con el psiquiatra.
+
+Cuando la persona está estable, el trabajo puede enfocarse en integrar lo vivido: ponerle palabras, vincularlo con la historia, sostener lo que tuvo de valioso y ordenar lo que desorganizó. En la tradición junguiana se habla del peligro de ser invadido por contenidos del inconsciente colectivo sin un yo suficientemente firme para sostenerlos ([inconsciente personal y colectivo](/recursos/inconsciente-personal-y-colectivo/), [el yo y el sí-mismo](/recursos/el-yo-y-el-si-mismo/)); esa idea es una advertencia clínica útil, aunque sigue siendo una teoría. Para entender el cuidado con las prácticas intensas, ver [respiración holotrópica](/recursos/respiracion-holotropica/) y [bypass espiritual](/recursos/bypass-espiritual/).
+
+## Una viñeta
+
+Una mujer, tras la muerte de su padre, empieza a tener experiencias que describe como «una presencia que me guía». Duerme, come y trabaja; llora, pero se siente acompañada, y esa vivencia se articula con su tradición religiosa. En este caso, el trabajo es el de un duelo con una dimensión espiritual, y no hay motivo para patologizar. Otra persona, en cambio, vive algo parecido con insomnio de días, desorganización y creencias que cambian por hora: ahí la prioridad es la evaluación médica. La misma frase, «me guía una presencia», puede ser cosas muy distintas.
+
+## Matices y límites
+
+No hay estudios sólidos que permitan estimar cuántas crisis son «de crecimiento» y cuántas son episodios psiquiátricos, ni criterios validados para distinguirlas de antemano. La literatura sobre emergencia espiritual se basa en casos y en teoría. Lo que sí está bien establecido es que ciertas prácticas intensas pueden desencadenar o agravar cuadros en personas vulnerables, y que la evaluación clínica es necesaria en las crisis agudas ([psicosis: primer episodio](/recursos/primer-episodio-psicotico/)).
+
 ## Preguntas frecuentes
 
 ### ¿Una crisis espiritual es una enfermedad mental?

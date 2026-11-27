@@ -11,7 +11,7 @@ fecha_visible: noviembre de 2026
 orden: 5
 estado: publicado
 respuesta: La terapia online permite hacer un proceso terapéutico en español desde cualquier país, por videollamada. Requiere un lugar privado, buena conexión y un encuadre estable. Conviene revisar la normativa del país donde vivís y tener a mano los servicios de emergencia locales.
-revision: 2026-11-05
+revision: 2026-11-27
 ---
 Hay emociones que solo encuentran palabras en el idioma en que fueron vividas. Podés hablar perfecto otra lengua, trabajar en ella, soñar en ella. Pero cuando duele de verdad, el dolor vuelve a casa y habla en castellano.
 
@@ -47,6 +47,28 @@ No es idéntica, pero comparte lo esencial. Muchas personas sostienen procesos p
 
 Si vivís fuera de Argentina y querés hacer terapia en español, el primer paso es una conversación para conocer tu situación y ver juntos si este espacio es adecuado para vos. Los kilómetros no impiden el encuentro: lo que lo sostiene es la confianza, la regularidad y una escucha que te espera del otro lado de la pantalla.
 
+
+## Lo que dice la investigación sobre la terapia por video
+
+Las revisiones disponibles son en general alentadoras. Carlbring y colaboradores (2018, *Cognitive Behaviour Therapy*, 47(1)) revisaron estudios de terapia por internet y encontraron resultados similares a los de la terapia presencial para varios trastornos, aunque en su mayor parte se trató de terapias cognitivo-conductuales estructuradas. Esa evidencia no se aplica de manera automática a todos los enfoques, ni a todas las personas. Para un trabajo de base psicoanalítica o junguiana hay menos investigación específica, y es un punto a decir con honestidad. La alianza terapéutica, que en los estudios es de lo que más se asocia con los resultados, parece poder construirse por video.
+
+## Hablar en la lengua materna: algo más que comodidad
+
+Aneta Pavlenko, lingüista, estudió el vínculo entre emoción y multilingüismo en *Emotions and Multilingualism* (2005). Su trabajo muestra que muchas personas bilingües sienten que las palabras de una segunda lengua «pesan menos» en lo afectivo. Para algunas, eso permite hablar de temas difíciles con distancia; para otras, impide llegar a lo que importa. Por eso hay quienes eligen una lengua para ciertos temas y otra para los demás. No es una regla: es algo para conversar.
+
+## Una viñeta
+
+Una persona que vive hace años en otro país, con un buen trabajo y una vida ordenada, escribe porque desde hace unos meses llora sin motivo aparente y se siente ajena. Hace tiempo que no habla de ciertos temas con nadie, porque en el idioma local no le salen. En las primeras sesiones aparece algo que no esperaba: el duelo por lo que dejó y por los años de una familia que cambió sin ella. Una vez que el dolor encontró su idioma, pudo empezar a ordenarse. Es una escena compuesta, no un caso real.
+
+## Cómo se trabaja
+
+Desde un enfoque integrativo con base junguiana y psicoanalítica, lo que ocurre en terapia es una conversación regular sostenida en un encuadre: horario fijo, privacidad, continuidad. A distancia se agrega un cuidado extra con lo que se ve y lo que no se ve: el tono de la voz, los silencios, el cansancio en la cara. Los temas habituales son el [duelo migratorio](/recursos/duelo-migratorio/), la soledad, el choque de pertenencias y la duda sobre dónde está «el hogar». Y cuando hay un sueño o una imagen, se trabaja igual que en persona.
+
+## Matices y límites
+
+Qué tiene investigación: la terapia por video funciona razonablemente bien para muchas consultas, y la alianza se puede formar a distancia. Qué es teoría: la idea de que la lengua materna da acceso a capas emocionales más profundas es una hipótesis razonable, apoyada en estudios cualitativos, pero no es una ley universal. Qué hay que cuidar: la privacidad (un espacio donde nadie escuche), la conexión, y la legislación de cada país, que cambia y conviene revisar. Hay situaciones en las que la presencialidad o un tratamiento local son mejores, como una crisis aguda, un riesgo para la vida o un cuadro que requiere medicación y seguimiento médico. En esos casos, el profesional lo plantea con claridad.
+
+Podés ver más en la página de [terapia online](/terapia-online/) y en [terapia online por país](/terapia-online-por-pais/).
 
 ## Preguntas frecuentes
 

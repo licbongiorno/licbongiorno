@@ -11,7 +11,7 @@ orden: 37
 estado: publicado
 respuesta: El apego es el vínculo emocional que un bebé construye con quienes lo cuidan, y que le da seguridad para explorar el mundo. La teoría fue desarrollada por John Bowlby y Mary Ainsworth. Según cómo fueron esos primeros cuidados, se describen estilos de apego —seguro, ansioso, evitativo y desorganizado— que influyen en los vínculos adultos, aunque no los determinan: pueden cambiar con nuevas experiencias y con terapia.
 menciona: apego, bowlby
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es que «elijas mal». Es esa angustia cuando el otro tarda en contestar un mensaje, o esa necesidad de irte justo cuando alguien se acerca demasiado. Es el miedo a que te dejen, o el miedo a depender. Antes de saber hablar ya aprendimos algo sobre el amor: si el otro viene cuando lloramos, si se queda, si se va. Eso que aprendimos tan temprano sigue hablando bajito en cada vínculo.
 
@@ -56,6 +56,24 @@ Si te reconocés en alguno de estos patrones, podés leer sobre [dificultades vi
 Para reflexionar sobre tu forma de vincularte (sin tests ni etiquetas), podés usar el [laboratorio de vínculos y límites](/laboratorio-de-vinculos/).
 
 Cómo se ve el apego en la pareja adulta, y por qué los estilos no son un destino, lo desarrollo en [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/).
+
+## Contexto histórico
+
+Bowlby trabajó en Londres, en la Clínica Tavistock, y en 1951 redactó para la Organización Mundial de la Salud el informe *Maternal Care and Mental Health*, sobre los efectos de la separación y de la crianza en instituciones en los niños. Antes de él, la teoría psicoanalítica explicaba el vínculo con la madre sobre todo por la alimentación. Bowlby tomó ideas de la etología (el estudio de Konrad Lorenz sobre la impronta) y mostró que el vínculo responde a una necesidad propia de protección. Los experimentos de Harry Harlow con monos, en los años cincuenta, reforzaron la idea: las crías preferían una figura blanda que no les daba leche a otra de alambre que sí. También pesaron las observaciones de [René Spitz](/recursos/rene-spitz/) sobre bebés criados en instituciones, y los registros de James y Joyce Robertson sobre niños pequeños separados de sus padres durante una internación.
+
+Mary Ainsworth, que había observado a madres e hijos en Uganda, desarrolló después en Baltimore la «situación extraña», el procedimiento de laboratorio que dio origen a los estilos de apego. En 1986, Mary Main y Judith Solomon propusieron la categoría de apego desorganizado. Más tarde, Cindy Hazan y Phillip Shaver (1987) llevaron la idea a las parejas adultas, y Main desarrolló una entrevista para estudiar el apego en adultos. Ver [John Bowlby](/recursos/john-bowlby/) y [Mary Ainsworth](/recursos/mary-ainsworth/).
+
+## Una escena cotidiana
+
+Una nena de dos años juega en la plaza, se aleja unos metros y mira hacia atrás para chequear que su papá sigue ahí. Si se asusta, corre hacia él, se calma y vuelve a jugar. Esa secuencia de ir y volver es el apego en acción: la presencia confiable es lo que permite alejarse. Algo parecido pasa en la vida adulta cuando alguien puede decir «tengo un problema» a una persona de confianza y, con eso, se anima a enfrentarlo.
+
+## Cómo se usa en la práctica clínica
+
+El apego es un marco de lectura, no un diagnóstico. En terapia sirve para pensar cómo la persona pide ayuda, qué espera del otro y cómo reacciona ante la cercanía y la distancia, incluida la relación con el propio terapeuta. Desde un enfoque integrativo, con base junguiana y psicoanalítica, se lo combina con la historia personal y con lo simbólico: no es lo mismo «mi estilo es ansioso» que entender qué escenas lo formaron. Una línea de trabajo influyente es la de Peter Fonagy y colaboradores, que vincularon el apego seguro con la capacidad de mentalizar, es decir, de entender las propias emociones y las de otros ([la mentalización](/recursos/la-mentalizacion/)). Para pensar la crianza, ver [maternidad y paternidad](/recursos/maternidad-y-paternidad/) y el [laboratorio del desarrollo y el apego](/laboratorio-del-desarrollo-y-el-apego/).
+
+## Matices y límites
+
+La teoría del apego es una de las más estudiadas de la psicología del desarrollo, pero tiene límites. La «situación extraña» se diseñó para bebés de una cultura y una época; los patrones de reacción varían entre culturas, y hay críticas a tomar un único modelo de cuidado como medida. El temperamento del bebé también influye, no solo el cuidador. Las categorías (seguro, ansioso, evitativo, desorganizado) simplifican algo que en adultos se mide mejor como dimensiones, y los autoinformes no siempre coinciden con las entrevistas. La estabilidad del estilo de apego entre la infancia y la adultez existe, pero es moderada: muchas cosas ocurren en el medio. Y las etiquetas de internet («soy evitativo») pueden ser una invitación a reflexionar o una excusa para dejar de hacerlo. Ver [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/).
 
 ## Preguntas frecuentes
 

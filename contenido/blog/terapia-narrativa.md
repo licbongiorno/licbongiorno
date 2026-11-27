@@ -11,7 +11,7 @@ orden: 56
 estado: publicado
 respuesta: La terapia narrativa fue desarrollada por Michael White y David Epston en los años ochenta. Parte de la idea de que nuestras identidades se construyen con las historias que contamos y nos cuentan. Propone externalizar el problema («la persona no es el problema; el problema es el problema»), buscar excepciones que la historia dominante deja afuera y construir una historia alternativa más fiel a la persona.
 menciona: narrativa
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 «Soy un desastre». Parece un hecho, pero es una historia. Una que quizás empezó con un comentario en la escuela, se repitió en casa y terminó pareciendo tu identidad. Y como toda historia, deja cosas afuera: las veces que pudiste, que te animaste, que alguien te vio de otra manera.
 
@@ -52,6 +52,28 @@ En mi [enfoque integrativo](/enfoque/) tomo recursos de la terapia narrativa, so
 Para practicar, te espera el [laboratorio narrativo](/laboratorio-narrativo/), con un árbol de la vida que se dibuja con lo que escribís. Y si querés revisar tu historia en un espacio propio, podés escribirme.
 
 Una idea emparentada, la de que somos habitados por muchas voces, viene de [Mijaíl Bajtín y su teoría del diálogo](/recursos/bajtin-y-el-dialogo/).
+
+## Contexto histórico
+
+Michael White trabajaba en Adelaida, Australia, y con David Epston, desde Nueva Zelanda, publicó en 1990 *Narrative Means to Therapeutic Ends*. Se inspiraron en el antropólogo Gregory Bateson y en la idea de que las personas organizamos la experiencia en relatos. Michael White murió en 2008; el Dulwich Centre, que él fundó en Adelaida, sigue difundiendo el enfoque. Una pieza menos conocida es la de los **testigos externos**, que White tomó de la antropóloga Barbara Myerhoff y sus «ceremonias de definición»: personas que escuchan la historia de alguien y responden desde lo que les resonó, de modo que la persona se siente reconocida.
+
+## Un ejemplo cotidiano
+
+Decís «soy impuntual». Es una frase corta, pero resume décadas de reproches. Ahora pensá en las veces que llegaste a tiempo a algo que te importaba: un examen, un vuelo, el nacimiento de un hijo. Esos momentos no son un accidente: dicen algo sobre lo que valorás y sobre las habilidades que ya tenés. La terapia narrativa los llama **acontecimientos extraordinarios** y hace preguntas para que se vuelvan una historia con peso propio.
+
+## Una viñeta
+
+Un adolescente llega con la queja de que «es vago». En sesión se habla de «la Desgana» como alguien que se le mete al volver del colegio. Se explora cuándo gana, cuándo pierde y a quién le conviene que él se vea como vago. Surge que los fines de semana, cuando ayuda a su abuelo con la huerta, la Desgana casi no aparece. Esa excepción se vuelve el comienzo de otra historia: la de alguien que se compromete con lo que le importa. Es una escena compuesta, no un caso real.
+
+## Cómo se trabaja en terapia
+
+La conversación narrativa es una práctica de preguntas: sobre el efecto del problema en la vida de la persona, sobre sus excepciones, sobre los valores que esas excepciones revelan y sobre quiénes fueron testigos o aliados. Desde un enfoque integrativo con base junguiana, esto converge con la idea de que los relatos, los [mitos y cuentos](/recursos/mitos-y-cuentos-jung/), estructuran la vida psíquica. También conversa con [la crítica interna](/recursos/la-critica-interna/), que muchas veces es la voz de una historia dominante.
+
+## Matices y límites
+
+Qué tiene investigación: hay estudios con resultados favorables, como el de Vromans y Schweitzer (2011, *Psychotherapy Research*, 21(1)) en adultos con depresión mayor. Son pocos y a veces pequeños, de modo que la evidencia es limitada. Qué es teoría: la idea de que las historias «constituyen» la identidad es una posición filosófica (construccionismo social), no un hallazgo empírico. Qué se discute: externalizar no significa eximir de responsabilidad. En situaciones de violencia, White insistía en que la persona que daña debe hacerse cargo de sus actos, y quien la sufrió no es «parte del problema». Y una historia alternativa no es un relato positivo forzado: tiene que ser verosímil para quien la cuenta.
+
+Para practicar, el [laboratorio de reautoría](/laboratorio-narrativa-reautoria/) y el [de testigos](/laboratorio-narrativa-testigos/) ofrecen ejercicios guiados.
 
 ## Preguntas frecuentes
 

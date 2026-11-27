@@ -11,7 +11,7 @@ orden: 184
 estado: publicado
 respuesta: La procrastinación es postergar de forma voluntaria algo que queremos o necesitamos hacer, aun sabiendo que nos va a perjudicar. Las investigaciones de Fuschia Sirois y Timothy Pychyl muestran que no es un problema de manejo del tiempo, sino de regulación de emociones: postergar alivia por un rato el malestar que genera la tarea. Por eso ayuda más trabajar con ese malestar que con agendas más estrictas.
 menciona: motivacion
-revision: 2026-11-10
+revision: 2026-11-27
 ---
 Una pestaña abierta con el trabajo que hay que entregar. Al lado, otras veinte: noticias, redes, un video, una receta que nunca vas a hacer. La tarea sigue ahí, esperando, y cada hora que pasa pesa un poco más.
 
@@ -46,6 +46,20 @@ Cuando la procrastinación afecta tus estudios, tu trabajo o tus vínculos, cuan
 Si te cuesta empezar, la idea del [kaizen](/recursos/kaizen/) propone avanzar en pasos tan pequeños que no den miedo.
 
 Por qué los pendientes siguen ocupando la cabeza lo estudió [Bluma Zeigarnik](/recursos/bluma-zeigarnik/); para trabajarlo, está el [laboratorio de Zeigarnik](/laboratorio-de-zeigarnik/).
+
+## Una escena del consultorio
+
+Una estudiante lleva semanas sin empezar el trabajo final de su carrera. Limpió la casa, ordenó el escritorio, hizo planillas de organización: todo menos escribir la primera línea. Cuando le preguntamos qué siente al abrir el documento, aparece una frase: «Si lo hago y sale mal, se confirma que no soy tan capaz». Postergar, entonces, protegía algo: mientras no lo entregue, la duda sobre su capacidad queda en suspenso. Esto es muy común, y explica por qué una agenda mejor no siempre resuelve nada.
+
+## Cómo se trabaja en terapia
+
+El primer paso es mirar **qué función cumple la demora**: qué emoción evita, qué temor protege, qué voz interna aparece. Para algunas personas es [perfeccionismo](/recursos/autoexigencia-y-perfeccionismo/) y miedo al juicio; para otras, aburrimiento y poca claridad sobre el valor de la tarea; para otras, una exigencia ajena que no sienten propia. Desde un enfoque integrativo, con base junguiana y psicoanalítica, nos interesa también el sentido simbólico: a veces lo que se posterga es un paso que implica cambiar de lugar, de etapa o de identidad (terminar una carrera, dejar un trabajo, decidirse), y la demora expresa una ambivalencia legítima.
+
+En lo práctico se combinan herramientas de otros enfoques con buen respaldo: fraccionar la tarea, definir cuándo y dónde se hace, tolerar el malestar sin escapar (como propone [la terapia de aceptación y compromiso](/recursos/terapia-de-aceptacion-y-compromiso/)) y tratarse con amabilidad cuando algo se posterga. Para trabajar los pasos pequeños, ver [la activación conductual](/recursos/activacion-conductual/) y [la motivación](/recursos/la-motivacion/).
+
+## Matices y límites
+
+Lo que mejor sostiene la investigación es la relación entre procrastinación e impulsividad, y el papel de la regulación emocional (Steel, 2007; Sirois y Pychyl, 2013). Esa explicación no cubre todos los casos: hay quien posterga por sobrecarga real, por problemas de salud, por una tarea mal definida o porque el contexto no da las condiciones. También conviene distinguir la postergación ocasional de un patrón que afecta la vida entera, y de otros cuadros que pueden estar detrás: depresión, ansiedad, dificultades de atención. Por último, las técnicas de productividad pueden ser útiles, pero no son psicoterapia; si la demora se vive con mucha culpa o desesperanza, conviene consultar.
 
 ## Preguntas frecuentes
 

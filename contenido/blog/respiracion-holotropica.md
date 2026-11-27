@@ -58,6 +58,26 @@ La respiración holotrópica aparece en dos mapas: [el mapa de las psicoterapias
 
 Lecturas: Rhinewine, J. P. y Williams, O. J. (2007), «Holotropic Breathwork: the potential role of a prolonged, voluntary hyperventilation procedure as an adjunct to psychotherapy», *Journal of Alternative and Complementary Medicine*, 13(7), 771–776.
 
+## Contexto histórico
+
+Stanislav Grof investigó durante años los efectos terapéuticos del LSD en Checoslovaquia y en Estados Unidos. Cuando esas investigaciones se frenaron por la prohibición de las sustancias, él y Christina Grof buscaron, hacia mediados de los años setenta y en el Instituto Esalen, de California, un método sin fármacos para acceder a los estados no ordinarios de conciencia. Así nació la respiración holotrópica. El nombre viene del griego: *holos* (todo) y *trepein* (moverse hacia). Hoy se practica en talleres de uno o varios días, con facilitadores que se forman en programas privados, sin una regulación estatal común.
+
+## Una viñeta
+
+Alguien llega a terapia después de haber hecho un taller de fin de semana. Cuenta que lloró durante horas, que sintió una opresión en el pecho muy parecida a un recuerdo de la infancia y que desde entonces no duerme bien. No sabe si «se abrió algo» o si le hizo mal. En ese caso, la tarea es primero ordenar y calmar: revisar el sueño, el estado corporal y la ansiedad, y recién después preguntarse qué significa lo vivido. Es una escena compuesta, sin referencia a ninguna persona real.
+
+## Cómo se trabaja en terapia lo que aparece
+
+Desde un enfoque integrativo con base junguiana y psicoanalítica, una experiencia intensa, venga de donde venga, se escucha con curiosidad y con prudencia. Se atiende a tres cosas: si la persona está estable en el presente, qué contenido surgió (imágenes, recuerdos, sensaciones) y cómo se conecta con su historia. En general se prioriza la regulación y la seguridad antes de explorar lo vivido, algo que también se enseña en el trabajo con trauma ([trauma complejo](/recursos/trauma-complejo/), [disociación](/recursos/la-disociacion/)). Una imagen que aparece en una sesión así puede trabajarse como una imagen de sueño, sin darle un significado cerrado.
+
+## Matices y límites
+
+Qué tiene respaldo: la fisiología de la hiperventilación es conocida, y la vivencia de muchas personas es real y significativa para ellas. Qué es teoría: las «matrices perinatales» de Grof, que proponen que revivimos el nacimiento en estas sesiones, son una hipótesis sin apoyo empírico sólido y muy discutida. Qué se discute: si los cambios que la gente refiere se deben a la respiración, al grupo, a la música, a la expectativa o a una mezcla de todo. Es un punto común con otras prácticas intensas: la experiencia puede ser genuina sin que la explicación sea correcta.
+
+Un último cuidado: sentirse mejor después de una sesión no prueba que haya sido terapéutica, y sentirse peor tampoco prueba que «haya que atravesarlo». Si algo te preocupa, consultá a un profesional de salud.
+
+Si querés conocer el contexto, podés leer sobre [Stanislav Grof](/recursos/stanislav-grof/), la [psicología transpersonal](/recursos/psicologia-transpersonal/) y la [experiencia mística](/recursos/experiencia-mistica/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la respiración holotrópica?

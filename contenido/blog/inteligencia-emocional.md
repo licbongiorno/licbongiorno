@@ -11,7 +11,7 @@ orden: 35
 estado: publicado
 respuesta: La inteligencia emocional es la capacidad de percibir, comprender y manejar las propias emociones y las de los demás, y de usarlas para pensar y actuar mejor. El concepto fue propuesto por Peter Salovey y John Mayer en 1990 y popularizado por Daniel Goleman en 1995. No significa reprimir lo que sentimos: significa poder registrarlo, entenderlo y elegir qué hacer con eso.
 menciona: inteligencia-emocional
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es estar siempre tranquilo ni sonreír cuando te cae mal alguien. Es darte cuenta de que esa respuesta seca que le diste a tu pareja no era por los platos sin lavar, sino por el día horrible en el trabajo. Es notar que tu amigo dice «estoy bien» con la voz de alguien que no está bien. Es poder decir «estoy enojado» en vez de dar un portazo. Parece poco. Es muchísimo.
 
@@ -49,6 +49,33 @@ Salovey y Mayer describieron cuatro habilidades relacionadas:
 ## La mirada de la psicoterapia
 
 En terapia, el trabajo con las emociones va un poco más allá de las habilidades: busca entender por qué ciertas emociones nos desbordan, cuáles aprendimos a esconder y qué historia hay detrás. Desde la psicología de Jung, las emociones intensas suelen señalar un complejo activado y pueden ser una puerta de cambio ([las emociones según Jung](/recursos/las-emociones-segun-jung/)). Si sentís que lo que sentís te maneja, podés escribirme. También podés practicar en el [laboratorio de emociones](/laboratorio-de-emociones/) y en el de [habilidades para emociones intensas](/laboratorio-de-habilidades-dbt/).
+
+## Un poco de historia
+
+La idea de que las emociones forman parte de la inteligencia es anterior a Goleman. Ya en 1983 Howard Gardner hablaba de inteligencias intra e interpersonales ([inteligencias múltiples](/recursos/inteligencias-multiples/)). Salovey y Mayer, en 1990, la formularon como un conjunto de habilidades que se pueden medir, y desarrollaron un test de desempeño, el MSCEIT. Goleman, en 1995, amplió el término a un modelo más grande, que incluía rasgos como la motivación o el optimismo. Por eso hoy se habla de dos enfoques: el de **habilidad** (Mayer y Salovey) y el **mixto** (Goleman), que no son lo mismo ni se miden igual.
+
+## Una viñeta cotidiana
+
+Una mujer consulta porque «explota» con sus hijos y después se siente pésima. Cuando se le pregunta qué sentía un segundo antes, contesta: «nada, estaba bien». Con el tiempo aparece que el cuerpo avisaba: la mandíbula, el apuro, un cansancio que ella llamaba «estoy bien». No necesitaba aprender a controlarse; necesitaba aprender a darse cuenta antes. (Escena genérica, no corresponde a una persona real.)
+
+Algunas personas tienen mucha dificultad para identificar y describir lo que sienten. En psicología se llama alexitimia, un término que propuso Peter Sifneos en los años setenta. No es un diagnóstico en sí mismo, pero ayuda a entender por qué «ser emocionalmente inteligente» no es solo cuestión de esfuerzo.
+
+## Cómo se trabaja en terapia
+
+El trabajo clínico suele recorrer tres pasos que se parecen a las habilidades del modelo, aunque no se las nombre así:
+
+- **Registrar:** volver al cuerpo y a las sensaciones, que es lo que estudia la [interocepción](/recursos/interocepcion/).
+- **Nombrar y comprender:** diferenciar la emoción, ver su historia, ver qué la dispara.
+- **Pensar la emoción:** lo que en psicoanálisis contemporáneo se llama [mentalización](/recursos/la-mentalizacion/), la capacidad de entender los propios estados y los ajenos como estados mentales.
+
+Con base junguiana se agrega algo más: una emoción desproporcionada suele indicar que se tocó un complejo, y entonces la pregunta no es solo cómo manejarla, sino qué parte de la historia se movió.
+
+## Matices y límites
+
+- Los tests de habilidad tienen una validez discutida: se diferencian poco de otras medidas de inteligencia y de personalidad, y hay debate sobre qué miden exactamente.
+- Los programas escolares de aprendizaje socioemocional tienen estudios con resultados favorables, aunque varían mucho según cómo se los aplica.
+- Una persona con mucha habilidad emocional puede usarla para manipular. El concepto no garantiza buena intención.
+- No es una virtud que se pueda exigir: cuando alguien atraviesa un duelo o una depresión, no está fallando en su inteligencia emocional.
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ fecha_visible: noviembre de 2026
 orden: 7
 estado: publicado
 respuesta: La crisis de la mitad de la vida es un período, a menudo entre los cuarenta y los cincuenta años, en el que lo logrado deja de alcanzar y aparece la pregunta por el sentido. Jung la entendía como un llamado a mirar hacia adentro e integrar lo relegado: el proceso de individuación.
-revision: 2026-11-05
+revision: 2026-11-27
 menciona: jung, psicologia-analitica
 ---
 Tenés el trabajo que buscabas, una familia, una rutina que funciona. Subiste la escalera que te dijeron que había que subir. Y un día, arriba de todo, mirás alrededor y te preguntás si era esta la pared donde querías apoyarla.
@@ -43,6 +43,24 @@ La palabra *crisis* viene del griego y significa «decisión», «separación».
 Un espacio terapéutico permite detenerse y escuchar lo que la crisis está diciendo. Desde la mirada junguiana, se trabaja con la historia, con los deseos postergados y con las imágenes que aparecen en sueños y fantasías, como parte del [proceso de individuación](/glosario-junguiano/#individuacion). La primera mitad de la vida nos enseña a construir la casa; la segunda nos invita a habitarla de verdad.
 
 Si querés revisar qué te importa hoy, podés usar el [laboratorio de valores y sentido](/laboratorio-de-valores/).
+
+## Contexto: de dónde viene la expresión
+
+Jung escribió sobre las dos mitades de la vida en 1931, pero la expresión «crisis de la mitad de la vida» se hizo popular a partir del psicoanalista Elliott Jaques, que la usó en 1965 en un artículo sobre la creatividad y la conciencia de la muerte. Desde entonces se la usa tanto en la clínica como en la cultura popular, a veces con humor y a veces con burla.
+
+## Una escena frecuente
+
+Un hombre de cuarenta y ocho años, llamémoslo Ernesto, se levanta una mañana sin ganas de ir a la oficina donde trabaja hace veinte. Nada pasó: no hay conflicto, no hay pérdida. Pero dos semanas antes cumplió años y, mirando la foto familiar, pensó: «¿esto es todo?». Empieza a revisar si dedicarse a otra cosa, a mirar con sospecha su matrimonio y a soñar con casas de otros lugares. Es un ejemplo genérico: lo importante no es qué cambia, sino qué pregunta se abre.
+
+## Cómo se trabaja en terapia
+
+Con un enfoque integrativo, se empieza por **distinguir**: ¿hay una depresión que necesita tratamiento? ¿Un duelo, un cambio hormonal, una sobrecarga de cuidados? Si es una crisis de sentido, se explora qué valores quedaron relegados y qué partes de uno no tuvieron lugar. Se trabaja con la historia, con los sueños y con lo que Jung llamó [proceso de individuación](/recursos/el-proceso-de-individuacion/). También son útiles las [transiciones vitales](/recursos/transiciones-vitales/) y el [laboratorio de crisis vitales](/laboratorio-de-crisis-vitales/).
+
+## Matices y límites
+
+- **Lo que dice la investigación:** estudios longitudinales amplios, como el proyecto MIDUS, encontraron que solo una parte de las personas de mediana edad vive una crisis marcada. No es un destino universal, y para muchos esta etapa es de estabilidad y satisfacción.
+- **Lo que es teoría:** la idea junguiana de las dos mitades es una **lectura simbólica** muy fértil, pero no una fase evolutiva comprobada que todos atraviesan a una edad fija.
+- Cuidado con confundir crisis con depresión: si el desánimo es persistente, afecta el sueño o el apetito o aparecen ideas de no querer vivir, conviene consultar pronto. En ese caso, mirá [Ayuda urgente](/ayuda-urgente/).
 
 ## Preguntas frecuentes
 

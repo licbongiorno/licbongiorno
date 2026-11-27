@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 96
 estado: publicado
 respuesta: La ventana de tolerancia es un concepto del psiquiatra Daniel Siegel que describe la franja de activación en la que una persona puede sentir emociones intensas sin dejar de pensar y de elegir. Por encima está la hiperactivación (alarma, ansiedad, enojo) y por debajo la hipoactivación (apagamiento, vacío, desconexión). El trauma y el estrés crónico suelen estrecharla, y el trabajo terapéutico busca ampliarla.
-revision: 2026-11-06
+revision: 2026-11-27
 menciona: daniel-siegel
 ---
 No, no es una medida de cuánto «aguantás». Es algo más útil: un mapa para entender por qué a veces una situación pequeña te desborda y otras veces podés atravesar algo grande con calma. Cuando lo explico en consulta, muchas personas dicen lo mismo: «ah, entonces no estoy loco, estoy fuera de mi ventana».
@@ -47,6 +47,22 @@ Podés practicarlo en el [laboratorio de regulación](/laboratorio-de-regulacion
 ## En terapia
 
 Una parte importante del trabajo terapéutico, sobre todo cuando hubo trauma, es hacerlo **dentro de la ventana**: ni tan lejos de lo difícil que no se toque, ni tan cerca que desborde. Si sentís que salís seguido de tu ventana, podés leer sobre [trauma y regulación emocional](/trauma/) o [escribirme](/contacto/).
+
+## Una escena del consultorio
+
+Alguien, llamémoslo Nacho, llega a una reunión con el jefe después de dormir mal. Un comentario menor lo hace sentir que le tiemblan las manos y se le acelera la cabeza: sale arriba de la ventana. Esa noche, en cambio, se siente vacío, sin ganas de hablar con nadie: abajo. Es un ejemplo genérico, pero muestra que la ventana no es fija; cambia con el cansancio, el estrés y el contexto.
+
+## Cómo se trabaja en terapia
+
+En un enfoque integrativo, se empieza por **aprender el mapa**: reconocer las señales de cada zona sin juicio. Después se practican recursos de regulación, tanto de abajo hacia arriba (cuerpo, respiración, movimiento) como de arriba hacia abajo (nombrar, ordenar, pensar). Cuando se trabajan recuerdos o temas difíciles, el terapeuta cuida la dosificación: tocar un poco, volver a un lugar seguro, volver a tocar. Esto se relaciona con [somatic experiencing](/recursos/somatic-experiencing/), con la [psicoterapia sensoriomotriz](/recursos/psicoterapia-sensoriomotriz/) y con el trabajo en [estrés postraumático](/recursos/estres-postraumatico/).
+
+## Matices y límites
+
+- La ventana de tolerancia es un **modelo clínico y una metáfora**, útil para organizar la experiencia; no es una medida que pueda observarse directamente en el cerebro ni una cifra que alguien tenga.
+- Otras ideas que suelen asociarse, como los estados del sistema nervioso en la [teoría polivagal](/recursos/teoria-polivagal/), son discutidas en la comunidad científica. Conviene usarlas con cautela, como mapas y no como hechos establecidos.
+- Los ejercicios de regulación ayudan a muchas personas, pero no reemplazan el tratamiento del trauma: si vivís recuerdos intrusivos o desconexión frecuente, consultá con un profesional.
+
+Para entender cómo el cuerpo registra lo vivido, leé [el cuerpo lleva la cuenta](/recursos/el-cuerpo-lleva-la-cuenta/).
 
 ## Preguntas frecuentes
 

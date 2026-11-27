@@ -49,6 +49,25 @@ Hakomi puede ser útil para quien siente que sabe lo que le pasa, pero no logra 
 
 Lecturas: Kurtz, R. (1990), *Body-Centered Psychotherapy: The Hakomi Method*, LifeRhythm. Weiss, H., Johanson, G. y Monda, L. (eds.) (2015), *Hakomi Mindfulness-Centered Somatic Psychotherapy: A Comprehensive Guide to Theory and Practice*, W. W. Norton.
 
+## Contexto: de dónde sale el método
+
+Ron Kurtz (1934–2011) empezó a formular Hakomi hacia fines de los años setenta, en Estados Unidos, tomando ideas de varias fuentes: la psicoterapia corporal posreichiana, el *focusing* de [Eugene Gendlin](/recursos/eugene-gendlin/), la terapia Gestalt, la teoría de sistemas y una sensibilidad cercana al budismo y al taoísmo. Según contaba Kurtz, el nombre viene de una palabra de la lengua hopi, que suele traducirse como una pregunta: cómo te ubicás en relación con los muchos mundos. Es una imagen que le gustaba al método, más que una referencia que convenga tomar como dato etnográfico.
+
+## Una escena de sesión
+
+Alguien cuenta que no pide nunca nada y que le cuesta aceptar un favor. Mientras habla, el terapeuta nota que cada vez que dice «favor» el hombre baja la mirada y encoge un poco los hombros. Se lo señala con suavidad y propone un pequeño experimento: que se quede un momento con ese gesto, sin exagerarlo todavía, y que diga mentalmente una frase de cuidado, algo así como «está bien que pidas». La persona nota una opresión en el pecho y, enseguida, un recuerdo de ser chico y de no molestar. No hay interpretación del terapeuta: el sentido lo va armando quien lo vive. (Escena genérica, ilustrativa.)
+
+## Cómo se ve en un enfoque integrativo
+
+Hakomi se lleva bien con una psicoterapia de base psicoanalítica y junguiana porque comparte una preocupación: lo que organiza nuestra vida muchas veces no está dicho. Lo que el método llama creencias nucleares se parece, en lenguaje clínico, a lo que el psicoanálisis describe como modelos relacionales inconscientes, y a lo que Jung llamó [complejos](/recursos/los-complejos-segun-jung/): configuraciones cargadas de emoción que se activan sin aviso. La diferencia está en la puerta de entrada, que acá es el cuerpo en el presente. Además, la actitud de atención sin juicio coincide con lo que se enseña en [mindfulness](/recursos/mindfulness-atencion-plena/).
+
+## Matices y límites
+
+- Hakomi no es un tratamiento con eficacia comprobada para un trastorno específico; su respaldo es clínico y formativo.
+- La lectura de gestos y posturas es un recurso para hacer preguntas, no una técnica de adivinación. Un gesto puede tener muchas causas y la hipótesis solo vale si la persona la reconoce como propia.
+- Hay una distancia entre lo que se dice de las «creencias nucleares» y lo que se pudo medir: es un concepto clínico útil, no una entidad demostrada.
+- No es lo más indicado en una crisis aguda ni cuando la persona está muy desbordada: antes hace falta estabilizar. Para ubicarlo entre otras escuelas, mirá el [mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es Hakomi?

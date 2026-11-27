@@ -11,7 +11,7 @@ orden: 42
 estado: publicado
 respuesta: La empatía es la capacidad de comprender y resonar con lo que otra persona siente y piensa. Se distinguen la empatía cognitiva, que es entender la perspectiva del otro, y la empatía emocional, que es sentir con él. La compasión agrega el deseo de ayudar. La empatía necesita límites: sin ellos, puede llevar al desgaste emocional.
 menciona: empatia
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Quedarte callado al lado de alguien que llora, sin apurarte a darle consejos. Notar que tu hijo no está enojado con vos, sino asustado. Sentir un nudo en la garganta cuando un amigo te cuenta algo que le duele. Y también, a veces, volver a casa agotado de cargar con lo de todos. La empatía es un don. Y como todo don, pide cuidado.
 
@@ -55,6 +55,25 @@ Si sentís que cargás con lo de todos y ya no te queda energía, o al revés, s
 La pregunta de si la compasión es innata tiene una larga historia en China: la desarrollo en [Mencio y Xunzi](/recursos/mencio-y-xunzi/).
 
 La cultura coreana tiene una palabra para el arte de leer lo que el otro siente sin que lo diga: el [nunchi](/recursos/nunchi/).
+
+## Una viñeta
+
+Una enfermera de guardia cuenta que hace meses «no siente nada» cuando alguien llora, y que eso la asusta. Ella siempre fue la que acompañaba, la que se quedaba un rato más. Lo que aparece en terapia es que no se quedó sin empatía: se quedó sin reservas. Había dejado de registrar su propio cansancio, y la mente cortó el cable para protegerla. (Escena genérica, ilustrativa.)
+
+## Un poco de historia
+
+La palabra «empatía» es relativamente reciente. Viene del alemán *Einfühlung* (algo como «sentirse dentro de»), usado en estética a fines del siglo XIX, y llegó al inglés como *empathy* en 1909 en la traducción que hizo Edward Titchener. En psicoterapia, Carl Rogers la puso en el centro: para él, comprender el mundo del otro «como si» fuera propio, sin perder ese «como si», era una condición del cambio ([Carl Rogers](/recursos/carl-rogers/)). Desde el psicoanálisis, Heinz Kohut sostuvo que la empatía es el modo de observación propio del trabajo clínico ([Heinz Kohut](/recursos/heinz-kohut/)).
+
+## Cómo se trabaja en terapia
+
+En el consultorio, la empatía es a la vez herramienta y tema. Como herramienta, es la atención que sostiene al terapeuta y que le permite decir algo que la persona siente que la entendió. Como tema, se trabaja con quienes cargan con todos o con quienes sienten que no logran conectar. Para los primeros, se aprende a distinguir lo propio de lo ajeno, a tolerar la culpa de decir que no y a recuperar un espacio donde alguien los sostenga. Para los segundos, se explora qué pasó con la propia historia afectiva: a veces la dificultad de sentir con otros es el eco de no haber sido sentido. Eso se vincula con el [apego](/recursos/el-apego/) y con la [mentalización](/recursos/la-mentalizacion/), la capacidad de pensar los estados propios y ajenos. Desde Jung, también importa la [proyección](/recursos/la-proyeccion-segun-jung/): a veces creemos sentir al otro cuando en realidad estamos sintiendo lo nuestro en él.
+
+## Matices y límites
+
+- **Con investigación:** la distinción entre empatía cognitiva y afectiva es útil, y los estudios de Singer y Klimecki (2014) sostienen que entrenar la compasión se asocia con más afecto positivo que entrenar la empatía emocional sola.
+- **Con debate:** las neuronas espejo se citaron mucho como «base de la empatía», pero su rol en humanos es discutido. Conviene desconfiar de explicaciones simples.
+- **Una crítica real:** el psicólogo Paul Bloom, en *Against Empathy* (2016), argumenta que decidir según la empatía puede sesgar: sentimos más por una persona concreta que por muchas anónimas. No hace falta compartir todo su argumento para tomar la advertencia.
+- Más empatía no es siempre mejor. Para cuidar sin desgastarse, mirá también [cuidar a un familiar](/recursos/cuidar-a-un-familiar/) y los [límites sanos en los vínculos](/recursos/limites-sanos-en-los-vinculos/).
 
 ## Preguntas frecuentes
 

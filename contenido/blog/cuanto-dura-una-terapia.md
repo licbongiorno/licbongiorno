@@ -11,7 +11,7 @@ orden: 234
 estado: publicado
 respuesta: No hay una duración única: depende del motivo de consulta, del enfoque y de lo que busque cada persona. Un problema acotado puede trabajarse en pocos meses con una terapia breve y focalizada, mientras que un proceso de autoconocimiento puede llevar años. La investigación muestra que la mejoría suele ser más rápida al principio y más gradual después.
 menciona:
-revision: 2026-11-22
+revision: 2026-11-27
 ---
 Es una de las primeras preguntas que aparecen en la consulta, y también una de las que más frenan. «¿Voy a tener que venir años?» Detrás suele haber un temor razonable: empezar algo sin fin visible, que ocupe tiempo y dinero sin saber hasta cuándo. La respuesta honesta es que depende, y se puede explicar de qué depende.
 
@@ -45,6 +45,21 @@ La terapia no tiene por qué terminar de golpe ni porque el terapeuta lo imponga
 ## Un cuidado
 
 Si pasaron varias semanas y sentís que no avanzás, hablalo con tu terapeuta antes de abandonar. Y si atravesás un momento muy difícil, no esperes: mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
+
+## Dos escenas posibles
+
+Una persona, llamémosla Camila, consulta por un miedo concreto a hablar en reuniones. Tras unas pocas semanas de trabajo focalizado y práctica entre sesiones, cumple su objetivo y cierra. Otra, llamémosla Raúl, viene sin síntoma claro: dice que quiere entender por qué repite el mismo tipo de pareja. Su proceso dura varios años, con ritmos distintos, y cambia de foco más de una vez. Son escenas genéricas, no casos reales; muestran que ninguno «tarda más» por hacerlo peor.
+
+## Cómo se acuerda en la práctica
+
+En un enfoque integrativo, el encuadre se conversa desde el principio: qué querés trabajar, con qué frecuencia, cuándo vamos a revisar cómo viene el proceso. No se promete una cantidad de sesiones. Lo que sí se puede hacer es **revisar a intervalos**: «¿esto te está sirviendo?, ¿qué cambió?, ¿qué falta?». Esa pregunta, hecha con honestidad, vale más que un número. Para saber cómo se piensa cada abordaje, podés mirar [qué es la psicoterapia integrativa](/recursos/que-es-la-psicoterapia-integrativa/) y [qué es el psicoanálisis](/recursos/que-es-el-psicoanalisis/).
+
+## Matices y límites
+
+- Los estudios de dosis-respuesta describen **promedios**. Hay personas que mejoran rápido y otras que necesitan más tiempo, y eso no habla de su capacidad.
+- Las terapias breves tienen buen respaldo para problemas acotados; para patrones profundos, la investigación es menos concluyente y depende mucho del tipo de proceso.
+- Que una terapia sea larga no la hace mejor, ni que sea corta la hace superficial. Importa que haya objetivos revisables y una buena relación de trabajo.
+- Los medicamentos, cuando están indicados, los evalúa un psiquiatra; son un recurso aparte del tiempo de terapia.
 
 ## Preguntas frecuentes
 

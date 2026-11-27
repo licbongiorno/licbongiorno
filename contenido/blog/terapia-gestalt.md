@@ -11,7 +11,7 @@ orden: 54
 estado: publicado
 respuesta: La terapia Gestalt es un enfoque de la psicología humanista creado por Fritz Perls, Laura Perls y Paul Goodman en los años cincuenta. Pone el foco en el aquí y ahora, en el darse cuenta de lo que sentimos y hacemos, y en la responsabilidad sobre la propia experiencia. Usa técnicas vivenciales como la silla vacía. Tiene evidencia de efectividad comparable a otras terapias, aunque con menos estudios.
 menciona: gestalt, humanista
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Me contás que no te importa, y mientras lo decís apretás el puño. Hablás de tu tristeza en tercera persona. Cada vez que nombrás a tu hermano, cambiás de tema. La Gestalt confía en que el cuerpo, los gestos y la forma de hablar dicen mucho, y que darse cuenta de eso ya es empezar a cambiar. Nada que ver con gritarle a un almohadón ni con «sacar todo afuera».
 
@@ -48,6 +48,28 @@ Las terapias humanistas y experienciales, incluida la Gestalt, tienen menos estu
 En mi trabajo tomo recursos de la Gestalt dentro de un [enfoque integrativo](/enfoque/) de base junguiana y psicoanalítica: la atención al presente y al cuerpo, el darse cuenta, el diálogo con partes internas. Tiene mucho en común con la [imaginación activa](/recursos/imaginacion-activa/) de Jung.
 
 Para practicar algunas de estas ideas, te espera el [laboratorio Gestalt](/laboratorio-gestalt/). Y si querés trabajar algo en sesión, podés escribirme.
+
+## Contexto histórico
+
+Fritz Perls nació en Berlín en 1893, se formó como médico y psicoanalista, y trabajó con el neurólogo Kurt Goldstein, que le transmitió una mirada del organismo como totalidad. Huyó del nazismo, vivió en Sudáfrica y llegó a Estados Unidos. En 1951 publicó con Hefferline y Goodman el texto fundacional. Laura Perls, formada en psicología de la Gestalt, en música y en danza, aportó una atención al contacto y al cuerpo que a veces se pierde en la imagen más difundida de Fritz. En los sesenta, Fritz se hizo famoso en Esalen con un estilo muy confrontativo, que después muchos gestaltistas dejaron atrás.
+
+## Un ejemplo cotidiano
+
+Pensá en una charla pendiente con un hermano. No dijiste algo y, cada vez que se nombra el tema, se te hace un nudo en el estómago. Eso que se quedó sin cerrar tiene algo en común con lo que describió **Bluma Zeigarnik**, alumna de Kurt Lewin: se recuerdan mejor las tareas interrumpidas que las terminadas. Hay que aclarar que ese hallazgo se ha replicado de forma desigual, y los terapeutas Gestalt lo usan más como imagen que como ley. Podés leer más en [Bluma Zeigarnik](/recursos/bluma-zeigarnik/).
+
+## Una viñeta
+
+Alguien perdió a su madre sin haber podido despedirse y, años después, sigue repitiendo «ya lo superé» con la mandíbula tensa. En sesión se prueba, con permiso, el trabajo de la silla vacía: contarle a su madre lo que no pudo decirle, y después sentarse en el otro lugar y responder. A veces aparece llanto, a veces enojo, a veces alivio. No se trata de actuar ni de forzar una catarsis: si la persona no quiere hacerlo, se busca otro camino, como escribir una carta o describir lo que pasa en el cuerpo. Es una escena compuesta, no un caso real.
+
+## Cómo se trabaja en terapia
+
+En la Gestalt, el terapeuta propone **experimentos**: pequeñas tareas para explorar en el momento («¿qué pasa si le decís eso en voz alta?», «¿qué hace tu mano cuando lo decís?»). Se trabaja en la **frontera de contacto**, ese lugar donde uno se encuentra con el otro y consigo, y donde pueden aparecer modos de evitar el contacto: retirarse, confundir, endurecerse. Desde un enfoque integrativo con base junguiana, esto dialoga con la [imaginación activa](/recursos/imaginacion-activa/) y con la idea de que las partes rechazadas buscan expresión.
+
+## Matices y límites
+
+Qué tiene investigación: la silla vacía y el trabajo con emociones tienen respaldo en la terapia focalizada en la emoción; la Gestalt como escuela tiene pocos ensayos propios. Qué es teoría: el ciclo de la experiencia y la teoría del campo son marcos conceptuales útiles, no leyes demostradas. Qué se discute: las versiones más teatrales y confrontativas de los años sesenta no son representativas de la práctica actual, que es más relacional y cuidadosa. Y un cuidado importante: evocar emociones intensas sin contención puede ser contraproducente, sobre todo ante historias de trauma.
+
+Podés profundizar en [Fritz Perls](/recursos/fritz-perls/), [Laura Perls](/recursos/laura-perls/), [la escuela de la Gestalt](/recursos/la-escuela-de-la-gestalt/) y el [laboratorio de darse cuenta](/laboratorio-gestalt-darse-cuenta/).
 
 ## Preguntas frecuentes
 

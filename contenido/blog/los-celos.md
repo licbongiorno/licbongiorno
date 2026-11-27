@@ -11,7 +11,7 @@ orden: 181
 estado: publicado
 respuesta: Los celos son la emoción que aparece ante el miedo a perder un vínculo importante a manos de otra persona. Son humanos y frecuentes. Se vuelven un problema cuando pasan de una inquietud que se puede hablar a la vigilancia y el control del otro. Suelen tener raíces en la historia personal y en el estilo de apego, y la terapia ayuda a entender qué despiertan y a manejarlos.
 menciona: apego
-revision: 2026-11-10
+revision: 2026-11-27
 ---
 ¿Revisaste alguna vez el teléfono de alguien que querías? ¿O sentiste un nudo en el estómago cuando tu pareja habló con entusiasmo de una persona que no conocías? Si la respuesta es sí, no estás solo: los celos son una de las emociones más humanas que hay.
 
@@ -56,6 +56,24 @@ Podés practicar esas conversaciones en el [laboratorio de vínculos](/laborator
 Cuando los celos ocupan mucho lugar en tu cabeza, cuando aparecen la vigilancia o el control, o cuando se repiten en todas tus relaciones. También cuando estás del otro lado: si tu pareja controla con quién hablás, qué hacés o cómo te vestís, eso ya no son solo celos, y merece ayuda. En terapia buscamos entender qué viejo miedo se despierta en el presente.
 
 Para separar hechos de interpretaciones y preparar una conversación difícil, está el [laboratorio de celos](/laboratorio-de-celos/).
+
+## Una escena del consultorio
+
+Una mujer cuenta que, cada vez que su pareja sale con compañeros de trabajo, se queda mirando la última conexión en el teléfono. Sabe que no tiene pruebas de nada y que se hace daño, pero no puede parar. Cuando empezamos a hablar, aparece algo que no tenía que ver con él: de chica, un padre que se iba sin avisar y volvía como si nada. El celo de hoy llevaba puesto un miedo viejo. Ese tipo de hallazgo es frecuente, aunque nunca se puede dar por sentado: cada historia tiene su propia letra.
+
+## Cómo se trabaja en terapia
+
+Desde un enfoque integrativo, con base junguiana y psicoanalítica, no se trata de «curar» los celos ni de convencer a la persona de que no tiene motivos. Primero se escucha qué situación los dispara y qué se siente en el cuerpo: el nudo, la taquicardia, la urgencia de saber. Después se explora la historia: qué experiencias de pérdida, rivalidad o exclusión dejaron una marca. En términos junguianos, a veces los celos muestran un [complejo](/recursos/los-complejos-segun-jung/) que se activa y toma la palabra por nosotros, y también aquello que proyectamos en el otro y no reconocemos propio, como el propio deseo de otros vínculos o la propia vulnerabilidad ([la proyección según Jung](/recursos/la-proyeccion-segun-jung/)).
+
+En paralelo se trabaja lo práctico: tolerar la incertidumbre sin salir a controlar, sostener la inquietud unos minutos antes de preguntar, y aprender a pedir lo que se necesita sin acusar. Si hay pareja, a veces se invita a una conversación conjunta; ver [terapia de pareja](/recursos/terapia-de-pareja/).
+
+## Matices y límites
+
+Conviene distinguir lo que tiene investigación de lo que es teoría. Hay estudios que asocian los celos intensos con el apego ansioso y con la baja autoestima, pero son correlaciones: no demuestran que una cosa cause la otra. David Buss propuso una explicación evolutiva de los celos, con diferencias entre varones y mujeres, que sigue discutida y no explica las experiencias individuales. La lectura psicoanalítica de Freud es una teoría clínica rica, no un hecho comprobado.
+
+También hay que separar los celos de otras cosas. Cuando hay una [infidelidad](/recursos/infidelidad/) real, la desconfianza no es un síntoma sino una respuesta comprensible. Y la convicción fija de ser engañado, que no cede ante ninguna evidencia, puede ser un cuadro delirante que requiere evaluación psiquiátrica.
+
+Un cuidado importante: si los celos de tu pareja se traducen en revisarte, prohibirte, aislarte o amenazarte, no es un problema de comunicación sino una situación de [violencia en la pareja](/recursos/violencia-en-la-pareja/). En ese caso, pedí ayuda en [Ayuda urgente](/ayuda-urgente/).
 
 ## Preguntas frecuentes
 

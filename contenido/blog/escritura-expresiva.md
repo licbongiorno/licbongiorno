@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 93
 estado: publicado
 respuesta: La escritura expresiva es un ejercicio desarrollado por el psicólogo James Pennebaker en el que se escribe durante 15 a 20 minutos, tres o cuatro días seguidos, sobre una experiencia difícil, explorando los pensamientos y las emociones más profundos. Los estudios muestran efectos positivos modestos sobre la salud física y emocional. Puede producir malestar pasajero y no se recomienda en crisis ni sobre traumas muy recientes.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Unos minutos, una hoja y algo que te dolió y que quizás nunca contaste. Escribirlo sin censura, para nadie más que para vos. Así de simple es la escritura expresiva, y así de exigente. Muchas personas me dicen en consulta que «ya lo saben», pero cuando lo escriben aparece algo que no sabían que sabían.
 
@@ -47,6 +47,26 @@ Los metaanálisis, como el de Joanne Frattaroli (2006), con más de cien estudio
 - Si después de escribir te sentís desbordado varios días seguidos.
 
 En esos casos, lo que hace falta es acompañamiento. Si querés pensarlo juntos, podés [escribirme](/contacto/).
+
+## Una viñeta
+
+Un hombre de unos cuarenta años consulta porque, dos años después de la muerte de su padre, «no se le va». Dice que no tiene nada para contar, que el duelo ya pasó. En la tercera sesión se anima a probar con papel y lapicera, en su casa. Vuelve con tres hojas y una sorpresa: el primer día escribió una lista de hechos; el tercero, una frase que no esperaba, algo sobre una conversación que nunca tuvieron. Lo importante no fue el texto en sí, sino lo que apareció después, hablado, en el consultorio. (Es una escena genérica, armada para ilustrar; no corresponde a una persona real.)
+
+## Cómo se usa en terapia
+
+En un abordaje integrativo con base psicoanalítica y junguiana, la escritura no reemplaza la palabra dicha: la prepara. Se parece a la asociación libre de Freud, solo que sobre el papel y sin otro presente. Y tiene un primo cercano en la [imaginación activa](/recursos/imaginacion-activa/) de Jung, donde se deja que una imagen o una voz interior se exprese y se la anota. Cuando alguien trae lo escrito, no se lo lee como un examen: se pregunta qué le llamó la atención, qué le costó, qué se animó a decir por primera vez.
+
+También sirve de ensayo antes de un duelo difícil o una charla pendiente. Para eso hay herramientas relacionadas en el [laboratorio de duelo](/laboratorio-de-duelo/) y en el artículo sobre [los tiempos del duelo](/recursos/el-duelo-y-sus-tiempos/).
+
+## Matices y límites
+
+Conviene separar lo que tiene investigación de lo que es teoría:
+
+- **Con investigación:** el paradigma de Pennebaker se replicó muchas veces y los metaanálisis encuentran efectos pequeños. La mejora no es igual para todos: depende de la persona, de la consigna y del momento.
+- **Con más discusión:** la explicación de por qué funciona. La idea de la inhibición fue cediendo terreno frente a la de construir un relato coherente, pero no hay una respuesta cerrada.
+- **Un límite concreto:** en personas con estrés postraumático diagnosticado, escribir sola puede quedarse corta o incomodar; ahí se necesita un tratamiento específico ([estrés postraumático](/recursos/estres-postraumatico/)).
+
+Escribir tampoco es lo mismo que «descargarse» una y otra vez. Repetir la misma queja sin ordenarla puede alimentar la rumiación en vez de aliviarla. La consigna de explorar sentido y conexiones es parte de lo que importa.
 
 ## Preguntas frecuentes
 

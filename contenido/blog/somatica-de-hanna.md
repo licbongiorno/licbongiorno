@@ -47,6 +47,28 @@ Si querés acercarte a la idea con una práctica simple, probá moverte más len
 
 Para ver este enfoque junto a otras prácticas, recorré [el mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/) y [el laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
 
+## Contexto: la somática como campo
+
+Hanna nació en 1928 y estudió filosofía; trabajó sobre el existencialismo francés antes de volcarse a la educación del cuerpo. En 1975 se formó con Moshe Feldenkrais y poco después fundó un instituto en California. De ahí surgió lo que hoy se llama educación somática clínica. Su idea era que el cuerpo, visto desde adentro, es una experiencia de aprendizaje, no solo un objeto de estudio. La palabra *soma*, del griego, designa justamente al cuerpo vivido.
+
+## Ideas centrales con un ejemplo cotidiano
+
+Hanna describió tres reflejos que, según él, organizan la respuesta al estrés. El de «luz roja» es la contracción hacia adelante, de protección: los hombros suben, el pecho se cierra. El de «luz verde» es la extensión para la acción, que sostiene la espalda. Y el de «trauma» es la contracción lateral de un costado ante el dolor o la lesión. Para Hanna, quien vive en alerta sostenida (por ejemplo, un trabajo con mucha presión) puede quedar atascado en el patrón de luz roja, con el cuello adelantado y los hombros rígidos.
+
+Su técnica clave es la **pandiculación**, nombre que se da a ese estiramiento lento y casi involuntario que hacemos al despertar o los animales al levantarse. En la práctica, se pide contraer despacio un grupo muscular, notar la tensión, y luego soltar más lento todavía. Hanna sostenía que la contracción consciente seguida de relajación lenta devuelve al cerebro el control sobre esos músculos.
+
+## Una viñeta
+
+Alguien que trabaja ocho horas frente a la computadora va a consulta por cansancio y por tensión en el cuello. Además de un chequeo médico, la persona prueba una práctica lenta: contraer el trapecio un poco, notar la sensación y soltarlo despacio. Descubre que no sabía que estaba apretando. En terapia aparece también otro tema: la sensación de que «no puede aflojar» en el trabajo ni afuera. Es una escena compuesta, no un caso real.
+
+## Cómo se relaciona con la psicoterapia
+
+Desde un enfoque integrativo con base junguiana y psicoanalítica, este tipo de práctica puede ser un complemento: ayuda a registrar la tensión, que muchas veces es un modo de contener la angustia o la rabia. La terapia después puede preguntar qué sentido tiene esa tensión en la historia de la persona. Hay puntos de contacto con la [interocepción](/recursos/interocepcion/), con el [estrés crónico](/recursos/estres-cronico-y-cuerpo/) y con la [técnica Alexander](/recursos/tecnica-alexander/).
+
+## Matices y límites
+
+Qué tiene investigación: hay estudios sobre la reeducación del movimiento en general (por ejemplo, de Feldenkrais y Alexander) con resultados dispares y de calidad variable. De la somática de Hanna en particular hay muy poco publicado en revistas independientes. Qué es teoría: los tres reflejos y la amnesia sensoriomotriz son su propio modelo; no se ajustan a la neurofisiología estándar tal como se la describe en los manuales. Qué se discute: si la mejoría se debe al mecanismo que propone o al efecto de atender al cuerpo con calma, algo que ya de por sí puede ser valioso.
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la amnesia sensoriomotriz?

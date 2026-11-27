@@ -53,6 +53,22 @@ Si hay dolor, cambios bruscos, malestar persistente, conflictos que no se resuel
 
 Lecturas: Masters, W. H. y Johnson, V. E. (1966), *Human Sexual Response*. Basson, R. (2000), «The female sexual response: a different model», *Journal of Sex & Marital Therapy*, 26(1), 51–65.
 
+## Cómo se trabaja en terapia
+
+Hablar de sexualidad en un consultorio no es una confesión incómoda ni un examen: es una conversación como cualquier otra, a un ritmo que la persona pueda sostener. Desde un enfoque integrativo, con base junguiana y psicoanalítica, primero se escucha el contexto: desde cuándo ocurre lo que preocupa, en qué situaciones, qué se siente en el cuerpo, qué se imagina que significa. Después se mira la historia: qué mensajes sobre el cuerpo y el placer circularon en la familia, qué vergüenzas o prohibiciones dejaron marca ([la vergüenza](/recursos/la-verguenza/), [la culpa](/recursos/la-culpa/)). Y se mira el presente: cómo está el vínculo, cuánto lugar hay para el descanso, el juego y la ternura.
+
+En muchas consultas, lo que se llama «problema sexual» es en realidad un problema de comunicación o de cansancio. En otras hay una dimensión médica (hormonal, farmacológica, de dolor) que requiere atención conjunta con médicos y ginecólogos, urólogos o endocrinólogos. Una buena consulta no se queda en una sola mirada.
+
+Para quienes lo hacen en pareja, hay trabajos focalizados en bajar la presión por el rendimiento, recuperar el contacto sin objetivo y ampliar el repertorio de intimidad, además de la conversación sobre lo que cada uno desea. Ver [terapia de pareja](/recursos/terapia-de-pareja/) y [diversidad sexual e identidad de género](/recursos/diversidad-sexual-e-identidad-de-genero/).
+
+## Un ejemplo anónimo
+
+Una pareja de mediana edad consulta porque «ya no hay deseo». Cuando se conversa, surge que llevan años sin hablar del tema, que ella lo vive como presión y él como rechazo. El problema no era la falta de deseo sino el silencio sobre él. Al empezar a nombrar lo que cada uno sentía, bajó la tensión y apareció espacio para otros encuentros. No siempre es tan simple, pero con frecuencia el primer cambio es hablar.
+
+## Matices y límites
+
+El modelo de Masters y Johnson es histórico y se sigue enseñando, aunque hoy se lo considera incompleto. El modelo de Basson surgió de la clínica con mujeres y es útil, pero no describe a todas las personas ni reemplaza una evaluación individual. La investigación sobre sexualidad tiene sesgos conocidos: muchas muestras son pequeñas, de países occidentales y autoinformadas, y los temas íntimos se reportan con reticencia. Por eso conviene desconfiar de cifras de «lo normal» y de recetas universales. Y si en algún momento una práctica se vive con violencia, miedo o sin consentimiento, no es un tema de «dificultades» sino de seguridad: ver [Ayuda urgente](/ayuda-urgente/).
+
 ## Preguntas frecuentes
 
 ### ¿Existe una frecuencia «normal» de deseo sexual?

@@ -11,7 +11,7 @@ orden: 38
 estado: publicado
 respuesta: Los mecanismos de defensa son procesos psíquicos, en general inconscientes, que la mente usa para protegerse de la angustia y de emociones o pensamientos que resultan difíciles de tolerar. Fueron descritos por Sigmund Freud y sistematizados por Anna Freud. Todos los usamos y son necesarios; el problema aparece cuando se vuelven rígidos y nos impiden ver o resolver lo que nos pasa.
 menciona: mecanismos-de-defensa, freud
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Un «no pasa nada» dicho mientras tiembla la voz. El chiste justo cuando la conversación se pone seria. La explicación perfecta para no ir al médico. El enojo con el perro cuando el problema era con tu jefe. Todos lo hacemos, y no es mentir: la mente, como el cuerpo, tiene sus maneras de protegerse cuando algo duele demasiado.
 
@@ -54,6 +54,25 @@ Se vuelven un problema cuando:
 ## Cómo se trabajan en terapia
 
 En psicoterapia no se trata de «derribar» las defensas, sino de entender qué protegen y, de a poco, encontrar formas menos costosas de atravesar lo que duele. Se respeta el ritmo de cada persona: a veces una defensa está ahí porque todavía es necesaria. Si querés conocer cómo trabajo, podés leer sobre mi [enfoque](/enfoque/) o escribirme. Para reconocer tus propias defensas, probá el [laboratorio de flexibilidad yoica](/laboratorio-de-flexibilidad-yoica/).
+
+## Un poco de historia
+
+Freud usó el término «defensa» por primera vez en 1894, en *Las neuropsicosis de defensa*, para referirse a la lucha del yo contra ideas penosas. En 1936, Anna Freud los ordenó en un libro. Después, Melanie Klein sumó defensas más tempranas, como la escisión y la identificación proyectiva ([Melanie Klein](/recursos/melanie-klein/)). Desde la psiquiatría, George Vaillant, a partir de un seguimiento de décadas de varones de Harvard (el Grant Study), propuso ordenar las defensas en niveles de madurez: desde las psicóticas, como la negación delirante, hasta las maduras, como el humor, el altruismo o la sublimación. Esa jerarquía influyó en los manuales diagnósticos, que incluyen una escala de funcionamiento defensivo.
+
+## Una viñeta
+
+Una mujer consulta por discusiones constantes con su pareja. Siempre es «él» quien se enoja, «él» el que exagera. En sesión cuenta, riéndose, que esta semana rompió un plato. Se le señala sin juicio la distancia entre lo que dice y lo que hizo. No se trata de demostrarle nada: se trata de que pueda mirar su propio enojo sin que le resulte intolerable. Cuando se siente menos amenazada, la proyección empieza a aflojar. (Escena genérica, ilustrativa.)
+
+## Cómo se trabajan hoy
+
+La técnica clásica es señalar la defensa en el momento en que aparece, con tacto y sin apuro. Antes que interpretar, se explora: «¿qué pasa cuando hablamos de esto?». En un enfoque integrativo se suma el cuerpo, porque las defensas también se ven en la postura, la respiración y el ritmo ([psicología corporal](/recursos/psicologia-corporal/)). Con la mirada junguiana, lo que se defiende y se proyecta suele ser aquello que no se reconoce de uno mismo: la [sombra](/recursos/la-sombra-segun-jung/). Y hay una defensa que merece lugar propio, la [disociación](/recursos/la-disociacion/), frecuente tras un trauma.
+
+## Matices y límites
+
+- **Con investigación:** la escala de Vaillant y otras medidas defensivas muestran que las defensas más maduras se asocian con mejor salud y adaptación. Hay consenso razonable en esa tendencia.
+- **Con más debate:** cuántos mecanismos hay, cómo se clasifican y si se pueden medir de forma confiable. Distintos autores y manuales dan listas diferentes.
+- **Teoría psicoanalítica:** que sean inconscientes y que su acción pueda inferirse desde afuera es una hipótesis clínica; no todas las corrientes la aceptan.
+- Ponerle nombre a las defensas de otros es tentador y a menudo injusto. Sirve más para entenderse que para acusar. Para ubicar el tema, mirá [qué es el psicoanálisis](/recursos/que-es-el-psicoanalisis/) y a [Anna Freud](/recursos/anna-freud/).
 
 ## Preguntas frecuentes
 

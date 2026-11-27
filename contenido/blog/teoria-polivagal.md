@@ -56,6 +56,28 @@ Para ubicar estas ideas entre otras propuestas, podés mirar [el mapa de las psi
 
 Lecturas: Porges, S. W. (1995), «Orienting in a defensive world: Mammalian modifications of our evolutionary heritage. A Polyvagal Theory», *Psychophysiology*, 32(4), 301–318. Grossman, P. (2023), «Fundamental challenges and likely refutations of the five basic premises of the polyvagal theory», *Biological Psychology*, 180, 108589.
 
+## Contexto: por qué prendió tanto
+
+Stephen Porges, psicofisiólogo estadounidense, desarrolló la teoría desde los años noventa y la resumió para un público amplio en *The Polyvagal Theory* (2011). Su difusión entre terapeutas del trauma fue enorme. Libros como *El cuerpo lleva la cuenta* de Bessel van der Kolk (2014) la mencionan, y Deb Dana (2018) la llevó a una práctica clínica con mapas y ejercicios. Parte del éxito se debe a que traduce algo complejo en un esquema comprensible: seguro, en alerta, apagado.
+
+## Cómo se ve en la vida cotidiana
+
+Pensá en alguien que, antes de una reunión, siente el corazón acelerado y las manos frías (movilización). Otra persona, ante una situación parecida, se queda en blanco, con la mirada fija y la voz apagada (inmovilización). Y una tercera, después de una charla con alguien de confianza, nota que respira más lento y que su cara se relaja (conexión). La teoría ofrece un esquema para ordenar estas vivencias. Pero que los tres estados existan como experiencias no obliga a aceptar que la explicación anatómica sea la correcta.
+
+## Una viñeta
+
+Una persona con historia de situaciones de miedo mantenidas durante años dice que se «apaga» cuando discute. En sesión no se le explica el nervio vago. Se le propone, más bien, notar qué pasa en el cuerpo cuando empieza a tensarse y qué le ayuda a volver al presente: apoyar los pies, mirar la habitación, nombrar tres cosas que ve. Con el tiempo reconoce antes las señales. Si el terapeuta usa el lenguaje polivagal como metáfora, funciona como un mapa práctico. Es una escena compuesta, no un caso real.
+
+## Cómo se usa en terapia y cómo conviene usarla
+
+Desde un enfoque integrativo con base junguiana y psicoanalítica, lo valioso es la observación clínica que el lenguaje ordena: hay momentos de apertura, de defensa activa y de colapso, y la relación con otra persona puede ayudar a regularlos. Eso se puede decir sin comprometerse con las ramas del vago, con la [ventana de tolerancia](/recursos/la-ventana-de-tolerancia/) como alternativa de lenguaje, o con la mirada de [Somatic Experiencing](/recursos/somatic-experiencing/) y la [interocepción](/recursos/interocepcion/).
+
+## Matices y límites
+
+Qué tiene respaldo: la variabilidad de la frecuencia cardíaca ligada a la respiración (arritmia sinusal respiratoria) es un fenómeno real y medible, y el nervio vago participa en la regulación del corazón y de las vísceras. Qué es muy discutido: que existan dos «circuitos vagales» con el origen evolutivo y las funciones que propone la teoría, y que la arritmia sinusal respiratoria sea un indicador directo de un «freno vagal» social. Grossman y Taylor (2007, *Biological Psychology*, 74(2)) ya habían planteado objeciones fisiológicas y evolutivas a esas afirmaciones. Qué no hay: pruebas de que ejercicios de «estimulación del vago» resuelvan un trauma. Si algo de esto te sirve como imagen, usalo con libertad; si te lo presentan como un hecho, preguntá en qué estudios se apoya.
+
+Para ver cómo se vive el cuerpo en el trauma podés pasar por [El cuerpo lleva la cuenta](/recursos/el-cuerpo-lleva-la-cuenta/) y el [laboratorio de regulación](/laboratorio-de-regulacion/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué dice la teoría polivagal?

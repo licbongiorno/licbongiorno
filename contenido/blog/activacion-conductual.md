@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 97
 estado: publicado
 respuesta: La activación conductual es un tratamiento psicológico para la depresión que busca cortar el círculo entre el desánimo y la inactividad, retomando de manera gradual y planificada actividades que den placer, logro o que estén alineadas con los valores de la persona. Fue desarrollada por Neil Jacobson, Christopher Martell y Michael Addis y tiene buen respaldo en la investigación.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 «Hacé algo, salí, ponete las pilas». Es lo que suele escuchar alguien deprimido, como si fuera cuestión de voluntad. La activación conductual parte de entender algo distinto: con el ánimo bajo, las ganas casi nunca llegan antes de hacer. Suelen llegar después.
 
@@ -43,6 +43,24 @@ Podés practicarlo en el [laboratorio de ánimo](/laboratorio-de-animo/).
 ## Sus límites
 
 La activación conductual no es «hacé cosas y se te pasa». Cuando la depresión es moderada o grave, conviene hacerla acompañado, y a veces junto con otros tratamientos. Desde mi mirada, también es importante preguntarse **qué** se perdió y **por qué** el ánimo bajó: actuar ayuda a salir del pozo, y comprender ayuda a no volver a caer. Si te reconocés en esto, podés leer sobre [la depresión](/depresion/), responder el [cuestionario PHQ-9](/escala-de-animo-phq-9/) o [escribirme](/contacto/).
+
+## Una escena posible
+
+Una persona cuenta que desde hace meses llega del trabajo y se acuesta en el sillón hasta la hora de dormir. Antes salía a caminar, veía a un amigo los viernes y cocinaba para ella. «No tengo ganas de nada», dice, y lo toma como evidencia de que algo en ella está roto. En un tratamiento de activación conductual, no se discute ese pensamiento: se prueba un experimento. Se elige una actividad pequeña, como caminar quince minutos el sábado a la mañana, y se registra después cómo estuvo el ánimo. Las ganas, muchas veces, vienen como consecuencia.
+
+## Cómo se trabaja en terapia
+
+Se empieza por un registro de actividades: qué se hace cada día, con quién, cuánto placer y cuánto logro da. Del registro aparecen patrones: el aislamiento que alivia en el momento y empeora al día siguiente, la evitación de tareas que se acumulan, las actividades que dan ánimo y se abandonaron. Después se arma un plan de pasos pequeños, realistas y con cuándo y dónde. Se revisa qué obstáculos aparecieron (cansancio, pensamientos del tipo «no va a servir») y se ajusta. Los pasos se alinean con valores: no cualquier actividad, sino las que acercan a lo que importa ([laboratorio de valores](/laboratorio-de-valores/)).
+
+En mi forma de trabajar, la activación se integra con una mirada más amplia: qué pérdida, qué duelo o qué conflicto está detrás del ánimo bajo. Hay una dimensión de sentido que no se resuelve agendando actividades. A veces la inactividad es también un mensaje: algo de la vida que se llevaba ya no sirve y pide otra cosa. Ver [depresión: señales y tratamiento](/recursos/depresion-senales-y-tratamiento/), [distimia](/recursos/distimia-la-tristeza-que-no-se-va/) y [cómo acompañar a alguien con depresión](/recursos/como-acompanar-a-alguien-con-depresion/).
+
+## Matices y límites
+
+Además de los estudios de Jacobson (1996) y Dimidjian (2006), un ensayo grande en el Reino Unido (Richards y colaboradores, 2016, *The Lancet*) encontró que la activación conductual aplicada por profesionales de salud mental con poca formación fue no inferior a la terapia cognitivo-conductual, con menor costo. Eso la hace una opción accesible. Aun así, no todas las personas responden igual, y en depresiones graves o con ideas de muerte no alcanza con un registro de actividades: hace falta una evaluación clínica, y a veces medicación. Tampoco es una receta para «hacer más»: si se aplica con exigencia, puede convertirse en una nueva forma de autoexigencia ([autoexigencia y perfeccionismo](/recursos/autoexigencia-y-perfeccionismo/)).
+
+:::aviso
+Si el ánimo bajo viene con pensamientos de no querer vivir, no lo manejes solo: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Más teléfonos en [Ayuda urgente](/ayuda-urgente/).
+:::fin
 
 ## Preguntas frecuentes
 

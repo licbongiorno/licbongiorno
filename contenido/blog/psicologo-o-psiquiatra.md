@@ -11,7 +11,7 @@ orden: 232
 estado: publicado
 respuesta: El psicólogo estudia una licenciatura universitaria, tiene matrícula provincial y trabaja con psicoterapia, pero no receta medicamentos. El psiquiatra es médico con una especialidad y puede indicar medicación. Psicoanalista nombra una orientación teórica, y en general quienes la practican son psicólogos o psiquiatras con formación psicoanalítica.
 menciona:
-revision: 2026-11-22
+revision: 2026-11-27
 ---
 Alguien decide, por fin, pedir ayuda, y se encuentra con una pregunta que no esperaba: ¿a quién llamo? En la guía de la prepaga aparecen psicólogos, psiquiatras y psicoanalistas, y todos parecen ocuparse de lo mismo. Es una duda muy común, y tiene respuestas bastante claras.
 
@@ -40,6 +40,26 @@ Tomar medicación no impide hacer terapia, ni hacer terapia obliga a medicarse. 
 ## Un cuidado
 
 Si no sabés por dónde empezar, empezar por un psicólogo es razonable: si hace falta una evaluación psiquiátrica, es parte de su trabajo orientarte y derivarte. Ahora, si estás atravesando una crisis, tenés pensamientos de hacerte daño o sentís que no podés sostenerte, no esperes a pedir turno: mirá [ayuda urgente](/ayuda-urgente/) o llamá al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país).
+
+## Una escena frecuente
+
+Alguien llega con esta frase: «Dormí mal durante meses, estoy irritable y sin ganas de nada. No sé si necesito hablar con alguien o tomar algo». La pregunta es razonable, y la respuesta suele ser que las dos cosas no se oponen. Muchas veces conviene empezar por una consulta con un psicólogo, que escucha, evalúa y, si hace falta, orienta hacia una evaluación psiquiátrica. Otras veces la persona ya viene con una indicación médica y busca un espacio de psicoterapia para acompañarla. Lo importante es que haya alguien que ordene el camino.
+
+## Cómo se trabaja en cada consulta
+
+En una **primera consulta psicológica** se escucha el motivo de consulta, la historia, los síntomas y el contexto. No hay obligación de seguir con ese profesional, y es razonable preguntar cómo trabaja, con qué enfoque, cada cuánto se ven y qué honorarios tiene. Ver [cómo elegir psicólogo](/recursos/como-elegir-psicologo/) y [cuánto dura una terapia](/recursos/cuanto-dura-una-terapia/).
+
+En una **consulta psiquiátrica** se hace una evaluación médica: antecedentes, medicación actual, estudios si hacen falta, y una impresión diagnóstica. Puede indicarse medicación, seguimiento o derivación a psicoterapia.
+
+Mi trabajo, en particular, es el de un psicólogo con formación psicoanalítica y junguiana. Eso implica psicoterapia y no implica recetar. Si en el proceso aparece algo que merece mirada médica, lo converso y derivo.
+
+## Otras figuras que aparecen
+
+En la práctica circulan otros nombres: psicopedagogo, terapeuta ocupacional, psicólogo social, trabajador social, acompañante terapéutico, coach, terapeuta holístico. Algunos son profesiones con título y matrícula; otros son denominaciones sin regulación común. Conviene preguntar siempre por la formación y la matrícula, y desconfiar de quien promete curas rápidas o pide dejar un tratamiento médico.
+
+## Matices y límites
+
+La distinción entre ambas profesiones es clara en lo legal, pero en la práctica hay terrenos compartidos, y no todos los casos exigen medicación ni todos se resuelven solo con palabras. Para algunos cuadros, como la depresión moderada a grave o los episodios maníacos y psicóticos, la combinación de tratamiento médico y psicoterapia tiene mejor respaldo que una sola vía; para otros, como ciertas ansiedades leves o los problemas de pareja, la psicoterapia sola suele ser suficiente. Esto es orientativo: la decisión se toma con los profesionales a partir de cada caso, no con una tabla.
 
 ## Preguntas frecuentes
 

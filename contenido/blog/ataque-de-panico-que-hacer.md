@@ -11,7 +11,7 @@ fecha_visible: noviembre de 2026
 orden: 9
 estado: publicado
 respuesta: Durante un ataque de pánico ayuda nombrarlo, respirar lento con exhalaciones largas, volver al presente con los sentidos y no pelear con las sensaciones, que suelen alcanzar su pico en pocos minutos. Conviene consultar a un médico la primera vez y a un psicólogo después del primer episodio.
-revision: 2026-11-05
+revision: 2026-11-27
 menciona: ansiedad
 ---
 Si alguna vez lo viviste, lo sabés: no es «un poco de nervios». Es el corazón galopando, el aire que no alcanza, la certeza absurda y total de que te vas a morir ahí mismo, en la fila del súper o en la cama a oscuras.
@@ -37,6 +37,26 @@ Muchas personas, después de un ataque, empiezan a evitar los lugares o situacio
 Para practicar la respiración lenta y el anclaje en momentos de calma, podés usar el [laboratorio de presencia](/laboratorio-de-presencia/).
 
 Sobre por qué exhalar largo ayuda más que «respirar hondo», leé [respiración y emociones](/recursos/respiracion-y-emociones/).
+
+## Una escena frecuente
+
+Una mujer de treinta y pico, llamémosla Lucía, siente de golpe, en el subte, que el pecho se le cierra. Baja en la estación siguiente, se sienta en un banco y a los diez minutos está mejor, aunque temblando. Va a la guardia, los estudios salen bien y le dicen que fue «ansiedad». Lo que más la asusta no es lo que pasó, sino la idea de que vuelva. A las dos semanas ya no toma el subte. Es un ejemplo genérico, pero muestra cómo el miedo al próximo ataque puede pesar más que el ataque mismo.
+
+## Por qué se mantiene
+
+David Clark propuso en 1986 un modelo cognitivo del pánico: una sensación corporal normal, como el corazón acelerado, se interpreta de manera catastrófica («me da un infarto», «me vuelvo loco»), eso aumenta el miedo y el miedo aumenta la sensación. El círculo se cierra solo. Por eso se vuelve tan importante entender que las sensaciones, aunque feroces, no son peligrosas en sí mismas.
+
+## Cómo se trabaja en terapia
+
+El tratamiento con más respaldo es la terapia cognitivo-conductual centrada en el pánico: se explica el mecanismo, se revisan las interpretaciones catastróficas y se practica la exposición a las sensaciones y a las situaciones evitadas, de forma gradual. Desde un enfoque integrativo, sumamos la pregunta por el momento de vida: muchos primeros ataques aparecen tras una pérdida, una sobrecarga o un cambio que no pudo ser pensado. No se trata de buscar «la causa», sino de escuchar qué viene siendo difícil de decir. Más sobre este abordaje en [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/) y en [ansiedad: cuando el cuerpo habla](/recursos/ansiedad-cuando-el-cuerpo-habla/).
+
+## Matices y límites
+
+- Los **consejos de respiración y anclaje** ayudan a muchas personas, pero la investigación sugiere que lo central a largo plazo es dejar de evitar y de pelear con las sensaciones. Respirar bien no es un truco para que «no pase».
+- Un ataque aislado no significa un trastorno de pánico. Se habla de trastorno cuando hay ataques repetidos y un miedo persistente a que se repitan.
+- Algunas condiciones médicas pueden dar síntomas parecidos, por eso la primera consulta médica no se saltea.
+
+Para practicar con otros recursos, tenés el [laboratorio de ataques de pánico](/laboratorio-de-ataques-de-panico/).
 
 ## Preguntas frecuentes
 

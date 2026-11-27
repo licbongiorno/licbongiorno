@@ -45,6 +45,26 @@ El trabajo con el trauma en el cuerpo puede activar recuerdos y emociones intens
 
 Lecturas: Ogden, P., Minton, K. y Pain, C. (2006), *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*, W. W. Norton. Ogden, P. y Fisher, J. (2015), *Sensorimotor Psychotherapy: Interventions for Trauma and Attachment*, W. W. Norton.
 
+## De dónde viene
+
+Pat Ogden se formó en el enfoque Hakomi y trabajó mucho tiempo con personas con historias de trauma y de apego difícil. Con los años fue notando que muchas se bloqueaban cuando se les pedía que hablaran del trauma, y que en cambio algo se movía cuando se atendía a la postura, a la respiración o a un gesto interrumpido. De esa observación nació el enfoque. Se apoya en la tradición de la psicoterapia corporal (Reich, Lowen) y en ideas de la neurobiología interpersonal y de la teoría del apego. Podés ver el recorrido de esas escuelas en el [mapa de las psicoterapias corporales](/recursos/mapa-de-las-psicoterapias-corporales/).
+
+## Una viñeta
+
+Alguien cuenta, con voz firme, una discusión con su jefe. Mientras habla, los pies se le van hacia la puerta del consultorio, como si quisieran irse. El terapeuta no interpreta; apenas lo nota en voz alta: «Mientras contás esto, tus pies parecen ir hacia la puerta». La persona se mira los pies, se sorprende y después de un rato dice que de chica aprendió que lo mejor cuando había gritos era irse sin hacer ruido. Se le propone, despacio, notar qué pasa si simplemente apoya los pies en el piso. Nada dramático: un poco más de peso, un poco más de aire. Es una escena compuesta, no un caso real.
+
+## Cómo se integra en un trabajo más amplio
+
+Ogden usa un modelo de fases, parecido a los que se emplean en trauma desde Judith Herman (1992): primero estabilización, después procesamiento y por último integración. Desde un enfoque integrativo con base junguiana y psicoanalítica, estas ideas ayudan a no apurar el trabajo con lo traumático antes de que haya recursos: se prepara el terreno con respiración, apoyo, orientación en el espacio, y recién después se acompaña lo que aparece. Se relacionan con la [ventana de tolerancia](/recursos/la-ventana-de-tolerancia/), con [Somatic Experiencing](/recursos/somatic-experiencing/) y con [Hakomi](/recursos/hakomi/), propuestas hermanas con diferencias de técnica.
+
+## Matices y límites
+
+Qué tiene investigación: la importancia de la regulación y de la relación terapéutica para recuperarse del trauma está respaldada por líneas amplias de investigación. Existen unos pocos estudios pequeños sobre la propia psicoterapia sensoriomotriz, con resultados prometedores pero insuficientes para afirmar su eficacia frente a tratamientos con más respaldo, como la terapia cognitivo-conductual focalizada en el trauma o el [EMDR](/recursos/emdr/). Qué es teoría: la idea de que cada defensa tiene una «acción inconclusa» en el cuerpo es una hipótesis clínica, útil como guía pero no demostrada. Qué se discute: cuánto del cambio se debe a lo corporal y cuánto a otros factores comunes, como la alianza.
+
+Un límite más: no todo gesto es un mensaje. Un cuerpo que se mueve puede estar simplemente cansado. Por eso se pregunta y se explora, en lugar de afirmar.
+
+Para practicar con ejercicios de estabilización podés recorrer el [laboratorio de trauma](/laboratorio-de-trauma/) y el [laboratorio de terapias corporales](/laboratorio-de-terapias-corporales/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la psicoterapia sensoriomotriz?

@@ -11,7 +11,7 @@ orden: 34
 estado: publicado
 respuesta: La inteligencia es la capacidad de comprender, razonar, aprender de la experiencia y resolver problemas. El coeficiente intelectual (CI) es una medida estandarizada de algunas de esas capacidades que permite comparar a una persona con otras de su edad. Es útil en ciertos contextos, pero deja afuera aspectos importantes como la creatividad, la sabiduría práctica o la inteligencia emocional.
 menciona: inteligencia
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 «Burro para las matemáticas», «el inteligente de la familia». Esas etiquetas que nos pusieron de chicos —en la escuela, en la mesa del domingo— pesan más de lo que creemos. Hay gente que aprendió a leer el clima de una reunión en dos segundos, que arregla cualquier cosa con las manos, que entiende a un animal o a un bebé sin palabras. ¿Eso no es inteligencia?
 
@@ -47,6 +47,28 @@ La inteligencia tiene un componente heredado, pero el ambiente pesa mucho: la al
 ## Cuando las etiquetas duelen
 
 Muchas personas cargan durante años con una idea de sí mismas que empezó en la escuela: «no doy», «no sirvo para estudiar». Esas creencias afectan la [autoestima](/autoestima/) y las decisiones de toda una vida. En terapia, revisarlas puede abrir posibilidades que parecían cerradas. Si te reconocés en esto, podés escribirme.
+
+## Un poco de historia
+
+Alfred Binet y Théodore Simon publicaron en 1905 la primera escala práctica para medir el nivel intelectual de los niños, pensada para ayudar, no para clasificar. En 1912 William Stern propuso expresar el resultado como un cociente, y en Estados Unidos Lewis Terman adaptó la prueba (Stanford-Binet, 1916). Más adelante, David Wechsler creó escalas para adultos (1939) con varias áreas. Con el tiempo, Raymond Cattell y John Horn distinguieron la inteligencia **fluida** (razonar ante problemas nuevos) de la **cristalizada** (conocimientos y vocabulario acumulados), una distinción que sigue usándose.
+
+## Otras miradas
+
+Howard Gardner propuso en *Frames of Mind* (1983) las inteligencias múltiples; es muy popular en educación, aunque en psicología ha sido criticada por no tener un respaldo empírico firme. Robert Sternberg planteó una teoría triárquica (analítica, creativa y práctica). Y Daniel Goleman difundió en 1995 la idea de inteligencia emocional, con un sustento científico más discutido. Desde el desarrollo, [Piaget](/recursos/jean-piaget/) describió cómo cambia la forma de pensar con la edad y [Vygotsky](/recursos/lev-vygotsky/) subrayó el papel de lo social y del lenguaje.
+
+## Una viñeta
+
+Una adolescente llega con el diagnóstico escolar «bajo rendimiento». En casa dicen que es «la de las manos»: arma, arregla, dibuja. Una evaluación psicológica cuidadosa muestra un razonamiento dentro del promedio y una velocidad de procesamiento más lenta, junto con mucha ansiedad ante las pruebas. Se entiende entonces que no se trataba de «no dar», sino de un modo de aprender y de un miedo a equivocarse. Con apoyos y con trabajo sobre la autoexigencia, el panorama cambia. Es una escena compuesta y no un caso real.
+
+## Cómo se trabaja en terapia
+
+En consulta, la evaluación de la inteligencia rara vez es un fin en sí mismo. Es una pieza dentro de un [psicodiagnóstico](/recursos/que-es-un-psicodiagnostico/), junto con la historia, el estado emocional y el contexto. Y, desde un enfoque integrativo, lo que suele trabajarse es la relación de la persona con su propia capacidad: los mandatos («tenés que ser brillante»), los apodos de la infancia y la vergüenza que producen.
+
+## Matices y límites
+
+Qué tiene investigación: los puntajes de CI predicen razonablemente el rendimiento escolar y en parte el laboral, y el factor general aparece de forma consistente. Qué es discutido: cuánto explican los genes; las estimaciones de heredabilidad varían con la edad y el contexto. Sobre el efecto Flynn, de unos tres puntos por década en el siglo XX, algunos estudios en países nórdicos muestran un estancamiento o una reversión reciente (Bratsberg y Rogeberg, 2018, *PNAS*), lo que refuerza que el ambiente cuenta. Y es teoría o debate abierto si existen «inteligencias» separadas más allá del factor general.
+
+Para explorar otras facetas podés pasar por el [laboratorio de inteligencias múltiples](/laboratorio-de-inteligencias-multiples/) y por [técnicas psicométricas](/recursos/tecnicas-psicometricas/).
 
 ## Preguntas frecuentes
 

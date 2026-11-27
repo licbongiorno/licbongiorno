@@ -11,7 +11,7 @@ orden: 40
 estado: publicado
 respuesta: La motivación es lo que nos impulsa a iniciar, sostener y orientar una acción. Puede ser intrínseca, cuando hacemos algo por el interés o el sentido que tiene en sí, o extrínseca, cuando lo hacemos por una recompensa o para evitar un castigo. Según la teoría de la autodeterminación, se sostiene mejor cuando sentimos autonomía, capacidad y conexión con otros. La falta de ganas persistente puede ser señal de agotamiento o depresión.
 menciona: motivacion
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 El gimnasio que pagaste y no pisaste. El proyecto que te entusiasmaba en enero y en marzo ya no. La lista de pendientes que crece mientras mirás el techo. Nos dijeron que la motivación es cuestión de voluntad, de «ponerle onda», y que lo demás es ser vago. Pero las ganas no se fabrican a fuerza de exigencia. Tienen sus propias reglas.
 
@@ -60,6 +60,24 @@ Si querés pensar qué te mueve de verdad, probá el [laboratorio de valores y s
 La distancia entre saber lo que conviene y hacerlo ya preocupaba a [Wang Yangming](/recursos/wang-yangming/) en el siglo XVI.
 
 Cómo un mismo acto puede tener sentidos distintos según el motivo lo estudió la [teoría de la actividad](/recursos/teoria-de-la-actividad/) de Leóntiev.
+
+## Un poco de historia
+
+Durante buena parte del siglo XX, las teorías de la motivación hablaron de impulsos. Freud propuso pulsiones; Clark Hull, en el conductismo, planteó el impulso como una necesidad biológica que se reduce al satisfacerse. Jung usó la idea de energía psíquica, que no limitó a lo sexual, y la describió en escritos como *Sobre la energía psíquica* (1928). Hacia los años cincuenta y sesenta, con la psicología humanista y el trabajo de Maslow, se pasó a pensar la motivación como crecimiento. En 1985, Deci y Ryan publicaron *Intrinsic Motivation and Self-Determination in Human Behavior*, que dio forma a la teoría de la autodeterminación.
+
+## Una viñeta
+
+Un hombre llega diciendo que «no tiene motivación» para buscar trabajo. Cuenta que arma el currículum y lo deja, que mira avisos y los cierra. Al explorar, aparece que cada postulación le recuerda un despido humillante, y que no es pereza: es evitación de una herida. Cuando se trabaja eso, aparece un deseo concreto, que había estado tapado. (Escena genérica, ilustrativa.)
+
+## Cómo se trabaja en terapia
+
+Preguntarse «¿por qué no tengo ganas?» suele llevar a una pregunta mejor: «¿qué me frena y qué me importa?». En terapia se exploran las dos caras: lo que aleja (miedo, culpa, mandatos) y lo que atrae (valores, deseos propios). Con base psicoanalítica se mira el conflicto: a veces la ambivalencia es el centro, uno quiere y no quiere a la vez. Con la mirada junguiana, la desgana puede señalar que la energía se retiró de un camino que dejó de tener sentido y busca otro cauce ([crisis de la mitad de la vida](/recursos/crisis-de-la-mitad-de-la-vida/)). Y hay herramientas más prácticas: la [activación conductual](/recursos/activacion-conductual/) parte de actuar en pequeño aunque no haya ganas, porque en la depresión las ganas suelen venir después de la acción. También está la entrevista motivacional, desarrollada por William Miller y Stephen Rollnick (1991), pensada para trabajar la ambivalencia ante el cambio sin presionar.
+
+## Matices y límites
+
+- **Con investigación:** la teoría de la autodeterminación tiene muchos estudios en educación, trabajo y salud, en distintas culturas. Los resultados sobre recompensas que reducen el interés son de experimentos como el de Lepper, Greene y Nisbett (1973) con niños y dibujos; el efecto depende del tipo de recompensa.
+- **Con menos respaldo:** la jerarquía rígida de Maslow, ya mencionada.
+- La motivación no es un rasgo fijo: cambia con el contexto, el cansancio y el ánimo. Exigirse no la reemplaza; mirá también la [procrastinación](/recursos/procrastinacion/) y el estado de [flow de Csikszentmihalyi](/recursos/mihaly-csikszentmihalyi/).
 
 ## Preguntas frecuentes
 

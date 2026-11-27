@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 95
 estado: publicado
 respuesta: La pendulación es un concepto del psicólogo Peter Levine, creador del Somatic Experiencing, un abordaje corporal del trauma. Describe el vaivén natural del organismo entre la contracción y la expansión. En la práctica consiste en llevar la atención a una zona del cuerpo donde hay calma (un recurso), luego a otra con una incomodidad leve, y volver, varias veces y en dosis pequeñas, para ampliar la capacidad de sostener sensaciones difíciles.
-revision: 2026-11-06
+revision: 2026-11-27
 menciona: peter-levine
 ---
 Ir hacia lo incómodo apenas un poco, por unos segundos, y volver a un lugar del cuerpo donde hay calma. Ir y volver. Como un péndulo. Lejos de «aguantarse» la sensación desagradable hasta que pase, la pendulación propone ese vaivén. Muchas personas que llegan con el cuerpo en alarma descubren con este ejercicio algo sorprendente: que dentro de ellas también hay lugares tranquilos.
@@ -55,6 +55,24 @@ El Somatic Experiencing es un abordaje relativamente nuevo y con **evidencia tod
 - Con experiencias traumáticas importantes, conviene hacerlo con un profesional formado.
 
 Si querés trabajar lo que te pasa en el cuerpo, podés leer sobre [trauma y regulación emocional](/trauma/) o [escribirme](/contacto/).
+
+## Una viñeta
+
+Una persona que sufrió un accidente de tránsito cuenta que desde entonces el pecho «se le cierra» cada vez que escucha frenadas. Cuando intenta quedarse con esa sensación, se asusta y se va de la escena. En terapia no se le pide que cuente el accidente: se busca primero un lugar tranquilo, por ejemplo el apoyo de sus pies, y se la invita a notar la opresión solo un momento y volver. Tras algunas repeticiones, dice con sorpresa que la sensación se mueve. Esa experiencia, la de que lo desagradable cambia, es la que da confianza para ir un poco más lejos otro día. (Escena genérica, ilustrativa.)
+
+## Cómo se integra en una terapia
+
+En un enfoque integrativo, la pendulación es una manera concreta de respetar la [ventana de tolerancia](/recursos/la-ventana-de-tolerancia/): si se va demasiado rápido, la persona se desborda o se desconecta; si se queda en lo seguro, no hay cambio. La pendulación ofrece un ritmo. Convive con el trabajo verbal y simbólico: desde la mirada psicoanalítica y junguiana, el síntoma también cuenta una historia, y la regulación corporal hace posible que esa historia pueda contarse sin revivirla. Además, se apoya en la [interocepción](/recursos/interocepcion/), la percepción de lo que pasa por dentro, que en muchas personas con trauma está muy alterada. Para ubicar este abordaje, ver [Somatic Experiencing](/recursos/somatic-experiencing/) y [estrés postraumático](/recursos/estres-postraumatico/).
+
+## Contexto
+
+Levine empezó a formular su trabajo en los años setenta, tras experiencias con pacientes y con su propia recuperación de una lesión; fundó la Foundation for Human Enrichment, hoy Somatic Experiencing Trauma Institute. La formación se ofrece en muchos países, incluida la Argentina.
+
+## Matices y límites
+
+- **Con investigación:** hay ensayos aleatorizados pequeños, como el de Brom y colaboradores (2017), y algunos estudios más recientes; las revisiones sistemáticas señalan que la calidad de la evidencia es todavía limitada. Para estrés postraumático, los tratamientos con más respaldo son otros, como la terapia cognitivo-conductual centrada en el trauma y el EMDR ([EMDR](/recursos/emdr/)).
+- **Teoría:** la comparación con los animales salvajes y la idea de «descarga» de una energía atrapada son modelos explicativos, no hechos comprobados en personas. La teoría polivagal, que a veces se invoca para justificar el método, tiene críticas serias en la literatura ([teoría polivagal](/recursos/teoria-polivagal/)).
+- La pendulación puede acompañar otros tratamientos, pero no los reemplaza cuando hay síntomas graves.
 
 ## Preguntas frecuentes
 
