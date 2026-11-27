@@ -51,6 +51,26 @@ Este tema forma parte de [el mapa de las psicologías espirituales](/recursos/ma
 
 Lecturas: Merton, T. (1961), *New Seeds of Contemplation* (en español, *Nuevas semillas de contemplación*). Pruyser, P. W. (1976), *The Minister as Diagnostician: Personal Problems in Pastoral Perspective*.
 
+## Un poco de historia
+
+La contemplación cristiana es mucho más antigua que el siglo XX. Los padres y madres del desierto, en Egipto y Siria, practicaban la oración silenciosa desde los primeros siglos. En la Edad Media aparecieron textos como *La nube del no saber*, de autor anónimo, escrito en inglés en el siglo XIV, y en el Siglo de Oro español, Teresa de Ávila (1515–1582) y Juan de la Cruz (1542–1591) describieron con enorme precisión psicológica lo que llamaron «noche oscura»: períodos de aridez y desolación en el camino de oración. Hoy estos textos se leen también como descripciones de procesos internos, más allá de su sentido religioso.
+
+## Merton, la oración centrante y el diálogo con la psicología
+
+Merton ingresó al monasterio de Gethsemani en 1941 y se hizo famoso con su autobiografía *La montaña de los siete círculos* (1948). En los años setenta, tres monjes trapenses de Estados Unidos, entre ellos Thomas Keating y William Meninger, desarrollaron la «oración centrante», un método de silencio con una palabra sagrada que se retoma cada vez que la mente se distrae. Existe cierto parecido formal con la meditación laica, pero el marco y la intención son distintos: acá el silencio es una forma de estar disponible para Dios, no una técnica de autorregulación.
+
+Jung, por su parte, escribió sobre religión como un fenómeno psicológico central, por ejemplo en *Psicología y religión* (1938, conferencias Terry). Sin tomar partido sobre la verdad de la fe, sostenía que la función religiosa es parte de la psique. Podés ver su enfoque en [Jung y la meditación](/recursos/jung-y-la-meditacion/).
+
+## Una viñeta
+
+Alguien que reza en silencio todas las mañanas desde hace años atraviesa una separación. Un día cuenta que ya no siente nada cuando reza, y teme haber «perdido la fe». En terapia no se discute su creencia ni se la patologiza. Se explora qué le pasa: si hay un cuadro depresivo que apaga también la práctica, si está agotada, si hay duelo. Muchas veces, ambas cosas conviven: la aridez espiritual y la tristeza. Distinguirlas con ayuda profesional permite no cargar a la fe con lo que es del ánimo, ni al ánimo con lo que es del camino interior. La escena es ilustrativa, no un caso real.
+
+## Matices y límites
+
+Qué tiene investigación: la espiritualidad y el afrontamiento religioso se estudian desde hace décadas, con resultados mixtos: pueden ser un recurso o, cuando la persona vive su dolor como castigo divino, un factor de más sufrimiento (Pargament). Qué es teoría o testimonio: las descripciones de los místicos son una fuente valiosa, pero no son datos controlados. Y sobre la oración centrante, hay pocos estudios formales; no corresponde presentarla como tratamiento.
+
+Podés seguir con [Merton y el zen en D. T. Suzuki](/recursos/d-t-suzuki/), el artículo sobre la [experiencia mística](/recursos/experiencia-mistica/) y [cuándo meditar no es recomendable](/recursos/cuando-meditar-no-es-recomendable/).
+
 ## Preguntas frecuentes
 
 ### ¿La oración contemplativa es lo mismo que la meditación?

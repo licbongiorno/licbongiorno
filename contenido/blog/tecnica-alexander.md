@@ -49,6 +49,28 @@ Hay otro método de educación corporal con un nombre parecido, la [eutonía](/r
 
 Lecturas: Little, P. y colaboradores (2008), «Randomised controlled trial of Alexander technique lessons, exercise, and massage (ATEAM) for chronic and recurrent back pain», *BMJ*, 337, a884. MacPherson, H. y colaboradores (2015), «Alexander Technique Lessons or Acupuncture Sessions for Persons With Chronic Neck Pain: A Randomized Trial», *Annals of Internal Medicine*, 163, 653–662.
 
+## Contexto histórico
+
+F. M. Alexander nació en Tasmania en 1869 y trabajó como actor recitador. Cuando se quedaba sin voz en pleno espectáculo, los médicos no encontraron causa orgánica. Durante años se observó frente a espejos y notó que, al declamar, echaba la cabeza hacia atrás y comprimía el cuello. Al cambiar eso, la voz mejoró. Se mudó a Londres en 1904 y empezó a enseñar. Entre sus libros están *Man's Supreme Inheritance* (1910) y *The Use of the Self* (1932). El filósofo John Dewey escribió prólogos para varios de ellos, y el etólogo Nikolaas Tinbergen mencionó el método en su discurso del Nobel de 1973.
+
+## Una idea más: el control primario
+
+Alexander hablaba de un «control primario»: la relación entre la cabeza, el cuello y la espalda, que, según él, organiza el resto del movimiento. Cuando el cuello se tensa y la cabeza se hunde, todo el cuerpo se acomoda alrededor de eso. Es una hipótesis del método, no una estructura anatómica reconocida con ese nombre.
+
+## Una viñeta
+
+Un músico que toca durante horas llega con tensión crónica en hombros y mandíbula. Cada vez que se acerca una presentación, nota que contiene el aire. En las clases aprende a detenerse un instante antes de empezar a tocar, a notar qué hace con el cuello y a «dirigirse» a una organización más abierta. No se vuelve un instrumentista sin nervios: aprende a reconocer cuándo aparecen y a no sumar tensión innecesaria. En terapia se puede agregar otra pregunta: qué le pasa con la exigencia y con ser mirado. Es una escena compuesta, no un caso real.
+
+## Cómo dialoga con la psicoterapia
+
+Desde un enfoque integrativo con base junguiana y psicoanalítica, la inhibición tiene un parentesco con la pausa terapéutica: frenar la reacción automática y abrir un espacio entre el estímulo y la respuesta. Muchos patrones de tensión corporal son también patrones emocionales (la [autoexigencia](/recursos/autoexigencia-y-perfeccionismo/), la espera de ser evaluado). La técnica Alexander ofrece una vía corporal para notarlos, y la terapia, una vía para entender su historia. No se reemplazan; se pueden acompañar.
+
+## Matices y límites
+
+Qué tiene investigación: los dos ensayos citados son buenos, pero hablan de dolor de espalda y de cuello. Se hicieron también estudios pequeños en otras condiciones, como la enfermedad de Parkinson, con resultados preliminares que piden replicación; no alcanzan para recomendarla como tratamiento. Qué es teoría: la idea de que el «uso» de uno mismo condiciona el funcionamiento general es una hipótesis del método y está lejos de estar demostrada. Qué se discute: qué parte del beneficio se debe a la enseñanza de hábitos de movimiento y qué parte a factores generales como el contacto, la atención y la expectativa. Además, la técnica se aprende con docentes certificados; no es algo que se resuelva con un video.
+
+Para seguir: [Feldenkrais](/recursos/feldenkrais/), [estrés crónico y cuerpo](/recursos/estres-cronico-y-cuerpo/) y el [laboratorio del cuerpo vivido](/laboratorio-del-cuerpo-vivido/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la técnica Alexander?

@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 98
 estado: publicado
 respuesta: La terapia de aceptación y compromiso (ACT) es una psicoterapia desarrollada por el psicólogo Steven Hayes y colaboradores a partir de los años ochenta. Busca aumentar la flexibilidad psicológica: hacerle lugar a los pensamientos y emociones difíciles en vez de pelear contra ellos, y comprometerse con acciones guiadas por los propios valores. Trabaja con seis procesos, como la aceptación, la defusión cognitiva y los valores.
-revision: 2026-11-06
+revision: 2026-11-27
 menciona: steven-hayes
 ---
 No, no es resignarse ni «aceptar» que todo está bien. Es darse cuenta de algo que muchas personas descubren después de años: que la pelea contra lo que sienten —no tener miedo, no estar triste, no pensar en eso— se volvió el problema principal. La ACT propone otra cosa: hacerle lugar a lo que aparece y, con eso a cuestas, seguir caminando hacia lo que importa.
@@ -49,6 +49,26 @@ La ACT cuenta con numerosos ensayos clínicos y metaanálisis. Muestra resultado
 La ACT pertenece a la familia de las terapias cognitivo-conductuales, de las que tomo algunos recursos en mi [enfoque integrativo](/enfoque/). Tiene puntos en común con la mirada junguiana: la idea de que no se trata de eliminar lo difícil, sino de integrarlo, y la importancia del sentido. Si querés trabajarlo, podés [escribirme](/contacto/).
 
 Casi un siglo antes, en Japón, la [terapia Morita](/recursos/terapia-morita/) propuso algo parecido: aceptar la emoción y hacer lo que hay que hacer.
+
+## Contexto histórico y biográfico
+
+Steven Hayes cuenta que, en 1978, siendo estudiante de posgrado, tuvo su primer ataque de pánico, y que sus intentos de controlarlo lo empeoraron. Esa experiencia, narrada en su libro *A Liberated Mind* (2019), influyó en un modelo donde el problema no es la emoción, sino la lucha por eliminarla. Hacia mediados de los ochenta desarrolló las primeras versiones de la terapia, y en 1999 publicó con Strosahl y Wilson el primer manual. Su base teórica es la **teoría de los marcos relacionales** (Hayes, Barnes-Holmes y Roche, 2001), una explicación del lenguaje y la cognición que sostiene que las palabras pueden volverse tan «reales» como lo que nombran.
+
+## Un ejemplo cotidiano
+
+Alguien tiene ataques de pánico en el subte, y por eso empieza a evitarlo. Primero viaja en colectivo, después en taxi, y al final deja de ir a ciertos lugares. Cada vez que evita, el alivio es inmediato, y la vida se achica. La ACT no propone «vencer el miedo» antes de actuar. Propone elegir un valor (por ejemplo, estar presente para los hijos) y dar pasos pequeños hacia él, llevando la ansiedad consigo, como quien lleva un bolso pesado pero sigue caminando.
+
+## Una viñeta
+
+Una persona llega con insomnio y un pensamiento que se repite: «si no duermo, mañana voy a fracasar». Cuanto más intenta no pensarlo, más aparece. En sesión se practica anteponer «estoy teniendo el pensamiento de que…», y se pregunta qué le importa de dormir bien. Surge un valor: cuidar su trabajo y su familia. Se acuerdan acciones concretas, como mantener horarios y dejar de mirar el reloj, sin pelear contra el pensamiento. Es una escena compuesta, no un caso real.
+
+## Cómo se trabaja en terapia
+
+Las sesiones combinan conversación, ejercicios experienciales y metáforas. Se explora qué estrategias de control usó la persona y qué le costaron, se clarifican valores (distintos de las metas: un valor es una dirección, no algo que se «cumple») y se acuerdan compromisos pequeños. Con la mirada junguiana hay un diálogo posible con la idea de integrar lo que se rechaza; ambos enfoques invitan a no expulsar lo difícil. Podés leer también sobre [mindfulness](/recursos/mindfulness-atencion-plena/) y [Steven C. Hayes](/recursos/steven-c-hayes/).
+
+## Matices y límites
+
+Qué tiene investigación: el metaanálisis de A-Tjak y colaboradores (2015, *Psychotherapy and Psychosomatics*) encontró que la ACT fue superior a las listas de espera y al tratamiento habitual, y de eficacia similar a otros tratamientos, aunque sin superar de modo claro a la terapia cognitivo-conductual tradicional. Qué se discute: hay quien sostiene que mucho de lo que ofrece ya estaba en la tradición cognitivo-conductual, y que algunas escalas de «inflexibilidad psicológica» se superponen con medidas de malestar general. Qué es teoría: la teoría de los marcos relacionales es un programa de investigación propio, con apoyo experimental, pero no es aceptada de modo general. Y un cuidado: en una situación de peligro o de abuso, «aceptar» no corresponde; primero hay que protegerse. Para entender el contexto más amplio, mirá [qué es la terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/).
 
 ## Preguntas frecuentes
 

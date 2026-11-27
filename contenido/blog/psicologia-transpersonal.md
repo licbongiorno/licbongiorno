@@ -11,7 +11,7 @@ orden: 193
 estado: publicado
 respuesta: La psicología transpersonal es una corriente que estudia las experiencias que van más allá del yo personal, como la unidad, la trascendencia o el sentido espiritual. Surgió en 1967, cuando Abraham Maslow, Anthony Sutich y Stanislav Grof propusieron el nombre. Ken Wilber la organizó en niveles prepersonal, personal y transpersonal, y Roberto Assagioli creó la psicosíntesis. Sus ideas son debatidas en la ciencia, y conviene usarlas con criterio.
 menciona: maslow, grof, wilber
-revision: 2026-11-20
+revision: 2026-11-27
 ---
 Alguna vez te pasó sentir, en un momento, que formabas parte de algo más grande: un paisaje, una música, una noche. Esa experiencia tiene nombre en la psicología transpersonal, una corriente que estudia lo que va más allá del yo personal.
 
@@ -54,6 +54,24 @@ Es un marco para pensar la experiencia, no una ciencia cerrada: ni camino superi
 ## Un cuidado
 
 Algunas prácticas transpersonales, como la respiración holotrópica, son intensas y requieren facilitadores capacitados. Las ideas perinatales de Grof son debatidas por la ciencia. Y una experiencia de unidad no garantiza bienestar: si genera angustia o desorganización, conviene consultar. Señales de consulta urgente: no dormir varias noches, oír voces que otros no oyen, ideas de misión o de grandeza que desorganizan la vida, no poder cuidarse o riesgo para vos o para otros. Leé también [cuándo meditar no es recomendable](/recursos/cuando-meditar-no-es-recomendable/) y sobre el uso de lo espiritual para esquivar lo emocional, el [bypass espiritual](/recursos/bypass-espiritual/).
+
+## Contexto histórico
+
+La psicología transpersonal nació de un descontento. Maslow, hacia fines de los años sesenta, sentía que la psicología humanista, su «tercera fuerza», no alcanzaba para dar cuenta de ciertas experiencias de unidad, éxtasis o sentido. Por eso habló de una «cuarta fuerza». El *Journal of Transpersonal Psychology* apareció en 1969, y la corriente fue creciendo en California junto con el interés por las tradiciones contemplativas orientales y por los estados no ordinarios de conciencia. Mucho antes, William James había descripto estas vivencias en *Las variedades de la experiencia religiosa* (1902) y Jung las había tomado como parte de la vida psíquica, aunque sin usar el término «transpersonal».
+
+## Una viñeta
+
+Una persona de unos cuarenta años, sin creencias religiosas, cuenta que en el funeral de su padre tuvo un momento de calma extraña, como si el dolor y el paisaje fueran una sola cosa. Después se asustó: ¿era una señal de que algo andaba mal? En terapia no se le dice que fue «una experiencia espiritual» ni que fue «una disociación». Se le pregunta cómo la vivió, qué cambió y qué parte quiere conservar. Es una escena compuesta, sin datos de nadie en particular. La actitud importa más que el rótulo.
+
+## Cómo se trabaja en terapia
+
+Desde un enfoque integrativo de base junguiana y psicoanalítica, estas experiencias se escuchan sin reducirlas a síntoma y sin idealizarlas. Se atiende a tres cosas: el estado en que está la persona (sueño, ánimo, funcionamiento), lo que la experiencia significa en su historia y cómo puede integrarse en la vida cotidiana. Jung la aproximaba con ideas como el [Sí-mismo](/recursos/el-yo-y-el-si-mismo/) y lo numinoso; la psicosíntesis de Assagioli propone, además, ejercicios concretos de desidentificación.
+
+## Matices y límites
+
+Qué tiene investigación: las experiencias místicas y de unidad se estudian con cuestionarios como la Escala de Misticismo de Hood, y hay investigación reciente sobre la meditación y las sustancias psicodélicas. Qué es teoría: los niveles de Wilber son un modelo filosófico que integra tradiciones; no se derivan de datos empíricos y han recibido críticas por su carácter especulativo. Qué se discute: la «falacia pre/trans» de Wilber (1980) es una distinción útil, pero difícil de aplicar con rigor en un caso concreto. Tampoco hay acuerdo sobre qué es una experiencia «transpersonal» y qué es otra cosa, como un estado alterado por privación de sueño o por una sustancia.
+
+Para ubicar estas ideas junto a otras podés leer [psicología de la religión](/recursos/psicologia-de-la-religion/) y [bypass espiritual](/recursos/bypass-espiritual/), y practicar con cuidado en el [laboratorio de psicología transpersonal](/laboratorio-de-psicologia-transpersonal/).
 
 ## Preguntas frecuentes
 

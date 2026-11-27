@@ -49,6 +49,24 @@ Podés seguir con [el mapa de las psicologías espirituales](/recursos/mapa-de-l
 
 Lecturas: Wong, P. T. P. (2011), «Positive psychology 2.0: Towards a balanced interactive model of good life», *Canadian Psychology*, 52(2), 69–81.
 
+## Contexto: una psicología positiva con dos olas
+
+Martin Seligman y Mihaly Csikszentmihalyi lanzaron la psicología positiva en el año 2000, con un artículo en *American Psychologist*. El impulso fue razonable: durante décadas la psicología se había ocupado casi solo de lo que falla, y faltaba estudiar lo que funciona. Con el tiempo, algunos investigadores señalaron que ciertas conclusiones se aplicaban mal fuera del laboratorio: no todo lo «positivo» ayuda siempre ni todo lo «negativo» daña. A ese giro se lo llama a veces «segunda ola». Lomas e Ivtzan (2016, *Journal of Happiness Studies*) la describieron como una mirada que explora la dialéctica entre lo positivo y lo negativo en el bienestar, y Wong es una de sus voces principales.
+
+## Una viñeta
+
+Una mujer pierde a su pareja después de una enfermedad larga. A los meses, en las reuniones, escucha que «hay que agradecer lo vivido». Ella siente rabia, y después culpa por sentir rabia. En la terapia no se le pide que encuentre una lección. Se le pregunta, en cambio, qué fue lo que más valoró de esa relación y qué de eso quiere seguir cuidando en su vida. El duelo no se vuelve «positivo»: se vuelve habitable, porque lo que dolía mostraba lo que importaba. Es un ejemplo ilustrativo, compuesto, no un caso real.
+
+## Cómo se trabaja en terapia
+
+Frankl hablaba de una «tríada trágica»: el dolor, la culpa y la muerte, tres cosas que no se evitan y frente a las cuales se puede tomar una actitud. Desde un enfoque integrativo con base junguiana, esa idea dialoga con el proceso de individuación, donde la sombra y lo que duele son material de crecimiento y no un desvío. En sesión eso se traduce en preguntas sobre valores, responsabilidades y vínculos, sin apurar ninguna conclusión. Para medir el sentido, la investigación usa instrumentos como el Cuestionario de Sentido de la Vida de Steger y colaboradores (2006, *Journal of Counseling Psychology*, 53(1)), que distingue entre tener un sentido y buscarlo.
+
+## Matices y límites
+
+Qué tiene investigación: el sentido de la vida se asocia con mejor salud mental y bienestar en muchos estudios, aunque la mayoría son correlacionales: no demuestran que el sentido cause el bienestar. Qué es teoría: PP 2.0 es un marco en construcción y la «autotrascendencia» es un concepto filosófico difícil de medir. Qué se discute: si hace falta una «segunda ola» o si la psicología positiva ya incluía estos matices. También conviene recordar que Wong no escribió contra la felicidad: propone que no sea el único criterio de una vida buena.
+
+Podés profundizar con [Martin Seligman](/recursos/martin-seligman/), [Viktor Frankl](/recursos/viktor-frankl/) y el [mapa de la psicología positiva](/recursos/mapa-de-la-psicologia-positiva/), o con el [laboratorio de vínculos y sentido](/laboratorio-psicologia-positiva-vinculos-y-sentido/).
+
 ## Preguntas frecuentes
 
 ### ¿Qué es la psicología positiva existencial?
