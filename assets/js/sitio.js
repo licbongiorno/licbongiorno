@@ -870,9 +870,12 @@
   }
 })();
 
-/* Disparador «Antes de leer»: guarda las respuestas solo en este navegador. */
+/* Disparador «Antes de leer»: hipótesis guardadas solo en este navegador. */
 (function () {
   "use strict";
+  if (!document.querySelector(".disparador")) return;
+  function leer(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function guardar(k, v) { try { if (v) localStorage.setItem(k, v); else localStorage.removeItem(k); } catch (e) {} }
   document.querySelectorAll(".disparador__ver").forEach(function (b) {
     b.addEventListener("click", function () {
       var r = document.getElementById(b.getAttribute("aria-controls"));
@@ -880,13 +883,29 @@
       b.setAttribute("aria-expanded", abierta ? "true" : "false");
     });
   });
-  var campos = document.querySelectorAll("textarea[data-disparador]");
-  if (!campos.length) return;
-  campos.forEach(function (t) {
-    var k = "nb-disp-" + t.getAttribute("data-disparador");
-    try { var v = localStorage.getItem(k); if (v) t.value = v; } catch (e) {}
-    t.addEventListener("input", function () {
-      try { if (t.value) localStorage.setItem(k, t.value); else localStorage.removeItem(k); } catch (e) {}
-    });
+  document.querySelectorAll("input[data-disparador-op]").forEach(function (r) {
+    var k = "nb-disp-op-" + r.getAttribute("data-disparador-op");
+    if (leer(k) === r.value) r.checked = true;
+    r.addEventListener("change", function () { if (r.checked) { guardar(k, r.value); refrescar(); } });
   });
+  document.querySelectorAll("textarea[data-disparador]").forEach(function (t) {
+    var k = "nb-disp-" + t.getAttribute("data-disparador");
+    var v = leer(k); if (v) t.value = v;
+    t.addEventListener("input", function () { guardar(k, t.value); refrescar(); });
+  });
+  function refrescar() {
+    document.querySelectorAll("[data-disparador-vuelta]").forEach(function (li) {
+      var k = li.getAttribute("data-disparador-vuelta");
+      var txt = leer("nb-disp-" + k), op = leer("nb-disp-op-" + k), elegida = "";
+      if (op !== null) {
+        var inp = document.querySelector('input[data-disparador-op="' + k + '"][value="' + op + '"]');
+        if (inp) elegida = inp.parentNode.textContent.trim();
+      }
+      var tuya = [elegida, txt].filter(Boolean).join(" · ");
+      var span = li.querySelector(".disparador__tuya");
+      span.querySelector("[data-disparador-tuya]").textContent = tuya;
+      span.hidden = !tuya;
+    });
+  }
+  refrescar();
 })();

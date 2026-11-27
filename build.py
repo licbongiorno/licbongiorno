@@ -1578,26 +1578,55 @@ def bloque_ubicar_articulo(slug_art):
             f'<ul>{"".join(items)}</ul></aside>')
 
 
+def _disparador(slug_art):
+    f = CONTENIDO / "disparadores" / f"{slug_art}.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+
+
 def bloque_disparador(slug_art, cuerpo):
-    """«Antes de leer: ¿vos qué responderías?»: preguntas del autor, espacio para responder y la respuesta del autor."""
-    if not (CONTENIDO / "disparadores.json").exists():
-        return ""
-    d = cargar_json("disparadores.json").get(slug_art)
+    """«Antes de leer»: un enigma cotidiano, una hipótesis propia y la respuesta del autor (qué, cómo lo supo, qué se discute)."""
+    d = _disparador(slug_art)
     if not d:
         return ""
     ids = {html.unescape(re.sub(r"<[^>]+>", "", t)).strip(): i for i, t in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', cuerpo)}
+    autor = esc(d["autor"])
     items = []
     for n, q in enumerate(d["preguntas"], 1):
-        mas = f' <a href="#{ids[q["seccion"]]}">Leer más</a>' if q.get("seccion") in ids else ""
-        items.append(f'<li class="disparador__item"><p class="disparador__p">{inline_md(q["p"])}</p>'
-                     f'<label class="visualmente-oculto" for="disp-{slug_art}-{n}">Tu respuesta</label>'
-                     f'<textarea id="disp-{slug_art}-{n}" data-disparador="{slug_art}-{n}" rows="2" '
-                     f'placeholder="Escribí lo que pensás. Queda guardado solo en tu navegador."></textarea>'
-                     f'<button type="button" class="disparador__ver" aria-expanded="false" aria-controls="disp-r-{slug_art}-{n}">Ver qué respondió {esc(d["autor"])}</button>'
-                     f'<p class="disparador__r" id="disp-r-{slug_art}-{n}">{inline_md(q["r"])}{mas}</p></li>')
-    return (f'<section class="disparador" aria-labelledby="disp-titulo"><p class="disparador__titulo" id="disp-titulo">Antes de leer: ¿vos qué responderías?</p>'
-            f'<p class="disparador__intro">Las preguntas que se hizo {esc(d["autor"])}. Pensá tu respuesta y después compará con la suya.</p>'
+        k = f"{slug_art}-{n}"
+        ops = "".join(f'<label class="disparador__op"><input type="radio" name="disp-{k}" value="{i}" data-disparador-op="{k}"> {inline_md(o)}</label>'
+                      for i, o in enumerate(q.get("opciones", [])))
+        mas = f'<p class="disparador__mas"><a href="#{ids[q["seccion"]]}">Leer más en el artículo</a></p>' if q.get("seccion") in ids else ""
+        items.append(
+            f'<li class="disparador__item">'
+            f'<p class="disparador__enigma">{inline_md(q["enigma"])}</p>'
+            f'<p class="disparador__p">{inline_md(q["p"])}</p>'
+            f'<fieldset class="disparador__ops"><legend class="visualmente-oculto">Tu hipótesis</legend>{ops}'
+            f'<label class="disparador__otra"><span>Otra idea:</span> <textarea data-disparador="{k}" rows="1" '
+            f'placeholder="Escribila con tus palabras"></textarea></label></fieldset>'
+            f'<button type="button" class="disparador__ver" aria-expanded="false" aria-controls="disp-r-{k}">Ver qué respondió {autor}</button>'
+            f'<div class="disparador__r" id="disp-r-{k}">'
+            f'<p><strong>Qué respondió.</strong> {inline_md(q["r"])}</p>'
+            + (f'<p><strong>Cómo llegó a eso.</strong> {inline_md(q["como"])}</p>' if q.get("como") else "")
+            + (f'<p><strong>Qué se discute hoy.</strong> {inline_md(q["debate"])}</p>' if q.get("debate") else "")
+            + f'{mas}</div></li>')
+    return (f'<section class="disparador" aria-labelledby="disp-titulo"><p class="disparador__titulo" id="disp-titulo">Antes de leer: ¿vos qué pensás?</p>'
+            f'<p class="disparador__intro">Elegí la idea que más te convenza o escribí la tuya. No hay respuestas incorrectas: '
+            f'muchas personas pensaron lo mismo que vos antes de {autor}.</p>'
             f'<ol>{"".join(items)}</ol></section>')
+
+
+def bloque_disparador_cierre(slug_art):
+    """Cierre: volver a la hipótesis propia y una pregunta que sigue abierta."""
+    d = _disparador(slug_art)
+    if not d:
+        return ""
+    vuelta = "".join(f'<li data-disparador-vuelta="{slug_art}-{n}"><span class="disparador__vp">{inline_md(q["p"])}</span> '
+                     f'<span class="disparador__tuya" hidden>Tu idea: <em data-disparador-tuya></em></span></li>'
+                     for n, q in enumerate(d["preguntas"], 1))
+    abierta = f'<p class="disparador__abierta"><strong>Una pregunta que sigue abierta.</strong> {inline_md(d["abierta"])}</p>' if d.get("abierta") else ""
+    return (f'<aside class="disparador disparador--cierre" aria-label="Volver a tu respuesta"><p class="disparador__titulo">Volvé a tu respuesta</p>'
+            f'<p class="disparador__intro">Después de leer, ¿cambiarías algo de lo que pensaste al principio?</p>'
+            f'<ul>{vuelta}</ul>{abierta}</aside>')
 
 def bloque_datos_clave():
     filas = [
@@ -2649,6 +2678,7 @@ def render_articulo(a):
   {bloque_disparador(a["archivo"][:-3], cuerpo_md)}
   {indice_articulo(cuerpo_md)}
   {cuerpo_md}
+  {bloque_disparador_cierre(a["archivo"][:-3])}
   {faq_html(faq_items, "Preguntas frecuentes") if faq_items else ""}
   {bloque_consulta(a)}
   <div class="destacado destacado--aviso"><p>Este artículo tiene fines de divulgación y no reemplaza una consulta profesional. Si estás atravesando una situación de riesgo, comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país).</p></div>
