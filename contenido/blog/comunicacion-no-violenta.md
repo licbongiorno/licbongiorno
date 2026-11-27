@@ -10,7 +10,7 @@ fecha_visible: noviembre de 2026
 orden: 32
 estado: publicado
 respuesta: La comunicación no violenta (CNV) es un modo de comunicarse desarrollado por el psicólogo Marshall Rosenberg. Propone cuatro pasos: observar los hechos sin juzgar, expresar lo que sentimos, reconocer la necesidad que hay detrás y hacer un pedido concreto. Ayuda a hablar de lo que nos pasa sin atacar ni callarnos, aunque no reemplaza la terapia ni sirve frente a situaciones de violencia.
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 Ibas a decir «vos nunca me escuchás» y te frenaste. Escribiste un mensaje con bronca y lo borraste antes de mandarlo. Volvió la discusión de siempre, con las mismas palabras de siempre, y terminó en el mismo lugar de siempre. Entre gritar y tragarse todo, hay otra forma de hablar. Y se aprende.
 
@@ -56,6 +56,20 @@ Si estás atravesando una situación de violencia, pedí ayuda: en Argentina, la
 En mi trabajo con [dificultades vinculares](/dificultades-vinculares/) uso algunas ideas de la comunicación no violenta como herramienta práctica: ayudar a distinguir hechos de interpretaciones, ponerle nombre a lo que se siente y descubrir qué necesidad hay debajo de un enojo. Pero el trabajo terapéutico va más allá: busca entender por qué ciertas situaciones nos tocan tanto y de dónde vienen. Si te pasa que siempre terminás en la misma discusión, podés escribirme.
 
 Si querés practicar los cuatro pasos con ejercicios, te espera el [laboratorio de comunicación no violenta](/laboratorio-de-comunicacion-no-violenta/).
+
+## Una escena para probar
+
+Dos compañeros de departamento, llamémoslos Ana y Leo, discuten por los platos. Ella dice: «Sos un desastre». Él responde: «Y vos una exagerada». Ambos se van enojados y los platos siguen ahí. Con los cuatro pasos, la conversación podría ser: «Vi los platos de ayer y los de hoy en la pileta. Me da bronca, porque necesito llegar a una cocina limpia. ¿Podemos ponernos un día fijo para lavar cada uno?». No garantiza que él conteste bien, pero cambia el punto de partida: se habla del hecho y de la necesidad, no del carácter del otro.
+
+## Qué sabemos de su eficacia
+
+Marshall Rosenberg desarrolló el modelo en la práctica de mediación y de enseñanza, y fundó el Center for Nonviolent Communication en 1984. Es muy usado en escuelas, empresas y talleres. Sin embargo, la **investigación controlada** sobre la CNV es limitada: hay estudios pequeños y trabajos de capacitación con resultados alentadores, pero no la base de ensayos que sí tienen otras terapias. Conviene entonces presentarla como una **herramienta práctica** inspirada en principios humanistas, no como un tratamiento con eficacia demostrada.
+
+También conviene saber que la CNV coincide con ideas de otras tradiciones, como la escucha activa de Carl Rogers ([psicología humanista de Rogers](/recursos/psicologia-humanista-carl-rogers/)) o los enfoques del [conflicto y la comunicación en la pareja](/recursos/terapia-de-pareja/).
+
+## Cómo se trabaja en terapia
+
+En consulta, la CNV sirve como un andamio: ayuda a separar lo observable de lo interpretado y a nombrar emociones con precisión. Cuando la persona queda enganchada con frases como «sé que tengo que pedirlo así, pero no puedo», se pasa de la técnica a la historia: qué le impide pedir, qué temió la última vez que lo hizo. Para esa parte son útiles la mirada psicoanalítica de los vínculos y el trabajo con [límites sanos](/recursos/limites-sanos-en-los-vinculos/).
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 180
 estado: publicado
 respuesta: El insomnio es la dificultad persistente para conciliar el sueño, mantenerlo o despertarse descansado, con efectos durante el día. Suele mantenerse por un círculo: la preocupación por no dormir activa el cuerpo, se pasan más horas en la cama y la cama se asocia con estar despierto. La terapia cognitivo-conductual del insomnio (TCC-I) es el tratamiento de primera línea y trabaja sobre ese círculo.
 menciona: ansiedad
-revision: 2026-11-10
+revision: 2026-11-27
 ---
 Son las tres de la mañana. Mirás el reloj y hacés la cuenta: si te dormís ahora, quedan cuatro horas. Te das vuelta, cerrás los ojos con fuerza, intentás no pensar. Y cuanto más lo intentás, más despierto estás.
 
@@ -51,6 +51,23 @@ Cuando el insomnio dura más de un mes, cuando afecta tu trabajo o tu ánimo, o 
 :::aviso
 Si las noches sin dormir vienen con desesperanza o pensamientos de hacerte daño, no esperes: llamá al 911 o al Centro de Asistencia al Suicida, 135 (CABA y GBA) o 0800-345-1435 (todo el país). Más teléfonos en [Ayuda urgente](/ayuda-urgente/).
 :::fin
+
+## Una escena del consultorio
+
+Alguien, llamémoslo Gustavo, duerme mal desde un duelo hace ocho meses. Ya pasó lo más duro, pero su cuerpo aprendió otra cosa: se acuesta a las 21 pensando que no va a dormir, se levanta a las 6 agotado y, para compensar, hace siesta de dos horas. Su dormitorio se volvió un lugar de lucha. Es un ejemplo genérico: el insomnio empezó por un motivo y se mantiene por los hábitos que se armaron alrededor.
+
+## Cómo se trabaja en terapia
+
+Con enfoque integrativo, se combinan las herramientas de la **TCC-I** (horarios, control de estímulos, reorganizar el tiempo en cama) con la pregunta por lo que pasa de noche: preocupaciones, duelos, vínculos, cambios de etapa. A veces el insomnio es el único momento en que aparece lo que durante el día no tuvo lugar. Desde la mirada junguiana y psicoanalítica, el sueño y la noche también son un espacio de elaboración; leé [pesadillas](/recursos/pesadillas/) y [sueños recurrentes](/recursos/suenos-recurrentes/) si aparecen.
+
+## Matices y límites
+
+- **Qué tiene respaldo:** la TCC-I es el tratamiento recomendado en primera línea por guías como la europea de 2017 (Riemann y otros). Los hipnóticos se recomiendan por períodos cortos.
+- **Qué requiere cuidado:** la restricción del tiempo en cama no es para cualquiera. Conviene hacerla con un profesional, sobre todo si hay trastorno bipolar, epilepsia, somnolencia al manejar u otras condiciones médicas.
+- El insomnio puede ser parte de una depresión, de la ansiedad, de un dolor crónico o de problemas como la apnea del sueño; por eso a veces hace falta una evaluación médica.
+- Los gadgets y las aplicaciones de seguimiento del sueño pueden aumentar la ansiedad por dormir en algunas personas.
+
+Podés ver también [estrés crónico y cuerpo](/recursos/estres-cronico-y-cuerpo/) y [respiración y emociones](/recursos/respiracion-y-emociones/).
 
 ## Preguntas frecuentes
 

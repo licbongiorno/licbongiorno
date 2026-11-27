@@ -11,7 +11,7 @@ fecha_visible: noviembre de 2026
 orden: 1
 estado: publicado
 respuesta: No hace falta estar en una situación extrema. Conviene consultar si algo te hace sufrir hace tiempo, si se repiten situaciones que no lográs cambiar, si te cuesta dormir o disfrutar, o si querés conocerte mejor. La primera entrevista sirve para pensarlo juntos, sin compromiso.
-revision: 2026-11-05
+revision: 2026-11-27
 ---
 «No sé si lo mío es para tanto.» «Hay gente que está peor.» «Debería poder resolverlo solo.» Si alguna de estas frases te suena, no estás solo: son las que más escucho en las primeras entrevistas, casi siempre dichas después de meses, o años, de postergar.
 
@@ -48,6 +48,22 @@ No es un compromiso: es un primer paso para pensar con otro algo que, solo, se v
 Si estás atravesando una crisis, sentís que no podés más o aparecen pensamientos de hacerte daño, no esperes a un turno: comunicate con el 911 o con el Centro de Asistencia al Suicida (135 desde CABA y GBA; 0800-345-1435 desde todo el país). Pedir ayuda urgente también es cuidarte.
 
 Si ya decidiste consultar, pueden ayudarte estos artículos: [psicólogo o psiquiatra](/recursos/psicologo-o-psiquiatra/), [cómo elegir psicólogo](/recursos/como-elegir-psicologo/) y [cuánto dura una terapia](/recursos/cuanto-dura-una-terapia/).
+
+## Una escena frecuente
+
+Alguien, llamémoslo Sergio, llega a la primera entrevista diciendo: «No sé bien por qué vine, a lo mejor es una pavada». A los quince minutos está hablando de una separación que no terminó de procesar y de un cansancio que atribuía al trabajo. No tenía una crisis; tenía algo sin nombre que ocupaba mucho lugar. Es un ejemplo genérico, y la sorpresa de Sergio es de las más comunes: el motivo real casi nunca coincide con la excusa con la que se llega.
+
+## Cómo suele trabajarse
+
+Desde un enfoque integrativo, con base junguiana y psicoanalítica, la terapia empieza escuchando: qué te trae, desde cuándo, qué probaste, qué te gustaría que fuera distinto. No se parte de un molde. Según el caso, se pueden usar herramientas más estructuradas, como las de la [terapia cognitivo-conductual](/recursos/que-es-la-terapia-cognitivo-conductual/), o espacios más abiertos de exploración de la historia, los sueños y los vínculos. Podés ver cómo se combinan en [qué es la psicoterapia integrativa](/recursos/que-es-la-psicoterapia-integrativa/).
+
+## Matices y límites
+
+- **Qué tiene investigación:** en términos generales, la psicoterapia ayuda a la mayoría de quienes la hacen, y la calidad del vínculo con el terapeuta, la llamada alianza, es de los factores mejor estudiados. Un buen encuentro importa más que una etiqueta técnica.
+- **Qué es más difícil de afirmar:** no existe una lista de síntomas que diga con certeza «necesitás terapia». Las señales del artículo son invitaciones a pensar, no un test.
+- No todo malestar requiere terapia: a veces ayudan el descanso, una conversación franca o un cambio concreto. Y a veces lo que hace falta es una consulta médica, porque algunos síntomas físicos tienen causas orgánicas.
+
+Si querés una medida orientativa, podés responder la [escala de ánimo PHQ-9](/escala-de-animo-phq-9/) o la [escala de ansiedad GAD-7](/escala-de-ansiedad-gad-7/), sabiendo que no reemplazan una entrevista.
 
 ## Preguntas frecuentes
 

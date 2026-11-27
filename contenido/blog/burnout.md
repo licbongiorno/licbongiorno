@@ -11,7 +11,7 @@ orden: 182
 estado: publicado
 respuesta: El burnout, o síndrome de desgaste profesional, es el resultado de un estrés laboral crónico que no se pudo manejar. La Organización Mundial de la Salud lo incluyó en la CIE-11 como un fenómeno ocupacional, no como una enfermedad, y lo describe con tres dimensiones: agotamiento, distancia mental o cinismo frente al trabajo y sensación de ineficacia profesional. La recuperación requiere cambios en el trabajo y también cuidado personal.
 menciona: depresion
-revision: 2026-11-10
+revision: 2026-11-27
 ---
 En 2019, la Organización Mundial de la Salud incluyó el burnout en su clasificación internacional, la CIE-11. No como una enfermedad, sino como un fenómeno ligado al trabajo: el resultado de un estrés laboral crónico que no se pudo manejar. Fue el reconocimiento oficial de algo que mucha gente ya sentía en el cuerpo.
 
@@ -61,6 +61,24 @@ Si el agotamiento viene con desesperanza o pensamientos de hacerte daño, no esp
 Si querés una medida orientativa de cómo estás, podés responder el [inventario de burnout de Copenhague](/escala-de-burnout-de-copenhague/), que mide el agotamiento físico y psicológico, y la [escala de estrés percibido PSS-10](/escala-de-estres-percibido/).
 
 Para revisar lo que depende de vos y lo que no, y armar límites y recuperación, está el [laboratorio de burnout](/laboratorio-de-burnout/).
+
+## Una escena del consultorio
+
+Una enfermera, llamémosla Paula, trabaja hace años en un servicio saturado. Antes volvía a casa cansada pero contenta; ahora vuelve vacía. Le irrita que un paciente pida algo, y después se siente culpable por haberse irritado. El domingo a la tarde se le aprieta el pecho pensando en el lunes. Es un ejemplo genérico, pero sirve para ver que el burnout no se parece a la pereza: suele afectar a quienes más se entregaron.
+
+## Qué se sabe y qué se discute
+
+Christina Maslach y Michael Leiter propusieron en 1997 que el burnout aparece cuando hay un desajuste sostenido entre la persona y su trabajo en seis áreas: carga, control, recompensa, comunidad, justicia y valores. Esta mirada pone el foco en el ambiente, y no solo en la persona.
+
+Un punto que se discute: el burnout no figura como trastorno en el DSM, y algunos investigadores señalan que se superpone con la depresión. La CIE-11 lo define como un fenómeno ocupacional, no como una condición médica. Por eso conviene que alguien evalúe cada caso con cuidado, sin autodiagnosticarse.
+
+## Cómo se trabaja en terapia
+
+Desde un enfoque integrativo, se combinan varias líneas. En lo práctico, se ordenan descanso, límites y pedidos concretos en el trabajo; a veces, una licencia indicada por un médico. En lo emocional, se escucha lo que el agotamiento dice: cuánto de la identidad quedó atado a rendir, qué se espera de uno y de dónde viene. Desde la mirada junguiana, el cansancio profundo puede ser también una señal de que la [persona](/recursos/la-persona-mascara-social/), la máscara profesional, ocupó demasiado lugar. Para el cuerpo, leé [estrés crónico y cuerpo](/recursos/estres-cronico-y-cuerpo/) y [estrés laboral](/recursos/estres-laboral/).
+
+## Un límite honesto
+
+Ninguna técnica personal, por buena que sea, compensa un trabajo con condiciones que enferman. La terapia puede ayudar a decidir qué cambiar, qué pedir y cuándo irse, pero no reemplaza cambios en la organización.
 
 ## Preguntas frecuentes
 

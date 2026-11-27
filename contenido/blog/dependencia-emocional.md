@@ -11,7 +11,7 @@ fecha_visible: noviembre de 2026
 orden: 10
 estado: publicado
 respuesta: La dependencia emocional es una forma de vincularse en la que el bienestar propio queda en manos de otra persona: miedo intenso al abandono, tolerar lo que duele para no perder el vínculo, dejar de lado los propios deseos. Suele tener raíces en la historia vincular y se puede trabajar en terapia.
-revision: 2026-11-21
+revision: 2026-11-27
 menciona: bowlby
 ---
 No, no es amor de más. Es miedo con forma de amor. Es revisar el celular cada cinco minutos, achicarte para que el otro no se vaya, tolerar lo que duele porque perderlo parece todavía peor.
@@ -53,6 +53,20 @@ Las señales de arriba sirven para pensar, no para etiquetarte ni para etiquetar
 Muchas veces la dependencia emocional se entiende mejor desde el [apego ansioso y evitativo](/recursos/apego-ansioso-y-evitativo/) en la pareja adulta.
 
 El psiquiatra japonés Takeo Doi pensó una forma sana de depender del otro: el [amae](/recursos/amae/).
+
+## Una escena del consultorio
+
+Alguien, llamémoslo Julián, llega a terapia diciendo que su relación «está bien», pero que está agotado. Revisa si su pareja lo vio, interpreta cada demora en responder, pide perdón antes de que haga falta. Cuando la relación se pone tensa, no come ni duerme. Cuando se arregla, se siente con vida. Es un cuadro genérico: la montaña rusa emocional se confunde con intensidad de amor, cuando muchas veces es ansiedad por el vínculo.
+
+## Cómo se trabaja en terapia
+
+Desde un enfoque integrativo, se parte de **comprender** el patrón en lugar de juzgarlo. Primero, ordenar lo cotidiano: qué se hace por miedo y qué por deseo. Segundo, mirar la historia: qué se aprendió sobre el amor, sobre quedarse y sobre ser dejado. Tercero, usar el propio vínculo terapéutico como un espacio donde se puede ensayar algo distinto: pedir, discrepar, tolerar un silencio, sin que todo se derrumbe. Desde la mirada psicoanalítica, esto se relaciona con lo que se repite en la transferencia; desde la junguiana, con recuperar aspectos propios depositados en el otro. Y desde la mirada práctica, ayuda construir de a poco una vida con otros apoyos: [límites sanos](/recursos/limites-sanos-en-los-vinculos/), amistades, proyectos propios.
+
+## Matices y límites
+
+- La dependencia **no es un diagnóstico** en sí misma. Se la describe en la clínica y en la investigación sobre apego, y es útil como idea, pero no existe una lista cerrada que la defina.
+- No hay que confundirla con el [apego](/recursos/el-apego/) en general: necesitar a otros es sano. Y hay culturas y momentos de vida donde la interdependencia es la norma.
+- Si la relación incluye control, humillaciones, aislamiento o miedo, puede tratarse de violencia y no de «mucho amor»: mirá [violencia en la pareja](/recursos/violencia-en-la-pareja/).
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 17
 estado: publicado
 respuesta: No es lo mismo estar solo que sentirse solo. La soledad elegida puede ser un espacio de descanso y encuentro con uno mismo; la soledad no deseada, sostenida en el tiempo, duele y afecta la salud. La terapia ayuda a entender qué hay detrás del aislamiento y a recuperar vínculos.
 menciona: depresion
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no es lo mismo estar solo que sentirse solo. Hay quien está rodeado de gente un sábado a la noche y siente un vacío que no le entra en el pecho. Y hay quien pasa un domingo entero en silencio, con un libro y un mate, y siente que por fin volvió a casa.
 
@@ -49,6 +49,24 @@ Puede aparecer después de una mudanza, una separación, una migración, la jubi
 La terapia también es un vínculo: un lugar donde alguien te escucha con atención. A veces es el primer paso para volver a encontrarse con otros.
 
 Para mapear tu red y ensayar pequeños gestos de contacto, podés usar el [laboratorio de soledad y conexión](/laboratorio-de-soledad-y-conexion/).
+
+## Una escena frecuente
+
+Una mujer, llamémosla Marta, se jubiló hace un año. Su vida era el trabajo y los compañeros de siempre; ahora la agenda está vacía. Sus hijos viven lejos y la llaman con cariño, pero ella ya no tiene a quién contarle los detalles del día. No está aislada del todo, tiene vecinas que saludan, pero extraña la conversación cotidiana. Es un ejemplo genérico; muestra cómo la soledad suele aparecer en las transiciones, y no solo cuando falta gente.
+
+## Lo que dice la investigación
+
+Julianne Holt-Lunstad, Timothy Smith y Bradley Layton publicaron en 2010 un metaanálisis de 148 estudios y encontraron que las personas con relaciones sociales más sólidas tenían una probabilidad de supervivencia significativamente mayor que las que tenían vínculos más débiles. Es una asociación sólida, aunque como en todo estudio observacional no prueba por sí sola que el vínculo sea la causa. John Cacioppo y colaboradores, por su parte, estudiaron la soledad percibida y sus efectos sobre el sueño, el ánimo y la salud. Una conclusión práctica: importa más **cómo se vive el vínculo** que cuántos contactos se tienen.
+
+## Cómo se trabaja en terapia
+
+Con un enfoque integrativo, se distingue qué tipo de soledad es: elegida o impuesta, momentánea o crónica, por falta de contacto o por no sentirse comprendido. Se exploran las barreras: la vergüenza, el temor a molestar, el miedo a que se repita una herida. Se puede practicar con pequeños pasos, como retomar un contacto o sumarse a un grupo. Desde la mirada psicoanalítica y junguiana, se mira también la relación consigo mismo, ya que a veces la soledad más difícil es la interna. Podés seguir con [vejez y jubilación](/recursos/vejez-y-jubilacion/), [duelo migratorio](/recursos/duelo-migratorio/) y [pantallas y redes sociales](/recursos/pantallas-y-redes-sociales/).
+
+## Matices y límites
+
+- Estar conectado digitalmente no equivale a sentirse acompañado, pero tampoco hay que asumir que las redes siempre aumentan la soledad: depende del uso.
+- La soledad no es un diagnóstico. Puede acompañar a una depresión, pero no siempre.
+- Algunas personas necesitan más tiempo a solas que otras: no hay una cantidad «correcta» de vínculos.
 
 ## Preguntas frecuentes
 

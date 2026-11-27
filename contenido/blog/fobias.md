@@ -54,6 +54,23 @@ La fobia a la sangre o a las inyecciones puede producir desmayo, porque la presi
 
 Lecturas: Wolitzky-Taylor, K. B., Horowitz, J. D., Powers, M. B. y Telch, M. J. (2008), «Psychological approaches in the treatment of specific phobias: a meta-analysis», *Clinical Psychology Review*, 28, 1021–1037. Öst, L.-G. (1989), «One-session treatment for specific phobias», *Behaviour Research and Therapy*, 27, 1–7.
 
+## Una escena del consultorio
+
+Pensemos en alguien, llamémoslo Tomás, con fobia a volar. Rechazó un ascenso que implicaba viajar. Cada vez que lo propone el trabajo, inventa una excusa. Lo que más le pesa no es el avión, sino lo que dejó de hacer. Con el tiempo, arma con su terapeuta una escalera: mirar videos de despegues, ir al aeropuerto sin viajar, un vuelo corto con acompañamiento. Es un cuadro genérico, pero se parece a cómo suele ir el trabajo.
+
+## La mirada psicoanalítica y la integrativa
+
+Sigmund Freud analizó en 1909 el caso del pequeño Hans, un niño con miedo a los caballos, y propuso que la fobia desplaza una angustia más profunda hacia un objeto concreto. Es una lectura histórica, interesante, pero hoy no es lo que más respaldo tiene para tratar una fobia específica. En un enfoque integrativo, se prioriza la **exposición gradual** para el síntoma, y se deja abierta, si la persona quiere, la exploración del sentido: qué representa ese miedo y desde cuándo, sin presionar por una interpretación única.
+
+## Matices y límites
+
+- La exposición con apoyo profesional funciona en la mayoría de las fobias específicas, pero cada caso es distinto. Si la fobia es parte de un cuadro más amplio, se trabaja de otra manera.
+- Evitar de manera ocasional no es patológico: la decisión de no hacer algo puede ser razonable. El problema es cuando la evitación organiza la vida.
+- Los fármacos no suelen ser el tratamiento principal de una fobia específica.
+- Existen también tratamientos con realidad virtual, con evidencia en aumento, pero no están disponibles en todas partes.
+
+Si el miedo se parece más a «qué van a pensar de mí», leé [ansiedad social](/recursos/ansiedad-social/); si hay miedos a enfermarse, [ansiedad por la salud](/recursos/ansiedad-por-la-salud/).
+
 ## Preguntas frecuentes
 
 ### ¿Cuál es la diferencia entre miedo y fobia?

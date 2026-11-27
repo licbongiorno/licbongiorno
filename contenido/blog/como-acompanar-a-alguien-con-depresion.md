@@ -11,7 +11,7 @@ fecha_visible: noviembre de 2026
 orden: 13
 estado: publicado
 respuesta: Para acompañar a alguien con depresión ayuda estar presente, escuchar sin juzgar, validar lo que siente y proponer pasos pequeños, como acompañarlo a una consulta. Conviene evitar frases como «poné de tu parte». Ante señales de riesgo, hay que pedir ayuda urgente.
-revision: 2026-11-21
+revision: 2026-11-27
 menciona: depresion
 ---
 No hay frase mágica. Lo sabés porque ya probaste varias: «arriba ese ánimo», «salí un poco», «mirá todo lo que tenés». Y la persona que querés sigue ahí, del otro lado de un vidrio que no sabés cómo atravesar.
@@ -56,6 +56,20 @@ Lo que no tiene respaldo es la idea de que alcance con la fuerza de voluntad, o 
 ## Un cuidado
 
 Si la persona habla de quitarse la vida, se despide o muestra señales de riesgo, esto deja de ser un tema de «acompañar» y pasa a ser una urgencia. No prometas guardar el secreto y no lo dejes solo. Mirá [cómo ayudar si alguien piensa en quitarse la vida](/recursos/prevencion-del-suicidio/) y los teléfonos de [Ayuda urgente](/ayuda-urgente/).
+
+## Una escena frecuente
+
+Un hermano, llamémoslo Diego, llama todos los domingos a su hermana. Ella responde con monosílabos y a veces no atiende. Él empieza a dudar: ¿molesta, ayuda, empeora todo? Un día deja de llamar «para no presionarla». Ella lo vive como un abandono más. Es un ejemplo genérico, pero muestra algo común: acompañar no es presionar ni desaparecer, sino sostener un contacto liviano y constante, de baja exigencia.
+
+## Cómo se trabaja con las familias en terapia
+
+Cuando alguien tiene depresión, la terapia suele incluir al entorno de manera indirecta: se piensa qué tipo de ayuda es útil y cuál agota. A veces se hacen encuentros con familiares o parejas, con permiso de la persona. Desde un enfoque integrativo se cuida que el acompañante no quede en un lugar de «salvador» ni de «vigilante»: ese rol cansa y vuelve más pesada la relación. Para quien acompaña, resulta valioso entender qué hace la [activación conductual](/recursos/activacion-conductual/) y, cuando el desgaste crece, leer sobre [cuidar a un familiar](/recursos/cuidar-a-un-familiar/).
+
+## Matices y límites
+
+- La investigación muestra que el apoyo social es un factor protector, pero no cura la depresión por sí solo ni reemplaza el tratamiento.
+- Preguntar con respeto y directamente si la persona piensa en hacerse daño no «pone la idea en su cabeza»: lo que indican los estudios disponibles es que hablar del tema no aumenta el riesgo. Si la respuesta es afirmativa, no se trata a solas: hace falta ayuda profesional, y en riesgo inmediato, los números de [Ayuda urgente](/ayuda-urgente/).
+- Hay duelos y tristezas intensas que no son depresión; no siempre conviene etiquetar. Si te quedan dudas, leé [depresión: señales y tratamiento](/recursos/depresion-senales-y-tratamiento/).
 
 ## Preguntas frecuentes
 

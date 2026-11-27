@@ -11,7 +11,7 @@ orden: 16
 estado: publicado
 respuesta: El enojo es una emoción natural que suele aparecer cuando sentimos que un límite fue cruzado o que algo es injusto. No es malo en sí mismo: el problema aparece cuando se reprime durante mucho tiempo o cuando desborda y daña. En terapia se trabaja para escucharlo y expresarlo de manera cuidada.
 menciona: jung, psicologia-analitica
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 A veces el enojo es el único que se anima a decir lo que vos no dijiste: que te pasaron por encima, que diste de más, que algo no era justo. Nos enseñaron a tragárnoslo con una sonrisa, como quien se traga un carozo, y a pensar que enojarse es tener mal carácter. Y el carozo, tarde o temprano, molesta.
 
@@ -49,6 +49,24 @@ Si el enojo se vuelve violencia hacia otros o hacia vos, pedí ayuda: ese es un 
 Para practicar cómo frenar antes de actuar, te puede servir el [laboratorio de habilidades para emociones intensas](/laboratorio-de-habilidades-dbt/).
 
 Cuando el enojo se calla durante años, puede expresarse en el cuerpo; la psiquiatría coreana lo describió como [hwa-byung](/recursos/han-y-hwa-byung/). Para trabajarlo, está el [laboratorio de pena y enojo](/laboratorio-de-pena-y-enojo/).
+
+## Una escena del consultorio
+
+Una mujer, llamémosla Silvia, cuenta que nunca se enoja: «no vale la pena». En su trabajo dice sí a todo, en su casa también. Un día, por un vaso mal puesto, le grita a su hijo con una fuerza que la asusta. Después pasa tres días pidiendo disculpas, y vuelve a callarse. Es un ejemplo genérico, pero muestra cómo el enojo reprimido y el enojo desbordado suelen ser dos caras de lo mismo.
+
+## Qué dice la investigación sobre «descargarse»
+
+Una idea muy difundida es que hay que «sacar la bronca» golpeando una almohada o gritando para que pase. Bushman (2002) publicó un estudio en el que quienes lo hacían no se sentían mejor: mostraron más agresividad después. Este tipo de resultados llevó a desconfiar de la catarsis como método. Lo que sí tiene respaldo es **bajar la activación del cuerpo** (respirar, caminar, esperar) y después **decir con claridad** lo que pasó y lo que se necesita.
+
+## Cómo se trabaja en terapia
+
+Con un enfoque integrativo, se trabaja primero la regulación: reconocer las señales tempranas, hacer pausas y volver a la conversación. Después, la pregunta por el significado: qué se sintió cruzado, qué herida toca, a quién le «pertenece» ese enojo. Se puede articular con [comunicación no violenta](/recursos/comunicacion-no-violenta/), con el trabajo con [límites sanos](/recursos/limites-sanos-en-los-vinculos/) y, desde la mirada psicoanalítica, con los [mecanismos de defensa](/recursos/mecanismos-de-defensa/), porque a veces el enojo tapa tristeza o miedo.
+
+## Matices y límites
+
+- Hay enojos con motivos reales y enojos que vienen de lectura errónea de la situación; no todo enojo es un «mensaje» certero.
+- Si el enojo es frecuente, intenso y viene con consumo de alcohol u otras sustancias, conviene consultar.
+- Si hay violencia, la prioridad es la seguridad de todos; mirá [violencia en la pareja](/recursos/violencia-en-la-pareja/) y [Ayuda urgente](/ayuda-urgente/).
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ orden: 15
 estado: publicado
 respuesta: La culpa es la emoción que aparece cuando sentimos que dañamos a alguien o fallamos a nuestros propios valores. En su justa medida, ayuda a reparar. Se vuelve un problema cuando es desproporcionada, constante o aparece sin un daño real; en terapia se trabaja para comprender de dónde viene esa voz que juzga.
 menciona: freud
-revision: 2026-11-06
+revision: 2026-11-27
 ---
 No, no sos una mala persona. Es esa voz que te habla al oído desde temprano: «tendrías que haber», «otra vez lo mismo», «¿quién te creés?». Una voz que nunca descansa, que cobra intereses por cosas que ya pagaste y que tiene una memoria envidiable para tus errores y una muy mala para tus aciertos.
 
@@ -50,6 +50,24 @@ Para practicar una forma más amable de hablarte, te espera el [laboratorio de a
 Para distinguir la culpa que repara de la que castiga, podés usar el [laboratorio de culpa y vergüenza](/laboratorio-de-culpa-y-verguenza/).
 
 Uno de los grandes retratos literarios de la culpa es *Crimen y castigo*; lo comento en [Dostoievski y la psicología](/recursos/dostoievski-y-la-psicologia/).
+
+## Una escena del consultorio
+
+Un hombre, llamémoslo Andrés, cuida a su madre mayor. Se siente culpable si sale con amigos, culpable si se queda, culpable por impacientarse y culpable por haber pensado, una vez, que estaba cansado. Cada gesto de cuidado le parece insuficiente. Es un ejemplo genérico, pero la culpa de quienes cuidan es muy común y muchas veces no se dice.
+
+## Culpa y vergüenza: una distinción que importa
+
+La investigación de June Tangney y Ronda Dearing (2002) distingue entre **culpa** («hice algo malo») y **vergüenza** («soy algo malo»). Los estudios sugieren que la culpa, cuando es proporcionada, tiende a llevar a reparar, mientras que la vergüenza tiende a llevar a esconderse o a atacar. No son compartimentos estancos, y conviene no demonizar ninguna, pero esa diferencia ayuda a entender por qué algunas culpas liberan y otras hunden. Leé más en [la vergüenza](/recursos/la-verguenza/).
+
+## Cómo se trabaja en terapia
+
+Con un enfoque integrativo, se empieza por separar lo que es **responsabilidad real** de lo que es **culpa heredada o difusa**. Se pregunta de quién es la voz, qué se aprendió de chico sobre merecer, descansar o equivocarse. Desde la mirada psicoanalítica, Melanie Klein ([ver su obra](/recursos/melanie-klein/)) pensó la culpa como parte de la capacidad de reparar, y Freud, como obra del superyó. Desde la junguiana, aparece la [sombra](/recursos/la-sombra-segun-jung/): lo que condenamos en nosotros y nos persigue. Y para recuperar una voz más amable, el trabajo sobre la [crítica interna](/recursos/la-critica-interna/).
+
+## Matices y límites
+
+- Hay culpas que corresponden: cuando causamos un daño real, sentirlas es parte de la ética. La terapia no busca eliminarlas.
+- Cuando la culpa es intensa, repetitiva y se centra en pensamientos que no se pueden frenar, puede tratarse de un cuadro de [trastorno obsesivo-compulsivo](/recursos/trastorno-obsesivo-compulsivo/) o de una depresión, y conviene consultar.
+- Si hay culpa por una pérdida, lo que ayuda muchas veces es el trabajo del [duelo](/recursos/el-duelo-y-sus-tiempos/).
 
 ## Preguntas frecuentes
 
