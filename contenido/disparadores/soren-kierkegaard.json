@@ -1,0 +1,24 @@
+{
+ "autor": "Kierkegaard",
+ "preguntas": [
+  {
+   "enigma": "Una persona de treinta y pico recibe una oferta de trabajo en otra ciudad. Hizo la lista de pros y contras y preguntó a todos, y sigue sin saber qué hacer; siente un nudo en el estómago.",
+   "p": "¿Qué es ese nudo que aparece justo antes de elegir?",
+   "opciones": ["Falta de información: con más datos se resolvería", "Miedo a equivocarse y arrepentirse", "El vértigo de saber que podemos elegir y que nada lo garantiza"],
+   "r": "Kierkegaard lo llamó angustia: no es miedo a algo determinado, sino el vértigo que produce la libertad, darse cuenta de que ninguna lista elige por uno. Usó la imagen de quien mira desde un borde, que siente vértigo no solo por el precipicio, sino por la posibilidad de tirarse.",
+   "como": "Lo pensó desde su propia vida: rompió su compromiso con Regine Olsen y escribió buena parte de su obra, a veces con seudónimos, sobre esa decisión.",
+   "debate": "No hay que confundir su angustia filosófica con los trastornos de ansiedad: los ataques de pánico, la ansiedad generalizada y las fobias tienen tratamientos con respaldo.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Hay gente que vive pasando de un placer a otro, y gente que vive cumpliendo con el deber. Cada tanto, alguien siente que ninguna de las dos formas le alcanza.",
+   "p": "¿Cómo se pasa de una forma de vivir a otra?",
+   "opciones": ["Razonando hasta encontrar la mejor", "Con el paso del tiempo, naturalmente", "Con una decisión, un salto que ningún razonamiento garantiza"],
+   "r": "Kierkegaard describió tres estadios de la existencia: el estético, guiado por el placer y la variedad; el ético, por el deber y el compromiso; y el religioso, por la fe. No son etapas obligatorias, y el paso de una a otra se da por una decisión, un salto, no por razonamiento.",
+   "como": "Discutió con la filosofía de Hegel, que le parecía olvidar al individuo concreto que tiene que vivir y decidir.",
+   "debate": "Escribía desde una fe cristiana que atraviesa todas sus categorías: es una mirada para pensar, no un modelo con pruebas.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "¿La angustia ante la libertad es algo que hay que curar o algo que hay que atravesar? Sigue siendo una discusión abierta entre filósofos y psicoterapeutas."
+}

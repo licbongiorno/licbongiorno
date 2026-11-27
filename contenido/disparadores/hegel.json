@@ -1,0 +1,24 @@
+{
+ "autor": "Hegel",
+ "preguntas": [
+  {
+   "enigma": "Dos personas discuten por algo mínimo, como quién lavó los platos la última vez, y la pelea crece sin razón aparente.",
+   "p": "¿Qué se está pidiendo de verdad en una discusión así?",
+   "opciones": ["Tener razón y que el otro reconozca el error", "Que el otro vea lo que uno hace y reconozca el esfuerzo", "Descargar el cansancio acumulado del día"],
+   "r": "Para Hegel, la autoconciencia necesita ser reconocida por otra: nos afirmamos cuando otra conciencia nos confirma. Por eso la lucha por ser visto puede ser tan feroz.",
+   "como": "Lo desarrolló en la Fenomenología del espíritu, en la figura del amo y el esclavo, una escena filosófica sobre dos conciencias que luchan por reconocimiento.",
+   "debate": "Es una escena filosófica y no una descripción de relaciones reales ni un diagnóstico. Las lecturas de Kojève y Lacan son interpretaciones con su propio sesgo.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "Querés a alguien y a la vez te enoja; querés aceptarte como sos y a la vez cambiar. Parece que hay que elegir un lado.",
+   "p": "¿Hay que elegir entre dos fuerzas opuestas, o se puede sostener las dos?",
+   "opciones": ["Hay que elegir una: tenerlas a las dos paraliza", "Se pueden sostener las dos y a veces surge algo nuevo", "Con el tiempo una desaparece sola"],
+   "r": "Hegel llamó dialéctica al movimiento por el cual una posición encuentra su opuesto y de esa tensión surge algo que conserva y transforma a ambas. Usó la palabra Aufhebung, que significa a la vez suprimir, conservar y elevar.",
+   "como": "Pensó después de Kant, y quiso mostrar que el pensamiento no está quieto frente a la realidad sino que se transforma al recorrerla.",
+   "debate": "No todo conflicto se resuelve en algo superior: a veces dos posturas siguen siendo opuestas y hay que aprender a vivir con la tensión, algo que la clínica conoce bien.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "¿Qué conflictos de nuestra vida se superan y cuáles hay que aprender a habitar? La psicología todavía discute cuánto cabe de dialéctica en una terapia."
+}

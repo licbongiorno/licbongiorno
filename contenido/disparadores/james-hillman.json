@@ -1,0 +1,24 @@
+{
+ "autor": "Hillman",
+ "preguntas": [
+  {
+   "enigma": "Alguien sueña una y otra vez con una casa que tiene una habitación cerrada, y lo primero que se pregunta es «¿qué significa?».",
+   "p": "¿Conviene traducir enseguida una imagen, o hacer otra cosa?",
+   "opciones": ["Buscar el significado cuanto antes en un diccionario de sueños", "Ignorarla, porque los sueños no significan nada", "Quedarse un rato con la imagen: cómo es la habitación, qué luz tiene"],
+   "r": "Hillman proponía quedarse con la imagen tal como aparece y dejar que hable, antes de convertirla en concepto. A veces surge algo que ninguna explicación habría dado.",
+   "como": "Llegó al análisis junguiano desde dentro, en el Instituto Jung de Zúrich, y con Re-imaginar la psicología propuso preguntar qué pide la imagen en lugar de cómo usarla para el yo.",
+   "debate": "La psicología arquetipal no se estudió con ensayos controlados ni pretende hacerlo: es una manera de leer la experiencia, y su valor se juzga caso por caso.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Desde chico te atraía algo que parecía no tener salida laboral, y de grande, mirando para atrás, te das cuenta de que tu vida giró alrededor de eso.",
+   "p": "¿Traemos algo propio al nacer o somos solo lo que la vida hace de nosotros?",
+   "opciones": ["Somos lo que hicieron de nosotros la crianza y el entorno", "Traemos una imagen propia que pide ser vivida", "Es una casualidad que armamos después con el relato"],
+   "r": "En El código del alma, Hillman propuso la teoría de la bellota: cada persona trae al nacer una imagen propia, como la bellota lleva la forma del roble. Los griegos lo llamaban daimon: un llamado, no un destino fijo, que muchas veces se reconoce mirando la vida hacia atrás.",
+   "como": "Lo pensó desde la tradición junguiana y los mitos griegos, como una imagen para hablar de vocación, no como resultado de experimentos.",
+   "debate": "Tomada de forma literal puede llevar a creer que todo estaba escrito; es mejor entenderla como una imagen para pensar la vocación.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Es sano buscar el sentido de un síntoma o de una crisis, o a veces hay que tratarla y punto? Hillman dejó esa tensión viva en la psicología."
+}

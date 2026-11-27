@@ -1,0 +1,24 @@
+{
+ "autor": "Spinoza",
+ "preguntas": [
+  {
+   "enigma": "Te llega un mensaje de alguien con quien estás peleado y, antes de abrirlo, el cuerpo ya reaccionó: el estómago cerrado, la mandíbula dura.",
+   "p": "¿Cómo conviene tratar a una emoción que nos gana antes de pensar?",
+   "opciones": ["Reprimirla hasta que pase", "Dejarla salir y expresarla sin filtro", "Preguntarse de dónde viene y qué la causa"],
+   "r": "Para Spinoza, mientras no entendemos las causas de un afecto, este nos maneja: somos pasivos. Cuando nos formamos una idea clara de él, recuperamos poder de acción, y una pregunta sirve de brújula: ¿esto aumenta mi capacidad de actuar o la reduce?",
+   "como": "Lo expuso en la Ética con método geométrico, con definiciones y demostraciones, viviendo con modestia como pulidor de lentes.",
+   "debate": "Él mismo advertía que un afecto solo se frena con otro más fuerte, no con una idea fría: entender ayuda, pero suele hacer falta además cuerpo, vínculo y tiempo.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Cuando estás mal y alguien te pregunta qué te pasa, a veces solo podés decir «estoy mal». Si lográs decir «estoy triste porque me sentí desplazado», algo se afloja.",
+   "p": "¿Por qué ponerle nombre a lo que sentimos cambia la forma en que lo vivimos?",
+   "opciones": ["Porque hablar nos distrae del malestar", "Porque entender una emoción cambia nuestra relación con ella", "Es pura sugestión y no cambia nada real"],
+   "r": "Spinoza sostuvo que un afecto que es pasión deja de serlo en cuanto nos formamos una idea clara de él. Para él, la libertad no es hacer lo que uno quiere sino entender lo que nos mueve.",
+   "como": "Partió de una idea audaz: mente y cuerpo no son dos cosas que se comunican, como pensaba Descartes, sino dos aspectos de una misma realidad.",
+   "debate": "En neuroimagen, poner la emoción en palabras se asoció con menor respuesta de la amígdala, lo que va en una dirección parecida pero no prueba su teoría. Los especialistas discuten cuánto de fiel tiene la lectura de Damasio.",
+   "seccion": "Qué resuena hoy"
+  }
+ ],
+ "abierta": "¿Alcanza con comprender lo que sentimos para ser libres de ello, o hay cosas que solo cambian con el cuerpo y el vínculo? La pregunta sigue abierta."
+}

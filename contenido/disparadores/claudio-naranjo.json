@@ -1,0 +1,24 @@
+{
+ "autor": "Naranjo",
+ "preguntas": [
+  {
+   "enigma": "Conocés a alguien que siempre está disponible para todos, da sin que se lo pidan, y le cuesta horrores pedir ayuda cuando la necesita.",
+   "p": "¿Qué puede esconder tanta generosidad?",
+   "opciones": ["Es simplemente una persona buena y no hay nada más", "Una forma de ser querido y de no quedar en deuda", "Una manera de evitar los propios problemas"],
+   "r": "Desde el eneagrama de Naranjo, ese patrón se lee como el carácter del ayudador, cuya pasión sería el orgullo disfrazado de generosidad. No se trata de etiquetar, sino de ver qué defiende ese modo de ser y qué se pierde.",
+   "como": "Conoció el eneagrama en 1970 en Arica, Chile, en un grupo coordinado por Óscar Ichazo, y lo desarrolló como una tipología de la personalidad, apoyado en su formación de psiquiatra.",
+   "debate": "La investigación sobre el eneagrama es escasa y no alcanza el nivel de otros modelos de personalidad: sirve para reflexionar, no para predecir conductas ni decidir sobre alguien.",
+   "seccion": "Un ejemplo cotidiano"
+  },
+  {
+   "enigma": "Hay modos de reaccionar que repetís desde siempre, como si tu manera de ser estuviera escrita de antemano, y a veces te limitan más de lo que te cuidan.",
+   "p": "¿De dónde sale el carácter que sentimos como «nuestra forma de ser»?",
+   "opciones": ["Se nace con él y no cambia", "Se arma en la infancia para poder sobrevivir", "Lo elegimos de adultos según nuestras experiencias"],
+   "r": "Para Naranjo, el carácter es una estructura defensiva que se formó para sobrevivir en la infancia y que, de adulto, limita. Conocerlo es el primer paso para no quedar atrapado en él.",
+   "como": "Unió lo que aprendió con Fritz Perls en Esalen con su mirada de psiquiatra y su interés por las tradiciones espirituales, y creó en Berkeley el programa SAT.",
+   "debate": "Sus textos mezclan observación clínica, teoría e intuición, y no siempre se distingue una cosa de otra; hay quienes cuestionan su dimensión espiritual por falta de verificación.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Se puede conocer el propio carácter sin quedar encasillado en un número o una etiqueta? Es una pregunta que sigue abierta para quienes usan el eneagrama."
+}

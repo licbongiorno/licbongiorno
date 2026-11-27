@@ -1,0 +1,24 @@
+{
+ "autor": "Satir",
+ "preguntas": [
+  {
+   "enigma": "En una cena, un hijo adolescente contesta mal. El padre grita, la madre dice «no pasa nada», un hermano hace un chiste y alguien explica que «los adolescentes pasan por una etapa». Nadie dijo lo que sentía.",
+   "p": "¿Por qué reaccionamos así cuando tenemos miedo?",
+   "opciones": ["Porque es nuestro carácter y no cambia", "Porque no nos importa lo suficiente la otra persona", "Porque aprendimos temprano formas de protegernos, dejando algo afuera"],
+   "r": "Satir describió posturas que adoptamos bajo estrés y que dejan algo afuera: aplacar, culpar, superrazonar y distraer. Su propuesta no es eliminarlas, sino reconocerlas y poder elegir una respuesta congruente, que incluya a uno mismo, al otro y al contexto.",
+   "como": "Desde los años cincuenta atendió a familias completas, algo poco común, y observaba cómo se hablaban, además de usar esculturas familiares donde cada uno se ubicaba en el espacio.",
+   "debate": "Su modelo nació de la práctica y no de estudios controlados: hay poca investigación que lo compare con otros, y las posturas son una forma de ordenar la observación, no categorías diagnósticas.",
+   "seccion": "Una escena cotidiana"
+  },
+  {
+   "enigma": "En tu familia hay reglas que nadie dijo nunca en voz alta, como «acá no se llora» o «de eso no se habla».",
+   "p": "¿Qué efecto tienen esas reglas no dichas?",
+   "opciones": ["Ninguno, son costumbres", "Ordenan la convivencia y la vuelven más fácil", "Limitan lo que cada uno se permite sentir y mostrar"],
+   "r": "Para Satir, toda familia tiene reglas, muchas veces implícitas, sobre qué se puede decir, sentir y mostrar, y las reglas rígidas limitan el crecimiento. La forma en que cada persona se valora, decía, está en la base de cómo se comunica.",
+   "como": "Representaba su modelo con la imagen de un iceberg: arriba, la conducta que se ve; abajo, los sentimientos, las expectativas y los anhelos que la sostienen.",
+   "debate": "Su calidez y su énfasis en los recursos de cada familia no sirven cuando hay violencia: en esos casos, primero va la seguridad.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Cómo se cambia una regla familiar que nadie escribió? Es una pregunta que la terapia familiar sigue explorando."
+}

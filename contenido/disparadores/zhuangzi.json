@@ -1,0 +1,24 @@
+{
+ "autor": "Zhuangzi",
+ "preguntas": [
+  {
+   "enigma": "Salís de una reunión convencido de que quedaste en ridículo y durante toda la tarde repasás cada gesto. A la noche, una amiga te cuenta que nadie lo notó.",
+   "p": "¿Cómo se le gana a un pensamiento que suena a sentencia?",
+   "opciones": ["Discutiéndolo con argumentos hasta demostrar que es falso", "Tomándolo como una perspectiva y no como el mundo", "Ignorándolo y distrayéndose con otra cosa"],
+   "r": "Zhuangzi insiste en que cada juicio es una perspectiva y no el mundo, y mueve el punto de vista con historias, como la del sueño de la mariposa, que sacude la seguridad con que damos por hecho quiénes somos. Va en una dirección parecida a la defusión cognitiva de la terapia de aceptación y compromiso.",
+   "como": "Escribe contando historias y bromeando, a veces discutiendo con su amigo lógico Hui Shi, hace unos 2300 años; no propone técnicas ni pasos.",
+   "debate": "Que dos ideas se parezcan no prueba que una avale a la otra: la defusión tiene ensayos clínicos propios, que no se transfieren a un texto antiguo.",
+   "seccion": "Qué tomó la psicología y qué no"
+  },
+  {
+   "enigma": "Un árbol retorcido, que no sirve para hacer ni barcos ni vigas, vive siglos mientras los árboles útiles terminan talados.",
+   "p": "¿Puede ser una ventaja no ser útil?",
+   "opciones": ["No, lo inútil termina descartado", "Sí, a veces sobrevive justamente por no encajar en lo que se le pide", "Solo si alguien más le encuentra una utilidad después"],
+   "r": "Zhuangzi llamó a esto la utilidad de lo inútil. En su relato, el árbol se le aparece en sueños al carpintero: si hubiera sido útil, ya lo habrían talado. Lo que una mirada llama inútil puede ser valioso desde otra, y su supervivencia depende de no encajar.",
+   "como": "Lo cuenta como una escena, sin teoría, y pone la pregunta incómoda a una época que mide a las personas por lo que producen.",
+   "debate": "Son paráfrasis de un texto con versiones que varían, y la tradición discute si el autor era un relativista sin más o apuntaba a una manera de vivir más flexible y atenta.",
+   "seccion": "Seis escenas"
+  }
+ ],
+ "abierta": "¿Qué parte de lo que llamamos inútil en nosotros cumple una función que no vemos? Es una pregunta que Zhuangzi deja abierta."
+}

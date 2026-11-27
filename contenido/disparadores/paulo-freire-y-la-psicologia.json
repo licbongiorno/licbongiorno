@@ -1,0 +1,24 @@
+{
+ "autor": "Freire",
+ "preguntas": [
+  {
+   "enigma": "En una clase, el docente habla y los alumnos copian, memorizan y repiten. Después del examen, casi nadie recuerda nada.",
+   "p": "¿Qué falla en una enseñanza donde uno sabe y el otro solo recibe?",
+   "opciones": ["Falta disciplina de los alumnos", "El que enseña no explica lo suficiente", "Trata a los alumnos como depósitos, en lugar de pensar el mundo juntos"],
+   "r": "Freire llamó educación «bancaria» a ese modelo, donde el educador hace comunicados y depósitos que los alumnos reciben y repiten. Para él no era solo ineficaz, sino una forma de domesticar. Su alternativa es la educación problematizadora, donde educador y educando investigan juntos el mundo como problema.",
+   "como": "Lo desarrolló en círculos de cultura con trabajadores rurales del nordeste de Brasil, donde las palabras para alfabetizar salían de la conversación misma, y escribió Pedagogía del oprimido en Chile.",
+   "debate": "Sus ideas son una filosofía de la educación y no una teoría psicológica con investigación propia; se critica que su lenguaje sobre opresores y oprimidos pueda volverse esquemático y que el educador termine imponiendo su lectura.",
+   "seccion": "La educación «bancaria»"
+  },
+  {
+   "enigma": "Alguien humillado durante años se habla a sí mismo con las mismas palabras de quien lo humilló, y cuando surge una oportunidad de cambiar, siente miedo.",
+   "p": "¿Por qué tememos una libertad que deseamos?",
+   "opciones": ["Porque la libertad exige riesgos y responsabilidades, y lo conocido da cierta seguridad", "Porque en realidad no queremos cambiar", "Porque los demás no nos dejan"],
+   "r": "Freire habló del miedo a la libertad: implica asumir riesgos y responsabilidades, y la situación conocida, aunque sea mala, da seguridad. Describió también al opresor «alojado» en el oprimido, que internalizó su mirada, sus valores y su desprecio, por lo que la liberación tiene una dimensión interior.",
+   "como": "No era psicólogo: tomó ideas del cristianismo, el existencialismo, Marx y Hegel, y de Erich Fromm, y las volcó en observaciones psicológicas finas dentro de su trabajo educativo.",
+   "debate": "Son observaciones de un filósofo de la educación, no hipótesis puestas a prueba. Sus ideas influyeron en la psicología comunitaria latinoamericana y en Martín-Baró.",
+   "seccion": "Una psicología implícita"
+  }
+ ],
+ "abierta": "¿Cómo ayudar a alguien a ver las causas de su situación sin quitarle responsabilidad sobre lo que sí puede cambiar? Es una pregunta abierta para quienes trabajan en terapia y en educación."
+}

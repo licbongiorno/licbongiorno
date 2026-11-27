@@ -1,0 +1,24 @@
+{
+ "autor": "Al-Razi",
+ "preguntas": [
+  {
+   "enigma": "Te peleaste con alguien en el trabajo y te pasaste la noche repasando la discusión, armando respuestas. A la mañana estás agotado; la otra persona, seguramente, durmió bien.",
+   "p": "¿Quién sale más lastimado de un enojo: el que lo recibe o el que lo carga?",
+   "opciones": ["El que lo recibe, porque es el blanco del ataque", "Nadie: el enojo se descarga y listo", "El que lo siente, porque el enojo le consume el cuerpo y la cabeza"],
+   "r": "Al-Razi sostuvo que la ira llevada al exceso puede dañar más a quien la siente que a su destinatario. Por eso propuso recordar casos de gente a la que el enojo llevó a la ruina e imaginarse en su lugar cuando el enojo empieza a subir.",
+   "como": "Era médico y dirigió hospitales; escribió la Medicina espiritual como una medicina del carácter y se apoyó en la observación, como la del hombre que se dislocó los dedos al golpear a otro.",
+   "debate": "Sus consejos son filosofía práctica y no un tratamiento evaluado: nadie los puso a prueba como terapia, y su meta era la vida virtuosa más que aliviar un síntoma.",
+   "seccion": "La envidia y la ira"
+  },
+  {
+   "enigma": "Una compañera de trabajo acaba de recibir el ascenso que querías y sentís una punzada de envidia. Nadie a quien no conocés te produce lo mismo, aunque haya miles con más suerte que vos.",
+   "p": "¿Por qué envidiamos a los de al lado y no a los que están lejos?",
+   "opciones": ["Porque lo cercano nos hace comparar nuestra vida con la suya", "Porque envidiar es parte de la naturaleza humana y no tiene explicación", "Porque en el fondo nos duele algo que nos falta a nosotros"],
+   "r": "Para al-Razi, la persona envidiada no le quitó nada al envidioso. Si fuera por la suerte ajena, habría que envidiar a los afortunados de la India o de China; como solo cambia la cercanía, la envidia se revela como un error de perspectiva.",
+   "como": "Razonó como médico del alma: examinó el argumento que sostiene la emoción y propuso reemplazarlo por uno más razonable, apoyado en la filosofía griega que conocía.",
+   "debate": "El argumento abre la pregunta pero no la resuelve: hoy se piensa que la envidia también señala una necesidad propia, y eso requiere una conversación más larga.",
+   "seccion": "La envidia y la ira"
+  }
+ ],
+ "abierta": "¿Cambia una emoción cuando cambiamos los argumentos que la sostienen, o solo la tapamos con razones? Es una pregunta que la terapia cognitiva todavía discute."
+}

@@ -1,0 +1,24 @@
+{
+ "autor": "Von Franz",
+ "preguntas": [
+  {
+   "enigma": "Alguien sueña que está en una casa conocida y descubre una habitación que nunca había visto; un lobo lo mira desde la puerta.",
+   "p": "¿Cómo se interpreta una imagen así?",
+   "opciones": ["Buscando en un diccionario qué significa un lobo", "Pensando solo en la vida personal de quien sueña", "Rodeando la imagen con historias y asociaciones hasta que se aclare"],
+   "r": "Von Franz usaba el método de amplificación: ante una imagen no se busca un significado fijo, sino que se la rodea con mitos, cuentos y símbolos parecidos, además de las asociaciones personales, hasta que su sentido se hace visible. Para ella, un buen relato no se explica del todo, se escucha.",
+   "como": "Trabajó casi tres décadas junto a Jung, tradujo textos de alquimia con su formación de filóloga clásica y dio cientos de seminarios sobre sueños y cuentos.",
+   "debate": "La amplificación puede volverse una erudición sin vínculo con la persona: lo que cuenta es lo que resuena en quien sueña.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "Conocés a alguien que siempre vive en lo provisional, esperando que la vida verdadera empiece algún día, y que le cuesta comprometerse con algo concreto.",
+   "p": "¿Qué mantiene a alguien así en espera, y cómo sale?",
+   "opciones": ["Falta de voluntad, simplemente", "Miedo a quedar atrapado en lo concreto, y la salida suele pasar por comprometerse con algo", "Una etapa pasajera que se resuelve sola"],
+   "r": "Von Franz llamó puer aeternus al eterno adolescente, que vive en lo provisional con miedo a comprometerse. Lo estudió a partir de El principito y señaló que el trabajo, en sentido amplio, suele ser parte de la salida.",
+   "como": "Leyó los cuentos de hadas como sueños colectivos que muestran los procesos de la psique en su forma más simple, sin el ruido de la historia personal.",
+   "debate": "El puer aeternus es una descripción útil, pero no un diagnóstico: no conviene usarlo como etiqueta cuando las dificultades vienen de la ansiedad o la depresión.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Los cuentos que nos contaron de chicos siguen mostrando algo de cómo funciona la psique? Que sean sueños colectivos es una hipótesis que todavía se discute."
+}

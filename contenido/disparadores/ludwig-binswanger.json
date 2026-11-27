@@ -1,0 +1,24 @@
+{
+ "autor": "Binswanger",
+ "preguntas": [
+  {
+   "enigma": "Después de una separación, alguien dice que la casa «se achicó»: el living está más oscuro, el tiempo se vuelve pesado, los demás parecen lejos. No dice que esté triste.",
+   "p": "¿Cómo conviene escuchar a alguien que cuenta así su sufrimiento?",
+   "opciones": ["Traducirlo enseguida a un síntoma, como depresión", "Preguntarle cómo es estar en su mundo ahora", "Distraerlo con otros temas para que no se hunda"],
+   "r": "Binswanger propuso el análisis existencial: en lugar de explicar el síntoma por causas, comprender cómo una persona vive el tiempo, el espacio, el cuerpo y los otros. Describir esa experiencia, tomada en serio, a veces cambia el modo en que la persona se entiende.",
+   "como": "Se formó con Bleuler y Jung y conoció a Freud, pero buscó otra manera de comprender a sus pacientes en la fenomenología de Husserl y la filosofía de Heidegger.",
+   "debate": "No es una técnica con protocolo ni tiene ensayos clínicos que lo comparen con otros tratamientos: es una forma de comprender que enriquece la escucha, no un reemplazo de abordajes con evidencia.",
+   "seccion": "Un ejemplo de todos los días"
+  },
+  {
+   "enigma": "En épocas difíciles sentís que tu mundo se estrecha: el cuerpo pesa, los vínculos se enfrían, hasta tu relación con vos mismo se vuelve extraña.",
+   "p": "¿El sufrimiento afecta una sola parte de la vida o todo el modo de estar en ella?",
+   "opciones": ["Solo una parte, como el ánimo o el cuerpo", "Toda la forma de estar en el mundo: cuerpo, vínculos y uno mismo", "Depende de la causa externa que lo disparó"],
+   "r": "Binswanger y después Rollo May distinguieron tres modos de existir: el mundo circundante del cuerpo y la naturaleza, el mundo compartido de los vínculos y el mundo propio de la relación con uno mismo. El sufrimiento suele afectar a los tres.",
+   "como": "Tomó de Heidegger la idea de que siempre estamos ya en un mundo, y de la fenomenología, la práctica de describir la experiencia antes de interpretarla.",
+   "debate": "Sus historias clínicas son textos filosóficos elaborados, no estudios controlados; el caso de Ellen West se lee hoy con sentimientos encontrados, por los límites de una época sin los tratamientos actuales.",
+   "seccion": "Sus conceptos fundamentales"
+  }
+ ],
+ "abierta": "¿Se puede comprender de verdad cómo vive su mundo otra persona? La psiquiatría fenomenológica de hoy sigue explorando esa pregunta."
+}
