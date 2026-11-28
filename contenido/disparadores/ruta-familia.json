@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En cada reunión familiar se repite la misma discusión con los mismos protagonistas. Todos se quejan de que el otro no cambia.",
+   "p": "¿Por qué estas escenas se repiten?",
+   "opciones": [
+    "Porque uno de ellos es el problema y los demás reaccionan.",
+    "Porque cada uno tiene mal carácter y no hay arreglo.",
+    "Porque cada uno responde a los otros dentro de un patrón que se sostiene entre todos."
+   ],
+   "r": "Desde la mirada sistémica, el conflicto es un patrón de interacción: lo que hace cada uno es respuesta a lo que hacen los otros. Por eso buscar un culpable suele mantenerlo. Cuando una persona cambia su respuesta, el patrón tiene que reacomodarse.",
+   "como": "Se sabe por la terapia familiar sistémica, que desde mediados del siglo veinte describe a las familias como sistemas, y por autores como Murray Bowen, que estudió cómo la ansiedad circula entre sus miembros.",
+   "debate": "Se discute cuánto explica el modelo sistémico cuando hay violencia o abuso, donde no corresponde repartir la responsabilidad por igual."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

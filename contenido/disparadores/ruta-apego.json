@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tu pareja tarda horas en contestarte un mensaje. Una parte tuya piensa que se cansó de vos; otra, que mejor no insistir y hacerte el distraído.",
+   "p": "¿De dónde vienen reacciones así?",
+   "opciones": [
+    "De que el otro realmente no te quiere.",
+    "Del carácter fijo de cada persona, que no cambia.",
+    "De modelos de vínculo aprendidos desde la infancia, que se activan cuando algo parece amenazar la cercanía."
+   ],
+   "r": "Los primeros vínculos enseñan qué esperar de los demás cuando necesitamos cuidado. Esos modelos se reactivan en la adultez, sobre todo en la pareja, y pueden llevar a buscar cercanía con urgencia o a alejarse para protegerse. No son destino: nuevas relaciones y la terapia los modifican.",
+   "como": "Se sabe por la teoría del apego de John Bowlby y los estudios de Mary Ainsworth sobre la conducta de bebés, y por investigaciones posteriores sobre apego adulto con cuestionarios de ansiedad y evitación.",
+   "debate": "Se discute cuánto de la forma de vincularse es estable a lo largo de la vida y cuánto pesan el temperamento y el contexto cultural."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

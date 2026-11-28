@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás en el subte y, de golpe, el corazón se dispara, te falta el aire y sentís que algo terrible va a pasar. Al rato todo se calma.",
+   "p": "¿Qué suele mantener los ataques de pánico en el tiempo?",
+   "opciones": [
+    "Un problema cardíaco que casi siempre pasa inadvertido.",
+    "El miedo a las propias sensaciones y la evitación de lo que las disparó.",
+    "La falta de voluntad para controlar la respiración."
+   ],
+   "r": "Cuando las sensaciones del cuerpo se interpretan como un peligro inminente, el miedo las intensifica y se arma un círculo. Evitar los lugares donde ocurrió alivia en el momento, pero confirma que había algo que temer. Por eso el tratamiento enseña a tolerar las sensaciones, no a eliminarlas.",
+   "como": "Se sabe por la clínica del trastorno de pánico y por ensayos que muestran que la terapia cognitivo-conductual, con exposición gradual a las sensaciones, reduce los ataques de forma sostenida. Siempre conviene descartar antes una causa médica.",
+   "debate": "Se discute cuánto pesan la predisposición biológica y la interpretación catastrófica, y cuándo conviene sumar medicación al trabajo psicoterapéutico."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

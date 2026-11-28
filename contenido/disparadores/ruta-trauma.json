@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Pasó hace meses, pero cuando suena un ruido fuerte el corazón se te dispara y quedás en alerta, aunque sabés que estás a salvo.",
+   "p": "¿Cómo se entiende esa reacción?",
+   "opciones": [
+    "Es una exageración: si ya pasó, tendrías que haberlo superado.",
+    "Es una respuesta de alarma que el cuerpo sigue sosteniendo y que se puede trabajar.",
+    "Es una prueba de que algo está dañado para siempre."
+   ],
+   "r": "Después de algo que desbordó, el sistema de alarma puede quedar activo y reaccionar a señales parecidas aunque el peligro haya pasado. No es debilidad ni exageración, y con ayuda adecuada suele ir aflojando.",
+   "como": "La investigación clínica sobre estrés postraumático describe la hipervigilancia y las reacciones de sobresalto como síntomas frecuentes, y hay tratamientos psicológicos con respaldo empírico que ayudan a reducirlos.",
+   "debate": "Se discute dónde termina una reacción esperable al estrés y dónde empieza un trastorno, y cómo nombrar los traumas prolongados."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

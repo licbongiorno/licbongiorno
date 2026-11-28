@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cumplís cuarenta y cinco. Tenés trabajo, familia y casa, pero una mañana te preguntás «¿esto es todo?» y sentís un vacío que no sabés explicar.",
+   "p": "¿Qué puede estar pasando?",
+   "opciones": [
+    "Es ingratitud: si tenés todo, no deberías sentirte así.",
+    "Puede ser una crisis de transición: algo de tu vida pide revisarse.",
+    "Es un capricho que pasa solo si lo ignorás."
+   ],
+   "r": "Sentir vacío con la vida «en orden» es una experiencia frecuente a mitad de camino. No es ingratitud: suele indicar que los objetivos que alguna vez te organizaron ya no alcanzan y hay que preguntarse qué importa ahora.",
+   "como": "Jung describió la segunda mitad de la vida como un tiempo de revisión de los valores de la primera, y la psicología del desarrollo viene mostrando que los cambios de etapa suelen venir con preguntas sobre el sentido.",
+   "debate": "Se discute si existe una crisis de la mitad de la vida universal o si es una forma cultural de nombrar cambios que cada persona vive de modo distinto."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

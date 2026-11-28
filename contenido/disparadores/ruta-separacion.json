@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace tres meses se terminó tu relación de años. Algunos días estás bien y otros te hundís, y te preguntás por qué te cuesta tanto si fue decisión de los dos.",
+   "p": "¿Por qué duele tanto una separación aunque se haya decidido?",
+   "opciones": [
+    "Porque en el fondo seguís enamorado y hay que volver.",
+    "Porque es una pérdida con duelo, aunque la persona siga viva y la decisión haya sido compartida.",
+    "Porque no superaste las cosas a tiempo y tardás de más."
+   ],
+   "r": "Una separación implica perder una rutina, un proyecto, una identidad de pareja y muchas veces parte del entorno. Eso activa un duelo con vaivenes: días mejores y peores son normales. Lo que ayuda es nombrar las pérdidas, darle lugar a lo que sentís y apoyarte en otros.",
+   "como": "Se sabe por la clínica del duelo y por estudios sobre divorcio y salud, que describen un período de malestar que en la mayoría de las personas se atenúa con el tiempo y el apoyo social.",
+   "debate": "Se discute cuánto dura un duelo esperable por separación y cuándo conviene tratarlo como un problema clínico."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

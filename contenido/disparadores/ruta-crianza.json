@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tu hija de catorce años pasa horas en el celular y casi no te cuenta nada. Si preguntás, responde con una sola palabra y se encierra.",
+   "p": "¿Cómo se entiende mejor este cambio?",
+   "opciones": [
+    "Es una señal de que algo grave pasa y hay que revisarle todo.",
+    "Es parte de la búsqueda de autonomía y conviene mantener la conexión sin invadir.",
+    "Es mala educación y se arregla con más castigos."
+   ],
+   "r": "En la adolescencia es esperable que los chicos tomen distancia de los padres y se apoyen más en sus pares. Lo que ayuda es sostener la relación con interés genuino, reglas claras y momentos compartidos, y estar atento a señales de alerta persistentes.",
+   "como": "Se sabe por la psicología del desarrollo, que describe la adolescencia como una etapa de construcción de identidad y autonomía, y por estudios sobre estilos de crianza que asocian mejor ajuste con afecto y límites claros.",
+   "debate": "Se discute cuánto daño causan las pantallas por sí mismas y cuánto depende del uso y del contexto."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}
