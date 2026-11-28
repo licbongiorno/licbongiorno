@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Ves en una librería un libro sobre «sabiduría celta del alma» y la amistad. Te seduce. Te quedás pensando si esas ideas vienen de los antiguos celtas o de otro lado.",
+   "p": "¿De dónde creés que viene esa idea de un «amigo del alma»?",
+   "opciones": ["De textos druídicos antiguos que se conservaron hasta hoy", "Del cristianismo irlandés medieval y de la escritura de un autor contemporáneo", "De antropólogos que la registraron en pueblos celtas actuales"],
+   "r": "La figura del anamchara existió en la Irlanda cristiana temprana, como guía espiritual y confesor. La versión popular del «amigo del alma» llegó con el libro de John O'Donohue (1997), una obra literaria contemporánea, no una edición de fuentes antiguas.",
+   "como": "Se sabe por textos eclesiásticos medievales, como los penitenciales, y por la propia obra de O'Donohue, que se presenta como ensayo y no como historia. Los druidas no dejaron textos escritos propios.",
+   "debate": "Se discute cuánto de las prácticas del cristianismo irlandés viene de tradiciones previas y cuánto es reelaboración monástica, y hasta qué punto se puede hablar de unos «celtas» como pueblo único.",
+   "seccion": "El anamchara en las fuentes antiguas"
+  },
+  {
+   "enigma": "En un velorio de hace un siglo, en una aldea irlandesa, mujeres cantaban y lloraban en voz alta delante de todos. Hoy, en muchos lugares, el duelo se hace en silencio y de a poco.",
+   "p": "¿Qué creés que aportaba llorar así, entre muchos?",
+   "opciones": ["Servía como terapia, y por eso hoy habría más problemas de salud mental", "Daba un lugar público y compartido al dolor y a la rabia", "Era solo un espectáculo para impresionar a los vecinos"],
+   "r": "El caoineadh está bien documentado como lamento ritual colectivo. Ofrecía un espacio público al dolor y a la furia, como muestra el poema por Art O'Leary (1773). Eso es distinto de decir que «funcionaba como terapia».",
+   "como": "Se sabe por testimonios escritos durante siglos, por la crítica de la Iglesia y por relatos como el de Synge en las islas Aran, además de poemas conservados. No hay estudios que midan sus efectos.",
+   "debate": "Es fácil proyectar nuestras ideas sobre el duelo en prácticas de otra época. Y los modos de duelar cambian con las culturas, sin que haya uno que sirva para todos.",
+   "seccion": "El caoineadh: llorar entre todos"
+  }
+ ],
+ "abierta": "Si de los antiguos celtas casi no tenemos palabras propias, ¿qué hacemos con las imágenes que hoy sentimos como suyas? Es una pregunta que quizás diga más de nosotros que de ellos."
+}
