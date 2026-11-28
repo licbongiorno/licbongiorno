@@ -1,7 +1,7 @@
 ---
 titulo: Tonalli, teyolia e ihiyotl: las entidades anímicas nahuas
 titulo_seo: Tonalli, teyolia e ihiyotl según López Austin
-descripcion: Las tres entidades anímicas nahuas según López Austin (1980): tonalli en la cabeza, teyolia en el corazón, ihiyotl en el hígado, y la pérdida del tonalli.
+descripcion: Las tres entidades anímicas nahuas según López Austin (1980): tonalli, teyolia e ihiyotl, su lugar en el cuerpo y la pérdida del tonalli.
 resumen: Para los nahuas del Posclásico, la persona no tenía un alma única sino varias entidades repartidas por el cuerpo. Qué propuso Alfredo López Austin en Cuerpo humano e ideología (1980), qué dicen las fuentes y qué es interpretación, y cómo se relaciona la pérdida del tonalli con el susto actual.
 categoria: Psicología contemporánea
 palabras_clave: tonalli, teyolia, ihiyotl, López Austin, Cuerpo humano e ideología, nahuas, entidades anímicas, Códice Florentino, Sahagún, susto, pérdida del alma, Mesoamérica
