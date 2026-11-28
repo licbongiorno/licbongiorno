@@ -73,6 +73,28 @@
  ],
  "hitos": [
   {
+   "anio": -1550,
+   "fecha": "c. 1550 a. C.",
+   "titulo": "Los papiros médicos de Egipto",
+   "texto": "El papiro Ebers ubica en el corazón el centro de la vida y del ánimo; el Edwin Smith, algo anterior, describe por primera vez el cerebro y los efectos de sus lesiones.",
+   "era": "antiguedad",
+   "region": "africa",
+   "enlaces": [
+    {
+     "t": "Papiros médicos",
+     "u": "/recursos/papiros-medicos-y-males-del-animo/"
+    },
+    {
+     "t": "El alma en el antiguo Egipto",
+     "u": "/recursos/el-alma-en-el-antiguo-egipto/"
+    },
+    {
+     "t": "Mapa de la psicología del antiguo Egipto",
+     "u": "/recursos/mapa-de-la-psicologia-del-antiguo-egipto/"
+    }
+   ]
+  },
+  {
    "anio": -800,
    "fecha": "c. 800–500 a. C.",
    "titulo": "Los Upanishads y la pregunta por el ser",

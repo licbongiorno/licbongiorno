@@ -245,6 +245,7 @@ GLOSARIOS_CULTURALES = [
     ("glosario-artico.json", "/glosario-de-psicologias-del-artico/", "Glosario de psicologías del Ártico", "Isuma, joik, birget…", "glosario_artico"),
     ("glosario-caribe-brasil.json", "/glosario-de-psicologias-del-caribe-y-brasil/", "Glosario de psicologías del Caribe y Brasil", "Saudade, lwa, Nise…", "glosario_caribe"),
     ("glosario-occidental.json", "/glosario-de-la-psicologia-occidental/", "Glosario de la psicología occidental", "Wundt, Fechner, Gestalt, apego…", "glosario_occidental"),
+    ("glosario-egipcio.json", "/glosario-de-psicologia-del-antiguo-egipto/", "Glosario de psicología del antiguo Egipto", "Ka, ba, akh…", "glosario_egipcio"),
 ]
 GLOSARIOS_CULTURALES = [(cargar_json(a), r, n, t, p) for a, r, n, t, p in GLOSARIOS_CULTURALES if (CONTENIDO / a).exists()]
 GLOSARIOS = [(GLOSARIO, "/glosario-junguiano/", "Glosario de psicología analítica junguiana"),
@@ -2118,6 +2119,13 @@ TERMINOS_GLOSARIO = [
     ("/glosario-de-la-psicologia-occidental/", "condicionamiento-operante", r"condicionamiento operante"),
     ("/glosario-de-la-psicologia-occidental/", "epistemologia-genetica", r"epistemolog[ií]a gen[eé]tica"),
     ("/glosario-de-la-psicologia-occidental/", "desinstitucionalizacion", r"desinstitucionalizaci(?:ón|ones)"),
+    ("/glosario-de-psicologia-del-antiguo-egipto/", "akh", r"\bakh\b"),
+    ("/glosario-de-psicologia-del-antiguo-egipto/", "sheut", r"\bsheut\b"),
+    ("/glosario-de-psicologia-del-antiguo-egipto/", "pesaje-del-corazon", r"pesaje del coraz[oó]n"),
+    ("/glosario-de-psicologia-del-antiguo-egipto/", "libro-de-los-muertos", r"libro de los muertos"),
+    ("/glosario-de-psicologia-del-antiguo-egipto/", "textos-de-las-piramides", r"textos de las pir[aá]mides"),
+    ("/glosario-de-psicologia-del-antiguo-egipto/", "papiro-ebers", r"papiro ebers"),
+    ("/glosario-de-psicologia-del-antiguo-egipto/", "papiro-edwin-smith", r"papiro edwin smith"),
 ]
 
 

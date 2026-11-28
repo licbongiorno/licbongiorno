@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un egipcio de hace tres mil años no tenía una palabra para «alma». Tenía varias, y a cada una la imaginaba distinta: una que comía, otra con cuerpo de pájaro, otra que era su nombre.",
+   "p": "¿Por qué creés que dividían así a la persona?",
+   "opciones": [
+    "Porque no sabían pensar en una unidad",
+    "Porque cada aspecto tenía necesidades y destino propios, y la persona era un conjunto",
+    "Porque era un código secreto de los sacerdotes"
+   ],
+   "r": "Según los textos funerarios, la persona era un conjunto de aspectos (ka, ba, akh, corazón, nombre, sombra, cuerpo) que había que cuidar y mantener reunidos. «Alma» es una traducción imperfecta de cualquiera de ellos.",
+   "como": "Se sabe por los Textos de las Pirámides, los Textos de los Sarcófagos y el Libro de los Muertos, que los egiptólogos leen y traducen. Jan Assmann y John H. Taylor son referencias habituales.",
+   "debate": "No hay acuerdo en cuánta autonomía tenía cada componente ni en cómo cambió la idea en tres milenios. Y presentar ka o ba como «niveles de conciencia» es una proyección moderna.",
+   "seccion": "El ka: la fuerza vital"
+  },
+  {
+   "enigma": "En el juicio de los muertos egipcio, el difunto le pide a su propio corazón que no declare en su contra.",
+   "p": "¿Qué te sugiere esa súplica?",
+   "opciones": [
+    "Que el corazón era visto como testigo de lo que uno realmente fue",
+    "Que no sabían qué hacer con la culpa",
+    "Que era solo una fórmula sin sentido"
+   ],
+   "r": "Sugiere que el corazón, sede del pensamiento y la memoria, era pensado como testigo de la propia vida. Ese conjuro, el 30B, se grababa en escarabajos que se ponían sobre la momia.",
+   "como": "Se sabe por el Libro de los Muertos y por los escarabajos de corazón conservados en museos, que los egiptólogos han estudiado a partir de papiros y de objetos de tumbas.",
+   "debate": "No se sabe cuánto sentía cada persona esa súplica y cuánto era fórmula. Y leerla como una idea de conciencia moral es una interpretación moderna.",
+   "seccion": "El pesaje del corazón"
+  }
+ ],
+ "abierta": "¿Qué cambia cuando una idea sobre la persona se lee desde afuera de su cultura? Es una pregunta que sigue abierta entre quienes estudian estas fuentes."
+}
