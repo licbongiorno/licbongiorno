@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En algunas comunidades de Siberia se contaba que quien iba a ser chamán pasaba primero por una larga temporada de malestar: decaimiento, sueños intensos, visiones. Los vecinos no lo veían como alguien a quien internar sino como alguien a quien acompañar hasta que aceptara un oficio.",
+   "p": "¿Cómo creés que se puede entender esa «enfermedad» previa?",
+   "opciones": ["Como un trastorno mental al que la cultura le dio un lugar", "Como una crisis con sentido dentro de una tradición, que se resuelve al aceptar un rol", "Como un invento posterior de los antropólogos"],
+   "r": "Las dos primeras lecturas existen y se discuten. George Devereux (1961) sostuvo que los chamanes eran personas con trastornos que la sociedad canaliza. Mircea Eliade (1951) la leyó como crisis iniciática: el chamán es quien resuelve la crisis y aprende a dominarla. Estudios posteriores matizaron ambas posturas.",
+   "como": "Los relatos de la «enfermedad chamánica» vienen de etnógrafos de Siberia desde fines del siglo XIX. Eliade armó su síntesis con fuentes de otros, sin trabajo de campo propio, y por eso fue criticado. Richard Noll (1983) señaló que el chamán entra y sale del trance de forma voluntaria y aprendida, algo distinto de una psicosis.",
+   "debate": "No hay acuerdo. Lo prudente es no decidir a distancia sobre una persona concreta: una evaluación clínica es una cosa y una vocación religiosa es otra, y a veces conviven.",
+   "seccion": "¿Psicopatología o crisis iniciática?"
+  },
+  {
+   "enigma": "Durante décadas un Estado persiguió a los chamanes, confiscó sus tambores y trajes y rompió la cadena de maestros que iniciaban a los jóvenes. Varias generaciones después, en Tuvá, Buriatia y Mongolia, el oficio volvió a aparecer.",
+   "p": "¿Qué creés que reapareció?",
+   "opciones": ["La misma práctica de siempre, que sobrevivió intacta y escondida", "Una práctica reconstruida con lo que se recordaba, lo que se leyó y lo que se permitió", "Una moda sin relación con la tradición anterior"],
+   "r": "Lo que reapareció es una práctica reconstruida. Se apoyó en la memoria de los mayores, en el trabajo de etnógrafos locales como Mongush Kenin-Lopsan (en Tuvá se fundó la sociedad Dungur en 1993) y en lo que el Estado y el turismo permiten. Eso no la hace falsa, y es lo que le pasa a muchas tradiciones vivas.",
+   "como": "Lo describen trabajos de campo como los de Caroline Humphrey y Piers Vitebsky, y el de Manduhai Buyandelger (2013), que estudió cómo, entre buriatos de Mongolia, la memoria de la violencia de la época socialista aparece en las experiencias de los chamanes nuevos.",
+   "debate": "Se discute cuánta continuidad hubo, quién tiene autoridad para decir qué es «auténtico» y qué pasa cuando el turismo espiritual vende rituales a visitantes. Tampoco hay ensayos clínicos que permitan presentarlo como tratamiento.",
+   "seccion": "El resurgimiento postsoviético"
+  }
+ ],
+ "abierta": "Si un rito sostiene a una comunidad porque da sentido compartido al sufrimiento, ¿cómo se estudia ese efecto sin reducir el rito a una técnica? Todavía no se sabe."
+}
