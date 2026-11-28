@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Armaste un plan con cuidado y un imprevisto lo arruina todo. Sentís bronca y ganas de que el mundo se acomode a lo que querías.",
+   "p": "¿Qué proponían los estoicos frente a eso?",
+   "opciones": [
+    "Eliminar por completo cualquier emoción.",
+    "Distinguir lo que depende de uno de lo que no, y ocuparse de lo primero.",
+    "Esperar a que las circunstancias mejoren solas."
+   ],
+   "r": "Los estoicos proponían separar lo que depende de nosotros (nuestros juicios, decisiones y acciones) de lo que no (lo que pasa afuera) y poner la energía en lo primero. No pedían dejar de sentir, sino no ser arrastrados por la emoción.",
+   "como": "Esta idea aparece en el «Manual» de Epicteto y en las cartas de Séneca, textos antiguos que siguen leyéndose. La terapia cognitiva reconoce al estoicismo como una de sus fuentes.",
+   "debate": "Se discute si el estoicismo ayuda a aceptar o termina llevando a la resignación frente a injusticias que sí se pueden cambiar."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

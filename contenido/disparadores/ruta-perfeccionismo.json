@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tenés que entregar un informe. Lo releés por quinta vez, cambiás una coma y, al final, lo mandás a último momento.",
+   "p": "¿Qué suele ayudar más a avanzar?",
+   "opciones": [
+    "Esperar a tener ganas y condiciones ideales.",
+    "Definir un estándar suficientemente bueno y dar un primer paso chico.",
+    "Revisar hasta estar segura o seguro de que no hay ningún error."
+   ],
+   "r": "Fijar un estándar suficientemente bueno y empezar por un paso chico baja la presión que lleva a postergar. Esperar las condiciones ideales o revisar sin fin sostiene el problema: alivian hoy y alimentan el miedo a equivocarte.",
+   "como": "Los trabajos de Paul Hewitt y Gordon Flett distinguen distintas formas de perfeccionismo. Los tratamientos cognitivo-conductuales para el perfeccionismo usan experimentos de conducta: entregar algo imperfecto a propósito y ver qué pasa realmente.",
+   "debate": "Se discute si hay un perfeccionismo sano, ligado a metas altas, y cuánto de la postergación se explica por la impulsividad y cuánto por el miedo al error."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}
