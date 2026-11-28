@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un domingo a la noche tenés todo en orden: trabajo, casa, planes. Y sin embargo sentís un vacío que no sabés explicar.",
+   "p": "¿Dónde ubicaba Viktor Frankl las fuentes de sentido?",
+   "opciones": [
+    "En alcanzar el mayor placer posible.",
+    "En una tarea, un vínculo o la actitud ante lo inevitable.",
+    "En descubrir una verdad escondida en el inconsciente."
+   ],
+   "r": "Para Frankl, el sentido se encuentra al hacer una obra o tarea, al vivir algo o amar a alguien, y al elegir la actitud con la que enfrentamos un sufrimiento que no se puede evitar. No se inventa: se descubre respondiendo a lo que la vida plantea.",
+   "como": "Frankl desarrolló la logoterapia a partir de su práctica como psiquiatra y de su experiencia en campos de concentración, que contó en «El hombre en busca de sentido». Escalas de sentido en la vida mostraron después que tenerlo se asocia con mayor bienestar.",
+   "debate": "Se discute si el sentido se descubre o se construye, y cuánto pesan las condiciones materiales para poder buscarlo."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

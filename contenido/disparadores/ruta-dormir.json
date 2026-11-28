@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Son las tres de la mañana. Te despertaste hace una hora, mirás el reloj y calculás cuántas horas de sueño te quedan.",
+   "p": "¿Qué suele empeorar el insomnio en esa situación?",
+   "opciones": [
+    "Quedarte en la cama intentando dormir a toda costa y controlando la hora.",
+    "Levantarte un rato y volver cuando tengas sueño.",
+    "Mantener horarios regulares de acostarte y levantarte."
+   ],
+   "r": "El esfuerzo por dormir activa la mente y asocia la cama con la vigilia. La terapia cognitivo-conductual para el insomnio propone horarios regulares, usar la cama solo para dormir y levantarse un rato si no aparece el sueño, además de trabajar con los pensamientos sobre el dormir.",
+   "como": "Se sabe por ensayos clínicos y guías de práctica que ubican la terapia cognitivo-conductual para el insomnio como tratamiento de primera elección en adultos.",
+   "debate": "Se discute cuánto conviene usar medicación y por cuánto tiempo, y cómo adaptar el tratamiento a cada persona."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

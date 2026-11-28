@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Estás por salir y te viene la imagen de haber dejado el gas abierto. Volvés, mirás, salís y a la cuadra la idea regresa.",
+   "p": "¿Qué suele ocurrir cuando intentás empujar un pensamiento no deseado fuera de la cabeza?",
+   "opciones": [
+    "Desaparece, si te esforzás lo suficiente.",
+    "Tiende a volver con más fuerza.",
+    "Se vuelve más débil con cada intento."
+   ],
+   "r": "Los intentos de suprimir un pensamiento suelen hacerlo más presente, porque exigen monitorear si sigue ahí. Las terapias que enseñan a notar el pensamiento sin obedecerlo ni combatirlo, y a no hacer los rituales, suelen funcionar mejor.",
+   "como": "Se sabe por experimentos clásicos sobre supresión del pensamiento y por la clínica de la exposición con prevención de respuesta, con buen respaldo en el trastorno obsesivo compulsivo.",
+   "debate": "Se discute dónde termina el pensamiento intrusivo común y dónde empieza una obsesión que requiere tratamiento."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

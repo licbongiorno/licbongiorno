@@ -5,13 +5,37 @@
     "bajada": "Siete pasos para pasar de «me pasa algo que no entiendo» a saber cómo funciona tu ansiedad y qué podés hacer con ella.",
     "descripcion": "Ruta de aprendizaje sobre la ansiedad en siete pasos: una pregunta para empezar, un artículo, la escala GAD-7, tres laboratorios y un cierre.",
     "pasos": [
-      ["/recursos/ansiedad-generalizada/", "Leer", "Qué es la ansiedad, cuándo deja de ser útil y por qué la preocupación se vuelve un hábito."],
-      ["/escala-de-ansiedad-gad-7/", "Mirarte", "Siete preguntas sobre las últimas dos semanas, para tener una foto de cómo estás hoy."],
-      ["/laboratorio-respirar-volver-al-presente/", "Practicar", "Empezar por el cuerpo: una respiración lenta baja la activación y deja pensar con más claridad."],
-      ["/laboratorio-de-ansiedad/", "Practicar", "Entender el ciclo de la preocupación y separar los problemas que se pueden resolver de los que no."],
-      ["/laboratorio-de-pensamientos-repetitivos/", "Practicar", "Tomar distancia de los pensamientos que vuelven una y otra vez, sin pelearte con ellos."]
+      [
+        "/recursos/ansiedad-generalizada/",
+        "Leer",
+        "Qué es la ansiedad, cuándo deja de ser útil y por qué la preocupación se vuelve un hábito."
+      ],
+      [
+        "/escala-de-ansiedad-gad-7/",
+        "Mirarte",
+        "Siete preguntas sobre las últimas dos semanas, para tener una foto de cómo estás hoy."
+      ],
+      [
+        "/laboratorio-respirar-volver-al-presente/",
+        "Practicar",
+        "Empezar por el cuerpo: una respiración lenta baja la activación y deja pensar con más claridad."
+      ],
+      [
+        "/laboratorio-de-ansiedad/",
+        "Practicar",
+        "Entender el ciclo de la preocupación y separar los problemas que se pueden resolver de los que no."
+      ],
+      [
+        "/laboratorio-de-pensamientos-repetitivos/",
+        "Practicar",
+        "Tomar distancia de los pensamientos que vuelven una y otra vez, sin pelearte con ellos."
+      ]
     ],
-    "llevar": ["La ansiedad es una alarma que se activa de más, no una falla tuya.", "El cuerpo y los pensamientos se alimentan entre sí: podés entrar por cualquiera de los dos.", "Evitar alivia hoy y agranda el miedo mañana."],
+    "llevar": [
+      "La ansiedad es una alarma que se activa de más, no una falla tuya.",
+      "El cuerpo y los pensamientos se alimentan entre sí: podés entrar por cualquiera de los dos.",
+      "Evitar alivia hoy y agranda el miedo mañana."
+    ],
     "consultar": "Si la ansiedad te impide trabajar, estudiar, dormir o salir, si los ataques se repiten o si el puntaje de la escala te dio alto, conviene consultar. La ansiedad responde muy bien a la psicoterapia."
   },
   {
@@ -20,13 +44,37 @@
     "bajada": "Siete pasos para distinguir la tristeza de la depresión, mirar cómo estás y probar lo que la investigación muestra que ayuda.",
     "descripcion": "Ruta de aprendizaje sobre el ánimo bajo y la depresión: una pregunta, un artículo, la escala PHQ-9, tres laboratorios y un cierre.",
     "pasos": [
-      ["/recursos/depresion-senales-y-tratamiento/", "Leer", "En qué se diferencia la depresión de la tristeza, qué señales mirar y cómo se trata."],
-      ["/escala-de-animo-phq-9/", "Mirarte", "Nueve preguntas sobre las últimas dos semanas, para poner en palabras lo que estás sintiendo."],
-      ["/laboratorio-de-animo/", "Practicar", "Registrar qué actividades te sostienen el ánimo y cuáles lo bajan, sin esperar a tener ganas."],
-      ["/laboratorio-de-valores/", "Practicar", "Volver a lo que te importa: los valores orientan aunque el ánimo no acompañe."],
-      ["/laboratorio-de-habitos/", "Practicar", "Armar pasos chicos y repetibles, porque el ánimo suele seguir a la acción y no al revés."]
+      [
+        "/recursos/depresion-senales-y-tratamiento/",
+        "Leer",
+        "En qué se diferencia la depresión de la tristeza, qué señales mirar y cómo se trata."
+      ],
+      [
+        "/escala-de-animo-phq-9/",
+        "Mirarte",
+        "Nueve preguntas sobre las últimas dos semanas, para poner en palabras lo que estás sintiendo."
+      ],
+      [
+        "/laboratorio-de-animo/",
+        "Practicar",
+        "Registrar qué actividades te sostienen el ánimo y cuáles lo bajan, sin esperar a tener ganas."
+      ],
+      [
+        "/laboratorio-de-valores/",
+        "Practicar",
+        "Volver a lo que te importa: los valores orientan aunque el ánimo no acompañe."
+      ],
+      [
+        "/laboratorio-de-habitos/",
+        "Practicar",
+        "Armar pasos chicos y repetibles, porque el ánimo suele seguir a la acción y no al revés."
+      ]
     ],
-    "llevar": ["La tristeza es una emoción; la depresión es un estado que dura y apaga casi todo.", "Esperar a tener ganas para hacer algo suele alargar el pozo.", "Pedir ayuda es parte del tratamiento, no un fracaso."],
+    "llevar": [
+      "La tristeza es una emoción; la depresión es un estado que dura y apaga casi todo.",
+      "Esperar a tener ganas para hacer algo suele alargar el pozo.",
+      "Pedir ayuda es parte del tratamiento, no un fracaso."
+    ],
     "consultar": "Si el ánimo bajo dura más de dos semanas, si dejaste de disfrutar casi todo o si aparecen ideas de muerte, consultá. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
   },
   {
@@ -35,13 +83,37 @@
     "bajada": "Siete pasos para entender qué le hace el estrés sostenido a tu cuerpo, medir dónde estás y recuperar el descanso.",
     "descripcion": "Ruta de aprendizaje sobre el estrés y el burnout: una pregunta, un artículo, la escala de estrés percibido, tres laboratorios y un cierre.",
     "pasos": [
-      ["/recursos/estres-cronico-y-cuerpo/", "Leer", "Qué pasa en el cuerpo cuando el estrés no se apaga y por qué el cansancio no se va durmiendo un fin de semana."],
-      ["/escala-de-estres-percibido/", "Mirarte", "Diez preguntas sobre el último mes, para ver cuánto control sentís sobre lo que te pasa."],
-      ["/laboratorio-de-estres/", "Practicar", "Separar lo que depende de vos de lo que no, y elegir dónde poner la energía."],
-      ["/laboratorio-de-burnout/", "Practicar", "Reconocer las señales del agotamiento laboral y lo que lo alimenta."],
-      ["/laboratorio-de-descanso/", "Practicar", "Descansar también se aprende: probar formas de descanso que de verdad recuperan."]
+      [
+        "/recursos/estres-cronico-y-cuerpo/",
+        "Leer",
+        "Qué pasa en el cuerpo cuando el estrés no se apaga y por qué el cansancio no se va durmiendo un fin de semana."
+      ],
+      [
+        "/escala-de-estres-percibido/",
+        "Mirarte",
+        "Diez preguntas sobre el último mes, para ver cuánto control sentís sobre lo que te pasa."
+      ],
+      [
+        "/laboratorio-de-estres/",
+        "Practicar",
+        "Separar lo que depende de vos de lo que no, y elegir dónde poner la energía."
+      ],
+      [
+        "/laboratorio-de-burnout/",
+        "Practicar",
+        "Reconocer las señales del agotamiento laboral y lo que lo alimenta."
+      ],
+      [
+        "/laboratorio-de-descanso/",
+        "Practicar",
+        "Descansar también se aprende: probar formas de descanso que de verdad recuperan."
+      ]
     ],
-    "llevar": ["El estrés en sí no es el problema: lo es que no tenga pausa.", "El agotamiento no se cura con más esfuerzo.", "Descansar es una tarea, no un premio."],
+    "llevar": [
+      "El estrés en sí no es el problema: lo es que no tenga pausa.",
+      "El agotamiento no se cura con más esfuerzo.",
+      "Descansar es una tarea, no un premio."
+    ],
     "consultar": "Si el cansancio no cede con el descanso, si aparecen síntomas físicos persistentes o si sentís que ya no podés con tu trabajo o tu casa, consultá con un profesional de la salud mental y con tu médico."
   },
   {
@@ -50,13 +122,37 @@
     "bajada": "Siete pasos para entender cómo se vive una pérdida, darle lugar a lo que sentís y encontrar una forma de seguir con lo perdido.",
     "descripcion": "Ruta de aprendizaje sobre el duelo: una pregunta para empezar, un artículo, tres laboratorios, una lectura sobre el sentido y un cierre.",
     "pasos": [
-      ["/recursos/el-duelo-y-sus-tiempos/", "Leer", "Por qué el duelo no sigue etapas fijas y qué se sabe hoy sobre sus tiempos."],
-      ["/laboratorio-de-duelo/", "Practicar", "Ponerle palabras a la pérdida y a lo que quedó pendiente."],
-      ["/laboratorio-de-escritura-expresiva/", "Practicar", "Escribir sobre lo que duele, unos minutos por día, ayuda a ordenarlo."],
-      ["/laboratorio-de-psicotanatologia/", "Practicar", "Pensar la muerte y la pérdida con más calma, desde la psicotanatología."],
-      ["/laboratorio-de-sentido/", "Practicar", "Preguntarte qué lugar puede tener lo perdido en la vida que sigue."]
+      [
+        "/recursos/el-duelo-y-sus-tiempos/",
+        "Leer",
+        "Por qué el duelo no sigue etapas fijas y qué se sabe hoy sobre sus tiempos."
+      ],
+      [
+        "/laboratorio-de-duelo/",
+        "Practicar",
+        "Ponerle palabras a la pérdida y a lo que quedó pendiente."
+      ],
+      [
+        "/laboratorio-de-escritura-expresiva/",
+        "Practicar",
+        "Escribir sobre lo que duele, unos minutos por día, ayuda a ordenarlo."
+      ],
+      [
+        "/laboratorio-de-psicotanatologia/",
+        "Practicar",
+        "Pensar la muerte y la pérdida con más calma, desde la psicotanatología."
+      ],
+      [
+        "/laboratorio-de-sentido/",
+        "Practicar",
+        "Preguntarte qué lugar puede tener lo perdido en la vida que sigue."
+      ]
     ],
-    "llevar": ["No hay una forma correcta ni un plazo para el duelo.", "El vínculo con quien se fue no se corta: se transforma.", "Ir y venir entre el dolor y la vida diaria es parte del proceso."],
+    "llevar": [
+      "No hay una forma correcta ni un plazo para el duelo.",
+      "El vínculo con quien se fue no se corta: se transforma.",
+      "Ir y venir entre el dolor y la vida diaria es parte del proceso."
+    ],
     "consultar": "Si pasado un tiempo largo el dolor sigue igual de intenso, si no podés retomar tu vida o si aparecen ideas de no querer seguir, consultá. Acompañar duelos es una parte central de mi trabajo."
   },
   {
@@ -65,13 +161,37 @@
     "bajada": "Siete pasos para entender cómo te vinculás, qué buscás en el otro y cómo conversar lo difícil sin lastimarse.",
     "descripcion": "Ruta de aprendizaje sobre la pareja: una pregunta, un artículo, tres laboratorios sobre apego, comunicación y amor, una lectura y un cierre.",
     "pasos": [
-      ["/recursos/terapia-de-pareja/", "Leer", "Qué se trabaja en una pareja que está en crisis y por qué los conflictos suelen repetirse."],
-      ["/laboratorio-del-desarrollo-y-el-apego/", "Practicar", "Mirar tu forma de apego: lo que aprendiste de chico sobre acercarte y alejarte."],
-      ["/laboratorio-de-los-lenguajes-del-amor/", "Practicar", "Descubrir cómo das y cómo esperás recibir afecto, y dónde no se encuentran."],
-      ["/laboratorio-de-comunicacion-no-violenta/", "Practicar", "Decir lo que necesitás sin atacar, con observaciones, sentimientos y pedidos."],
-      ["/laboratorio-del-amor-como-arte/", "Practicar", "Pensar el amor como algo que se practica y no solo como algo que se siente, con Erich Fromm."]
+      [
+        "/recursos/terapia-de-pareja/",
+        "Leer",
+        "Qué se trabaja en una pareja que está en crisis y por qué los conflictos suelen repetirse."
+      ],
+      [
+        "/laboratorio-del-desarrollo-y-el-apego/",
+        "Practicar",
+        "Mirar tu forma de apego: lo que aprendiste de chico sobre acercarte y alejarte."
+      ],
+      [
+        "/laboratorio-de-los-lenguajes-del-amor/",
+        "Practicar",
+        "Descubrir cómo das y cómo esperás recibir afecto, y dónde no se encuentran."
+      ],
+      [
+        "/laboratorio-de-comunicacion-no-violenta/",
+        "Practicar",
+        "Decir lo que necesitás sin atacar, con observaciones, sentimientos y pedidos."
+      ],
+      [
+        "/laboratorio-del-amor-como-arte/",
+        "Practicar",
+        "Pensar el amor como algo que se practica y no solo como algo que se siente, con Erich Fromm."
+      ]
     ],
-    "llevar": ["Muchas peleas repiten una misma pregunta de fondo: ¿estás ahí para mí?", "Cada uno llega a la pareja con su historia de apego.", "Pedir es más claro que reprochar."],
+    "llevar": [
+      "Muchas peleas repiten una misma pregunta de fondo: ¿estás ahí para mí?",
+      "Cada uno llega a la pareja con su historia de apego.",
+      "Pedir es más claro que reprochar."
+    ],
     "consultar": "Si los conflictos se repiten sin salida, si hay distancia que no se puede hablar o si alguno siente miedo del otro, consultá. Si hay violencia, mirá primero la página de ayuda urgente."
   },
   {
@@ -80,13 +200,973 @@
     "bajada": "Siete pasos para entrar en la psicología de Carl Gustav Jung: quién fue, qué es la sombra, qué dicen los sueños y cómo se vuelve uno quien es.",
     "descripcion": "Ruta de aprendizaje sobre Carl Gustav Jung: una pregunta, dos artículos, el recorrido junguiano, la sombra, los sueños y un cierre.",
     "pasos": [
-      ["/recursos/carl-gustav-jung/", "Leer", "Quién fue Jung, por qué se separó de Freud y qué propuso sobre el inconsciente."],
-      ["/laboratorio-recorrido-junguiano/", "Practicar", "Un recorrido por los conceptos centrales de la psicología analítica, paso a paso."],
-      ["/recursos/la-sombra-segun-jung/", "Leer", "Qué es la sombra: lo que no queremos ver de nosotros y solemos ver en los demás."],
-      ["/laboratorio-de-sombra-y-arquetipos/", "Practicar", "Rastrear tu propia sombra a partir de lo que te irrita o te fascina de otros."],
-      ["/laboratorio-de-suenos/", "Practicar", "Trabajar un sueño propio con la mirada junguiana: asociar, amplificar y preguntarle qué compensa."]
+      [
+        "/recursos/carl-gustav-jung/",
+        "Leer",
+        "Quién fue Jung, por qué se separó de Freud y qué propuso sobre el inconsciente."
+      ],
+      [
+        "/laboratorio-recorrido-junguiano/",
+        "Practicar",
+        "Un recorrido por los conceptos centrales de la psicología analítica, paso a paso."
+      ],
+      [
+        "/recursos/la-sombra-segun-jung/",
+        "Leer",
+        "Qué es la sombra: lo que no queremos ver de nosotros y solemos ver en los demás."
+      ],
+      [
+        "/laboratorio-de-sombra-y-arquetipos/",
+        "Practicar",
+        "Rastrear tu propia sombra a partir de lo que te irrita o te fascina de otros."
+      ],
+      [
+        "/laboratorio-de-suenos/",
+        "Practicar",
+        "Trabajar un sueño propio con la mirada junguiana: asociar, amplificar y preguntarle qué compensa."
+      ]
     ],
-    "llevar": ["Para Jung, el inconsciente no es solo un depósito de lo reprimido: también crea y orienta.", "Lo que rechazamos de los otros suele hablar de nosotros.", "La individuación es un proceso de toda la vida, no una meta."],
+    "llevar": [
+      "Para Jung, el inconsciente no es solo un depósito de lo reprimido: también crea y orienta.",
+      "Lo que rechazamos de los otros suele hablar de nosotros.",
+      "La individuación es un proceso de toda la vida, no una meta."
+    ],
     "consultar": "Si querés trabajar tus sueños, tus repeticiones o una etapa de cambio con esta mirada, la psicología junguiana es el eje de mi práctica. Podés escribirme para una primera consulta."
+  },
+  {
+    "clave": "panico",
+    "titulo": "Cuando llega el pánico",
+    "bajada": "Siete pasos para entender qué le pasa al cuerpo durante un ataque de pánico, qué hacer en el momento y cómo perderle el miedo al miedo.",
+    "descripcion": "Ruta de aprendizaje sobre el pánico: un artículo, un laboratorio sobre los ataques, regulación del cuerpo y de las emociones, y un cierre.",
+    "pasos": [
+      [
+        "/recursos/ataque-de-panico-que-hacer/",
+        "Leer",
+        "Qué es un ataque de pánico, por qué no es peligroso y qué hacer mientras ocurre."
+      ],
+      [
+        "/laboratorio-de-ataques-de-panico/",
+        "Practicar",
+        "Entender el círculo del pánico: sensación, interpretación catastrófica y más miedo."
+      ],
+      [
+        "/laboratorio-respirar-volver-al-presente/",
+        "Practicar",
+        "Una respiración lenta y los cinco sentidos para volver al presente cuando el cuerpo se dispara."
+      ],
+      [
+        "/laboratorio-de-regulacion/",
+        "Practicar",
+        "Aprender a bajar la intensidad emocional antes de que escale, no solo durante la crisis."
+      ],
+      [
+        "/ansiedad-y-ataques-de-panico/",
+        "Leer",
+        "Cómo se trabaja el pánico en terapia y qué esperar de ese proceso."
+      ]
+    ],
+    "llevar": [
+      "El pánico es una alarma intensa y desagradable, pero pasa y no daña.",
+      "Lo que más lo alimenta es el miedo a que vuelva y evitar lo que lo disparó.",
+      "Practicar fuera de la crisis hace que las herramientas estén disponibles dentro de ella."
+    ],
+    "consultar": "Si los ataques se repiten, si empezaste a evitar lugares o situaciones por miedo a tenerlos, o si es la primera vez y los síntomas te preocupan, conviene consultar. El pánico responde muy bien a la psicoterapia. Si sentís dolor en el pecho o falta de aire intensa por primera vez, pedí atención médica."
+  },
+  {
+    "clave": "ansiedad-social",
+    "titulo": "Ansiedad social",
+    "bajada": "Siete pasos para entender el miedo a ser juzgado, ponerle palabras a la culpa y la vergüenza, y animarte a decir lo que pensás.",
+    "descripcion": "Ruta de aprendizaje sobre la ansiedad social: un artículo, laboratorios de ansiedad social, asertividad, culpa y vergüenza, y un cierre.",
+    "pasos": [
+      [
+        "/recursos/ansiedad-social/",
+        "Leer",
+        "Qué es el miedo a la evaluación de los demás y en qué se diferencia de la timidez."
+      ],
+      [
+        "/laboratorio-de-ansiedad-social/",
+        "Practicar",
+        "Mirar los pensamientos y las conductas de seguridad que sostienen el miedo en las situaciones sociales."
+      ],
+      [
+        "/laboratorio-de-asertividad/",
+        "Practicar",
+        "Ensayar cómo decir que no, pedir y opinar sin atacar ni callarte."
+      ],
+      [
+        "/laboratorio-de-culpa-y-verguenza/",
+        "Practicar",
+        "Distinguir la culpa de la vergüenza: una dice «hice algo mal», la otra «soy algo malo»."
+      ],
+      [
+        "/laboratorio-de-habla-interna/",
+        "Practicar",
+        "Escuchar cómo te hablás antes y después de un encuentro, y probar otro tono."
+      ]
+    ],
+    "llevar": [
+      "Sentir nervios frente a otros es humano; el problema es cuando decidís por ellos qué hacer con tu vida.",
+      "Evitar y sobrecontrolar lo que decís mantiene el miedo.",
+      "Decir lo que pensás es una práctica, y se entrena de a poco."
+    ],
+    "consultar": "Si el miedo a los demás te hace evitar el trabajo, el estudio o los vínculos, o si sentís que tu vida se achica por eso, conviene consultar. La ansiedad social responde muy bien a la terapia cognitivo-conductual."
+  },
+  {
+    "clave": "dormir",
+    "titulo": "Dormir mejor",
+    "bajada": "Siete pasos para entender por qué no dormís, cuidar el entorno del sueño y ordenar lo que pasa de noche, incluidas las pesadillas.",
+    "descripcion": "Ruta de aprendizaje para dormir mejor: un artículo sobre insomnio, tres laboratorios sobre sueño, pesadillas y entorno, y un cierre sobre los sueños.",
+    "pasos": [
+      [
+        "/recursos/insomnio/",
+        "Leer",
+        "Qué es el insomnio, por qué se cronifica y qué tratamiento tiene mejor respaldo."
+      ],
+      [
+        "/laboratorio-de-insomnio/",
+        "Practicar",
+        "Llevar un diario de sueño y armar una ventana de sueño con la terapia cognitivo-conductual."
+      ],
+      [
+        "/laboratorio-de-higiene-sensorial/",
+        "Practicar",
+        "Cuidar luz, ruido, temperatura y pantallas para que el cuarto invite a dormir."
+      ],
+      [
+        "/laboratorio-de-pesadillas/",
+        "Practicar",
+        "Qué hacer cuando lo que interrumpe el sueño son las pesadillas, y cómo se trabajan."
+      ],
+      [
+        "/recursos/suenos-recurrentes/",
+        "Leer",
+        "Qué pueden querer decir los sueños que vuelven, para cerrar mirando la noche con curiosidad."
+      ]
+    ],
+    "llevar": [
+      "Querer dormir con fuerza suele despertar más: el sueño no se fuerza, se facilita.",
+      "Los hábitos y el entorno pesan tanto como los pensamientos.",
+      "El tratamiento de primera línea para el insomnio no es una pastilla."
+    ],
+    "consultar": "Si dormir mal dura más de unas semanas, te afecta durante el día o las pesadillas se repiten y te angustian, conviene consultar. Si además hay ideas de hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "miedos",
+    "titulo": "Miedos y fobias",
+    "bajada": "Siete pasos para distinguir el miedo útil del que te limita, aprender a acercarte de a poco y sostener la angustia sin huir.",
+    "descripcion": "Ruta de aprendizaje sobre miedos y fobias: un artículo, tres laboratorios sobre miedos, afrontamiento y angustia, y un cierre.",
+    "pasos": [
+      [
+        "/recursos/fobias/",
+        "Leer",
+        "Qué es una fobia, en qué se diferencia de un miedo común y cómo se trata."
+      ],
+      [
+        "/laboratorio-de-miedos-y-fobias/",
+        "Practicar",
+        "Armar una escalera de situaciones temidas para acercarte de a un escalón."
+      ],
+      [
+        "/laboratorio-de-afrontamiento/",
+        "Practicar",
+        "Mirar qué hacés cuando algo te asusta y qué estrategias ayudan o te mantienen en el mismo lugar."
+      ],
+      [
+        "/laboratorio-de-la-angustia/",
+        "Practicar",
+        "Aprender a estar con la angustia sin escapar de ella ni dejar que te inunde."
+      ],
+      [
+        "/laboratorio-respirar-volver-al-presente/",
+        "Practicar",
+        "Una herramienta corta para bajar la activación del cuerpo antes y durante la exposición."
+      ]
+    ],
+    "llevar": [
+      "El miedo cuida, pero a veces se activa frente a cosas que no son un peligro real.",
+      "Evitar calma hoy y agranda el miedo mañana.",
+      "Acercarte de a poco, con un plan, es la base del tratamiento."
+    ],
+    "consultar": "Si el miedo te hace evitar lugares, tareas o situaciones importantes, o si te genera mucho sufrimiento, conviene consultar. Las fobias responden muy bien a la psicoterapia, en general en pocas sesiones."
+  },
+  {
+    "clave": "pensamientos",
+    "titulo": "Pensamientos que no paran",
+    "bajada": "Siete pasos para entender por qué ciertos pensamientos vuelven una y otra vez, y cómo relacionarte con ellos sin pelearte.",
+    "descripcion": "Ruta de aprendizaje sobre pensamientos repetitivos: un artículo sobre pensamientos intrusivos, tres laboratorios y un cierre sobre el diálogo interno.",
+    "pasos": [
+      [
+        "/recursos/pensamientos-intrusivos/",
+        "Leer",
+        "Por qué casi todos tenemos ocurrencias no buscadas y qué las vuelve un problema."
+      ],
+      [
+        "/laboratorio-de-pensamientos-repetitivos/",
+        "Practicar",
+        "Reconocer la rumiación y la preocupación, y tomar distancia sin discutir con ellas."
+      ],
+      [
+        "/laboratorio-de-conductas-compulsivas/",
+        "Practicar",
+        "Ver cómo los rituales alivian un rato y alimentan el ciclo, y cómo se trabaja sobre eso."
+      ],
+      [
+        "/laboratorio-de-habla-interna/",
+        "Practicar",
+        "Escuchar el tono de tu voz interior y probar otra manera de hablarte."
+      ],
+      [
+        "/laboratorio-de-regulacion/",
+        "Practicar",
+        "Bajar la intensidad emocional que suele acompañar a los pensamientos que insisten."
+      ]
+    ],
+    "llevar": [
+      "Tener un pensamiento no significa que sea cierto ni que lo vayas a hacer.",
+      "Pelear con un pensamiento suele darle más fuerza.",
+      "Los rituales y las comprobaciones alivian poco y mantienen el ciclo."
+    ],
+    "consultar": "Si los pensamientos o los rituales te llevan más de una hora por día, te producen mucho sufrimiento o interfieren con tu vida, conviene consultar. Estos cuadros responden bien a terapias específicas."
+  },
+  {
+    "clave": "consumos",
+    "titulo": "Consumos y conductas",
+    "bajada": "Siete pasos para mirar con honestidad cuánto pesan el alcohol, el juego y las pantallas en tu vida, y qué podés cambiar.",
+    "descripcion": "Ruta de aprendizaje sobre consumos y conductas: la escala AUDIT, laboratorios de alcohol, juego y pantallas, y un artículo de cierre.",
+    "pasos": [
+      [
+        "/escala-de-alcohol-audit/",
+        "Mirarte",
+        "Diez preguntas de la OMS para tener una foto orientativa de tu consumo de alcohol."
+      ],
+      [
+        "/laboratorio-de-alcohol-y-consumos/",
+        "Practicar",
+        "Registrar cuándo y para qué consumís, y pensar cambios posibles sin juzgarte."
+      ],
+      [
+        "/laboratorio-de-apuestas-y-juego/",
+        "Practicar",
+        "Reconocer cómo se arma el hábito del juego y qué ayuda a poner límites."
+      ],
+      [
+        "/laboratorio-de-pantallas/",
+        "Practicar",
+        "Mirar cuánto tiempo y para qué usás las pantallas, y probar acuerdos con vos mismo."
+      ],
+      [
+        "/recursos/apuestas-online/",
+        "Leer",
+        "Por qué las apuestas en línea enganchan y cuándo conviene pedir ayuda."
+      ]
+    ],
+    "llevar": [
+      "Mirar tu consumo no es admitir un problema: es tener información para decidir.",
+      "Detrás de una conducta repetida suele haber algo que alivia, y vale la pena escucharlo.",
+      "Pedir ayuda a tiempo suele hacer el camino más corto."
+    ],
+    "consultar": "Si el resultado del AUDIT fue alto, si sentís que perdiste el control sobre el alcohol, el juego o las pantallas, o si afecta tu trabajo, tu economía o tus vínculos, conviene consultar. Si estás en una situación urgente o pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "dolor",
+    "titulo": "Dolor que no se va",
+    "bajada": "Siete pasos para entender por qué algunos dolores duran más que la lesión y qué podés hacer desde el cuerpo y la atención.",
+    "descripcion": "Ruta de aprendizaje sobre el dolor crónico: un artículo, un test de conciencia corporal y tres laboratorios para practicar.",
+    "pasos": [
+      [
+        "/recursos/dolor-cronico-y-psicologia/",
+        "Leer",
+        "Por qué el dolor es real aunque no se vea la lesión, y cómo lo moldean el sistema nervioso y el contexto."
+      ],
+      [
+        "/test-de-conciencia-corporal/",
+        "Mirarte",
+        "Una foto de cuánto registrás de tu cuerpo, que es el punto de partida para cambiar la relación con el dolor."
+      ],
+      [
+        "/laboratorio-de-dolor-cronico/",
+        "Practicar",
+        "Ordenar qué empeora y qué alivia el dolor, y construir un ritmo de actividad que no te deje a merced de los días buenos y malos."
+      ],
+      [
+        "/laboratorio-de-psicologia-corporal/",
+        "Practicar",
+        "Volver a habitar el cuerpo con registro y sin pelea, para que no sea solo el lugar donde duele."
+      ],
+      [
+        "/laboratorio-de-mindfulness/",
+        "Practicar",
+        "Mirar la sensación de dolor y lo que pensás sobre ella como dos cosas distintas."
+      ]
+    ],
+    "llevar": [
+      "El dolor es real aunque la lesión ya haya sanado: el sistema de alarma puede quedar sensible.",
+      "Lo que sentís, pensás y hacés con el dolor influye en cuánto pesa.",
+      "Moverse de a poco y con ritmo suele ayudar más que esperar a que pase."
+    ],
+    "consultar": "Si el dolor es nuevo, cambia o viene con fiebre, pérdida de fuerza o de peso sin explicación, consultá primero con un médico. Si el dolor te saca el sueño, el ánimo o la vida cotidiana, conviene sumar una consulta psicológica. Si aparecen ideas de hacerte daño, mirá la página de ayuda urgente (/ayuda-urgente/)."
+  },
+  {
+    "clave": "apego",
+    "titulo": "Cómo me vinculo",
+    "bajada": "Siete pasos para entender cómo tus primeros vínculos dejaron marca en la forma de querer y qué podés hacer con eso hoy.",
+    "descripcion": "Ruta de aprendizaje sobre el apego: un artículo, un test de estilos de apego y tres laboratorios sobre tus vínculos.",
+    "pasos": [
+      [
+        "/recursos/el-apego/",
+        "Leer",
+        "Cómo los primeros vínculos organizan la manera de acercarnos y de protegernos de adultos."
+      ],
+      [
+        "/test-de-estilos-de-apego/",
+        "Mirarte",
+        "Una foto de cuánta ansiedad y cuánta evitación ponés en los vínculos cercanos."
+      ],
+      [
+        "/laboratorio-del-desarrollo-y-el-apego/",
+        "Practicar",
+        "Ubicar tu historia en el recorrido del desarrollo para ver de dónde vienen tus reacciones."
+      ],
+      [
+        "/laboratorio-mi-mapa-de-vinculos/",
+        "Practicar",
+        "Dibujar quién está en tu vida y qué tipo de lazo tenés con cada uno."
+      ],
+      [
+        "/laboratorio-de-mentalizacion/",
+        "Practicar",
+        "Aprender a pensar qué le pasa al otro y qué te pasa a vos antes de reaccionar."
+      ]
+    ],
+    "llevar": [
+      "El estilo de apego no es una condena: se puede revisar y cambiar con experiencias nuevas.",
+      "Buscar cercanía y necesitar distancia son dos maneras de cuidarse.",
+      "Entender lo que le pasa al otro y a uno mismo antes de reaccionar cambia la discusión."
+    ],
+    "consultar": "Si te repetís en vínculos que te lastiman, si el miedo al abandono o a la cercanía te condiciona la vida, o si hay situaciones de maltrato, conviene consultar. El apego cambia mucho en psicoterapia."
+  },
+  {
+    "clave": "separacion",
+    "titulo": "Separarse sin perderse",
+    "bajada": "Siete pasos para atravesar una separación cuidando lo que sentís, lo que decís y a las personas que quedan involucradas.",
+    "descripcion": "Ruta de aprendizaje sobre las separaciones: dos artículos y tres laboratorios sobre duelo, enojo y perdón.",
+    "pasos": [
+      [
+        "/recursos/duelo-por-una-separacion/",
+        "Leer",
+        "Por qué se hace duelo por alguien que está vivo y por qué esa pérdida cuesta tanto nombrarla."
+      ],
+      [
+        "/laboratorio-separarse-sin-perderse/",
+        "Practicar",
+        "Ordenar qué se termina, qué te queda y quién querés ser después."
+      ],
+      [
+        "/laboratorio-de-pena-y-enojo/",
+        "Practicar",
+        "Darle lugar a la tristeza y a la bronca sin que una tape a la otra."
+      ],
+      [
+        "/laboratorio-del-perdon/",
+        "Practicar",
+        "Distinguir perdonar de justificar, y decidir con calma qué hacer con el rencor."
+      ],
+      [
+        "/recursos/hijos-y-separacion/",
+        "Leer",
+        "Para cerrar, cómo cuidar a los chicos cuando los adultos se separan."
+      ]
+    ],
+    "llevar": [
+      "Separarse es una pérdida real y merece tiempo de duelo.",
+      "La pena y el enojo suelen venir juntos: ninguno es un error.",
+      "Perdonar es una decisión tuya y no te obliga a volver ni a olvidar."
+    ],
+    "consultar": "Si pasan los meses y no podés trabajar, dormir o cuidar de otros, si hay violencia o miedo en la relación, o si pensás que no vale la pena seguir, consultá. Si hay riesgo, mirá la página de ayuda urgente (/ayuda-urgente/)."
+  },
+  {
+    "clave": "decir",
+    "titulo": "Decir lo que necesito",
+    "bajada": "Siete pasos para pedir, poner límites y expresar lo que sentís sin callarte ni explotar.",
+    "descripcion": "Ruta de aprendizaje sobre comunicación: un artículo y cuatro laboratorios de asertividad, comunicación no violenta y habilidades DBT.",
+    "pasos": [
+      [
+        "/recursos/comunicacion-no-violenta/",
+        "Leer",
+        "Una forma de hablar que separa lo que pasó, lo que sentís y lo que necesitás."
+      ],
+      [
+        "/laboratorio-de-asertividad/",
+        "Practicar",
+        "Diferenciar callarse, atacar y decir con claridad, y ensayar frases propias."
+      ],
+      [
+        "/laboratorio-de-comunicacion-no-violenta/",
+        "Practicar",
+        "Armar el pedido en cuatro pasos para que el otro pueda escucharlo."
+      ],
+      [
+        "/laboratorio-dbt-efectividad-interpersonal/",
+        "Practicar",
+        "Cuidar a la vez lo que querés lograr, la relación y el respeto por vos."
+      ],
+      [
+        "/laboratorio-sistemica-comunicacion/",
+        "Practicar",
+        "Ver cómo los mensajes se encadenan en un vínculo y dónde se traba la conversación."
+      ]
+    ],
+    "llevar": [
+      "Callarse y gritar son extremos: hay un punto medio que se practica.",
+      "Un pedido claro lleva el hecho, lo que sentís y lo que necesitás.",
+      "Decir que no cuida el vínculo cuando lo hacés con respeto."
+    ],
+    "consultar": "Si no poder decir lo que necesitás te genera ansiedad constante, si el miedo a la reacción del otro es muy grande o hay violencia o maltrato en la relación, conviene consultar. Si estás en riesgo, mirá la página de ayuda urgente (/ayuda-urgente/)."
+  },
+  {
+    "clave": "familia",
+    "titulo": "Familia y sistema",
+    "bajada": "Siete pasos para mirar a tu familia como un sistema donde todos se influyen, y encontrar tu lugar sin quedar atrapado.",
+    "descripcion": "Ruta de aprendizaje sobre la familia como sistema: dos artículos y tres laboratorios de mirada sistémica.",
+    "pasos": [
+      [
+        "/recursos/terapia-sistemica/",
+        "Leer",
+        "La idea de fondo: los problemas se entienden mejor mirando las relaciones que a una sola persona."
+      ],
+      [
+        "/recursos/conflictos-familiares/",
+        "Leer",
+        "Cómo se arman los conflictos que se repiten en las familias y qué ayuda a bajarlos."
+      ],
+      [
+        "/laboratorio-sistemico/",
+        "Practicar",
+        "Dibujar a tu familia como sistema para ver roles, alianzas y reglas no dichas."
+      ],
+      [
+        "/laboratorio-sistemica-bowen/",
+        "Practicar",
+        "Pensar la diferenciación: estar cerca sin fusionarte y tomar distancia sin cortar."
+      ],
+      [
+        "/laboratorio-sistemica-comunicacion/",
+        "Practicar",
+        "Mirar cómo se hablan, y cómo se callan, en tu familia."
+      ]
+    ],
+    "llevar": [
+      "En una familia todo se influye: el problema de uno suele hablar del conjunto.",
+      "Cada uno tiene un rol que ayuda al equilibrio, aunque a veces cueste caro.",
+      "Cambiar tu manera de participar mueve el sistema entero."
+    ],
+    "consultar": "Si los conflictos familiares te enferman, te aíslan o se repiten sin salida, o si hay violencia o maltrato, conviene consultar, solo o con la familia. Si hay riesgo, mirá la página de ayuda urgente (/ayuda-urgente/)."
+  },
+  {
+    "clave": "crianza",
+    "titulo": "Crianza y adolescencia",
+    "bajada": "Siete pasos para acompañar a tus hijos con límites y afecto, de la infancia a la adolescencia, incluyendo las pantallas.",
+    "descripcion": "Ruta de aprendizaje sobre crianza y adolescencia: dos artículos y tres laboratorios sobre límites, adolescentes y pantallas.",
+    "pasos": [
+      [
+        "/recursos/padres-de-adolescentes/",
+        "Leer",
+        "Qué le pasa a un adolescente y qué le pasa a quien lo acompaña."
+      ],
+      [
+        "/laboratorio-de-crianza/",
+        "Practicar",
+        "Pensar qué estilo de crianza usás y cómo combinar afecto con límites."
+      ],
+      [
+        "/laboratorio-de-adolescentes/",
+        "Practicar",
+        "Entender los cambios de la adolescencia y cómo hablarles sin invadir."
+      ],
+      [
+        "/laboratorio-de-pantallas/",
+        "Practicar",
+        "Armar acuerdos realistas sobre pantallas, donde los adultos también tengan su parte."
+      ],
+      [
+        "/recursos/pantallas-y-redes-sociales/",
+        "Leer",
+        "Para cerrar, qué se sabe de las pantallas y las redes, y qué señales mirar."
+      ]
+    ],
+    "llevar": [
+      "Los chicos necesitan afecto y límites a la vez: uno no reemplaza al otro.",
+      "En la adolescencia, la distancia es parte del crecimiento, no un rechazo.",
+      "Los acuerdos sobre pantallas funcionan mejor cuando los adultos también los cumplen."
+    ],
+    "consultar": "Si notás cambios fuertes y sostenidos en tu hijo, como aislamiento, tristeza, caída marcada en la escuela, consumos o conductas de riesgo, conviene consultar. Si hay riesgo para su vida, mirá la página de ayuda urgente (/ayuda-urgente/)."
+  },
+  {
+    "clave": "cuidar",
+    "titulo": "Quien cuida a otros",
+    "bajada": "Siete pasos para reconocer el peso de cuidar, tratarte con la misma ternura que das y encontrar espacios de descanso.",
+    "descripcion": "Ruta de aprendizaje para quien cuida a un familiar: un artículo, una escala de autocompasión y tres laboratorios sobre cuidado, compasión y descanso.",
+    "pasos": [
+      [
+        "/recursos/cuidar-a-un-familiar/",
+        "Leer",
+        "Qué le pasa a quien cuida: la sobrecarga, la culpa y por qué pedir ayuda no es abandonar."
+      ],
+      [
+        "/escala-de-autocompasion/",
+        "Mirarte",
+        "Ver cómo te tratás cuando algo te sale mal, para empezar a cuidarte con el mismo trato que das."
+      ],
+      [
+        "/laboratorio-para-quien-cuida/",
+        "Practicar",
+        "Un espacio pensado para quien sostiene a otro: límites, pedidos de ayuda y tiempos propios."
+      ],
+      [
+        "/laboratorio-de-autocompasion/",
+        "Practicar",
+        "Hablarte con una voz amable en los días en que el cansancio y la culpa aprietan."
+      ],
+      [
+        "/laboratorio-de-descanso/",
+        "Practicar",
+        "Armar pausas posibles, chicas y repetibles, aunque la agenda del cuidado no afloje."
+      ]
+    ],
+    "llevar": [
+      "Cuidar a otros es un trabajo, y se sostiene mejor cuando alguien también te cuida a vos.",
+      "La culpa por descansar es frecuente y no prueba que lo estés haciendo mal.",
+      "Pedir ayuda concreta (una tarea, una hora) suele servir más que esperar a que te vean agotada o agotado."
+    ],
+    "consultar": "Si el cansancio no se va con el descanso, si sentís que ya no podés más, si aparecen tristeza persistente, irritabilidad que te asusta o ideas de hacerte daño, consultá. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "vinculos-que-danan",
+    "titulo": "Vínculos que dañan",
+    "bajada": "Siete pasos para reconocer cuándo un vínculo te hace daño, entender el lugar del poder y de la seguridad, y saber dónde pedir ayuda.",
+    "descripcion": "Ruta de aprendizaje sobre vínculos que dañan: violencia en la pareja, conflicto alto, seguridad y poder personal. Si estás en peligro, hay ayuda urgente.",
+    "pasos": [
+      [
+        "/recursos/violencia-en-la-pareja/",
+        "Leer",
+        "Las formas que toma la violencia, las señales que cuestan verse y cómo pedir ayuda."
+      ],
+      [
+        "/laboratorio-de-violencia-en-el-vinculo/",
+        "Practicar",
+        "Poner en palabras lo que pasa en el vínculo, a tu ritmo y sin que nadie te empuje a decidir."
+      ],
+      [
+        "/laboratorio-conflicto-alto-y-seguridad/",
+        "Practicar",
+        "Distinguir un conflicto difícil de una situación que te pone en riesgo, y pensar cómo cuidarte."
+      ],
+      [
+        "/laboratorio-de-relaciones-y-poder-personal/",
+        "Practicar",
+        "Mirar cómo se reparte el poder en tus relaciones y qué espacio tenés para decidir."
+      ],
+      [
+        "/laboratorio-de-buen-trato/",
+        "Practicar",
+        "Tener a mano una referencia de cómo se ve un trato respetuoso, para comparar con lo que vivís."
+      ]
+    ],
+    "llevar": [
+      "Un vínculo que te asusta, te controla o te aísla no es una discusión de pareja más.",
+      "La violencia no depende de tu carácter ni de lo que hiciste: la responsabilidad es de quien la ejerce.",
+      "Pedir ayuda es un paso, y se puede dar de a poco y con acompañamiento."
+    ],
+    "consultar": "Si tenés miedo de la otra persona, si te controla, te humilla o te lastima, consultá cuanto antes, y si estás en peligro ahora, buscá ayuda hoy en la página de ayuda urgente. Esta ruta no reemplaza una consulta ni un plan hecho con profesionales."
+  },
+  {
+    "clave": "crisis",
+    "titulo": "Crisis vitales",
+    "bajada": "Siete pasos para atravesar una crisis vital: entender qué te está pidiendo, decidir con más claridad y soltar expectativas que ya no te sirven.",
+    "descripcion": "Ruta de aprendizaje sobre crisis vitales: un artículo, tres laboratorios sobre crisis, decisiones y expectativas, y otro artículo sobre las transiciones.",
+    "pasos": [
+      [
+        "/recursos/crisis-de-la-mitad-de-la-vida/",
+        "Leer",
+        "Por qué lo logrado a veces ya no alcanza y qué puede estar pidiendo una crisis."
+      ],
+      [
+        "/laboratorio-de-crisis-vitales/",
+        "Practicar",
+        "Ordenar qué se está moviendo en tu vida y distinguir qué se perdió de qué se está abriendo."
+      ],
+      [
+        "/laboratorio-de-decisiones/",
+        "Practicar",
+        "Decidir con más calma cuando todo parece incierto, sin esperar certezas que no vienen."
+      ],
+      [
+        "/laboratorio-de-flexibilidad-ante-expectativas/",
+        "Practicar",
+        "Revisar las expectativas de cómo «debería» ser tu vida y ajustarlas sin rendirte."
+      ],
+      [
+        "/recursos/transiciones-vitales/",
+        "Leer",
+        "Cerrar con una mirada sobre los pasajes de una etapa a otra y lo que ayuda a atravesarlos."
+      ]
+    ],
+    "llevar": [
+      "Una crisis es un punto de inflexión: incomoda porque algo pide cambiar.",
+      "No hace falta decidirlo todo ya; muchas veces alcanza con el próximo paso.",
+      "Soltar una expectativa no es resignarse, es hacer lugar a otras posibilidades."
+    ],
+    "consultar": "Si la crisis te deja sin dormir, sin poder trabajar o con ideas de que nada vale la pena, consultá. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "nuevas-etapas",
+    "titulo": "Jubilación y nuevas etapas",
+    "bajada": "Siete pasos para atravesar la jubilación o un cambio de etapa: entender lo que se pierde, imaginar lo que viene y encontrar qué le da sentido a tus días.",
+    "descripcion": "Ruta de aprendizaje sobre jubilación y nuevas etapas: dos artículos y tres laboratorios sobre retiro, ikigai y sentido para tus próximos años.",
+    "pasos": [
+      [
+        "/recursos/vejez-y-jubilacion/",
+        "Leer",
+        "Qué cambia con el tiempo libre, los vínculos y la identidad cuando se deja el trabajo."
+      ],
+      [
+        "/laboratorio-de-jubilacion-y-nuevas-etapas/",
+        "Practicar",
+        "Armar un mapa de esta etapa: qué dejás, qué conservás y qué querés empezar."
+      ],
+      [
+        "/laboratorio-de-ikigai/",
+        "Practicar",
+        "Explorar qué te gusta, qué sabés hacer, qué necesita el mundo y cómo se cruzan."
+      ],
+      [
+        "/laboratorio-de-sentido/",
+        "Practicar",
+        "Volver a la pregunta por el sentido cuando ya no lo da el calendario laboral."
+      ],
+      [
+        "/recursos/ikigai/",
+        "Leer",
+        "Cerrar con la idea japonesa de las razones para levantarse cada mañana."
+      ]
+    ],
+    "llevar": [
+      "Dejar un rol también es un duelo, y es normal sentir pérdida junto con alivio.",
+      "El sentido se construye con proyectos, vínculos y rutinas, no solo con tiempo libre.",
+      "Una etapa nueva se arma de a poco, probando y ajustando."
+    ],
+    "consultar": "Si el cambio de etapa te trae tristeza que no cede, aislamiento, insomnio o la sensación de que ya no tenés lugar, consultá. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "soledad",
+    "titulo": "Soledad y conexión",
+    "bajada": "Siete pasos para distinguir estar solo de sentirte solo, entender qué te pasa y animarte a volver a los otros.",
+    "descripcion": "Ruta de aprendizaje sobre soledad y conexión: un artículo, tres laboratorios sobre soledad, encuentro y ubuntu, y un mapa de tus vínculos.",
+    "pasos": [
+      [
+        "/recursos/la-soledad/",
+        "Leer",
+        "La diferencia entre la soledad que duele y la que nutre, y qué dice la psicología sobre ambas."
+      ],
+      [
+        "/laboratorio-de-soledad-y-conexion/",
+        "Practicar",
+        "Mirar qué tipo de soledad estás viviendo y probar pasos chicos hacia los demás."
+      ],
+      [
+        "/laboratorio-del-encuentro/",
+        "Practicar",
+        "Pensar qué hace que un encuentro sea de verdad: presencia, escucha y reciprocidad."
+      ],
+      [
+        "/laboratorio-de-ubuntu/",
+        "Practicar",
+        "Una idea africana para pensar la pertenencia: somos personas a través de otras personas."
+      ],
+      [
+        "/laboratorio-mi-mapa-de-vinculos/",
+        "Practicar",
+        "Dibujar quiénes están en tu vida y a quién podrías acercarte primero."
+      ]
+    ],
+    "llevar": [
+      "Estar solo y sentirse solo no son lo mismo.",
+      "La conexión se cultiva con gestos pequeños y sostenidos más que con grandes saltos.",
+      "Pedir y ofrecer compañía son dos caras de lo mismo."
+    ],
+    "consultar": "Si la soledad te acompaña hace mucho, si sentís que nadie te necesita o si aparecen tristeza persistente o ideas de hacerte daño, consultá. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "trauma",
+    "titulo": "Después de lo traumático",
+    "bajada": "Siete pasos para entender cómo deja huella lo traumático, volver a sentirte a salvo en tu cuerpo y conocer los caminos de ayuda que existen.",
+    "descripcion": "Ruta de aprendizaje sobre trauma: dos artículos y tres laboratorios sobre trauma, regulación y tolerancia al malestar, sin entrar en detalles de lo vivido.",
+    "pasos": [
+      [
+        "/recursos/estres-postraumatico/",
+        "Leer",
+        "Qué es el estrés postraumático, cómo se reconoce y qué tratamientos tienen respaldo."
+      ],
+      [
+        "/laboratorio-de-trauma/",
+        "Practicar",
+        "Conocer cómo funciona la huella del trauma, a tu ritmo y sin necesidad de contar lo que pasó."
+      ],
+      [
+        "/laboratorio-de-regulacion/",
+        "Practicar",
+        "Ampliar tu ventana de tolerancia con anclajes al presente y pendulación entre calma y activación."
+      ],
+      [
+        "/laboratorio-dbt-tolerancia-al-malestar/",
+        "Practicar",
+        "Habilidades para atravesar momentos muy intensos sin empeorarlos."
+      ],
+      [
+        "/recursos/trauma-complejo/",
+        "Leer",
+        "Cuando el daño fue largo y vino de cerca, y por qué el camino de recuperación pide tiempo."
+      ]
+    ],
+    "llevar": [
+      "Las reacciones al trauma son respuestas comprensibles ante algo que desbordó.",
+      "Se puede aprender a regular el cuerpo sin revivir lo ocurrido.",
+      "El trauma se trabaja mejor con acompañamiento profesional, a un ritmo que cuide."
+    ],
+    "consultar": "Si hay recuerdos o sensaciones que te desbordan, si evitás cada vez más cosas, si dormís mal hace semanas o si aparecen ideas de hacerte daño, consultá con un profesional formado en trauma. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "autoestima",
+    "titulo": "Autoestima",
+    "bajada": "Siete pasos para entender de dónde viene la manera en que te valorás, medirla y aprender a tratarte con más amabilidad.",
+    "descripcion": "Ruta de aprendizaje sobre autoestima: un artículo, dos escalas, y laboratorios de buen trato y yo compasivo para tratarte mejor.",
+    "pasos": [
+      [
+        "/recursos/autoestima-baja-senales-y-caminos/",
+        "Leer",
+        "Qué es la autoestima baja, cómo se reconoce y por qué no se arregla a fuerza de voluntad."
+      ],
+      [
+        "/escala-de-autoestima-rosenberg/",
+        "Mirarte",
+        "Diez frases para ver cómo te valorás hoy, sin ponerte nota."
+      ],
+      [
+        "/escala-de-autocompasion/",
+        "Mirarte",
+        "Cómo te hablás cuando fallás: la pregunta que la autoestima sola no contesta."
+      ],
+      [
+        "/laboratorio-de-buen-trato/",
+        "Practicar",
+        "Decir que no en paz y reparar después de un conflicto: el buen trato también empieza por los límites."
+      ],
+      [
+        "/laboratorio-compasion-yo-compasivo/",
+        "Practicar",
+        "Armar una voz interna que te acompañe en vez de juzgarte."
+      ]
+    ],
+    "llevar": [
+      "Valerte no depende de rendir ni de que te aprueben.",
+      "Tratarte como tratarías a alguien querido es una habilidad que se entrena.",
+      "Poner límites también es una forma de cuidarte."
+    ],
+    "consultar": "Si te sentís sin valor casi todo el tiempo, si la autocrítica te paraliza o si el puntaje de la escala te dio bajo, conviene consultar. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "perfeccionismo",
+    "titulo": "Perfeccionismo y procrastinación",
+    "bajada": "Siete pasos para entender por qué postergás lo que te importa, aflojar la vara y avanzar con pasos que se puedan sostener.",
+    "descripcion": "Ruta de aprendizaje sobre perfeccionismo y procrastinación: un artículo y cuatro laboratorios para aflojar la exigencia y empezar.",
+    "pasos": [
+      [
+        "/recursos/autoexigencia-y-perfeccionismo/",
+        "Leer",
+        "De dónde viene la voz que nunca está conforme y cuándo exigirse deja de ayudar."
+      ],
+      [
+        "/laboratorio-de-perfeccionismo/",
+        "Practicar",
+        "Medir el costo de la vara alta y probar un estándar suficientemente bueno."
+      ],
+      [
+        "/laboratorio-de-procrastinacion/",
+        "Practicar",
+        "Entender qué emoción esquivás cuando postergás, más allá de la falta de disciplina."
+      ],
+      [
+        "/laboratorio-de-zeigarnik/",
+        "Practicar",
+        "Sacarte de la cabeza los pendientes con un plan concreto para cerrarlos o estacionarlos."
+      ],
+      [
+        "/laboratorio-de-kaizen/",
+        "Practicar",
+        "Cambiar en pasos tan chicos que no den miedo: el avance mínimo cuenta."
+      ]
+    ],
+    "llevar": [
+      "Postergar suele ser una forma de evitar una emoción incómoda, no pereza.",
+      "Un estándar suficientemente bueno te deja terminar; el perfecto, no.",
+      "Los pasos chicos y repetibles ganan a los grandes impulsos."
+    ],
+    "consultar": "Si la exigencia o la postergación te generan mucha angustia, afectan tu trabajo o tus vínculos, o van de la mano con ánimo muy bajo, conviene consultar. Ambas responden bien a la psicoterapia."
+  },
+  {
+    "clave": "emociones",
+    "titulo": "Entender y regular las emociones",
+    "bajada": "Siete pasos para ponerle nombre a lo que sentís, entender qué te están diciendo tus emociones y aprender a atravesarlas sin que te arrastren.",
+    "descripcion": "Ruta de aprendizaje sobre emociones: un artículo, la rueda de las emociones y laboratorios de regulación emocional, DBT y emociones.",
+    "pasos": [
+      [
+        "/recursos/inteligencia-emocional/",
+        "Leer",
+        "Qué es la inteligencia emocional y por qué reconocer lo que sentís es el primer paso."
+      ],
+      [
+        "/laboratorio-rueda-de-las-emociones/",
+        "Mirarte",
+        "Una rueda para nombrar con más precisión lo que sentís y cuánto."
+      ],
+      [
+        "/laboratorio-de-emociones/",
+        "Practicar",
+        "Leer cada emoción como una señal que indica un problema a resolver."
+      ],
+      [
+        "/laboratorio-dbt-regulacion-emocional/",
+        "Practicar",
+        "Habilidades de la terapia dialéctico conductual para bajar la intensidad cuando te desborda."
+      ],
+      [
+        "/laboratorio-focalizado-en-las-emociones/",
+        "Practicar",
+        "Quedarte con la emoción y escuchar qué necesita en vez de taparla."
+      ]
+    ],
+    "llevar": [
+      "Nombrar una emoción con precisión ya la vuelve más manejable.",
+      "Las emociones informan: miedo, enojo o tristeza apuntan a algo que te importa.",
+      "Regular no es reprimir: es poder sentir sin que la emoción maneje."
+    ],
+    "consultar": "Si tus emociones te desbordan seguido, si reaccionás de formas que después lamentás o si te cuesta sentir casi todo, conviene consultar. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "sentido",
+    "titulo": "Sentido y valores",
+    "bajada": "Siete pasos para aclarar qué te importa, encontrar qué le da sentido a tu vida y empezar a vivir más cerca de eso.",
+    "descripcion": "Ruta de aprendizaje sobre sentido y valores: un artículo de logoterapia y laboratorios de valores, voluntad de sentido, ikigai y mito personal.",
+    "pasos": [
+      [
+        "/recursos/logoterapia-y-sentido/",
+        "Leer",
+        "La propuesta de Viktor Frankl: cómo se busca sentido incluso en lo difícil."
+      ],
+      [
+        "/laboratorio-de-valores/",
+        "Practicar",
+        "Poner en palabras qué te importa y chequear cuánto de tu semana va hacia ahí."
+      ],
+      [
+        "/laboratorio-logoterapia-voluntad-de-sentido/",
+        "Practicar",
+        "Preguntarte qué te pide la vida hoy, en vez de qué podés sacarle."
+      ],
+      [
+        "/laboratorio-de-ikigai/",
+        "Practicar",
+        "Cruzar lo que amás, lo que se te da bien y lo que el mundo necesita."
+      ],
+      [
+        "/laboratorio-mito-personal/",
+        "Practicar",
+        "Mirar tu historia como un relato con capítulos y ver qué figura te acompaña."
+      ]
+    ],
+    "llevar": [
+      "Los valores son una dirección, no una meta que se tacha.",
+      "El sentido suele aparecer en una tarea, un vínculo o la actitud frente a lo inevitable.",
+      "Tu historia se puede releer y seguir escribiendo."
+    ],
+    "consultar": "Si sentís un vacío que no se va, si perdiste las ganas de casi todo o si aparecen ideas de que no vale la pena seguir, conviene consultar. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "psicoanalisis",
+    "titulo": "Psicoanálisis en siete pasos",
+    "bajada": "Siete pasos para recorrer las ideas centrales del psicoanálisis, de Freud a Klein y Winnicott, y ver cómo se usan hoy en una terapia breve.",
+    "descripcion": "Ruta de aprendizaje de psicoanálisis: un artículo introductorio, el recorrido psicoanalítico, Freud, Klein, Winnicott y el foco de Fiorini.",
+    "pasos": [
+      [
+        "/recursos/que-es-el-psicoanalisis/",
+        "Leer",
+        "Qué es el psicoanálisis, cómo trabaja y qué lugar tiene hoy entre las terapias."
+      ],
+      [
+        "/laboratorio-recorrido-psicoanalitico/",
+        "Practicar",
+        "Una puerta de entrada en tres niveles, de los actos fallidos y las defensas a las ideas más complejas."
+      ],
+      [
+        "/laboratorio-psicoanalisis-freud/",
+        "Practicar",
+        "Inconsciente, sueños, actos fallidos y defensas en ejercicios para tu vida cotidiana."
+      ],
+      [
+        "/laboratorio-psicoanalisis-klein-winnicott/",
+        "Practicar",
+        "De Freud a las relaciones tempranas: cómo se forma el mundo interno según Klein y Winnicott."
+      ],
+      [
+        "/laboratorio-fiorini-el-foco/",
+        "Practicar",
+        "Cómo el psicoanálisis se adapta a una psicoterapia breve armando un foco."
+      ]
+    ],
+    "llevar": [
+      "Mucho de lo que hacemos y decimos tiene motivos que no vemos al instante.",
+      "Los vínculos tempranos dejan huellas en cómo nos relacionamos hoy.",
+      "El psicoanálisis tiene versiones breves y focalizadas, no solo el diván."
+    ],
+    "consultar": "Si algo de lo que leíste te resuena y querés entenderte mejor, o si un malestar se repite sin que sepas por qué, conviene consultar. Este recorrido es una introducción y no reemplaza una terapia."
+  },
+  {
+    "clave": "sabidurias",
+    "titulo": "Sabidurías del mundo para el malestar",
+    "bajada": "Siete pasos para recorrer cómo distintas tradiciones, de Roma y Grecia a China y Japón, entendieron el sufrimiento y qué podés llevarte para hoy.",
+    "descripcion": "Ruta de aprendizaje con sabidurías del mundo: Séneca, estoicos, Epicuro, Zhuangzi, wabi-sabi y kintsugi para el malestar cotidiano.",
+    "pasos": [
+      [
+        "/recursos/seneca/",
+        "Leer",
+        "Un filósofo romano que escribió sobre la ira, el tiempo y el miedo a lo que viene."
+      ],
+      [
+        "/laboratorio-estoico/",
+        "Practicar",
+        "Separar lo que depende de vos de lo que no, y anticipar los contratiempos."
+      ],
+      [
+        "/laboratorio-epicureo/",
+        "Practicar",
+        "El placer sereno de Epicuro: pocos deseos, buenos amigos y menos miedo."
+      ],
+      [
+        "/laboratorio-de-zhuangzi/",
+        "Practicar",
+        "Aflojar el control y mirar desde otro ángulo, con el humor del taoísmo chino."
+      ],
+      [
+        "/laboratorio-de-wabi-sabi-y-kintsugi/",
+        "Practicar",
+        "Aceptar lo imperfecto: reparar con oro lo roto en vez de esconderlo."
+      ]
+    ],
+    "llevar": [
+      "Distintas culturas llegaron a ideas parecidas: no controlamos todo y podemos elegir cómo responder.",
+      "Aceptar lo imperfecto alivia más que pelearse con eso.",
+      "Una sabiduría antigua es una herramienta para probar, no una receta."
+    ],
+    "consultar": "Estas tradiciones acompañan, pero no reemplazan un tratamiento. Si el malestar te desborda o dura, conviene consultar. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
   }
 ]

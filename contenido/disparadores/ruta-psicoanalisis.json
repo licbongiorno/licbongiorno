@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Querías decir «nos vemos mañana» y se te escapó otra palabra, justo la que no querías decir. Te reís, pero te queda dando vueltas.",
+   "p": "¿Cómo entendía Freud un lapsus como ese?",
+   "opciones": [
+    "Como un simple error de atención, sin significado.",
+    "Como una formación del inconsciente que puede decir algo de un deseo o un conflicto.",
+    "Como señal de un problema neurológico."
+   ],
+   "r": "Para Freud, los actos fallidos como el lapsus son formaciones del inconsciente: dicen algo que otra parte nuestra preferiría callar. No todo desliz significa algo, pero mirarlos con curiosidad puede abrir preguntas útiles.",
+   "como": "Freud los estudió en su libro «Psicopatología de la vida cotidiana». Hoy la psicología cognitiva explica muchos errores del habla por competencia entre palabras, y el psicoanálisis sigue leyéndolos como pistas dentro de una terapia.",
+   "debate": "Se discute cuánto de un lapsus es sentido oculto y cuánto es mecánica del lenguaje, y también la cientificidad del psicoanálisis en general."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

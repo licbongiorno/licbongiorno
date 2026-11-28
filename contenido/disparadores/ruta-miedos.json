@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tenés pánico a volar. Cada vez que un viaje se acerca, buscás una excusa y terminás viajando en micro o no yendo.",
+   "p": "¿Qué enseña el tratamiento que mejor funciona para las fobias?",
+   "opciones": [
+    "A distraerte para no pensar en lo temido.",
+    "A acercarte de forma gradual y planificada a lo temido hasta que el miedo baje.",
+    "A esperar a que el miedo se vaya solo."
+   ],
+   "r": "La exposición gradual consiste en enfrentar lo temido por escalones, con un plan y sin escapar. El cuerpo aprende que la alarma baja sola y que la situación se puede sostener. La evitación, en cambio, mantiene el miedo.",
+   "como": "Se sabe por décadas de investigación clínica: la exposición es uno de los tratamientos con más respaldo para las fobias específicas.",
+   "debate": "Se discute cuánto de las fobias es aprendido y cuánto responde a una predisposición evolutiva, por ejemplo hacia las alturas o los animales."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace dos años que cuidás a tu mamá. Ayer, por primera vez, pensaste «necesito un fin de semana para mí» y enseguida te sentiste una mala hija.",
+   "p": "¿Qué dice ese pensamiento de vos?",
+   "opciones": [
+    "Que no la querés lo suficiente.",
+    "Que estás cansada y necesitás descanso, algo muy frecuente en quien cuida.",
+    "Que tendrías que aguantar más, porque otros cuidan en peores condiciones."
+   ],
+   "r": "Querer un descanso no resta cariño: es una señal de que el cuidado sostenido consume energía. Quien cuida mucho tiempo suele sentir cansancio, enojo y culpa a la vez, y esas emociones conviven con el afecto sin anularlo.",
+   "como": "La investigación sobre cuidadores familiares viene describiendo la sobrecarga del cuidador: cansancio físico y emocional, aislamiento y culpa cuando el cuidado es prolongado y recae en una sola persona. Los apoyos y los respiros se asocian con menor desgaste.",
+   "debate": "Se discute cómo repartir el cuidado entre la familia, el Estado y el mercado, y cuánto de la carga recae todavía sobre las mujeres."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

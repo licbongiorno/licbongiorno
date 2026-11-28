@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un sábado a la noche estás solo en casa, con un libro, y te sentís tranquilo. Otro sábado, en una reunión llena de gente, te sentís completamente solo.",
+   "p": "¿Cómo se explica la diferencia?",
+   "opciones": [
+    "Estar solo siempre duele; la gente alrededor siempre alivia.",
+    "La soledad es sentir que falta conexión, y puede darse con o sin gente alrededor.",
+    "Es una cuestión de personalidad que no se puede cambiar."
+   ],
+   "r": "Estar solo es una situación; sentirse solo es una experiencia. Se puede disfrutar de la soledad elegida y sentir un vacío rodeado de gente cuando falta una conexión que importe. Lo que duele es la distancia entre los vínculos que tenés y los que necesitás.",
+   "como": "La investigación en psicología social distingue entre aislamiento objetivo y soledad percibida, y muestra que la segunda se relaciona con la calidad de los vínculos y no solo con su cantidad.",
+   "debate": "Se discute cuánto pesan la personalidad, las condiciones sociales y las pantallas en la soledad contemporánea."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

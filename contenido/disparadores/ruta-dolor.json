@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace seis meses te lastimaste la espalda. Los estudios salen bien y el médico dice que el tejido sanó, pero el dolor sigue ahí, sobre todo en las semanas de más tensión.",
+   "p": "¿Qué significa que el dolor siga si ya no hay lesión?",
+   "opciones": [
+    "Que en realidad no te duele y se trata de algo imaginario.",
+    "Que el sistema nervioso quedó sensibilizado y sigue dando la alarma, y el dolor es igual de real.",
+    "Que hay una lesión grave que los estudios no pueden ver."
+   ],
+   "r": "El dolor no mide el daño del tejido: es una construcción del cerebro que protege. Cuando dura meses, el sistema de alarma puede quedar sensibilizado y disparar dolor con poco estímulo. Sigue siendo real; lo que cambia es la explicación y, con ella, lo que se puede hacer.",
+   "como": "Se sabe por la investigación clínica y de neurociencia del dolor, que muestra sensibilización del sistema nervioso en el dolor persistente, y por los programas que combinan educación sobre el dolor, actividad gradual y atención plena, que reducen la interferencia en la vida diaria.",
+   "debate": "Se discute cuánto pesa cada factor, biológico, emocional y social, y cuáles son los tratamientos más eficaces para cada persona."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

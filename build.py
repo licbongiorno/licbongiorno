@@ -2945,7 +2945,7 @@ def construir():
             tarjetas += (f'<li class="recorrido__paso"><span class="recorrido__num" aria-hidden="true">7</span><div>'
                          f'<a href="{ruta}"><strong>{esc(r["titulo"])}</strong></a><p>{esc(r["bajada"])}</p></div></li>')
         ruta = "/rutas/"
-        meta = {"titulo": "Rutas de aprendizaje en psicología, paso a paso", "descripcion": "Rutas de siete pasos sobre ansiedad, ánimo, estrés, duelo, pareja y Jung: una pregunta, lecturas, escalas y laboratorios en orden.",
+        meta = {"titulo": "Rutas de aprendizaje en psicología, paso a paso", "descripcion": "Treinta rutas de siete pasos sobre ansiedad, ánimo, duelo, vínculos, emociones, Jung y más: una pregunta, lecturas, escalas y laboratorios.",
                 "migas": [("Recursos", "/recursos/"), ("Rutas", ruta)], "tipo_pagina": "CollectionPage", "antetitulo": "Recursos",
                 "h1": "Rutas de <em>aprendizaje</em>", "bajada": "Siete pasos para entender un tema de punta a punta: empezás con una pregunta, leés, te mirás, practicás y volvés a tu respuesta."}
         cuerpo = portada(meta) + f'''<section class="seccion" style="padding-top:0"><div class="contenedor contenedor--texto">

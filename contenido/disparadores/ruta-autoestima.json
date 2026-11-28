@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te sacás un 9 en un examen difícil y te quedás pensando en el punto que perdiste. A la noche, el 9 ya no cuenta.",
+   "p": "¿Qué suele sostener mejor la autoestima con el tiempo?",
+   "opciones": [
+    "Exigirte más, para merecer sentirte bien.",
+    "Tratarte como a un buen amigo, también cuando fallás.",
+    "Compararte con quienes están peor que vos."
+   ],
+   "r": "La autocompasión (amabilidad con uno mismo, reconocer que fallar es humano y mirar el error sin dramatizarlo) suele dar un valor propio más estable que la autocrítica dura. No depende de rendir bien cada día, así que no se cae cuando algo sale mal.",
+   "como": "La psicóloga Kristin Neff describió estos tres componentes y desarrolló una escala para medirlos. Los estudios muestran que quienes se tratan con más amabilidad se recuperan mejor de los fracasos, sin bajar su nivel de exigencia.",
+   "debate": "Se discute si la autocompasión es distinta de la autoestima y cuánto de su efecto depende de la cultura y de cómo se la mide."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

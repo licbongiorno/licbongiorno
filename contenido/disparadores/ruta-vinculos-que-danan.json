@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Una amiga te cuenta que su pareja le revisa el celular, le elige la ropa y se enoja si ve a su familia. «Es celoso, pero me quiere», dice.",
+   "p": "¿Cómo mirarías esa situación?",
+   "opciones": [
+    "Como un rasgo de carácter normal en una pareja apasionada.",
+    "Como una forma de control que conviene mirar con atención y con ayuda.",
+    "Como un problema que depende de que ella cambie su manera de ser."
+   ],
+   "r": "El control sobre el celular, la ropa o los vínculos es una forma de violencia psicológica, aunque se presente como amor. Suele ir aumentando de a poco, por eso cuesta verlo desde adentro. Mirarlo con ayuda profesional y de personas de confianza ayuda a no quedar sola.",
+   "como": "Los organismos de salud y la bibliografía clínica sobre violencia de pareja describen el control, el aislamiento y la humillación como formas de violencia, que muchas veces anteceden o acompañan otras. La responsabilidad es de quien ejerce la violencia.",
+   "debate": "Se discute cómo nombrar y medir estas situaciones, y cuánto pesan los factores sociales y culturales frente a los individuales."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

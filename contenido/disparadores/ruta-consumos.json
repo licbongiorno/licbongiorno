@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un viernes, después de una semana pesada, te servís una copa para relajarte. Hace un tiempo que esa copa aparece casi todos los días.",
+   "p": "¿Qué es lo más útil para saber si un consumo se volvió un problema?",
+   "opciones": [
+    "Si lo hacés a escondidas o no.",
+    "Mirar con qué frecuencia, cuánta cantidad y qué consecuencias tiene, por ejemplo con una escala validada.",
+    "Compararte con lo que toman tus amigos."
+   ],
+   "r": "Para evaluar un consumo sirve mirar frecuencia, cantidad, pérdida de control y consecuencias en la vida diaria. Herramientas como el AUDIT de la OMS ordenan esas preguntas y dan una orientación, no un diagnóstico.",
+   "como": "Se sabe por el AUDIT, un cuestionario desarrollado por la Organización Mundial de la Salud y usado en todo el mundo para detectar consumo de riesgo.",
+   "debate": "Se discute cuál es el mejor camino según la persona: reducir el consumo o suspenderlo por completo."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

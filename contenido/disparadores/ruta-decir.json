@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Un compañero te deja siempre lo último del trabajo. Te molesta, pero decís que sí. Hoy lo hizo de nuevo y sentís que te quedás sin voz.",
+   "p": "¿Qué suele ayudar más en una situación así?",
+   "opciones": [
+    "Aguantar para no generar conflicto, que se le va a pasar.",
+    "Contestarle fuerte para que aprenda de una vez.",
+    "Decirle con claridad y respeto qué pasó, cómo te afecta y qué necesitás."
+   ],
+   "r": "Callarse acumula bronca y atacar rompe el vínculo. La asertividad propone un camino intermedio: expresar lo propio con claridad y respeto por el otro. No garantiza que acepte, pero te deja en mejor lugar y abre la conversación.",
+   "como": "Se sabe por el entrenamiento asertivo y por modelos como la comunicación no violenta de Marshall Rosenberg y la efectividad interpersonal de la DBT, que enseñan a describir, expresar y pedir de manera concreta.",
+   "debate": "Se discute cuánto de la asertividad depende de la cultura y el contexto, y en qué situaciones de poder desigual conviene adaptar el estilo."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

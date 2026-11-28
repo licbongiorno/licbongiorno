@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te invitan a una reunión. Pensás en ir, pero antes de salir imaginás todo lo que podrías decir mal y terminás inventando una excusa.",
+   "p": "¿Qué suele pasar con el miedo social cuando evitás las situaciones que lo despiertan?",
+   "opciones": [
+    "Se apaga, porque dejás de exponerte.",
+    "Alivia hoy y tiende a crecer, porque no comprobás que podías sostener la situación.",
+    "No cambia nada, el miedo es fijo."
+   ],
+   "r": "Evitar baja la ansiedad en el momento, pero le quita a la persona la oportunidad de ver que lo temido no ocurre o que se puede tolerar. Con el tiempo el miedo se agranda y el mundo se achica. La exposición gradual hace el camino inverso.",
+   "como": "Se sabe por la investigación sobre el trastorno de ansiedad social, donde la terapia cognitivo-conductual con exposición gradual es uno de los tratamientos con mejor respaldo.",
+   "debate": "Se discute dónde termina la timidez como rasgo de personalidad y dónde empieza un trastorno que necesita tratamiento."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

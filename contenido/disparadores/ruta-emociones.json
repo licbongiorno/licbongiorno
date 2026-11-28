@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En una reunión contestás cortante y a los diez minutos no sabés qué sentías: ¿enojo, vergüenza, cansancio?",
+   "p": "¿Qué ayuda más a regular una emoción intensa?",
+   "opciones": [
+    "Reprimirla hasta que pase.",
+    "Ponerle nombre con la mayor precisión posible.",
+    "Distraerte y no pensar en eso."
+   ],
+   "r": "Ponerle nombre a lo que sentís suele bajar su intensidad: pasás de ser arrastrado por la emoción a mirarla. Reprimir o distraerte sirve un rato, pero la emoción suele volver más fuerte.",
+   "como": "Estudios de imágenes cerebrales muestran que etiquetar una emoción con palabras reduce la activación de las áreas ligadas a la alarma emocional. Las terapias que enseñan a identificar y nombrar emociones, como la DBT, lo usan de manera central.",
+   "debate": "Se discute si hay emociones básicas universales, como propuso Paul Ekman, o si el cerebro las construye según el contexto y la cultura, como sostiene Lisa Feldman Barrett."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

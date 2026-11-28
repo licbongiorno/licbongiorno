@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te jubilaste hace tres meses. Soñabas con este momento, pero te encontrás despierto temprano, sin saber qué hacer con el día, y algo se siente raro.",
+   "p": "¿Cómo se entiende lo que te pasa?",
+   "opciones": [
+    "Es ingratitud: pasaste años deseando este descanso.",
+    "Es frecuente: se perdieron rutinas y un rol, y hay que reconstruir sentido.",
+    "Es señal de que no deberías haberte jubilado."
+   ],
+   "r": "Soñar con la jubilación y sentirse perdido después pueden convivir. El trabajo da estructura, vínculos y un lugar en el mundo; cuando termina, hace falta rearmar rutinas, proyectos y pertenencia, y eso lleva tiempo.",
+   "como": "La psicología del envejecimiento viene mostrando que la jubilación suele implicar un proceso de adaptación, y que mantener actividades con sentido y vínculos sociales se asocia con mejor bienestar en esta etapa.",
+   "debate": "Se discute si conviene retirarse del todo o hacerlo de forma gradual, y cómo influyen la salud, la economía y la cultura en la experiencia."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}
