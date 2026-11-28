@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Te piden resumir cómo le va a un país. Podés elegir un solo número para darle a alguien que nunca lo visitó.",
+   "p": "¿Cuál contaría mejor cómo vive la gente?",
+   "opciones": ["Lo que produce y gana el país en total", "Cuánta gente dice estar contenta con su vida", "Un conjunto de varias dimensiones: salud, tiempo libre, comunidad, ambiente y también cómo se siente la gente"],
+   "r": "Bután propuso mirar varias dimensiones a la vez. Su índice de felicidad nacional bruta reúne nueve dominios, entre ellos salud, educación, uso del tiempo, buen gobierno, vitalidad comunitaria, diversidad ecológica, nivel de vida y bienestar psicológico. Este último es solo uno de los nueve.",
+   "como": "El Centre for Bhutan Studies armó el índice con encuestas a hogares (2008, 2010 y 2015) y umbrales de suficiencia para cada indicador. La idea de fondo se atribuye al cuarto rey, Jigme Singye Wangchuck, desde los años setenta, y en 2011 la ONU invitó a los países a medir la felicidad y el bienestar.",
+   "debate": "Se discute si un índice así dice algo sobre la vida de cada persona, y los críticos recuerdan lo que quedó afuera de la imagen de «país feliz»: la situación de los lhotshampa, el desempleo juvenil y los pocos recursos de salud mental.",
+   "seccion": "Del lema al índice: los nueve dominios"
+  },
+  {
+   "enigma": "Un día de mucho calor, alguien te pregunta en una encuesta del 1 al 10 cuán satisfecho estás con tu vida. Contestás 7, y una semana después, en otro día y con otro ánimo, contestarías otra cosa.",
+   "p": "¿Qué limita más a una encuesta sobre felicidad?",
+   "opciones": ["Que la gente miente siempre para quedar bien", "Que la respuesta depende de cómo, cuándo y a quién se pregunta, y de lo que cada cultura considera decible", "Que la felicidad es algo tan subjetivo que no se puede estudiar"],
+   "r": "La psicología del bienestar puede medir satisfacción con la vida y emociones mediante autoinforme, y eso sirve para comparar grupos y detectar desigualdades. Pero el resultado está influido por el momento, la formulación de la pregunta, la cultura y la adaptación a condiciones difíciles.",
+   "como": "Ed Diener estudió el bienestar subjetivo desde los años ochenta y Carol Ryff propuso en 1989 un modelo más amplio, con propósito, autonomía y vínculos. Con esas escalas se hicieron estudios en muchos países, y con ellos aparecieron los debates sobre cómo comparar respuestas entre culturas.",
+   "debate": "Un caso muy discutido es el dinero: Kahneman y Deaton publicaron en 2010 que el bienestar emocional dejaba de aumentar pasado cierto ingreso, y un trabajo de 2023 de Killingsworth, Kahneman y Mellers concluyó que para la mayoría sigue aumentando. Un puntaje alto, además, no prueba por sí solo que no haya problemas.",
+   "seccion": "Qué no puede medir"
+  }
+ ],
+ "abierta": "Si la felicidad se define desde el Estado, ¿quién decide qué cuenta como vivir bien y qué malestares quedan sin lugar en las estadísticas? Es una pregunta que todavía se discute."
+}
