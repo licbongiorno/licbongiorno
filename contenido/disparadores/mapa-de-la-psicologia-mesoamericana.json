@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En cursos y redes se repite que «los mayas y los aztecas tenían una psicología muy avanzada». Casi nunca se dice de dónde sale.",
+   "p": "¿De dónde proviene lo que sabemos hoy de las ideas nahuas sobre la persona?",
+   "opciones": [
+    "De tratados de psicología escritos por los propios nahuas antes de la conquista",
+    "Sobre todo de textos coloniales, como el Códice Florentino de Sahagún, leídos por historiadores",
+    "De experimentos con comunidades actuales"
+   ],
+   "r": "Casi todo viene de textos escritos después de la conquista, sobre todo el Códice Florentino que fray Bernardino de Sahagún compiló en el siglo XVI con informantes nahuas. No hay un tratado nahua de psicología: hay vocabulario, rituales y discursos que los especialistas ordenan.",
+   "como": "Alfredo López Austin reconstruyó en 1980, en Cuerpo humano e ideología, un esquema de tres entidades anímicas a partir de esas fuentes. Es una lectura de un historiador, con decisiones propias.",
+   "debate": "Otros especialistas matizan algunos puntos, y traducir esas entidades como «mente, emoción e instinto» proyecta categorías modernas. Qué es fuente y qué es interpretación sigue en discusión.",
+   "seccion": "Un criterio para ordenar"
+  },
+  {
+   "enigma": "En muchas comunidades de México, cuando alguien queda sin fuerzas ni ganas después de un gran sobresalto, la familia dice que «se asustó» y que algo de la persona quedó atrás.",
+   "p": "¿Qué relación hay entre esa idea y el pasado nahua?",
+   "opciones": [
+    "Es exactamente la misma creencia, sin cambios en cinco siglos",
+    "No tiene ninguna relación",
+    "Hay una continuidad plausible con la pérdida del tonalli, pero no se puede probar una línea directa"
+   ],
+   "r": "Varios autores, entre ellos López Austin, vieron en el susto una continuidad con la antigua idea de que el tonalli podía separarse del cuerpo. Es una hipótesis razonable, con apoyo en el parecido de las ideas y en la etnografía.",
+   "como": "Se apoya en la comparación de fuentes coloniales con estudios de comunidades actuales, y en el estudio clásico del susto de Rubel, O'Nell y Collado-Ardón (1984).",
+   "debate": "Cinco siglos de cristianización y mestizaje hacen que el susto actual sea una mezcla, y también se describe en los Andes, entre pueblos muy distintos.",
+   "seccion": "El susto"
+  }
+ ],
+ "abierta": "Si una idea sobre el sufrimiento sobrevive cinco siglos, cambiando de nombre y de forma, ¿qué es lo que sigue siendo la misma idea? Los especialistas todavía lo discuten."
+}

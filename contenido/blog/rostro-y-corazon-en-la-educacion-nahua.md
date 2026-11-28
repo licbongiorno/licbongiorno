@@ -13,7 +13,7 @@ respuesta: Los huehuetlahtolli («palabras de los viejos») son discursos nahuas
 menciona:
 revision: 2026-11-28
 ---
-«Hija mía, palomita, ya estás en el mundo…». Así, con diminutivos tiernos y consejos largos, empiezan algunos discursos que los nahuas del centro de México decían a sus hijos hace más de cinco siglos. No son poemas ni leyes: son palabras dichas de una generación a otra para que alguien aprenda a ser persona. Se las llama *huehuetlahtolli*, y hoy son una de las puertas más ricas, y más delicadas, para asomarse a cómo se pensaba la formación humana en el mundo nahua.
+«Hijo mío, mi collar, mi plumaje precioso…». Así, con imágenes de piedras finas y plumas, se dirigen a los jóvenes varios de los discursos que los nahuas del centro de México decían a sus hijos hace más de cinco siglos, según los textos que se conservaron. No son poemas ni leyes: son palabras dichas de una generación a otra para que alguien aprenda a ser persona. Se las llama *huehuetlahtolli*, y hoy son una de las puertas más ricas, y más delicadas, para asomarse a cómo se pensaba la formación humana en el mundo nahua.
 
 Este texto forma parte de la serie sobre la psicología mesoamericana. Podés ubicarlo en [el mapa de la psicología mesoamericana](/recursos/mapa-de-la-psicologia-mesoamericana/) y consultar los términos en el [glosario de psicología mesoamericana](/glosario-de-psicologia-mesoamericana/).
 

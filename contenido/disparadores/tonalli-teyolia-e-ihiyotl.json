@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace cinco siglos, si les hubieras preguntado a los nahuas del centro de México dónde está el alma, la pregunta habría quedado corta.",
+   "p": "Según la reconstrucción del historiador López Austin, ¿cómo concebían a la persona?",
+   "opciones": [
+    "Con un alma única e inmortal, igual que en Europa",
+    "Con varias entidades anímicas repartidas por el cuerpo, con funciones y destinos distintos",
+    "Sin ninguna idea de algo que animara al cuerpo"
+   ],
+   "r": "López Austin propuso tres entidades principales: el tonalli, ligado a la cabeza, el calor y el destino; el teyolia, ligado al corazón y a la vida; y el ihiyotl, ligado al hígado, el aliento y las pasiones.",
+   "como": "Lo hizo en Cuerpo humano e ideología (1980), leyendo el Códice Florentino de Sahagún y otras fuentes coloniales, junto con la lengua náhuatl y los rituales descritos.",
+   "debate": "Es una reconstrucción de un historiador, no un tratado nahua. Hay matices entre especialistas, sobre todo con el ihiyotl, y no conviene traducir las entidades como «mente, emoción e instinto».",
+   "seccion": "Por qué «entidades anímicas» y no «almas»"
+  },
+  {
+   "enigma": "En muchas comunidades de México, después de un gran sobresalto, la persona queda sin apetito, sin sueño y sin ganas. Se dice que se asustó y que algo suyo quedó atrás.",
+   "p": "¿Qué parte de la persona nahua antigua podía separarse del cuerpo por un sobresalto?",
+   "opciones": [
+    "El teyolia, ligado al corazón",
+    "El tonalli, ligado a la cabeza y al calor",
+    "El ihiyotl, ligado al hígado"
+   ],
+   "r": "Según López Austin, el tonalli. Se pensaba que un sobresalto, un sueño o ciertas situaciones podían desprenderlo, y la persona quedaba debilitada y expuesta. Los niños pequeños lo tenían poco asentado.",
+   "como": "Surge de las fuentes coloniales y de la etnografía de comunidades actuales, que describen el susto con ideas parecidas. El estudio clásico es el de Rubel, O'Nell y Collado-Ardón (1984).",
+   "debate": "La continuidad con el susto actual es una hipótesis razonable pero no una línea probada: cinco siglos de cristianización y mestizaje separan ambas ideas, y cada comunidad tiene su variante.",
+   "seccion": "La pérdida del tonalli y el susto"
+  }
+ ],
+ "abierta": "Si el tonalli se asociaba con el calor, el destino y el día de nacimiento, ¿qué lugar le damos hoy a lo que no elegimos de nuestra propia vida? Es una pregunta que cada cultura responde distinto."
+}

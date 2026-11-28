@@ -34,7 +34,7 @@ Es una lectura influyente y también una propuesta: no hay un tratado nahua que 
 
 ## Rostro y corazón
 
-Otra expresión de las fuentes nahuas es **ixtli yollotl**, «rostro y corazón», que se usa en textos sobre educación y sobre la formación de la persona. La difundió el filósofo mexicano Miguel León-Portilla en *La filosofía náhuatl estudiada en sus fuentes* (1956), que ha sido discutida por la propia crítica por leer el pensamiento nahua con categorías de la filosofía occidental. Qué dicen los textos y qué se les ha agregado se trata en [rostro y corazón en la educación nahua](/recursos/rostro-y-corazon-en-la-educacion-nahua/).
+Otra expresión de las fuentes nahuas es **ixtli yollotl**, «rostro y corazón», que se usa en textos sobre educación y sobre la formación de la persona. La difundió el filósofo mexicano Miguel León-Portilla en *La filosofía náhuatl estudiada en sus fuentes* (1956), una obra muy influyente que la crítica posterior discutió por leer el pensamiento nahua con categorías de la filosofía occidental. Qué dicen los textos y qué se les ha agregado se trata en [rostro y corazón en la educación nahua](/recursos/rostro-y-corazon-en-la-educacion-nahua/).
 
 ## Los mayas
 
