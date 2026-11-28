@@ -451,6 +451,28 @@
    ]
   },
   {
+   "anio": 1577,
+   "fecha": "1577",
+   "titulo": "El Códice Florentino",
+   "texto": "Bernardino de Sahagún y sus colaboradores nahuas completan la obra que conserva los huehuetlahtolli y las ideas nahuas sobre el cuerpo, el alma y la formación de la persona.",
+   "era": "modernidad",
+   "region": "america",
+   "enlaces": [
+    {
+     "t": "Rostro y corazón en la educación nahua",
+     "u": "/recursos/rostro-y-corazon-en-la-educacion-nahua/"
+    },
+    {
+     "t": "Tonalli, teyolia e ihiyotl",
+     "u": "/recursos/tonalli-teyolia-e-ihiyotl/"
+    },
+    {
+     "t": "Mapa de la psicología mesoamericana",
+     "u": "/recursos/mapa-de-la-psicologia-mesoamericana/"
+    }
+   ]
+  },
+  {
    "anio": 1641,
    "fecha": "1641",
    "titulo": "Descartes y la separación entre mente y cuerpo",
