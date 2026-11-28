@@ -1,0 +1,31 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En un papiro egipcio de hace unos 3.200 años, un hombre llamado Ani ve cómo su corazón se pone sobre una balanza, contra una pluma. Un dios anota el resultado y una criatura espera.",
+   "p": "¿Qué creés que se está midiendo?",
+   "opciones": [
+    "Cuánto pesaba el órgano del difunto, como un diagnóstico",
+    "Si su vida estuvo a la altura del orden y la verdad (Maat)",
+    "La inteligencia que tuvo en vida"
+   ],
+   "r": "Según el Libro de los Muertos, se medía si el corazón, sede del pensamiento y la voluntad, estaba a la altura de Maat, el orden y la verdad. Es una imagen religiosa del juicio moral, no un examen psicológico.",
+   "como": "Se sabe por papiros funerarios como el de Ani, hoy en el Museo Británico, y por el conjuro 125 del Libro de los Muertos. Los egiptólogos reconstruyen su sentido comparando muchos papiros y tumbas.",
+   "debate": "Se discute cuánto de esa escena era creencia vivida y cuánto fórmula ritual. Y se discute si es válido leerla como una idea de conciencia moral: esa lectura es moderna.",
+   "seccion": "La persona y sus componentes"
+  },
+  {
+   "enigma": "Circulan muchas páginas que prometen «terapias egipcias» basadas en el ka y el ba, como si fueran niveles de la conciencia.",
+   "p": "¿Qué le preguntarías primero a una afirmación así?",
+   "opciones": [
+    "Si tiene muchos seguidores",
+    "De qué papiro o inscripción sale",
+    "Si suena profunda"
+   ],
+   "r": "La pregunta útil es de qué fuente sale. Los textos funerarios hablan de componentes de la persona, pero no describen técnicas terapéuticas ni niveles de conciencia: esa traducción es moderna.",
+   "como": "Los egiptólogos trabajan con documentos concretos: Textos de las Pirámides, Libro de los Muertos, textos de sabiduría, papiros médicos. Cada idea se rastrea hasta su texto y su época.",
+   "debate": "Parte de lo que se vende como egipcio, como el hermetismo, se formó en el Egipto grecorromano, mucho después del Egipto faraónico. Y se discute cuánto se puede traducir cualquier concepto antiguo a categorías actuales.",
+   "seccion": "La ilusión del «Egipto esotérico»"
+  }
+ ],
+ "abierta": "¿Qué cambia cuando una idea sobre la persona se lee desde afuera de su cultura? Es una pregunta que sigue abierta entre quienes estudian estas fuentes."
+}

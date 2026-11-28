@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Cuando los egipcios momificaban a una persona, sacaban con cuidado ciertos órganos, y uno de ellos se descartaba. El que dejaban en su lugar era el que, según ellos, guardaba el pensamiento, la memoria y el sentir.",
+   "p": "¿Qué órgano creés que conservaban en el cuerpo?",
+   "opciones": ["El cerebro, porque era la sede del pensamiento", "El corazón, porque era la sede de pensar, sentir y querer", "El hígado, porque se lo asociaba a la vitalidad"],
+   "r": "Conservaban el corazón, el *ib*, que para ellos reunía lo que hoy separamos en pensar, sentir y querer. El cerebro, en general, se extraía por la nariz y se desechaba. Eso no impidió que los médicos lo describieran con atención al tratar heridas.",
+   "como": "Lo sabemos por textos médicos y funerarios y por el estudio arqueológico de momias. El papiro Edwin Smith, traducido por James Henry Breasted en 1930, contiene la primera descripción escrita conocida del cerebro y sus membranas.",
+   "debate": "Traducir *ib* siempre como «corazón» o «mente» deforma su sentido, porque era más concreto y más amplio a la vez. Y que el Edwin Smith describa efectos de lesiones no quiere decir que contenga una teoría de las emociones o del pensamiento.",
+   "seccion": "El corazón y el *ib*"
+  },
+  {
+   "enigma": "En un papiro médico de hace más de tres mil años aparecen descritos males en los que el corazón se oprime o el ánimo decae. Al leerlo, uno tiene ganas de decir enseguida qué cuadro moderno es.",
+   "p": "¿Qué creés que conviene hacer con esa tentación?",
+   "opciones": ["Ponerles el nombre del diagnóstico actual más parecido", "Descartarlos porque en esa época no sabían nada", "Describir qué registraron y reconocer que no equivale a un diagnóstico moderno"],
+   "r": "Lo prudente es decir que los egipcios registraron males con compromiso del corazón y del ánimo, y los trataron con remedios y conjuros. Otra idea del cuerpo y una descripción breve en lengua antigua no alcanzan para afirmar que se trate de depresión, ansiedad u otro cuadro actual.",
+   "como": "Los papiros Edwin Smith y Ebers se conocen desde el siglo XIX, cuando fueron adquiridos y luego traducidos. Los especialistas comparan traducciones y contextos, y las lecturas del papiro Ebers sobre estos males difieren bastante entre sí.",
+   "debate": "La idea de la «histeria» como útero errante se suele proyectar a Egipto a partir del papiro Kahun, pero pertenece sobre todo a la tradición griega posterior. Que se la lea hacia atrás es una interpretación discutida. Estos textos son documentos históricos, no guías clínicas.",
+   "seccion": "El papiro Ebers: remedios, vasos y ánimo"
+  }
+ ],
+ "abierta": "Si los egipcios mezclaban remedios, cirugía y conjuros en un mismo oficio, ¿cómo distinguimos hoy lo que realmente ayudaba de lo que acompañaba? Con fuentes tan antiguas, todavía es difícil saberlo."
+}

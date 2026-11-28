@@ -125,6 +125,12 @@
    "mapa": "/recursos/donde-nacio-la-psicologia/",
    "glosario": "/glosario-de-la-psicologia-occidental/",
    "desc": "De Leipzig a Viena, Zúrich, Londres y Estados Unidos: los países de origen de la psicología occidental."
+  },
+  "egipcia": {
+   "nombre": "Psicología del antiguo Egipto",
+   "mapa": "/recursos/mapa-de-la-psicologia-del-antiguo-egipto/",
+   "glosario": "/glosario-de-psicologia-del-antiguo-egipto/",
+   "desc": "Ka, ba y corazón, maat, papiros médicos y sueños."
   }
  },
  "paises": {
@@ -299,6 +305,7 @@
   "Egypt": [
    "Egipto",
    [
+    "egipcia",
     "islamica",
     "sufi",
     "judia"
