@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace más de tres mil años, un funcionario egipcio le escribió consejos a su hijo para que no hiciera lo que hacemos todos: contestar enseguida cuando alguien lo enciende. Uno de esos textos compara a dos personas con dos árboles.",
+   "p": "¿Cuál creés que era el árbol que, según el texto, se secaba pronto?",
+   "opciones": ["El de quien habla poco y se queda callado", "El de quien se enciende y estalla enseguida", "El de quien sabe mucho y lo muestra"],
+   "r": "En la enseñanza de Amenemope, el «acalorado» es como un árbol a la intemperie que pierde pronto su follaje, y el «silencioso» como un árbol en un jardín que da fruto. El texto presenta el autocontrol como virtud ligada al orden justo del mundo, maat. No describe un método para regular emociones.",
+   "como": "Se sabe por papiros que han sobrevivido, como el del Museo Británico para Amenemope y el papiro Prisse, en París, para Ptahhotep. Los egiptólogos los traducen y comparan, y estudian su lenguaje y su época. Son textos escritos por y para funcionarios.",
+   "debate": "No sabemos cómo vivía el enojo la gente común, y el texto refleja un ideal más que una práctica. Tampoco es seguro cuánto de cada enseñanza pertenece al autor al que se atribuye. Leerlos como «educación emocional» moderna es un salto que los especialistas desaconsejan.",
+   "seccion": "El silencioso y el acalorado"
+  },
+  {
+   "enigma": "En imágenes muy conocidas del Antiguo Egipto, el corazón de una persona se pone en una balanza, y en el otro platillo hay una pluma liviana. Parecería que lo más pesado es lo que se hizo mal.",
+   "p": "¿Qué creés que representaba la pluma?",
+   "opciones": ["La ligereza de una conciencia tranquila", "El orden justo del mundo, con verdad, justicia y equilibrio", "El alma ya liberada del cuerpo"],
+   "r": "La pluma es el símbolo de maat, que reunía el orden del cosmos, la verdad, la justicia y el equilibrio. Era a la vez un principio y una diosa. Cada persona lo sostenía o lo debilitaba con su conducta, y su contrario era el desorden, isfet.",
+   "como": "La escena aparece en textos funerarios del Reino Nuevo, como el capítulo 125 del llamado Libro de los Muertos, y en pinturas de tumbas y papiros. Los egiptólogos los leen junto con inscripciones y enseñanzas sapienciales para reconstruir la noción de maat.",
+   "debate": "Es una imagen religiosa sobre el más allá, no una teoría de la mente. Maat cambió a lo largo de más de tres mil años de historia, y no conviene identificarla con las versiones «egipcias» de la espiritualidad actual, que suelen ser reinterpretaciones libres.",
+   "seccion": "El corazón frente a la pluma"
+  }
+ ],
+ "abierta": "Si en una cultura antigua el autocontrol era parte de la justicia y no solo de la salud personal, ¿qué perdemos cuando hablamos del enojo solo como asunto individual? Los especialistas todavía discuten cuánto de esos ideales se vivía en la práctica."
+}
