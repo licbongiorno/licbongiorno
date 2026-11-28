@@ -1,0 +1,24 @@
+{
+ "autor": "Dąbrowski",
+ "preguntas": [
+  {
+   "enigma": "Pasás por una época en la que todo lo que antes te servía te queda incómodo: el trabajo, ciertas amistades, lo que creías de vos.",
+   "p": "¿Cómo se puede leer ese desarme?",
+   "opciones": ["Siempre es una señal de que algo anda mal en vos", "Puede ser una reorganización en marcha, aunque no siempre lo sea", "Es una etapa que pasa sola y no hay nada que mirar"],
+   "r": "Para Dąbrowski, ciertas crisis desarman una organización previa de la personalidad y pueden dar lugar a otra más consciente. Es la desintegración positiva. También describió la negativa, que no lleva a ese resultado.",
+   "como": "Lo formuló como psiquiatra y psicólogo en Polonia, a partir de décadas de trabajo clínico, y lo difundió en inglés desde la década de 1960 con obras como Positive Disintegration (1964).",
+   "debate": "La teoría se apoya sobre todo en observación clínica y tiene poca verificación empírica. Además, puede leerse mal como si toda angustia fuera crecimiento, y desde afuera cuesta distinguir una crisis que enseña de una que solo lastima.",
+   "seccion": "Las ideas centrales"
+  },
+  {
+   "enigma": "Un niño o un adulto siente todo muy fuerte: los ruidos, las ideas, las injusticias, las imágenes que se le vienen a la cabeza.",
+   "p": "¿Cómo lo describiría esta teoría?",
+   "opciones": ["Como una exageración que hay que corregir", "Como distintas formas de sobreexcitabilidad, parte de un potencial de desarrollo", "Como prueba segura de altas capacidades"],
+   "r": "Dąbrowski describió cinco sobreexcitabilidades: psicomotora, sensual, intelectual, imaginativa y emocional. Las consideró parte del potencial de desarrollo, que depende también del entorno y los apoyos.",
+   "como": "Su teoría fue retomada en el campo de las altas capacidades por autores como Michael Piechowski y Linda Silverman, para entender la intensidad emocional e intelectual de personas con alto potencial.",
+   "debate": "Los cuestionarios para medir las sobreexcitabilidades fueron objetados por razones metodológicas. Y ser intenso o sensible no alcanza para hablar de altas capacidades.",
+   "seccion": "Las ideas centrales"
+  }
+ ],
+ "abierta": "Cuando una crisis te movió algo, ¿te sirvió mirarla como parte de un cambio, o esa lectura te hubiera sonado a que minimizaban tu dolor?"
+}

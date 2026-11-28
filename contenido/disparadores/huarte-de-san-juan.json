@@ -1,0 +1,24 @@
+{
+ "autor": "Huarte",
+ "preguntas": [
+  {
+   "enigma": "Dos primos crecen en la misma casa y con los mismos estudios. Uno devora números sin esfuerzo, y el otro se las arregla mejor con las palabras y los dibujos.",
+   "p": "¿Cómo se explica que cada uno tenga facilidad para cosas distintas?",
+   "opciones": ["Es solo una cuestión de haber practicado más", "Cada persona tiene aptitudes naturales distintas y conviene tenerlas en cuenta", "Todos podemos igual para todo, si nos esforzamos lo suficiente"],
+   "r": "Huarte sostuvo que la naturaleza no reparte las capacidades por igual y que cada persona tiene facilidad para cierto tipo de saber. Por eso proponía elegir la ocupación según la aptitud propia.",
+   "como": "Lo escribió en el Examen de ingenios para las ciencias, publicado en 1575. Para explicarlo recurrió a la teoría de los humores, la medicina de su tiempo.",
+   "debate": "La explicación humoral no tiene respaldo hoy. Se discute además cuánto pesan lo heredado, la experiencia y el entorno, y el planteo de Huarte se inclina hacia lo dado de nacimiento.",
+   "seccion": "Las ideas centrales"
+  },
+  {
+   "enigma": "A los diecisiete te piden que elijas una carrera, y a tu alrededor todos opinan según lo que a ellos les sirvió.",
+   "p": "¿Qué conviene mirar antes de decidir?",
+   "opciones": ["Lo que hace la mayoría o lo que la familia espera", "Para qué tenés facilidad y qué te absorbe de verdad", "Lo que promete ganar más, sin importar lo demás"],
+   "r": "Huarte pensaba que forzar una vocación ajena produce sufrimiento y mal trabajo. Su libro apuntaba a ayudar a decidir qué estudiar según la disposición natural de cada uno.",
+   "como": "Llegó a sugerir que se examinara a los jóvenes antes de asignarles una carrera. Por esa idea se lo considera un antecedente de la orientación vocacional.",
+   "debate": "La orientación actual se apoya en tests, intereses y contexto, y no en el temperamento. Y un planteo demasiado fijo de las aptitudes deja poco lugar al aprendizaje y al cambio.",
+   "seccion": "Qué aporta hoy"
+  }
+ ],
+ "abierta": "¿Las aptitudes vienen dadas de nacimiento o se construyen con la experiencia, o hay una mezcla de las dos cosas?"
+}

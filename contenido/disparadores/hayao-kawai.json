@@ -1,0 +1,24 @@
+{
+ "autor": "Kawai",
+ "preguntas": [
+  {
+   "enigma": "Armás una escena con figuritas en una caja con arena, sin que nadie te pida que expliques nada, y al terminar algo en vos se acomoda.",
+   "p": "¿Por qué una imagen armada con las manos puede decir lo que las palabras no alcanzan?",
+   "opciones": ["Porque jugar siempre relaja y nada más", "Porque la imagen expresa algo que todavía no tiene palabras", "Porque el terapeuta interpreta cada figura por vos"],
+   "r": "En la terapia de caja de arena la persona construye una escena y el terapeuta acompaña sin forzar la explicación. La idea es que la imagen dice algo que todavía no encontró su palabra, y que el proceso puede empezar por ahí.",
+   "como": "Kawai conoció el método en Zúrich, a partir del trabajo de Dora Kalff, y lo llevó a Japón en 1965, donde se lo llamó hakoniwa, «jardín en una caja».",
+   "debate": "Es un método muy valorado por terapeutas, pero la investigación con controles rigurosos es limitada, por lo que suele usarse como complemento y no como tratamiento aislado.",
+   "seccion": "Sus ideas centrales"
+  },
+  {
+   "enigma": "En un cuento que te contaban de chico, la mujer misteriosa se va al final y no hay boda ni triunfo, solo una tristeza hermosa.",
+   "p": "¿Qué dice un final así sobre cómo se vive el vínculo con lo que se pierde?",
+   "opciones": ["Que el cuento está incompleto o mal contado", "Que hay culturas que valoran aceptar lo que se va, más que conquistar", "Que todas las culturas cuentan los finales igual"],
+   "r": "Kawai observó que muchos relatos japoneses no cierran con el héroe que vence y se casa, como el cuento europeo típico, sino con una pérdida. Leyó ahí otra relación entre el yo y lo que lo rodea, con más aceptación que conquista.",
+   "como": "Estudió los cuentos y los mitos japoneses con herramientas junguianas, y lo publicó en un libro que circula en inglés como The Japanese Psyche (1988).",
+   "debate": "Su lectura se apoya en pocos relatos y habla de «los japoneses» como un bloque, cuando la cultura japonesa es diversa y cambió mucho con la historia. Es una hipótesis para pensar, no un dato comprobado.",
+   "seccion": "Sus ideas centrales"
+  }
+ ],
+ "abierta": "¿Una teoría psicológica nacida en un lugar sirve igual en cualquier otro, o cada cultura necesita pensar su propia psique con sus propias imágenes?"
+}

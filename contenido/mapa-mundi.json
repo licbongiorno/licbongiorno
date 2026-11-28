@@ -1783,6 +1783,10 @@
    [
     "maimonides-y-la-medicina-del-alma",
     "Maimónides"
+   ],
+   [
+    "huarte-de-san-juan",
+    "Juan Huarte de San Juan"
    ]
   ],
   "Egypt": [
@@ -1825,6 +1829,10 @@
    [
     "girindrasekhar-bose",
     "Girindrasekhar Bose"
+   ],
+   [
+    "sri-aurobindo",
+    "Sri Aurobindo"
    ]
   ],
   "China": [
@@ -1875,6 +1883,18 @@
    [
     "joik-y-la-resiliencia-sami",
     "El joik sami"
+   ]
+  ],
+  "Japan": [
+   [
+    "hayao-kawai",
+    "Hayao Kawai"
+   ]
+  ],
+  "Poland": [
+   [
+    "kazimierz-dabrowski",
+    "Kazimierz Dąbrowski"
    ]
   ]
  }
