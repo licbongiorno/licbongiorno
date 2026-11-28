@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Murió alguien muy querido. Tus amigos te dicen que el duelo tiene cinco etapas y que, si las vas pasando en orden, vas a estar bien.",
+   "p": "¿Cómo se vive en general un duelo?",
+   "opciones": [
+    "En etapas fijas, una después de la otra, hasta la aceptación.",
+    "Con idas y vueltas entre el dolor y la vida cotidiana, a ritmos distintos para cada persona.",
+    "Se supera rápido si uno se mantiene ocupado y no piensa en eso."
+   ],
+   "r": "El duelo no suele seguir etapas fijas. Lo más habitual es ir y venir entre el dolor por lo perdido y la vida que sigue: días de pena, momentos de alivio, recuerdos que vuelven. Cada persona tiene su ritmo, y el vínculo con quien murió no se corta sino que se transforma.",
+   "como": "Las etapas que se popularizaron venían de la observación de personas que iban a morir, no de deudos. Investigaciones posteriores con personas en duelo mostraron trayectorias muy variadas y propusieron modelos de oscilación entre la pérdida y la reconstrucción.",
+   "debate": "Se discute cuándo un duelo se vuelve prolongado y necesita ayuda, y cuánto cambia la forma de hacer duelo según la cultura."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

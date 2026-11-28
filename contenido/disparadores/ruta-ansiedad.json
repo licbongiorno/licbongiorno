@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Tenés una reunión importante mañana. Esta noche te cuesta dormir, el corazón late rápido y repasás una y otra vez todo lo que podría salir mal.",
+   "p": "¿Para qué creés que sirve la ansiedad?",
+   "opciones": [
+    "Para nada: es una falla del cuerpo que habría que eliminar.",
+    "Es una alarma que prepara para un peligro, aunque a veces se activa de más.",
+    "Es una señal de debilidad o de falta de carácter."
+   ],
+   "r": "La ansiedad es una respuesta de alarma que prepara al cuerpo para enfrentar una amenaza: acelera el corazón, tensa los músculos y pone la atención en lo que puede fallar. En dosis moderadas ayuda a rendir. El problema aparece cuando la alarma suena demasiado seguido, demasiado fuerte o frente a peligros que no están.",
+   "como": "Se sabe por la fisiología del estrés, que describe la respuesta de lucha o huida, y por décadas de investigación clínica: los tratamientos que enseñan a no huir de lo temido y a mirar los pensamientos de otra manera reducen la ansiedad de forma sostenida.",
+   "debate": "Se discute dónde termina la ansiedad normal y dónde empieza el trastorno, y cuánto pesan la biología, la historia personal y el contexto."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

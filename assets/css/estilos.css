@@ -1508,3 +1508,9 @@ a.lab-filtro { display: inline-flex; align-items: center; text-decoration: none;
 .disparador__tuya { display: block; color: var(--tinta-suave); }
 .disparador__abierta { margin: 1rem 0 0 !important; padding-top: .9rem; border-top: 1px solid var(--linea); font-size: var(--t-sm); }
 .disparador__tuya[hidden] { display: none; }
+
+/* Rutas de aprendizaje */
+.ruta-progreso { height: .5rem; border-radius: 99px; background: var(--salvia-bruma); overflow: hidden; margin: .5rem 0 .4rem; }
+.ruta-progreso span { display: block; height: 100%; width: 0; background: var(--salvia-profunda); border-radius: 99px; transition: width .4s ease; }
+@media (prefers-reduced-motion: reduce) { .ruta-progreso span { transition: none; } }
+.ruta__paso--fijo { background: transparent; border-style: dashed; }

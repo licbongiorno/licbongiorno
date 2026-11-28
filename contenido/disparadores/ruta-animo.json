@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace semanas que nada te dan ganas. Te decís que cuando te sientas mejor vas a volver a salir, a llamar a tus amigos y a hacer lo que te gustaba.",
+   "p": "¿Qué suele venir primero, las ganas o la acción?",
+   "opciones": [
+    "Las ganas: hay que esperar a sentirse mejor para hacer cosas.",
+    "La acción: hacer algo chico suele traer de a poco el ánimo.",
+    "Ninguna: el ánimo cambia solo, sin que podamos hacer nada."
+   ],
+   "r": "En el ánimo bajo, esperar a tener ganas suele alargar el pozo: cuanto menos hacemos, menos cosas nos dan placer o sentido, y el ánimo baja más. Retomar actividades chicas y concretas, aunque no haya ganas, suele traer de vuelta el ánimo de a poco.",
+   "como": "Es la base de la activación conductual, un tratamiento para la depresión que se estudió en muchos ensayos clínicos y mostró resultados comparables a otras psicoterapias.",
+   "debate": "No todo ánimo bajo se resuelve así: en una depresión intensa a veces hace falta combinar psicoterapia y medicación, y se discute qué funciona mejor para cada persona."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Llegás al viernes agotado. Dormís todo el fin de semana y el lunes te levantás igual de cansado que antes.",
+   "p": "¿Por qué el descanso del fin de semana no alcanza?",
+   "opciones": [
+    "Porque dormiste poco: con más horas de sueño se arregla.",
+    "Porque el estrés sostenido mantiene al cuerpo en alerta, y eso no se apaga en dos días.",
+    "Porque es pereza: habría que esforzarse más."
+   ],
+   "r": "Cuando el estrés dura semanas o meses, el cuerpo se queda en un estado de alerta que desgasta: cuesta dormir bien, el cansancio se acumula y aparecen síntomas físicos. Dormir más ayuda, pero no apaga la causa. Hace falta bajar la carga y aprender a cortar la alerta durante la semana.",
+   "como": "Se sabe por la investigación sobre el estrés crónico y por los estudios del burnout, que lo describen como agotamiento, distancia del trabajo y sensación de ineficacia ante un estrés laboral que no se maneja.",
+   "debate": "Se discute si el burnout es un cuadro propio o una forma de depresión, y cuánto depende de la persona y cuánto de las condiciones de trabajo."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}
