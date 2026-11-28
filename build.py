@@ -1616,6 +1616,47 @@ def bloque_disparador(slug_art, cuerpo):
             + (f'muchas personas pensaron lo mismo que vos antes de {autor}.</p>' if autor else 'son las mismas preguntas que se hizo la psicología.</p>')
             + f'<ol>{"".join(items)}</ol></section>')
 
+RUTAS = json.loads((CONTENIDO / "rutas.json").read_text(encoding="utf-8")) if (CONTENIDO / "rutas.json").exists() else []
+
+
+def pagina_ruta(r, nombres):
+    """Ruta de aprendizaje: disparador, cinco pasos (leer, mirarte, practicar) con progreso y un cierre."""
+    clave = r["clave"]
+    total = len(r["pasos"]) + 2
+    pasos = (f'<li class="recorrido__paso ruta__paso--fijo"><span class="recorrido__num" aria-hidden="true">1</span><div>'
+             f'<a href="#disparador"><strong>Una pregunta para empezar</strong></a><span class="recorrido__enfoque">Pensar</span>'
+             f'<p>Antes de leer nada, jugate por una respuesta. Al final vas a volver a ella.</p></div></li>')
+    for i, (ruta, tipo, por_que) in enumerate(r["pasos"], 2):
+        pasos += (f'<li class="recorrido__paso" data-recorrido-paso="{ruta}"><span class="recorrido__num" aria-hidden="true">{i}</span>'
+                  f'<div><a href="{ruta}?recorrido=ruta-{clave}"><strong>{esc(nombres[ruta])}</strong></a>'
+                  f'<span class="recorrido__enfoque">{esc(tipo)}</span><p>{esc(por_que)}</p>'
+                  f'<label class="recorrido__hecho"><input type="checkbox" value="{ruta}"> Lo hice</label></div></li>')
+    pasos += (f'<li class="recorrido__paso ruta__paso--fijo"><span class="recorrido__num" aria-hidden="true">{total}</span><div>'
+              f'<a href="#cierre"><strong>Volvé a tu respuesta</strong></a><span class="recorrido__enfoque">Cerrar</span>'
+              f'<p>Mirá qué cambió en lo que pensabas, qué te llevás y cuándo conviene consultar.</p></div></li>')
+    llevar = "".join(f"<li>{esc(x)}</li>" for x in r["llevar"])
+    disp = bloque_disparador(f"ruta-{clave}", "")
+    cierre = bloque_disparador_cierre(f"ruta-{clave}")
+    return f'''<section class="seccion" style="padding-top:0"><div class="contenedor contenedor--texto">
+<div id="disparador">{disp}</div>
+<section class="recorrido" data-recorrido="ruta-{clave}" aria-labelledby="t-pasos" style="margin-top:2.5rem">
+<h2 id="t-pasos">Los {total} pasos</h2>
+<div class="ruta-progreso" aria-hidden="true"><span data-ruta-barra></span></div>
+<p class="recorrido__progreso" data-recorrido-progreso aria-live="polite"></p>
+<ol class="recorrido__pasos">{pasos}</ol>
+<p><a class="boton boton--chico" href="{r["pasos"][0][0]}?recorrido=ruta-{clave}">Empezar por el paso 2</a></p>
+</section>
+<section id="cierre" aria-labelledby="t-cierre" style="margin-top:var(--sec)">
+<h2 id="t-cierre">Para cerrar</h2>
+{cierre}
+<h3>Qué llevarte</h3><ul>{llevar}</ul>
+<h3>Cuándo consultar</h3><p>{esc(r["consultar"])}</p>
+<p>A tu ritmo: un paso por día o por semana está bien. Lo que marques y escribas queda solo en este navegador.</p>
+</section>
+<p style="margin-top:2rem"><a class="enlace-flecha" href="/rutas/">Ver todas las rutas {{{{icono_flecha}}}}</a></p>
+<div style="margin-top:var(--sec)">{bloque_cta()}</div>
+</div></section>'''
+
 
 def bloque_disparador_cierre(slug_art):
     """Cierre: volver a la hipótesis propia y una pregunta que sigue abierta."""
@@ -2889,6 +2930,34 @@ def construir():
             fechas[a["ruta"]] = a["modificado"]
             imagenes[a["ruta"]] = meta["og"]
 
+    # Rutas de aprendizaje: artículo, escala y laboratorios en orden, con una pregunta inicial y un cierre.
+    if RUTAS:
+        tarjetas = ""
+        for r in RUTAS:
+            ruta = f'/rutas/{r["clave"]}/'
+            meta = {"titulo": f'{r["titulo"]}: ruta de aprendizaje en 7 pasos'[:65], "descripcion": r["descripcion"],
+                    "migas": [("Recursos", "/recursos/"), ("Rutas", "/rutas/"), (r["titulo"], ruta)], "tipo_pagina": "WebPage",
+                    "antetitulo": "Ruta de aprendizaje", "h1": esc(r["titulo"]), "bajada": esc(r["bajada"])}
+            cuerpo = portada(meta) + pagina_ruta(r, nombres)
+            escribir(ruta, pagina(meta, reemplazos(cuerpo, ruta), ruta))
+            mapa.append((ruta, 0.6, "monthly"))
+            nombres[ruta] = r["titulo"]
+            tarjetas += (f'<li class="recorrido__paso"><span class="recorrido__num" aria-hidden="true">7</span><div>'
+                         f'<a href="{ruta}"><strong>{esc(r["titulo"])}</strong></a><p>{esc(r["bajada"])}</p></div></li>')
+        ruta = "/rutas/"
+        meta = {"titulo": "Rutas de aprendizaje en psicología, paso a paso", "descripcion": "Rutas de siete pasos sobre ansiedad, ánimo, estrés, duelo, pareja y Jung: una pregunta, lecturas, escalas y laboratorios en orden.",
+                "migas": [("Recursos", "/recursos/"), ("Rutas", ruta)], "tipo_pagina": "CollectionPage", "antetitulo": "Recursos",
+                "h1": "Rutas de <em>aprendizaje</em>", "bajada": "Siete pasos para entender un tema de punta a punta: empezás con una pregunta, leés, te mirás, practicás y volvés a tu respuesta."}
+        cuerpo = portada(meta) + f'''<section class="seccion" style="padding-top:0"><div class="contenedor contenedor--texto">
+<div class="prosa"><p>Cada ruta junta piezas que ya están en la web en un orden pensado: una pregunta para que te juegues por una idea, un artículo para entender, una escala para mirarte cuando existe una, laboratorios para practicar y un cierre para volver a tu respuesta. Aprender así, con una pregunta propia, deja más que leer de corrido.</p></div>
+<ol class="recorrido__pasos">{tarjetas}</ol>
+<p style="margin-top:2rem"><a class="enlace-flecha" href="/recorridos-de-laboratorios/">Ver también los recorridos de laboratorios {{{{icono_flecha}}}}</a></p>
+<aside class="lab-cuidado"><p><strong>Un cuidado.</strong> Las rutas son un complemento y no reemplazan una consulta. Si lo que te pasa es intenso o aparecen ideas de hacerte daño, mirá <a href="/ayuda-urgente/">ayuda urgente</a>.</p></aside>
+<div style="margin-top:var(--sec)">{bloque_cta()}</div></div></section>'''
+        escribir(ruta, pagina(meta, reemplazos(cuerpo, ruta), ruta))
+        mapa.append((ruta, 0.7, "monthly"))
+        nombres[ruta] = "Rutas de aprendizaje"
+
     # Voces que nos habitan: biblioteca de citas verificadas (voces_sitio.py)
     rutas_voces = voces_sitio.construir(sys.modules[__name__], VOCES, mapa, nombres, fechas, imagenes) if VOCES else []
 
@@ -3105,7 +3174,9 @@ No atiende urgencias ni emergencias. En Argentina: 911, o Centro de Asistencia a
                        "d": re.sub(r"<[^>]+>", "", html.unescape(r))[:300], "c": "", "x": ""})
     # recorridos.json: los laboratorios en orden para cada motivo de consulta (barra «paso n de 5»).
     nombres_lab = {l["ruta"]: l["titulo"] for l in LABORATORIOS}
-    (SALIDA / "recorridos.json").write_text(json.dumps({r["clave"]: {"t": r["titulo"], "p": [[x[0], nombres_lab[x[0]]] for x in r["pasos"]]} for r in RECORRIDOS},
+    todos_rec = {r["clave"]: {"t": r["titulo"], "p": [[x[0], nombres_lab[x[0]]] for x in r["pasos"]]} for r in RECORRIDOS}
+    todos_rec.update({f'ruta-{r["clave"]}': {"t": r["titulo"], "u": f'/rutas/{r["clave"]}/', "p": [[x[0], nombres.get(x[0], x[0])] for x in r["pasos"]]} for r in RUTAS})
+    (SALIDA / "recorridos.json").write_text(json.dumps(todos_rec,
                                                       ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (SALIDA / "buscar.json").write_text(json.dumps(indice, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 

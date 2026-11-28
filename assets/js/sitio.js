@@ -667,6 +667,7 @@
         var cajas = sec.querySelectorAll(".recorrido__hecho input"), n = 0;
         cajas.forEach(function (c) { c.checked = !!h[c.value]; c.closest(".recorrido__paso").classList.toggle("recorrido__paso--hecho", c.checked); if (c.checked) n++; });
         sec.querySelector("[data-recorrido-progreso]").textContent = n ? n + " de " + cajas.length + " pasos hechos" : "";
+        var barraR = sec.querySelector("[data-ruta-barra]"); if (barraR) barraR.style.width = (cajas.length ? Math.round(100 * n / cajas.length) : 0) + "%";
       });
     };
     document.addEventListener("change", function (e) {
@@ -681,7 +682,7 @@
   }
   // En un laboratorio abierto desde un recorrido: barra con el paso, el anterior y el siguiente.
   var claveRec = new URLSearchParams(location.search).get("recorrido");
-  if (claveRec && /^[a-z]+$/.test(claveRec) && window.fetch) {
+  if (claveRec && /^[a-z-]+$/.test(claveRec) && window.fetch) {
     fetch("/recorridos.json").then(function (r) { return r.json(); }).then(function (todos) {
       var rec = todos[claveRec]; if (!rec) return;
       var ruta = location.pathname, i = -1;
@@ -689,15 +690,16 @@
       if (i < 0) return;
       var esc = function (t) { return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); };
       var enlace = function (x, txt) { return '<a href="' + esc(x[0]) + "?recorrido=" + claveRec + '">' + txt + "</a>"; };
+      var volver = rec.u || "/recorridos-de-laboratorios/#" + claveRec;
       var barra = document.createElement("aside");
       barra.className = "recorrido-barra";
       barra.setAttribute("aria-label", "Recorrido");
       var hecho = !!leerHechos()[ruta];
-      barra.innerHTML = '<p><a href="/recorridos-de-laboratorios/#' + claveRec + '">Recorrido: ' + esc(rec.t) + "</a> · paso " + (i + 1) + " de " + rec.p.length + "</p>" +
+      barra.innerHTML = '<p><a href="' + esc(volver) + '">' + (rec.u ? "Ruta: " : "Recorrido: ") + esc(rec.t) + "</a> · paso " + (i + (rec.u ? 2 : 1)) + " de " + (rec.p.length + (rec.u ? 2 : 0)) + "</p>" +
         '<div class="recorrido-barra__acciones">' +
         (i > 0 ? enlace(rec.p[i - 1], "← Anterior") : "") +
         '<button type="button" class="boton boton--secundario boton--chico" aria-pressed="' + hecho + '" data-recorrido-marcar>' + (hecho ? "Hecho ✓" : "Marcar como hecho") + "</button>" +
-        (i < rec.p.length - 1 ? enlace(rec.p[i + 1], "Siguiente: " + esc(rec.p[i + 1][1]) + " →") : '<a href="/recorridos-de-laboratorios/#' + claveRec + '">Terminaste el recorrido →</a>') +
+        (i < rec.p.length - 1 ? enlace(rec.p[i + 1], "Siguiente: " + esc(rec.p[i + 1][1]) + " →") : '<a href="' + esc(volver) + (rec.u ? "#cierre" : "") + '">' + (rec.u ? "Ir al cierre de la ruta →" : "Terminaste el recorrido →") + "</a>") +
         "</div>";
       // Debajo de la bajada del título, para que se vea sin bajar.
       var ancla = document.querySelector("main p.bajada");

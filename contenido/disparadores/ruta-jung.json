@@ -1,0 +1,18 @@
+{
+ "autor": "Jung",
+ "preguntas": [
+  {
+   "enigma": "Hay alguien en tu trabajo que te irrita muchísimo: te parece soberbio y que siempre quiere tener razón. A otros compañeros no les molesta tanto.",
+   "p": "¿Por qué te irrita tanto, según Jung?",
+   "opciones": [
+    "Solo que esa persona es realmente insoportable.",
+    "Que tal vez ves en ella algo tuyo que no aceptás.",
+    "Que es una cuestión de química, sin nada para pensar."
+   ],
+   "r": "Jung propuso que lo que rechazamos de nosotros mismos no desaparece: queda en lo que llamó la sombra, y muchas veces lo vemos afuera, en otras personas. Cuando alguien nos irrita de una manera desproporcionada, vale preguntarse si no nos muestra algo propio que no queremos ver.",
+   "como": "Llegó a esta idea a partir de su trabajo clínico con pacientes y de su autoanálisis, y la desarrolló con el concepto de proyección, que tomó de la tradición psicoanalítica.",
+   "debate": "Se discute cómo comprobar una proyección: no toda molestia habla de uno, y a veces el otro realmente actúa mal."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}

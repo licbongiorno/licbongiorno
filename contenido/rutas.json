@@ -1,0 +1,92 @@
+[
+  {
+    "clave": "ansiedad",
+    "titulo": "Entender la ansiedad",
+    "bajada": "Siete pasos para pasar de «me pasa algo que no entiendo» a saber cómo funciona tu ansiedad y qué podés hacer con ella.",
+    "descripcion": "Ruta de aprendizaje sobre la ansiedad en siete pasos: una pregunta para empezar, un artículo, la escala GAD-7, tres laboratorios y un cierre.",
+    "pasos": [
+      ["/recursos/ansiedad-generalizada/", "Leer", "Qué es la ansiedad, cuándo deja de ser útil y por qué la preocupación se vuelve un hábito."],
+      ["/escala-de-ansiedad-gad-7/", "Mirarte", "Siete preguntas sobre las últimas dos semanas, para tener una foto de cómo estás hoy."],
+      ["/laboratorio-respirar-volver-al-presente/", "Practicar", "Empezar por el cuerpo: una respiración lenta baja la activación y deja pensar con más claridad."],
+      ["/laboratorio-de-ansiedad/", "Practicar", "Entender el ciclo de la preocupación y separar los problemas que se pueden resolver de los que no."],
+      ["/laboratorio-de-pensamientos-repetitivos/", "Practicar", "Tomar distancia de los pensamientos que vuelven una y otra vez, sin pelearte con ellos."]
+    ],
+    "llevar": ["La ansiedad es una alarma que se activa de más, no una falla tuya.", "El cuerpo y los pensamientos se alimentan entre sí: podés entrar por cualquiera de los dos.", "Evitar alivia hoy y agranda el miedo mañana."],
+    "consultar": "Si la ansiedad te impide trabajar, estudiar, dormir o salir, si los ataques se repiten o si el puntaje de la escala te dio alto, conviene consultar. La ansiedad responde muy bien a la psicoterapia."
+  },
+  {
+    "clave": "animo",
+    "titulo": "Cuando el ánimo baja",
+    "bajada": "Siete pasos para distinguir la tristeza de la depresión, mirar cómo estás y probar lo que la investigación muestra que ayuda.",
+    "descripcion": "Ruta de aprendizaje sobre el ánimo bajo y la depresión: una pregunta, un artículo, la escala PHQ-9, tres laboratorios y un cierre.",
+    "pasos": [
+      ["/recursos/depresion-senales-y-tratamiento/", "Leer", "En qué se diferencia la depresión de la tristeza, qué señales mirar y cómo se trata."],
+      ["/escala-de-animo-phq-9/", "Mirarte", "Nueve preguntas sobre las últimas dos semanas, para poner en palabras lo que estás sintiendo."],
+      ["/laboratorio-de-animo/", "Practicar", "Registrar qué actividades te sostienen el ánimo y cuáles lo bajan, sin esperar a tener ganas."],
+      ["/laboratorio-de-valores/", "Practicar", "Volver a lo que te importa: los valores orientan aunque el ánimo no acompañe."],
+      ["/laboratorio-de-habitos/", "Practicar", "Armar pasos chicos y repetibles, porque el ánimo suele seguir a la acción y no al revés."]
+    ],
+    "llevar": ["La tristeza es una emoción; la depresión es un estado que dura y apaga casi todo.", "Esperar a tener ganas para hacer algo suele alargar el pozo.", "Pedir ayuda es parte del tratamiento, no un fracaso."],
+    "consultar": "Si el ánimo bajo dura más de dos semanas, si dejaste de disfrutar casi todo o si aparecen ideas de muerte, consultá. Si pensás en hacerte daño, buscá ayuda hoy en la página de ayuda urgente."
+  },
+  {
+    "clave": "estres",
+    "titulo": "Estrés y agotamiento",
+    "bajada": "Siete pasos para entender qué le hace el estrés sostenido a tu cuerpo, medir dónde estás y recuperar el descanso.",
+    "descripcion": "Ruta de aprendizaje sobre el estrés y el burnout: una pregunta, un artículo, la escala de estrés percibido, tres laboratorios y un cierre.",
+    "pasos": [
+      ["/recursos/estres-cronico-y-cuerpo/", "Leer", "Qué pasa en el cuerpo cuando el estrés no se apaga y por qué el cansancio no se va durmiendo un fin de semana."],
+      ["/escala-de-estres-percibido/", "Mirarte", "Diez preguntas sobre el último mes, para ver cuánto control sentís sobre lo que te pasa."],
+      ["/laboratorio-de-estres/", "Practicar", "Separar lo que depende de vos de lo que no, y elegir dónde poner la energía."],
+      ["/laboratorio-de-burnout/", "Practicar", "Reconocer las señales del agotamiento laboral y lo que lo alimenta."],
+      ["/laboratorio-de-descanso/", "Practicar", "Descansar también se aprende: probar formas de descanso que de verdad recuperan."]
+    ],
+    "llevar": ["El estrés en sí no es el problema: lo es que no tenga pausa.", "El agotamiento no se cura con más esfuerzo.", "Descansar es una tarea, no un premio."],
+    "consultar": "Si el cansancio no cede con el descanso, si aparecen síntomas físicos persistentes o si sentís que ya no podés con tu trabajo o tu casa, consultá con un profesional de la salud mental y con tu médico."
+  },
+  {
+    "clave": "duelo",
+    "titulo": "Atravesar un duelo",
+    "bajada": "Siete pasos para entender cómo se vive una pérdida, darle lugar a lo que sentís y encontrar una forma de seguir con lo perdido.",
+    "descripcion": "Ruta de aprendizaje sobre el duelo: una pregunta para empezar, un artículo, tres laboratorios, una lectura sobre el sentido y un cierre.",
+    "pasos": [
+      ["/recursos/el-duelo-y-sus-tiempos/", "Leer", "Por qué el duelo no sigue etapas fijas y qué se sabe hoy sobre sus tiempos."],
+      ["/laboratorio-de-duelo/", "Practicar", "Ponerle palabras a la pérdida y a lo que quedó pendiente."],
+      ["/laboratorio-de-escritura-expresiva/", "Practicar", "Escribir sobre lo que duele, unos minutos por día, ayuda a ordenarlo."],
+      ["/laboratorio-de-psicotanatologia/", "Practicar", "Pensar la muerte y la pérdida con más calma, desde la psicotanatología."],
+      ["/laboratorio-de-sentido/", "Practicar", "Preguntarte qué lugar puede tener lo perdido en la vida que sigue."]
+    ],
+    "llevar": ["No hay una forma correcta ni un plazo para el duelo.", "El vínculo con quien se fue no se corta: se transforma.", "Ir y venir entre el dolor y la vida diaria es parte del proceso."],
+    "consultar": "Si pasado un tiempo largo el dolor sigue igual de intenso, si no podés retomar tu vida o si aparecen ideas de no querer seguir, consultá. Acompañar duelos es una parte central de mi trabajo."
+  },
+  {
+    "clave": "pareja",
+    "titulo": "Pareja y vínculo",
+    "bajada": "Siete pasos para entender cómo te vinculás, qué buscás en el otro y cómo conversar lo difícil sin lastimarse.",
+    "descripcion": "Ruta de aprendizaje sobre la pareja: una pregunta, un artículo, tres laboratorios sobre apego, comunicación y amor, una lectura y un cierre.",
+    "pasos": [
+      ["/recursos/terapia-de-pareja/", "Leer", "Qué se trabaja en una pareja que está en crisis y por qué los conflictos suelen repetirse."],
+      ["/laboratorio-del-desarrollo-y-el-apego/", "Practicar", "Mirar tu forma de apego: lo que aprendiste de chico sobre acercarte y alejarte."],
+      ["/laboratorio-de-los-lenguajes-del-amor/", "Practicar", "Descubrir cómo das y cómo esperás recibir afecto, y dónde no se encuentran."],
+      ["/laboratorio-de-comunicacion-no-violenta/", "Practicar", "Decir lo que necesitás sin atacar, con observaciones, sentimientos y pedidos."],
+      ["/laboratorio-del-amor-como-arte/", "Practicar", "Pensar el amor como algo que se practica y no solo como algo que se siente, con Erich Fromm."]
+    ],
+    "llevar": ["Muchas peleas repiten una misma pregunta de fondo: ¿estás ahí para mí?", "Cada uno llega a la pareja con su historia de apego.", "Pedir es más claro que reprochar."],
+    "consultar": "Si los conflictos se repiten sin salida, si hay distancia que no se puede hablar o si alguno siente miedo del otro, consultá. Si hay violencia, mirá primero la página de ayuda urgente."
+  },
+  {
+    "clave": "jung",
+    "titulo": "Conocer a Jung",
+    "bajada": "Siete pasos para entrar en la psicología de Carl Gustav Jung: quién fue, qué es la sombra, qué dicen los sueños y cómo se vuelve uno quien es.",
+    "descripcion": "Ruta de aprendizaje sobre Carl Gustav Jung: una pregunta, dos artículos, el recorrido junguiano, la sombra, los sueños y un cierre.",
+    "pasos": [
+      ["/recursos/carl-gustav-jung/", "Leer", "Quién fue Jung, por qué se separó de Freud y qué propuso sobre el inconsciente."],
+      ["/laboratorio-recorrido-junguiano/", "Practicar", "Un recorrido por los conceptos centrales de la psicología analítica, paso a paso."],
+      ["/recursos/la-sombra-segun-jung/", "Leer", "Qué es la sombra: lo que no queremos ver de nosotros y solemos ver en los demás."],
+      ["/laboratorio-de-sombra-y-arquetipos/", "Practicar", "Rastrear tu propia sombra a partir de lo que te irrita o te fascina de otros."],
+      ["/laboratorio-de-suenos/", "Practicar", "Trabajar un sueño propio con la mirada junguiana: asociar, amplificar y preguntarle qué compensa."]
+    ],
+    "llevar": ["Para Jung, el inconsciente no es solo un depósito de lo reprimido: también crea y orienta.", "Lo que rechazamos de los otros suele hablar de nosotros.", "La individuación es un proceso de toda la vida, no una meta."],
+    "consultar": "Si querés trabajar tus sueños, tus repeticiones o una etapa de cambio con esta mirada, la psicología junguiana es el eje de mi práctica. Podés escribirme para una primera consulta."
+  }
+]

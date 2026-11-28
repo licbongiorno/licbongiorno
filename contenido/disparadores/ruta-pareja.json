@@ -1,0 +1,17 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Discuten otra vez por quién lava los platos. Es la tercera vez esta semana y los dos sienten que la pelea no es realmente por los platos.",
+   "p": "¿De qué suelen tratar las peleas que se repiten en una pareja?",
+   "opciones": [
+    "Del tema concreto: si se resuelve lo práctico, se terminan.",
+    "De necesidades de fondo, como sentirse visto, cuidado o acompañado.",
+    "De que la pareja no es compatible y conviene separarse."
+   ],
+   "r": "Las peleas que se repiten suelen tener debajo una misma pregunta: ¿te importo?, ¿estás ahí para mí? El tema concreto cambia, pero la necesidad de fondo es la misma. Cuando se puede hablar de esa necesidad en lugar de discutir por el tema, la pelea cambia de tono.",
+   "como": "Lo muestran la teoría del apego aplicada a los adultos y la observación clínica de parejas: los conflictos crónicos suelen seguir un ciclo en el que uno reclama y el otro se aleja.",
+   "debate": "Se discute cuánto se puede cambiar un patrón de pareja y cuándo el conflicto refleja diferencias de fondo que no se resuelven hablando."
+  }
+ ],
+ "abierta": "¿Qué cambió en tu respuesta después de hacer la ruta?"
+}
