@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace más de tres mil años, en una aldea de obreros que construían tumbas, alguien se despierta inquieto por lo que soñó. En vez de contárselo a un familiar, va a buscar un papiro con una lista de sueños.",
+   "p": "¿Qué pensás que decía esa lista?",
+   "opciones": ["Cada sueño con un veredicto, bueno o malo, y lo que anunciaba", "Consejos para que la persona se tranquilizara y volviera a dormir", "Un relato de los sueños que había tenido cada habitante de la aldea"],
+   "r": "El papiro Chester Beatty III, del siglo XIII a. C., es el libro de sueños más antiguo que se conserva. Cada entrada describe una imagen, la califica como buena o mala y explica qué significa, muchas veces por analogía o juego de palabras.",
+   "como": "Los egiptólogos lo estudian a partir del propio papiro, procedente de Deir el-Medina, que Alan Gardiner publicó en 1935. Kasia Szpakowska lo situó entre otras fuentes egipcias sobre sueños y pesadillas.",
+   "debate": "Es un manual de lectura, no un registro de sueños reales, así que dice cómo se pensaba el sueño y no qué soñaba cada persona. Tampoco hay estudios que muestren que esas interpretaciones predigan algo.",
+   "seccion": "El libro de los sueños: el papiro Chester Beatty III"
+  },
+  {
+   "enigma": "Un príncipe vuelve de cazar, se echa a dormir a la sombra de la Gran Esfinge y, según una estela, el dios le habla en sueños.",
+   "p": "¿Para qué creés que se mandó grabar ese sueño en piedra, entre las patas de la Esfinge?",
+   "opciones": ["Para dejar constancia de un hecho personal curioso del príncipe", "Para mostrar que los dioses lo habían elegido como rey", "Para pedir a los visitantes que cuidaran el monumento"],
+   "r": "La Estela del Sueño cuenta que Tutmosis IV recibió la promesa de la realeza a cambio de despejar la arena de la Esfinge. Muchos egiptólogos la leen como un texto que legitimaba su ascenso, presentándolo como voluntad divina.",
+   "como": "Se conoce por la propia estela, que está en Guiza, y se la compara con otros textos reales, como la estela del sueño del rey Tanutamón, de siglos después.",
+   "debate": "La interpretación política es razonable, pero el texto está dañado hacia el final y no todo puede reconstruirse. Si el príncipe no era el heredero esperado es una hipótesis de algunos estudiosos.",
+   "seccion": "Sueños de reyes: la estela del sueño de Tutmosis IV"
+  }
+ ],
+ "abierta": "Dormir en un santuario para recibir un sueño está bien documentado en época tardía, pero ¿desde cuándo se hacía en Egipto? Todavía se discute."
+}

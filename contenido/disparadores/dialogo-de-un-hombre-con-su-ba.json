@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace unos cuatro mil años alguien escribió un texto en el que un hombre agobiado conversa con una parte de sí mismo, su ba, y le cuesta ponerse de acuerdo con ella.",
+   "p": "¿Por qué creés que el autor eligió poner el dolor en forma de diálogo y no de monólogo?",
+   "opciones": ["Porque hablar con otro, aunque no coincida, ya es una manera de poner el dolor en palabras", "Porque era la única forma literaria que conocían los escribas", "Porque querían mostrar que el hombre estaba equivocado en todo"],
+   "r": "Los egiptólogos no tienen una respuesta única. Lo que muestra el texto es que la pregunta por el cansancio, el aislamiento y el sentido ya se discutía en el Reino Medio, y que se la puso en escena como una conversación.",
+   "como": "Se conoce por un único papiro hierático, el Berlín P 3024, cuyo comienzo se perdió. Lo tradujeron y estudiaron autores como Faulkner, Lichtheim, Parkinson y Allen.",
+   "debate": "Es literatura, no un caso real: no sabemos qué experiencia había detrás de su autor. Llamar depresión a lo que le pasa al personaje es una lectura moderna.",
+   "seccion": "Lo que se conserva del diálogo"
+  },
+  {
+   "enigma": "El texto habla del ba, que solemos traducir como alma. Pero los egipcios lo dibujaban como un ave con cabeza humana, y la persona tenía además otros aspectos, como el nombre y la sombra.",
+   "p": "¿Qué te parece que era el ba?",
+   "opciones": ["Lo mismo que hoy llamamos mente o inconsciente", "Un aspecto de la persona ligado a su movilidad y a su manera de manifestarse", "Un espíritu ajeno que visitaba a la persona"],
+   "r": "El ba era uno de los aspectos de la persona en el pensamiento egipcio, vinculado a la movilidad y a la capacidad de manifestarse, incluso después de la muerte. Traducirlo como alma es aproximado.",
+   "como": "Se reconstruye a partir de textos funerarios, inscripciones e imágenes, y se lo compara en distintos periodos.",
+   "debate": "Algunos autores lo leen como una voz interior, pero esa lectura es moderna. Para otros, el debate trata sobre el entierro y el más allá, no sobre un conflicto psicológico.",
+   "seccion": "Qué es el ba"
+  }
+ ],
+ "abierta": "Si el comienzo del papiro se perdió y algunas palabras son de traducción incierta, ¿cuánto de lo que leemos es del texto y cuánto de nuestra época? Los egiptólogos siguen sin ponerse de acuerdo."
+}

@@ -1,7 +1,7 @@
 ---
 titulo: Los sueños en el antiguo Egipto: mensajes, libros y templos
 titulo_seo: Los sueños en el antiguo Egipto: libro, templos y reyes
-descripcion: Qué decían los egipcios de los sueños: el libro de sueños del papiro Chester Beatty III, la incubación en templos y la estela del sueño de Tutmosis IV.
+descripcion: Qué decían los egipcios de los sueños: el papiro Chester Beatty III, la incubación en templos y la estela del sueño de Tutmosis IV.
 resumen: Un recorrido por lo que sabemos de cómo se entendían los sueños en el antiguo Egipto, con sus fuentes, sus límites y sin forzar paralelos con la psicología moderna.
 categoria: Psicología contemporánea
 palabras_clave: sueños antiguo Egipto, papiro Chester Beatty III, libro de los sueños, incubación, estela del sueño, Tutmosis IV, Esfinge, interpretación de sueños

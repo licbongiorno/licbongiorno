@@ -1,7 +1,7 @@
 ---
 titulo: Diálogo de un hombre con su ba: un texto egipcio sobre la desesperación
 titulo_seo: Diálogo de un hombre con su ba: desesperación y sentido
-descripcion: Un texto egipcio del Reino Medio sobre un hombre agotado de vivir que discute con su ba. Qué dice, cómo lo leen los egiptólogos y qué no se puede afirmar.
+descripcion: Un texto egipcio del Reino Medio sobre un hombre agotado de vivir que discute con su ba: qué dice, cómo lo leen los egiptólogos y sus límites.
 resumen: Lectura cuidadosa del Diálogo de un hombre con su ba, uno de los textos más antiguos sobre la desesperación, con las interpretaciones en disputa y sin forzar paralelos modernos.
 categoria: Psicología contemporánea
 palabras_clave: Diálogo de un hombre con su ba, hombre cansado de vivir, papiro Berlín 3024, ba, Reino Medio, literatura egipcia, desesperación, sentido de la vida
