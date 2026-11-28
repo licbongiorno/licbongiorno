@@ -415,6 +415,20 @@
    ]
   },
   {
+   "anio": 1575,
+   "fecha": "1575",
+   "titulo": "Huarte de San Juan y el «Examen de ingenios»",
+   "texto": "Un médico navarro propone que cada persona tiene un ingenio distinto y que conviene orientarla hacia el saber que mejor le va. Es un precursor de la psicología de las diferencias individuales.",
+   "era": "modernidad",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Huarte de San Juan",
+     "u": "/recursos/huarte-de-san-juan/"
+    }
+   ]
+  },
+  {
    "anio": 1641,
    "fecha": "1641",
    "titulo": "Descartes y la separación entre mente y cuerpo",
@@ -677,6 +691,20 @@
     {
      "t": "Watson",
      "u": "/recursos/john-b-watson/"
+    }
+   ]
+  },
+  {
+   "anio": 1914,
+   "fecha": "1914",
+   "titulo": "Sri Aurobindo y el yoga integral",
+   "texto": "Desde Pondicherry, Aurobindo empieza a publicar la revista *Arya*, donde expone una psicología de niveles de conciencia que influirá en la psicología integral y transpersonal.",
+   "era": "psicoanalisis",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Sri Aurobindo",
+     "u": "/recursos/sri-aurobindo/"
     }
    ]
   },
@@ -1071,6 +1099,38 @@
     {
      "t": "Recorrido junguiano",
      "u": "/laboratorio-recorrido-junguiano/"
+    }
+   ]
+  },
+  {
+   "anio": 1964,
+   "fecha": "1964",
+   "titulo": "Dąbrowski y la desintegración positiva",
+   "texto": "El psiquiatra polaco Kazimierz Dąbrowski publica *Positive Disintegration*: algunas crisis pueden ser parte del desarrollo y no solo un síntoma.",
+   "era": "humanismo",
+   "region": "occidente",
+   "enlaces": [
+    {
+     "t": "Kazimierz Dąbrowski",
+     "u": "/recursos/kazimierz-dabrowski/"
+    }
+   ]
+  },
+  {
+   "anio": 1965,
+   "fecha": "1965",
+   "titulo": "Hayao Kawai lleva a Jung a Japón",
+   "texto": "Primer japonés diplomado en el Instituto C. G. Jung de Zúrich, Kawai vuelve a Japón y difunde la psicología analítica y la terapia de caja de arena.",
+   "era": "humanismo",
+   "region": "oriente",
+   "enlaces": [
+    {
+     "t": "Hayao Kawai",
+     "u": "/recursos/hayao-kawai/"
+    },
+    {
+     "t": "Carl Gustav Jung",
+     "u": "/recursos/carl-gustav-jung/"
     }
    ]
   },

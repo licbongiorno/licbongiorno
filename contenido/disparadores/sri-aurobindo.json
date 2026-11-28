@@ -1,0 +1,24 @@
+{
+ "autor": "Aurobindo",
+ "preguntas": [
+  {
+   "enigma": "Estás ante una decisión importante y, aunque todos te aconsejan algo, sentís desde adentro una orientación tranquila que va para otro lado.",
+   "p": "¿Qué podría ser esa voz que no es la del miedo ni la de la conveniencia?",
+   "opciones": ["Solo un capricho del momento", "Un centro más profundo que el yo cotidiano", "El eco de lo que opinan los demás"],
+   "r": "Para Sri Aurobindo, detrás del yo superficial hay un centro profundo, el ser psíquico, que orienta desde adentro y crece con la experiencia. No es la personalidad ni el carácter.",
+   "como": "Lo desarrolló en sus escritos de Pondicherry, sobre todo en La vida divina y La síntesis del yoga, publicados primero por entregas en la revista Arya entre 1914 y 1921.",
+   "debate": "El ser psíquico es un concepto de filosofía espiritual y no se puede comprobar con métodos experimentales. Se lo suele comparar con el sí-mismo de Jung, pero son marcos distintos.",
+   "seccion": "Ideas centrales"
+  },
+  {
+   "enigma": "Alguien medita todos los días, pero evita hablar de la pelea que tuvo con su hermano desde hace años.",
+   "p": "¿Qué problema puede haber en ese camino?",
+   "opciones": ["Ninguno, meditar alcanza para todo", "Puede usar lo espiritual para esquivar un conflicto humano concreto", "Que debería meditar más horas"],
+   "r": "Una crítica frecuente a las psicologías espirituales es que su lenguaje de planos superiores a veces sirve para saltearse lo emocional. Aurobindo, en cambio, proponía que lo espiritual volviera a la vida y la transformara.",
+   "como": "Por eso llamó integral a su yoga: no buscaba liberarse del mundo sino transformar el cuerpo, las emociones, la mente y la acción.",
+   "debate": "Hay quienes piensan que el riesgo de evitar lo humano está en la práctica de cada persona y no en la doctrina, y quienes creen que ciertos lenguajes lo favorecen.",
+   "seccion": "Críticas y límites"
+  }
+ ],
+ "abierta": "¿Se puede crecer espiritualmente sin ocuparse antes de los conflictos de la vida diaria, o ambas cosas tienen que ir juntas?"
+}
