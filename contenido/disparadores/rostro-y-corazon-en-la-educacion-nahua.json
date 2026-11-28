@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "Hace más de cinco siglos, en el centro de México, un padre o una madre le hablaba a su hijo en un discurso largo, solemne, lleno de consejos, en momentos clave como el nacimiento o el casamiento. Hoy lo conocemos porque unos frailes lo escribieron.",
+   "p": "¿Qué creés que se perdió y qué se conservó en ese pasaje de la voz a la escritura?",
+   "opciones": ["Se conservó todo, porque escribir es copiar lo que se dijo", "Se conservó algo valioso, pero pasó por selección, traducción y mirada ajena", "No se conservó nada confiable, así que no sirve como fuente"],
+   "r": "Los huehuetlahtolli («palabras de los viejos») son discursos nahuas de consejo y educación. Llegan hasta hoy por escrito, recogidos por frailes del siglo XVI como Andrés de Olmos y Bernardino de Sahagún. Son una fuente muy valiosa, pero con mediación colonial.",
+   "como": "Sahagún trabajó con informantes nahuas y con colaboradores que escribían en náhuatl, y el resultado es el Códice Florentino, bilingüe y con ilustraciones. Los especialistas comparan versiones y contextos para distinguir qué parece venir de la tradición previa.",
+   "debate": "Se discute cuánto de lo escrito refleja la voz nahua anterior a la conquista y cuánto la selección, la traducción o la sensibilidad cristiana de quienes lo registraron. No siempre se puede separar con certeza.",
+   "seccion": "Sahagún y el Códice Florentino: una fuente y sus límites"
+  },
+  {
+   "enigma": "En náhuatl, una expresión que se repite en estos textos junta dos palabras: «rostro» y «corazón». Se la usa al hablar de educar a alguien.",
+   "p": "¿Qué querrá decir educar a una persona si lo que se forma es el rostro y el corazón?",
+   "opciones": ["Que lo importante es enseñar buenos modales y apariencia", "Que se forma a la persona entera, cómo se muestra y qué la mueve por dentro", "Que se trata solo de controlar las emociones"],
+   "r": "In ixtli in yollotl nombra, para varios estudiosos, a la persona en su conjunto: lo que muestra ante los demás y lo que la mueve por dentro. Educar sería dar un rostro propio y un corazón firme, más que transmitir datos.",
+   "como": "Miguel León-Portilla leyó esta expresión en los textos recogidos por Sahagún y otros, y la presentó en 1956 como parte de una reflexión nahua sobre el ser humano.",
+   "debate": "Otros investigadores advierten que leer «filosofía» o «personalidad» en estos textos puede imponerles categorías occidentales, y que no se puede generalizar a todo el pueblo nahua lo que dicen unos pocos discursos.",
+   "seccion": "In ixtli in yollotl: el rostro y el corazón"
+  }
+ ],
+ "abierta": "Si los pueblos nahuas siguen vivos y hablando su lengua, ¿qué le dirían ellos mismos a estos textos que otros escribieron sobre sus antepasados? Es una pregunta que la lectura de los viejos no alcanza a contestar."
+}

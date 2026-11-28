@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En algunos pueblos de los Altos de Chiapas se dice que, después de un susto fuerte, una persona queda sin ganas ni fuerzas, como si algo suyo se hubiera ido.",
+   "p": "¿Cómo creés que una comunidad puede explicar y atender ese estado?",
+   "opciones": ["Solo como un invento sin sentido para quienes lo viven", "Con una explicación propia, con rituales y especialistas, que tiene sentido para quienes lo viven", "De la misma forma en todas las culturas del mundo"],
+   "r": "Las etnografías describen entre tzotziles y tzeltales la idea de que un susto o un conflicto pueden separar el alma (ch'ulel), o parte de ella, y que un especialista reconoce la causa y conduce un ritual de curación. Es una explicación inserta en una visión de la comunidad y del cosmos.",
+   "como": "Antropólogos como Calixta Guiteras Holmes en Chenalhó y Evon Vogt en Zinacantán convivieron con comunidades y registraron lo que decían y hacían sus integrantes.",
+   "debate": "Las descripciones varían entre pueblos y autores, y cualquier mirada desde afuera tiene límites. No se la debe traducir a un diagnóstico, ni afirmar que cure enfermedades.",
+   "seccion": "La pérdida del alma y su curación"
+  },
+  {
+   "enigma": "Según varias etnografías, cada persona tendría un animal compañero que vive en el monte y comparte su destino. Esto es parte de cómo piensan la persona algunos pueblos mayas de Chiapas.",
+   "p": "¿De dónde sabe alguien de afuera que existen estas ideas?",
+   "opciones": ["Porque aparecen en el Popol Vuh, que explica a todos los mayas", "Porque antropólogos convivieron con comunidades y registraron lo que contaban", "Porque se descubrieron en estudios de laboratorio"],
+   "r": "Las ideas sobre el ch'ulel y el animal compañero (wayjel, a veces llamado nagual) provienen de etnografías en comunidades tzotziles y tzeltales. El Popol Vuh, en cambio, es un texto mítico del pueblo k'iche' de Guatemala, de otra región.",
+   "como": "Guiteras Holmes publicó Perils of the Soul en 1961, Vogt estudió Zinacantán, y Pedro Pitarch publicó en 1996 una etnografía de las almas tzeltales en Cancuc. Trabajaron con observación prolongada y conversaciones.",
+   "debate": "Se discute cuánto se parecen las ideas actuales a las de los mayas antiguos, y cómo traducir palabras como ch'ulel sin cargarlas de ideas ajenas. «Nagual» tiene además usos distintos según el lugar.",
+   "seccion": "El animal compañero: wayjel y nagual"
+  }
+ ],
+ "abierta": "Si cada lengua organiza de otra manera lo que llamamos persona, alma o malestar, ¿qué parte de lo que creemos universal es en realidad una forma local de contarlo? Todavía se investiga."
+}

@@ -1,0 +1,23 @@
+{
+ "preguntas": [
+  {
+   "enigma": "En 1552, en Tlatelolco, un médico indígena y un traductor también indígena terminaron un libro de plantas medicinales con dibujos y nombres en náhuatl. Viajó a Europa, durmió siglos en una biblioteca y volvió a México en 1990.",
+   "p": "¿Para quién se escribió ese libro?",
+   "opciones": ["Para que los médicos del pueblo aprendieran a curar", "Para enseñar medicina europea a los indígenas", "Para presentar ese saber a la corona española"],
+   "r": "El Códice de la Cruz-Badiano fue escrito por Martín de la Cruz y traducido al latín por Juan Badiano, y estaba destinado a la corona española. Se lo considera el primer herbario ilustrado americano y muestra que ya en el siglo XVI había un saber médico indígena sistemático.",
+   "como": "Se sabe por el propio manuscrito, conservado durante siglos en Europa y devuelto a México en 1990 desde la Biblioteca Apostólica Vaticana, y por el trabajo de historiadores de la medicina que lo estudiaron.",
+   "debate": "Es un texto colonial, escrito en latín y para un lector europeo, así que no se sabe cuánto refleja el saber nahua tal como se practicaba y cuánto fue adaptado a lo que ese lector esperaba.",
+   "seccion": "El Códice de la Cruz-Badiano (1552)"
+  },
+  {
+   "enigma": "Una persona va a un centro de salud por insomnio y falta de ánimo, y el fin de semana también se hace una limpia con hierbas. Se siente algo mejor, pero no sabe si fue la limpia, el médico o el paso del tiempo.",
+   "p": "¿Qué podría estar aportando una práctica como la limpia?",
+   "opciones": ["Solo un efecto placebo sin ningún valor", "Una fuerza que la ciencia ya demostró", "Elementos comunes a muchas formas de ayuda: vínculo, ritual, explicación, comunidad"],
+   "r": "No hay ensayos sólidos que midan la eficacia de la limpia para la depresión o la ansiedad. Pero combina rasgos que la investigación en psicoterapia considera relevantes: un vínculo de confianza, un ritual con sentido, una explicación del malestar y el apoyo de la familia y la comunidad.",
+   "como": "Se sabe por descripciones antropológicas de la medicina tradicional en México, como las de Gonzalo Aguirre Beltrán, y por la investigación sobre factores comunes en psicoterapia.",
+   "debate": "Que haya factores comunes no prueba que la técnica funcione por la razón que da la tradición, ni la invalida. Y nada de esto justifica postergar la atención ante cuadros graves.",
+   "seccion": "Limpias, temazcal y plantas"
+  }
+ ],
+ "abierta": "Si alguien llama «susto» a lo que le pasa y mejora con una mezcla de cuidados, ¿cómo se estudia qué parte hizo cada cosa sin faltarle el respeto a su manera de entenderlo?"
+}

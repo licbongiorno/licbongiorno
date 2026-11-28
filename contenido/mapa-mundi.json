@@ -131,6 +131,12 @@
    "mapa": "/recursos/mapa-de-la-psicologia-del-antiguo-egipto/",
    "glosario": "/glosario-de-psicologia-del-antiguo-egipto/",
    "desc": "Ka, ba y corazón, maat, papiros médicos y sueños."
+  },
+  "mesoamericana": {
+   "nombre": "Psicología mesoamericana",
+   "mapa": "/recursos/mapa-de-la-psicologia-mesoamericana/",
+   "glosario": "/glosario-de-psicologia-mesoamericana/",
+   "desc": "Tonalli, teyolia e ihiyotl, rostro y corazón, ch'ulel y curanderismo."
   }
  },
  "paises": {
@@ -556,6 +562,7 @@
   "Mexico": [
    "México",
    [
+    "mesoamericana",
     "latinoamericana",
     "originarios"
    ]
@@ -563,6 +570,7 @@
   "Guatemala": [
    "Guatemala",
    [
+    "mesoamericana",
     "originarios",
     "latinoamericana"
    ]
@@ -570,12 +578,14 @@
   "Honduras": [
    "Honduras",
    [
+    "mesoamericana",
     "latinoamericana"
    ]
   ],
   "El Salvador": [
    "El Salvador",
    [
+    "mesoamericana",
     "latinoamericana"
    ]
   ],
@@ -600,6 +610,7 @@
   "Belize": [
    "Belice",
    [
+    "mesoamericana",
     "latinoamericana"
    ]
   ],
